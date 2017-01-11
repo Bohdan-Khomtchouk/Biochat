@@ -1,14 +1,10 @@
 ## Matchmaker
 
-`Matchmaker` is a Python natural language processing (NLP) module written in highly-tuned Cython that efficiently categorizes and pairs similar items (e.g., words) into groups.  
-It is the high performance computing (HPC) equivalent of the chemistry saying "like dissolves like."  
+`Matchmaker` is a Python natural language processing (NLP) module written in highly-tuned Cython that efficiently categorizes and pairs similar items (e.g., words) into groups.  It is the high performance computing (HPC) equivalent of the chemistry saying "like dissolves like."  
 
 ## Significance
 
-We apply the "like dissolves like" principle to teach data files to learn to talk to each other (quite literally).  
-In order to talk, data must first be able to find each other in space (not a trivial task, considering that there are dozens of bioinformatics databases out there... see how we've tackled this problem with PubData).  
-So how is an RNA-seq dataset supposed to find its potentially related ChIP-seq dataset (e.g., according to some combination of similar cell type, histone mark, sequencing details, etc.)?  Through metadata, of course!  
-However, for the datasets to meet each other via a similar metadata footprint requires sophisticated NLP strategies to introduce them (hence, why we call this software "Matchmaker").  Once the datasets meet, we can let the conversations (i.e., integrative bioinformatics analyses) begin!
+We apply the "like dissolves like" principle to teach data files to learn to talk to each other (quite literally).  In order to talk, data must first be able to find each other in space (not a trivial task, considering that there are dozens of bioinformatics databases out there... see how we've tackled this problem with PubData: https://github.com/Bohdan-Khomtchouk/PubData).  So how is an RNA-seq dataset supposed to find its potentially related ChIP-seq dataset (e.g., according to some combination of similar cell type, histone mark, sequencing details, etc.)?  Through metadata, of course!  However, for the datasets to meet each other via a similar metadata footprint requires sophisticated NLP strategies to introduce them (hence, why we call this software "Matchmaker").  Once the datasets meet, we can let the conversations (i.e., integrative bioinformatics analyses) begin!
 
 ## Motivation
 Our ultimate goal is to make integrative multi-omics a lot easier (and more fun) through artificial intelligence (AI).  Right now, we are barely scratching the surface with NLP.  Thus, we are currently implementing novel neural network approaches to help us teach data to talk to each other (stay tuned!).  
