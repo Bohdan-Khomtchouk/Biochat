@@ -1,4 +1,4 @@
-## Matchmaker
+# Matchmaker
 
 `Matchmaker` is a Python natural language processing (NLP) module written in highly-tuned Cython that efficiently categorizes and pairs similar items (e.g., words) into groups.  It is the high performance computing (HPC) equivalent of the chemistry saying "like dissolves like."  
 
