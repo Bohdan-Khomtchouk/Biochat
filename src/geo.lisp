@@ -4,6 +4,9 @@
 (in-package :b42)
 (named-readtables:in-readtable rutilsx-readtable)
 
+
+;;; web scraping
+
 (defparameter *max-geo-id* 6248)
 
 (defclass geo ()
@@ -18,7 +21,7 @@
         (tr (th) (td ($ summary)))
         (tr (th) (td (a ($ organism)))))))
 
-(defmethod crawlik:crawl ((site geo) &optional url next-fn)
+(defmethod crawlik:crawl ((site geo))
   (loop :with rez :do
     (when-it (crawlik:scrape
               site
@@ -34,4 +37,25 @@
         (princ @site.id)))
       (push (pair @site.id it) rez))
     (when (> (:+ @site.id) *max-geo-id*)
-      (return rez))))
+      (returnn-from crawlik:crawl rez)))
+
+
+;;; in-memory storage
+
+(defstruct (geo-rec (:conc-name gr-))
+  id title summary organism)
+
+(defun load-geo (dir)
+  (let (rez)
+    (dolist (file (directory (strcat dir "*.txt")))
+      (let ((raw (split #\Newline (read-file file))))
+        (push (make-geo-rec
+               :id (parse-integer (pathname-name file))
+               :title (? raw (1+ (position "TITLE" raw :test 'string=)))
+               :summary (? raw (1+ (position "SUMMARY" raw :test 'string=)))
+               :organism (? raw (1+ (position "ORGANISM" raw :test 'string=))))
+              rez)))
+    (coerce (reverse rez) 'vector)))
+
+(defvar *geo-db* (load-geo (asdf:system-relative-pathname
+                            :biochat2 "data/geo/")))

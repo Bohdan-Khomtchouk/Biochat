@@ -16,4 +16,5 @@
   ((:module #:src
     :serial t
     :components ((:file "package")
-                 (:file "geo")))))
+                 (:file "geo")
+                 (:file "search")))))
