@@ -9,12 +9,14 @@
   :licence "3-clause MIT licence"
   :description
   "An system to pair, organize, and group together different biological datasets."
-  :depends-on (#:rutilsx #:drakma #:cl-ppcre #:eager-future2
-                         #:crawlik
-                         #+dev #:should-test)
+  :depends-on (#:rutilsx #:drakma #:cl-ppcre #:eager-future2 #:yason
+               #:mgl-mat #:cl-nlp #:cl-nlp-contrib #:crawlik
+               #+dev #:should-test)
   :components
   ((:module #:src
     :serial t
     :components ((:file "package")
+                 (:file "util")
                  (:file "geo")
-                 (:file "search")))))
+                 (:file "search")
+                 (:file "doc2vec")))))

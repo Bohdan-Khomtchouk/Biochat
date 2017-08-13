@@ -37,7 +37,7 @@
         (princ @site.id)))
       (push (pair @site.id it) rez))
     (when (> (:+ @site.id) *max-geo-id*)
-      (returnn-from crawlik:crawl rez)))
+      (return-from crawlik:crawl rez)))
 
 
 ;;; in-memory storage

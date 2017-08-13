@@ -12,10 +12,12 @@ The plan for the first version is:
 
 Stages of the development of matching algorithm:
 
-* [ ] Direct matching on a per-word or per-phase basis
-* [ ] Similarity matching using vector space modeling. Using word vectors from <https://github.com/cambridgeltl/BioNLP-2016> and the [doc2vec approach](https://cs.stanford.edu/~quocle/paragraph_vector.pdf)
+* [x] Direct matching on a per-word or per-phase basis
+* [x] Similarity matching using vector space modeling with word vectors from <https://github.com/cambridgeltl/BioNLP-2016> and the [doc2vec approach](https://cs.stanford.edu/~quocle/paragraph_vector.pdf)
 
 
 ## Installation
 
 Additionally to having Quicklisp you'll need to clone [crawlik](https://github.com/vseloved/crawlik) to `~/common-lisp/`.
+
+To use PubMed word vectors, `(pushnew :use-pubmed *features*)` before loading the system `biochat2`.
