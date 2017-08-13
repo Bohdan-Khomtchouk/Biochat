@@ -45,10 +45,15 @@ http://evexdb.org/pmresources/vec-space-models/wikipedia-pubmed-and-PMC-w2v.bin"
 
 
 (defun closest-vecs (vec &key (vecs *geo-vecs*) (measure 'cos-sim))
-  (rest (sort (map* ^(pair %% (call measure vec %))
-                    vecs (range 0 (length vecs)))
-              '> :key 'rt)))
+  (subseq (sort (map* ^(pair %% (call measure vec %))
+                      vecs (range 0 (length vecs)))
+                '> :key 'rt)
+          1))
 
+(defun vec-closest-recs (rec &key (db *geo-db*) (measure 'cos-sim))
+  (map* ^(? db (lt %))
+        (closest-vecs (geo-vec rec))))
+                  
 
 ;;; clustering
 
