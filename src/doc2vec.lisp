@@ -122,7 +122,7 @@ http://evexdb.org/pmresources/vec-space-models/wikipedia-pubmed-and-PMC-w2v.bin"
                        (:= (? seen node) t))
                      (collect-recs node)))))
       (dolist (step path)
-        (push (collect-recs step) rez)))
+        (collect-recs step)))
     (reverse rez)))
 
 
