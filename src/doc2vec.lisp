@@ -51,8 +51,8 @@
           1))
 
 (defun vec-closest-recs (rec &key (db *geo-db*) (measure 'cos-sim))
-  (map* ^(? db (lt %))
-        (closest-vecs (geo-vec rec))))
+  (map 'list ^(? db (lt %))
+       (closest-vecs (geo-vec rec))))
                   
 
 ;;; clustering
