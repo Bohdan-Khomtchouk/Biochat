@@ -11,8 +11,8 @@
   (nlp:init-vecs (make 'nlp:mem-vecs :order 200) :wvlib
                  (local-file "data/PubMed-shuffle-win-30.bin"))
   "This variable will be initialized on first access and, for it to work,
-a file PubMed-shuffle-win-30.bin from here:
-http://evexdb.org/pmresources/vec-space-models/wikipedia-pubmed-and-PMC-w2v.bin")
+   a file PubMed-shuffle-win-30.bin from here:
+   https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8")
 
 (defun text-vec (text)
   (let ((words (nlp:tokenize nlp:<word-tokenizer> text)))
