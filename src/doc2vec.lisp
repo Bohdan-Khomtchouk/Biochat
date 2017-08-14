@@ -21,8 +21,7 @@
                                        words)))))
 
 (defun geo-vec (geo &key (w #h(:title 0.0 :summary 1.0 :organism 0.0)))
-  (reduce '
-   mat:m+ (list (mat:scal! (? w :title) (text-vec @geo.title))
+  (reduce 'mat:m+ (list (mat:scal! (? w :title) (text-vec @geo.title))
                         (mat:scal! (? w :summary) (text-vec @geo.summary))
                         (mat:scal! (? w :organism) (text-vec @geo.organism)))))
 
