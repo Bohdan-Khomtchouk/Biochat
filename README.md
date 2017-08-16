@@ -6,6 +6,56 @@
 
 We apply the "like dissolves like" principle to teach data files to learn to talk to each other (quite literally).  In order to talk, data must first be able to find each other in space (not a trivial task, considering that there are dozens of bioinformatics databases out there... see how we've tackled this problem with <a href="https://github.com/Bohdan-Khomtchouk/PubData">PubData</a>).  So how, for example, is an RNA-seq dataset supposed to find its potentially related ChIP-seq dataset (e.g., according to some combination of similar cell type, histone mark, sequencing details, etc.)?  Through metadata, of course!  However, for the datasets to meet each other via a similar metadata footprint requires sophisticated NLP strategies to introduce them.  Once the datasets meet, we can let the conversations (i.e., integrative bioinformatics analyses) begin!  Hence the name: `Biochat`.
 
+## Example
+
+Here is an example run from Biochat using record #10 from the Gene Expression Omnibus (GEO) database:
+
+```
+#S(GEO-REC
+   :ID 10
+   :TITLE "Type 1 diabetes gene expression profiling"
+   :SUMMARY "Examination of spleen and thymus of type 1 diabetes nonobese diabetic (NOD) mouse, four NOD-derived diabetes-resistant congenic strains and two nondiabetic control strains."
+   :ORGANISM "Mus musculus")
+```
+
+```
+B42> (subseq (vec-closest-recs (? *geo-db* 0)) 0 3)
+(#S(GEO-REC
+     :ID 5167
+     :TITLE "Type 2 diabetic obese patients: visceral adipose tissue CD14+ cells"
+     :SUMMARY "Analysis of visceral adipose tissue CD14+ cells isolated from obese, type 2 diabetic patients. Obesity is marked by changes in the immune cell composition of adipose tissue. Results provide insight into the molecular basis of proinflammatory cytokine production in obesity-linked type 2 diabetes."
+     :ORGANISM "Homo sapiens")
+  #S(GEO-REC
+     :ID 4191
+     :TITLE "NZM2410-derived lupus susceptibility locus Sle2c1: peritoneal cavity B cells"
+     :SUMMARY "Analysis of peritoneal cavity B cells (B1a) and splenic B (sB) cells from B6.Sle2c1 mice. Sle2 induces expansion of the B1a cell compartment, a B cell defect consistently associated with lupus. Results provide insight into molecular mechanisms underlying susceptibility to lupus in the NZM2410 model."
+     :ORGANISM "Mus musculus")
+  #S(GEO-REC
+     :ID 437
+     :TITLE "Heart transplants"
+     :SUMMARY "Examination of immunologic tolerance induction achieved in cardiac allografts from BALB/c to C57BL/6 mice by daily intraperitoneal injection of anti-CD80 and anti-CD86 monoclonal antibodies (mAbs)."
+     :ORGANISM "Mus musculus"))
+
+B42> (subseq (tree-closest-recs (? *geo-db* 0)) 0 3)
+(#S(GEO-REC
+    :ID 471
+    :TITLE "Malaria resistance"
+    :SUMMARY "Examination of molecular basis of malaria resistance. Spleens from malaria resistant recombinant congenic strains AcB55 and AcB61 compared with malaria susceptible A/J mice."
+    :ORGANISM "Mus musculus")
+ #S(GEO-REC
+    :ID 4258
+    :TITLE "THP-1 macrophage-like cells response to W-Beijing Mycobacterium tuberculosis strains: time course"
+    :SUMMARY "Temporal analysis of macrophage-like THP-1 cell line infected by Mycobacterium tuberculosis (Mtb) W-Beijing strains and H37Rv. Mtb W-Beijing sublineages are highly virulent, prevalent and genetically diverse. Results provide insight into host macrophage immune response to Mtb W-Beijing strains."
+    :ORGANISM "Homo sapiens")
+ #S(GEO-REC
+    :ID 4966
+    :TITLE "Active tuberculosis: peripheral blood mononuclear cells"
+    :SUMMARY "Analysis of PBMCs isolated from patients with active pulmonary tuberculosis (PTB) and latent TB infection (LTBI). Results provide insight into identifying potential biomarkers that can distinguish individuals with PTB from LTBI."
+    :ORGANISM "Homo sapiens"))
+```
+
+Record #10 ("Type 1 diabetes gene expression profiling") is a mouse diabetes record from spleen and thymus, which are organs where immunological tolerance is frequently studied.  Even though no explicit mention of "immunological tolerance" is made in record #10, `Biochat` correctly pairs it with record #437 (where "immunological tolerance" is explicitly stated in the Summary).  Likewise, record #10 is nicely paired with record #5167 ("Type 2 diabetic obese patients: visceral adipose tissue CD14+ cells"), which is from a different model organism (human) but involves an immunological study from diabetic patient samples.  A description of the functions used in the code above is given in [How it works](https://github.com/Bohdan-Khomtchouk/Biochat#how-it-works).
+
 ## Motivation
 Our ultimate goal is to make integrative multi-omics a lot easier (and more fun) through artificial intelligence (AI).  Right now, we are barely scratching the surface with NLP.  Thus, we are currently implementing novel neural network approaches to help us teach data to talk to each other (stay tuned!).  
 
@@ -63,56 +113,6 @@ Euclidian distance-based similarity (`euc-sim`). Unlike `geo-group`, vector-spac
 
 - `vec-closest-recs` that sorts the aggregated document vectors directly with the similarity measure (`cos-sim`, `euc-sim`, etc.)
 - `tree-closest-recs` finds the closest records based on the pre-calculated hierarchical clustering (performed with the UPGMA algorithm using the cosine similarity measure). The results of clustering are stored in the [text file](data/geo-tree-cos.lisp)
-
-**Example:**
-
-Here is an example run of these functions with record #10 from the Gene Expression Omnibus (GEO) database:
-
-```
-#S(GEO-REC
-   :ID 10
-   :TITLE "Type 1 diabetes gene expression profiling"
-   :SUMMARY "Examination of spleen and thymus of type 1 diabetes nonobese diabetic (NOD) mouse, four NOD-derived diabetes-resistant congenic strains and two nondiabetic control strains."
-   :ORGANISM "Mus musculus")
-```
-
-```
-B42> (subseq (vec-closest-recs (? *geo-db* 0)) 0 3)
-(#S(GEO-REC
-     :ID 5167
-     :TITLE "Type 2 diabetic obese patients: visceral adipose tissue CD14+ cells"
-     :SUMMARY "Analysis of visceral adipose tissue CD14+ cells isolated from obese, type 2 diabetic patients. Obesity is marked by changes in the immune cell composition of adipose tissue. Results provide insight into the molecular basis of proinflammatory cytokine production in obesity-linked type 2 diabetes."
-     :ORGANISM "Homo sapiens")
-  #S(GEO-REC
-     :ID 4191
-     :TITLE "NZM2410-derived lupus susceptibility locus Sle2c1: peritoneal cavity B cells"
-     :SUMMARY "Analysis of peritoneal cavity B cells (B1a) and splenic B (sB) cells from B6.Sle2c1 mice. Sle2 induces expansion of the B1a cell compartment, a B cell defect consistently associated with lupus. Results provide insight into molecular mechanisms underlying susceptibility to lupus in the NZM2410 model."
-     :ORGANISM "Mus musculus")
-  #S(GEO-REC
-     :ID 437
-     :TITLE "Heart transplants"
-     :SUMMARY "Examination of immunologic tolerance induction achieved in cardiac allografts from BALB/c to C57BL/6 mice by daily intraperitoneal injection of anti-CD80 and anti-CD86 monoclonal antibodies (mAbs)."
-     :ORGANISM "Mus musculus"))
-
-B42> (subseq (tree-closest-recs (? *geo-db* 0)) 0 3)
-(#S(GEO-REC
-    :ID 471
-    :TITLE "Malaria resistance"
-    :SUMMARY "Examination of molecular basis of malaria resistance. Spleens from malaria resistant recombinant congenic strains AcB55 and AcB61 compared with malaria susceptible A/J mice."
-    :ORGANISM "Mus musculus")
- #S(GEO-REC
-    :ID 4258
-    :TITLE "THP-1 macrophage-like cells response to W-Beijing Mycobacterium tuberculosis strains: time course"
-    :SUMMARY "Temporal analysis of macrophage-like THP-1 cell line infected by Mycobacterium tuberculosis (Mtb) W-Beijing strains and H37Rv. Mtb W-Beijing sublineages are highly virulent, prevalent and genetically diverse. Results provide insight into host macrophage immune response to Mtb W-Beijing strains."
-    :ORGANISM "Homo sapiens")
- #S(GEO-REC
-    :ID 4966
-    :TITLE "Active tuberculosis: peripheral blood mononuclear cells"
-    :SUMMARY "Analysis of PBMCs isolated from patients with active pulmonary tuberculosis (PTB) and latent TB infection (LTBI). Results provide insight into identifying potential biomarkers that can distinguish individuals with PTB from LTBI."
-    :ORGANISM "Homo sapiens"))
-```
-
-Record #10 ("Type 1 diabetes gene expression profiling") is a mouse diabetes record from spleen and thymus, which are organs where immunological tolerance is frequently studied.  Even though no explicit mention of "immunological tolerance" is made in record #10, `Biochat` correctly pairs it with record #437 (where "immunological tolerance" is explicitly stated in the Summary).  Likewise, record #10 is nicely paired with record #5167 ("Type 2 diabetic obese patients: visceral adipose tissue CD14+ cells"), which is from a different model organism (human) but involves an immunological study from diabetic patient samples.   
 
 ## Checklist
 
