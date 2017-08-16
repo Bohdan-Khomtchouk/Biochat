@@ -8,7 +8,7 @@ We apply the "like dissolves like" principle to teach data files to learn to tal
 
 ## Example
 
-Here is an example run from Biochat using record #10 from the Gene Expression Omnibus (GEO) database:
+Here is a sample run from Biochat using record #10 as input from the Gene Expression Omnibus (GEO) database:
 
 ```
 #S(GEO-REC
@@ -17,6 +17,8 @@ Here is an example run from Biochat using record #10 from the Gene Expression Om
    :SUMMARY "Examination of spleen and thymus of type 1 diabetes nonobese diabetic (NOD) mouse, four NOD-derived diabetes-resistant congenic strains and two nondiabetic control strains."
    :ORGANISM "Mus musculus")
 ```
+
+Here is the output using two separate approaches (`vec-closest-recs` and `tree-closest-recs`, both discussed in the section [How it works](https://github.com/Bohdan-Khomtchouk/Biochat#how-it-works)):
 
 ```
 B42> (subseq (vec-closest-recs (? *geo-db* 0)) 0 3)
@@ -54,7 +56,7 @@ B42> (subseq (tree-closest-recs (? *geo-db* 0)) 0 3)
     :ORGANISM "Homo sapiens"))
 ```
 
-Record #10 ("Type 1 diabetes gene expression profiling") is a mouse diabetes record from spleen and thymus, which are organs where immunological tolerance is frequently studied.  Even though no explicit mention of "immunological tolerance" is made in record #10, `Biochat` correctly pairs it with record #437 (where "immunological tolerance" is explicitly stated in the Summary).  Likewise, record #10 is nicely paired with record #5167 ("Type 2 diabetic obese patients: visceral adipose tissue CD14+ cells"), which is from a different model organism (human) but involves an immunological study from diabetic patient samples.  A description of the functions used in the code above is given in [How it works](https://github.com/Bohdan-Khomtchouk/Biochat#how-it-works).
+Record #10 ("Type 1 diabetes gene expression profiling") is a mouse diabetes record from spleen and thymus, which are organs where immunological tolerance is frequently studied.  Even though no explicit mention of "immunological tolerance" is made in record #10, `Biochat` correctly pairs it with record #437 (where "immunological tolerance" is explicitly stated in the Summary).  Likewise, record #10 is nicely paired with record #5167 ("Type 2 diabetic obese patients: visceral adipose tissue CD14+ cells"), which is from a different model organism (human) but involves an immunological study from diabetic patient samples.
 
 ## Motivation
 Our ultimate goal is to make integrative multi-omics a lot easier (and more fun) through artificial intelligence (AI).  Right now, we are barely scratching the surface with NLP.  Thus, we are currently implementing novel neural network approaches to help us teach data to talk to each other (stay tuned!).  
