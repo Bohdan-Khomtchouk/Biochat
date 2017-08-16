@@ -1,6 +1,6 @@
 # Biochat
 
-`Biochat` aims at providing an interactive workbench for matching records from medical/bio databases (like [GEO](https://www.ncbi.nlm.nih.gov)).  It operates based on efficient categorization and pairing of similar items (e.g., words that describe data records) into groups.  It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."  
+`Biochat` aims at providing an interactive workbench for matching records from medical/bio databases (like [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov)).  It operates based on efficient categorization and pairing of similar items (e.g., words that describe data records) into groups.  It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."  
 
 ## Significance
 
@@ -64,7 +64,9 @@ Euclidian distance-based similarity (`euc-sim`). Unlike `geo-group`, vector-spac
 - `vec-closest-recs` that sorts the aggregated document vectors directly with the similarity measure (`cos-sim`, `euc-sim`, etc.)
 - `tree-closest-recs` finds the closest records based on the pre-calculated hierarchical clustering (performed with the UPGMA algorithm using the cosine similarity measure). The results of clustering are stored in the [text file](data/geo-tree-cos.lisp)
 
-Here is an example run of these functions with record #10 from GEO db:
+**Example:**
+
+Here is an example run of these functions with record #10 from the Gene Expression Omnibus (GEO) database:
 
 ```
 #S(GEO-REC
