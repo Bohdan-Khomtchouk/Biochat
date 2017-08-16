@@ -1,6 +1,6 @@
 # Biochat
 
-`Biochat` aims at providing an interactive workbench for matching records from medical/bio databases (like [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov)).  It operates based on efficient categorization and pairing of similar items (e.g., words that describe data records) into groups.  It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."  
+`Biochat` aims at providing an interactive workbench for matching records from medical/bio databases (e.g., [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov)).  It operates based on efficient categorization and pairing of similar items (e.g., words that describe data records) into groups.  It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."  
 
 ## Significance
 
@@ -8,7 +8,7 @@ We apply the "like dissolves like" principle to teach data files to learn to tal
 
 ## Example
 
-Here is a sample run from Biochat using record #10 as input from the Gene Expression Omnibus (GEO) database:
+Here is a sample run from `Biochat` using record #10 as input from the Gene Expression Omnibus (GEO) database:
 
 ```
 #S(GEO-REC
