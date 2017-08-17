@@ -1,6 +1,10 @@
+<div align="center">
+<img src="https://i1.wp.com/www.dailyifix.com/wp-content/uploads/2017/05/iMessage-Typing-Indicator.gif?fit=880%2C440&ssl=1">
+</div>
+
 # Biochat
 
-`Biochat` aims at providing an interactive workbench for matching records from medical/bio databases (e.g., [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov)).  It operates based on efficient categorization and pairing of similar items (e.g., words that describe data records) into groups.  It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."  
+`Biochat` aims at providing an interactive workbench for biological databases (e.g., [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov), [miRBase](http://www.mirbase.org/), [TCGA](https://cancergenome.nih.gov/), [Human Epigenome Atlas](https://www.genboree.org/epigenomeatlas/index.rhtml), etc.) to learn to communicate with each other by matching and pairing data records across the biological data-verse (terabytes of publicly available data).  `Biochat` operates based on efficient categorization and pairing of similar items (e.g., words that describe data records) into groups.  It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."  
 
 ## Significance
 
