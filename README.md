@@ -152,7 +152,7 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 
 This software is thanks to the amazing work done by MANY people in the open source community of biological databases (GEO, PubMed, etc.)
 
-The work on `Biochat` was done by [Bohdan B. Khomtchouk, Ph.D.](https://about.me/bohdankhomtchouk), [Vsevolod Dyomkin](https://vseloved.github.io/).
+The work on `Biochat` was done by [Bohdan B. Khomtchouk, Ph.D.](https://about.me/bohdankhomtchouk) and [Vsevolod Dyomkin](https://vseloved.github.io/).
 
 ## Contributors
 * Vsevolod Dyomkin
