@@ -1,4 +1,4 @@
-;;; BIOCHAT2 work with GEO datasets
+;;; Biochat work with GEO datasets
 ;;; see LICENSE file for permissions
 
 (in-package :b42)
@@ -58,4 +58,4 @@
     (coerce (reverse rez) 'vector)))
 
 (defvar *geo-db* (load-geo (asdf:system-relative-pathname
-                            :biochat2 "data/geo/")))
+                            :biochat "data/geo/")))

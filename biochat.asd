@@ -1,14 +1,14 @@
-;;; BIOCHAT2 system definition
+;;; Biochat system definition
 ;;; see LICENSE file for permissions
 
-(asdf:defsystem #:biochat2
-  :name "Biochat 2"
+(asdf:defsystem #:biochat
+  :name "Biochat"
   :version (:read-file-line "version.txt")
-  :author "Vsevolod Dyomkin <vseloved@gmail.com>"
-  :maintainer "Vsevolod Dyomkin <vseloved@gmail.com>"
-  :licence "3-clause MIT licence"
+  :author "Bohdan Khomtchouk <bohdan@stanford.edu>", "Vsevolod Dyomkin <vseloved@gmail.com>"
+  :maintainer "Bohdan Khomtchouk <bohdan@stanford.edu>", "Vsevolod Dyomkin <vseloved@gmail.com>"
+  :license "MIT license"
   :description
-  "An system to pair, organize, and group together different biological datasets."
+  "A system to pair, organize, and group together different biological datasets."
   :depends-on (#:rutilsx #:drakma #:cl-ppcre #:eager-future2 #:yason
                #:mgl-mat #:cl-nlp #:cl-nlp-contrib #:crawlik
                #+dev #:should-test)

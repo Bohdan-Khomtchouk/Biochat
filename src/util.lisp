@@ -1,4 +1,4 @@
-;;; BIOCHAT2 utilities
+;;; Biochat utilities
 ;;; see LICENSE file for permissions
 
 (in-package :b42)

@@ -1,8 +1,8 @@
-;;; BIOCHAT2 package definition
+;;; Biochat package definition
 ;;; see LICENSE file for permissions
 
 
-(defpackage :biochat2
+(defpackage :biochat
   (:nicknames :b42)
   (:use :cl :rutilsx)
   (:local-nicknames (#:re #:cl-ppcre)
@@ -14,7 +14,7 @@
 
 (defparameter *dir* (uiop:pathname-directory-pathname
                      (asdf:component-pathname
-                      (asdf:find-system :biochat2))))
+                      (asdf:find-system :biochat))))
 
 (defun local-file (file)
   (merge-pathnames file *dir*))

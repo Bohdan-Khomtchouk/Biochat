@@ -1,11 +1,11 @@
-;;; BIOCHAT2 doc2vec implementation
+;;; Biochat doc2vec implementation
 ;;; see LICENSE file for permissions
 
 (in-package :b42)
 (named-readtables:in-readtable rutilsx-readtable)
 
 
-;;; pubmed vectors
+;;; PubMed vectors
 
 (defvar-lazy *pubmed*
   (nlp:init-vecs (make 'nlp:mem-vecs :order 200) :wvlib
@@ -52,7 +52,7 @@
 (defun vec-closest-recs (rec &key (db *geo-db*) (measure 'cos-sim))
   (map 'list ^(? db (lt %))
        (closest-vecs (geo-vec rec))))
-                  
+
 
 ;;; clustering
 

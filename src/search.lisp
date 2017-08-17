@@ -1,4 +1,4 @@
-;;; BIOCHAT2 work with GEO datasets
+;;; Biochat work with GEO datasets
 ;;; see LICENSE file for permissions
 
 (in-package :b42)
@@ -6,19 +6,19 @@
 
 (defparameter *histones*
   (split #\Newline (read-file (asdf:system-relative-pathname
-                               :biochat2 "data/histones.txt"))
+                               :biochat "data/histones.txt"))
          :remove-empty-subseqs t))
 
 (defparameter *pubdata-wordnet*
   (yason:parse (read-file (asdf:system-relative-pathname
-                           :biochat2 "data/pubdata-wordnet.json"))))
+                           :biochat "data/pubdata-wordnet.json"))))
 
 (dotable (k _ *pubdata-wordnet*)
   (when (every 'digit-char-p k)
     (rem# k *pubdata-wordnet*)))
 
 
-;;; groupping
+;;; grouping
 
 (defgeneric geo-group (method &optional geo-db)
   (:documentation
@@ -48,7 +48,7 @@
     rez))
 
 (defun find-and-write-groups (out-dir &rest methods)
-  "Find all groups according to METTHODS and return them in the hash-table
+  "Find all groups according to METHODS and return them in the hash-table
    keyed by method name, as well as write in per-method files to OUT-DIR."
   (ensure-directories-exist out-dir)
   (let ((rez #h()))
