@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i1.wp.com/www.dailyifix.com/wp-content/uploads/2017/05/iMessage-Typing-Indicator.gif?fit=880%2C440&ssl=1">
+<img src="https://user-images.githubusercontent.com/9893806/29490594-f18fa890-84f5-11e7-9fd4-d9e366b1dc64.gif">
 </div>
 
 # Biochat
