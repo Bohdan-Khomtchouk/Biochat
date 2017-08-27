@@ -76,7 +76,7 @@ Record #10 ("Type 1 diabetes gene expression profiling") is a mouse diabetes rec
 
 ## How it works
 
-The data is obtained by web scraping using the project [crawlik](https://github.com/vseloved/crawlik), which should be cloned from Github prior to loading `Biochat`. The crawled data from GEO is stored as text files in [data/GEO/GEO_records](https://github.com/Bohdan-Khomtchouk/Biochat/tree/master/data/GEO/GEO_records) directory & in memory in the variable `*geo-db*`. Here's an example record:
+The data is obtained by web scraping using the project [crawlik](https://github.com/vseloved/crawlik), which should be cloned from Github prior to loading `Biochat`. The crawled data from GEO is stored as text files in <a href="https://github.com/Bohdan-Khomtchouk/Biochat/tree/master/data/GEO/GEO_records">data/GEO/GEO_records</a> directory & in memory in the variable `*geo-db*`. Here's an example record:
 
 ```
 TITLE
@@ -91,9 +91,9 @@ Mus musculus
 
 The purpose of this tool is to find related/similar records using different approaches. This is implemented in the generic function `geo-group` that processes the database into a number of groups of related records. It has a number of methods:
 
-1. Match based on the same histone (the list of known histones is read from [a text file](https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/histones.txt)).
+1. Match based on the same histone (the list of known histones is read from a <a href="https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/histones.txt">text file</a>).
 2. Match based on the same organism.
-3. Synonym based on the synonyms obtained from the biological [PubData](https://github.com/Bohdan-Khomtchouk/PubData) wordnet database (read from a [JSON file](https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/pubdata-wordnet.json)).
+3. Synonym based on the synonyms obtained from the biological [PubData](https://github.com/Bohdan-Khomtchouk/PubData) wordnet database (read from a <a href="https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/pubdata-wordnet.json">JSON file</a>).
 4. Other possible simple match methods may be implemented.
 
 Another approach to matching is via vector space representations. Each record is transformed into a vector using the pre-calculated vectors for each word in its description (either all fields, or just summary, or summary + title). The vectors used are [PubMed vectors](https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8).
@@ -109,7 +109,7 @@ The most common are cosine similarity (`cos-sim`) and
 Euclidian distance-based similarity (`euc-sim`). Unlike `geo-group`, vector-space modeling results in a continuous space, in which it is unclear how to separate individual groups of related vectors. That's why an alternative approach is taken: arrange record vectors in terms of proximity to a given record. This is done with the functions:
 
 - `vec-closest-recs` that sorts the aggregated document vectors directly with the similarity measure (`cos-sim`, `euc-sim`, etc.)
-- `tree-closest-recs` finds the closest records based on the pre-calculated hierarchical clustering (performed with the UPGMA algorithm using the cosine similarity measure). The results of clustering are stored in the [text file](https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/GEO-tree-cos.lisp)
+- `tree-closest-recs` finds the closest records based on the pre-calculated hierarchical clustering (performed with the UPGMA algorithm using the cosine similarity measure). The results of clustering are stored in the <a href="https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/GEO-tree-cos.lisp">text file</a>.
 
 ## Like dissolves like
 
