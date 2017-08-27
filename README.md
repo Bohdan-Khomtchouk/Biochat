@@ -76,7 +76,7 @@ Record #10 ("Type 1 diabetes gene expression profiling") is a mouse diabetes rec
 
 ## How it works
 
-The data is obtained by web scraping using the project [crawlik](https://github.com/vseloved/crawlik), which should be cloned from Github prior to loading `Biochat`. The crawled data from GEO is stored as text files in [data/geo/](data/geo/) directory & in memory in the variable `*geo-db*`. Here's an example record:
+The data is obtained by web scraping using the project [crawlik](https://github.com/vseloved/crawlik), which should be cloned from Github prior to loading `Biochat`. The crawled data from GEO is stored as text files in [data/GEO/GEO_records](https://github.com/Bohdan-Khomtchouk/Biochat/tree/master/data/GEO/GEO_records) directory & in memory in the variable `*geo-db*`. Here's an example record:
 
 ```
 TITLE
@@ -91,9 +91,9 @@ Mus musculus
 
 The purpose of this tool is to find related/similar records using different approaches. This is implemented in the generic function `geo-group` that processes the database into a number of groups of related records. It has a number of methods:
 
-1. Match based on the same histone (the list of known histones is read from [a text file](data/histones.txt)).
+1. Match based on the same histone (the list of known histones is read from [a text file](https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/histones.txt)).
 2. Match based on the same organism.
-3. Synonym based on the synonyms obtained from the biological [PubData](https://github.com/Bohdan-Khomtchouk/PubData) Wordnet database (read from a [JSON file](data/pubdata-wordnet.json)).
+3. Synonym based on the synonyms obtained from the biological [PubData](https://github.com/Bohdan-Khomtchouk/PubData) wordnet database (read from a [JSON file](https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/pubdata-wordnet.json)).
 4. Other possible simple match methods may be implemented.
 
 Another approach to matching is via vector space representations. Each record is transformed into a vector using the pre-calculated vectors for each word in its description (either all fields, or just summary, or summary + title). The vectors used are [PubMed vectors](https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8).
@@ -109,7 +109,7 @@ The most common are cosine similarity (`cos-sim`) and
 Euclidian distance-based similarity (`euc-sim`). Unlike `geo-group`, vector-space modeling results in a continuous space, in which it is unclear how to separate individual groups of related vectors. That's why an alternative approach is taken: arrange record vectors in terms of proximity to a given record. This is done with the functions:
 
 - `vec-closest-recs` that sorts the aggregated document vectors directly with the similarity measure (`cos-sim`, `euc-sim`, etc.)
-- `tree-closest-recs` finds the closest records based on the pre-calculated hierarchical clustering (performed with the UPGMA algorithm using the cosine similarity measure). The results of clustering are stored in the [text file](data/geo-tree-cos.lisp)
+- `tree-closest-recs` finds the closest records based on the pre-calculated hierarchical clustering (performed with the UPGMA algorithm using the cosine similarity measure). The results of clustering are stored in the [text file](https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/GEO-tree-cos.lisp)
 
 ## Like dissolves like
 
@@ -118,24 +118,6 @@ We apply the "like dissolves like" principle to teach data files to learn to tal
 ## Motivation
 
 Our ultimate goal is to make integrative multi-omics a lot easier (and more fun) through artificial intelligence (AI).  Right now, we are barely scratching the surface with NLP.  Thus, we are currently implementing novel neural network approaches to help us teach data to talk to each other (stay tuned!).  
-
-
-## Algorithms<sup>1</sup>
-
-`Biochat` uses the following formula for calculating the similarity between any two distinct entities:
-
-![image](https://cloud.githubusercontent.com/assets/5694520/21303565/5e4c1c5c-c5d4-11e6-95fe-3e434c1a3b21.png)
-
-![image](https://cloud.githubusercontent.com/assets/5694520/21303577/79b0bd5e-c5d4-11e6-84dd-0b8343ee70b0.png)
-
-
-Where affinity is defined as follows:
-
-![image](https://cloud.githubusercontent.com/assets/5694520/21303883/c74fe9a2-c5d6-11e6-8634-d2e212ff5b32.png)
-
-![image](https://cloud.githubusercontent.com/assets/5694520/21303889/d435c68c-c5d6-11e6-8334-8d88e20529d4.png)
-
-These algorithms have been successfully implemented in the [Python branch](https://github.com/Bohdan-Khomtchouk/Biochat/tree/master) of `Biochat`.  We are currently re-pivoting our platform into a deep learning architecture (stay tuned!).
 
 ## Checklist
 
@@ -181,9 +163,3 @@ The work on `Biochat` was done by [Bohdan B. Khomtchouk, Ph.D.](https://about.me
 
 ## Citation
 Coming soon!
-
--------------
-<sub>
-1. Yael Karov and Shimon Edelman. 1998. Similarity-based word sense disambiguation.
-*Computational Linguistics, 24(1):41-59.*
-</sub>
