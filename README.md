@@ -74,32 +74,6 @@ B42> (subseq (tree-closest-recs (? *geo-db* 0)) 0 3)
 
 Record #10 ("Type 1 diabetes gene expression profiling") is a mouse diabetes record from spleen and thymus, which are organs where immunological tolerance is frequently studied.  Even though no explicit mention of "immunological tolerance" is made in record #10, `Biochat` correctly pairs it with record #437 (where "immunological tolerance" is explicitly stated in the Summary).  Likewise, record #10 is nicely paired with record #5167 ("Type 2 diabetic obese patients: visceral adipose tissue CD14+ cells"), which is from a different model organism (human) but involves an immunological study (CD14+ cells) from diabetic patient samples.
 
-## Like dissolves like
-
-We apply the "like dissolves like" principle to teach data files to learn to talk to each other (quite literally).  In order to talk, data must first be able to find each other in space (not a trivial task, considering that there are thousands of bioinformatics databases out there... see how we've tackled this problem with <a href="https://github.com/Bohdan-Khomtchouk/PubData">PubData</a>).  So how, for example, is an RNA-seq dataset supposed to find its potentially related ChIP-seq dataset (e.g., according to some combination of similar cell type, histone mark, sequencing details, etc.)?  Through metadata, of course!  However, for the datasets to meet each other via a similar metadata footprint requires sophisticated NLP strategies to introduce them.  Once the datasets meet, we can let the conversations (i.e., integrative bioinformatics analyses) begin!  Hence the name: `Biochat`.
-
-## Motivation
-
-Our ultimate goal is to make integrative multi-omics a lot easier (and more fun) through artificial intelligence (AI).  Right now, we are barely scratching the surface with NLP.  Thus, we are currently implementing novel neural network approaches to help us teach data to talk to each other (stay tuned!).  
-
-
-## Algorithms<sup>1</sup>
-
-`Biochat` uses the following formula for calculating the similarity between any two distinct entities:
-
-![image](https://cloud.githubusercontent.com/assets/5694520/21303565/5e4c1c5c-c5d4-11e6-95fe-3e434c1a3b21.png)
-
-![image](https://cloud.githubusercontent.com/assets/5694520/21303577/79b0bd5e-c5d4-11e6-84dd-0b8343ee70b0.png)
-
-
-Where affinity is defined as follows:
-
-![image](https://cloud.githubusercontent.com/assets/5694520/21303883/c74fe9a2-c5d6-11e6-8634-d2e212ff5b32.png)
-
-![image](https://cloud.githubusercontent.com/assets/5694520/21303889/d435c68c-c5d6-11e6-8334-8d88e20529d4.png)
-
-These algorithms have been successfully implemented in the [Python branch](https://github.com/Bohdan-Khomtchouk/Biochat/tree/master) of `Biochat`.  We are currently re-pivoting our platform into a deep learning architecture (stay tuned!).
-
 ## How it works
 
 The data is obtained by web scraping using the project [crawlik](https://github.com/vseloved/crawlik), which should be cloned from Github prior to loading `Biochat`. The crawled data from GEO is stored as text files in [data/geo/](data/geo/) directory & in memory in the variable `*geo-db*`. Here's an example record:
@@ -136,6 +110,32 @@ Euclidian distance-based similarity (`euc-sim`). Unlike `geo-group`, vector-spac
 
 - `vec-closest-recs` that sorts the aggregated document vectors directly with the similarity measure (`cos-sim`, `euc-sim`, etc.)
 - `tree-closest-recs` finds the closest records based on the pre-calculated hierarchical clustering (performed with the UPGMA algorithm using the cosine similarity measure). The results of clustering are stored in the [text file](data/geo-tree-cos.lisp)
+
+## Like dissolves like
+
+We apply the "like dissolves like" principle to teach data files to learn to talk to each other (quite literally).  In order to talk, data must first be able to find each other in space (not a trivial task, considering that there are thousands of bioinformatics databases out there... see how we've tackled this problem with <a href="https://github.com/Bohdan-Khomtchouk/PubData">PubData</a>).  So how, for example, is an RNA-seq dataset supposed to find its potentially related ChIP-seq dataset (e.g., according to some combination of similar cell type, histone mark, sequencing details, etc.)?  Through metadata, of course!  However, for the datasets to meet each other via a similar metadata footprint requires sophisticated NLP strategies to introduce them.  Once the datasets meet, we can let the conversations (i.e., integrative bioinformatics analyses) begin!  Hence the name: `Biochat`.
+
+## Motivation
+
+Our ultimate goal is to make integrative multi-omics a lot easier (and more fun) through artificial intelligence (AI).  Right now, we are barely scratching the surface with NLP.  Thus, we are currently implementing novel neural network approaches to help us teach data to talk to each other (stay tuned!).  
+
+
+## Algorithms<sup>1</sup>
+
+`Biochat` uses the following formula for calculating the similarity between any two distinct entities:
+
+![image](https://cloud.githubusercontent.com/assets/5694520/21303565/5e4c1c5c-c5d4-11e6-95fe-3e434c1a3b21.png)
+
+![image](https://cloud.githubusercontent.com/assets/5694520/21303577/79b0bd5e-c5d4-11e6-84dd-0b8343ee70b0.png)
+
+
+Where affinity is defined as follows:
+
+![image](https://cloud.githubusercontent.com/assets/5694520/21303883/c74fe9a2-c5d6-11e6-8634-d2e212ff5b32.png)
+
+![image](https://cloud.githubusercontent.com/assets/5694520/21303889/d435c68c-c5d6-11e6-8334-8d88e20529d4.png)
+
+These algorithms have been successfully implemented in the [Python branch](https://github.com/Bohdan-Khomtchouk/Biochat/tree/master) of `Biochat`.  We are currently re-pivoting our platform into a deep learning architecture (stay tuned!).
 
 ## Checklist
 
