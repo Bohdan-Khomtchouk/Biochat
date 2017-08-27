@@ -4,9 +4,25 @@
 
 # Biochat
 
-`Biochat` aims at providing an interactive workbench for biological databases (e.g., [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov), [miRBase](http://www.mirbase.org/), [TCGA](https://cancergenome.nih.gov/), [Human Epigenome Atlas](https://www.genboree.org/epigenomeatlas/index.rhtml), etc.) to learn to communicate with each other by matching and pairing data records across the biological data-verse (terabytes of publicly available data).  `Biochat`'s mission is to fundamentally transform how people perform biological data science by unifying it, going from 50+ scattered database silos (that act as storage repositories) to 1 intelligent centralized framework (that acts as a living breathing AI to integrate large-scale data), thereby opening doors to more biological breakthroughs based on existing publicly available data.  `Biochat` is written in Common Lisp and operates based on efficient categorization and pairing of similar items (e.g., words that describe data records) into groups.  It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."  
+## Introduction
 
-## Example
+### The Problem:
+
+Currently, there exist thousands of biological databases containing terabytes of publicly available data.  So much data scattered in so many locations impedes unified and comprehensive data-driven approaches to biological discovery.
+
+### The Solution:
+
+Create an artificial intelligence daemon that is constantly unifying and organizing the world's biological information by intelligently integrating it into self-similar data modules grouped by biological themes and subthemes (e.g., theme: brain cancer; subthemes: glioblastoma (GBM), astrocytoma, medulloblastoma, ... ; sub-subthemes: primary GBM, pineal astrocytic tumor, brain stem glioma, ...).
+
+### Significance:
+
+The biological data-verse is expanding every day, with new experimental data published daily.  Biology is done in many different model organisms (e.g., human, mouse, rat, etc.), with many different next-generation sequencing types (e.g, ChIP-seq, RNA-seq, etc.), in many different cell lines (e.g., K562, NHEK, etc.), focusing on many different transcription factors, epigenetic modifications, etc.  Multidimensionally integrating all this information from what has already been done with new latest biological developments is essential to data-driven discovery (e.g., [cancer cures could already exist in big data](https://www.fastcompany.com/3063530/cancer-cures-could-already-exist-in-big-data)).   Specifically, pairing ostensibly unrelated datasets (e.g., from different organisms, NGS types, age groups, cell lines, etc.) can inform and contribute deeper understanding of a variety of biological questions ranging from cancer to aging.  
+
+## Software
+
+`Biochat` aims at providing an interactive workbench for biological databases (e.g., [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov), [miRBase](http://www.mirbase.org/), [TCGA](https://cancergenome.nih.gov/), [Human Epigenome Atlas](https://www.genboree.org/epigenomeatlas/index.rhtml), etc.) to learn to communicate with each other by matching and pairing similar data records across the biological data-verse.  `Biochat`'s mission is to fundamentally transform how people perform biological data science by unifying it, going from thousands of scattered database silos (that act as storage repositories) to 1 intelligent centralized framework (that acts as an AI to integrate large-scale data), thereby opening doors to more biological breakthroughs based on existing data.  `Biochat` is written in Common Lisp and operates based on efficient categorization and pairing of similar items (e.g., words that describe ostensibly unrelated data records) into groups.  It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."  
+
+## Concrete example
 
 Here is a sample run from `Biochat` using record #10 as input from the Gene Expression Omnibus (GEO) database:
 
@@ -58,11 +74,12 @@ B42> (subseq (tree-closest-recs (? *geo-db* 0)) 0 3)
 
 Record #10 ("Type 1 diabetes gene expression profiling") is a mouse diabetes record from spleen and thymus, which are organs where immunological tolerance is frequently studied.  Even though no explicit mention of "immunological tolerance" is made in record #10, `Biochat` correctly pairs it with record #437 (where "immunological tolerance" is explicitly stated in the Summary).  Likewise, record #10 is nicely paired with record #5167 ("Type 2 diabetic obese patients: visceral adipose tissue CD14+ cells"), which is from a different model organism (human) but involves an immunological study (CD14+ cells) from diabetic patient samples.
 
-## Significance
+## Like dissolves like
 
-We apply the "like dissolves like" principle to teach data files to learn to talk to each other (quite literally).  In order to talk, data must first be able to find each other in space (not a trivial task, considering that there are dozens of bioinformatics databases out there... see how we've tackled this problem with <a href="https://github.com/Bohdan-Khomtchouk/PubData">PubData</a>).  So how, for example, is an RNA-seq dataset supposed to find its potentially related ChIP-seq dataset (e.g., according to some combination of similar cell type, histone mark, sequencing details, etc.)?  Through metadata, of course!  However, for the datasets to meet each other via a similar metadata footprint requires sophisticated NLP strategies to introduce them.  Once the datasets meet, we can let the conversations (i.e., integrative bioinformatics analyses) begin!  Hence the name: `Biochat`.
+We apply the "like dissolves like" principle to teach data files to learn to talk to each other (quite literally).  In order to talk, data must first be able to find each other in space (not a trivial task, considering that there are thousands of bioinformatics databases out there... see how we've tackled this problem with <a href="https://github.com/Bohdan-Khomtchouk/PubData">PubData</a>).  So how, for example, is an RNA-seq dataset supposed to find its potentially related ChIP-seq dataset (e.g., according to some combination of similar cell type, histone mark, sequencing details, etc.)?  Through metadata, of course!  However, for the datasets to meet each other via a similar metadata footprint requires sophisticated NLP strategies to introduce them.  Once the datasets meet, we can let the conversations (i.e., integrative bioinformatics analyses) begin!  Hence the name: `Biochat`.
 
 ## Motivation
+
 Our ultimate goal is to make integrative multi-omics a lot easier (and more fun) through artificial intelligence (AI).  Right now, we are barely scratching the surface with NLP.  Thus, we are currently implementing novel neural network approaches to help us teach data to talk to each other (stay tuned!).  
 
 
