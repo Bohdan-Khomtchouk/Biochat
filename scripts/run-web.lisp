@@ -3,5 +3,6 @@
 (push (merge-pathnames "../" *dir*) asdf:*central-registry*)
 (push (merge-pathnames "../../rutils/" *dir*) asdf:*central-registry*)
 (push (merge-pathnames "../../cl-nlp/" *dir*) asdf:*central-registry*)
+(push (merge-pathnames "../../crawlik/" *dir*) asdf:*central-registry*)
 
 (ql:quickload :biochat)
