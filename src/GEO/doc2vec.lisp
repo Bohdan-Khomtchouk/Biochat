@@ -139,4 +139,4 @@
     (mapleaves ^(position % *geo-db* :key 'gr-id)
                (read in))))
 
-(defpar *geo-tree* (load-geo-tree (local-file "data/geo-tree-cos.lisp")))
+(defpar *geo-tree* (load-geo-tree (local-file "data/GEO/GEO-tree-cos.lisp")))

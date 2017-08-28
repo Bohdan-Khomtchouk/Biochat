@@ -5,13 +5,11 @@
 (named-readtables:in-readtable rutilsx-readtable)
 
 (defparameter *histones*
-  (split #\Newline (read-file (asdf:system-relative-pathname
-                               :biochat "data/histones.txt"))
+  (split #\Newline (read-file (local-file "data/GEO/histones.txt"))
          :remove-empty-subseqs t))
 
 (defparameter *pubdata-wordnet*
-  (yason:parse (read-file (asdf:system-relative-pathname
-                           :biochat "data/pubdata-wordnet.json"))))
+  (yason:parse (read-file (local-file "data/GEO/pubdata-wordnet.json"))))
 
 (dotable (k _ *pubdata-wordnet*)
   (when (every 'digit-char-p k)

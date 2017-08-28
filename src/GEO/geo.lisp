@@ -57,5 +57,4 @@
               rez)))
     (coerce (reverse rez) 'vector)))
 
-(defvar *geo-db* (load-geo (asdf:system-relative-pathname
-                            :biochat "data/geo/")))
+(defvar *geo-db* (load-geo (local-file "data/GEO/GEO_records/")))

@@ -1,0 +1,39 @@
+BODY { padding: 30px; background-color: #e6e6e6; }
+H2 { margin-bottom: 5px; }
+DIV.bg_light { background-color: GhostWhite; }
+DIV.bg_dark { background-color: #f0f0f0; }
+DIV.bg_pink { background-color: pink !important; }
+TD, TH { vertical-align: top; }
+DIV {
+    margin: 5px;
+}
+DIV.page {
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    padding: 2 2.857142857rem 2rem;
+    margin-top: 3.428571429rem;
+    margin-bottom: 3.428571429rem;
+    margin: 0 auto;
+    max-width: 68.571428571rem;
+    background-color: #fff;
+}
+INPUT[type=text] {
+    margin: 5px;
+    padding: 5px;
+}
+UL.menu {
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  display: inline-block !important;
+  width: 100%;
+}
+UL.menu LI {
+    margin: 0 2.857142857rem 0 0;
+}
+UL.menu A {
+  display: inline-block;
+  text-decoration: none;
+}
+SPAN.additional {
+    font-size: smaller;
+    font-weight: normal;
+}
