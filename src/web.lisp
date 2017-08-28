@@ -80,7 +80,7 @@
                                          (vec-closest-recs rec :measure 'cos-sim)
                                          (vec-closest-recs rec :measure 'euc-sim)
                                          (let (rez)
-                                           (dotaтble (k v *pubdata-geo-groups*)
+                                           (dotable (k v *pubdata-geo-groups*)
                                              (when-it (find rec v)
                                                (push it rez)))
                                            (loop :while (< (length rez) count)
