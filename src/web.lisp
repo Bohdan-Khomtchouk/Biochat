@@ -32,7 +32,8 @@
      (:body
       (:div :class "page"
             (:h1 "Biochats demo")
-            (:div "Here, you can find the most similar records from the "
+            (:div :style "font-size: smaller; color: gray;"
+                  "Here, you can find the most similar records from the "
                   (:a :href "https://www.ncbi.nlm.nih.gov/geo/" "GEO DB")
                   ". To do that, you have to put in a particular record's "
                   "ID (and optionally select the number of similar records "
