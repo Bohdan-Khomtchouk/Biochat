@@ -32,6 +32,13 @@
      (:body
       (:div :class "page"
             (:h1 "Biochats demo")
+            (:div "Here, you can find the most similar records from the "
+                  (:a :href "https://www.ncbi.nlm.nih.gov/geo/" "GEO DB")
+                  ". To do that, you have to put in a particular record's "
+                  "ID (and optionally select the number of similar records "
+                  "to show). For instance, in record: "
+                  "https://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=GDS5879 "
+                  "the input number is 5879.")
             (:form :action "/search" :method "GET" :id "search-form"
                    :onsubmit "return search()"
                    (:label :for "gid" "Enter GEO record id:") " "
