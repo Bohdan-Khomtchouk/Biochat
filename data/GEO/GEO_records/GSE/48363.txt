@@ -1,0 +1,12 @@
+TITLE
+Cancer-induced Muscle Wasting is IKKβ-dependent and NF-kappaB-independent
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Existing data suggest that NF-kappaB signaling is a key regulator of cancer-induced skeletal muscle wasting.  However, identification of the components of this signaling pathway and of the NF-κB transcription factors that regulate wasting is far from complete.  In muscles of C26 tumor bearing mice, overexpression of d.n. IKKβ blocked muscle wasting by 69%, the IκBα-super repressor blocked wasting by 41%.  In contrast, overexpression of d.n. IKKα or d.n. NIK did not block C26-induced wasting.  Surprisingly, overexpression of d.n. p65 or d.n. c-Rel did not significantly block muscle wasting.  Genome-wide mRNA expression arrays showed upregulation of many genes previously implicated in muscle atrophy.  To test if these upregulated genes were direct targets of NF-κB transcription factors, we compared genome-wide p65 or p50 binding to DNA in control and cachectic muscle using ChIP-sequencing.  Bioinformatic analysis of ChIP-seq data from control and C26 muscles showed increased p65 and p50 binding to a few regulatory and structural genes but only two of these genes were upregulated with atrophy.  The p65 and p50 ChIP-seq data are consistent with our finding of no significant change in protein binding to an NF-κB oligo in a gel shift assay.  Taken together, these data support the idea that although inhibition of IκBα, and particularly IKKβ, blocks cancer-induced wasting, the alternative NF-κB signaling pathway is not required.  In addition, the downstream NF-κB transcription factors do not regulate the transcriptional changes.  These data are consistent with the growing body of literature showing that there are NF-κB-independent substrates of IKKβ and IκBα that regulate physiological processes.
+
+DESIGN
+To compare gene expression changes in atrophied muscles from C26 tumor bearing mice, gastrocnemius/plantaris muscles were harvested from 4 C26 tumor-bearing mice, and 3 control non tumor-bearing mice.  Total RNA were isolated and pooled (2-3 muslces in the same group per RNA sample ) to make equal amount of total RNA per sample. Three pooled total RNA samples from healthy control muscles and 3 pooled total RNA from muscles of C26 tumor bearing mice were labelled and hybridized on 6 Mouse Affyemtrix Gene 1.0 ST arrays. Two-side t-tests and multiple test corrections were performed to identify differentially expressed genes due to C26 tumor bearing induced cachexia.
+

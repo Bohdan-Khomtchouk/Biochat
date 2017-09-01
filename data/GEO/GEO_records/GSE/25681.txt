@@ -1,0 +1,12 @@
+TITLE
+[E-MTAB-341] Individual-nucleotide resolution CLIP using high throughput sequencing of human HeLa cells to enable precise mapping of protein-RNA interactions in intact cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+UV-crosslinking and immunoprecipitation (CLIP) combined with high-throughput sequencing was previously used to generate transcriptome-wide binding maps of several RNA-binding proteins. However, since identification of binding sites relied on the analysis of overlapping sequence clusters, distances of less than 30 nucleotides were not resolved. An additional disadvantage of CLIP is the requirement of reverse transcription to pass over residual amino acids that remain covalently attached to the RNA at the crosslink site. Primer extension assays have shown that the vast majority of cDNAs prematurely truncate immediately before the 'crosslink nucleotide'. Here, we exploited this apparent limitation to achieve single nucleotide resolution by capturing these truncated cDNAs through the introduction of a second adapter after reverse transcription via self-circularization. In order to quantify cDNA molecules that truncate at the same nucleotide, we added a random barcode to the DNA adapter. This allowed us to discriminate between unique cDNA products and PCR duplicates . Taken together, individual-nucleotide resolution CLIP (iCLIP) enables precise mapping of protein-RNA interactions in intact cells. ArrayExpress Release Date: 2010-09-03 Publication Title: iCLIP reveals the function of hnRNP particles in splicing at individual nucleotide resolution Publication Author List: Konig J, Zarnack K, Rot G, Curk T, Kayikci M, Zupan B, Turner DJ, Luscombe NM, Ule J. Person Roles: submitter Person Last Name: Konig Person First Name: Julian Person Email: jkonig@mrc-lmb.cam.ac.uk Person Phone: 0044 7531 502686 Person Address: Hills Road, CB2 0QH Cambridge, UK Person Affiliation: MRC LMB
+
+DESIGN
+Experimental Design: in_vitro_design Experimental Design: binding_site_identification_design Experimental Design: high_throughput_sequencing_design Experimental Design: transcription profiling by high throughput sequencing Experimental Factor Name: Antibody Quality Control Type: biological_replicate
+

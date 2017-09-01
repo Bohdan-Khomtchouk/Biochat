@@ -1,0 +1,12 @@
+TITLE
+Gene expression profiling of chronic lung disease for the Lung Genomics Research Consortium
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarray data from total RNA extracted from whole lung homogenate from subjects undergoing thoracic surgery. These subjects were diagnosed as being controls or having interstitial lung disease or COPD as determined by clinical history, CT scan, and surgical pathology. There was no intervention, these are cross-sectional data.  All samples are from the Lung Tissue Research Consorium (LTRC and are indexed by their LTRC tissue label).
+
+DESIGN
+These are 582 total subjects, 254 have interstitial lung disease, 220 have COPD, and 108 are controls, who went for surgery for the investigation of a nodule and have no chronic lung disease by CT or pathology.  Due to the number of samples, multipe batches of arrays were necessary, so 10% of the arrays were picked at random to have replicates throughout each batch to account for possible batch effects.  The feature extracted data was normalized using a pairwise cyclic loess approach, and the probes were collapsed to one probe per gene by selecting the probe with the highest average signal. Each sample is total RNA extracted from flash frozen human whole lung homogenate. Between the two platforms were analyzed. Samples are titled by source (LT=LTRC), 6-digit tissue label, lobe of extraction, and major disease state)
+

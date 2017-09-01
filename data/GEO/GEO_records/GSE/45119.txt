@@ -1,0 +1,12 @@
+TITLE
+Gene Expression and Exon Splicing Change Analysis of Mouse N2A Cell Transcriptome upon Polypyrimidine tract-binding protein depletion.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose : Splicing factors regulate splice site choices in pre-mRNA and determine final exon set in mRNA. To understand mechanisms of splicing regulation, it is important to identify and characterize exon targets of splicing factors. Recently, development of RNA-seq technology enables researchers to investigate exon splicing profiles as well as gene expression profiles in transcriptome-wide. The goal of this study is to investigate transcriptome changes by splicing factors, Polypyrimidine Tract Binding proteins (PTB). In this study, we analyzed exon and gene expression changes followed by Ptbp1 knock down. Methods : The knockdown experiment was performed in mouse neuroblastoma (N2A) cells. Total RNA was collected from cells and further treated with DNase I to avoid DNA contamination. RNA-seq libraries were constructed in a strand specific way using dUTP and Uracil-Specific Excision Reagent enzyme. The libraries were subjected to 100bp paired-end sequencing (Illumina HiSeq2000 platform).
+
+DESIGN
+Poly(A)-mRNA and exon profiles of N2A mouse blastoma cells in two samples: shRNA transfection control, single knock down of ptbp1. RNA-seq libraries were generated in strand specific way using dUTP and USER enzyme and sequenced using Illumina HiSeq2000.
+

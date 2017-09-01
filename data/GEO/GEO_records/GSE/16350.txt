@@ -1,0 +1,12 @@
+TITLE
+Endogenous small RNAs of meristematic and a terminally differentiated tissue of rice.
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+To address the role of small regulatory RNAs in rice development, we generated a large data set of small RNAs from root apices (RoApx), shoot apices (ShApx), developing inflorescence (Infl) and mature leaf (Leaf). These tissues were chosen because they are expected to be rich in small RNAs and display different patterns of small RNA expression. The RoApx, ShApx, and Infl samples are expected to be enriched for meristematic tissues each of which have different fates. The Infl sample would also be expected to contain developing female gametes. In contrast, the Leaf sample is terminally differentiated and may be expected to be more transcriptionally repressed. These small RNAs comprise a total of 781,885 distinct sequences, and all of these map to at least one locus of the rice genome TIGR version 5.
+
+DESIGN
+Total RNA was extracted from root apices, shoot apices, developing inflorescence and mature leaf. Three samples from each tissue were taken to represent replicates and small RNAs from these were ligated to a common 5' RNA adapter and a replicate-specific 3' adapter. These replicate samples were then identified from within single 454 data sets using the 3' adapter sequence. It should be noted that there was a strong frequency bias observed between the RNA sequence and the particular 3' adapter used in the sequencing.  This resulted in both increased or decreased read counts for the known miRNA sequences in a 3' adapter dependent fashion. Use of the three samples for each tissue as replicates is therefore problematic.
+

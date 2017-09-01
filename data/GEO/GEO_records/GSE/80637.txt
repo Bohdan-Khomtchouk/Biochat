@@ -1,0 +1,12 @@
+TITLE
+Changes in relative transcript amounts caused by ∆phoU2::kanrpsL+ and double ∆phoU2::kanrpsL+ ∆phoU1::Pcerm mutations in Streptococcus pneumoniae
+
+ORGANISM
+Streptococcus pneumoniae
+
+SUMMARY
+Unlike most bacteria, Streptococcus pneumoniae (pneumococcus) has two evolutionarily distinct ABC transporters (Pst1 and Pst2) for inorganic phosphate (Pi) uptake. The genes encoding a two-component regulator (PnpRS) are located immediately upstream of the pst1 operon. Both the pst1 and pst2 operons encode putative PhoU regulators (PhoU1 and PhoU2) at their ends.his study addresses why S. pneumoniae contains dual Pi uptake systems and the regulation and contribution of the Pst1 and Pst2 systems in conditions of high (mM) Pi amount and low (μM) Pi amount. To determine whether PhoU1 or PhoU2 regulates pnpRS, pst1, or pst2 operons. we performed RNA-Seq analyses of ΔphoU2::kanrpsL+ sinlge mutant and ΔphoU2::kanrpsL+ ΔphoU1::Pcerm double mutant compared to the isogenic encapsulated strain cep::kanrpsL+. Unexpectedly, only ΔphoU2::kanrpsL+ indulces the pst1 operon, but not pst2 or pnpRS operon. Addtional PhoU1 deletion has no effect on pst1, pst2, or pnpRS operons.
+
+DESIGN
+RNA was prepared from cultures of strains IU3116 (cep::kanrpsL+), IU6137 (∆phoU2::kanrpsL+), and IU6173 (∆phoU2::kanrpsL+ ∆phoU1::Pcerm) grown exponentially in BHI media at 37ºC to OD620 ≈0.15 to 0.2. Three independent biological replicates of RNA were prepared for each strain or condition. cDNA libraries were sequenced and the sequencing results were used as the data base for differential expression analysis.
+

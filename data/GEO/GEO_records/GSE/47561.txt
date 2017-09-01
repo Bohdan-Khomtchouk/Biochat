@@ -1,0 +1,12 @@
+TITLE
+Renormalised expression data from 1570 breast cancer related samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+An integration of several studies normalized to enable consistent cross-study comparisons and enrichment of the less frequent breast cancer types, enabling detection of new potential cancer driver genes.
+
+DESIGN
+Raw Affymetrix CEL files were retrieved from the series GSE2034  GSE11121  GSE20194  GSE1456  GSE2603  GSE6532 GSE20437 GSE1561 GSE7390 GSE5847. Samples were then filtered with a three stage quality control resulting in the final dataset. These were subjected to RMA normalization and then placed on a log2 scale. Samples were stratified by levels of MYC expression with the top quartile defined as High and the bottom quartile defined as Low.
+

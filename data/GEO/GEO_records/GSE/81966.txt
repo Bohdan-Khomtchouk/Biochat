@@ -1,0 +1,12 @@
+TITLE
+eIF4B preferentially stimulates translation of long mRNAs with structured 5’UTRs and low closed-loop potential but weak dependence on eIF4G
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+DEAD-box RNA helicases eIF4A and Ded1 promote translation by resolving mRNA secondary structures that impede preinitiation complex (PIC) attachment to mRNA or scanning. eIF4B is a cofactor for eIF4A but might also function independently of eIF4A. Ribosome profiling of mutants lacking eIF4B or with impaired eIF4A or Ded1 activity revealed that eliminating eIF4B reduces the relative translational efficiencies of many more genes than does inactivation of eIF4A, despite comparable reductions in bulk translation, and few genes display unusually strong requirements for both factors. However, either eliminating eIF4B or inactivating eIF4A preferentially impacts mRNAs with longer, more structured 5’UTRs. These findings reveal an eIF4A-independent role for eIF4B in addition to its function as eIF4A cofactor in promoting PIC attachment or scanning on structured mRNAs. eIF4B, eIF4A, and Ded1 mutations also preferentially impair translation of longer mRNAs in a fashion mitigated by the ability to form closed-loop mRNPs via eIF4F-Pab1 association, suggesting cooperation between closed-loop assembly and eIF4B/helicase functions. Remarkably, depleting eIF4G, the scaffold subunit of eIF4F, preferentially impacts short mRNAs with strong closed-loop potential and unstructured 5’UTRs, exactly the opposite features associated with hyperdependence on the eIF4B/helicases. We propose that short, highly efficient mRNAs preferentially depend on the stimulatory effects of eIF4G-dependent closed-loop assembly.
+
+DESIGN
+We compared the effects of mutations in eIF4B on global translational efficiencies (TEs) in yeast by ribosome footprint profiling. The study includes 16 samples, comprised of 8 mRNA-Seq samples and 8 ribosome footprint profiling samples, derived from biological replicates of tif3Δ mutant strain, and the corresponding TIF3 wild-type strain . These strains were analyzed following a temperature shift at 37°C or 15°C.
+

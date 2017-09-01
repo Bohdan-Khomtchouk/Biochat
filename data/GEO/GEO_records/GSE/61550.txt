@@ -1,0 +1,12 @@
+TITLE
+Product binding enforces the genomic specificity of a yeast Polycomb repressive complex
+
+ORGANISM
+Cryptococcus neoformans
+
+SUMMARY
+We characterize the Polycomb system that assembles repressive subtelomeric domains of H3K27 methylation (H3K27me) in the yeast Cryptococcus neoformans.  Purification of this PRC2-like protein complex reveals orthologs of animal PRC2 components as well as a chromodomain-containing subunit, Ccc1, which recognizes H3K27me.  Whereas removal of either the EZH or EED ortholog eliminates H3K27me, disruption of mark recognition by Ccc1 causes H3K27me to redistribute.  Strikingly, the resulting pattern of H3K27me coincides with domains of heterochromatin marked by H3K9me.  Indeed, additional removal of the C. neoformans H3K9 methyltransferase Clr4 results in loss of both H3K9me and the redistributed H3K27me marks.  These findings indicate that the anchoring of a chromatin-modifying complex to its product suppresses its attraction to a different chromatin type, explaining how enzymes that act on histones, which often harbor product recognition modules, may deposit distinct chromatin domains despite sharing a highly abundant and largely identical substrate—the nucleosome.
+
+DESIGN
+RNA-seq or ChIP-seq to compare multiple Cryptococcus neoformans genotypes using the HiSeq 2500 platform
+

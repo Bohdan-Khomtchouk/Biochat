@@ -1,0 +1,12 @@
+TITLE
+INO80 complex in the core regulatory network governing ESC self-renewal [771_timecourse]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Embryonic stem cell (ESC) self-renewal and pluripotency is controlled by the coordinated action of transcription factors and chromatin regulators. Compared to the pluripotency transcription factors, the function of the chromatin regulators, especially the ATP-dependent chromatin remodelers, remains poorly understood in ESCs. Here, we show that INO80, a SWI/SNF family chromatin remodeling complex, is essential for ESC self-renewal, pluripotency, somatic cell reprogramming, and embryonic development. Ino80, the ATPase of the complex, forms an auto-regulatory loop with the ESC master transcription factors Oct4, Nanog, and Sox2. More importantly, it co-occupies the enhancer regions of most key pluripotency genes with the master transcription factors, and positively regulates their expression by maintaining an open chromatin structure. Our data suggests that INO80 is an integral component of the pluripotency transcription network, and plays a critical role in both the maintenance and establishment of pluripotency
+
+DESIGN
+Mouse  J1 cells were infected with lentiviral-shNT or lentiviral-Ino80, RNA was extracted at 2, 4 or 6 days after infection. agent: non-targeting shRNA: NS_Day_2_1, NS_Day_2_2, NS_Day_4_1, NS_Day_4_2, NS_Day_6_1, NS_Day_6_2 agent: Ino80 shRNA: shIno80_Day_2_1, shIno80_Day_2_2, shIno80_Day_4_1, shIno80_Day_4_2, shIno80_Day_6_1, shIno80_Day_6_2 time: 48 hours: NS_Day_2_1, NS_Day_2_2, shIno80_Day_2_1, shIno80_Day_2_2 time: 96 hours: NS_Day_4_1, NS_Day_4_2, shIno80_Day_4_1, shIno80_Day_4_2 time: 144 hours: NS_Day_6_1, NS_Day_6_2, shIno80_Day_6_1, shIno80_Day_6_2 cell line: mouse J1 ESC: NS_Day_2_1, NS_Day_2_2, shIno80_Day_2_1, shIno80_Day_2_2, NS_Day_4_1, NS_Day_4_2, shIno80_Day_4_1, shIno80_Day_4_2, NS_Day_6_1, NS_Day_6_2, shIno80_Day_6_1, shIno80_Day_6_2 biological replicate: shIno80_Day_2_1, shIno80_Day_2_2 biological replicate: shIno80_Day_4_1, shIno80_Day_4_2 biological replicate: shIno80_Day_6_1, shIno80_Day_6_2 biological replicate: NS_Day_2_1, NS_Day_2_2 biological replicate: NS_Day_4_1, NS_Day_4_2 biological replicate: NS_Day_6_1, NS_Day_6_2
+

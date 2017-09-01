@@ -1,0 +1,12 @@
+TITLE
+A simple method to integrate different versions of Affymetrix microarrays using duplicate samples
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+The size and scope of microarray experiments continue to increase. However, datasets generated on different platforms or at different centres contain biases. Improved techniques are needed to remove platform- and batch-specific biases. One experimental control is the replicate hybridization of a subset of samples at each site or on each platform to learn the relationship between the two platforms. To date, no algorithm exists to specifically use this type of control. LTR is a linear-modelling-based algorithm that learns the relationship between different microarray batches from replicate hybridizations. LTR was tested on a new benchmark dataset of 20 samples hybridized to different Affymetrix microarray platforms. Before LTR, the two platforms were significantly different; application of LTR removed this bias. LTR was tested with six separate data pre-processing algorithms, and its effectiveness was independent of the pre-processing algorithm. Sample-size experiments indicate that just three replicate hybridizations can significantly reduce bias. An R library implementing LTR is available.
+
+DESIGN
+Twenty rats livers were processed, eight on both RAE230-A and RAE230-2 arrays, 8 on only RAE230-A arrays, and 4 on RAE230-2 arrays only.
+

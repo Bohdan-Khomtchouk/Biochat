@@ -1,0 +1,12 @@
+TITLE
+Integrated genome-wide analysis of transcription factor occupancy, RNA polymerase II binding and steady-state RNA levels identify differentially regulated functional gene classes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Routine methods for assaying steady-state mRNA levels such as RNA-seq and micro-arrays are commonly used as readouts to study the role of transcription factors (TFs) in gene expression regulation. However, cellular RNA levels do not solely depend on activity of TFs and subsequent transcription by RNA polymerase II (Pol II), but are also affected by RNA turnover rate. Here, we demonstrate that integrated analysis of genome-wide TF occupancy, Pol II binding and steady-state RNA levels provide important insights in gene regulatory mechanisms. Pol II occupancy, as detected by Pol II ChIP-seq, was found to correlate better with TF occupancy compared to steady-state RNA levels and is thus a more precise readout for the primary transcriptional mechanisms that are triggered by signal transduction. Furthermore, analysis of differential Pol II occupancy and RNA-seq levels identified genes with high Pol II occupancy and relatively low RNA levels and vice versa. These categories are strongly enriched for genes from different functional classes. Our results demonstrate a complementary value in Pol II chip-seq and RNA-seq approaches for better understanding of gene expression regulation.
+
+DESIGN
+3 replicates of RNAPII ChIP-seq and RNA-seq under normal and Wnt suppressed conditions
+

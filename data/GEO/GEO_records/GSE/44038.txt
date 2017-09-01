@@ -1,0 +1,12 @@
+TITLE
+TET1 is a maintenance DNA demethylase that prevents methylation spreading in adult cells [DREAM]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We report that full length TET1 (TET1-FL) overexpression fails to induce global DNA demethylation in HEK293T cells. The preferential binding of TET1-FL to hypomethylated CpG islands (CGIs) through its CXXC domain leads to its inhibited 5-hydroxymethylcytosine (5hmC) production as methylation level increases. TET1-FL-induced 5hmC accumulates at CGI edges, while TET1 knockdown induces methylation spreading from methylated edges into hypomethylated CGIs. However, TET1 can regulate gene transcription independent of its dioxygenase catalytic function. Thus, our results identify TET1 as a maintenance DNA demethylase that does not purposely decrease methylation levels, but specifically maintains the DNA hypomethylation state of CGIs in adult cells.
+
+DESIGN
+Digital restriction enzyme analysis of methylation (DREAM) was performed to determine the DNA methylation profiles of HEK293T cells overexpressing mTET1-CD, TET1-CD, mTET1-FL, or TET1-FL. In this approach, genomic DNA is sequentially cut at CCCGGG sites with the methylation sensitive enzyme SmaI (blunt ends) and its methylation-tolerant neoschizomer XmaI (5’CCGG overhangs), creating different end sequences that represent methylation status of the CCCGGG sites. These end sequences are analyzed by next generation sequencing, and thereafter the methylation status at individual CCCGGG sites across the genome can be determined.
+

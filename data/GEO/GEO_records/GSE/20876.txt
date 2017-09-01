@@ -1,0 +1,12 @@
+TITLE
+Effective Targeting of Quiescent Chronic Myelogenous Leukemia Stem Cells by Histone Deacetylase Inhibitors in Combination with Imatinib Mesylate
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We investigated the ability of HDAC inhibitors (HDACi) to target CML stem cells. Treatment with HDACi combined with IM effectively induced apoptosis in quiescent CML progenitors resistant to elimination by IM alone, and eliminated CML stem cells capable of engrafting immunodeficient mice. In vivo administration of HDACi with IM markedly diminished LSC in a transgenic mouse model of CML. The interaction of IM and HDACi inhibited genes regulating hematopoietic stem cell maintenance and survival. HDACi treatment represents a novel and effective strategy to target LSC in CML patients receiving tyrosine kinase inhibitors.
+
+DESIGN
+CML CD34+CD38- cells were selected using flow cytometry sorting and treated with IM, LBH and the combination of IM and LBH or cultured without exposure to drugs (controls) for 24 hours (n=3 each). Total RNA from 5000 cells was extracted using the RNeasy kit (Qiagen), amplified and labeled using GeneChip Two-Cycle Target Labeling and Control Reagents (Affymetrix, Santa Clara, CA). 15 µg cRNA from each sample was hybridized to Affymetrix GeneChip Human Genome U133 Plus 2.0 Arrays. Microarray data analyses were performed using R (version 2.9) with genomic analysis packages from Bioconductor (version 2.4). Expression data were normalized using the robust multiarray average (RMA) algorithm, with background adjustment, quantile normalization and median polish summarization. Probesets with low expression levels or low variability across samples were filtered. For genes with multiple probesets, the gene level expression was set to be the median of the probesets. Linear regression was used to model the gene expression with the consideration of 2x2 factorial design and matched samples. Differentially expressed genes were identified by calculating empirical Bayes moderated t-statistic, and p-values were adjusted by FDR using the “LIMMA” package.  Gene Set Enrichment Analyses (GSEA) was performed using GSEA software version 2.04 [ ] to detect enrichment of predetermined gene sets using t-scores and gene sets  in C2 (curated gene sets) category from the Molecular Signature Database (MsigDB). Gene sets representing common functional categories were categorized and grouped. We also analyzed enrichment of gene sets with common transcription factor binding sites (586 sets) from MsigDB.
+

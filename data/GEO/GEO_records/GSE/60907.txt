@@ -1,0 +1,12 @@
+TITLE
+Concurrent whole-genome haplotyping and copy number profiling of single cells (Affymetrix)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Methods for haplotyping and DNA copy number typing of single cells are paramount for studying genomic heterogeneity and enabling genetic diagnosis. Before analyzing the DNA of a single cell by microarray or next-generation sequencing, a whole-genome amplification (WGA) process is required that substantially distorts the frequency and composition of the cell’s alleles. As a consequence, haplotyping methods suffer from error-prone discrete SNP-genotypes (AA, AB, BB), and DNA copy number profiling remains difficult as true DNA copy number aberrations have to be discriminated from WGA-artifacts. Here, we developed a single-cell genome analysis method that reconstructs genome-wide haplotype architectures as well as the copy-number and segregational origin of those haplotypes by deciphering WGA-distorted SNP B-allele fractions, using a process we coin haplarithmisis. We demonstrate clinical precision of the method on single cells biopsied from human embryos to diagnose disease alleles genome wide, we advance and facilitate the detection of numerical and structural chromosomal anomalies in single cells, and can distinguish meiotic from mitotic segregation errors in a single assay.
+
+DESIGN
+The samples of a reference family were applied for optimisation of single-cell genotyping using Affymetrix SNP-arrays prior to downstream analysis. Specifically, the reference family delivers genomic DNA samples isolated from peripheral blood of two siblings 'S1' and 'S2', the mother and father of these siblings, as well as of the maternal grandmother and grandfather. Of individuals ‘S1’ and ‘S2’, six EBV-transformed lymphoblastoid single cells were isolated of which three were whole-genome amplified using MDA and three using PicoPlex. These WGA-products were hybridized to Affymetrix NspI 250K SNP-arrays following the protocol as recommended by the company. Subsequently, the SNP-probe signals were interpreted by different genotyping algorithms (see data processing). Based on overall performance, it was decided to use the Dynamic Model (DM) for interpreting Affymetrix SNP-probe signals of single cells.
+

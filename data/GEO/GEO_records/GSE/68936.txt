@@ -1,0 +1,12 @@
+TITLE
+caArray_golub-00299: Chemosensitivity prediction by transcriptional profiling
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In an effort to develop a genomics-based approach to the prediction of drug response, we have developed an algorithm for classification of cell line chemosensitivity based on gene expression profiles alone. Using oligonucleotide microarrays, the expression levels of 6,817 genes were measured in a panel of 60 human cancer cell lines (the NCI-60) for which the chemosensitivity profiles of thousands of chemical compounds have been determined. We sought to determine whether the gene expression signatures of untreated cells were sufficient for the prediction of chemosensitivity. Gene expression-based classifiers of sensitivity or resistance for 232 compounds were generated and then evaluated on independent sets of data. The classifiers were designed to be independent of the cells' tissue of origin. The accuracy of chemosensitivity prediction was considerably better than would be expected by chance. Eighty-eight of 232 expression-based classifiers performed accurately (with P & lt; 0.05) on an independent test set, whereas only 12 of the 232 would be expected to do so by chance. These results suggest that at least for a subset of compounds genomic approaches to chemosensitivity prediction are feasible.
+
+DESIGN
+golub-00299 Assay Type: Gene Expression Provider: Affymetrix Array Designs: Hu6800 Organism: Homo sapiens (ncbitax) Tissue Sites: Kidney, Brain, Blood, Lung, Skin, Colon, Breast, Prostate, Ovary Material Types: cell, synthetic_RNA, whole_organism, total_RNA Disease States: Carcinoma, Glioblastoma, Lymphoma, Adenocarcinoma, Melanoma, Amelanotic Melanoma, Large Cell Carcinoma, Precursor Lymphoblastic Leukemia, Carcinosarcoma, Myeloid Leukemia, Plasma Cell Myeloma, Bronchogenic Carcinoma, Chronic Myelogenous Leukemia, Squamous Cell Carcinoma
+

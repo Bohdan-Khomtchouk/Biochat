@@ -1,0 +1,12 @@
+TITLE
+ExpressionData - A public resource of high quality datasets representing gene expression across tissues, conditions, diseases and genotypes.
+
+ORGANISM
+Nicotiana tabacum
+
+SUMMARY
+Reference datasets are often used to compare, interpret or validate experimental data and analytical methods. In the field of gene expression, a dozen reference datasets have been published. Typically, they consist of individual baseline or spike-in experiments carried out in a single laboratory and representing a particular set of conditions. For most organisms, however, few or no such reference datasets are publicly available. Here, we describe a new type of datasets highly representative for the spatial, temporal and response dimensions of gene expression. They result from integrating expression data from a large number of globally normalized and quality controlled public experiments and aggregating results by anatomical parts, stages of development, perturbations, drugs, diseases, neoplasms, and genotypes. The proposed datasets were created for human and several model organisms and are publicly available at www.expressiondata.org.
+
+DESIGN
+PMI: 18 Samples were used with 2 different experimental factors: 1. 2 harvesting times (morning/afternoon) 2. 3 pos-harvesting times. 3 biological replicates were used.
+

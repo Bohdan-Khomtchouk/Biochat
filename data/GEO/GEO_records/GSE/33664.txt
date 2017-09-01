@@ -1,0 +1,12 @@
+TITLE
+Extensive promoter-centered chromatin interactions provide a topological basis for transcription regulation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Higher-order chromosomal organization for transcription regulation is poorly understood in eukaryotes. Using genome-wide Chromatin Interaction Analysis with Paired-End-Tag sequencing (ChIA-PET), we mapped long-range chromatin interactions associated with RNA polymerase II in human cells and uncovered widespread promoter-centered intragenic, extragenic, and intergenic interactions. These interactions further aggregated into higher-order clusters, wherein proximal and distal genes were engaged through promoter-promoter interactions. Most genes with promoter-promoter interactions were active and transcribed cooperatively, and some interacting promoters could influence each other implying combinatorial complexity of transcriptional controls. Comparative analyses of different cell lines showed that cell-specific chromatin interactions could provide structural frameworks for cell-specific transcription, and suggested significant enrichment of enhancer-promoter interactions for cell-specific functions. Furthermore, genetically-identified disease-associated noncoding elements were found to be spatially engaged with corresponding genes through long-range interactions. Overall, our study provides insights into transcription regulation by three-dimensional chromatin interactions for both housekeeping and cell-specific genes in human cells.
+
+DESIGN
+RNA polymerase II (RNAPII) bound chromatin interactions were extracted with Chromatin Interaction Analysis with Paired-End Tag (ChIA-PET) sequencing, in order to study the transcription regulations with RNAPII-associated long-range chromatin interactions. Five cell lines, namely MCF7 (ATCC# HTB-22), K562 (ATCC# CCL-243), HCT116 (ATCC# CCL-247), HeLa (ATCC# CCL-2.2), and NB4 (Roussel and Lanotte, 2001) (provided by Dr. Sherman Weissman, Yale University), were grown under standard culture conditions and harvested at log phase. Harvested cells were cross-linked using 1% formaldehyde followed by neutralization with 0.2M glycine. Chromatin was isolated and subjected to ChIA-PET protocol as described in Fullwood et al (Fullwood et al: An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 2009, 462(7269):58-64). The ChIA-PET sequence reads were processed and analyzed using ChIA-PET Tool (Li et al: ChIA-PET tool for comprehensive chromatin interaction analysis with paired-end tag sequencing. Genome Biol 2010, 11(2):R22).
+

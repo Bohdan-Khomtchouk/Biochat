@@ -1,0 +1,12 @@
+TITLE
+Conserved roles for murine mDUX and human DUX4 in activating cleavage stage genes and MERVL/HERVL retrotransposons [RNA-Seq Mouse]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To better understand transcriptional regulation during human oogenesis and pre-implantation embryonic development, we defined stage-specific transcription, which revealed cleavage stage as highly distinctive.  We present multiple lines of evidence that two cleavage-specific homologs, mouse mDUX and human DUX4, each activate hundreds of cleavage-specific endogenous genes (e.g. ZSCAN4, ZFP352, KDM4E) and retroviral elements (MERVL/HERVL-family).  Remarkably, mDux expression converts mouse ESCs into two-cell embryo-like (2C-like) cells by binding to MERVL promoters/enhancers and restoring the chromatin landscape (via ATACseq) to the pattern of mouse two-cell embryos
+
+DESIGN
+We ectopically overexpressed mouse DUX (mDux) in mESCs. For transient mDux expression, a codon altered mDux transgene (or control) was transiently expressed in mouse embryonic stem cells (mESCs) for 24 hours. RNA was collected (2 replicates/condition) and 50bp libraries were prepped and sequenced in single-end format. Additionally, the same mDux transgene with a 3xHA-tag was cloned into a doxcycline-inducible lentivirus (pCW57.1) and stably integrated into mESCs containing a MERVL::EGFP reporter. Single cell clones (TRE::3xHA-mDux; MERVL::EGFP) were drug -selected and expanded. For unsorted RNA seq, TRE::3xHA-mDux; MERVL::EGFP mESCs (2 replicates) were induced with doxycycline for 24hrs (control: 2 replicates without induction) before extracting RNA. For sorted RNA-seq, TRE::3xHA-mDux; MERVL::EGFP mESCs (2 replicates) were induced with doxycycline for 24hrs and then subjected to FACS to sort GFP-positive and GFP-negative populations before extracting RNA. For stable RNA-seqs, 125bp libraries were prepped and sequenced in paired-end format.  All sequencing was done on the Illumina HiSeq 2500 platform.
+

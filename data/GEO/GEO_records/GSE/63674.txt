@@ -1,0 +1,12 @@
+TITLE
+iCD8a cells study
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Innate immune responses are critical for mucosal immunity. Here we describe an innate lymphocyte population, iCD8a cells, characterized by expression of CD8a homodimers. iCD8a cells exhibit innate functional characteristics such as the capacity to engulf and kill bacteria. Development of iCD8a cells depends on expression of interleukin-2 receptor g chain (IL-2Rgc), IL-15, and the major histocompatibility complex (MHC) class Ib protein H2-T3, also known as the thymus leukemia antigen or TL. While lineage tracking experiments indicated that iCD8a cells have a lymphoid origin, their development was independent of the transcriptional suppressor Id2, suggesting these cells do not belong to the family of innate lymphoid cells. Finally, we identified cells with a similar phenotype in humans, which were profoundly depleted in newborns with necrotizing enterocolitis. These findings suggest a critical role of iCD8a cells in immune responses associated with the intestinal epithelium.
+
+DESIGN
+Three different populations of immune cells present in the intestine epithelium of RAG-2 deficient mice were compared at the transcriptome level. These populations were defined as: a. CD45+CD8alpha+ (iCD8a cells), b. NKp46+NK1.1+ (group 1 ILC), and c.CD45+CD8alpha-CD11b+ (myeloid cells).  High quality RNA was sequenced at  the Vanderbilt Technologies for Advanced Genomics (VANTAGE) core using an Illumina HiSeq 2500. RAN data alignment was performed by top hat, followed by gene quantification (FPKM) using Cufflinks. Additional read count was generated using HTSeq. Differential expression analysis was carried out using both FPKM and read count-based methods. Pathway and network analyses were performed using Ingenuity.
+

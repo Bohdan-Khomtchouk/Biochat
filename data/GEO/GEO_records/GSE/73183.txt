@@ -1,0 +1,12 @@
+TITLE
+Promoter-distal RNA polymerase II binding discriminates active from inactive CCAAT/enhancer-binding protein beta binding sites
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transcription factors (TFs) bind to thousands of DNA sequences in mammalian genomes, but most of these binding events appear to have no direct effect on gene expression.  It is unclear why only a subset of transcription factor bound sites are actively involved in transcriptional regulation, nor are the key genomic features known that discriminate between active and inactive TF binding events.  Recent studies have identified promoter-distal RNA polymerase II (RNAP2) binding at enhancer elements, suggesting that these interactions may serve as a potential marker for active regulatory sequences.  Despite these correlative analyses, a thorough functional validation of these genomic co-occupancies is still lacking.  To characterize systematically the gene regulatory activity of DNA sequences underlying promoter-distal TF binding events that co-occur with RNAP2 and TF sites devoid of RNAP2 occupancy using a functional assay, we performed cis-regulatory element sequencing (CRE-seq) reporter assays.  We tested more than 1,000 promoter-distal CCAAT/enhancer-binding protein beta (CEBPB) bound sites in two human cell types, HepG2 and K562.  We found that CEBPB bound sites that co-occur with RNAP2 were more likely to exhibit enhancer activity in our reporter assay and these active sequences display significantly stronger RNAP2 read enrichment and local enhancer RNA (eRNA) activity compared to inactive sites.  CEBPB-bound sites further maintained substantial cell type specificity, indicating that DNA sequence information at such sites can accurately convey cell type-specific regulatory information, supporting a strong role for local DNA sequence in distinguishing active from inactive TF-bound loci. By comparing our CRE-seq results to a comprehensive set of over 1,000 genome annotations, we identified a variety of genomic features that are strong predictors of regulatory element activity as well as cell type-specific activity.  Collectively, our functional assay results indicate that RNAP2 occupancy can be used as a key genomic marker that can discriminate active versus inactive transcription factor bound sites.
+
+DESIGN
+CRE-seq reporter assay of replicate barcodes from plasmid DNA, transfected plasmid DNA, expressed RNA (cDNA).  CEBPB binding sites as well as scrambled control sequences were tested.
+

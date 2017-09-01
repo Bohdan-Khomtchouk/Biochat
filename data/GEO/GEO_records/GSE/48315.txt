@@ -1,0 +1,12 @@
+TITLE
+Expression data comparing dp53R-shSCR and dp53R-shARF mouse embryonic fibroblasts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mouse embryonic fibroblasts deficient for p53 and expressing mutant RasV12 were infected with lentiviral constructs carrying short hairpin RNAs targeting ARF or a scrambled control.  Four days post infection, cells were harvested for microarray analysis.
+
+DESIGN
+6 Total samples were analyzed. Arrays were downloaded from Washington University bioinformatics web site and processed in Affymetrix Expression Console (Affymetrix, Version) using RMA (Robust Multi-chip Average)algorithm. Only core probesets were used for the analysis. Control probesets as well as those interrogating probesets that are absent across all 12 arrays were filtered out. We considered those probesets as 'Present' while their signal intensity exceeded Mean (negative control signal intensity) +2 X Standard deviations (negative control signal intensity).Hierarchical cluster map was plotted using Partek Genomic suite to visualize the sample quality and differential expression analysis was performed using Significant Analysis of Microarrays (SAM) and list of differentially expressed genes were generated.
+

@@ -1,0 +1,12 @@
+TITLE
+Prognostic significance of overexpression of Traf2- and Nck- interacting kinase (TNIK) in colorectal cancer [152 samples]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: The potential of expression profiling using microarray analysis as a tool to predict the prognosis for different types of cancer has been realized. This study aimed to identify a novel biomarker for colorectal cancer (CRC).   Methods: The expression profiles of cancer cells in 152 patients with stage I-III CRC were examined using microarray analysis. High expression in CRC cells, especially in patients with distant recurrences, was a prerequisite to select candidate genes. Thus, we identified eleven candidate genes, and selected Traf2- and Nck-interacting kinase (TNIK), which was known to be associated with progression in CRC through Wnt signaling pathways. We analyzed the protein expression of TNIK using immunohistochemistry (IHC) and investigated the relationship between protein expression and patient characteristics in 220 stage I-III CRC patients.   Results: Relapse-free survival was significantly worse in the TNIK high expression group than in the TNIK low expression group in stage II (p = 0.028) and stage III (p = 0.006) patients. In multivariate analysis, high TNIK expression was identified as a significant independent risk factor of distant recurrence in stage III patients.   Conclusion: This study is the first to demonstrate the prognostic significance of intratumoral TNIK protein expression in clinical tissue samples of CRC, in that high expression of TNIK protein in primary tumors was associated with distant recurrence in stage II and III CRC patients. This TNIK IHC study might contribute to practical decision-making in the treatment of these patients.
+
+DESIGN
+Gene expression profiles for 152 cancer tissues from colorectal cancer patients were measured by Affymetrix HG-U133 Plus 2.0 arrays. Normalization was performed by robust multi-array average (RMA) method under R 2.12.1 statistical software with affy package from BioConductor. The normalized gene expression levels were presented as log2-transformed values by RMA.
+

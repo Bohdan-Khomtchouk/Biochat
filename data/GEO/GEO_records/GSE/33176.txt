@@ -1,0 +1,12 @@
+TITLE
+DNA packaging bias and differential expression of gene transfer agent genes within a population during production and release of the Rhodobacter capsulatus gene transfer agent, RcGTA
+
+ORGANISM
+Rhodobacter capsulatus
+
+SUMMARY
+Rhodobacter capsulatus produces a gene transfer agent (GTA) called RcGTA. RcGTA is a phage-like particle that packages R. capsulatus DNA and transfers it to other R. capsulatus cells. Low-resolution techniques suggested RcGTA packages random DNA. Analysis of the RcGTA terminase sequence revealed a distant relationship to the phage T4 terminase protein, which can also perform sequence-independent packaging. We quantified the relative frequency of packaging for each gene in the genome by hybridization of DNA from RcGTA particles to an R. capsulatus microarray. All genes were found within the RcGTA particles, and random packaging was observed at a genome-wide scale. However, the genes encoding the RcGTA particle were under-packaged compared to other regions. Single-cell expression analysis demonstrated that RcGTA gene expression is not uniform within a culture. We propose a mechanism by which high levels of RcGTA gene transcription in the most active RcGTA producing cells hinders access of the packaging machinery to these genes, which causes a reduction in their packaging frequency. This sub-population gene expression phenomenon likely explains the lack of observed cell lysis in RcGTA producing cultures.
+
+DESIGN
+DNA extracted from within RcGTA particles produced by DE442, an RcGTA overproducer, was hybridized to an Affymetrix genechip custom array in order to quantify the relative frequency with which any given gene was packaged within the particles. These data were MAS5 normalized. An underlying packaging bias was suspected to be transcription related, so these frequencies were compared to expression levels within the population, as determined by hybridization of late-stationary RNA samples of DE442 and of the wildtype (SB1003) to the same custom array. These data were RMA normalized.
+

@@ -1,0 +1,12 @@
+TITLE
+Identifying active cis-regulatory elements during the development of the limbs and external genitalia in the mouse and lizard.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The morphologies of the amniote phallus and limbs differ dramatically, but these structures share signaling pathways and patterns of gene expression in early development. Thus far, the extent to which genital and limb transcriptional networks share cis-regulatory elements has remained unexplored. Using chromatin immunoprecipitation with an antibody against the histone modification mark H3K27ac followed by Illumina high-throughput sequencing, we identify thousands of active enhancers in developing limbs, genital tubercle, and additional embryonic tissues of the mouse and green anole lizard (Anolis carolinensis). We show in global analyses of cis-regulatory activity that embryonic limbs and genitalia display overlapping patterns of enhancer activity, and that many H3K27ac-marked regions are shared between mouse and green anole. Our findings support the hypothesis that the amniote phallus evolved through co-option of a preexisting appendage developmental program.
+
+DESIGN
+ChIP-Seq was performed using an antibody against the histone mark H3K27ac on mouse E11.5 forelimb (2 replicates), E11.5 hindlimb (2 replicates), E12.5 genital tubercle (2 replicates), E11.5 flank mesenchyme (single sample), and E10.5 eye (2 replicates). For the green anole lizard, H3K27ac ChIP-Seq was performed on single replicates of pooled stage TS7/8 forelimbs, TS7/8 hindlimbs, or TS9 to TS11 hemiphallus. For each tissue type, a sample of sheared chromatin prior to antibody incubation and pulldown (input DNA) was saved for the generation of control libraries to detect enrichment in the ChIP samples.
+

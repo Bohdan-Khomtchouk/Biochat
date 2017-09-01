@@ -1,0 +1,12 @@
+TITLE
+miR-135b exerts metastatic activity in the ErbB2 driven mammary carcinogenesis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In view of the roles played by miRNAs in cancer progression, we performed a microarray analysis aimed at identifying  miR-135b target genes in breast cancer cells. Detection of transcripts affected by silencing of mir-135b was done using a time course at 24, 48 and 72 h both transfecting cell with mir-135b  specific miRIDIAN microRNA Hairpin Inhibitor or miRIDIAN microRNA Hairpin Inhibitor negative control. Each experimental condition was repeated three times and analysed on on MOUSEREF-8 V2 Illumina bead chips. Genome studio was used to generate raw intensity signal without normalization. Data log2 transformation and loess normalization was performed with oneChannelGUI. Data were filtered using an IQR filter (i.e. only genes characterized by an IQR > 0.25, were retained for further analysis). Detection of differentially expressed transcripts was also performed with oneChannelGUI, using masigpro package with default parameters. Data were visualized by hierarchical clustering, as log2 ratio between anti-miR135b and the negative control using TMEV software. The subset of transcripts characterized by an increase in expression as consequence of a reduction of expression of miR135b were selected. MicroRNA target data for mir135b were retrieved from miranda database (microRNAsmiranda.mouse_predictions_S_C_aug2010.txt, ). Miranda data and transcripts increasing their expression upon silencing of miR135b were intersected to find the genes in common.
+
+DESIGN
+Detection of transcripts affected by silencing of mir-135b was done using a time course at 24, 48 and 72 h both transfecting cell with mir-135b specific miRIDIAN microRNA Hairpin Inhibitor or miRIDIAN microRNA Hairpin Inhibitor negative control.
+

@@ -1,0 +1,12 @@
+TITLE
+Expression data for HT29 cells treated with 5-aza-deoxy-cytidine [RNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The RNA samples from HT-29 (ATCC) colon cancer cell line were reverse transcribed to build cDNA libraries and categorized into 3 groups with different concentrations of 5-aza-deoxy-cytidine (5-Aza); in each group three replicative 150 mm cultures were treated with: 1) dimethyl sulfoxide (vehicle alone, 0 μM 5-Aza); 2) 5μM 5-Aza and 3) 10 μM 5-Aza; for five days. This experiment was also performed parallel on a commercial Affymetrix microarray [GSE41364] and the aim of the study was to compare the two platforms on gene expression measurements and differentially expressed gene (DEG) detection. The results showed a strong correlation between the two platforms, yet it also confirmed the existence of fixed and proportional biases on the gene expression measurements between microarray and RNA-Seq. The DEG analysis indicated the relative superiority of DESeq method in terms of its performance; high consistency was confirmed between DESeq, baySeq methods from RNA-Seq and SAM/eBayes from microarray data.
+
+DESIGN
+Experiment on human colon cancer HT29 cell line treated with 3 concentrations of 5-aza-deoxy-cytidine
+

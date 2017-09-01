@@ -1,0 +1,12 @@
+TITLE
+Rat pineal gland RNA-Seq PolyA project
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+The rat pineal gland is a highly dynamic tissue with many hundreds of genes changing more than two-fold in a 24-hr daily rhythm as measured by Affymetrix GeneChip analysis. We sought to more completely understand this dynamic transcriptome using RNA-Seq in order to capture information regarding alternative splicing, novel exons, unannotated mRNAs, non-coding RNAs, etc. We also wished to identify transcripts that were selectively expressed in the pineal glands relative to other tissues. Toward this end we performed RNA-Seq on three types of samples; 1) a pool of pineal glands sampled at mid-day (ZT7); 2) a pool of pineal glands sampled at mid-night (ZT19); and a pool of 15 different tissues collected from 3 animals at mid-day (ZT7). Animals were housed in a 14:10 light:dark lighting cycle. PolyA-selected RNA was fragmented and sequenced on an Illumina GAII machine, yielding paired-end 51-mer reads.
+
+DESIGN
+The rat pineal transcriptome was measured from mid day and midnight samples and compared to mixed non-pineal tissues.
+

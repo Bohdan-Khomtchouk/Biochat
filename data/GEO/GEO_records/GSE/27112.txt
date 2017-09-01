@@ -1,0 +1,12 @@
+TITLE
+The specifcity of innate immune response is enforced by repression of interferon-response elements by NFkB p50
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The specific binding of transcription factors to cognate sequence elements is thought to be critical for the generation of specific gene expression programs. The transcription factors nuclear factor kB (NF-kB) and the interferon (IFN) regulatory factors (IRFs) bind to the kB site and the interferon response element (IRE), respectively, of target genes, and they are activated in macrophages after exposure to pathogens. However, how these factors produce pathogen-specific inflammatory and immune responses remains poorly understood. Combining top-down and bottom-up systems biology approaches, we have identified the NF-kB p50 homodimer (p50:p50) as a regulator of IRF responses. First, unbiased genome-wide expression analysis revealed that p50 repressed a subset of IFN-inducible genes through a previously uncharacterized subclass of guanine-rich IRE (G-IRE) sequences, which was substantiated by biochemical and structural analyses. Second, mathematical modeling predicted that p50:p50 might enforce the stimulus-specificity of composite promoters. Indeed, the production of the antiviral regulator IFN-b was rendered stimulus-specific by the binding of p50:p50 to the G-IRE–containing IFNb enhancer to suppress cytotoxic IFN signaling. Specifically, a deficiency in p50 resulted in the inappropriate production of IFN-b in response to bacterial DNA sensed by Toll-like receptor 9. This role for NF-kB p50 in enforcing the specificity of the cellular response to pathogens by binding to a previously uncharacterized subset of IRE sequences alters our understanding of how the NF-kB and IRF signaling systems cooperate to regulate antimicrobial immunity.
+
+DESIGN
+[BMDM]: Total RNA extracted from wt, p50-/- or ifnar-/- bone marrow derived macrophages (BMDMs) were subjected to stimulation with LPS, CpG or IFNb [MEF]: Total RNA extracted from wt or p50KO primary mouse embryonic fibroblasts were subjected to stimulation with LPS or IFNb
+

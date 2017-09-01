@@ -1,0 +1,12 @@
+TITLE
+Two mutually exclusive local chromatin states drive efficient V(D)J recombination
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+V(D)J recombination is the first determinant of antigen receptor diversity. Understanding how recombination is regulated requires a comprehensive, unbiased readout of V gene usage. We have developed VDJ-seq, a DNA-based next-generation- sequencing technique that quantitatively profiles recombination products. We reveal a 200-fold range of recombination efficiency among recombining V genes in the primary mouse Igh repertoire. We used machine learning to integrate these data with local chromatin profiles to identify combinatorial patterns of epigenetic features that associate with active VH gene recombination. These features localise downstream of V genes and are excised by recombination, revealing a new class of cis-regulatory element that governs recombination, distinct from expression. We detect two mutually exclusive chromatin signatures at these elements, characterised by CTCF/RAD21 and PAX5/IRF4, that segregate with the evolutionary history of associated VH genes. Thus local chromatin signatures downstream of V genes provide an essential layer of regulation that determines recombination efficiency.
+
+DESIGN
+Two nuclear RNA-seq replicate samples, two H3K4me3 ChIP-seq replicate samples and one input sample from flow sorted ex vivo Rag1-/- progenitor B cells and two VDJ-seq sample replicates from flow-sorted WT pro-B cells
+

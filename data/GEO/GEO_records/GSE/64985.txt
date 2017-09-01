@@ -1,0 +1,12 @@
+TITLE
+Human gene expression compendium containing 9395 samples from the HG_U133PlusV2 platform
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Re-analysis of human gene expression data generated on the Affymetrix HG_U133PlusV2 platform. The original data were downloaded from GEO on May 28, 2008 and normalized to obtain an integrated gene expression atlas across diverse biological sample types and conditions.
+
+DESIGN
+All available GEO series on the Affymetrix Human Genome U133 Plus 2.0 array (GEO accession GPL570) were downloaded on May 28,2008. For each series, we aggregated and normalized probe level information using robust multi-array average (RMA), transformed each expression value using log base 2, and removed technical bias resulting from variation in hybridization conditions and starting material using the R package bias 0.0.3. This with-in-series normalization identified probe or arrays outliers within each dataset. We mapped probes to genes using the Bioconductor annotation package hgu133plus2 1.16.0, and calculated expression values for each gene by averaging the values of probe- sets measuring the same gene. Finally, we performed quantile normalization on the entire compendium using the limma R package (version 2.18.2) in order to reconcile broader differences between datatsets and ensure that all arrays were on the same scale. The entire compendium comprises 20,099 genes and 9395 arrays.
+

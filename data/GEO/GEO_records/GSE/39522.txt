@@ -1,0 +1,12 @@
+TITLE
+Differences in CTCF binding site sequence are associated with unique regulatory and functional trends during embryonic stem cell differentiation [RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+CTCF (CCCTC-binding factor) is a highly conserved 11-zinc finger DNA binding protein with tens of thousands of binding sites genome-wide. CTCF acts as a multifunctional regulator of transcription, having been previously associated with activator, repressor, and insulator activity. These diverse regulatory functions are crucial for preimplantation development and are implicated in the regulation of numerous lineage-specific genes.  Despite playing a critical role in  developmental gene regulation, the mechanisms that underlie developmental changes in CTCF recruitment and function are poorly understood. Our previous work suggested that differences in CTCF’s binding site sequence may affect the regulation of CTCF recruitment, as well as CTCF’s regulatory function. To investigate these two possibilities directly during a developmental process, changes in genome-wide CTCF binding and gene expression were characterized during in vitro differentiation of mouse embryonic stem cells. CTCF binding sites were initially separated into three classes (named LowOc, MedOc, and HighOc) based on similarity to the consensus motif.  The LowOc class, with lower-similarity to the consensus motif, is more likely to show changes in binding during differentiation.  These more dynamically bound sites are enriched for motifs that confer a lower in vitro affinity for CTCF, suggesting a mechanism where sites with low-binding affinity are more amenable to developmental control. Additionally, by comparing changes in CTCF binding with changes in gene expression during differentiation, we show that LowOc and HighOc sites are associated with distinct regulatory functions.  In sum, these results suggest that the regulatory control of CTCF’s binding and function is dependent in part upon specific motifs within its DNA binding site.
+
+DESIGN
+Mouse E14 ES cells were differentiated in vitro for 4.5 days using retinoic acid. RNA-Seq was performed from cells collected before and after differentiation.
+

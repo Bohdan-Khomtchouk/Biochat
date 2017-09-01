@@ -1,0 +1,12 @@
+TITLE
+Expression profiles of lineage-depleted (Lin-) cell and mono-nucleated cell (MNC) samples derived from human umbilical cord blood
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The cellular composition of heterogeneous samples can be predicted from reference gene expression profiles that represent the homogeneous, constituent populations of the heterogeneous samples. However, existing methods fail when the reference profiles are not representative of the constituent populations. We developed PERT, a new probabilistic expression deconvolution method, to address this limitation. PERT was used to deconvolve cellular composition of variably sourced and treated heterogeneous human blood samples. Our results indicate that even after correcting batch effects, cells presenting the same cell surface antigens display different transcriptional programs when they are uncultured versus culture-derived. Given gene expression profiles of culture-derived heterogeneous samples and profiles of uncultured reference populations, PERT was able to accurately recover proportions of pure populations composing the heterogeneous samples. We anticipate that PERT will be widely applicable to expression deconvolution problems using profiles from reference populations that vary from the corresponding constituent populations in cellular state but not cellular identity. Human umbilical cord blood-derived lineage negative cells and mononucleated cells
+
+DESIGN
+Cellular compositions of mononucleated cell and lineage negative cell compartments were deconvolved based on the gene expression profiles
+

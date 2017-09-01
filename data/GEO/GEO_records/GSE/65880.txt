@@ -1,0 +1,12 @@
+TITLE
+LASSIM -a network inference toolbox for genome-wide mechanistic modeling [MAF, MYB
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We present LASSIM, which is a toolbox built to build and infer parameters within mechanistic models on a genomic scale. This is made possible due to a property shared across biological systems, namely the existence of a subset of master regulators, here denoted the core system. The introduction of a core system of genes simplifies the inference into small solvable sub-problems, and implies that all main regulatory actions on peripheral genes come from a small set of regulator genes. This separation allows substantial parts of computations to be solved in parallel, i.e. permitting the use of a computer cluster, which substantially reduces the time for the computation to finish.
+
+DESIGN
+Human Naïve CD4+ T cells were isolated from fresh buffy coats with Miltenyis Naïve CD4+ T Cell Isolation Kit II, according to the manufacturer’s instructions. Cells were either transfected in a cuvette with 600nM human on target plus SMART pool against MAF,MYB and GATA3 (ThermoFisherScientific Inc, USA), non-targeting siRNA (ThermoFisherScientific Inc) or with transfection buffer using the Amaxa transfection program U-014. Five hours after the nucleofection cells were washed, activated and polarized towards TH2 for or 24h. The cells were activated with platebound anti-CD3 (500 ng/ml), 500 ng/ml soluble anti-CD28, 5 µg/ml anti-IL-12, 10 ng/ml IL-4 and 17 ng/ml IL-2 (R & D Systems). For microarray experiments the cells were harvested at 24h of polarization and lysed in 600 ll Qiazol. The expression profiling 200 ng of total RNA from each sample was labeled with Cy3 and transcribed to cRNA using the Agilent Quick Amp Labeling Kit, one color. The labeled cRNA was purified with the RNEasy Mini Kit from Qiagen. The labeling efficiency was assessed using the NanoDrop ND-1000 UV-Vis Spectrophotometer. 1.65 µg Cy3 labeled cRNA from each sample was hybridized to Agilent SurePrint G3 Human GE v2 8x60K slides. The microarray slides were hybridized for 17 hours at 65°C in a rotating oven. After washing according to the manufacturer’s instructions, the slides were analyzed using the Agilent Microarray scanner 2505C with default settings for all parameters. Gene expression data was obtained with Agilent`s feature extraction software (version 10.7.3.1)
+

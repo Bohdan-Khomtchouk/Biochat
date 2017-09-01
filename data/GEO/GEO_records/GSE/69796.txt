@@ -1,0 +1,12 @@
+TITLE
+Roles of Cofactors and Chromatin Accessibility in Hox Protein Target Specificity
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Regulation of specific target genes by transcription factors is central to gene network control in development. How target specificity is achieved in eukaryotic genomes is poorly understood, as exemplified by the Hox family, which show limited in vitro DNA-binding specificity but clear functional specificity in vivo. We generated genome-wide binding profiles for three Hox proteins, Ubx, Abd-A and Abd-B, in Drosophila Kc167 cells, revealing clear target specificity and a striking influence of chromatin accessibility. Ubx and Abd-A bind to similar target sites in accessible chromatin whereas Abd-B binds additional specific targets. Provision of the TALE class cofactors, Exd and Hth, alters the Ubx binding profile, enabling binding to additional targets in the genome. Both the Abd-B specific targets and the cofactor-dependent Ubx targets are in relatively DNase1 inaccessible chromatin, suggesting that competition with nucleosomes is a key factor determining Hox protein target specificity.
+
+DESIGN
+This ChIP-Seq study performed on Kc167 cells involves two experiments and 6 ChIP samples.  In Experiment 1, we generated genome-wide binding profiles for Ubx, Abd-A and Abd-B. An equal volume of input chromatin was retained from each of the Hox samples and combined to represent the input, which was purified alongside the ChIP samples. We performed two biological replicates for each sample. Sequencing was performed using the Illumina MiSeq platform.  In Experiment 2, we generated genome-wide binding profiles for Ubx, mutant Ubx and Ubx in the presence of Hth. We performed two biological replicates for each sample except Ubx where we performed just one. Sequencing was performed using the Illumina HiSeq 2000 platform.  For all samples, Experiment 1 input chromatin was used as the reference control to assay ChIP enrichment.
+

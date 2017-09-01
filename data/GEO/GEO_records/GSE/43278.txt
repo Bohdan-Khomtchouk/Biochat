@@ -1,0 +1,12 @@
+TITLE
+Cancer-produced metabolites of 5-lipoxygenase induce tumor-evoked Bregs via peroxisome proliferator-activated receptor alpha
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Breast cancer cells facilitate distant metastasis through the induction of immunosuppressive regulatory B cells, designated tBregs. We report here that, to do this, breast cancer cells produce metabolites of the 5-lipoxygenase (5-LO) pathway such as leukotriene B4 (LTB4) to activate the proliferator-activated receptor alpha (PPARalpha) in B cells. Inactivation of LTB4 signaling or genetic deficiency of PPARalpha in B cells blocks the generation of tBregs and thereby abrogates lung metastasis in mice with established breast cancer. Thus, in addition to eliciting fatty acid oxidation and metabolic signals, PPARalpha initiates programs required for differentiation of tBregs. We propose that PPARalpha in B cells or/and tumor 5-LO pathways represents new targets for pharmacological control of tBreg-mediated cancer escape.
+
+DESIGN
+Both 4T1 cells and a subset of them designated 4T1.2 are 6-thioguanine resistant cell lines selected from the 410.4 tumor without mutagen treatment.  When injected into BALB/c mice, they spontaneously produces highly metastatic tumors that can metastasize to the lung, liver, lymph nodes and brain while the primary tumor is growing in situ. These cell lines can be rendered non-metastatic (4T1-PE and 4T1.2-PE) by treatment with TARC-PE38 chemotoxin.  RNA was extracted from both of these cell lines as well as the TARC-PE38 treated cell lines using Qiagen RNeasy kits.  The total RNA from 3 replicates of each group was labeled using Illumina TotalPrep RNA Amplification Kits from Ambion.  0.75ug of  this biotin-labeled cRNA was hybridized at 58 degrees C for 16 hours to Illumina's Sentrix MouseRef-8 v1.1 Expression BeadChips, washed, and the biotin labeled cRNA was detected by staining with streptavidin-Cy3.  Arrays were scanned at a resolution of 0.8um using the Beadstation 500 X from Illumina. Data was extracted using the Illumina BeadStudio software(v3.1.7).  Any spots at or below the background were filtered out using an Illumina detection p value of 0.02 and above. The natural log of all remaining scores were used to find the avgerage and standard deviation of each array and the z-score normalization was calculated and presented below.  Z-score = (raw value - avg)/std.
+

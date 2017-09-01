@@ -1,0 +1,12 @@
+TITLE
+A MYC-driven change in mitochondrial dynamics limits stem cell properties of mammary epithelial cells (RNA-seq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In several developmental lineages, an increase in expression of the MYC proto-oncogene drives the transition from quiescent stem cells to transit amplifying cells. The mechanism by which MYC restricts self-renewal of adult stem cells is unknown. Here, we show that MYC activates a stereotypic transcriptional program of genes involved in protein translation and mitochondrial biogenesis in mammary epithelial cells and indirectly inhibits the YAP/TAZ co-activators that are essential for mammary stem cell self-renewal. We identify a phospholipase of the mitochondrial outer membrane, PLD6, as the mediator of MYC activity. PLD6 mediates a change in the mitochondrial fusion/fission balance that promotes nuclear export of YAP/TAZ in a LATS- and RHO-independent manner. Mouse models and human pathological data confirm that MYC suppresses YAP/TAZ activity in mammary tumors. PLD6 is also required for glutaminolysis, arguing that MYC-dependent changes in mitochondrial dynamics balance cellular energy metabolism with the self-renewal potential of adult stem cells.
+
+DESIGN
+RNA-Seq Experiments in 2 different primary breast epithelial cell lines (HMLE, which were sorted according to CD44/CD24 surface markers & unsorted IMEC). Both cell lines expressed a doxycycline-inducible version of MYC. For the HMLE cell line DGE analysis was performed for the uninduced (EtOH) situation, comparing CD44high vs CD44 low and for the induced situation Dox vs. EtOH for the CD44high population. For the IMEC cell line DGE was performed by comparing Dox-treated populations expressing either Dox-inducible MYC or a vector control which allows to filter out potential effects due to doxycycline treatment.
+

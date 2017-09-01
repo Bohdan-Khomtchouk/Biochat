@@ -1,0 +1,12 @@
+TITLE
+GRO-seq from HCT116 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The majority of transcription studies examine steady-state RNA . However steady-state RNA is not a true reflection of the transcriptome, because the RNA levels are affected by both transcription rate and degradation rate. In this experiment we measured the amount of transcription occurring in HCT116 colon cancer cells, regardless of degradation, using GRO-seq (global nuclear run-on sequencing). This information demonstrates that many genes have a pile-up of transcriptionally-engaged polymerase near their 5'-end.
+
+DESIGN
+Nuclei were prepared from HCT116 cells (treated for 1hr with DMSO as control for additional GRO-seq experiments to be reported separately). Transcription run-on was performed (as per Core, L.J., Waterfall, J.J., and Lis, J.T. (2008). Nascent RNA sequencing reveals widespread pausing and divergent initiation at human promoters. Science 322, 1845-1848) and nascent RNAs were purified and sequenced.
+

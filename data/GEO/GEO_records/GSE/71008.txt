@@ -1,0 +1,12 @@
+TITLE
+Plasma extracellular RNA profiles in healthy and cancer patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Extracellular vesicles such as exosomes are selectively enriched in RNA that has potential for use as disease biomarkers. To systemically characterize circulating extracellular RNA profiles, we performed RNA sequencing analysis on plasma extracellular vesicles derived from 192 individuals including 100 colon cancer, 36 prostate cancer and 6 pancreatic cancer patients along with 50 healthy individuals. Of ~12.6 million raw reads for each of these subjects, the number of mappable reads aligned to RNA references was ~5.4 million including microRNAs(miRNAs) (~40.4%), piwi-interacting RNAs(piwiRNAs) (~40.0%), pseudo-genes (~3.7%), long noncoding RNAs (lncRNAs) (~2.4%), tRNAs (~2.1%), and mRNAs (~2.1%). To select the best candidates for potential extracellular RNA reference controls, we performed abundant level stability testing and identified a set of miRNAs showing relatively consistent expression. To estimate biological variations, we performed association analysis of expression levels with age and sex in healthy individuals. This analysis showed significant sex association with seven small noncoding RNAs (false discovery rate, or FDR < 0.05), while no small noncoding RNAs were statistically associated with age. To identify disease-associated RNA transcripts, we performed analysis of covariance by including disease status, age, sex, RNA isolation and gel size selection dates. We observed a gradual increase of significantly associated RNAs (in particular, miRNAs) with disease advancement as denoted by cancer staging. We found significant association of miR-125a-5p and miR-1246-3p with all cancer types tested (FDR < 0.05). Based on the disease associations, we developed cancer type-specific multivariate statistical models to predict disease status with an area under the ROC curve from 0.67 in stage I colon cancer to 0.92 in advanced prostate cancer. To date, this is the largest RNA-seq study to systematically profile extracellular RNA species, which has not only provided a baseline reference profile for circulating extracellular RNA, but also a set of RNA candidates for reference controls and disease biomarkers.
+
+DESIGN
+RNAs fro plasma circulating microviscles in 192 individuals were sequenced and quantified. RNA expression stability testing was performed to identify stably expressed RNAs. Distribution of RNA species and individual RNA transcripts were compared in normal and cancer patients.
+

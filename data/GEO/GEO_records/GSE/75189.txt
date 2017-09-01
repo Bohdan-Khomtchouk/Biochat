@@ -1,0 +1,12 @@
+TITLE
+High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The ability to perturb genes in human cells is crucial for elucidating gene function and holds great potential for finding therapeutic targets for diseases such as cancer. To extend the catalog of human core and context- dependent fitness genes, we have developed a high-complexity second-generation genome-scale CRISPR-Cas9 gRNA library and applied it to fitness screens in five human cell lines. Using an improved Bayesian analytical approach, we consistently discover 5-fold more fitness genes than were previously observed. We present a list of 1,580 human core fitness genes and describe their general properties. Moreover, we demonstrate that context-dependent fitness genes accurately recapitulate pathway-specific genetic vulnerabilities induced by known oncogenes and reveal cell-type-specific dependencies for specific receptor tyrosine kinases, even in oncogenic KRAS backgrounds. Thus, rigorous identification of human cell line fitness genes using a high-complexity CRISPR-Cas9 library affords a high-resolution view of the genetic vulnerabilities of a cell.  Additional data can be found at tko.ccbr.utoronto.ca
+
+DESIGN
+RNAseq of five human cell lines with Cas9 knock-ins.
+

@@ -1,0 +1,12 @@
+TITLE
+The RNAi machinery in Colletotrichum higginsianum has a role in antiviral defense [AGO_IP_smallRNA]
+
+ORGANISM
+Colletotrichum higginsianum IMI 349063
+
+SUMMARY
+Here we describe the identification and regulation of a novel dsRNA virus in Colletotrichum higginsianum. High throughput sequencing of small RNAs and strand-specific RNA-seq was performed on single gene knock-out mutants created for each RNAi component gene: rdr1, rdr2, rdr3, dcl1, dcl2, ago1, and ago2, and the double mutant: ∆dcl1∆dcl2. De novo assembly of the ∆dcl1 RNA-seq data identified two contigs that represented the forward and reverse strands of an uncharacterized dsRNA virus, designated here as Colletotrichum higginsianum non-segmented dsRNA virus 1 (ChNRV1). We found increased presence of the viral RNA in the RNA-seq datasets of the ∆dcl1, ∆dcl1dcl2, and ∆ago1 strains, suggesting that these genes are required for control of the virus. We show that viral small RNAs co-immunoprecipitate with a 6xFLAG-3xHIS-tagged AGO1 protein by sequencing the small RNAs from immunoprecipitated fractions. Additionally, analyses of the small RNA datasets from the RNAi mutants revealed control of the virus through small RNA-mediated silencing required both AGO1 and DCL1.
+
+DESIGN
+6xFLAG-3xHIS-AGO1 (6F3H-AGO1) and 6xFLAG-3xHIS-AGO2 (6F3H-AGO2) proteins were immunoprecipitated from C. higginsianum mycelia tissue, along with a non-tagged protein control. RNAs isolated in the IP fraction were used as the starting material for the small RNA library protocol. The input and IP fractions of three independent transformants containing 6F3H-AGO1, two independent transformants containing 6F3H-AGO2, and one replicate of wild-type (mock-IP) were sequenced.
+

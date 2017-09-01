@@ -1,0 +1,12 @@
+TITLE
+Loss of HP1 causes depletion of H3K27me3 from facultative heterochromatin and gain of H3K27me2 at constitutive heterochromatin
+
+ORGANISM
+Neurospora crassa
+
+SUMMARY
+Methylated lysine 27 on histone H3 (H3K27me) marks repressed " facultative heterochromatin " , including developmentally regulated genes in plants and animals. The mechanisms responsible for localization of H3K27me are largely unknown, perhaps in part because of the complexity of epigenetic regulatory networks. We used a relatively simple model organism bearing both facultative and constitutive heterochromatin, Neurospora crassa, to explore possible interactions between elements of heterochromatin. In higher eukaryotes, reductions of H3K9me3 and DNA methylation in constitutive heterochromatin have been variously reported to cause redistribution of H3K27me3. In Neurospora, we found that elimination of any member of the DCDC H3K9 methylation complex (DIM-5, DIM-7, CUL4, DDB1/DIM-8 or DIM-9) caused massive changes in the distribution of H3K27me; regions of facultative heterochromatin lost H3K27me3 while regions that are normally marked by H3K9me3 became methylated at H3K27. Elimination of DNA methylation by deletion of the DNA methyltransferase gene, dim-2, had no obvious effect on the distribution of H3K27me. Elimination of HP1, which " reads " H3K9me3, also caused major changes in the distribution of H3K27me, indicating that HP1 is important for normal localization of facultative heterochromatin. Because loss of HP1 caused redistribution of H3K27me2/3 but not H3K9me3, these normally non-overlapping marks became superimposed. Indeed, mass spectrometry revealed substantial cohabitation of H3K9me3 and H3K27me2 on H3 molecules from an hpo strain. Loss of H3K27me machinery (e.g. the methyltransferase SET-7) did not impact constitutive heterochromatin, but partially rescued the slow growth of the DCDC mutants, suggesting that the poor growth of these mutants is partly attributable to ectopic H3K27me. Altogether, our findings with Neurospora clarify interactions of facultative and constitutive heterochromatin in eukaryotes.
+
+DESIGN
+ChIP-seq was performed on 27 samples (H3K27me2me3 ChIP: 16 samples, H3K9me3 ChIP: 7 samples, GFP ChIP: 4 samples).  Each type of histone modification and GFP ChIP-seq includes a wild-type sample.  For H3K27me2me3 ChIP-seq, biological replicates are included for the dim-5 and dim-8 deletion strains.  H3K27me2me3 ChIP-seq also includes samples from 2 independent dim-2 strains.
+

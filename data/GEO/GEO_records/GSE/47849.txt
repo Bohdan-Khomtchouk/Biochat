@@ -1,0 +1,12 @@
+TITLE
+POLR3G and POLR3GL-RNA polymerase III target genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose:  Characterization of the target genes of two versions of the Polymerase III (pol III), one containing POLR3G subunit or POLR3GL subunit, in different tissues. Methods: We performed ChIP_seq of POLR3D and the two variants subunits, POLR3G and POLR3GL in Human IMR90 cells, Mouse liver and Mouse Hepatocarcinoma Hepa 1-6 cells in order to locate and analyse total pol III, POLR3G and POLR3GL-containing pol III in various tissues. Results: We show that POLR3G- as well as POLR3GL-containing pol III are present in cultured cell lines and in normal mouse liver, although the relative amounts of the two forms vary, with the POLR3G-containing pol III relatively more abundant in dividing cells. Both forms of pol III occupy the same target genes, in very constant proportions within one cell line, suggesting that the two forms of pol III have similar function with regard to specificity for target genes. Conclusions: POLR3G and POLR3GL occupy the same target genes, but they are differentially expressed under different conditions and in different cell types.
+
+DESIGN
+Pol III target genes in human IMR cells, Mouse liver, and Mouse Hepatocarcinoma cells were identified by chromatin Immuno-precipitation followed by deep sequencing using Illumina HiSeq. For Human IMR90 cells, we used antibodies against POLR3D, POLR3G, POLR3GL and BDP1. For Mouse data, we targeted POLR3D, POLR3G and POLR3GL and did ChIP_seq replicates. We also sequenced the corresponding inputs (crosslinked DNA of IMR90 cells, Mouse liver, and Mouse Hepatocarcinoma cells). This represents a total of 20 samples.
+

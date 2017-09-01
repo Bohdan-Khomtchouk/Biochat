@@ -1,0 +1,12 @@
+TITLE
+RNA sequencing of pheromone stimulated and unstimulated MATa and MATα Saccharomyces cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Haploid budding yeast has two mating types, defined by the alleles of the MAT locus, MATa and MATα. Mating occurs when two haploid cells of opposite mating types signal to each other using reciprocal pheromones and receptors, polarize and grow towards each other, and eventually fuse to form a single diploid cell.  The pheromones and receptors are necessary and sufficient to define a mating type, but other mating type-specific proteins make mating more efficient.  We examined the role of these proteins by genetically engineering “transvestite” cells that swap the pheromone, pheromone receptor, and pheromone processing factors of one mating type for another.  These cells can mate with each other, but their mating is inefficient.  By characterizing their mating defects and examining their transcriptomes, we found Afb1 (a-factor barrier), a novel MATα-specific protein that interferes with a-factor, the pheromone secreted by MATa cells.  We show that strong pheromone secretion is essential for efficient mating and that the weak mating of transvestites can be improved by boosting their pheromone production.  Using synthetic biology, it is possible to characterize the factors that control efficiency in biological processes.  In the case of budding yeast mating, selection for increased mating efficiency is likely to have continually boosted pheromone levels and the ability to discriminate between partners who make more (potentially fitter) and less (potentially less fit) pheromones. This sensitivity to which partner makes more pheromone comes at a cost: it means mating is not robust in situations where all potential partners make less pheromone.
+
+DESIGN
+4 conditions were analysed, each with 3 biological replicates.  The conditions were unstimulated MATa cells in YPD. Stimulated MATa cells in YPD+10nM α-factor.  Unstimulated MATα cells in YPD.  Stimulated MATα cells in YPD+10nM α-factor.
+

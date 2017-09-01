@@ -1,0 +1,12 @@
+TITLE
+COSMIC-seq of bioactive N-methylpyrrole/N-methylimidazole polyamides
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Targeting the genome with sequence-specific DNA-binding molecules is a major goal at the interface of chemistry, biology, and precision medicine. Polyamides, composed of N-methylpyrrole and N-methylimidazole monomers, are a class of synthetic molecules that can be rationally designed to “read” specific DNA sequences.  However, the impact of different chromatin states on polyamide binding to its cognate sites across the genome is a crucial parameter that remains unresolved.  We applied COSMIC-seq (crosslinking of small molecules to isolate chromatin) to directly map, for the first time, the genome-wide binding profiles of two bioactive and structurally distinct polyamides in cells.
+
+DESIGN
+To directly map polyamide binding sites across the genome in living cells, we developed COSMIC-seq. COSMIC consists of treating live cells with trifunctional derivatives of polyamides. These molecules were comprised of a DNA-binding polyamide, an affinity handle, and a photocrosslinker. The polyamide confers sequence specificity, while the affinity handle, biotin, is used to purify polyamide–DNA adducts with streptavidin-coated magnetic beads. The photocrosslinker, psoralen, enables the temporally-controlled formation of a covalent bond between the polyamide and DNA. Cells were first treated with the polyamide derivative, crosslinked with 365 nm UV light, lysed, sonicated to shear DNA, and streptavidin-coated magnetic beads were used to capture polyamide-DNA adducts. Because psoralen crosslinks are reversible, the captured genomic DNA can be separated from the polyamide, purified, and identified by massively parallel, next-generation sequencing (NGS). Sequencing reads are mapped to their location across the genome, and loci bound by polyamides show enrichment of sequencing reads relative to a reference input sample.
+

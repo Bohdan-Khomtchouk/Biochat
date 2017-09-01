@@ -1,0 +1,12 @@
+TITLE
+Overexpression of ATF4 in BEAS2B cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To determine gene expression changes induced by ATF4 overexpression, RNA was isolated from BEAS2B cells after overexpression of ATF4 or negative control.  mRNA expression was profiled using Affymetrix Human Gene 1.0 ST Arrays.
+
+DESIGN
+RNA isolated from BEAS2B cells after overexpression of ATF4 or empty vector was processed and hybridized to Affymetrix Human Gene 1.0 ST Arrays.  Experiments were performed in triplicate.  Data from the 6 microarrays were used for RMA normalization.  RMA normalization was performed in the R statsitical environment using the affy package.  A t-test was used to determine the association of gene expression with ATF4 overexpression.
+

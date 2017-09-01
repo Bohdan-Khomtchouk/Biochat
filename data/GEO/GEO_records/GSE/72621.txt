@@ -1,0 +1,12 @@
+TITLE
+Identification of a selective G1-phase benzimidazolone inhibitor by a senescence-targeted virtual screen using artificial neural networks
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cellular senescence is a barrier to tumorigenesis in normal cells and tumour cells undergo senescence responses to genotoxic stimuli, which is a potential target phenotype for cancer therapy. However, in this setting, mixed-mode responses are common with apoptosis the dominant effect. Hence, more selective senescence inducers are required. Here we report a machine learning-based in silico screen to identify potential senescence agonists. We built profiles of differentially affected biological process networks from expression data obtained under induced telomere dysfunction conditions in colorectal cancer cells and matched these to a panel of 17 protein targets with confirmatory screening data in PubChem. We trained a neural network using 3517 compounds identified as active or inactive against these targets. The resulting classification model was used to screen a virtual library of ~2M lead-like compounds. 147 virtual hits were acquired for validation in growth inhibition and senescence-associated b-galactosidase (SA-β-gal) assays. Among the found hits a benzimidazolone compound, CB-20903630, had low micromolar IC50 for growth inhibition of HCT116 cells and selectively induced SA-β-gal activity in the entire treated cell population without cytotoxicity or apoptosis induction. Growth suppression was mediated by G1 blockade involving increased p21 expression and suppressed cyclin B1, CDK1 and CDC25C. Additionally, the compound inhibited growth of multicellular spheroids and caused severe retardation of population kinetics in long term treatments. Preliminary structure-activity and structure clustering analyses are reported and expression profiling of CB-20903630 against other cell cycle suppressor compounds suggests that distinct pathways are affected.
+
+DESIGN
+Treatment of IMR90 with 13 kinase inhibitors and novel compound CB20903630 or DMSO control performed in duplicate.
+

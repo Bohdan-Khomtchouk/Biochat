@@ -1,0 +1,12 @@
+TITLE
+Sequential changes at differentiation gene promoters as they become active in a stem cell lineage
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Transcriptional silencing of terminal differentiation genes by the Polycomb group (PcG) machinery is emerging as a key feature of precursor cells in stem cell lineages. How, then, is this epigenetic silencing reversed for proper cellular differentiation? Here we investigate how the developmental program reverses local PcG action to allow expression of terminal differentiation genes in the Drosophila male germline stem cell lineage. We find that the silenced state, set up in precursor cells, is relieved through developmentally regulated sequential events at promoters once cells commit to spermatocyte differentiation. The programmed events include global down-regulation of PRC2, recruitment of hypophosphorylated RNA Polymerase II (Pol II) to promoters, as well as expression and action of cell-type specific homologs of subunits of TFIID (tTAFs). In addition, action of tMAC, a tissue specific version of the MIP/dREAM complex, is required both for recruitment of tTAFs to target differentiation genes and for proper cell-type specific localization of PRC1 components and tTAFs to the spermatocyte nucleolus. Together, action of the tMAC and tTAF cell-type specific chromatin and transcription machinery leads to loss of Polycomb and release of Pol II from the promoter of terminal differentiation genes to elongation, allowing robust transcription of the terminal differentiation genes.
+
+DESIGN
+Total RNA from approximately 200 pairs of fly testes (bam1/bamΔ86; aly2/aly5P; sa1/sa2; y,w) was extracted using TRIzol (Invitrogen, #15596-018, Carlsbad, CA, USA) following the manufacturer's instructions. The genomic DNA was degraded using 2 Units of DNase I (Fermentas, #EN0521, Glen Burnie, MD, USA) at 37°C for 20 minutes. RNA integrity was checked by gel electrophoresis (1% agarose). Approximately 4 μg of total RNA from each biological replicate were used to generate labeling probes to hybridize with the Affymetix GeneChip Drosophila Genome 2.0 Array according to the Affymetrix protocol. Three biological replicates were performed for each genotype. Microarray hybridization was processed at the Core Facility at the Stanford University School of Medicine and the raw data were exported from the Affymetrix Microarray Suite (MAS). The CEL files were used for signal normalization with RMA as part of the limma package from the Bioconductor R packages ( ).
+

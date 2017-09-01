@@ -1,0 +1,12 @@
+TITLE
+Comparison of steady state mRNA levels between equine articular cartilage and ten other equine tissues
+
+ORGANISM
+Equus caballus
+
+SUMMARY
+A tissue survey of gene expression was conducted using microarray-based transcriptional profiling to compare equine articular cartilage to 10 other normal adult horse tissues.  The ten comparative tissues were bladder, cerebellum, kidney, liver, lung, lymph node, muscle, placental villous, spleen, and testis.
+
+DESIGN
+Messenger RNA transcriptome comparisons were conducted between equine articular cartilage and ten other body tissues using a 9413 element equine-specific cDNA microarray and a two-color dye-swap experimental design.  After scanning, the median intensities adjusted for background were entire chip Lowess-normalized for each individual slide.  Quantile regression was used to estimate the conditional quantile of the M and A log ratios given the observed average log intensity.  Briefly, a nonparametric approach was used to reveal the relationship between percentiles of M and A, where M is log2 (R/G) and A is 0.5 log2 (RG) with R representing expression in articular cartilage and G representing expression in the comparative tissue.  The quantile regression was fit using a B-spline with 5 fixed nodes.  The 1st, 5th, 10th, 20th, 50th, 80th, 90th, 95th, and 99th conditional quantiles were estimated.  For each observed gene intensity in a given tissue comparison, the normal quantile was used as the cartilage-specificity in place of the corresponding estimated regression quantile.
+

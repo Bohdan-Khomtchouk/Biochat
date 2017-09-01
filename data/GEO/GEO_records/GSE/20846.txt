@@ -1,0 +1,12 @@
+TITLE
+Transcript assembly and abundance estimation from RNA-Seq reveals thousands of new transcripts and switching among isoforms
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We introduce an approach to transcript discovery coupled with a statistical model for RNA-Seq experiments that produces estimates of transcript abundances. Our algorithms are implemented in an open source software program called Cufflinks. To test Cufflinks, we sequenced and analyzed more than 430 million paired 75bp RNA-Seq reads from a mouse myoblast cell line representing a differentiation timeseries.  We detected 13,689 known transcripts and 3,724 previously unannotated ones, 62% of which are supported by independent expression data or by homologous genes in other species.  Analysis of transcript expression over the timeseries revealed complete switches in the dominant transcription start site (TSS) or splice-isoform in 330 genes, along with more subtle shifts in a further 1,304 genes. These dynamics suggest substantial regulatory flexibility and complexity in this well-studied model of muscle development.
+
+DESIGN
+Timeseries of C2C12 myoblast RNA-Seq
+

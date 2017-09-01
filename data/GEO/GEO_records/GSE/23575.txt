@@ -1,0 +1,9 @@
+TITLE
+Custom array CGH validation of de novo CNVs in CEU HapMap samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This is the validation data for candidate de novo CNV calls made in the CEU Hapmap by Itsara et al., Genome Research 2010. In this study, de novo CNV calls were initially made with Illumina 1M SNP arrays. Validation of CNV calls was performed with Nimblegen custom array CGH using the extended CEPH pedigrees. A truly de novo CNV would be unobserved in the first generation (CEU trio parents), validated in the second generation (CEU trio children), and assuming no selective effects, transmitted to approximately half of the individuals in the third generation. We attempted validation of 4 de novo CNVs in 3 extended CEPH pedigrees: 1358, 1408, and 1459.
+

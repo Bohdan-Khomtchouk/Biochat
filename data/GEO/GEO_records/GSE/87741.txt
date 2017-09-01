@@ -1,0 +1,12 @@
+TITLE
+Cooperation between a hierarchical set of recruitment sites specifically targets the C. elegans dosage compensation complex to the X chromosomes.
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+The genetic mechanisms that allow specific targeting of large chromosomal domains by various gene regulatory complexes remain unclear. Here, we used the C. elegans dosage compensation system to study how binding of a condensin-like dosage compensation complex (DCC) is specifically targeted to the X chromosomes. Previous work established that the DCC is first recruited to a small number of recruitment sites before subsequently spreading in cis along the X chromosome. To understand X-specificity of DCC recruitment, we examined the genomic properties of the recruitment sites and analyzed DCC binding upon ectopic insertion and deletion of recruitment site sequence. We find that X-specificity of DCC recruitment is the combined result of hierarchical recognition of and long-distance cooperation between the recruitment sites.
+
+DESIGN
+Included are ChIP-seq profiles from C. elegans mixed stage embryos. Data was collected from at least two and up to five replicates. N2 ChIP-seq data sets were generated using antibodies against four dosage compensation complex proteins (SDC-2, SDC-3, DPY-30, and DPY-27), the histone modification H3K4me3, and the histone protein H3. TY1072 (sdc-2 null) ChIP-seq data was generated using antibodies against SDC-2 and histone H3. TY2205 (sdc-3 null) ChIP-seq data was generated using antibodies against SDC-2. New strains generated in this study include recruitment site deletions (ERC38, ERC54, and ERC64) and recruitment site insertions (ERC51); ChIP-seq data from these strains was generated using antibodies against DPY-27. We additionally include ERC38 ChIP-seq data from SDC-3 antibodies and matching RNA-seq data. Paired-end input data from ERC08 and ERC09 were used to map recruitment site insertions.
+

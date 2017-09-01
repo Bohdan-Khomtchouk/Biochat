@@ -1,0 +1,12 @@
+TITLE
+Antisense Transcripts Impede Uridylation-induced Exonucleolytic Degradation to Generate Guide RNAs
+
+ORGANISM
+Trypanosoma brucei
+
+SUMMARY
+Small non-coding RNA biogenesis typically involves cleavage of structured precursors by RNase III-like endonucleases. However, guide RNAs that direct U-insertion/deletion mRNA editing in mitochondria of trypanosomes maintain 5′ triphosphate characteristic of transcription start site and possess U-tail indicative of 3′ processing and uridylation. Here, we identified a protein complex composed of RET1 TUTase and 3′-5′ DSS1 exonuclease, and three additional subunits. This complex, termed mitochondrial 3′ processome (MPsome), is responsible for primary uridylation of ~800-nt gRNA precursors, their processive degradation to a mature length of 50-60 nt, and secondary U-tail addition. Both strands of gRNA gene are transcribed giving rise to sense and antisense precursors of similar size. Head-to-head hybridization of these transcripts blocks symmetrical 3′-5′ degradation at the fixed distance from the double-stranded region. Together, our findings suggest a model in which gRNA is derived from the 5′ extremity of a primary molecule by uridylation-induced, antisense transcription-controlled exonucleolytic degradation.
+
+DESIGN
+1. we first sequenced guide RNA precursor (Gel-fractioned total cellular RNA 600-1500nt was used) transcripts from three replicates to study the their tail features and also validate observation of sense/antisense accumulation upon perturbation of pre-processing complex based on few cases. 2. we then sequenced mitochondrial small RNA and built a reference for small RNAs using our custom algorithm. We then took the mitochondrial small RNA data and uncovered the sense/antisense pair. 3. We then used CLIP-Seq data to investigate in vivo binding sites and, together with RNA IP-Seq data to understand what determine the relative abundance of sense and antisense pair of the duplex. 4. We used sequenced small mitochondrial RNA in different RNAi experiments (For RNAi experiments, 30-70nt RNA fraction was gel-isolated from total cellular RNAs) to understand which protein will affect the Utail length in mature small mitochondrial RNA.
+

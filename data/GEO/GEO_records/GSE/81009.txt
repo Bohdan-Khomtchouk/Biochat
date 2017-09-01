@@ -1,0 +1,12 @@
+TITLE
+Global binding of isoforms of Wilms' Tumor gene 1 and H3K4me3 in K562 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Wilms' tumor gene 1 (WT1) acts as an oncogene in acute myeloid leukemia (AML). A naturally occurring alternative splice event between zinc fingers three and four, removing or retaining three amino acids (KTS), is believed to change the DNA binding affinity of WT1. Altered balance between WT1 -KTS and WT1 +KTS expression associates with poor prognosis in AML. Methods: We characterized the DNA binding patterns of biotin-tagged WT1 -KTS and WT1 +KTS in K562 cells by chromatin immunoprecipitation and deep sequencing (ChIP-seq). Results: We discovered that WT1 -KTS preferentially binds near transcription start sites (TSS) and in enhancers, whereas WT1 +KTS binds within gene bodies. Additionally, we observed a significant overlap between WT1 -KTS and WT1 +KTS target genes, despite the binding sites being distinct. Motif analysis showed enrichment of two TRANSFAC derived motif matrices within peaks for both isoforms, and enrichment of several previously published WT1 motifs which, however, differed between isoforms. Additional analyses showed that WT1 -KTS and WT1 +KTS target genes are transcribed to a higher extent than non-targets, and involved in cell proliferation, cell death, and development. Conclusions: Our results provide the first evidence that WT1 -KTS and WT1 +KTS bind principally different regions of the genome, yet share target genes. Our results indicate isoform-specific regulation of processes related to cell proliferation and differentiation, consistent with the involvement of WT1 in AML.
+
+DESIGN
+Streptavidin capture of biotinylated WT1 –KTS (two replicates), biotinylated WT1 +KTS (three replicates) and background K562-BirA cells (three replicates; background control). H3K4me3 immunoprecipitation in cells containing biotinylated WT1 –KTS (three replicates) and in cells containing biotinylated WT1 +KTS (two replicates).
+

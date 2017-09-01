@@ -1,0 +1,12 @@
+TITLE
+ChIP-seq analysis of H3K27me3 histone modification in EZH2 mutant and wild type DLBCL cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In eukaryotes, epigenetic post-translational modification of histones is critical for regulation of chromatin structure and gene expression. EZH2 is the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2) and is responsible for repressing target gene expression through methylation of histone H3 on lysine 27 (H3K27). Over-expression of EZH2 is implicated in tumorigenesis and correlates with poor prognosis in multiple tumor types. Recent reports have identified somatic heterozygous mutations of Y641 and A677 residues within the catalytic SET domain of EZH2 in diffuse large B-cell lymphoma (DLBCL) and follicular lymphoma (FL). The Y641 residue is the most frequently mutated residue, with 22% of GCB (Germinal centre B-cell) DLBCL and FL harboring mutations at this site. These lymphomas exhibit increased H3K27 tri-methylation (H3K27me3) due to altered substrate preferences of the mutant enzymes. However, it is unknown whether direct inhibition of EZH2 methyltransferase activity alone will be effective in treating lymphomas carrying activating EZH2 mutations.  Herein, we demonstrate that GSK126, a potent, highly-selective, SAM-competitive, small molecule inhibitor of EZH2 methyltransferase activity, decreases global H3K27me3 levels and reactivates silenced PRC2 target genes. GSK126 effectively inhibits the proliferation of EZH2 mutant DLBCL cell lines and dramatically inhibits the growth of EZH2 mutant DLBCL xenografts in mice. Together, these data demonstrate that pharmacological inhibition of EZH2 activity may provide a promising treatment for EZH2 mutant lymphoma.
+
+DESIGN
+We performed a ChIP-seq experiment to understand the genomewide pattern of H3K27me3 enrichment in DLBCL cell lines that were differentially sensitive to GSK126. H3K27me3 bound chromatin  and input controls was immunoprecipitated and subjected to sequencing on the Illumina GA Iix. In total, 3 cell lines were profiled - 3 EZH2 mutant (Pfeiffer, KARPAS-422, WSU-DLCL2).
+

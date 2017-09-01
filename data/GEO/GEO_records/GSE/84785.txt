@@ -1,0 +1,12 @@
+TITLE
+RNA-seq data is shaped in characteristic ways by polymerase processivities
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We present here an integrated framework that allows inference of enzyme reactions during library preparation and which predicts characteristic coverage shapes for different protocols. Analysis of several existing (sc)RNA-seq datasets confirms our model and reveals polymerase processivities as mechanistic origins of the resulting coverage shapes. We show how correction factors are necessary for proper RNA-seq-based mRNA quantification. Finally, we demonstrate the sensitivity of our methodology in inferring increased processivities at lowered reaction temperatures, suggesting possible improvements to existing protocols. Our findings have broad implications for existing and future RNA-seq experiments.
+
+DESIGN
+Temperature variations during reverse transcription and analysis of the reverse transcriptase processivity using mathematical modelling.
+

@@ -1,0 +1,12 @@
+TITLE
+Lysine-specific demethylase 1 targets in brown adipocytes [ChIP-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The aim of this study is to identify the Lsd1 genome binding profile in brown adipocytes. Purpose: The aim of this study is to identify the Lsd1 genome binding profile in brown adipocytes. Methods: Libraries were prepared from Lsd1-immunoprecipitated DNA according to standard methods. ChIP-seq libraries were sequenced using a HiSeq 2000 (Illumina) and mapped to the mm10 reference genome using bowtie 2 (Langmead et al., 2009). Data were further analysed using the peak finding algorithm MACS 1.41 (Zhang et al., 2008) using input as control. All peaks with FDR greater than 0.3 % were excluded from further analysis. The uniquely mapped reads were used to generate the genome-wide intensity profiles, which were visualized using the IGV genome browser (Thorvaldsdottir et al., 2012). Results: HOMER (Heinz et al., 2010) was used to annotate peaks, to calculate overlaps between different peak files, and for motif searches. The genomic features (promoter, exon, intron, 3’ UTR, and intergenic regions) were defined and calculated using Refseq and HOMER. Genes annotated by HOMER were further used for a pathway analysis in WebGestalt (Heinz et al., 2010; Wang et al., 2013). ChIP-seq analysis revealed that Lsd1 was located at the promoter of 11735 genes.
+
+DESIGN
+Lsd1 binding profile in brown adipocytes; Primary brown adipocytes were differentiated for 10 days in adipogenic medium. Cells were fixed for 5 min at room temperature according to Arrigoni et al. 2015
+

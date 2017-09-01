@@ -1,0 +1,12 @@
+TITLE
+EventPointer: An effective identification of alternative splicing events using junction arrays
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+There is an increasing interest on the role of Alternative splicing (AS) in different pathologies. The Affymetrix Human Transcriptome Array (HTA 2.0) can be used to explore AS very efficiently. However, the interpretation software provided by its vendor (TAC 3.0) does not fully exploit its potential and can only be applied to case-control studies.  EventPointer is an R package to identify Alternative Splicing events using HTA 2.0 arrays. It can be applied to complex experimental designs. The software provides a list of the detected events indicating the type of event (cassette, alternative 3’, etc.), their statistical significance, and affected protein domains affected. The false positive rate is very low (the first detected false positive was ranked in the 149th position). EventPointer is publicly available at GitHub.
+
+DESIGN
+9 samples with 3 replicates from A549 lung adenocarcinoma cell lines. The experiment includes 3 conditions: Cells treated with the transfection vehicle (Lipofectamine), cells treated with scrambled RNA and cells transfected with a siRNA that targets SRSF1
+

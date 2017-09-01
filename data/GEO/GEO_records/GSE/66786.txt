@@ -1,0 +1,12 @@
+TITLE
+Primary duck hepatocyte transcriptome analysis provides insight into the host innate immune response and hepadnavirus infection
+
+ORGANISM
+Anas platyrhynchos
+
+SUMMARY
+Our aim was to classify and quantify transcripts identified in 24-h-cultured primary duck hepatocytes and construct a protein–protein interaction network to serve as a reference for host factors associated with hepadnavirus infection. Methods: The transcriptome of 24h-cultured PDHs was analyzed by the pair-end sequencing on the Illumina Solexa platform. High-quality reads were mapped to the Anas platyrhynchos genome with TopHat v2.0.12 software. TopHat allows multiple alignments per read and default parameters were used. Cufflinks v2.2.1 software was later used for analyses that included transcript assembly and FPKM value calculations to quantify gene expression; this program was also run with default parameters. Results: A total of 87.8 million high-quality reads were obtained from three primary duck hepatocyte samples isolated from three separate 1-day-old Anas domesticus ducklings. The reads (mean length 92.21 bases) were mapped to the Anas platyrhynchos genome. A total of 13,541 genes with > 1 fragments per kilobase of transcript per million mapped reads values were expressed in the 24-h-cultured primary duck hepatocyte samples.Using gene ontology analysis, expressed genes were assigned to functional categories. A total of 182 genes expressed in all three separate primary duck hepatocyte samples were identified as liver-specific genes. Conclusions: Transcriptome and gene ontology analyses of 24-h-cultured primary duck hepatocytes indicate that these cells retain hepatocyte-specific biological characteristics and can be used as a model system for hepadnavirus infection. A novel protein–protein interaction network suggests that host factors regulating or inhibiting innate immunity are directly associated with hepadnavirus.
+
+DESIGN
+The transcriptome of 24h-cultured PDHs was analyzed by the paired-end sequencing on the Illumina Solexa platform.
+

@@ -1,0 +1,12 @@
+TITLE
+CHiCAGO: Robust Detection of DNA Looping Interactions in Capture Hi-C data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Capture Hi-C (CHi-C) is a state-of-the art method for profiling chromosomal interactions involving targeted regions of interest (such as gene promoters) globally and at high resolution. Signal detection in CHi-C data involves a number of statistical challenges that are not observed when using other Hi-C-like techniques. We present a background model, and algorithms for normalisation and multiple testing that are specifically adapted to CHi-C experiments, in which many spatially dispersed regions are captured, such as in Promoter CHi-C. We implement these procedures in CHiCAGO ( ), an open-source package for robust interaction detection in CHi-C. We validate CHiCAGO by showing that promoter-interacting regions detected with this method are enriched for regulatory features and disease-associated SNPs.
+
+DESIGN
+Three human CHi-C biological replicates were generated (comprising 1, 2and 3 technical replicates). Two mouse CHi-C biological replicates were generated (both comprising three technical replicates) and a mouse Hi-C dataset. The publicly available HiCUP pipeline (doi: 10.12688/f1000research.7334.1) was used to process the raw sequencing reads. This pipeline was used to map the read pairs against the mouse (mm9) and human (hg19) genomes, to filter experimental artefacts (such as circularized reads and re-ligations), and to remove duplicate reads. For the CHi-C data, the resulting BAM files were processed into CHiCAGO input files, retaining only those read pairs that mapped, at least on one end, to a captured bait. CHiCAGO then identified Hi-C restriction fragments interacting, with statistical significant, to captured baits.
+

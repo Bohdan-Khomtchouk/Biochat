@@ -1,0 +1,12 @@
+TITLE
+RNA-Seq on libraries made from serial dilutions of Drosophila melanogaster S2 cell mRNA and ERCC external RNA controls
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+RNA-Seq on libraries made from serial dilutions of mRNA from Drosophila melanogaster S2 cell and the External RNA Controls Consortium (ERCC)  external RNA controls. We evaluated performance of RNA-Seq by serially diluting a complex pool of known synthetic PolyA+ mRNAs from the External RNA Controls Consortium (ERCC) and PolyA+ mRNA from Drosophila S2 cells.  ERCC mRNAs were obtained under Phase V testing from the National Institutes of Standards and Technology (NIST).  The ERCC pool contained 96 species of mRNA of various lengths and GC content covering a 2^20 concentration range.  Libraries were constructed with 100ng to 10pg of input mRNA.  Our data shows an outstanding linear fit between RNA-Seq read density and known input amounts.
+
+DESIGN
+We performed RNA-Seq from libraries made with 0.01ng to 100ng mRNA (mixture of mRNA from Drosophila melanogaster S2 cells and ERCC RNA controls). One RNA-Seq library was prepared with 100ng mRNA and six libraries were made with serial dilutions of mRNA using a modified protocol (see Sample 'extraction protocol'). One lane was sequenced for each library and all seven libraries were run on the same flow cell.
+

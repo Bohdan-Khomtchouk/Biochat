@@ -1,0 +1,12 @@
+TITLE
+Expression signature as a biomarker for prenatal diagnosis of trisomy 21
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To date, a universal biomarker panel with a potential to predict high-risk pregnancies or adverse pregnancy outcome does not exist. Transcriptomic approach, a measure of gene expression levels across the genome, is a powerful tool to capture differentially expressed genes (DEG) in various conditions, including human trisomy of chromosome 21 (Ts21). DEG can be used to design a biomarker set as a diagnostic-predictive tool for various conditions of heterogeneous aetiology in a prenatal setting. In the search of novel biomarker set to predict high-risk pregnancies, we performed global expression profiling to find DEG in Ts21 used as a model. Subsequently we performed targeted validation and diagnostic performance evaluation on a larger group of case and control samples.  Initially, transcriptomic profiles of 10 cultivated amniocyte samples with Ts21 and 9 with normal euploid constitution were determined using Agilent 4x44K expression microarrays. DEG were discovered using linear regression modelling implemented in limma package. Datasets from Ts21 transcriptomic studies available at GEO repository were incorporated to select our preliminary top DEG. Subsequently, selected top DEG were validated using RT-PCR quantification on independent sample of 16 cases with Ts21 and 32 controls, as well as new datasets from previously performed expression studies in Ts21. The classification was performed using support vector machine classification kernel and evaluated using leave-one-out cross validation approach.
+
+DESIGN
+Transcriptomic profiles of 10 cultivated amniocyte samples with Ts21 and 9 with normal euploid constitution were determined using Agilent 4x44K expression microarrays.
+

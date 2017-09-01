@@ -1,0 +1,12 @@
+TITLE
+Gene expression profiling of Fast vs. Slow Chinese Hamster Ovary cell lines using Wye3aHamster array
+
+ORGANISM
+Cricetulus griseus
+
+SUMMARY
+A 3rd generation Wye3aHamster microarray chip was used to carry out a differential expression microarray study of a panel of 30 slow- and fast-growing production cell lines, identifying a priority list of 240 transcripts  (110 Up; 130 Down) that passed a statisical filter (ANOVA p-value < 0.05, 1.3 fold-change) when the samples were grouped into fast versus slow and pairwise compared and a minimum Pearson Correlation Coefficent (PCC) of > 0.7 when growth rate was used as a continuous variable (i.e. included genes have to satisfy BOTH criteria, not just one). This yielded a list of 240 genes. The 240-member genelist yielded 223 Annotated IDs, 203 of which are Unique and all of which are associated with contributing to a high rate of growth in production CHO cell lines.
+
+DESIGN
+Prospective samples were isolated from 2 distinct groups of clones (slow growers and fast growers), all chosen from the same project (transfection of product transgene into parent line) generated at Pfizer Inc., Bioprocess R & D, Andover, MA, USA. Each group comprised 5 distinct clones, all of which had comparable Qp characteristics. The clones were passaged for 3 or 4 passages over 3-4 days to stabilise the phenotype and freeze stocks. Samples for array hybridization were generated in batch shake flask culture (60ml working volume) with AS1 medium and without feeds or temperature shift. Samples were collected at a single time point (72hrs - mid/late log) and each clone was grown in triplicate flasks, yielding a total of 30 samples for collection and processing. Two bioprocess-relevant variables, viable cell density (VCD) and viability were measured. From the VCD, the growth rate (h-1) was calculated.
+

@@ -1,0 +1,12 @@
+TITLE
+Multimodal RNA-seq using single-strand, double-strand, and circligase-based capture yields a refined and extended description of the C. elegans transcriptome
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+We have used a combination of three high-throughput RNA capture and sequencing methods to refine and augment the transcriptome map of a well studied genetic model, Caenorhabditis elegans. The three methods include a standard (non-directional) library preparation protocol relying on cDNA priming and foldback that has been used in several previous studies for transcriptome characterization in this species, and two directional protocols, one involving direct capture of single stranded RNA fragments and one involving circular-template PCR (circligase).  We find that each RNA-seq approach shows specific limitations and biases, with the application of multiple methods providing a more complete map than was obtained from any single method.  Of particular note in the analysis were substantial advantages of circligase-based and ssRNA-based capture for defining sequences and structures of the precise 5' ends (which were lost using the double strand cDNA capture method). Of the three methods, ssRNA capture was most effective in defining sequences to the polyA junction. Using datasets from a spectrum of C. elegans strains and stages and the UCSC Genome Browser, we provide a series of tools, which facilitate rapid visualization and assignment of gene structures.
+
+DESIGN
+single-strand-capture, double-strand-capture, and circligase-based RNA-seq
+

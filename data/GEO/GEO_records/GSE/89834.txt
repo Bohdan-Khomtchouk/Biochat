@@ -1,0 +1,12 @@
+TITLE
+RNA sequencing of mouse bone marrow cells from transgenic mice following short term induction of mutant U2AF1(S34F) or U2AF1(WT) expression concurrent with sudemycin D6 (or vehicle) treatment in vivo
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mutations in spliceosome genes occur in the bone marrow of approximately 50% of patients with myelodysplastic syndromes (MDS), with mutations in the splicing factor gene U2AF1 found in ~11% of MDS patients. We hypothesized that cells harboring a spliceosome gene mutation would have increased sensitivity to further perturbation of the spliceosome by splicing modulator drugs. To examine the effects of the splicing modulator drug sudemycin D6 on primary hematopoietic cells expressing mutant U2AF1(S34F), we treated transgenic mice expressing either mutant U2AF1(S34F) or U2AF1(wildtype, WT) concurrently with 5 days of sudemycin D6 treatment in vivo. We harvested bulk bone marrow cells 18 hours after the last day of treatment and performed strand-specific transcriptome sequencing to examine the cumulative pre-mRNA splicing changes associated with both mutant U2AF1 expression and sudemycin D6 treatment.
+
+DESIGN
+RNA was extracted from U2AF1(S34F)- or U2AF1(WT)-expressing transgenic mouse bone marrow cells treated in vivo with sudemycin D6 for transcriptome analysis (transgene induction was for 7 days, with concurrent drug infusion for 5 days).  Ribosomal RNA was depleted prior to strand-specific RNA sequencing (TruSeq stranded library production, followed by 2 x 126 bp paired-end sequencing performed on the HiSeq2500 platform from Illumina).  Five samples were sequenced per genotype and treatment (n=5).  Reads were aligned to the mouse mm9 reference genome using TopHat (version 2.0.8), and we performed all subsequent analyses in R.
+

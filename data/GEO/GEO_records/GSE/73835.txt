@@ -1,0 +1,12 @@
+TITLE
+The effect of C/EBPepsilon in differentiated granulocytes: cDNA microarray of C/EBPepsilon knock out mice vs C57BL/6 mice bone marrow cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To identify target genes of C/EBPepsilon in differentiated granulocytes, total RNA were purified from sorted Gr-1intermediate/Mac-1+ and Gr-1hi/Mac-1+ cells of C/EBPepsilon knock out and C57BL/6 wild type mice using RNeasy Mini Kit (Qiagen). The differences of their expression pattern were compared with Illumina Mouse WG-6v2 Expression Chip platform. Raw Illumina BeadArray data in IDAT format were preprocessed using the open-source Bioconductor package illuminaio with the Illumina array design formation BGX file downloaded from NCBI, GEO accession: GPL6887. Following the preprocessing, the expression data were normalized by applying control background correction, log transformation and inter-quantile normalization using the neqc function from the limma bioconductor package. This allowed us to compare the transcriptomic consequences of C/EBPepsilon in two independent populations.
+
+DESIGN
+Sorted Gr-1intermediate/Mac-1+ and Gr-1high/Mac-1+ bone marrow cells from C/EBPepsilon knock out and C57BL/6 wild type mice
+

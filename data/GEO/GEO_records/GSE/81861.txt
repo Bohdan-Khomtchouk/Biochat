@@ -1,0 +1,12 @@
+TITLE
+Reference component analysis of single-cell transcriptomes elucidates cellular heterogeneity in human colorectal tumors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Intratumoralmheterogeneity is a major obstacle to cancer treatment and a significant confounding factor in bulk-tumor profiling. We performed an unbiased analysis of transcriptional heterogeneity in colorectal tumors and their microenvironments using single-cell RNA–seq from 11 primary colorectal tumors and matched normal mucosa. To robustly cluster single-cell transcriptomes, we developed reference component analysis (RCA), an algorithm that substantially improves clustering accuracy. Using RCA, we identified two distinct subtypes of cancer-associated fibroblasts (CAFs). Additionally, epithelial–mesenchymal transition (EMT)-related genes were found to be upregulated only in the CAF subpopulation of tumor samples. Notably, colorectal tumors previously assigned to a single subtype on the basis of bulk transcriptomics could be divided into subgroups with divergent survival probability by using single-cell signatures, thus underscoring the prognostic value of our approach. Overall, our results demonstrate that unbiased single-cell RNA–seq profiling of tumor and matched normal samples provides a unique opportunity to characterize aberrant cell states within a tumor.
+
+DESIGN
+Two single cell dataset are included: (1) 1,591 single cells from 11 colorectal cancer patients were profiled using Fluidigm based single cell RNA-seq protocol to characterized cellular heterogeneity of colorectal cancer. (2) 630 single cells from 7 cell lines were profiled similarly to benchmark de novo cell type identification algorithms, these include 83 A549 cells, 65 H1437 cells, 55 HCT116 cells, 23 IMR90 cells, 96 K562 cells, and 134 GM12878 cells (38 from batch 1, 96 from batch 2), 174 H1 cells (96 from batch 1, 78 from batch 2). Please note that [1] only the QC-passed samples are included in the records [2] Raw data is available through EGA [accn: EGAS00001001945; ERP016958] [3] The 'GEO_EGA_ID_match.csv' contains the ERSnnnnnn accession numbers correspoding to each GEO sample raw data.
+

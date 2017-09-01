@@ -1,0 +1,12 @@
+TITLE
+Alternative expression analysis by RNA sequencing (comparison of 5-FU sensitive and resistant colorectal cancer cell lines)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In Alternative Expression Analysis (ALEXA)-Seq we developed a method to analyze massively parallel RNA sequence data to catalogue transcripts and assess differential and alternative expression of known and predicted messenger RNA (mRNA) isoforms in cells and tissues. As proof-of-principle, we applied the approach to a comparison of fluorouracil responsive and non-responsive human colorectal cancer cell lines. The sensitivity and specificity of the approach were assessed by comparison to exon tiling and splicing microarrays. Validations were conducted by reverse transcription polymerase chain reaction (PCR), quantitative PCR and Sanger sequencing. We observed global disruption of splicing in resistant cells characterized by expression of novel mRNA isoforms resulting from exon skipping, alternative splice site usage and intron retention. Alternative expression annotation databases, source code, a data viewer and other resources to facilitate analysis are available at our website: www.AlexaPlatform.org.  See Griffith et al. 2010 in Nature Methods for further details.
+
+DESIGN
+Two cell lines, 'MIP101' and 'MIP/5FU' were sequenced by Illumina paired end sequencing.  A total of ~263 million paired reads were generated.  80% of these were paired 42-mer reads and the remainder were paired 36-mer reads.  See Griffith et al, 2010 in Nature Methods for further details. SRA center name:  BCCAGSC
+

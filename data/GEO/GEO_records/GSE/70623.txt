@@ -1,0 +1,12 @@
+TITLE
+Transcriptome-wide profiling of Spadetail-regulated genes in early somite progenitors
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+We integrate zebrafish embryology with photoactivatable caged morpholinos (cMO), the photoactivatable lineage tracer caged fluorescein-dextran (cFD), fluorescence-activated cell-sorting (FACS) and RNA sequencing (RNA-seq) to identify Spadetail-regulated genes in mesodermal cells enriched for early somite progenitors.
+
+DESIGN
+1 to 4-cell stage zebrafish embryos were injected with either cFD alone or in combination with the spt cMO and allowed to develop until 6 hours post-fertilization (hpf).  Early ventral somite progenitors were then optically targeted with ultraviolet (360 nm) light using a 100-μm diameter circular diaphragm.  Embryos were permitted to develop until 9 hpf, dechorionated, and dissociated into single-cells. Fluorescein-positive cells were then isolated by FACS.  Five experimental replicates were performed.  Sequencing libraries were then prepared from purified cells according to the CEL-Seq protocol (Hashimshony, T et al.  Cell Reports. 2012). In short, total RNA from each sample were individually barcoded and combined prior to sequencing on a HiSeq 2000. Reads were processed and aligned to zebrafish assembly Zv8 using custom CEL-seq scripts within the Galaxy bioinformatics platform. Count files were then analyzed using EdgeR statistical analysis to determine differentially expressed genes.
+

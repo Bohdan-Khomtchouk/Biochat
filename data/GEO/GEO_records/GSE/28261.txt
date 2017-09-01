@@ -1,0 +1,12 @@
+TITLE
+Whole blood gene expression in female Balb/c mice following 2-week Pb exposure and subsequent 2-week recovery period
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Background: Current evidence indicates that even low-level lead (Pb) exposure can have detrimental effects, especially in children. We tested the hypothesis that Pb exposure alters gene expression patterns in peripheral blood cells and that these changes reflect dose-specific alterations in the activity of particular pathways. Methodology/Principal Finding: Using Affymetrix Mouse Genome 430 2.0 arrays, we examined gene expression changes in the peripheral blood of female Balb/c mice following exposure to per os lead acetate trihydrate or plain drinking water for two weeks and after a two-week recovery period. Data sets were RMA-normalized and dose-specific signatures were generated using established methods of supervised classification and binary regression. Pathway activity was analyzed using the ScoreSignatures module from GenePattern. Conclusions/Significance: The low-level Pb signature was 93% sensitive and 100% specific in classifying samples a leave-one-out crossvalidation. The high-level Pb signature demonstrated 100% sensitivity and specificity in the leave-one-out crossvalidation. These two signatures exhibited dose-specificity in their ability to predict Pb exposure and had little overlap in terms of constituent genes. The signatures also seemed to reflect current levels of Pb exposure rather than past exposure. Finally, the two doses showed differential activation of cellular pathways. Low-level Pb exposure increased activity of the interferon-gamma pathway, whereas high-level Pb exposure increased activity of the E2F1 pathway.
+
+DESIGN
+We isolate total RNA from 72 mouse whole blood samples. These included samples following a 2-week exposure to lead acetate trihydrate (untreated controls = 7; Low Pb 5ug/mL drinking water = 15; High Pb 50ug/mL drinking water = 15) and additional samples following a 2-week recovery period with plain drinking water (untreated controls = 7; Low Pb group = 15; High Pb group = 13).
+

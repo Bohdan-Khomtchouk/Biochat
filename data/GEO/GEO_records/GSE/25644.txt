@@ -1,0 +1,12 @@
+TITLE
+Expression profiling of yeast kinase and phosphatase knockouts
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+To understand relationships between phosphorylation-based signaling pathways, we analyzed 150 deletion mutants of protein kinases and phosphatases in S. cerevisiae using DNA microarrays. Downstream changes in gene expression were treated as a phenotypic readout. Double mutants with synthetic genetic interactions were included to investigate genetic buffering relationships such as redundancy. Three types of genetic buffering relationships are identified: mixed epistasis, complete redundancy and quantitative redundancy. In mixed epistasis, the most common buffering relationship, different gene-sets respond in different epistatic ways. Mixed epistasis arises from pairs of regulators that have only partial overlap in function and that are coupled by additional regulatory links such as repression of one by the other. Such regulatory modules confer the ability to control different combinations of processes depending on condition or context. These properties likely contribute to the evolutionary maintenance of paralogs and indicate a way in which signaling pathways connect for multi-process control.
+
+DESIGN
+RNA isolated from a large amount of wt yeast from a single culture was used as a common reference. This common reference was used for each separate hybridization and used in the statistical analysis to obtain an average expression-profile for each deletion mutant relative to the wt. Two independent cultures were hybridized on two separate microarrays. For the first hybridization the Cy5 (red) labeled cRNA from the deletion mutant is hybridized together with the Cy3 (green) labeled cRNA from the common reference. For the replicate hybridization, the labels are swapped. Each gene is represented twice on the microarray, resulting in four measurements per mutant. Up to five deletion strains were grown on a single day. Wt cultures were grown parallel to the deletion mutants to assess day-to-day variance.
+

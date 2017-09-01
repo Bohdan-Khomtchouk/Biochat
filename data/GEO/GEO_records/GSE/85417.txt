@@ -1,0 +1,12 @@
+TITLE
+Transcriptome of iPSC-derived Cerebral Organoids with Heterozygous Knockout in CHD8
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+CHD8 (chromodomain helicase DNA binding protein 8), which codes for a member of the CHD family of ATP-dependent chromatin-remodeling factors, is the most commonly mutated gene in autism spectrum disorders (ASD) identified in exome-sequencing studies. Loss of function mutations in the gene have also been found in schizophrenia (SZ) and intellectual disabilities, and affects cancer cell proliferation. To better understanding the molecular links between CHD8 functions and ASD, we have applied the CRISPR/Cas9 technology to knockout (KO) one copy of CHD8 in induced pluripotent stem cells (iPSCs) and build cerebral organoids, a model for the developing telencephalon. RNA-seq was carried out on KO organoids (CHD8+/-) and isogenic controls (CHD8+/+). Differentially expressed genes (DEGs) revealed an enrichment of genes involved in neurogenesis, forebrain development, Wnt/β-catenin signaling and axonal guidance. The SZ and bipolar disorder (BD) candidate gene TCF4 was significantly upregulated. Our CHD8 KO DEGs were significantly overlapped with those found in a transcriptome analysis using cerebral organoids derived from a family with idiopathic ASD and another transcriptome study using iPS cell-derived neurons from patients with BD, a condition characterized in a subgroup of patients by dysregulated WNT/β-catenin signaling. Overall, the findings show that distinct ASD, SZ and BD candidate genes converge on common molecular targets - an important consideration for developing novel therapeutics in genetically heterogeneous complex traits.
+
+DESIGN
+iPSCs derived from a healthy subject were transduced with CRISPR/Cas9 vectors with  single guide RNA sequences to target the N-terminal of CHD8 protein to generate truncated mutations. The CHD8+/- iPSC lines were used to generate cerebral organoids for RNA-seq analysis, together with samples prepared from the parental clones, for a total of 6 samples (two biological replicates of wild-type (WT) and 4 biological replicates of CHD8+/-).
+

@@ -1,0 +1,12 @@
+TITLE
+Causal Modeling Using Network Ensemble Simulations Predicts Novel Lipid Metabolism Genes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We describe a simulation strategy for prediction of drug targets and functional analysis of genetically defined associations. This strategy utilizes Bayesian model averaging over a sample of parameterized networks to achieve robust predictions in light of uncertainty of the network structure. We illustrate the method with an analysis of liver gene expression, serum lipid profiles and body weight measured on 120 male mice from a mouse intercross population. An ensemble of 1024 networks, gave accurate predictions of animals that were not part of the training data and explained almost twice the variance compared to quantitative trait loci alone. Additional in silico experiments identified 38 transcripts that are predicted to impact serum lipid profiles and suggest that they play a role in controlling high density lipoprotein and free triglycerides plasma concentrations.
+
+DESIGN
+Affymetrix MOE430A expression data were processed using a custom chip layout that masked probes with known SNPs between the parental mouse strains to minimize the discovery of erroneous cis-effects. Data were assessed using Affymetrix suggested quality control measures and all of the 120 arrays were found to be of high quality.  The custom chip layout was used to normalize the data using FARMS. A total of 1530 transcripts were identified as having sufficient variability to be informative and these were advanced to Bayesian network reconstruction.
+

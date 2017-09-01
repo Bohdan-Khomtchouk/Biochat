@@ -1,0 +1,12 @@
+TITLE
+Systematic characterization of novel lncRNAs responding to phosphate starvation in Arabidopsis thaliana
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+We sequenced the poly(A)+ and poly(A)- samples of the roots and shoots from 10-day-old WT seedlings grown under P+ and P- condition. The WT plant refers to Columbia ecotype Arabidopsis seedlings. Each condition has two replicates. After total RNA extraction, ribosomal RNAs were removed using RiboMinus™ Plant Kit repeated two times. The poly(A)+ and poly(A)- constituent were separated with oligo(dT) magnetic beads (Oligotex mRNA Mini Kit, QIAGEN). Using a 2-fold change and a P-value < 0.05 as the cut-off for selecting the differentially expressed transcripts, we globally identified novel noncoding lncRNAs.
+
+DESIGN
+We performed a RNA-seq analysis on Columbia WT plants. Total RNAs were extracted from the shoots and roots of 10-day-old P+ and P- WT seedlings (i.e., seedling grown on P-sufficient and P-deficient media). The extracted RNAs were subjected to polyA(+) and polyA(-) RNA purification, library construction and RNA deep sequencing. We used Tophat to map reads to TAIR10 genome and used Cufflinks to assemble transcripts based on 16 datasets of RNA-seq samples.
+

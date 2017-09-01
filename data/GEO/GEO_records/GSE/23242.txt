@@ -1,0 +1,12 @@
+TITLE
+Analysis of TLS activity in PGC-1alpha+/+ and PGC-1alpha-/- hepatocytes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We found that TLS can work as a PGC-1alpha cofactor and this assay was carried out to test the functional dependency of TLS on PGC-1alpha on a whole genome scale
+
+DESIGN
+Three independently-isolated cultures of primary hepatocytes from PGC-1α+/+ and PGC-1α-/- mice were infected with shTLS or control adenovirus. RNA was extracted by Trizol extraction, re-purified with RNAeasy (Invitrogen), and checked for integrity and quantity with the Agilent Bio-Analyzer QC. RNA was amplified and labeled with the One-Color Microarray-Based Gene Expression Analysis Protocol (Agilent Technologies, Palo Alto, CA, USA). Samples were hybridized to a G4122F 4x44K whole mouse genome microarray (Agilent Technologies). Arrays were scanned at 5 mm resolution with a G2565BA DNA microarray scanner (Agilent Technologies) at the default settings for 4x44k format one-color arrays. Images were analyzed using Feature Extraction software v10.1.1.1 (Agilent Technologies). Raw signals were thresholded to 1 and normalized by quantile (Bolstad et al., 2003) was performed using GeneSpring software. Data were analyzed on the log2 scale. Default flags were considered as absent, except for saturated spots that were flagged as marginal.
+

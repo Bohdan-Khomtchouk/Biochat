@@ -1,0 +1,12 @@
+TITLE
+The transcriptional modulator H2AFY marks Huntington's disease activity in men and mice
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To accelerate the development of disease-modifying therapeutics for Huntington’s disease (HD), a dynamic biomarker of disease activity and treatment response is critically needed.
+
+DESIGN
+Venous cellular whole blood from 8 patients with Huntington's disease (HD) and 6 control subjects were collected in PAXgene tubes (Wiagen, Valencia, CA). RNA was isolated from whole blood using  the PAXgene blood RNA kit (Qiagene) with DNase treatment. The biotinylated complementary RNA was fragmented and hybridized to Affymetrix human genome U133A microarrays. The Affymetrix .CEL files were normalized to “all probe sets” in a standardized matter, and scaled to 100 by the MAS5 5.0 algorithm implemented in the Bioconductor package.
+

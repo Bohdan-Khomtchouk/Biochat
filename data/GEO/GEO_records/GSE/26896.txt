@@ -1,0 +1,12 @@
+TITLE
+Differential gene expression analysis in Enchytraeus albidus exposed to natural and chemical stressors at different exposure periods
+
+ORGANISM
+Enchytraeus albidus
+
+SUMMARY
+The soil oligochaete Enchytraeus albidus is a standard test organism used in biological testing for Environmental Risk Assessment (ERA). Although effects are known at acute and chronic level, through survival, reproduction and avoidance behaviour endpoints, very little is known at the sub-cellular and molecular levels. In this study, the effects of soil properties (clay, organic matter and pH) and of the chemicals copper and phenmedipham were studied on gene expression in E. albidus during exposure periods of 2 days, 4 days and 3 weeks, using DNA microarrays based on a normalised cDNA library for this test species (Amorim et al., 2011) The main objectives of this study were: 1) to assess changes in gene expression of E. albidus over time, and 2) to identify molecular markers for natural and chemical exposures. Results showed a clear influence of exposure time in gene expression. Transcriptional responses to phenmedipham were seen at 2 days while the responses to copper and the different soils were more pronounced at 4 days of exposure. Some genes were differentially expressed in a stress specific manner and, in general, the responses were related with effects at energy metabolism and cell growth level.
+
+DESIGN
+Fluorescently labelled cDNA, from enchytraeids exposed during 4 days and 3 weeks to control soil (LUFA 2.2) and to the different exposure conditions was synthesized for microarray analysis and hybridizations were performed. After scanning, spots were identified and ratios quantified using the QuantArray (Packard Biochip Technologies). Statistical analysis of the microarrays was performed using limmaGUI package (1.18.0) (Smyth, 2005) in the R (2.8.0) software environment ( ). After being submitted to local background subtraction, microarrays were normalized using global loess method. To statistically evaluate the differential gene expression between the different conditions, a gene-per-gene linear model (limma – linear model for microarray analysis) and empirical Bayes methods were applied. The results were then corrected for multiple testing using the Benjamini-Hochberg’s method (adjusted p < 0.05 was considered significant) (Benjamini and Hochberg, 1995).
+

@@ -1,0 +1,12 @@
+TITLE
+Cosplicing network analysis of mammalian brain RNA-Seq data using WGCNA and Mantel correlations
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Gene network analysis aims to understand how large groups of genes coordinate their activity to support complex biological functions. Gene coexpression networks are constructed on the basis of coordinated change in expression levels. However, a majority of genes have multiple versions or isoforms, often with distinct functionality. Gene cosplicing networks aim to capture coordinated changes in either isoform levels or relative ratios for different genes, which in principle could happen even with constant overall expression levels. We developed a method of capturing coordinated changes in isoform production, based on correlated exon inclusion rates. Integrating these correlations transcriptome wide results in a cosplicing network. The genes deemed important in the cosplicing network (hubs) include long many-exon genes with essential neurological functionality and association with autism spectrum disorders. Importantly, the cosplicing patterns are found, albeit with alterations, across species (mouse, macaque and human) and brain regions (striatum and cortex).
+
+DESIGN
+60 samples of HSCC animals tested for catalepsy were analyzed: 28 females (13 non-responders, 15 responders),  32 males (17 non-responders, 15 responders).
+

@@ -1,0 +1,12 @@
+TITLE
+ILF2 Regulates RNA Splicing of DNA Damage Response Genes to Confer Poor Prognosis in 1q21-Amplified Multiple Myeloma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To understand whether ILF2 is required to ensure the alternative splicing and processing of specific pre-mRNAs in Multiple Myeloma (MM), both in physiological and DNA damage conditions, we performed RNA sequencing (RNA-Seq) analysis of untreated or melphalan-treated ILF2-depleted JJN3 cells. Non-silencing or ILF2 shRNA transduced JJN3 cells were treated with melphalan for 10 hours.
+
+DESIGN
+Total RNA from untreated or melphalan-treated JJN3 cells transduced with a non-silencing or ILF2 shRNA (two independent replicates per condition) were isolated with the RNeasy Mini kit (Qiagen). Libraries were constructed using the Ovation RNA-Seq System V2 (Nugen) according to the manufacturer’s instructions. Transcriptomic RNA-Seq was performed on the Illumina HiSeq 2000 platform using the standard paired-end protocol. In total, 60-160 million 76-bp reads were generated per sample. An initial sequence-level quality assessment was performed using FastQC (version 0.10.1, Simon Andrews). The RNA-Seq reads were then mapped to the reference human genome (GRCh37) using Tophat2, allowing a maximum of two mismatches per 76-bp sequencing end. Differential splicing was assessed by multivariate analysis of transcript splicing (MATS) using an FDR < 0.05. Pathway enrichment analysis was performed with Pathway Studio.
+

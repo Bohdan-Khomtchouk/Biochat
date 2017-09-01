@@ -1,0 +1,12 @@
+TITLE
+Integrative analysis of histone ChIP-seq and gene expression microarray data using Bayesian mixture models
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Histone modifications are a key epigenetic mechanism to activate or repress the expression of genes. Data sets of matched microarray expression data and histone modification data measured by ChIP-seq exist, but methods for integrative analysis of both data types are still rare. Here, we present a novel bioinformatic approach to detect genes that are differentially expressed between two conditions putatively caused by alterations in histone modification. We introduce a correlation measure for integrative analysis of ChIP-seq and gene expression data and demonstrate that a proper normalization of the ChIP-seq data is crucial. We suggest applying Bayesian mixture models of different distributions to further study the distribution of the correlation measure. The implicit classification of the mixture models is used to detect genes with differences between two conditions in both gene expression and histone modification. The method is applied to different data sets and its superiority to a naive separate analysis of both data types is demonstrated. This GEO series contains the expression data of the Cebpa example data set.
+
+DESIGN
+This data set was derived from sorted Cebpafl/fl and Cebpafl/fl;Mx1Cre murine hematopoietic LSKCD150- 18 post pIpC injections (conditional deletion of Cebpa). The specimens from three Cebpafl/fl and three Cebpafl/fl;Mx1Cre mice were hybridized separately on six Affymetrix Mouse Gene 1.0 ST arrays. Associated histone modification ChIP-seq data is provided by series GSE43007.
+

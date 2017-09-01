@@ -1,0 +1,12 @@
+TITLE
+Genome–wide transcriptional profiling with spatial resolution identifies Bone Morphogenetic Protein signaling as essential regulator of zebrafish cardiomyocyte regeneration.
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+In contrast to mammals, zebrafish regenerate heart injuries via proliferation of cardiomyocytes located at the wound border. Here, we show that tomo-seq can be used to identify whole-genome transcriptional profiles of the injury zone, the border zone and the healthy myocardium. Interestingly, the border zone is characterized by the re-expression of embryonic cardiac genes that are also activated after myocardial infarction in mouse and human, including targets of Bone Morphogenetic Protein (BMP) signaling. Endogenous BMP signaling has been reported to be detrimental to mammalian cardiac repair. In contrast, we find that genetic or chemical inhibition of BMP signaling in zebrafish reduces cardiomyocyte dedifferentiation and proliferation, ultimately compromising myocardial regeneration, while bmp2b overexpression is sufficient to enhance it. Our results provide a resource for further studies on the molecular regulation of cardiac regeneration and reveal intriguing differential cellular responses of cardiomyocytes to a conserved signaling pathway in regenerative versus non-regenerative hearts.
+
+DESIGN
+To generate spatially-resolved RNA-seq data for injured zebrafish hearts (3 and 7 days-post-injury), we cryosectioned samples, extracted RNA from the individual sections, and amplified and barcoded mRNA using the CEL-seq protocol (Hashimshony et al., Cell Reports, 2012) with a few modifications. Libraries were sequenced on Illumina NextSeq  using 75bp paired end sequencing.
+

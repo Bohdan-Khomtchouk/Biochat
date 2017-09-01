@@ -1,0 +1,12 @@
+TITLE
+Prototypes for 4x44K PAM50 Subtyping
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+PAM50 intrinsic subtype classification (Parker JS, Mullins M, Cheang MCU, et al: Supervised Risk Predictor of Breast Cancer Based on Intrinsic Subtypes. J Clin Oncol 27:1160-1167, 2009) was used for the Z1031 patient cohort.  However, to account for potential technical biases such as differences in platforms and laboratory protocols between the Z1031 data set and the PAM50 training set2, we normalized the Z1301 data set before applying the PAM50 algorithm. This is a critical step that must be taken into consideration for appropriate subtype predictions as our group and others have previously shown3,4. To appropriately normalize the Z1301 microarray data, which is entirely composed of ER-positive tumors, we needed to estimate technical bias from a cohort with equivalent subtype representation as the PAM50 training set. A set including ER-negative, HER2-positive and true normal breast samples were profiled under the same platform, protocol and laboratory (i.e. WashU) as the Z1301 data set. A total of 40 prototypic samples of the various molecular subtypes were selected to match the distribution in the PAM50 training set. The mean expression of each PAM50 gene was calculated in this set of 40. These values obtained from the prototypical sample set were used for calibration purposes and were included as a new WashU_4X44K_Calibration column in the CalibrationParameter file, which has been already provided in the PAM50 algorithm2. This adjustment step assures that each sample is placed in the appropriate ‘prototypic space’ by subtracting the calibration value of each PAM50 gene from the expression value of the corresponding gene in each tested sample. Finally, single sample predictions were performed in every Z1301 sample using the WashU_4X44K_Calibration parameter.  The complete data set for the 40 prototypic arrays is submitted under GSE26082.
+
+DESIGN
+40 experiments were used as prototypical cases for subtype calibration purposes.
+

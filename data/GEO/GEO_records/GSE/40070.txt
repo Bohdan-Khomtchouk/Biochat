@@ -1,0 +1,12 @@
+TITLE
+Effects of drought on gene expression in Maize reproductive and leaf meristem tissue revealed by RNA-seq
+
+ORGANISM
+Zea mays
+
+SUMMARY
+Purpose: To study the effects of drought at the transcriptomic level on two different actively dividing maize tissue: the ovaries, and the leaf meristem Methods: The Illumina reads were mapped to the maize B73 reference genome using Tophat followed by transcriptome reconstruction using Cufflinks. The FPKM valuse were extracted from cufflinks output and an R package called Limma was used to identify differentially expressed genes under drought under both tissues Results and Conclusions: Different processes which were differentially expressed under drought in both tissues were identified and analyzed in detail. A working hypothesis was formulated to account for the observed susceptibility of the reproductive tissue when compared to the robust response of the vegetative tissue. This analysis also servers as a basis for future study on drought-induced embryo abortion.
+
+DESIGN
+Maize (Zea mays) plants of inbred line B73 were grown in the green house under well watered and drought stress conditions until they reached the reproductive stage (at the onset of silk emergence).  For the drought stress two to three days after irrigation was withheld, the plants were hand pollinated, and 24 hours after pollination measurements and samples were collected for transcriptome analysis. At the end of the drought period (1DAP) the basal leaf meristem of the three youngest leaves and the ovary tissues were sampled for Illumina deep sequencing.  Samples were labeled as well watered control leaf meristem (MLC), well watered control ovaries/ " cob " (MCC), drought stressed leaf meristem (MLD) and drought stressed ovary tissue (MCD). There are 8 libraries in total including one biological replicate for each condition.
+

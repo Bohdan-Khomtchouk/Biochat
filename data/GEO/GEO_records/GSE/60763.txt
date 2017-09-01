@@ -1,0 +1,12 @@
+TITLE
+CRISPR reveals a distal murine-specific enhancer required for Sox2 expression in mouse embryonic stem cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The pluripotency of embryonic stem cells (ESCs) is maintained by a small group of master transcription factors including Oct4, Sox2 and Nanog. These core factors form a regulatory circuit controlling the transcription of a number of pluripotency factors including themselves. Although a lot of previous studies have identified key factors regulating this core network in trans, the contribution of cis-regulatory DNA sequences on the transcription of these key pluripotency factors remains elusive. We analyzed epigenomic data within the 1.5 Mb gene-desert regions around Sox2 gene and predicted only one 13kb-long enhancer located 100kb downstream of Sox2 in mouse ES cells. This enhancer is occupied by Oct4, Sox2, Nanog, and mediator complex and forms a long-range DNA looping to Sox2 locus. We hypothesized that this enhancer is critical for Sox2 gene expression and tested this hypothesis by deleting this entire 13-kb enhancer with a simple highly-efficient double-excision CRISPR strategy. Allele-specific of Sox2 transcripts in heterozygous enhancer-deletion clones showed that the enhancer affects expression through a cis-acting mechanism. Strikingly, although this distal enhancer is not conserved in other mammals including human, it is responsible for over 90% of Sox2 expression in mouse ESCs. Taken together, our results provide direct evidence that in mouse ESCs, Sox2 transcription is primarily driven by a species-specific distal enhancer, which may provide new perspectives explaining the physiological difference between human and mouse ES cells.
+
+DESIGN
+This dataset include ChIP-seq of H3K4me3 and H3K27ac in a hybrid mouse ES cells (F123). H3K27ac in J1 mouse ES cells. And RNA-seq in F123 mESCs with complete Sox2 enhancer deletion or enhancer haploinsufficient clones.
+

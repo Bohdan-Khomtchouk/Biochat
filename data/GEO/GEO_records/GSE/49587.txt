@@ -1,0 +1,12 @@
+TITLE
+Developmental arrest of Drosophila survival motor neuron (Smn) mutants accounts for differences in expression of minor intron-containing genes
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+RNA-seq was used to analyze mRNA levels and splicing differences between wild-type (Oregon R) and Smn null mutant larvae.
+
+DESIGN
+Illumina RNA-seq of Oregon R and Smn mutant age-matched larvae from RNA extracted on day four post egg laying. Conclusions from this study used the publicly available modENCODE data from Graveley et al. Nature 2011 (in addition to our RNA-seq data). We downloaded their SRA files, dumped them to fastq files, and put them through our same analysis pipelines. The renalysis data and details are provided in 'reanalysis.tar' and readme_reanalysis.txt. The Cufflinks processed file outputs (22 files in 'Cufflinks_outputs.tar') are derived from all of our raw sample files and all of the developmental data mentioned in the readme.txt file. The file format and content description is provided in the 'readme_for_Cufflinks.txt' Unlike Cufflinks cuffdiff analysis that merged our data with the developmental data, the MISO and DEXSeq analysis was carried out in parallel with analysis of our samples. This generated two additional  files for the DEXSeq developmental analysis (DEXSeq output; paired end developmental Graveley et al. Nature 2011): L2_L3P1_2_DEUtable.txt L312hr_L3P1_2_DEUtable.txt Please note that MISO lacks the capacity to incorporate replicates, which contributed to the abundance of these file types. MISO output file names are prepended with the respective sample/raw data names. For example,  EG003_EG007.*miso_bf.txt.gz are MISO comparison of Ore-R R1 (EG003) and Smn R1 (EG007).
+

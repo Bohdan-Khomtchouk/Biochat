@@ -1,0 +1,12 @@
+TITLE
+Gene expression profiles of DKO172 cells expressing DICER1 wildtype or hotspot mutants
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+DICER1 plays a critical role in microRNA (miRNA) biogenesis. Recurrent somatic “hotspot” mutations at four mental binding sites within the RNase IIIb domain of DICER1, were identified in ovarian sex cord-stromal tumors and have since been described in other pediatric tumors. In this study, we identified and characterized DICER1 hotspot mutations in endometrial cancers derived from The Cancer Genome Atlas (TCGA) and our local tumor bank. DICER1 hotspot mutations are found in ~2% of endometrial tumors. Using Illumina and Sanger targeted resequencing we observed biallelic DICER1 mutations in more than 50% of cases with hotspot mutations and identified an additional recurrent mutation G1809R in 2 cases. Through small RNA deep sequencing and real-time PCR, we demonstrated mutations that add a positively charged side chain to residue 1809 have similar detrimental effects on 5p miRNA production as mutations at metal binding sites. In one case G1809R was compound heterozygous with a germline S839F mutation, which contributes to loss of DICER1 expression by promoting protein degradation. As expected, 5p miRNAs are globally reduced in tumors and cell lines with hotspot mutations. Pathway analysis of gene expression profiles indicated that genes derepressed due to loss of 5p miRNAs are strongly associated with cell cycle related pathways. Using a Dicer null cell line model, we demonstrated that DICER1 hotspot mutants abolished the inhibitory effects of wildtype DICER1 on cell proliferation upon re-expression. Furthermore, targets of let-7 family miRNAs are enriched among the upregulated genes, suggesting loss of let-7 may be impacting downstream pathways.
+
+DESIGN
+DKO172 cells were seeded in 6-well plates at 200,000 cells per well the day before transfection. DKO172 cells were transfected with 2ug of pLD-hygro-EnVM vectors expressing DICER1 WT, D1709N, G1809R, or GFP control. The cells were harvested after 24 hours and re-plated into P60 plates. Cells were then selected with 300ug/ml hygromycin for 84 hours before harvested for RNA extraction.
+

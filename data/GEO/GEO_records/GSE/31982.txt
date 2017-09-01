@@ -1,0 +1,12 @@
+TITLE
+Systematic dissection and optimization of inducible enhancers in human cells using a massively parallel reporter assay
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+We apply a massively parallel reporter assay (MPRA) that relies on mRNA and plasmid tag sequencing (Tag-Seq) to compare the regulatory activities of more than 27,000 distinct variants of two inducible enhancers in human cells: a synthetic cAMP-regulated enhancer and the virus-inducible interferon beta enhancer. The resulting data define accurate maps of functional transcription factor binding sites in both enhancers at single-nucleotide resolution and can be used the to train quantitative sequence-activity models (QSAMs).
+
+DESIGN
+Reporter Tag-Seq from HEK293 cells transfected with each of six MPRA plasmid pools, with and without stimulation (forskolin or Sendai virus). The reporter mRNAs contain unique 10 nucleotide tags that facilitates quantitation of their abundances. The same tags were also sequenced from each ransfected plasmid pool to facilitate normalization to plasmid copy numbers. The reporter constructs were designed according to two different mutagenesis strategies: 'single-hit scanning' and 'multi-hit sampling'. The specific variants are included in the processed data files.
+

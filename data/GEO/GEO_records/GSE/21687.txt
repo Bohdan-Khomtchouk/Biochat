@@ -1,0 +1,12 @@
+TITLE
+Comparative genomics matches mutations and cells to generate faithful ependymoma models
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genomic technologies have unmasked molecularly distinct subgroups among tumors of the same histological type; but understanding the biologic basis of these subgroups has proved difficult since their defining alterations are often numerous, and the cellular origins of most cancers remain unknown.  We sought to decipher complex genomic data sets by matching the genetic alterations contained within these, with candidate cells of origin, to generate accurate disease models.  Using an integrated genomic analysis we first identified subgroups of human ependymoma: a form of neural tumor that arises throughout the central nervous system (CNS).  Validated alterations included amplifications and homozygous deletions of genes not yet implicated in ependymoma.  Matching the transcriptomes of human ependymoma subgroups to those of distinct types of mouse radial glia (RG)—neural stem cells (NSCs) that we identified previously to be a candidate cell of origin of ependymoma - allowed us to select RG types most likely to represent cells of origin of disease subgroups.  The transcriptome of human cerebral ependymomas that amplify EPHB2 and delete INK4A/ARF matched most closely that of embryonic cerebral Ink4a/Arf-/- RG:  remarkably, activation of EphB2 signaling in this RG type, but not others, generated highly penetrant ependymomas that modeled accurately the histology and transcriptome of one human cerebral tumor subgroup (subgroup ‘D’).  Further comparative genomic analysis revealed selective alterations in the copy number and expression of genes that regulate neural differentiation, particularly synaptogenesis, in both mouse and human subgroup ‘D’ ependymomas; pinpointing this pathway as a previously unknown target of ependymoma tumorigenesis.  Our data demonstrate the power of comparative genomics to sift complex genetic data sets to identify key molecular alterations in cancer subgroups.
+
+DESIGN
+[human mRNA] samples: 83 human ependynoma primary tumors were collected and clustered into distinct classes by unsupervised methods and then compared to mouse model data. [mouse mRNA] samples: 192 mouse tumors and cell lines were collected and clustered into distinct classes by unsupervised methods and then compared to human tumors. [human miRNA] samples: 64 human ependynoma primary tumors were collected and miRNA expression was assesed and compared to genomic expression
+

@@ -1,0 +1,12 @@
+TITLE
+Expression data of medulloblastoma cell lines with OCT4A overexpression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Medulloblastoma is a highly aggressive pediatric brain tumor, in which expression of the pluripotency factor OCT4 has been recently correlated with poor patient survival. However, the contribution of OCT4 transcript variants to tumor aggressiveness is still poorly understood. In this study, we found that transcripts encoding OCT4A, but not OCT4B or OCT4B1, were significantly correlated with LIN28A expression, which encodes another well-known pluripotency factor. LIN28A was found to specifically bind OCT4A transcripts and interact with poly(A) binding protein and RNA helicase A in polysomal fractions of medulloblastoma cells, favoring increased OCT4A protein levels in these cells. Medulloblastoma cells stably overexpressing OCT4A displayed significantly enhanced clonogenic activity, tumorsphere generation and invasion capability, as well as increased tumorigenicity. In an orthotopic metastatic model of medulloblastoma, OCT4A overexpressing cells generated more developed, aggressive and infiltrative tumors, with tumor-bearing mice attaining advanced metastatic disease and shorter survival rates. Pro-oncogenic effects of OCT4A were found to be expression-level dependent and accompanied by distinct subchromosomal aberrations and differential expression of newly discovered, still poorly characterized, non-coding RNAs. Altogether, our findings support the relevance of pluripotency-related factors in the aggravation of medulloblastoma traits classically associated with poor clinical outcome, and underscore the prognostic and therapeutic value of OCT4A in this challenging type of pediatric brain cancer.
+
+DESIGN
+Total RNA of 2-3 clones of each cell line (Control and OCT4A overexpression) was extracted with the RNeasy Mini kit (Qiagen), following the manufacturer’s protocol. Gene expression profiling was carried out independently for each sample using Affymetrix GeneChip® Human Gene 2.0 ST whole-transcript arrays (Affymetrix, Santa Clara, CA, USA). The quality control and normalization of data were processed by Affymetrix® Expression Console Software (Affymetrix). Differentially expressed genes were identified with the One-Way ANOVA, with a p-value cutoff of 0.05, using Transcriptome Analysis Console v3.0 (Affymetrix).
+

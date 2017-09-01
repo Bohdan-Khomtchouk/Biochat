@@ -1,0 +1,12 @@
+TITLE
+Agilent 244A aCGH array for breast, lung, melanoma, ovary, and prostate
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+373 tumors were profiled for copy-number alterations with the high-resolution Agilent 244A aCGH Array.
+
+DESIGN
+Tumor samples were assayed on Agilent Human Genome CGH 244A Microarrays with the intent of surveying the landscape of genomic alterations in 5 tumor types. Human male genomic DNA (Promega P/N G1471) was used as reference.  Individual log2 ratios of background subtracted signal intensities were obtained from the Agilent Feature Extraction software version 9.5. The log2 ratios were centered to a median of zero and the resulting log2 ratio values for each probe were segmented using GLAD. All probes within the genomic bounds of a given GLAD-derived segment were given the mean copy number value of probes within that segment.
+

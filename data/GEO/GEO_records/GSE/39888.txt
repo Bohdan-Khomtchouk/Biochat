@@ -1,0 +1,12 @@
+TITLE
+Expression data from ADORA1 knockout and ADORA1 APOE double-knockout mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The goal of this study is to determine whether A1 adenosine receptor (ADORA1) plays a role in atherosclerosis development and its possible mechanisms. This dataset compares gene expression (aortas) of ADORA1 knockout mice to ADORA1+APOE double-knockout mice. Mice deficient in both ADORA1 and APOE (DKO) demonstrated reduced atherosclerotic lesions in aortic arch (en face), aortic root, and innominate arteries when compared to (APOE-KO) of the same age. Treating APOE-KO with the ADORA1 antagonist DPCPX also achieved concentration-dependent reduction in lesions. The total plasma cholesterol and triglyceride levels were not different between DKO and APOE-KO, however, higher triglyceride was observed in DKO fed a high-fat diet. DKO also were heavier than APOE-KO. Plasma cytokine levels (IL-5, IL-6, and IL-13) were significantly lower in DKO. Proliferating cell nuclear antigen (PCNA) expression was also significantly reduced in the aorta from DKO. Despite smaller lesions in DKO, the composition of the innominate artery lesions and cholesterol loading and effusion [export] from bone-marrow-derived macrophages from DKO were not different from APOE-KO.
+
+DESIGN
+DKO mice (n=3; ADORA1 -/- APOE -/-) were compared to ADORA1 KO mice (n=3). All mice are C57BL/6 background. For functional analysis (Ingenuity Pathways Analysis), ANOVA was used to compare genotype, with batch effects of microarray as a second factor (Partek). Significance Analysis of Microarrays (SAM) was used to determine genes with significant changes (also controlling for batch effects).
+

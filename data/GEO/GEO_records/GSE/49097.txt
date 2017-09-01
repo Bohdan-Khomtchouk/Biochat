@@ -1,0 +1,12 @@
+TITLE
+Genes Differentially Expressed in Slow Wilting Phenotypes under a High Vapor Pressure Deficit
+
+ORGANISM
+Glycine max
+
+SUMMARY
+The purpose of this study is to compare transcriptome profiles of one fast wilting and two slow wilting genotypes under low- and high- vapor pressure deficit Experiments: Five differential expression analyses were performed. 1. Differences within the Hutchesen line for slow and fast wilting; 2. Differences within the PI471938 line for slow and fast wilting; 3. Differences within the PI416937 line for slow and fast wilting; Differences between Hutchesen, PI471938 and PI416937 (regardless of pheotype); 5. Comparison between all lines and all pheotypes Methods: RNASeq data was generated using the Illumina HiSeq. Data passing quality control was processed as follows: Alignment to reference genome Gmax_109 using Tophat2 followed by the Tuxedo pipeline (cufflinks, cuffmerge, cuffdiff).
+
+DESIGN
+Three cultivars, (wild-type Hutchesen and two parentla lines - PI471938 and PI416937; two conditions (normal and slow-wilting); two reps each for a total of 12 samples
+

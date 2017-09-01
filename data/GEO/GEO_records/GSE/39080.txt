@@ -1,0 +1,12 @@
+TITLE
+Systematic dissection of roles for chromatin regulators in a yeast stress response
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Packaging of eukaryotic genomes into chromatin has wide-ranging effects on gene transcription. Curiously, it is commonly observed that deletion of a global chromatin regulator affects expression of only a limited subset of genes bound to or modified by the regulator in question. However, in many single-gene studies it has become clear that chromatin regulators often do not affect steady-state transcription, but instead are required for normal transcriptional reprogramming by environmental cues. We therefore have systematically investigated the effects of 83 histone mutants, and 119 deletion mutants, on induction/repression dynamics of 200 transcripts in response to diamide stress in yeast. Importantly, we find that chromatin regulators play far more pronounced roles during gene induction/repression than they do in steady-state expression. Furthermore, by jointly analyzing the substrates (histone mutants) and enzymes (chromatin modifier deletions) we identify specific interactions between histone modifications and their regulators. Combining these functional results with genome-wide mapping of several histone marks in the same time course, we systematically investigated the correspondence between histone modification occurrence and function. We follow up on one pathway, finding that Set1-dependent H3K4 methylation primarily acts as a gene repressor during diamide stress, specifically at genes involved in ribosome biosynthesis. Set1-dependent repression of ribosomal genes occurs via distinct pathways for ribosomal protein genes and ribosomal biogenesis genes, which can be separated based on genetic requirements for repression and based on chromatin changes during gene repression. Together, our dynamic studies provide a rich resource for investigating chromatin regulation, and show that the “activating” mark H3K4me3 functions largely as a repressor in yeast.
+
+DESIGN
+We set to track how histone modifications change during transcriptional reprogramming. We perfomed a time course experiment following treatment of mid-log growing yeast (BY4741) with diamide. Samples were collected at t=0,4,8,15,30,60 and fixed by crosslinking. We extracted mononucleosomes by MNase digestion and then applied ChIP for selected histone modifications. The IPed material was hybridized to genomic tiling arrays against the input material.
+

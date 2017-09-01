@@ -1,0 +1,12 @@
+TITLE
+Regulation of chromatin accessibility and Zic binding at enhancers in the developing cerebellum
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To identify chromatin mechanisms of neuronal differentiation, we characterized the relationship between chromatin accessibility and gene expression in cerebellar granule neurons (CGNs) of the developing mouse. We used DNase-seq to globally map accessibility of cis-regulatory elements and RNA-seq to profile transcript abundance at key points in postnatal neuronal differentiation in vivo and in culture. We observed thousands of chromatin accessibility changes as CGNs differentiated and determined that many of these regions function as stage-specific neuronal enhancers. Motif discovery within differentially accessible chromatin regions suggested a novel role for the Zic family of transcription factors in CGN maturation, and we confirmed the association of Zic with these elements by ChIP-seq. Knockdown of Zic1 and Zic2 indicated Zic transcription factors are required to coordinate mature neuronal gene expression patterns. These data reveal chromatin dynamics at thousands of gene regulatory elements that facilitate gene expression patterns necessary for neuronal differentiation and function.
+
+DESIGN
+Biological triplicate DNase-seq and RNA-seq samples from 3 in vivo cerebellum developmental stages (P7, P14, P60) and 3 cultured CGN stages (isolated granule neuron precursors, +3DIV, and +7DIV) obtained.  Zic1 and Zic2 were separately knocked down by lentiviral shRNA in cultured CGNs followed by RNA-seq (2 biological replicates per KD and 2 controls). Zic1/2 and H3K27ac ChIP-seq was performed with in vivo cerebellum at two developmental stages (P7 and P60) in duplicate with matching input and IgG controls.
+

@@ -1,0 +1,12 @@
+TITLE
+Human embryonic stem cells HELP-tagging cytosine methylation data (Albert Einstein College of Medicine)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: To perform epigenome-wide association studies in human disease, assays need to be comprehensive and quantitative while remaining cost-effective.  We explored how the strengths of prior tag-based cytosine methylation assays based on massively-parallel sequencing can be maximised analytically.  Results:  We find that the use of the EcoP15I restriction enzyme to generate long tags and the normalisation of methylation-sensitive by methylation-insensitive restriction enzyme representations greatly improve assay performance.  When exploring sources of bias, we find that the length of the restriction fragment has moderate effects on EcoP15I digestion, while base composition exerts minimal effects.  We detail the analytical workflow that maximises the quantitative capabilities of this modified assay.  Also revealed are polymorphic sequences in the genome that could confound microarray, bisulphite sequencing or mass spectrometry-based assays, and a position effect causing hypomethylation of transposable elements near gene promoters.  Conclusions:  The new combined assay, referred to as HELP-tagging, interrogates over 1.8 million loci in the human genome quantitatively with a single lane of Illumina sequencing.  When the goal is to study not only CG-dense sequence but also the CG-depleted majority of the genome, this assay system should be suitable.
+
+DESIGN
+Three MspI reference, one HpaII test
+

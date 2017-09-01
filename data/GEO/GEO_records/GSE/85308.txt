@@ -1,0 +1,12 @@
+TITLE
+Genome-wide transcriptome analyses by RNAseq to determine the change that happens in the peripheral taste system with age.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To understand the mechanisms that regulate the renewal and maintenance of taste cells we performed RNA-sequencing analysis on isolated taste cells from 2 and 6 month old mice to determine how alterations in the taste cell-transcriptome regulate taste cell maintenance and function in adults. We found that the Activator Protein-1 (AP1) transcription factors (c-Fos, Fosb and c-Jun) and genes associated with this pathway were significantly  downregulated in taste cells from 6 month old mice and further declined at 12 months. We generated conditional c-Fos- knockout mice to target K14-expressing cells, including differentiating taste cells. c-Fos deletion caused a severe perturbation in taste bud structure and resulted in a significant reduction in the taste bud size. c-Fos deletion also affected taste cell turnover as evident by, a decrease in proliferative markers, and upregulation of the apoptotic marker cleaved-PARP. Thus, AP1 factors are important regulators of adult taste cell renewal and their downregulation negatively impacts taste maintenance.
+
+DESIGN
+Comparison of genes responsible for peripheral Taste system maintenance at age, 3 and 6 months. processed_data.txt: List of B vs S gene expression data gene_exp.diff: cuffdiff data for 2 and 6 month taste cells
+

@@ -1,0 +1,12 @@
+TITLE
+Genome-wide profiling of 5-Formylcytosine reveals it roles in epigenetic priming
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+TET proteins oxidize 5-methylcytosine (5mC) to 5-hydroxymethylcytosine (5hmC), 5-formylcytosine (5fC), and 5-carboxylcytosine (5caC). 5fC and 5caC are excised by mammalian DNA glycosylase TDG, implicating 5mC oxidation in DNA demethylation. Here we show that the genomic locations of 5fC can be determined by coupling chemical reduction with biotin tagging. Genome-wide mapping of 5fC in mouse embryonic stem cells (mESCs) reveals that 5fC preferentially occurs at poised enhancers among other gene regulatory elements. Application to Tdg null mESCs further suggests that 5fC production coordinates with p300 in remodeling epigenetic states of enhancers. This process, which is not influenced by 5hmC, appears to be associated with further oxidation of 5hmC and commitment to demethylation through 5fC. Finally, we resolved 5fC at base-resolution by hydroxylamine-based protection from bisulfite-mediated deamination, thereby confirming sites of 5fC accumulation. Our results reveal roles of active 5mC/5hmC oxidation and TDG-mediated demethylation in epigenetic tuning at regulatory elements.
+
+DESIGN
+We report here a chemical labeling method that effectively differentiates 5fC from 5mC, 5hmC, and 5caC in genomic DNA. First, we quantitatively protect endogenous 5hmC with a regular glucose using b-glucosytransferase-catalyzed 5hmC glucosylation. Then, we selectively reduce 5fC with NaBH4 to 5hmC, and chemically label the resulting 5hmC (from 5fC) with an azide-modified glucose. Biotin can be installed subsequently for specific enrichment of 5fC. Our method thereby provides an effective tool of general utility for the genomic localization of 5fC. Here we provide genome-wide profiles of 5hmC, 5fC, and p300 in Tdg fl/fl and Tdg-/- mESCs as well as a 5fC control (Non-NaBH4) and polyA RNA-Seq expression data. Genome-wide profiles of 5hmC and 5fC in mESCs differentiated to embryoid bodies are also included. We also report the development and application of a single-base resolution method for the detection of 5fC in genomic DNA by hydroylamine mediated protection of 5fC from deamination during bisulfite treatment, or 5fC Chemical Assisted Bisulfite Sequencing (fCAB-Seq). We applied this method in parallel with conventional ChIP-Methyl-Seq to H3K4me1 ChIP enriched DNA from Tdg fl/fl and Tdg-/- mice.
+

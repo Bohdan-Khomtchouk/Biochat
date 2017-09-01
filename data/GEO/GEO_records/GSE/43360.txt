@@ -1,0 +1,12 @@
+TITLE
+Multiple roles for Piwi in silencing Drosophila transposons
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Silencing of transposons in the Drosophila ovary relies on three Piwi-family proteins, Piwi, Aubergine (Aub), and Ago3, acting in concert with their small RNA guides, the piRNAs.  Aub and Ago3 are found in the germ cell cytoplasm, where they function in the ping-pong cycle to consume transposon mRNAs.  The nuclear Piwi protein is required for transposon silencing in both germ and somatic follicle cells, yet the precise mechanisms by which Piwi acts remain largely unclear.  We investigated the role of Piwi by combining cell-type specific knockdowns with measurements of steady state transposon mRNA levels, nascent RNA synthesis, and small RNA abundance.  In somatic cells, Piwi loss lead to concerted effects on nascent transcripts and transposon mRNAs, indicating that Piwi acts through transcriptional gene silencing (TGS).  In germ cells, Piwi loss showed disproportionate impacts on steady state RNA levels, indicating that it also exerts an effect on post-transcriptional gene silencing (PTGS). Piwi knockdown affected levels of germ cell piRNAs presumably bound to Aub and Ago3, perhaps explaining its post-transcriptional impacts.  Overall, our results indicate that Piwi plays multiple roles in the piRNA pathway, in part enforcing transposon repression through effects on transcription but also participating in germ cell piRNA biogenesis.
+
+DESIGN
+Piwi function in transcriptional and post-transcriptional transposon silencing was probed using deep-sequencing of small RNAs, steady-state and nascent transcripts, and DNA associated with H3K9me3 chromatin mark. In all cases comparison of two samples was performed: Tj- or nos-driven knock down of piwi to respective knock down of white gene (control sample). RNA-seq dataset has two replicates.
+

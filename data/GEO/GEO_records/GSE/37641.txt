@@ -1,0 +1,12 @@
+TITLE
+Quantitative polyadenylation map of mouse embryonic epidermal lineages
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We establish an experimental and bioinformatic pipeline using 3SEQ to quantitatively measure mRNA expression and reliably determine 3' end formation by sequencing polyadenylated transcripts. When applied to purified mouse embryonic skin stem cells direct differentiation lineages, we identify 15,651 UTRs representing 10,442 distinct mRNAs that are abundantly expressed in the skin. We determine that ~80% of UTRs are formed by using canonical A[A/U]UAAA polyadenylation signals, whereas ~20% of UTRs utilize alternative signals. We demonstrate that comparing with qPCR, our RNA-Seq approach can precisely measure mRNA fold-change and accurately determine the expression of mRNAs over four orders of magnitude. We also reported 453 out of 10,442 genes (4.3%) show differential 3' end usage between skin stem cells and their direct differentiation lineages. Among them, core components of the miRNA pathway, including Dicer, Dgcr8, Xpo5 and Ago2, show dynamic 3' UTR formation patterns, indicating a self-regulatory mechanism. Together, our quantitative analysis reveals a dynamic picture of mRNA 3' end formation in closely related somatic stem cell lineages.
+
+DESIGN
+Perform 3SEQ in E14 epidermal basal cells and E14 epidermal suprabasal cells.
+

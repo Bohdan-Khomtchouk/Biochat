@@ -1,0 +1,12 @@
+TITLE
+High-resolution Comparative Analysis Reveals a Primitive 3D Genome in Embryonic Stem Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The landscape of human epigenome undergoes extensive changes during development, leading to distinct transcription programs in different cell types. It is however still not clear how the high-order genome organization reshapes in cellular differentiation. Using Hi-C, we compared the comprehensive 3D genome maps in human embryonic stem cells (ESCs) and two differentiated cell types at kilobase resolution. Consistent with previous reports, we found that the CTCF protein anchors long-range constitutive interactions that are invariant between different cell types. The most stable DNA contacts in ESC are between a few hundred genomic loci with strongest histone H3 lysine 27 tri-methylation (H3K27me3) binding, which plays a key role maintaining pluripotency by inhibiting key development genes. These repressive 3D chromatin structures are resolved in differentiated cells, accompanied by redistribution of H3K27me3 mark. Most surprisingly, we found that in human ESCs, DNA looping interactions are not enriched at enhancers, suggesting a stochastic nature of DNA looping interactions at ESC enhancers. This is in sharp contrast to differentiated cells, in which a majority of cell type specific DNA looping interactions are at enhancers, regardless of whether the enhancers are co-occupied by CTCF. Taken together, our analysis revealed a primitive enhancer-independent genome architecture in ESCs, which is consistent with the stem cell pluripotency and differentiation plasticity. Most of the stable DNA looping interactions associated with lineage-governing enhancers are created only during cell fate commitment.
+
+DESIGN
+We performed kilobase-resolution Hi-C analysis at fragment level in H1 hESCs, IMR90 and GM12878 cells. Identified DNA looping interactions are compared to chromatin marks in these cell types.
+

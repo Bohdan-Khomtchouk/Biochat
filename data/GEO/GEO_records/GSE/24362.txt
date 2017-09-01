@@ -1,0 +1,12 @@
+TITLE
+Epstein Barr virus Nuclear Antigen 3C regulated genes in Lymphoblastoid Cell Lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epstein Barr virus (EBV) nuclear antigen 3C (EBNA3C) is an essential transcription factor for initiating and maintaining human B lymphocyte transformation to lymphoblastoid cell lines (LCLs). To comprehensively identify EBNA3C regulated cell genes in LCLs, oligonucleotide arrays were used to compare RNA abundances in 3 different LCLs transformed by an EBV that conditionally expresses EBNA3C. Cell RNA levels were assessed in actively growing LCLs, under non-permissive or permissive conditions or under non-permissive conditions after transcomplementation with wild type EBNA3C. A two-way ANOVA model with covariates including the 3 different clone effects and the 3 EBNA3C expression levels, identified 550 EBNA3C regulated genes, with False Discovery Rate < 0.01 and > 1.5 fold change. A seeded Bayesian network analysis of the 80 most significantly EBNA3C regulated genes that changed > 1.5 fold, positioned RAC1, LYN and TNF upstream of other EBNA3C regulated genes. Further, Gene Set Enrichment Assay (GSEA) identified EBNA3C regulated genes to be enriched for MAP kinase signaling, cytokine-cytokine receptor interactions, JAK-STAT signaling, and cell adhesion molecule effects, implicating these pathways in LCL growth or survival. Moreover, 106 EBNA3C regulated genes could be placed in protein interaction networks. Since CXCL12 and CXCR4 signaling are implicated in LCL growth and were EBNA3C up-regulated, up-regulation of CXCL12 was validated by qRT-PCR and effects on induced LCL migration were confirmed. EBNA3C regulated genes significantly overlapped with EBNA2 and EBNA3A regulated genes, consistent with a central role for RBP/CSL in these effects.
+
+DESIGN
+RNAs from three different Lymphoblastoid Cell Lines(LCLs) expressing conditional EBNA3C grown under permissive or non-permissive conditions for 7 days; the same LCLs transcompletemented with  EBNA3C expressed in trans at full wild-type level were used to identify EBNA3C regualted cellular genes. Total cell RNAs were hybrdized to Affymetrix U-133 Plus 2.0 microarrays. A two way ANOVA  model was developed with covariates including the 3 different clone effects and the 3 EBNA3C expression levels and identified 550 EBNA3C regulated genes.
+

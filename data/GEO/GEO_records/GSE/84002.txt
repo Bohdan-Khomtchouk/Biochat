@@ -1,0 +1,12 @@
+TITLE
+ARA-PEPs : a repository of putative sORF-encoded peptides in Arabidopsis thaliana
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Many eukaryotic RNAs have been considered non-coding as they only contain short open reading frames (sORFs). There is increasing evidence for the translation of these sORFs into bioactive peptides. Yet only a few small peptides are annotated in the model organism Arabidopsis thaliana. To aid the functional annotation of small peptides, we have developed ARA-PEPs, a repository and webserver of putative peptides encoded by sORFs in the Arabidopsis genome from in house Tiling arrays, RNA sequencing and from publicly available datasets. In order to identify novel oxidative stress-induced peptides in Arabidopsis thaliana a tiling array analysis (GeneChip® Arabidopsis Tiling 1.0R Arrays ) was performed on mRNA extracted from leaves inoculated with Botrytis cinerea (BC). Normalized log signals were obtained using the Affymetrix Tiling Analysis Software - Version 1.1, Build 2. ON and OFF probes were selected using a threshold, based on positive controls. Next, groups of 4-13 successive ON probes were combined into short TARs and a selection was made of TARs having an average signal intensity at least 2.6-fold higher after BC treatment compared to the control treatment, resulting in 195 BC induced TARs.
+
+DESIGN
+Botrytis cinerea treated A. thaliana leaves (2 replicates) vs control (water) treated A. thaliana leaves (2 replicates), (4 samples in total)
+

@@ -1,0 +1,12 @@
+TITLE
+Gene expression in Aspergillus fumigatus at different developmental stages
+
+ORGANISM
+Aspergillus fumigatus
+
+SUMMARY
+Microarray analysis was used to compare different divelopmental stages of the filamentous fungi Aspergillus fumigatus af293. Cells were grone for various times and comparisons made between: 1. Dormant conidia (0 hours) and isotropically expanding cells (1hr). 2. Dormant conidia (0 hours) and isotropically expanding cells (2hr) . 3. Dormant conidia (0 hours) and isotropically expanding cells (4hr).  4.  Isotropically expanding cells (4hr) and polarity extending cells (6hr). 4.  Isotropically expanding cells (4hr) and germ tube (8hr).
+
+DESIGN
+A total of 6 hybridizations were performed for each microarray experiment described in summary. The following replicates were carried out: 1. Three biological replicates were performed using cultures grown in parallel. 2. Technical 'dye swap' replicates were carried out for each biological replicate. Please note that [1] each array slide has two spots of same probes, and thus, data was merged and analyzed as described in the sample data processing field. [2] The normalized data derived from each raw data file 'before the intensities across two technical repeats are averaged' are provided in the *normalized_MDS.mev file and sample data tables include the averaged data of two technical repeats. [3] For the value in each sample data table, we have performed dye-swapped two slides and normalized at same time. Each slide have two spots for one gene, so we performed In-slide replicate analysis (averaged) and statistic analysis. At final step, fold change ratio (FC) was calculated as 1hr/0hr, 2hr/0hr, 4hr/0hr, 6hr/4hr, 8hr/4hr in each experiment as and then Log2-treansformed (log2 FC).
+

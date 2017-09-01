@@ -1,0 +1,12 @@
+TITLE
+A gene expression signature identifies two prognostic subgroups of basal breast cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Medullary breast cancers (MBC) display a basal profile, but a favorable prognosis. We hypothesized that a previously published 368-gene expression signature associated with MBC might serve to define a prognostic classifier in basal cancers. We collected public gene expression and histoclinical data of 2145 invasive early breast adenocarcinomas. We developed a Support Vector Machine (SVM) classifier based on this 368-gene list in a learning set, and tested its predictive performances in an independent validation set. Then, we assessed its prognostic value and that of six prognostic signatures for disease-free survival (DFS) in the remaining 2034 samples. The SVM model accurately classified all MBC samples in the learning and validation sets. A total of 466 cases were basal across other sets. The SVM classifier separated them into two subgroups, subgroup 1 (resembling MBC) and subgroup 2 (not resembling MBC). Subgroup 1 exhibited 71% 5-year DFS, whereas subgroup 2 exhibited 50% (p=9.93E-05). The classifier outperformed the classical prognostic variables in multivariate analysis, conferring lesser risk for relapse in subgroup 1 (HR=0.52, p=3.9E-04). This prognostic value was specific to the basal subtype, in which none of the other prognostic signatures was informative.
+
+DESIGN
+The IPC series contained frozen tumor samples obtained from 266 early breast cancer patients who underwent initial surgery in our institution between 1992 and 2004. They included 227 cases previously reported {Finetti, 2008 #1758} and 39 additional cases, all similarly profiled using Affymetrix U133 Plus 2.0 human oligonucleotide microarrays as previously described {Finetti, 2008 #1758}. The study was approved by the IPC review board, and informed consent was available for each case. Gene expression data of 266 BCs  were quantified by using whole-genome DNA microarrays (HG-U133 plus 2.0, Affymetrix).
+

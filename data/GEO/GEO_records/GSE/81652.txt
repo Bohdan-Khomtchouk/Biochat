@@ -1,0 +1,12 @@
+TITLE
+Regulation of Choline Catabolism in Burkholderia thailandensis
+
+ORGANISM
+Burkholderia thailandensis E264
+
+SUMMARY
+Burkholderia thailandensis is a soil-dwelling bacterium that shares many metabolic pathways with the ecologically similar, but evolutionarily distant, Pseudomonas aeruginosa. Among the diverse nutrients it can utilize is choline, which can be converted into the osmoprotectant glycine betaine and further catabolized as a source of carbon and nitrogen, similar to P. aeruginosa. Orthologs of genes in the choline catabolic pathway in these two bacteria showed distinct differences in gene arrangement as well as an additional orthologous transcriptional regulator in B. thailandensis. In this study, we showed that multiple glutamine amidotransferase1 (GATase1)-containing AraC-family transcription regulators (GATRs) are involved in regulation of the B. thailandensis choline catabolic pathway (gbdR1, gbdR2, souR).  Using genetic analyses and sequencing the transcriptome in the presence and absence of choline, we identified the likely regulons of gbdR1 (BTH_II1869) and gbdR2 (BTH_II0968). We also identified a functional ortholog for P. aeruginosa souR, a GATR that regulates the metabolism of sarcosine to glycine. GbdR1 is absolutely required for expression of the choline catabolic locus, similar to P. aeruginosa GbdR, while GbdR2 is important to increase expression of the catabolic locus. Additionally, the B. thailandensis SouR ortholog (BTH_II0994) is required for catabolism of choline and its metabolites as carbon sources, whereas in P. aeruginosa, SouR function can by bypassed by GbdR. The strategy employed by B. thailandensis represents a distinct regulatory solution to control choline catabolism and thus provides both an evolutionary counterpoint and an experimental system to compare the acquisition and regulation of this pathway during environmental growth and infection.
+
+DESIGN
+Wild-type and transcriptional regulator deletion strains of B. thailandensis were grown in minimal media with and withouth choline using two biological replicates. RNA-Seq was performed obtaining single end reads to determine regulons for each transcription factor included in the study.
+

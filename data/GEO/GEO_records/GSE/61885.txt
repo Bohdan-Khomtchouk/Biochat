@@ -1,0 +1,12 @@
+TITLE
+Genome accessibility is widely preserved and locally modulated during mitosis [Dnase-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mitosis entails global alterations to chromosome structure and nuclear architecture, concomitant with transient silencing of transcription. How cells transmit transcriptional states through mitosis remains incompletely understood. While many nuclear factors dissociate from mitotic chromosomes, the observation that certain nuclear factors and chromatin features remain associated with individual loci during mitosis originated the hypothesis that they could provide transcriptional memory through mitosis. To obtain the first genome-wide view of the dynamics of chromatin structure during mitosis, we compared the DNase sensitivity of interphase and mitotic chromatin at two stages of cellular maturation in a rapidly dividingmurine erythroblastmodel. Despite global chromosome condensation visible during mitosis at the microscopic level, the chromatin accessibility landscape is largely unaltered. However, mitotic chromatin accessibility is locally dynamic, with individual loci maintaining none, some, or all of their interphase accessibility. Mitotic reduction in accessibility occurs primarily within narrow, highly hypersensitive sites that frequently coincide with transcription factor binding sites, whereas broader domains of moderate accessibility tend to be more stable. In mitosis, proximal promoters generally maintain their accessibility, whereas distal regulatory elements preferentially lose accessibility. Promoters with the highest degree of accessibility preservation in mitosis tend to also be accessible across many murine tissues in interphase. Transcription factor GATA1 exerts site-specific changes in interphase accessibility that are most pronounced at distal regulatory elements, but does not visibly influence mitotic accessibility. We conclude that features of open chromatin are remarkably stable through mitosis and are modulated at the level of individual genes and regulatory elements.
+
+DESIGN
+Dnase-Seq data is integrated with Chip-seq [GSE36589, GSE30142] and RNA-seq to examine epigentic changes in mitosis. We performed DNase-seq on  two cell lines, G1E and G1E-ER4, both on an asynchronus population, and on a sample of cells  in mitosis; each of the 4 experiments in triplicate.
+

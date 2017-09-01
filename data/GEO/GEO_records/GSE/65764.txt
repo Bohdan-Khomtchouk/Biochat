@@ -1,0 +1,12 @@
+TITLE
+H3K36 methylation promotes longevity by enhancing transcriptional fidelity [Yeast RNA-Seq]
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Epigenetic mechanisms including histone post-translational modifications control longevity in diverse organisms. Relatedly, loss of proper transcriptional regulation on a global scale is an emerging aspect of shortened lifespan, but the specific mechanisms linking these observations remain to be uncovered. Here, we describe a lifespan screen in S. cerevisiae, designed to identify altered amino acid residues of histones that alter yeast replicative aging. Our results reveal that lack of sustained H3K36 methylation is commensurate with increased cryptic transcription in a set of genes in old cells and shorter lifespan. Deletion of the K36me2/3 demethylase Rph1 increases H3K36me3 within these genes and suppresses cryptic transcript initiation to extend lifespan. We show that this aging phenomenon is conserved, as cryptic transcription also increases in old worms. We propose that epigenetic misregulation in aging cells leads to an increase in transcriptional noise that is detrimental to lifespan, and, importantly, this acceleration in aging can be reversed by restoring transcriptional fidelity.
+
+DESIGN
+This study examines transcription in yeast aging using a WT or Rph1 mutant background over a sequence of time-dependent FACS sorts of old cells. Cryptic transcripts are detected using a small fragment sequencing approach. The youngest WT yeast (designated S1Y, S2Y) are represented in seven biological replicates and one technical replicate, five small fragment and three others; the oldest WT yeast (designated S4O) are also represented in seven biological replicates and one technical replicate, again composed of five small fragment samples and three others. Intermediate WT yeast aging sorts (S2O and S3O) are each represented by five biological replicates and one technical replicate, three small fragment and three others. For mutant yeast, each stage in the time series is represented by five biological replicates and one technical replicate, three small fragment and three others. Experiment 4 is a technical replicate of experiment 3.
+

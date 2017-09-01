@@ -1,0 +1,12 @@
+TITLE
+Roles and Programming of Arabidopsis ARGONAUTE Proteins During Turnip Mosaic Virus Infection
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+AGO protein immunoprecipitation was combined with high-throughput sequencing of associated small RNAs. AGO2, AGO10, and to a lesser extent AGO1 were shown to associate with siRNAs derived from silencing suppressor (HC-Pro)-deficient TuMV-AS9, but not with siRNAs derived from wild-type TuMV. Co-immunoprecipitation and small RNA sequencing revealed that viral siRNAs broadly associated with wild-type HC-Pro during TuMV infection. These results support the hypothesis that suppression of antiviral silencing during TuMV infection, at least in part, occurs through sequestration of virus-derived siRNAs away from antiviral AGO proteins by HC-Pro.
+
+DESIGN
+Catalytic mutant HA-AGO1-DAH, HA-AGO2-DAD and HA-AGO10-DAH or catalytically active HA-AGO10-DDH were immunoprecipitated from buffer (mock) or inoculated rosette leaves (at 7 dpi) or noninoculated cauline leaves at 10 dpi with wt TuMV or suppressor-deficient TuMV-AS9. Inflorescence from TuMV infected plants was collected at 10 dpi with wt TuMV. HC-Pro was tagged with 6xHIS in TuMV-HIS and suppressor-deficient TuMV-HIS-AS9. HC-Pro  was immunoprecipitated from noninoculated cauline leaves of inflorescence at 10 dpi. HC-Pro AS9 was immunoprecipitated from noninoculated cauline leaves at 15 dpi. Total RNA was extracted from input fraction and small RNAs separated by size fractionation. Small RNAs in input and HA-AGO or HC-Pro immunoprecipitation fractions were converted to DNA Amplicons by 5' (GUUCAGAGUUCUACAGUCCGACGAUC) or  3’ (CTGTAGGCACCATCAAT) adaptor ligation followed by RT-PCR. DNA Amplicons were sequenced using the Illumina HiSeq2000 platform. Duplicate libraries were made per treatment. For each library, hits to TuMV, to TuMV-HIS and to Arabidopsis thaliana were included in separate files.
+

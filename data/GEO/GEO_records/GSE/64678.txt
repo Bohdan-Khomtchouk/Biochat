@@ -1,0 +1,12 @@
+TITLE
+Hepatitis C virus functionally sequesters miR-122 [m15 vs Mock CLIP]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Hepatitis C virus uniquely requires the liver specific microRNA-122 for replication, yet global effects on endogenous miRNA targets during infection are unexplored. Here, high-throughput sequencing and crosslinking immunoprecipitation (HITS-CLIP) experiments of human Argonaute (Ago) during HCV infection showed robust Ago binding on the HCV 5’UTR, at known and predicted miR-122 sites. On the human transcriptome, we observed reduced Ago binding and functional mRNA de-repression of miR-122 targets during virus infection. This miR-122 “sponge” effect could be relieved and redirected to miR-15 targets by swapping the miRNA tropism of the virus. Single-cell expression data from reporters containing miR-122 sites showed significant de-repression during HCV infection depending on expression level and number of sites. We describe a quantitative mathematical model of HCV induced miR-122 sequestration and propose that such miR-122 inhibition by HCV RNA may result in global de-repression of host miR-122 targets, providing an environment fertile for the long-term oncogenic potential of HCV.
+
+DESIGN
+AGO HITS-CLIP libraries were generated from mock or m15 J6/JFH1 Clone2 infected Huh7.5 cells. Cells were infected at an MOI of 1-2 and harvested 72 hours post-infection for CLIP. Libraries were generated with a 4nt index read, a common priming sequence, followed by a 5nt degenerate barcode terminiating in a G. Files have been demultiplexed such that the 5nt degenerate barcode has been appended as the first 5 nucleotides of the read
+

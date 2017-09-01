@@ -1,0 +1,12 @@
+TITLE
+Smad2/3 binding sites in HaCaT, HepG2, and Hep3B cells determined by an Affymetrix promoter array
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Specific regulation of target genes by transforming growth factor-β (TGF-β) in a given cellular context is determined in part by transcription factors and cofactors that interact with the Smad complex. In the present study, we determined Smad2 and Smad3 (Smad2/3) binding regions in the promoters of known genes in HepG2 hepatoblastoma cells, and compared them to those in HaCaT epidermal keratinocytes to elucidate the mechanisms of cell-type- and context-dependent regulation of transcription induced by TGF-β. Our results show that 81% of the Smad2/3 binding regions in HepG2 cells were not shared with those found in HaCaT cells. Hepatocyte nuclear factor 4α (HNF4α) is expressed in HepG2 cells, but not in HaCaT cells, and the HNF4α binding motif was identified as an enriched motif in the HepG2-specific Smad2/3 binding regions. ChIP-sequencing analysis of HNF4α binding regions under TGFα stimulation revealed that 32.5% of the Smad2/3 binding regions overlapped HNF4α bindings. MIXL1 was identified as a new combinatorial target of HNF4α and Smad2/3, and both the HNF4α protein and its binding motif were required for the induction of MIXL1 by TGF-β in HepG2 cells. These findings generalize the importance of binding of HNF4α on Smad2/3 binding genomic regions for HepG2-specific regulation of transcription by TGF-β, and suggest that certain transcription factors expressed in a cell-type-specific manner play important roles in the transcription regulated by the TGF-β-Smad signaling pathway.
+
+DESIGN
+We determined and analyzed cell-line-specific Smad2/3 binding sites by ChIP-chip. HaCaT, HepG2, and Hep3B cells were treated with TGF-β for 1.5 h. anti-Smad2/3 ChIP samples and their input DNAs were hybridized to the arrays. Each bed file contains Smad2/3 binding sites determined by two-sample analysis (NCBIv36/hg18, p < 10-4).
+

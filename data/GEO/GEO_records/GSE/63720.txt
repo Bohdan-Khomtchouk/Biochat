@@ -1,0 +1,12 @@
+TITLE
+Gene expression data from mouse hormone receptor positive mammary epithelial cells during early pregnancy
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The aim of this study was to identify transcriptional changes in hormone receptor positive (HR+) cells during the dynamic morphogenesis in mammary epithelium during early pregnancy. HR+ cells translate the systemic hormonal signals that indicate pregnancy into local instructions for the generation of alveoli (milk-producing units). We previously found that IGF-2 is produced by HR+ cells, but this is only detectable in early pregnancy and not in virgin animals. This data set was generated to charachterize what other genes become expressed in HR+ cells specifically during a time of active proliferation and cellular communication. The gene expression profile at 3 days of pregnancy shows a marked upregulation of genes involved in cell division. By the 7th day of pregnancy the HR+ cells induce expression of several secreted molecules. Taken together with EdU incorporation analysis, we find that HR+ cells first undergo an expansion phase and subsequently express paracrine stimulators of alveolar and basal mammary epithelial cells during early pregnancy.
+
+DESIGN
+HR+ mammary epithelial cells were sorted by FACS directly into lysis buffer. We used CD49b and Sca1 to identify the HR+ cells. The RNA from the lysed cells was amplified and labeled with biotin. We harvested samples from virgin, 3-day and 7-day pregnant FVB mice and used 3 individual animals per time point. 1.5 μg of biotinylated a/cRNA from each sample was hybridized at 58°C for 16 hours using the Illumina Whole-Genome Gene Expression Direct Hybridization Assay system with the Illumina Mouse WG-6 v2.0 (six-sample BeadChip) platform. The signal was developed using streptavidin-Cy3 and the BeadChips were scanned with an Illumina BeadArray Reader. Raw signals were logarithmically transformed (to base 2) and quantile normalized with Partek Genomics Suite, version 6.6. The background noise from the array was determined at 100.
+

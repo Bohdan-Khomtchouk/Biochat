@@ -1,0 +1,12 @@
+TITLE
+A streamline experimental and computational approach for inexpensive, accurate, efficient and high-throughput annotation of 5’ and 3’ ends
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+We present a simple and straightforward approach for genome-wide annotation of 5' and 3'-RNA ends. Our approach reliably discerns bona-fide PAS from false PAS that arise due to internal poly(A) tracts, a common problem with current PAS annotation methods. We applied our methodology to study the impact of temperature on the Drosophila melanogaster head transcriptome. We found hundreds of previously unidentified TSS and PAS which revealed two interesting phenomena: First, genes with multiple PASs tend to harbor a motif near the most proximal PAS, which likely represents a new cleavage and polyadenylation signal. Second, motif analysis of promoters of genes affected by temperature suggested that BEAF-32 and DREF mediates a transcriptional program at warm temperatures, a result we validated in a fly line where beaf-32 is downregulated.
+
+DESIGN
+mRNA-ends extracted from fly head were sequenced using our newly developed sequencing methods (5' was sequenced using Exo-seq, 3' was sequenced using RNaseH-seq and 3' end sequencing without RNase H treatment). This data was used to accurately annotate the mRNA ends and to quantify changes in TSS and PAS between temperatures. ChIP-seq H3K4me3 data was generated to validate our 5' results, and 100bp RNaseH- libraries were used to validate classification of peaks to true PAS or internal tracts. Full length RNA-seq data was used to validate the ability of Exo-seq and RNAseH-seq to quantify transcript expression. 3' RNA-seq was used to validate the involvement of BEAF-32 in the transcriptional response to warm temperature in fly heads.
+

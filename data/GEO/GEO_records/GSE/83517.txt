@@ -1,0 +1,12 @@
+TITLE
+Gene Expression data from LPS (2 hour) - treated PPP2CA alpha conditional knockout Bone Marrow Derived Macrophages (PP2ACαfl/fl;lyM-Cre, cre-loxp mediated exon1 deletion in myeloid cells)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+PP2A regulates inflammatory cytokine/chemokine gene expression by dephosphorylating protein kinases at multiple signaling pathways from stimulated cells. In this dataset, Affymetrix mouse Gene ST 2.1 Array was used to assay total RNA extracted from LPS-treated PP2ACα knockout BMDM (PP2ACαfl/fl;lyM-Cre) and the control BMDM (PP2ACαfl/fl) In this dataset, we include the expression data obtained from LPS-stimulated PP2ACα conditional knockout BMDM (PP2ACαfl/fl;lyM-Cre) and control BMDM (PP2ACαfl/fl). The data are used to obtain 1080 genes that are differentially expressed in response to LPS stimulation
+
+DESIGN
+Four total samples (2 control samples and 2 experimental samples) were analyzed. Gene expression data was first calculated with a robust multi-array average of background-adjusted, normalized, and log-transformed intensity values applying the Robust Multi-Array Average algorithm (RMA).  The mean optical background level for each array was subtracted from the signal intensity for each probe. The normalized data were then transformed to the log2 scale. A signal log2 ratio of 1.0 corresponds to an increase of the transcript level by two-fold change (2 FC) and -1.0 indicates a decrease by two-fold change (-2 FC). A 1.5-fold or greater was used as the cutoff value by which a final gene list of 1,080 genes were selected as differentially expressed genes between LPS-stimulated BMDM derived from the myeloid-specific PP2ACα knockout mice (PP2ACαfl/fl;lyM-Cre) versus BMDM from the PP2ACαfl/fl mice
+

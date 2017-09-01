@@ -1,0 +1,9 @@
+TITLE
+Expression data of Saccharomyces cerevisiae CEN.PK.113-7D grew in Batch and Chemostat condition using for comparison of RNA-seq and Microarray data
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+High throughput sequencing is a powerful tool to investigate complex cellular phenotypes in functional genomics studies. Sequencing of transcriptional molecules, RNA-seq, has recently become an attractive method of choice in the studies of transcriptomes, promising several advantages compared to traditional expression analysis based on microarrays. In this study, we sought to assess the contribution of the different analytical steps involved in analysis of RNA-seq data and to cross-compare the results with those obtained through a microarray platform. We used the well-characterized Saccharomyces cervevisiae strain CEN.PK 113-7D grown under two different physiological conditions (batch and chemostat) as a case study. In our work, we addressed the influence of genetic variability on the estimation of gene expression level using three different aligners for read-mapping (Gsnap, Stampy and Tophat), the capabilities of five different statistical methods to detect differential gene expression (baySeq, Cuffdiff, DESeq, edgeR and noiSeq) and we explored the consistency between the two main approaches for RNA-seq: reference mapping and de novo assembly. High reproducibility in data generated through RNA-seq among different biological replicates (correlation ≥ 0.99) and high consistency with the results identified with RNA-seq and microarray data analysis (correlation ≥ 0.91) were observed. The results from differential gene expression identification as well as the results of integrated analysis based on the different methods are in good agreement. Overall, our study provides a useful and comprehensive comparison of the workflow for transcriptome analysis using RNA-seq technique.
+

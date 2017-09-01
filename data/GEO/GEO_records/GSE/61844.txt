@@ -1,0 +1,12 @@
+TITLE
+Genome-wide detection of DNase I hypersensitive sites in single cells and FFPE tissue samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNase I hypersensitive sites (DHSs) provide important information on the presence of transcriptional regulatory elements and the state of chromatin in mammalian cells1, 2, 3. Conventional DNase sequencing (DNase-seq) for genome-wide DHSs profiling is limited by the requirement of millions of cells4, 5. Here we report an ultrasensitive strategy, called single-cell DNase sequencing (scDNase-seq) for detection of genome-wide DHSs in single cells. We show that DHS patterns at the single-cell level are highly reproducible among individual cells. Among different single cells, highly expressed gene promoters and enhancers associated with multiple active histone modifications display constitutive DHS whereas chromatin regions with fewer histone modifications exhibit high variation of DHS. Furthermore, the single-cell DHSs predict enhancers that regulate cell-specific gene expression programs and the cell-to-cell variations of DHS are predictive of gene expression. Finally, we apply scDNase-seq to pools of tumour cells and pools of normal cells, dissected from formalin-fixed paraffin-embedded tissue slides from patients with thyroid cancer, and detect thousands of tumour-specific DHSs. Many of these DHSs are associated with promoters and enhancers critically involved in cancer development. Analysis of the DHS sequences uncovers one mutation (chr18: 52417839G > C) in the tumour cells of a patient with follicular thyroid carcinoma, which affects the binding of the tumour suppressor protein p53 and correlates with decreased expression of its target gene TXNL1. In conclusion, scDNase-seq can reliably detect DHSs in single cells, greatly extending the range of applications of DHS analysis both for basic and for translational research, and may provide critical information for personalized medicine.
+
+DESIGN
+Exploring the landscape of chromatin accessibility in single cells and clinical samples
+

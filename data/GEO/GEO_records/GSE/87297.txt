@@ -1,0 +1,12 @@
+TITLE
+Epigenomic deconvolution of breast tumors reveals metabolic coupling between constituent cell types
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cancer progression is dependent on both cell-intrinsic processes and interactions between different cell types that constitute tumor tissue. To access this information, we develop Epigenomic Deconvolution (EDec), an in silico method that provides estimates of cell type composition of complex tissues, such as solid tumors, as well as CpG methylation and gene transcription within constituent cell types. By applying EDec to breast tumors from TCGA we detect changes in immune cell infiltration, and a striking change in stromal fibroblast to adipocyte ratio across breast cancer subtypes. We further show that a decrease in stromal adipocyte content and increase in fibroblast content is associated with a reduction of mitochondrial activity in stromal cells and a concomitant increase in oxidative metabolism in cancerous epithelial cells. These findings highlight the role of stromal cell type composition in the establishment of patterns of metabolic coupling such as the previously proposed reverse Warburg effect. Raw data files were not provided for this Series. Submitters did not have permission to share the raw data.
+
+DESIGN
+Epigenomic Deconvolution was applied to the set of 39 primary breast tumor methylation profiles to infer average methylation profiles of constituent cell types and proportions of constituent cell types in each sample. Estimated methylation profiles of constituent cell types were compared (Pearson correlation) against methylation profiles of 6 breast cancer cell lines, CD8+ T-cell, HMEC cell line, and cancer associated fibroblast cell line. Comparison results indicate that, starting from breast tumor methylation profiles, the deconvolution technique was able to infer methylation profiles of constituent cell types that resembled those of cell types expected to be the major constituents of breast tumor tissue samples.
+

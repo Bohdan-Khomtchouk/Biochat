@@ -1,0 +1,12 @@
+TITLE
+Transintestinal cholesterol transport is important in mice and humans and controls  ezetimibe induced fecal neutral sterol excretion
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Except for conversion to bile salts, there is no major cholesterol degradation pathway in mammals. Efficient excretion from the body is therefore a crucial element in cholesterol homeostasis. Yet, the existence and importance of these pathways in humans is a matter of debate. We quantified cholesterol fluxes in 15 male volunteers using a cholesterol balance approach. Ten participants repeated the protocol after 4-weeks treatment with ezetimibe, an inhibitor of intestinal and biliary cholesterol absorption. Under basal conditions, about 65% of daily fecal neutral sterol excretion was bile-derived, with the remainder being contributed by direct transintestinal cholesterol excretion (TICE). Surprisingly, ezetimibe induced a fourfold increase in cholesterol elimination via TICE. Mouse studies revealed that most of ezetimibe-induced TICE flux is mediated by the cholesterol transporter Abcg5/Abcg8. In conclusion, TICE is active in humans and may serve as a novel target to stimulate cholesterol elimination in patients at risk for cardiovascular disease.
+
+DESIGN
+8 controls and 5 EZE-treated mice. For microarray analysis, intestinal (proximal)  RNA was prepared from EZE 0.005%-compound and regular chow fed  C57BL/6J mice using TRI-reagent (Sigma-Aldrich, St. Louis, MO, USA). RNA quality and concentration was assessed with an Biorad Experion Bioanalyzer. Starting with 200 ng of RNA, with an RNA Quality Indicator of at least 7. RNA was amplified and labeled using the Illumina TotalPrep RNA Amplification Kit (Applied Biosystems, Nieuwekerk ad IJssel, The Netherlands). The MouseRef-8 v2.0 expression beadchip  arrays, containing 25697 transcripts (Illumina, San Diego, USA), were processed according to the manufactures protocol and slides were scanned immediately. Quality control, normalization (quantile), batch correction (Combat), prefiltering (fold change 1.1) and statistics (IBMT) were performed in MADMAX. A list of significant changed annotated genes between EZE (n = 5) and WT (n = 8), including False Discovery Rates (FDR)-corrected p-values (10%) was generated. Identification of KEGG pathway enrichment analysis among responsive genes was performed using the DAVID Functional Annotation Clustering tool.
+

@@ -1,0 +1,12 @@
+TITLE
+Comparative Total RNA-seq between WT and alba4-null Plasmodium yoelii parasites
+
+ORGANISM
+Plasmodium yoelii
+
+SUMMARY
+To determine the role of ALBA4 in mRNA homeostasis in Plasmodium parasites, we performed comparative total RNA-seq between a WT-GFP line and an alba4-null line. We performed these experiments at three points in the life cycle - asexual (schizont), sexual (gametocyte), and oocyst sporozoite stages. We found that ALBA4 has a multi-faceted role in mRNA homeostasis, and is involved in mRNA fate determination. ALBA4 appears to act in a stage-specific manner, affecting different sets of transcripts in each stage. Our data suggests that ALBA4 plays opposing roles - possibly promoting degradation in schizonts, while promoting mRNA protection in gametocytes. In oocyst sporozoites, it appears that ALBA4 has a mixed role, and may be involved in both degradation and protection of mRNAs.
+
+DESIGN
+Schizonts or gametocytes were collected from mice infected with either a WT-GFP (control) or alba4-null parasite line, and purified by gentle centrifugation over a discontinuous gradient. Oocyst sporozoites were dissected from mosquitoes infected with either WT-GFP or alba4-null parasite lines, and purified twice by centrifugation over a discontinuous gradient. Following purification, RNA was extracted and purified and sequenced on a Illumina HiSeq 2500 in Rapid Run mode. For schizont and oocyst sporozoite samples, 100nt x 100nt paired-end sequencing was performed, and for gametocyte samples 100 nt single read sequencing was performed. Three biological replicates were performed for schizont and gametocyte stages, while two were performed for oocyst sporozoites.
+

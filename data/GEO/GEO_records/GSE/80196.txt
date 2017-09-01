@@ -1,0 +1,12 @@
+TITLE
+Multilayered control of alternative splicing regulatory networks by transcription factors (SPAR-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Networks of coordinated alternative splicing (AS) events play critical roles in development and disease. However, a comprehensive knowledge of the factors that regulate these networks is lacking. We describe a high-throughput system for systematically linking trans-acting factors to endogenous RNA regulation events. Using this system, we identify hundreds of factors associated with diverse regulatory layers that positively or negatively control AS events linked to cell fate. Remarkably, more than one third of the new regulators are transcription factors. Further analyses of the zinc finger protein Zfp871 and BTB/POZ domain transcription factor Nacc1, which regulate neural and stem cell AS programs, respectively, reveal roles in controlling the expression of specific splicing regulators. Surprisingly, these proteins also appear to regulate target AS programs via binding RNA. Our results thus uncover a large ‘missing cache’ of splicing regulators among annotated transcription factors, some of which dually regulate AS through direct and indirect mechanisms.
+
+DESIGN
+Alternative splicing and/or expression of 50 genes was monitored in 1,536 siRNA-mediated knockdowns, including 120 controls, in CGR8 mouse ES cells and N2A neuroblastoma cells in duplicate. KnockdownAnnotation.tab: Treatment annotation and well/plate position ScreenJuncUp.20-77.fa: fasta; Sequences of upstream junctions ScreenJuncDn.20-77.fa: fasta; Sequences of downstream junctions ScreenEvents_junctions.tab: Junction combinations for PSI calculation PSI.SSMD.CGR8.tab: Raw PSI and final SSMD for CGR8 samples PSI.SSMD.N2A.tab: Raw PSI and final SSMD for N2A samples Reads_perEvent_CGR8.tab: Raw read counts for gene expression in CGR8 Reads_perEvent_N2A.tab: Raw read counts for gene expression in N2A Expression.CGR8.treatments.tab: Normalized expression and fold-change in CGR8 samples Expression.N2A.treatments.tab: Normalized expression and fold-change in N2A samples
+

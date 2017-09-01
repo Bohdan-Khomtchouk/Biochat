@@ -1,0 +1,12 @@
+TITLE
+Gene expression in IRfl/fl Cre- and IRfl/fl Cre+ mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The floxed insulin receptor was specifically targetted for deletion in the mammary gland  using a mouse strain bearing Cre recombinase under the BLG promoter. Data analysis: Genespring was used for data analysis All entities (28853) were filtered on variance between samples, eliminating from further analysis of genes whose coefficient of variation was greater than 50%. The remaining 2239 genes were filtered on expression levels between 20 and 20,000 intensity units An unpaired T-test was used to find genes that differed significantly (P < 0.05) between experimentals and controls The remaining 2014 genes were filtered for a 1.1 absolute fold change between experimentals and controls. Of the remaining   expression of 890 genes was down in the Cre+ mice and expression was up for 457 genes in the Cre+ mice.
+
+DESIGN
+Mouse strains containing a floxed insulin receptor (IRfl/fl) were crossed with a mouse expressing Cre recombinase from a BLG promoter RNA was applied to  Affymetrix MoGene_1_0-st-v1 chips Three replicates from each strain were used  for analysis.
+

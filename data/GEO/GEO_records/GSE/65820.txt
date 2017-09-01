@@ -1,0 +1,12 @@
+TITLE
+Whole genome characterisation of chemoresistant ovarian cancer [Illumina_450K_Methylation]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Patients with high-grade serous ovarian cancer (HGSC) have experienced little improvement in overall survival, and standard treatment has not advanced beyond platinum-based combination chemotherapy, during the past 30 years. To understand the drivers of clinical phenotypes better, here we use whole-genome sequencing of tumour and germline DNA samples from 92 patients with primary refractory, resistant, sensitive and matched acquired resistant disease. We show that gene breakage commonly inactivates the tumour suppressors RB1, NF1, RAD51B and PTEN in HGSC, and contributes to acquired chemotherapy resistance. CCNE1 amplification was common in primary resistant and refractory disease. We observed several molecular events associated with acquired resistance, including multiple independent reversions of germline BRCA1 or BRCA2 mutations in individual patients, loss of BRCA1 promoter methylation, an alteration in molecular subtype, and recurrent promoter fusion associated with overexpression of the drug efflux pump MDR1.
+
+DESIGN
+Genomic DNA (500ng) was bisulfite converted using EZ DNA methylation Kit (Zimo Research) following the manufacturer’s protocol with modification for Illumina Infinium Methyaltion arrays. Samples were hybridized to Infinium Human Methylation 450K BeadChips (Illumina) according to the manufacturer’s protocol. Arrays were scanned on Iscan (Illumina). Data was background corrected, normalized to internal controls and QC was performed at the probe and sample level. COMBAT was used to remove batch effects (Johnson et al., 2007). Contributor: The Australian Ovarian Cancer Study Group
+

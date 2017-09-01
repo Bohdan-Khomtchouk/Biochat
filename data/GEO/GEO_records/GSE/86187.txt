@@ -1,0 +1,12 @@
+TITLE
+Analysis of Wild Type and Top2b-/- Retinal Transcriptomes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Identify Top2b-dependent genes by comparing retinal transcriptome profiling (RNA-seq) Methods: Retinal mRNA profiles of neonatal (postnatal day 0 and 6) wild-type (WT) and Topoisomerase IIbeta (Top2b) conditional knockout (Top2b−/−, or cKO) mice were generated using the SOLiD System (Applied Biosystems). Data analysis was performed according to published protocols (Trapnell et al., 2012) with minor modifications. Briefly, colorspace data of raw 50 bp reads was aligned to the mouse genome (mm9 or GRCm37) using Bowtie (Langmead et al., 2009). Gene expression levels were analyzed with Cufflinks, with differentially expressed genes determined by Cuffdiff (Trapnell et al., 2010). Results: After sequencing, ~120 million 50 bp reads for each time point and each group were obtained and mapped to the mouse genome (MGI, as of Feb 15, 2012). Over 62,000 transcripts were identified; these include ~22,000 annotated genes (including alternative-spliced variants) which cover 76% of the whole mouse genome. Among all the annotated genes, 8.80% (1,935/22,000) for P0 and 1.25% (274/22,000) for P6 showed differential expression between the control and cKO samples (p-value ≤ 0.05, q-value ≤ 0.05). Conclusions: All genes with differential expression levels in Top2b cKO samples are direct or indirect dependent to Top2b.
+
+DESIGN
+RNA-seq of WT and Top2b cKO mice at P0 and P6
+

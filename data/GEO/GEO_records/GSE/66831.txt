@@ -1,0 +1,12 @@
+TITLE
+The interaction of PRC2 with RNA or chromatin is mutually antagonistic
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Polycomb repressive complex 2 (PRC2) modifies chromatin to maintain genes in a repressed state during development. PRC2 is primarily associated with CpG islands at repressed genes and also possesses RNA binding activity. However, the RNAs that bind PRC2 in cells, the subunits that mediate these interactions, and the role of RNA in PRC2 recruitment to chromatin all remain unclear. By performing iCLIP for PRC2 in comparison with other RNA binding proteins, we show here that PRC2 binds nascent RNA at essentially all active genes. Although interacting with RNA promiscuously, PRC2 binding is enriched at specific locations within RNAs, primarily exon-intron boundaries and the 3’UTR. Deletion of other PRC2 subunits reveals that SUZ12 is sufficient to establish this RNA binding profile. Contrary to prevailing models, we also demonstrate that the interaction of PRC2 with RNA or chromatin is mutually antagonistic in cells and in vitro. RNA degradation in cells triggers PRC2 recruitment to CpG islands at active genes. Correspondingly, release of PRC2 from chromatin in cells increases RNA binding. Consistent with this, RNA and nucleosomes compete for PRC2 binding in vitro. We propose that RNA prevents PRC2 recruitment to chromatin at active genes and that mutual antagonism between RNA and chromatin underlies the pattern of PRC2 chromatin association across the genome.
+
+DESIGN
+We used individual-nucleotide resolution CLIP (iCLIP) to identify the RNAs directly bound by endogenous PRC2 in mouse embryonic stem cells. We performed iCLIP with an antibody to SUZ12 in 6 biological replicate experiments. In order to relate PRC2 RNA binding activity to other RNA binding proteins and to control for potential biases in the methodology, we performed iCLIP for the splicing regulators FUS and HNRNPC. To control for non-specific crosslink events, we performed iCLIP for SUZ12 in Suz12-/- cells, for GFP in transfected cells and with a non-specific IgG antibody control. Since crosslink frequency is related to RNA abundance, we also performed total RNA sequencing. To determine the role of SUZ12 in PRC2 RNA binding, we also performed iCLIP for SUZ12 in cells lacking EZH2 (Ezh2 d/d) and in cells lack JARID2. RNA-seq was also performed in Ezh2 d/d cells. ChIP-seq was used to measure SUZ12 and EZH2 binding in Ezh2 fl/fl (WT) and Ezh2 d/d cells and to measure changes in SUZ12 and p300 chromatin association upon RNase A treatment.
+

@@ -1,0 +1,12 @@
+TITLE
+Tissue homogeneity requires inhibition of unequal gene silencing during development
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Multicellular organisms can generate and maintain homogenous populations of cells that make up individual tissues. But, cellular processes that can disrupt homogeneity and how organisms overcome such disruption are unknown. We found that ~100-fold differences in expression from a repetitive DNA transgene can occur between intestinal cells in C. elegans. These differences are caused by gene silencing in some cells and are actively suppressed by parental and zygotic factors such as the conserved exonuclease ERI-1. If unsuppressed, silencing can spread between some cells in embryos, but can be repeat-specific and independent of other homologous loci within each cell. Silencing can persist through DNA replication and nuclear divisions, disrupting uniform gene expression in developed animals. Analysis at single-cell resolution suggests that differences between cells arise during early cell divisions upon unequal segregation of an initiator of silencing. Our results suggest that organisms with high repetitive DNA content, which include humans, could employ similar developmental mechanisms to achieve and maintain tissue homogeneity.
+
+DESIGN
+The strain HC566 with the sur-5::gfp repetitive transgene was subjected to paired-end DNA-Seq, single read DNA-Seq, and poly-A-selected RNA-Seq using the Illumina HiSeq1500 platform. Deletions and inversions present in the sur-5::gfp transgenic DNA were detected by mapping DNA-Seq reads to the plasmid pTG96 using TopHat2. Deletions (or spliced forms) and inversions present in RNAs made from the transgene were detected by mapping the RNA-Seq reads to pTG96 using TopHat2.
+

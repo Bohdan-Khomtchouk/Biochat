@@ -1,0 +1,12 @@
+TITLE
+Nucleosome maps in S. cerevisiae at varying phosphate concentrations
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Genome wide maps of nucleosome occupancy in yeast have been produced through deep sequencing of nuclease-protected DNA. These maps have been obtained from crosslinked chromatin in vivo at varying phosphate concentrations (no phoshate and 10mM phosphate concentration). Here, we analyze these maps in combination with existing TF binding data (Harbison et al., Nature, 2004, 431(7004):99-104), and with new gene expression experiments reported here (GSE26770). We also confirm previous conclusions that the intrinsic,sequence dependent binding of nucleosomes helps determine the localization of TF binding sites.
+
+DESIGN
+High-throughput sequencing of yeast nucleosomal DNA at varying phosphate concentration. Yeast S. cerevisiae (strain: PHO4-MYC::TRP1; CBF1-3HA::LEU2) in log phase was grown in PNB medium with no phosphate for 3 hours and then shifted to various phosphate concentration (0mM and 10 mM) for 80 minutes. After micrococcal nuclease treatment, reverse crosslink and gel purification mononucleosome were isolated. The sequencing by Illumina Solexa following manufacturer protocol has provided mononucleosomal maps in yeast genome (Oct. 2003 SGD/sacSer1 genome release) at two phosphate concentrations (starvation and normal).
+

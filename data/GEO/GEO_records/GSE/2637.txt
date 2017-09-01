@@ -1,0 +1,9 @@
+TITLE
+Expression Analysis of Gastric Cancers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarray Expression profiles from 58 samples comprising of 3 normals and 55 gastric cancers is used for molecular subclassification of Gastric Cancers. Data Generation and Processing: The ratiometric data here is given by Ch1(Cy3)/Ch2(Cy5) where Ch2 is Universal Reference RNA from Stratagene. Two different chips were used (13K and 18k); The ratio metric is given by (Biological sample / Universal Reference). The Biological Samples are labeled with Cy3 (Green) and the Universal Reference RNA is always labeled with Cy5 (Red). Two types of spots were excluded a) Spots for which Foreground intensity was lower from background by lesser than 10 fluoresence units. b) Spots that couldnt be identified reliably by the scanner (Arrayworx) software within the " region of interest " masked by the user. The 2 channels for each array are equalized by multiplying the reference channel Ch2(Cy5) by a constant which is derived by (Total Cy3 / Total Cy5). Subsequently, all expression ratios from each array is normalized to have median expression value = 1. Keywords: other
+

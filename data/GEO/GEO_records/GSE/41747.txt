@@ -1,0 +1,12 @@
+TITLE
+MEK inhibition exhibits efficacy in human and mouse neurofibromatosis tumors, despite transcriptional feedback onto ERK.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Neurofibromatosis Type 1 (NF1) patients develop benign neurofibromas and malignant peripheral nerve sheath tumors (MPNST). These incurable peripheral nerve tumors result from loss of NF1 tumor suppressor gene function, causing hyperactive Ras signaling. Activated Ras controls numerous downstream effectors, but specific pathways mediating effects of hyperactive Ras in NF1 tumors are unknown. Cross-species transcriptome analyses of mouse and human neurofibromas and MPNSTs identified global negative feedback of genes that regulate Ras-Raf- MEK- extracellular signal-regulated protein kinase (ERK) signaling in both species. Nonetheless, activation of ERK was sustained in mouse and human neurofibromas and MPNST. PD0325901, a highly selective pharmacological inhibitor of MEK, was used to test whether sustained Ras-Raf-MEK-ERK signaling contributes to neurofibroma growth in the Nf1fl/fl;Dhh-cre mouse model or in NF1 patient MPNST cell xenografts. PD0325901 treatment reduced aberrantly proliferating cells in neurofibroma and MPNST, prolonged survival of mice implanted with human MPNST cells, and shrank neurofibromas in > 80% of mice tested. PD0325901 also caused effects on tumor vasculature. Our data demonstrate that deregulated Ras/ERK signaling is critical for the growth of NF1 peripheral nerve tumors and provide strong rationale for testing MEK inhibitors in NF1 clinical trials.
+
+DESIGN
+83 microarrays: Mouse control (15), Mouse neurofibroma (15), Mouse MPNST (18); Human nerve (3), Human neurofibroma (26), Human MPNST (6) We used the same human tumor samples as in series GSE14038 (dNF, pNF and MPNST). However, instead of referencing gene expression changes to the normal human Schwann cell samples (NHSC) as we did in series GSE14038, we generated three (new) normal nerve samples (samples jan-N1-3) and referenced gene expression changes to those samples. Moreover, the analysis of series GSE14038 evaluated changes in expression between NHSC, benign tumor subtypes (dNF and pNF), and malignant tumors (MPNST), while our present submission evaluated changes between normal nerve, benign tumors (combined dNF and pNF),and malignant tumors (MPNST). The Series supplementary 'merged_data.txt' file contains the data for 9,891 transcripts that were statistically different in at least one of the two species and present in both mouse and human data sets.
+

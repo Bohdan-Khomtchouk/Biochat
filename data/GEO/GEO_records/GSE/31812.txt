@@ -1,0 +1,12 @@
+TITLE
+Mutant p53 Disrupts Mammary Acinar Morphogenesis via the Mevalonate Pathway
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+p53 is a frequent target for mutation in human tumors and previous studies have revealed that these missense mutant proteins can actively contribute to tumorigenesis.  To elucidate how mutant p53 might contribute to mammary carcinogenesis we employed a three-dimensional (3D) culture model. In 3D culture non-malignant breast epithelial cells form structures reminiscent of acinar structures found in vivo, whereas breast cancer cells form highly disorganized and in some cases invasive structures.  We found that mutant p53 depletion is sufficient to phenotypically revert breast cancer cells to a more acinar-like morphology. Genome-wide expression analysis identified the sterol biosynthesis, or mevalonate, pathway as significantly upregulated by a tumor-derived mutant p53.  Using statins and sterol biosynthesis intermediates, we demonstrate that this pathway is both necessary and sufficient for the phenotypic effects of mutant p53 on breast tissue architecture. Mutant p53 associates with the sterol gene promoters at least partly via the SREBP transcription factors.  Finally, p53 mutation correlates with higher levels of sterol biosynthesis genes in human breast tumors. This activity of mutant p53 not only contributes insight into breast carcinogenesis, but also implicates the mevalonate pathway as a new therapeutic target for tumors bearing such mutations in p53.
+
+DESIGN
+RNA was isolated from three independent experiments of MDA-468.shp53 cells cultured under 3D conditions for 8 days in the presence or absence of DOX, reversed transcribed and hybridized to an Affymetrix GeneChip expression array.  Data was processed using the Robust Multichip Average (RMA) algorithm to give expression signals and paired t-test was applied for each probe. Probes with 1% significance were selected for Ingenuity Pathway Analysis.
+

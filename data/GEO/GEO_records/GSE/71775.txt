@@ -1,0 +1,12 @@
+TITLE
+piRNA-guided slicing of transposon transcripts enforces their transcriptional silencing via specifying the nuclear piRNA repertoire
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+PIWI-clade Argonaute proteins silence transposon expression in animal gonads. Their target specificity is defined by bound ~23-30nt piRNAs that are processed from single-stranded precursor transcripts via two distinct pathways. Primary piRNAs are defined by the endo-nuclease Zucchini, while biogenesis of secondary piRNAs depends on piRNA-guided transcript cleavage and results in piRNA amplification. Here, we analyze the inter-dependencies between these piRNA biogenesis pathways in the developing Drosophila ovary. We show that secondary piRNA-guided target slicing is the predominant mechanism that specifies transcripts—including those from piRNA clusters—as primary piRNA precursors and that defines the spectrum of Piwi-bound piRNAs in germline cells. Post-transcriptional silencing in the cytoplasm therefore enforces nuclear, transcriptional target silencing, which ensures the tight suppression of transposons during oogenesis. As target slicing also defines the nuclear piRNA pool during mouse spermatogenesis, our findings uncover an unexpected conceptual similarity between the mouse and fly piRNA pathways.
+
+DESIGN
+To understand the hierarchical order of primary versus secondary piRNA biogenesis in Drosophila ovaries, we sequenced piRNAs bound to total-Piwi, germline-Piwi, Aubergine and Argonaute3 from ovaries of germline specific knockdowns of control, piwi, aub, ago3 single knockdowns and aub/ago3 double knockdowns. To determine changes in Transposable Element (TE) transcription or TE RNA steady state  in perturbed piRNA pathway conditions, we performed Pol2-ChIP-sequencing and polyA bound RNA-sequencing from ovaries of multiple germline knockdown genotypes. We also sequenced genomic DNA from ovaries of control knockdowns to experimentally estimate the TE copy number in our genetic background. Finally, we used CAP-seq from germline specific Piwi depletions to identify the Transcriptional Start Sites (TSS)  in TEs in a deregulated background. Replicates are labeled with R1, R2, R3, R4 where indicated.
+

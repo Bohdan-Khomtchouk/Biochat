@@ -1,0 +1,12 @@
+TITLE
+Yeast Hsp90-dependent chromatin changes as monitored using DNase-Seq
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We report the application of DNase-Seq (adapted from Hesselberth et al., 2009, as described in Zelin et al., 2012) to study the chromatin changes upon short Hsp90 depletion by exploiting temperature-sensitive allele G170D (Nathan and Lindquist, 1995). By generating ~43.6 million reads for wild type and 68.6 million reads for mutant, we were able to reconstitute the hypersensitivity maps under the regular conditions and under the conditions where Hsp90 was heat-inactivated. We find that there is a global reduction of open chromatin upon Hsp90 inactivation, as displayed by the decrease of total DHS size and the DHSs numbers. We also find that loss of Hsp90 leads to the increase of open chromatin at certain locations associated with chromatin remodelers such as RSC. Overall this study shows that short term improper functioning of Hsp90 results in genome-wide chromatin perturbations thereby demonstrating an Hsp90-dependence of chromatin architecture.
+
+DESIGN
+DNase-Seq in WT and the Hsp90 temperature-sensitive strain with allele G170D at a non-permissive temperature
+

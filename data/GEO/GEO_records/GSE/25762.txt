@@ -1,0 +1,12 @@
+TITLE
+Gene expression in vitamin K2-induced HepG2 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Human hepatocellular carcinoma cells, HepG2 , cultured in DMEM containing 10% fetal calf serum. To study gene expression changes induced by Vitamin K2, total RNA was isolated following the Isogen procedure (Nippon-gene, Tokyo, Japan) from HepG2 cells with and without 50 microM of Vitamin K2 treatment for three days. The cDNA microarrays Human Oligo Chip 30K “AceGene” subset A was purchased from Hitachi Software Engineering Co. (Yokohama-City, Japan). This array contains 10368 kinds of gene-specific 50 mer sense oligonucleotides. Subset A contains mainly known function ORF oligo probes. Preparation of fluorescent cDNA targets by an indirect labeling approach was performed using PowerScript reverse transcription kit (Clontech). First-strand cDNAs were synthesized from 30 microg of total RNA from HepG2 cells treated with or without Vitamin K2 using random primer and PoweScript Fluorescent Labelling Kit. Monofunctional, N-hydroxysuccinimide-activated fluorescent dyes (Cy3 and Cy5; Amersham) were coupled to the cDNAs by reaction with the amino functional groups. Untreated cells were labeled with Cy3 as a control and treated cells with Cy5 as a sample. After free dyes were removed using MinElute Purification kit (Qiagen), the targets were mixed together and added to the microarrays, and then incubated overnight (16 hours) at 42?C. The slides were washed at 30?C in each with 2x SSC, 0.1% SDS and 2x SSC for 10 min and 5 min, respectively, and washed in 1x SSC for 5 min. Fluorescent images of the hybridized microarrays were scanned with a fluorescence laser confocal slide scanner (Affymetrix 428 Array Scanner, Affymetrix, Santa Clara, CA). The Cy3 and Cy5 intensities with background subtraction were determined by ImaGene 4.2 software (BioDiscovery, Marina Del Rey, CA). The expression data were then filtered based on their channel intensities, spot size and flag (missing or inaccurate data), and the Cy5/Cy3 ratios were calculated and normalized by median-centering the log-ratio of all genes.
+
+DESIGN
+This GEO Series was created by the GEO staff as part of a cleanup effort to ensure that all GEO Samples are included within a Series entry.
+

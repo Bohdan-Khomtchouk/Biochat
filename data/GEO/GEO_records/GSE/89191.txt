@@ -1,0 +1,12 @@
+TITLE
+Copy number profiling of 5-FU resistant gastric cancer cell line compared to the parental cell line
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Copy number profiling of MKN45T 5-FU resistant gastric cancer cell lines and its parental cell line MKN45. We hypothesized that a detailed fine-scale survey of genomic CNAs might reveal the mechanism for acquired resistant to 5-FU in gastric cancer.
+
+DESIGN
+Genomic DNA (1ug) was extracted from MKN45 and MKN45T cells using a Qiagen Qiamp DNA micro kit. The extracted DNA from MKN45 was labeled using an Agilent Genomic DNA Enzymatic Labeling Kit (Cy3-dUTP), while those DNA from MKN45T was labeled with Cy5-dUTP. The labeled DNA was hybridized to the Agilent Human Genome CGH Microarray Kit 244K and processed according to the manufacturer's protocol. Fluorescent array images were acquired with an Agilent DNA microarray scanner (Agilent Technologies). The log2 ratios were corrected for the GC content wave effect using 1 Mb windows for genome GC content. Outliers were smoothed and the normalized log2 ratios were segmented using circular binary segmentation analysis.
+

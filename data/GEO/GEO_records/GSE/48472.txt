@@ -1,0 +1,12 @@
+TITLE
+Identification and systematic annotation of tissue-specific differentially methylated regions using the Illumina 450k array
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background DNA methylation has been recognized as a key mechanism in cell differentiation. Various studies have compared tissues to characterize epigenetically regulated genomic regions, but due to differences in study design and focus there still is no consensus as to the annotation of genomic regions predominantly involved in tissue-specific methylation. We used a new algorithm to identify and annotate tissue-specific Differentially Methylated Regions (tDMRs) in Illumina 450k chip data on four peripheral (blood, saliva, buccal swab and hair follicles) and six internal tissues (liver, muscle, pancreas, subcutaneous fat, omentum, spleen with matched blood samples). Results The majority of tDMRs, in both relative and absolute terms, occurred in CpG-poor regions. Further analysis revealed that these regions were associated with alternative transcription events (alternative first exons, mutually exclusive exons and cassette exons). Only a minority of tDMRs mapped to gene-body CpG islands (13%) or CpG islands shores (25%) suggesting a less prominent role for these regions than indicated previously. Implementation of ENCODE annotations showed enrichment of tDMRs in DNase hypersensitive sites and transcription factor binding sites. Despite the predominance of tissue differences, inter-individual differences in DNA methylation in internal tissues were correlated with that in blood for a subset of CpG sites in a locus and tissue-specific manner. Conclusions We conclude that tDMRs preferentially occur in CpG-poor regions and are associated with alternative transcription. Furthermore, our data suggest the utility of creating an atlas cataloguing variably methylated regions in internal tissues that are marked by DNA methylation measured in easy accessible peripheral tissues.
+
+DESIGN
+Comparison of four peripheral (blood, saliva, buccal swab and hair follicles in n=5) and six internal tissues (liver, muscle, pancreas, subcutaneous fat, omentum, spleen with matched blood samples in n=6).
+

@@ -1,0 +1,12 @@
+TITLE
+Modeling the ESR1 tyrosine 537 mutation with CRISPR-Cas9 for mechanistic studies and evaluation of therapeutic approaches for metastatic breast cancer [RNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Estrogen receptor-α (ERα) is an important driver of breast cancer and is the target for hormonal therapies, anti-estrogens and drugs that limit estrogen biosynthesis (aromatase inhibitors). Mutations in the ESR1 gene identified in metastatic breast cancer provide a potential mechanism for acquired resistance to hormone therapies. We have used CRISPR-Cas9 mediated genome editing in the MCF-7 breast cancer cell line, generating MCF-7-Y537S. MCF-7-Y537S cells encode a wild-type (tyrosine 537) and a mutant (serine 537) allele. Growth of the line is estrogen-independent and expression of ERα target genes is elevated in the absence of estrogen. ER ChIP-seq was carried out to map global ERα binding sites in the presence and absence of estrogen. RNA-seq following estrogen treatment was used for gene expression analysis. We show that expression of ER target genes and ER recruitment to ER binding regions is similar in MCF-7 and MCF-7-Y537S cells, except that ER recruitment to DNA and expression of ER target genes is frequently elevated in the absence of estrogen.
+
+DESIGN
+Hormone depleted MCF7 Luc or Y537S cells were treated with 10nM E2 or ethanol, as vehicle control, for 8 hours, with 3 replicates (2 replicates for Y537S + E2). RNA-seq was carried out using Illumina Hiseq 2500.
+

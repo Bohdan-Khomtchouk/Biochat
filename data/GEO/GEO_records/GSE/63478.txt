@@ -1,0 +1,12 @@
+TITLE
+Expression data from C4-2 prostate cancer cells treated with taxanes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Comparison of the new generation taxane cabazitaxel with docetaxel in prostate cancer cells Cabazitaxel impacts distint molecular pathways as compared to docetaxel, which could underlie its efficacy after docetaxel treatment has failed in castration resistant prostate cancer patients
+
+DESIGN
+12 samples were analysed. A genome-wide expression array was performed on a GeneChip Human Gene 2.0ST Array (Affymetrix, 902112) with C4-2 cells, treated for 16h with 1nM cabazitaxel, docetaxel or vehicle (EtOH), in duplicates. The expression data were RMA normalized, and filtered to remove low-expressing genes. Differential gene expression with corresponding p-values (student’s ttest) was determined of drug-treated over control.
+

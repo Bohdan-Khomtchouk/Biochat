@@ -1,0 +1,12 @@
+TITLE
+Gene expression profiling of CEBPA double-, single-mutant and CEBPA wild type AML
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A previously predictive CEBPA double mutant (CEBPAdm) signature was hampered by the recently reported CEBPA silenced AML cases that carry a similar gene expression profile (GEP). Two independent AML cohorts were used to train and evaluate the predictive value of the CEBPAdm signature in terms of sensitivity and specificity. A predictive signature was created, containing 25-probe sets by using a logistic regression model with Lasso regularization, which selects discriminative probe sets between the classes, CEBPAdm and all other AML cases, CEBPA wild type (CEBPAwt) and CEBPA single mutant (CEBPAsm). Subsequently, a classifier was trained on the entire HOVON-SAKK cohort based on a two-class approach; CEBPAdm versus all other cases (CEBPAwt and CEBPAsm). This trained classifier subsequently classified 16 candidate CEBPAdm cases in the AMLSG-cohort out of 154 AML cases. This approach showed perfect sensitivity and specificity (both 100%). In addition, we have performed a classification between CEBPAdm ,CEBPAsm, and CEBPAwt to infer if we were able to accurately classify CEBPAsm cases. We observed that all CEBPAsm cases were classified as CEBPAwt, thus CEBPAsm cases do not have a consistent gene expression pattern and are different from the CEBPAdm group.
+
+DESIGN
+All samples were obtained from untreated patients at the time of diagnosis. Cells used for microarray analysis were collected from the purified fraction of mononuclear cells after Ficoll density centrifugation. Routine diagnostic algorithms, including the characterization of molecular markers are performed.
+

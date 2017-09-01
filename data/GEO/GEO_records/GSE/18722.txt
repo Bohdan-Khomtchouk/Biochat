@@ -1,0 +1,12 @@
+TITLE
+Comparing epithelial and mesenchymal-like subsets within head and neck squamous cell carcinoma cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Segregating head and neck squamous cell carcinoma lines on the basis of high or low surface E-cadherin expression defines subpopulations within each line with distinctive epithelial and mesenchymal-like phenotypes.
+
+DESIGN
+SCC9 and OCTT2 cell lines were each sorted by flow cytometry into E-cadherin high and low expressing subpopulations and processed for hybridization to Illumina gene expression array chips. Expression intensities were calculated and normalized for each gene probed on the array for all hybridizations using illumina Beadstudio#3 software. Microarray analyses were subsequently performed using Bioconductor software to identify genes differentially-expressed between E-cadherin high and and E-cadherin low subsets in SCC9 and OCTT2 cells. GEO staff have requested, but not yet received, the normalized data described in this submission.
+

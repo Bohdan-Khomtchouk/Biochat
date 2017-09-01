@@ -1,0 +1,12 @@
+TITLE
+Transcriptional signatures of regulatory and toxic responses to benzo-[a]-pyrene exposure
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Small molecule ligands often have multiple effects on the transcriptional program of a cell: they trigger a receptor specific response and additional, indirect responses ( " side effects " ). Distinguishing those responses is important for understanding secondary effects of drugs and for elucidating molecular mechanisms of toxic chemicals. We addressed this problem by exposing cells to the environmental contaminant benzo-a-pyrene (B[a]P). B[a]P exposure activates the aryl hydrocarbon receptor (Ahr) and causes toxic stress resulting in transcriptional changes that are not regulated through Ahr. We sought to distinguish these two types of responses based on a time course of expression changes measured after B[a]P exposure. Using Random Forest machine learning we classified 81 direct Ahr targets and 1,308 genes regulated as secondary exposure effects. Subsequent weighted clustering gave further insight into the connection between expression pattern, mode of regulation, and biological function. Finally, the accuracy of the predictions was supported through extensive experimental validation. This study presents a strategy for distinguishing receptor dependent and secondary responses based on expression time courses.
+
+DESIGN
+36 samples were analyzed in total. Time-course data for four different time points, two different benzo(a)pyrene concentrations, including a vehicle control for each time points. Three biological replicates were generated for each treatment and time point.
+

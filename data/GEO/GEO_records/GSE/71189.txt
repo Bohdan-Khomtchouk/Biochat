@@ -1,0 +1,12 @@
+TITLE
+Replicates, Read Numbers, and Other Important Experimental Design Considerations for Microbial RNA-seq Identified Using Bacillus thuringiensis Datasets.
+
+ORGANISM
+Bacillus thuringiensis
+
+SUMMARY
+RNA-seq has recently become a popular choice for gene expression studies. It is revolutionizing the fields of genomics and transcriptomics by enabling a wide range of applications along with high genome coverage and the ability to detect weakly expressed genes, which makes it an attractive alternative to microarrays. However, the field of RNA-Seq analysis is still evolving. In this study transcriptomic data from Bacillus thuringiensis strains ATCC10792 and CT43, grown in two Luria broth medium lots on four dates was obtained from Illumina High-Seq2000 and analyzed using DESeq2. Genome coverages across samples ranged from 87-450X with medium lots and culture dates as major variation sources. Significantly differentially expressed genes (5% FDR, two-fold change) were detected between cultures grown in different medium lots as well as on different dates for both ATCC10792 and CT43. Genes related to iron acquisition and metabolism were also consistently differentially expressed for both strains, in different media lots. RNA-seq is highly sensitive and can identify differential gene expression at predictive biology levels. The noise in data can be controlled and minimized with appropriate experimental design, number of replicates and reads. Here we outline some experimental design parameters for an efficient and cost effective microbial transcriptomics study.
+
+DESIGN
+Transcriptomic data from Bacillus thuringiensis strains ATCC10792 & CT43 grown with media from different lots and collected on different dates.
+

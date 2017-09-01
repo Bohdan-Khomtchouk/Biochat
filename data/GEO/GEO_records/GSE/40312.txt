@@ -1,0 +1,12 @@
+TITLE
+Global endometrial transcriptomic profiling: transient immune activation precedes tissue proliferation and repair in healthy beef cows
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+All cows experience bacterial contamination and tissue injury in the uterus postpartum, instigating a local inflammatory immune response. However mechanisms that control inflammation and achieve a physiologically functioning endometrium, while avoiding disease in the postpartum cow are not succinctly defined. This study aimed to identify novel candidate genes indicative of inflammation resolution during involution in healthy beef cows. Previous histological analysis of endometrial inflammation showed a great degree of inflammation 15 days postpartum (DPP) which significantly decreased by 30 DPP. The current study generated a genome-wide transcriptomic profile of endometrial biopsies at both time points using mRNA-Seq. The pathway analysis tool GoSeq identified KEGG pathways enriched by significantly differentially expressed genes elevated at both time points. Novel candidate genes of inflammatory resolution were subsequently validated in additional postpartum animals using quantitative real-time PCR (qRT-PCR).
+
+DESIGN
+Endometrial biopsies were collected as part of a previous study 15 and 30 days postpartum (DPP) from 13 mixed breed beef multiparous cows. The endometrial transcriptomic profiles from endometrial biopsies were assessed by mRNA-Seq (n=3) and candidate gene expression was measured by qRT-PCR (n=5) comparing 15 DPP to 30 DPP samples. Reads were mapped to the bovine genome with TopHat, Htseq-count summarized the number of aligned reads per exon and EdgeR normalized the data and returned significantly differentially expressed genes. GoSeq identified KEGG pathways enriched by significantly differentially expressed genes elevated at both time points.
+

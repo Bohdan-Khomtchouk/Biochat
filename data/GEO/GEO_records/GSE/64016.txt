@@ -1,0 +1,12 @@
+TITLE
+Single cell RNA-seq data of human hESCs to evaluate Oscope - a statistical pipeline for identifying oscillatory genes in unsynchronized single cell RNA-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Oscillatory gene expression is fundamental to mammalian development, but technologies to monitor expression oscillations are limited. We have developed a statistical approach called Oscope to identify and characterize the transcriptional dynamics of oscillating genes in single-cell RNA-seq data from an unsynchronized cell population. Applications to a number of data sets, include a single-cell RNA-seq data set of human embroyonic stem cells (hESCs), demonstrate advantages of the approach and also identify a potential artifact in the Fluidigm C1 platform.
+
+DESIGN
+Total 213 H1 single cells and 247 H1-Fucci single cells were sequenced. The 213 H1 cells were used to evaluate Oscope in identifying oscillatory genes. The H1-Fucci cells were used to confirm the cell cycle gene cluster identified by Oscope in the H1 hESCs. Normalized expected counts are provided in GSE64016_H1andFUCCI_normalized_EC.csv.gz
+

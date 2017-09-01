@@ -1,0 +1,12 @@
+TITLE
+Identification of the long, edited dsRNAome in LPS-stimulated primary human peripheral blood monocytes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Endogenous double-stranded RNA (dsRNA) is intricately regulated in mammals to prevent aberrant activation of host inflammatory pathways by cytosolic dsRNA binding proteins. We define the endogenous dsRNA repertoire in human peripheral blood monocytes using published data (GSE60216) derived from 18 RNA-Seq experiments from neonates, adults, and elderly patients during the inflammatory response to bacterial lipopolysaccharide. Editing by adenosine deaminases that act of RNA (ADAR) enzymes was quantified temporally using this RNA-Seq data to identify 3,438 Editing Enriched Regions (EERs), indicative of highly structured dsRNA. Nearly all human EERs were present in introns. A comparison of EERs from mouse and human revealed significant conservation of EERs between mouse EER- associated genes and homologous human genes.
+
+DESIGN
+This Series represents a re-analysis of Samples (GSM1467783-GSM1467809) submitted by another user. All reads were aligned to the human genome (hg19) using GNUMAP-bs. GNUMAP-bs was run with arguments “--lib_type wt1 --read_type rna --num_threads 12 --mpi 0 -- 17  nt_conv a2i --top_k_hash 10 --map_quality sensitive.” All alignments for a given biological sample (neonate 0 hr, neonate 1 hr, neonate 6 hr, adult 0 hr, etc...) were merged into one alignment file and filtered using the Useq application SamTranscriptomParser. For GNUMAP alignments, the following command options were used: -a 10000 -n 1000000 -p -r. Alignments were converted to pileup format using samtools (Version 0.1.19) mpileup with the command options " -A -B -Q 13 " . Pileup files were parsed using the Useq (Version 8.7.9) application RNAEditingPileupParser with the comman options " -v H_sapiens_Feb_2009 -t -m " . The USeq application RNAEditingScanSeqs with command options " -t -i " was used to detect editing enriched windows from RNAEditingPileupParser point data. The USeq application EnrichedRegionMaker with command options " -I 0 -s 3-g 2500 " generated initial lists of EERs. All regions with less than 2 editing-enriched windows were discarded.
+

@@ -1,0 +1,12 @@
+TITLE
+Transcriptome analysis of Oshsfa2e mutant plants under controlled drought stress and well-watered conditions at vegetative stage
+
+ORGANISM
+Oryza sativa Japonica Group
+
+SUMMARY
+Heat shock factors (Hsfs) are known to regulate heat and drought stress response by controlling the expression of heat shock proteins and oxidative stress responsive genes. Loss-of-function of OsHSFA2e gene resulted in increased sensitivity of rice plants to drought and heat stress. To identify the targets of OsHSFA2e and dissect the stress response pathway regulated by it, we performed transcriptome profiling of Oshsfa2e mutant plants under drought stress as well as well-watered conditions by RNA-sequencing.
+
+DESIGN
+OsHSFA2e loss-of-function rice plants (Oryza sativa ssp. japonica cv. Nipponbare) were exposed to controlled drought stress and well-watered conditions at the vegetative stage. Controlled drought (DR) stress was applied on 45 day old plants following gravimetric approach. The soil water content was brought down to 40% field capacity over a period of 3-4 days and plants were maintained at that level for 10 days by weighing the pots daily at a fixed time of the day and replenishing the water lost through evapotranspiration. Another set of plants were maintained at 100% FC as well-watered (WW) condition. Total RNA isolated from leaf tissue was used for RNA-sequencing. Two biological replicates per sample were sequenced. cDNA library was constructed using TruSeq Stranded Total RNA with Ribo-Zero Plant kit (Illumina). Sequencing was carried out on each library to generate 50 bp SE reads using Illumina High-Seq 2000 platform. The transcriptome reads were mapped to the rice reference genome sequence (MSU 7.0) with tophat1.3.1 using the program’s default parameters ( ). Mapped RNA-Seq reads were assembled into transcripts by Cufflinks ( ) and differentially expressed genes were identified by using Cuffdiff.
+

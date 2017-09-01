@@ -1,0 +1,12 @@
+TITLE
+Functional ER alpha transcriptional regulatory network for cell cycle in an ER(+) breast cancer subgroup
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To better characterize group IE like human breast cancer based on the gene profiles of estrogen actions through estrogen receptor alpha (ER alpha), we identified an ER alpha transcriptional regulatory network for cell cycle in silico. We used two datasets from cell line (Data 1) and clinical samples (Data 2), respectively.  Analyses on Data 1 via trajectory clustering and Pathway-Express confirmed the significant estrogen effect on up-regulating cell cycle activities. The gene expression relationships between ER alpha and cell cycle genes were re-identified in Data 2 by three statistical methods – Galton-Pearson’s correlation coefficient, Student’s t-test and the coefficient of intrinsic dependence. They were mostly (56.09%)(46/82) re-confirmed by literature search. E2F1 was found to be the major ER alpha target in regulating cell cycle gene expressions (83.72%)(36/43) via suppressive mode. However, enhanced cell cycle progression via up-regulating some cell cycle genes was predicted in silico possibly involving E2F2, in part. Both tumorigenic and tumor suppressing activities indicated by this network were predicted. This network clearly provides a robust way for uncovering estrogen actions in an ER(+) subtype specific manner.
+
+DESIGN
+Two clinical datasets were used in this study. One, the 37 clinical arrays (abbreviated as 37A) consist of 26 A for patients positive in estrogen receptor alpha (ER) and in progesterone receptor (PR) immunohistochemical stain (IHC) and 11A for patients negative in ER IHC. This dataset was designated as Data 2. The 31 clinical arrays (31A) consist of 20A for patients positive in ER status but negative in PR status and 11A which are the same as in 37A. This dataset was used for data comparison. All the signals from the mRNA profile of each sample in the experiments were normalized using the internal control RNA- Stratagene's human common reference RNA via statistical method 'rank consistant lowess. Finally, those ratios were transformed by Log2.
+

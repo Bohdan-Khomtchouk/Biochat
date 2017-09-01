@@ -1,0 +1,12 @@
+TITLE
+A compendium of hematopoietic regulators, chromatin modifiers and basal transcription factors occupy CBF-MYH11/RUNX1 target genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Different mechanisms for CBF-MYH11 function in acute myeloid Leukemia (AML) with inv(16) have been proposed such as tethering of RUNX1 outside the nucleus, interference with transcription factor complex assembly and recruitment of histone deacetylases, all resulting in transcriptional repression of RUNX1 target genes. Here, through genome-wide CBF-MYH11 binding site analysis and quantitative interaction proteomics we found that CBF-MYH11 localizes to RUNX1 occupied promoters where it interacts with TAL1, FLI1 and TBP associated factors (TAFs) in the context of the hematopoietic transcription factors ERG, GATA2 and PU.1/SPI1 and the co regulators EP300 and HDAC1. Transcriptional analysis revealed that upon fusion protein knock down a subset of the CBF-MYH11 target genes show increased expression, confirming a role in transcriptional repression. However, the majority of CBF-MYH11 target genes, including genes implicated in hematopoietic stem cell (HSC) self-renewal such as ID1, LMO1 and JAG1, are actively transcribed and upon fusion protein knock down repressed. Together these results suggest an essential role for CBF-MYH11 in regulating expression of genes involved in maintaining a stem cell phenotype.
+
+DESIGN
+17 ChIP-seq samples using antibodies recognizing the indicated proteins and one RNA-seq file from ME-1 cells were analyzed. In addition 2 ChIP-seq profiles were generated using patient AML cells. A CBFβ-MYH11 inducible U937 system (U937CM) was used to examine binding patterns before (1 profile) and after (2 profiles) induction of CBFb-MYH11. In addition, expression was measured through RNA-seq analysis of the two states. The U937CM cells were maintained in the presence of tetracyclin (Tet, 1 uM) and grown in the absence of tetracycline for 3 days to induce expression of CBFβ-MYH11. Finally, a CBFb-MYH11 knock down system was developed in ME-1 cells. Two ME-1 cell lines were created, one with a stably integrated shRNA construct that targets CBFb-MYH11 (ME-1_knockdown) and one with a scrambled shRNA construct (ME-1_SCR). Expression of the shRNA constructs  was induced  using doxycyclin (dox; 1 mM) treatment for 3 days.
+

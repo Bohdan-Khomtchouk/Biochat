@@ -1,0 +1,12 @@
+TITLE
+H3K27me3 in four squamous cell carcinoma cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+ChIP-Seq for H3K27 trimethylation was performed for two HPV-positive and two HPV-negative squamous cell carcinoma cell lines. The data served two purposes. First, the data were used as an example implementation of our novel ChIP-Seq Peak Prioritization pipeline, PePr.  We have developed the PePr pipeline, a ChIP-Seq Peak Prioritization pipeline that accounts for the variation among replicates and peak location relative to a gene. We show, using a transcription factor dataset (which exhibited small variation among samples), that PePr performs favorably compared to commonly used peak callers and that it achieves balanced sensitivity and specificity. We also show, using histone modification data (which exhibited larger variation among samples), that PePr can improve the detection of differential H3K27me3 regions compared with a common current approach. Using data from ChIP-Seq and gene expression experiments performed in parallel on the same samples, we show that the incorporation of functional annotations can improve the prioritization of functional sites. Secondly, the data were used to assess real differences in the genome-wide H3K27me3 profiles between HPV-positive and HPV-negative carcinoma cell lines.  Careful analysis and integration of the data with DNA methylation and gene expression data performed on the same cell lines demonstrated striking differences exist.
+
+DESIGN
+ChIP-Seq for H3K27 trimethylation was performed for two HPV-positive and two HPV-negative squamous cell carcinoma (SCC) cell lines. Input DNA was also sequenced for each sample to serve as a control. The goal was to determine overall differences in H3K27me3 patterns observed between the HPV-positive and HPV-negative SCC cell lines.
+

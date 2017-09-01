@@ -1,0 +1,12 @@
+TITLE
+Predicting drug activity in non-small cell lung cancer based on genetic lesions
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+84 NSCLC cell lines were collected from various sources (Supplemental Table 1) and formed the basis for all subsequent experiments. Cell lines were derived from tumors representing all major subtypes of NSCLC tumors, including adenocarcinoma, squamous-cell carcinoma and large-cell carcinoma. The genomic landscape of these cell lines was characterized by analyzing gene copy number alterations using high-resolution single-nucleotide polymorphism (SNP) arrays (250K Sty1). We used the statistical algorithm Genomic Identification of Significant Targets in Cancer (GISTIC) to distinguish biologically relevant lesions from background noise. The application of GISTIC revealed 16 regions of recurrent, high-level copy number gain (inferred copy number > 2.14) and 20 regions of recurrent copy number loss (inferred copy number < 1.86)
+
+DESIGN
+copy number changes data was generated for all cell lines
+

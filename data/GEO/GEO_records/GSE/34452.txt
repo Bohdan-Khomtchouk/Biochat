@@ -1,0 +1,12 @@
+TITLE
+A Multi-loop, Double-cube Microarray Design Applied to Prostate Cancer Cell Lines with Variable Sensitivity to Histone Deacetylase Inhibitors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Implementation of a complex design for a microarray experiment on resistance mechanisms of histone deacetylase inhibitors (HDACI).
+
+DESIGN
+To improve our understanding of the underlying mechanism of HDACI resistance in prostate cancer cells, we designed a novel ‘‘multiple-loop, double-cube’’ cDNA microarray experiment. In the experiment DU-145 and PC3 cells were treated with two different HDACIs (vorinostat and valproic acid) and incubation periods (48 and 96 hours). Preprocessing included exploratory analyses of the quality of the arrays and intensity-dependent within-array Loess normalization. An ANOVA model was used for inference. The results were validated by Western blot analysis of known treatment targets.
+

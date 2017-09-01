@@ -1,0 +1,12 @@
+TITLE
+Affymetrix SNP 6.0 array data for single cell multiple displacement amplification
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Generating sufficient DNA for high-throughput genetic analysis has always been a challenge for clinical settings where the amount of source DNA is limited. Multiple displacement amplification (MDA) has been proposed as a promising candidate for such situations. Previous work with lower-resolution arrays confirmed the utility of single-cell MDA products for large-size (~30 Mb) genome variation screening. We tested the performance of single-cell MDA products on the SNP 6.0 arrays to examine the performance of single-cell MDA in SNP genotyping, copy number polymorphism, de novo copy number variation (CNV) and loss of heterozygosity (LOH) analysis. Our data show that for SNP genotyping, single-cell MDA did not obtain complete genome coverage or high sequence fidelity. For CNV calling, single-cell MDA introduced stochastic amplification artifacts in log2 ratio profiles, reducing the robustness of CNV calling; however, by adjusting smooth window size, it is still possible to analyze large chromosomal aberrations, and homozygous deletions as small as 500 kb can still be identified from the noisy log2 ratio profiles. Our results also suggest that even with a modified protocol (reduction of reaction volume, addition of a molecular crowding reagent, minimization of reaction time), single-cell MDA presented little improvement over the unmodified protocol, but by increasing the number of cells as template to 5–10 cells, SNP 6.0 array results comparable to those of 10 ng genomic DNA MDA could be obtained. Algorithms like PICNIC improved the CNV calling, suggesting that better algorithms can better utilize single-cell MDA array results.
+
+DESIGN
+Affymetrix SNP arrays were performed according to the manufacturer's directions on DNA extracted from cell line samples, and multiple displacement samples. Genotyping, Copy number and LOH analysis of Affymetrix SNP 6.0 arrays was performed for 3 samples of unamplified cell line genomic DNA, 2 samples of DNA obtained by multiple displacement amplification from 10ng genomic DNA, 3 single-cell multiple displacement amplification (MDA) products, single cell modified MDA amplification product, 5-cell modified MDA amplification product, 10-cell  modified MDA amplification product.
+

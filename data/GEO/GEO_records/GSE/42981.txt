@@ -1,0 +1,12 @@
+TITLE
+RIP:  miR-202 mimic-transfected HeLa cells vs. negative control
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Potential miR-202 targets were identified using a targetome-wide RIP-based microarray.  HeLa cells were transfected with either a miR-202 mimic or a scrambled single-stranded RNA negative control.  RNA was isolated from total cell lysate prior to IP and from antibody-immobilized Protein G agarose beads-RNP complexes (post-IP).
+
+DESIGN
+Ribonucleoprotein IP was performed using the RIP-Assay kit for microRNA (MBL) according to the protocol described by the manufacturer. Briefly, anti-EIF2C2/Ago2 monoclonal antibody (Novus Biologicals, LLC) was incubated with Protein G plus agarose beads (Pierce) at 4°C overnight to prepare antibody-immobilized beads. 20 million cells were harvested and washed four times with ice-cold DEPC-treated PBS. The cell pellet was lysed with 500 μl of lysis buffer and the supernatant was incubated with Protein G agarose beads without antibody to reduce nonspecific adsorption. The cell lysate was then transferred into a tube containing antibody-immobilized Protein G agarose beads and incubated for 3 hours at 4°C.  Genome-wide expression levels were analyzed in total RNA samples from total cell lysate and antibody-immobilized Protein G agarose beads-RNP complexes from cells transfected with miR-202 mimic or negative control using the Agilent 44K 60-mer human whole-genome microarray. Signal hybridization and scans were performed by MOGene, LC (St Louis, MO) (run in biological duplicate). The normalized signal intensities of probes from RNP-bead complexes (post-IP fraction) were divided by the signal intensities from total cell lysate (pre-IP fraction) in miR-202 mimic-transfected cells. Transcripts were identified as members of the global miRNA targetome if they exhibited an enrichment fold change > 2.0. From this list, post-IP to pre-IP signal intensity ratios in miR-202 mimic-transfected cells were divided by post-IP to pre-IP signal intensity ratios in NC cells.  Transcripts exhibiting normalized signal ratios of > 1.5 were considered to be bound with miR-202 in the RNA-induced silencing complex (RISC), and therefore potential direct miR-202 targets.
+

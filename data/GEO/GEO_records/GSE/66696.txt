@@ -1,0 +1,12 @@
+TITLE
+Whole brain RNA from congenic littermates does not support a general effect of Nxf1 CAST alleles on alternative pre-mRNA processing
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Microarray hybridization was used to compare RNA from mouse brains with opposite genotypes at the Mvb1 (Nxf1) modifier locus for known alternative processing events.
+
+DESIGN
+6 samples of total brain RNA, from 3 littermate pairs, were hybridized to splicing-sensitive microarrays *Addendum Depending on the analysis software used, these CEL files may not load correctly using default parameters. This is due to the custom chip type of MJAY not being used during the array scanning step. There are three workarounds known for this problem so far.  1) If using APT, use multiple --chip-type parameters. Specifically, --chip-type mjay --chip-type MJAY --chip-type MoEx-1_0-st-v1.1sq 2) Edit the CEL file by converting to text using the APT command apt-cel-convert, then replacing the MoEx-1_0-st-v1.1sq in the DatHeader line with MJAY (all caps). 3) Edit the .pgf, .clf, and antigenomics.bmp files to use the MoEx-1_0-st-v1.1sq array instead of MJAY for the chip_type and lib_set_name options. (works on AltAnalyze software)
+

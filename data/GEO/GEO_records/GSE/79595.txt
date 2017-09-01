@@ -1,0 +1,12 @@
+TITLE
+Time-resolved dual RNA-seq reveals extensive rewiring of lung epithelial and pneumococcal transcriptomes during early infection
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BACKGROUND: Streptococcus pneumoniae, the pneumococcus, is the main etiological agent of pneumonia. Pneumococcal infection is initiated by bacterial adherence to lung epithelial cells. The exact transcriptional changes occurring in both host and microbe during infection are unknown. Here, we developed a time-resolved infection model of human lung alveolar epithelial cells by S. pneumoniae and assess the resulting transcriptome changes in both organisms simultaneously by using dual RNA-seq. RESULTS: Functional analysis of the time-resolved dual RNA-seq data identifies several features of pneumococcal infection. For instance, we show that the glutathione-dependent reactive oxygen detoxification pathway in epithelial cells is activated by reactive oxygen species produced by S. pneumoniae. Addition of the antioxidant resveratrol during infection abates this response. At the same time, pneumococci activate the competence regulon during co-incubation with lung epithelial cells. By comparing transcriptional changes between wild-type encapsulated and mutant unencapsulated pneumococci, we demonstrate that adherent pneumococci, but not free-floating bacteria, repress innate immune responses in epithelial cells including expression of the chemokine IL-8 and the production of antimicrobial peptides. We also show that pneumococci activate several sugar transporters in response to adherence to epithelial cells and demonstrate that this activation depends on host-derived mucins. CONCLUSIONS: We provide a dual-transcriptomics overview of early pneumococcal infection in a time-resolved manner, providing new insights into host-microbe interactions. To allow easy access to the data by the community, a web-based platform was developed ( ). Further database exploration may expand our understanding of epithelial-pneumococcal interaction, leading to novel antimicrobial strategies.
+
+DESIGN
+5 time points are analysed (0, 30, 60, 120 and 240 minutes after infection). Each time point has two biological replicates except for the 240 mpi. Furthermore, each time point has two pneumococcal strains used to infect A549 cells, encapsulated and unencapsulated pneumococci. In total there are 18 samples. cellular infection model, contains rRNA-depleted total RNA from A549 epithelial cells and D39 S. pneumoniae
+

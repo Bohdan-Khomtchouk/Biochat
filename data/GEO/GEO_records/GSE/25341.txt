@@ -1,0 +1,12 @@
+TITLE
+Accurate inference of transcription factor binding  from DNA sequence and chromatin accessibility data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Accurate functional annotation of regulatory elements is essential for understanding global gene regulation. Here, we report a genome-wide map of 827,000 transcription factor binding sites in human lymphoblastoid cell lines, which is comprised of sites correspond-ing to 239 position weight matrices of known transcription factor binding motifs, and 49 novel sequence motifs. To generate this map, we developed a probabilistic framework that integrates cell- or tissue-speciﬁc experimental data such as histone modiﬁcations and DNa-seI cleavage patterns with genomic information such as gene annotation and evolutionary conservation. Comparison to empirical ChIP-seq data suggests that our method is highly accurate yet has the advantage of targeting many factors in a single assay. We anticipate that this approach will be a valuable tool for genome-wide studies of gene regulation in a wide variety of cell-types or tissues under diverse conditions.
+
+DESIGN
+DNaseI-Seq on two YRI Hapmap cell lines. Each individual sequenced on 8 lanes of the Illumina Genome Analyzer II
+

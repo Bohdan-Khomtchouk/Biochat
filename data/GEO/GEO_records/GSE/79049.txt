@@ -1,0 +1,12 @@
+TITLE
+RNA-seq studies using wheat PHYTOCHROME B and PHYTOCHROME C mutants reveal shared and specific functions in the regulation of flowering and shade-avoidance pathways
+
+ORGANISM
+Triticum turgidum subsp. durum
+
+SUMMARY
+The phytochromes (PHYs) are a family of photoreceptors which absorb light of red and far-red wavelengths to modulate developmental responses in photosynthetic organisms. We developed knockout mutants of PHYB and PHYC in wheat and performed replicated RNA-seq studies to analyze and compare the regulons of each phytochrome under long day photoperiods.
+
+DESIGN
+Illumina Truseq v2 RNA-seq libraries were constructed from four biological replicates of phyBnull mutants and their wild-type sister lines and of phyCnull mutants and their wild-type sister lines. Subsequently, the entire experiment was replicated. Reads were mapped to the draft assembly (v2.2) of the wheat genome provided by the International Wheat Genome Sequencing Consortium (IWGSC) and transcribed regions were identifed by mapping a non-redundant set of transcripts to this genomic assembly. Sequencing reads mapping uniquely within these identified transcribed regions were used to determine relative expression profiles. Loci which were differentially expressed in both experimental replicates were designated high-confidence PHYB-regulated and PHYC-regulated genes, respectively. A GTF file is provided detailing the location of the 150,754 loci within the IWGSC pseduomolecules and contig scaffold followed by the longest transcribed sequence mapping to this region. Most, but not all, transcribed sequences are annotated through Ensembl.
+

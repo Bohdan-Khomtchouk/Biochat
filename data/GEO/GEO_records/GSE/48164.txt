@@ -1,0 +1,12 @@
+TITLE
+Genome-wide mapping of CarD, RNAPs, and RNAPb on the Mycobacterium smegmatis genome using Chromatin Immunoprecipitation Sequencing
+
+ORGANISM
+Mycobacterium smegmatis
+
+SUMMARY
+CarD is an essential mycobacterial protein that we had previously shown to bind the RNA polymerase (RNAP) and affect the transcriptional profile of M. smegmatis and Mycobacterium tuberculosis. For this reason, we suspected that CarD was directly regulating transcriptional complexes but we did not know at what stage of CarD was functioning and at which genes CarD interacted with the RNAP. To determine in which stage of the transcription cycle (initiation, elongation, or termination) CarD acts, we used Chromatin Immunoprecipitation sequencing (ChIP-seq) to survey the distribution of CarD throughout the M. smegmatis chromosome. Specific antibodies targeting core RNAPb, RNAPσ, or a hemagglutinin (HA) epitope fused to CarD (CarD-HA) were used to co-immunoprecipitate associated DNA. CarD-HA was immunoprecipitated from the M. smegmatis Mc2155 ΔcarD attB::tetcarD-HA strain and unfused HA was immunoprecipitated from the Mc2155 attB::pmsg431 strain with monoclonal antibodies specific for HA (Sigma). RNAP β and σ were immunoprecipitated from M. smegmatis ΔcarD attB::tetcarD-HA with monoclonal antibodies specific for these subunits (Neoclone, Madison, WI; 8RB13 for β, 2G10 for σ). Co-precipitated DNA was sequenced using a SOLiD sequencer (Life Technologies), which provided sufficient reads for 100-fold coverage of the genome. The number of sequence reads per base pair was normalized to the total number of reads and expressed as a log2 value. The reads per base pair from the HA-alone sample served as the background and was subtracted from the other datasets. We found that CarD was never present on the genome in the absence of RNAP. However, whereas RNAP core enzyme was found throughout transcribed regions of the genome, CarD was primarily associated with promoter regions and highly correlated with RNAPσ. The colocalization of σA and CarD led us to propose that in vivo, CarD associates with RNAP initiation complexes at most promoters and is therefore a global regulator of transcription initiation.
+
+DESIGN
+The genome sequences associated with M. smegmatis CarD, RNAPb, and RNAPs were determined by ChIP-seq analysis. Samples were done in duplicate, except for RNAPs. And sequencing was performed using a SOLiD sequencer (Life Technologies).
+

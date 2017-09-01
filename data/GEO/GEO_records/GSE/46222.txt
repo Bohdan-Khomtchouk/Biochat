@@ -1,0 +1,12 @@
+TITLE
+Molecular signaling distinguishes early from late recurrences in ER positive breast cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Unlike many other cancers, estrogen receptor-alpha (ER+) breast cancers are associated with cumulative risks of recurrence and death that persist for decades. We show that molecular differences between breast cancers that recur at distant sites early (² 3 years) or late (³ 5 years) support a robust molecular predictor of recurrence with Tamoxifen therapy and provide novel insights into the signaling features that differ between these recurrent cancers. We applied a support vector machine with recursive feature elimination to gene expression microarray data using a training-internal crossvalidation workflow that minimizes the gene selection bias problem. The resulting predictor was validated in an independent data set. Performance of the predictor suggests that it is possible to identify patients at increased risk of experiencing an early recurrence who require other treatments to prevent early metastasis. We implemented a Metropolis Sampling algorithm as a random walk to identify the protein-protein interactions (PPI) most closely associated with ER in 8 PPI databases. We then walked the gene expression data for the top PPIs to discover a signaling network driving early and late recurrent breast cancers. Consensus features between the training and validation datasets define a complex and highly connected network with major interactions among nodes including AR, CALD1, CALM(1,2,3), CDK1, EGFR, ESR1, ESR2, MAPK1, and SRC. The complexity illustrates the challenges in directing single agent or simple combination therapies to improve overall survival in ER+ breast cancers that will recur but also suggests potentially novel interventions to address this challenge.
+
+DESIGN
+49 independent samples (breast tumors) were arrayed
+

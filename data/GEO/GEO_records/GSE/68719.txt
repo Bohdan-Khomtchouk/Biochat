@@ -1,0 +1,12 @@
+TITLE
+mRNA-Seq expression and MS3 proteomics profiling of human post-mortem BA9 brain tissue for Parkinson Disease and neurologically normal individuals
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Parkinson disease (PD) is a neurodegenerative disease characterized by the accumulation of alpha-synuclein (SNCA) and other proteins in aggregates termed “Lewy Bodies” within neurons. PD has both genetic and environmental risk factors, and while processes leading to aberrant protein aggregation are unknown, past work points to abnormal levels of SNCA and other proteins. Although several genome-wide studies have been performed for PD, these have focused on DNA sequence variants by genome-wide association studies (GWAS) and on RNA levels (microarray transcriptomics), while genome-wide proteomics analysis has been lacking. After appropriate filters, proteomics identified 3,558 unique proteins and 283 of these (7.9%) were significantly different between PD and controls (q-value < 0.05). RNA-sequencing identified 17,580 protein-coding genes and 1,095 of these (6.2%) were significantly different (FDR p-value < 0.05), but only 166 of the FDR significant protein-coding genes (0.94%) were present among the 3,558 proteins characterized. Of these 166, eight genes (4.8%) were significant in both studies, with the same direction of effect. Functional enrichment analysis of the proteomics results strongly supports mitochondrial-related pathways, while comparable analysis of the RNA-sequencing results implicates protein folding pathways and metallothioneins. Ten of the implicated genes or proteins co-localized to GWAS loci. Evidence implicating SNCA was stronger in proteomics than in RNA-sequencing analyses. Notably, differentially expressed protein-coding genes were more likely to not be characterized in the proteomics analysis, which lessens the ability to compare across platforms. Combining multiple genome-wide platforms offers novel insights into the pathological processes responsible for this disease by identifying pathways implicated across methodologies.
+
+DESIGN
+The study consists of mRNA-Seq (29 PD, 44 neurologically normal controls) and three-stage Mass Spectrometry Tandem Mass Tag Proteomics (12 PD, 12 neurologically normal controls) performed in post-mortem BA9 brain tissue. The proteomics samples are a subset of the RNA-Seq samples.
+

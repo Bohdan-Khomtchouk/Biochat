@@ -1,0 +1,12 @@
+TITLE
+Distribution of macroH2A1 nucleosomes in mouse liver chromatin
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We produced a genome-wide map of the distribution of macroH2A1 histone variants in mouse liver chromatin using high-throughput sequencing of DNA from macroH2A1 nucleosomes. Although macroH2A1 nucleosomes are widely distributed across the genome, their local concentration varies over a range of 100-fold or more. The transcribed regions of most active genes are depleted of macroH2A1, with many showing depletion of 3-fold or more. The inactive X chromosome appears to have relatively uniform macroH2A1 enrichment that averages approximately 3.9-fold, but most genes that are known to escape from X inactivation do not show this enrichment. We used macroH2A1 depletion to identify additional genes that escape X inactivation, but overall, our map supports the idea that relatively few genes escape in the mouse. The map also helped identify genes that appear to be direct targets of macroH2A1-mediated repression.
+
+DESIGN
+MacroH2A1 nucleosomes were purified from female mouse liver chromatin by thiol-affinity chromatography (Mol. Cell Biol. 26, 4410 (2006)) and their distribution was compared to that of the bulk nucleosomes used as the starting material for the purification. Nucleosomal DNA from two independent preparations was pooled and mononucleosomal DNA was prepared from both macroH2A1 and starting material nucleosomes. Each preparation used 8 to 10 livers from 8 to 10 week old female mice. For the relative macroH2A1 content file (see supplementary file), we used tools in the rna-seq workflow of Partek Genomics Suite (version 6.5b, 6.09.0806, Partek Inc.) to calculate the relative macroH2A1 content of individual genes. This program counts and normalizes hits in predefined regions specified in a refFlat file. The gene list was the Mouse build 8 version of refFlat.txt obtained from the UCSC Genome site. All exon information was stripped from the refFlat.txt file, which left only the start and stop sites for the genes. Normalized RPKM (reads per kilobase per million reads) values were compared to calculate fold change and FDR-adjusted p-values for each transcript.
+

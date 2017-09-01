@@ -1,0 +1,12 @@
+TITLE
+High-throughput measurements of fitness effects of mutations in the yeast U3 snoRNA
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We used a molecular barcoding approach to quantify the fitness of ~60,000 randomly mutated variants of the Saccharomyces cerevisiae U3 snoRNA (the data were further used to calculate a map of intragenic epistatic interactions within this RNA molecule, as descibed in Puchta et al. 2016)
+
+DESIGN
+We generated two independent mutant libraries ('Small' with ~3 and 'Big' with ~10 SNPs per allele) on centromeric plasmid, with 20nt random barcodes placed in a non-transcribed region downstream of the gene (PE Samples 30-37 - paired-end sequencing of: U3, 70nt linker and 20nt barcode); next we performed competition experiments in several conditions (E1-5) on populations of yeast cells transformed with both libraries and measured frequencies of mutated variants in time-points during the experiment by deep sequencing of barcodes (Samples 1-29).
+

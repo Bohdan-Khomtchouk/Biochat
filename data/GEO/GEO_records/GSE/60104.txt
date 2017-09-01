@@ -1,0 +1,12 @@
+TITLE
+Global ChIP-seq Normalization Reveals Epigenome Modulations
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Epigenomic profiling by ChIP-seq is a prevailing methodology used to investigate chromatin-based regulation in biological systems, such as human disease, yet the lack of an empirical methodology to normalize amongst experiments has limited the usefulness of this technique. Here we describe a “spike-in” normalization method that allows the quantitative comparison of histone modification status across cell populations using defined quantities of a reference epigenome. We demonstrate the utility of this method in measuring epigenomic changes following chemical perturbations and show how control normalization of ChIP-seq experiments enables discovery of disease-relevant changes in histone modification occupancy.
+
+DESIGN
+ChIP-Seq of histone modifications H3K79me2 and H3K4me3 in human samples treated with EPZ-5676 with/without reference epigenome spike-in.
+

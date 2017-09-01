@@ -1,0 +1,12 @@
+TITLE
+Genome-wide single base resolution profiling of 5-methyl and 5-hydroxymethylcytosine in glioblastoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Through parallel processing of genomic DNA with bisulfite and oxidative bisulfite treatments on Illumina 450K arrays we resolved both 5mC and 5hmC in glioblastoma tissues. We developed and applied a novel technique for estimating 5mC, 5hmC, and unmethylated proportions from array data to glioblastoma tissues and compare with normal brain tissue. Genomic distribution of 5hmC was associated with features of transcription despite the glioblastoma genome being relatively depleted of 5hmC. When integrating 5mC and 5hmC data using a Gaussian finite mixture model approach, we observed significant associations between 5hmC levels and gene-sets involved in immune and RNA regulatory processes. We also observed an enrichment of 5hmC in introns, enhancer regions, and genes that are actively transcribed in glioblastomas from TCGA. Significant differences in patient survival were observed among classes of 5hmC obtained from a recursively partitioned mixture model.
+
+DESIGN
+Glioblastoma dervied (n=30) DNA was subjected to tandem bisulfite and oxidative bisulfite conversion with an input of 4ug per sample using the TrueMethyl® kit v.1.1 (Cambridge Epigenetix) protocol optimized for Illumina HumanMethylation450 arrays.
+

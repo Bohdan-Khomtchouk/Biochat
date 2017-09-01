@@ -1,0 +1,12 @@
+TITLE
+Depletion of undecaprenyl pyrophosphate phosphatases (UPP-Pases) disrupts cell envelope biogenesis in Bacillus subtilis
+
+ORGANISM
+Bacillus subtilis
+
+SUMMARY
+The integrity of the bacterial cell envelope is essential to sustain life by countering the high turgor pressure of the cell and providing a barrier against chemical insults. In Bacillus subtilis, synthesis of both peptidoglycan and wall teichoic acids requires a common C55 lipid carrier, undecaprenyl-pyrophosphate (UPP), to ferry precursors across the cytoplasmic membrane. The synthesis and recycling of UPP requires a phosphatase to generate the monophosphate form Und-P, which is the substrate for peptidoglycan and wall teichoic acid synthases. Using an optimized CRISPR-dCas9 based transcriptional repression system (CRISPRi), we demonstrate that B. subtilis requires either of two UPP phosphatases, UppP or BcrC, for viability. We show that a third predicted lipid phosphatase (YodM), with homology to diacylglycerol pyrophosphatases, can also support growth when overexpressed. Depletion of UPP phosphatase activity leads to morphological defects consistent with a failure of cell envelope synthesis and strongly activates the M-dependent cell envelope stress response, including bcrC which encodes one of the two UPP phosphatases. These results highlight the utility of an optimized CRISPRi system for investigation of synthetic lethal gene pairs, clarify the nature of the B. subtilis UPP-Pase enzymes, and provide further evidence linking the M regulon to cell envelope homeostasis pathways.
+
+DESIGN
+Two-condition experiment (with or without xylose induction of dCas9),WT vs. Depletion strain. Two biological replicates for dye swap, independently grown and harvested.
+

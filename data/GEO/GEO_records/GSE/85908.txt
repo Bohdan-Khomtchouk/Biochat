@@ -1,0 +1,12 @@
+TITLE
+Single-cell alternative splicing analysis with Expedition reveals splicing dynamics during neuron differentiation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Alternative splicing (AS) generates isoform diversity critical for cellular identity and homeostasis, yet characterization of this diversity in single cells remains limited. We developed Expedition, a computational framework to categorize and visualize the heterogeneity of AS from single-cell transcriptomes. Expedition consists of (i) outrigger, a de novo splice graph transversal algorithm to detect AS from single cell RNA-seq; (ii) anchor, a Bayesian approach to assign splicing modalities and (iii) bonvoyage, using non-negative matrix factorization to visualize modality changes. By applying Expedition to single iPSCs undergoing neuron differentiation, we discover that 25% of AS exons exhibit bimodality and are flanked by longer and more conserved introns harboring distinct cis-regulatory motifs. Bimodal exons are highly dynamic during cellular transitions, preserve translatability, enriched in recently emerged genes and have conserved AS in mammals. Applying Expedition ( ) in single cells redefines our estimates and understanding of AS in evolution and biology.
+
+DESIGN
+Analysis of alternative splicing changes across motor neuron differentiation
+

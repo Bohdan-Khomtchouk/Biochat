@@ -1,0 +1,12 @@
+TITLE
+Chicken retina LD2 vs LD18
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Chickens were kept under a regimen of 12 hours of light and 12 hours of dark for 7 days. At LD2, 2 hours into the light cycle on the 8th day, 3 chickens were sacrificed by decapitation and their retinas dissected and pooled. Similarly, at LD18, 6 hours into the dark cycle on the 8th day, retinas were harvested from 3 chickens. Total RNA was extracted from each set of retinas using Trizol Reagent (Invitrogen). The total RNA samples were amplified to produce aRNA using the Message Amp Kit (Ambion). Randomly primed fluorescent probes were produced from the aRNA samples using a Genisphere 3DNA Array 900MPX expression array detection kit. The fluorescent dye on the probe derived from the experimental aRNA (LD2) was Cy5 while the dye on the control probe (LD18) was Cy3. Hybridizations and washes were as suggested by Genisphere. Labeled arrays were scanned in an Affymetrix 428 array scanner. The images obtained were subsequently analyzed by GenePixPro software (Axon Instruments). The GenePix results (.gpr) file was further analyzed by GeneSpring 5 (Silicon Genetics) which applied intensity dependent LOWESS normalization to the results and calculated normalized Cy5 to Cy3 ratios.
+
+DESIGN
+This GEO Series was created by the GEO staff as part of a cleanup effort to ensure that all GEO Samples are included within a Series entry.
+

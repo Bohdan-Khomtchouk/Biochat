@@ -1,0 +1,12 @@
+TITLE
+ATAC-Seq on DNA damaged human fibroblasts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The goal of this experiment was to determine the role of the lncRNA DINO in the DNA damage response in regulating transcription factor occupancy of human fibroblasts. DINO, an inducible long noncoding in respose to DNA damage, is required for cell cycle arrest and induction of several p53 regulated genes. We hypothesized that ATACseq in DINO-depleted cells may uncover a role for DINO in transcription factor recruitment to p53 responsive genes following DNA damage.
+
+DESIGN
+We examined chromatin accessibility in human fibroblasts in response to DNA damage with 0.2ug/mL doxorubicin for 12 hours or untreated controls (vehicle). 24 hours prior to treatement with doxorubicin, cells were transfected with 100nM  antisense oligonucleotides targetting DINO (DINO ASO 1 or DINO ASO2) or control antisense oligonucleotide using RNAimax transfection reagent. Following doxorubicin, 50,000 cells were isolated for each replicate and processed according to the standard ATACseq protocol (Buenrostro et al. 2013).
+

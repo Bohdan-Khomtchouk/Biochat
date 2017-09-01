@@ -1,0 +1,12 @@
+TITLE
+A wholly-defined Agilent microarray spike-in dataset
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+We have generated a wholly defined spike-in dataset for Agilent microarrays consisting of 12 arrays with more than 2000 differentially expressed, and approximately 3600 background, cRNAs. The composition of this “Ag Spike”dataset is identical to that of our previous Platinum Spike dataset (GSE21344) and therefore allows direct cross-platform comparison. Comparison between the Ag Spike and Platinum Spike studies shows high agreement between results obtained using the Affymetrix and Agilent platforms.
+
+DESIGN
+We used the same 28 PCR pools that had been used before to generate the Platinum-Spike dataset (GSE21344). These pools contain PCR products from 5725 Drosophila Gene Collection release 1.0 (DGCr1) cDNA clones. We mixed PCR products from all pools together with specified relative abundance to generate two samples representing the A and B conditions. Both samples were in vitro transcribed and then labeled with Cy3 and Cy5 fluorescent dye. Labeled A samples were hybridized with B samples labeled with reverse dye to three Agilent Drosophila Gene Expression microarrays. The process from in vitro transcription to hybridization was repeated twice. At the end we generated 12 arrays that were randomly placed in three independent slides to remove potential systematic error due to array position.
+

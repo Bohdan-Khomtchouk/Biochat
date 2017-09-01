@@ -1,0 +1,12 @@
+TITLE
+Comprehensive Evaluation of AmpliSeq Transcriptome, a Novel Targeted Whole Transcriptome RNA Sequencing Methodology for Global Gene Expression Analysis.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Whole transcriptome sequencing (RNA-seq) represents a powerful approach for whole transcriptome gene expression analysis.  However, RNA-seq carries a few limitations, e.g., the requirement of a significant amount of input RNA and complications led by non-specific mapping of short reads. The Ion AmpliSeqTM Transcriptome Human Gene Expression Kit (AmpliSeq) was recently introduced by Life Technologies as a whole-transcriptome, targeted gene quantification kit to overcome these limitations of RNA-seq.To assess the performance of this new methodology, we performed a comprehensive comparison of AmpliSeq with RNA-seq using two well-established next-generation sequencing platforms (Illumina HiSeq and Ion Torrent Proton). We analyzed standard reference RNA samples and RNA samples obtained from human induced pluripotent stem cell derived cardiomyocytes (hiPSC-CMs). Results: Using published data from two standard RNA reference samples, we observed a strong concordance of log2 fold change for all genes when comparing AmpliSeq to Illumina HiSeq (Pearson’s r=0.92) and Ion Torrent Proton (Pearson’s r=0.92). We used ROC, Matthew’s correlation coefficient and RMSD to determine the overall performance characteristics. All three statistical methods demonstrate AmpliSeq as a highly accurate method for differential gene expression analysis. Additionally, for genes with high abundance, AmpliSeq outperforms the two RNA-seq methods. When analyzing four closely related hiPSC-CM lines, we show that both AmpliSeq and RNA-seq capture similar global gene expression patterns consistent with known sources of variations. Conclusions: Our study indicates that AmpliSeq excels in the limiting areas of RNA-seq for gene expression quantification analysis. Thus, AmpliSeq stands as a very sensitive and cost-effective approach for very large scale gene expression analysis and mRNA marker screening with high accuracy.
+
+DESIGN
+Comprehensive, performance evaluation of AmpliSeq Transcriptome to standard whole-transcriptome RNA-sequencing methods for large-scale, genome-wide differential gene expression analysis. We analyzed standard reference RNA samples and RNA samples obtained from human induced pluripotent stem cell derived cardiomyocytes (hiPSC-CMs).
+

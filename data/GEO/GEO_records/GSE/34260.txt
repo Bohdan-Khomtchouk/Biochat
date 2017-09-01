@@ -1,0 +1,12 @@
+TITLE
+Candida albicans induces monocyte training via epigenetic programming through a dectin 1-dependent pathway
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Non-specific protective effects against reinfection have been described following infection with Candida albicans. Here we show that mice defective in functional T and B lymphocytes were protected against reinfection with C. albicans in a monocyte-dependent manner. C. albicans and beta glucans induced functional programming of monocytes, leading to enhanced cytokine production in vivo and in vitro. The training required the beta glucan receptor dectin 1 and the non-canonical Raf 1 pathway. Monocyte training by beta-glucans was mediated by epigenetic mechanisms through genome-wide changes in histone trimethylation at H3K4. Pathway analysis showed specific induction of epigenetic changes in genes of innate immunity. The functional programming of monocytes, reminiscent of similar properties of NK cells, has been termed “trained immunity” and may be employed for the design of improved vaccination strategies.
+
+DESIGN
+Chromatin-IP at day7 followed by highthroughput sequencing to look at the differences in  H3K4me3 and H3K27me3  binding in Monocytes either cultured in RPMI only versus those trained for 24hrs with beta glucan. Additionally expression analysis was performed by doing strandspecific RNAseq also for both unstimulated and beta glucan trained monocytes for correlating the histone modification changes with the expression changes. Biological replicates were generated from independent samples for H3K4me3 and RNAseq. Additional H3K4me3 ChIP-seq assays were performed for day0 untreated, 24hrs control and beta glucan trained monocytes. H3K4me3 ChIP-seq was also performed for Mouse macrophages both saline(control) and low dose Candida treated.
+

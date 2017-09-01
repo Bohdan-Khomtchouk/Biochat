@@ -1,0 +1,12 @@
+TITLE
+Gene expression levels with various artificial mutations -- with mismatch
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We checked the effects of mutations on expression levels by using systematically mutated probes. We used Agilent custom microarray whose probe length is 60bp. To check artificial mutation effect, we designed 56 patterns of mutations, 24 patterns of insertions and deletions. On the microarray, we used 7,987 probes from Agilent human gene probes. In these experiments, we checked the difference of expression levels about at least 73 probes for each mutation type. We performed microarray experiments with an Agilent 4x44k custom microarray. We measured gene expressions using a qPCR Human reference total RNA sample provided by CloneTech. Gene expression profiles were normalized with quintile normalization according to the Agilent protocol except that only non-mutated 219 probes were used.
+
+DESIGN
+6 replicate samples
+

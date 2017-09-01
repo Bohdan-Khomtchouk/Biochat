@@ -1,0 +1,12 @@
+TITLE
+High expression of BMP pathway genes distinguishes a subset of Atypical Teratoid/Rhabdoid Tumors associated with shorter survival
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Molecular profiling of tumors has proven a valuable tool for identification of prognostic and diagnostic subgroups in medulloblastomas, glioblastomas and other cancers. However, the molecular landscape of atypical teratoid / rhabdoid tumors (AT/RTs) remains largely unexplored. To address this issue, we used microarrays to measure the gene expression profiles of 18 AT/RTs, and performed unsupervised hierarchical clustering to determine molecularly similar subgroups. Four major subgroups (clusters) were identified. These did not conform to gender, tumor location, or presence of monosomy 22. Clusters showed distinct gene signatures and differences in enriched biological processes, including elevated expression of choroid plexus genes in Cluster 4. In addition, survival differed significantly by cluster, with shortest survival (mean 4.7 months) in both Clusters 3 and 4 compared to Clusters 1 and 2 (mean 28.1 months). Analysis showed that multiple bone morphogenetic protein (BMP) pathway genes were up-regulated in the short survival clusters, with BMP4 showing the most significant up-regulation (270-fold). Thus, high expression of BMP pathway genes was negatively associated with survival in this dataset. Our study indicates that molecular subgroups exist within AT/RTs, and that molecular profiling of these comparatively rare tumors may be of diagnostic, prognostic and therapeutic value. Key Words: atypical teratoid / rhabdoid tumor; bone morphogenetic protein pathway; BMP4; survival; microarray
+
+DESIGN
+Molecular profiling of 18 AT/RT patient tumor samples was performed using Affymetrix U133 Plus2 GeneChips. Data were background corrected and normalized using gcRMA (as implemented in Bioconductor). Unsupervised agglomerative hierarchical clustering was performed to identify subsets of AT/RTs with similar gene expression. Limma (moderated t-tests; Bioconductor) was used to identify signature genes for each cluster. Bioinformatics web tool DAVID was used to identify enriched biological processes for each cluster. Survival was analyzed using Kaplan-Meier curves and Cox Hazard Ratio.  Bioinformatics tools Gene Set Enrichment (GSEA) and Ingenuity Pathways Analysis were also used to gain further insight into cluster differences.
+

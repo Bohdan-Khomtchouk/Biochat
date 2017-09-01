@@ -1,0 +1,12 @@
+TITLE
+Genome-wide analysis of the transcriptional response to porcine reproductive and respiratory syndrome virus infection at the maternal/fetal interface and in the fetus
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Porcine Reproductive and Respiratory Syndrome Virus (PRRSV) infection of 3rd trimester pregnant pigs can result in transmission of the virus to the fetus and ultimately death in utero or postnatally. Little is known about the immune response to infection at the maternal-fetal interface and in the fetus itself, or the molecular events behind virus transmission and disease progression in the fetus. To investigate these processes, RNA-sequencing of two tissues, uterine endothelium adjacent to the umbilical attachment site and fetal thymus, was performed 21 days post challenge on four groups of fetuses selected from a large PRRSV challenge experiment of pregnant gilts.
+
+DESIGN
+RNA-seq experiment compared gene expression between four different groups of fetuses (n=12 per group): control (CON-uninfected fetuses from mock inoculated gilts), UNINF (uninfected fetuses from PRRSV-inoculated gilts), INF (infected fetuses from PRRSV-inoculated gilts), and meconium-stained fetuses (MEC-meconium-stained fetuses from PRRSV-inoculated gilts) and investigated two tissues: uterine endometrium (with adherent placental tissue) at the site of umbilical attachment and fetal thymus (96 samples in total). Three contrasts were performed for the differential expression (edgeR) and network (WGCNA) analyses: UNINF v CON, INF v UNINF, and MEC v INF.
+

@@ -1,0 +1,12 @@
+TITLE
+RNA-Seq data of CD4+ T cells from mice with Type-A vs Type-B EAE
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: To compare gene expression of CD4+ T cells between Type-A and Type-B EAE Method: CD4+ T cells were FACS sorted from spleens 9-day post immunization. Results: We found that Type-B EAE (NLRP3 inflammasome-dependent and IFNb treatment-resistant EAE) express high levels of CXCR2 and other chemokine receptors, which can be targeted to treat the Type-A EAE subtypes, instead of treating with IFNb. Conclusions: Altering intensity of immunization significantly impacts on gene expression patterns in T cells.
+
+DESIGN
+CD4+ T cells were FACS-sorted, then stranded mRNA libraries were made with the Illumina TruSeq Stranded mRNA kit (catalog number RS-122-2101). The quality of RNA libraries was checked by running them on a 2100 ioanalyzer instrument  (Agilent), pooled and sequenced on 2 lanes of Illumina HiSeq 50bp paired-end.
+

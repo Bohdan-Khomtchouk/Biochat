@@ -1,0 +1,12 @@
+TITLE
+Identifying transcription start sites and active enhancer elements using BruUV-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BruUV-seq utilizes UV light to introduce transcription-blocking DNA lesions randomly in the genome prior to bromouridine-labeling and deep sequencing of nascent RNA. By inhibiting transcription elongation, but not initiation, pre-treatment with UV light leads to a redistribution of transcription reads resulting in the enhancement of nascent RNA signal towards the 5′-end of genes promoting the identification of transcription start sites (TSSs). Furthermore, transcripts associated with arrested RNA polymerases are protected from 3′–5′ degradation and thus, unstable transcripts such as putative enhancer RNA (eRNA) are dramatically increased. Validation of BruUV-seq against GRO-cap that identifies capped run-on transcripts showed that most BruUV-seq peaks overlapped with GRO-cap signal over both TSSs and enhancer elements. Finally, BruUV-seq identified putative enhancer elements induced by tumor necrosis factor (TNF) treatment concomitant with expression of nearby TNF-induced genes. Taken together, BruUV-seq is a powerful new approach for identifying TSSs and active enhancer elements genome-wide in intact cells.
+
+DESIGN
+Two cell lines were used.  K562 cells were mock-irradiated (control) or UVC-irradiated at two different doses (25 and 100 J/m^2).  HF1 cells were UVC-irradiated (20 J/m^2) in three independent experiments (nfUV4,nfUV3a, and nfUV3b).  In one experiment, HF1 cells were also treated with TNF (10 ng/mL) 1 h prior to UV irradiation (tnfpreUV2, paired with nfUV4).
+

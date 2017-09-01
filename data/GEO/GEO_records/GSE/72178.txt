@@ -1,0 +1,12 @@
+TITLE
+RNA-Seq of Ctcfl transgenic mouse ES cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Ctcfl, a paralog of Ctcf, also known as BORIS (Brother of Regulator of Imprinted Sites), is a testis expressed gene whose function is largely unknown. As a cancer testis antigen, it is often expressed in tumor cells and also seen in two benign human vascular malformations, juvenile angiofibromas (JA) and infantile hemangiomas (IH). To better understand the function of Ctcfl we created tetracycline-inducible Ctcfl transgenic mice. We show that when Ctcfl expression is induced during embryogenesis, it results in intrauterine growth retardation, developmental eye malformations, multi-organ pathologies, vascular defects, and early neonatal lethality. This phenotype resembles prior mouse models which perturb the TGFB pathway. Embryonic stem cells with the Ctcfl transgene reproduce the same phenotype in ES cell: tetraploid chimeras. RNA-Seq of the Ctcfl ES cells revealed 14 genes, including a number of transcription factors/ co-activators, and signal transduction pathway genes that are significantly deregulated by Ctcfl expression. Bioinformatics analysis revealed the TGFB pathway to be most affected by embryonic Ctcfl expression. We propose that our transgenic mice reiterate a developmental program normally reserved for spermatogenesis that results in multiple organ pathology when expressed in embryogenesis as a result of the TGFB pathway dysregulation. Understanding of the phenotypic consequence of Ctcfl expression in non-testicular cells and elucidating downstream targets of Ctcfl has the potential to explain its role as a cancer testis antigen (CTA) and its involvement in two, if not more, human vascular malformations.
+
+DESIGN
+Two mouse ES cell lines, one with an inducible Ctcfl transgene and one without the transgene, were compared by RNA Seq.  Both cell lines were grown for 48 hours either with or without doxycycline, to induce Ctcfl transgene expression.  Therefore there were 4 RNA samples sequenced in each experiment and the experiment was repeated twice.  The results of both experiments were combined for the statistical analysis.  14 genes were found to be significantly altered in expression with induction of the Ctcfl transgene.  When the non-transgenic ES cell line was compared with and without doxycycline in the culture medium there were no significant changes in gene expression.
+

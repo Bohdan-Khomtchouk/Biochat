@@ -1,0 +1,12 @@
+TITLE
+Gene expression analysis of prostate cancer samples using Affymetrix U133Plus2 array
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Over one million prostate biopsies are performed in the U.S. every year. However, pathology examination is not definitive in a significant percentage of cases due limited diagnostic tumor. We have observed that the microenvironment of prostate tumor cells exhibits numerous differential gene expression changes and have asked whether such information can be used to distinguish “tumor” from “nontumor”. We initially compared expression analysis data (Affymetrix U133plus2) from 18 volunteer biopsy specimens to 17 specimens containing largely tumor-adjacent stroma and identified 964 significant (p_adj < 0.01 and B > 0) expression changes. These genes were filtered to eliminate possible aging-related genes and genes expressed in tumor cells > 10% of the stroma cell expression level leading to 23 candidate genes (28 Affymetrix probe sets). A classifier based on the 28 probe sets was tested on 289 independent cases, including 195 tumor-bearing cases, 99 nontumor cases (normal biopsies, normal autopsies, remote stroma as well as pure tumor adjacent stroma) all with accuracies > 85%, sensitivities > 90% and specificities > 85%.  These results indicate that the prostate cancer microenvironment exhibits reproducible changes useful for categorization as “tumor” and “nontumor”. For inquires please contact dmercola@uci.edu.
+
+DESIGN
+Prostate cancer gene expression profiles were studied in this project. Total RNA from 154 prostate sample with various amount of different cell types were hybridized to Affymetrix U133Plus2 array. The percentage of different cell types were determined by a pathologist.
+

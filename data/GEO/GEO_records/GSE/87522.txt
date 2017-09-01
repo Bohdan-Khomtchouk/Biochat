@@ -1,0 +1,12 @@
+TITLE
+A team of heterochromatin factors collaborates with small RNA pathways to combat repetitive elements and germline stress [ChIP-seq]
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Repetitive sequences derived from transposons make up a large fraction of eukaryotic genomes and must be silenced to protect genome integrity. Repetitive elements are often found in heterochromatin; however, the roles and interactions of heterochromatin proteins in repeat regulation are poorly understood. Here we show that a diverse set of C. elegans heterochromatin proteins act together with the piRNA and nuclear RNAi pathways to silence repetitive elements and prevent genotoxic stress in the germ line. Mutants in genes encoding HPL-2/HP1, LIN-13, LIN-61, LET-418/Mi-2, and H3K9me2 histone methyltransferase MET-2/SETDB1 also show functionally redundant sterility, increased germline apoptosis, DNA repair defects, and interactions with small RNA pathways. Remarkably, fertility of heterochromatin mutants could be partially restored by inhibiting cep-1/p53, endogenous meiotic double strand breaks, or the expression of MIRAGE1 DNA transposons. Functional redundancy among these factors and pathways underlies the importance of safeguarding the genome through multiple means.
+
+DESIGN
+Wild-type young adults (YA) were prepared by growing synchronized L1s in liquid culture using standard S-basal medium with HB101 E. coli for 60 hours at 20°C. Adults were sucrose floated, washed in PBS, and flash frozen in liquid nitrogen. Extract preparation and chromatin immunoprecipitation were performed as in Kolasinska-Zwierz et al., 2009 with the following modifications: broken tissue was fixed for 10 minutes in 1.5 mM EGS, then formaldehyde added to 1% for a further 10 minutes before quenching with 0.125M glycine and washing 2X with PBS plus protease inhibitors. Pellets were washed once in FA buffer, then resuspended in 1ml FA buffer per 1 mL of ground worm powder and the extract sonicated to an average size of 250 base pairs with a Diagenode Bioruptor or Bioruptor Pico for 28 pulses of 30 seconds followed by 30 seconds pause. Following ChIP and DNA purification, libraries were prepared using the Illumina TruSeq kit. Fragments in the 250-300 base pair range were selected using Agencourt AMPure XP beads. Two biological replicate ChIPs were conducted for each factor.
+

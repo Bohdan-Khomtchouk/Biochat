@@ -1,0 +1,12 @@
+TITLE
+Temperature Sensitive Remodeling of Fruit Fly Physical Chromosomal Domains upon Heat Shock
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Metazoan chromosomes in interphase nucleus are partitioned into discrete three dimensional physical domains which confine epigenetically modified chromatin and are relative stable across different cell types even species1-4. Physical domains are segregated preferentially at DNase I hypersensitive sequences of high density of active gene and insulator proteins which are hypothesized contributing together to domain border formation3,4. However, whether physical domain structure can be maintained without insulator proteins and transcription is unknown5-8. Transcription of most genes and the insulator proteins binding can be severely impaired in heat shocked (HS) fruit fly nuclei9.  Here we show that chromatin contact frequency increases within and decreases beyond ~100kb after HS respectively accompanied by repartitioning of the Drosophila chromosomes into a different array of physical domain. Prominently, domains tend to merge because borders disappeared are more than borders newly emerged which are located more frequently in repressive chromatin. In contrast to previous hypothesis1,3,4, changes in insulator proteins enrichment and RNAPII show no noticeable difference at lost or emerged borders. Our results show a metazoan genome can be quickly reconfigured as cells undergo brief physiological stress. In addition to insulator proteins and transcription, we speculate that extra trans-factors binding and various biological activities are required for the establishment and maintenance of physical domains. Moreover, we found long-range chromatin interaction network is reshaped after HS implying long-range chromatin interactions can be formed due to domain level reorganization of chromosomes despite functional relevance. We anticipate our analysis to be a starting point for more intensive experimental investigation into the elusive mechanisms behind the physical domain partition and dynamic reconfiguration of metazoan genomes.
+
+DESIGN
+We carried out Hi-C experiments using HindIII and ChIP experiments with antibodies against BEAF, CP190, CTCF, SuHw and RNAPII on heat shocked Kc167 cells and generated two Hi-C libraries and five ChIP-seq libraries which were sequenced paired-end on Illumina HiSeq2000 platform. Five ChIP libraries are indexed with Illumina index sequencing primers.
+

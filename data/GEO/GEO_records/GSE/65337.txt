@@ -1,0 +1,12 @@
+TITLE
+RNA-sequencing of Postnatal Day 10 Wild-type and Nfix KO Subventricular Zone-derived Primary Monolayer-cultured Neural Stem Cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: To study the mechanisms involved in the regulation by NFIX on neural stem cell development and to examine the transcriptome changes associated with the loss of NFIX in neural stem cells. Methods: Subventricular zones of 10-day-old wild-type and Nfix KO mice were sectioned and dissociated into single cells. Cells were cultured in proliferation condition for 10 days. RNA was purified and poly-A selected to build the library for RNA-seq. Conclusions: Our study represents the first detailed analysis of transcriptome changes in primary monolayer-cultured neural stem cells associated with the loss of NFIX.
+
+DESIGN
+Cells dissociated from 10-day-old wild-type and nuclear factor I-X (Nfix KO) mice subventricular zone were cultured in DMEM/F12 with B27, Glutamine, EGF and bFGF for 10 days. RNA was harvested with Norgen RNA purification micro kit and then prepared with illumina TruSeq kit. Samples from 6 mice (3 vs. 3) were loaded on one lane. 50-cycle single-read run was performed on Hiseq 2000. The sequence reads were analyzed by TopHat 2.0.7 followed by Cufflinks 1.3.0 with the mm9 UCSC annotation files.
+

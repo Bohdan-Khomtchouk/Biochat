@@ -1,0 +1,12 @@
+TITLE
+Functional profiling in yeast with arsenite and monomethylarsonous acid
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Arsenic is a human toxin and carcinogen commonly found as a contaminant in drinking water. Arsenite (AsIII) is the most toxic inorganic form, but recent evidence indicates that the metabolite monomethylarsonous acid (MMAIII) is even more toxic. We have used a chemical genomics approach to identify the genes that modulate the cellular toxicity of MMAIII and AsIII in the yeast Saccharomyces cerevisiae. Functional profiles provided evidence of the requirement of highly-conserved biological processes in the response against both arsenicals including tubulin folding, DNA double-strand break repair and chromatin modification. At the equitoxic doses of 150 µM MMAIII and 300 µM AsIII, genes related to glutathione were essential only for resistance to the former, suggesting a higher potency of MMAIII to disrupt glutathione metabolism than AsIII. Treatments with MMAIII induced an increase in glutathione levels, which correlated to the requirement of genes from the sulfur and methionine metabolic pathways. Many of the identified yeast genes have orthologs in humans that could potentially modulate arsenic toxicity in a similar manner as their yeast counterparts.
+
+DESIGN
+Pools of homozygous diploid deletion mutants (n = 4,607 strains) were grown in rich media (YPD) at 3 concentrations of arsenite (As3) and monomethylarsonous acid (MMA3) for 5 and 15 generations (5g, 15g). Each strain has a deletion in a different gene. In each strain, the gene was replaced by a deletion cassette containing a antibiotic resistance gene and two BARCODES, up and down tags (Please see Giaever et al, 2002, Nature).  These tags in the DNA are specific to each strain. We pool all deletion strains and grow them under a selective condition; extract DNA; amplify barcodes using universal primers and hybridize to arrays containing complemetary sequences to the up and down tags. In this way, we can look at growth of each of the strains. Our  strategy is to analyze separately the up and down tags. Therefore, for each array (CEL file), we generate two data files, one for all ups and another one for all downs. In these files, the list of genes are the same but the data come from different set of probes, up or down. The values are log2 averages of replicate probes for the same tag. These pre processed files were used to identify strains with differential growth in arsenic by comparing to the control arrays.
+

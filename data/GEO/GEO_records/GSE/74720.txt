@@ -1,0 +1,12 @@
+TITLE
+Genetic Diversity Through RNA Editing: Apobec1-mediated RNA editing in bulk and single cell macrophages and dendritic cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+RNA editing is a mutational mechanism that specifically alters the nucleotide content in sets of transcripts while leaving their cognate genomic blueprint intact. Editing has been detected from bulk RNA-seq data in thousands of distinct transcripts, but apparent editing rates can vary widely (from under 1% to almost 100%). These observed editing rates could result from approximately equal rates of editing within each individual cell in the bulk sample, or alternatively, editing estimates from a population of cells could reflect an average of distinct, biologically significant editing signatures that vary substantially between individual cells in the population. To distinguish between these two possibilities we have constructed a hierarchical Bayesian model which quantifies the variance of editing rates at specific sites using RNA-seq data from both single cells and a cognate bulk sample consisting of ∼ 106 cells. The model was applied to data from murine bone-marrow derived macrophages and dendritic cells, and predicted high variance for specific edited sites in both cell types tested. We then 1 validated these predictions using targeted amplification of specific editable transcripts from individual macrophages. Our data demonstrate substantial variance in editing signatures between single cells, supporting the notion that RNA editing generates diversity within cellular populations. Such editing-mediated RNA-level sequence diversity could contribute to the functional heterogeneity apparent in cells of the innate immune system.
+
+DESIGN
+26 samples were subjected to RNA-seq: 24 single WT macrophages, and 2 bulk samples (Apobec1 WT and KO macrophages), consisting of 500,000-1 million cells each.
+

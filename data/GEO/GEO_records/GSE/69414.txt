@@ -1,0 +1,12 @@
+TITLE
+Ribosome profiling study of rli1 depeletion strain
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+ABCE1/Rli1 functions as a ribosome recycling factor in vitro, but has not been shown to be crucial for recycling in vivo. We use ribosome profiling and biochemistry to define the role of Rli1 in living yeast. When Rli1 levels were diminished, 80S ribosomes accumulated at stop codons and, surprisingly, in the adjoining 3'UTRs of most genes. While ribosomes did not show preference for any reading frame in the 3'UTR, their enrichment at stop codons and His codons after histidine starvation is consistent with aberrant 3'UTR translation. Predicted 3'UTR translation products were detected by Western analysis and mass spectrometry, and their small sizes indicate a reinitiation mechanism. Eliminating ribosome-rescue factor Dom34 dramatically increases 3'UTR ribosome occupancy in Rli1 depleted cells, indicating that Dom34 clears the bulk of unrecycled ribosomes. Thus, Rli1 is crucial for ribosome recycling in vivo and for overall gene expression as it controls ribosome homeostasis and 3'UTR translation.
+
+DESIGN
+10 biological samples are included in the study (2 mRNA-Seq samples and 8 ribosome footprinting samples). These include wild-type, rli1-depletion, rli1-depletion/dom34Δ, and RLI1 high-copy / dom34Δ strains. Samples are also included where cells were treated with 3-AT to starve for histidine.
+

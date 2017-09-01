@@ -1,0 +1,12 @@
+TITLE
+Affymetrix Human Exon 1.0 ST Array data for human induced pluripotent stem cells (hiPSCs) and human fibroblasts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Human genomic variations are associated with several phenotypic traits, such as facial features or hereditary diseases. These variations can be, for example, single nucleotide polymorphisms (SNPs) or copy number variations (CNVs). Several genome-wide studies detecting the  correlations between genomic variants and gene expression levels have been performed. In this study, we have studied human embryonic stem cells and human induced pluripotent stem cells and  computationally identified the associations between SNPs and expression levels of exons, transcripts and genes as well as associations between CNVs and gene expression levels. We have identified SNP genotypes and gene copy numbers with genome wide Affymetrix SNP arrays and expression levels are measured with Affymetrix Exon arrays. For identifying SNPs that reliably correlate with expression levels, we filtered out the values that may cause variability to the expression values, such as the values measured with probes locating in SNP-areas. Additionally, we perform downstream analyses such as transcription factor binding site analysis and enrichment analysis. Further, we detected the  genes that could be associated both with CNVs and SNPs and as expected according to earlier studies, we identify a few of this kind of genes. Overall, we could find several CNVs that correlated with gene expression levels while only few cases of SNPs that correlated with expression levels could be found as the sample size was small.  However, as stem cells are hoped to be used in personalized disease treatments, our findings are important and provide  a useful test set for experimental laboratory studies. In addition, our results open an interesting future direction to study how our findings correlate with the diversity of stem cell lines such as the variation in their differentiation potential. In the study, data from GEO Series GSE15097 and Series GSE26173 was also used.
+
+DESIGN
+Eight human induced pluripotent stem cell samples and three fibroblasts were hybridized to exon arrays.
+

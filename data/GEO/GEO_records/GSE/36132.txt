@@ -1,0 +1,12 @@
+TITLE
+DamID LaminB1 data in mouse MEFs, wild-type and POU2F1-/-. DamID LaminA data in mouse Neural Precursor Cells and Astrocytes.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+DamID LaminB1 data were generated in POU2F1-/- MEFs to study the potential role of POU2F1/Oct1 in genome - nuclear lamina interactions. DamID LaminA data were generated in NPCs and Astrocytes to study similarities/differences between LaminA and LaminB1 binding. The procedure to arrive at the provided Hidden Markov Model (HMM) state calls is as follows: We fitted a two-state HMM whereby emissions are distributed as Student's t variables. Mean and variance of DamID signals differ between states, but the degree of freedom (nu) is the same. Gaps in the probe coverage were filled by evenly spaced null probe-values. The parameters were estimated by an adaptation of the ECME algorithm to the HMM framework, showing faster convergence than regular EM when nu is unknown (Filion et al., Cell, 2010). State calls were derived through the Viterbi algorithm. This process was repeated separately for each cell type, yielding per-probe calls. Probes in the ‘bound’ (1) state are indicated as LAD-probes, probes in the ‘unbound’ (0) state as inter-LAD-probes.
+
+DESIGN
+Comparison of MEF wt versus MEF POU2F1-/-. Comparison of LaminA (NPC & AC) with LaminB1 (NPC & AC data in GSE17051)
+

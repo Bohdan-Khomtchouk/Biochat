@@ -1,0 +1,12 @@
+TITLE
+Conservation and innovation in the DUX4-family gene network (ChIP-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Facioscapulohumeral dystrophy (FSHD; OMIM #158900, #158901) is caused by mis-expression of the DUX4 transcription factor in skeletal muscle1. Animal models of FSHD are hampered by incomplete knowledge of the conservation of the DUX4 transcriptional program in other species. Despite divergence of their binding motifs, both mouse Dux and human DUX4 activate genes associated with cleavage-stage embryos, including MERV-L and ERVL-MaLR retrotransposons, in mouse and human muscle cells respectively. When expressed in mouse cells, human DUX4 maintained modest activation of cleavage-stage genes driven by conventional promoters, but did not activate MERV-L-promoted genes. These findings indicate that the ancestral DUX4-factor regulated genes characteristic of cleavage-stage embryos driven by conventional promoters, whereas divergence of the DUX4/Dux homeodomains correlates with retrotransposon specificity. These results provide insight into how species balance conservation of a core transcriptional program with innovation at retrotransposon promoters and provide a basis for animal models that recreate the FSHD transcriptome.
+
+DESIGN
+We generated three new ChIP-seq datasets in mouse myoblasts and compared them to a published ChIP-seq dataset for human DUX4 expressed in human myoblasts (GSE33838; 10.1016/j.devcel.2011.11.013). All datasets were generated from monoclonal cell lines using a doxycycline-inducible system and codon-altered transgenes. For DUX4 peaks, we compared DUX4-expresssing cells at 24-hours of induction immunoprecipitated with a 50:50 mixture of the DUX4 antibodies MO488 and MO489 to DUX4-expressing cells immunoprecipitated with an antibody to an HA-tag, which was not present in these cells. For Dux peaks, we compared Dux-expressing cells at 24-hours of induction immunoprecipitated individually with each of two Dux antibodies (A-19 and S-20) to Dux-expressing cells immunoprecipitated with an antibody to IgG. 
+

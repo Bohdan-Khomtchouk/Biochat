@@ -1,0 +1,12 @@
+TITLE
+Genome-wide analysis of tumor-infiltrating dendritic cells comparing C57BL/6 mice obtained from Jackson laboratories or Taconic farms, untreated or treated with Bifidobacterium.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Comparison of gene expression in dendritic cells (DCs) isolated from tumors of C57BL/6 obtained from Taconic farms vs DCs isolated from tumor of C57BL/6 mice obtained from Jackson Labortaory vs DCs isolated from tumors of C57BL/6 obtained from Taconic farms and orally gavaged with Bifidobacterium prior to tumor implantation
+
+DESIGN
+Upon arrival in our facility, TAC mice were gavaged with Bifidobacterium once a week for two weeks. Bifidobacterium-fed mice, newly arrived JAX mice, and newly arrived TAC mice were inoculated subcutaneously in both flanks with 5x106 DRAQ5-labeled B16.SIY tumor cells.  40hrs following tumor implantation, whole tumors including infiltrating immune cells were digested in collagenase (Worthington) and filtered into single cell suspensions. Samples from 5 mice in each group were pooled and subsequently stained with Fixable Viability-ef506 (Ebioscience), CD45-AF488 (Bioloegend, 30-F11), CD3-ef450 (Ebioscience, 145-2C11), CD19-PB (Ebioscience, 1D3), I-A/I-E-PECy7 (Biolegend, M5/114.15.2), CD11c-PE (Ebioscience, N418) and CD11b-PerCpCy5.5 (BD, M1/70). Live CD45+CD3-CD19-MHCIIhiCD11c+ dendritic cells were sorted directly into RLT Buffer (Qiagen) using FACSAriaIII (BD) and stored immediately on dry ice.  Total RNA was isolated using RNeasy® Micro kit (Qiagen).  RNA was submitted to the Functional Genomics Facility at the University of Chicago for gene expression profiling.  RNA integrity and concentration were assessed using an Agilent Bioanalyzer 2100, and all RNA samples used for microarray analysis had an RNA Integrity Number > 9.0.  Total RNA was processed into biotinylated cRNA using the Epicentre TargetAmp™ 2-Round Biotin-aRNA Amplification Kit 3.0 (TAB2R71024).  The cRNA was hybridized to Illumina MouseRef8v2 arrays using Illumina provided protocols and scanned using an Illumina HiScan.  Quantile normalized and background subtracted values were subsequently analyzed using R.
+

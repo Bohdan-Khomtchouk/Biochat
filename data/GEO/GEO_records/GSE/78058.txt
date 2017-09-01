@@ -1,0 +1,12 @@
+TITLE
+RNA-Seq Analysis of VRF1-dependent Genes in the appressoria of Magnaporthe oryzae 70-15
+
+ORGANISM
+Magnaporthe oryzae 70-15
+
+SUMMARY
+Purpose: The goals of this study are to find out the genes regulated directly or indirectly by C2H2 transcription factors Vrf1 by RNA-seq in the rice blast fungus Magnaporthe oryzae Methods: Appressorial mRNAs of the wild type strain 70-15 and Δvrf1 conidia incubated in H2O on plastic membranes at 28˚C for 5 h, in triplicate independently for each strain, were extracted and isolated by RNeasy Plant mini kit (QIAGEN) and AMPure XP beads (Beckman). RNA-sequencing libraries were constructed using NEBNext RNA sample preparation kit (NEB). Samples were sequenced on Illimina Nextseq500 SE75 (1*75).The M. oryzae genome database (Version 7) (www.broadinstitute.org) was used as a reference gene database. Genome-wide transcript levels of genes were quantified in fragments per kilobase of exon model per million mapped reads (FPKM) (Trapnell 2010). Gene Ontology (GO) enrichment analyses for differentially expressed genes were performed using hypergeometric test with topGO, and p-values were adjusted with Bonferroni for multiple testing (Alexa 2006). And we selected FDR < 0.05 as enrichment terms. Results and Conclusions: We identified 2709 genes regulated by VRF1 through RNA-Seq, with 1739 genes down-regulated and 970 genes up-regulated in Δvrf1. Interestingly, a lots of appressorium-specific genes were down-regulated in Δvrf1, suggesting that Vrf1 is a specific transcription factor which regultes the expression of genes in appressorium formation.
+
+DESIGN
+Appressorial mRNA profiles of the wild type strain 70-15 (WT) and Δvrf1 conidia incubated in H2O on plastic membranes for 5 h were generated, in biologic triplicate.
+

@@ -1,0 +1,12 @@
+TITLE
+Discovery of cis-spliced chimeric RNAs between adjacent genes in human prostate cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Total RNA extracted from prostate cancer LNCaP cells transfected with siRNA against CTCF(siCTCF), or negative control siRNA (si-)were processed, and sequenced by two different companies using Illumina Hi-seq 2000 platform to generate RNA sequencing with two output sequences: paired-end 50bp and 101bp in read length. Nearly 100 million and 50 million raw reads were yielded from each sample respectively. We used FastQC to confirm the quality of raw fastq sequencing data, and SOAPfuse software to detect fusion transcripts.
+
+DESIGN
+Discovering fusion genes from siCTCF and si- in LNCaP cells.
+

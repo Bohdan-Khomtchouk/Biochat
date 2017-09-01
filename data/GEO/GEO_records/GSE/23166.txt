@@ -1,0 +1,12 @@
+TITLE
+Interactions among Polycomb domains are guided by chromosome architecture
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Polycomb group (PcG) proteins bind and regulate hundreds of genes. Previous evidence has suggested that long-range chromatin interactions may contribute to the regulation of PcG target genes. Here, we adapted the Chromosome Conformation Capture on Chip (4C) assay to systematically map chromosomal interactions in Drosophila melanogaster larval brain tissue. Our results demonstrate that PcG target genes interact extensively with each other in nuclear space. These interactions are highly specific for PcG target genes, because non-target genes with either low or high expression show distinct interactions. Notably, interactions are mostly limited to genes on the same chromosome arm, and we demonstrate that a topological rather than a sequence-based mechanism is responsible for this constraint. Our results demonstrate that many interactions among PcG target genes exist, and that these interactions are guided by overall chromosome architecture.
+
+DESIGN
+We applied Chromosome Conformation Capture on Chip (4C) to map long-range chromatin interactions among PcDs on a genome-wide scale. Moreover, we implemented a modification of the 4C protocol in which the 4C PCR products are further amplified in a linear fashion using a T7 RNA amplification procedure. Finally, we fluorescently labeled the amplified products with dye and hybridized them to a specially designed microarray, which covers approximately 92% of the non-repetitive fly genome. In this way, we could identify all fragments that are in close contact with a chosen locus with limited material from a single fly tissue (i.e. larval brain).
+

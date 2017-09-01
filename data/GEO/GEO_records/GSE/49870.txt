@@ -1,0 +1,12 @@
+TITLE
+HOT regions are CpG dense promoters in C. elegans and humans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+ChIP seq of Cfp-1 and H3K4me3 in C. elegans late embryos
+
+DESIGN
+The coding region of F52B11.1a (cfp-1) was PCR amplified from N2 genomic DNA using Phusion polymerase (Finnzymes) and Gateway cloned into pDONR221.   The cfp-1 coding region was then recombined into the MosSCI compatible vector pCFJ201 (which targets Mos site Mos1(cxTi10882) chrIV ) downstream of the dpy-30 promoter and upstream of gfp::tbb-2 3’UTR (Zeiser et al. 2011) to generae strain JA1597 expressing GFP tagged Cfp-1 protein.  Late embryos were obtained by aging embryos collected by hypochlorite treatment 3.5 hrs prior to flash freezing in liquid nitrogen.  Formaldehyde-fixed chromatin extracts and chromatin immunoprecipitations were as in (Kolasinska-Zwierz et al. 2009) except that DNA was sonicated to a size range of 200-400bp.  ChIP assays were performed in 1 ml extract (1 mg protein) in FA buffer with 10 micrograms of anti-GFP rabbit serum (Abcam ab290) and anti-H3K4me3 (Abcam ab8580) individually.  DNA sequencing libraries were constructed according using the Illumina Truseq sequencing kit and were sequenced on the Illumina platform.
+

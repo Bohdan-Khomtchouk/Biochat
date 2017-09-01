@@ -1,0 +1,12 @@
+TITLE
+Identification of biomarkers that distinguish chemical contaminants using a gradient feature selection method
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+There are many toxic chemicals to contaminate the world and cause harm to human and other organisms. How to quickly discriminate these compounds and characterize their potential molecular mechanism and toxicity is essential. High through put transcriptomics profiles such as microarray have been proven useful to identify biomarkers for different classification and toxicity prediction purposes. Here we aim to investigate how to use microarray to predict chemical contaminants and their possible mechanisms. In this study, we divided 105 compounds plus vehicle control into 14 compound classes. On the basis of gene expression profiles of in vitro primary cultured hepatocytes, we comprehensively compared various normalization, feature selection and classification algorithms for the classification of these 14 class compounds. We found that normalization had little effect on the averaged classification accuracy. Two support vector machine methods LibSVM and SMO had better classification performance. When feature sizes were smaller, LibSVM outperformed other classification methods. Simple logistic algorithm also performed well. At the training stage, usually the feature selection method SVM-RFE performed the best, and PCA was the poorest feature selection algorithm. But overall, SVM-RFE had the highest overfitting rate when an independent dataset used for a prediction in this case. Therefore, we developed a new feature selection algorithm called gradient method which had a pretty high training classification as well as prediction accuracy with the lowest over-fitting rate. Through the analysis of biomarkers that distinguished 14 class compounds, we found a goup of genes that mainly invovled in cell cylce were significanly downregulated by the metal and inflammatory compounds, but were induced by anti-microbial, cancer related drugs, pesticides, and PXR mediators.
+
+DESIGN
+For in vitro experiment, primary cultured rat hepatocytes were treated one of 105 compounds  with relative controls. At least three biological replicates were used for each unique condition. In total 531 arrays were used.
+

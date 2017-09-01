@@ -1,0 +1,9 @@
+TITLE
+Fine-scale mapping of copy-number alterations with massively parallel sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In order to benchmark the reproducibility of Affymetrix 238K Sty arrays for detecting copy-number alterations.  We performed replicate hybridizations of 3 tumor cell lines and 2 paired normal cell lines obtained from the American Type Culture Collection (ATCC). We calculated copy numbers at each SNP probeset by array pre-processing with the GISTIC algorithm (PMID: 18077431). For each SNP probeset, we calculated the median copy number across replicate arrays.  The median copy number profile for each tumor cell line was segmented with the GLAD algorithm (PMID: 15381628) to partition the genome into regions of constant copy number. We compared the copy-number alterations detected by GLAD segmentation of these arrays with statistical analyses of short sequence reads obtained from the Illumina/Solexa 1G GenomeAnalyzer.  Shotgun sequencing results can be found in the NCBI Short Read Archive, accession number SRP000246. Keywords: disease state analysis
+

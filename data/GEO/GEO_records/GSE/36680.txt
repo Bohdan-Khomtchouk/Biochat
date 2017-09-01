@@ -1,0 +1,12 @@
+TITLE
+Effect of LPS on global gene expression in human skin fibroblasts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To examine responses induced by TLR4 activation at the genome-wide level, confluent fibroblasts in serum-free media were incubated with or without LPS for 6 h, and RNA was isolated using RNeasy mini kits (Qiagen, Valencia, CA). The integrity of RNA was ascertained using Agilent Bioanalyzer (Santa Clara, CA), cDNA was labeled using an Ambion labeling kit (Ambion), and hybridized to Illumina human HT-12 version 4 Expression Microarray Chips (Illumina, San Diego, CA) as described. Raw signal intensities for each probe were obtained using Illumina Beadstudio data analysis software and imported to the Bioconductor lumi package for data transformation and normalization. Probes with all samples   absent   (near or below background levels) were filtered. To control for multiple testing and reduce the false positive rate (FDR), stringent statistical criteria were used to identify differentially expressed genes with raw p < 0.01 and FDR adjusted p value < 0.05.
+
+DESIGN
+Confluent human skin fibroblasts in serum-free media were incubated with or without LPS for 6 h, and RNA was isolated using RNeasy mini kits (Qiagen, Valencia, CA).
+

@@ -1,0 +1,12 @@
+TITLE
+Mouse ES Timecourse
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+High temporal resolution RNAseq timecourse of mouse ES differentiation Investigations of transcriptional responses during developmental transitions typically use time courses with intervals that are not commensurate with the timescales of known biological processes. Moreover, such experiments typically focus on protein-coding transcripts, ignoring the important impact of long noncoding RNAs. We evaluated coding and noncoding expression dynamics at unprecedented temporal resolution (6-hourly) in differentiating mouse embryonic stem cells and report the effects of increased temporal resolution on the characterization of the underlying molecular processes.
+
+DESIGN
+Biological duplicate 120 hours of undirected mouse ES cell differentiation sampled 6 hourly Biological duplicate, low passage number (P18) W9.5 ESCs were cultured and differentiated as described previously [PMID:18562676; 17286599]. Cultures were harvested every six hours from the induction of differentiation to 120 hours post differentiation induction. Total RNA from cultures was purified using Trizol (Life Technologies) and DNase treatment was performed by RQ1 DNase (Promega) according to the manufacturer’s instructions. RNA integrity was measured on a Bioanalyzer RNA Nano chip (Agilent). RNA-Seq library preparation and sequencing of Poly-A-NGS libraries generated from 500 ng total RNA using SureSelect Strand Specific RNA Library Preparation Kit (Agilent) according to the manufacturer’s instructions. Paired-end libraries were sequenced to the first 100 bp on a HiSeq 2500 (Illumina) on High Output Mode. Library sequencing quality was determined using FastQC (Babraham Bioinformatics) and FastQ Screen (Babraham Bioinformatics). Illumina adaptor sequence and low quality read trimming (read pair removed if < 20 base pairs) was performed using Trim Galore! (Babraham Bioinformatics: www.bioinformatics.babraham.ac.uk/). Tophat2 [PMID:23618408] was used to align reads to the December 2011 release of the mouse reference genome (mm10) as outlined by Anders et al.[PMID:23975260]. Read counts data corresponding to GENCODE vM2 transcript annotations were generated using HTSeq[PMID:25260700]. All analyses were performed in the R Statistical Environment [PMID:18000755]. Briefly, counts data were background corrected and normalized for library size using edgeR [PMID:19910308],  then transformed using voom[PMID:24485249] for differential expression analysis using LIMMA[PMID: 16646809].
+

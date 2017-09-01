@@ -1,0 +1,12 @@
+TITLE
+FOXP3+ regulatory T cell development and function require histone/protein deacetylase 3
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Treg dysfunction is associated with a variety of inflammatory diseases. Treg populations are defined by expression of the oligomeric transcription factor FOXP3 and inability to produce IL-2, a cytokine required for T cell maintenance and survival. FOXP3 activity is regulated post-translationally by histone/protein acetyltransferases and histone/protein deacetylases (HDACs). Here, we determined that HDAC3 mediates both the development and function of the two main Treg subsets, thymus-derived Tregs and induced Tregs (iTregs). We determined that HDAC3 and FOXP3 physically interact and that HDAC3 expression markedly reduces Il2 promoter activity. In murine models, conditional deletion of Hdac3 during thymic Treg development restored Treg production of IL-2 and blocked the suppressive function of Tregs. HDAC3-deficient mice died from autoimmunity by 4-6 weeks of age; however, injection of WT FOXP3+ Tregs prolonged survival. Adoptive transfer of Hdac3-deficient Tregs, unlike WT Tregs, did not control T cell proliferation in naive mice and did not prevent allograft rejection or colitis. HDAC3 also regulated the development of iTregs, as HDAC3-deficient conventional T cells were not converted into iTregs under polarizing conditions and produced large amounts of IL-2, IL-6, and IL-17. We conclude that HDAC3 is essential for the normal development and suppressive functions of thymic and peripheral FOXP3+ Tregs.
+
+DESIGN
+RNA was isolated using RNeasy kits (QIAGEN), and RNA integrity and quantity were analyzed by NanoDrop ND-1000 and Nanochip 2100 Bioanalyzer (Agilent Technologies). Microarray experiments were performed using whole mouse genome oligoarrays (Mouse430a, Affymetrix) and array data analyzed using MAYDAY 2.12 software. Array data were subjected to robust multiarray average (RMA) normalization and analyzed using Student’s t test. Only data with a false discovery rate-adjusted P value of less than 0.05 and at least 2× differential expression were included in the analysis. Data underwent z-score transformation for display.
+

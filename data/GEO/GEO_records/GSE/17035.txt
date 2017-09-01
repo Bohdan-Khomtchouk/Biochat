@@ -1,0 +1,12 @@
+TITLE
+microRNA microarray profiling in the livers of control db/+ and diabetic db/db mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Analysis revealed a set of 13 microRNAs to be significantly altered between livers of control db/+ and diabetic db/db mice. Of these, miR-34a, miR-107, miR-378, miR-378*, miR-31, miR-31*, miR-151-5p, miR-676, miR-22, miR-93, let-7b were up-regulated and let-7e and miR-227 were down-regulated. A total of 670 predicted targets for these altered miRNAs were extracted from PicTar and TargetScan and functional characterisation mapped these targets to several biological processess related to varied metabolic pathways. The Wnt signaling pathway that has been shown to be linked to diabetes emerged as the most prominent pathway from these sets of target genes.
+
+DESIGN
+Four animals each from control db/+ and diabetic db/db mice were taken for the experiment. There was a significant increase in the body weight and plasma glucose levels in the diabetic group as compared to the control group. The livers were excised and total RNA was isolated, labelled and hybridized to mouse miRNA Microarray (V1) microarrays from Agilent. After hybridization, the slides were washed and scanned on an Agilent microarray scanner (model G2565BA) at 100 and 5% XDR settings. Agilent Feature Extraction software version 9.3.5 was used to extract the raw data. Microarray Data Analysis: The raw data were global median normalized and log transformed and analyzed by Significance Analysis of Microarray (SAM). SAM calculates a score for each gene as a change of expression relative to the standard deviation of all measurements and therefore identifies genes that are significantly associated with an outcome variable such as the disease stage. In SAM tests, a false Discovery Rate (FDR) of less than 5% was selected and parameters were set as default.
+

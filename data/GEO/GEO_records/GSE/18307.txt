@@ -1,0 +1,12 @@
+TITLE
+Systems Modeling of the Rho Signaling Network
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Describing the architecture of robust, nonlinear cell signaling networks is essential to gain a predictive understanding of cellular behavior.  The structure of the Drosophila Rho-signaling network, comprised of Rho-family GTPases, RhoGTP Exchange Factors (RhoGEFs), and RhoGTPase Activating Proteins (RhoGAPs), has been particularly difficult to infer due to the highly overlapping function and substrate specificity of network components.  We developed a parameterized modeling approach to predict connectivity amongst components of the Rho-signaling network that was driven by hundreds of mRNA expression profiles derived from RNAi-mediated inhibition or overexpression of component genes. Our model incorporated rate kinetics, transcriptional feedback, and noise. We biochemically validated several novel predicted connections, and used this model to predict Rho-signaling response to particular conditions. While functional redundancy is a feature of all signaling systems that often prevents classical genetic methods from elucidating relationships between components, the methods described here provide the basis for describing any complex network architecture. Keywords: Genetic modification, RNAi-mediated gene inhibition
+
+DESIGN
+129 samples analyzed. Experiments were peformed in batches of 4 containing 1 control/reference sample (transfection of GFP alone) that was prepared in parallel with experimental samples. There are 30 reference samples. The majority of experiments were replicated 2-6 times.
+

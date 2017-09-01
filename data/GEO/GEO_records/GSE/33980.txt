@@ -1,0 +1,12 @@
+TITLE
+RosR is a haloarchaeal-specific transcription factor required for the response to extreme oxidative stress in Halobacterium salinarum NRC-1.
+
+ORGANISM
+Halobacterium salinarum NRC-1
+
+SUMMARY
+Previous work has shown that the hypersaline-adapted archaeon, Halobacterium salinarum NRC-1, is highly resistant to oxidative stress caused by exposure to hydrogen peroxide, UV and gamma radiation.  Genome-wide dynamics alteration of gene the GRN has been implicated in such resistance. However, the molecular function of transcription regulatory proteins involved in this response remains unknown. Here we have leveraged several existing GRN and systems biology datasets for H. salinarum to identify and characterize a novel winged helix-turn-helix transcription factor, VNG0258H, as a regulator required for reactive oxygen species resistance in this organism. This protein appears to be unique to the haloarchaea at the primary sequence level. Quantitative growth assays in a deletion mutant strain implicate VNG0258H in extreme oxidative stress resistance. According to time course gene expression analyses, this transcription factor is required for the appropriate dynamic response of nearly 300 genes to reactive oxygen species damage from paraquat and hydrogen peroxide. These genes are predicted to function in repair of oxidative damage to proteins and DNA. in vivo DNA binding assays (ChIP-qPCR) demonstrate that VNG0258H binds DNA to mediate gene regulation. Together these results suggest that VNG0258H is a novel archaeal transcription regulatory protein that regulates gene expression to enable adaptation to the extremely oxidative, hypersaline niche of H. salinarum. We have therefore renamed VNG0258H as RosR, for reactive oxygen species regulator. Data in this archive are linked to the publication Sharma KS, Gillum NA, Schmid AK 2012
+
+DESIGN
+The Δura3 and ΔrosR strains were grown to mid-logarithmic phase (OD600 ~ 0.5) in CM supplemented with uracil. For the H2O2 time courses, 4 ML culture aliquots were removed for RNA extraction at three time points prior to the addition of H2O2 (-40 min, -20 min, 0min) and five time points following H2O2 addition (10 min, 20 min, 40 min, 60 min, 80 min). Paraquat time courses were prepared similarly with the exception that additional time points were taken at 2h, 8h, and 24 h after the addition of paraquat. RNA from two biological replicate time courses were prepared, along with a dye filip.
+

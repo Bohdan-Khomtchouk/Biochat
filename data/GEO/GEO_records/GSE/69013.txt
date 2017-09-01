@@ -1,0 +1,12 @@
+TITLE
+Active chromatin and transcription play a key role in chromosome partitioning into topologiсally associating domains
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Recent advances enabled by Hi-C technique have unraveled principles of chromosomal folding, which were since linked to many genomic processes. In particular, Hi-C revealed that chromosomes of animals are organized into Topologically Associating Domains (TADs), evolutionary conserved compact chromatin domains that influence gene expression. However, mechanisms that underlie partitioning of the genome into TADs remain poorly understood. To explore principals of TAD folding in Drosophila melanogaster, we performed Hi-C and PolyA+ RNA-seq in four cell lines of various origins (S2, Kc167, DmBG3-c2, and OSC). Contrary to previous studies, we find that regions between TADs (i.e. the inter-TADs and TAD boundaries) in Drosophila are only weakly enriched with the insulator protein dCTCF, while another insulator protein Su(Hw) is preferentially present within TADs. However, Drosophila inter-TADs harbor active chromatin and constitutively transcribed (housekeeping) genes. Accordingly, we find that binding of insulator proteins dCTCF and Su(Hw) predict TAD boundaries much worse than the active chromatin marks (in the minimal case, H3K4me3 and total RNA) do. Moreover, inter-TADs correspond to decompacted interbands of polytene chromosomes, whereas TADs mostly correspond to densely packed bands. Collectively, our results suggest that TADs are condensed chromatin domains depleted in active chromatin marks, separated by regions of active chromatin that cannot be organized into compact structures, possibly due to high levels of histone acetylation. Finally, we test this hypothesis by polymer simulations, and find that TAD partitioning can be explained by different modes of inter-nucleosomal interactions for active and inactive chromatin.
+
+DESIGN
+Hi-C experiments, PolyA+ RNA profiling and mapping of chromosomal rearrangements in four Drosophila melanogaster cell lines.
+

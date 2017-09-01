@@ -1,0 +1,12 @@
+TITLE
+Hybrid mice reveal parent-of-origin and cis- and trans-regulatory effects in the retina
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A fundamental challenge in genomics is to map DNA sequence variants onto changes in gene expression. Gene expression is regulated by cis-regulatory elements (CREs, i.e., enhancers, promoters, and silencers) and the trans factors (e.g., transcription factors) that act upon them. A powerful approach to dissecting cis and trans effects is to compare F1 hybrids with F0 homozygotes. Using this approach and taking advantage of the high frequency of polymorphisms in wild-derived inbred Cast/EiJ mice relative to the reference strain C57BL/6J, we conducted allele-specific mRNA-seq analysis in the adult mouse retina, a disease-relevant neural tissue. We found that cis effects account for the bulk of gene regulatory divergence in the retina. Many CREs contained functional (i.e., activating or silencing) cis-regulatory variants mapping onto altered expression of genes, including genes associated with retinal disease. By comparing our retinal data with previously published liver data, we found that most of the cis effects identified were tissue-specific. Lastly, by comparing reciprocal F1 hybrids, we identified evidence of imprinting in the retina for the first time. Our study provides a framework and resource for mapping cis-regulatory variants onto changes in gene expression, and underscores the importance of studying cis-regulatory variants in the context of retinal disease.
+
+DESIGN
+Retinas from four classes of 8 week old male mice were collected: F0 C57BL/6J (B6), F0 Cast/EiJ (Cast), F1 B6xCast, and F1 CastxB6. Three replicates per class were generated. Each replicate consisted of a pool of 6-8 retinas. The mRNA-seq was conducted with paired-end 2x101 sequencing on the Illumina HiSeq 2000 platform. One lane of sequencing was run for all twelve samples. An additional lane of sequencing was run for the six F1 samples.
+

@@ -1,0 +1,12 @@
+TITLE
+RNA binding by the histone methyltransferases Set1 and Set2
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Histone methylation at H3K4 and H3K36 is commonly associated with genes actively transcribed by RNA polymerase II (RNAPII) and is catalyzed by Saccharomyces cerevisiae Set1 and Set2, respectively. Here we report that both methyltransferases can be UV cross-linked to RNA in vivo. High-throughput sequencing of the bound RNAs revealed strong Set1 enrichment near the transcription start site, whereas Set2 was distributed along pre-mRNAs. A subset of transcripts showed notably high enrichment for Set1 or Set2 binding relative to RNAPII, suggesting functional post-transcriptional interactions. In particular, Set1 was strongly bound to the SET1 mRNA, Ty1 retrotransposons, and noncoding RNAs from the ribosomal DNA (rDNA) intergenic spacers, consistent with its previously reported silencing roles. Set1 lacking RNA recognition motif 2 (RRM2) showed reduced in vivo cross-linking to RNA and reduced chromatin occupancy. In addition, levels of H3K4 trimethylation were decreased, whereas levels of dimethylation were increased. We conclude that RNA binding by Set1 contributes to both chromatin association and methyltransferase activity.
+
+DESIGN
+RNA Seq expression profiling of the S. cerevisiae transcriptome was conducted to compared the expression of transcripts in wild-type W303 cells (WT) and W303 cells with set2::His3 knockout (SET2 KO). All conditions were run in triplicate.
+

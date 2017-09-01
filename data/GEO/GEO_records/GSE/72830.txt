@@ -1,0 +1,12 @@
+TITLE
+Expression profiling of S2 cells overexpressing wildtype or polymerization-defective Ph
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Chromatin in eukaryotic nuclei is organized at multiple scales, from individual nucleosomes to specific loops between regulatory sequences, to the folding of large genomic regions into topological domains and segregation of whole chromosomes into territories. Many of the chromatin proteins that regulate this architecture, including the essential Polycomb Group (PcG) proteins, are themselves organized into subnuclear structures. Deciphering mechanistic links between protein organization and genome architecture requires precise description and mechanistic perturbations of both. Using super-resolution microscopy, we characterized the nanoscale organization of PcG proteins in Drosophila cells and find hundreds of small protein clusters, distinct from the large PcG bodies present in just a few copies per cell that have been the focus of previous investigations. We manipulated PcG clusters either by disrupting the polymerization activity of the conserved Sterile Alpha Motif (SAM) of the PcG protein Polyhomeotic (Ph) or increasing Ph levels in Drosophila S2 cells. Disrupting clustering using Ph SAM mutations disrupts chromatin interactions on scales from 50kb to 13Mb while increasing Ph levels increases both cluster number and long range chromatin interactions. RNA-seq and qPCR indicate that both perturbations also alter expression levels of many genes.  Molecular simulations suggest a model in which PcG cluster formation on chromatin is governed by the kinetics of association between Ph SAMs and PcG cluster size is bounded by the affinity and occupancy of chromatin binding sites.  Our results suggest that nanoscale organization of PcG proteins into small, abundant clusters on chromatin through the polymerization activity of Ph SAM shapes genome architecture by mediating numerous long-range chromatin interactions.
+
+DESIGN
+Two biological replicates of three RNA-seq samples from S2 cells, cells overexpresing wild-type Ph, and cells overexpressing polymerization defective Ph-ML
+

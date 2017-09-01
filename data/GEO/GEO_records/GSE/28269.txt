@@ -1,0 +1,12 @@
+TITLE
+Patterns and mechanisms of ancestral histone protein inheritance in budding yeast
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+It is widely believed that chromatin, the nucleoprotein packaging state of eukaryotic genomes, can carry epigenetic information to propagate gene expression patterns in replicating cells. However, inheritance of genomic packaging status is subject to mechanistic challenges that do not confront the inheritance of genomic DNA sequence. Most notably, histone proteins must at least transiently dissociate from the maternal genome during replication, and it is unknown whether maternal proteins re-associate with daughter genomes near the sequence they originally occupied on the maternal genome. Here, we use a novel method for tracking old proteins to measure where histone proteins accumulate after 1, 3, or 6 generations of growth in yeast. To our surprise, ancestral histones accumulate near the 5’ end of long, relatively inactive genes. Using a mathematical model, we show that our results can be explained by the combined effects of histone replacement, histone movement along genes from 3’ to 5’, and histone spreading during replication. Our results show that old histones do move, but stay relatively close (~400 bp) to their original location, which places important constraints on how chromatin could potentially carry epigenetic information. Our findings also suggest that accumulation of ancestral histones can influence histone modification patterns.
+
+DESIGN
+Solexa/Illumina sequencing of H3-HA and H3-T7 MNase-ChIP. Samples of HA and T7 libraries were taken after the tag swap (a) before release from arrest (0 generations), (b) at 1, 3 and 6 cell divisions or (c) after 5 hours of G2/M arrest. Gene deletion mutants for (d) cac1 (e) top1 and (f) H4-tail deletion were taken after 3 cell divisions.
+

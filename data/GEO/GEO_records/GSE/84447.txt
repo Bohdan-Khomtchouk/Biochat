@@ -1,0 +1,12 @@
+TITLE
+Unbiased genomic analysis of multiple stages of lung cancer development
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To uncover the gene expression alterations that occur during lung cancer progression, we interrogated the gene expression state of neoplastic cells at different stages of malignant progression. We initiated tumors in KrasLSL-G12D/+;p53flox/flox;R26LSL-tdTomato  (KPT) mice with a pool of barcoded lentiviral-Cre vectors and purified Tomatopositive cancer cells away from the diverse and variable stromal cell populations. Five to nine months after tumor initiation, cancer cells were isolated from individual primary tumors and metastases using fluorescence-activated cell sorting. Sequencing of the barcode region of the integrated lentiviral vectors established primary tumor-metastasis and metastasis-metastasis relationships. Tumor barcoding allowed us to unequivocally distinguish non-metastatic primary tumors (TnonMet) from those primary tumors that had seeded metastases (TMet). We profiled 10 TnonMet samples as well as TMet and metastasis (Met) samples representing 12 metastatic events. To examine additional earlier stages of lung cancer development, we also analyzed premalignant cells from hyperplasias that develop in KPT mice shortly after tumor initiation (KPT-Early; KPT-E), as well as tumors from KrasG12D;R26LSL-tdTomato (KT) mice which rarely gain metastatic ability
+
+DESIGN
+This study includes 52 samples: 3 KP late samples, 3KPT early samples,10 non-metastatic primary tumors, 9 metastatic primary tumors, and 27  metastasis in different organs. total RNA was isolated and prepared for sequencing using the Ovation® RNA-Seq system and Illumina TruSeq DNA kit (v2) to generate 100bp paired end reads. Reads were aligned to mm10.
+

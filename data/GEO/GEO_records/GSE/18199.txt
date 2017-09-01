@@ -1,0 +1,12 @@
+TITLE
+Comprehensive mapping of long-range interactions reveals folding principles of the human genome.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We describe Hi-C, a method that probes the three-dimensional architecture of whole genomes by coupling proximity-based ligation with massively parallel sequencing. We constructed spatial proximity maps of the human genome with Hi-C at a resolution of 1Mb. These maps confirm the presence of chromosome territories and the spatial proximity of small, gene-rich chromosomes.  We identified an additional level of genome organization that is characterized by the spatial segregation of open and closed chromatin to form two genome-wide compartments.  At the megabase scale, the chromatin conformation is consistent with a fractal globule, a knot-free conformation that enables maximally dense packing while preserving the ability to easily fold and unfold any genomic locus. The fractal globule is distinct from the more commonly used globular equilibrium model. Our results demonstrate the power of Hi-C to map the dynamic conformations of whole genomes. The processed heatmap data, showing the number of read pairs corresponding to particular locus pairs in the genome, are linked to the Series record below. The processed eigenvector data used to generate the heatmaps are linked to the Series record below. Additional DNAseI and ChIP-Seq data tracks were used in the paper, and are available at the UCSC browser ( ) DNAseI: wgEncodeUwDnaseSeqRawSignalRep2K562 wgEncodeUwDnaseSeqRawSignalRep2Gm06990 ChIP-Seq: wgEncodeBroadChipSeqSignalGm12878H3k36me3 wgEncodeBroadChipSeqSignalGm12878H3k27me3
+
+DESIGN
+Interaction maps in 2 different cell types.
+

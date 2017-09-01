@@ -1,0 +1,9 @@
+TITLE
+Letrozole-, Anastrozole- and Tamoxifen-Responsive Genes in MCF-7aro Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Anti-estrogens and aromatase inhibitors are important drugs in the treatment of estrogen-dependent breast cancer.  In order to investigate the effects of these drugs on gene expression in breast cancer cells, we treated estrogen receptor-positive MCF-7 cells, stably transfected with the aromatase gene (known as MCF-7aro cells), with testosterone, 17β-estradiol, two aromatase inhibitors (letrozole and anastrozole), and an anti-estrogen (tamoxifen).  Microarray analyses using Affymetrix Human Genome U133A GeneChips were carried out using total RNA isolated from the control and treated cells.  When comparing the effect of each inhibitor on gene expression we observe that letrozole and anastrozole are more similar in terms of the genes they affect, compared to treatment with tamoxifen.  The results of this study provide us with a better understanding of the actions of both aromatase inhibitors and anti-estrogens at the molecular level.  We believe that the results of this study serve as the first step in identifying unique expression patterns following drug treatment, and that this will ultimately be useful in customizing patient treatment strategies for estrogen-dependent breast cancer. The data presented here have been processed using the R-Project Bioconductor statistical tools package using the affy library.  The following were applied:  RMA background correction, pmonly probe-level correction, quantile normalization, avgdiff summary method.  Raw data is provided in the form of .CEL files. Keywords = estrogen-dependent breast cancer Keywords = aromatase Keywords: other
+

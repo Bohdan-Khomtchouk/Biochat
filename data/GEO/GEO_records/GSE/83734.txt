@@ -1,0 +1,12 @@
+TITLE
+Absolute quantification of B cell transcriptome using ERCC spiked-in RNA
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+RNA-seq analysis of with known quantity of cell numbers and reference RNA (ERCC) to determine absolute abundance of endogenous mRNA abundances in B cells
+
+DESIGN
+WT B cells were prepared as described. 3 x 10^6 cells were harvested at indicated time points (naïve, 1.5h, 4.5h, 13.5hr and 25.5hr). We determined the amount of ERCC control needed to cover the whole dynamic range of endogenous mRNA abundance at each time point in a pilot experiment, and added the following amounts of ERCC control into 3 x 10^6 cells before RNA extraction: naïve, 1uL or 0.1uL; 1.5h and 4.5h, 0.5uL; 13.5hr, 1uL; and 25.5hr, 2uL.
+

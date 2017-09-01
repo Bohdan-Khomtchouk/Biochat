@@ -1,0 +1,12 @@
+TITLE
+Polycomb-like 3 is a PRC2 component that supports embryonic stem cell self-renewal
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Polycomb repressive complex 2 (PRC2) trimethylates lysine 27 of histone H3 (H3K27me3), which regulates gene expression and controls diverse biological transitions in development, embryonic stem cell (ESC) differentiation, and cancer.  Here we show that Polycomb-like 3 (Pcl3) is a component of PRC2 that promotes H3K27 trimethylation in ESCs.  Chromatin immunoprecipitation and sequencing (ChIP-seq) revealed that Pcl3 co-localizes and recruits Suz12 to CpG islands.  Depletion of Pcl3 decreased Suz12 binding at over 60% of PRC2 targets, including many bivalent genes.  Pcl3 promotes ESC self-renewal as knockdown of Pcl3 increased spontaneous differentiation.  However, Pcl3 does not affect ESC pluripotency as teratomas derived from Pcl3-depleted ESCs were able to form all three germ layers.  Mutation of conserved residues within the Pcl3 TUDOR domain, a domain that recognizes methylated histones, compromises H3K27me3, suggesting that the TUDOR domain of Pcl3 is crucial for function.  Thus, Pcl3 is a component of PRC2 critical for histone methylation and PRC2 recruitment.
+
+DESIGN
+We reverted a Suz12 gene trap (Suz12Gt/+) allele generated in a mouse ESC line to produce an allele that re-expresses Suz12 but that contains a loxP targeting site (Suz12Rev/+). Using a modified Floxin shuttle vector, we inserted an exon encoding amino acids 277-741 of Suz12 fused to a carboxy-terminal 6xHis-3xFlag TAP tag.  The resultant allele (Suz12Suz12TAP/+) expresses the full-length TAP-tagged Suz12 from the endogenous locus. We then reduced Pcl3 expression by siRNA or shRNA. Finally, we performed ChIP-Seq using the Flag tag of Suz12Suz12TAP/+ cells expressing either Pcl3 or control shRNA.  To perform Pcl3 ChIP-seq, we created ESC clones expressing Pcl3-shRNAs and a TAP-tagged Pcl3 not recognized by the Pcl3-shRNAs.
+

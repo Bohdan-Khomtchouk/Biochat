@@ -1,0 +1,12 @@
+TITLE
+INO80 governs super-enhancer-mediated oncogenic transcription and tumor growth in melanoma [ATAC-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Super-enhancers (SEs) are large genomic regions with high density of enhancer marks. In cancer, SEs are found near oncogenes and dictate cancer gene expression. However, how oncogenic SEs are regulated remains poorly understood. Here, we show that INO80, a chromatin remodeling complex, is required for SE-mediated oncogenic transcription and tumor growth in melanoma. The expression of Ino80, the SWI/SNF ATPase, is elevated in melanoma cells and patient melanomas compared to normal melanocytes and benign nevi. Furthermore, Ino80 silencing selectively inhibits melanoma cell proliferation, anchorage-independent growth, as well as tumorigenesis and tumor maintenance in mouse xenografts. Mechanistically, Ino80 occupies more than 90% of SEs, and its occupancy is dependent on transcription factors such as MITF and Sox9.  Ino80 binding reduces nucleosome occupancy and facilitates Mediator recruitment, thus promoting oncogenic transcription. Consistently, genes co-occupied by Ino80 and Med1 are specifically expressed in melanomas compared to melanocytes. Together, our results reveal an essential role of INO80-dependent chromatin remodeling in SE function, and suggest a novel strategy for disrupting SEs in cancer treatment.
+
+DESIGN
+Human melanoma cell line A375 cells were infected with shNT or shIno80, and total RNA was extracted 2, 3, 4 days after infection. The RNA was submitted to RNA-Seq subsequently. For ChIP-Seq, either wild type A375 and SK-MEL-147, or A375 infected with shNT or shIno80, was used for ChIP-Seq for corresponding factors.
+

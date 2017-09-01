@@ -1,0 +1,12 @@
+TITLE
+A Probabilistic Model of Transcription Dynamics applied to Estrogen Signalling in Breast Cancer Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene  transcription mediated   by  RNA  polymerase  II  (pol-II)  is a  key  step  in  gene  expression. The dynamics  of pol-II moving along the transcribed region influences the rate  and timing  of gene expression. In this work we present a probabilistic model of transcription dynamics which is fitted to pol-II occupancy time course data  measured  using ChIP-Seq.  The model can be used to estimate  transcription speed and to  infer  the  temporal  pol-II  activity  profile at  the  gene promoter.  Model  parameters are  determined using either  maximum  likelihood estimation or via Bayesian inference using Markov chain  Monte  Carlo sampling.   The  Bayesian approach  provides  confidence intervals  for parameter estimates  and  allows the use of priors  that capture domain  knowledge, e.g.  the  expected  range  of transcription speeds, based  on previous experiments.  The model describes the movement of pol-II down the gene body and can be used to identify the time of induction for transcriptionally engaged genes.  By clustering  the inferred promoter activity  time  profiles, we are able to determine which genes respond quickly to stimuli and  group genes that share  activity  profiles and  may therefore  be co-regulated.  We apply  our methodology  to biological data  obtained using  ChIP-seq  to  measure  pol-II  occupancy  genome-wide  when  MCF-7  human  breast cancer cells are treated with estradiol  (E2).  The transcription speeds we obtain  agree with those obtained previously  for smaller  numbers  of genes with  the  advantage  that our approach  can be applied  genome- wide.   We  validate  the  biological  significance  of the  pol-II  promoter  activity  clusters  by  investigating cluster-specific  transcription factor  binding  patterns and determining  canonical  pathway  enrichment.
+
+DESIGN
+MCF-7 cells were mock treated or with 10nM 17b-E2 to seven time points (5', 10', 20', 40', 80', 160', 320')  Genome-wide identification of RNA polymerase II (RNAPII) occupancy at different time points following E2 induction of MCF-7 cells
+

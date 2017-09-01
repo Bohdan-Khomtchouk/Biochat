@@ -1,0 +1,12 @@
+TITLE
+Expression data from HEK293T cells infected with Shigella or treated with Rapamycin
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Shigella is an intracellular bacterial pathogen known to activate numerous innate immunity and inflammatory signaling pathways. Many of these pathways are also involved in mTOR signaling. We used HEK293T cell cultures and sought to understand how Shigella infection and rapamycin treatment affect the transcriptome and in particular whether there were commonly affected pathways in the two experimental conditions.
+
+DESIGN
+8 samples were used - 2 control that were uninfected/untreated -- 1 sample lost due to RNA degradation, 3 infected with Shigella for 4 hours, and 3 treated with Rapamycin (50 ug/mL) for 4 hours. All samples were from independent experiments. We used the program AltAnalyze to perform pairwise comparisons between Uninfected with Infected, and Uninfected with Rapamycin using default parameters.
+

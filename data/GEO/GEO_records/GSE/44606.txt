@@ -1,0 +1,12 @@
+TITLE
+Network analysis of wood properties, gene expression levels and genotypes of natural Populus trichocarpa accessions
+
+ORGANISM
+Populus trichocarpa
+
+SUMMARY
+High-throughput approaches have been widely applied to elucidate the genetic underpinnings of industrially important wood properties. Each single wood trait was found to be highly polygenic in its nature. However, gene hierarchies need to be assessed with the most important gene variants controlling a specific trait within the complex network of interacting secondary cell wall characteristics that defines the overall wood phenotype. We tested the available genetic and genomic information in an integrative approach to effectively predict wood properties in Populus trichocarpa.Nine-yr-old natural P. trichocarpa trees including accessions with high contrasts in six traits related to wood chemistry and ultrastructure were profiled for gene expression on 49K Nimblegen array elements and for 28,831 polymorphic SNPs. Pre-selected transcripts and SNPs with high statistical dependency on the phenotypic trait were used in a Bayesian network learning procedure with stepwise K2 algorithm to infer phenotype-centric networks. Transcripts were pre-selected at much lower logBF threshold than SNPs and were not accommodated in the networks. Complexity of phenotype-centric networks with 100% predictive accuracy ranged from 7 (glucose) to 39 SNPs (alpha-cellulose). Pleiotropic gene actions were accommodated in genetic networks of correlated traits; such gene variants help to understand independent evolution of trait values, and they represent new tools to support the maximization of correlated response to selection.
+
+DESIGN
+Developing xylem harvested at breast height from the north side of each tree stem from 17 genotypes with two biological replicates and from two additional genotypes without a second replicate previously identified as most extreme phenotypes in six wood traits was individually profiled for transcriptome analysis totaling 36 hybridizations to three NimbleGen 12-plex poplar arrays.
+

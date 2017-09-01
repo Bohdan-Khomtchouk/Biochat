@@ -1,0 +1,12 @@
+TITLE
+miRNA Profile in Three Different Normal Human Ocular Tissues by miRNA-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Since microRNAs (miRNAs) have been associated with eye diseases, our study aims to profile ocular miRNA expression in normal human eye tissue using miRNA-Seq in order to provide a foundation for future disease research. Total RNAs were extracted from normal human ciliary body (CB) (n=7), cornea (n=7), and trabecular meshwork (TM) (n=7) samples using mirVana total RNA isolation kit. The sequencing library was prepared using the Illumina TruSeq Small RNA Sample Prep kit and was sequenced using Illumina MiSeq. Generated sequence reads were trimmed and aligned against human reference database using the Bowtie software, and only exact matches to mature miRNAs from miRBase were included. miRTarBase database was used to analyze the gene targets of the miRNAs in our tissues, and expression of a few selected miRNAs were validated using droplet digital PCR (ddPCR). We found 378 miRNAs expressed collectively in our samples, of which miR-143-3p, miR-184, miR-26a-5p, and miR-204-5p were most abundantly expressed. With the expression patterns and gene targets, we identified several uniquely expressed miRNAs and created a profile of miRNAs known to target genes associated with keratoconus and glaucoma. Using ddPCR, we were able to validate the expression profile created using miRNA-Seq. For the first time, we profiled miRNA expression in three human ocular tissues using miRNA-Seq, identifying many miRNAs that had not been previously reported in ocular tissue. Knowing the expression of miRNAs in non-diseased eye tissues could help elucidate miRNA changes that accompany diseases such as glaucoma and keratoconus.
+
+DESIGN
+This study profiled the expression of miRNAs in normal human ciliary body (n=7), cornea (n=7), and trabecualr meshwork (n=7) tissue
+

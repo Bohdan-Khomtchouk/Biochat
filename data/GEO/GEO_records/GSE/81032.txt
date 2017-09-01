@@ -1,0 +1,12 @@
+TITLE
+Comparative proteomics and transcriptomics study of signaling network proteins across multiple normal and cancer cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+It is not known whether cancer cells generally show quantitative differences in the expression of signaling pathway proteins that could dysregulate signal transduction. To explore this issue, we first defined the primary components of the EGFR-MAPK pathway in normal human mammary epithelial cells, identifying 16 core proteins and 10 feedback regulators. We then quantified their absolute abundance at both the protein and mRNA level across a panel of normal and breast cancer cell lines. We found that core pathway proteins were present at very similar levels across all cell types. In contrast, the EGFR and transcriptionally controlled feedback regulators were present at highly variable levels. The absolute abundance of most core proteins was between 50,000-70,000 copies per cell, but the adaptors SOS1, SOS2, and GAB1 were found at far lower levels (2,000-5,000 per cell). MAPK signaling showed saturation in all cells between 3,000-10,000 occupied EGFR, consistent with the idea that adaptors limit signaling. Our results suggest that the relative stoichiometry of core MAPK pathway proteins is very similar across different cell types, with cell-specific differences mostly restricted to variable levels of feedback regulators. The low abundance of adaptors relative to the EGFR could be responsible for previous observation of saturable signaling, endocytosis, and high affinity EGFR.
+
+DESIGN
+Cells grown to ~80% confluence were serum starved and processed for both RNA-Seq and proteomics anaysis, using parallel samples. A total of seven samples. RNA was extracted from duplicate 15cm plates and poled before library preparation.
+

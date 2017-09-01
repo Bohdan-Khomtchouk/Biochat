@@ -1,0 +1,12 @@
+TITLE
+Transcriptional profiling of abdominal adipose tissue in juvenile broiler chickens divergently selected for abdominal fatness or leanness
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Chickens divergently selected for either high abdominal fat content (fat genotype) or low abdominal fat content (lean genotype) at SRA-INRA, France were used to profile abdominal adipose gene expression during juvenile development (1 to 11 weeks of age) and to identify differentially expressed genes associated with genotype and age. The fat line (FL) and lean line (LL) chickens are different in various phenotypic and metabolic measurements, including abdominal fatness, plasma glycemia and T3. The FL and LL chickens represent unique models for characterizing biomedical and agricultural traits. The Del-Mar 14K Chicken Integrated Systems microarrays were used for a transcriptional scan in abdominal adipose during juvenile development using a balanced block hybridization design. Fluorescence intensities were normalized within array (without background subtraction), and between array (aquantile method) in LIMMA package R [Smyth, G. K. (2004) Linear models and empirical Bayes methods for assessing differential expression in microarray experiments. Statistical Applications in Genetics and Molecular Biology, Vol. 3, No. 1, Article 3] producing M-values (log-2 expression ratios) and A-values (average log-2 expression values). Normalized values were analyzed using a two factor ANOVA model. A total of 3,669 unique differentially expressed functional genes were identified (FDR < 0.05). Genes were determined to have a significant effect of age (3,222), genotype (344), or an age by genotype interaction (254). The differentially expressed genes include metabolic enzymes, acute phase proteins, growth factors, coagulation factors, immune factors and transcription factors involved in various pathways. Several of the functional genes are also identified as positional candidate genes within QTLs in an F2 population established from an intercross between the FL and LL lines. Keywords: Divergently selected chickens, fatness, transcriptional profiling, differentially expressed genes
+
+DESIGN
+A balanced block design was used for microarray hybridizations, where half of the birds of each genotype and age were labeled with Alexa Flour 647 (red) and the other half with Alexa Flour 555 (green). Four biological replicates were used for each genotype (FL or LL) at six different ages (1, 3, 5, 7, 9 and 11 wk).
+

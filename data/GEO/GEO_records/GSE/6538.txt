@@ -1,0 +1,9 @@
+TITLE
+An experimental loop design improves the detection of congenital chromosomal aberrations by array CGH
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Comparative genomic hybridization microarrays (array CGH or molecular karyotyping) for the detection of congenital chromosomal aberrations is the application of microarray technology that is coming fastest into routine clinical application. When using a two-channel microarray of genomic DNA probes for array CGH, the basic setup consists in hybridizing a patient sample against a normal reference sample and detecting copy number variations through the deviation of fluorescent signal intensity between patient and normal reference. Two major disadvantages of this setup are (1) the use of half of the resources to measure a (little informative) reference sample and (2) the possibility that deviating signals are caused by benign copy number variation in the “normal” reference instead of a patient aberration. We therefore propose a new experimental loop design that compares three patients in three hybridizations (Patient 1 vs. Patient 3, Patient 3 vs. Patient 2, and Patient 2 vs. Patient 1). We develop and compare two statistical methods (linear models of log ratios and mixed models of absolute measurements). In an analysis of data from 27 patients seen at our genetics center, this new setup together with the linear model analysis significantly overcomes the limitations of the classical setup. Furthermore, we observed that the linear models of the log-ratios had a higher signal-to-noise ratio than the mixed models of the absolute intensities. These improvements are important to guarantee a maximal efficiency of array CGH in a clinical setting and will therefore contribute to its quick adoption as a routine diagnostic tool. The method is implemented as a web application and is available at www.esat.kuleuven.be/loop. Keywords: comparative genomic hybridization
+

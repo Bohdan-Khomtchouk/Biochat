@@ -1,0 +1,12 @@
+TITLE
+Abeta levels in APP Tg mice with mixed genetic backgrounds
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We combined a mouse model of Abeta accumulation and transcriptomics, and identified Klc1 as an Abeta accumulation modifier in vivo.
+
+DESIGN
+For this transcriptomics analysis, we used 12 arrays (one mouse mRNA sample per array) for inbred mice analyses and 28 arrays for the APP Tg mice of mixed genetic backgrounds.  First, 13309 probes whose signals were reliably detectable in all 40 arrays were selected from 25967 probes on the Illumina mouse Ref-8 Expression BeadChip.  Second, to select the probes whose expression levels were affected by the DBA genetic background, we compared the expression levels of the 13309 probes in DBA, B6 and SJL inbred (non-Tg) mice (unpaired t-test).　Using inbred mice means that any change in gene expression is based on their genetic background, not the secondary effects of Abeta accumulation. To minimize the chance of false positives, we applied strict criteria in this selection: the fold change was equal to or more than 1.5 and the false discovery rate (FDR) was set to 0.001. In total 54 probes were identified, with the signals of 47 probes being lower and 7 probes being higher in DBA mice than those in either B6 or SJL.   In the final step, we examined the correlation between the expression levels of these 54 probes and Abeta40 levels in the GuHCl fraction in APP Tg mice. Using strict selection criteria (Pearson’s product-moment correlation FDR=0.001), we identified a total of four probes which correlated with Abeta levels. Two of these probes were higher in DBA and negatively correlated with the levels of Abeta accumulation. The other two probes were lower in DBA and positively correlated with the levels of Abeta accumulatio. Notably, the two probes (probe ID 4050133 and 6130468) that positively correlated with Abeta accumulation both detected the same transcript: kinesin light chain 1 (Klc1; also known as Kns2).
+

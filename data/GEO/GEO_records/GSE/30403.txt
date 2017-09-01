@@ -1,0 +1,12 @@
+TITLE
+Farnesyl Diphosphate (FPP) Toxicity in E. coli, M9 medium
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+This experiment studied the effect of FPP accumulation on E. coli.  E. coli cells transformed with pMBIS (the S. cerevisiae mevalonate pathway enzymes converting mevalonate to FPP) and fed mevalonate produce large amounts of FPP, which causes toxicity when it accumulates.  When coupled with an active amorphadiene synthase (pADS) the cells produce amorphadiene, a non-toxic isoprenoid.  To accumulate FPP, but maintain similar protein burden, an amorphadiene synthase with 3 mutations to render it inactive was used (pADSmut) to accumulate FPP.  E. coli was transformed with pMBIS and pADS or pMBIS and pADSMut and grown in M9+glucose with varying magnesium concentrations and fed 20 mM mevalonate and induced with 0.5 mM IPTG, then sampled at subsequent time points.
+
+DESIGN
+This comparison is between E. coli DH1 cells accumulating FPP via the heterologous mevalonate pathway (pMBIS/pADSmut) to cells producing amorphadiene via the same pathway (pMBIS/pADS).  Samples were collected 6, 10, 14, and 26.5 hr after addition of IPTG and mevalonate. One biological replicate was used.  Total RNA was extracted, reverse transcribed, labeled, and hybridized to multiple slides for technical replicates.
+

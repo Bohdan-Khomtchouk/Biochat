@@ -1,0 +1,12 @@
+TITLE
+High-throughput sequencing of DNA G-quadruplex structures in the human genome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Nucleic acid secondary structures play a critical role in the regulation of biological processes. Genome-wide detection of DNA and RNA secondary structures is essential to identify pathways that are regulated by nucleic acid folding. There are no methods to interrogate DNA secondary structure formation on a genome-wide scale. We present G4-Seq, a method that applies the concept of polymerase interference at G-quadruplex (G4) DNA secondary structures to a human genome scale by massively parallel array-sequencing. Our approach generated a high-resolution map of more than 700,000 distinct G4s in the human genome, including non-canonical structural variants with bulges or extended loops, which are difficult to predict by classical approaches. This experimental map reveals many previously uncharacterized G4 structures in functional genomic regions, of which we highlight those associated with cancer, that include oncogenes, tumor suppressors and somatic copy-number alterations.
+
+DESIGN
+4 library samples, 150 base pairs custom protocol (G4-Seq) sequenced as two-times single-end reads on HiSeq 2500: 2 replicates for Na+ (Read-1) and K+ (Read-2); 2 replicates for Na+ (Read-1) and PDS+Na+ (Read-2).
+

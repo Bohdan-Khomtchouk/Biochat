@@ -1,0 +1,12 @@
+TITLE
+Comparison of systematic sequencing errors using spike-in standards
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+While the importance of random sequencing errors decreases at higher DNA or RNA sequencing depths, systematic sequencing errors (SSEs) dominate at high sequencing depths and can be difficult to distinguish from biological variants.  These SSEs can cause base quality scores to underestimate the probability of error at certain genomic positions, resulting in false positive variant calls, particularly in mixtures such as samples with RNA editing, tumors, circulating tumor cells, bacteria, mitochondrial heteroplasmy, or pooled DNA.  Most algorithms proposed for correction of SSEs require a training data set, which is typically either from a part of the data set being “recalibrated” (Genome Analysis ToolKit, or GATK) or from a separate data set with special characteristics (SysCall).  Here, we combine the advantages of these approaches by adding synthetic RNA spike-in standards to human RNA, and use GATK to recalibrate base quality scores with reads mapped to the spike-in standards. Compared to conventional GATK recalibration that uses reads mapped to the genome, spike-ins improve the accuracy of Illumina base quality scores by a mean of 5 units, and by as much as 13 units  at CpG sites.  In addition, since reads mapping to the genome are not used for recalibration, our method allows run-specific recalibration even for the many species without a comprehensive and accurate SNP database.  We also use GATK with the spike-in standards to demonstrate that the Illumina RNA sequencing runs overestimate quality scores for AC, CC, GC, GG, and TC dinucleotides, while SOLiD has less dinucleotide SSEs but more SSEs for certain cycles.  We conclude that using these DNA and RNA spike-in standards with GATK improves base quality score recalibration.
+
+DESIGN
+Four human RNA samples with equimolar ERCC spike-in standards were sequenced on Illumina.  Two human brain/liver/muscle RNA mixtures with dynamic range of ERCC spike-in standards were sequenced on SOLiD.
+

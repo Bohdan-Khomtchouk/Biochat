@@ -1,0 +1,12 @@
+TITLE
+Isolation and sequencing of AGO-bound RNAs reveals characteristics of stem-loop processing in vivo
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNA precursors (pre-miRNAs) are short hairpin RNAs that are rapidly processed into mature microRNAs (miRNAs) in the cytoplasm. Due to their low abundance in cells, sequencing-based studies of pre-miRNAs have been limited. We successfully enriched for and deep sequenced pre-miRNAs in human cells by capturing these RNAs during their interaction with Argonaute (AGO) proteins. Using this approach, we detected > 350 pre-miRNAs in human cells and > 250 pre-miRNAs in a reanalysis of a similar study in mouse cells. We uncovered widespread trimming and non-templated additions to 3’ ends of pre-miRNAs and mature miRNAs. Additionally, we identified novel AGO2-cleaved pre-miRNAs and created an index for microRNA precursor processing efficiency. This analysis revealed a subset of pre-miRNAs that produce low levels of mature miRNAs despite abundant precursors, including an annotated miRNA in the 5’ UTR of the DiGeorge syndrome critical region 8 (Dgcr8) mRNA transcript. This led us to search for other AGO-associated stem-loops originating from other mRNA species, which identified hundreds of putative pre-miRNAs derived from mRNA sequences in both the mouse and human transcriptomes. Intriguingly, we found that iron responsive elements in ferritin heavy and light chain mRNAs are processed into AGO-associated stem-loops in both mouse and humans but do not produce functional small RNAs. In summary, we provide a wealth of information on mammalian pre-miRNAs, and identify novel microRNA and microRNA-like elements localized in mRNAs.
+
+DESIGN
+pre-miRNA-seq and miRNA-seq from HEK293T cells.  Reanalysis of HEK293T smRNA-seq, MEF pre-miRNA and MEF smRNA-seq (processed data for these Samples are linked below). The reanalyzed HEK293T Samples are from Series GSE66224 and consists of Samples GSM1617437 and GSM1617438. The reanalyzed MEF pre-miRNA and MEF smRNA-seq Samples were downloaded from European Nucleotide Archive ( ) under the accession number PRJEB6756 (ERX525474 and ERX525475). RNA-seq analysis of HEK293T cells following knockdown of DGCR8, DROSHA or Luciferase.
+

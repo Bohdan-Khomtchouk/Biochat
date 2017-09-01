@@ -1,0 +1,9 @@
+TITLE
+Tcf3 Targets in Mouse Embryonic Stem Cells E14
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To determine the binding targets of Tcf3 in mouse ESCs,  ChIP combined with DNA microarray was carried out according to Agilent Mammalian ChIP-on-chip protocol (version 3)3. Briefly, immunoprecipitated (IP) DNA was blunted with T4 polymerase and ligated to linkers with T4 DNA ligase. For reference, 200 ng of input DNA was used. Ligated DNA was amplified with two rounds of PCR cycles. Two ug of each amplified sample were labeled with Cy5 for IP DNA, and Cy3 for input DNA using CGH labeling kit (Invitrogen). Four ug of each labeled sample was blocked with mouse Cot-1 DNA (Invitogen) and blocking agent (Agilent), and hybridized to DNA microarrays (G4490A, Agilent) for 40 h at 65oC. The microarrays were washed and stabilized with acetonitrile (Sigma), followed by stabilization and drying solution (Agilent). The arrays were scanned with Agilent DNA microarray scanner (G2565BA), and probe features were extracted using Feature Extraction Software (G2567AA, version 9.1). The data was then analysed with ChIP Analytics 1.3 (G4477AA), according to the Whitehead Neighbourhood Model, P(Xbar) < 0.001, with intra-array median normalization 3. Bound targets which was determined by the algorithm was validated by qPCR on a selected number of genes. The false positive rate was determined. Keywords: ChIP-chip
+

@@ -1,0 +1,9 @@
+TITLE
+Difference in expression between SA- and mock-treated leaves 2 hours after application
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Arabidopsis plants, ecotype Columbia, were sprayed with surfactant alone (0.01% Silwet) or surfactant and 1mM salicylic acid until all leaves were wet, 3 to 4 weeks after germination (before flowering). Leaves were harvested and frozen in liquid nitrogen. Three biological replicates were obtained over a period of 6 months. For each replicate, RNA was extracted using standard phenol/chloroform protocol and biotin-labeled cRNA was synthesized. cRNA was hybridized to 6 ATH1 GeneChip arrays. Cel files produced by the Affymetrix software were imported into R. Background subtraction, normalization and probe summaries were performed with the rma, quantile.normalization and median polish options of the rma function. Comparison of the SA- versus mock-treated tissue provides insight on the genes involved in systemic acquired resistance in Arabidopsis. Keywords: salicylic acid, Arabidopsis, stress response, defense,
+

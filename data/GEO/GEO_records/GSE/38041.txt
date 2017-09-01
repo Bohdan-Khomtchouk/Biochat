@@ -1,0 +1,12 @@
+TITLE
+A nuclear Argonaute promotes germline immortality and epigenetic inheritance across generations
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+dsRNA-mediated gene silencing (RNAi) can be inherited for multiple generations in C. elegans. To understand this process we conducted a genetic screen for animals defective for transmitting RNAi silencing signals to future generations. This screen identified the gene heritable RNAi defective (hrde)-1. hrde-1 encodes an Argonaute (Ago) that associates with siRNAs in germ cells of the progeny of animals exposed to dsRNA. In nuclei of these germ cells, HRDE-1 engages the Nrde nuclear RNAi pathway to promote RNAi inheritance, and directs H3K9me3 chromatin marks at RNAi targeted genomic loci. Under normal growth conditions, HRDE-1 associates with endogenously expressed small RNAs, which direct nuclear gene silencing in germ cells. In RNAi inheritance mutant animals, silencing is lost over generational time. Concurrently, RNAi inheritance mutant animals exhibit progressively worsening germline defects that ultimately lead to sterility. These results establish that the Ago HRDE-1 directs gene-silencing events in germ cell nuclei, which are required for multi-generational RNAi inheritance and immortality of the germ cell lineage. We propose that C. elegans use the RNAi inheritance machinery to transmit epigenetic information, accrued by past generations, into future generations to ensure immortality of the germ cell lineage.
+
+DESIGN
+H3K9me3 Chip-IP for C. elegans strains nrde-3, nrde-4, glp-4. Small RNA-seq for small RNAs co-immunoprecipitated with HRDE-1
+

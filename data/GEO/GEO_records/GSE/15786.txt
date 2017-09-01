@@ -1,0 +1,12 @@
+TITLE
+Halobacterium sp. NRC-1 ChIP-chip for TFBa, TFBd and TFBf, high resolution array
+
+ORGANISM
+Halobacterium salinarum NRC-1
+
+SUMMARY
+A detailed map of genomic locations where TFs bind DNA and modulate transcription is essential to model mechanisms of gene regulation on a systems-scale. Chromatin immunoprecipitation of transcription complexes coupled to microarray (ChIP-chip (Ren et al, 2000)) or sequencing (ChIP-seq (Robertson et al, 2007)) is a commonly used approach to construct such maps. In ChIP-chip, the resolution to which the protein-DNA binding sites (TFBSs) can be identified is often limited by the genomic spacing of the probes in the array. We utilized the MeDiChI algorithm (Reiss et al, 2008) to estimate precise TFBS locations and their corresponding local false discovery rates (LFDRs) from high-resolution arrays for TFBa, TFBd and TFBf. This regression-based method deconvolves the ChIP-chip enrichment ratios along the genome by fitting them with a 'peak profile' model of binding events, assuming a distribution in enriched DNA fragment lengths­. A comparison of the peak intensities derived from MeDiChI for all three TFs (TFBd, TFBf and TFBa) for which there were biological replicate measurements using 2 different microarray platforms (500 nt resolution spotted arrays, see series GSE7045 vs. 13 nt resolution Nimblegen arrays) provided strong validation (with R2 of 0.66, 0.52, and 0.81, respectively) of most TFBSs. Visualizations comparing the two microarray platforms are available at:
+
+DESIGN
+IP sample of Cmyc tagged TFBs expressed in Halobacterium NRC-1 cells transformed with pMTFcmyc gene expressing TFBf in standard growth media with 20microgram/ml mevinolin versus a whole cell extract from the same sample. Three biological replicates for TFBd are available.
+

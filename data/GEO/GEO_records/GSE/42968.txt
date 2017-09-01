@@ -1,0 +1,12 @@
+TITLE
+Differentially regulated genes in TOR knockdown Arabidopsis lines
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Rapamycin-sensitive transgenic Arabidopsis lines (BP12) expressing yeast FK506 Binding Protein12 (FKBP12) were developed. Inhibition of TOR in BP12 plants by rapamycin resulted in slower overall root, leaf and shoot growth and development leading to poor nutrient uptake and light energy utilization. Genetic and physiological studies together with RNA-Seq and metabolite analysis of TOR-suppressed lines revealed that TOR regulates development and lifespan in Arabidopsis by restructuring cell growth, carbon and nitrogen metabolism, gene expression, ribosomal RNA and protein synthesis.
+
+DESIGN
+Arabidopsis WT (Col)and BP12-2 (TOR knockdown line) seedlings at 15 DAG were treated with rapamycin for 3 days by transferring from 0.5 MS medium to 0.5 MS+10 µg/ml rapamycin. Triplicate samples of rapamycin treated WT and BP12-2 seedlings were used for RNA-Seq analysis (Illumina Hiseq 2000). Paired-end alignments were obtained through aligning short reads onto the reference Arabidopsis Genome (TAIR9) using Bowtie. More than 80% of the reads mapped onto the genome. Htseq-count was used to count the reads from the Bowtie derived output files. Differential expressed genes were identified using edgeR. The FDR-corrected P value for differential expression was set to be ≤0.05.
+

@@ -1,0 +1,12 @@
+TITLE
+The temporal patterning system governs the malignant susceptibility of neural progeny during Drosophila development
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Pediatric neural tumors are initiated during embryonic/fetal stages and rapidly become malignant despite carrying few genetic alterations. However, the molecular basis of this early malignant susceptibility remains unknown. During Drosophila development, malignant neural tumors can arise from single gene inactivation triggering dedifferentiation towards a neural stem cell (NSC)-like state. Here, we find that these tumors originate from a sub-population of early-born neural progeny that transiently co-express the mRNA-binding proteins Lin-28 and Imp/IGF2BP, and the transcription factor Chinmo. These three genes compose an early growth module that is co-opted in a subset of dedifferentiated cells to propagate unlimited proliferation. In late NSCs, Chinmo, Imp and Lin-28 are silenced by temporal transcription factors for timely termination of neurogenesis. Consequently, late-born progeny do not express the module and become refractory to malignant transformation. Thus, this study identifies the NSC-intrinsic developmental program that predisposes neural progeny to malignant transformation according to their birth order.
+
+DESIGN
+Tumors are induced during early larval stages by expressing UAS-prosperoRNAi transgenes in neuroblasts using nab-GAL4. Tumors are then dissected at the end of larval stages for RNA-seq. To investigate the role of Chinmo in the tumorigenic process, three conditions have been sequenced: 1) nab-GAL4, UAS-prosperoRNAi (referred to as " P " ). 2) nab-GAL4, UAS-prosperoRNAi, UAS-chinmoRNAi (referred to as " PC " ); 3) nab-GAL4, UAS-prosperoRNAi, UAS-chinmoFL (referred to as " PCC " ). Conditions 2 and 3 respectively allow down-regulation and over-expression of Chinmo in prosperoRNAi tumors.
+

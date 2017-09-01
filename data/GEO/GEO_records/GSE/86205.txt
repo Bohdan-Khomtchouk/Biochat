@@ -1,0 +1,12 @@
+TITLE
+Tissue-specific DamID profiling of chromatin proteins in Drosophila melanogaster
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Analysis of gene expression regulation typically requires identification of genomic sites where regulatory proteins bind. For this purpose, ChIP and DamID methods applied to cell lines or model organisms are now routinely used, even in selected cell types. In this work, we present modifications to experimental DamID protocol, as well as a custom data processing algorithm that allows to confidently identify genomic sites enriched with the proteins of interest. This algorithm is implemented in Perl and is also available as executable files thereby making DamID analysis relatively straightforward. Finally, we demonstrate how this pipeline performs when fed with real experimental data.
+
+DESIGN
+Examination of comr chromatin protein binding to chromosomes in wild type adult testes using DamID technique.
+

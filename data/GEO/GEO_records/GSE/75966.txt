@@ -1,0 +1,12 @@
+TITLE
+TELP, a sensitive and versatile library construction method for next-generation sequencing
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Next-generation sequencing has been widely used for the genome-wide profiling of histone modifications, transcription factor binding and gene expression through chromatin immunoprecipitated DNA sequencing (ChIP-seq) and cDNA sequencing (RNA-seq). Here, we describe a versatile library construction method that can be applied to both ChIP-seq and RNA-seq on the widely used Illumina platforms. Standard methods for ChIP-seq library construction require nanograms of starting DNA, substantially limiting its application to rare cell types or limited clinical samples. By minimizing the DNA purification steps that cause major sample loss, our method achieved a high sensitivity in ChIP-seq library preparation. Using this method, we achieved the following: (1) generated high-quality epigenomic and transcription factor-binding maps using ChIP-seq for murine adipocytes; (2) successfully prepared a ChIP-seq library from as little as 25 pg of starting DNA; (3) achieved paired-end sequencing of the ChIP-seq libraries; (4) systematically profiled gene expression dynamics during murine adipogenesis using RNA-seq; and (5) preserved the strand specificity of the transcripts in RNA-seq. Given its sensitivity and versatility in both double-stranded and single-stranded DNA library construction, this method has wide applications in genomic, epigenomic, transcriptomic and interactomic studies.
+
+DESIGN
+Pre-adipocytes and mature adipocytes were collected. Their chromatin and RNA were subjected to ChIP and mRNA extraction.  Sequencing libraries from ChIP DNA or mRNA were generated following either standard protocols or TELP method. The quality and features of TELP libraries were proved and demonstrated in comparison with standard libraries or other published data.
+

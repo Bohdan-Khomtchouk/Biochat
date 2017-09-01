@@ -1,0 +1,12 @@
+TITLE
+Dynamic Transformations of Genome-wide Epigenetic Marking and Transcriptional Control Establish T Cell Identity [ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+T cell development comprises a stepwise process of commitment from a multipotent precursor. To define molecular mechanisms controlling this progression, we probed five stages spanning the commitment process using deep sequencing RNA-seq and ChIP-seq methods to track genome-wide shifts in transcription, cohorts of active transcription factor genes, histone modifications at diverse classes of cis-regulatory elements, and binding patterns of GATA-3 and PU.1, transcription factors with complementary roles in T-cell development. The results locate potential promoter-distal cis-elements in play and reveal both activation sites and diverse mechanisms of repression that silence genes used in alternative lineages. Histone marking is dynamic and reversible, and while permissive marks anticipate, repressive marks often lag behind changes in transcription. In vivo binding of PU.1 and GATA-3 relative to epigenetic marking reveals distinctive, factor-specific rules for recruitment of these crucial transcription factors to different subsets of their potential sites, dependent on dose and developmental context. 
+
+DESIGN
+Genome-wide expression profiles, global distributions of three different histone modifications, and global occupancies of two transcription factors were examined in five developmentally related immature T populations. High throughput sequencing generated on average 9-30 million of mappable reads (single-read) for each ChIP-seq sample, and 10-15 million (single-read) for RNA-seq. Independent biological replicates were analyzed for individual populations. Terminology: while FLDN1_H3Ac_sample1.1 and FLDN1_H3Ac_sample1.2 are two lanes from the same sample, FLDN1_H3Ac_sample1.X and FLDN1_H3Ac_sample2 are from independent biological replicates. The sequence data of the input DNA from the same cell type was used as ChIP-seq background control.
+

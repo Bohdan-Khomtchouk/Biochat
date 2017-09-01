@@ -1,0 +1,12 @@
+TITLE
+Integrative genomic analysis of CREB defines a critical role for transcription factor networks in mediating the fed/fasted switch in liver [ChIP-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Metabolic homeostasis in mammals critically depends on the regulation of fasting-induced genes by CREB in the liver. Previous genome-wide analysis has shown that only a small percentage of CREB target genes are induced in response to fasting-associated signaling pathways. The precise molecular mechanisms by which CREB specifically targets these genes in response to alternating hormonal cues remain to be elucidated. We performed chromatin immunoprecipitation coupled to high-throughput sequencing of CREB in livers from both fasted and re-fed mice. In order to quantitatively compare the extent of CREB-DNA interactions genome-wide between these two physiological conditions we developed a novel, robust analysis method, termed the ‘single sample independence’ (SSI) test that greatly reduced the number of false positive peaks. We found that CREB remains constitutively bound to its target genes in the liver regardless of the metabolic state.  Integration of the CREB cistrome with expression microarrays of fasted and re-fed mouse livers and ChIP-seq data for additional transcription factors revealed that the gene expression switches between the fasted and fed states are associated with co-localization of additional transcription factors at CREB sites. Our results support a model in which CREB is constitutively bound to thousands of potential target genes and combinatorial interactions between DNA-binding factors are necessary to achieve the specific transcriptional response of the liver to fasting. Furthermore, our genome-wide analysis identifies thousands of novel CREB target genes in liver, including a previously unknown role for CREB in regulating ER stress genes in response to nutrient influx.
+
+DESIGN
+CREB ChIP-seq was performed on mouse liver from fasted and re-fed mice, using 5 separate biological replicates for each condition. GR and C/EBP(beta) ChIP-seq were performed as single replicates on ad-lib fed mice.
+

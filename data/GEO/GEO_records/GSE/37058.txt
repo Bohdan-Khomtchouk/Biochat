@@ -1,0 +1,12 @@
+TITLE
+Tobacco smoke exposure-related pathway gene expression signature in the bronchial airway epithelium
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Using primary human bronchial epithelial cells collected at bronchoscopy, we have perturbed signaling pathways important in regulation of response to tobacco smoke exposure and cancer development: ATM, BCL2, GPX1, NOS2, IKBKB, and SIRT1 Using gene expression profiles generated for each pathway and four independent gene expression datasets, we show that SIRT1 activity is significantly up-regulated in cytologically normal airway epithelial cells from active smokers compared to non-smokers; and in contrast, this activity is strikingly down-regulated in non-small cell lung cancer.
+
+DESIGN
+52 samples were run on Affymetrix Human Exon 1.0 ST microarrays (n=7 for ATM, n=8 for GPX1, n=7 for SIRT1, n=7 for NOS2, n=7 for IKBKB, n=8 for BCL2, and n=8 for GFP).  The CEL files were processed using RMA and the ENTREZ Gene CDF file. 13 samples were removed either because of a low Pearson correlation between samples (n=1 SIRT1 sample) or a strong batch effect (n=2 ATM, n=2 BCL2, n=2 GFP, n=2 GPX1, n=1 IKBKB, n=2 NOS2, n=1 SIRT1 samples) as determined by PCA.
+

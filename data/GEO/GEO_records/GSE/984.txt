@@ -1,0 +1,9 @@
+TITLE
+Eosinophils and basophils
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Ten male 4get mice were infected with N. brasiliensis and single-cell suspensions of total lung tissue were prepared 9 days after infection. Cells were stained for CD3, CD19, c-kit and CCR3 and sorted for CD3-CD19-c-kit-GFP+CCR3+SSChi (eosinophils) and CD3-CD19-c-kit- GFP+CCR3-SSClo (basophils) using a MoFlo high-speed cell sorter (Cytomation, Fort Collins, CO). Total RNA was isolated from 2 x 106 eosinophils and 1.75 x 105 basophils using the Total RNA Isolation Kit (Fluka, Buchs, Switzerland) and amplified by two rounds of in vitro transcription using the Amino Allyl MessageAmpTM aRNA kit (Ambion, Austin, TX). Universal Mouse Reference RNA (#740100; Stratagene, La Jolla, CA) was amplified in the same way. Aminoallyl-UTP was incorporated during the second round of amplification and 5 µg of amplified RNA was coupled to Cy3 and Cy5 fluorescent dyes (CyScribeTM dye labeling kit, Amersham Biosciences, Peapack, NJ). Probes were hybridized to spotted glass oligonucleotide (70-mer) arrays which cover just over 16,400 unique genes (Mouse Genome Set Version 2.0, Qiagen, Germany). The arrays were prehybridized in 1% BSA (Invitrogen), 5 x SSC, 0.1% SDS for 2 hr at 42°C, washed in water and hybridized with the Cy3/Cy5-labeled probes in 2.8 x SSC, 0.2% SDS, 0.6 mg/ml Cot-1 DNA (Invitrogen), and 0.8 mg/ml yeast tRNA, at 63°C for 45 hr. Slides were washed sequentially in 0.03%SDS/1 x SSC, 0.2 x SSC and 0.05 x SSC, dried and scanned on an Axon 4000B scanner using Genepix 3.0 software (Axon Instruments, Inc.). Data were normalized using the R package Bioconductor software and ?lowess? normalization on the pixel medians without background subtraction (Ihaka and Gentleman, 1996). Keywords = Eosinophils Keywords = Basophils Keywords = Nippostrongylus Keywords = Lung Keywords = Type 2 immunity Keywords: other
+

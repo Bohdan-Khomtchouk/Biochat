@@ -1,0 +1,12 @@
+TITLE
+Histone modifications of Arabidopsis thaliana (aerial tissue)
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Bioinformatics powered correlative analysis of epigenomic patterns is an effective method to help derive biological hypotheses that can be tested genetically or biochemically. To accommodate the variety and complexity of epigenomic and transcriptomic patterns, ANchored COrrelative Patterns (ANCORP) was developed as a platform to integrate and intuitively visualize a large number of genome-wide profiles. With global profiles of 9 histone modifications mapped by ChIP-seq and a strand-specific RNA-seq dataset, we have applied the ANCORP-genetics pipeline for hypothesis building and testing in order to understand how global transcription may be regulated by epigenetic pathways such as histone modifications. It was found that intragenic antisense RNAs were depleted from genes with strong gene-body H3K36me2 mark and cytosine methylation enrichments but were significantly overrepresented in H3K4me3/H3K27me3 bivalent genes. Moreover, gene body H3K36me2 and DNA methylation anti-correlated with multiple active chromatin marks including H3K4me2/3, H3K9Ac and H3K18Ac. These observations lead us to hypothesize that H3K36me2 and DNA methylation may synergistically repress active chromatin marks in gene bodies and subsequently inhibit transcription of the antisense strand. Mutant analyses revealed that Polymerase Associated Factors (PAF) may be universally required for modulating NAT abundance whereas the role for the 5mC and H3K36me marks are more locus specific. H3K36me and PAF may either repress or permit the accumulation NATs depending on the chromatin state context in a particular transcription unit. Interestingly, the activation of antisense RNA in sdg8-2 or elf8-1 mutants does not associate with any increase of histone marks in gene bodies that are known to correlate with gene activation. Our results suggest that ANCORP-genetics is an effective approach to uncover epigenetic regulatory mechanisms by leveraging on the rapid advances in sequencing technologies and the resultant wealth of genome-wide information.
+
+DESIGN
+Global profiling of nine histone modifications and transcriptome in aerial tissue of Arabidopsis thaliana
+

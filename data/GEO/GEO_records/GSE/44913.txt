@@ -1,0 +1,12 @@
+TITLE
+Porteresia transcriptome sequencing
+
+ORGANISM
+Oryza coarctata
+
+SUMMARY
+In this study, we aim to present the complete transcriptome of Asian wild rice, Porteresia. We generated about 375 million high-quality reads for five different conditions (ranging from 65 to 90 million reads for each condition) using Illumina high-throughput sequencing GAII platform. We mapped the reads to Porteresia transcripts for estimation of their transcriptional activity in different tissue samples. The transcriptome dynamics was studied by comparison of gene expression during conditions.
+
+DESIGN
+We collected different tissue samples after various treatments (control, in water; salt450, in 450 mM sodium chloride solution; salt700, in 700 mM sodium chloride solution; submergence, submerged in water; salt+submergence, submerged in 450 mM sodium chloride solution) and total RNA isolated was subjected to Illumina sequencing. The sequenced data was further filtered using NGS QC Toolkit to obtain high-quality reads. The filtered reads were mapped to Porteresia transcripts and reads per kilobase per million (RPKM) was calculated for each transcript in all the samples to measure their gene expression. Differential expression analysis was performed using DESeq software. The genes showing differential expression under various stress conditions were identified.
+

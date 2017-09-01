@@ -1,0 +1,12 @@
+TITLE
+ChIP-Seq with wild type mESC and NPC
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Master regulatory genes require stable silencing by the Polycomb-Group (PcG) to prevent improper expression during differentiation and development. Some PcG proteins covalently modify histones, which contributes to heritable repression. The role for other effects on chromatin structure is less understood. We characterized the organization of PcG target genes in mouse ES cells and neural progenitors using high-resolution 5C technology and super-resolution microscopy. The genomic loci of repressed PcG target genes formed discrete, small domains of tight interaction that corresponded to locations bound by canonical Polycomb Repressive Complex 1 (PRC1). These domains changed during differentiation as PRC1 binding changed. Their formation depended upon the Polyhomeotic component of canonical PRC1, and occurred independently of PRC1-catalyzed ubiquitylation. PRC1 domains differ from topologically associating domains in numerous aspectsá. These domains have the potential to play a key role in transmitting epigenetic silencing of PcG targets by linking PRC1 to formation of a repressive higher order structure.
+
+DESIGN
+ChIP-Seq was performed to compare PRC1 ans PRC2 occupancy between wild type ESC and in vitro derived NPC. 50 base single end sequencing was performed on Illumina HiSeq2500. Reference genome is mm9.
+

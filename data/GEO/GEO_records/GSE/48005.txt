@@ -1,0 +1,12 @@
+TITLE
+Targeted disruption of Hotair leads to homeotic transformation and de-repression of imprinted genes [RNA-Seq, ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Long noncoding RNAs (lncRNAs) are thought to be prevalent regulators of gene expression, but the consequences of lncRNA inactivation in vivo are mostly unknown. Here we show that targeted deletion of mouse Hotair lncRNA leads to de-repression of hundreds of genes, resulting in homeotic transformation of the spine and malformation of metacarpal-carpal bones. RNA-seq and conditional inactivation reveal an ongoing requirement of Hotair to repress HoxD genes and multiple imprinted loci such as Dlk1-Meg3 and Igf2-H19. Hotair binds to both Polycomb repressive complex 2 that methylates histone H3 at lysine 27 (H3K27) and Lsd1 complex that demethylates histone H3 at lysine 4 (H3K4) in vivo. Hotair inactivation causes coordinate H3K27me3 loss and H3K4me3 gain at select target genes throughout the genome. These results reveal a shared regulatory mechanism to enforce silent chromatin state at Hox and imprinted genes via Hotair lncRNA.
+
+DESIGN
+For RNA-seq data, we have 6 samples in total; 2 replica for the following three types: wildtype, heterozygous, and Hotair knock-out. For Chip-seq data, we have 6 samples in total; for each of the wildtype and Hotair knock-out samples, we have input, H3K4me3 and H3K27me3 histone marks.
+

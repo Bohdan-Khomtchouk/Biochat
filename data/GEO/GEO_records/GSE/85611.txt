@@ -1,0 +1,12 @@
+TITLE
+Small RNA sequencing in grapevine berries from two varieties (Cabernet Sauvignon and Sangiovese) grown in three different environments and sampled at four developmental stages
+
+ORGANISM
+Vitis vinifera
+
+SUMMARY
+Purpose: The goal of this study is to detect the environmental influence on small RNAs population (miRNAs and other smallRNAs) in berries from two different grapevine varieties, evaluating Genotype x Environment interactions. Methods: The grapevine berries were collected in liquid nitrogen and their small RNA fractions were isolated from total RNA for library construction and subsequent sequencing on an Illumina HiSeq 2000. Results: Reads were mapped to the reference Vitis vinifera L. genomic sequence V1 (PN40024, (Jaillon et al., 2007) using Bowtie and retaining reads perfectly aligned to the genome. The static clustering analysis was carried out, using a proximity-based pipeline built with custom Perl and database scripts and MySQL database queries, to group and quantify clusters of small RNAs. The identification of annotated (conserved or known) and novel (or specie-specific) miRNAs was carried out applying a conservative and robust pipeline. Conclusions: Our results show that the distribution of small RNA-producing loci is variable between the two cultivars, and that the level of variation depends on the vineyard. Differently, the profile of miRNA accumulation mainly depends on the developmental stage. One of the environment, Riccione, maximizes the differences between the varieties, promoting the production of more than one thousand specific small RNA loci and modulating their expression depending on the cultivar and the maturation stage.
+
+DESIGN
+The grapevine berries were collected for the sequencing at four different developmental stages from Cabernet Sauvignon (CS) and Sangiovese (SG) clones grown side by side in three different vineyards. The vineyards are located in three typical wine making italian areas: Bolgheri (Bol), a coastal area of Tuscany, Montalcino (Mont) a mountain area of Tuscany, and Riccione (Ric), a plain area of Emilia-Romagna.
+

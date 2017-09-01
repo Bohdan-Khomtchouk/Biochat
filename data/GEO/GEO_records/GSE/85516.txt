@@ -1,0 +1,12 @@
+TITLE
+Diversification of Root Hair Development Genes in Vascular Plants
+
+ORGANISM
+Cucumis sativus
+
+SUMMARY
+Purpose: The root hair is a model for understanding evolution of individual cell differentiation programs in plants. We compare the expression of the genes that participate in root hair development between Arabidopsis and other vascular plants to assess the conservation/diversification of the root hair development programs in vascular plants. Methods: We used RNA-Seq, in triplicates, to measure the genome-wide transcription activity of the root-hair cells isolated by Fluorescence-activated cell sorting (FACS) in Arabidopsis (COBL9::GFP transgeneic line, AtRH) and rice (EXPA30::GFP transgenic line, OsRH). We also generated RNA-Seq data, in triplicates, on the Arabidopsis rhd6 WER::GFP and WT WER::GFP by FACS to identify the RHD6-regulating root hair morphogenesis genes (AtRHM). For Arabidopsis, rice, tomato, soybean, cucumber and maize, we used RNA-seq, in triplicates, to measure genome-wide transcription activity of root hair cells filtered by sieves after stirred in liquid nitrogen (HAIR genes). Each sample was trimmed to retain high-quality reads, mapped to the reference genome by TopHat, and quantified by Cufflinks. The number of raw reads of Arabidopsis rhd6 WER::GFP and WT WER::GFP sample was counted by HTSeq and analyzed by edgeR to identify the differentially expressed genes. Results: We defined the root-hair transcriptome in diverse vascular plant species and analyzed the relative conservation/divergence in the expression of a large set of gene families.
+
+DESIGN
+RNA-Seq on the FACS isolated root hair-cells of Arabidopsis COBL9::GFP and rice EXPA30::GFP transgenic lines to get the gene expression of the root-hair cells of Arabidopsis and rice. RNA-Seq on the FACS isolated epidermal cells of Arabidopsis rhd6 WER::GFP and WT WER::GFP transgenic lines to identify the RHD6-regulating root hair genes. RNA-Seq on sieve-filtered root hair cells from Arabidopsis, rice, tomato, soybean, cucumber, and maize to define the root-hair transcriptome in diverse angiosperms. Each measurement includes 3 biological replicates.
+

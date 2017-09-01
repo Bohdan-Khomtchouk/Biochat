@@ -1,0 +1,12 @@
+TITLE
+lncRNA expression data
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Once thought to be transcriptional noise, large non-coding RNAs (lncRNAs) have recently been demonstrated to be functional molecules.  Cell type-specific expression patterns of lncRNAs suggest that their transcription may be regulated epigenetically.  Using a custom-designed microarray, here we examine the expression profile of lncRNAs in embryonic stem (ES) cells, lineage-restricted neuronal progenitor cells (NPC), and terminally differentiated fibroblasts. In addition, we also analyze the relationship between their expression and their promoter H3K4 and H3K27 methylation patterns. We find that numerous lncRNAs in these cell types undergo changes in the levels of expression and promoter H3K4me3 and H3K27me3.  Interestingly, lncRNAs that are expressed at lower levels in ES cells exhibit higher levels of H3K27me3 at their promoters. Consistent with this result, knockdown of the H3K27me3 methyltransferase Ezh2 results in derepression of these lncRNAs in ES cells.  Thus, our results establish a role for Ezh2-mediated H3K27 methylation in lncRNA silencing in ES cells and reveal that lncRNAs are subject to epigenetic regulation in a similar manner to that of protein-coding genes.
+
+DESIGN
+lncRNA expression analysis was performed in 5 different cell types:  (1) ES cells, (2) neuroprogenitors, (3) tail tip fibroblasts, (4) Ezh2 knockdown #1 ES cells, and (5) Ezh2 knockdown #2 ES cells.  Total RNA was extracted and RNA quality was assessed via Agilent Bioanlayzer.  mRNA was amplified using the Low RNA Linear Amplification Kit (Agilent Technologies) by standard manufacturer's protocol.  Hybridization of experimental RNA labeled with Cy5 and Cy3-labeled Universal Reference RNA (Ambion) was carried out by standard protocol on a custom-designed array manufactured by Agilent Technologies.  Briefly, three unique 60nt probes were designed for each entry in the Fantom3 database and were synthesized along with lineage marker control probes on a 2x105K format array.  Upon array scanning, data was quality filtered, normalized by the Lowess method, and all probes corresponding to a given lncRNA were averaged using the UNC Microarray Database (UNCMD). Intraclass correlation analysis was carried out in the UNCMD.
+

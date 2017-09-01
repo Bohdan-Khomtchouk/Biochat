@@ -1,0 +1,12 @@
+TITLE
+Agilent expression analysis of prostate cancer tissue samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Beginning with precursor lesions, aberrant DNA methylation marks the entire spectrum of prostate cancer progression. We mapped the global DNA methylation patterns in selected prostate tissues and cell lines using Methylplex-Next Generation Sequencing (M-NGS). Hidden Markov Model based next generation sequence analysis identified ~68,000 methylated regions per sample. While global CpG Island (CGI) methylation was not differential between benign adjacent and cancer samples, overall promoter CGI methylation increased from ~12.6% in benign samples to 19.3% and 21.8% in localized and metastatic cancer tissues, respectively. We found distinct patterns of promoter methylation around transcription start sites, where methylation occurred not only on the CGIs, but also on flanking regions and CGI sparse promoters. Among the 6,691 methylated promoters in prostate tissues, 2481 differentially methylated regions (DMRs) are cancer specific, including numerous novel DMRs. A novel cancer specific DMR in WFDC2 promoter showed heavy methylation in cancer (17/22 tissues, 6/6 cell lines), but not in the benign tissues (0/10) and normal PrEC cells. Integration of LNCaP DNA methylation and H3K4me3 data suggested an epigenetic mechanism for alternate transcription start site utilization and these modifications segregated into distinct regions when present on the same promoter. Finally, we observed differences in repeat element methylation, particularly LINE-1, between ERG gene fusion positive and negative cancers. This comprehensive methylome map will further our understanding of epigenetic regulation in prostate cancer progression.  In this submission, Agilent expression array data used for Gene Set Enrichment Analysis (GSEA) for enrichment analysis for gene repression is provided.
+
+DESIGN
+A total of 13 prostate tissue samples are hybridized against a benign prostate tissue sample pool obtained form a commercial source (Clontech Laboratories, Mountain View, CA) on Agilent Human GE 44k miroarray platform. The fold change between the average expression value from normal/benign (n = 4) and cancer samples (n = 9) was calculated and pre-ranked (representing 27,928 unique probes). This list was uploaded to GSEA, and enrichment analysis is performed using methylation target gene lists in tumor samples.
+

@@ -1,0 +1,12 @@
+TITLE
+Somatosensory Neuron Types Identified by High-Coverage Single-Cell RNA-Sequencing and Functional Heterogeneity
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Sensory neurons are distinguished by distinct signaling networks and receptive characteristics. Thus, sensory neuron types can be defined by linking transcriptome-based neuron typing with the sensory phenotypes. Here we classify somatosensory neurons of the mouse dorsal root ganglion (DRG) by high-coverage single-cell RNA-sequencing (10 950 ± 1 218 genes per neuron) and neuron size-based hierarchical clustering. Moreover, single DRG neurons responding to cutaneous stimuli are recorded using an in vivo whole-cell patch clamp technique and classified by neuron-type genetic markers. Small diameter DRG neurons are classified into one type of low-threshold mechanoreceptor and five types of mechanoheat nociceptors (MHNs). Each of the MHN types is further categorized into two subtypes. Large DRG neurons are categorized into four types, including neurexophilin 1-expressing MHNs and mechanical nociceptors (MNs) expressing BAI1-associated protein 2-like 1 (Baiap2l1). Mechanoreceptors expressing trafficking protein particle complex 3-like and Baiap2l1-marked MNs are subdivided into two subtypes each. These results provide a new system for cataloging somatosensory neurons and their transcriptome databases.
+
+DESIGN
+RNA-seq of mRNA levels in 197 individual DRG neurons We performed RNA-seq on total 203  individual DRG neurons. Six of them were not qualified and thus, were excluded for further analysis.  To evaluate the quality of RNA-seq, we randomly devided No.72 neurons into two parts and performed RNA-seq seperately.  Thus, we had 204 individual samples from 203 individual DRG and 198 individual qualified samples from 197 individual DRG.  To evaluate the homogeneity of RNA-seq data from different mice at the same age just as used,  we performed RNA-seq on 5 single DRG from different mice. Here, these data from DRG were also considered as experimental control. The 'DRG_neurons_RNA_Seq.txt' contains processed data for 204 samples and 'DRG_RNA_Seq.txt' for 5 samples.
+

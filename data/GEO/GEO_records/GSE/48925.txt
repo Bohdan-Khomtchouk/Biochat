@@ -1,0 +1,12 @@
+TITLE
+Activation of FGFR2-kinase domain (iF2 construct)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association studies for breast cancer have identified over 80 different risk regions in the genome, with the FGFR2 locus consistently identified as the most strongly associated locus. However, we know little about the mechanisms by which the FGFR2 locus mediates risk or the pathways in which multiple risk loci may combine to cause disease.  Here we use a systems biology approach to elucidate the regulatory networks operating in breast cancer and examine the role of FGFR2 in mediating risk. Using model systems we identify FGFR2-regulated genes and, combining variant set enrichment and eQTL analysis, show that these are preferentially linked to breast cancer risk loci. Our results support the concept that cancer-risk associated genes cluster in pathways
+
+DESIGN
+The data consists of 71 microarray samples from MCF-7 cells treated under different conditions, at 3 time points (0, 6 and 24 h) in order to perturb FGFR2 signalling using the iF2 construct system. The data have been pre-processed in R using the beadarray package, and are presented in the form of log2 expression values. The experiment was carried out on 6 Humanv4 BeadChips using 12 samples per BeadChip. The original arrays contain 48324 features, with a mean of 22 beads per feature (Standard Deviation of 5)
+

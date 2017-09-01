@@ -1,0 +1,12 @@
+TITLE
+Bias in ligation-based small RNA sequencing library construction is determined by adaptor and RNA structure
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+High-throughput sequencing (HTS) has become a powerful tool for the detection of and sequence characterization of microRNAs (miRNA) and other small RNAs (sRNA).  Unfortunately, the use of HTS data to determine the relative quantity of different miRNAs in a sample has been shown to be inconsistent with quantitative PCR and Northern Blot results.  Several recent studies have concluded that the major contributor to this inconsistency is bias introduced during the construction of sRNA libraries for HTS and that the bias is primarily derived from the adaptor ligation steps; specifically where single stranded adaptors are sequentially ligated to the 3' and 5'-end of sRNAs using T4 RNA ligases.  In this study we investigated the effects of ligation bias by using a pool of randomized ligation substrates, defined mixtures of miRNA sequences and several combinations of adaptors in HTS library construction.  We show that like the 3' adaptor ligation step, the 5' adaptor ligation is also biased, not because of primary sequence, but instead due to secondary structures of the two ligation substrates.  We find that multiple secondary structural factors influence final representation in HTS results.  Our results provide insight about the nature of ligation bias and allowed us to design adaptors that reduce ligation bias and produce HTS results that more accurately reflect the actual concentrations of miRNAs in the defined starting material.
+
+DESIGN
+28 samples were sequenced and the libraries were made using various synthetic oligo mixtures and adaptor combinations
+

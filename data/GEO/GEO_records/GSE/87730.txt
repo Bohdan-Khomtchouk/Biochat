@@ -1,0 +1,12 @@
+TITLE
+Toxicogenomic module associations with pathogenesis: A network based approach to understanding drug toxicity (ChIP-Seq)
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Despite investment in toxicogenomics, nonclinical safety studies are still used to predict clinical liabilities for new drug candidates. Network-based approaches for genomic analysis help overcome challenges with whole-genome transcriptional profiling using limited numbers of treatments for phenotypes of interest. Herein, we apply co-expression network analysis to safety assessment using rat liver gene expression data to define 415 modules, exhibiting unique transcriptional control, organized in a visual representation of the transcriptome (the ‘TXG-MAP’). Accounting for the overall transcriptional activity resulting from treatment, we explain mechanisms of toxicity and predict distinct toxicity phenotypes using module associations. We demonstrate that early network responses compliment traditional histology-based assessment in predicting outcomes for longer studies and identify a novel mechanism of hepatotoxicity involving endoplasmic reticulum stress and Nrf2 activation. Module-based molecular subtypes of cholestatic injury derived using rat translate to human. Moreover, compared to gene-level analysis alone, combining module and gene-level analysis performed in sequence identifies significantly more phenotype-gene associations, including established and novel biomarkers of liver injury.
+
+DESIGN
+Evaluated livers from animals 1, 5, 14 days after bile duct ligation were compared with sham surgery animals. Performed ChIP-seq to investigate 4 transcription factors- cJun, Sp1, HNF and FXR.
+

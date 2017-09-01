@@ -1,0 +1,12 @@
+TITLE
+Model systems of DUX4 expression recapitulate the transcriptional profile of FSHD cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Facioscapulohumeral dystrophy (FSHD) is caused by the mis-expression of the double-homeodomain transcription factor DUX4 in skeletal muscle cells. Many different cell culture models have been developed to study the pathophysiology of FSHD, frequently based on endogenous expression of DUX4 in FSHD cells or by mis-expression of DUX4 in control human muscle cells. Although results generated using each model are generally consistent, differences have also been reported, making it unclear which model(s) faithfully recapitulate DUX4 and FSHD biology. In this study, we systematically compared RNA-seq data generated from three different models of FSHD—lentiviral-based DUX4 expression in myoblasts, doxycycline-inducible DUX4 in myoblasts, and differentiated human FSHD myocytes expressing endogenous DUX4—and show that the DUX4-associated gene expression signatures of each dataset are highly correlated (Pearson’s correlation coefficient, r ~ 0.75-0.85). The few robust differences were attributable to different states of cell differentiation and other differences in experimental design. Our study describes a model system for inducible DUX4 expression that enables reproducible and synchronized experiments and validates the fidelity and FSHD relevance of multiple distinct models of DUX4 expression.
+
+DESIGN
+We performed a systematic comparison of DUX4-regulated changes in the transcriptome in our inducible codon-altered DUX4 expression system (iDUX4), the endogenous DUX4 expression system (enDUX4), and cells transduced with lentivirus constitutively expressing DUX4 (vDUX4). The specific datasets used in this comparison are as follows: iDUX4 represents a new dataset generated from the MB135 immortalized human myoblasts with the doxycycline inducible codon-altered DUX4 (iDUX4), performed in biological triplicate fourteen hours after DUX4 induction in growth media, with uninduced cells as a control; enDUX4 represents the published dataset of differentiated FSHD myocytes that do or do not express endogenous DUX4, as determined using a DUX4-responsive fluorescent reporter and flow sorting (9); vDUX4 represents a published dataset wherein two different myoblast cell lines (MB135 and 54-1) were transduced with a lentiviral construct that drives constitutive DUX4 expression via the PGK promoter and maintained in growth media for 24 hours (MB135) or 36 hours (54-1) prior to harvesting RNA.
+

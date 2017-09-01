@@ -1,0 +1,12 @@
+TITLE
+Expression data from gastric cancer and paried normal tissues
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gastric cancer (GC) is one of the most common cancer worldwide. Specific and reliable molecular markers are limited; it is critical to identify new biomarkers for GC to aid in early diagnosis, treatment strategy, and prognosis evaluation. Microarray technology makes it possible to measure the expression levels of thousands of genes, and identifying meaningful and useful molecular targets from these large data.
+
+DESIGN
+Total RNA was extracted from 10 pairs of GC tissue and adjacent non-tumor mucosa using TRIzol® reagent (Invitrogen, Carlsbad, CA, US) following the manufacturer's instructions. The RNA integrity number (RIN), detected by an Agilent Bioanalyzer 2100 (Agilent Technologies, Santa Clara, CA, US), was used to determine the RNA integrity. Total RNA meeting the specified quality criteria (RIN ≥ 7.0 and 28S/18S ≥ 0.7) were further purified using an RNase-Free DNase Set  (Qiagen, Hilden, Germany) and an RNeasy® Micro Kit (Qiagen, Hilden, Germany) according to the manufacturer's instructions. Purified total RNA was then used for obtaining biotin-labeled cRNA  by applying the GeneChip® 3'IVT Express Kit (Affymetrix, Santa Clara, CA, US), according to the manufacturer's instructions. Then, the GeneChip® Hybridization, Wash, and Stain Kit (Affymetrix, Santa Clara, CA, US) was used for performing the array hybridization and wash, with the use of a GeneChip® Hybridization Oven 645 (Affymetrix, Santa Clara, CA, US) and a GeneChip® Fluidics Station 450 (Affymetrix, Santa Clara, CA, US). All arrays were scanned using a GeneChip® Scanner 3000 (Affymetrix, Santa Clara, CA, US) and Command Console Software 3.1 (Affymetrix, Santa Clara, CA, US) with the default settings. Raw data were normalized by the MAS 5.0 algorithm in GeneSpring Software 11.0 (Agilent Technologies, Santa Clara, CA, US). The significance analysis of microarray (SAM) was used to identify genes that were differentially expressed between the GC and normal tissues. Genes were considered to be differentially expressed when the Tumor versus Normal signal log ratio values were  ≥2 or ≤0.5.
+

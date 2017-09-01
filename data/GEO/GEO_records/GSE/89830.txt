@@ -1,0 +1,12 @@
+TITLE
+Transcriptional profiling of Mycobacterium tuberculosis Mmpl3 conditional mutant
+
+ORGANISM
+Mycobacterium tuberculosis
+
+SUMMARY
+MmpL3 is an inner membrane transporter of Mycobacterium tuberculosis responsible for the export of trehalose momomycolate, a precursor of the mycobacterial outer membrane component trehalose dimycolate (TDM), as well as mycolic acids bound to arabinogalactan. MmpL3 represents an emerging target for tuberculosis therapy. In this paper, we describe the construction and characterization of an mmpL3 knockdown strain of M. tuberculosis. Downregulation of mmpL3 led to a stop in bacterial division and rapid cell death, preceded by the accumulation of TDM precursors. MmpL3 was also shown to be essential for growth in monocyte-derived human macrophages. Using RNA-seq we also found that MmpL3 depletion caused up-regulation of 47 genes and down-regulation of 23 genes (at least 3-fold change and false discovery rate ≤ 1%). Several genes related to osmoprotection and metal homeostasis were induced, while several genes related to energy production and mycolic acids biosynthesis were repressed suggesting that inability to synthesize a correct outer membrane leads to changes in cellular permeability and a metabolic shiftdown.
+
+DESIGN
+The mmpL3 conditional mutant (named TB416) was constructed using the TetR/Pip ORR repressible promoter system (PMC2896539). Adding Anhydrotetracycline (Atc) to the cell culture medium represses the gene of interest. The Mycobacterium tuberculosis H37Rv conditional mutant strain was grown till exponential phase with or without ATc [500 ng/ml] in rolling bottles. Two biological replicates per condition were taken. As a control for a possible effect of Atc on cells, a wild-type H37Rv strain, ATc-treated and not treated, was used, one sample per condition.
+

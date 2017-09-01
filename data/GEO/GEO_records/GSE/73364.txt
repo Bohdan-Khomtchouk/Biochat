@@ -1,0 +1,12 @@
+TITLE
+Temporal regulation of dUTP biosynthesis limits uracil incorporation during early DNA replication
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Antimetabolite chemotherapies increase uracil levels in DNA, and thus identification of factors that influence the uracil content in DNA may have implications for understanding uracil-mediated chromosomal instability. We previously showed in the budding yeast Saccharomyces cerevisiae that uracil content in DNA correlates with replication timing, where the earliest and latest replicating regions are depleted in uracil. Here, we manipulated nucleotide biosynthesis enzymes in budding yeast to determine whether the pattern of uracil incorporation could be altered. In strains with high levels of uracil incorporation, deletion of dCMP deaminase (Dcd1) accelerated uracil incorporation at early-firing origins, likely due to rapid dTTP pool depletion. In contrast, increasing the activity of ribonucleotide reductase, which is required for the synthesis of all dNTPs via ribonucleotide diphosphates, lead to dUTP and dTTP pool equilibration and a concomitant increase in uracil content throughout the genome. These data suggest that uracil availability and the dUTP:dTTP ratio are temporally regulated during S phase and govern uracil incorporation into the genome. Therapeutic manipulation of nucleotide biosynthesis in human cells to either increase the dUTP pool or deplete the dTTP pool in early S phase may therefore improve the efficacy of antimetabolite chemotherapies.
+
+DESIGN
+4 single read sequencing runs. All using post-digest Excision-seq to measure uracil depletion in dut1-1 ung1∆, dut1-1 ung1∆ dcd1∆, and dut1-1 ung1∆ sml1∆ yeast
+

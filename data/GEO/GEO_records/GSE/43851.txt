@@ -1,0 +1,12 @@
+TITLE
+Functional DNA methylation is accompanied by chromatin accessibility [methylation]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Analysis of nucleosome positioning and chromatin state by using CpG methyltransferase M.SssI to methylate nuclei. Unmethylated regions that gain methylation (low to high beta value) are known to be accessible and nucleosome depleted. Method used to study changes after epigenetic drug treatments identified that majority of demethylation events are not accompanied by chromatin accessibility changes.
+
+DESIGN
+Intact nuclei are harvested from cells and treated with M.SssI. DNA is then extracted, bisulfite converted and run on an Infinium methylation array, along with a no-enzyme control. Background subtracted beta values (listed below) are used to determine regions that have gained methylation on enzyme treatment compared to the control - and these are used to infer chromatin state
+

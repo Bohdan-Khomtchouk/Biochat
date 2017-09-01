@@ -1,0 +1,12 @@
+TITLE
+Transcriptome profiling of zebrafish brain under hypoxia
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Adult zebrafish (Tübingen strain, sex not specified) at approximately 1 year of age were analysed. For experiments conducted under low oxygen conditions, nitrogen gas was bubbled through water to deplete oxygen before exposure of individual fish to the medium. Oxygen concentrations were measured using a dissolved oxygen meter (DO 6+, EUTECH instruments, Singapore). The dissolved oxygen level for hypoxia treatment was measured to be 1.20 ± 0.6 mg/l, whereas normal ambient oxygen levels were 6.6 ± 0.45 mg/l. Zebrafish were exposed to the hypoxic medium for 3 hours. Briefly, after each hypoxia trial, the animals were euthanized by hypothermic shock and then decapitated to remove the brain. Total RNA was extracted from samples mentioned above using the QIAGEN RNeasy mini kit (QIAGEN, GmbH, Hilden, Germany) and stored at −80°C before further analysis. RNA concentration was determined with a NanoVue™ UV–vis spectrophotometer (GE Healthcare Life Sciences, Fairfield, USA). RNA integrity and quality were then estimated using an Agilent 2100 Bioanalyzer (Agilent Technologies, Palo Alto, CA) and the RNA integrity number (RIN) index was calculated for each sample. Only RNAs with a RIN number > 7.0 were processed further. Microarray analysis of gene expression was performed using the Zebrafish Gene 1.0 ST Array (Affymetrix Inc. Santa Clara, CA). Briefly, 300ng of total RNA derived from a single adult brain was converted to amplified sense strand cDNA using the Ambion WT Expression Kit (Life Technologies, Carlsbad, CA). The resulting sense cDNA was fragmented and Biotin end-labelled using the Affymetrix Genechip WT Terminal Labeling Kit prior to hybridisation to the array at 45 °C for 16 hours.
+
+DESIGN
+Two treatments including hypoxia and normoxia were studied. Each treatment had three biological replicates (i.e. three fish exposed to hypoxia and three fish exposed to normoxia). Six samples were analysed. Microarray analysis of gene expression was performed using the Zebrafish Gene 1.0 ST Array. The signal intensity of the chip was scanned using a GeneChipR Scanner 3000TG and analysed using Expression Console software (www. Affymetrix.com). CEL files were imported and intensities adjusted by RMA background correction and quantile normalization.
+

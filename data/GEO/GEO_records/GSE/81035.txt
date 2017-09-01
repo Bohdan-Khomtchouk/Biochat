@@ -1,0 +1,12 @@
+TITLE
+Early life stress perturbs the maturation of microglia in the developing hippocampus [development]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The goal of this project was to identify genes whose expression is modified by age in microglia isolated from the hippocampus of 14 and 28-day old control mice (i.e. normally developing mice). To accomplish this we used two independent cohorts of control mice and identified a list of 76 genes that were significantly regulated by age (p < 0.05) in both cohorts. Data for cohort 1 were extracted from gene expression of P14 and P28 control mice available in the BDS-P14-male series (GSE81036) and BDS-P28-male series (GSE81037). Data for cohort 2 are available in this series. These data are summarized also in Table S3 in Delpech J.C. et al. Early life stress perturbs the maturation of microglial cells in the developing hippocampus, Brain, Behavior and Immunity, 2016 (in preparation).
+
+DESIGN
+microglial cells were isolated from the hippocampus of 14 and 28-day old control  male pups (n=6 from each group, all from differ litters) using Percoll gradient followed by FACS analysis. RNA was harvested using the he mirVana mirRNA isolation kit (Cat # AM 1560, Life technologies) and was then concentrated and Dnase treated on column using the RNA clean and contractor-5 kit (Cat# R1015, Zymo Research). Two ng of RNA were converted to cDNA using Superscript Vilo (Cat# 11754, Life Technologies), amplified with 5 rounds of PCR according to the nCounter single cell gene expression protocol and hybridized to the mouse immune panel (Cat# 150761, NanoString Technologies), and processed according to manufacturer instructions. Counts were normalized to positive controls and 5 housekeeping genes (e.g. Alas1, Gapdh, Oaz1, Polr1b, Sdha, Tbp) that were not affected by either BDS or age and showed a coefficient of variation of less than 20%. Genes were considered “present” if at least 40% of the samples showed hybridization signal that was 2 s.d. above the mean value for the negative control probes
+

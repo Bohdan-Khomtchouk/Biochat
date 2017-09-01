@@ -1,0 +1,12 @@
+TITLE
+Renormalized GSE8191 by using the parametric method
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Although principal component analysis is frequently used in multivariate/ analysis, it has disadvantages when applied to experimental or diagnostic data. First, the identified principal components have poor generality; since the size and directions of the components are dependent on the particular data set, the components are valid only within the set. Second, the method is sensitive to experimental noise and bias between sample groups, since it cannot reflect the design of experiments; rather, it estimates the same weight and independence of all the samples in the matrix. Third, the resulting components are often difficult to interpret. To address these issues, several options were introduced to the methodology. The resulting components were scaled to unify their size unit. Also, the principal axes were identified using training data sets and shared among experiments. This training data reflects the design of experiments, and its preparation allows noise to be reduced and group bias to be removed. The effects of these options were observed in microarray experiments, and showed an improvement in the separation of groups and robustness to noise. Additionally, unknown samples were appropriately classified using pre-arranged axes, and principal axes well reflected the characteristics of groups in the experiments. The summarized levels the genes are presented in the Matrix form.
+
+DESIGN
+PM data of samples in GSE8191 were parametrically normalized in chip-wise manner according to the three-parameter lognormal distribution method (Konishi et. al., 2009 PLoS ONE 3: e3555. ).   Expression level of a gene was estimated by summarizing the corresponding PM data. A pseudo data was then derived in a form of antilog of the z-scores; the center of the pseudo data was 256. The pseudo data, ABS_CALL, and the normalized data (z-scores) are presented in the matrix form [see Supplementary file below].  PM data were not directly used for the study.
+

@@ -1,0 +1,12 @@
+TITLE
+Synthetic cationic peptide IDR-1018 modulates human macrophage differentiation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Synthetic, innate defense regulators (IDR) peptides, designed based on natural host defenses peptides, have enhanced immunomodulatory activities and reduced toxicity leading to protection in infection and inflammation models that is dependent on macrophages/monocytes. Here we measured the effect of IDR-1018 on macrophage gene expression during differentiation. Differentiation in the presence of IDR-1018 induced a unique signature of immune responses suggesting that IDR-1018 drives macrophage differentiation towards an intermediate M1-M2 state, enhancing anti-inflammatory functions while maintaining certain pro-inflammatory activities important to the resolution of infection.
+
+DESIGN
+RNA-seq was performed using the Illumina Genome Analyzer IIx platform. Monocytes were isolated from 3 healthy donors, and left unstimulated  or stimulated for 4 hours with 20 μg/ml IDR-1018. For library preparation, 500 ng of total RNA was processed according to the Illumina TruSeq RNA sample preparation guide (Illumina catalogue number FC-122-1002). Briefly, mRNA was purified using poly-dT beads, followed by synthesis of the first and second cDNA strands, end repair addition of an poly-A overhang, and ligation of adapters and unique barcodes, as per the manufacturer’s instructions. DNA enrichment was carried out via a 15-cycle PCR. Following quantification, 8 pM of dsDNA was used for cluster generation on a CBOT instrument (Illumina, San Diego, CA). RNA sequencing was done on a GAIIx instrument (Illumina), performed as a single read run with 51 amplification cycles. Data processing was carried out in house, using CASAVA to convert raw data and demultiplex to FASTQ sequence files. Reads were aligned to the reference genome using TOPHAT, and then mapped to genes using the Bioconductor package GenomeRanges.
+

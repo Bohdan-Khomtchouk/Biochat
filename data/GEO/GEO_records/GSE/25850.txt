@@ -1,0 +1,12 @@
+TITLE
+Evolutionary Diversification of Duplicated Genes; Experiment J
+
+ORGANISM
+Daphnia pulex
+
+SUMMARY
+This study measured the rates at which duplicated genes in the Daphnia pulex genome diverge in function, based on significant differences in their gene expression when paralogs of various ages were tested across 8 to 12 contrasting conditions. The conditions were designated A to L.  The number and diversity of experiments were designed to uncover condition specific expression. The age of duplicated genes was measured as the level of silent-site nucleotide substitution (Ks) between paralogs. Two methods were used to evaluate the degree to which expression pattern of paralogs differ. (1) The first method investigated variation in the differential expression patterns among duplicates of individual gene families by calculating the M values (log2 treatment – log2 reference) from eight experiments, then calculating Pearson correlations. (2) The second method is a global investigation which defined a distinguishable expression pattern by a significance criterion (p < 0.05) using ANOVA for the simple statistical model of aov( Yab ~ Xab ), for matrices Yab differential expression M values and Xab gene factors, with replicates. We used pr(M) < 0.05 as criterion that expression differs between paralog genes, for zero to twelve treatments. The hypothesis that is tested is one of how many paralog pairs in each Ks category reach the criterion of a distinguishable expression pattern, which is tested for significance with Fisher's exact test for count data. This method is reliable for as few as two probes for one gene and one probe for the other, although a greater number of replicate probes produced more significant results.
+
+DESIGN
+We compared the gene expression patterns for condition 1 versus condition 2 using four to six biological replicates, including balanced dye-swaps. All probes including random probes were quantile-normalized across chips, subarrays, samples and replicates.
+

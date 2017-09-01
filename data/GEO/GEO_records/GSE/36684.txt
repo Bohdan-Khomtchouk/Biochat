@@ -1,0 +1,12 @@
+TITLE
+Exposure of an immortalized human bronchial epithelial cell line, BEAS-2B, to one of four metals (arsenic, chromium, nickel or vanadium) to determine the early changes that lead to cell transformation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To determine early changes leading to human cell transformation (cancer) we exposed an immortalized human bronchial epithelial cell line, BEAS-2B, to one of four different metals that may cause cancer via inhalation in humans or rodents: 2.0 micro-Molar soluble sodium arsenite (NaAsO2), 0.50 micro-Molar potassium chromate (K2CrO4), 250 micro-Molar nickel (II) sulfate (NiSO4), 10 micro-Molar sodium meta-vanadate (NaVO3), or were left untreated (control).  After a 30-60 day exposure, cells were rinsed of metals and seeded in soft agar.  A small number of the cells formed colonies in the soft agar, demonstrating the potential for anchorage independent growth, a characteristic of cancer.  These colonies that originated from a single cell were extracted from the agar and grown out in monolayer for 3-4 weeks. The RNA data provided here is taken from these cells.  The significance it that the metal exposure was stopped many generations before the analysis, yet each sample demonstrates changes in gene expression based on the original metal exposure.
+
+DESIGN
+A total of 39 samples were analyzed, consisting of 3 parental cell lines (BEAS-2B cells that were never seeded in agar or exposed to any metal), 11 controls cells (grouped into three sets, based on those seeded at the same time as the V-treated clones, the Cr-treated clones, or the As-treated and Ni-treated clones), and 25 metal-treated clones (7 each for Ni and As, processed in two separate batches of 3 and 4 clones each, 6 Cr clones and 5 Vanadium clones).  Because the samples were processed in different batches, the data was batch-normalized using the COMBAT package in R prior to importing into GeneSpring.  Once in GeneSpring the data was base-lined with each sample compared to its control samples (Batch 1:  Cr 1-6, P-2, Ctrls 6-8; Batch 2: As1-3, Ni 1-3, P-1 and Ctrl 1-3; Batch 3: As4-7, Ni 4-7, and Ctrl 4-5; Batch 4: V 1-5, P-3 and Ctrl 9-11).   When the same analysis was performed but with baseline of samples to all controls combined, a similar result was obtained, albeit with less tight clustering.  Arsenic clones 2 and 5 appear to be outliers as their removal nicely cleans up the PCA, but this appears to be genuine biological variation as we did not identify any significant problems with the data.
+

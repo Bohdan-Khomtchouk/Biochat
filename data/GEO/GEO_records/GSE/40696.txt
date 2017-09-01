@@ -1,0 +1,12 @@
+TITLE
+Quantitative, genome-wide analysis of eukaryotic replication initiation and termination
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Via the deep-sequencing of Okazaki fragments from Saccharomyces cerevisiae, we report the first comprehensive documentation of genome-wide replication directionality in any eukaryote; this permits the systematic analysis of both replication initiation and termination. We conduct a genome-wide analysis of origin competence and efficiency, and conclude that the majority of origins are competent to fire in each cell cycle and generally do so with high efficiency. Additionally, the spatial resolution of our data allow us to determine that leading-strand initiation generally occurs within the nucleosome-free region at origins. Using a strain in which late origins can be induced to fire early, we show that replication termination is a largely passive phenomenon that does not rely on cis-acting sequences or replication fork pausing and that the replication profile is determined largely by the kinetics of origin firing, allowing us to reconstruct chromosome-wide timing profiles from an asynchronous culture.
+
+DESIGN
+5 samples are included. Two are replicate, paired-end, wild-type samples sequenced via Illumina methodology. The raw data for these two are also deposited in the GEO repository under accession numbers GSM835650 and GSM835651. Two replicate, single-end, Sld2, Sld3, Dbf4, Dpb11, Cdc45 and Sld7 (SSDDCS) overexpression via galactose induction experiments are reported sequenced via Ion Torrent methodology. One single-end, Sld2, Sld3, Dbf4, Dpb11, Cdc45 and Sld7 (SSDDCS) normal expression control via glucose media experiment is reported sequenced via Ion Torrent methodology.
+

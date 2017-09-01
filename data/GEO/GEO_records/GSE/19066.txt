@@ -1,0 +1,12 @@
+TITLE
+Small RNA sequencing in mouse cardiomyocytes after siRNA mediated knockdown of Srf
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We performed two independent siRNA mediated knockdowns of Srf (Srf si1 & Srf si2) and an unspecific siRNA (siNon) in mouse cardiomyocytes HL-1 cells. Small RNAs were sequenced by Illumina/Solexa next-generation (single-end) sequencing technology. The sequence reads were mapped to the mouse reference genome (NCBI v37, mm9) using MicroRazerS. MicroRazerS searches for the longest possible prefix-match of each read, i.e. the longest possible contiguous match starting at the first base. Hence, it is robust to possible adapter sequence at the 3' end of a read and requires no adapter trimming.
+
+DESIGN
+Small RNA-seq profiles of two siRNA mediated knockdowns of Srf and an unspecific siRNA in mouse cardiomyocytes
+

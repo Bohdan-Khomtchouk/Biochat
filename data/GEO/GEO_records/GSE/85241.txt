@@ -1,0 +1,12 @@
+TITLE
+A single-cell transcriptome atlas of the human pancreas [CEL-seq2]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To understand organ function it is important to have an inventory of the cell types present in the tissue and of the corresponding markers that identify them. This is a particularly challenging task for human tissues like the pancreas, since reliable markers are limited.  Transcriptome-wide studies are typically done on pooled islets of Langerhans, which obscures contributions from rare cell types and/or potential subpopulations. To overcome this challenge, we developed an automated single-cell sequencing platform to sequence the transcriptome of thousands of single pancreatic cells from deceased organ donors, allowing in silico purification of all main pancreatic cell types. We identify cell type-specific transcription factors, a subpopulation of REG3A-positive acinar cells, and cell surface markers that allow sorting of live alpha and beta cells with high purity. This resource will be useful for developing a deeper understanding of pancreatic biology and pathophysiology of diabetes mellitus.
+
+DESIGN
+Islets of Langerhans were extracted from human cadaveric pancreata and kept in culture until single-cell dispersion and FACS sorting. Single-cell transcriptomics was performed on live cells from this mixture using an automated version of CEL-seq2 on live, FACS sorted cells. The StemID algorithm was used to identify clusters of cells corresponding to the major pancreatic cell types and to mine for novel cell type-specific genes as well as subpopulations within the known pancreatic cell types.
+

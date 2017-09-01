@@ -1,0 +1,12 @@
+TITLE
+A ChIP-seq spike-in method enables detection of global histone modification changes across the genome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This study outlines a method that dramatically alters the interpretation of ChIP-seq data and will improve the quantitative comparison of histone modification maps across biological contexts or across various conditions within a given biological context.
+
+DESIGN
+We introduced a small fraction of Drosophila chromatin into human ChIP samples and added a Drosophila-specific antibody as a means to consistently precipitate Drosophila chromatin as a minor fraction of the total ChIP DNA. The Drosophila ChIP-seq tags are used to normalize the human ChIP-seq data from DMSO and EZH2 inhibitor-treated samples. Employing this strategy, a substantial reduction in H3K27me3 levels is observed across the genome upon EZH2 inhibitor treatment.
+

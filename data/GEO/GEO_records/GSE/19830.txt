@@ -1,0 +1,12 @@
+TITLE
+Expression data from pure/mixed brain, liver and lung to test feasability and sensitivity of statistical deconvolution
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Tissues are often made up of multiple cell-types. Blood, for example, contains many different cell-types, each with its own functional attributes and molecular signature. In humans, because of its accessibility and immune functionality, blood cells have been used as a source for RNA-based biomarkers for many diseases.  Yet, the proportions of any given cell-type in the blood can vary markedly, even between normal individuals. This results in a significant loss of sensitivity in gene expression studies of blood cells and great difficulty in identifying the cellular source of any perturbations.  Ideally, one would like to perform differential expression analysis between patient groups for each of the cell-types within a tissue but this is impractical and prohibitively expensive. To test the relationship between measured gene expression in mixed samples and the expression of genes in the isolated pure subsets, we begin with a situation in which all factors are known. Tissue samples from the brain, liver and lung of a single rat were analyzed using expression arrays (Affymetrix) in triplicate. Homogenates of those three tissues were then mixed together at the cRNA level. We then measured the gene expression pattern of each mixed sample. Such mixtures mimic the common scenario in which biological samples in a dataset are heterogeneous and vary in the relative frequency of the component subsets from one another.
+
+DESIGN
+We mixed rat brain, liver and lung biospecimens derived from one animal at the cRNA homogenate level in different proportions. 3 technical replicates each. Snap frozen rat liver and brain was kept frozen while cutting it into pieces. cDNA synthesis and labeling was done with a starting amount of 1 μg, using the Affymetrix Eukaryotic One-Cycle Target Hybridization. Washing, Staining and scanning protocol for Eukaryotic Cartridge Arrays with User-Prepared Buffers and Sloutions according to the technical manuals (Affymetrix GeneChip Expression, Analysis for Cartridge Arrays using the GCAS version 1.4,  Affymetrix GeneChip Expression Analysis (P/N 701021,Rev. 5) , Affymetrix GeneChip Expression Wash, Stain and Scan (P/N 702731, Rev. 3) , following the manufacturer/s instructions. Data was RMA normalized.
+

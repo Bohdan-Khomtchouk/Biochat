@@ -1,0 +1,12 @@
+TITLE
+RNAcompete: a method for rapid and systematic analysis of the RNA recognition specificities of RNA-binding proteins
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+Metazoan genomes encode hundreds of RNA binding proteins (RBPs) but relatively few have well-defined RNA-binding preferences. Current techniques for determining RNA targets, including those involving in vitro selection and RNA co-immunoprecipitation, require significant time and labour investment. Here we introduce RNAcompete, a new method for the systematic analysis of RNA-binding specificities that employs a single binding reaction to determine the relative preferences of RBPs for short RNAs that containing a complete range of k-mers in structured and unstructured RNA contexts. We tested RNAcompete by analyzing nine diverse RBPs (HuR, Vts1, FUSIP1, PTB, U1A, SF2/ASF, SLM2, RBM4, and YB1). RNAcompete identified both expected and previously unknown RNA binding preferences. Using in vitro and in vivo binding data, we demonstrate that preferences for individual 7-mers identified by RNAcompete are a more accurate representation of binding activity than conventional motif models. We anticipate that RNAcompete will be a valuable tool for the large-scale study of RNA-protein interactions.
+
+DESIGN
+The bound RNA from each RNA binding protein pulldown assay is analyzed on a custom Agilent microarray using a pool RNA control as a reference.
+

@@ -1,0 +1,12 @@
+TITLE
+Genome-wide dynamics of Pol II elongation and its interplay with promoter proximal pausing, chromatin, and exons
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Production of mRNA depends critically on the rate of RNA polymerase II (Pol II) elongation. To dissect Pol II dynamics in mouse ES cells, we inhibited Pol II transcription at either initiation or promoter-proximal pause escape with Triptolide or Flavopiridol, and tracked Pol II kinetically using GRO-seq. Both inhibitors block transcription of more than 95% of genes, showing that pause escape, like initiation, is a ubiquitous and crucial step within the transcription cycle. Moreover, paused Pol II is relatively stable, as evidenced from half-life measurements at ~3200 genes. Finally, tracking the progression of Pol II after drug treatment establishes Pol II elongation rates at over 1,000 genes. Notably, Pol II accelerates dramatically while transcribing through genes, but slows at exons. Furthermore, intergenic variance in elongation rates is substantial, and is influenced by a positive effect of H3K79me2 and negative effects of exon density and CG content within genes.
+
+DESIGN
+We isolated replicates of nuclei of untreated mESCs and cells treated for 2, 5, 12.5, 25 and 50 min with 300nM flavopiridol, as well as nuclei treated for 12.5, 25, and 50 min with 500nM triptolide and performed GRO-seq with these.
+

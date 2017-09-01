@@ -1,0 +1,12 @@
+TITLE
+Genome-wide Ultrabithorax binding analysis reveals highly targeted genomic loci at developmental regulators and a potential connection to Polycomb-mediated regulation
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Hox homeodomain transcription factors are key regulators of animal development. They specify the identity of segments along the anterior-posterior body axis in metazoans by controlling the expression of diverse downstream targets, including transcription factors and signaling pathway components. The Drosophila melanogaster Hox factor Ultrabithorax (Ubx) directs the development of thoracic and abdominal segments and appendages, and loss of Ubx function can lead for example to the transformation of third thoracic segment appendages (e.g. halters) into second thoracic segment appendages (e.g. wings), resulting in a characteristic four-wing phenotype. Here we present a Drosophila melanogaster strain with a V5-epitope tagged Ubx allele, which we employed to obtain a high quality genome-wide map of Ubx binding sites using ChIP-seq. We confirm the sensitivity of the V5 ChIP-seq by recovering 7/8 of well-studied Ubx-dependent cis-regulatory regions. Moreover, we show that Ubx binding is predictive of enhancer activity as suggested by comparison with a genome-scale resource of in vivo tested enhancer candidates. We observed densely clustered Ubx binding sites at 12 extended genomic loci that included ANTP-C, BX-C, Polycomb complex genes, and other regulators and the clustered binding sites were frequently active enhancers. Furthermore, Ubx binding was detected at known Polycomb response elements (PREs) and was associated with significant enrichments of Pc and Pho ChIP signals in contrast to binding sites of other developmental TFs.  Together, our results show that Ubx targets developmental regulators via strongly clustered binding sites and allow us to hypothesize that regulation by Ubx might involve Polycomb group proteins to maintain specific regulatory states in cooperative or mutually exclusive fashion, an attractive model that combines two groups of proteins with prominent gene regulatory roles during animal development.
+
+DESIGN
+Ubx was endogenously tagged with V5 epitope in Drosophila melanogaster (Ubx-V5). ChIP-seq was performed with chromatin from 0-16 hrs wild type and Ubx-V5 embryos. The samples  were subjected to single-end sequencing in two replicates.
+

@@ -1,0 +1,12 @@
+TITLE
+c-Myc is a universal amplifier of gene expression [ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The c-Myc HLH-bZIP protein has been implicated in physiological or pathological growth, proliferation, apoptosis, metabolism and differentiation at the cellular, tissue or organismal levels via regulation of numerous target genes. In part due to the incomplete inventory and functional accounting of Myc’s targets, no principle unifies Myc action. To relate the dynamics of Myc-binding with target expression and function in a system where Myc-levels are temporally and physiologically regulated, the transcriptomes and the genome-wide distributions of Myc, RNA polymerase II and chromatin modifications were compared during lymphocyte activation and in ES cells. A remarkably simple rule emerged from this quantitative analysis: Myc is not an on-off switch, but is a non-linear amplifier of expression, acting universally at active genes, except for immediate early genes that are strongly induced before Myc. This rule of Myc action explains the vast majority of Myc biology observed in literature.
+
+DESIGN
+Quiescent B-cells (B0) were treated with lipopolysaccharide (LPS) for 4 hrs (B4), and resting T-cells (T0) were activated with conA for 4 hrs (T4) and for 14 hrs (T14). Following treatments, RNA was harvested and chromatin was prepared at these time points. The chromatin was immunoprecipitated using anti-EGFP antibodies and analyzed by ChIP-seq.
+

@@ -1,0 +1,12 @@
+TITLE
+Evolutionary conservation of nuclear lamina-genome interactions
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Regulation of gene expression is highly conserved between vertebrates, yet the genomic binding patterns of transcription factors are poorly conserved, suggesting that other mechanisms may contribute. The spatial organization of chromosomes in the nucleus is known to affect gene activity, but it is unclear to what extent this organization is conserved in evolution. Genome-wide maps of nuclear lamina (NL) interactions show that human and mouse chromosomes have highly similar folding patterns inside the nucleus. Breaks in synteny are often located at transition points between NL interacting and intra-nuclear regions. Data were compared against data from Peric-Hupkes, Meuleman et al. (Molecular Cell, 2010). The procedure to arrive at the provided Hidden Markov Model (HMM) state calls is as follows: We fitted a two-state HMM whereby emissions are distributed as Student's t variables. Mean and variance of DamID signals differ between states, but the degree of freedom (nu) is the same. Gaps in the probe coverage were filled by evenly spaced null probe-values. The parameters were estimated by an adaptation of the ECME algorithm to the HMM framework, showing faster convergence than regular EM when nu is unknown (Filion et al., Cell, 2010). State calls were derived through the Viterbi algorithm. This process was repeated separately for each cell type, yielding per-probe calls. Probes in the ‘bound’ (1) state are indicated as LAD-probes, probes in the ‘unbound’ (0) state as inter-LAD-probes.
+
+DESIGN
+LaminB1-chromatin interactions were assayed in human ESCs and human HT1080 cells.  LaminA-chromatin interactions were assayed in human HT1080 cells. For the all samples there were 2 biological replicates, that were hybridized in a dye-swap design.
+

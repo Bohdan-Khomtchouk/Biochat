@@ -1,0 +1,12 @@
+TITLE
+Functional and evolutionary significance of human microRNA seed region mutations [M5]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs (miRNAs) are small non-coding RNAs that play a central role in the regulation of gene expression at the post transcriptional and/or translational level thus impacting various biological processes. Dysregulation of miRNAs could affect processes associated with progression of a variety of diseases including cancer.  Majority of miRNA targeting in animals involves a 7-nt “seed region” mapping to positions 2-8 at the molecule’s 5' end. The importance of this 7 nt sequence to miRNA function is evidenced by the fact that the seed region sequence of many miRNAs is highly conserved within and between species. In this study, we computationally and experimentally explore the functional significance of sequence variation within the seed region of human miRNAs. Our results indicate that change of a single nt within the 7-nt seed region changes the spectrum of targeted mRNAs significantly meanwhile further nt changes have little to no additional effect. This high functional cost of even a single nucleotide change within the seed region of miRNAs explains why the seed sequence is highly conserved among many miRNA families both within and between species and could help clarify the likely mechanisms underlying the evolution of miRNA regulatory control.
+
+DESIGN
+mRNAs were collected from 3 M5 miRNA treated and 3 negative control miRNA treated HEY ovarian cancer cell samples. mRNA expression was captured on Affymetrix U133 Plus 2 chips. To compare mRNA expression pattern between the M5 treated cells and the negative control treated cells, present/absent calls were generated using MAS5, while signals were calculated using GCRMA and then log2 transformed. Expression of differentially expressed genes or down regulated miRanda-mirSVR predicted miRNA target genes was compared between miRNA treated samples.
+

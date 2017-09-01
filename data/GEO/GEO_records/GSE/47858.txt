@@ -1,0 +1,12 @@
+TITLE
+High-efficiency RNA cloning enables quantitative measurement of miRNA expression by deep sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MiRNA-mediated regulation depends on the stoichiometry between miRNAs and their mRNA targets. To decipher dynamic function of this complex layer, it is critical to characterize individual miRNA species within a specific cellular context. Small RNA cloning followed by deep sequencing is uniquely positioned as a genome-wide profiling method to quantify miRNA expression with potentially unlimited dynamic range and provide single-nucleotide resolution for precise miRNA classification and de novo discovery. However, significant biases introduced by RNA ligation steps in the current RNA cloning protocol often lead to inaccurate miRNA quantification by > 1000-fold deviation. As a result, it has greatly hindered the broad application of this method. Here we report a highly efficient RNA cloning method that achieves over 90% efficiency for both 5’ and 3’ ligations with diverse small RNA substrates. When applied to a pool of either equimolar or differentially mixed synthetic miRNAs, the deviation of the cloning frequency for each miRNA is minimized to less than 2-fold of the anticipated value. By using samples obtained from multiple tissues and cells, we further demonstrate the accurate quantification of miRNA expression over a dynamic range of four orders of magnitude. Our results also reveal that most cistronic miRNAs are expressed at similar levels and, in each cell population, miRNAs repress their cognate targets in a dosage dependent manner. Collectively, our high-efficiency RNA cloning method combining with deep sequencing establishes a cost-effective approach for accurate genome-wide miRNA profiling.
+
+DESIGN
+We designed an artificial system composed of synthetic miRNAs for benchmarking biases in small RNA cDNA cloning for NGS.
+

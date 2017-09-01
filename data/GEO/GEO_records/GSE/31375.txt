@@ -1,0 +1,12 @@
+TITLE
+PRINCIPAL COMPONENT ANALYSIS FOR EXPERIMENTS
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Although principal component analysis is frequently used in multivariate/ analysis, it has disadvantages when applied to experimental or diagnostic data. First, the identified principal components have poor generality; since the size and directions of the components are dependent on the particular data set, the components are valid only within the set. Second, the method is sensitive to experimental noise and bias between sample groups, since it cannot reflect the design of experiments; rather, it estimates the same weight and independence of all the samples in the matrix. Third, the resulting components are often difficult to interpret. To address these issues, several options were introduced to the methodology. The resulting components were scaled to unify their size unit. Also, the principal axes were identified using training data sets and shared among experiments. This training data reflects the design of experiments, and its preparation allows noise to be reduced and group bias to be removed. The effects of these options were observed in microarray experiments, and showed an improvement in the separation of groups and robustness to noise. Additionally, unknown samples were appropriately classified using pre-arranged axes, and principal axes well reflected the characteristics of groups in the experiments. This SuperSeries is composed of the SubSeries listed below.
+
+DESIGN
+Refer to individual Series.
+

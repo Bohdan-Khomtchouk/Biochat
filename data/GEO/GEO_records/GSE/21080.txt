@@ -1,0 +1,12 @@
+TITLE
+Gene expression analysis of HepaRG cells that ectopically express miR-371-3 cluster
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+the immoratlized hepatic cell line HepaRG was transduced with a retroviral vector containing the miR-371-3 cluster. As a control, transduction was performed with the empty vector. Transcriptome analysis was performed by using the Affymetrix whole-transcript human gene 1.0 ST array. Each condition was analyzed in triplicate
+
+DESIGN
+hierarchical unsupervised clustering of HB samples according to their miRNA expression profile identifies 2 tumor subgroups associated with different degree of differentiation, proliferation rate and invasive phenotype. As subset of these tumors is used as training set to build a mir classifier. When the signature is applied to an independent test set, an independent series of HB is classified patients into two groups associated with the clinical features identified in the first set of patients.
+

@@ -1,0 +1,12 @@
+TITLE
+Limitations and possibilities of low cell number ChIP-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+ChIP-seq experiments using low numbers of input cells, scaled down to the point where data quality is unnacceptably compromised, reveals limits of the technique.
+
+DESIGN
+Two-part ChIPseq study using native chromatin (non-crosslinked) generated with MNase from human CD4+ cells. Part 1: Previously published protocol (Barski et al, 2007, Cell 129:823, hereafter called " Benchmark " ) used with 2x10e7 cells / ChIP with H3K4me3 antibody, compared to modified method ( " new " ) with decreasing input cell numbers spanning 1000-fold range from 2x10e7 cells / IP to 2x10e4 cells/ IP. Part 2: reproducibility of new method studied using triplicate samples at lowest two cell numbers tested: 1x10e5 and 2x10e4 / ChIP, using H3K4me3 and H3K27me3 antisera.
+

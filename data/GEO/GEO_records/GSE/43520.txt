@@ -1,0 +1,12 @@
+TITLE
+The evolution of lncRNA repertoires and expression patterns in tetrapods
+
+ORGANISM
+Xenopus tropicalis
+
+SUMMARY
+Only a minuscule fraction of long non-coding RNAs (lncRNAs) are well characterized. The evolutionary history of lncRNAs can provide insights into their functionality, but comparative analyses have been precluded by our ignorance of lncRNAs in non-model organisms. Here, we use RNA sequencing to identify lncRNAs in eleven tetrapod species and we present the first large-scale evolutionary study of lncRNA repertoires and expression patterns. We identify ~11,000 primate- specific lncRNA families, which show evidence for selective constraint during recent evolution, and ~2,400 highly conserved lncRNAs (including ~400 genes that likely originated more than 300 million years ago). We find that lncRNAs, in particular ancient ones, are generally actively regulated and may predominantly function in embryonic development. lncRNA X-inactivation patterns reveal an extremely female-biased monotreme-specific lncRNA, which may partially compensate X-dosage in this lineage. Most lncRNAs evolve rapidly in terms of sequence and expression levels, but global patterns like tissue specificities are often conserved. We compared expression patterns of homologous lncRNA and protein-coding families across tetrapods to reconstruct an evolutionarily conserved co-expression network. This network, which surprisingly contains many lncRNA hubs, suggests potential functions for lncRNAs in fundamental processes like spermatogenesis or synaptic transmission, but also in more specific mechanisms such as placenta growth suppression through miRNA production.
+
+DESIGN
+[Batch 1 and 2] To broaden our understanding of lncRNA evolution, we used an extensive RNA-seq dataset to establish lncRNA repertoires and homologous gene families in 11 tetrapod species. We analyzed the poly- adenylated transcriptomes of 8 organs (cortex/whole brain without cerebellum, cerebellum, heart, kidney, liver, placenta, ovary and testis) and 11 species (human, chimpanzee, bonobo, gorilla, orangutan, macaque, mouse, opossum, platypus, chicken and the frog Xenopus tropicalis), which shared a common ancestor ~370 millions of years (MY) ago. Our dataset included 47 strand-specific samples, which allowed us to confirm the orientation of gene predictions and to address the evolution of sense-antisense transcripts. See also GSE43721 (Soumillon et al, Cell Reports, 2013) for three strand-specific samples for mouse brain, liver and testis.
+

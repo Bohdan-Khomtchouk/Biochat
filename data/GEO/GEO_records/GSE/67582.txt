@@ -1,0 +1,12 @@
+TITLE
+Promoter-proximal R-loops regulate binding of chromatin regulators and pluripotency [RIP-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Numerous chromatin-remodelling factors are regulated by interactions with RNA. However, the contexts in which chromatin-remodelling factors encounter various RNA species, as well as the molecular functions of RNA binding, are poorly understood. Here we show that R-loops, RNA:DNA hybrids consisting of nascent transcripts hybridized to template DNA strands, facilitate embryonic stem cell (ESC) differentiation by modulating the binding of two key chromatin-remodelling enzymes near gene promoters. As previously shown for polycomb repressive complex 2 (PRC2)1-5, we find that the Tip60-p400 histone acetyltransferase and nucleosome-remodelling complex binds in cis to nascent transcripts. However, whereas chromatin binding by PRC2 is broadly inhibited by transcription6, transcription is necessary for maximal Tip60-p400 binding at most target loci. Given that nascent transcripts expressed from GC-rich promoters frequently form R-loops7, we mapped the genomic locations of R-loops in mouse ESCs, observing higher average Tip60-p400 levels and lower average PRC2 levels at genes with R-loops near their transcription start sites (TSSs). Disruption of R-loops by overexpression of RNaseH1 broadly reduced Tip60-p400 and increased PRC2 enrichment, demonstrating R-loops exert both positive and negative effects on chromatin association by regulatory factors. Consistent with these findings, RNaseH1 overexpression results in widespread changes in gene expression and inhibits ESC differentiation, allowing undifferentiated cells to persist for at least two weeks after differentiation is induced. These results define a novel mechanism by which promoter-proximal R-loops modulate chromatin structure to facilitate changes in cellular identity.
+
+DESIGN
+We examined the interacting RNAs in Tip60-p400 complex by RIP-seq in mouse ES cells.
+

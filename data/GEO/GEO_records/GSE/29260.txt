@@ -1,0 +1,9 @@
+TITLE
+Detection of duplication polymorphisms in the Drosophila simulans genome
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+In order to characterize duplication polymorphisms in Drosophila simulans, we applied comparative genome hybridization (CGH) using tiling arrays originally designed to cover the full euchromatic genome of its sister species D. melanogaster. We only used the ~900,000 probes in the tiling arrays that had a perfect and unique match to the D. simulans genome (droSim1). We inferred copy number changes with a Hidden Markov Model (HMM) that returned the posterior probabilities for copy number by comparing DNA hybridization intensities between natural isolates. The probabilities of mutation were parsed to make duplication calls. The supplementary file linked to each Sample record contains for each probe, its location in the D. simulans genome and its posterior probability of being duplicated (output from the Hiddem Markov Model)
+

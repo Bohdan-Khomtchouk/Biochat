@@ -1,0 +1,12 @@
+TITLE
+Genome-wide identification of Ago2 binding sites from mouse embryonic stem cells with and without mature microRNAs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+MicroRNAs (miRNAs) are a large family of 19-22nt non-coding RNAs that post-transcriptionally regulate their mRNA targets. Computational algorithms predict that over half of all genes are regulated by miRNAs, yet approaches for experimental identification of miRNA binding sites are now emerging.  To directly identify endogenous miRNA binding sites, we performed photo-crosslinking immunoprecipitation using antibodies against Ago2, followed by deep-sequencing of RNA tags (CLIP-seq) in mouse embryonic stem cells (mESCs). We also performed parallel CLIP-seq in Dicer null mESCs that lack mature miRNAs, allowing us to define whether the association of Ago2 with the identified sites was mediated by miRNAs. We include the exon-array expression data obtained from three sets of Dicer WT and Dicer Null mESCs.These data are used to determine genes that are differentially expressed between Dicer WT and Dicer Null conditions.
+
+DESIGN
+Six samples (3 Dicer wild-type CLIP RNA libraries representing two biological replicates, 2 Dicer null CLIP RNA libraries, 1 short-RNA library from Dicer wild-type mESCs) were analyzed. Six total mESC samples were analyzed (3 Dicer WT, 3 Dicer Null). Expression values for probesets were summarized into a single per-gene value. The log fold change for Dicer_WT/Dicer_Null was defined as the difference between the mean expression in Dicer WT mESCs and the mean expression in the Dicer Null mESCs.
+

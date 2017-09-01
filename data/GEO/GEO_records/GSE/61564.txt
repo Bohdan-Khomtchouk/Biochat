@@ -1,0 +1,12 @@
+TITLE
+A comprehensive catalog of the C. elegans dsRNAome
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Recent studies hint that endogenous dsRNA plays an unexpected role in cellular signaling. However, a complete understanding of the mechanisms underlying endogenous dsRNA signaling is hindered by an incomplete annotation of dsRNA-producing genes. In order to identify all dsRNAs expressed in C. elegans, we developed a bioinformatics pipeline that identifies dsRNA by detecting clustered RNA editing sites, which are strictly limited to long dsRNA substrates of Adenosine Deaminases that act on RNA (ADAR). Using a combination of alignment algorithms to map both unique and repetitive reads, we detected as many as 664 editing-enriched regions (EERs). Most EERs were associated with protein-coding genes, with ~1.7% of all C. elegans mRNAs containing an EER, located primarily in introns and 3’UTRs. Introns having an embedded EER were up to 9-fold longer than the average C. elegans intron. A significant fraction of EERs were located less than 1000 base pairs downstream of protein-coding genes and likely represent a previously undetected population of edited 3’UTRs. Many EERs are predicted to possess strong internal secondary structures as well as sequence complementarity with other EERs, indicative of both intramolecular and intermolecular dsRNAs. In addition to numerous EERs associated with coding genes, we identified a population of prospective noncoding EERs, distant from protein coding genes with no overlapping genome annotation and little to no coding potential. By combining next-generation RNA sequencing with freely available bioinformatics tools, our workflow provides an easily accessible approach for the identification of dsRNAs, and more importantly, a comprehensive catalogue of the C. elegans dsRNAome.
+
+DESIGN
+RNA-seq of dsRNA isolated from N2 and dcr-1(mg375) embryos and mixed stage worms using immunoprecipitation with various antibodies. Please note that the data from 6 biological samples were combined to generate a single set of alignments used to make all the processed data files  (*bed and *bw files linked as Series supplementary files).
+

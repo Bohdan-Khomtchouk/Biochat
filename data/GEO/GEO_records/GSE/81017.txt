@@ -1,0 +1,12 @@
+TITLE
+Global Profiling of the Cellular Alternative RNA Splicing Landscape During Virus-host Interactions
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Background  Alternative splicing (AS) is a central mechanism of genetic regulation which modifies the sequence of RNA transcripts in higher eukaryotes. AS has been shown to increase both the variability and diversity of the cellular proteome by changing the composition of resulting proteins through differential choice of exons to be included in mature mRNAs.   Results  In the present study, alterations to the global RNA splicing landscape of cellular genes upon viral infection were investigated through high-throughput RNA sequencing (RNA-seq) studies using mammalian reovirus as a model. Our study provides the first comprehensive portrait of global changes in the RNA splicing signatures that occur in eukaryotic cells following infection with a human virus. We identify modifications in the AS patterns of 240 cellular transcripts frequently involved in the regulation of gene expression and RNA metabolism. A significant number of the modified transcripts are also encoded by genes with important roles in viral infection/immunity. These modifications are expected to alter the functions of many cellular proteins. Finally, we used RT-PCR analysis in order to experimentally validate differential modifications in alternative splicing patterns that were observed through RNA-seq studies.  Conclusion  The present study demonstrated that viral infection can extensively modify the splicing patterns of numerous cellular transcripts. These findings provide additional insights into the complexity of virus-host interactions as these splice variants expand proteome diversity and function during viral infection. Finally, these data open new avenues of research for a better understanding of post-transcriptional events during virus infection and possible new targets toward the development of antiviral agents.
+
+DESIGN
+mRNAs were isolated from L929 mouse cell line, 14 hours after infection with T3D-S Reovirus or T3D-S Mutant reovirus at a MOI of 50.  Control cells were uninfected.  The resulting libraries were multiplexed and paired-end sequenced using Illumina HiSeq.  Gene expression and alternative splicing were caracterized using Bowtie and RSEM.
+

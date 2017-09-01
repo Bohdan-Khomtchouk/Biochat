@@ -1,0 +1,9 @@
+TITLE
+Human skeletal muscle differentiation time course
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have developed an algorithm (“Lever”) that systematically maps metazoan DNA regulatory motifs or motif combinations to the sets of genes that they likely regulate. Lever accomplishes this by assessing whether the motifs are enriched within cis regulatory modules (CRMs), predicted by our “PhylCRM” algorithm, in the noncoding sequences surrounding genes in a collection of gene sets. When these gene sets correspond to Gene Ontology (GO) categories, the results of Lever analysis allow the unbiased assignment of functional annotations to the regulatory motifs and also to the candidate CRMs that comprise the genomic motif occurrences. We demonstrate these methods using human myogenic differentiation as a model system, for which we statistically assessed greater than 25,000 pairings of gene sets and motifs / motif combinations. These results allowed us to assign functional annotations to candidate regulatory motifs predicted previously, and to identify gene sets that are likely to be co-regulated via shared regulatory motifs. Lever allows moving beyond the identification of putative regulatory motifs in mammalian genomes, towards understanding their biological roles. This approach is general and can be applied readily to any cell type, gene expression pattern, or organism of interest. Keywords: expression profiling, time course
+

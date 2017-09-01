@@ -1,0 +1,12 @@
+TITLE
+Predict cytogenetic abnormalities with gene expression profiles
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cytogenetic abnormalities (CA) are important clinical parameters in various types of cancer, including multiple myeloma (MM). We developed a model to predict CA in patients with MM using gene expression profiling (GEP) and validated it by different cytogenetic techniques. The model was shown to have an accuracy up to 0.89. These results provide proof of concept for the hypothesis that GEP could serve as a one-stop data source for clinical molecular diagnosis and/or prognosis.
+
+DESIGN
+92 paired RNA-DNA samples were hybridized to Affy U133Plus2 and Agilent 244K aCGH arrays and used as training set. Another 23 paired samples as test set.
+

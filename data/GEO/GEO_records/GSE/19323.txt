@@ -1,0 +1,12 @@
+TITLE
+PTB CLIP-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recent transcriptome analysis indicates that > 90% of human genes undergoes alternative splicing, underscoring the contribution of differential RNA processing to diverse proteomes in higher eukaryotic cells. The polypyrimidine tract binding protein PTB is a well-characterized splicing repressor, but PTB knockdown causes both exon inclusion and skipping. Genome-wide mapping of PTB-RNA interactions and construction of a functional RNA map now revealed that dominant PTB binding near a competing constitutive splice site generally induces exon inclusion whereas prevalent binding close to an alternative site often causes exon skipping. This positional effect was further demonstrated by disrupting or creating a PTB binding site on minigene constructs and testing their responses to PTB knockdown or overexpression. These findings suggest a mechanism for PTB to modulate splice site competition to produce opposite functional consequences, which may be generally applicable to RNA binding splicing factors to positively or negatively regulate alternative splicing in mammalian cells.
+
+DESIGN
+Examination of PTB-RNA binding in Hela cells using CLIP-seq (Cross-Linking ImmunoPrecipitation coupled with high-throughput sequencing) method. Peaks: The four alignment files (linked as supplementary files on Sample records) were combined together for peak finding, as we found that most of the monomeric and dimeric tags are similarly distributed in the genome with high pearson correlation coefficient. The method to detect the peaks above gene-specific randomized background was similar to (Yeo et al., 2009) and described in the paper (Xue et al., 2009).
+

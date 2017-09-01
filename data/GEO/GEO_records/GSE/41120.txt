@@ -1,0 +1,12 @@
+TITLE
+Molecular Characterization of 126 Intermediate Risk Prostate Cancer Patient Samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The primary objective of this study was to correlate genetic alterations from Hh pathway genes with biochemical free relapse rate.
+
+DESIGN
+aCGH data of 126 intermediate risk men with histologically confirmed adenocarcinoma of the prostate who had chosen radical radiotherapy as their primary treatment between 1996-2006. Please note that the '2014-11-11_IGRT_aCGH_gene_matrix_GEO.csv' was generated as following; The gene matrix is a gene by sample matrix, where -1 corresponds to deletion, 0 to copy neutral, and 1 to gain. The normalized data on GEO was converted from hg18 to hg19 using the liftOver tool from UCSC (version dated 2011-11-27). Fragments overlapping centromeres, telomeres, or other gaps in the hg18 build were trimmed conservatively (regions were shortened rather than elongated). To generate contiguous CNA regions, probe-based CNA calls were collapsed with neighbouring probes within the same chromosome with the same copy number. CNA regions with only one supporting probe were removed. In addition, any CNAs found entirely within centromeres or telomeres, as defined by the UCSC ~Qgap~R table, were removed. CNA regions were intersected with a merged and collapsed version of the RefSeq gene annotation (GRCh37/hg19) to generate gene-based CNA calls. This gene list was further filtered to match the published gene list from the MSKCC radical prostatectomy cohort The 'IGRT_full_clinical_info.txt' file contanis additional/updated clinical data (including survival).
+

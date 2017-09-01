@@ -1,0 +1,9 @@
+TITLE
+Normalization of Illumina Infinium whole-genome SNP data improves copy number estimates and allelic intensity ratios
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Illumina Infinium whole genome genotyping (WGG) arrays are increasingly being applied in cancer genomics to study gene copy number alterations and allele-specific aberrations such as loss-of-heterozygosity (LOH). Methods developed for normalization of WGG arrays have mostly focused on diploid, normal samples. However, for cancer samples genomic aberrations may confound normalization and data interpretation. Therefore, we examined the effects of the conventionally used normalization method for Illumina Infinium arrays when applied to cancer samples. We demonstrate an asymmetry in the detection of the two alleles for each SNP, which deleteriously influences both allelic proportions and copy number estimates. The asymmetry is caused by a remaining bias between the two dyes used in the Infinium II assay after using the normalization method in Illumina’s proprietary software (BeadStudio). We propose a quantile normalization strategy for correction of this dye bias. We tested the normalization strategy using 535 individual hybridizations from 10 data sets from the analysis of cancer genomes and normal blood samples generated on Illumina Infinium II 300k version 1 and 2, 370k and 550k BeadChips. We show that the proposed normalization strategy successfully removes asymmetry in estimates of both allelic proportions and copy numbers. Additionally, the normalization strategy reduces the technical variation for copy number estimates while retaining the response to copy number alterations. The proposed normalization strategy represents a valuable low-level analysis tool that improves the quality of data obtained from Illumina Infinium arrays, in particular when used for LOH and copy number variation studies.
+

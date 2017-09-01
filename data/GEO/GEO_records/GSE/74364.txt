@@ -1,0 +1,12 @@
+TITLE
+Transcription rate and transcript length drive the formation of chromosomal interaction domain
+
+ORGANISM
+Caulobacter crescentus CB15
+
+SUMMARY
+Chromosomes in all organisms are highly organized and divided into multiple chromosomal interaction domains, or topological domains. Regions of active, high transcription help establish and maintain domain boundaries, but precisely how this occurs remains unclear. Here, using fluorescence microscopy and chromosome conformation capture in conjunction with deep sequencing (Hi-C), we show that in Caulobacter crescentus both transcription rate and transcript length, independent of concurrent translation, drive the formation of domain boundaries. We find that long, highly expressed genes do not form topological boundaries simply through the inhibition of supercoil diffusion. Instead, our results support a model in which long, active regions of transcription drive local decompaction of the chromosome, with these more open regions of the chromosome forming spatial gaps in vivo that diminish contacts between DNA in neighboring domains. These insights into the molecular forces responsible for domain formation in Caulobacter likely generalize to other bacteria and possibly eukaryotes.
+
+DESIGN
+Hi-C experiments were performed on (i) untreated wild type swarmer cells and drug-treated swarmer cells (Chloramphenicol) of Caulobacter crescentus CB15N; (ii) on swarmer cells that are starved in M2 salts for 90 minutes; (iii) on swarmer cells harboring van::PrsaA_rsaA as well as derivatives of rsaA with a cassette of 2xTAA 2x transcription terminator inserted at 60bp, 560bp, 1060 and 2060 bp from the transcription start site of the ectopic rsaA; (iv) on CB15N strain ML2000 (Plac::dnaA) at time points 90 min, 150 min, 210 min and 270 min after IPTG withdrawal; and (v) on CB15N strain overexpressing CtrAD51E_delta_omega at time point 0 min, 120 min and 180 min after addition of the inducer (xylose).      RNA-seq experiment were performed on RNA extracted from (i) wild-type CB15N cells growing at exponential phase in PYE; and (ii) wild-type CB15N cells starved in M2 salts for 90 min.
+

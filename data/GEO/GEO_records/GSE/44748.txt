@@ -1,0 +1,12 @@
+TITLE
+Genome-wide binding profiles of KLF3 and KLF3 mutants in MEF cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcription factors are often regarded as being comprised of a DNA-binding domain and a functional domain. The two domains are considered separable and autonomous, with the DNA-binding domain directing the factor to its target genes and the functional domain imparting transcriptional regulation. We have examined a typical Zinc Finger (ZF) transcription factor from the Krüppel-like factor (KLF) family, KLF3. This factor has an N-terminal repression domain that binds the co-repressor C-terminal binding protein (CtBP), and a DNA-binding domain composed of three classical (ZFs) at its C-terminus. We established a system to compare the genomic occupancy profile of wildtype KLF3 with two mutants affecting the N-terminal functional domain: a mutant unable to contact its cofactor CtBP and a mutant lacking the entire N-terminal domain, but retaining the ZFs intact. We used chromatin immunoprecipitation followed by sequencing (ChIP-seq) to assess binding across the genome in murine embryonic fibroblasts. Our results define the in vivo recognition site for KLF3 and the two mutants as a typical CACCC-like element. Unexpectedly, we observe that mutations in the N-terminal functional domain severely affect DNA binding. In general, both mutations reduce binding but there are also instances where binding is retained or even increased. These results provide a clear demonstration that the correct localization of transcription factors to their target genes is not solely dependent on their DNA-contact domains. This informs our understanding of how transcription factors operate and is of relevance to the design of artificial ZF proteins.
+
+DESIGN
+ChIP-seq was performed on the three samples, KLF3, ΔDL and DBD in duplicate (biological replicates).  Input samples were used as controls.
+

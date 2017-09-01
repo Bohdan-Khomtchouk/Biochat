@@ -1,0 +1,12 @@
+TITLE
+The effects of treatments in dermal fibroblasts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Progressive fibrosis of the skin and internal organs accounts for the intractable nature and the high mortality of scleroderma. As the principal effector cells responsible for fibrosis, stromal fibroblasts and myofibroblasts contribute to excessive deposition of collagens and other extracellular matrix proteins. Transforming growth factor β (TGF-β), which stimulates collagen synthesis, myofibroblast differentiation and epithelial-mesenchymal transition (EMT), is implicated as a key initiating factor in both physiological and pathological tissue remodeling. However, the mechanism responsible for the persistence of the fibrotic process associated with pathological repair remains poorly understood. In this study, we analyzed the gene expression in dermal fibroblasts using different treatments (Poly I:C, IFN-beta, Egr-3 overexpression and other conditions).
+
+DESIGN
+Primary fibroblast cultures were established by explantation from neonatal foreskin. Biopsy protocols were approved by the Institutional Review Board at Northwestern University. Fibroblasts were maintained in Dulbecco's Modified Eagle Medium (DMEM) supplemented with 10% fetal bovine serum (FBS) (Lonza, Basel, Switzerland), 50 µg/ml penicillin, and 50 µg/ml streptomycin in a humidified atmosphere of 5% CO2 at 37°C, and studied between passages 2-8. At confluence, serum-free media supplemented with 0.1% bovine serum albumin (BSA) were added to the cultures for 24 h prior to the treatment of Poly I:C for 2 hours or 24 hours (10 ug/ml), or IFN-β (100 U/ml) or other reagents for 24 hours, or infected with Ad-Egr-3 or Ad-GFP at 50 MOI for 48 hours. Total RNA was isolated using RNeasy Mini Plus Kits (Qiagen, Valencia, CA). The integrity of RNA was determined using Agilent Bioanalyzer (Santa Clara, CA). Fluorescently labeled cDNA was prepared (Ambion, Austin, TX), and was hybridized to Illumina Human HT-12 Version 4 microarray chips containing 44,000 probes (Illumina, San Diego, CA). Raw signal intensities for each probe were obtained using Illumina BeadStudio data analysis software and imported to the Bioconductor lumi package for transformation and normalization. The data were preprocessed using a variance stabilization transformation method followed by quantile normalization. Data from probes that produced signals near or below background levels (estimated based on Illumina negative control probes) with all samples were discarded.
+

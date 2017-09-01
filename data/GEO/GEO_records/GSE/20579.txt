@@ -1,0 +1,12 @@
+TITLE
+RNA-Seq on libraries made from ERCC external RNA controls, and a mixture of D. melanogaster S2 cell mRNA and ERCC mRNAs
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+RNA-Seq on libraries made from External RNA Controls Consortium (ERCC) external RNA controls, and a mixture of mRNA from Drosophila melanogaster S2 cell and ERCC mRNAs. We evaluated performance of RNA-Seq on known synthetic PolyA+ mRNAs from the External RNA Controls Consortium (ERCC) alone and in mixtures with PolyA+ mRNA from Drosophila S2 cells. ERCC mRNAs were obtained under Phase V testing from the National Institutes of Standards and Technology (NIST).  The ERCC pool contained 96 species of mRNA of various lengths and GC content covering a 2^20 concentration range.  Libraries were constructed using 100ng S2 mRNA with 5ng, 2.5ng, or 1ng ERCC mRNAs, and using 50ng ERCC mRNA without S2 cell mRNA. Our data shows an outstanding linear fit between RNA-Seq read density and known input amounts.
+
+DESIGN
+We made libraries with 100ng S2 mRNA with 5ng, 2.5ng or 1ng ERCC mRNAs and with 50ng ERCC mRNAs only. For each library, one lane was sequenced for a 36bp run and around 15 million reads were obtained for each lane.
+

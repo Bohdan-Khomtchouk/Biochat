@@ -1,0 +1,12 @@
+TITLE
+Gene Expression Analysis of IgM+CD27+ B Cells in HCV-Infected Individuals with Mixed Cryoglobulinemia
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Analysis of IgM+CD27+ B cells in individuals with hepatitis C virus (HCV)-associated mixed cryoglobulinemia (MC). We have previously shown that HCV+MC+ individuals have clonal expansions of IgM+ memory B cells. This study aims to characterize differentially expressed genes in peripheral IgM+CD27+ B cells in HCV RNA+MC+ individuals, compared to HCV RNA+MC- subjects and HCV RNA- healthy controls. IgM+ B cells were isolated form donor PBMCs by immunomagnetic negative selection, and the CD27+ subset was further purified by positive selection. 2ng RNA was isolated from cells and amplified using the Nugen WT-Ovation Amplification Kit. cDNA was synthesized, biotin labeled, and hybridized to Illumina human v2 microarrays. Data were collected and analyzed with Illumina Genome Studio. Raw data were normalized by transforming measurements less than 0.01 to 0.01, normalizing per chip to the 50th percentile, and normalizing per gene to the median. Normalized data were then filtered to remove genes with control signals < 170. Genes that were significantly upregulated in HCV RNA+MC+ vs HCV RNA+MC- subjects' IgM+CD27+ B cells were identified using a Welch t-test with p-calue cutoff 0.05 and Benjamini-Hochberg false discovery rate of 0.05. The resulting gene list was then filtered for genes showing > 2-fold differential expression.
+
+DESIGN
+5 HCV Ab-,7 HCV AB+/HCV RNA-, 12 HCV RNA+/IgM MC-, and 15 HCV RNA+/IgM MC+ samples analyzed. Supplementary file GSE18084_non-normalized_data.txt (Combined III_raw.xls) contains non-normalized data.
+

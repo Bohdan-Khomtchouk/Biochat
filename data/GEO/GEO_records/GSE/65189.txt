@@ -1,0 +1,12 @@
+TITLE
+Interaction and Signaling Between a Cosmopolitan Phytoplankton and Associated Bacteria
+
+ORGANISM
+Pseudo-nitzschia multiseries
+
+SUMMARY
+We isolate the cultivable microbiome of a diatom and show that different bacteria have commensal, antagonistic, or synergistic effects on the diatom. One synergistic bacterium enhances growth of the diatom by production of auxin, a phytohormone. The diatom and its synergistic bacterium appear to use auxin and tryptophan as signaling molecules that drive nutrient exchange. Detection of auxin molecules and biosynthesis gene transcripts in the Pacific Ocean suggests that these interactions are widespread in marine ecosystems.
+
+DESIGN
+Transcriptomes were collected for triplicate diatom cultures harvested at the mid-exponential growth phase in the defined seawater medium Aquil either without any bacteria, i.e. axenic (control), or with a Sulfitobacter sp. SA11 that was previously isolated from the diatom (Pseudo-nitzschia multiseries). In addition, transcriptomes were collected for triplicate bacterial cultures (Sulfitobacter sp. SA11) harvested at the mid-exponential phase in the defined seawater medium Aquil either without the diatom (supplemented with 1 uM glucose to allow for bacterial growth) or with the diatom (P. multiseries strain PC9). The SOLiD sequencer (version 4) was used to generate the transcriptomes and the SEAStAR software package was used to process the SOLiD reads and to calculate gene counts. For the diatom transcriptome, pooled counts for the +bacterium treatment were normalized to pooled counts for the axenic “control” treatment to generate log fold changes in gene transcription using the R software package edgeR from Bioconductor. For the bacterial transcriptome, pooled counts for the +diatom treatment were normalized to pooled counts for the +glucose “control” treatment to generate log fold changes in gene transcription using the R software package edgeR from Bioconductor.
+

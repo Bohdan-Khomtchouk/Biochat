@@ -1,0 +1,12 @@
+TITLE
+Genome-wide cooperation by HAT Gcn5, remodeler SWI/SNF, and chaperone Ydj1 in promoter nucleosome eviction and transcriptional activation
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Chaperones, nucleosome remodeling complexes and histone acetyltransferases have been implicated in nucleosome disassembly at promoters of particular yeast genes, but whether these co-factors function ubiquitously, and the impact of nucleosome eviction on transcription genome-wide, are poorly understood. We used chromatin immunoprecipitation of histone H3 and RNA polymerase II (Pol II) in mutants lacking single or multiple co-factors to address these issues for ~200 genes belonging to the Gcn4 transcriptome, of which ~70 exhibit marked reductions in H3 promoter occupancy on induction by amino acid starvation.  Examining four target genes in a panel of mutants indicated that SWI/SNF, Gcn5, the Hsp70 co-chaperone Ydj1, and chromatin-associated factor Yta7 are required downstream of Gcn4 binding for robust H3 eviction in otherwise wild-type cells. Using ChIP-seq to interrogate all 70 exemplar genes in single, double and triple mutants implicated Gcn5, Snf2 and Ydj1 in H3 eviction at most, but not all Gcn4 target promoters, with Gcn5 generally playing the greatest role and Ydj1 the least. Remarkably, these 3 co-factors cooperate similarly in H3 eviction at virtually all yeast promoters. Defective H3 eviction in co-factor mutants was coupled with reduced Pol II occupancies for the Gcn4 transcriptome and the most highly expressed uninduced genes, but the relative Pol II levels at most genes were unaffected or even elevated. These findings indicate that nucleosome eviction is crucial for robust transcription of highly expressed genes, but that other steps in gene activation are more rate-limiting for most other yeast genes.
+
+DESIGN
+Chromatin immunoprecipitated DNA from WT (induced(+SM) and uninduced(no SM)) and mutants (induced(+SM)) followed by paired-end sequencing. Nucleosomal DNA obtained by MNase digestion were also subjected to paired-end sequencing.
+

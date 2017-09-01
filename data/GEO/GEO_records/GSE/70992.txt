@@ -1,0 +1,12 @@
+TITLE
+Comparative high-throughput gene expression analysis between cultured and sand fly vector-derived Leishmania infantum promastigotes.
+
+ORGANISM
+Leishmania infantum
+
+SUMMARY
+Leishmania infantum (Kinetoplastida:Trypanosomatidae) is the etiological agent of zoonotic visceral leishmaniasis in the Mediterranean basin. The motile promastigote stage infects the hematophagous sand fly vector host and amastigotes survives and multiplies within phagocytes of the mammalian host. Promastigotes are routinely cultured in liquid undefined media and are considered to mimic the environment within the sand fly gut. We have put this to the test by high-throughput gene expression profiling by shotgun DNA microarrays generated in our laboratory. This has been possible thanks to RNA amplification.
+
+DESIGN
+Two condition experiment. Hybridization of cDNA with shotgun DNA genome microarrays of L. infantum. Total RNA was doubly amplified to get enough material from sand fly-derived promastigotes. This allowed cDNA synthesis and microarray hybridization. Normalization of fluorescence intensity values was performed by the LOWESS per pin algorithm. Student`s t-test was conducted for statistical inference, including FDR adjustment. Please note that the 'Pro-insect vs. Pro-culture' sample represents three replicates (3 raw data files; Pper_cultR*.txt) and averaged data across arrays (i.e. mean of normalized fold change data).
+

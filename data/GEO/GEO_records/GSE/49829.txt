@@ -1,0 +1,12 @@
+TITLE
+Salmonella enterica serovar Typhimurium 4/74 transcriptomics using strand-specific RNA-seq
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. ST4/74
+
+SUMMARY
+Bacterial transcription networks typically consist of hundreds of transcription factors and thousands of promoters. However, current attempts to map bacterial promoters have failed to report the true complexity of bacterial transcription. The differential RNA-seq (dRNA-seq) approaches only identified a subset of promoters because they involved few growth conditions. Here, we present a simplified approach for global promoter identification in bacteria, based upon the analysis of RNA-seq data from multiple environmental conditions. RNA was extracted from Salmonella enterica serovar Typhimurium (S. Typhimurium) grown in 22 different environmental conditions, which were devised to reflect the pathogenic lifestyle of S. Typhimurium. Individual RNA samples were combined into two pools for sequencing. In just two runs of strand-specific RNA-seq and dRNA-seq of the pooled sample we identified 3701 promoters (Pool sample). In further experiments, we found that individual in vitro conditions stimulate the expression of about 60% of the S. Typhimurium genome, whereas the suite of 22 conditions induced expression of 87% of S. Typhimurium genes. We discovered environmental conditions that induce many genes within Salmonella pathogenicity islands and identified 78 new sRNAs. In S. Typhimurium there is now experimental evidence for 280 sRNAs, and we classified them in terms of location and Hfq-binding.
+
+DESIGN
+Transcriptome analysis of S. Typhimurium 4/74 using RNA from 22 different conditions using RNA-seq. Also, RNA from each condition was pooled into one sample (RNA Pool). Differential RNA-seq (dRNA-seq) was performed for 5 of the samples from the 22 environmental conditions.
+

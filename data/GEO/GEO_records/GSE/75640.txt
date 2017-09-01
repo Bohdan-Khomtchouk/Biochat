@@ -1,0 +1,12 @@
+TITLE
+Translatome analysis of NB-LRR immune response identifies important contributors to plant immunity in Arabidopsis.
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+An important branch of plant immunity involves the recognition of pathogens by the NB-LRR proteins encoded by disease resistance genes. However, signaling events downstream of NB-LRR activation are poorly understood. We have analyzed the Arabidopsis translatome using ribosome affinity purification and RNAseq. Our results show that the translational status of hundreds of genes are differentially affected upon activation of the NB-LRR protein RPM1, showing an overall pattern of a switch away from growth-related activities to defense. Among these is the central translational regulator and growth promoter, TOR kinase. Suppression of TOR expression leads to increased resistance to pathogens while overexpression of TOR results in increased susceptibility, indicating an important role for translational control in the growth to defense switch. Furthermore, we show that several additional genes whose mRNAs are translationally regulated, including BIG, CCT2 and CIPK5, are required for plant innate immunity, identifying novel actors in plant defense.
+
+DESIGN
+Cellular extracts of Arabidopsis Avr/L18 at 2h after spraying with DEX (30μM) or water (control) were prepared for ribosome IP followed by RNA purification. Total RNA from the same samples was purified in parallel. NGS libraries were prepared in biological triplicate for each treatment and RNA fraction (total and ribosome IP). Sequencing was performed on an Illumina HiSeq 2000 system at the Broad Institute of Massachusets Institute of Technology. Total RNA and ribosomebound mRNAs libraries were pairedend sequenced on two independent sequencing lanes as multiplexed samples. Raw demultiplexed fastq files are provided for each replicate. After checking the quality of the raw reads using FastQC (v0.10), reads were aligned on the TAIR10 assembly of A. thaliana Col0 genome using TopHat (v2.0.8) with default parameters " q10 " . CuffDiff (v2.1.1) was then used with parameters fragbiascorrect, multireadcorrect and the genome annotations file from NCBI 20130306 to identify differentially expressed genes at the level of translation ('HR1_vs_control_1_gene_exp,) and at the level of transcription ('HR2_vs_control_2_gene_exp'). In both processed data files, sample 1 stands for control and sample 2 for DEX.
+

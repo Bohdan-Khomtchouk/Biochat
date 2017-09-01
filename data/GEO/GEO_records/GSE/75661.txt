@@ -1,0 +1,12 @@
+TITLE
+Direct identification of hundreds of expression-modulating variants using a multiplexed reporter assay
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Although genetic studies have identified many hundreds of loci associated with human traits and diseases, pinpointing the causal alleles remains difficult, particularly for non-coding variants. To address this challenge, we have enhanced the sensitivity and reproducibility of the massively parallel reporter assay (MPRA), adapting it to identify variants that directly modulate gene expression. We then applied it to over 29,000 single nucleotide and insertion/deletion polymorphisms from 3,965 cis-expression quantitative trait loci (eQTL). We demonstrate strong correlation between our MPRA approach and existing measures of regulatory function, and determine an approximate sensitivity of ~20% with a positive predictive value of 60-65% to detect an eQTL causal allele. We identify 842 variants showing differential expression between alleles, including 53 well-annotated variants associated with diseases and traits. Thus, we have created a resource of concrete leads for understanding the genetic basis of specific phenotypes and illustrate the promise of this kind of approach for comprehensively interrogating how non-coding polymorphism shapes human biology.
+
+DESIGN
+The study consists of two separate MPRA experiments, a 78,958 oligo (79k study) and a 7,500 oligo library (7.5k). For each library we processed independent transfections into two lymphoblastoid cell lines; in total we completed 5 replicates of NA12878 and 3 replicates of NA19239. For the 79k library we also performed 5 replicate transfections into the hepatocarcinoma cell line HepG2. Raw data is provided as Illumina reads of the 20 bp barcode from the RNA extracted 24 hours post transfection as well as from the plasmid library used for transfection. We also provide oligo/barcode combinations from the ∆gfp vector in the form of a tab delimited file containing the raw sequence reads of the barcode (column 1) and genomic sequence (column 2). Processed count files are unnormalized counts for each oligo acquired by summing all barcode matches together for each replicate.
+

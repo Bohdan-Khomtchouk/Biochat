@@ -1,0 +1,12 @@
+TITLE
+Genome-wide quantitative core promoter activity maps reveal a wide range of sequence-intrinsic transcription initiation strengths
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Gene expression is controlled by enhancers that activate transcription from the core promoters of their target genes. Although a key function of core promoters is to convert enhancer activities into gene transcription, whether and how strongly they activate transcription in response to enhancers has not been systematically assessed on a genome-wide level. Here we describe self-transcribing active core promoter sequencing (STAP-seq), a method to determine the responsiveness of genomic sequences to enhancers, and apply it to the Drosophila melanogaster genome. We cloned candidate fragments at the position of the core promoter (also called minimal promoter) in reporter plasmids with or without a strong enhancer, transfected the resulting library into cells, and quantified the transcripts that initiated from each candidate for each setup by deep sequencing. In the presence of a single strong enhancer, the enhancer responsiveness of different sequences differs by several orders of magnitude, and different levels of responsiveness are associated with genes of different functions. We also identify sequence features that predict enhancer responsiveness and discuss different core promoters are employed for the regulation of gene expression.
+
+DESIGN
+STAP-seq was performed in S2 cells (using zfh1, sgl, ham, ncm, ssp3 enhancers) and OSC cells (using tj enhancer).
+

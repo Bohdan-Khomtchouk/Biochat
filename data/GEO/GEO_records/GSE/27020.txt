@@ -1,0 +1,12 @@
+TITLE
+Identification and validation of a multigene predictor of recurrence in primary laryngeal cancer.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Local recurrence is the major manifestation of treatment failure in patients with operable laryngeal carcinoma. Established clinicopathological factors cannot sufficiently predict patients that are likely to recur after treatment. Additional tools are therefore required to accurately identify patients at high risk for recurrence.  Methods: Using Affymetrix U133A Genechips, we profiled fresh-frozen tumor tissues from 59 patients with operable laryngeal cancer. All patients were treated locally with surgery, with or without radiation therapy. We performed Cox regression proportional hazards modeling to identify multigene predictors of recurrence. The end-point of our analysis was disease-free survival (DFS). Gene models were directly validated in a separate, similarly treated cohort of 50 patients using Affymetrix chips. In an attempt to further validate our results, we profiled 12 selected genes of our model in formalin-fixed tumor tissues from an independent cohort of 75 patients, using quantitative real time-polymerase chain reaction (qRT-PCR).   Results: We focused on genes univariately associated with DFS (p < 0.05) in the training set. Among several gene models comprising different numbers of genes, a 30-gene model demonstrated optimal performance (log-rank, p < 0.001). We directly applied these gene models to the validation set, after adjusting for non-biological experimental variability, and observed similar results. Specifically, median DFS, as predicted by the 30-gene model, was 34 and 80 months for high- and low-risk patients, respectively (p=0.01). Hazard Ratio (HR) for recurrence for the high-risk group was 3.87 (95% CI 1.28-11.73, p=0.017). Furthermore, unsupervised hierarchical clustering of the 75 patients, based on the qRT-PCR 12-gene profile, yielded two groups, which differed significantly in DFS (log-rank, p=0.027). HR= for recurrence was 2.26, (95% CI 1.08-4.76, p=0.031).  Conclusion: We have established and validated gene models that can successfully stratify patients with laryngeal cancer, based on their risk for recurrence. Thus, patients with unfavorable prognosis, when accurately identified, could be ideal candidates for the application of more aggressive treatment modalities.
+
+DESIGN
+Training set comprises 59 samples and validation set 50 samples
+

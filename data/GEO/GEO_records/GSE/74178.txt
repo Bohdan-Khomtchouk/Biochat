@@ -1,0 +1,12 @@
+TITLE
+RNA binding protein SYNCRIP regulates the leukemia stem cell program [RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+RNA binding proteins (RBPs) tightly control mRNA abundance, stability and translation while mutations or altered expression of specific factors can drive malignancy1,2. However, the identity of the RBPs that govern cancer stem cell self-renewal remains poorly characterized. The MSI2 RBP is a central regulator of translation of the cancer stem cell program3-5,6. Here we report, through proteomics analysis of the MSI2 interacting RBP network and functional shRNA screening, 24 genes required for in vivo leukemia, 20 of which are direct MSI2 protein interactors. Seven of these shRNA screen hits were retested in vitro and found to be required for myeloid colony formation. SYNCRIP (also known as HNRP-Q or NSAP1) was the most differentially required gene between normal (c-kit enriched cells) and myeloid leukemia cells. SYNCRIP is highly expressed in mouse and human leukemia cells and its depletion increases apoptosis, differentiation and delays leukemogenesis. Gene expression profiling of SYNCRIP depleted cells demonstrates a loss of the MLL-AF9 and HOXA9 leukemia stem cell gene associated program. SYNCRIP interacts with MSI2 indirectly through shared mRNA targets (such as Hoxa9, Myc and Ikzf2) and MSI2 or HOXA9 overexpression rescues the effects of SYNCRIP depletion. Strikingly, the shRNA-SYNCRIP gene expression signature can predict survival in AML patients. Overall, we uncovered a functionally dysregulated riboproteome in cancer that can be further distinguished from normal cells and propose that targeting this network could result in a novel therapeutic strategy in eradicating cancer stem cells.
+
+DESIGN
+Total RNA was isolated from 9 individually transduced and processed MLL-AF9 murine leukemia cells (n=3 for each group including shRNA against luciferase, two shRNAs against SYNCRIP) using TRIzol and the Qiagen RNeasy Plus® mini kit (QIAGEN, Germany).  RNA was denatured and 1st chain of cDNA was synthesized using oligo-dT primer containing illumina-compatible linker sequence. After removal of RNA 2nd cDNA chain was synthesized with random decamer containing another illumina-compatible linker sequence. Illumina compatible annealing sequences and external barcodes were introduced during amplification of the libraries.
+

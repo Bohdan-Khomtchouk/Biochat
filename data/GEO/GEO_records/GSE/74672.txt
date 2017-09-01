@@ -1,0 +1,12 @@
+TITLE
+Single-cell RNA-seq of mouse hypothalamus
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We sampled neurons populating the space encapsulated by the paraventricular and arcuate hypothalamic nuclei (rostrocaudal direction) and the ventromedial and dorsomedial hypothalamic nuclei marking its lateral extent. These neurons likely integrate metabolic and stress circuitries. Detailed clustering information on 898 neurons and the annotation of other cell types are presented.
+
+DESIGN
+Single cells were sampled randomly from a central column of the medial-ventral diencephalon, including in its rostrocaudal extent the posterior part of the preoptic area (posterior to the anterior commissure; from Bregma = -0.5 mm) and in the caudal direction the arcuate nucleus (Bregma = -2.1 mm). C57Bl6/N juvenile mice (postnatal day 14-28) of both sexes from either control (no treatment) or after acute formalin stress were used for cell collection. Formalin stress was induced by injection of 4% paraformaldehyde into the left paw 6 hours before sacrifice. The experiment aims at the unbiased identification of different cell types by clustering their mRNA expression profiles. Analysis relied on a divisive biclustering method using the BackSpinV2 algorithm (Tsafrir et al., 2005, Zeisel et al., 2015). Cells were sorted into major types (1001 oligodendrocytes, 267 astrocytes, 356 ependymal cells, 48 microglial cells, 240 endothelial cells, 71 vascular and smooth muscle lineage cells, and neurons). 2nd level analysis of 898 hypothalamic neurons classified these cells into 62 clusters with high-quality content. The 'expressed_mols_with_classes.xlsx' contains mRNA molecule counts for each gene and cell as well as fine-grained two-level cell type classifications according to the associated publication.
+

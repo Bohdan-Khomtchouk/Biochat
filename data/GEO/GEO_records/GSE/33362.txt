@@ -1,0 +1,12 @@
+TITLE
+Human glioblastoma cells: Tet-on(mutant p53 R175H expression) vs Tet-off(p53-null)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+TP53 R175H mutation is one of the most common mutations in human cancers and cancer cells with this mutation stably express R175H protein in the nucleus. To identify the synthetic lethal gene interacted with the R175H, we conducted the high throughput screening by using tetracyclin inducible R175H expression system in SF126 cells and comprehensive shRNA library carried by lenti virus. We identified 906 candidate gene suppressions that may lead to accelerated cell growth inhibition under the presence of R175H. Inhibitor of differentiation 1 (ID1) was one of the candidate genes and suppression of ID1 by siRNA resulted in acceleration of growth inhibition of cell lines expressing endogenous R175H but not in TP53 null cell lines. The transient expression of R175H in TP53 null cell lines and suppression of ID1 and/or TP53 R175H in cell lines with endogenous R175H revealed that the cell growth inhibition by ID1 suppression was dependent on R175H expression but not other common p53 mutants (R273H). Flow cytometric (FACS) analysis exhibited that ID1 suppression resulted in G1 arrest and the arrest was accelerated by suppression of R175H. In conclusion, ID1 is a synthetic lethal gene interacted with R175H and is considered to be a novel molecular target of cancer therapy for R175H expressing cells.
+
+DESIGN
+R175H expression(Tet-on) group was labeled by Cy5, and p53-null(Tet-off) group was labeled by Cy3. Three independent experiments were conducted (We have triplicate data).
+

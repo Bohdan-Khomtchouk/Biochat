@@ -1,0 +1,12 @@
+TITLE
+Genome-wide analyses reveal widespread roles for Spt5 in sense and antisense transcription [NET-seq]
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Many proteins associate with elongating RNA polymerase II (RNAPII), although the functions of most of them are still not well understood. Spt5 is an essential transcription elongation factor that binds directly to RNA polymerase and is conserved in prokaryotes, archaea, and eukaryotes1. In eukaryotes, evidence suggests that Spt5 functions in transcription elongation by both RNA polymerases I and II, mRNA capping, mRNA splicing, and mRNA 3’ end formation2. However, the genome-wide requirement for Spt5 in transcription has not been extensively studied. To address this issue, we have comprehensively analyzed the consequences of Spt5 depletion on transcription by RNAPII in Schizosaccharomyces pombe using four genome-wide approaches: ChIP-seq, NET-seq, 4tU-seq, and RNA-seq. Our results demonstrate that, in the absence of Spt5, RNAPII accumulates at a high level over the first ~500 bp of transcription units, suggesting that Spt5 is globally required to elongate past a barrier to transcription. This possibility is strongly supported by results showing that Spt5 is required for a normal level of RNA synthesis. In addition to these effects on sense-strand transcription, Spt5 depletion results in widespread convergent antisense transcription that initiates at approximately the same position as the sense-strand barrier. While the role of these antisense transcripts is unknown, the two that were tested control the distribution of RNAPII. Our results also show that Spt5 represses divergent antisense transcription, explaining why it has not been previously observed in S. pombe. Taken together, our results reveal a global and critical role for Spt5 in multiple classes of transcription by RNAPII.
+
+DESIGN
+Two pairs of biological replicates before and after treatment to deplete Spt5 transcript and protein. T0_I was taken from a separate experiment (1) because the other T0 replicate in experiment 2 showed high rate of PCR duplication.
+

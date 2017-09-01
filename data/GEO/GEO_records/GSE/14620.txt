@@ -1,0 +1,12 @@
+TITLE
+Ontoepigenetic profile of mouse liver reveals dynamic regulation of chromatin during development
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Fetal liver is predominately a hematopoietic organ, but shortly after birth transitions into the major site for xenobiotic (drug) metabolism.  The epigenetic mechanisms controlling this developmental switch remain an open door for exploration. DNA methylation (meDNA) governs many diverse cellular functions and is essential for normal development.  Histone H3 lysine 4 dimethylation (H3K4me2) is detected in active gene promoters and enhancers7.  Histone H3 lysine 27 trimethylation (H3K27me3) is involved in chromatin compaction around inactive genes and shows a dominant negative phenotype on gene expression. Here, we used chromatin immunoprecipitation from mouse liver to determine the contributions of meDNA, H3K4me2, and H3K27me3 on facilitating a permissive chromatin state; allowing the transition from post-hematopoiesis to drug response. BAR files that contain the intensities for all probes on the arrays. The intensities are expressed as signals estimating the fold enrichment relative to IgG input.  BED files contain custom tracks that can be directly uploaded to the UCSC Genome Browser ( ) and contain 3 types of tracks: Intervals, Peaks, and Active Regions.  Interval Tracks show where the average signal intensity of all probes in an 800 bp sliding window are greater than the thresholds (3-fold enrichment for DNA methylation and 4-fold enrichment for histone modifications). Peak Tracks indicate the most enriched probe in a given interval.  The Active Regions Track shows genomic regions containing one or more overlapping intervals. Keywords: Time Course
+
+DESIGN
+By analyzing 14% of the mouse genome at four ages (embryonic day 17 [day -2], and postnatal days 1, 5, and 45), we found each modification occurs independently and can be considerably dynamic or age-specific after hematopoiesis but before adulthood.
+

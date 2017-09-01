@@ -1,0 +1,12 @@
+TITLE
+Cas9 target DNA specificity in vitro and in vivo (S. cerevisiae)
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+Cas9, a CRISPR RNA-guided nuclease, has been rapidly adopted as a tool for biochemical and genetic manipulation of DNA. Although Cas9 offers remarkable specificity and versatility for genome manipulation, mis-targeted events occur. To extend the understanding of Cas9 target::homology requirements, we compared mismatch tolerance for a specific Cas9::gRNA complex in vitro and in vivo (in Saccharomyces cerevisiae). A variety of truncated and full-length gRNAs (with 17, 18, and 20 nucleotides of complementarity sequence) were used. In each case, we observed notable differences between in vitro and in vivo Cas9 cleavage specificity profiles, with a more stringent effect of mismatches on activity seen in vivo. Increased specificity of the 18 nt complementarity truncated gRNA was evident in vivo, but not in vitro. Overall, this study highlights differences in the specificity of Cas9 cleavage between controlled in vitro conditions and complex and chromatinized in vivo conditions.
+
+DESIGN
+We adapted a previous high throughput sequencing approach (doi: 10.1093/nar/gku1102) to assess the effects of single base variants in vivo. We used a polymorphic random variant library matched to a specific trigger sequence (for which we used a segment from the C. elegans unc-22 gene, previously designated ‘unc-22A’ (doi: 10.1093/nar/gku1102). Cas9 in vivo and in vitro assays were carried out with four different gRNAs incorporating sequence from the unc-22A trigger segment.  The four segments incorporate 17 nt, 18 nt, 20 nt, and 20+G nt of unc-22A complementarity respectively. The retention is calculated based on PMID: 25399416. File names denote the experiment- > gRNAname_gRNAlength_(invitro or invivo)_(incubation or induction time)_IlluminaRunID.dat The files contain all normalized sequences in column one with their calculated retentions in column 2.
+

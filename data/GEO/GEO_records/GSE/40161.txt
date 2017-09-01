@@ -1,0 +1,12 @@
+TITLE
+Pol II docking and pausing at growth and stress genes in C. elegans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Fluctuations in nutrient availability profoundly impact gene expression. Previous work revealed post-recruitment regulation of RNA Polymerase II (Pol II) during starvation and recovery in Caenorhabitis elegans, suggesting promoter-proximal pausing promotes rapid response to feeding. To test this hypothesis, we measured Pol II elongation genome-wide by two complementary approaches and analyzed elongation in conjunction with Pol II binding and expression. We confirmed bona fide pausing during starvation and also discovered Pol II docking.  Pausing occurs at active stress-response genes that become down-regulated in response to feeding. In contrast  “docked” Pol II accumulates without initiating upstream of inactive growth genes that become rapidly up-regulated upon feeding. Beyond differences in function and expression, these two sets of genes have different core promoter motifs, suggesting alternative transcriptional machinery. Our work suggests that growth and stress genes are both regulated post-recruitment during starvation, but at initiation and elongation, respectively, coordinating gene expression with nutrient availability.
+
+DESIGN
+We sequenced short, capped RNA (scRNA-seq) from N2 starved L1 C. elegans as well as a TFIIS mutant (RB2083). We also prepared scRNA-seq libraries from L1 larvae using one, two, or three of the enymes used to prepare the scRNA sequencing libraries as well as scRNA-seq libraries from Drosophila S2 cells using one or two of the enzymes. We further sequenced the 5' end of mRNA in starved C. elegans L1 larvae using the same enzymes as scRNA-seq.
+

@@ -1,0 +1,12 @@
+TITLE
+YM500: An integrative small RNA sequencing (smRNA-seq) database for microRNA research
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs (miRNAs) are small RNAs of ~22 nucleotides in length that are involved in the regulation of a variety of physiological and pathological processes. Advances in high-throughput small RNA sequencing (smRNA-seq), one of the next generation sequencing applications, have reshaped the miRNA research landscape. In this study, we established an integrative database containing analysis pipelines and analysis results of 609 human and mice smRNA-seq results, including public data from GEO and private ones. YM500 collects analysis results for miRNA quantification, for isomiR identification (incl. RNA editing), for arm switching discovery, and, more importantly, for novel miRNA predictions. Wetlab validation on > 100 miRNAs confirmed high correlation between miRNA profiling and RT-qPCR results (R=0.84). This database allows researchers to search these 4 different types of analysis results via our interactive web interface. YM500 allows researchers to define the criteria of isomiRs, as well as integrates the information of dbSNP to help researchers to distinguish isomiRs from SNPs. A user-friendly interface is provided to integrate miRNA-related information and existing evidences from hundreds of sequencing datasets. The identified novel miRNAs and isomiRs hold the potentials for both basic research and biotech applications. YM500 is now available on
+
+DESIGN
+There are 34 in-house datasets in YM500 . They are 9 human embryonal tumors, 9 human germ cell tumors, and 16 human gliomas.
+

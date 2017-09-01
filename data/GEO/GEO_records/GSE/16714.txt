@@ -1,0 +1,12 @@
+TITLE
+Transcriptional Profile of the Shigella flexneri Response to Berberine
+
+ORGANISM
+Shigella flexneri
+
+SUMMARY
+Berberine is a natural isoquinoline alkaloid found in Chinese medicinal herbs which is active against a variety of microbial infections. To examine the potential effects of berberine on Shigella flexneri, a whole-genome DNA microarray was constructed and transcriptome analysis of the cellular responses of S.flexneri when exposed to Berberine Chloride (BC) was performed.
+
+DESIGN
+When cultures were grown to early exponential growth phase, drug was added. Meanwhile, DMSO solution without BC was added to control cultures to the same final concentration. At 30 min after treatment, samples were collected and washed twice with phosphate buffered saline at 25°C for subsequent RNA isolation. To prepare biological replicates for RNA isolation, each experiment was independently performed three times. After drug treatment, total RNA was extracted using SV RNA Isolation System (Promega). Reverse transcription of 20 ug RNA from each sample was performed with Superscript II system (Invitrogen) to prepare cDNA. According to the manufacturer's instructions, the cDNA was labeled with incorporation of fluorescent dyes (Amersham). Cy3-dCTP monofunctional dye was selected for control cDNA samples and Cy5-dCTP was used for drug-treated samples. Each pair of labeled cDNA was mixed and dried by vacuum centrifugation. The pairs of the labeled cDNA samples were hybridized to the DNA microarrays following the protocol available at The slides were scanned by using a GenePix 4100A scanner. Fluorescent spots and local background intensities were quantified using GenePix Pro 6.0 software (Axon). Signal intensities were corrected by subtracting the local background value. The data set was filtered so that spots flagged as " not found, " " bad, " and " empty " were excluded from further analysis. Moreover, spots either with signal-to-noise ratio below the detection limit of 3 or containing less than 55% of pixels two standard deviations above background in both channels were discarded from the data set. Lowess normalization was performed with the fluorescent signal ratios (Cy5/Cy3) using MIDAS software ( ) with a 0.33 smooth parameter.
+

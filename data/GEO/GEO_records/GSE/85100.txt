@@ -1,0 +1,12 @@
+TITLE
+PARP-1 Controls the Adipogenic Transcriptional Program by PARylating C/EBPβ and Modulating Its Transcriptional Activity
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Poly(ADP-ribosyl)ation (PARylation) is a regulatory post-translational modification of proteins mediated by PARP family members, such as PARP-1.  Although PARP-1 and PARylation have been widely studied, very few examples of definitive biological roles for site-specific PARylation of proteins exist in the literature.  Here we show that C/EBPβ, a key pro-adipogenic transcription factor, is PARylated by PARP-1 at Glu135, as well as two adjacent amino acids (K133 and E139).  PARylation at these sites inhibits C/EBPβ’s DNA binding and transcriptional activities, and attenuates adipogenesis in various cell-based models of adipogenesis.  Interestingly, PARP-1 catalytic activity drops precipitously during the first 48 hours of hormone-induced differentiation, corresponding to a release of C/EBPβ from PARylation-mediated inhibition.  This allows the binding of C/EBPβ to the promoters of pro-adipogenic target genes (e.g., Cebpa, Pparg2), their subsequent expression, and continued differentiation.  In this regard, depletion of PARP-1 or chemical inhibition of its catalytic activity enhances early adipogenic events.  Collectively, our results provide a clear example of how site-specific PARylation of a key transcription factor can affect its molecular and biochemical functions, as well as the biological outcomes that it controls.
+
+DESIGN
+ChIP-seq (C/EBP beta) were perfomed in 3T3-L1 cells expressing doxycycline inducible HA tagged C/EBP beta LAP wildtype and PARylation site mutant, with or without doxycycline and PARP inhibitor treatment.
+

@@ -1,0 +1,12 @@
+TITLE
+ChIP-chip of 38 nuclear receptors and NR co-factors in breast cancer cell line MCF7
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Altered gene expression patterns in human diseases reflect perturbations in the transcriptional networks that regulate cellular state. In breast cancer, Nuclear Receptors (NRs) play a prominent role in governing gene expression. NRs have prognostic utility and are therapeutically important targets. Here we describe a complete regulatory map for twenty-four NR proteins that are expressed in the breast cancer cell line MCF-7, as well as fourteen additional breast cancer associated transcription factors (TFs) and six key chromatin state markers. The CEL files for the 38 NRs ChIP-chip presented in the paper are included, together with the results bar files, except 5 previsouly published ones: ER [GSE10800], RARA, RARG, FOXA1, GATA3 [GSE15244]. The supplementary bed file contains all 200,140 binding sites of all 38 TFs reported in the paper.
+
+DESIGN
+Input DNA was used as control against all 38 ChIPchip samples. All samples are done in triplicates.  We mapped the binding sites in the bacterial artificial chromosome (BAC) transgenic MCF7 cells in which we tagged the transcription factors with a modified LAP (localization and affinity purification) tag containing green fluorescent protein (GFP). Goat anti-GFP (raised against His-tagged full-length eGFP and affinity-purified with GST-tagged full-length eGFP) was used to perform ChIP experiments in those transgenic lines. *Bed files for binding sites of each of 38 factors (TR2L and TR2S are two isoforms of TR2) were provided as additional results files. Please note that the folllowing data files are re-processed from Dr. Sujun Hua's GSE10800 and GSE15244 uploads. ESR1.bed FOXA1.bed GATA3.bed RARA.bed RARG.bed Since the authors have updated the analysis pipeline and presented the changed results in the associated publication, these updated results are included in the records (Dr. Sujun is one of the contributors in this work).
+

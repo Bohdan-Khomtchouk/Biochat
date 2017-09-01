@@ -1,0 +1,12 @@
+TITLE
+Alternative processing of GTEx RNA-seq data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We reprocessed RNA-Seq data for 1,558 samples across 8 tissue sites from the GTEx project. We follow the exact pipeline performed by Rahman et al. Bioifnormatics 2015 (PMID: 26209429)
+
+DESIGN
+Using Rsubread version 1.14.2 R package, we aligned the fastq files downloaded from dbGap First, the reads were aligned with align() function to the UCSC hg19 reference genome. Second, featureCounts() function was used to summarize the gene level expression values as integer number. Third, these summarized gene values were normalized to FPKM values.. A supplemental file showing the tissue type of each sample is included for the users.
+

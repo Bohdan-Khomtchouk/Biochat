@@ -1,0 +1,12 @@
+TITLE
+Yeast RNase III triggers polyadenylation independent transcription termination
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Transcription termination of messenger RNA (mRNA) is normally achieved by polyadenylation followed by Rat1p dependent 5’-3’ exoribonuleolytic degradation of the downstream transcript. Here we show that the yeast orthologue of the dsRNA-specific ribonuclease III (Rnt1p) may trigger Rat1p dependent termination of RNA transcripts that fail to terminate near polyadenylation signals. Rnt1p cleavage sites were found downstream of several genes and the deletion of RNT1 resulted in transcription read-through. Inactivation of Rat1p impaired Rnt1p dependent termination and resulted in the accumulation of 3’ end cleavage products. These results support a new model for transcription termination in which co-transcriptional cleavage by Rnt1p provides access for exoribonucleases in the absence of polyadenylation signals.
+
+DESIGN
+In order to examine the global impact of Rnt1p on transcription termination, we analyzed the overall pattern of RNAP II occupancy in the presence and the absence of RNT1. RNAP II specific chromatin immunoprecipitation was performed as described below (IP vs input) from RNT1 or rnt1Δ cells and the extracted DNA hybridized to a DNA microarray containing an average of 4 probes per kilobase across the whole yeast genome. The raw data were corrected (foreground-background) then normalized using the limma's loess function (Yang et al., 2002) in BioConductor (from the ArrayPipe Analysis Pipeline (Hokamp et al., 2004)) and replicates were combined using a weighted average method as described previously (Ren et al., 2000, Pokholok et al., 2005). The occupancy of RNAPII in WT and rnt1Δ was assessed respectively in triplicate and in duplicate. The combined datasets are available in the supplemental files of the related publication.
+

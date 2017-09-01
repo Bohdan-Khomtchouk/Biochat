@@ -1,0 +1,9 @@
+TITLE
+Genome-Wide Discovery of STAT3 Functional Binding Sites
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+STAT3 is a transcription factor playing a crucial role in inflammation, immunity and oncogenesis, able to induce distinct subsets of target genes in different cell types or under different conditions. Identification of direct transcriptional targets however has only defined a relatively limited set of genes, not sufficient to explain its variegated functions. In order to improve our understanding of the STAT3 transcriptional network we decided to develop a computational approach for the discovery of STAT3 functional binding sites. Upon generating a Positional Weight Matrix to define STAT3 binding sites, we applied a loglikelihood ratio scoring function and were able to assign affinity scores with very high specificity (93.5%) as measured by EMSA. STAT3 binding sites scoring above a stringent threshold have been identified genome-wide in Homo sapiens and Mus musculus and selected for phylogenetic conservation by genomic sequence alignment using eight vertebrate species. Validation was carried out on a subset of predicted sites within genes previously identified as STAT3-responsive by microarray analysis. The high percentage of sites able to bind STAT3 in vivo, as assessed by Chromatin Immunoprecipitation (ChIP) analysis, revealed the high predictive power of our method.
+

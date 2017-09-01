@@ -1,0 +1,12 @@
+TITLE
+NsaRS is a Cell-Envelope-Stress Sensing Two-Component System of Staphylococcus aureus
+
+ORGANISM
+Staphylococcus aureus
+
+SUMMARY
+S. aureus possesses 16 two-component systems (TCS), two of which (GraRS & NsaRS) belong to the intramembrane-sensing histidine kinase (IM-HK) family, conserved within the firmicutes. NsaRS has recently been documented as being important for nisin-resistance in S. aureus. In this study we present a detailed characterization of NsaRS and reveal that, as with other IM-HK TCS, it responds to disruptions in cell-wall stability. Analysis using a lacZ reporter-gene fusion demonstrated that nsaRS expression is upregulated by a variety of cell-wall damaging antibiotics, including Phosphomycin, Ampicillin, Nisin and Penicillin G. Additionally; we reveal that NsaRS regulates a downstream transporter, NsaAB, during nisin-induced stress. NsaS mutants also display a 200-fold decreased ability to develop resistance to the cell-wall targetting antibiotic bacitracin. Microarray analysis reveals the transcription of 245 genes is altered in a nsaS mutant, with the vast majority down-regulated. Included within this list are genes involved in transport, drug-resistance, cell-envelope synthesis, transcriptional regulation, amino acid metabolism and virulence. Using ICP-MS we observed a decrease in intracellular divalent metal ions in an nsaS mutant when grown under low affinity conditions. Characterization of cells using electron microscopy reveals that nsaS mutants have alterations in both cell-wall and cell-envelope structure. Finally, a variety of virulence related phenotypes are impaired in nsaS mutants, including biofilm formation, resistance to killing by human macrophages and survival in whole human blood. Thus NsaRS is important in sensing cell-wall instability in S. aureus, and functions to reprogram gene expression to modify cell-envelope architecture, facilitating adaptation and survival.
+
+DESIGN
+We did four hybridizations for this experiment, including a biological replicate and a dye-swap experiment for each replicate to account for dye-bias. Spots flagged as empty or bad were excluded and the raw data from each slide was normalized using LOWESS method, with background correction. The data from the replicates were combined (using the median value) and a one-sample t-test was performed. The volcano plot was used with a fold change cut-off of > = 2 and a p-value of < 0.05, to filter the genes that were differentially expressed.
+

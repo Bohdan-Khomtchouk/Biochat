@@ -1,0 +1,12 @@
+TITLE
+preparative changes in rat intestine and lung for birth
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+To identify genes important in fetal preparation for birth. Transcript profiling using microarray analysis was performed using lung and intestine RNA from a single animal from each of 10 litters at a given gestational age. Array experiments were performed by the Genomics CoreLab, Cambridge Comprehensive Biomedical Research Centre. Briefly, the Affymetrix Rat Genome 230.2 GeneChip was employed. Total RNA was processed using the standard Affymetrix one-cycle target labeling and hybridization protocols. Data were pre-normalized using robust multiarray averaging and normalization was achieved using the LIMMA software package. Normalized transcript abundance data were compared between E16 and E20 using two independent methods: the Cyber-T algorithm and Rank Product Analysis.  Transcripts that were significantly regulated in both Cyber-T (Bayes p value < 0.001, posterior probability of differential expression, ppde > 0.99) and Rank Product Analysis (p < 0.0001) and showed an absolute fold change of over 5 were defined as differentially expressed. Microarray data were annotated using the NetAffx  Analysis Center (Affymetrix). To generate the list of up-or down-regulated genes only Entrez genes or Unigene clusters were considered if at least one probe set gave an unambiguous match.
+
+DESIGN
+10 rat embryos 16 days gestation and 10 embryos at 20 days gestation.
+

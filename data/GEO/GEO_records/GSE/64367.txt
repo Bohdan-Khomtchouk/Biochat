@@ -1,0 +1,12 @@
+TITLE
+Epigenomic profiling reveals the key function of histone H3K9 methylation during tumor transformation process
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To understand transcriptome and epigenome profilings alteration during breast cancer initiation and development, we constructed a in vitro breast cancer transformation model. And then, we use mRNA-Seq to uncover differential expression genes during breast cancer transformation process. For epigenomic profilings, we specificly analysis genome wide H3K9me2, H3K9me3,H3K4me3 and H3K27me3 modifications using ChIP-Seq. We found that H3K9 di and tri methylation decrease both in vitro breast cancer cell transformation model and in vivo clinical samples. Further more, we found KDM3A, a demethylase for H3K9 mono and di methylation, increase during the breast cancer model transformation process and clinical samples. KDM3A deficiency impairs the growth of those transformed cell lines and its overexpression promotes tumor formation.
+
+DESIGN
+To study the underlying mechanisms of breast cancer transformation, we utilized a cell based cell transformation model. Large T antigen, TERT and HRAS(V12) were transfected into purchased primary breast cell, respectively. Four cell lines were used for the following study, named as HMC-p6 (breast primary cell passage 6), HMC-L (breast primary cell with stable large T expression), HMC-LT (breast primary cell with large T and TERT) and HMC-LTR (breast primary cell with large T, TERT and HRAS (V12)). HMC-p6 cell is a normal breast primary cell, and we proved HMC-LTR is a cancer cell by using colony formation and nude mouse tumor formation assay. And then, we performed mRNA-Seq and ChIP-Seq in those four cell lines using standard Illumina TruSeq Kit as the manufaturer's suggested. For KDM3A function analysis, we performed knockdown of KDM3A in L.T and L.T.R by using shRNA and siRNA, respectively.  NC stands for negative control, briefly, for shRNA we used shGFP as control and for siRNA we used negative control RNA.
+

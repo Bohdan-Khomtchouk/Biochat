@@ -1,0 +1,12 @@
+TITLE
+RNA sequencing of common myeloid progenitors following short term induction of mutant U2AF1(S34F) expression in transgenic mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mutations in the splicing factor gene U2AF1 have been found in the bone marrow of patients with myelodysplastic syndrome and acute myeloid leukemia, as well as in other cancers.  To study the effects of mutant U2AF1(S34F) expression on hematopoiesis and pre-mRNA splicing in hematopoietic cells, we generated two inducible transgenic mouse lines expressing either mutant U2AF1(S34F) or U2AF1(wildtype, WT) as control.  We performed strand-specific transcriptome sequencing on bone marrow common myeloid progenitor cells from U2AF1(S34F) and U2AF1(WT)-expressing mice to examine the pre-mRNA splicing changes associated with expression of mutant U2AF1(S34F).
+
+DESIGN
+Donor-derived common myeloid progenitor cells from mice transplanted with U2AF1(S34F)/rtTA or U2AF1(WT)/rtTA bone marrow were sorted by flow cytometry, and RNA was extracted for transcriptome analysis.  Ribosomal RNA was depleted prior to strand-specific RNA sequencing (TruSeq stranded library production, followed by 2 x 100bp paired-end sequencing performed on the HiSeq2000 platform from Illumina).  Three samples were sequenced per genotype (n=3), and each sample was composed of bone marrow from 4-5 mice pooled.  Reads were aligned to the mouse mm9 reference genome using TopHat (version 2.0.8), and we performed all subsequent analyses in R.
+

@@ -1,0 +1,12 @@
+TITLE
+Reduced Proteolytic Shedding of Receptor Tyrosine Kinases is a Post-Translational Mechanism of Kinase Inhibitor Resistance.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Expression data from MDA-MB231 human breast cancer cells treated with metalloproteinase inhibitor (10uM BB94), MEK inhibitor (3uM PD325901), or DMSO control shows substantial overlap in the transcriptional responses arising from MEK and protease inhibition, suggesting a shared mechanism of action. Kinase inhibitor resistance often involves upregulation of poorly understood “bypass” signaling pathways.  Here, we show that extracellular proteomic adaptation is one path to bypass signaling and drug resistance. Proteolytic shedding of surface receptors, which can provide negative feedback on signaling activity, is blocked by kinase inhibitor treatment and enhances bypass signaling. In particular, MEK inhibition broadly decreases shedding of multiple receptor tyrosine kinases (RTKs) including HER4, MET, and most prominently AXL, an ADAM10 and ADAM17 substrate, thus increasing surface RTK levels and mitogenic signaling. Progression-free survival of melanoma patients treated with clinical BRAF/MEK inhibitors inversely correlates with RTK shedding reduction following treatment, as measured non-invasively in blood plasma.  Disrupting protease inhibition by neutralizing TIMP1 improves MAPK inhibitor efficacy, and combined MAPK/AXL inhibition synergistically reduces tumor growth and metastasis in xenograft models.  Altogether, extracellular proteomic rewiring through reduced RTK shedding represents a surprising mechanism for bypass signaling in cancer drug resistance.
+
+DESIGN
+Human breast cancer MDA-MB231 cells were plated in 10cm plates at 70% confluency, treated the following day with either 0.1% DMSO vehicle control, 10uM BB94, or 3uM PD325901, and lysed 24h later.  RNA was prepared using the Qiagen RNeasy Mini kit, and samples were analyzed using Affymetrix Primeview arrays processed by Massachusetts Institute of Technology BioMicroCenter.  Treatments were performed with n=4 (control), n=3 (PD325901), and n=2 (BB94) successful biological replicates.  Data were preprocessed using the R/Bioconductor package “affy” and the RMA normalization routine.
+

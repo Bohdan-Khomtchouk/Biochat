@@ -1,0 +1,12 @@
+TITLE
+An effective approach for identification of in vivo protein–DNA binding sites from paired-end ChIP-Seq data
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+ChIP-Seq, which combines chromatin immunoprecipitation (ChIP) with high-throughput massively parallel sequencing, is increasingly being used for identification of protein–DNA interactions in-vivo in the genome. In general, current algorithms for ChIP-seq reads employ artificial estimation of the average length of DNA fragments for peak finding, leading to uncertain prediction of DNA-protein binding sites. Here, we present SIPeS (Site Identification from Paired-end Sequencing), a novel algorithm for precise identification of binding sites from short reads generated from paired-end Solexa ChIP-Seq technology. SIPeS uses a dynamic baseline directly via ‘piling up’ the corresponding fragments defined by the paired reads to efficiently find peaks corresponding to binding sites. The performance of SIPeS is demonstrated by analyzing the ChIP-Seq data of the Arabidopsis basic helix-loop-helix transcription factor ABORTED MICROSPORES (AMS). The robustness of SIPeS was demonstrated in higher sensitivity and spatial resolution in peak finding compared to three existing peak detection algorithms. Keywords: transcription factors (protein-DNA interactions)
+
+DESIGN
+Examination of protein-DNA interactions in buds of Arabidopsis anther cell
+

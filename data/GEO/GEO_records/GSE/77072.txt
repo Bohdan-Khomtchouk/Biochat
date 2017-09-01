@@ -1,0 +1,12 @@
+TITLE
+Spliced synthetic genes as internal controls in RNA sequencing experiments.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA sequencing (RNA-seq) can be used to assemble spliced isoforms, quantify expressed genes and provide a global profile of the transcriptome. However, the size and diversity of the transcriptome, the wide dynamic range in gene expression and inherent technical biases confound RNA-seq analysis. We have developed a set of spike-in RNA standards, termed ‘sequins’ (sequencing spike-ins), that represent full-length spliced mRNA isoforms. Sequins have an entirely artificial sequence with no homology to natural reference genomes, but align to gene loci encoded on an artificial in silico chromosome. The combination of multiple sequins across a range of concentrations emulates alternative splicing and differential gene expression, and provides scaling factors for normalization between samples. We demonstrate the use of sequins in RNA-seq experiments to measure sample-specific biases and determine the limits of reliable transcript assembly and quantification in accompanying human RNA samples. In addition, we have designed a complementary set of sequins that represent fusion genes arising from rearrangements of the in silico chromosome to aid in cancer diagnosis. RNA sequins provide a qualitative and quantitative reference with which to navigate the complexity of the human transcriptome.
+
+DESIGN
+Detailed transcriptomic analysis of two human cell lines with synthetic RNA spike-ins ('sequins'). Sequins were initially combined at equimolar concentrations (a " flat " mix) and sequenced neat (i.e. without any natural RNA added). We then prepared two staggered mixtures (Mix A & B) and sequenced them neat. Mix A was then spiked into total RNA extracted from K562 cells, while Mix B was spiked into total RNA extracted from GM12878 cells. Finally, we prepared a staggered mixture of fusion sequins and sequenced it neat.
+

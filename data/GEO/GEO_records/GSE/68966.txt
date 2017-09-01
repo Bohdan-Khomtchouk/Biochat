@@ -1,0 +1,12 @@
+TITLE
+Genetic variation contribute to different susceptibility to HP-PRRSV infection across pig breeds
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Purpose: To characterize the differential mRNA expression profiles of lung tissues upon PRRSV infection in different pig breeds, using NGS techonology, we sequenced mRNAs of the lungs of Tongcheng and Landrace pigs before (0 dpi) and after (3, 5, 7 dpi) infection with high-pathogenic PRRSV (HP-PRRSV). Methods: The mRNA expression profiles of the lungs of Tongcheng and Landrace pigs before (0 dpi) and after (3, 5, 7 dpi) HP-PRRSV infection were produced by using solexa platform. The raw reads with low qualities were filtered and the clean high quality reads were mapped to Ensembl Sus reference genome 10.2.71 using BOWTIE2. The unique mapped reads were retained for mRNA expression analysis. The raw reads counts of each mRNA were calculated by HTseq and the differentially expressed mRNA (Fold change > 2; FDR < 0.05) were called using DEGseq.
+
+DESIGN
+Comparasion of the mRNA expression profiles of lungs from two pig breeds: Tongcheng and Landrace, at 0, 3, 5, 7 dpi infected with HP-PRRSV.
+

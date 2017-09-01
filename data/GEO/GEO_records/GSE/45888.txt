@@ -1,0 +1,12 @@
+TITLE
+Definition of the fibroblast SRF-mediated immediate-early transcriptional response
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To control transcription, SRF recruits signal-regulated co-activators, the Ternary Complex Factors (TCFs) and the Myocardin-related Transcription Factors (MRTFs), which compete for a common site on its DNA-binding domain. The TCFs - SAP-1, Elk-1 and Net - are Ets proteins that link SRF activity to Ras-ERK signalling. In contrast, the two MRTFs, MRTF-A and MRTF-B, link SRF activity to Rho-actin signalling. In this novel signalling pathway, the actin-binding MRTF RPEL domain acts as a G-actin sensor, controlling MRTF nuclear accumulation in response to signal-induced depletion of the G-actin pool.    Previous studies have suggested that the Ras-ERK signalling and Rho-actin pathways control specific subsets of SRF target genes. We used ChIP-seq and RNA-seq to analyse the immediate-early transcriptional response in NIH3T3 fibroblasts, using pathway-specific inhibitors to identify the contributions of Ras-ERK and Rho-actin signalling
+
+DESIGN
+Chromatin immunoprecipitation and sequencing (ChIP-seq) in NIH3T3 fibroblast after serum stimulation in presence or absence of LatrunculinB or U0126 drugs and using antibodies against SRF, MRTF-A, MRTF-B, SAP1, ELK1, NET, Pol II, PolII S5P, PolII S2P and total H3. Validation by ChIP-PCR. Strand specific total-RNA-seq following DSN normalisation and validation by qRT-PCR from NIH3T3 stimulated by serum or Cytochalasin D in presence or absence of LatrunculinB and/or U0126 drugs.
+

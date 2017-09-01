@@ -1,0 +1,12 @@
+TITLE
+Expression data from three endothelial cell lines derived from murine embryonic stem cells expressing VE-cadherin, N-cadherin or both
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Endothelial cells (ECs) express two members of the cadherin family, VE- and N-cadherin. While VE-cadherin induces EC homotypic adhesion, N-cadherin function in ECs remains largely unknown. EC-specific inactivation of either VE- or N-cadherin leads to early foetal lethality suggesting that these cadherins play a non-redundant role in vascular development. Goal of this study was to further investigate this hypothesis analyzing both additive and divergent functions of the two cadherins in ECs.
+
+DESIGN
+The three endothelial cell lines were cultured. Total RNA was extracted using commercial homogenization (QIAshredder) and purification (RNeasy Mini Kit) reagents (Qiagen). Quality control (QC) of the RNA samples was performed using an Agilent Bioanalyzer 2100 (Agilent Technologies). Two different RNA extractions were processed for each of the cell lines under analysis, and each sample was labelled and hybridized to a Mouse Gene 1.0 ST Genechip array according to the manufacturer’s specifications (Affymetrix Inc). Data were analysed using Partek Genomics Suite v6.3 software (RMA algorithm). Differentially expressed genes were identified through ANOVA, using a fold change cutoff > 2 and a p-value of 0.05.
+

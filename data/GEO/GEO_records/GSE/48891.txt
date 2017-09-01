@@ -1,0 +1,12 @@
+TITLE
+PU.1 and Spi-B oppose transformation of pre-B cells through activation of key genes involved in B cell receptor signaling
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Deletion of genes encoding the E26 transformation-specific (ETS) transcription factors, PU.1 and Spi-B, in B cells (CD19-CreDPB mice) leads to acute lymphoblastic leukemia at 100% incidence and with a median survival of 21 weeks. To identify pathways of leukemic transformation, we compared gene expression in leukemia cells from CD19-CreDPB mice (CD19-CreDPB B220- B-ALL) with B cells from Spi-B knockout (Control DB) or B cells from CD19-CreDPB mice (CD19-CreDPB B220+ B cell)
+
+DESIGN
+RNA was prepared from sorted cells using RNA-Bee (Tel-Test, Friendswood, TX). RNA integrity and purity was checked using a Bioanalyzer 2100 (Agilent Technologies Inc., Santa Clara, CA). RNA was processed and analyzed using Mouse Exon 1.0 ST arrays (Affymetrix, Santa Clara, CA) at the London Regional Genomics Centre according to the manufacturer’s instructions. Data analysis was performed using Partek Genomics Suite (Partek Inc. St. Louis, MO). Batch effect removal was performed using ComBat software. Differentially expressed genes were identified using one-way ANOVA and a cut-off of 1.5 fold with p < 0.05. Heat maps and “volcano” plots were generated using Hierarchical Clustering Explorer. Partek Pathway software was used to identify biological pathways using the Kyoto Encyclopedia of Genes and Genomes (KEGG) database, and p values were calculated using Fisher exact test.
+

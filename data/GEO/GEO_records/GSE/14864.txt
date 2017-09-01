@@ -1,0 +1,12 @@
+TITLE
+Establishing the program of origin firing during S phase in fission yeast
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Our data have revealed a correlation between the timing of ORC and MCM binding to origins and the timing of replication. We hypothesized that origins bind ORC during M with varying affinities, and that delays in ORC binding and pre-RC formation at late-firing origins result in low efficiencies due to these origins subsequently competing less effectively for limiting replication factors. We investigated if equalizing ORC binding results in changes in origin efficiencies. Because the increase in ORC binding occurs during M, we surmised that extending M might result in origins accumulating ORC more equally, leading to more equal distribution of pre-RC and pre-IC assembly among origins. As a consequence, early origins might become less efficient and late origins more efficient. To extend M in cells, we used the drug MBC (Carbendazim), which prevents microtubule polymerization and disrupts the mitotic spindle. Cells were then allowed to undergo S phase in the presence of BrdU, and labeled fragments were isolated by immunoprecipitation of genomic DNA and hybridized to Affymetrix tiling arrays. These results were compared to the replication profile of synchronized cells treated with HU but not with MBC, providing a control for normal origin efficiencies across the genome. This method allows the relative efficiency of origin usage genome-wide to be determined based on signal intensities from array hybridizations. Keywords: comparison between cells treated with a drug and normal cells
+
+DESIGN
+Fission yeast cells were labeled with BrdU during S phase in normal conditions as well as following MBC treatment. Genomic DNA was isolated, BrdU was immunoprecipitated, and labeled DNA was amplified and hybridized to Affymetrix arrays.  Samples from S phase were normalized to a non-replicating control ( " 0 " ).  Three replicates of normal replication ( " 90 " ) were performed, in addition to three replicates of replication following MBC treatment ( " MBC " ).
+

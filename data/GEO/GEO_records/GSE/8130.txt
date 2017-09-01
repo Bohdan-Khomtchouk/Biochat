@@ -1,0 +1,9 @@
+TITLE
+Cell cycle dependent nucleosome occupancy at cohesin binding sites in yeast chromosomes
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Nucleosome organization determines local chromatin structure and changes in nucleosome occupancy during the cell cycle are correlated with nuclear functions. We used oligonucleotide tiling arrays to analyze the cell cycle dependence of nucleosome occupancy at cohesin binding sites in yeast chromosomes. Processed data included in Series table. Data processing: To improve the signal to noise ratio, the raw data were first processed with dCHIP with its PM/MM difference model and invariant set normalization method, using the entire dataset. 8251 out of the total 92812 probe pairs were excluded from further analysis because they either have multiple hits in the genome or the signal from the genomic hybridization was too weak (cutoff at (PM-MM)/MM < 0.25). After Gaussian smoothing (s =75 bp), the data were normalized by that of the genomic DNA. These values were then converted to log2 scale. The mean was then computed for each array. To facilitate comparisons, the different datasets were rescaled to have the same mean with log2 value of 0. The log2 ratio along the four chromosomes at all the cell cycle stages are included. The ID represents " Chromosome No_chromosomal coordinate " . Keywords: time course
+

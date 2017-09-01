@@ -1,0 +1,12 @@
+TITLE
+IsomiRage: from functional classification to differential expression of miRNAs and their isoforms
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Characterization and analysis of miRNAs and their variants (called " IsomiRs " ) in next-generation sequencing datasets in breast epithelium. Our pipeline, called IsomiRage, allows distinguishing canonical miRNAs from templated and non-templated isomiRs by alignment to a custom database, which comprises all possible 3’-, 5’- and trimmed variants. Functionally equivalent isomiRs can be grouped together according to the type of modification (e.g. uridylation, adenylation, trimming...) to assess which miRNAs are more intensively modified in a given biological context. When applied to the analysis of primary epithelial breast cancer cells, our methodology provided a 40% increase in the number of detected miRNA species and allowed to easily identify and classify more than 1000 variants. Most modifications were compatible with templated IsomiRs, as a consequence of  imprecise Drosha or Dicer cleavage. However, some non-templated variants were consistently found either in the normal or in the cancer cells, with the 3’-end adenylation and uridylation as the most frequent events, suggesting that miRNA post- transcriptional modification frequently occurs. Our analytical tool permits the deconvolution of miRNA heterogeneity and could be used to explore the functional role of miRNA isoforms.
+
+DESIGN
+A matched normal/tumor primary culture from breast epithelium
+

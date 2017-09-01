@@ -1,0 +1,12 @@
+TITLE
+Next generation sequencing identifies polyadenylated species of hTR
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The paired-end next-generation sequencing of all hTR versions of less than 200 nucleotides in length was used to analyze the 3’ end distribution of hTR associated to Flag-tagged versions of PABPN1, hTERT and Dyskerin. In total, we obtained 2,716,342, 3,152,013, and 3,077,395 hTR-specific reads for the PABPN1, hTERT, and Dyskerin purifications, respectively. We found that the majority of polyadenylated telomerase RNA recovered in the PABPN1, hTERT, and Dyskerin purifications had poly(A) tails starting immediately after the annotated hTR 3’ end. However, a greater proportion of poly(A) tails were found on genome-encoded 3’-extentions in the PABPN1-bound fraction compared to the population of hTR that was copurified with hTERT and DKC1: 15.5% for PABPN1, 6.9% for hTERT, and 6.5% for Dyskerin. Notably, the population of polyadenylated telomerase RNA recovered with PABPN1 was significantly different in terms of poly(A) tail length compared to polyadenylated hTR retrieved in the hTERT- and Dyskerin-bound fractions (P-value=5.551e-16, Kolmogorov-Smirnov test), showing a tendency toward longer poly(A) tails in the PABPN1-bound fraction. The enrichment of telomerase RNA with long poly(A) tails in the PABPN1-bound fraction is consistent with a role of PABPN1 in a maturation pathway that depends on hTR 3’ end polyadenylation. Moreover, our results indicate that a fraction of hTERT and Dyskerin are associated with polyadenylated versions of hTR.
+
+DESIGN
+Total RNA was immunoprecipitated with FLAG-PABPN1, FLAG-hTERT, and FLAG-DKC1 by the RNA-Immunoprecipitate (RIP) method as previously described. The RNA Ligase-Mediated Rapid Amplification of cDNA End (RLM-RACE) approach was applied to prepare RNA libraries. Briefly, Co-IPed RNAs were ligated with a linker-3 oligo (IDT) followed by a reverse transcription reaction. Three consecutive PCR reactions were performed with specific primers containing unique barcodes for each RNA sample to amplify RNA libraries, which were analyzed by Illumina MiSeq technology.
+

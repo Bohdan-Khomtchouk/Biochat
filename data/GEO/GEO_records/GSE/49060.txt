@@ -1,0 +1,12 @@
+TITLE
+IF001 - Microarray analysis from ferret infections with highly pathogenic reconstructed H1N1 1918 influenza virus.
+
+ORGANISM
+Mustela putorius furo
+
+SUMMARY
+The objective of this study was test and compared two custom designed ferret Agilent microarrays
+
+DESIGN
+We designed two versions of oligonucleotide microarray using Agilent eArray Web portal ( ) to profile both Ensembl annotated transcripts and intergenic transcripts derived from ferret RNA-seq data as described above. In both cases, the longest isoform of each locus was selected for probe design with the ‘Design with 3’ Bias’ checked, and probe length was set to 60nt.  For first version of microarray (design ID: 048471) 36,950 probes were selected to target Ensembl annotated genes and intergenic transcripts uncovered from mRNA-seq data, which was intended to work with conventional experimental protocols using polyA priming for cDNA synthesis. For the second version (design ID: 048472) 64,238 probes were selected to target Ensembl annotated genes, intergenic transcripts uncovered from both mRNA-seq and Total RNA-seq data, which was intended to work with experimental protocols using random priming for cDNA synthesis to capture both polyA and non-polyA transcripts.  The samples used for the array test came from an infection of 4-8-month old ferrets infected with either reconstructed H1N1 1918 influenza virus or mock infected. Infections were done with 1x10^6pfu and samples were collected at 1 d.p.i.  RNA was isolated from lung and trachea from 1 mock and 1 infected animal for a total of 4 RNA samples. One probe preparation for each samples was done for each array design. Two arrays were run for each samples type for each array design for a total of 16 arrays.
+

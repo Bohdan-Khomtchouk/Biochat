@@ -1,0 +1,12 @@
+TITLE
+High resolution specificity of DNA sequencing highlights alternative mode of lac repressor binding
+
+ORGANISM
+Escherichia coli K-12
+
+SUMMARY
+In this work we introduce a new high-throughput method, Spec-seq, that directly measures specificity by sequencing. It has several advantages over existing methods to quantify large collections (thousands) of binding site energies in one experiment. Using lac repressor as an example, we show that this method has excellent reproducibility giving energy measurements generally consistent within about 0.1kT. While not measuring in parallel as many different sequences as some of the higher throughput methods, we obtain high accuracies because we measure exactly what is necessary, the relative affinity to a large collection of sequences, without any mathematical fitting procedures or approximations required. It is similar to MITOMI in the number of different sites that can be analyzed in parallel, but it is much simpler to perform, requiring only a means to separate bound and unbound fractions which are then sequenced using standard high throughput, short read sequencing machines that are now readily available. When applied to the lac repressor we obtain, in a single experiment, data covering a large fraction of all the previous studies, plus thousands of additional variants, allowing us to compile a much more comprehensive profile of its specificity. We learn that the lac repressor can bind to sites of different lengths but that the preferred sequence, and the mode of binding, depends on the length. We also apply the method to two other members of the LacI/GalR protein family, PurR and YcjW, to obtain extensive models of their specificity and test the generality of the lac repressor's ability to bind to operators of variable length. We find that the lac repressor is apparently unique in its ability to bind with high affinity to sites of different lengths and with different modes of binding.
+
+DESIGN
+4 independent experiments.
+

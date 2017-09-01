@@ -1,0 +1,12 @@
+TITLE
+Novel RNA- and FMRP-binding protein TRF2-S regulates axonal mRNA transport and presynaptic plasticity
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Despite considerable evidence that RNA-binding proteins (RBPs) regulate mRNA transport and local translation in dendrites, roles for axonal RBPs are poorly understood.  Here we demonstrate that a nontelomeric isoform of telomere repeat-binding factor 2 (TRF2-S) is a novel RBP that regulates axonal plasticity.  TRF2-S interacts directly with target mRNAs to facilitate their axonal delivery.  The process is antagonized by fragile X mental retardation protein (FMRP).  Distinct from the current RNA-binding model of FMRP, we show that FMRP occupies the GAR domain of TRF2-S protein to block the assembly of TRF2-S-mRNA complexes.  Overexpressing TRF2-S and silencing FMRP promotes mRNA entry to axons, and enhances axonal outgrowth and neurotransmitter release from presynaptic terminals.  Our findings suggest a pivotal role for TRF2-S in an axonal mRNA localization pathway that enhances axon outgrowth and neurotransmitter release.
+
+DESIGN
+RNA immunoprecipitated samples using either anti-rat TRF2-S or rabbit IgG antibodies were used to generate biotin-labeled RNA using the Illumina Total Prep RNA Amplification Kit (Ambion), which was hybridized to Illumina's rat Ref-12 Expression BeadChips (Illumina, San Diego, CA), containing 22,523 well-annotated RefSeq transcripts with ~30-fold redundancy.  The arrays were scanned using an Illumina BeadStation 500X Genetic Analysis Systems scanner and the image data extracted using Illumina BeadStudio software, version 1.5, normalized by Z-score transformation and used to calculate differences in signal intensities.  Significant values were calculated from two groups of independent experiments, using a two-tailed Z-test with P < 0.05, a false discovery rate < 0.30, a z ratio absolute value not less than 1.5, and an average signal intensity not less than zero.  The results also had to pass the filtering and one-way independent ANOVA test by sample groups less than 0.05, and detection p-value for any probe in the comparison group less than 0.02.
+

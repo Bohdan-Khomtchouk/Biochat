@@ -1,0 +1,12 @@
+TITLE
+Transcriptome profiling for genes transcriptionally regulated by Smchd1 in lymphoma cell lines.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: The aim of this study is to identify genes that are under the transcriptional control of the epigenetic modifier Smchd1 in mouse lymphoma cell lines. Methods: Total RNA was extracted using QIAGEN RNeasy Minikit from sorted lymphoma cell lines derived from mice either wild-type or null for Smchd1. 1µg total RNA was used to generate sequencing libraries for whole transcriptome analysis with Illumina’s TruSeq RNA Sample Preparation Kit v2 as per standard protocols. Libraries were sequenced on HiSeq 2000 with Illumina TruSeq SBS Kit v3-HS reagents as either 100 bp single-end or paired-end reads at the Australian Genome Research Facility (AGRF), Melbourne. Reads were aligned to the mouse reference genome mm10 and mapped to known genomic features at the gene level using the Rsubread package (version 1.10.5) (Liao et al. 2013). Mapped reads were then summarized into gene-level counts using FeatureCounts (Liao et al. 2014).
+
+DESIGN
+Total RNA was extracted and purified from each cell line and their transcriptomes analysed by RNA-Seq.
+

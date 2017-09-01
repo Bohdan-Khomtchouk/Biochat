@@ -1,0 +1,12 @@
+TITLE
+Tail and Kinase Modules Differently Regulate Core Mediator Recruitment and Function In Vivo
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Mediator is a highly conserved transcriptional coactivator organized into four modules, namely Tail, Middle, Head and Kinase (CKM). Previous work suggests regulatory roles for Tail and CKM, but an integrated model for these activities is lacking. Here, we analyzed the genome-wide distribution of Mediator subunits in wild-type and mutant yeast cells in which RNA polymerase II promoter escape is blocked allowing detection of transient Mediator forms.  We found that while all modules are recruited to upstream activated regions (UAS), assembly of Mediator within the pre-initiation complex is accompanied by the release of CKM. Interestingly, our data show that CKM regulates Mediator-UAS interaction rather than Mediator-promoter association. In addition, while Tail is required for Mediator recruitment to UAS, Tail-less Mediator nevertheless interacts with core promoters. Collectively, our data suggest that the essential function of Mediator is mediated by Head and Middle at core promoters, while Tail and CKM play regulatory roles.
+
+DESIGN
+We took a systematic approach to examine the genome-wide distribution (using ChIP-chip) of various Mediator subunits in WT, kin28as, med13Δ, med3Δ/med15Δ,  med13Δ/kin28as and med3Δ/med15Δ/kin28as cells.  Mediator ChIPs were performed with Myc/FLAG/HA-tagged subunits. ChIPs (in Cy5) were hybridyzed against a control ChIP sample from an isogenic non-tagged strain (in Cy3). In addition to Mediator ChIPs, the project includes TFIIB ChIP-chip datasets in WT, med3Δ/med15Δ and med18(srb5)-AA cells. All ChIP-chip experiments were done in duplicates. Each microarray was normalized using the Lima Loess and replicates were combined using a weighted average method as previously described (Pokholok et al., 2005).
+

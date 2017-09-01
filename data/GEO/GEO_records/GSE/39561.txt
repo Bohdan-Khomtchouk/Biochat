@@ -1,0 +1,12 @@
+TITLE
+Genome-wide search for novel human uORFs and N-terminal protein extensions using ribosomal footprinting
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+So far, the annotation of translation initiation sites (TISs) has been based mostly upon bioinformatics rather than experimental evidence. We adapted ribosomal footprinting to puromycin-treated cells to generate a transcriptome-wide map of TISs in a human monocytic cell line. A neural network was trained on the ribosomal footprints at previously annotated AUG translation initiation codons (TICs), and used for the ab initio prediction of TISs in 5062 transcripts with sufficient sequence coverage. Functional interpretation suggested 2994 novel upstream open reading frames (uORFs) in the 5´ UTR (924 AUG, 2070 near-cognate codons), 1406 uORFs overlapping with the coding sequence (116 AUG, 1290 near-cognate) and 546 N-terminal protein extensions (6 AUG, 540 near-cognate). The TIS detection method was validated on the basis of previously published alternative TISs and uORFs. On average, TICs in newly annotated TISs were significantly more conserved among primates than control codons, both for AUGs (p < 10-10) and near-cognate codons (p=3.8×10-3). The derived transcriptome-wide map of novel candidate TISs will help to explain how human proteome diversity is influenced by alternative translation initiation and regulation.
+
+DESIGN
+Examination of translational initiation in human cell lines using ribosomal footprinting
+

@@ -1,0 +1,12 @@
+TITLE
+Global gene expression profiling of primary tumors and lung metastases using a mouse model of spontaneous metastatic mammary carcinoma
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In this study, we explored the molecular basis of site-specific metastasis of breast cancer to the lungs in a clinically relevant model based on the JygMC(A) cell line. In this dataset, we include expression data from JygMC(A) primary mammary tumors, lung metastases, normal mammary glands and normal lung parenchyma.
+
+DESIGN
+In total, 28 samples were analyzed. We generated the following pairwise comparisons using Partek Genomic Suite 6.6 (PGS, Version 6.6, Partek Inc.): PT vs. NMG; PT vs. LM; LM vs. NL; LM vs. NMG. Genes with an FDR-adjusted p-value < 0.05 and a fold-change > 2 were selected.
+

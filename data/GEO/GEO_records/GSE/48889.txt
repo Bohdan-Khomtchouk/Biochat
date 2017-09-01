@@ -1,0 +1,12 @@
+TITLE
+SnapShot-Seq: a method for extracting genome-wide, in vivo mRNA dynamics from a single total RNA sample
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+mRNA synthesis, processing, and destruction involve a complex series of molecular steps that are incompletely understood.  Because the RNA intermediates in each of these steps have finite lifetimes, extensive mechanistic and dynamical information is encoded in total cellular RNA.  Here we report the development of SnapShot-Seq, a set of computational methods that allow the determination of in vivo rates of pre-mRNA synthesis, splicing, intron degradation, and mRNA decay from a single RNA-Seq snapshot of total cellular RNA.  SnapShot-Seq can detect in vivo changes in the rates of specific steps of splicing, and it provides genome-wide estimates of pre-mRNA synthesis rates comparable to those obtained via labeling of newly synthesized RNA.  We used SnapShot-Seq to investigate the origins of the intrinsic bimodality of metazoan gene expression levels, and our results suggest that this bimodality is partly due to spillover of transcriptional activation from highly expressed genes to their poorly expressed neighbors.  SnapShot-Seq dramatically expands the information obtainable from a standard RNA-Seq experiment.
+
+DESIGN
+These data are total RNA-Seq data, from RNA sequencing of rRNA-depleted total cellular RNA -- except the LCL 4SU data, which derive from 4SU-labeled RNA.  Please see the associated paper for more details.
+

@@ -1,0 +1,12 @@
+TITLE
+Ketamine suppresses hypoxia-induced inflammatory responses in the late-gestation ovine fetal kidney cortex
+
+ORGANISM
+Ovis aries
+
+SUMMARY
+Acute fetal hypoxia is a form of fetal stress that stimulates renal vasoconstriction and ischemia as a consequence of the physiological redistribution of combined ventricular output. We have demonstrated that hypoxia in late ovine gestation induces inflammation in the brain that is ameliorated by treatment with ketamine. We hypothesized that the fetal kidney would also respond to hypoxia with an increase in the expression of inflammatory genes, and that ketamine (an N-Methyl-D-aspartate receptor antagonist) would reduce or block this response. Enriched biological processes for the 427 upregulated genes were immune and inflammatory responses and for the 946 down-regulated genes were metabolic processes. Ketamine countered the effects of hypoxia on upregulated immune/inflammatory responses as well as the down-regulated metabolic responses. We conclude that our transcriptomics modeling predicts that hypoxia activates inflammatory pathways and reduces metabolism in the fetal kidney cortex, and ketamine blocks or ameliorates this response. The results suggest that ketamine may have therapeutic potential for protection from ischemic renal damage.
+
+DESIGN
+At the time of surgery, fetuses were randomly assigned to one of the four groups (n=3-4/group): normoxic control, normoxia+ketamine, hypoxic control, and hypoxia+ketamine. Hypoxia was induced for 30 min in chronically catheterized fetal sheep (125±3 d; term=145-147d), with or without ketamine (3 mg/kg) administered intravenously to the fetus 10 min prior to hypoxia. Fetuses were euthanized 24 hours after the onset of hypoxia, and the kidney cortex were collected for RNA extraction and gene array studies.  Gene expression was analyzed using ovine Agilent 15.5 k array and validated with qPCR. Significant differences in gene expression between groups were determined with t-statistics using the limma package for R (P≤0.05).
+

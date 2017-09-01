@@ -1,0 +1,12 @@
+TITLE
+Identifying Glioblastoma Gene Networks Based on Hypergeometric Test Analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Patient specific therapy is emerging as an important possibility for many cancer patients.  However, to identify such therapies it is essential to determine the genomic and transcriptional alterations present in one tumor relative to control samples. This presents a challenge since use of a single sample precludes many standard statistical analysis techniques.  We reasoned that one means of addressing this issue is by comparing transcriptional changes in one tumor with those observed in a large cohort of patients analyzed by The Cancer Genome Atlas (TCGA).  To test this directly, we devised a bioinformatics pipeline to identify differentially expressed genes in tumors resected from patients suffering from the most common malignant adult brain tumor, glioblastoma (GBM).  We performed RNA sequencing on tumors from individual GBM patients and filtered the results through the TCGA database in order to identify possible gene networks that are overrepresented in GBM samples relative to controls.  Importantly, we demonstrate that hypergeometric-based analysis of gene pairs identifies gene networks that validate experimentally.  These studies identify a putative workflow for uncovering differentially expressed patient specific genes and gene networks for GBM and other cancers.
+
+DESIGN
+RNAseq on 2 gliosblastoma samples and 2 epileptic samples
+

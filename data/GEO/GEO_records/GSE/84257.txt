@@ -1,0 +1,12 @@
+TITLE
+Modulation of the inflammatory response by dematiaceous fungal morphotypes and its impact on inflammatory response chronicity
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: A common theme across multiple fungal pathogens is their ability to impair the establishment of a protective immune response. Although early inflammation is beneficial in containing the infection, an uncontrolled inflammatory response is detrimental and may eventually oppose disease eradication. Chromoblastomycosis (CBM), a cutaneous and subcutaneous mycosis, caused by dematiaceous fungi, is capable of inducing a chronic inflammatory response. This work was performed in order to understand how fungal cells were able to induce intense inflammatory response in the host. Methods:Peritoneal macrophages (PM) were infected for 6h with F. pedrosoi conidia or muriform cells and then lysed so that total RNA was extracted with the RNeasy kit (Qiagen). Paired-end cDNA reads (100bp) were generated using the HiSeq 2000 Sequencing system (Illumina) located at the Scripps DNA Sequencing Facility (California, USA). Quality check of the paired-end reads was performed using FASTQC, and clipping and trimming was done using CUTADAPT and PRINSEQ softwares, respectively. The filtered reads were aligned to the mouse genome downloaded from the Ensembl database using open source TopHat 2.0.9. The aligned files were ordered and indexed using Samtools followed by read count using HTSeq-count. Statistical analysis was done using the R environment for statistical computing. Gene model quantification were performed using the Bioconductor package EdgeR. Results: High throughput RNA sequencing analysis (RNA-Seq) showed a strong up-regulation of genes related to fungal recognition, cell migration, inflammation, apoptosis and phagocytosis in macrophages exposed in vitro to Fonsecaea pedrosoi muriform cells, but not F. pedrosoi conidia. This is the main fungal form responsible for the intense inflammatory pattern observed in CBM, clarifying the chronic inflammatory reaction observed in most patients. Conclusions: Our findings reveal two different fungal-host interaction strategies according to fungal form, highlighting fungal dimorphism as an important key in understanding the bipolar nature of inflammatory response in fungal infections
+
+DESIGN
+Comparison of differentially expressed genes in peritoneal macrophages infected with F. pedrosoi conidia or muriform cells.
+

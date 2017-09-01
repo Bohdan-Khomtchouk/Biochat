@@ -1,0 +1,12 @@
+TITLE
+Gene expression changes during overexpression of bacterial small RNA, DicF
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+Hundreds of small RNAs (sRNAs) have been identified in diverse bacterial species, and while the functions of most remain unknown, some regulate key processes, particularly stress responses. The sRNA DicF was identified over twenty-five years ago as an inhibitor of cell division, but since then has remained uncharacterized. DicF is 53 nucleotides and is encoded on a prophage (Qin) in the genomes of many Escherichia coli strains. Here, we performed RNA-Seq analyses of an E. coli strain with chromosomal deletion of dicF and overexpressing either empty plasmid or dicF from a plasmid.  Systems analysis using computational methods identified additional mRNA targets of DicF: xylR and pykA mRNAs, encoding the xylose uptake and catabolism regulator and pyruvate kinase, respectively. We have further validated these target genes experimentally.
+
+DESIGN
+RNA-Seq analyses was performed on E. coli strains overexpressing either the vector control or the small RNA DicF.
+

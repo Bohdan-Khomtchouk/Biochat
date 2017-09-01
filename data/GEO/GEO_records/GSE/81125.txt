@@ -1,0 +1,12 @@
+TITLE
+Whole transcriptome analysis of functionally distinct cell types of the jejunal intestinal epithelium of germfree and conventionalized mice [mRNA]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The highly characterized Sox9-EGFP transgenic mouse model, which permits the isolation and analysis of four distinct IEC populations using fluorescence-activated cell sorting (FACS) based on differing levels of cellular EGFP intensity. These are Sox9-EGFP Low (actively cycling IESCs), Sox9-EGFP Sublow (progenitor cells), Sox9-EGFP Neg (mostly differentiated enterocytes as well as goblet cells and Paneth cells), and Sox9-EGFP High (primarily EECs). We evaluated mRNA expression profiles by next-generation high-throughput RNA-sequencing in FACS purified Sox9-Low cells from germ-free (GF) and conventionalized (CV) mice.
+
+DESIGN
+To assess the effect of microbiota on the intestinal epithelial stem cells population, we used four pairs of female GF Sox9-EGFP littermates. One littermate from each pair was randomly selected at 8-10 weeks of age for conventionalization. Following a two-week conventionalization, the jejunal epithelial tissue from both the CV and GF littermates were harvested and IECs were sorted by FACS. RNA was isolated from the four sorted populations from each animal, as well as from non-sorted (NS) IECs, and subject to small RNA sequencing. Additionally, Sox9-Low samples were profiled for mRNAs using mRNA-seq. Reads were aligned to the mouse genome and quantified using Salmon followed by edgeR. To avoid noise introduced by lowly expressed transcripts, we analyzed only robustly expressed transcripts defined as those with an expression of at least 10 counts per million (CPM).
+

@@ -1,0 +1,9 @@
+TITLE
+Validation of a subset of copy number variants from GSE24424 by aCGH
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+This dataset was used to validate CNV predictions from GSE24424. We designed a custom CGH array to interrogate a total of 4,420 individual CNVs and their flanks predicted in 17 individuals. On the basis of a test that compares signals of probes located within to those mapping outside of CNVs (two-tailed P < 0.05, Mann-Whitney U test), we could confirm about 77% of the tested predictions and thus establish a set of 3,383 validated CNVs. The vast majority of confirmed CNVs (3,299 of 3,383 or 97.5%) show a consistent direction of change between the initial array (GSE24424) and the custom array, suggesting a false-confirmation rate of approximately 5%.
+

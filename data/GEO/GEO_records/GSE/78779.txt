@@ -1,0 +1,12 @@
+TITLE
+CEL-Seq2: sensitive highly-multiplexed single-cell RNA-Seq
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Single-cell transcriptomics requires a method that is sensitive, accurate, and reproducible. Here, we present CEL-Seq2, a modified version of our CEL-Seq method, with three-fold higher sensitivity, lower costs, and less hands-on time. We also implemented CEL-Seq2 on Fluidigm’s C1 system, thereby providing its first single-cell, on-chip barcoding method, and detected gene expression changes accompanying the progression through the cell cycle in mouse fibroblast cells. We also compare with Smart-Seq to demonstrate CEL-Seq2’s increased sensitivity relative to other available methods. Collectively, the improvements make CEL-Seq2 uniquely suited to single-cell RNA-Seq analysis in terms of economics, resolution, and ease of use
+
+DESIGN
+Single mouse dendritic and fibroblast cells were analysed for comaprison of CEL-Seq2 to CEL-Seq and Smart-Seq on C1. C. elegans totat RNA was used to calibrate and optimze the new CEL-Seq2 protocol.
+

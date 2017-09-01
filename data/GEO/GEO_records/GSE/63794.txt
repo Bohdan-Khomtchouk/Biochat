@@ -1,0 +1,12 @@
+TITLE
+Apoptotic caspases prevent the induction of type I interferons by mitochondrial DNA
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+RNA sequencing of wild-type or Interferon Alpha receptor 1 Knockout MEF cells treated with DMSO or the Caspase Inhibitor Q-VD-OPh. The mechanism by which cells undergo death determines whether dying cells trigger inflammatory responses or remain immunologically silent. Mitochondria play a central role in the induction of cell death, as well as in immune signaling pathways. Here, we identify of a mechanism by which mitochondria and downstream pro-apoptotic caspases regulate the activation of antiviral immunity. In the absence of active caspases, mitochondrial outer membrane permeabilization by Bax and Bak results in the expression of type I interferons (IFNs). This induction is mediated by mitochondrial DNA-dependent activation of the cGAS/STING pathway and results in the establishment of a potent state of viral resistance. Our results show that mitochondria have the capacity to simultaneously expose a cell-intrinsic inducer of the IFN response, and to inactivate this response in a caspase-dependent manner. This mechanism provides a dual control, which determines whether mitochondria initiate an immunologically silent or a pro-inflammatory type of cell death. In order to determine whether the pharmacological inhibition of caspases could activate the type I interferon response, we treated WT MEFs with the caspase inhibitor Q-VD-OPH. The inhibitor induced an increased expression of ISGs, which was dependent on type I IFN receptor (IFNAR1) signaling.
+
+DESIGN
+RNA was extracted from duplicate samples and libraries generated for sequencing using the directional RNA-Seq library prep at the Yale Center for Genome Analysis. Libraries were sequenced using a Hiseq2500 sequencer to generate 76bp single-end reads. Duplicate samples were analyzed for each condition.
+

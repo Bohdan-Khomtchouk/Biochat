@@ -1,0 +1,12 @@
+TITLE
+Chromatin localization of Gli1 in granule neuron precursor cells and medulloblastoma
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Sonic hedgehog (Shh) signals via Gli transcription factors to stimulate proliferation of granule neuron precursor cells (GNPs) in the cerebellum. Deregulation of Shh target genes often results in unrestrained GNP proliferation and eventually medulloblastoma, the most common pediatric brain malignancy. Transcription factor binding location analysis (chIP-chip) revealed 510 and 1,060 genomic loci bound by Gli1 with high confidence in murine GNP and medulloblastoma cells, respectively.  In primary tumors, Gli1 associated with only one-third of the Gli1-bound regions in GNPs. Gene expression profiling, coupled with our binding results, indicated that there were more than one hundred target genes in common between the two cell populations, and importantly, there was an equivalent number of tumor-specific targets.  These results indicate that the transformation of normal GNPs into deadly tumor cells is accompanied by some changes in the battery of genes regulated by Gli1.
+
+DESIGN
+Murine RosaGli1-FLAG GNPs and RosaGli1-FLAG;Ptc+/- medulloblastoma cells were isolated and chIPed with anti-FLAG antibody vs. total chromatin input. 3 replicates each. The supplementary fc.bar files contain log2(IP/Input) fold changes for each probe, the ma.bar files contain a moving average statistic (i.e., the MA statistic in TileMap) for each probe, and the .bed files contain the 510 and 1,060 high-quality Gli1-bound regions in GNPs and medulloblastoma (MB), respectively, reported in the paper.
+

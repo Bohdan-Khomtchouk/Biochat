@@ -1,0 +1,12 @@
+TITLE
+Variation in the expression of miRNAs and mRNAs in rice (Oryza sativa)
+
+ORGANISM
+Oryza sativa Indica Group
+
+SUMMARY
+Changes in patterns of gene expression are believed to be responsible for the phenotypic differences within and between species. Although the evolutionary significance of functional mutations has been emphasized in rice domestication, little is known about the differences in gene regulation underlying the phenotypic diversification among rice varieties. MicroRNAs (miRNAs) are small regulatory RNAs that play crucial roles in regulating post-transcriptional gene expression. Here, we studied the variation in the expression of both miRNAs and mRNA transcripts in three indica and three japonica rice varieties using RNA sequencing (RNA-seq) to examine the miRNA regulatory effect on target gene expression in rice. In total, 71.0%, 9.2%, and 1.5% of the expressed mature miRNAs showed tissue, subspecies, and tissue-subspecies interaction-biased expression. Most of these differentially expressed miRNAs are evolutionarily weakly conserved. To examine the miRNA regulatory effect on global gene expression under endogenous conditions, we performed pair-wise correlation coefficient analyses on the expression levels of 240 mature miRNAs and 1178 messenger RNAs (mRNAs) both globally and for each specific miRNA-mRNA pair. We found that the deeply conserved miRNAs can significantly decrease the target mRNA abundance. In addition, a total of 109 miRNA-mRNA pairs were identified as significantly correlated pairs (Adjusted p < 0.01). Of those, 41 pairs showed positive correlations, while 68 pairs showed negative correlations. Functional analysis elucidated that these mRNAs belonged to different biological pathways that could regulate the stress response, metabolic processes, and rice development. In conclusion, the joint interrogation of miRNA and mRNA expression profiles in this study proved useful for the study of the role of miRNA expression and regulation in the plant transcriptome.
+
+DESIGN
+12 small RNA samples from seeds and seedlings of O.sativa subspecies indica and japonica were analyzed. The small RNAs were sequenced by Illumina Genome Analyzer II. After triming the adapters, the 18-30 nt sequences were extracted for further study. 6 transcriptome samples of seedlings were also analyzed.
+

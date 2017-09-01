@@ -1,0 +1,12 @@
+TITLE
+Identification of extracellular miRNA in archived serum samples by next-generation sequencing from RNA extracted using multiple methods
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs (miRNA) are non-coding RNAs that negatively regulate gene expression by preventing the translation of specific mRNA transcripts. Since miRNAs are stably expressed in bodily fluids, there is growing interest in profiling these miRNAs, as it is minimally invasive and cost-effective as a diagnostic matrix. A technical hurdle in studying miRNA dynamics is the ability to reliably extract miRNA as small sample volumes and low RNA abundance create challenges for extraction and downstream applications. The purpose of this study was to develop a pipeline for the recovery of miRNA using small volumes of archived serum samples. The RNA was extracted employing several widely utilized RNA isolation kits with and without addition of a carrier. We were able to profile miRNA levels in serum samples using the small RNA sequencing method on the Illumina platform and observed that successful sequencing cannot be predicted by substrate RNA quality. Although the carrier RNA had a significant impact on miRNA measurement, it did not enhance the mapping of any miRBase annotated sequences. However, some of the extraction procedures offer certain advantages: RNA extracted by TRIzol seemed to align to the miRBase best; extractions using TRIzol with carrier yielded higher miRNA-to-small RNA ratios and higher numbers of processed reads, but the majority of the reads were not aligning to miRBase. Our findings illustrate that miRNA extraction and quantification is influenced by the choice of methodologies and by careful selection of an extraction method, permitting archived serum samples to become valuable resources for high-throughput applications.
+
+DESIGN
+Testing different RNA extraction procedures  for small RNA sequencing; The serum samples were obtained from the Department of Defense Serum Repository where they were stored at -30 C. These samples were used to conduct a pilot study with the purpose of determining suitable methods for these compromised samples before setting up a larger study. A subset of samples was pooled and divided into 350  L aliquots to be used in extractions. All procedures used 350  L of serum for miRNA extractions except the Qiagen miRNeasy Mini Kit, where 200  L of sample was used per extraction.
+

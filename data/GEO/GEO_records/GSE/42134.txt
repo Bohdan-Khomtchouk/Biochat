@@ -1,0 +1,12 @@
+TITLE
+Expression changes between  C. albicans white and opaque cell types and mutant strains
+
+ORGANISM
+Candida albicans
+
+SUMMARY
+The goal of this study is to characterize the transcriptional regulatory network that controls white-opaque cell-type switching in Candida albicans.  This dataset includes microarrays comparing expression levels in wild-type white and opaque cell types, as well as 6 different transcription factor deletion strains.  All samples were hybridized against a common mixed reference to allow for comparison between any two datasets within this study.
+
+DESIGN
+Gene expression arrays were performed on wild-type and transcription factor deletion white and opaque a/a cell types .  High and low intensity scans were performed.  Background and saturated spots were filtered out, as indicated by null.  Data from each scan was normalized by lowess normalization to enable transformation across any pair of datasets.  All data presented are log2 ratios of Cy5/Cy3 Each sample was hybridized against a mixed reference sample to allow for transformation between any of the individual samples (white vs. opaque, wild-type vs. mutant)
+

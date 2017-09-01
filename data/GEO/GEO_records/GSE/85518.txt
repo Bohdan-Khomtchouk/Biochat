@@ -1,0 +1,12 @@
+TITLE
+B2 SINE expression during MHV68 infecton
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Short interspersed nuclear elements (SINEs) are retrotransposons evolutionarily derived from endogenous RNA Polymerase III RNAs. Though SINE elements have undergone exaptation into gene regulatory elements, how transcribed SINE RNA impacts transcriptional and post-transcriptional regulation is largely unknown. This is partly due to a lack of information regarding which of the loci have transcriptional potential. Here, we present an approach (short interspersed nuclear element sequencing, SINE-seq), which selectively profiles RNA Polymerase III-derived SINE RNA, thereby identifying transcriptionally active SINE loci. Applying SINE-seq to monitor murine B2 SINE expression during a gammaherpesvirus infection revealed transcription from 28,270 SINE loci, with ~50% of active SINE elements residing within annotated RNA Polymerase II loci. Furthermore, B2 RNA can form intermolecular RNA-RNA interactions with complementary mRNAs, leading to nuclear retention of the targeted mRNA via a mechanism involving p54nrb. These findings illuminate a pathway for the selective regulation of mRNA export during stress via retrotransposon activation.
+
+DESIGN
+NIH 3T3 murine fibroblasts were infected with MHV68 for 24 hours. Total RNA from two biological replicates was primer extended for B2 SINE RNA. Primer extenstion products were converted in to sequencing libraries and ran on a MiSeq at the UC Berkeley QB3 Vncent J. Coates Genomics Sequencing Laboratory.  Reads were aligned to he mouse mm10 reference genome using bwa. Reads mapping to known B2 SINEs (present in the repeatmasker tract of UCSC) were counted and normalizied RPKM values were computed using the BamUtil tool.
+

@@ -1,0 +1,12 @@
+TITLE
+Exon-array profiling of squamous cell carcinoma and adenocarcinoma in human cervical FFPE samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Degradation and chemical modification of RNA in formalin-fixed paraffin-embedded (FFPE) samples hamper their use in expression profiling studies. In this study, we investigated the feasibility of gene expression signature generation from archival FFPE materials. Nineteen cervical squamous cell carcinoma (SCC) and nine adenocarcinoma (AC) 10~16-year-old FFPE samples were profiled using Affymetrix Exon 1.0 ST arrays. A comparison of the global gene expression changes between SCC and AC revealed 1217 differentially expressed genes. Of these, 1062 showed significantly higher expression levels in SCC relative to AC, and 155 genes were found to be specifically upregulated in AC.  When the 1217-gene signature was tested on a fresh-frozen human non-small cell lung cancer (NSCLC) series, it correctly separated the 58 NSCLC samples into SCC and AC. In conclusion, our results showed that clinically and biologically relevant gene expression profiles can be derived from FFPE samples with Exon array profiling.
+
+DESIGN
+The study population contains 28 FFPE human cervix samples (19 SCC and 9 AC). Histopathology assessment and p63 IHC were performed on all samples to confirm their histological subtypes. Total RNA was extracted and hybridised to Affymetrix Human Exon 1.0 ST arrays. Expression values were normalised using RMA. Only exonic probesets that were flagged as present (DABG < 0.01) in at least three samples were retained for further analysis. LIMMA was used to identify probesets that were differentially expressed between SCC and AC subtypes, using FDR ≤ 0.01 and absolute fold-change ≥ 2 as cutoff.
+

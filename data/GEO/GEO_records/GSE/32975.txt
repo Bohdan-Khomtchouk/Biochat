@@ -1,0 +1,12 @@
+TITLE
+Gene expression signatures modulated by epidermal growth factor receptor activation and their relationship to cetuximab resistance in head and neck squamous cell carcinoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Aberrant activation of signaling pathways controlled in normal epithelial cells by the epidermal growth factor receptor (EGFR) has been linked to cetuximab (a monoclonal antibody against EGFR) resistance in head and neck squamous cell carcinoma (HNSCC). To infer relevant and specific pathway activation downstream of EGFR from gene expression in HNSCC, we generated gene expression signatures using immortalized keratinocytes (HaCaT) subjected to either ligand stimulation or pharmacological inhibition of the signaling intermediaries PI-3-Kinase and MEK or transfected with EGFR, RELA/p65, or HRASVal12.   The gene expression patterns that distinguished the various HaCaT variants and conditions were inferred using the Markov chain Monte Carlo (MCMC) matrix factorization algorithm Coordinated Gene Activity in Pattern Sets (CoGAPS). This approach inferred gene expression signatures with greater relevance to cell signaling pathway activation than the expression signatures inferred with standard linear models.  Furthermore, the pathway signature generated using HaCaT-HRASVal12 further associated with the cetuximab treatment response in isogenic cetuximab-sensitive (UMSCC1) and -resistant (1CC8) cell lines. Our data suggest that the CoGAPS algorithm can generate gene expression signatures that are pertinent to downstream effects of receptor signaling pathway activation and potentially be useful in modeling resistance mechanisms to targeted therapies.
+
+DESIGN
+58 total RNA collected from HaCaT cell lines with combinations of the following experimental conditions: forced expression of EGFR, RELA/p65, and HRAS-VAL12D; grown in PBS, serum starve, and media stimulated with TNF or EGF; treated with gefitinib, LY294002, and U1026.
+

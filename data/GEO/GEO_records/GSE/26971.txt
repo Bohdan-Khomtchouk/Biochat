@@ -1,0 +1,12 @@
+TITLE
+Affymetrix data for training of Endopredict algorithm
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+These data, combined with other cohorts (GSE6532, GSE12093, and qRT-PCR based cohorts), was used to construct the EP algorithm, which predicts the likelihood of developing of a distant recurrence of early stage breast cancer under endocrine treatment. In addition, EPclin, a combination of the EP score, the nodal status and the tumor size, was constructed.
+
+DESIGN
+All samples used for the development of the EP algorithm were taken from patients who received adjuvant tamoxifen only. Fresh-frozen tumours obtained from three centers were profiled on HG-U133A arrays. In brief, starting from 5 µg total RNA, labeled cRNA was prepared using the Roche Microarray cDNA Synthesis, Microarray RNA Target Synthesis (T7) and Microarray Target Purification Kit (Roche Applied Science, Mannheim, Germany), according to the manufacturer’s instructions. Raw .cel file data were processed by MAS 5.0 software (AFFYMETRIX, Santa Clara, CA). In the analysis settings, the global scaling procedure was chosen which multiplied the output signal intensities of each array to a mean target intensity of 500. We selected those samples from the GSE6532 and GSE12093 cohorts that we considered appropriate for our analyses (n=130 and n=130) and calculated MAS5 expression values from the corresponding .CEL-Files. One of the selection criteria was the GPL96 platform we also used for our measurements. GSE26971_GSE12093_dataset.txt.gz and GSE26971_GSE6532_dataset.txt.gz files contain data for both cohorts including the GSM numbers in row A and MAS5 expression data in the remaining rows. Processing of .CEL-files of these samples was exactly the same as the processing of the .CEL-files of our own samples: GPL96, MAS5, TGT 500.
+

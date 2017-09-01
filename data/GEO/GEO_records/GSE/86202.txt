@@ -1,0 +1,12 @@
+TITLE
+Analyzing the interactions of mRNAs, miRNAs, lncRNAs and circRNAs to predict competing endogenous RNA networks in glioblastoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cross-talk between competitive endogenous RNAs (ceRNAs) may play a critical role in revealing potential mechanisms of tumor development and physiology. Glioblastoma is the most common type of malignant primary brain tumor, and the mechanisms of tumor genesis and development in glioblastoma are unclear. Here, to investigate the role of non-coding RNAs and the ceRNA network in glioblastoma, we performed paired-end RNA sequencing and microarray analyses to obtain the expression profiles of mRNAs, lncRNAs circRNAs and miRNAs. We identified that the expression of 501 lncRNAs, 1789 mRNAs, 2038 circRNAs and 143 miRNAs were often altered between glioblastoma and matched normal brain tissue. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analyses were performed on these differentially expressed mRNAs and miRNA-mediated target genes of lncRNAs and circRNAs. Furthermore, we used a multi-step computational framework and several bioinformatics methods to construct a ceRNA network combining mRNAs, miRNAs, lncRNAs and circRNA, based on co-expression analysis between the differentially expressed RNAs. We identified that plenty of lncRNAs, CircRNAs and their downstream target genes in the ceRNA network are related to glutamatergic synapse, suggesting that glutamate metabolism is involved in glioma biological functions. Our results will accelerate the understanding of tumorigenesis, cancer progression and even therapeutic targeting in glioblastoma. We hope to inspire researchers to study the role of non-coding RNAs in glioblastoma.
+
+DESIGN
+RNA sequcence for 3 glioma and paired normal brain tissue
+

@@ -1,0 +1,12 @@
+TITLE
+Expression analysis of C. elegans genes daf-9 and daf-12 mutant
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Investigation of whole genome gene expression level changes in C. elegans genes daf-9 and daf-12 mutant,compared to the wild-type strain NimbleScan software’s implementation of RMA offers quantile normalization and background correction. There are three steps of RMA: Firstly, background subtraction was performed using a local background estimator. Secondly, quantile normalization (Bioinformatics 2003; 19:185) at probe level was done to make the expression distributions the same for all arrays. Last, probe set summarization was performed using Robust Multichip Average (RMA) algorithm as described by Irizarry, et al. (Nucleic Acids Res. 2003; 31:e15 and Biostatistics 2003; 4:249).
+
+DESIGN
+A nine chip study using total RNA recovered from three separate wild-type cultures of C.elegans and three separate cultures of daf-9 mutant，three separate cultures of daf-12 mutant.The C. elegans 12 x 135K Gene Expression Array was manufactured by Roche NimbleGen. This array enables you to conveniently and simultaneously hybridize 12 samples on each slide. About 13,187 genes are collected from the authoritative data source including Wormbase.
+

@@ -1,0 +1,12 @@
+TITLE
+SBV - Gene Expression Profiles of Lung Cancer Tumors - Adenocarcinomas and Squamous Cell Carcinomas
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This dataset encompassing the profiles of 150 lung cancer tumors was developed to serve as test dataset in the SBV IMPROVER Diagnostic Signature Challenge (sbvimprover.com). The aim of this subchallenge was to verify that it is possible to extract a robust diagnostic signature from gene expression data that can identify stages of different types of lung cancer. Participants were asked to develop and submit a classifier that can stratify lung cancer patients in one of four groups – Stage 1 of Adenocarcinoma (AC Stage 1), Stage 2 of Adenocarcinoma (AC Stage 2), Stage 1 of Squamous cell carcinoma (SCC Stage 1) or Stage 2 of Squamous cell carcinoma (SCC Stage 2). The classifier could be built by using any publicly available gene expression data with related histopathological information and was tested on the independent dataset described here.
+
+DESIGN
+150 non-small cell lung cancer tumors (adenocarcinoma, AC and squamous cell carcinoma, SCC) of stages I and II were collected by surgical resection from patients who have provided consent. Adenosquamous and large cell tumor samples were excluded. The number of smokers and non-smokers was balanced: there were 41 AC1 (adenocarcinoma stage I), 36 AC2, 34 SCC1, and 39 SCC2 samples. Study pathologists at each of the seven sites (Lebanon, Republic of Moldova, Romania, Russian Federation, Ukraine, Vietnam and United States of America) reviewed both the tumor permanent sections and the frozen sections of the samples. Clinical information was also collected about tumor staging, history of prior cancers, lymph node involvement by lymph node sampling/dissection, smoking history, age, gender.
+

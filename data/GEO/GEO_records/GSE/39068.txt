@@ -1,0 +1,12 @@
+TITLE
+Comparative genome-wide DNA methylation analysis of colorectal tumor and matched normal tissues
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In our study we applied a genome-wide DNA methylation analysis approach, MethylCap-seq, to map the differentially methylated regions in 24 tumor and matched normal colon samples. In total, 2687 frequently hypermethylated and 468 frequently hypomethylated regions were identified, which include potential biomarkers for CRC diagnosis. Hypermethylation in the tumor samples was enriched at CpG islands and gene promoters, while hypomethylation was distributed throughout the genome. Using epigenetic data from human embryonic stem cells, we show that frequent differentially methylated regions (DMRs) coincide with bivalent loci in human embryonic stem cells. DNA methylation is commonly thought to lead to cancer gene related silencing, however integration of publically available expression analysis shows that 75% of the frequently hypermethylation genes were most likely already lowly or not expressed in normal tissue. Collectively, our study provides genome-wide DNA methylation maps of colon cancer, comprehensive lists of DMRs, and gives further clues on the role of aberrant DNA methylation in CRC formation.
+
+DESIGN
+To investigate DNA methylation in CRC in a genome-wide unbiased fashion, we applied MethylCap-seq. This method involves capture of methylated DNA using the MBD domain of MeCP2, and subsequent next-generation Illumina sequencing of eluted DNA. In addition, we compared MethylCap with RNA-seq and ChIP-seq profiles of H3K4me3 and H3K27me3 for the colon cancer tumor cell line HCT116 (HCT116 WT) and the cell line of HCT116 with DNMT1 and DNMT3b knockout (HCT116 DKO).
+

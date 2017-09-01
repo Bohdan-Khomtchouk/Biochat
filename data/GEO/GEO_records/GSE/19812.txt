@@ -1,0 +1,12 @@
+TITLE
+Analysis of microRNA transcriptome by deep sequencing of small RNA libraries of peripheral blood (seq data)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs are a class of small non-coding RNAs that regulate mRNA expression at the post-transcriptional level and thereby many fundamental biological processes. A number of methods, such as multiplex polymerase chain reaction, microarrays have been developed for profiling levels of known miRNAs. These methods lack ability to identify novel miRNAs and accurately determine expression at a range of concentration. Deep or massively parallel sequencing methods are providing suitable platforms for genome wide transcriptome analysis and have the ability to identify novel transcripts. The results of analysis of small RNA sequences obtained by Solexa technology of normal peripheral blood mononuclear cells, tumor cell lines K562 (chronic myelogenous leukemia) and HL60 (acute promyelogenous leukemia) are presented. Custom computation pipelines were used to generate expression profiles of known and for identification of novel miRNAs. Some of the highly expressed miRNAs in the leukocytes include several members of the let 7 family, mir-21, 103, 185, 191 and 320a. Comparison of the miRNA profiles of normal versus K562 cells or HL60 revealed a specific set of differentially expressed molecules. Correlation of the miRNA with that of mRNA expression profiles, obtained by microarray, revealed a set of target genes showing inverse correlation with miRNA levels. Our computational pipeline also predicted a number of novel miRNAs. Some of the predictions were validated by realtime RT-PCR and or RNAase protection assay.
+
+DESIGN
+The small RNA population from four samples - Two Normal Peripheral blood mononuclear cells (PBMC) samples, K562 cell line (This cell line is used as a model to study Chronic Myelogenous Leukemia), HL60 (This cell line is used to study acute promyelogenous leukemia) was sequenced using Solexa technology.
+

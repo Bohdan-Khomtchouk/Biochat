@@ -1,0 +1,12 @@
+TITLE
+Genome-wide identification of H2A.Z-interacting proteins by bPPI-seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Histone variant H2A.Z is a critical player in setting up the chromatin environment that mediates transcription and other activities on chromatin. However, how H2A.Z is incorporated to specific chromatin regions is not clear. To examine the potential role of sequence-specific transcription factors in targeting H2A.Z, we screened for genome-wide H2A.Z-interacting proteins in vivo using a novel technique called bait Protein-Protein Interaction-sequencing (bPPI-seq). Among the hundreds of H2A.Z-interacting proteins identified by bPPI-seq, we show that a zinc-finger transcription factor, Osr1 interacts with H2A.Z both in vitro and in vivo and co-localizes with H2A.Z on chromatin. Knockdown of Osr1 compromised H2A.Z deposition to hundreds of chromatin sites enriched with Osr1 binding motifs. Furthermore, Osr1 and H2A.Z co-regulate the expression of numerous target genes. These results indicate that Osr1 directly interacts with H2A.Z, mediates its incorporation to a large number of target sites and regulates gene expression. Our data indicate that bPPI-seq can be widely applied to identify unbiasedly interacting proteins under physiologic conditions.
+
+DESIGN
+Examination of the H2A.Z-interacting proteins by a novel bait Protein-Protein Interaction-sequencing method GSM2628249-GSM2628254: ReMTH-VNC 1,2 and 3 (3 different reading frames) and pEco were co-transfected into GP2 293 cells using Lipofectamine 2000 (Invitrogen). Supernatants containing packaged viral particles were collected 48h after transfection. 30 ml viral particles were used to infect 50 million 3T3 Tet-on 3G stable cell line expressing GFPN-H2A.Z, GFPN-H2A or GFPN alone  to avoid multiple integrations. After 48 hours of infection, the cells were selected in DMEM containing 2μg/ml puromycin (Sigma) for 2 days and maintained in 1μg/ml puromycin for 3 days. Then equal number of cells infected with viruses for the 3 reading frames were pooled and induced by  2μg/ml Doxycycline for 48 hrs before sorting for green cells. GFP-positive cells were sorted with FACSAria (BD Biosciences).
+

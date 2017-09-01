@@ -1,0 +1,12 @@
+TITLE
+Ectoderm and mesenchyme gene expression in the developing mouse face
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+This investigation provides a robust multi-dimensional compendium of gene expression data relevant to mouse facial development. It profiles the transcriptome ofectoderm and mesenchyme from the three facial prominences in a time series encompassing their growth and fusion. Analysis of the dataset identified more than 8000 differentially expressed genes comprising dramatically different ectoderm and mesenchyme programs. The mesenchyme programs included many genes identified in earlier analyses as well hundreds of genes not previously implicated in craniofacial development. The ectoderm programs included over a thousand genes that highlight epithelial structure, cell-cell interactions and signaling. The dataset includes 45 .cel files, DABG probability and RMA log2 expression values for each probeset, and statistics for 9457 probesets representing 8575 genes.
+
+DESIGN
+45 total samples, with 15 conditions sampling three ages (E10.5, E11.5, E12.5), three facial prominences (mandibular, maxillary and fronto-nasal) and two tissue layers (ectoderm or mesenchyme), with 3 biological replicates per condition. Differential expression was determined after median filter for variance with three-way ANOVA, Benjamini-Hochberg multiple testing correction
+

@@ -1,0 +1,12 @@
+TITLE
+HSF1 regulates transcription of sex-chromosomal multicopy genes during post-meiotic repression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mapping of in vivo targets for HSF1 by using mammalian tissue material in a global ChIP-chip promoter screen. Chromatin was isolated from three wild-type (WT) mouse testes, crosslinked and sonicated into fragments of 100-500 bp, and the quality of the DNA was controlled before the immunoprecipitation, showing no signs of degradation. The DNA amplified from the HSF1 immunoprecipitation samples was labeled and hybridized against the total input DNA samples, on a 1.5 kb promoter tiling array (NimbleGen Systems Inc.), covering ~26000 promoters of the mouse genome. After hybridization and scanning, HSF1 hybridization signals were Lowess normalized to produce log2 ratios  (HSF1 ChIP/Input DNA) for all  replicate arrays. The promoter values were calculated as average log2 ratios over all probes for each promoter. To identify the HSF1 target population, we used a non-arbitrary analysis method called RankProd described in Breitling et al. 2004. RankProd has been published as an R/Bioconductor package.
+
+DESIGN
+HSF1 ChIP sample vs. Input sample (reference),  biological replicates: 3, one replicate per array.
+

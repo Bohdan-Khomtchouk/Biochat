@@ -1,0 +1,12 @@
+TITLE
+Application of Microdroplet PCR for Large-Scale Targeted Bisulfite Sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cytosine methylation of DNA CpG dinucleotides in gene promoters is an epigenetic modification that regulates gene transcription.  While many methods exist to interrogate methylation states, no current methods offer large-scale, targeted, single CpG resolution.  We report an approach combining bisulfite treatment followed by RainDance microdroplet PCR with next-generation sequencing to assay the methylation state of 50 genes in the regions 1 kb upstream and downstream of their transcription start sites.
+
+DESIGN
+Wildtype and hypermethylated Jurkat DNA (New Englad Biolabs) was treated with bisulfite to convert all unmethylated cytosines to uracil.  Following bisulfite treatment, targeted amplification was carried out using a custom primer library and microdroplet PCR.  PCR product was sheared to 200 bp and ligated to sequencing adapters following standard protocols.  Sequencing was conducted with single-end 100 bp reads on an Illumina GAIIx for  wild type Jurkat DNA or Jurkat CpG DNA with a single sample per lane.
+

@@ -1,0 +1,12 @@
+TITLE
+Gene expression data of canine osteosarcoma primary tumors (Affymetrix Canine 2.0 array)
+
+ORGANISM
+Canis lupus familiaris
+
+SUMMARY
+The recently developed COXEN method (PMID: 17666531) has been used to successfully extrapolate gene signatures of drug sensitivity across different tumor histotypes.  We wanted to explore the utility of COXEN to predict chemosensitivity in canine cancer, specifically if we could extrapolate gene signatures identified in human datasets over to canine osteosarcoma tumors.  This dataset of canine osteosarcoma tumor samples has available clinical outcome data after patients had infected limbs amputated and were treated with doxorubicin and/or carboplatin.  We performed microarray analysis on this panel of tumor samples for validating our COXEN prediction models for doxorubicin or carboplatin sensitivity.
+
+DESIGN
+Chemotherapy naive primary tumors were collected at the time of amputation and archived at the Flint Animal Cancer Center.  RNA was extracted from 33 frozen archived tumor samples, followed by microarray analysis.  The gene expression data was RMA preprocessed, scaled and were used as a independent test set to evaluate developed prediction models of sensitivity to doxorubicin or carboplatin.  Drug predictions were than compared to clinical outcome in these patients that received doxorubicin and/or carboplatin.
+

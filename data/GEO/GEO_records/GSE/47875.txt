@@ -1,0 +1,12 @@
+TITLE
+SEQC Toxicogenomics Study: microarray data set
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+The comparative advantages of RNA-Seq and microarrays in transcriptome profiling were evaluated in the context of a comprehensive study design. Gene expression data from Illumina RNA-Seq and Affymetrix microarrays were obtained from livers of rats exposed to 27 agents that comprised of seven modes of action (MOAs); they were split into training and test sets and verified with real time PCR. contributor: DrugMatrix, National Toxicology program (NTP)
+
+DESIGN
+105 samples were selected from the DrugMatirx tissue/RNA bank that is now owned by the National Toxicology Program (NTP). The samples were split into 2 sets, training and test, to allow for the evaluation of classifiers derived from the data. There were 63 samples in the training set and 42 in the test set. Of the 63 samples in the training set 45 were derived from rats treated with test agent and 18 were control samples (3 sets of 6). 39 of the test set samples were derived from test agent treated animals and 6 were from vehicle and route matched controls.   Five MOAs were represented in the training set and 4 MOAs were in the test set.  Two of the MOAs were duplicated from the test set and two were without representation in the training set. For each test agent there were three rats treated, in accordance with the common practice in the field of toxicology. For each MOA there were three representative test agents to ensure adequate power for detecting the MOA signatures.
+

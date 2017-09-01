@@ -1,0 +1,12 @@
+TITLE
+Genome-wide mapping of autonomous promoter activity in human cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Previous methods to systematically characterize sequence-intrinsic activity of promoters have been limited by relatively low throughput and the length of sequences that could be tested.  Here we present Survey of Regulatory Elements (SuRE), a method to assay more than 10^8 DNA fragments, each 0.2-2kb in size, for their ability to drive transcription autonomously. In SuRE, a plasmid library is constructed of random genomic fragments upstream of a 20bp barcode and decoded by paired-end sequencing. This library is then transfected into cells and transcribed barcodes are quantified in the RNA by high throughput sequencing. When applied to the human genome, we achieved a 55-fold genome coverage, allowing us to map autonomous promoter activity genome-wide. By computational modeling we delineated subregions within promoters that are relevant for their activity. For instance, we show that antisense promoter transcription is generally dependent on the sense core promoter sequences, and that most enhancers and several families of repetitive elements act as autonomous transcription initiation sites.
+
+DESIGN
+SuRE-seq assays in K562 cell-line; 1 experiment using library SuRE23 covering the entire K562 genome, with 2 biological replicates (with 4 and 2 PCR replicates resp.); 1 experiment using a library derived from 9 BACs covering in total 1.3Mb of the genome (SuRE BAC library), including hemin treated and control samples, with 1 biological replicate (each with 2 PCR replicates).
+

@@ -1,0 +1,12 @@
+TITLE
+PfAP2-I-GFP-msp5MUT vs PfAP2-I-GFP 3D7 [timecourse 2]
+
+ORGANISM
+Plasmodium falciparum
+
+SUMMARY
+Obligate intracellular parasites must efficiently invade host cells in order to mature and be transmitted. For the malaria parasite Plasmodium falciparum, invasion of host red blood cells (RBCs) is essential. Here we describe a parasite-specific transcription factor belonging to the Apicomplexan Apetala 2 (ApiAP2) family that is responsible for regulating the expression of a subset of merozoite genes involved in RBC invasion (PfAP2-I). Our genome-wide analysis by ChIP-seq shows that PfAP2-I interacts with a specific DNA motif in the promoters of these genes. msp5 transcription levels decrease when the PfAP2-I DNA-binding motif is mutated in PfAP2-I-GFP parasites, showing that PfAP2-I must bind the DNA motif in order for msp5 to be transcribed.
+
+DESIGN
+Plasmodium falciparum strains AP2-I-GFP and AP2-I-GFP were highly synchronized and two parallel timecourses resulting in a total of 8 samples (4 wildtype PfAP2-I-GFP, 4 msp5 mutant) were hybridized against a Cy3-labeled reference pool of 3D7 mixed stage parasites on a two-color array. Starting at 18 hours post-invasion, samples were harvested in Trizol for total RNA extraction every 6 hours until 36h post-invasion and then every 3h until the end of the IDC (48h post-invasion).
+

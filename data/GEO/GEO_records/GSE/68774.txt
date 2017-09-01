@@ -1,0 +1,12 @@
+TITLE
+Integration of metabolic activation with a predictive toxicogenomics signature to classify genotoxic versus nongenotoxic chemicals in human TK6 cells [PB]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The use of integrated approaches in genetic toxicology, including the incorporation of gene expression data to determine the molecular pathways involved in the response, is becoming more common. In a companion paper, a genomic biomarker was developed in human TK6 cells to classify chemicals as genotoxic or non-genotoxic. Because TK6 cells are not metabolically competent, we set out to broaden the utility of the biomarker for use with chemicals requiring metabolic activation. Specifically, chemical exposures were conducted in the presence of rat liver S9. The ability of the biomarker to classify genotoxic (benzo[a]pyrene, BaP; aflatoxin B1, AFB1) and non-genotoxic (dexamethasone, DEX; phenobarbital, PB) agents correctly was evaluated. Cells were exposed to increasing chemical concentrations for 4h and collected 0h, 4h and 20h post-exposure. Relative survival, apoptosis, and micronucleus frequency were measured at 24h. Transcriptome profiles were measured with Agilent microarrays. Statistical modeling and bioinformatics tools were applied to classify each chemical using the genomic biomarker. BaP and AFB1 were correctly classified as genotoxic at the mid- and high concentrations at all three time points, whereas DEX was correctly classified as non-genotoxic at all concentrations and time points. The high concentration of PB was misclassified at 24h, suggesting that cytotoxicity at later time points may cause misclassification. The data suggest that the use of S9 does not impair the ability of the biomarker to classify genotoxicity in TK6 cells. Finally, we demonstrate that the classifier is also able to accurately classify genotoxicity using a publicly available dataset derived from human HepaRG cells.
+
+DESIGN
+This experiment examined the whole genome transcriptional response of TK6 cells exposed to phenobarbital for 4 hours followed by recovery times of 4h and 20h in fresh media (8h and 24h time points, respectively) at 3 different concentrations, including a low (1 mM), a medium (3.2 mM), and a high (10 mM) concentration, in addition to a vehicle control (+S9). Each concentration and time point had 3 biological replicates, which were pooled for gene expression analysis. There were a total of 6 samples (12 arrays) included in the final analysis using a two-colour dye swap design.
+

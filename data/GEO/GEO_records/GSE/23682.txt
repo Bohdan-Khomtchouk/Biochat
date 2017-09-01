@@ -1,0 +1,12 @@
+TITLE
+Removing System Noise from Comparative Genomic Hybridization Data by Self-Self Analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To minimize the distortion of genetic signal by system noise, we have explored the latter in an archive of hybridizations in which no genetic signal is expected. This archive is obtained by comparative genomic hybridization (CGH) of a reference sample in one channel to the same sample in the other channel, which we have termed ‘self-self’ data. We show that these self-self hybridizations trap a variety of system noise inherent in sample-reference (test) data. Through singular value decomposition (SVD) of self-self data, we are able to determine the principal components of system noise. Assuming simple linear models of noise generation, we present evidence that the linear correction of test data with self-self data—which we call system normalization—reduces local and long-range correlations as well as improves signal-to-noise metrics, yet does not introduce detectable spurious signal.
+
+DESIGN
+132 self-self hybridizations which should not have any genomic signal, and 3720 test hybridizations done against reference genome CSHL0001.
+

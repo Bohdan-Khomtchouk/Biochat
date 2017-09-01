@@ -1,0 +1,12 @@
+TITLE
+The non-coding variant rs1800734 enhances DCLK3 expression through long-range interaction and promotes colorectal cancer progression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association studies (GWAS) have identified a great number of non-coding risk variants for colorectal cancer (CRC). To date, the majority of these variants have not been functionally studied. Identification of allele-specific transcription factor (TF) binding is of great importance to understand regulatory consequences of such variants. A recently developed proteome-wide analysis of disease-associated SNPs (PWAS) enables identification of DNA-TF interactions in an unbiased fashion. Here, we performed a large-scale PWAS studies to comprehensively characterize TF binding related to CRC, which identified 731 allele-specific TF binding at 116 CRC risk loci. This screen identified rs1800734 within the promoter region of MLH1 as perturbing the binding of TFAP4 and consequently increaseing DCLK3 expression through a long-range interaction, which  promotes cancer progression through enhancing expression of the genes related to epithelial-to-mesenchymal transition (EMT).
+
+DESIGN
+Determine functional SNPs related to colorectal cancer risk, and investigate functional interaction between rs1800734 and DCLK3 in colorectal cancer progression as well as the molecular basis behind this interaction Histone ChIP-seq (HCT116 and LoVo) and DNase I-seq (CaCO2, COLO205, GP5d, HT-29, HUTU80, RKO, SK-CO-1, SW480, SW1116, T-84 and LoVo) were used to define regulatory SNPs. Transcription factor ChIP-seq (SNU175 and COLO320), targeted RNA-/DNA-seq (SNU175 and COLO320), and ATAC-seq (SNU175 and COLO320) were used to inspect allele-specific binding, expression and hypersensitivity of rs1800734. 4C-seq and ATAC-seq on isogenic COLO320 cells (G/G, G/A, and A/A genotypes at rs1800734) were used to study the molecular basis of rs1800734 in regulating DCLK3 expression. Sequencing were performed using HiSeq2000 and NextSeq 500. Targeted RNA-seq on DCLK3 mRNA confirmed the transcription of this gene in isogenic COLO320 cells.
+

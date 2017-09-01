@@ -1,0 +1,12 @@
+TITLE
+Saccharomyces cerevisiae promoter library
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Combinatorial promoter expression level estimation via cell sorting The purpose of this experiment was to determine the expression level of a library of synthetic promoters.  The promoters were cloned in front of a GFP reporter and the resulting library transformed into yeast, sorted by FACS into six fluorescence bins, and the contents of the bins sequenced to determine the distribution of each promoter among each fluorescence bin.  This was then used to calculate an expression level for each promoter with enough data.
+
+DESIGN
+The promoters were sorted into six bins and these, along with the unsorted library were barcoded and sequenced on a single lane of an Illumina HiSeq. The following Series supplementary files are provided: allPromoters.fsa.txt: the sequences of the promoters corresponding to the names in allPromoters.txt, not actually fasta format. Promoter sequence starts at pos 155 (0 indexed). allPromoters.txt: the names of all the promoters, corresponding to the sequences in allPromoters.fsa.txt barcodes.txt: the sequncing barcodes, corresponding to read2 from the sequencing files.
+

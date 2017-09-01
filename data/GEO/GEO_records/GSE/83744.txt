@@ -1,0 +1,12 @@
+TITLE
+High-throughput phenotyping of lung cancer somatic mutations [main experiment]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recent genome sequencing efforts have identified millions of somatic mutations in cancer. However, the functional impact of most variants is poorly understood. Here we characterize 194 somatic mutations identified in primary lung adenocarcinomas using L1000 high-throughput gene-expression assays followed by expression-based variant impact phenotyping (eVIP), a method that uses gene expression changes to distinguish impactful from netural somatic mutations. This series represents the main experiment of the study where 8 replicates of wild-type and mutant ORFs are introduced into A549 cell lines.
+
+DESIGN
+An ORF library containing wild-type and mutated versions of genes found to be mutated in lung cancer are introduced in A549 cell lines and measurements are made using the L1000 high-throughput gene-expression assay. These are done with 8 replicate experiemnts. The data are processed through a computational system, that converts raw fluorescence intensities into differential gene expression signatures. The data at each stage of the pre-processing are available: (LXB) - raw, unprocessed flow cytometry data from Luminex scanners. One LXB file is generated for each well of a 384-well plate, and each file contains a fluorescence intensity value for every observed analyte in the well. (Q2NORM) - gene expression profiles of directly measured landmark transcripts. Normalized using invariant set scaling followed by quantile normalization. (Z-SCORES) - signatures with differentially expressed genes computed by robust z-scores for each profile relative to control (relative to plate population as control)
+

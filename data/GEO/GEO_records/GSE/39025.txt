@@ -1,0 +1,12 @@
+TITLE
+Identification of a p-coumarate degradation regulon in Rhodopseudomonas palustris using Xpression, an integrated tool for prokaryotic RNA-seq data processing
+
+ORGANISM
+Rhodopseudomonas palustris CGA009
+
+SUMMARY
+High-throughput sequencing of cDNA prepared from RNA, an approach known as RNA-seq, is coming into increasing use as a method for transcriptome analysis. Despite its many advantages, widespread adoption of the technique has been hampered by a lack of easy-to-use, integrated, open source tools for analyzing the nucleotide sequence data that are generated. Here we describe Xpression, an integrated tool for processing prokaryotic RNA-seq data. The tool is easy to use and is fully automated. It performs all essential processing tasks including nucleotide sequence extraction, alignment, quantification, normalization and visualization. Importantly, Xpression supports multiplexed and strand-specific nucleotide sequence data. It extracts and trims specific sequences from files and separately quantifies sense and antisense reads in the final results. Outputs from the tool can also be conveniently used in downstream analysis. In this paper, we show the utility of Xpression to process strand-specific RNA-seq data to identify genes regulated by CouR, a transcription factor that controls p-coumarate degradation by the bacterium Rhodopseudomonas palustris.
+
+DESIGN
+Comparison of wild-type vs. couR mutant RNA-seq data to identify genes regulated by CouR. 2 wild-type replicates, 1 couR mutant replicate.
+

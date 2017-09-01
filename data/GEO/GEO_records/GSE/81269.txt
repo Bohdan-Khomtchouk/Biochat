@@ -1,0 +1,12 @@
+TITLE
+Ribosome profiling study of Dhh1p overexpression and the dhh1 knockout strain using monosome-protected footprints
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+A major determinant of mRNA half-life is the codon-dependent rate of translational elongation. How the processes of translational elongation and mRNA decay communicate is unclear. In this study we establish that the DEAD-box helicase Dhh1p is the sensor of codon optimality (i.e. translational elongation rate) that targets an mRNA for decay. First, we find that mRNAs whose translation elongation rate is slowed by inclusion of non-optimal codons are specifically degraded in a DHH1-dependent manner. Biochemical experiments show that Dhh1p is preferentially associated with mRNAs with suboptimal codon choice. We find that these effects on mRNA decay are sensitive to the number of slow moving ribosomes on an mRNA. Using a tethering system, we establish that non-optimal mRNAs become preferentially saturated with ribosomes when Dhh1p is bound. Moreover, over-expression of Dhh1p leads to the accumulation of ribosomes specifically on mRNAs with low codon optimality in ribosome profiling experiments. Lastly, Dhh1p physically interacts with ribosomes in vivo. Together, these data argue that Dhh1p is a sensor for ribosome speed, targeting an mRNA for repression and subsequent decay. 
+
+DESIGN
+18 biological samples are included in the study (9 ribosome footprinting samples and 9 mRNA-Seq samples). These include wild-type, Dhh1 knockout, and Dhh1 overexpression strains (with biological replicates), as well as catalytically inactive Dhh1 overexpression. Also included are ribosome footprint profiling and mRNA-Seq of overexpression mCherry reporter mRNA with catalytically active or inactive overexpressed Dhh1 tetherered.
+

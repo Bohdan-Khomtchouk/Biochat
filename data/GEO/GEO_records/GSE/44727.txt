@@ -1,0 +1,12 @@
+TITLE
+A Robust Method To Derive Functional Neural Crest Cells From Human Pluripotent Stem Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Neural crest (NC) cells contribute to the development of many complex tissues. The abnormal development of NC cells accounts for a number of congenital birth defects. Generating NC cells, and more specifically NC subpopulations such as cranial, cardiac, and trunk NC cells from human induced pluripotent stem (iPS) cells and human embryonic stem (ES) cells presents a valuable tool to model and study human NC development and disease. Here we provide a robust, efficient, and reproducible protocol for the differentiation of human iPS and ES cells into NC cells. The protocol has been validated in multiple human pluripotent stem cell lines and yields relatively pure NC cell populations in eight days. The resulting cells can be propagated and retain NC marker expression over multiple passages. The NC cells show proper cell specification and can develop into NC-derived cell lineages including smooth muscle cells, peripheral neurons, and Schwann cells. Additionally, the NC cells are functional and migrate to appropriate chemoattractants such as SDF-1, Fgf8b, BMP2, and Wnt3a. Importantly, this method generates all NC subpopulations (cranial, cardiac, and trunk) providing a great advantage to readily available NC differentiation methods.
+
+DESIGN
+Neural crest cells derived from human induced pluripotent stem cells were profiled using Affymetrix Gene 1.0 arrays to identify differential gene expression changes and alternative exons from the open-source software AltAnalyze. An FDR adjusted emperical Bayes moderated t-test p < 0.05 was used to identify differentially expressed Ensembl genes and GO-Elite used to identify biologically relevant, Ontology, pathway and gene-set categories. Alternative exons were obtained using the FIRMA analysis option and default thresholds. Other array neural crest array and RNA-Seq dataset were compared to this to identify common and distinct regulatory mechanisms.
+

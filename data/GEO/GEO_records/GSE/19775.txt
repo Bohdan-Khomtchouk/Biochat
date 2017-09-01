@@ -1,0 +1,12 @@
+TITLE
+Adrenocortical Carcinoma Gene Expression Profiling [Agilent]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Adrenocortical carcinoma (ACC) is an aggressive endocrine tumor with a poor 5 year survival rate of 10-20%.  We used expression profiling to assess the transcriptional changes associated with ACC as compared to normal adrenal glands with the goal of identifying new targets for treatment.  Fourteen ACC tumors were profiled on both Affymetrix U133 Plus 2 or Agilent 22K Human Genome arrays; an additional six tumors were profiled on one or the other array.  The data demonstrate a marked dysregulation of the cell cycle control, focused on sister chromatid adhesion and cytokinesis in the G2/M transistion.  Genes associated with this pattern, and identified because of coordinate expression with CDC2, were capable of clustering ACC into two clusters that almost completely recapitulated histological grade.  Exploration of the data sets by both Gene Set Enrichment Analysis and GeneGo Interactome analysis identified additional dysregulation of the IGF2-IGF1R axis, aside from IGF2 over-expression, as an early event present in low grade tumors.  Additionally, p53 and MDM2 were consistently identified as drivers in leading edge analyses of the tumors, implicating the p53 pathway in ACC pathogenesis.  Finally, over-expression of PTTG1, which encodes securin, and is involved in sister chromatid adhesion as well as negative regulation of p53, was associated with poor prognosis in our samples.  Taken together, these data point toward a tumor type driven in part by dysregulated IGF2 signaling in the context of a lack of a functional p53 response, with potential vulnerabilities in the G2/M transition that may make viable therapeutic targets.
+
+DESIGN
+RNA from fifteen adrenocortical carcinomas and a pool of  four normal adrenal glands was extracted, labeled, and hybridized to Agilent Human 1A Oligo Microarray (v2) chips.  The resulting data was first background subtracted.  Each array then had the median intenisty subtracted from each channel, and finally both M and A values were quantile normalized across arrays.  All calculations were done in R using the Bioconductor packages of marray and limma.
+

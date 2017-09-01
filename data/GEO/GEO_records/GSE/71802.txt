@@ -1,0 +1,12 @@
+TITLE
+RNA-Seq: assessment of transcript level analysis tools [seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+This study uses spiked-in transcript in order to compares various bioinformatics approaches and tools to assemble, quantify abundance and detect differentially expressed transcripts using RNA-Seq data. Mouse total RNA seq was extracted from embryonic stem cells (ES) before (designated as day 0) and four days after the addition of retinoic acid. 48 spikes were made in vitro from plasmid constructs and added to the total RNA in different concentrations (each mix has a set of different spike concentrations, see paper's method). We found that detection of differential expression at the gene level is acceptable, yet on the transcript-isofom level all tools tested were lacking accuracy and precision.
+
+DESIGN
+Mouse total RNA was extracted from embryonic stem cells (ES) before (designated as day 0) and four days after the addition of retinoic acid (RA) (designated as day 4). Mouse spike-ins consisting of 48 different mouse RNA transcripts were generated in vitro from plasmid constructs and added to the total RNA. 23 of the spike-ins originate from 10 different locus regions, so that each locus is represented by at least two different transcripts. The remaining 25 spike-ins represent different loci.
+

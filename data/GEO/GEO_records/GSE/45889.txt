@@ -1,0 +1,12 @@
+TITLE
+Specific mitotic chromatin association of the major notch effector RBPJ and its implication for transcriptional memory
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+From the cell-based investigation, RBPJ is one of the few proteins retained on chromatin during cell division. ChIP-seq experiments were performed to understand the binding pattern of RBPJ between interphase and mitosis and to identify the genes requiring RBPJ binding for the maintenance of transcriptional memory. Our results indicate that ~60% of RBPJ occupancy in interphase is retained on mitotic chromatin, and that accounts for 80% of RBPJ in mitosis. The gene ontology analysis reveals that the genes involved in stem cell maintenance, development and differentiation-related pathways correlated with sites of RBPJ occupancy. GO analysis also suggests that RBPJ plays a role in the metabolism and processing of non-coding RNAs. Motif analysis of RBPJ binding sites reveals that not only RBPJ motif but also CTCF motif are enriched around RBPJ binding sites. From these results, we propose that RBPJ can function as a mitotic bookmark, marking genes for efficient transcriptional activation or repression upon exit from mitosis, and may play a role in higher order chromatin structure by collaborating with CTCF.
+
+DESIGN
+To compare the genomic RBPJ localization in mitotic and interphase cells, mouse F9 cells were harvested and labeled as cycling cells (containing 95% interphase and 5% mitosis cells); nocodazole treated F9 cells were harvested and labeled as mitotic cells. Cell samples were proceeded to ChIP-seq experiments, and each of the experiment contains a set of ChIP DNA product: input as the background control and IP as the RBPJ binding product. Background noise was substracted and the obtained signal was used for the comparison of interphase and mitosis by statistical analysis. Please note that processed data (*bed) was generated from *rep1 sample (i.e. no processed-data for rep2 sample).
+

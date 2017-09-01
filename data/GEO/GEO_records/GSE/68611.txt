@@ -1,0 +1,12 @@
+TITLE
+RC3H1 posttranscriptionally regulates A20 mRNA and modulates the activity of the IKK/NF-kB pathway [RNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The RNA-binding protein RC3H1 (also known as ROQUIN) promotes TNFalpha mRNA decay via a 3'UTR constitutive decay element (CDE). Here, we applied PAR-CLIP to human RC3H1 to identify about 3800 mRNA targets with more than 16000 binding sites. A large number of sites are distinct from the consensus CDE and revealed a structure-sequence motif with U-rich sequences embedded in hairpins. RC3H1 binds preferentially short-lived and DNA damage induced mRNAs, indicating a role of this RNA-binding protein in the posttranscriptional regulation of the DNA damage response. Intriguingly, RC3H1 affects expression of NF-kB pathway regulators such as IkBalpha and A20. RC3H1 uses roquin and Zn-finger domains to contact a binding site in the A20 3'UTR, demonstrating a not yet recognized mode of RC3H1 binding. Knockdown of RC3H1 resulted in increased A20 protein expression, thereby interfering with IkB kinase and NF-kB activities, demonstrating that RC3H1 can modulate the activity of the IKK/NF-kB pathway.
+
+DESIGN
+We measured global mRNA decay rates in mock and RC3H1/RC3H2-depleted HEK293 cells. Transcription was blocked by Actinomycin D zero, one or two hours before harvesting. Total RNA was isolated in two biological replicates and subjected to polyA selection followed by high-throughput sequencing.
+

@@ -1,0 +1,12 @@
+TITLE
+Zic3 ChIP-on-chip in mouse ES cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The transcription factor Zic3 is required for maintenance of embryonic stem (ES) cell pluripotency (Lim LS et al, Mol Biol Cell. 2007;18:1348-1358). By genome-wide chromatin immunoprecipitation (ChIP-chip) in ES cells, we have identified 379 direct Zic3 targets, many of which are functionally associated with pluripotency, cell cycle, proliferation, oncogenesis and early embryogenesis.
+
+DESIGN
+E14 cells were cultured to a density of 1 x 108 cells for each IP. Two biological replicates were performed per experiment. Cells were cross-linked for 10 minutes at room temperature with 1% (w/v) formaldehyde and the reaction subsequently quenched with 125mM glycine. Nuclear fractions were isolated and the DNA sheared to average lengths of 200-500 bp. For analysis on mouse promoter arrays, purified ChIP material was processed according to the Agilent ChIP-on-chip protocol, and labeled DNA was hybridized to Agilent mouse promoter ChIP-on-chip arrays for 40 hours at 65oC (G4490A; Agilent Technologies, Santa Clara, CA). Chips were washed and scanned as per manufacturer’s protocol and the results were processed with Agilent's ChIP Analytics software v1.3. A p-value cutoff < 0.001 was specified in our analysis. To further minimize false positives, we applied a “neighborhood voting” algorithm [2] to filter for high confidence Zic3-enriched sites, wherein binding was considered genuine only in the presence of a second, significantly enriched, neighboring probe (p < 0.005).
+

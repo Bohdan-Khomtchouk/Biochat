@@ -1,0 +1,12 @@
+TITLE
+Differential Protein Occupancy Profiling of the mRNA Transcriptome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Protein-RNA interactions are fundamental to core biological processes, such as mRNA splicing, localization, degradation and translation. We have developed a photoreactive nucleotide-enhanced UV crosslinking and oligo(dT) purification approach to identify the mRNA-bound proteome using quantitative proteomics and to display the protein occupancy on mRNA transcripts by next-generation sequencing (Baltz and Munschauer et al. 2012). Our current work focuses on streamlining and extending protein occupancy profiling on poly(A)-RNA. Our objectives are to identify previously unknown protein-bound transcripts and, more importantly, to assess global and local differences in protein occupancy across different biological conditions. To this end, we have implemented poppi, the first pipeline for differential analysis of protein occupancy profiles. We have applied our analysis pipeline to pinpoint changes in occupancy profiles of MCF7 cells against already published HEK293 cells [GSE38157].
+
+DESIGN
+We generated protein occupancy cDNA libraries for two biological replicates. Briefly, we crosslinked 4SU-labeled MCF7 cells and purified protein-mRNA complexes using oligo(dT)-beads. The precipitate was treated with RNAse I to reduce the protein-crosslinked RNA fragments to a length of about 30-60 nt. To remove non-crosslinked RNA, protein-RNA complexes were precipitated with ammonium sulfate and blotted onto nitrocellulose. The RNA was recovered by Proteinase K treatment, ligated to cloning adapters, and reverse transcribed. The resulting cDNA libraries were PCR-amplified and next-generation sequenced.
+

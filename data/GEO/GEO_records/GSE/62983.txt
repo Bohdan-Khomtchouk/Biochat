@@ -1,0 +1,12 @@
+TITLE
+Interrogation of a Context-Specific Transcription Factor Network Identifies Novel Regulators of Pluripotency
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The predominant view of pluripotency regulation proposes a stable ground state with coordinated expression of key transcription factors (TFs) that prohibit differentiation. Another perspective suggests a more complexly regulated state involving competition between multiple lineage-specifying TFs that define pluripotency.  These contrasting views were developed from extensive analyses of TFs in pluripotent cells in vitro. An experimentally-validated, genome-wide repertoire of the regulatory interactions that control pluripotency within the in vivo cellular contexts is yet to be developed.  To address this limitation, we assembled a TF interactome of adult human male germ cell tumors (GCTs) using the Algorithm for the Accurate Reconstruction of Cellular Pathways (ARACNe) to analyze gene expression profiles of 141 tumors comprising pluripotent and differentiated subsets.  The network (GCTNet) comprised 1305 TFs, and its Ingenuity Pathway analysis identified pluripotency and embryonal development as the top functional pathways.  We experimentally validated GCTNet by functional (silencing) and biochemical (ChIP-seq) analysis of the core pluripotency regulatory TFs POU5F1, NANOG, and SOX2 in relation to their targets predicted by ARACNe.  To define the extent of the in vivo pluripotency network in this system, we ranked all TFs in the GCTNet according to sharing of ARACNe-predicted targets with those of POU5F1 and NANOG using an Odds-Ratio analysis method.  To validate this network, we silenced the top 10 TFs in the network in H9 ES cells. Silencing of each led to downregulation of pluripotency and induction of lineage; 7 of the 10 TFs were identified as pluripotency regulators for the first time.
+
+DESIGN
+ChIP for three TFs OCT4, SOX2 and NANOG in two pluripotent cell line
+

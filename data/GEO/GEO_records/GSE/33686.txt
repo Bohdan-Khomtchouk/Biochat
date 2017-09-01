@@ -1,0 +1,12 @@
+TITLE
+dNTP pools determine fork progression and origin usage under replication stress
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Intracellular levels of deoxyribonucleoside triphosphate (dNTP) must be tightly regulated to preserve genome integrity. Indeed, alterations in dNTP pools have recently been associated with increased mutagenesis, genomic instability and tumorigenesis. However, the mechanisms by which low or imbalanced dNTP pools affect DNA replication remain poorly understood. Here, we have modulated the activity of ribonucleotide reductase (RNR), a key enzyme catalyzing a rate-limiting step of dNTP production, to monitor the effect of altered dNTP levels on replication dynamics in budding yeast. We show that dNTP pools are limiting for normal DNA synthesis as upregulation of RNR activity increases replication fork speed. In contrast, inhibition of RNR activity with hydroxyurea (HU) induces a sharp transition from a regular- to a slow-replication mode within minutes after S-phase entry. Interestingly, we found that upregulation of RNR activity delays this transition and that dNTP levels modulate both fork speed and origin usage under replication stress. Moreover, we report that chromosomal instability (CIN) mutants show increased dNTP pools and enhanced DNA synthesis in the presence of HU. Since upregulation of RNR allows forks to progress faster in the presence of DNA lesions, we propose that CIN mutants adapt to chronic replication stress by upregulating dNTP pools.
+
+DESIGN
+BrdU-IP from wild-type cells (30°C) and 12 mutant yeast cells. See Series GSE21014 for wild-type at 25°C and mutants already published in Crabbé et al. NSMB 2010
+

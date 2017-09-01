@@ -1,0 +1,12 @@
+TITLE
+Multiple insert size paired-end sequencing for deconvolution of complex transcriptomes
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Deep sequencing of transcriptomes allows quantitative and qualitative analysis of many RNA species in a sample, with parallel comparison of expression levels, splicing variants, natural antisense transcripts, RNA editing and transcriptional start and stop sites the ideal goal. By computational modeling, we show how libraries of multiple insert sizes combined with strand-specific, paired-end (SS-PE) sequencing can increase the information gained on alternative splicing, especially in higher eukaryotes. Despite the benefits of gaining SS-PE data with paired ends of varying distance, the standard Illumina protocol allows only non-strand-specific, paired-end sequencing with a single insert size. Here, we modify the Illumina RNA ligation protocol to allow SS-PE sequencing by using a custom pre-adenylated 3’ adaptor. We generate parallel libraries with differing insert sizes to aid deconvolution of alternative splicing events and to characterize the extent and distribution of natural antisense transcription in C. elegans. Despite stringent requirements for detection of alternative splicing, our data increases the number of intron retention and exon skipping events annotated in the Wormbase genome annotations by 127 % and 121 %, respectively. We show that parallel libraries with a range of insert sizes increase transcriptomic information gained by sequencing and that by current established benchmarks our protocol gives competitive results with respect to library quality.
+
+DESIGN
+Sequencing of mRNA from C. elegans with libraries of four differing insert sizes
+

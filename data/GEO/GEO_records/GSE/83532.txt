@@ -1,0 +1,12 @@
+TITLE
+Epigenomics Studies in Acute Myeloid Leukemia disease progression [enhanced RRBS-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We report the DNA methylation and transcriptional molecular features of paired diagnosis and relapsed Acute Myeloid Leukemia  samples
+
+DESIGN
+To determine if epigenetic heterogeneity features are linked to clinical outcome and/or genetic features, change and/or affect gene transcription during disease progression in AML, we profiled 138 paired diagnosis and relapse patient samples using Enhanced Reduced Representation Bisulfite Sequening (PMC4354670) and 14 age-matched normal bone marrow controls. Analysis was performed to define genomic loci (epialleles) which undergo epigenetic shift (PMC4242486) and these were assessed for correlation with the parameters noted. Raw data has been deposited to  dbGaP (controlled access) due to patient privacy concerns: There are two categories processed data files: 1. tumor versus controls (AML*_epialleles.txt.tar.gz) coming from either a diagnosis (Dx) or Relapse (Rel) subject sample - each tumor sample is compared to 14 controls, hence the gzipped folders each contain 14 files, and linked to the corresponding sample (AML_*_Dx or AML_*_Rel sample); 2. relapse vs. diagnosis tumor (AML_*_Rel_AML_*_Dx_epiallele.txt.gz) for which there is only a single gzipped file, which is linked to the corresponding relapsed tumor sample record (i.e. AML_*_Rel). Please nothe that the AML_*_Rel_epialleles.txt.tar.gz (linked to each relapsed tumor sample) contains both AML_*_Rel_epialleles.txt.tar.gz and AML_*_Rel_AML_*_Dx_epiallele.txt.gz.
+

@@ -1,0 +1,9 @@
+TITLE
+Segmentation-based detection of allelic imbalance and LOH in cancer cells using whole genome SNP arrays
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+High-resolution microarray-based whole genome genotyping (WGG) techniques based on SNP analysis have successfully been applied in cancer genomics to study gene copy number alterations and allele-specific aberrations such as loss-of-heterozygosity (LOH). Problems in data interpretation arise when WGG is applied on tumor tissue specimens, in which normal cell components and tumor subpopulations frequently exist. Such heterogeneity may lead to reduced detection of cancer cell specific genomic alterations. To circumvent problems with sample heterogeneity, we propose using a segmentation strategy derived from DNA copy number analysis for detection of LOH and allelic imbalance. We generated an experimental dilution series of a tumor cell line mixed with its paired normal cell line and simulated data for such dilutions to test the strategy. We also used data sets generated on both Affymetrix and Illumina WGG platforms, including paired tumor-normal samples and tumors previously characterized by FISH. We tested the segmentation strategy against several reported algorithms. We demonstrate high sensitivity and specificity of the segmentation strategy for detecting both minute and gross allelic imbalances originating from DNA copy number gain, loss, and neutral events in tumor specimens. For example, hemizygous copy number loss can be detected in samples containing only 20-25% tumor cells. Furthermore, the strategy can identify cell subpopulation specific events and accurately estimate the fraction of cells affected by an allelic imbalance. Thus, the segmentation strategy extends the usefulness of WGG platforms for investigation of allelic imbalances in heterogeneous tumor genomes.
+

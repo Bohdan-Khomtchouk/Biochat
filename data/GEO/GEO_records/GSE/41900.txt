@@ -1,0 +1,12 @@
+TITLE
+Phosphate-independent small RNA sequencing of WT and mir-249 mutant C. elegans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+MicroRNAs (miRNA), discovered in C. elegans, are short non-coding RNAs that bind and regulate the expression of target mRNAs in animals and plants. C. elegans miRNAs bind to partially complementary sequences in the 3' UTR of the target mRNA, which results in translational repression through mRNA destabilization. The high-throughput sequencing of RNA cleavage fragments was performed to directly detect cleaved miRNA targets in C. elegans. Based on this analysis, miR-249 was identified as a potential miRNA that regulates a ZK637.6 pseudogene, paralogous to asna-1 (ZK637.5), by a cleavage mechanism with extensive, evolutionary conserved complementarity. Additionally, we validated miR-249-directed cleavage of the ZK637.6 by a gene-specific 5’ rapid amplification of cDNA ends and observed notable difference in expression of ZK637.6 in wild-type versus mir-249 mutant C. elegans. Furthermore, phosphate-independent small-RNA sequencing analysis revealed that miR-249 target genes, including ZK637.6 pseudogene, showed 22G-RNA productions dependent on miR-249 targeting. These findings may lead to a better understanding of the biological roles of miRNAs for pseudogenes in C. elegans.
+
+DESIGN
+Total small RNAs from wild-type and mir-249 mutant in adult stage worms were subjected to small RNA sequencing using an Illumina platform with Tobacco Acid Pyrophosphatase (TAP) treatment, allowing detection of secondary siRNAs carrying 5’-tri-phosphate.
+

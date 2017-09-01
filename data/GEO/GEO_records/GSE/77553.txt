@@ -1,0 +1,12 @@
+TITLE
+Capturing pairwise and multi-way chromosomal conformations using C-walks
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chromosomes are folded into highly compacted structures to accommodate physical constraints within nuclei and to regulate access to genomic information. Recently, global mapping of pairwise contacts showed that loops anchoring topological domains (TADs), are highly conserved between cell types and species. Whether pairwise loops synergize to form higher order structures is still unclear. Here we develop a conformation capture approach to study higher order organization using chromosomal walks (C-walks) that link multiple genomic loci together into proximity chains. The data captured a hierarchical chromosomal structure at varying scales. Inter-chromosomal contacts constitute only 7-10% of the pairs and are restricted by the TAD structure of the interfacing chromosomes. About half of the C-walks stay within one chromosome, and almost half of these are restricted to intra-TAD spaces. Analysis of nested topological motifs suggests hierarchical chromosomal structure is present also within TADs. Targeted analysis of thousands of 3-walks anchored at strongly expressed genes support nested, rather than hub-like, chromosomal topology at active loci. Polycomb-repressed HOX domains are shown by the same approach to form synergistic hubs. Together, the data suggest that chromosomal territories, TADs, and intra-TAD loops are primarily driven by nested, possibly dynamic, pairwise contacts.
+
+DESIGN
+Unbiased shotgun sequencing of 1pg samples of chromosome conformation campture (3C) template for the assembly of chromosome walks (c-walks) on K562 and mES in addition to 3-way 4C for the assesment of active chromatin hubs (human;K562) and polycomb domains on HOX gene clusters (mouseES). Hi-C (mouseES) : in-nucleus ligation 3C; biotin fill-in was omitted. Digested with 15 µl HC DpnII (NEB 50,000 U/ml).
+

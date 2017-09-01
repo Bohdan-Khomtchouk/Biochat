@@ -1,0 +1,12 @@
+TITLE
+ROR1 Is Expressed In Human Breast Cancer And Associated With Enhanced Tumor-cell Growth
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Receptor-tyrosine-kinase-like orphan receptor 1 (ROR1) is expressed during embryogenesis and by certain leukemias, but not by tissues of healthy adults.  Here we show that the neoplastic cells of many human breast cancers express the ROR1 protein and high-level expression of ROR1 in breast adenocarcinoma was associated with aggressive disease.
+
+DESIGN
+Total mRNA from Ct-shRNA MDA-MB-231 stable cell line and ROR1-shRNA MDA-MB-231 stable cell line were labeled with Cy5, hybridized to a human Oligo Microarray (Phalanx Human Whole Genome OneArrayTM, Phalanx Biotech) according to the manufacturer’s protocol.  Arrays in duplicates were then scanned using GenePix 4000B scanner (Molecular Devices) and the probe intensities were extracted and processed using the GenePix Pro 6.0 software (Molecular Devices).  After removing experimental control probes, the intensities of 30968 probes were quantile normalized to have similar distributions across all 4 arrays. The normalized intensity of probes derived from the same gene was collapsed into a single NCBI Entrez gene by the maximal value in each sample (mapping information is obtained from Phalanx’s probe annotation table). In total, 15598 genes were measured at transcription level.  Differential expression of genes was quantified using fold enrichment. Gene functional annotation regarding cell proliferation, cell apoptosis,  CREB signaling, breast cancer signature was downloaded from MSigDB database. Gene set enrichment analysis was described by Mootha.
+

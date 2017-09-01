@@ -1,0 +1,12 @@
+TITLE
+AR and ERG ChIP-seq in presence or absence of PRMT5
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Replicates of ChIP seq data using AR and ERG antibodies from VCaP cell lines harboring inducible shRNA constructs for PRMT5 (3 independent, sh1, sh2, sh3) and 1 non targeting control (NTC), all sample stimulated with ligand, either DHT or R1881
+
+DESIGN
+AR ChIPseq in VCaP cells, 3 replicates each of DHT stimulated cells with one of 4 inducible shRNA constructs, sh1, sh2, sh3 targeting PRMT5 or NTC non targeting controls. Furthermore 2 AR ChIPseq in the same system stimulated with R1881 for targeting constructs sh1, sh2 and NTC. ERG ChIPseq 2 replicates DHT stimulated, each of sh1, sh2, sh3 constructs. Cells where induced (doxycyclin) for shRNA expression on day0, hormone starved on day3 and harvested on day5.
+

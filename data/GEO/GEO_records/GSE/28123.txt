@@ -1,0 +1,12 @@
+TITLE
+Protocol Dependence of Sequencing-based Gene Expression Measurements
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA samples from human tissues (brain and liver) and cell lines (K562 and HL60) were used to assess RNA fragmentation, RNA fractionation, cDNA synthesis, and single versus multiple tag counting.  Technical replicates and different cDNA synthesis protocols were compared.  Though protocols employing polyA RNA selection generate the highest number of non-ribosomal reads and the most precise measurements for coding transcripts, such protocols were found to detect only a fraction of the non-ribosomal RNA in human cells.  PolyA RNA excludes thousands of annotated and even more unannotated transcripts, resulting in an incomplete view of the transcriptome.  Ribosomal-depleted RNA provides a more cost-effective method for generating complete transcriptome coverage.  Expression measurements using single tag counting provided advantages for assessing gene expression and for detecting short RNAs relative to multi-read protocols.  Detection of short RNAs was also hampered by RNA fragmentation.
+
+DESIGN
+69 different sequencing channels from a HeliScope Genetic Analysis System and 2 channels from an Illumina machine are included.  Some samples were sequenced on multiple channels and some samples include technical replicates.
+

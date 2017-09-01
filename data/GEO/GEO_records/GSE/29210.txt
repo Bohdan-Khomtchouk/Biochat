@@ -1,0 +1,12 @@
+TITLE
+Prediction of Breast Cancer Estrogen Receptor Status using Machine Learning
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression profiles were generated from 199 primary breast cancer patients. Samples 1-176 were used in another study, GEO Series GSE22820, and form the training data set in this study. Sample numbers 200-222 form a validation set. This data is used to model a machine learning classifier for Estrogen Receptor Status.
+
+DESIGN
+RNA was isolated from 199 primary breast cancer patients. A machine learning classifier was built to predict ER status using only three gene features.
+

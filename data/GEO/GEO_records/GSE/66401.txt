@@ -1,0 +1,12 @@
+TITLE
+Expression data for melanoma cell lines with different resistance to SBI-0640756
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The emergence of effective inhibitors for BRAF-mutant melanoma has had major impact on clinical management of melanoma 1,2. The initial success of such treatments, however, has been limited due to the propensity of melanomas to develop resistance 3-5. In most cases, mechanisms underlying BRAFi-resistance include activation of genetic or epigenetic pathways that circumvent targeted BRAF and restore MAPK and related signaling to levels sufficient to encourage tumorigenesis 3-7. This outcome has led to development of combination therapies targeting both BRAF and associated pathways, such as MEK and PI3K 8,9, albeit, with limited success. Furthermore, 50% of melanomas, such as those harboring NRAS and NF1 mutations, lack BRAF mutations and are thus not amenable to BRAFi therapy 10,11. Thus tumor chemoresistance and the lack of therapies for BRAF wild-type (WT) tumors remains a major clinical challenge. Disrupting the eukaryotic translation initiation factor 4F (eIF4F) complex has been an appealing strategy to potentiate effectiveness of existing cancer therapies. We identify that the small molecule SBI-0640756 (SBI-756) binds to eIF4G1 and dissociates it from eIF4E, leading to disruption of the eIF4F complex. SBI-756 treatment also inhibited AKT, NF-κB and mTOR signaling. We detected the melanoma cell lines have different response to SBI-756.  It important to invertigate genes and pathways in melanoma cells resistant to SBI-756.
+
+DESIGN
+Dose response analysis of SBI-756 in 21 melanoma lines identified two groups representing respective SBI-756-sensitive and -resistant lines ( > 2-fold expression difference in IC50 between groups (7 cell lines for each). Total RNA from 14 melanoma lines was profiled per manufacturer’s protocol on Human Genome U133plus2.0 GeneChips (Affytmetrix), containing ~47,000 probe sets for 38,000 characterized human genes. GeneChips were scanned using the Affymetrix GeneChip Operating Software (GCOS) and the .CEL files were generated for downstream data analysis.
+

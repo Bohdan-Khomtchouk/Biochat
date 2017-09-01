@@ -1,0 +1,12 @@
+TITLE
+Direct interrogation of the role of H3K9 in metazoan heterochromatin function
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+We replaced the endogenous histones of Drosophila melanogaster with histones containing an H3K9R mutation to interrogate the role of H3K9 in heterochromatin formation and function. We queried heterochromatin formation through Formaldhyde Assisted Isolation of Regulatory Elements coupled with sequencing to examine nucleosome occupancy and Heterochromatin Protein 1a ChIP sequencing to determine the localization of the major reader of H3K9me. We found that regions of pericentromeric heterochromatin exhibit decreased HP1a and nucleosome occupancy in H3K9R mutants. To examine potential consequences of these changes of chromatin architecture, we performed total RNA-seq. In H3K9R mutants we observed increased levels of transposon and pIRNA cluster transcripts; however, the protein-coding transcriptome was similar to controls.
+
+DESIGN
+FAIRE-seq and total RNA-seq were performed in imaginal wing discs from 3rd instar Drosophila larvae. gDNA-seq samples are input samples for FAIRE-seq. HP1a ChIP-seq was performed from whole 3rd instar larvae. All three experiments were performed on endogenous histone mutants rescued with either a wild-type (HWT) or H3K9R mutant transgenic histone array. Experiments were carried out in duplicate or triplicate.
+

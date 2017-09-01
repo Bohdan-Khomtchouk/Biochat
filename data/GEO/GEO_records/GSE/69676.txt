@@ -1,0 +1,12 @@
+TITLE
+RNA polymerase II is trapped in initiation states on non-coding RNA transcripts
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The interaction between RNA polymerase II (RNAPII) and RNA processing and packaging factors is strongly influenced by the C-terminal domain (CTD), which consists of multiple heptad repeats that can be differentially phosphorylated at five positions. Here we report strand-specific, high-resolution profiling of the five types of RNAPII CTD phosphorylation in yeast using crosslinking and analysis of modified polymerase (CLAMP). The 5’ regions of protein coding genes showed enrichment of Ser5P, and depletion of Tyr1P, Ser2P, Thr4P and Ser7P. CTD phosphorylation pattern boundaries were associated with known sites of RNAPII pausing, splicing, and nucleosome positioning. To integrate the distribution of the RNAPII modifications across all transcription units, we developed an eight-state, strand-specific Hidden Markov Model. This identified distinct modification states associated with initiating, early elongating and later elongating RNAPII. The initiation state was enriched near the Transcription Start Site (TSS) of mRNAs and ncRNAs, and persisted throughout the 1st exon of intron-containing genes. Notably, unstable ncRNAs failed to transition into the elongation states seen on protein coding genes, and their early termination and rapid degradation probably reflect this failure.
+
+DESIGN
+19 samples were analyzed in total: 12 samples (1 to 12) from a strain carrying HTP-tagged Rpb1. Duplicate experiments were carried out using antibodies against the different phosphorylation states of S. cerevisiae Rpb1 carboxy-terminal domain. Ser5-P, Ser7-P, Ser2-P, Tyr1-P, Thr4-P as well as a no antibody control. 7 samples (13 to 19) from strains carrying HTP-tagged protein of interest, either Air2, Trf4, Rrp44 or Rrp6 (no antibody were used for these 9 samples).
+

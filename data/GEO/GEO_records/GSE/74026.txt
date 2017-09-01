@@ -1,0 +1,12 @@
+TITLE
+Differential DNA Methylation Analysis without a Reference Genome
+
+ORGANISM
+Cyprinus carpio
+
+SUMMARY
+Genome-wide DNA methylation mapping uncovers epigenetic changes associated with animal development, environmental adaptation, and species evolution. To address the lack of high-throughput methods for studying DNA methylation in non-model organisms, we developed an integrated approach for studying DNA methylation differences without a reference genome. Experimentally, our method relies on an optimized 96-well protocol for reduced representation bisulfite sequencing (RRBS), which we have validated in nine species (human, mouse, rat, cow, dog, chicken, zebrafish, carp, and sea bass). Bioinformatically, we developed the RefFreeDMA software ( ) to deduce ad hoc genomes directly from RRBS reads and to pinpoint differentially methylated regions. These regions are interpreted using motif enrichment analysis and/or cross-mapping to annotated genomes. We validated our method by reference-free analysis of cell type-specific DNA methylation in the blood of human, cow, and carp. In summary, we present a cost-effective method for epigenome analysis in ecology and evolution, which enables epigenome-wide association studies in natural populations and species without a reference genome.
+
+DESIGN
+FACS (FSC/SSC)-sorted blood cell types (granulocytes, lymphocytes, monocyes, granMonocyte , erythrocytes) isolated from peripheral blood of 4 individuals (2M, 2F biological replicates) of 3 different species (human, cow and carp). Submitter states that human raw sequence data are being deposited at EBI-EGA.
+

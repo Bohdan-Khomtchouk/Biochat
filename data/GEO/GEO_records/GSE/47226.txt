@@ -1,0 +1,12 @@
+TITLE
+Functional signature for the recognition of specific target mRNAs by human staufen1 protein
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cellular mRNAs are permanently associated to proteins in the form of ribonucleoprotein particles. In addition to the hnRNP and SR protein families, the double-stranded RNA-binding (DRB) proteins play important roles in mRNA synthesis, modification, activity and decay (Dreyfuss et al, 2002; Stutz & Izaurralde, 2003). Staufen is a DRB protein first described as a maternal factor involved in the localised translation of specific mRNAs during early development in the fly (Riechmann & Ephrussi, 2001). One of the human homologues, human Staufen1 (hStau1) forms ribonucleoprotein complexes known as RNA granules that contain proteins involved in translation regulation as well as cytoskeleton and motor proteins to allow the movement of the granule on the microtubules. Although many cellular mRNAs have been found associated to these RNA granules, the specificity of such binding and the mechanims of hStau1-RNA interaction are still unclear. Here we identified a protected sequence signature with high homology to human Alu family of short interspersed elements at the 3’-untranslated region of mRNAs specifically associated to hStau1 protein. Using a combination of affinity chromatography, RNAse-protection, deep-sequencing and bioinformatic analyses to compare the mRNAs differentially associated to hStau1 or a mutant protein unable to bind RNA we defined a collection of mRNAs specifically associated to wt hStau1. A common sequence signature consisting of two opposite-polarity Alu motifs was present in the hStau1-associated mRNAs and was shown to be sufficient for binding to hStau1 and hStau1-dependent stimulation of protein expression. Our results unravel how hStau1 identifies a wide spectrum of cellular target mRNAs to control their localisation, expression and fate. We suggest that mammalian Staufen1 protein has adapted to use the evolutionary recent Alu elements as recognition signals thereby increasing its possibilities for rapid identification to new mRNA targets.
+
+DESIGN
+Staufen (wild type or mutant) associated RNAs were extracted from HEK293T cells and sequenced according the illumina mRNA-seq potocol (HiSeq2000 sequencer). A third sample, of RNA, associated to a wild type Staufen, was treated with RNase T1 so only RNA fragments directly attached to Staufen were purified and sequenced.
+

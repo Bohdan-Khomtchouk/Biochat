@@ -1,0 +1,12 @@
+TITLE
+The DAXX/ATRX Complex Protects Tandem Repetitive Elements in the Absence of DNA Methylation by Promoting H3K9 Trimethylation [RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In mammals, DNA methylation is essential for protecting repetitive sequences from aberrant transcription, translocation, and homologous recombination. However, DNA hypomethylation occurs during specific developmental stages (e.g. preimplantation embryos) and in certain cell types (e.g., primordial germ cells).  The absence of dysregulated repetitive elements in these cells suggests the existence of alternative mechanisms that prevent genome instability triggered by DNA hypomethylation. In this report, we seek to elucidate the factors that play a critical role in ensuring genome stability by focusing on DAXX and ATRX, two proteins that have been linked to transcriptional control and epigenetic regulation.  We carried out ChIP-seq and RNA-seq analyses to compare the genome-wide binding and transcriptome profiles of DAXX and ATRX in mouse ES (mES) cells triple knocked out for the three mammalian DNA methyltransferases (DNMTs) (TKO cells) to those in wildtype mES cells.  Our data indicate that DAXX and ATRX are distinct in their chromatin-binding profiles and highly co-enriched at tandem repetitive elements.  Global DNA hypomethylation, as was the case in TKO cells, further promoted the recruitment of the DAXX/ATRX complex to tandem repeat sequences including IAP (intracisternal A‐particle) retrotransposons and telomeres. Inhibition of DAXX or ATRX in cells with hypomethylated genomes (e.g., TKO cells, mES cells cultured in ground-state conditions, and preimplantation embryos) increased aberrant transcriptional de-repression of repeat elements and dysfunction at telomeres. Furthermore, we provide evidence that DAXX/ATRX-dependent silencing may occur through DAXX’s interaction with SUV39H1 and increased H3K9me3 on repetitive sequences. Our study suggests that DAXX and ATRX are important for safeguarding the genome, particularly in silencing repetitive elements in the absence of DNA methylation.
+
+DESIGN
+We performed RNA-Seq experiments in four cell lines (J1, J1_DAXX_KO, TKO, and TKO_DAXX_KO) grown with or without media for ground state (vitamin C plus 2i). We then performed RNA-seq analyses for all these cell lines to compare the expression of DAXX/ATRX target genes.
+

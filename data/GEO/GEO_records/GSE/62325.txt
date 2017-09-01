@@ -1,0 +1,12 @@
+TITLE
+A Myc-dependent role for cohesin in the heterokaryon-mediated reprogramming of somatic nuclei
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Analysis of gene expression changes in mESCs where the cohesin subunit Scc1 has been depleted. There are 6 samples. 3 Scc1 wt/wt ERT2-Cre biological replicas and 3 Scc1 lox/lox ERT2-Cre biological replicas, all treated with 4'-OHT 80nM final concentration for 24h.
+
+DESIGN
+Scc1 wt/wt and Scc1 lox/lox ERT2-Cre mES cells where grown in N2B27 +2i+LIF medium (Ying et al. 2008) for 24h in the presence of 80mM 4-OHT to induce cohesin depletion. Three biological replicates were collected and RNA was extracted. Microarray samples were prepared following the manufacturers instructions (Affymetrix) using 200ng of total RNA. Microarry samples were hybridized to Affymetrix GeneChip Mouse Gene 1.0 ST Arrays and the analysis was performed using the Bioconductor Package for R.
+

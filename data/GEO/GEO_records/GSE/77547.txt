@@ -1,0 +1,12 @@
+TITLE
+Complex Interdependence Regulates Heterotypic Transcription Factor Distribution and Coordinates Cardiogenesis [RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Analysis of the changes in gene expression during in vitro cardiomyocyte differentiation due to the lack of Tbx5, Nkx2-5 or both.
+
+DESIGN
+We performed RNA-seq in WT, Tbx5KO (TKO), Nkx2-5KO (NKO) and Tbx5KO;Nkx2-5KO (DKO) cells at the cardiac precursor (CP) and cardiomyocyte (CM) differentiation stages. Total RNA was isolated from 3 mill cells using TRizol Reagent. RNA-seq libraries were prepared according to NuGEN Ultralow V2 kit and paired-end 100bp sequenced on an Illumina HiSeq 2500 instrument. Reads were trimmed using the fastq-mcf program (Aronesty, 2011), and then aligned to the mm9 mouse genome assembly using tophat2 (RNA-seq) (Kim et al., 2013). For each gene, reads were counted, and counts-per-million (CPM) calculated using featureCounts (Liao et al., 2014). Finally, edgeR was used to perform differential expression analyses (Robinson et al., 2010).
+

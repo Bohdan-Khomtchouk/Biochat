@@ -1,0 +1,12 @@
+TITLE
+Microarray expression data for tumor and adjacent non-tumor tissues from hepatocellular carcinoma patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Here we aimed to develop a new molecular prognostic stratification system for hepatocellular carcinoma (HCC) patients after liver resection based on common prognostic factors for primary tumors (PTs) and adjacent non-tumor tissues (ANTTs). We studied global mRNA expression profiles from 115 PT tissue samples and 52 ANTT samples derived from 115 HCC patients. Methods for the study included gene expression analysis, Functional Annotation/Gene Ontology analysis and unsupervised survival prognosis approach based on Cox hazards prognosis model. This study provides a practical prognostic system for reliable identification of the high-risk HCC patients subgroup with clearly described deregulated molecular machinery in both PTs and ANTTs.
+
+DESIGN
+One hundred sixty-seven total RNA samples from hepatocellular carcinoma tumors and adjacent non-tumor liver tissue samples have been obtained with informed consent from patients who underwent radical resection between the years 2000 and 2013 in Singapore General Hospital and collected at the National Cancer Centre of Singapore (NCCS)/SingHealth Tissue Repository. Linked clinical and histo-pathologic data were collected from medical records for all the patients who contributed tumor specimens and were rendered anonymous to protect patient confidentiality. Percentage of HCC patients with HBV infection and cirrhosis were 46% and 54%, respectively. Gene expression data for all the samples were quantified by using whole-genome Illumina HumanHT-12 v4 Expression BeadChip arrays. Raw data for the entire 115 Singapore HCC cohort was obtained via the GenomeStudio; data have been normalized using the RSN method from R-package lumi. Microarray quality control was performed using the arrayQualityMetrics software.
+

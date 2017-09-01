@@ -1,0 +1,12 @@
+TITLE
+Genome-wide identification of N6-methyladenosine by microarray
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Although internal PolyA RNA modification N6-methyladenosine (m6A) plays essential roles in diverse biological processes, technology to detect precise m6A sites at transcriptome-wide scale is lacking. Here, we discovered that m6A interferes A (Adenine) – U (Uracil) or A-T (Thymidine) pairing. Based on differential hybridization between methylated vs. unmethylated RNAs to a DNA probe, we developed tiling microarray to pinpoint m6A sites in mouse transcriptome. We validated some of the identified sites and provided evidence to suggest that one functional mechanism of m6A is to block small RNA targeting to methylated mRNA.
+
+DESIGN
+We designed a custom tiling array with  to examine the precise location of m6A within meRIP-seq peaks from mouse embryonic stem cells determined in our previous publication (Wang et al., 2014). Each custom two-channel Agilent tiling array harbors 947,952 probes. Each probe is 25 nucleotides (nt), and any two adjacent probes in the genomic coordinate overlap each other by 19 nt. The Cy5 or red channel corresponds to Mettl14 knockout (M14) or DZA mutant mESC cell line, and Cy3 or green channel is associated with wild type cell line treated with scramble hairpin (SCR). Thus, in principle a higher Cy5/Cy3 signal for each probe reflects an increased hybridization to the oligonucleotide due to de-methylation of a particular RNA molecule in M14 or DZA condition relative to the SCR control. Moreover, we employed additional arrays with both channels dedicated for M14 as an external control for technical difference between the Cy5 and Cy3 dye (details below). For each comparison, we have three biological replicates, and therefore there are 9 tiling arrays in total (i.e., 3 arrays for M14 vs SCR, 3 arrays for DZA vs SCR, and 3 arrays for M14 vs M14).
+

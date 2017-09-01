@@ -1,0 +1,12 @@
+TITLE
+Nuclear Surveillance of long intervening noncoding RNA
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Numerous long intervening non-coding RNA (lincRNA) are generated from the mammalian genome by RNA polymerase II (Pol II) transcription.  Although multiple functions have been ascribed to lincRNA, their synthesis and turnover remain poorly characterised. Here we define systematic differences in transcription and RNA processing between protein-coding and lincRNA genes in human HeLa cells. This is based on a range of nascent transcriptomic approaches applied to different nuclear fractions, including mammalian native elongating transcript sequencing (mNET-seq). Notably mNET-seq patterns specific for different Pol II CTD phosphorylation states reveal weak co-transcriptional splicing and poly(A) signal independent Pol II termination on lincRNA as compared to pre-mRNA. In addition, lincRNA are mostly restricted to chromatin where they are co-transcriptionally degraded by the RNA exosome. We also show that a lincRNA specific co-transcriptional RNA cleavage mechanism acts to induce premature termination. In effect functional lincRNA must escape from this targeted nuclear surveillance process.
+
+DESIGN
+We employed CTD phospho specific mNET-Seq with pla-B splicing inhibitor and RNA processing factors knockdown (DGCR8, Dicer1, EXOSC3 and CPSF73 proteins). mNET-seq experiments with 1% Empigen detergent treatment were performed to separate Pol II-associated complex from Pol II. We also analyzed subcellur RNA and  pA+ and pA- nucleoplasm RNA libraries for RNA processing efficiency and the turnover. There are 4  raw files come from an illumina experiment (per sample), produced in 2 lanes. They were all mapped together.
+

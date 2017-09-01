@@ -1,0 +1,12 @@
+TITLE
+Expression data from control and Smith-Lemli-Opitz syndrome patient-derived iPS cells - comparison of cholesterol deficient and cholesterol rich culture
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+7-dehydrocholesterol reductase catalyzes the reduction of 7-dehydrocholesterol to cholesterol.  In Smith-Lemli-Opitz syndrome, mutations in DHCR7 prevents this conversion.  We have found iPS cells derived from SLOS patients exhibit accelerated differentiation under cholesterol poor conditions. In this dataset, we include expression data obtained from comparision of a control iPS cell line (BJ) and a SLOS iPS cell line (A2). Cell line gene expression was compared in cholesterol rich conditions where the SLOS phenotype is suppressed. Cholesterol deficient culture of control and SLOS iPS cells demonstrated enhanced differentiation of SLOS cells over 7 days. These data are used to obtain 308 genes that are differentially expressed upon cholesterol deficient culture. time-course expression data obtained from control and SLOS patient iPS cells after transfer from cholesterol rich to cholesterol deficient culture.
+
+DESIGN
+48 total RNA samples were isolated and hybridized on Affymetrix arrays. We generated the following pairwise comparisons using Partek: BJ 0hr vs A2 0hr; BJ 2Day vs A2 2Day; BJ 3Day vs A2 3Day; BJ 4Day vs A2 4Day; BJ 5Day vs A2 5Day; BJ 7Day vs A2 7Day. Genes with an FDR≤10% and a fold-change ≥3 were identified as significantly different. We also performed pairwise comparison of BJ and A2 samples within each cell line between subsequent isolations (i.e. BJ 0hr vs BJ 2Day; A2 3Day vs A2 4Day; etc.)
+

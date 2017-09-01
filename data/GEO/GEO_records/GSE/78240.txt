@@ -1,0 +1,12 @@
+TITLE
+Late pre-B cell transcriptomes from Zfp36l1 Zfp36l2 double knockout mice [RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Conditional knockout of Zfp36l1 Zfp36l2 in pro-B cells perturbs B cell development leading to reduced V(D)J recombination and diminished numbers of cells in successive stages of development.  This RNA seq experiment aimed to determine the molecular pathways affected by loss of Zfp36l1 and Zfp36l2, and to deduce direct targets of these RNA binding proteins. Methods: RNAseq libraries were prepared from 0.1 µg of RNA from sorted control and DCKO late pre-B cells using TruSeq RNA sample preparation kit v2 modified to be strand specific using the dUTP method.  Libraries were sequenced by an Illumina genome analyzer II measuring 54bp single-end reads.  Over 30 million reads were measured from each sample.  The reads were trimmed to remove adapter sequences using Trim Galore then mapped using Tophat (version 1.1.4) to the NCBIm37 mouse assembly (April 2007, strain C57BL/6J); reads with an identical sequence to more than one genomic locus were not mapped.  Quality control analysis was carried out with FastQC. Results: Read counts for each gene were generated in SeqMonk: transcripts from the same gene were collapsed into a single transcript containing all exons, so total reads were counted without considering alternative splice forms.  Since the libraries were strand-specific only reads on the opposing strand were counted.  Differences in the abundance of transcripts between DCKO and control late pre-B cells were calculated in the R/Bioconductor program DESeq (version 1.12.1).  Adjusted P values for differential expression were calculated in DESeq using a Benjamini-Hochberg correction: genes with an adjusted p-value of less than 5% were considered significant. Differentially expressed mouse transcripts identified using DESeq were analyzed for gene set enrichment using Toppfun. Conclusions: We identified an enrichment of mRNAs involved in cell cycle progression within Zfp36l1 Zfp36l2 double conditional knockouts.
+
+DESIGN
+RNAseq of late pre-B cells from control and Zfp36l1, Zfp36l2 double conditional knockout mice.
+

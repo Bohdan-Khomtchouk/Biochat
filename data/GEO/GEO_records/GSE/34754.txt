@@ -1,0 +1,12 @@
+TITLE
+Affymetrix SNP array data of mixtures of tumor and normal DNA
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Single nucleotide polymorphism (SNP) microarrays are commonly applied to tumors to identify genomic regions with copy number alterations (CNA) or loss of heterozygosity (LOH). However, in typical tumor specimens collected in clinical studies, up to 60% of the DNA derives from stromal cells with a normal genome, resulting in attenuated sensitivity to true somatic aberrations in the tumor. Here we describe SNPfilter, a model-based method to decompose SNP array data from heterogeneous tumor specimens into their corresponding normal and tumor profiles. Unlike existing methods, SNPfilter does not require paired normal control data. We assessed the performance of this method using SNP array data representing cancer cell lines with aberrant genomes, B-cell lymphoblastoid cell lines with normal genomes, and defined mixtures of the two. In the pure tumor samples, SNPfilter identified CNA and LOH regions with accuracy similar to existing methods. In the mixture samples containing 40–80% tumor genomic DNA, SNPfilter yielded prediction sensitivity superior to existing methods. Thus, SNPfilter provides a powerful tool for discovery of clinically relevant somatic aberrations in tumor genomes.
+
+DESIGN
+Breast cancer cell lines HCC38 and HCC1143 and paired B lymphoblastoid cell lines HCC38-BL and HCC1143-BL were purchased from ATCC. Genomic DNA was isolated from cell lines using Qiagen DNA miniprep kit. To mimic tumor containing normal cells, DNA from HCC38 and HCC1143 cells was mixed with DNA from autologous B lymphoblastoid cells HCC38-BL and HCC1143-BL, respectively, in ratios (w/w) 100:0, 80:20, 60:40, 40:60, and 20:80.  Genomic DNA digested with NspI was amplified and hybridized to Affymetrix GeneChip Human Mapping 250K NspI arrays using recommended procedures (Affymetrix, Inc.).
+

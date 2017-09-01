@@ -1,0 +1,12 @@
+TITLE
+High resolution transcriptome-wide RNA cytosine methylome of Mouse Embryonic Fibroblasts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We report high resolution transcriptome-wide RNA cytosine methylome of Mouse Embryonic Fibroblasts (MEFs) revealed by an optimized new RNA bisulfite sequencing approach.  Comparison of RNA methylation profile from wild-type and Dnmt2 -/- MEFs shows that only C38 in three tRNAs (tRNA-Asp, Gly and Val) is the target of Dnmt2 in MEFs at normal conditions.
+
+DESIGN
+Harvested MEFs, from 13.5 isogenic (wt or Dnmt2-/-) embryos, were subjected to total RNA isolation and DNase treatment. Small RNA fraction was separated using mirVana kit (Ambion). Large RNA fraction was prepared by ribosomal RNA depletion using RiboMinus™ Transcriptome Isolation Kit (Invitrogen) followed by RNA fragmentation using RNA Fragmentation Reagent (Ambion). Each one of the fractions (small or large) from each one of the samples (wt or Dnmt2-/-) were split into two: one for direct RNA sequencing and one for RNA bisulfite sequencing. For bisulfite treatment, small and large RNA fractions of each sample (wt or Dnmt2-/-) were separately subjected to bisulfite treatment. Total of 8 samples (bisulfite treated and untreated of small and large RNA fractions of wt or Dnmt2-/-) were separately subjected to library preparation with Illumina’s directional mRNA-Seq sample preparation protocol followed by 101 cycle single-end high-throughput sequencing using Illumina’s HiSeq 2000 sequencing system.
+

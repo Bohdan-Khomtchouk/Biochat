@@ -1,0 +1,12 @@
+TITLE
+DNA copy number, including telomeres and mitochondria, assayed using next-generation sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA copy number variations occur within populations and aberrations can cause disease.  We sought to develop an improved lab-automatable, cost-efficient, accurate platform to profile DNA copy number. We developed a sequencing-based assay of nuclear, mitochondrial, and telomeric DNA copy number that draws on the unbiased nature of next-generation sequencing and incorporates techniques developed for RNA expression profiling.  To demonstrate this platform, we assayed UMC-11 cells using 5 million 33 nt reads and found tremendous copy number variation, including regions of single and homogeneous deletions and amplifications to 29 copies; 5 times more mitochondria and 4 times less telomeric sequence than a pool of non-diseased, blood-derived DNA; and that UMC-11 was derived from a male individual. The described assay outputs absolute copy number, outputs an error estimate (p-value), and is more accurate than array-based platforms at high copy number.  The platform enables profiling of mitochondrial levels and telomeric length.  The assay is lab-automatable and has a genomic resolution and cost that are tunable based on the number of sequence reads.
+
+DESIGN
+DNA genome sequencing at roughly 0.03 coverage to identify genomic copy number variations
+

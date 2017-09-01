@@ -1,0 +1,12 @@
+TITLE
+Analysis and design of RNA sequencing experiments for identifying mRNA isoform regulation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Through alternative splicing, most human genes express multiple isoforms that may have distinct or even antagonistic functions. To infer isoform regulation based on data from high-throughput sequencing of cDNA fragments (RNA-Seq), we have developed MISO, a computational model that estimates the expression level of alternatively spliced exons and mRNA isoforms and provides intuitive measures of conﬁdence in these estimates. Incorporation of the length distribution of inserted cDNA fragments in paired-end RNA-Seq analysis in MISO enables dramatic improvements in estimation of alternative splicing levels relative to previous methods. We show that one lane of paired-end RNA-Seq data can provide far more information about splicing than two lanes of single-end data, depending critically on properties of the distribution of cDNA fragment lengths in the sequenced library. MISO also leads to an intuitive method to detect diﬀerentially regulated exons  or isoforms. Application of this method implicates the RNA splicing factor hnRNP H in regulation of alternative cleavage and polyadenylation, a role that is supported by UV  crosslinking/immunoprecipitation/high-throughput sequencing (CLIP-Seq) analysis. Together, our results provide a probabilistic framework for RNA-Seq analysis, derive functional insights into pre-mRNA processing, and yield guidelines for the optimal design of RNA-Seq experiments for studies of gene and isoform expression.
+
+DESIGN
+CLIPseq of hnRNP H in HEK 293T cells. RNAseq of polyA+ RNA from C2C12 mouse myoblasts stably expressing an empty vector or a vector containing an shRNA against CUGBP1. Libraries of two different insert lengths were created and examined.
+

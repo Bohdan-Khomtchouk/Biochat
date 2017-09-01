@@ -1,0 +1,12 @@
+TITLE
+Gene expression data from 62 colorectal cancers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We stratified colorectal tumor samples using a new unsupervised, iterative method based on non-negative matrix factorization (NMF). The resulting five subtypes exhibited activation of specific signaling pathways, and significant differences in microsatellite status and tumor location. We could also align three CRC cell lines panels to these subtypes.
+
+DESIGN
+mRNA from 62 colorectal tumor samples was hybridized to Affymetrix HGU133 Plus 2.0 expression arrays. Log2 gene expression values were calculated using RMA.
+

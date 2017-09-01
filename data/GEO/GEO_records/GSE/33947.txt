@@ -1,0 +1,12 @@
+TITLE
+Spermatozoal mRNA is reproducibly detected in purified D. melanogaster sperm.
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+It is now well established that mature mammalian spermatozoa carry a population of mRNA molecules, at least some of which are transferred to the oocyte at fertilisation.  However, the function of the sperm transcriptome remains largely unclear.  To shed light on the evolutionary conservation of this feature of sperm biology, we analysed highly purified populations of mature sperm from the fruitfly, Drosophila melanogaster.  As with mammalian sperm, we found a consistently enriched population of mRNA molecules that are not likely to be derived from contaminating somatic cells or immature sperm.  Using tagged transcripts for three of the spermatozoal mRNAs, we demonstrate that they are transferred to the oocyte at fertilisation and can be detected at least until the onset of zygotic gene expression.  We find a remarkable conservation in the functional annotations associated with fly and human spermatozoal mRNAs, in particular a highly significant enrichment for transcripts encoding Ribosomal Proteins.  The identification of a conserved set of spermatozoal transcripts opens the possibility of using the power of Drosophila genetics to address the function of this enigmatic class of molecules.
+
+DESIGN
+RNA extracted from three biological replicates of purified sperm (Sperm rep1, Sperm rep2 and Sperm rep3) was used as a template for oligo-dT-primed reverse transcription, amplification, labelling of dye swapped technical replicates and hybridisation to long oligonucleotides microarrays. As a control, RNA from two biological replicates of dissected adult testis plus accessory glands (Testis_rep1, Testis_rep2) was amplified, labelled (dye-swap technical replicate) and hybridised to similar arrays. To help with the spot-finding of the arrays genomic DNA was co-hybridised in some cases (this genomic DNA data was excluded from further analysis). Genes with an intensity level below 200 in at least one channel across the Sperm or Testis set were removed (5579 transcripts present in all three sperm replicates, 5358 transcripts from the testis/accessory gland samples and 4295 transcripts common to both data sets). Then the quantile normalisation was independently applied to the Sperm replicate samples and Testis replicates.
+

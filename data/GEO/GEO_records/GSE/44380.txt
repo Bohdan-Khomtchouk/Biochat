@@ -1,0 +1,12 @@
+TITLE
+An inherently bi-functional subset of Foxp3+ Treg/T-helper cells is controlled by the transcription factor Eos
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+At sites of inflammation, certain Foxp3+ Tregs have the ability to alter their phenotype and become pro-inflammatory helper/effector cells, without losing Foxp3 expression.  We show that this functional reprogramming is controlled by the transcription factor Eos (Ikzf4), an obligate co-repressor for Foxp3.  The ability to reprogram was restricted to a specific subset of Foxp3+ Tregs, arising as early as the thymus and identifiable by short half-life of Eos at rest, characteristic cell-surface markers (CD38+CD69+CD103NEG) and a distinct pattern of DNA methylation.  Mice made selectively deficient in this subset of Eos-labile Tregs became markedly impaired in their ability to cross-present new antigens and prime CD8+ T cells.  Downregulation of Eos and consequent Treg reprogramming was prevented by the immunoregulatory enzyme IDO, via activation of the aryl hydrocarbon receptor (AhR).  Thus, the Foxp3+ lineage contains a committed subset of Tregs that are constitutively primed for conversion into biologically important helper cells.
+
+DESIGN
+Cells from thymus or spleen were incubated for 1 hr with cycloheximide (CHX), then CD4+GFP+ Tregs were FACS-sorted into Eos-labile (CD38+CD103NEG) and Eos-stable (CD103+CD38NEG) subsets.  Control CD4+GFPNEG (non Treg) cells were sorted from spleen.  Genome-wide differential methylation analysis was performed using Reduced Representation Bisulfite Sequencing (RRBS).  The genomic DNA from each sample was digested with the methylation-insensitive restriction enzyme MspI (restriction site, CCGG) and ligated to Illumina sequencing adaptors containing methylated cytosine residues. The ligated MspI fragments were size-selected, treated with sodium bisulfite, and amplified by PCR. The PCR products were purified and sequenced using Illumina HiSeq 2000 sequencer with a read length of 100bp.
+

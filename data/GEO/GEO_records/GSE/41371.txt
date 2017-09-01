@@ -1,0 +1,12 @@
+TITLE
+H2A.Z inheritance during the cell cycle and its impact on promoter organization and dynamics [ChIP-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+While it has been clearly established that well positioned H2A.Z-containing nucleosomes flank the nucleosome depleted region (NDR) at the transcriptional start site (TSS) of active mammalian genes, how this chromatin-based information is transmitted through the cell cycle is unknown. We show here that in trophoblast stem (TS) cells, the level of H2A.Z at promoters decreases during S phase coinciding with homotypic (H2A.Z/H2A.Z) nucleosomes flanking the TSS becoming heterotypic (H2A.Z/H2A). Surprisingly, these nucleosomes remain heterotypic at M phase. At the TSS, we identify an unstable heterotypic H2A.Z-containing nucleosome in G1 which, strikingly, is lost following DNA replication. These dynamic changes in H2A.Z at the TSS mirror a global expansion of the NDR at S and M which, unexpectedly, is unrelated to transcriptional activity. Coincident with the loss of H2A.Z at promoters, it is targeted to the centromere when mitosis begins
+
+DESIGN
+We performed ChIP-Seq experiments (on mouse Trophoblast Stem cells arrested at G1; S and M stages of thecell cycle) using antibodies against histone variant H2A.Z and sequentional ChIP-re-ChIP-Seq experiments using H2A.Z antibody and H2A antibody in sequence. Combining those data sets with microarray gene expression expression data allowed us to see H2A.Z distribution over promoters of mouse coding genes in cell cycle dependant manner. Interestingly, Input also showed cell-cycle dependent effects, but histone H3 could be used as a cell-cycle independent normalisation factor. We also performed ChIP-seq with a CTCF pull-down to investigate its cell-cycle dependent relationship with heterochromatin.
+

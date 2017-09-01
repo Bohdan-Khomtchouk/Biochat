@@ -1,0 +1,12 @@
+TITLE
+The effect of the Pld6 and Dnmt3l mutations on DNA methylation and expression of retrotransposons in mouse male germ cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mammalian genomes harbor millions of retrotransposon copies, some of which are transpositionally active. In mouse prospermatogonia, PIWI-interacting small RNAs called piRNAs combat retrotransposon activity. The piRNA system guides de novo DNA methylation at retrotransposon promoters, but it remains unclear whether DNA methylation is involved in retrotransposon silencing in prospermatogonia. We performed a genome-wide study of DNA methylation and RNA abundance for retrotransposons in developing mouse male germ cells, using Pld6/Mitopld and Dnmt3l knockout (KO) mice deficient in piRNA biogenesis and de novo DNA methylation, respectively. The Dnmt3l mutation greatly reduced DNA methylation at most retrotransposons but its effect on their RNA abundance was low in prospermatogonia. In the Pld6 mutants, only few retrotransposons exhibited reduced DNA methylation but many were more upregulated at the RNA level than in the Dnmt3l mutants. Moreover, the retrotransposon upregulation by the Pld6 mutation was observed even in the Dnmt3l KO background. Thus, in prospermatogonia, post-transcriptional RNA digestion by the piRNA system plays a more important role in retrotransposon regulation than transcriptional silencing by DNA methylation. However, their relative importance was changed in meiotic spermatocytes where hypomethylation of retrotransposons increased their expression by up to 100-fold in both mutants. Interestingly, retrotransposon activation disrupted the transcriptome integrity because intergenic and intronic retrotransposon sequences, in particular, the antisense promoter of LINE-1, drive expression of nearby genes.
+
+DESIGN
+To study the effect of the Pld6 and Dnmt3l mutations on retrotransposon regulation, we determined the DNA methylation levels in the mutant spermatogonia and the RNA expression levels of retrotransposons in the mutant testes at P0 (containing prospermatogonia) and mutant leptotene/zygotene spermatocytes using bowtie2 (both are available as supplementary tables in the original article).  We also determined genome-wide DNA methylation map (using bismark) and the levels of gene expression (using Tophat and Cuffdiff), which are available as processed files here.  We also analyzed small RNAs in spermatogonia, spermatocytes and round spermatids to analyze the population of piRNAs in these cells.
+

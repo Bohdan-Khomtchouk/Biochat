@@ -1,0 +1,9 @@
+TITLE
+Current DNA motif models can lead to incorrect hypotheses about the genomic recruitment of transcription factors
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+The E2F family of transcription factors is typically described as binding the family consensus sequence TTTSSCGC, were S is G or C. Analysis of ChIP-seq experiments, however, reveals that this consensus sequence is found in only 10% of ChIP-seq peaks, suggesting that the mechanism for E2F sequence recognition cannot be explained using previous assumptions.  In order to better understand E2F sequence specificity, we performed high-throughput Universal Protein Binding Microarray experiments to obtain the relative binding affinity for every possible 8-mer, as well a large number of bound and unbound probes intheir native genomic sequence context. Our results show that while the consensus sequence is bound with relatively high affinity, numerous other 8-mers, many distinctly different from the consensus motif, are bound with similar or greater affinity.  These data suggest that the mechanism for E2F sequence specificity is likely complex, and cannot readily be explained through a simple consensus sequence. Because of this, complex regression models were created using the bound and unbound probe binding affinities, and were able to predict binding in vivo, where the consensus sequence and varoius E2F PWMs were not.
+

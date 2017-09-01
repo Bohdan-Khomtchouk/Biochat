@@ -1,0 +1,12 @@
+TITLE
+Comprehensive comparative analysis of strand-specific RNA sequencing methods
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Strand-specific massively-parallel cDNA sequencing (RNA-Seq) is a powerful tool for novel transcript discovery, genome annotation, and expression profiling.  Despite multiple published methods for strand-specific RNA-Seq, no consensus exists as to how to choose between them.  Here, we developed a comprehensive computational pipeline for the comparison of library quality metrics from any RNA-Seq method.  Using the well-annotated Saccharomyces cerevisiae transcriptome as a benchmark, we compared seven library construction protocols, including both published and our own novel methods.  We found marked differences in complexity, strand-specificity, evenness and continuity of coverage, agreement with known annotations, and accuracy for expression profiling. Weighing each method’s performance and ease, we identify the dUTP second strand marking and the Illumina RNA ligation methods as the leading protocols, with the former benefitting from the availability of paired-end sequencing.  Our analysis provides a comprehensive benchmark, and our computational pipeline is applicable for assessment of future protocols in any organism.
+
+DESIGN
+Examination of 11 different strand-specific RNA-Seq libraries from 7 distinct methods; also 2 control non-strand-specific RNA-Seq libraries. To assess the performance of each strand-specific library in digital expression profiling, we compared them to reference expression measurements estimated from expression profiles using competitive hybridization of a mid-log RNA sample vs. genomic DNA using Agilent arrays.
+

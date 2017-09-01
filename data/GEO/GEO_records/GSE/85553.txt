@@ -1,0 +1,12 @@
+TITLE
+Temperature regulates splicing efficiency of the cold-inducible RNA-binding protein gene Cirbp
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In mammals body temperature fluctuates diurnally around a mean value of 36-37°C. Despite the small differences between minimal and maximal values, body temperature rhythms can drive robust cycles in gene expression in cultured cells and, likely, in, animals. Here we studied the mechanisms responsible for the temperature-dependent expression of Cold- Inducible RNA-Binding Protein (CIRBP). In NIH3T3 fibroblasts exposed to simulated mouse body temperature cycles Cirbp mRNA oscillates about 3-fold in abundance, as it does in mouse liver. This daily mRNA accumulation cycle is directly controlled by temperature oscillations and does not depend on the cells’ circadian clocks. Here, we show that the temperature-dependent accumulation of Cirbp mRNA is controlled primarily by the regulation of splicing efficiency, defined as the fraction of Cirbp pre-mRNA processed into mature mRNA. As revealed by genome-wide “approach-to-steady-kinetics”, this posttranscriptional mechanism is wide-spread in the temperature-dependent control of gene expression.
+
+DESIGN
+Cultured NIH3T3 cells seeded and kept at 37C degree for 4 hours before being switched to 33C and 38C. After 16 hours of incubation the temperature was shifted to 38C and 33C, respectively. Sample were then taken at 0, 1, 3, 6 and 9 hour after the temperature shift. Paired-end, strand-specific, total RNA-seq was performed over the samples at the respective time points using the Illumina HiSeq2500 platform.
+

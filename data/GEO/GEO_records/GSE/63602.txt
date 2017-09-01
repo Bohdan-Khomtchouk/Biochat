@@ -1,0 +1,12 @@
+TITLE
+Characterization of a network of tumor suppressor microRNA's in T Cell acute lymphoblastic leukemia
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: The purpose of this study is to identify functionally inter-connected group of miRNAs whose reduced expression promotes leukemia development in vivo. We searched for relevant target genes of these miRNAs that are upregulated in T-ALL relative to controls. Methods: In order to examine the global gene expression, we generated 9 T-ALL patients and 4 normal controls by deep sequencing using Illumina Hi-Seq sequencer. The sequence reads that passed quality filters were analyzed using Spliced Transcripts Alignment to a Reference aligner (STAR) followed by differential gene expression analysis using DESeq. Results: Using an optimized data analysis workflow, we mapped reads per sample to the human genome (build hg19) and identified transcripts in both patient and controls with STAR workflow. We applied a machine learning approach to eliminate targets with redundant miRNA-mediated control. This strategy finds a convergence on the Myb oncogene and less prominent effects on the Hpb1 transcription factor. The abundance of both genes is increased in T-ALL and each can promote T-ALL in vivo. Conclusion: Our study reveals a Myc regulated network of tumor suppressor miRNAs in T-ALL. We identified a small number of functionally validated tumor suppressor miRNAs.  These miRNAs are repressed upon Myc activation and this links their expression directly to Myb a key oncogenic driver in T-ALL.
+
+DESIGN
+Examination of global gene expression in 9 T-ALL patients and 4 normal controls using total RNA sequencing. BaseMeanA in DESeq_results.xlsx is the control.
+

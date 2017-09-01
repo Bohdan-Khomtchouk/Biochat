@@ -1,0 +1,12 @@
+TITLE
+Characterization of genetic loss-of-function of Fus in zebrafish
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+The RNA-binding protein FUS is implicated in transcription, alternative splicing of neuronal genes and DNA repair. Mutations in FUS have been linked to human neurodegenerative diseases such as ALS (amyotrophic lateral sclerosis). We genetically disrupted fus in zebrafish (Danio rerio) using the CRISPR-Cas9 system. The fus knockout animals are fertile and did not show any distinctive phenotype. Mutation of fus induces mild changes in gene expression on the transcriptome and proteome level in the adult brain. We observed a significant influence of genetic background on gene expression and 3’UTR usage, which could mask the effects of loss of Fus. Unlike published fus morphants, maternal zygotic fus mutants do not show motoneuronal degeneration and exhibit normal locomotor activity.
+
+DESIGN
+We performed paired-end sequencing (100bp reads) of the polyA+ transcriptome from brains of five individuals with Fus-/- genotype and four with Fus wild type genotype. Note on RNA-Seq replicates: after performing first RNA sequencing on four replicates of Fus-/- and WT (labeled with the prefix " Sample_imb_ketting_2014_13_ " ) we received a notice from Illumina stating a problem with the library preparation kit lot that was used to prepare the libraries. Due to that, we performed RNA sequencing a second time, using the same input RNA, except for the Fus knockout replicate #3, because there was not enough input RNA left. Instead, a different Fus knockout replicate (#1) was sequenced. However, we compared the mapped reads from sequencing run 1 and sequencing run 2 using plotCorrelaction from DeepTools, and the samples are highly correlated (at least 0.97 and 0.95, Spearman and Pearson correlation respectively). Therefore, we considered first ( " Sample_imb_ketting_2014_13_ " ) and second sequencing runs as technical replicates.
+

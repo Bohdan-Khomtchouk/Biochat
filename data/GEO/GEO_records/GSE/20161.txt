@@ -1,0 +1,12 @@
+TITLE
+Networks and miRNAs implicated in aggressive prostate cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Prostate cancer (PC), a complex disease, can be relatively harmless or extremely aggressive. To identify candidate genes involved in causal pathways of aggressive PC, we implemented a systems biology approach by combining differential expression analysis and co-expression network analysis to evaluate transcriptional profiles using lymphoblastoid cell lines from 62 PC patients with aggressive phenotype (Gleason grade > 8) and 63 PC patients with nonaggressive phenotype (Gleason grade < 5). From 13935 mRNA genes and 273 microRNAs tested, we identified significant differences in 1100 mRNAs and 7 microRNAs with false discovery rate < 0.01. We also identified a co-expression module demonstrating significant association with the aggressive phenotype of PC (p=3.67x10-11). The module of interest was characterized by over-representation of cell cycle-related genes (false discovery rate = 3.50x10-50). From this module, we further defined 20 hub genes that were highly connected to other genes. Interestingly, five of the 7 differentially expressed microRNAs have been implicated in cell cycle regulation and two (miR-145 and miR-331-3p) are predicted to target three of the 20 hub genes. Ectopic expression of these two microRNAs reduced expression of target hub genes and subsequently resulted in cell growth inhibition and apoptosis. These results suggest that cell cycle is likely to be a molecular pathway causing aggressive phenotype of PC. Further characterization of cell cycle-related genes (particularly, the hub genes) and miRNAs that regulate these hub genes could facilitate identification of candidate genes responsible for the aggressive phenotype and lead to a better understanding of PC etiology and progression [Cancer Res 2009;69(24):9490–7]. Keywords: weighted gene coexpression analysis, network analysis, microRNA regulation
+
+DESIGN
+Apply weighted gene coexpression network analysis to identify gene expression module responsible for aggressive prostate cancer.
+

@@ -1,0 +1,12 @@
+TITLE
+Defining the transcriptome landscape of Candida glabrata during pH change and nitrosative stress by RNA-Seq
+
+ORGANISM
+[Candida] glabrata
+
+SUMMARY
+The yeast Candida glabrata is one of the most important human fungal pathogens and has emerged as a leading cause of nosocomial bloodstream infections. Its resistance to many routinely used antimycotics and its close relationship to the model organism Saccharomyces cerevisiae make this fungus an interesting target of biomedical research. Although the genome sequence was published a decade ago, little is known about the transcriptional dynamics within this pathogen, especially compared to other pathogenic and nonpathogenic yeasts.We provide a detailed RNA-Seq-based analysis of the transcriptomic landscape of C. glabrata in nutrient-rich media as well as under stress conditions and weak acidic and alkaline environments. Using state of the art bioinformatics tools, we were able to refine the annotation of the C. glabrata genome up to 5288 transcriptional active protein-coding ORFs. Introns were identified in 175 of these genes. Based on our data we were able to increase the number of noncoding RNAs to 68. Additionally, we could detect the expression of 50 novel ORFs. This comprehensive analysis of C. glabrata’s transcriptomic landscape significantly enhances the annotation of current genome annotation and contributes to a further understanding of the molecular mechanisms of the pathogenicity of this medical important yeast.
+
+DESIGN
+Candida glabrata was grown in standard nutrient-rich medium(wt_37), ph4(wt_pH4), ph8(w,_pH8) and in nitrosative stress (GSNO) conditions(wt_GSNO). After harvesting RNA, paired-end and strand-specific RNA-Seq was performed on three biological replicates after PolyA filtering respectively. Additionally, a fourth replicate without filtering was sequenced single-end and not strand-specific..
+

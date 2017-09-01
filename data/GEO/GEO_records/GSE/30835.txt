@@ -1,0 +1,12 @@
+TITLE
+mRNA expression data of tumor samples with/without IDH1/2 mutations and of controls
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We determined differentially expressed genes between tumor samples with and without IDH1/2 mutations, and between tumors with IDH1/2 mutations and controls.
+
+DESIGN
+A total of 21 tumours which include 6 enchondromas and 10 chondrosarcomas (3 grade I, 7 grade II) of Ollier disease, as well as 1 enchondroma and 4 chondrosarcomas grade II of solitary tumors, and 6 controls (growth plate and cartilage) were selected for expression analysis. Sample preparation, RNA isolation, synthesis of cDNA, cRNA amplification, hybridization of cRNA onto the Illumina Human-6 v3.0 Expression BeadChips, microarray data preprocessing, quality control, and detection of differential expression were performed as described previously (PMID: 21372215, PMID: 21584901). We determined differential expression between tumor samples without detectable IDH1 or IDH2 mutation (n=3) and samples with IDH1 or IDH2 mutations (n=18), and between samples with IDH1 or IDH2 mutation and controls (n=6). Probes with Benjamini and Hochberg False discovery rate-adjusted P-values (adjP) < 0.05 and a log fold change (logFC) > 0.1 were considered to be significantly differentially expressed.
+

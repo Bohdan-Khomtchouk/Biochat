@@ -1,0 +1,12 @@
+TITLE
+Global response to chemotherapy-induced apoptosis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Here we use an integrated systems-level examination of transcription, translation, and proteolysis to explore how cancer cells struggle with a chemotherapeutic drug prior to succumbing to apoptosis. As a model system we study myeloma cells exposed to the proteasome inhibitor bortezomib, a first-line clinical treatment. Despite robust transcriptional changes, unbiased quantitative proteomics detects production of only a few critical anti-apoptotic proteins against a background of general translation inhibition. Ribosome profiling further reveals potential translational regulation of stress response genes following bortezomib treatment. Once the apoptotic machinery is engaged, degradation by caspases is largely independent of changes at the transcriptional level. Moreover, previously uncharacterized non-caspase proteolytic events also participate in cellular deconstruction. As suggested by these data, we find that inhibition of the anti-apoptotic response regulator HSF1 promotes cell death by bortezomib. Thus, monitoring global cellular dynamics after chemotherapy offers in-depth insight into apoptosis and can also guide potential therapeutic combinations.
+
+DESIGN
+We examined MM1.S myeloma cells exposed to 20 nM bortezomib across a time course with independent samples of poly(A) mRNA and ribosome footprints isolated at each of six time points (0h (untreated), 1.5h, 3h, 6h, 9h, 12h). Sequencing was performed on a Illumina HiSeq 2000 with single-end.
+

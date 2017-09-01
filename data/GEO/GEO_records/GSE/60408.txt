@@ -1,0 +1,12 @@
+TITLE
+Expression profiles in 3 different B-cell lymphoma cell lines treated by 92 FDA approved compounds
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Identifying the Mechanism of Action (MoA) of drugs is critical for the development of new drugs, understanding their side effects, and drug repositioning. However, identifying drug MoA has been challenging and has been traditionally attempted only though large experimental setups with little success. While advances in computational power offers the opportunity to achieve this in-silico, methods to exploit existing computational resources are still in their infancy. To overcome this, we developed a novel method to identify Drug Mechanism of Action using Network Dysregulation (DeMAND). The method is based on the realization that drugs affect the protein activity of their targets, but not necessarily their mRNA expression levels. In contrast, the change in protein activity directly affects the mRNA expression levels of downstream genes. Based on this hypothesis, DeMAND identifies drug MoA by comparing gene expression profiles following drug perturbation with control samples, and computing the change in the individual interactions within a pre-determined integrated transcriptional and post-translational regulatory model (interactome).
+
+DESIGN
+This dataset includes GEPs in 3 different B-cell lymphoma cell lines (OCI-LY3, OCI-LY7 and U2932) at 6, 12, and 24hrs. 92 FDA approved compounds were used at a concentration of IC20 at 24h. DMSO was used as control at each time-point. A total of 828 samples and 29 control samples were available for analysis. Total RNA was isolated with the RNAqueous-96 Automated Kit (Ambion) on the Janus automated liquid handling system (Perkin Elmer Inc.), quantified by NanoDrop 6000 spectrophotometer and quality checked by Agilent Bioanalyzer. 300ng of each of the samples with RIN value > 7 were converted to biotinylated cRNA with the Illumina TotalPrep-96 RNA Amplification Kit (Ambion) using a standard T7-based amplification protocol and hybridized on the Human Genome U219 96-Array Plate (Affymetrix). Hybridization, washing, staining and scanning of the array plates were performed on the GeneTitan Instrument (Affymetrix) according to manufacturer’s protocols.
+

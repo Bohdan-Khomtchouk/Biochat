@@ -1,0 +1,12 @@
+TITLE
+Genome-wide quantitative enhancer activity maps identified by STARR-seq
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Genomic enhancers are important regulators of gene expression, but their identification is a challenge and methods depend on indirect measures of activity. We developed a method termed STARR-seq to directly and quantitatively assess enhancer activity for millions of candidates from arbitrary sources of DNA, enabling screens across entire genomes. When applied to the Drosophila genome, STARR-seq identifies thousands of cell type-specific enhancers across a broad continuum of strengths, linking differential gene expression to differences in enhancer activity and creating a genome-wide quantitative enhancer map. This map reveals the highly complex regulation of transcription, with several independent enhancers for both developmental regulators and ubiquitously expressed genes. STARR-seq can be used to identify and quantitate enhancer activity in other eukaryotes, including human.
+
+DESIGN
+STARR-seq was performed in S2 and OSC cells with paired-end sequencing in two replicates and respective inputs. DHS-seq was done with single-end sequencing in two replicates for S2 and OSC cells. RNA-seq was performed with a strand-specific protocol using single-end sequencing in two replicates within S2 and OSC cells. STARR-seq was also performed in HeLa cells with single-end sequencing with a respective input.
+

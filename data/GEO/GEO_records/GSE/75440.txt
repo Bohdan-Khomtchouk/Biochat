@@ -1,0 +1,12 @@
+TITLE
+Gene expression profiles in NORAD knockout and PUMILIO overexpressing cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: PUMILIO proteins are known to repress target genes by specifically binding to PUMILIO response elements (PREs) in target mRNAs.  NORAD is a noncoding RNA that negatively regulates PUMILIO activity. The goal of this study was to determine the gene expression changes that result from knockout of NORAD or overexpression of PUMILIO and to test whether NORAD knockout causes PUMILIO hyperactivity. Methods: RNA-seq libraries were prepared using the TruSeq Stranded Total RNA with Ribo-Zero Human/Mouse/Rat Sample Preparation kit (Illumina) and sequenced using the 100 bp paired-end protocol on an Illumina HiSeq 2000.  For comparing NORAD+/+ and NORAD-/- HCT116 cells, 3 biological replicates per genotype were sequenced.  For PUM overexpression experiments, 3 replicates of GFP-expressing HCT116 cells (negative control) and 2 independent PUM1- or PUM2-overexpressing clones (2 replicates each) were sequenced. Results: Gene expression profiles show that PUMILIO target genes are downregulated in both NORAD knockout cells and PUMILIO overexpressing cells. Conclusions: These data indicate that NORAD sequesters PUMILIO, preventing excessive repression of PUMILIO target genes that are important for maintaining genomic stability.
+
+DESIGN
+Gene expression profiles of genetically modified HCT116 cells were determined by RNA-seq.
+

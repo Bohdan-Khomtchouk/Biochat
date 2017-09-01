@@ -1,0 +1,12 @@
+TITLE
+Clonal evolution through loss of chromosomes and subsequent polyploidization in chondrosarcoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Near-haploid chromosome numbers have been found in less than 1% of cytogenetically reported tumors, but seem to be more common in certain neoplasms including the malignant cartilage-producing tumor chondrosarcoma. By a literature survey of published karyotypes from chondrosarcomas we could confirm that loss of chromosomes resulting in hyperhaploid-hypodiploid cells is common and that these cells may polyploidize. Sixteen chondrosarcomas were investigated by single nucleotide polymorphism (SNP) array and the majority displayed SNP patterns indicative of a hyperhaploid-hypodiploid origin, with or without subsequent polyploidization. Except for chromosomes 5, 7, 19, 20 and 21, autosomal loss of heterozygosity was commonly found, resulting from chromosome loss and subsequent duplication of monosomic chromosomes giving rise to uniparental disomy. Additional gains, losses and rearrangements of genetic material, and even repeated rounds of polyploidization, may affect chondrosarcoma cells resulting in highly complex karyotypes. Loss of chromosomes and subsequent polyploidization was not restricted to a particular chondrosarcoma subtype and, although commonly found in chondrosarcoma, binucleated cells did not seem to be involved in these events.
+
+DESIGN
+Tumor DNA was hybridized onto Illumina Human Omni-Quad v1.0 BeadChip or Human CNV370-Quad v3.0 BeadChip (Illumina, San Diego, CA, USA), following standard protocols supplied by the manufacturer. Data were extracted from the GenomeStudio software (Illumina), and subsequently normalized and segmented using thresholded quantile normalization (tQN) and BAFsegmentation, respectively (Staaf et al. Normalization of array-CGH data: influence of copy number imbalances. BMC Genomics 2007, 8:382; Staaf et al. Segmentation-based detection of allelic imbalance and loss-of-heterozygosity in cancer cells using whole genome SNP arrays. Genome Biol 2008, 9:R136). Base pair positions are indicated according to the NCBI build 36 (hg18).
+

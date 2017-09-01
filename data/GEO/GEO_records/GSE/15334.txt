@@ -1,0 +1,12 @@
+TITLE
+MR-1 gene expression profiles of iron response
+
+ORGANISM
+Shewanella oneidensis MR-1
+
+SUMMARY
+Time-series transcriptional profiles of Shewanella oneidensis type strain MR-1 under iron depletion and repletion conditions. Iron homeostasis of Shewanella oneidensis, a gamma-proteobacterium possessing high iron content, is regulated by a global transcription factor Fur. However, knowledge is incomplete about other biological pathways that respond to changes in iron concentration, as well as details of the responses. In this work, temporal gene expression profiles were examined for iron depletion and repletion to delineate the iron response of S. oneidensis and a gene co-expression network was reconstructed. Modules of iron acquisition systems, anaerobic energy metabolism and protein degradation were the most noteworthy in the gene network. Bioinformatics analyses suggested that genes in each of the modules might be regulated by DNA-binding proteins Fur, CRP and RpoH, respectively. Closer inspection of these modules revealed a transcriptional regulator (SO2426) involved in iron acquisition and ten transcriptional factors involved in anaerobic energy metabolism. Selected genes in the network were analyzed by genetic studies. Disruption of genes encoding a putative alcaligin biosynthesis protein (SO3032) and a gene previously implicated in protein degradation (SO2017) led to severe growth deficiency under iron depletion conditions. Disruption of a novel transcriptional factor (SO1415) caused deficiency in both anaerobic iron reduction and growth with thiosulfate or TMAO as an electronic acceptor, suggesting that SO1415 is required for specific branches of anaerobic energy metabolism pathways. In conclusion, we identified major biological pathways that were differentially expressed during iron depletion and repletion.
+
+DESIGN
+Four biological replicates of S. oneidensis MR-1 cells were grown to the midlog phase (OD600 = 0.6). Samples were collected at time 0, and then at 1, 5, 10, 20, 40, and 60 min after adding 2,2'-dipyridyl to attain a final concentration of 160 uM. Thereafter, ferrous sulfate was added to final concentration of 200 uM, and cells were collected at 1, 5, 10, 20, 40, and 60 min.
+

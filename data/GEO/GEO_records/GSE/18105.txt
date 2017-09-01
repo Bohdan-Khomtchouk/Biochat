@@ -1,0 +1,12 @@
+TITLE
+Stage II and stage III colorectal cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Distant metastasis is the major causes of death in colorectal cancer (CRC) patients. In order to identify genes influencing the prognosis of patients with CRC, we compared gene expression in primary tumors with and without distant metastasis using an oligonucleotide microarray. We also examined the expression of the candidate gene in 100 CRC patients by quantitative real-time reverse transcription PCR and studied the relationship between its expression and the prognosis of patients with CRC. As a result, we identified MUC12 as a candidate gene involved in metastasis processes by microarray analysis. Quantitative real-time reverse transcription PCR showed that MUC12 expression was significantly lower in cancer tissues than in adjacent normal tissues (P < 0.001). In stage II and stage III CRC, patients with low expression showed worse disease-free survival (P = 0.038). Multivariate analysis disclosed that MUC12 expression status was an independent prognostic factor in stage II and stage III CRC (relative risk, 9.532; 95% confidence interval, 2.303-41.905; P = 0.002).   This study revealed the prognostic value of MUC12 expression in CRC patients. Moreover, our result suggests MUC12 expression is a possible candidate gene for assessing postoperative adjuvant therapy for CRC patients.
+
+DESIGN
+Total of 111 microarray datasets (77 for LCM samples, and 17 pairs for homogenized samples from tumor and adjacent tissues) were normalized using robust multi-array average (RMA) method under R 2.6.2 statistical software together with BioConductor package, as described previously. Then, the gene expression levels were log2-transformed, and 62 control probe sets were removed for further analysis.  In order to identify a set of genes associated with development of metastatic recurrence, we performed Wilcoxon rank-sum test for gene expression differences of 54,613 probe sets between recurrence and non-recurrence groups. Similarly, Wilcoxon singed-rank test was conducted to select genes which showed significant expression difference between tumor and adjacent tissue. Then, we selected a set of genes that satisfied both of above two criteria.
+

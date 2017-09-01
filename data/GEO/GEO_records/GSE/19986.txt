@@ -1,0 +1,12 @@
+TITLE
+U87MG Decoded: The Genomic Sequence of a Cytogenetically Aberrant Human Cancer Cell Line
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+U87MG is a commonly studied grade IV glioma cell line that has been analyzed in at least 1,700 publications over four decades. In order to comprehensively characterize the genome of this cell line and to serve as a model of broad cancer genome sequencing, we have generated greater than 30x genomic sequence coverage using a novel 50-base mate paired strategy with a 1.4kb mean insert library. A total of 1,014,984,286 mate-end and 120,691,623 single-end two-base encoded reads were generated from five slides. All data were aligned using a custom designed tool called BFAST, allowing optimal color space read alignment and accurate identification of DNA variants. The aligned sequence reads and mate pair information identified 35 interchromosomal translocation events, 1,315 structural variations ( > 100bp), 191,743 small ( < 21bp) insertions and deletions (indels), and 2,384,470 single nucleotide variations (SNVs). Among these observations, the known homozygous mutation in PTEN was robustly identified, and genes involved in cell adhesion were overrepresented in the mutated gene list. Data were compared to 219,187 heterozygous single nucleotide polymorphisms assayed by Illumina 1M Duo genotyping array to assess accuracy: 93.83% of all SNPs were reliably detected at filtering thresholds that yield greater than 99.99% sequence accuracy. Protein coding sequences were disrupted predominantly in this cancer cell line due to small indels, large deletions and translocations. In total, 512 genes were homozygously mutated, including 154 by SNVs, 178 by small indels, 145 by large microdeletions and 35 by interchromosomal translocations to reveal a highly mutated cell line genome. Of the small homozygously mutated variants, 8 SNVs and 99 indels were novel events not present in dbSNP. These data demonstrate that routine generation of broad cancer genome sequence is possible outside of genome centers. The sequence analysis of U87MG provides an unparalleled level of mutational resolution compared to any cell line to date.
+
+DESIGN
+Whole genome sequencing of the U87MG brain cancer cell line using the AB SOLiD3 sequencer and genotyping using the Illumina Human1M-Duov3 DNA Analysis BeadChip
+

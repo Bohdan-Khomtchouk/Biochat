@@ -1,0 +1,12 @@
+TITLE
+Asthma II
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Bronchial Epithelial Cells were isolated processed as described (Chu et al., 2002 and Zhao et al., 2011). The objective of the study was to identify differentially expressed genes between normal control (NC), mild-moderate asmathic (notSA) and severe asthmatic (SA) patients.   For demographics data, contact Dr.Sally Wenzel (wenzelse@upmc.edu)
+
+DESIGN
+Bronchoscopy with endobronchial epithelial brushing was performed as previously described (Chu et al., 2002; Zhao et al., 2011). The bronchial brushings generally comprised > 90% epithelial cells and were placed into Trizol for mRNA analysis. Total RNA extracted using Trizol according to the manufacturer's instructions. Cy3-CTP  labeled RNA was prepared according to the standard Agilent protocol from 50ng total RNA. Labeled RNA was hybridized for 17 hr at 65 C on Agilent gene expression array. Arrays were washed according to the manufacturer's protocol.   Slides were scanned immediately after washing on the Agilent DNA Microarray Scanner (G2505B) using one color scan setting for 4X44K array slides.  Agilent Feature Extraction v10.7.3.1 was used with default parameters. Normalized signal intensity data  are presented in the matrix.  The data set was normalized by cyclic-LOESS with use of Bioconductor package as described previously (Wu W et. al. 2005)
+

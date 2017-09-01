@@ -1,0 +1,12 @@
+TITLE
+Identification of the miRNA targetome in hippocampal neurons using RIP-seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We established a neuron-specific Argonaute2:GFP-RNA immunoprecipitation followed by high throughput sequencing (AGO2-RIP-seq) to analyse the regulatory role of miRNAs in mouse hippocampal neurons. Using this technique, we identified more than two thousand miRNA target genes in hippocampal neurons, regulating essential neuronal features such as axon guidance and transcription. Furthermore, we found that stable inhibition of the highly expressed miR-124 in hippocampal neurons led to significant changes in the AGO2 binding of target mRNAs, resulting in subsequent upregulation of numerous miRNA target genes. Our data suggest that target redundancies are common among microRNA families. Together, these findings greatly enhance our understanding of the mechanisms and dynamics through which miRNAs regulate their target genes in neurons.
+
+DESIGN
+Analysis of the miRNA targetome in hippocampal neurons after inhibition of 2 different miRNAs. AAV5 injections into the hippocampus of adult C57BL/6 mice producing either of the following under a synapsin promoter: GFP only (Samples beginning with 'GFP124…' or 'GFP125…'), GFP-miR124sp (Samples beginning with 'miR124…'), GFP-miR125sp (Samples beginning with 'miR125…'), GFP-AGO2-miR292sponge (samples ending with '…292'), GFP-AGO2-miR124sponge (samples ending with '…124'), GFP-AGO2-miR125sponge (samples ending with '…125'). All other samples were sham-injected.
+

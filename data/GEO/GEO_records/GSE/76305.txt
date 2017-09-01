@@ -1,0 +1,12 @@
+TITLE
+Zygotes segregate entire parental genomes in distinct blastomere lineages causing cleavage stage chimaerism and mixolpoidy
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+Chimaerism and mixoploidy define the presence of cell lineages with different parental genomes or different ploidy states in a single individual. Our knowledge on their mechanistic origin results from indirect observations, often when the cell lineages have been subject to rigorous selective pressure during development. Here, we applied haplarithmisis to infer the haplotypes and the copy number of parental genomes in 116 single blastomeres comprising entire preimplantation stage bovine embryos (n=23) following in vitro fertilization. Not only abnormal fertilizations leading to triploid zygotes, but also normally fertilized zygotes can spontaneously segregate entire parental genomes into different cell lineages during cleavage of the zygote. We coin the term “heterogoneic division” to indicate the events leading to non-canonical zygotic cytokinesis segregating the parental genomes into distinct lineages. Persistence of those cell lines during development is the likely cause of chimaerism and mixoploidy in mammals.
+
+DESIGN
+Oocytes from eight Belgian Blue cows (Bos taurus) and semen from two Holstein-Friesian bulls (Bos taurus) were used for embryo production (BRP004 to BRP012 crosses). Eleven embryos were isolated at day-2  post insemination (pi) and 14 embryos were isolated on day-3 pi. Ovarian tissue from the donor cows (mothers) and semen from the two bulls (fathers) were used to extract bulk DNA (DNeasy Blood and Tissue kit, Qiagen). In addition, we obtained bulk DNA from the parents of the bulls (i.e. paternal grandparents of embryos). Moreover, DNA samples extracted from single blastomeres and the two expanded blastocysts (day-8 pi of BRP010 and BRP011 crosses) were whole genome amplified using the REPLI-g Single Cell Kit according to the manufacturer’s protocol (Qiagen). Subsequently, Single-cell and multi-cell parental or sibling DNA genotype calls, BAF and logR values were obtained from the BovineHD BeadChip raw intensity data by application of the GenCall algorithm, which is embedded in Illumina’s GenomeStudio software ( ). Genotypes were called by setting the GenCall score at 0.75 (based on the optimization steps described in Zamani Esteki et al. 2015). The raw LogR- and BAF-values as well as discrete SNP genotype calls were fed to a modified version of siCHILD algorithm (Zamani Esteki et al. 2015).
+

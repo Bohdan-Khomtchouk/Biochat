@@ -1,0 +1,12 @@
+TITLE
+Inferring gene regulatory logic from high-throughput measurements of thousands of systematically designed promoters
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Despite extensive research, our understanding of the rules according to which cis-regulatory sequences are converted into gene expression is limited We devised a method for obtaining parallel, highly accurate gene expression measurements from thousands of designed promoters and applied it to measure the effect of systematic changes in the location, number, orientation, affinity and organization of transcription-factor binding sites and nucleosome-disfavoring sequences. Our analyses reveal a clear relationship between expression and binding-site multiplicity, as well as dependencies of expression on the distance between transcription-factor binding sites and gene starts which are transcription-factor specific, including a striking ~10-bp periodic relationship between gene expression and binding-site location. We show how this approach can measure transcription-factor sequence specificities and the sensitivity of transcription-factor sites to the surrounding sequence context, and we compare the activity of 75 yeast transcription factors. Our method can be used to study both cis and trans effects of genotype on transcriptional, post-transcriptional and translational control.
+
+DESIGN
+Expression profiling of 6500 synthetic promoters in yeast (Saccharomyces cerevisiae). The results were achieved using a method for obtaining pooled and highly accurate expression measurements (closely related to MPRA).  In short, the synthetic promoters, which contain unique barcodes, are inserted upstream to a yellow florescence reporter gene, the cells are sorted by their florescence level (using FACS) to expression bins, the promoters in each expression bin are amplified and are send to parallel sequencing (SOLiD) to determine the percent of cells of each promoter in each expression bin; finally an mean expression value is extracted from the raw results. The measurements contain two replicates of exponentially growing yeast cells in SC-Gal-URA (synthetic complete media with 2% galactose and without uracil).
+

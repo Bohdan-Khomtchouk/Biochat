@@ -1,0 +1,12 @@
+TITLE
+Gene expression data for two xenograft models representing luminal-like and basal-like breast cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Choline (reference 1) and glucose (reference 2) was studied using HR MAS MR spectroscopy data and 105 and 38 gene transcripts were selected respectively from the microarray data to study differences between two xenograft models. Reference 1: Moestue SA et al, Distinct choline metabolic profiles are associated with differences in gene expression for basal-like and luminal-like breast cancer xenograft models, BMC Cancer 2010 Aug 17;10:433 (PMID: 20716336). Reference 2: Grinde et al., NMR Biomed. 2011 Dec;24(10):1243-52. doi: 10.1002/nbm.1683. (PMID: 21462378)
+
+DESIGN
+The microarray data from the luminal-like and basal-like xenograft models were compared for selected genes, using Limma Bioconducotr package
+

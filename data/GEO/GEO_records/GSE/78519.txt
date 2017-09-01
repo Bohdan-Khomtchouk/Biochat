@@ -1,0 +1,12 @@
+TITLE
+Capicua-dependent transcriptional changes in human cancer cell lines treated with trametinib
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We performed a genome-scale CRISPR screen in a KRAS-mutant pancreatic cancer cell line treated with the MEK inhibitor trametinib, and found that loss of the transcriptional repressor CIC confers resistance to MEK inhibition. We determined that CIC loss also confers resistance to MEK or BRAF inhibition in lung cancer, colorectal cancer, and melanoma cell lines with mutant RAS or BRAF. CIC is a transcriptional repressor that is phosphorylated and inhibited by the MAPK pathway. We hypothesized that inhibition of the MAPK pathway would lead to activation of CIC and repression of CIC target genes. Loss of CIC would therefore restore expression of these genes, conferring drug resistance. To identify the relevant CIC target genes that mediate trametinib resistace, we generated 4 Cas9-expressing cell lines from different lineages and with different RAS or RAF mutations, and generated control (gGFP) or CIC-knockout (gCIC) cell lines. We treated cells with DMSO or trametinib for 24 hours, and performed NRA-seq. We found that trametinib treatment reduces expression of at least one member of the PEA3 family of ETS transcription factors (ETV1, ETV4, and ETV5) in all cell lines assessed, and that loss of CIC results in maintained expression of these genes despite MEK inhibition. We further validated that ETV1, 4, and 5 expression was necessary for resistance mediated by CIC loss; and that ETV1, 4, or 5 expression was sufficient to confer trametinib resistance.
+
+DESIGN
+4 Cas9-expressing human cancer cell lines (A549, CALU1, HCT116, PATU8902) were used to generate 3 isogenic cell lines with intact CIC (gGFP-1) or knocked out CIC (gCIC-1 or gCIC-2). Each of these 12 cell lines were treated with DMSO or trametinib for 24 hours (duplicates)
+

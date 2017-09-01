@@ -1,0 +1,12 @@
+TITLE
+Ciliary Hedgehog signaling restricts injury-induced adipogenesis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Injured skeletal muscle regenerates, but with age or in muscular dystrophies, muscle is replaced by fat. Upon injury, muscle-resident fibro/adipogenic progenitors (FAPs) proliferated and gave rise to adipocytes. These FAPs dynamically produced primary cilia, structures that transduce intercellular cues such as Hedgehog (Hh) signals. Genetically removing cilia from FAPs inhibited intramuscular adipogenesis, both after injury and in a mouse model of Duchenne muscular dystrophy. Blocking FAP ciliation also enhanced myofiber regeneration after injury and reduced myofiber size decline in the muscular dystrophy model. Hh signaling through FAP cilia regulated the expression of TIMP3, a secreted metalloproteinase inhibitor, that inhibited MMP14 to block adipogenesis. A pharmacological mimetic of TIMP3 blocked the conversion of FAPs into adipocytes, pointing to a strategy to combat fatty degeneration of skeletal muscle. We conclude that ciliary Hh signaling by FAPs orchestrates the regenerative response to skeletal muscle injury.
+
+DESIGN
+Transcriptomic profiling using RNAseq was performed on RNA derived from a bipotent, progenitor cell population, called fibro/adipogenic progenitors (FAPs), purified from tibialis anterior muscle 3 days post glycerol injury. Two populations of cells were sequenced, one from wild type muscle (FAP-ctrl) and another from cells in which cilia, using a floxed Ift88 allele, were conditionally deleted (FAP-no cilia). A total of five FAP-ctrl and 3 FAP-no cilia samples were used. The TruSeq Stranded Total RNA Library Prep Kit (Ilumina) was used to generate the library, which was subsequently sequenced using an Illumina 2500 SE 50bp platform and aligned to the GRCm38.78 whole genome using STAR RNAseq aligner. Individual read counts were normalized to the geometric mean read count across all samples using DEseq. Sequencing yielded ~314 million total reads with an average read depth of ~34.9 million reads per sample.
+

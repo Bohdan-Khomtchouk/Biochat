@@ -1,0 +1,12 @@
+TITLE
+The ABRF Next-Generation Sequencing Study (ABRF-NGS): Multi-platform and cross-methodological reproducibility of transcriptome profiling by RNA-seq [454 GS FLX Titanium]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Next-generation sequencing (NGS) technology applications like RNA-sequencing (RNA-seq) have dramatically expanded the potential for novel genomics discoveries, but the proliferation of various platforms and protocols for RNA-seq has created a need for reference data sets to help gauge the performance characteristics of these disparate methods.  Here we describe the results of the ABRF-NGS Study on RNA-seq, which leverages replicate experiments across multiple sites using two reference RNA standards tested with four protocols (polyA selected, ribo-depleted, size selected, and degraded RNA), and examined across five NGS platforms (Illumina’s HiSeqs, Life Technologies’ Personal Genome Machine and Proton, Roche 454 GS FLX, and Pacific Biosciences RS).  These results show high (R2 > 0.9) intra-platform consistency across test sites, high inter-platform concordance (R2 > 0.8) for transcriptome profiling, and a large set of novel splice junctions observed across all platforms.  Also, we observe that protocols using ribosomal RNA depletion can both salvage degraded RNA samples and also be readily compared to polyA-enriched fractions.  These data provide a broad foundation for standardization, evaluation and improvement of RNA-seq methods.
+
+DESIGN
+Two reference RNA standards tested with four protocols (polyA selected, ribo-depleted, size selected, and degraded RNA), and examined across five NGS platforms (Illumina’s HiSeqs, Life Technologies’ Personal Genome Machine and Proton, Roche 454 GS FLX, and Pacific Biosciences RS). Please note that the samples were named following the ABRF-Platform-Site-Sample-Replicate# format. For example, ABRF-454-CNL-A-1 means Sample A was run on 454 platform at Cornell and this is the first replicate, and  ABRF-454-CNL-A-2 means the same exact sample was ran with same machine at same location and is 2nd replicate.
+

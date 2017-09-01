@@ -1,0 +1,12 @@
+TITLE
+COHCAP: City of Hope CpG Island Analysis Pipeline
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+COHCAP (City of Hope CpG Island Analysis Pipeline) is an algorithm to analyze single-nucleotide resolution DNA methylation data. It provides QC metrics, differential methylation for CpG Sites, differential methylation for CpG Islands, integration with gene expression data, and visualization of methylation values.  COHCAP is currently the only DNA methylation package that can handle integration with gene expression data, and the results of this study show that COHCAP can identify regions of differential methylation with ~50% concordance with gene expression.  COHCAP is scalable for analysis of both cell line data and heterogeneous patient data, and it can identify known cancer biomarkers as well as intriguing new roles of epigenetic regulation in cancer (such as methylation of estrogen receptor in breast cancer patients). This study also uses cell line data to show that COHCAP is capable of analyzing Illumina methylation array and targeted bisulfite sequencing data, with either 1-group or 2-group study designs.  The accuracy of COHCAP is accessed using qPCR, EpiTect, and comparison of COHCAP regions of differential methylation with MIRA peaks.  This software is freely available at The following third-party datasets were utilized in the paper: BS-Seq data: GSE26826 Additional Microarray Data: GSE29290 This SuperSeries is composed of the SubSeries listed below.
+
+DESIGN
+Refer to individual Series.
+

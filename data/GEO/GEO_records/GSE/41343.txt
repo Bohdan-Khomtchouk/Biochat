@@ -1,0 +1,12 @@
+TITLE
+Genome-wide DNA methylation profiles of non-small cell lung carcinomas and control lung tissues
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Generate genome-wide methylation profiles of non-small cell lung carcinomas (NSCLC) and their matching lung tissues for detection of hypermethylated and hypomethylated regions present in the tumors. Methods: MethylCapture followed by next-generation sequencing (Illumina GAIIx) of 7 nsclc tumor samples and paired lung tissues in replicated, plus one cell line, 2 fully artificially methylated and 2 fully artificially unmethylated controls. Normalization of methylation reads based on CpG coupling factor–method. Relative methylation scores (rms) in 500bp non-overlapping windows. 90th percentile of rpm (reads per million) values for all 500bp genome-wide windows, with rpm < 1.33 were considered. Distributions of 10bp bins rms values within each 500bp genomic region were compared using both one-sided Student’s t-test and one-sided Wilcoxon rank-sum test. Testing was done separately for hypo- and hypermethylation and p-value threshold of 10-18. Results: MethylCap-seq data revealed strong positive correlation between replicate experiments and between paired tumor/lung samples. 14472 differentially methylated regions (DMR) with non-overlapping 500 bp windows were found.  57 DMRs were present in all NSCLC tumors. 287 were unique for squamous-cell carcinomas and 26 unique for adenocarcinomas. While hypomethylated DMRs did not correlate to any particular functional category of genes, the hypermethylated DMRs were strongly associated with genes encoding transcriptional regulators. Furthermore, subtelomeric regions and satellite repeats were hypomethylated in the NSCLC samples. Conclusion: We provide a resource containing genome-wide DNA methylation maps of NSCLC and their paired lung tissues, and comprehensive lists of known and novel DMRs and associated genes in NSCLC. The DMRs can be in further studies to develop sensitive biological markers for NSCLC, which may enable non-invasive diagnosis and early detection of the disease, and potentially allow histological classification.
+
+DESIGN
+MethylCap-seq of 7 nsclc tumor samples and paired lung tissues, plus 2 fully methylated and 2 fully unmethylated controls.
+

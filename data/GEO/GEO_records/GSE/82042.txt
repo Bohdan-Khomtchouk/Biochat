@@ -1,0 +1,12 @@
+TITLE
+Characterization of expression quantitative trait loci in extensively phenotyped pedigrees from Colombia and Costa Rica
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The observation that variants regulating gene expression (expression quantitative trait loci, eQTL) are at a high frequency among SNPs associated with complex traits has made the genome-wide characterization of gene expression an important tool in genetic mapping studies of such traits. As part of a study to identify genetic loci contributing to bipolar disorder and a wide range of BP-related quantitative traits in members of 26 pedigrees from Costa Rica and Colombia, we measured gene expression in lymphoblastoid cell lines derived from 786 pedigree members. The study design enabled us to comprehensively reconstruct the genetic regulatory network in these families, provide estimates of heritability, identify eQTL, evaluate missing heritability for the eQTL, and quantify the number of different alleles contributing to any given locus.
+
+DESIGN
+Lymphoblastoid cell lines (LCLs) were established by in vitro infection of peripheral blood mononuclear cells with Epstein Barr virus, and RNA was extracted from these cell lines and its expression quantified using Illumina Human HT-12 v4.0 Expression BeadChips. Expression values were background corrected, quantile normalized, log2 transformed, and corrected for major known batch effects. The outcome of these procedures is what we refer to as ‘probe expression’ for all subsequent analyses. After quality control filters, the 34,030 probes included in the final set were uniquely aligned to hg19, contained no common SNPs (as defined in dbSNP 137 or 138), queried 24,385 unique genes, and their expression was detected in at least one individual.  For a detailed description of the processing steps used at each site and the RNA quantification, normalization, and quality control procedures, see the supplementary note. Please note that charateristics FID, IID and DiagnosisBP1 represents family ID, individual ID and BP1 diagnosis (0= no BP1, 2= BP1), respectively.
+

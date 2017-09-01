@@ -1,0 +1,12 @@
+TITLE
+Prediction of lymph node involvement in breast cancer from primary tumor tissue using gene expression profiling and miRNAs.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Lymph node involvement is the most important prognostic factor in breast cancer, but little is known about the underlying molecular changes. First, to identify a molecular signature associated with nodal metastasis, gene expression analysis was performed on a homogeneous group of 96 primary breast tumors, balanced for lymph node involvement. Each tumor was diagnosed as a poorly differentiated, estrogen positive, her2-neu negative invasive ductal cancer. (Affymetrix Human U133 Plus 2.0 microarray chips). A model, including 241 genes was built and validated on an internal and external dataset performed with Affymetrix technology. All samples used for validation had the same characteristics as the initial tumors. The area under the ROC curve (AUC) for the internal dataset was 0.646 and 0.651 for the external datasets. Thus, the molecular profile of a breast tumor reveals information about lymph node involvement, even in a homogeneous group of tumors. However, an AUC of 0.65 indicates only a weak correlation. Our model includes multiple kinases, apoptosis related and zinc ion binding genes. Pathway analysis using the Molecular Signatures Database revealed relevant gene sets (BAF57, Van 't Veer). Next, miRNA profiling was performed on 82/96 tumors using Human MiRNA microarray chips (Illumina). Eight miRNAs were significantly differentially expressed according to lymph node status at a significance level of 0.05, without correcting for multiple testing. The analysis of the inverse correlation between a miRNA and its computationally predicted targets point to general deregulation of the miRNA machinery potentially responsible for lymph node invasion. In conclusion, our results provide evidence that lymph node involvement in breast cancer is not a random process.
+
+DESIGN
+Gene expression profiling: A training set of 96 patients and an independent internal dataset of 20 patients balanced for lymph node involvement was selected from the multidisciplinary breast centre database miRNA profiling not provided in this Series.
+

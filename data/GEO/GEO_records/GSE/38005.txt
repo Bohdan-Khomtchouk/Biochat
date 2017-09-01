@@ -1,0 +1,12 @@
+TITLE
+Comparison of genome-wide gene expression in wild-type and swd2.2delta fission yeast cells
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Swd2.2 is associated with the Cleavage and Polyadenylation Factor (CPF) in fission yeast. The CPF is required for the 3'end processing of RNAs. To establish the contribution of Swd2.2 to gene expression, we used single-strand tiling array hybridization. The results show that 47 genes are significantly down-regulated (FC≤1,9, p < 0,01) and 14 are up-regulated (FC≥1,9, p < 0,01) when Swd2.2 is missing. To establish the contribution of Swd2.2 to transcription termination, we also used these data as follows: for every gene in the genome whose 3'UTR was annotated (4727 genes), the average RNA signal intensity observed in the 3'UTR of the gene was compared to the average signal intensity observed in the ORF of the gene. This ratio was named " UTR ratio " . This UTR ratio was calculated for every gene, in swd2.2+ or swd2.2delta cells. The UTR ratio observed in swd2.2delta cells was then compared to the UTR ratio observed in swd2.2+ cells. When this ratio is superior to 1.5,  it means that there was proportionnally a 50% increase of the RNA signal in the 3'UTR of this gene when Swd2.2 was missing. We interpreted this observation as a transcription termination defect. We detected 780 genes (out of 4727) for which this was the case. This list is highy enriched for convergent, overlapping genes.
+
+DESIGN
+RNA extracted from swd2.2+ and swd2.2delta cells were retrotranscribed and labelled. These were then hybridized on an Affymetrix S. pombe Tiling 1.0FR Array (accession GPL7715). The data were established in triplicates.
+

@@ -1,0 +1,12 @@
+TITLE
+Unstressed HeLa cells and  ELAVL1/HuR knock down conditions: polyA RNA-Seq, small RNA-Seq, and PAR-CLIP
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Post-transcriptional gene regulation relies on hundreds of RNA binding proteins (RBPs) but the function of most RBPs is unknown. The human RBP HuR/ELAVL1 is a conserved mRNA stability regulator. We used PAR-CLIP, a method based on RNA-protein crosslinking, to identify transcriptome wide ~26,000 HuR binding sites. These sites were on average highly conserved, enriched for HuR binding motifs and mainly located in 3' untranslated regions. Surprisingly, many sites were intronic, implicating HuR in splicing. Upon HuR knock down, mRNA levels and protein synthesis of thousands of target genes was down regulated, validating functionality. HuR and miRNA binding sites tended to reside nearby but generally did not overlap. Additionally, HuR knock down triggered strong and specific up regulation of miR-7. In summary, we identified thousands of direct and functional HuR targets, found a human miRNA controlled by HuR, and propose a role for HuR in splicing.
+
+DESIGN
+PolyA mRNA was extracted from anti HuR siRNA treated and mock transfected HeLa cells to identify changes in mRNA expression and splicing. 2x100 paired end sequencing was performed according to the protocol on the Illumina HiSeq. PARCLIP was performed as in Hafner et. Al 2010 but with an antibody against endogenous HuR (3A2, Santa Cruz, sc-5261) in unstressed HeLa cells. We used, independently, 4-thiouridine (4SU) and 6-thioguanosine (6SG) to assess a possible nucleotide bias. As our proteomics measurements required labeling of cells in a special medium we also performed PAR-CLIP on cells grown in SILAC medium. Altogether we performed three PAR-CLIP experiments: 4SU labeling in standard DMEM medium, 4SU labeling in SILAC medium (as a replicate) and 6SG labeling in SILAC medium. Small RNA was extracted from anti HuR siRNA treated and mock transfected HeLa cells to identify changes in mRNA expression. Sequencing was performed on Illumina GAII using the standard sRNA 36cycle protocol.
+

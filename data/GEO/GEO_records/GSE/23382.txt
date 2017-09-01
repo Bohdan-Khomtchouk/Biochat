@@ -1,0 +1,12 @@
+TITLE
+Trichoderma atroviride transcript levels during mycoparasitism
+
+ORGANISM
+Trichoderma atroviride
+
+SUMMARY
+To investigate the potential role in mycoparasitism, microarrays were used to examine T. atroviride transcript levels when confronted with a potential prey (the plant pathogen Rhizoctonia solani) before contact, during first physical contact and during overgrowth of the host.
+
+DESIGN
+Two biological poolw by condition against a common reference control each sample hybridized in dye switch. On the two biological replicates we apply on the pretreated results the linear modeling approach implemented by lmFit and the empirical Bayes statistics implemented by eBayes from the limma R package (Smyth 2004).
+

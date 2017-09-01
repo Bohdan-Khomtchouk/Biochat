@@ -1,0 +1,12 @@
+TITLE
+Quantitative reduced representation bisulfite sequencing with unique molecular identifiers of single cell
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Reduced representation bisulfite sequencing (RRBS) has been proven a powerful method in DNA methylome profiling. Since the initial development of this method, the RRBS protocol has been modified in order to optimize it for genomic coverage, starting material, and library-construction throughput, which has resulted in new methods such as enhanced RRBS (ERRBS), double-enzyme RRBS (dRRBS), gel-free and multiplexed RRBS (mRRBS), and single-cell RRBS (scRRBS). However, each of these methods has failed to address PCR-derived duplication artifacts, which can bias the results of DNA methylation analyses. To overcome the aforementioned complication, we developed quantitative RRBS (Q-RRBS), a method in which unique molecular identifiers (UMIs) are used to eliminate PCR-induced duplication. By performing Q-RRBS on varying amounts of starting material, we determined that duplication-induced artifacts were more severe when small quantities of the starting material were used. However, through using the UMIs, we successfully eliminated these artifacts. Our results demonstrate that Q-RRBS is an optimal strategy for DNA methylation profiling of single cells or samples containing ultra-trace amounts of cells.
+
+DESIGN
+Quantitative Reduced Representation Bisulfite Sequencing (Q-RRBS) was performed on genomic DNA, single-cell (SC) samples to quantify the effects of duplication-induced artifacts on methylome profiling when using ultra-trace amounts of starting material.
+

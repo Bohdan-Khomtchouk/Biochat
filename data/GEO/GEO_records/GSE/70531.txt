@@ -1,0 +1,12 @@
+TITLE
+Systematic Functional Dissection of Common Genetic Variation Affecting Red Blood Cell Traits [Microarray]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association studies (GWAS) have successfully identified thousands of associations between common genetic variants and human disease phenotypes, but the majority of these variants are non-coding, often requiring genetic fine-mapping, extensive epigenomic profiling, and individual reporter assays to delineate potential causal variants. We employ a massively parallel reporter assay to simultaneous screen 2756 variants in strong linkage-disequilibrium with 75 sentinel variants associated with red blood cell traits. We show that this assay identifies elements with erythroid-specific endogenous regulatory activity. Across 23 variants, we conservatively identified 32 putative causal variants (PCVs). We demonstrate endogenous enhancer activity for three PCVs that predominantly affect the transcription of SMIM1, RBM38, and CD164 using targeted genome editing. Functional follow up of RBM38 delineates a key role for this gene in the dramatic alternative splicing program occurring during terminal erythropoiesis. Finally, we provide evidence for how common GWAS-nominated variants can disrupt cell-type specific transcriptional regulatory pathways.
+
+DESIGN
+We infected K562 cells with a HMD-GATA1 lentiviral vector that overexpresses GATA1 as described previously and below (Ludwig et al., 2014).  RNA was isolated 48 hours after infection and cDNA was synthesized as described below. Microarrays (GeneChip Human Gene 2.0 ST Arrays, Affymetrix) were performed on K562 for control (HMD) and GATA1 overexpression (HMD+GATA1). Raw files were processed and normalized using the RMA algorithm from the oligo package in R 3.2 (Carvalho and Irizarry, 2010). Differential expression analyses were conducted using limma (Ritchie et al., 2015). Gene set enrichment analysis (GSEA) was performed comparing GATA1 overexpression to control with gene set permutation (Subramanian et al., 2005). The erythroid differentiation signature gene set was derived by identifying the top 200 genes that were expressed significantly higher in intermediate erythroblasts (CD71+/ CD235a+) compared to colony forming unit erythroid cells (CD71+/ CD235a-) (Merryweather-Clarke et al., 2011). The GATA1 target gene set has been previously described (Ludwig et al., 2014).
+

@@ -1,0 +1,12 @@
+TITLE
+Genome-Wide Mapping Of Time-Series ChIP-Seq Data For Human ERα Breast Cancer Cell Line (MCF-7)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We report the genome-wide mapping of time-series ChIP-seq data sets of human breast cancer ERα cell line (MCF-7). The 4 time points cover the 0, 1, 4 and 24 hours, respectively. MCF-7 cells were maintained in a hormone-free medium (phenol red–free MEM with 2 mmol/L L-glutamine, 0.1 mmol/L nonessential amino acids, 50 units/mL penicillin, 50 Ag/mL streptomycin, 6 ng/mL insulin, and 10% charcoal-stripped FBS) for three days. MCF-7 cells were treated with DMSO at the 0 hour time point, and E2 (108 mol/L) at the 1, 4 and 24 hours. 5 x 107 cells were cross-linked with 1% formaldehyde for 10 min, at which point 0.125 M glycine was used to stop the cross-linking. In brief, after crosslinking, cells were treated by lysis buffers and sonicated to fragment the chromatin to a size range of 500-1000 bps. Chromatin fragments were then immunoprecipitated with 10ug of antibody/magnetic beads. The antibodies against ERα were purchased from Santa Cruz Biotechnology (Santa Cruz, sc-8005 X). After immunoprecipitation, washing and elution, ChIP DNA was purified by phenol:chloroform:isoamyl alcohol and solubilized in 70 μl of water. The ChIP DNA sample was run in 12% PAGE and the 100-300 bps DNA fraction was excised and eluted from the gel slice overnight at 4°C in 300 μl of elution buffer (5:1, LoTE buffer (3 mM Tris-HCl, pH 7.5, 0.2 mM EDTA)-7.5 M ammonium acetate) and was purified using a QIAquick purification kit (Qiagen, cat#:28104). The library was constructed using Illumina genomic DNA prep kit by following its protocol (Illumina, cat#:FC-102-1002), clusters were generated on the Illumina cluster station (Illumina, cat#:FC-103-1002), DNA samples (20 nM per sample) quantified by an Agilent Bioanalyzer, were loaded onto Illumina Genome Analyzer IIx (GAIIx) for sequencing according to the manufacturer's protocol. Reads generated from the Illumina GAIIx pipeline were aligned to the Human Genome Assembly (NCBI build 36.1/hg18) using the ELAND algorithm.
+
+DESIGN
+E2-treated experiments on human breast cancer ERα cell line (MCF-7) across the 4 time points.
+

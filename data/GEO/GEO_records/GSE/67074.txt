@@ -1,0 +1,12 @@
+TITLE
+Optimization of miRNA-seq Data Pre-Processing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Next-generation sequencing is currently the platform of choice for the discovery and quantification of miRNAs.  Despite this, there is no clear consensus on how the data should be pre-processed prior to conducting downstream analyses.  Often overlooked, data pre-processing is an essential step in data analysis: the presence of unreliable features and noise can affect the conclusions drawn from downstream analyses.  Using a spike-in dilution study, we evaluated the effects of several general-purpose aligners (BWA, Bowtie, Bowtie 2 and Novoalign), and normalization methods (counts-per-million, total count scaling, upper quartile scaling, Trimmed Mean of M, DESeq, linear regression, cyclic loess and quantile) with respect to the final miRNA count data distribution, variance, bias and accuracy of differential expression analysis.
+
+DESIGN
+A spike-in dataset was created using a 12x12 cyclic Latin Square design.  Twelve miRNAs from the Arabidopsis Thaliana genome that are not present in the human genome were selected as spike-in sequences.  RNA oligonucleotides were synthesized with phosphorylated 5’ ends and added at 12 different concentrations (0, 0.1, 0.2, 0.8, 1.6, 6.4, 12.8, 51.2, 102.4, 409.6, 819.2, 3276.8 amol) to 1μg Universal Human Reference RNA, with each concentration appearing once in each row and column of the design matrix.
+

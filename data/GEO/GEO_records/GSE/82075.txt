@@ -1,0 +1,12 @@
+TITLE
+Genome-wide identification of nitric-oxide regulated H3K9/14ac sites in Arabidopsis thaliana
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+We report on the identification of nitric-oxide regulated H3K9/14ac sites in Arabidopsis. For this purpose liquid grown Arabidopsis seedlings were treated with the natural NO-donor S-nitrosoglutathione (GSNO), GSNO in combination with the NO-scavenger cPTIO, GSH (control) or TSA (positive control). Material was crosslinked and harvested 3h and 16h after onset of the treatments. Then, quantitative analysis of the H3K9/14ac patterns across these treatment was performed using DiffBind. By comparison of the GSNO and GSNO/cPTIO treatment, NO-regulated H3K9/14ac sites were identified. These sites were then annotated to the nearest TSS. GO enrichment analysis revealed that NO affects H3K9/14ac at many stress-responsive and photosynthetic genes.
+
+DESIGN
+H3K9/14ac maps were generated for Arabidopsis seedlings treated with water (solvent control), GSNO, GSH, TSA or GSNO/cPTIO for 3h and 16h. The experiment was performed in two biological replicates, with input samples for each treatment/timepoint/biological replicate, resulting in a total of 40 samples. All samples were indexed, pooled and sequenced on an Illumina HiSeq2500. To obtain enough reads per sample the library had to be sequenced four times, resulting in at least 16 million reads per sample.
+

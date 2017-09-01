@@ -1,0 +1,12 @@
+TITLE
+Systematic reconstruction of molecular cascades regulating growth plate development using single-cell RNA-seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The growth plate, which comprises sequentially differentiated cell layers, is a critical structure for bone elongation and regeneration. Although several key regulators in growth plate development have been identified using primarily genetic perturbation, the systematic understanding is still limited. Here we used single cell RNA-seq to interrogate gene expression profiles of 217 single cells from growth plates, and developed the bioinfromatics pipeline Sinova to de-novo reconstruct physiological growth plate development in both temporal and spatial high-resolution. Our unsupervised model not only confirmed prior knowledge but also enabled systematic discovery of novel genes, potential signal pathways and surface markers CD9/CD200 to precisely depict the development. Sinova further identified effective transcriptional factor portfolio directing growth plate maturation, which was cross-validated experimentally using an in-vitro EGFP-Col10a screening system. Our case demonstrated systematic reconstructing of molecular cascades of a developmental process from single-cell profiling, and the workflow is readily transferable to other physiological scenarios.
+
+DESIGN
+217 single-cell RNA-seq for cell isolated from mouse growth plate at postnatal day7
+

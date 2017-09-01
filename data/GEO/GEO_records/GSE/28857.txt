@@ -1,0 +1,12 @@
+TITLE
+CENTDIST: Discovery of Co-associated Factors by Motif Distribution
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transcription factors (TFs) do not function alone but work together with other TFs (called co-TFs) in a combinatorial fashion to precisely control the transcription of target genes. Mining co-TFs is thus important to understand the mechanism of transcriptional regulation. Although existing methods can identify co-TFs, their accuracy depends heavily on the chosen background model and other parameters such as the enrichment window size and the PWM score cut-off. In this study, we have developed a novel web-based co-motif scanning program called CENTDIST ( ). In comparison to current co-motif scanning programs, CENTDIST does not require the input of any user-specific parameters and background information. Instead, CENTDIST automatically determines the best set of parameters and ranks co-TF motifs based on their distribution around ChIP-seq peaks. We tested CENTDIST on 14 ChIP-seq datasets and found CENTDIST is more accurate than existing methods. In particular, we applied CENTDIST on an Androgen Receptor (AR) ChIP-seq dataset from a prostate cancer cell line and correctly predicted all known co-TFs (8 TFs) of AR in the top 20 hits as well as discovering AP4 as a novel co-TF of AR (which was missed by existing methods). Taken together, CENTDIST, which exploits the imbalanced nature of co-TF binding, is a user-friendly, parameter-less, and powerful predictive web-based program for understanding the mechanism of transcriptional co-regulation.
+
+DESIGN
+Genome-wide binding analyses of AP4 in LNCaP with DHT (5alpha-dihydrotestosterone) stimulation using ChIP-Seq.
+

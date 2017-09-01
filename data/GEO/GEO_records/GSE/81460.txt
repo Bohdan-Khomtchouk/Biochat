@@ -1,0 +1,12 @@
+TITLE
+The RNA-binding profile of Acinus, a peripheral component of the Exon junction complex, reveals its role in splicing regulation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Acinus (Apoptotic Chromatin Condensation Inducer in the Nucleus) is an RNA-binding protein (RBP) originally identified for its role in apoptosis. It was later found to be an auxiliary component of the Exon Junction Complex (EJC), which is deposited at exon junctions as a consequence of pre-mRNA splicing. To uncover the cellular functions of Acinus and investigate its role in splicing, we mapped its endogenous RNA targets using individual-nucleotide resolution UV-crosslinking and immunoprecipitation (iCLIP). We observed that Acinus binds to pre-mRNAs, associating specifically to a subset of suboptimal introns, but also to spliced mRNAs. We also confirmed the presence of Acinus as a peripheral factor of the EJC. RNA-seq was used to investigate changes in gene expression and alternative splicing following siRNA-mediated depletion of Acinus in HeLa cells. This analysis revealed that Acinus is preferentially required for the inclusion of specific alternative cassette exons and also controls the faithful splicing of a subset of introns. Moreover, a large number of splicing changes can be related to Acinus binding, suggesting a direct role of Acinus in exon and intron definition. In particular, Acinus regulates the splicing of DFFA/ICAD transcript, a major regulator of DNA fragmentation. Globally, the genome-wide identification of RNA targets of Acinus revealed its role in splicing regulation as well as its involvement in other cellular pathways, including cell cycle progression. Altogether, this study uncovers new cellular functions of an RBP transiently associated with the EJC
+
+DESIGN
+We performed iCLIP in triplicates in HeLa cells transfected with a T7-Acinus S* (common part of Acinus L, S and S’) or a control empty vector (pCG). Peaks present in protein coding gene regions were detected using Pyicoclip (Althammer et al, 2011) after pooling the reads from the replicates. We carried out the iCLIP-seq of endogenous Acinus-L and Acinus-S/S’ in duplicates as well as a control iCLIP after IP with rabbit IgG in HeLa cells. We performed RNA-Seq on polyA+ RNA isolated from HeLa cells following siRNA knockdown of all three Acinus isoforms. Knockdown was performed in triplicate using an Acinus siRNA together with three independent control experiments using a non-targeting siRNA.
+

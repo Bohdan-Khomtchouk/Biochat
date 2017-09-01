@@ -1,0 +1,12 @@
+TITLE
+Expression data from pure/mixed blood and breast to test feasability of deconvolution of clinical samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Samples collected from human subjects in clinical trials possess a level of complexity, arising from multiple cell types, that can obfuscate the analysis of data derived from them. Blood, for example, contains many different cell types that are derived from a distinct lineage and carry out a different immunological purpose. Failure to identify, quantify, and incorporate sources of heterogeneity into an analysis can have widespread and detrimental effects on subsequent statistical studies. We used microarrays to detail a statistical approach to model expression from a mixed cell population as the weighted average of expression from different cell types. Consequently, we can accurately and efficiently estimate the abundance of various cell populations. Favoring computation over manual purification has its advantages, such as measuring responses of multiple cell types simultaneously, keeping samples intact, and identifying biologically relevant differentially expressed genes.
+
+DESIGN
+We mixed breast and blood biospecimens derived from female adults at the cRNA homogenate level in different proportions. Data was RMA normalized.
+

@@ -1,0 +1,9 @@
+TITLE
+CGH analysis of 39 Lactococcus lactis strains.
+
+ORGANISM
+Lactococcus lactis
+
+SUMMARY
+Pangenome arrays contain DNA oligomers targeting several sequenced reference genomes from the same species. In microbiology these can be employed to investigate the often high genetic variability within a species by comparative genome hybridization (CGH). The biological interpretation of pangenome CGH data depends on the ability to compare strains at a functional level, particularly by comparing the presence or absence of orthologous genes. Due to the high genetic variability, available genotype-calling algorithms can not be applied to pangenome CGH data. Therefore, we have developed the algorithm PanCGH that incorporates orthology information about genes to predict the presence or absence of orthologous genes in a query organism using CGH arrays that target the genomes of sequenced representatives of a group of microorganisms. PanCGH was tested and applied in the analysis of genetic diversity among 39 Lactococcus lactis strains from three different subspecies (lactis, cremoris, hordniae) and isolated from two different niches (dairy and plant). Clustering of these strains using the presence/absence data of gene orthologs revealed a clear separation between different subspecies and reflected the niche of the strains. Keywords: CGH, CGH analysis, orthology, Lactococcus lactis
+

@@ -1,0 +1,12 @@
+TITLE
+QS wild type and Aldh1a1-/- preadipocytes 2015
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The goal of this study was to identify preadipocyte signature genes that are dependent in aldehyde dehydrogenase 1a1 (Aldh1a1) by comparison genomes of the immortalized wild type and Aldh1a1-/- preadipocytes. Gene expression was measured using theAffymetrix GeneChip Mouse Gene ST 2.0 arrays.
+
+DESIGN
+Murine wild type (n=3, control) and Aldh1a1-/- preadipocytes (n=3) were cultured in standard DMEM medium containing 10% of calf serum. mRNA was isolated by RNeasy (Qiagen, Valencia, CA). RNA integrity was interrogated using the Agilent 2100 Bioanalyzer (Agilent Technologies). A 100ng aliquot of total RNA was linearly amplified.  Then, 5.5ug of cDNA was labeled and fragmented using the GeneChip WT PLUS reagent kit (Affymetrix, Santa Clara, CA) following the manufacturer's instructions. Labeled cDNA targets were hybridized to Affymetrix GeneChip Mouse Gene ST 2.0 arrays for 16 h at 45 °C rotating at 60rpm.  The arrays were washed and stained using the Fluidics Station 450 and scanned using the GeneChip Scanner 3000. Signal intensities were quantified by Affymetrix Expression Console version 1.3.1. Background correction and quantile normalization was performed to adjust technical bias, and probe-set expression levels were calculated by RMA method. After filtering above noise cutoff, there are 9,528 probe-sets that were tested by linear model. A variance smoothing method with fully moderated t-statistic was employed for this study and was adjusted by controlling the mean number of false positives. With a combined cutoff of 2-fold change and p-value of 0.0001 (controlling 1 false positive over all probe-sets), we declared 500 probe-sets as differential gene expression between Aldh1a1-/- and WT preadipocytes.
+

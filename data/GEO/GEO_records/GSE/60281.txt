@@ -1,0 +1,12 @@
+TITLE
+Combinatorial cis-regulation in Saccharomyces species
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Transcriptional control of gene expression is a result of complex interactions between the cis-regulatory elements (CRE) at gene promoters.  To understand the regulatory logic of a cell, we need to identify the CRE combinations that regulate gene expression.  We developed a sensitive computational method to identify phylogenetically conserved CRE combinations for any species of interest.  In contrast to previous methods, we do not need to align genomes to identify these combinations.  We applied the method in 7 sensu stricto and sensu lato Saccharomyces species.  80% of the predictions displayed some evidence of combinatorial transcriptional behavior in several existing datasets including 1) ChIP-chip data for co-localization of transcription factors, 2) gene expression data for co-expression of predicted regulatory targets, and 3) gene ontology databases for common pathway membership of predicted regulatory targets.  To establish definitive evidence that these CRE interactions influence TF occupancy, we performed ChIPseq experiments on transcription factors in a wild-type strain and strains in which a predicted cofactor was deleted.  Our experiments showed that TF occupancy at the promoters of the CRE combination target genes depends on the predicted cofactor while occupancy of other promoters is independent of the predicted cofactor.
+
+DESIGN
+ChIP-seq of 6 myc-tagged Transcription factors in wild-type and predicted co-factor knockout yeast strains in triplicate
+

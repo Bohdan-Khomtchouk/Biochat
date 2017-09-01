@@ -1,0 +1,12 @@
+TITLE
+GAS5 controls Nodal autocrine in Human Embryonic Stem Cells Self-Renewal through competing endogenous mechanism
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Long non-coding RNAs (lncRNAs) are recently characterized players that are involved in the regulatory circuitry of self-renewal in human embryonic stem cells (hESCs). However, the specific roles of lncRNAs in this circuitry are poorly understood. Here, we determined that growth-arrest-specific transcript 5 (GAS5), which is a known tumor suppressor and growth arrest gene, is abundantly expressed in the cytoplasm of hESCs and essential for hESC self-renewal. GAS5 depletion in hESCs significantly impaired their pluripotency and self-renewal ability, whereas GAS5 overexpression in hESCs accelerated the cell cycle, enhanced their colony formation ability and increased pluripotency marker expression. By RNA sequencing and bioinformatics analysis, we determined that GAS5 activates NODAL-SMAD2/3 signaling by sustaining the expression of NODAL, which plays a key role in hESC self-renewal but not in somatic cell growth. Further studies indicated that GAS5 functions as a competing endogenous RNA (ceRNA) to protect NODAL mRNA against degradation and that GAS5 transcription is directly controlled by the core pluripotency transcriptional factors (TFs). Taken together, we suggest that the core TFs, GAS5 and NODAL-SMAD2/3 form a feed-forward loop to maintain the hESC self-renewal process. These findings are specific to ESCs and did not occur in the somatic cell lines we tested; therefore, our findings also provide evidence that the functions of lncRNAs vary in different biological contexts.
+
+DESIGN
+We analyzed long non-coding RNAs in two hESC cell lines (X-01 and H1), and found GAS5 is highly expressed and functional in maintaining hESC self-renewal. We generate stable overexpressed or knockdown hESC cell lines using lentiviral approach. We transfected cells initialy after passage, and lentiviruses are added with daily medium change for three days (at a final concentration of 10^5 IU/ml). Puromycin is added for selection and supplied with daily medium change. Stable cell lines are established after two passages and verified under fluorescence scope. Total RNAs and miRNAs are extracted separately of all three cell lines (LV-NC, LV-GAS5 and LV-shGAS5) and put to sequencing.
+

@@ -1,0 +1,12 @@
+TITLE
+RNA-seq assessment of morpholino knockdown of the sea star (Patiria miniata) Pm-Tbr transcription factor in early embryos
+
+ORGANISM
+Patiria miniata
+
+SUMMARY
+Purpose: The Tbrain transcription factor has demonstrated an evolved preference for low-affinity, secondary site binding motifs between the sea star and sea urchin orthologs. We sought to identify targets of sea urchin and sea star orthologs of Tbr. Because less is known about the function of Tbr during sea star development, we used RNA-seq in conjuction with ChIP-seq studies (GEO:xxxx) to determine the targets of sea star Tbr in early development. Methods: Sea star (Patiria miniata) embryos were injected with translation-blocking morpholino antisense oligonucleotides to knock-down PmTbr expression, as described previously. Control morpholinos were injected into sibling embryos. Embryos were allowed to develop until hatching (30-36 hpf) at which point injected embryos were collected and RNA was extracted. RNA-seq libraries were prepared, sequenced, and analyzed using standard protocols. Results: There are 2,562 genes that are significantly differentially expressed relative to control morpholino inected embryos (FDR < 0.05). There are roughly equivalent numbers of genes down-regulated (1,041) and up-regulated (1,521) by Pm-tbr knockdown, suggesting that PmTbr may act as both a transcriptional activator and repressor. 1,165 differentially expressed genes are located within 75 kb of a PmTbr binding site determined using ChIP-seq, and this set is used as a basis for comparison between sea star and sea urchin binding sites. Conclusions: 1,165 targets of the PmTbr transcription factor were identified based on differential expression following knockdown and the presence of transcription factor binding sites proximal to differentially expressed genes. There are an equal number of up- and down-regulated targets, suggesting Tbr may function as a transcriptional activator and repressor, depending on context and target gene. There was no clear association of motif utilization with either the direction of differential expression or ontological category of the target gene. There are only a small fraction of target genes (approximately 10%) that are in common between the sea star and sea urchin sets.
+
+DESIGN
+mRNA sensitive to PmTbr knockdown were determined by measuring RNA from blastula embryos injected with either anti-Pm-Tbr morpholino antisense oligonucleotides or a control MASO, in triplicate, followed by sequencing using Illumina HiSeq 2500
+

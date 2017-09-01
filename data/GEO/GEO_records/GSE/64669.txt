@@ -1,0 +1,12 @@
+TITLE
+Expression data from diploid and aneuoploid human pluripotent stem cells-derived teratomas
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Teratoma formation is the gold standard assay for testing the capacity of human stem cells to differentiate into all embryonic germ layers. Although widely used, little effort has been made to transform this qualitative assay into a quantitative one. Using gene expression data from a wide variety of cells, we created a gene scorecard representing tissues from all three germ layers as well as an extraembryonic tissue. A calculated grade using this gene list successfully distinguishes pluripotent stem cell-initiated teratomas from malignant tumors, thereby translating cell potency into a quantitative measure. This new methodology, named TeratoScore, thus assesses the pluripotency of human cells, and is easily performed using an open-source code. The new teratoma database also allowed us to examine the gene expression differences between tumors with a diploid karyotype and those initiated by aneuploid cells. We found that while teratomas originating from aneuploid cells pass the TeratoScore benchmark for pluripotency, they exhibit aberrant gene expression congruent with human chromosomal syndromes (such as Down syndrome). This gene expression signature is significantly different from that of teratomas originating from diploid cells, particularly in central nervous system-specific genes, suggesting aberrant teratomas may be beneficial for in vivo disease modeling. Teratoma formation followed by TeratoScore analysis can rapidly assess cell potency and allows comparison between different pluripotent cell lines.
+
+DESIGN
+Total RNA was extracted from hPSC (diploid or aneuploid)-derived teratomas using RNeasy mini kit (Qiagen), according to the manufacture instruction. RNA was subjected to Human Genome U133 Plus 2.0 microarray platform (Affymetrix); washing and scanning were performed according to the manufacturer’s protocol
+

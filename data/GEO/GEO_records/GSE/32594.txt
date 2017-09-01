@@ -1,0 +1,12 @@
+TITLE
+Nrf2b: a novel zebrafish paralog of the oxidant-responsive transcription factor Nrf2.
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+We identified a novel paralog of the antioxidant response element transcription factor, Nrf2 in zebrafish.  To determine whether the paralogs Nrf2a and Nrf2b regulate different sets of genes, we performed loss-of-function experiments followed by microarray-based gene expression profiling, performed on embryos in which expression of Nrf2a, Nrf2b, or both paralogs was knocked down.
+
+DESIGN
+Embryos at the 1-4 cell stage were injected with 3-5 nl of a control morpholino (MO) or gene-specific MO to knockdown Nrf2a, Nrf2b, or a Nrf2a+b combination. At 48 hpf, triplicate groups of 5 embryos were exposed to 2 µM of tert butyl hydroquinone or 2% DSMO for 4 hours. At 52 hpf, embryos were fixed in RNA Later and stored at -80°C. RNA was extracted, bioanalyzed, labeled with Cy3 and hybridized to the Agilent V3 4x44K zebrafish microarray (cat. #G2519F-026437) at the Genome Technology Core of the Whitehead Institute (Cambridge, MA). Raw array data obtained from the Whitehead Institute were extracted using Agilent's feature extraction software using background detrending (spatial and multiplicative).Prior to normalization, Cy3 values below 5 were set to 5. The data were then normalized using the non-linear scaling method based on rank invariant probes. After normalization but before statistical analyses, probes not significantly above background in all microarrays were removed (3147 probes in all; based on Agilent’s 2.6 standard deviation method). None of the probes were saturated for Cy3 signal on any microarray, so no further filtering was applied. There were a total of 40,456 probes for statistical analyses. Statistical tests were performed using MeV v4. Data were log transformed and median centered for each probe. An ANOVA was run for morpholino injection, with p-value based on 1000 permutations of the data and alpha of 0.01. The probes found significant in the ANOVA were subsequently examined using Rank Product (RP) analysis to identify probes up- and down-regulated by the MO injection For each RP test, a two-class unpaired RP analysis was performed using 100 permutations of the data with a false discovery rate (FDR) ≤10%.
+

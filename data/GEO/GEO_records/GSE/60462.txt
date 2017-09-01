@@ -1,0 +1,12 @@
+TITLE
+iRNA-seq: Computational method for genome wide assessment of acute transcriptional regulation from total RNA-seq data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA-seq is a sensitive and accurate technique to compare steady state levels of RNA between different cellular states. However, as it does not provide an account of transcriptional activity per se, other technologies are needed to more precisely determine acute transcriptional responses. Here, we have developed an easy, sensitive and accurate novel method, iRNA-seq, for genome-wide assessment of transcriptional activity based on analysis of intron coverage from total RNA-seq data. To test our method, we have performed total RNA-seq and RNA polymerase II (RNAPII) ChIP-seq profiling of the acute transcriptional response of human adipocytes to TNFα treatment and analyzed these using iRNA-seq in addition to different publically availbale dataset.  Comparison of the results derived from iRNA-seq analyses with results derived using current methods for genome-wide determination of transcriptional activity, i.e. Global Run-On (GRO)-seq and RNA polymerase II (RNAPII) ChIP-seq, demonstrate that iRNA-seq provides very similar results in terms of number of regulated genes and their fold change. However, unlike the current methods that are all very labor-intensive and demanding in terms of sample material and technologies, iRNA-seq is cheap and easy and requires very little sample material. In conclusion, iRNA-seq offers an attractive novel alternative to current methods for determination of changes in transcriptional activity at a genome-wide level.
+
+DESIGN
+Genome-wide assesment of the acute transcriptional response to TNFa in human SGBS adiposytes using total RNA-seq data end RNAPII ChIP-seq
+

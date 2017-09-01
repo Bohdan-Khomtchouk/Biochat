@@ -1,0 +1,12 @@
+TITLE
+ChIP-seq. analysis of pan-histone 3 acetylation in Romidepsin treated TCam-2
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+ChIP-seq. analysis of TCam-2 16 h after 10 nanomolar Romidepsin application. DMSO treated cells were used as controls. For ChIP, an antibody against histone H3 pan-acetylation was used. These data are part of the article 'The Histone Deacetylase Inhibitor Romidepsin Efficiently Targets Cisplatin-resistant Germ Cell Cancer Cells via Downregulation of the SWI/SNF-Complex Member ARID1A' (Nettersheim et al., 2016).
+
+DESIGN
+TCam-2 cells treated for 16h with romidepsin or the solvent were fixed by formaldehyde solution and further processed by Active Motif, including DNA shearing by sonication, chromatin-immunoprecipitaion, library generation and sequencing (NextSeq 500, Illumina). Pooled input DNA of each sample including spike-in Drosophila DNA was used as controls and for normalization. The 75-nt sequence reads were mapped against the genome using BWA algorithm. Duplicate reads were removed. Only peaks that align with no more than 2 mismatches and map uniquely to the genome were used for further analysis. Intervals / peaks were identified by the MACS peak finding algorithm (cutoff p-value 1x10-7) including ENCODE blacklist filtering
+

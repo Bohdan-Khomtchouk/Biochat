@@ -1,0 +1,12 @@
+TITLE
+Native Elongating Transcript Sequencing Reveals Human Transcriptional Activity at Nucleotide Resolution
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Major features of transcription by human RNA polymerase II (Pol II) remain poorly defined due to a lack of quantitative approaches for visualizing Pol II progress at nucleotide resolution. We developed a simple and powerful approach for performing native elongating transcript sequencing (NET-seq) in human cells that globally maps strand-specific Pol II density at nucleotide resolution. NET-seq exposes a mode of antisense transcription that originates downstream and converges on transcription from the canonical promoter. Convergent transcription is associated with a distinctive chromatin configuration and is characteristic of lower-expressed genes. Integration of NET-seq with genomic footprinting data reveals stereotypic Pol II pausing coincident with transcription factor occupancy. Finally, exons retained in mature transcripts display Pol II pausing signatures that differ markedly from skipped exons, indicating an intrinsic capacity for Pol II to recognize exons with different processing fates.
+
+DESIGN
+10 samples were analyzed. NET-seq data for HeLa S3 cells consisted in 2 WT biological replicates (HeLaS3_Rep1 and HeLaS3_Rep2), 1 treatment condition (HeLaS3_FP) and 1 control for the treatment condition (HeLaS3_DMSO). NET-seq data for HEK293T cells consisted in 2 WT biological replicates (HEK293T_Rep1 and HEK293T_Rep2). RNA-seq data for HeLa S3 cells consisted in the 3 cellular fractions in WT condition (HeLaS3_chromatin_RNAseq, HeLaS3_nucleoplasm_RNAseq and HeLaS3_cytoplasm_RNAseq). RNA-seq data for HEK 293T cells consisted in the cytoplasmic fraction in WT condition (HEK293T_cytoplasm_RNAseq)
+

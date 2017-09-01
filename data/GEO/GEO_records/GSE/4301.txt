@@ -1,0 +1,9 @@
+TITLE
+Diverse and specific gene expression responses to stresses in cultured human cells.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+TT3 and TN are cell cycle time courses and should be centered or transformed before clustering or computing fourier scores.  The preferred method is SVD centering preceded by KNNImpute missing-value estimation, although mean-centering is a viable alternative.     Hela Heat 42 degrees time course has 2 zeroes (the second is labeled " Cold 25 degrees 0h " ).  Normalization is by centering or zero transformation (average 2 zeroes)  WI38 Crowding (1-3 days) was by plating cells at ~50%? confluence and allowing to age.  The zeroes are the same as for WI38 Heat Shock (there are 2)  Other time courses should be self-explanatory.  They have 1-4 zeroes each and can be treated either by centering or zero-transforming. WI38 Set of arrays organized by shared biological context, such as organism, tumors types, processes, etc. Keywords: Logical Set
+

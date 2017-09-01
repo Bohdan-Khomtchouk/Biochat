@@ -1,0 +1,12 @@
+TITLE
+Metformin Induces Dicer via Regulation of the RNA-binding protein AUF1
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Metformin has been commonly used for decades to treat type 2 diabetes. Recent data indicates that mice treated with metformin live longer and healthier lives. Here, we show that chronic metformin exposure in mice and diabetics taking metformin have higher levels of the microRNA processing protein, Dicer. Examination of how metformin affects Dicer expression revealed that metformin alters binding of the AUF1 RNA-binding protein to DICER1 mRNA, which leads to stabilization of DICER1 mRNA. We found differential changes in microRNA expression in mice treated with metformin or caloric restriction, a proven life extending intervention.  Several of these microRNAs are important for regulating cellular senescence and lifespan in model organisms. Consistent with this observation, treatment with metformin decreased cellular senescence in a Dicer-dependent manner. These data lead us to hypothesize that changes in Dicer levels may be important for organismal aging and that interventions that upregulate Dicer expression (e.g., metformin) may offer new therapeutic approaches to combat or prevent age-related diseases. Key words:  diabetes mellitus, metformin, senescence, miRNA, RNA-binding proteins
+
+DESIGN
+Groups of one-year old male B6C57/J mice were maintained on ad libitum AIN-93G SD diet, a 40% caloric restriction of the AIN-93G SD diet, or an ad libitum AIN-93G diet supplemented with 0.1% w/w metformin for the rest of their lives. Five mice from each of these 3 groups were selected and total RNA including miRNAs was isolated from the liver using the Absolutely RNA miRNA Kit (Agilent). Quality and quantity of the samples was checked with the Agilent 2100 bioanalyzer using RNA 6000 Nano chips.   The Agilent miRNA Complete Labeling and Hyb Kit was used to generate fluorescently-labeled miRNA. This method involves the ligation of one Cyanine 3-pCp molecule to the 3' end of the RNA molecules.   Arrays were hybridized to Agilent Mouse miRNA Microarray Release 15.0, 8x15K arrays using the entire labeled RNA product at 55 degrees C for at least 20 hours.  The arrays were washed, and the bound miRNA was scanned in the Agilent scanner at 5um resolution.  The data was extracted using Agilent's Feature Extractor Version 11.5.1.1, and this data was analyzed after z-score normalization. The natural log of all scores were used to find the avg and std of each array and the z-score normalization was calculated.  Z-score = (raw value - avg)/std
+

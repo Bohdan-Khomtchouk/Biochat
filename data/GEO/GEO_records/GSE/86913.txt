@@ -1,0 +1,12 @@
+TITLE
+Global analysis of double-strand break processing reveals in vivo properties of the helicase-nuclease complex AddAB
+
+ORGANISM
+Caulobacter vibrioides
+
+SUMMARY
+In bacteria, double-strand break (DSB) repair via homologous recombination is thought to be initiated through the bi-directional degradation and resection of DNA ends by a helicase-nuclease complex such as AddAB. The activity of AddAB has been well-studied in vitro, with translocation speeds between 400-2000 bp/s on linear DNA suggesting that a large section of DNA around a break site is processed for repair. However, the translocation rate and activity of AddAB in vivo is not known, and how AddAB is regulated to prevent excessive DNA degradation around a break site is unclear. To examine the functions and mechanistic regulation of AddAB inside bacterial cells, we developed a next-generation sequencing-based approach to assay DNA processing after a site-specific DSB was introduced on the chromosome of Caulobacter crescentus. Using this assay we determined the in vivo rates of DSB processing by AddAB and found that putative chi sites attenuate processing in a RecA-dependent manner. This RecA-mediated regulation of AddAB prevents the excessive loss of DNA around a break site, limiting the effects of DSB processing on transcription. In sum, our results, taken together with prior studies, support a mechanism for regulating AddAB that couples two key events of DSB repair-the attenuation of DNA-end processing and the initiation of homology search by RecA-thereby helping to ensure that genomic integrity is maintained during DSB repair.
+
+DESIGN
+Whole genome sequencing experiments were performed on (i) untreated swarmer cells and double-strand break induced swarmer cellsof Caulobacter crescentus CB15N; (ii) on induced swarmer cells that lack addAB or recA or express a non-cleavable mutant of lexA or recA(K83A); (iii) on induced swarmer cells harboring chi insertions 30kb or 100kb from the break-site; and (iv) on induced swarmer cells treated with mung bean nuclease.     RNA-seq experiment were performed on RNA extracted from (i) wild-type CB15N swarmer cells ; (ii) swarmer cells induced for double-strand break; and (iii) swarmer cells lacking addAB or recA induced for double-strand break
+

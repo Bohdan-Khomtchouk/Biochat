@@ -1,0 +1,12 @@
+TITLE
+Expression analysis of genes in the lamina joint of lc1 mutant compared with that of wild-type
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+The angle of rice leaf inclination is an important agronomic trait and closely related to the yield and architecture of crops. Through genetic screening, a rice gain-of-function mutant leaf inclination1, lc1, was identified . Phenotypic analysis confirmed the exaggerated leaf angels of lc1 due to the stimulated cell elongation at the collar.In this series, we compare the transcriptome of zhonghua11 and lc1  collar.
+
+DESIGN
+The lamina joint (1-cm long) of the flag leaves of lc1 and WT plants were collected and frozen in liquid nitrogen, which were then used for RNAs extraction. The obtained RNA samples were processed as recommended by Affymetrix, including RNA extraction, converting to double-stranded cDNA, and synthesis of biotin-labeled copy RNA. Fifteen micrograms of biotin-labeled copy RNA was purified and fragmented into 35- to 300-nucleotide fragments and then hybridized with a Rice genome array (Affymetrix). The hybridization was performed with two biological replicates for each sample. After hybridization, arrays were scanned using an Agilent GeneArray scanner (Affymetrix G2500A). Microarray data were normalized using the Affymetrix Microarray Suit program (version 5.0). The algorithm absolute call flag was set to indicate the reliability of the data points according to P (present), M (marginal), and A (absent). Significant differences for each gene between the WT and lc1 mutant plants were examined using the Wilcoxon rank test of the Affymetrix Microarray Suit program (P < 0.01) and analysis of variance by fitting a mixed model in the MAANOVA package under R 1.8.0 for multiple testing (false discovery rate-corrected P < 0.05). Genes with the consensus significant difference in two independent samples were selected and listed. Annotations for the selected probe set identification were rechecked at the Affymetrix website.
+

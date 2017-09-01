@@ -1,0 +1,12 @@
+TITLE
+DMS-MaPseq: A genome-wide or targeted approach for RNA structure probing in vivo
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Here we present dimethyl sulfate mutational profiling with sequencing (DMS-MaPseq), which encodes DMS modifications as mismatches using a thermostable group II intron reverse transcriptase (TGIRT). DMS-MaPseq yields a high signal-to-noise ratio, can report multiple structural features for each molecule, and allows genome-wide studies as well as focused investigations of low abundance RNAs. We apply DMS-MaPseq to Drosophila melanogaster ovaries—the first experimental analysis of RNA structure in an animal tissue—and demonstrate its utility in the discovery of a functional RNA structure involved in the non-canonical GUG translation initiation of the human FXR2 mRNA. Additionally, we use DMS-MaPseq to compare the in vivo structure of messages in their pre-mRNA and mature forms. These applications illustrate DMS-MaPseq’s capacity to dramatically expand our ability to monitor RNA structure in vivo.
+
+DESIGN
+Development and application of novel RNA structure probing method in mammalian cells and Drosophila ovaries. Cells were treated with DMS in vivo and RNA was isolated. TGIRT was used to reverse transcribe either randomly fragmented mRNA or gene specific products. TGIRT inserts mismatches at the DMS modified RNA, which are read our mutations when sequencing dsDNA. Samples were prepared using standard library generation approaches (attaching a 3'linker, followed by RT,  circlularization and PCR for attaching sequencing adapters) or Nextera XT kit/ LM-PCR for gene specific samples.
+

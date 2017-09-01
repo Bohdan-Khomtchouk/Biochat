@@ -1,0 +1,12 @@
+TITLE
+Genome-wide analysis of histone modifications H3K27ac, H3K4me3, and H3K4me1 in differentiating primary human epidermal keratinocytes (NHEK)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The epidermis is a stratified squamous epithelium that serves to protect the body from dehydration, absorption of chemicals, and invasion of pathogens. In the epidermis, cells of the basal layer contain proliferative potential. As they divide and move upward in the tissue, they progressively differentiate, and activate the gene expression program required to create a barrier; eventually, cells in the uppermost layer are sloughed off from the surface of the epidermis. This system requires continual replacement of differentiating cells from the basal layer. Such a process requires very precise regulation of gene expression to balance proliferation and differentiation and maintain a functioning epithelium. Epigenetic mechanisms of gene regulation, including DNA methylation and histone modification have been shown to play a major role in tissue development and wound healing. To identify regulatory regions in differentiating epidermal cells, we performed ChIP-Seq with antibodies to H3K4me1, and H3K4me3 at 24 hours after induction of differentiation to complement publicly available ENCODE data for these marks in undifferentiated NHEK. With this data, we were able to identify enhancers, defined by the presence of high levels of H3K4me1 and H3K27ac, and low levels of H3K4me3. We identified approximately 20,000 of these regions each in undifferentiated and differentiated keratinocytes. Approximately 20 percent of these regions were shared between the two conditions, while about 30 and 43 percent were unique to differentiated and undifferentiated keratinocytes, respectively.
+
+DESIGN
+ChIP experiments for histone modifications H3K4me1, H3K27ac, and H3K4me3 were performed on primary human epidermal keratinocyte cells that had been induced to differentiate through the addition of  calcium (1.8mM Calcium Chloride)  to the medium for 24 hours prior to collection. After ChIP, libraries were sequenced on the Illumina high-seq 2000.
+

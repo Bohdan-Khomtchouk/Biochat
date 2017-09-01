@@ -1,0 +1,12 @@
+TITLE
+Genome-wide chromatin binding profiles for Zic1 and Geminin during neuroectodermal cell specification
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Cell intrinsic factors that control neuroectoderm specification of early embryonic cells include the nucleoprotein Geminin (Gmnn) and the Zic family of zinc finger transcription factors. Gmnn modulates chromatin state to activate neural gene expression during neural cell fate acquisition, while Gmnn deficiency in the forming neural plate disrupts transcriptional programs that control neural cell specification, neural plate patterning and neurogenesis, resulting in neural tube defects. Likewise, Zic1 over-expression promotes neural gene expression, while heterozygous deletion of Zic1/4 leads to Dandy-Walker malformation, the most common congenital cerebellar malformation. During embryonic development, Geminin and Zic1 expression is enriched in neuroectoderm from gastrula stages, with broad expression in the forming CNS during post-gastrula stages, when neural tube closure and neurogenesis are initiated. To gain a greater understanding of the molecular events that regulate neural cell specification, here we used ChIP-seq to define genome-wide chromatin binding profiles for Gmnn in embryonic stem cells (ESCs) and for Gmnn and Zic1 during specification of ESCs into neuroectoderm.
+
+DESIGN
+Genome engineering of the mouse embryonic stem cell line ES-E14TG2a (ATCC #CRL-1821) was used to generate clonal embryonic stem cell (ESC) lines with knock-in of a 3XTy1 epitope tag sequence at the Gmnn or Zic1 genomic locus. Clonal ESC lines expressing 3XTy1-tagged Gmnn or Zic1 proteins under the control of endogenous Gmnn or Zic1 regulatory sequences were used for ChIP-seq analysis. Two independent biological replicates per clone and two clones for each sample type were sequenced after Ty1 ChIP for the following sample types: (1) Ty1-Gmnn ChIP-seq in ESCs (clones 3.4 and 66), (2) Ty1-Gmnn ChIP-seq in ESC-derived neuroectoderm after 3 days of N2B27 monolayer culture (clones 3.4 and 66), and (3) Ty1-Zic1 ChIP-seq in ESC-derived neuroectoderm after 3 days of N2B27 monolayer culture (clones 6.8 and 8.9). Control samples sequenced for both ESCs and ESC-derived neuroectoderm included input and Ty1 ChIP from the original E14TG2a ESC line that does not express a Ty1-tagged fusion protein. Subtraction of these control samples (E14TG2a Ty1 ChIP and input) after sequencing was used to define specific peaks of ChIP enrichment.
+

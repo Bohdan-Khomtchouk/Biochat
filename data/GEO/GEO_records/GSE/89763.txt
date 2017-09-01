@@ -1,0 +1,12 @@
+TITLE
+IPTG-induced CRISPRi repression of firefly luciferase in Streptococcus pneumoniae
+
+ORGANISM
+Streptococcus pneumoniae
+
+SUMMARY
+Genome-wide screens have discovered a large set of essential genes in the human pathogen Streptococcus pneumoniae. However, the function of many essential genes is still unknown, hampering vaccine and drug development programs. Based on results from transposon-sequencing (Tn-Seq), we refined the list of essential genes in S. pneumoniae serotype 2 strain D39. Next, we created a knockdown library targeting all 391 potentially essential genes using CRISPR interference (CRISPRi). Using high-content microscopy screening, we searched for essential genes of unknown function with clear phenotypes in cell morphology upon CRISPRi-based depletion. We identified SPD1416 and SPD1417 (named to MurT and GatD, respectively) as essential peptidoglycan synthesis proteins and we show that SPD1198 and SPD1197 (named to TarP and TarQ, respectively) are responsible for the polymerization of teichoic acid (TA) precursors. This knowledge enabled us to reconstruct the unique pneumococcal TA biosynthetic pathway. Our CRISPRi library provides a valuable tool for characterization of pneumococcal genes and pathways and revealed several promising antibiotic targets. This RNA-Seq dataset is aimed to show that induction of the CRISPRi system very selectively represses its target gene, firefly luciferase, without other observable transcriptional effects.
+
+DESIGN
+Pairwise comparison of control and IPTG-induced cells (RNA-seq), analyzing the effect of CRISPRi activation on the transcriptome of Streptococcus pneumoniae. It was performed with deep sequencing, using an Illumina HiSeq 2000 machine with 51 nt single-end reads. Samples were analysed from duplicate samples. To separate CRISPRi-specific effects from general IPTG-induced effects, we compared the uninduced strains with IPTG-induced strains that either did or did not contain the single-guide RNA.
+

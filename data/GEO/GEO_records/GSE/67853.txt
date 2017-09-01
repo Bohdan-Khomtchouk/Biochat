@@ -1,0 +1,12 @@
+TITLE
+Exploring Molecular Determinants of Disease Progression in Psoriasis by Comparing Different Clinical Subtypes Having Similar Core Transcriptomes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To understand the mechanism of disease progression in psoriasis, we defined Asian small plaque psoriasis (small psoriasis) and Asian intermediate plaque psoriasis (intermediate psoriasis) as psoriasis subtypes with limited disease progression, and compared their cellular and molecular signatures with the classic subtype of Western large plaque psoriasis (large psoriasis; GSE30999).
+
+DESIGN
+Transcriptome analyses in pre-treatment skin biopsies from patients with Asian small and intermediate plaque psoriasis. 12 Asian small plaque psoriasis skin biopsy tissues (7 lesional and 5 non-lesional skin) and 15 Asian intermediate plaque psoriasis skin biopsy tissues (7 lesional and 8 non-lesional skin). GCRMA (using gcrma package from R/Bioconductor) and adjusted for batch effect. The expression data was combined with Western large psoriasis (GSE30999). Using a normalization based upon quantiles, the expression data was normalized based upon a specified normalization distribution of GSE30999 (see publication for GSE67853). The complete dataset representing: (1) 12 Asian small plaque psoriasis Samples, (2) 15 Asian intermediate plaque psoriasis Samples, and (3) 130 Western large plaque psoriasis Samples from GSE30999 (re-processed), is linked below as a supplementary file.
+

@@ -1,0 +1,12 @@
+TITLE
+New functional signatures for understanding melanoma biology from tumor cell lineage-specific analysis [two channel experiments]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The identification of molecular signatures specific to distinct tumor types is urgently required for the design of therapies overcoming treatment resistance. It remains unclear whether such signatures are shared among tumors and corresponding cell lines, a key issue given the use of cell lines for drug development. We developed SCA (similarity core analysis) an unsupervised computational framework for extracting the core molecular features common to tumors and corresponding cell lines. We  applied this algorithm to mRNA and miRNA expression data from various sources, comparing melanoma cell lines with melanoma metastases as an example. The signature obtained was associated with phenotypic characteristics  in vitro and the core genes  CAPN3 and  TRIM63 were identified as new actors in melanoma cell migration and invasion. About 90% of the genes in the melanoma signature are potentially regulated by an intrinsic network of transcription factors known to regulate neural development (TFAP2A, DLX2, ALX1, MITF, PAX3, SOX10, LEF1 and GAS7) and three miRNAs (211-5p, 221-3p, 10a-5p). The SCA signature effectively discriminated between two subpopulations of melanoma patients with significant difference in overall survival. Furthermore, it classified MEKi and BRAFi resistant and sensitive melanoma cell lines. The SCA algorithm is potentially applicable to any tumor cell type.
+
+DESIGN
+23 melanoma cell lines are analyzed in two color. Only the test (Cy5) channel of these data sets were used for analysis.
+

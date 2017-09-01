@@ -1,0 +1,12 @@
+TITLE
+PING 2.0: An R/Bioconductor package for nucleosome positioning using next-generation sequencing data
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+MNase-Seq and ChIP-Seq have evolved as popular techniques to study chromatin and histone modification. Although many tools have been developed to identify enriched regions, software tools for nucleosome positioning are still limited. We introduce a flexible and powerful open-source R package, PING 2.0, for nucleosome positioning using MNase-Seq data or MNase- or sonicated- ChIP-Seq data combined with either single-end or paired-end sequencing. PING uses a model-based approach, which enables nucleosome predictions even in the presence of low read counts. We illustrate PING using two paired-end datasets from Saccharomyces cerevisiae and compare its performance to nucleR and ChIPseqR.
+
+DESIGN
+Identification of nucleosomes from two different mononucleosomes data. A yeast strain (W303 background) with the HTZ1 gene expressed a fusion with a myc epitope was used to map total and Htz1-containign nucleosome by MNase-ChIP-Seq. Cells were grown to mid-log phase and monomucleosomes were generated using MNase treatment of isolated nuclei. Especially for the sample of SC0017_61YDGAAXX_8_TCATTC, the Htz1-containing nucleosomes were enriched by immunoprecipitation using an anti-Myc antibody (3E10). DNA from both total nucleosomes and Htz1-enriched nucleosomes were purified and sequenced on an Illumina GA IIx using the by paired-end protocol.
+

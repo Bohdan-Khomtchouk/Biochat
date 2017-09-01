@@ -1,0 +1,12 @@
+TITLE
+Synthetic circuit identifies subpopulations with sustained memory of DNA damage
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Differential responses to stimuli can affect how cells succumb to disease. In yeast, DNA damage can create heterogeneous responses. To delineate how a response contributes to a cell's future behavior, we constructed a transcription-based memory circuit that detects DNA repair to isolate subpopulations with heritable damage responses. Strongly responsive cells show multigenerational effects, including growth defects and iron-associated gene expression. Less-responsive cells exhibit increased mutation frequencies but resume wild-type behavior. These two subpopulations remain distinct for multiple generations, indicating a transmissible memory of damage. Collectively, this work demonstrates the efficacy of using synthetic biology to define how environmental exposure contributes to distinct cell fates.
+
+DESIGN
+Cells containing the HUG1 memory device (Burrill, 2011) were exposed to 0.3% EMS for 24 h and recovered for 36 h, at which point cells were sorted based on YFP expression, i.e. memory and non-memory cells. These two sorted populations were then grown for another 12 h, at which point transcriptional profiling was performed.
+

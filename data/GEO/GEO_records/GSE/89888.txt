@@ -1,0 +1,12 @@
+TITLE
+RNA-seq analysis of ESR1 mutations in T47D and MCF7 cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Transcriptome analysis of ESR1 mutant cells was performed via sequencing total RNA in T47D and MCF7 cell lines containing Y537S and D538G mutations.
+
+DESIGN
+Methods: Individual ESR1 WT and mutant T47D and MCF7 clones were hormone deprived in CSS for three days, pooled, and plated in quadruplicates in 6-well plates. The cells were treated with veh or 1nM E2 for 24 hrs, RNA was isolated and subjected to sequencing. Differential expression analysis was performed by DEseq2 and R was used to conduct statistical analysis tests
+

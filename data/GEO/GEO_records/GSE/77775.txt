@@ -1,0 +1,12 @@
+TITLE
+Affymetrix SNP 6.0 array data for gastric adenocarcinoma and some matched normals
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Using data from high-density genomic profiling arrays, we investigated the profiles of somatic copy-number aberrations (SCNAs) in 659 gastric adenocarcinomas drawn approximately even numbers of Asian and Western patients with two goals in mind: (1) using the power of our large data set to detect new, and refine existing, regions of significantly recurring SCNAs; (2) determining if there exist fundamental differences in the manifestation of gastric adenocarcinoma in Asian versus Western patients that affect pattern of SCNAs. Among the 83 regions of significant alteration we indeed found some new targets in gastric adenocarcinoma such as the tumor suppressor gene SMARCA4 and proto-oncogene MYB, and additionally refined the boundaries of known significant regions. We found only slight differences in the overall copy number patterns between Asian and Western gastric adenocarcinoma patients indicating that the disease is fundamentally similar in both populations and the divergent clinical outcomes cannot be ascribed to different underlying SCNAs. The 111 copy number profiles contained in this archive are the previously unpublished portion of our study.
+
+DESIGN
+Affymetrix SNP arrays were performed according to the manufacturer's directions on DNA extracted from 78 cancer DNAs derived from primary tissues, as well as from DNA obtained from 37 normal DNA samples. Signal intensities were normalized to raw copy number estimates using the tangent normalization method, as described in Beroukhim R. et al., Nature, 2010. The SNP 6.0 data from this submission were segmented using CBS. Data analysis across samples was performed using this GISTIC 2.0 algorithm (Mermel C. et al., Genome Biology 2011). Please note that [1] the 'GEW_SNP6_normalized_data_matrix.txt' contains the normalized copy number array data for the 111 samples. Genotype Call (SNP call) data are not provided and are not used in this study. [2] the 'GEW_SNP6_cbs.seg.txt' contains the segmented data for all 659 samples in our study including the 111 represented here. The segmentation for many of the samples published elsewhere is different. Our study is largely based on segmented data. [3] The 'GEW_SNP6_tumor_accessions.xlsx' incude the list of accessions and URLs for accessing all of the data (including the 111 novel samples represented here)
+

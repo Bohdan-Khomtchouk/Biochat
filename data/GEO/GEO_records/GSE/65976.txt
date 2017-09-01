@@ -1,0 +1,12 @@
+TITLE
+RNA-seq analysis of epididymal adipose tissue from wild-type and Maf1 knockout mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: To profile the effect of the Maf1 knockout on RNA polymerase II and RNA polymerase III transcriptomes in white adipose tissue
+
+DESIGN
+Methods: Epididymal adipose tissue was harvested from overnight fasted 22-24 week old male mice that had been fed ad libitum on a chow diet. Total RNA was prepared from three biologically independent samples per genotype and subject to single-end directional RNA sequencing on the Illumina HiSeq platform.  Sequence reads that passed quality filters were aligned against the Mm9 Mouse genome assembly using GSNAP and uniquely mapped reads were counted using HTseq-counts.
+

@@ -1,0 +1,12 @@
+TITLE
+Expression data from neurospheres derived from the neocortex, striatum and subventricular zones of the adult mouse brain
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Differential gene expression profiles of neurospheres derived from different regions of the adult brain. In this dataset, we include data on triplicated biological samples from each of the following brain regions: neocortex, striatum, and subventricular zone. We also include  duplicated data on neurospheres derived from the dorsal and ventralforebrain neural tubes and one spinal cord of E14.5 mouse embryos for comparison.
+
+DESIGN
+Fourteen samples were analyzed in total. To compare the expression profiles across the samples, Affymetrix GeneChip Mouse Genome 430 2.0 Array Platform (total 41,170 probes) was used, and the data were analyzed using Silicon Genetics GeneSpring Software GX7.3.1. The data was normalized to median settings across the entire probe set and samples, and transcripts that are expressed across triplicated samples at levels two-fold or higher than the rest of the samples were considered as significantly enriched in particular biological samples. Comparisons between adult and embryonic samples also identified genes enriched in adult brain-derived samples.
+

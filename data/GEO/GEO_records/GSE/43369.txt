@@ -1,0 +1,12 @@
+TITLE
+DNA Methylation Biomarkers for Noninvasive Diagnosis of Colorectal Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA methylation in colorectal cancer diagnosis. The Illumina GoldenGate Methylation Cancer Panel I was used to select a set of candidates markers informative of colorectal cancer diagnosis from 807 cancer-related genes. In the discovery phase, tumor tissue and paired adjacent normal mucosa from 92 colorectal patients were analyzed.
+
+DESIGN
+Bisulphite converted DNA from 92 colorectal tumor samples and paired adjacent normal mucosa were hybridised to the Illumina GoldenGate Methylation Cancer Panel I. Additionally, replicates were hybridised for five tumor tissue and their corresponding normal mucosa for reproducibility purposes, totalling 194 samples. Three samples (SAMPLEs 49, 51, and 162) and 50 loci did not reach the quality criteria required regarding the signal-to-noise ratio and were therefore excluded from further analysis. One additional non-tumoral sample (SAMPLE 15) was removed because it exhibited a methylation pattern quiet different from that shown by the rest of normal specimens, which could be indicative of hybridization errors. These Samples and loci are included in the raw data matrix to allow other investigators to use them if different criteria are applied. They have been also included in the Sample tables with missing values in order to preserve the structure of the data across records/files (See 'data processing' section for more details).
+

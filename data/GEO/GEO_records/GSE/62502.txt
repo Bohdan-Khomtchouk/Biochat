@@ -1,0 +1,12 @@
+TITLE
+Integrated molecular portrait of triple negative breast tumors from Mexican women using archived clinical samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Triple negative breast tumours from archived formalin fixed paraffin embeded samples of the National Cancer Institute of Mexico were analyzed for differential gene expressión.
+
+DESIGN
+Transcriptomic analysis of the 12 tumor samples was done with the FFPE-designed WG-DASL HT assay (Illumina) according to manufacturer’s instructions. This assay measures 29,285 annotated transcripts derived from the RefSeq database corresponding to 20,727 unique genes. Briefly, 200ng of total RNA were reverse-transcribed into biotinylated cDNA, which was then primer-extended with the Assay Specific Oligos. The cDNA was then amplified with universal primers and hybridized to Illumina Human WG DASL HT Expression BeadChip arrays. The Illumina Genome Studio V2010.2 was used to obtain the signal values (AVG-Signal), with no normalization and no background subtraction.The performance of hybridizations was evaluated by assessing the presence of outliers and the noise-to-signal ratios by calculating the ratio of centiles P95/P05 prior to normalisation for each sample. We defined outliers as samples with P95/P05 ratio < 9.5. All samples were found to show a correct noise-to-signal ratio (P95/P05 > 9.6).  For differential gene expression analysis, the public dataset GSE32124, which includes 33 fresh frozen tissue samples, generated on the Illumina HumanHT-12 v4.0 beadChip, and which contains 99.98% of the 29,285 probes of the Human WG DASL HT BeadChip was used as normal breast tissue control.
+

@@ -1,0 +1,12 @@
+TITLE
+The single-base resolution DNA methylation profiles for four developmental stages of Tribolium castaneum
+
+ORGANISM
+Tribolium castaneum
+
+SUMMARY
+Cytosine DNA methylation in the Tribolium castaneum has been controversial, its distribution pattern and functions have not been established yet. Here, using BS-Seq, we confirmed the existence of DNA methylation and described the methylation profiles for four life stages of T.castaneum. Interestingly, two types of DNA methylation had been discovered in T.castaneum genome. One was the symmetrical CpG methylation which was typically existed among eukaryotes methylomes, but occupied small part in methylome of T. castaneum. Another type was the non-CpG methylation which was uniquely and predominated in methylome of T. castaneum. While, the symmetrical CpG methylation which was catalyzed by the conserved DNA methyltransferase DNMT1 in T.castaneum mainly enriched in gene bodies and was positively correlated with the gene expression level. The asymmetrical nonCpG (most mCpA) methylation strongly concentrated in intergenic regions and introns while absent from the exons. Gene body methylation was negatively correlated with the gene expression level. The distribution pattern and functions of this type methylation only showed similarity with the methylome of Drosophila melanogaster, which further support that there existed a novel methyltransferase in these two specieces responsible for this methylation. The DNA methylome of T. castaneum possess two differential types and unique characterizations, which will contribute to our further understanding of the variety, origin and functions of DNA methylation in eukaryotes.
+
+DESIGN
+Genomic DNA was extracted from a pool of 50 individuals for the four life stages of Tribolium castaneum: 3d embryo, late larva( ~20d larva ), 3d pupa and 3d adult, respectively, using the DNeasy Blood & Tissue Kit. The extracted DNA was then bisulfite converted and Illumina sequenced to obtain direct evidence for the presence of methylation in Tribolium castaneum. To reveal the relationship between the DNA methylation and gene expression, Total RNA was extracted from each sample by using the Invitrogen TRIzol® Reagent. RNA-seq technology was used to generate the gene expression files for the four sages fo Tribolium castaneum.
+

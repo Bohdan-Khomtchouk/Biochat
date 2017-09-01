@@ -1,0 +1,12 @@
+TITLE
+[E-MTAB-332] H-NS and Fis binding to E. coli K12
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Among the most important regulators of gene expression in bacteria are 'nucleoid-associated proteins'. These proteins alter the topology of the bound DNA by bending, wrapping or bridging it, thus having multiple effects, including transcriptional regulation, on the bacterial cell. Among the best-studied nucleoid proteins are H-NS and Fis, which bind to specific sequences on the DNA. H-NS is a global repressor of gene expression. Fis alters the global conformation of the DNA by introducing branched structures in it; but its effect on gene expression on a genomic scale remains largely unclear. Several bacterial transcriptional regulators including H-NS and Fis have been studied using ChIP-chip. However, the higher resolution and dynamic range offered by ChIP-Seq have not been exploited for any bacterial species. By performing ChIP-Seq of these two proteins, we present the first such study in a bacterium. In addition to providing a proof-of-principle for the use of this technology for bacteria, we perform our study at multiple time-points during growth in rich medium, thus generating new insights into how these proteins function under different cellular conditions. Further, by analysing our data in conjunction with newly-generated gene expression and RNA polymerase-chromosome interaction data we provide new interpretation of the genome-scale patterns of the interactions of these proteins to the DNA. ArrayExpress Release Date: 2010-07-29 Person Roles: submitter Person Last Name: Sai Narain Seshasayee Person First Name: Aswin Person Mid Initials: Person Email: aswin@ebi.ac.uk Person Phone: Person Address: Person Affiliation: EBI
+
+DESIGN
+Experimental Design: growth_condition_design Experimental Design: in_vivo_design Experimental Design: binding_site_identification_design Experimental Design: ChIP-seq Experimental Factor Name: IMMUNOPRECIPITATE Experimental Factor Name: GROWTHCONDITION Experimental Factor Name: GENOTYPE Experimental Factor Type: immunoprecipitate Experimental Factor Type: growth_condition Experimental Factor Type: genotype
+

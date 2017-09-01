@@ -1,0 +1,12 @@
+TITLE
+Tumor and Self-Recognition Induce Distinct Transcriptional Profiles in Antigen-Specific CD4 T Cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Tumors express a wide variety of both mutated and non-mutated antigens. Whether these tumor antigens are broadly recognized as “self” or “foreign” by the immune system is currently unclear. Using an autochthonous prostate cancer model in which hemagglutinin (HA) is specifically expressed in the tumor (ProHA x TRAMP mice), as well as an analogous model wherein HA is expressed in normal tissues as a model self-antigen (C3HAHigh), we examined the transcriptional profile of CD4 T cells undergoing antigen-specific division.  Consistent with our previous data, transfer of antigen-specific CD4 T cells into C3HAHigh resulted in a functionally inactivated CD4 T cell profile.  Conversely, adoptive transfer of an identical CD4 T cell population into ProHA x TRAMP resulted in the induction of a regulatory phenotype (Treg) both at the transcriptional and functional level. Interestingly, this Treg skewing was a property of even early-stage tumors, suggesting Treg induction as an important tolerance mechanism during tumor development. The goal of this microarray is to detail the transcriptional profile differences between CD4 T cells that recognize their cognate antigen in the context of tumor (ProHA x TRAMP model) or self-antigen recognition (C3HA) or viral-antigen recognition (VaccHA) models or unprimed naïve state (Nontransgenic). The comparison contains both upregulated and downregulated transcripts. Keywords: Transcriptional Profile comparison, context dependent antigen recognition and T Cell differentiation
+
+DESIGN
+TCR transgenic CD4 T cells specific for hemagglutinin (HA) were adoptively transferred into tumor-antigen recognition model (ProHA x TRAMP), Self-antigen recognition model (C3HA), viral-antigen recognition model (VaccHA), and naïve control  (Nontrangenic). Divided (CFSE diluted) CD4 T cells were sorted by FACS, RNA was extracted, and biological replicated were hybridized to an Affymetrix Mouse 430 Plus 2 expression array, followed by interrogation with an Affymetrix GeneChip Scanner 3000. RMA normalization was employed to identify differentially expressed transcripts.
+

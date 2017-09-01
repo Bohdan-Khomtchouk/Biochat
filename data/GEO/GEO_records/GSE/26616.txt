@@ -1,0 +1,12 @@
+TITLE
+EZH1 and EZH2 Co-Govern Histone H3-K27 Trimethylation and Are Essential for Hair Follicle Homeostasis and Wound Repair
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Polycomb protein group (PcG)-dependent trimethylation on H3-K27(H3K27me3) regulates identity of embryonic stem cells (SCs). How H3K27me3 governs adult SCs and tissue development is unclear. Here, we conditionally target H3-K27-methyltransferases Ezh2 and Ezh1 to address their roles in mouse skin homeostasis. Postnatal phenotypes appear only in doubly-targeted skin, where H3K27me3 is abolished, revealing functional redundancy in EZH1/2 proteins. Surprisingly, while Ezh1/2-null hair follicles (HFs) arrest morphogenesis and degenerate due to defective proliferation and increased apoptosis, epidermis hyperproliferates and survives engraftment. mRNA-microarray studies reveal that despite these striking phenotypic differences, similar genes are upregulated in HF and epidermal Ezh1/2-null progenitors. Featured prominently are a) PcG-controlled non-skin lineage genes, whose expression is still significantly lower than in native tissues, and b) the PcG-regulated Ink4a/Inkb/Arf locus. Interestingly, even though Ink4a/Arf/Ink4b genes are fully activated in HF cells, they only partially so in epidermal-progenitors. Importantly, transduction of Ink4b/Ink4a/Arf shRNAs restores proliferation/survival of Ezh1/2-null HF progenitors in vitro, pointing towards the relevance of this locus to the observed HF phenotypes. Our findings reveal new insights into Polycomb-dependent tissue control and provide a new twist to how different progenitors within one tissue respond to loss of H3K27me3.
+
+DESIGN
+RNAs from FACS-purified WT and Ezh1/2 2KO ORS, matrix and epidermal cells (Rendl et al., 2005) were provided to the Genomics Core Facility, MSKCC for quality control, quantification, reverse transcription, labeling and hybridization to MOE430A 2.0 microarray chips (Affymetrix). Arrays were scanned per the manufacturer’s specifications for the Affymetrix MOE430v2 chip. Images were background-subtracted. Probesets were identified as differentially expressed when the absolute fold change was ≥2. Probesets selected for visualization were log2 transformed and were analyzed with hierarchical clustering (Pearson correlation, average linkage), and visualized with heatmaps to assist in interpretation.
+

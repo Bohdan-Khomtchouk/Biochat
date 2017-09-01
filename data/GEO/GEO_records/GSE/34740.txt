@@ -1,0 +1,12 @@
+TITLE
+K562 polyA RNA-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA-Seq reads and TopHat (Trapnell et al. Bioinformatics 2009) alignments of K562 cell-line transcriptome.  These were used to validate the expression of short peptides idenitified by Mass-Spectrometry in K562 cells.
+
+DESIGN
+K562 polyA+ RNA (Batch 1) and total RNA (batch 2) was purchased from Ambion. We used oligo (dT)-selected polyA+ RNA to construct libraries for RNA-Seq.We then profiled the transcriptome of polyadenylated mRNA-Seq using Illumina sequencing platforms. We then used the sequenced reads to reconstruct the transcriptome using the Cufflinks de-novo assembler (Trapnell et al. Nat.Bio.Tech. 2010). Recent computational and ribosome profiling analyses suggest that many short open reading frames (sORFs) in eukaryotic genomes are translated. However, evidence that these sORFs produce stable polypeptides is lacking. Here we develop a strategy to discover and validate novel sORF-encoded polypeptides (SEPs) in human cells. In total, we detect 117 SEPs, 114 of which are novel, varying in length from 15 to 149 amino acids. Of these, 10 SEPs (0.5%) are derived from long intergenic non-coding RNAs (lincRNAs). We also observe the presence of polycistronic genes and the widespread use of non-AUG start codons, which is a phenomenon historically thought to be rare in the mammalian genome. Quantitative measurements reveal that SEPs can be found at concentrations between ~10-2000 copies per cell, which is within the range of typical cellular proteins. We confirm the translation of a number of these SEPs through heterologous expression of their encoding cDNAs. We also discover that several SEPs possess properties characteristic of functional proteins. These results demonstrate that human sORFs produce numerous stable polypeptides, revealing that the human proteome is larger and more diverse than previously appreciated.
+

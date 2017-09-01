@@ -1,0 +1,12 @@
+TITLE
+Sporadic ALS has compartment-specific aberrant exon splicing and altered cell-matrix adhesion biology
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease characterized by progressive weakness from loss of motor neurons. The fundamental pathogenic mechanisms are unknown and recent evidence is implicating a significant role for abnormal exon splicing and RNA processing. Using new comprehensive genomic technologies, we studied exon splicing directly in 12 sporadic ALS and 10 control lumbar spinal cords acquired by a rapid autopsy system that processed nervous systems specifically for genomic studies. ALS patients had rostral onset and caudally advancing disease and abundant residual motor neurons in this region. We created two RNA pools, one from motor neurons collected by laser capture microdissection and one from the surrounding anterior horns. From each, we isolated RNA, amplified mRNA, profiled whole-genome exon splicing, and applied advanced bioinformatics. We employed rigorous quality control measures at all steps and validated findings by qPCR. In the motor neuron enriched mRNA pool, we found two distinct cohorts of mRNA signals, most of which were up-regulated: 148 differentially expressed genes (p≤10−3) and 411 aberrantly spliced genes (p≤10−5). The aberrantly spliced genes were highly enriched in cell adhesion (p≤10−57), especially cell-matrix as opposed to cell-cell adhesion. Most of the enriching genes encode transmembrane or secreted as opposed to nuclear or cytoplasmic proteins. The differentially expressed genes were not biologically enriched. In the anterior horn enriched mRNA pool, we could not clearly identify mRNA signals or biological enrichment. These findings, perturbed and up-regulated cell-matrix adhesion, suggest possible mechanisms for the contiguously progressive nature of motor neuron degeneration.
+
+DESIGN
+22 total samples were analyzed.  We used a proprietary Exon Splice ANOVA algorithm in Partek Genomics Suite Version 6.4 to calculate both each gene’s differential expression, which is determined by a composite expression of all its exons comparing between disease and control, and each gene’s exon splice index, which is determined by exon-to-exon comparison between disease and control after correcting for other variables, including overall differential gene expression.  The analysis was repeated using the anterior horns from the same samples.
+

@@ -1,0 +1,12 @@
+TITLE
+Gene expression modulation by paraquat-induced oxidative stress conditions in P. brasiliensis
+
+ORGANISM
+Paracoccidioides brasiliensis
+
+SUMMARY
+Paracoccidioides brasiliensis is a thermodimorphic fungus associated with paracoccidioidomycosis (PCM), the most common systemic mycosis in Latin America. The infection is initiated by inhalation of environmental dispersed conidia produced by the saprophytic phase of the fungus. In the lungs, P. brasiliensis assumes the parasitic yeast form and must cope with the adverse conditions imposed by cells of the host immune system, which includes a harsh environment highly concentrated in reactive oxygen species (ROS). In this work, we used the ROS-generating agent paraquat to experimentally simulate oxidative stress conditions in order to evaluate the stress-induced modulation in gene expression of cultured P. brasiliensis yeast cells using a microarray hybridization approach.
+
+DESIGN
+Microarray hybridizations were carried out with RNA obtained from cells treated with paraquat (0.5 or 5.0 mM) for 5 hours. The RNA obtained from cells unexposed to paraquat was taken as reference. Each treatment was analyzed with four independent hybridizations (two pairs of dye-swapped hybridizations), using RNA from two biological replicas. The data has been filtered, normalized and adjusted as described in the " data processing " box for each individual sample. Dye swap consistency checking has been performed between equivalent experimental pairs with the aid of the software TIGR MIDAS v2.19 and inconsistent spots have been flagged and excluded from further analyses. The values obtained from each dye swap pair have been averaged and consolidated into a single data file, generating a total of 8 hybridization files (four from each treatment concentration). These files have been loaded into the software TIGR Multi-Experiment Viewer, v.3.01. Experiments were then normalized and genes that displayed statistically significant modulation were identified by one-way ANOVA, considering p < 0.01 as a cutoff value. A list of statisticaly significant, modulated genes was created, showing the average log ratio for each one of these genes, within each time point
+

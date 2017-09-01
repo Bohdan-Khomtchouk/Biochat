@@ -1,0 +1,12 @@
+TITLE
+Genome-wide location analysis in breast cancer cells (HCC1954)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+While genetic mutation is a hallmark of cancer, many cancers also acquire epigenetic alterations during tumorigenesis including aberrant DNA hypermethylation of tumor suppressors as well as changes in chromatin modifications as caused by genetic mutations of the chromatin-modifying machinery. However, the extent of epigenetic alterations in cancer cells has not been fully characterized. Here, we describe the first complete methylome maps at single nucleotide resolution of a low-passage breast cancer cell line and primary human mammary epithelial cells. We find widespread DNA hypomethylation in the cancer cell, primarily at partially methylated domains (PMDs) in normal breast cells. Unexpectedly, genes within these regions are largely silenced in cancer cells. The loss of DNA methylation in these regions is accompanied by formation of repressive chromatin, with a significant fraction displaying allelic DNA methylation where one allele is DNA methylated while the other allele is occupied by histone modifications H3K9me3 or H3K27me3. Our results show a mutually exclusive and complementary relationship between DNA methylation and H3K9me3 or H3K27me3. These results suggest that global DNA hypomethylation in breast cancer is tightly linked to the formation of repressive chromatin domains and gene silencing, thus identifying a potential epigenetic pathway for gene regulation in cancer cells and suggesting a possible new approach toward the development of cancer therapeutics.
+
+DESIGN
+ChIP-Seq on H3K4me1, H3K4me3, H3K9me3, H3K27ac, H3K27me3, H3K36me3, and input on breast cancer HCC1954. 36 cycles of sequencing on Illumina platform
+

@@ -1,0 +1,12 @@
+TITLE
+Profiling of 2'-O-Me in human rRNA reveals a subset of fractionally modified positions and provides evidence for ribosome heterogeneity
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Ribose methylation is one of the two most abundant modifications in human ribosomal RNA and is believed to be important for ribosome biogenesis, mRNA selectivity and translational fidelity. We have applied RiboMeth-seq to rRNA from HeLa cells for ribosome-wide, quantitative mapping of 2'-O-Me sites and obtained a comprehensive set of 106 sites, including two novel sites, and with plausible box C/D guide RNAs assigned to all but three sites. We find approximately two-thirds of the sites to be fully methylated and the remainder to be fractionally modified in support of ribosome heterogeneity at the level of RNA modifications. A comparison to HCT116 cells reveals similar 2'-O-Me profiles with distinct differences at several sites. This constitutes the first comprehensive mapping of 2'-O-Me sites in human rRNA using a high throughput sequencing approach and paves the way for experimental analyses of the role of variations in rRNA methylation under different physiological or pathological settings.
+
+DESIGN
+HTC116 and HeLa cells were subjected to RiboMeth-seq analysis. 3 barcoded sequencing adapters were used to produce 3 individual libraries from HTC116 RNA sequenced on 1 individual Ion Proton sequencing chip, and 3 x 2 individual libraries from HeLa RNA sequenced on 2 individual Ion Proton sequencing chips. The 3 gzip compressed fastq files from the sequencings, and the 3 final spread-sheets with annotated data are available here.
+

@@ -1,0 +1,12 @@
+TITLE
+C. briggsae developmental timecourse
+
+ORGANISM
+Caenorhabditis briggsae
+
+SUMMARY
+To identify differences in gene expression patterns between C. elegans and C. briggsae we designed whole-genome species-specific microarrays.
+
+DESIGN
+We designed two organism-specific microarrays which were then manufactured by Agilent as 44k arrays. Probes were designed to target the coding region, preferentially near the 3’ end, as well as in the presumptive 3’ UTR, up to 150bp downstream of the stop codon. 50-60mer probes were determined using OligoWiz (Wernersson and Nielsen 2005) which selects oligos based upon their cross-hybridization to other coding sequences, Tm, position along the transcript, folding potential, and low-complexity in the sequence. The probes were also restricted against spanning splice junctions to avoid missing transcripts due to errors in gene structure predictions. Each gene was assigned between one and five probes, where the probe with the best overall score was selected as the ‘A-probe’, and the remaining ranked ‘B’ through ‘E’.
+

@@ -1,0 +1,12 @@
+TITLE
+Transcriptome profiling of purified mouse mammary stem, progenitor and mature cell populations
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: The aim of this study is to determine the absolute and relative expression levels of mRNA transcripts across multiple flow cytometrically sorted epithelial cell types including freshly isolated CD24+CD29hi mammary stem cell-enriched basal cells (MaSC/basal), CD24+CD29loCD61+ luminal progenitor-enriched (LP) and the CD24+CD29loCD61- mature luminal-enriched (ML) cell populations. Additionally, a comparison between these primary cell types and cultured MaSC/Basal-derived mammosphere cells (mammosphere) and the CommaD-βGeo (CommaDβ) cell line was performed. Methods: Total RNA was extracted and purified from sorted luminal or basal populations from the mammary glands of female virgin 8- to 10-week-old FVB/N mice (3 independent samples per population), MaSC/Basal cells cultured for 1 week under mammosphere conditions and CommaDβ cells grown under maintenance conditions (Deugnier et al. 2006). Total RNA (100 ng) was used to generate sequencing libraries for whole transcriptome analysis following Illumina’s TruSeq RNA v2 sample preparation protocol. Completed libraries were sequenced on HiSeq 2000 with TruSeq SBS Kit v3- HS reagents (Illumina) as 100 bp single-end reads at the Australian Genome Research Facility (AGRF), Melbourne. Approximately 30 million 100 bp single-end reads were obtained for each sample. Reads were aligned to the mouse reference genome mm10 and mapped to known genomic features at the gene level using the Rsubread package (version 1.14.1) (Liao et al. 2013). Single reads were then summarized into gene-level counts using FeatureCounts (Liao et al. 2014).
+
+DESIGN
+Total RNA was extracted and purified from sorted luminal or basal populations from the mammary glands of female virgin 8- to 10-week-old FVB/N mice (3 independent samples for population), MaSC/Basal cells cultured for 1 week under mammsophere conditions and CommaDβ cells grown under maintenance conditions (Deugnier et al. 2006) and their transcriptomes analysed by RNA-Seq.
+

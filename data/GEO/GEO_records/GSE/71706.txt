@@ -1,0 +1,12 @@
+TITLE
+Expression data from CD11b+Gr1+ splenocytes from tumor-bearing L2-Cre;p120f/f mice, compared to controls
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Myeloid derived suppressor cells (MDSCs) are an immunosuppressive population of immature myeloid cells found in advanced stage cancer patients and mouse tumor models.  To identify potential genes playing essential role in MDSC biology, we have conducted microarray analysis of gene expression in MDSCs from esophageal tumor-bearing mice, compared to immature myeloid cells from healthy littermate control mice. In this dataset, we include the expression data obtained from sorted splenic CD11b+Gr1+ cells from tumor-bearing L2-Cre;p120f/f mice, compared to healthy littermate controls. Using these data, we have identified 964 genes showing differential expression between the two groups. Among these was the Cd38 gene, which was among the genes most upregulated in MDSCs from tumor-bearing mice.
+
+DESIGN
+9 total samples were analyzed: 6 sample from experimental tumor-bearing mice and three pooled samples from control mice.  Gene expression difference was determined by univariate test (two-sample t-test) with multivariate permutation test (10,000 random permutations). A cut-off p-value of less than 0.001 and minimum 2-fold expression change were used to identify genes with significant expression differences between the two groups.
+

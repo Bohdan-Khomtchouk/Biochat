@@ -1,0 +1,12 @@
+TITLE
+Analyzing synergistic and non-synergistic interactions in signalling pathways using Boolean Nested Effect Models
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Understanding the structure and interplay of cellular signalling pathways is one of the great challenges in molecular biology. Boolean Networks can infer signalling networks from observations of protein activation. In situations where it is difficult to assess protein activation directly, Nested Effect Models are an alternative. They derive the network structure indirectly from downstream effects of pathway perturbations. To date, Nested Effect Models cannot resolve signalling details like the formation of signalling complexes or the activation of proteins by multiple alternative input signals. Here we introduce Boolean Nested Effect Models (B-NEM). B-NEMs combine the use of downstream effects with the higher resolution of signalling pathway structures in Boolean Networks. We show that B-NEMs accurately reconstruct signal flows in simulated data. Using B-NEM we then resolve BCR signalling via PI3K and TAK1 kinases in BL2 lymphoma cell lines.
+
+DESIGN
+84 BL2 cell-line samples were hybridized to HGU133+2 Affymetrix GeneChips.
+

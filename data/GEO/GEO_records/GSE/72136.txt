@@ -1,0 +1,12 @@
+TITLE
+The Estrogen Receptor Co-Regulator Protein, Proline Glutamic Acid and Leucine Rich Protein 1 (PELP1) Mediates Estrogen Rapid Signaling and Neuroprotection in the Brain
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We examined the role of PELP1 in E2-ER-mediated transcription in the hippocampus under conditions of GCI by perfroming global transcriptome analysis. E2-treated FLOX and PELP1 FBKO mice were subjected to GCI followed by 24 h reperfusion and the isolated RNA was utilized for RNA-seq analysis. Our results demonstrated that PELP1 is needed for optimal activation of E2-regulated genes following GCI.
+
+DESIGN
+Total RNA was isolated from the hippocampus of ovariectomized FLOX and PELP1 FBKO mice (implanted with E2 mini pumps) that were subjected to GCI followed by 24 h reperfusion. Illumina TruSeq RNA Sample Preparation was performed following manufacturer's protocol. Samples were run on an Illumina HiSeq 2000 in duplicate. The combined raw reads were aligned to UCSC hg19 and genes were annotated by Tophat. Genes were annotated and quantified by HTSeq-DESeq pipeline.
+

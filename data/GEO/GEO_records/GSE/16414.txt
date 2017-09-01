@@ -1,0 +1,12 @@
+TITLE
+Escherichia coli Tiling Array for In vivo Protein Occupancy Display
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Using a high-density tiling array containing 25-mer oligonucleotides at the resolution of one every four base pairs across the entire genome, we developed In vivo Protein Occupancy Display (IPOD), a technology that reveals protein occupancy across an entire bacterial chromosome at the resolution of individual binding sites.  Application to Escherichia coli reveals thousands of protein occupancy peaks, highly enriched within and in close proximity to non-coding regulatory regions.
+
+DESIGN
+We designed an Affymetrix tiling array for the MG1655 E. coli genome, containing probes that cover the entire genome at a resolution of 4 bp between steps; however, the steps alternate strand coverage, so there is an 8 bp step between probes on the same strand. There are a total of 2.47 million probes on the array, of which 2,300,160 directly enter analysis as E. coli probe pairs. The Affymetrix system pairs each 25-mer perfect match genomic sequence with a corresponding 25-mer that has a mismatch in the 13th position. The mismatch probe is intended as a cross-hybridization control. In addition to the E. coli sequences, 33,996 probe pairs are sequence-specific controls against other genomes, including B. subtilis, lambda phage, and A. thaliana. The tiling array (Ecoli_Tab520346F) is a standard-sized 200 μL-volume microarray with 5 micron features. 6 biological replicates of MG1655 DNA, 2 biological replicates of MG1655 DNA isolated from early-phase DNA-protein complexes, 2 biological replicates of MG1655 DNA isolated from late-phase DNA-protein complexes, 1 replicate of MDS42 DNA isolated from early-phase DNA-protein complexes, 2 biological replicates of MG1655 total RNA.
+

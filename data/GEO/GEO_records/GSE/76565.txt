@@ -1,0 +1,12 @@
+TITLE
+Characterization of transcriptomic profile of ulcerated and intact stomach epithelium
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: To explore the processes and mechanisms that are up/downregulated following ulceration of the stomach, in order to identify key mechanisms underlying ulcer healing. Methods: mRNA profiles of paired ulcerated and intact tissues were obtained from 4-month-old C57BL6 mice, in triplicate, 30 days after ulcer generation through 99% acetic acid.  With a workflow involving alignment, quantification, and statistical analysis in GeneSpring NGS, data were analyzed at the gene level using a paired t-test. Results: Approximately 30million mRNA reads per sample aligned to over 34,000 known transcripts (UCSC mm10 genome).  Paired t-tests that compared within-mouse ulcerated to intact tissue, identified 1165 transcripts with a p-value < 0.05 and fold change > 1.5. Conclusion:  Among significantly dysregulated transcripts in ulcerated tissues, we observe a significant enrichment of genes related to stem-ness, tissue repair, and cancer-related processes
+
+DESIGN
+Ulcers were produced in the stomachs of C57BL6 mice using acetic acid.  Thirty days after ulceration, paired ulcerated and uninvolved tissues were obtained from the stomach corpus; their mRNA profiles were generated using RNA-sequencing.
+

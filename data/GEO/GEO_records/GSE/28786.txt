@@ -1,0 +1,12 @@
+TITLE
+siRNA off-target effects can be reduced at concentrations that match their individual potency
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This study demonstrates that siRNA off-targets (e.g. 3'UTR off-targets), can be significantly reduced when cells are treated with a relatively low dose of siRNA (e.g. 1nM) that is sufficient to effectively silence the intended target.
+
+DESIGN
+Cells were treated with different concentrations of either unmodified siRNA or modified siRNA that targeted either hexokinase2 or STAT3 (HK2-3581, HK2-4031, HK2-3581M, STAT3-1676, STAT3-1676M). As transfection efficiencies can vary according to the ratio of nucleotide to transfection reagent, each dose was supplemented with non-targeting/negative control siRNA (siGenome2 or Allstars negative control), such that the total RNA concentration was equal across experiments. RNA was purified 48 hours post-transfection using the RNeasy mini kit from Qiagen. Biological replicates were normalized using the RMA method and analyzed using various Bioconductor tools.
+

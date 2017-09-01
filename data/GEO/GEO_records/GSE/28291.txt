@@ -1,0 +1,12 @@
+TITLE
+Genome-scale epigenetic reprogramming during epithelial to mesenchymal transition
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Epithelial to mesenchymal transition (EMT) is an extreme example of cell plasticity, important for normal development, injury repair, and malignant progression. Widespread epigenetic reprogramming occurs during stem cell differentiation and malignant transformation, but EMT-related epigenetic reprogramming is poorly understood. Here we investigated epigenetic modifications during TGF-β-mediated EMT. While DNA methylation was unchanged during EMT, we found global reduction of the heterochromatin mark H3-lys9 dimethylation (H3K9Me2), increase of the euchromatin mark H3-lys4 trimethylation (H3K4Me3), and increase of the transcriptional mark H3-lys36 trimethylation (H3K36Me3). These changes were largely dependent on lysine-specific deaminase-1 (LSD1), and LSD1 loss-of-function experiments showed marked effects on EMT-driven cell migration and chemoresistance. Genome-scale mapping revealed that chromatin changes were largely specific to large organized heterochromatin K9-modifications (LOCKs), suggesting that EMT is characterized by reprogramming of specific chromatin domains across the genome.
+
+DESIGN
+Chromatin immunoprecipitation (ChIP) was performed with antibodies against H3K9Me2 (Abcam, ab1220), H3K36Me3 (ab9050), and H3K4Me3 (ab8580) on native (unfixed) chromatin isolated from fully differentiated mouse AML12 cells (confluent, serum starved for 48hrs) either treated with TGF-β for 36hrs to induce EMT or not treated with TGF-β (0hrs, differentiated AML12 cells). DNA purified from these samples was then either whole-genome amplified (H3K36Me3 and H3K4Me3) and hybridized or directly (H3K9Me2) hybridized to NimbleGen 2.1M economy whole-genome tiling arrays #2 (listed below as array 1) and #3 (listed below as array 2), which cover mouse chromosomes 4-14. For each sample, the immunoprecipitated DNA (IP) and the input (control) DNA were hybridized to the arrays, and the IP is normalized to the input. There are 16 total samples listed below. There are 8 sample for H3K9Me2 (TGF-β and no TGF-β for arrays 1 and 2, done in replicate for a total of 8). There are 4 samples for H3K36Me3 (TGF-β and no TGF-β done on array 1 and array 2). There are 4 total samples for H3K4Me3 (TGF-β and no TGF-β done on array 1 and array 2).
+

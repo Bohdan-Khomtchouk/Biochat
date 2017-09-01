@@ -1,0 +1,12 @@
+TITLE
+Affymetrix custom RNA microarray for WT and jhd2-delete strains in terminal spores (20h)
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+RNA transcript signals were profiled in WT (MMY718) and jhd2∆ (MMY1879) terminally sporulated cultures (20h of sporulation) using Affymetrix high resolution tiling microarrays.
+
+DESIGN
+Total RNA was isolated, biotin labelled, and hybridized to custom Affymetrix Scerevisiae_tlg tiling arrays. The array contains 25nt probes covering the Watson strand of the yeast genome with 8nt tiling resolution, and another set of 25nt probes covering the Crick strand with 8nt resolution, with a 4nt offset from the Watson probes. This gives an overall tiling resolution of 4bp with a total of 6.5 million probes, and also allows detection of strand-specific RNA signals.
+

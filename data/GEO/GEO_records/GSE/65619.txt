@@ -1,0 +1,12 @@
+TITLE
+Transcriptome profiling of isolated mammalian myotube cultures that ectopically overexpress msx2
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In contrast to urodele amphibians and teleost fish, mammals lack the regenerative responses to replace large body parts. Amphibian and fish regeneration uses dedifferentiation, i.e. reversal of differentiated state, as a means to produce progenitor cells to eventually replace damaged tissues.  Therefore, activation of dedifferentiation response in mammalian tissues holds an immense promise for human regenerative medicine. msx2 expression has been shown to peak at the early time points of amphibian limb regeneration. Despite this temporal importance in the heterogenous regenerating limb tissues, the potential role of msx2 in dedifferentiation was previously not addressed in salamander or mammalian muscle cells. In order to test this, we ectopically overexpressed msx2 in mammalian myotubes and profiled their transcriptomes using next generation sequencing. We identified 4964 up-regulated and 4464 down-regulated transcripts in myotubes compared to myoblasts (uninduced GFP control cells; ≥ 1.5 fold; FDR corrected p-values < 0.01). Upon ectopic msx2 expression in myotubes, 923 transcripts were downregulated, whereas 1283 transcripts were upregulated. Based on msx2’s potential role in dedifferentiation, we reasoned that the transcripts, which are normally upregulated in myotubes in comparison to myoblasts, should go down upon msx2-expression. In accord with this idea, 575 myotube-enriched transcripts were downregulated after one day of ectopic msx2 expression. Similarly, 331 myoblast-enriched transcripts were upregulated upon msx2 expression.
+
+DESIGN
+To extensively analyze transcriptome-wide changes upon ectopic msx2 expression in mammalian myotubes, we performed next generation RNA-sequencing (RNA-seq) on uninduced and induced isolated myotubes that have msx2 and GFP or GFP alone transgenes. As a reference for the undifferentiated state, we also sequenced the transcriptomes of uninduced myoblast cultures of these two transgenic constructs. Deep sequencing was performed using Illumina HiSeq.
+

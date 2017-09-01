@@ -1,0 +1,12 @@
+TITLE
+Identification of genes upregulated by methyl-CpG targeted transcriptional activation (MeTA) in 293T
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The identification of genes transcriptionally silenced by DNA hypermethylation is important in understanding the molecular basis of epigenetically regulated biological processes such as X chromosome inactivation, genomic imprinting, and cancer development. Our previously developed methyl-CpG targeted transcriptional activation (MeTA) method reactivates epigenetically silenced genes by using a methyl-CpG binding domain from MBD2 with a transcriptional activation domain. We applied either MeTA or a conventional DNA demethylating agent, 5-aza-cytidine (Aza-CR), to a human embryonic kidney cell line 293T and analyzed gene expression profiles by microarray; 138 and 202 genes that are upregulated 5-fold or more were identified by MeTA and Aza-CR, respectively. The top ten upregulated genes detected by MeTA were further analyzed. We found associations between expressional restorations by MeTA, methylation status, and NFkB(AD)-MBD fusion protein bindings in CpG islands (CGIs) around the transcription start site of the genes. Importantly, MeTA can upregulate genes meeting the stringent criteria of CGIs defined by Takai and Jones at the promoter region at higher frequency; 109 of 138 (79.0%) genes in MeTA vs. 121 of 202 (59.9%) genes in Aza-CR. Interestingly, only 27 genes were upregulated by both methods; MeTA may identify methylated genes that show low levels of induction by the DNA demethylating agents; demethylating agents may also induce factors that help re-expression of genes that harbor less stringent or no CGIs. These results suggest that microarray coupled with MeTA (MeTA-array) is an efficient alternative way to identify transcriptionally silenced genes by DNA hypermethylation.
+
+DESIGN
+293T cells were transfected with pcDNA6/myc-His vector or pcDNA6-3xFLAG-NFkB (AD)-MBD and were harvested 48 h after transfection. In contrast, 293T cells were treated with 5-aza-cytidine (Aza-CR, 25 uM) or the same volume of PBS for 96 h and medium replaced every 24 h.
+

@@ -1,0 +1,12 @@
+TITLE
+RNAPII CTD dataset
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The C-terminal domain (CTD) of RNA polymerase II (RNAPII) is composed of heptapeptide repeats, which play a key regulatory role in gene expression. Using genetic interaction and mRNA expression analysis we found that truncating the CTD resulted in distinct changes to cellular function. Truncating the CTD altered RNAPII occupancy to not only cause decreases, but also increases in mRNA levels. The latter were largely mediated by promoter elements, and in part were linked to the transcription factor Rpn4. The mediator subunit Cdk8 was enriched at promoters of these genes, and its removal not only restored normal mRNA and RNAPII occupancy levels, but also reduced the abnormally high cellular amounts of Rpn4.  This suggested a positive role of Cdk8 in relationship to RNAPII, which contrasted with the negative role at the activated INO1 gene.  Here, loss of CDK8 suppressed the reduced mRNA expression and RNAPII occupancy levels of CTD truncation mutants.
+
+DESIGN
+Two channel microarrays were used. RNA isolated from a large amount of wt yeast from a single culture was used as a common reference. This common reference was used in one of the channels for each hybridization and used in the statistical analysis to obtain an average expression-profile for each deletion mutant relative to the wt. Two independent cultures were hybridized on two separate microarrays. For the first hybridization the Cy5 (red) labeled cRNA from the deletion mutant is hybridized together with the Cy3 (green) labeled cRNA from the common reference. For the replicate hybridization, the labels are swapped. Each gene is represented twice on the microarray, resulting in four measurements per mutant. Using the Erlenmeyer growth protocol up to five deletion strains were grown on a single day. In the tecan platereader, up to eleven deletion strains could be grown on a single day. Wt cultures were grown parallel to the deletion mutants to assess day-to-day variance.
+

@@ -1,0 +1,12 @@
+TITLE
+Integration of Hi-C and ChIP-seq data reveals distinct types of chromatin hubs
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have analyzed publicly available K562 Hi-C data, which enables genome-wide unbiased capturing of chromatin interactions, using a Mixture Poisson Regression Model to define a highly specific set of interacting genomic regions. We integrated multiple ENCODE Consortium resources with the Hi-C data, using DNase-seq data and ChIP-seq data for 46 transcription factors and 8 histone modifications. We classified 12 different sets (clusters) of interacting loci that can be distinguished by their chromatin modifications and which can be categorized into three types of chromatin hubs. The different clusters of loci display very different relationships with transcription factor binding sites. As expected, many of the transcription factors show binding patterns specific to clusters composed of interacting loci that encompass promoters or enhancers. However, cluster 6, which is distinguished by marks of open chromatin but not by marks of active enhancers or promoters, was not bound by most transcription factors but was highly enriched for 3 transcription factors (GATA1, GATA2, and c-Jun) and 3 chromatin modifiers (BRG1, INI1, and SIRT6). To validate the identification of the clusters and to dissect the impact of chromatin organization on gene regulation, we performed RNA-seq analyses before and after knockdown of GATA1 or GATA2. We found that knockdown of the GATA factors greatly alters the expression of genes within cluster 6. Our work, in combination with previous studies linking regulation by GATA factors with c-Jun and BRG1, provide genome-wide evidence that Hi-C data identifies sets of biologically relevant interacting loci.
+
+DESIGN
+RNA-seq of control, siGATA1 and siGATA2 K562 cells
+

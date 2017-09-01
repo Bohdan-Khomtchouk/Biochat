@@ -1,0 +1,12 @@
+TITLE
+Piwi interacts with chromatin at nuclear pores and promiscuously binds nuclear transcripts in Drosophila ovarian somatic cells
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Piwi in a complex with Piwi-interacting RNAs (piRNAs) triggers transcriptional silencing of Transposable Elements (TEs) in Drosophila ovaries, thus ensuring genome stability. To do this, Piwi must scan the nascent transcripts of genes and TEs for complementarity to piRNAs. The mechanism of this scanning is currently unknown. Here we report the DamID-seq mapping of multiple Piwi-interacting chromosomal domains in somatic cells of Drosophila ovaries. These domains significantly overlap with genomic regions tethered to Nuclear Pore Complexes (NPCs). Accordingly, Piwi was coimmunoprecipitated with the component of NPCs Elys and with the Xmas-2 subunit of RNA transcription and export complex, known to interact with NPCs. However, only a small Piwi fraction has transient access to DNA at nuclear pores. Importantly, although 36%of protein-coding genes overlap with Piwi-interacting domains and RNA-immunoprecipitation results demonstrate promiscuous Piwi binding to numerous genic and TE nuclear transcripts, according to available data Piwi does not silence these genes, likely due to the absence of perfect base-pairing between piRNAs and their transcripts.
+
+DESIGN
+DamID-seq: Ovaries from transgenic flies, expressing Dam or Dam-Piwi constructs in ovarian somatic cells, were collected for quantification of genome-wide methylation levels via next-generation sequencing. RIP-seq: RIP-seq with anti-Piwi antibodies in OSC Drosophila cell line, treated or untreated with Actinomycin D.
+

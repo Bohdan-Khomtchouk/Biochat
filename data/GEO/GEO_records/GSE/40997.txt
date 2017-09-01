@@ -1,0 +1,12 @@
+TITLE
+Transcriptome analysis of Dunaliella viridis in response to changes in light duration and temperature
+
+ORGANISM
+Dunaliella viridis
+
+SUMMARY
+Transcriptome analysis of Dunaliella viridis in response to changes in light duration and temperature
+
+DESIGN
+Time course experiment  experiment with 5 evenly spaced time points, t1-t5, and two experimental factors: a) light condition (2 levels: continuous light and light/dark cycle) and b) temperature (2 levels: 25 degrees Celsius and 35 degrees Celsius). Cells grown in the light/dark condition were exposed to a 12 hour light/dark cycle, whereas continuous light samples were grown under constant light conditions.  All cells were grown at 25 degrees Celsius for timepoints t1 and t2; at time t3, cells grown in the high temperature condition were raised to 35°C, and kept at this temperature for the remainder of the experiment.  Bar-coded samples were sequenced in two separate sequencing runs using 100-nt Illumina RNA-Seq reads. In the first run a single pooled biological replicate was sequenced from each of the 12 combinations of time, light condition and temperature from time points t3 to t5. The bar-coded samples were divided among 4 Illumina Lanes resulting in 48 distinct sequencing data files. In the second run ( " Run 2 " ) a single bar-coded biological replicate was sequenced from each of the 10 combinations of time and light condition from time points t1 through t5, with temperature fixed at 25°C.
+

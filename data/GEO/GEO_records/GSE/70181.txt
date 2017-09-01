@@ -1,0 +1,12 @@
+TITLE
+Comparison of Hi-C results using in-solution versus in-nucleus ligation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chromosome conformation capture (3C) and derivative (4C, 5C and Hi-C) methods employ ligation of diluted cross-linked chromatin complexes, intended to favor proximity-dependent, intra-complex ligation. We previously described an alternative Hi-C protocol with ligation in preserved nuclei rather than in solution. Here we directly compare Hi-C methods employing " in-nucleus ligation " and the standard " in-solution ligation " . The results show that in-nucleus ligation captures chromatin interactions more consistently over a wider range of distances, and significantly reduces both experimental noise and bias. Thus in-nucleus ligation not only simplifies the experimental procedures, but also produces higher quality data with benefits for the entire range of 3C applications.
+
+DESIGN
+We created Hi-C libraries by two different methods, in-solution ligation and in-nucleus ligation, from two biological replicates each of mouse foetal liver cells (mouse-1 and mouse-2) and human ES cells (human-1 and human-2) or the mixture of these two species. We also sequenced a random ligation library prepared by reversal of the cross-links and purification of the DNA prior to ligation.
+

@@ -1,0 +1,12 @@
+TITLE
+A comprehensive Xist interactome reveals cohesin repulsion and an RNA-directed chromosome conformation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The inactive X chromosome (Xi) serves as a model to understand gene silencing on a global scale. Here, we perform identification of direct RNA interacting proteins? (iDRiP) to isolate a comprehensive protein interactome for Xist, an RNA required for Xi silencing. We discover multiple classes of interactors, including cohesins, condensins, topoisomerases, RNA helicases, chromatin remodelers and modifiers, which synergistically repress Xi transcription. Inhibiting two or three interactors destabilizes silencing. While Xist attracts some interactors, it repels architectural factors. Xist evicts cohesins from the Xi and directs an Xi-specific chromosome conformation. Upon deleting Xist, the Xi acquires the cohesin-binding and chromosomal architecture of the active X. Our study unveils many layers of Xi repression and demonstrates a central role for RNA in the topological organization of mammalian chromosomes. The RNA-seq data sets generated in this study provide a resource for examining the effects of knockdowns of various Xist-interacting proteins on gene expression. The ChIP-seq data sets provide a comprehensive set of data examining CTCF and cohesion binding the X-chromosome, and the effects of deleting Xist on CTCF and cohesion binding. The Hi-C data is an allele-specific contact map of the X-chromosome higher-order chromatin structure in mouse.
+
+DESIGN
+RNA-seq in 3 control and 10 knockdown cell lines. ChIP-seq for CTCF, Rad21 and Smc1a in wild-type fibroblasts and Xist-deletion fibroblasts. Hi-C in wild-type and Xist-deletion fibroblasts.
+

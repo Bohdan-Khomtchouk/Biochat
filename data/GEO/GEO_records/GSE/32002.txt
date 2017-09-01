@@ -1,0 +1,12 @@
+TITLE
+Replication Timing in Yeast: CGH microarrays:  S vs G1 cells in various stress conditions
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Replication timing in Saccharomyces cerevisiae in various replication stress conditions using CGH microarrays of S vs G1 cells. Replication of the eukaryotic genomes follows a characteristic temporal program, with different regions replicating at different times in S phase. We describe a stochastic model of DNA replication that naturally explains the replication profiles of a dozen of S. cerevisiae mutants. Each profile is described by a single parameter that differ between the mutants: the ratio between the fork velocity and the typical initiation rate (the “replicon length”), while all other origin-specific parameters remain unchanged. We devise an analytical method to infer the replicon lengths from the available data, and predicted its value in different mutant backgrounds. Further experiments verified model’s predictions. Our study supports a stochastic model of DNA replication in S. cerevisiae and explains the apparent robustness of this profile to perturbations that extend S phase.
+
+DESIGN
+DNA from FACS-sorted cells was extracted, labeled with Cy dyes, hybridized to the CGH microarray and scanned. 18 strains were used, with variable biological repeats number.
+

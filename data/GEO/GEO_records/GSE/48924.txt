@@ -1,0 +1,12 @@
+TITLE
+Stimulation of endogenous FGFR1b and FGFR2b
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association studies for breast cancer have identified over 80 different risk regions in the genome, with the FGFR2 locus consistently identified as the most strongly associated locus. However, we know little about the mechanisms by which the FGFR2 locus mediates risk or the pathways in which multiple risk loci may combine to cause disease.  Here we use a systems biology approach to elucidate the regulatory networks operating in breast cancer and examine the role of FGFR2 in mediating risk. Using model systems we identify FGFR2-regulated genes and, combining variant set enrichment and eQTL analysis, show that these are preferentially linked to breast cancer risk loci. Our results support the concept that cancer-risk associated genes cluster in pathways
+
+DESIGN
+The data consists of 46 microarray samples from MCF-7 cells treated under different conditions, at 3 time points (0, 6 and 24 h) in order to perturb FGFR 1b and 2b signalling. The data have been pre-processed in R using the beadarray package, and are presented in the form of log2 expression values. The experiment was carried out on 4 Humanv4 arrays using 12 samples per array. The original arrays contain 48324 features, with an average of 22 beads per feature (Standard Deviation of 5)
+

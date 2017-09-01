@@ -1,0 +1,12 @@
+TITLE
+The unfolded protein response in fission yeast modulates stability of select mRNAs to maintain protein homeostasis
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Homeostatic control mechanisms are essentil to life. One such mechanism, the unfolded protein response (UPR) operates in all eukarytic cells to adjust protein folding capacity of the endoplasmic reticulum (ER) according to need. UPR induction in all eurkarytic cells to date involves Ire1 (kinase/endonuclease transmembrane protein) mediated a non-convential splicing of Hac1/XBP1 mRNA, encoding for a potent transcription factor. UPR induction causes a comprehensive transcriptional upregulation of the folding capacity in the ER. Here we studied the global transcriptional profile of the UPR in fission yeast. Fission yeast lacks a clear homolog of Hac1/XBP1. Instead Ire1 maintains ER homeostasis through two post-transciptional programs: selective mRNA decay and processing of Bip1 mRNA (encoding for a major HS70-familiy member in the ER) thereby stabilizing it.
+
+DESIGN
+S. pombe cells were grown in liquid medium (YE5S) to OD600=0.25. Cells were treated with or without 2 mM DTT (Dithiothreitol, impairs disulfid bond formation) for 60 min at 30℃. Total RNA was extracted from cells using hot phenol method. PolyA+ mRNA were enriched by two sequential rounds of oligo-dT (Invitrogen) selection. rRNA depletion was performed by depletion of ll RNA smaller than 200nt (mirVana miRNA Purification Kit (Ambion) followed by two rounds of subtractive hybridization using Ribominus EukaryoteKit for RNA-seq (Invitrogen). To sequence 2',3'-cyclic phosphate cleavage products tRNA ligase was used to selectively ligate an RNA linker to all 2',3'-cyclic phosphatesin total RNA. (described in Schutz et al., 2010). Two biological repeats were performed for the following samples with different conditions and yeast strains: poly A+ mRNA sample and mRNA enriched (ribosome depletion). On replicate was performed for RNA 3' end mapping carrying a 2',3'-cyclic phosphate: 1 replicate
+

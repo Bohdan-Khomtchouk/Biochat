@@ -1,0 +1,12 @@
+TITLE
+Comparing genome-wide chromatin profiles using ChIP-chip or ChIP-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The goal of the ChIP-seq study was to investigate the distribution of the TATA-binding protein (TBP) across the human genome. TBP is the DNA-binding subunit of the basal transcription factor TFIID for RNA polymerase II (pol II) and it also participates in other complexes for the other RNA polymerase. The BTAF1 ATPase forms a stable complex with TBP and regulates its activity in pol II transcription. BTAF1 is believed to mobilize TBP from promoter and non-promoter sites. To test this hypothesis, TBP ChIP samples were prepared from human HeLa cervix carcinoma cells after knock-down of BTAF1 expression and compared to HeLa cells with a control knock-down of GAPDH. GAPDH is a cytosolic enzyme that participates in glycolysis, and its inactivation is not expected to affect the genomic distribution of TBP, and acts as negative control. ChIP samples were sequenced using SOLiD technology along with the INPUT sample to normalize the distribution of background signals within each of the two chromatin samples.
+
+DESIGN
+2 ChIP samples + one input sample
+

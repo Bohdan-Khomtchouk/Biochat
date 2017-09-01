@@ -1,0 +1,12 @@
+TITLE
+Nashville Birth Cohort
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+All subjects were recruited at Centennial Women?s Hospital and the Perinatal Research Center in Nashville, TN beginning in 2003. Pregnant women were enrolled during their first clinical visit after obtaining informed consent as described previously.  Demographic and clinical data specific to the fetus was collected from clinical records. Gestational age of the neonate was determined by maternal reporting of the last menstrual period and corroboration by ultrasound dating. Accurate knowledge of gestational age (GA) is essential for proper monitoring and care of neonates. However, accurate GA measures are often not available. DNA methylation has previously been shown to associate with GA, and has been used to accurately predict chronological age in adults.  In the current study, we examine whether DNA methylation in cord blood can be used to predict gestational age at birth. Results: We found that GA can be accurately predicted from DNA methylation of neonatal cord blood and blood spot samples (DNAm GA), using 148 CpG sites selected through elastic net regression in six training datasets (N=207). We evaluated predictive accuracy in six testing datasets (N=1,202), and found that the accuracy of DNAm GA meets or exceeds accuracy of gestational age estimates based on established methods.  We also found an increased DNAm GA, relative to clinical GA, was associated with increased birthweight percentile (p=.00057), adjusting for GA, sex, and ancestry, suggesting that DNAm GA could represent developmental age more accurately than clinical estimates of GA. Conclusions: Further development of this predictor could provide a method of accurate neonatal estimation of GA for use in resource-limited populations, or in cases where GA cannot be estimated clinically. When clinical estimates are available, the predictor can be used to test hypotheses related to developmental age and other early life circumstances, and may provide increased accuracy beyond clinical estimates.
+
+DESIGN
+36 Umbilical cord blood samples were collected in EDTA tubes soon after placental delivery. Blood samples were centrifuged at 3,000 RPM to separate plasma, and buffy coats were aliquoted and stored at -80oC.  DNA was extracted using the DNeasy Kit (Qiagen). DNA methylation was interrogated for each sample using the HumanMethylation450 BeadChip (Illumina).
+

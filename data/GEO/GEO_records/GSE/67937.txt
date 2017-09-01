@@ -1,0 +1,12 @@
+TITLE
+The menu of features that define primary microRNAs and enable  de novo design of microRNA genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs (miRNAs) are small regulatory RNAs processed from stem-loop regions of primary transcripts (pri-miRNAs), with the choice of stem-loops for initial processing largely determining what becomes a miRNA. To identify sequence and structural features influencing this choice, we determined cleavage efficiencies of > 50,000 variants of three human pri-miRNAs, focusing on the regions intractable to previous high-throughput analyses. Our analyses revealed a mismatched motif in the basal stem region, a preference for maintaining or improving base-pairing throughout the remainder of the stem, and a narrow stem-length preference of 35±1 base pairs. Incorporating these features with previously identified features, including three primary-sequence motifs, yielded a unifying model defining mammalian pri-miRNAs, in which motifs help orient processing and increase efficiency, with the presence of more motifs compensating for structural defects. This model enables generation of artificial pri-miRNAs, designed de novo, without reference to any natural sequence, yet processed more efficiently than natural pri-miRNAs.
+
+DESIGN
+Three major experiments are included in the submitted data. 1) Pools of synthetic DNA containing barcodes and pri-miRNA variants were sequenced to infer the barcode-pri-miRNA linkages, and the pri-miRNA variants were assayed for their cleavage efficiency ( " selection " ), which can be quantified by comparing their representations in the input and after cleavage. 2) Artificial miRNAs produced in HEK293T cells were sequenced.  3) Transcriptomes of artificial miRNA-expressed cells were sequenced to quantify mRNA changes.
+

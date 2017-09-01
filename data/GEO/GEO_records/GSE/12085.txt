@@ -1,0 +1,9 @@
+TITLE
+Impact of normalization on Agilent miRNA microarray expression profiling
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Profiling miRNA levels in cells with miRNA-microarrays is becoming a widely used technique. Although normalization methods for mRNA gene expression arrays are well established, miRNA array normalization has so far not been investigated in detail. In this study we investigate the impact of normalization on data generated with the Agilent miRNA array platform. Here, we developed a method to select non-changing miRNAs (“invariants”) and used them to compute linear regression normalization coefficients or Variance Stabilizing Normalization (VSN) parameters. We compared the invariant normalizations to normalization by, scaling, quantile and VSN with default parameters as well as to no normalization using samples with strong differential expression of miRNAs (heart-brain comparison) and samples where only few miRNAs are affected (p53 overexpression in SCC13 cells versus GFP vector control transfected cells). All normalization methods performed better than no normalization. Normalizations procedures based on the set of invariants and quantile were the most robust over all experimental conditions tested. Our method of invariant selection and  normalization is not limited to Agilent miRNA arrays and can be applied to other datasets from one color miRNA microarray platforms, focused gene expression arrays and gene expression analysis using quantitative PCR. Keywords: miRNA profiling
+

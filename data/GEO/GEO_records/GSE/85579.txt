@@ -1,0 +1,12 @@
+TITLE
+Genomic Regulation of Invasion by STAT3 in Triple Negative Breast Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Breast cancer is a heterogeneous disease comprised of four molecular subtypes defined by whether the tumor-originating cells are luminal or basal epithelial cells. Breast cancers arising from the luminal mammary duct often express estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth receptor 2 (HER2). Tumors expressing ER and/or PR are treated with anti-hormonal therapies, while tumors overexpressing HER2 are targeted with monoclonal antibodies. Immunohistochemical detection of ER, PR, and HER2 receptors/proteins is a critical step in breast cancer diagnosis and guided treatment. Breast tumors that do not express these proteins are known as  “triple negative breast cancer” (TNBC) and are typically basal-like. TNBCs are the most aggressive subtype, with the highest mortality rates and no targeted therapy, so there is a pressing need to identify important TNBC tumor regulators. The signal transducer and activator of transcription 3 (STAT3) transcription factor has been previously implicated as a constitutively active oncogene in TNBC. However, its direct regulatory gene targets and tumorigenic properties have not been well characterized. By integrating RNA-seq and ChIP-seq data from 2 TNBC tumors and 4 cell lines, we discovered novel gene signatures directly regulated by STAT3 that were enriched for processes involving inflammation, immunity, and invasion in TNBC.  Functional analysis revealed that STAT3 has a key role regulating invasion and metastasis, a characteristic often associated with TNBC. Our findings suggest therapies targeting STAT3 may be important for preventing TNBC metastasis.
+
+DESIGN
+ChIP-seq and RNA-seq experimentation were performed in TNBC cell lines: HCC70, MDA-MB-231, MDA-MB-468, MDA-MB-157, HCC1143.  ChIP-seq was performed after 1hr vehicle control indcution (ethanol).  RNA-seq was performed after 96hr knockdown of STAT3 or non-targeting siRNA.  Tissue ChIP-seq was performed in two TNBC tumor samples: A139 and A137.
+

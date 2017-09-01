@@ -1,0 +1,12 @@
+TITLE
+The transposable element composition of human lincRNAs reveals a role for HERVH elements to promote stem cell specific expression of lincRNAs
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Numerous studies over the past decade have elucidated a substantial set of long intergenic noncoding RNAs (lincRNAs). It has since become clear that lincRNAs constitute an important layer of genome regulation across a wide spectrum of species. Yet, the factors governing their evolution and origins remain relatively unexplored. One possible factor that may have shaped lincRNA biology are transposable elements (TEs). Here we set out to comprehensively characterize the TE content of lincRNAs relative to genomic averages and protein coding transcripts. Our analysis of the TE composition across 9241 human lincRNAs revealed that, in sharp contrast to protein coding genes, a striking majority (83%) of lincRNAs contain a TE, and TEs comprise 42% of lincRNA transcript sequences. LincRNA TE composition varies significantly from genomic averages, being depleted of LI and Alu elements and enriched for a broad class of endogenous retroviruses (ERVs). Furthermore, specific TE families occur in biased positions and orientations within lincRNAs, particularly at their transcription start sites, suggesting a role in the origin of those lincRNAs. Finally, we find that TEs can drive gene expression regulation of lincRNAs—we observed a dramatic correlation between lincRNAs containing HERVH elements and almost exclusive expression in pluripotent cells. Conversely, those lincRNAs that are devoid of TEs are more highly expressed in testis. Collectively, TEs pervade lincRNAs and have shaped lincRNA evolution and function via bestowing tissue-specific expression from donated transcriptional regulatory signals.
+
+DESIGN
+We extracted profiled the transcriptome expression polyadenylated mRNA-Seq.  We then used these to reconstruct the transcriptome using de-novo assemblers and identify long non coding RNAs and their expression.
+

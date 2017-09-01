@@ -1,0 +1,12 @@
+TITLE
+The Histone Variant MacroH2A1.2 is Necessary for the Activation of Muscle Enhancers and Recruitment of the Transcription Factor Pbx1
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Histone variants complement and integrate histone post-translational modifications in regulating transcription. The histone variant macroH2A1 (mH2A1) is almost three times the size of its canonical H2A counterpart due to the presence of a ~25kDa evolutionarily conserved non-histone macro domain. Strikingly, mH2A1 can mediate both gene repression and activation. However, the molecular determinants conferring these alternative functions remain elusive. Here, we report that mH2A1.2 is required for the activation of the myogenic gene regulatory network and muscle cell differentiation. H3K27 acetylation at prospective enhancers is exquisitely sensitive to mH2A1.2, indicating a role of mH2A1.2 in imparting enhancer activation. Both H3K27 acetylation and recruitment of the transcription factor Pbx1 at prospective enhancers are regulated by mH2A1.2. Overall, our findings indicate a role of mH2A1.2 in marking regulatory regions for activation.
+
+DESIGN
+To establish the role of the  histone variant mH2A1.2 in skeletal muscle differentiation we employed the mouse skeletal muscle C2C12 cell line and examined the genome wide distribution mH2A1.2  in myoblast (MB) and myotube (MT) (two replicates). We intersected the distribution of mH2A1.2 with active (H3K4me3 and H3K4me1 from published dataset, and H3K27ac, two replicates) and repressive (H3K27me3, two replicates) epigenetic marks in MB and MT. To gain insite on how  chromatin accessibility is remodelled when muscle cells are induced to differentiate, we performed  ATAC-seq in C2C12 MB and MT (2 replicates). We then evaluated whether mH2A1.2 was involved in conferring H3K27 acetylation during skeletal muscle differentiation by performing H3K27ac ChIP-seq (two replicates) upon mH2A1.2i in MB and MT. We also prefomred the ChIP-Seq for transcription factor Pbx1 in control and mH2A1.2i cells in MT to address the potential role of mH2A in recruitment of Pbx1.   RNA-seq experiments were performed in control and mH2A1.2i C2C12 cells at the stage of MB and MT (three replicates). When mH2A1.2i C2C12 MB were induced to differentiate, a global effect on transcription was observed.
+

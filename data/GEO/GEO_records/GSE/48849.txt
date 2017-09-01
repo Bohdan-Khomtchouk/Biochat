@@ -1,0 +1,12 @@
+TITLE
+Expression data from INTS8 human mutants and controls
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Integrator Complex (IC) is responsible for the 3'-end processing of the U1/U2 major spliceosome snRNAs. Maturation of these snRNAs is essential for the proper function of the major spliceosome. Also, there is accumulating evidence that the IC is necessary for normal vertebrate development, however no association with human disease has been reported yet. Three siblings presented with severe intellectual disability, cerebellar hypoplasia and periventricular nodular heterotopia (PNH) of unknown cause. Using whole genome sequencing (Complete Genomics), and filtering for recessive inheritance, we discovered co-segregating compound heterozygous mutations in Integrator Complex Subunit 8 (INTS8) in the three sibs. QRT-PCR showed 2-fold decreased INTS8 RNA levels and in patients’ fibroblasts lower levels of the catalytic subunits INTS4, INTS9 and INTS11 were observed on western blots, indicating that the integrity of the complex is disrupted. Northern blots showed significantly misprocessed levels of U1, U2 and U4. Pathway analysis (DAVID) of expression data (Affymetrix Gene Chip 1.0 ST exon arrays) of RNA extracted from patient fibroblasts showed enrichment of deregulated genes involved in mRNA splicing and posttranscriptional modification. Expression data of (developing) human brain structures (Allen Brain Atlas) show that expression of INTS8 peaks prenatally, especially in the ganglionic eminences, (sub)ventricular zone and hindbrain, similar to the developmental expression in mouse embryo (Emage databse). Interestingly,  neuronal precursors from these areas migrate to the cortex and are compatible to affected regions in PNH and cerebellar hypoplasia in the patients. We propose that dysfunction of the Integrator Complex, through snRNA misprocessing and spliceosomal defects, leads to severely disrupted brain development in humans. We used RNA isolated from human cultured fibroblasts, cell-lines were obtained from 3 individuals with INTS8 mutations and from 3 unaffected individuals. R,Oegema
+
+DESIGN
+Six Affymetrix Gene Chip 1.0 ST exon arrays (patients: III.2, III.3, III.4; controls: C1, C2, C3) were rma normalized on transcript level using the R package oligo ( ). Top down regulated (n=402) or up regulated (n=281) genes with p values < 0.02 were analyzed for enriched gene ontology terms (goterms_BP_all) using DAVID (medium stringency)(down: 329 DAVID IDs, up: 225 DAVID IDs).
+

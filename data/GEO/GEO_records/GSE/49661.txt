@@ -1,0 +1,12 @@
+TITLE
+Evaluation of quantitative miRNA gene expression platforms - custom microRNA GeneChip
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNA microarray expression dataset used to develop novel and robust quality metrics to objectively assess platform performance of very different technologies.
+
+DESIGN
+The HsMir v1s520779F custom array is primarly based on the commercially available Affymetrix microRNA microarray version 2.0 (Affymetrix GeneChip miRNA 2.0 Array datasheet P/N EXP00180 Rev 1) with i) microRNA probe sequences updated using miRBase version 17 ii) all human pre-microRNAs removed iii) all non-human sequences removed iv) all viral target sequences removed. In summary, the array contains 1738 mature microRNAs and 2333 other small RNAs (such as small nucleolar RNAs or small cajal body-specific RNAs) probe sequences plus the Affymetrix hybridization and normalization control probesets.
+

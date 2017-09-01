@@ -1,0 +1,12 @@
+TITLE
+[E-MTAB-189] Genomewide Analysis of Histone Modifications in Normal Human Islets
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This experiment used ChIP-seq technology to create a genome-wide profile of histone marks in normal human pancreatic islets.  In the current work we analyzed two histone marks associated with gene expression (H3K4me3, H3K4me1) and marks associated with gene repression (H3K27me3). Each mark was anayzed using samples obtained from four donors (n=4). Chromatin Immunoprecipitations (ChIPs) for histone marks were performed using specific anti-histone antibodies. Enrichment of each sample was calulated with respect to its  individual input using qPCR.  Samples were sequenced with Solexa and sequenced DNA from both Input (n=4) and ChIP (n = 4) samples were aligned to the NCBI Genome Build 36.1 Hg18 to determine regions that were enriched for binding by modified histones. ArrayExpress Release Date: 2010-02-17 Publication Title: Genome-wide analysis of histone modifications in human pancreatic islets Publication Author List: Bhandare R, Schug J, Le Lay J, Fox A, Smirnova O, Liu C, Naji A, Kaestner KH Person Roles: submitter Person Last Name: Bhandare Person First Name: Reena Person Email: bhandare@mail.med.upenn.edu Person Phone: Person Address: 771 Clinical Research Building, 415 Curie Blvd, Philadelphia, PA, 19104 Person Affiliation: Department of Genetics, University of Pennsylvania
+
+DESIGN
+Experimental Design: high_throughput_sequencing Experimental Design: chromatin_immunoprecipitation_design Experimental Design: ChIP-seq Experimental Factor Name: Immunoprecipitate Experimental Factor Name: Age Experimental Factor Name: Sex Experimental Factor Name: Phenotype Experimental Factor Type: immunoprecipitate Experimental Factor Type: age Experimental Factor Type: sex Experimental Factor Type: phenotype
+

@@ -1,0 +1,12 @@
+TITLE
+Genome-wide methylation analysis of prostate tissues reveals global methylation patterns of prostate cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+High-throughput analyses of concordant gene methylation and expression events were carried out for 91 human prostate specimens, including prostate cancer (T), matched normal adjacent to tumor (AT), and organ donor (OD).  Methylated DNA in genomic DNA was immunoprecipitated with anti-methylcytidine antibodies and detected by Affymetrix human whole genome SNP 6.0 chips. Methylated genomic DNA was purified by 5-hmc antibodies and Affymetrix SNP arrays were performed according to the manufacturer's manual.
+
+DESIGN
+Copy number analysis of Affymetrix human SNP arrays was performed for both 5mc- and genomic DNA of prostate cancer samples. Methylations of genes were called when the allel amplification was reported in 5_mc DNA, and the background of the detection was suppressed by matched DNA sample. we used copy number of each probe set as baseline to detect the enrichment of methylated DNA from the same sample.  Therefore, each specimen has two arrays; one is straight copy number (*SNP.CEL), another methylation enriched DNA (*5MC_SNP.CEL). Each CNV probe is based on the design from Affymetrix but no SNP ID was assigned.
+

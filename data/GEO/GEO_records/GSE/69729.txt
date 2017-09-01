@@ -1,0 +1,12 @@
+TITLE
+Transcriptome and/or marker frequency analysis of S. pneumoniae (control vs. HPUra/Kanamycin/Ciprofloxacin/Hydroxyurea/Rifampicin)
+
+ORGANISM
+Streptococcus pneumoniae
+
+SUMMARY
+Pneumococcal bacteriocins (pneumocins) are antibacterial toxins that mediate intra- and interspecies competition within the human host. What triggers pneumocin expression is poorly understood. Using RNA-sequencing, we mapped the regulon of the pneumocin cluster (blp) of Streptococcus pneumoniae D39 and show that several antibiotics activate the blp-genes. Real-time gene expression measurements showed that while the promoter driving expression of the two-component regulatory system blpS/H was constitutive, the remaining blp-promoters (e.g. controlling pneumocin expression, immunity and the inducer peptide BlpC) was pH-dependent, induced in the late exponential phase and occurred in all cells. Intriguingly, competence for genetic transformation, mediated by the ComD/E two-component quorum system, was induced by the same stimuli. To test for regulatory interplay, we utilized synthetic BlpC and competence-stimulating peptide (CSP). Strikingly, immediately upon addition of CSP, the blp-promoters were activated in a comD/E dependent manner. After a delay, blp-expression was highly induced but strictly dependent on the presence of blpRH and blpC. This raised the question how BlpC is exported since phylogenetic analysis showed that the putative exporter for BlpC, blpAB, is not intact in strain D39 and most other strains. However, all sequenced pneumococcal strains contain intact comAB genes, encoding the transport system for CSP. In fact, we show that high expression of the blp-genes requires comAB. Together, we demonstrate that regulation of pneumocin expression is intertwined with competence, explaining why certain antibiotics induce blp-expression. Antibiotic-induced pneumocin expression might promote survival under antibiotic stress by killing and liberating DNA from neighboring (antibiotic-resistant) bacteria, which can then be used for transformation or repair.
+
+DESIGN
+Pairwise comparison of untreated and antibiotic-treated cells (either DNA-seq or RNA-seq). It was performed with deep sequencing, using an Illumina HiSeq 2000 machine with 100 nt paired-end reads. Control and  HPUra-treated samples were analysed from duplicate samples, while other conditions were from single samples.
+

@@ -1,0 +1,12 @@
+TITLE
+Hog1 controls global reallocation of RNA Pol II upon osmotic shock
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+When challenged with osmotic shock, S. cerevisiae induces hundreds of genes, despite a global reduction in transcriptional capacity.  The mechanisms that regulate this rapid reallocation of transcriptional resources are not known.  Here we show that redistribution of RNA Pol II upon stress requires the stress-responsive MAP kinase Hog1.  We find that Hog1 and RNA Pol II co-localize to open reading frames that bypass global transcriptional repression, and that these targets are specified by two osmotic stress-responsive transcription factors.  The combination of reduced global transcription with a gene-specific override mechanism allows cells to rapidly switch their transcriptional program in response to stress.
+
+DESIGN
+ChIP-sequencing of S. cervisiae RNA Pol II, Hog1, Sko1 and Hot1 Processed data file descriptions: ORFcounts.txt: table of summed ChIP-seq reads that align to each ORF (normalized by reads per kilobase per million) promoter_counts.txt: table of summed ChIP-seq reads that align to each promoter (1kb upstream, normalized by reads per kilobase per million) downstream_counts.txt: table of summed ChIP-seq reads that align 3' regions (50-500 bp downstream, normalized by reads per kilobase per million) Sko1_peak_list.txt: table of peaks found by PeakSeq Hot1_peak_list.txt: table of peaks found by PeakSeq
+

@@ -1,0 +1,12 @@
+TITLE
+RNA-seq profiling of transcriptomes of control and Hif1a mutant E12.5 hearts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: to identify genes aberrantly expressed upon myocardial ablation of Hif1a Methods: a floxed Hif1a allele was deleted in mouse embryonic hearts using a NXK2.5Cre line. Total RNA was extracted from E12.5 hearts (n=3 for controls and mutants) usinz Trizol and processed for RNA-seq. Reads were mapped to Mm10 reference genome using TopHat2 and Bowtie2. Transcript expression values were determined after transcript normalization with AltAnalyze Results: this analysis revealed a total of 1451 genes significantely (|Fold| > 20% and P < 0.05) modulated in Hif1a cKO hearts
+
+DESIGN
+6 total RNAseq runs with 3 experimental samples and 3 controls samples
+

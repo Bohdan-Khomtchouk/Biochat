@@ -1,0 +1,12 @@
+TITLE
+Optimization of codon translation rates via tRNA modifications maintains proteome integrity
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Proteins begin to fold as they emerge from translating ribosomes. The kinetics of ribosome transit along a given mRNA can influence nascent chain folding, but the extent to which individual codon translation rates impact proteome integrity remains unknown. Here, we show that slower decoding of discrete codons elicits widespread protein aggregation in vivo. Using ribosome profiling, we find that loss of anticodon wobble uridine (U34) modifications in a subset of tRNAs leads to ribosome pausing at their cognate codons in S. cerevisiae and C. elegans. Yeast cells lacking U34 modifications exhibit gene expression hallmarks of proteotoxic stress and accumulate aggregates of endogenous proteins with key cellular functions. Moreover, these cells are severely compromised in clearing stress-induced protein aggregates. Overexpression of hypomodified tRNAs alleviates ribosome pausing, concomitantly restoring protein homeostasis. Our findings demonstrate that modified U34 is an evolutionarily conserved accelerator of decoding and reveal an unanticipated role for tRNA anticodon modifications in maintaining proteome integrity.
+
+DESIGN
+Ribosome profiling of wild-type and tRNA modification-deficient yeast and nematodes. Yeast samples were generated in various growth conditions (rich medium versus stress induced by treatment with diamide or rapamycin) and paired mRNA-Seq was performed on a subset of samples. Dataset contains three biological replicates for yeast samples and two biological replicates for nematode samples.
+

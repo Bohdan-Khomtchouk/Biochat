@@ -1,0 +1,12 @@
+TITLE
+DHX9 suppresses spurious RNA processing defects originating from the Alu invasion of the human genome [RNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transposable elements increase genetic diversity thus making them an important part of evolution and gene regulation in all organisms that carry these sequences. Bulk of our nascent transcriptome is comprised of transposable elements that have the propensity to form strong secondary structures. It is essential to resolve such strong secondary structures to maintain normal cellular function. Here, we show that the major nuclear RNA helicase DHX9/RHA interacts and remodels embedded Alu retrotransposable elements in the human transcriptome and B1 retrotransposable elements in the mouse transcriptome. To understand the effect of loss of DHX9 in human transcriptome we performed knockdown of DHX9 in HEK293 cells using two different siRNAs, followed by polyA-plus and polyA minus RNA extraction and sequencing.
+
+DESIGN
+We perfomed knockdown of human RNA heliase-A (also known as DHX9 ) in HEK293 cells using 2 different siRNAs, followed by polyA-plus and polyA-minus RNA sequencing. siRNAs used: control: silencer select siRNA control #2 ( ) DHX9 KD_1: s4019 ( ) chr1: 182860161-182860180 (hg38) DHX9 KD_2: s4020 ( ) chr1: 182858158-182858177 (hg38) siRNA were used at a final concentration of 5nM, transfected to HEK293 cells with RNAiMAX. Total RNA was isolated 3d after transfection. For polyA(+) samples, TruSeq library prep protocol was used (starting with ~1µg total RNA) For polyA(-) samples, we depleted polyA(+) RNA from total RNA with oligo-dT(+) beads, twice. The rest was first ribodepleted with RiboZero kit, which then went through the TruSeq protocol. Sequencing parameters : 150x2 bp reads, full run of the NextSeq500 machine.
+

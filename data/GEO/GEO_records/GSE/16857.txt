@@ -1,0 +1,12 @@
+TITLE
+Zebrafish response to microbiota
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Vertebrates are colonized at birth by complex microbial communities (microbiota) that influence diverse aspects of host biology. We have used a functional genomics approach to identify zebrafish genes that are differentially expressed in response to the microbiota.  We assessed RNA expression profiles from zebrafish larvae at 6 days post-fertilization (dpf) that were either raised continuously in the absence of any microorganism (germ-free or GF), or raised GF through 3dpf then colonized with a normal zebrafish microbiota (conventionalized or CONVD).
+
+DESIGN
+Total RNA was purified from pooled intact zebrafish larvae (28-80 larvae/pool, 3 biological replicate pools/condition) using Trizol reagent (Invitrogen) followed by DNase I digestion (DNA-Free, Ambion) according to manufacturers' protocols. Total RNA from each replicate pool (12ug RNA/replicate) was used as template for independent cDNA synthesis and in vitro transcription reactions (BioArray HighYield RNA Transcript Labeling Kit; Enzo Life Sciences) to generate biotinylated cRNA targets. cRNA targets (20ug/replicate) were fragmented using standard methods. Hybridization and scanning were performed using standard Affymetrix protocol. Raw expression values were normalized (Invariant set method) and modeled (PM-MM model), and present/absent calls were generated using dChip software (build date Dec.11, 2005).
+

@@ -1,0 +1,12 @@
+TITLE
+3’READS+, a sensitive and accurate method for 3’ end sequencing of polyadenylated RNA
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Sequencing of the 3’ end of poly(A)+ RNA identifies cleavage and polyadenylation sites (pAs) and measures transcript expression. We previously developed a method, 3’ region extraction and deep sequencing (3’READS), to address mispriming issues that often plague 3’ end sequencing. Here we report a new version, named 3’READS+, which has vastly improved accuracy and sensitivity. Using a special locked nucleic acid oligo to capture poly(A)+ RNA and to remove bulk of the poly(A) tail, 3’READS+ generates RNA fragments with an optimal number of terminal As that balance data quality and detection of genuine pAs. With improved RNA ligation steps for efficiency, the method shows much higher sensitivity (over two orders of magnitude) compared to the previous version. Using 3’READS+, we have uncovered a sizable fraction of previously overlooked pAs located next to or within a stretch of adenylate residues in human genes, and more accurately assessed the frequency of alternative cleavage and polyadenylation (APA) in HeLa cells (~50%). 3’READS+ will be a useful tool to accurately study APA and to analyze gene expression by 3’ end counting, especially when the amount of input total RNA is limited.
+
+DESIGN
+Nine 3'READS+ libraries were made with different amounts (100 ng, 200 ng, 400 ng, 1000 ng, 5000 ng, 15000 ng) of input Hela RNA.
+

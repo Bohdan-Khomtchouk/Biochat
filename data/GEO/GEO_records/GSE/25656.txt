@@ -1,0 +1,12 @@
+TITLE
+High recombination rates and hotspots in a Plasmodium falciparum genetic cross.
+
+ORGANISM
+Plasmodium falciparum
+
+SUMMARY
+We used a high-density tiling array to estimate genetic recombination rate among 32 independent recombinant progeny of a P. falciparum genetic cross (7G8 × GB4). We detected 3184 segregating multi-probe single-feature polymorphisms (mSFPs) and 638 recombination events (496 excluding those from subtelomeric regions). These data, in combination with results from 254 previously reported microsatellites, enabled us to construct a high-resolution genetic map. Comparing genetic and physical maps, we obtained an overall recombination rate of 9.6 kb/cM (12.8 kb/cM excluding subtelomeric regions) and identified 54 hotspots, some of which occurred in genes encoding surface antigens or proteins with repetitive motifs that might play a role in genetic recombination in the parasite. Motifs enriched in hotspots were also identified. In agreement with results from a previous cross (HB3 ´ Dd2), there was positive correlation between sizes of individual chromosomes and their recombination events. These results show that the P. falciparum genome is highly recombinogenic, providing an important genetic basis for parasite survival under various selection pressures. GC-rich repetitive motifs identified in the hotspot sequences may play a role in the high recombination frequency observed.
+
+DESIGN
+Ten microgram of genomic DNA, extracted and purified from 3D7 (reference), thirty-two P. falciparum independent recombinant progeny of the 7G8 x GB4 cross, and the two parental lines (Hayton, 2008), were hybridized to the PFSANGER Genechip® (Affymetrix, Inc., Santa Clara, CA, USA). The scanned image CEL files were first processed using the RMA method, then averaged and compared with reference genome 3D7, and lastly assigned either 7G8 or GB4 alleles based on similarities to the two parental lines. Total of 35 genomic DNA samples (biological replicates: 6 for 3D7, 4 for 7G8, 4 for GB4, and 2 for Pf_WE2). The supplementary file 'GSE25656_QuantNormData_Log2_AllSamples.txt' contains the RMA-normalized data for all of the samples. The supplementary files 'GSE25656_chr*' contain the parental allele assignment of each chromosome and include probe-level annotation.
+

@@ -1,0 +1,12 @@
+TITLE
+Linking oncogenic signaling to transcriptional changes by epigenomic data in a cell line model of human glioblastoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We present a computational method for building a regulatory network from global phosphoproteomic and transcription profiling data. To recover the critical missing links between signaling events and transcriptional responses, we relate changes in chromatin accessibility to changes in expression and then uses these links to connect proteomic and transcriptome data.  We applied our approach to integrate epigenomic, phosphoproteomic and transcriptome changes induced by the variant III mutation of the epidermal growth factor receptor (EGFRvIII) in a cell line model of glioblastoma multiforme (GBM).
+
+DESIGN
+Genome-wide DNase I hypersensitivity followed by sequencing (DNase-Seq) to measure chromatin accessibility in a cell line derived from the U87MG glioblastoma cell line to express high level of EGFRvIII (U87H; 2 million copies of EGFRvIII per cell) and a control cell line expressing kinase dead EGFRvIII (U87DK; 2 million kinase dead EGFRvIII per cell).  A prediction from the computational method, the transcriptional co-regulator p300, was experimentally validated by chromatin immunoprecipitation followed by sequencing (ChIP-Seq).
+

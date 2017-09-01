@@ -1,0 +1,12 @@
+TITLE
+Genome-wide maps of chromatin state in NCCIT cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+H2B mono-ubiquitylation is required for multiple methylations of both H3K4 and H3K79 and has been implicated in gene expression from yeast to human. However, molecular crosstalk between H2BUb1 and other modifications, especially H3K4 and H3K79 methylations, remains unclear in vertebrates. To understand the functional role of H2BUb1, genome-wide histone modification patterns were measured in human cells. This study proposes dual roles of H2BUb1 that are both H3 methylation dependent and independent. First, H2BUb1 is a 5'-enriched active transcription mark and is co-occupied with H3K79 methylations in actively transcribed regions. Importantly, this study found a unique role of H2BUb1 in chromatin architecture independent of histone H3 methylations. H2BUb1 is well positioned in exon-intron boundaries of highly expressed exons and is specifically enriched in 5'-biased exons. Furthermore, H2BUb1 demonstrates increased occupancy in skipped exons compared to flanking exons for the human and mouse genome. Our findings suggest that a potentiating mechanism links H2BUb1 to both H3K79 methylations in actively transcribed regions and the exon-intron structure of highly expressed exons through the regulation of nucleosome dynamics during transcription elongation.
+
+DESIGN
+We generated high-throughput sequencing (ChIP-seq) data for genome-wide occupancy of H2BUb1, nucleosome, H3K4me3, H3K36me3, H379me1/2/3, H3Ac, and mRNA in human embryonic carcinoma cells. We performed ChIP-seq for seven different histone modifications, MNase-seq, mRNA-seq (two replications), and inputDNA-seq in NCCIT cell lines (human embryonic carcinoma cell lines). We also performed mRNA-seq for RNF20-siRNA transfected NCCIT cells, where H2BUb1 signals decreased.
+

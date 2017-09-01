@@ -1,0 +1,12 @@
+TITLE
+Tranposable elements modulate human mRNAs and lncRNAs via specific RNA-protein interactions.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transposable elements (TEs) have significantly influenced the evolution of transcriptional regulatory networks in the human genome. Post-transcriptional regulation of human genes by TE-derived sequences has been observed in specific contexts, but has yet to be systematically and comprehensively investigated. Here, studied a collection of CLIP-Seq (CrossLinked ImmunoPrecipitation) experiments mapping the RNA binding sites for a diverse set of 46 human proteins across 68 experiments to explore the role of TEs in post-transcriptional regulation genome-wide via RNA-protein interactions. We detected widespread interactions between RNA binding proteins (RBPs) and various families of TE-derived sequence in the CLIP-Seq data. Alignment coverage clustered on specific positions of the TE consensus sequences, illuminating a diversity of TE-specific motifs for many RBPs. Evidence of binding and conservation of these motifs in the nonrepetitive transcriptome suggest that TEs have appropriated existing sequence preferences of the RBP. Upon depletion of the RBPs, transcripts possessing TE-derived binding sites were similarly regulated as those bound in nonrepetitive sequence.  However, in a few cases the effect of RBP binding depended on the specific TE family bound—e.g., the ubiquitously expressed RBP HuR conferred opposite effects on stability to transcripts when bound to Alu elements versus other families. Our meta-analysis suggests a widespread role for TEs in shaping RNA-protein regulatory networks in the human genome.
+
+DESIGN
+HuR formaldehyde RIP-Seq in K562 cells, with RIP and input sequenced in triplicate.
+

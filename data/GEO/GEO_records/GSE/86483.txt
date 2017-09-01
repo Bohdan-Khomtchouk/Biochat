@@ -1,0 +1,12 @@
+TITLE
+Nuclear RNA decay pathways aid rapid remodeling of gene expression in yeast
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+In budding yeast, the nuclear RNA surveillance system is active on all pre-mRNA transcripts and modulated by nutrient availability. To test the role of nuclear surveillance in reprograming gene expression, we identified transcriptome-wide binding sites for RNA polymerase II (Pol II) and the exosome cofactors Mtr4 (TRAMP complex) and Nab3 (NNS complex) by UV-crosslinking immediately following glucose withdrawal (0, 4, and 8 minutes).  In glucose, mRNA binding by Nab3 and Mtr4 was mainly restricted to promoter-proximal sites, reflecting early transcription termination. Following glucose withdrawal, many mRNAs showed reduced transcription but increased Nab3 binding, accompanied by downstream recruitment of Mtr4, and oligo(A) tailing. This indicates transcription termination followed by TRAMP-mediated RNA decay. Upregulated transcripts generally showed low or strongly reduced binding of Nab3 and Mtr4. We conclude that nuclear surveillance pathways regulate both positive and negative responses to glucose availability.
+
+DESIGN
+CRAC datasets were collected for Rpo21, Nab3, and Mtr4 at 0, 4, and 8 minutes. Total RNA was measured by RNA-seq at 0, 8, and 16 minutes following glucose starvation.
+

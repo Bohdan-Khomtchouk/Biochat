@@ -1,0 +1,12 @@
+TITLE
+Cutoff suppresses RNA polymerase II termination to ensure expression of piRNA precursors
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Small non-coding RNAs called piRNAs serve as the sequence-specific guides for an adaptable immune system that represses transposable elements in germ cells of Metazoa. The adaptation of the piRNA pathway to novel transposons is believed to occur when active transposons integrate into piRNA clusters, special genomic regions, which encode piRNA precursors. In Drosophila the RDC complex, composed of Rhino, Deadlock and Cutoff (Cuff) binds chromatin of dual-strand piRNA clusters and is required for transcription of piRNA precursors, though the mechanism by which RDC license transcription remained unknown. Here we show that Cuff prevents premature termination of RNA polymerase II by two distinct mechanisms. First, Cuff prevents cleavage of nascent RNA at poly(A) sites by interfering with recruitment of the cleavage and polyadenylation specificity factor (CPSF) complex. Second, if processing does occur, Cuff protects processed transcripts from degradation by the exonuclease Rat1. Our work reveals a conceptually novel mechanism of transcriptional enhancement. In contrast to other factors that regulate termination by binding to specific signals on nascent RNA, the RDC complex inhibits termination in a chromatin-dependent and sequence-independent manner.
+
+DESIGN
+Comparison of RNAseq, GRO-seq, small RNA-seq and Pol II ChIP data between Cutoff knockdown, mutant and control Drosophila ovaries.
+

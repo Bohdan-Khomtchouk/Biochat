@@ -1,0 +1,12 @@
+TITLE
+Dynamic Changes in Histone Modifications Precede de novo DNA Methylation in Oocytes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Erasure and subsequent re-instatement of DNA methylation in the germline, especially at imprinted CpG islands (CGIs), is crucial to embryogenesis in mammals. The mechanisms underlying DNA methylation establishment remain poorly understood, but a number of post-translational modifications of histones are implicated in antagonizing or recruiting the de novo DNA methylation complex. In mouse oogenesis, DNA methylation establishment occurs on a largely unmethylated genome and in non-dividing cells, making it a highly informative model for examining how histone modifications can shape the DNA methylome. Using a chromatin immunoprecipitation and genome-wide sequencing (ChIP-Seq) protocol optimized for low cell numbers and novel techniques for isolating primary and growing oocytes, profiles were generated for histone modifications implicated in promoting or inhibiting DNA methylation. CGIs destined for DNA methylation show reduced protective H3K4me2 and H3K4me3 in both primary and growing oocytes, while permissive H3K36me3 increases specifically at these CGIs in growing oocytes. Methylome profiling of oocytes deficient in H3K4 demethylases KDM1A or KDM1B indicated that removal of H3K4 methylation is necessary for proper methylation establishment at CGIs. This work represents the first systematic study performing ChIP-Seq in oocytes, and shows that histone remodeling in the mammalian oocyte helps direct de novo DNA methylation events.
+
+DESIGN
+ChIP-Seq in duplicate of four histone modifications in primary and growing oocytes, bisulfite sequencing in triplicate of mature oocytes lacking KDM1A/LSD1 or KDM1B/AOF1, RNA-Seq of mature oocytes lacking KDM1B/AOF1, and RNA-Seq of primary E18.5 oocytes.
+

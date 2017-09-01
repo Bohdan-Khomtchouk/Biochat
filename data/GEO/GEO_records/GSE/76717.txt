@@ -1,0 +1,12 @@
+TITLE
+RNA Expression Profile of Calcified Bicuspid, Tricuspid and Normal Human Aortic Valves by RNA Sequencing [TAV]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: The molecular mechanisms leading to premature development of aortic valve stenosis (AS) in individuals with a bicuspid aortic valve (BAV) are unknown. The objective of this study was to identify genes differentially expressed between calcified BAV and tricuspid valves with (TAVc) and without (TAVn) calcification using RNA sequencing (RNA-Seq). Methods: Ten human calcified BAV and nine TAVc were collected from men who underwent aortic valve replacement. Eight TAVn were obtained from men who underwent heart transplantation. mRNA levels were measured using the Illumina HiSeq 2000 system. Reads were aligned with TopHat. Cuffdiff, DESeq, edgeR, and SAMSeq were used to compare gene expression. Genes with adjusted P < 0.05 in the four methods were called differentially expressed. Pathway analysis was performed with IPA. Results: Two genes were up-regulated and none were down-regulated in BAV compared to TAVc. There were 462 genes up-regulated and 282 down-regulated in BAV compared to TAVn. Compared to TAVn, 329 genes were up- and 170 were down-regulated in TAVc. Conclusions: This is the first transcriptome study on calcified and normal aortic valves using RNA-Seq. BAV and TAVc have a highly similar expression profile. These results contribute to our molecular understanding of AS and the identification of new therapeutic targets that are urgently needed to prevent, slow the development or treat AS in patients with bicuspid and tricuspid valves.
+
+DESIGN
+Samples of aortic valves were collected from 17 male patients undergoing aortic valve replacement surgery. RNA sequencing was performed using the Illumina Hiseq 2000.
+

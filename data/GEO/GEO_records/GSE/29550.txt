@@ -1,0 +1,9 @@
+TITLE
+Insights into N-calls of mitochondrial DNA sequencing using MitoChip v2.0
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Developments in DNA resequencing microarrays include mitochondrial DNA (mtDNA) sequencing and mutation detection. During automated analysis to sequence mtDNA, bases can be identified as wildtype, variant, or there may be a failure to assign a base (N-call) when compared to the mtDNA reference sequence (rCRS). The purpose of our study was to re-examine the N-call distribution of mtDNA samples, based on the hypothesis that N-calls may represent insertions or deletions in mtDNA. Findings: We analysed mtDNA from 16 patient samples (8 blood/bone marrow origin and 8 from cultured fibroblasts) using the Affymetrix MitoChip v.2.0 which has 2 probe areas, one for sequencing compared to the rCRS and one for 500 common haplotypes. N-calls by the proprietary GSEQ software were significantly reduced when the freeware on-line algorithm ‘sPROFILER’ was utilized. Interestingly, this decrease in N-calls, in both sections of the MitoChip, had no effect on the homoplasmic or heteroplasmic mutation levels compared to GSEQ software. We then used conventional DNA sequencing to analyse continuous N-call stretches identified by sPROFILER, ranging from 2 to 22 bases, to identify changes resulting in base calling failures. Conclusions: Our study is the first to analyse N-calls produced from GSEQ software for the MitoChip v2.0. We found that by narrowing the focus to stretches of N-calls revealed by sPROFILER, conventional sequencing was able to identify unique deletions and insertions. This study also appeared to support the contention that the GSEQ is more capable of assigning bases when used in conjunction with sPROFILER.
+

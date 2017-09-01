@@ -1,0 +1,12 @@
+TITLE
+Early B-cell Factor 1 Regulates Adipocyte Morphology and Lipolysis in White Adipose Tissue [expression profiling]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To investgate the role of EBF1 in human adipocyte, we performed global expression profiling in human adipocytes transfected with siRNA targeting EBF1.
+
+DESIGN
+Human adipocytes differentiated in vitro were transfected with siRNA targeting EBF1 or Non-targeting Control. The cells were incubated for approximately 48 hours upon which Total RNA were purified.  Gene expression profiling was performed using Affymetrix Human Gene 1.1 ST arrays (Affymetrix, Inc., Santa Clara, CA). Data were analyzed with packages available from Bioconductor (www.bioconductor.org). Normalization and calculation of gene expression was performed with the Robust Multichip Average expression measure using oligo package. Prior to further analysis, a non-specific filter was applied to include genes with expression signal > 30 in at least 20% of all samples. A total of three independent transfection experiments were performed for the pre-adipocytes obtained from one donor. Same experiment were repeated with cells from another donor.
+

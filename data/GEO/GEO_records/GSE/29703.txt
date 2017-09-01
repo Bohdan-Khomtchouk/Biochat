@@ -1,0 +1,9 @@
+TITLE
+Association of microRNAs with CD68 and NOS2 in IBD tissues.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We analyzed the association of CD68 and NOS2 mRNA expression with microRNAs in IBD tissues.  For this analysis, data was LOESS normalized in R.  Data was then imported into Partek Genomics Suite and Batch effects caused by day to day variability (Dategroup of array charateristic) were corrected.  We did not have mRNA expression data for CD68 and NOS2 for all of the samples, therefore those samples were not used for analysis. We identified several microRNAs associated with CD68 and NOS2 expression.
+

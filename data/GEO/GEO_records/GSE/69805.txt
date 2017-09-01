@@ -1,0 +1,12 @@
+TITLE
+Mutational Interference Mapping Experiment (MIME) to identify the binding site of the HIV-1 Pr55Gag protein to the HIV-1 genomic RNA
+
+ORGANISM
+Human immunodeficiency virus 1
+
+SUMMARY
+During HIV-1 assembly, the structural protein Pr55Gag specifically selects viral genomic RNA by interacting with packaging signals present in the 5’ untranslated region (UTR). Despite a large number of studies, Pr55Gag binding to the genomic RNA remains poorly understood. To precisely define the Pr55Gag binding site we performed Mutational Interference Mapping Experiment on the 5’UTR and the beginning of the gag gene. To do this, we first generated mutant RNA libraries by in vitro transcription of PCR products that had been subjected to two or three sequential rounds of mutagenic PCR. Sequencing showed a mutation rate of 0.6% ensuring that the vast majority of molecules contained at least one mutation. RNA was mixed with His-tagged Pr55Gag, and functional selection was performed using magnetic beads to separate the bound and the unbound RNA populations. RNA was then reverse transcribed, converted into double stranded DNA, and sequenced using the Illumina HiSeq 2000 platform. This platform generates a large number of sequencing reads but with a read length that is shorter than our target sequence (100 nucleotides from each end of the DNA versus 532 nucleotides). We overcame this limitation by randomly fragmenting our DNA into fragments ranging from 100 to 500 nucleotides during library preparation. Using this strategy sequencing data was obtained for all positions of the target, whilst also retaining linkage data for all pairs of nucleotides whose distance does not exceed the largest fragment size. We aligned approximately 170 million sequences to the reference genome, comprising ~9x107 mutations over ~3x1010 base pairs, after quality control steps. We also sequenced cDNA from a non-mutated template, which we used in a mathematical analysis to correct for errors introduced during in vitro transcription, library preparation and sequencing.
+
+DESIGN
+Mutational Interference Mapping Experiment of Pr55Gag binding to RNA in vitro
+

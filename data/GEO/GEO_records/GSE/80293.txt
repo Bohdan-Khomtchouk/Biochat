@@ -1,0 +1,12 @@
+TITLE
+PfAP2-I-GFP anti-GFP and anti-IgG ChIP-seq
+
+ORGANISM
+Plasmodium falciparum
+
+SUMMARY
+To determine the genome-wide occupancy of the Plasmodium falciparum transcriptional regulator of invasion PfAP2-I (PfDd2_100013100/PF3D7_1007700), we used chromatin immunoprecipitation coupled with next-generation sequencing (ChIP-seq). Synchronized, schizont stage, 40 hours post-invasion, cultures of parasites expressing the AP2-I-GFP fusion protein were treated with formaldehyde to crosslink proteins to DNA and harvested. After shearing the DNA, the chromatin was incubated with anti-GFP antibody or IgG (as control) for immunoprecipitation. This material was used to generate Illumina sequencing libraries. The final libraries were multiplexed with fourteen barcoded samples per lane on an Illumina HiSeq 2500 system to generate 150 base pair single-end reads.
+
+DESIGN
+ChIP-seq libraries were prepared using three independently collected chromatin immunoprecipitated DNA samples from Plasmodium falciparum Dd2 parasites expressing AP2-I-GFP. ChIP was performed using a polyclonal anti-GFP antibody or, as a control, the same amount of anti-IgG, resulting in 3 total samples for each chromatin sample: 1 AP2-I-GFP anti-GFP ChIPed DNA, 1 AP2-I-GFP anti-IgG ChIPed DNA, and 1 sample of input DNA. Barcoded libraries for Illumina TruSeq single-end sequencing were then prepared for each ChIPed or input DNA.
+

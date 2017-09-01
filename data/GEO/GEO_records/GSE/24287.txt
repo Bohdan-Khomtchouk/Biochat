@@ -1,0 +1,12 @@
+TITLE
+Differential early pathogenic changes in human ileal gene expression in Crohn's disease and ulcerative colitis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The aim of this study is to identify early pathogenic changes in ileal gene expression that precede the development of macroscopic disease in inflammatory bowel diseases (IBDs). We focused on two IBD phenotypes that were unlikely to overlap:  1) ileal Crohn’s disease (CD) patients undergoing initial ileocolic resection of diseased ileum; and 2) ulcerative colitis (UC) patients undergoing total colectomy.  The Control patients were those patients without IBD undergoing initial right hemicolectomy or total colectomy.
+
+DESIGN
+In order to identify early pathogenic changes in the human ileum in inflammatory bowel diseases, we analyzed 99 two-color whole human genome expression profiles (Agilent 4410A) of a test human ileal cRNA probe vs. a common reference human ileal RNA from a Control patient (N17).  A minimum of four biopsies were taken from the macroscopically disease-unaffected proximal ileal margin of freshly resected specimens from 47 ileal Crohn's disease patients undergoing initial ileocolic resection, 27 ulcerative colitis patients undergoing total colectomy and 25 Control patients undergoing either right hemicolectomy or total colectomy.  The test and common reference probes were synthesized using the Agilent Low Input Linear Amplification Kit. Hybridization was carried out in DNA hybridization chambers, washed and scanned on an Axon GenePix 4000B scanner.  The preprocessing, filtering and normalization of the array data was carried out using the R package LIMMA.
+

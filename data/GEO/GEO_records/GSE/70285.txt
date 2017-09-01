@@ -1,0 +1,12 @@
+TITLE
+Measure transcript integrity using RNA-seq data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Achieved biospecimens annotated with patient clinical characteristics are unique resources for translational research. However, RNA extracted from the achieved tissues is often degraded. RNA degradation can have a significant impact on the measure of transcript abundance that can lead to an increase rate of erroneous differentially expressed genes.  Here, we are presenting the transcript integrity number (TIN) algorithm to measure the RNA degradation at transcript level. When applied to RNA-seq datasets generated from human brain Glioblastome cell line, human peripheral blood mononuclear cells, and metastatic castration resistant prostate cancer (mCRPC) clinical tissues, TIN provided a more reliable and more sensitive measure of RNA degradation than RIN, as demonstrated by much higher concordance with the RNA fragment size estimated from read pairs. More importantly, when comparing 10 mCRPC samples with lower RNA quality to another 10 samples with higher RNA quality, we demonstrated that calibrating gene quantification with TIN scores could mitigate RNA degradation effects and greatly improve gene expression analysis. The detected differentially expressed genes before TIN correction were predominantly ribosomal genes. However, when we adjusted gene quantifications with the corresponding TIN scores, we found differentially expressed genes were highly enriched in prostate cancer specific pathways. When further evaluating the performance of TIN correction using synthetic spike-in transcripts with predetermined abundance in RNA-seq data generated from Sequencing Control Consortium (SEQC), we found TIN adjustment had a better control of false positives and false negatives (sensitivity = 0.89, specificity = 0.91), as compared to gene expression analysis results without TIN correction (sensitivity =0.98, specificity = 0.50).
+
+DESIGN
+RNA sequencing of 20 bone-metastatic castration resistant prostate cancer (mCRPC) using Illumina HiSeq 2500. Out of 20 mCRPC samples, 10 samples have relative low RNA integrity and another 10 samples have relative higher RNA integrity as measured by Agilent RIN score.
+

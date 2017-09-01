@@ -1,0 +1,12 @@
+TITLE
+shRNA Sensor Analysis of DSIR Selected shRNAs
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+Purpose: Generate a large, high quality database of paired shRNA efficacy/sequence datapoints.
+
+DESIGN
+Methods:Twelve shRNAs for each Refseq annotated human gene were selected based on the DSIR algorithm. Twelve batches of ~22K shRNAs (corresponding to 12 agilent chips) were then assessed for efficacy via the sensor method outlined in Fellmann et al, Mol Cell, 2011. Conclusions: Neighboring nucleotide combinations are best at predicting shRNA efficacy.
+

@@ -1,0 +1,12 @@
+TITLE
+Global gene expression profiles of Mycobacterium smegmatis under shock and mild nutrient starvation
+
+ORGANISM
+Mycobacterium smegmatis str. MC2 155
+
+SUMMARY
+Mycobacteria are known to be non-spore forming but very hardy: the bacilli can for instance survive starvation in zero-nutrient saline in a non-replicating state. Recently we reported that mycobacteria in fact can undergo cellular differentiation when exposed to different starvation conditions. The presence of traces of nutrients triggers the development of a new, ‘small resting cell’ form (SMRCs). Saline shock-starved large resting cells (LARCs), which did not show cell size or surface changes when observed by scanning electron microscopy, remodeled their internal structure to the septated, multi-nucleoided cells seen during differentiation to SMRCs. Here we conduct RNA-seq to gain greater insights into whether starvation elicited a distinct developmental pathway. Comparative transcriptome analysis of SMRC and LARC development revealed largely overlapping sets of differentially expressed regulatory and metabolic genes. These transcriptome data are consistent with a mycobacterial starvation-induced differentiation program in which at first septated, multi-nuceloided cells are generated. Under zero-nutrient conditions bacteria terminate development at this stage as LARCs. In the presence of traces of a carbon source, these multi-nucleoided cells continue differentiation into mono-nuleoided SMRCs.
+
+DESIGN
+Exponentially growing M. smegmatis in rich 7H9 medium (0h sample, baseline) was transferred to PBS or PBS-Tween80 and RNA was sampled and sequenced after 1h and 3h to capture immediate responses, and after 24h when LARC formation in PBS cultures and SMRC formation in PBS-Tween80 culture are completed. In addition we sampled 14d old starved cultures to determine long term gene expression changes.
+

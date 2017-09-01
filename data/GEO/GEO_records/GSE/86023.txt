@@ -1,0 +1,12 @@
+TITLE
+RNASeq of OMP and TRPC2 neuronal population of zebrafish olfactory sensory neurons
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+RNASeq was performed on mRNA obtained from OMP expressing and TRPC2 expressing olfactory sensory neurons from 48hpf zebrafish embryos. Single-cell suspensions of 48hpf olfactory epithelia were FAC-sorted to obtain RFP expressing or venus expressing cells (RFP sample1: 3500 cells, RFP sample2: 5500 cells. Venus sample1: 676 cells, venus sample2:201 cells. RNA was extracted using QIAGEN RNEasy kit and cDNA was synthesized using a custom oligo-dT primer containing T7 promoter sequence courtesy of Jim Eberwine, University of Pennsylvanina. In vitro RNA amplification was carried out through one round for OMP:RFP neurons and through two rounds for TRPC2:venus neurons as per the protocol in Morris et al, 2011. Adapter-tagged libraries were synthesized using Illumina TruSeq v2.0 and deep-sequenced on HiSeq2500 to obtain ~100million reads per sample.
+
+DESIGN
+Examination of mRNA expression profiles from 2 types of olfactory sensory neurons
+

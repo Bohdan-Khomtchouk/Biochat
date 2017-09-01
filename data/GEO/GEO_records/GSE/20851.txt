@@ -1,0 +1,12 @@
+TITLE
+Ab initio reconstruction of transcriptomes of pluripotent and lineage committed cells reveals gene structures of thousands of lincRNAs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+RNA-Seq provides an unbiased way to study a transcriptome, including both coding and non-coding genes. To date, most RNA-Seq studies have critically depended on existing annotations, and thus focused on studying expression levels and variation in known transcripts. Here, we present Scripture, a method to reconstruct the transcriptome of a mammalian cell using only RNA-Seq reads and the genome sequence. We apply this approach to mouse embryonic stem cells, neuronal precursor cells, and lung fibroblasts to accurately reconstruct the full-length gene structures for the vast majority of known genes. We identify novel biological variation in protein-coding genes, including thousands of novel 5'-start sites, 3'-ends, and internal coding exons. We then determine the gene structures of over a thousand lincRNA loci. Our results open the way to direct experimental manipulation of thousands of non-coding RNAs, and demonstrate the power of ab initio reconstruction to provide a comprehensive picture of mammalian transcriptomes.
+
+DESIGN
+RNA-Seq experiments of poly-A selected total RNA from embryonic stem cells, lung fibroblasts, and neural progenitor cells.
+

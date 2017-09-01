@@ -1,0 +1,12 @@
+TITLE
+Perturbations of PIP3 signaling trigger a global remodeling of mRNA landscape and reveal a transcriptional feedback loop
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+PIP3 is synthesized by PI3Ks and regulates complex cell responses, such as growth and migration. Signals that drive long-term reshaping of cell phenotypes are difficult to resolve because of complex feedback networks that operate over extended times. It is clear PIP3-dependent modulation of mRNA accumulation is important in this process but is poorly understood. We have quantified the genome-wide mRNA-landscape of non-transformed, breast epithelium-derived MCF10a cells and its response to transient (EGF or PI3Ka-selective inhibitor) or chronic (isogenic cells expressing an oncomutant PI3Ka allele or lacking the PIP3-phosphatase /tumour-suppressor, PTEN) perturbations of PIP3.These results show that whilst many mRNAs are changed by long-term  genetic perturbation of PIP3 signaling (“butterfly effect”), a much smaller number change with a directional logic that aligns with different PIP3 perturbations, allowing discrimination of more directly regulated mRNAs. Our results also indicate that mRNAs can be differentially sensitive to specific features of PIP3 signals, that PIP3-sensitive mRNAs encode PI3K pathway components and identify the transcription factor binding motifs SRF and PRDM1 as important regulators of PIP3-sensitive mRNAs involved in cell movement.
+
+DESIGN
+RNA-seq on WT MCF10a, treated or not with A66 (Pi3Kalpha inhibitor), PIK3CA H1047R MCF10a and PTEN KO MCF10a. EGF time course stimulation applied (0, 15, 40, 90, 180, 300 min). A66 no EGF when A66 was applied for 300min w/o EGF simulation. All samples made in triplicate. Total of 75 samples.
+

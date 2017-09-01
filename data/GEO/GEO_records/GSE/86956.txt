@@ -1,0 +1,12 @@
+TITLE
+Genes regulated by SPDEF or FOXA3 in A549 lung carcinoma cells [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To identify genes regulated by SPDEF or FOXA3 in A549 lung carcinoma cells, we analyzed the whole-transcriptomic mRNA profiles of A549 cells expressing SPDEF or FOXA3 based on RNA-seq.
+
+DESIGN
+A549 cells expressing NKX2-1 (Maeda et al., J Clin Invest. (2012) doi: 10.1172/JCI64048) were infected with Control (pGK), SPDEF or FOXA3-expressing lentivirus. For each lentivirus infection, RNA-seq experiments were performed on three biological replicates. Differential expression analyses were performed using DESeq2.
+

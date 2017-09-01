@@ -1,0 +1,12 @@
+TITLE
+Gene expression data at 24hrs post-siRNA transfection for HCT116 cultures transfected with either DDX5si2008, DDX5si2053, or EBNA1si1666 siRNA's or mock transfected.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+HCT116 cells were transfected with two different siRNA's targeting either DDX5, an siRNA targeting EBNA1, or no siRNA (mock). The siRNA targeting EBNA1 is used as a negative control since HCT116 cells do not have the EBNA1 gene. RNA was obtained from cultures at 24hrs post-siRNA transfection using the Qiagen RNeasy Minikit (cat. # 74104) with on-column DNase digestion performed as per the manufacturer's protocol. The RNA samples were isolated at 24hrs post-siRNA transfection since this timepoint precedes an impaired G1-to-S phase cell cycle progression phenotype that is evident at 48hrs post-siRNA transfection and so may reveal gene expression changes occuring before this effect on cell cycle. RNA samples were submitted to the Cold Spring Harbor Laboratory Microarray Faciity where cDNA was prepared, labeled, and hybridized to Affymetrix GeneChip Human Gene 1.0 ST microarrays. Data from the arrays were processed using the RMA method with an up-to-data probe set definition (Biostatistics 4:249-264 and Nucleic Acids Research 33(20):e175. Gene set analysis was performed using generally applicable gene set enrichment (BMC Bioinformatics 10:161). The most differentially regulated gene ontology groups were selected with FDR q-value < 0.1.
+
+DESIGN
+Expression data from 3 independent HCT116 cutures transfected with either DDX5si2008, DDX5si2053, or EBNA1si1666 and 2 independent cultures transfected with mock conditions (no siRNA) were obtained from RNA samples prepared 24hrs post-siRNA transfection. These cultures were seeded with 200,000 cells per well 24hrs prior to siRNA transfection and were grown in DMEM media supplemented with 10% fetal bovone serum. Transfections were performed using lipofectamine RNAiMAX (Invitrogen 13778-075) and the manufacturer's protocol.
+

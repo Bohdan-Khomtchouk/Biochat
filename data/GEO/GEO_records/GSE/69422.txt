@@ -1,0 +1,12 @@
+TITLE
+Genome-wide identification of FHY3 binding sites in Arabidopsis floral organ (ChIP-Seq)
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+To identify FHY3 associated genes in floral organ. We performed ChIP-seq using 35S:3FLAG-FHY3-3HA fhy3-4 tansgenic plants. A total of 21, 24 and 37 million reads were obtained from two replicates and input library, respectively, which were uniquely mapped to the Arabidopsis genome by Bowtie2 software resulting in 1885 FHY3 binding peaks. 84% of FHY3 binding sites (1580 loci) were subsequently assigned to genic regions and grouped into 2192 genes in flower.
+
+DESIGN
+Inflorescence of  35S:3FLAG-FHY3-3HA fhy3-4 containing stage 8 and younger flowers were harvested for ChIP-seq analysis with anti-FLAG antibodies. No antibody served as negative control. The chromatin DNA from two distinct biological replicates and an input DNA sample were subjected to ultra-high-throughput Solexa (Illumina) sequencing.
+

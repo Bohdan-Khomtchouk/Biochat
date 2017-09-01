@@ -1,0 +1,12 @@
+TITLE
+RNA-Guided Human Gene Activation by Cas9/CRISPR-Based Engineered Transcription Factors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Synthetic transcription factors can be applied in many areas of biotechnology, medicine, and basic research.  In contrast to current methods based on engineering new DNA-binding proteins, we show that Cas9 fused to a transcriptional activation domain can be targeted by combinations of guide RNA molecules to induce the expression of endogenous human genes. This simple approach for targeted gene activation circumvents the need for engineering new proteins and will enable widespread synthetic gene regulation.
+
+DESIGN
+HEK293T cells were transfected with plasmid expressing Cas9-VP64 fusion protein and a guide RNA. As a control, empty guide RNA was transfected. Gene expression was then measured using mRNA-seq, and differential expression calculated using DESeq. All experiments were performed in biological duplicates or triplicates.
+

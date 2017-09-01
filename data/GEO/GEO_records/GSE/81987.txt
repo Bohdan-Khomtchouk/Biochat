@@ -1,0 +1,12 @@
+TITLE
+Hsf1-ChIP-on-chip: Molecular mechanisms that distinguish TFIID housekeeping from regulatable SAGA promoters
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+An important distinction is frequently made between constitutively expressed housekeeping genes versus regulated genes. Although generally characterized by different DNA elements, chromatin architecture and cofactors, it is not known to what degree promoter classes strictly follow regulatability rules and which molecular mechanisms dictate such differences. We show that SAGA-dominated/TATA-box promoters are more responsive to changes in the amount of activator, even compared to TFIID/TATA-like promoters that depend on the same activator Hsf1. Regulatability is therefore an inherent property of promoter class. Further analyses show that SAGA/TATA-box promoters are more dynamic because TBP recruitment through SAGA is susceptible to removal by Mot1. In addition, the nucleosome configuration upon activator depletion shifts on SAGA/TATA-box promoters and seems less amenable to preinitiation complex formation. The results explain the fundamental difference between housekeeping and regulatable genes, revealing an additional facet of combinatorial control: an activator can elicit a different response dependent on core promoter class.
+
+DESIGN
+Hsf1 was depleted from the nucleus using a low dose of rapamycin (0.15 µM) and cells were crosslinked and harvested at different times after the rapamycin addition (0, 15, 30, 60 and 90 minutes). As a control, WT cells were taken along that were subjected to 90 minutes of the same rapamycin concentration. Subsequently, the cells were harvested and ChIP was performed using an anti-GFP antibody. All immunoprecipitations (IPs) were done in biological quadruplicate. After cleanup, the DNA was hybridized to high-density tilling arrays, with the IP sample in one channel and the corresponding input in the other channel. Two out of the four replicates were used for the dye-swap.
+

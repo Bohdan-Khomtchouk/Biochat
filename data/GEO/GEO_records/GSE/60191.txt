@@ -1,0 +1,12 @@
+TITLE
+Acetylation-Dependent Control of Global Poly(A) RNA Degradation by CBP/p300 and HDAC1/2
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Acetyltransferases and histone deacetylases regulate gene expression at the level of chromatin, mainly by affecting transcription. In this study, we report that hyperacetylation induced by inhibition of histone deacetylases (HDACs) causes massive degradation of mRNA. The effect is promoter-independent and affects poly-A mRNA globally. HDAC inhibition leads to the removal of poly-A tails from mRNAs through activation of the deadenylase CAF1a, which we find to be acetylated together with its activator BTG2 by the histone acetyl transferases (HATs) p300 and CBP. By mutation of critical lysine residues, we provide evidence that acetylation of CAF1a and BTG2 induces enhanced poly-A mRNA degradation. Our study reveals a fundamental mechanism by which cells coordinate epigenetic and transcriptional control of gene expression with posttranscriptional control of poly-A mRNA stability. In this experiment, HeLa cells were exposed to the HDAC inhibitor trichostatin A (TSA) for 16 hours, followed by treatment with actinomycin D. Total RNA was isolated after 0, 2, 4 and 6 hours, and analysed by RNA sequencing. The half-lives of 7431 RNAs were calculated after normalization to rRNA (18S + 28S) levels. The experiment shows that TSA treatment causes a general reduction of poly-A RNA stability, while replication-dependent histone mRNA stability is not affected.
+
+DESIGN
+RNA half-lives were measured in TSA-treated or untreated HeLa cells by RNA-Seq using Illumina HiSeq 2000.
+

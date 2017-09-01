@@ -1,0 +1,12 @@
+TITLE
+Proneural genes mediate multilineage priming in neural lineages
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Multipotent progenitors undergo identity transitions to give rise to different cell types at distinct developmental times. This temporal mode of cell fate specification requires that some progenitors are retained for later differentiation events. In hematopoietic and embryonic stem cells, co-expression of competing lineage determinants maintains multipotency and primes progenitors for subsequent lineage selection. Here we asked whether multi-lineage priming occurs in neural lineages. We found that the proneural genes Neurog2 and Ascl1, which specify competing neural cell fates, are co-expressed in neocortical progenitors where they antagonize each other’s functions. Neurog2-Ascl1 double-positive progenitors resolve into single-positive cells, are molecularly distinct, undergo self-renewing divisions, and preferentially differentiate into oligodendrocytes, the last-born neural cell type. Neurog2-Ascl1 double-positive progenitors also establish a DNA regulatory landscape permissive to Neurog2 or Ascl1 lineage conversion. Our data reveals an unappreciated level of cortical progenitor cell heterogeneity, and implicates proneural genes in multi-lineage priming and neural lineage diversification.
+
+DESIGN
+Atac-seq. CD15+ GFP/mCherry negative, single, double positive, double negative cortical progenitors were isolated from E12.5 Neurog2Flag-mcherryKI/+;Ascl1GFPKI/+ dorsal telencephalic tissue by FACS. ATAC-seq was performed on each cell type using 50,000 cells as input material for the transposase reaction (Buenrostro et al., 2015).
+

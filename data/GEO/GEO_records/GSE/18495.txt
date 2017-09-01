@@ -1,0 +1,9 @@
+TITLE
+Discovery of biomarker genes form earthworm microarray data
+
+ORGANISM
+Eisenia fetida
+
+SUMMARY
+Motivation: Monitoring, assessment and prediction of environmental risks that chemicals pose demand rapid and accurate diagnostic assays. A variety of toxicological effects have been associated with explosive compounds TNT and RDX. One important goal of microarray experiments is to discover novel biomarkers for toxicity evaluation. We have developed an earthworm microarray containing 15,208 unique oligo probes. Our objective was to identify biomarker genes that can separate earthworm samples into three groups: control, TNT-treated, and RDX-treated. Results:  We developed a discriminant analysis and cluster (DAC) pipeline to analyze a 248-array dataset. First, a total of 869 significantly changed genes in response to TNT or RDX exposure were inferred by class comparison statistical algorithms. Then, nine decision tree-based algorithms were applied to generate classification rules and a set of 286 classifier genes. These classifier genes were ranked by their overall weight of significance, and were used to build support vector machines (SVMs). An SVM containing all 286 classifier genes had the highest classification accuracy (91.5%). An unsupervised clustering method was used to cluster the worm samples and results show that the use of the top 100 classifier genes can assign the largest number of worm samples into the three reference clusters obtained by using all the 14,188 filtered genes, suggesting that these top-ranked genes may be potential candidates for biomarkers. This study demonstrates that the DAC pipeline can be used to identify a small set of biomarker genes from high dimensional datasets and generate a reliable SVM classification model for multiple classes.
+

@@ -1,0 +1,12 @@
+TITLE
+Integrative Epigenome-Wide Analysis Shows That DNA Methylation May Mediate Genetic Risk In Inflammatory Bowel Disease [Whole blood, Methylation profiling]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epigenetic alterations may provide important insights into gene-environment interaction in inflammatory bowel disease (IBD). Here we observe  epigenome-wide DNA methylation differences in 240 newly-diagnosed IBD cases and 190 controls. These include 439 differentially methylated positions (DMPs) and 5 differentially methylated regions (DMRs), which we study in detail using whole genome bisulphite sequencing. We replicate the top DMP (RPS6KA2) and DMRs (VMP1, ITGB2, TXK) in an independent cohort. Using paired genetic and epigenetic data, we delineate methylation quantitative trait loci; VMP1/microRNA-21 methylation associates with two genetic polymorphisms in linkage disequilibrium with a known IBD susceptibility variant. Separated cell data highlight the cell type of origin of epigenetic signals seen in whole blood; IBD-associated hypermethylation within the TXK gene transcription start-sitepromoter region negatively correlates with gene expression in whole blood and CD8+ T-cells, but not other cell types. Thus, site-specific DNA methylation changes in IBD are relatedrelate to underlying genotype and associate with cell-specific alteration in gene expression.
+
+DESIGN
+DNA methylation analysis of whole blood samples derived from patients with Inflammatory bowel disease (IBD) and controls. This is the unprocessed dataset containing 384 samples. During processing additional whole blood DNA samples were added from a separate dataset. This explains the discrepancy between the number of samples in the unprocessed and processed datasets. A separate metadata file is supplied for each. The unprocessed dataset containing 384 samples. The processed dataset contains 382 samples. Several samples were excluded during sample processing (e.g. sex mismatches, mislabelled samples, technical replicates).  The following samples were excluded from the processed dataset (0068H, 0057HC). Patients can be linked across datasets using Patient_Number. Full_Diagnosis: CD=Crohn's disease, UC=Ulcerative colitis, HL=Healthy Lab Control, IB = Symptomatic Control
+

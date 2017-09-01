@@ -1,0 +1,12 @@
+TITLE
+The CRE1 carbon catabolite repressor of the fungus Trichoderma reesei: a master regulator of carbon assimilation
+
+ORGANISM
+Trichoderma reesei
+
+SUMMARY
+The identification and characterization of the transcriptional regulatory networks governing the physiological behaviour and adaptation of microbial cells is a key step in understanding their behaviour. One such wide-domain regulatory circuit, essential to all cells, is carbon catabolite repression (CCR): it allows the cell to prefer some carbon sources, whose assimilation is of high nutritional value, over less profitable ones. This system has been investigated in bacteria, yeast and filamentous fungi. In the latter, the C2H2 zinc finger protein has been shown to act as the central transcriptional repressor in this process. Here, we deciphered the CRE1 regulon by profiling transcription in a wild-type and delta-cre1 mutant strains on glucose in the model cellulose and hemicellulose-degrading fungus Trichoderma reesei (anamorph of Hypocrea jecorina) at constant growth rates known to per se repress and derepress CCR-affected genes.
+
+DESIGN
+Two biological pool by condition in dye switch. For the two biological replicates on each four experiments we apply on the pretreated results the linear modeling approach implemented by lmFit and the empirical Bayes statistics implemented by eBayes from the limma R package (Smyth 2004). We select the list of statistically regulated genes using a 5% significance threshold.
+

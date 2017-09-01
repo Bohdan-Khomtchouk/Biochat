@@ -1,0 +1,12 @@
+TITLE
+Transcriptional responses of sympathetic neurons during BMP-induced primary dendritogenesis
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+The objective of this study was to identify genes that are differentially regulated in cultured sympathetic neurons during BMP-induced dendritic growth and to determine the temporal expression patterns of these genes.
+
+DESIGN
+We determined that inhibiting transcription within the first 24 hours after adding exogenous BMP-7 blocks BMP-induced dendritic growth in cultured sympathetic neurons dissociated from the superior cervical ganglia of embryonic rat pups.  Thus, we determined the transcriptional profiles of cultured sympathetic neurons at 6 and 24 hours after addition of BMP-7 to identify early and later transcriptional responses that may drive dendrite formation.  We isolated total RNA from sympathetic neurons exposed to three different experimental conditions:  (1) no BMP-7 treatment; (2) treatment with BMP-7 for 6 hours; and (3) treatment with BMP-7 for 24 hours.  Total RNA was labeled and hybridized to Affymetrix Rat Genome U34A oligonucleotide microarrays.  This experiment was independently repeated three times using cultures derived from three independent dissections, such that a total of nine arrays were used.  The nine samples were processed over two batches and the batching was balanced across the treatment conditions.  Image data was processed using Affymetrix GCOS software to generate numeric, probe level data (CEL) and CEL data was then pre-processed using the RMA algorithm implemented by Partek Genomics Suite (St. Louis, MO).  Following batch correction of the probe set level, normalized data using Partek, differential gene expression was determined by two-way ANOVA and linear contrasts between all treatment conditions were applied to generate fold-change values along with the statistical p-value.  Lists of significantly changed transcripts were uploaded to MetaCore (GeneGo, ) for mining biological annotation and network analysis.
+

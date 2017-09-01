@@ -1,0 +1,12 @@
+TITLE
+An Integrated Approach to Uncover Drivers of Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We developed a computational framework that integrates chromosomal copy number and gene expression data for detecting aberrations that promote cancer progression. We demonstrate the utility of this framework using a melanoma dataset. Our analysis correctly identified known drivers of melanoma and predicted multiple novel tumor dependencies. Two dependencies, TBC1D16 and RAB27A, confirmed empirically, suggest that abnormal regulation of protein trafficking contributes to proliferation in melanoma. Together, these results demonstrate the ability of integrative Bayesian approaches to identify novel candidate drivers with biological, and possibly therapeutic, importance in cancer.
+
+DESIGN
+Effects of knockdown of two genes -TBC1D16 and RAB27A - were tested on four cell lines each, each of them with two different hairpins. As a control, we used a hairping targeting GFP. shGFP experiments were done in biological duplicates or more. The second WM1976-shGFP sample was identified as an outlier by a PCA analysis and was excluded from our analysis.
+

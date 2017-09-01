@@ -1,0 +1,12 @@
+TITLE
+eQTL Analysis Identifies Novel Associations Between Genotype and Gene Expression in the Human Intestine (Expression)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association studies (GWAS) have been pivotal to increasing our understanding of intestinal disease. However, the mode by which genetic variation results in phenotypic change remains largely unknown, with many associated polymorphisms likely to modulate gene expression. Analyses of expression quantitative trait loci (eQTL) to date indicate that as many as 50% of these are tissue specific. Here we report a comprehensive eQTL scan of intestinal tissue.
+
+DESIGN
+Subjects who had undergone ileal pouch anal anastomosis and closure of ileostomy at least one year prior to recruitment were prospectively enrolled at Mount Sinai Hospital in Toronto. Endoscopically and histologically normal tissue biopsies from the afferent limb of these individuals were obtained and preserved in RNAlater. Total RNA was extracted with the QIAGEN miRNeasy Kit and mRNA analysis was performed on Affymetrix Human Gene 1.0 ST arrays. DNA was obtained from whole-blood samples from the same individuals and genotyped using the Illumina beadchips. Cis- and trans-eQTL analyses were carried out on 173 subjects encompassing the expression levels of 19,047 unique autosomal genes listed in the NCBI database and over 580K dbSNPs (Call Rate  ≥ 95%; MAF  ≥ 5%; Hardy–Weinberg equilibrium (HWE) χ2 p-values  ≥ 10-6). This work was done in a custom software pipeline and the Kruskal-Wallis test was used to compare expression values across different genotypes. False discovery rate correction for multiple testing was applied at an alpha level of 5%. This Series includes the Affymetrix data.
+

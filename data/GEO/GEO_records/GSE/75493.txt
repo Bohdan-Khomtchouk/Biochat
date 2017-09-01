@@ -1,0 +1,12 @@
+TITLE
+Transcriptomic gene profiling of porcine muscle tissue depending on histological properties
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Purpose: Next-generation sequencing (NGS) was used to select genes potentially associated with fiber-type distribution and cell size in porcine muscle tissue. Methods: The histological profile of the longissimus lumborum muscle was establish by method involving detection of NADPH dehydrogenase (diaphorase) and immunohistochemically detection of myosin chains. The muscle transcriptome sequencing was performed for 11 pigs using Illumina HiScan SQ in 50 single-end cycles. The quantifying transcript abundances was made using the RSEM supported by STAR aligner. The raw reads were aligned to the Sus scrofa reference genome (assembly Sscrofa10.2). Differentially expressed genes were detected by edgeR, baySeq and DESeq2. The RNA-seq results were validated using by qPCR. Results: The RNA-seq approach allows to identify 397 differentially expressed genes (DEGs) indicated as significant (FDR < 0.05) using three software: DESeq2, edgeR and baySeq. Detected genes and pathways deregulated in muscle depend on tissue microstructure were associated with metabolic processes – 158 genes; cellular processes – 122; biological regulation – 62; localization – 51 and 35 genes with developmental processes. The detected DEGs were included in such pathways as: PI3K-Akt; FoxO and MAPK signaling pathways, regulation of actin cytoskeleton, lysine degradation and insulin signaling pathway as well as in mTOR and Hippo signaling. Conclusions: This results highlight the mainly metabolic pathways related with glucose metabolism and contraction processes of muscle cells. The comparison of whole gene expression profiles between muscles characterized by different fiber-type distribution showed that processes of growth and proliferation of different fiber types are determined by diverse molecular mechanism, which conditioned the unique histological structure of muscle tissue.
+
+DESIGN
+The muscle (longissimus lumborum) transcriptome sequencing was performed for 11 pigs using Illumina HiScan SQ in 50 single-end cycles and in five technical repetitions.
+

@@ -1,0 +1,12 @@
+TITLE
+Gene expression in human lymphoblastoid cell-line GM12878 in response to sulforaphane treatment
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To determine if induced NRF2 binding is associated with gene expression in genome-wide. We examined mRNA levels with theAffymetrix Human Exon 1.0 ST platform in human lymphoblastoid GM12878 cells treated with sulforaphane to activate NRF2. Nrf2, a basic leucine zipper transcription factor encoded by the gene NFE2L2, is a master regulator of the transcriptional response to oxidative stress. Nrf2 is structurally and functionally conserved from insects to humans, and it heterodimerizes with the small Maf transcription factors to bind a consensus DNA sequence (the antioxidant response element, or ARE) and regulate gene expression. In this study, we use chromatin immunoprecipitation (ChIP-seq) and gene expression data to identify direct Nrf2 target genes in human and Drosophila.
+
+DESIGN
+Human lymphoblastoid (GM 12878) cells at a density of 900,000 cells/ml were prepared in triplicate for each time point and treated with 10 µM D,L-sulforaphane (Calbiochem) for  8, 24 hr or no treatment (at 0 time). Total RNA will be extracted from each culture (9 RNA samples) using the Qiagen RNeasy kit with DNase digestion. RNA was quantified using RiboGreen (Invitrogen), check for quality by OD and Bioanalyzer and stored at -80°C.  Expression analysis was conducted at at NIEHS Microarray Core using Affymetrix Human Exon 1.0 ST arrays following the Affymetrix hybridization protocols. Exon expression data were analyzed through Affymetrix Expression Console using gene-level RMA summarization and sketch-quantile normalization methods.
+

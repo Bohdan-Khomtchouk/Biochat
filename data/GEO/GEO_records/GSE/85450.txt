@@ -1,0 +1,12 @@
+TITLE
+Next Generation Sequencing Facilitates Quantitative Analysis of Wild Type and Uhrf1-/- fetal liver hematopoietic stem cell (FL-HSCs) Transcriptomes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To investigate the molecular mechanism of Uhrf1 in controlling the self-renewal versus differentiation of FL-HSCs, high-throughput sequencing was performed to analyze the transcriptomes of WT and Uhrf1-deficient FL-HSCs.Consistent with the erythroid-biased differentiation of Uhrf1-deficient FL-HSCs, genes involved in erythrocyte differentiation were significantly enriched in Uhrf1-deficient FL-HSCs according to the Gene Ontology (GO) enrichment analysis. We generated gene signatures specific for stemness of HSCs (stem signature) or myeloerythroid progenitors (MEP signature) by subtracting the genes expressed in WT HPC(LK)s from those expressed in WT FL-HSCs or vice versa. Of the stem signature genes, 71.28% showed lower expression and 28.72% showed higher expression in Uhrf1-deficient FL-HSCs compared with WT FL-HSCs. Interestingly, among the MEP signature genes, genes enriched in erythroid differentiation (27.54%) were up-regulated in the absence of Uhrf1, whereas the remaining genes enriched in myeloid-specific genes (72.46%) were suppressed consistent with previous research. Particularly, in comparison to the WT control, Uhrf1-deficient FL-HSCs up-regulated certain erythrocyte differentiation-related genes (e.g., Gata1, Gata2, Gfi1b, Car1, Zfpm1 and Itga2b), most of which were physiologically up-regulated in HPC(LK)s, whereas some genes (Id2, Satb1, Hmga2) that play critical roles in HSC maintenance were down-regulated. These results suggested that Uhrf1 controls the self-renewal versus differentiation of FL-HSCs by suppressing the expression of the erythroid-specific genes and maintaining the expression of HSC stemness genes.
+
+DESIGN
+FL-HSCs(LSKs) (approximately10,000 cells) were isolated from WT and Uhrf1-/- fetal livers by cell sorting (double sort, purity > 95%). RNA was extracted, purified and checked for integrity using an Agilent Bioanalyzer 2100 (Agilent Technologies, Santa Clara, CA, US). Libraries were generated for sequencing using the TruSeq RNA sample preparation kit (Illumina). Libraries were sequenced using an Illumina HiSeq 2500 sequencer.Three independent experiments were performed.
+

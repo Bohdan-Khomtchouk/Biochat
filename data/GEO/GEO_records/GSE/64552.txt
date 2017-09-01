@@ -1,0 +1,12 @@
+TITLE
+Sequencing of reaction products from protospacer integration by Cas1-Cas2
+
+ORGANISM
+Cloning vector pUC19
+
+SUMMARY
+We report the sites of protospacer integration into plasmids by Cas1-Cas2. The goal of this study is to determine the role of sequence elements on protospacer integration.
+
+DESIGN
+Methods: Cas1-Cas2 integration products were fragmented, end-repaired, adapter ligated, PCR amplified, and analyzed by Illumina sequencing. Protospacer-containing reads were selected by Cutadapt and mapped to the plasmid with Bowtie.
+

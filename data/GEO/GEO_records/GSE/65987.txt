@@ -1,0 +1,12 @@
+TITLE
+Gene expression analysis of wild-type and Beta-2-spectrin homozygous knockout (β2SP-/-) mouse embryonic fibroblasts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Gene expression profiling was carried out in wild and β2SP-/- (Sptbn1 -/-) mouse embryonic fibroblast (MEF) cells. Beta-2-spectrin (β2SP) is a dynamic intracellular non-pleckstrin homology (PH)-domain protein that belongs to a family of polypeptides that have been implicated in conferring cell polarity. Spectrins have been linked to multiple signaling pathways, including cell cycle regulation, DNA repair and TGFβ signaling. In this study, we report a major role of the TGFβ/Smad3 adaptor β2-Spectrin in conserving genomic integrity from alcohol-induced DNA damage and describe a novel pathway that protects genomes from genotoxic stresses.
+
+DESIGN
+Whole-transcriptome RNA sequencing of wild-type and β2SP knockout (β2SP-/-) mouse embryonic fibroblasts was carried out on an Illumina HiSeq 2000 sequencer. The raw data quality was assessed using a FastQC software. Adaptor presence was tested using Trimmomatic. The readings were then aligned to the NCBI mouse reference genome build 37.2 using the splice-aware aligner Tophat2 v2.0.10. Transcript quantification, normalization and assembly were carried out with Cufflinks. A gene model gtf file corresponding to the NCBI mouse reference genome build 37.2 was used in the quantification. Cuffdiff2, part of the Cufflinks suite of tools, was used to identify significant differences in gene expression profiles between the wild-type and β2SP-/- MEF cells.
+

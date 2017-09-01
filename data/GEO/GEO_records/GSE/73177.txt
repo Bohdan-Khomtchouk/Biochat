@@ -1,0 +1,12 @@
+TITLE
+Toxoplasma gondii arginine methyltransferase 1 (PRMT1) regulates parasite counting during tachyzoite cell division
+
+ORGANISM
+Toxoplasma gondii
+
+SUMMARY
+PRMT1 is thought to be responsible for the majority of PRMT activity in Toxoplasma gondii, but its exact function is unknown. We generated T. gondii mutants lacking PRMT1 (∆prmt1) by deletion of the PRMT1 gene. ∆prmt1 parasites exhibit morphological defects during cell division and grow slowly, and this phenotype reverses in the complemented strain ∆prmt::PRMT1mRFP.  PRMT1 localizes primarily in the cytoplasm with enrichment at the centrosome, and the strain lacking PRMT1 is unable to segregate progeny accurately. Unlike wild-type and complemented parasites, ∆prmt1 parasites have abnormal daughter buds, perturbed centrosome stoichiometry, and loss of synchronous replication. Whole genome expression profiling demonstrated differences in expression of cell cycle regulated genes in ∆prmt1 relative to the complemented ∆prmt1::PRMT1mRFP and parental wild-type strains, but these changes did not correlate with a specific block in cell cycle. Although PRMT1’s primary biological function was previously proposed to be methylation of histones, our genetic studies suggest that the most critical function of PRMT1 is within the centrosome as a regulator of daughter cell counting to assure the proper replication of the parasite.
+
+DESIGN
+RNA samples were isolated in triplicates from RH-hxgprt parent strain (W), PRMT1 knockout (K) strain and PRMT1 knockout strain complemented with RFP-tagged PRMT1 protein (C). Parasites were grown for 32h at 37C. Samples were hybridized to the Toxoplasma gondii Affymetrix microarray (ToxoGeneChip: ). Hybridization data was preprocessed with Robust Multi-array Average (RMA) and normalized using per chip and per gene median polishing and analyzed using the software package GeneSpring GX (Agilent Technologies).
+

@@ -1,0 +1,12 @@
+TITLE
+Evolution of A-to-I RNA Editing in Drosophila
+
+ORGANISM
+Drosophila ananassae
+
+SUMMARY
+We applied microfluidic multiplex PCR and deep sequencing (mmPCR-seq) and targeted RNA sequencing to quantify RNA editing levels at targeted sites in 6 Drosophila species and 8 strains of D. melanogaster.
+
+DESIGN
+We performed two rounds of targeted RNA sequencing. In the first round, we used mmPCR-seq to amplify and sequence all selected editing loci for all samples from six species. For D. ana, D. pse, and D. vir, we designed additional multiplex primers for ~210 loci that could be amplified in D.mel, D.sim and D.yak but not in D.ana, D.pse and D.vir. We used these primers for the second round of targeted RNA sequencing. We amplified these loci using a regular PCR machine. All samples were then barcoded, pooled and sequenced in one Illumina MiSeq run with 150 bp paired-end reads.
+

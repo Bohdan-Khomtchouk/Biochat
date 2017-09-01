@@ -1,0 +1,12 @@
+TITLE
+Reduced representation bisulfite sequencing from G0
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Differential hyper- and hypo-methylation regions in G0 versus G4/G5 CMP The goal of this study is to evaluate changes in CpG methylation profilings of telomere dysfunctional common myeloid progenitor cells (CMP) as compared to their wild type controls
+
+DESIGN
+Genomic DNA was extracted from sorted CMP populations isolated from 3 pools of G0 or 2 pools of G5 mice using UltraPure Phenol:Chloroform:Isoamyl Alcohol according to manufacturer’s instructions (Life Technologies). 14,000 to 30,000 cells were available for each sample, resulting in a minimum of 45ng of DNA. Genome-wide DNA methylation profiling was performed by RRBS. Library preparation and sequencing were performed at the UT MD Anderson Cancer Center’s DNA Methylation Analysis Core and Sequencing and Microarray Facility, according to published protocols. RRBS sequencing data were aligned and methylation was called using Bismark v0.7.119. In brief, bisulphite-treated DNA was aligned to UCSC Genome Browser mm10 reference genome using Bowtie. In total 29-38 million reads were generated per sample with alignment rates around 63%. Next, MethylKit10 implemented with Fisher’s exact test was used to compare the cytosine methylation profiles of G0 and G5 CMP. Gene promoter regions were calculated based on RefSeq gene annotations with regions starting 1 kb upstream of the annotated transcription start site (TSS) and extending 500 base pairs downstream of TSS. Exons, introns, and CpG islands coordinates were collected from the UCSC Genome Browser mm10 version.
+

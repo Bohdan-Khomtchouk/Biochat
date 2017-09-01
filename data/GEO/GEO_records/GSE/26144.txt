@@ -1,0 +1,12 @@
+TITLE
+Genome-wide SF-1 (NR5A1) binding sites in NCI-H295R cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The nuclear receptor steroidogenic factor-1 (SF-1, NR5A1) is a key regulator of adrenal and gonadal biology. We aimed to identify a novel subset of SF-1 target genes in the adrenal by performing ChIP-on-chip in NCI-H295R human adrenocortical cells using promoter tiling arrays. Analysis of ChIP-on-chip experiments with CisGenome identified 738 SF-1-binding regions that met criteria of an MA score more than 3.5 mean ± S.D. and a false discovery rate of < 5%. Subsequent analysis focused on those regions that were located between 10 kb upstream and 3 kb downstream of the TSS of known genes, in keeping with the design of the Human Promoter 1.0R arrays. Using this approach, binding regions were annotated to 445 gene loci. The supplementary bed file contains all 946 SF-1 binding sites identified by analysis with CisGenome using standard settings (MA > 3.0)
+
+DESIGN
+Unstimulated NCI-H295R cells ChIPed with Upstate Millipore 07-618 anti-SF-1 antibody vs input chromatin. Two full experiments were analysed (biological replicates): 2 SF-1 ChIP arrays, 2 input control arrays
+

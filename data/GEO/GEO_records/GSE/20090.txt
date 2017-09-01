@@ -1,0 +1,12 @@
+TITLE
+Structural Variation of the Mouse Natural Killer Gene Complex as Determined by High Resolution Array-based CGH Profiling
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We used aCGH data for detailed analysis of the natural killer gene complex (NKC) of multiple inbred strains, providing insight both into aCGH analysis of polymorphic gene clusters as well as structural information on the NKC itself.  By unsupervised clustering analysis, the aCGH data can be precisely correlated with overall genome structural variation of the NKC as detected by RFLP variants in retrospective and prospective analyses.  On a high resolution level, aCGH could be used to detect a small deletion within an NKC gene that is confined to only one mouse strain examined out of 22.
+
+DESIGN
+The NKC region on mouse chromosome 6 is known to be an area with structural variation based on studies which reveal restriction fragment length polymorphic (RFLP) variants among inbred mouse strains.  To verify predictive power of the unsupervised clustering algorithms, we prospectively collected aCGH data from two strains of mice (CBA/J, and NZW/LacJ) that were not among the original 20 strains (GEO accession # GSE10656) analyzed but represented strains whose Ly49 and Nkrp1 RFLP had been determined previously.  We performed comparative genomic hybridization using a long-oligonucleotide array containing 2,149,887 probes evenly spaced across the reference genome with a median inter-probe spacing of 1,015 bases.  Labeling, hybridization, washing, and array imaging were performed as previously described (PMID:18334530).  To capture the variability along chromosome 6, the log2 signal ratios were organized into bins (a defined chromosome length in terms of bp).  The entire chromosome was divided into consecutive bins, beginning with the position of the first probe.  We used the variance of each bin to represent the variability along the chromosome.  We performed two types of unsupervised clustering analysis of the log2 ratios of signal intensities of each probe (normalized).  One is the non-hierarchical clustering using the partitioning among medoids (PAM) function as implemented in R's 'cluster' package.  The other is the agglomerative hierarchical clustering based on the Euclidean distance.  The average linkage method was used in clustering the strains as implemented in the hclust function in R's 'cluster' package.
+

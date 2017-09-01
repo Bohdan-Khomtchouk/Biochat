@@ -1,0 +1,12 @@
+TITLE
+Accessory subunits are integral for assembly and function of human mitochondrial complex I
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+For analysis of mRNA expression levels, total RNA was harvested from each cell-line in replicate with Trizol™ (Thermo scientific). Total RNA was purified using Direct-zol™ columns according to the manufacturers specifications (Zymo Research). For cDNA synthesis 1 μg of total RNA was process as the T12VN-PAT assay (Jänicke et al., RNA 2012), except that this was adapted for multiplexing on the Illumina MiSeq instrument. We refer to this assay as mPAT for multiplexed PAT. The approach is based on a nested-PCR that sequentially incorporates the Illumina platform’s flow-cell specific terminal extensions onto 3’ RACE PCR amplicons. First, cDNA was generated using the anchor primer mPAT Reverse, next this primer and a pool of 50 gene-specific primers were used in 5 cycles of amplification. Each gene-specific primer had a universal 5’ extension (see supplementary file primers) for sequential addition of the 5’ (P5) Illumina elements. These amplicons were then purified using NucleoSpin columns (Macherey-Nagel), and entered into second round amplification using the universal Illumina Rd1 sequencing Primer and TruSeq indexed reverse primers from Illumina. Second round amplification was for 14 cycles. Note, that each experimental condition was amplified separately in the first round with identical primers. In the second round, a different indexing primer was used for each experimental condition. All PCR reactions were pooled and run using the MiSeq Reagent Kit v2 with 300 cycles (i.e. 300 bases of sequencing) according to the manufacturers specifications. Data were analysed using established bioinformatics pipelines (Harrison et al., RNA 2015)
+
+DESIGN
+Quantitation of a custom set of amplicons for the Accessory subunits of human mitochondrial complex I.
+

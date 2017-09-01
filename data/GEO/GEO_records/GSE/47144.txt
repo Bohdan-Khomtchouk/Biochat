@@ -1,0 +1,12 @@
+TITLE
+CLK:BMAL1 is a pioneer-like transcription factor [CLK_ChIP]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The mammalian circadian clock relies on the master genes CLOCK (CLK) and BMAL1 and drives rhythmic gene expression to regulate biological functions under circadian control. We recently uncovered a surprising disconnect between the rhythmic binding of CLK:BMAL1 on DNA and the transcription of its target genes, suggesting that they are regulated by as yet uncharacterized mechanisms. Here we show that rhythmic CLK:BMAL1 DNA binding promotes rhythmic chromatin opening. The underlying mechanisms include CLK:BMAL1 binding to nucleosomes and rhythmic chromatin modifications, including the incorporation of the histone variant H2A.Z. This rhythmic chromatin remodeling mediates the rhythmic binding of other transcription factors adjacent to CLK:BMAL1, suggesting that the activity and the tissue-specific expression of these other transcription factors contribute to the genome-wide CLK:BMAL1 heterogeneous transcriptional output. These data therefore indicate that the clock regulation of transcription relies on the rhythmic regulation of chromatin accessibility and suggest that the concept of pioneer function extends to acute gene regulation, well beyond the current confines of developmental/cell specification.
+
+DESIGN
+Mouse liver CLK ChIP-Seq signal on Mnase-digested or sonicated chromatin, at 2 different time point (ZT22 and ZT06) from the same mice. Libraries were sequenced using Ilumina HiSeq2000. For Mnase-digested chromatin, libraries contained a mononucleosome insert (e.g., ~147bp), whereas the insert was ~150-300bp for sonicated chromatin.
+

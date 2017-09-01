@@ -1,0 +1,12 @@
+TITLE
+Time course analysis of gene expression during hypoxia in S. cerevisiae using RNA-Seq
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We used RNA-seq to monitor mRNA levels of all genes in response to hypoxia of wild-type yeast, S. cerevisiae (strain yMH914 with wildtype HAP1).  To gain insights into how gene expression changes over time, cells were subjected to 100% nitrogen gas and collected after 0,5,10,30,60,120,180, and 240 minutes.  Total RNA was extracted and mRNAs were enriched by polyA selection.  The cDNA was prepared into a sequencing library, multiplexed and single-end sequenced by an Illumina HiSeq 2500 sequencer.  After mapping with Tophat2, the number of reads per feature was calculated using HTSeq.
+
+DESIGN
+RNA-seq analysis of eight time points of a yeast strain grown in hypoxia. There are three biological replicates of the time course.
+

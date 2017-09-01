@@ -1,0 +1,12 @@
+TITLE
+Regulatory logic of the coupled diurnal and feeding cycles in the mouse liver [array]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In mammals, the circadian clock controls behavioral, physiological and cellular rhythms. Part of this daily variation is controlled by transcription-translation feedback loops in sync with the light-dark phase. On the other hand, daily rhythms in expression of a multitude of genes are related to nutrient-response cycles. Time-resolved mapping of DNase I hypersensitive sites (DHS) throughout the day can identify details of the regulatory interplay between metabolism and the internal clock at a molecular level. Here, we report a genome-wide analysis of mammalian DHS using high‐throughput sequencing of DNase tags from mouse liver with a resolution of 4 h (12 h light/12 h dark). Among the 65’000 DHS sites identified, a significant proportion of distal DHS showed a diurnal cycle, suggesting a fine regulation of oscillating genes by enhancers, which we seek to understand better. Using PolII and H3K27ac ChIP-seq, we characterize the DHS and study the dynamics of each mark in wild-type and Bmal1-KO mice. We use the sequence motif content of each DHS and a linear regression model to explain DHS temporal behaviour in terms of phase and amplitude. We monitor the temporal expression of target genes in order to understand the phase-specific regulation in the circadian context. Interestingly, DHS associated with circadian genes tend to be time-correlated with expression, Pol II and H3K27ac marks. The Bmal1-KO phenotype in light-dark conditions show a proportion of DHS with circadian rhythms associated with transcription factors related to metabolism, due to food entrainment and systemic cues.
+
+DESIGN
+We examined 7 samples, each consisting of a pool of RNAs extracted from the whole liver of 5 mice in BMAL1-KO phenotype. Samples were collected at times ZT2, ZT6, ZT10, ZT14, ZT18, ZT22, and ZT26 (ZT0/24 and ZT12 are the times when the lights are switched on and off, respectively). Contributor: CycliX Consortium
+

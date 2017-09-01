@@ -1,0 +1,12 @@
+TITLE
+MiRNA expression profiles from adult mouse frontal cortex and hippocampus
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+MicroRNAs (miRNAs) are small regulatory molecules that cause post-transcriptional gene silencing. Although some miRNAs are known to have region-specific expression patterns in the adult brain, the functional consequences of the region-specificity to the gene regulatory networks of the brain nuclei are not clear. Therefore, we studied miRNA expression patterns by miRNA-seq in two brain regions, frontal cortex (FCx) and hippocampus (HP), which have separate biological functions. We identified 354 miRNA from FCx and 408 from HP. Several miRNA families and clusters were differentially expressed between FCx and HP, including the miR-8 family, miR-182|miR-96|miR-183 cluster, and miR-212|miR-312 cluster overexpressed in FCx and miR-34 family overexpressed in HP. To visualize the clusters, we developed support for viewing genomic alignments of miRNA-seq reads in the Chipster genome browser. We carried out pathway analysis of the predicted target genes of differentially expressed miRNA families and clusters to assess their putative biological functions. Interestingly, specific pathways were identified that are predicted to be regulated by several miRNAs from the same family/cluster. We have developed a miRNA-seq approach with a bioinformatic analysis workflow that is suitable for studying miRNA expression patterns from specific brain nuclei. FCx and HP were shown to have distinct miRNA expression patterns which were reflected in the predicted gene regulatory pathways. This methodology can be applied for the identification of brain region-specific and phenotype-specific miRNA-mRNA-regulatory networks from the adult and developing rodent brain.
+
+DESIGN
+miRNA-seq of 3 replicates from frontal cortex, 3 replicates from hippocampus, and pooled sequence runs from both
+

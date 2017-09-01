@@ -1,0 +1,12 @@
+TITLE
+Destabilization of B2 RNA by EZH2 activates the stress response
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+More than 98% of the mammalian genome is noncoding and interspersed transposable elements account for ~50% of noncoding space. Here, we demonstrate that a specific interaction between the Polycomb protein, EZH2, and RNA made from B2 SINE retrotransposons controls stress-responsive genes in mouse cells. In the heat shock model, B2 RNA binds stress genes and suppresses their transcription. Upon stress, EZH2 is recruited and triggers cleavage of B2 RNA. B2 degradation in turn upregulates stress genes. Evidence indicates that B2 RNA operates as " speed bumps " against advancement of RNA Polymerase II and temperature stress releases the brakes on transcriptional elongation. These data attribute a new function to EZH2 that is independent of its histone methyltransferase activity and reconcile how EZH2 can be associated with both gene repression and activation. Our study reveals that EZH2 and B2 together control activation of a large network of genes involved in thermal stress.
+
+DESIGN
+In this study the following samples and conditions were tested: 1) NIH/3T3 cells (2x biol.replicates) transfected with a scramble LNA have been either subjected to heat shock (45C - post-H/S cells) or incubated in normal temperature (37C- control cells - pre-H/S cells) for 15 minutes. Subsequently cells were subjected:  i) fixation with formaldehyde for ChIP-sequencing (Ezh2,Suz12, H3K27me3, Pol II S2 P and B2-CHART (with two different probes) sequencing, ii)  to Trizol RNA extraction for RNA-sequencing and short-RNA-sequencing, 2) NIH/3T3 cells (2x biol.replicates)  transfected with an LNA against B2 RNA  were subjected: i) fixation with formaldehyde for ChIP-sequencing ( Pol II S2 P),  ii)  to Trizol RNA extraction for RNA-sequencing and short-RNA-sequencing. 3) NIH/3T3 cells (2x biol.replicates) transfected with an LNA against Ezh2  were subjected  to Trizol RNA extraction for RNA-sequencing and short-RNA-sequencing. 4) RNA was extracted from undifferentiated mouse ES cells for short-RNA sequencing. Because of single-end 50 nt sequencing, full length B2 RNA or fragments of > 50 nt in short-RNA-seq would appear as 50-nt reads. In order to get a better insight into such cases we have also sequenced the short-RNA libraries with miseq in order to produce single end 200nt long reads that would span the full length of B2 RNA.
+

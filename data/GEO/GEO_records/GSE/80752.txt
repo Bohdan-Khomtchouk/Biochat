@@ -1,0 +1,12 @@
+TITLE
+The plant alkaloid chelerythrine binds to chromatin, alters H3K9Ac and modulates global gene expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chelerythrine (CHL), a plant alkaloid, possesses antimicrobial, anti-inflammatory and antitumor properties. Although CHL influences several key signal transduction pathways, its ability to interact directly with nucleoprotein complex chromatin, in eukaryotic cells has so far not been looked into. Here we have demonstrated its association with hierarchically assembled chromatin components viz. long chromatin, chromatosome, nucleosome, chromosomal DNA and histone H3 and the consequent effect on chromatin structure. CHL was found to repress acetylation at H3K9. It is more target-specific in terms of gene expression alteration and less cytotoxic compared to its structural analogue sanguinarine.
+
+DESIGN
+Total RNA was extracted from untreated and CHL treated (10 µM for 6 hours) HeLa cells by Trizol method followed by clean-up and DNase I treatment with QIAGEN RNeasy mini kit (Qiagen). RNA samples in triplicates from different passages before and after treatment using CHL were processed for microarray analysis using Illumina Human HT12 V4 whole genome gene expression profiling platform. Raw data was Quantile normalized and baseline transformation was done to median of all samples using GeneSpring GX 12.5 software (Agilent Technologies Inc, Santa Clara, USA). Differentially expressed probe sets (Genes) upon treatment in comparison to untreated cells were identified by applying Student t-test with a fold-change threshold  of absolute fold-change ≥ 1.1 and a statistically significant t test P value threshold adjusted for false discovery rate < 0.001. Statistically significantly enriched transcripts with a P value adjusted for false discovery rate < 0.05 derived using the hypergeometric distribution test corresponding to differentially expressed genes were determined using student t-test with Benjamini Hocheberg FDR test.
+
