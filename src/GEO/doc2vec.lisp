@@ -7,26 +7,34 @@
 
 ;;; PubMed vectors
 
-(defvar-lazy *pubmed*
-  (nlp:init-vecs (make 'nlp:mem-vecs :order 200) :wvlib
-                 (local-file "data/PubMed-shuffle-win-30.bin"))
-  "This variable will be initialized on first access and, for it to work,
-   a file PubMed-shuffle-win-30.bin from here:
-   https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8")
+(eval-always
+  (defvar-lazy *pubmed*
+      (nlp:init-vecs (make 'nlp:mem-vecs :order 200) :wvlib
+                     (local-file "data/PubMed-shuffle-win-30.bin"))
+    "This variable will be initialized on first access and, for it to work,
+     a file PubMed-shuffle-win-30.bin from here:
+     https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8")
 
-(defun text-vec (text)
-  (let ((words (nlp:tokenize nlp:<word-tokenizer> text)))
-    (mat:scal! (/ 1 (length words))
-               (reduce 'mat:m+ (mapcar ^(mat:array-to-mat (nlp:2vec *pubmed* %))
-                                       words)))))
+  (defun 2medvec (word)
+    (mat:array-to-mat (nlp:2vec *pubmed* word)))
+  
+  (defvar-lazy *zero-vec* (2medvec ""))
 
-(defun geo-vec (geo &key (w #h(:title 0.0 :summary 1.0 :organism 0.0)))
-  (reduce 'mat:m+ (list (mat:scal! (? w :title) (text-vec @geo.title))
-                        (mat:scal! (? w :summary) (text-vec @geo.summary))
-                        (mat:scal! (? w :organism) (text-vec @geo.organism)))))
+  (defun text-vec (text)
+    (if-it (nlp:tokenize nlp:<word-tokenizer> text)
+           (mat:scal! (/ 1 (length it))
+                      (reduce 'mat:m+ (mapcar '2medvec it)))
+           *zero-vec*))
 
-(defvar-lazy *geo-vecs* (map* 'geo-vec *geo-db*))
-
+  (defun geo-vec (geo &key (w #h(:title 0.0 :summary 1.0 :organism 0.0)))
+    (reduce 'mat:m+ (list (mat:scal! (? w :title) (text-vec @geo.title))
+                          (mat:scal! (? w :summary) (text-vec @geo.summary))
+                          (mat:scal! (? w :organism) (text-vec @geo.organism)))))
+  
+  (defvar-lazy *gds-vecs* (map* 'geo-vec *gds*))
+  (defvar-lazy *gse-vecs* (map* 'geo-vec *gse*))
+  (defvar-lazy *geo-vecs* *gds-vecs*)
+)
 
 ;;; simple similarity
 
@@ -43,14 +51,14 @@
            (euc-sim v1 v2))))
 
 
-(defun closest-vecs (vec &key (vecs *geo-vecs*) (measure 'cos-sim))
+(defun closest-vecs (vec &key (measure 'cos-sim))
   (subseq (sort (map* ^(pair %% (call measure vec %))
-                      vecs (range 0 (length vecs)))
+                      *geo-vecs* (range 0 (length *geo-vecs*)))
                 '> :key 'rt)
           1))
 
-(defun vec-closest-recs (rec &key (db *geo-db*) (measure 'cos-sim))
-  (map 'list ^(? db (lt %))
+(defun vec-closest-recs (rec &key (measure 'cos-sim))
+  (map 'list ^(? *geo-db* (lt %))
        (closest-vecs (geo-vec rec))))
 
 
@@ -63,10 +71,10 @@
             (? dists (pair v2 v))))
      2))
 
-(defun tree-cluster-vecs (&key (vecs *geo-vecs*) (measure 'cos-sim))
+(defun tree-cluster-vecs (&key (measure 'cos-sim))
   (with ((dists #h(equalp))
          (clusters #h())
-         (total (length vecs))
+         (total (length *geo-vecs*))
          (cid (1- total)))
     (labels ((cid->vert (id)
                (cond ((listp id) (mapcar #'cid->vert id))
@@ -76,7 +84,7 @@
         (dotimes (j total)
           (when (> i j)
             (:= (? dists (pair i j))
-                (call measure (? vecs i) (? vecs j))))))
+                (call measure (? *geo-vecs* i) (? *geo-vecs* j))))))
       (loop :repeat total :do
         (let ((max 0)
               arg)
