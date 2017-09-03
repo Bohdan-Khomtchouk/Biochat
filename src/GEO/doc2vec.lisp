@@ -59,7 +59,7 @@
 
 (defun vec-closest-recs (rec &key (measure 'cos-sim))
   (map 'list ^(? *geo-db* (lt %))
-       (closest-vecs (geo-vec rec))))
+       (closest-vecs (geo-vec rec) :measure measure)))
 
 
 ;;; clustering
