@@ -14,13 +14,13 @@
                                     (geo-group :organisms *gse*)))
 
 (defparameter *geo-sim-methods*
-  '((cos-sim "Cosine similarity of document vectors")
-    (euc-sim "Euclidian distance-based similarity of document vecctors")
+  '((:cos-sim "Cosine similarity of document vectors")
+    (:euc-sim "Euclidian distance-based similarity of document vecctors")
     #+nil (wn-sim "Pubmed Wordnet-based similarity of documents")))
 
 (defparameter *geo-sim-filters*
-  '((histones "Histone")
-    (organism "Same organism")))
+  '((:histones "Histone")
+    (:organism "Same organism")))
 
 ;; (defvar *pubdata-geo-groups* #h())
 ;; (bt:make-thread ^(:= *pubdata-geo-groups* (geo-group :pubdata-wordnet))
@@ -124,16 +124,18 @@
           (:div (who:fmt "GEO # ~A~A - ~A" type @rec.id @rec.title))
           (:blockquote (who:str @rec.summary)))))
 
-(defun find-closest-recs (rec count &key (methods *geo-sim-methods*)
-                                         (filters *geo-sim-filters*))
+(defun find-closest-recs (rec count &key
+                                      (methods (mapcar 'first *geo-sim-methods*))
+                                      (filters (mapcar 'first *geo-sim-filters*)))
   (take count
         (remove nil
                 (remove-duplicates
-                 (apply 'interleave
-                        (remove-if 'null
-                                   (list (when (member :cos-sim methods)
-                                           (vec-closest-recs
-                                            rec :measure 'cos-sim))
-                                         (when (member :euc-sim methods)
-                                           (vec-closest-recs
-                                            rec :measure 'euc-sim)))))))))
+                 (when-it (remove-if 'null
+                                     (list (when (member :cos-sim methods)
+                                             (vec-closest-recs
+                                              rec :measure 'cos-sim))
+                                           (when (member :euc-sim methods)
+                                             (vec-closest-recs
+                                              rec :measure 'euc-sim))))
+                   (apply 'interleave it))))))
+                 

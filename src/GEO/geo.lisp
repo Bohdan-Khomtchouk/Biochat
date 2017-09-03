@@ -158,6 +158,7 @@
 
 ;;; auto-update
 
+#+nil
 (bt:make-thread
  ^(let ((dir (local-file "data/GEO/GEO_records/")))
     (format *debug-io* "Starting auto-update:~%")
