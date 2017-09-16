@@ -32,7 +32,7 @@
                           (mat:scal! (? w :organism) (text-vec @geo.organism)))))
   
   (defvar-lazy *gds-vecs* (map* 'geo-vec *gds*))
-  (defvar-lazy *gse-vecs* (map* 'geo-vec *gse*))
+  #+nil (defvar-lazy *gse-vecs* (map* 'geo-vec *gse*))
   (defvar-lazy *geo-vecs* *gds-vecs*)
 )
 
@@ -58,7 +58,8 @@
           1))
 
 (defun vec-closest-recs (rec &key (measure 'cos-sim))
-  (map 'list ^(? *geo-db* (lt %))
+  (map 'list ^(pair (? *geo-db* (lt %))
+                    (rt %))
        (closest-vecs (geo-vec rec) :measure measure)))
 
 

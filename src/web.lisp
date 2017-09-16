@@ -189,13 +189,14 @@
                  (rt %))
           (take count
                 (sort (remove-duplicates
-                       (reduce 'append
-                               (mapcar (lambda (method)
-                                         (when (member method methods)
-                                           (mapcar ^(pair % method)
-                                                   (vec-closest-recs
-                                                    rec :measure method))))
-                                       '(cos-sim euc-sim)))
+                       (take (* 2 count)
+                             (reduce 'append
+                                     (mapcar (lambda (method)
+                                               (when (member method methods)
+                                                 (mapcar ^(pair % method)
+                                                         (vec-closest-recs
+                                                          rec :measure method))))
+                                             '(cos-sim euc-sim))))
                        :key 'lt)
                       '> :key (=> rt lt)))))
                  
