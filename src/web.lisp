@@ -73,10 +73,10 @@
                   "ID (and optionally select the number of similar records "
                   "to show). For instance, in record: "
                   "https://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=GDS5879 "
-                  "the input number is GDS5879. "
-                  "The GSE records are also supported: "
-                  "for https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE425
-                   enter GSE425.")
+                  "the input number is GDS5879. ")
+                  ;; "The GSE records are also supported: "
+                  ;; "for https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE425
+                  ;;  enter GSE425.")
             (:form :action "/search" :method "GET" :id "search-form"
                    :onsubmit "return search()"
                    (:label :for "gid" "Enter GEO record id:") " "
