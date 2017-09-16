@@ -149,8 +149,8 @@
                             (let (db vecs)
                               (dotimes (i (length *geo-db*))
                                 (let ((rec (? *geo-db* i)))
-                                  (when (print (some (lambda (filter)
-                                                (case (print filter)
+                                  (when (some (lambda (filter)
+                                                (case filter
                                                   (:histone
                                                    (if-it (? *gds-same-histones*
                                                              it)
@@ -162,7 +162,7 @@
                                                   (otherwise
                                                    (string= @rec.organism
                                                             filter))))
-                                              filters))
+                                              filters)
                                     (push rec db)
                                     (push (? *geo-vecs* i) vecs))))
                               (:= *geo-db* (coerce db 'vector))
