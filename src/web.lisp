@@ -7,20 +7,43 @@
 
 (defvar *hunch* (hunch:start-web 3344))
 
-(defvar *gds-geo-groups* (merge-hts (geo-group :histones *gds*)
-                                    (geo-group :organisms *gds*)))
+(defvar *gds-by-histone* (geo-group :histones *gds*))
 
-(defvar *gse-geo-groups* (merge-hts (geo-group :histones *gse*)
-                                    (geo-group :organisms *gse*)))
+(defvar *gds-same-histones*
+  (pairs->ht
+   (remove nil
+           (map 'list (lambda (rec)
+                        (let ((similar-recs
+                                (remove rec
+                                        (reduce 'append
+                                                (mapcar ^(? *gds-by-histone*
+                                                            (when (search-rec % rec)
+                                                              %))
+                                                        *histones*)))))
+                          (when (rest similar-recs)
+                            (pair rec (coerce similar-recs 'vector)))))
+                                
+                *gds*))))
+
+;; (defvar *gds-geo-groups* (merge-hts (geo-group :histones *gds*)
+;;                                     (geo-group :organisms *gds*)))
+
+;; (defvar *gse-geo-groups* (merge-hts (geo-group :histones *gse*)
+;;                                     (geo-group :organisms *gse*)))
 
 (defparameter *geo-sim-methods*
-  '((:cos-sim "Cosine similarity of document vectors")
-    (:euc-sim "Euclidian distance-based similarity of document vecctors")
+  '((cos-sim "Cosine similarity of document vectors")
+    (euc-sim "Euclidian distance-based similarity of document vecctors")
     #+nil (wn-sim "Pubmed Wordnet-based similarity of documents")))
 
 (defparameter *geo-sim-filters*
-  '((:histones "Histone")
+  '((:histone "Histone")
     (:organism "Same organism")))
+
+(defparameter *geo-organisms*
+  (mapcar 'lt
+          (sort (ht->pairs (nlp:uniq (map* 'gr-organism *geo-db*) :raw t))
+                '> :key 'rt)))
 
 ;; (defvar *pubdata-geo-groups* #h())
 ;; (bt:make-thread ^(:= *pubdata-geo-groups* (geo-group :pubdata-wordnet))
@@ -71,7 +94,6 @@
                        (:label :for "sim-methods"
                                (who:str (string-downcase desc)))
                        (:br))))
-                   #+nil
                    (:div :class "box" :id "sim-filters"
                     "Choose additional filters:" (:br)
                     (loop :for (filter desc) :in *geo-sim-filters* :do
@@ -81,11 +103,21 @@
                        (:label :for "sim-filters"
                                (who:str (string-downcase desc)))
                        (:br))))
+                   #+nil
+                   (:div :class "box" :id "sim-organisms"
+                         "Look only in these organisms:" (:br)
+                         (loop :for organism :in *geo-organisms* :do
+                           (who:htm
+                            (:input :type :checkbox
+                                    :value organism :name "sim-organisms")
+                            (:label :for "sim-organisms"
+                                    (who:str organism))
+                            " ")))
                    (:div (:input :type "submit" :value "Search")))
             (:br)
             (:div :id "search-results" ""))))))
 
-(url "/search" (gid sim-methods sim-filters
+(url "/search" (gid sim-methods sim-filters sim-organisms
                 (count :parameter-type 'integer :init-form 10))
   (flet ((not-found ()
            (who:with-html-output-to-string (out)
@@ -100,8 +132,11 @@
                (vecs (case type
                        (:gds *gds-vecs*)
                        (:gse *gse-vecs*)))
-               (methods (mapcar 'mkeyw (split #\, sim-methods)))
-               (filters (mapcar 'mkeyw (split #\, sim-filters))))
+               (methods (mapcar ^(mksym % :package :b42)
+                                (split #\, sim-methods :remove-empty-subseqs t)))
+               (filters (or (mapcar 'mkeyw (split #\, sim-filters
+                                                  :remove-empty-subseqs t))
+                            (split #\, sim-organisms :remove-empty-subseqs t))))
           (if-it (find id db :key 'gr-id)
                  (who:with-html-output-to-string (out)
                    (:div "Requested record:")
@@ -109,33 +144,58 @@
                    (:hr)
                    (:div "Closest records:")
                    (:ol (let ((*geo-db* db)
-                              (*geo-vecs* vecs))
-                          (dolist (r (find-closest-recs it count
-                                                        :methods methods
-                                                        :filters filters))
-                            (who:htm (:li (who:str (format-geo-rec type r))))))))
+                              (var-*geo-vecs* vecs))
+                          (when filters
+                            (let (db vecs)
+                              (dotimes (i (length *geo-db*))
+                                (let ((rec (? *geo-db* i)))
+                                  (when (print (some (lambda (filter)
+                                                (case (print filter)
+                                                  (:histone
+                                                   (if-it (? *gds-same-histones*
+                                                             it)
+                                                          (member rec it)
+                                                          t))
+                                                  (:organism
+                                                   (string= @rec.organism
+                                                            @it.organism))
+                                                  (otherwise
+                                                   (string= @rec.organism
+                                                            filter))))
+                                              filters))
+                                    (push rec db)
+                                    (push (? *geo-vecs* i) vecs))))
+                              (:= *geo-db* (coerce db 'vector))
+                              (:= var-*geo-vecs* (coerce vecs 'vector))))
+                          (loop :for (r m) :in (find-closest-recs
+                                                it count :methods methods) :do
+                            (who:htm (:li (who:str (format-geo-rec type r m))))))))
                  (not-found))))))
 
 ;;; utils
 
-(defun format-geo-rec (type rec)
+(defun format-geo-rec (type rec &optional method)
   (who:with-html-output-to-string (out)
     (:div :class "geo-rec"
-          (:div (who:fmt "GEO # ~A~A - ~A" type @rec.id @rec.title))
+          (:div (who:fmt "GEO # ~A~A - ~A (~A)~@[ [~(~A~)]~]"
+                         type @rec.id @rec.title @rec.organism
+                         (when-it (car (assoc1 method *geo-sim-methods*))
+                           (strjoin #\Space (take 3 (re:split "\\b" it))))))
           (:blockquote (who:str @rec.summary)))))
 
-(defun find-closest-recs (rec count &key
-                                      (methods (mapcar 'first *geo-sim-methods*))
-                                      (filters (mapcar 'first *geo-sim-filters*)))
-  (take count
-        (remove nil
-                (remove-duplicates
-                 (when-it (remove-if 'null
-                                     (list (when (member :cos-sim methods)
-                                             (vec-closest-recs
-                                              rec :measure 'cos-sim))
-                                           (when (member :euc-sim methods)
-                                             (vec-closest-recs
-                                              rec :measure 'euc-sim))))
-                   (apply 'interleave it))))))
+(defun find-closest-recs (rec count
+                          &key (methods (mapcar 'first *geo-sim-methods*)))
+  (mapcar ^(pair (lt (lt %))
+                 (rt %))
+          (take count
+                (sort (remove-duplicates
+                       (reduce 'append
+                               (mapcar (lambda (method)
+                                         (when (member method methods)
+                                           (mapcar ^(pair % method)
+                                                   (vec-closest-recs
+                                                    rec :measure method))))
+                                       '(cos-sim euc-sim)))
+                       :key 'lt)
+                      '> :key (=> rt lt)))))
                  

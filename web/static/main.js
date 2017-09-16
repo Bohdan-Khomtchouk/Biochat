@@ -1,6 +1,6 @@
 function checked(id) {
     return $('#' + id + ' :checkbox:checked').map(function() {
-        return $(this).val();
+        return this.value;
     }).get().join(',');
 }
 
@@ -9,8 +9,9 @@ function search() {
         type: 'GET',
         url: '/search?gid=' + $('#gid').val()
             + "&count=" + $('#count').val()
-            + "&sim-methods=" + checked('sim-methods')// ,
-            // + "&sim-filters=" + checked('sim-filters').join(',')
+            + "&sim-methods=" + checked('sim-methods')
+            + "&sim-filters=" + checked('sim-filters')
+            + "&sim-organisms=" + checked('sim-orgnisms')
         })
         .done(function (data) {
             $("#search-results").html(data);
