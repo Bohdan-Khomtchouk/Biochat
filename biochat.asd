@@ -24,5 +24,6 @@
       :components ((:file "util")
                    (:file "geo")
                    (:file "search")
+                   (:file "bow")
                    (:file "doc2vec")))
      (:file "web")))))

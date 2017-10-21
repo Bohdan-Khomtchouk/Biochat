@@ -8,7 +8,7 @@
 ;;; PubMed vectors
 
 (eval-always
-  (defvar-lazy *pubmed*
+  (defvar *pubmed*
       (nlp:init-vecs (make 'nlp:mem-vecs :order 200) :wvlib
                      (local-file "data/PubMed-shuffle-win-30.bin"))
     "This variable will be initialized on first access and, for it to work,
@@ -18,7 +18,7 @@
   (defun 2medvec (word)
     (mat:array-to-mat (nlp:2vec *pubmed* word)))
   
-  (defvar-lazy *zero-vec* (2medvec ""))
+  (defvar *zero-vec* (2medvec ""))
 
   (defun text-vec (text)
     (if-it (nlp:tokenize nlp:<word-tokenizer> text)
@@ -31,36 +31,48 @@
                           (mat:scal! (? w :summary) (text-vec @geo.summary))
                           (mat:scal! (? w :organism) (text-vec @geo.organism)))))
   
-  (defvar-lazy *gds-vecs* (map* 'geo-vec *gds*))
-  #+nil (defvar-lazy *gse-vecs* (map* 'geo-vec *gse*))
-  (defvar-lazy *geo-vecs* *gds-vecs*)
+  (defvar *gds-vecs* (map* 'geo-vec *gds*))
+  (defvar *gse-vecs* (map* 'geo-vec *gse*))
+  (defvar *geo-vecs* *gds-vecs*)
 )
 
-;;; simple similarity
 
-(defun cos-sim (v1 v2)
+;;; simple vector similarity
+
+(defun vec-closest-recs (rec &key (measure 'cos-sim))
+  (let ((vec (geo-vec rec))
+        (toks (geo-toks rec)))
+    (subseq (map 'list ^(pair (? *geo-db* (lt %))
+                              (rt %))
+                 (sort (map* ^(pair % (apply measure vec %%
+                                             (list toks
+                                                   (geo-toks (? *geo-db* %)))))
+                             (range 0 (length *geo-vecs*))
+                             *geo-vecs*)
+                       '> :key 'rt))
+            1)))
+
+(defun cos-sim (v1 v2 &rest _)
+  (declare (ignore _))
   (/ (mat:dot v1 v2)
      (* (mat:nrm2 v1)
         (mat:nrm2 v2))))
 
-(defun euc-sim (v1 v2)
+(defun euc-sim (v1 v2 &rest _)
+  (declare (ignore _))
   (/ 1 (1+ (mat:nrm2 (mat:m- v1 v2)))))
 
-(defun weighted-sim (v1 v2)
+(defun eucos-sim (v1 v2 &rest _)
   (sqrt (* (cos-sim v1 v2)
            (euc-sim v1 v2))))
 
-
-(defun closest-vecs (vec &key (measure 'cos-sim))
-  (subseq (sort (map* ^(pair %% (call measure vec %))
-                      *geo-vecs* (range 0 (length *geo-vecs*)))
-                '> :key 'rt)
-          1))
-
-(defun vec-closest-recs (rec &key (measure 'cos-sim))
-  (map 'list ^(pair (? *geo-db* (lt %))
-                    (rt %))
-       (closest-vecs (geo-vec rec) :measure measure)))
+(defun smoothed-cos-sim (v1 v2 toks1 toks2 &key (smoothing 5))
+  (with ((toks-s1 (hash-set toks1 :test 'equalp))
+         (toks-s2 (hash-set toks2 :test 'equalp))
+         (overlap (/ (ht-count (inter# toks-s1 toks-s2))
+                     (ht-count (union# toks-s1 toks-s2)))))
+    (* (cos-sim v1 v2)
+       (/ overlap (+ smoothing overlap)))))  ; leave out self
 
 
 ;;; clustering

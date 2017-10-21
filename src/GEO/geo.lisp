@@ -152,13 +152,14 @@
     (coerce (reverse rez) 'vector)))
 
 (defvar *gds* (load-geo (local-file "data/GEO/GEO_records/GDS/")))
-(defvar *gse* (load-geo (local-file "data/GEO/GEO_records/GSE/")))
+(defvar *gse* #-dev ()
+              #+dev (load-geo (local-file "data/GEO/GEO_records/GSE/")))
 (defvar *geo-db* *gds*)
 
 
 ;;; auto-update
 
-#+nil
+#+dev
 (bt:make-thread
  ^(let ((dir (local-file "data/GEO/GEO_records/")))
     (format *debug-io* "Starting auto-update:~%")

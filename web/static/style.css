@@ -1,4 +1,4 @@
-BODY { padding: 30px; background-color: #e6e6e6; background: url(http://biochats.io/static/bg.jpg); }
+BODY { padding: 30px; background-color: #e6e6e6; background: url(http://biochats.io/static/bg.png); }
 H2 { margin-bottom: 5px; }
 DIV.bg_light { background-color: GhostWhite; }
 DIV.bg_dark { background-color: #f0f0f0; }
@@ -39,4 +39,18 @@ UL.menu A {
 SPAN.additional {
     font-size: smaller;
     font-weight: normal;
+}
+LABEL.spacelabel {
+    margin-right: 20px;
+}
+DIV.organisms-box {
+    white-space: nowrap;
+    display: inline;
+}
+DIV#simorganisms {
+    display: none;
+}
+A.black {
+    text-decoration: none;
+    color: black;
 }
