@@ -30,7 +30,7 @@
   (who:with-html-output-to-string (out)
     (:html
      (:head
-      (:title "Biochats")
+      (:title "GEObrain")
       (:link :href "/static/style.css" :rel "stylesheet" :type "text/css")
       (:script :type "text/javascript" :src "/static/jquery-1.11.3.js" "")
       (:script :type "text/javascript" :src "/static/main.js" "")
@@ -40,7 +40,7 @@
                 });"))
      (:body
       (:div :class "page"
-            (:h1 "Biochats demo")
+            (:h1 "GEObrain demo")
             (:div :style "font-size: smaller; color: gray;"
                   "Here, you can find the most similar records from the "
                   (:a :href "https://www.ncbi.nlm.nih.gov/geo/" "GEO DB")
