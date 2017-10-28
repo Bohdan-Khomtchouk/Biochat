@@ -1,0 +1,12 @@
+TITLE
+Trajectories of DNA hydroxymethylation across human brain development
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epigenetic processes play a key role in orchestrating transcriptional regulation during the development of the human central nervous system. We previously described dynamic changes in DNA methylation occurring during human fetal brain development, but other epigenetic processes operating during this period have not been extensively explored. Of particular interest is DNA hydroxymethylation (5hmC), a modification that is enriched in the human brain and hypothesized to play an important role in neuronal function, learning and memory. In this study, we quantify DNA hydroxymethylation across the genome of 71 human fetal brain samples spanning 23 to 184 days post-conception.
+
+DESIGN
+DNA modifications (DNA methylation (5mC) and DNA hydroxymethylation (5hmC)) were assessed in 71 human fetal brain samples (36 male; 36 female), spanning 23 to 184 days post-conception (DPC). Two pre-treatments, BS and oxBS conversion, and two Illumina 450K arrays were run for each sample. DNA modification and DNA methylation beta values were generated, and a DNA hydroxymethylation value calculated from these measures. Please note that the 'hydroxy_GEO_matrix.csv' contains the hydroxy data produced by subtracting the oxBS data from the BS data and, thus the data column headers in the 'hydroxy_GEO_matrix.csv' correspond to the BS-pretreatement sample titles [GSM2467039-GSM2467109]
+

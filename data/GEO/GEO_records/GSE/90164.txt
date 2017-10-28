@@ -1,0 +1,12 @@
+TITLE
+Nm-seq finds thousands of modified 2’-O-methylation sites in mRNA with base precision
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Nm-seq maps 2'-O-methylation sites in human mRNA with base precision The ribose of rna nucleotides can be 2′-O-methylated (nm). despite advances in high-throughput detection, the inert chemical nature of nm still limits sensitivity and precludes mapping in mrna. We leveraged the differential reactivity of 2′-O-methylated and 2′-hydroxylated nucleosides to periodate oxidation to develop nm-seq, a sensitive method for transcriptome-wide mapping of nm with base precision. nm-seq uncovered thousands of nm sites in human mrna with features suggesting functional roles.
+
+DESIGN
+we developed a conceptually distinct approach based on the different chemical properties of nucleosides with 2′-OH and 2′-OMe22–25, combining enrichment with detection of a positive signal (rather than the lack of signal) to produce a sensitive method suited for discovery of Nm sites in rare RNA molecules or at low stoichiometry. Nm-seq leverages oxidative cleavage of ribose 2′,3′-vicinal diols by periodate to expose, enrich and map Nm sites in the transcriptome without bias and with single-nucleotide precision. Nm-seq first exposes internal Nm sites in RNA fragments by iterative oxidation–elimination–dephosphorylation (OED) cycles that remove 2′-unmodified nucleotides (one per cycle) in the 3′-to-5′ direction.
+

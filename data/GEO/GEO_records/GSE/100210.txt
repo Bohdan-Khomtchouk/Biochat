@@ -1,0 +1,12 @@
+TITLE
+RNA editing by ADAR1 leads to context-dependent transcriptome-wide changes in RNA Secondary Structure
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Adenosine deaminase acting on RNA 1 (ADAR1) is the master RNA editor, catalyzing the deamination of adenosine to inosine. RNA editing is vital for  preventing abnormal activation of cytosolic nucleic acid sensing pathways by self-double-stranded RNAs. Here we determine by parallel analysis of RNA secondary structure sequencing (PARS-seq), the global RNA secondary structure changes in ADAR1 deficient cells. Surprisingly, ADAR1 silencing resulted in a lower global double-stranded to single-stranded RNA ratio, suggesting that A-to-I editing can stabilize a large subset of imperfect RNA duplexes. The duplexes destabilized by editing are composed of vastly complementary inverted Alus found in untranslated regions of genes with vital biological processes, including housekeeping functions and type-I interferon responses. They are predominantly cytoplasmic and generally demonstrate higher ribosomal occupancy. Our findings imply that the editing effect on RNA secondary structure is context dependent and underline the intricate regulatory role of ADAR1 on global RNA secondary structure.
+
+DESIGN
+Examination of control and ADAR1 KD HepG2 cells using PARSseq method in order to find changes in RNA 2D structure induced by A-to-I RNA editing. We used PARSseq for HepG2 control and ADAR KD cells in two replicates with S1/V1 nucleases treatment for each ((control+KD)*2*2= 8 PARSseq samples). We used RNAseq of HepG2 control and ADAR KD cells with additional Ribo-seq (control and ADAR KD in 2 replicates=4 Ribo-seq samples) to further confirm the changes we observed in the PARSseq experiment.
+

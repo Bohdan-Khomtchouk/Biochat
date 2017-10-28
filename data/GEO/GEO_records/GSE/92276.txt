@@ -1,0 +1,12 @@
+TITLE
+Genomic profiling of human spermatogonial stem cells [scRNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To better understand human spermatogonial stem cells (SSCs), we profiled their transciptome and epigenome, which revealed the mechanism how human SSCs regulates their self-renewal versus differentiation dermination, as well as how latent pluripotency is established in human SSCs. Remarkly, we discovered signaling pathways (e.g. LIF, BMP, WNT) that differentially regulated self-renewal vesus differentiation in SSCs. We also discovered that SSCs repress core pluripotent factors (Sox2, Pou5f1 and Nanog) yet activate ancillary factors (e.g. Klf4, Mbd3, Tcf3, Sall4) transcriptionally and epigenetically.
+
+DESIGN
+Using SSEA4 as self-renewal marker and Kit as differentiating marker, we isolated self-renewal and differentiation SSCs by magnetic antibody cell sorting (MACS). SSEA4+ or Kit+ cells were loaded into 5-10 μm integrated fluidic circuits (IFCs) using Fluidigm C1 instrument. Single cells in IFCs were lysed and total RNA was harvested for polyadenylation selection, reverse transcription and PCR amplification. Library constructions were performed according to Fluidigm Library preparation with Nextera XT protocol and sequenced on a 50-cycle single end run.
+

@@ -1,0 +1,12 @@
+TITLE
+TOP2 synergizes with BAF chromatin remodeling for resolution of facultative heterochromatin
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Resolution and formation of facultative heterochromatin is essential to development, reprogramming, and oncogenesis. The mechanisms underlying these changes are poorly understood due to difficulty with interrogating heterochromatin dynamics and structure in vivo. BAF (mSWI/SNF) ATP-dependent chromatin remodeling complexes are known to promote chromatin accessibility. As the function of topoisomerase IIa (TOP2A) is largely dependent on BAF complexes in embryonic stem (ES) cells, we tested whether TOP2 was involved in BAF-mediated resolution of heterochromatin by performing ATAC-seq on ES cells treated with the TOP2 inhibitor ICRF-193, Brg1 (the primary ATPase subunit of esBAF complexes) conditional knockout cells, and Baf53a (a non-catalytic subunit dispensable for in vitro remodeling) conditional knockout cells. We found that TOP2 synergizes with BAF complexes genome-wide to resolve facultative heterochromatin to accessible chromatin at a large number of regulatory elements.
+
+DESIGN
+We grew two passages of wild-type ES cells on gelatin-coated plates in serum-LIF media and treated them with DMSO or 1 µM ICRF-193 for 24 hours and three passages of cells treated with 1 µM ICRF-193 for 1 hour. We also grew two passages of Brg1 conditional knockout ES cells (Brg1fl/fl; Actin-CreER) and Baf53a conditional knockout ES cells (Baf53afl/-; Actin-CreER), treated them with ethanol or 0.8 µM tamoxifen for 24 hours, and then grew in fresh media without ethanol or tamoxifen for another 48 hours. At the end of the period of ICRF-193 treatment or BAF subunit deletion, we harvested the cells for chromatin accessibility profiling by ATAC-seq.
+

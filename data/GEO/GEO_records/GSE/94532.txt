@@ -1,0 +1,12 @@
+TITLE
+Expression data from 48 hpf WT and mne mutant zebrafish
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+We sought to identify new factors important for myeloid development. From a forward genetic screen in zebrafish we identified the transciptional repressor Zbtb11. To understand pathways regulated by Zbtb11 we profiled gene expression in 48 hpf WT and mne mutant zebrafish. We identified TP53 as a significantly upregulated gene in mne compared to WT.
+
+DESIGN
+Total RNA was isolated from three biologically independent pools of WT and marsanne embryos (total = 6 samples). Input was 100 ng of total RNA, samples were processed using the Affymetrix WT Plus kit with no amplification and hybridization was to Affymetrix Zebrafish Gene Array 1.0 ST (Affymetrix). Data were analysed using Bioconductor and R packages ( ). Expression values for all genes were calculated using the robust multi-array average method.
+

@@ -1,0 +1,12 @@
+TITLE
+miRNA profiling in relapsed or metastatic HNSCC patients treated with cetuximab and platinum therapy
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+By gene expression profiling (GEP) of head and neck squamous cell carcinomas (HNSCC) we were able to identify candidate biomarkers of progression free survival (PFS) in patients treated with cetuximab-based approaches (Bossi et al, Clinical Cancer Research 2016) . Here, the same samples were used for miRNA expression profiling.  Integration of miRNA and gene expression data highlighted 16 miRNAs and 84 genes interconnected in a total of 245 interactions.   After feature selection by smoothed t-statistic support vector machine, we identified a network 3 miRNAs and 5 genes that resulted the most relevant in predicting PFS (AUC=0.992). Overall, using a well defined clinical setting we gave the proof of principle that an integrative miRNA-mRNA expression could greatly contribute to refinement of the biology behind and to the potential identification of a predictive model.
+
+DESIGN
+Forty tumor specimens from recurrent/metastatic (RM) HNSCC patients were divided according to PFS following cetuximab-CT treatment in long- (14 patients) and short-PFS (26 patients) as detailed in (Bossi, 2016). Briefly, the study design includes two groups balanced for known prognostic factors (Argiris, 2004) (primary tumor site, performance status, weight loss, prior radiotherapy, tumor grade, residual disease at primary tumor site, age, and gender). Long-PFS had a median PFS of 19 months (range 12–36), while short-PFS had a median PFS of 3 months (range 1–5.5).
+

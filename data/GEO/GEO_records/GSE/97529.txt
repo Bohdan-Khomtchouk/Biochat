@@ -1,0 +1,12 @@
+TITLE
+DNA Methylation Profiling of Bone Sarcomas
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA Methylation-Based Classifier for Accurate Molecular Diagnosis of Bone Sarcomas: DNA methylation status of 482,421 CpG sites in 10 Ewing’s sarcoma, 11 synovial sarcoma, and 15 osteosarcoma samples were determined using the Illumina HumanMethylation450 array.
+
+DESIGN
+DNA methylation status of 482,421 CpG sites in 10 Ewing’s sarcoma, 11 synovial sarcoma, and 15 osteosarcoma samples were determined using the Illumina HumanMethylation450  array.  We developed a random forest classifier trained from the 400 most differentially methylated CpG sites within the training set of 36 sarcoma samples. This classifier was validated on data drawn from The Cancer Genome Atlas (TCGA) synovial sarcoma, TARGET Osteosarcoma, and a recently published series of Ewing’s sarcoma tumors.
+

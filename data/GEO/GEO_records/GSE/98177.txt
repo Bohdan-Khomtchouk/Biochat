@@ -1,0 +1,12 @@
+TITLE
+Transcriptome-wide analysis of IL2RA enhancer activation by CRISPRa
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We previously performed a tiling CRISPR activation (CRISPRa) screen in Jurkat T cells to discover enhancers controlling IL2RA expression. This screen identified six regions where recruitment of dCas9-VP64 was sufficient to drive increased expression of IL2RA. We named these putative enhancers CRISPRa Responsive Elements (CaREs). To examine transcriptome-wide consequences of dCas9-VP64 recruitment to IL2RA CaREs, we performed RNA-Seq on HuT78 cells stably expressing dCas9-VP64 and gRNAs targeting the IL2RA TSS, CaRE3, or CaRE4, or stimulated with anti-CD3/CD28 antibodies.
+
+DESIGN
+RNA-Seq of HuT78 cells stably expression dCas9-VP64 and sgRNAs targeting the IL2RA TSS, CaRE3, or CaRE4, or non-targeting control sgRNA. Stimulated and unstimulated HuT78 cells stably expressing dCas9-VP64 but no sgRNA were also analyzed for comparison.
+

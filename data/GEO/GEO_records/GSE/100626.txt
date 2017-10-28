@@ -1,0 +1,12 @@
+TITLE
+Transcriptome-wide analysis of roles for tRNA modifications in translational regulation
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Covalent nucleotide modifications in noncoding RNAs such as tRNAs affect a plethora of biological processes, with new functions continuing to be discovered for even well-known tRNA modifications. To systematically compare the functions of a large set of ncRNA modifications in gene regulation, we carried out ribosome profiling and RNA-Seq in budding yeast for 57 nonessential genes involved in tRNA modification.
+
+DESIGN
+Yeast strains were treated with cycloheximide and proceeded to ribosome profiling. For ribosome-protected footprints (RPF), 80S monosome fractions were isolated after RNase I treatment, and 27-34 nt RPF were isolated by denaturing PAGE. For RNA-Seq, total RNA was depleted of rRNA using Ribo-Zero, followed by zinc-based fragmentation. RNA fragments and RPF are constructed into Illumina deep-sequencing libraries by RNA 3’ adaptor ligation and cDNA circularization. Barcoded libraries were sequenced on an Illumina NextSeq 500. Raw fastq reads were de-multiplexed and removed of adaptor sequence. RPF reads were mapped to S. cerevisiae rDNA and the mapping reads were discarded. The remaining RPF reads and RNA-seq reads were mapped to sacCer3 genome. Uniquely mapping reads in length of 27-34 nt (RPF) or 27 nt (RNA-seq) were quantified as RPKM.
+

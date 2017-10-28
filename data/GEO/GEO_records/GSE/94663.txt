@@ -1,0 +1,12 @@
+TITLE
+Genes differentially expressed in long-term hematopoietic stem cells with latexin deletion [Long-term hematopoietic stem cells, LT-HSCs]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Latexin is a hematopoietic stem cell (HSC) regulatory gene. Its deletion leads to the expansion of HSC population. The underlying mechanims are largely unknown. We therefore perfored microarrary analysis in HSCs with (Lxn-/-) and without (wild-type, WT) latexin deletion, and determined genes that were altered by latexin deletion. This led us to identify the molecular mechanims by which latexin regulates HSC function.
+
+DESIGN
+Long-term HSCs were immunophenotypically-defined as Lin-Sca1+c-Kit+Flt2-CD34- and sorted from bone marrow of WT and Lxn-/- mice. Total RNA was extracted and probed onto Affymetrix Gene Chip MoGene-1-0-st-v1 arrays. Three biological samples were obtained from each strain. Each sample contained nearly 100,000 LT-HSCs that were pooled from 10-20 mice. Microarray data were normalized by RMA method. The limma package(Smyth 2004) in R/Bioconductor was used to determine the differentially expressed genes.
+

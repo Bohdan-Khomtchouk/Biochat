@@ -1,0 +1,12 @@
+TITLE
+Predicting susceptibility to tuberculosis based on gene expression profiling in dendritic cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Tuberculosis is a deadly infectious disease, which kills millions of people every year. The causative pathogen, Mycobacterium tuberculosis (MTB), is estimated to have infected up to a third of the world’s population; however, only approximately 10% of healthy individuals progress to active TB disease. Despite evidence for heritability, it is not currently possible to predict whether a healthy person is susceptible to TB. To explore approaches to classify susceptibility to TB, we infected with MTB dendritic cells (DCs) from putatively resistant individuals diagnosed with latent TB, and from susceptible individuals that had recovered from a past episode of active TB. We measured genome-wide gene expression levels in infected and non-infected cells and found hundreds of differentially expressed genes between susceptible and resistant individuals in the non-infected cells. We further found that genetic polymorphisms in proximity to the differentially expressed genes between susceptible and resistant individuals are more likely to be associated with TB susceptibility in published GWAS data. By intersecting the gene expression and GWAS data, we identified two promising candidate genes: CCL1 and UNC13A. Lastly, we trained a classifier based on the gene expression levels in the non-infected cells, and demonstrated decent performance on our data and an independent data set. Overall, our promising results from this small study suggest that training a classifier on a larger cohort may enable us to accurately predict TB susceptibility.
+
+DESIGN
+We obtained whole blood samples from 25 healthy male Caucasian individuals. Six of the donors had recovered from active TB, and are thus putatively susceptible. The remaining 19 tested positive for latent TB without ever experiencing symptoms of active TB, and are thus putatively resistant. We isolated dendritic cells (DCs) and treated them with Mycobacterium tuberculosis (MTB) or a mock control for 18 hours. To measure genome-wide gene expression levels in infected and non-infected samples, we isolated and sequenced RNA using a processing pipeline designed to minimize the introduction of unwanted technical variation. There are a total of 50 samples (25 individuals x 2 treatments).
+

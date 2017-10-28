@@ -1,0 +1,12 @@
+TITLE
+SIR2 Suppresses Replication Gaps and Genome Instability in Yeast by Balancing Replication Between Repetitive and Unique Sequences
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Replication gaps that persist into mitosis likely represent important threats to genome stability, but experimental identification of these gaps has proved challenging.  We have developed a technique that allows us to explore the dynamics by which genome replication is completed prior to mitosis.  Using this approach, we demonstrate that excessive allocation of replication resources to origins within repetitive regions, induced by SIR2 deletion, leads to persistent replication gaps and genome instability.  Conversely, the weakening of replication origins in repetitive regions suppresses these gaps.  Given known age- and cancer-associated changes in chromatin accessibility at repetitive sequences, we suggest that replication gaps resulting from misallocation of replication resources underlie age- and disease-associated genome instability.
+
+DESIGN
+flow sort yeast according to DNA content into G1, S, early G2 and late G2, isolate DNA, and subject DNA to Illumina single end sequencing
+

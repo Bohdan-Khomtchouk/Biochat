@@ -1,0 +1,12 @@
+TITLE
+Predicting species-resolved macronutrient acquisition during succession in a model phototrophic biofilm using an integrated 'omics approach
+
+ORGANISM
+phototrophic enrichment cultured UCC-O
+
+SUMMARY
+The principles governing acquisition and interspecies exchange of nutrients in microbial communities and how those exchanges impact community productivity are poorly understood. Here, we examine energy and macronutrient acquisition in unicyanobacterial consortia for which species-resolved genome information exists for all members, allowing us to use multi-omic approaches to predict species’ abilities to acquire resources and examine expression of resource-acquisition genes during succession. Metabolic reconstruction indicated that a majority of heterotrophic community members lacked the genes required to directly acquire the inorganic nutrients provided in culture medium, suggesting high metabolic interdependency. The sole primary producer in consortium UCC-O, cyanobacterium Phormidium sp. OSCR, displayed declining expression of energy harvest, carbon fixation, and nitrate and sulfate reduction proteins but sharply increasing phosphate transporter expression over 28 days. Most heterotrophic members likewise exhibited signs of phosphorus starvation during succession. Though similar in their responses to phosphorus limitation, heterotrophs displayed species-specific expression of nitrogen acquisition genes. These results suggest niche partitioning around nitrogen sources may structure the community when organisms directly compete for limited phosphate. Such niche complementarity around nitrogen sources may increase community diversity and productivity in phosphate-limited phototrophic communities.
+
+DESIGN
+Cultures of Oscar UCC were split on day 0 into 12 flasks and grown in nitrate alone. Triplicate samples were taken at 7, 14, 21 and 28 days. RNA was extracted and libraries were constructed using standard SOP. There was no rRNA depletion. After sequencing, reads were mapped against Hot Lake community GTF file version 0715. Reads were converted to RPKM for each bin (organism) after filtering out tRNA and other non-CDS reads. Final data files contain summary of sample results and results separated into individual species.
+

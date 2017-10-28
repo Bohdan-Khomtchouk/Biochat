@@ -1,0 +1,12 @@
+TITLE
+Transcriptomic comparison of wild-type and ptvR deletion mutant of Streptococcus pneumoniae D39
+
+ORGANISM
+Streptococcus pneumoniae
+
+SUMMARY
+Reversible or phenotypic tolerance to antibiotics within microbial populations has been implicated in treatment failure of chronic infections and development of persister cells. However, the molecular mechanisms regulating phenotypic drug tolerance are largely unknown. In this study, we identified a four-gene operon in Streptococcus pneumoniae that contributes to phenotypic tolerance to vancomycin (ptv). RNA-Seq, qRT-PCR, and luciferase reporter experiments revealed that transcription of the ptv operon (consisting of ptvR, ptvA, ptvB and ptvC) is induced by pneumococcal exposure to vancomycin. Further investigation showed that the transcription of the ptv operon is repressed by PtvR, a PadR-family repressor; transcriptional induction of the ptv operon by vancomycin is achieved by transcriptional de-repression of this locus. Importantly, de-repression of ptvABC significantly enhanced the levels of vancomycin-tolerant pneumococci. Gene fusion and deletion analyses revealed that PtvA, PtvB and PtvC are membrane-associated proteins, and all required for the PtvR-regulated phenotypic tolerance to vancomycin. Finally, gel-shifting test with recombinant PtvR uncovered that PtvR represses the transcription of the ptv operon by binding to two palindromic sequences of the ptv promoter. Together, the ptv locus represents a novel inducible system for pneumococcal response to stressful conditions, including those caused by antibiotics.
+
+DESIGN
+Pairwise comparison of wild-type and ptvR knockout mutant of Streptococcus pneumoniae D39 (RNA-seq), analyzing the effect of ptvR deletion on the transcriptome. It was performed with deep sequencing, using an Illumina HiSeq 2500 machine with 125 nt single-end reads.
+

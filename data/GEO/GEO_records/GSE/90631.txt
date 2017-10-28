@@ -1,0 +1,12 @@
+TITLE
+SMARCB1 is required for widespread BAF complex-mediated activation of enhancers and bivalent promoters [ChIP-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BAF complex perturbations contribute to over 20% of human cancer, yet the mechanisms by which these alterations drive oncogenesis remain poorly understood. The driving role for BAF complex mutations in cancer was first documented in malignant rhabdoid tumor (MRT), an aggressive pediatric cancer in which loss of SMARCB1 (also known as BAF47, INI1, hSNF5), a core BAF complex subunit, is the hallmark genetic alteration. We find that loss of BAF47 destabilizes the biochemical affinity of BAF complexes on chromatin without significantly impairing complex integrity or subunit composition. Rescue of BAF47 in BAF47-deficient sarcoma cell lines results in global increases in BAF complex occupancy, which mediates a major gain in enhancer activation. In addition, we find BAF47 targets BAF complexes to bivalent promoters, resolving bivalency to activation through opposition of polycomb-mediated repression. These findings demonstrate collaborative gene activation by the BAF complex through distinct mechanisms, highlighting specific BAF complex functions that are coopted or abated to drive human cancers and developmental disorders.
+
+DESIGN
+Malignant rhabdoid tumor (G401, TTC1240) or epithelioid sarcoma (HS-ES-2M, VA-ES-BJ) cell lines were lentivirally infected with either an empty vector control or a constitutive vector expressing BAF47, selected for 48 hours with blasticidin, then grown for 5 days, at which point cells were harvested for ChIP-seq preparation.
+

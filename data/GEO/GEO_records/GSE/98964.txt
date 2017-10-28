@@ -1,0 +1,12 @@
+TITLE
+Genomic analysis of Tet2 knockout macrophages
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Ten-Eleven-Translocation-2 (Tet2) is a DNA methylcytosine dioxygenase that functions as a tumor suppressor in hematopoietic malignancies. In this study, we revealed a role for Tet2 in sustaining the immunosuppressive function of tumor-tissue myeloid cells.  We found that Tet2 expression is increased in intratumoral myeloid cells both in mouse models of melanoma and in melanoma patients, and that this increased expression is dependent on an IL-1R-MyD88 pathway. Ablation of Tet2 in myeloid cells suppressed melanoma growth in vivo, and shifted the immunosuppressive gene expression program in tumor-associated macrophages to a proinflammatory one, with a concomitant reduction of the immunosuppressive function. This resulted in increased numbers of effector T cells in the tumor, and T cell depletion abolished the reduced tumor growth observed upon myeloid-specific deletion of Tet2. Our findings reveal a non-cell-intrinsic, tumor-promoting function for Tet2, and suggest that Tet2 may present a therapeutic target for the treatment of non-hematologic malignancies.
+
+DESIGN
+[BMDM] This dataset contains RNAseq experiments of in vitro polarized bone marrow derived macrophages (BMDMs), with wildtype (WT) or Tet2 knockout (KO) genotype. For BMDM experiments, BMDMs were differentiated from WT or Tet2 KO mice, and were treated with IL4 (20 ng/ml) for 0, 10 or 24 hours. Cells were harvested for RNA for RNAseq with two biological replicates. [5hmC] This dataset contains DNA-immunoprecipitation sequencing (DIP-seq) experiments of  genome-wide 5-hydroxymethylcytosine (5hmC) levels in wildtype (WT) or Tet2 knockout (KO) bone marrow derived macrophages (BMDMs). For 5hmC experiments, BMDMs were differentiated from WT or Tet2 KO mice, and were treated with IL4 (20 ng/ml) for  24 hours. Genomic DNA was harvested and 5hmc binding DNA segments was pulled down by 5hmc specific antibody for DIP-seq. [TAM] This dataset contains RNAseq experiments of tumor associated macrophages (TAMs) isolated from wildtype (WT) or Myeloid-specific Tet2 knockout (KO) mice . For TAM experiments, YUMM1.7 cell line  was injected into WT (LysMcre wt/wt, Tet2 fl/fl) or Tet2 KO mice (LysMcre +/wt, Tet2 fl/fl). TAMs were harvested from the resultant tumors for RNAseq analysis.
+

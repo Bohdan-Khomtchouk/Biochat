@@ -1,0 +1,12 @@
+TITLE
+Brain Xanthophyll Content and Exploratory Gene Expression Analysis: Subspecies Differences in Rhesus Macaque
+
+ORGANISM
+Macaca mulatta
+
+SUMMARY
+Objective: The dietary xanthophylls, lutein and zeaxanthin, accumulate in primate brain and may be beneficial for cognition. Brain xanthophyll content varies greatly among individuals and genetic factors are likely to be significant contributors. Subspecies of rhesus macaques originating from different geographic locations differ genetically, but the effect of origin on gene expression and carotenoid status has not been determined. The study objective was to determine whether xanthophyll status and expression of carotenoid-related genes, as well as genes with known variants between subspecies, differ between the brains of adult rhesus monkeys of Indian and Chinese origin. Methods: Next generation RNA sequencing was used to determine differentially expressed carotenoid-related genes and genes with known variants among rhesus monkey subspecies in the prefrontal cortex, cerebellum, and striatum of Indian-origin monkeys (n=3) versus Chinese-origin monkeys (n=3). Serum and brain xanthophylls were determined using HPLC. FastQC was performed on raw sequenced reads to determine the quality of each read. Reads were mapped to the Rhesus Macaque reference genome and differences in gene expression (FPKM) were determined using TopHat and Cuffdiff, respectively. Findings from RNAseq were validated using RT-PCR. Results: Indian-origin monkeys had higher xanthophyll levels in brain tissue compared to Chinese-origin monkeys despite consuming similar amounts of dietary carotenoids. In a region-specific manner, 4 genes related to carotenoid and fatty acid metabolism (BCO2, RPE65, ELOVL4, FADS2) and 4 genes involved in the immune response (CD4, CD74, CXCL12 LTBR) were differentially expressed between Indian- and Chinese-origin monkeys. Expression of all four genes involved in carotenoid and fatty acid metabolism were correlated with brain xanthophyll concentration in a region-specific manner. Conclusions: These results indicate that origin is related to differences in both gene expression and xanthophyll content in the brain. Findings from this study may have important implications regarding genetic diversity, lutein status, and cognition in primates.
+
+DESIGN
+Sequenced reads were generated for rhesus monkeys of Indian origin (n=3) and Chinese origin (n=3) for 3 different brain regions (prefrontal cortex, cerebellum, and striatum) using single-end 50 base pair sequencing on the HiSeq Illumina 2500
+

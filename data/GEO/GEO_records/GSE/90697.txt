@@ -1,0 +1,12 @@
+TITLE
+Organism-level analysis of vaccination reveals networks of protection across tissues
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To study the response of single lung and liver memory CD8+ T cells to reactivation, mice vaccinated subcutaneously with MVA (10^7 PFUs/mouse) were subsequently challenged intranasally with: (1) PBS; (2) WR (10^7 PFUs/mouse); or (3) Vaccinia virus-derived B8R20-27 peptide (20 µg/mouse). Sixteen hours after challenge, single-cell suspensions were generated from lung or liver and lymphocytes were enriched using Percoll density centrifugation prior to immunostaining and cell sorting. Single memory CD8+ T cells from lung and liver were profiled using plate-based or droplet-based single-cell RNA-seq.
+
+DESIGN
+Three datasets were generated from single memory CD8+ T cells isolated from lung or liver using plate-based (2,423 cells) or droplet-based (7,292) single-cell RNA-seq methods, which included: (i) 947 cells from lung of MVA-vaccinated mice challenged with PBS, WR or B8R20-27 peptide (plate-based – experiment 1); (ii) 1,476 cells from lung or liver of MVA-vaccinated mice challenged with PBS or WR (plate-based – experiment 2); and (iii) 7,292 cells from lung of MVA-vaccinated mice challenged with PBS or WR (droplet-based – experiment 3). Libraries from each experiment were sequenced as a single pool on an Illumina NextSeq500 sequencer.
+

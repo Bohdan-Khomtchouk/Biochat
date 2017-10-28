@@ -1,0 +1,12 @@
+TITLE
+A novel isoform of TET1 that lacks a CXXC domain is overexpressed in cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+TET1 oxidizes methylated cytosine into 5-hydroxymethylcytosine, resulting in regulation of DNA methylation and gene expression.  Full length TET1 (TET1FL) has a CXXC domain that binds to unmethylated stretches of CpG dinucleotides known as CpG islands (CGIs).  This CXXC domain allows TET1 to protect CGIs from aberrant methylation but it also limits its ability to regulate genes outside of CGIs.  Here we report a novel isoform of TET1 (TET1ALT) that has a unique transcription start site from an alternate promoter in intron 2, yielding a protein with a unique translation start site.  Importantly, TET1ALT lacks the CXXC domain but retains the catalytic domain. TET1ALT is silenced in ESCs but becomes activated in embryonic and adult tissues while TET1FL is expressed in ESCs, but repressed in adult tissues.  Overexpression of TET1ALT shows production of 5-hydroxymethylcytosine with distinct (and weaker) effects on DNA methylation or gene expression when compared to TET1FL. TET1ALT (but not TET1FL) is aberrantly activated in multiple cancer types including breast cancer, lung cancer and lymphomas. Our data suggest that the predominantly expressed isoform of TET1 in cancer cells does not protect from CGI methylation and likely mediates dynamic site specific demethylation outside of CGIs.
+
+DESIGN
+Digital restriction enzyme analysis of methylation (DREAM) was performed to determine the methylation profile of human genomic DNA from HEK293T cell with empty vector, TET1-FL and TET1-ALT overexpression. Briefly, genomic DNA was sequentially digested by SmaI and XmaI, which both recognize the sequence CCCGGG. SmaI is methylation sensitive, where XmaI is methylation insensitive. Distinct signatures, 5’-GGG at unmethylated sites or 5’-CCGGG at methylated sites were created by enzyme digestion and ultimately high througput sequencing was used to map these sites to the genome. Methylation ratios for each individual CCCGGG site were calculated as a proportion of methylated counts to the sum of unmethylated and methylated counts, and subsequently adjusted for differences in restriction enzyme efficiency using values obtained from spiked in standards.
+

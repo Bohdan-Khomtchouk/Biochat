@@ -1,0 +1,12 @@
+TITLE
+R-ChIP Using Inactive RNase H Reveals Dynamic Coupling of R-loops with Transcriptional Pausing at Gene Promoters
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+R-loop, a three-stranded RNA/DNA structure, has been linked to induced genome instability and regulated gene expression. To enable precision analysis of R-loops in vivo, we develop an RNase H-based approach, revealing predominant R-loop formation near gene promoters with strong G/C skew and propensity to form G-quadruplex in non-template DNA, corroborating with all biochemically established properties of R-loops. Transcription perturbation experiments further indicate that R-loop induction correlates to transcriptional pausing. Interestingly, we note that most mapped R-loops are each linked to a nearby free RNA end, and by using a ribozyme to co-transcriptionally cleave nascent RNA, we demonstrate that such free RNA end coupled with a G/C-skewed sequence is necessary and sufficient to induce R-loop. These findings provide a topological solution for RNA invasion into duplex DNA and suggest an order for R-loop initiation and elongation in an opposite direction to that previously proposed.
+
+DESIGN
+We initially developped our R-ChIP technology in HEK293 cells to characterize the genome-wide in vivo R-loops, and also applied it on K562 cell to compare with existing R-loop detection methods. Furthermore, to examine the functional interplay between R-loop and RNAPII pausing and pause release at promoter region, we generated two sets of biologically replicated R-ChIP libraries, each set on mock-treated HEK293T cells [DRB(-)] or cells treated with DRB for 2 hrs [DRB(+)] or after DRB removal for 30 min [post-DRB]. We also performed GRO-seq to monitor transcriptionally engaged RNAPII under these conditions. All R-ChIP data have two to three replicates and controls, and GRO-seq data have two replicates.
+

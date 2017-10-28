@@ -1,0 +1,12 @@
+TITLE
+H3K9me2 and BRCA1 cooperate to prevent satellite repeat transcription, R-loop formation and germline sterility [RNA-seq]
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Repetitive sequences, transposable elements and silent tissue-specific genes in C. elegans are differentially enriched for di- and tri-methyl H3 lysine 9 (H3K9). SET-25 (SUV39h1/h2) catalyzes H3K9me3, while MET-2 (SetDB1) deposits only H3K9me1/me2. RNA-seq and genome-wide H3K9 methylation mapping in met-2 and set-25 single mutants showed that H3K9me2-mediated repression of satellite repeats by MET-2 correlates with germline integrity. Aberrant transcription of repeats and DNA transposons generates R-loops, loss of fertility and hydroxyurea hypersensitivity. In a genome-wide synthetic lethal screen, we identified the BRCA1 complex and factors implicated in the degradation of nuclear RNA as essential for germline integrity in met-2 mutants. Highly additive with met-2, the loss of the BRCA1 complex triggers satellite repeat transcription, generating R-loops on transcribed repeats. Supporting direct causality between satellite repeat transcription and BRCA1-mediated genome integrity, the targeted induction of MSAT1 transcripts at endogenous sites leads to damage-induced loss of fertility in wild-type C. elegans.
+
+DESIGN
+Total RNAseq of RNA isolated from early C. elegans embryos (~1-300 cell stage) in N2 (Bristol), met-2(n4256) III, set-25(n5021) III and met-2(n4256) III; set-25(n5021) III mutants. Extraction of RNA was performed according to the WormBook protocol (Stiernagle, 2006). Total RNA was purified using RNeasy kit (QIAGEN 74104) including DNase treatment. Depletion of ribosomal RNA was done for 5 ľg of total RNA with Ribo-Zero Margnetic Gold Kit (Epicentre MRGZG12324) and further concentrated with RNA Clean & Concentrator kit (Zymo Research R1015) according to corresponding manufacturers instructions.
+

@@ -1,0 +1,12 @@
+TITLE
+DRB/GRO-Seq -/+ UV
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The transcription-related DNA damage response was analyzed on a genome-wide scale with great spatial and temporal resolution. Upon UV irradiation, a slowdown of transcript elongation and restriction of gene activity to the promoter-proximal ~25 kilobases is observed. This is associated with a shift from expression of long mRNAs to shorter isoforms, incorporating alternative last exons (ALEs) that are more proximal to the transcription start site. Notably, this includes a shift from a protein-coding ASCC3 mRNA to a shorter transcript isoform of which the RNA, rather than an encoded protein, is critical for the eventual recovery of transcription. The protein-coding ASCC3 isoform counteracts the function of the non-coding isoform, indicating crosstalk between them. Thus, the ASCC3 gene expresses both coding and noncoding transcript isoforms with opposite effects on transcription recovery after UV-induced DNA damage.
+
+DESIGN
+Cells were treated with DRB (100 μM, 3.5 hrs), followed by UVC irradiation (15 J/m2) or left untreated. Cells were washed with PBS to remove DRB immediately after UV irradiation and incubated for 10, 25 or 40 minutes, followed by cell lysis and nuclei isolation. Nuclei were processed for GRO-Seq.
+

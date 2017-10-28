@@ -1,0 +1,12 @@
+TITLE
+Expression and Splicing of ABC and SLC Transporters in the Blood-Brain Barrier
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The low permeability and high selectivity of the blood vessels of the brain and central nervous system (CNS) characterize the blood-brain barrier (BBB).  Tight junctions, a lack of fenestrations, and low rates of transcytosis in the endothelial cells of the vasculature prevent passive diffusion of most molecules other than water, gases and some lipid soluble molecules (Obermeier, Daneman, & Ransohoff, 2013).  Any additional nutrients must be transported across the barrier with the help of transporter proteins.  Two protein families account for most transporters.  ABC transporters use ATP to power primary-active transport to move molecules across the BBB against an electrochemical gradient, frequently excluding drugs from entering the brain.  Some SLC transporters facilitate transport of solutes along an electrochemical gradient, while others permit secondary-active transport by coupling the flow of a solute traveling down the electrochemical gradient to power another solute against its electrochemical gradient.  Brain microvessel endothelial cells (BMEC) from human cerebral cortex were enriched through a homogenization and centrifugation procedure.  Two BMEC and two tissue were sequenced with paired-end reads on a SOLiD 5500 Wildfire.  Raw data was aligned using LifeScope Genomic Analysis, gene expression determined through Cufflinks, and splice junctions identified by aligning to a custom database of known to known and known to novel junctions.  We found numerous examples of transporters with enriched expression in the isolated BMECs compared to whole brain tissue.  In total, 131 transporter genes or pseudogenes (109 SLC, 22 ABC) are enriched at least 1.25 fold in BMEC enriched samples, and 57 of these are enriched over 2-fold (50 SLC, 7 ABC).  Thirteen genes were found to have at least twice as many counts in BMEC enriched samples than in whole tissue for at least one alternative splice junction.  Inversely, 23 genes were found to have at least one alternative splice junction with half as many counts in BMEC enriched samples than in whole tissue.
+
+DESIGN
+We sequenced 2 brain tissue samples and 2 matched brain microvessel endothelial cells.  Barcoded libraries were sequenced across 5 lanes of a SOLiD wildfire.
+

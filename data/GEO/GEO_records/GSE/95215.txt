@@ -1,0 +1,12 @@
+TITLE
+Regulatory Functions and Chromatin Loading Dynamics of Linker Histone H1 During Endoreplication in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Purpose: In Drosophila larval tissues that undergo endoreplication without cell division, the latest-replicating regions occasionally fail to complete endoreplication, resulting in the establishment of underreplicated (UR) domains of polytene chromosomes. The cause of this phenomenon is poorly understood. Methods: Freshly dissected salivary glands were crosslinked, nuclei were sonicated to shear DNA at an average size of 200 bp, and DNA was purified using a QiaQuick PCR Purification Kit. Sequencing libraries were prepared using the Illumina HiSeq 2500 system. UR regions were identified in aligned reads of the control knockdown by scanning along 5-kb windows, with regions designated as under-replicated if 20 consecutive windows fell below the average per-chromosome read count. Fold change was then calculated between the H1-depleted and control-depleted samples. Results: We found that H1 is required for the underreplication phenomenon in Drosophila salivary glands, as UR regions show substantial increase in copy number upon H1 depletion. Conclusions: Our findings implicate H1 as a critical factor in the formation of UR regions and as an important upstream effector of SUUR.
+
+DESIGN
+UR region genomic DNA copy number in salivary gland cells of H1-depleted and Nautilus-depleted wandering L3 larvae was determined by deep sequencing, in duplicate, using Illumina HiSeq 2500. pINT-Nau_UR.bed: called UR domains pINT-NaU_RelCopy_1K.bgr: Genomic Relative Copy Number, Nau KD (1 kilobase intervals) pINT-H15M_RelCopy_1K.bgr: Genomic Relative Copy Number, H1 KD (1 kilobase intervals)
+

@@ -1,0 +1,12 @@
+TITLE
+Large-scale mapping of gene regulatory logic reveals 5 context-dependent repression by transcriptional 65 activators
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Transcription factors (TFs) are key mediators that propagate extracellular and intracellular signals through to changes in gene expression profiles. However, the rules by which promoters decode the amount of active TF into target gene expression are not well understood. To determine the mapping between promoter DNA sequence, TF concentration, and gene expression output, we have conducted in budding yeast a large-scale measurement of the activity of thousands of designed promoters at six different levels of TF. We observe that maximum promoter activity is determined by TF concentration and not by the number of sites. Surprisingly, the addition of an activator binding site often reduces expression. A thermodynamic model that incorporates competition between neighboring binding sites for a local pool of TF molecules explains this behavior and accurately predicts both absolute expression and the amount by which addition of a site increases or reduces expression. Taken together, our findings support a model in which neighboring binding sites interact competitively when TF is limiting but otherwise act additively.
+
+DESIGN
+We used a previously described library of 6500 promoters driving YFP expression(Sharon et al. 2012). The pooled library was grown in synthetic media with varying amino acid concentrations and gene expression driven by each promoter was measured as previously described (Sharon et al. 2014).
+

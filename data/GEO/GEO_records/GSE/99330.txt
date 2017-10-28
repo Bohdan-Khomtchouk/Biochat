@@ -1,0 +1,12 @@
+TITLE
+A comparison between single cell RNA sequencing and single molecule RNA FISH for rare cell analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We use single molecule RNA FISH measurements of 26 genes in thousands of melanoma cells to provide an independent reference dataset to assess the performance of the DropSeq and Fluidigm single cell RNA sequencing platforms. We quantified the Gini coefficient, a measure of rare-cell expression variability, and find that the correspondence between RNA FISH and single cell RNA sequencing for Gini, unlike for mean, increases markedly with per-cell library complexity up to a threshold of ~2000 genes detected. A similar complexity threshold also allows for robust assignment of multi-genic cell states such as cell cycle phase.
+
+DESIGN
+Comparison of gene expression estimates obtained through 3 different platforms (RNA FISH, DropSeq, and Fluidigm's C1 HT IFC) using the same cell line.
+

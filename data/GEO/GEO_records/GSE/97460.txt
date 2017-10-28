@@ -1,0 +1,12 @@
+TITLE
+PLATE-Seq for Genome-Wide Regulatory Network Analysis of High-Throughput Screens
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Pharmacological and functional genomic screens play an essential role in the discovery and characterization of therapeutic targets and associated pharmacological inhibitors. Although these screens affect thousands of gene products, the typical readout is based on low-complexity rather than genome-wide assays. To address this limitation, we introduce Pooled Library Amplification for Transcriptome Expression (PLATE-Seq), a low-cost, genome-wide mRNA profiling methodology specifically designed to complement high-throughput screening (HTS) assays. Introduction of sample-specific barcodes during reverse transcription supports pooled library construction and low-depth sequencing that is 10 to 20-fold less expensive than conventional RNA-Seq. The use of network-based algorithms to infer protein activity from PLATE-Seq data results in comparable reproducibility to 30M read sequencing. Indeed, PLATE-Seq reproducibility compares favorably to other large-scale perturbational profiling studies such as the Connectivity Map (CMap) and Library of Integrated Network-based Cellular Signatures (LINCS).
+
+DESIGN
+We use automated liquid-handling to introduce lysis buffer, capture polyadenylated mRNA with an oligo(dT)-grafted plate, and deliver well-specific, barcoded oligo(dT) primers to every sample in a multi-well plate (Figure 1A). After reverse transcription, the cDNA in each well contains a specific barcode sequence on its 5’-end and a common adapter, such that all samples can be combined into a single pool for purification and concentration. We then use Klenow Large Fragment for pooled second-strand synthesis from adapter-linked random primers. Because this polymerase lacks strand-displacement and 5’-to-3’ exonuclease activities, each cDNA molecule produces at most, one second-strand synthesis product containing the sample barcode (Figure 1B). Finally, the pooled library is enriched in a single PCR prior to sequencing. The resulting libraries represent the 3’-ends of mRNAs and are sequenced to a depth of 0.5-2 million raw reads per sample.
+

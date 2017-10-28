@@ -1,0 +1,12 @@
+TITLE
+A damaged genome's transcriptional landscape through multilayered expression profiling around in situ-mapped DNA double-strand breaks
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Of the many types of DNA damage, DNA double-strand breaks (DSB) are probably the most deleterious. Mounting evidence points to an intricate relationship between DSBs and transcription. A cell system in which the impact on transcription can be investigated at precisely mapped genomic DSBs is essential to study this relationship. Methods: Here in a human cell line, we map genome-wide and at high-resolution the DSBs induced by a restriction enzyme and we characterize their impact on gene expression by four independent approaches by monitoring steady-state RNA levels, rates of RNA synthesis, transcription initiation and RNA polymerase II elongation. Results: We consistently observe transcriptional repression in proximity to DSBs. Downregulation of transcription depends on ATM kinase activity and it is sensitive to the distance from the DSB. Conclusions: Our study couples for the first time high-resolution mapping of DSBs with multilayered transcriptomics to dissect the events shaping gene expression after DSB induction at multiple endogenous sites.
+
+DESIGN
+BLISS (Breaks Labeling In Situ and Sequencing), 1 replicate per condition, 2 conditions (Induced and Uninduced) gamma-H2AX ChIP-seq, 1 replicate per condition, 2 conditions (Induced and Uninduced) RNA-seq, 1 replicate per condition, 2 conditions (Induced and Uninduced) RNA-seq of DMSO-treated or ATMi-treated samples, 1 replicate per condition and per treatment, 2 conditions (Induced and Uninduced), 2 treatments (DMSO and ATMi) Bru-seq (metabolic pulse-labeling of RNA with bromouridine followed by sequencing), 4 different time points after AsiSI induction, 1 replicate per condition, 2 conditions (Induced and Uninduced) CAGE (cap-analysis of gene expression) , 1 replicate per condition, 2 conditions (Induced and Uninduced) Total RNAPII ChIP-seq (CTD4H8), 1 replicate per condition, 2 conditions (Induced and Uninduced) Elongating RNAPII ChIP-seq (Ser 2), 1 replicate per condition, 2 conditions (Induced and Uninduced)
+

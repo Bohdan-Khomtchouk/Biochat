@@ -1,0 +1,12 @@
+TITLE
+Transcriptional profiling of lung tumour cell lines with distinct p53 mutations in the absence or presence of WT p53
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Microarray expression data generated to determine the impact of defined p53 mutations on lung cancer cell phenotypes, and on the tumour supressive responses induced by WT p53 restoration. In murine models of lung cancer, the therapeutic benefit of WT p53 restoration has been demonstrated in p53-deficient tumours (Juntilla et al, 2010; Feldser et al, 2010). However, it remains unknown if the restoration of WT p53 function is beneficial in p53 mutant tumours. Thus, to determine the impact of p53-targeted therapy in mutant p53 lung cancer, we analysed cells from murine lung tumours of distinct p53 genotypes. Utilising the well characterised p53-ER allele (Christophorou et al, 2005; Martins et al, 2006; Juntilla et al, 2010) we carried out transcriptional profiling of KrasG12D/+ cell lines isolated from advanced lung tumours with defined p53 status: p53Fx/ER (null), p53R270H/ER and p53R172H/ER in the absence (p53 WT OFF) or presence (p53 WT ON) of 4-hydroxytamoxifen (4-OHT). The temporal specificity of p53-ER restoration allowed us to utilised two timepoints to determine both the immediate (2hr) and sustained (8hr) impact of WT p53 function.
+
+DESIGN
+Murine tumour cell lines were isolated from independent advanced KrasG12D/+; p53Fx/ER (null), p53R270H/ER and p53R172H/ER lung tumours (minimum of 2 tumour mice/genotype used) 21-22 weeks post 5x106 PFU adenocre intranasal administration. Tumours were collected, homogenised and digested with 4mg/ml collagenase/dispase at 37oC for 2.5 hrs, before plating in DMEM/F12 media supplemented with 10% FBS and 2mM L-Glutamine. Epithelial tumour cells were isolated using differential detachment method and maintained in DMEM/F12; 10% FBS; 4mM L-Glutamine media.  Four independent tumour cell lines/genotype were cultured in 3D matrigel (3:2 Matrigel:Media)  before treatment with 4-OHT or ethanol (vehicle) for times indicated. Cell cultures were dissociated and RNA extracted, followed by Illumina Mouse WG-6 version 2.0 Expression BeadChip  microarray analysis. Data were analysed using R (R Development Core Team, 2010) and Bioconductor (Gentleman et al, 2004). Spatial artefacts were removed using BASH (Cairns et al, 2008) and HULK algorithms from the bead array package (Dunning et al, 2007). Data were log2 transformed and quantile normalised. Expression values were determined as average of two reads for each sample.
+

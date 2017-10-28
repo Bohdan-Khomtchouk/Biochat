@@ -1,0 +1,12 @@
+TITLE
+Genome wide DRIP-seq in control knockdown HeLa cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We mapped the location of RNA:DNA hybrids in HeLa cells that had been knocked down with a control siRNA. We found that the levels of RNA:DNA hybrids around origins of replication (defined from data from Pretyk et al, Nat Commun 2016) strongly correlated to the directionality of transcription around these origins (defined from GRO-seq data from GEO dataset GSM1518913.) Specifically, in regions where the replication fork travels antiparallel (Head-On) to the direction of transcription we find elevated RNA:DNA hybrids, and in regions where the replication fork travels parallel to the direction of replication (Co-directional) we find reduced RNA:DNA hybrids. These results imply that the relative directions of replication and transcription have an effect on the levels of RNA:DNA hybrids across the genome.
+
+DESIGN
+Input and IP for two replicates of a DRIP-seq experiment in HeLa cells treated with a control siRNA
+

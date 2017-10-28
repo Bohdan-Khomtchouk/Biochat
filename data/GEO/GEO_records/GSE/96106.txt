@@ -1,0 +1,12 @@
+TITLE
+Single cell RNA-sequencing of day 15 cells derived from the directed differentiation of human iPSCs towards lung epithelium
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+It has been postulated that during human fetal development all cells of the lung epithelium derive from an embryonic endodermal NKX2-1+ precursor, however, this hypothesis has not been formally tested due to an inability to purify or track this theorized cell for detailed characterization. Progress has been made in deriving lung epithelial cells from human induced pluripotent stem cells (iPSCs). However, little is known about the heterogeneity or genetic programs of the cells generated using these lung differentiation protocols. We engineered and differentiated NKX2-1GFP reporter iPSCs in vitro, recapitulating the major developmental milestones of lung development, to generate and isolate human primordial lung progenitors (day 15 of differentiation) that expresses NKX2-1 but are initially devoid of markers of differentiated lung lineages. To further characterize the cells generated in the lung directed differentiation protocol we performed single cell RNA-seq analysis of cells on day 15 of lung directed differentiation. We analyzed sorted NKX2-1GFP+ cells for the iPSC line C17 and cells from the iPSC line BU3.
+
+DESIGN
+We sorted C17NKX2-1GFP+ and BU3 cells on day 15 of the lung directed differentiation and loaded into separate Fluidigm C1 integrated fluidics circuits (IFCs).  Lysis, conversion polyA+RNA into full length cDNA and amplification of cDNA was performed using the Fluidigm C1 according to the manufacturer’s protocol. After sequencing on an Illumina Hiseq2500 80 single cell transcriptional profiles from BU3 and 65 from ips17 cell line were compared after filtering and normalization.
+

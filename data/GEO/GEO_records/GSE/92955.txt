@@ -1,0 +1,12 @@
+TITLE
+Whole transcriptome analysis of the ventrolateral hypothalamic parvafox nucleus in mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The ventrolateral hypothalamic parvafox (formerly called PV1-Foxb1) nucleus is an anatomical entity of recent discovery and unknown function. With a view to gaining an insight into its putative functional role(s), we conducted a gene-microarray analysis. The parvafox nucleus was specifically sampled by laser-capture microdissection and the transcriptome was subjected to a microarray analysis on Affymetrix chips. Eighty-two relevant genes were found to be potentially more expressed in this brain region than in either the cerebral cortex or the hippocampus. When the expression patterns of these genes were counterchecked in the Allen-Database of in-situ hybridizations and in the B*-microarray database, their localization in the parvafox region was confirmed for thirteen. For nine novel genes, which are particularly interesting because of their possible involvement in neuromodulation, the expression was verified by quantitative real time-PCR. Of particular functional importance may be the occurrence of glycine receptors, the presence of which indicates that the activity of the parvafox nucleus is under ascending inhibitory control.
+
+DESIGN
+Regions encompassing the parvafox nucleus, the cerebral cortex (piriform and entorhinal cortex) and the hippocampus (CA2-CA3 area) were sampled by laser capture-microdissection from two adult C57BL/6 mice (mouse 355 and mouse 511). Total RNA was extracted and subjected to quality control followed by whole-transcript amplification, the labelling process and the gene-chip hybridization on an Affymetrix Mouse Gene 2.0 ST Array. Data were pre-processed and normalized using the robust multi-array average (RMA) approach and  the software Expression Console provided by Affymetrix (version 1.2.1.20). The data were evaluated using the programming language R (version 2.14.2). The expression profiles of the genes in the parvafox nucleus were compared to those of cortex and hippocampus as reference structures.
+

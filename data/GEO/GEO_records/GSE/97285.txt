@@ -1,0 +1,12 @@
+TITLE
+Specific small-RNA signatures in the amygdala at premotor and motor stages of Parkinson’s disease revealed by deep sequencing analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Motivation: Most computational tools for small non-coding RNAs (sRNA) sequencing data analysis focus in microRNAs (miRNAs), overlooking other types of sRNAs that show multi-mapping hits. Here, we have developed a pipeline to non-redundantly quantify all types of sRNAs, and extract patterns of expression in biologically defined groups. We have used our tool to characterize and profile sRNAs in post-mortem brain samples of control individuals and Parkinson’s disease (PD) cases at early-premotor and late-symptomatic stages.Results: Clusters of co-expressed sRNAs mapping onto tRNAs significantly separated premotor and motor cases from controls. A similar result was obtained using a matrix of miRNAs slightly varying in sequence (isomiRs). The present framework revealed sRNA alterations at premotor stages of PD, which might reflect initial pathogenic perturbations. This tool may be useful to discover sRNA expression patterns linked to different biological conditions.
+
+DESIGN
+We subjected 21 human brain samples to small RNA sequencing (sRNA-seq). We specifically focused in the amygdala, a brain area presenting Lewy bodies (LB) at pre-motor stages, the characteristic neuropathological hallmark of PD Availability and Implementation: The full code is available at 
+

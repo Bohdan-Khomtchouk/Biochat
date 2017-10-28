@@ -1,0 +1,12 @@
+TITLE
+List of TIAM1 differentially expressed genes in SW620 cells [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The T lymphoma invasion and metastasis inducing protein 1 (TIAM1) is a guanine nucleotide exchange factor (GEF) that activates the small GTPase RAC1 and regulates a plethora of functions such as cell proliferation, migration, apoptosis and polarity. Recently, we demonstrated that TIAM1 shuttles between the cytoplasm and nucleus. To determine the nuclear role of TIAM1, we performed RNA-seq on SW620 cells transfected either with a specific pre-validated siRNA for TIAM1 (siTIAM1) or a negative control siRNA (siNT) and generated a list of TIAM1 differentially expressed genes. GSEA revealed significant enrichment among TIAM1-regulated genes for YAP-associated molecular signature. To investigate the interplay of TIAM1 with YAP/TAZ we used RNA-seq, generated a list of YAP/TAZ differentially expressed genes from SW620 cells transfected either with specific siRNAs for YAP/TAZ or a negative control siRNA and compared it with the siTIAM1 RNA-seq dataset. Interestingly, we found that 50% of the TAZ/YAP regulated genes were also TIAM1 dependent.
+
+DESIGN
+mRNA profiles of control, TIAM1 or YAP/TAZ knockdown SW620 cells were generated from three independent experiments using RNA-seq
+

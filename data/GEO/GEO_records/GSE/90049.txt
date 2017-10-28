@@ -1,0 +1,12 @@
+TITLE
+Chromatin immunoprecipitation and ATAC-Seq data from meduallar thymic epithelial cells [ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Aire is a transcriptional regulator that induces promiscuous expression of thousands of tissue-restricted antigen (TRA) genes in medullary thymic epithelial cells (mTECs). While the target genes of Aire are well characterized, the transcriptional programs regulating its own expression remain elusive. We used Affymetrix microarrays to analyze the gene expression patterns of Aire expressing cells (mature mTECs and Thymic B cells) and compared them to control counterparts, namely immature mTECs, cortical Thymic epithelial cells and splenic B cells of tissue-restricted antigen (TRA) genes in medullary thymic epithelial cells (mTECs). While the target genes of Aire are well characterized, the transcriptional programs regulating its own expression remain elusive. We’ve used Assay for transposase-accessible chromatin using sequencing (ATAC-Seq) on the different thymic epithelial cell populations to assess chromatin accessibility around the Aire locus in these cells. Moreover, we’ve used the indexing-first chromatin immunoprecipitation (iChIP) technique to assess the occupancy of the Irf8 transcription factor in the Aire locus
+
+DESIGN
+Mature EpCAM+MHC-II high mTECs, Immature EpCAM+MHC-II low mTECs, and EpCAM+Ly51+ cTECs were flow-sorted from thymi isolated from thymi of C57BL/6 6weeks old mice. These cells were then subjected to ATAC-Seq. typically 10 thousand cells were used per replicate.  Mature EpCAM+MHC-II high mTECs and Immature EpCAM+MHC-II low mTECs were flow-sorted and pooled from thymi isolated from thymi of C57BL/6 6weeks old mice and iChIP using Irf8-specific antibody was then performed. Typically 250 thousand cells were used per replicate.
+

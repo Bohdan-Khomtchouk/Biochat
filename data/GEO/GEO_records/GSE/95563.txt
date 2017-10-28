@@ -1,0 +1,12 @@
+TITLE
+Whole Human Genome Oligo Microarray
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Human expression microarray analysis of the 11 samples that you submitted. Total RNA from each sample was quantified using the NanoDrop ND-1000 and the RNA integrity was assessed using standard denaturing agarose gel electrophoresis. For microarray analysis, Agilent Array platform was employed. The sample preparation and microarray hybridization were performed according to the manufacturer’s standard protocols. Briefly, total RNA from each sample was amplified and transcribed into fluorescent cRNA with using the manufacturer’s Agilent’s Quick Amp Labeling protocol (version 5.7, Agilent Technologies). The labeled cRNAs were hybridized onto the Whole Human Genome Oligo Microarray (4x44K, Agilent Technologies). After having washed the slides, the arrays were scanned by the Agilent Scanner G2505C. Agilent Feature Extraction software (version 11.0.1.1) was used to analyze acquired array images. Quantile normalization and subsequent data processing were performed using the GeneSpring GX v11.5 software package (Agilent Technologies). After quantile normalization of the raw data, genes that at least 7 out of 11 samples have flags in Detected (“All Targets Value”) were chosen for further data analysis.
+
+DESIGN
+11 blood samples were collected and divided into A group (4 samples), B group (4 samples) and heathy controls (3 samples), Blood samples were abstracted RNA, and go through RNA quality testing, transcribed into fluorescent cDNA, tested by microarray of Aligent, finally get the gene expression image and raw data through hybridization of whole human genome oligo microarray. through the pathway and GO analysis, we got the elementary results through the comparison of these samples
+

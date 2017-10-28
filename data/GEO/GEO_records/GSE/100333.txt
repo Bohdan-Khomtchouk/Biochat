@@ -1,0 +1,12 @@
+TITLE
+Next-generation sequencing measuring m6A enrichment in CD4+ T cells isolated from WT mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+CD4+ T cells were isolated by StemCell CD4+ T cell isolation kit of spleen and lymph nodes WT mice. Total RNAs were isolated from the pure CD4+ T cells, subjected to standard m6A RIP protocol. The libraries were generated with IPed and Input RNAs and subjected to sequencing. Raw sequencing reads were aligned to the mouse genome (mm10) with Tophat, and gene expression levels were measured by Cufflinks.
+
+DESIGN
+m6A modified RNAs were immunoprecipitated and enriched with m6A specific antibody from WT mouse CD4+ T cells, and subjected to deep sequencing, in duplicate, using Illumina HiSeq 2000.
+

@@ -1,0 +1,12 @@
+TITLE
+CDK9-dependent RNA polymerase II pausing controls transcription initiation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene transcription can be activated by decreasing the duration of RNA polymerase II pausing in the promoter-proximal region, but how this is achieved remains unclear. Here we use a ‘multi-omics’ approach to show that the duration of polymerase pausing generally limits the frequency of transcription initiation in human cells (‘pause-initiation limit’). We further engineer a human cell line to allow for specific and rapid inhibition of the P-TEFb kinase CDK9, which is implicated in polymerase pause release. We show that CDK9 activity decreases the pause duration but also increases the initiation frequency. This shows that CDK9 stimulates release of paused polymerase and activates transcription by increasing the number of transcribing polymerases and thus the amount of mRNA synthesized per time. CDK9 activity is also associated with long-range chromatin interactions, suggesting that enhancers can influence the pause-initiation limit to regulate transcription.
+
+DESIGN
+We performed mNET-seq reactions including empigen BB detergent treatment during immunoprecipitation in two biological replicates of human Raji B lymphocyte (CDK9as) cells treated for 15 min with DMSO (control) or 5 µM 1-NA-PP1 (CDK9as inhibitor). We performed TT-seq reactions including RNA spike-ins in two biological replicates of human Raji B lymphocyte (wild type, or CDK9as) cells treated for 15 min with DMSO (control) or 5 µM 1-NA-PP1 (CDK9as inhibitor), including 5 minutes of 4sU labeling. Raji B lymphocyte (CDK9as) cells were engineered using the CRISPR/Cas9 system and contain a homozygous mutation (F103A) at the CDK9 gene loci.
+

@@ -1,0 +1,12 @@
+TITLE
+ChIP-seq of transcription factors regulating the TLR-induced transcriptional cascades in macrophages
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Toll-like receptors (TLRs) are responsible for sensing pathogen components, initiating cascades of signaling pathways, transcription factors, chromatin regulators, and activating thousands of genes contributing to diverse immune functions in macrophages. Conventional system approaches have been used to analyze TLR-induced transcriptional cascades. However, commonly used approaches possess a number of limitations, including a bias toward weakly induced genes, which are far more prevalent than strongly induced genes, and an inability to distinguish functionally important protein-DNA interactions identified by ChIP-seq from interactions that may be functionally insignificant. To develop a better understanding of a TLR-induced transcriptional cascade, we used more stringent criteria to analyze RNA-seq, ChIP-seq, and transcription factor binding motif data sets. Our analysis provided a number of insights into the regulation of an inducible transcriptional cascade. This stringent and quantitative strategy can effectively reveal gene-specific regulatory mechanisms from genome-wide studies.
+
+DESIGN
+Bone marrow-derived macrophages from wild type or knockout mice were stimulated with 100ng/ml lipid A for 0, 15, 30, 60, and 120 min. Sonicated chromatin samples were incubated with antibodies for Brg1, CEBPβ, CEBPδ, Fos, JunB, JunD, ATF3, CREB, and RelA.
+

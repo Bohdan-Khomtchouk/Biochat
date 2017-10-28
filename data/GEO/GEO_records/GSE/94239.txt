@@ -1,0 +1,12 @@
+TITLE
+RNAseq analysis of GL261 GDC and mNS GSC transcriptome
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We compare the gene expression profile between GL261 glioma differentiated cells (GDC) and mNS Neurospheres glioma stem like cells (GSC).
+
+DESIGN
+Methods: GL261 and mNS at different passage were havested for extraction. The libraries were prepared with 1 ug of total RNA as starting material and processed with the Illumina TruSeq stranded total RNA (Ribo-Zero Gold) kit according to the manufacturer instruction. Libraries were sequenced according to 100 single-read protocol on a HiSeq 2500 from Illumina. This experiments were performed at the iGE3 genomics platform of the University of Geneva ( ). Differential analysis was performed using the edgeR package (Robinson et al., 2010). Normalization factors were computed using the TMM technique, after which tagwise dispersions were calculated and subjected to an exact test. Resulting P values were subjected to Benjamini-Hochberg multiple testing correction to derive FDRs.
+

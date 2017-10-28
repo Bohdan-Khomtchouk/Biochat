@@ -1,0 +1,12 @@
+TITLE
+H3.3K27M cooperates with p53 loss and Pdgfra gain in mouse embryonic neural progenitor cells to induce invasive high-grade gliomas [Mouse ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Gain-of-function mutations in histone 3 (H3) variants are found in a large proportion ofpediatric high-grade gliomas (pHGG) and are often associated with p53 loss and PDGFRA amplification. However, a lack of faithful models has hampered investigation of disease mechanisms and preclinical development. Here, we describe a somatic mouse model of H3.3K27M-driven HGG, which faithfully recapitulates human H3.3K27M pHGG. H3.3K27M and p53 loss are sufficient for neoplastic transformation but only within a specific window of brain development. In this model, H3.3K27M primes the PDGFRA pathway during transformation, and accordingly gain of wild-type PDGFRA decreases latency and increases invasion. Finally, we reveal a previously underappreciated dynamic regulation of H3K27 trimethylation at specific loci. Overall, this experimental model provides key insights into oncohistone-driven pHGG pathogenesis and will enable investigations of future therapies.
+
+DESIGN
+We performed genome-wide H3K27me3 profiling by next-generation sequencing technology (ChIP-seq) of GFP+ cells sorted and expanded from embryonic cortices of electroporated mice at 72 hours (preneoplastic) and 5-9 months (tumor) post-IUE for a total of 9 samples. We employed in utero electroporation and a piggyBac transposon-based system to deliver mutant H3.3K27M, Pdgfra, Atrx shRNA and Trp53 CRISPR/Cas9 into developing NPCs - and all their successive progeny - during embryonic neurogenesis in vivo.  We produced 1 replicate per condition.  Preneoplastic conditions include baseline controls (EV ctl, EV ctl PDGFRA), controls with Trp53-/- and Atrx shRNA (EV-AP, EV-APP), controls overexpressing wild-type H3.3 with Trp53-/- and Atrx shRNA (WT-AP, WT-APP), K27M expressing cells with Trp53-/- and Atrx shRNA (K27M-AP, K27M-APP).  Tumor conditions include tumors with H3.3K27M and Trp53-/- (K27M-P T), tumors with H3.3K27M, Trp53-/- and Atrx shRNA (K27M-AP T), and tumors with H3.3K27M, Trp53-/-, Atrx shRNA and Pdgfra (K27M-APP T). For each sample, we also obtained genomic DNA for use an input for subsequent analyses.
+

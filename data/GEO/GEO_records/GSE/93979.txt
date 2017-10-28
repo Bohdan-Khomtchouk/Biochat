@@ -1,0 +1,12 @@
+TITLE
+The Arabidopsis Cys2/His2 zinc-finger transcription factor ZAT18 is a positive regulator of plant tolerance to drought stress
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Purpose: We aimed to identify ZAT18 target genes and characterize functions of ZAT18 during plant drought tolerance Methods: A total amount of 3 μg RNA was used for generation of sequencing libraries using NEBNext® Ultra™ RNA Library Prep Kit for Illumina® (NEB, USA) following manufacturer’s recommendations and index codes were added to attribute sequences to each sample. After cluster generation, the library preparations were sequenced on an Illumina Hiseq platform and 125 bp/150 bp paired-end reads were generated. Clean reads were obtained by removing low quality reads, reads containing adapter and ploy-N from raw data. At the same time, Q20, Q30 and GC content the clean data were calculated. Index of the Arabidopsis genome was built using Bowtie v2.2.3 and paired-end clean reads were aligned to the reference genome using TopHat v2.0.12. HTSeq v0.6.1 was used to count the reads numbers mapped to each gene. And then FPKM (Fragments Per Kilobase of transcript sequence per Millions base pairs sequenced) of each gene was calculated based on the length of the gene and reads count mapped to this gene. Differential expression analysis of drought stress versus control condition was performed using the DESeq R package (1.18.0). Results:In total, eight samples with two biological replicates per genotype/treatment combination were used for RNA sequencing analysis. At least 2 G clean bases were generated for each sample. Comparative analysis revealed that 1777 genes were transcriptionally affected by AtZAT18 trasngene or drought treatment. The results showed that overexpression of AtZAT18 modulated expression level changes of 423 and 561genes under control and drought stress conditions, respectively. Drought stress treatment changed expression of 971 genes with 768 up-regulated and 203 down-regulated.
+
+DESIGN
+In this study, wild type Arabidopsis and two lines of AtZAT18 transgenic plants were grown in moist soil for 7 days. Drought stress was imposed by withholding water for 10 days. The rosette leaves of control and drought treated Col-0 and AtZAT18 transgenic plants were then collected for RAN isolation. AtZAT18 transgenic plant and Col WT were used by deep sequencing, in duplicate
+

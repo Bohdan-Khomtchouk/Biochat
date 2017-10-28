@@ -1,0 +1,12 @@
+TITLE
+Applied topology delineates developmental progression with single-cell resolution
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Cellular lineage commitment and terminal cellular differentiation result from the induction of dynamically regulated transcriptional programs. We report an unbiased approach to studying this process that combines temporal single cell RNA-sequencing and topology-based computational analyses (single cell Topological Data Analysis (scTDA)). scTDA is a non-linear, model-independent, statistical framework particularly tailored to capture high-dimensional continuous relationships, allowing for unsupervised characterization of transient cellular states. We analyzed single-cell RNA-seq data from murine embryonic stem cells (mESCs) as they differentiate in vitro in response to inducers of motor neuron differentiation. scTDA resolved asynchrony and continuity in cellular identity over time, and identified four transient states (pluripotent, precursor, progenitor, and fully differentiated cells) based on dynamic changes in stage-dependent combinations of transcription factors, RNA-binding proteins and long non-coding RNAs. scTDA is applicable to a broad range of problems that involve asynchronous or stochastic cellular responses to developmental cues or environmental perturbations.
+
+DESIGN
+Single cell RNA sequencing of 2,744 individual cells, spanning 2 biological (non-technical) replicates. Cells were sampled daily across days 2 through 6 of the in vitro differentiation of mESCs into motor neurons.
+

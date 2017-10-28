@@ -1,0 +1,12 @@
+TITLE
+Serum microRNA sequencing for diagnosis of invasive ovarian cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We constructed a heterogeneous patient cohort of pre-treatment (prior to either surgery or chemotherapy) blood samples from 180 women enrolled in two independent prospective cohort studies of women presenting with an adnexal mass.  One sample (E-1056) was later excluded due to an abnormally high level of mir-122 believed to be due to a recent MI.  The remaining 179 samples were subdivided 3:1 into a 135 patient training set and 44 patient validation set.  Total serum RNA was extracted, converted into miRNA next generation sequencing libraries, and sequenced.  The variables for classification model development were selected using three methods – a significance filter (using a student’s t-test ), a group-stratified fold change filter, and a correlation-based feature selection (CFS). We deployed 11 different machine learning algorithms on the three sets of variables to separate the cases of invasive cancer from the healthy controls or benign/borderline masses.  The tools were graded in terms of receiver operating characteristic area under the curve (ROC AUC).  The model was validated both by qPCR on the study samples as well as by external validation on an independent publicly available dataset of 454 patients with a range of diagnoses, including ovarian cancer.  The qPCR signature was then externally validated on another independent external cohort.
+
+DESIGN
+miRNA-seq on 180 pre-treatment serum samples
+

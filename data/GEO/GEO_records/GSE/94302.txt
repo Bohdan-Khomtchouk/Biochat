@@ -1,0 +1,12 @@
+TITLE
+Suppression of B-cell development genes is key to glucocorticoid efficacy in treatment of acute lymphoblastic leukemia
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Glucocorticoids (GCs) are a central component of combination chemotherapy for childhood B-cell precursor acute lymphoblastic leukemia (B-ALL). GCs work by activating the glucocorticoid receptor (GR), a ligand induced transcription factor, which in turn regulates genes that induce leukemic cell death.  Which GR-regulated genes are required for GC cytotoxicity, the pathways that affect their regulation, and how resistance arises are not well understood. Here we systematically integrate the transcriptional response of B-ALL to GCs with a next-generation shRNA screen to identify GC-regulated “effector” genes that contribute to cell death as well as genes that affect the sensitivity of B-ALL cells to dex. This analysis reveals a pervasive role for GCs in suppression of B-cell development genes that is linked to therapeutic response. Inhibition of PI3Kδ, a lynchpin in the pre-B-cell receptor and IL7R signaling pathways critical to B-cell development, with CAL-101 (idelalisib), interrupts a double-negative feedback loop, enhancing GC-regulated transcription to synergistically kill even highly resistant B-ALL with diverse genetic backgrounds. This work not only identifies numerous opportunities for enhanced lymphoid-specific combination chemotherapy that have the potential to overcome treatment resistance, but is also a valuable resource for understanding GC biology and the mechanistic details of GR-regulated transcription. Please note that the cell lines and primary samples were processed and normalized separately.
+
+DESIGN
+The data submitted include the gene expression profiles for 11 cell lines and three primary patient samples.  The cells were all treated in the same way: grown in RPMI plus 10% FBS @ 37˚C with 5% CO2; treated for 4 hours with either 1µM dexamethasone, or 0.1% ethanol as a control; RNA was harvested then run on Illumina HT12 v 4 arrays.  There are at least three reapeats for each treatment and control. Control repeats have the suffix U* whereas the treated have either I* or D* as a suffix.
+

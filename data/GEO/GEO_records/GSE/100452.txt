@@ -1,0 +1,12 @@
+TITLE
+Promoter type determines co-translational regulation of mRNA levels
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Information that regulates gene expression is encoded throughout each gene, but the interaction between regulatory regions is poorly understood. Here we show that variation in open reading frame (ORF) sequence alone generates four orders of magnitude of variation in mRNA expression. This variation can be predicted from sequence and the effect of ORF sequence on expression depends on the promoter. By computationally screening 6402 RNA-seq experiments we identified an RNA helicase as the mechanism by which ORF mediated regulation is reduced specifically for inducible promoters. We find that for constitutive genes, but not inducible genes, most of the information encoding regulation of mRNA is encoded in the ORF. Thus a non-linear relationship between promoters and ORFs determines gene expression.
+
+DESIGN
+Library of random Open Reading Frames (ORFs). To generate the library, random fragments of the yeast genome were cloned under the expression of the same promoter and terminator.
+

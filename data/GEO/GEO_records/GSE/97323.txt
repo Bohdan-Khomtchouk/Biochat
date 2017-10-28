@@ -1,0 +1,12 @@
+TITLE
+RNA-sequencing analysis of non silencing or ILF2 shRNA-transduced H929 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To understand whether ILF2 is required to ensure the alternative splicing and processing of specific pre-mRNAs in Multiple Myeloma (MM) in physiological conditions, we performed RNA sequencing (RNA-Seq) analysis of ILF2-  and  non-silencing shRNA  transduced  H929 cells.
+
+DESIGN
+Total RNA from H929 cells transduced with a non-silencing or ILF2 shRNA (two independent replicates per condition) were isolated with the RNeasy Mini kit (Qiagen). Libraries were constructed using the TruSeq® Stranded Total RNA LT - (with Ribo-Zero TM Gold) - Set A (Illumina) according to the manufacturer’s instructions. Transcriptomic RNA-Seq was performed on the Illumina 2000 HiSeq platform using the standard paired-end protocol. In total, 60-160 million 76-bp reads were generated per sample. An initial sequence-level quality assessment was performed using FastQC (version 0.10.1, Simon Andrews). The RNA-Seq reads were then mapped to the reference human genome (GRCh37) using Tophat2, allowing a maximum of two mismatches per 76-bp sequencing end. Differential splicing was assessed by multivariate analysis of transcript splicing (MATS) using an FDR < 0.05. Pathway enrichment analysis was performed with Pathway Studio.
+

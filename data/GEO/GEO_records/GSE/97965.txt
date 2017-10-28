@@ -1,0 +1,12 @@
+TITLE
+High-resolution TADs reveal DNA sequences underlying genome organization in flies
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Eukaryotic chromatin is partitioned into domains called TADs that are broadly conserved between species and virtually identical among cell types within the same species. Previous studies in mammals have shown that the DNA binding protein CTCF and cohesin contribute to a fraction of TAD boundaries. However, the relative importance of the role of epigenetic activity (like histone marks and transcription) over the genetic information (DNA sequence) in TAD formation is still not understood. Using our new software, HiCExplorer,  we annotated high-resolution (570 bp) TAD boundaries in flies and identified eight DNA motifs enriched at boundaries. Known insulator proteins bind five of these motifs while the remaining three motifs are novel. We find that boundaries are either at core promoters of active genes or at non-promoter regions of inactive chromatin and that these two groups are characterized by different sets of DNA motifs. In contrast to mammals, the CTCF motif is not a major boundary motif in flies, while the motifs identified by M1BP and Beaf32 are highly enriched on boundaries. Using refined in-situ Hi-C experiments and analysis in cells depleted of M1BP, we show that M1BP is a new boundary protein that is important for fly genome organisation. We demonstrate that boundaries can be accurately predicted using only the motif sequences at open chromatin sites. We propose that DNA sequence itself encodes chromosome folding by allocation of boundary proteins in the genome.  Finally, we present an interactive online database to access and explore the spatial organization of fly, mouse and human genomes, available at
+
+DESIGN
+Hi-C on wild type S2 cells, knockdown of  GST (control), Beaf-32,  M1BP and a double knockdown of Beaf-32 and M1BP on Drosophila melanogaster S2 cell line.
+

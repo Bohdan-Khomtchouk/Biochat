@@ -1,0 +1,12 @@
+TITLE
+Do natural trypanosome infections induce transcriptomic perturbations in field tsetse flies as do experimental infections in insectary-raised flies?
+
+ORGANISM
+Glossina palpalis
+
+SUMMARY
+Purpose: The aim was, in the frame of an anti-vector strategy, to use such genes to control Human and/or animal trypanosomiasis. The present objective was to verify whether field tsetse fly gene expression was modified in response to natural infection with trypanosomes as it was when insectary-raised flies were experimentally infected. Method: mRNA from 10 samples of Glossina palpalis (5 non-infected and 5 infected by Trypanosoma congolense s.l.) were sequenced on a high-output flow cell (400M clusters) using the NextSeq® 500/550 High Output v2 150 cycles kit (Illumina), in paired-end 75/75nt mode. The sequenced reads that passed quality filter were mapped onto the genome with the local alignment algorithm subread-align (Liao et al., 2013). Differential analysis was done with the SARTools R package (Varet et al., 2016), which runs separately DESeq2 (Love et al., 2014) and egdeR (Robinson et al., 2010). We identified orthologs between Glossina and Drosophila based on the identification of bidirectional best hits (BBH) using blastp (Altschul et al., 1997), and then made functional enrichment and pathway mapping of these DEGs. Results: Using the RNA-seq approach, differentially expressed genes (DEGs) have been identified in infected versus non-infected tsetse flies, including down-regulated genes and up-regulated genes. Some of the genes, whether down- or up-regulated, were very highly differentially expressed. Down-regulated genes were mainly involved in transcription/translation processes, while up-regulated encoded genes governing amino acid and nucleotide biosynthesis pathways. The data on the molecular cross-talk between the host and the parasite (and the fly microbiome that is always present) recorded when using an experimental biological model have its counterpart in field flies which in turn validates the use of experimental host/parasite couples. Conclusion: This study is the first evaluation of transcriptomic mechanisms related to infection in field tsetse flies. This opens up prospects for vector-based control strategies, and more precisely the blocking of transmission.
+
+DESIGN
+mRNA from 10 samples of G. palpalis (5 non-infected and 5 infected by Trypanosoma congolense s.l.) were produced by the TruSeq mRNA-seq Stranded v2 Kit sample preparation (Illumina), according to manufacturer’s instructions.
+

@@ -1,0 +1,12 @@
+TITLE
+Defining a microRNA-mRNA targetome for calcineurin inhibitor induced nephrotoxicity
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs have been implicated in the molecular pathogenesis of calcineurin inhibitor nephrotoxicity. However, identification of bona fide physiologically relevent miRNA/mRNA targeting interactions remains a challenge. To define a comprehensive miRNA/mRNA targetome and determine the role of miRNAs in cyclsporine-induced nephrotoxicity, we performed PAR-CLIP (Photoactivatable-Ribonucleoside-Enhanced Crosslinking and Immunoprecipitation) against endogenous Argonaute 2 (AGO2) protein in human proximal tubule cells treated with cyclosporine A (CsA) or vehicle control. Statistically significant mRNA targets of miRNAs in the RNA Inducing Silencing Complex (RISC) complex were identified by PIPE-CLIP, a bioinformatic framework based on a zero-truncated negative binomial model. Further, we determined the total cellular differential expression of miRNAs and mRNAs by conventional deep sequencing methods. Our data indicate that CsA causes specific changes in miRNAs and mRNAs associated with the RISC complex.  A relatively small fraction of the miRNAs and mRNAs identified by total cell RNA-seq were also found in the RISC complex suggesting that changes in targeting by miRs are not necessarily reflected in changes observed in total cellular RNA. Pathway enrichment analysis after integrating miRNA-seq, mRNA-seq, and PAR-CLIP datasets identified canonical pathways specifically under regulation by miRNAs following CsA treatment. Our analysis indicates that miRNAs play an integral role in regulating widespread dysregulation of the proximal tubule cell gene program, contributing to alterations in cell-cell adhesion, integrin-cytoskeleton signaling, and calcium signaling. Analysis of high confidence 3'UTR targets revealed a specific role for miR-101-3p in regulating MAPK signaling which may contribute to the pathogenesis of cyclosporine-induced nephrotoxicity in a calcineurin-independent manner.
+
+DESIGN
+AGO2-PAR-CLIP, mRNA-seq, and miRNA-seq of a human kidney proximal tubule cell line (HK-2) treated with cyclosporine A or vehicle control was performed and sequenced by Illumina HiSeq 2500. Two replicate AGO2-PAR-CLIP samples in each condition and four replicates in each condition for mRNA-seq and miRNA-seq were obtained.
+

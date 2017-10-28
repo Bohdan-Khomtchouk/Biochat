@@ -1,0 +1,12 @@
+TITLE
+Comparison of gene expression by RNA-seq in canine gonads from embryos at risk of XX Disorder of Sex Development (XX), male (XY) littermate controls, and age-matched female (XX) and male (XY) controls.
+
+ORGANISM
+Canis lupus familiaris
+
+SUMMARY
+In a rare subtype of XX Disorder of Sex Development (DSD), individuals are negative for SRY, the testis determining factor on the Y chromosome, yet develop testes or ovotestes, and both of these phenotypes occur in the same family. This is a naturally occurring disorder in humans (Homo sapiens) and dogs (C. familiaris), and phenotypes in the canine XX DSD model are strikingly similar to those in this type of human XX DSD. The purposes of this study were to identify 1) a variant associated with XX DSD in the canine model and 2) gene expression alterations in canine embryonic gonads that could be informative to causation. Using a genome wide association study (GWAS) and whole genome sequencing (WGS), we identified a variant on C. familiaris autosome 9 (CFA9) that is significantly associated with XX DSD in the canine model and in affected purebred dogs. This is the first marker and candidate causative variant identified for inherited canine XX DSD. It lies within the canine ortholog for the human disorder (OMIM 278850), which resides on 17q24, upstream of SOX9. Gene expression studies (RNA-seq and PRO-seq) in embryonic gonads at risk of XX DSD from the canine model identified significant RSPO1 downregulation in comparison to XX controls, without significant upregulation of SOX9 or other known testis pathway genes. A novel mechanism is proposed in which the canine XX DSD variant acts upstream of RSPO1 to induce epigenomic gonadal mosaicism.
+
+DESIGN
+Total of 55 samples analyzed from several gestational ages: 1) One sample (XX d34 control female) was total RNA from pooled gonad pairs of 6 female canine embryos (breed: Beagle/Labrador retriever mix, A1056, A1057, A1060, A1063, A1067, A1068). 2) One sample (XY d34 control male) was total RNA from pooled gonad pairs of 7 male canine embryos (breed: Beagle/Labrador retriever mix, A1055, A1058, A1059, A1061, A1064, A1065, A1066). 3) For the remaining 53 samples (d35-44), a barcoded cDNA library was prepared from total RNA of a gonad pair from one embryo. Barcoded libraries were pooled for sequencing according to group [XX DSD at risk (C# XX DSD), XY littermate control (C# XY), XX age-matched control (XX A#), XY age-matched control (XY A#)]. Sequence output was sorted by barcode to generate one transcriptome per gonad pair.
+

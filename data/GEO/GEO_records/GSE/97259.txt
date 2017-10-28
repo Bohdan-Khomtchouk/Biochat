@@ -1,0 +1,12 @@
+TITLE
+Determination of tRNA aminoacylation levels by high throughput sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Here we develop a high throughput sequencing method that enables accurate determination of charged tRNA fractions at single base resolution (Charged tRNA-seq). Our method takes advantage of the recently developed DM-tRNA-seq method, but includes additional chemical steps that specifically remove the 3'A residue in the uncharged tRNA. Charging fraction is obtained by counting the fraction of A-ending reads versus A+C-ending reads for each tRNA species. In HEK293T cells, most cytosolic tRNAs are charged at > 90% levels, whereas tRNASer and tRNAThr are generally charged at lower levels. These low charging levels were validated using acid denaturing gels. Our method should be widely applicable for investigations of tRNA charging as a parameter for biological regulation.
+
+DESIGN
+3 biological replicates of tRNA from HEK293T cells are analyzed; each biological replicate is also demethylase treated/untreated
+

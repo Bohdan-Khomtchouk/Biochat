@@ -1,0 +1,12 @@
+TITLE
+Universal correction of enzymatic sequence bias
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Coupling molecular biology to high throughput sequencing has revolutionized the study of biology. Molecular genomics techniques are continually refined to provide higher resolution mapping of nucleic acid interactions and nucleic acid structure. These assays are converging on single-nucleotide resolution measurements, but the sequence preferences of molecular biology enzymes can interfere with the accurate interpretation of the data. Enzymatic sequence preferences manifest more prominently as the resolution of these assays increase. We developed seqOutBias to seek out enzymatic sequence bias from experimental data and scale individual sequence reads to correct the bias. We show that this software efficiently and successfully corrects the sequence bias resulting from DNase-seq, TACh-seq, ATAC-seq, MNase-seq, and PRO-seq data.
+
+DESIGN
+Evaluate the sequence bias inherent to ATAC-seq. Genomic DNA is isolated from T lymphoblast cell line. Two biological replicate libraries were prepared and sequenced paired end (2x75).
+

@@ -1,0 +1,12 @@
+TITLE
+Comprehensive evaluation of genome-wide 5-hydroxymethylcytosine profiling approaches in human DNA [HumanMethylation450]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The gold standard bisulphite conversion technologies to study DNA methylation do not distinguish between 5mC and 5hmC, however new approaches to map 5hmC genome-wide have advanced rapidly, although it is unclear how the different methods compare in accurately calling 5hmC. In this study, we provide a comparative analysis on brain DNA using three 5hmC genome-wide approaches; namely whole-genome bisulphite/oxidative-bisulphite sequencing (WG Bis/OxBis-seq), Infinium HumanMethylation450 BeadChip arrays coupled with oxidative bisulphite (HM450K Bis/OxBis) and antibody-based immunoprecipitation and sequencing of hydroxymethylated DNA (hMeDIP-seq). We also compare the performance of these approaches in adult brain DNA, with a known high abundance of 5hmC, and cancer cell line LNCaP DNA, with cell lines known to have low levels of 5hmC.
+
+DESIGN
+For WG Bis/OxBis-seq, 200ng of DNA was treated in separate aliquots with CEGX bisulphite (Bis) and oxidative bisulphite (OxBis) reagents followed by library preparation and paired-end 150bp sequencing on Illumina HiSeqX platform using the HiSeq X™ Ten Reagent Kit v2. For HM450K Bis/OxBis, DNA was treated in separate aliqots with CEGX bisulphite (Bis) and oxidative bisulphite (OxBis) reagents with two replicas being performed for each Bis and OxBis workflow. For hMeDIP-seq, DNA was sonicated to the size range of 300-500bp. Prior to hMeDIP procedure, Illumina adaptors were ligated (5x 1ug) of fragmented DNA according to TruSeq LT DNA sample preparation kit (Illumina) followed by DNA denaturation and immunoprecipitation overnight with 5hmC polyclonal antibody (Active Motif cat no 55010).
+

@@ -1,0 +1,12 @@
+TITLE
+The Legionella pneumophila genome evolved to accommodate multiple regulatory mechanisms controlled by the CsrA-system
+
+ORGANISM
+Legionella pneumophila str. Paris
+
+SUMMARY
+The RNA binding protein CsrA is the master regulator of the bi-phasic life cycle of Legionella pneumophila governing virulence expression in this intracellular pathogen. The goal of the study was to use deep sequencing of RNA enriched by co-immunoprecipitation with epitope tagged CsrA to identify CsrA-associated transcripts at the genome level. We found 478 mRNAs or non-coding RNAs to be targets of CsrA. Among those major regulators including FleQ, the regulator of flagella expression, LqsR, the regulator of quorum sensing and RpoS implicated in stress response were identified. The expression of over 40 type IV secreted effector proteins important for intracellular survival and virulence are under the control of CsrA. Combined with transcriptomics, whole shotgun proteomics of a wild type and a CsrA mutant strain and functional analyses of several CsrA-targeted RNAs we identified the first riboswitch in L. pneumophila, a thiamine pyrophosphate riboswitch, and discovered a new mode of regulation by CsrA that allows L. pneumophila to regulate the pentose phosphate pathway and the glycolysis combined or individually although they share genes in a single operon. Our results further underline the indispensable role of CsrA in the life cycle of L. pneumophila and provide new insights into its regulatory roles and mechanisms.
+
+DESIGN
+For each RIP-seq experiment, epitope-tagged CsrA protein and CsrA without Flag-Tag as negative control was used in parallel to perform the library construction. In total, 5 independent libraries (biological replicates) were executed for both, called IP1, IP2, IP7, IP8 and IP9.
+

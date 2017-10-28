@@ -1,0 +1,12 @@
+TITLE
+FOXF1 transcription factor promotes lung regeneration after partial pneumonectomy
+
+ORGANISM
+Mus
+
+SUMMARY
+FOXF1, a member of the forkhead box family of transcription factors, has been previously shown to be critical for lung development, homeostasis, and injury responses. However, the role of FOXF1 in lung regeneration is unknown. Herein, we performed partial pneumonectomy, a model of lung regeneration, in mice lacking one Foxf1 allele in endothelial cells (PDGFb-iCre/Foxf1fl/+ mice). Endothelial cell proliferation was significantly reduced in regenerating lungs from mice deficient for endothelial Foxf1. Decreased endothelial proliferation was associated with delayed lung regeneration as shown by reduced respiratory volume in Foxf1-deficient lungs. FACS-sorted endothelial cells isolated from regenerating PDGFb-iCre/Foxf1fl/+ and control lungs were used for RNAseq analysis to identify FOXF1 target genes. Foxf1 deficiency altered expression of numerous genes including those regulating extracellular matrix remodeling (Timp3, Adamts9) and cell cycle progression (Cdkn1a, Cdkn2b, Cenpj, Tubb4a), which are critical for lung regeneration. Deletion of Foxf1 increased Timp3 mRNA and protein, decreasing MMP14 activity in regenerating lungs. ChIPseq analysis for FOXF1 and histone methylation marks identified DNA regulatory regions with the Cd44, Cdkn1a, and Cdkn2b genes, indicating they are direct FOXF1 targets. Thus FOXF1 stimulates lung regeneration following partial pneumonectomy via direct transcriptional regulation of genes critical for extracellular matrix remodeling and cell cycle progression.
+
+DESIGN
+ChIPseq on quiescent MFLM-91U cells;  RNAseq on FACS-sorted endothelial cells (CD45-CD31+CD326-) from Foxf1fl/+ and PDGFb-iCre Foxf1fl/+ lungs 4 days after partial pneumonectomy surgery.
+

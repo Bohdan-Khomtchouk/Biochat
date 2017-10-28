@@ -1,0 +1,12 @@
+TITLE
+Integration of kinase and calcium signaling at the level of chromatin underlines inducible gene activation in T cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Aim: to perform a genome-wide investigation of chromatin landscape and gene expression patterns downstream of calcium and kinase signaling in Jurkat T cells. Methods: PMA and ionomycin were used to activate the calcium and kinase signalling networks involved in T cell activation. Global gene expression was measured using RNA-seq, whilst ATAC-seq was used to probe chromatin landscape following 3 hours of stimulation with PMA, ionomycin or both. All experiments were performed in triplicate. For RNA-seq all sequencing was performed using paired-end sequencing on an Illumina HiSeq2500 instrument. For ATAC-seq sequencing was performed using a HiSeq 1500. Results: we mapped approximately 60 million reads per sample for ATAC-seq, and 22 million reads per library for RNA-seq. Overall we identified 57,825 transcripts and 19,763 ATAC-seq peaks. We identifiead 1648 genes whose expression was increased by 2-fold or more by at least one treatment in comparison to untreated cells. Similarly, we identified 3972 ATAC peaks that were induced by at least 2-fold by treatment in comparison to untreated cells. Conclusions: we found that chromatin landscape was associated with gene expression downstream of calcium and kinase signaling in Jurkat cells. Further to this we found that activation of the full complement of TCR-responsive genes is dependent upon both PMA and ionomycin, and amounts to more than just the sum of both.
+
+DESIGN
+RNA-sequencing and ATAC-sequencing were performed after 3 hours of treatment with either PMA, ionomycin or co-treatment with PMA and ionomycin.
+

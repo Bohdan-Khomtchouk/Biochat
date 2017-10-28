@@ -1,0 +1,12 @@
+TITLE
+Blimp1 induces transient metastatic heterogeneity in pancreatic cancer [688M_RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Due to its high metastatic proclivity, pancreatic ductal adenocarcinoma (PDAC) is one of the most deadly types of cancer.  Therefore, it is imperative to better understand how the disease spreads as it progresses. Using a novel genetically engineered mouse model that allows us to isolate a subpopulation of cancer cells with superior metastatic capacity, we show that this aggressive phenotype correlates exclusively with a strong hypoxia signature. We subsequently identified the novel hypoxia-inducible gene Blimp1, which appears to play a critical role in regulating the hypoxic response upon its induction. Furthermore, genetic ablation of Blimp1 greatly reduces the level of metastasis in a PDAC mouse model. The nature of this Blimp1-regulated hypoxia signature is very unstable, since the seeded metastatic lesions mostly re-adopt similar transcriptomic profiles as the primary tumors. In conclusion, our results offer a potential mechanistic insight into how hypoxia drives metastasis in PDAC. Methods: The liver metastasis cell line 688M was subjected to control or knockdown of Blimp1 before assay. Cells ere validated for knockdown efficiency and then cultured under normoxia and hypoxia (0.5% O2) for 24 hours before preparation for RNA-Seq (total of 4 groups with duplicates, overall 8 samples). Results: For the control knockdown group, 0.5% O2 culture(hypoxia)  for 24 hours induced dramatic changes in global gene expression, and Blimp1 knockdown potently mitigated changes of significant amount of genes induced under hypoxia. In brief, cell cycle-related genes that are normally suppressed by hypoxia (which contributes to hypoxia-induced cell cycle arrest) are not suppressed under hypoxia in the Blimp1 knockdown cells. In contrast, ~35% of genes that are induced under hypoxia in the control knockdown cells are instead induced less than 50% (under hypoxia) upon Blimp1 knockdown. Conclusions: Blimp1 is a critical regulator of hypoxic response in pancreatic cancer.
+
+DESIGN
+Transcriptomes of derivatives of liver metastasis cell line 688M (control and Blimp1 knockdown) derived from the KPCT (Kras-LSL-G12D;p53-LSL-R172H;Pdx1-cre;R26-LSL-Tomato) mice were cultured under 0.5% or 20% O2 for 24 hours before RNA-Seq preparation (Illumina TruSeq).
+

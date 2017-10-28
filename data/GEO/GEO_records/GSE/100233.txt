@@ -1,0 +1,12 @@
+TITLE
+Permissive zones for the centromere-binding protein ParB on the Caulobacter crescentus chromosome
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Proper chromosome segregation is essential in all living organisms if daughter cells are each to inherit a full copy of genetic information. In Caulobacter crescentus, the ParA-ParB-parS system is required for proper chromosome segregation and cell viability. The bacterial centromere-like parS DNA locus is the first to be segregated following chromosome replication. parS is recognized and bound by ParB protein, which in turn interacts with ParA to partition the ParB-parS nucleoprotein complex to each daughter cell. In this study, we investigated the genome-wide distribution of ParB on the Caulobacter chromosome using a combination of in vivo chromatin immunoprecipitation (ChIP-seq) and in vitro DNA affinity purification with deep sequencing (IDAP-seq). We confirmed two previously identified parS sites and discovered at least three more sites that cluster ~8 kb from the origin of replication. We showed that Caulobacter ParB nucleates at parS sites, then associates non-specifically with flanking DNA to form a high-order nucleoprotein complex that occupies an extensive ~10 kb DNA segment on the left chromosomal arm. Lastly, using transposon mutagenesis coupled with deep sequencing (Tn-seq), we identified a ~500 kb region surrounding the origin of replication and a ~100 kb region surrounding the terminus of the Caulobacter chromosome that are tolerable to the insertion of a second parS cluster without severely affecting cell viability. Our results demonstrate that the genomic distribution of the bacterial centromere-like parS is highly restricted and is crucial for chromosome segregation in Caulobacter.
+
+DESIGN
+Chromatin-immunoprecipitation with deep sequencing experiments (ChIP-seq) were performed on exponential-growing Caulobacter crescentus and Escherichia coli (see the supplementary Materials and Methods for the exact treatment that were applied to each strain). In vitro affinity purification with deep sequencing (IDAP-seq) were performed using sonication-fragmented genomic DNA from Caulobacter crescentus and purified ParB-His6 (or no protein in the case of a negative control). Random transposon mutagensis with deep sequencing (Tn5-seq) were performed for wild-type (WT) and Δsmc Caulobacter crescentus. Half a million to a million of single colonies of WT and Δsmc Caulobacter crescentus were collected from PYE plates, pooled together and their genomic DNA were extracted for Tn5-seq.
+

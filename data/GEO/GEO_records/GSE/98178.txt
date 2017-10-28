@@ -1,0 +1,12 @@
+TITLE
+Discovery of IL2RA and CD69 enhancers using CRISPRa
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We performed tiling CRISPR activation (CRISPRa) screens in Jurkat T cells to discover enhancers controlling IL2RA and CD69 expression.  For each target gene, we constructed a pooled lentiviral library of sgRNAs that targeted sites at all Cas9 PAMs throughout the window starting 100 kb upstream of the transcription start site, extending through the gene body, and 25 kb downstream. A separate library was constructed for each gene, and a separate screen was performed for each gene. For each gene, Jurkat cells stably expressing the dCas9-VP64 transcriptional activator were transduced with the lentiviral sgRNA library. Cells were stained for the protein of interested and sorted by flow cytometry into four bins of expression. Distribution of sgRNAs in each of the sorted populations was compared to the unsorted population. Regions where dCas9-VP64 recruitment was sufficient to drive target gene expression were identified as putative enhancers. The hg19 coordinates of the CD69 library window were chr12:9,880,082-10,013,497. The library contained 2,244 negative control sgRNAs taken from the CRISPRi/a libraries described in Gilbert et al., Cell 150, 647-661 (2014). The hg19 coordinates of the IL2RA library window were chr10:6,027,657- 6,204,333. The library contained 2,244 negative control sgRNAs taken from the CRISPRi/a libraries described in Gilbert et al., Cell 150, 647-661 (2014).
+
+DESIGN
+Targeted examination of the IL2RA and CD69 loci where recruitment of dCas9-VP64 was sufficient to drive transcription of the target gene.
+

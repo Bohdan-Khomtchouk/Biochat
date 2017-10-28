@@ -1,0 +1,12 @@
+TITLE
+Transcriptome Comparison of phoU Homologies: Genes Deletion strain and the Parent Strain in stationary phase (10 h)
+
+ORGANISM
+Staphylococcus epidermidis
+
+SUMMARY
+Purpose: To compare the transcriptome changes in phoU1(serp0956) or phoU2(serp0316)deletion strain with the parent strain SE1457 in stationary phase (10 h). Methods: Total RNA was isolated and sequenced from the phoU1 deletion strain, phoU2 deletion strain and the parent strain SE1457 in stationary phase (10 h) in triplicate using an illumina high-seq 2500. Raw data was analyzed using TopHat. Genes were considered changed  which performed fold-change > =1.5 and FDR < =0.05. Changed genes were then filtered to reveal the downstream targets of phoU1 or phoU2. Results: The expression of 2 genes were significantly decreased and no genes was significantly increased in expression level due to the loss of phoU1 expression.The expression of 279 genes were significantly decreased and 716 genes were significantly increased in expression level due to the loss of phoU2 expression.
+
+DESIGN
+Total three biological samples are analyzied, each of them had triplication.The three samples are parent strain SE1457,the phoU1 deletion strain and phoU2 deletion strain.
+

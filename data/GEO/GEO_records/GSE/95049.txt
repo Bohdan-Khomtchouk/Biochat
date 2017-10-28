@@ -1,0 +1,12 @@
+TITLE
+BECon: A tool for interpreting DNA methylation findings from blood in the context of brain
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Tissue differences are one of the largest contributors to variability in the human DNA methylome. Despite the tissue specific nature of DNA methylation, the inaccessibility of human brain samples necessitates the frequent use of surrogate tissues such as blood, in studies of associations between DNA methylation and brain function and health. Results from studies of surrogate tissues in humans are difficult to interpret in this context, as the connection between blood-brain DNA methylation is tenuous and not well documented. Here we aimed to provide a resource to the community to aid interpretation of blood based DNA methylation results in the context of brain tissue. We used paired samples from 16 individuals from three brain regions and whole blood, run on the Illumina 450K Human Methylation Array to quantify the concordance of DNA methylation between tissues. From these data we have made available metrics on: the variability of CpGs in our blood and brain samples, the concordance of CpGs between blood and brain, and estimations of how strongly a CpG is affected by cell composition in both blood and brain through the web application BECon (Blood-Brain Epigenetic Concordance; ). We anticipate that BECon will enable biological interpretation of blood based human DNA methylation results, in the context of brain.
+
+DESIGN
+This cohort consist of genomic DNA extracted from 18 whole blood, 18 Broadman Brain Area 7, 18 Broadman Brain Area 10 and 16 Broadman Brain Area 20 samples, bisulphite converted and hybridized to the Illumina Infinium HumanMethylation450 Beadchip for genome wide DNA methylation profiling.
+

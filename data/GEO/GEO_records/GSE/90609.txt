@@ -1,0 +1,12 @@
+TITLE
+The biosynthesis of nitrous oxide in the green algae Chlamydomonas reinhardtii
+
+ORGANISM
+Chlamydomonas reinhardtii
+
+SUMMARY
+This data was generated to identify the molecular pathways responsible for nitrous oxide synthesis by the green algae Chlamydomonas reinhardtii, when supplied with nitrite under aerobic conditions (oxia). RNA samples were collected at three time points, 15 min, 3 hours, and 24 hours after the start of the experiment. The control and treatment groups were grown under the same conditions, except treatment group was supplied with 10mM nitrite at time 0. Illumina TruSeq stranded RNA libraries were synthesised from the resulting RNA before sequencing on a HiSeq2500 (125bp). The resulting sequence run generated 241,151,809 paired-end 125bp reads, of which 200,946,839 remained following quality filtering. The short data was mapped to the published genome and read counts were generated with HT-Seq count with the default settings. The raw read count data was analysed by DESeq2 in order to identify genes differentially expressed during nitrous oxide production.
+
+DESIGN
+Stranded RNA-seq libaries were synthesised from RNA collect at 15 minutes, 3 hours, and 24 hours after addition of 10 mM nitrite to the treatment group of Chlamydomonas reinhardtii. Controls were grown under identical conditions but not supplied with nitrite. Three growth flask were used for the control and treatment group to provide triplicates.
+

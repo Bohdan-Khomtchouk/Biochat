@@ -1,0 +1,12 @@
+TITLE
+Plexin B2 and Semaphorin 4C guide T-cell recruitment and function in the germinal center
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Follicular T-helper (TFH) cells are essential for germinal center (GC) responses. TFH localization in GCs is controlled by chemo-guidance cues and antigen-specific adhesion. Here we define an antigen-independent, contact-dependent, adhesive guidance system for TFH cells. Unusual for amoeboid cell migration, the system is composed of transmembrane plexin B2 (PlxnB2) molecule that is highly expressed by GC B cells and its transmembrane binding partner semaphorin 4C (Sema4C) that is upregulated on TFH cells. Instead of effectuating repulsion as a ligand, Sema4C serves as the receptor to sense PlxnB2 and bias TFH migration inward at the GC edge to penetrate the GC territory. The absence of PlxnB2 from the GC or Sema4C from TFH cells causes TFH accumulation along the GC border, impairs TFH -B cell interactions and is associated with defective plasma cell production and affinity maturation. Therefore, Sema4C and PlxnB2 regulate GC TFH recruitment and function and optimal antibody responses.
+
+DESIGN
+Plxnb2+/+ or Plxnb2-/- CFP-expressing MD4 B cells were co-transferred together with OT-II T cells into B6 recipients that were subsequently immunized with HEL-OVA subcutaneously. MD4 cells of the 7-AAD-CD19+IgD-GL7hiFashi GC phenotype were FACS-sorted from pooled draining lymph nodes on day 5. To conduct transcriptomic RNA-seq analyses on these cells, a protocol initially developed for single-cell RNA-seq (Tang et al., 2011) was modified to accommodate 400 sorted cells by doubling reaction volumes with extra buffers until the step for second strand DNA synthesis. Cells were directly sorted into the lysis buffer, and reverse transcription was carried out for individual sorts within 20 minutes after isolation to preserve sample integrity. SE-100 sequencing was conducted for all samples on a HiSeq 2500 sequencer (Illumina) at the Tsinghua. Sequence reads were aligned to the Mus musculus reference genome using TopHat2 and assembled by Cufflinks to calculate the FPKM for each transcript. Genes with an average read number of at least 1 were subjected to differential expression analysis by the DESeq2 software (Bioconductor) with a call threshold set at padj < 0.1.
+

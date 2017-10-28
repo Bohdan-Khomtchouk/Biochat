@@ -1,0 +1,12 @@
+TITLE
+RNA-biotin based pull down assay with Hela Nuclear Extract followed by RNA-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We aimed to discover trans-acting RNA molecules involved in mRNA 3’ processing. We reasoned that, if there exist such functional RNAs, they must directly associate with the key machinery responsible for mRNA 3’ processing. Therefore, it would be of great value to comprehensively identify RNAs interacting with pre-mRNA 3’ processing complex. To this goal, we took advantage of previously well-characterized system combined with high-throughput sequencing to investigate the target RNAs at the transcriptomic level.  Briefly, we used polyA site (PAS) RNA substrates, SV40 late (SVL), and corresponding control RNAs with point mutation (U to C) at the highly conserved cis-element AAUAAA. RNA substrates were first biotinylated at the 3’ end, and then bound to the streptavidin magnetic beads. After incubation with Hela Nuclear Extract (NE) under polyadenylation condition, the two wild type RNA substrates could specifically recruit mRNA 3’ processing factors in NE for complex assembly. The purification of the protein complex and its interacting RNAs were performed using biotin-streptavidin pull-down. We extracted RNAs from the pull-down sample, prepared the strand-specific RNA-Seq libraries and submitted them for deep-sequencing.
+
+DESIGN
+SVL PAS and the point mutant RNA substrates RIP-seq were performed. Trimmed reads were mapped to human genome, fold enrichment were calculated based on the reads counts.
+
