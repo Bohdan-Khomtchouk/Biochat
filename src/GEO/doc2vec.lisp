@@ -30,9 +30,14 @@
     (reduce 'mat:m+ (list (mat:scal! (? w :title) (text-vec @geo.title))
                           (mat:scal! (? w :summary) (text-vec @geo.summary))
                           (mat:scal! (? w :organism) (text-vec @geo.organism)))))
-  
+
+  (format *debug-io* "Starting vecs calculation for GDS: ")
   (defvar *gds-vecs* (map* 'geo-vec *gds*))
+  (format *debug-io* "done.~%")
+
+  (format *debug-io* "Starting vecs calculation for GSE: ")
   (defvar *gse-vecs* (map* 'geo-vec *gse*))
+  (format *debug-io* "done.~%")
   (defvar *geo-vecs* *gds-vecs*)
 )
 

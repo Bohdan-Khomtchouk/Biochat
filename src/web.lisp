@@ -6,31 +6,7 @@
 
 
 (defvar *hunch* (hunch:start-web 3344))
-
-(defvar *gds-by-histone* (geo-group :histones *gds*))
-
-(defvar *gds-same-histones*
-  (pairs->ht
-   (remove nil
-           (map 'list (lambda (rec)
-                        (let ((similar-recs
-                                (remove rec
-                                        (reduce 'append
-                                                (mapcar ^(? *gds-by-histone*
-                                                            (when (search-rec % rec)
-                                                              %))
-                                                        *histones*)))))
-                          (when (rest similar-recs)
-                            (pair rec (coerce similar-recs 'vector)))))
-                                
-                *gds*))))
-
-;; (defvar *gds-geo-groups* (merge-hts (geo-group :histones *gds*)
-;;                                     (geo-group :organisms *gds*)))
-
-;; (defvar *gse-geo-groups* (merge-hts (geo-group :histones *gse*)
-;;                                     (geo-group :organisms *gse*)))
-
+ 
 (defparameter *geo-sim-methods*
   '((cos-sim "Cosine similarity of document vectors")
     (euc-sim "Euclidian distance-based similarity of document vectors")
@@ -43,15 +19,6 @@
 (defparameter *geo-sim-filters*
   '((:histone "Histone")
     (:organism "Same organism")))
-
-(defparameter *geo-organisms*
-  (mapcar 'lt
-          (sort (ht->pairs (nlp:uniq (map* 'gr-organism *geo-db*) :raw t))
-                '> :key 'rt)))
-
-;; (defvar *pubdata-geo-groups* #h())
-;; (bt:make-thread ^(:= *pubdata-geo-groups* (geo-group :pubdata-wordnet))
-;;                 :name "Pubdata geo groups builder")
 
 
 ;;; urls
@@ -166,7 +133,7 @@
                                   (when (some (lambda (filter)
                                                 (case filter
                                                   (:histone
-                                                   (if-it (? *gds-same-histones*
+                                                   (if-it (? *geo-same-histones*
                                                              it)
                                                           (member rec it)
                                                           t))
