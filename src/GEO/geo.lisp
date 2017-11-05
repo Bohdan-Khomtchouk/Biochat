@@ -156,7 +156,7 @@
     (coerce (reverse rez) 'vector)))
 
 (defvar *gds* (load-geo (local-file "data/GEO/GEO_records/GDS/")))
-(defvar *gse* (load-geo (local-file "data/GEO/GEO_records/GSE/")))
+(defvar *gse* (load-geo (local-file "data/GEO/GEO_records/GSE/*/")))
 (defvar *geo-db* *gds*)
 
 

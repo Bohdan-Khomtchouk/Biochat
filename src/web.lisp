@@ -30,7 +30,7 @@
   (who:with-html-output-to-string (out)
     (:html
      (:head
-      (:title "GEObrain")
+      (:title "Biochats")
       (:link :href "/static/style.css" :rel "stylesheet" :type "text/css")
       (:script :type "text/javascript" :src "/static/jquery-1.11.3.js" "")
       (:script :type "text/javascript" :src "/static/main.js" "")
@@ -40,7 +40,7 @@
                 });"))
      (:body
       (:div :class "page"
-            (:h1 "GEObrain demo")
+            (:h1 "Biochats")
             (:div :style "font-size: smaller; color: gray;"
                   "Here, you can find the most similar records from the "
                   (:a :href "https://www.ncbi.nlm.nih.gov/geo/" "GEO DB")
@@ -84,7 +84,8 @@
                              "▼")
                          (:br)
                          (:div :id "simorganisms"
-                          (loop :for organism :in *geo-organisms* :do
+                          ;; TODO: also try to use somehow the hordes of GSE organisms
+                          (loop :for organism :in (? *geo-organisms* :gds) :do
                             (who:htm
                              (:div :class "organisms-box"
                               (:input :type :checkbox
@@ -105,12 +106,10 @@
         (not-found)
         (with ((type (mkeyw (slice gid 0 3)))
                (id (parse-integer (slice gid 3) :junk-allowed t))
-               (db *gds*
-                   #+nil (case type
+               (db (case type
                      (:gds *gds*)
                      (:gse *gse*)))
-               (vecs *gds-vecs*
-                     #+nil (case type
+               (vecs (case type
                        (:gds *gds-vecs*)
                        (:gse *gse-vecs*)))
                (methods (mapcar ^(mksym % :package :b42)
@@ -158,10 +157,14 @@
 (defun format-geo-rec (type rec &optional method score)
   (who:with-html-output-to-string (out)
     (:div :class "geo-rec"
-          (:div (who:fmt "GEO # ~A~A - ~A (~A)~@[ / ~(~A~)~]~@[: ~A~]"
+          (:div (who:fmt "GEO # ~A~A - ~A (~A)~@[ / ~A~]~@[: ~A~]"
                          type @rec.id @rec.title @rec.organism
                          (when-it (car (assoc1 method *geo-sim-methods*))
-                           (strjoin #\Space (take 3 (re:split "\\b" it))))
+                           (let ((method (strjoin #\Space (take 3 (re:split
+                                                                   "\\b" it)))))
+                             (switch (method :test 'string=)
+                               ("TFIDF" "TF-IDF")
+                               (otehrwise (string-downcase method)))))
                          score))
           (:blockquote (who:str @rec.summary)))))
 
