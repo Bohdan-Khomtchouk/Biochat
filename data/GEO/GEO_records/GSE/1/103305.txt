@@ -1,0 +1,12 @@
+TITLE
+Thyroid State Regulates Gene Expression in Human Whole Blood Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Context: Despite the well-recognized clinical features due to insufficient or excessive thyroid hormone (TH) levels in humans, it is largely unknown which genes are regulated by TH in human tissues. objective: To study the effect of TH on human gene expression profiles in whole blood, mainly consisting of TRα-expressing cells. Methods: We performed next-generation RNA sequencing on whole blood samples from 8 athyroid patients (4 females) on and after 4 weeks off levothyroxine replacement. Gene expression changes were analyzed through paired differential expression analysis and confirmed in a validation cohort. Weighted gene co-expression network analysis (WGCNA) was applied to identify thyroid state-related networks. Results: We detected 486 differentially expressed (DE) genes (fold-change above 1.5; multiple testing corrected P-value < 0.05), of which 76 % were positively and 24 % were negatively regulated. Gene ontology (GO) enrichment analysis revealed that 3 biological processes were significantly overrepresented of which the process translational elongation showed the highest fold enrichment (7.3 fold, P=1.8 x 10-6). Comparative transcriptome analysis revealed significant overlap with DE-genes in muscle samples upon different thyroid state (1.7-fold enrichment; P=0.02). WGCNA analysis independently identified various gene clusters that correlated with thyroid state. Further GO-analysis suggested that thyroid state regulates platelet function. Conclusions: Changes in thyroid state regulate numerous genes in human whole blood, predominantly TRα-expressing leukocytes. In addition, TH may regulate gene expression in platelets. Whole blood samples might potentially be used as a proxy for other TRα-expressing tissues in humans.
+
+DESIGN
+Transcriptome profiling (RNA-Seq) of 8 thyroidectomized human whole blood samples, sequenced first in hypothyroid state and after levothyroxine supplementation sequenced in a hypothyroid (mild thyreotoxic state) state on a Illumina HiSeq 2500 system.
+

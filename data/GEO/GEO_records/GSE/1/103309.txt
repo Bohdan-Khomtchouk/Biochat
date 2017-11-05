@@ -1,0 +1,12 @@
+TITLE
+UBE3A-mediated regulation of imprinted genes and epigenome-wide marks in human neurons
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The dysregulation of genes in neurodevelopmental disorders that lead to social and cognitive phenotypes is a complex, multilayered process involving both genetics and epigenetics. Parent-of-origin effects of deletion and duplication of the 15q11-q13 locus leading to Angelman, Prader-Willi, and Dup15q syndromes are due to imprinted genes, including UBE3A, which is maternally expressed exclusively in neurons. UBE3A encodes a ubiquitin E3 ligase protein with multiple downstream targets, including RING1B, which in turn monoubiquitinates histone variant H2A.Z. To understand the impact of neuronal UBE3A levels on epigenome-wide marks of DNA methylation, histone variant H2A.Z positioning, active H3K4me3 promoter marks, and gene expression, we took a multi-layered genomics approach. We performed an siRNA knockdown of UBE3A in two human neuroblastoma cell lines, including parental SH-SY5Y and the SH(15M) model of Dup15q. Genes differentially methylated across cells with differing UBE3A levels were enriched for functions in gene regulation, DNA binding, and brain morphology. Importantly, we found that altering UBE3A levels had a profound epigenetic effect on the methylation levels of up to half of known imprinted genes. Genes with differential H2A.Z peaks in SH(15M) compared to SH-SY5Y were enriched for ubiquitin and protease functions and associated with autism, hypoactivity, and energy expenditure. Together, these results support a genome-wide epigenetic consequence of altered UBE3A levels in neurons and suggest that UBE3A regulates an imprinted gene network involving DNA methylation patterning and H2A.Z deposition.
+
+DESIGN
+triplicate siRNA knockdowns of UBE3A (siUBE3A) or control (siCTL) in a human neuronal cell line (SH-SY5Y) and a chromosome duplication model of Dup15q syndrome (SH(15M)). From these cell cultures, we isolated DNA for WGBS, RNA for RNA-seq, and chromatin for ChIP-seq of one histone mark of active promoters (H3K4me3) and one histone variant (H2A.Z) of active promoters and poised genes.
+

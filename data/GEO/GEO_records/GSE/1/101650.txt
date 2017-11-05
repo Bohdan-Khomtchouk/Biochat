@@ -1,0 +1,12 @@
+TITLE
+Novel Interactions between Gut Microbiome and Host Drug-processing Genes Modify the Hepatic Metabolism of the Environmental Chemicals PBDEs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Next-generation sequencing (NGS) has been utilized for systems-based analysis of all liver samples. The goals of this study were to compare the hepatic transcriptome and PBDE metabolism between conventional (CV) and germ-free (GF) mice. Methods: Livers from vehicle (corn oil), BDE-47, or BDE-99 treated adult male CV and GF mice were used for RNA-Seq (biological replicates: n=3 for CV corn oil, n=4 for CV BDE-47, n=2 for CV BDE-99, n=3 for GF corn oil, n=3 for GF BDE-47, and n=3 for BDE-99) using a HiSeq 2000 sequencer. The sequence reads that passed quality filters were mapped to the mouse reference genome (mm10) using HISAT v 0.1.6 beta; transcript abundance and differential expression were determined using Cufflinks (CuffDiff) v 2.2.1. Results: Using an optimized data analysis workflow,RNA-Seq generated approximately 47 to 68 million reads per sample, among which approximately 40 to 60 million reads were uniquely mapped to the mouse reference genome (NCBI GRCm/38/mm10). And we identified 393 drug processing genes in the livers of WT and hCAR-TG with  with HISAT workflow. RNA-seq data confirmed that among all the 393 DPGs with known important functions in xenobiotic biotransformation, 90 DPGs were not expressed in livers of any groups (threshold: average FPKM < 1 in all treatment groups); whereas a total of 303 genes were expressed in livers of at least one groups, among which 258 DPGs were differentially regulated by mCAR or hCAR activation in either Day 5 or Day 60 (FDR-BH < 0.05), and 45 genes were stably expressed among all treatment groups. Conclusions: Our study has unveiled a novel interaction between gut microbiome and the hepatic biotransformation of PBDEs, demonstrating that germ-free conditions modified the hepatic oxidation of PBDEs as well as the expression of relevant drug-processing genes in liver.
+
+DESIGN
+CV and GF male mice at the age of 9-weeks were treated with corn oil, BDE-47 (100umol/kg), or BDE-99 (100umol/kg) once daily for 4 consecutive days,  and tissues were collected 24h after the final dose. Total RNAs were isolated from livesr using RNA zol bee reagent, and were subjected to RNA-Seq using a HiSeq 2000 sequencer.
+

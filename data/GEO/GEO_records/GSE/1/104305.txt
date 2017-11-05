@@ -1,0 +1,12 @@
+TITLE
+Differential gene expression induced by anti-cancer agent plumbagin is mediated by androgen receptor in prostate cancer cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Plumbagin treatment of mice harboring PTEN-P2 tumors in the prostate or on prostate tissue maintained in vivo results in tumor regression when coupled with androgen deprivation therapy. This suggested that dihydrotestosterone (DHT) production in the testes prevents tumor regression due to plumbagin treatment by an unknown mechanism. We performed RNA-seq analysis on cells treated with plumbagin, DHT, or both, and analyzed differential gene expression using RNA-seq. DHT and plumbagin synergize to differentially regulate many genes that are not differentially regulated by either agent alone. For many genes, increases in mRNAs caused by DHT are sharply down-regulated by plumbagin, and some transcripts increase or decrease in response to plumbagin in a DHT-dependent manner. We also observed that plumbagin causes extensive RNA damage independently of DHT. We also include data from a simple time course experiment in which gene expression in response to DHT was studied using RNA-seq.
+
+DESIGN
+PTEN-P2 (Pten-/+) cells grown in culture were treated for 1 hour with 0, 0.5, or 4mM plumbagin dissolved in DMSO, with or without overnight and continued treatment with 10-8M DHT in DMSO, or mock treatment with DMSO. In addition, a time course experiment tracking gene expression due to DHT treatment in PTEN-P2 cells was performed. The DMSO concentration was constant between treatment conditions. After treatment, cells were harvested and RNA was purified using RNeasy. NGS sequencing libraries were prepared from using NEBNext for Illumina® using index primers. These libraries were sequenced, 6 index primers per lane, using the Illumina HiSeq platform. Reads were from 252-269 reads per lane.
+

@@ -1,0 +1,12 @@
+TITLE
+Variation in single-nucleotide sensitivity of eCLIP derived from reverse transcription conditions
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Crosslinking and immunoprecipitation (CLIP) followed by high-throughput sequencing identifies the binding sites of RNA binding proteins on RNAs. The covalent RNA-amino acid adducts produced by UV irradiation can cause  premature reverse transcription termination, which may decrease overall cDNA yield but is exploited in state of the art CLIP methods to identify these crosslink sites at single-nucleotide resolution. Here, we show the ratio of read-through versus termination is highly dependent on the identity of the reverse transcriptase enzyme as well as on buffer conditions used. Commonly used enzymes, including Superscript III and AffinityScript, show high termination rates in standard magnesium buffer conditions, but show a single base difference in the position of termination for TARDBP motifs. In contrast, manganese-containing buffer promoted read-through at the adduct site. These results validate the use of standard enzymes and suggest that alternative enzyme and buffer choices for particularly challenging samples that contain extensive RNA adducts or other modifications that inhibit standard reverse transcription.
+
+DESIGN
+eCLIP-seq in HeK293T Cells
+

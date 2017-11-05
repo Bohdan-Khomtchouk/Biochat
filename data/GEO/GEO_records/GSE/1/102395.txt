@@ -1,0 +1,12 @@
+TITLE
+Lack of Repressive Capacity of Human Promoter DNA Methylation identified through Genome-Wide Epigenomic Manipulation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+It is widely assumed that the addition of DNA methylation at gene promoters silences gene transcription. However, this conclusion is largely drawn from the observation that promoter DNA methylation inversely correlates with gene expression. The effect of forced DNA methylation on endogenous promoters has yet to be comprehensively assessed. Here, we conducted artificial methylation of thousands of human promoters in human cells using an artificial zinc finger-DNMT3A fusion protein, enabling assessment of the effect of forced DNA methylation upon transcription and histone modifications, and the durability of DNA methylation after the removal of the fusion protein. We find that DNA methylation is insufficient to transcriptionally repress most promoters. Furthermore, DNA methylation deposited at promoter regions associated with H3K4me3 is rapidly erased after removal of the zinc finger-DNMT3A fusion protein. Finally, we demonstrate that induced DNA methylation can exist simultaneously on promoter nucleosomes that possess the active histone modification H3K4me3. These findings suggest that promoter DNA methylation is not generally sufficient for transcriptional inactivation suggesting important implications for the emerging field of epigenome engineering.
+
+DESIGN
+The response of MCF-7 cells to enforced DNA methylation by ZF-DNMT3A as measured by MethylC-seq, RNA-seq, ChIP-seq and ChIP-BS-seq. ZF-DNMT3A expression was induced the addition of doxycycline to the growth media for 3 days. Doxycycline was then withdrawn for 9 days. DNA, RNA and/or chrmatin was extracted from  the cells before and after doxycycline induction as well as after doxycycline withdrawl. WGBS, RNA-seq, ChIP-seq and ChIP-BS-seq libraries were constructed for sequencing on the Illumina HiSeq1500.
+

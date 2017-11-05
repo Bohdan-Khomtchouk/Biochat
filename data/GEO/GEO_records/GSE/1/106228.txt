@@ -1,0 +1,12 @@
+TITLE
+Small RNA sequencing of Pyrobaculum species in exponential and stationary phases
+
+ORGANISM
+Pyrobaculum islandicum
+
+SUMMARY
+A great diversity of small, non-coding RNA (ncRNA) molecules with roles in gene regulation and RNA processing have been intensely studied in eukaryotic and bacterial model organisms, yet our knowledge of possible parallel roles for small RNAs (sRNA) in archaea is limited. We employed RNA-seq to identify novel sRNA across multiple species of the hyperthermophilic genus Pyrobaculum, known for unusual RNA gene characteristics. By comparing transcriptional data collected in parallel among five species, we were able to identify conserved RNA genes fitting into known and novel families and found a large increase in the number of conserved C/D box sRNA genes over what had been previously recognized; many of these genes are encoded antisense to protein coding genes. We also used the genome of Pyrobaculum neutrophilum for comparative genomics. The conserved opposition to orthologous genes across the Pyrobaculum genus suggests similarities to other cis-antisense regulatory systems. We used the improved C/D box sRNA annotations to conduct a deep study of the evolution of archaeal C/D box sRNAs by organizing them into 110 families within the Pyrobaculum based on synteny and conservation of guide sequences. We examined gene duplications and rearrangements, including one family that has expanded in a pattern similar to retrotransposed repetitive elements in eukaryotes. New training data provided by this set of C/D box sRNAs enabled creation of an improved search model. Our analyses provide the most comprehensive, dynamic view of C/D box sRNA evolutionary history within a genus, in terms of modification function, feature plasticity, and gene mobility.
+
+DESIGN
+Cultures were harvested at either stationary or exponential phase.  Total RNA was size selected to everything between 16-70nt. Please note that the processed data files generated from both stationary and exponential culture samples together are linked to the correponding exponential sample records For example, the pyrAer1.454best3.stranded.coverage.*.bw files are for both Pae_Exp_smallRNA and Pae_Stat_smallRNA samples and are available from the Pae_Exp_smallRNA records.
+
