@@ -1,0 +1,18 @@
+TITLE
+Codon usage influences the local rate of translation elongation to regulate co-translational protein folding
+
+ORGANISM
+Neurospora crassa
+
+SUMMARY
+Codon usage bias is a universal feature of eukaryotic and prokaryotic genomes and has been proposed to regulate translation efficiency, accuracy and protein folding based on the assumption that codon usage affects translation dynamics.  The role of codon usage in regulating translation, however, is not clear and has been challenged by recent ribosome profiling studies. Here we used a Neurospora cell-free translation system to directly monitor the velocity of mRNA translation. We demonstrated that the use of preferred codons enhances the rate of translation elongation, whereas non-optimal codons slow translation. In addition, codon usage regulates ribosome traffic on the mRNA. These conclusions were supported by ribosome profiling results in vitro and in vivo with substrate mRNAs manipulated to increase signal over background noise.  We further show that codon usage plays an important role in regulating protein function by affecting co-translational protein folding. Together, these results resolve a long-standing fundamental question and demonstrate the importance of codon usage on protein folding.
+
+DESIGN
+For sample 1 and 2, ribosome-protected fragments (RPF) and mRNA sequencing from WT Neurospora transcriptome were extracted to examine the residence time of each codon to understand the decoding rate. For sample 3 and 4, RPFs of the fully optimized (OPT) Firefly luciferase as well as the chimera [(2-423)OPT-(424-550)WT] Firefly luciferase, both of which were individually targeted to the his3 locus, were extracted to monitor the codon-regulated translational kinetics in vivo. For sample 5-8, RPFs were extracted from in vitro translation reactions covering the OPT construct and three chimera construts: N-OP, (2-223)OPT-(224-550)WT; M-OP, (2-223)WT-(224-423)OPT-(424-550)WT; C-OP (2-423)WT-(424-550)OPT. The RPF reads were compared to each other to monitor the translational kinetics in vitro.
+
+PLATFORM
+GPL16164 Illumina HiSeq 2000 (Neurospora crassa)
+
+CITATIONS
+26321254
+

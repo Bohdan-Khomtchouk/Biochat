@@ -1,0 +1,18 @@
+TITLE
+Bisulfite Methylation Profiling (BiMP) analysis of met1-3 epigenetic Recombinant Inbred Lines (epiRILs)
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Epigenomic mapping of DNA methylation polymorphisms segregating within an epigenetic Recombinant Inbred Line population resultant from crossing the wild-type Col-0 and DNA maintenance methyltransferase mutant, met1-3, parental lines. Each line within the epiRIL population was self-fertilized for 7 generations, 10 individual F7 plants were then bulk harvested to create the F8 generation. Here, data files for three DNA methylation profiled epiRIL lines (epi01, epi12, epi28) are deposited. The DNA methylation polymorphisms were determined using the BiMP method with the Affymetrix Arabidopsis Tiling 1.0R array. The main objective for these samples was to create an epigenomic map to analyze the inheritance of DNA methylation polymorphisms within these three epiRIL entries. Keywords: Bisulfite Methylation Profiling (BiMP) by genome tiling array
+
+DESIGN
+Each epiRIL entry consists has three replicates hybridizations, using a single channel, creating 9 samples (9 CEL files) within this series. Per sample, DNA was extracted from a bulk of ten F8 individuals and used per hybridization. Each sample and the corresponding hybridization were independent biological replicates. The hybridizations were scanned and analyzed to detect significant differences betwen epiRILs and the parents. Fully informative comparisons that could clearly identify parental origin were used to create DNA methylation marker epigenomic maps.
+
+PLATFORM
+GPL10977 [At35b_MR] Affymetrix Arabidopsis Tiling 1.0R Array
+
+CITATIONS
+19390088
+

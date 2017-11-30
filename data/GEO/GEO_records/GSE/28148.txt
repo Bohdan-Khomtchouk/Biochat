@@ -1,0 +1,18 @@
+TITLE
+Unamplified Cap Analysis of Gene Expression on a single molecule sequencer (HeliScopeCAGE)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We report the development of a simplified Cap Analysis of Gene Expression (CAGE) protocol adapted for single molecule sequencers which avoids second strand synthesis, ligation, digestion and PCR. HeliScopeCAGE directly sequences the 3’ end of cap trapped first strand cDNAs. As with previous versions of CAGE, we better define transcription start sites (TSS) than known models, identify novel regions of transcription and alternative promoters, and find two major classes of TSS signal, sharp peaks and broad regions. However using this protocol we observe reproducible evidence of regulation at the much finer level of individual TSS positions. The libraries are quantitative over 5 orders of magnitude and highly reproducible (pearson’s correlation coefficient of 0.987). We have also scaled down the sample requirement to 5ug total RNA for a standard HeliScopeCAGE library and 100ng for a low quantity version. When the same RNA was run as 5ug and 100ng versions, the 100ng was still able to detect expression for ~60% of the 13468 loci detected by a 5ug library using the same threshold, allowing comparative analysis of even rare cell populations. Testing the protocol for differential gene expression measurements on triplicate HeLa and THP-1 samples, we find the log fold change compared to Illumina microarray measurements is highly correlated (0.871). In addition, HeliScopeCAGE finds differential expression for 1000s more loci including those with probes on the array. Finally although the majority of tags are 5’ associated we also observe a low level of signal on exons which is useful for defining gene-structures.
+
+DESIGN
+The same total RNAs (two pools, from HeLa and THP-1 cells) are profiled with microarray and HeliScopeCAGE. All replicates are technical replicates.
+
+PLATFORM
+GPL6884 Illumina HumanWG-6 v3.0 expression beadchip GPL14761 Helicos HeliScope (Homo sapiens)
+
+CITATIONS
+21596820 , 24676093
+

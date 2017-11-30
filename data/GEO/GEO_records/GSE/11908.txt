@@ -1,0 +1,18 @@
+TITLE
+Construction of a modular analysis framework for blood Genomics Studies
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We designed a strategy for microarray analysis that is based on the identification of transcriptional modules formed by genes coordinately expressed in multiple disease data sets. Mapping changes in gene expression at the module level generated disease-specific transcriptional fingerprints that provide a stable framework for the visualization and functional interpretation of microarray data.
+
+DESIGN
+The first step of the module-construction process analyzes expression patterns of transcripts across samples for individual diseases: sets of coordinately expressed transcripts were identified with an unsupervised clustering algorithm; in this case, the GeneSpring Version 7.1 (Agilent) implementation of the K-Means algorithm (k = 30). All transcripts detected in at least one sample were used as input; no screening for differential expression was performed. The second step of the module-construction process analyzed the “clustering behavior” of transcripts across diseases, taking into account the possibility that genes may cocluster in some diseases but not in others. Also, in our example, the transcripts that clustered together across all eight diseases were grouped to form a set of modules (round 1 of selection), and the stringency of the analysis was then decreased gradually to identify transcripts that belong to a similar K-means cluster in only a subset of diseases (round 2: seven out of eight diseases; round 3: six out of eight diseases). It is important to note that the module-selection process is “data-driven” and does not involve manual selection of genes by the investigator. We implemented the module-construction strategy described above, using as input a total of 239 peripheral-blood mononuclear cell (PBMC) samples obtained from individuals with one of the following conditions: systemic juvenile idiopathic arthritis (n = 47), systemic lupus erythematosus (n = 40), type I diabetes (n = 20), metastatic melanoma (n = 39), acute infections (Escherichia coli [n = 22], Staphylococcus aureus [n = 18], Influenza A [n = 16]) or liver-transplant recipients undergoing immunosuppressive therapy (n = 37). Transcriptional profiles were generated with Affymetrix U133A and U133B GeneChips ( > 44,000 probe sets). A total of 4742 transcripts, distributed among 28 sets, were selected after running of the module-construction algorithm described above. Each module is assigned a unique identifier indicating the round and order of selection (i.e., M3.1 is the first module identified in the third round of selection). The stringency of this algorithm was tested statistically by implementation of the same module-construction procedure after randomization of the original data set. This process was repeated 200 times, without a single module identified. Therefore, the analysis of gene-cluster membership across multiple diseases provided a stringent means to identify PBMC transcriptional modules.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array GPL97 [HG-U133B] Affymetrix Human Genome U133B Array
+
+CITATIONS
+18631455
+

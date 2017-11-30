@@ -1,0 +1,18 @@
+TITLE
+X-inactivation in hESCs
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+X chromosome inactivation (XCI) is a dosage compensation mechanism in female cells to regulate X-linked gene expression.  We report here that subcultures from established lines of female hESCs displayed variations (0-100%) in the expression of XCI markers such as XIST RNA coating and enrichment of histone H3 lysine 27 trimethylation (H3K27me3) on inactive X chromosome.   Surprisingly, regardless of the presence or absence of XCI markers in different cultures, all female hESCs we examined (H7, H9, and HSF6 cells) exhibit a mono-allelic expression pattern for a majority of X-linked genes.  Our results suggest that these established female hESCs have completed XCI during the process of derivation and/or propagation, and the XCI pattern of lines we investigated is already non-random.  However, XIST gene expression in subsets of female hESCs is unstable and subject to epigenetic silencing through DNA methylation.  Concomitant with the loss of XCI markers including XIST expression and H3K27me3, approximately 12% of X-linked CpG islands become hypomethylated and a subset of previously silenced X-linked alleles are reactivated, resulting a significant elevation of gene expression dosage. Because changes in dosage compensation of X-linked genes could impair somatic cell function, we propose that XCI status should be routinely checked in subcultures of female hESCs, with cultures displaying XCI markers better suited for use in regenerative medicine. Keywords: Genotyping, gene expression and DNA methylation
+
+DESIGN
+We used Affymetrix Genotyping array for looking for X-linked SNPs with HSF6, H7 and H9 genomic DNA, Agilent Gene expression array for comparing gene expression patten changes between HSF6 hESCs with X-inactiation and HSF6 hESCs without X-inactivation (3 repeats). Finally, mDIP-Chip method was used to detect X-linked CpG island methylation changes differences between hESCs with X-inactivation and hESCs without X-inactivation using Agilent CpG island array (3 repeats, and one of them has dye swap)
+
+PLATFORM
+GPL1708 Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number version) GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array GPL4126 Agilent-014791 Human CpG Island ChIP-on-Chip Microarray 244K (G4492A) (Feature Number version)
+
+CITATIONS
+18339804
+

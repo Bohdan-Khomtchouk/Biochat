@@ -1,0 +1,18 @@
+TITLE
+Global transcriptome analysis on Ankrd2 deficient or overexpressing differentiating primary myoblasts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To provide insights into the role of Ankrd2 in the pathways controlling myogenic differentiation, the gene networks that are disturbed in Ankrd2 knockout or overexpressing primary cells were explored during differentiation. Ankrd2 plays an important role in myogenic differentiation by modulating the activity of its interacting partners (i.e p53). Since Ankrd2 binds to numerous transcription factors many signaling pathways remained to be explored to determine the functional significance of crosstalk between Ankrd2 and the activation of transcriptional programmes that regulate muscle remodeling. In contrast to previous gene expression studies in which we and others have studied the effect of Ankrd2 silencing in mouse differentiating C2C12 cells (Series GSE7542) and human differentiated CHQ5B muscle cells (Belgrano et al., 2011), we here used an in vivo experimental model in which the expression of Ankrd2 was completely abrogated. Furthermore, since Ankrd2 is known to be strongly upregulated in response to various stress stimuli, we studied the effect of Ankrd2 rescue and acute overexpression in KO and WT cells by adenoviral infection 20 hours prior to collection of cells. The pathways that change significantly are involved in distinct inflammatory response phases having NF-kB as a central node. Based on these results Ankrd2 is emerging for the first time as a repressor of immune and inflammatory responses.
+
+DESIGN
+Gene expression profiling experiments have been performed using the SurePrint G3 Mouse 8x60K array by Agilent with 8 subarrays, each containing 39,430 60mer oligonucleotide probes for Entrez Gene RNAs, 16,251 for lincRNAs, 96 x 10 control probes, and 32 x 10 spike-in control probes. The Agilent platforms with one-color approach were selected to make possible the all-to all experiments comparison. The animal model, created and characterized in the laboratory of Dr.ML Bang, directed at knocking out Ankrd2 function was used. The adenovirus expressing Ankrd2-HA was produced using the AdEasy strategy (Agilent Technologies). Primary muscle cultures derived from wild type (WT) and Ankrd2-knockout (KO) mice infected with adenovirus expressing Ankrd2 or control GFP were collected at three different stages: proliferating, fusing and differentiated myoblasts. Three biological replicates per condition were included and a total of 36 microarray experiments were thus performed. First, the over-expression of Ankrd2 was checked by Western blot analysis. Then RNA was extracted from each sample and the relative transcriptional profiles were carried out using updated microarrays from Agilent technologies. Information from probe features was extracted from microarray scan data with the Feature Extraction Software (Agilent). Only arrays with at least 8/9 quality control metrics in range were used for the following data analyses. Intra-array normalization was performed with the Feature Extraction Software. Quantile inter-arrays normalization was performed using the Expander software (Sharan et al., 2003).
+
+PLATFORM
+GPL10787 Agilent-028005 SurePrint G3 Mouse GE 8x60K Microarray (Probe Name version)
+
+CITATIONS
+24434510
+

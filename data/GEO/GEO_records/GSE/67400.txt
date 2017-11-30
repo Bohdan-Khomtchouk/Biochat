@@ -1,0 +1,18 @@
+TITLE
+The Wright Stuff: Reimagining Path Analysis Reveals Novel Components of the Sex Determination Hierarchy in Drosophila Melanogaster
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The Drosophila sex determination hierarchy consists of a splicing cascade with sex-specific transcription directing somatic sexual dimorphism. Our understanding of this pathway, and many others, is incomplete. Here we pioneer an approach to expand our knowledge of gene regulatory networks (GRNs) by leveraging natural genetic variation. This approach is generalizable to any natural population, including humans. Two studies from Drosophila female head tissue were used – the DSPR collection (alleles from 15 natural variants) and F1-hybrid collection (alleles from heterozygotes of 75 isogenic lines crossed to w1118) – in a structural equation model (SEM) analysis. We expanded the sex hierarchy GRN by adding novel links among genes in the pathway and by adding novel genes to the pathway. A link from fruitless (fru) to Sex-lethal (Sxl) was found in both populations, which is supported by the presence of fru binding sites in the Sxl locus. The splicing factors male-specific lethal 2 and Rm62 were correctly identified as downstream targets of Sxl. There were 754 additional candidate genes for an expanded sex hierarchy GRN. These candidates were enriched for genes with sex-biased splicing and many components of the spliceosome were placed in the GRN. As with other population-genetic analyses, the number of alleles limits the number of observable interactions. Network expansion was only clear in the F1-hybrid population, which has an average of twice as many alleles as the DSPR population. Independent studies of doublesex and transformer mutants support many novel connections, including evidence for a link between the sex hierarchy and metabolism, with the inclusion of Insulin-like receptor in the sex hierarchy GRN.
+
+DESIGN
+RNA sequencing was performed on mRNA derived from adult male or female heads, for a total of 9 samples. These samples included females that produce the male isoform of dsx [w/+;DsxD/dsxm+r15 (XX)], and two dsx mutants: females [w/+; dsxm+r15/dsxd+r3 (XX)] and males [w;dsxm+r15/dsxd+r3 (XY)]. Two wild type genotypes (Berlin and Canton-S) were sequenced at the same time, but have previously been published as part of GSE50515. There were at least 3 replicates from biological samples.
+
+PLATFORM
+GPL11203 Illumina Genome Analyzer IIx (Drosophila melanogaster)
+
+CITATIONS
+26335107 , 27172187
+

@@ -1,0 +1,18 @@
+TITLE
+Conservation and innovation in the DUX4-family gene network [MMH6 RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Facioscapulohumeral dystrophy (FSHD; OMIM #158900, #158901) is caused by mis-expression of the DUX4 transcription factor in skeletal muscle1. Animal models of FSHD are hampered by incomplete knowledge of the conservation of the DUX4 transcriptional program in other species. Despite divergence of their binding motifs, both mouse Dux and human DUX4 activate genes associated with cleavage-stage embryos, including MERV-L and ERVL-MaLR retrotransposons, in mouse and human muscle cells respectively. When expressed in mouse cells, human DUX4 maintained modest activation of cleavage-stage genes driven by conventional promoters, but did not activate MERV-L-promoted genes. These findings indicate that the ancestral DUX4-factor regulated genes characteristic of cleavage-stage embryos driven by conventional promoters, whereas divergence of the DUX4/Dux homeodomains correlates with retrotransposon specificity. These results provide insight into how species balance conservation of a core transcriptional program with innovation at retrotransposon promoters and provide a basis for animal models that recreate the FSHD transcriptome.
+
+DESIGN
+We generated a new RNA-seq dataset in mouse myoblasts and compared them to a published dataset for human DUX4 in human myoblasts (GSE85461; DOI:10.1093/hmg/ddw271). This new dataset (and the dataset we compared to) used a doxycycline-inducible system and a codon-altered transgene. This new datasets reflects three separate cell cultures of a clonal cell line induced with doxycycline for eighteen hours, independently barcoded and sequenced in parallel; doxycycline induction caused expression of MMH in mouse myoblasts. MMH is a chimeric gene whose N-terminus is codon-altered mouse Dux through the mouse Dux homeodomains and its C-terminus is codon-altered human DUX4 starting just after human DUX4's homeodomains. The MMH-chimera maintained the DNA binding domain of Dux and the carboxy-terminal epitopes of DUX4, permitting us to use the same DUX4 antisera to immunoprecipitate the MMH-chimera and DUX4 (see related ChIP-seq dataset). We also generated a matched control dataset by preparing three more cell cultures of this same MMH cell line and harvesting them in parallel at eighteen hours, but not treating with doxycycline.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28459454
+

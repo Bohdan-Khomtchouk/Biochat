@@ -1,0 +1,18 @@
+TITLE
+RNA-seq of brain mural cells and microvascular fragments
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Pericytes, the mural cells of blood microvessels, have come into focus as regulators of microvascular development and function, but due to paucity of defining markers, the identification and functional characterization of PC remain problematic, and reported data are often controversial. Here, we used a new approach for the isolation of mural cell from mouse brain in combination with RNA-sequencing (RNA-seq) and previously published vascular transcriptome data to assemble a state-of-the-art catalogue of brain mural cell-enriched gene transcripts. Methods: We isolated double positive cells from the brain of Pdgfrb-eGFP/NG2-DsRed transgenic mice using FACS. Cells were lysed, RNA extracted and sequenced with next-generation sequencing (NGS). For comparison, we also determined the transcriptome of brain microvascular fragments (containing both endothelial cells and mural cells) isolated by mechanical tissue disintegration, collagenase digestion and immune-panning using anti-CD31 antibodies coupled to magnetic beads. The reads were aligned to the Ensembl mouse gene assembly (NCBIM37) using Tophat2 software (version 2.0.4). The duplicated reads were removed using the picard tool (version 1.92). To identify the genes significantly enriched in the pericyte samples as compared with microvascular samples, statistical tests were performed using the Cufflinks tool (version 2.2.1) Results: The result showed that mRNA transcripts representing 856 different genes were enriched more than two-fold in FACS isolated Pdgfrb-eGFP/NG2-DsRed double positive cells compared with whole microvascular fragments (False Discovery Rate < 0.05)
+
+DESIGN
+The RNA from three FACS sorted brain mural cell samples and three whole brain microvascular samples isolated from three animals were processed and sequenced on the Illumina HiSeq 2500 platform in the sequencing facility in Uppsala University.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27725773
+

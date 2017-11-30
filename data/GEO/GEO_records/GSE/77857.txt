@@ -1,0 +1,18 @@
+TITLE
+BACH2 regulates CD8+ T cell differentiation by controlling access of AP-1 factors to enhancers
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+T cell antigen receptor (TCR) signaling drives distinct responses depending upon the differentiation state and context of CD8+ T cells. We hypothesized that access of signal-dependent transcription factors (TFs) to enhancers is dynamically regulated to shape transcriptional responses to TCR signaling. We found that the TF BACH2 restrains terminal differentiation to enable generation of long-lived memory cells and protective immunity following viral infection. BACH2 was recruited to enhancers where it limited expression of TCR-driven genes by attenuating the availability of activator protein 1 (AP-1) sites to Jun family signal-dependent TFs. In naïve cells, this prevented TCR-driven induction of genes associated with terminal differentiation. Upon effector differentiation, reduced expression of BACH2 and its phosphorylation enabled unrestrained induction of TCR-driven effector programs.
+
+DESIGN
+RNA-Seq expression profiles of WT and Bach2-deficient CD8+ T cells isolated ex vivo by FACS sorting or harvested following in vitro stimulation with plate-bound anti-CD3 and anti-CD28 antibodies. Genome-wide ChIP-Seq measurements of BACH2, JunD, H3K4me1, H3K27ac, p300 distribution in WT or Bach2-deficient cells. Genome-wide assay for transposase accessible chromatin (ATACSeq) measurements of d5 in vitro activated CD8+ T cells.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+27158840
+

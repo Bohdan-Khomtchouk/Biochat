@@ -1,0 +1,18 @@
+TITLE
+Measuring expression from randomly-designed DNA in S. cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Here, we integrated essentially random synthetic DNA sequences into the yeast genome (HO locus) and measured the expression via custom Agilent tiling array. The purpose of this was to compare the predictions of where transcription would occur output by our computational model to the expression observed in the cell.
+
+DESIGN
+The four constructs (A1B1, A1B2, A2B1, A2B2) were integrated into S. cerevisiae, cells were grown and from these both gDNA and mRNA were isolated. G-coupled dyes were used to label samples with Cy3 for mRNA and Cy5 for gDNA.  Samples were sheared/hydrolyzed to an average size of about 250bp, hybridized to the array, and quantified. The GFF files include features of the region tageted for tiling array analysis in gff format ( https://genome.ucsc.edu/FAQ/FAQformat.html#format3 ).  These include the locations of genomic features (ORFs, transcripts) as well as the locations of the inserts, and the KanMX selectable marker. microarray_normalized_log+.wig and microarray_normalized_log-.wig include the tiling array data across each of the four inserts in wig format ( https://genome.ucsc.edu/goldenPath/help/wiggle.html ) for the top and bottom DNA strands, respectively.  This data are provided on a log scale and were normalized as follows: First, we normalized the data using spacial detrending of the microarray slide. Next, we normalized the tiling array data using a background model (HUBER et al. 2006) which relates, for each probe (k), the signal intensity (yk) to the background signal (Bk) plus the amount of nucleic acid in the sample (xk) times the proportionality factor (ak), or yk=Bk+xk*ak. Here, we want to determine the amount of nucleic acid in the sample (xk). We modified this normalization protocol to take advantage of the fact that the target sequences of many probes were absent from some samples (e.g. the A1B1probe target sequences are absent from the A2B2 strain). Here, we estimated separate mRNA and gDNA background signals (Bk) for each probe by taking the median signal intensity of the probe in strains lacking the target DNA sequences. We estimated the proportionality factor for each probe (ak), corresponding to how probe intensity changes with the amount of nucleic acid, by comparing the background-normalized gDNA signal at each probe to the actual amount of gDNA present in the sample, where the target DNA was present in the sample. We estimated the amount of mRNA at each probe using this model, and scaled the amounts to the median intensity across the kanMX gene to make mRNA levels comparable across constructs. All files reference the sequences contained within the accompanying " .seq.txt " files. Note: the coordinates in these files do not correspond to genomic coordinates as the construct was integrated into the genome (thereby altering the length of the chromosome).  However, positions  1..5001 in these files corresponds to positions 42000..47000 of chromosome 4 in the yeast genome (May, 2008 genome version) and positions 12341..20888 correspond to positions 47800..56347 of chromosome 4.
+
+PLATFORM
+GPL17169 Agilent-034677 S. Cerevisiae 210K Random Seq Tiling Array v1.0
+
+CITATIONS
+24170600
+

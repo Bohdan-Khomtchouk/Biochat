@@ -1,0 +1,18 @@
+TITLE
+Expression of Wnt Receptors in Adult Spiral Ganglion Neurons: Fzd 9 Located at Growth Cones of Regenerating Neurites
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The fidelity of sound transmission by cochlear implants in patients with sensorineural hearing loss could be greatly improved by increasing the number of frequency channels. This could be achieved by stimulating and guiding neurite outgrowth to reduce the distance between the implant's electrodes and the remnants of the spiral ganglion neurons. However, little is known about signaling pathways, besides those of neurotrophic factors, that are operational in the adult spiral ganglion. To systematically identify neuronal receptors for guidance cues in the adult cochlea, we conducted a genome-wide cDNA microarray screen with two-month-old CBA/CaJ mice. A meta-analysis of our data and those from older mice in two other studies revealed the presence of neuronal transmembrane receptors that represent all four established guidance pathways—ephrin, netrin, semaphorin, and slit—in the mature cochlea as late as 15 months. In addition, we observed the expression of all known receptors for the Wnt morphogens, whose neuronal guidance function has only recently been recognized. In situ hybridizations located the mRNAs of the Wnt receptors frizzled 1, 4, 6, 9, and 10 specifically in adult spiral ganglion neurons. Finally, frizzled 9 protein was found in the growth cones of adult spiral ganglion neurons that were regenerating neurites in culture. We conclude from our results that adult spiral ganglion neurons are poised to respond to neurite damage, owing to the constitutive expression of a large and diverse collection of guidance receptors. Wnt signaling, in particular, emerges as a candidate pathway for guiding neurite outgrowth towards a cochlear implant after sensorineural hearing loss.
+
+DESIGN
+To determine which potential guidance receptors were present in the adult cochlea and whether any of them were chronically up- or downregulated after damage, we conducted a microarray hybridization screen with modioli from three unexposed and noise-exposed mice each. The noise treatment was administered at four weeks of age, and the modioli were harvested at eight weeks of age. The pre-processed hybridization signals (GSM321743-8) were further analyzed with Bioconductor tools (release 2.1; www.bioconductor.org) in R software (version 2.6.1; http://www.r-project.org ) according to the procedures outlined in Gentleman et al. (2005). See linked supplementary files for Bioconductor details and results of analysis: GSE12810_BioconductorCode.txt: Step-by-step description of probe-set selection based on (i) hybridization signal and (ii) Gene Ontology annotation; (iii) of significance analysis of microarrays; and (iv) of meta-analysis of our data and those of Someya and colleagues GSE12810_GO_Eset.xls: Significance analysis of microarrays  for neuronal transmembrane receptors to detect differential expression between noise-exposed and unexposed modioli GSE12810_Meta_GO_Eset_tTests.xls: Meta-analysis of neuronal transmembrane receptors in our study (GSE12810) and two previous studies by Someya and colleagues (GSE4786 & GSE4866) to estimate absolute expression levels in adult cochlea
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+19716861
+

@@ -1,0 +1,18 @@
+TITLE
+Transriptional profiling upon heat shock and recovery in cells deficient for FBXW7 and their wild type counterpart.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+FBXW7 modulates stress response by post-translational modification of HSF1 HSF1 orchestrates the heat-shock response upon exposure to heat stress and activates a transcriptional program vital for cancer cells. Genes positively regulated by HSF1 show increeased expression during heat shock while their expression is reduced during recovery. Genes negatively regulated by HSF1 show the opposite pattern. In this study we utilized the HCT116 FBXW7 KO colon cell line and its wild type counterpart to monitor gene expression changes during heat shock (42oC, 1 hour) and recovery (37oC for 2 hours post heat shock) using RNA sequencing. These results revealed that the heat-shock response pathway is prolonged in cells deficient for FBXW7.
+
+DESIGN
+Whole RNA was extracted from 1 million HCT116 WT or FBXW7KO  cells using the RNAeasy kit (Qiagen) according to the manufacturer’s protocol. Poly-A+ (magnetic oligodT-containing beads (Invitrogen)) or Ribominus RNA was used for library preparation. cDNA preparation and strand-specific library construction was performed using the dUTP method. Libraries were sequenced on the Illumina HiSeq 2000 using 50bp single-read method. Differential gene expression analysis was performed for each matched recovery versus heat-shock pairs, separately in each biological replicate and cell line (WT or KO). Two types of comparisons were tested: (a) WT recovery vs WT heat shock, (b) FBXW7 KO recovery vs heat shock.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25720964
+

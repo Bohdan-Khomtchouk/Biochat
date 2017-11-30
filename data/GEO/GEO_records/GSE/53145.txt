@@ -1,0 +1,18 @@
+TITLE
+The transcriptional repressor BLIMP1 curbs host-defenses by suppressing expression of the chemokine CCL8
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The transcriptional repressor BLIMP1 is a master regulator of B and T cell differentiation. To examine the role of BLIMP1 in innate immunity we used a conditional knockout (CKO) of Blimp1 in myeloid cells and found that Blimp1 CKO mice were protected from lethal infection induced by Listeria monocytogenes. Transcriptome analysis of Blimp1 CKO macrophages identified the murine chemokine (C-C motif) ligand 8, CCL8 as a direct target of Blimp1-mediated transcriptional repression in these cells. BLIMP1-deficient macrophages expressed elevated levels of Ccl8 and consequently Blimp1 CKO mice had higher levels of circulating CCL8 resulting in increased neutrophils in the peripheral blood, promoting a more aggressive anti-bacterial response. Mice lacking the Ccl8 gene were more susceptible to L. monocytogenes infection than wild type mice. While CCL8 failed to recruit neutrophils directly, it was chemotactic for γ/δ T cells and CCL8-responsive γ/δ T cells were enriched for IL-17F. Finally, CCL8-mediated enhanced clearance of L. monocytogenes was dependent on γ/δ T cells. Collectively, these data reveal an important role for BLIMP1 in modulating host-defenses by suppressing expression of the chemokine CCL8.
+
+DESIGN
+RNA (5μg) was isolated from WT and Blimp1 CKO BMDM untreated or infected for 2 hours with L.monocytogenes (MOI=5). Three biological replicates were performed for each experimental condition. The gene chip mouse genome 430 2.0 Array (Affymetrix) was used.  Biological replicates were normalized using the GCRMA method and analyzed using various Bioconductor tools.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+24477914
+

@@ -1,0 +1,18 @@
+TITLE
+Estrogen induces global reorganization of chromatin structure in human breast cancer cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In the cell nucleus, each chromosome is confined to a chromosome territory. This spatial organization of chromosomes plays a crucial role in gene regulation and genome stability.   Recently an additional level of organization has been discovered at the chromosome scale: the spatial segregation into open and closed chromatin to form two genome-wide compartments. Although considerable progress has been made in our knowledge of chromatin organization, a fundamental issue remains the understanding of its dynamic, especially in cancer.   To address this issue, we performed genome-wide mapping of intra- and interchromosomal interactions (Hi-C) over the time after estrogen (E2) stimulation of breast cancer cells. To biologically interpret these interactions, we integrated with estrogen receptor alpha (ER alpha) binding events, gene expression and multiple epigenetic marks. We show that E2 induces a global reorganization of genome. More specifically, gene-rich chromosomes as well as areas of open and highly transcribed chromatins are moved spatially closer, thus enabling genes to share transcriptional machinery and regulatory elements. At a lower scale, differentially interacting loci are enriched for cancer proliferation and E2 related genes. We also observe that these differentially interacting loci are correlated with higher ER alpha binding events and gene expression.
+
+DESIGN
+5 time points: before E2 (0h) and after E2 (0.5h, 1h, 4h and 24h). For each time point, there are two lanes per sample and two biological replicate samples. Please note that a processed data file corresponds to the merging of 2 replicates, and  that there are 2 lanes per replicates (4 files in total per processed data file). Information about data merging is provided in the title of the sample. For instance : 0h_replicate_1_lane 1 0h_replicate_1_lane 2 0h_replicate_2_lane_1 0h_replicate_2_lane_2 are merged to generate the processed data hic_0h-all-1M.IC.csv.gz. Several bin sizes are provided for the same processed data: hic_0h-all-1M.IC.csv.gz hic_0h-all-2M.IC.csv.gz hic_0h-all-4M.IC.csv.gz hic_0h-all-500k.IC.csv.gz are the same processed data, but with different bin sizes.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+25470140
+

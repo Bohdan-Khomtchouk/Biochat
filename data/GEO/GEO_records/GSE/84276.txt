@@ -1,0 +1,18 @@
+TITLE
+Integrative " -omics " analysis in primary human hepatocytes unravels persistent mechanisms of cyclosporine A-induced cholestasis (MeDIP)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cyclosporine A (CsA), is an endecapeptide with strong immunosuppressant activities and has contributed significantly towards clinical progress in organ transplantation. Furthermore, it has various toxic effects in the kidney and especially in the liver where it may induce cholestasis. The CsA drug-induced cholestasis (DIC) pathway includes important genes involved in the uptake, synthesis, conjugation and secretion of bile acids, which can be verified also in hepatic models in vitro. However, whether changes in CsA-induced cholestasis pathway induced in vitro are persistent thus presenting important biomarkers for repeated dose toxicity, has not yet been investigated. We therefore performed multiple -omics analyses, including whole genome analysis of DNA methylation, gene expression and microRNA expression in primary human hepatocytes (PHH) cultured in sandwich configuration, during and after terminating CsA treatment.   For this, cells were exposed to a non-cytotoxic dose of 30 µM CsA daily for 3 and 5 days. To investigate the persistence of induced changes upon terminating the CsA exposure of 5 days, a subset of PHH was subjected to a washout period (WO-period) of three days. DNA methylation (using NimbleGen 2.1 deluxe promoter arrays), transcriptomic (using Affymetrix Human Genome U133 Plus 2.0 arrays) and microRNA (using Agilent Sureprint G3 Unrestricted Human miRNA V16 8 × 60 K microarrays) analyses were performed on days 3, 5 and 8. Identification of differentially methylated genes (DMGs), differentially expressed genes (DEGs), and differentially expressed microRNAs (DE-miRs) was performed using several R packages.   DMGs, DEGs and DE-miRs were found after CsA treatment of PHH for 3 and 5 days as well after the WO-period. Interestingly, 828 persistent DEGs and 6 persistent DE-miRs, but no persistent DMGs, were found after the WO-period. These persistent DEGs and DE-miRs showed concordance for 22 genes (13 genes upregulated in gene expression and downregulated in microRNA expression; 9 genes downregulated in gene expression and upregulated in microRNA expression). Some of the persistent transcriptomic changes as well as DE-miRs could be successfully mapped onto the DIC pathway, while epigenetic changes not. Furthermore, 29 persistent DEGs in vitro showed changes in the same direction as observed in livers from cholestasis patients. None of those 29 DEGs were present in the DIC pathway or cholestasis adverse outcome pathway.  We have for the first time demonstrated a persistent impact of gene expression and microRNA expression related to DIC after repeated dose administration of CsA in vitro.
+
+DESIGN
+18 samples (3 time-points (3 days, 5 days and 8 days) with triplicates of control-samples (0.5% DMSO) and treatment-samples (30µM CsA))
+
+PLATFORM
+GPL16284 NimbleGen Human DNA Methylation 2.1M Deluxe Promoter Array [100929_HG19_Deluxe_Prom_Meth_HX1]
+
+CITATIONS
+27989131
+

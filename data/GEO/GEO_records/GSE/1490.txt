@@ -1,0 +1,15 @@
+TITLE
+GM00156 EMETINE TIME COURSE
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+GM00156 (Coriell) cells were treated with and without 100?g/ml Emetine Dihydrochloride Hydrate (Fluka, Buchs, Swizerland).  Both Emetine-treated and untreated control cells were then incubated at 37°C for 10 hours. After the incubation, the first time point (0 min) was harvested for both treated and untreated cells. Simultaneously, Actinomycin D (Sigma-Aldrich, St Louis, MO) with the final concentration of 5ug/ml, was added to the remaining treated and untreated cells to stop new transcription. Time points of 10min, 30min, 1h, and 8h were harvested in both groups for most of the cell lines. Cell pellets were snap-frozen and mRNA extracted by using FastTrack kit (Invitrogen) according to the manufacturer’s instructions. For each time point, the untreated sample was hybridized against the Emetine-treated equivalent. Four ug of untreated mRNA was labeled with Cy5-dUTP and four ug of Emetine-treated mRNA with Cy3-dUTP (Amersham Biosciences, Piscataway, NJ) as previously described (Mousses et al, 2000). Image analysis was done by DeArray software. Average intensities of the tumor samples were divided by the average intensities of the reference sample at each microarray spot after background intensity subtraction. Within-slide normalization was performed with ratio statistics method using housekeeping genes as described previously (Chen et al, 1997). The data were quality filtered with ratio quality method (Chen et al, 2002), which computes a quality value for each ratio. The scale for the quality values is from zero (poor quality) to one (good quality). Here, all ratios having quality value below 0.5 were discarded from the subsequent analysis. Keywords: time-course
+
+PLATFORM
+GPL1301 NHGRI Custom cDNA Microarray
+
+CITATIONS
+15300251
+

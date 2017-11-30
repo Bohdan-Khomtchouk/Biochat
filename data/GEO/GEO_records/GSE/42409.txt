@@ -1,0 +1,18 @@
+TITLE
+Additional annotation enhances potential for biologically-relevant analysis of the Illumina Infinium HumanMethylation450 BeadChip array
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+****************************************************************** 450k ARRAY EXPANDED ANNOTATION PLATFORM: SEARCH GPL16304 ****************************************************************** Background: Measurement of genome-wide DNA methylation (DNAm) has become an important avenue for investigating potentially functional changes in various pathological conditions. Illumina Infinium is a relatively inexpensive and user-friendly DNAm microarray platform used by many researchers to measure DNAm on a large scale. However it has been suggested that a subset of probes may give rise to misleading results due to issues related to probe design. To facilitate biologically significant data interpretation, we set out to enhance probe annotation of the newest HumanMethylation450 BeadChip array (with > 485,000 probes covering 99% of RefSeq genes). Results: Annotation that was added or expanded on includes 1) SNPs documented in the probe target, 2) probe binding specificity, 3) CpG classification of target sites and 4) gene feature classification of target sites. Probes with documented SNPs within 10bp of the target site and especially those with documented SNPs at the target CpG, were associated with increased within-tissue variation in DNAm. An example of a probe with a SNP at the target CpG was used to demonstrate how sample genotype can confound the measurement of DNAm. 8.6% of probes were identified as non-specific, in other words, these probes map to multiple locations in silico. DNAm measured from these non-specific probes likely represents a combination of DNAm from multiple genomic sites. The expanded biological annotation demonstrated that based on DNAm, grouping probes by alternative CpG classes rather than UCSC islands provides a more distinctive classification system of CpG sites. Finally variable enrichment for tissue-specific differentially methylated probes was noted across CpG classes and gene feature groups, depending on the tissues that were compared. Conclusion: Probes containing SNPs and non-specific probes may affect the assessment of DNAm using the 450k array. Additionally CpG enrichment classes and to a lesser extent gene feature groups were associated with distinct patterns of DNAm. Thus, we recommend that confounded probes be removed from analyses and that genomic trends be considered in analyses of the Illumina HumanMethylation450 BeadChip. DNAm arrays offer a powerful approach for which thoughtful use of probe content can be utilized to better understand the biological processes affected.
+
+DESIGN
+Bisulfite converted DNA from 4 buccal, 4 blood and 4 chorionic villus samples was hybridized to the Illumina Infinium HumanMethylation450 BeadChip array.
+
+PLATFORM
+GPL16304 Illumina HumanMethylation450 BeadChip [UBC enhanced annotation v1.0]
+
+CITATIONS
+23452981
+

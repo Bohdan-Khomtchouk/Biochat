@@ -1,0 +1,18 @@
+TITLE
+ChIP-seq dataset for H3K9ac in Identifying Novel Therapeutic Targets by Combining Transcriptional Data with Ordinal Clinical Measurements
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The widespread adoption of transcriptional profiling has led to immense repositories of data that may contain critical insights for developing new therapies. Current approaches to mining these data largely rely on binary classifications of disease versus control.  These methods are not able to incorporate measures of disease severity, which are often available. We report an analytical approach to integrate ordinal clinical information with transcriptomics. We have applied this method to public data for a large cohort of Huntington’s disease patients and controls, identifying and prioritizing phenotype-associated genes. To validate the approach, we have performed viability, siRNA knockdown, mRNA-seq, and ChIP-seq on striatal precursor cells expressing either full-length wild type (STHdh Q7) or mutant huntingtin (STHdh Q111). We have verified the role of a high-ranked gene in dysregulation of sphingolipid metabolism in the disease and demonstrated that inhibiting the enzyme, SPL, has neuroprotective effects in HD models. We have shown that one consequence of inhibiting SPL is the intracellular inhibition of HDACs, thus linking our observations in sphingolipid metabolism to a well-characterized HD pathway. Our approach is easily applied to any data with ordinal clinical measurements, and may deepen our understanding of disease processes.
+
+DESIGN
+Wild type cells were treated with serum-free DMEM for 24 hours (Q7 SST). Cells expressing mutant huntingtin were treated with either serum-free DMEM with vehicle (Q111 SST) or serum-free DMEM supplemented with 4mM 4-deoxypyridoxine hydrochloride (Q111 DOP). H3K9ac ChIP was performed on two replicates for each condition and sequenced with Illumina HiSeq 2000 platform.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28931805
+

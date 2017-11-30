@@ -1,0 +1,18 @@
+TITLE
+Analysis of RNA quantitation in formaldehyde-fixed cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Fluorescence-activated cell sorting (FACS) is a sensitive and valuable technique to characterize cellular subpopulations and great advances have been made using this approach. Cells are often fixed with formaldehyde prior to the sorting process to preserve cell morphology and maintain the expression of surface molecules, as well as to ensure safety in the sorting of infected cells. It is widely recognized that formaldehyde fixation alters RNA and DNA structure and integrity, thus analyzing gene expression in these cells has been difficult. We therefore examined the effects of formaldehyde fixation on the stability and quantitation of nucleic acids in cell lines, primary leukocytes and also cells isolated from SIV-infected pigtailed macaques. We developed a method to extract RNA from fixed cells that yielded the same amount of RNA as our common method of RNA isolation from fresh cells. Quantitation of RNA by RT-qPCR in fixed cells was not always comparable with that in unfixed cells. In comparison, when RNA was measured by the probe-based NanoString system, there was no significant difference in RNA quantitation. In addition, we demonstrated that quantitation of proviral DNA in fixed cells by qPCR is comparable to that in unfixed cells when normalized by a single-copy cellular gene. These results provide a systematic procedure to quantitate gene expression in cells that have been fixed with formaldehyde and sorted by FACS.
+
+DESIGN
+We compared RNA quantitation between unfixed and formaldehyde-fixed cells using the NanoString nCounter system. This analysis was performed using two cell lines, K562 and CEMx174, and human PBMCs. Three biological replicates were performed for each cell type. We also performed this comparison using human PBMCs sorted by FACS. For this analysis, we isolated PBMCs from two donors and performed two technical replicates for each donor sample.
+
+PLATFORM
+GPL17698 nCounter Human Reference GX Kit
+
+CITATIONS
+24023909
+

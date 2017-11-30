@@ -1,0 +1,18 @@
+TITLE
+Persistence of BW25113 mqsR producing MqsR 2-1 vs. producing wild-type MqsR with ampicillin
+
+ORGANISM
+Escherichia coli K-12
+
+SUMMARY
+Persisters are a subpopulation of metabolically-dormant cells in biofilms that are resistant to antibiotics; hence, understanding persister cell formation is important for controlling bacterial infections. Previously we discerned that MqsR and MqsA of Escherichia coli are a toxin/antitoxin pair that influence persister cell production via their regulation of Hha, CspD, and HokA. Here, to gain more insights into the origin of persisters, we used protein engineering to increase the toxicity of toxin MqsR by reasoning it would be easier to understand the effect of this toxin if it were more toxic. We found that two mutations (K3N and N31Y) increase the toxicity four fold and increase persistence 73 fold compared to native MqsR by making the protein less labile. A whole transcriptome study revealed that the MqsR variant represses acid resistance genes (gadABCEWX and hdeABD), multidrug resistance genes (mdtEF), and osmotic resistance genes (osmEY).  Corroborating these microarray results, deletion of rpoS as well as the genes that the master stress response regulator RpoS controls, gadB, gadX, mdtF, and osmY, increased persister formation dramatically to the extent that nearly the whole population became persistent. Therefore, the more toxic MqsR increases persistence by decreasing the ability of the cell to respond to antibiotic stress through its RpoS-based regulation of acid resistance, multidrug resistance, and osmotic resistance systems.
+
+DESIGN
+For the whole-transcriptome study of BW25113 mqsR/pBS(Kan)-mqsR 2-1 versus BW25113 mqsR/pBS(Kan)-mqsR, planktonic cells were grown to a turbidity of 0.5 at 600 nm in LB medium with 1 mM IPTG at 37 °C, adjusted the turbidity to 1, and exposed to 20 μg/mL ampicillin with 1 mM IPTG for 1 h.  Cells were isolated by centrifuging at 0°C, and RNALater® buffer (Ambion, Cat# AM7021) was added to stabilize RNA during the RNA preparation steps.  Total RNA was isolated from cell pellets with Qiagen RNeasy mini Kit (Cat# 74104) using a bead beater.  cDNA was synthesized and fragmented to obtain 50-200 base cDNA fragments. The fragmented cDNA was labelled with Biotin-ddUTP, and hybridization was performed at 45°C with 60 rpm for 16 hours. The probe array was washed, stained using Affymetrix Genechip Fluidics Station 450 and the software GenomeChipOperating Software (GCOS)”, and scanned using Affymetrix Genechip scanner GCS3000 7G system and the software GenomeChipOperating Software (GCOS). Data were processed with MAS 5.0 Expression Analysis Default Setting. Genes were identified as differentially expressed if the expression ratio was higher than the standard deviation: 4.0 fold (enriched and differentially degraded) cutoff for the DNA microarrays (standard deviation 1.3 fold), and if the p-value for comparing two chips was less than 0.05.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+22221537
+

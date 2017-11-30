@@ -1,0 +1,18 @@
+TITLE
+MicroRNA expression and regulation in human, chimpanzee, and macaque brain
+
+ORGANISM
+Macaca mulatta ; Pan troglodytes ; Homo sapiens
+
+SUMMARY
+Among other factors, changes in gene expression on the human evolutionary lineage have been suggested to play an important role in the establishment of human-specific phenotypes. However, the molecular mechanisms underlying these expression changes are largely unknown. Here, we have explored the role of microRNA (miRNA) in the regulation of gene expression divergence between adult humans, chimpanzees and rhesus macaques, in two brain regions: prefrontal cortex and cerebellum. Using combination of high-throughput sequencing, miRNA microarrays and Q-PCR, we have shown that up to 11% of the 325 expressed miRNA diverged significantly between humans and chimpanzees and up to 31% - between humans and macaques. Measuring mRNA and protein expression in human and chimpanzee brains, we found a significant inverse relationship between the miRNA and the target genes expression divergence, explaining 2-4% of mRNA and 4-6% of protein expression differences. Notably, miRNA showing human-specific expression localize in neurons and target genes that are involved in neural functions. Enrichment in neural functions, as well as miRNA-driven regulation on the human evolutionary lineage, were further confirmed by experimental validation of predicted miRNA targets in two neuroblastoma cell lines. Finally, we identified a signature of positive selection in the upstream region of one of the five miRNA with human-specific expression, miR-34c-5p. This suggests that miR-34c-5p expression change took place after the split of the human and the Neanderthal lineages and had adaptive significance. Taken together these results indicate that changes in miRNA expression might have contributed to evolution of human cognitive functions.
+
+DESIGN
+Human, chimpanzee, and rhesus: mRNA, microRNA, and microRNA sequencing. Neuroblastoma cell lines: miRNA transfection experiments were conducted on two human-derived neuroblastoma cell lines (SH-SY5Y and SK-N-SH). Briefly, cells were plated in 0.5ml of growth medium, without antibiotics, 24h prior to transfection. miRNA mimics-Lipofectamine 2000 (Invitrogen) complexes were prepared freshly before transfection according to the manufacturer's protocol. SH-SY5Y and SK-N-SH cells were transfected in six-well plates using miRNA mimics-Lipofectamine 2000 with a final oligonucleotide concentration of 10nmol/L. In parallel, negative control transfections with mock oligonucleotides were conducted according to the manufacturer's protocol. For each cell line, transfections with negative control oligonucleotides were carried out in two independent replicates. Cells were harvested after 24h, total RNA were extracted with Trizol reagent (Invitrogen) and further processed and hybridized to Affymetrix Human Genome U133 Plus 2.0 arrays following the manufacturer's instructions. The gene expression levels were determined using rma in the R Affy package.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version] GPL6879 Affymetrix GeneChip Human Genome U133 Plus 2.0 Array [HGU133Plus2_Hs_ENSG (v11.0.1) CDF] GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL9160 Illumina Genome Analyzer II (Macaca mulatta) GPL9378 Illumina Genome Analyzer II (Pan troglodytes) GPL10701 Agilent-021827 Unrestricted Human 15.7K v3.0 miRNA Microarray
+
+CITATIONS
+22022286
+

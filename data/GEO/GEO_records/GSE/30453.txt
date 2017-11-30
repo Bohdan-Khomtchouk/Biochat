@@ -1,0 +1,18 @@
+TITLE
+Tissue-specific genetic regulation of splicing and expression (gene-level)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Numerous genome-wide screens for polymorphisms that influence gene expression have provided key insights into the genetic control of transcription. Despite this work, the relevance of specific polymorphisms to in vivo expression and splicing remains unclear. We carried out the first genome-wide screen, to our knowledge, for SNPs that associate with alternative splicing and gene expression in human primary cells, evaluating 93 autopsy-collected cortical brain tissue samples with no defined neuropsychiatric condition and 80 peripheral blood mononucleated cell samples collected from living healthy donors. We identified 23 high confidence associations with total expression and 80 with alternative splicing as reflected by expression levels of specific exons. Fewer than 50% of the implicated SNPs however show effects in both tissue types, reflecting strong evidence for distinct genetic control of splicing and expression in the two tissue types. The data generated here also suggest the possibility that splicing effects may be responsible for up to 13 out of 84 reported genome-wide significant associations with human traits. These results emphasize the importance of establishing a database of polymorphisms affecting splicing and expression in primary tissue types and suggest that splicing effects may be of more phenotypic significance than overall gene expression changes.
+
+DESIGN
+We evaluated 93 autopsy-collected cortical brain tissue samples with no defined neuropsychiatric condition and 80 peripheral blood mononucleated cell samples collected from living healthy donors. Affymetrix Human ST 1.0 exon arrays were used to assess exon and transcript expression levels for all samples used in the study. Replicate analyses were not performed.  Exon array sample preparation from total RNA was conducted based on standard Affymetrix protocols.  Data were normalized separately within PBMC and brain sets Affymetrix PLIER protocol with a sketch-quantile normalization procedure (Affymetrix Expression Console).  Normalized files include brain core transcripts (NABRAINSETCOMBplier-gene-core.summary), brain all transcripts (NABRAINSETCOMBplier-gene-full.summary), brain core exons (NABRAINSETCOMBplier-exon-core.summary), brain all exons (NABRAINSETCOMBplier-exon-all.summary), PBMC core transcripts (NAPBMCfullsetplier-gene-core.summary), PBMC all transcripts (NAPBMCfullsetplier-gene-full.summary), PBMC core exons (NAPBMCfullsetplier-exon-core.summary), PBMC all exons (NAPBMCfullsetplier-exon-all.summary).  all, full and core definitions are provided by Affymetrix.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+19222302
+

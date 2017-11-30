@@ -1,0 +1,18 @@
+TITLE
+Post-transcriptional regulation of cell-cell interaction protein-encoding transcripts by Zfs1p in S. pombe
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Members of the tristetraprolin (TTP) family of CCCH tandem zinc finger proteins can bind directly to AU-rich elements in mRNAs and promote transcript deadenylation and decay.  The yeast Schizosaccharomyces pombe expresses a single TTP family member, Zfs1p, that has been linked to the mating response pathway and septum formation.  We showed previously that Zfs1p can bind to and promote the destabilization of AU-rich element-containing transcripts.  In this study, we identified additional target transcripts by comparing transcript levels in wild type and zfs1 mutant yeast, using deep sequencing and microarray approaches.  We also used direct RNA sequencing to determine the locations of the polyA tails in both wild type and mutant strains, and to confirm the presence of potential Zfs1p target sequences within the mRNA.  These studies identified a set of transcripts containing potential Zfs1p binding sites that accumulated significantly in the zfs1 mutants; a subset of these turned over more slowly in the zfs1 mutant strain, and bound directly to Zfs1p in co-immunoprecipitations.  One apparent direct target encodes the transcription factor Cbf12p, which is known to increase cell-cell adhesion and flocculation when over-expressed.  Studies of zfs1 and cbf12 double mutants demonstrated that the increased flocculation seen in zfs1 mutants is due, at least in part, to a direct effect on the turnover of cbf12 mRNA, leading in turn to changes in the levels of its transcriptionally regulated genes.  These data suggest that Zfs1p can both directly and indirectly regulate the levels of transcripts involved in cell-cell adhesion in this species.
+
+DESIGN
+Indicated strains were grown in YES media to approximately OD600=1.0 and total RNA was harvested, followed by polyA+ purification.  Three independent microarrays were performed: 1) Project 488 included 3 biological replicates each of WT and zfs1∆ and compared PolyA+ RNA, 2) Project 529 included 5 biological replicates each of WT and zfs1∆, and 3) Project 582  included 3 biological replicates each of WT, zfs1∆, cbf12∆, and zfs1∆cbf12∆.
+
+PLATFORM
+GPL2529 [Yeast_2] Affymetrix Yeast Genome 2.0 Array
+
+CITATIONS
+22907753
+

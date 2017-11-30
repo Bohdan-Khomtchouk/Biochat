@@ -1,0 +1,18 @@
+TITLE
+Quantitative Analysis of Alternative Spliced Variants in HNSCC
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Alternative splicing of pre-mRNA generates protein diversity and has been linked to cancer progression  and drug response. Exon microarray technology enables genome-wide quantication of expression levels  for the majority of exons and facilitates the discovery of alternative splicing events. Analysis of exon  array data is more challenging than gene expression data and there is a need for reliable quantication  of exons and alternative spliced variants. We introduce a novel, computationally efficient methodology,  MEAP, for exon array data preprocessing, analysis and visualization. We compared MEAP with other  preprocessing methods, and validation of the results show that MEAP produces reliable quantication  of exons and alternative spliced variants. Analysis of data from head and neck squamous cell carcinoma  (HNSCC) cell lines revealed several variants associated with 11q13 amplication, which is a predictive  marker of metastasis and decreased survival in HNSCC patients. Together these results demonstrate  the utility of MEAP in suggesting novel experimentally testable predictions. Thus, in addition to novel  methodology to process large-scale exon array data sets, our results provide several HNSCC candidate  genes for further studies.
+
+DESIGN
+We analyzed 15 samples using the Affymetrix Human Exon 1.0 ST platform, of which 7 samples have 11q13 amplification. Array data was preprocessed by using Multiple Exon Array Processing (MEAP).
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+21745820
+

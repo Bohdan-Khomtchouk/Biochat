@@ -1,0 +1,18 @@
+TITLE
+RNAseq and ChIPseq profiling of Foxn4 and Foxj1 in multiciliated cells
+
+ORGANISM
+Xenopus laevis
+
+SUMMARY
+Foxn4 and Foxj1 are expressed in multiciliated cells. Here, we dissect their role with knockdowns using two different technologies (morpholinos and CRISPR) and examine Foxn4 genomic binding sites in wild-type tissue and tissue converted entirely into multiciliated cells.
+
+DESIGN
+To examine Foxn4 and Foxj1's effect on multiciliated cells, we knocked them down in tissue where we also overexpressed an inducible form of multicilin (also known as mcidas; Stubbs et al., 2012). After injecting, we isolated ectoderm surgically and, when injected with multicilin, induced at mid-stage 11. We then harvested RNA or chromatin at 9 hours after induction, roughly corresponding to stage 18 and performed poly-a+  RNAseq (Illumina Truseq v2) or ChIPseq. We then aligned reads to X. laevis gene models (Mayball version, Chung and Kwon et al. 2014) or the genome (v7.1) and determined differential expression or binding targets. To determine differential expression, we compared RNAseq reads from ectoderm isolated from embryos injected with multicilin alone, as reported in Ma et al. 2014 (PMID: 24934224, NCBI GEO:GSE59309) with samples here injected with multicilin and Foxn4 or Foxj1 perturbations.
+
+PLATFORM
+GPL18936 Illumina HiSeq 2500 (Xenopus laevis)
+
+CITATIONS
+27864379
+

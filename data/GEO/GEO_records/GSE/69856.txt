@@ -1,0 +1,18 @@
+TITLE
+Polynucleotide phosphorylase can interact with small noncoding RNAs in both stabilizing and degradative modes
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+In all bacterial species examined thusfar, small regulatory RNAs (sRNAs) contribute to intricate patterns of genetic regulation. Many of the actions of these nucleic acids are mediated by chaperones such as the Hfq protein, and genetic screens have identified the exoribonuclease polynucleotide phosphorylase (PNPase) as a stabilizer and facilitator of sRNAs in vivo. We observe that the protective and facilitating effects of PNPase in vivo require the RNA-binding KH and S1 domains and the catalytic site, suggesting a requirement for physical interation of the ribonuclease with either the sRNA itself or other RNAs acting upstream of the process. Although purified PNPase can readily degrade sRNAs in vitro, those same substrates, as well as numerous other sRNAs and transcripts, can be co-purified from cells by immunoprecipitation with neither degradation nor modification to the 3’ end.  Our results indicate that PNPase can bind RNA in two modes in vivo – either destructive or stabilizing, and that there is active flux of RNAs on PNPase so that the stable molecules do not accumulate. In the presence of Hfq, PNPase and sRNA form a ternary complex in which the enzyme plays a non-destructive, structural role, but the complex does not confer protection against the action of RNase E in vitro. Taken together, our results indicate that PNPase, Hfq and additional factors form a protective ribonucleoprotein assembly that stabilizes certain sRNAs and facilitates their activities.
+
+DESIGN
+Using cells from the same original culture, immunoprecipitiations using the anti-FLAG M2 resin were performed in the presence or absence of tungstate.  Total RNA and immunoprecipitated RNA were sequenced from two independent biological replicates.  The number of normalized reads (RPKM) were compared between the total RNA (input) and the immunoprecipitated RNA (output).
+
+PLATFORM
+GPL15010 Illumina HiSeq 2000 (Escherichia coli str. K-12 substr. MG1655)
+
+CITATIONS
+26759452
+

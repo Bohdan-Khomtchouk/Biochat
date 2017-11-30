@@ -1,0 +1,18 @@
+TITLE
+Integrative Genomic Analysis Reveals Widespread Enhancer Regulation by p53 in Response to DNA Damage
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+The tumor suppressor p53 has been studied extensively as a direct transcriptional activator of protein-coding genes.  Recent studies, however, have shed light on novel regulatory functions of p53 within noncoding regions of the genome.  Here, we use a systematic approach that integrates transcriptome-wide differential expression analysis, genome-wide p53 binding profiles, chromatin state maps, and additional genomic features to characterize the global regulatory roles of p53 in response to DNA damage in both human and mouse fibroblast models.  In addition to known p53 targets, we identify many previously unappreciated mRNAs and long noncoding RNAs that are regulated by p53.  Moreover, we find that p53 binding events occur predominantly within enhancer elements in both human and mouse systems.  The ability to modulate enhancer activity offers an additional layer of complexity to the p53 network and greatly expands the diversity of genomic elements that are directly regulated by p53.
+
+DESIGN
+Human and Mouse fibroblasts cultured in the presence or absence of doxorubicin followed by RNA-Seq (Human:2 cell lines, each condition in duplicate; Mouse:MEF cell line,each condition in triplicate) and p53 ChIP-Seq (Human:2 cell lines, input and IP for each; Mouse:MEF cell line, input and IP)
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25883152
+

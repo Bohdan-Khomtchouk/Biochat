@@ -1,0 +1,18 @@
+TITLE
+Expression data for a study on cross-species hybridization on single-species microarrays
+
+ORGANISM
+Xenopus borealis ; Xenopus laevis ; Xenopus muelleri ; Xenopus laevis x Xenopus borealis
+
+SUMMARY
+Gene expression was examined in testis and brain tissue between two species (Xenopus laevis and Xenopus borealis) and their hybrid. Genomic DNA hybridizations of the microarray target and non-target species were used to select probes that are unbiased between species.
+
+DESIGN
+Gene expression: 3 biological replicates were used for each tissue type. Genomic hybridization: We used the ratio of probe gDNA hybridization intensities between the target and non-target species to create a probemask for expression data from these species. Genomic DNA was extracted from blood samples of several Xenopus individuals.  Xenopus laevis individuals were lab bread, Xenopus borealis individuals were from Kenya, and Xenopus muelleri individuals were from Swaziland.
+
+PLATFORM
+GPL1318 [Xenopus_laevis] Affymetrix Xenopus laevis Genome Array
+
+CITATIONS
+18815615
+

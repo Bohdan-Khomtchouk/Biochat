@@ -1,0 +1,18 @@
+TITLE
+Ago1 vs Ago2-IP small RNA deep-sequencing with age in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Drosophila miRNAs show distinct change in isoform distribution pattern with age. Some miRNAs show accumulation of the short isoforms, while other miRNAs show the accumulation of the long isoforms with age. The increase of the long isoforms of some miRNAs reflects increased 2'-O-methylated miRNA isoforms with age. The increase in 2'-O-methylated miRNA isoforms reflected increased Ago2-loading, but not Ago1-loading of specific miRNA isoforms with age. This raised a question on whether there is global shift in small RNA loading pattern between Ago1 and Ago2 with age. To investigate change in small RNA loading pattern between Ago1 and Ago2 with age, we performed small RNA deep-sequencing of Ago1 vs Ago2-IP small RNAs at 3d and 30d in Drosophila. This analysis revealed global increase of miRNA loading into Ago2, but not into Ago1 with age.
+
+DESIGN
+3d and 30d FLAG-HA-Ago2 male flies were collected. Ago1 and Ago2 were immunoprecipitated by anti-Ago1 and anti-FLAG M2 beads respectively. RNA was purified from the beads, P32-labeled, and small RNA fraction was gel-purififed. Small RNA libraries were prepared using Illumina's TruSeq small RNA sample preparation kit (#RS-200-0012, Illumina, Inc. San Diego, CA), following the manufacturer's protocol. The libraries were multiplexed and sequenced on HiSeq2000 platform (Illumina).
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+24395246
+

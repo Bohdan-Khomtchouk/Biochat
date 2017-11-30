@@ -1,0 +1,18 @@
+TITLE
+Instability of Acetate Kinase Mutants and Their Effects on Acetyl Phosphate and ATP Amounts in Streptococcus pneumoniae
+
+ORGANISM
+Streptococcus pneumoniae
+
+SUMMARY
+Acetyl phosphate (AcP) is a small-molecule metabolite that can act as a phosphoryl group donor for response regulators of two-component regulatory systems (TCSs). Streptococcus pneumoniae (pneumococcus) synthesizes AcP by the conventional pathway involving the phosphotransacetylase and acetate kinase enzymes encoded by the pta and ackA genes, respectively. In addition, pneumococcus synthesizes copious amounts of AcP and hydrogen peroxide (H2O2) by the pyruvate oxidase enzyme encoded by spxB. To access possible roles of AcP in pneumococcal TCS regulation and metabolism, we constructed combinations of spxB, pta, and ackA mutants and determined their ATP, AcP, and H2O2 production. Epistasis and microarray experiments were consistent with a role for the AcP biosynthetic pathway in basal-level phosphorylation of WalRSpn and possibly other response regulators involved in sensing cell wall status. However, this basal phosphorylation likely does not play an active physiological role in sensing in S. pneumoniae.
+
+DESIGN
+Bacteria were grown statically in Brain Heart Infusion media (Bacto BHI, Becton Dickinson) at 37C in an atmosphere of 5% CO2 to a culture density of OD620~0.1 and were processed as described in the related Sample records. Strain IU1781 (D39 rpsL1) served as the reference for all strain comparisons. Samples were collected from the indicated number of independent biological replicates: 1) WalK-Janus_vsWT (Winkler strain IU1885 versus IU1781), 2 replicates including one dye swap 2) DeltaSpxB_vsWT (Winkler strain IU2173 versus IU1781), 2 replicates including one dye swap 3) DeltaPta_vsWT (Winkler strain IU2687 versus IU1781), 3 replicates including one dye swap 4) DeltaSpxBPta_vsWT (Winkler strain IU2689 versus IU1781), 2 replicates including one dye swap 5) DeltaSpxBPtaAckA_vsWT (Winkler strain IU2837 versus IU1781), 4 replicates including two dye swaps 6) DeltaSpxBPtaAckAWalK_vsWT (Winkler strain IU3107 versus IU1781), 2 replicates including one dye swap 7) DeltaSpxBAckA_vsWT (Winkler strain IU3590 versus IU1781), 2 replicates including one dye swap 8) DeltaSpxBAckAWalK_vsWT (Winkler strain IU4319 versus IU1781), 1 replicate. Data were analyzed using software from the TM4 Microarray Software Suite (www.tm4.org). GenePix results files (.gpr) were converted to TIGR MultiExperiment Viewer file format (.mev) using ExpressConverter 2.1 software and median spot intensities. Lowess (block) normalization was performed on non-background subtracted data using TIGR MIDAS 2.21 software. For strain comparisons replicated at least three times, the cut-off for statistical significance of differential expression was set at Bayesian P =0.001 and an average up or down fold change of at least 1.8 fold. For strain comparisons replicated two times, the cut-off for statistical significance of differential expression was set at an average up or down fold change of at least 1.8 fold. In addition, we required that the value obtained upon addition or subtraction of the standard error of the mean (SEM) from the average fold change was -1.7 or smaller (for negative fold changes) or 1.7 or greater (for positive fold changes).
+
+PLATFORM
+GPL536 MWG Streptococcus pneumoniae Array
+
+CITATIONS
+20952579
+

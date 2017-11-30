@@ -1,0 +1,18 @@
+TITLE
+RNA-binding profiles of Drosophila CPEB proteins Orb and Orb2
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Localized protein translation is critical in many biological contexts, particularly in highly polarized cells, such as neurons, to regulate gene expression in a spatiotemporal manner. The cytoplasmic polyadenylation element-binding (CPEB) family of RNA-binding proteins has emerged as a key regulator of mRNA transport and local translation required for early embryonic development, synaptic plasticity, and long-term memory (LTM). Drosophila Orb and Orb2 are single members of the CPEB1 and CPEB2 subfamilies of the CPEB proteins, respectively. At present, the identity of the mRNA targets they regulate is not fully known, and the binding specificity of the CPEB2 subfamily is a matter of debate. Using transcriptome-wide UV cross-linking and immunoprecipitation, we define the mRNA-binding sites and targets of Drosophila CPEBs. Both Orb and Orb2 bind linear cytoplasmic polyadenylation element-like sequences in the 3′ UTRs of largely overlapping target mRNAs, with Orb2 potentially having a broader specificity. Both proteins use their RNA-recognition motifs but not the Zinc-finger region for RNA binding. A subset of Orb2 targets is translationally regulated in cultured S2 cells and fly head extracts. Moreover, pan-neuronal RNAi knockdown of these targets suggests that a number of these targets are involved in LTM. Our results provide a comprehensive list of mRNA targets of the two CPEB proteins in Drosophila, thus providing insights into local protein synthesis involved in various biological processes, including LTM.
+
+DESIGN
+PAR/iCLIP was performed in Orb or Orb2 transfected S2 cells with high-throughput sequencing in 4 to 7 replicates, two replicates of background mRNAseq of untransfected and Orb2-transfected S2 cells were done. B-isoxasole precipitation and RNA-Seq from both pellet and supernatant fractions were made.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+27791065
+

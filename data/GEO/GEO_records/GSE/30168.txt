@@ -1,0 +1,18 @@
+TITLE
+Expression profiles of the NuB4/HAT-B complex and histone knockouts
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Dynamic modification of histone proteins plays a key role in regulating gene expression. However, histones themselves can also be dynamic, which potentially affects the stability of histone modifications. To determine the molecular mechanisms of histone turnover we developed a parallel screening method for epigenetic regulators by analyzing chromatin states on DNA barcodes. Histone turnover was quantified by employing a genetic pulse-chase technique called RITE, which was combined with chromatin immunoprecipitation and high-throughput sequencing. In this screen, the NuB4/HAT-B complex, containing the conserved type B histone acetyltransferase Hat1, was found to promote histone turnover. Unexpectedly, the three members of this complex could be functionally separated from each other as well as from the known interacting factor and histone chaperone Asf1. Thus, systematic and direct interrogation of chromatin structure on DNA barcodes can lead to the discovery of genes and pathways involved in chromatin modification and dynamics.
+
+DESIGN
+RNA isolated from a large amount of wt yeast from a single culture was used as a common reference. This common reference was used for each separate hybridization and used in the statistical analysis to obtain an average expression-profile for each deletion mutant relative to the wt. Two independent cultures were hybridized on two separate microarrays. For the first hybridization the Cy5 (red) labeled cRNA from the deletion mutant is hybridized together with the Cy3 (green) labeled cRNA from the common reference. For the replicate hybridization, the labels are swapped. Each gene is represented twice on the microarray, resulting in four measurements per mutant. Up to five deletion strains were grown on a single day. Wt cultures were grown parallel to the deletion mutants to assess day-to-day variance.
+
+PLATFORM
+GPL11232 A-UMCU-Y16k-1.3
+
+CITATIONS
+21998594
+

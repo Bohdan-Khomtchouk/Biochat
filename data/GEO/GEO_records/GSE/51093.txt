@@ -1,0 +1,18 @@
+TITLE
+ChIP-Seq analysis of RpaA binding dynamics
+
+ORGANISM
+Synechococcus elongatus PCC 7942
+
+SUMMARY
+The response regulator RpaA is required for control of genome-wide gene expression by the cyanobacterial circadian clock.  RpaA is predicted to be a DNA binding protein based on sequence homology, but prior studies have been unable to detect binding in vitro or in vivo to a small panel of promoters.  We used ChIP-Seq to determine whether RpaA associates with DNA in vivo, and if so, with what dynamics.  We find that RpaA binds to over 100 location in the genome in a circadian manner, with strongest binding occuring around subjective dusk.  Analysis of these binding sites shows that RpaA directly regulates the expression of clock components to generate feedback on the core oscillator, and also regulates expression of a small set of circadian effectors that in turn orchestrate global expression rhythms.
+
+DESIGN
+Crosslinked samples were acquired every four hours from a turbidostatic wild-type (AMC408) cultures in constant light (LL) following entrainment with two light-dark (LD) cycles.  As a negative control, we acquired samples similarly from an ΔrpaA culture.  Chromatin immunoprecipitation was performed on each sample from wht wild-type and from a pool of all samples from the ΔrpaA culture.  Libraries were prepared from the ChIP samples and sequenced with Illumina technology.  For the wild-type, biological replicate samples were acquired at times of maximum and minimum RpaA binding.
+
+PLATFORM
+GPL13530 Illumina Genome Analyzer II (Synechococcus elongatus PCC 7942) GPL16957 Illumina HiSeq 2000 (Synechococcus elongatus PCC 7942) GPL17750 Illumina HiSeq 2500 (Synechococcus elongatus PCC 7942)
+
+CITATIONS
+24315105
+

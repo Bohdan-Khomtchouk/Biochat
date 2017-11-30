@@ -1,0 +1,18 @@
+TITLE
+Base-resolution analyses of parent-of-origin and sequence dependent allele specific DNA methylation in the mouse genome (RNA-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Allele specific DNA methylation (ASM) is crucial for genomic imprinting and mammalian development. Here we present a base-resolution, genome-wide allelic DNA methylation map for both CG and non-CG sites in the mouse brain. We found parent-of-origin dependent (imprinted) ASM at 1,952 CGs which form 55 discrete clusters. This uncovers 31 reported differentially methylated regions (DMRs), including virtually all known germline DMRs, and 24 novel candidate DMRs with some occurring at microRNA genes. In the same adult tissue we also report a surprising presence of non-CG methylation with some showing evidence of imprinting. Finally, we identified sequence dependent ASM at 131,765 CGs. Interestingly, methylation at these sites exhibits a strong dependence on the immediate adjacent bases, allowing us to define a conserved sequence preference for the mammalian DNA methylation machinery. Our genome-wide ASM map should help with understanding the epigenetic differences between two parental genomes in mammals.
+
+DESIGN
+The crosses of the two mouse strains 129x1/SvJ (129) and Cast/EiJ (Cast) were performed at Jackson Laboratories ( http://jaxmice.jax.org/ ) and the male mice F1 offspring and males of each of the two parental strains were shipped to investigator laboratories at 8 to 9 weeks of age.  The frontal cortex from the F1 crosses of the two mouse lines was dissected and the RNA was isolated followed by two DNAseI treatments to remove DNA contaminant. The presence of DNA in the RNA was tested using quantitative PCR and probes designed to span exons.  The quality of the RNA was determined by the Agilent 2100 Bioanalyzer prior to the construction of the libraries.  RNA was treated with RiboMinus (Invitrogen, Carlsbad CA) to remove the ribosomal RNA.  The methods for the preparation of the libraries are outlined in the Whole Transcriptome library preparation for SOLiD sequencing protocol (https://www3.appliedbiosystems.com/cms/groups/mcb_support/documents/generaldocuments/cms_065852.pdf). Briefly, RNA depleted of ribosomal RNA was fragmented using RNAseIII. Purified RNA was hybridized and ligated to primers then converted to cDNA using reverse transcriptase.  The cDNA was size selected to contain 50 to 150 bp inserts then purified and amplified prior to sequencing. Libraries were constructed with RNA from three independent mice (3 biological replicates) for each of the experimental crosses. Sequencing was performed at EdgeBio ( http://www.edgebio.com/ ) and the data from the 3 mice for each experimental cross line were combined given the high correlation between each of the libraries (R > 0.98).
+
+PLATFORM
+GPL10010 AB SOLiD System (Mus musculus)
+
+CITATIONS
+22341451
+

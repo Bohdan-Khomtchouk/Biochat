@@ -1,0 +1,18 @@
+TITLE
+Cyp27c1 red-shifts the spectral sensitivity of photoreceptors by converting vitamin A1 into A2
+
+ORGANISM
+Danio rerio ; Rana catesbeiana
+
+SUMMARY
+The goal of this project was to identify the dehydrogenase enzyme that converts vitamin A1 into A2, resulting in red-shifted spectral sensitivity of the visual system.  We conducted next-generation sequencing of mRNA derived from the retinal pigment epithelium (RPE) of two animal models that use vitamin A2 as a chromophore to identify this enzyme. Zebrafish switch from vitamin A1 to A2 when treated with thyroid hormone, so we profiled the RPE from TH- and vehicle-treated zebrafish (n=3). The adult American bullfrog sequesters vitamin A2 within the dorsal part of the retina, but lacks vitamin A2 in the ventral retina. We therefore also profiled dorsal and ventral American bullfrog RPE (n=3). Using this approach, we identified cytochrome p450 family member cyp27c1 as strongly enriched in both datasets, and determined through additional experiments that cyp27c1 is both necessary and sufficient for vitamin A2 production.
+
+DESIGN
+Differential gene expression analysis in TH-treated vs. control zebrafish RPE and dorsal vs. ventral bullfrog RPE, conducted in triplicate
+
+PLATFORM
+GPL18413 Illumina HiSeq 2500 (Danio rerio) GPL20247 Illumina HiSeq 2500 (Rana catesbeiana)
+
+CITATIONS
+26549260
+

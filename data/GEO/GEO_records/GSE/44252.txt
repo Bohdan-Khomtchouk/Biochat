@@ -1,0 +1,18 @@
+TITLE
+Expression data from mouse ES cells after control RNAi (scramble siRNAs) or specific RNAi (siRNAs for specific genes) treatment
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To address the functional role of MOF in mammalian X upregulation, male and female mouse ES cells were transfected with a mixture of three small interfering RNA duplexes, each of which targets a different region of Mof mRNA. We found that MOF knockdown in mouse ES cells caused a greater drop in expression of X-linked genes compared to autosomal genes, as measured by expression array analyses. The strongest effect was observed on medium-expressed X-linked genes. We next examined components of the two known MOF protein complexes, MSL1 (male-specific lethal1) and NSL1 (nonspecific lethal1). Knockdown of MSL1 but not NSL1 in undifferentiated female ES cells PGK12.1 specifically caused a decrease in expression levels of X-linked genes. Cells co-transfected with both MOF and MSL1 siRNAs had similar expression changes to MSL1 knockdown alone, indicating that these components probably operate within the same complex but are not additive. Our findings that key components of the MSL but not NSL complex play a role in upregulation of mammalian X-linked genes in ES cells.
+
+DESIGN
+Mouse ES cells were treated by Invitrogen scramble siRNA duplexes or specific siRNA duplexes and used for RNA extraction and hybridization on Affymetrix microarrays. Six RNA samples from two independent double-RNAi treatments and one single-RNAi treatment in undifferentiated female ES cells PGK12.1, and RNA samples from two single-RNAi treatments in undifferentiated male ES cells WD44 or E14 were assayed for expression changes by arrays. RNA samples from three MSL1RNAi treatments, two MOF/MSL1RNAi treatments and three NSL1RNAi treatments in undifferentiated female ES cells PGK12.1 were assayed by arrays.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23523075
+

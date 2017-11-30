@@ -1,0 +1,18 @@
+TITLE
+Biofilm dispersal of Hha13D6 vs. Hha and biofilm formation of Hha24E9 vs. Hha in E.coli K-12 BW25113 hha mutant in LBglu at 37oC
+
+ORGANISM
+Escherichia coli K-12
+
+SUMMARY
+The global transcriptional regulator Hha of Escherichia coli controls hemolysin activity, biofilm formation, and virulence expressions.  Earlier, we have reported that Hha represses initial biofilm formation and disperses biofilms as well as controls prophage excision in E. coli.  Since biofilm dispersal is a promising area to control biofilms, here we rewired Hha to control biofilm dispersal and formation.  The Hha variant Hha13D6 was obtained to have enhanced biofilm dispersal activity along with increased toxicity compared to wild-type Hha (Hha13D6 induces dispersal 60%, whereas wild-type Hha induces dispersal at early biofilms but not at mature biofilms).  Toxic Hha13D6 caused cell death probably by the activation of proteases HslUV, Lon, and PrlC, and deletion of protease gene hslV with overproducing Hh13D6 repressed biofilm dispersal, indicating Hha13D6 induces biofilm dispersal through the activity of protease HslV.  Furthermore, another Hha variant Hha24E9 was also obtained to decrease biofilm formation 4-fold compared to wild-type Hha by regulation of gadW, glpT, and phnF.  However, the dispersal variant Hha13D6 did not decrease biofilm formation, while the biofilm variant Hha24E9 did not induce biofilm dispersal.  Hence, Hha may have evolved two ways in response to environmental factors to control biofilm dispersal and formation, but both controlling mechanisms come from different regulatory systems.
+
+DESIGN
+For the whole-transcriptome study of BW25113 hha/pCA24N-hha13D6 versus BW25113 hha/pCA24N-hha biofilm dispersal, cells were grown in 250 mL of LB glucose (0.2%) for 16 h at 125 rpm with 10 g of glass wool (Corning Glass Works, Corning, NY, USA) in 1 L Erlenmeyer flasks to form a robust biofilm (Ren et al., 2004) and incubated an additional 1 h with 1 mM IPTG to induce wild-type Hha and Hha13D6.  Similarly, for the whole transcriptome study of BW25113 hha/pCA24N-hha24E9 versus BW25113 hha/pCA24N-hha biofilm formation, cells were grown in 250 mL of LB glucose (0.2%) containing 1 mM IPTG for 7 h at 250 rpm with 10 g of glass wool to form biofilms.  Biofilm cells were obtained by rinsing and sonicating the glass wool in sterile 0.85% NaCl solution at 0°C, and RNALater buffer® (Applied Biosystems, Foster City, CA, USA) was added to stabilize RNA during the RNA preparation steps.  Total RNA was isolated from biofilm cells using a bead beater (Biospec, Bartlesville, OK, USA).  cDNA synthesis, fragmentation, and hybridizations to the E. coli GeneChip Genome 2.0 array (Affymetrix, Santa Clara, CA, USA; P/N 511302).  Genes were identified as differentially expressed if the expression ratio was higher than the standard deviation: 2.0-fold (induced and repressed) cutoff for Hha13D6 DNA microarrays (standard deviation 1.3-fold) and 10.0-fold (induced) or 4.0-fold (repressed) for Hha24E9 DNA microarrays (standard deviation 4.0-fold), and if the p-value for comparing two chips was less than 0.05.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+21255366
+

@@ -1,0 +1,18 @@
+TITLE
+Identification of candidate genes regulated by E4bp4 in murine bone marrow
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+E4bp4 is essential for the development of natural killer (NK) cells. We sought to identify downstream targets of E4bp4 by comparing mRNA expression in wild type vs. E4bp4 knockout Lineage-depleted bone marrow, which is enriched for haematopoietic progenitor cells. We then went on to validate these targets using real time PCR, genetic complementation assays and ChIP
+
+DESIGN
+Total RNA was extracted from linege-depleted bone marrow from six wild type and six E4bp4 knockout mice. Labelled cDNA was hybridised to a GeneChip Mouse Gene 1.0 ST Array. The data generated was imported into GeneSpring GXv11 (Agilent) and normalised using the Robust Multi-Array (RMA16) algorithm. Genes were filtered on expression value between 20th and 100th percentile to remove those with very low or no expression across all the samples. A moderated t-test was applied to the data and p values were adjusted for multiple testing using a Benjamini-Hochberg False Discovery Rate correction.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24663216
+

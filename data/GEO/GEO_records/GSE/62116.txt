@@ -1,0 +1,18 @@
+TITLE
+Validation of a genomic classifier that predicts metastasis following radical prostatectomy in at risk patient population
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Patients with locally advanced prostate cancer after radical prostatectomy are candidates for secondary therapy. However, this higher risk population is heterogeneous. Many cases do not metastasize even when conservatively managed. Given the limited specificity of pathological features to predict metastasis, newer risk prediction models are needed. We report a validation study of a genomic classifier that predicts metastasis after radical prostatectomy in a high risk population. Method:A case-cohort design was used to sample 1,010 patients after radical prostatectomy at high risk for recurrence who were treated from 2000 to 2006. Patients had preoperative prostate specific antigen greater than 20 ng/ml, Gleason 8 or greater, pT3b or a Mayo Clinic nomogram score of 10 or greater. Patients with metastasis at diagnosis or any prior treatment for prostate cancer were excluded from analysis. A 20% random sampling created a subcohort that included all patients with metastasis. We generated 22-marker genomic classifier scores for 235 patients with available genomic data. ROC and decision curves, competing risk and weighted regression models were used to assess genomic classifier performance.
+
+DESIGN
+Patients treated with RP between 2000 and 2006 were identified from the Mayo Clinic tumor registry for a case-cohort study design. This involved identification of all patients with metastasis and a representative of the full cohort .Thus, men at high risk of recurrence post-RP (open/robotic) with no prior neoadjuvant/prostate cancer treatment were selected based on any of preoperative PSA > 20 ng/mL, pathological Gleason score (GS) ≥8, SVI, or GPSM (GS; preoperative PSA; SVI; margins) score ≥10.The cohort of 1,010 men included 73 cases with metastasis as evidenced by CT or bone scan. A 20% random sample (n=202) was drawn from the cohort. This included 19 of 73 metastatic cases. To increase sampling of metastasis, the remaining 54 metastatic cases were added, resulting in a final study set of 256 patients. 21 samples did not pass QC and were eliminated from this study. Patients not experiencing metastasis regardless of BCR (defined as follow-up PSA ≥0.4 ng/mL > 30 days post-RP) were censored at last follow-up. The study was approved by Mayo Clinic Institutional Review Board.
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+23770138 , 26246306 , 26631616
+

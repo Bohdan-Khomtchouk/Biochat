@@ -1,0 +1,18 @@
+TITLE
+Identification of rheumatoid arthritis and osteoarthritis patients by transcriptome-based rule set generation [Jena]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Discrimination of rheumatoid arthritis (RA) patients from patients with other inflammatory/degenerative joint diseases or healthy individuals purely on the basis of genes differentially expressed in high-throughput data has proven very difficult. Thus, the present study sought to achieve such discrimination by employing a novel unbiased approach using rule-based classifiers.  Three multi-center genome-wide transcriptomic data sets (Affymetrix HG- U133 A/B) from a total of 79 individuals, including 20 healthy controls (control group - CG), as well as 26 osteoarthritis (OA) and 33 RA patients, were used to infer rule- based classifiers to discriminate the disease groups. The rules were ranked with respect to Kiendl’s statistical relevance index, and the resulting rule set was optimized by pruning. The rule sets were inferred separately from data of one of three centers and applied to the two remaining centers for validation. All rules from the optimized rule sets of all centers were used to analyze their biological relevance applying the software Pathway Studio. The optimized rule sets for the three centers contained a total of 29, 20, and 8 rules (including 10, 8, and 4 rules for ‘RA’), respectively. The mean sensitivity for the prediction of RA based on six center-to-center tests was 96% (range 90% to 100%), that for OA 86% (range 40% to 100%). The mean specificity for RA prediction was 94% (range 80% to 100%), that for OA 96% (range 83.3% to 100%). The average overall accuracy of the three different rule-based classifiers was 91% (range 80% to 100%). Unbiased analyses by Pathway Studio of the gene sets obtained by discrimination of RA from OA and CG with rule-based classifiers resulted in the identification of the pathogenetically and/or therapeutically relevant interferon-gamma and GM-CSF pathways.  First-time application of rule-based classifiers for the discrimination of RA resulted in high performance, with means for all assessment parameters close to or higher than 90%. In addition, this unbiased, new approach resulted in the identification not only of pathways known to be critical to RA, but also of novel molecules such as serine/threonine kinase 10.
+
+DESIGN
+Three multi-center genome-wide transcriptomic data sets (Affymetrix HG- U133 A/B) from a total of 79 individuals, including 20 healthy controls (control group - CG), as well as 26 osteoarthritis (OA) and 33 RA patients, were used to infer rule- based classifiers to discriminate the disease groups. The rules were ranked with respect to Kiendl’s statistical relevance index, and the resulting rule set was optimized by pruning. The rule sets were inferred separately from data of one of three centers and applied to the two remaining centers for validation. All rules from the optimized rule sets of all centers were used to analyze their biological relevance applying the software Pathway Studio.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+24690414
+

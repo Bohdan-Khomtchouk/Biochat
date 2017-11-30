@@ -1,0 +1,18 @@
+TITLE
+Coordinating Expression of RNA Binding Proteins with Their mRNA Targets
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Post-transcriptional regulation by RNA binding proteins (RBPs) plays prominent roles in a variety of biological processes. In this study, by analyzing the global regulatory relationship between RBPs and their target mRNAs in yeast, we discovered that most RBP genes are co-regulated with their target genes, but the RBPs tend to dampen expression variation among their target mRNAs. We further examined a well-studied RBP gene, PUF3, and found that the protein decreases the variation of its target mRNAs by differentially affecting their decay. Our results provided new insights into the functional importance of RBPs in coordinating their target genes expression.
+
+DESIGN
+Both the PUF3 deletion strain and wild type BY4742 (MATa, his3Δ1, leu2Δ0, met15Δ0, ura3Δ0) strain were cultured overnight in YPD media. 0.01 OD cells were transferred into fresh YPEG media until 1.0 OD. Total RNA was extracted by the standard Trizol protocol. mRNA was then purified using oligo-dT DynaBeads. cDNA sequencing library was constructed according to the protocol described by Wang et al. After sequencing, the reads were also mapped into S. cerevisiae genome by SOAP2 with no more than two mismatches. RPKM was used to represent the expression level of each gene.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+25417751
+

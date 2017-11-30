@@ -1,0 +1,18 @@
+TITLE
+Widely Interspaced Zinc Finger Motifs, Wiz, binds active promoters and CTCF-binding sites and is required for normal neural function in the mouse
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mice heterozygous for a null mutation in Widely-interspaced zinc finger, Wiz, were produced in a screen for modifiers of epigenetic reprogramming; expression of the GFP reporter transgene decreased in mutants, suggesting a role in transcriptional activation (Daxinger et al., 2013). These mice are viable and fertile, with no overt abnormalities and homozygosity for the mutation is embryonic lethal (Daxinger et al, 2013). Wiz is expressed at high levels in the brain, both in the embryo and in the adult, but there have been no reports of its role in neural tissue. To address this, ChIP-seq, using an anti-Wiz antibody, was carried out in adult cerebellum. Wiz peaks were found at tens of thousands of sites across the genome, many of which are gene promoters that show enrichment for the pioneer transcription factor CTCF. RNA-seq, using WizMommeD30/+ and Wiz+/+ mice, revealed that some genes were affected by haploinsufficiency of Wiz; ~30 in the brains of mid-gestation embryos and ~80 in adult cerebellum. Most genes that were deregulated in embryonic brain of heterozygous mutants decreased in expression and include a group of clustered protocadherin genes that were also down-regulated in adult cerebellum. The enhancer of this gene cluster has a strong Wiz peak in the ChIP-seq data and has been reported, by others, to be activated by CTCF in neurons.
+
+DESIGN
+Examination of Wiz binding using ChIP sequencing and the result of Wiz haploinsufficiency using RNA sequencing, in mouse neural tissues.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+27410475
+

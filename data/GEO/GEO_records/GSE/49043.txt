@@ -1,0 +1,18 @@
+TITLE
+Dampening of expression oscillations by synchronous regulation of a microRNA and its target
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+The complexity of metazoan organisms requires precise spatiotemporal regulation of gene expression during development. To identify different modes of developmental gene regulation we measured the transcriptome throughout development of the nematode Caenorhabditis elegans by mRNA sequencing with high temporal resolution. We find that approximately 2,000 transcripts undergo expression oscillations synchronized with larval transitions while thousands of genes are expressed in temporal gradients, similar to known timing regulators. By counting transcripts in individual animals, we show that the pulsatile expression of the microRNA (miRNA) lin-4 maintains the temporal gradient of its target lin-14 by dampening its expression oscillations. Our results demonstrate that this insulation is optimal when pulsatile expression of the miRNA and its target is synchronous. We propose that such a miRNA-mediated incoherent feed-forward loop is a potent filter that prevents propagation of potentially deleterious gene expression fluctuations during the development of an organism.
+
+DESIGN
+We analyzed RNA-seq data of wild-type worms at two different temperatures, 20C and 25C, from samples picked every 2hrs and 1.5 hrs, resspectively, spanning all larval stages (L1,L2,L3,L4). At 20C we picked samples for L1-L3 (sample DH2: 0 hrs to 38 hrs) and for L4 (sample DH5: 38 hrs to 48 hrs) from independent populations. At 25C, all samples were picked from the same worm population (sample DH3: 0 hrs to 28.5 hrs). This time course ends at 28.5 hrs since at higher temperature nematode development is accelarated. Finally, we measured mRNA expression at 20C in a lin-4 knockout mutant worm (lin-4(e912)), again spanning all larval stages (sample DH4: 0 hrs to 48 hrs). Each sequencing sample consisted of a mixture of all time points with mRNA from different time points barcoded with Illumina barcodes and was sequenced on one or more lanes (DH2: 3 lanes; DH3: 3 lanes; DH4: 4 lanes; DH5: 1 lane) of an Illumina HiSeq2000.
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+24036951
+

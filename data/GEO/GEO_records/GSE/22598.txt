@@ -1,0 +1,18 @@
+TITLE
+Clinical significance of UNC5B Expression in Colorectal Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose and Experimental Design: The purpose of this study is to find a methylation-related gene that could become a biomarker or therapeutic target in colorectal carcinoma (CRC). We screened candidate genes suspected to be silenced by DNA methylation using oligonucleotide microarray analysis. To investigate the clinical significance of one candidate gene (UNC5B), we analyzed the correlation between mRNA expression and clinicopathological features using clinical tissue samples. Finally, methylation specific PCR analysis was performed to reveal whether the promoter region was methylated in CRC cell lines.  Results: We found 75 candidate genes that were potentially suppressed by DNA methylation in CRC. We focused on UNC5B, a possible tumor suppressor gene and regulator of apoptosis known to be inactivated in CRC. The mRNA expression analysis using tissue samples revealed that UNC5B mRNA was down-expressed in about 20% of CRC patients, and the patients with low-UNC5B-expression tumors showed a significantly higher recurrence rate after curative surgery. According to the univariate and multivariate analysis, low UNC5B expression was an independent risk factor for postoperative recurrence in stage I, II, and III CRC patients. Furthermore, patients with low expression of UNC5B in tumors had significantly poorer prognosis than those with high expression of UNC5B. Although UNC5B mRNA expression was restored by the demethylation treatment in CRC cell lines, the promoter region of UNC5B was not methylated.  Conclusion: UNC5B is a potential biomarker for the selection of patients with high risk of postoperative recurrence and worse prognosis in CRC.
+
+DESIGN
+Gene expression profiles for 17 pairs of cancer and non-cancerous tissues from colorectal cancer patients were measured by Affymetrix HG-U133 Plus 2.0 arrays. HT29 and HCT15 cells were also used to investigate genes upregulated after 5-aza-2'-deoxycytidine treatment. Normalization was performed by robust multi-array average (RMA) method under R 2.6.2 statistical software with affy package from BioConductor. The normalization procedure was separately performed for each data set of clinical samples, HT29 cells, and HCT15 cells. The normalized gene expression levels were presented as log2-transformed values by RMA.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+21922135
+

@@ -1,0 +1,18 @@
+TITLE
+Inferring transcriptional and microRNA-mediated regulatory programs in glioblastoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Large-scale cancer genomics projects are profiling hundreds of tumors at multiple molecular layers, including copy number, mRNA and miRNA expression, but the mechanistic relationships between these layers are often excluded from computational models.  We developed a supervised learning framework for integrating molecular profiles with regulatory sequence information to reveal regulatory programs in cancer, including miRNA-mediated regulation. We applied our approach to 320 glioblastoma profiles and identified key miRNAs and transcription factors as common or subtype-specific drivers of expression changes.  We confirmed that predicted gene expression signatures for proneural subtype regulators were consistent with in vivo expression changes in a PDGF-driven mouse model.  We tested two predicted proneural drivers, miR-124 and miR-132, both underexpressed in proneural tumors, by overexpression in neurospheres and observed a partial reversal of corresponding tumor expression changes.  Computationally dissecting the role of miRNAs in cancer may ultimately lead to small RNA therapeutics tailored to subtype or individual.
+
+DESIGN
+miRNA mimetics were transfected to PDGFRA amplified neurosphere cell lines. Gene expression was measured 24 hours after transfection
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+22929615
+

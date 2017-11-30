@@ -1,0 +1,18 @@
+TITLE
+Expression data from Hodgkin lymphoma cell lines UHO-1 and L-1236 transduced with shRNAs against GATA-3 or non-functional control shRNAs
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The transcription factor network in Hodgkin lymphoma (HL) represents a unique composition of proteins found in no other hematopoietic cell. Among these factors, an aberrant expression of the T cell transcription factor GATA-3 is observed in the B cell-derived Hodgkin and Reed/Sternberg (HRS) tumor cells. Herein, we elucidated the regulation and function of this factor in HL To obtain a more comprehensive overview of GATA-3 regulated genes in cHL cell lines, we performed a gene chip analysis comparing gene expression in GATA-3-specific shRNA-transduced L-1236 and U-HO1 cells compared to samples transduced with vectors encoding scrambled shRNAs.
+
+DESIGN
+12 Total samples were analyzed. Three independent samples were analyzed per condition and cell line.We generated the following pairwise comparisons using Bioconductor: shRNA Gata-3 UHO-1 < control shRNA UHO-1; shRNA Gata-3 L1236 < control shRNA L-1236. Genes with an FDR≤ 25% and a fold-change ≥ 1.5 and ≤ -1.5 were selected.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+20660789
+

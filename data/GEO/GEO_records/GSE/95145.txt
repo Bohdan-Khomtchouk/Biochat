@@ -1,0 +1,18 @@
+TITLE
+NF45 and NF90/NF110 coordinately regulate ESC pluripotency and differentiation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+While years of investigation have elucidated many aspects of embryonic stem cell (ESC) regulation, the contributions of post-transcriptional and translational mechanisms to the pluripotency network remain largely unexplored. In particular, little is known in ESCs about the function of RNA binding proteins (RBPs), the protein agents of post-transcriptional regulation. We performed an unbiased RNAi screen of RBPs in an ESC differentiation assay and identified two related genes, NF45 (Ilf2) and NF90/NF110 (Ilf3), whose knockdown promoted differentiation to an epiblast-like state. Characterization of NF45 KO, NF90+NF110 KO, and NF110 KO ESCs showed that loss of NF45 or NF90+NF110 impaired ESC proliferation and led to dysregulated differentiation down embryonic lineages. Additionally, we found that NF45 and NF90/NF110 physically interact and influence the expression of each other at different levels of regulation. Globally across the transcriptome, NF45 KO ESCs and NF90+NF110 KO ESCs show similar expression changes. Moreover, NF90+NF110 RNA immunoprecipitation (RIP)-seq in ESCs suggested that NF90/NF110 directly regulate proliferation, differentiation, and RNA-processing genes. Our data support a model in which NF45, NF90, and NF110 operate in feedback loops that enable them, through both overlapping and independent targets, to help balance the push and pull of pluripotency and differentiation cues.
+
+DESIGN
+We performed RNA-seq in NF45 KO and NF45 WT mouse embryonic stem cells (ESCs) with 2 biological replicates for each condition. We also performed NF90/NF110 RNA immunoprecipitation and sequencing (RIP-seq) in NF110 KO, NF90+NF110 KO, and NF90/NF110 WT mouse ESCs. Each NF90/NF110 RIP-seq experiment contains paired input (total RNA) and IP samples; and RIP-seq experiments were repeated in biological triplicate.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28487382
+

@@ -1,0 +1,18 @@
+TITLE
+FOXO3 regulates gene expression from distal enhancers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+FOXO transcription factors are key players in diverse cellular responses affecting tumorigenesis, stem cell maintenance and lifespan. To gain insight into mechanisms of FOXO regulated gene expression, we studied genome-wide effects of FOXO3 activation. Profiling RNA polymerase II (RNAPII) changes shows FOXO3 regulates gene expression through transcription initiation. Correlative analysis of FOXO3 and RNAPII ChIP-seq profiles demonstrates FOXO3 to act as a transcriptional activator. Furthermore, this analysis reveals a significant part of FOXO3 gene regulation proceeds through enhancer regions. FOXO3 binds to and activates enhancers as shown by the presence of and changes in enhancer-specific histone modifications and RNAPII occupancy. In addition, FOXO3-mediated enhancer regulation correlates with regulation of adjacent genes and existence of chromatin loops between FOXO3 bound enhancers and regulated genes. Combined, our data elucidate how FOXOs regulate gene transcription and provide insight into mechanisms by which FOXOs can induce different gene expression programs depending on chromatin architecture.
+
+DESIGN
+seven 4C view point were analyzed on DLD1 colon carcinoma cells containing 4OH-Tamoxifen inducible FOXO3A3-ER (DL23 cells, Kops et al., 2002, Mol Cell Biol), to investigate 3D topology around FOXO3 bound regions and FOXO3 regulated genes before and 4 hours after addition of tamoxifen. 4C procedure, as published before (Splinter et al., 2001, Genes Dev). Cells are cross linked using 1% formaldehyde for 10min at room temperature, nuclei are isolated, after which chromatin is digested with DpnII and subsequently ligated under diluted conditions. After reversal of the cross links the DNA is purified and treated with the second restriction enzyme treatment (Csp). After a second re-ligation step the sample is purified and ligated fragments are analyzed by inverse PCR.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+23340844
+

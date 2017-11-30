@@ -1,0 +1,18 @@
+TITLE
+Identification of the fludioxonil-responsive genes dependent on SskA, SrrA, HogA, and AtfA in Aspergillus nidulans
+
+ORGANISM
+Aspergillus nidulans
+
+SUMMARY
+Microarray analysis was used to identify the fludioxonil-responsive genes dependent on SskA, SrrA, HogA, and AtfA in the filamentous fungus Aspergillus nidulans. In order to identify such genes, we conducted the several types of experiment. One was a comparison between  wild type treated with fludioxonil and without the treatment (Exp.1). Others were comparison between wild type treated with fludioxonil and each mutant (sskA, Exp.2; srrA, Exp.3; hogA, Exp.4; atfA, Exp.5) treated with fludioxonil. Compared the result of Exp.1 with that of other experiments, we could identify the genes whose expression was induced or repressed in response to fludioxonil in a manner dependent on SskA, SrrA, HogA, or AtfA. KEY WORD; Aspergillus nidulans, fludioxonil, SskA, SrrA, HogA, AtfA
+
+DESIGN
+Conidia of wild type or each mutant were cultured at 37C in 100ml CD medium containing 2% glucose for 18h and treated with fludioxonil (final concentration; 10 ug/ml) or DMSO (as a solvent control)  for 15 min. The mycelia were harvested and frozen in liquid nitrogen, ground to powder, and used for RNA preparation. mRNA was purified and used for hybridization experiments. A total of 2 hybridizations were performed for each microarray experiment described in the summary. The following replicates were carried out: 1. In-slide replicates were carried out for each analysis. 2. Dye swap replicates were carried out for each experiment. The slides were scanned with an Axon GenePix 4000B scanner (Molecular Devices). The resulting TIFF images were imported into GenePix Pro and fluorescent intensity of spots were calculated for each of the Cy3 and Cy5 channels. Global normalization was applied to all analyses. Following normalization, spots whose Cy3 or Cy5 intensity was less than 0 were removed from the data set (the exceptional case was that intensity of the other channel was more than 100). The dye-swap replicates and in-slide replicates were subjected to all analyses. Finally, gene expression ratios (test/reference) were calculated for each replicates. Gene expression was considered to be significantly higher or lower whenever the spot intensity changed by at least 3-fold in all four replicates for each experiment.
+
+PLATFORM
+GPL7364 TIGR PFGRC Aspergillus nidulans version 2 array designated primarily based on strain FGSC A4
+
+CITATIONS
+19596074
+

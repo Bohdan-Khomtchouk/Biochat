@@ -1,0 +1,18 @@
+TITLE
+Development of a microarray for Enchytraeus albidus (Oligochaeta): Preliminary tool with diverse applications
+
+ORGANISM
+Enchytraeus albidus
+
+SUMMARY
+Standard bioassays allow hazard assessment at the population level, but much remains to be learned about the molecular level response of organisms to stressors. The main aim of this study was the development of a DNA microarray for Enchytraeus albidus, a common soil worm species. Further, this microarray was tested using worms exposed to Cu, phenmedipham, and different soil types. Hybridization onto the developed microarray revealed several genes with homology to known sequences. Genes of interest were confirmed through real-time polymerase chain reaction. It was possible to discriminate between natural and chemical stressors and chemical concentrations. Gene responses were detected under conditions known to have effects in the reproduction of individuals. It was confirmed that the integration of different endpoints improves the assessment process and enhances the understanding of the modes of action of stressors. The chemical stress–induced genes were related to factors such as immune response, stress response, metabolic processes, and/or signal transduction. The present study represents the first step of a gene-level study in the ecologically relevant and standard test species E. albidus. It demonstrates the usefulness of cDNA normalization in the production of cDNA libraries of ecotoxicological standard organisms that are not genome models like E. albidus.
+
+DESIGN
+Fluorescently labelled cDNA, from enchytraeids exposed during 2 days to control LUFA 2.2 (Cy3) soil and to the different exposure conditions (Cy5), was synthesized for microarray analysis and hybridizations were performed. After scanning,  spots were identified and ratios quantified using the Genepix software 5.0 (Axon Instruments). Statistical analysis of the microarrays was performed using limmaGUI package (1.18.0) (Smyth, 2005) in the R (2.8.0) software environment ( http://www.R-project.org/ ). After being submitted to local background subtraction, microarrays were normalized using global loess method. To statistically evaluate the differential gene expression between the different conditions, a gene-per-gene linear model (limma – linear model for microarray analysis) and empirical Bayes methods were applied. The results were then corrected for multiple testing using the Benjamini-Hochberg’s method (adjusted p < 0.05 was considered significant) (Benjamini and Hochberg, 1995).
+
+PLATFORM
+GPL9426 EBT_UA_Enchytraeus albidus_version1
+
+CITATIONS
+21360579
+

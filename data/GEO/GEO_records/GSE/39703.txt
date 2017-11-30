@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic analysis of zebrafish during development and homeostasis
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Sequencing libraries were generated from total RNA samples following the mRNAseq protocol for the generation of single end (16-36 hpf, 5 day larvae, adult head and adult tail) or paired end (24 hpf) libraries (Illumina). Single end reads of 36 nucleotides and paired end reads (2 x 76 nucleotides) were obtained with a GAIIx (Illumina). Gene expression at the different stages/tissu was assessed by cufflinks and HTseq.
+
+DESIGN
+RNAseq on 5 differents samples:  24hpf embryos, pool of 16 hour to 36 hour embryos, 5 days old larvea, adult head and adult tail
+
+PLATFORM
+GPL15583 Illumina Genome Analyzer IIx (Danio rerio)
+
+CITATIONS
+23684812
+

@@ -1,0 +1,18 @@
+TITLE
+Using ChIP-chip technology to reveal common principles of transcriptional repression in normal and cancer cells
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+We compared 12 different cell populations, including embryonic stem cells before and during differentiation into embryoid bodies as well as various types of normal and tumor cells to determine if pluripotent vs. differentiated cell types use different mechanisms to establish their transcriptome. We first identified genes that were not expressed in the 12 different cell populations and then determined which of them were regulated by histone methylation, DNA methylation, at the step of productive elongation, or by the inability to establish a pre-initiation complex. For these experiments, we performed chromatin immunoprecipitation using antibodies to H3me3K27, H3me3K9, 5-methyl cytosine, and POLR2A. We found that a) the percentage of low expressed genes bound by POLR2A, H3me3K27, H3me3K9, or 5-methyl-cytosine is similar in all 12 cell types, regardless of differentiation or neoplastic state; b) a gene is generally repressed by only one mechanism; and c) distinct classes of genes are repressed by certain mechanisms. We further characterized two transitioning cell populations, 3T3 cells progressing from G0/G1 into S phase and mES cells differentiating into embryoid bodies. We found that the transient regulation through the cell cycle was achieved predominantly by changes in the recruitment of the general transcriptional machinery or by post-POLR2A recruitment mechanisms. In contrast, changes in chromatin silencing were critical for the permanent changes in gene expression in cells undergoing differentiation. Keywords: ChIP-chip, RNA expression
+
+DESIGN
+48 ChIP-chip arrays; 12 expression arrays (6 of them in duplicates). 47 samples are included in this series, the rest can be found in supplementary info to the following papers: O'Geen 2007, Acevedo 2008, Acevedo 2007, Rinn 2007
+
+PLATFORM
+GPL3787 Nimblegen Human 1.5 kb promoter GPL3793 Nimblegen Mouse 1.5 kb promoter array [2006-11-16_MM5_min_promoter] GPL3930 Nimblegen human 5K promoter array 2 GPL4704 Nimblegen Human 5K promoter array 1 GPL4865 Sentrix MouseRef-8 Expression BeadChip (Target ID) GPL5987 Nimblegen Hg18 Promoter (2 of 2) GPL5989 Nimblegen Hg18 Promoter (1 of 2) GPL6255 Illumina humanRef-8 v2.0 expression beadchip GPL6484 NimbleGen Homo sapiens HG18 RefSeq promoter array_386K
+
+CITATIONS
+18413731 , 18347325
+

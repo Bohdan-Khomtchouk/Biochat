@@ -1,0 +1,18 @@
+TITLE
+eXtreme Array Mapping (XAM) for the low leaf Cd phenotype in Arabidopsis thaliana accession CS28181
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Understanding the mechanism of cadmium (Cd) accumulation in plants is important to help reduce its potential toxicity to both plants and humans through dietary and environmental exposure. Here, we report on a study to uncover the genetic basis underlying natural variation in Cd accumulation in a world-wide collection of 349 wild collected Arabidopsis thaliana accessions. We identified a 4-fold variation (0.5 – 2 μg Cd g-1 dry weight) in leaf Cd accumulation when these accessions were grown in a controlled common garden. By combining genome-wide association mapping, linkage mapping in an experimental F2 population and transgenic complementation, we reveal that HMA3 is the sole major locus responsible for the variation in leaf Cd accumulation we observe in this diverse population of A. thaliana accessions. Analysis of the predicted amino acid sequence of HMA3 from 149 A. thaliana accessions reveals the existence of 10 major natural protein haplotypes. Association of these haplotypes with leaf Cd accumulation and genetics complementation experiments indicate that 5 of these haplotypes are active and 5 are inactive, and that elevated leaf Cd accumulation is associated with the reduced function of HMA3 caused by a nonsense mutation and polymorphisms that change two specific amino acids.
+
+DESIGN
+Genomic DNA from two F2 progeny pools (low leaf Cd pool and high leaf Cd pool) of CS28181 x Col-0 was labelled and hybridized separately to the Affymetrix SNP-tiling array AtSNPtile. The signal intensity difference between the two pools for all probes were analyzed using R scripts that are available at http://ars.usda.gov/mwa/bsasnp .
+
+PLATFORM
+GPL10855 Arabidopsis thaliana SNP-tiling array AtSNPtile ver. 2
+
+CITATIONS
+22969436
+

@@ -1,0 +1,18 @@
+TITLE
+Microarray-based classification of a consecutive series of 121 childhood acute leukemias
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression analyses, were performed on 121 consecutive childhood leukemias (87 B-lineage acute lymphoblastic leukemias (ALLs), 11 T-cell ALLs, and 23 acute myeloid leukemias; AMLs), investigated during an 8-year period at a single center. The supervised learning algorithm k-nearest neighbor (k-NN) was utilized to build gene expression predictors that could classify the ALLs/AMLs according to clinically important subtypes with high accuracy. Validation experiments in an independent data set verified the high prediction accuracies of our classifiers. B-lineage ALLs with uncharacteristic cytogenetic aberrations or with a normal karyotype displayed heterogeneous gene expression profiles, resulting in low prediction accuracies. Minimal residual disease status (MRD) in T-cell ALLs with a high ( > 0.1%) MRD at day 29 could be classified with 100% accuracy already at the time of diagnosis. In pediatric leukemias with uncharacteristic cytogenetic aberrations or a normal karyotype, unsupervised analysis identified two novel subgroups: one consisting mainly of cases remaining in complete remission (CR) and one containing a few patients in CR and all but one of the patients who relapsed. This study of a consecutive series of childhood leukemias confirm and further extend previous reports demonstrating that global gene expression profiling provides a valuable tool for genetic and clinical classification of childhood leukemias. Keywords: supervised classification, Pediatric leukemia, AML, B-ALL, T-ALL, Normal bone marrow
+
+DESIGN
+Bone marrow (BM; n=108) or peripheral blood (PB; n=13) samples from 121 children with ALL (87 B-lineage and 11 T-cell) or AML (n=23) were obtained at the time of diagnosis. In addition, six normal BMs (NBMs) were obtained from healthy donors. RNA extraction, amplification, labeling, hybridization, scanning, post-hybridization washing and feature analysis were performed as described (Andersson et al., 2005, Leukemia). The quality of total and amplified RNA was assessed using an Agilent 2100 BioAnalyzer (Agilent Technologies, Palo Alto, CA). As a reference, aRNA from the Universal Human Reference (Stratagene, La Jolla, CA) was used.
+
+PLATFORM
+GPL4861 Swegene Human 27K RAP (positions from file)
+
+CITATIONS
+17410184 , 17690704
+

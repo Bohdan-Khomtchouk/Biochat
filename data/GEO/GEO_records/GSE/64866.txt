@@ -1,0 +1,18 @@
+TITLE
+C.glutamicum Δpup mutant senses a stronger iron limitation than the wild type.
+
+ORGANISM
+Corynebacterium glutamicum ATCC 13032
+
+SUMMARY
+Pupylation is a posttranslational protein modification in bacteria resembling ubiquitination in eukaryotes. The prokaryotic ubiquitin-like protein Pup is covalently attached to other proteins via an isopeptide bond between its carboxyterminal glutamate residue and a lysine residue in the target. In mycobacteria, pupylation was shown to mark proteins for unfolding by the ATPase Mpa and subsequent degradation by the proteasome. However, the occurrence of pupylation in species without a proteasome like Corynebacterium glutamicum suggests that degradation may not be the only fate of pupylated proteins.  The Δpup mutant senses a stronger iron limitation than the wild type. Among the 125 genes showing at least 2-fold changes in transcript levels in the Δpup mutant (p-value ≤ 0.05) were 54% of all genes known to be regulated by the master regulator of iron homeostasis DtxR (Brune et al., 2006; Wennerhold and Bott, 2006). Except for ftn, which is activated by DtxR and showed a 2-fold decreased mRNA level, the other DtxR target genes showed increased mRNA levels in the Δpup strain. These included ripA, encoding a transcriptional regulator of iron proteins, which represses a number of prominent iron-containing proteins under iron limitation, such as aconitase or succinate dehydrogenase (Wennerhold et al., 2005). 79% of the known RipA target genes showed decreased mRNA levels in the Δpup strain.
+
+DESIGN
+DNA microarray analyses were performed to compare the mRNA levels of the C. glutamicum Δpup mutant and its parent wild type under iron-limited conditions. The two strains precultivated in CGXII medium with 4% (w/v) glucose and 1 µM FeSO4 were inoculated into fresh medium to an OD600 of 1, cultured for 2 h, and harvested on ice by centrifugation (5 min at 4,000 g and 4°C). Please note that the GPL16989 array design comprises oligos for 4 different bacterial genomes. In the GPR-files in this study, all IDs/Names (oligonucleotides) which are not from the host C. glutamicum were replaced by the text EMPTY since only C. glutamicum expression was analyzed.
+
+PLATFORM
+GPL16989 Agilent-041487 FZ_IBG1_4plex
+
+CITATIONS
+27078093
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression in human lymphoblastoid cell-line GM12878 in response to doxorubicin treatment
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To determine if induced p53 binding is associated with gene expression in genome-wide. We examined mRNA levels with the Affymetrix Human Exon 1.0 ST platform in human lymphoblastoid GM12878 cells treated with doxorubicin to activate p53. In response to various cellular stresses, the tumor suppressor gene p53 induces activation or repression of more than a thousand human genes. Selective binding and transactivation of a large potential pool of p53 response elements (REs) is believed to regulate the variation in stress response across stress types and between cell types. To elucidate how the human genome is targeted by p53 at the chromatin level, we mapped the genome-wide localization of p53 and H3K4me3 from Doxo-treated human lymphoblastoid cells, and examined the relationships among p53 occupancy, gene expression, H3K4me3, chromatin accessibility (DNase 1 Hypersensitivity, DHS), ENCODE chromatin states, RE sequence specificity and evolutionary conservation.
+
+DESIGN
+Human lymphoblastoid (GM 12878) cells at a density of 900,000 cells/ml were prepared in triplicate for each time point and treated with 0.5 µM doxorubicin (Calbiochem) for  4, 18 hr or no treatment (at 0 time). Total RNA will be extracted from each culture (9 RNA samples) using the Qiagen RNeasy kit with DNase digestion. RNA was quantified using RiboGreen (Invitrogen), check for quality by OD and Bioanalyzer and stored at -80°C.  Expression analysis was conducted at at NIEHS Microarray Core using Affymetrix Human Exon 1.0 ST arrays following the Affymetrix hybridization protocols. Exon expression data were analyzed through Affymetrix Expression Console using gene-level RMA summarization and sketch-quantile normalization methods.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+25569532
+

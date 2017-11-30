@@ -1,0 +1,18 @@
+TITLE
+Kin28 Regulates the Transient Association of Mediator with Core Promoters
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Mediator is an essential, broadly utilized eukaryotic transcriptional co-activator. How and what it communicates from activators to RNA polymerase II remains an open question. Here we performed genome-wide location profiling of yeast Mediator subunits. Mediator is not found at core promoters but rather occupies the upstream activating sequence (UAS), upstream of the pre-initiation complex. In the absence of Kin28/CDK7 kinase activity, or in cells where the CTD is mutated to replace Ser5 with alanines, however, Mediator accumulates at core promoters together with RNAPII. We propose that Mediator is quickly released from promoters upon Ser5 phosphorylation by Kin28/CDK7, which also allows for RNAPII to escape from the promoter.
+
+DESIGN
+We took a systematic approach to examine the genome-wide distribution (using ChIP-chip) of the various Mediator subunits. Mediator occupancy was also assayed in mutants for most of the CTD kinases and in strains where some CTD serines had been replaced by alanines. Mediator ChIPs were performed with Myc-tagged subunits, except in some preliminary experiments where polyclonal antibodies were used. Most ChIPs (in Cy5) were hybridyzed against a control ChIP sample from an isogenic non-tagged strain (in Cy3). In some of the preliminary experiments, non immunoprecipitated DNA (input) was used as the control. In addition to Mediator ChIPs, the project includes TFIIB and RNAPII (Rpb3) ChIP-chip datasets. All ChIP-chip experiments were done in duplicates except for the preliminary experiments that were done in monoplicat for the most part. Each microarray was normalized using the Lima Loess and replicates were combined using a weighted average method as previously described (Pokholok et al., 2005).
+
+PLATFORM
+GPL18340 Agilent-034462 Yeast_4x180K
+
+CITATIONS
+24704787
+

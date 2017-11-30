@@ -1,0 +1,18 @@
+TITLE
+Epigenetic Repogramming by an Environmental Carcinogen Through Chromatin Domain Disruption [ChIP-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Alterations in chromatin modifications, including DNA methylation and histone modification patterns, have been characterized under exposure of several environmental pollutants, including nickel. As with other carcinogenic metals, the mutagenic potential of nickel compounds is low and is not well correlated with its carcinogenic effects. Nickel exposure, however, is associated with alterations in chromatin modifications and related transcriptional programs, suggesting an alternative pathway whereby nickel exposure can lead to disease. To investigate the extent to which nickel exposure disrupts chromatin patterns, we profiled several histone modifications, including H3K4me3, H3K9ac, H3K27me3 and H3K9me2 as well as the insulator binding protein CTCF and the transcriptomes of control BEAS-2B cells and cells treated with nickel for 72 hours. Our results show significant alterations of the repressive histone modification H3K9me2 in nickel-exposed cells with spreading of H3K9me2 into new domains associated with gene silencing. We furthermore show that local regions of active chromatin can protect genes from nickel-induced H3K9me2 spreading. Interestingly, we show that nickel exposure selectively disrupts weaker CTCF sites, leading to spreading of H3K9me2 at these regions. These results have major implications in the understanding of how environmental carcinogens can affect chromatin dynamics and the consequences of chromatin domain disruption in disease progression.
+
+DESIGN
+Treat BEAS-2B cells with NiCl2 for 72 hours and compare histone modification, CTCF binding to control BEAS-2B cells to see how they regulated gene expression by RNA-seq
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25246589
+

@@ -1,0 +1,18 @@
+TITLE
+RNA-Seq based characterization of long non-coding RNA involved in respiratory viruses pathogenesis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We aimed at systematically inferring the regulatory functions of host lncRNAs in response to influenza A virus (IAV) and severe acute respiratory syndrome coronavirus (SARS-CoV) in the mouse model, using a ‘guilt-by-association’ approach which relies on finding which lncRNAs have similar expression profiles to protein-coding genes of known function. To build a large panel of diverse host responses to viral infection, we took advantage of the genetic diversity present in the 8 founder strains of the Collaborative Cross (CC) mouse resource. Extensive pulmonary host-response profiling was performed on mock and viral-infected lungs at 2 and 4 days post-infection using total RNA-Seq. Overall lncRNAs accounted for about 40% of total genes differentially expressed upon infections (5,329 DE lncRNAs). To predict the functions of these lncRNAs, we constructed a co-expression network using the weighted correlation network analysis (WGCNA) and identified modules of co-expressed genes. Several lncRNAs were identified as belonging to gene modules associated with viral replication or weight loss, and enriched in various infection-related biological processes such as immune response. In addition, each lncRNA was individually annotated using ranked list of DE genes based on signed correlation with each LncRNA. We predicted that a few lncRNAs may be implicated in more than 50 biological processes or pathways. Finally, we identified the lncRNAs that were positively or negatively correlated with all their neighbors and may have cis enhancer or inhibitor effects. We validated our prediction by examining additional RNASeq dataset of mice treated with IFN-alpha. Altogether, these results provide a broad categorization of lncRNA functions and identify subsets of lncRNAs with potential key roles for respiratory virus pathogenesis. These data are fully accessible through The MOuse NOn-Code Lung database (MONOCLdb) http://monocldb.viromics.washington.edu/
+
+DESIGN
+At 2 or 4 days post infection, Collaborative Cross founders mice (n=2-3 for infected conditions, n=2 for mocks) were euthanized and lungs were used for total RNA-Seq.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+24922324 , 24902603
+

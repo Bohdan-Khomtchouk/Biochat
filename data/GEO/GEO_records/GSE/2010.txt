@@ -1,0 +1,15 @@
+TITLE
+Identification of humoral signature for prostate cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+High-density phage epitope microarray from 31 samples were used for unsupervised analysis (GSM36153...GSM36183). 129 samples from prostate cancer patients and controls were screened on small focused epitope chips, which contained 180 phage elements. These data were used to train GA/KNN program (GSM36184...GSM36312). 128 samples from localized prostate cancer patients and controls were screened on small focused epitope chips. These independent data were used to validate the epitomic profile (GSM36313...GSM36375, GSM40203...GSM40213, GSM40216, GSM40218, GSM40219, GSM40222, GSM40225, GSM40227, GSM40229, GSM40233, GSM40237, GSM40246...GSM40294). Three subgroups of samples were used as test sets to validate the specificity of epitomic profile (GSM36376...GSM36410, GSM40214, GSM40215, GSM40217, GSM40220, GSM40221, GSM40224, GSM40226, GSM40228, GSM40231, GSM40234...GSM40236, GSM40238...GSM40244). Project----Identification of humoral signature for prostate cancer diagnosis We constructed a prostate cancer cDNA phage display library. cDNAs were reverse-synthesized from mDNA pool isolated from prostate cancer tissues. Enzyme-digested cDNA fragments were then inserted into phage vector to make a whole prostate cancer phage expressed cDNA library. In order to select cancer specific phage epitope from this library, we performed several cycles of affinity enrichment. We used the bounded IgG pool isolated from prostate cancer patient sera to select the tumor specific phage epitope clones. Once we had the enriched phage epitope library, we cultured the phage library on LB-agar dish for individual phage colonies. About 2300 phage colonies from agar dish were picked up using toothstick and cultured in 96-well microtiter plates. Each clone was labeled as microtiter plate #, column #, row#, i.e. clone ID. These 2300 clones were then spotted on slides in single spot (no any duplicate), i.e. each spot (labeled by clone ID) represents a single phage clone. The phage epitope microarrays were then screened using cancer or control sera. We employed two color system. Cy5-anti human IgG was to detect human IgG. For green color, we used Cy3-labeled anti-phage capsid protein as internal reference to normalize the ammount difference of phage particles spotted on each spot. Thus the ratio of Cy5/Cy3 would count for the immune response in cancer or control sera. Once we identified humoral signature in prostate cancer patients, we could sequence the phage clone to characterize the nature of the genes or proteins. Keywords: autoantibody signatures
+
+PLATFORM
+GPL1718 Phage Epitope Microarrays GPL1721 Focused Phage Epitope Microarray
+
+CITATIONS
+16177248
+

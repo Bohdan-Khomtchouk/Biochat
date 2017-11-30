@@ -1,0 +1,18 @@
+TITLE
+Drug-inhibition of HDAC3 and epigenetic control of differentiation in Apicomplexa parasites
+
+ORGANISM
+Toxoplasma gondii
+
+SUMMARY
+Plasmodium and Toxoplasma are parasites of major medical importance that belong to the Apicomplexa phylum of protozoa. These parasites transform into various stages during their life cycle and express a specific set of proteins at each stage. Although still little is known of how gene expression is controlled in Apicomplexa, histone modifications, particularly acetylation, are emerging as key regulators of parasite differentiation and stage conversion. Here, we investigated the anti-Apicomplexa effect of FR235222, a histone deacetylase (HDAC) inhibitor. We show that FR235222 is active against a variety of Apicomplexa genera, including Plasmodium and Toxoplasma, and is more potent than other HDACi such as TSA and the clinically relevant compound, pyrimethamine. We identify TgHDAC3 as the target of FR235222 in Toxoplasma tachyzoites and demonstrate the crucial role of the conserved and Apicomplexa HDAC-specific residue TgHDAC3 T99 in the inhibitory activity of the drug. We also show that FR235222 induces differentiation of the tachyzoite (replicative) into the bradyzoite (non replicative) stage. Additionally, via its anti-TgHDAC3 activity, FR235222 influences the expression of ~370 genes, a third of which are stage-specifically expressed. These results identify FR235222 as a potent HDAC inhibitor of Apicomplexa, and establish HDAC3 as a central regulator of gene expression and stage conversion in Toxoplasma and likely other Apicomplexa.
+
+DESIGN
+Freshly released tachyzoites were needle-passed, and filtered using a 3-µm nucleopore membrane. Parasites were resuspended into fresh DMEM supplemented with 10% (v/v) FBS and 25 mM HEPES buffer pH7.2. Parasites were incubated in the presence of FR235222 (40 nM) or DMSO (0.1%) for 4 h at 37°C with 5% CO2. For ChIP-chip experiments freshly released tachyzoites (~5 x 109 at ~12 x 107 parasites/mL) were fixed for 15 min in 1% formaldehyde. Increase in AcH4 signals was verified by immunoblot to verify that FR235222 treatment was effective. To prepare chromatin samples, fixed parasites were lysed in MNase buffer (0.32 M Sucrose, 50 mM Tris-HCl pH7.8, 4 mM MgCl2, 3 mM CaCl2, 100 mM NaCl, 0.25% (v/v) NP40, 5%  (v/v) glycerol, protease inhibitor EDTA-free cocktail (Roche)) and DNA was digested for 4 min at 37°C by MNase (2 units/mL). Digestion was stopped with 20 mM EDTA and chromatin was recovered in the soluble fraction after centrifugation at 10,000 g at 4°C; this constituted the S1 fractions. Pelleted materials were resuspended in dialysis buffer (1mM Tris-HCl pH7.8, 0.2 mM EDTA) containing 1 mM PMSF and protease inhibitor cocktail (Roche®) and dialyzed overnight at 4°C against the same solution. Then dialyzed materials were centrifuged and supernatant were harvested; this constitutes the S2 fractions. For chromatin immunoprecipitations, fractions S1 and S2 were pooled and DNA quality was verified by electrophoresis on 2% agarose gels; oligonucleosome ladder of 100-1000 bp were obtained. The histone-DNA complexes were immunoprecipitated with anti-acetyl histone H4 (Upstate®, catalog # 06-866) antibodies according to NimbleGen’s protocol ( http://www.genomecenter.ucdavis.edu/expression_analysis/documents ).
+
+PLATFORM
+GPL8305 Toxoplasma gondii ChIP-chip genome-wide tiling array
+
+CITATIONS
+19349466
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide prediction and validation of σ70 promoters in Lactobacillus plantarum WCFS1
+
+ORGANISM
+Lactobacillus plantarum WCFS1
+
+SUMMARY
+Background: In prokaryotes, sigma factors are essential for the targeting of the transcription machinery to promoters. Various sigma factors have been described that recognize and bind to specific DNA sequence motifs in promoter sequences. The canonical sigma factor σ70 is commonly involved in transcription of the cell's general housekeeping genes, which is mediated by the conserved σ70 promoter sequence motifs. This study detects and predicts the general σ70-promoter sequences in Lactobacillus plantarum WCFS1 using genome-wide analysis. The accuracy of the transcriptionally-active part of this promoter prediction was subsequently evaluated by correlating locations of predicted promoters with experimentally detected transcription starts sites (TSSs) using high-resolution tiling array transcriptome datasets. Results: To identify σ70-related promoter sequences, we performed a genome-wide sequence motif scan of the L. plantarum WCFS1 genome focusing on the regions upstream of protein-encoding genes. We obtained several highly conserved motifs including those resembling the conserved σ70-promoter consensus. Position weight matrices-based models of the recovered σ70-promoter sequence motif were employed to identify 4746 motifs with significant similarity (p-value < 10-4) to the model-motif in the L. plantarum genome. Genome-wide transcription start site information deduced from whole genome tiling-array transcriptome datasets revealed 936 TSSs that were employed to validate the transcriptionally active fraction of these predicted promoters. In total, 578 predicted promoters were found in proximity (≤ 100 nucleotides) of the identified TSSs, showing a highly significant co-occurrence of predicted promoter and measured TSS (p-value < 10-23). An additional 224 predicted promoters was validated when the significant similarity to the model-motif was applied less strictly (10-4 ≤ p-value < 10-3). Conclusions: High-resolution tiling arrays provide a suitable source for TSS detection at a genome-wide level, and allow experimental verification of in silico-predicted promoter sequence motifs.
+
+DESIGN
+Triplicate hybridizations (technical replicates) of two L. plantarum WCFS1 samples (biological replicates) gathered from a fermentation run at OD600 of 1. Dye swap applied to one of the three technical replicates.
+
+PLATFORM
+GPL15385 Agilent-015618 Lactobacillus plantarum WCFS1 244k tiling array forward strand GPL15386 Agilent-015640 Lactobacillus plantarum WCFS1 244k tiling array reverse strand
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

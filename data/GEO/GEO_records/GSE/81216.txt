@@ -1,0 +1,18 @@
+TITLE
+SpermBase - A database for sperm-borne RNA contents
+
+ORGANISM
+Homo sapiens ; Oryctolagus cuniculus ; Mus musculus ; Rattus norvegicus
+
+SUMMARY
+Purpose: Sperm-borne RNA are particularly sensitive to degradation and methodology-induced bias, thus necessitating the use of a consistent, effective RNA extraction protocol for inter-species comparisons. To this end, we established SpermBase, an RNA expression database consisting of small and large RNA expression data obtained using consistent methodologies. Methods: Total RNA was extracted from total sperm and sperm head samples using an RNA extraction protocol that required only slight, species-specific alterations at the lysis stage. Total RNA was subjected to either RNA-Seq (large RNA) or sncRNA-Seq (small RNA). Results: By using a consistent methodology, we were able to perform a cross-species analysis on the conserved features of large and small sperm-borne RNAs. We identified conserved features in both populations of RNAs in the four mammalian species (i.e., mouse, rabbit, rat, and human) surveyed. Conclusions: Our study demonstrates an effective, near-universal approach to the study of sperm-borne RNAs, and identifies conserved characteristics in the large and small RNA populations of mammalian sperm.
+
+DESIGN
+Total RNA was extracted from total sperm and sperm head samples and subjected to sncRNA-Seq or RNA-Seq.
+
+PLATFORM
+GPL16331 Ion Torrent PGM (Mus musculus) GPL17301 Ion Torrent PGM (Homo sapiens) GPL17303 Ion Torrent Proton (Homo sapiens) GPL18635 Ion Torrent Proton (Mus musculus) GPL19482 Ion Torrent Proton (Rattus norvegicus) GPL21655 Ion Torrent Proton (Oryctolagus cuniculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+The hepatitis C viral protein NS5A stabilizes growth-regulatory human transcripts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Numerous mammalian proto-oncogene and other growth-regulatory transcripts are upregulated in malignancy due to abnormal mRNA stabilization.  In hepatoma cells expressing a hepatitis C virus (HCV) subgenomic replicon, we found that the viral nonstructural protein 5A (NS5A), a protein known to bind to viral RNA, also bound specifically to human cellular transcripts that encode regulators of cell growth and apoptosis, and this binding correlated with transcript stabilization.  An important subset of human NS5A-target transcripts contained GU-rich elements, sequences known to destabilize mRNA. We found that NS5A bound to GU-rich elements in vitro and in cells.  Mutation of the NS5A zinc finger abrogated its GU-rich element-binding and mRNA stabilizing activities. Overall, we identified a molecular mechanism whereby HCV manipulates host gene expression by stabilizing host transcripts in a manner that would promote growth and prevent death of virus-infected cells, allowing the virus to establish chronic infection and lead to the development of hepatocellular carcinoma.
+
+DESIGN
+Calculate mRNA decay rate by examining RNA-seq expression levels of 2 samples (Huh and Huh-HCV) at 3 time points (0h, 3h, and 6h) after transcription arrest. RNA-IP followed by RNA-seq on 2 samples (Huh and Huh-HCV).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

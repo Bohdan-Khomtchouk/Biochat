@@ -1,0 +1,18 @@
+TITLE
+An ensemble-guided approach identifies ClpP as a major regulator of transcript levels in nitric oxide-stressed Escherichia coli
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+In this study, we discovered that elimination of ClpP in E. coli largely impaired its ability to detoxify nitric oxide (NO•). Using a quantitative model of NO• stress, we employed an ensemble approach to identify the underlying mechanism. The ensemble of models consisted of 127 plausible mechanisms through which ΔclpP could impact the NO• response network, and in silico analyses identified conditions enabling discrimination between mechanisms. The corresponding experiments were conducted and used to reject inconsistent mechanisms until the attenuated NO• detoxification of ΔclpP was attributed to deficient transcript levels of hmp, which encodes NO• dioxygenase. Further analysis (including RNA sequencing) revealed that ΔclpP imparted widespread perturbations to the expression of NO•-responsive genes. This work identified a target for anti-infective therapies based on disabling NO• defenses, and demonstrated the utility of model-based approaches for exploring the complex, systems-level stress exerted by NO•.
+
+DESIGN
+Using RNA sequencing via Illumina HiSeq 2500, mRNA profiles of aerobic exponential-phase E. coli WT MG1655 and a ΔclpP mutant, untreated and treated with 250 μM DPTA (an NO•-releasing compound) for 10 min. Samples were obtained in biological triplicate, multiplexed, and barcoded for identification.
+
+PLATFORM
+GPL18956 Illumina HiSeq 2500 (Escherichia coli str. K-12 substr. MG1655)
+
+CITATIONS
+26112956
+

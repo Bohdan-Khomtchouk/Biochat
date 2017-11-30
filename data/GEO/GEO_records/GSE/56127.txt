@@ -1,0 +1,18 @@
+TITLE
+Ribosome stalling induced by mutation of a CNS-specific tRNA causes neurodegeneration
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In higher eukaryotes, the large numbers of nuclear-encoded tRNA genes partially ensure the robustness of cytoplasmic protein translation. Here we discover that a loss-of-function in n-Tr20, a member of the nuclear-encoded tRNA Arg UCU family that is expressed specifically in the central nervous systems leads to low but detectable levels of ribosome stalling. In the absence of GTPBP2, a novel binding partner of the ribosome recycling protein Pelota, ribosome stalling increases, leading to widespread neurodegeneration. Our results not only define GTPBP2 as a ribosome rescue factor, but also unmask the disease potential of mutations in nuclear-encoded tRNA genes. In this submission we provide ribosome footprinting data from the cerebella of four strains derived from the C57BL/6J strain with combinations of  n-Tr20 and GTPBP2 mutations.
+
+DESIGN
+Examination of ribosome stalling in cerebella from 4 mouse strains derived from the: C57BL/6J (B6J) strain. The nmf205-/- strain has a homozygous mutation in the gene GTPBP2 while the B6J strain has normal GTPBP2. The n-Tr20 J/J strain has a defect in the n-Tr20 tRNA while the n-Tr20 N/N strain has a functional n-Tr20 tRNA. The 4 strains are the 2x2 combinations of these defects and correctly functioning sequences. 2 replicates for each strain. Please note that only BAM files are included in the records since they form the basis of the study's conclusions.  The raw data ribosomal RNA have been filtered and then unique reads mapping to mm10 were computed using tophat and igenome annotations.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25061210
+

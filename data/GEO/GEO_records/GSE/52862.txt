@@ -1,0 +1,18 @@
+TITLE
+Meiotic recombination cold spots in chromosomal cohesion sites [ChIP-Seq]
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Meiotic chromosome architecture called “axis-loop structures” and histone modifications have been demonstrated to regulate the Spo11-dependent formation of DNA double-strand breaks (DSBs) that trigger meiotic recombination. Using genome-wide chromatin immunoprecipitation (ChIP) analyses followed by deep sequencing, we compared the genome-wide distribution of the axis protein Rec8 (the kleisin subunit of meiotic cohesin) with that of oligomeric DNA covalently bound to Spo11, indicative of DSB sites. The frequency of DSB sites is overall constant between Rec8 binding sites. However, DSB cold spots are observed in regions spanning ±0.8 kb around Rec8 binding sites. The axis-associated cold spots are not due to exclusion of Spo11 localization from the axis, since ChIP experiments revealed that substantial Spo11 persists at Rec8 binding sites during DSB formation. Spo11 fused with Gal4 DNA binding domain (Gal4BD-Spo11) tethered in close proximity (≤0.8 kb) to Rec8 binding sites hardly forms meiotic DSBs, in contrast with other regions. In addition, H3K4 tri-methylation (H3K4me3) remarkably decreases at Rec8 binding sites. These results suggest that reduced histone H3K4me3 in combination with inactivation of Spo11 activity on the axis discourages DSB hot spot formation.
+
+DESIGN
+ChIP-seq analyses of Rec8, Spo11, and Gal4BD-Spo11 on budding yeast meiotic chromosomes • Distribution of Rec8 in wt and Gal4BD-Spo11-expressing cells at 4h after meiotic induction • Distribution of Spo11 at 3h, 4h, and 5h after meiotic induction • Distribution of Gal4BD-Spo11 at 0h after meiotic induction
+
+PLATFORM
+GPL17143 Illumina MiSeq (Saccharomyces cerevisiae)
+
+CITATIONS
+24635992
+

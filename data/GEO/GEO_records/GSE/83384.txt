@@ -1,0 +1,18 @@
+TITLE
+Genome-wide mapping of 5-hydroxymethyluracil in eukaryote parasite Leishmania
+
+ORGANISM
+Leishmania donovani ; Leishmania major
+
+SUMMARY
+5-hydroxymethyluracil (5hmU) is a thymine base modification found in genomes of a diverse range of organisms. To explore the functional importance of 5hmU, we developed a method for the genome-wide mapping of 5hmU-modified loci based on a chemical tagging strategy for the hydroxymethyl group. We applied the method to generate genome-wide maps of 5hmU in parasitic protozoan Leishmania, where 5hmU forms enzymatically via hydroxylation of thymine. In the genus, another thymine modification 5-(β-glucopyranosyl) hydroxymethyluracil (base J) plays key roles during transcription. To elucidate relationships between 5hmU and base J, we also mapped base J loci by introducing a chemical tagging strategy for the glucopyranoside residue. Results: Observed 5hmU peaks were highly consistent among technical replicates, confirming the robustness of the method. 5hmU were particularly enriched in strand switch regions, telomeric regions and intergenic regions. Over 90% of 5hmU-enriched loci overlapped with base J-enriched loci, which occurred mostly within strand switch regions. We also identified loci comprising 5hmU but not base J. These 5hmU-specific loci were enriched with motifs consisting of a stretch of thymine bases and associated with higher RNA levels. Conclusions: By chemically detecting 5hmU we provide the first genome-wide map of 5hmU, which will help addressing the emerging interest in the role of 5hmU. The presence of 5hmU-specific loci may suggest that 5hmU has unique roles.
+
+DESIGN
+BaseJ and 5hmU mapped by pull-down and sequencing in Leishmania parasites. Each pull down repeated in 2 or 3 technical replicates. RNA expression in L. major was quantified by RNA-Seq on total RNA in three replicates. Please note that for RNA-Seq the raw data (fastq files) have been processed as described in the Data processing step section (to investigate RNA expression throughout the genome, not just in annotated genes). Therefore, we did not quantify transcript expressions as normally done for mammalian genomes. The data processing description includes a link to a github repository with the details of the analysis described in the manuscript in preparation. This repository is currently private but it will be made public upon publication of the associated manuscript.
+
+PLATFORM
+GPL22014 Illumina MiSeq (Leishmania major) GPL22015 Illumina MiSeq (Leishmania donovani)
+
+CITATIONS
+28137275
+

@@ -1,0 +1,18 @@
+TITLE
+Comparsion of Smad1 and Smad5 Dependent Transcript Profiles in Zebrafish
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+The BMP signaling pathway regulates multiple steps of hematopoiesis, mediated through receptor-regulated Smads, including Smad1 and Smad5. Here we use loss-of-function approaches in zebrafish to compare the roles of Smad1 and Smad5 during embryonic hematopoiesis. Microarray experiments revealed that the two proteins regulate redundantly the key initiators of the hemato-vascular program, including scl, lmo2, and gfi1. However, each also regulates a remarkably distinct genetic program, with Smad5 uniquely regulating the BMP signaling pathway itself. Our results suggest that specificity of BMP signaling output, with respect to hematopoiesis, can be explained by differential functions of Smad1 and Smad5. Keywords: Gene expression transcript profiles
+
+DESIGN
+The experiment was designed to identify the unique Smad1 and Smad5 dependent transcripts during the somitogenesis stage of development, during which mesoderm is specified to the hematopoietic lineage. Embryos were injected with translational blocking morpholinos for Smad1, Smad5 or both, and then collected at the 1-somite stage for RNA extraction. For every experiment control uninjected wildtype sibling embryo were also collected for comparison. Three biological replicates were done for each knockdown set. Total RNA was sent to Nimblegen for cDNA synthesis, dye labeling and hybridization. Single knockdown samples were hybridized to the Nimblegen 2006 Danio rerio Gene Expression Array chip and the double knockdown samples to the 2007 verison of the chip, which contains the same test genes, but with additional control oligos. Dye swaps were done for each set; for 2 of the 3 hybridization in each set Cy3 was the dye used for the experimental sample and in the 3rd Cy5 was used. The raw hybridization data was obtained from Nimblegen, normalized using NimbleScan and anaylzed using R software.
+
+PLATFORM
+GPL5746 Nimblegen 2007 Danio rerio Gene Expression Array GPL5783 Nimblegen 2006 Danio rerio Gene Expression Array
+
+CITATIONS
+17761518
+

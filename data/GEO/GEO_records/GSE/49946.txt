@@ -1,0 +1,18 @@
+TITLE
+Global effects of the CSR-1 RNA interference pathway on transcriptional landscape
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Argonaute proteins and their small RNA co-factors short interfering RNAs (siRNAs) are known to inhibit gene expression at the transcriptional and post-transcriptional levels. In Caenorhabditis elegans, the Argonaute CSR-1 binds thousands of endogenous siRNAs (endo-siRNAs) antisense to germline transcripts and associates with chromatin in a siRNA-dependent manner. However, its role in gene expression regulation remains controversial. Here, we used a genome-wide profiling of nascent RNA transcripts to demonstrate that the CSR-1 RNAi pathway promotes sense-oriented Pol II transcription. Moreover, a loss of CSR-1 function resulted in global increase in antisense transcription and ectopic transcription of silent chromatin domains, which led to reduced chromatin incorporation of centromere-specific histone H3. Based on these findings, we propose that the CSR-1 pathway has a role in maintaining the directionality of active transcription thereby propagating the distinction between transcriptionally active and silent genomic regions.
+
+DESIGN
+GRO-seq (Global Run-On sequencing) for detection of nascent transcripts. Two biological replicates were generated for csr-1 hypomorphic mutant and the corresponding WT samples using ~300,000 worms for each experiment, and two biological replicates were prepared for drh-3 (ne4253) mutant and the corresponding WT samples using ~100,000 worms for each experiment. The GRO-seq were performed in late L3/early L4 stage worms. (8 samples total)
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+24681887
+

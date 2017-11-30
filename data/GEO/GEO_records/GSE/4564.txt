@@ -1,0 +1,18 @@
+TITLE
+Genome-wide profiling of PRC1 and PRC2 Polycomb chromatin binding in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Polycomb group (PcG) proteins maintain transcriptional repression of developmentally important genes and have been implicated in cell proliferation and stem-cell self-renewal. We used a genome-wide approach to map binding patterns of PcG proteins (Pc, esc and Sce) in Drosophila Kc cells. We found that Pc associates with large genomic regions of up to ~150kb in size, hereafter referred to as “Pc-domains”. Sce and esc accompany Pc in most of these domains. PcG-bound chromatin is trimethylated at histone H3 lysine 27 and in general transcriptionally silent. Furthermore, PcG proteins preferentially bind to developmental genes. Many of these encode transcriptional regulators and key components of signal transduction pathways, including Wingless, Hedgehog, Notch and Delta. We also identify several new putative functions of PcG proteins, such as in steroid hormone biosynthesis. These results highlight the extensive involvement of PcG proteins in the coordination of development through the formation of large repressive chromatin domains. Keywords: DamID, Chromatin immunoprecipitation, ChIP-chip
+
+DESIGN
+To study PcG binding profiles we used DamID, which is based on the ability of a chromatin protein fused to E.coli DNA adenine methyltransferase (Dam) to methylate the native binding site of the chromatin protein. Dam-fusion proteins are expressed at very low levels to avoid mistargeting. Subsequently, methylated DNA fragments are isolated, labeled and hybridized to a microarray. Methylated DNA fragments from cells transfected with Dam alone served as reference. Genomic binding sites of the protein can then be identified based on the targeted methylation pattern. For detailed background information on DamID, see: van Steensel, B., Delrow, J. & Henikoff, S. Chromatin profiling using targeted DNA adenine methyltransferase. Nat Genet 27, 304-8 (2001); van Steensel, B. & Henikoff, S. Identification of in vivo DNA targets of chromatin proteins using tethered dam methyltransferase. Nat Biotechnol 18, 424-8 (2000).
+
+PLATFORM
+GPL1908 FHCRC Fly 12K v1.0 GPL2678 Tiling design for D. melanogaster
+
+CITATIONS
+16628213
+

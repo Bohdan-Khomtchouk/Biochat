@@ -1,0 +1,18 @@
+TITLE
+Comparative transcriptome profiles of cotton (G. hirsutum L. cv. Bikaneri narma) during boll development stages under bollworm infested biotic stress
+
+ORGANISM
+Gossypium hirsutum
+
+SUMMARY
+Comparative transcriptome profiles of cotton (G. hirsutum L. cv. Bikaneri narma) during boll development stages (0, 2, 5 and 10 dpa) under bollworm infested biotic stress. Cotton is one of the most commercially important fibre crops in the world and used as a source for natural textile fibre and cottonseed oil. The biotic stress is one of the major constraints for crop production. Cotton bollworm (Helicoverpa armigera) is one the major insect pest in cotton and drastically damages the cotton boll. To decipher the molecular mechanisms involved in cotton boll/fibre cell development, transcriptome analysis has been carried out by comparing G. hirsutum L cv. Bikaneri narma cotton boll samples induced by biotic stress (bollworm infested) and that their respective control cotton bolls collected under field conditions. Cotton bolls were collected at fibre initiation (0, 2 dpa/days post anthesis) and elongation (5, 10 dpa) stages for both control and biotic stress condition and gene expression profiles were analyzed by Affymetrix cotton GeneChip Genome array.
+
+DESIGN
+Cotton plants (G. hirsutum L. cv. Bikaneri narma) were grown under field condition. Helicoverpa armigera (cotton bollworm) second instar larvae was released at the time of flower opening and covered with polythene bag to prevent insect escape and tagged. The infested flowers were collected after 8 hrs infestations and labeled as 0 dpa. Likewise after two and five day’s infestation the bolls were collected and labelled as 2 and 5 dpa, respectively.  After five days the insect was removed from bolls and left the bolls for up to 10 days and collected then labeled as 10 dpa. Meanwhile respective control samples also tagged and collected. Total RNA was isolated from control (WT) and biotic stress (bollworm infested) induced samples collected at 0, 2, 5 and 10 dpa boll development stages using SpectrumTM Plant Total RNA kit (Sigma, USA) according to the manufacturer’s protocol. Affymetrix cotton GeneChip Genome array (Affymetrix, USA) having 23,977 probe sets representing 21,854 cotton transcripts was used for transcriptome analysis. Three biological replicates were maintained to test the reproducibility and quality of the chip hybridization. cDNA labeling, array hybridization, staining and washing procedures were carried out as described in the Affymetrix protocols. CEL files having estimated probe intensity values were analyzed with GeneSpring GX-11.5 software (Agilent Technologies, USA) to get differentially expressed transcripts. The Robust Multiarray Average (RMA) algorithm was used for the back ground correction, quantile normalization and median polished probe set summarization to generate single expression value for each probe set. Normalized expression values were log2 transformed and differential expression analysis was performed using unpaired t-test. The p-values were corrected by applying the false discovery rate (FDR) correction (Benjamini and Hochberg, 2000).
+
+PLATFORM
+GPL8672 [Cotton] Affymetrix Cotton Genome Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

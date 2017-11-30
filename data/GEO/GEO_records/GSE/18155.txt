@@ -1,0 +1,18 @@
+TITLE
+Malignant Germ Cell Tumors Display Common microRNA Profiles Resulting in Global Changes in Expression of mRNA Targets
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Comparison of miRNA expression profiles in malignant germ cell tumors compared to non-malignant control group. Use of bioinformatic algorithm Sylamer to interrogate mRNA expression profiles from malignant germ cell tumors for enrichment or depletion of binding sites for differentially expressed miRNAs. Use of Gene Ontology (GO) analysis to demonstrate functional significance of differentially expressed miRNAs in malignant germ cell tumors.
+
+DESIGN
+mRNA profiling: Analyzed global mRNA expresion profiles from 21 pediatric samples (17 malignant germ cell tumors, 1 benign germ cell tumor and 3 gonadal controls) using Sylamer (van Dongen et al, Nature Methods 2008, PMID 18978784) to study functional significance of differentially expressed miRNAs in malignant germ cell tumors. 16 of these files previously published - Palmer et al, Cancer Research 2008, PMID 18519683; GEO Accession Number GSE10615. Similarly, re-analyzed published global mRNA expresion profiles from 25 adult samples (20 malignant germ cell tumors and 5 testis controls) using Sylamer (van Dongen et al, Nature Methods 2008, PMID 18978784) to study functional significance of differentially expressed miRNAs in malignant germ cell tumors. These files previously published - Korkola at al, Cancer Research 2006, PMID 16424014; GEO Accession Number GSE3218. miRNA profiling: Analyzed global miRNA expression files from 48 samples including 32 pediatric gonadal and extragonadal germ cell tumors, 2 adult testicular seminomas, 8 gonadal and developmental control samples and 6 germ cell tumor cell lines. Re-analyzed published data (TaqMan MicroRNA Assays) from study of miRNA expression in adult gonadal germ cell tumors (Gillis et al, J Pathol 2007, PMID 17893849) and compared with pediatric findings. Re-analyzed data linked below as supplementary file.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array GPL9957 miRCURY LNA microRNA Array, v. 9.2 - all organisms
+
+CITATIONS
+20332240
+

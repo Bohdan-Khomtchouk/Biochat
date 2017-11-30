@@ -1,0 +1,18 @@
+TITLE
+Determination of the nascent transcriptional rates in a TEToff::ARB1 conditional mutant.
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Transcription of eukaryotic genes involves dynamic interactions between RNA polymerases and chromatin that are facilitated by auxiliary factors. One of these chromatin factors is Spt6, encoded by an essential gene that plays regulatory functions throughout all eukaryotes, from yeast to human. We have performed a genetic analysis of Spt6 function by isolating yeast mutations that confer synthetic-lethality to a conditional spt6 allele under permissive conditions. In addition to genes encoding other general transcription factors, such mutations also include genes involved in pre-rRNA processing and ribosomal subunit assembly, among them DBP6 and ARB1. Using an in vivo depletion system for Arb1, the transcriptional response upon the impairment of ribosome assembly, and the potential involvement of Spt6 as a regulator was investigated. Subsequent analyses included the transcriptomic profiles of a set of viable null mutants, lacking genes functionally involved in different steps of ribosome biogenesis. We found that the genes encoding factors directly involved in ribosome assembly change their expression level in response to the impairment of the ribosome biogenesis pathway, and Spt6 plays a role in this regulation by tuning RNA polymerase II transcription during the elongation phase. This regulation does not uniformly affect all ribosome-related genes, since different subsets of genes were induced or repressed in response to different specific malfunctions in ribosome biogenesis. Together, these data extend our understanding of the regulation of ribosome related genes and provide insight into the mechanisms by which defects in ribosome biogenesis lead to a specific regulation of their expression at the level of transcription elongation.
+
+DESIGN
+Cells: SPT6 arb1∆ pCEN-TEToff::ARB1 (wt) or spt6-140 rb1∆ pCEN-TEToff::ARB1 (mutant), were grown in YPD at 26ºC to 0.25 OD600. At that time 5 µg/mL Doxicycline was added and let to stand for 4 or 8 h in the same conditions. Then each sample (wt or mutant) was separated in two aliquots. One of them was used for Genomic Run-On (GRO) and the other for RNA pol II Immunoprecipitation with 8WG16 antibody (RPCC) using published protocols. Filters were also hybridized with random-primed genomic DNA and the GRO signals were corrected by dividing them for the gDNA signals from the same filter. Immunoprecipitated (IP) signals were divide by whole cell extract signals from the same filters for the RPCC samples. More details as described in Pelechano et al (2009) PLos Genet. Two replicates of the whole experiment were done.
+
+PLATFORM
+GPL8568 Valencia yeast v8
+
+CITATIONS
+28637236
+

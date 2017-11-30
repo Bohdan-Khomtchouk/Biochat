@@ -1,0 +1,18 @@
+TITLE
+Identification and Targeted Inhibition of a Fibroblast Lineage Responsible for Scarring and Cancer Stroma
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Dermal fibroblasts represent a heterogeneous population of cells with diverse features that remain largely undefined due to a lack of functional subclasses. Here we reveal the presence of multiple lineages of dermal fibroblasts within the dorsal back. Genetic lineage tracing and transplantation assays demonstrate that the bulk of connective tissue deposition during embryonic development, cutaneous wound healing, radiation fibrosis, and cancer stroma formation is carried out by a single, somitic-derived fibroblast lineage. Reciprocal transplantation of distinct fibroblast lineages between the dorsal back and oral cavity induced ectopic dermal architectures that mimic their place–of-origin. These studies demonstrate that intra and inter-site diversity of dermal architectures are set embryonically and maintained postnatally by distinct lineages of fibroblasts. Lineage-specific cell ablation using transgenic-mediated expression of the simian diphtheria toxin receptor in conjunction with localized administration of diphtheria toxin led to diminished connective tissue deposition in wounds and significantly reduced melanoma growth in the dorsal skin of mice. Using flow cytometry and in silico approaches, we identify CD26/DPP4 as a surface marker that allows for the isolation of this fibrogenic, scar-forming lineage. Small molecule-based inhibition of CD26/DPP4 enzymatic activity during wound healing results in diminished cutaneous scarring. The identification and prospective isolation of these lineages holds promise for translational medicine aimed at in vivo modulation of their fibrogenic behavior.
+
+DESIGN
+Dermal fibroblasts were harvested for FACS from the oral dermis and cranial dermis of Wnt1Cre; R26mTmG mice, and from ventral and dorsal dermis of En1Cre; R26mTmG mice as previously described. For all microarray analysis, EPFs and ENFs where harvested from backskin of mice at 30 days of age. Positivity for GFP or RFP allowed for the separation of EPFs from ENFs and WPFs from WNFs. RNA was precipitated via chloroform-phenol extraction. Samples were processed for cleanup and concentration using Rneasy MinElute cleanup kit (cat. 74204, QIAGEN). RNA yield was typically 0.5-1 µg RNA/sorted subpopulations. RNA samples from all sorted populations were converted to cDNA using SuperScript III first strand synthesis system for RT-PCR (cat. 18080-051, Invitrogen), and hybridized to Affymetrix Mouse Genome 430 2.0 arrays. Microarrays were normalized by robust multichip average (RMA) and quantile normalization in R. Cluster analysis was performed with AutoSOME (33), using the following settings for gene expression clustering: p-value threshold of 0.05, 100 ensemble iterations, unit variance normalization of arrays, median centering of genes, and sum of squares=1 normalization for both genes and arrays.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+25883361
+

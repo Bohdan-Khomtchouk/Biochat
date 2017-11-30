@@ -1,0 +1,18 @@
+TITLE
+Translational reprogramming of colorectal cancer cells induced by 5-fluorouracil through a miRNA-dependent mechanism
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+5-Fluorouracil (5-FU) is a widely used chemotherapeutic drug in colorectal cancer. Previous studies showed that 5-FU modulates RNA metabolism and mRNA expression. In addition, it has been reported that 5-FU incorporates into the RNAs constituting the translational machinery and that 5-FU affects the amount of some mRNAs associated with ribosomes. However, the impact of 5-FU on translational regulation remains unclear. Using translatome profiling, we report that a clinically relevant dose of 5-FU induces a translational reprogramming in colorectal cancer cell lines. Comparison of mRNA distribution between polysomal and non-polysomal fractions in response to 5-FU treatment using microarray quantification identified 313 genes whose translation was selectively regulated. These regulations were mostly stimulatory (91%). Among these genes, we showed that 5-FU increases the mRNA translation of HIVEP2, which encodes a transcription factor whose translation in normal condition is known to be inhibited by mir-155. In response to 5-FU, the expression of mir-155 decreases thus stimulating the translation of HIVEP2 mRNA. Interestingly, the 5-FU-induced increase in specific mRNA translation was associated with reduction of global protein synthesis. Altogether, these findings indicate that 5-FU promotes a translational reprogramming leading to the increased translation of a subset of mRNAs that involves at least for some of them, miRNA-dependent mechanisms. This study supports a still poorly evaluated role of translational control in drug response.
+
+DESIGN
+8 total samples were analyzed. We generated the following pairwise comparisons: -5FU polysome vs -5FU non-polysome +5FU polysome vs +5FU non-polysome +5FU polysome vs -5FU polysome. Genes and exons with an fold change > = 1.5 and a p-value < = 0.05 were selected.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+28515355
+

@@ -1,0 +1,18 @@
+TITLE
+Precursor and mature microRNA expression in MCF7 cells in hypoxia
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Cancers are commonly characterised by hypoxia and also by global reductions in the levels of mature microRNAs. We have examined the hypothesis that hypoxia might mediate this reduction through repressive effects on microRNA biogenesis proteins.  Methods: Breast cancer cell lines were exposed to hypoxia and manipulations of hypoxia inducible factor (HIF) and HIF hydroxylase activity. The effects of hypoxia on the mRNA and protein levels of enzymes involved in microRNA biogenesis (Dicer, Drosha, TARPB2, DCGR8, XPO5) was determined by RT PCR and immunoblotting. The effect of hypoxia on microRNAs was determined with microarray studies, RT PCR and reporter assays.  Results: In breast cancer lines there was significant reduction of Dicer mRNA and protein levels in cells exposed to hypoxia. This effect was independent of HIF but dependent on the HIF hydroxylase PHD2 and was partly mediated by feedback effects via microRNAs. Furthermore, several other proteins with critical roles in microRNA biogenesis (Drosha, TARBP2 and DCGR8) also showed significant and co-ordinated repression under hypoxic conditions. Despite these substantial alterations no, or modest, changes were observed in mature microRNA production  Conclusion: These observations provide further and important interfaces between oxygen availability and gene expression and a potential mechanistic explanation for the reduced levels of microRNAs observed in some cancers. They provide further support for the existence of feedback mechanisms in the regulation of the microRNA biogenesis pathway and the relative stability of microRNAs.
+
+DESIGN
+MCF7 cells were treated with three different conditions.   Treatment-1: MCF7 cells were exposed to hypoxia (0.1% O2) for 48 h and harvested for RNA extraction (n=3).  Treatment-2: MCF7 cells were exposed to normoxia for 48 h and harvested for RNA extraction (n=3).  Treatment-3: Dicer inhibition in MCF7 cells by transient transfection of siRNAs targeting Dicer. Cells were transfected with 20 nM siRNA duplexes (Shanghai GenePharma Co., Ltd, China), using Lipofectamine 2000 reagent (Invitrogen) following the manufacturer’s protocol. A second transfection was carried out after 24 h following the same protocol. Cells were harvested 24 h after the second transfection and used for RNA extraction (n=3).  RNA integrity was assessed using the Agilent 2100 Bioanalyzer. Affymetrix miRNA 3.1 Array Strip was used for RNA analysis. This array consisted probe sets unique to human mature and pre-miRNA hairpins. A detailed protocol can be found in the miRNA 3.1 Array Strips technical manual (Affymetrix). In summary, 100-300 ng of total RNA was used to synthesise double stranded cDNA using random hexamers. The cDNA was then amplified to produce antisense cRNA, which was then reverse transcribed in a second cycle of cDNA synthesis. The second cycle incorporates dUTP into the cDNA sequence, which allows it to be fragmented using uracil DNA glycosylase and apurinic/apyrimidic endonuclease I. Following biotinylation, these fragments were hybridised overnight to a Affymetrix miRNA 3.1 array. The arrays were then washed, stained using a fluorescently-labelled antibody, and scanned using a high-resolution scanner. Intensity data were analysed using Partek® software (Partek Inc.). Data were normalised by quantile normalisation and log 2 transformed. Differential expression was determined by ANOVA and corrected for false discovery.
+
+PLATFORM
+GPL16384 [miRNA-3] Affymetrix Multispecies miRNA-3 Array
+
+CITATIONS
+25052766
+

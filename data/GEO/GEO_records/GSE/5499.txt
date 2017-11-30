@@ -1,0 +1,18 @@
+TITLE
+Identifying transcription factor functions and targets by phenotypic activation
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Mapping transcriptional regulatory networks is difficult because many transcription factors (TFs) are activated only under specific conditions. We describe a generic strategy for identifying genes and pathways induced by individual TFs that does not require knowledge of their normal activation cues. Microarray analysis of 55 yeast TFs that caused a growth phenotype when overexpressed showed that the majority caused increased transcript levels of genes in specific physiological categories, suggesting a mechanism for growth inhibition. Induced genes typically included established targets and genes with consensus promoter motifs, if known, indicating that these data are useful for identifying potential new target genes and binding sites. We identified the sequence 5'-TCACGCAA as a binding sequence for Hms1p, a TF that positively regulates pseudohyphal growth and previously had no known motif. The general strategy outlined here presents a straightforward approach to discovery of TF activities and mapping targets that could be adapted to any organism with transgenic technology. Keywords: phenotypic activation
+
+DESIGN
+We analyzed 55 TF overexpression strains and 51 non-essential TF deletion mutants by microarray with fluor-reversal replicates. See Chua et al. (2006), PNAS PMID: 16880382 for details.
+
+PLATFORM
+GPL1229 Hughes Lab Saccharomyces cerevisiae cDNA ORF array
+
+CITATIONS
+16880382
+

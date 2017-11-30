@@ -1,0 +1,18 @@
+TITLE
+Bru-seq nascent RNA sequencing of human and mouse cells: correlation to replication timing and genome instability
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Bru-seq nascent RNA sequencing (PubMed ID 23973811) was performed on two primary human fibroblast cell lines, mouse embryonic stem cells, and GM12878 human lymphoblastoid cells. Read data, which include both exon and intron signals, were used to identify transcription unit spans genome-wide, where a transcription unit is roughly correspondent to the longest expressed isoform of a gene. However, because algorithms were not constrained by annotated genes, transcription units need not and often do not correspond precisely to gene boundaries and include extragenic transcription. Transcription units were then compared to separate data sets that comprised induced copy number variants, common fragile sites, and Repli-seq replication timing. The objective was to discover the relationships between transcription unit span and size, local genomic instability, and replication timing. This GEO sample series provides the span and intensity of transcription units called genome-wide in the various samples. Correlations to genome stability and replication timing are provided in the associated manuscript. In addition, one human fibroblast line and the mouse embryonic stem cells had paired samples treated and untreated with low dose aphidicolin. Gene RPKM signal intensities are provided for these samples, although comparing these was not the principal objective of the study.
+
+DESIGN
+Bru-seq single-read nascent RNA sequencing on human 090 fibroblasts +/- aphidicolin treatment, human UMHF1 fibroblasts (3 replicates), human GM12878 lymphoblastoid cells, and mouse embryonic stem cells+/- aphidicolin treatment.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25373142
+

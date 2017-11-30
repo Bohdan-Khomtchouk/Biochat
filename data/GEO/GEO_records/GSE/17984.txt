@@ -1,0 +1,18 @@
+TITLE
+Epiblast stem cell subpopulations represent mouse embryos of distinct pregastrulation stages
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Embryonic stem cells (ESCs) comprise at least two populations of cells with divergent states of pluripotency. Here, we show that epiblast stem cells (EpiSCs) also comprise two distinct cell populations that can be distinguished by the expression of a specific Oct4-GFP marker. These two subpopulations, Oct4-GFP positive and negative EpiSCs, are capable of converting into each other in vitro. Oct4-GFP positive and negative EpiSCs are distinct from ESCs with respect to global gene expression pattern, epigenetic profile, and Oct4 enhancer utilization. Oct4-GFP negative cells share features with cells of the late mouse epiblast and cannot form chimeras. However, Oct4-GFP positive EpiSCs, which only represent a minor EpiSC fraction, resemble cells of the early epiblast and can readily contribute to chimeras. Our findings suggest that the rare ability of EpiSCs to contribute to chimeras is due to the presence of the minor EpiSC fraction representing the early epiblast.
+
+DESIGN
+RNA samples to be analyzed on microarrays were prepared using Qiagen RNeasy columns with on-column DNA digestion. 300 ng of total RNA per sample was used as input into a linear amplification protocol (Ambion), which involved synthesis of T7-linked double-stranded cDNA and 12 hrs of in-vitro transcription incorporating biotin-labelled nucleotides. Purified and labelled cRNA was then hybridized for 18 hrs onto MouseRef-8 v2 expression BeadChips (Illumina) according to the manufacturer's instructions. After washing, as recommended, chips were stained with streptavidin-Cy3 (GE Healthcare) and scanned using the iScan reader (Illumina) and accompanying software. Samples were hybridized as biological replicates. 6 samples were analyzed, five of them in duplicate and one of them (T9-EpiSC) a single time (11 total samples).  ESC: Mouse ESC male;  EpiSC: Mouse EpiSC male GOF18;  Epi-Sox2: Mouse EpiSC Sox2 male GOF18 (Overexpressing WT Sox2) cultured in condition EpiSC medium (CM);  EpiSC-GFP-: Mouse E3 EpiSC grown in CM and FACS-sorted for GFP-;  EpiSC-GFP+: Mouse E3 EpiSC grown in CM and FACS-sorted for GFP+;  T9-EpiSC: Mouse T9 EpiSC grown on medium-density CF1 MEFs in UM, 2d -Fgf2, harvested without MEFs. The supplementary file 'GSE17984_non-normalized_data.txt' contains non-normalized data for Samples GSM450294-GSM450304.
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+21056461
+

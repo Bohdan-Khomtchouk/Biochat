@@ -1,0 +1,18 @@
+TITLE
+Identification of the JNK Signaling Pathway as a Functional Target of the Tumor Suppressor PTEN
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Although most of the oncogenic phenotypes of PTEN loss have been attributed to AKT activation, AKT alone is not sufficient to induce all of the biological activities associated with PTEN inactivation.  We searched for additional PTEN-regulated pathways through gene set enrichment analysis (GSEA) and found that PTEN inactivation causes an enrichment of genes associated with JNK activation.  Biochemically, PTEN-null cells exhibit higher JNK activity, and genetic studies demonstrate that JNK functions parallel to and independently of AKT.  Furthermore, PTEN deficiency sensitizes cells to JNK inhibition.  We also found that negative feedback regulation of PI3K was impaired in PTEN-null cells.  These findings implicate JNK in PI3K-driven cancers and demonstrate the utility of GSEA to identify functional pathways using genetically defined systems. Keywords: Genetic modification:  PTEN RNAi
+
+DESIGN
+A431, HCC827 and SKBR-3 cells were retrovirally and stably transduced with a small hairpin RNA targeting human PTEN.  PTEN knockdown was confirmed at the protein level by western blot to be approximately 90%.  PTEN-deficient sublines were named by adding the suffix " PR " (for PTEN RNAi) at the end of each of the parental cell line names.  For example, PTEN deficient A431 cells are called A431-PR.  RNA was extracted from each of the parental and PTEN-deificient lines.  Each sample was done in duplicate (ie two chips per sample) for a total of twelve samples.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+17560336
+

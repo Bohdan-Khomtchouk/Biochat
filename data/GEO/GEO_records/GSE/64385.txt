@@ -1,0 +1,18 @@
+TITLE
+Immune and HCT116 RNA mixtures
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+These experiments were designed as a benchmark tool for deconvolution methods. 5 immune cell populations were sorted from 3 healthy donors' peripheral bloods. Peripheral Blood Mononuclear Cells (PBCMs) and PolymorphoNuclear Cells (PMN) were separated using gradient centrifugation. T cells (DAPI-/CD3+/CD14-/CD19-/CD56-), monocytes (DAPI-/CD3-/CD14+/CD19-/CD56-), B cells (DAPI-/CD3-/CD14-/CD19+/CD56-) and NK cells (DAPI-/CD3-/CD14-/CD19-/CD56+) were FACS-sorted from PBMCs and neutrophils (DAPI-/CD66b+/CD19-/CD3-/CD56-/CD14-) were sorted from PMNs. RNA was extracted from the purified cell population, as well as from the HCT116 colon cancer cell line. RNAs from pure populations were then mixed in various proportions.
+
+DESIGN
+RNA from HCT116 cells and FACS-sorted T cells (DAPI-/CD3+/CD14-/CD19-/CD56-), monocytes (DAPI-/CD3-/CD14+/CD19-/CD56-), B cells (DAPI-/CD3-/CD14-/CD19+/CD56-), NK cells (DAPI-/CD3-/CD14-/CD19-/CD56+), and neutrophils (DAPI-/CD66b+/CD19-/CD3-/CD56-/CD14-) were mixed in various proportions.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+27765066
+

@@ -1,0 +1,18 @@
+TITLE
+Gene Expression Profiling of Human Whole Blood Samples with the Illumina WG-DASL Assay
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarray-based gene expression analysis of peripheral whole blood is a common strategy in the development of clinically relevant biomarker panels for a variety of human diseases. However, the results of such an analysis are often plagued by decreased sensitivity and reliability due to the effects of relatively high levels of globin mRNA in whole blood. Globin reduction assays have been shown to overcome such effects, but they require large amounts of total RNA and may induce distinct gene expression profiles. The Illumina whole-genome DASL (WG-DASL) assay can detect gene expression levels using partially degraded RNA samples and has the potential to detect rare transcripts present in highly heterogeneous whole blood samples without the need for globin reduction. We therefore assessed the utility of the WG-DASL assay in the analysis of peripheral whole blood gene expression profiles. We find that gene expression detection is significantly increased with the use of WG-DASL compared to the standard in vitro transcription-based direct hybridization (IVT), while globin-probe-negative WG-DASL did not exhibit significant improvements over globin-probe-positive WG-DASL. Globin reduction increases the detection sensitivity and reliability of both WG-DASL and IVT with little effect on raw intensity correlations: raw intensity correlations between total RNA and globin-reduced RNA were 0.970 for IVT and 0.981 for WG-DASL. Overall, the detection sensitivity of the WG-DASL assay is higher than the IVT-based direct hybridization assay, with or without globin reduction, and should be considered in conjunction with globin reduction methods for future blood-based gene expression studies.
+
+DESIGN
+Peripheral whole blood samples were collected from eight human donors in PAXGene tubes. RNA was isolated after freezing and storage, and then prepared for gene expression analysis using the Illumina Human-Ref8 v3.0 BeadChip. Alpha and beta globin were reduced from a portion of the total RNA using the GLOBINclear assay (Ambion, Austin, TX, USA). Two methods of microarray target preparation were examined: Illumina IVT-based direct hybridization (IVT) and Illumina Whole-Genome DASL (WG-DASL). Two DASL Assay Oligo pools (DAP) were utilized for DASL target preparation: the DASL Assay Oligo Pool with globin probes (DAP +) and the DASL Asssay Oligo Pool without globin probes (DAP-).
+
+PLATFORM
+GPL6883 Illumina HumanRef-8 v3.0 expression beadchip GPL8432 Illumina HumanRef-8 WG-DASL v3.0
+
+CITATIONS
+21843359
+

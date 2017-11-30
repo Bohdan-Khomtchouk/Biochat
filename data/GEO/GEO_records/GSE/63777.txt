@@ -1,0 +1,18 @@
+TITLE
+Regulation of σK activity and function by SpoIIID during Clostridium difficile sporulation
+
+ORGANISM
+Clostridioides difficile 630
+
+SUMMARY
+Purpose: A goal of this study was to identify genes induced in the mother cell during Clostridium difficile sporulation (specifically in a σE-, σK-, and SpoIIID-dependent manner). Methods: Whole genome RNA sequencing was performed on wildtype, sigE-, sigK- and spoIIID- C. difficile strains (strain 630 background; JIR8094 = parent strain), and the transcriptional profiles of the different mutants during growth on 70:30 agar plates were determined using an Illumina MiSeq1000. Results: This analysis identified 200 genes whose expression is collectively activated by sporulation sigma factors: 159 were σF-dependent, 162 were σE-dependent, 28 were σG-dependent, and 36 were σK-dependent. A total of 254 genes were identified as requiring Spo0A for their expression when sporulation was induced on the 70:30 plates. Conclusions: These results provide the first genome-wide transcriptional analysis of genes whose expression is induced by specific sporulation sigma factors in the Clostridia and highlight that diverse mechanisms regulate sporulation sigma factor activity in the Firmicutes. For example, in contrast with the B. subtilis sporulation pathway, C. difficile σE was not required to fully activate σG, and σG was not required to activate σK.
+
+DESIGN
+Wildtype, sigE-, sigK- and spoIIID- strains were streaked onto 70:30 plates in triplicate, and sporulation was induced. RNA from the three biological replicate samples was harvested, DNAse-I treated, and ribosomally depleted using Ribo-Zero kits. This RNA was transformed into cDNA, and the resulting libraries were subjected to paired end sequencing using an Illumina HiSeq 1000.
+
+PLATFORM
+GPL19481 Illumina MiSeq (Peptoclostridium difficile 630)
+
+CITATIONS
+25393584
+

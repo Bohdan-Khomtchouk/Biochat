@@ -1,0 +1,18 @@
+TITLE
+3’ and 5’ end modifications in plant microRNA post biogenesis: evidences from NGS of small RNAs [Arabidopsis thaliana]
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Backgropund:In a major paradigm shift in the last decade, the knowledge about a whole class of non-coding RNAs known as miRNAs has emerged, which have proved these to be important regulators of a wide range of cellular processes by the way of modulation of gene expression. It is reported that some of these miRNAs are modified by addition or deletion of nucleotides at their ends, after biogenesis. However, the biogenesis and functions of these modifications are not well studied in eukaryotes, especially in plants. In this study, we examined the miRNA modifications in different tissues of the various plants, namely rice, tomato and Arabidopsis and identified some common features of such modifications. Results:We have analyzed different aspects of miRNA modifications in plants. To achieve this end, we developed a PERL script to find the modifications in the sequences using small RNA deep sequencing data. The modification occurs in both mature and passenger (star) strands, as well as at both the 5' and 3' ends of miRNAs. Interestingly, we found a position-specific nucleotide biased modification, as evident by increased number of modification at the 5' end with the presence of Cytosine (nucleotide 'C') at the 3’end of the miRNA sequence. The level of modifications is not strictly dependent on the abundance of miRNA. Our study showed that the modification events are independent of plant species, tissue and physiological conditions. Our analysis also indicates that the RNAi enzyme, namely, the RNA dependent RNA polymerase 6 (RDR6) may not have any role in Arabidopsis miRNA modifications. Some of these modified miRNAs are bound to AGO1, suggesting their possible roles in biological processes. Conclusions:This is a first report that reveals that 5' nucleotide additions are preferred for mature miRNA sequences with 3’ terminal ‘C’ nucleotide. Our analysis also indicates that the miRNAs modifications involving addition of nucleotides to the 5’ or 3’ end are independent of RDR6 activity and are not restricted by plant species, physiological conditions and tissue types. The results also indicate that such modifications might be important for biological processes.
+
+DESIGN
+small RNA profiles of wild type and RDR6 (-) of Arabidopsis plants were generated using deep sequencing data.
+
+PLATFORM
+GPL9302 Illumina Genome Analyzer II (Arabidopsis thaliana)
+
+CITATIONS
+26471296
+

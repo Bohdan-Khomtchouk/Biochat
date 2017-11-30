@@ -1,0 +1,18 @@
+TITLE
+Whole genome transcriptome analysis (RNAseq) identifies genes upregulated during ciliogenesis in Chlamydomonas reinhardtii
+
+ORGANISM
+Chlamydomonas reinhardtii
+
+SUMMARY
+We used pH shock to deflagellate Chlamydomonas and collected samples before pH shock (pre), 3, 10, 30, and 60 min post-deflagellation to look at the genes that are upregulated as Chlamydomonas regrows its flagella.  We aligned our data to v5.3 of the Chlamydomonas genome and compared transcript levels post-deflagellation to the pre-deflagellation levels.  A gene was considered expressed if the FPKMM value was at least 3.  If transcript level increased 2.5 fold following deflagellation, we considered the gene to be upregulated.  If the transcript levels decreased 2.5 fold following deflagellation, we considered the gene to be downregulated.  In all, we found 10,815 genes to be expressed during our experiment.  There were 1875 genes upregulated following deflagellation, 4,392 genes downregulated, and 4,548 genes that did not alter their expression
+
+DESIGN
+We analyzed mRNA from 5 samples before and after deflagellation.
+
+PLATFORM
+GPL15083 Illumina Genome Analyzer IIx (Chlamydomonas reinhardtii)
+
+CITATIONS
+23604077
+

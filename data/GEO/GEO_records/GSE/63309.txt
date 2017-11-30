@@ -1,0 +1,18 @@
+TITLE
+RNA-Seq of the rat pineal transcriptome, with in-vivo and in-vitro samples, under various treatment and surgical conditions
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Pineal function follows a 24-hour schedule, dedicated to the conversion of night and day into a hormonal signal, melatonin. In mammals, 24-hour changes in pineal activity are controlled by a neural pathway that includes the central circadian oscillator in the suprachiasmatic nucleus and the superior cervical ganglia (SCG), which innervate the pineal gland. In this study, we have generated the first next-generation RNA sequencing evidence of neural control of the daily changes in the pineal transcriptome. We found over 3000 pineal transcripts that are differentially expressed (p < 0.001) on a night/day basis (70% of these genes increase at night, 376 with fold change > 4 or < 1/4), the majority of which had not been previously identified as such. Nearly all night/day differences were eliminated by neonatal removal or decentralization of the SCG, confirming the importance of neural input for differential night/day changes in transcript abundance. In contrast, very few non-rhythmic genes showed evidence of changes in expression due to the surgical procedure itself, which is consistent with the hypothesis that post neonatal neural stimulation is not required for cell fate determination and maintenance of phenotype. Many of the transcripts that exhibit marked differential night/day expression exhibited similar changes in response to in vitro treatment with norepinephrine, the SCG neurotransmitter which mediates pineal regulation. Similar changes were also seen following treatment with an analog of the norepinephrine second messenger, cyclic AMP.
+
+DESIGN
+For the in vivo data, there were 8 biological conditions: day and night time points for each of four surgical groups: Control (Ctrl) Sham-surgery (Sham), Decentralized (DCN), and Ganglionectomized (SCGX). Samples were pooled into three biological replicates for each biological condition. For the in vitro data there were 3 biological conditions: Untreated control (CN), DBcAMP-treated (DB), and Norepinephrine-treated (NE). For the pineal enrichment comparison, three samples (i.e. no biological replicates) were used: pineal-day, pineal-night and mixed-tissue. For the mixed tissues sample, the following tissues from three rats sacrificed at ZT7 were used: cortex, cerebellum, midbrain, hypothalamus, hindbrain, spinal cord, retina, pituitary, heart, liver, lung, kidney, skeletal muscle, small intestine, adrenal gland. Total RNA was extracted from each tissue, and then equal amounts of each of the 15 tissues were combined for the final pooled sample.
+
+PLATFORM
+GPL14844 Illumina HiSeq 2000 (Rattus norvegicus)
+
+CITATIONS
+26367423
+

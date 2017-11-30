@@ -1,0 +1,18 @@
+TITLE
+From mouse to humans: detecting preventing vaccination targets associated to melanoma cancer stem cells. Gene-level analysis: TUBO
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The efficacy of cancer treatments have improved constantly in the last decade. However, therapeutic resistance and the lack of curative treatments in metastatic disease, raises the question if conventional anticancer therapies target the right cells. Indeed, these treatments might miss cancer stem cells (CSCs), which might also represent a more chemoresistant and radioresistant subpopulation within cancer. In this view using vaccines in tertiary prevention of cancer, i.e. residual disease treatment, might be particularly effective if vaccine-elicited immune response is directed against CSC oncoantigens (OAs) — proteins required for the neoplastic process — the chance that the tumour will evade the vaccine should be reduced. An important task to devise effective CSC preventive vaccines is therefore the identification of CSC OAs. We used gene-level transcription profiling of TUBO mouse breast cancer epithelial cell and one mammosphere passage (P1). This analysis allowed the identification of some interesting CSC OAs which are undergoing further studies.
+
+DESIGN
+TUBO cell line (E) was compared to passage 1 (P1) mammospheres (two independent experiments for each experimental condition). Transcription profiling was done using pair ends RNA-seq analysis. Reads were mapped with STAR (version 2.3.0e). Mapped reads were converted in exon-level counts using the python script provided as part of DEXSeq (version 1.6.0) Bioconductor package and UCSC mm9 annotation. Exon-level counts were then collapsed in gene-level counts using the geneCountsTable function from DEXSeq (version 1.6.0). Differential gene expression was evaluated by DESeq2 package (version 1.0.19) using default settings. Differentially expressed genes were selected using a FDR < 0.1 and |log2FC| > 1
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+High-resolution transcriptome analysis with long-read RNA sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Ongoing improvements to next generation sequencing technologies are leading to longer sequencing read lengths, but a thorough understanding of the impact of longer reads on RNA sequencing analyses is lacking. To address this issue, we generated and compared two RNA sequencing datasets of differing read lengths -- 2x75 bp (L75) and 2x262 bp (L262) -- and investigated the impact of read length on various aspects of analysis, including the performance of currently available read-mapping tools, gene and transcript quantification, and detection of allele-specific expression patterns. Our results indicate that, while the scalability of read-mapping tools and the cost-effectiveness of long read protocol is an issue that requires further attention, longer reads enable more accurate quantification of diverse aspects of gene expression, including individual-specific patterns of allele-specific expression and alternative splicing.
+
+DESIGN
+Two RNA-Seq datasets of differing read lengths (2x262 bp and 2x75 bp)
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL15520 Illumina MiSeq (Homo sapiens)
+
+CITATIONS
+25251678
+

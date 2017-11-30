@@ -1,0 +1,18 @@
+TITLE
+Pico profiling from 10 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Current expression profiling methods use RNA from hundreds of thousands or thousands cells. Many fields of biology can not use microarrays due to the nature of the biological systems used that are formed by hundreds or dozens of cells. Here we present a method that can handle RNA amount limitation and gives gene expression profiles from as little as 10 cells. We first validate the method hybridizing amplified RNA from MAQC samples A and B. To do that, 25 ng or 100 pg were used and expression profiles obtained as good as when compared to Affymetrix's chemistry for amplification and labeling. The same experiment was done but using sorted cells from two comercial cell lines (SW620 and SW480) obtaining the same differential expression profiling from 2000 cells or 10 cells. The central step of the method is Whole Transcriptome Amplification (WTA) from Sigma that allows the amplification of very small amounts of RNA as starting material.
+
+DESIGN
+MAQC samples A and B where amplified using Whole Transcriptome Amplification (WTA) kit from Sigma starting from 25 ng (standard conditions) or 100 pg in triplicates. Amplified cDNA was the fragmented and labeled using the 10kv2 SNP chemistry from Affymetrix and hybridized onto Affymetrix GeneST arrays. The same method was used for RNA isolated from 2000 and 10 cells from cell lines SW620 and SW480. RNA was isolated by magnetic bead purification after treating sorted cells with high DTT concentration and 65ºC to inactivate RNAses.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+21203435
+

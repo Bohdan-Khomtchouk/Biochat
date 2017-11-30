@@ -1,0 +1,18 @@
+TITLE
+Gene deletion expression profiles of yeast chromatin modifiers
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Packaging of DNA into chromatin has a profound impact on gene expression. To understand how changes in chromatin influence transcription, we analyzed 165 mutants of chromatin machinery components in Saccharomyces cerevisiae. mRNA expression patterns change in 80% of mutants, always with specific effects, even for loss of widespread histone marks. This results in the first network of chromatin interaction pathways. The network is function-based, has a branched, interconnected topology and lacks strict one-to-one relationships between complexes. Chromatin pathways are not separate entities for different gene sets, but share many components. The study evaluates which interactions are rate-limiting for which genes and predicts new interactions, for example between Paf1C and Set3C, as well as a role for Mediator in subtelomeric silencing. The results indicate the presence of gene-dependent effects that go beyond context-dependent binding of chromatin factors and provide a framework for understanding how specificity is achieved through regulating chromatin.
+
+DESIGN
+Two channel microarrays were used. RNA isolated from a large amount of wt yeast from a single culture was used as a common reference. This common reference was used in one of the channels for each hybridization and used in the statistical analysis to obtain an average expression-profile for each deletion mutant relative to the wt. Two independent cultures were hybridized on two separate microarrays. For the first hybridization the Cy5 (red) labeled cRNA from the deletion mutant is hybridized together with the Cy3 (green) labeled cRNA from the common reference. For the replicate hybridization, the labels are swapped. Each gene is represented twice on the microarray, resulting in four measurements per mutant. Using the Erlenmeyer growth protocol up to five deletion strains were grown on a single day. In the tecan platereader, up to eleven deletion strains could be grown on a single day. Wt cultures were grown parallel to the deletion mutants to assess day-to-day variance.
+
+PLATFORM
+GPL11232 A-UMCU-Y16k-1.3
+
+CITATIONS
+21596317
+

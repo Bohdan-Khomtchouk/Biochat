@@ -1,0 +1,18 @@
+TITLE
+Whole transcriptome analysis of rosetting Plasmodium falciparum parasites
+
+ORGANISM
+Plasmodium falciparum
+
+SUMMARY
+Background:  The cytoadherence of Plasmodium falciparum is thought to be mediated by variant surface antigens (VSA), encoded by var, rif, stevor and pfmc-2tm genes. The last three families have rarely been studied in the context of cytoadherence. As most VSA genes are unique, the variability among sequences has impeded the functional study of VSA across different P. falciparum strains. However, many P. falciparum genomes have recently been sequenced, allowing the development of specific microarray probes to each VSA gene.  Methods:  All VSA sequences from the HB3, Dd2 and IT/FCR3 genomes were extracted using HMMer. Oligonucleotide probes were designed with OligoRankPick and added to the 3D7-based microarray chip. As a proof of concept, IT/R29 parasites were selected for and against rosette formation and the transcriptomes of isogenic rosetting and non-rosetting parasites were compared by microarray.   Results:  From each parasite strain 50-56 var genes, 125-132 rif genes, 26-33 stevor genes and 3-8 pfmc-2tm genes were identified. The ability of the VSA-supplemented microarray chip to detect cytoadherence-related genes was assessed using P. falciparum clone IT/R29, in which rosetting is known to be mediated by PfEMP1 encoded by ITvar9. Whole transcriptome analysis showed that the most highly upregulated gene in rosetting parasites was ITvar9 (19 to 429-fold upregulated over six time points). Only one rif gene (IT4rifA_042) was upregulated by more than 4-fold (5-fold at 12 hours post-invasion), and no stevor or pfmc-2tm genes were upregulated by more than 2-fold.  49 non-VSA genes were upregulated in rosetting parasites by more than 3-fold in at least two time-points, although none as markedly as ITvar9.   Conclusions:  We demonstrate that the VSA of newly sequenced P. falciparum strains can be added to the 3D7-based microarray chip, allowing the analysis of the entire transcriptome of multiple strains. For the rosetting clone IT/R29, the striking transcriptional upregulation of ITvar9 was confirmed, and the data did not support the involvement of other VSA families in rosette formation.
+
+DESIGN
+Plasmodium falciparum parasites, strain IT/R29, were selected for (R29R+) or against (R29R-) rosetting. Both cultures (R29R+ and R29R-) were tightly synchronised before a timecourse experiment was performed. 6 samples, named time points 1 to 6, were taken every 8 hours. 12μg of RNA from the R29 non-rosetting parasites at each of the 6 time points was combined together to form the reference pool. The pool and 12μg of each individual time point sample from both rosetting and non-rosetting parasites were then used for cDNA synthesis. For microarray hybridizations,each cDNA sample was coupled to Cy5 (red dye) while Cy3 (green dye) was added to the pool. Cy5-labelled time point samples were mixed with the same amount of Cy3-labelled pool sample. The solution was loaded on a microarray slide and hybridized for 14–16 h.
+
+PLATFORM
+GPL11250 ZB/SBS-NTU Plasmodium falciparum 3D7 IGR+ORF 16.8K v1.0
+
+CITATIONS
+21718533
+

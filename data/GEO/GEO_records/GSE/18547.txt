@@ -1,0 +1,18 @@
+TITLE
+Comparison of immature BMDC to BMDC after nkt cell modulation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Analyze the gene expression profile of BMDC before and after nkt cell modulation.
+
+DESIGN
+Total RNA was extracted from CD11c cells with TRIzol Reagent, purified with RNeasy Kit (Qiagen) and subsequently amplificated  using the one cycle target labeling kit according to the AffymetrixGeneChip® Expression Analysis Technical Manual (Affimetrix). Fragmented cRNAs were probed to AffymetrixGeneChip® Mouse Genome 430 2.0 arrays for 16 hours at 45°C in the AffymetrixHybridization Oven 640. The arrays were then washed and stained with streptavidin-phycoerythrin using the AffymetrixFluidic Station 450/250 and scanned using the AffymetrixGeneChip® Scanner 3000. The images were analyzed using GCOC® Software and comparison analyses carried out according to the instructions provided by Affymetrix. Each experiment was performed in triplicates and repeated two times. Data handling was mainly done using Bioconductor Software. The probe set-based summary data were log transformed and normalized for probe set intensity-dependent biases. The identification of differentially expressed genes was addressed using linear modeling approach and empirical Bayer methods together with false discovery rate correction of the p-value. We considered a gene to be differentially increased in nkt-DCs only if its expression intensity was significantly changed (p < 0.001) compared to Untr-DCs.
+
+PLATFORM
+GPL8321 [Mouse430A_2] Affymetrix Mouse Genome 430A 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

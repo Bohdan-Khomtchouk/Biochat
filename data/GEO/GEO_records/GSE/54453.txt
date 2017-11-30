@@ -1,0 +1,18 @@
+TITLE
+CREBBP (CBP) ChIP-seq in wild type and CBP null MEFs +/- dipyridyl
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Genome-wide distribution of histone H3K18 and H3K27 acetyltransferases, Crebbp (CBP) and Ep300 (p300), is used to map enhancers and promoters, but whether these elements functionally require CBP/p300 remains largely uncertain.  We investigated this relationship by comparing genomic CBP recruitment with gene expression in wild type and CBP/p300 double-knockout fibroblasts.  ChIP-seq revealed nearby CBP recruitment for 20 percent of constitutively expressed genes, but surprisingly, three-quarters of these were unaffected or slightly activated by CBP/p300 deletion. Computationally defined enhancer-promoter-units (EPUs) having a CBP peak within two kilobases of the enhancer-like element provided better predictive value, with CBP/p300 deletion attenuating expression of 40 percent of such EPU assigned constitutively expressed genes. We next examined signaling-responsive (Hypoxia Inducible Factor) gene expression and CBP recruitment, and found that 97 percent of inducible genes were within 50 kilobases of an inducible CBP peak, and 70 percent of these required CBP/p300 for full inducible expression. Unexpectedly however, most inducible CBP peaks occurred near signal-nonresponsive genes.
+
+DESIGN
+eight samples total; Two wild type and two CBP null primary mouse embryonic fibroblast (MEF) lines, each treated with 100uM 2,2-dipyridyl or ethanol vehicle for 2 hours
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+25249627
+

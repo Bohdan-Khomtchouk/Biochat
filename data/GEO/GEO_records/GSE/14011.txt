@@ -1,0 +1,18 @@
+TITLE
+Expression data from myeloma cell lines treated with 500 nM pristimerin or DMSO vehicle alone for 4 hours
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+As multiple myeloma tumors universally dysregulate cyclin D genes we conducted high-throughput chemical library screens for compounds that induce suppression of cyclin D2. The top-ranked compound was a natural triterpenoid, pristimerin. We used gene expression microarray studies to identify co-regulated pristimerin-response genes and to deduce the compound’s direct molecular target(s), utilizing pattern-matching algorithms available at the Connectivity Map (Cmap). The early transcriptional response of cells treated with pristimerin closely resembles cellular responses elicited by proteosome inhibitors, with rapid induction of heat shock proteins, activating transcription factor (ATF) 3 and CHOP. Enzymatic assays and immunoblotting confirm that pristimerin rapidly ( < 90min) and specifically inhibits chymotrypsin-like proteosome activity at low concentrations ( < 100nM) and causes accumulation of cellular ubiquitinated proteins. Notably, cytotoxic triterpenoids including pristimerin inhibit NF-kB activation via inhibition of IKKa or IKKb while proteosome inhibitors instead suppress NF-kB function by impairing degradation of ubiquitinated-IkB. By inhibiting both IKK and the proteosome pristimerin causes overt suppression of constitutive NF-kB activity in myeloma cells that may mediate its suppression of cyclin D. Multiple myeloma is exquisitely sensitive to proteosome or NF-kB pathway inhibition. Consistent with this, pristimerin is potently and selectively lethal to primary myeloma cells (IC50 < 100nM), inhibits xenografted plasmacytoma tumors in mice and is synergistically cytotoxic with bortezomib – providing the rationale for pharmaceutical development of triterpenoid dual-function proteosome/NF-kB inhibitors as therapeutics for human multiple myeloma and related malignancies. Keywords: small molecule drug response, stress response
+
+DESIGN
+H929 and U266 human myeloma cell lines were treated with pristimerin 500nM (~2x IC50) or DMSO vehicle and harvested at 4h, prior to the appearance of any macroscopic evidence of perturbed viability. RNA was isolated using Trizol, column purified (Qiagen, Valencia, CA) and hybridized to Hg_U133_plus_2 microarrays (Affymetrix, Santa Clara, CA) according to the manufacturer’s instructions. Probe-set signal intensities were PLIER16-normalized using Affymetrix Expression Console software and flagged using Affymetrix Microarray Suite 5 (MAS5) Present/Absent/Marginal detection calls. Expression data was analyzed with GeneSpring 7 (Agilent Technologies, Santa Clara CA) software, with drug-treated samples normalized per cell line to DMSO-treated controls. Gene lists were filtered to exclude non-expressed probe-sets with MAS5 ‘Absent’ detection calls across all samples tested (treated and untreated). Probe-sets upregulated or suppressed by pristimerin in each cell line were delineated by volcano plot filter ( > 1.5 fold change, FDR < 0.25) and the Venn intersection of probe-sets modulated by drug in both cell lines was used in deriving a pristimerin signature.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19096011
+

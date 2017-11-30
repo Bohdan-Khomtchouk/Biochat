@@ -1,0 +1,18 @@
+TITLE
+Yeast Histone ChIP-chips_Evidence for nucleosome depletion at active regulatory regions genome-wide (Lee et al. 2004)
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The identification of nuclease-hypersensitive sites in an active globin gene and in the 5' regions of fruit fly heat shock genes first suggested that chromatin changes accompany gene regulation in vivo. Here we present evidence that the basic repeating units of eukaryotic chromatin, nucleosomes, are depleted from active regulatory elements throughout the Saccharomyces cerevisiae genome in vivo. We found that during rapid mitotic growth, the level of nucleosome occupancy is inversely proportional to the transcriptional initiation rate at the promoter. We also observed a partial loss of histone H3 and H4 tetramers from the coding regions of the most heavily transcribed genes. Alterations in the global transcriptional program caused by heat shock or a change in carbon source resulted in an increased nucleosome occupancy at repressed promoters, and a decreased nucleosome occupancy at promoters that became active. Nuclease-hypersensitive sites occur in species from yeast to humans and result from chromatin perturbation. Given the conservation of sequence and function among components of both chromatin and the transcriptional machinery, nucleosome depletion at promoters may be a fundamental feature of eukaryotic transcriptional regulation. Keywords: ChIP-chip
+
+DESIGN
+Seven Myc-tagged H4 and four H3 ChIP-chip experiments were performed using input DNA as the reference. Results were compared to control experiments using input DNA, ChIPs lacking Myc epitope, or ChIPs without antibodies. Data from input vs. input control experiments are shown here. Also, four H3 ChIP-chip experiments were performed during heat shock. We loaded data into the University of North Carolina (UNC) Microarray Database. We normalized the ratios and retrieved the following ratio for each spot: log2 (median of ChIP pixel intensities/ median reference pixel intensities). Only spots of high quality by visual inspection, with gel-verified PCR products and comprised of pixels with consistent ratio values (regression correlation > 0.6), were used for analysis.
+
+PLATFORM
+GPL3704 Lieb Lab at UNC-CH_Yeast Whole-genome Array (PCR-based)_for Lee CK et al.
+
+CITATIONS
+15247917
+

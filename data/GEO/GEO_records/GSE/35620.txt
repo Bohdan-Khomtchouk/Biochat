@@ -1,0 +1,18 @@
+TITLE
+Evolution of human-specific microRNA miR-941 [miRNA transfection]
+
+ORGANISM
+Macaca mulatta ; Homo sapiens
+
+SUMMARY
+miRNA-mediated gene expression silencing has previously been shown to be important for a variety of physiological and pathological processes. Here, we have explored the role of one bona fide human-specific miRNA (miR-941) in evolution of the human-specific expression and function. Using combination of high-throughput sequencing (GSE26545), miRNA transfection and large-scale PCR of various human populations, we have shown that emergence and rapid expansion of miR-941 might take place on the human evolutionary linage between six and one million years ago. Functionally, miR-941 could be associated with hedgehog and insulin signaling pathways, and thus might potentially play a role in evolution of human longevity. Human-specific effects of miR-941 regulation are detectable in human brain and affect genes involved in neurotransmitter signaling. Furthermore, emergence of miR-941 on the human evolutionary linage was accompanied by the accelerated loss of its binding sites. Taken together, these results strongly implicate the contribution of miR-941 in evolution of the human-specific phenotype.
+
+DESIGN
+miRNA transfection experiments were conducted in 6 cell lines: two human derived kidney cell lines (HEK and 293T), one human skin fibroblast cell line (HSF2), two macaque derived kidney cell lines (LLCMK2 and FrhK-4), and one macaque skin fibroblast cell line (MSF). Briefly, cells were plated in 0.5 ml of growth medium 24h prior to transfection without antibiotics. miR-941 mimics-Lipofectamine 2000 (Invitrogen) complexes were prepared freshly before transfection based on the manufacturer’s protocol. Cells were transfected in six-well plates using miRNA mimics-Lipofectamine 2000 with a final oligonucleotide concentration of 10nmol/L. In parallel, negative control transfections with mock oligonucleotides were conducted according to the manufacturer’s protocol. After 24h, cells were harvested and total RNA were extracted using Trizol reagent (Invitrogen) and further processed and hybridized to Affymetrix Human Genome U133 Plus 2.0 arrays following the manufacturer’s instructions. The R RMA package was used to quantify gene expression levels.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+23093182
+

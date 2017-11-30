@@ -1,0 +1,18 @@
+TITLE
+Discovery and validation of a prostate cancer genomic classifier that predicts early metastasis following radical prostatectomy
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Clinicopathologic features and biochemical recurrence are sensitive, but not specific, predictors of metastatic disease and lethal prostate cancer.  We hypothesize that a genomic expression signature detected in the primary tumor represents true biological potential of aggressive disease and provides improved prediction of early prostate cancer metastasis. Methods: A nested case-control design was used to select 639 patients from the Mayo Clinic tumor registry that underwent radical prostatectomy between 1987 and 2001. A genomic classifier (GC) was developed by modeling differential RNA expression using 1.4 million feature high-density expression arrays of men enriched for rising PSA after prostatectomy, including 213 that experienced early clinical metastasis after biochemical recurrence. A training set was used to develop a random forest classifier of 22 markers to predict for cases - men with early clinical metastasis after rising PSA. Performance of GC was compared to prognostic factors such as Gleason score and previous gene expression signatures in a withheld validation set. Results: Expression profiles were generated from 545 unique patient samples, with median follow-up of 16.9 years.  GC achieved an area under the receiver operating characteristic curve of 0.75 (0.67 - 0.83) in validation, outperforming clinical variables and gene signatures. GC was the only significant prognostic factor in multivariable analyses. Within Gleason score groups, cases with high GC scores experienced earlier death from prostate cancer and reduced overall survival. The markers in the classifier were found to be associated with a number of key biological processes in prostate cancer metastatic disease progression. Conclusion: A genomic classifier was developed and validated in a large patient cohort enriched with prostate cancer metastasis patients and a rising PSA that went on to experience metastatic disease. This early metastasis prediction model based on genomic expression in the primary tumor may be useful for identification of aggressive prostate cancer.
+
+DESIGN
+545 formalin-fixed paraffin-embedded (FFPE) tissue samples from primary prostate cancer obtained from Radical Prostatectomy.
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+23826159 , 26631616
+

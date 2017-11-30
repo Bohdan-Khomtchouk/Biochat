@@ -1,0 +1,18 @@
+TITLE
+Characterization of gene expression associated with the adaptation of the nematode C. elegans to hypoxia and reoxygenation stress
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Oxygen (O2) is a double-edged sword to cells for while it is vital for energy production in all aerobic animals and insufficient O2 (hypoxia) can lead to cell death, the reoxygenation of hypoxic tissues may trigger the generation of reactive oxygen species (ROS) that can destroy any biological molecule. Indeed, both hypoxia and hypoxia-reoxygenation (H/R) stress are harmful, and may play a critical role in the pathophysiology of many human diseases such as myocardial ischemia and stroke. Therefore, understanding how animals adapt to hypoxia and H/R stress is critical for developing better treatments for these diseases. Previous studies showed that the neuroglobin GLB-5(Haw) is essential for the fast recovery of the nematode Caenorhabditis elegans (C. elegans) from H/R stress. Here, we characterize the changes in neuronal gene expression during the adaptation of worms to hypoxia and recovery from H/R stress. Our analysis show that innate immunity genes are differentially expressed during both adaptation to hypoxia and recovery from H/R stress.
+
+DESIGN
+To explore the changes in neuronal gene expression occurring during the adaptation of worms to hypoxia and recovery from H/R stress, we used mRNA tagging (Kunitomo et al., 2005; Von Stetina et al., 2007; Petersen et al., 2011). Briefly, we created npr-1(ad609) and glb-5(Haw);npr-1(ad609) transgenic worms expressing a pan-neuronal poly(A)-binding protein 1 (PAB-1) with an N-terminal FLAG affinity tag (these strains were created using the parental strain SD1241 (Von Stetina et al., 2007)). Moreover, we created glb-5(Haw);npr-1(ad609) transgenic worms expressing intestinal FLAG-PAB-1 to control for the efficiency of neuronal mRNA purification (this strain was created using the parental strain SD1084 (Pauli et al., 2006)). We purified mRNA from Prgef-1::FLAG-PAB-1 and Pges-1::FLAG-PAB-1 animals at time-points in which the bordering recovery of worms from H/R stress was previously characterized (as specified in the introduction and in (Gross et al., 2014; Abergel et al., 2016)), namely the 0, 3, 6, 24.5 and 28 h time points.  The mRNA, from each time-point, was amplified and labeled for application to an Agilent microarray chip representing ~95% of the predicted C. elegans genes. We used 12 Agilent chips to compare the expression of genes between time 0 and 3 (the 0-3 h pair), 3 and 6 (the 3-6 h pair), 6 and 24.5 (the 6-24 h pair), and 24.5 and 28 (the 24.5-28 h pair) . In addition, we used two chips were to compare the expression of genes between npr-1(ad609) and glb-5(Haw);npr-1(ad609) neurons in times 3 and 24.5 h. Finally, we used two chips to compare the expression of neuronal and intestinal genes of glb-5(ad609);npr-1(ad609) worms in times 3 and 24.5 h. The microarray data were extracted using the Agilent's Feature Extraction 10.7 software, and further analyzed using a custom written MATLAB program.
+
+PLATFORM
+GPL11346 Agilent-020186 C. elegans (V2) Gene Expression Microarray (Probe Name version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

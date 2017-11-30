@@ -1,0 +1,18 @@
+TITLE
+The role of retinol dehydrogenase 10 in the retina visual cycle
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Pigment regeneration is critical for the function of cone photoreceptors in bright and rapidly-changing light conditions. This process is facilitated by the recently-characterized retina visual cycle, in which Müller cells recycle spent all-trans-retinol visual chromophore back to 11-cis-retinol. This 11-cis-retinol is oxidized selectively in cones to the 11-cis-retinal used for pigment regeneration. However, the enzyme responsible for the oxidation of 11-cis-retinol remains unknown. Here, we sought to determine whether retinol dehydrogenase 10 (RDH10), upregulated in rod/cone hybrid retinas and expressed abundantly in Müller cells, is the enzyme that drives this reaction. We created mice lacking RDH10 either in cone photoreceptors, Müller cells, or the entire retina. In vivo electroretinography and transretinal recordings revealed normal cone photoresponses in all RDH10-deficient mouse lines. Notably, their cone-driven dark adaptation both in vivo and in isolated retina was unaffected, indicating that RDH10 is not required for the function of the retina visual cycle. We also generated transgenic mice expressing RDH10 ectopically in rod cells. However, rod dark adaptation was unaffected by the expression of RDH10 and transgenic rods were unable to use cis-retinol for pigment regeneration. We conclude that RDH10 is not the dominant retina 11-cis-RDH, leaving its primary function in the retina unknown.
+
+DESIGN
+Retinas from rd7 and wild-type (C57BL/6J) mice at age 21 days were harvested. Two biological replicates per strain were collected. Each replicate consisted of 8 retinas total from two female and two male mice. RNA was extracted with Trizol, polyA-selected, and processed for mRNA-seq. All four samples were sequenced on a single lane of Illumina HiSeq 2000 (1x50 bp). Note that Nr2e3 transcript levels are higher in the rd7 mutant, as previously reported (Chen et al 2006 Hum Mol Genet 15(13):2146-56).
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28539612
+

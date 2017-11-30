@@ -1,0 +1,18 @@
+TITLE
+ATAC-seq profiling of open chromatin in Arabidopsis thaliana shoot apical meristem stem cells and leaf mesophyll cells.
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Cell differentiation is driven by changes in transcription factor (TF) activity and subsequent alterations in transcription. To study this processes, differences in TF binding between cell types can be deduced by methods that probe chromatin accessibility. Here we use cell type-specific nuclei purification followed by the Assay for Transposase Accessible Chromatin (ATAC-seq) to delineate differences in chromatin accessibility and TF-to-TF regulatory networks between stem cells of the shoot apical meristem (SAM) and differentiated leaf mesophyll cells of Arabidopsis thaliana. We found thousands of quantitative differences in chromatin accessibility between SAM stem cells and leaf mesophyll cells. Analysis of the genomic regions that were preferentially accessible in each cell type identified hundreds of overrepresented TF binding motifs, providing a list of TFs that may be important for each cell type. By focusing on TFs with evidence for differential expression between the cell types and physical interactions among themselves, we found evidence for extensive co-regulation of target genes by multiple TFs exclusively in each cell type. For example, a set of zinc-finger TFs appear to control a suite of growth- and development-related genes specifically in stem cells, while another TF set co-regulates genes involved in light responses and photosynthesis in mesophyll cells. Our analysis of chromatin accessibility differences between stem cells and differentiated mesophyll cells allowed us to identify TF-to-TF regulatory networks that are likely important in each cell type. This work further demonstrates the utility of of cell type-specific chromatin accessibility profiling to develop testable models of regulatory control during cell differentiation.
+
+DESIGN
+ATAC-seq was performed on nuclei purified by INTACT affinity purification from Arabidopsis thaliana shoot apical meristem stem cells and leaf mesophyll cells. INTACT transgenics were CLV3p:NTF/ACT2p:BirA for labeling of stem cell nuclei and RbCSp:NTF/ACT2p:BirA for labeling of mesophyll nuclei. All ATAC-seq experiments were performed in three biological replicates.
+
+PLATFORM
+GPL19580 Illumina NextSeq 500 (Arabidopsis thaliana)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

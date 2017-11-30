@@ -1,0 +1,18 @@
+TITLE
+Differential Recruitment of the Splicing Machinery during Transcription Predicts Genome-wide Patterns of mRNA Splicing
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The splicing machinery associates with genes to facilitate efficient co-transcriptional mRNA processing.  We have mapped these associations by genome localization analysis to ascertain how splicing is achieved and regulated on a system-wide scale.  Our data show that factors important for intron recognition sample nascent mRNAs and are retained specifically at intron-containing genes via RNA-dependent interactions.  Spliceosome assembly proceeds co-transcriptionally, but completes post-transcriptionally in most cases.  Some intron-containing genes were not bound by the spliceosome, including several developmentally regulated genes.  On this basis we predicted and verified regulated splicing, and observed a role for nuclear mRNA surveillance in monitoring those events.  Finally, we present evidence that co-transcriptional processing events determine the recruitment of specific mRNA export factors.  Broadly, our results provide mechanistic insights into the coordinated regulation of transcription, mRNA processing, and nuclear export in executing complex gene expression programs. Keywords: ChIP-chip
+
+DESIGN
+We analyzed the genomic localization of spliceosome components by chromatin IP followed by microarray analysis (ChIP-chip).  All factors examined were C-terminally tagged at their genomic loci with either -myc or -HA epitopes.  Between 3 and 6 biological replicates were performed for each factor. DNA from ChIPs and WCE input was amplified by linker-mediated PCR and labeled by Klenow incorporation of Cy3- or Cy-5 UTP using a random primer mix.  In at least one replicate for each factor, fluorophores were swapped to control for bias during dye-labeling.  ChIP and WCE fractions for each sample were competitively hybridized to the University Health Network (UNS) yeast ORF array (v6.4k), washed, and scanned using the GenePix 4000B scanner.  Raw data was then uploaded onto Rosetta Resolver, and individual replicates were combined to give the raw data files submitted here.
+
+PLATFORM
+GPL4641 University Health Services (Toronto) Yeast ORF, Version 6.4k
+
+CITATIONS
+17189192
+

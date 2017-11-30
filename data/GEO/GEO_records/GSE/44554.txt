@@ -1,0 +1,18 @@
+TITLE
+The PhtL protein of Pseudomonas syringae pv. phaseolicola NPS3121 affects the expression of both phaseolotoxin cluster (Pht) and Non-Pht encoded genes
+
+ORGANISM
+Pseudomonas savastanoi pv. phaseolicola
+
+SUMMARY
+P. syringae pv. phaseolicola, the causal agent of halo blight disease in bean, produces a toxin known as phaseolotoxin, whose synthesis involves the product of some of the genes found within the Pht region. This region, considered a pathogenicity island, comprises 23 genes arranged in five transcriptional units; two single-gene units (argK, phtL) and three arranged as operons (phtA, phtD, phtM), most with unknown function. In P. syringae pv. phaseolicola, maximal expression of most of the genes encoded in the Pht region and the synthesis of phaseolotoxin require the product of the phtL gene, which has been proposed to have a regulatory function. In order to evaluate the role of phtL gene in P. syringae pv. phaseolicola, we performed a comparative transcriptional analysis with the wild type and a phtL- mutant strains using microarrays. The microarray data analysis showed that PhtL regulates the expression not only of genes within the Pht region, but also alters the expression of genomic genes related with the iron-acquisition system, pathogenicity, oxidative stress and virulence. This study suggests the possible relation of the PhtL protein with the iron response genes and with the pathogenicity and or virulence of this bacterium.
+
+DESIGN
+The microarrays used in this study correspond to an assembled DNA microarray of P. syringae pv. phaseolicola NPS3121 previously reported (GEO accession number GPL7115) (Hernández-Morales et al., 2009). This microarray consist of 1911 probes, with an average length 2.4 Kbp, representing 1X the genome of P. syringae pv. phaseolicola NPS3121, as well as several PCR products corresponding to various known genes,  which were printed as controls. Each microarray experiment was repeated six times (two technical replicates with the same RNA samples and three biological replicates using RNA isolated from a different culture). cDNA synthesis, labeling, hybridization, washing, and chip scanning were performed at the Microarray Core Facility at Cinvestav-Langebio. Hybridized microarray slides were scanned (GenePix 4000, Axon Instruments, Inc) at a 10 um resolution adjusting the laser and gain parameters to obtain similar levels of fluorescence intensity in both channels. The spot intensities were quantified using Axon GenePrix Pro 6.0 image analysis software. First, an automatic spot finding and quantification option of the software was used. Subsequently, all spots were inspected individually and in some cases, the spot diameters were corrected or the spots were removed from the analysis. The mean of the signals and the median of backgrounds were used for further analysis. Raw data were imported into the R.2.2.1 software. Background signals were subtracted using the Robust Multichip Analysis (RMA) whereas the normalization of the signal intensities within slides was carried out using “print-tip loess” method and the LIMMA package. Normalized data were log2 transformed and then fitted into mixed model ANOVAs using the Mixed procedure. The p-values of the phtL effects were adjusted for by the False Discovery Rate Method “FDR”. Changes in signal intensity of ±1.5-fold or higher/lower between phtL- mutant and wild type were highly significant (FDR, p-value ≤0.05), however we focused only in differential expressed genes that fell within the more traditional criteria, which is the cut-off threshold for up-regulated (≥1.8) and down-regulated genes (≤0.50).
+
+PLATFORM
+GPL7115 Microarray of P. syringae pv phaseolicola NPS3121
+
+CITATIONS
+23806843
+

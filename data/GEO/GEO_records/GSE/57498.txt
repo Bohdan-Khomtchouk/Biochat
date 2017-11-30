@@ -1,0 +1,18 @@
+TITLE
+Comparison of nucleosome occupancy and chromatin states between normal and cancer cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Epigenetic modification is a hallmark of cancer cells achieved through altered patterns of DNA methylation, histone modifications and nucleosome positions. These events have only been described in detail at gene promoters.  Results: Here, we integrate multiple epigenome-wide maps to evaluate the scope of global epigenetic reprogramming in cancer cells at enhancers and insulators. Using high-resolution simultaneous mapping of global DNA methylation and nucleosome positions within individual DNA strands (NOMe-Seq), we observe a reorganization of the DNA methylome coupled with simultaneous modulation of nucleosome depleted regions (NDRs) at distal regulatory elements in cancer cells. We show that while NDRs are preferentially found at enhancers in normal breast and prostate epithelial cells, there are fewer NDRs coupled with increased DNA methylation detected at enhancersin cancer cells. Our data suggests that the acquisition of a nucleosome is key to DNA hypermethylation susceptibility and contributes to epigenetic silencing of enhancers in cancer, which can notably occur without loss of H3K4me1. Further we observe that NDRs are not necessary for peripheral phasing of adjacent nucleosomes, contrary to the common dogma, and show that nucleosomes remain organized and phased, even in the absence of a NDR as an anchor. Finally we observe the potential for transcription factors (TF) to organize NDRs genome-wide; all TF-binding sites are strongly hypomethylated and some show extensive peripheral nucleosome phasing. Conclusion: Together our findings suggest that, in addition to epigenetic alterations to promoter regions in cancer, there is substantial disruption to the distal regulatory architecture that provides an additional layer of epigenetic plasticity in malignancy.
+
+DESIGN
+NOMe-seq, ChIP-seq for 5 marks and input control for breast normal (HMEC), breast cancer (MCF7), prostate normal (PrEC) and prostate cancer (PC3) cell lines
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24916973
+

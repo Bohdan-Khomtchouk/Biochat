@@ -1,0 +1,18 @@
+TITLE
+Bone marrow dendritic cells response to LPS, PAM and poly IC
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Individual genetic variation affects gene expression and cell phenotype by acting within complex molecular circuits, but this relationship is still largely unknown. Here, we combine genomic and meso-scale profiling with novel computational methods to detect genetic variants that affect the responsiveness of gene expression to stimulus (responsiveness QTLs) and position them in circuit diagrams. We apply this approach to study individual variation in transcriptional responsiveness to three different pathogen components in the model response of primary bone marrow dendritic cells (DCs) from recombinant inbred mice strains. We show that reQTLs are common both in cis (affecting a single target gene) and in trans (pleiotropically affecting co-regulated gene modules) and are specific to some stimuli but not others. Leveraging the stimulus-specific activity of reQTLs and the differential responsiveness of their associated targets, we show how to position reQTLs within the context of known pathways in this regulatory circuit. For example, we find that a pleiotropic trans-acting genetic factor in chr1:129-165Mb affects the responsiveness of 35 anti-viral genes only during an anti-viral like stimulus. Using RNAi we uncover RGS16 the likely causal gene in this interval, and an activator of the antiviral response. Our approach charts an experimental and analytic path to decipher the mechanisms underlying genetic variation in other complex circuits in primary mammalian cells.
+
+DESIGN
+The transcriptional response of DCs to pathogen components in the context of the mouse BXD recombinant inbred lines. We isolated DCs from individual age-synchronized female mice of different BXD and parental strains. We measured 30 global transcription profiles in resting and stimulated DCs from two parental strains (B6 and D2) and six BXD strains. We used bone marrow derived primary DCs from a panel of recombinant inbred (RI) BXD mice derived from a cross of the parental C57BL/6J (B6) and DBA/2J (D2) strains. We measured transcriptional responses in DCs from each of two parental strains and 6 BXD strains stimulated by three ligands of Toll-like receptors: LPS (TLR4 ligand), Pam3CSK ('PAM', TLR2 ligand) and poly IC (TLR3/RIG-I ligand).
+
+PLATFORM
+GPL8759 [HT_MG-430A] Affymetrix HT Mouse Genome 430A Array
+
+CITATIONS
+23503680
+

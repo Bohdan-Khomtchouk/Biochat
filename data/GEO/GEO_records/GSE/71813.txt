@@ -1,0 +1,18 @@
+TITLE
+Barcode Sequencing Screen Identifies SUB1 as a Novel Regulator of Yeast Mating Pathway Genes
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The yeast mating pathway serves as a valuable model of eukaryotic mitogen activated protein kinase (MAPK) pathways, several components of which are actual and potential therapeutic drug targets. Here we present a new screening method we developed that combines two technologies, fluorescence activated cell sorting (FACS) with Barcode analysis by Sequencing (Bar-Seq). Using the new screening method and pFUS1-GFP as a reporter, we identified known mutants in the mating pathway and also characterized a source of false positives that arose as a result of the design of this screen. Additionally from the screen, we identified that a deletion mutant, sub1Δ, that exhibits increased expression of the GFP reporter. Our ChIP-Seq data shows that Sub1 increases binding to the promoters of several pheromone-inducible genes and supports our finding that SUB1 is involved in regulating the expression of genes in mating pathway. RNA-Seq of a sub1Δ mutant shows that the majority of genes have no change in RNA and of the small subset that do, most of these show a decrease in expression. In this study, we find that the sub1Δ mutant has increased basal levels of a small subset of genes including IMD2 (consistent with previous reports) and a gene necessary for efficient mating, FIG1.
+
+DESIGN
+Bar-Seq of sorted populations of mutants with mutant pFUS1-GFP expression; ChIP-Seq of Sub1-3HA under α-factor and sorbitol conditions; RNA-Seq of sub1Δ mutant under α-factor and sorbitol conditions
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae) GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+26837954
+

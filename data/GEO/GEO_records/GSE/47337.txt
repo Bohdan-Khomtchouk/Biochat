@@ -1,0 +1,18 @@
+TITLE
+Binding in wild type embryos: SoxN.
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Genome-wide binding of SoxN in wild type embryos: SoxNDam (DamID, stage 8-11), SoxND1 (ChIP, stage 8-11), SoxND2 (ChIP, stage 8-11), SoxNPA179 Early (ChIP, stage 7-10), and SoxNPA179 Late (ChIP, stage 11-13).
+
+DESIGN
+One DamID experiment, four ChIP experiments. Three biological replicates per experiment. Two conditions: Dam (control) vs SoxNDam (sample) for DamID, anti-βgal (control, 40-1a antibody from DSHB) vs anti-SoxN (sample, either SoxND1, SoxND2 or SoxNPA179 antibody) for ChIP. The only commercially available antibody is the anti-BetaGal. All the anti-SoxN antibodies are home-made. anti-BetaGal: Developmental Studies Hybridoma Bank (DSHB), 40-1a, mouse, monoclonal ( http://dshb.biology.uiowa.edu/beta-galactosidase_2 ) SoxND1: polyclonal antiserum raised in rabbit immunized with a protein fragment corresponding to amino acids 2-92 of SoxN. Produced by the modENCODE consortium ( http://www.modencode.org/ ). SoxND2: polyclonal antiserum raised in rabbit immunized with a protein fragment corresponding to amino acids 317-417 of SoxN. Produced by the modENCODE consortium ( http://www.modencode.org/ ). SoxNPA179: affinity purified polyclonal antibody raised in rabbit immunized with a small peptide corresponding to amino acids 506-521 of SoxN. Commisioned by our lab and produced by Eurogentec ( http://www.eurogentec.com/eu-home.html ).
+
+PLATFORM
+GPL15641 NimbleGen Drosophila melanogaster Whole Genome 2.1M tiling array [100718_DM_5_Catalog_tiling_HX1]
+
+CITATIONS
+24886562
+

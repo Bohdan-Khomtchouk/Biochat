@@ -1,0 +1,18 @@
+TITLE
+Expression data from patients with Essential Thrombocythemia (ET), Polycythemia Vera (PV), Primary Myelofibrosis (PMF) (untreated)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarrays were used to assess gene expression in patients with ET, PV, and PMF before treatment with IFNalpha2.
+
+DESIGN
+Total RNA was purified from whole blood and amplified to biotin-labeled aRNA and hybridized to microarray chips. Background correction, normalization, and gene expression index calculation were performed with the robust multi-array (rma) method. The regularized t-test limma was used to calculate differences in gene expression between patients and control subjects.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25397683
+

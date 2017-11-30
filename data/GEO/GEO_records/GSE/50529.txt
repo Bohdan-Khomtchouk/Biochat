@@ -1,0 +1,18 @@
+TITLE
+PhoB Activates Escherichia coli O157:H7 Virulence Factors in Response to Inorganic Phosphate Limitation
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+In E. coli the phosphate homeostasis is regulated by the Pst system and the two-component system PhoB/R. Pathogens like E. coli O157:H7 are responsible for many outbreaks and can be found and survive in poor inorganic phosphate (Pi) environments. To understand global EHEC O157:H7 EDL933 strain responses to Pi-starvation, we compared the transcriptomes of EDL933 the WT strain grown in MOPS Pi rich medium and that grown in MOPS Pi poor medium, using the Affymetrix GeneChip® E. coli Genome 2.0 Array. Also we investigated the EDL933 global response to the absence of PhoB by comparing the transcriptomes of the WT strain the ΔphoB mutant both grown in Low Pi
+
+DESIGN
+EDL933WT strain and its isogenic mutant ΔphoB were grown in Pi- and/or in Pi+ conditions until the OD600 reached respectively 0.55 to 0.6. Samples equal to 5.108 CFU were taken from this mid log phase and processed for transcriptomes analysis. Ten µg of RNAs were extracted and retro-transcripted. One µg of the fragmented and biotinylated cDNAs, were hybridized onto Affymetrix GeneChip® E. coli. The data were processed using the FlexArray® software; RMA normalization and the levels of transcription obtained from 3 biological replicates of each experimental condition were compared using the EB (Wright & Simon) algorithm. We then conducted comparisons between EDL933WT grown in Pi- and in Pi+ conditions (comparison A) and between EDL933WT and EDL933∆phoB strains both grown in Pi- (comparison B). The differentially expression conditions corresponded to 2-fold change (FC) cut-off and p-value < 0.05.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+24710330
+

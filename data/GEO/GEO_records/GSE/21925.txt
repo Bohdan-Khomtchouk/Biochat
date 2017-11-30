@@ -1,0 +1,18 @@
+TITLE
+Structural annotation of equine protein-coding genes determined by mRNA sequencing
+
+ORGANISM
+Equus caballus
+
+SUMMARY
+The horse, like a majority of animal species, has a limited amount of species-specific expressed sequence data available in public databases.  As a result, structural models for a majority of genes defined in the equine genome are predictions based on ab initio sequence analysis or the projection of gene structures from other mammalian species.  The current study used Illumina-based sequencing of messenger RNA (RNA-seq) to help refine structural annotation of equine protein-coding genes and for a preliminary assessment of gene expression patterns.  Sequencing of mRNA from eight equine tissues generated 293,758,105 thirty five-base sequence tags, equaling 10.28 giga-basepairs of total sequence data.  The tag alignments represent approximately 208X coverage of the equine mRNA transcriptome and confirmed transcriptional activity for roughly 90% of the protein-coding gene structures predicted by Ensembl and NCBI.  Tag coverage was sufficient to define structural annotation for 11,356 genes, while also identifying an additional 456 transcripts with exon/intron features that are not listed by either Ensembl or NCBI.  Genomic locus data and intervals for the protein-coding genes predicted by the Ensembl and NCBI annotation pipelines were combined with 75,116 RNA-seq derived transcriptional units to generate a consensus equine protein-coding gene set of 20,302 defined loci.  Gene ontology annotation was used to compare the functional and structural categories of genes expressed in either a tissue-restricted pattern or broadly across all tissue samples.
+
+DESIGN
+Examination of 8 equine RNA samples representing 6 distinct tissues
+
+PLATFORM
+GPL10443 Illumina Genome Analyzer (Equus caballus)
+
+CITATIONS
+21070285 , 23922931
+

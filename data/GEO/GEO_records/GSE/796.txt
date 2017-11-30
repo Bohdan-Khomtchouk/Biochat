@@ -1,0 +1,15 @@
+TITLE
+Bladder cancer cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Examination of gene expression in several bladder cancer cell lines grown on either plastic, SIS (small intestine submucosa) gel or matrigel. A data table of normalized values is appended below.  Data were normalized as described in detail by Knowlton N, Dozmorov IM, Centola M. Microarray Data Analysis Toolbox (MDAT): for normalization, adjustment and analysis of gene expression data. Bioinformatics. 2004 Dec 12;20(18):3687-90. In brief, the normalization method relies on a number of low expression genes to provide an estimate of non-specific binding.  This information is then used to perform a Z transformation on the data.  Once normalized the data are " unbiased " through robust linear regression to allow comparisons across different membranes. Keywords: other
+
+PLATFORM
+GPL131 Atlas Human Cancer 1.2 Array (Cat. #7851-1)
+
+CITATIONS
+16983830
+

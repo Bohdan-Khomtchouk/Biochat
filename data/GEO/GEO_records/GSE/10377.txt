@@ -1,0 +1,18 @@
+TITLE
+Strains for eQTL CNV Analysis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Background Haplotype association mapping is a recently developed method that can be used to identify expression Quantitative Trait Loci (eQTLs).  The underlying genomic structure of the haplotype can be defined by single nucleotide polymorphisms (SNPs), variable number tandem repeats (VNTRs) and copy number variations (CNVs).  Microarray genotyping platforms are able to interrogate all three genomic polymorphisms simultaneously.   Combined with gene expression data, these data allow for the elucidation of sites responsible for the regulation of transcription. Results Thirty three inbred strains were genotyped on a microarray platform to assess possible contributions of polymorphic regions to gene expression.  Over one hundred million statistical correlations were made between probe performance on genotyping and gene expression microarrays.  This analysis provided 10,655 trans associations and 31 cis associations.  Further investigation of one of the cis associations revealed that a 84kb region of MMU3 acts as a haplotype-specific locus control region for the glutathione-S-transferase mu family in multiple tissues.  In the strains that share the minor haplotype, reductions in mRNA levels in members of the Gst mu family are observed. Conclusions We have identified a haplotype containing a putative locus control region for the Gst mu family gene cassette.  In the strains with affected haplotype, Gst mu expression is drastically reduced.  The reduction in Gst mu levels has important relevance for pharmacology and toxicology studies.  The reduction of Gst mu levels in general, and Gstm5 in particular, has implication in models of dopamine metabolism, Parkinson’s disease, and chemical neurotoxicity. Keywords: Liver gene expression, no treatment
+
+DESIGN
+Samples GSM262266-GSM262267, GSM262270-GSM262272 representing liver gene expression Samples from 10 week old male mouse livers were analyzed in a confirmation study of an identified eQTL.  Samples came from pools of three animals, and were compared across strains. The genotyping summary output file and associated .CEL files are linked below as supplementary files.  Briefly: After hybridization and staining the arrays are scanned on an Affymetrix Scanner 3000 7G 4C using four distinct filters, one for each DNA base (A, C, G, T). These scanned images are saved at .dat files. A grid is superimposed on the .dat array image such that each element of the grid brackets a feature. Once the grid has been applied, GCOS computes one intensity value for each cell, and saves these values in a .CEL file. A .CEL file is generated for each possible base (A, C, G, T). Only the .CEL files are read by GTGS. The .CEL files computed by GCOS are then imported into GTGS and analyzed. The experiments are then clustered together and used to generate a normalized profile of each probe. From the clustered profiles a genotype call is made for every specific probe on an individual chip. These genotyped calls are then exported from GTGS into a .txt file containing assay id, sample id and relative intensity values for each DNA base over the entire set of SNPs analyzed.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+19324942
+

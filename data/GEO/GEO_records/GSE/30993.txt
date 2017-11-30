@@ -1,0 +1,18 @@
+TITLE
+Simultaneous analysis of tumor and stromal gene expression profiles from xenograft models
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Identifying the gene expression alterations that occur in both the tumor and stroma is essential to understanding tumor biology. We have developed a dual-species microarray analysis method that allows the dissection of both tumor and stromal gene expression profiles from xenograft models, based on limited interspecies cross-hybridization on Illumina gene expression beadchips. This methodology allows for simultaneous genome-wide analysis of gene expression profiles of both tumor cells and the associated stromal tissue. Data is provided regarding the crosshybridization of mouse liver RNA on human microarray, and MDA-MB-231 breast cancer cell line RNA on mouse microarray. Data is also provided for comparisons of MDA-MB-231 gene expression in vitro vs. in vivo, and mouse liver gene expression in control mice vs. stroma from MDA-MB-231 xenograft liver metastasis in tumor bearing mice
+
+DESIGN
+A total of 18 samples were analyzed. Samples consist of 6 different types with each type in triplicate. Types are (1) MDA-MB-231 cell line grown in vitro and arrayed on mouse chips, (2) mouse liver from NOD/SCID mice arrayed on human chips, (3) MDA-MB-231 cell line grown in vitro arrayed on human chips, (4) MDA-MB-231 xenograft liver metastasis arrayed on human chips, (5) mouse liver from NOD/SCID mice arrayed on mouse chips, and (6) MDA-MB-231 xenograft liver metastasis arrayed on mouse chips. The overall design had three objectives: (1) to determine crosshybridizing probes based on sample types 1, 2, 3, and 5, (2) detect stromal and tumor expression using sample types 4 and 6, and (3) determine genes differentially expressed in tumor or metastasis compared to normal by comparing sample types 3 and 4 and comparing sample types 1 and 5.
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+21947683
+

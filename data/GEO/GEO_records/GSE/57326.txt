@@ -1,0 +1,18 @@
+TITLE
+Catharanthus Transcriptome and Gene Expression
+
+ORGANISM
+Catharanthus roseus
+
+SUMMARY
+In this study, we aim to present a global transcriptome analysis of medicinal plant, Catharanthus roseus. We generated about 343 million high-quality reads from three tissues (leaf, root and flower) using Illumina platform. We performed an optimized de novo assembly of the reads and estimated transcript abundance in different tissue samples. The transcriptome dynamics was studied by differential gene expression analyses among tissue samples.
+
+DESIGN
+We collected different tissue samples from the mature plants. Total RNA isolated from these tissue samples was subjected to Illumina sequencing. The sequence data was further filtered using NGS QC Toolkit to obtain high-quality reads. The filtered reads were used for de novo assembly optimization. The reads were further mapped to the Catharanthus transcripts via CLC Genomics Workbench and differential gene expression analysis was performed using DESeq software.
+
+PLATFORM
+GPL18652 Illumina HiSeq 2000 (Catharanthus roseus)
+
+CITATIONS
+25072156
+

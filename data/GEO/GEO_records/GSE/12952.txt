@@ -1,0 +1,18 @@
+TITLE
+Expression Analysis Upon PARP-1 or PARG Knockdown in MCF-7 Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Poly(ADP-ribose) polymerase-1 (PARP-1) and poly(ADP-ribose) glycohydrolase (PARG) are enzymes that modify target proteins in the nucleus by the addition and removal, respectively, of ADP-ribose polymers.  Although a role for PARP-1 in gene regulation has been well established, the role of PARG is less clear.  To investigate how PARP-1 and PARG coordinately regulate global patterns of gene expression, we used short hairpin RNAs (shRNAs) to stably knockdown PARP-1 or PARG in MCF-7 cells, followed by expression microarray analyses.
+
+DESIGN
+Two shRNAs targeting Luciferase (Luc, control), PARP-1, or PARG were cloned into the pSUPER.retro vector (puro or neo resistant) and sequentially introduced into parental MCF-7 cells using a standard retroviral infection technique.  Luc, PARP-1, and PARG control-matched cell lines were generated three independent times. Total RNA was isolated from stable Luc, PARP-1, and PARG knockdown cells was analyzed for global patterns of gene expression.  Briefly, 7 μg of total RNA was labeled using Affymetrix's standard one-cycle amplification and labeling protocol.  The labeled cRNA was then hybridized to Affymetrix Human U133A 2.0 GeneChips, which were scanned using a GeneChip Scanner 3000.  Each biological replicate (1, 2 or 3) represents a single RNA isolation from each set of cell lines. These 9 samples were samples were part of a 15-sample microarray analysis (GSE12971) examining expression regulation by SIRT1, PARP-1, PARG and macroH2A. All 15 samples were included for the data normalization steps. The raw array data was processed by Affymetrix GeneChip Operating Software (GCOS) to obtain detection calls (ABS_CALL) and signal values (VALUE_2).  The signals were then normalized by scaling to a target value of 500 using GCOS.  To adjust for batch effects due to day-to-day differences in RNA isolations, the empirical Bayes method was applied to the data set.  After adjusting any values less than 0.01 to 0.01, the data was log2 transformed, median centered for each array, and median centered for each individual probe set (VALUE).  Filters were then applied to obtain final gene lists. Specifically, the criteria for a gene to be considered regulated by PARP-1 or PARG was: (1) detection call flagged as present or marginal in 2 out of 3 array replicates for both control and factor knockdown cell lines and (2) significance of values between control and knockdown cell lines for any given gene had a two-tailed Student’s t-test with a p-value < 0.05.  To determine the genes most robustly regulated by PARP-1 or PARG, a fold change criteria was applied, namely log2 fold change > 0.5 or < -0.5 when compared to the Luc control knockdown cells.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+19812418
+

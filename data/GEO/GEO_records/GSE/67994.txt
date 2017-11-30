@@ -1,0 +1,18 @@
+TITLE
+laryngo-pharyngeal tumor RNA-seq study for both mRNA and miRNA
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cancers of the upper aero-digestive tracts (oral cavity, pharynx and larynx) are the sixth most common cancer worldwide. Laryngo-pharyngeal squamous cell carcinomas are one of the most common cancers in this category. Despite recent advances in the field of cancer research using high-throughput tools, the information, especially on tumors of hypopharynx, is relatively scarce. We have used next-generation sequencing and computational biology to study both the genes and miRNA from laryngo-pharyngeal tumors. Laryngo-pharyngeal squamous cell carcinomas are one of the most common head and neck cancers. Despite the presence of a large body of information, molecular biomarkers are not currently used in the diagnosis, treatment and management of patients for this group of cancer. Here, we have profiled expression of genes and microRNAs of larynx and hypopharynx tumors using high-throughput sequencing experiments. We found that matrix metalloproteinases along with SCEL, CRNN, KRT4, SPINK5, and TGM3 among others have significantly altered expression in these tumors. Alongside gene expression, the microRNAs hsa-miR-139, hsa-miR-203 and the hsa-miR-424/503 cluster have aberrant expression in these cancers. Using target genes for these microRNAs, we found the involvement of pathways linked to cell cycle, p53 signaling, and viral carcinogenesis significant ( *P*-values 10-13, 10-9 and 10-7 respectively). Finally, using an ensemble machine-learning tool, we discovered a unique 8-gene signature for this group of cancers that differentiates the group from the other subsites of head and neck. We investigated the role of promoter methylation in one of these genes, WIF1, and found no correlation between DNA methylation and down-regulation of WIF1. We validated our findings of gene expression, 8-gene signature and promoter methylation using q-PCR, data from TCGA and q-MSP respectively.
+
+DESIGN
+RNA-seq experiments in tumors of larynx and hypopharynx for discovery of gene and miRNA expression Please note that processed data files were not provided since they are available through the journal's website. However a brief description of each processed data is provided in the 'readme.txt'.
+
+PLATFORM
+GPL16288 AB 5500xl Genetic Analyzer (Homo sapiens)
+
+CITATIONS
+26413216
+

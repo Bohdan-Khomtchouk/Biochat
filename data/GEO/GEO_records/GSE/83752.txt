@@ -1,0 +1,18 @@
+TITLE
+Therapeutic vulnerabilities of mesenchymal subpopulations of pancreatic cancer cells undergoing anabolic reprogramming [set 1]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Malignant neoplasms adapt and evolve in response to changes in oncogenic signaling, tumor microenvironmental stresses,and therapeutic interventions. Cancer cell plasticity in response to these evolutionary pressures is foundational to tumor progression and maintenance and therapeutic resistance. Here, to elucidate the underlying molecular and cellularmechanisms of cancer cell plasticity, integrated system-level, functional and genetic analyses were conducted in a conditional oncogenic Kras model of pancreatic ductal adenocarcinoma (PDAC), amalignancy displaying remarkable phenotypic diversityand morphological heterogeneity. In this model, stochastic extinction of oncogenic Krassignaling and emergence ofKras-independent escaper populationsis associated withde-differentiation and aggressive biological behavior.Transcriptomic and functional analyses ofKras-independent escapers reveal mesenchymal reprogramming driven by aSmarcb1/Mycnetwork and independence from MAPK signaling.A somatic mosaic model of PDAC which can track evolving subpopulations shows that depletion of Smarcb1 activates theMyc network which results in an anabolic switch to increased protein metabolism and the adaptive activation of ERstress-induced survival pathways.Theelevated protein turnover made mesenchymal sub-populationshighly susceptible topharmacological and genetic perturbation of the cellular proteostatic machinery andthe IRE1-α/MKK4 arm of the ER stress response pathway. Specifically, combination regimens impairing the unfolded protein responses (UPR) and the ER stress response can block the emergence of aggressive mesenchymal subpopulations in murine andpatient-derived PDACmodels. These molecular and biological insights inform a potential therapeutic strategy fortargeting aggressive mesenchymal features of PDAC.
+
+DESIGN
+Kras mutant pancreatic epithelial cells were cultured under oncogenic stress. Spontaeneous senescence escapers were isolated, expanded and functionally characterized. Four indepedent biological replicates per each of two groups were processed on Affymetrix Mouse 430_2 microarray platform. Resulting CEL files were imported into Gene Pattern software from the Broad Institute, and converted to normalized GCT format using default parameters in module, ExpressionFileCreator. Normalized GCT table format was used for Gene Set Enrichment Analysis (GSEA) using GSEA software provided by the Broad Institute, Cambridge MA.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+28178232
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide transcription factor binding and chromatin methylation marks in the G1ME megakaryocytic progenitor model cell line
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+There are many examples of transcription factor families whose members control gene expression profiles of diverse cell types. However, the mechanism by which closely related factors occupy distinct regulatory elements and impart lineage specificity is largely undefined. Here we demonstrate on a genome wide scale that the hematopoietic GATA factors GATA-1 and GATA-2 bind overlapping sets of genes, often at distinct sites, as a means to differentially regulate target gene expression and to regulate the balance between proliferation and differentiation. We also reveal that the GATA switch, which entails a chromatin occupancy exchange between GATA2 and GATA1 in the course of differentiation, operates on more than a third of GATA1 bound genes. The switch is equally likely to lead to transcriptional activation or repression and, in general, GATA1 and GATA2 act oppositely on switch target genes. In addition, we reveal that genomic regions co-occupied by GATA2 and the ETS factor ETS1 are strongly enriched for regions marked by H3K4me3 and occupied by Pol II. Finally, by comparing GATA1 occupancy in erythroid cells and megakaryocytes, we find that the presence of ETS factor motifs is a major discriminator of megakaryocyte versus red cell specification.
+
+DESIGN
+We used Illumina ChIP-Seq to examine binding of GATA1, GATA2, and ETS1 transcription factors as well as the genomic locations of two histone methylation marks, H3K4me3 and H3K27me3. Except H3K4me3 (1 sample), all data were generated from at least 2 biological replicates of immunoprecipitations from megakaryocyte progenitor cells, G1ME. Input DNA was prepared and sequenced along with each immunoprecipitation and used as a control dataset for binding site identification.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+22383799 , 22771118
+

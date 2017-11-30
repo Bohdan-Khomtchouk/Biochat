@@ -1,0 +1,18 @@
+TITLE
+High-purity circular RNA isolation method (RPAD) reveals vast collection of intronic circRNAs (IcircRNAs)
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+High-throughput RNA sequencing methods coupled with specialized bioinformatic analyses have recently uncovered tens of thousands of unique circular (circ)RNAs, but their complete sequences, genes of origin, and functions are largely unknown.  Given that circRNAs lack free ends and are thus relatively stable, their association with microRNAs (miRNAs) and RNA-binding proteins (RBPs) can influence gene expression programs.  While exoribonuclease treatment is widely used to degrade linear RNAs and enrich circRNAs in RNA samples, it does not efficiently eliminate linear RNAs.  Here, we describe a novel method for the isolation of highly pure circRNA populations involving RNase R treatment followed by Polyadenylation and poly(A)+ RNA Depletion (RPAD), which removes linear RNA to near completion.  High-throughput sequencing of RNA prepared using RPAD from human cervical carcinoma HeLa cells and mouse C2C12 myoblasts led to two surprising discoveries: (1) many circRNA isoforms share an identical backsplice sequence but have different body sizes and sequences, and (2) thousands of novel intronic circular RNAs (IcircRNAs) are expressed in cells, including many IcircRNAs that do not follow gt/ag splicing patterns.  In sum, isolating high-purity circRNAs using the RPAD method can enable quantitative and qualitative analyses of circRNA types and sequence composition, paving the way for the elucidation of circRNA functions.
+
+DESIGN
+The method we report here, which we termed 'RPAD' begins with RNase R digestion, but then includes polyadenylation of any undigested linear RNA in the sample followed by the depletion of poly(A)+ RNA using oligo-dT beads.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28444238
+

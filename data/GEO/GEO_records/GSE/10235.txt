@@ -1,0 +1,18 @@
+TITLE
+Transgenic inhibition of astroglial NF-kappaB in experimental autoimmune encephalomyelitis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In the central nervous system (CNS) the transcription factor NF-kappaB is a key regulator of inflammation and secondary injury processes. Following trauma or disease, the expression of NF-kappaB-dependent genes is activated, leading to both protective and detrimental effects on CNS recovery. Here we show that transgenic inactivation of astroglial NF-kappaB in mice (GFAP-IkappaBalpha-dn mice) resulted in dramatic reduction of disease severity and improvement in functional recovery following EAE. This coincided with a higher presence of leukocytes in the cord and brain of transgenic mice at the chronic phase of the disease, when the functional recovery over WT mice was the most significant. We observed that expression of proinflammatory genes in both spinal cord and cerebellum was delayed and reduced, while the loss of neuronal-specific molecules essential for synaptic transmission was limited compared to WT mice. Furthermore, death of retinal ganglion cells in affected retinas was almost abolished, suggesting the activation of neuroprotective mechanisms. Our data indicate that inhibiting NF-kappaB in astrocytes results in neuroprotective effects following EAE, directly implicating astrocytes in the pathophysiology of this disease. Keywords: time course, EAE, transgenic mice, astrocytes, inflammation, cytokines, chemokines
+
+DESIGN
+All mice used were 2-4 months old obtained by breeding heterozygous GFAP-IkappaBalpha-dn males with WT females. WT littermates were used as controls. Spinal cords from WT and GFAP-IkappaBalpha-dn transgenic mice (1), naive or induced with experimental autoimmune encephalomyelitis (EAE) at 10, 17 and 80 days post-induction (dpi) were used to isolate RNA. 3 animals were used for each time point. To identify significantly expressed genes across all replicate arrays we used R software package LIMMA. Each individual array was normalized within the array using global loess normalization. “Between array” normalization was carried out using the “quantile” algorithm also found in the LIMMA package. Differential expression and False Discovery Rate were assessed by using linear model and empirical Bayes moderated F statistics.
+
+PLATFORM
+GPL2872 Agilent-012694 Whole Mouse Genome G4122A (Feature Number version)
+
+CITATIONS
+19234157
+

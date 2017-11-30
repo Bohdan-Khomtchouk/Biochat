@@ -1,0 +1,18 @@
+TITLE
+Microarray studies of dr2518 knockout mutant vs wild type
+
+ORGANISM
+Deinococcus radiodurans R1
+
+SUMMARY
+Bacterial cells lacking pyrroloquinoline quinone (PQQ) were sensitive to gamma radiation as compared to wild type cells. Deinococcus radiodurans genome encode for five putative PQQ binding STK domain-containing proteins. The comparison of gamma radiation response of all five-deletion mutants with wild type suggested that dr2518 mutant was hypersensitive to gamma radiation as compared to wild type and other mutants. DR2518 is an auto kinase. Hence, the effect of dr2518 mutation on cellular response of Deinococcus radiodurans R1, to DNA damage and subsequently to its genome functions under both normal and post irradiation growth condition was further examined. Transcriptome analysis of dr2518 mutant grown under normal conditions and post-irradiated cells was done and compared with wild type cells. Mutant lacking dr2518 become extremely sensitive to gamma radiation and complete arrest in DSB repair. These cells were therefore checked for gene expression profile in native growth and gamma irradiated growth conditions
+
+DESIGN
+All the genes subjected to microarray analysis are as described in the genome sequence of bacterium available at ftp://ftp.ncbi.nih.gov/genomes/bacteria/Deinococcus_radiodurans. Oligonucleotides designed to represent the respective predicted ORFs of Deinococcus radiodurans ((NC_001263, NC_001264, NC_000958, NC_000959) are synthesized and purified by hydrophobic column on HPLC. The oligonucleotides are deposited on to poly-L-Lysine slide in triplicate. Microarrays were scanned using Gene Pix 4000B and hybridization signals were quantified using GenePix Pro 5.1. Prior to channel normalization, microarray outputs were filtered to remove spots of poor signal quality by excluding those data points with a mean intensity by less that 2 standard deviation above background in both channels.    Normalization of data and its statistical analysis were carried out in the R computing environment using linear models for microarray data package (Limma). Using this tool, the global LOESS normalization was carried out for each microarray. The 3- replicate spots per gene in each array were used to maximize the robustness of differential expression measurements of each gene via the “lmFit” function within Limma. Two biological replicates were analysed for global gene expression profile in dr2518 mutant against wild type cells.
+
+PLATFORM
+GPL8947 Bhabha Atomic Research Centre Deinococcus radiodurans 3166 array [condensed version]
+
+CITATIONS
+22961447
+

@@ -1,0 +1,18 @@
+TITLE
+The Genetic Basis of Rapidly Evolving Male Genital Morphology in Drosophila
+
+ORGANISM
+Drosophila mauritiana ; Drosophila sechellia ; Drosophila sechellia x Drosophila mauritiana
+
+SUMMARY
+Deep sequencing of total RNA extracted from the genital discs of males for each of the following strains : Drosophila sechellia, Drosophila mauritiana, hybrid introgression line 3Q1(A) and hybrid introgression line Q1(A)
+
+DESIGN
+Analysis of poly(A)+ RNA for three independent biological replicates of sequencing libraries for each of the following strains: D. sechellia w, D. mauritiana P-insertion Q1, hybrid introgression line 3Q1(A), and hybrid introgression line Q1(A).  Male genital discs were obtained as described above, and total RNA was extracted using RNAqueousÂ®-Micro Kit (Ambion).  Poly(A)+ transcripts were isolated subsequently using MicroPoly(A)Puristâ¢ Kit (Ambion).  To facilitate normalization of reads across our samples, at this stage of library construction we spiked-in small amounts of exogenous RNA from ArrayControlâ¢ Kit (Ambion) into each sample of poly(A)+ RNA. Paired-end sequencing was carried out by loading the samples onto four lanes (three samples per lane) of a flow cell and run on an Illumina Genome Analyzer IIx sequencer using 72 cycles per end of each paired-end read.  Biological replicates of each genotype were loaded onto separate lanes.
+
+PLATFORM
+GPL10071 Illumina Genome Analyzer II (Drosophila sechellia) GPL13416 Illumina Genome Analyzer II (Drosophila mauritiana) GPL13417 Illumina Genome Analyzer II (Drosophila sechellia x Drosophila mauritiana)
+
+CITATIONS
+21750260
+

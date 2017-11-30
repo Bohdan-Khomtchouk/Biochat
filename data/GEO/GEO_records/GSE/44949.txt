@@ -1,0 +1,18 @@
+TITLE
+Stress-Independent Activation of XBP1s and/or ATF6 Reveals Three Functionally Distinct ER Proteostasis Environments [HEK293DAX]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The unfolded protein response (UPR) maintains endoplasmic reticulum (ER) proteostasis through the activation of transcription factors such as XBP1s and ATF6. The functional consequences of these transcription factors for ER proteostasis remain poorly defined. Here, we describe methodology that enables orthogonal, small molecule-mediated activation of the UPR-associated transcription factors XBP1s and/or ATF6 in the same cell independent of stress. We employ transcriptomics and quantitative proteomics to evaluate ER proteostasis network remodeling owing to the XBP1s and/or ATF6 transcriptional programs. Furthermore, we demonstrate that the three ER proteostasis environments accessible by activating XBP1s and/or ATF6 differentially influence the folding, trafficking, and degradation of destabilized ER client proteins without globally affecting the endogenous proteome. Our data reveal how the ER proteostasis network is remodeled by the XBP1s and/or ATF6 transcriptional programs at the molecular level and demonstrate the potential for selectively restoring aberrant ER proteostasis of pathologic, destabilized proteins through arm-selective UPR-activation. The unfolded protein response adapts endoplasmic reticulum (ER) proteostasis via stress-responsive transcription factors including XBP1s and ATF6. Here, R. Luke Wiseman and colleagues implement technology for the orthogonal, ligand-dependent activation of XBP1s and/or ATF6 in a single cell. They characterize how XBP1s and/or ATF6 activation impacts ER proteostasis pathway composition and function. Adapted ER environments influence the proteostasis of destabilized protein variants without affecting the endogenous proteome. The work informs the development of proteostasis environment-adapting therapeutics for protein misfolding-related diseases. In order to activate both XBP1s and ATF6 in the same cell, we incorporated DHFR.ATF6 and tet-inducible XBP1s into a HEK293T-REx cell line stably expressing the tet-repressor. Selection of a single colony resulted in the HEK293DAX cell line in which XBP1s is induced by doxycycline and DHFR.ATF6 is activated by trimethoprim (TMP; TMP-dependent DHFR.ATF6 activation in HEK293DAX cells will henceforth be referred to as ATF6 activation for simplicity).
+
+DESIGN
+HEK293DAX  cells were treated for 12 h with vehicle, 1 μg/mL dox, 10 μM TMP, or both in biological triplicate. Cells were harvested and RNA was extracted using the RNeasy Mini Kit (Qiagen). Genomic DNA was removed by on-column digestion using the RNase-free DNase Set (Qiagen). Data from HEK293DYG cells showed no significant overlap in the ligand-treated transcriptomes obtained from the control HEK293DYG cells.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23583182
+

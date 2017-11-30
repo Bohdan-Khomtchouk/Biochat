@@ -1,0 +1,18 @@
+TITLE
+Gene expression response to mitochondrial DNA depletion
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mitochondrial defects are associated with a spectrum of human disorders, ranging from rare, inborn errors of metabolism to common, age-associated diseases such as diabetes and neurodegeneration. In lower organisms, genetic “retrograde” signaling programs have been identified that promote cellular and organism survival in the face of mitochondrial dysfunction. Here, we characterized the transcriptional component of the human mitochondrial retrograde response in an inducible model of mitochondrial dysfunction. We used an HEK293-derived cell line that expresses a dominant negative DNA polymerase gamma (PolGdn) under tet repressor control. Upon induction with doxycycline, PolGdn inhibits replication of mitochondrial DNA (mtDNA), so that existing copies of mtDNA are progressively diluted as cells continue to divide. Upon removal of doxycycline, repression of PolGdn is re-established, and mtDNA copy number, as well as mitochondrial protein expression and oxidative phosphorylation complex abundance, recovers. We used microarrays to study transcriptional changes arising from mtDNA depletion. We found a robust transcriptional response that is partially mediated by ATF4, which appears to effect an adaptive rewiring of serine and one-carbon metabolism.
+
+DESIGN
+We measured gene expression at 18 different time points during the mtDNA depletion / repletion process, as average mtDNA copy number fell approximately 40-fold and then recovered to baseline. In addition, we performed similar measurements in the parent cell line that does not express PolGdn, to rule out off-target effects of doxycycline treatment.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+27307216
+

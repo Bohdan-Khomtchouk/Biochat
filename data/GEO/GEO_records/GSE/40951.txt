@@ -1,0 +1,18 @@
+TITLE
+Genome-wide nucleosome positioning during embryonic stem cell development [ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We determined genome-wide nucleosome occupancy in mouse embryonic stem cells and their neural progenitor and embryonic fibroblast counterparts to assess features associated with nucleosome positioning during lineage commitment. Cell type and protein specific binding preferences of transcription factors to sites with either low (e.g. Myc, Klf4, Zfx) or high (e.g. Nanog, Oct4 and Sox2) nucleosome occupancy as well as complex patterns for CTCF were identified. Nucleosome depleted regions around transcription start and termination sites were broad and more pronounced for active genes, with distinct patterns for promoters classified according to their CpG-content or histone methylation marks. Throughout the genome nucleosome occupancy was dependent on the presence of certain histone methylation or acetylation modifications. In addition, the average nucleosome-repeat length increased during differentiation by 5-7 base pairs, with local variations for specific genomic regions. Our results reveal regulatory mechanisms of cell differentiation acting through nucleosome repositioning.
+
+DESIGN
+For chromatin immunoprecipitation, for each sample, 1 x 106 cells were cross-linked with 1% PFA and cell nuclei were prepared using a swelling buffer (25 mM Hepes pH 7.8, 1 mM MgCl2, 10 mM KCl, 0.1% NP-40, 1 mM DTT). Chromatin was sheared to mononucleosomal fragments. After IgG preclearance the sheared chromatin was incubated with 4 µg of either a H3K9ac (Abcam, ab4441), a H3K27ac (Abcam, ab4729), or a H3K9me3 (Abcam ab8898) antibody over night. After washes with sonication (10 mM Tris-HCl, pH 8.0, 200 mM NaCl, 1 mM EDTA, 0.5% N-lauroylsarcosine, 0.1% Na-deoxycholate), high-salt- (50 mM Hepes pH 7.9, 500 mM NaCl, 1mM EDTA, 1% Triton X-100, 0.1% Na-deoxycholate, 0.1% SDS), lithium- (20 mM Tris-HCl pH 8.0, 1mM EDTA, 250 mM LiCl, 0.5% NP-40, 0.5% Na-deoxycholate) and 10 mM Tris-HCl, chromatin was eluted from the protein G magnetic beads and the crosslink was reversed over night. After RNase A and proteinase K digestion, the DNA was purified and subsequently cloned into a multiplexed Illumina library according to standard protocols. Sequenced 50 bp reads were mapped with bowtie and subsequently clustered with MACS 55 implemented in the Genomatix software suite (Genomatix, Munich, Germany) using a p-value of 10-5.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+23085715 , 24812327
+

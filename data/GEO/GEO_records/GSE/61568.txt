@@ -1,0 +1,18 @@
+TITLE
+Whole genome characterisation of chemoresistant ovarian cancer [Illumina_Omini 2.5-8_SNP]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Patients with high-grade serous ovarian cancer (HGSC) have experienced little improvement in overall survival, and standard treatment has not advanced beyond platinum-based combination chemotherapy, during the past 30 years. To understand the drivers of clinical phenotypes better, here we use whole-genome sequencing of tumour and germline DNA samples from 92 patients with primary refractory, resistant, sensitive and matched acquired resistant disease. We show that gene breakage commonly inactivates the tumour suppressors RB1, NF1, RAD51B and PTEN in HGSC, and contributes to acquired chemotherapy resistance. CCNE1 amplification was common in primary resistant and refractory disease. We observed several molecular events associated with acquired resistance, including multiple independent reversions of germline BRCA1 or BRCA2 mutations in individual patients, loss of BRCA1 promoter methylation, an alteration in molecular subtype, and recurrent promoter fusion associated with overexpression of the drug efflux pump MDR1.
+
+DESIGN
+DNA was assayed with the Omini 2.5-8, V1.0 and V1.1 Illumina Bead Chips as per manufacturer’s instructions (Illumina, San Diego CA). SNP arrays were scanned on an iScan (Illumina, San Diego CA) and data was processed using the Genotyping module (v1.9.4) in GenomeStudio v2011.1 (Illumina, San Diego CA) to calculate B-allele frequencies (BAF) and LogR ratios. Tumor sample purity was estimated at a molecular level using the R tool, qPure3. 114 samples from 92 cases were estimated to contain at least 50% tumor and progressed to whole genome sequencing. qPure results are detailed in Supplementary Table SX. Genome Alteration Print (GAP)4 was used to call somatic regions of copy number change – gain, loss or copy neutral LOH. Contributor: The Australian Ovarian Cancer Study Group
+
+PLATFORM
+GPL16104 Illumina HumanOmni2.5-8 BeadChip GPL18952 Illumina HumanOmni2.5-8v1.1 beadchip
+
+CITATIONS
+26017449
+

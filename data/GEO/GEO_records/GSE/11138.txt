@@ -1,0 +1,18 @@
+TITLE
+LAD coronary atherosclerotic plaque gene expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We used microarray analyses in human atherosclerotic plaque to identify network imply in the maintenance and progression of the pathology. To obtain a wide dynamic range we used the scanning method proposed by Skibbe et al. (Bioinformatics. 2006;22(15):1863-1870) performing three subsequent scansions for the same slide. We performed before low than medium and high PMT and laser intensity scansions to permit to detect differences in expression of high expressed genes from the first scansion and from low expressed genes from the last scansion. Data were total and lowess normalized, filtered and used to detect differentially expressed genes separately (low, medium and high). Differentially expressed genes were than integrated. Our data enhance the importance of both the inflammatory stress responses, controlled by central node STAT1 (inducing also the over-expression of the heat shock proteins HSP47 and HO-1), and caveolae system related to steroid hormone receptors. Since atherosclerosis affects aorta, coronary, carotid, and iliac arteries most frequently than any other body vessel there may be common molecular pathways involved in sustenance of this process. We integrated our DNA microarrays data with plaque carotid gene expression (Array Express databases E-MEXP-268) by meta-analysis method. We identified a series of common potential human atherogenic genes and were able to integrate them in functional networks involved in atherosclerosis. Activation of the JAK/STAT pathway was confirmed by the up-regulation of IL-6, STAT1, ISGF3G and IL10RA genes in coronary and carotid plaques. These results and constructed functional network could be related to a central role for STAT protein and caveolae system to regulate the hypertension state. Keywords: disease state analysis, Plaque atherosclerotic, LAD coronary
+
+DESIGN
+18 left anterior descendent (LAD) coronaries were dissected from diseased hearts immediately after surgical removal, cleaned from fatty and cardiac muscle tissues and starved in RNAlater Solution (Ambion) for further analysis. Patients were divided in 8 atherosclerotic with plaque (stenosis ≥ 75%) and 10 pooled controls without plaque. At least 2 microarray experiments were performed for each patient (technical replicate) and for patients with sufficient biological material we performed also a biological replicate with its own technical replicate. Each slide was scanned three times at low, medium and high PMT and laser intensity producing three data batch (low, medium and high) related to the same patients. Each data batch was normalized and analyzed separately. Detected differentially expressed genes were integrated to produce plaque differentially expressed genes (see Supplementary files below). Meta-analysis supplementary files also linked below. GSE3526-GSE7307-asym-symp-Meta-analysis.txt is result file of the analysis of Carotid data. From this file, we extracted specific and common carotid and coronary plaque differentially espressed genes comparing lists of differentially expressed genes using EntrezGene symbol. All files with starting name with Specific word fill in the specific category and the other in the common one.
+
+PLATFORM
+GPL6647 Micro-CRIBI Human Oligo Array V_0 (Operon V2.0)
+
+CITATIONS
+19134193
+

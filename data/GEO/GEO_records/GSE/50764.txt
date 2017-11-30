@@ -1,0 +1,18 @@
+TITLE
+TLR4 ligands LPS and MPLA differentially regualte effector and memory CD8 T cell differentiation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Here we implemented a simple dendritic cell (DC)-mediated immunization approach to study the effects of commonly used adjuvants, Toll like receptor (TLR) ligands, on effector CD8 T cell differentiation and memory T cell development. To our surprise, we found that the TLR4 ligand LPS was far more superior to other TLR ligands in generating memory CD8 T cells upon immunization. LPS boosted clonal expansion similar to the other adjuvants, but fewer of the activated CD8 T cells died during contraction, generating a larger pool of memory cells. Intriguingly, monophosphoryl lipid A (MPLA), another TLR4 ligand, enhanced clonal expansion of effector CD8 T cells, but also promoted their terminal differentiation and contraction; thus, fewer memory CD8 T cells formed and MPLA-primed animals were less protected against secondary infection compared to those primed with LPS. Furthermore, gene expression profiling revealed that LPS-primed effector cells displayed a stronger pro-memory gene expression signature, whereas the gene expression profile of MPLA-primed effector cells had aligned closer with terminal effector CD8 T cells.
+
+DESIGN
+Mice that contain small number of P14 CD8 T cells were immunized with DC-33 either alone or in combination with LPS or MPLA. KLRG1loIL-7Rhi MPECs were purified by FACS sort, and mRNA isolated from MPECs was subjected to whole-genome expression profiling using Illumina MouseWG-6 v2.0 Expression BeadChip.
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip
+
+CITATIONS
+24659688
+

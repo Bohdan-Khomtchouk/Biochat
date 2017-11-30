@@ -1,0 +1,18 @@
+TITLE
+Orientation-Specific Joining of AID-initiated DNA Breaks Promotes Antibody Class Switching
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+During B cell development, RAG endonuclease cleaves immunoglobulin heavy chain (IgH) V, D, and J gene segments and orchestrates their fusion as deletional events that assemble a V(D)J exon in the same transcriptional orientation as adjacent Cμ constant region exons. In mice, six additional sets of constant region exons (CHs) lie 100-200kb downstream in the same transcriptional orientation as V(D)J and Cμ exons. Long repetitive switch (S) regions precede Cμ and downstream CHs. In mature B cells, class switch recombination (CSR) generates different antibody classes by replacing Cμ with a downstream CH. Activation Induced Cytidine Deaminase (AID) initiates CSR by promoting deamination lesions within Sμ and a downstream acceptor S region; these lesions are converted into DNA double strand breaks (DSBs) by general DNA repair factors. Productive CSR must occur in a deletional orientation by joining the upstream end of an Sμ DSB to the downstream end of an acceptor S region DSB. However, the relative frequency of deletional to inversional CSR junctions had not been measured. Thus, whether orientation-specific joining is a programmed mechanistic feature of CSR as it is for V(D)J recombination and, if so, how this is achieved was unknown. To address this question, we adapted high throughput genome wide translocation sequencing (HTGTS) into a highly sensitive DSB end-joining assay and applied it to endogenous AID-initiated S region DSBs. We find that CSR indeed is programmed to occur in a productive deletional orientation and does so via an unprecedented mechanism that involves in cis IgH organizational features in combination with frequent S region DSBs initiated by AID. We further implicate ATM-dependent DSB response (DSBR) factors in enforcing this mechanism and provide a solution to the enigma of why CSR is so reliant on the 53BP1 DSBR factor.
+
+DESIGN
+We performed high-throughput genome-wide translocation sequencing (HTGTS) with different B cell genotypes that induces either I-SceI or AID-initiated DSBs as bait to study their joining pattern to AID-initiated S region breaks Please note that the 'ΔSγ1_2xI/ΔSµ_2xI-3' raw data files were analyzed twice with different reference assemblies to address specific points, and associated with both 'ΔSγ1_2xI_ΔSµ_2xI-3'.txt and Sγ1_2xI_ΔSµ_2xI-3'_trans-Sm.txt processed data files. As for the reference genome mm9_129_IgHC, it is a custom built generated based on mm9 (Bl6 line based mouse genome) and the partial genome sequence of another mouse line 129sv. It is not currently available in any public database however can be easily obtained either from the authors or self-built using information provided in the associated manuscript.
+
+PLATFORM
+GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+26308889
+

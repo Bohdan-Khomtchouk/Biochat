@@ -1,0 +1,18 @@
+TITLE
+Whole genome mapping of STAT3 binding sites in the two major subtypes of diffuse large B cell lymphoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The goal of this study is to identify the effect of the transcription factor STAT3 in the two major subtypes of diffuse large B cell lymphoma (DLBCL).  STAT3 is a signal transducer that, when dysregulated, becomes a powerful oncogene found in many human cancers, including DLBCL.  DLBCL is the most common form of non-Hodgkin’s lymphoma and has two major subtypes: germinal center B-cell-like (GCB) and activated B-cell-like (ABC).  When compared to the GCB form, ABC lymphomas respond much more poorly to current therapies and often exhibit overexpression or overactivation of STAT3. To investigate how STAT3 might contribute to this aggressive phenotype, we have used ChIP-Seq to identify STAT3 binding sites in 8 DLBCL cell lines (4 GCB subtype, 4 ABC) that are derived from patient tumors.  10,337 distinct STAT3 binding regions are occupied in at least two of the eight cell lines. One third (n = 3524) are differentially bound by STAT3 between the two subtypes (FDR < 0.05).  More BRs are strongly bound in ABC than in GCB: 44% of differentially bound BRs (n = 1550) show more STAT3 binding in GCB, while 56% (n = 1974) are more strongly bound in ABC.
+
+DESIGN
+Identification and comparison of STAT3 transcription factor binding sites in 8 cell lines that represent the 2 subtypes of DLBCL.  4 cell lines are subtyped as ABC and 4 are subtyped as GCB.  2-9 replicates and 1 input control are present for each cell line.  (Cell line OCI-Ly19 was not included in the final analysis because RNA-Seq showed that its gene expression clustered in between the subtypes, probably due to its EBV+ status.  However, its peak calls were used in intermediate steps of the analysis pipeline.  Its sequencing runs have been included for completeness.)
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+24142927
+

@@ -1,0 +1,18 @@
+TITLE
+Differentially expressed genes between SPOPmut and control in mouse prostate organoids
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To provide further insight to the signaling pathways deregulated by SPOP mutation and determine the relevance of these models to human prostate cancer, we performed RNA-seq on SPOP mutant organoids and controls. RNA-seq reads mapped to human and mouse SPOP confirmed appropriate expression of the F133V transgenic transcript without overexpression compared to endogenous mouse Spop. Quantification of gene expression was performed via RSEQtools using GENCODE as reference gene–annotation set. Both SPOPmut and SPOPwt were done in the same run. S0 was done in first run; S1 and S2 were done in second run. S3, S4 and S5 were done in third run. S5mut and S5wt were excluded from differentially expressed genes analysis, due to the different mouse line.
+
+DESIGN
+Differentially expressed genes between mouse SPOPmut organoids and control by RNA-seq.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28292441
+

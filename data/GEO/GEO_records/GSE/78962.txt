@@ -1,0 +1,18 @@
+TITLE
+Dose-Response Analysis of RNA-Seq Profiles in Archival Formalin-Fixed Paraffin-Embedded (FFPE) Samples
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Use of archival resources has been limited to date by inconsistent methods for genomic profiling of degraded RNA from formalin-fixed paraffin-embedded (FFPE) samples. RNA-seq offers a novel way to address this problem. In this study we evaluated transcriptomic dose responses using RNA-seq in paired FFPE and frozen (FROZ) samples from two archival studies in mice, one recent ( < 2 years old) and the other older ( > 20 years old). Experimental treatments included di(2-ethylhexyl)phthalate (DEHP) and dichloroacetic acid (DCA) for the < 2 and > 20 year-old studies, respectively. Total RNA was ribodepleted and sequenced using the Illumina HiSeq platform. In the recent study, FFPE samples showed high concordance in total reads (98% vs FROZ), fold-change values of differentially expressed genes (DEGs) (R2 = 0.99), highly enriched target pathways (90% overlap with FROZ), and benchmark dose estimates for preselected target genes (-2% overall vs FROZ). In contrast, RNA-seq data from older FFPE samples had lower total reads (70% vs FROZ) and poor concordance in global DEGs and pathways. Despite a 99% loss of counts, dose responses were still evident for target genes in FFPE samples and positively correlated with paired FROZ samples. These findings highlight potential variability in the quality of RNA-seq data from FFPE samples. More recent FFPE samples were highly similar to FROZ samples in sequencing quality metrics, DEG profiles, and dose-response parameters, while further methods development is needed for older or lower-quality FFPE samples. This work should help broaden the use of archival resources in both chemical safety and translational science.
+
+DESIGN
+Trancriptomic profiles obtained using from paired frozen (FROZ) and formalin-fixed paraffin-embedded (FFPE) liver samples collected in 2013 for the DEHP study  (n=16 FROZ, n=16 FFPE, with four dose groups at 0, 1500, 3000, and 6000 ppm DEHP, n=4 per dose group) and 1994 for the DCA study (n=24 FROZ, n=24 FFPE, with four dose groups at 0, 1.0, 2.0, and 3.5 g/L DCA, n=6 per dose group) using Illumina HiSeq platform.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27562560
+

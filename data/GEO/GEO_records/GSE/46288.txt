@@ -1,0 +1,18 @@
+TITLE
+Expression data from C. elegans during L3 and L3-lethargus
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+To identify genes differentially expressed during L3 lethargus, we collected RNA during the third larval stage (L3) lethargus period, 37 hours after feeding developmentally-arrested L1 animals. Animals in lethargus were identified based on quiescence of locomotion and feeding.  Additional time point for RNA collection was in the mid-L3 stage, 32 hours after feeding developmentally-arrested L1 animals.  These samples were interrogated with the Affymetrix C. elegans Genome Array. A total of 153 gene transcripts were up regulated, and 48 gene transcripts were down regulated, during the L3 lethargus period compared to the L3 stage (false discovery rate (FDR) < 0.05).
+
+DESIGN
+There were 2 groups and 3x replication for each group, for 6 total samples. The groups were (1) L3 and (2) L3-lethargus. We compared L3-lethargus vs L3 using R/maanova. The permutation based p-values for each test were significant for FDR≤5%.
+
+PLATFORM
+GPL200 [Celegans] Affymetrix C. elegans Genome Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

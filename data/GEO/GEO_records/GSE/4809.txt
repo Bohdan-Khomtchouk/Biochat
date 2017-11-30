@@ -1,0 +1,18 @@
+TITLE
+A Stem Cell-Like Chromatin Pattern May Predispose Tumor Suppressor Genes  to DNA Hypermethylation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Many cancers may originate in stem or early progenitor cells 1-4 which depend on epigenetic modulation of gene expression for normal function (ref). We have studied whether epigenetic states in cancers, and particularly abnormal gene silencing associated with promoter DNA hypermethylation in CpG rich regions (refs), may represent links between cancer and stem cell epigenetic patterns.  We studied embryonal carcinomas (EC) which are malignancies of embryonic stem (ES) cells, but retain high potential for multi-lineage differentiation 5-8.  Surprisingly, genes DNA hypermethylated and silenced in adult cancers are unmethylated in ES and EC cells. Remarkably, the promoter chromatin of the genes in EC cells is virtually identical to the same genes in adult cancers when the latter are induced to de-methylate. This chromatin, as recently reported for CpG island promoters of low expression, developmentally related, genes in ES cells (refs), is “bivalent” and contains both active and repressive histone modifications. The latter includes trimethyl lysine 27 of histone H3 (H3K27me3), which may recruit DNA methylation (refs), and the promoter regions are enriched for polycomb group (PcG) proteins which place this H3K27me3 mark. Thus, many genes which undergo abnormal DNA methylation and permanent silencing in adult cancers may be programmed to do so by a pre-existent stem cell-like chromatin pattern inherent to the cells in which they arise. Keywords: Stem cell epigenetics expression microarray
+
+DESIGN
+Data analysis. All arrays were subject to quality checks recommended by the manufacturer.  Images were visually inspected for artifacts and distributions of signal and background intensity of both red and green channels are examined to identify anomalous arrays.   No irregularities were observed, and all arrays were retained and used. All calculations were performed using the R statistical computing platform, (cite R) and packages from Bioconductor bioinformatics software project (cite Bioconductor).  The log ratio of red median signal  to green median signal was calculated after background-subtraction and loess normalzation as implemented in the limma package from Bioconductor. ( cite Smyth) Individual arrays were scaled to have the same inter-quartile range (75th percentile -25th percentile) Log fold changes were averaged over dye-swap replicate microarrays to produce a single set of expression values for each condition.
+
+PLATFORM
+GPL1708 Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

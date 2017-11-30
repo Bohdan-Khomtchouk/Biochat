@@ -1,0 +1,18 @@
+TITLE
+Co-regulation of transcription factor binding and nucleosome occupancy through DNA features of mammalian enhancers
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In mammalian cells transcription factors (TFs) preferentially bind sites contained in regions of high nucleosomal occupancy, as determined by nucleotide-dependent computational analysis. This observation suggests that nucleosomes may act as gatekeepers of TF binding sites. We hypothesized that in mammalian genomes the information controlling nucleosome assembly may partially coincide with the information that enables TFs to recognize cognate sites in cis-regulatory elements while ignoring the myriad of non-functional, randomly occurring consensus binding sites. This way, nucleosome-mediated masking would be coupled to TF binding site functionality. The hematopoietic master regulator Pu.1 maintained nucleosome depletion at macrophage-specific enhancers that were otherwise occupied by nucleosomes in other cell types and in reconstituted chromatin. We identified a minimal set of DNA sequence and shape features that predicted Pu.1 binding with 78% accuracy. The same features predicted nucleosome occupancy in cells where Pu.1 was not expressed with higher accuracy than specifically designed models. Control of nucleosome deposition by DNA sequence and shape features that also specify TF consensus site functionality may allow maintaining the gatekeeper function of nucleosomes during evolution of cis-regulatory elements.
+
+DESIGN
+Chromatin immuno-precipitations of the transcription factor Pu.1 followed by multiparallel sequencing performed in murine bone marrow-derived macrophages. Experiments carried out in cells infected either with a retroviral vector containing  a short hairpin targeting Pu.1 or with the empty vector as control. The shPU.1 hairpin (sequence available upon request)  was selected among five designed using a publicly available software ( http://katahdin.mssm.edu/siRNA ) and  was cloned in a modified version of TtRMPVIR inducible retroviral vector (Genbank HQ456318) in which the puromycin resistance gene was inserted. The empty vector, containing an sh-Renilla sequence, was used as control. Chromatin immuno-precipitations of the transcription factor PU.1 binding to in vitro reconstituted chromatin followed by multiparallel sequencing Micrococcal nuclease digestion of chromatin extracted from bone marrow derived macrophages followed by multiparallel sequencing . Experiments were carried out in untreated cells (4 replicates) and cells infected either with a retroviral vector containing a short hairpin targeting Pu.1 or with  the empty vector as control (2 replicates). The shPU.1 hairpin (sequence available upon request)  was selected among five designed using a publicly available software ( http://katahdin.mssm.edu/siRNA ) and  was cloned in a modified version of TtRMPVIR inducible retroviral vector (Genbank HQ456318) in which the puromycin resistance gene was inserted. The empty vector, containing an sh-Renilla sequence, was used as control. Micrococcal nuclease digestion of in vitro reconstituted chromatin followed by multiparallel sequencing
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24813947
+

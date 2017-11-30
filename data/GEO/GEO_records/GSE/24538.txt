@@ -1,0 +1,18 @@
+TITLE
+Ab initio identification of transcription start sites (TSSs) in the Rhesus macaque genome by histone modification and RNA-Seq
+
+ORGANISM
+Macaca mulatta
+
+SUMMARY
+We addressed the lack of experimentally supported transcript annotations in the Rhesus macaque genome by ab initio identification of the transcription start sites (TSSs). We took advantage of histone H3 lysine 4 trimethylation (H3K4me3)'s ability to mark TSSs and the recently developed ChIP-Seq and RNA-Seq technology to survey the transcript structures in the macaque brain. We then integrated the two types of our newly generated data with genomic sequence features and extended a TSS prediction algorithm to ab initio predict and verify 16,833 of previously electronically annotated transcription start sites at 500 bp resolution and predicted ~10,000 new TSSs.
+
+DESIGN
+We took advantage of histone H3 lysine 4 trimethylation (H3K4me3)’s ability to mark transcription start sites (TSSs) and the recently developed ChIP-Seq and RNA-Seq technology to survey the transcript structures. By integrating the ChIP-seq, RNA-seq and small RNA-seq data (previously uploaded to GEO as GSM450615 by our collaborator) with genomic sequence features and extending and improving a state-of-the-art TSS prediction algorithm, we ab initio predicted and verified previously electronically annotated TSSs at a high resolution, and  predicted some novel TSSs.
+
+PLATFORM
+GPL9160 Illumina Genome Analyzer II (Macaca mulatta)
+
+CITATIONS
+20952408
+

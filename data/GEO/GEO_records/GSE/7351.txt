@@ -1,0 +1,18 @@
+TITLE
+In vivo genomic binding sites for the Drosophila CTCF Insulator
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Chromatin immunopurification with anti-CTCF was used to identify in vivo binding sites for CTCF in approximately 3% of the Drosophila genome using amplicon-based tiling arrays.  This includes the Bithorax-complex, a known site of CTCF activity, the Antp-Complex, the Achaete scute-Complex and the Adh region.  Reproducible binding identified new CTCF sites in the Adh region and the Bx-C. Keywords: ChIP-chip
+
+DESIGN
+Formaldehyde-crosslinked Chromatin was prepared from 4 independent biological replicates (Embryo1, Embryo2, Embryo5 and Embryo6) of 0-20hr wild-type Drosophila embryos (OregonR strain).  Each chromatin sample was immunopurified with rabbit Anti-CTCF and, in parallel with normal rabbit serum.  DNA purified from the experimental and control immunopurifications was amplified by LM-PCR. Four seperate aliquots (Technical replicates) of each PCR reaction were labeled and hybridised to independent tiling array slides, comparing experimental and control on each slide.  2 slides were dye swapped compared to the other two.  Each of the 4 technical replicates were normalised (VSN) and the average ratio of Experimental v control signals calculated.  The average ratio for each of the 4 biological replicates was assessed for statistical significance using CyberT to calculate an mean ratio and p-value.
+
+PLATFORM
+GPL5028 XC003 genome tiling array
+
+CITATIONS
+17616980
+

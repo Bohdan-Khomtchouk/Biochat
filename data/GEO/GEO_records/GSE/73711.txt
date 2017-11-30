@@ -1,0 +1,18 @@
+TITLE
+RNA sequencing of e15.5 pancreas from Wild Type, Blinc1-/- and Blinc+/- mice.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We report the transcriptome changes that result of the genomic deletion of one or two alleles of an islet-specific long non-coding RNA (Blinc1) in isolated pancreas from e15.5 mouse embryos.
+
+DESIGN
+Pancreas from e15.5 embryos were dissected and total RNA extracted. Libraries were prepared from total RNA (RIN > 8) with the TruSeq RNA prep kit (Illumina) and sequenced using the HiSeq2000 (Illumina) instrument. More than 20 million reads were mapped to the mouse genome (UCSC/mm9) using Tophat (version 2.0.4) with 4 mismatches and 10 maximum multiple hits. Significantly differentially expressed genes were calculated using DEseq.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26944677
+

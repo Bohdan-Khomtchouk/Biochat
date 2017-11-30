@@ -1,0 +1,18 @@
+TITLE
+esBAF facilitates pluripotency by conditioning the genome for LIF/STAT3 signaling and by regulating Polycomb function
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Signaling by the cytokine LIF and its downstream transcription factor, STAT3, prevents differentiation of pluripotent embryonic stem cells (ESCs) by opposing MAP kinase signaling.  This contrasts with most cell types where STAT3 signaling induces differentiation.  We find that STAT3 binding across the pluripotent genome is dependent upon Brg, the ATPase subunit of a specialized chromatin remodeling complex (esBAF) found in ESCs.  Brg is required to establish chromatin accessibility at STAT3 binding targets, in essence preparing these sites to respond to LIF signaling. Moreover, Brg deletion leads to rapid Polycomb (PcG) binding and H3K27me3-mediated silencing of many Brg-activated targets genome-wide, including the target genes of the LIF signaling pathway.  Hence, one crucial role of Brg in ESCs involves its ability to potentiate LIF signaling by opposing PcG. Contrary to expectations, Brg also facilitates PcG function at classical PcG target including all four Hox loci, reinforcing their repression in ESCs.  These findings reveal that esBAF does not simply antagonize PcG, but rather, the two chromatin regulators act both antagonistically and synergistically with the common goal of supporting pluripotency.
+
+DESIGN
+Brg conditional embryonic stem cell (ESC) line was prepared from Brg(lox/lox);Actin-CreER mice that allow conditional deletion of Brg upon addition of 4-hydroxytamoxifen (4OHT, Sigma). Brg conditional ESCs were treated with 4-OHT for 72 hours to delete Brg. Brg protein levels completely abolished only at 48 hours (Brg-KO). RNA from Brg conditional ESCs (WT), Brg-KO ESCs, Brg conditional ESCs starved of LIF (Lif-WD) for 48 hours were extracted using Trizol reagent (Invitrogen), followed by RNeasy kit with DNaseI digestion to eliminate genomic DNA. Purified RNA was processed and hybridized onto Affymetrix Mouse MOE 4.0 3’ expression arrays according to the manufacturer's instructions. ChIP-Seq was used to detect and measure STAT3 occupancy and levels of H3K27me3 in the genome before and after the removal of the SWI/SNF ATPase Brg in mouse ESCs. Total of 4 samples (WT and KO STAT3; WT and KO H3K27me3). Input DNA was sequenced as control.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+21785422
+

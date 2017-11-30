@@ -1,0 +1,18 @@
+TITLE
+A regulatory hierarchy controls the dynamic transcriptional response to extreme oxidative stress in archaea.
+
+ORGANISM
+Halobacterium salinarum NRC-1
+
+SUMMARY
+Previous work identified the winged helix-turn-helix DNA binding transcription factor (TF) RosR (encoded by VNG0258H gene), which dynamically regulates expression of more than 300 genes in response to oxidative stress in Halobacterium salinarum (Sharma 2012). RosR is required for survival of oxidants from multiple sources (e.g. H2O2 and paraquat), as deletion mutants are impaired for ROS outgrowth. Genes directly and indirectly controlled by RosR in response to ROS encode macromolecular repair functions. In the current study, we ask which of these genes are direct targets of RosR regulation. Dynamic chromatin immunoprecipitation combined with microarray (ChIP-chip) analysis validates that genes encoding these functions are direct targets of RosR binding and control. In addition, new RosR direct target genes are identified, including those encoding central cellular functions and a surprisingly high number of other TFs. The majority of the 252 sites throughout the genome are RosR-bound in the absence of stress and cleared of RosR binding in the presence of H2O2. However, binding is dynamic, with promoter-specific differences in the timing of RosR-DNA release and re-binding relative to ROS exposure.
+
+DESIGN
+Halobacterium salinarum harboring VNG0258H(rosR)::myc was grown to mid-logarithmic phase (OD600 ~ 0.2 - 0.4) and either left untreated or exposed to 25 mM H2O2 for 10, 20, and 60 minutes. Transcription factor-chromatin complexes from each treated time point and untreated cultures were then cross-linked in vivo with 1% formaldehyde for 30 min at room temperature and subjected to immunoprecipitation (IP) by virtue of the myc epitope tag as described previously (Schmid et al. 2011). One µg of each IP sample was hybridized against matched, mock-treated controls on a custom 2 x 105,000 feature 60-mer oligonucleotide microarray (Agilent Technologies, AMADID 026819). On this high-resolution array, the entire H. salinarum genome was tiled every 30 bp in triplicate. Randomly selected regions of the genome were spotted in quadruplicate. Dye swaps were conducted to correct for bias in incorporation. Seven biological replicate experiments were conducted for VNG0258::myc in the absence of H2O2 and three in the presence of H2O2. Four biological replicate experiments in an H. salinarum strain harboring the empty vector control plasmid were conducted to detect background peaks resulting from technical aspects of the protocol. This yielded a total of at least 18 replicate intensity data points per 30-bp genomic region per condition. DNA fragments were directly labeled with Cy3 and Cy5 dyes (Kreatech) as described previously (Facciotti et al., 2007). Microarray slide hybridization and washing protocols were conducted according to the manufacturer’s instructions (Agilent technologies) with the exception that hybridization was conducted in the presence of 37.5% formamide at 68˚C to ensure proper stringency.
+
+PLATFORM
+GPL18848 Agilent-026819 Halo_30bp_span_genome
+
+CITATIONS
+25569531
+

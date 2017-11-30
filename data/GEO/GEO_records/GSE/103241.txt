@@ -1,0 +1,18 @@
+TITLE
+Ectopic expression of RAD52 and dn53BP1 improves homology-directed repair during CRISPR/Cas9 genome editing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene disruption by CRISPR/Cas9 is highly efficient and relies on the error-prone non-homologous end-joining (NHEJ) pathway. Conversely, precise gene editing requires homology-directed repair (HDR), which occurs at a lower frequency than NHEJ in mammalian cells. Here, by testing whether manipulation of DNA repair factors would improve HDR efficacy, we show that transient ectopic co-expression of RAD52 and a dominant-negative 53BP1 (dn53BP1) synergize to enable efficient HDR using a single-stranded oligonucleotide DNA donor template at multiple loci in human cells, including patient-derived induced pluripotent stem (iPS) cells. Co-expression of RAD52 and dn53BP1 improves multiplexed HDR-mediated editing, whereas expression of RAD52 alone enhances HDR with Cas9 nickase. Our data show that the frequency of NHEJ-mediated DSB repair in the presence of these two factors is not suppressed, and suggest that dn53BP1 competitively antagonizes 53BP1 to augment HDR in combination with RAD52. Importantly, co-expression of RAD52 and dn53BP1 does not alter Cas9 off-target activity. These findings support the use of RAD52 and dn53BP1 co-expression to overcome bottlenecks that limit HDR in precision genome editing.
+
+DESIGN
+Examination of genome-wide on- and off-target activity of CCR5 D and Q gRNAs using the Cas9 RAG1B gRNA universal bait and 3 biological replicates for each experiment.  File name abbreviations:  52 = RAD52, 53 = dn53BP1, 523 = Rad52+dn53BP1
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

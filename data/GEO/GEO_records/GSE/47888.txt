@@ -1,0 +1,18 @@
+TITLE
+Deciphering the RNA landscape by RNAome sequencing [Affymetrix]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Current RNA expression profiling methods rely on enrichment steps for specific RNA classes, thereby not detecting all RNA species in an unperturbed manner. We report strand-specific RNAome sequencing that determines expression of small and large RNAs from ribosomal RNA-depleted total RNA in a single sequence run. Since current analysis pipelines cannot reliably analyze small and large RNAs simultaneously, we developed TRAP, Total Rna Analysis Pipeline, a robust interface that is also compatible with existing RNA sequencing protocols. RNAome sequencing quantitatively preserved all RNA classes, allowing cross-class comparisons that facilitates the identification of relationships between different RNA classes. We demonstrate the strength of RNAome sequencing in mouse embryonic stem cells treated with cisplatin. MicroRNA and mRNA expression in RNAome sequencing significantly correlated between replicates and was in concordance with both existing RNA sequencing methods and gene expression arrays generated from the same samples.  Moreover, RNAome sequencing also detected additional RNA classes such as enhancer RNAs, anti-sense RNAs, novel RNA species and numerous differentially expressed RNAs undetectable by other methods. At the level of complete RNA classes, RNAome sequencing also identified a specific global repression of the microRNA and microRNA isoform classes after cisplatin treatment whereas all other classes such as mRNAs were unchanged. These characteristics of RNAome sequencing will significantly improve expression analysis as well as studies on RNA biology not covered by existing methods.
+
+DESIGN
+8 mouse embryonic stem cell samples,  control and cisplatin treated, 4 replicates per group
+
+PLATFORM
+GPL11180 [HT_MG-430_PM] Affymetrix HT MG-430 PM Array Plate
+
+CITATIONS
+25826412
+

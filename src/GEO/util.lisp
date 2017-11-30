@@ -22,6 +22,16 @@
                %)
           toks))
 
+(defun html-str (tree)
+  "Convert a CRAWLIK HTML tree to a string."
+  (etypecase tree
+    (list (let (sink)
+            (doleaves (node tree)
+              (unless (blankp node)
+                (push node sink)))
+            (strjoin #\Space (reverse sink))))
+    (string tree)))
+
 
 ;;; hash set
 

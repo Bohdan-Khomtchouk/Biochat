@@ -1,0 +1,18 @@
+TITLE
+Cell Type-Specific DNA Methylation at Intragenic CpG Islands in the Immune System (MAP-Seq and ChIP-Seq data)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Human and mouse genomes contain a similar number of CpG islands (CGIs), which are discrete CpG-rich DNA sequences associated with transcription start sites. In both species, about 50% of all CGIs are remote from annotated promoters, but nevertheless often have promoter-like features. To document the role of CGI methylation in cell differentiation, we analysed DNA methylation at a comprehensive CGI set in cells of the mouse hematopoietic lineage. Using a method that potentially detects ~33% of genomic CpGs in the methylated state ( > 7 million) we found that large differences in gene expression were accompanied by surprisingly few DNA methylation changes. There were, however, many DNA methylation differences between hematopoietic cells and a distantly related tissue, brain. Altered DNA methylation occurred predominantly at CGIs within gene bodies, which have the properties of cell type-restricted promoters, but infrequently at annotated gene promoters or CGI flanking sequences. Elevated intragenic CGI methylation correlated with silencing of the associated gene. Differentially methylated intragenic CGIs tended to lack H3K4me3 and associate with a transcriptionally repressive environment regardless of methylation state. Our results indicate that DNA methylation changes play a relatively minor role in the late stages of differentiation, but point to a distinct role for intragenic CGIs.
+
+DESIGN
+Mouse immune cells (dendritic cells, B cells, CD4 T cells, Th1 and Th2 cells) were isolated and DNA methylation and gene expression profiled. Methylation and expression patterns were compared to those in brain. DNA methylation was profiled using MAP-seq and two replicates were carried out for each cell type of interest.
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+21628449
+

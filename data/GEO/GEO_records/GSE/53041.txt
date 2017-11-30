@@ -1,0 +1,18 @@
+TITLE
+Patterns of genome-wide VDR locations
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The genome-wide analysis of the binding sites of the transcription factor vitamin D receptor (VDR) is essential for a global appreciation the physiological impact of the nuclear hormone 1α,25-dihydroxyvitamin D3 (1,25(OH)2D3).  Genome-wide analysis of lipopolysaccharide (LPS)-polarized THP-1 human monocytic leukemia cells via chromatin immunoprecipitation (ChIP) coupled with massive parallel sequencing (ChIP-seq) resulted in 1,318 high-confidence VDR binding sites, of which 789 and 364 occurred uniquely with and without 1,25(OH)2D3 stimulation, while only 165 were common. We re-analyzed five public VDR ChIP-seq datasets with identical peak calling settings (MACS, version 2) and found in total 23,409 non-overlapping VDR binding sites, 75% of which are unique within the six analyzed cellular models. LPS-differentiated THP-1 cells have 22% more genomic VDR locations than undifferentiated cells and both cell types display more overlap in their VDR locations than the other investigated cell types. In general, the intersection of VDR binding profiles of ligand-stimulated cells is higher than those of unstimulated cells. De novo binding site searches and DR3-type binding site screening using HOMER of the six VDR ChIP-seq datasets suggest that DR3 sites are strongly associated with the ligand-responsiveness of VDR occupation. Importantly, all VDR ChIP-seq datasets display the same relationship between the VDR occupancy and the percentage of DR3-type sequences below the peak summits.  The comparative analysis of six VDR ChIP-seq datasets demonstrated that the mechanistic basis for the action of the VDR is independent of the cell type. Only the minority of genome-wide VDR binding sites contains a DR3-type sequence. Moreover, the total number of identified VDR binding sites in each ligand-stimulated cell line inversely correlates with the percentage of peak summits with DR3 sites.
+
+DESIGN
+Systematic reanalysis of 5 published VDR ChIP-seq datasets together with a new dataset from 24 h LPS-treated THP-1 cells at the unstimulated state and after 80 min ligand (10 nM 1α,25(OH)2D3 (1,25D, calcitriol)) treatment. See GSM1280896 and GSM1280896 Sample records for data processing information. GSE53041_README.txt has additional details.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+24787735
+

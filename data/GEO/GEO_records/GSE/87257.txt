@@ -1,0 +1,18 @@
+TITLE
+Systematic mapping of functional enhancer-promoter connections with CRISPR interference
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression in mammals is regulated by noncoding elements that can impact physiology and disease, yet the functions and target genes of most noncoding elements remain unknown. We present a high-throughput approach that uses CRISPR interference (CRISPRi) to discover regulatory elements and identify their target genes. We assess > 1 megabase (Mb) of sequence in the vicinity of 2 essential transcription factors, MYC and GATA1, and identify 9 distal enhancers that control gene expression and cellular proliferation. Quantitative features of chromatin state and chromosome conformation distinguish the 7 enhancers that regulate MYC from other elements that do not, suggesting a strategy for predicting enhancer-promoter connectivity. This CRISPRi-based approach can be applied to dissect transcriptional networks and interpret the contributions of noncoding genetic variation to human disease.
+
+DESIGN
+We examined the effects of using CRISPRi to inhibit a putative enhancer of GATA1, eHDAC6. We performed RNA sequencing on K562 cells expressing individual sgRNAs targeting the transcription start site of GATA1 (2 sgRNAs), eHDAC6 (2 sgRNAs) and non-targeting, negative controls (4 sgRNAs). We generated paired-end RNA sequencing libraries from 3 biological replicates for each sgRNA.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27708057
+

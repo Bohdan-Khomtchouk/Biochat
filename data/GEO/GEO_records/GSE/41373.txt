@@ -1,0 +1,18 @@
+TITLE
+Zebrafish (Danio rerio) catecholaminergic neuron RNA-seq based transcript profiles
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+This project aimed at identifying developmental stage specific transcript profiles for catecholaminergic neurons in embryos and early larvae of zebrafish (Danio rerio). Catecholaminergic neurons were labeled using transgenic zebrafish strains to drive expression of GFP. At stages 24, 36, 72 and 96 hrs post fertilization, embryos were dissociated and GFP expressing cells sorted by FACS. Isolated RNAs were processed using either polyA selection and libray generation or NanoCAGE. This is the first effort to determine stage specific mRNA profiles of catecholaminergic neurons in zebrafish.
+
+DESIGN
+Catecholaminergic neurons were labeled by four different strategies: (1) 24 hrs old embryos: we used the ETvmat2:GFP transgenic line (Wen et al. 2007). Visualization of monoaminergic neurons and neurotoxicity of MPTP in live transgenic zebrafish. Dev Biol. 2008 Vol 314 p84-92) which at this early stage labels catecholaminergic neurons in posterior tuberculum and locus coeruleus; (2) 24 hrs old embryos: we used Tg(otpb.A:egfp)zc48 transgenic line (Fujimoto et al. Identification of a dopaminergic enhancer indicates complexity in vertebrate dopamine neuron phenotype specification. Dev Biol 2011, Vol 352, p393–404) which at this stage label ventral diencephalic dopaminergic neurons and some preoptic neurons. (3) For 72 and 96 hrs old zebrafish larvae we used a th:GFP BAC transgenic lines that labels catecholaminergic neurons (Tay et al., Comprehensive catecholaminergic projectome analysis reveals single-neuron integration of zebrafish ascending and descending dopaminergic systems. Nat Comms 2011 Vol 2, 171; also: T. Leng and W. Driever, unpublished). (4) for the 36 and 48 hrs old zebrafish larvae we used a th:Gal4VP16 driver and UAS:EGFP responder transgenic line system to label catecholaminergic cells (Fernandes et al., Deep brain photoreceptors control light-seeking behavior in zebrafish larvae. Curr Biol. 2012 Vol 22  DOI 10.1016/j.cub.2012.08.016). We used the different transgenic lines, because lines (3) and (4) do not efficiently label catecholaminergic neurons at early stages, while lines (1) and (2) also have GFP expression in several other non-catecholaminergic populations at later stages of development. Embryos were dissociated and catecholaminergic neurons were FACS sorted from GFP-tagged zebrafish (Manoli and Driever, 2012, Cold Spring Harbor Protoc. DOI 10.1101/pdb.prot069633). RNA was either processed for NanoCAGE, or mRNA was isolated and amplified. cDNA was sequenced by Illumina technique. This data submission is a series of data files consisting of three independent experiments with diffrent RNA-Seq depth: Samples 1-4 (NanoCage): Samples 5-8 (RNA-Seq high read numbers), and SAmples 9-12 (RNA-Seq low read numbers).
+
+PLATFORM
+GPL15583 Illumina Genome Analyzer IIx (Danio rerio)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

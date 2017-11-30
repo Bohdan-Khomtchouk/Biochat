@@ -1,0 +1,18 @@
+TITLE
+SNP array data for 56 chronic myeloid leukemia samples.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Copy number and LOH analysis was performed for 56 chronic myeloid leukemia cases obtained from 23 CML cases obtained atchronic phase, accelerated phase, blast crisis, or remission. All caseswere genotyped with Affymetrix 250k Sty and Nsp arrays. Keywords: Acute leukemia, BCR-ABL1, chronic myeloid leukemia, copy number analysis, loss-of-heterozygosity, genomics *** Due to privacy concerns, the primary SNP array data is no longer available with unrestricted access. Individuals wishing to obtain this data for research purposes may request access using the Web links below. ***
+
+DESIGN
+All assays were performed on DNA extracted fromcryopreserved, mononuclear cell preparations of diagnostic peripheralblood or bone marrow samples. All blast crisis samples were flow sortedprior to DNA extraction. SNP calls were generated using AffymetrixGTYPE. Probe intensity data was extracted and used for DNA copy numberanalysis using dChip, a karyotype-guided normalization algorithm(Reference normalization, Mullighan et al Nature 2007;446:758), dChipand circular binary segmentation (implemented as DNAcopy in R).
+
+PLATFORM
+GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array
+
+CITATIONS
+18408710
+

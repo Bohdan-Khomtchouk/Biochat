@@ -1,0 +1,18 @@
+TITLE
+Relative quantification of miRNAs across multiple experiments
+
+ORGANISM
+Mus musculus ; synthetic construct
+
+SUMMARY
+MicroRNAs (miRNAs) have been shown to play an important role in many different cellular, developmental, and physiological processes. Accordingly, numerous methods have been established to identify and quantify miRNAs. The shortness of miRNA sequence results in a high dynamic range of melting temperatures and, moreover, impedes a proper selection of detection probes or optimized PCR primers. While miRNA microarrays allow for massive parallel and accurate relative measurement of all known miRNAs, they have so far been less useful as an assay for absolute quantification. Here, we present a microarray based approach for global and absolute quantification of miRNAs. The method relies on an equimolar pool of about 1000 synthetic miRNAs of known concentration which is used as an universal reference and labeled and hybridized in a dual colour approach on the same array as the sample of interest. Each single miRNA is quantified with respect to the universal reference outbalancing bias related to sequence, labeling, hybridization or signal detection method. We demonstrate the accuracy of the method by various spike in experiments. Further, we quantified miRNA copy numbers in liver samples and CD34(+)CD133(-) hematopoietic stem cells.
+
+DESIGN
+We analyzed to which extend the universal reference can be used as a tool for the relative quantification of miRNAs across multiple experiments. We compared the results of direct hybridizations i.e. sample vs. sample to those of indirect hybridizations i.e. sample vs. UR. For the direct hybridizations, we hybridized 5µg liver total RNA vs 5 µg brain total RNA (n = 3) and for the indirect hybridization 5 µg liver or brain total RNA vs UR (5 fmol/miRNA) (n = 3). We calculated the so-called re-ratios for the UR experiments by dividing the signal ratios of the liver vs. UR array by the respective brain vs. UR array gaining a liver vs. brain re-ratio. Each RNA sample was mixed with 5 fmol of each of 18 RNA oligonucleotides reverse complement to miRControl 3 probes and subsequently fluorescently labelled. The RNA mix was hybridized in a dual colour approach to microarrays. The mean ratios of all probes were normalized to the median of the ratios detected for the spiked 18 synthetic RNA oligonucleotides reverse complement to miRControl 3 probes.
+
+PLATFORM
+GPL8438 miRXploreTM microarrays (781)
+
+CITATIONS
+19861428
+

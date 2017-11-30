@@ -1,0 +1,18 @@
+TITLE
+Moderate long-term drought stress in rice
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+We investigated the physiological and gene expression response of drought-tolerant (IR57311 and LC-93-4; subgroup indica) and drought-sensitive (Nipponbare and Taipai 309; subgroup japonica) rice (Oryza sativa) cultivars to 18 days of drought stress in climate chamber experiments. Rice plants were grown under water sufficient and water limiting conditions in three independent experiments in a controlled climate chamber with 12 h day length at 600 µE m-2 s-1; temperature was 26°C in the light and 22°C at night, with a relative humidity of 75% in the light and 70% at night. Leaf material for expression profiling analysis was harvested five hours after the beginning of the light period after 18 days of stress or control treatment. Normalization and statistical testing was performed using the R package limma (R 2.3.1, limma version 2.7.3; (Smyth, 2005)). The methods Robustspline for within array normalization and Quantile for between array normalization were applied. A linear model with the effects genotype, drought treatment, genotype x drought, dye was fitted to normalized data in limma that models the systemic variation in the data. Afterwards, for the comparisons of interest, moderated t-statistics that use an empirical Bayes method were calculated. Differentially expressed genes were identified using the decideTests function (method global, Benjamini & Hochberg fdr corrected p-value < 0.05 in limma) Keywords: stress reponse
+
+DESIGN
+Growth design. Three independent experiments were performed. The design was a split-plot design with five blocks per drought or control treatment in each experiment.  Each treatment and cultivar was represented by five replicate pots with one plant per pot. Pots were randomized within the blocks. Block position was rotated daily. Hybridisation design: A total of 28 samples, each representing mRNA from four parallel plants, were hybridized to 14 arrays. The hybridization design was optimized for the estimation of the effects of condition and the condition x cultivar interaction taking a variance minimization approach. In a two-step procedure, a smaller design for one sensitive and one tolerant cultivar was enlarged to encompass all four cultivars by integrating eight additional arrays. The optimization was programmed using R [R Development Core Team 2006] and carried out on the 16-node Beowulf Linux-Cluster at the University of Potsdam. R-scripts are available upon request and from the Bioinformatics Team at the MPI of Molecular Plant Physiology (see the website for more information). Allocation of the three biological replicates of each of the combinations of treatment and cultivar was completed such that a balanced distribution with respect to the labeling was achieved. Each combination of condition and cultivar from all experiments has been used at least once.
+
+PLATFORM
+GPL2091 Rice oligo array version 2
+
+CITATIONS
+18931976
+

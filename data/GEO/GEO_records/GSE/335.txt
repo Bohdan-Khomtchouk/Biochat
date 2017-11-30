@@ -1,0 +1,15 @@
+TITLE
+Ciprofibrate stimulated gene expression in rats
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Samples and RNA preparation: The series is composed of 4 hybridizations for analysis of differentially expressed genes in the liver of ciprofibrate dosed vs. control rats. Rats (200-250 g) were given (by gastric intubation) tap water (control group, n=5) or ciprofibrate (50 mg/kg body weight, once daily for 60 days, n=4). Liver total RNA extraction was performed first by ultracentrifugation on a cesium chloride cushion and then using TRIZOL Reagent (GIBCO BRL Life Technologies, New York, NY). Labeling and hybridization: One microgram of total RNA from the control pool (n=5), and from each ciprofibrate dosed rat was reverse transcribed and labeled with Cy3- and Cy5-attached dendrimer, respectively, using 3DNA Array Detection Submicro kit as described in the manufacturer's protocols  (Genisphere, Montvale, NJ). The labeling reactions were also spiked with exogenous control RNAs (Stratagene) at expected Cy5/Cy3 ratios of 1.0, 2.0, 3.0, 4.0, 5.0, 6.0,  0.5, 0.33, 0.25 and 0.125 for control spike 1, 2, 3, 4, 5, 6, 8, 9, 10 and 7, respectively. The Cy3 and Cy5 labeled samples (combined volume 5 microliter) were mixed with 30 microliter of the hybridization solution containing 0.25 M NaPO4, 1 mM EDTA, 4.5% SDS, 1 x SSC, 2 x Denhardt's solution, 0.25 microliter antifade reagent (Genisphere) and 0.2 microgram mouse COT-1 DNA (GIBCO BRL Life Technologies), added onto the array and covered with 22 x 50mm cover slip. The array was assembled into humidified hybridization chamber (Corning) and hybridized at 65oC for 18 h by submerging in a water bath. Post-hybridization washes were done once in 2 x SSC, 0.2% SDS at 55oC for 15 min, then in 2 x SSC at room temperature for 15 min, and finally with 0.2 x SSC at room temperature for 15 min. Scanning, image analysis and data processing: Arrays were scanned at 10 micrometer resolution with a confocal laser scanner constructed in-house in collaboration with NEMKO (Trondheim, Norway) according to a prototype developed at NHGRI ( http://www.nhgri.gov/DIR/LCG/15K (HTML/). Microarray image analysis was done with MicroArray Suite software version 2.1 with globally normalization (Scanalytics, Inc., Fairfax VA). First, spots undetected (target intensity=1) in at least one array were excluded. Then, spots with signal intensity (averages of the 4 arrays) less than 300 in both channels were removed. The fluorescence intensity ratios (Cy5/Cy3) for genes measured from probes spotted in duplicate were averaged for each slide. Then, mean ratios of the 4 hybridizations were calculated for each gene, and differentially regulated genes were determined using 1.4 fold change cutoff values (1.4 for up-regulated or 0.7 for down-regulated genes). Keywords: other
+
+PLATFORM
+GPL264 NMC_Rat_5k_cDNA_Ser2
+
+CITATIONS
+12851464
+

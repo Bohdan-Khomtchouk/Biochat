@@ -1,0 +1,18 @@
+TITLE
+ATAC-seq and RNA-seq of adult mouse rods and cones
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Rod photoreceptors are specialized neurons that mediate vision in dim light and are the predominant photoreceptor type in nocturnal mammals. The rods of nocturnal mammals are unique among vertebrate cell types in having an 'inverted' nuclear architecture, with a single dense mass of heterochromatin in the center of the nucleus rather than dispersed clumps at the nuclear periphery. We hypothesized that this unique chromatin organization would correlate with a unique epigenomic landscape as defined by chromatin accessibility. To test this idea, we performed open chromatin profiling (ATAC-seq) on purified mouse rods and their most closely related cell type, cone photoreceptors, which revealed that thousands of loci are selectively closed in rods. Comparison with open-chromatin maps from > 60 additional cell types and tissues demonstrated that rods have by far the most closed chromatin architecture. To explore how the unique epigenomic landscape of rods is controlled, we profiled photoreceptors purified from mice lacking the rod master regulator Nrl. We find that the open-chromatin profile of Nrl-/- photoreceptors is nearly indistinguishable from that of native cones, indicating that Nrl is necessary to achieve selective chromatin closure in rods. Finally, we identified distinct enrichments of transcription factor binding sites in rods and cones, suggesting specific mechanisms by which rods and cones encode cell type-specific information in regulatory DNA. Taken together, these data provide new insight into the development and maintenance of photoreceptor identity, and highlight rods as an attractive system for studying the relationship between nuclear organization and local changes in chromatin accessibility.
+
+DESIGN
+ATAC-seq of adult (eight-week-old) mouse rods, green cones, and Nrl-/- photoreceptors (two biological replicates each) purified from transgenic reporter lines via fluorescence-activated cell sorting (FACS). RNA-seq of adult (eight-week-old) mouse rods and Nrl-/- photoreceptors (three biological replicates each) purified from transgenic reporter lines via FACS.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28256534
+

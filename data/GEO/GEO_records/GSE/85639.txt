@@ -1,0 +1,18 @@
+TITLE
+A commonly inactivated tumor suppressor silences endogenous retroelements in somatic cells [ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Upon G1-S transition, cyclin-dependent kinases (CDKs) phosphorylate the retinoblastoma tumor suppressor protein (pRB) to release E2F transcription factors, which activate transcriptional programs, required for S-phase entry. Beyond the G1-S transition, pRB activity remains poorly understood. Our lab has discovered that pRB retains exclusive binding to E2F1 through an alternate E2F1-‘specific’ binding site at the pRB c-terminus independent of CDK phosphorylation. We have developed a gene-targeted mouse model that is defective for the E2F1-‘specific’ interaction. We are exploring the function of this complex through genome-wide binding and expression profiling. Overall, this work suggests an alternate pRB-E2F1 complex persists independent of CDK phosphorylation to establish regions of constitutive heterochromatin.
+
+DESIGN
+Chromatin was isolated from passage 4 MEFs cross-linked with ethylene glycol bissuccinimidylsuccinate (EGS) and formaldehyde, and then sonicated to ≤ 400 bp. DNA fragments were immunoprecipitated using different antibodies, washed, then purified. DNA was prepared for sequencing according to the Illumina TruSeq protocol. Each protein immunoprecipitated includes one wild-type replicate as reference, and one replicate per mutant genotype assayed.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27889452
+

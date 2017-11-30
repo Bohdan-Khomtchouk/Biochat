@@ -1,0 +1,18 @@
+TITLE
+miRNA expression changes in murine liver tumorigenesis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Hepatocellular carcinoma (HCC) is associated with poor survival for patients and few effective treatment options, raising the need for novel therapeutic strategies. MicroRNAs (miRNAs) play important roles in tumor development and show deregulated patterns of expression in HCC. Because of the liver’s unique affinity for small nucleic acids, miRNA based therapy has been proposed in the treatment of liver disease. There is thus an urgent need to identify and characterize aberrantly expressed miRNAs in HCC. In our study, we profiled miRNA expression changes in de novo liver tumors driven by MYC and/or RAS, two canonical oncogenes activated in a majority of human HCC.
+
+DESIGN
+RNA from normal liver (LT2) and tumor tissue (LT2/MYC, LT2/RAS, LT2/MYC/RAS) was extracted, enriched for miRNAs and biotin-labeled using Ambion’s miRVana, flashPAGE and miRVana miRNA labeling kits respectively. Samples (n=4) from each genotype were hybridized to a custom Affymetrix Genechip designed to miRNA probes derived from Sanger miRBase v9.2. This array contained a total of 14216 probes, of which 672 matched to 301 unique mouse miRNAs. For each probe, an estimated background value was subtracted that was derived from the median signal of a set of GC-matched anti-genomic controls. Detection calls were based on a Wilcoxon rank-sum test of the miRNA probe signal compared to the distribution of signals from GC-content matched anti-genomic probes and normalized according to the variance stabilization method described.Post-normalized data scale is reported as generalized log2 data. For statistical hypothesis testing, one-way ANOVA was applied and probes are considered significantly differentially expressed based on a default p-value of 0.05 and log2 difference > 1 or < -1.
+
+PLATFORM
+GPL16713 [miRChip1s520189F] Custom Affymetrix microRNA array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

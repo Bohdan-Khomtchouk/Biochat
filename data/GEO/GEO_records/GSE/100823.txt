@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic analysis of hair cells from the pigeon Columba livia
+
+ORGANISM
+Columba livia
+
+SUMMARY
+To gain further insight into the molecular architecture of cuticulosome containing hair cells, we performed a transcriptomics experiment comparing RNA expression profiles of hair cells with and without cuticulosomes. To do so we adapted existing methods that enable ultra low input RNA sequencing, applying it to avian hair cells. RNA from 30 hair cells per sample was extracted, cDNA prepared using a full length RNA Seq from single cells protocol (Picelli et al. 2014), before next generation sequencing on an Illumina HiSeqV4 system. We generated approximately 42 million reads per sample that were aligned with TopHat against the Columba livia genome and subjected to differential expression analysis with DESeq2 . We report that 387 genes were upregulated (more than 3 fold increase) in cuticulosome positive cells, with 18 reaching significance (P < 0.05) following correction for multiple testing.
+
+DESIGN
+Transcriptomic analysis of two auditory hair cell types from the pigeon basilar papilla
+
+PLATFORM
+GPL22642 Illumina HiSeq 2500 (Columba livia)
+
+CITATIONS
+29140244
+

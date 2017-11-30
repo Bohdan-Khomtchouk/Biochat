@@ -1,0 +1,18 @@
+TITLE
+Expression data from primary tissue, human oral mucosa (miRNA data)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The experiment aims to identify regulatory miRNA networks influencing mRNA profiles in oral lichen planus (OLP). RNA and miRNA were extracted simultaniously using miRVana (Ambion, Life Technologies). Sample and array processing was carried out according to the manufacturer's guidelines. Affymetrix raw data was processed using AGCC Expression Console 1.1 (Affymetrix), employing RMA normalization. Linking miRNA and mRNA was performed with a correlation analysis, while a false discovery rate was used to exclude false-positive correlations between miRNAs and their predicted targets.
+
+DESIGN
+7 cases (OLP) and 7 controls (healthy individuals). Genome wide mRNA and miRNA screening, linking both datasets (see summary).
+
+PLATFORM
+GPL8786 [miRNA-1] Affymetrix Multispecies miRNA-1 Array
+
+CITATIONS
+23723971
+

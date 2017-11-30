@@ -1,0 +1,18 @@
+TITLE
+Gene Expression Profiling in Breast Cancer: Understanding the Molecular Basis of Histologic Grade To Improve Prognosis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Histologic grade in breast cancer provides clinically important prognostic information. However, 30%-60% of tumors are classified as histologic grade 2. This grade is associated with an intermediate risk of recurrence and is thus not informative for clinical decision making. We examined whether histologic grade was associated with gene expression profi les of breast cancers and whether such profi les could be used to improve histologic grading. Methods: We analyzed microarray data from 189 invasive breast carcinomas and from three published gene expression datasets from breast  carcinomas. We identified differentially expressed genes in a training set of 64 estrogen receptor (ER)-positive tumor samples by comparing expression profiles between histologic grade 3 tumors and histologic grade 1 tumors and used the expression of these genes to define the gene expression grade index. Data from 597 independent tumors were used to evaluate the association between relapse-free survival and the gene expression grade index in a Kaplan-Meier analysis. All statistical tests were two-sided. Results: We identified 97 genes in our training set that were associated with histologic grade; most of these genes were involved in cell cycle regulation and proliferation. In validation datasets, the gene expression grade index was strongly associated with histologic grade 1 and 3 status; however, among histologic grade 2 tumors, the index spanned the values for histologic grade 1-3 tumors. Among patients with histologic grade 2 tumors, a high gene expression grade index was associated with a higher risk of recurrence than a low gene expression grade index (hazard ratio = 3.61, 95% confidence interval = 2.25 to 5.78; P < .001, log-rank test). Conclusions: Gene expression grade index appeared to reclassify patients with histologic grade 2 tumors into two groups with high versus low risks of recurrence. This approach may improve the accuracy of tumor grading and thus its prognostic value. NB: The patients coming from Uppsala Hospital have been also used in other studies as in GSE3494. You can find the common set of patients in removing the abbreviation " UPP_ " from the sample names and compare the results with the " INDEX (ID) " from the GSE3494 series. Keywords: disease state analysis
+
+DESIGN
+64 microarray experiments from primary breast tumors used as training set to identify genes differentially expressed in grade 1 and 3. 129 microarray experiments from primary breast tumors of untreated patients used as validation set to validate the list of genes and its correlation with survival. No replicate, no reference sample. Supplementary file GSE2990_suppl_info.txt added Dec 20, 2006.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+16478745
+

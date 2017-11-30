@@ -1,0 +1,18 @@
+TITLE
+Whole RNA-seq on clones of GM12878 lymphoblastoid clones DF1 and DF2
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Analysis of Allelic bias in clonal lymphoblastoid cells. Abstract: In mammals, numerous autosomal genes are subject to mitotically stable monoallelic expression (MAE), including genes that play critical roles in a variety of human diseases. Due to challenges posed by the clonal nature of MAE, very little is known about its regulation; in particular, no molecular features have been specifically linked to MAE. Here we report an approach that distinguishes MAE genes in human cells with great accuracy: a chromatin signature consisting of chromatin marks associated with active transcription (H3K36me3) and silencing (H3K27me3) simultaneously occurring in the gene body. The MAE signature is present in ~20% of ubiquitously expressed genes and over 30% of tissue-specific genes across cell types. Notably, it is enriched among key developmental genes that have bivalent chromatin structure in pluripotent cells. Our results open a new approach to the study of MAE that is independent of polymorphisms, and suggest that MAE is linked to cell differentiation.
+
+DESIGN
+Poly A purified total RNA was used for library construction using a method described by Parkhomchuk et. al. NAR 2009. The library was strand-specific but the pipeline for data analysis does not assume the library is strand-specific.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24381246
+

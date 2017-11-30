@@ -1,0 +1,18 @@
+TITLE
+Expression analysis of RCc3:OsNAC10 and GOS2:OsNAC10 transgenic rice plants
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+For identification of genes up-regulated in RCc3:OsNAC10, GOS2:OsNAC10 plants, total RNA (100 μg) was prepared from root and leaf tissues of 14-d-old transgenic and non-transgenic rice seedlings (Oryza sativa cv Nipponbare) grown under normal growth conditions.
+
+DESIGN
+Expression profiling was conducted using a Rice 3’-Tiling Microarray. Information on the microarray can be found at http://www.ggbio.com (GreenGene Biotech). The Rice 3’-Tiling Microarray was designed from 27,448 genes deposited at IRGSP, RAP1 database ( http://rapdb.lab.nig.ac.jp ). Among these, 20,507 genes were from representative RAP1 sequences with cDNA/EST supports and 6,941 genes were predicted without cDNA/EST supports. Ten 60-nt long probes were designed from each gene starting 60 bp ahead the end of stop codon with 10 bp shifts in position so that 10 probes covered 150 bp in the 3' region of the gene. In total, 270,000 probes were designed (average size, 60-nt) to have Tm values of 75 to 85C. The microarray was manufactured by NimbleGen Inc. ( http://www.nimblegen.com/ ). Random GC probes (38,000) were used to monitor the hybridization efficiency and fiducial markers at the four corners (225) were included to assist with overlaying the grid on the image. The microarray was used to profile gene expression in RCc3:OsNAC10, GOS2:OsNAC10 and Non-transgenic plants. Cy3-labeled target cDNA fragments were synthesized using a Cy3-9mer primer. For normalization, data were processed with cubic alpine normalization using quartiles to adjust signal variation between chips and with Rubust Multi-Chip Analysis using a median polish algorithm implemented in NimbleScan (Workman et al., 2002; Irizarry et al., 2003). To assess the reproducibility of the microarray analysis, we repeated the experiment three times with independently prepared total RNAs.
+
+PLATFORM
+GPL7344 Rice NimbleGen 390K tiling array (2006-11-14_ggb_rap1_3tile_101706)
+
+CITATIONS
+20335401
+

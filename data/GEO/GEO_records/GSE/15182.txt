@@ -1,0 +1,18 @@
+TITLE
+Comparison of ATG5-/- Bcl-2 tumors expressing p62-GFP versus those expressing EGFP
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Autophagy is a starvation response that facilitates cell survival under metabolic stress and yet defects in autophagy promote tumorigenesis.  While the role of understarvation is relatively clearer, its mechanistic role in tumorigenesis is poorly understood. We show that defective autophagy promotes protein damage and accumulation of p62, a marker for protein damage accumulation that is cleared through autophagy pathway.  The failure to eliminate p62  in autophagy-defective cells, leads to deregulation of cell signalling and gene expression and ultimately promotes tumorigenesis.  Thus defective-autophagy is a mechanism for p62 accumulation commonly observed in human tumors. Keywords: Autophagy, p62, Signal transduction, NF-kB, tumorigenesis.
+
+DESIGN
+Gene expression profile were performed on total mRNA isolated from tumors from atg5-/- Bcl-2 immortalized mouse epithelial (iBMK) cells expressing p62-EGFP (2 tumors) and EGFP (2 tumors) proteins using GeneChip Mouse Genome 430A 2.0 array (Affymetrix, Santa Clara, CA) repressing 22,629 full-length genes and ESTs.  The two parallel tumors derived from isogenic iBMK cell lines expressing p62-EGFP were defined as replicates and were compared to two EGFP-expressing tumors that were also defined as replicates. Affymetrix raw data set of approximately 14,000 genes were further refined using Genes@Work USE-Fold feature selection algorithm to identify a set of 893 genes differentially expressed in p62-EGFP tumors compared to EGFP tumors at a significance level of p=0.05.  The differentially expressed genes were then subjected to Gene Set Enrichment Analysis (GSEA) to identify pathways that are differentially regulated in the dataset (p=0.05).  These genes were also independently analyzed and mapped to canonical pathways using Ingenuity Pathway Analysis (IPA) (Ingenuity Systems, Redwood City, CA; www.ingenuity.com).  The significance of association between the data set and the canonical pathways were calculated based on the ratio of the number of genes from the data set that map to the canonical pathway to the total number of genes in the pathway and expressed as negative log p value using Fisher’s exact test (www.ingenuity.com).
+
+PLATFORM
+GPL8321 [Mouse430A_2] Affymetrix Mouse Genome 430A 2.0 Array
+
+CITATIONS
+19524509
+

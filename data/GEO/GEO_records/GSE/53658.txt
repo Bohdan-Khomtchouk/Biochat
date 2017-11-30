@@ -1,0 +1,18 @@
+TITLE
+shRNA kinome screen identifies TBK1 as therapeutic target for HER2+ breast cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarray analysis was performed at the UHN Microarray Centre (UHNMAC, Ontario, Canada) using Illumina HumanHT-12 v4 BeadChip with 500 ng of total RNA prepared by RNeasy mini kit (QIAGEN, Cat. No. 74104). Samples from HCC1954 cells with 3-day treatment of TBK1-II at 4 uM were used to compare with vehicle-treated controls.  Microarray data was processed and normalized by lumi package from BioConductor in R with Quantile Method.  Difference between the samples were calculated by Bayesian statistic using limma package from BioConductor in R to obtain Moderated T value for subsequent Pathway analysis.
+
+DESIGN
+Total RNA extracted from HER2+ HCC1954 cells after 3 days treatment of TBK1-II inhibitor compared with vehicle control
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+24487029
+

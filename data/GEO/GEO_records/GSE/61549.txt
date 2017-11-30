@@ -1,0 +1,18 @@
+TITLE
+A long non-coding RNA tunes PRC1 function during human and zebrafish development
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Long non-coding RNAs (lncRNAs) are emerging as functional regulators of gene expression in many species1,2. However, aligning lncRNA-dependent phenotypes with their underlying molecular mechanisms remains challenging. The Polycomb Repressive Complex 1 (PRC1) family of the Polycomb Group (PcG) complexes interacts with lncRNAs and is essential for gene silencing during development. Despite the functional importance of PRC1, few specific lncRNAs that guide PRC1 activity are known3-5. We screened for human RNAs which co-precipitate with the PRC1-component BMI1, from a chromatin fraction. Knockdown of several of the lncRNA candidates perturbed PcG-regulated gene expression in vivo. In particular, we found that the PRC1-associated lncRNA CAT7 tunes PRC1 function during zebrafish and human development. During neuronal differentiation of human embryonic stem cells, CAT7 impacts expression and PcG-binding of the MNX1 locus, which encodes a master regulator of motor neuron development. During zebrafish development, human CAT7 functionally rescues defects caused by interference of the non-syntenic analog, zebrafish cat7 (zcat7.) Further, zcat7 genetically interacts with bmi1a/b during zebrafish embryogenesis. We propose that PRC1 acts in concert with specific lncRNAs, and that CAT7/zcat7 represent lncRNAs that convergently evolved to tune PRC1 repression at individual loci. We immunoprecipitated PRC1-interacting RNAs from a chromatin fraction using a technology called GRIP.  We identified candidates in HeLa cells containing a 25% overexpression of FLAG-tagged murine Bmi1 (ectopic).  Candidates were selected which were enriched in both Bmi1 and FLAG-Bmi1 GRIP versus input.  Knockdown of 17 of these candidates was performed (vs a scramble control) and total RNA was sequenced 48 hours after knockdown.  One candidate, CAT7 was also knocked down in developing (motor) neural cells (grown from human embryonic stem cells).  We also performed ChIP targeting Polycomb proteins in the HeLa cells depleted for CAT7 or scramble controls.
+
+DESIGN
+There are 2 GRIPs and their control, the input.  17 lncRNAs were selected for knockdown, and RNA was sequenced 48 hours after knockdown (n=1). 11 of these knockdowns were replicated.  3 scramble controls were also sequenced as well as mRNA, intron, and lncRNA controls (in singlicate).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL15520 Illumina MiSeq (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27405765
+

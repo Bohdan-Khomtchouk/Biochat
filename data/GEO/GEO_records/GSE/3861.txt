@@ -1,0 +1,18 @@
+TITLE
+Distinct hematopoietic cell fates regulated by graded expression of HOXA10
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The homeobox (Hox) transcription factor HOXA10 has been implicated in regulation of hematopoietic cell fate. Here, using a transgenic mouse model where expression of HOXA10 is tightly regulated in a graded, doxycyclin-dependent manner we demonstrate that several key commitment steps in hematopoietic differentiation  have distinctly different outcomes depending on the expression level of HOXA10. Similarly, HOXA10 regulates hematopoietic stem cell (HSC) proliferation in a dose dependent manner, since intermediate levels of HOXA10 generated a 4.5-fold increase in long-term repopulating capacity after 13 days of liquid culture, whereas high levels reduced proliferation of HSCs. Interestingly, the effects on HSC proliferation were associated with altered expression of several known regulators of stem cell self-renewal. Taken together, our findings reveal entirely novel functional and molecular aspects of HOXA10 in regulation of hematopoiesis and emphasize the need for tightly regulated production of HOX proteins in possible future applications of stem cell expansion. Keywords: Affymetrix
+
+DESIGN
+LSK cells were sorted from rtTA-HA10 and cultured for 72 hours in complete serum free medium in three different concentrations of doxycycline (0, 0.1 and 0.5 µg/ml doxycycline). RNA was extracted using RNeasy Mini kit, Qiagen, labeled and amplified according to AffymetrixTM Two Cycle Target Labeling Protocol. Hybridization and washing was performed according to AffymetrixTM GeneChip Expression protocol. Chips were scanned using an AffymetrixTM GeneChip Scanner 3000. The Affymetrix software GCOS was used to generate cell intensity data files (CEL) from two independent experiments. The CEL file data was then imported into the GeneSpring® software version 7.2 (Silicon Genetics, Redwood City, CA). The GC-RMA method was used for normalization and data was processed as follows: values below 0.01 were set to 0.01.  All of the genes in each sample were divided by the median of the specified list of 100 positive control genes present on the MOE430 v2 chip. All samples were then normalized against the median of the untreated control samples. Each measurement for each gene in the treated samples was divided by the median of that gene's measurements in the corresponding control samples. We judged genes to be differentially expressed when the difference in expression between two conditions was at least 2-fold.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

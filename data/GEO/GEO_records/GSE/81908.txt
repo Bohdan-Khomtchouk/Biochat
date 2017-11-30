@@ -1,0 +1,18 @@
+TITLE
+Converting Oct6 into a pluripotency inducer by interrogating Oct4 residues
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In this study, we set out to identify those molecular features of the POU transcription factor Oct4 that are responsible for inducing pluripotency in somatic cells. Oct4 is known to have a strong preference to cooperate with Sox2 on heterodimeric SoxOct elements predominantly found in enhancers of genes expressed in embryonic stem cells (ESCs). To test whether this partnership is specific to Oct4, we compared its DNA recognition and reprogramming activities to the paralogous transcription factor Oct6, which cannot induce and maintain pluripotency in mouse cells. By analyzing ChIP-Seq data and performing quantitative dimerization assays, we found that in somatic cells, instead of heterodimerzing with Sox-factors, Oct6 more potently homodimerizes on OctOct elements. We identified that a single amino acid is crucial in directing binding to the respective composite DNA element. As a consequence, just changing this one amino acid hampers Oct4 in generating induced pluripotent stem cells (iPSCs). In contrast, the reverse mutation in Oct6 did not augment its reprogramming activity. This was achieved with at least two additional exchanges. In summary, we demonstrate that cell-type specific POU factor function is determined by a limited set of residues that affect DNA and partner factor interactions. Such relatively minor changes lead to a pronounced impact on regulatory function and reprogramming activity.
+
+DESIGN
+10 samples were analyzed MEF, Mouse Embryonic Fibroblast (MEF), 2 replicates O4SK-iPSC1, Mouse Oct4, Sox2, Klf4 induced Pluripotent Stem Cell (iPSC), line 1, 1 replicate O4SK-iPSC2, Mouse Oct4, Sox2, Klf4 induced Pluripotent Stem Cell (iPSC), line 2, 1 replicate OG2-ESC, Mouse OG2 Embryonic Stem Cell (ESC), 2 replicates O6SKM-iPSC1, Mouse Oct6, Sox2, Klf4, cMyc induced Pluripotent Stem Cell (iPSC), line 1, 1 replicate O6SKM-iPSC2, Mouse Oct6, Sox2, Klf4, cMyc induced Pluripotent Stem Cell (iPSC), line 2, 1 replicate O4SKM-iPSC, Mouse Oct4, Sox2, Klf4, cMyc induced Pluripotent Stem Cell (iPSC), 2 replicates
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+28007765
+

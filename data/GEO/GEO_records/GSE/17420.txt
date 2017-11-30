@@ -1,0 +1,18 @@
+TITLE
+Global effect of RpoS on gene expression in pathogenic Escherichia coli O157:H7 strain EDL933
+
+ORGANISM
+Escherichia coli O157:H7 str. EDL933
+
+SUMMARY
+RpoS is a conserved stress regulator that plays a critical role in survival under stress conditions in Escherichia coli and other γ-proteobacteria. RpoS is also involved in virulence of many pathogens including Salmonella and Vibrio species. Though well characterized in non-pathogenic E. coli K12 strains, the effect of RpoS on transcriptome expression has not been examined in pathogenic isolates. E. coli O157:H7 is a serious human enteropathogen, possessing a genome 20% larger than that of E. coli K12, and many of the additional genes are required for virulence. The genomic difference may result in substantial changes in RpoS-regulated gene expression. To test this, we compared the transcriptional profile of wild type and rpoS mutants of the E. coli O157:H7 EDL933 type strain. The rpoS mutation had a pronounced effect on gene expression in stationary phase, and more than 1,000 genes were differentially expressed (two-fold, p < 0.05). By contrast, we found 11 genes expressed differently in exponential phase. Western blot analysis revealed that, as expected, RpoS level was low in exponential phase and substantially increased in stationary phase. The defect in rpoS resulted in impaired expression of genes responsible for stress response (e.g., gadA, katE and osmY), arginine degradation (astCADBE), putrescine degradation (puuABCD), fatty acid oxidation (fadBA and fadE), and virulence (ler, espI and cesF). For EDL933-specific genes on O-islands, we found 50 genes expressed higher in wild type EDL933 and 49 genes expressed higher in the rpoS mutants. The protein levels of Tir and EspA, two LEE-encoded virulence factors, were elevated in the rpoS mutants under LEE induction conditions. Our results show that RpoS has a profound effect on global gene expression in the pathogenic strain O157:H7 EDL933, and the identified RpoS regulon, including many EDL933-specific genes, differs substantially from that of laboratory K12 strains. In this study, we characterized the RpoS regulon of E. coli O157:H7 strain EDL933 using microarray analysis.
+
+DESIGN
+A precise rpoS deletion mutant of EDL933 was constructed and employed in this study. EDL933 wild type and rpoS mutants were inoculated in triplicate into LB media at a starting OD of 0.0001 and grown aerobically at 37C. Cultures were harvested at OD600 = 0.3 in exponential phase and OD600=1.5 in stationary phase. For RNA extraction, cultures were mixed directly with a boiling lysis buffer containing SDS and EDTA followed by acidic hot phenol to minimize RNA degradation. RNA samples were hybridized to Affymetrix E. coli Genome 2.0 Array according to Affymetrix's standard protocols.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+19650909
+

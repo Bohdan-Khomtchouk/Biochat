@@ -1,0 +1,18 @@
+TITLE
+BRAF Mutation, NRAS Mutation, and the Absence of an Immune-Related Expressed Gene Profile Predict Poor Outcome in Patients with Stage III Melanoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Prediction of outcome for melanoma patients with surgically-resected macroscopic nodal metastases is very imprecise. We performed a comprehensive clinicopathologic assessment of fresh-frozen macroscopic nodal metastases and the preceding primary melanoma, somatic mutation profiling and gene expression profiling to identify determinants of outcome in 79 melanoma patients.  In addition to disease stage < II at initial presentation, the following clinical and pathologic factors were independent predictors of improved outcome (ORs for survival > 4yr, 90%CI): presence of a nodular component in the primary melanoma (6.8, 0.6-76.0), and small cell size (11.1, 0.8-100.0) or low pigmentation (3.0, 0.8-100.0) in the nodal metastases. Absence of BRAF mutation (20.0, 1.0-1000.0) or NRAS mutation (16.7, 0.6-1000.0) were both favourable prognostic factors. A 46-gene expression signature with strong over-representation of immune response genes was predictive of better survival (10.9, 0.4-325.6); in the full cohort median survival was > 100 months in those with the signature, but 10 months in those without. This relationship was validated in two previously published independent stage III melanoma datasets. We conclude that the presence of BRAF mutation, NRAS mutation and absence of an immune-related expressed gene profile predict poor outcome in melanoma patients with macroscopic stage III disease.
+
+DESIGN
+Samples eligible for this study (n=79) were obtained from lymph node specimens (Melanoma Institute Australia (MIA) Biospecimen Bank) in which macroscopic tumor was observed, obtained from patients believed to be without distant metastases at the time of tumor banking based on clinical examination and computerised axial tomographic scanning of the brain, chest, abdomen and pelvis. Specimens were macro-dissected at time of banking and subsequently reviewed to meet minimum criteria for tumor cell content ( > 80%) and amount of necrosis ( < 30%). Linked clinical and pathologic data were obtained from the MIA research database. Total RNA was extracted from 20-30mg of fresh frozen tissue. Tissue samples were homogenized using a high-speed agitation polytron blender (Kinematica, Luzern, Switzerland) in the presence of Trizol. The RNA was isolated and purified with an RNeasy purification kit (Qiagen RNeasy purification kit- Qiagen Pty Ltd., Clifton Hill, Victoria, Australia) with DNAse I digestion on the column. The quality of the RNA preparations was assessed using the Agilent 2100 Bioanalyser (Agilent Technologies, Palo Alto, CA, USA). RNA integrity scores were > 8 for all samples analyzed. cRNA amplification and labelling with biotin were performed using Illumina TotalPrep RNA amplification kit according to the manufacturer’s directions (Ambion, Inc., Austin, TX, USA) with 250ng total RNA as input material. Gene expression analysis was performed using the Sentrix Human-6 v3 Expression BeadChips (Illumina, Inc., San Diego, CA, USA), and BeadStation system from Illumina as per manufacturer’s instructions. Expression BeadChip using array annotation based on R-2.11.0 and illuminaHumanv3.db. Quality control was performed on all chips using R/Bioconductor and the lumi package (www.bioconductor.org). Data normalization was performed using a variance-stabilizing transform (VST) and quantile normalization as implemented in the lumi package for R/Bioconductor.
+
+PLATFORM
+GPL6884 Illumina HumanWG-6 v3.0 expression beadchip
+
+CITATIONS
+22931913 , 25521200
+

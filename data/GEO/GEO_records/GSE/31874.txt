@@ -1,0 +1,18 @@
+TITLE
+Expression analysis of abiotic stress-treated rice
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+For identification of genes up-regulated in abiotic stress (drought, high salinity, low temperature and ABA) treated rice, total RNA (100 μg) was prepared from root tissues of 14-d-old rice seedlings (Oryza sativa cv Nakdong) grown under normal growth conditions.  For the high salinity and ABA treatments, the 14-d-old seedlings were transferred to a nutrient solution containing 400 mM NaCl or 100 μM ABA for 2 h in the greenhouse under continuous light of approximately 1000 μmol m-2 s -1. For drought treatment, 14-d-old seedlings were air-dried for 2 h also under continuous light of approximately 1000 μmol m-2 s -1. For low temperature treatments, 14-d-old seedlings were exposed at 4°C in a cold chamber for 6 h under continuous light of 150 μmol m-2 s -1.
+
+DESIGN
+Expression profiling was conducted using a Rice 3’-Tiling Microarray. Information on the microarray can be found at http://www.ggbio.com (GreenGene Biotech). The Rice 3’-Tiling Microarray was designed from 27,448 genes deposited at IRGSP, RAP1 database ( http://rapdb.lab.nig.ac.jp ). Among these, 20,507 genes were from representative RAP1 sequences with cDNA/EST supports and 6,941 genes were predicted without cDNA/EST supports. Ten 60-nt long probes were designed from each gene starting 60 bp ahead the end of stop codon with 10 bp shifts in position so that 10 probes covered 150 bp in the 3' region of the gene. In total, 270,000 probes were designed (average size, 60-nt) to have Tm values of 75 to 85 °C. The microarray was manufactured by NimbleGen Inc. ( http://www.nimblegen.com/ ). Random GC probes (38,000) were used to monitor the hybridization efficiency and fiducial markers at the four corners (225) were included to assist with overlaying the grid on the image. The microarray was used to profile gene expression in abiotic stress treated rice. Cy3-labeled target cDNA fragments were synthesized using a Cy3-9mer primer. For normalization, data were processed with cubic alpine normalization using quartiles to adjust signal variation between chips and with Rubust Multi-Chip Analysis using a median polish algorithm implemented in NimbleScan (Workman et al., 2002; Irizarry et al., 2003). To assess the reproducibility of the microarray analysis, we repeated the experiment three times with independently prepared total RNAs.
+
+PLATFORM
+GPL7344 Rice NimbleGen 390K tiling array (2006-11-14_ggb_rap1_3tile_101706)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Endocrine response in invasive lobular carcinoma is characterized by unique estrogen-mediated gene expression and de novo tamoxifen resistance (MM134)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Invasive lobular carcinoma (ILC) is a histological subtype of breast cancer that is frequently associated with favorable outcomes, as ~90% of ILC express the estrogen receptor (ER). However, recent retrospective analyses suggest that ILC patients receiving adjuvant endocrine therapy may not benefit from improved outcomes versus other breast cancer patients. Based on these observations, we characterized ER function and endocrine response in ILC models. The ER-positive ILC cell lines MDA MB 134VI (MM134) and SUM44PE were used to examine the ER-regulated transcriptome in vitro via gene expression microarray analyses and ER ChIP-Seq.  In parallel, estrogen response was assessed in vivo in the patient-derived ILC xenograft HCI-013. Response to endocrine therapy was also examined in ILC cell lines. We identified 915 genes that were uniquely E2-regulated in ILC cell lines versus other breast cancer cell lines, and a subset of these genes were also regulated in vivo in HCI-013. We observed that MM134 were de novo tamoxifen resistant, and were induced to grow by 4-hydroxytamoxifen, as well as other anti-estrogens, as partial agonists. Growth was accompanied by agonist activity of tamoxifen on ER-mediated gene expression. Though tamoxifen induced cell growth, MM134 cells required FGFR1 signaling to maintain viability and were sensitive to combined endocrine therapy and FGFR1 inhibition. Our observation that ER drives a unique program of gene expression in ILC cells correlates with the ability of tamoxifen to induce growth in these cells. Targeting growth factors using FGFR1 inhibitors may block survival pathways required by ILC and reverse tamoxifen resistance.
+
+DESIGN
+Cells were hormone deprived by replacing growth medium with IMEM+10% charcoal stripped serum for 3 days. Following deprivation, cells were treated for 3 or 24 hours with 1nM E2 or vehicle (0.01% EtOH) in biological quadruplicate. Following treatment, cells were lysed and RNA was harvested using the Illustra RNAspin Mini kit (GE Health). cRNA synthesis and labeling was performed using the Ambion MessageAmp Premier Kit (Life Technologies), and cRNA was hybridized to U133A 2.0 arrays (Affymetrix, Santa Clara, CA). cRNA synthesis and labeling, hybridization, and scanning were performed by the University of Pittsburgh Cancer Biomarkers Facility.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+24425047
+

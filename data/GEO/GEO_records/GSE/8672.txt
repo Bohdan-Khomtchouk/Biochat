@@ -1,0 +1,18 @@
+TITLE
+Wt-ko_trxB1_Filtered bkg correc transf-norm
+
+ORGANISM
+Lactobacillus plantarum
+
+SUMMARY
+In this experiment we analyzed the impact of the disruption of trxB1in Lactobacillus plantarum at the transcriptome level. Furthermore we studied the effect of 3.5 mM peroxide effect on both Lactobacillus plantarum wild type (strain WCFS1) and a trxB1 mutant (strain NZ7608). Keywords: mutant analysis of trxB1, hydrogen peroxide stress
+
+DESIGN
+We ran for each studied culture (wildtype and NZ7608), three independent chemostat cultivations and designed one experiment. The hexagonal hybridization scheme of the experiment was as follows: wt1, trxB1, wt2, wt3_perox, trxB1_perox and wt2_perox. Per array two cDNA labeled targets were hybridized on custom designed L. plantarum WCFS1 11K Agilent oligo microarrays (GEO Acc. Nr. GPL4318) using the Agilent 60-mer oligo microarray processing protocol version 4.1.  In the experiment (6-slides) we compared (1) wild type with trxB1; (2) wild type with wild type with hydrogen peroxide; and (3) wild type with hydrogen peroxide with trxB1 with hydrogen peroxide. The oligo-microarray contained an average of 3 probes per transcript. Dried slides were scanned in the Scan Array Express (PerkinElmer Life Sciences; Packard Bioscience) for both Cy3 and Cy5 at 10 microns and a PMT Gain between 40-50%.  Spot intensity data was normalized and quantified (average intensity) using a customized grid in ImaGene (BioDiscovery, Inc.). Signal intensities of all probes were corrected against background in BioArray Software Environment (BASE) (15). The ratio of each probe (M) was defined as log [cy5 intensity/cy3 intensity] where cy3 is the wild type. Fold change (FC) is defined as 2M. For the statistical analysis we used Linear Models for Microarray Analysis (Limma) (R/limma) (18). In this test we used three variables: mutation, treatment, and interaction. We tested the model taking into consideration the interaction between genotype and treatment. Significant transcripts were defined as transcripts with a False Discovery Rate (FDR) adjusted for the pvalues of less than 0.1%. The statistical test resulted in three sets of data.  One dataset representing the genes affected as a result of the mutation of trxB1 (mutation), another set representing the genes affected due to hydrogen peroxide stress (peroxide) and a third representing the interaction or difference in response towards peroxide between mutant and wild type (interaction).
+
+PLATFORM
+GPL4318 WCFS Lactobacillus plantarum 11K 60-mer array, Version 1, our ID LPAG1
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

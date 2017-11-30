@@ -1,0 +1,18 @@
+TITLE
+Identification and Correction of Amplification Protocol Bias in Microarray Studies
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+mRNA abundance microarrays are the most widely used high-throughput technology for functional genomics. But despite this extensive characterization, and despite their wide-spread adoption in discovery research, the uptake of microarrays as clinical diagnostic tools remains relatively limited due to sample degradation. Recently, the NuGEN WT-Ovation Pico kit was developed to resolve this problem. Here, we comprehensively evaluate its utility on two separate biological problems. First, we evaluate its effect on 12 malignant and 2 normal cervix samples. Second, we evaluate its effect on 2 normal kidney samples. In each case, we directly compare aliquots of the same RNA sample that are prepared by standard and low-input/low-RIN protocols to address three key questions. First, does the use of a low-input/degraded-sample protocol alter transcriptional profiles either globally or of specific genes? Second, do these changes alter biological conclusions drawn from the dataset? Third, are these changes biased towards specific classes of genes, either in terms of their sequence characteristics (e.g. length, GC-content) or their biological function?
+
+DESIGN
+To achieve these goals, we selected 12 frozen cervix cancers and 2 unmatched normal samples. RNA was extracted and was split into two aliquots: one was prepared using the Nugen WT-Ovation Pico kit and the other using the standard Affymetrix Express array method. This approach allows us to directly assess the effect of sample preparation, in isolation of any other effects. These data were then pre-processed  and the filtered genes were subject to linear-modeling to evaluate technical and biological variability. The resulting gene sets were then subject to pathway and sequence analysis, and LTR analysis. Lastly, to generalize these conclusions we repeated this experimental approach identically in two normal kidney samples and one RNA mixture control sample.
+
+PLATFORM
+GPL16356 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array [CDF: Brainarray HGU133Plus2_Hs_ENTREZG_v15]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

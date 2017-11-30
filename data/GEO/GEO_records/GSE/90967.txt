@@ -1,0 +1,18 @@
+TITLE
+RAD51 ChIP-seq post treatment with CX-5461
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We discovered two small molecule drugs - CX-5461 and CX-3543 - with specific toxicity against BRCA deficiencies in cancer cells and xenograft models. Both CX-5461 and CX-3543 have been previously recognized as RNA pol I inhibitors. CX-5461 is in advanced phase 1 trials for treatment of lymphoma and leukemia through rDNA transcription inhibition in a p53-dependent mechanism. We have discovered a novel activity of CX-5461, as a stabilizer of G-quadruplex DNA sequences inside cells the same as CX-3543. We found that BRCA1 and BRCA2 deficiency markedly increases (one log order) sensitivity to CX-5461 and a related drug CX-3543 in human cancer cell lines and polyclonal patient derived xenograft models, providing a direct therapeutic hypothesis, including PDX tumours resistant to PARP inhibition. We show that in epithelial cells, exposure to CX-5461 and CX-3543 blocks replication forks and induces ssDNA gaps or breaks. The BRCA and NHEJ pathways are required for the repair of CX-5461 and CX-3543 induced DNA damage and failure to do so leads to lethality. RNA pol I inhibition is not a required component of the cell killing mechanism in these tumours, because BRCA2 deficient cells are not more sensitive to BMH-21, a more potent rDNA transcription inhibitor. These data strengthen the concept of G4 targeting as a therapeutic approach, specifically for targeting HR and NHEJ deficient cancers and other tumors deficient for DNA damage repair. Since CX-5461 is already in advanced phase 1 trials for other indications, this has resulted in immediately testable translational implications (Canadian trial, NCT02719977, opened May 2016) as no phase-1 eligible G4 stabilizers have been described to date.
+
+DESIGN
+Examination of the chromatin loci bound by RAD51 post treatment with CX-5461 at a whole-genome level and analyzing whether it is enriched at G-quadruplex forming sequences. We report the ChIP-seq results using RAD51 antibody with and without CX-5461 treatment (10-7M 24hour) and compare with IgG ChIP-seq with and without CX-5461 treatment.
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens)
+
+CITATIONS
+28211448
+

@@ -1,0 +1,18 @@
+TITLE
+Loss of neuronal 3D chromatin organization causes transcriptional and behavioral deficits related to serotonergic dysfunction [ChIP-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The interior of the neuronal cell nucleus is a highly organized 3-dimensional (3D) structure in which regions of the genome that are millions of bases apart participate in specialized sub-structures with dedicated functions. To investigate neuronal chromatin organization and dynamics in vivo, we generated bitransgenic mice that express histone GFP-tagged H2B in principal neurons of the forebrain. Surprisingly, the expression of this chimeric histone in mature neurons causes chromocenter declustering and disrupts the association of heterochromatin with the nuclear lamina. The loss of these structures does not affect neuronal viability but is associated with specific transcriptional and behavioral deficits related to serotonergic dysfunction. Overall, our results demonstrate that the 3D-organization of chromatin in the neuronal nucleus supports an additional level of epigenetic regulation of gene expression that critically influences neuronal function and indicate that some loci associated with neuropsychiatric disorders may be particularly sensitive to changes in chromatin architecture.
+
+DESIGN
+Genome-wide profiling by high throughput sequencing of H3K27me3 in the adult hippocampus of CaMKII-tTA/tetO-H2BGFP (H2BGFP) and their wild-type littermates mice (WT). Chromatin immunoprecipitation (ChIP) was carried out using pooled hippocampal tissue from 3 mice (one hippocampus per mouse). One DNA library was constructed per genotype. Each DNA library was prepared from pooled immunoprecipitated DNA from 4 independent ChIP assays. In total, tissue from 12 different mice was used to prepare each DNA library. 60% of a lane was used to perform single end (1x50bp) multiplex sequencing in HiSeq 2500 apparatus (Illumina). Each library, was sequenced in duplicate (in two independent sequencing runs. Technical replicates).
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25034090
+

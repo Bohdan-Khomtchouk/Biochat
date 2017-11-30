@@ -1,0 +1,18 @@
+TITLE
+Conservation-independent identification of novel miRNAs
+
+ORGANISM
+Volvox carteri
+
+SUMMARY
+Motivation: MicroRNAs (miRNAs) are short regulatory RNAs derived from a longer precursor RNA. miRNA biogenesis has been studied in animals and plants, recently elucidating more diverse and complex aspects, such as non-conserved, speciesspecific, and heterogeneous miRNA precursor populations. Small RNA sequencing data can be used to computationally determine genomic loci of miRNA precursors. The challenge is to predict a valid miRNA precursor from inhomogeneous read coverage: while the mature miRNA typically produces hundreds of sequence reads, the remaining part of the precursor is covered very sparsely. Results: We introduce a new conservation-independent method for the identification of miRNA precursors, that allows for speciesspecific heterogeneous precursor populations. The algorithm requires small RNA sequencing data and evaluates precursor secondary structures, with key parameters that can be adjusted based on the specific organism under investigation (within animals, plants, algae). We illustrate the validity of results from our algorithm using sequencing data for the two Volvocine algae Chlamydomonas reinhardtii (Chlamydomonas) and Volvox carteri (Volvox). Both organisms show little cross-species miRNA sequence conservation, and a heterogeneous miRNA precursor population. We validate our list of Chlamydomonas miRNAs with annotated miRNAs, and demonstrate excellent agreement. Furthermore, we are able to identify additional novel miRNA precursors, with structures ranging from simple mammalian-like hairpins to precursor structures indicating the creation of multiple mature/star miRNA duplexes. Novel miRNAs identified in Volvox show no similarity to mature miRNAs in Chlamydomonas. These results confirm the need for conservationindependent miRNA identification methods.
+
+DESIGN
+Examination of small RNAs of Volvox carteri during different stages of its life cycle
+
+PLATFORM
+GPL18852 Illumina HiSeq 2000 (Volvox carteri)
+
+CITATIONS
+26542525
+

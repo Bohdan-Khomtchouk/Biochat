@@ -1,0 +1,18 @@
+TITLE
+A Highly Sensitive and Unbiased Approach for Elucidating Antibody Repertoires
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Developing B lymphocytes undergo V(D)J recombination to assemble germline V, D, and J gene segments into exons that encode the antigen-binding variable region of immunoglobulin (Ig) heavy (H) and light (L) chains.  IgH and IgL chains associate to form the B cell receptor (BCR), which upon antigen binding activates B cells to secrete BCR as an antibody.  Each of the huge number of clonally independent B cells expresses a unique set of IgH and IgL variable regions.  Ability of V(D)J recombination to generate vast primary B cell repertoires results from combinatorial assortment of large numbers of different V, D, and J segments, coupled with diversification of the junctions between them to generate the complementary determining region 3 (CDR3) for antigen contact.  Approaches to evaluate in depth the content of primary antibody repertoires and, ultimately, to study how they are further molded by secondary mutation and affinity maturation processes are of great importance to the B cell development, vaccine, and antibody fields.  We now describe an unbiased, sensitive, and readily accessible assay, referred to as HTGTS repertoire sequencing (HTGTS-Rep-seq), to quantify antibody repertoires.  HTGTS-Rep-seq quantitatively identifies the vast majority of IgH and IgL V(D)J exons, including their unique CDR3 sequences, from progenitor and mature mouse B lineage cells via the use of specific J primers.  HTGTS-Rep-seq also accurately quantifies DJH intermediates and V(D)J exons in either productive or non-productive configurations.  HTGTS-Rep-seq should be useful for studies of human samples, including clonal B-cell expansions and also for following antibody affinity maturation processes.
+
+DESIGN
+We employed high-throughput genome-wide translocation sequencing adapted repertoire sequencing (HTGTS-Rep-seq) to study antibody repertoires. For HTGTS-Rep-seq libraries, we utilize bait coding ends of J segments to identify, in unbiased fashion, mouse IgH DJH repertoires [processed tlx files] along with both productive and non-productive IgH V(D)J repertoires from both pro-B and peripheral B cells [processed xls files of samples 1-18, 21-51].  Similarly, we also identify mouse productive and non-productive Igk repertoires from peripheral B cells [processed xls files of samples 19,20,52-57].
+
+PLATFORM
+GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+27354528
+

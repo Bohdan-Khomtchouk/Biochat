@@ -1,0 +1,18 @@
+TITLE
+Context Dependency of Set1/COMPASS Mediated H3 Lysine 4 Trimethylation
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The stimulation of trimethylation of histone H3 lysine 4 (H3K4) by H2B monoubiquitination (H2Bub) has been widely studied with multiple mechanisms proposed for this form of histone crosstalk. Cps35/Swd2 within COMPASS is considered to bridge these processes. However, a truncated form of Set1 (762-Set1) is reported to function in H3K4 trimethylation without interacting with Cps35/Swd2, and such crosstalk is attributed to the n-SET domain of Set1 and its interaction with the Cps40/Spp1 subunit of COMPASS. Here, we use biochemical, structural, in vivo, and ChIP-seq approaches to demonstrate that Cps40/Spp1 and the n-SET domain of Set1 are required for the stability of Set1 and not the crosstalk.  Furthermore, the apparent wild-type levels of H3K4 trimethylation (H3K4me3) in the 762-Set1 strain is due to rogue methylase activity of this mutant resulting in the mislocalization of H3K4me3 from the promoter-proximal regions to gene bodies and intergenic regions. We have also performed detailed screens and identified yeast strains lacking H2Bub, but containing intact H2Bub enzymes, that have normal levels of H3K4me3, suggesting that ubiquitination may not directly stimulate COMPASS, but rather works in a context of the PAF and Rad6/Bre1 complexes. Our study demonstrates that the ubiquitination machinery and Cps35/Swd2 function to focus COMPASS’ H3K4me3 activity at promoter-proximal regions in a context dependent manner.
+
+DESIGN
+ChIP-Seq for H3K4ME3 in S. cerevisie wild-type strains and strains expressing a truncated form of Set1: aa762-1080 Set1.  H3K4ME3 ChIP-Seq was also compared for wild-type,  leo1 knockout, and chd1 knockout strains
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+24402317
+

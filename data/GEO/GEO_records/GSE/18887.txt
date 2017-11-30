@@ -1,0 +1,18 @@
+TITLE
+Transcriptome Profiles of Early Organogenesis in Human Embryos and Integrative Mining for Underlying Molecular Network
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We here report transcriptome profiles of human embryos at six successive developmental stages (i.e., Carnegie Stages 9 to 14), representing the first comprehensive gene expression database of early human organogenesis. Through a series of data mining and comparisons with the transcriptome during mouse embryogenesis and the multi-layered genomic data in human embryonic stem cells, we revealed that development potential during early human organogenesis is orchestrated by two dominant categories of genes. Specifically, most gradually induced genes are largely differentiation-related and indicative of diverse organ formation, whereas those gradually repressed are involved in both stemness- and differentiation-relevant aspects of the developmental potential, which may be important for the initiation of organogenesis. Further through integrative mining we uncovered a molecular network (including a stemness-relevant module and a differentiation-relevant module) that may provide a framework for the regulation of early human organogenesis. Preliminary analysis of published data showed that the network could serve to evaluate various in vitro differentiation models. Our results make a significant step towards understanding of human embryogenesis at a molecular level and suggest that developmental potentials of early embryonic cells are under control of shared regulatory events.
+
+DESIGN
+With the consent of subjects and of the Ethical Review Board of the Xinhua Hospital affiliated to Shanghai Jiao Tong University School of Medicine, we collected human post-implantation embryos at six successive time periods: Carnegie Stages 9 to 14 (E20 to E32), covering the first third of organogenesis. Using the Affymetrix HG-U133A Genechip microarrays, three replicates were independently profiled for each stage to minimize the influence of the embryo-to-embryo variation. Specifically, three biological replicates were conducted for embryos at S10 to S13; owing to practical limitations and material availability, embryos at S9 (S14) were pooled together, and their RNAs were extracted, split and then subjected to three technical replicate analyses. Raw expression data were normalized using Robust Multi-array Averaging (RMA) with quantile normalization. The resultant expression data were imported into Extraction of Differential Gene Expression (EDGE) software for the detection of probesets exhibiting the consistent changes within the triplicates and differential expression (denoted as hORG expression matrix). The hORG expression matrix was subjected to LIMMA bioconductor library for identification of stage-transitive transcriptome changes, and self-organizing map combined with singular value decomposition (SOM-SVD) as well as SOM-based two-phase gene clustering  for the topology-preserving extraction of temporal expression patterns (the software is available at http://www.cs.bris.ac.uk/~hfang/TPSC ). Hypergeometric distribution-based enrichment analyses were performed to explore the underlying biological relevance of gene groups of interest using diverse external annotations (i.e., GOs, TFBSs, Mammalian Phenotypes, Diseasome). The Cytoscape plug-in jActiveModules was modified to identify expression-active connected subnetworks in the compiled human interaction/association network. See details in EXPERIMENTAL PROCEDURES and SUPPLEMENTAL INFORMATION.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+20643359
+

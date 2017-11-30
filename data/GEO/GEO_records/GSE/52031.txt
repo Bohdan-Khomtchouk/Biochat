@@ -1,0 +1,18 @@
+TITLE
+Isolation and Molecular Characterization of Circulating Melanoma Cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Melanoma is an invasive malignancy with a high frequency of blood-borne metastases, but circulating tumor cells (CTCs) have not been readily isolated. We adapted microfluidic CTC capture to a tamoxifen-driven B-RAF/PTEN mouse melanoma model. CTCs were detected in all tumor-bearing mice, rapidly declining after B-RAF inhibitor treatment. CTCs were shed early from localized tumors and a short course of B-RAF inhibition following surgical resection was sufficient to dramatically suppress distant metastases. The large number of CTCs in melanoma-bearing mice enabled comparison of RNA sequencing profiles with the matched primary tumor. A mouse melanoma CTC-derived signature correlated with invasiveness and cellular motility in human melanoma. In patients with metastatic melanoma, CTCs were detected in smaller numbers in patients with metastatic melanoma and declined with successful B-RAF targeted therapy. Together, the capture of CTCs and their molecular characterization provide insight into the hematogenous spread of melanoma.
+
+DESIGN
+We adapted a microfluidic platform, the HbCTC-Chip (Stott et al., 2010, Pubmed ID: 20930119), to capture melanoma CTCs derived from mouse tumors, using panels of antibodies against melanoma-specific cell surface markers, followed by staining for melanoma antigens and optimized on-chip fluorescent imaging. We used a tamoxifen inducible BRAF(CA/+)/PTEN(flox/flox) melanoma mouse model (Dankort et al., 2009, Pubmed ID: 19282848) derived from a C57BL/6 background. Such mice received focal subcutaneous injection of tamoxifen (Sigma) (50ul at 5mg/ml in 50% EtOH suspension) at the left flank at 6-7 weeks after birth. Blood samples were collected from five mice with high tumor burden following tamoxifen injection. Blood from each mouse was split and processed through the CTC-chips functionalized with anti-CSPG4/MCAM antibody and control IgGs, respectively. Matched primary (from the tamoxifen injection site) and metastatic (from upper or lower back) tumors were harvested from the same mouse and immediately flash-frozen in liquid nitrogen. RNA extraction, single molecular sequencing and determination of Digital Gene Expression was as in Yu et al., 2012 (Pubmed ID: 22763454). One of the five mice yielded no CTC or IgG data. In addition, skin was taken from a sixth mouse, which was a complete wild type C57BL/6 mouse (without the BRAF/PTEN transgenes).The skin was taken after euthanasia of the animal and was processed as the tissue from the matched primary and metastatic tumors.
+
+PLATFORM
+GPL14759 Helicos HeliScope (Mus musculus)
+
+CITATIONS
+24746818
+

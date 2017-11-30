@@ -1,0 +1,18 @@
+TITLE
+Mechanism of DNA methylation-directed histone methylation by KRYPTONITE
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+In Arabidopsis, CHG DNA methylation is controlled by the H3K9 methylation mark through a self-reinforcing loop between DNA methyltransferase CHROMOMETHYLASE3 (CMT3) and H3K9 histone methyltransferase KRYPTONITE/SUVH4 (KYP). We report on the structure of KYP in complex with methylated DNA, substrate H3 peptide and cofactor SAH, thereby defining the spatial positioning of the SRA domain relative to the SET domain. The methylated DNA is bound by the SRA domain with the 5mC flipped out of the DNA, while the H3(1-15) peptide substrate binds between the SET and post-SET domains, with the epsilon-ammonium of K9 positioned adjacent to bound SAH. These structural insights complemented by in vivo functional data on key mutants of residues lining the 5mC and H3K9-binding pockets within KYP, establish how methylated DNA recruits KYP to the histone substrate. Together, the structures of KYP and previously reported CMT3 complexes provide insights into molecular mechanisms linking DNA and histone methylation.
+
+DESIGN
+Plants homozygous for null mutations in the KRYPTONITE H3K9 methyltransferase were stably transformed with transgenes encoding the wildtype KYP protein or transgenes carrying induced point mutations in the KYP active site. The resulting lines were assayed for DNA methylation by whole-genome bisulfite sequencing to learn the efficiency with which wildtype and mutant versions of the KYP protein could restore DNA methylation lost in a kyp mutant. Samples 7 and 8 were run as single Illumina lanes and as such were compared to a previous Col sample (GSM881756), this Col sample was realigned to the TAIR10 genome for this study and as such updated processed files are available with this submission. These samples were used to define kyp mutant CHG context DMRs that were complemented upon introduction of the wildtype KYP protein. Samples 1-6 were run as multiplexed samples and were used to assay the degree of complementation for various point mutants. All plants are in the Col ecotype background.
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+25018018
+

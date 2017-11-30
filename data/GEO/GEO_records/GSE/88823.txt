@@ -1,0 +1,18 @@
+TITLE
+Denaturing CLIP (dCLIP) pipeline identifies discrete RNA footprints on chromatin-associated proteins and reveals that CBX7 targets 3’UTRs to regulate mRNA expression
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Interaction networks between chromatin complexes and long noncoding RNAs have become a recurrent theme in epigenetic regulation. However, technical limitations have precluded identification of RNA binding motifs for chromatin-associated proteins. Here we add a denaturation step to UV-crosslink RNA immunoprecipitation (dCLIP), and apply dCLIP to mouse and human chromobox homolog 7 (CBX7), an RNA-binding subunit of Polycomb repressive complex 1 (PRC1). In both species, CBX7 predominantly binds 3’ untranslated regions (UTRs) of messenger RNAs. CBX7 binds with a median RNA “footprint” of 171-183 nucleotides, the small size of which facilitates motif identification by bioinformatics. We find four families of consensus RNA motifs in mouse, and independent analysis of human CBX7 dCLIP data identifies similar motifs. Their mutation abolishes CBX7 binding in vitro. Pharmacological intervention with antisense oligonucleotides paradoxically increases CBX7 binding and enhances gene expression. These data support the utility of dCLIP and reveal an unexpected functional interaction between CBX7 and the 3’UTRs of mRNA.interacts with a range of transcripts, it predominantly binds 3’ untranslated regions (UTRs) of messenger RNAs. CBX7 has a median RNA “footprint” of 171 nucleotides, enabling identification of four families of motifs that tend to co-cluster in the 3’UTR. Manipulating the CBX7-3’UTR interactions and motifs with antisense oligonucleotides results in upregulation of mRNA and protein expression, thereby validating the dCLIP method and revealing functional interactions between CBX7 and mRNA.
+
+DESIGN
+CBX7 RNA interactome was identified by UV-crosslinking and immunoprecipitation followed by high-throughput sequencing (CLIP-seq), and was compared to CBX7 epigenomic landscape as obtained by chromatin immunoprecipitation (ChIP-seq).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+29073373
+

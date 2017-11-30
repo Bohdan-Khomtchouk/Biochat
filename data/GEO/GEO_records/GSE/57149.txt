@@ -1,0 +1,18 @@
+TITLE
+Differential features of lamina-associated domains mapped by ChIP-sequencing from sonicated or micrococcal nuclease-digested chromatin
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The nuclear lamina interacts with the genome through megabase-size lamina-associated domains (LADs). LADs have been identified in proximity labeling assays and recently by chromatin immunoprecipitation-sequencing (ChIP-seq) of A- and B-type lamins. LADs localize mainly to the nuclear periphery, they are gene-poor and largely heterochromatic. Here, we show that the mode of chromatin fragmentation for ChIP, namely either bath sonication (used to date for ChIP of nuclear lamins) or digestion with micrococcal nuclease (MNase) leads to the discovery of distinct sets of lamin-interacting domains (which we refer to as LiDs) with distinct gene content, histone composition enrichment and relationship to lamin B1-interacting domains. We find that total genome coverage by lamin A/C ('LMNA') LiDs identified in sonicated or MNase-digested chromatin is similar (~730 megabases). Over half of these domains, however, are uniquely detected in sonicated or MNase-digested chromatin. Whereas sonication-specific LMNA LiDs are gene-poor and devoid of a broad panel of histone modifications, MNase-specific LMNA LiDs are of higher gene density and are enriched in H3K9me3, H3K27me3 and in histone variant H2A.Z. Analysis of published LMNB1 LADs and of LMNB1 LiDs identified by ChIP-seq further shows that LMNA can associate with 'open' chromatin domains displaying euchromatin features which are not associated with LMNB1. The differential genetic and epigenetic properties of lamin-interacting chromatin domains indicate the existence of distinct LiD populations identifiable in different chromatin contexts, including nuclease-accessible 'open' regions presumably localized in the nuclear interior.
+
+DESIGN
+There are two experiments of two samples each for LMNA ChIPs (ChIP and Input), and one LMNB1 ChIP sample, so 5 samples in total. The difference between the experiments are the chromatin fragmentation method (see extract protocols 1 and 2). One uses sonication while the other uses micrococcal nuclease (MNase).
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25602132
+

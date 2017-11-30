@@ -1,0 +1,18 @@
+TITLE
+E. coli BW25113 frdC vs. E. coli BW25113 HW2
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Glycerol is an attractive feedstock for biofuels since it accumulates as a byproduct during biodiesel operations; hence, it is interesting to consider converting glycerol to hydrogen using the formate hydrogen lyase system of Escherichia coli which converts pyruvate to hydrogen.  Starting with Escherichia coli BW25113 frdC that lacks fumarate reductase to eliminate the negative effect of accumulated hydrogen on glycerol fermentation and by using both adaptive evolution and chemical mutagenesis combined with a selection method based on increased growth on glycerol, we obtained an improved strain, HW2, that produces 20-fold  more hydrogen in glycerol medium (0.68 mmol/L/h)  compared to that of frdC mutant.  HW2 also grows 5-fold faster (0.25 1/h) than BW25113 frdC on glycerol, so it achieves a reasonable growth rate.  Corroborating the increase in hydrogen production, glycerol dehydrogenase activity in HW2 increased 4-fold compared to BW25113 frdC.  In addition, a whole-transcriptome study revealed that several pathways that would decrease hydrogen yields were repressed in HW2 (fbp, focA, and gatYZ) while a beneficial pathway, eno which encodes enolase was induced.
+
+DESIGN
+the overnight aerobic culture of HW2 and the frdC mutant in LB (25mL) were sparged with nitrogen for 5 min. Sealed crimp-top vials (60 mL) were also purged with nitrogen for 5 min. Inside an anaerobic glove-box, 30 mL of sparged uninoculated glycerol medium and 3 mL of sparged overnight culture were added to each vial, then the vials were kept at 37oC with shaking for 5 h for cell collection and RNA isolation.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+20005205
+

@@ -1,0 +1,18 @@
+TITLE
+Expression profiling of E.coli K-12 wild-type vs. delta dksA cells upon amino acid starvation
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+Actively dividing cells perform robust and accurate DNA replication during fluctuating nutrient availability, yet factors that prevent disruption of replication remain largely unknown. Here we report that DksA, a nutrient-responsive transcription factor, ensures replication completion in Escherichia coli. In the absence of DksA, replication is rapidly arrested upon amino acid starvation. This replication arrest occurs independently of exogenous DNA damage, yet it induces the DNA damage response and recruits the main recombination protein RecA. This microarray experiment compares the transcriptional responses to amino acid starvation in wild-type and delta dksA cells. The SOS-regulated genes are highly induced in delta dksA cells.
+
+DESIGN
+Four-condition experiment: wt, wt+SHX, delta dksA, delta dksA+SHX. Biological replicates: 3 for each sample. Reference: a mixture of the same amount of the four RNA samples.
+
+PLATFORM
+GPL9855 Custom Agilent Escherichia coli 4 x 44k Gene Expression Array
+
+CITATIONS
+20478253
+

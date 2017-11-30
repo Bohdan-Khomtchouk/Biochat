@@ -1,0 +1,18 @@
+TITLE
+Detecting novel genes with sparse arrays
+
+ORGANISM
+Trichoderma reesei
+
+SUMMARY
+Species-specific genes play an important role in defining the phenotype of an organism. However, current gene prediction methods can only efficiently find genes that share features such as sequence similarity or general sequence characteristics with previously known genes. Novel sequencing methods and tiling arrays can be used to find genes without prior information and they have demonstrated that novel genes can still be found from extensively studied model organisms. Unfortunately, these methods are expensive and thus are not easily applicable, e.g., to finding genes that are expressed only in very specific conditions. We demonstrate a method for finding novel genes with sparse arrays, applying it on the 33.9 Mb genome of the filamentous fungus Trichoderma reesei. Our computational method does not require normalisations between arrays and it takes into account the multiple-testing problem typical for analysis of microarray data. In contrast to tiling arrays, that use overlapping probes, only one 25mer microarray oligonucleotide probe was used for every 100 b. Thus, only relatively little space on a microarray slide was required to cover the intergenic regions of a genome. The analysis was done as a by-product of a conventional microarray experiment with no additional costs. We found at least 23 good candidates for novel transcripts that could code for proteins and all of which were expressed at high levels. Candidate genes were found to neighbour ire1 and cre1 and many other regulatory genes. Our simple, low-cost method can easily be applied to finding novel species-specific genes without prior knowledge of their sequence properties.
+
+DESIGN
+Experiment consists of three conditions relevant for study of protein secretion, growth rate D=0.03 h-1, growth rate D=0.06 h-1 and growth rate D=0.03 h-1 with high cell density. Each condition has three biological repeats thus there are nine chemostat cultivations.
+
+PLATFORM
+GPL7331 VTT Technical Research Centre of Finland Trichoderma reesei intergenic 170K tiling version1
+
+CITATIONS
+20691772
+

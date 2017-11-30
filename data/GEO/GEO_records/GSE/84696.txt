@@ -1,0 +1,18 @@
+TITLE
+Numerical and Spatial Patterning of Yeast Meiotic DNA Breaks by Tel1
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The Spo11-generated double-strand breaks (DSBs) that initiate meiotic recombination are dangerous lesions that can disrupt genome integrity, so meiotic cells regulate their number, timing, and distribution. Here, we use Spo11-oligonucleotide complexes, a byproduct of DSB formation, to examine the contribution of the DNA damage-responsive kinase Tel1 (ortholog of mammalian ATM) to this regulation in Saccharomyces cerevisiae. A tel1Δ mutant had globally increased amounts of Spo11-oligonucleotide complexes and altered Spo11-oligonucleotide lengths, consistent with conserved roles for Tel1 in control of DSB number and processing. A kinase-dead tel1 mutation also increased Spo11-oligonucleotide levels, but mutating known Tel1 phosphotargets on Hop1 and Rec114 did not. Deep sequencing of Spo11 oligonucleotides from tel1Δ mutants demonstrated that Tel1 shapes the nonrandom DSB distribution in ways that are distinct but partially overlapping with previously described contributions of the recombination regulator Zip3. Finally, we uncover a context-dependent role for Tel1 in hotspot competition, in which an artificial DSB hotspot inhibits nearby hotspots. Evidence for Tel1-dependent competition involving strong natural hotspots is also provided.
+
+DESIGN
+Eighteen samples total: The first 14 are two biological replicate Spo11-oligo maps from each of the following: wild type and tel1 each collected at 4, 5, and 6 hours after meiotic induction; the next 4 are one biological replicate Spo11-oligo map from each of the following: wild type and tel1 bearing an artificial hotspot insertion either on Chr III or on Chr IX.
+
+PLATFORM
+GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+27923845
+

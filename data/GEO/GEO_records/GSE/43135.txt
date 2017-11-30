@@ -1,0 +1,18 @@
+TITLE
+Inhibition of Melanoma Growth by Small Molecules that Promote the Mitochondrial Localization of ATF2
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Effective therapy for malignant melanoma, the leading cause of death from skin cancer, remains an area of significant unmet need in oncology. Increased expression of PKCε in advanced metastatic melanoma, results in the phosphorylation of the transcription factor ATF2 on threonine 52, which causes its nuclear localization and confers its oncogenic activities. The nuclear-to-mitochondrial translocation of ATF2 following genotoxic stress promotes apoptosis, a function that is largely lost in melanoma cells, due to its confined nuclear localization. Therefore, promoting the nuclear export of ATF2, which sensitizes melanoma cells to apoptosis, offers a novel therapeutic modality. We conducted a pilot high-throughput screen of 3,800 compounds to identify small molecules that promote melanoma cell death by inducing the cytoplasmic localization of ATF2.
+
+DESIGN
+For this specific gene expression analysis experiment, we subjected WM793 melanoma cells to treatment with DMSO- or 10µM SBI-0087702 for 24 h. RNA was harvested and subjected to microarray analyses using the Illumina Human HT-12 v4 BeadChip. Raw microarray data were normalized using the lumi package in R (variant stabilizing transformation followed by quantile normalization). Subsequent variant-stabilized, normalized microarray values were sorted by fold-change values and subjected to a 1.5-fold-change cut-off threshold. The fold-change-ranked gene list was subjected to gene ontological enriched functional network clustering using the Ingenuity (IPA) gene ontology platform.
+
+PLATFORM
+GPL16420 All Illumina Human expression beadchips based on nuID
+
+CITATIONS
+23589174
+

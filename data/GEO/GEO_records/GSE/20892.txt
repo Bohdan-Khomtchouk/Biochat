@@ -1,0 +1,18 @@
+TITLE
+Identification and analysis of miRNA target genes in a cell system
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs are instructions used by the genetic programs of a cell to fine-regulate protein expression levels. In order to gain insight into the full spectrum of miRNA regulation in a particular cellular context, we have exploited the idea that doubling the quantity of the endogenous miRNAs by transfection would enhance downregulation of the normally targeted transcripts. To this end, we isolated the small RNA fraction from cells in culture and transfected it into an identical culture in an amount corresponding to that of the endogenous miRNAs. A comparative gene expression analysis between transfected and mock-transfected cells revealed a large number of modestly downregulated genes. In silico analysis using TargetScan 5 revealed that a very high number of the expressed genes are predicted targets of the endogenous miRNAs, which we identified by deep-sequencing the small RNA fraction. Network analysis of the downregulated genes showed that miRNAs are involved in the simultaneous regulation of many pathways by targeting key molecules that interact with multiple pathways, suggesting a role of miRNAs in the synchronization of the activities of different pathways. Interestingly, we found a very high percentage of the genes regulated by miRNAs to be related to genetic disorders. This suggests that miRNAs might play a key role in maintaining homeostasis in processes that result in disease states when disregulated. Such a crucial role for miRNA regulation further underlines its importance for cell and organism survival. These results also confirm the important experimental value of our methodology as a high throughput tool for the identification of genes endogenously regulated by miRNAs.
+
+DESIGN
+We isolated the small RNA fraction (20-200 bp) from one culture of normal human fibroblasts and performed quantitative deep sequencing on the Illumina/Solexa platform. We obtained a total of 19E06 sequences, which were blasted against mRNA, RFAM and repbase. The result revealed that the content of this fraction was shared (in % copy numbers) by rRNA: 1.03%, tRNA: 2.3649%, snRNA: 0.0611%, snoRNA: 1.3803%, mRNA: 1.8183%, ncRNA mapped to Rfam: 6.0411%, sequences mapped to repbase: 3.4146%, and the remaining 83% were pre-miRNA and miRNA.  A total of 702 human miRNAs were detected. This number was reduced to 324 after filtering out all miRNAs with a copy number of less than 3.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

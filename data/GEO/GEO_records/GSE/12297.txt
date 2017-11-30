@@ -1,0 +1,18 @@
+TITLE
+mRNA Sequencing Reveals Altered Synaptic Vesicular Transport in Post-Mortem Cerebellum
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Schizophrenia (SCZ) is a common, disabling mental illness with high heritability but complex, poorly understood genetic etiology.  As the first phase of a genomic convergence analysis of SCZ, we generated 16.7 billion nucleotides of short read, shotgun sequences of cDNA from post-mortem cerebellar cortices of 14 patients and six matched controls.  A rigorous analysis pipeline was developed for analysis of digital gene expression studies.  Sequences aligned to approximately 33,200 transcripts in each sample, with average coverage of 450 reads per gene.  Following adjustments for confounding clinical, sample and experimental sources of variation, 215 genes differed significantly in expression between cases and controls.  Golgi apparatus, vesicular transport, membrane association, Zinc binding and regulation of transcription were over-represented among differentially expressed genes. Twenty three genes with altered expression and involvement in presynaptic vesicular transport, Golgi function and GABAergic neurotransmission define a unifying molecular hypothesis for dysfunction in cerebellar cortex in SCZ.
+
+DESIGN
+16.7 billion nucleotides of shotgun, full length cDNA sequence data were generated using Illumina Genome Analyzer platforms with sequencing-by-synthesis (SBS) chemistry from 20 mRNA samples (Lister et al., 2008; Morin et al., 2008)(Mortazvi et al., 2008).  mRNA samples were isolated post-mortem from the lateral hemispheres of the cerebellar cortices of 14 patients with SCZ and 6 control individuals (Paz et al., 2006; Bullock et al., In Press)(Table 1).  Unrelated subjects were chosen to facilitate sampling of genetic heterogeneity (Freimer and Sabatti, 2004; McClellan et al., 2007).  Cases and controls were approximately matched for age (cases, 45.2 + 11.8 years; controls 41.3 + 9.2 years), sex (all male), race, post-mortem interval (cases, 12.2 + 5.0 hours; controls 17.7 + 3.3 hours), cause of death, autopsy brain pH (cases, 6.54 + 0.19; controls 6.46 + 0.10) and RNA integrity number (cases, 8.06 + 0.53; controls, 7.87 + 0.41) (Table 1).  12.5 – 38.7 million, high quality sequences of length 32 – 36 bp were generated per sample (Table 2).  Sequences were aligned to the human genome and RefSeq transcript databases using the algorithm GMAP, which allowed < 2 ( < 6%) mismatches (Wu and Watanabe, 2005).  There was little intra-sample variability in the number of sequences aligned to each locus from run-to-run or instrument-to-instrument (Fig. 1A; all source coefficient of variation 3.4%).  43.5 + 6.7% of sequences aligned to a transcript and 69.4 + 9.6% to the genome, evidence that annotation of mRNA isoforms in Homo sapiens is incomplete (Birney et al., 2007) (Table 2).  91% of alignments were unique (Table 2).  Reads aligning to more than one location contained repetitive, paralogous, polymorphic or low complexity sequences and primarily mapped to untranslated regions or highly polymorphic gene families, such as major histocompatibility genes (Sugarbaker et al., 2008).  Unmapped sequences did not align to mitochondrial or 1879 viral genomes, offering negative evidence of chronic viral etiology for SCZ in these patients.
+
+PLATFORM
+GPL7110 NCGR Human RefSeq 7 08
+
+CITATIONS
+18985160
+

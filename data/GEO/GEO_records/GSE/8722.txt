@@ -1,0 +1,18 @@
+TITLE
+Fork head-responsive genes in larval salivary glands of late Drosophila prepupae
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+When misexpressed in late Drosophila prepupae, the transcription factor Fork head (Fkh) blocks death of the larval salivary glands that normally occurs in the early pupa. The aim of the experiment was to identify genes responding to Fkh that might mediate the effect of the protein on cell death and other biological processes. Fkh was expressed in the line P[hs-Fkh111] from a heat-inducible transgene that encodes wild-type Fkh protein. Expression of Fkh was induced by incubating prepupae for 30 min in a 37 °C water bath, starting at 9.5 hours after puparium formation. Salivary glands were dissected at 14 hours after puparium formation and RNA isolated for microarray analysis with Affymetrix GeneChips. Control samples were obtained from w1118 animals treated the same way. The microarray analysis identified 55 genes annotated as functioning in apoptosis whose expression was at least 1.5-fold changed by Fkh. These genes include the death genes hid and reaper, which play a central role in the control of salivary gland death. Other groups of significantly enriched genes include genes functioning in autophagy, steroid-signaling pathways, salivary gland secretion, and phospholipid metabolism. In addition, the microarray data identify genes as responsive to Fkh that are known to be controlled by the FOXA counterparts of Fkh in vertebrates, indicating that target genes and biological processes controlled by Fkh are evolutionarily conserved. Keywords: ectopic expression experiment
+
+DESIGN
+Experimental RNA samples were obtained in 3 biological replicates from fkh-expressing salivary glands (SG_Fkh_14APF_rep1, SG_Fkh_14APF_rep2, SG_Fkh_14APF_rep3) and compared to control samples obtained in two biological replicates from the salivary glands of w1118 control animals (SG_w1118(3)_14APF_rep1, SG_w1118(3)_14APF_rep2). All samples were compared using dChip and normalized to the same baseline array (median intensity 134).
+
+PLATFORM
+GPL1322 [Drosophila_2] Affymetrix Drosophila Genome 2.0 Array
+
+CITATIONS
+18353099
+

@@ -1,0 +1,18 @@
+TITLE
+Genetic Analysis of a Metazoan Pathway using Transcriptomic Phenotypes
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+RNA-seq is commonly used to identify genetic modules that respond to perturbations. In single cells, transcriptomes have been used as phenotypes, but this concept has not been applied to whole-organism RNA-seq. Linear models can quantify expression effects of individual mutants and identify epistatic effects in double mutants. However, interpreting these high-dimensional measurements is unintuitive. We developed a single coefficient to quantify transcriptome-wide epistasis which accurately reflects the underlying interactions. To demonstrate the power of our approach, we sequenced four single and two double Caenorhabditis elegans mutants. From these mutants, we successfully reconstructed the known hypoxia pathway. Using this approach, we uncovered a class of 31 genes that have opposing changes in expression in egl-9(lf) and vhl-1(lf) but for which the egl-9(lf);vhl-1(lf) mutant phenocopies egl-9(lf). These changes violate the classical model of HIF-1 regulation, but can be explained by postulating a role of hydroxylated HIF-1 in transcriptional control.
+
+DESIGN
+21 samples; 3 replicates
+
+PLATFORM
+GPL18245 Illumina HiSeq 2500 (Caenorhabditis elegans)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

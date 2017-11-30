@@ -1,0 +1,18 @@
+TITLE
+Genome-wide measurement of chromatin accessibility by RED-seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Differential accessibility of DNA to nuclear proteins underlies the regulation of numerous cellular processes. DNA accessibility is primarily determined by the presence or absence of nucleosomes. At present, methods for mapping the positions and occupancy of nucleosomes genome-wide (MNase-seq) have uncovered the nucleosomal landscapes of different cell types and organisms. Conversely, methods specialized for the detection of large nucleosome-free regions of chromatin (DNase-seq, FAIRE-seq) have uncovered numerous gene regulatory elements. However, these methods are less successful in measuring the accessibility of DNA sequences within nucelosome arrays. Here we describe a new genome-wide method, RED-seq (deep sequencing analysis of Restriction Enzyme Digestion), that measures chromatin accessibility in an unbiased way. Using this method, we identified differences in chromatin accessibility between populations of cells, not only in broadly nucleosome-depleted regions of the genome (e.g., enhancers and promoters), but also within the more widespread regions of nucleosomal occupancy. Furthermore, RED-seq identified both large differences in chromatin accessibility in distinct cell lineages and subtle changes observed during differentiation of mouse embryonic stem cells (ESCs). Most notably, using RED-seq, we detected differences in accessibility among sequences occupied by distinct nucleosome variants. Therefore, RED-seq provides unique insights into genome-wide chromatin dynamics.
+
+DESIGN
+Examination of chromatin accessibility during ESC differentiation. We developed a new throughput method, REDseq, to measure chromatin accessibility by restriction enzyme digestion. For proof of concept, we made several REDseq libraries and compared chromatin accessibility in different cell lines. First, we compared chromatin accessibility between chromatin, sample 3 (ESC_chromatin) and naked DNA, sample 4 (ESC_DNA). Next, we examined chromatin accessibility between undifferentiated (sample 1, ESC) and well-differentiated cells (sample 2, iMEF). In order to test the sensitivity of our new method, we tried to detect the change in chromatin accessibility during ESC differentiation. ESCs were differentiated by Oct4 knockdown (sample 6, ESC_Oct4KD) or GFP knockdown as control (sample 5, ESC_GFPKD). The knockdown experiments were performed by esiRNA transfection in sample 5 and sample 6. We used E14, a ESC cell line, in this study and the immortalized MEF were isolated from C57BL/6 mouse strain.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

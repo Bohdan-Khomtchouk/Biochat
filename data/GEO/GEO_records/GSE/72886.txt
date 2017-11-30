@@ -1,0 +1,18 @@
+TITLE
+Histone acetylation H2BK20ac marks cell-state specific active regulatory elements
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Characterisation of different histone modifications is crucial to understand gene regulation. In order to study the most predictive histone modification for active enhancers we created unbiased set of enhancers and used machine learning approach. Our approach revealed an unconventional histone modification H2BK20ac as most efficient marker of active enhancers. H2BK20ac also showed superior coverage of tissue specific active enhancers in complex invivo samples. Adding H2BK20ac to set of conventional histone modifications lead to identification of new chromatin state which could be active enhancers. H2BK20ac tends to occur only at cell-type specific active promoters and showed higher specificity for related disease mutations than H3K27ac and other histone modifications. Using transient state of BV2 microglia cells after lipopolysaccharide based activation, we found that H2BK20ac also marks cell-state specific cis-regulatory elements. Further analysis using inhibition of TGF-beta pathway in BV2 cells and LPS stimulation, revealed differential patterns of H2BK20ac and H3K27ac at genome locations associated with opposite roles response to stmulation. Our study about H2BK20ac hints about a new mechanism of regulation of cell-type specificity and a distinct mode of action of pathways to maintain balance between cell-responses.
+
+DESIGN
+Chip-seq of H2BK20ac and other histone modifcation was performed in 3 cell types and embryonic mouse forebrain. The sensitivity for active enhancers was compared for different histone modification ChIP-seq.The level of H2BK20ac at promoters and enhancers was assesed for relationship to cell-type specific expression. H2BK20ac signals were also analysed during cell-state transition when microgila are stimulated by LPS
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26957309
+

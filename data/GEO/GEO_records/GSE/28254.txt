@@ -1,0 +1,18 @@
+TITLE
+Sequential ChIP-bisulfite sequencing enables direct genome-scale investigation of chromatin and DNA methylation cross-talk
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Cross-talk between DNA methylation and histone modifications drives the establishment of composite epigenetic signatures and is traditionally studied using correlative rather than direct approaches. Here we present sequential ChIP-bisulfite-sequencing (ChIP- BS-seq) as an approach to quantitatively assess DNA methylation patterns associated with chromatin modifications or chromatin-associated factors directly. A chromatin- immunoprecipitation (ChIP)-capturing step is used to obtain a restricted representation of the genome occupied by the epigenetic feature of interest, for which a single-base resolution DNA methylation map is then generated. When applied to H3 lysine 27 tri- methylation (H3K27me3), we found that H3K27me3 and DNA methylation are compatible throughout most of the genome, except for CpG islands, where these two marks are mutually exclusive. Further ChIP-BS-seq-based analysis in Dnmt triple- knock-out (TKO) embryonic stem cells revealed that total loss of CpG methylation is associated with alteration of H3K27me3 levels throughout the genome: H3K27me3 in localized peaks is decreased while broad local enrichments (BLOCs) of H3K27me3 are formed. At an even broader scale, these BLOCs correspond to regions of high DNA methylation in wild-type ES cells, suggesting that DNA methylation prevents H3K27me3 deposition locally and at megabase scale. Our strategy provides an unique way of investigating global interdependencies between DNA methylation and other chromatin features.
+
+DESIGN
+ChIP (chromatin immunoprecipitation) is followed by bisulfite conversion and deep sequencing to directly assess DNA methylation levels in captured chromatin fragments (ChIP-BS-seq). We used ChIP-BS-seq to study the potential global cross-talk between H3K27me3 and DNA methylation, which are both linked to repression. First, we used capturing of methylated DNA, followed by bisulfite-deep sequencing (MethylCap-BS-seq). Genomic DNA isolated from normal and tumor colon tissues was used for MethylCap-BS-seq as well as for conventional MethylCap-seq experiments. Second, we performed ChIP-BS-seq on H3K27me3, using HCT116 colon carcinoma cells. Third, to further study the relevance of the observations, we generated genome-wide profiles for H3K27me3 and DNA methylation by conventional ChIP-seq and MethylCap-seq, and RNA-seq, respectively. Finally, we performed H3K27me3-ChIP-BS-seq and MethylCap-seq on wild-type mouse ES cells as well as Dnmt-triple-knockout (TKO) mouse ES cells.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+22466170
+

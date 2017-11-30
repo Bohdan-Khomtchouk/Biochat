@@ -1,0 +1,18 @@
+TITLE
+Gene expression signatures for five tumor sites of each primary liver cancer patient
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Tumor-infiltrating lymphocytes (TIL) were spatial heterogeneous within a single tumor. To investigate whether the gene expression approach relate to TILs diversity of local tumor region, we have employed whole genome microarray expression profiling as a discovery platform to identify different gene expression pattern of each tumor region from five primary liver cancer patients. To collect information reflecting the molecular phenotype in a more robust manner from the mRNA transcriptome profiling data, the GSVA scores of the GO gene sets provided by the Molecular Signatures Database were calculated for each of the 25 tumor samples to evaluate their activities. Correlation analysis was conducted to evaluate the relationship between the diversity of TCR clones and the activity of gene sets. Ten GO gene sets which obtained the largest correlation coefficient were chose, we found six gene sets were associated with immune response, which suggesting a significant association between diversity of TCR clones and anti-tumor immune response.
+
+DESIGN
+The mRNA transcriptome profiling of the 25 tumor samples from five PLC patients was conducted using Agilent microarrays, to evaluate the correlation between the TCRβ repertoire diversity of the tumor microenvironment and the local molecular phenotype
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+28422742
+

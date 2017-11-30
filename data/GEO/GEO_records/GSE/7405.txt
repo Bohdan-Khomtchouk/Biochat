@@ -1,0 +1,18 @@
+TITLE
+PACAP dependency of genes regulated in adrenal gland
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We investigated the effects of PACAP knock out on the transcriptosome profile of adrenal gland. A 35,546-clone mouse cDNA microarray was used to investigate transcriptional changes Keywords: transcript identification design
+
+DESIGN
+In the hybridization method employed, equal amounts (2-5 ug/15.5 ul) of total RNA obtained from adrenal gland of wild type and PACAP KO mice groups were separately labeled with two different fluorescent dyes (Cy3 or Cy5) and applied on the same NIMH Mouse 36K cDNA microarray chip containing 13217 distinct Entrez gene IDs (formerly known as LocusLink) and 15888 distinct unigene IDs, the remainders are incompletely annotated IMAGE clones. Probe preparation and hybridization were performed as follows. The total RNA (15-50 ug in 15.5 ul) was incubated with amine-modified random primer (2 ug/ul, 2 ul) and RNase inhibitor (5 units/ul, 1 ul) at 70C for 10 min. Primer-RNA solution was then incubated at 42C for 2 hr with the reverse transcriptase mix containing 5X first-strand buffer, 50X aa-dUTP/dNTPs (25 mM dATP, 25 mM dGTP, 25 mM dCTP, 15 mM dTTP and 10 mM aminoallyl dUTP), 0.1 M DDT, and Superscript II reverse transcriptase. The cDNA were labeled with NHS-ester Cy3 or Cy5 dye in the presence of 1 M sodium bicarbonate. Array slides placed in a hybridization chamber (Corning, Corning, NY) were incubated at 42C for 16-24 hr, and successively washed with 0.5X SSC, 0.01% SDS, and 0.06X SSC at room temperature for 10 min each. Arrays were scanned with a GenePix 4000A scanner (Axon, Foster City, CA), and the resulting images were analyzed using IPlab (Fairfax, VA) and a FileMaker Pro 5 (Santa Clara, CA) relational database designed by Zedong Chen, NHGRI. Following background subtraction and normalization, a calculated ratio of Cy3 to Cy5 signal intensities was used to define the relative increase or decrease of a particular transcript. Ratios were calculated only from those spots with a combined ratio quality above 0.3.
+
+PLATFORM
+GPL4357 NIMH Mus musculus 35.9K Mm-NIMH36Kb
+
+CITATIONS
+17651866
+

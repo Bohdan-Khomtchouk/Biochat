@@ -1,0 +1,18 @@
+TITLE
+Impact of RNA degradation on fusion detection by RNA-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Popular methods for library preparation in RNA-seq such as Illumina TruSeq® RNA v2 kit use a poly-A pulldown strategy. Such methods can cause loss of coverage at the 5’ end of genes, impacting the ability to detect fusions when used on degraded samples. The goal of this study was to quantify the effects RNA degradation has on fusion detection when using poly-A selected mRNA and to identify the variables involved in this process Methods: Total RNA was extracted from solid tumor tissue and whole blood using the Qiagen® miRNeasy Micro and Mini kits, respectively. The KU812 cell line was purchased from Sigma-Aldrich (St. Louis, MO) and UHR (Universal Human Reference RNA) was purchased from Agilent (Santa Clara, CA). UHR is a mixture of cell lines derived from breast adenocarcinoma, hepatoblastoma, cervix adenocarcinoma, testis embryonal carcinoma, gliobastoma, melanoma, liposarcoma, histiocytic lymphoma, lymphoblastic leukemia and plasmocytoma. For Degradation experiments, two micrograms of human universal reference RNA (UHR) (Agilent Technologies, Santa Clara, CA) and 1ug of RNA extracted from KU812 cell line (purchased from ATCC) were degraded at 74oC from 1 to 11 minutes in 1 minute intervals, using the NEBNext® Magnesium RNA Fragmentation Module Kit (NEB, Ipswich, MA). RNA was then purified and concentrated with RNeasy MinElute Cleanup Kit (Qiagen, Valencia, CA). Results: In this study, we designed experiments using artificially degraded RNA from cell lines as well as naturally degraded RNA from tissue samples to quantify the effect RNA degradation has on fusion detection when using poly-A selected RNA libraries We found that both the RNA degradation level and the distance from the 3’ end of a gene, negatively impact the read coverage profile in RNA-seq. Furthermore, the median transcript coverage decreases exponentially as a function of the distance from the 3’ end and there is a linear relationship between the coverage decay rate and the RNA integrity number (RIN). Conclusions: we found that when using poly-A pulldown techniques for library preparation in RNA-seq, the fusion sensitivity is negatively impacted by both sample degradation and distance of the fusion breakpoint from the 3’ end and developed graphs that show such effect. Such graphs can be useful in assessing the fusion sensitivity of RNA-seq in both research and clinical settings
+
+DESIGN
+Sequencing data was generated using Hiseq 2500 with a library of 101 paired end reads in the rapid run mode
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27765019
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data from IGF-I-stimulated MCF-7 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Substantial evidence implicates IGF-I signaling in the development and progression of breast cancer.  To identify transcriptional targets of IGF action in breast cancer cells, we performed gene expression profiling ( > 22,000 RNA transcripts) of IGF-I-stimulated MCF-7 cells, a well characterized breast cancer cell line that is highly responsive to IGFs. We defined an IGF-I gene signature pattern of hundreds of genes either up-regulated or down-regulated at both 3 and 24 hrs in vitro.  After removing genes considered generic to cell proliferation, the signature was examined in four different public profile datasets of clinical breast tumors (representing close to 1000 patients), as well as in profile datasets of experimental models for various oncogenic signaling pathways. Genes with early and sustained regulation by IGF-I were highly enriched for transcriptional targets of the estrogen, Ras, and PI3K/Akt/mTOR pathways.  The IGF-I signature appeared activated in most estrogen receptor-negative (ER-) clinical breast tumors and in a substantial subset (~25%) of ER+ breast tumors.  Patients with tumors showing activation of the IGF-I signature tended to have a shorter time to disease recurrence (including patients not receiving adjuvant therapy), both when considering all patients and the subset of ER+ patients. We found evidence for cross-talk and common transcriptional endpoints between the IGF-I and estrogen systems.  Our results support the idea that the IGF-I pathway is one mechanism by which breast tumors may acquire hormone independence and a more aggressive phenotype. Keywords: two group comparison
+
+DESIGN
+MCF-7L cells were routinely maintained in DMEM + 5% FBS.  Cells were plated in 10cm dishes and then next day incubated in serum-free medium.  After an overnight incubation, cells were stimulated in triplicate with or without IGF-I (8nM or 50ng/ml) for 3 or 24hrs.  Cells were then lysed and total RNA isolated using Qiagen midi-prep kit according to the manufacturer’s instructions.  RNA extraction and hybridization was then carried out.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+18757322
+

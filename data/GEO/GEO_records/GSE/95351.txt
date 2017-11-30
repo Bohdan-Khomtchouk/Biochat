@@ -1,0 +1,18 @@
+TITLE
+Application of next generation sequencing approaches to assess effects of PDE12 knockout on the mitochondrial transcriptome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Approach 1, RNAseq: Knockout of the mitochondrial poly(A) specific exoribonuclease PDE12 led to a severe defect in mitochondrial translation. We aimed to assess the effects of the absence of PDE12 on the differential expression or aberrant accumulation of mitochondrial mRNA transcripts or anti-sense RNAs.  We performed RNA-seq of mitochondrial-enriched RNA from PDE12+/+ and PDE12-/- cell lines, in triplicate using Illumina MiSeq following library generation using TruSeq Stranded Total RNA library prep kit. Knockout of PDE12 did not indicate changes to the steady-state levels of mitochondrial mRNAs nor to accumulation of aberrant non-coding transcripts which would explain the strong mitochondrial translation defect observed in PDE12-/- cells Approach 2, MPAT-Seq: We aimed to assess the nature of 3' extensions to mitochondrial tRNAs. Mitochondrial poly(A) tail length (MPAT) assay was performed using total RNA from PDE12+/+ and PDE12-/- cells with either endogenous or overexpressed levels of mtPAP, or PDE12-/- expressing either wildtype or E351A catalytic mutant PDE12. In this assay 3' DNA adaptor (LIGN) were ligated to the 3' ends of total RNA followed by reverse transcription using anti-LIGN primer. Transcript specific PCRs were generated for each mt-tRNA and pooled for each cell line. Illumina sequencing libraries were prepared via A tailing and ligation of TruSeq adapters from a TruSeq LT kit and sequenced using Illumina MiSeq. This analysis confirmed extensions present on the 3' ends of various mitochondrial tRNAs were adenylate in nature. Different mitochondrial tRNAs were affected by spurious adenylation to varying degrees.
+
+DESIGN
+Examination of effect of PDE12 knockout to mitochondrial transcriptome
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens)
+
+CITATIONS
+28745585
+

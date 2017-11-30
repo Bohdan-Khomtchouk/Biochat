@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic Insights into Genetic Diversity of  Protein-Coding Genes in X. laevis
+
+ORGANISM
+Xenopus laevis
+
+SUMMARY
+We characterize the genetic diversity of Xenopus laevis strains using allele-specific RNA-seq data analysis and provide a catalogue of coding variation which can be used for improving the genomic sequence, as well as for better sequence alignment, probe design, and proteomic analysis.  In addition, we paint a broad picture of the genetic landscape of the species by functionally annotating different classes of mutations with a well-established prediction tool (PolyPhen-2). Further, we specifically compare the variation in the progeny of a cross from the inbred genomic (J)-strain, a cross from the popular occasionally outbred albino (B)-strain, and two hybrid crosses. We use the comparison to identify a subset of mutations specific to the B-strain, which allows us to investigate the specific selection pressures affecting duplicated genes in this pseudo-tetraploid. We find the ratio of non-synonymous to synonymous mutations is lower in duplicated genes, which therefore appear to be under greater purifying selection. Surprisingly, we also find that function-altering ( " damaging " ) mutations constitute a greater fraction of the non-synonymous variants in this group, which may suggest a role for subfunctionalization in coding variation affecting duplicated genes.
+
+DESIGN
+We successfully performed natural mating of the two Xenopus strains: two reciprocal (BxJ, JxB) and two straight self (JxJ, BxB) crosses. We then collected tadpoles at a single developmental timepoint (stage NF 42), pooled ten tadpoles per cross, and isolated RNA from each pool. After RiboZero treatment, we constructed Illumina libraries, and performed RNAseq on HiSeq 2000, resulting in approximately 30 to 47 million reads per library with paired-end 100 base reads.
+
+PLATFORM
+GPL17682 Illumina HiSeq 2000 (Xenopus laevis)
+
+CITATIONS
+28283406
+

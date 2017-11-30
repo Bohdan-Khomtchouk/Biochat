@@ -1,0 +1,18 @@
+TITLE
+RNA-seq analysis reveals endogenous aryl hydrocarbon receptor regulation is highly associated with eicosanoid synthesis and tumor necrosis factor activity in MCF-7 cancer cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: The Aryl hydrocarbon receptor (AHR) is a ligand-activated transcription factor that is activated by xenobiotic chemicals that function as AHR ligands.  The response to xenobiotic AHR ligands is toxicity and the induction of drug metabolizing enzymes. The impact of AHR knockdown on gene expression and pathways in human breast cancer cells in absence of xenobiotic AHR ligands has not been investigated on a genome-wide scale. Methods: MCF-7 cells were used as a model of human breast cancer.  The AHR was silenced with short interfering RNA against AHR (siAHR).  RNA-sequencing coupled with Ingenuity pathway analysis (IPA) was used to determine the impact of AHR knockdown on gene expression and pathways in the absence of xenobiotic AHR ligands.  Western blot analysis and recombinant tumor necrosis factor (TNF) was used to investigate the impact of AHR knockdown on TNF induction of MNSOD expression. Results: We found that the AHR is transcriptionally active in MCF-7 breast cancer cells in the absence of xenobiotic AHR ligands.  In total, the expression of 634 genes was significantly changed in AHR knockdown cells compared to controls at a false discovery rate of < 10%. The analysis confirmed that drug metabolizing enzymes were AHR targets; however, we found that AHR also promoted the expression of genes that were not directly related to the metabolism of xenobiotics, such as those involved in lipid and eicosanoid synthesis.  Gene pathway analysis of the AHR regulated gene dataset predicted TNF activity to be reduced in AHR knockdown cells.  Our finding that AHR knockdown inhibited TNF-stimulated increases in MNSOD expression confirmed this IPA prediction. Conclusions: This is the first gene expression profiling study of AHR knockdown breast cancer cells.  Several known and novel AHR targets were identified.  The results suggest that endogenous AHR regulation impacts eicosanoid synthesis by regulating gene expression.  The IPA prediction of reduced TNF activity in AHR knockdown cells was confirmed by showing that TNF-induced increases in MNSOD expression was inhibited in AHR knockdown cells.   The requirement of AHR for MNSOD activation is novel and provides a new link by which AHR may impact reactive oxidative species (ROS) signaling.
+
+DESIGN
+Expression profiles by mRNA sequencing were generated for human MCF-7 cells transfected with cRNAi (6 replicates) or AHR-siRNA (5 replicates) for 36hr. Sequencing was performed on an Illumina HiSeq 1000 using a 2x100 base paired-end strategy.
+
+PLATFORM
+GPL15433 Illumina HiSeq 1000 (Homo sapiens)
+
+CITATIONS
+24971714
+

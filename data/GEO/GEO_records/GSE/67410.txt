@@ -1,0 +1,18 @@
+TITLE
+Abo1, a conserved bromodomain AAA-ATPase maintains global nucleosome occupancy and organization
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Maintenance of the correct level and organization of nucleosomes is crucial for genome function. Here we uncover a role for a conserved bromodomain AAA-ATPase, Abo1, in maintenance of nucleosome architecture in fission yeast. Cells lacking abo1+ experience both a reduction and mis-positioning of nucleosomes at transcribed sequences in addition to increased intragenic transcription, phenotypes that are hallmarks of defective chromatin re-establishment behind RNA polymerase II.  Abo1 is recruited to gene sequences and associates with histone H3 and the histone chaperone FACT. Furthermore, the distribution of Abo1 on chromatin is disturbed by impaired FACT function. The role of Abo1 extends to some promoters and also to silent heterochromatin.  Abo1 is recruited to pericentromeric heterochromatin independently of the HP1 ortholog, Swi6, where it enforces proper nucleosome occupancy. Consequently, loss of Abo1 alleviates silencing and causes elevated chromosome mis-segregation. We suggest that Abo1 provides a histone chaperone function that maintains nucleosome architecture genome-wide.
+
+DESIGN
+A chromatin-seq/MNase-seq approach called Chromatin Particle Spectrum Analysis (Kent et al., (2011) Nucleic Acids Res. 39:e26) was used to map and compare nucleosome position in wild-type (strain 972) and isogenic abo1 knock-out (strain HM463) fission yeast cells. For each strain, three independent in vivo MNase digest bio-reps were performed and the purified DNA pooled. CPSA was performed using paired-end mode Illumina technology with pooled samples multiplexed over two HiSeq2000 lanes. Each CPSA paired read describes a microcococcal nuclease (MNase) resistant DNA species from chromatin, with the insert-size equivalent to the size of DNA protection. For each strain type, two analysed data sets are provided here: one listing the genomic distribution of MNase-protected DNAs of 150bp (“150bp CPSA size class”) and corresponding to mono-nucleosomes; the other listing the genomic distribution of MNase-protected DNAs of 300bp (“300bp CPSA size class”) and corresponding to di-nucleosomes.
+
+PLATFORM
+GPL13988 Illumina HiSeq 2000 (Schizosaccharomyces pombe) GPL17225 Illumina HiSeq 2500 (Schizosaccharomyces pombe)
+
+CITATIONS
+26582768
+

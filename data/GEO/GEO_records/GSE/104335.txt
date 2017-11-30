@@ -1,0 +1,18 @@
+TITLE
+Whole transcriptome (gene expression and splice isoform changes) profiling using Affymetrix Human Transcriptome Array 2.0
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transcriptome analysis of total RNA samples from human cell line (LAM 621-101, female) Global gene and splice isoform expression profiling was performed to get a comprehensive view of transcriptome changes in human Lymphangioleiomyomatosis (LAM 621-101, female) cell line after inhibition of mTORC1 and SRPK2 proteins.
+
+DESIGN
+We analyzed Lymphangioleiomyomatosis cell line (LAM 621-101, female) after treatment of rapamycin or knockdown of SRPK2 using the Affymetrix Human Transcriptome Array 2.0 platform. Three biological replicates were performed. CEL files were processed by Affymetrix Expression Console Software 1.4.1. to generate CHP files for gene expression and splice isoform analyses. Please note that each sample was analyzed for gene expression and re-analyzed for splice isoform expression. Therefore, the raw data CEL file linked to *[splice isoform analysis] sample is identical to that linked to the corresponding *[gene expression] sample record.
+
+PLATFORM
+GPL17585 [HTA-2_0] Affymetrix Human Transcriptome Array 2.0 [probe set (exon) version] GPL17586 [HTA-2_0] Affymetrix Human Transcriptome Array 2.0 [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

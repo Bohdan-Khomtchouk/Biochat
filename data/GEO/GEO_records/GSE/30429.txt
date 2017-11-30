@@ -1,0 +1,18 @@
+TITLE
+Gene Array Analyzer (GAA): Alternative usage of gene arrays to study alternative splicing events (MoGene array)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The latest version of microarrays released by Affymetrix, the GeneChip Gene 1.0 ST Arrays (gene arrays), are designed in a similar fashion as exon arrays, which enables to identify differentially expressed exons, rather than only the expression level of whole transcripts. Here, we propose an extension, Gene Array Analyzer (GAA), to our previously published Exon Array Analyzer (EAA). GAA enables to analyse gene arrays on exon level and therefore supports to identify alternative splicing with gene arrays. To show the applicability of GAA, we used gene arrays to profile alternative splice events during the development of the heart. Further re-analysis of published gene arrays could show, that some of these splice events reoccur under pathological conditions. The web interface of GAA is user friendly, functional without set up and freely available at http://GAA.mpi-bn.mpg.de.
+
+DESIGN
+Alternative splicing and gene expression analysis during development of the heart and cardiomyoyte differentiation.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version] GPL10740 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+22123740
+

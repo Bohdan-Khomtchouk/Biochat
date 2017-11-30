@@ -1,0 +1,18 @@
+TITLE
+The ancestral SgrS RNA discriminates horizontally acquired Salmonella mRNAs through a single G-U wobble pair
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344
+
+SUMMARY
+SgrS RNA is a model for the large class of Hfq-associated small RNAs that act to post-transcriptionally regulate bacterial mRNAs. The function of SgrS is well-characterized in non-pathogenic Escherichia coli where it was originally shown to counteract glucose-phosphate stress by acting as a repressor of ptsG mRNA which encodes the major glucose transporter. We have discovered new SgrS targets in Salmonella Typhimurium, a pathogen related to E. coli, which recently acquired a quarter of all genes by horizontal gene transfer. We demonstrate that the conserved short seed region of SgrS that recognizes ptsG was recruited to target the Salmonella-specific sopD mRNA of a secreted virulence protein. The SgrS-sopD interaction is exceptionally selective; we find that sopD2 mRNA whose gene arose from sopD duplication during Salmonella evolution, is deaf to SgrS owing to a non-productive G:U pair in the potential SgrS-sopD2 RNA duplex versus G:C in SgrS-sopD. In other words, SgrS discriminates the two virulence factor mRNAs at the level of a single hydrogen bond. Our study suggests that bacterial pathogens employ their large suites of conserved Hfq-associated regulators to integrate horizontally acquired genes into existing post-transcriptional networks, just as conserved transcription factors are recruited to tame foreign genes at the DNA level. The results graphically illustrate the importance of the seed regions of bacterial small RNAs to select new targets with high fidelity, and argue that target predictions must consider all-or-none decisions by individual seed nucleotides.
+
+DESIGN
+To determine the targets of the small regulatory RNA SgrS in S. Typhimurium, we looked at the effect of a short pulse of SgrS over-expression on the Salmonella transcriptome. To achieve over-expression, the sgrS gene was cloned in the pBAD plasmid and induced with 0.2% L-arabinose for 10 min. We then extracted the total RNA for transcriptional profiling. A strain carrying the pBAD plasmid w/o insert was used as negative control. 3 biological replicates were performed. This sRNA target identification strategy has been described in Papenfort et al; Molecular Microbiology (2006) 62(6), 1674–1688.
+
+PLATFORM
+GPL5780 IFR_Salmonella_7.3k_v1.0
+
+CITATIONS
+22383560
+

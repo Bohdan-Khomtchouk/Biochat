@@ -1,0 +1,18 @@
+TITLE
+A gene expression fingerprint of C. elegans embryonic motor neurons.
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Background: Differential gene expression specifies the highly diverse cell types that constitute the nervous system. With its sequenced genome and simple, well-defined neuroanatomy, the nematode C. elegans is a useful model system in which to correlate gene expression with neuron identity. The UNC-4 transcription factor is expressed in thirteen embryonic motor neurons where it specifies axonal morphology and synaptic function. These cells can be marked with an unc-4::GFP reporter transgene. Here we describe a powerful strategy, Micro-Array Profiling of C. elegans cells (MAPCeL), and confirm that this approach provides a comprehensive gene expression profile of unc-4::GFP motor neurons in vivo. Results: Fluorescence Activated Cell Sorting (FACS) was used to isolate unc-4::GFP neurons from primary cultures of C. elegans embryonic cells. Microarray experiments detected 6,217 unique transcripts of which ~1,000 are enriched in unc-4::GFP neurons relative to the average nematode embryonic cell. The reliability of these data was validated by the detection of known cell-specific transcripts and by expression in UNC-4 motor neurons of GFP reporters derived from the enriched data set. In addition to genes involved in neurotransmitter packaging and release, the microarray data include transcripts for receptors to a remarkably wide variety of signaling molecules. The added presence of a robust array of G-protein pathway components is indicative of complex and highly integrated mechanisms for modulating motor neuron activity. Over half of the enriched genes (537) have human homologs, a finding that could reflect substantial overlap with the gene expression repertoire of mammalian motor neurons. Conclusion: We have described a microarray-based method, MAPCeL, for profiling gene expression in specific C. elegans motor neurons and provide evidence that this approach can reveal candidate genes for key roles in the differentiation and function of these cells. These methods can now be applied to generate a gene expression map of the C. elegans nervous system. Keywords: expression profile
+
+DESIGN
+Our goal is to profile gene expression throughout the nervous system of the model organism Caenorhabditis elegans. As a first goal, we profiled a single class of embryonic motor neurons. To isolate transcripts from thesec neurons we developed the MAPCeL (Microarray Profiling C. elegans Cells) technique in which unc-4::GFP+ cells are captured by FACS for RNA isolation. We verified these data by bioinformatic means and by in vivo validation by creating GFP reporters for a random set of genes in our enriched gene list.
+
+PLATFORM
+GPL200 [Celegans] Affymetrix C. elegans Genome Array
+
+CITATIONS
+15780142
+

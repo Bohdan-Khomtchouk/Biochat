@@ -1,0 +1,18 @@
+TITLE
+Gene activation by Rag-mediated DNA double strand breaks
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The objective is to identify genes that are differentially expressed following the introduction of DNA double strand breaks (DSBs) by the Rag proteins in murine pre-B cells. Cells lacking Artemis are used since the Rag-induced DSBs will not be repaired and, thus, will provide a continuous stimulus to the cell. Cells lacking Artemis and Atm are used to determine which gene expression changes depend on Atm and cells lacking Artemis that express an I kappa B alpha dominant negative are used to determine which gene expression changes depend on NFkB.
+
+DESIGN
+Murine v-abl-transformed pre-B cells were treated with 3 uM STI571 for 48 hours. Cell types included Wild type (3 biological replicates), RAG-2-deficient (3 biological replicates), Artemis-deficient (3 biological replicates), Artemis and ATM-deficient (2 biological replicates, each with a technical replicate), and Artemis-deficient expressing dominant negative IkB (3 biological replicates). Each sample was hybridized once using Affymetrix Mouse Genome 2.0 GeneChip arrays (Mouse 430 v2, Affymetrix, Santa Clara, CA). Data were analyzed using the RAG-2-deficient samples as the controls.  Additionally, purified bone marrow pre-B cells were harvested from RAG-1-deficient (2 biological replicates) and Artemis-deficient (2 biological replicates) mice with an IgH transgene.  Each sample was hybridized once using Affymetrix Mouse Genome 2.0 GeneChip arrays (Mouse 430 v2, Affymetrix, Santa Clara, CA). Data were analyzed using the RAG-1-deficient:IgH samples as the controls.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+18849970
+

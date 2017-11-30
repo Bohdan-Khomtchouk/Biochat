@@ -1,0 +1,18 @@
+TITLE
+Regulatory logic of the coupled diurnal and feeding cycles in the mouse liver [DNase-seq, ChIP-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Understanding the kinetics of circadian transcriptional regulation has recently advanced thanks to genome-wide dynamic mapping of RNA Polymerase II, chromatin marks such as histone 3 modifications, and several core clock regulatory factors. To obtain deeper mechanistic insights into the determinant of phase-specific transcription, we here extend previous analyses of the CycliX Consortium by integrating new genome-wide datasets enabling systematic identification of active regulatory regions in the mouse liver. DNase I hypersensitive sites (DHS)-mapping within nuclear chromatin is a powerful method to identify active regulatory elements in the genome. Experiments were performed throughout the diurnal cycle to obtain a temporal map of active regulatory elements. In addition, we quantified H3K27ac, which mark active regulatory regions, throughout the diurnal cycle and RNA Polymerase II using chromatin immunoprecipitation data analysis. DHS were validated as likely regulatory elements by footprinting analyses and overlaps with published ChIP-seq datasets. Analysis of the regions displaying diurnal patterns revealed promoter, transcription start site (TSS)-proximal and TSS-distal elements potentially involved in the regulation of rhythmic gene transcription. Peak phases of DNase I accessibility and H3K27ac levels correlated well with RNA Polymerase II loadings, and regulatory elements oscillated with phases close to those of nearest TSS, which prompted us to use these signals to infer regulatory relationships. Comparisons with results in a Bmal1 -/- genotype (KO) revealed comparable levels of diurnal transcription oscillations likely driven by nutrient and food-entrained rhythms. Using linear modeling, we inferred activities of transcription factors around the clock in WT and KO datasets to reveal that in absence of a functional core circadian clock, FOX transcription factors and glucocorticoid receptor appear to be the main drivers of phase-specific expression. This raises the interesting question of whether light-driven circadian entrainment from the central pacemaker in the SCN acts to counter effect food-related signals.
+
+DESIGN
+ChIP-seq of PolII, ChIP-seq of H3K27ac and DNase1-seq in WT C57/B6 and Bmal1KO mouse liver in 12h light-12h dark conditions. Three mice samples pooled every four hours from ZT2 to ZT26. DNase-1 seq done only for ZT 6 in Bmal1KO mice. The wild-type input samples for this study are included in GSE35790 (Samples GSM874971-GSM874977). Contributor: CycliX Consortium
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

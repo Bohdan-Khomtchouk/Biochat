@@ -1,0 +1,18 @@
+TITLE
+Expression data from cochlea isolated from N-myc mutant and wild-type mice at E15
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The aim of this study consists in detecting genes regulated by N-myc in the murine cochlea In this data set we present 2688 genes differentially regulated by Nmyc in the murine cochlea. These data serve as a platform for verifying their differential regulation by N-myc via RNA in situ hybridisation or other techniques.
+
+DESIGN
+4 Total samples were analyzed. A pairwise comparison between two wild-type and 2 N-myc mutants samples was conducted. Genes with a FDR up to 14% are presented. Briefly, the robust microarray analysis (RMA) algorithm was used for background correction, intra- and inter-microarray normalization, and expression signal calculation. Once the absolute expression signal for each gene (i.e., the signal value for each probe set) was calculated in each microarray, a method [called significance analysis of microarray (SAM)] was applied to calculate significant differential expression and find the gene probe sets that characterized the highly metastatic samples. The method uses permutations to provide robust statistical inference of the most significant genes and provides P valuesadjusted to multiple testing using false discovery rate (FDR).
+
+PLATFORM
+GPL19192 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [CDF: GATExplorer_Ensembl v57]
+
+CITATIONS
+26160903
+

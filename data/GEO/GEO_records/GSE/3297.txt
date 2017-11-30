@@ -1,0 +1,18 @@
+TITLE
+Laparoscopic Donor Nephrectomy Gene Expression Profiling Compared to Healthy Control Kidneys
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We compared gene expression profiles from six donor kidneys prior to surgical manipulation to six kidneys removed after laparoscopic donor nephrectomy (LDN) and several hours of CO2 pneumoperitoneum.  Biopsies were obtained from renal cortex and hybridized to Affymetrix HG-U133A GeneChips.  For control kidneys we identified 1380 genes present on all 6 samples that had a signal intensity greater than 1000.  Functional classification of these revealed genes for cellular signaling (201; 15%), regulation of transcription (156; 11%), cellular transport (144; 10%) and cellular metabolism (111; 8%).  A class comparison between the controls and LDN kidneys yielded 865 differentially expressed genes.  Functional classification of the 502 genes differentially up-regulated in LDN kidneys identified associations with apoptosis, cell adhesion, cell signaling, regulation of cell growth/proliferation, immune/inflammation, ischemia/stress response and proteolysis/peptidolysis. These data demonstrate an altered renal transcriptome induced by several hours of CO2 pneumoperitoneum and laparoscopic surgery characterized by up-regulation of ischemia and injury associated genes. Keywords: Comparative Expression
+
+DESIGN
+Twelve healthy adult kidney donors signed a consent form, and were approved for donation according to the usual evaluation and practice of the Cleveland Clinic Renal Transplant Program.  To avoid potentially significant differences in gene expression based on race and/or ethnicity, only white recipients were selected.  The patients were divided into two groups; six controls from open donor nephrectomy and six from LDN.  Demographic information included age, gender, race, HLA type, and renal function data including serum creatinine (mg/dL), GFR measured by iothalamate clearance (cc/min.), and urine protein excretion (mg/24 hr).  Each patient was given general anesthesia and had a diuresis induced with saline, mannitol, and furosemide.  The controls had an extraperitoneal flank incision made, and with only minimal manipulation of the kidney two subcapsular core renal biopsies were obtained using a 15-gauge spring-loaded needle.  For the LDN cases two core renal biopsies were obtained using the same needles after the kidneys underwent 2 to 3 hours of C02 pneumoperitoneum. Study biopsies went immediately into 1.5 mL of RNALater (Ambion, Austin, TX), and were stored at –80 0C until they were processed. Biopsy specimens were homogenized in 1 mL of Trizol (Invitrogen, Carlsbad, CA); total RNA was purified using an RNeasy column (Qiagen, Valencia, CA); and quality confirmed with an Agilent 2100 BioAnalyzer (Palo Alto, CA).  Standard Affymetrix GeneChip (Santa Clara, CA) protocols were used, and labelled samples were hybridized to HG-U133A GeneChip arrays containing 22,283 probe sets representing over 14,500 human genes.  Data was analyzed using Signal intensities generated using GeneChip Operating System version 1.0 and were subsequently analysed  by Robust Multichip Average Express (RMA Express) using all Affymetrix .CEL files as a training set.  BRB ArrayTools ( http://linus.nci.nih.gov/BRB-ArrayTools.html ) was used to perform class comparisons (significance level of p < 0.005), and create dendrograms.  We used NetAffyx (www.affymetrix.com) to annotate the differentially expressed genes according to biological function based on the Gene Ontology database.  A Heatmap was created using Cluster and TreeView software
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+16278587
+

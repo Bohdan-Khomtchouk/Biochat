@@ -1,0 +1,18 @@
+TITLE
+ChIPmentation: fast, cheap, low-input ChIP-seq for histones and transcription factors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chromatin immunoprecipitation followed by next generation sequencing (ChIP-seq) is widely used to map histone marks and transcription factor binding throughout the genome. Here we present ChIPmentation, a method that combines ChIP with sequencing library preparation by Tn5 transposase (“tagmentation”). ChIPmentation introduces sequencing-compatible adapters in a single-step reaction directly on bead-bound chromatin, which reduces time, cost, and input requirements, making ChIPmentation a convenient and high-throughput alternative to existing ChIP-seq protocols.
+
+DESIGN
+This submission includes sequencing data for 87 samples: 52 ChIPmentation and 24 ChIP-seq for 10 different antibodies with at least two biological replicates each and matched immunoglobulin controls in the majority of cases;  2 ATAC-seq samples were sequenced for comparison; Additionally, 9 samples of a experimental protocol which we called “ChIP-tagmentation” were produced without replication.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26280331
+

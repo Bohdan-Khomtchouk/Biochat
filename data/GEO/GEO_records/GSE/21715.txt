@@ -1,0 +1,18 @@
+TITLE
+Computational analysis of genome-wide DNA-methylation during the differentiation of human embryonic stem cells along the endodermal lineage
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The generation of genome-wide data derived from methylated DNA immunoprecipitation followed by sequencing (MeDIP-Seq) has become a major tool for epigenetic studies in health and disease. The computational analysis of such data, however, still falls short on accuracy, sensitivity and speed. We propose a statistical method that is able to cope with the inherent complexity of MeDIP-Seq data and outperforms computation time of existing methods by orders of magnitude with similar performance. In order to demonstrate the computational approach, we have analysed alterations in DNA methylation during the differentiation of hESCs to definitive endoderm. We show improved correlation of normalized MeDIP-Seq data in comparison to available whole-genome bisulphite sequencing data and investigated the effect of differential methylation on gene expression. Furthermore, we analyzed the interplay between DNA-methylation, histone modifications, transcription factor binding, and show that in contrast to de-novo methylation, de-methylation is mainly associated with regions of low CpG densities.
+
+DESIGN
+Total RNA obtained from three biological replicates of hESCs (passage 53, Control) and from three biological replicates of Activin-A induced differentiated hESCs (definitive endoderm (DE), Treatment)
+
+PLATFORM
+GPL10399 Illumina HumanRef-8 v3.0 [gene-centered version]
+
+CITATIONS
+20802089
+

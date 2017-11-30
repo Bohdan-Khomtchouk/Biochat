@@ -1,0 +1,18 @@
+TITLE
+Promoter-bound METTL3 maintains myeloid leukemia by m6A-dependent regulation of protein translation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+N6-methyladenosine (m6A) is an abundant internal RNA modification, in both coding and non-coding RNAs, catalyzed by the METTL3/METTL14 methyltransferase complex. We identified METTL3 as an essential gene for acute myeloid leukemia (AML) cell growth in two distinct genetic screens. Down-regulation of METTL3 results in cell cycle arrest, differentiation of leukemic cells and failure to establish leukemia in immunodeficient mice. We show that METTL3, independently of METTL14, associates with chromatin and localizes to the transcriptional start site (TSS) of 83 active genes. The vast majority of these genes have a CAATT-box motif at their TSS, are occupied by a specific set of transcription factors including NFY, WDR5, KLF9 and they harbor specific histone modifications (e.g. H3R2me2s). Promoter bound METTL3 induces m6A modification within the coding region of the associated mRNA transcript and it enhances translation due to relief of ribosome stalling. We show that genes regulated by METTL3 in this way are necessary for AML-leukemia. Together, these data define a new mechanism of gene regulation by METTL3 and identify this enzyme as a novel therapeutic target for AML.
+
+DESIGN
+This experiment contains data for 3 high-throughput sequencing experiments; ChIP seq, m6A RNA IP seq and Riboprofiling. ChIP seq of METTL3 and METTL14 was conducted with 5 biological replicates each, with IgG and Input controls in triplicate and H3K4me3 in duplicate. All biological replicates were run across 2 lanes on an Illumina HiSeq 1500 providing technical replicates and increased coverage. m6A RNA IP was run in duplicate for two METTL3 shRNA inducible knockdown cell lines (KD1 and KD2) and a scramble shRNA control at day 8 following doxycyclin induction. In addition, matching non-immuno-precipitated Input controls were also sequenced. All biological replicates were run across 2 lanes on an Illumina HiSeq 4000 providing technical replicates and increased coverage. Riboprofiling was performed on two METTL3 shRNA inducible knockdown (KD) cell lines and a scramble shRNA control at day 5 and day 8 following doxycyclin induction. Matching Input controls were sequenced for each condition for direct comparison. All samples were run across 6 lanes on an Illumina HiSeq 1500 as technical replicates and to provide increased coverage. Files are named with the following structure: [Experiment Type]_[Sample Name]_[Biological Replicate Num]_[Technical Replicate Num].[File Extension].
+
+PLATFORM
+GPL18460 Illumina HiSeq 1500 (Homo sapiens) GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

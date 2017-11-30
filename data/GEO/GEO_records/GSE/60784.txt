@@ -1,0 +1,18 @@
+TITLE
+CGGBP1 inhibits cytosine methylation at repetitive DNA sequences
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+By depleting CGGBP1 in normal human fibroblasts and by performing genome-wide sequencing (with and without bisulfite conversion) we show that upon CGGBP1 depletion cytosine methylation increases significantly at repeat regions. Using Pacbio sequencing of Alu and LINE-1 repeats amplified genome-wide from bisulfite converted DNA, we further establish the cytosine methylation-inhibitory functions of CGGBP1.
+
+DESIGN
+Control shmiR and CGGBP1 shmiR genomic DNA (both with or without sodium bisulfite conversion) used for Illumina sequencing experiments. Further bisulfite converted samples were used as templates to amplify Alu-SINEs and L1-LINEs genome wide and used for PacBio sequencing experiment. We have sequenced the human genomic DNA (no experimental enrichment, so no modification of BAM files during analyses) and used the BAM files, the  most analyzed files, to calculate the genome composition statistics, such as base composition bias etc. The differences in base composition (C- > T drift upon CGGBP1-depletion) changes are our key findings.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens) GPL19124 PacBio RS (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

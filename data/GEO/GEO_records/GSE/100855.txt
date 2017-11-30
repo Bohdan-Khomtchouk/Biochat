@@ -1,0 +1,18 @@
+TITLE
+Transcriptional Consequences of XPA Disruption in Human Cell Lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Nucleotide excision repair (NER) in mammalian cells requires the xeroderma pigmentosum group A protein (XPA) as a core factor. Remarkably, XPA and other NER proteins have been detected by chromatin immunoprecipitation at some active promoters, and NER deficiency is reported to influence the activated transcription of selected genes. However, the global influence of XPA on transcription in human cells has not been determined. Methods: We analyzed the human transcriptome by RNA sequencing (RNA-Seq). Four genetically matched human cell line pairs deficient or proficient in XPA were analyzed Results: Of the ~14,000 genes transcribed in each cell line, 325 genes (2%) had a significant XPA-dependent directional change in gene expression that was common to all four pairs (with a false discovery rate of 0.05). These genes were enriched in pathways for the maintenance of mitochondria. Only 27 genes were different by more than 1.5-fold. The most significant hits were AKR1C1 and AKR1C2, involved in steroid hormone metabolism. AKR1C2  protein was lower in all of the immortalized XPA-deficient cells. Retinoic acid treatment led to modest XPA-dependent activation of some genes with transcription-related functions. Conclusions: We conclude that XPA status does not globally influence human gene transcription. However, XPA significantly influences expression of a small subset of genes important for mitochondrial functions and steroid hormone metabolism. The results may help explain defects in neurological function and sterility in individuals with xeroderma pigmentosum.
+
+DESIGN
+Eight cell lines were used as follows. For HeLa-derived cells, HeLa S3 (XPA+, two cultures), HeLa KO38 (XPA-), and HeLa KO142 (XPA-), XPA2OS (XPA-). A fibroblast cell pair was XP2OS (XPA-) and an XPA complemented clone XPA/XPA2OS (XPA+). A second fibroblast cell pair was XP12RO (XPA-) and an XPA complemented clone XPA/XPA12RO (XPA+). Each culture was treated with a DMSO control or with retinoic acid in DMSO. Independent cultures and libraries were prepared and analyzed in triplicate, for a total of 48 samples.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28704716
+

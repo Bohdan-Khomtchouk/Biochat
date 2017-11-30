@@ -1,0 +1,18 @@
+TITLE
+Influence of PepFect14 transfection on cellular response
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cell-penetrating peptides (CPP) uptake mechanism is still to be clarified to have a better understanding of their action in the mediation of oligonucleotide transfection. In this study, the effect on early events (1 h treatment) in transfection by Pepfect 14, with or without oligonucleotide cargo on gene expression, on HeLa cells, have been investigated. The RNA expression was characterized by RNA sequencing.
+
+DESIGN
+The quality of purified total RNA was estimated by Agilent 2200 TapeStation analysis (Agilent Technologies, Santa Clara, USA). One µg of total RNA was used as an input to prepare next-generation sequencing libraries according to the Illumina TruSeq Stranded mRNA sample preparation protocol (Illumina, San Diego, USA). Final library mixtures were quantified by Qubit 2.0 Fluorometer (Life Technologies, Grand Island, USA) and validated with Agilent 2200 TapeStation analysis. Libraries were quantified by qPCR with Kapa Library Quantification Kit (Kapa Biosystems, Woburn, USA) to optimize cluster generation and sequenced on HiSeq2500 platform (Illumina, San Diego, USA) with 2 x 50 bp paired-end reads. Over 93.9% of the bases sequenced were above the quality of Q30. Demultiplexing was done with CASAVA 1.8.2. (Illumina, San Diego, USA) Allowing one mismatch in 6 bp index read. Initial data analysis was conducted by the RNA-Seq pipeline of Estonian Genome Centre, University of Tartu. Shortly, fastQ files were trimmed (removal of adapter sequences and bases below the quality Q20) with FASTX-Toolkit version 0.013 ( http://hannonlab.cshl.edu/fastx_toolkit ) and then aligned to the human reference genome (hg19/GRCh37) with Bowtie version 2.1.019 in combination with TopHat version 2.0.1320. Transcript quantification (measured as FPKM) was conducted with Cuffdiff program from Cufflinks version 2.2.121 with reference annotation Homo_sapiens.GRCh37.72.gtf ( http://ftp.ensembl.org/pub/release-72/gtf/homo_sapiens ) Cuffdiff analysis, which summarizes expression changes for all annotated gene variations, was filtered by lowest q-values (corrected p-values for multiple testing) from output file gene_exp.diff and the top list of differentially expressed genes were analyzed through the use of QIAGEN’s Ingenuity® Pathway Analysis (IPA®, QIAGEN Redwood City, www.qiagen.com/ingenuity).
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28974718
+

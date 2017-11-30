@@ -1,0 +1,18 @@
+TITLE
+pH and Anaerobiosis Coregulate Metabolism, Multidrug Transporters, and Envelope Composition in Escherichia coli K-12
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+In Escherichia coli, pH-dependent gene expression varies with oxygen level.  Anaerobic pH-dependent expression ratios were analyzed and compared to the published analysis of aerated cultures (Maurer et al, 2005).  E. coli K-12 strain W3110 was cultured in closed tubes containing LBK broth buffered at pH 5.7, pH 7.0, and pH 8.5.  Gene expression profiles were obtained by cDNA hybridization to Affymetrix arrays. pH-dependent expression was seen for 1,394 genes, of which 1,002 show no pH dependence under aeration.  Four intergenic regions containing regulatory sRNAs were up-regulated by acid anaerobically (ryeA, csrB, gadY, rybC) and one sRNA (ryhA) by acid with aeration.   Acid and anaerobiosis co-regulated the gad regulon; drug transporters (mdtEF, mdtL); catabolism of sugar derivatives whose fermentation minimized acid production; and all hydrogenases (hya, hyb, hyc, hyf, hyp).  The hydrogenases however were up-regulated at high pH under aeration (observed by real-time PCR).  Acid with anaerobiosis down-regulated penicillin-binding proteins (dacACD, mreBC) and ribosome biosynthesis.  Ribosome down-regulation may be caused by restriction of anaerobic metabolism at low pH.  A core group of 236 genes showed similar pH response with or without aeration.  Core genes up-regulated by acid included fimbriae (fimAC), periplasmic chaperones (hdeAB), cyclopropane fatty acid synthase (cfa), the “constitutive” Na+/H+ antiporter (nhaB), and over thirty unidentified proteins.    Core genes at high pH included maltodextrin transport (lamB, malEFGKMPQT), ATP synthase, and DNA repair (recA and mutL). Overall, pH and anaerobiosis co-regulated metabolism and transport so as to maximize alternative catabolic options while minimizing acidification or alkalinization of the cytoplasm. Keywords: Steady State
+
+DESIGN
+Gene expression profiles of Escherichia coli K-12 W3110 were compared as a function of steady-state external pH during growth without aeration.  The experiment was designed for direct comparison with the pH profile under aerobic conditions reported previously (GSE4511). Non-aerated overnight cultures were diluted 1:1000 and incubated in closed tubes containing potassium-modified Luria-Bertani medium (LBK) buffered with 50 mM HOMOPIPES at pH 5.7, pH 7.0, and pH 8.5.  Tubes were incubated at37°C with slow rotation (8 rpm) to an optical density at 600 nm of 0.2. For each of the three pH conditions, RNA was isolated from five independent cultures. Labeled cDNA was hybridized to Affymetrix antisense arrays according to standard procedures. To analyze the expression levels, Dchip software was used to generate model-based expression indices normalized to sample pH 7 replicate 1. ANOVA was used to identify genes with sitnificant expression differences among the three pH classes (p = 0.001). For genes showing significant differences, the Log2 expression ratios were determined for each pair of pH classes, and significance was determined by Tukey's test (p = 0.001).
+
+PLATFORM
+GPL199 [Ecoli_ASv2] Affymetrix E. coli Antisense Genome Array
+
+CITATIONS
+17026754
+

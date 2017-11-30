@@ -1,0 +1,18 @@
+TITLE
+A network-based strategy for prioritizing hits from chemical screening data by leveraging genetic, epigenetic and transcriptional datasets
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Small molecule screens are widely used to prioritize compounds for development of pharmaceuticals and to reveal pathways altered in biological processes.  However, interpreting the results of these screens is very challenging since in almost all cases, the compounds are highly promiscuous.  Here we present a network-based strategy for analyzing molecular screening data.  We report a screen for kinase inhibitors that synergize with gemcitabine, the first-line chemotherapy treatment for pancreatic cancer.  The eight kinase inhibitors that emerge from the screen target a total of 140 kinases, and these kinases show little overlap with previously detected genetic modifiers of gemcitabine toxicity.  Using the SAMNet algorithm, we link the chemical and genetic modifiers of gemcitabine toxicity to transcriptional and epigenetic changes induced by gemcitabine that we measure using DNaseI-Seq and RNA-Seq. SAMNet uses a constrained optimization algorithm to connect genes from these complementary datasets through  a small set of protein-protein and protein-DNA interactions.  The resulting network is able to recapitulate known gemcitabine response pathways including DNA damage repair, control of cellular growth and the EMT pathway. We query the network downstream of putative kinase inhibitor targets and in addition to identifying known gemcitabine synergizers STAT3, NFKB2 and AKT1, we propose novel candidate targets for gemcitabine chemoresistance, including ETS transcription factors (ELK1, ELK3) and the adaptor protein NCK1. Our work suggests that a subset of the “off-target kinases” are directly involved in the cellular response to gemcitabine by modulating the activity of known and proposed chemosensitizing genes.
+
+DESIGN
+4 RNAseq samples and 2 DNaseI-hypersensitivity samples in the PANC1 human cell line
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+29023490
+

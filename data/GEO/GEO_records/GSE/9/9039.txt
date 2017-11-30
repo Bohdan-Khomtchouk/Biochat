@@ -1,9 +1,0 @@
-TITLE
-Supervised Lowess normalization of comparative genome hybridization data: application to lactococcal strain comparisons.
-
-ORGANISM
-Lactococcus lactis subsp. lactis Il1403
-
-SUMMARY
-Background Array-based comparative genome hybridization (aCGH) is commonly used to determine the genomic content of bacterial strains. In aCGH data, systematic errors are comparable to those occurring in transcriptome data. However, especially for microbes, an additional source of variation exists: differences in hybridization due to gene sequence divergence between the strains hybridized. Current normalization methods do not take this source of variation into consideration. Results We present Supervised Lowess, or S-Lowess, an application of the subset Lowess normalization method that does take difference in genomic content into account. The performance of S-Lowess was assessed on aCGH experiments in which differentially labeled genomic DNA fragments of Lactococcus lactis IL1403 and L. lactis MG1363 strains were hybridized to IL1403 microarrays. Since both genome sequences are known (they have only on average 85 % sequence identity), the success rate in detecting deletions in the MG1363 genome of different aCGH normalization methods can be compared. S-Lowess detects 97% of the deletions, whereas other aCGH normalization methods detect up to only 60% of the deletions. Conclusions S-Lowess removes systematic errors from dual-dye aCGH data in two steps: (i) determination of likely homologous genes (LHG); and (ii) estimation of correction factors for systematic errors from spots of LHG and subset Lowess normalization of the remaining spots using these correction factors. It is implemented in a user-friendly web-tool accessible from We demonstrate that it outperforms existing normalization methods and maximizes the number of detectable genomic deletions or duplications from microbial aCGH data. Keywords: comparative genome hybridisation
-

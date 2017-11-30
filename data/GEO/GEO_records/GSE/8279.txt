@@ -1,0 +1,18 @@
+TITLE
+Transgenerational Stability of the Arabidopsis Epigenome Is Coordinated by CG Methylation
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Maintenance of CG methylation (mCG) patterns is essential for chromatin-mediated epigenetic regulation of transcription in plants and mammals. Using successive generations of an Arabidopsis thaliana mutant deficient in maintaining mCG, we found that mCG loss triggered genome-wide activation of alternative epigenetic mechanisms. However, these mechanisms involving RNA-directed DNA methylation, inhibiting expression of DNA demethylases, and retargeting of histone H3K9 methylation act in a stochastic and uncoordinated fashion. As a result, new and aberrant epigenetic patterns were progressively formed over several plant generations in the absence of mCG. Interestingly, the unconventional redistribution of epigenetic marks was necessary to ‘rescue’ the loss of mCG, since mutant plants impaired in rescue activities were severely dwarfed and sterile. Our results provide evidence that mCG is a central coordinator of epigenetic memory that secures stable transgenerational inheritance in plants. Keywords: DNA methylation profiling, epigenetic inheritance, mCIP, H3K9 methylation, RdDM, demethylase expression
+
+DESIGN
+Per entry, two biological replicates of leaf tissue (approx. 12th true leaf) from 9-12 plants were frozen in liquid nitrogen. DNA was CTAB extracted and isopropanol precipitated, RNase A and Proteinase K treated, re-extracted and ethanol precipitated. Two replicate 3 µg genomic DNA samples of 2nd generation met1-3, 4th generation met1-3 and Col-0 were sheared by sonication and methylated DNA was immunoprecipitated, as previously described (Weber et al., 2005), and amplified following the chromatin immunoprecipitation assay protocol (Affymetrix). Two replicates per entry with 7.5 µg DNA were fragmented; end labeled, and hybridized on Affymetrix ATH1 arrays as recommended (Affymetrix). Microarray data analysis was performed using the following procedure. First, background adjustments were made using the gcRMA method available in the Bioconductor package of R. Next, background-adjusted values from the six ATH1 datasets were quantile normalized and average signal intensities were determined in log2 scale per probe set. Contrast coefficient ratios for all pair-wise comparisons were calculated as follows: met1-3 2nd/Col-0, met1-3 4th/Col-0, and met1-3 4th/met1-3 2nd. Corrections for multiple comparisons at the 5% false discovery rate (FDR) were performed and significant differences were detected using Fisher’s test.  Contrast coefficient ratios and p values may be found in the Supplementary file at the foot of this record. For each probe set, three outcomes (significantly hypermethylated, no difference, and significantly hypomethylated) were possible per comparison, creating 27 possible methylation profiles analyzed at the 5% FDR level.
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+17803908
+

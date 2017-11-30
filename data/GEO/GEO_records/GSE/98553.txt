@@ -1,0 +1,18 @@
+TITLE
+Novel small RNA spike-in oligonucleotides enable absolute normalization of small RNA-Seq data
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Normalization of high-throughput small RNA sequencing (sRNA-Seq) data is required to compare sRNA levels across different samples. Commonly used relative normalization approaches can cause erroneous conclusions due to fluctuating small RNA populations between tissues. We developed a set of sRNA spike-in oligonucleotides (sRNA spike-ins) that enable absolute normalization of sRNA-Seq data across independent experiments, as well as the genome-wide estimation of sRNA:mRNA stoichiometries when used together with mRNA spike-in oligonucleotides.
+
+DESIGN
+RNA isolated from two biological replicates for Col-0 floral buds, Col-0 leaves and dcl234 floral buds was used to generate mRNA-Seq and sRNA-Seq libraries
+
+PLATFORM
+GPL17639 Illumina HiSeq 2500 (Arabidopsis thaliana)
+
+CITATIONS
+28724941
+

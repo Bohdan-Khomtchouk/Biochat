@@ -1,0 +1,18 @@
+TITLE
+A high resolution analyis of c-Myc-regulated gene expression dynamics.
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+We profiled the transcriptome of HOMycER12 rat fibroblasts whose c-Myc activity was induced to supra-physiological levels with 4-hydroxytamoxifen (OHT). In this dataset, we included the expression data hourly for the first 6 h, then every 2 or 4 hours over a total of 24 h for 4-hydoxytamoxifen activated cells, and expression data from control samples (no 4-hydroxytamoxifen activation) at 8, 16 and 24 h.
+
+DESIGN
+47 Total samples were analyzed. The Probe Logarithmic Intensity Error (PLIER) algorithm, from the Affymetrix Power Tools (APT) software package, was used to generate gene and exon expression scores. To detect differentially expressed genes a 3-way analysis of variance (ANOVA) was applied with the following factors: time, treatment, and experiment (each biological replicate with controls was considered an independent experiment). For each gene, the time factor p-value was calculated based on differential expression between any time point (t ≥ 1 hr) and the t = 0 time point; the treatment factor p-value was calculated based on differential expression between treated and control samples at time points when both treated and control samples were collected (i.e. 8, 16 and 24 h). The thresholds for these p-values were set to a false discovery rate (FDR) of less than 1%.
+
+PLATFORM
+GPL10112 [RaEx-1_0-st] Affymetrix Rat Exon 1.0 ST Array [CDF: ENTREZG 10]
+
+CITATIONS
+21623162
+

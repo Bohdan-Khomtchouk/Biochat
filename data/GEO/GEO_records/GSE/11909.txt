@@ -1,0 +1,18 @@
+TITLE
+A modular analysis framework for the discovery of biomarkers of Systemic Lupus Erythematosus
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transcriptional modules were used as a basis for the selection of biomarkers and the development of a multivariate transcriptional indicator of disease progression in patients with systemic lupus erythematosus.
+
+DESIGN
+The proposed biomarker-selection strategy relies on modules for reducing highly dimensional microarray data sets in a stepwise manner. Starting from the full set of 28 modules, only those for which a set minimum proportion of transcripts are significantly changed between the study groups are selected (e.g., minimum proportion of differentially expressed transcripts at p < 0.05 = 15% overexpressed or underexpressed transcripts; in the example given, 11 SLE modules meet this criterion). This eliminates from the selection pool the modules registering fewer consistent changes that could be attributed to noise. Transcriptional vectors were derived for the entire cohort of 22 untreated pediatric SLE patients with the use of this set of 11 SLE modules. Patient profiles were also generated for an independent set of 31 children with SLE treated with steroids and/or cytotoxic drugs and/or hydroxychloroquine. A nonparametric method for analyzing multivariate ordinal data was used to score the patients. Lupus disease flares can lead to irreversible worsening of the patient's status. We tested the relevance of this multivariate transcriptional score for longitudinal monitoring of the disease activity in a cohort of 20 pediatric SLE patients (two to four time points/patient, intervals between each time point varied from one month to 18 months). Half of the patients had been included in our cross-sectional analysis before they were enrolled in this longitudinal study. Parallel trends were observed between multivariate transcriptional scores and a clinical severity score. The positive association  was verified statistically with the use of a linear-regression model.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array GPL97 [HG-U133B] Affymetrix Human Genome U133B Array
+
+CITATIONS
+18631455
+

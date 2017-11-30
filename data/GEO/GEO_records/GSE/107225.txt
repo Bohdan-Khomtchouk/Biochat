@@ -1,0 +1,18 @@
+TITLE
+Lymph Node Metastases in Colon Cancer are Polyclonal
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recent studies have highlighted the role of sub-clones in tumors. Lymph nodes are generally the first location of metastasis for most solid epithelial tumors including Colorectal cancer (CRC). We sought to understand the genetic origin of lymph node metastasis in CRC by evaluating the relationship between CRC tumor sub-clones and lymph nodes.
+
+DESIGN
+A total of 33 samples from 7 CRC’s, including two or three spatially disparate regions from each colon cancer and one to four matched lymph nodes for each tumor, were subjected to next-generation whole exome DNA sequencing, Affymetrix OncoScan SNP arrays, and targeted deep confirmatory sequencing. We performed mapping between SNPs and copy number events from the primary tumor and matched lymph node samples, allowing us to profile heterogeneity and mutational origin of LN metastases.  The computational method PyClone was used to define sub-clones within each tumor. The method Citup was subsequently used to infer phylogenetic relationships between sub-clones. ThermoFisher (Affymetrix) OncoScan v3 arrays were run on all samples. The assay detects copy number change by generating data at 50-100kb resolution across a set of 891 cancer genes and 300-400kb across the rest of the genome.  Raw array florescence intensity data generated on the Affymetrix scanners in the form of CEL files were loaded into the OncoScan Console software v.1.1.0 (ThermoFisher, Waltham, Massachusetts) and processed using the standard Affymetrix reference control files, based on sample type (normal or FFPE).
+
+PLATFORM
+GPL18602 [OncoScan] Affymetrix OncoScan FFPE Assay
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

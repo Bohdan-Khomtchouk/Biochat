@@ -1,0 +1,18 @@
+TITLE
+Expression data from peripheral blood  - blood draws at Pre and Post time points of Allergen inhalation challenge (PAX.NGR)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Detecting differential changes in the peripheral whole-blood transcriptome, post-challenge compared to pre-challenge; using non-globin reduced PAXgene (PAX.NGR) tubes Blood was collected immediately prior to, and two hours after challenge
+
+DESIGN
+Preprocessing and filtering were applied to the PAX.NGR dataset using the Factor Analysis for Robust MicroArray Summarization (farms) package in R The Linear Models for MicroArrays (limma) package in R was used to determine differential gene expression using a Benjamini Hochberg FDR of 5%.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+22316092
+

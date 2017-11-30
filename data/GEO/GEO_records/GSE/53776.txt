@@ -1,0 +1,18 @@
+TITLE
+DNase I hypersensitivity and algorithmic prediction of TF binding in early pancreatic mES directed differentiation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+This dataset uses DNase-seq to profile the genome-wide DNase I hypersensitivity of mES and mES-derived cells along an early pancreatic lineage and provides the locations of putative Transcription Factor (TF) binding sites using the PIQ algorithm. DNase-seq takes advantage of the preferential cutting of DNase I in open chromatin and steric blockage of of DNase I by tightly bound TFs that protect associated genomic DNA sequences. After deep sequencing of DNase I–digested genomic DNA from intact nuclei, genome-wide data on chromatin accessibility as well as TF-specific DNase I protection profiles that reveal the genomic binding locations of a majority of TFs are obtained. Such TF signature ‘DNase profiles’ reflect the effect of the TF on DNA shape and local chromatin architecture, extending hundreds of base pairs from a TF binding site, and these profiles are centered on ‘DNase footprints’ at the binding motif itself, which reflects the biophysics of protein-DNA binding. An algorithm, PIQ, is then applied that models the specific profile of each factor, and in combination with sequence information predicts the likely binding locations of over 700 TFs genome wide.
+
+DESIGN
+This dataset includes DNase-seq hypersensitivity data from 6 mES-derived cell types: mESC, Mesendoderm, Mesoderm, Endoderm, Intestinal Endoderm, and Prepancreatic Endoderm. For each cell type, TF binding site predictions are made based on the identification TF-specific DNase-seq profiles over any of 1331 possible binding motifs. After significance thesholding, genome-wide binding site predictions for < 700 TFs are included.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24441470
+

@@ -1,0 +1,18 @@
+TITLE
+Unique Broad Histone Lysine 4 Methylation Domains in Mouse Oocytes and Dynamic Regulation during Maternal to Zygotic Transition
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+The maternal to zygotic transition (MZT) involves the transfer of genome regulation from the oocyte to the embryo and is essential for the formation of totipotent embryos. However, regulatory mechanisms are still poorly understood despite recent progress in mapping the dynamics in RNA transcripts and DNA methylation1-9. Previous studies suggest that dynamic histone modifications may play important roles in MZT10-12, however direct measurements of chromatin states has been hindered by technical difficulties in profiling histone modifications from small quantities of cells. We have developed a micro-scale chromatin immunoprecipitation and sequencing (μChIP-seq) method and used it to profile histone H3 lysine methylation (H3K4me3) and acetylation (H3K27ac) genome-wide in the mouse oocyte, 2- cell and 8-cell stage embryo. Strikingly, we show that ~22% of the oocyte genome is associated with broad H3K4me3 domains that are anti-correlated with DNA methylation. Most H3K4me3 signal is rapidly lost and constricted to TSS regions in 2-cell embryos, concomitant with the onset of major zygotic genome activation (ZGA). We provide evidence that these broad H3K4me3 domains are established by Mll2 and actively removed by Kdm5a and Kdm5b, and likely play instrumental roles in MZT by defining regions of DNA demethylation in oocytes and the 2-cell embryo. Furthermore, broad H3K4me3 domains specify H3K27ac patterns in the early embryo and ZGA genes are generally related to broad H3K4me3 domains, suggesting a fundamental role in MZT. Our results provide insights into how the developmental program can be set up in the oocyte and transferred to the zygotic genome.
+
+DESIGN
+Examination of two different histone modifications in mouse oocytes, 2-cell and 8-cell stage embryos. Two biological replicates were performed for each cell type and histone modificaitons. Examination of H3K4me3 histone modification by ChIP-seq, and DNA methylation by WGBS in mouse P12 and P15 immature oocytes. Two biological replicates were performed for each cell type and histone modificaitons. Four and six biological replicates were performed for each of WGBS for P12 and P15, respecively. Furthermore, RNA-seq was carried out to assess RNA expression in 2-cell embryos that were depleted in KDM5A and KDM5B, also various control and untreated 2-cell embryos were assessed.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27626377
+

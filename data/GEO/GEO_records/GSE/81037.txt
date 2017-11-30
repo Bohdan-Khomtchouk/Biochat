@@ -1,0 +1,18 @@
+TITLE
+Early life stress perturbs the maturation of microglial in the developing hippocampus [P28]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In this study we hypothesize that early life stress perturbs the normal function of microglial in the developing hippocampus and that this effect is responsible for the ability of early life tress to disrupt normal synaptic maturation, myelination, and axonal growth in the developing hippocampus. To test this hypothesis we used the mouse immune panel from NanoString in order to identify immune-related genes whose expression is modified by BDS, a mouse model of early life stress, in microglia isolated from the hippocampus of 28-day old male pups. This project is part of a manuscript that is currently under preparation (Delpech J.C. et al. Early life stress perturbs the maturation of microglia in the developing hippocampus, Brain, Behavior and Immunity, 2016)
+
+DESIGN
+microglial cells were isolated from the hippocampus of 28-day old control and BDS male pups (n=6 from each group, all from different litters) using Percoll gradient followed by FACS analysis. RNA was harvested using the he mirVana mirRNA isolation kit (Cat # AM 1560, Life technologies) and was then concentrated and Dnase treated on column using the RNA clean and contractor-5 kit (Cat# R1015, Zymo Research). Two ng of RNA were converted to cDNA using Superscript Vilo (Cat# 11754, Life Technologies), amplified with 5 rounds of PCR according to the nCounter single cell gene expression protocol and hybridized to the mouse immune panel (Cat# 150761, NanoString Technologies), and processed according to manufacturer instructions. Counts were normalized to positive controls and 5 housekeeping genes (e.g. Alas1, Gapdh, Oaz1, Polr1b, Sdha, Tbp) that were not affected by either BDS or age and showed a coefficient of variation of less than 20%. Genes were considered “present” if at least 40% of the samples showed hybridization signal that was 2 s.d. above the mean value for the negative control probes
+
+PLATFORM
+GPL19964 nCounter Mouse Immunology Panel
+
+CITATIONS
+27301858
+

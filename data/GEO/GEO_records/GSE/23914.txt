@@ -1,0 +1,18 @@
+TITLE
+Gene expression study identifies important protective pathways utilized by appendicitis and appendectomy for ameliorating colitis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+BACKGROUND: Appendicitis followed by appendectomy (AA) at a young age protects against later inflammatory bowel disease (IBD). Using a novel murine appendicitis model we earlier demonstrated that AA proffered significant protection against subsequent experimental colitis. AIM: To delineate genes and biological pathways involved in the protective effect of AA against subsequent colitis using gene set enrichment analysis (GSEA) of DNA microarray data. METHODS:  Appendicitis and appendicectomy was done (5 week old male BALB/c mice) near the most proximal colon (caecal lymphoid follicles) and colonic samples were harvested from the most distal colon. Two consecutive laparotomies were done in control Sham-Sham (SS) mice. RNA was extracted (TRIzol®) from 4 individual colonic samples per group (AA group vs. SS group) with each sample taken independently through Affymetrix® microarray hybridization. For GSEA, data for more than 23,000 genes were exported from Partek and analyzed with GSEA software (with 2852 gene sets encoded) to establish correlates with phenotypes of the gene sets. RESULTS: Distal colonic expression of 636 gene-sets were significantly upregulated in AA group samples (False Discovery Rates (FDR) values < 1 % and p value < 0.001; stringent statistical selection). These were validated by quantitative PCR of 14 selected genes across the immunological spectrum and over time-intervals of 3 days, 14 days and 28 days. CONCLUSIONS:  Many key immunological, apoptosis-related and cellular function-associated gene-sets involved in the protective effect of AA in experimental colitis were identified. Further analysis of these profiles and biological pathways will assist utilizing these gene products and manipulating various aspects of these pathways to develop better therapeutic strategies in the management of intractable IBD.
+
+DESIGN
+Appendicitis and appendicectomy was done (5 week old male BALB/c mice) near the most proximal colon (caecal lymphoid follicles) and colonic samples were harvested from the most distal colon. Two consecutive laparotomies were done in control Sham-Sham (SS) mice. RNA was extracted (TRIzol®) from 4 individual colonic samples per group (AA group vs. SS group) with each sample taken independently through Affymetrix® microarray hybridization. variable_protocol: appendicitis and appendectomy: AA1, AA2, AA3, AA4 variable_protocol: sham/sham surgery: SS1, SS2, SS3, SS4 repeat_biological replicate: AA1, AA2, AA3, AA4 repeat_biological replicate: SS1, SS2, SS3, SS4 Upregulated gene-set linked as supplementary file.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+21707591 , 25085204
+

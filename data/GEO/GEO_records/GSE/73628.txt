@@ -1,0 +1,18 @@
+TITLE
+RNA-Seq data for AKT, BAD, ERBB2, IGF1R, RAF1 and ERK1 over-expressed samples with twelve green fluorescent protein control samples using human mammary epithelial cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The goal was to capture the transcriptional activity due to over-expression of AKT, BAD, ERBB2, IGF1R, RAF1 and ERK1 genes.Over-expressions were validated using Western Blots. Illumina RNA-Seq technology was used to capture the downstream transcriptional activity. Reads were 101 base pairs long and single ended. An R open source package “Rsubread” was used to align and quantify the read using UCSC hg19 annotation. The integer-based gene counts were later normalized in TPM .
+
+DESIGN
+Profiles of gene expression, downstream of  AKT, BAD, ERBB2, IGF1R, RAF1 and ERK over-expression, were generated in cells derived from breast and used to generate a gene-expression signatures.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27540268
+

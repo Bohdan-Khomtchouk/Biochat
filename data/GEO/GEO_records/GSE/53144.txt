@@ -1,0 +1,18 @@
+TITLE
+Male and Female DNA and RNA sequencing in several nematode species
+
+ORGANISM
+Caenorhabditis briggsae ; Caenorhabditis elegans ; Caenorhabditis remanei ; Pristionchus pacificus ; Caenorhabditis brenneri
+
+SUMMARY
+The overall goal of this investigation was to investigate X-content of sex-biased genes in several nematode species. The following species of nematode were investigated: *C. elegans, *N2; *C. brenneri, *PB2801; *C. briggsae, *AF16; *C. remanei*, PB4641; *P. **pacificus, *PS312*.*  Genomic DNA sequencing data was used to assign X and autosomal - linkage to unassembled sequencing contigs.  Male and female RNA seq data was then generated and used to determine sex-biased expression. For both DNA and RNA experiments,  50bp paired-end (DNA) or single-end (RNA) reads were generated on the Illumina HiSeq 2500. Sequencing lanes were multiplexed. Genomic DNA was isolated from 50-100 hand-picked young adult worms. At least two replicates for each sex were prepared. DNA was sheared via sonication and 350-500 bp sequencing libraries were prepared following the Illumina protocol. Total RNA was isolated from at least 1000 hand-picked L4/young adult worms (*C. **elegans, *N2) or J4/young adult worms (*P. pacificus, *PS312*). *PolyA beads were used to enrich for mRNA. Stranded RNAseq libraries were prepared via incorporation of dUTPs during cDNA synthesis, following the protocol detailed in Parkhomchuk et al, 2009. DNAseq and RNAseq reads were aligned to the appropriate WS228 reference genomes.
+
+DESIGN
+DNA sequencing data (2-3 replicates) from male and female YA worms are included along with RNAseq data from C.elegans YA hermaphrodites and P.pacificus YA males and hermaphrodites.
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans) GPL16138 Illumina HiSeq 2000 (Caenorhabditis brenneri) GPL16141 Illumina HiSeq 2000 (Caenorhabditis remanei) GPL16154 Illumina HiSeq 2000 (Pristionchus pacificus) GPL16160 Illumina HiSeq 2000 (Caenorhabditis briggsae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

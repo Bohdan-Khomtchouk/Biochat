@@ -1,0 +1,18 @@
+TITLE
+Cell type-specific binding patterns reveal that TCF7L2 can be tethered to the genome by association with GATA3
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The TCF7L2 transcription factor is linked to a variety of human diseases, including type 2 diabetes and cancer. One mechanism by which TCF7L2 could influence expression of genes involved in diverse diseases is by binding  to distinct regulatory regions in different tissues. To test this hypothesis, we performed ChIP-seq for TCF7L2 in 6 human cell lines. We identified 116,000 non-redundant TCF7L2 binding sites, with only 1,864  sites common to the 6 cell lines. Using ChIP-seq, we showed that many genomic regions that are marked by both H3K4me1 and H3K27Ac are also bound by TCF7L2, suggesting that TCF7L2 plays a critical role in enhancer  activity. Bioinformatic analysis of the cell type-specific TCF7L2 binding sites revealed enrichment for multiple transcription factors, including HNF4alpha and FOXA2 motifs in HepG2 cells and the GATA3 motif in MCF7 cells. ChIP-seq analysis revealed that TCF7L2 co-localizes with HNF4alpha and FOXA2 in HepG2 cells and with GATA3 in MCF7 cells. Interestingly, in MCF7 cells the TCF7L2 motif is enriched in most TCF7L2 sites but is not enriched in the sites bound by both GATA3 and TCF7L2. This analysis suggested that GATA3 might tether TCF7L2 to the genome at these sites. To test this hypothesis, we depleted GATA3 in MCF7 cells and showed that TCF7L2 binding was lost at a subset of sites. RNA-seq analysis suggested that TCF7L2 represses transcription when tethered to the genome via GATA3. Our studies demonstrate a novel relationship between GATA3 and TCF7L2,  and reveal important insights into TCF7L2-mediated gene regulation.
+
+DESIGN
+RNAseq analysis of MCF7 cells transfected with siCONTROL, siTCF7L2 or siGATA3. ChIP-seq analysis of H3K27ac, H3K4me1, H3K27me3, H3K9me3 in MCF7 cells; H3K4me1 and H3K27ac in HCT116 cells.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+22951069
+

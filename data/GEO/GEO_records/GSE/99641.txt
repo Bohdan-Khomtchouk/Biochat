@@ -1,0 +1,18 @@
+TITLE
+Multiplex Enhancer Interference Reveals Collaborative Control of Gene Regulation by Estrogen Receptor Alpha Bound Enhancers [RNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Multiple regulatory regions have the potential to regulate a single gene, yet how these elements combine to impact gene expression remains unclear. To uncover the combinatorial relationships between enhancers, we developed Enhancer-interference (Enhancer-i), a CRISPR interference-based approach that can prevent enhancer activation simultaneously at multiple regulatory regions. We applied Enhancer-i to promoter-distal estrogen receptor a binding sites (ERBS), which cluster around estradiol-responsive genes and therefore may collaborate to regulate gene expression. Targeting individual sites revealed predominant ERBS that are completely required for the transcriptional response, indicating a lack of redundancy. Simultaneous interference of different ERBS combinations identified supportive ERBS that contribute only when predominant sites are active. Using mathematical modeling, we find strong evidence for collaboration between predominant and supportive ERBS. Overall, our findings expose a complex functional hierarchy of enhancers, where multiple loci bound by the same transcription factor combine to fine tune the expression of target genes.
+
+DESIGN
+The effects of Enhancer interference (Enhancer-i) and control guide RNA treatment on the transcriptome before and after estrogen treatment, with 2 replicates per condition.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28964699
+

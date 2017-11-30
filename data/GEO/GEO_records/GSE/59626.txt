@@ -1,0 +1,18 @@
+TITLE
+Uridylation by TUT4 and TUT7 marks mRNA for degradation [RNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Uridylation occurs pervasively on mRNAs in mammals, yet its mechanism and significance remain unknown. Here we identify TUT4 and TUT7 (also known as ZCCHC11 and ZCCHC6, respectively) as the enzymes that uridylate mRNAs. Uridylation readily occurs on deadenylated mRNAs that are not associated with poly(A) binding protein (PABPC1) in cells. Consistently, purified TUT4 and TUT7 (TUT4/7) selectively uridylate RNAs with short A tails ( < ~25 nt) while PABPC1 antagonizes uridylation of polyadenylated mRNAs in vitro. In cells depleted of TUT4/7, the vast majority of mRNAs lose the U tails, and their half-lives are extended. Suppression of mRNA decay factors leads to the accumulation of uridylated mRNAs. In line with this, microRNA induces uridylation of its targets, and TUT4/7 is required for enhanced decay of microRNA targets. Our study explains the mechanism underlying selective uridylation of deadenylated mRNAs, and demonstrates a fundamental role of the U tail as a molecular mark for global mRNA decay.
+
+DESIGN
+HeLa cells were knocked down of control or TUT4/7, then total RNAs were prepared for RNA-seq on 0, 1, 2, 4h after actinomycin D treatment. The whole processes of experiments were repeated two times.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25480299
+

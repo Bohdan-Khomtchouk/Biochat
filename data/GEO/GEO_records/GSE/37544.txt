@@ -1,0 +1,18 @@
+TITLE
+RNA-seq analysis of differential gene expression in liver from lactating dairy cows divergent in negative energy balance
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+Background: The liver is central to most economically important metabolic processes in cattle. However, the changes in expression of genes that drive these processes remain incompletely characterised. RNA-seq is the new gold standard for whole transcriptome analysis but so far there are no reports of its application to analysis of differential gene expression in cattle liver. We used RNA-seq to study differences in expression profiles of hepatic genes and their associated pathways in individual cattle in either mild negative energy balance (MNEB) or severe negative energy balance (SNEB). NEB is an imbalance between energy intake and energy requirements for lactation and body maintenance. This aberrant metabolic state affects high-yielding dairy cows after calving and is of considerable economic importance because of its negative impact on fertility and health in dairy herds. Analysis of changes in hepatic gene expression in SNEB animals will increase our understanding of NEB and contribute to the development of strategies to circumvent it.     Results: RNA-seq analysis was carried out on total RNA from liver from early post partum Holstein Friesian cows in MNEB (n=5) and SNEB (n=6). 12,833 genes were deemed to be expressed ( > 4 reads per gene per animal), 413 of which were shown to be statistically significantly differentially expressed (SDE) at a false discovery rate (FDR) of 0.1% and 200 of which were SDE (FDR of 0.1%) with a ≥2-fold change between MNEB and SNEB animals. GOseq/KEGG pathway analysis showed that SDE genes with ≥2- fold change were associated (P < 0.05) with 9 KEGG pathways. Seven of these pathways were related to fatty acid metabolism and unexpectedly included ‘Steroid hormone biosynthesis’, a process which mainly occurs in the reproductive organs rather than the liver.    Conclusions: RNA-seq analysis showed that the major changes at the level of transcription in the liver of SNEB cows were related to fat metabolism. 'Steroid hormone biosynthesis', a process that normally occurs in reproductive tissue, was significantly associated with changes in gene expression in the liver of SNEB cows. Changes in gene expression were found in this pathway that have not been previously been identified in SNEB cows.
+
+DESIGN
+11 liver RNA samples were analysed in total, 6 samples were from SNEB animals and 5 samples from MNEB animals
+
+PLATFORM
+GPL9323 Illumina Genome Analyzer (Bos taurus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

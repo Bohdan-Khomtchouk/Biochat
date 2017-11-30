@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profile of genes affected by the loss of Brd4 in the embryonic stem cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+BRD4 is an important epigenetic reader implicated in the pathogenesis of a number of different cancers and other diseases.  Brd4-null mouse embryos die shortly after implantation and are compromised in their ability to maintain the inner cell mass (ICM), which gives rise to embryonic stem cells (ESCs). We investigated the functions of Brd4 in the ESCs in the present study. To determine the Brd4 target genes in embryonic stem cells.
+
+DESIGN
+TL1 ESCs were transfected with control siRNA, or Brd4 siRNA.  At 48 h post-transfection, total RNAs were isolated using the RNeasy minikit (Qiagen). Expression microarray analyses were performed on mRNA samples isolated from three independent experiments using a mouse Gene 2.0ST array (Affymetrix) at the University of Pennsylvania Microarray Core Facility. RMA from Affymetrix package  was applied to the data for preprocessing and normalization. Limma was used for detection of differentially expressed genes. Benjamini & Hochberg correction was applied for the multiple comparisons.
+
+PLATFORM
+GPL16570 [MoGene-2_0-st] Affymetrix Mouse Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+25146928
+

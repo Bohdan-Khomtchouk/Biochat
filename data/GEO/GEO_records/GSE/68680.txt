@@ -1,0 +1,18 @@
+TITLE
+ChIP-seq analysis of SREB during yeast phase growth of Blastomyces dermatitidis at 37oC
+
+ORGANISM
+Blastomyces dermatitidis ATCC 26199
+
+SUMMARY
+ChIP-seq analysis was used to identify B. dermatitidis genes bound by the GATA transcription factor encoded by SREB during growth as yeast at 37oC
+
+DESIGN
+SREB was engineered to contain an in-frame 3x-hemagglutinin (HA) epitope tag at the C-terminus. The SREB-3xHA construct was under control of its native promoter and contained the 3-untranslated region.  Using Agrobacterium tumefaciens, B. dermatitidis ATCC 26199 was transformed with the SREB-3xHA construct (referred to a SREB-3xHA strain in this document).  The SREB-3xHA construct was functional because retransformation of SREBΔ with the construct complented the null mutant. Chromatin was extracted and sheared from ATCC 26199 and SREB-3xHA yeast grown in liquid Histoplasma macrophage medium (HMM) containing 10 μM iron sulfate (FeSO4) at 37oC.  ATCC 26199 was the untagged control strain.
+
+PLATFORM
+GPL20170 Illumina HiSeq 2000 (Blastomyces dermatitidis ATCC 26199)
+
+CITATIONS
+26114571
+

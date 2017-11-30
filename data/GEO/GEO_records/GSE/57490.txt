@@ -1,0 +1,18 @@
+TITLE
+Hepatic transcriptional signatures of exposure to oestradiol (E2) and the herbicide linuron in mature male brown trout
+
+ORGANISM
+Salmo trutta
+
+SUMMARY
+These studies aimed to investigate the hepatic transcriptional response of brown trout to the natural estrogen, E2, and the herbicide linuron. We exposed mature male brown trout to three concentrations of each chemical for 4 days and sequenced the hepatic transcriptome of 3 individuals per treatment group in order to determine the global mechanisms of toxicity of these environmental contaminants. We assembled the brown trout transcriptome using a de novo approach. Subsequent differential expression analysis identified a total of 2113 differentially-regulated transcripts in the group exposed to the highest E2 treatment concentration, and 822 differentially-regulated transcripts across all linuron treatments. For E2, differentially-expressed transcripts included those encoding known oestrogen-responsive genes, while regulated processes included those associated with vitellogenesis including lipid metabolism, cellular proliferation and ribosome biogenesis. For linuron, there was a striking down-regulation of transcripts encoding the majority of the enzymes involved in the cholesterol biosynthesis pathway, and also a considerable induction of transcripts involved in cellular stress response including Cyp1a.
+
+DESIGN
+Fish were exposed to 3 concentrations of E2 (measured concentrations were 1.9, 18.1 and 34.4 ng/L), 3 concentrations of linuron (measured concentrations were 1.7, 15.3 and 225.9 µg/L) and water controls for 4 days. Liver mRNA from 3 replicate individuals per treatment was sequenced in an Illumina HiSeq 2500 platform. Two control groups (n=6 fish in total) were included. Using a de novo approach, we assembled the hepatic transcriptome for brown trout. Sequence reads were re-mapped to the assembled transcriptome using Bowtie2 and transcript expression profiling was conducted using EdgeR. ERCC spike controls were added to all individual samples, allowing for the assessment of the reproducibility and dynamic range for transcript expression quantification in our experiments.
+
+PLATFORM
+GPL18582 Illumina HiSeq 2500 (Salmo trutta)
+
+CITATIONS
+26082144 , 25633873
+

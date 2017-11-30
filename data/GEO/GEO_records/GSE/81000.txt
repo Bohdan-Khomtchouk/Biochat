@@ -1,0 +1,18 @@
+TITLE
+Integrative clustering reveals a novel split in the luminal A subtype of breast cancer with impact on outcome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Breast cancer is a heterogeneous disease at the clinical and molecular level. In this study we integrate classifications extracted from five different molecular levels in order to identify integrated subtypes. Methods: Tumor tissue from 425 primary breast cancer patients of the Oslo2 study was cut and blended before being divided into fractions for DNA-, RNA- and protein isolation, and metabolomics, allowing for representative and comparable molecular data. Patients were stratified into groups based on their tumor characteristics from five different molecular levels, using various clustering methods. Finally, all previously identified and newly determined subgroups were combined in a multilevel classification using a “cluster-of-clusters” approach with consensus clustering. Results: Based on DNA copy number data, tumors were scored into three groups according to the complex arm aberration index. mRNA expression profiles divided tumors into five molecular subgroups according to PAM50 subtyping, and clustering based on microRNA expression revealed four subgroups. Reverse-phase protein array data divided tumors into five subgroups. Hierarchical clustering of tumor metabolic profiles revealed three clusters. Combining DNA copy number and mRNA expression classified tumors into seven clusters based on pathway activity levels, and using integrative clustering, tumors were classified into ten subtypes. The final consensus clustering incorporating all the aforementioned subtypes revealed six major groups. Five corresponded well with the mRNA subtypes, while a sixth group resulted from a split of the luminal A subtype where these tumors belonged to distinct microRNA clusters. Gain-of-function studies using MCF-7 cells showed that microRNAs differentially expressed between the luminal A clusters were important for cancer cell survival. These microRNAs were used to validate the split in luminal A tumors in four independent breast cancer cohorts. In two cohorts the microRNAs divided tumors into subgroups with significant different outcome, and in another a trend was observed. Conclusions: The herein identified six integrated subtypes confirm the heterogeneity of breast cancer and show that finer subdivisions of subtypes are evident. Increasing the knowledge of the luminal A subtype heterogeneity may add pivotal information guiding therapeutic choices, evidently bringing us closer to more personalized treatment for this largest subgroup of breast cancer.
+
+DESIGN
+The mRNA expression profiling of  breast cancer samples was performed using the SurePrint G3 Human GE 8x60K one-color microarrays from Agilent (Agilent Technologies, Santa Clara, CA, USA) according to the manufacturer’s protocol (One-Color Microarray-Based Gene Expression Analysis, Low Input Quick Amp Labeling, v.6.5, May 2010). For each sample, 100 ng of RNA was amplified and hybridized on the array. Scanning was performed with Agilent Scanner G2565A, using AgilentG3_GX_1Color as profile. Signals were extracted using FE v.10.7.3.1 and protocol GE1_107_Sep09 (Agilent Technologies). Arrays were log2-transformed, quantile normalized and hospital-adjusted by subtracting from each probe value the mean probe value among samples from the same hospital.
+
+PLATFORM
+GPL10656 Agilent-029297 Human miRNA Microarray v14 Rev.2 (miRNA ID version)
+
+CITATIONS
+28356166
+

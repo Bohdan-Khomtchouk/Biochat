@@ -1,0 +1,18 @@
+TITLE
+Convergence of Mutation and Epigenetic Alterations Identifies Common Target Genes in Breast and Colon Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The identification and characterization of tumor suppressor genes has enhanced our understanding of the biology of cancer and enabled the development of new diagnostic and therapeutic modalities.  Whereas in past decades, a handful of tumor suppressors have been slowly identified using techniques such as linkage analysis, large-scale sequencing of the cancer genome has enabled the rapid identification of a large number of genes that are mutated in cancer.  However, determining which of these many genes play key roles in cancer development has proven challenging.  Specifically, recent sequencing of human breast and colon cancers has revealed a large number of somatic gene mutations, but virtually all are heterozygous, occur at low frequency, and are tumor-type specific. Keywords: Microarray, Hypermethylome, DNA-hypermethylation, DAC, TSA, Epigenetic, Mutation, Colorectal Cancer, Breast Cancer
+
+DESIGN
+The candidate hypermethylome genes were identified as described below. These genes were compared to the CAN genes identified by Sjöblom T et al (Science, 2006). Cell culture and treatment. For drug treatments, log phase MCF7, T-47D, MDA-MB231 and MDA-MB-468 cells were cultured in McCoys 5A media (Invitrogen) containing 10% BCS and 1x penicillin/streptomycin with 5M 5aza-deoxycytidine (DAC) (Sigma; stock solution: 1mM in PBS) for 96 hours, replacing media and DAC every 24 hours. Cell treatment with 300nM Trichostatin A (Sigma; stock solution: 1.5mM dissolved in ethanol) was performed for 18 hours. Control cells underwent mock treatment in parallel with addition of equal volume of PBS or ethanol without drugs. Microarray analysis. Total RNA was harvested from log phase cells using the Qiagen kit according to the manufacturers instructions, including a DNAase step. RNA was quantified using the NanoDrop ND-100 followed by quality assessment with 2100 Bioanalyzer (Agilent Technologies). RNA concentrations for individual samples were greater than 200ng/ul, with 28s/18s ratios greater than 2.2 and RNA integrity numbers of 10 (highest). Sample amplification and labeling procedures were carried out using the Low RNA Input Fluorescent Linear Amplification Kit (Agilent Technologies) according to the manufacturers instructions. The labeled cRNA was purified using the RNeasy mini kit (Qiagen) and quantified. RNA spike-in controls (Agilent Technologies) were added to RNA samples before amplification. 0.75 microgram of samples labeled with Cy3 or Cy5 were mixed with control targets (Agilent Technologies), assembled on Oligo Microarray, hybridized, and processed according to the Agilent microarray protocol. Scanning was performed with the Agilent G2565BA microarray scanner under default settings recommended by Agilent Technologies. Data analysis. All arrays were subject to quality checks recommended by the manufacturer. Images were visually inspected for artifacts and distributions of signal and background intensity of both red and green channels were examined to identify anomalous arrays. No irregularities were observed, and all arrays were retained and used. All calculations were performed using the R statistical computing platform and packages from Bioconductor bioinformatics software project. The log ratio of red signal to green signal was calculated and Loess normalization as implemented in the limma package from Bioconductor.
+
+PLATFORM
+GPL1708 Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number version) GPL4133 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Feature Number version)
+
+CITATIONS
+18507500
+

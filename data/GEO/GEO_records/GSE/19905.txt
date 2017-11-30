@@ -1,0 +1,18 @@
+TITLE
+Global analysis of DNA methylation patterns on the latent KSHV episome in PEL and de novo infected endothelial cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Herpesvirus latency is generally thought to be governed by epigenetic modifications, but the dynamics of viral chromatin at early timepoints of latent infection are poorly understood. Here, we report a comprehensive spatial and temporal analysis of epigenetic modifications during latent infection with Kaposi's sarcoma associated herpesvirus (KSHV), the etiologic agent of Kaposi's sarcoma and primary effusion lymphoma (PEL). Using high resolution tiling microarrays in conjunction with immunprecipitation of methylated DNA (MeDIP) and modified histones (ChIP), we have determined global patterns of epigenetic modifications across the KSHV genome in several tumor-derived cell lines as well as de novo infected endothelial cells, revealing highly distinct landscapes of epigenetic modifications associated with latent KSHV infection. We find that KSHV genomes are subject to profound methylation at CpG dinucleotides, leading to the establishment of characteristic global DNA methylation patterns. However, such patterns evolved slowly and thus are unlikely to govern latency early during the infection process. In contrast, we observed that latent histone modification patterns were rapidly established upon a de novo infection. Our analysis furthermore demonstrates that such patterns are not characterized by the absence of activating histone modifications, since both H3K9/K14-ac and H3K4-me3 marks were prominently detected at several loci, including the promoter of the lytic cycle transactivator Rta. While these regions were furthermore largely devoid of the constitutive heterochromatin marker H3K9-me3, we observed rapid and widespread deposition of H3K27-me3 across latent KSHV genomes, a bivalent modification which is able to repress transcription despite of the simultaneous presence of activating marks. Our findings suggest that the epigenetic patterns identified here induce a poised state of repression during viral latency, which can be rapidly reversed once the lytic cycle is induced. This dataset contains our MeDIP data; the ChIP-on-chip data are deposited in a separate dataset.
+
+DESIGN
+Analysis and comparison of latent DNA methylation patterns in KSHV positive BCBL1, AP3, HBL6 and SLKP cells and de novo infected SLK cells. An in vitro methylated bacmid containing the complete KSHV genome (termed BacM) was used as a positive control for the MeDIP procedure. All probe signals were background corrrected by subtracting the ratios from a negative control sample containing the unmethylated KSHV bacmid (Bac). A further negative control (SLK) from KSHV negative cells was used to identifiy and permanently flag probes with show extensive crosshybridization. The negative controls Bac and SLK are hence not represented by a seperate data column in the matrix, but the raw data files are nevertheless included in this dataset.
+
+PLATFORM
+GPL9942 HPI-AG KSHV 15k v. 3.0
+
+CITATIONS
+20532208
+

@@ -1,0 +1,18 @@
+TITLE
+ChIP-exo of human KRAB-ZNFs transduced in HEK 293T cells and KAP1 in hES H1 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Encoded in the hundreds by the human genome, KRAB-containing zinc finger proteins (KRAB-ZFPs) constitute a rapidly evolving family of transcription factors with largely undefined functions. Here, by a combination of phylogenetic and genomic approaches, we retrace the evolutionary history of KRAB-ZFP genes and define the genomic targets of their human products. Through in silico analysis of 207 vertebrate genomes and chromatin immunoprecipitation / deep sequencing characterization of 257 human KRAB-ZFPs, we identify the root of the family in an early Devonian ancestor of tetrapods, describe its diversity amongst these species, and reveal that the majority of its human members primarily recognize transposable elements. Furthermore, by dissecting the timeline and modalities of interactions between human KRAB-ZFPs and their targets, we provide evidence strongly suggesting that these proteins, rather than just engaged in an evolutionary arms race against transposable elements, exploit these invaders as regulatory platforms for the benefit of the host.
+
+DESIGN
+We transduced HEK 293T cells with doxycyclin-inducible plasmids encoding for human KRAB-ZFPs fused with 3 HA tags at the C-terminus. We next performed ChIP-exo and prepared a barcoded Illumina library for each sample - these library were pooled and sequenced 12 per lane on an Illumina Hiseq 2500 to a minimum depth of around 15 million 100 bp single-end reads. Reads were mapped to the GRC h37 g1k assembly of the human genomes and peaks were identified using MACS - the resulting peak list was further filtered according to various criteria designed to minimize the presence of artifacts. We used a total input derived from random sampling from all samples in the study, as it was found to perform better than either the standard total input or the exonuclease treated total input. We also performed ChIP-exo on endogenous KAP1 from H1 embryonic stem cells using the same overall design.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28273063
+

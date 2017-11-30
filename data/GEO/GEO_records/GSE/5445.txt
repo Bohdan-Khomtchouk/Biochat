@@ -1,0 +1,18 @@
+TITLE
+Human Heterochromatin Proteins form Large Domains Containing KRAB-ZNF Genes
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Heterochromatin is important for gene regulation and chromosome structure, but the genes that are occupied by heterochromatin proteins in the mammalian genome are largely unknown. We have adapted the DamID method to systematically identify target genes of the heterochromatin proteins HP1 and SUV39H1 in human and mouse cells. Unexpectedly, we found that HP1beta (CBX1) and SUV39H1 bind to genes encoding KRAB domain containing zinc finger (KRAB-ZNF) transcriptional repressors. These genes constitute one of the largest gene families and are organized in clusters in the human genome. Preference of CBX1 for this gene family was observed in both human and mouse cells. High-resolution mapping on human Chromosome 19 revealed that CBX1 coats large domains 0.1 - 4Mb in size, which coincide with the position of KRAB-ZNF gene clusters. These domains show an intricate CBX1 binding pattern: while CBX1 is globally elevated throughout the domains, it is absent from the promoters and binds more strongly to the 3’ ends of KRAB-ZNF genes. KRAB-ZNF domains contain large numbers of LINE elements, which may contribute to CBX1 recruitment. These results uncover a surprising link between heterochromatin and a large family of regulatory genes in mammals. We suggest a role for heterochromatin in the evolution of the KRAB-ZNF gene family. Keywords: DamID, chromatin profiling, DNA microarray, expression profiling.
+
+DESIGN
+In this study we mapped the genomic binding sites of heterochromatin proteins CBX1, CBX3, CBX5 and SUV39H1 in different cell types using the DamID method. DamID involves the low level expression of a fusion protein consisting of DNA adenine methyltransferase (Dam) and a chromatin protein of interest. This fusion protein is targeted to the native binding sites of the chromatin protein, where Dam methylates adenines in the surrounding DNA. The methylated DNA fragments were isolated and amplified by selective PCR, labeled with a fluorescent dye and hybridized to microarrays. In this study we used 3 different array platforms for detection of amplified methylated DNA fragments. All experiments were done with samples obtained from independent experiments and include dye swaps. In addition, we made an mRNA expression profile of MCF7 cells (4 arrays)
+
+PLATFORM
+GPL3676 NKI-CMF Homo sapiens 35k oligo array GPL3698 NKI-CMF Homo sapiens 19k cDNA array GPL3701 NKI/VanSteensel_HSAP_390k_2005-08-15_Vogel_human GPL4035 NKI-CMF Homo sapiens 35k oligo array with DamID annotations GPL4036 NKI-CMF Mus musculus 32k oligo array with DamID annotations
+
+CITATIONS
+17038565
+

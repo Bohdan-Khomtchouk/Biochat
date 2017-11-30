@@ -1,0 +1,18 @@
+TITLE
+Chickpea Small RNA Atlas - Development
+
+ORGANISM
+Cicer arietinum
+
+SUMMARY
+In this study, we sequenced small RNA content from seven major tissues/organs employing Illumina technology. More than 154 million reads were generated using Illumina high-throughput sequencing GAII platform, which represented more than 20 million distinct small RNA sequences. After pre-processing, several conserved and novel miRNAs were identified in chickpea. Further, the putative targets of chickpea miRNAs were identified and their functional categorization was analyzed. In addition, we identified miRNAs exhibitng differential and specific expression in various tissues/organs.
+
+DESIGN
+We collected different tissue samples used in this study and total RNA isolated was subjected to Illumina sequencing. The sequenced data was further filtered using NGS QC Toolkit to obtain high-quality reads. The filtered reads were pre-processed using modified perl script provided in the miRTools software. After quality control, the identical reads were collapsed into a unique read and read count for each sequence was recorded. All the filtered unique reads from each sample were screened stepwise against annotated non-coding RNA sequences, including plant snoRNA, tRNA and rRNA. The remaining  reads were screened against repeat sequences from RepBase and chickpea chloroplast sequence. Conserved miRNAs were identified based on similarity with miRBase database and novel miRNAs were identified using miRDeep-P pipeline. For differential expression analysis, the read count for each miRNA was normalized using DESeq software. The genes preferentially and specifically expressed in various tissues/organs were identified.
+
+PLATFORM
+GPL16348 Illumina Genome Analyzer IIx (Cicer arietinum)
+
+CITATIONS
+25151616
+

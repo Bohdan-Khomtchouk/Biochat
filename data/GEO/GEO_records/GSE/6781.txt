@@ -1,0 +1,18 @@
+TITLE
+The NsrR regulon of Escherichia coli K-12
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Successful pathogens must be able to protect themselves against reactive nitrogen species generated either as part of host defence mechanisms, or as products of their own metabolism. The regulatory protein, NsrR (a member of the Rrf2 family of transcription factors), plays key roles in this stress response. Microarray analysis was carried out to reveal the regulon of NsrR. Keywords: Response to repressor titration and different growth conditions
+
+DESIGN
+The nsrR gene of E. coli MG1655 is located immediately upstream of, and is co-transcribed with, the rnr gene encoding RNase R. Expression of this transcription unit is cold-shock inducible, which may well involve secondary structures in the mRNA in the vicinity of the nsrR coding region. Deletion of the nsrR gene might therefore perturb rnr expression by a simple consequence of polarity, or by disruption of mRNA structural elements involved in post-transcriptional regulation. The consequence would likely be secondary effects on global RNA stability, hence comparison of the transcriptomes of an nsrR mutant and its parent would be difficult to interpret. To avoid such potential artifacts, we exploited the observation that regulation by NsrR is extremely sensitive to repressor titration by NsrR-binding sites provided on a multicopy plasmid. Transformation of an nsrR+ strain with plasmid pGIT1, which carries the ytfE promoter in multicopy, titrates out NsrR to phenocopy an NsrR- mutation. As a control, pGIT8 carries the same promoter fragment, but a 1 bp deletion mutation in the NsrR binding site eliminates repressor titration in vivo. Strain MG1655 transformed with either pGIT1 or pGIT8 was grown anaerobically under the carefully controlled conditions described previously, so that growth rates were almost identical, and RNA was isolated from early exponential phase cultures grown in the presence or absence of nitrite. For each growth condition, four independent biological replicates were completed, and to validate comparisons between different plasmids and growth conditions, a pool of RNA from the control strain (MG1655 transformed with pGIT8 and grown in the absence of nitrite) was included in every microarray to provide a common reference.
+
+PLATFORM
+GPL3051 UBEC Array3
+
+CITATIONS
+17449618
+

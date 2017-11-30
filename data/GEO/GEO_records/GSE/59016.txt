@@ -1,0 +1,15 @@
+TITLE
+Transcription Factor Binding Sites clustered Regions of 133 Cell Lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: 224 GSM Samples form GSE32970 and GSE29692 was reanalyzed to find the TFBS-clustered regions of 133 cell lines. TFBS-clustered regions were divided into ten classes belong to the TF complexity. Methods: 1. We assigned the binding sites of 542 TFs in 133 cell lines as our record GSE53962 .  2. We performed a Gaussian kernel density estimation across the genome with a bandwidth of 300 bp, using the centers of each of the TF binding peaks as points. Then, we scanned this density for peaks, and denoted each peak a TF region.To determine the complexity of the TF region, we summed the Gaussian kernalized distance from the peak to each TF that contributed at least 0.1 to its strength. The TF region around eat peak was derived by finding the maximum distance (in bp) from the peak to a contributing TF, and then adding 150 bp (one half of the bandwidth). Each TF region is centered on the peak, and have a TF complexity value.  3. According to TFBS complexity, we divided these TFBS-clustered regions into ten classes: from TC0 to TC9 with increasing TFBS complexity. Result: Using the binding sites of 542 TFs in 133 cell lines, we assigned a TF complexity score to each TF region corresponding to the number of distinct TFs bound, resulting in ten classes TFBS-clustered regions of 133 cell lines.
+
+DESIGN
+Ten classes TFBS-clustered regions of 133 Cell Lines. 54 GSM Samples from GSE32970 and 164 GSM Samples from GSE29692 were combined to 133 cell types.
+
+CITATIONS
+25682954
+

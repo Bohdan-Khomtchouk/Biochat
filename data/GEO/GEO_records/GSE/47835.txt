@@ -1,0 +1,18 @@
+TITLE
+Microfluidic single-cell whole-transcriptome sequencing
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Single-cell whole-transcriptome analysis is a powerful tool for quantifying gene expression heterogeneity in populations of cells. Many techniques have, thus, been recently developed to perform transcriptome sequencing (RNA-Seq) on individual cells. To probe subtle biological variation between samples with limiting amounts of RNA, more precise and sensitive methods are still required. We adapted a previously developed strategy for single-cell RNA-Seq that has shown promise for superior sensitivity and implemented the chemistry in a microfluidic platform for single-cell whole transcriptome analysis. In this approach, single cells are captured and lysed in a microfluidic device, where mRNAs with poly(A) tails are reverse-transcribed into cDNA. Double-stranded cDNA is then collected and sequenced using a next-generation sequencing platform. We prepared 94 libraries consisting of single mouse embryonic cells and technical replicates of extracted RNA and thoroughly characterized the performance of this technology. Microfluidic implementation increased mRNA detection sensitivity as well as improved measurement precision compared with tube-based protocols. With 0.2M reads per cell, we were able to reconstruct a majority of the bulk transcriptome with 10 single cells. We also quantified variation between and within different types of mouse embryonic cells and found that enhanced measurement precision, detection sensitivity, and experimental throughput aided the distinction between biological variability and technical noise. With this work, we validated the advantages of an early approach to single-cell RNA-Seq and showed that the benefits of combining microfluidic technology with high-throughput sequencing will be valuable for large-scale efforts in single-cell transcriptome analysis.
+
+DESIGN
+We investigated gene expression in mouse embryonic cells using microfluidic-facilitated RNA-Seq to analyze 56 single mouse ES cell (mESC) transcriptomes and 6 single mouse embryonic fibroblast (MEF) transcriptomes. To quantitatively evaluate the sensitivity and precision of our technique, we also sequenced 23 libraries from extracted mESC RNA, representing three sets of technical replicates with varying starting amounts of material.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+24782542
+

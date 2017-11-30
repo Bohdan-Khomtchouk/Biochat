@@ -1,0 +1,18 @@
+TITLE
+CIS (multiple sclerosis) (case-control) (time-series)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Clinically isolated syndrome (CIS) refers to the earliest clinical manifestation of multiple sclerosis (MS). Currently there are no prognostic biological markers that accurately predict conversion of CIS to clinically definite MS (CDMS). Furthermore, the earliest molecular events in MS are still unknown. We used microarrays to study gene expression in naïve CD4+ T cells from 37 CIS patients at time of diagnosis and after one year. Supervised machine-learning methods were used to build predictive models of disease conversion. We identified 975 genes whose expression segregated CIS patients into 4 distinct subgroups. A subset of 108 genes further discriminated patients from one of these (group#1) from other CIS patients. Remarkably, 92% of patients from group #1 converted to CDMS within 9 months. Consistent downregulation of TOB1, a critical regulator of cell proliferation, was characteristic of group #1 patients. Decreased TOB1 expression at the RNA and protein levels was also confirmed in experimental autoimmune encephalomyelitis (EAE). Finally, a genetic association was observed between TOB1 variation and MS progression in an independent cohort. These results indicate that CIS patients at high risk of conversion have impaired regulation of T cell quiescence resulting in earlier activation of pathogenic CD4+ cells. Keywords: Disease state: CIS (Clinically Isolated Syndrome - Multiple Sclerosis) versus control. Time series: some patients and controls were resampled approximately one year later
+
+DESIGN
+Expression data was taken from 37 CIS patients and 28 healthy controls at baseline. 34 CIS patients and 10 healthy controls were resampled at a second time point, approximately one year later. Patients were followed clinically for up to two years to determine the TTC (time to conversion to MS)
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18689680
+

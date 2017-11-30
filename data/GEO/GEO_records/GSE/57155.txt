@@ -1,0 +1,18 @@
+TITLE
+Characterization of extended transcripts by RNA-Seq suggests that Rrp6 influences Nrd1-dependent termination
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+RNAPII is responsible for transcription of protein-coding genes and short, regulatory RNAs. In Saccharomyces cerevisiae, termination of RNAPII-transcribed RNAs ≤1000 bases requires the NNS complex (comprised of Nrd1, Nab3, and Sen1) processing by the exosome, and the nuclear specific catalytic subunit, Rrp6. It has been shown that Rrp6 interacts directly with Nrd1, but whether or not Rrp6 is required for NNS-dependent termination is unclear. Loss of Rrp6 function may result in extension (or inhibition of termination) of NNS-dependent transcripts, or Rrp6 may only function after the fact to carry out RNA 3’ end processing. Here, we performed in-depth differential expression analyses and compare RNA-sequencing data of transcript length and abundance in cells lacking RRP6 to previously published sequencing data measuring the length of RNAs in Nrd1-depleted cells. We find many transcripts that were defined as unterminated upon loss of Nrd1 activity are of similar length in rrp6Δ, and expression levels of downstream genes are significantly decreased. This suggests a similar transcription interference mechanism occurs in cells lacking either Nrd1 or Rrp6, supporting the hypothesis that Rrp6 activity is required for proper NNS termination in vivo.
+
+DESIGN
+Four biological replicates each for deletion mutant (RRP6) and reference cells (WT)
+
+PLATFORM
+GPL18621 AB 5500xl Genetic Analyzer (Saccharomyces cerevisiae)
+
+CITATIONS
+25680078
+

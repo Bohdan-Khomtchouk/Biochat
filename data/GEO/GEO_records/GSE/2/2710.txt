@@ -1,9 +1,0 @@
-TITLE
-SSc sera stimulated HDEC culture time course
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-This series represents HDEC cultured in 10% control sera vs. SSc sera with ACA vs. SSc sera with SCL70 Samples were analyzed at 1, 6, 12, and 24 hours The data that have been provided in the GEO Samples (GSMs) are from QuantArray.  The values indicated under the VALUE header were obtained by taking the log (base 2) of the ratio of the raw data from the experimental samples to the reference RNA samples. These raw data were subsequently analyzed by Cluster and TreeView which normalizes the data across samples (see appended Table).  The normalization procedure was as follows:  Background corrected intensity expression levels were normalized per channel using the software program called Cluster as follows:  one cycle of log transformation, five cycles of median centering of genes, and five cycles of normalizing genes to generate a log-transformed, median polished, and normal (magnitudes close to 1.0) dataset. Keywords = HDEC, SSc sera stimulation Keywords: time-course
-

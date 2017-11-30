@@ -1,0 +1,18 @@
+TITLE
+Lineage-Specific Chromatin Signatures Reveal a Master Lipid Switch in Microalgae
+
+ORGANISM
+Chlamydomonas reinhardtii
+
+SUMMARY
+Alga-derived lipids represent an attractive potential source of biofuels. However, lipid accumulation in algae is a stress response tightly coupled to growth arrest, thereby imposing a major limitation on productivity. To identify master regulators of lipid accumulation and decipher the regulation of lipid biosynthetic pathway, we performed an integrative chromatin signature and transcriptomic analysis in the alga Chlamydomonas reinhardtii. Genome-wide histone modification profiling revealed remarkable differences in functional chromatin states between algae and higher eukaryotes and uncovered regulatory components at the core of lipid accumulation pathways. We identified the transcription factor PSR1 as a pivotal master switch that triggers cytosolic lipid hyper-accumulation an order of magnitude higher than stress regimens have achieved. Dissection of the PSR1 target network corroborates its central role in coordinating multiple stress responses. The comprehensive maps of functional chromatin signatures in a major clade of eukaryotic life and the discovery of a central regulator of algal lipid metabolism will facilitate targeted engineering strategies in microalgae.
+
+DESIGN
+1. Genome-wide H3K4me3 time series profiling (at 0 hr, 10 min, 30 min, 1 hr, 2hr, 6 hr, 8 hr, 24 hr and 48 hr after nitrogen starvation) was performed to determine time point to capture maximal chromatin changes. 2. Genome-wide H3K4me3, H3K27ac, H3K9me3, H3K27me3, H3K36me3 and Pol II profiling were performed at 0 hr, 1 hr after nitrogen starvation and 1 hr after sulfur starvation to determine chromatin signatures. Genome-wide H3K4me2 profiling was performed at 0 hr before starvation. 3. Transcriptome time series profiling (at 0 hr, 10 min, 30 min, 1 hr, 2hr, 6 hr, 8 hr, 24 hr and 48 hr after nitrogen and sulfur starvation separately) for chromatin signature characterization and integrative analysis. 4. Genome-wide PSR1 binding profiling was performed with polyclonal antibody against PSR1 peptide A region and PSR1 peptide B region individually. (At 30 min and 1 hr after nitrogen starvation, and 1 hr, 2 hr and 6 hr after sulfur starvation.) Please note that the following reference genome and gene models used in these experiments are linked below; C.reinhardtii_v5.3_genomic_scaffold_plastids.fasta.gz reference_gene_model.gtf.gz These are based off Phytozome ( http://www.phytozome.net/ ) which does not provide access to earlier version data.
+
+PLATFORM
+GPL15922 Illumina HiSeq 2000 (Chlamydomonas reinhardtii) GPL18983 Illumina MiSeq (Chlamydomonas reinhardtii)
+
+CITATIONS
+Nature Plants 1, Article number: 15107 (2015) doi:10.1038/nplants.2015.107 Lineage-specific chromatin signatures reveal a regulator of lipid metabolism in microalgae. Chew Yee Ngan, Chee-Hong Wong, Cindy Choi, Yuko Yoshinaga, Katherine Louie, Jing Jia, Cindy Chen, Benjamin Bowen, Haoyu Cheng, Lauriebeth Leonelli, Rita Kuo, Richard Baran, José G. García-Cerdán, Abhishek Pratap, Mei Wang, Joanne Lim, Hope Tice, Chris Daum, Jian Xu, Trent Northen, Axel Visel, James Bristow, Krishna K. Niyogi & Chia-Lin Wei
+

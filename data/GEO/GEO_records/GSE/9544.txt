@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of NF-kB's Rel and RelA proteins
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Rel and RelA proteins were stably expressed in the chicken DT40 pre-B cell line and analyzed by transcription profiling to identify  transformation-impacting genes regulated by NF-kB’s oncogenic v-Rel and c-Rel proteins. This analysis uncovered both common and differential  gene expression profiles in cells expressing Rel vs. RelA proteins, and revealed that Rel protein expression can lead to gene-specific  transcriptional repression, as seen for key B-cell receptor (BCR) components and signaling molecules like B-cell linker (BLNK), the B-cell  adaptor for PI3K (BCAP) and Igλ. These were also downregulated in cells expressing a transformation-competent chimeric RelA/v-Rel protein,  suggesting a correlation with the capacity of Rel proteins to transform lymphocytes. DNA binding, ChIP and transformation assays indicate  that downregulation of BLNK and BCAP is an important contributing factor to the malignant transformation of lymphocytes by Rel and suggest that gene repression may be as important as transcriptional activation for the transforming activity of Rel proteins. Keywords: Comparative transcriptional profiling
+
+DESIGN
+v-Rel, c-Rel (chicken, mouse, human), RelA (mouse, human) or a human RelA/v-Rel chimera were stably expressed at equivalent levels in the  chicken pre-B-cell line DT40. Three independent cell clones were analyzed for each protein, using dye-swap experiments. Their gene expression profiles were compared to that of parental DT40 cells by cDNA microarray. Triplicate data sets were averaged to identify changes in gene expression in response to expression of each of these proteins. Differential expression analysis was performed using CyberT (Baldi and Long, Bioinformatics, 2001), a Bayesian t-statistic methodology that is designed for microarray analyses in studies with low replicate numbers. For our CyberT analysis, we employed the default parameters. Differential gene expression was identified by ranking each gene's corresponding Bayesian p-values and applying a false discovery rate correction of 5% (Benjamini and Hochberg, J R Statistical Soc Ser B - Methodological, 1995). In addition, we applied a fold-change threshold of ± 1.5 as an additional criterion. Accordingly, relative expression levels for a given gene with a p-value that satisfies the FDR condition and fold-change criteria were identified as differentially expressed.  Note: relative expression levels were transformed to natural log  (ln) for CyberT analysis and the results are reported in those units. Results of differential expression analysis are reported in the supplementary table " Differentially-expressed genes for each condition " where 1=TRUE, 0=FALSE.
+
+PLATFORM
+GPL6069 FHCRC Immunology Chicken 4.2k cDNA microarray
+
+CITATIONS
+18245482
+

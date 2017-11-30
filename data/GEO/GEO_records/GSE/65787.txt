@@ -1,0 +1,18 @@
+TITLE
+Evidence from mRNA-Sequencing that Acute Olanzapine Infusion is Initiating a Skeletal Muscle Fiber Type Transition In Rat Gastrocnemius
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+The purpose of this study was to examined the acute actions of the second generation antipsychotic (SGA), olanzapine, on skeletal muscle (gastrocnemius) of Sprague Dawley Rats.  SGAs cause metabolic side effects including leading to metabolic inflexibility, hyperglycemia, adiposity and diabetes. These effects are preceded by glucose intolerance and increased FFA flux and metabolism in peripheral tissues. Skeletal muscle is a likely target of glucose intolerance, therefore understanding how olanzapine affects the skeletal muscle transcriptome could elucidate approaches for mitigating these side effects.  Male Sprague-Dawley rats freely fed on normal chow with comparable body weights (vehicle: 373±9g, olanzapine: 388±11g, p=0.34) were infused with vehicle or olanzapine for 24h using a dosing regimen leading to mild hyperglycemia  (vehicle, 98±2mg/dl; olanzapine 127±4mg/dl, p=0.0023). For the olanzapine group, the venous catheter was attached to a syringe pump (Model NE-300) filled with olanzapine (Dr. Reddy’s Laboratories Ltd, Hyderabad, India) in sterile saline (infusion: 1mg/100g BW loading dose for 0.5h and then 0.04mg/100g/h continuously for 23.5h).  Gastrocnemius was then surgically removed under isoflurane anesthesia (carried with 100% O2), and frozen between two aluminum blocks cooled to the temperature of liquid nitrogen and then stored at -80oC until RNA was isolated.  With anesthesia gas flow continuing, the animals were euthanized by cutting the diaphram and removing the heart.  The mRNA was isolated from from these muscles and used for RNA-Seq followed by alignment of the data with the rat genome assembly 5.0.  To determine significant differences in FPKM values between control and olanzapine groups, the DEGexp function of the DEGseq 1.18.0 R package was used with the Likelihood Ratio Test (LRT) and default parameters.  In the uploaded excel file, P values with  p < 0.05 and p < 0.001 are shown for each row in different columns indicated by the number 1.  The value 0 indicates the row is not significantly different.
+
+DESIGN
+Comparison of vehicle (n=3) and olanzapine infused (n=3) rats.
+
+PLATFORM
+GPL18694 Illumina HiSeq 2500 (Rattus norvegicus)
+
+CITATIONS
+25893406
+

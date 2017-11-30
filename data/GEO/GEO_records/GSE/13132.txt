@@ -1,0 +1,18 @@
+TITLE
+Identification of genes regulated by gadE in E. coli O157:H7
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Integrating laterally acquired virulence genes into the backbone regulatory network is important for the pathogenesis of Escherichia coli O157:H7, which has captured many virulence genes through horizontal transfer during evolution. GadE is an essential transcriptional activator of glutamate decarboxylase (GAD) system, the most efficient acid resistance mechanism in E. coli. The full contribution of GadE to the acid resistance and virulence of pathogenic E. coli O157:H7 remains largely unknown. We inactivated gadE in E. coli O157:H7 Sakai and compared global transcription profiles with that of wild type in exponential and stationary phases of growth using microarrays containing 6088 ORFs from three E. coli genomes. gadE inactivation significantly altered the expression of 60 genes independent of growth phase and 122 genes in a growth phase-dependent manner. Inactivation of gadE markedly down-regulated the expression of gadA, gadB, gadC and many acid fitness island genes in a growth phase-dependent manner. Nineteen genes encoded on the locus of enterocyte effacement (LEE), including ler, showed a significant increase in expression upon gadE inactivation. Altogether, our data indicate that GadE is critical for acid resistance of E. coli O157:H7 and plays an important role in virulence by down-regulating expression of LEE.
+
+DESIGN
+The results are based on O157:H7 Sakai wild type and gadE mutant exponential and stationary phase cultures grown in MOPS minimal medium. Differences in transcript levels were determined using a mixed model ANOVA in R/MAANOVA which tested for significant differences due to growth phase (exponential or stationary), strain (wild type or mutant) and the interaction of these two factors using the following linear model: array+dye+sample (biological replicate)+ phase+strain+phase*strain. We incorporated the dye-swaps among the biological replicates.
+
+PLATFORM
+GPL7445 MSU E. coli 6.1.K Ver. 1.0.2
+
+CITATIONS
+19114477
+

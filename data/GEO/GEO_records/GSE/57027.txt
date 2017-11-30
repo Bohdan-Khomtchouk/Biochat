@@ -1,0 +1,18 @@
+TITLE
+Controlling for gene expression changes in transcription factor protein networks.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The development of affinity purification technologies together with mass spectrometric analyses of the purified protein mixtures (AP-MS) has been used both to identify new protein-protein interactions and to define the subunit composition of protein complexes. Transcription factor protein interactions, however, have not been systematically analyzed using these approaches. Here, we have investigated whether ectopic expression of an affinity tagged transcription factor as bait in AP-MS experiments perturbs gene expression in cells resulting in false positive identification of bait associated proteins when typical experimental controls are used. Using quantitative proteomics and RNA-Seq, we determined that the increase in the abundance of a set of proteins caused by overexpression of the transcription factor RelA is not sufficient for these proteins to then copurify non-specifically and be misidentified as bait associated proteins. Therefore typical controls should be sufficient and a number of different baits can be compared with a common set of controls. This is of practical interest when identifying bait interactors from a large number of different baits. As expected, we found several known RelA interactors enriched in our RelA purifications (NFêB1, NFêB2, Rel, RelB, IêBá, IêBâ and IêBå). We also found several proteins not previously described in association with RelA, including the small mitochondrial chaperone Tim13. Using a variety of biochemical approaches, we further investigated the nature of the association between Tim13 and NFêB family transcription factors. The work here therefore provides a conceptual and experimental framework for analyzing transcription faction protein interactions.
+
+DESIGN
+Gene expression profiles were assayed in triplicate from HEK293 cells expressing either Halo-RelA, Halo-NFkB1, or Halo tag alone.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24722732
+

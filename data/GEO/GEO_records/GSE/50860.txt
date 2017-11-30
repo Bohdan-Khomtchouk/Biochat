@@ -1,0 +1,18 @@
+TITLE
+Re-analysis of E-MTAB-1585
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Raw data from E-MTAB-1585 was normalized by using reads per million. https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1585/
+
+DESIGN
+Strand specific RNA-Seq data E-MTAB-1585 was normalized and subtracted control from knockdown to generate tracks that more clearly displayed the unusual pattern of RNA expression caused by knockdown of 7SK. The following wig files were generated from multiple samples (i.e.raw data files), as indicated in the 'readme.txt' file. 7sk_3p_KD_norm.wig: 7SK 3P Knockdown normalized 7sk_3p_KDF_norm.wig: 7SK 3P Knockdown normalized (Forward) 7sk_3p_KDR_norm.wig: 7SK 3P Knockdown normalized (Reverse) 7sk_5p_KD_norm.wig: 7SK 5P Knockdown normalized 7sk_5p_KDF_norm.wig: 7SK 5P Knockdown normalized (Forward) 7sk_5p_KDR_norm.wig: 7SK 5P Knockdown normalized (Reverse) 7sk_Control_norm.wig: 7SK Control normalized 7sk_ControlF_norm.wig: 7SK Control normalized (Forward) 7sk_ControlR_norm.wig: 7SK Control normalized (Reverse) 7sk_3p_KDF-ControlF.wig: 7SK 3P Knockdown-Control (Forward) 7sk_3p_KDR-ControlR.wig: 7SK 3P Knockdown-Control (Reverse) 7sk_5p_KDF-ControlF.wig: 7SK 5P Knockdown-Control (Forward) 7sk_5p_KDR-ControlR.wig: 7SK 5P Knockdown-Control (Reverse)
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24079702
+

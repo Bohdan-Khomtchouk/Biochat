@@ -1,0 +1,18 @@
+TITLE
+The target spectrum of SdsR small RNA in Salmonella
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344
+
+SUMMARY
+Enteric model bacteria such as Escherichia coli and Salmonella enterica express hundreds of small non-coding RNAs (sRNAs), targets for most of which are yet unknown. Some of these sRNAs are remarkably well-conserved, indicating that that they serve cellular functions that go beyond the necessities of a single organism. One of these “core sRNA” of largely unknown functions is the abundant ~100-nucleotide SdsR sRNA which accumulates in stationary phase after transcription by the general stress σ-factor, σS. In Salmonella, SdsR was known to inhibit the synthesis of the species-specific porin, OmpD. However, the sdsR gene is present in almost all enterobacterial genomes, suggesting additional, more conserved targets of this sRNA must exist. Here, we have combined SdsR pulse-expression with whole genome transcriptomics to discover 18 previously unknown targets of SdsR. These new targets include mRNAs coding for physiologically important regulators such as the carbon regulator, Crp, the nucleoid-associated chaperone, StpA and the antibiotic resistance transporter, TolC. SdsR is processed by RNase E giving rise to two independent SdsR variants with distinct target spectra. While the overall physiological role of this orphan core sRNA remains to be fully understood, the here presented catalog of new SdsR targets contains valuable leads to understand sRNA functions in resting bacteria.
+
+DESIGN
+To determine the targets of the small regulatory RNA SdsR in S. Typhimurium, we looked at the effect of a short pulse of SdsR over-expression on the Salmonella transcriptome. To achieve over-expression, the sdsR gene was cloned in the pBAD plasmid and induced with 0.2% L-arabinose for 10 min. We then extracted the total RNA for transcriptional profiling. A strain carrying the pBAD plasmid w/o insert was used as negative control (also induced by L-arabinose). 3 biological replicates were performed. This sRNA target identification strategy has been described in Papenfort et al; Molecular Microbiology (2006) 62(6), 1674–1688.
+
+PLATFORM
+GPL5780 IFR_Salmonella_7.3k_v1.0
+
+CITATIONS
+27407104
+

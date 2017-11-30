@@ -1,0 +1,18 @@
+TITLE
+Assessment of microRNA differential expression and detection in multiplexed small RNA sequencing data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Small RNA sequencing can be used to gain an unprecedented amount of detail into the microRNA transcriptome.  The relatively high cost and low throughput of sequencing bases technologies can potentially be offset by the use of multiplexing. However multiplexing involves a tradeoff between increased number of sequenced samples and reduced number of reads per sample (i.e. lower coverage). To assess the effect of different depths of coverage due to multiplexing on microRNA differential expression and detection, we sequenced the small RNA of lung tissue samples collected in a clinical setting by multiplexing 1, 3, 6, 9, or 12 samples per lane using the Illumina HiSeq 2000. As expected, the numbers of reads obtained per sample decreased as the number of samples in a multiplex increased. Furthermore, after normalization replicate samples included in distinct multiplexes were highly correlated (R > 0.97). When detecting differential microRNA expression between groups of samples, microRNAs with average expression greater than 1 reads per million (RPM) had reproducible fold change estimates (signal to noise) independent of the degree of multiplexing. The number of microRNAs detected was strongly correlated with the Log2 number of reads aligning to microRNA loci (R=0.96). However, most additional microRNAs detected in samples with greater sequencing coverage were in the range of expression which had lower fold change reproducibility. These findings elucidate the tradeoff between increasing the number of samples in a multiplex with decreasing coverage and will aid in the design of large-scale clinical studies exploring microRNA expression and its role in disease.
+
+DESIGN
+The small RNA of lung tissue samples was collected in a clinical setting and sequenced by multiplexing 1, 3, 6, 9, or 12 samples per lane using the Illumina HiSeq 2000
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25519487
+

@@ -1,0 +1,18 @@
+TITLE
+Systematic meta-analysis and replication of genome-wide expression studies identifies molecular pathways of Parkinson’s disease
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Analysis of human dopamine (DA) from postmortem brains of 8 patients with Parkinson’s disease (PD). Results provide insight into the molecular processes perturbed in the PD substantia nigra.
+
+DESIGN
+Human dopamine (DA) neurons from 8 PD and 9 control subjects were obtained. Double-stranded complementary DNA was made with a biotinylated T7(dT)-24 primer. Biotinylated complementary RNA was fragmented and hybridized to Affymetrix human genome U133_X3P microarrays. The Affymetrix .CEL files were normalized to “all probe sets” in a standardized matter, and scaled to 100 by the MAS5 algorithm implemented in the Bioconductor package.
+
+PLATFORM
+GPL1352 [U133_X3P] Affymetrix Human X3P Array
+
+CITATIONS
+20926834
+

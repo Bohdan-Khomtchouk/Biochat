@@ -1,0 +1,18 @@
+TITLE
+Hypoxia is a Key Driver of Alternative Splicing in Human Breast Cancer Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Adaptation to hypoxia, a hallmark feature of many tumors, is an important driver of cancer cell survival, proliferation and the development of resistance to chemotherapy. Hypoxia-induced stabilization of hypoxia-inducible factors (HIFs) leads to transcriptional activation of a network of hypoxia target genes involved in angiogenesis, cell growth, glycolysis, DNA damage repair and apoptosis. Although the transcriptional targets of hypoxia have been characterized, the alternative splicing of transcripts that occurs during hypoxia and the roles they play in oncogenesis are much less understood. To identify and quantify hypoxia-induced alternative splicing events in human cancer cells, we performed whole transcriptome RNA-Seq in breast cancer cells that are known to provide robust transcriptional response to hypoxia. We found 2005 and 1684 alternative splicing events including intron retention, exon skipping and alternative first exon usage that were regulated by acute and chronic hypoxia where intron retention was the most dominant type of hypoxia-induced alternative splicing. Many of these genes are involved in cellular metabolism, transcriptional regulation, actin cytoskeleton organisation, cancer cell proliferation, migration and invasion, suggesting they may modulate or be involved in additional features of tumorigenic development that extend beyond the known functions of canonical full-length transcripts.
+
+DESIGN
+Human breast cancer MCF7 cells were subjected to 4h and 24h hypoxia treatment with a 24h normoxia control. RNA extraction was carried out using the RNeasy Mini kit and subjected to 90bp paired-end sequencing (BGI). Read mapping was conducted using STAR 95 with the human genome issue 19 (hg19) as the annotation library.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28642487
+

@@ -1,0 +1,18 @@
+TITLE
+BioTile Identification of Differentially Methylated Regions in Tiling Microarray Data
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+This submission includes simulated data generated to test the BioTile algorithm's capability of identifying differentially methylated regions (DMR) located within an actual tiling array dataset.
+
+DESIGN
+The data submitted was generated in silico to closely resemble DNA methylation profiles using Affymetrix Mouse Promoter 1.0R Tiling arrays. This simulated dataset of 40 arrays was generated using the " rnorm " function in R to create probe-wise distributions with the same mean and variance as our previously measured dataset (GSE43460).
+
+PLATFORM
+GPL5811 [Mm_PromPR] Affymetrix Mouse Promoter 1.0R Array
+
+CITATIONS
+23452827
+

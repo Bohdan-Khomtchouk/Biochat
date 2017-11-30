@@ -1,0 +1,18 @@
+TITLE
+Array CGH analysis for 29 pancreatic ductal adenocarcinoma (PDAC) samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background/Aims: Microarray-based comparative genomic hybridisation (CGH) has allowed high-resolution analysis of DNA copy number alterations across the entire cancer genome. Recent advances in bioinformatics tools enable us to perform a robust and highly sensitive analysis of array CGH data and facilitate the discovery of novel cancer-related genes. Methods: We analysed a total of 29 pancreatic ductal adenocarcinoma (PDAC) samples (six cell lines and 23 microdissected tissue specimens) using 1 Mb-spaced CGH arrays. The transcript levels of all genes within the identified regions of genetic alterations were then screened using our Pancreatic Expression Database. Results: In addition to 238 high-level amplifications and 35 homozygous deletions, we identified 315 minimal common regions of “non-random” genetic alterations (115 gains and 200 losses) which were consistently observed across our tumour samples. The small size of these aberrations (median size of 880 kb) contributed to the reduced number of candidate genes included (on average 12 Ensembl-annotated genes). The database has further specified the genes whose expression levels are consistent with their copy number status. Such genes were UQCRB, SQLE, DDEF1, SLA, ERICH1 and DLC1, indicating that these may be potential target candidates within regions of aberrations. Conclusion: This study has revealed multiple novel regions that may indicate the locations of oncogenes or tumour suppressor genes in PDAC. Using the database, we provide a list of novel target genes whose altered DNA copy numbers could lead to significant changes in transcript levels in PDAC. (Harada et al. Pancreatology) Keywords: pancreatic ductal adenocarcinima, tissue microdissection, array CGH, genetic alterations
+
+DESIGN
+A panel of 23 microdissected PDAC tissues and 6 PDAC-derived cell lines were analysed using Sanger's CGH arrays with 1 Mb resolution. Clinical info of the samples used is provided as a supplementary file.
+
+PLATFORM
+GPL6181 Human 3K BAC/PAC array (Ensembl Ver39)
+
+CITATIONS
+19077451
+

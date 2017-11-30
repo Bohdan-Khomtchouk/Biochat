@@ -1,0 +1,18 @@
+TITLE
+Next Generation Sequencing of Control and Pbx Mutant Spinal Motor Neuron Transcriptomes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Conducted expression profiling by RNA-seq as unbiased screen to identify genes that are altered in motor neurons of PbxMNΔ mice at e12.5 at brachial and thoracic levels of the spinal cord. Because loss of Pbx genes affects MN organization at all rostrocaudal levels, we focused on genes whose profiles were altered at both brachial and thoracic levels. Methods: We compared gene expression profiles in MNs isolated from control Hb9::GFP and PbxMNΔ; Hb9::GFP embryos at e12.5. MNs were purified by FACS, and RNA was extracted from 9 PbxMNΔ; Hb9::GFP and 9 control Hb9::GFP embryos at brachial and thoracic levels using the Arcturus Picopure RNA isolation kit. 10ng of RNA was pooled from 3 RNA samples of each genotype, and used to amplify 100ng of cDNA using Nugene's Ovation RNA-Seq System V2 kit, 100ng of cDNA for each sample was used as in input to prepare 12 bar coded libraries using the Ovation Ultralow Library system. We then performed expression profiling by RNA-seq. The samples were mixed into two pools and run on two 50-nucleotide paired end read rapid run flow cell lanes with the Illumina HiSeq 2500 sequencer. Generating on average 74 and 101 million reads passing filter for brachial and thoracic samples respectively. Results: This analysis yielded 64 brachial and 124 thoracic genes that were differentially expressed with a stringent cutoff of padj. < 0.05. Of these genes, we found 31 genes in common between the two, brachial and thoracic, levels of the spinal cord that may play a role in motor neuron columnar organization. Furthermore our expression profiling of control brachial and control thoracic MNs identified 61 genes with (padj. < 0.05), that represent distinct molecular profiles of MNs generated at brachial and thoracic levels which may be used to further characterize MNs involved in forelimb and thoracic innervation. Conclusions: Our study represents a detailed transcriptional analysis of embryonic spinal motor neurons and revealed a number of novel motor neuron-specific genes that are under transcriptional regulation of Pbx genes.
+
+DESIGN
+Examination of embryonic spinal MN expression profiles at 2 different spinal cord levels, brachial and thoracic. From RNA collected from 9 pooled Control and 9 PbxMNΔ e12.5 Hb9::GFP FACS MNs.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27568519
+

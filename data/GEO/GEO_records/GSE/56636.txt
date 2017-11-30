@@ -1,0 +1,18 @@
+TITLE
+Formaldehyde-Assisted Isolation of Regulatory Elements (FAIRE) Analysis Uncovers Broad Changes in Chromatin Structure Resulting from Hexavalent Chromium Exposure
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The ability of chromatin to switch back and forth from open euchromatin to closed heterochromatin is vital for transcriptional regulation and genomic stability, and subject to disruption by exposure to environmental agents such as hexavalent chromium. Cr(VI) exposure can cause chromosomal disruption through formation of Cr-DNA adducts, free radical-induced DNA damage, and DNA-Cr-protein and DNA-Cr-DNA cross-links, all of which may disrupt chromatin remodeling mechanisms responsible for maintenance or controlled modification of epigenetic homeostasis. In addition, dose-response analyses have shown that acute exposures to high-concentrations of Cr(VI) and chronic exposures to low-concentrations of the same agent lead to significantly different transcriptomic and genomic stability outcomes.  To investigate how transcriptional responses to chromium exposure might correlate to structural changes in chromatin, we have used whole genome Formaldehyde-Assisted Isolation of Regulatory Elements (FAIRE) analysis coupled with deep sequencing to identify regions of the genome that switch from open to closed chromatin or vice versa in response to exposure to varying Cr(VI) concentrations.  We find that the switch affects gene expression levels in the target areas that vary depending on Cr(VI) concentration.  At either Cr(VI) concentration, chromatin domains surrounding binding sites for AP-1 transcription factors become significantly open, treatment whereas BACH2 and CTCF binding sites are open solely at the low and high concentrations, respectively.  Our results suggest that FAIRE may be a useful technique to map chromatin elements targeted by DNA damaging agents for which there is no prior knowledge of their specificity, and to identify subsequent transcriptomic changes induced by those agents.
+
+DESIGN
+Cr25 treatment and control samples are in duplicate for RNA-seq, and no replicate for FAIRE-seq. Cr0.5 treatment and control samples are in duplicate for RNA-seq, and no replicate for FAIRE-seq.
+
+PLATFORM
+GPL15103 Illumina HiSeq 1000 (Mus musculus)
+
+CITATIONS
+24837440
+

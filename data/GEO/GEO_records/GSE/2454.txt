@@ -1,0 +1,18 @@
+TITLE
+Chemosensitivity prediciton in esophageal cancer cell line using cDNA microarray
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A total of 20 KYSE human esophageal squamous cell carcinoma cell lines (KYSE-30, -140, -150, -170, -180, -200, -220, -350, -410, -450, -510, -520, -590, -770, -850, -890, -1170, -1190, -1250, and -2270) and a non-cancerous esophageal epithelial cell (HEEC-1)were kindly provided by Dr. Y. Shimada (Kyoto University, Kyoto, Japan).  The KYSE cell lines were cultured in RPMI 1640 medium (Life Technologies, Inc., Grand Island, NY) containing 10% heat-inactivated fetal bovine serum (FBS; BioWhittaker, Verviers, Belgium) in a humidified atmosphere of 5% CO2 and maintained in continuous exponential growth by passage every 3 days. HEEC-1 cells were cultured in Keratinocyte SFM medium with growth supplement containing 2.5 mg EGF and 25 mg bovine pituitary extract in 500 mL liquid basal medium (GIBCO BRL, Rockville, MD) and expanded by passage twice in a week. The exponentially growing cultured cells (2 x 10^6) were collected after two-washings with PBS. Total RNA was prepared from the frozen cell pellets using QIAGEN RNeasy mini kit (QIAGEN, Inc., Valencia, CA), and mRNA was purified using MACS mRNA Isolation kit (Miltenyi Biotec, Bergisch Gladbach, Germany) according to the supplier’s protocols. RIKEN human 21K array containing 20,784 clones with positive and negative controls was used to analyze gene expression of 20 KYSE esophageal cancer cell lines using HEEC-1 as reference. The target DNAs used to construct human 21 K array were the glycerol stock of cDNA clones purchased from ResGen (Invitrogen Corporation, Carlsbad, CA)). One-microgram poly(A) RNAs from KYSE cells and the reference cells were labeled with Cy3-dCTP and Cy5-dCTP, respectively, by random-primed reverse transcription. Arrays were laser-scanned using ScanArray 5000TM confocal laser scanner (GSI Lumonics, Billerica, MA), and the images were analyzed using ScanAlyzeTM (Stanford University). All experiments were performed in duplicate (_1 & _2). Keywords: parallel sample
+
+DESIGN
+To explore the genes responsible for chemosensitivity in cancer cells, expression profiles of various cancer cell lines were examined. Statistically comparing them with the chemosensitivity measured by in vitro MTT assay in each cell line, several candidate genes were selected and predicition models for anticancer efficacy were established using their expression levels.
+
+PLATFORM
+GPL1530 RIKEN human 21K array
+
+CITATIONS
+16596231
+

@@ -1,0 +1,18 @@
+TITLE
+High-throughput identification of adaptive mutations in experimentally evolved yeast populations
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+High-throughput sequencing has enabled genetic screens that can rapidly identify mutations that occur during experimental evolution. The presence of a mutation in an evolved lineage does not, however, constitute proof that the mutation is adaptive, given the well-known and widespread phenomenon of genetic hitchhiking, in which a non-adaptive or even detrimental mutation can co-occur in a genome with a beneficial mutation and the combined genotype is carried to high frequency by selection. We approximated the spectrum of possible beneficial mutations in Saccharomyces cerevisiae using sets of single-gene deletions and amplifications of almost all the genes in the S. cerevisiae genome. We determined the fitness effects of each mutation in three different nutrient-limited conditions using pooled competitions followed by barcode sequencing. Although most of the mutations were neutral or deleterious, ~500 of them increased fitness. We then compared those results to the mutations that actually occurred during experimental evolution in the same three nutrient-limited conditions. On average, ~35% of the mutations that occurred during experimental evolution were predicted by the systematic screen to be beneficial. We found that the distribution of fitness effects depended on the selective conditions. In the phosphate-limited and glucose-limited conditions, a large number of beneficial mutations of nearly equivalent, small effects drove the fitness increases. In the sulfate-limited condition, one type of mutation, the amplification of the high-affinity sulfate transporter, dominated. In the absence of that mutation, evolution in the sulfate-limited condition involved mutations in other genes that were not observed previously—but were predicted by the systematic screen. Thus, gross functional screens have the potential to predict and identify adaptive mutations that occur during experimental evolution. Previously version available on bioRXiv.
+
+DESIGN
+Each array is a comparative genomic hybridization of a test sample DNA versus wt genomic DNA. Two of the experiments compare the DNA content of an experimentally evolved population against the ancestral DNA. The remaining 6 arrays are CGH of population samples from pooled library competition studies versus a wt strain. Data were normalized according to the default Agilent settings.
+
+PLATFORM
+GPL4131 Agilent-014810 Yeast Whole Genome ChIP-on-Chip Microarray 4x44K (G4493A)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis of alternative splicing in Caenorhabditis elegans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Alternative splicing (AS) plays a crucial role in the diversification of gene function and regulation. Consequently, the systematic identification and characterization of temporally regulated splice variants is of critical importance to understanding animal development. We have used high-throughput RNA sequencing and microarray profiling to analyze AS in C. elegans across various stages of development. This analysis identified thousands of novel splicing events, including hundreds of developmentally regulated AS events. To make these data easily accessible and informative, we constructed the C. elegans Splice Browser, a web resource in which researchers can mine AS events of interest and retrieve information about their relative levels and regulation across development. The data presented in this study, along with the Splice Browser, provides the most comprehensive set of annotated splice variants in C. elegans to date, and is therefore expected to faciliate focused, high resolution in vivo functional assays of AS function.
+
+DESIGN
+Alternative splicing events were identified from alignments of C. elegans mRNA/EST sequences (UniGene Build #26) to C. elegans genomic sequence (NCBI timestamp: Sept. 25, 2006), essentially as previously described (Pan et al. 2005; Pan et al. 2004). In total, 499 cassette type AS events were identified. For each AS event, 3 exon probes and 3 exon junction probes were designed to profile the AS event on the microarray, essentially as previously described (Pan et al. 2004). This submission represents the expression microarray component of the study.
+
+PLATFORM
+GPL11296 Agilent Caenorhabditis elegans Alternative Splicing 244K Array
+
+CITATIONS
+21177968
+

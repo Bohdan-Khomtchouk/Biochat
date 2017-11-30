@@ -1,0 +1,18 @@
+TITLE
+Robust enumeration of cell subsets from tissue expression profiles (BeadChip)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We introduce CIBERSORT, a method for characterizing cell composition of complex tissues from their gene expression profiles. When applied to enumeration of hematopoietic subsets in RNA mixtures from fresh, frozen, and fixed tissues, including solid tumors, CIBERSORT outperformed other methods with respect to noise, unknown mixture content, and closely related cell types. CIBERSORT should enable large-scale analysis of RNA specimens for cellular biomarkers and therapeutic targets ( http://cibersort.stanford.edu ).
+
+DESIGN
+To evaluate the performance of CIBERSORT against flow cytometry, gene expression profiling was performed on a set of 20 PBMC samples comprised of adults of varying ages receiving influenza immunization (NCT01827462). These samples were analyzed by flow cytometry to enumerate several leukocyte subsets. Normalized gene expression data and accompanying flow cytometry data are available at the CIBERSORT website ( http://cibersort.stanford.edu/download.php ).
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+25822800
+

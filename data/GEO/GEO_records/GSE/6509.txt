@@ -1,0 +1,18 @@
+TITLE
+Gene Profile of RU486 effect on LPS induced gene expression in CNS.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The study was designed in order to identify genes differentially expressed when glucocorticoid signaling is blocked by a glucocorticoid-receptor antagonist (RU486 – mifepristone) in the context of brain inflammation induced by bacterial lipopolysaccharide (LPS). LPS is only able to cause murine brain damage in our experimental conditions upon RU486 pre-treatment. Hence, the study may reveal potential candidate genes to mediate neuroprotection or neurotoxicity. Due to the factorial design of the experiment, RU486 main-effect could be dissociated from the effects resultant of RU486/inflammation interaction. In addition, brain dissection was conducted to verify the effects in the brain side ipsilateral or contralateral to the site of intracerebral LPS infusion. Keywords: Brain, CNS, LPS, Glucocorticoid, RU486, Mifrespitone, Innate immune response, Inflammation, Affymetrix, Gene profile, Neuroprotection, Neurodegeneration, Factorial design.
+
+DESIGN
+C57Bl/6 mice received an i.p. injection of vehicle (DMSO - 50 microliters) or RU486 (50 mg/kg) and were submitted to surgery 4 h later. The mice receiving intraparenchymal injections were anesthetized and the right caudate putamen was reached, using a small cannula at the coordinates 0.0 mm anteroposterior, -2.0 mm lateral, and -3.0 mm dorsoventral according to a mouse brain atlas. The animals received an infusion of sterile pyrogen-free saline (1 microliter) or LPS (from Eschericia coli; serotype O55:B5; Sigma L2880 - 2.5 micrograms) over 2 min by means of a microinjection 18 pump. Animals were killed 12 h after the intracerebral infusion. The mice were anesthetized under isofluorane and blood was drawn via cardiac puncture before head decapitation. Brains were removed rapidly from the skulls and placed in cold phosphate buffered saline (PBS) solution. A brain region limited at plane anteroposterior +1.5 to -1.5 and dorsoventral -4.0 was dissected, separated in ipsilateral side and quickly immersed in liquid nitrogen. The tissue was stored at -80 oC until RNA extraction was performed. A total of 37 chips (MOE430A – Affymetrix, Santa Clara, CA) were used for oligonucleotide array analysis [one chip per biological sample; 8 groups (contralateral dmso/saline, dmso/LPS, RU486/saline, RU486/LPS and ipsilateral dmso/saline, dmso/LPS, RU486/saline, RU486/LPS) with 4 – 6 biological replicates each]. Expression values from the CEL files generated from scanning were obtained using RMA algorithm, available at http://www.bioconductor.org. The expression values were also inspected with GeneSpring software (Silicon Genetics). Statistical analysis was performed considering a factorial linear model according to the methods implemented in Limma package (R project packages are available at http://www.cran.r-project.org ).
+
+PLATFORM
+GPL339 [MOE430A] Affymetrix Mouse Expression 430A Array
+
+CITATIONS
+17375196
+

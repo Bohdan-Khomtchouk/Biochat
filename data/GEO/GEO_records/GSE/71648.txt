@@ -1,0 +1,18 @@
+TITLE
+p52 transgenic expression with or without LPS in mouse lungs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To understand the mechanism by which p52 expression augments tumorigenesis, gene expression microarray analysis was performed using mRNA isolated from lungs of CCSP-p52 and WT mice on dox for 1 week to identify genes with altered expression in CCSP-p52 mice. The microarray dataset includes eight samples, with two replicates for each combination of two factors (p52 and LPS).Since samples with and without LPS stimulation were processed and microarray profiled at the same time, we assumed the random data variations were similar across all samples and built a linear model across the eight samples accounting for both p52 and LPS experimental factors.  The coefficient (estimated log fold change) and p-value associated with the p52 factor were retrieved for the selection of differentially expressed genes. When selecting top-ranking p52-induced genes, only probe sets mapping to known genes and having positive expression changes were considered. While the used microarrays were Affymetrix Mouse Gene 1.0 ST arrays, in the later step of probe set annotation we used annotation table associated with Mouse Gene 1.1 ST (GPL11533 table). The Robust Multichip Average method implemented in R package “oligo” (v1.28.3) was employed to normalize imported raw data. Probe sets interrogating control, unmapped, or intron sequences were ignored, leaving 79% of probe sets for a differential expression analysis. Linear models and empirical Bayes methods implemented in R package “limma” (v3.20.8) were applied to estimate log fold changes and p-values for the p52-vs-WT effect.
+
+DESIGN
+CCSP-p52 transgenic mice generated from CCSP-tTS/(tet-O)7-FLAG-p52 founder lines were targeted mice. Age- and sex-matched genotype-negative littermate controls were designated as WT mice. Transgene expression was activated by administering 2 g/L dox (Sigma) along with 2% sucrose in drinking water. The lungs of CCSP-p52 and WT mice on dox for 1 week and mice on dox for 1 week 48 hours after intratracheal LPS administration were harvested, and three mice were pooled for each of samples. For half samples, LPS (Lipopolysaccharide) was adminstered. As a result, a total of 8 samples (2 WT dox only, 2 WT with LPS, 2 CCSP-p52 dox only, 2 CCSP-p52 with LPS) were microarray profiled.
+
+PLATFORM
+GPL11533 [MoGene-1_1-st] Affymetrix Mouse Gene 1.1 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

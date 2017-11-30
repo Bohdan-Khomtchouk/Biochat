@@ -1,0 +1,18 @@
+TITLE
+Identification of Transcription Factor NHR-6::GFP Binding Regions in L4
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+modENCODE_submission_3836 This submission comes from a modENCODE project of Michael Snyder. For full list of modENCODE projects, see http://www.genome.gov/26524648 Project Goal: We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology. For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf
+
+DESIGN
+EXPERIMENT TYPE: CHIP-seq. BIOLOGICAL SOURCE: Strain: OP90(official name : OP90 genotype : unc-119(ed3) III; wgIs90 [unc-119(+) nhr-6::TY1::EGFP::3xFLAG] outcross : 0 mutagen : None tags : GFP::3xFlag description : This strain's transgene was constructed by Mihail Sarov at the Max Planck Institute for Cell Biology in Tubiginen using Tony Hyman's recombineering pipeline.  The resulting plasmid was used for biolistic transformation of an unc-119(ed3) strain.  The NHR-6::EGFP fusion protein is expressed in neurons surrounding pharynx at L2 stage.  This strain was used for ChIP-seq experiments to map the in vivo binding sites for the NHR-6 transcription factor. made_by : R. Waterston ); Developmental Stage: L4; Genotype: unc-119(ed3) III; wgIs90 [unc-119(+) nhr-6::TY1::EGFP::3xFLAG]; Sex: Hermaphrodite;  EXPERIMENTAL FACTORS: Developmental Stage L4; Target gene nhr-6; Strain OP90(official name : OP90 genotype : unc-119(ed3) III; wgIs90 [unc-119(+) nhr-6::TY1::EGFP::3xFLAG] outcross : 0 mutagen : None tags : GFP::3xFlag description : This strain's transgene was constructed by Mihail Sarov at the Max Planck Institute for Cell Biology in Tubiginen using Tony Hyman's recombineering pipeline.  The resulting plasmid was used for biolistic transformation of an unc-119(ed3) strain.  The NHR-6::EGFP fusion protein is expressed in neurons surrounding pharynx at L2 stage.  This strain was used for ChIP-seq experiments to map the in vivo binding sites for the NHR-6 transcription factor. made_by : R. Waterston ); temp (temperature) 20 degree celsius
+
+PLATFORM
+GPL9309 Illumina Genome Analyzer (Caenorhabditis elegans)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

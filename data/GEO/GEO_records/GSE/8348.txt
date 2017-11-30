@@ -1,0 +1,18 @@
+TITLE
+trxB1 overexpression response to hydrogen peroxide stress in Lactobacillus plantarum WCFS1
+
+ORGANISM
+Lactobacillus plantarum WCFS1
+
+SUMMARY
+Two independent chemostat cultivations were performed for both wild type and trxB1 over-expression strain, NZ7602. Three hybridization experiments, all with the same hybridization scheme (see overall design), were performed with samples obtained from these chemostats before and after treatment with hydrogen peroxide (30 minutes 2.5 mM peroxide). Two of these experiments used samples obtained from the same fermentation. In each experiment three arrays were used. Per array two cDNA labeled targets were hybridized on custom designed L. plantarum WCFS1 11K Agilent oligo microarrays (GEO Acc. Nr. GPL4318) using the Agilent 60-mer oligo microarray processing protocol version 4.1. These microarrays contained an average of 3 probes per gene. Dried slides were scanned in the Scan Array Express (PerkinElmer Life Sciences; Packard Bioscience) at 10 microns.  Spot intensity data was quantified (average intensity) in ImaGene version 5.0 (BioDiscovery, Inc., El Segundo, CA). Signal intensities of all probes were corrected against background and normalized by fitting a plot of M (= 2log [cy5 intensity/cy3 intensity]) against A (= 0.5 • 2log [cy5 intensity • cy3 intensity]) using the lowess algorithm in BASE [32]. The fold change (FC) is defined as 2M. For the statistical analysis we used microarray analysis of variation (R/maanova) [33] In this maanova test we used three variables: fermentation, treatment, and genotype. We tested the model taking into consideration the interaction between genotype and treatment. Significantly regulated genes were defined as genes whose nominal adjusted pvalues were less than 10% and a FC > 1.5. The maanova test resulted only in two sets of interesting data because the interaction effect did not reveal significant changes in transcript levels.  One dataset representing the transcripts affected as a result of the overproduction of TR and another set representing the transcripts affected due to oxidative stress. These two datasets were denominated genotype and hydrogen peroxide datasets respectively. Keywords: hydrogen peroxide stress response
+
+DESIGN
+The hybridization scheme contained the following cDNA comparisons: (1) wildtype with trxB1 over-expression strain (supplementary files GSM206844,GSM206845,GSM206846) (2) wildtype with wildtype treated with hydrogen peroxide (supplementary files GSM206852,GSM206848,GSM206847) ; and (3) wildtype treated with hydrogen peroxide with trxB1 over-expression strain treated with hydrogen peroxide (supplementary files GSM206849,GSM206850,GSM206851).
+
+PLATFORM
+GPL4318 WCFS Lactobacillus plantarum 11K 60-mer array, Version 1, our ID LPAG1
+
+CITATIONS
+17725816
+

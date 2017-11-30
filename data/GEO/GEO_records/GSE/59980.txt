@@ -1,0 +1,18 @@
+TITLE
+Analysis of an artificial zinc finger epigenetic modulator: widespread binding but limited regulation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Artificial transcription factors (ATFs) and genomic nucleases based on a DNA binding platform consist- ing of multiple zinc finger domains are currently be- ing developed for clinical applications. However, no genome-wide investigations into their binding speci- ficity have been performed. We have created six- finger ATFs to target two different 18 nt regions of the human SOX2 promoter; each ATF is constructed such that it contains or lacks a super KRAB do- main (SKD) that interacts with a complex contain- ing repressive histone methyltransferases. ChIP-seq analysis of the effector-free ATFs in MCF7 breast cancer cells identified thousands of binding sites, mostly in promoter regions; the addition of an SKD domain increased the number of binding sites ∼5- fold, with a majority of the new sites located out- side of promoters. De novo motif analyses suggest that the lack of binding specificity is due to sub- sets of the finger domains being used for genomic interactions. Although the ATFs display widespread binding, few genes showed expression differences; genes repressed by the ATF-SKD have stronger bind- ing sites and are more enriched for a 12 nt motif. Interestingly, epigenetic analyses indicate that the transcriptional repression caused by the ATF-SKD is not due to changes in active histone modifications.
+
+DESIGN
+ATF plasmids were designed and stably integrated into MCF7 cells as described in (Stolzenburg et al. 2012).  Stable lines were grown at 30–80% confluency in Dulbecco’s Modified Eagle’s Medium (Corning, Corning, NY) supplemented with 10% heat-inactivated fetal bovine serum (Invitrogen, Life Technologies, Grand Island, NY) and 1% penicillin/streptomycin; cells were selected using 5 µg/ml puromycin (VWR, Radnor, PA) and 200 µg/ml G418 (VWR, Radnor, PA). ATF expression was induced by treatment with media containing 1µg/ml doxycycline (VWR, Radnor, PA) at 0 h, doxycycline media was refreshed at 48 h, and cells were harvested at 72 h. ATF expression was confirmed by hemagglutinin (HA) tag western blot prior to HA ChIP-seq, histone ChIP-seq and RNA-seq analysis.  For HA-tag ChIP-seq, stable MCF7 cell lines were induced using 100 ng/ml doxycycline (Sigma) at 0 h, doxycycline media was refreshed at 48 h, and cells were harvested at 72 h by crosslinking in a final concentration of 1% formaldehyde. Crosslinking was stopped after 5 min by adding glycine to a final concentration of 125 mM. Crosslinked cells were washed in cold phosphate buffered saline, lysed using 1 mL low-salt IP buffer (150 mM NaCl, 50 mM Tris-HCl (pH7.5), 5 mM EDTA, NP-40 (0.5%), Triton X-100 (1%) containing protease inhibitors) and aliquoted at 1 × 10∧7 cells/mL. Cells are then sonicated to a fragment size range of 500–800 bp. Samples were then diluted in 1 mL low-salt buffer and incubated with 3 µL of anti-HA antibody (Covance, Princeton, NJ). Three-hundred microliter Sepharose A beads (GE Healthcare Life Science) were used for pull-down. Samples were sequenced at the UNC-CH Genome Analysis Facil- ity (Chapel Hill, NC) on an HiSeq (Illumina, San Diego, CA) to read counts of 4.1–67.3 M total reads. For histone ChIP-seq, antibodies to H3K4me3 (Cell Signaling Tech- nologies CST9751), H3K9Ac (Cell Signaling Technologies CST9649) and H3K9me3 (Diagenode pAb-056-050) were used; samples were prepared as previously described (O’Geen et al. 2011).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25122745
+

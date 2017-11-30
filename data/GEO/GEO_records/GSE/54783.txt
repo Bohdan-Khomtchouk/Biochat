@@ -1,0 +1,18 @@
+TITLE
+The Osteoblast to Osteocyte Transition: Epigenetic Changes and Response to the Vitamin D3 Hormone [RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Osteocytes are derived from osteoblast lineage cells that become progressively embedded in mineralized bone.  Development of the osteocytogenic cell line IDG-SW3 has enabled a temporal and mechanistic investigation of this process.  Through RNA-seq analyses, we show that while substantial changes in gene expression occur during the osteoblast to osteocyte transition, the majority of the transcriptome remains qualitatively osteoblast-like.  Genes either up-regulated or expressed uniquely in the osteocyte include local and systemic factors such as Sost and Fgf23 as well as genes implicated in neuronal, muscle, vascular, or regulatory function. As assessed by ChIP-seq, numerous changes in epigenetic histone modifications also occur during osteocytogenesis; these are largely qualitative rather than quantitative.  Specific epigenetic changes correlate with altered gene expression patterns that are observed during the transition.  These genomic changes likely influence the highly restricted transcriptomic response to 1,25(OH)2D3 that occurs during differentiation.  VDR binding in osteocytes revealed an extensive cistrome co-occupied by RXR and located predominantly at sites distal to regulated genes.  Although sites of VDR binding were apparent near many 1,25(OH)2D3-regulated genes, the expression of others adjacent to VDR binding sites were unaffected; lack of VDR binding was particularly prevalent at down-regulated genes.  Interestingly, 1,25(OH)2D3 was found to induce the Boc and Cdon co-receptors that are active in hedgehog signaling in osteocytes.  We conclude that osteocytogenesis is accompanied by changes in gene expression that may be driven by both genetic and epigenetic components.  These changes are likely responsible for the osteocyte phenotype and may contribute to reduced sensitivity to 1,25(OH)2D3.
+
+DESIGN
+Two sets of IDG-SW3 differentitiation mRNA-seq experiments are presented here in biological triplicate.  One a differentiation time course in the basal condition at days 3, 7, 14, 21, 28, 35.  The second experiment is IDG-SW3 cells differentiated to day 3 or day 35 and treated with vehicle or 100nM 1,25(OH)2D3 for 24 hours prior to mRNA isolation and sequencing.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24877565
+

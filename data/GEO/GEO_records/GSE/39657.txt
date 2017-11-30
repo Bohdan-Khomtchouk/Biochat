@@ -1,0 +1,18 @@
+TITLE
+Geminin knockdown in embryonic stem cell-derived neural precursors
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Regulating the transition from lineage-restricted progenitors to terminally differentiated cells is a central aspect of nervous system development. Here, we investigated the role of the nucleoprotein Geminin in regulating neurogenesis at a mechanistic level during both Xenopus primary neurogenesis and mammalian neuronal differentiation in vitro. The latter work utilized both neural cells derived from embryonic stem and embryonal carcinoma cells in vitro and neural stem cells from mouse forebrain. In all of these contexts, Geminin antagonized the ability of neural bHLH transcription factors to activate transcriptional programs promoting neurogenesis. Furthermore, Geminin promoted a bivalent chromatin state, characterized by the presence of both activating and repressive histone modifications, at genes encoding transcription factors that promote neurogenesis. This epigenetic state restrains the expression of genes that regulate commitment of undifferentiated stem and neuronal precursor cells to neuronal lineages. Geminin is highly expressed in undifferentiated neuronal precursor cells but is downregulated prior to differentiation. Therefore, these data support a model whereby Geminin promotes the neuronal precursor cell state by modulating both the epigenetic status and expression of genes encoding neurogenesis-promoting factors. Additional developmental signals acting in these cells can then control their transition toward terminal neuronal or glial differentiation during mammalian neurogenesis.
+
+DESIGN
+A mouse embryonic stem (ES) cell line for inducible knockdown of the small nucleoprotein Geminin was utilized. ES cells were used to generate neural precursor cells by monolayer culture in N2B27 media for 5 days, and doxycycline-inducible knockdown of Geminin was performed from day 3. Changes in gene expression resulting from Geminin knockdown were assessed by RNA sequencing. Three experimental replicates were generated for Geminin knockdown (plus Dox) with a corresponding no-Dox control. These were subjected to sequencing, and data were analyzed using TopHat and Cufflinks/Cuffdiff. Transcripts were considered as differentially expressed upon Gem knockdown if data met statistical significance cutoffs in Cuffdiff (sufficient sequence alignments were obtained for analysis and transcript had significant change in FPKM value (normalized transcript abundance; fragments per kb of exon per million fragments mapped) between the no Dox and plus Dox sample pairs) in at least two of the three replicates.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+22949506
+

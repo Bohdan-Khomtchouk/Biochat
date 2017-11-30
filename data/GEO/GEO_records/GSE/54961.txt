@@ -1,0 +1,18 @@
+TITLE
+Epigenome analysis of serum cell-free circulating DNA in progression of HBV-related Hepatocellular carcinoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose:  Aberrantly methylated DNA are hallmarks for many cancers, HCC included. Tumor shed its DNA into circulation stream, and serum DNA methylation analysis is a less-invasive and accessable way to judge the primary tumor status. The goals of this study are to compare DNA methylation profiling in serum cell-free DNA from different stages of HCC progression including healthy control, chronic HBV carrier, HBV-related liver Cirrhosis and HCC, to establish HCC development-related aberrnat DNA methylation patterns. Methods: MBD methylCap/seq was carried out to screen differentially methylated CpG islands in serum cell-free DNA on four different stage of HBV-related HCC development. MSP and multiplex-BSP validation was performed using independent serum DNA or tumor and adjacent tissues. Results: Using a MBD methylCap/seq platform, we produced 33- to 37- million raw reads per sample and mapped them, in about half of the raw reads, to human genome(build h19) in the serum cf DNA of healthy control, HBV carrier, HBV cirrhosis and HCC. The mapped reads formed 180k to 260k peaks per sample, with 160 k common peaks shared by four samples. After subtraction of the common peaks, there left 51k, 107k and 78 k DMRs representing hypermethylations, in HBV carrier, HBV cirrhosis and HCC, respectively. We define those DMRs as early, middle and late when these DMRS occurred and maintained in HBV carrier, HBV cirrhosis and HCC, which including 27k, 24k and 19k DMRs, corresponding to 1,416, 1,337, 1,006 genes. GO analysis of them revealed gene categories and pathways associated with tumorogenenisis related process Conclusions: Our study represents the first detailed analysis of serum cf-DNA methylation profiling in the progression of HBV related HCC development. The processed data analysis here offers a comprehensive evaluation of DNA methylation in serum cf DNA. We conclude that MBD methylCap/seq based methylation profiling would benefit epigenetic research in HCC.
+
+DESIGN
+Serum cell-free DNA fragment enrichment according to their methylation strength by MBD MethylCap/deep sequencing, using illumina GAIIx.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+25859288
+

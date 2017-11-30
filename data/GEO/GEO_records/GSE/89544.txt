@@ -1,0 +1,18 @@
+TITLE
+RNA-seq analysis of hypertension induced by a high calcium intake in Chicken broiler kidney under varied calcium intake
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Chicken (Gallus gallus) were first domesticated from a wild form called red jungle fowl that still runs wild in most of southeast Asia. After then the grey jungle fowl (G. sonneratii) was hybridized, which was occurred probably about 8,000 years ago, and domestic chickens have been selected to have ideal economic traits such as a meat and a laying breed. In these breeds, a meat breed such as broiler is the most distributed in poultry industry. In addition, calcium is essential for normal cellular function and blood coagulation. However, it caused the hypocalcemia and the hypercalcemia if calcium intake was less and more than adequate calcium intake such as hypocalcemia and hypercalcemia, which is related to hypertension and blood pressure. So, we generated RNA-seq data from nine chicken broilers according to calcium intake (0.8, 1.0 and 1.2percent) for gene expression profiling. As a result, we identified differentially expressed genes (DEGs) using cufflinks (128 DEGs between 0.8 versus 1.0 percent, 141 DEGs between 0.8 versus 1.2 percent and 103 DEGs between 1.0 versus 1.2 percent), also 12 DEGs were identified by generalized linear model (GLM) within edgeR. We identified that these DEGs were related to hypertension and blood pressure through the KEGG pathway enrichment, the co-occurrence and the protein/protein interaction (PPI) network analysis. In summary, the objective of this study was to investigate the influence of increasing calcium intake in chicken broilers kidney. Therefore, we suggested that higher calcium intake than adequate in chicken broilers can caused the hypertension and high blood pressure.
+
+DESIGN
+whole mRNA sequencing profiles of 10 chicken broiler (nine profiles of kidney tissue)
+
+PLATFORM
+GPL16133 Illumina HiSeq 2000 (Gallus gallus)
+
+CITATIONS
+28924246
+

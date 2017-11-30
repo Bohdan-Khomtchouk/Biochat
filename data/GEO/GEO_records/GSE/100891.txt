@@ -1,0 +1,18 @@
+TITLE
+Identification of downstream genes regulated by YAP1 through knockdown and overexpression of YAP1 in U251 cell with a stably expression of mutant APP
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Upstream regulator genes are central hub nodes in a network and their expression may response to  upstream trigger factors of a disease and influence expression of hundreds of downstream genes, and further facilitate disease development. Therefore, the identification of upstream regulator genes are vital for understanding the pathophysiology of the disease and seek for potential therapeutic targets for the treatment of the disease. YAP1 was identified as a candidate upstream regulator for Alzheimer's disease (AD) in our study. To test whether expression alterations of YAP1 can lead to AD expression network disturbance and thus promoting AD progression, we knockdown and overexpressed YAP1 in U251 cell line with a stably expression of mutant APP (K670N/M671L) (U251-APP cells). RNA-seq (by IlluminaHiseq 4000) and following analyses were then performed to detect genes whose expression were influenced by YAP1 expression changes. The results indicated that expression alterations of YAP1 can significantly disturbe the whole AD expression network.
+
+DESIGN
+YAP1 inteference and overexpression were performed in U251 cell with a stably expression of mutant APP (K670N/M671L) (U251-APP cells) with three biological triplicates for each condition (siNC, si-YAP1, vector, and YAP1, one outlier for YAP1 overexpression was removed).  Differential expression genes were obtained by comparing gene expression levels in YAP1 knockdown (si-YAP1) or overexpression (YAP1) cells with control cells (siNC or vector).
+
+PLATFORM
+GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+28923553
+

@@ -1,0 +1,18 @@
+TITLE
+Chromatin extrusion explains key features of loop and domain formation in wild-type and engineered genomes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We recently used in situ Hi-C to create kilobase-resolution 3D maps of mammalian genomes. Here, we combine these with new Hi-C, microscopy, and genome-editing experiments to study the physical structure of chromatin fibers, domains, and loops. We find that the observed contact domains are inconsistent with the equilibrium state for an ordinary condensed polymer. Combining Hi-C data and novel mathematical theorems, we show that contact domains are also not consistent with a fractal globule. Instead, we use physical simulations to study two models of genome folding. In one, intermonomer attraction during polymer condensation leads to formation of an anisotropic " tension globule. " In the other, CTCF and cohesin act together to extrude loops during interphase. Both models are consistent with the observed contact domains and with the observation that contact domains tend to form inside loops. However, the extrusion model explains a far wider array of observations, such as why loops tend not to overlap and why the CTCF-binding motifs at pairs of loop anchors lie in the convergent orientation. Finally, we perform 13 genome-editing experiments examining the effect of altering CTCF-binding sites on chromatin folding. The convergent rule correctly predicts the affected loop in every case. Moreover, the extrusion model accurately predicts in silico the 3D maps resulting from each experiment using only the location of CTCF-binding sites in the WT. Thus, we show that it is possible to disrupt, restore, and move loops and domains using targeted mutations as small as a single base pair.
+
+DESIGN
+in situ Hi-C and HYbrid Capture Hi-C (Hi-C2) were used to probe the three-dimensional structure of the genome in two different human cell types before and after genome editing.
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL20795 HiSeq X Ten (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+ChIP-nexus: a novel ChIP-exo protocol for improved detection of in vivo transcription factor binding footprints
+
+ORGANISM
+Drosophila melanogaster ; Homo sapiens
+
+SUMMARY
+Understanding how eukaryotic enhancers are bound and regulated by specific combinations of transcription factors is still a major challenge. To better map transcription factor binding genome-wide at nucleotide resolution in vivo, we have developed a robust ChIP-exo protocol called ChIP-nexus (chromatin immunoprecipitation experiments with nucleotide resolution through exonuclease, unique barcode and single ligation), which utilizes an efficient DNA self-circularization step during library preparation. Application of ChIP-nexus to four proteins—human TBP, Drosophila NFkB, Twist and Max—showed that it outperformed existing ChIP protocols in resolution and specificity, pinpointed relevant binding sites within enhancers containing multiple binding motifs, and allowed for the analysis of in vivo binding specificities. Notably, we show that Max frequently interacted with DNA sequences next to its motif, and that this binding pattern correlated with local DNA-sequence features such as DNA shape. ChIP-nexus will be broadly applicable to the study of in vivo transcription factor binding specificity and its relationship to cis-regulatory changes in humans and model organisms.
+
+DESIGN
+ChIP-nexus was performed against Dorsal (Drosophila melanogaster embryos), Twist (Drosophila melanogaster embryos), Max (Drosophila melanogaster S2 cells), Myc (Drosophila melanogaster S2 cells), and TBP (Human K562 cells)
+
+PLATFORM
+GPL10942 AB SOLiD System 3.0 (Drosophila melanogaster) GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+25751057
+

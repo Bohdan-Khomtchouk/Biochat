@@ -1,0 +1,18 @@
+TITLE
+Comparison of RNA Amplification Techniques meeting the demands for the Expression Profiling of Clinical Cancer Samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+For microarray experiments starting with nanogram amounts of RNA it is essential to implement reproducible and powerful RNA amplification techniques. Available methods were mainly tested for reproducibility, only a few studies concentrated on potential amplification bias. We evaluated three amplification protocols, which are less time-consuming than the commonly used T7-RNA polymerase based in vitro transcription protocols and therefore may be more suitable for clinical use: Template Switching (TS)-PCR (SMART-PCR Kit, BD), Ribo-SPIA (single primer isothermal amplification, Oviation, Nugen) and a random primer-based PCR. Additionally a more sensitive labeling method, Dendrimer-labeling (Genisphere), was evaluated. All methods were compared to unamplified RNA labelled at reverse transcription. Hybridizations  were carried out on a targeted two-colour oligonucleotide microarray. From our results we conclude that RNA amplification with TS-PCR is highly reproducible and results in a reliable representation of the starting RNA population. We then assessed whether RNA amplification of clinical breast and thyroid cancer samples with TS-PCR showed robust performance when altered cycle numbers or partially degraded RNA were used. According to our experiments TS-PCR proved to be a very reliable method for global RNA amplification, even when starting from partially degraded RNA down to a RNA Integrity Number (RIN) of 4.3. Keywords: microarray expression profiling, RNA amplification techniques, RNA integrity
+
+DESIGN
+To compare the methods under test we generated two pools of total RNA from breast cancer cell lines MCF7 and Hs578T, respectively, which were used for to test subsequent techniques. For each method a replication including a dye-swap hybridization was performed. Over all, non-amplifying methods were replicated two times and amplifying methods 4 times. Next, we investigated whether Ribo-SPIA and TS-PCR are suitable for amplification of rather heterogenous clinical breast cancer samples. Total RNA from (estrogen receptor) ER- (patient number 180/03) and ER+ (patient number 254/03) breast cancer samples were chosen as targets for hybridization. As tumor material was limited, only one hybridization of unamplified RNA could be performed. For Ribo-SPIA and TS-PCR (17, 19 and 26 cycles) a replicate including a dye-swap hybridization was carried out. To test test stability of TS-PCR with degraded samples, total RNA from both breast cancer samples was subjected to artificial degradation by heating to 50 degrees Celsius for 0, 25 and 50 minutes. Additionally, thyroid nodules from 3 different patients (604/05, 607/05 and 618/05) were disrupted into several pieces. TS-PCR was performed on total RNA from both breast cancer samples and different extracts from thyroid cancer subpieces, respectively. The amplification product was labeled with Cy3. Universal Reference RNA (Stratagene) was used as a common reference and labeled with Cy5.
+
+PLATFORM
+GPL4190 ARCS_human_1040_BCv3 GPL4192 ARCS_human_1040_BCv5 GPL4203 ARCS_human_1040_tc2
+
+CITATIONS
+17972098
+

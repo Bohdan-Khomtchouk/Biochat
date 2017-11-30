@@ -1,0 +1,18 @@
+TITLE
+Chromatin State and Binding of Lhx2 and Ebf in Olfactory Sensory Neurons
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The monoallelic expression of olfactory receptor (OR) genes is governed by the formation of large domain of heterochromatin over OR clusters and by enhancer elements embedded within these heterochromatic domains. Here we show that OR enhancers are bound by Ebf and Lhx2 in mature olfactory sensory neurons (OSNs), and that in the same cell population these sites are flanked by a histone modification characteristic of active enhancers (H3K7ac) as well as modifications characteristic of heterochromatin (H3K9me3 and H3K79me3). We use ATAC-Seq to show that the pattern of OR enhancer accessibility in subpopulations of mOSNs that express a specific OR gene is very similar to the pattern in mOSNs as a whole. Finally, we perturb Ebf and Lhx2 in mOSNs by conditionally deleting Lhx2 or by expressing an Ebf-Lhx2 fusion protein. We profile the effect of these perturbations on OR gene expression by RNA-seq and on chromatin state by ChIP-Seq and ATAC-Seq.
+
+DESIGN
+Four types of data are included: ATAC-Seq to identify functional elements, Crosslinked ChIP-Seq to identify sites bound by Ebf and Lhx2, native MNase digested ChIP-Seq to identify regions enriched for specific histone modifications (H3K27ac, H3K9me3, H3K79me3), and RNA-Seq to profile changes in gene expression following perturbation of Lhx2 or expression of a dominant negative protein. ChIP-Seq data sets include an input control. The number of replicates varies between experiments.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28933695
+

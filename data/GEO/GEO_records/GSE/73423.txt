@@ -1,0 +1,18 @@
+TITLE
+RNA sequencing-based analysis of the spleen transcriptome following infectious bronchitis virus infection of chickens selected for different mannose-binding lectin serum concentrations
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Background: Avian infectious bronchitis (IB) is an acute and highly contagious disease of the upper-respiratory tract caused by infectious bronchitis virus (IBV). Understanding the molecular mechanisms involved in the interaction between innate and adaptive immune responses to IBV infection is a crucial element for further improvements in strategies to control IB. To this end, two chicken lines, selected for high and low serum concentration of mannose-binding lectin (MBL), a soluble pattern recognition receptor, were studied. In total, 32 birds from each line (designated L10H for high and L10L for low MBL serum concentration, respectively) were used. Sixteen birds from each line were infected with IBV at 3 weeks of age and sixteen birds were left uninfected. Eight uninfected and eight infected birds from each line were euthanized at 1 and 3 weeks post infection. RNA sequencing was performed on spleen samples from all 64 birds used in the experiment. Differential gene expression analysis was performed for four comparisons: L10L line versus L10H line for uninfected birds at weeks 1 and 3, respectively, and L10L line versus L10H line for infected birds at weeks 1 and 3, respectively.  Functional analysis based on the differentially expressed genes was performed using Gene Ontology (GO) Immune System Process terms specific for Gallus gallus. Results: Comparing uninfected L10H and L10L birds, we identified 1698 and 1424 differentially expressed (DE) genes at weeks 1 and 3, respectively. For the IBV-infected birds, 1934 and 866 DE genes were identified between the two lines at weeks 1 and 3, respectively. In both cases DE genes had FDR-adjusted p-value < 0.05. The two most enriched GO terms emerging from the comparison of  uninfected birds between the two lines were “Lymphocyte activation involved in immune response” (GO:0002285) and “Somatic recombination of immunoglobulin genes involved in immune response” (GO:0002204) at weeks 1 and 3, respectively. When comparing IBV-infected birds between the two lines, the most enriched GO terms were “Alpha-beta T cell activation” (GO:0046631) and “Positive regulation of leukocyte activation” (GO:0002696) at weeks 1 and 3, respectively. Conclusion: Healthy birds from the two lines showed significant differences in expression profiles for subsets of both adaptive and innate immunity-related genes, whereas comparison of the IBV-infected birds from the two lines showed differences in expression of immunity-related genes involved in T cell activation and proliferation. The observed transcriptome differences between the two lines indicate that selection for MBL had a much wider effect than solely on serum MBL concentration, and in addition influenced the innate and adaptive immune responses. Future research will focus on identifying signatures of selection in order to further understand molecular pathways be responsible for differences between the two lines as well as for efficient IBV immune protection.
+
+DESIGN
+For this study 64 spleen samples were harvested and used for RNA sequencing from birds originating from the two Aarhus University inbred lines, L10H and L10L. The birds were infected at age of 3 weeks and they were sacrificed 1 and 3 weeks post infection by cervical dislocation and spleen samples were collected. At both time points, eight samples from the two lines, L10H and line L10L, from each group (uninfected and infected) were collected.
+
+PLATFORM
+GPL16133 Illumina HiSeq 2000 (Gallus gallus)
+
+CITATIONS
+26819139
+

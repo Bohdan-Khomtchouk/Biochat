@@ -1,0 +1,18 @@
+TITLE
+The Functional Genomic Landscape of Human Breast Cancer Drivers, Vulnerabilities, and Resistance (RNASeq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Large-scale genomic studies have identified multiple somatic aberrations in breast cancer, including copy number alterations, translocations, and point mutations. Still, identifying causal variants and emergent vulnerabilities that arise as a consequence of genetic alterations remain major challenges. We performed whole genome shRNA “dropout screens” on 77 breast cancer cell lines. Using a new hierarchical linear regression algorithm to score our screen results and integrate them with accompanying detailed genetic and proteomic information, we identify novel vulnerabilities in breast cancer, including new candidate “drivers,” and reveal general functional genomic properties of cancer cells. Comparisons of gene essentiality with drug sensitivity data suggest potential resistance mechanisms, novel effects of existing anti-cancer drugs, and new opportunities for combination therapy.  Finally, we demonstrate the utility of this large dataset by identifying BRD4 as a potential target in luminal breast cancer, and PIK3CA mutations as a resistance determinant for BET-inhibitors. Additional formatted data can be found at http://neellab.github.io/bfg/. Code and tutorials for the siMEM algorithm can be found at http://neellab.github.io/simem/.
+
+DESIGN
+RNA-Seq expression profiling of 82 breast cancer cell lines without replicates or control samples
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26771497
+

@@ -1,0 +1,18 @@
+TITLE
+High-Throughput mapping of the regulatory DNA
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We introduce the Multiplexed Editing Regulatory Assay (MERA), a high-throughput CRISPR/Cas9-based approach that analyzes the regulatory genome for function in its native context.  By tiling thousands of mutations across ~40 kb of cis-regulatory genomic space and using knock-in GFP reporters to read out gene activity, we obtain quantitative information on the contribution of cis-regulatory regions to gene expression.  In addition, we performed a deep-sequencing strategy to  find basepair-resolution functional motifs involved in regulation of the gene by sequencing thousands of functional and non-functional genotypes at genomic locations perturbed by specific guide RNAs.
+
+DESIGN
+Design of 3908 gRNAs to perturb regulatory regions associated with the genes Tdgf1,Nanog,Zfp42 and Rpp25 as well as 10 GFP-targetting positive controls. Also, deep-sequencing of genomic regions mutated by 6 selected gRNAs after sorting the electroporated cells into GFP-positive and GFP-negative populations.
+
+PLATFORM
+GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

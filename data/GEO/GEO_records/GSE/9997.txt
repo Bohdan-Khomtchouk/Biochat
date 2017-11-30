@@ -1,0 +1,18 @@
+TITLE
+Molecular imaging of lymphoid organs and immune activation using PET with a new 18F-labeled 2’-deoxycytidine analog
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Differential gene expression between naive and activated CD8+ T cells was assessed using microarray analysis to determine target genes for new positron emission tomography (PET) probe screening, in particular for molecular imaging of lymphoid organs and immune activation. Keywords: cell activation comparison
+
+DESIGN
+Total RNA was purified from tissues using the Qiagen RNeasy Mini kit.  Total RNA was extracted from purified naïve and proliferating (72 hrs post activation) CD8+ T cells from the pmel-1 TCR transgenic mice. Pooled RNA from 4 independent experiments was hybridized to Affymetrix Mouse Genome 430 2.0 arrays.  Absolute calls describing whether a probe set is present (P), marginally present (M), or absent (A) were generated using the Affymetrix GeneChip Operating Software v1.3 (GCOS) and expression values were calculated using the PM/MM difference model of DNA-Chip (dChip). Expression values across samples were normalized using dChip’s invariant set method. A gene was considered differentially expressed if the corresponding probe set fit the following criteria: absolute call was P in at least half of the samples, fold change > 1.4 between baseline (naïve CD8+ T cells) and experimental (activated CD8+ T cells) using the lower 90% confidence bound of fold change as defined in dChip, and expression difference between the baseline and experimental samples was > 100. Genes involved in the nucleoside de novo biosynthesis and salvage pathways were taken from the KEGG database (pathway IDs 00230 and 00240), and corresponding probe sets were manually extracted from Affymetrix’s NetAffx to ensure complete coverage of all nucleoside pathway genes (239 probe sets), plus the SLC28 and SLC29 transporters (10 probe sets).
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+18542051
+

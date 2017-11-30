@@ -1,0 +1,18 @@
+TITLE
+A Local Regulatory Network Around Three NAC Transcription Factors in Stress Responses and Senescence in Arabidopsis leaves (expression between lines at timepoints).
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+A network model has been generated that describes the immediate gene expression cascade surrounding three similar but distinct NAC transcription factors that have roles to play in leaf senescence and in many stress responses in Arabidopsis.  ANAC019, ANAC055 and ANAC072 belong to the same clade of NAC domain genes and have overlapping expression patterns. A combination of promoter DNA/protein interactions identified using yeast 1 hybrid analysis and modeling using gene expression time course data has been used to predict the regulatory network upstream of these genes. Similarities and divergence in regulation during a variety of stress responses are predicted by different combinations of upstream transcription factors binding and also by the modeling. Mutant analysis with potential upstream genes was used to test and confirm some of the predicted interactions.. Gene expression measurements in mutants of ANAC019 and ANAC055 at different times during leaf senescence have shown a distinctly different role for each of these genes.
+
+DESIGN
+Leaf 7 from the anac019 (genotype 9C11) and anac055 (genotype IM4) mutants and their WT controls, Col-5 and Col-0 respectively, was tagged with cotton 18 days after sowing (DAS) and harvested from five randomly selected plants (biological replicates), 8 h into the light period, at 23, 29, 31, 33 and 35 DAS (full senescence). Variance in expression between lines at timepoints was analysed using a local adaptation of the MAANOVA package as previously described (Breeze et al., Plant Cell 2011 Mar;23(3):873-94. PMID: 21447789) using a loop design including dye swaps.  Genotype DM (double mutant cross between IM4 and 9C11) was also included in the experiment, and was part of the loop design. Results for DM are included here in so far as they played a role in the ANOVA definition of values, but are not discussed in the paper.
+
+PLATFORM
+GPL16132 CATMA Arabidopsis V4 TAIR V9 spotted cDNA array
+
+CITATIONS
+23578292
+

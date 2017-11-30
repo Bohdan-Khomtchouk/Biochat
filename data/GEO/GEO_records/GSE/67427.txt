@@ -1,0 +1,18 @@
+TITLE
+Mycobacterial infection induces a specific human innate immune response
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The innate immune system provides the first response to pathogen infection and orchestrates the activation of the adaptive immune system. Though a large component of the innate immune response is common to all infections, pathogen-specific innate immune responses have been documented as well. The innate immune response is thought to be especially critical for fighting infection with Mycobacterium tuberculosis (MTB), the causative agent of tuberculosis (TB). While TB can be a deadly disease, only 5-10% of individuals infected with MTB develop active disease, and this inter-individual variation is, at least partly, heritable. Studies of inter-individual variation in the innate immune response to MTB infection may therefore shed light on the genetic basis for variation in susceptibility to TB. Yet, to date, we still do not know which properties of the innate immune response are specific to MTB infection and which represent a general response to pathogen infection. To begin addressing this gap, we infected macrophages with eight different bacterial pathogens, including different MTB strains and related mycobacteria, and studied the transcriptional response to infection. We found that although the gene expression changes were largely consistent across the bacterial infection treatments, we were able to identify a novel subset of genes whose regulation was affected specifically by infection with mycobacteria. Genetic variants that are associated with regulatory differences in these genes should be considered candidate loci for explaining inter-individual susceptibility TB.
+
+DESIGN
+RNA-seq of monocyte-derived macrophages isolated from 6 healthy European males at 4, 18, and 48 hours post-infection with the following 8 bacteria:  Mycobacterium tuberculosis (MTB) H37Rv, Mycobacterium tuberculosis GC1237, MTB GC1237, bacillus Calmette-Guérin (BCG), Mycobacterium smegmatis, Yersinia pseudotuberculosis, Salmonella typhimurium, and Staphylococcus epidermidis. table-s1.txt is a tab-delimited text file that contains the batch-corrected log2 counts per million for each of the 156 samples, as well as the Ensembl gene ID and gene name. BCG = bacillus Calmette-Guérin GC =  Mycobacterium tuberculosis GC1237 Rv = Mycobacterium tuberculosis (MTB) H37Rv Rv+ = heat-inactivated MTB H37Rv Salm = Salmonella typhimurium Smeg = Mycobacterium smegmatis Staph = Staphylococcus epidermidis Yers = Yersinia pseudotuberculosis
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26586179
+

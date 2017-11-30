@@ -1,0 +1,18 @@
+TITLE
+Anti-inflammatory Chromatinscape Associated with Clinically Relevant Timing of Glucocorticoid Treatment [DNase-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Despite the widespread use of glucocorticoids (GCs) for treating inflammatory conditions, the underlying mechanisms of their anti-inflammatory effects are not understood.  Moreover, the majority of molecular investigations have examined the effects of glucocorticoid receptor (GR) activation prior to inflammatory challenges.  However, clinically relevant situations are emulated by a GC intervention initiated in the midst of rampant inflammatory responses.  To characterize the effects of a late GC treatment, we performed systematic profiling of macrophage transcriptional and regulatory landscapes with Dexamethasone (Dex) treatment either before or after stimulation by lipopolysaccharide (LPS).  GR activation by Dex following LPS stimulation had a similar anti-inflammatory profile in comparison to GR pre-activation, while ameliorating the disruption of metabolic genes.  Unexpectedly, the chromatin occupancy pattern of GR is not predictive of the Dex-regulated expression changes and shows little evidence for the widely accepted ‘trans-repression by tethering’ model.  Rather, we find that GR activation results in global blockade of NF-κB binding to chromatin.  Integrative analyses of gene expression, transcription factor occupancy, and chromatin accessibility data highlight distinct mechanisms through which GR controls inflammatory macrophages: prevention of NF-κB chromatin occupancy and activation of negative regulators such as Nfkbia, Dusp1, Tnfaip3, and Tsc22d3.  Our investigation with differentially timed GC treatments reveals molecular mechanisms underlying therapeutic actions of GR for modulating the ‘inflamed epigenome’.
+
+DESIGN
+RNA-seq time course (0h, 4h, 10h) and DNase-seq sample replicates from macrophages; RelA/GR ChIP-seq time course sample replicates and input control DNA This is the DNase-seq dataset.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28801231
+

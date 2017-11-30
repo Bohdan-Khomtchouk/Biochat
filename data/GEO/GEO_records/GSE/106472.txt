@@ -1,0 +1,18 @@
+TITLE
+IRF3 and type I interferons fuel a fatal response to myocardial infarction [single cell RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Interferon regulatory factor 3 (IRF3) and type I interferons (IFNs) protect against infections1 and cancer2, but excessive IRF3 activation and type I IFN production cause autoinflammatory conditions such as Aicardi?Goutières syndrome3,4 and STING-associated vasculopathy of infancy (SAVI)3. Myocardial infarction (MI) elicits inflammation5, but the dominant molecular drivers of MI-associated inflammation remain unclear. Here we show that ischemic cell death and uptake of cell debris by macrophages in the heart fuel a fatal response to MI by activating IRF3 and type I IFN production. In mice, single-cell RNA-seq analysis of 4,215 leukocytes isolated from infarcted and non-infarcted hearts showed that MI provokes activation of an IRF3?interferon axis in a distinct population of interferon-inducible cells (IFNICs) that were classified as cardiac macrophages. Mice genetically deficient in cyclic GMP-AMP synthase (cGAS), its adaptor STING, IRF3, or the type I IFN receptor IFNAR exhibited impaired interferon-stimulated gene (ISG) expression and, in the case of mice deficient in IRF3 or IFNAR, improved survival after MI as compared to controls. Interruption of IRF3-dependent signaling resulted in decreased cardiac expression of inflammatory cytokines and chemokines and decreased inflammatory cell infiltration of the heart, as well as in attenuated ventricular dilation and improved cardiac function. Similarly, treatment of mice with an IFNAR-neutralizing antibody after MI ablated the interferon response and improved left ventricular dysfunction and survival. These results identify IRF3 and the type I IFN response as a potential therapeutic target for post-MI cardioprotection.
+
+DESIGN
+We report the application of inDrop single cell RNA-Seq profiling to the analysis of the infarcted mouse heart 4 days after permanent coronary ligation in wild type (Sample 1) and IRf3-/- mice (Sample 2) as well as comparable section of wild type mouse heart with no myocardial infarction (Sample 3) Wild type mice and IRF3-/- mice underwent left anterior descending coronary artery occlusion by permanent suture ligation. After 4 days, hearts were flushed with cold saline, and infarct tissue was collected, stained with DAPI, flow sorted to isolate single cells, and subjected to inDrop barcoding per published protocol (Zilionis et al, Nature Protocols 2016, doi:10.1038/nprot.2016.154)
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

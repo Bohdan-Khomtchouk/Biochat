@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of the Arabidopsis abscission mutant hae hsl2 by RNA-Seq
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+The receptor-like protein kinases encoded by HAESA (HAE) and HAESA-LIKE 2 (HSL2) are essential for floral organ abscission in Arabidopsis thaliana and the double hae hsl2 mutant fails to abscise. Expression of HAE and HSL2 is specific to Abscission Zone (AZ) cells and is higher in stage 15 flowers than in earlier developmental stages. By stage 16 floral organs have begun to abscise, suggesting that HAE HSL2 are most active in stage 15 flowers. Samples were enriched for AZ RNA by isolating RNA from flower receptacles, the region from the base of the flower to slightly above the base of attachment of the sepals, petals, and stamen. RNA-seq was then used to analyze and compare the transcriptomes of wild type and hae-3 hsl2-3 mutants. 2034 genes were differentially expressed with a False Discovery Rate adjusted p < 0.05, of which 349 genes 2 fold or greater change. Of these 349, 277 were lower in the mutant and 72 were higher. Differentially expressed genes with lower expression were enriched for hydrolytic enzymes, cell-wall modifying enzymes, and defense related genes. This suggests that HAE HSL2 signaling regulates gene expression of enzymes necessary for abscission.
+
+DESIGN
+6 samples were sequenced, 3 biological replicates of Col-0 wild type and 3 biological replicates of the hae-3 hsl2-3 double mutant. Samples were barcoded and all 6 samples multiplexed and sequenced on 3 lanes, each lane on a separate flow cell, of an Illumina HiSeq 2000.
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+23327667
+

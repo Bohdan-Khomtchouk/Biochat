@@ -1,0 +1,18 @@
+TITLE
+Single stranded DNA formation during S phase in the presence of hydroxyurea in S. cerevisiae and S. pombe
+
+ORGANISM
+Schizosaccharomyces pombe ; Saccharomyces cerevisiae
+
+SUMMARY
+We have developed a method to analyze single-stranded DNA (ssDNA) formation on a genomic scale by using microarrays.  Using this technique we have assessed the location and the amount of ssDNA in S. cerevisiae during DNA replication.  We have observed that when replication is impeded by hydroxyurea, ssDNA formation can be detected in both wild type and the checkpoint-deficient rad53 cells.  However, while wild type cells showed ssDNA formation at only a subset of origins, rad53 cells formed ssDNA at virtually all known origins.  Moreover, in rad53 cells the ssDNA regions did not expand over time, presumably due to collapsed replication forks.  We also applied this method to map origins in S. pombe, taking advantage of the conserved replication checkpoint function by Cds1, the homolog of Rad53 in S. pombe. Keywords: ssDNA, HU, replication, time course
+
+DESIGN
+In order to investigate the dynamics of ssDNA formation on a genomic scale, we harvested cells at discrete times after releasing them from late G1 phase arrest with alpha factor into a synchronous S phase in the presence of 200 mM HU.  Chromosomal DNA isolated from these S phase samples and an alpha factor arrested G1 control sample were differentially labeled with Cy-conjugated deoxyribonucleotides by random priming and synthesis without denaturation of the DNA, followed by co-hybridization to a microarray.  Because the labeling was done without denaturation of the template DNA, single-stranded regions of the genome should preferentially act as templates for dye incorporation.  Comparison of experimental (S phase) and control (G1 phase) samples from the microarray hybridization revealed regions of the genome that became single-stranded in S phase. We also assessed the total percentage of ssDNA in the samples by blotting native (undenatured) genomic DNA and fully denatured genomic DNA, followed by hybridization with a genomic DNA probe.  The calculated total percentages of ssDNA in the samples were then used to normalize the raw ratio of ssDNA (S/G1) (raw data) to generate the normalized ratio of ssDNA (S/G1) (raw normalized data).  The normalized relative ratio of ssDNA was then smoothed over a 4 kb window (smoothed data) via Fourier transformation. For origin mapping in S. pombe, we used S. pombe wild type and deltacds1 (cds1 encodes for the homolog of Rad53) cells in a comparative analysis.  DNA isolated from cells that were exposed to HU (“early S phase” sample) and cells that were starved for nitrogen source (G1 phase control sample) were differentially labeled with Cy-conjugated dUTPs without denaturation of the template DNA to enrich for labeling of ssDNA region in the genome.  These DNAs were then co-hybridized to a microarray.  The relative amount of ssDNA was quantitated as the ratio of fluorescent signal from the “early S phase” sample to that from the control sample.  The raw ratio of ssDNA (early S/G1) was then normalized by the total percentage of ssDNA in the samples similarly as for S. cerevisiae data.  The raw normalized ratio was then smoothed over a 12 kb window via Fourier transformation.
+
+PLATFORM
+GPL3388 Chromosome coordinates of yeast oligo microarray (Agilent G4140A) GPL3398 Chromosome coordinates of S. pombe DNA microarray (Eurogentec AR-ScPGS-1)
+
+CITATIONS
+16429127
+

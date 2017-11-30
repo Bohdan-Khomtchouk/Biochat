@@ -1,0 +1,18 @@
+TITLE
+The genetic control of left atrial gene expression determined by RNA sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Genome wide association studies (GWAS) have identified 14 loci for atrial fibrillation, but the mechanisms responsible for these associations as well as the causal genetic variants remain enigmatic.  Genetic variants altering expression levels of nearby genes is one such plausible mechanism.
+
+DESIGN
+Methods:  We performed polyA+ RNA sequencing of left atrial appendages from a biracial cohort of 265 subjects.  Approximately 50 million read fragments mapped to the transcriptome using TopHat aligner to hg19 and fragments counted against Ensembl 71 reference transcriptome with htseq.  We also obtained genotypes using Illumina Hap550v3 and Hap610-quad SNP microarrays.  Genotypes were then imputed to 1000 Genomes using IMPUTE.   Expression surrogate variables were calculated using the R package sva and used as covariates in a genome-wide eQTL scan.  Provision of raw data for this study, even to dbGaP, was not permitted per the study IRB. Therefore, raw data are not available for this study.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

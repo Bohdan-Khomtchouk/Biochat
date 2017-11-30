@@ -1,0 +1,18 @@
+TITLE
+ChIP-Seq analysis to identify direct binding of ZNF165
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We found that the cancer testis antigen, ZNF165, is required for viability and modulates TGFβ-induced gene expression in mesenchymal, Claudin-Low, TNBC. To begin to define ZNF165's role in TNBC tumorigenesis, we performed ChIP-Seq analysis in the mesenchymal TNBC tumor derived cell line, WHIM12, stably expressing ZNF165-V5. This analysis uncovered 381 peaks associated with 410 genes and included TGFβ target genes, SMURF2 and SMAD, that promote negative TGFβ feedback regulation.  Our results provide insight into how ZNF165 globally modulates TGFβ signaling and nominates ZNF165 candidate gene targets.
+
+DESIGN
+WHIM12 cells were stably infected ZNF165-V5 were grown to 75% confluency. Chromatin was isolated, sonicated and immunoprecipitated using a V5 antibody. Purifed ChIP-ed DNA was then sequence, aligned to hg19 and HOMER was justed to identify significantly enriched peaks.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26567849
+

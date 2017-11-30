@@ -1,0 +1,18 @@
+TITLE
+The ortholog of DDM1 is mainly required for CHG and CG methylation of heterochromatin and is involved in DRM2-mediated CHH methylation that targets mostly genic regions of the rice genome
+
+ORGANISM
+Oryza sativa Japonica Group
+
+SUMMARY
+OsDDM1 and OsDRM2 display functional specificities that define distinct DNA methylation pathways in the bulk of DNA methylation of the rice genome
+
+DESIGN
+Cr_DJ.CG.bw: Cr_DJ CG methylation Cr_DJ.CHG.bw: Cr_DJ CHG methylation Cr_DJ.CHH.bw: Cr_DJ CHH methylation ddm1ab.CG.bw: ddm1a/1b CG methylation ddm1ab.CHG.bw: ddm1a/1b CHG methylation ddm1ab.CHH.bw: ddm1a/1b CHH methylation S706.CG.bw: osdrm2 CG methylation S706.CHG.bw: osdrm2 CHG methylation S706.CHH.bw: osdrm2 CHH methylation H3k9me2_macs_peaks.xls: CrDJ H3K9me2 modification peaks H3k9me2_macs_treat_afterfiting.wig: CrDJ H3K9me2 modification wig CrDJ_K27_macs_peaks.xls: CrDJ H3K27me3 modification peaks CrDJ_K27_macs_treat_afterfiting.wig: CrDJ H3K27me3 modification wig DJvsddm1a1b_DESeq2_treated_results.xls: CrDJ and osddm1a1b different expression genes DJvsS706_DEseq2_treated.results.xls: CrDJ and osdrm2 different expression genes smRNA24nt.gff: CrDJ 24nt smRNA smRNA24nt.706.gff: osdrm2 24nt smRNA
+
+PLATFORM
+GPL13834 Illumina HiSeq 2000 (Oryza sativa Japonica Group)
+
+CITATIONS
+27208249
+

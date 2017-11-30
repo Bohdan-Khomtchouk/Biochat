@@ -1,0 +1,18 @@
+TITLE
+A Systems Approach for Decoding Mitochondrial Retrograde Signaling Pathways
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The mitochondrial and nuclear genomes contribute to mitochondrial function, and when mitochondrial function is compromised, mitochondrial retrograde signaling alters nuclear gene expression. We performed gene expression profiling of engineered cells that had mitochondria containing a disease-associated mutation that causes mitochondrial dysfunction. By generating networks of transcription factors that targeted these genes, the authors revealed putative mitochondrial retrograde signaling pathways. One such pathway involved retinoic acid receptor alpha (RXRA), the mRNA for which was reduced in the mutant cells. Network analysis and experiments in cells suggested that mitochondrial dysfunction caused by the mutation initiated a positive feedback loop that aggravated mitochondrial dysfunction: Reduced RXRA abundance further compromised expression of genes encoding products involved in mitochondrial function and translation. This gene-transcription factor mapping-network approach may reveal targets for therapeutic intervention of diseases associated with mitochondrial dysfunction.
+
+DESIGN
+To investigate retrograde signaling pathways induced by the mitochondrial dysfunction caused by the mt3243 mutation, we generated the three types of cybrid cells using a mitochondria-mediated transformation method. Cells lacking mtDNA (rho0) were fused with mtDNAs with the mt3243 mutation isolated from platelets of a diabetic patient with sensorineural hearing loss. We then isolated three types of cybrid cells: W cells had wild-type mtDNA (3243A homoplasmy), H cells had both the mutant and wild-type mtDNA (3243A/G heteroplasmy) with 70% of the mtDNA containing 3243G, and M cells with only mutant mtDNA (3243G homoplasmy). Gene expression profiles of cybrid cells were generated using Illumina HumanHT-12-v3-BeadChip (Illumina, San Diego, CA), which includes 49,896 probes corresponding to 25,202 annotated genes. According to the Illumina protocols, three biological triplicates of each type of cybrid cells were analyzed. Total RNA (500ng) was isolated from cybrid cells using RNeasy Mini Kit (Qiagen, GmbH, Germany). RNA integrity number (RIN) was in the range of RIN = 9.2  and 10 when measured with an Agilent 2100 Bioanalyzer. RNA was reversely transcribed and amplified using IlluminaTotalPrep RNA amplification kit (Ambion, Austin, TX). In vitro transcription was then carried out to prepare cRNA. The cRNAs were hybridized to the array and then labeled with Cy3-streptavidin (Amersham Bioscience, Little Chalfont, UK). The fluorescent signal on the array was measured with a BeadStation 500 System (Illumina, San Diego, CA).
+
+PLATFORM
+GPL6947 Illumina HumanHT-12 V3.0 expression beadchip
+
+CITATIONS
+23443683
+

@@ -1,0 +1,18 @@
+TITLE
+IL-1β and SERPINA3 are markers of an aggressive Barrett’s Oesophagus phenotype identified using mRNA sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Introduction: The identification of biomarkers in Barrett’s oesophagus (BO) that stratify groups at risk of progressing to oesophageal adenocarcinoma (OAC) would allow tailored surveillance strategies. We have applied a novel high throughput RNA sequencing analysis characterizing the BO mRNA transcriptome across the metaplasia-dysplasia sequence to identify potential markers of progression in an unbiased fashion and functionally validated these at the protein level. Methods: Matched biopsy samples for histology and RNA extraction were taken from BO patients of known histological grade. RNA was extracted from matched samples and sequenced to 60bp length (paired-end).21 samples were sequenced (HGD,7; LGD, 7 and SIM, 7). Reads obtained were mapped to NCBI build37.2 using TopHat. Read count generation, normalisation and differential expression (DE) analysis was performed using the HTSeq-DESeq pipeline. Significantly DE genes ( > 2 fold change in expression with B-H adjusted p-value < 0.1) were further assessed for network and biological relevance using Ingenuity Pathway analysis. Candidate genes were selected and validated in a larger cohort (n=64) using RT-PCR.  Targets were further validated (by ELISA and immunohistochemistry) in independent cohorts of patients using serum and tissue microarrays. Results: DE analysis was performed in 3 groups with 2 conditions at a time using the lower grade cohort as control and the higher grade as comparator: SIM vs. LGD (demonstrated 218 DE genes, 131 up-regulated in LGD, 87 down-regulated compared to SIM), SIM vs. HGD (49 DE, 27 up, 22 down) and LGD vs. HGD (317 DE, 81 up, 216 down). Six network-central candidate genes (FOSB, IL-1B, SERPINA3, KLK7, GSTM5 & SCUBE2) were selected for RT-PCR validation following network and functional analysis. Circulating IL-1β and SERPINA-3 demonstrated progressive significant increases in expression across the dysplasia sequence to OAC (p < 0.005)). This was confirmed at the tissue level showing significant differences between SIM and dysplastic BO (p < 0.05). Conclusion: The use of RNA-sequencing as a detailed and unbiased analysis method identifies IL-1β and SERPINA-3 as novel candidates differentially expressed along the metaplasia-dysplasia-cancer sequence in BO.
+
+DESIGN
+RNA sequencing was performed on mRNA extracted from oesophgeal biopsies from patients with non dysplstic Barrett's esophagus, low grade dysplasia and high grade dysplasia using Illumina GAIIx
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

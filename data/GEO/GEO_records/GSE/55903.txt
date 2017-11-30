@@ -1,0 +1,18 @@
+TITLE
+" Drug-seq " : An Approach to Identify the Genomic Targets of Chemicals Identified by Functional Phenotypic Screens [GRO-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Here we report an approach that has permitted us to uncover the sites and mechanisms of action of a drug, referred to as SD70, initially identified by phenotypic screening for inhibitors of ligand and genotoxic stress-induced translocations in prostate cancer cells. Based on synthesis of a derivatized form of SD70 that permits its application for a ChIP-seq-like approach, referred to as Drug-seq, we were next able to efficiently map the genome-wide binding locations of this small molecule, revealing that it largely co-localized with androgen receptor (AR) on regulatory enhancers. Based on these observations, we performed the appropriate global analyses to ascertain that SD70 inhibits the androgen-dependent AR program, and prostate cancer cell growth, acting, at least in part, by functionally inhibiting the jumonji (JMJ) domain-containing demethylase, KDM4C. Drug-seq represents a powerful strategy for new drug development by mapping genome-wide location of small molecules, a powerful adjunct to contemporary drug development strategies.
+
+DESIGN
+Global Run-On (GRO) assay followed by high-throughput sequencing (GRO-seq).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24928520
+

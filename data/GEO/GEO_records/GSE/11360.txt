@@ -1,0 +1,18 @@
+TITLE
+Exon-level summary data from Affymetrix Human Exon 1.0 ST array
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Affymetrix Human Exon 1.0 ST array was used to measure differential splicing patterns in archived RNA isolated from 26 of 80 children (11 Rejectors and 15 Non-Rejectors). The exon-level probe summaries reported in this series were computed using the Affymetrix Power Tools (APT) software and 'rma-sketch' normalization method. Keywords: Affymetrix 1.0 ST exon array; exon-level analysis
+
+DESIGN
+Exon-level probes were filtered based on APT's detection above background (DABG) p-value greater than 0.05 in n-1 samples leaving 218,402 of the original 287,329 exon-level probes.
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+18639552
+

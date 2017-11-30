@@ -1,0 +1,18 @@
+TITLE
+Foxp3 exploits a preexistent enhancer landscape for regulatory T cell lineage specification [ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Regulatory T (Treg) cells, whose identity and function are defined by the transcription factor Foxp3, are indispensable for immune homeostasis.  It is unclear whether Foxp3 exerts its Treg lineage specification function through active modification of the chromatin landscape and establishment of new enhancers or by exploiting a pre-existing enhancer landscape.  Analysis of the chromatin accessibility of Foxp3-bound enhancers in Treg and Foxp3-negative T cells showed that Foxp3 was bound overwhelmingly to pre-accessible enhancers occupied by its cofactors in precursor cells or a structurally related predecessor. Furthermore, the bulk of Foxp3-bound Treg cell enhancers lacking in Foxp3- CD4+ cells became accessible upon T cell receptor activation prior to Foxp3 expression with only a small subset associated with several functionally important genes being exclusively Treg cell-specific.  Thus, in a late cellular differentiation process Foxp3 defines Treg cell functionality in an “opportunistic” manner by largely exploiting the preformed enhancer network instead of establishing a new enhancer landscape.
+
+DESIGN
+Four transcription factors (Foxp3, Ets1, Elf1, and Cbfb) were immunoprecipated while crosslinked to chromatin.  These experiments were then combined with DNase-seq data (being uploaded separately as part of ENCODE project) to find that Foxp3 binds exclusively to open chromatin.  Data was also leveraged from Foxo1 ChIP-seq performed in GSE40657 and confirmed by Runx/Cbfb ChIP-seq performed in GSE33653.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+23021222
+

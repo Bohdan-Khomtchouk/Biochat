@@ -1,0 +1,18 @@
+TITLE
+Flexible multiplatform RNA profiling at the single cell level applied to enriched cancer initiating cells: RNA-Seq MCF7 and MCF10A single cell data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Accurate profiling of RNA expression of single cells is a valuable approach for broadening our understanding of cancer biology and mechanisms of dissemination, but requires the development of reliable methods for their molecular characterization. Here we evaluate a single cell methodology which generates microgram amounts of cDNA suitable for next generation sequencing (RNA-Seq), high throughput RT-qPCR and Affymetrix array analysis. The approach was tested by comparing expression profiles of amplified single MCF7 and MCF10A cells to profiles generated from unamplified RNA. The expression profiles were compared by Affymetrix-U133 arrays, RNA-Seq and high-density qPCR.  There were strong cross-platform correlations of > 80% and concordance between single cell and unamplified material of > 70%. We exemplify the approach through analysis of rare sorted cancer initiating cells (CICs) derived from a NSCLC patient-derived xenograft. Populations of 10 cells from total tumour and two distinct subsets of CIC, putatively involved in primary tumor maintenance or metastasis formation were FACS sorted then directly amplified. CIC expression profiles strongly correlated with published stem-cell and epithelial-mesenchymal transition (EMT) signatures. Our results confirm the utility of the amplification system and our methodology to detect and distinguish RNA profiles in rare cell populations that inform on EMT and stem-cell characteristics. This GEO dataset comprises the RNA-Seq data for MCF7 and MCF10A single cell samples.
+
+DESIGN
+10 samples. 5 biological replicates each of MCF7 cDNA generated from amplified RNA from a single cell and MCF10A cDNA generated from amplified RNA from a single cell (cDNA generated from the same single cells used to generate the single cell cDNA samples used for Affymetrix array analysis in this super series, i.e. the same set of cDNA samples analysed using both platforms). SOLiD RNA-Seq expression data was compared to the Affymetrix microarray gene expression data for the same samples and to a reference sample set generated from Affymetrix arrays of 10μg of unamplified RNA for each cell line (Bitton, D.A., Okoniewski, M.J., Connolly, Y. and Miller, C.J. (2008) Exon level integration of proteomics and microarray data. BMC Bioinformatics, 9, 118).
+
+PLATFORM
+GPL16288 AB 5500xl Genetic Analyzer (Homo sapiens)
+
+CITATIONS
+25519510
+

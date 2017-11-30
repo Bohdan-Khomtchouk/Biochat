@@ -1,0 +1,18 @@
+TITLE
+EWS-FLI1 represses Rho-actin signaling via MRTFB/YAP-1/TEAD perturbation in Ewing Sarcoma [RNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Ewing Sarcoma (EwS) is a EWS-FLI1- fusion driven pediatric bone cancer with high metastatic potential. Cellular plasticity, typically regulated via the Rho-pathway, is a prerequisite for metastasis initiation. Here we interrogated the role of the Rho transcriptional effectors MRTFA/B in EwS. We find MRTFB transcriptional function strongly repressed by EWS-FLI1. Under EWS-FLI1-low (knock-down) conditions, MRTFB is activated and antagonizes global EWS-FLI1-dependent transcription. Furthermore, ChIP-Seq revealed strong overlaps in MRTFB and EWS-FLI1 chromatin occupation, especially for EWS-FLI1 suppressed-(anticorrelated) genes. Enrichment of TEAD binding motifs in these shared genomic binding regions, and overlapping transcriptional footprints of MRTFB and TEAD1-4 perturbation led us to propose synergy between MRTFB and TEAD in the regulation of EWS-FLI1 suppressed-anticorrelated genes. Finally, we find F-actin assembly to be already perturbed in our EwS model, F-actin polymerization is perturbed by EWS-FLI1 in our model cell line, however,but pharmacological inhibition of actin polymerization still reduced expression serum-induced expression of MRTFB/YAP-1/TEAD target genes. In summary our data support a model of indirect and direct EWS-FLI1-driven perturbation of MRTFB/YAP-1/TEAD target gene regulation .
+
+DESIGN
+1. Transient si-RNA mediated knockdown of MRTFA (MKL-1), MRTFB (MKL-2) and doxycyline-induced EWS-FLI1 knockdown in A673/TR/shEF EwS cells (8 samples/replicate: 2 replicates total); 2. Combined transient knockdown of MRTFA, MRTFB and EWS-FLI1 in SK-N-MC EwS cells (4 samples/replicate: 2 replicates total); 3. Combined knockdown of TEAD1-4 by pooling si-RNA against TEAD1, TEAD2, TEAD3 and TEAD 4 combined with doxycycline-inducible EWS-FLI1 knockdown (4 samples/replicate: 8 samples total)
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28671673
+

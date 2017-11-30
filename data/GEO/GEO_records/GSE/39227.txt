@@ -1,0 +1,18 @@
+TITLE
+Evolution of human-specific microRNA miR-941 [Ago2_IP]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+miRNA-mediated gene expression silencing has previously been shown to be important for a variety of physiological and pathological processes. Here, we have explored the role of one bona fide human-specific miRNA (miR-941) in evolution of the human-specific expression and function. Using combination of high-throughput sequencing (GSE26545), miRNA transfection and large-scale PCR of various human populations, we have shown that emergence and rapid expansion of miR-941 might take place on the human evolutionary linage between six and one million years ago. Functionally, miR-941 could be associated with hedgehog and insulin signaling pathways, and thus might potentially play a role in evolution of human longevity. Human-specific effects of miR-941 regulation are detectable in human brain and affect genes involved in neurotransmitter signaling. Furthermore, emergence of miR-941 on the human evolutionary linage was accompanied by the accelerated loss of its binding sites. Taken together, these results strongly implicate the contribution of miR-941 in evolution of the human-specific phenotype.
+
+DESIGN
+Ago2 Immunoprecipitation (Ago2-IP) experiments after miR-941 overexpression were conducted in 293T cell line. Briefly, All transfections were performed using human 293T cells cultured in 6-well tissue culture plates. Lipofectamine 2000 (Invitrogen) was used for a Synthetic miR-941 or a scrambled oligo transfection, at 30 nmol/l each (final concentration) per 1x106 cells/well of a 6-well plate using DharmaFECT (GE Healthcare). Total 5x106 cells were collected and subjected to Ago2 immunoprecipitation (Ago2-IP) using the RNA isolation kit Mouse Ago2 (Wako Chemicals) according to the manufacturer's instructions. For a negative control, immunoprecipitation was performed using nonimmune IgG beads prepared with the antibody immobilization bead kit (Wako Chemicals). The IP pull down RNA was used as template for an “in vitro” transcription reaction generating biotin-labeled antisense cRNA. The cRNA was analyzed on affymetrix Human Genome U133 Plus 2.0 arrays following the manufacturer’s instructions. R RMA package was used to quantify gene expression levels.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+23093182
+

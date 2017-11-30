@@ -1,0 +1,18 @@
+TITLE
+Viral Microarray - Cultured Virus Set
+
+ORGANISM
+Chlorocebus aethiops ; Human alphaherpesvirus 1 ; West Nile virus ; Vesicular stomatitis Indiana virus ; Lassa virus Josiah ; Human adenovirus E4 ; Echovirus E18 ; Zaire ebolavirus ; SARS coronavirus Tor2 ; Influenza A virus (A/Texas/36/1991(H1N1))
+
+SUMMARY
+Background: The analysis of oligonucleotide microarray data in pathogen surveillance and discovery assays is a challenging task. Target template concentration, nucleic acid integrity, and host nucleic acid composition can each have a profound effect on signal distribution. Exploratory analysis of fluorescent signal distribution in clinical samples has revealed deviations from normality, suggesting that distribution-free approaches should be applied.  Results: An examination of both positive predictive value and false positive rates was employed to assess the utility of three well-established nonparametric methods for the analysis of viral array hybridization data: (1) Mann-Whitney U, (2) the Spearman correlation coefficient and (3) the chi-square test. Of the three tests, it was the chi-square that proved most useful.   Conclusions: The acceptance of microarray use for routine clinical diagnostics will require that the technology be accompanied by simple yet reliable analytic methods. We report that our implementation of the chi-square test yielded a combination of low false positive rates and a high degree of predictive accuracy.
+
+DESIGN
+A set of comprehensive probes covering vertebrate viruses was designed and printed using Agilent in-situ fabrication. Cells in tissue culture were infected with various viruses, then RNA was harvested. RNA was converted to cDNA, then amplified, labeled and hybridized to the array.
+
+PLATFORM
+GPL10320 Virus 45K Microarray - Agilent 2517771
+
+CITATIONS
+20584331
+

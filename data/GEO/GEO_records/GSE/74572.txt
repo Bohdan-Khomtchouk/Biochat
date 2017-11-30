@@ -1,0 +1,18 @@
+TITLE
+Effect of APE1 and its acetylation on gene expression profile of lung cancer cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+APE1 regulates a vast majority of genes by acting as a transcriptional co-activator or as a co-repressor. It is overexpressed in diverse cancer tissues and is associated with their drug resistance. It is essential for cell proliferation. APE1 is post-translationally acetylated by HAT p300 at its N-terminal Lys 6 and 7 residues. We examined APE1 and its acetylation-dependent gene expression profile of lung cancer cells which would contribute to sustained proliferation of lung cancer cells. We used microarry based gene expression profile analysis using affymetrix HG-U133-Plus 2 array. For differential expression testing, Linear Models for MicroArray (Limma) was used to fit linear models for analyzing designed experiments and the assessment of overall gene expression and contrast analysis comparing the experimental groups
+
+DESIGN
+We used two different sets of experiments. In one set we used lung adenocarcinoma A549 cells and determined the gene expression profile of control (control siRNA transfected) and APE1-downregulated (APE1 siRNA transfected) A549 cells. Additionally, to examine the effect of acetylation of APE1, we used trichostatin A (TSA; which increases APE1's acetylation) and treated both control and APE1-downregulated cells with TSA (100 ng/ml) for 4 hrs. We compared the gene expression profile between (i) control vs. APE1 siRNA cells (this analysis will determine the genes whose expression is affected by APE1), and also between (ii) TSA-treated control vs. TSA-treated APE1 siRNA cells (this analysis will determine the genes whose expression is specifically affected by APE1's acetylation).  In another set we used normal bronchial epithelial BEAS-2B cells. In these cells we overexpressed wild type (WT) APE1 (that can be acetylated), K6R/K7R (RR) mutant APE1 (that cannot be acetylated) or N-terminal 42 amino acid deleted (ND42) mutant APE1 (that lacks the N-terminal domain of APE1 which harbors the acetylation sites). We compared the gene expression profile between (i) WT vs. RR (this analysis will determine the genes whose expression is affected by acetylable APE1), and between (ii) WT vs. ND42 (this this analysis will determine the genes whose expression is affected by full-length acetylable APE1). We have 3 biological replicates for each sample designated as 1, 2, 3 (equivalent to a,b,c).
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+26981776
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling reveals mast cell-dependent inflammation in the meninges in early EAE.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The meninges are generally considered relatively inert tissues that house the CSF and provide protection for the brain and spinal cord. However, our previous studies using Kit mutant (Kit W/Wv) mast cell-deficient mice demonstrated that mast cells residing in the dura mater and pia mater exacerbate the severity of experimental autoimmune encephalomyelitis (EAE), the rodent model of the CNS demyelinating disease, multiple sclerosis. These data suggest that the meninges are sites of active immune responses in disease. Gene expression profiles of meningeal tissue from wild type and mast cell deficient mice prior to and at day 6 post-EAE induction were found highly distinct. Increases in both mast cell- and neutrophil-associated transcripts were among the notable disease-related changes observed in wild type mice. Kinetic analyses show that meningeal mast cells are activated within 24 hours of disease induction to express multiple mediators including IL-1b and TNF as well as the neutrophil chemoattractant, CXCL2, an observation corresponding with an influx of neutrophils to the meninges. Neutrophil recruitment as well as the disease-related loss of BBB integrity is dependent on mast cell-derived TNF. These data provide unequivocal evidence that the meninges are sites of early inflammatory events in EAE. Mast cells residing within these tissues promote disease by orchestrating an early and efficient immune cell co-localization resulting in a robust local inflammatory response and a breach of the proximal BBB. We hypothesize that these events reflect an aberrant manifestation of the normal immune surveillance role of the meninges in infection settings.
+
+DESIGN
+Immunized WT and Kit W/Wv mice were sacrificed on Day 6 post-immunization and perfused with PBS as were naïve littermate control mice. The dura mater was immediately removed from the calvarium of the skull and pooled (10 mice/group, 4 groups). RNA was isolated using SV Total RNA Isolation System (Promega).  Each pool was analyzed in technical triplicates. Briefly, cRNA was synthesized and amplified/labeled using the Affymetrix Express Kit, then fragmented and hybridized to the The GeneChip® Mouse Genome 430 2.0 Array in accordance to the Affymetrix GeneChip expression analysis technical manual (Affymetrix, Santa Clara, CA).  After hybridization, arrays were washed and stained with Affymetrix fluidics protocol FS450_0001 and scanned with a 7G Affymetrix GeneChip Scanner.  Image data were analyzed with Affymetrix Expression Console™ software and normalized with Robust Multichip Analysis (RMA; www.bioconductor.org/)  to determine signal log ratios (CITE: Gentleman, R.C., Carey, V.J., Bates, D.M., Bolstad, B., Dettling, M., Dudoit, S., Ellis, B., Gautier, L., Ge, Y., Gentry, J., et al. (2004). Bioconductor: open software development for computational biology and bioinformatics. Genome Biol 5, R80.).   The mean fold change was calculated from 3 independent technical replicates for each of the four experimental conditions and assessed by a non-parametric rank product test (CITE: Hong, F., Breitling, R., McEntee, C.W., Wittner, B.S., Nemhauser, J.L., and Chory, J. (2006). RankProd: a bioconductor package for detecting differentially expressed genes in meta-analysis. Bioinformatics 22, 2825-2827).  Heat maps were generated with Genesis (Cite: Sturn, A., Quackenbush, J. and Trajanoski, Z. (2002) Genesis: cluster analysis of microarray data. Bioinformatics, 18, 207-208).
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+23267561
+

@@ -1,0 +1,18 @@
+TITLE
+mRNA expression profiling in patients with Tetralogy of Fallot and healthy unaffected individuals
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Right ventricular mRNA profiles from 22 patients with Tetralogy of Fallot (TOF) and mRNA-seq profiles from the left and right ventricle (LV and RV, respectively) of 4 healthy unaffected individuals (NH) were generated. The total RNA was isolated from the 30 human heart samples using TRIzol. mRNAs were isolated from total RNA and prepared for sequencing using Illumina Kit RS-100-0801 according to the manufacturer's protocol (Preparing Samples for Sequencing of mRNA Sept 2008). The sequencing libraries were generated using a non-strand-specific library construction method. The purified DNA fragments were used directly for cluster generation, and 36 cycles of single-end read sequencing were performed using the Illumina Genome Analyzer. Sequencing reads were extracted from the image files using the open source Firecrest and Bustard applications (Illumina Genome Analyzer pipeline 1.3.2, 1.4.0 and 1.5.0).
+
+DESIGN
+Right ventricular mRNA-seq profiles from 22 patients with Tetralogy of Fallot and mRNA-seq profiles from the left and right ventricle of 4 healthy unaffected individuals. Supplementary processed data files: GSE36761_gene_expression_levels.txt: Gene expression profiling data for all samples. GSE36761_gene_expression_levels_normalized.txt: Normalized gene expression profiling data for all samples. GSE36761_transcript_expression_levels.txt: Transcript expression profiling data for all samples. GSE36761_transcript_expression_levels_normalized.txt: Normalized transcript expression profiling data for all samples. Genome build: hg18
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+24459294 , 27496870
+

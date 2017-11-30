@@ -1,0 +1,18 @@
+TITLE
+Alpha-factor treatment of Saccharomyces cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We measured the response of S. cerevisiae to arrest in the presence of alpha factor.  These were collected in support of a related DNaseI-sequencing study. Keywords: Alpha-factor arrest
+
+DESIGN
+S.cerevisiae R276 (MATa ura3Δ0 leu2Δ0 his3Δ1 met15Δ0 bar1Δ::KanMX) (C. Boone, University of Toronto; S288c background derived from BY4741), was cultured overnight in 50 ml rich medium (YPD) at 30°C, diluted into 500 ml fresh YPD to an OD660 of ~0.8, and treated with yeast α-factor (Sigma-Aldrich) at a final concentration of 50 ng / ml. This culture was incubated at 30°C with shaking for 3 hours (final OD660 ~1).  After this treatment, approximately 90% of the cells had formed mating projections when checked by light microscopy.  Total RNA from these cells was isolated using hot acidic phenol.   50 μg of total RNA was treated with Turbo Dnase (Ambion), and checked for integrity using a Bioanalyzer 2100 (Agilent).  Total RNA was labeled according to the manufacturer’s protocol and applied to Affymetrix Yeast 2.0 arrays.  Data were analyzed using the “affy” package from Bioconductor.
+
+PLATFORM
+GPL2529 [Yeast_2] Affymetrix Yeast Genome 2.0 Array
+
+CITATIONS
+19305407
+

@@ -1,0 +1,18 @@
+TITLE
+Improved detection of global copy number variation using high density, non-polymorphic oligonucleotide probes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Goal: To identify copy number variation in normal individuals using high density, non-polymorphic oligonucleotide probes Background DNA sequence diversity within the human genome may be more greatly affected by copy number variations (CNVs) than single nucleotide polymorphisms (SNPs). Although the importance of CNVs in genome wide association studies (GWAS) is becoming widely accepted, the optimal methods for identifying these variants are still under evaluation. We have previously reported a comprehensive view of CNVs in the HapMap DNA collection using high density 500K EA (Early Access) SNP genotyping arrays which revealed greater than 1,000 CNVs ranging in size from 1kb to over 3Mb. Although the arrays used most commonly for GWAS predominantly interrogate SNPs, CNV identification and detection does not necessarily require the use of DNA probes centered on polymorphic nucleotides and may even be hindered by the dependence on a successful SNP genotyping assay. Results In this study, we have designed and evaluated a high density array predicated on the use of non-polymorphic oligonucleotide probes for CNV detection. This approach effectively uncouples copy number detection from SNP genotyping and thus has the potential to significantly improve probe coverage for genome-wide CNV identification. This array, in conjunction with PCR-based, complexity-reduced DNA target, queries over 1.3M independent NspI restriction enzyme fragments in the 200bp to 1100bp size range, which is a several fold increase in marker density as compared to the 500K EA array. In addition, a novel algorithm was developed and validated to extract CNV regions and boundaries. Conclusions Using a well-characterized pair of DNA samples, close to 200 CNVs were identified, of which nearly 50% appear novel yet were independently validated using quantitative PCR. The results indicate that non-polymorphic probes provide a robust approach for CNV identification, and the increasing precision of CNV boundary delineation should allow a more complete analysis of their genomic organization. Keywords: Copy number variation (CNV) detection
+
+DESIGN
+A set of five genomic DNA samples containing different numbers of X chromosomes (1X to 5X sample set, including NA15510 and NA10851) were hybridized to Nsp copy number (CN) arrays in triplicate to evaluate detection of copy number variation using high density, non-polymorphic oligonucleotide probes.  6 Hapmap samples were hybridized to Nsp CN arrays to evaluate Mendelian inheritance of CNVs.
+
+PLATFORM
+GPL6659 Nsp copy number (CN) array (ds1) GPL6660 Nsp copy number (CN) array (ds2)
+
+CITATIONS
+18373861
+

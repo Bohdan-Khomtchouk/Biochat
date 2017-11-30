@@ -1,0 +1,18 @@
+TITLE
+Escherichia coli treated with 13 antibiotics, 3 synergistic combinations, and IPTG
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Microarrays allow us to monitor the change in transcription of every gene in the genome in response to a change in cellular state.  We use cDNA microarrays to measure the response of E. coli to 13 different antibiotics and 3 synergistic combinations.  Hierarchichal clustering reveals 4 distinct classes of antibiotics distinguished by their modes of action, and allows us to predict the mechanism for promethazine, a drug whose mode of action has not previously been established. The expression profiles of the synergistic combinations exhibit a complex relationship between the two component antibiotics, with similarity to one of the two drugs, as well as a surprising number of new gene responses exhibited by E. coli in response to neither drug alone.  The subset of drugs which act in synergy with each other suggests that only very specific combination of mechanisms give rise to synergistic behavior. Keywords: stress response, antibiotic response, synergy
+
+DESIGN
+Each array has two spots to monitor the response of E coli to one of the treatments, and two control spots (ie no treatment).  These are background corrected, normalized for total intensity, and then the average volume difference is calculated.  Each treatment has two replicates, and the result is average across these two replicates.  Our final processed data is a relative volume difference, in which the aforementioned volume difference is divided by an estimate of the error in the data.  This relative volume difference gives us greater confidence that the changes we see are real.  Any relative volume difference > = 2 or < = -2 (ie where the absolute volume difference is twice as much as the estimated error or more) is considered to be significant. Total of 68 hybridizations: 17 samples X 2 replicates for each sample X (1 sample + 1 control for each replicate)
+
+PLATFORM
+GPL189 Sigma Genosys Panorama Escherichia coli Gene Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic and metabolomic profiles of the Plasmodium falciparum developmental cycle
+
+ORGANISM
+Plasmodium falciparum
+
+SUMMARY
+In order to further our understanding of the metabolic network of the malaria parasite, Plasmodium falciparum, we carried out a concurrent transcriptomic and metabolomic study of the parasite's intraerythrocytic developmental cycle.  These microarray data were generated to compare the expression levels of metabolic enzymes to the concentrations of their associated metabolites over the 48-hour life cycle.
+
+DESIGN
+Sorbitol-synchronized Plasmodium falciparum (3D7 strain) was grown in tissue culture flasks in incubators according to standard protocols.  Immediately after reinvasion, and at 8-hour intervals thereafter, parasites were harvested by centrifugation.  For each timepoint, 0.5 mL of packed RBC (10% parasitemia) was pelleted by centrifugation, washed once in PBS and flash-frozen in liquid nitrogen.  Total RNA isolation and amino-allyl cDNA labeling were as previously described (Bozdech et al., 2003).  A pool of 3D7 total RNA from all intraerythrocytic developmental stages was generated and used as the reference sample.  For DNA microarray hybridization, pool cDNA was coupled to Cy3 dye, while cDNA from an individual timepoint was coupled to Cy5 dye.  DNA microarrays were scanned using an Axon 4200A scanner and images analyzed using Axon GenePix software (Axon Instruments, Union City, CA, USA).  Microarray data were stored and analyzed using our in-house database PUMAdb (Princeton University MicroArray database).  All data for individual arrays were normalized by a global normalization using unflagged features with > = 65% of pixels one or more standard deviations over local background.  All unflagged spots were selected and extracted for further analysis.  Data were filtered to remove oligos more than 1 datapoint missing across the timeseries, log2 transformed, mean centered, ordered by the timing of their peak expression level, and visualized with Java Treeview (Saldanha, 2004) (Table S3).
+
+PLATFORM
+GPL8088 Princeton Lewis-Sigler Institute Plasmodium 8.5K array version 1
+
+CITATIONS
+19218089
+

@@ -1,0 +1,18 @@
+TITLE
+Genomic targets sites of the Candida glabrata transcription factor Pdr1
+
+ORGANISM
+Candida glabrata CBS 138
+
+SUMMARY
+Pdr1 is the major regulator of azole resistance in the fungal pathogen Candida glabrata.  Earlier experiments demonstrated that expression of Pdr1 itself is increased when cells lose their mitochondrial genome (rho0).  Here we use chromatin immunoprecipitation coupled with highthroughput sequencing (ChIP-seq) to map the genomic binding sites for Pdr1 in both normal and rho0 cells.  These data provide the first look at genes that are likely to represent the direct targets of Pdr1 in this important pathogen.
+
+DESIGN
+Examination of Pdr1 binding sites using two different antibodies in five different strains. Strains labeled TAP carry the TAP-tagged allele and capture was done with anti-TAP. The control was performed by carrying out a ChIP reaction on rho0 TAP-PDR1 cells but with no primary anti-TAP antibody.  Since Pdr1 expression is the highest in this background, this was selected as the best control for antibody specificity.  We also performed ChIP reactions on rho+, rho0 and cells lacking the PDR1 gene (pdr1D) cells using the anti-Pdr1 antibody.  The control for these reactions was a ChIP experiment using anti-Pdr1 antibody on cells lacking the endogenous Pdr1 protein.
+
+PLATFORM
+GPL19002 Illumina HiSeq 2000 (Candida glabrata CBS 138)
+
+CITATIONS
+25199772
+

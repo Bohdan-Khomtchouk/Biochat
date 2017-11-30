@@ -1,0 +1,18 @@
+TITLE
+High-time-resolution time-series transcriptome data of Pseudomonas aeruginosa PAO1 under two inverted oxygen-availability transitions
+
+ORGANISM
+Pseudomonas aeruginosa PAO1
+
+SUMMARY
+We performed high-time-resolution (HTR) transcriptome analyses of Pseudomonas aeruginosa PAO1 (PA) in a continuous cultivation system during the transition from high oxygen tension to low oxygen tension (HLOT) and the reversed transition from low to high oxygen tension (LHOT). From those genes responsive to both transient conditions, we identified 85 essential oxygen-availability responsive genes (EORGs), including the expected ones (arcDABC) encoding enzymes for arginine fermentation. We then predicted a highly accurate regulatory network for the EORGs of PA by integrating information from binding motif searching, literature and inverted HTR datasets. These results not only reveal stringent EORGs of PA and their transcription regulatory network, but also highlight that achieving a high accuracy of the inferred regulatory network might be only feasible for the apparently affected regulators under the given conditions but not for all the expressed regulators in a genome scale.
+
+DESIGN
+Pseudomonas aeruginosa PAO1 (PA) from a continuous cultivation system during two inverted oxygen-availability transitions were used for RNA extraction and hybridization on Affymetrix P. aeruginosa Genome Array .  Our aim is to identify essential oxygen-availability responsive genes and to infer an accurate oxygen-responsive regulatory network. In total, 14 samples were harvested at time points 0, 5, 10, 15, 20, 25, 30, 35, 40, 50, 60, 70, 80 and 90 min after switching from aerobic to microaerobic condition. After reaching a steady state (after about another four bioreactor volume exchange) under these conditions, the culture was shifted from microaerobic back to fully aerobic condition (pO2 set point value from 0.5% to 100%). A similar set of samples were taken during the reversed transition with the same time intervals.
+
+PLATFORM
+GPL84 [Pae_G1a] Affymetrix Pseudomonas aeruginosa Array
+
+CITATIONS
+24413814
+

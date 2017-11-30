@@ -1,0 +1,18 @@
+TITLE
+DNMT1-associated long non-coding RNA regulate global gene expression and DNA methylation in colon cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The investigation of the association of long non-coding RNAs (lncRNAs) with DNMT1 by RIP-seq reveals that DNMT1 interacts with DACOR1. We identified the genomic occupancy sites of DACOR1 through ChIRP-seq, which we found to significantly overlap with known differentially methylated regions (DMRs) in colon tumors.  Induction of DACOR1 in colon cancer cell lines significantly reduced their ability to form colonies in vitro, suggesting a growth suppressor function. Consistent with the observed phenotype, induction of DACOR1 led to the activation of tumor-suppressor pathways and attenuation of cancer-associated metabolic pathways. Notably, DACOR1 induction resulted in down-regulation of Cystathionine β-synthase (CBS), which is known to lead to increased levels of S-adenosyl methionine (SAM) – the key methyl donor for DNA methylation.
+
+DESIGN
+The DNA methyltransferase DNMT1 was immunoprecipitated and all associated RNAs were identified by RNA-seq and subsequent bioinformatic analyses. Samples were prepared for DNA sequencing through the ChIRP-seq protocol which uses antisense DNA oligos to bind to DACOR1 and pull down associated DNA in complex. We sequenced one sample with DACOR1 specific probes and non-specific DNA probes as control. Three samples were collected for each control lentivirus transduced V852 colon cancer line and DACOR1 lentivirus transduced V852. Samples were processed for RNA-sequencing and analyzed through differential expression analysis.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26307088
+

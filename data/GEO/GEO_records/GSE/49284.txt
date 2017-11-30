@@ -1,0 +1,18 @@
+TITLE
+Expression data from EZH2 inhibitor treated Non-Hodgkins Lymphoma cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mutations within the catalytic domain of the histone methyltransferase (HMT) EZH2 have been identified in subsets of Non-Hodgkin Lymphoma (NHL) patients.  These genetic alterations are hypothesized to confer an oncogenic dependency on EZH2 enzymatic activity in these cancers.  We previously reported the discovery of a potent, selective, S-adenosyl-methionine-competitive and orally bioavailable small molecule inhibitor of EZH2, EPZ-6438.  EPZ-6438 selectively inhibits intracellular lysine 27 of histone H3 (H3K27) methylation in a concentration- and time-dependent manner in both EZH2 wild type and mutant lymphoma cells.  Inhibition of H3K27 trimethylation (H3K27Me3) led to selective cell killing of human lymphoma cell lines bearing EZH2 catalytic domain point mutations.  Treatment of xenograft-bearing mice with EPZ-6438 leads to dose-dependent tumor growth inhibition and eradication of genetically altered NHL with correlative diminution of H3K27Me3 levels in tumors and selected normal tissues.  Mice dosed orally with EPZ-6438 for 28 days remained tumor free for up to 63 day after stopping compound treatment in two EZH2 mutant xenograft models.  These data confirm the dependency of mutant NHL on EZH2 activity and portend the utility of EZH2-targeted drugs for the treatment of these genetically defined cancers. To identify potential biomarker and gain mechanistic insights in EPZ6438 treated lymphoma, lymphoma cell lines with or without EZH2 Y641 mutation were treated with EPZ6438 at Lowest Cytotoxic Concentration (LCC) and 10xLCC. Transcriptomes were profiled on Affemetrix U133 Plus2 chips. Differentially expressed genes and pathways upon compound treatment were anayzed.
+
+DESIGN
+Lymphoma cell lines WSU-DLCL2, SU-DHL6, Pfeiffer, and Karpas422 were treated by EPZ6438 for 2 days, 4 days and 6 days. Treatment doses are LCC and 10xLCC of each cell lines. KARPAS_422, SUDHL6, and WSU_DLCL2 have the EZH2 Y641 mutation.  PFEIFFER does not have the EZH2 Y641 mutation.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+24563539
+

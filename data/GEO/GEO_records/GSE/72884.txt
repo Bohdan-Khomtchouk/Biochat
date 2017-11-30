@@ -1,0 +1,18 @@
+TITLE
+Trimming of sequence reads alters RNA-Seq gene expression estimates
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Background High-throughput RNA-Sequencing (RNA-Seq) has become the preferred technique for studying gene expression differences between biological samples and for discovering novel isoforms, though the techniques to analyze the resulting data are still immature. One pre-processing step that is widely but heterogeneously applied is trimming, in which low quality bases, identified by the probability that they are called incorrectly, are removed. However, the impact of trimming on subsequent alignment to a genome could influence downstream analyses including gene expression estimation; we hypothesized that this might occur in an inconsistent manner across different genes, resulting in differential bias. Results To assess the effects of trimming on gene expression, we generated RNA-Seq data sets from four samples of larval Drosophila melanogaster sensory neurons, and used three trimming algorithms—SolexaQA, Trimmomatic, and ConDeTri—to perform quality-based trimming across a wide range of stringencies. After aligning the reads to the D. melanogaster genome with TopHat2, we used Cuffdiff2 to compare the original, untrimmed gene expression estimates to those following trimming. With the most aggressive trimming parameters, over ten percent of genes had significant changes in their estimated expression levels. This trend was seen with two additional RNA-Seq data sets and with alternative differential expression analysis pipelines. We found that the majority of the expression changes could be mitigated by imposing a minimum length filter following trimming, suggesting that the differential gene expression was primarily being driven by spurious mapping of short reads. Slight differences with the untrimmed data set remained after length filtering, which were associated with genes with low exon numbers and high GC content. Finally, an analysis of paired RNA-seq/microarray data sets suggests that no or modest trimming results in the most biologically accurate gene expression estimates. Conclusions We find that aggressive quality-based trimming has a large impact on the apparent makeup of RNA-Seq-based gene expression estimates, and that short reads can have a particularly strong impact. We conclude that implementation of trimming in RNA-Seq analysis workflows warrants caution, and if used, should be used in conjunction with a minimum read length filter to minimize the introduction of unpredictable changes in expression estimates.
+
+DESIGN
+Four biological replicates of 100 Drosophila melanogaster larval multi-dendritic sensory neurons were profiled by mRNA-Seq
+
+PLATFORM
+GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster)
+
+CITATIONS
+26911985
+

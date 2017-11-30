@@ -1,0 +1,18 @@
+TITLE
+Ssn6-GFP ChIP-CHIP
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+We have performed a genome wide investigation for the binding locations of the transcriptional co-repressor proteins Ssn6, Tup11 and Tup12 in the fission yeast Schizosaccharomyces pombe. We have used a ChIP protocol described previously (Robyr et al, 2003) with microarrays containing ORF and IGR fragments representing the complete fission yeast genome (Wiren et al, 2005). Keywords: ChIP-CHIP
+
+DESIGN
+Chromatin immunoprecipitations were essentially performed as described previously (Robyr et al, 2003, Wiren et al, 2005). Cells were grown to mid log phase (107cells/ml) in rich YES media. All cells were harvested at room temperature and immediately subjected to crosslinking. The lysate was subjected to sonication 3x60 sec for generation of chromatin fragments with appropriate length. The lysate from the two sonications was pooled, aliquoted and subjected to immunoprecipiation with a polyclonal a-GFP antibody 1:100 (Applied Biosciences 8372-2) and protein A sepharose beads (Amersham 17-5280-01). Chromatin bound beads were washed and eluated fromm beads. DNA was purified with phenol-chloroform extraction and ethanol-sodium acetate precipitation. Precipitated chromatin and input DNA fragments from three individually separated experiments were subjected to a two step linear amplification. Round A was performed with Sequenase (USB 70775Y) and TPCRA priming. Round B was performed with Amplitaq (Roche) with TPCRB priming. Amplified material (500-1000ng) was subjected to Klenow labelling (Invitrogen 18094-011) with Cy3 and Cy5 (Amersham 53021 and 55021). Generally the input fragments was labelled with Cy3 and precipitated material was labelled with Cy5. Reportedly minimal dye swap bias has previously been observed (Robyr et al, 2003) and labelling was therefore not carried out in dye swap. Labelled fragments were hybridized to IGR+ORF microarrays from Eurogentech SA, Seraing, Belgium. Microarray signals were visualized with ScanExpress laser scanner and quantified with the TIGR spotfinder quantification software. Data was analysed and median normalized to the 50th percentile with the GeneSpring software (Silicon Genetics) to generate six data points for each binding map. Flag values were subtracted from the data set and ratios were subjected to median percentile ranking analysis described (Buck et al, 2004). Cutoff values for the generation of binding lists were set to the 85th percentile.
+
+PLATFORM
+GPL3452 Eurogentec S. pombe IGR+ORF array (E120D)
+
+CITATIONS
+17101775
+

@@ -1,0 +1,18 @@
+TITLE
+A Prognostic Gene Expression Index in Ovarian Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Ovarian carcinoma has the highest mortality rate among gynecological malignancies. In this project, we investigated the hypothesis that molecular markers are able to predict outcome of ovarian cancer independently of classical clinical predictors, and that these molecular markers can be validated using independent data sets.   We applied a semi-supervised method for prediction of patient survival. Microarrays from a cohort of 80 ovarian carcinomas (TOC cohort) were used for the development of a predictive model, which was then evaluated in an entirely independent cohort of 118 carcinomas (Duke cohort).  A 300 gene ovarian prognostic index (OPI) was generated and validated in a leave-one-out approach in the TOC cohort (Kaplan-Meier analysis, p=0.0087). In a second validation step the prognostic power of the OPI was confirmed in an independent data set (Duke cohort, p=0.0063). In multivariate analysis, the OPI was independent of the postoperative residual tumour, the main clinico-pathological prognostic parameter with an adjusted hazard ratio of 6.4 (TOC cohort, CI 1.8 – 23.5, p=0.0049) and 1.9 (Duke cohort, CI 1.2 – 3.0, p=0.0068). We constructed a combined score of molecular data (OPI) and clinical parameters (residual tumour), which was able to define patient groups with highly significant differences in survival.  The integrated analysis of gene expression data as well as residual tumour can be used for optimised assessment of prognosis. As traditional treatment options are limited, this analysis may be able to optimise clinical management and to identify those patients that would be candidates for new therapeutic strategies. Keywords: disease state analysis
+
+DESIGN
+RNA from 80 frozen ovarian cancer samples was analysed with oligonucleotide microarrays
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+19294737
+

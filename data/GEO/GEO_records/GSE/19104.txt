@@ -1,0 +1,18 @@
+TITLE
+miRNA degradation in frozen tissue
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To determine the effect of RNA degradation on miRNA expression profiling.
+
+DESIGN
+To mimic total RNA degradation in snap-frozen livers and duodenums from mice (wild type female, C57/Bl6) tissues were stored in a -80°C freezer and then transferred to dry ice. Each frozen tissue was sliced into five identical pieces which then were transferred into eppendorf tubes. At time point zero (T0), all samples were placed on ice and total RNA was extracted immediately from (T0) and at later time points [30 min (T30), 60 min (T60), 120 min (T120) and 240 min (T240)]. RNA integrities were assessed using the Agilent Bioanalyzer 2100 which calculates RIN values of assayed RNAs. We found that at T0, the RNA integrity for both liver and duodenum was above 7, indicating good quality total RNA. However, 30 min on ice was sufficient to reduce RNA integrity, indicated by the decrease in RINs. These findings indicate that RNA degradation can take place in defrosted tissue at low temperature (i.e. on ice). For comparison, we assessed the extent to which RNA integrity is preserved in freshly harvested tissues when tissue processing is delayed. Liver and duodenum samples were collected from mice and either processed immediately or maintained on ice, as described above. Bioanalyzer electropherograms of the liver samples did not indicate any significant total RNA degradation even when samples remained on ice for up to 4 hrs. By contrast, duodenal samples (which are rich in RNases) do show high susceptibility to degradation similar to the snap-frozen defrosted material. These findings suggest that tissues such as duodenum or pancreas should either be processed immediately or snap-frozen and processed individually. To assess to which extent total RNA degradation affects miRNA expression profiles, we hybridized to the miCHIP microarray total RNAs extracted from freshly harvested livers and duodenums liver and from snap frozen livers and duodenums. Hierarchical clustering (HCL), by Pearson correlation, was used to cluster samples based on their miRNA expression profiles. Our analysis shows that miRNAs extracted from freshly harvested liver is less degraded (matrix plot analyses). Consistent with high level of RNases present in duodenum, miRNAs from freshly harvested duodenum are extensively degraded. Based on these data, we conclude that samples with low RIN values (less than 7) do not merit analysis on miRNA arrays.
+
+PLATFORM
+GPL9352 EMBL/CodeLink Mouse 0.4K miCHIP V8.0
+
+CITATIONS
+20025722
+

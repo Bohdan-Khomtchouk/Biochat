@@ -1,0 +1,18 @@
+TITLE
+Gene expression analysis of human haploid cells (HAP1) depleted of SMARCB1 and SMARCA4
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The aim of this study is to analyze the change in genome wide expression levels in HAP1 cells upon loss of SMARCB1, SMARCA4 or both these genes together.  The SMARCB1 and SMARCA4 genes were the hits from a genome wide screen involving genetrap mutagenesis to find new players that are involved in sensitivity to Doxorubicin (Dox). It was found that loss of SMARCB1 and SMARCA4 genes impart resistance in HAP1 cells to Dox. To validate this, the genes were knocked out in HAP1 cells with CRISPR-Cas9 technology. Gene expression levels in SMARCB1 null, SMARCA4 null and SMARCB1-SMARCA4 double null cells were compared to wildtype HAP1 cells using RNAseq. From these experiments it was found that SMARCB1 loss caused several fold increase in ABCB1 gene levels. ABCB1 is an efflux pump in cells responsible for flushing out many small-molecule drugs. Further analysis of this gene confirmed that ABCB1 was the main factor responsible for Dox resistance upon SMARCB1 loss.
+
+DESIGN
+In total there are four different cell types with two replicates for each cell type. Therefore, 8 samples in total.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+27503929
+

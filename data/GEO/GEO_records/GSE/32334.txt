@@ -1,0 +1,18 @@
+TITLE
+Developmental timecourse of mouse ocular lens and whole embryo control
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Identification of genes involved in ocular birth defects remains a challenge. To facilitate the identification of genes associated with cataract, we developed iSyTE (integrated Systems Tool for Eye gene discovery; http://bioinformatics.udel.edu/Research/iSyTE ). iSyTE contains microarray gene expression profiles of the mouse embryonic lens as it transitions from the stage of placode invagination to that of vesicle formation. We identified differentially regulated genes by comparing lens microarray profiles to those representing whole embryonic body (WB) without ocular tissue. These were then utilized to generate a ranked list of lens-genes enrichment, which can be viewed as iSyTE tracks in the UCSC Genome browser to aid identification of genes with lens function.
+
+DESIGN
+We microdissected embryonic lens from mice at E10.5, E11.5, and E12.5 (triplicate at each time point). To have a proper control, we also generated gene expression profiles of whole embryonic body (WB) at these time points. For comparative analysis, we also generated gene expression profiles of E13.5 tooth germs tissues, and matched WB. These profiles are used to identify lens and tooth specific gene expression enrichment at these embryonic time points. This dataset is then used to prioritize analysis of candidate cataract associated genes.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+22323457
+

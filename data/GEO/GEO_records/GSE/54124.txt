@@ -1,0 +1,18 @@
+TITLE
+Circadian behavior is light-reprogrammed by plastic DNA methylation (sequencing)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The timing of daily “circadian” behavior can be highly variable among different individuals, and twin studies suggest that about half of this variability is environmentally controlled.  Similar plasticity can be seen in mice exposed to an altered lighting environment – for example, 22-hour days instead of 24-hour ones – which stably alters the genetically determined period of circadian behavior for months.  The mechanisms mediating these environmental influences are unknown.  Here, we show that transient exposure of mice to such lighting stably alters global transcription in the suprachiasmatic nucleus of the hypothalamus (the SCN, the “master clock” tissue determining circadian behavior in mammals). We have also showed that, these changes in transcription are due to change in DNA methylation in the SCN. Indeed, genome-wide methylation profiling revealed global alterations in promoter DNA methylation in the SCN.  Importantly, infusion of a methyltransferase inhibitor to the SCN during 22-hour days suppressed period changes.  We also found that these behavioral and DNA methylation changes are reversible upon entrainment to 24-hours days. We conclude that the SCN utilizes DNA methylation as a mechanism to drive circadian clock plasticity. Methods: First, 16 mice 5 to 6 weeks old were exposed to DD for 7 days in order to measure their FRP. Then, mice were separated into 2 groups of 8 and entrained to ST and NT cycle. After 4 weeks we recorded wheel-running behavior in constant darkness. After 5 days in DD, we used Clocklab software to predict time of activity onset for each mouse. Brains were isolated at CT4 and sliced with a microtome using a fresh HBSS medium (thickness 250 uM) and the SCN was cut out with the aid of a binocular microscope and stored immediately at –80°C. Total RNA was extracted using the SurePrep™ Nuclear or Cytoplasmic RNA Purification Kit (Fisher Scientific) according to the manufacturer's protocol.  A total of 500 ng of RNA was used for subsequent steps. These steps included DNAase treatment, polyA selection, depletion of ribosomal RNA, overall quality check, and library preparation, and were performed by Fasteris (CH). Libraries were prepared according to standard Illumina protocols. sequence quality, read mapping and  data analysis: all steps were done using the GeneProf platform. Briefly, the sequencing reads of each library were first quality checked for read length and nucleotide composition, and then submitted for mapping to the mouse genome refrence sequence (Ensemble 58 mouse Genes, NCBIM37 assembly) using the alignment tool TopHat. Results: Entrainment to non-24 hours light/dark cycle induces a global changes in the SCN transcriptome.
+
+DESIGN
+SCN mRNA profile  of  mice entrained to normal and short T-cycle using RNAseq technology.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24531307
+

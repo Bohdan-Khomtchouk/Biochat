@@ -1,0 +1,18 @@
+TITLE
+Quantitative modeling of transcription factor binding specificities using DNA shape
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Accurate predictions of the DNA binding specificities of transcription factors (TFs) are necessary for understanding gene regulatory mechanisms. Traditionally, predictive models are built based on nucleotide sequence features. Here, we employed three- dimensional DNA shape information obtained on a high-throughput basis to integrate intuitive DNA structural features into the modeling of TF binding specificities using support vector regression. We performed quantitative predictions of DNA binding specificities, using the DREAM5 dataset for 65 mouse TFs and genomic-context protein binding microarray data for three human basic helix-loop-helix TFs. DNA shape-augmented models compared favorably with sequence-based models for these predictions. Although both k-mer and DNA shape features encoded the interdependencies between nucleotide positions of the binding site, using DNA shape features reduced the dimensionality of the feature space compared to k-mer use. Finally, analyzing the weights of DNA shape-augmented models uncovered TF family- specific structural readout mechanisms that were not obvious from the nucleotide sequence.
+
+DESIGN
+Three genomic-context protein binding microarray (gcPBM) experiments of human transcription factors were performed. Briefly, the gcPBMs involved binding his-tagged transcription factors c-Myc, Max, and Mad1(Mxd1) to double-stranded 180K Agilent microarrays in order to determine their binding specificity for putative DNA binding sites in native genomic context. Briefly, we represent three categories of 36-bp sequences: 1) bound probes, 2) unbound probes (or negative controls), and 3) test probes. Bound probes corresponded to genomic regions bound in vivo by c-Myc, Max, or Mad2 (ChIP-seq P < 10^(-10) in HeLaS3 or K562 celld (ENCODE)) that contain at least two consecutive 8-mers with universal PBM E-score > 0.4 (Munteanu and Gordan, LNCS 2013). All putative binding sites occur at the same position within the probes on the array. “Unbound” probes corresponded to genomic regions with ChIP-seq P < 10^(-10) and a maximum 8-mer E-score < 0.2. We also designed test probes that contain, within constant flanking regions, all nnCACGTGnn 10-mers and 18 nnnCACGTGnnn 12-mers (where n = A, C, G, or T). Each DNA sequence represented on the array is present in 6 replicate spots. We report the gcPBM signal intensity for each spot. The PBM protocol is described in Berger et al., Nature Biotechnology 2006 (PMID 16998473).
+
+PLATFORM
+GPL17173 Duke/RG_MycMaxMad_v1
+
+CITATIONS
+25313048 , 25775564
+

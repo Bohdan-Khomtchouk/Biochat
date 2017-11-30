@@ -1,0 +1,18 @@
+TITLE
+Genome-wide miRNA turnover profile in HDMYZ cells after transcription inhibition
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+HDMYZ cells were treated with 2ug/ml ActD for 0, 4 and 12 hours. Small RNAs of 15-40 bases were gel-purified from 10 ug total RNA, and subjected to multiplex Illumina small RNA library preparation. Small RNA libraries were sequenced on a HiSeq2000 (Illumina) with 3 samples per lane. To quantify miRNA and isoform abundance, sequence reads were processed by the miRDeep2 package, with the following modifications. First, to remove adaptor sequence, we removed both the main adaptor sequence present in the sequencing reads, as well as the second most abundant adaptor variant. In addition, we did not restrict the size of small RNAs during adaptor removal. Second, we used miRBase v18 for mapping the reads. Third, for quantifying miRNA and isoform frequency, we limited reads to more or equal to 15 bases in length with zero mis-match during mapping. The number of reads that were mapped to known miRNAs was used to normalize read frequencies for each miRNA or each miRNA isoform. For quantification purposes, we only considered miRNAs or isoforms that had frequency > = 1x10e-6 in samples without ActD treatment, which correspond to ~21-30 reads in raw count. These miRNAs or isoforms were referred to as reliably quantifiable.To analyze mapping to the genome, we removed reads that mapped to miRNA precursors. The rest of the reads were then mapped to the genome with Bowtie.
+
+DESIGN
+Measure miRNA expression level at 0, 4, 12 hours post ActinomycinD treatment to examine miRNA turnover pattern.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

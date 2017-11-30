@@ -1,0 +1,18 @@
+TITLE
+Estrogen receptor coregulator binding modulators (ERXs) effectively target estrogen receptor positive human breast cancers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We examined the transcriptional chagnes modulated by ECBI-11 by perfroming global transcriptome analysis. ZR75 cells were treated with either control or ECBI-11 in the presence of E2 for 48 h and the isolated RNA was utilized for RNA-seq analysis. Our results demonstrated that ECBI modulated several genes that are involved in cell cycle, breast cancer signaling, estrogen signaling and apoptosis.
+
+DESIGN
+Total RNA was isolated from the ZR75  cells that were treated with vehicle or ECBI for 48 h. Illumina TruSeq RNA Sample Preparation was performed following manufacturer's protocol. Samples were run on an Illumina HiSeq 2000 in duplicate. The combined raw reads were aligned to UCSC hg19 and genes were annotated by Tophat. Genes were annotated and quantified by HTSeq-DESeq pipeline.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28786813
+

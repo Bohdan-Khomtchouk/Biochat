@@ -1,0 +1,18 @@
+TITLE
+Inflammation induced repression of Foxp3-bound chromatin in regulatory T cells [sequencing]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The transcription factor Foxp3 is indispensable for the ability of regulatory T (Treg) cells to suppress fatal inflammation. Here, we characterized the role of Foxp3 in chromatin remodeling and regulation of gene expression in actively suppressing Treg cells in an inflammatory setting. Although genome-wide Foxp3 occupancy of DNA regulatory elements was similar in resting and in vivo activated Treg cells, Foxp3-bound enhancers were poised for repression only in activated Treg cells. Following activation, Foxp3-bound sites showed reduced chromatin accessibility and selective H3K27 tri-methylation, which was associated with Ezh2 recruitment and downregulation of nearby gene expression. Thus, Foxp3 poises its targets for repression by facilitating formation of repressive chromatin in regulatory T cells upon their activation in response to inflammatory cues. The supplementary file foxp3_rest_act_table.txt includes Foxp3 ChIP data that is co-normalized with data from Foxp3 ChIP data from GSE40684.
+
+DESIGN
+Foxp3 ChIP-seq, H3K27me3 ChIP-seq, and DNase-seq, were integrated with array expression data to find that Foxp3 is required for formation of repressive chromatin
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24728351
+

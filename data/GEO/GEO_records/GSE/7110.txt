@@ -1,0 +1,18 @@
+TITLE
+Explaining Differences in Saturation Levels for Affymetrix GeneChip Arrays
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The experimental spike-in studies of microarray hybridization conducted by Affymetrix demonstrate a nonlinear response of fluorescence intensity signal to target concentration. It was shown that the Langmuir adsorption isotherm recapitulates a general trend of signal response to concentration. However, this model fails to explain some key properties of the observed signal. In particular, according to the simple Langmuir isotherm, all probes should saturate at the same intensity level. However, this effect was not observed in the publicly available Affymetrix spike-in datasets. In our experimental study, we attempt to account for the unexplained variation in the observed probe intensities using customized fluidics scripts. We explore experimentally the effect of the stringent wash, target concentration, and hybridization time on the final microarray signal. Keywords: hybridization condition effect
+
+DESIGN
+The washing effect is assessed by scanning chips both prior to and after the stringent wash (Wash Condition). Selective labeling of both specific and non-specific targets allows the visualization and investigation of the washing effect for both specific and non-specific signal components. By varying the length of the hybridization cycle, the issue of attaining probe-target binding equilibrium can be addressed (Hybridization Time). To explore saturation potential, we performed hybridization experiments in which four clones are spiked-in and hybridized to two chips at a concentration of 1nM and 10nM respectively, each in the absence of complex background (Labeling Condition).
+
+PLATFORM
+GPL72 [DrosGenome1] Affymetrix Drosophila Genome Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+PA14-PA2444 vs. PA14-WT biofilm cells
+
+ORGANISM
+Pseudomonas aeruginosa PA14
+
+SUMMARY
+Pseudomonas aeruginosa causes many biofilm infections, and the rugose small-colony variants (RSCVs) of this bacterium are important for infection. We found here that mutation in glyA2 (PA2444), which encodes a serine hydroxymethyltransferase, leads to the RSCV phenotype. The phenotype is related to increased c-di-GMP concentrations and depends on an active Wsp chemosensory system, including a diguanylate cyclase WspR.  By characterizing the PA2444 enzyme both in vivo and in vitro, we determined the physiological function of PA2444 and related the enzyme to S-adenosylmethionine concentrations and the methylation of a membrane bound methyl-accepting chemotaxis protein WspA. A transcriptome analysis revealed the possible relationship between PA2444 and the redox state of the cells. Hence, we provide a mechanism for how an enzyme of central metabolism controls the community behavior of the bacterium.
+
+DESIGN
+The P. aeruginosa genome array (Affymetrix, P/N 510596) was used to investigate differential gene expression in biofilm cells between PA14 and the PA2444 mutant.  Biofilm cells were harvested from 10 g of glass wool after incubation for 7 h in LB with shaking at 250 rpm, and RNA was extracted with the RNeasy Mini Kit (Qiagen, Valencia, CA) using a bead beater (Biospec, Bartlesville, OK ) with RNAlater buffer (Applied Biosystems, Foster City, CA) to stabilize the RNA. For each binary microarray comparison of differential genes expression, if the gene with the larger transcription rate did not have a consistent transcription rate based on the 13 probe pairs (P-value less than 0.05), these genes were discarded. A gene was considered differentially expressed when the P-value for comparing two chips was lower than 0.05 (to assure that the change in gene expression was statistically significant and that false positives arise less than 5%) and when the expression ratio was higher than the standard deviation for the whole microarrays (1.8 for PA14 wild-type and PA2444).
+
+PLATFORM
+GPL84 [Pae_G1a] Affymetrix Pseudomonas aeruginosa Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

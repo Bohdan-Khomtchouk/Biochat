@@ -1,0 +1,18 @@
+TITLE
+ChIPseq examination of EAP-1 binding across generations of spr-5(by101) mutant worms
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+How epigenetic information is transmitted from generation to generation remains largely unknown. Deletion of the C. elegans Histone H3 lysine 4 dimethyl (H3K4me2) demethylase spr-5 leads to inherited accumulation of the euchromatic H3K4me2 mark and progressive decline in fertility. Here we identified a genetic network of chromatin-modifying factors, including the H3K4me1/me2 methyltransferases SET-17 and SET-30, the H3K9me1/me2 methyltransferase MET-2, an H3K9me3 methyltransferase, SET-26, the H3K9me3 demethylase JMJD-2, and an H3K9me reader EAP-1, which regulate the trans-generational flow of epigenetic information. Importantly, genetic ablation of set-17, set-30, jmjd-2, or eap-1 suppresses the progressive transgenerational phenotypes, while loss of SET-26 or MET-2 accelerates the infertility of spr-5 mutant worms. We further show that loss of spr-5 also causes a trans-generational increase in lifespan, which is dependent on these chromatin regulators as well as DAF-36 and DAF-12, which control a germline to soma longevity signaling pathway. These findings suggest that the balance between the euchromatic H3K4 and the heterochromatic H3K9 methylation regulates trans-generational effects on longevity and fertility.
+
+DESIGN
+EAP-1 binding ChIPseq libraries were prepared from 50 ul of packed young adult worms which were maintained at 16 degrees until the appropriate generation and then shifted to 25 degrees after birth. Two biological repeats were generated for wildtype and generation 20 spr-5(by101) mutant worms and a single repeat for generation 10. There were four input samples and eap-1 null mutant worms were also analyzed.
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+24685137
+

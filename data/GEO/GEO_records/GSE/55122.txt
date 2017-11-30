@@ -1,0 +1,18 @@
+TITLE
+Identifying mRNA Sequence Elements for Target Recognition by Human Argonaute Proteins
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+It is commonly known that mammalian microRNAs guide the RNA-induced silencing complex (RISC) to target mRNAs through the seed-pairing rule. However, recent experiments by co-immunoprecipitating the argonaute proteins (AGOs), the central catalytic component of RISC, have consistently revealed extensive AGO-associated mRNAs lacking seed complementarity with microRNAs. We herein test the hypothesis that AGO has its own binding preference within target mRNAs, independent of guide microRNAs. By systematically analyzing the data from in vivo cross-linking experiments with human AGOs, we have identified a structurally accessible and evolutionarily conserved region (~10 nucleotides) that alone can accurately predict AGO-mRNA associations, independent of the presence of microRNA binding sites. Within this region, we further identified an enriched motif that is also consistently present in several independent AGO-immunoprecipitation datasets. We used RNAcompete to enumerate the RNA-binding preference of human AGO2 to all possible 7-mer RNA sequences, and validated our motif in vitro. These findings reveal a novel function of AGOs as sequence-specific RNA-binding proteins, which may aid microRNAs in recognizing their targets with high specificity.
+
+DESIGN
+Here, we analyze the RNA-binding preference of human Argonaute 2 protein using RNAcompete assay
+
+PLATFORM
+GPL18297 Agilent-024519 RBD_v3_244K_Hughes
+
+CITATIONS
+24663241
+

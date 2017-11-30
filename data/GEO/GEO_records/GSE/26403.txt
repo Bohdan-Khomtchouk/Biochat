@@ -1,0 +1,18 @@
+TITLE
+Gene therapy of Mpl -/- mouse LSK cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Comparison of Mpl-/- mouse LSK cells, either treated with control (GFP) or Mpl lentivirus. Lineage negative bone marrow cells were isolated and transduced and transplanted into Mpl-/- recipient mice. After transplantation and follow up mice were sacrificed and LSK (lineage negative, Sca-1 positive, cKit positive) cells were isolated by FACS. RNA was isolated using RNeasy Micro Kit (Qiagen GmbH, Hilden, Germany) and RNA was amplified for microarray hybridization using the Nugen Ovation system (Nugen Technologies, AC Bemmel, Netherlands). The resulting material was hybridized to Affymetrix Mouse 430 2.0 arrays. RMA normalization and summarization was performed in R 2.10 using Bioconductor packages.  The aim was to show the normalization of Mpl associated gene expression.
+
+DESIGN
+3 control (GFP transduced) samples of Mpl -/- mouse LSK cells and 3 treatment (Mpl transduced) samples of Mpl -/- mouse LSK cells.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+21289307
+

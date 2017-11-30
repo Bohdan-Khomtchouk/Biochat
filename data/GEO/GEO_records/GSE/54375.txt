@@ -1,0 +1,18 @@
+TITLE
+BayMeth: improved DNA methylation quantification for affinity capture sequencing data using a flexible Bayesian approach
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Affinity capture of DNA methylation combined with high-throughput sequencing strikes a good balance between the high cost of whole genome bisulfite sequencing and the low coverage of methylation arrays. We present BayMeth, an empirical Bayes approach that uses a fully methylated control sample to transform observed read counts into regional methylation levels. In our model, inefficient capture can readily be distinguished from low methylation levels. BayMeth improves on existing methods, allows explicit modeling of copy number variation, and offers computationally-efficient analytical mean and variance estimators. BayMeth is available in the Repitools Bioconductor package.
+
+DESIGN
+Benchmarking samples to compare MBD- and MeDIP-seq [GSE38679, GSE24546; PMID 21045081] datasets against 450k measurements
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+24517713
+

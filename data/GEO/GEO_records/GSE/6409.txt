@@ -1,0 +1,18 @@
+TITLE
+Identify cis-regulatory modules for OCT4
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recent ChIP-chip studies have revealed that many in vivo binding sites have a weak match to the consensus sequence for the transcription factor being analyzed. Possible explanations for these observations include a) the consensus site was derived from in vitro analyses and does not represent the preferred in vivo binding site and/or b) the factor is recruited to a weak binding site via interaction with a protein that binds nearby. To address these possibilities we have developed a motif discovery approach (ChIPMotifs) that incorporates a bootstrap re-sampling method to statistically infer the optimal cutoff threshold for a position weight matrix (PWM) of a motif identified from in vivo ChIP-chip data by ab initio motif discovery programs. Using OCT4 ChIP-chip data derived from genomic tiling arrays and the ChIPMotifs approach, we developed a refined OCT4 PWM. We then used the in vivo-derived PWM and a ChIPModules approach to identify transcription factors co-localizing with OCT4 in a testicular germ cell tumor (Ntera2 cells). We found that the consensus binding site for SRY, a transcription factor critical for testis development, co-localizes with the OCT4 PWM. To further characterize the relationship between OCT4 and SRY binding sites, we used ChIP-chip analysis of human promoter microarrays, and found that 49% of the top ~1000 OCT4 target promoters were also bound by SRY. This analysis represents the first identification of SRY target promoters. Our studies not only validate the ChIPMotifs and ChIPModules combinatorial approach but also identify a possible new regulatory partner of OCT4. Keywords: ChIP-chip, computational approaches
+
+DESIGN
+First performing ChIP-chip experiments, then find OCT4 binding motif, then identify regulatory modules using ChIPModules approach.
+
+PLATFORM
+GPL4599 NimbleGen_1500b_Promoter_Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

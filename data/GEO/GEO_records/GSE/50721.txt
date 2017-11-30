@@ -1,0 +1,18 @@
+TITLE
+Whole transcriptome profiling of the two major subtypes of diffuse large B cell lymphoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The goal of this study is to identify the transcriptome differences between the two major subtypes of diffuse large B cell lymphoma (DLBCL).  DLBCL is the most common form of non-Hodgkin’s lymphoma and has two major subtypes: germinal center B-cell-like (GCB) and activated B-cell-like (ABC).  When compared to the GCB form, ABC lymphomas respond much more poorly to current therapies. To investigate how gene expression changes might contribute to this aggressive phenotype, we have used RNA-Seq to profile the whole transcriptome in 8 DLBCL cell lines (4 GCB subtype, 4 ABC) that are derived from patient tumors.  1,545 genes are differentially expressed between subtypes (FDR < 0.05), approximately 7% of the transcriptome.  The vast majority of these genes (81%, n = 1251) are more highly expressed in the ABC cell lines.  In contrast, only 294 genes (19%) are more highly expressed in the GCB cell lines.  Half (n = 765) of the genes with greater ABC subtype expression demonstrate very low read counts ( < 5) in the GCB cell types.  Conversely, only 21 genes that are more highly expressed in GCB are unique to that subtype.  The prevalence of such “on/off” genes indicates that the major differences between ABC and GCB DLBCL are due almost exclusively to additional gene expression in ABC, rather than the two subtypes having divergent but equally active genetic programs.
+
+DESIGN
+Measurement and comparison of gene expression in 8 cell lines representing the 2 subtypes of DLBCL.  4 cell lines are subtyped as ABC and 4 are subtyped as GCB.  2 replicates are present for each cell line.  (Cell line OCI-Ly19 was not included in the analysis because its gene expression clustered in between the subtypes, probably due to its EBV+ status.  However, its sequencing runs have been included for completeness.)
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+24142927
+

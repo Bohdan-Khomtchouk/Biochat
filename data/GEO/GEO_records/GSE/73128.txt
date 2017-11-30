@@ -1,0 +1,18 @@
+TITLE
+Mutations in histone and other genes in MLL2-impaired human and mouse cells
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+We used human or mouse MLL2-impaired cells (including a human DSET MLL2 cell line,) as well as their parental controls, and measured mutations in histones and a few other genes that were affected in our gH2AX ChIP-Seq experiments. We found that cells lacking or having impaired MLL2 were presenting statistically signifficant, higher levels of mutations at the tested genes as compared to their parental controls.
+
+DESIGN
+The experiments were performed using human and mouse cells. For the human cells, the parental HCT116 cells were used as control. Two different MLL2 KO clones (KO19 and KO34) and a DSET MLL2 cell line were employed. For the mouse cells, the F/F cells were used, in which both MLL2 alleles are targeted by loxp. Tamoxifen treatment for 24 hours results in the excision of both MLL2 alleles (FC/FC cells). F/F cells were treated with tamoxifen (FC/FC) or vehicle (DMSO, F/F) for 24 hours. Half of the cells were then harvested and used as controls (T0), while the other half were cultured for another 30 days (T30). Mutations after 30 days (T30) of tamoxifen/vehicle treatment were measured compared to the T0 controls. In all cases, two different pools of primers were employed. All histone genes available to target with high coverage were studied, in either human or mouse cells. For the human cells, 32 histone (HIST1H1A HIST1H1B HIST1H1C HIST1H1D HIST1H1E HIST1H1T HIST1H2AC HIST1H2AD HIST1H2AG HIST1H2AH HIST1H2AI HIST1H2AJ HIST1H2AK HIST1H2BF HIST1H2BG HIST1H2BH HIST1H2BI HIST1H2BJ HIST1H2BK HIST1H2BN HIST1H3B HIST1H3C HIST1H3D HIST1H3E HIST1H3F HIST1H3G HIST1H3H HIST1H3I HIST1H4B HIST1H4F HIST1H4J HIST2H2AC) and 6 other genes (BTG2 SGK1 MDM2 CDKN1A EGR1 RPLP0) were targeted. For the mouse cells, 21 histone (HIST1H1A HIST1H1B HIST1H1C HIST1H1D HIST1H1E HIST1H1T HIST1H2AK HIST1H2BQ HIST1H3B HIST1H3C HIST1H3F HIST1H4F HIST1H4J HIST1H4N HIST1H4N HIST2H2AA1 HIST2H2AA1 HIST2H2AA2 HIST2H2AA2 HIST2H2AC HIST2H2BB) and 6 other genes (BTG2 SGK1 MDM2 CDKN1A EGR1 RPLP0) were targeted. Processed data to be submitted to appropriate variation archive.
+
+PLATFORM
+GPL16331 Ion Torrent PGM (Mus musculus) GPL17301 Ion Torrent PGM (Homo sapiens)
+
+CITATIONS
+26883360
+

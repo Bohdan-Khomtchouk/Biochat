@@ -1,0 +1,18 @@
+TITLE
+AHR mediated gene expression changes in immature DN thymocytes and thymic emigrants
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Effect of an immunosupressive dose of TCDD, a ligand for the aryl hydrocarbon receptor, on the gene expression profile of fetal DN thymocytes and thymic emigrants
+
+DESIGN
+C57BL6 mice were mated and the pregnant dams sacrifice at day 15 of gestation. Fetal thymic lobes were prepared and cultured for 6 days on culture inserts (5-6 lobes/culture insert). Medium, containing either 10 nM TCDD or solvent control was exchanged every 48 hours. At day six (gestation day 21, corresponding to birth), single cell suspensions of the thymocytes were prepared and CD4-CD8- cells isolated by MACS sorting. Purity of the population was checked FACS analysis, to be greater 95%. RNA was purified (TRIZOL), amplified (Ambion Kit) and processed (Affymetrix standard protocol) according to manufacturers instructions. Raw cell files were processed with the bioconductor affy package
+
+PLATFORM
+GPL339 [MOE430A] Affymetrix Mouse Expression 430A Array
+
+CITATIONS
+16972790
+

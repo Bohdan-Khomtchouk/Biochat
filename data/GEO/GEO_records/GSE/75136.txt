@@ -1,0 +1,18 @@
+TITLE
+High-throughput discovery of post-transcriptional cis-regulatory elements (miRNA-seq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Post-transcriptional gene regulation controls the amount of a protein produced from an individual mRNA transcript by altering mRNA decay and translation rates. Many putative post-transcriptional cis-regulatory elements have been identified from computational, molecular biology, and biochemical studies studies; however, identifying which sequence elements are sufficient to regulate expression remains challenging. We created a high-throughput, cell-based screen that tested the post-transcriptional regulatory potential for thousands of short sequence elements. Sequences with known effects have the expected performance in this screen, showing this methodology is robust. Hundreds of novel short sequences were identified as being able to alter gene expression, both by increasing and decreasing protein production from the fluorescence reporter, and we validated the effects for fifty of these sequences. Importantly, sequences discovered in this screen are conserved in human 3′UTRs, and furthermore, the sequences can regulate expression in the context of those endogenous 3′UTRs. Hundreds of previously unknown post-transcriptional cis-regulatory elements exist, many of which increase gene expression. These results suggest that each human 3′UTR has many small cis-regulatory elements that interact with RNA binding proteins, and these interactions control the fate of an mRNA transcript.
+
+DESIGN
+miRNAs were sequenced from HEK293-FLP cells
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26941072
+

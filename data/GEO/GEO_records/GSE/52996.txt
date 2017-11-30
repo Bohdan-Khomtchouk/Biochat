@@ -1,0 +1,18 @@
+TITLE
+Contribution of natural antisense transcription to an endogenous siRNA signature in human cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Eukaryotic cells express a complex layer of noncoding RNAs. An intriguing family of regulatory RNAs includes transcripts from the opposite strand of protein coding genes, so called natural antisense transcripts (NATs). Here, we test the hypothesis that antisense transcription triggers RNA interference and gives rise to endogenous short RNAs (endo-siRNAs). Methods/Results: We used cloned human embryonic kidney cells (HEK293) followed by short RNAseq to investigate the small genic RNA transcriptome. 378 genes gave rise to short RNA reads that mapped to exons of RefSeq genes. The length profile of short RNAs showed a broad peak of 20-24 nucleotides, indicative of endo-siRNAs. Collapsed reads mapped predominantly to the first and the last exon of genes (74%). RNAs reads were intersected with sequences occupied by RNAPolII or bound to Argonaute (AGO1  by crosslinking, ligation, and sequencing of hybrids, CLASH). In the first exon, 94% of the reads correlated with PolII occupancy with an average density of 130 (relative units); this decreased to 65%/20 in middle exons and 54%/12 in the last exon. CLASH reads mapping to multi-exon genes showed little distribution bias with an average of about 5 CLASH reads overlapping with 60% of the endo-siRNA reads. However, endo-siRNAs (21-25 nt) intersecting with CLASH reads were enriched at the 5'end and decreased towards the 3'end. We then investigated the 378 genes with particular focus on features indicative for short RNA production; however, found that endo-siRNA numbers did not correlate with gene structures that favor convergent transcription. In contrast, our gene set was found notably over-represented in the NATsDB sense/antisense group as compared to non-overlapping and non-bidirectional groups.  Moreover, read counts showed no correlation with the steady-state levels of the related mRNAs and the pattern of endo-siRNAs proved reproducible after an induced mutagenic insult. Conclusions: Our results suggest that antisense transcripts contribute to low levels of endo-siRNAs in fully differentiated human cells. A characteristic endo-siRNA footprint is being produced at sites of RNAPolII transcription which is also related to AGO1. This endo-siRNA signature represents an intriguing finding and its reproducibility suggests that the production of endo-siRNAs is a regulated process with potential homoeostatic impact.
+
+DESIGN
+Size selected RNASeq of 3 human embryonic kidney cell (HEK293) samples. 1 control and 2 samples exposed to 100 μg/ml ethyl methanesulfonate for 24 hrs.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24410956
+

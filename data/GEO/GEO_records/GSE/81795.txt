@@ -1,0 +1,18 @@
+TITLE
+An epigenetic mark of polycomb response elements implemented by Trx/MLL/COMPASS
+
+ORGANISM
+Drosophila melanogaster ; Homo sapiens
+
+SUMMARY
+In Drosophila, Polycomb Response Elements (PREs) are identified as genomic sequences allowing the maintenance of transcriptional repression in the absence of the initiating signal. Although PREs in Drosophila are well characterized, the existence of mammalian PRE-like elements remains debated.  Accumulating evidence supports a model in which CpG islands function to recruit Polycomb-Group complexes (PcG), however, it is not evident which subclasses of CpG islands serve as PREs. Trithorax (Trx), which is required for positive regulation of gene expression in Drosophila, is known to co-bind Drosophila PREs where it is thought to antagonize polycomb-dependent silencing of nearby genes.  Here, we demonstrate the existence of Trx-dependent H3K4 dimethylation loci that specifically mark Drosophila PREs and are required for the maintenance of expression of the nearby genes. Similarly, in human cells, we find ~ 3000 MLL1 (human Trx homologue)-dependent H3K4 dimethylation loci, which correlate strongly with CpG island density. In the absence of MLL1 and H3K4 dimethylation at these loci, there is an increase in H3K27 trimethylation levels, suggesting these sites can recruit Polycomb Repressive Complex 2 (PRC2). By inhibiting PRC2-dependent silencing in the absence of MLL1, we establish that a balance exists between MLL1 and PRC2, and their respective capacity to maintain or repress transcription. Thus, by investigating a conserved function between Trx and MLL1, we provide rules for the identification of CpG island subclasses serving as PRE-like sequences within the human genome.
+
+DESIGN
+To examine changes in histone-modification profiles and gene expression after depletion of Trx in Drosophila S2 cells, and MLL1 in human HCT116 cells. We also treated MLL1-NULL HCT116 cells with GSK126 (5uM) for 4 days and measured changes in gene expression.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster) GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19132 Illumina NextSeq 500 (Drosophila melanogaster)
+
+CITATIONS
+27447986
+

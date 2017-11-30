@@ -1,0 +1,18 @@
+TITLE
+miRNA-target chimeras identified with CLEAR-CLIP reveal miRNA 3' end pairing as a major determinant of Argonaute binding in vivo [human Huh7.5 AGO-CLIP & CLEAR-CLIP]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+microRNAs (miRNAs) act as sequence-specific guides for Argonaute (AGO) proteins, which mediate post-transcriptional silencing of target mRNAs. Despite their importance in many biological processes, rules governing AGO-miRNA targeting are only partially understood. We use a modified AGO HITS-CLIP strategy, termed CLEAR (Covalent Ligation of Endogenous Argonaute-bound RNAs) CLIP that enriches miRNAs ligated to their endogenous mRNA targets. CLEAR-CLIP mapped ~130,000 endogenous miRNA-target interactions in mouse brain and ~40,000 in human hepatoma cells. Motif and structural analysis define expanded pairing rules for over 200 mammalian miRNAs. Most interactions combine seed-based pairing with distinct, miRNA-specific patterns of auxiliary pairing. At some regulatory sites, this specificity confers distinct silencing functions to miRNA family members with shared seed sequences but divergent 3’ ends. This work provides a means for explicit biochemical identification of miRNA sites in vivo, leading to the discovery that miRNA 3’ end pairing is a general determinant of AGO binding specificity.
+
+DESIGN
+In vivo microRNA-target interactions were identified with CLEAR-CLIP, a modified HITS-CLIP approach that allows direct ligation of microRNA and target within purified, endogenous AGO-RNA complexes. Native AGO-RNA complexes were purified under stringent conditions selectively preserve cross-linked AGO-target interactions, then microRNA and target mRNA were ligated within the AGO complex to form miRNA-target chimeras in addition to standard AGO CLIP reads. AGO-bound RNAs were cloned by addition of a pre-adenylated 3' linker, a 5' RNA linker containing a 4 nt degenerate barcode followed by a G (NNNNG), and RT-PCR amplification. A second round of PCR amplification added a 4 nt index (for multiplexing) followed by a 16 nt common priming sequence. Raw data files have been de-multiplexed, but are otherwise not modified.  Samples BR4 and BR5 are no-ligase controls in which chimera ligation was omitted.  Several 'mixing' controls experiments were also done to measure ligation of microRNAs to non-cross-linked targets due to post-lysis re-association by adding E. coli RNA (BR17-20) or Drosophila S2 cell lysates (BR21, BR22) into mouse brain lysates.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26602609
+

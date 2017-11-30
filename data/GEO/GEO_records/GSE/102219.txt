@@ -1,0 +1,18 @@
+TITLE
+Quantitative profiling of BATF family proteins/JUNB/IRF hetero-trimers using Spec-seq
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+Spec-seq directly mesaures specificity by sequencing. We run an EMSA experiment on TF of interest with a library of DNA targets. Then we extract and sequence the bound and unbound portion of the DNA separately. Finally we count the occurences of each varient in the library and calculate the ratio and the relative binding energy.
+
+DESIGN
+15 independent Spec-seq experiments
+
+PLATFORM
+GPL17769 Illumina MiSeq (synthetic construct)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Distinctive Chromatin in Human Sperm Packages Genes that Guide Embryo Development: ChIP-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+As nucleosomes are widely replaced by protamine in mature human sperm, epigenetic  contributions to embryo development appear limited.  However, our genome-wide approaches find nucleosomes at low levels genome-wide, but also significantly enriched at imprinted gene clusters, miRNA clusters, HOX gene clusters, and the promoters of other developmental transcription and signaling factors. Developmental promoters were often DNA hypomethylated, and bore histone modifications localized to discrete locations: H3K4me2 is enriched at certain developmental promoters, whereas large blocks of H3K4me3 localize to a subset of developmental promoters, regions in HOX loci, certain non-coding RNAs, and generally to paternally-expressed imprinted loci.  In contrast, H3K4me3 is generally absent at paternally-repressed imprinted loci. Interestingly, repressive H3K27me3 is enriched at many developmental promoters that lack early expression in embryos, with significant overlap with bivalent (H3K4me3/H3K27me3) promoters in ES cells. Taken together, epigenetic marking in sperm is extensive, and correlated with developmental regulators.
+
+DESIGN
+*Use of ChIP-seq to identify regions enriched for histone, and several histone variants in human sperm. *Histone Localization: Chromatin was prepared from 40 million sperm as described previously (1) in the absence of crosslinking reagent, treated with sequential and increasing MNase (10U-160U), and centrifuged to sediment protamine-associated DNA, releasing mononucleosomes. The pooled mononucleosomes were gel purified (~140-155 bp) for sequencing and array analysis.  Mononucleosomes for ChIP-seq were sequenced from a single donor (3 replicas combined) or a donor pool (4 donors each ~6 million reads) and data was normalized to 20 million input control reads (pooled donor sperm genomic DNA). *Chromatin IP and Preparation for Genomics Methods: ChIP methods were as described previously (2) but were performed without a cross linking agent and slight modifications to the salt levels, 250 mM NaCl, 200 mM LiCl, and replaced the TE wash with 150 mM PBS wash. A subset of the modifications H3K4me3, H3K27me3 and H2A.z were done from a donor pool and only analyzed by Solexa. Each IP was repeated three time and the three replicas were pooled. For sequencing, DNA lengths corresponding to mononucleosomes with adapters  (220-280 bp) were gel purified after the addition of the Illumina adaptors. The sequencing data was normalized to histone donor pool (D1 was subsampled to 5million and combined with the reads from D2-D4). 1. Zalenskaya, I.A., Bradbury, E.M. & Zalensky, A.O. Chromatin structure of telomere domain in human sperm. Biochem Biophys Res Commun 279, 213-8 (2000). 2. Gordon, M. et al. Genome-Wide Dynamics of SAPHIRE, an Essential Complex for Gene Activation and Chromatin Boundaries. Mol Cell Biol 27, 4058-69 (2007). Samples corresponding to each GSE15690_Seq* processed data supplementary file: GSE15690_Seq_H2AZ.txt: GSM392695 GSE15690_Seq_H3K27Me3.txt: GSM392699, GSM392700 GSE15690_Seq_H3K4Me3.txt: GGSM392696-GSM392698 GSE15690_Seq_HistoneMnase_D1.txt: GSM392701-GSM392707, GSM392714-GSM392716 GSE15690_Seq_HistoneMnase_PooledDonor.txt: GSM392708-GSM392713, GSM392717-GSM392720
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+19525931
+

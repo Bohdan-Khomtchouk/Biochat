@@ -1,0 +1,18 @@
+TITLE
+Gene expression induced in Escherichia coli O157:H7 upon exposure to model apple juice
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Escherichia coli O157:H7 has caused serious outbreaks of foodborne illness via transmission in a variety of food vehicles, including unpasteurized apple juice, dried salami, and spinach.  To understand how this pathogen responds to the multiple stresses of the food environment, we compared global transcription patterns after exposure to apple juice.  Transcriptomes of mid-exponential and stationary phase cells were evaluated after 10 minutes in model apple juice (pH3.5) using microarrays probing 4,886 ORFs.  Significant changes in gene expression were determined using R/MAANOVA and the Fs test. A total of 331 ORFs were significantly induced upon exposure of cells to model apple juice and included genes involved in the acid and osmotic stress responses as well as the oxidative stress response and envelope stress.  Genes involved in the acid and osmotic stress responses, including asr, osmC, osmB, and osmY were significantly induced in response to model apple juice.   Genes involved in the envelope stress response, known to be controlled by CpxR (cpxP, degP, and htpX), were significantly induced 2 to 15 fold upon exposure to apple juice, independent of growth phase.  Inactivation of CpxRA resulted in a significant decrease in survival of O157:H7 in model apple juice compared to the isogenic parent strain.  Of the 331 ORFs induced in model apple juice, 104 are O157-specific ORFs, including those encoding type three secretion effectors espJ, espB, espM2, espL3 and espZ.  By elucidating the response of O157:H7 to acidic foods, we hope to gain insights into how this pathogen is able to survive in food matrices and how exposure to foods affects subsequent transmission and virulence. Keywords: stress
+
+DESIGN
+The results are based on O157:H7 Sakai exponential and stationary phase cultures grown in MOPS minimal medium and then exposed to model apple juice (pH 3.5, 37C) for 10 minutes.  Differences in transcript levels were determined using a mixed model ANOVA in R/MAANOVA which tested for significant differences due to growth phase (exponential or stationary), treatment (MOPS or MAJ) and the interaction of these two factors using the following linear model: array+dye+sample (biological replicate)+ phase+treatment+phase*treatment.   We incorporated the dye-swaps among the biological replicates.
+
+PLATFORM
+GPL5047 MSU E. coli 6K Ver. 1.0.1
+
+CITATIONS
+19346340
+

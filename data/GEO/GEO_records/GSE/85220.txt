@@ -1,0 +1,18 @@
+TITLE
+Micro-C XL: assaying chromosome conformation at length scales from the nucleosome to the entire genome
+
+ORGANISM
+Schizosaccharomyces pombe ; Saccharomyces cerevisiae
+
+SUMMARY
+Structural analysis of chromosome folding in vivo has been revolutionized by Chromosome Conformation Capture (3C) and related methods, which use proximity ligation to identify chromosomal loci in physical contact. We recently described a variant 3C technique, Micro-C, in which chromatin is fragmented to mononucleosomes using micrococcal nuclease, enabling nucleosome-resolution folding maps of the genome. Here, we describe an improved Micro-C protocol using long crosslinkers, termed Micro-C XL, which exhibits greatly increased signal to noise, and provides further insight into the folding of the yeast genome. We also find that signal to noise is much improved in Micro-C XL libraries generated from relatively insoluble chromatin as opposed to soluble material, providing a simple method to physically enrich for bona-fide long-range interactions. Micro-C XL maps of the budding and fission yeast genomes reveal both short-range chromosome fiber features such as chromosomally-interacting domains (CIDs), as well as higher-order features such as clustering of centromeres and telomeres, thereby addressing the primary discrepancy between prior Micro-C data and reported 3C and Hi-C analyses. Interestingly, comparison of chromosome folding maps of S. cerevisiae and S. pombe revealed widespread qualitative similarities, yet quantitative differences, between these distantly-related species. Micro-C XL thus provides a single assay suitable for interrogation of chromosome folding at length scales from the nucleosome to the full genome.
+
+DESIGN
+Chromatin is fragmented by Mnase, subsequenct nucleosomal end repair, and a modified two-step method for purfiying ligation products. Using Illumina paired-end sequencing maps Micro-C library and generates nucleosome resolution contact maps.
+
+PLATFORM
+GPL19756 Illumina NextSeq 500 (Saccharomyces cerevisiae) GPL20584 Illumina NextSeq 500 (Schizosaccharomyces pombe)
+
+CITATIONS
+27723753
+

@@ -1,0 +1,18 @@
+TITLE
+Adrenocortical Carcinoma Gene Expression Profiling [Affymetrix]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Adrenocortical carcinoma (ACC) is associated with poor survival rates.  The objective of the study was to analyze ACC gene expression profiling data prognostic biomarkers and novel therapeutic targets. Methods: 44 ACC and 4 normal adrenal glands were profiled on Affymetrix U133 Plus 2 expression microarrays and pathway and transcriptional enrichment analysis performed.  Protein levels were determined by western blot.  Drug efficacy was assessed against ACC cell lines.  Previously published expression datasets were analyzed as validation data sets. Results: Pathway enrichment analysis identified marked dysregulation of cyclin-dependent kinases and mitosis.   Over-expression of PTTG1, which encodes securin, a negative regulator of p53, was identified as a marker of poor survival.  Median survival for patients with tumors expressing high PTTG1 levels (log2 ratio of PTTG1 to average beta-actin < -3.04 ) was 1.8 years compared to 9.0 years if tumors expressed lower levels of PTTG1 (P < 0.0001).  These findings were confirmed by our analysis of previously published datasets.  Treatment of ACC cell lines with vorinostat decreased securin levels and inhibited cell growth (IC50s of 1.69 uM and 0.891 uM, for SW-13 and H295R, respectively). Conclusion: Over-expression of PTTG1 is correlated with poor survival in ACC.  PTTG1/securin is a prognostic biomarker and warrants investigation as a therapeutic target.
+
+DESIGN
+RNA from forty-four adrenocortical carcinomas and four normal adrenal glands was extracted, labeled, and hybridized to Affymetrix U133 Plus 2 arrays.  The resulting data was normalized by gcRMA with quantile normalization and background subtraction after using the ExpressionFileCreator in GenePattern.  Data was then floored at 5.5 using PreprocessDataset, and filtered to remove 1) probes with more than 35 floored values and/or 2) probes where all values from one batch were floored while values from the other batch were not.  Further batch effects were minimized using ComBat with the parametric option.   Data was then floored at 2.  Differentially expressed genes were determined using a T-test with multiple comparison correction as implemented by Comparative Marker Selection in Gene Pattern.  Genes with the corrected p-value < 0.005 and the FDR < 0.075 were selected for further study.  For comparing high to low grade or primary to recurrence, the FDR cut-off was increased to < 0.13.  Survival analysis was conducted using Prism 6 (GraphPad) to generate Kaplan-Meier curves that were compared by log-rank.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+24238056
+

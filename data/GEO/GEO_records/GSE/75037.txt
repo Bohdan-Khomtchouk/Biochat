@@ -1,0 +1,18 @@
+TITLE
+Expression profiling of 83 matched pairs of lung adenocarcinomas and non-malignant adjacent tissue
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Non-small cell lung cancers (NSCLCs) consist of adenocarcinoma (ADC), squamous cell carcinoma (SCC) and other types. Since most NSCLCs are now diagnosed from small biopsies or cytology materials, classification is not always accurate. This is a problem as many therapy regimens and clinical trials are histology-dependent. Specific Aim: To develop an RNA expression signature as an adjunct test for routine histo-pathological classification of NSCLCs. Methods: A microarray dataset of resected ADC and SCC cases was used as the learning set for an ADC-SCC signature. The Cancer Genome Atlas (TCGA) lung RNAseq dataset was used as a validation set. Another microarray dataset of ADCs and non-malignant lung was used as the learning set for a Tumor-Nonmalignant signature. The classifiers were selected as the most differentially expressed genes and sample classification was determined by a nearest distance approach. Results: We developed a 42-gene expression signature that contained many genes used in immunostains for NSCLC typing. Testing of the TCGA and other public datasets resulted in high accuracies (93-95%). We also observed that most non-malignant lung samples were classified as “adenocarcinomas”, so we added 20 genes to differentiate tumor from non-malignant lung. Together, the 62-gene signature can discriminate ADC, SCC, and non-malignant lung. Additionally, a prediction score was derived that correlated both with histologic grading and survival. Summary and significance: Our histologic classifier provides a non-subjective method to aid in the pathological diagnosis of lung cancer and assist enrollment onto histology-based clinical trials
+
+DESIGN
+83 lung adenocarcinomas and 83 matched adjacent non-malignant lung were profiled on Illumina WG6-V3 expression arrays
+
+PLATFORM
+GPL6884 Illumina HumanWG-6 v3.0 expression beadchip
+
+CITATIONS
+27354471
+

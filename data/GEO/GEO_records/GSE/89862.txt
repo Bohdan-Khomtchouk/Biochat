@@ -1,0 +1,18 @@
+TITLE
+Genome-wide detection of Tbrain binding sites during early development in both sea urchin (S. purpuratus) and sea star (P. miniata)
+
+ORGANISM
+Strongylocentrotus purpuratus ; Patiria miniata
+
+SUMMARY
+Sea stars and sea urchins are model systems for interrogating the types of deep evolutionary changes that have restructured developmental gene regulatory networks (GRNs).  While cis regulatory DNA evolution is likely the predominant mechanism of change, it was recently shown that Tbrain, a Tbox transcription factor protein, has evolved a changed preference for a low affinity, secondary  binding motif, although the primary, high affinity motif is conserved. To date, however, no genome-wide comparisons have been performed in order to provide an unbiased assessment of the evolution of GRNs between these taxa; and no study has attempted to determine the interplay between transcription factor binding motif evolution and GRN topology.  The study here measures genome-wide binding of Tbrain orthologs using ChIP-seq, and associates these with putative target genes to assess global function. Targets of both factors are enriched for other regulatory genes, although non-overlapping sets of functional enrichments in the two datasets suggest a much diverged function. The number of low affinity binding motifs are significantly depressed in sea urchins compared to sea star, but both motifs types are associated with genes from a range of functional categories.  Only a small fraction (~10%) of genes are predicted to be orthologous targets. Collectively these data indicate that Tbr has evolved significantly different developmental roles in these echinoderms, and that the maintained and unique targets, and their associated binding motifs are dispersed throughout the hierarchy of the GRN, rather than being biased towards terminal process or discrete functional blocks suggesting extensive evolutionary tinkering.
+
+DESIGN
+Chromatin immunoprecipiation was performed using custom antibodies raised against either the sea urchin or the sea star protein. One biological replicate each, prepared by pooling chromatin from 2-3 independently fertilized cultures prior to immunoprecipitation, was used. Input and immunoprecipitated chromatin was sequenced for each species.
+
+PLATFORM
+GPL20965 Illumina HiSeq 2500 (Strongylocentrotus purpuratus) GPL22676 Illumina HiSeq 2500 (Patiria miniata)
+
+CITATIONS
+28584099
+

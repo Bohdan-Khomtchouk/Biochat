@@ -1,0 +1,18 @@
+TITLE
+YEATS2 Links Histone Acetylation to Tumorigenesis of Non-small Cell Lung Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recognition of modified histones by “reader” proteins constitutes a key mechanism regulating diverse chromatin-associated processes important for normal and neoplastic development. For instance, bromodomain-containing proteins bind to acetylated histones and regulate chromatin dynamics and gene expression. We recently identified the YEATS domain as a novel acetyllysine-binding module; however, the functional importance of YEATS domain-containing proteins in human cancer remains largely unknown. Here we show that the YEATS2 gene is highly amplified in human non-small cell lung cancer (NSCLC) and is required for cancer cell growth and survival. Biochemical and crystal structural studies show that YEATS2 binds to acetylated histone H3, and the YEATS domain utilizes a serine-lined aromatic “sandwiching” cage for acetyllysine readout. ChIP-seq analyses in lung cancer cells reveal that the YEATS2-containing ATAC complex colocalizes with H3K27 acetylation (H3K27ac) on the promoters of actively transcribed genes. Depletion of YEATS2 or disruption of the interaction between its YEATS domain and acetylated histones reduces the ATAC complex-dependent promoter H3K9ac levels and deactivates the expression of essential genes, including the ribosomal protein-encoding genes, which are important for cancer cell growth and survival. Taken together, our study identifies YEATS2 as a histone H3K27ac specific reader that regulates a transcriptional program essential for NSCLC tumorigenesis.
+
+DESIGN
+ZZZ3, H3K4me1, H3K4me3, H3K9ac and H3K27ac ChIP-seq in H1299 cells and H3K9ac ChIP-seq in control and shYEATS2 H1299 cells; mRNA-seq of shNT and shYEATS2 duplicates in H1299 cells.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+29057918
+

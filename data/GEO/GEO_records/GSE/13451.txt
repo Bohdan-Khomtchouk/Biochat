@@ -1,0 +1,18 @@
+TITLE
+Molecular Dissection of Pea Shoot Apical Meristem
+
+ORGANISM
+Pisum sativum
+
+SUMMARY
+Knowledge about an organism’s cell and tissue-specific transcriptional repertoire is essential for understanding the gene regulatory circuits that control key developmental events.  The shoot apical meristem (SAM) is responsible for development of all the above ground parts of plants.  Our understanding of SAM at the molecular level is far from complete.  The present work investigates the global gene expression repertoire of SAMs in the garden pea (Pisum sativum).  To this end, 10,346 EST sequences representing 7611 unique genes were generated from pea SAM cDNA libraries.  These sequences, together with previously reported ESTs, were used to construct a 12K oligonucleotide array used to identify genes exhibiting differential SAM expression, as compared to the axillary meristem, root apical meristem, and non-meristematic tissues.  We identified a number of genes that are predominantly expressed in specific cell layers or domains of the SAM, and thus are likely components of the gene networks involved in stem cell maintenance and initiation of lateral organ primordial cells.  In situ hybridization confirmed the spatial localisation of some of these key genes within the SAM.  Our data also indicate the diversification of some gene expression patterns and functions in legume crop plants.
+
+DESIGN
+RNA samples were hybridized to two-colour Combimatrix arrays manufactured with a custom library of 11958 probes. The limma software package for R (Smyth, 2005) was used in subsequent statistical analysis of the data generated.  On examination of the data during quality control assessment, it became evident that the Cy3 channel showed little dynamic range and background correction and normalisation could not correct for this.  Therefore only the Cy5 channel was used in the subsequent analysis. This resulted in somewhat unbalanced sample sizes with six replicates of SAM and one each of RAM, AM and NM. Nevertheless, linear modelling and empirical Bayes moderated t-statistics (Smyth, 2004) used in the statistical analysis allows variance information to be borrowed across both samples and genes, resulting in reliable statistical inference even for the groups with only one sample.
+
+PLATFORM
+GPL7530 Pisum sativum 12K array
+
+CITATIONS
+19706781
+

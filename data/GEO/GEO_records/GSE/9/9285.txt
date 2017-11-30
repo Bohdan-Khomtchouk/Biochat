@@ -1,9 +1,0 @@
-TITLE
-Gene Expression Profiling of Scleroderma Skin
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-We have analyzed the genome-wide patterns of gene expression with DNA microarrays in skin biopsies from 34 subjects:  17 patients with SSc with diffuse scleroderma (dSSc), 7 patients with SSc with limited scleroderma (lSSc), 3 patients with morphea and 6 healthy controls.  In total, 61 skin biopsies were analyzed.  The addition of 14 technical replicates resulted in a total of 75 microarray hybridizations. The Intrinsic_scleroderma_genes.txt supplementary file lists the 995 genes with the most consistent expression between each forearm-back pair and technical replicates, but with the highest variance across all samples analyzed. An intrinsic gene identifier algorithm was used to select a set of intrinsic scleroderma genes.  A total of 34 experimental groups were defined, each representing the 34 different subjects in our study.  Replicate hybridizations for a given patient were assigned to the same experimental group.   Each gene was analyzed and assigned a score that is inversely related to how intrinsic the gene's expression is across the samples analyzed. The analysis was repeated on randomized data in order to estimate a False Discovery Rate (FDR).   An intrinsic score of 0.3 selected 995 genes with an FDR of 4% (39 ± 7 genes) while retaining reproducible clustering of technical replicates. Keywords: global gene expression profiling using Agilent Whole Human genome oligo arrays
-

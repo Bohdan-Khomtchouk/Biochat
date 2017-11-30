@@ -1,0 +1,18 @@
+TITLE
+Classifying leukemia types with chromatin conformation data (ChIP-Seq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Although genetic or epigenetic alterations have shown to affect the three-dimensional organization of genomes, the utility of chromatin conformation in the classification of human disease has never been addressed. Results: Here, we explore whether chromatin conformation can be used to classify human leukemia. We map the conformation of the HOXA gene cluster in a panel of cell lines with 5C chromosome conformation capture technology, and use the data to train and test a support vector machine classifier named 3D-SP. We show that 3D-SP is able to accurately distinguish leukemias expressing MLL-fusion proteins from those expressing only wild-type MLL, and that it can also classify leukemia subtypes according to MLL fusion partner, based solely on 5C data. Conclusions: Our study provides the first proof-of-principle demonstration that chromatin conformation contains the information value necessary for classification of leukemia subtypes.
+
+DESIGN
+Examination of CTCF and RAD21 binding sites in THP-1 cell.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24995990
+

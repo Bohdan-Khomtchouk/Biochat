@@ -1,0 +1,18 @@
+TITLE
+Accurate prediction of cellular co-translational folding indicates proteins can switch from post- to co-translational folding
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The rates at which domains fold and codons are translated are important factors in determining whether a nascent protein will co-translationally fold and function or misfold and malfunction. In this study, we develop a chemical kinetic model that calculates a protein domain’s co-translational folding curve using only the domain’s bulk folding and unfolding rates and codon translation rates. We show that this model accurately predicts the course of co-translational folding measured in vivo for four different protein molecules. As part of our chemical kinetic model, we assume that there is steady-state translation kinetics through the time-course of the experiment. To prove that this assumption is valid, we performed Ribo-Seq experiments on two biological replicates of yeast cells to compare their ribosome profiles. For genes with sufficient coverage across the open reading frames in both the replicates, we compare the ribosome profiles from both replicates and see a strong correlation. This implies there is a steady-state and our assumption is valid.
+
+DESIGN
+Ribosome profiling of two biological replicates of S288C yeast cells
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+26887592
+

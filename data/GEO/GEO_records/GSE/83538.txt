@@ -1,0 +1,18 @@
+TITLE
+Both H4K20 mono-methylation and H3K56 acetylation mark transcription-dependent histone turnover in fission yeast
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Nucleosome dynamics facilitated by histone turnover is required for transcription as well as DNA replication and repair. Histone turnover is often associated with various histone modifications such as H3K56 acetylation (H3K56Ac), H3K36 methylation (H3K36me), and H4K20 methylation (H4K20me). In order to correlate histone modifications and transcription-dependent histone turnover, we performed genome wide analyses for euchromatic regions in G2/M-arrested fission yeast. The results show that transcription-dependent histone turnover at 5’ promoter and 3’ termination regions is directly correlated with the occurrence of H3K56Ac and H4K20 mono-methylation (H4K20me1) in actively transcribed genes. Furthermore, the increase of H3K56Ac and H4K20me1 and antisense RNA production was observed in the absence of the histone H3K36 methyltransferase Set2 and histone deacetylase complex (HDAC) that are involved in the suppression of histone turnover within the coding regions. These results together indicate that H4K20me1 as well as H3K56Ac are bona fide marks for transcription-dependent histone turnover in fission yeast.
+
+DESIGN
+For histone turnover experiment : yeast cells ectopically expressing C-terminal Flag-tagged H3.2 (hht+2) under the control of sucrose-inducible promoter (inv1+) were synchronized, and H3-Flag was induced under G2/M arrest conditions to minimize the effect of replication-dependent histone deposition. Chromatin immunoprecipitation (ChIP) against anti-FLAG antibody was performed in wild type cells. For ChIP experiment : ChIP against H3, H3K56Ac, H4K20me1, H4K20me3 was performed for a wild type strain and strains lacking Set2 and Alp13. Each experiment was performed twice in biological replicates. All ChIP experiments were performed at G2/M arrested condition.  For RNA experiment : Total RNA was prepared from cells arrested in G2/M followed by mRNA isolation with the magnetic method.
+
+PLATFORM
+GPL17225 Illumina HiSeq 2500 (Schizosaccharomyces pombe)
+
+CITATIONS
+27268234
+

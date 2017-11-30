@@ -1,0 +1,18 @@
+TITLE
+Stromal cells secrete exosomes carrying specific molecular signature involved in the support of Hematopoietic Stem and Progenitor Cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: The study focused on the RNA content of supportive (AFT024) and non supportive (BFC012) stromal lines and their respective exosomes to analyze the molecular complexity of the Hematopoietic Stem and Progenitor Cell niche Methods: All the samples from small RNA (SR) and polyA-RNA libraries were sequenced using 1×50 bp single reads high-throughput sequencing (RNA-Seq) in single lane on Illumina HiSeq 2500.  The sequence reads that passed quality filters were analyzed at the transcript isoform level with TopHat followed by Cufflinks and by Fisher's test for polyA-RNA, or with bowtie and parse tools for smallRNA (galaxy server https://lbcd41.snv.jussieu.fr/ ). Results: Using an optimized data analysis workflow, we mapped about 30 million sequence reads per sample to the mouse genome (build mm10). We focused on differentially expressed transcripts between i) exosomes from supportive and non supportive stromal cells and ii) exosomes and their respective cells.Using a subtractive strategy, we identified 324 mRNAs and 23 miRNAs specific to the exosomes of the supportive stromal line AFT024. We used gene ontology annotation to study the biological functions associated to these specific gene sets. Transcripts involved in negative regulation of apoptosis were found enriched in AFT exosomes. Conclusions: Our RNA seq analysis combined with biological assays reveal that exosomes serve as an important and novel mediator for the HSPC supporting capacity of stromal cells. This unprecedented effort to resolve the molecular complexity of the HSPC-targeted exosomes, provide new candidat genes of the HSPC support and may help designing innovative stromal-free culture conditions to deliver specific molecules to HSPCs.
+
+DESIGN
+Fetal liver derived stromal lines and their corresponding secreted exosomes were sequenced using Illumina HiSeq2500 technology (Fasteris, CH). Due to low amount of exosomal RNAs, several RNA extraction were pooled and split to perform 2 technical sequencing replicates that were merged during bionformatic analyses.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

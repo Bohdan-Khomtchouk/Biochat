@@ -1,0 +1,18 @@
+TITLE
+High-resolution genome-wide dissection of transcriptional regulatory activity and function in human cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide profiling of epigenomic marks allows rapid prediction of transcriptional regulatory regions, including promoters and enhancers. However, experimental validation of predicted regions’ effect on gene expression, and high-resolution dissection of driver sequence elements within them, have remained infeasible on a high throughput scale. Here, we describe HiDRA (High-Definition Reporter Assay), a  high-throughput episomal assay for the high-resolution dissection of promoter and enhancer activity genome-wide. We applied HiDRA on millions of DNA fragments preferentially extracted from open chromatin. We applied HiDRA to the GM12878 lymphoblastoid cell line, generating a 6.83 million fragment library preferentially extracted from open chromatin, and revealed tens of thousands of genomic regions that significantly drive reporter gene transcription. These regions are enriched for H3K9ac, H3K27ac, other active histone marks, known regulatory motifs, and regions bound by immune regulators. We developed a new algorithm, SHARPR2, to deconvolve fragment-level activity measurements from regulatory regions tiled by dozens to hundreds of offset fragments to enable high-resolution maps of activity patterns, pinpointing individual driver regulatory motifs and predicting driver genetic variants underlying immune diseases. Our results indicate that HiDRA provides a general and scalable high-throughput and high-resolution strategy for experimental dissection of regulatory regions and nucleotides in the context of human biology and disease.
+
+DESIGN
+Transfection of a transcriptional regulatory element plasmid library into GM12878 lymphoblastoid cells followed by collection and sequencing of RNA
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

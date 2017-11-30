@@ -1,0 +1,18 @@
+TITLE
+Expression data from Arabidopsis thaliana under mild oxidative stress elicited by methyl viologen and stress induced by the limited availability of phosphate
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Plants possess highly sensitive mechanisms that monitor environmental stress levels for a dose-dependent fine-tuning of their growth and development. Differences in plant responses to severe and mild abiotic stresses have been recognized. Although many studies have revealed that glutathione can contribute to plant tolerance to various environmental stresses, little is known about the relationship between glutathione and mild abiotic stress, especially the effect of stress-induced altered glutathione levels on the metabolism. Here, we applied a systems biology approach to identify key pathways involved in the gene-to-metabolite networks perturbed by low glutathione content under mild abiotic stress in Arabidopsis thaliana. We used glutathione synthesis mutants (cad2-1 and pad2-1) and plants overexpressing the gene encoding gamma-glutamylcysteine synthetase, the first enzyme of the glutathione biosynthetic pathway. The plants were exposed to two mild stress conditions―oxidative stress elicited by methyl viologen (MV) and stress induced by the limited availability of phosphate. We observed that the mutants and transgenic plants showed similar shoot growth as that of the wild-type plants under mild abiotic stress. We then selected the synthesis mutants and performed multi-platform metabolomics and microarray experiments to evaluate the possible effects on the overall metabolome and the transcriptome. To understand the metabolic responses observed under mild abiotic stress, we conducted gene expression profiling by Affymetrix ATH1 GeneChip. pad2-1 and the wild type Col-0 samples were harvested at 18 day-old after germination under two different stresses, MV treatment and limited phosphorus conditions.
+
+DESIGN
+According to Kusano, Tohge, Fukushima et al. (2011) The Plant Journal, we performed three independent hybridizations with the Affymetrix ATH1 GeneChip microarray according to the manufacturer's instructions (Affymetrix, http:// www.affymetrix.com). A single biological replicate was utilized in each hybridization. All raw data are available in the NCBI GEO (Barrett et al., 2013 NAR). The preprocessing and normalization/summarization of all CEL files were with the Bioconductor (Gentleman et al., 2004 Genome Biol) and a robust multi-chip average (RMA) (Bolstad et al., 2003 Bioinfo). The quality of GeneChip data was assessed by AFFYPLM package (Bolstad et al., 2005). We used the annotation of each gene in the CSV file ATH1-121501.na31.annot.csv (downloaded on April 2012) released by the Affymetrix ATH1 GeneChip microarray.　The differentially expressed genes were detected with the LIMMA package (Smyth, 2004), which provides FDR -adjusted p-values for multiple testing (Benjamini and Hochberg, 1995). The significance level was set at FDR < 0.05. We visualize the transcript profiles by MAPMAN 2.2.0 (Thimm et al., 2004). GO enrichment analysis was done with TAIR website ( http://www.arabidopsis.org/ ) (Lamesch et al., 2012 NAR)
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+28894456
+

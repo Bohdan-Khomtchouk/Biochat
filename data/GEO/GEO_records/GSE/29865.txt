@@ -1,0 +1,18 @@
+TITLE
+Distant cis Regulation of Myogenic Differentiation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Identifying tissue and condition-specific gene regulatory elements and the mechanisms by which they associate with their target genes in human cells remains a significant challenge, largely due to the vast amount of non-protein-coding sequence in the human genome. Despite increasing evidence of physical interactions between distant regulatory regions and gene promoters in a variety of mammalian cell types, many searches for regulatory regions still consider only genomic regions proximal to the gene promoter. We identify a set of putative cis-regulatory modules (CRMs) of human skeletal muscle differentiation by combining new ChIP-chip data measuring the binding of myogenic TFs MyoG, MyoD, and SRF over the timecourse of differentiation with previously generated histone modification data. A substantial proportion of these putative CRMs are located distant ( > 20 kb) from muscle gene promoters, and these distantly located CRMs are more likely than proximal promoter regions to show differentiation-specific changes in myogenic TF binding. Examination of two distant CRMs, which were previously shown to activate transcription in differentiating muscle cells, revealed that they interact physically with their upstream or downstream gene promoters (PDLIM3 and ACTA1) specifically upon myogenic differentiation. Our results highlight the importance of considering CRMs located distant from their target genes in investigations of mammalian gene regulation and further support the hypothesis that enhancer-promoter looping contacts are a general mechanism of regulation by distant CRMs.
+
+DESIGN
+ChIP-chip experiments were performed using a custom Agilent 1x244K oligonucleotide array format (AMADID # 015037) to achieve 25-bp resolution tiling of 100 kb surrounding each of 104 selected human genes as well as positive and negative control regions.  Biological and technical replicates of ChIP-chip experiments were performed using antibodies for MyoG and SRF in primary human skeletal muscle myoblasts crosslinked at 0 and 48 h relative to the removal of serum to induce differentiation.  Additional technical replicate ChIP-chip experiments were performed for MyoD at 0 and 48 hours post-differentiation and p300 at 48 h post-differentiation.  Total Input DNA for each experiment was labeled with Cy3 and used to create log-ratios with the Cy5 labeled IP data.  Negative control no antibody mock-IP ChIP experiments were performed at 0 and 48 h post-differentiation.
+
+PLATFORM
+GPL13708 Agilent-015037 Bulyk Human Muscle CRMs 244K v1.0
+
+CITATIONS
+21907276
+

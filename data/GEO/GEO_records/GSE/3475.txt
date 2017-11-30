@@ -1,0 +1,18 @@
+TITLE
+Profiling of Salmo salar in two Atlantic salmon types, a wild type versus transgenic.
+
+ORGANISM
+Salmo salar
+
+SUMMARY
+The influence of GH transgenesis on liver gene expression in coho salmon was examined. Gene expression in livers of transgenic salmon on a restricted ration (R) was compared to that in livers of nontransgenic control salmon (C). Keywords: Transcript profile
+
+DESIGN
+Livers of five size-matched salmon were preserved in RNALater (Ambion) and mRNA was prepared using the FastTrack kit (Invitrogen).  mRNA was quantified and quality-checked by spectrophotometer and agarose gel.  The microarray experiment used 100 ng of pooled mRNA templates:  pooled C contained equal quantities from 5 individual C fish, and pooled R contained equal quantities from 5 individual R fish.  All experiments were conducted in quadruplicate (2 replicates and 2 dye flips). Preparation of cDNA using the SuperSmart PCR cDNA Synthesis Kit (BD Biosciences), amplification using the Advantage 2 PCR kit Kit (BD Biosciences), labeling of cDNA with Cy3- and Cy5-dCTP (Amersham), hybridization, and scanning were performed as previously described  (Tsoi et al., 2003; Ewart et al., 2005).  Normalization and data analysis was carried out using the GeneTrafficTM software (Iobion Informatics). Background fluorescence was subtracted from the spot intensities and spots were flagged and removed from the data set the signal to background ratio was less than 1, the signal to average background ratio was less than 1, or the signal intensity was less than 1000.  Data were normalized on a sub-grid basis using both locally weighted non-linear regression (Loess) and intensity-based methods. In addition, significance analysis of microarrays (SAM) was carried out on the normalized data to identify differentially regulated genes based on their changes in expression in relation to the standard deviation for multiple measurements.
+
+PLATFORM
+GPL2844 IMB Atlantic salmon cDNA microarray
+
+CITATIONS
+17032744
+

@@ -1,0 +1,18 @@
+TITLE
+Quartz-Seq2: a high-throughput single-cell RNA-sequencing method that effectively uses limited sequence reads
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+High-throughput single-cell RNA-seq methods assign limited unique molecular identifier (UMI) counts as gene expression values to single cells from shallow sequence reads and detect limited gene counts. We thus developed a high-throughput single-cell RNA-seq method, Quartz-Seq2, to overcome these issues. Our improvements in several of the reaction steps of Quartz-Seq2 allow us to effectively convert initial reads to UMI counts (at a rate of 30%–50%). To demonstrate the power of Quartz-Seq2, we analyzed transcriptomes from a cell population of in vitro embryonic stem cells and an in vivo stromal vascular fraction with a limited number of sequence reads. Preprint: http://www.biorxiv.org/content/early/2017/07/21/159384
+
+DESIGN
+Technical validation of high-throughput single-cell RNA-seq methods using 10 pg total RNA. Demonstration of Quartz-Seq2 using 4,484 single-cells of embryonic stem cell and 1,052 single-cells of stromal vascular fraction (SVF).
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

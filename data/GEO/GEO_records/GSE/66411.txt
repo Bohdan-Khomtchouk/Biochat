@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis of translational efficiency reveals distinct but overlapping functions of yeast DEAD-box RNA helicases Ded1 and eIF4A
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+DEAD-box RNA helicases eIF4A and Ded1 are believed to promote translation initiation by resolving mRNA secondary structures that impede ribosome attachment at the mRNA 5’ end or subsequent scanning of the 5’UTR, but whether they perform distinct functions or act redundantly in vivo is poorly understood. We compared the effects of mutations in Ded1 or eIF4A on global translational efficiencies (TEs) in yeast by ribosome footprint profiling. Despite similar reductions in bulk translation, inactivation of a cold-sensitive Ded1 mutant substantially reduced the TEs of > 600 mRNAs, whereas inactivation of a temperature-sensitive eIF4A mutant yielded < 40 similarly impaired mRNAs. The broader requirement for Ded1 did not reflect more pervasive secondary structures at low temperature, as inactivation of temperature-sensitive and cold-sensitive ded1 mutants gave highly correlated results. Interestingly, Ded1-dependent mRNAs exhibit greater than average 5’UTR length and propensity for secondary structure, implicating Ded1 in scanning though structured 5' UTRs. Reporter assays confirmed that cap- distal stem-loop insertions increase dependence on Ded1 but not eIF4A for efficient translation. While only a small fraction of mRNAs is strongly dependent on eIF4A, this dependence is significantly correlated with requirements for Ded1 and 5’UTR features characteristic of Ded1- dependent mRNAs. Our findings suggest that Ded1 is critically required to promote scanning through secondary structures within 5’UTRs; and while eIF4A cooperates with Ded1 in this function, it also promotes a step of initiation common to virtually all yeast mRNAs.
+
+DESIGN
+We compared the effects of mutations in Ded1 or eIF4A on global translational efficiencies (TEs) in yeast by ribosome footprint profiling.The study includes 32 samples, comprised of 16 mRNA-Seq samples and 16 ribosome footprint profiling samples, derived from biological replicates of 3 mutant strains, ded1-cs, ded1-ts and tif1-ts, and the corresponding wild-type strains. The tif1-ts mutant and its wild-type counterpart were analyzed at 30°C and 37°C.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae) GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+26122911
+

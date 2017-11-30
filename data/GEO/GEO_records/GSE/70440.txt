@@ -1,0 +1,18 @@
+TITLE
+Loss of EZH2 results in precocious mammary gland development and the activation of STAT5-dependent genes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Establishment and differentiation of mammary alveoli during pregnancy are controlled by prolactin through the transcription factor STAT5. As pregnancy progresses mammary signature genes are activated in a defined temporal order, which coincides with the recruitment of STAT5 to respective regulatory sequences. This study addressed the question whether the methyltransferase and transcriptional co-activator EZH2 controls the differentiation clock of mammary epithelium. Ablation of Ezh2 from mammary stem cells resulted in precocious differentiation of alveolar epithelium during pregnancy and the activation of mammary-specific STAT5 target genes. This coincided with enhanced occupancy by STAT5, EZH1 and Pol II to these loci. Limited activation of differentiation-specific genes was also observed in mammary epithelium lacking both EZH2 and STAT5, suggesting a modulating but not mandatory role for STAT5. Notably, loss of EZH2 did not result in overt changes in genome-wide and gene-specific H3K27me3 patterns, suggesting that enhanced EZH1 recruitment can compensate for the loss of EZH2. Differentiated mammary epithelia failed to form in the combined absence of EZH1 and EZH2. Transplantation experiments failed to demonstrate a role for EZH2 in the biology of mammary stem and progenitor cells. In summary, while EZH1 and EZH2 serve redundant functions in the establishment of H3K27me3 and formation of mammary alveoli, the presence of EZH2 is required to obtain controlled temporal differentiation of mammary epithelium.
+
+DESIGN
+mRNA-seq in WT;MMTV-Cre (Control) at p13 and p18, E1-/- (E1KO), Ezh2f/f;MMTV-Cre(E2KO), Stat5f/f;MMTV-Cre(S5KO), and Ezh2f/f;Stat5f/f;MMTV-Cre (E2S5DKO) at p13 mammary tissues. ChIP-seq for H3K27me3, STAT5, EZH1, EZH2 and PolII in mammary tissues at p13
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26250110 , 27215382
+

@@ -1,0 +1,18 @@
+TITLE
+Investigating the mechansisms associated with Folfiri-induced muscle wasting in normal mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose of the study: the goal of this study was to use Next-generation sequencing to investigate the gene expression profile of skeletal muscle from mice exposed to chemotherapy (Folfiri) for up to 5 weeks. Methods: Standard methods were used for polyA mRNA-seq library construction, EZBead preparation and Next-Gen sequencing, based on Life Technologies SOLiD5000xl system. Briefly, one microgram total RNA per sample was applied for library preparation. PolyA mRNA was first captured using the standard protocol of Dynabeads® mRNA DIRECT™ Micro Kit (Life Technologies, #61021). Following the enrichment of polyA mRNA, the cDNA library was prepared and barcoded per sample using the standard protocol of SOLiD Total RNA-seq Kit (Life Technologies, #4445374). Each barcoded library was quantified by Bioanalyzer High Sensitivity DNA chip (Agilent, #5067-4626) and pooled in equal molarity. EZBead preparation, bead library amplification, and bead enrichment were then conducted using Life Technologies EZ Bead™ E80 System (Life technologies, #4453095). Approximately four hundred forty million library-enriched beads per lane were deposited onto a SOLiD5500xl FlowChip (6 lanes/chip). Finally sequencing by ligation was carried out using standard single-read, 5’-3’ strand-specific sequencing procedure (75b-read) on SOLiD5500xl Sequencer. The resulting 75 bp solid reads were mapped to Mus musculus mm9 reference genome using in-house mapping pipelines that utilizes bfast-0.7.0a [67]. In brief, using our RNA-seq pipeline, low quality reads and reads mapped to rRNA/tRNAs were first discarded. The remaining reads were mapped to reference genome mm9 and a splice-junction library, respectively; the genomic and splice-junction library mapping were merged at the end. The gene based expression levels were calculated using bamutils from NGSUtils based on the RefSeq gene annotation of mm9. Differential expression of genes across different treatments was determined with edgeR Results: Gene expression profiling, performed by means of RNA-Sequencing analysis, identified a limited number of genes that were significantly modulated (False Discovery Rate < 0.05) following Folfiri administration. Interestingly, the pathway analysis showed marked down-regulation of the regulators of mitochondrial metabolism Ucp1, Cidea1 and Acot2, as well as the marker of muscle cell proliferation/pluripotency Fhl3 . Further, we found increased expression of regulators of lipid metabolism and transport (such as Fabp1, Apoa1, Apob, Apoa2, Alb, Prkcz and Scd2) as well as acute phase response proteins (such as Alb, Fga and Fgb), and members of the PPAR signaling and markers of the Energy metabolism (such as Dnah5) were reported . Conclusions: Our study represents the first gene expression profiling of muscle from mice exposed to chemotherapy. The findings from our study identified several signaling pathways that were modulated following chemotherapy administration. These results will contribute to identify new modulators of muscle wasting associated with Folfiri administration, that might also represent putative new targets of interventions.
+
+DESIGN
+Next-generation sequencing of RNA extracted from quadriceps muscle of CD2F1 male mice exposed to either Folfiri (a combination of 5-FU, Leucovorin and CPT-11) or vehicle alone (n=4) for up to 5 weeks.
+
+PLATFORM
+GPL15907 AB 5500xl Genetic Analyzer (Mus musculus)
+
+CITATIONS
+27259276
+

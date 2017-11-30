@@ -1,0 +1,18 @@
+TITLE
+DNA Methylation alterations following binge-like developmental ethanol exposure assessed in 21 day-old mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+This experiment is an application of MeDIP-seq on hippocampus in a mouse model of fetal alcohol spectrum disorder (FASD). Here, we investigate genome-wide changes in DNA methylation in six C57BL/6 mice (3 ethanol-exposed and 3 saline-exposed). Mice were injected with either ethanol or saline on postnatal days 4 and 7, with hippocampal DNA methylation assessed on postnatal day 21. Across the six mice, there are 151,911 MeDIP peaks mapped to “intergenic”, “gene body”, or “promoter” based on the DNAm peaks proximity to a gene. Of these locations, 18,992 regions (16,374 intergenic, 1,887 gene body, 661 promoter) were common in all six mice (113,532 total) and can be combined for further analysis.
+
+DESIGN
+Matched male littermates were injected with either ethanol or saline on postnatal day 4 and 7, hippocampal DNA was isolated on postnatal day 21. DNA methylation was assessed for 3 ethanol-treated and 3 control mice via MeDIP-Seq by Arraystar Inc. Methylated DNA was immunoprecipitated, and fragments were sequenced by running 150 cycles on Illumina HiSeq 2000. Reads were aligned to the mouse genome (mm10) using Bowtie. MeDIP enriched regions (peaks) were identified by MASC v2 using a q-value threshold of 10^-4.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Polycomb Repressive Complex 2 methylates Elongin A to regulate transcripiton [BrU-RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Polycomb repressive complex 2 (PRC2-EZH2) methylates histone H3 at lysine 27 (H3K27) and is required to maintain gene repression during development. Misregulation of PRC2 is linked to a range of neoplastic malignancies, which is believed to involve methylation of H3K27. However, the full spectrum of non-histone substrates of PRC2 that might also contribute to PRC2 function is not known.  We characterized the target recognition specificity of PRC2 and used the resultant data to screen for novel potential targets. The RNA polymerase II (Pol II) transcription factor, Elongin A (EloA), is methylated by PRC2 in vivo. Mutation of the methylated EloA residue decreased repression of many, but not all, PRC2 target genes as measured by both steady state and nascent RNA levels. We propose that PRC2 regulates transcription of a subset of target genes in part via methylation of EloA.
+
+DESIGN
+We examined the nascent transcripiton profile of mES cells by adding 5-Bromouridine (BrU) to the media for 10 min. Following RNA isolation,  BrU-labelled nascent RNA species were affinity purified using BrdU antibody and sequenced after library preparation. Please note that each .bw file was generated from two replicate samples together and linked to the corresponding *rep1 sample records.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+29153392
+

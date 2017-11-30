@@ -1,0 +1,18 @@
+TITLE
+Divergent roles of ALS-linked proteins FUS/TLS and TDP-43 intersect in processing long pre-mRNAs (microarray)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+FUS/TLS and TDP-43 are RNA/DNA-binding proteins integrally involved in amyotrophic lateral sclerosis (ALS) and frontal temporal dementia. FUS/TLS is shown to bind RNAs from > 5,500 genes in mouse and human brain, primarily through a GUGGU binding motif. A characteristic sawtooth-like binding pattern is identified, supporting co-transcriptional deposition of FUS/TLS. Depletion of FUS/TLS from the adult nervous system is shown to alter levels or splicing of > 970 mRNAs, most of which are distinct from the RNAs whose maturation is dependent on TDP-43. Nonetheless, only 55 RNAs are reduced upon depletion of either TDP-43 or FUS/TLS from mouse brain and human neurons differentiated from pluripotent stem cells, including mRNAs transcribed from genes with exceptionally long introns and that encode proteins essential for neuronal integrity. A subset of these is significantly lowered in FUS/TLSR521G and TDP-43G298S mutant fibroblasts and in TDP-43 aggregate-containing motor neurons in sporadic ALS, evidence pointing to a common loss-of-function pathway as one component underlying motor neuron death from misregulation of TDP-43 or FUS/TLS.
+
+DESIGN
+Microarray of Fus/Tls in 8 week mouse brain *Addendum Depending on the analysis software used, these CEL files may not load correctly using default parameters. This is due to the custom chip type of MJAY not being used during the array scanning step. There are three workarounds known for this problem so far. 1) If using APT, use multiple --chip-type parameters. Specifically, --chip-type mjay --chip-type MJAY --chip-type MoEx-1_0-st-v1.1sq 2) Edit the CEL file by converting to text using the APT command apt-cel-convert, then replacing the MoEx-1_0-st-v1.1sq in the DatHeader line with MJAY (all caps). 3) Edit the .pgf, .clf, and antigenomics.bmp files to use the MoEx-1_0-st-v1.1sq array instead of MJAY for the chip_type and lib_set_name options. (works on AltAnalyze software)
+
+PLATFORM
+GPL13185 [mjay] Custom Affymetrix Mouse Exon Junction Array
+
+CITATIONS
+23023293
+

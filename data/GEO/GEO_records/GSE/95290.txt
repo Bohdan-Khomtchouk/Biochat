@@ -1,0 +1,18 @@
+TITLE
+Diffuse large B-cell lymphoma gene expression profiling array VFN-D2.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The dataset contains data from 12 samples hybridized on Illumina HumanHT-12 array. -patient's primary lymphoma cells obtained from malignant ascites (P2-A1, P2-A2) -patient's non-malignant B-cells, CD19-sorted (CTRL1, CTRL2) -lymphoma cell line named UPF4D established from the patient's primary lymphoma cells 15 and 75 days from ex vivo isolation (UPF4D-D15A, UPF4D-D15B, UPF4D-D75) -cells established by xenotransplantation of UPF4D cell line isolated ex vivo from infiltrated murine kidney (UPF4D-K) -cells established by xenotransplantation of UPF4D cell line isolated ex vivo subcutaneously (UPF4D-SC) -patient-derived xenograft (PDX) cells named VFN-D2 established by xenotransplantation of primary lymphoma cells  into immunodeficient mice isolated from the infiltrated murine kidneys (VFN-D2-K1, VFN-D2-K2) -patient-derived xenograft (PDX) cells named VFN-D2 established by xenotransplantation of primary lymphoma cells  into immunodeficient mice isolated subcutaneously (VFN-D2-SC). All samples were sorted using CD19-microbeads (Miltenyi). For xenotransplantation, NOD.Cg-Prkdcscid Il2rgtm1Wjl/SzJ mice (referred to as NSG mice) were used.
+
+DESIGN
+Unsummarized data can be obtained using R package klenermicroarraydata available from https://bitbucket.org/kulvait/klenermicroarraydata.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

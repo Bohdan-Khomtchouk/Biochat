@@ -1,0 +1,18 @@
+TITLE
+LNCaP Prostate Cancer Cells: Control vs. siRNA-PCAT1 Treated
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transcriptional profiling of LNCaP prostate cancer cells comparing control siRNA-treated LNCaP cells with LNCaP cells treated with siRNAs targeting Prostate Cancer Associated Transcript-1 (PCAT1), an uncharacterized long non-coding RNA. High-throughput sequencing of polyA+ RNA (RNA-Seq) in human cancer shows remarkable potential to identify both novel disease-specific markers for clinical uses and uncharacterized aspects of tumor biology, particularly non-coding RNA (ncRNA) species.  To illustrate this approach, we employed RNA-Seq on a cohort of 102 prostate tissues and cells lines and found that aberrant expression profiles of novel tissue-specific ncRNAs distinguished benign, cancerous, and metastatic tumors.  Among these, a novel prostate-cancer specific ncRNA (termed PCAT-1) defined a subset of aggressive cancers with low expression of the epigenetic regulator EZH2, a component of the Polycomb Repressive Complex 2 (PRC2) commonly upregulated in metastatic cancers.   In vitro assays for core PRC2 genes indicated that the PRC2 complex directly binds and represses PCAT-1, and that the PCAT-1 transcript reciprocally binds PRC2, suggesting a regulatory feedback mechanism.  Importantly, knockdown of PCAT-1 in cells with high levels of endogenous PCAT-1 transcript showed changes in cell proliferation and transcriptional regulation of several key biological processes, including cell cycle.   Finally, we showed that ncRNA expression signatures, including PCAT-1, were effective for the non-invasive detection of prostate cancer, and that high ncRNA expression signature values correlate with high-grade histology.  The findings presented herein establish the utility of RNA-Seq to comprehensively identify unannotated ncRNAs that define human disease states and characterize PCAT-1 as a novel regulator of cell proliferation mechanistically linked to PRC2 and contributory to translational clinical tests for prostate cancer.
+
+DESIGN
+Two-condition experiment: Control-siRNA-treated versus PCAT1-siRNA-treated LNCaP cells. Biological replicates: 3 control replicates, 3 treatment replicates.
+
+PLATFORM
+GPL4133 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Feature Number version)
+
+CITATIONS
+21804560
+

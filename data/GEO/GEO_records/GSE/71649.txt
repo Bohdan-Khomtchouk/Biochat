@@ -1,0 +1,18 @@
+TITLE
+Stickleback embryos use ABC transporters as a buffer against exposure to maternally derived cortisol
+
+ORGANISM
+Gasterosteus aculeatus
+
+SUMMARY
+Purpose: Offspring from females that experience stressful conditions during reproduction often exhibit altered phenotypes and many of these effects are thought to arise due to increased exposure to maternal glucocorticoids. Here we used RNAseq to test whether the embryonic transcriptional response to increased levels of cortisol was similar to the transcriptional response to maternal stress in sticklebacks Methods: Eggs were treated by immersing eggs for 30 mins in water that contained 0, 5, or 10 ug/L, which represented baseline, predator induced, and super physiological levels of maternally derived cortisol. To isolated enough RNA for RNAseq, 10 embyros from each clutch/treatment were pooled prior to RNA extraction for a total of 18 pools (6 clutches x 3 treatments). Results: Analysis of genome-wide transcriptional profiles suggests that 17251 (genes which survived a cut-off of having cpm more than 1 in at least two samples; and had a significant likelihood ratio calculated in edgeR) genes out of the possible 22,456 genes in the stickleback genome were expressed in 72-hour embryos. However, we did not detect any differences in gene expression between embryos that were treated with cortisol compared to the control group.
+
+DESIGN
+mRNA profiles of egg clutches treated with 0, 5, or 10 ug/L are compared, which represented baseline, predator induced, and super physiological levels of maternally derived cortisol.
+
+PLATFORM
+GPL18463 Illumina HiSeq 2000 (Gasterosteus aculeatus)
+
+CITATIONS
+26984623
+

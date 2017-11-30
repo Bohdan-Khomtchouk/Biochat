@@ -1,0 +1,18 @@
+TITLE
+A Ribonuclease Coordinates siRNA Amplification and mRNA Cleavage during RNAi
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Effective silencing by RNA-interference (RNAi) depends on mechanisms that amplify and propagate the silencing signal. In some organisms, small-interfering (si) RNAs are amplified from target mRNAs by RNA-dependent RNA polymerase (RdRP). Both RdRP recruitment and mRNA silencing require Argonaute proteins, which are generally thought to degrade RNAi targets by directly cleaving them. However in C. elegans, the enzymatic activity of the primary Argonaute, RDE-1, is not required for silencing activity.   We show that RDE-1 can instead recruit an endoribonuclease, RDE-8, to target RNA. RDE-8 can cleave RNA in vitro and is needed for the production of 3′ uridylated fragments of target mRNA in vivo.  We also find that RDE-8 promotes RdRP activity, thereby ensuring amplification of siRNAs.  Together, our findings suggest a model in which RDE-8 cleaves target mRNAs to mediate silencing, while generating 3’ uridylated mRNA fragments to serve as templates for the RdRP-directed amplification of the silencing signal.
+
+DESIGN
+We examined the role of rde-8 in C. elegans small RNA biogenesis pathways, including endogenous and exogenous RNAi pathways. We performed 3' RACE seq from the sel-1 target mRNA and correlate with small RNAs from wild type, rde-8 and rde-8 transgenic strains after sel-1(RNAi) for different lengths of time.
+
+PLATFORM
+GPL9269 Illumina Genome Analyzer II (Caenorhabditis elegans) GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+25635455
+

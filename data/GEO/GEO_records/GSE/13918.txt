@@ -1,0 +1,18 @@
+TITLE
+ChIP-chip analysis of NFI-1 in wildtype (N2) mixed stage C. elegans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+The conserved Nuclear Factor I (NFI) family of transcription factors is unique to animals and essential for mammalian development. The C. elegans genome encodes a single NFI family member, whereas vertebrate genomes encode four distinct NFI protein subtypes (A, B, C, and X). NFI-1 deficient worms exhibit abnormalities including reduced lifespan, defects in movement and pharyngeal pumping, and delayed egg-laying. To explore the functional basis of these phenotypes, we sought to comprehensively identify NFI-1 binding targets in C. elegans. We first established NFI-1 DNA-binding specificity using an in vitro DNA-selection strategy. Analysis yielded a consensus motif of TTGGCA(N3)TGCCAA, which occurs 586 times in the genome, a 100-fold higher frequency than expected. We next asked which sites were occupied by NFI-1 in vivo by performing chromatin immunoprecipitation of NFI-1 followed by microarray hybridization (ChIP-chip). Only 55 genomic locations were identified, an unexpectedly small target set. In vivo NFI-1 binding sites tend to be upstream of genes involved in core cellular processes such as chromatin remodeling, mRNA splicing, and translation. Remarkably, 67/80 (84%) of the C. briggsae homologs of the identified targets contain conserved NFI binding sites in their promoters. These experiments provide a foundation for understanding how NFI-1 is recruited to unexpectedly few in vivo sites to perform its developmental functions, despite a vast over-representation of its binding site. To our knowledge, this represents the first genome-wide location study of any transcription factor in C. elegans, and the first genome-wide analysis in any species of an NFI transcription factor.
+
+DESIGN
+4 biological replicates of NFI-1 ChIP-chip (including 1 dye-swap) were performed with 2 pre-immune Mock ChIP-chip controls from corresponding extracts.
+
+PLATFORM
+GPL7776 UNC_Lieb_Agilent_Celegans_185K
+
+CITATIONS
+19584245
+

@@ -1,0 +1,18 @@
+TITLE
+SOX9 targets in hESC-derived pancreatic progenitors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Our lab identified Sox9 as a specific marker and maintenance factor of mouse pancreatic progenitors (Seymour et al., PNAS, 2007).  Here was wanted to identify direct targets of Sox9 in pancreatic progenitors.  However, due to the limited number of pancreatic progenitors in the developing mouse, we used in vitro derived pancreatic progenitors to determine direct targets of Sox9.   We performed ChIP-seq analysis for Sox9 and determined its direct targets in the human genome.  Using pancreatic progenitors that were derived from human embryonic stem cells, we were able to successfully find targets that were pancreas specific as well as those targets that are important in other endodermal lineages.
+
+DESIGN
+We differentiated CyT49 human embryonic stem cells into pancreatic progenitors as previously described (Kroon et al., 2008; Schulz et al., 2012).   Using a Sox9 antibody, we performed ChIP-seq in the pancreatic progenitors.  We sequenced the samples using the Illumina platform and mapped the reads to the mm9 version of the mouse genome.  Using HOMER analysis software and the UCSC genome browser, we found direct targets of Sox9 in human embryonic stem cell derived pancreatic progenitors.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+26440894
+

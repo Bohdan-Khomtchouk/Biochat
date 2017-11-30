@@ -1,0 +1,18 @@
+TITLE
+Microarray studies of drb0090 mutant vs wild type
+
+ORGANISM
+Deinococcus radiodurans R1
+
+SUMMARY
+Deinococcus radiodurans exposed to higher doses of gamma radiation showed induced levels of DRB0091 polypeptide annotated as a putative response regulator in an operon expressing upstream to DRB0090, histidine kinase. Deletion of drB0090 generated,  showed decreased tolerance to DNA damage and impairment in DSB repair. Recombinant DR0090 protein showed phosphotransferase activity on its cognate response regulator, DRB0091. The drb0090 deletion mutant was checked for its role in regulation of gene expression in response to DNA damage in Deinococcus radiodurans R1. The gene expression profiling of this mutant was carried out by complete transcriptome analysis of these cells grown under normal as well as upon gamma-irradiated conditions and compared with wild type cells. DRB0090 mutant showed extreme sensitivity to gamma radiation and was used for Gene expression profiling using microarray and compared with wild type data.
+
+DESIGN
+All the genes subjected to microarray analysis are as described in the genome sequence of bacterium available at ftp://ftp.ncbi.nih.gov/genomes/bacteria/Deinococcus_radiodurans. Oligonucleotides designed to represent the respective predicted ORFs of Deinococcus radiodurans ((NC_001263, NC_001264, NC_000958, NC_000959) are synthesized and purified by hydrophobic column on HPLC. The oligonucleotides are deposited on to poly-L-Lysine slide in triplicate. Microarrays were scanned using Gene Pix 4000B and hybridization signals were quantified using GenePix Pro 5.1. Prior to channel normalization, microarray outputs were filtered to remove spots of poor signal quality by excluding those data points with a mean intensity by less that 2 standard deviation above background in both channels.    Normalization of data and its statistical analysis were carried out in the R computing environment using linear models for microarray data package (Limma). Using this tool, the global LOESS normalization was carried out for each microarray. The 3- replicate spots per gene in each array were used to maximize the robustness of differential expression measurements of each gene via the “lmFit” function within Limma. Two biological replicates were analysed for global gene expression profile in drb0090 mutant against wild type cells.
+
+PLATFORM
+GPL8947 Bhabha Atomic Research Centre Deinococcus radiodurans 3166 array [condensed version]
+
+CITATIONS
+21737498
+

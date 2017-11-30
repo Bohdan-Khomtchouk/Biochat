@@ -1,0 +1,18 @@
+TITLE
+Genome-wide features of neuroendocrine regulation in Drosophila by the basic helix-loop-helix transcription factor DIMMED
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Neuroendocrine (NE) cells use large dense core vesicles (LDCVs) to traffic, process, store and secrete neuropeptide hormones through the regulated secretory pathway. The DIMM basic helix-loop-helix transcription factor of Drosophila controls the level of regulated secretory activity in NE cells. To pursue its mechanisms, we have performed two independent genome-wide analyses of DIMM’s activities: (i) in vivo chromatin immunoprecipitation (ChIP) to define genomic sites of DIMM occupancy and (ii) deep sequencing of purified DIMM neurons to characterize their transcriptional profile. By this combined approach, we showed that DIMM binds to conserved E-boxes in enhancers of 212 genes whose expression is enriched in DIMM-expressing NE cells. DIMM binds preferentially to certain E-boxes within first introns of specific gene isoforms. Statistical machine learning revealed that flanking regions of putative DIMM binding sites contribute to its DNA binding specificity. DIMM’s transcriptional repertoire features at least 20 LDCV constituents. In addition, DIMM notably targets the pro-secretory transcription factor, CREB-A, but significantly, DIMM does not target any neuropeptide genes. DIMM therefore prescribes the scale of secretory activity in NE neurons, by a systematic control of the regulated secretory pathway at steps that are both proximal and distal.
+
+DESIGN
+DIMM::MYC ChIP-chip (c929 > DIMM::MYC/tubGAL80ts) and control (c929 > tubGAL80ts): 2 replicates each, input and IP samples. Total of 8 arrays
+
+PLATFORM
+GPL6629 [DM_tiling2_MR] Affymetrix Drosophila Tiling 2.0R Array
+
+CITATIONS
+25634895
+

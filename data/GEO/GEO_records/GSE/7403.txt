@@ -1,0 +1,18 @@
+TITLE
+Expression data from PDGF-treated SH-SY5Y cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We conducted a proof-of-concept experiment to explore the possibility of using gene expression-based high throughput screening (GE-HTS) to find inhibitors of a signaling cascade, using platelet derived growth factor receptor (PDGFR) signaling as the example. To define ERK/PDGFR activation signature, we performed gene expression profiling using Affymetrix U133A arrays 0.5-4 hours following PDGF stimulation, thereby identifying those genes whose expression is correlated with PDGFR activity. In order to identify the component of the gene expression signature that was attributable to ERK activation by PDGFR (as opposed to other pathways downstream of PDGFR), we also pretreated the cells will the ERK inhibitors U0126 and PD98059, and repeated the gene expression profiling studies. Keywords: time course, inhibitor treatment
+
+DESIGN
+To define ERK/PDGFR activation signature, SH-SY5Y cells were grown to confluence and starved overnight in serum-free medium in order to silence any sustained effects from growth factor signaling. Prior to induction with 50ng/ml PDGF, cells were treated with pathway inhibitors 74 mM Apigenin or 50 mM U0126, or with DMSO (carrier) for 60 minutes. Total RNA was isolated 30 minutes after PDGF addition. Experiments were performed in duplicate. The RNA was processed and hybridized with Affymetrix U133A GeneChips.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+18312689
+

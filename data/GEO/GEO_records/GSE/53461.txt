@@ -1,0 +1,18 @@
+TITLE
+PAT-seq: a simple approach to digital gene expression, the measure of poly(A)-tail length and its position in eukaryotic transcriptomes
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The Poly(A)-Tail focused RNA-seq, or PAT-seq approach, is an affordable and efficient tool for the measure of 3’UTR dynamics. We show here that PAT-seq returns (i) digital gene expression, (ii) polyadenylation site usage within and between samples, including alternative adenylation, and (iii) the polyadenylation-state the transcriptome. PAT-seq differs from previous 3’ focused RNA-seq methods in that it strictly depends on native 3’ adenylation within total RNA samples and thus removes the need for ribosome depletion and, that the full native poly(A)-tail is included in the sequencing libraries. Limited RNase digestion combined with size selection and directional sequencing mean that deep-sequencing reads map to within ~50-100 bases of adenylation sites and run from unique sequence into adenosine homopolymers. Here, total RNA samples from budding yeast cells were analyzed to highlight the changes in gene expression and adenylation-state of the transcriptome in response to loss of the deadenylase Ccr4. Furthermore, concordant changes to gene expression and adenylation-state were demonstrated in a classic Crabtree-Warburg metabolic shift. Because all adenylated RNA are interrogated by the PAT-seq approach, alternative adenylation sites, long noncoding RNA and other non-coding RNA and RNA decay intermediates were also identified.
+
+DESIGN
+Analysis of 3'UTR dynamics in yeast cells responding to the loss of the major cytoplasmic deadenylase or a change in carbon source
+
+PLATFORM
+GPL18085 Illumina HiSeq 1500 (Saccharomyces cerevisiae)
+
+CITATIONS
+26092945
+

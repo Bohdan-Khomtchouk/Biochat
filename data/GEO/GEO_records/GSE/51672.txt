@@ -1,0 +1,18 @@
+TITLE
+A histone H3.3 Lysine 36 Trimethylation Reader Connects Chromatin to Regulated Pre-mRNA Processing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BS69 (aka ZMYND11) was initially discovered as a direct target of adenoviral E1A oncoprotein1. Subsequent studies implicated BS69 as a tumor suppressor and a transcriptional regulator2. But exactly how BS69 regulates gene expression has remained elusive. BS69 contains tandemly arranged PHD, BROMO and PWWP domains, which are known to function as chromatin recognition modalities. Here we show that BS69 selectively recognizes histone variant H3.3 lysine 36 trimethylation (H3.3K36me3) via these chromatin recognition modules. Using a proteomics approach, we further identified association of BS69 with a host of RNA splicing regulators including EFTUD2 and other U5 snRNP components of the spliceosome. Remarkably, RNA-seq analysis shows that BS69 mainly regulates intron retention (IR), which is one of the least well-understood RNA alternative splicing events in mammalian cells. Specifically, loss of BS69 results in a decrease in IR, while in contrast, knockdown of EFTUD2 leads to an increase in IR, consistent with its role as a core member of the splicesome machinery. Importantly, wildtype BS69, but not a BS69 mutant defective in its interaction with EFTUD2, rescues the IR events. We also show that knockdown of SETD2, the main enzyme that mediates H3K36 trimethylation3, similarly results in a decreased retention of the same introns regulated by BS69. Significantly, a BS69 mutant unable to bind H3.3K36me3 in vitro fails to rescue the reduced IR phenotype associated with the loss of BS69. Taken together, our findings identify an antagonistic relationship between BS69 and the core splicing machinery and demonstrate that BS69-mediated RNA splicing regulation is dependent both on its ability to bind chromatin decorated by H3K36me3 and its ability to physically interact with the core spliceosome machinery. Our study reveals a novel and unexpected role of BS69 in connecting histone H3.3K36 trimethylation to regulated RNA splicing, providing significant new insights into chromatin regulation of RNA splicing.
+
+DESIGN
+HeLaS cells stably expressing BS69 were used for HA-tagged BS69 ChIP-seq. HeLa cells were used for BS69 ChIP-seq. HeLa cells were used for H3K36me3 ChIP-seq.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25263594
+

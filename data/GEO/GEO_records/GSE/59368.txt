@@ -1,0 +1,18 @@
+TITLE
+Expression Data for HT-1080 cells exposed to ETP, QUE and MMS
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+As part of a larger effort to provide proof-of-concept in vitro only risk assessments, we have developed a suite of high throughput assays for key readouts in the p53 DNA damage response toxicity pathway: DSB DNA damage (p-H2AX), permanent chromosomal damage (micronuclei; MN), p53 activation, p53 transcriptional activity, and cell fate (cell cycle arrest, apoptosis,MN).  Dose-response studies were performed with these protein and cell fate assays, together with whole genome transcriptomics, for three prototype chemicals: etoposide (ETP), quercetin (QUE) and methyl methanesulfonate (MMS).  Data were collected in a human cell line expressing wild-type p53 (HT1080) and results were confirmed in a second p53 competent cell line (HCT 116).   At chemical concentrations causing similar increases in p53 protein expression, p53-mediated protein expression and cellular processes showed substantial chemical-specific differences. These chemical-specific differences in the p53 transcriptional response appear to be determined by augmentation of the p53 response by co-regulators.  More importantly, dose-response data for each of the chemicals indicates that the p53 transcriptional response does not prevent MN induction at low concentrations.  In fact, the no observed effect levels (NOELs) and benchmark doses (BMDs) for MN induction were less than or equal to those for p53-mediated gene transcription regardless of the test chemical, indicating that p53’s post-translational responses may be more important than transcriptional activation in the response to low dose DNA damage.  This effort demonstrates the process of defining key assays required for a pathway-based, in vitro-only risk assessment, using the p53-mediated DNA damage response pathway as a prototype.
+
+DESIGN
+HT1080 cells were grown in 24-well plates.  Cells were treated with vehicle, ETP, QUE, or MMS for 24 hr. Total RNA extracted from the exposed cells was then used with Affymetrix Microarrays to identify transcriptional gene changes Please note that the unit for all the chemical concentrations is micromolar (uM).
+
+PLATFORM
+GPL13158 [HT_HG-U133_Plus_PM] Affymetrix HT HG-U133+ PM Array Plate
+
+CITATIONS
+25078064
+

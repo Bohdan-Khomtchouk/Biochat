@@ -1,0 +1,18 @@
+TITLE
+RNA-Seq anlalysis of prostate cancer cell lines using Next Generation Sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Beginning with precursor lesions, aberrant DNA methylation marks the entire spectrum of prostate cancer progression. We mapped the global DNA methylation patterns in selected prostate tissues and cell lines using Methylplex-Next Generation Sequencing (M-NGS). Hidden Markov Model based next generation sequence analysis identified ~68,000 methylated regions per sample. While global CpG Island (CGI) methylation was not differential between benign adjacent and cancer samples, overall promoter CGI methylation increased from ~12.6% in benign samples to 19.3% and 21.8% in localized and metastatic cancer tissues, respectively. We found distinct patterns of promoter methylation around transcription start sites, where methylation occurred not only on the CGIs, but also on flanking regions and CGI sparse promoters. Among the 6,691 methylated promoters in prostate tissues, 2481 differentially methylated regions (DMRs) are cancer specific, including numerous novel DMRs. A novel cancer specific DMR in WFDC2 promoter showed heavy methylation in cancer (17/22 tissues, 6/6 cell lines), but not in the benign tissues (0/10) and normal PrEC cells. Integration of LNCaP DNA methylation and H3K4me3 data suggested an epigenetic mechanism for alternate transcription start site utilization and these modifications segregated into distinct regions when present on the same promoter. Finally, we observed differences in repeat element methylation, particularly LINE-1, between ERG gene fusion positive and negative cancers. This comprehensive methylome map will further our understanding of epigenetic regulation in prostate cancer progression.
+
+DESIGN
+Next generation Sequencing for Gene expression using the RNA-Seq methodology from LNCaP and PrEC cell lines
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens) GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+21724842
+

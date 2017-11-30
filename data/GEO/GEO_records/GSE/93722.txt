@@ -1,0 +1,18 @@
+TITLE
+Simultaneous enumeration of cancer and immune cell types from tumor gene expression data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cancers are composed of various cell types. We present an efficient algorithm to simultaneously Estimate the Proportion of Immune and Cancer cells (EPIC) from bulk tumor gene expression data. Our method integrates novel gene expression profiles from each major non-malignant cell type found in tumors, renormalization based on cell-type specific mRNA content, and the ability to consider uncharacterized and possibly highly variable cell types. Feasibility is demonstrated by validation with flow cytometry, immunohistochemistry and single-cell RNA-seq analyses of human melanoma and colorectal tumor specimens. Altogether, our work not only improves accuracy but also broadens the scope of absolute cell fraction predictions from tumor gene expression data, and provides a unique novel experimental benchmark for immunogenomics analyses in cancer research.
+
+DESIGN
+RNA-seq from lymph node bulk samples from 4 melanoma patients.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+29130882
+

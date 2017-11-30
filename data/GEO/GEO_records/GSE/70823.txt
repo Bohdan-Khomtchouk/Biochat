@@ -1,0 +1,18 @@
+TITLE
+Mapping open chromatin dynamics of cortical neuron differentiation from human induced pluripotent stem cells (iPSCs) by ATAC-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We aim to profile the dynamic changes of chromatin accessibility (openness) to transcription factors during cortical neuron differentiation from human iPSCs. We used ATAC-seq to map open chromatins in iPSCs, neural stem cells (NSCs) at day 27 and day 33 of neural induction (designated as iN-d30 for simplicity), and neurons at day 41 (iN-d41). We found that there were robust dynamic changes of open chromatins that are corresponding to cell stage-specific gene function both at genome-wide level and at individual loci of interest to neurodevelopment and psychiatric disorders, with NSC (iN-d30) gaining most (89%) of the neuron specific open chromatin peaks. Open chromatin peaks shared by different cell stages were overrepresented in core promoters, while the peaks specific to each cell stage or showing dynamic change of openness were enriched in introns and intergenic sequences. The dynamic change of open chromatins is orchestrated by specific sets of transcription factors (TFs) in each cell stage, providing epigenomic support the central role of NEUROD1 and NEUROG2 in cortical neuron differentiation.
+
+DESIGN
+We mapped open chromatins by ATAC-seq in iPSCs derived from fibroblasts (GM01835), and iPSC-differentiated cortical neural stem cells (NSCs) at day 27 and day 33 of neural induction (designated as iN-d30 for simplicity), and neurons at day 41 (iN-d41). At each stage (iPSC, iN-d30 or iN-d41), we included two cell culture replicates. We used Hotspot to call open chromatin peaks (FDR < 5%) in each cell stage. We used EdgR to quantify the dynamic change of open chromatin during cortical neuron differentiation from iPSCs.  In total, we generated 1 pool of 6 libraries and sequenced in a single lane on HiSeq 2500, and produced > 120 million pair-end reads (2x50bp) with average quality scores above Q30.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

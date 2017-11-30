@@ -1,0 +1,18 @@
+TITLE
+Correlates of self-reported symptom scores in a human H1N1 influenza challenge trial
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Influenza challenge trials are important for vaccine efficacy testing. Currently, disease severity is determined by self-reported scores to a list of symptoms which can be highly subjective. A more objective measure would allow for improved data analysis. Twenty one volunteers participated in an influenza challenge trial. We calculated the Daily Sum of Scores (DSS) for a list of 16 influenza symptoms. Whole blood collected at baseline and 24, 48, 72 and 96 hours post challenge was profiled on Illumina HT12v4 microarrays. We selected 19 genes with the largest fold change to train a random forest model with out of bag sampling cross validation. We observed good concordance between predicted and actual scores in an independent test set (overall Pearson correlation, r = 0.57; RMSE = -16.1%).
+
+DESIGN
+Twenty one volunteers participated in an H1N1 influenza challenge trial. Whole blood collected at baseline and 24, 48, 72 and 96 hours post challenge was profiled on Illumina HT12v4 microarrays.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+28595644
+

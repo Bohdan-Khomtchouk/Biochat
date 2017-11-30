@@ -1,0 +1,18 @@
+TITLE
+A multiplexed single-cell CRISPR screening platform enables systematic dissection of the unfolded protein response
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Functional genomics efforts face tradeoffs between number of perturbations examined and complexity of phenotypes measured.  We bridge this gap with Perturb-seq, which combines droplet-based single-cell RNA-seq with a strategy for barcoding CRISPR-mediated perturbations, allowing many perturbations to be profiled in pooled format. We applied Perturb-seq to dissect the mammalian unfolded protein response (UPR) using single and combinatorial CRISPR perturbations. A genome-scale CRISPR interference (CRISPRi) screen identified genes whose depletion perturbs ER homeostasis. Subjecting ~100 hits to Perturb-seq enabled high-precision functional clustering of genes. Single-cell analyses revealed epistasis among the three UPR branches, bifurcated UPR branch activation between cells subject to the same perturbation, and differential activation of the branches across hits, including a feedback loop between the translocon and the IRE1α branch. These studies provide insight into how the three sensors of ER homeostasis monitor distinct types of stress and highlight the ability of Perturb-seq to dissect complex cellular responses.
+
+DESIGN
+3 different pooled CRISPR screening experiments were conducted via Perturb-seq
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+27984733
+

@@ -1,0 +1,18 @@
+TITLE
+Selective influence of Sox2 on POU transcription factor binding in embryonic and neural stem cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Embryonic stem cell (ESCs) identity is orchestrated by co-operativity between the transcription factors (TFs) Sox2 and the class V POU-TF, Oct4 at composite Sox/Oct motifs. Neural stem cells (NSCs) lack Oct4 but express Sox2 and class III POU-TFs. This raises the question of how Sox2 interacts with POU-TFs to transcriptionally specify ESCs or NSCs. Here we show that Oct4 alone binds the Sox/Oct motif and the octamer-containing palindromic MORE equally well. Sox2 binding selectively increases the affinity of Oct4 for the Sox/Oct motif. In contrast, Oct6 binds preferentially to the MORE, and is unaffected by Sox2. ChIP-seq in NSCs shows the MORE to be the most enriched motif for class III POU-TFs, with  MORE sub-types apparent, but no Sox/Oct motif enrichment. These results suggest that in NSCs, co-operativity between Sox2 and class III POU-TFs may not occur and that POU-TF driven transcription uses predominantly the MORE cis architecture. Thus, distinct interactions between Sox2 and POU-TF subclasses distinguish pluripotent ESCs from multipotent NSCs, providing molecular insight into how Oct4 alone can convert NSCs to pluripotency.
+
+DESIGN
+ChIP-seq of four transcription factors (Sox2, Oct6, Brn1, Brn2) in mouse neural stem cell line NS5. ChIP was done once for each transcription factor. Brn1 and Oct6 ChIP were from the same chromatin prep and therefor share the same input conttrol. Sox2 and Brn2 ChIP were done on independent chromatin preps and thus each has its own control. Each ChIP-seq library was sequenced over 2 lanes of an Illumina Genome Analyzer.
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+26265007
+

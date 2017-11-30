@@ -1,0 +1,18 @@
+TITLE
+The interaction of PRC2 with RNA or chromatin is mutually antagonistic [iCLIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Polycomb repressive complex 2 (PRC2) maintains developmental regulator genes in a repressed state through methylation of histone H3 at lysine 27 (H3K27me3) and is necessary for cell differentiation. We and others have previously found that the PRC2 subunit Suz12 interacts with RNA in vitro and other studies have shown that Ezh2 and Jarid2 also possess RNA binding function. The interaction of PRC2 with RNA has been suggested to regulate PRC2 targeting or enzymatic activity, but the RNAs directly bound by PRC2 in cells, and the role of each PRC2 RNA binding subunit, remain unclear. We have used different CLIP techniques, which use UV-crosslinking to allow detection of direct Suz12-RNA interactions as they occur in living mouse ES cells. Suz12 binds nascent RNA and has a preference for interaction with the 3’UTR, showing it does have binding specificity in cells. RNAs bound by Suz12 at the 3’UTR encode developmental regulator genes.  Suz12 remains bound to RNA upon deletion of Ezh2 or Jarid2 showing that it binds RNA independently of other PRC2 subunits. We also show that binding of Suz12 to RNA or chromatin is mutually inhibitory. Although Ezh2 and Jarid2 also bind RNA, Ezh2 and Jarid2 deletion causes an increase in Suz12 RNA binding, without changing its specificity, which reflects the loss of Suz12 from chromatin. Similarly, disruption of Suz12-RNA interactions by RNA polymerase II inhibition or RNase treatment increases Suz12 binding to chromatin. These results therefore suggest that Suz12 acts as an RNA sensor, binding to the 3’UTR of nascent RNAs and modulating the interaction of PRC2 with chromatin.
+
+DESIGN
+iCLIP libraries for Suz12 were generated from mESC Ezh2 fl/fl treated with or without tamoxifen for four days to delete Ezh2 in treated cells or  from cells KO for Jarid2 protein.  Several control libraries were generated from mESC Ezh2 fl/fl cells without tamoxifen treatment using General IgG, GFP, hnRNP C or FUS antibody.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27197219
+

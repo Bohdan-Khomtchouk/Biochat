@@ -1,0 +1,18 @@
+TITLE
+Expression data from a new FACS approach isolated hESC derived endoderm cells using transcription factors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We show that high quality microarray gene expression profiles can be obtained following FACS sorting of cells using combinations of transcription factors. We use this transcription factor FACS (tfFACS) methodology to perform a genomic analysis of hESC-derived endodermal lineages marked by combinations of SOX17, GATA4, and CXCR4, and find that triple positive cells have a much stronger definitive endoderm signature than other combinations of these markers. Additionally, SOX17+GATA4+ cells can be obtained at a much earlier stage of differentiation, prior to expression of CXCR4+ cells, providing an important new tool to isolate this earlier definitive endoderm subtype. Overall, tfFACS represents an advancement in FACS technology which broadly crosses multiple disciplines, most notably in regenerative medicine to redefine cellular populations.
+
+DESIGN
+21 Total samples were analyzed. Samples collected after 5 days of hESC differentiation included SOX17+GATA4+ CXCR4+ cells, unfixed CXCR4+ cells, and unsorted fixed cells. Samples collected after 3 days of differentiation included SOX17+GATA4+ cells, SOX17-GATA- cells, and unsorted fixed cells. As controls, we analyzed both unfixed hESCs and fixed hESCs. All samples contained biological duplicates, triplicates or quadriplicates. We performed hierarchical clustering to demonstrate whether cellular fixation alone could change gene expression. We based this analysis on 1647 transcript clusters with coefficient of variation > 0.5 across the samples and expression values > = 500 in at least 2 out of the 21 samples. We found that fixation and staining steps did not cause distortions in gene expression measurements. This is supported by the fact that fixed and unfixed cells cluster together based upon differentiation stage, not based upon degree of fixation. Furthermore, using GSEA analysis, we found that the SOX17+GATA4+CXCR4+ day 5 cells and day 3 SOX17+GATA4+ were more enriched for compiled gold-standard endodermal genes than the CXCR4+ day 5 population.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+21408072
+

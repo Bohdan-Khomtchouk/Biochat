@@ -1,0 +1,18 @@
+TITLE
+Critical evaluation of the Illumina MethylationEPIC BeadChip microarray for whole-genome DNA methylation profiling [HumanMethylation450]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We performed a critical evaluation of the new Infinium MethylationEPIC BeadChip microarray. EPIC covers over 850,000 CpG sites, including > 90% of the CpGs from the HumanMethylation450 (HM450) BeadChip and an additional 413,743 CpGs. Even though the additional probes improve the coverage of regulatory elements, including 58% of FANTOM5 enhancers, only 7% distal and 27% proximal ENCODE regulatory elements are represented.  Detailed comparisons of regulatory elements from EPIC and whole-genome bisulphite sequencing data (WGBS) show that a single EPIC probe is not always informative for those distal regulatory elements showing variable methylation across the region.  However, overall data from the EPIC array at single loci are highly reproducible across technical and biological replicates and demonstrate high correlation with HM450 and WGBS data. We show that the HM450 and EPIC arrays distinguish differentially methylated probes, but the absolute agreement depends on the threshold set for each platform.
+
+DESIGN
+To assess the performance of the EPIC array we ran a series of technical analyses using DNA from different samples types (cell lines, clinical samples and blood) commonly profiled in array-based methylation studies: a transformed prostate cancer cell line (LNCaP); primary cell cultures of prostate epithelial cells (PrEC); patient-matched cancer associated fibroblasts (CAF) and non-malignant tissue associated fibroblasts (NAF); and infant blood from archival Guthrie cards. We first profiled the DNA on both the HM450 and EPIC arrays. LNCaP and PrEC samples were also profiled with WGBS.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+27717381
+

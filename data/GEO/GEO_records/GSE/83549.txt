@@ -1,0 +1,18 @@
+TITLE
+RNA-seq characterization of downstream effects of upregulating SMN2 via down-regulating PRC2 or blocking the PRC2:SMN-AS1 interaction with a mixmer oligonucleotide
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To determine how targeting the disruption of PRC2:SMN-AS1 interactions might affect PRC2 targets globally, we performed RNA-sequencing after transfection of a PRC2:SMN-AS1 targeting mixmer oligo, RN-0005, an antisense gapmer oligonucleotide targeting SUZ12, a subunit of the PRC2 complex, or mock in SMA fibroblasts. Via RT-qPCR, treatment with either the mixmer oligo or the SUZ12 gapmer for 2 and 3 days results in significant increases of SMN mRNA levels compared to transfection control samples. We sequenced total RNA from 12 GM09677 fibroblast samples split into two day or three day treatments (6 samples each). Within each set of six samples, there were 2 mock control replicates, 2 mixmer replicates, and 2 SUZ12kd-gapmer replicates. By controlling for time and looking at the two treatments versus mock samples, we identified the genes that change when knocking down PRC2 systemically with a gapmer versus more specifically blocking PRC2 activity with a mixmer oligo targeting the SMN2-AS1 lncRNA.
+
+DESIGN
+Mock, RN-0005 mixmer, and the SUZ12-KD gapmer treated SMA fibroblasts were sequenced. For each of the treatments, there were two time points with each time point having two replicates for a total number of 4 samples per condition. Gene expression differences were identified for the contrasts of RN-0005 vs. mock and SUZ12-KD vs. mock after fitting to a linear model blocking for time.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+28193854
+

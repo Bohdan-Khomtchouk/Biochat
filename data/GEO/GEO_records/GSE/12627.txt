@@ -1,0 +1,18 @@
+TITLE
+Non-supervised hierarchical clustering of gene expression data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Despite the frequent detection of circulating tumor antigen-specific T cells, either spontaneously or following active immunization or adoptive transfer, immune-mediated cancer regression occurs only in the minority of patients.  One theoretical rate-limiting step is whether effector T cells successfully migrate into metastatic tumor sites.  Affymetrix gene expression profiling performed on a series of metastatic melanoma biopsies revealed a major segregation of samples based on the presence or absence of T cell-associated transcripts.  The presence of lymphocytes correlated with the expression of defined chemokine genes.  A subset of 6 chemokines (CCL2, CCL3, CCL4, CCL5, CXCL9, and CXCL10) was confirmed by protein array and/or quantitative RT-PCR to be preferentially expressed in tumors that contained T cells.  Corresponding chemokine receptors were found to be upregulated on human CD8+ effector T cells, and transwell migration assays confirmed the ability of each of these chemokines to promote migration of CD8+ effector cells in vitro.  Screening by chemokine protein array identified a subset of melanoma cell lines produced a similar broad array of chemokines.  These melanoma cells more effectively recruited human CD8+ effector T cells when implanted as xenografts in NOD/scid mice in vivo.  Chemokine blockade with specific antibodies inhibited migration of CD8+ T cells.  Our results suggest that lack of critical chemokines in a subset of melanoma metastases may limit the migration of activated T cells, which in turn could limit the effectiveness of anti-tumor immunity. Keywords: Tumor sample microarray
+
+DESIGN
+To examine associations between CD8 expression and a diverse panel of chemokines, affymetrix gene expression profiling performed on a series of metastatic melanoma biopsies. Non-supervised hierarchical clustering analysis revealed a major segregation of samples based on the presence or absence of T-cell-associated transcripts.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+19293190
+

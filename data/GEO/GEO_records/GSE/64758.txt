@@ -1,0 +1,18 @@
+TITLE
+Wnt3a-Activin A Synergy Induces eRNAPII Pause-Release and Counteracts a Yap1 Elongation Block during hESC Differentiation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Wnt3a/β-catenin and Activin/Smad2,3 signaling pathways synergize to induce endodermal differentiation of human embryonic stem cells, however the mechanism is not well-understood. Using ChIP-seq and GRO-seq analyses, we report here that hESC enhancers, including Wnt3a/LEF-1 sites, hold enhancer RNAPII complexes (eRNAPII) containing high levels of Ser5P and low Ser7P. In Wnt3a signaling, β-catenin recruits cohesin to the LEF-1:eRNAPII sites to induce enhancer-promoter looping and activate transcription of mesoendodermal (ME) genes. However, paused Ser5P-RNAPII complexes accumulate at these genes, indicating that elongation remains limiting. Subsequent Activin/Smad2,3 signaling increases P-TEFb occupancy, CTD-Ser7P, and productive elongation at ME genes. Additionally, ME genes, including EOMES and MIXL1, are repressed by the Hippo regulator, Yap1, an essential pluripotency factor. GRO-seq experiments indicate that Yap1 blocks nascent transcription and controls NELF occupancy on ME genes. Thus, Wnt3a/β-catenin and Activin/Smad2,3 pathways up-regulate transcription initiation and elongation, respectively, to overcome Yap1 repression during early hESC differentiation
+
+DESIGN
+ChIP-seq and GROseq experiments in H1 hESCs. Cells were treated with Wnt3a (200ng/ml), Activin A (100ng/ml) or Wnt3a+Activin A (W200ng/ml+A100ng/ml)  for 4h (ChIP-seq) or 6h (GRO-seq). GRO-seq in YAP depleted cells were carried out following  transfection with control or YAP siRNAs . After 48h transfection, cells were left untreated or treated with Wnt3a+Activin (W200ng/ml+A100ng/ml) for additional 6h.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

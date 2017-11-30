@@ -1,0 +1,18 @@
+TITLE
+H3K27me3 ChIP-seq experiment in fruitfly testis somatic gonadal cells
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+In many metazoans, germ cells are separated from somatic lineages early in development and maintain their identity throughout life. Here we show that a Polycomb group (PcG) component, Enhancer of Zeste [E(z)] H3K27me3-specific methyltransferase, maintains germline identity in Drosophila adult testes. We find excessive early-stage somatic gonadal cells in E(z) mutant testes, which originate from both over-proliferative cyst stem cells and germ cells turning on an early-stage somatic cell marker. Using complementary lineage-tracing experiments in E(z) mutant testes, a portion of excessive early-stage somatic gonadal cells are found to derive from early-stage germ cells, including germline stem cells. Interestingly, knocking down E(z) specifically in somatic cells caused this germline-to-soma change, suggesting a non-cell autonomous role of E(z) to antagonize somatic identity in germ cells.
+
+DESIGN
+Using fly testis specifically expressing E(z) shmiR RNAi in germ cells by nos promoter driven GAL4 > UAS system, ChIPseq with H3K27me3 antibody was performed, where H3K27me3 is only detected in somatic cells.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+24675960
+

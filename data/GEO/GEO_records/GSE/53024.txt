@@ -1,0 +1,18 @@
+TITLE
+Architecture of Epigenetic Reprogramming Following Twist1 Mediated Epithelial-Mesenchymal Transition [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: to characterize epigenetic changes following Twist1 mediated Epithelial-Mesenchymal Transition in human Methods: we characterized the epigenetic and transcriptome landscapes using whole genome transcriptome analysis by RNA-seq, DNA methylation by digital restriction enzyme analysis of methylation (DREAM) and histone modifications by CHIP-seq of H3K4me3 and H3K27me3 in immortalized human mammary epithelial cells relative to cells induced to undergo EMT by Twist1. Results: EMT is accompanied by focal hypermethylation and widespread global DNA hypomethylation, predominantly within transcriptionally repressed gene bodies. At the chromatin level, the number of gene promoters marked by H3K4me3 increases by more than one fifth; H3K27me3 undergoes dynamic genomic redistribution characterized by loss at half of gene promoters and overall reduction of peak size by almost one-half. This is paralleled by increased phosphorylation of EZH2 at serine 21. Among genes with highly altered mRNA expression, 23.1% switch between H3K4me3 and H3K27me3 marks, and those point to the master EMT targets and regulators CDH1, PDGFRA and ESRP1. Strikingly, Twist1 increases the number of bivalent genes by more than two fold. Inhibition of the H3K27 methyltransferases EZH2 and EZH1, which form part of the PRC2 complex, results in blocking EMT and stemness properties. Conclusion: Our findings demonstrate that the EMT program requires epigenetic remodeling by the Polycomb/Trithorax complexes leading to increased cellular plasticity which suggests that its inhibition will prevent EMT, and the associated breast cancer metastasis.
+
+DESIGN
+RNAseq profiles of human mammary epithelial cells before (HMLE_parental) and after Twist1 transfection (HMLE_Twist) were generated in monolayer (HMLE_Twist2D) and sphere culture by deep sequencing using SOLID
+
+PLATFORM
+GPL9442 AB SOLiD System 3.0 (Homo sapiens)
+
+CITATIONS
+24367927
+

@@ -1,0 +1,18 @@
+TITLE
+Associations of inflammation, iron and early death in sickle cell disease
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Expression profiling using a defined set of iron regulated genes identifies co-regulation of genes and pathways related to inflammatory cytokines In this dataset, we include the whole genome expression data obtained from PBMCs from steady state HbSSs with Sickle Cell Disease and healthy  HbAAs . Unsupervised two-way hierarchical clustering using a predefined iron regulated gene list identified 3 groups of subjects with high, low and intermediate expression of iron activated genes.In analysis of these three iron regulated gene clusters, we found 98 genes which were consistently and significantly differentially expressed.
+
+DESIGN
+Samples from 24 subjects with SCA and 9 healthy subjects were analysed. With approval from the institutional review board, RNA was isolated from PBMCs and plasma was stored for analysis of baseline laboratory parameters. All RNA was hybridized on Affymetrix’ (Santa Clara, CA) Human Genome U133 Plus 2.0 Amicroarray in the same batch. Signal intensity values were achieved by well-accepted processing procedures including background correction, quantile normalization and median polish summarization. comparison of the resulting clustering groups were used to find differentially expressed genes with the filter of a change greater than 40% between the clustering groups and 10% false discovery rate (FDR).  Functional analysis was performed on Ingenuity Pathway Analysis (IPA) System.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25378535
+

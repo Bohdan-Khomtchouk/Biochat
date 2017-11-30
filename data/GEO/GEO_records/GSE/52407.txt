@@ -1,0 +1,18 @@
+TITLE
+Analysis of the RDR6-dependent ein5 ski2 transcriptome profile in Arabidopsis
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Post-transcriptional gene silence (PTGS) is employed in plants to shut down transgenes, invading viral genes and a certain group of endogenous genes. Meanwhile, it is not clear how the risk of expansive PTGS from endogenous genes featured by transitive siRNA production is minimized. Here we demonstrate two essential components of the SKI complex in cytoplasmic 3’-5’ mRNA decay pathway, SKI2 and SKI3, function as negative regulators of transgene PTGS in Arabidopsis. The ski2 mutants manifested severe synthetic phenotypes with a 5’-3’ exoribonuclease mutant, ein5, which were substantially suppressed by the PTGS mutants, rdr6 and ago1. RDR6 is essential for the altered gene expression in ein5 ski2 on a transcriptome-wide scale. mRNA-seq approach was used to investigate the physiological relevance veiled by the myriad developmental phenotypes in Col-0 (C), ein5-1 (e), ski2-3 (s), ein5-1 ski2-3 (es), rdr6-11 (r) and rdr6-11 ein5-1 ski2-3 (res). Compared with Col-0, 4394 genes exhibited differential expression in ein5-1 ski2-3, much more than those in the ein5-1 (1138 genes) or ski2-3 (1040 genes) single mutant (2-fold cutoff, p < 0.01, FDR < 0.05), suggesting a largely disturbed transcriptome in the absence of both EIN5 and SKI2. While a small overlap was found between the differentially expressed genes in e/C and s/C comparisons, the gene lists from es/C, es/e and es/s comparisons (2-fold cutoff, p < 0.01, FDR < 0.05) largely overlapped with each other, indicating a collaborative function of EIN5 and SKI2 on a transcriptome-wide scale. The 1670 genes overlapped in the es/C, es/e and es/s comparisons included 1306 upregulated genes and 360 downregulated genes with only 4 genes as exception. 994 of the 1306 upregulated genes (76.1%) and 273 of the 360 downregulated genes (75.8%) were differentially expressed in the es/res comparison like that in es/C, es/e and es/s, indicating a substantial supression of the redundant function of EIN5 and SKI2 by RDR6. Taken together, our study brings to light a dual-safeguard system in preventing the expansive siRNA production by the 5’-3’ and 3’-5’ cytoplasmic mRNA decay pathways.
+
+DESIGN
+Examination of transcriptomes in 6 genotypes.
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+25838384
+

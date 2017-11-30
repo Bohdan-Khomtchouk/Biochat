@@ -1,0 +1,18 @@
+TITLE
+Physiological and cell morphology adaptation of Bacillus subtilis at near-zero specific growth rates: a transcriptome analysis.
+
+ORGANISM
+Bacillus subtilis
+
+SUMMARY
+B. subtilis was cultured in a retentostat at extremely low growth rates and the adaptation of B. subtilis to these near-zero growth conditions was studied by analysis of the transcriptome and genome. During retentostat culturing the specific growth rate decreased to a minimum of 0.00006 h-1, corresponding to a doubling time of 470 days. Transcriptome analysis shows that while cells under near-zero growth conditions exhibit many characteristics of stationary phase cells, they are also fundamentally different. Stress resistance mechanisms were only mildly induced in response to the progressively decreasing growth-rate and while glucose was still supplied, cells were ready for utilization of alternative carbon sources. Genome resequencing, of samples taken 40 days after inoculation to reach zero-growth conditions, indicated that only minor changes in the genome occurred and that these most likely did not play a role in the transcriptional responses.
+
+DESIGN
+Total of 8 samples; 4 timepoints with each 2 biological replicates. First timepoint is used as reference. Total number of hybridizations is 24. The 4 timepoints are defined as follows: From 2 replicate retentostat cultures, 4 timepoints are taken during the course of 42 days. Replicate samples from the two cultures were taken on similar days. For retentostat 1 (i.e. rep1): 0, 7, 18 and 42 days. For retentostat 2 (i.e. repl2): 0, 6, 20 and 40 days. Timepoint 1, 2 and 3 were compared to reference timepoint 0, using all hybridization data available. All time points were compared with each other using a 'factorial design' or 'fully crossed design' hybridisation scheme, including dye swaps for each time point. For example, to compare timepoint 1 versus the reference, not only the direct comparisons of 0vs1 and 1vs0 were used, but data from all hybridizations containing timepoint 1 was taken with various weightfactors depending on slide quality. The comparison resulted in a single value shown in the matrix table. The same accounts for timepoint 2 and 3. The 'README.txt' contains processing/normalization strategy, list of raw data files used for each (merged) data column etc.
+
+PLATFORM
+GPL18393 Agilent-037639 Bacillus subtilis 168 (Probe Name version)
+
+CITATIONS
+25367190
+

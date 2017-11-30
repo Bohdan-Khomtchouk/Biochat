@@ -1,0 +1,18 @@
+TITLE
+The effect of freeze-thaw cycles on gene expression levels in lymphoblastoid cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epstein-Barr virus (EBV) transformed lymphoblastoid cell lines (LCLs) are a widely used renewable resource for functional genomic studies in humans. The ability to accumulate multidimensional data pertaining to the same individual cell lines, from complete genomic sequences to detailed gene regulatory profiles, further enhances the utility of LCLs as a model system.  However, the extent to which LCLs are a faithful model system is relatively unknown. We have previously shown that gene expression profiles of newly established LCLs maintain a strong individual component. Here, we extend our study to investigate the effect of freeze-thaw cycles on gene expression patterns in mature LCLs, especially in the context of inter-individual variation in gene regulation. We found a profound difference in the gene expression profiles of newly established and mature LCLs. Once newly established LCLs undergo a freeze-thaw cycle, the individual specific gene expression signatures become much less pronounced as the gene regulatory programs in LCLs from different individuals converge to a more uniform profile, which reflects a mature transformed B cell phenotype. As expected, previously identified eQTLs are enriched among the relatively few genes whose regulations in mature LCLs maintain marked individual signatures. We thus conclude that findings and insight drawn from gene regulatory studies in mature LCLs are generally not affected by artificial nature of the LCL model system and are likely to faithfully reflect regulatory interactions in primary tissues. However, our data indicate that many aspects of primary B cell biology cannot be observed and studied in mature LCL cultures.
+
+DESIGN
+We obtained unpurified buffy coats (of a unit of blood) from six unrelated healthy individuals of Caucasian ethnicity (age range: 20-45). We isolated CD20+ B cells and established six independent cultures of LCLs between October 2009 and January 2010. From each of these samples, we obtained genome wide gene expression data using Illumina HumanHT-12 v3 Expression BeadChip arrays. We refer to data from these experiments as “cycle 0” to acknowledge the fact that the LCLs from this cycle were newly established and therefore not frozen/thawed. Between February 2011 and October 2012, we thawed each of these LCL cultures every 3 months and cultured them until obtaining ~10 million cells (February 2011=cycle 1, June 2011=cycle 2, October 2011=cycle 3, February 2012=cycle 4, June 2012=cycle 5, and October 2012=cycle 6). We used Illumina HumanHT-12 v4 Expression BeadChip arrays and obtained genome wide gene expression data on cycle 2, cycle 4 and cycle 6 LCLs. At each hybridization batch we included a subset of RNA samples that were also hybridized in a previous batch. This allowed us to effectively consider the batch effect on gene expression profiles. Our final dataset included genome wide gene expression data from 187 samples collected at 4 different time points.
+
+PLATFORM
+GPL6947 Illumina HumanHT-12 V3.0 expression beadchip GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+25192014
+

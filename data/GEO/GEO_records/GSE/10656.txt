@@ -1,0 +1,18 @@
+TITLE
+The impact of copy number variation on local gene expression in mouse hematopoietic stem and progenitor cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The extent to which differences in germ line DNA copy number contribute to natural phenotypic variation is unknown. We analyzed the copy number content of the mouse genome to a sub-10 kb resolution. We identified over 1,300 copy number variant regions (CNVRs), most of which are < 10 kb in length, are found in more than one strain, and, in total, span 3.2% (85 Mb) of the genome. To assess the potential functional impact of copy number variation, we mapped expression profiles of purified hematopoietic stem and progenitor cells, adipose tissue and hypothalamus to CNVRs in cis. Of the more than 600 significant associations between CNVRs and expression profiles, most map to CNVRs outside of the transcribed regions of genes. In hematopoietic stem/progenitor cells, up to 28% of strain-dependent expression variation is associated with copy number variation, supporting the role of germ line CNVs as major contributors to natural phenotypic variation in the laboratory mouse.
+
+DESIGN
+To map the CNV content of the mouse genome, we selected 17 Tier 1-3 Mouse Phenome Project strains and three additional strains of biomedical interest, representing all major inbred lineages.  We performed comparative genomic hybridization using a long-oligonucleotide array containing 2,149,887 probes evenly spaced across the reference genome with a median inter-probe spacing of 1,015 bases.  Labeling, hybridization, washing and array imaging were performed as previously described (PMID:16075461).  We performed segmentation using wuHMM, a Hidden Markov Model algorithm that utilizes sequence-level information and can detect CNVs less than 5 kb in length (fewer than five probes) at a low false positive rate (PMID:18334530).  To estimate the overall impact of CNV on gene expression in vivo, we performed expression profiling of hematopoietic stem/progenitors cells using the Illumina Mouse Beadchip-6v1 platform. See manuscript for further details.
+
+PLATFORM
+GPL6436 NimbleGen Mouse 2.1M NCBI36 GPL8081 WU Mouse_Illumina_46k_v6-1.1
+
+CITATIONS
+19270704 , 20861859
+

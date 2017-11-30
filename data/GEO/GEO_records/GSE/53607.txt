@@ -1,0 +1,18 @@
+TITLE
+Bioinformatics Multivariate Analysis Determined a Set of Phase-Specific Biomarker Candidates in a Novel Mouse Model for Viral Myocarditis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Myocarditis is an inflammatory disease in the heart and is mainly caused by viral infections.  Viral myocarditis has been proposed to be divided into three phases; the acute viral phase, the subacute immune phase, and the chronic cardiac remodeling phase.  Although individualized therapy should be applied depending on the phase, no clinical or experimental studies have found biomarkers that distinguish between the three phases of myocarditis.  Theiler’s murine encephalomyelitis virus (TMEV) belongs to the genus Cardiovirus, and can cause myocarditis in susceptible mouse strains.  Using this novel model for viral myocarditis induced with TMEV, we conducted multivariate analysis including echocardiography, serum troponin and viral RNA titration, and microarray for identifying the biomarker candidates that discriminate the three phases.  Using C3H mice infected with TMEV on 4, 7, and 60 days post infection (p.i.), we conducted bioinformatics analyses, including principal component analysis (PCA) of microarray data, since our traditional cardiac and serum assays, including two-way comparison of microarray data, did not lead to the identification of a single biomarker.  PCA separated heart samples clearly between the groups of 4, 7, and 60 days p.i.  Representative genes contributing to the separation were as follows: 4 and 7 days p.i., innate immunity-related genes, such as Irf7, and Cxcl9; 7 and 60 days p.i., acquired immunity-related genes, such as Cd3g and H2-Aa; and cardiac remodeling-related genes, such as Mmp12 and Gpnmb.  Here, sets of molecules, but not a single molecule, identified by the unsupervised PCA, were found to be useful as the phase-specific biomarkers.
+
+DESIGN
+Five mice were infected with TMEV intraperitoneally and hearvested their hearts on 4, 7, and 60 days post infection, respectively, for RNA isolation and hybridization on Affymetrix microarrays. As the control groups, age-matched uninfected mice were prepared.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+25031303
+

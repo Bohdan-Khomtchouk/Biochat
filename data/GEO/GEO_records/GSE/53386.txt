@@ -1,0 +1,18 @@
+TITLE
+Single-cell RNA-Seq transcriptome analysis of circular RNAs in mouse embryos
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+We reported a new method of single-cell universal poly(A)-independent RNA sequencing (SUPeR-seq) to obtain single cell whole transcriptome analysis that covers both poly(A) plus and poly(A) minus RNA species. We built libraries of single mouse ESC , 10pg, 100pg and 1ng diluted mouse ES total RNA, single HEK293T cell and mouse early embryos before 4-cell stage. We analyzed these data using bioinformatics and find a good coverage of non-polyadenylated RNAs, circular RNA for example. to make a comparison,we also used mouse ES cells and HEK293T cells to build libraries using the protocol publish by F.Tang in 2009(sample name Tang2009_*). We also de novo assembled new genes in mouse ESCs and early embryo samples, further validated known and novel zygotic genes with a-Aminatine treated 2-cell embryos(sample name SUPeR-seq_a-AM_treated_2-cell*).
+
+DESIGN
+3 Single mouse ES cells, 7 single HEK293T cells, 8 diluted mouse ES total RNA samples and 19 mouse embryo samples are performed using SUPeR-seq to evaluate its ability to detect genes in single RNAs and to cover poly(A)- RNA species.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

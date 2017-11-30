@@ -1,0 +1,18 @@
+TITLE
+Multiscale representation of genomic signals
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Genomic information is encoded on a wide range of distance scales, ranging from tens of base pairs to megabases. We developed a multiscale framework to analyze and visualize the information content of genomic signals. Different types of signals, such as GC content or DNA methylation, are characterized by distinct patterns of signal enrichment or depletion across scales spanning several orders of magnitude. These patterns are associated with a variety of genomic annotations, including genes, nuclear lamina associated domains, and repeat elements. By integrating the information across all scales, as compared to using any single scale, we demonstrate improved prediction of gene expression from Polymerase II ChIP-seq measurements and we observed that gene expression differences in colorectal cancer are not most strongly related to gene body methylation, but rather to methylation patterns that extend beyond the single-gene scale.
+
+DESIGN
+ChIP-seq data of six proteins in primary murine bone marrow macrophage cells (BMMs) under unstimulated and lipopolysaccharide (LPS) stimulated conditions. The BMMs were cultured from female C57BL/6 mice (age 8-12 weeks). Amongst these six proteins were three transcription factors (TFs), ATF340, NFκB/p50 and NFκB/p65, all of which are involved in regulating macrophage activation by microbial molecular components such as LPS. The other three ChIP-seq targets were RNA polymerase II (Pol II), and two chromatin modification marks: acetylation of histone H4 (H4ac) and tri-methylation of histone H3 lysine 27 (H3K27me3).
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+24727652
+

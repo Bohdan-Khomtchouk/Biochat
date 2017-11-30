@@ -1,0 +1,18 @@
+TITLE
+Hepatitis B virus-mediated alterations to the primary hepatocyte transcriptome [24 and 48 h]
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Purpose:  Chronic infection with hepatitis B virus is the leading global risk factor for the development of liver cancer.  A large body of research has shown the many effects an HBV infection has on cellular physiology, particularly on pathways that may be involved in the development of HBV-associated diseases.  Unfortunately, a significant portion of this research has been done in systems that may not mimic what is seen in a primary hepatocyte, and is not done on a transcriptome-wide scale.  Because of this, we performed an RNA-seq analysis of primary rat hepatocytes expressing HBV to determine the global changes HBV has on primary hepatocyte physiology. Methods: To do this RNA-seq analysis, triplicate samples of total RNA were collected from cultured primary rat hepatocytes infected with adenovirus expressing GFP alone (AdGFP) or GFP along with a greater than unit length copy of the HBV genome (AdHBV).  Samples were collected either 24h or 48h after infection.  cDNA libraries were sequenced two times using the Illumina HiSeq or Illumina NextSeq platform to generate either 1x50bp or 1x75bp reads.  Reads from each sequencing run were mapped using the STAR aligner, and output BAMs were merged into a single BAM for each sample.  The merged BAM was further analyzed in R using the GenomicAlignments package to quantify number of reads per transcript and DESeq2 to determine differential expression. Reads per kilobase transcript per million total reads (RPKM) was calculated by dividing reads per transcript by the transcript length and then normalizing to the total number of reads in the sample. Results: Following this pipeline, we were able to identify a number of HBV-mediated differentially expressed transcripts at 24h and 48h post-infection.  Further pathway analysis of these differentially expressed transcripts identified many important cellular pathways, including those involved with cell cycle regulation and metabolism, as being differentially regulated by HBV in primary hepatocytes.
+
+DESIGN
+mRNA profiles of HBV-expressing and non-expressing primary rat hepatocytes were generated, in triplicate, 24h and 48h post-infection using Illumina HiSeq 2500 and NextSeq 500 instruments.
+
+PLATFORM
+GPL18694 Illumina HiSeq 2500 (Rattus norvegicus)
+
+CITATIONS
+26891448
+

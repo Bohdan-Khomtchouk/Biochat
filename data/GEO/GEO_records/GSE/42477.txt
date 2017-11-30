@@ -1,0 +1,18 @@
+TITLE
+Defining a molecular roadmap of cellular reprogramming into iPS cells [ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Factor induced reprogramming is a slow and inefficient process with only rare cells progressing towards induced pluripotent stem cells (iPSCs). Owing to these restraints, mechanistic studies have been limited to analyses of heterogeneous bulk populations undergoing reprogramming and partially reprogrammed cell lines. Here, by combining surface markers (Thy1, SSEA1) and an Oct4-GFP fluorescent reporter allele, we analyzed defined intermediate cell populations poised to becoming iPSCs at the transcriptional and epigenetic levels using genome-wide and single cell technologies. We found that factor-induced reprogramming elicits two discernible transcriptional waves that are characterized by the initial extinction of the somatic gene expression program and the concomitant acquisition of an ESC-like proliferative and metabolic state, followed by the activation of an embryonic pluripotent state primed for differentiation. The first wave is mostly driven by gene activation through c-Myc and gene repression by Klf4, whereas the second wave is a result of gradually activated Oct4/Sox2 targets in cooperation with Klf4 targets and other downstream regulators. While microRNA expression and enrichment for individual histone modifications (H3K4me3 or H3K27me3 enriched promoters) mirrored the observed biphasic transcriptional pattern, the establishment of bivalent domains (H3K4me3/H3K27me3 enriched promoters) occurred more gradually. In contrast, changes in DNA methylation took place predominantly at the end of reprogramming when cells assumed a stable pluripotent state. Cells that became refractory to reprogramming activated the first but failed to initiate the second transcriptional wave. However, introduction of additional copies of the reprogramming transgenes into these cells rescued their ability to form iPSCs, indicating that suboptimal transcription factor levels are a limiting factor for efficient iPSC formation. This integrative analysis allowed us to identify novel genes and microRNAs that enhance reprogramming and surface markers that further subdivide intermediate cell populations. Collectively, our data offer new mechanistic insights into the nature and sequence of molecular events inherent to cellular reprogramming and provide a valuable resource of molecules that may act as roadblocks during iPSC formation.
+
+DESIGN
+Time series design with samples sorted into subpopulations according to surface markers.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+23260147
+

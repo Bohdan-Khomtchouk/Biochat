@@ -1,0 +1,18 @@
+TITLE
+Genome-wide Identification of Targets & Function of Individual MicroRNAs in Mouse Embryonic Stem Cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mouse Embryonic Stem (ES) cells express a unique set of microRNAs (miRNAs), the miR-290-295 cluster. To elucidate the role of these miRNAs and how they integrate into the ES cell regulatory network requires identification of their direct regulatory targets. The difficulty, however, arises from the limited complementarity of metazoan miRNAs to their targets, with the interaction requiring as few as six nucleotides of the miRNA seed sequence. To identify miR-294 targets, we used Dicer1-null ES cells, which lack all endogenous mature miRNAs, and introduced just miR-294 into these ES cells. We then employed two approaches to discover miR-294 targets in mouse ES cells: transcriptome profiling using microarrays, and a biochemical approach to isolate mRNA targets associated with the Argonaute2 (Ago2) protein of the RISC (RNA Induced Silencing Complex) effector, followed by RNA-Sequencing. In the absence of Dicer1, the RISC complexes are largely devoid of mature miRNAs, and should therefore contain only transfected miR-294 and its base-paired targets. Our data suggest that miR-294 may promote pluripotency by regulating a subset of c-Myc target genes, and upregulating pluripotency-associated genes such as Lin28.
+
+DESIGN
+Cells were co-transfected (Amaxa nucleofection) with 300pmol of microRNA and 1 microgram of pEGFP-1, which served as a control for transfection efficiency. GFP-positive cells were sorted 24 hours after transfection. We profiled the transcriptome of Dicer1-null mouse ES cells transfected with miR-294 or a control microRNA (cel-239b), using the Illumina WG-6 v2.0 platform.
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip
+
+CITATIONS
+20975942
+

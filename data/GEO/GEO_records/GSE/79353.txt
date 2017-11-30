@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis of transcription, H2A.Z, nucleosomes and HSF1 dynamics in response to temperature increase in Arabidopsis thaliana [RNA-seq I]
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Plants are sessile organisms and therefore must sense and respond to changes of their surrounding conditions such as ambient temperature, which vary diurnally and seasonally. It is not yet clear how plants sense temperature and integrate this information into their development. We have previously shown that H2A.Z-nucleosomes are evicted in response to warmer temperatures. It is not clear however, whether the link between transcriptional responsiveness and changes in H2A.Z binding in context of temperature shifts is a global trend that can be seen throughout the genome, or the phenomenon is specific to a specialised set of temperature-responsive genes. In addition to the role of H2A.Z-nucleosome dynamics in the transcriptional response to temperature, it was shown that genes strongly misregulated in the h2a.z mutant are enriched for gene categories involved in response to multiple environmental cues. This suggests that H2A.Z could be implicated in the transcriptional response to various environmental inputs, raising the question: What brings the specificity of H2A.Z dynamics in response to temperature? To address this question we have profiled H2A.Z-nucleosome occupancy genome wide (using ChIP-seq) during a time course after temperature variation and compared its dynamics to transcriptional changes. We identified a fast, targeted and transient eviction of H2A.Z associated with transcriptional activation in response to temperature for a few hundreds genes. This eviction is associated with a reduction of the stability of the nucleosome. Moreover the genes with a fast H2A.Z eviction were strongly enriched in heat shock elements in their promoter and we observed a strong association between HSF1 binding and H2AZ eviction at warm temperature. These results highlight the importance of the interplay between transcription factors and chromatin to allow a controlled and dynamics response to temperature.
+
+DESIGN
+RNA-seq were generated in duplicate for seedlings shifted to warm temperature
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana) GPL19580 Illumina NextSeq 500 (Arabidopsis thaliana)
+
+CITATIONS
+28893714
+

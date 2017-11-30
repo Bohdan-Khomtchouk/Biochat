@@ -1,0 +1,18 @@
+TITLE
+High-throughput screening of gene expression in the patient's cholangiocarcinoma biopsy
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We profiled gene expression in formalin-fixed, paraffin-embedded (FFPE) patient’s tumor biopsy sample, obtained at the time of the first CCA diagnosis. We next used bioinformatical software Oncobox to analyze gene expression data and to identify molecular pathways differentially regulated in the patient’s tumor sample.
+
+DESIGN
+Microarray analysis was performed for single biopsy sample. Sample was evaluated by a pathologist to confirm the diagnosis and estimate the tumor cell numbers (sample should contain at least 80% of tumor cells). Gene expression data from the cholangiocarcinoma sample was merged with gene expression data from adult liver control samples from GSE61276 (GSM1503734-GSM1503825) and quantile normalized using R statistical programming language and 'preprocessCore' library. The supplementary file 'GSE107233_complete_normalized_data.txt' includes the quantile normalized data from the cholangiocarcinoma Sample and Samples GSM1503734-GSM1503825.
+
+PLATFORM
+GPL24296 CustomArray Signaling Pathway platform version 3
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

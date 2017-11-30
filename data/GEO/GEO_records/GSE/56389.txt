@@ -1,0 +1,18 @@
+TITLE
+Development of the prethalamus is crucial for thalamocortical projection formationand is regulated by Olig2
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Thalamocortical axons pass through the prethalamus in the first step of their neural circuit formation  Although it has been supposed that the prethalamus is an intermediate target for thalamocortical projection formation, much less is known about the molecular mechanisms of this targeting.
+
+DESIGN
+The samples were grouped into 2 sample types: Olig2-KO and the wild-type. RNA was purified from the E13.5 ventral forebrain from Olig2-KO (Olig2-/-) and the wild-type (Olig2+/+). RNA samples were prepared by pooling RNAs extracted from 3 brains to constitute one replicate and each sample type was prepared in five replicates. cRNA hybridization probes were hybridized to Affymetrix Mouse Whole Genome MOE430 2.0 arrays. The R-CRAN statistical language and Bioconductor software package (Gentleman et al., 2004) were used throughout the expression analyses. Raw image files were processed using Affymetrix GCOS and the Microarray Suite (MAS) 5.0 algorithm. The probe signal levels were quantile-normalized, summarized and then transformed to the log 2 expression using GCRMA (gcrma R-package, Irizarry et al., 2003). Gene filtering was performed using the Wilcoxon signed-rank test to select probe sets that were “consistently expressed” (p < 0.04) in at least one group (mas5calls R-package; Bioconductor). All samples showed good quality control according to MAS5.0 guidelines and the AffyQC report (R-package; Bioconductor).
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+24803655
+

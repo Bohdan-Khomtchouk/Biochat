@@ -1,0 +1,18 @@
+TITLE
+Divergence of Transcription Factor Binding Sites in Related Yeast Species
+
+ORGANISM
+Saccharomyces bayanus ; Saccharomyces cerevisiae ; Candida albicans ; Saccharomyces mikatae
+
+SUMMARY
+A fundamental problem in biology is the molecular basis for divergence among related organisms. We have investigated the level of divergence of transcription factor binding sites for two key factors that regulate developmental processes in the budding yeasts. The genomic binding locations for the Ste12 and Tec1 transcription factors in S. cerevisiae, S. mikatae and S. bayanus were mapped by chromatin immunoprecipitation combined with microarrays (chIP chip)1, 2 and compared to one another. While there was a large core network which was conserved in all three species, there were many instances of binding events whose relative levels differ significantly quantitatively in one species relative to another and as well as species-specific binding events. One interesting class of genes were identified that were bound only in S. mikatae and S. bayanus; many of these genes are targets of Ste12 in haploid strains of S. cerevisiae, suggesting that S. cerevisiae has uniquely acquired the ability to differentially regulate these genes in haploid and diploid cells in these species.  To extend these studies, the transcriptional network for the Ste12 homologue (Cph1) in Candida albicans was also mapped and compared to the Saccharomyces species. Again, there were several genes bound by Cph1 which are involved in mating in S. cerevisiae, suggesting that the precise delineation between many mating and pseudohyphal targets by Ste12 may be specific to S. cerevisiae. Overall our results demonstrate that transcription binding sites differ faster than gene content indicating that gene regulation at the level of transcription factor binding is likely to be a major mode of evolutionary divergence between related species.  We expect that this divergence is essential for the distinct ecological niches inhabited by these organisms. Keywords: chIP-chip
+
+DESIGN
+ChIP-chip was performed on Ste12 and Tec1 from S. cerevisiae, S. mikatae and S. bayanus in addition to Cph1 from S. cerevisiae. Three biological replicates were performed for each factor in each species with one replicate representing a dye swap.
+
+PLATFORM
+GPL3541 Snyder - Nimblegen S.cerevisiae WGT 50-60; 50-120 GPL4033 Snyder - Nimblegen S.bayanus WGT 50-60; 50-60 GPL4034 Snyder - Nimblegen S.mikatae WGT 50-60; 50-60 GPL4037 Snyder - Nimblegen C.albicans WGT 50-60; 50-120
+
+CITATIONS
+17690298
+

@@ -1,0 +1,18 @@
+TITLE
+Histone modification and transcription factor ChIPseq of Xenopus laevis epithelial progenitors
+
+ORGANISM
+Xenopus laevis
+
+SUMMARY
+To determine the positions of promoters and enhancers in developing Xenopus laevis epithelial progenitors, we performed ChIPseq on the histone modifications H3K4me3 and H3K27ac. We also performed ChIPseq on the transcription factors foxj1 (in the presence or absence of rfx2), myb (in the presence or absence of multicilin), and rad21.
+
+DESIGN
+Some embryos were harvested as wild-types; in other experiments, we injected  embryos with mRNAs encoding FLAG-foxj1 (with and without rfx2 morpholino) or GFP-myb (with and without an inducible form of multicilin (mcidas-HGR)).  We then isolated epithelial progenitors surgically and, when injected with multicilin, induced at mid-stage 11. We then harvested chromatin at 9 hours after induction (roughly stage 18) and performed ChIPseq using antibodies against endogenous targets (H3K4me3, H3K27ac, rad21) or protein tags (FLAG, GFP). We then sequenced these libraries, aligned the reads to the X. laevis genome (version 9.1) with bwa mem and called peaks with HOMER, using input as background.
+
+PLATFORM
+GPL18936 Illumina HiSeq 2500 (Xenopus laevis)
+
+CITATIONS
+28103240
+

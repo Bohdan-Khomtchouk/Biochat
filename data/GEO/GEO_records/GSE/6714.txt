@@ -1,0 +1,18 @@
+TITLE
+RNA polymerase is poised for activation across the genome
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Regulation of gene expression is integral to the development and survival of all organisms. Transcription begins with the assembly of a pre-initiation complex at the gene promoter, followed by initiation of RNA synthesis and the transition to productive elongation. In many cases, recruitment of RNA polymerase II (Pol II) to a promoter is necessary and sufficient for activation of gene. However, there are a few notable exceptions to this paradigm, including heat shock genes and several proto-oncogenes, whose expression is attenuated by regulated stalling of polymerase elongation within the promoter-proximal region. To determine the importance of polymerase stalling for transcription regulation, we performed a genome-wide search for Drosophila genes with promoter-proximally stalled Pol II. Our data reveal that stalling is widespread, occurring at hundreds of genes that respond to stimuli and developmental signals, indicating a role for regulation of polymerase elongation in the transcriptional responses to dynamic environmental and developmental cues. Keywords: gene expression, ChIP-chip, transcriptional regulation
+
+DESIGN
+Drosophila Schneider cells (S2) were untreated or treated with dsRNA against LacZ or NELF for 96 hours. RNA isolation and immunoprecipitations (IPs) were performed for each of the test samples.  Each treatment group (untreated, dsRNA-LacZ, dsRNA-NELF) was cultured in duplicate. Each RNA sample was amplified according to Affymetrix Eukaryotic One-cycle Protocol and hybridized to an Affymetrix Drosophila Genome 2.0 array, resulting in two biological replicates for each treatment group. Immunoprecipitations were performed either in the presence of Pol II Rpb3 or Ser2P Pol II CTD antibody or mock-immunoprecipitated with Protein-A agarose in the absence of antibody. Each IP was paired with a genomic DNA sample obtained at the time of the experiment.   A separate labeling reaction was completed for each array type on which the IP/genomic DNA comparison was made (Agilent Dm3, Dm7 and Whole Drosophila Genome 2 chip set) and each of the two biological replicates were assayed.
+
+PLATFORM
+GPL1322 [Drosophila_2] Affymetrix Drosophila Genome 2.0 Array GPL4149 Agilent-014816 Drosophila Whole Genome ChIP-on-Chip Set 244K, Microarray 1 of 2 (G4495A) (Feature Number version) GPL4150 Agilent-014817 Drosophila Whole Genome ChIP-on-Chip Set 244K, Microarray 2 of 2 (G4495A) (Feature Number version) GPL4531 Agilent-013839 Drosophila ChIP-on-Chip Set 44K, Array 3 (G4475A) GPL4535 Agilent-013843 Drosophila ChIP-on-Chip Set 44K, Array 7 (G4475A)
+
+CITATIONS
+17994021
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-Wide Transcriptome and Chromatin Analysis of Aspergillus nidulans Primary and Secondary Metabolism Reveals Crucial Function for a Kdm5-Family Histone Demethylase.
+
+ORGANISM
+Aspergillus nidulans
+
+SUMMARY
+Histone posttranslational modifications (HPTMs) are involved in regulating the synthesis of fungal bioactive compounds. The exact molecular mechanisms of the silencing/activation of secondary metabolism (SM) clusters by these epigenetic events however are not yet fully understood. This work applies a combined approach of quantitative mass spectrometry (LC-MS/MS) and chromatin immunoprecipitation coupled with massive parallel sequencing (ChIP-seq) to identify the chromatin landscape in two metabolic states: primary and secondary metabolism. Furthermore, to link the particular chromatin states to the expression of condition specific genes, genome wide transcriptome (RNA-seq) was performed. Strikingly, we found that silent A. nidulans SM clusters are free of repressive H3K9me3 though this heterochromatic mark forms distinguished peaks flanking the many SM clusters. In addition, silent SM clusters do not contain detectable levels of activating histone marks such as H3K4me3, H3K36me3 or H3Ac, which, to some extent, are established upon activation of the clusters. In order to investigate the function of dynamic H3K4 methylation/demethylation in transcription, we characterized the KdmB- Jarid1 family histone demethylase. The in vitro assay using heterologously expressed KdmB showed that it is an active demethylase; moreover, MS/MS as well ChIP-seq approaches revealed that it targets H3K4me3 in vivo mediating transcriptional repression. KdmB positively regulates the expression of 40% of A. nidulans SM genes and this function appears to be independent of its demethylase activity. Our bioinformatics approach revealed two states of H3K4me3 in A. nidulans genome: loci with low levels of this mark are more disposed to differential expression in response to environmental clues, while the genes marked by high H3K4me3 levels are constitutively transcribed in our experimental conditions. Taken together our data reveal important role of H3K4 methylation/demethylation in transcription regulation. Furthermore, this study presents the first genome-wide map of H3K4me3, H3K9me3, H3K36me3 and H3Ac in A. nidulans in different metabolic conditions.
+
+DESIGN
+Two strains, wild type and kdmB deletion, at two conditions, growth at primary (17h) and secondary (48h), were analysed. Each sample was replicated.Wild type samples can be found in GSE63672.
+
+PLATFORM
+GPL19470 Illumina HiSeq 2000 (Aspergillus nidulans)
+
+CITATIONS
+27548260
+

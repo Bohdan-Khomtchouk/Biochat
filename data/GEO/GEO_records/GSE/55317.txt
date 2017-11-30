@@ -1,0 +1,18 @@
+TITLE
+Optimization of transcription factor binding map accuracy by utilizing their knockout-mouse models
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Genome-wide assessment of protein-DNA interactions binding by ChIP-seq is a key technology to study transcription factor (TF) localization and regulation of gene-expression. In ChIP-seq, signal-to-noise-ratio as well as signal specificity depend on many variables including antibody quality, and efforts to improve ChIP-seq data thus far focused mostly on generating better reagents. Here we introduce KOIN (KO implemented normalization) as a novel strategy to increase signal specificity and reduce noise by using TF knockout-mice as a critical control for ChIP-seq.
+
+DESIGN
+We tested our new peak calling strategy (KO implemented normalization = KOIN) on different ChIP-seq datasets to increase signal specificity and reduce noise.
+
+PLATFORM
+GPL15103 Illumina HiSeq 1000 (Mus musculus)
+
+CITATIONS
+25378309
+

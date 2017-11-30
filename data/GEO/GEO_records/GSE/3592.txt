@@ -1,0 +1,18 @@
+TITLE
+Expression profiling of responsiveness to infliximab in rheumatoid arthritis patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Identifying gene expression profiles as predictors of a good vs poor response to a combined infliximab/methotrexate treatment in rheumatoid arthritis patients. Keywords: drug response
+
+DESIGN
+The PBMCs were isolated from venous blood by Ficoll-Hypaque and total RNAs were extracted, measured at 260 nm and frozen at -80°C until further used. An internal, arbitrary standard was made of a mixture of total RNAs from PBMCs taken from 3 healthy donors. The oligodT-primed poly(A) mRNAs were labelled with [α33P]dCTP as previously described [Coulouarn et al 2004], and the resulting, labelled cDNAs were immediately used for hybridization. Our array covering 12,000 cDNA probes for 10,000 non-redundant genes and various negative controls as well as nylon arraying of PCR-amplified probes and hybridization of [α33P]dCTP-labelled mRNAs have all been extensively described in a previous report [Coulouarn et al 2004]. All arrays were made from a single batch of cDNA probes. Every RNA sample was hybridized at least twice on separate arrays. Image analysis with the XDotsReader software, version 1.8 (COSE, Le Bourget, France), substractions of noise and spot background, and image normalization with the median value of all signals per image were done as in [Coulouarn et al 2004]. A transcript was considered to be expressed if at least two hybridizations provided a positive signal. The resulting, normalized values were used for a selection of significantly regulated mRNAs, i.e. those with an abundance that differed in two or more comparisons between two samples, using a funnel-shaped confidence interval (p < 0.05) calculated from every mRNA detected per hybridization [Coulouarn et al 2004]. This results in a false discovery rate (FDR) that is below 10% of the total number of regulated mRNAs [Coulouarn et al 2005]. Statistical analyses were done with the R software [Ihaka and Gentleman 1996]. The TIGR Multiexperiment viewer (Tmev version 2.2, http://www.tm4.org ) was used for i) unsupervised hierarchical clustering (HC) using the average dot product and complete linkage options, ii) the supervised statistical tool Significance Analysis of Microarrays (SAM) [Tusher et al 2001] for identification of discriminant transcripts. Gene profiling in PBMCs of responders and non-responders (total, 13 patients) were compared.
+
+PLATFORM
+GPL3064 INSERM Homo sapiens 14K array_Liverpool2
+
+CITATIONS
+16817978
+

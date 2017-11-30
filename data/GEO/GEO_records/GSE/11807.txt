@@ -1,0 +1,18 @@
+TITLE
+Flg22 regulates MAP kinase 6 interaction with an ethylene response factor substrate via ethylene
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Despite their importance, plant MAP kinase targets are still poorly elucidated. Here, the specific in vivo interaction of an ethylene response factor (ERF104) with the Arabidopsis MAP kinase, MPK6, is shown by fluorescence resonance energy transfer. The interaction, which is lost within minutes after treatment with the flagellin-derived flg22 peptide, is dependent on both MPK6 kinase activity and rapid ethylene signaling initiated downstream of MPK6 activation. ERF104 is an MPK6 substrate and phosphorylation site mutations affected its stability. ERF104 activates promoters with GCC elements. This was evident from microarray data of overexpressing transgenic plants, where promoters of up regulated genes contain GCC motifs and chromatin immunoprecipitation showing ERF104 association with PDF1.2 promoter. The ERF104 overexpressor did not affect biotrophic bacteria proliferation but was more susceptible to necrotrophic Botrytis cinerea. Microarray performed with erf104 or mpk6 revealed only a limited number of flg22-induced genes that require these elements - possibly as a result of functional redundancies. Thus, ERF104 phosphorylation by MPK6, in concert with ethylene signaling induced by pathogen-derived molecules, modulates defense in Arabidopsis.
+
+DESIGN
+Leaves of six week old Col-0, erf104, mpk6 and 35S::ERF104 plants were infiltrated with 1µM Flg22 or water and harvested four hours later. Total RNA was isolated and processed according to the Affymetrix protocol for biotin-labelled cRNA and hybridized to the Affymetrix ATH1 chip. The data was analyzed with Genespring GX 7.3.1 software (Agilent) with the following parameters: Filter on Flags for present or marginal in 50% of all considered experiments, Filter for reliable differentially expressed genes based on volcano plot (one way ANOVA p-value < 0.05 and > 3-fold change in expression). For the flg22 experiments, analysis for each genotype was separately performed and a composite list of flg22-regulated genes compiled – with the aim of including genes that may be differentially regulated in the genotype. Global expression profile was visualized by k-means clustering and condition tree (Genespring).
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+19416906
+

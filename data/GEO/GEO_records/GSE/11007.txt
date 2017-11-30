@@ -1,0 +1,18 @@
+TITLE
+Endogenous siRNA and miRNA targets identified by sequencing of the Arabidopsis degradome
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+MicroRNAs (miRNAs) regulate the expression of target mRNAs in plants and animals. Plant miRNA targets have been predicted based on their extensive and often conserved complementarity to the miRNAs, as well as from miRNA over-expression experiments; many of these target predictions have been confirmed by isolating the products of miRNA-directed cleavage. Here, we present a transcriptome-wide experimental method, called “degradome sequencing,” to directly detect cleaved miRNA targets without relying on predictions or over-expression. The 5' ends of poly-adenylated, uncapped mRNAs from Arabidopsis were directly sampled resulting in an empirical snapshot of the degradome. miRNA-mediated cleavage products were easily discerned from an extensive background of degraded mRNAs, which collectively covered the majority of the annotated transcriptome. Many previously known Arabidopsis miRNA targets were confirmed and several novel targets were also discovered. Quantification of cleavage fragments revealed that those derived from TAS transcripts, which are unusual in their production of abundant secondary siRNAs, accumulated to very high levels. A subset of secondary siRNAs are also known to direct cleavage of targets in trans; degradome sequencing revealed many cleaved targets of these trans-acting siRNAs (tasiRNAs). This empirical method is broadly applicable to discover and quantify cleaved targets of small RNAs without a priori predictions. Keywords: Degradome sequencing
+
+DESIGN
+20 or 21 nt tags from the 5' ends of uncapped, polyA+ RNAs were sequenced by next generation sequencing technologies in order to empirically detect cleaved microRNA targets. 4 libraries using different methodologies and samples were used.  See Addo-Quaye et al. (2008) Current Biology citation below for details.
+
+PLATFORM
+GPL6666 Axtell_Arabidopsis_Degradome_v1 (454 sequenced) GPL6684 Axtell_Arabidopsis_Degradome_v1 (Solexa/Illumina sequenced)
+
+CITATIONS
+18472421
+

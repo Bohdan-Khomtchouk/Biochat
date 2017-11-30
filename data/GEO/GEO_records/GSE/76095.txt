@@ -1,0 +1,18 @@
+TITLE
+CFTR is a tumor suppressor gene in murine and human intestinal cancer [RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Analysis of the cystic fibrosis gene Cftr in the colon and small intestine of Cftr-deficient murine model. The hypothesis was loss of Cftr altered expression of genes important in intestinal homeostasis and oncogenic signaling pathways. The results identified potential roles of Cftr in up- or down-regulating major gene clusters that belong to groups of immune response, ion channel, intestinal stem cell and other growth regulators.
+
+DESIGN
+The experiments were designed to analyze the role of Cftr-deficiency in tumorigenesis. The goal of this study was to identify genes and pathways associated with Cftr-deficiency in Apc wildtype and ApcMin mice.  Total RNAs were isolated from mice, and subjected to deep sequencing, in duplicates, using Illumina HiSeq 2500. Samples that were sequenced in the same batch were analyzed in pair-wise using Tophat-Cuffdiff pipeline as outlined in Nature Protocol from Trapnell C. et al, 2012. The results indicated that Cftr-deficiency overlapped with genes and pathways involved in immune and inflammatory signaling, stem cell regulation, and Wnt/beta catenin signaling. Total RNA was isolated from multiple colon tumors and multiple small intestine tumors from Apc wildtype Cftr-deficient mice, ApcMin Cftr-deficient mice, and ApcMin Cftr wildtype mice. Total RNA was also obtained from Apc wildtype normal colon (epithelial cells) and normal duodenum (whole duodenum minus villi) from three Cftr wildtype and three Cftr-deficient mice. RNA Seq was then conducted on all samples with at least two replicates for each biological sample. Please note that 1) The 23 mice were processed in several batches, and two sequencing runs were carried out at two different dates.  To control for the batch effect of sequencing, some samples were included in both runs (run1 and run2). 2) To reach the desired sequencing depth and to keep loading balance, each sample was split into halves, and sequenced on two lanes (L007 and L008 for run1, L006 and L007 for run2). therefore, for 11 samples, there are 4 technical replicates, including the 2-batches and 2-lane sequencing method.  For the remaining 12 samples, there are 2 technical replicates, referring to the 2-lane sequencing. 3) some of the mice are heterozygous mutant of CFTR gene (CFTRhet), named as " CFTR knockdown " .
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26751771
+

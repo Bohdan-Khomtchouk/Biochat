@@ -1,0 +1,18 @@
+TITLE
+Translation Inhibitors Cause Abnormalities in Ribosome Profiling Experiments
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Ribosome profiling and high-throughput sequencing provide unprecedented opportunities for the analysis of mRNA translation. Using this novel method, several studies have demonstrated the widespread role of short upstream reading frames in translational control as well as slower elongation at the beginning of open reading frames in response to stress. Based on the initial studies, the importance of adding or omitting translation inhibitors, such as cycloheximide, was noted as it markedly affected ribosome coverage profiles. For that reason, many recent studies omitted translation inhibitors in the culture medium. Here, we investigate the influence of ranging cycloheximide concentrations on ribosome profiles in Saccharomyces cerevisiae and demonstrate that increasing the drug concentration can overcome some of the artifacts. We subjected cells to various manipulations and show that neither oxidative stress nor heat shock nor amino acid starvation affect translation elongation. Instead, the observations in the initial studies are the result of cycloheximide-inflicted artifacts. Likewise, we find little support for short upstream reading frames to be involved in wide-spread protein synthesis regulation under stress conditions. Our study highlights the need for better standardization of ribosome profiling methods.
+
+DESIGN
+Ranging concentrations of cycloheximide and various stress contitions were tested with Ribo-seq
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+25056308 , 26261310
+

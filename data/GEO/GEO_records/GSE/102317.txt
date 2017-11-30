@@ -1,0 +1,18 @@
+TITLE
+STAT5-mediated chromatin interactions in super-enhancers activate Il2ra and other IL-2 highly-inducible genes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Cytokines critically control immune responses, but how regulatory programs are altered to allow T cells to differentially respond to distinct cytokine stimuli remains poorly understood. Here we have globally analyzed enhancer elements bound by IL-2-activated STAT5 and IL-21-activated STAT3 in T cells and identified Il2ra as the top-ranked STAT5-bound super-enhancer and among highly ranked STAT3-bound super-enhancers. We found that STAT5 was rapidly super-enriched at IL-2 highly-inducible genes and that IL-2-activated STAT5 binding induces new and augmented chromatin interactions within super-enhancer-containing genes. We targeted three STAT5 binding sites within the Il2ra super-enhancer in mice, markedly decreasing STAT5 binding at each site and Il2ra gene expression, revealing that individual elements within the super-enhancer were not functionally redundant and that all were required for normal gene expression. Thus, we demonstrate cooperative utilization of super-enhancer elements to optimize gene expression, show that STAT5-bound super-enhancers preferentially regulate highly-inducible genes and that STAT5 mediates IL-2-induced chromatin looping, providing new insights into mechanisms underlying cytokine-dependent super-enhancer function.
+
+DESIGN
+ChIP-Seq analyzes using pre-activated T cells from both WT and CRISPR mutant mice, with rabbit IgG, anti-STAT5B, anti-H3K4me3, anti-H3K27Ac. RNA-Seq analyses using total RNA from pre-activated CD4+ T cells from WT mice, without or with IL-2/IL-21 treatment for 0.5, 2, 4 and 24 hours.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

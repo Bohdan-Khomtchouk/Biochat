@@ -1,0 +1,18 @@
+TITLE
+From mouse to humans: detecting preventing vaccination targets associated to breast cancer stem cells. Gene-level analysis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The efficacy of cancer treatments have improved constantly in the last decade. However, therapeutic resistance and the lack of curative treatments in metastatic disease, raises the question if conventional anticancer therapies target the right cells. Indeed, these treatments might miss cancer stem cells (CSCs), which might also represent a more chemoresistant and radioresistant subpopulation within cancer. In this view using vaccines in tertiary prevention of cancer, i.e. residual disease treatment, might be particularly effective if vaccine-elicited immune response is directed against CSC oncoantigens (OAs) — proteins required for the neoplastic process — the chance that the tumour will evade the vaccine should be reduced. An important task to devise effective CSC preventive vaccines is therefore the identification of CSC OAs. We used gene-level transcription profiling of TuBo epithelial cell and three mammosphere passages (P1, P2 and P3). This analysis allowed the identification of two new breast cancer CSC OAs: TMPRSS4 and xCT. Both genes are linked to invasion, migration and metastasis. These results were achieved integrating data derived by the analysis of transcription profile of CSCs derived by BALB-neuT mouse breast cancer model with meta-analyses of seven large independent breast tumour data sets.
+
+DESIGN
+TuBo cell line (E) was compared to passage 1 (P1), 2 (P2) and 3 (P3) mammospheres (three independent experiments for each experimental condition). Transcription profiling was done using MouseWG-6 v2.0 Illumina beadchips. After normalization and removal of non significant probes (i.e. those not expressed and those not changing) differential expression between epithelial and mammospheres, was assessed using regularized t-test comparing each mammosphere passage with respect to TuBo cells using a FDR ≤ 0.05  together with an |log2(fold-change)|≥1. The union of the three sets of differentially expressed transcripts produced a total of 495 transcripts.
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Genomic binding and regulation of gene expression by the thyroid carcinoma-associated PAX8-PPARG fusion protein
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+A chromosomal translocation results in production of an oncogenic PAX8-PPARG fusion protein (PPFP) in a subset of thyroid carcinomas. PAX8 is an important thyroid transcription factor, and PPARG is a transcription factor that plays important roles in the biology of adipocytes and macrophages, but has no known function in the thyroid. PPFP retains the DNA binding domains of both proteins. However, the genomic DNA binding sites of PPFP have not been identified, and only limited data exist to characterize gene expression in PPFP thyroid carcinomas. Therefore, we expressed PPFP in PCCL3 rat thyroid cells and used ChIP-seq to identify PPFP genomic binding sites (PPFP peaks) and RNA-seq to characterize PPFP-dependent gene expression. The genome contains ~20 000 PPFP peaks, including known PAX8 and PPARG binding sites, indicating that both DNA binding domains are functional. PPFP binds to and regulates many genes involved in cancer-related processes such as development and cell division. PPFP also binds to and regulates many genes related to mitochondria and lipid metabolism that are regulated by PPARG in adipocytes. Our data highlight the complexity of PPFP as a transcription factor and the numerous ways that it regulates thyroid oncogenesis.
+
+DESIGN
+The rat PCCL3 thyroid cell line was stably transfected with human PAX8-PPARG fusion protein (PPFP, myc-tagged) or empty vector. For RNA-Seq, cells were cultured  ±1 μM pioglitazone for 16 hours before RNA isolation, and 3 independent experiments were performed. For ChIP-seq, cells were cultured  with 1 μM pioglitazone for 16 hours and IP was performed with anti-myc tag antibody.
+
+PLATFORM
+GPL14844 Illumina HiSeq 2000 (Rattus norvegicus)
+
+CITATIONS
+26595524
+

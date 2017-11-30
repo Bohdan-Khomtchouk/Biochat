@@ -1,0 +1,18 @@
+TITLE
+Single-peptide DNA-dependent RNA polymerase homologous to multi-subunit RNA polymerase
+
+ORGANISM
+Bacillus subtilis subsp. subtilis str. 168
+
+SUMMARY
+Transcription, the copying of genetic information into RNA, is accomplished by multi-subunit RNA polymerases (msRNAPs) in all living organisms. msRNAPs are highly conserved in evolution and invariantly share a ~400 kDa five-subunit catalytic core1,2. A group of hypothetical single-chain proteins of unknown function, present in various bacteria and bacteriophages, was predicted to be distantly related to msRNAPs, having diverged from them before the Last Universal Common Ancestor3. Here, we studied a ~100 kDa protein, YonO, from this group encoded by the bacteriophage SPβ of Bacillus subtilis. We show that despite homology to only several amino acids of msRNAP, and the absence of most of the conserved domains, YonO is a highly processive and fast DNA-dependent RNA polymerase. Unlike msRNAPs, YonO can start specific transcription on double-stranded DNA without additional factors. We show that YonO is a bona fide RNAP of SPβ bacteriophage that transcribes its late genes. This new class of RNAPs may represent an intermediate step in the evolution of an ancestor of all msRNAPs.
+
+DESIGN
+The wildtype and ΔyonO strains were grown in MMB media until exponential phase, at which point the cultures were halved. To one half (the plus sample), mitomycin C was added to induce the SPβ prophage. The other half (the minus sample) was left uninduced. Both cultures were incubated for a further 60 minutes before cells were harvested. Total RNA was purified from harvested cells and used for RNAseq analysis. To provide biological replicates, each strain was grown, induced and harvested in triplicate.
+
+PLATFORM
+GPL21796 Illumina NextSeq 500 (Bacillus subtilis subsp. subtilis str. 168)
+
+CITATIONS
+28585540
+

@@ -1,0 +1,18 @@
+TITLE
+Msx1 ChIP-Seq from C2C12 murine myoblast cells expressing Flag-Msx1 protein
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The spatial and temporal control of gene expression during development requires the concerted actions of sequence-specific transcriptional regulators and epigenetic chromatin modifiers, which are thought to function within precise nuclear compartments. However, how these activities are coordinated within the dynamic context of the nuclear environment is still largely unresolved. Here we show that transcriptional repression by the Msx1 homeoprotein coordinates recruitment of Polycomb to genomic targets with localization to the nuclear periphery. We used genome-wide ChIP-Seq analyses to identify genomic binding sites for Msx1 in C2C12 murine myoblast cells.
+
+DESIGN
+C2C12 myoblast cells were seeded at a density of 2.5 x 10^5 cells / 10-cm plate one day prior to infection, and infected with a retrovirus containing a Flag-Msx1 construct for two consecutive days. The resulting cells were then crosslinked with formaldehyde, and DNA was enriched by chromatin immunoprecipitation (ChIP) with an anti-Flag antibody and analyzed by Solexa sequencing. Enriched regions were identified using a Poissonian background model, and were further compared to an additional background of sequences from a sample of Flag-immunoprecipitated DNA from C2C12 cells infected with an empty vector to determine enrichment. ChIP was performed using an antibody against the Flag epitope (Sigma M2, F3165).
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

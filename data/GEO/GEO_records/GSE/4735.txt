@@ -1,0 +1,18 @@
+TITLE
+E. coli Transcriptome Dynamics during the Transition from Anaerobic to Aerobic Conditions
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Escherichia coli is a metabolically versatile bacterium that is able to grow in the presence and absence of oxygen.  Several previous transcript-profiling experiments have compared separate anaerobic and aerobic cultures.  Here, for the first time, the process of adaptation was investigated by determining changes in transcript profiles when anaerobic steady-state cultures were perturbed by the introduction of air. Escherichia coli strain MG1655 was grown in a New Brunswick Scientific Bioflow 1000 fermentation vessels (1.8 l capacity) with culture agitation speed constant at 400 rpm and the temperature maintained at 37 °C. Oxygen levels were monitored using galvanic oxygen electrodes while the pH was maintained at 7.2 ±0.2 by automatic titration with sterile KOH. Evans defined medium was used as the growth medium with glucose (30 mM) as the carbon source with the dilution rate being 0.2 h-1.  Anaerobic cultures were maintained by sparging the chemostat with oxygen-free nitrogen (95 %) and carbon dioxide (5 %) (0.2 l min-1).  The switch to aerobic conditions was achieved by sparging the culture with air (2.0 l min-1) in place of the above gas mix. After a period of 5, 10, 15 and 60 min exposure to air, cells were harvested directly into RNA Protect (Qiagen) to stabilize RNA before total RNA purification using Qiagen’s Rneasy Midi kit as recommended by manufacturer’s instructions. Keywords: time course response to air
+
+DESIGN
+Analysis used anaerobic steady state RNA as control samples for comparison to the experimental samples taken at 5, 10, 15 and 60 min. Indirect comparisons were made across multiple arrays with raw data pulled from different channels for data analysis and comparison to the control data. Data analysis was carried out using Imagene, version 5.1 and Genesight version 4 (Biodiscovery Inc). The mean values from each channel were log2 transformed and normalized using the LOWESS algorithm to remove intensity dependent effects within the calculated values.  Normalised values were used to calculate the Cy3/Cy5 fluorescence ratios from experimental and biological repeats (seperate chemostat runs)with all replicates combined. Data was compiled from two aerobic and two anaerobic cultures each with a dye-swap replicate, thus providing two biological repeats within four technical repeats. Presented is the LOG2 normalised data comparing the control (anaerobic) with the identified experimental (5, 10, 15, 60 min air exposure) with supplementary material provided in the form of Raw array files.
+
+PLATFORM
+GPL534 MWG E. coli K12 Array
+
+CITATIONS
+16857675
+

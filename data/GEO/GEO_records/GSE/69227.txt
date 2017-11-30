@@ -1,0 +1,18 @@
+TITLE
+Combined heterozygous loss of Ebf1 and Pax5 allows for T-lineage conversion of B-cell progenitors
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In order to investigate how transcription factor dose impacts B-lymphocyte development, we generated mice carrying transheterozygous mutations in the Pax5 and Ebf1 genes. While combined reduction of Pax5 and Ebf1 dose had minimal impact on the development of the earliest CD19+ progenitors, these cells displayed an increased T-cell potential in vivo and in vitro. Alteration in lineage fate depended on a Notch1 mediated conversion process while no signs of de-differentiation could be detected. The differences in functional response to Notch signaling in Wt and Pax5+/-Ebf1+/- pro-B cells was reflected in the transcriptional response because even though cells of both genotypes responded by the generation of intracellular Notch1 and activation of a set of target genes, only the Pax5+/-Ebf1+/- pro-B cells down-regulated genes central for the preservation of stable B-cell identity. This report stresses the importance of transcription factor dose in lymphocyte development and suggests that Pax5 and Ebf1 collaborate to modulate the transcriptional response to Notch signaling after the generation of activated intracellular Notch1. This provides an insight to how transcription factors like Ebf1 and Pax5 preserve cellular identity during differentiation.
+
+DESIGN
+EBF-1 ChIP-seq: Cultivated CD43+IgM- cells (ProB) cells from Wt, EBF-1 +/-, PAX-5 +/- and EBF-1 +/- PAX-5 +/- (TH) were assessed for EBF-1 binding by ChIP-seq. Replicate Ebf1 ChIP-seq runs on each genotype (Wt, TH, Ebf1+/- and Pax5+/-) and corresponding inputs were pooled into one dataset and analyzed as one combined sample per genotype. RNA-seq no treatment: Briefly, ProB-cells from C57BL/6J Ebf1+/-Pax5+/- (n=4), WT (n=4), Ebf1+/- (n=2) and Pax5+/- (n=2) were sorted and RNA extracted with Qiagen RNeasy Micro Kit. RNA was sent to UCLA Microarray Core for library preparation and were subsequently for 50 cycles of HiSeq 2000 SBS sequencing generating 20-30 million reads/sample. Data analysis was performed with Arraystar® (DNASTAR)). RNA-seq 1 day on OP9DL1 and OP9: In short, in vitro expanded ProB-cells from C57BL/6J Ebf1+/-Pax5+/- (n=4) and WT (n=4) were exposed either on OP9 or OP9-DL1 stromal cells for 24 hours and RNA extracted with Qiagen RNeasy Micro Kit. Due to low reads, two Wt and Ebf1+/-Pax5+/- were sequenced twice. Libraries were constructed using Nugen's Ovation Ultralow Library systems and were subsequently for 50 cycles of NextSeq500 sequencing generating 20-30 million reads/sample. Data analysis was performed with Arraystar® (DNASTAR)).
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+26056231
+

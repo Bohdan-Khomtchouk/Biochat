@@ -1,0 +1,18 @@
+TITLE
+Lung cancer signatures in plasma based on proteome profiling of mouse tumor models
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mouse models of cancer recapitulate many of the molecular and biological features of the human disease.  We sought to exploit these experimental merits in a systematic comparative proteomics search for circulating proteins associated with lung tumor development. In-depth quantitative proteomics was applied to plasmas from three mouse models of lung adenocarcinoma driven by mutant EGFR or Kras or induced by urethane exposure and a mouse model of small cell lung cancer driven by loss of Trp53 and Rb. To further refine our lung cancer-specific and broad carcinoma signatures, we intersected these lung cancer proteome profiles with those from other well-established mouse models of pancreatic, ovarian, colon, prostate and breast cancer, as well as two mouse models of inflammation. A set of proteins regulated by Titf1/Nkx2-1, a master transcription factor in cells from the peripheral airways and a known lineage-survival oncogene in lung cancer was identified in plasmas of mouse models of lung adenocarcinoma. An EGFR network of proteins was discerned in the plasma of mice with lung tumors driven by a mutant human EGFR.  Levels of these proteins returned toward baseline upon treatment with a tyrosine kinase inhibitor. Moreover, a distinct plasma signature was uncovered in the Trp53/Rb mutant small cell lung cancer model that included a set of proteins associated with neuroendocrine development. Our studies have identified novel plasma protein signatures among molecularly or histopathologically defined lung cancer subtypes.
+
+DESIGN
+siRNA transfection experiments were performed in NCI-H3255 and HCC4019 lung adenocarcinoma cell lines using ON-TARGETplus SMARTpool small interfering RNAs (siRNAs) targeting TITF1 (L-019105-01-0005) along with a negative control (ON-TARGETplus siCONTROL nontargeting siRNA pool; D-001810-10-05) obtained from Dharmacon. 400000 cells were seeded in antibiotic-free RPMI-1640 media supplemented with 10% FBS, in 6-well culture plates.  The next day, cells were transfected at a final concentration of 100nM siRNA using 6ul DharmaFECT 1 (Dharmacon) according to the manufacturer's instructions.  72-hours post-transfection, RNA was harvested using Trizol (Invitrogen) and protein using RIPA buffer for microarray expression and western blotting, respectively. RNA from TITF1 knockdown and control experiments was profiled by the MSKCC Genomics Core using the Illumina Human HT-12 v3.0 array platform according to manufacturer's instructions.   Two biological replicates were profiled for each condition.  Resulting data files were exported using GenomeStudio software, log2 transformed, quantile-normalized and analyzed using Partek Genomics Suite (v6.5).  Average values of replicates for each gene were then compared between the TITF1 knockdown and non-targeting treatments for each cell line to identify candidate TITF1 regulated genes.
+
+PLATFORM
+GPL6947 Illumina HumanHT-12 V3.0 expression beadchip
+
+CITATIONS
+21907921
+

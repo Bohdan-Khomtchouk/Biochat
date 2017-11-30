@@ -1,0 +1,18 @@
+TITLE
+In vivo and transcriptome-wide identification of RNA-binding protein target sites [PAR-CLIP]
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Animal mRNAs are regulated by hundreds of RNA binding proteins (RBPs). The identification of RBP targets is crucial for understanding their function. A recent method, PAR-CLIP, uses photoreactive nucleosides to crosslink RBPs to target RNAs in cells prior to immunoprecipitation. Here, we establish iPAR-CLIP (in vivo PAR-CLIP) to determine, at nucleotide resolution, transcriptome-wide target sites of GLD-1, a conserved, germline-specific translational repressor in C. elegans. We identified 439 reproducible targets and demonstrate an excellent dynamic range of target detection by iPAR-CLIP. Upon GLD-1 knock-down, protein but not mRNA expression of the 439 targets was specifically and highly significantly upregulated, demonstrating functionality. Finally, we discovered strongly conserved GLD-1 binding sites nearby the start codon of target genes. We propose that GLD-1 interacts with the translation machinery nearby the start codon, a so far unknown mode of gene regulation in eukaryotes.
+
+DESIGN
+Arrested L1 worms were grown in liquid culture supplemented with 2mM 4SU or 6SG. 250,000 worms were sufficient for one iPAR-CLIP experiment. Living adult worms were transferred to NGM plates and crosslinked on ice using a Stratalinker (Stratagene) with customized 365nm UV-lamps (energy setting: 2J/cm2). Worms were lysed on ice by douncing in NP40 lysis buffer (50 mM HEPES-K pH 7.5, 150 mM KCl, 2 mM EDTA, 0.5% (v/v) NP-40, 0.5 mM DTT, protease inhibitor cocktail (Roche)). Cleared lysates were treated with RNase T1 (Fermentas) (final concentration 1U/?l) for 15 min at 22ºC. GLD-1::GFP::FLAG fusion proteins were immunoprecipitated for 1h at 4ºC using anti-FLAG antibody (Sigma, F3165) coupled to Protein G magnetic beads (Invitrogen). For one iPAR-CLIP experiment (1ml cleared lysate obtained from 250,000 worms), 300µl beads and 150µg antibody were used. Immunoprecipitates were treated with RNase T1 (100U/?l) for exactly 12 min at 22 ºC. Subsequently, PAR-CLIP was carried out as described previously (Hafner et al, 2010).  cDNA libraries  were sequenced on a Genome Analyzer II (Illumina).
+
+PLATFORM
+GPL9269 Illumina Genome Analyzer II (Caenorhabditis elegans)
+
+CITATIONS
+22152485
+

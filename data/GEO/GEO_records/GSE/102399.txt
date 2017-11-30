@@ -1,0 +1,18 @@
+TITLE
+The planarian TCF/LEF factor Smed-tcf1 is required for the regeneration of dorsal-lateral neuronal subtypes
+
+ORGANISM
+Schmidtea mediterranea
+
+SUMMARY
+The adult brain of the planarian Schmidtea mediterranea (a freshwater flatworm) is a dynamic structure with constant cell turnover as well as the ability to completely regenerate de novo.  Despite this, function and pattern is achieved in a reproducible manner from individual to individual in terms of the correct spatial and temporal production of specific neuronal subtypes.  Although several signalling molecules have been found to be key to scaling and cell turnover, the mechanisms by which specific neural subtypes are specified remain largely unknown.  Here we performed a 6 day RNAseq time course on planarians that were regenerating either 0, 1, or 2 heads in order to identify novel regulators of brain regeneration.  Focusing on transcription factors, we identified a TCF/LEF factor, Smed-tcf1, which was required to correctly pattern the dorsal-lateral cell types of the regenerating brain.  The most severely affected neurons in Smed-tcf1(RNAi) animals were the dorsal GABAergic neurons, which failed to regenerate, leading to an inability of the animals to phototax away from light.  Together, Smed-tcf1 is a critical regulator, required to pattern the dorsal-lateral region of the regenerating planarian brain.
+
+DESIGN
+control(RNAi), apc(RNAi) and Smed-Bcatenin1(RNAi) animals were fed 3 times over 1 week and amputated three days following their final feed. RNA was collected every 24 hours for 6 days from regenerating trunk fragments. Samples were sequenced to a depth of > 43 million reads.  Each condition was biologically triplicated, but RNA was pooled prior to sequencing.
+
+PLATFORM
+GPL20150 Illumina HiSeq 2500 (Schmidtea mediterranea)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

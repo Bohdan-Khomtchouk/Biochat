@@ -1,0 +1,18 @@
+TITLE
+Effect of actein on the growth of the MDA-MB-453 breast cancer cell lines as a function of time and concentration.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Previous studies indicate that the triterpene glycoside actein from the herb black cohosh inhibits growth of human breast cancer cells. This study seeks to identify genes altered in human breast cancer cells by treatment with actein, using gene expression analysis. We treated MDA-MB-453 human breast cancer cells with actein at 2 doses, 20 or 40 μg/mL, for 6 or 24 h. We identified 5 genes that were activated after each of the treatments that are known to play a role in cellular responses to diverse stresses, including the DNA damage and unfolded protein responses. In addition, four genes that mediate the integrated stress response (ISR), including activating transcription factor 4, were induced under at least one of the 4 treatment conditions. We used hierarchical clustering to define clusters comprising patterns of gene expression. Two ISR genes, activating transcription factor 3 (ATF3) and DNA damage- inducible transcript 3, and lipid biosynthetic genes were activated after exposure to actein at 40 μg/mL for 6 h, whereas the cell cycle genes cyclin E2 and cell division cycle 25A were repressed. Our results suggest that actein induces 2 phases of the ISR, the survival phase and the apoptotic phase, depending on the dose and duration of treatment. We confirmed the results of gene expression analysis with real-time RT-PCR for 18 selected genes and Western blot analysis for ATF3. Since actein activated transcription factors that enhance apoptosis, and repressed cell cycle genes, it may be useful in the prevention and therapy of breast cancer. Keywords: expression,time course, dose response
+
+DESIGN
+This study used Affymetrix U133A 2.0 gene chips. We analyzed 3 replicate cultures after treating MDA-MB-453 cells with actein at 20 or 40 mg/mL for 24 h and 2 replicate cultures after treating MDA-MB-453 cells with actein at 20 or 40 mg/mL for 6 h. All samples were normalized to remove chip-dependent regularities using the GCRMA method of Irizarry et al . Chips and controls at each combination of actein concentration and time were normalized together.  The statistical significance of differential expression was calculated using the empirical Bayesian LIMMA (LInear Model for MicroArrays) method of Smyth et al. A cut-off B > 0 was used for the statistical significance of gene expression.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+17621630
+

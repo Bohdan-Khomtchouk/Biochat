@@ -1,0 +1,18 @@
+TITLE
+KRAS-Dependent Sorting of miRNAs and other small RNAs to secreted vesicles
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Although long thought to act cell autonomously, mutant KRAS colorectal cancer (CRC) cells release protein-laden exosomes that can alter the tumor microenvironment.  We have previously shown that mutant KRAS induces EGFR-ligand trafficking to exosomes and drastically alters exosomal protein contents, leading to activities that contribute to neoplastic growth. We have performed small library RNAseq analysis on cells and matched exosomes from isogenic CRC cell lines differing only in KRAS status to determine whether mutant KRAS regulates the composition of secreted small RNAs. Exosomal small RNA profiles were distinct from cellular profiles, with principle component analysis showing clusters of mutant KRAS cell-derived exosomes distinct from wild type KRAS cell-derived exosomes. Secreted RNA species encompassed several different classes of small RNAs, including ribosomal and tRNA fragments, as well as mature miRNA sequences. miR-10b, was selectively increased in wild type KRAS-derived exosomes, whereas miR-100 was selectively increased in mutant KRAS-derived exosomes.  Ceramide inhibition resulted in accumulation of miR-100 in mutant KRAS cells, suggesting KRAS-dependent miRNA export.  In Transwell cell culture experiments, mutant, but not wild type, KRAS donor cells conferred miR-100-mediated target repression in wild type KRAS recipient cells
+
+DESIGN
+miRNAseq deep sequencing for both cell and exosome mirnas of Dks-8, DLD-1, and DKO-1 cell lines. The DKs-8 line contains a wild type KRAS alleles, the DLD-1 line contains both wild type and mutant (G13D) KRAS alleles, and the DKO-1 line contains only a mutant KRAS allele.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26132860
+

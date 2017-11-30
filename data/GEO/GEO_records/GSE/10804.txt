@@ -1,0 +1,18 @@
+TITLE
+Human Cavernosal Endothelial Cell Phenotype
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: To identify the molecular phenotype of endothelial cells (EC) isolated from the unique vasculature of the corpus cavernosum. Methods: Human EC derived from corpus cavernosum (HCCEC, n=5), coronary artery (HCAEC, n=4) and umbilical vein (HUVEC, n=3) were grown in culture and mRNA transcripts quantified by Affymetrix GeneChip microarrays. Genes differentially expressed across samples were partitioned around medoids to identify genes with highest expression in HCCEC. Several genes were verified by real-time PCR. The role of claudin 11 (CLDN11) in endothelial cell barrier function was examined by in vitro transendothelial electrical resistance assay. Results: Unsupervised hierarchical clustering of samples using all expressed genes yielded discrete groupings of EC lines according to their in vivo source of origin. 190 genes/transcripts were highly expressed only in cavernosal HCCEC. Gene Ontology classification indicated cavernosal enrichment in genes related to cell adhesion, extracellular matrix (ECM), pattern specification and organogenesis. KEGG pathway analysis showed high expression of gene relating to ECM-receptor interaction, focal adhesions, and cytokine-cytokine receptor interaction. Real-time PCR confirmed expression differences in cadherins 2 and 11, CLDN11, desmoplakin and versican. CLDN11, a component of tight junctions not previously described in ECs, was highly expressed only in HCCEC and its knockdown by siRNA significantly reduced transendothelial electrical resistance in HCCEC. Conclusions: HCCECs displayed expression of transcripts encoding matrix and adhesion proteins that regulate structural and functional characteristics of blood vessels. High expression of the tight junction protein CLDN11 is novel in endothelial cells and  contributes to barrier function of cultured HCCEC. Keywords: penis, tight junctions, microarray, gene ontology, cell type comparison
+
+DESIGN
+Endothelial cells were grown on 2% gelatin type B (Sigma)/15% fetal bovine serum (Gibco) coated tissue culture dishes in Medium 199 (Gibco) supplemented with 20% FBS, EGM-2MV (Clonetics), L-glutamine and 10,000u/ml Penicillin, 10,000u/ml Streptomycin, and 25mg/ml Fungizone. All cells were grown in a humidified incubator at 37 oC and 5% CO2 with media changed every 2-3 days. Total RNA isolation for the arrays was performed using Qiagen RNeasy mini columns according to manufacturers instructions (RNeasy Mini Handbook). Briefly, cells grown in T-75 culture flasks were trypsinized with 0.25% trypsin/1 mM EDTA (Gibco) between the third and seventh passages and centrifuged to pellet the cells. Next, cells were disrupted and homogenized in RNeasy lysis buffer using a 1ml syringe with 21-gauge needle. Ethanol was added to allow binding of RNA to the silica-gel-based membrane of the mini column. Several washes as well as on-column DNase treatment were used to ensure that contaminants and DNA were effectively removed from the column. Finally, RNA was eluted in approximately 30ul of RNase free water. Biotin labeled target cRNA was prepared according to the Affymetrix eukaryotic target labeling protocol starting with 5ug total RNA for each sample. Each target was hybridized to an Affymetrix Human U133A GeneChip. GeneChips were washed and scanned at the University of Washington’s Center for Expression Arrays according to procedures developed by the manufacturer.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+19622796
+

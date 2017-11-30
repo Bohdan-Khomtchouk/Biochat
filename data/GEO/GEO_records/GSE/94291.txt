@@ -1,0 +1,18 @@
+TITLE
+Genome-wide chromatin accessibility profiling in maize using DNase-seq on two different tissues: inner stem tissue of V2 seedlings and husk
+
+ORGANISM
+Zea mays
+
+SUMMARY
+Most cells in a multicellular organism carry the same genetic information; however, they can still differentiate to take up different functions in the organism.  This differentiation process involves tight regulation of gene expressions by regulatory sequences including transcriptional enhancers.  Enhancers can be located distantly from their target genes; this characteristic makes it difficult to identify enhancers only using experimental approaches. Importantly, enhancers carry characteristic chromatin signatures such as low DNA methylation, high chromatin accessibility and histone modifications such as H3K9ac and H3K27ac.  Computational enhancer identification approaches often use machine learning methods in combination with a number of experimental genome-wide datasets to identify key enhancers features and scans the whole genome. Limited knowledge on plant enhancers restricts us in available approaches we can use to perform genome-wide enhancer prediction in plant species.  In this work, we have integrated genome-wide low DNA methylation (Regulski et al., 2013, GSE39232), chromatin accessibility and H3K9ac data from two tissues, inner stem tissue in seedlings and husk tissue, in a crop plant Zea mays.  This study identified approximately 1,400 candidate enhancers.
+
+DESIGN
+Examination of DNase I hypersensitivity in 2 tissue types (GSE94291) Examination of H3K9ac in 2 tissue types (GSE94251) Examination of gene expression in 2 tissue types (GSE94252)
+
+PLATFORM
+GPL17628 Illumina HiSeq 2500 (Zea mays)
+
+CITATIONS
+28732548
+

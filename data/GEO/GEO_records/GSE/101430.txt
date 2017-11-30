@@ -1,0 +1,18 @@
+TITLE
+Succinate transport is not essential for symbiotic nitrogen fixation by Sinorhizobium meliloti nor Rhizobium leguminosarum
+
+ORGANISM
+Pisum sativum
+
+SUMMARY
+Symbiotic nitrogen fixation (SNF) is an energetically expensive process performed by bacteria known as rhizobia during endosymbiotic relationships with leguminous plants.  The bacteria require the plant to provide a carbon source for generation of the reductant to power SNF.  Although it is well known that C4-dicarboxylates (succinate, fumarate, malate) function as the primary, if not sole, carbon source provided to the rhizobia, the relative contribution of each C4-dicarboxylate is not known.  Here, we employ genetic and systems-level analyses to address this issue.  Expression of a malate specific transporter (MaeP) in Sinorhizobium meliloti Rm1021 dct mutants unable to transport C4-dicarboxylates resulted in malate import rates up to ~ 30% that of wild type S. meliloti.  This was sufficient to support SNF with Medicago sativa, with acetylene reduction rates up to ~ 50% those of plants inoculated with wild type S. meliloti.  Rhizobium leguminosarum bv. viciae 3841 dct mutants unable to transport C4-dicarboxylates but expressing the maeP transporter had strong symbiotic properties, with Pisum sativum plants inoculated with these strains appearing similar to plants inoculated with wild type R. leguminosarum.  This was despite malate transport rates by the mutant bacteroids being < 10% those of the wild type.  A transcriptomics analysis of the combined plant/bacterium nodule transcriptome was performed using RNA-sequencing to identify any systems-level adaptations in response to the inability of the bacteria to import succinate or fumarate.  Few transcriptional changes, with no obvious pattern, were revealed by this analysis.  Overall, these data illustrated that succinate and fumarate are not essential for SNF, and that at least in specific symbioses, L-malate is likely to naturally serve as the primary C4-dicarboxylate provided to the bacterium.
+
+DESIGN
+There were a total of 6 samples for the RNA-sequencing analysis: two conditions performed in biological triplicates.  Total plant and bacterial RNA was isolated from Pisum sativum cv. Homesteader nodule tissue containing one of two bacterial strains.  The first was wild type Rhizobium leguminosarum bv. viciae 3841.  The second was a R. leguminosarum bv. viciae 3841 dctA mutant expressing the maeP gene of Streptococcus gallolyticus in trans.  All plants were grown in nitrogen free sand-vermiculate set-ups.  Sequencing was performed using Illumina HiSeq 1500 with 51 nt single reads.
+
+PLATFORM
+GPL23779 Illumina HiSeq 1500 (Pisum sativum)
+
+CITATIONS
+28916561
+

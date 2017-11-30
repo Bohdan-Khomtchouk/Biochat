@@ -1,0 +1,18 @@
+TITLE
+High-intensity UV laser ChIP-seq for the study of protein-DNA interactions in living cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide mapping of transcription factor binding is generally performed by chemical protein-DNA crosslinking, followed by chromatin immunoprecipitation and deep sequencing (ChIP-seq). Here we present the ChIP-seq technique based on photochemical crosslinking of protein-DNA interactions by high-intensity ultraviolet (UV) laser irradiation in living mammalian cells (UV-ChIP-seq). UV laser irradiation induces efficient and instant formation of covalent “zero-length” crosslinks exclusively between nucleic acids and proteins that are in immediate contact, thus resulting in a “snapshot” of direct protein-DNA interactions in their natural environment. We applied UV-ChIP-seq for genome-wide profiling of the sequence-specific transcriptional repressor B-cell lymphoma 6 (BCL6) in human diffuse large B-cell lymphoma (DLBCL) cells. Our approach resulted in sensitive and precise protein-DNA binding profiles, highly enriched in canonical BCL6 DNA sequence motifs. UV-ChIP-seq also revealed numerous previously undetectable BCL6 binding sites, particularly in more condensed, inaccessible areas of chromatin.
+
+DESIGN
+Genome-wide mapping of BCL6-DNA interactions by replicate UV-ChIP-seq and corresponding control experiments. To control for enrichment of non-crosslinked protein-DNA interactions we performed ChIP-seq using non-irradiated cells (-UV control ChIP). Furthermore, unspecific antibody binding and input loading was controlled by sequencing of IgG enriched DNA fragments (UV IgG control) and input DNA fragments (UV input DNA) following UV irradiation, respectively. To compare photochemical (UV) with conventional chemical (FA) crosslinking, we performed BCL6 FA ChIP-seq and corresponding control experiments (FA input DNA, FA IgG control).
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+29101361
+

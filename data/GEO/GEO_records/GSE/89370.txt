@@ -1,0 +1,18 @@
+TITLE
+Expression data from human osteosarcoma cells after transfected miR-199a-3p
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The U-2OS and KHOS osteosarcoma cell lines were seeded into the 100mm cell culture plate, then transfected miRSelect pEP-miR-199a-3p or miRSelect pEP-miR-Null into the two cell lines with Lipofectamine LTX and Plus Reagent (Invitrogen) for 48 hours. After that, total RNA was collected from these cells using TRIzol® Reagent (GIBCO Grand Island, NY) according to the manufacturer’s instructions. To account for and eliminate biologic noise, RNA was isolated from three distinct flasks of each cell line and pooled together. RNA quality was determined via ethidium bromide staining following agarose/formaldehyde gel electrophoresis. Total RNA was processed and hybridized to Affymetrix Gene Chip U133 Plus 2.0 arrays (Affymetrix, Santa Clara, CA) by the Gene Array Technology Center at Harvard Medical School ( http://genome.med.harvard.edu ). Affymetrix Gene Chip U133 Plus 2.0 is first and most comprehensive whole human genome expression array. This array completes coverage of the whole human Genome with over 47,000 transcripts. The expression level of each mRNA is quantified by measuring its hybridization to these 25-mers in comparison to its hybridization to a one-base mismatch oligonucleotide. The average expression value for each gene across the arrays was used to normalize the mRNA intensities. The CEL files were transformed into intensity information using the RMA normalization of Qlucore 3.2. Qlucore were used to analyze the microarray data ( http://www.qlucore.com ). Fold change in expression between miR-199a-3p treated cell lines and control cell lines were evaluated using the Mann-Whitney test. A 1.2 foldchange or greater change in intensity combined with a Mann-Whitney associated P value less than 0.05 was used as the criterion for inclusion in our filtered data set.
+
+DESIGN
+Evaluate the effect of miR-199a-3p regulated gene expression in osteosarcoma cells
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

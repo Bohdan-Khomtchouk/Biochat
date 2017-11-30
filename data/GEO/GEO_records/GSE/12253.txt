@@ -1,0 +1,18 @@
+TITLE
+Mechanism of biphasic effects of alcohol on gene expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+the molecular mechanisms for the biphasic effect of alcohol are not fully understood. The goal of the study is to identify genes that are differentially expressed following alcohol exposure of 50mM and 100mM ethanol for 24 hours.
+
+DESIGN
+Primary human bronchial airway epithelia (NHBE) cells were obtained from a commercial source and cultured on millicel-pcf membrane insert at air liquid interface.  Cells were allowed to differentiate for a specified time, and treated with different concentrations (0, 50mM, 100mM) of ethanol for 24 hours. The cells are derived from three different lots. Total RNA was extracted using the RNeasy Mini Kit, quantified by NanoDrop and evaluated by the Bioanalyzer. Samples with RIN value of 9.8 were used for analysis using the human U133 plus 2.0 chips. Three replicates were used for each condition. Cel files were imported into GeneSrping GX 7.3 and preprocessed using the RMA method and per gene normalization was applied using the median values of the untreated, control samples (0 Ethanol). Genes were filtered using the volcano plot set at p < = 0.01 and 2-fold or greater, by comparing the untreated to 50 mM ethanol and untreated to 100 mM ethanol.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+20382889
+

@@ -1,0 +1,18 @@
+TITLE
+Global miRNA expression analysis identifies novel key regulators of plasma cell differentiation and malignant plasma cell
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: MicroRNAs (miRNAs) are small noncoding RNAs that attenuate expression of their mRNA targets. miRNAs have been involved in fine-tuning critical biological processes, but the potential contribution of miRNAs to human plasma cell differentiation (PCD) has remained largely unknown. Methods: We analyzed the expression profile of miRNAs and mRNAs during PCD. We developed a method and R package, to infer candidate miRNA-mRNA target interactions that could be active and functional in PCD. Finally, we experimentally validated biologically relevant miRNA – mRNA networks. Results: Our results reveal 63 miRNAs with significant temporal changes in their expression during normal PCD. We derived a high-confidence network of 295 target relationships comprising 47 miRNAs and 141 targets. These relationships include new examples of miRNAs (miR-30, miR-106b and miR-16) that appear to coordinately regulate multiple members of critical pathways associated with PCD, including IRF4/PRDM1 axis, TGF-b pathway, autophagy, ZBTB4/EZH2 axis and cell cycle. Consistent with this, we have experimentally validated a role for the miRNA-30b/c/d-mediated regulation of key PCD factors (IRF4, PRDM1, ELL2 and ARID3A), which expression was altered significantly upon transfection of pre-miRNA-30 or anti-miR-30 oligunucleotides. Furthermore, we found that 24 PCD stage-specific miRNAs are aberrantly overexpressed in multiple myeloma (MM) tumor cells compared to their normal counterpart and/or are associated with high risk myeloma, suggesting that MM cells frequently acquired expression changes in miRNAs already undergoing dynamic expression modulation during normal PCD. Conclusions: Our comprehensive analysis of normal PCD miRNome identifies candidate novel key miRNAs regulating networks of significance for normal PCD and malignant plasma cell biology.
+
+DESIGN
+Global miRNA expression profiling was carried out for in vitro human plasma cell differentiation cell subpopulations, including memory B cells, preplasmablasts, plasmablasts and plasma cells.
+
+PLATFORM
+GPL8786 [miRNA-1] Affymetrix Multispecies miRNA-1 Array
+
+CITATIONS
+28459970
+

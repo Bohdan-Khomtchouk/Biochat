@@ -1,0 +1,18 @@
+TITLE
+Analysis of the global transcriptome of 'sijimi' longan (Dimocarpus longan Lour.) using Illumina paired-end sequencing
+
+ORGANISM
+Dimocarpus longan
+
+SUMMARY
+To improve the gene annotation and address a series of biological questions, we generated 490,502,822 clean reads of RNA-Seq data from nine tissue types of 'sijimi' longan, including root, stem, leaf, flower_bud, flower, young fruit, pericarp, pulp, and seed, and used them for mapping, and annotation of the longan genome sequence. About 53.55 ~79.40 % of the unique RNA sequences from nine RNA-seq data could be mapped to the genome. RNA-Seq data confirmed a majority of annotated introns, identified thousands of novel alternatively spliced mRNA isoforms, extend gene, SNP and indel, indicative of more functional variation than represented by the gene set alone, and a collection of potentially new and longan-specific gene. A comparative analysis of differential expression in the gene family at the nine different developmental stages showed that most of significant  differentially expressed genes were mainly involved in the metabolic pathway, plant- pathogen interaction, and biosynthesis of secondary metabolities, which was fully consistent with the standpoint of D. longan specise containing a lot of plant pahtogen resistant genes, and in particular containing high levels of polyphenolic compounds
+
+DESIGN
+ For Illumina sequencing, total RNA was extracted from 9 tissues using the TRIzol Reagent kit (Invitrogen, USA) according to the manufacturer's instructions. Samples then were treated with DNase I to remove any genomic DNA. Extracted RNA was quantified using a Agilent 2100(the Agilent Technologies 2100 Bioanalyzer)and checked for integrity using denaturing agarose gel electrophoresis with ethidium bromide staining. Only the RNA samples with A260/A280 ratios between 1.9 and 2.1, RNA 28S:18S ratios higher than 1.0 and RIN (RNA integrity number)=8.5 were used for further analysis. The poly (A)+ RNA was isolated from the total RNA of longan using Dynal oligo (dT) 25 beads according to the manufacturer’s instructions. Following purification, fragmentation buffer was added for interrupting mRNA to short fragments. Taking these short fragments as templates, N6 random hexamer-primer was used to synthesize first-strand cDNA using SuperScript III reverse transcriptase. Subsequently, the second-strand cDNA was synthesized using buffer, dNTPs, RNaseH and DNA polymerase I, respectively. The double-stranded cDNA were further processed by an end- repair using T4 DNA polymerase, the Klenow fragment, and T4 polynucleotide kinase, then ligated with adapters using T4 DNA ligase. The products were purified for the section of 200± 25 bp long using QiaQuick PCR extraction kit and resolved with EB buffer for adaptor-ligated fragments. And, after the agarose gel electrophoresis, the suitable fragments were selected for the PCR amplification as templates. Then, the cDNA library was detected by Illumina HiSeq™ 2000. Please note that this study is a part of Dimocarpus longan Lour. WGS project (Bioproject PRJNA305337) and was used for gene annotation improvement and gene expression analysis. The whole-genome shot gun sequenced reads of D. longan have been deposited at NCBI SRA database under Bioproject PRJNA305337 (SRA: SRA315202; sample accessions  SRS1272137-40). However, the identifiers in the processed data (e.g. Dlo_021756.1, Dlo_019949.1etc.) are not yet searchable in a public database. The longan genome data is being submittetd to GigaDB. The records will be updated in near future.
+
+PLATFORM
+GPL22162 Illumina HiSeq 2000 (Dimocarpus longan)
+
+CITATIONS
+28368449
+

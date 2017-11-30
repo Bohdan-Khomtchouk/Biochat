@@ -1,0 +1,18 @@
+TITLE
+Blood pooling experiments on ophthalmalogic phenotypes with Illumina arrays
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In this study 3 pooling experiments were performed. In each of the 3 cohorts, a 'case' and a 'control' blood pool was compared - the goal being to identify single nucleotide polymorphisms with significantly different estimated pooling allele frequencies between cases and controls. For cohort 1, 100 individuals with blue eye color were placed in one pool (the 'control' pool) and 100 individuals with brown eye color were placed in another pool ( the 'case' pool). In cohort 2, 131 individuals with age-related macular degeneration were placed in one pool, with 216 control individuals in another pool. In cohort 3, 100 individuals with pseudoexfoliation syndrome were placed in a case pool - in this case the cohort 2 control sample was used as 'controls'. The blue/brown pools were hybridized to Illumina HumanHap550 arrays. The cohort 2 and 3 pools were hybridized to Illumina 1M arrays. After processing, the raw data are summarized to give pooling allele frequency estimates for each pool. The abstract from the paper describing these data is as follows: Genome-wide association studies (GWAS) have now successfully identified important genetic variants associated with many human traits and diseases. The high cost of genotyping arrays in large datasets remains the major barrier to wider utilization of GWAS. We have developed a novel method in which whole blood from cases and controls respectively is pooled prior to DNA extraction for genotyping. We demonstrate proof of principle by clearly identifying the associated variants for eye color, age-related macular degeneration and pseudoexfoliation syndrome in cohorts not previously studied. Blood pooling has the potential to reduce GWAS cost by several orders of magnitude and dramatically shorten gene discovery time. This method has profound implications for translation of modern genetic approaches to a multitude of diseases and traits yet to be analysed by GWAS, and will enable developing nations to participate in GWAS.
+
+DESIGN
+Pools were typed with Illumina arrays. Estimates of pooling allele frequency were obtained.
+
+PLATFORM
+GPL6982 Illumina HumanHap550-Duov3 Genotyping BeadChip (HumanHap550-2v3_B) GPL6983 Illumina Human1Mv1 DNA Analysis BeadChip (Human1Mv1_C)
+
+CITATIONS
+19801603
+

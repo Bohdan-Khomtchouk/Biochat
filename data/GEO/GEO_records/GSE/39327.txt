@@ -1,0 +1,18 @@
+TITLE
+A Whole Transcriptional Linkage Analysis of Gene Co-Regulation in Insecticide Resistant House Flies, Musca domestica
+
+ORGANISM
+Musca domestica
+
+SUMMARY
+Illumina HiSeq 2000 RNASeq was conducted on the mRNA fraction of three adult female Musca domestica strains. Two strains were the insecticide susceptible strains CS and aabys, which has five distinct recessive morphological markers, one on each of the five autosomes in M. domestica. The third strain was ALHF, which is a highly insecticide resistant strain obtained in Alabama.  The reference transcriptome was generated de novo using Trinity. The coding trimmed sequences from Augustus were then used as the mapping reference for the individual FASTQ files from each strain. trace reads were mapped using RSEM to generate FPKM estimates. Gene expression levels were compared to the ALHF strain using EdgeR to identify genes that were downregulated in both aabys and CS.
+
+DESIGN
+RNA Seq profiling of the mRNA of adult Musca domestica with different autosomal contributions from insecticide resistant and susceptible strains (whole insect pooled samples)
+
+PLATFORM
+GPL15805 Illumina HiSeq 2000 (Musca domestica)
+
+CITATIONS
+24252181
+

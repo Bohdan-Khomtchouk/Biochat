@@ -1,9 +1,0 @@
-TITLE
-19 K14Cre; p53F/F mouse mammary tumor analysis
-
-ORGANISM
-Mus musculus
-
-SUMMARY
-Tumor formation is in part driven by copy number alterations (CNAs), which can be measured using array Comparative Genomic Hybridization (aCGH). Identifying regions of DNA that are gained or lost in a significant fraction of tumor samples can facilitate identification of genes possibly related to the development of cancer. Until now, no method has been described that provides a statistical framework in which these regions can be identified without prior discretization of the aCGH data. Kernel Convolution - a Statistical Method for Aberrant Region deTection (KC-SMART) is a new approach which inputs continuous aCGH data to identify regions that are significantly aberrant across an entire tumor set. KC-SMART uses kernel convolution to generate a Kernel Smoothed Estimate (KSE) of CNAs across the genome, aggregated over all tumors. By varying the width of the kernel function, a scale space is created which enables the detection of aberrations of varying size. In an analysis of 89 human sporadic breast tumors KC-SMART performs better than a previously published method, STAC. Our method not only identified aberrations that are strongly associated with clinical parameters, but also showed stronger enrichment for known cancer genes in the detected regions.  Furthermore, KC-SMART identifies 18 aberrant regions in mammary tumors from p53 conditional knock-out mice. These regions, combined with gene expression micro-array data, point to known cancer genes and novel candidate cancer genes. Keywords: Comparative Genomic Hybridization, aCGH
-

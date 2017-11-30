@@ -1,0 +1,18 @@
+TITLE
+Host Proteostasis Modulates Influenza Evolution
+
+ORGANISM
+Canis lupus familiaris
+
+SUMMARY
+Predicting and constraining RNA virus evolution require understanding the molecular factors that define the mutational landscape accessible to these pathogens. RNA viruses typically have high mutation rates, resulting in frequent production of protein variants with compromised biophysical properties. Their evolution is necessarily constrained by the consequent challenge to protein folding and function. We hypothesize that host proteostasis mechanisms, may be significant determinants of the fitness of viral protein variants, serving as a critical force shaping viral evolution. Here, we test this hypothesis by propagating influenza in host cells displaying chemically-controlled, divergent proteostasis environments. We find that both the nature of selection on the influenza genome and the accessibility of specific mutational trajectories are significantly impacted by host proteostasis. These findings provide new insights into features of host–pathogen interactions that shape viral evolution, and into the potential design of host proteostasis-targeted antiviral therapeutics that are refractory to resistance.
+
+DESIGN
+RNA-seq characterizing two clonal MDCK cell lines, one stably expressing DHFR HSF1, and another stably expressing DHFR YFP. These cell lines were treated with small molecules for 24 hours (in triplicate) to modulate the proteostasis environment in a stress-independent manner. The DHFR HSF1 MDCK cells were treated with: 0.1% DMSO, 10 µM TMP, or 10 nM STA-9090. The DHFR YFP MDCK cells were treated with either 0.1% DMSO or 10 µM TMP.
+
+PLATFORM
+GPL16540 Illumina HiSeq 2000 (Canis lupus familiaris)
+
+CITATIONS
+28949290
+

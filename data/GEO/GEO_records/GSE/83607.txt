@@ -1,0 +1,18 @@
+TITLE
+Loss of the DNA methyltransferase MET1 induces H3K9 hypermethylation at PcG target genes in Arabidopsis, and relocation of H3K27 trimethylation to transposons [RNA-seq]
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Dimethylation of histone H3 lysine 9 (H3K9m2) and trimethylation of histone H3 lysine 27 (H3K27m3) are two hallmarks of transcriptional repression in many organisms. In Arabidopsis thaliana, H3K27m3 is targeted by Polycomb Group (PcG) proteins and is associated with silent protein coding genes, while H3K9m2 is correlated with DNA methylation and is associated with transposons and repetitive sequences. Recently, ectopic genic DNA methylation in the CHG context (where H is any base except G) has been observed in globally DNA hypomethylated mutants such as met1, but neither the nature of the hypermethylated loci nor the biological significance of this epigenetic phenomenon have been investigated. Here, we generated high-resolution genome-wide maps of both H3K9m2 and H3K27m3 in wild type and met1 plants, which we integrated with transcriptional data, to explore the relationships between these two marks. We found that most of the ectopic H3K9m2 observed in met1 is not due to defects in IBM1-mediated H3K9m2 demethylation, but instead targets H3K27m3-marked genes suggesting an interplay between these two silencing marks. Furthermore, H3K9m2/DNA-hypermethylation at these PcG targets in met1 is coupled with a decrease in H3K27m3 marks, whearas H3K9m2 hypomethylated transposons become ectopically H3K27me3 hypermethylated. Our results bear interesting similarities with cancer cells, which show global losses of DNA methylation, but ectopic hypermethylation of genes previously marked by H3K27m3.
+
+DESIGN
+RNA-seq: 3 week old tissue was ground in Trizol.  Total RNA were treated with DNaseI (Roche), and cleaned up with phenol-chlorophorm and precipitated with ethanol. Libraries were generated and sequenced following manufacturer instructions (Illumina).
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+23209430
+

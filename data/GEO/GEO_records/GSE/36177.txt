@@ -1,0 +1,18 @@
+TITLE
+Genome-wide gene expression analysis of the whole blood leukocyte transcriptional response to endotoxin treatment
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Several inflammatory diseases respond to TNFα inhibitors, implicating TNFα signaling in the pathogenesis of these conditions. Here, we set out to map the systemic genome-wide transcriptome influenced by TNFα release. We performed an intravenous endotoxin challenge in 16 healthy subjects, half of whom were pretreated with the soluble TNF receptor fusion protein, etanercept. Whole-blood leukocyte total RNA was isolated using the PAXgeneTM tube and PAXgeneTM RNA isolation system (PreAnalytiXTM, Qiagen) as described by the manufacturer. Total RNA yield and purity (260nm:280nm) were determined spectrophotometrically. The integrity of the re-suspended total RNA was determined using the RNA Nano Chip Kit on the Bioanalyzer 2100 and the 2100 Expert software (Agilent). To increase the sensitivity of our gene expression assay, the overload of globin mRNA of whole blood samples was reduced by applying the human GLOBINclear kit (Ambion/Appied Biosystems). Synthesis, amplification and purification of anti-sense RNA was performed using 300 ng of enriched mRNA per sample and the Illumina TotalPrep RNA Amplification Kit (Ambion/Applied Biosystems) following the Illumina Sentrix Array Matrix expression protocol. A total of 750 ng biotinylated cRNA was hybridized onto the HumanHT-12v3 expression BeadChips (Illumina). The BeadChips were scanned according to the protocol described in the Illumina Whole Genome Gene Expression for BeadStation Manual v3.2, Revision A using scanning software BeadScan 3.5.31. The GenomeStudio® Data Analysis Software (Illumina) was used for data collection. Missing values were imputed by using the k-nearest-neighbor algorithm (k=15). The raw scan and imputed data were read using the lumi available through Bioconductor. This was carried out using the R statistical package (version 2.10.1; R Foundation for Statistical Computing, Vienna, Austria). Quality control checks of the raw non-normalized data included visualization of the similarity matrix and hierarchical clustering analysis. Samples for one placebo-treated individual did not pass our quality control checks, and thus were removed from subsequent normalization and analysis. Total RNA isolated from a collection of human tissue-derived cell lines was used as an internal control; this sample also was omitted from subsequent data normalization. Variance stabilizing normalization (Biconductor library vsn) was applied to all other samples. All subsequent analyses were performed on vsn-transformed intensity values.
+
+DESIGN
+This study investigated the genome-wide transcriptional response to endotoxin-induced TNF-alpha-mediated signaling in whole-blood leukocytes. Total RNA was isolated from PAXgene-treated whole blood of 16 healthy volunteers before and 4 hours after infusion of 1ng/kg E. coli lipopolysaccharide. Eight of these subjects were treated with the TNF-alpha inhibitor, etanercept.
+
+PLATFORM
+GPL6947 Illumina HumanHT-12 V3.0 expression beadchip
+
+CITATIONS
+24236088
+

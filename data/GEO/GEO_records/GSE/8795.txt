@@ -1,0 +1,18 @@
+TITLE
+mRNA expression in TTHA1939 deletion mutant of Thermus thermophilus HB8 strain grown on minimum medium
+
+ORGANISM
+Thermus thermophilus HB8
+
+SUMMARY
+We compared the expression profile of TTHA1939 deletion mutant strain of Thermus thermophils HB8 with that of wild-type.  The mutant strain grown in minimum essential medium (CS medium) exhibited growth arrest and cellular aggregation during the logarithm growth phase.  In this phase, 99 genes were suppressed and 63 genes were activated for the mutant strain.  The suppressed genes included genes of ribosomal proteins, TCA cycle, amino acid biosynthesis, fatty acid biosynthesis, cobalamin biosynthesis, transporters, and cell division including dnaB and ftsZ.  The activated genes included genes of nitrogen metabolism, stress proteins, and proteases.  We suggested that these transcriptional alterations in the mutant cell were induced by the ppGpp accumulation which was prevented by ppGpp degradation activity of TTHA1939 in WT cell. Keywords: gene deletion, minimum essential medium, logarithm growth phase
+
+DESIGN
+Wild-type and the mutant strains were precultured in rich medium (TR medium) for two times at 70 oC and then subcultured to minimum essential medium (CS medium).  These cells were harvested during the logarithm growth phase (800 minutes from the start of culture).  Total RNA were extracted from each strain and used for the cDNA synthesis.  For the biological replication, above experiments were performed four times independently.  The cDNA fragments were labeled with biotin-dideoxy UTP, using terminal transferase according to the manufacturer’s instructions (ENZO Biochem. Inc., Farmingdale, NY).  The 3’-terminal-labeled cDNA (2 micro g) was hybridized to a TTHB8401 GeneChip (Affymetrix, Santa Clara, CA).  The Probe Array was scanned with a GeneArray Scanner (Affymetrix), and then, the image data was scaled to the target intensity by one-step Tukey’s biweight algorithm using GeneChip Operating software, version 1.0 (Affymetrix, Santa Clara, CA).  The data analysis was performed by using GeneSpring GX (Agilent Tech.).  The genes which had detection call of “presence” more than 4 times from 8 samples were used for following analysis.  The normalized intensities for the mutant strains were calculated by using the intensities for wild-type strains of each data set, and then, the average of these intensities were used.  The genes which produced P value < 0.1 in the Student’s t-test were extracted.  Among them, the genes whose expression level was different more than 2 fold between two strains were considered as significant.
+
+PLATFORM
+GPL4902 Riken Thermus thermophilus HB8 4K mRNA array
+
+CITATIONS
+19346251
+

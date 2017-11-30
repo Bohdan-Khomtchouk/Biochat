@@ -1,0 +1,18 @@
+TITLE
+Non-genotoxic Hepatocarcinogens
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+There is no accurate and well-validated short-term test for non-genotoxic carcinogens, necessitating an expensive two year rodent bioassay before a risk assessment can begin. We have developed a short-term in vivo rat assay that predicts whether non-genotoxic chemicals are likely to induce hepatic tumors based on transcript profiles in the liver. Using a large independent test set, assay accuracy was found to be superior to existing pathological and genomic markers. Comparison of the test chemical's signature profile to reference carcinogens of known mechanism can also identify a potential mode(s) of action, allowing an early assessment of human cancer risk. Guidelines for commercial use: http://www.iconixbiosciences.com/guidelineCommUse.pdf Keywords: dose response, time course, compound treatment
+
+DESIGN
+Treatment of male Sprague-Dawley rats with 147 non-genotoxic compounds at various doses and durations, in biological triplicate, along with vehicle-matched control animals.  Liver samples were assayed for gene expression.  Hepatocarcinogenic and non-carcinogenic compounds were included.  A classifier for carcinogenicity was built on a training set of 25 carcinogens and 75 noncarcinogens (randomly selected compounds, maximum tolerated dose, 5 day timepoints), and tested on the remaining 47 compounds at various timepoints.  A total of 990 samples were hybridized to single-channel CodeLink RU1 arrays.  Biological triplicates were combined with matched control samples to calculate log ratios.
+
+PLATFORM
+GPL5424 GE Healthcare/Amersham Biosciences CodeLink UniSet Rat I Bioarray, layout EXP5280X2-584 GPL5425 GE Healthcare/Amersham Biosciences CodeLink UniSet Rat I Bioarray, layout EXP5280X2-613 GPL5426 GE Healthcare/Amersham Biosciences CodeLink™ UniSet Rat I Bioarray, layout EXP5280X2-648
+
+CITATIONS
+17557906
+

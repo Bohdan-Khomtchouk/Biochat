@@ -1,0 +1,18 @@
+TITLE
+Deletion of DXZ4 on the human inactive X chromosome eliminates superdomains and impairs gene silencing
+
+ORGANISM
+Macaca mulatta ; Homo sapiens ; Mus musculus
+
+SUMMARY
+During interphase, the inactive X chromosome (Xi) adopts an unusual 3D configuration known as the Barr body and is largely transcriptionally silent. Despite the importance of X inactivation, little is known about the 3D configuration of Xi and its relationship to gene silencing. We recently showed that in humans, Xi exhibits two distinctive structural features. First, Xi is partitioned into two huge intervals, called superdomains, such that pairs of loci in each superdomain show an enhanced contact frequency with one another. The boundary between the two superdomains lies near DXZ4, a macrosatellite repeat spanning ~300kb, whose Xi allele extensively binds the protein CTCF. Second, Xi exhibits extremely large loops, up to 77Mb long, called superloops. DXZ4 lies at the anchor of several superloops. Here, we use 3D mapping to study the structure of Xi, focusing on the role of DXZ4. We show that superloops and superdomains are conserved across mammals. We develop a novel variant of our in situ Hi-C protocol, dubbed COLA (COncatemer Ligation Assay) to probe the higher order structures formed by the superloops. In COLA, in situ proximity ligation of multiple extremely short fragments produced by the enzyme CviJI is used to efficiently map simultaneous proximity among three or more loci. Using data from Hi-C and COLA, we demonstrate that DXZ4 and other superloop anchors tend to co-locate simultaneously within the same cells, a result that is confirmed by 3D-FISH. Finally, we examine the effects of deleting DXZ4 from Xi in human cells. Using in situ Hi-C, microscopy, and RNA-FISH, we show that superdomains and superloops disappear; that Xi frequently dissociates into multiple separate structures; and that transcriptional silencing on Xi is compromised. Deletion of DXZ4 from the active X chromosome (Xa) has no such effect. Thus, DXZ4 is essential for proper folding and silencing of Xi.
+
+DESIGN
+Hi-C protocol was used on wildtype and DXZ4-deleted cells to examine the structure of Xi. A novel variant of our in situ Hi-C protocol, dubbed COLA (COncatemer Ligation Assay), was developed to probe the higher order structures formed by the superloops. This series also includes RNA-seq data on Retinal Pigmented Epithelial Cells (hTERT-RPE1). The samples starting with the prefix 'RaoHuntley-2014' were generated as part of the study described in GSE63525 ( https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63525 ).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL19129 Illumina HiSeq 2500 (Macaca mulatta) GPL20795 HiSeq X Ten (Homo sapiens)
+
+CITATIONS
+27432957
+

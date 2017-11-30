@@ -1,0 +1,18 @@
+TITLE
+Yeast under physiological changes of stress adaptation and stress recovery
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Background Gcn5 belongs to a family of histone acetyltransferases (HATs) that regulate protein function by acetylation. Gcn5 plays several different roles in gene transcription throughout the genome but their characterisation by classical mutation approaches is hampered by the high degree of apparent functional redundancy between HAT proteins. Results Here we utilise the reduced redundancy associated with the transiently high levels of genomic reprogramming during stress adaptation as a complementary approach to understand the functions of redundant protein families like HATs. We show genome-wide evidence for two functionally distinct roles of Gcn5. First, Gcn5 transiently re-localises to the ORFs of long genes during stress adaptation. Taken together with earlier mechanistic studies, our data suggests that Gcn5 plays a genome- wide role in specifically increasing the transcriptional elongation of long genes, thus increasing the production efficiency of complete long transcripts. Second, we suggest that Gcn5 transiently interacts with histones close to the transcription start site of the many genes that it activates during stress adaptation by acetylation of histone H3K18, leading to histone depletion, probably as a result of nucleosome loss as has been described previously. Conclusions We show that stress adaptation can be used to elucidate the functions of otherwise redundant proteins, like Gcn5, in gene transcription. Further, we show that normalization of chromatin-associated protein levels in ChIP experiments in relation to the histone levels may provide a useful complement to standard approaches. In the present study analysis of data in this way provides an alternative explanation for previously indicated repressive role of Gcn5 in gene transcription. Keywords: Gcn5; Gene length; Transcription elongation; Histone acetyltransferase; Stress; Genome-wide association study
+
+DESIGN
+HATs family proteins are highly redundant at normal growth conditions. Here we utilize a KCl stress model so that Gcn5 performs its specific function. To study the transient regulation of Gcn5 during stress, and adaptation and recovery growth regime, samples are collected at 5 different time points, which represent different growth phases. For each sample, gene expression changes are measured by expression microarray. In parallel, genome-wide localisation of Gcn5, histone H3 density, as well as acetylation level of relevant histone marks (H3K18 and acH4K16) are measured by ChIP-on-chip tiling array. This SuperSeries is composed of The super data series include gene expression data and ChIP-on-chip tiling array data. Direct link to the expression data: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE36599 Direct link to the ChIP-on-chip tiling array data: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE36600
+
+PLATFORM
+GPL2529 [Yeast_2] Affymetrix Yeast Genome 2.0 Array GPL7250 [Sc03b_MR] Affymetrix GeneChip S. cerevisiae Tiling 1.0R Array
+
+CITATIONS
+23865462 , 26484112
+

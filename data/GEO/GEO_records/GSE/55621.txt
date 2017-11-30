@@ -1,0 +1,18 @@
+TITLE
+Vascular Endothelial Growth Factor Receptor 3 (VEGFR3) controls hippocampal neural stem cell conversion into progenitor cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Neural stem cells (NSCs) continuously produce new neurons within the adult mammalian hippocampus. However, this process declines with age and this decline correlates with defects in cognitive function and mood. Molecular mechanisms that activate quiescent NSCs to generate progenitor cells in vivo remain poorly understood. Here we show that adult hippocampal NSCs express VEGFR3, a key regulator of vascular and neural development, and are activated by the VEGFR3 ligand VEGF-C to enter the cell cycle and convert into progenitor cells. Conditional deletion of Vegfr3 in NSCs leads to a decline in hippocampal neurogenesis. Functionally, this is associated with increased anxiety behavior and compromised NSC activation in response to VEGF-C and physical activity. These findings establish VEGFR3 expression as a hallmark of adult mouse NSCs and demonstrate a specific requirement for VEGF-C/VEGFR signaling in NSC activation. Enhancing VEGFR3 signaling by VEGF-C may improve neurogenesis and mood during aging.
+
+DESIGN
+Vegfr3 YFP and Vegfr3 YFP-negative cells were FACS-sorted from two separated groups of Vegfr3::YFP mice (16 mice/ each group; 12-30.10^5 Vegfr3YFP cells/group). Vegfr3 YFP  and Vegfr3 YFP-negative cells were suspended in CCM were seeded in 24-well plates with or without VEGF-C (50ng/ml). After an 18h-culture period, the cells were collected in eppendorf tubes, washed in PBS, and the total RNAs were extracted by Qiagen RNA Micro kit (QIAGEN, Valencia, CA). For each culture condition, the pellets from the two groups of  Vegfr3 YFP or Vegfr3 YFP-negative cells were pooled. The RNA integrity number (RIN) of each RNA sample was checked by 2100 Bioanalyzer of Agilent Technologies (Santa Clara, CA). The mRNA library construction were performed by SMARTer Ultra Low RNA Kit for Illumina Sequencing pherchased from Clontech Laboratory (Mountain View, CA) using manufacturer's protocol. And then, the validated libraries were applied to the 75 bp, paired end sequencing process of HiSeq 2500 (Illumina) to generate raw sequencing FASTQ data files. All sequencing procedures from RNA extraction to FASTQ generation were carried out by YCGA (Yale Center for Genome Analysis, West Haven, CT). The quality control check of FASTQ files was carried out by FastQC:ReadQC (version 0.52) analysis in Galaxy web-based platform and the sequences passed on ‘per base sequence quality’ were mapped on the UCSC mm10 mouse genome (Dec. 2011 Mus musculus assembly (Genome Reference Consortium Mouse Build 38)) using Tophat-2.0.9 including Bowtie-2-2.1.0 and Samtools-0.1.18. As the option of library type in Tophat, ‘fr-unstranded’ for Illumina TruSeq protocol was set as the default and the option of ‘no-novel-juncs’ was chosen to quantify the reference annotation only. Cuffdiff, a separate program of Cufflinks-2.1.1, analyzed the differentially regulated transcriptional level among the reference transcriptoms of our samples and the results were visualized and further manipulated by CummeRbund-2.12.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

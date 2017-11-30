@@ -1,0 +1,18 @@
+TITLE
+Transcriptional Biomarkers to Predict Female Mouse Lung Tumors in Rodent Cancer Bioassays - A 26 Chemical Set
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The process for evaluating chemical safety is inefficient, costly, and animal intensive.  There is growing consensus that the current process of safety testing needs to be significantly altered to improve efficiency and reduce the number of untested chemicals. In this study, the use of short-term gene expression profiles was evaluated for predicting the increased incidence of mouse lung tumors.  Animals were exposed to a total of 26 diverse chemicals with matched vehicle controls over a period of three years.  Upon completion, significant batch-related effects were observed.  Adjustment for batch effects significantly improved the ability to predict increased lung tumor incidence.  For the best statistical model, the estimated predictive accuracy under honest five-fold cross-validation was 79.3% with a sensitivity and specificity of 71.4 and 86.3%, respectively.  A learning curve analysis demonstrated that gains in model performance reached a plateau at 25 chemicals, indicating that the size of the current data set was sufficient to provide a robust classifier.  The classification results showed a small subset of chemicals contributed disproportionately to the misclassification rate.  For these chemicals, the misclassification was more closely associated with genotoxicity status than efficacy in the original bioassay. Statistical models were also used to predict dose-response increases in tumor incidence for methylene chloride and naphthalene.  The average posterior probabilities for the top models matched the results from the bioassay for methylene chloride.  For naphthalene, the average posterior probabilities for the top models over-predicted the tumor response, but the variability in predictions were significantly higher. The study provides both a set of gene expression biomarkers for predicting chemically-induced mouse lung tumors as well as a broad assessment of important experimental and analysis criteria for developing microarray-based predictors of safety-related endpoints.
+
+DESIGN
+Five-week-old female B6C3F1 mice were exposed for 13 weeks to 26 chemicals. The chemical and dose information are provided with the individual sample annotations.  With each chemical treatment, a matched vehicle control group was run concurrently with the exposure.  A subset of two chemicals, methylene chloride and naphthalene, were performed in a five-point dose response with a matched purified air control group.  The concentrations for these exposures overlapped those in the original cancer bioassay. Gavage exposures were administered 5 days per week and feed exposures were provided 7 days per week.  For inhalation exposures, mice were exposed 6 hr per day, 5 days per week.  After 13 weeks, animals were euthanized and lungs were collected. The right lobe was used for microarray analysis. Microarray analysis was performed on the lungs of three to four mice per treatment group.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+19776212
+

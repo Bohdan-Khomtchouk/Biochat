@@ -1,0 +1,18 @@
+TITLE
+A comprehensive and universal method for assessing the performance of differential gene expression analyses
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The number of methods for pre-processing and analysis of gene expression data continues to increase, often making it difficult to select the most appropriate approach. We present a simple procedure for the comparative estimation of a variety of methods for microarray data pre-processing and analysis. Our approach is based on the use of real microarray data in which controlled fold changes are introduced into 20% of the data to provide a metric for comparison with the unmodified data. The data modification can be easily applied to raw data measured with any technological platform and retains all the complex structures and statistical characteristics of the real-world data. The power of the method is illustrated by its application to a comparative analysis of the significance analysis of microarray (SAM), Limma, and associative analysis tuned to the exact structure of the experimental data. We present a novel finding that SAM and Limma analyses fail to detect the most interesting differentially expressed genes at high expression level, while the associative analysis does recognize them. Our results demonstrate that the method of controlled modifications of real experimental data provides a simple tool for assessing the performance of data preprocessing and analysis methods.
+
+DESIGN
+20 samples of Epstein-Barr Virus-transformed B cells collected from normal healthy donors. All samples were biological. No treatment were introduced, and the whole group of 20 samples is presumably homogeneous
+
+PLATFORM
+GPL2700 Sentrix HumanRef-8 Expression BeadChip GPL6884 Illumina HumanWG-6 v3.0 expression beadchip
+
+CITATIONS
+20844739
+

@@ -1,0 +1,18 @@
+TITLE
+Gene-resolution analysis of DNA copy number variation using oligonucleotide expression microarrays
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We present a novel method of using commercial oligonucleotide expression microarrays for aCGH, enabling DNA copy number measurements and expression profiles to be combined using the same platform. This method yields aCGH data from genomic DNA without complexity reduction at a median resolution of approximately 17,500 base pairs. Due to the well-defined nature of oligonucleotide probes, DNA amplification and deletion can be defined at the level of individual genes and can easily be combined with gene expression data. Keywords: genomic DNA, CGH, Copy Number Variation
+
+DESIGN
+Genomic DNA isolated from peripheral blood samples and from Neuroblastoma cell lines was fragmented by DNAseI and biotin labeled by terminal transferase. Labeled DNAs were hybridized to U133plus2.0 GeneChips (Affymetrix). Hybridization and other conditions were slightly modified from those suggested for 10K Mapping Arrays (Affymetrix) and washing conditions were carried out as suggested for 100K Mapping Arrays. Probe set signals were either generated using the RMA algorithm  or using the in-house developed WPP algorithm. Copy-number variation between Neuroblastoma and normal DNA was calculated.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+17470268
+

@@ -1,0 +1,18 @@
+TITLE
+Stapled peptide inhibitors of RAB25 target context-specific phenotypes in cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Ras-family small GTPase RAB25 is involved in numerous aspects of endosomal protein trafficking and cell polarity. Recent evidence has established a role for RAB25, as well as related RAB-family and effector proteins, in oncogenic signaling, highlighting the need for chemical probes targeting this class of proteins. Here we report the development of all-hydrocarbon stabilized peptides targeting RAB25 derived from the RAB-binding FIP-family of proteins. Relative to unmodified FIP peptides, optimized stapled peptides show markedly increased structural stability, binding affinity, cell permeability and inhibition of RAB25:FIP complex formation. RAB25 expression has been shown to promote both pro- and anti-oncogenic phenotypes in specific cellular contexts. Stapled peptide RFP14 treatment of breast and ovarian cancer cell lines, in which RAB25 is pro-oncogenic, inhibited migration and proliferation in a RAB25-dependent manner. In contrast, treatment of a triple-negative breast cancer cell line in which RAB25 is tumor suppressive augmented proliferation and migration. Gene expression (RNA Seq) profiling identified significantly altered transcripts in response to RAB25 expression in ovarian cancer cells, and treatment with the optimized stapled peptide RFP14 reversed this expression profile. These data validate first-in-class chemical probes targeting RAB-family proteins and support the role of RAB25 in regulating context-specific oncogenic phenotypes.
+
+DESIGN
+Hey ovarian cancer cells with stable overexpression of RAB25 (10 cm plate, 70-80% confluent) were treated with stapled peptide RFP14 (10 μM) or the equivalent amount of DMSO in serum free media  (RPMI) overnight, followed by stimulation with 5% FBS for 8 hours. pcDNA3 mock vector expressing HEY ovarian cancer cells labelled as HeyCont were similarly treated with DMSO overnight and stimulated with 5% FBS for 8 hours in parallel. Individual biological replicates performed on different days were used for RNAseq studies. Therefore, combining the two replicate experiments (experiment 1 and experiment 2), RNA samples analyzed included Hey Cont DMSO, Hey RAB25 DMSO, and Hey RAB25 RFP14, totalling six samples.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28939823
+

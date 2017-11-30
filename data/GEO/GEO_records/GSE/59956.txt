@@ -1,0 +1,18 @@
+TITLE
+Global Identification of Protein PTMs in a Single-pass Database Search
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Bottom-up proteomics database search algorithms used for peptide identification cannot comprehensively identify posttranslational modifications (PTMs) in a single-pass because of high false discovery rates (FDRs). A new approach to database searching enables Global PTM (G-PTM) identification by exclusively looking for curated PTMs, thereby avoiding the FDR penalty experienced during conventional variable modification searches. We identified nearly 2500 unique, high-confidence modified peptides comprising 31 different PTM types in single-pass database searches.
+
+DESIGN
+Male C57BL/6J (B6) and CAST/EiJ (CAST) mice were purchased from The Jackson Laboratories (Bar Harbor, Maine) and housed in an environmentally controlled vivarium at the University of Wisconsin Biochemistry Department. Mice were provided standard rodent chow (Purina no. 5008) and water ad libitum, and maintained on a 12-hour light/dark cycle (6 AM – 6 PM). At 10 weeks of age, mice were sacrificed by CO2 asphyxiation. All animal procedures were preapproved by the University of Wisconsin Animal Care and Use Committee.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26418581
+

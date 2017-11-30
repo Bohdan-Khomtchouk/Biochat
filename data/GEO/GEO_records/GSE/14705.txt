@@ -1,0 +1,18 @@
+TITLE
+VLA lyssavirus genotyping dataset
+
+ORGANISM
+Rabies lyssavirus ; Mokola lyssavirus ; unidentified ; Lagos bat lyssavirus ; Duvenhage lyssavirus ; European bat 1 lyssavirus ; European bat 2 lyssavirus ; Australian bat lyssavirus
+
+SUMMARY
+Data from the VLA lyssavirus genotyping microarray. The array platform for this data is GEO accession GPL8066, and consists of 624 oligos representing two viral families. The data set itself consists of 14 arrays, 7 hybridised with RNA from mice brains infected with 7 genotypes of lyssaviruses, 1 hybridised with RNA from normal mouse brain, and 6 hybridised with RNA from coded samples consisting of infected mouse brains or control mouse brains. Keywords: Lyssavirus genotyping microarray
+
+DESIGN
+Data from the VLA lyssavirus genotyping microarray. The array platform for this data is GEO accession GPL8066, and consists of 624 oligos representing two viral families. The data set itself consists of 14 arrays, 7 hybridised with RNA from mice brains infected with 7 genotypes of lyssaviruses, 1 hybridised with RNA from normal mouse brain, and 6 hybridised with RNA from coded samples consisting of infected mouse brains or control mouse brains.   Statistical analysis of the data was done with DetectiV software (Watson et al., 2007). The median and array methods of normalization were used in the statistical analysis of the results.  In the median method, DetectiV software calculates the mean fluorescence for each set of probes and normalised against background fluorescence of all probes, assuming that most probes are not hybridized.  The array method utilizes an entire control array, e.g. RNA from a known uninfected animal, as the negative control and all probe values are divided by their respective elements from the control array.
+
+PLATFORM
+GPL8066 AH/VLA Virus Detection Array LP1 1.6K
+
+CITATIONS
+19433118
+

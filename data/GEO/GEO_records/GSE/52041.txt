@@ -1,0 +1,18 @@
+TITLE
+SRA/SET domain-containing proteins link RNA polymerase V occupancy to DNA methylation
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+RNA-directed DNA methylation (RdDM) in Arabidopsis thaliana depends on the  synthesis of non-coding RNAs by nuclear RNA polymerase E (NRPE or Pol V) 1-3, but the mechanism by which Pol V is targeted is unknown. Here we show that genome-wide Pol V association with chromatin redundantly requires the  SU(VAR)3-9 homologs, SUVH2 and SUVH9. These proteins resemble histone  methyltransferases, however a crystal structure reveals that SUVH9 lacks a peptide-substrate binding cleft and lacks a properly formed S-Adenosyl methionine (SAM) binding pocket necessary for normal catalysis, consistent with a lack of methyltransferase activity for these proteins. SUVH2 and SUVH9 both contain SET- and RING-ASSOCIATED (SRA) domains capable of binding methylated DNA, suggesting that they function to recruit Pol V through DNA methylation. Consistent with this model, mutation of the DNA METHYLTRANSFERASE 1, MET1, causes losses of DNA methylation, a nearly complete loss of Pol V at its normal locations, and redistribution of Pol V to sites that become hypermethylated. By tethering SUVH2 with a zinc finger to an unmethylated epiallele of the homeodomain transcription factor FWA, we demonstrate that SUVH2 is sufficient to both recruit Pol V and establish DNA methylation and gene silencing. Our results suggest that Pol V is recruited to DNA methylation through the methyl-DNA binding SUVH2 and SUVH9 proteins, and our mechanistic findings suggest a means for selectively targeting regions of the plant genome for epigenetic silencing.
+
+DESIGN
+For wild type plants (ecotype Columbia) and suvh2 suvh9 double mutants whole-genome small RNA (sRNA-seq) and bisulfite sequencing (BS-seq) was performed. For the small RNA sequencing nrpd1 and nrpe1 mutant plants were sequenced in parallel as controls. For the bisulfite sequencing data, the wildtype data and that of the suvh2 and suvh9 single mutants was previously published and is thus not submitted here. In addition, two replicates of whole genome chromatin immunoprecipitation (ChIP-seq) was performed on wild type (ecotype Columbia) plants as a negative control with experimentals consiting of wildtype and suvh2 suvh9 mutant plants carrying a C-terminally epitope tagged (3XFLAG) NRPE1. Whole genome ChIP seq was also performed using a gifted endogenous NRPE1 antibody in a wildtype and met1 mutant background. Whole-genome bisulfite sequencing was also performed on fwa-4 epiallele plants transformed with the wild-type SUVH2 protein-coding construct containing a tethering zinc finger targeted to repeats at the fwa gene. For these transgenic libraries a line carrying a FLAG and fwa targeting zinc-finger tagged KRYPTONITE methyltransferase was bisulfite sequenced as a control (“FLAG-ZF-KYP”).
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+24463519
+

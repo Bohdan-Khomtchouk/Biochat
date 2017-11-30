@@ -1,0 +1,18 @@
+TITLE
+Strong Components of Epigenetic Memory in Cultured Human Fibroblasts Related to Site of Origin and Donor Age (Methylation)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Differentiating pluripotent cells from fibroblast progenitors is a potentially transformative tool in personalized medicine. We previously identified relatively greater success culturing dura-derived fibroblasts than scalp-derived fibroblasts from postmortem tissue. We hypothesized that these differences in culture success were related to epigenetic differences between the cultured fibroblasts by sampling location, and therefore generated genome-wide DNA methylation and transcriptome data on 11 intrinsically matched pairs of dural and scalp fibroblasts from donors across the lifespan (infant to 85 years). While these cultured fibroblasts were several generations removed from the primary tissue and morphologically indistinguishable, we found widespread epigenetic differences by sampling location at the single CpG (N=101,989), region (N=697), “block” (N=243), and global spatial scales suggesting a strong epigenetic memory of original fibroblast location. Furthermore, many of these epigenetic differences manifested in the transcriptome, particularly at the region-level. We further identified 7,265 CpGs and 11 regions showing significant epigenetic memory related to the age of the donor, as well as an overall increased epigenetic variability, preferentially in scalp-derived fibroblasts -83% of loci were more variable in scalp, hypothesized to result from cumulative exposure to environmental stimuli in the primary tissue. By integrating publicly available DNA methylation datasets on individual cell populations in blood and brain, we identified significantly increased inter-individual variability in our scalp- and other skin-derived fibroblasts on a similar scale as epigenetic differences between different lineages of blood cells. Lastly, these epigenetic differences did not appear to be driven by somatic mutation - while we identified 64 probable de-novo variants across the 11 subjects, there was no association between mutation burden and age of the donor (p=0.71). These results depict a strong component of epigenetic memory in cell culture from primary tissue, even after several generations of daughter cells, related to cell state and donor age.
+
+DESIGN
+We measured DNA methylation (DNAm) levels from scalp- and dura-derived cultured fibroblasts in 11 postmortem donors (22 samples) from across the lifespan, ranging from early infancy to 85 years using the Illumina HumanMethylation450 microarray (Illumina 450k). After data processing, normalization, and quality control with the minfi package, we obtained normalized data on 21 samples (one dura sample with lower quality was removed prior to across-sample normalization). The tissue donor demographics are tabulated in S1 Table in the publication. Briefly, 1 donor was female, the rest were male. 1 donor was African American, 1 was Hispanic, and the others were all Caucasian. 2 donors were diagnosed with Bipolar disorder, the diagnosis was unknown for 5 of the donors, and the remaining 4 donors were Controls.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+26913521
+

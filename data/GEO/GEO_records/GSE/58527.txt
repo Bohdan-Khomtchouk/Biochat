@@ -1,0 +1,18 @@
+TITLE
+RNA-seq of adult baboon subventricular zone primary cells
+
+ORGANISM
+Papio anubis
+
+SUMMARY
+Histone 3 lysine 4 trimethylation (H3K4me3) is known to be associated with transcriptionally active or poised genes and required for postnatal neurogenesis within the subventricular zone (SVZ) in the rodent model. Previous comparisons have shown significant correlation between baboon (Papio anubis) and human brain. In this study, we demonstrate that chromatin activation mark H3K4me3 is present in undifferentiated progenitor cells within the SVZ of adult baboon brain. To identify the targets and regulatory role of H3K4me3 within the baboon SVZ, we developed a technique to purify undifferentiated SVZ cells while preserving the endogenous nature without introducing culture artifact to maintain the in vivo chromatin state for genome-wide studies (ChIP-Seq and RNA-Seq). We identified that H3K4me3 is significantly enriched for genes involved in cell cycle, cell signaling, nervous system development, metabolism, and ribosomal biogenesis. Among these genes, RNA-Seq identified that genes associated with cellular signaling/maintenance, DNA replication, metabolism, and protein synthesis are expressed. We found that 72% of H3K4me3-enriched genes in undifferentiated SVZ cells are expressed (1913 genes are detectable by RNA-Seq; 2663 genes enriched with H3K4me3 by ChIP-Seq). On the other hand, 750 out of total 2663 H3K4me3-enriched genes are not detectable by RNA-Seq, suggesting 28% of genes in SVZ are poised for activation.
+
+DESIGN
+RNA-seq profiles were generated from adult baboon subventricular zone primary cells by paired-end deep sequencing with an Illumina HiSeq 2000. RNA-Seq Analysis: Total RNA was extracted from purified baboon SVZ cells using TRIzol reagent, and sequencing libraries were generated with the Illumina RNA-Seq library kit. Paired-end RNA-deepSeq (76 base pair; > 300 million tag reads; 269,081,636 mapped reads) were aligned to hg19. DESeq was used to normalize raw read counts, and Cufflink reports read counts and estimated FPKM (fragments per kilobase of exon per million fragments mapped; http://cufflinks.cbcb.umd.edu/faq.html#fpkm ). Genes with expression values > 1 FPKM were considered for subsequent analyses.
+
+PLATFORM
+GPL18808 Illumina HiSeq 2000 (Papio anubis)
+
+CITATIONS
+24947819
+

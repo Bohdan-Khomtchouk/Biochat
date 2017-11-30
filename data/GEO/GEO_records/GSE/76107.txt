@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling for 4 Zebrafish samples
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+In our previous study, by microarray detection, we illuminated the gene expression profiling in copper-exposed embryos. We found that genes of hematopoiesis,  hemoglobin genes exhibited  significant increase in copper-exposed embryos.  In addition, copper-exposed embryos presented relatively high levels of reactive oxygen species (ROS), while the oxygen binding and oxygen transporter activities were also up-regulated in the embryos. Moreover, the scavengers NAC, GSH, and DMTU not only inhibited in vivo ROS levels induced by copper, but also significantly rescued expression of hemoglobin genes back to almost normal levels, and also helped with copper excretion from the copper-exposed embryos. Our data first demonstrated that ROS mediated copper induced increased expression of hemoglobin genes in vertebrates, and copper excretion was blocked by its induced ROS.
+
+DESIGN
+Total RNA from each sample was quantified by the NanoDrop ND-1000 and RNA integrity was assessed by standard denaturing agarose gel electrophoresis. For microarray analysis, Agilent Array platform was employed. The sample preparation and microarray hybridization were performed based on the manufacturer’s standard protocols. Briefly, total RNA from each sample was amplified and transcribed into fluorescent cRNA with using the manufacturer’s Agilent’s Quick Amp Labeling protocol (version 5.7, Agilent Technologies). The labeled cRNAs were hybridized onto the Whole Genome Oligo Array (4x44K, Agilent Technologies). After having washed the slides, the arrays were scanned by the Agilent Scanner G2505C. Agilent Feature Extraction software (version 11.0.1.1) was used to analyze acquired array images. Quantile normalization and subsequent data processing were performed using the GeneSpring GX v11.5.1 software package (Agilent Technologies). After quantile normalization of the raw data, genes that at least 2 out of 4 samples have flags in Detected (“All Targets Value”) were chosen for further data analysis. Differentially expressed genes were identified through Fold Change filtering. Pathway analysis and GO Analysis were applied to determine the roles of these differentially expressed genes played in these biological pathways or GO terms. Finally, Hierarchical Clustering was performed to show the distinguishable gene expression pattern among samples. 4 samples in two pairs were analyzed by gene microarray analysis. In each pair, there were control group and disposed group as compared samples. Replicates were normalized by Fisher’s exact test. KangChen Inc.
+
+PLATFORM
+GPL14664 Agilent-026437 D. rerio (Zebrafish) Oligo Microarray V3 (Probe Name version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

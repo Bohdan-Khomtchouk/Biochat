@@ -1,0 +1,18 @@
+TITLE
+Shifting the optimal stiffness for cell migration
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cell migration is central to many biological processes including embryonic development, wound healing, and cancer progression. Cell migration is sensitive to environmental stiffness, and many cell types exhibit a stiffness optimum at which migration is maximal. Here we present a cell migration simulator that predicts a stiffness optimum that can be shifted by altering the number of active molecular motors and clutches. This prediction is verified experimentally by comparing cell traction and F-actin retrograde flow for two cell types with differing amounts of active motors and clutches: embryonic chick forebrain neurons (ECFNs; optimum ~1 kPa) and U251 glioma cells (optimum ~100 kPa). In addition, the model predicts, and experiments confirm, that the stiffness optimum of U251 glioma cell migration, morphology, and F-actin retrograde flow rate can be shifted to lower stiffness by simultaneous drug inhibition of myosin II motors and integrin-mediated adhesions.
+
+DESIGN
+To collect enough mRNA for expression analysis on different stiffnesses, U251 cells were cultured on large polyacrylamide gels covering the surface of a one well chamber glass slide (Lab-Tek 154453). After one day of culture on the gels, mRNA was purified from the cells using an RNeasy Mini Kit (Qiagen 74104). mRNA samples were then analyzed at the University of Minnesota Genomics Center using a HumanHT-12 BeadChip microarray (Illumina BD 103-0204). mRNA was collected from three U251 glioma cultures each on 4.6, 20, and 200 kPa PAGs, as well as plastic for a total of 12 mRNA samples. mRNA counts from the BeadChip were compared to a published list8 of cell migration genes to identify the most likely contributors to the motor-clutch model in U251 glioma cells (Extended Data Table 1). The expression levels on the different stiffnesses were compared to each other to identify any significant expression differences among the stiffnesses.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+28530245
+

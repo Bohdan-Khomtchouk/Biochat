@@ -1,0 +1,18 @@
+TITLE
+Oviductal vs. ovarian epithelial transformation yields very different tumor phenotypes in Apc fl/fl;Pten fl/fl mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We treated 6-8 week old mice that had floxed alleles of both Apc and Pten (for both alleles in each case) that also carry an Ovgp1-iCre-ERT2 transgene, with one of two treatments; a third group received neither treatment. The Ovgp1-iCre-ERT2 expresses Cre recombinase fused to a tamoxifen-inducible fragment of the estrogen receptor, in tissues where the Ovgp1 gene (oviductal glycoprotein 1) is expressed, which is almost exclusively in mouse oviductal epithelium (equivalent to human fallopian tube epithelium = FTE). Treating the mice with tamoxifen permits the Cre recombinase to enter the cell nucleus and inactivate the Apc and Pten genes. Six of the mice were treated with intraperitoneal injection of tamoxifen (0.1g/kg of body weight) dissolved in corn oil on days 1 and 3 and developed oviductal tumors (OdT) yielding 6 of the samples. Four mice (yielding 5 samples) were instead injected with 50 million plaque-forming units of replication-incompetent AdCre into both ovarian bursal cavities on day 1, which inactivated Apc and Pten in the ovarian surface epithelium (OSE), and lead to ovarian tumors (OT). Ovaries were also harvested from four untreated 6-8 week old mice with the same genotype, with two ovaries from each mouse comprising one control sample. RNA was purified from tumor or normal tissue, and targets for Affymetrix arrays synthesized from the mRNAs.  We used Affymetrix Mouse Gene 2.1 ST arrays, which hold 41345 probe-sets, but we largely analyzed just those 25216 probe-sets that were mapped to Entrez gene IDs.  Raw data was processed with Robust Multi-array Average algorithm (RMA).  Data is log2-transformed transcript abundance estimates. We fit a one-way ANOVA model to the three groups of samples.  We supply a supplementary excel workbook that holds the same data as the data matrix file, but also holds the probe-set annotation at the time we analyzed the data, and some simple statistical calculations, which select subsets of the probe-sets as differentially expressed.  Consumers should consider obtaining more up-to-date probe-set annotation for the array platform. We also provide supplementary excel files that show our simple analysis of GSE6008, which consists of 99 human ovarian tumor samples of 4 types, and 4 normal ovary samples, where we fit an ANOVA model to the 5 groups. In yet another supplementary file we show the correlation between each human tumor and mouse tumor, where we correlate the difference in log2-transformed values of each tumor from the average of the normals for the same species, for just those genes that were 1-to-1 best homologs according to build 68 of NCBI's Homologene, in order to see how much the human tumors resemble the mouse tumors.
+
+DESIGN
+Six oviductal tumor samples from 6 mice with conditional knockout of Apc and Pten driven by an Ovgp1-iCre-ERT2 transgene , 5 ovarian tumor samples from 4 mice with conditional knockout of Apc and Pten driven by injection of AdCre into both ovarian bursal cavities, and 4 normal ovary samples from 4 mice.
+
+PLATFORM
+GPL17400 [MoGene-2_1-st] Affymetrix Mouse Gene 2.1 ST Array [transcript (gene) version]
+
+CITATIONS
+27538791
+

@@ -1,0 +1,18 @@
+TITLE
+A kinase-phosphatase switch transduces environmental information into a bacterial cell cycle circuit
+
+ORGANISM
+Caulobacter vibrioides
+
+SUMMARY
+The bacterial cell cycle has been extensively studied under standard growth conditions. How it is modulated in response to environmental changes remains poorly understood. Here, we demonstrate that the freshwater bacterium Caulobacter crescentus blocks cell division and grows to filamentous cells in response to stress conditions affecting the cell membrane. Our data suggest that stress switches the membrane-bound cell cycle kinase CckA to its phosphatase mode, leading to the rapid dephosphorylation, inactivation and proteolysis of the master cell cycle regulator CtrA. The clearance of CtrA results in downregulation of division and morphogenesis genes and consequently a cell division block. Upon shift to non-stress conditions, cells quickly restart cell division and return to normal cell size. Our data indicate that the temporary inhibition of cell division through the regulated inactivation of CtrA constitutes a growth advantage under stress. Taken together, our work reveals a new mechanism that allows bacteria to alter their mode of proliferation in response to environmental cues by controlling the activity of a master cell cycle transcription factor. Furthermore, our results highlight the role of a bifunctional kinase in this process that integrates the cell cycle with environmental information.
+
+DESIGN
+RNA-sequencing was performed to determine gene expression changes induced by salt stress (100 mM NaCl), ethanol stress (4% EtOH) or by loss of DivL function. RNA abundance in wild type cultures grown for 30 and 60 min in the presence of 100 mM NaCl or 4% ethanol (EtOH) was compared to the untreated wild type control. To analyze gene expression changes induced by loss of DivL function, a divLts mutant strain was grown for 60 min at the restrictive temperature of 37C and RNA abundance was compared to wild type cells grown at 37C.
+
+PLATFORM
+GPL18006 Illumina HiSeq 2500 (Caulobacter vibrioides)
+
+CITATIONS
+27941972
+

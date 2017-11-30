@@ -1,0 +1,18 @@
+TITLE
+Breast tumors from CHEK2 1100delC mutation carriers: genomic landscape and clinical implications (GEX)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Introduction: CHEK2 is a moderate penetrance breast cancer risk gene, whose truncating mutation 1100delC increases the risk about two fold. We pursued to investigate gene copy number aberrations and gene expression profiles that are typical for breast tumors of CHEK2 1100delC mutation carriers. Materials and methods: A total of 126 breast tumor tissue specimens including 32 samples from patients carrying CHEK2 1100delC were studied in array comparative genomic hybridization (aCGH) and gene expression experiments (GEX). After dimensionality reduction with CGHregions R package, CHEK2 1100delC associated regions in the aCGH data were detected by Wilcoxon rank sum test. Linear model was fitted to GEX data with R package limma. Genes whose expression levels were associated with CHEK2 1100delC mutation were detected by Bayesian method. Results: We discovered four lost and three gained CHEK2 1100delC related loci. These include losses of 1p13.3-31.3, 8p21.1-2, 8p23.1-2 and 17p12-13.1 as well as gains of 12q13.11-3, 16p13.3 and 19p13.3. Twenty-eight genes located on these regions showed differential expression between CHEK2 1100delC and other tumors nominating them as candidates for CHEK2 1100delC associated tumor progression drivers. These included CLCA1 on 1p22 as well as CALCOCO1, SBEM and LRP1 on 12q13. Altogether 188 genes were differentially expressed between CHEK2 1100delC and other tumors. Of these, 144 had elevated and 44 lowered expression levels. Our results suggest WNT pathway as a driver of tumorigenesis in breast tumors of CHEK2 1100delC mutation carriers and a role for the olfactory receptor protein family in cancer progression. Differences in the expression of the 188 CHEK2 1100delC associated genes divided breast tumor samples from three independent datasets into two groups that differed in their relapse-free survival time. Conclusions: We have shown that copy number aberrations of certain genomic regions are associated with CHEK2 mutation 1100delC. On these regions we have identified potential drivers of CHEK2 1100delC associated tumorigenesis, whose role in cancer progression is worth investigating. Furthermore, poorer survival related to the CHEK2 1100delC gene expression signature highlights pathways that are likely to have a role in the development of metastatic disease in carriers of CHEK2 1100delC mutation.
+
+DESIGN
+78 samples from breast tumors: 13 tumors from CHEK2 1100delC mutation carriers, 65 other tumors
+
+PLATFORM
+GPL11052 FI SWEGENE H_v2.1.1 55K
+
+CITATIONS
+21542898
+

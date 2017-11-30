@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling of 22 inbred parental strains
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The remarkable success observed in using genome-wide association (GWA) mapping in human cohorts to identify multiple genes linked to a wide number of traits related to complex diseases has renewed interest in applying genome-wide association mapping techniques to model organisms such as inbred laboratory mice.  However, unlike humans, the limited genetic diversity present in the ancestry of laboratory mice combined with intense selection pressure over the past decades have yielded an intricate population structure within the genomes of laboratory mouse that could potentially complicate the results obtained from such a study.  We sought to empirically assess the viability of genome-wide association studies in inbred mice using hundreds of expression traits where the true location of the eQTL is known a priori.  Using data from a previously published experimental mouse cross (C57BL/6J x C3H/HeJ), we selected over a thousand of the strongest cis-acting expression QTLs and measured transcript abundance levels of the associated expression traits in 16 classical and 3 wild-derived inbred strains. We next perform a genome-wide association scan demonstrating the low statistical power of such studies and show empirically the large extent to which high allelic association gives rise to spurious associations.  Moreover, we provide evidence illustrating that in a large fraction of cases, the marker with the most significant p-values fails to map to the location of the true eQTL; hence, as a result, selecting the most significant marker may lead to spurious findings.  Finally, we demonstrate that combining linkage analysis with association mapping provides significant increases in statistical power over a stand-alone GWA study as well as significantly higher mapping resolution than either study alone.
+
+DESIGN
+RNA preparation and array hybridizations were performed at Rosetta Inpharmatics.  The custom ink-jet microarrays were manufactured by Agilent Technologies (Palo Alto, CA).  A custom array was designed for this study and consisted of 39,280 non-control oligonuceotides extracted from the mouse Unigene clusters and combined with RefSeq sequences and RIKEN full-length cDNA clones.  Mouse liver tissues were homogenized and total RNA extracted using Trizol reagent (Invitrogen, CA) according to manufacturer’s protocol.  Three µg of total RNA was reverse transcribed and labeled with either Cy3 or Cy5 fluorochrome.  Labeled complementary RNA (cRNA) from each animal was hybridized against a cross-specific pool of labeled cRNAs constructed from equal aliquots of RNA from representative animals for each strain. The hybridizations were performed in fluor reversal for 24 hours in a hybridization chamber, washed, and scanned using a confocal laser scanner.  Arrays were quantified on the basis of spot intensity relative to background, adjusted for experimental variation between arrays using average intensity over multiple channels, and fitted to a previously described error model to determine significance23 (type I error).
+
+PLATFORM
+GPL3677 Rosetta/Merck Mouse 44k 1.0 microarray
+
+CITATIONS
+20135320 , 20810919
+

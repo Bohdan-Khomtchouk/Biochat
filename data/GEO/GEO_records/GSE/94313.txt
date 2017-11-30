@@ -1,0 +1,18 @@
+TITLE
+Subtracting the sequence bias from partially digested MNase-seq data reveals a general contribution of TFIIS to nucleosome dynamics
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Understanding chromatin dynamics is a key to other related processes, including DNA replication, transcription and recombination. As a first step, recently, an increasing amount of effort has been devoted to precisely define nucleosome positioning in different organisms. The most popular method to do so is digestion by Micrococcal nuclease (MNase), nowadays followed by ultrasequencing of the generated fragments. Although the sequence bias of MNase has been known for a long time, a data-based way of correcting this bias for sequencing experiments is still missing. Here we provide such a method, based on the digestion of naked DNA and the use of the bioinformatic tool DANPOS. Using Saccharomyces cerevisiae as a model, we demonstrate that the overall quality of the data is better after the correction proposed here. The characteristics of the method make it perfectly applicable to any other organism. Moreover, we find that the correction affects more to TATA containing genes than to TATA-like genes. Importantly, the correction uncovers a new role for TFIIS in chromatin dynamics. The absence of TFIIS caused a general increase in nucleosome fuzziness, and a higher peak of the -1 nucleosome at some promoters
+
+DESIGN
+Mnase-Seq experiments in both strains WT and dst1∆ mutant
+
+PLATFORM
+GPL13272 Illumina Genome Analyzer IIx (Saccharomyces cerevisiae) GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

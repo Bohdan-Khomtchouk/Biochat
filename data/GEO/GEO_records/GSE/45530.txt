@@ -1,0 +1,18 @@
+TITLE
+DNA-RNA Immunoprecipitation sequencing (DRIP-seq) of human NT2 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Strand asymmetry in the distribution of guanines and cytosines, measured by GC skew, predisposes DNA sequences towards R-loop formation upon transcription. Previous work revealed that GC skew and R-loop formation associate with a core set of unmethylated CpG island (CGI) promoters in the human genome. Here, we show that GC skew can distinguish four classes of promoters, including three types of CGI promoters, each associated with unique epigenetic and gene ontology signatures. In particular, we identify a strong and a weak class of CGI promoters and show that these loci are enriched in distinct chromosomal territories reflecting the intrinsic strength of their protection against DNA methylation. Interestingly, we show that strong CGI promoters are depleted from the X chromosome while weak CGIs are enriched, a property consistent with the acquisition of DNA methylation during dosage compensation. Furthermore, we identify a third class of CGI promoters based on its unique GC skew profile and show that this gene set is enriched for Polycomb group targets. Lastly, we show that nearly 2,000 genes harbor GC skew at their 3’ ends and that these genes are preferentially located in gene-dense regions and tend to be closely arranged. Genomic profiling of R-loops accordingly showed that a large proportion of genes with terminal GC skew form R-loops at their 3’-ends, consistent with a role for these structures in permitting efficient transcription termination. Altogether, we show that GC skew and R-loop formation offer significant insights into the epigenetic regulation, genomic organization, and function of human genes.
+
+DESIGN
+DRIP-seq was performed on genomic DNA extracted from human pluripotent Ntera2 cells. The DNA was either fragmented using HindIII, EcoRI, BsrGI, XbaI and SspI (DRIP-seq 1) or BamHI, NcoI, ApaLI, NheI and PvuII (DRIP-seq 2, two technical replicates). Input DNA was also fragmented with each restriction enzyme cocktail and sequenced alongside.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+23868195
+

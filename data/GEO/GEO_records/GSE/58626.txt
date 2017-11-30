@@ -1,0 +1,18 @@
+TITLE
+Suppression of the FOXM1 transcriptional program via novel small molecule inhibition
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The transcription factor FOXM1 binds to sequence-specific motifs on DNA (C/TAAACA) through its DNA binding domain (DBD), and activates proliferation- and differentiation-associated genes. Aberrant overexpression of FOXM1 is a key feature in oncogenesis and progression of many human cancers. Herein we identify novel inhibitors of FOXM1 that block DNA binding from a high-throughput screen applied to a library of 54,211 small molecules. One compound, FDI-6 (NCGC00099374) is studied in depth and is shown to bind directly to FOXM1 protein, displace the transcription factor from genomic targets in MCF-7 breast cancer cells, and induce concomitant transcriptional down-regulation. Global transcript profiling of MCF-7 cells by RNA-seq shows that FDI-6 specifically down regulates FOXM1-activated genes with FOXM1 occupancy confirmed by ChIP-seq. This small molecule mediated effect is selective for FOXM1-controlled genes with no effect on genes regulated by homologous forkhead family factors.
+
+DESIGN
+12 samples, 100 single-ended RNAseq libraries: 3 replicates for untreated (0 hours); 3 replicates for 3 hours treatment; 3 replicates for 6 hours treatment; 3 replicates for 9 hours treatment. Treatment: compound FDI-6 inhibiting binding of FOXM-1 to DNA.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25387393 , 26484143
+

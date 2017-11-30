@@ -1,0 +1,18 @@
+TITLE
+Sessile serrated adenomas and conventional adenomas of the colon
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Sessile serrated adenomas are now recognized as precursor lesions of a substantial subset of colorectal cancers arising via a so-called “serrated pathway”. However, their biological markers remain to be defined. The aim of our study was to identify differentially expressed genes in sessile serrated adenomas, hyperplastic polyps and tubular adenomas. Gene expression analysis demonstrated molecular differences between polyp types. Further studies using QRT-PCR on Cathepsin E demonstrated a significantly (p < 0.05) higher expression in sessile serrated adenomas as compared to both other polyp types. Trefoil Factor 1, showed the same trend of expression for sessile serrated adenomas as compared to hyperplastic polyps, and was significantly higher in both polyps compared to tubular adenomas. Immunohistochemistry for both proteins demonstrated strong cytoplasmic staining of abnormal crypts in all sessile serrated adenomas while staining in tubular adenomas and hyperplastic polyps was weak and focal. BRAF and KRAS mutation analysis were employed to further validate polyp discrimination. The findings demonstrated the positive association of the BRAF mutation, V600E, with sessile serrated adenomas and KRAS mutations with tubular adenomas (P < 0.05). This study demonstrates CTSE and TFF1 over-expression in sessile serrated adenomas compared to both hyperplastic polyps and tubular adenomas. Keywords: colonic polyp tissue comparison, linear modelling, SSA
+
+DESIGN
+Microarray analysis was performed on 13 SSAs and 11 TAs. SSAs were from 4 males and 9 females (mean age of 75) and TAs were from 5 males and 6 females (mean age of 72). Samples were directly hybridised to each other (SSA versus TA) or to a pooled normal control (SSA versus control). A linear model (Smyth 2004) was fitted to the data bringing together the three contrasts: SSA versus control, TA versus control and SSA versus TA. Human OligoLibrary (Compugen Human Oligo Library (v1) containing 18861 60-mer oligonucleotides, representing approximately 16,000 unique genes) by the Adelaide Microarray Centre (Australia) was used. Slides were scanned using a GenePix 3000B scanner (Axon Instruments, Sunnydale, CA), and the Spot package (CSIRO, Australia) was used to identify spots and estimate fore- and background intensities (using a morphological opening background estimator) (Yang, Buckley et al. 2001; Ritchie 2004). Data analysis was performed in R (www.r-project.org) using the Limma package of Bioconductor (Gentleman, Carey et al. 2004; Smyth 2004). Loess print tip method was used to correct for dye-bias and intensity within each group of adjacent spots printed by one pin (Yang, Dudoit et al. 2002). Linear modelling was performed with the Limma package of Bioconductor (Smyth 2004).
+
+PLATFORM
+GPL5391 Adelaide Microarray Facility CompuGen Human 19K Oligo Library
+
+CITATIONS
+19172291
+

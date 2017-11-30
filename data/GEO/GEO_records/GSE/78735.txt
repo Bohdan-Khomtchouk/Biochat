@@ -1,0 +1,18 @@
+TITLE
+Time course transcriptional profiles of the Arabidopsis thaliana response to flg22 infiltration for all combinatorial genotypes of the alleles dde2-2, ein2-1, pad4-1, and sid2-2.
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Plant immunity protects plants from numerous potentially pathogenic microbes. The biological network that controls plant inducible immunity must function effectively even when network components are targeted and disabled by pathogen effectors. Network buffering could confer this robustness by allowing different parts of the network to compensate for loss of each other’s functions. Networks rich in buffering rely on interactions within the network, but these mechanisms are difficult to study by simple genetic means. Through a network reconstitution strategy, where we disassemble and stepwise reassemble the plant immune network that mediates Pattern-Triggered-Immunity, we have resolved systems-level regulatory mechanisms underlying the Arabidopsis transcriptome response to the immune stimulant flagellin-22 (flg22). These mechanisms show widespread evidence of interactions among major sub-networks—the components that we call sectors—in the flg22-responsive transcriptome. Many of these interactions result in network buffering. Resolved regulatory mechanisms also show unexpected patterns for how the jasmonate (JA), ethylene (ET), phytoalexin-deficient 4 (PAD4), and salicylate (SA) signaling sectors control the transcriptional response to flg22. We demonstrate that many of these mechanisms are hidden from the traditional genetic approach of single-gene null-mutant analysis. As potential pathogenic perturbations to the network, null-mutant effects can be buffered by the immune network as well.
+
+DESIGN
+We profiled the Arabidopsis thaliana response to flg22 infiltration in the wild type (Col-0), as well as 4 single-gene mutants, 6 double-gene mutants, 4 triple-gene mutants, a quadruple-gene mutant for the null-mutant alleles dde2-2, ein2-1, pad4-1, and sid2-2, as well as a control genotype, fls2, which has a null-mutation in the flg22 receptor gene. Profiles were collected through a detailed time course 0, 1, 2, 3, 5, 9, and 18 hrs after infiltration. 0 hrs samples were untouched. Three biological replicates were profiled for each genotype:time combination. Each biological replicate was collected from the pooled tissue of 4 independent biological experiments. In each of these experiments, 3 leaves, leaf stages 7-9, of 31-32 days old plants were infiltrated with 1uM flg22 and collected at the indicated timepoint. Thus each biological replicate contained the tissue of 4*3 = 12 leaves. In total, 357 separate samples were sequenced: 17 genotypes * 7 time points * 3 biological replicates = 357. Internal barcodes—the first 4-8 bases of the sequence—were used to multiplex stranded mRNA Tag-Seq libraries (1) for sets of 16 samples each into a single lane of an Illumina Genome Analyzer IIX flowcell. References. 1.  Rallapalli G, Kemen EM, Robert-Seilaniantz A, Segonzac C, Etherington GJ, Sohn KH, et al. EXPRSS: an Illumina based high-throughput expression-profiling method to reveal transcriptional dynamics. BMC Genomics. 2014 Jan;15:341. Please note that [1] concise genotype name indicates the presence (uppercase) or absence (lowercase) of the sectors JA, ET, PAD4, and SA. dde2-2, ein2-1, pad4-1, and sid2-2 remove the JA, ET, PAD4, and SA signaling sectors, respectively. [2] the readme.txt contains Sample acc, title and processed data column headers indicating which sample each data column belongs to.
+
+PLATFORM
+GPL11221 Illumina Genome Analyzer IIx (Arabidopsis thaliana)
+
+CITATIONS
+28472137
+

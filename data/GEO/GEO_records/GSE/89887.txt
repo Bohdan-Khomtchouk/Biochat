@@ -1,0 +1,18 @@
+TITLE
+morc-1 regulates transgenerational heterochromatin maintenance at nuclear RNAi targets
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+The germline is an immortal cell lineage and therefore must accurately transmit genetic and epigenetic information over infinite cell divisions to ensure fertility and species survival. Endogenous siRNAs (endo-siRNAs), which are highly expressed in the parental germline and inherited in their progeny, represent one mechanism by which epigenetic information can be transmitted from one generation to the next. In C. elegans, this is accomplished by the nuclear RNAi pathway, which ensures robust inheritance of endo-siRNAs and of target gene silencing through deposition of H3K9me3 marks at target loci. How these marks are maintained in subsequent generations is unknown. Here, we show that the C. elegans micro-orchidia homolog, MORC-1, functions downstream of endo-siRNAs to mediate target silencing and maintenance of siRNA-dependent H3K9me3 marks. Like the established members of the nuclear RNAi pathway, morc-1 is essential for germline maintenance and thus morc-1(-) mutants exhibit a mortal germline phenotype. Furthermore, morc-1(-) mutants exhibit severe decondensation of germline chromatin. Through a forward genetic screen, we have identified mutations in the gene encoding MET-1, a H3K36 histone methyltransferase, that potently suppress morc-1(-) germline mortality. We show that morc-1(-) mutants exhibit progressive, met-1-dependent enrichment of H3K36me3 and that mutation of met-1 can restore germline chromatin organization in late generation morc-1(-) mutants. Our data suggest that MORC-1 is required to repress MET-1 activity at nuclear RNAi target genes and that in the absence of this repression, MET-1-mediated encroachment of euchromatin leads to detrimental decondensation of germline chromatin and germline mortality. 
+
+DESIGN
+We performed replicate small RNA-seq, mRNA-seq, and ChIP-seq of two histone methylation marks (H3K9me3, H3K36me3) in morc-1 mutant animals with wild-type and hrde-1 mutant animals as controls. In addition, ChIP-seq was performed in the same strains in a met-1 mutant background.
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+28535375
+

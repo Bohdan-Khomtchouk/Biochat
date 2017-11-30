@@ -1,0 +1,18 @@
+TITLE
+Origins and functional evolution of Y chromosome gene repertoires across the class Mammalia
+
+ORGANISM
+Notamacropus eugenii ; Callithrix jacchus ; Loxodonta africana ; Rattus norvegicus
+
+SUMMARY
+We collected (Illumina) RNA-seq data (polyadenylated RNA fraction) for a number of tissue samples from common marmoset and elephant. We developed a subtraction approach based on male/female RNA-seq data, Illumina genomic data and available genomes to identify and assemble Y transcripts. For marmoset samples, we added Y coding genes and noncoding sequences to the reference genomes in order to assess their expression levels. We then mapped all RNA-seq reads with TopHat 1.4.0 and used Cufflinks 2.0.0 (all mapped reads, embedded multi-read and fragment bias correction) to calculate the FPKM (Fragments Per Kilobase of transcript per Million mapped reads) values for all genes in the genomes with our refined annotations.
+
+DESIGN
+Sequence and expression levels of reconstructed Y-linked genes
+
+PLATFORM
+GPL14844 Illumina HiSeq 2000 (Rattus norvegicus) GPL17712 Illumina HiSeq 2000 (Callithrix jacchus) GPL17713 Illumina Genome Analyzer IIx (Callithrix jacchus) GPL17714 Illumina Genome Analyzer IIx (Loxodonta africana) GPL18016 Illumina HiSeq 2000 (Loxodonta africana) GPL18017 Illumina HiSeq 2000 (Macropus eugenii)
+
+CITATIONS
+24759410
+

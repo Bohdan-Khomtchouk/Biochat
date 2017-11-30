@@ -1,0 +1,18 @@
+TITLE
+Maize seedling mRNA-seq of splicing factor mutants and their wild-type siblings
+
+ORGANISM
+Zea mays
+
+SUMMARY
+The maize Rough endosperm3 (Rgh3) gene encodes an ortholog of the human essential splicing factor, ZRSR2. To test whether a mutation in Rgh3 affects mRNA splicing, we compared rgh3 mutants and wild-type sibling transcriptomes in an RNA-seq experiment. Twelve libraries were constructed with mRNA extracted from the roots and shoots of three seedlings of each genotype. The libraries were multiplexed and sequenced on one lane of the HiSeq 2000 platform. The run produced 149 million paired-end 100 bp reads that mapped to 35,028 genes. Two approaches were used to analyze the dataset. In the first approach, Mosaik2, FreeBayes, GSNAP, and Cufflinks were used to identify differences in transcript isoform abundance in a SNP-tolerant fashion. During reverse-transcription PCR validation, six examples of intron retention were found to occur more frequently in rgh3 seedlings, and all six introns were members of a rare class of introns called U12-type introns. The second approach utilized a t-test to determine whether more reads were mapped to U12-type introns in rgh3 libraries relative to wild-type libraries. Out of all U12-type introns within genes that are expressed at a early seedling stage, 43% exhibit splicing defects in rgh3 mutants. These U12-type intron splicing defects include intron retention and cryptic splice site activation. We report that the rgh3 mutation specifically impairs the U12-type intron splicing.
+
+DESIGN
+Libraries were built from three replicates of each: wild-type roots, wild-type shoots, rgh3 roots, and rgh3 shoots
+
+PLATFORM
+GPL15463 Illumina HiSeq 2000 (Zea mays)
+
+CITATIONS
+28242684
+

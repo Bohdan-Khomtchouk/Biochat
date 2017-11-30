@@ -1,0 +1,18 @@
+TITLE
+In vivo RNAi screening identifies regulators of actin dynamics as key determinants of lymphoma progression
+
+ORGANISM
+Mus musculus ; synthetic construct
+
+SUMMARY
+Mouse models have dramatically improved our understanding of cancer development and tumor biology.  However, these models have shown limited efficacy as tractable systems for unbiased genetic experimentation.  Here, we report the adaptation of loss of function screening to mouse models of cancer.  Using this approach, we have been able to screen nearly 1000 genetic alterations in the context of an individual tumor-bearing mouse.  Results from these experiments have identified a central role for regulators of actin dynamics and cell motility in lymphoma cell homeostasis in vivo, and validation experiments confirmed that these proteins represent bona fide lymphoma drug targets.  Additionally, suppression of one of these targets, Rac2, potentiated the action of the front-line chemotherapeutic vincristine in vivo, suggesting a critical relationship between tumor cell motility and tumor relapse in hematopoietic malignancies.
+
+DESIGN
+Eu-myc Arf-/- lymphoma cells were transduced with a GFP-tagged, pooled library of 2250 shRNAs targeting 1000 genes with known or putative roles in cancer. Infected cells were GFP sorted. Acutely after sorting, lymphoma cells were tail-vein injected into three syngeneic recipient mice, maintained in three separate culture dishes for two weeks, or collected immediately to serve as a reference sample. At the time of lymphoma presentation, approximately two weeks after injection, tumors were harvested and genomic DNA was extracted from primary tumors and cultured cells. shRNAs were PCR amplified from genomic DNA using common primers, and hairpin representation was analyzed by high throughput sequencing (454 sequencing was used to determine the relative abundance of shRNAs before and after a period of cancer cell growth.). 8 samples were examined - the retroviral plasmid library, cells that were collected immediately after retroviral infection and subsequent GFP-sorting, the three samples that were maintained in vitro for two weeks, and tumors from three individual mice.
+
+PLATFORM
+GPL9273 454 GS FLX (Mus musculus) GPL9278 454 GS FLX (synthetic construct)
+
+CITATIONS
+19783987
+

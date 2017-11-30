@@ -1,0 +1,18 @@
+TITLE
+Hypoxia induces pluripotency in primordial germ cells by HIF1 alpha stabilization and Oct4 deregulation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To study the mechanisms of pluripotency induction, we compared gene expression in pluripotent embryonic germ cells (EGCs) and unipotent primordial germ cells (PGCs). We found 11 genes  ≥1.5-fold overexpressed in EGCs. None of the genes identified were Yamanaka's genes, but instead related to glycolytic metabolism. The prospect of pluripotency induction by cell metabolism manipulation was investigated by hypoxic culturing. We demonstrate that hypoxia alone induces reprogramming in PGCs, giving rise to hypoxia-induced EGC-like cells (hiEGL), which differentiate into cells of the three germ layers in vitro, and contribute to the ICM in vivo, demonstrating pluripotency. The mechanism of hypoxia induction involves HIF1? stabilization and Oct4 deregulation. However, hiEGL cannot be passaged long term. Self-renewal capacity is not achieved by hypoxia likely due to lack of upregulation of c-Myc and Klf4. Gene expression analysis of hypoxia signalling suggests that hiEGLs have not reached the stabilization phase of cell reprogramming. The data suggests that the properties of stemness, pluripotency and selfrenewal, are differentially regulated in primordial germ cell reprogramming induced by hypoxia. 8.5 dpc Oct4-GFP PGCs cultured in hypoxia conditions for 6 days were isolated by FACS. To eliminate the possibility of differences due solely to anaerobic respiration, TGC-10 EGC line was exposed to the hypoxia-mimetic agent Cl2Co at 150 microM for four hours prior to RNA isolation. RNA samples to be analyzed by microarrays were prepared using Qiagen RNeasy columns with on-column DNA digestion. 300 ng of total RNA per sample was used as input into a linear amplification protocol (Tetu-Bio), which involved synthesis of T7-linked double-stranded cDNA and 12 hours of in vitro transcription incorporating biotin-labelled nucleotides. Purified and labeled cRNA was then hybridized for 18h onto MouseRef-8 v2 expression BeadChips (Illumina) following the manufacturer's instructions. After washing, chips were stained with streptavidin-Cy3 (GE Healthcare) and scanned using the iScan reader (Illumina) and accompanying software. Samples were exclusively hybridized as biological replicates. The bead intensities were mapped to gene information using BeadStudio 3.2 (Illumina). Background correction was performed using the Affymetrix Robust Multi-array Analysis (RMA) background correction model. Variance stabilization was performed using the log2 scaling and gene expression normalization was calculated with the method implemented in the lumi package of RBioconductor. Data post-processing and graphics were performed with in-house developed functions in Matlab. Hierarchical clustering of genes and samples was performed with one minus correlation metric and the unweighted average distance (UPGMA) (also known as group average) linkage method.
+
+DESIGN
+14 samples were analyzed EG: pluripotent Embryonic Germ Cells (EGCs), 2 replicates hiEGL1: hypoxia-induced EGC-like cells (hiEGL), 2 replicates hiEGL2: hypoxia-induced EGC-like cells (hiEGL), 2 replicates ESCm: Embryonic Stem Cells (ESCs) male, 2 replicates ESCf: Embryonic Stem Cells (ESCs) female, 2 replicates EpiT9: Epiblast Stem Cells T9, 1 replicate EpiE3: Epiblast Stem Cells E3, 1 replicate PGC11.5: unipotent Primordial Germ Cells (PGCs) from dpc 11.5 , 2 replicates
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

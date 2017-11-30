@@ -1,0 +1,18 @@
+TITLE
+Detection of Pol IV-dependent transcripts at the genomic scale in Arabidopsis reveals features and regulation of siRNA biogenesis
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+24 nucleotide siRNAs are central players in RNA-directed DNA methylation (RdDM), a process that establishes DNA methylation at transposable elements to ensure genome stability. The plant-specific RNA polymerase IV (Pol IV) is required for siRNA biogenesis and is thought to transcribe RdDM loci to produce primary transcripts that serve as precursors to siRNAs. Yet, no such transcripts have ever been reported. Here, through RNA sequencing and double-stranded RNA sequencing in genotypes that compromise the dicing of siRNA precursors, we were able to identify Pol IV-dependent transcripts from tens of thousands of loci. We show that Pol IV-dependent transcripts correspond to both DNA strands, while the Pol II-dependent transcripts produced upon de-repression of the loci are derived from primarily one strand. We show that Pol IV-dependent transcripts have a 5’ monophosphate, lack a polyA tail at the 3’ end, and contain no introns; these features distinguish them from Pol II-dependent transcripts. Moreover, RDR2 is shown to play similar roles with Pol IV in both the abundance of siRNA precursors and siRNAs as well as the CHH DNA methylation. The decreased CHH methylation at dcl234 can inhibit the transcription of Pol IV at DRM2-target sites. Finally, the regulations of siRNA biogenesis were explored.
+
+DESIGN
+To detect siRNA precursors transcribed by RNA polymerase IV, the genome wide profiling of RNA were carried out at  dcl234 and dcl234 nrpd1.  Different types of RNA (including Total RNA, polyA+ RNA, polyA- RNA, double stranded RNA) libraries were built to detect different transcripts. RDR2 is a RNA-dependent RNA polymerase in Pol IV complex, so the RNA-seq libraries with the mutation of RDR2 were also built. In addition, smRNA libraries with mutations blocking siRNA biogenesis were also built
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+25414514
+

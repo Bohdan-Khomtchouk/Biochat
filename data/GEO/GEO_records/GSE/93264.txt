@@ -1,0 +1,18 @@
+TITLE
+The nucleoid occlusion factor Noc controls DNA replication initiation in Staphylococcus aureus [ChIP-Seq]
+
+ORGANISM
+Staphylococcus aureus subsp. aureus NCTC 8325 ; Bacillus subtilis PY79
+
+SUMMARY
+Successive division events in the spherically shaped bacterium Staphylococcus aureus are oriented in three alternating perpendicular planes. The mechanisms that underlie this relatively unique pattern of division and coordinate it with chromosome segregation remain largely unknown. Thus far, the only known spatial regulator of division in this organism is the nucleoid occlusion protein Noc that inhibits assembly of the cytokinetic ring over the chromosome. However, Noc is not essential in S. aureus, indicating that additional regulators are likely to exist. To search for these factors, we screened for mutants that are synthetic lethal with Noc inactivation. Our characterization of these mutants led to the discovery that S. aureus Noc also controls the initiation of DNA replication. We show that cells lacking Noc over-initiate and mutations in the initiator gene dnaA suppress this defect. Importantly, these dnaA mutations also partially suppress the division problems associated with ∆noc. Reciprocally, we show that over-expression of DnaA enhances the over-initiation and cell division phenotypes of cells lacking Noc. Thus, a single factor both blocks cell division over chromosomes and helps to ensure that new rounds of DNA replication are not initiated prematurely. This degree of economy in coordinating key cell biological processes has not been observed in rod-shaped bacteria and may reflect the challenges posed by the reduced cell volume and complicated division pattern of this spherical pathogen.
+
+DESIGN
+ChIP-seq experiments were performed on wild type and mutant cells of Staphylococcus aureus HG003 (Herbert et al, 2010 PMID: 20212089), and Bacillus subtilis PY79 (Youngman et al 1983, PMID: 6300908) growing in tryptic soy broth (TSB) and CH, separately, at 37°C with aeration.
+
+PLATFORM
+GPL20691 Illumina MiSeq (Bacillus subtilis PY79) GPL22897 Illumina MiSeq (Staphylococcus aureus subsp. aureus NCTC 8325)
+
+CITATIONS
+28723932
+

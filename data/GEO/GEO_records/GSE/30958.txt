@@ -1,0 +1,18 @@
+TITLE
+Plant Y-chromosome degeneration is retarded by haploid purifying selection.
+
+ORGANISM
+Silene latifolia ; Silene vulgaris
+
+SUMMARY
+Sex chromosomes evolved many times independently in many different organisms. According to the currently accepted model, X- and Y-chromosomes evolve from a pair of autosomes via a series of inversions leading to step-wise expansion of a non-recombining region on the Y chromosome (NRY) and the consequential degeneration of genes trapped in the NRY. Our results suggest that plants represent an exception to this rule due to their unique life-cycle that includes alteration of diploid and haploid generations and widespread haploid expression of genes in plant gametophytes. Using a new high-throughput approach we identified over 400 new genes expressed from X- and Y- chromosomes in Silene latifolia, a plant that evolved sex chromosomes about 10 million years ago. Y-linked genes show faster accumulation of amino-acid replacements and loss of expression, compared to X-linked genes. These degenerative processes are significantly less pronounced in more constrained genes and genes that are likely exposed to haploid-phase selection. This may explain why plants retain hundreds of expressed Y-linked genes despite millions of years of Y-chromosome degeneration, while animal Y-chromosomes are almost completely degenerate.
+
+DESIGN
+We used a combination of Illumina sequencing of cDNA (RNAseq) and segregation analysis of SNPs identified from RNAseq to identify sex-linked genes in plant Silene latifolia. The experiment involved RNAseq from male and female parents and F1 progeny for two genetic crosses. We submit raw data in fastq format for 11 samples. Four of these samples are single end Solexa reads (a single file per sample) and seven samples were sequenced with paired end Solexa sequencing (two fastq files per sample) - 18 files in total.
+
+PLATFORM
+GPL13973 Illumina Genome Analyzer (Silene latifolia) GPL13974 Illumina Genome Analyzer (Silene vulgaris)
+
+CITATIONS
+21889890
+

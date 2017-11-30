@@ -1,0 +1,18 @@
+TITLE
+Topoisomerase I suppresses genomic instability by preventing interference between replication and transcription
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Topoisomerase I (Top1) is a key enzyme acting at the interface between DNA replication, transcription and mRNA maturation. Here, we show that Top1 suppresses genomic instability in mammalian cells by preventing conflicts between transcription and DNA replication. Using DNA combing and ChIP-on-chip, we found that Top1-deficient cells accumulate stalled replication forks and chromosome breaks in S phase and that breaks occur preferentially at gene-rich regions of the genome. Strikingly, these phenotypes were suppressed by preventing the formation of RNA-DNA hybrids (R-loops) during transcription. Moreover, these defects could be mimicked by depletion of the splicing factor ASF/SF2, which interacts functionally with Top1. Taken together, these data indicate that Top1 prevents replication fork collapse by suppressing the formation of R-loops in an ASF/SF2-dependent manner. We propose that interference between replication and transcription represents a major source of spontaneous replication stress, which could drive genomic instability during early stages of tumorigenesis. Bed files contain the gamma-H2AX enrichment sites described in the paper
+
+DESIGN
+Gamma-H2AX ChIPed vs. Input DNA in HCT116 shTop1 and shCtrl cells
+
+PLATFORM
+GPL4910 [Hs35b_P01R] Affymetrix Human Tiling 2.0R Set, Array 1
+
+CITATIONS
+19838172
+

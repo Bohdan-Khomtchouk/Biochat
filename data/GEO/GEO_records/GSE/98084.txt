@@ -1,0 +1,18 @@
+TITLE
+Regenerative adaptation to electrochemical perturbation in planaria:  a molecular analysis of physiological plasticity
+
+ORGANISM
+Dugesia japonica
+
+SUMMARY
+The development and maintenance of organismal form results from dynamic interactions between genome, protein interaction, physiology and the external environment.  Bioelectric signaling represents an important epigenetic layer of control over processes of large-scale patterning during development and regeneration. However it is still largely unknown how physiological plasticity and adaptation operate during regenerative processes. Planarian flatworms are an exceptional system in which to study the interplay between genetics and environment, as they are able to regenerate any tissue or organ after traumatic injury. Here, we study acquired tolerance to a bioelectric homeostasis-altering pharmacological treatment. After exposure to the non-selective potassium channel blocker BaCl2, D. japonica flatworms display extreme depolarization of the head and then violently degenerate their anterior tissues via an apoptotic mechanism. Remarkably, when kept in fresh barium solution, they then regenerate a head that displays normal bioelectric state and is non-responsive to the channel blocker. Transcriptomics using RNAseq was used to characterize transcriptional changes that occur during this adaptation process, identifying a number of ion translocators that are differentially expressed with BaCl2, including the BK channel which is resistant to barium blockade. Many of these channels were identified as cation transporters (cation-transporting ATPases, small conductance calcium activated potassium (SK) channels, and sodium/hydrogen exchangers), suggesting that the physiological buffering of a depolarizing treatment is dependent on employing alternative means of transporting cations into and out of anterior cells and tissues.  Moreover, pathway enrichment analysis revealed that transcriptional networks related to synaptic plasticity, nervous system development, neurotransmission, and nerve development were increased ~2 to 3-fold. Transcriptome responses were also activated for membrane steady potential, excitatory junction potential, and membrane hyperpolarization, all associated with the modulation of Vmem. The ability to adjust to physiological conditions that are strongly injurious to normal anatomy, by altering the transcriptome is a powerful adaptive capability of physiological circuits. Further studies on this plasticity will shed light on numerous regenerative and patterning mechanisms in the context of evolution, and will contribute to biomedical therapies that exploit this innate robustness.
+
+DESIGN
+Two Control (WT) and two BaCl2 treated.  Total RNA was extracted from wild type D. japonica, D. japonica starved for 35 days, and D. japonica with BaCl2-immune heads. Three biological replicates were obtained from each treatment, with 25 worms per replicate. For the RNAseq experiment, worms were kept in BaCl2 for 35 days, when insensitive heads had fully regenerated. Heads were then amputated, and RNA extracted. Total RNA from whole worms, and worm head fragments was extracted using Trizol (Ambion/ThermoFisher) purification (0.5mL/25 worms). Samples were suspended in two washes of chloroform, and a final isopropanol wash was carried out after pelleting and removal of phenol-chloroform phase. Total RNA was pelleted and then suspended in 80% EtOH. Samples were then shipped to the MIT sequencing core. Quality control for RNA was conducted on an 2100 Agilent Bioanalyzer and RNA was deemed high quality.
+
+PLATFORM
+GPL16430 Illumina HiSeq 2000 (Dugesia japonica)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

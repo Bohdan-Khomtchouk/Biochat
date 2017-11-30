@@ -1,0 +1,18 @@
+TITLE
+Expression data from parental B16F0 cells and B16F0 exosomes [MoEx]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+As a type of secreted membrane vesicle, exosomes are emerging as an important mode of cell-to-cell communication. The objective of this study was to compare the abundance of transcripts present in the parental B16F0 cell to transcripts present in exosomes isolated from B16F0 conditioned media. Identifying local mechanisms of immunosuppression is a key barrier for expanding the clinical benefit of cancer immunotherapy. While exosomes are emerging as a new mode of intercellular communication, their role in establishing a malignant tissue niche remains unclear. Similar to the sculpting of tumor antigens during oncogenesis, a related hypothesis is that proteins secreted by malignant cells are shaped by somatic evolution. To test this hypothesis, we characterized the biological influence of tumor-derived exosomes on immune cell function. In particular, we analyzed exosomes from three melanoma models: B16F0, a non-immunogenic model of malignant melanoma; Cloudman S91, a model of immunogenic melanoma; and Melan-A, an immortalized melanocyte cell line. Using electron microscopy, exosomes derived from all three cell lines were morphologically similar. The exosomes contained receptors derived from the parent cell as demonstrated by IL12RB2 expression on B16F0 exosomes and intact mRNAs. Furthermore, transcript profiling of B16F0 exosomes and cells suggested that exosomal mRNA is enriched for mRNAs that target immune-related pathways, including Ptpn11 that inhibited T cell proliferation and Dnmt3a that inhibited T cell production of IFN-gamma. Functionally, B16F0 exosomes dose-dependently suppressed cell proliferation and the expression of IL12RB2 in primary CD8+ T cells. In contrast, Cloudman S91 exosomes promoted T cell proliferation and Melan-A exosomes had a negligible effect on primary CD8+ T cells. Collectively, the results are consistent with somatic editing of exosomal payloads and suggest that exosomes establish a density-dependent field effect by altering the activity of immune cells that enter the tumor microenvironment.
+
+DESIGN
+8 Total samples were analyzed. Gene transcript abundance was estimated based on the average expression of all core probesets for a gene measured by Affymetrix microarray. The probability of a gene being expressed above background by random chance was estimated using the negative control probesets and a Welch's t-test, where the degrees of freedom were calculated using the Welch-Satterthwaite equation. A p-value of less than 0.01 was used for estimating the distribution of mRNA expression between cells and exosomes while a p-value of less than 1e-9 was used for qRT-PCR validation and pathway enrichment analysis.  The lower p-value incorporates a Bonferroni correction for multiple hypothesis testing.
+
+PLATFORM
+GPL6096 [MoEx-1_0-st] Affymetrix Mouse Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+27930879
+

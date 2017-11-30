@@ -1,0 +1,18 @@
+TITLE
+Tracing information flow from Erk to target gene induction reveals mechanisms of dynamic and combinatorial control
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In prior work we developed an optogenetic system for delivering highly precise, time-varying inputs to Ras, termed OptoSOS (Toettcher et al., 2013). This system relies on a membrane-targeted photoswitchable protein (Phy-CAAX) and a cytoplasmic Ras activator (PIF-SOScat) whose localization to the membrane can be controlled with light. In this system, Phy/PIF heterodimerization can be triggered on and off by exposure to 650 and 750 nm light, respectively. We found that this system could be used to deliver highly precise levels and dynamics of Ras/Erk signaling both in vitro and in vivo. Here, we aimed to globally assess the transcriptional response to light-activated Ras and compare it to that induced by growth factor stimulation.   We stimulated NIH3T3 OptoSOS cells with either constant activating red light or PDGF and measured transcriptional responses by RNAseq. Total mRNA was collected after 0, 30, 60 and 120 minutes and used to track the dynamics of transcript abundance in both conditions. Genes were defined as upregulated if they satisfied two criteria: (i) induced at least three-fold over unstimulated cells, and (ii) induced at least two consecutive timepoints. By these criteria we detected 118 genes that were upregulated within 2 h by either PDGF or light stimulation, a comparable number of Ras-responsive genes to that found in previous studies.   We found that both PDGF and light induced nearly identical profiles of gene expression, with 100/118 genes induced by PDGF and 110/118 induced by light. At each time point we found excellent agreement between the levels of gene induction in response to both stimuli. This agreement also extended to response dynamics. where hierarchical clustering revealed three classes of dynamic response: an early response peaking within 30 min, an intermediate response peaking at ~1 h, and a late response where gene expression gradually increased over the full 2 h timecourse. In all three classes, we found that light and PDGF led to highly similar expression changes over time. We thus concluded that sole stimulation of the Ras/Erk pathway by light was sufficient to recapitulate at least the first two hours of the PDGF-induced transcriptional response.
+
+DESIGN
+RNA-seq to measure global transcript abundance at various timepoints after PDGF stimulation or direct optogenetic activation of Ras using the OptoSOS system in NIH3T3 cells (Toettcher et al, Cell 2013). 9 samples were collected using the TruSeq library preparation kit (Illumina), multiplexed, pooled and measured in 3 lanes of an Illumina Hi-Seq 2000. Library quality was assessed by Agilent Bioanalyzer. Roughly 30-50 million reads were measured per sample across all 3 lanes. Baseline transcript abundance was measured in triplicate (0 min controls) and each successive timepoint was measured in a single collection. Genes were considered upregulated if they were induced at least 5-fold in at least two consecutive timepoints relative to their baseline abundance.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

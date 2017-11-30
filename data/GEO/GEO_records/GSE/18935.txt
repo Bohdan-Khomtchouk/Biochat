@@ -1,0 +1,18 @@
+TITLE
+Effects on small RNA MgrR in Escherichia coli
+
+ORGANISM
+Escherichia coli K-12
+
+SUMMARY
+MgrR is a newly characterized Hfq dependent small RNA RNA.  The expression of MgrR is regulated by Two component system, PhoPQ regulon, which senses low Mg2+ in environment. It has been reported that  Hfq-binding sRNAs base pair with target RNAs, frequently leading to rapid degradation of target messages or, less frequently, to stabilization, both of which can be assayed by using microarrays.  In order to search for the target genes of MgrR, we therefore examined the consequences of MgrR expression on mRNA abundance under two conditions.  In condition 1, the chromosomal copy of mgrR was deleted and MgrR was expressed for 15’ from an induced plac-mgrR plasmid and compared to cells carrying a vector induced for the same period.  In condition 2, the expression of mRNAs was compared in wild-type cells (mgrR+) and the mgrR deletion strain, both grown in LB; because MgrR levels are fairly high under our normal growth conditions, this allowed analysis of both the direct and indirect (long-term) effects of MgrR.
+
+DESIGN
+The strains used are either wild type which is derivatives of MG1655 or mgrR::kn knockout to restrict MgrR expression to the inducible pBR Plac-mgrR vector.  The mgrR knockout mutants carried  either pBR Plac-mgrR or the control vector pBR Plac.  A Fresh colony of bacteria was inoculated in LB media with ampicilline at final concentration of 100ug/ml at 37°C with agitation.  To induce MgrR expression, cultures carrying the pBR Plac-mgrR construct were grown to an O.D.600 of 0.5 and IPTG was added to the culture at a final concentration of 100uM.  Both cultures for wild type and mgrR deletion mutant were grown to O.D. 600 of 0.5 and cells were collected.   Total RNA was extracted from cells at the indicated time using the hot phenol procedure.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+19889087
+

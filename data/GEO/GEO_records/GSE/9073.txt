@@ -1,0 +1,18 @@
+TITLE
+AIN-1 and AIN-2::GFP IP of C.elegans miRNA targets
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+MicroRNAs (miRNAs) regulate gene expression for diverse functions, but only a limited number of mRNA targets have been experimentally identified. We show that GW182 family proteins AIN-1 and AIN-2 act redundantly to regulate the expression of miRNA targets, but not miRNA biogenesis. Immunoprecipitation (IP) and mass spectrometry indicate that AIN-1 and AIN-2 interact only with miRNA-specific Argonaute proteins ALG-1 and ALG-2 and with components of the core translational initiation complex. Known miRNA targets are enriched in AIN-2 complexes, correlating with the expression of corresponding miRNAs. Combining IP with pyrosequencing and microarray analysis of RNAs associated with AIN-1/AIN-2, we identified 106 previously annotated miRNAs plus 9 new candidate miRNAs, but nearly no siRNAs, and more than 3500 potential miRNA targets including nearly all known ones. Our results demonstrate an effective biochemical approach to systematically identify miRNA targets and provide valuable insights regarding the properties of miRNA effector complexes. Keywords: IP microarray of miRNA targets
+
+DESIGN
+RNAs were isolated from each immunocomplex after IP, or from total worm lysate, using the Trizol reagents (Invitrogen) according to vendor’s protocol. Three independent biological replicates were generated for each IP sample and for the total worm lysate samples from strains expressing AIN-2::GFP or GFP alone driven by the ain-2 promoter. Two biological replicates were generated for wt total lysates. After being resuspended into equal volumes of water, the samples were shipped to the Washington University Microarray Center for microarray analysis. The samples were amplified once using the MessageAmp aRNA kit (Ambion) and labeled with cy3 or cy5 using the MicroMax ASAP kit (Perkin Elmer). The hybridizations were performed according to the standard method. Dye label flipping was included to control the dye label bias.Signals from replicates of total worm lysates from wt and strains containing the ain-2::gfp or the ain-2 promoter::gfp transgene were mean normalized and averaged respectively to generate standard profiles of gene expression in these worm strains. We then calculated the ratio of signal of each gene from each IP sample to the standard gene expression profile of the corresponding worm strain. Based on this ratio, a percentile rank of each gene relative to all genes in each IP replicate was calculated. The percentile ranks in the three replicates of each IP were averaged. Student t test was utilized to determine if the average percentile ranks of enrichment of individual genes were significantly higher (p value) than the mean enrichment of all genes in the IP samples. To determine the AIN-1 or AIN-2 associated genes, we used the following criteria: (1) average percentile ranks of enrichment is greater than the mean enrichment of all genes in AIN-1 or AIN-2 IP with p < 0.01; (2) average signal in AIN-1 or AIN-2 IP replicates is greater than the background signal (including 2X standard deviation (SD)) (Background signal and SD were calculated based on signals from empty spots on each microarray); (3) criteria 1 is not be satisfied for the same gene in the corresponding control IP.
+
+PLATFORM
+GPL5883 WUSTL Caenorhabditis elegans Whole Genome 23k Oligo Array
+
+CITATIONS
+18042455
+

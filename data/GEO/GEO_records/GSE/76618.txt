@@ -1,0 +1,18 @@
+TITLE
+Antibody performance in ChIP-sequencing assays: From quality scores of public datasets to quantitative certification
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have established a certification system for antibodies to be used in chromatin immunoprecipitation assays coupled to massive parallel sequencing (ChIP-seq). This certification comprises a standardized ChIP procedure and the attribution of a numerical quality control indicator (QCi) to biological replicate experiments. The QCi computation is based on a universally applicable quality assessment that quantitates the global deviation of randomly sampled subsets of ChIP-seq dataset with the original genome-aligned sequence reads. Comparison with a QCi database for > 28,000 ChIP-seq assays were used to attribute quality grades (ranging from ‘AAA’ to ‘DDD’) to a given dataset. In the present report we used the numerical QC system to assess the factors influencing the quality of ChIP-seq assays, including the nature of the target, the sequencing depth and the commercial source of the antibody. We have used this approach specifically to certify mono and polyclonal antibodies obtained from Active Motif directed against the histone modification marks H3K4me3, H3K27ac and H3K9ac for ChIP-seq. The antibodies received the grades AAA to BBA (www.ngs-qc.org). We propose to attribute such quantitative grading of all antibodies attributed with the label “ChIP-seq grade”.
+
+DESIGN
+The NGS-QC team has setup a certification procedure for Antibodies dedicated to ChIP-seq applications based on (1)a highly reproducible pipeline for performing ChIP-seq assays including the use of an automated liquid handling platform (TECAN EVO75) for ChIP and sequencing library preparation steps and (2) the use of the NGS-QC Generator tool for providing a ChIP-seq quality grade and to evaluate other parameters like the Optimal sequencing depth, the degree of reproducibility among biological replicates and the comparison of the quality grades of the certified antibody with datasets retrieved in the public domain.  This quality certification structure makes possible to assign a measured Quality Stamp to ChIP-seq grade Antibodies.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

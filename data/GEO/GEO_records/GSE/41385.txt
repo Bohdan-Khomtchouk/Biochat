@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling of #483 T-ALL clone FACS sorted from BM and spleen
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+#483 T-ALL cells were transplanted into C57BL6/J mice. Engraftment was monitored by FACS analysis of peripheral blood obtained by retroorbital blood collection. 20 days after transplantation EGFP+ T-ALL cells were sorted from the bone marrow and spleen of three individual mice. Total RNA was prepared using the RNeasy Micro Kit (Qiagen GmbH, Hilden, Germany) and quality of RNA was assessed using the Agilent 2100 Bioanalyzer. RNA was reverse transcribed and amplified using the Affy GeneChip 3' IVT Express Kit. Fragmented and labeled cDNA was hybridized to Affymetrix Mouse Genome 430 2.0 GeneChip arrays. We compared the global gene expression profile of the #483 T-ALL to normal, CD4+CD8+ thymocytes from published dataset that shared the same mouse strain (C57BL6/J), RNA isolation and amplification technology and microarray platform (Li et al., 2008, GSE12948). The .CEL files from the Microarray experiments obtained from GEO were preprocessed together with the .CEL files from the #483 T-ALL clone using RMA. The complete dataset representing the #483 T-ALL and the CD4+CD8+ double positive thymocytes from Series GSE12948 (re-processed using RMA), is linked below as a supplementary file.
+
+DESIGN
+#483 T-ALL cells were transplanted into 3 sublethally (7.5 Gy) irradiated C57BL6/J mice. 20 days after Tx EGFP+ T-ALL cells were isolated and subjected to Microarray Analysis. Each mouse serves as a biological replicate.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

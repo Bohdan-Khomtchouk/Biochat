@@ -1,0 +1,18 @@
+TITLE
+Endogeneous mRNA level fluctuations in various brain tumor cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background:  microRNAs (miRNAs) are approximately 21 nucleotide non-coding transcripts capable of regulating gene expression.  The most widely studied mechanism of regulation involves binding of the miRNA to a target mRNA, usually in its 3’ untranslated region (UTR).  As a result, translation of the target mRNA is inhibited and sometimes the mRNA itself can be de-stabilized.  The inhibitory effects of miRNAs have been linked to many diverse cellular processes including malignant proliferation and apoptosis, development and differentiation, metabolic processes and neural plasticity.  We asked whether endogenous fluctuations in a set of mRNA and miRNA profiles contain correlated changes that are statistically distinguishable from the many other fluctuations in the data set. Methodology/Principal Findings:  Biopsies from 12 human primary brain tumors were used to extract RNA.  These samples were used to determine genome-wide mRNA expression levels by microarray analysis and a miRNA profile by real-time reverse transcription PCR (RT-PCR).  Correlation coefficients were determined for all possible mRNA-miRNA pairs and the distribution of these correlations compared to the random distribution.  An excess of high positive and negative correlation pairs were observed at the tails of these distributions.  Most of these highest correlation pairs do not contain sufficiently complementary sequences to predict a target relationship; nor do they lie in physical proximity to each other.  However, by examining pairs in which the significance of the correlation coefficients is modestly relaxed, negative correlations do tend to predict targets and positive correlations do tend to predict physically proximate pairs.  A subset of high correlation pairs were experimentally validated by over-expressing or suppressing a miRNA and measuring the correlated mRNAs. Conclusions/Significance:  Sufficient information exists within a set of tumor samples to detect endogenous correlations between miRNA and mRNA levels.  Based on the validations of the correlations the causal arrow for these correlations is likely to be directed from the miRNAs to the mRNAs.  From these data sets, we inferred and validated a tumor suppression pathway linked to miR-181c. Keywords: cell type comparison
+
+DESIGN
+Microarray data were obtained from the 12 tumors using Affymetrics HG-U133A array platforms.  Tissue from glioma resections were obtained and collected at UCLA under approval from the Institutional Review Board. Categorization into high or low grade was based on the formal pathology report, with WHO grades III and IV being termed " high grade " and grades I and II termed " low grade " .  Histological diagnoses fell into the following categories: two low grade anaplastic mixed gliomas, one low grade oligodendroglioma, six high grade glioblastomas, two high grade gliosarcomas, and one high grade glioblastoma/gliosarcoma.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+17726534
+

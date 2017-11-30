@@ -1,0 +1,18 @@
+TITLE
+Basonuclin-1 modulates epithelial plasticity and TGF-β1-induced loss of epithelial cell integrity [NIAC-NTR]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+TGF-b1-stimulation induces an epithelial dedifferentiation-process, throughout which epithelial cell sheets disintegrate and gradually switch into fibroblastic-appearing cells (EMT-like transition). The purpose of these profiles was to identify differentially expressed genes that are regulated transcriptionally. Standard microarry-based gene expression profiles measure steady-state RNA but do not provide insight into underlying regulatory principles. NIAC-NTR-based gene expression profiling (Kenzelmann et al., PNAS, 2007) essentially enables the dissection of transcriptionally versus non-transcriptionally regulated genes within respective analysed time-frames. Briefly, NIAC-NTR relies on incorporation of 4sU (thio-uridine) into nascent RNA, which can subsequently be specifically isolated by custom-made columns. Total- and enriched (4sU-labeled) are then further processed for microarray gene expression profiling by standard procedures. This dataset complements previously released data of NIAC-NTR-based gene expression profiling of cells treated with TGF-b1 and 4sU for 2hrs [GSE23833]. The present data and files represent the outcome of NIAC-NTR-based gene expression profiling of cells treated with TGF-b1 for 24hrs and incubation with 4sU for the last 2hrs (22hrs-24hrs of TGF-b1-stimulation). NIAC-NTR: Non Invasive Application and Capture of Newly Transcribed RNA
+
+DESIGN
+NMuMG cells were seeded 24hrs prior to treatment. Cells were stimulated with 5ng/ml TGF-b1 for a total of 24hrs. After 22hrs of stimulation 200µM 4sU thio-uridine was added to the cultures and further incubated for another 2hrs. Total RNA was extracted using RNeasy Mini Kits (Qiagen). 4sU-labeled RNA was further extracted from total RNA using mercury-based custom-made columns.  The experiments were performed as independent biological triplicate. Details about isolation of 4sU-labeled RNA can be found in Kenzelmann et al. PNAS, 2007.
+
+PLATFORM
+GPL18223 [Mouse4302_Mm_EntrezG] Affymetrix GeneChip Mouse Genome 430 2.0 Array [Brainarray Version 17.1.0]
+
+CITATIONS
+24662832
+

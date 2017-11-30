@@ -1,0 +1,18 @@
+TITLE
+Genome-wide identification of SUPPRESSOR OF GAMMA RESPONSE 1 (SOG1)-target genes in Arabidopsis
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+NAC transcription factor SUPPRESSOR OF GAMMA RESPONSE 1 (SOG1) functions as a master regulator in DNA damage response of Arabidopsis. However, the signaling pathway controlled by SOG1 remains elusive. To identify target genes of SOG1, we used wild-type plants harboring the transgene ProSOG1:SOG1-Myc, which expresses the SOG1-Myc fusion gene under the 2-kb SOG1 promoter. It was previously demonstrated that SOG1-Myc can complement the sog1-1 mutation (Yoshiyama et al., 2013). After treatment of plants with 15 µM zeocin for 2 hours, chromatin fragments bound to SOG1-Myc were immunoprecipitated with the anti-Myc antibody, and were subjected to next generation sequencing. We identified 778 SOG1-binding peak summits, which displayed peak values 16-fold higher than those in wild-type plants without the transgene. The genomic regions between 5-kb upstream and downstream of each peak summit included 1514 genes among which we found SMR5, SMR7 and CYCB1;1 that were previously identified as SOG1 target genes (Yi et al., 2014; Weimer et al., 2016). Among 1514 genes identified by ChIP-sequencing, 146 genes were overlapped with the SOG1-regulated genes extracted from the microarray data (GSE106154); therefore, we concluded that the 146 genes are SOG1 ditrect target genes.
+
+DESIGN
+2 week-old WT and WT harboring ProSOG1:SOG1-Myc plants, grown in liquid MS medium under continuous light, were transferred to liquid MS medium with or without 15 µM zeocin and treated for 2 h. chromatin fragments bound to SOG1-Myc were immunoprecipitated with the anti-Myc antibody and were subjected to next generation sequencing.
+
+PLATFORM
+GPL11221 Illumina Genome Analyzer IIx (Arabidopsis thaliana)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+New partners in regulation of gene expression: the Enhancer of Trithorax and Polycomb Corto interacts with methylated Ribosomal Protein L12 via its chromodomain.
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Chromodomains are found in many regulators of chromatin structure. Most of them recognize methylated histones. Here, we investigate the role of the Corto chromodomain. This Drosophila melanogaster Enhancer of Polycomb and Trithorax is involved in both silencing and activation of gene expression. Overexpression of Corto chromodomain (CortoCD) in transgenic flies show that this domain is critical for Corto function and behaves as a chromatin-targeting module. Mass spectrometry analysis of peptides pulled down by CortoCD from nuclear extracts reveals that they correspond to nuclear ribosomal proteins (RPs). Notably, CortoCD binds with high affinity RPL12 tri-methylated on lysine 3 (RPL12K3me3) as demonstrated by real-time interaction analyses. Co-localization of Corto and RPL12 with active epigenetic marks on polytene chromosomes suggests that they are involved in fine-tuning transcription of genes located in open chromatin. Hence, pseudo-ribosomal complexes composed of various RPs might participate in regulation of gene expression in connection with chromatin regulators. RNA-seq analysis of wing imaginal discs overexpressing either Corto or RPL12 show that most deregulated genes are shared by both factors. Interestingly, these common targets are enriched in RP genes suggesting that Corto and RPL12 are involved in dynamic coordination of ribosome biogenesis.
+
+DESIGN
+To address the role of Corto and RPL12 in regulation of transcription, we deep-sequenced transcripts of wing imaginal discs from third instar larvae over-expressing either FH-cortoCD or RpL12-Myc under control of the wing-specific scalloped::Gal4 driver (sd::Gal4 > UAS::FH-cortoCD or sd::Gal4 > UAS::RpL12-Myc). Total RNA from FH-cortoCD or RpL12-Myc, the sd::Gal4/+ control or a w1118 reference line were isolated from pools of wing imaginal discs and subjected to RNA-seq on an Illumina high throughput sequencer.
+
+PLATFORM
+GPL11203 Illumina Genome Analyzer IIx (Drosophila melanogaster) GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+23071455
+

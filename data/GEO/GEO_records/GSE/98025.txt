@@ -1,0 +1,18 @@
+TITLE
+Dynamic Maps of UV Damage Formation and Repair for the Human Genome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+UV-induced DNA damage is the major carcinogen of skin cancer. We developed HS-Damage-seq to map UV damage with unprecedented sensitivity and resolution in human cells.  While the distribution of UV-induced damage are mainly determined by sequence context and essentially uniform throughout the genome, transcription factors can affect damage formation at specific positions.  With time-course experiments, we observed changes in damage distribution at particular genomic loci and chromatin states, which reflects the nucleotide excision repair preferences and complements the repair maps by XR-seq. Our results demonstrated that while initial damage is uniformly distributed, they are heterogeneously repaired throughout the genome. The combination of damage and repair maps provides a holistic perspective of UV damage and repair in the human genome.
+
+DESIGN
+38 samples were analyzed for (6-4)PP and CPD. Two main experiments were performed: time-course (with NHF1 cell line) and cell vs naked DNA (with GM12878 cell line). Each sample has a biological replicate. We also have control samples which are the undamaged samples and reference genome samples for two cell lines.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28607063
+

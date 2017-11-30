@@ -1,0 +1,18 @@
+TITLE
+Whole-genome gene expression variation in 210 unrelated HapMap individuals
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Extensive studies are currently being performed to associate disease susceptibility with one form of genetic variation, namely single nucleotide polymorphisms (SNPs). In recent years another type of common genetic variation has been characterised, namely structural variation, including copy number variations (CNVs). To determine the overall contribution of CNVs to complex phenotypes we have performed association analyses of expression levels of 14,925 transcripts with SNPs and CNVs in individuals who are part of the International HapMap project. SNPs and CNVs captured 83.6% and 17.7% of the total detected genetic variation in gene expression, respectively, but the signals from the two types of variation had little overlap. Interrogation of the genome for both types of variants may be an effective way to elucidate the causes of complex phenotypes and disease in humans. Keywords: gene expression
+
+DESIGN
+RNA preparation: Total RNA was extracted from lymphoblastoid cell lines of the 210 unrelated individuals of the HapMap (Coriell, Camden, New Jersey, United States). Two, one-quarter scale Message Amp II reactions (Ambion, Austin, Texas, United States) were performed for each RNA extraction using 200 ng of total RNA as previously described (Stranger et al. 2005).  1.5 µg of the cRNA was hybridized to an array. Gene expression quantification: To assay transcript levels in the cell lines, we used Illumina's commercial whole genome expression array, Sentrix Human-6 Expression BeadChip (Illumina, San Diego, California, United States).  These arrays utilize a bead pool with ~48,000 unique bead types (one for each of 47,294 transcripts, plus controls), each with several hundred thousand gene-specific 50mer probes attached. On a single BeadChip, six arrays were run in parallel. Each bead type (probe) is present on a single array on average 30 times. Each of the two IVT reactions from the 210 samples was hybridized to two arrays each, so that each cell line had four replicate hybridizations. cRNA was hybridized to arrays, and subsequently labelled with Cy3-streptavidin (Amersham Biosciences, Little Chalfont, United Kingdom) and scanned with a Bead Station (Illumina) as previously described (Stranger et al. 2005). Normalization: With the Illumina bead technology, a single hybridization of RNA from one cell line to an array produces on average approximately 30 intensity values for each of 47,294 bead types. These background-corrected values for a single bead type are subsequently summarized by Illumina software and output to the user as a set of 47,294 intensity values for each individual hybridization. In our experiment, each cell line was hybridized to 4 arrays, thus resulting in 4 reported intensity values (as averages of the values from the 30 beads per probe) for each of the 47,294 bead types (Dunning et al. 2006). To combine data from our multiple replicate hybridizations, raw data were read using the beadarray R package(Dunning et al. 2006) and then normalized on a log scale using a quantile normalization method (Bolstad et al. 2003) across replicates of a single individual, followed by a median normalization method across individuals of a single population. These normalized values (for each probe, across replicates for each individual) are used in subsequent analyses.
+
+PLATFORM
+GPL2507 Sentrix Human-6 Expression BeadChip
+
+CITATIONS
+17289997 , 17873874
+

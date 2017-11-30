@@ -1,0 +1,18 @@
+TITLE
+Mapping Novel Chromatin Regions Using Sono-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We found that sonication of crosslinked chromatin produces breaks at non-random sites in DNA and can be used to map sites of high chromatin accessibility when combined with high-throughput tag sequencing using the GA II platform from Illumina. This technique, which we named Sono-Seq, can be a simple and broadly applicable method for mapping many open chromatin sites.  Furthermore, these results give insights into reference sample types, such as Input DNA, normal IgG ChIP DNA, MNase-digested DNA, and naked DNA, that have been used in ChIP-chip and ChIP-Seq experiments. For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf
+
+DESIGN
+For this analysis, seven samples from HeLa S3 cells were included: RNA Polymerase II (GEO accession GSM320734), Sono-Seq/Input DNA (small fragments) that was size selected at 100-350 bp (GEO accession GSM320735), Sono-Seq/Input DNA (large fragments) size selected between 350-800 bp, naked DNA, normal mouse IgG, Sono-Seq/Input DNA stimulated with interferon-gamma (GEO accession GSM320737), and MNase-digested DNA.  Two replicates were used for MNase-digested DNA and Sono-Seq/Input DNA (large fragments) whereas three replicates were used for all other samples.  Naked DNA was used as a reference for scoring peaks.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+19706456
+

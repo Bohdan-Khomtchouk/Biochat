@@ -1,0 +1,18 @@
+TITLE
+RNA-seq melanoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Using a chromatin regulator-focused shRNA library, we found that suppression of sex determining region Y-box 10 (SOX10) in melanoma causes  resistance to BRAF and MEK inhibitors. To investigate how SOX10 loss leads to drug resistance, we performed transcriptome sequencing (RNAseq) of both parental A375 (Ctrl. PLKO) and A375-SOX10KD (shSOX10-1, shSOX10-2) cells. To ask directly whether SOX10 is involved indrug resistance in BRAF(V600E) melanoma patients, we isolated RNA from paired biopsies from melanoma patients (pre- and post- treatment) , that had gained  BRAF or MEK inhibitor resistance . We performed RNAseq analysis to determine changes in transcriptome upon drug resistance.
+
+DESIGN
+Investigate genes regulated by SOX10 and differntial gene expression between pre- and post-treatment biopsies. We use short hairpin RNA to suppression SOX10 in A375 cells and cells were harvested with trizol reagent for RNA isolation. For paired biopsies (patient samples) we collected the first biopsy before the initiation of treatment and the second biopsy after drug resistance developed. RNA was isolated from FFPE samples and subjected for RNA sequencing.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24670642
+

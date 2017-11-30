@@ -1,0 +1,18 @@
+TITLE
+Regulation of chromatin structure by Set1 H3K4 methyltransferase and Jhd2 H3K4 demethylase [H3K4me ChIP-seq]
+
+ORGANISM
+Saccharomyces cerevisiae ; [Candida] glabrata
+
+SUMMARY
+Histone H3K4 methylation is connected to gene transcription from yeast to humans, but its mechanistic role in transcription and chromatin dynamics remains poorly understood. Here, we investigated the functions for Set1 and Jhd2, the sole H3K4 methyltransferase and H3K4 demethylase, respectively, in S. cerevisiae. Our data show that Set1 and Jhd2 predominantly co-regulate transcription. We find combined activities of Set1 and Jhd2 via H3K4 methylation contribute to positive or negative transcriptional regulation at shared target genes. Providing mechanistic insights, our data reveal that Set1 and Jhd2 together control nucleosomal occupancy during transcriptional co-regulation. Moreover, we find a remarkable genome-wide co-regulation of nucleosome and chromatin structure by Set1 and Jhd2 at different groups of transcriptionally active or inactive genes and at different regions within yeast genes. Overall, our study prompts a model wherein combined actions of Set1 and Jhd2 via H3K4 methylation−demethylation control chromatin dynamics during various facets of transcriptional regulation.
+
+DESIGN
+Genome-wide nucleosome maps were generated from three different yeast strains representing wild type control, Set1G990E hyperactive mutant and jhd2 null mutant. Two independent biological samples were grown for each S. cerevisiae strain. S. cerevisiae cells were mixed with C. glabrata cells at 2:1 ration before chromatin preparation by sonication, chromatin immunoprecipitation was performed using H3K4 methylation specific antibodies, libraries were prepared from ChIP and input DNA, sequenced, and analyzed separately.
+
+PLATFORM
+GPL21803 Illumina HiSeq 2500 (Candida glabrata; Saccharomyces cerevisiae)
+
+CITATIONS
+27325136
+

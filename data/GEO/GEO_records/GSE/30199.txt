@@ -1,0 +1,18 @@
+TITLE
+Base-resolution analyses of parent-of-origin and sequence dependent allele specific DNA methylation in the mouse genome (ChIP-seq and Methyl-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Allele specific DNA methylation (ASM) is crucial for genomic imprinting and mammalian development. Here we present a base-resolution, genome-wide allelic DNA methylation map for both CG and non-CG sites in the mouse brain. We found parent-of-origin dependent (imprinted) ASM at 1,952 CGs which form 55 discrete clusters. This uncovers 31 reported differentially methylated regions (DMRs), including virtually all known germline DMRs, and 24 novel candidate DMRs with some occurring at microRNA genes. In the same adult tissue we also report a surprising presence of non-CG methylation with some showing evidence of imprinting. Finally, we identified sequence dependent ASM at 131,765 CGs. Interestingly, methylation at these sites exhibits a strong dependence on the immediate adjacent bases, allowing us to define a conserved sequence preference for the mammalian DNA methylation machinery. Our genome-wide ASM map should help with understanding the epigenetic differences between two parental genomes in mammals.
+
+DESIGN
+The crosses of the two mouse strains 129x1/SvJ (129) and Cast/EiJ (Cast) were performed at Jackson Laboratories ( http://jaxmice.jax.org/ ) and the male mice F1 offspring and males of each of the two parental strains were shipped to investigator laboratories at 8 to 9 weeks of age. MethylC-Seq Five ug of genomic DNA was extracted from the frontal cortex of the F1 crosses or the parental strains, and was spiked in with 25 ng unmethylated cl857 Sam7 Lambda DNA (Promega, Madison, WI). The DNA was fragmented by sonication to 100-600 bp. Purified DNA fragments were end-repaired and ligated to paired-end cytosine- methylated adapters provided by Illumina. Size-selected adapter-ligated DNA was treated with sodium bisulfite using the EZ DNA methylation-Gold Kit (Zymo Research). The resulting DNA molecules were enriched by PCR, purified and sequenced following standard protocols from Illumina. ChIP-Seq The crosses of the two mouse strains 129x1/SvJ (129) and Cast/EiJ (Cast) were performed at Jackson Laboratories ( http://jaxmice.jax.org/ ) and the male mice F1 offspring and males of each of the two parental strains were shipped to investigator laboratories at 8 to 9 weeks of age.  Frozen mouse frontal cortex from the F1 crosses was thawed on ice and processed with a razor blade into small pieces. Tissue was then crosslinked with formaldehyde, washed, homogenized, and proceeded for ChIP. To isolate chromatin, formaldehyde-cross-linked nuclei were sonicated using a Branson 450 Sonifier (Branson, Danbury, CT). ChIP DNA was subjected to end repair, A-tailing, adaptor ligation, and gel purification. Following PCR amplification for 18 cycles, the final libraries were subjected to sequencing.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+22341451
+

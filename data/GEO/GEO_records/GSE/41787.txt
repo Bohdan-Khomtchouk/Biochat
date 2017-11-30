@@ -1,0 +1,18 @@
+TITLE
+Genome-wide polysome analysis in poly(I:C)-treated WT and Oasl1-/- BMDM.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+OASL1 is a novel translation inhibitor for the type I IFN master transcription factor IRF7. To examine whether OASL1 specifically inhibit IRF7 translation, we used a genome-wide gene expression microarray to screen for the polysome-associated mRNAs more enriched in the OASL1 KO BMDMs. The microarray analysis on the polysomal fractions identified 145 candidate transcripts, including IRF7, that showed a signal greater than two-fold higher in poly(I:C)-treated Oasl1-/- BMDM.
+
+DESIGN
+We analyzed polysomal fractions from poly(I:C)-treated WT and Oasl1-/- BMDM using the Affymetrix Mouse Gene 1.0 ST array. Array data were processed by Affymetrix GCOS software. We compared these using Affymetrix Expression console1.1, R affy-package(2.9.2), DAVID.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23416614
+

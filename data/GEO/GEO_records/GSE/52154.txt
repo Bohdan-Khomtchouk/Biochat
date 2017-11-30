@@ -1,0 +1,18 @@
+TITLE
+Gene expression signature overlap between shETV1 and BRD32048 in LNCaP and SK-MEL-28
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Identification of BRD32048 as an inhibitor of ETV1 oncogenic transcription factor. This compound was indentified by small molecule mcroarray (a binding assay). It was able to consistently inhibit an ETV1-dependent MMP1-driven luciferase signal. Its direct binding was validated by Suface plasmon resonance (Biacore assay). It inhibits ETV1-driven invasion in ETV1-dependent cell lines. The goal of this gene expression comparison was to interogate the effects of BRD32048 on the global gene expression and to define the degree to which its siganture overlaps with an ETV1-specific shRNA-induced gene expression signature.
+
+DESIGN
+The gene expression analysis was performed for two ETV1- dependent cell lines. (a) LNCaP (prostate cancer) uses a DOX-inducible system where two different ETV1sh (sh1117 and sh872) are induced for 4 days. In parallel cells were treated with 20 µM BRD32048 for 16 hours. The control was DMSO treated cells. (b) SK-MEL-28 were infected with two different ETV1sh (sh3 and sh5) and selected in puromycin for 4 days. The sh control used was GFPsh. In parallel cells were treated with 20 µM BRD32048 for 16 hours. The control was DMSO treated cells. Total RNA was isolated and measured with expression arrays. The data was normalized (see data processing) and the gene expression signatures (fold change > 1.5 in either direction) were intersected between the experimental conditions for each cell line.
+
+PLATFORM
+GPL17897 [HT_HG-U133A] Affymetrix Human Genome U133A Array (custom CDF: HTHGU133A_Hs_ENTREZG.cdf version 17.0.0)
+
+CITATIONS
+24737027
+

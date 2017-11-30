@@ -1,0 +1,18 @@
+TITLE
+Expression data from TGFBR3 controls and TGFBR3 knockdown of SUM159 3D cultures
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The objective of this experiment was to determine global gene expression change in triple negative cell line upon knockdown of TGFBR3.  Genotype specific differences in expression profiles have been evaluated using human HuGene1.0-ST affymetrix array.  RNA was extracted from SUM159 controls and SUM159 TGFBR3KD cells cultured in 3-dimensional in vitro system.
+
+DESIGN
+Control (N=3) and TGFBR3KD (N=3) samples were hybridized to the Human gene 1.0 ST array, scanned with Affymetrix using AGCC v. 3.2.4 and then analyzed in R 3.0.1 using the oligo package.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24985072
+

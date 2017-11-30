@@ -1,0 +1,18 @@
+TITLE
+5C analysis of the Epidermal Differentiation Complex locus reveals distinct chromatin interaction networks between gene-rich and gene-poor TADs in skin epithelial cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Gene activity programmes in different cell types control development and homeostasis of multi-cellular organisms. Spatial genome organization controls gene activity by facilitating or restricting contacts between gene promoters and remote gene enhancers. Functionally related co-regulated genes are often located together in genomes loci. The spatial organization of very large co-regulated gene loci remains poorly understood. We analyse the spatial contact network in the Epidermal Differentiation Complex (EDC) locus that contains 61 co-regulated genes activated during epidermal differentiation in epidermal cells and thymocytes, where the locus is mostly inactive. Our analysis demonstrated that the gene-rich and gene-poor regions in the EDC are organized in separate Topologically Associating Domains (TADs). We further found that spatial contact in the EDC locus is mostly cell type specific. In keratinocytes such contacts connect gene promoters with gene enhancers both within and between gene-rich TADs. Chromatin architectural proteins CTCF and Rad21 together with chromatin remodeller Brg1 were often bound near the spatially contacting gene promoters and enhancers in keratinocytes. In contrast to gene-rich TADs, gene-poor TADs show preferential spatial contacts with each other, do not contain active enhancers and show decreased binding of CTCF, Rad21 and Brg1. These data illustrate how the chromatin networks required for lineage-specific transcription are organized in skin epithelial cells and demonstrate that spatial interactions involving gene promoters and enhancers at the EDC locus are not restricted by the TAD boundaries and involve, together with intra-TAD interactions, the extensive contacts between the different gene-rich TADs.
+
+DESIGN
+Two independent 5C libraries were constructed for freshly plated epidermal keratinocytes and primary thymocytes. 5C probes were designed at HindIII restriction sites using the my5Csuite primer design tools http://my5C.umassmed.eduAn alternating scheme was pursued in which reverse and forward probes were designed against every other fragment. Probes were excluded if unique mapping could not be achieved for fragments spanning highly repetitive sequences. Probe setting were as follows: U-BLAST, 3; S-BLAST, 50; MER, 800; MIN, FRAGSIZE, 100; MAX FRAGSIZE, 50000; OPT_TM, 65: and OPT_PSIZE, 40. The universal T7 sequence was tethered to all forward primers (TAATACGACTCACTATAGCC) and the reverse complement to the universal T3 sequence was tethered to all reverse probes (TATTAACCCTCACTAAAGGGA). In total, 381 forward probes and 382 reverse probes were designed, spanning 5.3 Mb EDC containing locus.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28863138
+

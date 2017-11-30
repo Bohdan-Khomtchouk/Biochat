@@ -1,0 +1,18 @@
+TITLE
+The DExH-box RNA helicase RHAU is a Nuclear Protein Involved in Transcription and mRNA Decay
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RHAU (RNA helicase-associated with AU-rich element) is a DExH protein that was originally identified as a factor accelerating AU-rich element-mediated mRNA degradation. The finding that RHAU is predominantly localized in the nucleus, despite that mRNA degradation occurs in cytoplasm, prompted us to consider nuclear functions of RHAU. In HeLa cells, RHAU was localized throughout the nucleoplasm with some concentration in nuclear speckles in a manner dependent on ATPase activity. Transcriptional arrest altered its localization to nucleolar caps where it was colocalized with other RNA helicases, p68 and p72, suggesting that RHAU is involved in transcription-related RNA metabolism in the nucleus. To see whether RHAU affects global gene expression either transcriptionally or posttranscriptionally, we performed microarray analysis using total RNA prepared from RHAU-depleted HeLa cell lines, measuring both steady-state mRNA levels and mRNA half-lives by ActinomycinD-chase. We found that most transcripts whose steady-state levels were affected by RHAU knockdown did not show changes in their half-lives, suggesting the involvement of transcriptional regulation for these transcripts. We propose that RHAU has dual functions involved in synthesis and degradation of mRNA in different subcellular compartments. Keywords: mRNA decay study using HeLa cells expressing shRNA
+
+DESIGN
+HeLa-shRHAU and HeLa-shLuc cells were treated with doxycycline (1 μg/ml) for 6 days. At the 4th day of dox-treatment, 4 clones of each cell line were pooled and total 2×106 cells were reseeded in 10 cm dishes. For the starvation experiment; medium was replaced with serum-free DMEM on the 5th day, 24 h before the collection of RNA. The ActD-chase experiment was done on the 6th day of doxycycline treatment. For the mRNA decay experiment; ActD was added to the medium at 5 μg/ml and total RNA was collected at 0, 30, 60, 90, and 120 min after the addition of ActD. Samples for time 0, representing the total amount RNA in the normal condition, and samples from starved cells were analyzed in triplicates, whereas ActD-treated samples for the mRNA decay study were analyzed in duplicates. Total RNA was isolated using the RNeasy kit from QIAGEN (Hombrechtikon, Switzerland). Total RNA  (5 μg) from each replicate was reverse transcribed and labelled using the Affymetrix 1-cycle labelling kit according to manufacturer’s instructions. Biotinylated cRNA (20 μg) was fragmented by heating with magnesium (as per Affymetrix’s instructions) and 15 μg of this fragmentated cRNA was hybridized to Human U133 plus 2.0 GeneChipsTM. GC-RMA expression values and detection P-values were estimated using Refiner 4.0 from Genedata AG (Basel, Switzerland). Data analysis was performed using Analyst 4.0 from Genedata AG (Basel, Switzerland). The chip distributions were standardized by quantile normalization and they were scaled to make the median expression value, of genes with a detection P-value < 0.04, equal to 500. For the analysis of steady-state RNA levels, genes were required to have a detection P-value < 0.04 (Affymetrix default) in at least two replicates of at least one condition. The objective was to exclude genes that are not expressed in any condition. They were then subjected to a student t-test (P < 0.05) and have a median fold change of 1.5 or 2 greater between samples dox+ and dox- or with and without starvation. Multiple testing errors were dealt with using a Benjamini and Hochberg false discovery correction.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18279852
+

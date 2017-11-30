@@ -1,0 +1,18 @@
+TITLE
+Nucleosome Occupancy and Methylome Sequencing (NOMe-seq) analysis using SureSelectXT Methyl-Seq Target Enrichment System
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chromatin accessibility plays a key role in epigenetic regulation of gene activation and silencing. Open chromatin regions allow regulatory elements such as transcription factors and polymerases to bind for gene expression while closed chromatin regions prevent the activity of transcriptional machinery.  Nucleosome occupancy and methylome sequencing (NOMe-seq) has been developed for simultaneously profiling of chromatin accessibility and DNA methylation on single molecules. In this study, we combined the principle of NOMe-seq with targeted bisulfite sequencing method to analyze the genome-wide nucleosome occupancy and chromatin accessibility in the promoter and enhancer regions of over 20,000 genes. In addition, we developed CAME, a seed-extension based approach that identifies chromatin accessibility from NOMe-seq. Our results show that our method not only can precisely identify chromatin accessibility but also outperforms other methods.
+
+DESIGN
+Colon cancer cell line, HCT116, was treated GpC methyltransferase (M.CviPI) to methylate all GpC sites in the open chromain. The genomic DNA was then analyzed by targeted bisulfite sequencing. Oligo capture probes are designed to target 84Mb sequences covering 3.7 million CpGs including CpG islands, Cancer, tissue specific DMRs, Gencode promoters, DMRs or regulatory feature in CpG islands, shores, and shelves ±4kb, DNase I hypersensitive sites, Refseq genes, Ensembl regulatory features. The CAME package was used for analyzing the targeted NOMe-seq data. The efficiency and effectiveness of CAME were demonstrated through comparisons with other existing techniques on both simulated and real data.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28035030
+

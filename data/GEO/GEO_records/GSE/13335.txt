@@ -1,0 +1,18 @@
+TITLE
+Gene expression analysis of cells sensitive to necrosis (L929) and cells sensitive to apoptosis (NIH3T3).
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To explore gene expression profiles of cells sensitive to necrosis (such as L929 cells) and those sensitive to apoptosis (such as NIH3T3 cells), we conducted expression microarray analysis of L929 cells and NIH3T3 cells.
+
+DESIGN
+Total RNA of 2 samples of unstimulated L929 cells or 2 samples of unstimulated NIH3T3 cells were extracted by Trizol followed by RNeasy. The quantity, purity and integrity of RNA were evaluated by UV spectrophotometry and RNA-nano Bioanalyzer. Sample processing and hybridization on Mouse Genome 430 2.0 GeneChip microarrays (Affymetrix) were performed according to manufacturer’s instructions. Genes that are differentially expressed in L929 cells relative to NIH3T3 cells were identified as having an FDR-adjusted p-value < 0.05 and a fold-change > 1.5.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+19109899
+

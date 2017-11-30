@@ -1,0 +1,18 @@
+TITLE
+Sequence discrimination study
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The use of DNA microarrays to identify nucleotide variation is almost 20 years old. A variety of improvements in probe design and experimental conditions have brought this technology to the point that single-nucleotide differences can be efficiently detected in unmixed samples, although developing reliable methods for detection of mixed sequences (e.g. heterozygotes) remains challenging. Surprisingly, a comprehensive study of the probe design parameters and experimental conditions that optimize discrimination of single nucleotide polymorphisms (SNPs) has yet to be reported, so the limits of this technology remain uncertain. By targeting 24,549 SNPs that differ between two Saccharomyces cerevisiae strains, we studied the effect of SNPs on hybridization efficiency to DNA microarray probes of different lengths under different hybridization conditions.  We found that the critical parameter for optimization of sequence discrimination is the relationship between probe melting temperature (Tm) and the temperature at which the hybridization reaction is performed.  This relationship can be exploited through the design of microarrays containing probes of equal Tm by varying the length of probes.  We demonstrate that using such a microarray we detect > 90% homozygous SNPs and > 80% heterozygous SNPs using the SNPScanner algorithm.  The optimized design and experimental parameters determined in this study should guide DNA microarray designs for applications that require sequence discrimination such as mutation detection, genotyping of unmixed and mixed samples and allele-specific gene expression.  Moreover, designing microarray probes with optimized sensitivity to mismatches should increase the accuracy of standard microarray applications such as copy number variation detection and gene expression analysis. Keyword(s): MutationDetection_CGH
+
+DESIGN
+Comparison of polymorphic vs non-polymorphic genomes when hybridrized to short probe microarrays
+
+PLATFORM
+GPL9747 Gresham Agilent Saccharomyces Cerevisiae 20mer probes Mutation Detection GPL9748 Gresham Agilent Saccharomyces Cerevisiae 25mer probes Mutation Detection GPL9749 Gresham Agilent Saccharomyces Cerevisiae 30mer probes Mutation Detection GPL9750 Gresham Agilent Saccharomyces Cerevisiae isothermal probes Mutation Detection
+
+CITATIONS
+20080586
+

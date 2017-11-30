@@ -1,0 +1,18 @@
+TITLE
+Mapping and characterization of promoter-binding sites of protein phosphatase 1
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Protein phosphatase 1 (PP1) is a Ser/Thr phosphatase that has been implicated in many key cellular functions including transcriptional regulation. Due to its involvement these many processes, it becomes difficult to directly link PP1 to transcriptional regulation on the chromatin level as no direct genomic binding sites have been identified. Previous work has failed to address this as the most common method used, namely chromatin immunoprecipitation (ChIP), is an antibody-dependent technique and currently no ChIP-grade PP1 antibodies have been developed. Using DamID, an alternative to ChIP, we have identified PP1 isoform-specific binding sites on the promoter regions of genes. We also identified the binding sites of three main PP1 regulatory subunits (R-subunits) in order to identify potential PP1 holo-enzymes binding sites. Our study revealed the full extent of PP1 isoform specific binding an allowed us to investigate the dependency of the R-subunits on PP1 for chromatin targeting. This data establishes PP1 as a chromatin interactor and allow for the identification of direct effects PP1 can have on the regulation of the genes on whose promoter it is bound.
+
+DESIGN
+HeLa stable cell lines were created using constructs derived from pIND-(V5)-EcoDam. These constructs express trace amounts of Dam or C-terminal fusions with PP1α, PP1β, PP1γ and three R-subunits, PNUTS, NIPP1 and RepoMan, both wildtype (WT) and their PP1-binding mutants (RATA). Two independent stable cell lines were set up for each of the constructs. DamID-DNA was labeled and hybridized to a GeneChip Human Promoter 1.0R Array (Affymetrix, Santa Clara, CA, USA). The tiling array readouts were analyzed with the “model-based analysis of tiling arrays” (MAT) algorithm (version 1.0.0) against the hg19 reference genome. We normalized two biological replicates of each Dam-fusion over two Dam-only biological replicates. Each biological repeat consisted of 2 technical repeats pooled together prior to hybridization to the tiling array.
+
+PLATFORM
+GPL5082 [Hs_PromPR] Affymetrix Human Promoter 1.0R Array
+
+CITATIONS
+25990731
+

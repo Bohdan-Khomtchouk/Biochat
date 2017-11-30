@@ -1,0 +1,18 @@
+TITLE
+SNP array data for 50 leukemia remission samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+250k Sty, 250k Nsp, 250k Hind and 250k Xba Affymetrix SNP arrays for 50 leukemia remission samples used as controls for copy number analysis for GSE9109 and GSE9112. Keywords: Acute leukemia, BCR-ABL1, chronic myeloid leukemia, copy number analysis, loss-of-heterozygosity, genomics *** Due to privacy concerns, the primary SNP array data is no longer available with unrestricted access. Individuals wishing to obtain this data for research purposes may request access using the Web links below. ***
+
+DESIGN
+All assays were performed on DNA extracted from cryopreserved, mononuclear cell preparations of diagnostic peripheral blood or bone marrow samples. All blast crisis samples were flow sorted prior to DNA extraction. SNPcalls were generated using Affymetrix GTYPE. Probe intensity data wasextracted and used for DNA copy number analysis using dChip, akaryotype-guided normalization algorithm (Reference normalization, Mullighan et al Nature 2007;446:758), dChip and circular binarysegmentation (implemented as DNAcopy in R).
+
+PLATFORM
+GPL2004 [Mapping50K_Hind240] Affymetrix Human Mapping 50K Hind240 SNP Array GPL2005 [Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array
+
+CITATIONS
+18408710
+

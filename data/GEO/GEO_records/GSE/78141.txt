@@ -1,0 +1,18 @@
+TITLE
+MLL1 is essential for the senescence-associated secretory phenotype [ChIP-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Oncogene-induced senescence (OIS) and therapy-induced senescence (TIS), while tumor-suppressive, also promote procarcinogenic effects by activating the DNA damage response (DDR), which in turn induces inflammation. This inflammatory response prominently includes an array of cytokines known as the senescence-associated secretory phenotype (SASP). Previous observations link the transcription-associated methyltransferase and oncoprotein MLL1 to the DDR, leading us to investigate the role of MLL1 in SASP expression. Our findings reveal direct MLL1 epigenetic control over proproliferative cell cycle genes: MLL1 inhibition represses expression of proproliferative cell cycle regulators required for DNA replication and DDR activation, thus disabling SASP expression. Strikingly, however, these effects of MLL1 inhibition on SASP gene expression do not impair OIS and, furthermore, abolish the ability of the SASP to enhance cancer cell proliferation. More broadly, MLL1 inhibition also reduces “SASP-like” inflammatory gene expression from cancer cells in vitro and in vivo independently of senescence. Taken together, these data demonstrate that MLL1 inhibition may be a powerful and effective strategy for inducing cancerous growth arrest through the direct epigenetic regulation of proliferation-promoting genes and the avoidance of deleterious OIS- or TIS-related tumor secretomes, which can promote both drug resistance and tumor progression.
+
+DESIGN
+This study examines the genome-wide distribution of gH2A.x and H3K4me3 by chIP-seq, using input and whole histone subunit H3 (respectively) as controls for local sonication efficiency bias. Each of the four chIPs has a single replicate each in (i) IMR90 fibroblasts transfected with a scramble control vector, (ii) the same cells subject to oncogene-induced senescence by stimulation of H-Ras V12, and (iii) in OIS cells with a shRNA targeting MLL1. Additionally, gH2A.x and input were sequenced with another replicate in control and OIS cells (both scramble control).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+26833731
+

@@ -1,0 +1,18 @@
+TITLE
+Foxp3 DNA binding in HDAC6-KO vs wild type Regulatory T cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We used NimbleGen Mouse ChIP-chip 3 × 720K RefSeq Promoter Arrays (NimbleGen Roche, Madison, WI). Briefly, we isolated three independent samples of gender and age matched HDAC6KO and WT control CD4+CD25+ Treg, isolated, cross-linked and processed genomic DNA as above. DNA-protein complexes were bound with Foxp3 mAb, and enriched through immunoprecipitation, which a control sample is retained without immunoprecipitation (input). Both input and Foxp3-IP enriched samples underwent whole-genome amplification or ligation mediated-PCR to obtain adequate amounts of DNA for labeling. Foxp3-IP enriched samples were labeled with Cy5, and input samples with Cy3, and the arrays submitted to NimbleGen for analysis. Data were analyzed using Partek GS (Partek Inc., St Louis, MO) and the Broad Institutes Interactive Genome Viewer (Version 2.3.32) (Robinson et al., 2011). Raw data underwent Loess normalization, and Student t-testing with a false discovery rate of 0.1 (p-value cutoff 0.0029). For visualization, we generated IGV files using NimbleGen mapping information from the SignalMap GFF files.
+
+DESIGN
+Foxp3 ChIP in 8 week old male HDAC6-KO and wild type Regulatory T cells.
+
+PLATFORM
+GPL21030 [100718_MM9_Refseq_Prom_ChIP]  NimbleGen Mouse ChIP-chip 3x720K RefSeq Promoter Arrays (ProbeID version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

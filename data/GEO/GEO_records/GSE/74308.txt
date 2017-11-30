@@ -1,0 +1,18 @@
+TITLE
+Antisense transcription predicts a distinct chromatin environment at mammalian promoters
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Antisense transcription is common at mammalian promoters.  Previous studies have largely focused on characterizing antisense transcription initiating upstream of gene transcription start sites.  Here, we systematically characterize promoter-proximal antisense transcription downstream of gene transcription starts sites in human T-47D cells, investigating the genomic context of downstream antisense transcription. We find that downstream antisense transcription is widespread, with antisense transcription initiation observed within 2 kb of 28% of gene transcription start sites.  Downstream antisense transcription is correlated with many regulatory features at gene promoters despite not being categorically associated with gene activation or repression.  At the downstream antisense transcription start site, DNA is accessible, is enriched for protein-associated sequences motifs, and is bound by a variety of transcription factors.  Downstream antisense transcription initiates between nucleosomes regularly positioned downstream of gene transcription start sites.  Those nucleosomes between gene and downstream antisense transcription start sites carry histone modifications associated with active promoters, such as H3K4me3 and H3K27ac.  Strikingly, this same region is bound by chromatin remodeling complexes such as HDAC and SWI/SNF. The coincidence of transcription initiation with nucleosomes displaying promoter-associated histone marks underlies an apparent connection between antisense transcription and the chromatin environment at gene promoters. The association of chromatin remodelers at sites of downstream antisense transcription initiation suggests that antisense transcription contributes to the deposition and maintenance of these chromatin features at gene promoters.
+
+DESIGN
+RNA-seq and Start-seq were used to characterize steady-state transcript levels and transcription initation, respectively, in T-47D cells.  MNase-seq and FAIRE-seq were then performed to assess the chromatin environment at identified transcription start sites.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL15520 Illumina MiSeq (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27487356
+

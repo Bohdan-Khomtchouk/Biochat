@@ -1,0 +1,18 @@
+TITLE
+Expression analysis upon NMNAT1 knockdown in MCF-7 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+NMNAT1 is a nuclear enzyme in the mammalian NAD+ salvage pathway. Expression microarray analysis was used to study the effect of NMNAT1 knockdown on gene expression in MCF-7 breast cancer cells.
+
+DESIGN
+NMNAT1 stable knockdown was achieved using a retroviral shRNA construct. An shRNA directed against Luciferase was used to generate the Luc control cells.  Three independent cell populations with matching Luc controls were prepared for the expression analysis.  Each cell population was treated with either vehicle control (ethanol) or estradiol (E2) for 3 hours before harvest of RNA samples.  Four samples in one replicate (LUC2 CON, LUC2 E2, NMNAT2 CON and NMNAT2 E2) were hybridized to Affymetrix U133 Plus 2.0 arrays, while the other two replicates of eight samples were hybridized to Affymetrix U133A 2.0 arrays. All 12 samples were included for the following data normalization steps: common probe sets on both U133A 2.0 and U133 Plus 2.0 platforms were selected; within each sample group hybridized to the same microarray platform, the signal values were log2 transformed, median centered for each array, and median centered for each gene; the data sets were further adjusted using the parametric empirical Bayes method (Combat R) to eliminate batch effect caused by the different array platforms.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+19478080
+

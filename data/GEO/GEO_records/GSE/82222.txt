@@ -1,0 +1,18 @@
+TITLE
+Neurospora crassa genome organization requires subtelomeric facultative heterochromatin
+
+ORGANISM
+Neurospora crassa
+
+SUMMARY
+Facultative heterochromatin in the filamentous fungus Neurospora crassa is identified by the repressive histone mark H3K27me3 and is primarily subtelomeric, while constitutive heterochromatin, marked by the DIM-5-catalzyed H3K9me3, is found at centromeres, telomeres, and smaller dispersed regions. In strains lacking constitutive heterochromatin (e.g., Δdim-5), H3K27me2/3 relocalizes to the regions formerly marked by H3K9me3. H3K27me3 is catalyzed by the SET-7 histone methyltransferase subunit of the Polycomb Repressive Complex 2 (PRC2); another PRC2 member, Neurospora p55 (NPF) regulates subtelomeric H3K27me2/3. Despite the de-repression of > 70 genes, a Δset-7 strain has no distinguishable phenotype. To investigate the facultative heterochromatin contribution to genome organization, we performed high-throughput “chromosome conformation capture” (Hi-C) on mutants with impacted H3K27me2/3 deposition. A Δset-7 strain has decreased inter-/intra-subtelomeric contacts among others; this pattern is mirrored in a Δnpf strain, which lacks subtelomeric H3K27me3. In a Δset-7 strain, telomere bundles were often uncoupled from the nuclear membrane and de-repressed genes were subtelomeric. The chromosome conformation of a Δset-7;Δdim-5 double mutant was similar to Δset-7, suggesting that facultative heterochromatin relocalization does not compensate for H3K9me3 loss and rescue the Neurospora genome organization in strains with defective constitutive heterochromatin.
+
+DESIGN
+Hi-C: We analyzed a total of three strains of Neurospora crassa by chromatin conformation capture followed by high throughput sequencing (Hi-C).  Each strain has two replicates. Strains were grown from conidia ~4 hours, crosslinked, and conidia were made into spheroplasts. Genomic DNA from spheroplasts was digested with HindIII, ends were filled in with dNTPs (including biotin-conjugated dCTP), blunt ends were ligated, crosslinks were reversed, DNA was soniciated, ligation products were purified with streptavidin beads, and libraries were prepared for sequencing. The datasets of wild type strain, NMF39 - deposited in GEO sebmission GSE71024, serves as the reference for the mutants deficient in facultative heterochromatin formation (N4718 delta set-7, N4721 delta npf, and N5542 delta set-7;delta dim-5). ChIP-seq: We analyzed two strains of Neurospora crassa (control strain: WT N3752, test strain delta npf N4721) by Chromatin Immunoprecipitation for the histone mark H3K27me3. Strains were grown, crosslinked, lysed, the histone mark H3K27me3 was immunopurified, and associated DNA was sequenced). RNA-seq: We analyzed a total of five strains (four different genetic backgrounds) by poly-A+ mRNA-sequencing for gene expression changes by monitoring poly-adenylated messenger RNA levels. A wild type strain (N3752) serves as the reference strain, and the strains N4718 and N4730 (delta set-7), N4721 (delta npf), and N5916 (delta set-7;delta dim-5) served as the test strains. Please note that all python scripts ( " .py.txt " files) are provided as series supplementary file.
+
+PLATFORM
+GPL20660 Illumina NextSeq 500 (Neurospora crassa) GPL20705 Illumina HiSeq 2500 (Neurospora crassa)
+
+CITATIONS
+27856763
+

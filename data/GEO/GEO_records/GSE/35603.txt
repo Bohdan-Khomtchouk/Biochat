@@ -1,0 +1,18 @@
+TITLE
+Network Biology of Tumor Stem-like Cells Identified a Regulatory Role of CBX5 in Lung Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mounting evidence points to a link between a cancer possessing stem-like properties and a worse prognosis. To understand the biology, a common approach is to integrate network biology with signal processing mechanics. That said, even with the right tools, predicting the risk for a highly susceptible target using only a handful of gene signatures remains very difficult. By compiling the expression profiles of a panel of tumor stem-like cells (TSLCs) originating in different tissues, comparing these to their parental tumor cells (PTCs) and the human embryonic stem cells (hESCs), and integrating network analysis with signaling mechanics, we propose that network topologically-weighted signaling processing measurements under tissue-specific conditions can provide scalable and predicable target identification. All function codes related to this project could be accessed at the supplementary website.
+
+DESIGN
+We hypothesized that the transcriptional stochastic element of lung tumors modeled by the lung-TSLC networks could be utilized to estimate the prognostic survival times. A scalable, network-based signal-processing model was devised to analyze the transcriptional signal for a single gene or for a set of genes relating to other gene players in the networks. We tested our hypothesis in the following three steps: (1) construct the consensus TSLC networks and the lung-TSLC networks by analyzing the transcriptomes of three panels of cells: the parental tumor cells (PTCs), the cultivated TSLCs, and the human embryonic stem cels (hESCs); (2) develop network topologically-weighted signal processing measurements and apply such measurements to find the survival correlation and to identify potential targets for biological validation; and (3) verify a potential regulatory target - Cbx5 - in another clinical cohort of LACs as well as in knock-down experiments in lung TSLCs functional assays and in animal models.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+22900142
+

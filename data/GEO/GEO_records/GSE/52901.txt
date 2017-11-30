@@ -1,0 +1,18 @@
+TITLE
+Impact of Gene Dosage on Gene Expression, Biological Processes and Survival in Cervical Cancer: a Genome-Wide Follow-Up Study [Mapping250K; copy number]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The contribution of copy number (CN)-altered genes in cervical carcinogenesis is unknown owing to a lack of correlation with gene expression. We mapped CN-altered genes in 31 cervical cancers (CCs), and investigated the expression of 21,000 genes in 55 CCs using microarrays. Biological processes associated with genes deregulated by gene dosage and the relationship between gene dosage and patient survival were investigated. CN-altered genome (CN-AG) percentages varied widely among tumors from 0% to 32.2% (mean = 8.1 ± 8.9). Tumors were classified as low (mean = 0.5 ± 0.6, n = 11), medium (mean = 5.4 ± 2.4, n = 10), or high (mean = 19.2 ± 6.6, n = 10) CN. The highest %CN-AG was found in 3q, which contributed an average of 55% of all CN alterations. Genome-wide, only 5.3% of CN-altered genes were deregulated by gene dosage; by contrast, the rate in fully duplicated 3q was twice as high. Amplification of 3q explained 23.6% of deregulated genes in whole tumors (r2 = 0.236, p = 0.006; analysis of variance), including those in 3q and other chromosomes. A total of 862 genes were deregulated exclusively in high-CN tumors, but only 22.9% were CN altered. This result suggests that the remaining genes are not deregulated directly by gene dosage but by mechanisms induced in trans by CN-altered genes. Anaphase-promoting complex/cyclosome (APC/C)-dependent proteasome proteolysis, glycolysis, and apoptosis were upregulated, whereas cell adhesion and angiogenesis were downregulated exclusively in high-CN tumors. The high %CN-AG and upregulated gene expression profiles of APC/C-proteasome-dependent proteolysis and glycolysis were associated with poor patient survival, although only the first 2 correlations were statistically significant (p < 0.05, log-rank test). The data suggest that inhibitors of APC/C-dependent proteasome proteolysis and glycolysis may be useful treatments in these patients.
+
+DESIGN
+In this study 31 tumors and 25 reference controls were used for analysis of copy number alterations using the 500K microarray. The results obtained from 500K array analysis were validated in 15 of the 31 tumors with a higher density microarray (Cytoscan HD). For the analysis of gene expression 55 cervical tumors (27 of them belong to the group of 31 tumors analyzed for copy number) and 17 controls were used. Please note that the sample R397 in the CytoScanHD_Array set corresponds to the R392 sample in the other data sets (due to an error in file name). Please note that there is no processed data for the control samples and only one cnchp file for each pair of .CEL files (STY and NSP). Therefore, the 'CN4.cnchp' processed data files are linked to the Series records and the processed data file is indicated in the description field of the corresponding sample records.
+
+PLATFORM
+GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array
+
+CITATIONS
+24879114
+

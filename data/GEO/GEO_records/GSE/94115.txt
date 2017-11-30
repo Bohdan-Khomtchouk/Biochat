@@ -1,0 +1,18 @@
+TITLE
+The Drosophila Dosage Compensation Complex activates target genes via chromosome looping within the active compartment
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+X chromosome dosage compensation in Drosophila requires chromosome-wide coordination of gene activation. The male-specific-lethal dosage compensation complex (DCC) identifies X chromosomal High Affinity Sites (HAS) from which it reaches out to boost transcription. A recently discovered sub-class of HAS, PionX sites, represent first contacts on the X. We explored the chromosomal interactions of representative PionX sites by high-resolution 4C methodology and determined the overall chromosome conformation by Hi-C in sex-sorted embryos. X chromosomes from male and female cells display similar nuclear architecture, concordant with clustered, constitutively active genes. PionX sites, like HAS, are evenly distributed in the active compartment and engage in short- and long-range interactions beyond compartment boundaries. De novo induction of DCC in female cells allowed monitoring the reach of activation surrounding PionX sites. Remarkably, DCC not only activates genes in linear proximity, but also at megabase distance if close in space, suggesting that dosage compensation profits from chromosome folding.
+
+DESIGN
+Hi-C: female and male embryos (2 biological replicates). 4C-seq: S2 (male) cells GFP or MSL2 RNAi; Kc (female) cells GFP or SXL RNAi (2 biological replicates) at various viewpoints. ChIP-seq (Covaris): S2 cells: Input, H4K16ac (replicate: GSM929157) or MSL2 (4 biological replicates); Kc cells: Input and H4K16ac (2 biological replicates). ChIP-seq (MNase): S2 and Kc cells: Input and H3K36me3 (2 biological replicates). RNA-seq: S2 cells: GFP RNAi (2 biological replicates); Kc cells: GFP, SXL #1 (DRSC21490), SXL#2 (DRSC28896) RNAi after 3, 6 and 9 days.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster) GPL19132 Illumina NextSeq 500 (Drosophila melanogaster) GPL19951 Illumina HiSeq 1500 (Drosophila melanogaster)
+
+CITATIONS
+28794204
+

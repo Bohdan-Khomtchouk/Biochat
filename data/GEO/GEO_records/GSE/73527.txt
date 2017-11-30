@@ -1,0 +1,18 @@
+TITLE
+Modulation of Indoleamine 2, 3-dioxygenase 1 Expression by Activated Human T cells in Breast Cancer Cells is Controlled by DNA Promoter Methylation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Tumor infiltrating lymphocytes (TILs) play a critical role in modulating the immunoediting features in certain malignancies like triple negative breast cancer (TNBC). Nevertheless, much is still unknown concerning the specific responses of tumors when challenged by lymphocyte infiltration.  Based on this void, we conducted a immuno-phenotype comparison using mRNA sequencing between the TNBC cell line MDA-MB-231 and the luminal breast cancer cell line MCF7 after both were co-cultured with activated human T-cells. We found that, though the cytokine-induced immune signature of the two cell lines was similar, MDA-MD-231 cells were able to transcribe IDO1 at a significantly higher level than MCF7 cells. Though no differences occurred in upstream JAK/STAT1 signaling or IDO1 mRNA stability between the two cell lines, stimulation with IFNγ was able to differentially induce IDO protein expression and enzymatic activity in ER- cell lines compared to ER+ cell lines. Further experiments show that 5-aza-deoxycytidine treatment was able to reverse suppression of IDO1 expression in MCF7 cells, suggesting DNA methylation as a potential determinant in IDO1 induction. By analyzing TCGA breast cancer datasets, we discovered subtype-specific mRNA and promoter methylation differences in IDO1, with TNBC/basal subtypes exhibiting lower methylation/higher expression and ER+/luminal subtypes exhibiting higher methylation/lower expression. We confirmed this trend of IDO1 methylation by bisulfite pyrosequencing breast cancer cell lines and an independent cohort of primary breast tumors. Taken together, these findings suggest that IDO1 methylation regulates anti-immune responses in breast cancer subtypes and could be used as a predictive biomarker for IDO inhibitor-based immunotherapy.
+
+DESIGN
+To determine the immunomodulatory effects of cytokines secreted by activated human T-cells on breast cancer cells, we performed RNAseq analysis in MCF7 and MDA-MB-231 cells, after co-culturing them with normal PBMCs activated with anti-CD3/CD28 antibodies in a contact-independent manner. MDA-MB-231 or MCF7 cells were co-cultured with PBMCs alone or the conditioned-media or a combination of both for 24 hrs, and then total RNA was harvest for RNA-seq analysis.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28264810
+

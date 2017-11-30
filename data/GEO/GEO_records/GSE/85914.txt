@@ -1,0 +1,18 @@
+TITLE
+Measuring gene expression profiles of E. coli synthetic rescue strains
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+This goal of these experiments is to assess steady-state transcript levels in a set of E. coli mutants (ppk, dgk, zwf, entC, and dapF null strains) that grow slowly in M9 glucose, and to compare these transcript levels to corresponding synthetic rescue strains (i.e. spontaneous suppressor strains in which slow growth is rescued to wild-type levels).
+
+DESIGN
+To isolate total RNA, all strains were grown in triplicate to an equivalent OD in mid-logarithmic phase.  Cells were pelleted, lysed, and total RNA was isolated for analysis by RNA-seq. Steady-state transcript levels in each synthetic resucue strain were compared to the correspoding slow-growing primary (single gene deletion) mutant strains. zwf.txt: Rockhoppper analysis; tab delimited text of gene expression (zwf deletion mutant versus synthetic rescue suppressors; sup) dgk.txt: Rockhoppper analysis; tab delimited text of gene expression (dgk deletion mutant versus synthetic rescue suppressors; sup) ppk.txt: Rockhoppper analysis; tab delimited text of gene expression (ppk deletion mutant versus synthetic rescue suppressors; sup) dapF.txt: Rockhoppper analysis; tab delimited text of gene expression (dapF deletion mutant versus synthetic rescue suppressors; sup) entC.txt: Rockhoppper analysis; tab delimited text of gene expression (entC deletion mutant versus synthetic rescue suppressors; sup)
+
+PLATFORM
+GPL18133 Illumina HiSeq 2500 (Escherichia coli)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Human cerebral organoids recapitulate gene expression programs of fetal neocortex development.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cerebral organoids – three-dimensional cultures of human cerebral tissue derived from pluripotent stem cells – have emerged as models of human cortical development. However, the extent to which in vitro organoid systems recapitulate neural progenitor cell proliferation and neuronal differentiation programs observed in vivo remains unclear. Here we use single-cell RNA sequencing (scRNA-seq) to dissect and compare cell composition and progenitor-to-neuron lineage relationships in human cerebral organoids and fetal neocortex. Covariation network analysis using the fetal neocortex data reveals known and novel interactions among genes central to neural progenitor proliferation and neuronal differentiation. In the organoid, we detect diverse progenitors and differentiated cell types of neuronal and mesenchymal lineages, and identify cells that derived from regions resembling the fetal neocortex. We find that these organoid cortical cells use gene expression programs remarkably similar to those of the fetal tissue in order to organize into cerebral cortex-like regions. Our comparison of in vivo and in vitro cortical single cell transcriptomes illuminates the genetic features underlying human cortical development that can be studied in organoid cultures.
+
+DESIGN
+734 single-cell transcriptomes from human fetal neocortex or human cerebral organoids from multiple time points were analyzed in this study. All single cell samples were processed on the microfluidic Fluidigm C1 platform and contain 92 external RNA spike-ins. Fetal neocortex data were generated at 12 weeks post conception (chip 1: 81 cells; chip 2: 83 cells) and 13 weeks post conception (62 cells). Cerebral organoid data were generated from dissociated whole organoids derived from induced pluripotent stem cell line 409B2 (iPSC 409B2) at 33 days (40 cells), 35 days (68 cells), 37 days (71 cells), 41 days (74 cells), and 65 days (80 cells) after the start of embryoid body culture. Cerebral organoid data were also generated from microdissected cortical-like regions from H9 embryonic stem cell derived organoids at 53 days (region 1, 48 cells; region 2, 48 cells) or from iPSC 409B2 organoids at 58 days (region 3, 43 cells; region 4, 36 cells).
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26644564
+

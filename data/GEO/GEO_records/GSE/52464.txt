@@ -1,0 +1,18 @@
+TITLE
+Epigenetic and transcriptional landscapes of Dnmt3a-deficient olfactory sensory neurons
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+During differentiation, neurons experience a reorganization of DNA modification patterns within their genomes. However, the mechanisms underlying this developmental patterning and its role in defining the neurona­­l state are currently unclear. Here, we find that the d­­e novo DNA methyltransferase Dnmt3a is necessary for elevated levels of 5-hydroxymethylcytosine (5hmC), a derivative of 5-methylcytosine (5mC), in olfactory sensory neurons (OSNs). Through an analysis of genome-wide 5mC and 5hmC distributions in isolated OSNs, we find that Dnmt3a-dependent 5mC and 5hmC occurs within regions of high accessibility, neural enhancers, and the transcription start sites of transcribed genes. Its loss results in the global disruption of gene expression patterns, including the upregulation of silent genes, the downregulation of mOSN-expressed genes, and the alteration of odorant-induced transcriptional responses of immediate early genes. Together, these results demonstrate that Dnmt3a is necessary to define the neuronal transcriptional state and may be broadly involved in refining expression profiles within differentiated cells.
+
+DESIGN
+To determine the contributions of Dnmt3a to the DNA modification and transcriptional landscapes of a post-mitotic neuronal population, we performed DNA immunoprecipitation (DIP-seq) using antibodies specific for 5mC and 5hmC and rRNA-depleted transcriptional profiling (RNA-seq) coupled to high-throughput sequencing using genomic DNA or RNA from FACS-isolated mature olfactory sensory neurons (mOSNs) from main olfactory epithelium (MOE) of Dnmt3a wildtype (WT), heterozygous-null (Het), or homozygous-null (KO) 3-week old mice. Similarly, to compare this information with other epigenetic features of the MOE, we performed H3K4me1 (WT), H3K27ac (WT), and H3K27me3 (WT and KO) chromatin immunoprecipitation (ChIP)-seq and DNase I hypersensitivity assays (DNase-seq) using MOE nuclei from 3-week old mice. In addition, we assayed the influence of Dnmt3a-deficiency on the induction of odorant-responsive genes by exposing 3-week old Dnmt3a WT, Het, and KO mice to either water or a 1:1:1 mixture of amyl acetate:acetophenone:octanal for 1 hour and performed rRNA-depleted RNA-seq using RNA isolated from their MOEs.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25417106 , 25123312
+

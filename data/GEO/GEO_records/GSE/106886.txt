@@ -1,0 +1,18 @@
+TITLE
+Cohesin loss eliminates all loop domains [PRO-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The human genome folds to create thousands of intervals, called “contact domains,” that exhibit enhanced contact frequency within themselves. “Loop domains” form because of tethering between two loci – almost always bound by CTCF and cohesin – lying on the same chromosome. “Compartment domains” form when genomic intervals with similar histone marks co-segregate. Here, we explore the effects of degrading cohesin. All loop domains are eliminated, but neither compartment domains nor histone marks are affected. Loss of loop domains does not lead to widespread ectopic gene activation, but does affect a significant minority of active genes. In particular, cohesin loss causes superenhancers to co-localize, forming hundreds of links within and across chromosomes, and affecting the regulation of nearby genes. We then restore cohesin and monitor the re-formation of each loop. Although re-formation rates vary greatly, many megabase-sized loops recovered in under an hour, consistent with a model where loop extrusion is rapid.
+
+DESIGN
+we use in situ Hi-C, ChIP-Seq and PRO-Seq to probe nuclear architecture, the epigenome and transcription during cohesin loss and recovery. We performed PRO-Seq on HCT-116-RAD21-mAC cells before and after 6 hours of treatment with 500uM of the auxin hormone in order to measure acute effects of cohesin loss on nascent transcription. In addition, PRO-Seq was performed on HCT-117-CMV-OsTIR1 cells before and after auxin treatment to measure transcriptional changes in response to the auxin hormone.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

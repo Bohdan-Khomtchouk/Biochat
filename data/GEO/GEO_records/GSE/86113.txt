@@ -1,0 +1,18 @@
+TITLE
+Investigating B cell stimulation in ubiquilin-1 KO mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Ubiquilins are a family of proteins involved in proteasomal degradation of mislocalized membrane proteins. Here, Greer et al. demonstrate that Ubqln1 is required for BCR-driven B cell proliferation through maintenance of protein synthesis following stimulation. In the absence of Ubqln1, mitochondrial proteins accumulate in the cytosol, which may account for the observed proteostasis. BCR stimulation of murine B cells induced a long-lasting mitochondrial depolarization that did not occur in response to LPS.  We hypothesize that in the absence of Ubqln1, mitochondrial depolarization leads to an accumulation of mitochondrial membrane proteins in the cytosol, which leads to translational inhibition and a cell cycle block.
+
+DESIGN
+For RNASeq, cells were stimulated in triplicate in 2*10e6 cells/mL for 4 hours with either 10 μg/mL anti-IgM F(ab)2 or 20 μg/mL LPS, or no stimulation. There were 18 total samples, 9 Knockout samples, 9 WT samples, 3 biological replicates per treatment group: no stimulation, 10 ug/mL a-Igm, 20 ug/mL LPS.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28933694
+

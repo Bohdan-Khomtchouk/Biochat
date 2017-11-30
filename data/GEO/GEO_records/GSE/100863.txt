@@ -1,0 +1,18 @@
+TITLE
+Rescue of Tet2 KO ES cells in primed or naïve state
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Endogenous retroviruses (ERVs), which are responsible for 10% of spontaneous mouse mutations, are kept under control via several epigenetic mechanisms. The H3K9 histone methyltransferase SETDB1 is essential for ERV repression in embryonic stem cells (ESCs), with DNA methylation also playing an important role. It has been suggested that SETDB1 protects ERVs from TET-dependent DNA demethylation, but the relevance of this mechanism for ERV expression remains unclear. Moreover, previous studies have been performed in primed ESCs, which are not epigenetically or transcriptionally representative of preimplantation embryos. We used naïve ESCs to investigate the role of SETDB1 in ERV regulation and, in particular, its relationship with TET-mediated DNA demethylation. Naïve ESCs show an increased dependency on SETDB1 for ERV silencing when compared to primed ESCs, including at the highly mutagenic intracisternal A particles (IAPs). We found that, in the absence of SETDB1, TET2 activates IAP elements in a catalytic-dependent manner. Surprisingly, however, TET2 does not drive changes in DNA methylation levels at IAPs, suggesting that it regulates these transposons indirectly.
+
+DESIGN
+Stable cell lines were established from Tet2 KO embryonic stem cells using PiggyBac vectors containing either wildtype TET2 or a catalytic mutant (H1304Y, D1306A). SETDB1 was depleted in cells cultured under primed or naïve conditions by shRNA. RNA was extracted to generate mRNA-seq libraries (3 replicates of each sample).
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

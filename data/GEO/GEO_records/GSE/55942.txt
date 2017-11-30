@@ -1,0 +1,18 @@
+TITLE
+Rescue of KRAS suppression in HCT116 colon cancer cell line
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cancer cells that express oncogenic alleles of RAS typically require sustained expression of the mutant allele for survival, but the molecular basis of this oncogene dependency remains incompletely understood. To identify genes that can functionally substitute for oncogenic RAS, we systematically expressed 15,294 open reading frames in a human KRAS-dependent colon cancer cell line engineered to express an inducible KRAS-specific shRNA. We found 147 genes that promoted survival in the setting of KRAS suppression. In this model, the transcriptional co-activator YAP1 rescued cell viability in KRAS-dependent cells upon suppression of KRAS and was required for KRAS-induced cell transformation. Acquired resistance to Kras suppression in a Kras-driven murine lung cancer model also involved increased YAP1 signaling. KRAS and YAP1 converge on the transcription factor FOS and activate a transcriptional program involved in regulating the epithelial-mesenchymal transition (EMT). Together, these findings implicate transcriptional regulation of EMT by YAP1 as a significant component of oncogenic RAS signaling. We used microarrays to compare gene expression in HCT116 cells in which we suppressed KRAS expression doxycycline-inducible shRNA targeting KRAS compared to cells treated with media alone (no shKRAS induced). We express KRAS, LacZ, and YAP1 in each condition to identify genes transcriptionally involved in the rescue of KRAS suppression.
+
+DESIGN
+HCT116 cells harboring doxycycline-inducible shKRAS (HCTtetK) expressing either LacZ, KRAS, or YAP1, were treated with doxycycline for 30 hours to suppress KRAS. Untreated (no doxycycline) cells expressing each ORF were used as control. Total RNA was collected using PerfectPure RNA Cultured Cell Kit (5Prime) and expression profiling was performed on Human Genome U133A 2.0 Array (Affymetrix) using the Dana Farber Cancer Institute Microarray Core.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+24954536
+

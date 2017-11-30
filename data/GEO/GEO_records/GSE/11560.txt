@@ -1,0 +1,18 @@
+TITLE
+Genome-wide inter-primate comparison of gene expression profiles in multiple tissues
+
+ORGANISM
+Macaca mulatta ; Pan troglodytes ; Homo sapiens
+
+SUMMARY
+Regulatory changes have long been hypothesized to play an important role in primate evolution. To identify adaptive regulatory changes in humans, we performed a genome-wide survey for genes whose regulation evolves under natural selection. To do so, we used a novel multi-species microarray to measure gene expression levels in livers, kidneys, and hearts from six humans, chimpanzees, and rhesus macaques.
+
+DESIGN
+Using the multi-species microarray, we compared gene expression levels within and between species in three tissues: Livers, Kidneys (cortex) and Heart muscle. For each tissue, we hybridized RNA samples from 6 individuals from each of the three species, and preformed two technical replicates for each sample. The total number of arrays analyzed is therefore 108 (= 3 species X 3 tissues X 6 individuals X 2 technical replicates). Following hybridization, washing, and scanning, raw data was extracted from the images using the NimbleScan software (version 2.4). We performed background correction using the normexp function in limma with an offset of 32, and normalization using an adaptation of the quantile normalization approach.
+
+PLATFORM
+GPL6898 UC multi-primate Nimblegen microarray 388K
+
+CITATIONS
+19023414
+

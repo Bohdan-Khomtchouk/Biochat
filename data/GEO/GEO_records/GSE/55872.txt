@@ -1,0 +1,18 @@
+TITLE
+Detection of circRNA in Drosophila Fly heads and S2 cells using RNA-seq with or without RNaseR tretment
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+We determined circRNA abundance in fly Heads and S2 cells by generating and analyzing high-throughput RNA-sequencing libraries prepared from rRNA-depleted RNA. In order to determine whether the observed sequencing reads are due to bona fide circRNAs, we pre-treated the RNA with RNAse-R before the rRNA-depletion procedure. Indeed, most of the identified circRNAs  were more enriched in comparison to the canonical mRNA isoforms following the RNAse-R treatment. We compare circRNA levels in wt (Canton S) flies with flies  carrying the C4  ( " slow polymerase " ) mutation.
+
+DESIGN
+4 samples of Drosophila Canton S and 4 samples of flies carrying the C4  ( " slow polymerase " ) mutation. For each sample, one library was prepared from RNA after RNaseR treatment and the second from RNA with without treatment (mock). RNA library from one Canton Sample was used for stranded libray preprepation.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+25242144
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling of M tuberculosis BCG strain during extended stationary and resuscitation phase of growth
+
+ORGANISM
+Mycobacterium bovis BCG
+
+SUMMARY
+Objective of the study is to find out the differentially regulated genes of Mycobacterium BCG strain in extended stationary phase comparison to log phase growth and resuscitation phase. Mycobacterium BCG culture was grown in Sauton medium at 37o C without shaking. Cells at A600 0.6-0.8   were harvested as log phase culture. The cells harvested after 5 months incubation at 37oC without shaking became non culturable and were harvested as extended stationary phase cells. The extended stationary phase cells were treated with resuscitation promoting factor (Rpf) from Micrococcus luteus and harvested after 8 days. Cells of this stage were treated as resuscitation phase cells. Gene expression profiling was carried out using Agilent microarray platform. Keywords: Extended stationary phase, Log phase growth and Resuscitation phase.
+
+DESIGN
+• Organism: Mycobacterium tuberculosis BCG • Slides: Agilent’s Mycobacterium tuberculosis custom array 4x44k (G2514F) AMADID No: 016013 • Labeling kit: Ambion Message Amp II Bacteria a RNA Amplification Kit Cat# 1790 • Labeling Method: T7 promoter based-linear amplification to generate labeled complementary RNA • Total RNA and cRNA Purification Kit: Qiagen’s RNeasy minikit Cat#74104 • Hybridization Kit: Agilent’s In situ Hybridzation kit 5184-3568 • RNA quality was checked using Bioanalyzer. Hybridization protocol 	825ng each of labeled control cRNA was mixed with 825ng of treated labelled cRNA, mixed with appropriate amount of blocking buffer and hybridization buffer (Agilent Technologies). The hybridization mix was applied on to the backings and hybridized to custom designed 60mer Mycobacterium tuberculosis microarray using sure hyb chambers at 65degC for 17 hours. Slides were washed with gene expression wash buffer 1 and 2 (Agilent Technologies) followed by Acetonitrile. Scan protocol 	Laser detection of Cyanine 3 and Cyanine 5 fluorescence is performed using a confocal scanning instrument containing two tuned lasers, which excite Cyanine dyes at the appropriate wavelengths. Description 	Slides were scanned at 5 micron resolution using Agilent scanner.Automated feature extraction was done using Agilent’s Feature Extraction Software. Data processing 	Analysis of feature extracted data was done using Agilent’s GeneSpring GX V 7.3.1 software. Pre-processing of the replicate experiment data was done to flag the outliers. Normalization of the data was done using per spot per chip intensity dependant lowess normalization and dye swap experiment was data transformed. Genes with log2 ratio of 1.29 and above in replicate experiments were considered as up regulated and 0.81 and below was considered down regulated. p-value was calculated by GeneSpring GX for each gene on the basis of replicate probes to indicate statistical significance. Biological significance of differentials were analyzed using Genotypics Biointerpreter - Web based tool for biological interpretation of given genelist.
+
+PLATFORM
+GPL8431 CDRI Mycobacterium tuberculosis H37Rv Whole Genome Microarray 4.1k
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data from NcGFP ki/+, NcGFP ki/ki and wt (W4) ES cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We generated a gene replacement allele of the E-cadherin locus that express an N-cadherin-GFP fusion in ES cells. Expression profiles of homozygous and heterozygous knock-in ES cells were analyzed in comparison to wt ES cells. The GEO Samples were compared to published data of E-cadherin knock-out ES cells (ArrayExpress, accession number E-MEXP-2836). The comparison data are linked below.
+
+DESIGN
+RNA was extracted from two independent experiments per genotype, data analysis was performed using the R/Bioconductor Limma software. Quality of the data set was controlled by the simpleaffy package and normalized by quantile normalization with the GCRMA alogrithm.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+24036274
+

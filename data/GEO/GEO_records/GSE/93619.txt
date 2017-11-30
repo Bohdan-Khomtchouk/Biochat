@@ -1,0 +1,18 @@
+TITLE
+RNA-seq of HEK293T cells overexpressing TET1-FL or TET1-ALT
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+TET1 oxidizes methylated cytosine into 5-hydroxymethylcytosine, resulting in regulation of DNA methylation and gene expression.  Full length TET1 (TET1-FL) has a CXXC domain that binds to unmethylated stretches of CpG dinucleotides known as CpG islands (CGIs).  This CXXC domain allows TET1 to protect CGIs from aberrant methylation but it also limits its ability to regulate genes outside of CGIs.  Here we report a novel isoform of TET1 (TET1-ALT) that has a unique transcription start site from an alternate promoter in intron 2, yielding a protein with a unique translation start site.  Importantly, TET1-ALT lacks the CXXC domain but retains the catalytic domain. To identify the gene expression targets of TET1-ALT  and to compare them to the gene expression targets of TET1-FL, we performed RNA-seq on HEK293T cells that overexpress either Empty Vector (Control), TET1-FL or TET1-ALT.
+
+DESIGN
+Biological triplicates were performed for a total of 9 samples. Fold change of each gene was calculated by comparing changes in expression after overexpression compared to the empty vector control samples
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28531272
+

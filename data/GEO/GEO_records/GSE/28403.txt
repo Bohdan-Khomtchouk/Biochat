@@ -1,0 +1,18 @@
+TITLE
+Integrative genomic, transcriptomic and RNAi analysis indicates a potential oncogenic role for FAM110B in castration-resistant prostate cancer.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Castration-resistant prostate cancer (CRPC) represents a therapeutic challenge for current medications. Methods: In order to explore the molecular mechanisms involved in CRPC progression and to identify new therapeutic targets, we analyzed a unique sample set of 11 castration-resistant prostate cancers and 7 advanced tumors by array-CGH and gene expression microarrays. The genome-wide DNA and RNA data were integrated to identify genes whose overexpression was driven by their amplification. To assess the functional role of these genes, their expression was analyzed in a transcriptional dataset of 329 clinical prostate cancers and the corresponding gene products were silenced using RNA interference in prostate cancer cells. Results: Six recurrent genetic targets were identified in the CRPCs; ATP1B1, AR, FAM110B, LAS1L, MYC and YIPF6. In addition to AR and MYC, FAM110B emerged as a potential key gene involved in CRPC progression in a subset of the tumors. FAM110B was able to regulate AR signaling in prostate cancer cells and FAM110B itself was regulated by androgens. FAM110B siRNA inhibited the growth of prostate cancer cells in vitro, and this effect was substantially enhanced in androgen deficient conditions. Ectopic FAM110B expression in non-cancerous epithelial prostate cells induced aneuploidy and impaired antigen presentation. Conclusions: The DNA / RNA gene outlier detection combined with siRNA cell proliferation assay identified FAM110B as a potential growth promoting key gene for CRPC. FAM110B appears to have a key role in the androgen signaling and progression of CRPC impacting multiple cancer hallmarks and therefore highlighting a potential therapeutic target.
+
+DESIGN
+[1] Gene expression levels from 13 samples were measured using Affymetrix GeneChip Human Genome U133 plus 2.0 arrays. Sample processing and labeling were done according to the protocol provided by Affymetrix. Three micrograms of total RNA from each sample was used for the initial one-cycle cDNA synthesis. Arrays were scanned immediately after staining using a GeneChip scanner (Affymetrix). [2] aCGH was performed from 18 prostate cancer samples using 44K arrays by Agilent Technologies. Male genomic DNA (catalog number G1471, Promega, Madison, WI) was used as reference in all hybridizations. [3] Gene expression changes following FAM110B silencing in LNCaP prostate cancer cells (48 h: pooled FAM110B siRNA vs. Scrambled siRNA; 72 h: FAM110B siRNAs 1 - 4 and pooled siRNA vs. Scrambled siRNA) and ectopic FAM110B over-expression in both RWPE-1 and LNCaP cells (FAM110B-pEGFP vs. pEGFP, 48 h) were analyzed. The raw data for these Samples are available in the 'GSE28403_LNCaP_RWPE-1_Raw_Data.txt' file, which is linked to this record as a supplementary file.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array GPL2873 Agilent-012750 Human Genome CGH Microarray 44A (Feature number version) GPL2879 Agilent-013282 Human Genome CGH Microarray 44B (Feature number version) GPL7182 Harvard_Human_BeadChip_23K_Ref8v3
+
+CITATIONS
+21919029
+

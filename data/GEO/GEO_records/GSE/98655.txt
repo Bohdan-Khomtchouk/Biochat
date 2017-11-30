@@ -1,0 +1,18 @@
+TITLE
+A protein complex regulates RNA processing of intronic heterochromatin-containing genes in Arabidopsis
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+In several eukaryotic organisms, heterochromatin (HC) in the introns of genes can regulate RNA processing, including polyadenylation, but the mechanism underlying this regulation is poorly understood. By promoting distal polyadenylation, the bromo-adjacent homology (BAH) domain-containing and RNA recognition motif-containing protein ASI1 and the H3K9me2-binding protein EDM2 are required for the expression of functional full-length transcripts of intronic HC-containing genes in Arabidopsis. Here we report that ASI1 and EDM2 form a protein complex in vivo via a bridge protein, ASI1-Immunoprecipitated Protein 1 (AIPP1), which is another RNA recognition motif-containing protein. The complex also may contain the Pol II CTD phosphatase CPL2, the plant homeodomain-containing protein AIPP2, and another BAH domain protein, AIPP3. As is the case with dysfunction of ASI1 and EDM2, dysfunction of AIPP1 impedes the use of distal polyadenylation sites at tested intronic HC-containing genes, such as the histone demethylase gene IBM1, resulting in a lack of functional full-length transcripts. A mutation in AIPP1 causes silencing of the 35S-SUC2 transgene and genome-wide CHG hypermethylation at gene body regions, consistent with the lack of full-length functional IBM1 transcripts in the mutant. Interestingly, compared with asi1, edm2, and aipp1 mutations, mutations in CPL2, AIPP2, and AIPP3 cause the opposite effects on the expression of intronic HC-containing genes and other genes, suggesting that CPL2, AIPP2, and AIPP3 may form a distinct subcomplex. These results advance our understanding of the interplay between heterochromatic epigenetic modifications and RNA processing in higher eukaryotes.
+
+DESIGN
+MethylC-Seq: 3 samples examined and each sample has two replicates, Col-0, aipp1-1, and aipp1-2; mRNA-Seq: 4 samples examined and each sample has two replicates, Col-0, aipp1-1, asi1-2 and edm2-4.
+
+PLATFORM
+GPL17639 Illumina HiSeq 2500 (Arabidopsis thaliana)
+
+CITATIONS
+28808009
+

@@ -1,0 +1,18 @@
+TITLE
+Developing human radiation biodosimetry models: Testing cross-species conversion approaches using an ex vivo model system
+
+ORGANISM
+Macaca mulatta ; Homo sapiens
+
+SUMMARY
+In the event of a large-scale radiation exposure incident, accurate and quick assessment of radiation dose would be critical for triage and medical treatment of large numbers of potentially exposed individuals. Current methods of biodosimetry, such as the dicentric chromosome assay, are time consuming and require sophisticated equipment and highly trained personnel. Therefore, scalable biodosimetry approaches, including gene expression profiles in peripheral blood cells, are being investigated.  Due to limited availability of appropriate human samples, however, biodosimetry development has relied heavily on mouse models, which are not directly applicable to human response. Therefore, to explore the feasibility of using non-human primate models to build and test a biodosimetry algorithm for use in humans, we ex vivo-irradiated peripheral blood samples from both humans and rhesus macaques to 0, 2, 5, 6, and 7 Gy, and compared the gene expression profiles 24 hours later using Agilent human microarrays. Among the dose-responsive genes in human and using non-human primate, 52 genes showed highly correlated expression patterns between the species, and were enriched in p53/DNA damage response, apoptosis, and cell cycle-related genes. When these interspecies-correlated genes were used to build biodosimetry models with using non-human primate data, the mean prediction accuracy on non-human primate samples was about 90% within 1 Gy of delivered dose in leave-one-out cross-validation. However, tests on human samples suggested that human gene expression values may need to be adjusted prior to application of the non-human primate model. A ‘multi-gene’ approach utilizing all gene values for cross-species conversion and applying the converted values on the non-human primate biodosimetry models, gave a leave-one-out cross-validation prediction accuracy for human samples highly comparable (up to 94%) to that for non-human primate. Overall, this study demonstrates that a robust NHP biodosimetry model can be built using interspecies-correlated genes, and that, by using multiple regression-based cross-species conversion of expression values, absorbed dose in human samples can be accurately predicted by the non-human primate model.
+
+DESIGN
+Twenty-four (24) hours after ex vivo irradiation ranging from 0, 2, 5, 6 and 7 Gy G-rays, gene expression was measured in peripheral blood samples from 9 healthy male and 5 female Chinese rhesus macaques, as well as 10 male and 10 female human volunteers.
+
+PLATFORM
+GPL10332 Agilent-026652 Whole Human Genome Microarray 4x44K v2 (Feature Number version)
+
+CITATIONS
+28328310
+

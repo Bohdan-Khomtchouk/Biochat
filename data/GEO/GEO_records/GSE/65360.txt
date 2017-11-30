@@ -1,0 +1,18 @@
+TITLE
+Single-cell chromatin accessibility data using scATAC-seq
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Cell-to-cell variation is a universal feature of life that impacts a wide range of biological phenomena, from developmental plasticity to tumor heterogeneity. While recent advances have improved our ability to document cellular phenotypic variation the fundamental mechanisms that generate variability from identical DNA sequences remain elusive. Here we reveal the landscape and principles of cellular DNA regulatory variation by developing a robust method for mapping the accessible genome of individual cells via assay of transposase accessible chromatin sequencing (ATAC-seq). Single-cell ATAC-seq (scATAC-seq) maps from hundreds of single-cells in aggregate closely resemble accessibility profiles from tens of millions of cells and provides insights into cell-to-cell variation. Accessibility variance is systematically associated with specific trans-factors and cis-elements, and we discover combinations of trans-factors associated with either induction or suppression of cell-to-cell variability. We further identify sets of trans-factors associated with cell-type specific accessibility variance across 6 cell types. Targeted perturbations of cell cycle or transcription factor signaling evoke stimulus-specific changes in this observed variability. The pattern of accessibility variation in cis across the genome recapitulates chromosome topological domains de novo, linking single-cell accessibility variation to three-dimensional genome organization. All together, single-cell analysis of DNA accessibility provides new insight into cellular variation of the “regulome.”
+
+DESIGN
+Profiles of single cell epigenomes, assayed using scATAC-seq, across 8 cell types and 4 targeted cell manipulations. The complete data set contains a total of 1,632 assayed wells.
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+26083756
+

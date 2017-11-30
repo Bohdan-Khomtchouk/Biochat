@@ -1,0 +1,18 @@
+TITLE
+Phenotypic, transcriptomic and genomic characterization of clonal plasma cells in light chain amyloidosis [Gene expression profiling]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Immunoglobulin light-chain amyloidosis (AL) is a rare clonal plasma cell (PC) disorder that remains largely incurable. AL and multiple myeloma (MM) share the same cellular origin, but while knowledge about MM PC biology has improved significantly, the same does not apply for AL. Here, we undertook an integrative phenotypic, molecular, and genomic approach to study clonal PCs from 22 newly-diagnosed AL patients. Through principal-component-analysis, we demonstrated highly overlapping phenotypic profiles between AL and MGUS or MM patients. However, in contrast to MM, highly-purified FACSs-sorted clonal PCs in AL (n=9/22) show virtually normal transcriptomes with only 68 deregulated genes as compared to normal PCs, including a few tumor suppressor (CDH1, RCAN) and pro-apoptotic (GLIPR1, FAS) genes. Notwithstanding, clonal PCs in AL (n=11/22) were genomically unstable with a median of 9 copy-number-abnormities (CNAs) per case; many of which similar to those found in MM. Whole-exome sequencing (WES) was performed in three AL patients and revealed a median of 10 non-recurrent mutations per case. Altogether, we showed that although clonal PCs in AL display phenotypic and CNA profiles similar to MM, their transcriptome is remarkably similar to that of normal PCs. First-ever WES revealed the lack of a unifying mutation in AL
+
+DESIGN
+A total of 22 patients with confirmed diagnosis of AL based on the presence of amyloid-related systemic syndrome, positive amyloid tissue staining with Congo red, and evidence of PC clonality were studied. Samples were collected after informed consent was given, in accordance with local ethical committee guidelines and the Helsinki Declaration. GEP was performed in 9/22 AL cases with adequate RNA extracted from FACS-purified clonal PCs according to patient-specific aberrant phenotypes, and compared to that of normal PCs from 5 healthy individuals (FACSAriaIIb, BDB; ≥95% purity). RNA was hybridized to the Human Gene 1.0 ST Array (Affymetrix, Santa Clara, CA, USA) and normalization was carried using the expression console (Affymetrix) with the RMA algorithm which includes background correction, normalization and calculation of expression values (log2). Differentially expressed genes between classes were identified using the Significant Analysis of Microarrays (SAM) algorithm ( http://www-stat.standford.edu/-tibs/SAM ), and significant genes were selected based on the lowest q-value ( < 10-5).
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+27069257
+

@@ -1,0 +1,18 @@
+TITLE
+GAF pGHost vs mariner
+
+ORGANISM
+Streptococcus pneumoniae R6
+
+SUMMARY
+Streptococcus pneumoniae is a major cause of serious infections such as pneumonia and meningitis in both children and adults worldwide. Here, we describe the development of a high-throughput genome-wide technique, Genomic Array Footprinting (GAF), for the identification of genes essential for this bacterium at various stages during infection. GAF enables negative screens by means of a combination of transposon mutagenesis and microarray technology for the detection of transposon insertion sites. We tested several methods for the identification of transposon insertion sites and found that amplification of DNA adjacent to the insertion site by PCR resulted in non-reproducible results, even when combined with an adapter. However, restriction of genomic DNA followed directly by in vitro transcription circumvented these problems. Analysis of parallel reactions generated with this method on a large mariner transposon library, showed that it was highly reproducible and correctly identified essential genes. Comparison of a mariner library to one generated with the in vivo transposition plasmid pGh:ISS1, showed that both have an equal degree of saturation, but that 9% of the genome is preferentially mutated by either one. The usefulness of GAF was demonstrated in a screen for genes essential for survival of zinc stress. This identified a gene encoding a putative cation efflux transporter, and its deletion resulted in an inability to grow under high zinc conditions. In conclusion, we developed a fast, versatile, specific, and high-throughput method for the identification of conditionally essential genes in S. pneumoniae. Keywords: GAF pGHost vs mariner
+
+DESIGN
+Comparison of the pGhT7:ISS1 and marinerT7 transposon libraries Previous experiments were performed on marinerT7 generated libraries. To test whether the method could also be applied to pGh9T7:ISS1 libraries, and to assess the level of saturation and randomness achieved by each transposon, we compared a large ( > 20,000 CFU) marinerT7 library with a pGh9T7:ISS1 one, each grown for approximately 20 generations in GM17. After isolation, the DNA was digested with DdeI and AluI and each detection reaction was performed in duplicate. Microarray data were analyzed as before using the background filter generated with the TIGR4-specific amplicons (the normalized signal data and cyberT output data for these arrays are available at http://molgen.biol.rug.nl/publication/GAF_data ). This analysis resulted in the detection of 1,473 genes and the not-detected genes were similar to those not-detected in the analysis of the three marinerT7 digests. The ratio of the majority of the genes was between 0.5 and 2, indicating that they are mutated by both transposons. However, 139 (9%) genes had a ratio lower than 0.5 or higher than 2, indicating that these genes are only, or preferentially, mutagenized by one of the two transposons. These “hotspots” are distributed throughout the genome (Table 3). There were 60 genes preferentially mutated by pGh9T7:ISS1, whereas 79 were preferentially mutated by marinerT7, indicating that it has a slightly higher saturation rate than pGh9T7:ISS1. Anchored PCR using primers located on some of the ORFs that had a ratio close to the cut-off point of 0.5 indicated that these genes were indeed preferentially hit by either transposon and that these ratios were not due to slight differences in, for instance, T7 RNA polymerase efficiency (data not shown).
+
+PLATFORM
+GPL4784 Streptococcus pneumoniae TIGR4/R6 v5 GAF
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

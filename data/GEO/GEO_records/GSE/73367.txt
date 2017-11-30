@@ -1,0 +1,18 @@
+TITLE
+A cross species and multi-omics (including metabolomics) analysis in pancreatic neuroendocrine tumours (miRNA)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Pancreatic neuroendocrine tumor (PanNET) is relatively infrequent but is nevertheless metastatic. Seeking to extend a new paradigm of personalized medicine, we performed an integrative analysis of transcriptomic (mRNA and microRNA) and mutational profiles and defined three clinically relevant human PanNET subtypes. Importantly, cross-species analysis revealed two of these three subtypes in a well-characterized, genetically engineered mouse model (RIP1-Tag2) of PanNET and its cell lines. Each subtype share similarities to distinct cell types in pancreatic neuroendocrine development, features are reflected in their metabolic profiles. Subtype-specific molecular signatures metabolites are proposed to identify these subtypes.
+
+DESIGN
+Total RNA was extracted from fresh frozen archival patient PanNET samples and hybridized on Agilent microRNA arrays. All normalization methods were performed on the Total Gene Signal from Agilent " GeneView " data files in R, an open source statistical scripting language ( http://www.r-project.org ). Except for VSN, data were log2 transformed after adding a small constant such that the smallest value of the data set was 1 before taking the log. Scaling normalization was performed by dividing each array by its mean signal intensity and then by rescaling to the global mean intensity of all arrays. Quantile normalization was performed using the " normalize.quantiles " function from R package " affy " from the Bioconductor project ( http://www.bioconductor.org ).
+
+PLATFORM
+GPL16770 Agilent-031181 Unrestricted_Human_miRNA_V16.0_Microarray (miRBase release 16.0 miRNA ID version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

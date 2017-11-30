@@ -1,0 +1,18 @@
+TITLE
+Experimental analysis of oligonucleotide microarray design criteria to detect deletions by CGH
+
+ORGANISM
+Caenorhabditis elegans ; Homo sapiens
+
+SUMMARY
+BACKGROUND: Microarray comparative genomic hybridization (CGH) is currently one of the most powerful techniques to measure DNA copy number in large genomes. In humans, microarray CGH is widely used to assess copy number variants in healthy individuals and copy number aberrations associated with various diseases, syndromes and disease susceptibility. In model organisms such as Caenorhabditis elegans (C. elegans) the technique has been applied to detect mutations, primarily deletions, in strains of interest. Although various constraints on oligonucleotide properties have been suggested to minimize non-specific hybridization and improve the data quality, there have been few experimental validations for CGH experiments. For genomic regions where strict design filters would limit the coverage it would also be useful to quantify the expected loss in data quality associated with relaxed design criteria. RESULTS: We have quantified the effects of filtering various oligonucleotide properties by measuring the resolving power for detecting deletions in the human and C. elegans genomes using NimbleGen microarrays. Approximately twice as many oligonucleotides are typically required to be affected by a deletion in human DNA samples in order to achieve the same statistical confidence as one would observe for a deletion in C. elegans. Surprisingly, the ability to detect deletions strongly depends on the oligonucleotide 15-mer count, which is defined as the sum of the genomic frequency of all the constituent 15-mers within the oligonucleotide. A similarity level above 80% to non-target sequences over the length of the probe produces significant cross-hybridization. We recommend the use of a fairly large melting temperature window of up to 10 C, the elimination of repeat sequences, the elimination of homopolymers longer than 5 nucleotides, and a threshold of -1 kcal/mol on the oligonucleotide self-folding energy. We observed very little difference in data quality when varying the oligonucleotide length between 50 and 70, and even when using an isothermal design strategy. CONCLUSIONS: We have determined experimentally the effects of varying several key oligonucleotide microarray design criteria for detection of deletions in C. elegans and humans with NimbleGen's CGH technology. Our oligonucleotide design recommendations should be applicable for CGH analysis in most species.
+
+DESIGN
+One-copy deletions were studied in both the C. elegans (2 samples) and human (1 sample) genomes. There were no replicate or dye-swap hybridizations.
+
+PLATFORM
+GPL7084 Flibotte C. elegans 380k oligotest GPL7085 Flibotte human 380k oligotest
+
+CITATIONS
+18940006
+

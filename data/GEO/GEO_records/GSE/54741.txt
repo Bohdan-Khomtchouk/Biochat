@@ -1,0 +1,18 @@
+TITLE
+Microarray analysis comparing yeast Eco1 mutant W216G to mutants of FOB1 and RAD61
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Eco1 is an acetyltransferase subunit of the cohesin complex and acts during DNA replication to establish cohesion between sister chromatids. However, cohesin has additional functions in gene expression, DNA damage repair, and higher-order organization of chromosomes. The eco1 mutant W216G disrupts acetyltansferase activity, and causes genome-wide transcriptional defects which can be suppressed by deletion of FOB1, a gene also involved in DNA replication. This experiment investigates gene expression differences between the eco1-W216G mutant, and mutants in FOB1, and RAD61 a gene involved in inhibition of cohesion establishment but mutation of which is able to suppress temperature sensitivity of the eco1-W216G mutant.
+
+DESIGN
+Wt and mutant strains of yeast were grown to mid log phase in liquid culture in triplicate and harvested for comparison on Affymetrix microarrays. The following strains were compared: 1) eco1-W216G, 2) eco1-W216G fob1Δ, 3) eco1-W216G rad61Δ, 4) fob1Δ, 5) rad61Δ, and 6) WT.
+
+PLATFORM
+GPL2529 [Yeast_2] Affymetrix Yeast Genome 2.0 Array
+
+CITATIONS
+24631914
+

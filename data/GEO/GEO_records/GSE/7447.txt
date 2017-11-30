@@ -1,0 +1,18 @@
+TITLE
+Human esophageal squamous cell carcinoma cell lines with downregulated PTTG1
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We conducted a comprehensive genome-wide interrogation to identify gene targets regulated by PTTG1 using a bead-array platform. The raw data and normalized logarithmic data were included in this subset. Keywords: siRNA, esophageal cells
+
+DESIGN
+HSA/c and KYSE140 cells were transfected with three siRNA oligos (NTC, P1, P2) separately or without oligos (LF+) at day 0 and harvested at day 3. Total RNAs were extracted by the RNeasy kit (Qiagen) from the eight samples. After the RNA quality measurement by the Bioanalyzer 2100 (Agilent Technologies, Santa Clara, CA), each RNA sample (100 ng) was amplified with the Illumina TotalPrep RNA Amplification kit (Ambion, Austin, TX), hybridized with the Illumina Human RefSeq8 version 2 BeadChip with 20,589 transcript probes comprised of optimized 50 mer-oligonucleotides (Illumina, San Diego, CA), washed, and stained with Cy3-streptavidin (GE Healthcare) as per the manufactures’ instructions. The arrays were scanned with the Illumina Beadarray Reader confocal scanner (Illumina) and the data were processed using the Illumina BeadStudio software (Illumina). The data were subjected to intensity-dependent normalization, and differentially expressed genes by PTTG1 downregulation were identified by the Significance Analysis of Microarrays (SAM) program.
+
+PLATFORM
+GPL5060 HumanRef-8 v2 Expression BeadChip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

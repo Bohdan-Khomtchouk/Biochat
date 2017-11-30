@@ -1,0 +1,18 @@
+TITLE
+Spike-in at 0.25pmol with 18 replicates
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We have conducted a study to determine which DNA microarray analysis method for identification of differential expression works best with a varying number of replicates, in particular, when the number of replicates is small. Using spiked-in mRNA with two-channel microarrays, as well as simulated data generated /in silico/, we measured the efficacy of five gene identification methods, namely /t/-test, Significance Analysis of Microarrays (SAM), median log ratio, median fold change and Wilcoxon ranksum test. By comparing the receiver operating characteristic (ROC) curves as well as the ranking accuracy versus sample size plots, our results show that the simple median methods (median log ratio and median fold change) are more accurate and robust than the other statistical methods in identifying differential gene expression, especially when the number of sample replicates is small. Keywords: Spike-in
+
+DESIGN
+In this study, total mRNA was extracted from mouse hybridoma CRL1606 cells and divided equally into two samples. These two samples are essentially the same, but will be referred to as ‘Sample R’ and ‘Sample G’ for the sake of explanation. From self-hybridization results, 200 random genes were selected ensuring uniform representation of the whole intensity range to avoid expression intensity-biased spikes. mRNA that correspond to these 200 genes were obtained from in-vitro transcription, as described above.  RNA gel electrophoresis was performed on selected samples and quantified by a spectrometer (Genequant Pro RNA/DNA calculator, Amersham Biosciences). Due to inefficiency in in-vitro transcription, 31 of 200 genes were dropped. A total of 169 genes were used eventually. To create artificial differential expression, one group with 78 transcripts was mixed with Sample G and labelled with Cy3 whilst the other group with 91 transcripts was mixed with sample R and labelled with Cy5.  Since mRNA from Sample R and Sample G are the same, the only ‘truly’ differentially expressed genes should be those that were spiked in. The in vitro transcripts were spiked-in with 18 array replicates with a concentration of 0.25 pmol.
+
+PLATFORM
+GPL1961 NIA_Mouse_7.4K_cDNA
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

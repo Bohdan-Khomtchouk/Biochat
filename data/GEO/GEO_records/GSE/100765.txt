@@ -1,0 +1,18 @@
+TITLE
+A key regulator of the glycolytic and gluconeogenic central metabolic pathways in Sinorhizobium meliloti
+
+ORGANISM
+Sinorhizobium meliloti
+
+SUMMARY
+The order Rhizobiales contains numerous agriculturally, biotechnologically, and medically important bacteria including the rhizobia, Agrobacterium, Brucella, and Methylobacterium, among others.  These organisms tend to be metabolically versatile, but there has been relatively little investigation into the regulation of their central carbon metabolic pathways.  Here, RNA-seq and promoter fusion data are presented to show that the PckR protein is a key regulator of central carbon metabolism in Sinorhizobium meliloti; during growth with gluconeogenic substrates, PckR represses expression of the complete Entner-Doudoroff glycolytic pathway and induces expression of the pckA and fbaB gluconeogenic genes.  Electrophoretic mobility shift assays (EMSA) indicate that PckR binds an imperfect palindromic sequence that overlaps the promoter or transcriptional start site in the negatively regulator promoters, or is present in tandem upstream the promoter motifs in the positively regulated promoters.  Genetic and in vitro EMSA experiments suggest that elevated concentrations of a PckR effector ligand results in the dissociation of PckR from its target binding site, and evidence is presented that suggests phosphoenolpyruvate (PEP) may function as the effector.  Characterization of missense pckR alleles identified three conserved residues important for increasing the affinity of PckR for its cognate effector molecule.  Bioinformatics analyses illustrates that PckR is limited to a narrow phylogenetic range consisting of the Rhizobiaceae, Phyllobacteriaceae, Brucellaceae, and Bartonellaceae families.  These data provide novel insights into the regulation of the core carbon metabolic pathways of this pertinent group of α-proteobacteria.
+
+DESIGN
+There were a total 8 samples for the RNA-sequencing analysis: four conditions performed in biological duplicates.  Total RNA was isolated from S. meliloti RmG212 (pckR+) and from S. meliloti RmK124 (pckR::ΩSp), grown either in minimal medium with 15 mM glucose as the carbon source or in minimal medium with 15 mM succinate as the carbon source.  Sequencing was performed using Illumina HiSeq 1500 with 60 nt single reads.
+
+PLATFORM
+GPL23651 Illumina HiSeq 1500 (Sinorhizobium meliloti)
+
+CITATIONS
+28851745
+

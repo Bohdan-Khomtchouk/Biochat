@@ -1,0 +1,18 @@
+TITLE
+Expression and ChIP-seq analyses of embryonic stem cells, extraembryonic endoderm stem cells, and trophoblast stem cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Bivalent histone domains have been proposed to contribute to pluripotency in embryonic stem cells, suggesting an epigenetic mechanism may regulate stem cell behavior in general. Here we compare histone modifications in two other stem cells derived from the blastocyst. We show that extraembryonic stem cells have little repressive lysine 27 trimethylation and few bivalent domains. Thus, bivalent domains are not a common mechanism for maintaining the undifferentiated state in blastocyst-derived stem cells and alternative mechanisms must mediate transcriptional repression in extraembryonic cells. We show that lysine 9 trimethylation, but not DNA methylation, is likely to fulfill this role. Intriguingly, although we do detect bivalent domains in pluripotent cells in the early mouse embryo, the epigenetic status of extraembryonic cells does not entirely reflect their in vitro stem cell counterparts. Therefore, differences in epigenetic regulation between lineage progenitors in vivo and in vitro may arise during selection for self-renewal in vitro.
+
+DESIGN
+Expression profiles [GSM388878-GSM388881] of three different stem cells (R1 embryonic stem cells, trophoblast stem cells, extraembryonic endoderm stem cells) were generated for comparison to CHIP-seq data [GSM392044-GSM392055] of the same three stem cell lines to observe correlations with Histone 3 K4 and K27 trimethylation patterns. CHIP-seq details: R1 embryonic stem cells, trophoblast stem cells or extraembryonic endoderm stem cells were grown, lysed and chromatin purified. The chromatin was immunoprecipitated for either histone 3 K4 trimethylation or histone 3 K27 trimethylation and the immunoprecipitate was subjected to purification and high-throughput Illumina-based sequencing.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version] GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+20479220
+

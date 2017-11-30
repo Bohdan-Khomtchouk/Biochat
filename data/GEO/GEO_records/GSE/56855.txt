@@ -1,0 +1,18 @@
+TITLE
+Transcript profiles of juvenile female brown trout exposed to glyphosate and Roundup herbicides.
+
+ORGANISM
+Salmo trutta
+
+SUMMARY
+This study aimed to investigate the hepatic transcriptional response of brown trout to glyphosate, and its formulated product, Roundup. We exposed juvenile female brown trout to three concentrations of glyphosate (0.01, 0.5 and 10 mg/L) and Roundup (0.01, 0.5 and 10 mg/L glyphosate acid equivalent) for 14 days and sequenced the hepatic transcriptome of 6 individual females per treatment group in order to determine the global mechanisms of toxicity of this widely used herbicide. We assembled the brown trout transcriptome using an optimised de novo approach, and subsequent differential expression analysis identified a total of 1020 differentially-regulated transcripts across all treatments. Differentially-expressed transcripts included those encoding components of the antioxidant system, a number of stress-response proteins and pro-apoptotic signalling molecules. Functional analysis also revealed over-representation of pathways involved in regulation of cell-proliferation and turnover, and up-regulation of energy metabolism and other metabolic processes. Together, these transcriptional changes are consistent with generation of oxidative stress and the widespread induction of compensatory cellular stress response pathways. The mechanisms of toxicity identified were similar across both glyphosate and Roundup treatments, including for environmentally relevant concentrations. The significant alterations in transcript expression observed at the lowest concentrations tested raises concerns for the toxicity of this herbicide to fish populations inhabiting contaminated rivers.
+
+DESIGN
+Fish were exposed to 3 concentrations of glyphosate (0.01, 0.1 and 10 mg/L), 3 concentrations of Roundup (0.01, 0.5 and 10 mg/L glyphosate acid equivalent) and water controls for 14 days. Liver mRNA from 6 replicate individuals per treatment was sequenced in an Illumina HiSeq 2500 platform. Two control groups (n=6 fish per group) were included. Using a de novo approach, we assembled the hepatic transcriptome for brown trout. Sequence reads were re-mapped to the assembled transcriptome using Bowtie2 and transcript expression profiling was conducted using EdgeR. ERCC spike controls were added to all individual samples, allowing for the assessment of the reproducibility and dynamic range for transcript expression quantification in our experiments. For the group exposed to 0.1 mg/L glyphosate, only 3 females were available to sequence and the variability between individuals was very high with 1 female identified as an outlier. For this reason, data from this treatment group was deemed unreliable and excluded from the analysis.
+
+PLATFORM
+GPL18582 Illumina HiSeq 2500 (Salmo trutta)
+
+CITATIONS
+25636363
+

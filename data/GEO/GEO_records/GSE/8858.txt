@@ -1,0 +1,18 @@
+TITLE
+Liver Pharmacology and Xenobiotic Response Repertoire
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+A definition of RNA expression changes that correlate with liver response programs and an understanding of the similarities and differences in responses to different classes of chemicals would aid in new chemical or drug characterization and add to our understanding of liver biology. We have used a supervised classification approach to systematically mine a large microarray database derived from livers of compound-treated rats.  Thirty-four distinct signatures (classifiers) for pharmacological and toxicological endpoints resolvable by gene expression can be identified. The contribution of genes to signatures is not correlated to average expression or amplitude of regulation, and pre-selection of genes can significantly reduce signature performance. Just 200 genes are sufficient to classify all endpoints and can form the basis of a small diagnostic array useful in toxicogenomics.  Signature genes were enriched in xenobiotic and acute phase response genes as well as un-annotated genes, suggesting that not all key genes in liver xenobiotic responses have been identified. Individual signatures can be re-derived up to 25 times from a gene set cyclically .stripped. of the signature genes. The union of these non-overlapping sets was used to describe the biological mechanisms of liver fibrosis. Guidelines for commercial use: http://www.iconixbiosciences.com/guidelineCommUse.pdf Keywords: dose response, time course, compound treatment
+
+DESIGN
+Treatment of male Sprague-Dawley rats with 344 compounds at various doses and durations, in biological triplicate, along with vehicle-matched control animals.  Liver samples were assayed for gene expression.  A total of 1695 samples were hybridized to single-channel CodeLink RU1 arrays.  Biological triplicates were combined with matched control samples to calculate log ratios.  Classifiers were generated and evaluated for 2112 biological questions, resulting in 34 distinct, high-performance " signatures. "
+
+PLATFORM
+GPL5424 GE Healthcare/Amersham Biosciences CodeLink UniSet Rat I Bioarray, layout EXP5280X2-584 GPL5425 GE Healthcare/Amersham Biosciences CodeLink UniSet Rat I Bioarray, layout EXP5280X2-613 GPL5426 GE Healthcare/Amersham Biosciences CodeLink™ UniSet Rat I Bioarray, layout EXP5280X2-648
+
+CITATIONS
+18364709
+

@@ -1,0 +1,18 @@
+TITLE
+Gene affected by deletion of 6S RNA in post-exponential phase
+
+ORGANISM
+Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+
+SUMMARY
+Legionella pneumophila is a gram-negative opportunistic human pathogen that infects and multiplies in a broad range of phagocytic protozoan and mammalian phagocytes. Based on the observation that small regulatory RNAs (sRNAs) play an important role in controlling virulence-related genes in several pathogenic bacteria, we attempted to test the hypothesis that sRNAs play a similar role in L. pneumophila. We used computational prediction followed by experimental verification to identify and characterize sRNAs encoded in the L. pneumophila genome.   A 50-mer probe microarray was constructed to test the expression of predicted sRNAs in bacteria grown under a variety of conditions. This strategy successfully identified 22 expressed RNAs, out of which six were confirmed by northern blot and RACE. One of the identified sRNAs is highly expressed when the bacteria enter post exponential phase and computational prediction of its secondary structure reveals a striking similarity to the structure of 6S RNA, a widely distributed prokaryotic sRNA, known to regulate the activity of σ70-containing RNAP. A 70-mer probe microarray was used to identify genes affected by L. pneumophila 6S RNA in stationary phase. The 6S RNA encoded by the ssrS gene positively regulates expression of genes encoding type IVB secretion system effectors, stress response genes such as groES and recA as well as many genes with unknown or hypothetical functions. Deletion of 6S RNA significantly reduced L. pneumophila intracellular multiplication in both protist and mammalian host cells, but had no detectable effect on growth in rich media.
+
+DESIGN
+The 70-mer microarray representing all annotated ORFs of L. pneumophila has been previously described (Charpentier et al., 2008). RNA was extracted from ssrS mutant strain and the wild-type strain grown to PE phase. gDNA was used as a reference channel on each slides. Labelling of samples, hybridization strategy and data acquisition were performed as described in the Methods section. Local background was removed from spot signal intensity and normalization was carried out by calculating the fraction over the total signal intensity in both channel as previously described (Faucher et al., 2006). Signal levels that were lower than background in experiments and controls were filtered out. A total of six cDNA to reference ratios were recorded for each time point. Statistical analysis between mutant and wild-type strain was performed using unpaired one-tailed student’s t-test. Genes were considered as differentially expressed if they demonstrated a ratio to control value of ±2-fold with a p < 0.001.
+
+PLATFORM
+GPL7283 CGC Legionella whole-genome microarray v1.0
+
+CITATIONS
+20368425
+

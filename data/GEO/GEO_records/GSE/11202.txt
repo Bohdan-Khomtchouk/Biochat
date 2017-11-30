@@ -1,0 +1,18 @@
+TITLE
+Characterization of the regulatory networks mediating TLR9 dependent gene activation in vivo
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+CpG DNA interacts with TLR9 to stimulate a broadly protective innate immune response. This study uses bioinformatic network analysis of microarray data to identify the genes and regulatory networks triggered by CpG ODN. CpG treatment induced significant gene up-regulation (p < 0.00001) in the spleen within 30 min, peaking with the activation of > 500 genes at 3 hr, and declining progressively thereafter. There were reproducible changes in the pattern of gene expression over time. This was mediated by a small group of “major inducers” (IL1A, IL1B, TNF, IFNG) whose activity was modulated by several “minor inducers” (NFKB1, IL6, IL15, IL18, STAT1, STAT2). The subsequent decline in gene activation was mediated by “suppressors” (MYC, IL1RN, SOCS1, SOCS3, NFKBIA, IL10, FOS) that actively down-regulated gene expression and targeted both major and minor inducers. Thus, the regulation of TLR9 dependent gene activation involves multiple waves of stimulation mediated by a small number of “major” and “minor” inducers followed by the active inhibition of gene expression by “suppressors”. Keywords: time series design
+
+DESIGN
+Endotoxin-free phosphorothioate ODN were synthesized at the CBER core facility (FDA, Bethesda, MD) as previously described. Mice were injected intraperitoneal (i.p.) with 400 ìg of an equimolar mixture of CpG ODNs 1555 (GCTAGACGTTAGCGT) and 1466 (TCAACGTTGA) or control ODNs 1612 (GCTAGATGTTAGCGT) and 1471 (TCAAGCTTGA). Spleens were surgically removed from mice under sterile conditions after 0.5, 1, 3, 9, 24 hr, and/or 72 hr, diced, and stored at -800 C in RNAlater (Qiagen, Valencia, CA). Data from 4 independent experiments/time point and 4-6 untreated controls were used for all statistical analyses. Reproducibility was established by comparing gene expression profiles among similarly treated mice from independent experiments in mAdb (referenced above). Expression analyses were performed using BRB ArrayTools (Biometric Research Branch, NCI). Data were background corrected, flagged values were removed, spots in which both signals were < 100 were filtered out, ratios were log base 2 transformed and lowess intensity dependent normalization was used to adjust for differences in labeling intensities of the Cy3 and Cy5 dyes (Yang et al., 2002). Analysis was restricted to genes present on > 70% of the arrays after filtering. The gene expression profile of all treatment groups was compared to that of the control groups.
+
+PLATFORM
+GPL4200 NCI/ATC Mm-MEEBO
+
+CITATIONS
+19179452
+

@@ -1,0 +1,18 @@
+TITLE
+Borderline Changes in Renal Allografts: Molecular Diagnostics Identifies Risks for Graft Dysfunction
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The significance of borderline changes (BL) in kidney allograft biopsies is widely debated. We examined differences in gene expression patterns between early clinical biopsy tissue and 3-month protocol biopsy tissue, all of which had histological BL changes and identified specific molecular BL patterns associated with poor graft outcome. The expression profiles were analyzed in training set of patients and next data were validated in validation cohort using RT-qPCR. Using the Illumina microarray technology, we observed greater expression of immunity- and inflammation-related genes in tissues from early clinical biopsies compared to 3-month protocol biopsies with BL findings. In tissues with early clinically manifested BL changes, graft deterioration within 24 months due to chronic rejection was associated with increased activation of immune, defense, and inflammatory processes, specifically with higher donor age and expression of macrophage receptor CLEC5A. In the 3-month protocol biopsies with BL changes, graft dysfunction was associated with increased expression of fibrinogen complex transcripts. This study highlights the molecular differences between clinical and subclinical biopsies with similar histological findings. The data also support a recommendation for frequent patient monitoring, especially in those who received grafts from expanded criteria donors (ECDs).
+
+DESIGN
+The experiments were performed with total RNA derived from the renal graft biopsy samples of 28 different patients who had undergone a kidney transplantation.  Only the patients with diagnosis of borderline changes early (≤2 months) or protocolar (3 months) were included in the study.  RNA profiles of patients with stable and deteriorated graft function during 2 years after transplantation were compared. As microarray platform,  Illumina HumanHT-12 v4.0 Expression BeadChips (Illumina) was used. The chip scanning was performed with a BeadStation 500 instrument (Illumina Inc), and the raw data were extracted with the BeadStudio Data Analysis Software (Illumina). The R software lumi package was used to further process the raw data. The quantile method was used for normalization.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+26176825
+

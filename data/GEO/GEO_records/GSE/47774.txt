@@ -1,0 +1,18 @@
+TITLE
+A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequence Quality Control consortium
+
+ORGANISM
+Homo sapiens ; synthetic construct
+
+SUMMARY
+We present primary results from the Sequencing Quality Control (SEQC) project, coordinated by the United States Food and Drug Administration. Examining Illumina HiSeq, Life Technologies SOLiD and Roche 454 platforms at multiple laboratory sites using reference RNA samples with built-in controls, we assess RNA sequencing (RNA-seq) performance for sequence discovery and differential expression profiling and compare it to microarray and quantitative PCR (qPCR) data using complementary metrics. At all sequencing depths, we discover unannotated exon-exon junctions, with > 80% validated by qPCR. We find that measurements of relative expression are accurate and reproducible across sites and platforms if specific filters are used. In contrast, RNA-seq and microarrays do not provide accurate absolute measurements, and gene-specific biases are observed, for these and qPCR. Measurement performance depends on the platform and data analysis pipeline, and variation is large for transcriptlevel profiling. The complete SEQC data sets, comprising > 100 billion reads (10Tb), provide unique resources for evaluating RNA-seq analyses for clinical and regulatory settings.
+
+DESIGN
+The well-characterized reference RNA samples A (pooled cell lines) and B (human brain) from the MAQC consortium, adding spike-ins of synthetic RNA from the External RNA Control Consortium (ERCC).  Samples C and D were then constructed by combining A and B in known mixing ratios, 3:1 and 1:3, respectively.  All samples were distributed to several independent sites for RNA-Seq library construction and profiling by Illumina HiSeq 2000 and LifeTech SOLiD 5500 platforms.  Also, vendors created their own cDNA libraries that were then distributed to each test site, in order to examine the degree of a ?site effect? that was independent of the library preparation process.  To support an assessment of gene models, samples A and B were also sequenced at independent sites by the Roche 454 platform, providing longer reads.  For comparison to other technologies, these data were also compared to the MAQC-I Affymetrix U133 Plus2 microarray, several current microarray platforms, and also assessed by 20,801 PrimePCR reactions. Sample A: Universal Human Reference RNA (UHRR) from Stratagene and ERCC Spike-In controls Sample B: Human Brain Reference RNA (HBRR) from Ambion and ERCC Spike-In controls Sample C: Mix of A and B (3:1) Sample D: Mix of A and B (1:3) Sample E: Ambion ERCC Spike-In Control Mix 1 Sample F: Ambion ERCC Spike-In Control Mix 2
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL14603 454 GS FLX Titanium (Homo sapiens) GPL15228 Illumina HiSeq 2000 (synthetic construct) GPL16558 AB 5500 Genetic Analyzer (Homo sapiens) GPL17278 AB 5500 Genetic Analyzer (synthetic construct)
+
+CITATIONS
+25150838 , 25633159
+

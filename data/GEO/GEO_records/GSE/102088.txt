@@ -1,0 +1,18 @@
+TITLE
+Expression data from normal breast tissues
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Despite known age-related DNA methylation (aDNAm) changes in breast tumors, little is known about aDNAm in normal breast tissues. Breast tissues from a cross-sectional study of 121 cancer-free women, were assayed for genome-wide DNA methylation. mRNA expression was assayed by microarray technology. Analysis of covariance was used to identify aDNAm’s. Altered methylation was correlated with expression of the corresponding gene and with DNA methyltransferase protein DNMT3A, assayed by immunohistochemistry. Publically-available TCGA data were used for replication. 1,214 aDNAm’s were identified; 97% with increased methylation, and all on autosomes. Sites with increased methylation were predominantly in CpG lslands and non-enhancers. aDNAm’s with decreased methylation were generally located in intergenic regions, non-CpG Islands, and enhancers. Of the aDNAm’s identified, 650 are known to be involved in cancer, including ESR1 and beta-estradiol responsive genes. Expression of DNMT3A was positively associated with age. Two aDNAm’s showed significant associations with DNMT3A expression; KRR1 (OR 6.57, 95% CI: 2.51-17.23) and DHRS12 (OR 6.08, 95% CI: 2.33-15.86). A subset of aDNAm’s co-localized within vulnerable regions for somatic mutations in breast cancer. Expression of C19orf48 was inversely and significantly correlated with its methylation level. In the TCGA dataset, 84% and 64% of the previously identified aDNAm’s were correlated with age in both normal-adjacent and tumor breast tissues, with differential associations by histological subtype. Given the similarity of findings in the breast tissues of healthy women and breast tumors, and the effects on gene expression, aDNAm’s may be one pathway for increased breast cancer risk with age. Obesity is a risk factor for breast cancer, but the underlying mechanisms for this are only partially understood, and there has been only limited study of breast tissues molecularly before cancer develops. Breast tissues from healthy women undergoing reduction mammoplasty and epidemiologic interviews (n=121) were profiled for the whole genome transcriptome (Affymetrix Human Transcriptome Arrays) and genome-wide DNA methylation (Infinium HumanMethylation 450 BeadChip array). After adjusting for confounding by age and race, 12,210 CpG dinucleotides with altered methylation levels correlated with body mass index (BMI) (10,808 positive correlations and1,402 negative correlations, FDR < 0.05). Among them 4,170 BMI-associated hypermethylated CpG dinucleotides (-1.5 kb from transcription start site, 1st Exon, and 5’UTR) and 443 BMI-associated hypomethylated CpG dinucleotides were located in promoter regions. By integrating DNA methylation and mRNA expression data, we identified 310 methylated genes that correlated with gene expression (FDR < 0.05). Of these, 242 genes had higher methylation status showing concurrent down-regulation in obese women, and 68 genes had lower methylation status showing concurrent up-regulation in obese women. Among the affected genes involved in diseases and disorders for inflammatory response, hereditary disorder, and immunological disease. This study provides evidence that obesity epigenetically deregulates genes potentially involved in breast cancer that have functional relationships to gene expression.
+
+DESIGN
+Gene expression in normal breast tissues from 114 women patients undergoing reduction mammoplasty was analyzed by Affymetrix arrays
+
+PLATFORM
+GPL17586 [HTA-2_0] Affymetrix Human Transcriptome Array 2.0 [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

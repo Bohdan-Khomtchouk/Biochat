@@ -1,0 +1,18 @@
+TITLE
+HDACs act on ribosomal DNA to control the yeast replication program and the competition between origins for limiting initiation factors [Mnase-seq]
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+In S. cerevisiae, replication timing is controlled by epigenetic mechanisms restricting the accessibility of origins to limiting initiation factors. About 30% of these origins are located within repetitive DNA sequences such as the ribosomal DNA (rDNA) array, but their regulation is poorly understood. Here, we have investigated how histone deacetylases (HDACs) control the replication program in budding yeast. This analysis revealed that two HDACs, Rpd3 and Sir2, control replication timing in an opposite manner. Whereas Rpd3 delays initiation at late origins, Sir2 is required for the timely activation of early origins. Moreover, Sir2 represses initiation at rDNA origins whereas Rpd3 counteracts this effect. Remarkably, deletion of SIR2 restored normal replication in rpd3 cells by reactivating rDNA origins. Together, these data indicate that HDACs control the replication timing program in budding yeast by modulating the ability of repeated origins to compete with single-copy origins for limiting initiation factors.
+
+DESIGN
+MNase-seq analysis of nucleosome position in wt, sir2 and rpd3 cells, aligned against genomic DNA (sacCer3; *sorted_s3.bed) and rDNA sequences (*rdna_nucleosomes.bed)
+
+PLATFORM
+GPL17143 Illumina MiSeq (Saccharomyces cerevisiae)
+
+CITATIONS
+24856221
+

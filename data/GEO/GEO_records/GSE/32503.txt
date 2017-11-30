@@ -1,0 +1,18 @@
+TITLE
+Integrative transcriptome sequencing identifies trans-splicing events with important roles in human embryonic stem cell pluripotency
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Trans-splicing is a post-transcriptional event that joins exons from separate pre-mRNAs. Detection of trans-splicing is usually severely hampered by experimental artifacts and genetic rearrangements. Here, we develop a new computational pipeline, TSscan, which integrates different types of high-throughput long-/short-read transcriptome sequencing of different human embryonic stem cell (hESC) lines to effectively minimize false positives while detecting trans-splicing. Combining TSscan screening with multiple experimental validation steps revealed that most chimeric RNA products were platform-dependent experimental artifacts of RNA sequencing. We successfully identified and confirmed four trans-spliced RNAs, including the first reported trans-spliced large intergenic noncoding RNA ( " tsRMST " ). We showed that these trans-spliced RNAs were all highly expressed in human pluripotent stem cells and differentially expressed during hESC differentiation. Our results further indicated that tsRMST can contribute to pluripotency maintenance of hESCs by suppressing lineage-specific gene expression through the recruitment of NANOG and the PRC2 complex factor, SUZ12. Taken together, our findings provide important insights into the role of trans-splicing in pluripotency maintenance of hESCs and help to facilitate future studies into trans-splicing, opening up this important but understudied class of post-transcriptional events for comprehensive characterization
+
+DESIGN
+We disrupt the expression of tsRMST by introducing shRNA that targeted the no-co-linear junction site of tsRMST in hESCs using lentiviral vectors. shLuc was used as control.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+24131564
+

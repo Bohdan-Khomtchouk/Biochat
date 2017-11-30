@@ -1,9 +1,0 @@
-TITLE
-whole reference dataset (cell wall chip)
-
-ORGANISM
-Saccharomyces cerevisiae
-
-SUMMARY
-Data processing included: 1. Filtering of those bad quality image spots (these includes alterations on the shape or hybridization) 2. Filtering of low intensity which was done flagging with -50 those spots whose feature intensity was lower in any of both channels than the average of the local background in the corresponding channel for all spots. However, those genes whose feature intensity in one channel was under the limit but in the other channel was 5 times over limit were considered as on-off genes and were not filtered. 3. Filtering of low reproducibility intrachip replicated spots. Normal distribution was created with the value obtained from the formula: log2(Rax1/Rb) which means logarithm (two-based) of one ratio multiplied by the inverse of its replicate. This value for each gene shoud keep between the range of average ± 3SD. Those genes out of these range are flagged as -25 4. Normalization of ratios was done by Lowess mathematical method. Correction factor was 0.33 Keywords: other
-

@@ -1,0 +1,18 @@
+TITLE
+Dissecting tumor/stroma pretreatment endoscopic biopsies and posttreatment surgical specimen in rectal cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Although preoperative chemoradiotherapy (CRT) and surgical mesorectal resection is the standard of care for locally advanced rectal carcinomas, it is still difficult to predict which patients will respond to treatment.   We explored how differential stromal transcriptomic profiles from microdissected pretreatment rectal biopsies can be used to define an immunohistochemical score based on two CAF-specific proteins for predicting neoadjuvant treatment response.  The analysis of differentially expressed genes (DEGs) of stroma and tumour glands from responder and non-responder patients shows that most changes were associated with the stromal compartment. Gene ontology analysis revealed that the DEGs codify mainly for extracellular matrix and ribosomal components.   We built a CAF-specific classifier with genes showing monotonic changes in expression according to the tumour regression grade (coefficient > 1; FN1, COL3A1, COL1A1, MMP2 and IGFBP5). These are the genes that display the biggest a priori differences in expression between non-responder and responder stroma. We translated these five genes at the protein level by means of immunohistochemical staining in a cohort of 38 patients. For predictive purposes we used a leave-one-out cross-validated (LOOCV) model with a positive predictive value (PPV) of 80%. Classifier optimisation with Random Forest identified FN1 and COL3A1 as the best predictors. Rebuilding the LOOCV regression model improved the classification performance with a PPV of 89.5% and a negative predictive value (NPV) of 73.7%. An independent cohort of 36 patients was used to validate the classifier performance, which had a PPV of 84.2% and an NPV of 70.6%. In a multivariate analysis the two-protein classifier proved to be the only independent predictor of response (HR=2.58; P=0.003). We also explored a pharmacogenomic approach to gather information about possible therapeutic strategies for non-responder patients.  In conclusion, we developed a two-protein immunohistochemical classifier that performs well at predicting the absence of response to neoadjuvant treatment in rectal cancer.
+
+DESIGN
+This study involves microdissected samples (tumor and stroma) of patients with rectal cancer that were analysed by Primeview microarray (Affymetrix). Biopsies were taken at two different timepoints: before neoadjuvant treatment (tumor and stroma) and after neoadjuvant treatment (surgical specimen; tumor and stroma). Microarrays were run in one batch. Fresh samples were embedded in OCT compound, sectioned in a cryotome, and stained using an Arcturus Histogene LCM Frozen Section kit. Stromal and tumour compartments were microdissected using an Arcturus XT microdissection system. After preoperative treatment we assessed the pathological response, using Mandard’s classification: TRG1 (pathologically complete response, pCR), TRG2 (scattered tumour cells), TRG3 (partial response with preponderance of fibrosis), TRG4 (partial response with preponderance of tumour cells) and TRG5 (no changes of regression). TRG1 and TRG2 were considered to be responders and TRG3, TRG4 and TRG5 were classified as non-responders.
+
+PLATFORM
+GPL15207 [PrimeView] Affymetrix Human Gene Expression Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

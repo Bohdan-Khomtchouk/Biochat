@@ -1,0 +1,18 @@
+TITLE
+Gene transcriptional levels with or without acid treatment in Salmonella Typhimurium 14028s
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S
+
+SUMMARY
+Acetylation of lysine residues is conserved across organisms and plays important roles in various cellular functions. Maintaining intracellular pH homeostasis is crucial for the survival of enteric bacteria in acidic gastric tract. However, it remains unkown whether bacteria can utilize reversible protein acetylation system to adapt to acidic environment. Here we demonstrate that the protein acetylation/deacetylation is critical for Salmonella Typhimurium to survive in acidic environment. We first used RNA-seq to analyze the transcriptome patterns under acid stress, and found that the transcriptional levels of genes involved in NAD+/NADH metabolism were significantly changed, leading to the increase of intracellular NAD+/NADH ratio. Moreover, acid stress down-regulated the transcriptional level of pat (encoding an acetyltranseferase) and genes encoding adenylate cyclase and cAMP-regulatory protein (CRP) which regulates pat positively. Acid signal also affects TCA cycle to promote the consumption of Ac-CoA, which reduced the donor of acetylation. Lowered acetylation level is not only bacterial’s response to acid stress, but also positively regulates the survival rate of S. Typhimurium. The deletion mutant of pat had more stable intracellular pH, which paralleled with higher survival rate after acid treatment compared with the wild type strain and deletion mutant of cobB. Our data suggest that bacteria can down-regulate protein acetylation level to prevent intracellular pH further falling in acid stress, and this work may provide a new perspective to understand the bacterial acid resistance mechanism.
+
+DESIGN
+To use RNA-seq to analyze the transcriptome patterns under acid stress
+
+PLATFORM
+GPL20046 Illumina HiSeq 2000 (Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S)
+
+CITATIONS
+26070677
+

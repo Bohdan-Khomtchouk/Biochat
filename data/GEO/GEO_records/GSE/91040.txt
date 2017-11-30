@@ -1,0 +1,18 @@
+TITLE
+Principles for the regulation of multiple developmental pathways by a versatile transcriptional factor, BLIMP1 (RNA-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcription factors (TFs) regulate biological events depending on cellular contexts, precise mechanisms for which are elusive.  BLIMP1 has been shown to play key roles in many developmental processes, canonically as a transcriptional repressor that targets to proximities of promoters.  Here, we systematically and quantitatively characterized genomic binding patterns of BLIMP1 across four distinct, developing cell types; photoreceptor precursors, embryonic intestinal epithelium, plasmablasts, and primordial germ cells (PGCs).  BLIMP1-binding sites are highly enriched in genomic regions proximal to transcription start sites (TSSs), majority of which are shared among cell types and are highly occupied by BLIMP1, whereas only a small number of associated genes are regulated consistently among cell types.  In contrast, BLIMP1 weakly binds to more distal, cell type-specific sites with divergent recognition sequences, which account for gene regulations much more efficiently in proportion to the magnitude of expression level changes, with notably similar impacts per site among cell types.  Various TF motifs contained in the cell type-specific binding sites exhibit only moderate impacts on transcription dynamics and BLIMP1-occupancy levels.  On the other hand, germ cells uniquely involve the shared binding sites in the specification, and grossly maintain the binding pattern in late PGCs, accounting for vast majority of the repressive targets.  Furthermore, we identified new sequence motifs strongly bound to BLIMP1 especially in the late PGCs, GGGAAA repeats, a few of which are located around key regulators of gametogenesis.  These findings provide a foundation for understanding the genomic regulation of BLIMP1 across developmental processes.
+
+DESIGN
+26 3' RNAseq samples in 13 cell types: d2PGCLC (2 replicates), E16.5_Embryonic intestinal epithelium (E16.5_emIE, 2 replicates), P3_Embryonic intestinal epithelium (P3_emIE, 2 replicates), P14_Embryonic intestinal epithelium (P14_emIE, 2 replicates), P0_Photoreceptor precursor_GFP+ (P0_PRP_GFP+, 2 replicates), P4_Photoreceptor precursor_GFP+ (P4_PRP_GFP+CD73-, 2 replicates), P4_Photoreceptor precursor_CD73+ (P4_PRP_CD73+, 2 replicates), P6_Photoreceptor precursor_CD73+ (P6_PRP_CD73+, 2 replicates), P10_Photoreceptor precursor_CD73+ (P10_PRP_CD73+, 2 replicates), B cell (B cell, 2 replicates), Blast (Blast, 2 replicates), Pre-plasmablast (prePB, 2 replicates), Plamsablast (PB, 2 replicates)
+
+PLATFORM
+GPL15907 AB 5500xl Genetic Analyzer (Mus musculus)
+
+CITATIONS
+28981894
+

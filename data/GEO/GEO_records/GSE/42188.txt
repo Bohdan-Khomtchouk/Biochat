@@ -1,0 +1,18 @@
+TITLE
+Adenoviral shRNA-based knockdown of hepatic Hnf1b (Ad-shHnf1b)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Insulin resistance represents a hallmark during the development of type 2 diabetes mellitus (T2D) and in the pathogenesis of obesity-associated disturbances of glucose and lipid metabolism 1,2,3. MicroRNA (miR)-dependent posttranscriptional gene silencing has recently been recognized to control gene expression in disease development and progression including that of insulin-resistant T2D. MiRs, whose deregulation alters hepatic insulin sensitivity include miR-143, miR-181 and miR-103/107. Here we report that expression of miR-802 is increased in liver of two obese mouse models and of obese human subjects. Inducible transgenic overexpression of miR-802 in mice causes impaired glucose tolerance and attenuates insulin sensitivity, while reduction of miR-802 expression improves glucose tolerance and insulin action. We identify Hnf1b as a target of miR-802-dependent silencing and shRNA-mediated reduction of Hnf1b in liver causes glucose intolerance, impairs insulin signaling and promotes hepatic gluconeogenesis. In turn, hepatic overexpression of Hnf1b improves insulin sensitivity in db/db mice. Thus, the present study defines a critical role for deregulated expression of miR-802 in the development of obesity-associated impairment of glucose metabolism via targeting Hnf1b and assigns Hnf1b an unexpected role in the control of hepatic insulin sensitivity.
+
+DESIGN
+Adenoviruses (Ad5) encoding either GFP (Ad-Ctrl 1-3) or shHnf1b (Ad-shHnf1b 1-4) were injected into the tail vein of C57BL/6 mice at 1x10E10 viral particles (VP) per gram bodyweight. Biotin-labeled cDNA was synthesized using GeneChip Whole Transcript Sense Labeling Assay (Affymetrix) according to vendor’s instructions. After fragmentation, cDNAs were hybridized for 17h at 45°C on Affymetrix Mouse Gene 1.0 ST Arrays. The Arrays were washed and stained in the GeneChip Fluidics Station 450 and scanned on a GeneChip Scanner 3000 7G (Affymetrix). Data intensities were log transformed and normalized with a quantile normalization method using Affymetrix Power Tools. Differentially expressed genes were identified according to statistical evidence indicated by Student's t-test and fold change statistics
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23389544
+

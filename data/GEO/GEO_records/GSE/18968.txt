@@ -1,0 +1,18 @@
+TITLE
+P. falciparum Histone Occupancy Mapping
+
+ORGANISM
+Plasmodium falciparum
+
+SUMMARY
+Background: Epigenetic modifications of histones and regulation of chromatin structure have been implicated in regulation of virulence gene families in P. falciparum. To better understand chromatin-mediated gene regulation, we used a high-density oligonucleotide microarray to map the position and enrichment of nucleosomes across the entire genome of P. falciparum at three time points of the intra-erythrocytic developmental cycle (IDC) in vitro. We used an unmodified histone H4 antibody for chromatin immunoprecipitation of nucleosome-bound DNA. Results: We observed generally low nucleosomal occupancy of intergenic regions and higher occupancy of protein coding regions. In contract to the overall small fluctuation of nucleosomal occupancy in most coding regions throughout the IDC, subtelomeric genes encoding surface proteins such as var and rif, as well as some core chromosomal genes such as transcription factors, showed large changes in chromatin structure. Telomeres harbored a region with the highest nucleosomal occupancy of the genome and also exhibited large changes with higher nucleosomal occupancy at schizont stages. While many of these subtelomeric genes were previously shown to be modified by H3K9 trimethylation, we also identified some housekeeping genes in core chromosome regions that showed extensive changes in chromatin structure but do not contain this modification. tRNA and basal transcription factor genes showed low nucleosomal occupancy at all times, suggesting of an open chromatin structure that might be permissive for constitutively high levels of expression. Generally, nucleosomal occupancy was not correlated with the steady-state mRNA levels. Several var genes were exceptions: the var gene with the highest expression level showed the lowest nucleosomal occupancy, and selection of parasites for var2CSA expression resulted in lower nucleosomal occupancy at the var2CSA locus.  We identified nucleosome-free regions in intergenic regions that may serve as transcription start sites or transcription factor binding sites. Using the nucleosomal occupancy data as the baseline, we further mapped the genome-wide enrichment of H3K9 acetylation and detected general enrichment of this mark in intergenic regions. Conclusions: These data on nucleosome enrichment changes add to our understanding of the influence of chromatin structure on the regulation of gene expression. Histones are generally enriched in coding regions, and relatively poor in intergenic regions. Histone enrichment patterns allow for identification of new putative gene-coding regions. Most genes do not show correlation between chromatin structure and steady-state mRNA levels, indicating the dominant roles of other regulatory mechanisms. We present a genome-wide nucleosomal occupancy map, which can be used as a reference for future experiments of histone modification mapping.
+
+DESIGN
+Three ChIP with unmodified histone H4 antibodies were performed on ring, trophozoite and schizont stage synchronized parasites. Only one experiment was performed per time point. H3K9ac antibody ChIP was performed on trophozoite stage cells. All samples were normalized to 3D7 strain genomic DNA hybridizations.
+
+PLATFORM
+GPL9610 Winzeler Lab Plasmodium tiling array (Pftilingb520509)
+
+CITATIONS
+20015349
+

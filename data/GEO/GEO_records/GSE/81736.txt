@@ -1,0 +1,18 @@
+TITLE
+Variable chromatin secondary structures in live cells revealed by radiation-induced spatially correlated DNA cleavage mapping [ATAC-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chromatin structure at the length scale encompassing nucleosome-nucleosome interactions is thought to play a crucial role in regulating transcription and access to DNA. However, this chromatin secondary structure remains poorly understood compared to the primary structure of single nucleosomes or the tertiary structure of long-range looping interactions. Here we report the first genome-wide map of chromatin conformation in human cells at the 1-3 nucleosome (50-500 bp) scale, obtained using ionizing radiation-induced spatially correlated cleavage of DNA with sequencing (RICC-seq). Unbiased analysis of RICC-seq DNA fragments in 1 Mb windows reveals a similar fragment length profile across the genome, with regional enrichment of characteristic fragments spanning tri-nucleosome units in heterochromatin. We observe differences in nucleosome-nucleosome contacts among euchromatin, H3K27me3-marked heterochromatin, and H3k9me3-marked heterochromatin. After calibrating RICC-seq signal to 3D distances, we show that compact 2-start helical fiber structures with stacked alternating nucleosomes are consistent with RICC-seq fragmentation patterns from H3K9me3-marked heterochromatin, while non-compact zig-zags and other extended structures are preferred in open chromatin. Our data support a model of heterochromatin condensation in native, intact nuclei consistent with longitudinal compaction of two-start helical fibers.
+
+DESIGN
+This data set includes eight technical replicates of ATAC-seq performed on a human foreskin fibroblast cell line.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28024297
+

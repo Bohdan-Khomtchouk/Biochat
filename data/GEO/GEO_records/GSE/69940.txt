@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis of embryonic gene epression in the absence of Prox1 compared to wild type
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Overview:  We report here that gene expression in E13.5 wild type (WT) mouse lenses differs from the lenses of mice that conditionally lack the Prox1 transcription factor in the lens of their eyes (Prox1 cKO) as assayed by high throughput RNA sequencing (RNAseq).  The methodology outlined herein is similar to a previous RNAseq experiment from our lab (Manthey et al., 2014a)(Geo ascension: GSE 49949), and the filtering and processing criteria for this experiment was published as well.(Manthey et al., 2014b).  The mammalian lens is notable for its biased gene expression, where 90% of the observed protein is expressed by just 50 genes.  RNAseq was employed to sequence past these highly expressed lens structural genes and report the relative abundance of both high and low expression genes.   In this study we demonstrated that 642 genes were differentially expressed in the lenses of Prox1 cKOs as compared to WT lenses.  These data were analyzed using the DAVID biostatical analysis package and we found that the expression of lens specific proteins, as well as cytoskeletal genes and genes that regulated the cytoskeleton were expressed at lower levels in Prox1 cKOs.  This analysis showed that the expression of genes encoding extracellular matrix components and their regulators, as well as cell adhesion increased in Prox1 cKO lenses when compared to WTs.    Description of Filtering Criteria:  Our initial analysis identified 5,492 genes that were differentially expressed in Prox1 cKO lenses as compared to WTs as computed by Pair-wise qCML method exact tests with a Benjamini Hochberg false discovery rate correction greater than the threshold of P < 0.05.  As we described previously, there is significant variation in gene expression between inbred C57Bl/6 < har > and mice with a mixed background below a threshold of 2.5 fold.  For this reason we filtered out all genes whose differential expression was less than 2.5 fold.  We also wanted to filter out genes that were expressed at such low levels that they were unlikely to impact cellular function.  We restricted our list to those genes that were expressed at greater than 2 Reads per Kilobase per million reads (RPKM) in either WT or Prox1 cKO samples, a value which corresponds to approximately 1 mRNA molecule per cell.  The application of these filtering criteria resulted in narrowing our list to 642 genes that were likely to impact the Prox1 cKO lens phenotype.      Manthey, A. L., Lachke, S. A., FitzGerald, P. G., Mason, R. W., Scheiblin, D. A., McDonald, J. H. and Duncan, M. K. (2014a) 'Loss of Sip1 leads to migration defects and retention of ectodermal markers during lens development', Mech Dev 131: 86-110.  Manthey, A. L., Terrell, A. M., Lachke, S. A., Polson, S. W. and Duncan, M. K. (2014b) 'Development of novel filtering criteria to analyze RNA-sequencing data obtained from the murine ocular lens during embryogenesis', Genom Data 2: 369-374.
+
+DESIGN
+RNA-Seq comparison of C57Bl/6 < har > wild type controls and Prox1 conditional knockout lenses at E13.5
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26657765
+

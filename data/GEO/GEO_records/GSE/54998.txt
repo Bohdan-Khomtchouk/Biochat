@@ -1,0 +1,18 @@
+TITLE
+Analysis of sigma factor-dependent gene expression in Pseudomonas aeruginosa by RNA sequencing
+
+ORGANISM
+Pseudomonas aeruginosa
+
+SUMMARY
+Sigma factors are master regulators of bacterial transcription which direct gene expression of specific subsets of genes. In particular, alternative sigma factors are well-known to be key players of bacterial adaptation to changing environments. To elucidate the regulatory network of sigma factors in P. aeruginosa, an integrative approach including sigma factor-dependent mRNA profiling was performed to define the primary regulon of each sigma factor.
+
+DESIGN
+Sigma factor hyper-expressing strains harboring the sigma factor gene in trans under control of the araBAD promoter and sigma factor deletion mutants were constructed. Under optimal conditions regarding sigma factor activity and optional induction of sigma factor expression, bacteria were harvested and total RNA was extracted. Upon mRNA enrichment, RNA was fragmented and ligated to specific RNA-adapters containing a hexameric barcode sequence for multiplexing. These RNA-libraries were reverse transcribed and amplified resulting in cDNA libraries which were sequenced on Illumina platforms. Sequence reads were separated according to their barcodes and barcode sequences were removed. The short reads were mapped to the genome sequence of the reference strain P. aeruginosa PA14 wild-type using stampy with default settings. The R package DESeq was used for differential gene expression analysis.
+
+PLATFORM
+GPL18286 Illumina Genome Analyzer IIx (Pseudomonas aeruginosa) GPL18287 Illumina HiSeq 2500 (Pseudomonas aeruginosa)
+
+CITATIONS
+25780925
+

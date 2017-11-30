@@ -1,0 +1,18 @@
+TITLE
+Identification of a human airway epithelial cell subpopulation with altered biophysical, molecular, and metastatic properties
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Lung cancers are documented to have remarkable intratumoral genetic heterogeneity. However, little is known about the heterogeneity of biophysical properties, such as cell motility, and its relationship to early disease pathogenesis and micrometastatic dissemination. In this study, we identified and selected a subpopulation of highly migratory premalignant pulmonary epithelial cells that were observed to migrate through microscale constrictions at up to 100-fold the rate of unselected cells. This enhanced migratory capacity was found to be Rac1-dependent and heritable, as evidenced by maintenance of the phenotype through multiple cell divisions continuing more than 8-weeks post-selection. The morphology of this lung epithelial subpopulation was characterized by increased cell protrusion intensity. In a murine model of micrometastatic seeding and pulmonary colonization, the motility-selected premalignant cells exhibit both enhanced survival in short term assays and enhanced outgrowth of premalignant lesions in longer term assays, thus overcoming important aspects of “metastatic inefficiency.” Overall, our findings indicate that among premalignant pulmonary epithelial cells, subpopulations with heritable motility-related biophysical properties exist, and these may explain micrometastatic seeding occurring early in the pathogenesis of lung cancer. Understanding, targeting, and preventing these critical biophysical traits and their underlying molecular mechanisms may provide a new approach to prevent metastatic behavior.
+
+DESIGN
+Six different HBEC cell lines were under selection of highly migratory cells. Bioconductor limma package was utilized for identifying genes differentially expressed between selected and unselected populations.
+
+PLATFORM
+GPL17586 [HTA-2_0] Affymetrix Human Transcriptome Array 2.0 [transcript (gene) version]
+
+CITATIONS
+28754664
+

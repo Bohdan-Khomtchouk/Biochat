@@ -1,0 +1,18 @@
+TITLE
+CSR-1 and P granules suppress sperm-specific transcription in the C. elegans germline
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+P granules in C. elegans are required for fertility and function to maintain germ cell identity and pluripotency.  Sterility in the absence of P granules is often accompanied by the mis-expression of soma-specific proteins and the initiation of somatic differentiation in germ cells.  To investigate whether this is caused by the accumulation of somatic transcripts, we performed mRNA-seq on dissected germlines with and without P granules.  Strikingly, we found that somatic transcripts do not increase in the young adult germline when P granules are impaired.  Instead, we found that impairing P granules causes sperm-specific mRNAs to become highly overexpressed.  This includes the accumulation of major sperm protein (MSP) transcripts in germ cells, a phenotype that is suppressed by feminization of the germline.  A core component of P granules, the endo-siRNA-binding Argonaute protein CSR-1, has recently been ascribed with the ability to license transcripts for germline expression.  However, impairing CSR-1 has very little effect on the accumulation of its mRNA targets.  Instead, we found that CSR-1 functions with P granules to prevent MSP and sperm-specific mRNAs from being transcribed in the hermaphrodite germline.  These findings suggest that P granules protect germline integrity through two different mechanisms, by 1) preventing the inappropriate expression of somatic proteins at the level of translational regulation, and by 2) functioning with CSR-1 to limit the domain of sperm-specific expression at the level of transcription.
+
+DESIGN
+Four biological replicates of each condition (empty vector control, P granule RNAi, and CSR-1 RNAi germlines) were collected for total RNA.
+
+PLATFORM
+GPL18245 Illumina HiSeq 2500 (Caenorhabditis elegans)
+
+CITATIONS
+25968310
+

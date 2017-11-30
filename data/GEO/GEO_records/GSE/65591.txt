@@ -1,0 +1,18 @@
+TITLE
+RSC and ISW1 Chromatin Remodelers Display Functional and Chromatin-based Promoter Antagonism [HybMap microarray]
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+ISWI-family chromatin remodelers organize nucleosome arrays, while SWI/SNF-family remodelers (RSC) disorganize and eject nucleosomes, implying an antagonism that is largely unexplored in vivo. Here, we describe two independent genetic screens for rsc suppressors that yielded mutations in the promoter-focused ISW1a complex, or mutations in the ‘basic patch’ of histone H4 (an epitope that regulates ISWI activity), strongly supporting RSC-ISW1a antagonism in vivo. RSC and ISW1a largely co-localize, and genomic nucleosome studies using rsc isw1 mutant combinations revealed opposing functions: promoters classified with a nucleosome-deficient region (NDR) gain nucleosome occupancy in rsc mutants, but this gain is attenuated in rsc isw1 double mutants. Furthermore, promoters lacking NDRs have the highest occupancy of both remodelers, consistent with regulation by nucleosome occupancy, and decreased transcription in rsc mutants. Taken together, we provide the first genetic and genomic evidence for RSC-ISW1a antagonism, and reveal different mechanisms at two different promoter architectures.
+
+DESIGN
+Total RNA expression was determined by the HybMap protocol, hybridization of total RNA to genomic tiling microarray followed by detection with an anti-RNA-DNA-hybrid antibody. Total RNA was isolated from three independent biological replicates of each strain, including wild type (YBC1894), rsc2ts (YBC1111), isw1 null (YBC1416), ioc3 null (YBC2693), isw1 null rsc2ts (YBC3227), and ioc3 null rsc2ts (YBC3228). Please note that each sample consists of three replicates (i.e. three raw data files) and the sample data table contains combined quantile normalized data of the replicates.
+
+PLATFORM
+GPL19733 Agilent-020164 Yeast genomic 44K tiling Microarray [Cairns-RSC-ISWI-44K]
+
+CITATIONS
+25821983
+

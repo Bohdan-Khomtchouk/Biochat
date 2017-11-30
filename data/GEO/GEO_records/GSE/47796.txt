@@ -1,0 +1,18 @@
+TITLE
+CEMA, a platform to define cell states
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+gene expression database and algorithm to define cell expression modules Using a newly-generated compendium of cell-state-specific gene expression data, we identified genes that uniquely define each cell state, including those thought to represent various developmental stages. Whereas others have performed similar analyses on tissue-specific, heterogeneous collections of public data, our focus is on single-laboratory, cell-specific data. The approach allows for more refined information than tissues, while single-laboratory data, although fewer in number, minimize artifacts arising from inter-laboratory merging. Our analysis sheds light on human cell fate through the identification of core genes that are altered over several developmental milestones, and across regional specification.  Finally, we provide an interactive, web-based application for dissemination and exploration of our results, yielding a valuable resource with a novel perspective on the development of human cells. This web service is available at www.cemagenes.com.
+
+DESIGN
+For tissue derived cell types, primary cells were derived and cultured in appropriate culture medium for up to 3 weeks.  For pluripotent derived cell types, hESCs and hiPSCs were cultured under standard conditions with feeders and driven to differentiate under conditions as described previously.  For both tissue and pluripotent stem cell (PSC) derived cells, the indicated cell types were purified from mixed cultures either by expression of reporter construct (such as AFP-GFP for hepatocytes) and FACS, or by manual dissection based on morphology (such as rosettes for NPCs)(Patterson et al., 2011).  All purified cell types were judged to be pure if > 90% positive by immunostaining for at least 3 appropriate marker genes.  Many of these cell types were also assayed for appropriate function(Patterson et al., 2011).
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+27108395
+

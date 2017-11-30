@@ -1,0 +1,18 @@
+TITLE
+Contrast of poly-ribosomal mRNA in germina vesicle (GV) and metaphase II (MII) bovine oocytes.
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+Poly-ribosomal mRNA from pools of 75 bovine oocytes at the germinal vesicle(GV) and metaphase II(MII) stages were isolated by sucrose fractionation then compared through microarray hybridization.
+
+DESIGN
+3 biological replicates from germinal vesicle(GV) and metaphase II(MII) bovine oocytes were hybridized against each other while alternating dyes. One additional technical replicate (dye-swap of one of the previous hybridizations) was added to balance dye usage. The normalized log2 ratio (GV/MII) data is provided in the 'normalized_data.txt' file. Please note that data were scanned/extracted using a different Agilent reference file, and thus the feature extraction number for a given probe (in both normalized and raw data files) is different from that in the official Agilent-041017 platform (GPL18537). The reference file used for this study is provided as a Series supplementary file (041017_D_DNAFront_BCBottom_20120517.txt).
+
+PLATFORM
+GPL18537 Agilent-041017 Embryogene Bovine 45K microarray with drosophila controls v.2.1 [EMBV_Droso_V2.1]
+
+CITATIONS
+25078684 , 26586844
+

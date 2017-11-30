@@ -1,0 +1,18 @@
+TITLE
+Transcriptional response to weak organic acids in chemostat cultures of Saccharomyces cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Raw expression values (CHP data) for transcriptional profiling of the response of Saccharomyces cerevisiae to challenges with various weak organic acids Keywords: response to weak organic acids
+
+DESIGN
+The laboratory reference strain CEN.PK 113-7D (MATa) was grown at 30 °C in 2-L chemostat fermentors (Applikon, Schiedam, The Netherlands) with a working volume of 1-L using an electronic level sensor to maintain a constant volume.  All cultures, including the reference, were fed with minimal medium as described by Verduyn et al. (1992) with 25 g L-1 glucose as the limiting nutrient and 0.15 ml L-1 silicone antifoam (BDH, Poole, England) to prevent excessive foaming.  The dilution rate was set to 0.10 h-1 and the pH was controlled at 5.0 with the automatic addition (ADI 1031 bio controller, Applikon) of 2 M KOH.  The stirrer speed was set at 800 RPM and anaerobicity was maintained by sparging the fermentor with N2 gas at 500 ml min-1.  To prevent diffusion of oxygen, the fermentor was equipped with Norprene tubing and Viton O-rings and the medium vessel was also flushed with N2 gas.  A comparable degree of weak acid uncoupling was ensured by decreasing the biomass yield to approximately 50% of the reference condition (no organic acids added) with the addition of the appropriate concentration of acetic acid, sodium benzoate, propionic acid or potassium sorbate to the reservoir media.  Triplicate cultivations and microarrays were performed for each condition. Sampling of chemostat cultures, probe preparation and hybridization to Affymetrix GeneChip microarrays was performed as described previously (Piper et al., 2002), but with the following modifications.  Double-stranded cDNA synthesis was carried out using 15 μg of total RNA and the components of the One Cycle cDNA Synthesis Kit (Affymetrix).  The double-stranded cDNA was purified (Genechip Sample Cleanup Module, Qiagen) before in vitro transcription and labeling (GeneChip IVT Labeling Kit, Affymetrix).  Finally, labeled cRNA was purified (GeneChip Sample Cleanup Module) prior to fragmentation and hybridization of 15 μg of biotinylated cRNA. Data acquisition was performed using the Affymetrix scanner 3000, quantification of array images and data filtering were performed with the Affymetrix software packages Microarray Suite v5.0, MicroDB v3.0 and Data Mining Tool v3.0.
+
+PLATFORM
+GPL90 [YG_S98] Affymetrix Yeast Genome S98 Array
+
+CITATIONS
+17484738
+

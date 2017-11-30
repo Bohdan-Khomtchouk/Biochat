@@ -1,0 +1,18 @@
+TITLE
+Ultra-high throughput sequencing-based small RNA discovery and discrete statistical biomarker analysis in a collection of cervical tumors and matched controls
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We prepared small RNA libraries from 29 tumor/normal pairs of human cervical tissue samples. Analysis of the resulting sequences (42 million in total) defined 64 new human microRNA (miRNA) genes. Both arms of the hairpin precursor were observed in twenty-three of the newly identified miRNA candidates. We tested several computational approaches for analysis of class differences between high throughput sequencing datasets, and describe a novel application of log linear model that has provided the most datasets, and describe a novel application of log linear model that has provided the most effective analysis for this data. This method resulted in the identification of 67 miRNAs that were differentially-expressed between the tumor and normal samples at a false discovery rate less than 0.001.
+
+DESIGN
+A total of 29 tumor/normal pairs of human cervical tissue samples were analyzed. Two samples (G699N_2 and G761T_2) were performed in duplicates. No Fastq files for GSM532871 to GSM532889, GSM532929, and GSM532930. Sequence files are provided as text files for these 22 Sample records in GSE20592_RAW.tar.  38 samples with quality scores are available from SRA as SRP002/SRP002326 (see Supplementary file below).
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+20459774
+

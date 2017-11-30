@@ -1,0 +1,18 @@
+TITLE
+Spontaneous transformation of murine oviductal epithelial cells: A model system to investigate the onset of fallopian-derived tumors
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+High grade serous ovarian cancer (HGSOC) can originate from fallopian tube epithelium (FTE) and ovarian surface epithelium (OSE). We report the application of unique spontaneous model that mimics cellular aging for understanding the origin and progression of HGSOC from oviductal epithelium. Oviductal epithelium is equivalent to human FTE. Serial passaging of the outbred mouse CD1 oviductal cells (MOE low) to MOE high produced transformed cells that lead to benign tumors. To understand the altered molecular signaling pathways in MOEhigh cells versus MOElow cells, we performed RNA sequencing. Total RNA was extracted from MOELOW (passages 8, 9, & 10) and MOEHIGH (passages 90, 103, & 113) cells. Each total RNA sample had ribosomal RNA removed using TruSeq Stranded Total RNA with Ribo-Zero (Illumina, San Diego, CA). Strand-specific libraries were constructed and quantitated using Qubit, and cDNAs verified by qPCR. qRT–PCR validation was performed using SYBR Green assays. Samples were barcoded and sequenced using Illumina HiSeq2500 sequencing. The reads were aligned to the Mus musculus genome (mm10) using TopHat, version and were used to determine the expression of known mmu10 gene annotations from the University of California-Santa Cruz website using Cuffdiff version. By merging the individual transcript from Cuffdiff into a single gene annotation file, we determined the differential expression analysis. By applying a false discovery rate (FDR)-adjusted p-value, where significance was set to p ≤ 0.05, statistically significant differential expression was determined. Furthermore, pathway analysis was performed on transcript lists from both cell lines using GeneCoDis to identify the KEGG and Panther pathways that are significantly different between MOELOW and MOEHIGH cell lines. We find that the splicesome, RNA transport, the cell cycle, and DNA replication were the most highly upregulated pathway whereas the repressed pathways included processing in the endoplasmic reticulum, focal adhesion, and the lysosome. RNA sequencing revealed that p53 in MOELOW and MOEHIGH cells was not mutated; however, MOEHIGH cells had a significant upregulation of a splice variant of p53. The splice variant behaved like wild-type on few targets and missense on some transcriptional targets by qRT-PCR. This study provides a framework for the application of comprehensive chromatin profiling towards characterization of diverse mammalian cell populations. This model provides a framework to uncover a step-wise progression of tumor formation from an oviductal origin to be compared to human disease.
+
+DESIGN
+Examination of altered molecular signaling pathways in 2 cell types.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

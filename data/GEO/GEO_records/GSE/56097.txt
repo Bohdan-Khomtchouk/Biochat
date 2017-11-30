@@ -1,0 +1,18 @@
+TITLE
+Development of an RNAseq-based oligonucleotide microarray to study global gene expression profile in the guinea pig animal model
+
+ORGANISM
+Cavia porcellus
+
+SUMMARY
+In 2008 the GP genome was sequenced to a depth of ~7X full coverage, and last updated in 2010. However, because of the lack of cDNA and protein resources the GP genome is at present poorly annotated. Thus, in order to address this issue we performed an in-depth mRNA sequencing of the lung and skeletal muscles transcriptomes and used this to annotate the available GP genome for transcribed sequences. We then used this information to design and validate a custom Agilent microarray platform (GSE51601).
+
+DESIGN
+Transcriptome sequencing was performed using Illumina sequencing. Briefly, NCBI and Ensembl transcripts of GP were combined with transcripts constructed from Illumina paired end reads using the TopHat and Cufflinks algorithms [20, 21]. Microarray probe sequences were then chosen based on the combined transcriptome assembly.
+
+PLATFORM
+GPL17296 Illumina HiSeq 2000 (Cavia porcellus)
+
+CITATIONS
+25228925
+

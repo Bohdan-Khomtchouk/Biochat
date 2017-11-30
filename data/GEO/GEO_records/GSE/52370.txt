@@ -1,0 +1,18 @@
+TITLE
+Individual letters of the RNA polymerase II CTD code govern distinct gene expression programs in fission yeast
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+The primary structure and phosphorylation pattern of the tandem YSPTSPS repeats of the RNA polymerase II CTD comprise an informational code that coordinates transcription, chromatin modification, and RNA processing. To gauge the contributions of individual CTD coding “letters” to gene expression, we analyzed the poly(A)+ transcriptomes of fission yeast mutants that lack each of the four inessential CTD phosphoacceptors: Tyr1, Ser2, Thr4, and Ser7. There was a hierarchy of CTD mutational effects with respect to the number of dysregulated protein-coding RNAs, with S2A (n=227) > > Y1F (n=71) > S7A (n=58) > > T4A (n=7). The majority of the protein-coding RNAs affected in Y1F cells were coordinately affected by S2A, suggesting that Tyr1-Ser2 constitutes a two-letter code “word”. Y1F and S2A elicited increased expression of genes encoding proteins involved in iron uptake (Frp1, Fip1, Fio1, Str3, Str1, Sib1), without affecting the expression of the genes that repress the iron regulon, implying that Tyr1-Ser2 transduces a repressive signal. Y1F and S2A cells had increased levels of ferric reductase activity and were hypersensitive to phleomycin, indicative of elevated intracellular iron. The T4A and S7A mutations had opposing effects on the phosphate response pathway. T4A reduced the expression of two genes encoding proteins involved in phosphate acquisition (the Pho1 acid phosphatase and the phosphate transporter SPBC8E4.01c), without affecting the expression of known genes that regulate the phosphate response pathway, while S7A increased pho1+ expression. Meiotic genes were enriched among those up-regulated in S7A cells. These results highlight specific cellular gene expression programs that are responsive to distinct CTD cues.
+
+DESIGN
+Interrogation of the S. pombe transcriptome using polyA+ strand specific RNA sequencing (Illumina HiSeq 2000) in cultures. A total of 16 samples were analysed: two biological repeates of each WT, Y1F, S2A, T4A, S7A,Y1F-S7A, S2A-S7A and T4A-S7A strains
+
+PLATFORM
+GPL13988 Illumina HiSeq 2000 (Schizosaccharomyces pombe)
+
+CITATIONS
+24591591
+

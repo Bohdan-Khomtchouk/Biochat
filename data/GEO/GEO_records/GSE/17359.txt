@@ -1,0 +1,18 @@
+TITLE
+Affymetrix SNP array data for melanoma short-term cultures and cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+SNP arrays were used to derive copy number estimates and identify amplifications and deletions in melanomas These copy number breakpoints were compared to gene fusions identified by second generation sequencing of cDNA
+
+DESIGN
+Affymetrix SNP 6.0 array hybridizations were performed for 3 melanomas and 15 normal diploid samples (in a batch of 96 total samples encompassing multiple studies). Further normalization performed to convert signal intensities (see Sample data tables) into copy number log2 ratios for each probeset (see supplementary file at the foot of this record) using the 5 most similar HapMap normals, as described by the Cancer Genome Atlast Research Network, Nature (2008), 455:1061-1068.
+
+PLATFORM
+GPL6801 [GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array
+
+CITATIONS
+20179022
+

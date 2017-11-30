@@ -1,0 +1,18 @@
+TITLE
+Transcriptional Profiling of Cultured, Embryonic Epicardial Cells Identifies Novel Genes and Signaling Pathways Regulated by TGFβR3 in vitro
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The epicardium plays an important role in coronary vessel formation and Tgfbr3-/- mice exhibit failed coronary vessel development associated with decreased epicardial cell invasion. Immortalized Tgfbr3-/- epicardial cells display the same defects. Tgfbr3+/+ and Tgfbr3-/- cells incubated for 72 hours with VEH or ligands known to promote invasion via TGFβR3 (TGFβ1, TGFβ2, BMP2), for 72 hours were harvested for RNA-seq analysis. We selected for genes > 2-fold differentially expressed between Tgfbr3+/+ and Tgfbr3-/- cells when incubated with VEH (604), TGFβ1 (515), TGFβ2 (553), or BMP2 (632). Gene Ontology (GO) analysis of these genes identified dysregulated biological processes consistent with the defects observed in Tgfbr3-/- cells, including those associated with the extracellular matrix interaction. GO and Gene Regulatory Network (GRN) analysis identified distinct expression profiles between TGFβ1-TGFβ2 and VEH-BMP2 incubated cells, consistent with the differential response of epicardial cells to these ligands in vitro. Despite the differences observed between Tgfbr3+/+ and Tgfbr3-/- cells after TGFβ and BMP ligand addition, GRNs constructed from these gene lists identified NF-ĸB as a key nodal point for all ligands examined. Tgfbr3-/- cells exhibited decreased expression of genes known to be activated by NF-ĸB signaling. NF-ĸB activity was stimulated in Tgfbr3+/+ epicardial cells after TGFβ2 or BMP2 incubation, while Tgfbr3-/- cells failed to activate NF-ĸB in response to these ligands. Tgfbr3+/+ epicardial cells incubated with an inhibitor of NF-ĸB signaling no longer invaded into a collagen gel in response to  TGFβ2 or BMP2.  These data suggest that NF-ĸB signaling is dysregulated in Tgfbr3-/- epicardial cells and that NF-ĸB signaling is required for epicardial cell invasion in vitro. Our approach successfully identified a signaling pathway important in epicardial cell behavior downstream of TGFβR3. Overall, the genes and signaling pathways identified through our analysis yield the first comprehensive list of candidate genes whose expression is dependent on TGFβR3 signaling.
+
+DESIGN
+2 immortalized epicardial cell lines (Tgfbr3+/+ and Tgfbr3-/-) were incubated with 4 different treatments (Vehicle, TGFB1, TGFB2, BMP2) for 3 days and subject to RNA-seq analysis in duplicate.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

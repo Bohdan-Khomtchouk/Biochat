@@ -1,0 +1,18 @@
+TITLE
+Microarray expression profiling of C. elegans N2 L4 control (RNAi) vs. nhr-25 (RNAi) and N2 (Wt) vs. acs-3 (ft5) mutants
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Acyl-coA synthases (ACSs) produce fatty acyl-CoAs that are used in metabolic and signaling pathways. Metazoans have a large number of ACS genes with differing expression patterns and substrate preferences, but the physiological roles of most ACS genes are unknown. Here, we focused on the C. elegans acyl CoA synthase, ACS-3, which is known to regulate fat uptake and de novo fat synthesis through the conserved nuclear hormone receptor, nhr-25. We performed microarray analysis of acs-3 mutants to elucidate the acs-3-regulated transcription program. This analysis revealed an enrichment among differentially regulated genes of those involved in lipid metabolism, pathogen and wounding responses, and sterol binding genes, among others. As the immunity genes were the most represented gene class, we performed pathogen sensitivity assays to test the phenotypic consequences of this immune gene regulation. Interestingly, acs-3 mutants were hypersensitive to the fungal pathogen D. coniospora, but only mildly sensitive to the bacterial pathogen P. aeruginosa. acs-3 mutation suppressed nhr-25 mutant sensitivity to P. aeruginosa, yet surprisingly microarray analysis of nhr-25(RNAi) animals revealed significant overlap with the acs-3 mutant transcriptome, with an enrichment of pathogen response genes. The upregulation of pathogen response genes in acs-3(ft5) mutants and following nhr-25 reduction-of-function (rf) does not appear to be due to a constitutive osmotic response or defective cuticle barrier, two potential explanations for the acs-3(ft5) and nhr-25(rf) expression of innate immunity genes in the absence of pathogen exposure. Together, these data indicate that ACS-3 promotes resistance to the fungal pathogen, D. coniospora and regulates innate immunity genes through an unknown mechanism. Potential roles for ACS-3 in innate immunity are discussed.
+
+DESIGN
+We used two-color expression microarrays to compare the transcriptional profiles in two experimental conditions: 1) comparing wild-type (N2) L4 stage larval worms to acs-3(ft5) L4 larval mutant animals; and 2) animals grown to L4 larval stage on bacteria harboring vectors for either control or nhr-25 RNA-interference (RNAi). L4 stage was determined by morphology of the developing vulva. Three biological replicates were used for each experimental condition. Statistically significant changes in gene expression in each experimental were determined using “linear models for microarray data” (limma).
+
+PLATFORM
+GPL5859 WASHU_C.elegans_22.5K_V1
+
+CITATIONS
+24651852
+

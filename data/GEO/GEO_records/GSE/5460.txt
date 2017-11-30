@@ -1,0 +1,18 @@
+TITLE
+Predicting Features of Breast Cancer with Gene Expression Patterns
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Predictors built from gene expression data accurately predict ER, PR, and HER2 status, and divide tumor grade into high-grade and low-grade clusters; intermediate-grade tumors are not a unique group.  In contrast, gene expression data cannot be used to predict tumor size or lymphatic-vascular invasion. Keywords: disease state analysis
+
+DESIGN
+Microarray data from the tumors of 129 patients were analyzed for the ability to predict biomarkers (ER, PR, HER2), histologic features (grade and lymphatic-vascular invasion), and stage-related information (tumor size and lymph node metastasis). Multiple statistical predictors were used and the prediction accuracy determined by error rates of prediction and by dimensional scaling and visualization of the states under study. Models to predict lymph node metastasis were built by combinations of molecular, histologic and anatomic features. ***GSM125119.CEL and GSM125120.CEL are corrupt***
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18297396
+

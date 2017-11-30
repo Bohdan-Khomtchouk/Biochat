@@ -1,0 +1,18 @@
+TITLE
+Long ncRNA in HCC cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Normal human hepatocytes and 3 different HCC cell lines have been analyzed for the global expression of long non coding RNA (lncRNA). Total RNA was extracted from each sample using RNeasy Kit (Qiagen) according to the manufacturer’s instructions. RNA quality was assessed by Nanodrop ND-1000 and Bioanalyser2100.    DNA microarray  The Human Long Non-coding RNA Array was manufactured by Roche NimbleGen. Each array represents all long transcripts, both protein coding mRNAs and lncRNAs (long non-coding RNAs) in the human genome. More than 22000 lncRNAs are collected from the authoritative data sources including NCBI RefSeq, UCSC, RNAdb, lncRNAs from literatures and UCRs. Fluorescent cDNA targets were prepared using NimbleGen One-Color DNA Labeling Kit. Microarray hybridization was performed at 42°C for 16-20 hours in NimbleGen Hybridization System. After being washed in an ozone-free environment, the slides were scanned using the Axon GenePix 4000B microarray scanner.     Data Analysis  Raw data were extracted as pair files by NimbleScan software (version 2.5). NimbleScan software’s implementation of RMA offers quantile normalization and background correction. The Probe level (*_norm_RMA.pair) files and Gene summary (*_RMA.calls) files were produced. The gene summary files were imported into Agilent GeneSpring Software (version 10.0) for further analysis. Differentially expressed genes and non-coding RNA were identified through Fold-change screening. Unsupervised hierarchical clustering, GO analysis and Pathway analysis was performed using the Agilent GeneSpring GX software (version 10.0).
+
+DESIGN
+Long ncRNA expression has been assessed in normal and malignant hepatocytes to assess differences in expression
+
+PLATFORM
+GPL11269 Arraystar Human lncRNA array version 1
+
+CITATIONS
+27618837
+

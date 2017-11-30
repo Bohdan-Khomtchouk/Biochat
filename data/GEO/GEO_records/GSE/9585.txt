@@ -1,0 +1,18 @@
+TITLE
+Genome-wide DNA copy number predictors of lapatinib sensitivity in tumour-derived cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A common aim of pharmacogenomic studies that employ genome-wide assays on panels of cancers is the unbiased discovery of genomic alterations that are associated with clinical outcome and drug response.  Previous investigations of lapatinib, a selective dual-kinase inhibitor of EGFR and HER2 tyrosine kinases, have demonstrated predictable relationships between the activity of these genes and response.  Under the hypothesis that additional genes may play a role in promoting sensitivity, a predictive model for lapatinib sensitivity was constructed from genome-wide DNA copy number data from 24 cancer cell lines. An optimal predictive model, which consists of aberrations at nine distinct genetic loci, includes gains of HER2, EGFR, and loss of CDKN2A. This model, which achieved area under the Receiver Operating Characteristic (ROC) curve of ~0.85 (80% confidence interval: 0.70–0.98;  P < 0.01), and correctly classified the sensitivity status of 8/10 head and neck cancer cell lines.  This study demonstrates that previously described biomarkers of lapatinib sensitivity, including copy number gains of EGFR and HER2, can be discovered as powerful predictors of response using novel genomic assays in an unbiased manner. Further, these results demonstrate the utility of DNA copy number profiles in pharmacogenomic studies. Keywords: Comparative Genomic Hybridization
+
+DESIGN
+Basal DNA copy number profiles were derived from Affymetrix 'SNP chips' for a panel of 34 tumor derived cell lines. Each of these cell lines were tested for their degree of sensitivity to lapatinib. Specific DNA alterations associating with lapatinib sensitivity were identified using a training set consisting of 24 of these lines.  A predictive model was constructed from these loci. The remaining 10 lines were used to test the model performance. A panel of chips (n = 12) assayed with germline DNA served as a reference in order to calculate the test/reference ratios reported in the Sample table VALUE columns. The 'reference' Samples for the 500K and 100K assays are as follows: 500K: GSM188024, GSM188025, GSM188026, GSM188027, GSM188028, GSM188029,     GSM188030, GSM188031, GSM188032, GSM188033, GSM188034, GSM188035, GSM188048, GSM188049, GSM188050, GSM188051, GSM188052, GSM188053,     GSM188054, GSM188055, GSM188056, GSM188057, GSM188058, GSM188059 100K: GSM187950, GSM187951, GSM187952, GSM187953, GSM187954, GSM187955, GSM187956, GSM187957, GSM187958, GSM187959, GSM187960, GSM187961, GSM187949, GSM187948, GSM187946, GSM187947, GSM187945, GSM187944,     GSM187943, GSM187942, GSM187941, GSM187940, GSM187939, GSM187938
+
+PLATFORM
+GPL2004 [Mapping50K_Hind240] Affymetrix Human Mapping 50K Hind240 SNP Array GPL2005 [Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array
+
+CITATIONS
+18413807
+

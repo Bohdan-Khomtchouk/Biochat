@@ -1,0 +1,18 @@
+TITLE
+Predicting prognosis using molecular profiling in estrogen receptor-positive breast cancer treated with tamoxifen
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Estrogen receptor positive (ER+) breast cancers (BC) are heterogeneous with regard to their clinical behavior and response to therapies. The ER is currently the best predictor of response to the anti-estrogen agent tamoxifen, yet up to 30-40% of ER+BC will relapse despite tamoxifen treatment. New prognostic biomarkers and further biological understanding of tamoxifen resistance are required. We used gene expression profiling to develop an outcome-based predictor using a training set of 255 ER+ BC samples from women treated with adjuvant tamoxifen monotherapy. We used clusters of highly correlated genes to develop our predictor to facilitate both signature stability and biological interpretation. Independent validation was performed using 362 tamoxifen-treated ER+ BC samples obtained from multiple institutions and treated with tamoxifen only in the adjuvant and metastatic settings. Results: We developed a gene classifier consisting of 181 genes belonging to 13 biological clusters. In the independent set of adjuvantly-treated samples, it was able to define two distinct prognostic groups (HR 2.01 95%CI: 1.29-3.13; p=0.002). Six of the 13 gene clusters represented pathways involved in cell cycle and proliferation. In 112 metastatic breast cancer patients treated with tamoxifen, one of the classifier components suggesting a cellular inflammatory mechanism was significantly predictive of response. Conclusions: We have developed a gene classifier that can predict clinical outcome in tamoxifen-treated ER+ BC patients. Whilst our study emphasizes the important role of proliferation genes in prognosis, our approach proposes other genes and pathways that may elucidate further mechanisms that influence clinical outcome and prediction of response to tamoxifen. Keywords: disease state analysis
+
+DESIGN
+dataset of microarray experiments from primary breast tumors of patients treated by Tamoxifen in adjuvant setting. No replicate, no reference sample.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18498629 , 20479250
+

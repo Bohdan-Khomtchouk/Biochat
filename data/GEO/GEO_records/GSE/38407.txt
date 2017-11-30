@@ -1,0 +1,18 @@
+TITLE
+Genome-wide mapping of 5-hydroxymethylcytosine (5hmC) during differentiation of P19.6 and 3T3-L1 cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Enhancers are developmentally-controlled transcriptional regulatory regions whose activities are modulated through histone modifications or histone variant deposition. Here, we show by genome-wide mapping that the newly discovered DNA modification 5-hydroxymethylcytosine (5hmC) is dynamically associated with transcription factor binding to distal regulatory sites during neural differentiation of mouse P19 cells as well as during adipocyte differentiation of mouse 3T3-L1 cells. Functional annotation reveals that regions gaining 5hmC are associated with genes expressed either in neural tissues when P19 cells undergo neural differentiation or in adipose tissue when 3T3-L1 cells undergo adipocyte differentiation. Furthermore, distal regions gaining 5hmC together with H3K4me2 and H3K27ac in P19 cells behave as differentiation-dependent transcriptional enhancers. Identified regions are enriched in motifs for transcription factors regulating specific cell fates like Meis1 in P19 cells and PPARgamma in 3T3-L1 cells. Accordingly, a fraction of hydroxymethylated Meis1 sites were associated with a dynamic engagement of the 5mC hydroxylase Tet1. In addition, kinetic studies of cytosine hydroxymethylation of selected enhancers indicated that DNA hydroxymethylation is an early event of enhancer activation. Hence, acquisition of 5hmC in cell-specific distal regulatory regions may represent a major event of enhancer progression toward an active state and participate in selective activation of tissue-specific genes
+
+DESIGN
+Genome-wide 5hmC distribution was determined using hMeDIP-seq. Cells used in this study are P19.6 mouse embryonal carnicoma cells and P19.6 cells treated for 48 hours with 1µM all-trans retinoic acid (RA), as well as 3T3-L1 cells and 3T3-L1 derived adipocytes differentiated with dexamethasone, insulin and IBMX (differentiation cocktail - DC). Individual hMeDIP samples from P19.6 ord 3T3-L1 cells were pooled for library preparation. Libraries were prepared and sequenced at the IBL sequencing facility (Lille, France) with an Illumina Genome Analyser II.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+22730288
+

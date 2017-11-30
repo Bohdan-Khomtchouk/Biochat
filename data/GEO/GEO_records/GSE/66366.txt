@@ -1,0 +1,18 @@
+TITLE
+RNA sequencing of a C57BL/6J-DBA/2J (B6.D2) congenic mouse and C57BL/6J (B6) wild-type littermates reveals cis and trans differences in gene expression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We previously utilized interval-specific congenic lines derived from C57BL/6J (B6) and DBA/2J  (D2) alleles to fine map a quantitative trait locus (QTL) influencing methamphetamine (MA)-  induced locomotor activity. We identified a 0.23 MB critical interval on chromosome 11  containing only two protein coding genes, Rufy1 and Hnrnph1. Notably, Rufy1 contains three  missense SNPs and Hnrnph1 contains 1 SNP near the 5’ UTR. In an effort to identify the molecular  mechanisms that bridge genetic variation with behavior, we conducted transcriptome analysis  via mRNA sequencing (RNA-seq) in a B6.D2 congenic line (chr.11: 50-60 Mb) that captures the  QTL. There was an overrepresentation of cis-regulated, differentially expressed genes within  the congenic interval (4 out of 92 differentially expressed genes; FDR < 0.05) and widespread  genomic regulation on all autosomes.
+
+DESIGN
+For this study, 3mm punches from both striatal hemispheres were collected and pooled from 16 mice (8 controls and 8 B6.D2 congenics), and RNA was extracted and prepared for cDNA library preparation using the Illumina TruSeq (oligo-dT; 50bp single-end reads). Samples 1-16, consisting of alternating B6 and B6.D2 congenics were run in four lanes total, with samples 1-8 run in duplicate across lanes 5 and 6 and samples 9-16 acorss lanes 7 and 8, respectively. Raw samples provided are labeled with the " CB- " prefix, followed by the sample number and the lane that it was run in is described at the tail end as " _L00# " with # being either lane 5, 6, 7 or 8. In this study, all odd samples (e.g. CB-1,3,5 etc.) are C57BL/6J littermate controls, while all even samples are B6.D2 congenics. Note that the lane 7 replicate for Sample CB-13 (CB-13_L007.fastq.gz) was not processed due to technical difficulties with the file.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

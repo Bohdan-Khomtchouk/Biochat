@@ -1,0 +1,18 @@
+TITLE
+The BET protein BRD2 cooperates with CTCF to enforce a transcriptional boundary
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Role of the bromodomain and extraterminal motif (BET) protein BRD2 in CTCF chromatin occupancy, tested by CRISPR/Cas9-mediated depletion of BRD2 in GATA1-null erythroblasts expressing an inducible GATA1-ER fusion (G1E-ER4). Pharmacologic inhibitors of the BET (bromodomain and extraterminal motif) family of proteins are being explored for the treatment of various diseases, including cancer, yet the individual functions of BET proteins remain unclear. Here we find that BRD2 co-localizes with the architectural/insulator protein CCCTC-binding factor (CTCF) genome-wide. CTCF recruits BRD2 to co-bound sites, whereas BRD2 is dispensable for CTCF occupancy. Genome editing at a CTCF/BRD2 co-occupied site reveals a functional boundary element that upon perturbation results in transcriptional misregulation. Single-molecule RNA FISH reveals that either site-specific CTCF loss or BRD2 depletion increases the correlation in expression of two genes flanking the boundary. Together these findings indicate that BRD2 supports chromatin boundary activity in a CTCF-dependent manner and suggest that pharmacologic BET inhibitors influence gene expression in part by perturbing chromatin domain boundary function.
+
+DESIGN
+GATA1-null erythroblasts expressing GATA1 as a GATA1-ER fusion protein (G1E-ER4) were induced to differentiate by the addition of 100nM estradiol for 24 hours. CTCF occupancy was assessed in wild type G1E-ER4 cells and compared to occupancy in 2 independent G1E-ER4 clonal sub-lines which were engineered with CRISPR/Cas9 to express no detectable BRD2 (C8 = BRD2 KO#1, D = BRD2 KO#2).
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28388437
+

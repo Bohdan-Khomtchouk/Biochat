@@ -1,0 +1,18 @@
+TITLE
+Germ cell nuclear factor regulates gametogenesis in developing gonads
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Expression of germ cell nuclear factor (GCNF, Nr6a1), an orphan member of the nuclear receptor gene family of transcription factors, during gastrulation and neurulation is critical for normal embryogenesis in mice. Gcnf represses the expression of the POU domain transcription factor Oct4 (Pou5f1) during mouse post-implantation development. Although Gcnf expression is not critical for the embryonic segregation of the germ cell lineage, we found that sexually dimorphic expression of Gcnf in germ cells correlates with the expression of pluripotency-associated genes, such as Oct4, Sox2, and Nanog, as well as the early meiotic marker gene Stra8. To elucidate the role of Gcnf during mouse germ cell differentiation, we generated an ex vivo Gcnf-knockdown model in combination with a regulated CreLox mutation of Gcnf. Lack of Gcnf impairs normal spermatogenesis and oogenesis in vivo, as well as the derivation of germ cells from embryonic stem cells (ESCs) in vitro. Inactivation of the Gcnf gene in vivo leads to loss of repression of Oct4 expression in both male and female gonads. For RNA isolation, PGCs were sorted by FACS, collected by centrifugation, lysed in RLT buffer (QIAGEN), and processed using the RNeasy micro and mini kits with on-column DNase digestion as per the manufacturer’s instructions. Integrity of RNA samples was quality checked using a 2100 Bioanalyzer (Agilent). When possible, 300 ng of total RNA per sample was used as starting material for linear amplification (Illumina TotalPrep RNA Amplification Kit, Ambion), which involved synthesis of T7-linked double-stranded cDNA and 14 hr of in-vitro transcription incorporating biotin-labeled nucleotides. Purified and labeled cRNA was then quality checked on a 2100 Bioanalyser and hybridized as biological or technical duplicates for 18 hr onto MouseRef-8 v2 gene expression BeadChips (Illumina), following the manufacturer's instructions. After being washed, the chips were stained with streptavidin-Cy3 (GE Healthcare) and scanned using an iScan reader and accompanying software. Bead intensities were mapped to gene information using BeadStudio 3.2 (Illumina). Background correction was performed using the Affymetrix Robust Multi-array Analysis (RMA) background correction model. Variance stabilization was performed using log2 scaling, and gene expression normalization was calculated with the quantile method implemented in the lumi package of R-Bioconductor. Data post-processing and graphics were performed with in-house developed functions in Matlab.
+
+DESIGN
+8 samples were analyzed: ESC++, ESC control Oct4-GFP, 1 replicate ESC--, ESC Gcnf -/- Oct4-GFP, 1 replicate D15++, Day 15 in vitro derived PGCs from GCNF +/+ Oct4-GFP ESC, 1 replicate D15--, Day 15 in vitro derived PGC from GCNF -/- Oct4-GFP ESC, 1 replicate D12++, Day 12 in vitro derived PGC from GCNF +/+ Oct4-GFP ESC, 1 replicate D12--, Day 12 in vitro derived PGC from GCNF -/- Oct4-GFP ESC, 1 replicate EpiSC, EpiESC, 2 replicates
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+25140725
+

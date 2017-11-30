@@ -1,0 +1,18 @@
+TITLE
+Parity and the genomic signature in the Human Breast
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Case-control study for the analysis of the gene expression profile of epithelial cells microdissected from normal breast tissues obtained from 17 parous and 7 nulliparous women free of breast pathology (controls), and 39 parous and 8 nulliparous women with history of breast cancer (cases). Keywords: genetic modifications
+
+DESIGN
+Four-condition experiment: nulliparous case, nulliparous control, parous case and parous control labeled with Cy5 and Universal human reference used as a common reference labeled with Cy3. Moderated t statistic was used as the basic statistic for significance analysis; it was computed for each probe and for each contrast. False discovery rate was controlled using the Benjamini and Hochberg. All genes with P value below a threshold of 0.05 were selected as differentially expressed, maintaining the proportion of false discoveries in the selected group below the threshold value, in this case 5%. Breast 11 parous control HuII, Breast 28 parous case HuII, and Breast 62 nulliparous control HuIII excluded: raw data is missing
+
+PLATFORM
+GPL7384 Human_40K_partII_FCCC_v1.0 GPL7392 Human_40K_partI_FCCC_v1.0 GPL7393 Human_40K_partIII_FCCC_v1.0
+
+CITATIONS
+18199711
+

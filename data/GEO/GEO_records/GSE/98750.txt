@@ -1,0 +1,18 @@
+TITLE
+Alveolar macrophages from tuberculosis patients display an altered inflammatory gene expression profile
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Alveolar macrophages (AMs) are major targets of Mycobacterium tuberculosis (Mtb) infection, critical during the progression of active tuberculosis (TB). The complex immunopathology of TB generates diverse microenvironments in the lung, which shape immune responses by AMs. In the current study, we perform whole genome microarray transcriptional profiling on RNA isolated from AMs from TB patients (AMsTB) compared to AMs from control subjects (AMsCT) using bronchoalveolar lavage (BAL). Our hypothesis was that systemic effects on the local lung microenvironment during TB affect the transcriptional response of AMsTB. We found a unique gene expression profile of 51 genes, including up-regulated CHIT1, CHI3L1, CCL5, CCL22, CCL8, CXCL9, MMP9, MMP7 and MMP12, associated with a robust pro-inflammatory response, cell recruitment and tissue damage, and genes of the cyclin family (CCND1, CCND2, and CCNA1) associated with cell proliferation. These expression profiles may account for the inflammatory condition in the lungs of TB patients. CXCL5, IL1B, CAMP, and TGFB1 were down-regulated, suggesting an altered control of Mtb infection. Also, MARCO and COLEC12, affecting phagocytosis, and CES1, associated with an increase in free cholesterol, were down-regulated. The observed changes in mRNA expression profiles may partially account for the inability of AMsTB to effectively control Mtb infection, suggesting that a balanced control of pro- and anti-inflammatory immune responses is crucial for infection control.
+
+DESIGN
+Total RNA obtained from AMsTB (n=3) compared to aAMsCT (n=4) from at least 3 replica wells was obtained with the RNeasy minikit (Qiagen). RNA (RIN > 7.5) were used to prepare cRNAs. Biotinylated cRNAs were prepared from 0.55 µg of total RNA using the Illumina TotalPrep RNA Amplification kit (Ambion). Following fragmentation, 0.75 µg of cRNA were hybridized to the Illumina Expression Human HT-12v4 Expression Bead Chip, targeting 47,323 probes according to the protocols provided by the manufacturer. Raw data were extracted using the software provided by the manufacturer (Illumina GenomeStudio v2011.1 (Gene Expression Module v1.9.0). Probes signal values were transformed by logarithm method. The raw data were preprocessed by the Lumi Bioconductor package using the R software (www.r-project.org). Unsupervised methods with hierarchical clustering was calculated using complete Euclidean distance transformation. Gene-Enrichment and Functional Annotation analysis for significant probe list was performed using DAVID ( http://david.abcc.ncifcrf.gov/ ).
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+29050765
+

@@ -1,0 +1,18 @@
+TITLE
+The pioneer factor OCT4 requires the chromatin remodeller BRG1 to support gene regulatory element function in mouse embryonic stem cells [RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Pioneer transcription factors are able to recognise and bind their motif sequences in inaccessible or closed chromatin, and their ability to achieve this is required to establish new regulatory elements and transcriptional networks during development and cellular reprogramming. An essential feature of this pioneering activity is the transition from inaccessible chromatin to a nucleosome-depleted and accessible chromatin state typical of normal regulatory elements, and this is believed to facilitate further transcription factor binding events. However, the mechanisms by which many pioneer transcription factors achieve this remarkable feat remain elusive. Here we reveal that the pluripotency-associated pioneer factor OCT4 binds inaccessible chromatin to shape the chromatin accessibility, transcription factor co-binding and regulatory potential of thousands of distal regulatory elements in mouse embryonic stem cells, demonstrating that its pioneering activity is a feature of normal pluripotency, and not just reprogramming. The accessible chromatin formed at OCT4 binding sites relies on the chromatin remodelling factor BRG1, which is recruited to these sites by OCT4. The occupancy of BRG1 is then required to support OCT4/SOX2 co-binding and normal expression of the pluripotency-associated transcriptome, and this reliance on BRG1 reflects OCT4 binding dynamics during cellular reprograming and early mouse development. Together these observations reveal a distinct requirement for the chromatin remodelling factor BRG1 in shaping the pioneering activity of OCT4 and regulating the pluripotency network in embryonic stem cells.
+
+DESIGN
+ZHBTC4 and Brg1fl/fl mouse embryonic stem cells were used to ablate OCT4 and BRG1 expression respectively, followed by ATAC-seq, ChIP-seq or RNA-seq to examine their contribution towards chromatin accessibility, transcription factor occupancy, and gene expression.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28287392
+

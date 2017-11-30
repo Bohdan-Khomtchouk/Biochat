@@ -1,0 +1,18 @@
+TITLE
+High-throughput sequencing of small RNAs in Setaria italica
+
+ORGANISM
+Setaria italica
+
+SUMMARY
+Small RNAs (21-24 nt) are pivotal regulators of gene expression that guide both transcriptional and post-transcriptional silencing mechanisms in diverse eukaryotes, including most if not all plants. MicroRNAs (miRNAs) and short interfering RNAs (siRNAs) are the two major types, both of which have a demonstrated and important role in plant development, stress responses and pathogen resistance. In this work, we used a deep sequencing approach (Sequencing-By-Synthesis, or SBS) to develop sequence resources of small RNAs from Setaria italica tissues (including leaves, flowers and roots). The high depth of the resulting datasets enabled us to examine in detail critical small RNA features as size distribution, tissue-specific regulation and sequence conservation between different organs in this species. We also developed database resources and a dedicated website ( http://smallrna.udel.edu/ ) with computational tools for allowing other users to identify new miRNAs or siRNAs involved in specific regulatory pathways, verify the degree of conservation of these sequences in other plant species and map small RNAs on genes or larger regions of the genome under study.
+
+DESIGN
+Small RNA libraries were derived from seedling leaves, flowers and roots harvested 5-6 weeks after initial planting of Setaria italica. Total RNA was isolated using the Plant RNA Purification Reagent (Invitrogen), and submitted to Illumina (Hayward, CA, http://www.illumina.com ) for small RNA library construction using approaches described in (Lu et al., 2007) with minor modifications. The small RNA libraries were sequenced with the Sequencing-By-Synthesis (SBS) technology by Illumina. PERL scripts were designed to remove the adapter sequences and determine the abundance of each distinct small RNA. We thank Jeff Bennetzen for providing the plant material as well as Kan Nobuta and Gayathri Mahalingam for assistance with the computational methods.
+
+PLATFORM
+GPL14635 Illumina Genome Analyzer II (Setaria italica)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

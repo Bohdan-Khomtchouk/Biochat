@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis of primary plasma cell leukemia identifies recurrent imbalances associated with transcriptional Profile alterations (Copy number)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Primary plasma cell leukaemia (pPCL) is a rare, yet aggressive form of de novo plasma cell tumor, distinguished from secondary PCL (sPCL) which represents a leukemic transformation of pre-existing multiple myeloma (MM). Here, we performed a comprehensive molecular analysis of a prospective series of pPCLs by means of FISH, single nucleotide polymorphism (SNP) array and gene expression profiling (GEP). IGH@ translocations were identified in 87% of pPCL cases, with prevalence of t(11;14) (40%) and t(14;16) (30.5%), whereas the most frequently altered regions were located at 1p (38%), 1q (48%), 6q (29%), 8p (42%), 13q (74%), 14q (71%), 16q (53%) and 17p (35%). A relevant finding of our study was the identification of a minimal biallelical deletion (1.5 Mb) in 8p21.2 encompassing the putative tumor suppressor gene PPP2R2A that was significantly down-regulated in deleted cases. Mutations of TP53 were identified in 4 cases all but one associated with a monoallelic deletion of the gene, whereas activating mutations of BRAF occurred in one case and were absent for N- and K-RAS. To evaluate the influence of allelic imbalances in transcriptional expression we performed an integrated genomic analysis with GEP data, showing a significant dosage effect of genes involved in transcription, translation, methyltransferases activity, apoptosis as well as Wnt and NF-kB signaling pathways. Overall, we provide a compendium of genomic alterations in a prospective series of pPCLs which may contribute to our understanding of this particular form of plasma cell dyscrasia and to better elucidate the mechanisms of tumor progression in MM.
+
+DESIGN
+This series of microarray experiments contains the genome-wide profiles of 17 primary Plasma Cell Leukemia. 250 nanograms of genomic DNA was processed and, in accordance with the manufacturer's protocols, 90 micrograms of fragmented biotin-labeled DNA were hybridized on GeneChip Human Mapping 250K NspI Arrays (Affymetrix Inc.). The arrays were scanned using the GeneChip Scanner 3000 7G. The images were acquired using Affymetrix GeneChip® Operating Software (GCOS version 1.4). Copy number values for individual SNPs were extracted and converted from CEL files into signal intensities using GTYPE 4.1 and Affymetrix Copy Number Analysis Tool (CNAT 4.0.1) softwares. The raw data for individual SNPs were extracted from CEL files and converted into signal intensities using GTYPE 4.1 and Affymetrix Copy Number Analysis Tool (CNAT 4.0.1) softwares using the Hidden Markov Model algorithm with a genomic smoothing window set to 0. After the pre-processing, piecewise constant estimates of the underlying local DNA copy number (CN) variation was calculated using the DNAcopy Bioconductor package, which looks for optimal breakpoints using circular binary segmentation (CBS). genotyping analysis of 17 primary Plasma Cell Leukemia
+
+PLATFORM
+GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array
+
+CITATIONS
+23044976
+

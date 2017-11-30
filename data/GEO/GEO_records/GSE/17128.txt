@@ -1,0 +1,18 @@
+TITLE
+Staphylococcus aureus REX mutant
+
+ORGANISM
+Staphylococcus aureus
+
+SUMMARY
+The transcription level of a rex-deficient S. aureus mutant in comparison to its parental strain S. aureus SH1000 was analyzed using DNA microarrays.
+
+DESIGN
+S. aureus N315 microarrays were purchased from Scienion (Scienion AG, Berlin, Germany) and were produced by spotting 2,338 PCR products of the 2,593 ORFs comprising annotated genome of S. aureus N315 [reference identification: NC_002745] on a glass slide. Each ORF is present in duplicate on the microarray (further details can be found at http://www.scienion.com ), cDNA was synthesized from total RNA with the LabelStar Array Kit from QIAGEN using the QIAGEN protocol with slight modifications: Random hexamer primer were used (Invitrogen, Karlsruhe, Germany) and Cy3- and Cy5-dCTP were purchased from Perkin-Elmer (Rodgau - Juegesheim, Germany). As recommended by Scienion, 10 µg RNA from either SH1000 or AK1 were used for cDNA synthesis. After hybridisation for 72 h, the microarrays were washed as recommended by the manufacturer. Data analysis. The hybridized microarrays were scanned with a GenePix 4000B microarray scanner (MDS Analytical Technologies GmbH, Ismaning, Germany). A geometric raster was laid over the resulting microarray picture to distinguish the signals from the background. After localization of single spots, intensities and global background were calculated automatically. The hybridization patterns and intensities were quantitatively analyzed using the Imagene 6 software (BioDiscovery, El Segundo, CA). The replicates were averaged, and the spots identified by Imagene 6 (BioDiscovery) as flawed were omitted. The data set was normalized by application of the LOWESS algorithm. In a next step, the intensity values of all arrays for each time point as well as for all time points combined were used for t tests. Genes with a change of < 0.5- or ≥2.0-fold were characterized as having significantly differing amounts of transcripts based on t tests with a P value cut-off of at least 0.05. Gene functions were assigned to the respective accession numbers and annotations as compiled on DOGAN, a web page for S. aureus N315 ( http://www.bio.nite.go.jp/dogan/MicroTop?GENOME_ID=n315G1 ). The parental strain SH1000 and the Rex deficient mutant AK1 were applied on full-genome microarrays to get a detailed view on the differences in the transcriptional profiles which are caused – directly or indirectly – by the introduced mutation. More specifically, expression levels were compared at five time points, covering different growth phases. To highlight the general changes in the expression profile between SH1000 and the rex mutant, the microarray data of all five time points were also analyzed in a combined way using standard statistical methods. In further experiments, we focused on those genes, which seemed to flag the general difference between the investigated strains.
+
+PLATFORM
+GPL8823 sciTracer Staphylococcus aureus 2005
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

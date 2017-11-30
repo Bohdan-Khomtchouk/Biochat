@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling of BDC2.5 CD4T cells isolated from NOD mice after in vivo antigen stimulation with either DEC205+ or DCIR2+ DCs.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We identified DCIR2+DCs but not DEC205+DCs as able to induce peripheral T cell tolerance in pre-diabetic autoimmune NOD mice. To determine what distinct genetic programs are elicited in the auto-reactive CD4 T cells early after stimulation by these two DC subsets, we utilized adoptive transfer of BDC2.5 CD4 T cells into NOD mice, which were then given chimeric antibody to deliver the beta-cell specific antigen to either DCIR2+DCs or DEC205+DCs, leading to BDC2.5 CD4 T cell specific stimulation in vivo. The analysis shows that the negative transcriptional factor Zbtb32 (ROG) is up-regulated more in BDC2.5 CD4 T cells after stimulated with a antigen via DCIR2+DCs presentation, compared with DEC205+DCs, suggesting the involvement of Zbtb32 in DCIR2+DCs-mediated auto-reactive T cell tolerance in disease ongoing NOD mice. The BDC2.5 CD4 T cells after 14 hour of injection with a 100 ng of anti-DCIR2-BDC, anti-DEC205-BDC antibody, or PBS as a control to NOD mice, were sorted by BD FACSAria and their expression profile was analyzed using Affymetrix chips.
+
+DESIGN
+NOD mice with transferred BDC2.5 T cell were injected with 100 ng of anti-DCIR2-BDC (NOD_DCIR2-BDC), anti-DEC205-BDC antibody (NOD_DEC-BDC), or PBS (NOD_PBS) as a control. After 14 hours, BDC2.5 CD4 T cells were sorted by BD FACSAria and their expression profile was analyzed using Affymetrix microarray chips. Each sample has a biological duplicate. Raw data were preprocessed with the RMA algorithm in Partek, and averaged expression values were used for analysis.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+26070317
+

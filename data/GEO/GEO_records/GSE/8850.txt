@@ -1,0 +1,18 @@
+TITLE
+The Role of CcpA in Gene Regulation in Streptococcus mutans
+
+ORGANISM
+Streptococcus mutans
+
+SUMMARY
+CcpA is a global regulator of transcription in Gram-positive bacteria that controls gene expression in response to carbohydrate availability.  Using the fructan hydrolase (fruA) gene of S. mutans as a model, we demonstrate that CcpA does indeed play a major role in carbohydrate catabolite repression.  Using DNA microarrays, the expression of at least 170 genes differed in CcpA-deficient cells compared to the parental strains when cells are grown in the presence of glucose, but only 90 genes showed altered expression when cells were cultivated in the poorly-repressing substrate galactose.  Interestingly, 90 genes were differently expressed in wild-type S. mutans in response to cultivation in glucose versus galactose, but the expression of over 500 genes was altered when growth in glucose and galactose were compared in the CcpA-deficient strain.  The results support a major role for CcpA in regulation of gene expression, but reveal that a substantial CcpA-independent network exists in S. mutans to regulate gene expression in response to carbohydrate source. Keywords: Catabolite repression, sugar transport, biofilm, virulence, stress response
+
+DESIGN
+A reference RNA that had been isolated from 2 liters of UA159 cells grown in BHI broth to OD600 = 0.5 was used in every experiment.  Our experimental conditions consisted of S. mutans UA159 and TW1 grown in TV supplemented with 0.5% glucose or 0.5% galactose and collected at the mid-exponential phase of growth (OD600 = 0.5).  All RNAs were purified as described above and used to generate cDNA according to the protocol provided by TIGR with the following minor modifications.  The amount of RNA in each reaction was increased to 10 ug and the molar ratio of dTTP:aa-dUTP was increased to 1:2.  SuperscriptIII Reverse transcriptase (Invitrogen, Gaithersburg, MD) was used to increase cDNA yields.  Purified cDNAs were coupled with indocarbocyanine (Cy3)-dUTP, while reference cDNA was coupled with indodicarbocyanine (Cy5)-dUTP (Amersham Biosciences, Piscataway, NJ).  Four individual Cy3-labeled cDNA samples originating from four different cultures of UA159 or TW1, grown in each experimental condition, were hybridized to the arrays along with Cy5-labeled reference cDNA, generating a total of 16 slides.  Hybridizations were carried out in a Maui 4-chamber hybridization system (BioMicro Systems, Salt Lake City, Utah) for 17 h at 42ºC.  The slides were then washed according to TIGR protocols and scanned using a GenePix Scanner (Axon Instruments Inc., Union City, CA). After the slides were scanned, single-channel images were loaded into TIGR Spotfinder software and overlayed.  A spot grid was created according to TIGR specifications and manually adjusted to fit all spots within the grid, then the intensity values of each spot were measured.  Data was normalized using TIGR Microarray data analysis software (MIDAS), by using LOWESS and Iterative Log Mean Centering with default settings, followed by In-Slide Replicate Analysis.  Statistical analysis was carried out using BRB Array Tools with a cutoff P value of 0.001 for class prediction and class comparison.
+
+PLATFORM
+GPL4340 JCVI PFGRC Streptococcus mutans 10K v2.1 array designed primarily based on strain UA159 [FULL_FEATURE_LAYOUT]
+
+CITATIONS
+18223086
+

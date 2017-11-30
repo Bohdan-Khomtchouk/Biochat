@@ -1,0 +1,18 @@
+TITLE
+Transcript 5'-end mapping was used to identify transcriptional start sites and RNA processing sites genome-wide in Mycobacterium tuberculosis
+
+ORGANISM
+Mycobacterium tuberculosis
+
+SUMMARY
+Most eukaryotic mRNAs are enzymatically processed before they are translated, but less is known about mRNA processing in prokaryotes.  While bacterial rRNAs and tRNAs are known to be highly processed, only a handful of bacterial mRNAs have been shown to be processed by ribonucleases, typically altering transcript stability. We hypothesized that mRNA processing might be more widespread in prokaryotes and constitute a previously underappreciated layer of post-transcriptional regulation. We therefore adapted RNA-seq methodologies to map transcript 5’ ends across the Mycobacterium tuberculosis transcriptome, distinguishing between transcriptional start sites (TSSs) and RNA processing sites.  We report for the first time genome-wide mRNA endonucleolytic cleavage patterns in a prokaryote, and find that mRNA processing is widespread in M. tuberculosis. This has physiologic consequences, as mRNA cleavage plays a regulatory function in the ESX-1 locus by producing a transcript fragment encoding the secreted proteins EsxB and EsxA that is significantly more stable than the parent transcript, leading to greater steady-state transcript abundance. At least 20 other loci display similar patterns of processing-associated differences in transcript levels in M. tuberculosis. Mycobacteria therefore use mRNA processing to effect differential abundance of sub-sections of polycistronic transcripts, which may provide additional layers of regulation. Moreover, our results demonstrate that stable, processed mRNAs are a ubiquitous feature in this prokaryotic transcriptome, suggesting that mRNA processing may represent a major post-transcriptional regulatory mechanism.
+
+DESIGN
+RNA from two biological replicate cultures was analyzed by RNA-seq for expression analysis and 5'-end-mapping for identification of transcriptional start sites and RNA processing sites. An additional set of three biological replicate cultures were analyzed by RNA-seq for expression analysis using a different library construction method.
+
+PLATFORM
+GPL15138 Illumina Genome Analyzer IIx (Mycobacterium tuberculosis) GPL19272 Illumina MiSeq (Mycobacterium tuberculosis)
+
+CITATIONS
+26536359
+

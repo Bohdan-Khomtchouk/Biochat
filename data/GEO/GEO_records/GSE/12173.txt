@@ -1,0 +1,18 @@
+TITLE
+Small RNA SBS signatures identified from maize using Illumina's SBS technology
+
+ORGANISM
+Zea mays
+
+SUMMARY
+Most endogenous siRNAs in Arabidopsis are dependent on RNA-DEPENDENT RNA POLYMERASE 2 (RDR2) for their biogenesis. Recent work has demonstrated that the maize MEDIATOR OF PARAMUTATION1 (mop1) gene is a predicted ortholog of the Arabidopsis RDR2 gene. The mop1 gene is required for establishment of paramutation and maintenance of transcriptional silencing of transposons and transgenes, suggesting the potential involvement of small RNAs. We analyzed small RNAs in wildtype maize and in the isogenic mop1-1 loss-of-function mutant using Illumina’s sequencing-by-synthesis (SBS) technology, which allowed us to characterize the complement of maize small RNAs to considerable depth.  Similar to rdr2 in Arabidopsis, in mop1-1, the 24 nt (nucleotide) endogenous heterochromatic short-interfering siRNAs were dramatically reduced resulting in an enrichment of miRNAs and trans-acting siRNAs (ta-siRNAs). In contrast to the Arabidopsis rdr2 mutant, the mop1-1 plants retained a highly abundant heterochromatic ~22 nt class of small RNAs. These data suggest that maize, unlike Arabidopsis, has a second mechanism for heterochromatic siRNA production.  The enrichment of miRNAs and loss of 24 nt heterochromatic siRNAs in mop1-1 should be advantageous for miRNA discovery as the maize genome becomes more fully sequenced.
+
+DESIGN
+This library was derived from maize variety K55 wild-type and mop1 mutant.  Immature ears were harvested from plants grown outdoors in Tuscon, AZ.  The material was harvested from plants 68 days after germination, with the floral tissue including young tassels 2-3 cm long.  Total RNA was isolated using a standard TRIZOL-based method and the small RNA libraries were generated as described by Lu et al. (Methods 2007, 43:110), followed by sequencing with Illumina's SBS method. The adapter sequences were removed, and the abundance of each distinct small RNA was determined. Raw data are unavailable from Illumina
+
+PLATFORM
+GPL7071 Small RNA SBS signatures indentified from maize using Illumina's SBS technnology
+
+CITATIONS
+18815367 , 20616013
+

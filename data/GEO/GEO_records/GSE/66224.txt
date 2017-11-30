@@ -1,0 +1,18 @@
+TITLE
+Chemical modifications mark alternatively spliced and actively degrading messenger RNAs in Arabidopsis and humans
+
+ORGANISM
+Arabidopsis thaliana ; Homo sapiens
+
+SUMMARY
+Post-transcriptional chemical modification of RNA bases is a widespread and physiologically relevant regulator of RNA maturation, stability, and function. While modifications are best characterized in short, noncoding RNAs such as transfer RNAs (tRNAs), growing evidence indicates that messenger RNAs (mRNAs) and long noncoding RNAs (lncRNAs) are likewise modified. Here, we apply our High-throughput Annotation of Modified Ribonucleotides (HAMR) pipeline to identify and classify modifications that affect Watson-Crick base-pairing at three different levels of the human and Arabidopsis thaliana transcriptomes (polyadenylated, small, and degrading RNAs). We find modifications primarily within actively degrading mRNAs and lncRNAs, suggesting they can act as a potent signal for RNA turnover. Additionally, modifications within stable mRNAs mark alternatively spliced introns, suggesting they regulate splicing. Furthermore, these modifications target mRNAs with coherent functions, including stress responses. Thus, our comprehensive analysis of RNA modification across multiple RNA classes yields new functional insights into these covalent RNA additions.
+
+DESIGN
+polyA-selected RNA-seq, smRNA-seq, and polyA-selected global mapping of uncapped transcripts (GMUCT) in Arabidopsis thaliana; smRNA-seq in HEK293T and HeLa human cell lines.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+26561561
+

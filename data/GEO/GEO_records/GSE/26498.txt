@@ -1,0 +1,15 @@
+TITLE
+The prior probability can derive the variety in the interpretation of p-value
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In contrast to its common definition and calculating process, interpretations of p-value differ among statisticians. Since p-value is the basis of various methodologies, this divergence has led to distinct test methodologies as well as various opinions for evaluating test results, producing a chaotic situation. Here the origin of the divergence is found in the differences among Pr(H0 = true), which gives a prior probability in the definition of p-values. Effects of differences in the prior probability on the character of p-values are investigated by comparing microarray data and random numbers as subjects. The summarized levels the genes are presented in the matrix files (linked below as supplementary files). Student t-test was applied between the two groups (0h and 14d): p-values presented in the matrix files.
+
+DESIGN
+Re-normalization of GSE3231 data by third party. Re-normalization of GSE3749 data by third party. Re-normalization of GSE2972 data by third party. Re-normalization of GSE15859 data by third party. PM data of samples in GSE3231 (and separately in GSE3749, GSE2972, and GSE15859) were parametrically normalized in chip-wise manner according to the three-parameter lognormal distribution method (using SuperNORM data service (Skylight Biotech Inc.). http://www.super-norm.com/eng/index.html ).  For full details, see Konishi et. al., 2009 PLoS ONE 3: e3555. http://dx.plos.org/10.1371/journal.pone.0003555. Expression level of a gene was estimated by summarizing the corresponding PM data. A pseudo data was then derived in a form of antilog of the z-scores; the center of the pseudo data was 256. The pseudo data, ABS_CALL, and the normalized data (z-scores) are presented in the matrix files. The normalized PM data of a chip were presented separately in Ascii text format (linked below as supplementary files). The parameters found in each chip data were presented in this form. For details for the parameters, see Konishi et al. 2009.
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

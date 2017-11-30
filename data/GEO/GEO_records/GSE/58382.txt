@@ -1,0 +1,18 @@
+TITLE
+Genome-wide identification of PPARG binding sites in NCI-H2347 and NCI-H1993 cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+While the regulation of metabolic enzymes by oncogenic drivers or tumor suppressors has been intensively studied over recent years, our understanding of how metabolic processes directly regulate cell proliferation has remained fragmentary. Here we show how the alteration of metabolism directly affects cell cycle progression in cancer cells. We found that activation of the nuclear receptor peroxisome-proliferation activated receptor gamma (PPARγ), a transcriptional master regulator of lipid metabolism, inhibits the growth of lung adenocarcinoma cells by triggering a metabolic switch that inhibits pyruvate oxidation and reduces glutathione levels. These PPARγ-induced metabolic changes result in a marked increase of reactive oxygen species (ROS) levels that lead to rapid hypophosphorylation of retinoblastoma protein (RB) and cell cycle arrest. Both of these changes can be prevented by suppressing pyruvate dehydrogenase kinase 4 (PDK4) or β-oxidation of fatty acids. Thus, we provide a mechanism that directly links metabolic changes to inhibition of cancer cell cycle progression by altering ROS levels.
+
+DESIGN
+We generated PPARG-LAP BAC transgenic NCI-H2347 and NCI-H1993 cell lines using the BAC-transgenesis approach. Cells at 80% confluency (~1-1.5x107) were cross-linked with 1% formaldehyde for 10 minutes at 37°C, and quenched with 125 mM glycine at room temperature for 5 minutes. The fixed cells were washed twice with cold PBS, scraped, and transferred into 1 ml PBS containing protease inhibitors (Roche). After centrifugation at 700 g for 4 minutes at 4°C, the cell pellets were resuspended in 100 μl ChIP lysis buffer (1% SDS, 10 mM EDTA, 50 mM Tris-HCl [pH 8.1] with protease inhibitors) and sonicated at 4°C with a Bioruptor (Diagenode) (30 seconds ON and 30 seconds OFF at highest power for 12 minutes). The sheared chromatin with a fragment length of ~200 – 600 bp) was centrifuged at 10,000 g for 10 minutes at 4°C). 100 μl of the supernatant was used for ChIP or as input. A 1:10 dilution of the solubilized chromatin in ChIP dilution buffer (0.01% SDS, 1.1% Triton X-100, 1.2 mM EDTA, 167 mM NaCl 16.7 mM Tris-HCl [pH 8.1]) was incubated at 4°C overnight with 6 μg/ml of a goat anti-GFP (raised against His-tagged full-length eGFP and affinity-purified with GST-tagged full-length eGFP). Immunoprecipitations were carried out by incubating with 40 μl pre-cleared Protein G Sepharose beads (Amersham Bioscience) for 1 hour at 4°C, followed by five washes for 10 minutes with 1ml of the following buffers: Buffer I: 0.1% SDS, 1% Triton X-100, 2 mM EDTA, 20 mM Tris-HCl [pH 8.1], 150 mM NaCl; Buffer II: 0.1% SDS, 1% Triton X-100, 2 mM EDTA, 20 mM Tris-HCl [pH 8.1], 500 mM NaCl; Buffer III: 0.25 M LiCl, 1% NP-40, 1% deoxycholate, 1 mM EDTA, 10 mM Tris-HCl [pH 8.1]; twice with TE buffer [pH 8.0]. Elution from the beads was performed twice with 100 μl ChIP elution buffer (1% SDS, 0.1 M NaHCO3) at room temperature (RT) for 15 minutes. Protein-DNA complexes were de-crosslinked by heating at 65°C in 192 mM NaCl for 16 hours. DNA fragments were purified using QiaQuick PCR Purification kit (Qiagen) and eluted into 30 μl H2O according to the manufacturer’s protocol after treatment with RNase A and Proteinase K.
+
+PLATFORM
+GPL16558 AB 5500 Genetic Analyzer (Homo sapiens)
+
+CITATIONS
+25264247
+

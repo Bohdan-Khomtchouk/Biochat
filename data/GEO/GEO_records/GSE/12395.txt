@@ -1,0 +1,18 @@
+TITLE
+High-resolution mapping of HP1 redistribution in a position-effect variegation model
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Position-effect variegation (PEV) is the stochastic transcriptional silencing of a gene positioned adjacent to heterochromatin. white-mottled X-chromosomal inversions in Drosophila are classic PEV models that show variegation of the eye color gene white due to its relocation next to pericentric heterochromatin. To obtain insight into the mechanism of PEV, we constructed detailed binding maps of Heterochromatin Protein 1 (HP1), a major component of heterochromatin, on white-mottled chromosomes. We find that HP1 invades euchromatin across the inversion breakpoints over ~175kb and ~30kb, causing de novo association of HP1 with 20 genes. However, HP1 binding levels in these regions show substantial local variation; white is most strongly bound by HP1 and is one of only two genes that are substantially repressed by heterochromatin. HP1 binding to the invaded region is exceptionally sensitive to the dosage of the histone methyltransferase Su(var)3-9, indicating that the de novo formed heterochromatin is relatively unstable. Our molecular maps demonstrate that heterochromatin can invade a normally euchromatic region, yet the strength of HP1 binding and effects on gene expression are highly dependent on local context. Keywords: DamID, gene expression, genetic modification.
+
+DESIGN
+The study comprises of two DamID experiments and two gene expression experiments.   DamID:  The first DamID experiment establishes HP1 binding profile in male heads of three fly lines; wild-type Oregon-R-S and two fly lines with white-mottled-4 chromosomal inversions; w[m4e] and w[m51b]. Each binding profile has 4 biological replicates, each dye orientation is hybridized twice.   The second DamID experiment profiles HP1 in a Su(var)3-9 mutant (w[m4]) and a sibling control fly line (Contr) which has wild type Su(var)3-9.  Expression profiling:  The first experiment contains three sets of expression profiles that measure gene expression in male heads of wild-type (Oregon-R-S), w[m4e] or w[m51b] flies.  The second experiment measures gene expression in male heads of flies that had w[m4] and hemizygous of Su(var)3-9, sibling control flies had w[m4] and wildtype Su(var)3-9. This experiment was done to establish the effect of a Su(var)3-9 mutation on the expression of white on w[m4]. The second experiment was done twice, using two different control fly lines as suppliers of the not affected wild-type chromosomes in the crosses (A=OregonRS and B=w[1118]).
+
+PLATFORM
+GPL6952 Illumina Fly INDAC 35k Oligo GPL6961 Dmel_chrX_XHet
+
+CITATIONS
+19178722
+

@@ -1,0 +1,18 @@
+TITLE
+Methylome-wide comparison of human genomic DNA extracted from whole blood and from EBV-transformed lymphocyte cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA from Epstein-Barr virus (EBV)-transformed lymphocyte cell lines (LCLs) has proven very useful for studies of genetic sequence polymorphisms. Whether EBV-LCL DNA is suitable for methylation studies is less clear. We conduct a genome-wide methylation investigation using an array set with 45 million probes to investigate the methylome of EBV-LCL DNA and technical duplicates of whole blood (WB) DNA from the same 10 individuals. Methylation sites that show variation between individuals are potentially useful as biomarkers in disease studies. Our comparison is, therefore, focused specifically on these methylation variable sites. The sample correlations (i.e., a measure of whether the rank of the signals remains consistent between two samples from the same individual) for the methylation variable probes ranged from 0.69-0.78 for the WB duplicates and from 0.27-0.72 for WB versus EBV-LCL. To compare the pattern of the methylation signals, we grouped adjacent probes based on their inter-correlations. These analyses showed ~29,000 blocks in WB and ~14,000 blocks in EBV-LCL. Furthermore, merely 31% of the methylated regions detected in WB were detectable in EBV-LCLs. Our study shows that there are substantial differences in the DNA methylation patterns between EBV-LCL and WB. Thus, EBV-LCL DNA cannot be used as a proxy for WB DNA in methylation studies.
+
+DESIGN
+The methylation of technical duplicates of DNA extracted from whole blood from 10 individuals, as well as DNA extracted from EBV-transformed lymphocyte cell lines (EBV-LCL) from the same samples of whole blood, are investigated using the Affymetrix GeneChip Human Tiling 2.0R array set. In total, 30 samples from 10 individuals were investigated on 7 arrays. The supplementary " GSE35204_ChrXX_bgc_qt.txt " files contain the background-corrected and quantile-normalized data for all 30 samples per chromosome. The files include 32 columns: 'Seq' refers to the chromosome, 'Pos' indicates the position in the genome on that chromosome, and columns 3-32 indicate the sample numbers.
+
+PLATFORM
+GPL4910 [Hs35b_P01R] Affymetrix Human Tiling 2.0R Set, Array 1 GPL4911 [Hs35b_P02R] Affymetrix Human Tiling 2.0R Set, Array 2 GPL4912 [Hs35b_P03R] Affymetrix Human Tiling 2.0R Set, Array 3 GPL4913 [Hs35b_P04R] Affymetrix Human Tiling 2.0R Set, Array 4 GPL4914 [Hs35b_P05R] Affymetrix Human Tiling 2.0R Set, Array 5 GPL4915 [Hs35b_P06R] Affymetrix Human Tiling 2.0R Set, Array 6 GPL4916 [Hs35b_P07R] Affymetrix Human Tiling 2.0R Set, Array 7
+
+CITATIONS
+22378283
+

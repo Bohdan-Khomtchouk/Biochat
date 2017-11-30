@@ -1,0 +1,18 @@
+TITLE
+Global unleashing of transcription elongation waves in response to genotoxic stress restricts somatic mutation rate
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Complex molecular responses preserve gene expression accuracy and genome integrity in the face of environmental perturbations. Here we report that, in response to UV-irradiation, RNA Polymerase II (RNAPII) molecules are dynamically and synchronously released from promoter-proximal regions to promote uniform and accelerated scanning of the whole transcribed genome. The maximised influx of de novo released RNAPII correlates with increased sensing of damaged sites, as confirmed by RNAPII accumulation at dipyrimidine sites and by the average slow-down of elongation rates in gene bodies. By triggering this transcription elongation ‘safe’ mode, endangered cells guarantee an efficient DNA repair regardless of damage location, gene size and transcription level. Accordingly, in clinically-relevant samples we detect low and homogenous rates of mutational signatures associated with UV-irradiation or cigarette-smoke across all active genes. Together, our data highlight a novel functional advantage associated with regulation of promoter-proximal pausing and provide unanticipated insights into the mechanism underlying the central role of active transcription in shaping the mutagenic landscape of cancer genomes.
+
+DESIGN
+ChIP-seq,  Nascent RNA-seq, mRNA-seq and in-house developed CPDIP-seq experiments were performed in human VH10 cells before and following DNA damage induced by low doses (8 or 20 J/m2) of UV-C irradiation. Inhibitor of transcription DRB were used as indicated in the protocols section. Please note that the input sample INPUT_0_NO was used to normalize with ser2P, ser5P and hypo samples generating 3 different bigWig files; C6D06ACXX_M_V5095_2_15s010830-1-1_Fousteri_lane3VNOUVtheoI_sequence.merged_norm_ser2P.bigWig C6D06ACXX_M_V5095_2_15s010830-1-1_Fousteri_lane3VNOUVtheoI_sequence.merged_norm_ser5P.bigWig C6D06ACXX_M_V5095_2_15s010830-1-1_Fousteri_lane3VNOUVtheoI_sequence.merged_norm_hypo.bigWig
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

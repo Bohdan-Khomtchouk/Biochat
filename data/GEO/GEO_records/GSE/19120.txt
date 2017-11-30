@@ -1,0 +1,18 @@
+TITLE
+Bulk Segregant Analysis Reveals a Novel Xylose Utilization Gene from Saccharomyces cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+To determine the genomic location of a gene that permits xylose utilization we conducted bulk segregant analysis (BSA) using Affymetrix yeast tiling arrays.  BSA works by taking advantage of DNA sequence polymorphisms between different strains and the fact that it is relatively easy to pool large numbers of meiotic spore products (segregants) in yeast.  Pooling segregants based on their phenotype allows the region of the genome responsible for the phenotype to be detected.  This is because DNA polymorphisms in regions unlinked to the locus causing the phenotype will segregate randomly and be “evened” out, while around the genomic region of interest, sequences or polymorphisms responsible for the trait will be present in all positive segregants, and absent in all negative segregants.  In our case, a Simi White wine strain (S. cerevisiae) carrying the locus responsible for xylose utilization was crossed to a laboratory strain of Saccharomyces cerevisiae; this strain was estimated to carry DNA polymorphisms relative to the laboratory strain at a level of approximately .5%.  Spores from the Simi White / S288c diploid were screened for the xylose utilization phenotype and 39 positive spores were combined into one pool and 39 negative spores into another pool, and genomic DNA (gDNA) was isolated from each pool.  We then hybridized the positive and negative gDNA pools to tiling microarrays that were based on the S288c reference genome with the expectation that regions of the genome derived from Simi White will hybridize less robustly to the array because of the DNA polymorphisms between Simi White and S288c.  Log2 ratios of probe intensities were calculated (negative/positive), and a peak appeared in the chromosome XV right subtelomeric region that corresponds to less robust hybridization to the microarray of the positive pool gDNA coming from this region of the genome
+
+DESIGN
+gDNA isolated from 39 pooled " xylose positive " S. cerevisiae segregants from ( " Simi White " x S288c) compared to gDNA isolated from 39 pooled " xylose negative " segregants from the same cross
+
+PLATFORM
+GPL7250 [Sc03b_MR] Affymetrix GeneChip S. cerevisiae Tiling 1.0R Array
+
+CITATIONS
+20485559
+

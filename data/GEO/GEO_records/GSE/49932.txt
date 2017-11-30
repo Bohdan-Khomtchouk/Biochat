@@ -1,0 +1,18 @@
+TITLE
+RNA-Seq global gene expression of four Dendritic cells subpopulations from lung (CD8+ and CD8- pDCs, CD103-CD11b+ and CD103+CD11b- cDCs) of influenza infected mice at four time points following infection
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Hundreds of immune cell types work in coordination to maintain tissue homeostasis. Upon infection, dramatic changes occur with the localization, migration and proliferation of the immune cells to first alert the body of the danger, confine it to limit spreading, and finally extinguish the threat and bring the tissue back to homeostasis. Since current technologies can follow the dynamics of only a limited number of cell types, we have yet to grasp the full complexity of global in vivo cell dynamics in normal developmental processes and disease. Here we devise a computational method, digital cell quantification (DCQ), which combines genomewide gene expression data with an immune cell compendium to infer in vivo dynamical changes in the quantities of 213 immune cell subpopulations. DCQ was applied to study global immune cell dynamics in mice lungs at ten time points during a 7-day time course of flu infection. We find dramatic changes in quantities of 70 immune cell types, including various innate, adaptive and progenitor immune cells. We focus on the previously unreported dynamics of four immune dendritic cell subtypes, and suggest a specific role for CD103+CD11b- cDCs in early stages of disease and CD8+ pDC in late stages of flu infection.
+
+DESIGN
+To better understand the physiological role of these differential dynamic changes in the DCs, we measured the genome-wide RNA expression of all four DC subpopulations from lung of influenza infected mice at four time points following infections (two mice per time-point). For sorting dendritic cells from lungs, the lungs from infected and control uninfected C57BL/6J mice were immersed in cold PBS, cut into small pieces in 5 ml DMEM media containing 10% Bovine Fetal Serum, the cell suspensions were grinded using 1ml syringe cup on a 70 μm cell  strainers (BD Falcon). The cells were washed with ice cold PBS. Remaining red blood cells were  lysed using ammonium chloride solution (Sigma). Cells were harvested, immersed 1ml FACS  buffer [PBS+2% FBS, 1mM EDTA], Fc receptors were blocked with anti-mouse CD16/CD32, washed with FACS buffer and divided into two tubes for sorting cDC and pDC cells.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24586061
+

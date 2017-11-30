@@ -1,0 +1,18 @@
+TITLE
+Comparative transcriptomic and epigenomic analyses reveal new regulators of murine brown adipogenesis [Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Increasing energy expenditure by promoting the thermogenic program in brown adipocytes is a promising approach to combat human obesity. To fully exploit the potential of this approach a comprehensive understanding of the gene regulatory network that controls both lineage commitment and differentiation of brown cells is necessary. Here, we systematically examine the transcriptomic and epigenomic transitions from mesenchymal stem cells to brown adipocytes (BA) and we perform a comparative analysis with differentiating white adipocytes (WA). We identify coding genes, lncRNA genes, and microRNA genes that are differentially regulated upon BA differentiation. In addition, we generate genome wide reference maps for several chromatin marks throughout brown adipogenesis. We identify putative (super-)enhancers, super-enhancers controlled genes in brown and white adipocytes, as well as target genes of the brown lineage-committing factor BMP7. Finally we show that overexpression and knockdown of four putative novel adipogenic regulators (the kinase Pim1, and the transcription factors Six1, Rreb1, and Sox13), indeed affects BA differentiation, suggesting an important role in brown adipogenesis.
+
+DESIGN
+The murine mesenchymal stem cell line C3H10T1/2 was differentiatied into brown adipocytes and ChIP-seq (Input, H3K27ac, H3K4me3, H3K4me1, H3K9ac, PPARG, SIX1; samples 1-32), and RNA-seq (samples 33-42) were generated at different timepoints. Samples 43-48 contain RNA-seq data from the murine white preadipcyte cell line 3T3-L1 at different timopints of differentiation and samples 49-53 contain RNA-seq data from  C3H10T1/2 cells differentiated without addition of BMP7.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27923061
+

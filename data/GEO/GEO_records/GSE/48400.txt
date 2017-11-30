@@ -1,0 +1,18 @@
+TITLE
+Dynamic expression profiling of type I and type III interferon-stimulated hepatocytes.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This dataset details the time-dependent response of human Huh7 hepatoma cells to type I and type III IFN. Despite activating similar signaling cascades, the type I and type III interferons (IFNs) differ in their ability to antagonize viral replication. However, it is not clear whether these cytokines induce unique antiviral states, particularly in the liver, where the clinically important hepatitis B and C viruses cause persistent infection. Here, microarray-based gene expression analysis is combined with mechanistic studies of signaling pathways to dynamically characterize the transcriptional responses induced by these cytokines in Huh7 hepatoma cells and primary human hepatocytes. Type I and III IFNs differed greatly in their level of interferon-stimulated gene (ISG) induction with a clearly detectable hierarchy (IFN-β > IFN-α > IFN-λ3 > IFN-λ1 > IFN-λ2). This hierarchy resulted in widely varying numbers of differentially expressed genes when quantified using common statistical thresholds, even though individual IFNs did not appear to regulate unique sets of genes. The kinetic profiles of IFN-induced gene expression were also qualitatively similar with the important exception of IFN-α. While stimulation with either IFN-β or IFN-λs resulted in a similar long-lasting ISG induction, IFN-α signaling peaked early after stimulation then declined due to a negative feedback mechanism. The quantitative expression hierarchy and unique kinetics of IFN-α suggest different roles for individual IFNs in the immune response, and help explain previously observed differences in antiviral activity.
+
+DESIGN
+Huh7 cells were seeded into 6-well plates at the density of 3x10^5 cells/well and cultured overnight before stimulation with either 500 U/ml of IFN-α or IFN-β, or 10 ng/ml of IFN-λ1, IFN-λ2, or IFN-λ3. Total RNA was harvested and isolated at 0.5, 1, 2, 4, 6, 12 and 24 hours post-incubation using RNeasy Mini Kit (Qiagen) following the Affymetrix GeneChip protocol of the Keck Affymetrix Resource facility at Yale University. IFN incubation at each time point was performed in duplicate. All subsequent processing, hybridization to the Illumina HumanHT-12 microarray, and quality control analyses were carried out by the Yale Center for Genome Analysis using standard protocols.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+23929627
+

@@ -1,0 +1,18 @@
+TITLE
+Molecular Basis for RNA Polymerase II to Sense the DNA Demethylation Status during Transcription Elongation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+DNA methylation at selective cytosine residues (5mC) and their removal by TET-mediated DNA demethylation are critical for setting up pluripotent states in early embryonic development. TET enzymes successively convert 5mC to 5hmC, 5fC, and 5caC, the later two of which are subject to removal by thymine DNA glycosylase (TDG) in conjunction with base excision repair. Early reports indicate that 5fC and 5caC could be stably detected on enhancers, promoters, and gene bodies with distinct effects on gene expression, but the mechanisms have remained elusive. Here we determined the X-ray crystal structure of elongating Pol II in complex with DNA template containing oxidized 5-methylcytosines (oxi-mCs), revealing specific hydrogen bonds between the 5-carboxyl group of 5caC and the conserved epi-DNA recognition loop in the polymerase. This causes a positional shift for incoming NTP, thus compromising nucleotide addition. To test the in vivo significance of this structural insight, we determined the global effect of increased 5fC/5caC levels on transcription, finding that such DNA modifications indeed retarded Pol II elongation on gene bodies. These results demonstrate the functional impact of oxi-mCs on gene expression and suggest a novel role for Pol II to function as a specific and direct epigenetic sensor during transcription elongation.
+
+DESIGN
+Time-course GRO-seq in mESC cells w/o TDG knockout
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26123024
+

@@ -1,0 +1,18 @@
+TITLE
+The chromatin modifier CHD8 targets autism risk genes during human neurodevelopment 
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Whole-exome sequencing studies have implicated chromatin modifiers and transcriptional regulators in autism spectrum disorder (ASD) through the identification of de novo loss of function mutations in affected individuals. Many of these genes are co-expressed in mid-fetal human cortex, suggesting ASD risk genes converge in regulatory networks that are perturbed in ASD during neurodevelopment. To elucidate such networks we mapped promoters and enhancers bound by the chromodomain helicase CHD8, which is strongly enriched in ASD-associated de novo loss of function mutations, using ChIP-seq in mid-fetal human brain, human neural stem cells (hNSCs), and embryonic mouse cortex. We find that CHD8 targets are strongly enriched for ASD risk genes that converge in ASD-associated co-expression networks in human midfetal cortex. CHD8 knockdown in hNSCs results in significant dysregulation of ASD risk genes targeted by CHD8, as well as additional genes important for neurodevelopment, including members of the Wnt/β-catenin signaling pathway. Integration of CHD8 binding data with genetic and gene co-expression data in ASD risk models provides support for additional ASD risk genes. Together, our results suggest that loss of CHD8 function contributes to ASD through regulatory perturbation of other ASD risk genes during human cortical development.
+
+DESIGN
+Two biological replicates for each ChIP with appropriate Input control Four biological replicates for each condition in knockdown experiments (Ctrl construct, Chd8 target C, and Chd8 target G) No raw data are provided for human samples (GSM1381214-GSM1381221) due to patient confidentiality issue. Human alignments were anonymized by removing sequence information and provided as aligned bam files instead
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25752243
+

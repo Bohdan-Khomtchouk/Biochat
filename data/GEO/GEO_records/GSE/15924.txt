@@ -1,0 +1,18 @@
+TITLE
+Fathead minnow ovaries exposed in vivo or in vitro to fadrozole
+
+ORGANISM
+Pimephales promelas
+
+SUMMARY
+Interpreting proteomic and genomic data is a major challenge in predictive ecotoxicology that can be addressed by a systems biology approach.  Mathematical modeling provides an organizational platform to consolidate protein dynamics with possible genomic regulation. Here, a model of ovarian steroidogenesis in the fathead minnow (Pimephales promelas) is developed to evaluate possible transcriptional regulation of the steroid production observed in microarray studies. Steroidogenesis, the production of sex steroids, is a highly conserved pathway whose regulation is critical to sexual reproduction. The model was developed from literature sources, integrating key signaling components (G-protein and PKA activation) with their ensuing effect on steroid production. The model properly predicted steroid behavior when fish were exposed to fadrozole, a specific aromatase inhibitor, but failed to predict testosterone and estradiol behavior during depuration. In vivo microarray data implicated three modes of regulation which may account for over-production of steroids during depuration: P450 enzyme up-regulation, inhibin down-regulation, or luteinizing hormone up-regulation. Simulation studies and sensitivity analysis were used to evaluate each of the three modes as possible sources of compensation.
+
+DESIGN
+FHM 22,000 gene arrays (4 X 44k format) were manufactured by Agilent and were purchased from EcoArray (Alachua, FL). Array hybridizations were performed using a reference design, where each sample was compared to a common reference sample. The reference consisted of equal amounts of RNA from female and male FHM tissues (liver, brain and gonad). Four replicates consisting of four different individuals were analyzed for each of the treatments (24hr FAD in vivo and 12hr FAD in vitro along with corresponding controls). cDNA synthesis, cRNA labeling and amplification and hybridization were performed following the manufacturer’s kits and protocols (Agilent Low RNA Input Fluorescent Linear Amplification Kit and Agilent 60-mer oligo microarray processing protocol; Agilent, Palo Alto, CA). Briefly, a primer containing poly dT and a T7 polymerase promoter was added to 500 ng of total RNA. Reverse transcriptase was added to the reaction to synthesize the first and second strands of cDNA. Next, cRNA was synthesized from the double-stranded cDNA using T7 RNA polymerase, which simultaneously incorporates cyanine 3- (Cy3) or cyanine 5- (Cy5) labeled CTP (Perkin-Elmer, Boston, MA). The ovary samples were labeled with Cy5 while the reference sample was labeled with Cy3. Once the labeling was complete, samples were hybridized to the microarray for 17 hours. The microarrays were washed and scanned with a laser-based detection system (Agilent, Palo Alto, CA).
+
+PLATFORM
+GPL7282 EcoArray Fathead minnow 44K v1.0
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

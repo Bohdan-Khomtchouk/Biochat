@@ -1,0 +1,18 @@
+TITLE
+The Graded Response of Fur Regulon to Iron Limitation in Bacillus subtilis
+
+ORGANISM
+Bacillus subtilis
+
+SUMMARY
+Bacterial cells often modulate their transcriptional profiles in response to the changes in iron availability. Ferric uptake regulator (Fur), as a global iron biosensor, plays a central role in maintaining iron homeostasis in Bacillus subtilis. Here we utilized a high affinity Fe2+ efflux transporter, Listeria monocytogenes FrvA, as an inducible genetic tool to deplete intracellular iron. We then characterized the responses of the Fur, FsrA, and PerR regulons as cells transition from iron sufficiency to deficiency. Our results indicate that the Fur regulon is derepressed in three distinct waves. First, elemental iron uptake (ywbLMN), ferric citrate uptake (ymfCDEF-yhfQ), and petrobactin uptake (yclNOPQ) systems are induced to prevent iron deficiency. Second, B. subtilis synthesizes its own siderophore bacillibactin (dhbACEBF) and turns on bacillibactin uptake (feuABC-yusV) along with flavodoxin (ykuNOP) and hydroxamate siderophore uptake (fhuBCGD-yxeB) to scavenge iron from the environment. Third, as iron levels decline further, an iron sparing response (fsrA, fbpAB, and fbpC) is induced to block the translation of nonessential iron-using proteins and permit only essential iron-dependent enzymes to utilize the limited iron. ChIP experiments demonstrate that in vivo occupancy of Fur correlates with derepression of each operon, and the graded response observed here results, at least in part, from higher affinity binding of Fur to the late induced genes. These results provide insights into the distinct roles of Fur-regulated target genes as intracellular iron levels decline.
+
+DESIGN
+Experiments were done in the same genetic background WT Pspac-frvA with or without IPTG induction of FrvA at different time points for three hours.
+
+PLATFORM
+GPL13726 Bacillus subtilis BSO8 platform
+
+CITATIONS
+29133393
+

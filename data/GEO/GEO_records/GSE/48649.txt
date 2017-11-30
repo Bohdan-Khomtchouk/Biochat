@@ -1,0 +1,18 @@
+TITLE
+High-resolution chromosomal maps of Xist RNA reveal a two-step spreading mechanism during X-inactivation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The Xist long noncoding RNA (lncRNA) is essential for X-chromosome inactivation (XCI), the process by which mammals compensate for unequal numbers of sex chromosomes. During XCI, Xist coats the future inactive X (Xi) and recruits Polycomb Repressive Complex 2 (PRC2) to the X-inactivation center (Xic). Currently unclear is how Xist spreads silencing on a 150 Mb scale. Here we generate high-resolution maps of Xist binding across a developmental time course using CHART-seq. In female cells undergoing XCI de novo, Xist follows a two-step mechanism in which it initially targets gene-rich islands before spreading to intervening gene-poor domains. Xist is depleted from genes that escape XCI but frequently concentrates near escapee boundaries. Xist binding was linearly proportional to PRC2 density and H3 lysine 27 trimethylation (H3K27me3), suggesting co-migration of Xist and PRC2. Interestingly, when the Xi is acutely stripped of Xist in post-XCI cells, Xist recovers quickly within both gene-rich and -poor domains on a time scale of hours instead of days, suggesting a previously primed Xi chromatin state. We conclude that Xist spreading takes on distinct stage-specific forms: During initial establishment, Xist follows a two-step mechanism, but during maintenance, Xist spreads rapidly to both gene-rich and -poor regions.
+
+DESIGN
+Capture hybridization analysis of RNA targets (CHART) and input samples of (differentiating) mouse embryonic stem (ES) cells and immortalized mouse embryonic fibroblasts (MEF) using paired-end 75 nt reads on Illumina HiSeq2500, with 2 replicates per sample (# of samples). RNA-seq of the same cell lines with 50 nt reads on Illumina HiSeq2000, with 2 replicates per sample (2 samples, 4 datasets total). CHIP-seq: Data from GSE36905 was aligned and processed as CHART-seq samples. Resulting coverage tracks (EZH2/K27me3) are linked directly to GSE48649 (bedGraphs linked below).
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+24162848
+

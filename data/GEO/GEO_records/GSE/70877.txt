@@ -1,0 +1,18 @@
+TITLE
+Combined transcriptomics classifier analysis reveals a set of adverse effect genes for use as potential endpoint in effect based screening
+
+ORGANISM
+Folsomia candida
+
+SUMMARY
+Environmental risk assessment relies heavily on the use of bioassays to assess the environmental impact of chemicals. Gene expression is gaining acceptance as a valuable mechanistic endpoint in bioassays and effect-based screening. Data analysis and its results however, are often complex and not directly applicable in risk assessment. Classifier analysis is a promising method to turn complex gene expression analysis results into answers suitable for risk assessment. We have assembled a large gene expression dataset assembled from multiple studies and experiments in the springtail Folsomia candida, with the aim of selecting a set of genes that can be trained to classify general toxic stress. By performing differential expression analysis prior to classification we were able to select a set of 135 genes which was enriched in stress related processes. This set was then used to classify two test sets comprised of chemical spiked soils, polluted soils and clean soils and compared to another, more traditional feature selection for classification. The gene set presented here outperformed the more traditionally selected gene set. This gene set has the potential to be used as a biomarker to test for adverse effects caused by chemicals in springtails to provide endpoints in environmental risk assessment.
+
+DESIGN
+The data presented in our manuscript is part of a larger experiment which was performed in single, large loop design. Only the samples used in the study presented here are named while the other samples will remain unnamed. All the data can still be used for normalization after which the analysis presented in the manuscript can be replicated. A single channel, interwoven loop design was used to test animals exposed to a control and to 5 concentrations of cadmium and phenanthrene (cadmium concentrations are: cad_1 till cad_5: 5.8, 14.5, 28.9, 57.9 and 115.8 mg/Kg respectively and phenanthrene concentrations are: phe_1 till Phe_5: 0, 4.6, 11.4, 22.9, 45.8 and 91.6 mg/Kg soil respectively). Exposures lasted for 2 days and used 4 biological replicates per condition each containing 30 grams soil and 30 individuals.
+
+PLATFORM
+GPL7150 ISQ Chip Folsomia candida Collembola VU 15.7K version 2.0
+
+CITATIONS
+26523736
+

@@ -1,0 +1,18 @@
+TITLE
+Expression of genes and transposons in mop1 mutants and non-mutants
+
+ORGANISM
+Zea mays
+
+SUMMARY
+Transposable elements (TEs) comprise a substantial portion of many eukaryotic genomes and are typically transcriptionally silenced. RNA–dependent RNA polymerase 2 (RDR2) is a component of the RNA–directed DNA methylation (RdDM) silencing pathway. In maize, loss of mediator of paramutation1 (mop1) encoded RDR2 function results in reactivation of transcriptionally silenced Mu transposons and a substantial reduction in the accumulation of 24 nt short-interfering RNAs (siRNAs) that recruit RNA silencing components. An RNA–seq experiment conducted on shoot apical meristems (SAMs) revealed that, as expected based on a model in which RDR2 generates 24 nt siRNAs that suppress expression, most differentially expressed DNA TEs (78%) were up-regulated in the mop1 mutant. In contrast, most differentially expressed retrotransposons (68%) were down-regulated. This striking difference suggests that distinct silencing mechanisms are applied to different silencing templates. In addition, 6,000 genes (24% of analyzed genes), including nearly 80% (286/361) of genes in chromatin modification pathways, were differentially expressed. Overall, two-thirds of differentially regulated genes were down-regulated in the mop1 mutant. This finding suggests that RDR2 plays a significant role in regulating the expression of not only transposons, but also of genes. A re-analysis of existing small RNA data identified both RDR2–sensitive and RDR2–resistant species of 24 nt siRNAs that we hypothesize may at least partially explain the complex changes in the expression of genes and transposons observed in the mop1 mutant.
+
+DESIGN
+Single sequencing library was constructed for mop1 mutant and non-mutant. Each library was sequenced using 2 lanes on a Solexa flow cell. Processed data file 'ZmB73_4a.53_filtered_genes.fasta' and its README file are linked below as supplementary files.  The fasta file contains the gene model ID and corresponding sequence generated from maize genome project.  This fasta file was used for the following samples: GSM418173, GSM418174, GSM420173, GSM420174, GSM422828, GSM422829.
+
+PLATFORM
+GPL9141 Illumina Genome Analyzer (Zea mays)
+
+CITATIONS
+19936292
+

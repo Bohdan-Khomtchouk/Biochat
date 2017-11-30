@@ -1,0 +1,18 @@
+TITLE
+Expression profiling of the retinal pigment epithelium in zebrafish smarca4 mutant
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Purpose: The purpose of this study was to develop a framework for analyzing RPE expression profiles from zebrafish eye mutants.   Methods: The fish model we used was smarca4 (SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4), a retinal dystrophic mutant that the retinal phenotype and expression profiles were previously characterized. Histological and Affymetrix GeneChip analyses were conducted to define the RPE defects and underlying differential expression respectively.   Results: Histological analysis indicates that smarca4 RPE was formed but its differentiation was abnormal. In particular, ultra-structural analysis of smarca4 RPE by transmission electron microscopy showed a number of defects in melanogenesis, suggesting that the cytoskeletal dynamics was impaired. To compare the expression profile of normal wild-type (WT) and smarca4 RPE, their retinas and RPE-attached retinas were microdissected and the gene expression values of these tissues measured by Affymetrix GeneChip analysis. The RPE expression values were then estimated from these samples using an approach previously established by us. A factorial analysis was conducted using the expression values of RPE, retinal as well as the whole-embryo samples. Specific rules (contrasts) were built using the coefficients of the resulting fitted model to select for three groups of genes: 1) Smarca4-regulated RPE genes, 2) Smarca4-regulated retinal genes, and 3) Smarca4-regulated RPE genes that are not differentially expressed in the retina. The latter group consists of 39 genes that are highly related to cytoskeletal dynamics, melanogenesis, paracrine and intracellular signal transduction.   Conclusions: Our analytical framework can potentially identify genes in zebrafish mutants that both retina and RPE are affected by the underlying mutation.
+
+DESIGN
+The gene expression levels of three independent replicates of WT whole embryos (WA52), WT retinas (WR52), WT RPE-attached retinas (WRR52), smarca4/yng retinas (YR52), smarca4 RPE-attached retinas (YRR52) and smarca4 whole embryos (YA52) were measured by Affymetrix Zebrafish Whole Genome Arrays. All samples were collected at 52 hpf. The probe-level data of these sample groups were background adjusted, normalized and summarized by a robust multiarray average (RMA) algorithm. RPE expression values were estimated from the comparison between the retinal and RPE-attached retinal samples of the same genotype based on a method we previously developed (Leung et al., Invest Ophthalmol Vis Sci. 2007; 48:881). Then, a 3x2 factorial design was used to analyze the expression values of three kinds of tissue (T): whole embryo, retina and RPE in two kinds of mutation (M) background: WT and smarca4. Using the coefficients from the fitted models, contrasts were built to identify candidate genes that fulfilled specific criteria. The false discovery rate (FDR) q-value cutoff for a contrast was 0.001. Several contrasts were ultimately combined to allow for selection of genes that were regulated by Smarca4 in the retina and RPE. These include 1) Smarca4-regulated RPE genes, 2) Smarca4-regulated retinal genes, and 3) Smarca4-regulated RPE genes that are not differentially expressed in the retina.
+
+PLATFORM
+GPL1319 [Zebrafish] Affymetrix Zebrafish Genome Array
+
+CITATIONS
+24426776
+

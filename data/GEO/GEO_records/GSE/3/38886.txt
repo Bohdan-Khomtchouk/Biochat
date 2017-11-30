@@ -1,9 +1,0 @@
-TITLE
-Targeted RT-PCR assays spanning unannotated splice junctions sequenced by Roche 454.
-
-ORGANISM
-ENCODE
-
-SUMMARY
-The ENCODE projects seeks to identify and characterize functional elements in the human genome.  Throughout the scale-up phase of ENCODE, the transcriptome group has generate Long RNA-Seq, Small RNA-Seq, Cap-Analysis of Gene Expression (CAGE), and RNA-PET short read data on the Illumina platform for ~ 40 different human primary and transformed cell lines in replicate.   From these data several high-resolution and discrete features/elements have been mined out (5’ caps, splice junctions, polyadenylation sites, small RNAs, etc…).  However, because these data are obtained from short-read data, we have only limited “connectivity” information.  For example, from the long RNA-Seq data, which was sequenced in mate-pair fashion with average insert sizes ~ 200 bp, we know that the sequence from mate 1 is physically linked to the sequence in mate 2.  We don’t know the sequence in between and we don’t know how this mate-pair is connected to other mate-pairs in the context of longer transcripts in vivo.  To date, this information is gleaned from models generated in silico: In our case, by the program Cufflinks.  Consequently, we have a collection of transcript models exhibiting a vast array of local complexity assembled from short read data that need to be experimentally tested.  Alternatively, one can “cut to the chase” and use a more raw/elemental form of the data as a basis for additional experimentation to clone out the longer sequences generated in vivo. For data usage terms and conditions, please refer to and
-

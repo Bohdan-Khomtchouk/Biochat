@@ -1,0 +1,18 @@
+TITLE
+Expression data from U2OS-ER-alpha cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Understanding the mechanism of SRC-1 dependent and independent E2 signaling in bone will provide a better understanding of the biology underlying osteoporosis. We studied E2 and SRC-1 regulated transcriptomes to identify high confidence E2-independent and E2-dependent, SRC-1 target genes involved in important processes in bone.
+
+DESIGN
+U2OS-ERα cells (supplied by TC Spelsberg, Mayo Clinic),  Cells (2 × 105) were cultured in 6-well plates in appropriate culture medium.  The cells were then transfected with 50 nM siRNA using Lipofectamine2000 (Invitrogen).  The medium was switched to IMEM + 5% CSS the next day and the cells were treated with vehicle (EtOH) or estrogen (E2) for 3 hr.  The following siRNAs were purchased from Dharmacon: ON-TARGETplus Non-Targeting pool (D-001810-10), ON-TARGETplus GSK3 SMARTpool (L-003010-00), and ON-TARGETplus SRC-1/NCOA1 SMARTpool (L-005196-00).  RNA was isolated using Qiagen RNeasy kit and run on an Affymetrix Human Gene 1.0 ST array.  Affymetrix CEL files of the microarray experiments were processed using the “affy” package and differential expression was assessed using the “limma” package of the Bioconductor Suite ( http://www.bioconductor.org/ ). The threshold for detecting differential expression was set at p-value < 0.01 and q-value < 0.05.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+28286232
+

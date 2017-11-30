@@ -1,0 +1,18 @@
+TITLE
+LaSSO, a strategy for genome-wide mapping of intronic lariats and branch-points using RNA-seq
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Both canonical and alternative splicing of RNAs is governed by intronic sequence elements and produces transient lariat structures fastened by branch-points within introns. To map precisely the location of branch-points on a genomic scale, we developed LaSSO (Lariat Sequence Site Origin), a data-driven algorithm which utilizes RNA-seq data. Using fission yeast cells lacking the debranching enzyme Dbr1, LaSSO not only accurately identified canonical splicing events, but also pinpointed novel, but rare, exon-skipping events, which may reflect aberrantly spliced transcripts. Compromised intron turnover perturbed gene regulation at multiple levels, including splicing and protein translation. Notably, Dbr1 function was also critical for the expression of mitochondrial genes, and for the processing of self-spliced mitochondrial introns. LaSSO showed better sensitivity and accuracy than algorithms used for computational branch-point prediction or for empirical branch-point determination. Even when applied to a human data set acquired in the presence of debranching activity, LaSSO identified both canonical and exon skipping branch-points. LaSSO thus provides an effective, accurate and unbiased approach for defining high-resolution maps of branch-site sequences and intronic elements on a genomic scale. LaSSO should be useful to validate introns and uncover branch-point sequences in any eukaryote, and it could be integrated to RNA-seq pipelines.
+
+DESIGN
+Interrogation of the S. pombe transcriptome using rRNA depleted strand specific RNA sequencing (Illumina HiSeq 2000) in wild type and dbr1.Δ cultures. A total of 4 samples were analyzed: two biological repeates of wild-type strain and two biological repeats of dbr1.Δ
+
+PLATFORM
+GPL13988 Illumina HiSeq 2000 (Schizosaccharomyces pombe)
+
+CITATIONS
+24709818
+

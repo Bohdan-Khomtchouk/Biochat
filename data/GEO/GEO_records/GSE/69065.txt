@@ -1,0 +1,18 @@
+TITLE
+Post-licensing specification of eukaryotic replication origins by facilitated Mcm2-7 sliding along DNA
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Eukaryotic genomes are replicated from many origin sites that are licensed by the loading of inactive double hexamers of the replicative DNA helicase, Mcm2-7. How eukaryotic origin positions are specified remains elusive. Here we show that, contrary to the bacterial paradigm, eukaryotic origins are not irrevocably defined by selection of the loading site for the replicative helicase, but can shift in position after helicase loading. Using purified proteins, we show that DNA translocases, including RNA polymerase, can push budding yeast Mcm2-7 double hexamers along DNA. Displaced Mcm2-7 double hexamers support DNA replication initiation distal to the loading site in vitro. In yeast cells that are defective for transcription termination, collisions with RNA polymerase induce a shift in origin positions that correlates with the direction of transcription. These results reveal a eukaryotic origin specification mechanism that departs from the classical replicon model, helping eukaryotic cells to negotiate transcription-replication conflict.
+
+DESIGN
+4 samples: one replicate for WT at 37C, two replicates for rat1-1 at 37C, and one replicate for rat1-1 at 24C. All are single-end sequenced via Ion Torrent PGM methodology. rat1 = Nuclear 5' to 3' single-stranded RNA exonuclease; involved in RNA metabolism ( http://www.yeastgenome.org/locus/S000005574/overview ). 4 ChIP seq samples and their duplicates are submitted. rat1-1 ORC ChIP at 24C and 37C; rat1-1 MCM ChIP at 24C and 37C.
+
+PLATFORM
+GPL16028 Ion Torrent PGM (Saccharomyces cerevisiae) GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+26656162
+

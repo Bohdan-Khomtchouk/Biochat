@@ -1,0 +1,18 @@
+TITLE
+Integrating mRNA and miRNA Co-Expression Networks with eQTLs in the Nucleus Accumbens of Human Chronic Alcoholics
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Alcohol consumption is known to lead to gene expression changes in the brain. After performing gene co-expression network analysis (WGCNA) of genome-wide mRNA and microRNA expressions in the Nucleus Accumbens (NAc) from subjects with alcohol dependence (AD) and matched controls six mRNA and three miRNA modules significantly correlated with AD after Bonferroni correction (adj. p≤ 0.05) were identified. Cell-type-specific transcriptome analysis revealed two of the mRNA modules to be enriched for neuronal specific marker genes and downregulated in AD, whereas the remaining four were enriched for astrocyte and microglial specific marker genes and were upregulated in AD. Using gene set enrichment analysis, the neuronal specific modules were enriched for genes involved in oxidative phosphorylation, mitochondrial dysfunction and MAPK signaling, while the glial-specific modules were enriched mostly for genes involved in processes related to immune functions, i.e. reactome cytokine signaling in immune system (all adj. p≤ 0.05). In the mRNA and miRNA modules, 461 and 25 candidate hub genes were identified, respectively. In contrast to the expected miRNAs’ biological functions, the correlation analyses between mRNA and miRNA hub genes revealed a significantly higher number of positive than negative correlations (chi-square p≤ 0.0001). At FDR≤ 0.1, integration of the mRNA and miRNA hubs genes expression with genome-wide genotypic data identified 591 cis-eQTLs and 62 cis-eQTLs for the mRNA and miRNA hubs, respectively. Adjusting for the number of tests, the mRNA cis-eQTLs were significantly enriched for AD GWAS signals in the Collaborative Study on Genetics of Alcohol (COGA) sample (adj. p=0.024), providing a novel biological role for these association signals. In conclusion, our study identified coordinated mRNA and miRNA co-expression changes in the NAc of AD subjects, and our genetic (cis-eQTL) analysis provides novel insights into the etiological mechanisms of AD.
+
+DESIGN
+Tissue samples were received from the Australian Brain Donor Programs New South Wales Tissue Resource Centre, which is supported by The University of Sydney, National Health and Medical Research Council of Australia, Schizophrenia Research Institute, National Institute of Alcohol Abuse and Alcoholism, and the New South Wales Department of Health. Cases were excluded if they had an infectious disease (i.e. HIV/AIDS, hepatitis B or C, or Creutzfeldt-Jakob disease), an unsatisfactory agonal status determined from the circumstances surrounding the death, post-mortem delays > 48 hours, or significant head injury. In addition to case status, age, sex, ethnicity, brain weight, brain pH, post-mortem interval (PMI), tissue hemisphere, clinical cause of death, blood toxicology at time of death, smoking status, neuropathology and liver pathology were also provided for each subject. MiRNA and mRNA expression in 18 matched case-control pairs (N=36) with sample RINs ≥6  were assessed on the Affymetrix GeneChip® Human Genome U133A 2.0 (HG-U133A 2.0) and Affymetrix GeneChip miRNA 3.0 microarray.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array GPL16384 [miRNA-3] Affymetrix Multispecies miRNA-3 Array
+
+CITATIONS
+26381263
+

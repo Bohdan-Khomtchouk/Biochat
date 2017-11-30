@@ -1,0 +1,18 @@
+TITLE
+Systematic identification of regulatory elements in conserved 3’-untranslated regions of human transcripts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We present a combined experimental/computational technology to reveal a catalogue of functional regulatory elements embedded in 3’UTRs of human transcripts. We used a bidirectional reporter system coupled with flow cytometry and high-throughput sequencing to measure the effect of short, non-coding vertebrate-conserved RNA sequences on transcript stability and translation. Information-theoretic motif analysis of the resulting sequence-to-gene-expression mapping revealed linear and structural RNA cis-regulatory elements that positively and negatively modulate the post-transcriptional fates of human transcripts.
+
+DESIGN
+We explored the functional role of 16332 short human 3'UTR sequences (C3U Library) evolutionarily conserved with P. troglodytes, M. musculus and G. gallus. For sorting the C3U library into subpopulations, we gated the population using FACS into bins each containing 10% of the total number of cells. We collected cells for the top four high expression bins (H10, H20, H30, H40) and the bottom four low expression bins (L10, L20, L30, L40) Multiple samples (C3U library subpopulations) were pooled for each illumina index (decribed n the 'library construction protocol' field). For example, six samples (A-L10 I & II, B-L10 I & II, A-L20 I & II) were all pooled in illumina index CGATGTAT. Therefore, each individual fastq file corresponds to multiple samples. The individual samples were sorted in the processing step using identifiers inside the sequence reads. One single pooled sample was run on both lanes (the extra lane was run for additional reads). The expression level (H: high, L:low or background) and library replicates (A or B) of the pooled library subpopulations are indicated in the sample title.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24656821
+

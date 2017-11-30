@@ -1,0 +1,18 @@
+TITLE
+Novel KDM1A inhibitors induce differentiation and apoptosis of glioma stem cells via unfolded protein response (UPR) pathway
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We examined the transcriptional changes modulated by KDM1A inhibitor NCD-38 by performing global transcriptome analysis. Glioma Stem Cells (GSC10) were treated with either vehicle or NCD-38 for 24 h and the isolated RNA was utilized for RNA-seq analysis. Our results demonstrated that NCD-38 modulated several genes that are involved in unfolded protein response, endoplasmic reticulum stress pathway and NRF-2 mediated oxidative stress response.
+
+DESIGN
+Total RNA was isolated from the GSC10 cells that were treated with vehicle or NCD-38 for 24 hours. Illumina TruSeq RNA Sample Preparation was performed following manufacturer's protocol. Samples were run on an Illumina HiSeq 2000 in duplicate. The combined raw reads were aligned to UCSC hg19 and genes were annotated by Tophat. Genes were annotated and quantified by HTSeq-DESeq pipeline.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27893719
+

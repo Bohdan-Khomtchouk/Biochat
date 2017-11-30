@@ -1,0 +1,18 @@
+TITLE
+ChIP-seq of H3K27ac, H3K9me3, and HA tag for ATFs on MEF-derived cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We tested a genome-scale artificial transcription factor (ATF) library in reprogramming mouse embryonic fibroblasts to induced pluripotent stem (iPS) cells. Three combinations of ATFs (C2, C3, and C4) could induce pluripotency when expressed with Sox2, Klf4, and c-Myc. The transcriptional profiles of ATF-induced iPS cells are similar to that of iPS cells induced with Oct4, Sox2, Klf4, and c-Myc and mouse embryonic stem cells, exhibiting up-regulation of pluripotency markers and down-regulation of fibroblast markers. We performed ChIP-seq on the active histone mark H3K27ac and the repressive histone mark H3K9me3 in C2+SKM iPS cells, C3+SKM iPS cells, in Oct4+SKM to validate the total transcriptome results. In addition, the ATFs from C2 were chromatin immunoprecipitated to determine where they are bound in the genome at an intermediate stage before being fully reprogrammed to iPS cells. This study provides a proof-of-principle that a gene-activating ATF library can be used to identify cell fate-defining transcriptional networks in an unbiased manner.
+
+DESIGN
+For mapping histone marks across the genome, C2+SKM iPS cells, C3+SKM iPS cells, and Oct4+SKM iPS cells were collected in duplicate. Input for C2_OSKM serves as the control for C2+SKM iPS cells and Oct4+SKM iPS cells. Input for C3 serves as the control for C3+SKM iPS cells. For mapping ATF occupancy in the genome, C2+SKM cells were collected 20 days after transduction in duplicate. These cells still express the ATFs and are not fully reprogrammed. Input and Empty+SKM serve as negative controls, with the latter capturing any non-specific interactions of the HA antibody to protein-DNA complexes.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27930301
+

@@ -1,0 +1,18 @@
+TITLE
+ARID1A and ARID1B loss in TOV21G cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+ARID1A, a subunit of the SWI/SNF chromatin remodeling complex, is frequently mutated in cancer. Deficiency in its homolog ARID1B is synthetically lethal with ARID1A mutation. However, the functional relationship between these homologs has not been explored. Here we use ATAC-seq, genome-wide histone modification mapping, and expression analysis to examine colorectal cancer cells lacking one or both ARID proteins. We find that ARID1A has a dominant role in maintaining chromatin accessibility at enhancers, while the contribution of ARID1B is evident only in the context of ARID1A mutation. Changes in accessibility are predictive of changes in expression and correlate with loss of H3K4me and H3K27ac marks, nucleosome spacing, and transcription factor binding, particularly at growth pathway genes including MET. We find that ARID1B knockdown in ARID1A mutant ovarian cancer cells causes similar loss of enhancer architecture, suggesting that this is a conserved function underlying the synthetic lethality between ARID1A and ARID1B.
+
+DESIGN
+ATAC-seq, histone modification ChIP-seq, RNA-seq in TOV21G ovarian clear cell carcinoma cells expressing shRNA targeting ARID1B or scrambled control.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

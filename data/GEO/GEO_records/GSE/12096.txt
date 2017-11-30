@@ -1,0 +1,18 @@
+TITLE
+A methodology for the estimation of DNA methylation levels based on microarray derived MeDIP-enrichment
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA methylation is an important component of epigenetic modifications that influences the transcriptional machinery and is aberrant in many human diseases. Several methods have been developed to map DNA methylation for either limited regions or genome-wide. In particular, antibodies specific for methylated CpG have been successfully applied in genome-wide studies. However, despite the relevance of the obtained results, the interpretation of antibody enrichment is not trivial. Of greatest importance, the coupling of antibody-enriched methylated fragments with microarrays generates DNA methylation estimates that are not linearly related to the true methylation level. Here, we present an experimental and analytical methodology to obtain enhanced estimates which better describe the true values of DNA methylation level throughout the genome. We propose an experimental scenario for evaluating the true relationship in a high-throughput setting and a model-based analysis to predict the absolute and relative DNA methylation levels. We successfully applied this model to evaluate DNA methylation status of normal human melanocytes compared to a melanoma cell strain. Despite the low resolution typical of methods based on immunoprecipitation, we show that model-derived estimates of DNA methylation provide relatively high correlation with measured absolute and relative levels, as validated by bisulfite genomic DNA sequencing. Importantly, the model-derived DNA methylation estimates simplify the interpretation of the results both at single-loci and at chromosome-wide levels. The MEDME R library as well as installation instructions and a PDF tutorial are available online at the website below.
+
+DESIGN
+MeDIP enrichment for two replicated hybridization of fully methylated genomic DNA are available for the calibration of the model with MEDME. The model can be therefore applied on a real-life dataset. MeDIP enrichment is available for Normal melanocytes (NBMEL) as well as melanoma strain (YUSAC2) (2 replicates each). For each sample the Absolute and Relative Methylation Scores estimated by MEDME are available. Expression data for the NBMEL sample is available too, for the evaluation of the effectiveness of the new DNA methylation estimates. Indeed, promoter methylation is known to be associated with transcriptional repression of the down-stream gene.
+
+PLATFORM
+GPL6602 HG17_Human_60mer_1in2 GPL7047 Nimblegen custom chromosome X tiling array
+
+CITATIONS
+18765822
+

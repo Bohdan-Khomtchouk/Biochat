@@ -1,0 +1,18 @@
+TITLE
+Identification of responsive probes for mRNA transcripts of the pig (S. scrofa) genome
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Pig mRNAs Ensembl transcripts (Ver. 56) and UniGene (Ver. 38) sequences were used to produce a dedicated microarray platform to analyze mRNAs gene expression. Based on sequence similarity we rejected UniGene features that overlapped more than 40% with an Ensembl transcript. After this filter we obtained 40,267 UniGene clusters and 19,603 Ensembl transcripts (protein coding + pseudogenes + retrotransposed elements). Starting from these sequences, the microarray probes were computed using 6 different algorithms (YODA, Picky, ArrayOligoSelector, OligoPicker, OligoFaktory, CommOligo). Two probes in the most 3’ end was tested for their specificity and performance. For any transcript with a replicated tested probe, we used the most responsive and specific in an hybridization trial with a pool of mRNAs from 20 tissues to construct the definitive gene expression microarray for the pig. Definitive 90K Combimatrix gene expression microarrays were composed by 17,048 replicated probes and 963 not replicated specific for the Ensembl transcripts, 11,363 replicated probes specific for the UniGene clusters of length comprised between 778 nt and 1,348 nt, and 28,790 single probes specific for the remaining UniGene clusters (GEO: GPL13259).
+
+DESIGN
+Microarray was probed with a pool of RNAs from 20 different tissues (superior vena cava, adipose tissue, lung, spleen, stomach, liver, intestine, kidney, descending aorta, left atrium, left ventricle, skeletal muscle, pulmonary aorta, skin, tongue, ascending aorta, arterial white cells blood, venal white cells blood, coronary valve, lymph node). Moreover each tissue sample was performed by a pool of 3 different adult pigs because they was not inbred.
+
+PLATFORM
+GPL13411 CRIBI pig mRNA expression array [platform 2]
+
+CITATIONS
+24699212
+

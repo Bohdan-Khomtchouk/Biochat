@@ -1,0 +1,18 @@
+TITLE
+The effect of hfq on global gene expression and virulence in Neisseria gonorrhoeae
+
+ORGANISM
+Neisseria gonorrhoeae
+
+SUMMARY
+Hfq is an RNA chaperone, which functions as a pleiotropic regulator for RNA metabolism in bacteria. To characterize the role of Hfq in pathogenicity of Neisseria gonorrhoeae we generated a N. gonorrhoeae hfq mutant, MS11hfq.Transcriptional analysis using a custom-made N. gonorrhoeae microarray revealed that 369 open reading frames were differentially regulated in MS11hfq compared to the wild-type (wt) strain (202 were upregulated, 167 were downregulated).
+
+DESIGN
+Arrays were generated as custom 8x15 K microarrays (Agilent Technologies) covering all open reading frames (ORFs) from N. gonorrhoeae strain FA1090 (accession number AE004969) supplemented with all ORFs from the gonoccoccal genetic island of strain MS11 (accession number AY803022) by 6 specific 60-mer oligonucleotides per gene on average. Microarray analysis was performed as dual-color hybridization with dye-reversal color-swaps as technical replicates for Cy-dye specific effect compensation and three independent biological replicates. Microarray features were extracted with the FE 9.5.3.1 software from Agilent Technologies using the GE2-v4_95_Feb07 protocol with default settings. Data were loaded into Resolver (Rosetta Biosoftware) using the MAGE-ML loader and analyzed for differential gene expression. Ratio profiles were combined into ratio experiments and regulated genes were identified with a threshold of 1.75 fold-change and anti-correlation of the color-swapped dye reversals, rendering the analysis highly stringent and robust with P values < 0.0001 of the results.
+
+PLATFORM
+GPL7101 Agilent-015957
+
+CITATIONS
+19691497
+

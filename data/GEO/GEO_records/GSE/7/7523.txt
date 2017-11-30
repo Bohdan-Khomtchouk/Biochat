@@ -1,9 +1,0 @@
-TITLE
-Model-based Analysis of 2-Color Arrays (MA2C)
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-High-density oligonucleotide tiling-microarrays are currently providing a powerful tool for genome-wide in vivo DNA footprinting assays, yielding unprecedented insights into tissuespecific protein-DNA interactions and chromatin structure. Despite the impressive advances, however, the technology still suffers from numerous complications caused by background noise and probespecific effects. A few computational methods modeling sequencerelated probe effects are now available for Affymetrix tiling arrays, but no counterpart is yet available for two-color arrays. A novel normalization method based on the GC content of probes is developed for two-color tiling-arrays. The proposed method, together with robust estimates of the model parameters, is shown to perform superbly on published data sets. Accompanying the normalization method, a robust algorithm for detecting peak regions is formulated and also shown to perform well compared to other approaches. The tools presented herein have been implemented for NimbleGen tiling arrays as a stand-alone Java program, which can also display various plots of statistical analysis for quality control of experiments. Upon changing the file format, the program also works on Agilent data. Keywords: ChIP-chip
-

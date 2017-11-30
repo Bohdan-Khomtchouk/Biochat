@@ -1,0 +1,18 @@
+TITLE
+Fine structure analysis and epigenetic properties of a de novo centromere on a chromosome fragment in maize
+
+ORGANISM
+Zea mays
+
+SUMMARY
+A small fragment from maize chromosome 3 was created by irradiation by Stadler and Roman and named Duplication 3a (or Dp3a). This small chromosome does not contain any detectable CentC and CRM sequences, but when molecular features of functional centromeres such as CENH3 and CENP-C were examined, they were present. Immunolocalization analysis of phosphorylation of Ser-10 of histone H3 levels on Dp3a shows a pattern typical of a functional centromere. Meiotic analysis revealed that sister chromatids divided equationally at meiosis I as do all small chromosomes examined to date in maize. To examine the sequences associated with CENH3, chromatin immunoprecipitation (ChIP) was carried out with anti-CENH3 antibodies using material from young seedlings with and without Dp3 chromosome as the tissue source. The ChIPed DNA sample was then labeled for FISH detection and prepared for Illumina sequencing.The ChIP-Seq reads were mapped to the B73 reference genome and a significant peak was detected in the Dp3a sample that span 350 kb of the long arm of chromosome 3, which is the candidate region for association with CENH3. ChIP-bisulfite-seq results indicated that there is a slightly increased DNA methylation level after the centromere formation, approaching the level similar to normal centromere regions. Collectively, the results suggest the formation of a de novo centromere on this fragment that initially must have started at the time of X-irradiation release from the progenitor chromosome. These observations add further evidence for the epigenetic nature of centromere function in maize.
+
+DESIGN
+ChIP-seq was carried out with anti-CENH3 antibodies using material from young seedlings with and without Dp3a chromosome.  For Dp3a, some ChIPed DNA was treated with sodium bisulfite and prepared for Illumina sequencing to test its methylation level.
+
+PLATFORM
+GPL15463 Illumina HiSeq 2000 (Zea mays)
+
+CITATIONS
+23530217
+

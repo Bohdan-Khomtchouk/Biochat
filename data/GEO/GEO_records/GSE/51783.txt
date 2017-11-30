@@ -1,0 +1,18 @@
+TITLE
+Comparison of Poly(A) capture versus Ribosomal RNA depletion methods for RNA-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Methods: RNA-sequencing was performed on matched samples obtained across several different gene expression measurement methods including: (a) fresh-frozen (FF) RNA samples by mRNA-seq, Ribo-zero and DSN and (b) FFPE samples by Ribo-zero and DSN. We also assayed the matched samples with Agilent microarray. RNA-seq data was compared on the rRNA-removal efficiency, genome profile, library complexity, coverage uniformity and quantitative cosinstency across protocols and with microarray data. Results: Compared to mRNA-seq, Ribo-zero provides equivalent percentage of rRNA component, genome-based mapped reads, and consistent quantification of transcripts. Moreover, Ribo-zero and DSN protocols achieve concordant transcript profiling in FFPE samples, and provide substantially more information on non-poly(A) RNA, which cannot be captured by mRNA-seq.  Therefore, our study provides evidence that RNA-sequencing can generate accurate and reproducible transcript quantification using FFPE tissues.
+
+DESIGN
+mRNA profile of 11 breast tumors were assayed by Agilent microarray, and by RNA-sequencing on libraries including:  (a) fresh-frozen (FF) RNA samples by mRNA-seq, Ribo-zero and DSN and (b) FFPE samples by Ribo-zero and DSN, using Illunia HiSeq2000 2x50bp. RNA-Seq raw data is to be made available through dbGaP (controlled access) due to patient privacy concerns: http://www.ncbi.nlm.nih.gov/gap/?term=phs000676
+
+PLATFORM
+GPL8269 UNC PerouLab 244K Custom Human Array version 5 GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24888378
+

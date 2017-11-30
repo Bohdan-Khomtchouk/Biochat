@@ -1,0 +1,18 @@
+TITLE
+MicroRNA-offset RNA regulates gene expression and cell proliferation (Small RNA-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+MicroRNA-offset RNAs (moRs) were first identified in simple chordates and subsequently in mouse and human cells by deep sequencing of short RNAs. MoRs are derived from sequences located immediately adjacent to microRNAs (miRs) in the primary miR (pri-miR). Currently moRs are considered to be simply a by-product of miR biosynthesis that lack biological activity. Here we show for the first time that a moR is biologically active. We now demonstrate that endogenous and over-expressed moR-21 significantly alters gene expression and inhibits the proliferation of vascular smooth muscle cells (VSMC). We report that the " seed region " of moR-21 as well as the " seed match region " in the target gene 3'UTR are indispensable for moR-21-mediated gene down-regulation. We further demonstrated that moR-21-mediated gene repression is Argonaute 2 (Ago2) dependent. In addition, we find that miR-21 and moR-21 may regulate different genes in a given pathway and can oppose each other in regulating certain genes. Taken together, these findings provide the first evidence that microRNA offset RNA regulates gene expression and is biologically active.
+
+DESIGN
+Small RNAs were harvested from mouse aortic smooth muscle cells (AoSMCs), with three biological replicates, using miReasy kits (Qiagen) according to the manufacturer’s instructions. RNA was quantified using a Nanodrop spectrophotometer. Small RNA library construction and illumina HiSeq 75bp single read sequencing were performed at the Yale Center for Genome Analysis. Reads were trimmed to remove adaptor sequences, and inserts longer than 13 bases were mapped to the mouse mm10 genome using Bowtie (with settings –n 0 -m 5 --best  --strata, allowing 0 mismatches and up to 5 genomic loci with a perfect match, {Genome Biol. 2009;10(3):R25, Langmead B, Trapnell C, Pop M, Salzberg SL}). Reads that mapped to within 50 bp of more than one annotated mouse pri-miR (as defined by miRBase {Kozomara A, Griffiths-Jones S. Nucelic Acids Res 2014 42:D68-D73}), were allotted evenly between these locations. Reads that fell entirely within established miRbase 3p or 5p miR coordinates, plus or minus 3 bp, were counted as 3p or 5p miRs, respectively. Reads that fell entirely within the range of 35 bp 3’ to 3 bp 5’ of the last base of a 3p miR were counted as 3p moR reads. Those that fell entirely between 3bp 3’ and 35 bp 5’ of the first base of a 5p miR were counted as 5p moR reads. On average each library contained 17.4 million qualifying inserts, of which 13.8 million (79.3%) mapped to one of these four regions, indicating that the large majority of inserts represented miR or moR sequences. Reads were divided by the number of million reads mapping to these regions in each library to give normalized reads per million reads (RPMR) values.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27276022
+

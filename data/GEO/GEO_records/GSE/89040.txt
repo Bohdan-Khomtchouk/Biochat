@@ -1,0 +1,18 @@
+TITLE
+Pervasive concerted evolution in gene expression shapes cell type transcriptomes
+
+ORGANISM
+Dromaius novaehollandiae ; Gallus gallus
+
+SUMMARY
+Complex multicellular organisms have evolved numerous cell types with many different functions. Comparative transcriptomic data yields valuable insights into cell type, tissue, and organ evolution. However, interpreting this data requires understanding how transcriptomes evolve. A particularly difficult problem is that cell type transcriptomes may not evolve independently, a key assumption of most evolutionary analyses. Non-independence of cell types can occur when cell types share regulatory mechanisms. This leads to concerted evolution in gene expression across different cell types, confounding efforts to unravel the history of cell type evolution, and identify cell type-specific patterns of expression. Here we present a statistical model to estimate the level of concerted transcriptome evolution and apply it to published and new data. The results indicate that tissues undergo pervasive concerted evolution in gene expression. Tissues related by morphology or developmental lineage exhibit higher levels of concerted evolution. Concerted evolution also causes tissues from the same species to be more similar in gene expression to each other than to homologous tissues in another species. This result may explain why some tissue transcriptomes cluster by species rather than homology. Our analysis of bird skin appendages data suggests levels of concerted evolution also varies with phylogenetic age of the tissue. Our study illustrates the importance of accounting for concerted evolution when interpreting comparative transcriptome data, and should serve as a foundation for future investigations of cell type evolution.
+
+DESIGN
+We sampled epidermis from 4 different tracts of developing bird skin appendages in chicken and emu embryos: feather placodes, scutate scale placodes, reticulate scale placodes, and claw placodes. In chicken we sampled two biological replicates for each skin appendages. In emu we sampled 2 biological replicates for feathers and scutate scales, and 1 biological replicate for reticulate scales and claw (due to limitations in available material).
+
+PLATFORM
+GPL16133 Illumina HiSeq 2000 (Gallus gallus) GPL22596 Illumina HiSeq 2000 (Dromaius novaehollandiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

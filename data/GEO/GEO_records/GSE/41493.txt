@@ -1,0 +1,18 @@
+TITLE
+Expression data from Hodgkin lymphoma cell lines L-428 and L-1236: L-428 and L-1236 cells were transduced with tGFP-EBF1 or as control tGFP-only.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The transcription factor network in Hodgkin lymphoma (HL) represents a unique composition of proteins found in no other hematopoietic cell. An aberrant downregulation of the B cell transcription factor EBF1 is observed in the B cell-derived Hodgkin and Reed/Sternberg (HRS) tumor cells. Herein, we elucidated the consequences of the down regulation of this factor in HL. To obtain a more comprehensive overview of EBF1 regulated genes in cHL cell lines, we performed a gene chip analysis comparing gene expression in tGFP-EBF1-transduced L-1236 and L-428 cells compared to samples transduced with vectors encoding only tGFP.
+
+DESIGN
+12 total samples were analyzed. Three independent samples were analyzed per condition and cell line.We generated the following pairwise comparisons using Bioconductor: tGFP-EBF1 L-428 < tGFP L-428;  tGFP-EBF1 L-1236 < tGFP L-1236. Genes with an FDR≤ 5 % and a fold-change ≥ 2.0 and ≤ -2.0 were selected.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23174882
+

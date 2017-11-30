@@ -1,0 +1,18 @@
+TITLE
+Identification of therapeutic targets for glioblastoma by network analysis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In this study, we confirmed that transformed dedifferentiated astrocytes and neurons acquired a stem/progenitor cell state, although they still retained gene expression memory from their parental cell-type. Transcriptional network analysis on transformed cells revealed up-regulation of genes involved in three signaling pathways: Wnt signaling, cell cycle and focal adhesion with the gene Spp1, also known as osteopontin (OPN) serving as a key node connecting these three pathways. Inhibition of OPN blocked the formation of aggregated neurospheres, affected the proliferative capacity of transformed cell-types and reduced the expression levels of neural stem cell markers. Specific inhibition of OPN in murine glioma tumors prolonged mice survival. We conclude that OPN is an important player in dedifferentiation of cells during tumor formation, hence its inhibition can be a therapeutic target for glioblastoma.
+
+DESIGN
+Cortical neurons and astrocytes were derived from 11 days old SynapsinI-Cre and GFAP-Cre mice, respectively. The cells were cultured in their respective media to maintain their identity. These cells were then transduced with HRas-shp53 lentivirus with a transduction efficiency of > 90%. The transduced neurons and astrocytes were later switched to neural stem cell media devoid of serum and supplemented with FGF-2 (NSC media). Within one week, these cells became proliferative and aggregated to form free-floating neurospheres. These cells, hereinafter referred to as NSynR53 and AGR53, respectively, were later harvested and mRNA collected for sequencing library generation using DP-seq. To assess the regression of these cells to an undifferentiated state along the differentiation axis, enriched populations of mESC and NSC were also grown in vitro and mRNA obtained from these cells were subjected to sequencing library preparation.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25961929
+

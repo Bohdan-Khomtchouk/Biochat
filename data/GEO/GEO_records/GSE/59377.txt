@@ -1,0 +1,18 @@
+TITLE
+Global Rebalancing of Cellular Resources by Pleiotropic Point Mutations Illustrates a Multi-scale Mechanism of Adaptive Evolution
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+Pleiotropic regulatory mutations affect diverse cellular processes, posing an explicit challenge to our multi-scale understanding of the genotype-phenotype relationships across multiple biological scales. Adaptive Laboratory Evolution (ALE) allows for such mutations to be found and characterized in the context of clear selection pressures. Here, several ALE-selected single-mutation variants in Escherichia coli’s RNA polymerase (RNAP) are detailed using an integrated multi-scale experimental and computational approach. While these mutations increase cellular growth rates in steady environments, they reduce tolerance to stress and environmental fluctuations. We detail structural changes in the RNAP that rewire the transcriptional machinery to rebalance proteome and energy allocation towards growth and away from several hedging and stress functions.  SurprisinglyW, we find that while these mutations occur in diverse locations in the RNAP, they share a common adaptive mechanism. In turn, these findings highlight the resource allocation trade-offs organisms face and suggest how the structure of the regulatory network enhances evolvability.
+
+DESIGN
+Samples were taken from mid-log phase of batch cultures or steady state phase in chemostat cultures. RNAseq was performed by paired end libraries in a modified dUTP method (see methods in paper)
+
+PLATFORM
+GPL17439 Illumina MiSeq (Escherichia coli str. K-12 substr. MG1655)
+
+CITATIONS
+27135538
+

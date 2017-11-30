@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiles of LN3 T-ALL cells, and tumor-associated and WT thymic dendritic cell subsets
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Thymic lymphomas develop spontaneously in LN3 mice. As for T-ALL in general, ex vivo LN3 lymphoma cells require stromal support to remain viable in culture. We found that primary stromal cells from thymic lymphomas, but not from wild-type thymi, support ex vivo lymphoma survival. By FACS sorting stromal populations, we identified dendritic cells in the tumor microenvironment as the cells capable of supporting lymphoma survival. We used microarrays to analyze the gene expression profiles of T-ALL cells and tumor-associated versus wild-type thymic dendritic cell subsets.
+
+DESIGN
+Sirpa+ and Sirpa-  conventional thymic dendritic cells, as well as CD45+MHCII- T-ALL tumor cells, were isolated from three male LN3 tumor-bearing mice. After enzymatic digestion of the thymi, the dendritic cells and tumor cells were FACS purified, and RNA was extracted and hybridized to Affymetrix Mouse 430 2.0 arrays. Raw data were uploaded to Gene Expression Commons for RMA normalization. Both raw CEL and normalized datasets from the 9 samples are included. Normalized datasets for Sirpa+ and Sirpa-  conventional thymic DC subsets in WT mice at 6 months of age is included here as well. A model within Gene Expression Commons has been created for comparison of these datasets to previously reported WT thymocytes from mice at 6 months of age.  The model within Gene Expression Commons contains 22 populations:  6-month WT Sirpa- DC (average of 2 datasets),   6-month WT Sirpa+ DC (average of 2 datasets), 3 individual tumor-associated Sirpa-DC populations , 3 individual tumor-associated  Sirpa+ DC populations, and 3 individual CD45+MHCII- T-ALL cell populations. In addition WT thymocyte subsets (DN1, DN2, DN3a, DN3b, DN4, DP CD69-, DP CD69+, CD4 CD69+, CD4 CD69-, CD8 CD69+, and CD8 CD69+) are included, each as averages of 3 datasets. WT thymocyte datasets were published in Seita et al.,PLoS ONE (2012), vol. 7 (7) e40321 (GSE34723). WT thymic dendritic cell subsets from 6 month old mice were published in Ki et al., Cell Rep (2014), vol. 9, pp. 402-15 (GSE56928).
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+26862168
+

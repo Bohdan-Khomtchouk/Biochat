@@ -1,0 +1,18 @@
+TITLE
+Human milk miRNAs primarily originate from the mammary gland resulting in unique miRNA profiles of fractionated milk
+
+ORGANISM
+Glycine max ; Homo sapiens ; Bos taurus
+
+SUMMARY
+Human milk (HM) contains an array of regulatory biomolecules including miRNAs, the origin, properties, distribution and functional significance of which are still undetermined. In this study, we used the TaqMan OpenArray System to profile 681 human mature miRNAs in two fractions of HM (cells and lipids) collected from healthy mothers in month 2 of lactation (n=10). Comparisons were performed with maternal peripheral blood mononuclear cells (PBMCs) and plasma collected from the same individuals, as well as with a bovine- and a soy-based infant formulae. HM cells (292 miRNAs) and PBMCs (345 miRNAs) had higher miRNA content than HM lipids (242 miRNAs) and plasma (219 miRNAs), respectively (p < 0.05). Despite the wide variation in miRNA profiles and expression between mothers, a strong association was found between HM cells and lipids within a mother, whilst PBMCs and plasma were distinctly different to the two milk fractions, with plasma displaying marked inter-individual variation. Considering the dominance of epithelial cells in mature milk of healthy women, these results suggest that HM cell and lipid miRNAs primarily originate from the mammary epithelium, whilst the maternal circulation may have a smaller contribution. Infant formulae contained very few human miRNA compared to HM. Our findings demonstrate that unlike infant formulae, human milk is a rich source of lactation-specific miRNA, which could be used as a biomarker of the performance and health status of the lactating gland. Given the recently identified stability and gene regulatory functions of food-derived miRNAs, HM miRNAs may contribute to infant protection and development. 
+
+DESIGN
+10 exclusively breastfeeding mothers were recruited. 10 whole milk and 10 whole blood samples were collected and fractionated to obtain 10 milk cells, 10 milk lipid, 10 mononeucleoted blood cells (PBMCs), and 10 plasma. In addition to the above 40 samples, 2 infant formula were profiled. 4 different extraction kits were used, miRNeasy mini Kit for human milk cell and PBMC samples. miRCURY RNA Isolation-Biofluids Kit for human milk lipid samples and both infant formulae. mirVana PARIS Kit for plasma samples. NanoDrop 2000 and Bioanalyzer 2100 were used to determine concentration and purity of the extracted miRNA from all samples (n=42). miRNA OpenArray panel system (Life Technologies, CA, USA) was used to profile 758 human mature miRNAs in samples. RNU48, RNU44 and U6 rRNA were used as housekeeping controls for normalisation. ath-miR159a was used as a negative control for human samples. Please note that normalization of miRNAs was done in R but without generating deltaCT values, thus [1] only the list of normalized miRNA with Ct vlaue between 8 and 29 in each sample ('normalized_miRNAs_list.txt') [2] the sample data tables contain raw data.
+
+PLATFORM
+GPL17485 TaqMan® OpenArray® Human MicroRNA Panel (miRBase v14)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

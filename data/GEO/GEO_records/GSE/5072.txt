@@ -1,0 +1,18 @@
+TITLE
+Sex-dependent and STAT5b-dependent Liver Gene Expression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A series of dual-channel gene expression profiles obtained using Rosetta/Merck Mouse TOE 75k microarrays was used to examine the sex-dependent and STAT5b-dependent differences in gene expression in adult mouse liver. This series is comprised of 4 pools of 3 randomly chosen independent wildtype male and female mouse liver cDNA samples and 4 pools of 3 randomly chosen independent STAT5b-deficient male and female mouse liver cDNA samples, totaling 16 pools. The pools were paired randomly to generate 4 comparisons of M-WT:F-WT, M-WT:M-KO, F-KO:F-WT, and F-KO:M-KO.  Comparison of the set of sex-dependent genes with the set of genes responsive to the loss of STAT5b in males shows that 75% of the sex-specific genes were also regulated by STAT5b in males.  Only 20% of the sex-specific genes retained sex-specificity in the absence of STAT5b, indicating a large role for STAT5b in sex-specific liver gene expression. Keywords: genetic knockout and sex response
+
+DESIGN
+A pool of cDNA from 3 mice is Cy3-labeled and compared to another pool of cDNA from 3 mice that is Cy5-labeled.  The pools are then dye-swapped and compared again.  The two pairs of data are averaged together, the averages are normalized across the fluorescent reverse pairings, and the log2 value is reported for each average as well as the anti-log.  This is replicated 3 times with independent pools of cDNA for each pair of conditions being compared.  There are a total of 4 pairs of conditions compared for a grand total of 12 samples.
+
+PLATFORM
+GPL3562 Rosetta/Merck Mouse TOE 75k Array 1 microarray
+
+CITATIONS
+16469768
+

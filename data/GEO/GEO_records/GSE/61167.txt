@@ -1,0 +1,18 @@
+TITLE
+Expression data from mammary epithelial cells harvested from 8-9 week old C3H female mice - various isolation conditions
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Numerous lineage analysis studies have used FACS sorting as a separation technique prior to measuring mRNA expression patterns. To assess if FACS sorting causes non-specific changes in gene expression, we collected a heterogeneous population of mammary epithelial cells from three biological replicates. We then performed gene expression analysis on each replicate either prior to trypsin digestion, immediately following trypsin digestion, or following both the trypsin digestion and a mock FACS sort. In this dataset, we include gene expression data obtained from isolated murine mammary epithelial cells either prior to trypsin digestion, immediately following trypsin digestion, or following the trypsin digestion and a mock FACS sort.
+
+DESIGN
+Nine total samples were analyzed (3 biological replicates of three experimental conditions).  Using LIMMA packages gene-wise comparisons were made between untrypsinized and trypsinized replicates as well as between trypsinized and mock FACS sorted replicates using and P≤0.05 and a ≥1.5-fold difference between conditions.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

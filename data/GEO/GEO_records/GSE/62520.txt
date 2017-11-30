@@ -1,0 +1,18 @@
+TITLE
+RNA-sequencing of mRNAs from control and CAP-D3 deficient Salmonella infected HT-29 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BACKGROUND & AIMS- More frequent interaction of bacteria with the colonic epithelium is associated with ulcerative colitis (UC).  The identities of all proteins which promote bacterial clearance in colonic epithelial cells are unknown.  Previously, we discovered that dCAP-D3 (Chromosome Associated Protein-D3), regulates responses to bacterial infection.  We examined whether CAP-D3 promotes bacterial clearance in human colonic epithelium. METHODS- Clearance of Salmonella or adherent-invasive Escherichia coli LF82 was assessed by gentamycin protection assays in HT-29 and Caco-2 cells expressing CAP-D3 shRNA.  CAP-D3 levels in colonic epithelial cells from healthy and UC patient tissues were analyzed by immunoblot.  RNA-sequencing identified bacterially-induced CAP-D3 target genes.  The role of CAP-D3 target genes in bacterial clearance was analyzed by gentamycin protection assays, immunofluorescent staining, and by using pharmacologic inhibitors. RESULTS- CAP-D3 expression was reduced in colonic epithelial cells from UC patients with active disease. Reduction of CAP-D3 expression inhibited autophagy and decreased intracellular bacterial clearance.  The components of the heterodimeric SLC7A5/SLC3A2 amino acid transporter were identified as CAP-D3 target genes; their levels increased in infected, CAP-D3 deficient cell lines and in cells from UC patients.  In HT-29 cells, this resulted in earlier SLC7A5 recruitment to Salmonella-containing vacuoles, increased mTOR activity, and enhanced bacterial survival.  Inhibition of SLC7A5/SLC3A2 or mTOR activity rescued the bacterial clearance defect in CAP-D3 deficient cells. CONCLUSIONS- CAP-D3 attenuates amino acid transporter transcription to promote bacterial autophagy in colon epithelial cells.  CAP-D3 protein levels are decreased in patients with active UC, suggesting that CAP-D3 is a potential therapeutic target to restore mucosal homeostasis in UC patients.
+
+DESIGN
+Three RNA samples from 3 independent experiments including timepoints taken at 0, 0.5 and 7 hours post-infection were analyzed on a bioanalyzer for quality; one of the 0.5 hour post-infection samples was excluded at this time due to poor RNA purity.  Directional, cDNA libraries made from cellular mRNAs were generated from the other 8 samples and sequenced (paired-end sequencing of 100 bp reads) in the Genomics Core at the University of Chicago on an Illumina HiSeq2000.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25701737
+

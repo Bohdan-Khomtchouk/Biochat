@@ -1,0 +1,18 @@
+TITLE
+Gene expression differences in mouse islets after isolation at different time points (0-48hr)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+TGFbi (transforming growth factor-beta-induced) is a secreted protein and is capable of binding to both extracellular matrix (ECM) and cells. It thus acts as a bifunctional molecule enhancing ECM and cell interactions, a lack of which results in dysfunction of many cell types. In this study, we investigated the role of TGFbi in the function and survival of islets. Based on DNA microarray analysis followed by qPCR confirmation, the TGFbi gene showed drastic increases in expression in islets after culture. We demonstrated that recombinant TGFbi could preserve the integrity and enhance the function of cultured islets. Such a beneficial effect was mediated via signalling through FAK. Exogenous TGFbi was capable of sustaining high-level FAK phosphorylation in isolated islets, and FAK knockdown by siRNA in islets resulted in compromised islet function. TGFbi Tg islets showed better integrity and insulin release after in vitro culture. In vivo, b-cell proliferation was detectable in Tg but not wild type pancreata. At age above 12 months, Tg pancreata contained giant islets. Tg mice displayed better glucose tolerance than the controls. Tg islets were more potent in lowering blood glucose when transplanted into syngeneic mice with streptozotocin-induced diabetes, and these transplanted islets also underwent regeneration. Our results indicate that TGFbi is a vital trophic factor promoting islet survival, function and regeneration. At least some of its beneficial effect was mediated by signalling through FAK.
+
+DESIGN
+Six independent batches of islets were isolated. For each batch, islets from 4 C57BL/6 mice were pooled, and were divided into 3 groups, which were harvested at 0 h, 24 h and 48 h after culture. Total RNA was extracted from the islets with QIAGEN RNeasy Micro Kits. After reverse transcription, cDNA served as a template for PCR-based cRNA amplification. It was then reverse-transcribed to produce second-generation cDNA, which was employed to generate biotin-labelled cRNA probes. The probes were hybridized on GeneChip Mouse Genome 430 2.0 Array (Affymetrix, Santa Clara, CA), which contains 39,000 transcripts. DNA microarray analysis was performed at the McGill University Genome Quebec Innovation Centre. For each time point, 6 chips were hybridized with cRNA from the 6 batches of isolated islets. For samples collected at 24 and 48 hours (6 batches for each time point), if the mean signal strength of a gene had above 4-fold difference over that of the 0 h samples, it was selected for reverse polymerase chain reaction (PCR) confirmation. Details of the experimental protocols and data analysis procedure can be found in http://www.affymetrix.com/support/downloads/manuals/expression_analysis_technical_manual.pdf . Batch 1: YF050524MOT01, YF050524MOT07, YF050524MOT13 Batch 2: YF050524MOT02, YF050524MOT08, YF050524MOT14 Batch 3: YF050524MOT03, YF050524MOT09, YF050524MOT15 Batch 4: YF050524MOT04, YF050524MOT10, YF050524MOT16 Batch 5: YF050524MOT11, YF050524MOT17 Batch 6: YF050524MOT06, YF050524MOT12, YF050524MOT18
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+21471441
+

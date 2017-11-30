@@ -1,0 +1,18 @@
+TITLE
+RiboZero Gold paired-end RNA-seq data from postmortem tissue of the dorsolateral prefrontal cortex of autism spectrum disorder samples and healthy control samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: The goals of this study was to compare the expression of histamine related genes in ASD patients and controls. Methods: RNA-Seq was performed using strand-specific Ribosomal RNA depletion (RiboZero) library preparation and the TruSeq RNA Sample Preparation v2 kit from Illumina. One hundred base pair paired-end sequencing was run on the HiSeq 2000. TopHat (v2.0.4) was used to enforce strand specificity and to align the sequencing reads to known transcripts of the Ensembl Build GRCh37.67. FeatureCounts (v1.4.4) was used to count the total number of reads overlapping each gene using the default settings, with paired-end and reverse-stranded counting specified using the Ensembl Build GRCh37.67 gtf file. These counts were merged from both reads of the paired-end sequencing and normalized by library size and coding gene length to form Reads Per Kilobase of Gene per Million mapped reads (RPKM) values. The influence of diagnosis on expression was analyzed with linear regression transcriptome-wide and further evaluated using a gene set analysis. Results: There was no significant diagnosis effect on any of the individual genes but expression of the gene set of HNMT, HRH1, HRH2, and HRH3 was significantly altered. Conclusions: Our study represents the first specific analysis of the expression of histamine related genes in ASD and suggests that these genes may collectively be dysregulated.
+
+DESIGN
+Comparison of gene expression of 13 ASD cases and 39 matched controls.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28485729
+

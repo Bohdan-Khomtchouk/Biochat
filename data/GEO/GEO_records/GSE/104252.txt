@@ -1,0 +1,18 @@
+TITLE
+Learning the regulatory grammar of yeast 5' untranslated regions from a large library of random sequences
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Our ability to predict protein expression from DNA sequence alone remains poor, reflecting our limited understanding of cis-regulatory grammar and hampering the design of engineered genes for synthetic biology applications. Here, we generate a model that predicts the translational efficiency of the 5’ untranslated region (UTR) of mRNAs in the yeast Saccharomyces cerevisiae. We constructed a library of half a million 50-nucleotide- long random 5’ UTRs and assayed their activity in a massively parallel growth selection experiment. The resulting data allow us to quantify the impact on translation of Kozak sequence composition, upstream open reading frames (uORFs) and secondary structure. We trained a convolutional neural network (CNN) on the random library and showed that it performs well at predicting the translational efficiency of both a held-out set of the random 5’ UTRs as well as native S. cerevisiae 5’ UTRs. The model additionally was used to computationally evolve highly translating 5’ UTRs. We confirmed experimentally that the great majority of the evolved sequences lead to higher translation rates than the starting sequences, demonstrating the predictive power of this model. The sequences were assayed in the context of a constant promoter and downstream coding sequence. Cell growth was used as a proxy for protein expression. Growth was measured by determining the ratio of sequence counts before and after growth selection.
+
+DESIGN
+We assayed three libraries, a library of random sequences, a library of sequences derived from the native 5' untranslated regions of Saccharomyces cerevisiae and a library of sequences that we created using our convolutional neural network model. All sequences are less than or equal to 50 nucleotides long.
+
+PLATFORM
+GPL19756 Illumina NextSeq 500 (Saccharomyces cerevisiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

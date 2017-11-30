@@ -1,0 +1,18 @@
+TITLE
+The Ciona notochord transcriptome reveals a core set of broadly conserved notochord effector genes
+
+ORGANISM
+Ciona intestinalis
+
+SUMMARY
+The notochord is the eponymous feature of the chordates and an essential organ in chordate development. The notochord of the invertebrate chordate Ciona consists of only 40 cells, and is a longstanding model for studying differentiation and morphogenesis in a small, simple embryo. Here we perform RNAseq analysis on flow-sorted notochord cells from multiple stages of development to define a comprehensive Ciona notochord transcriptome. We identify 1364 genes with enriched expression in the notochord and extensively validate the results by in situ hybridization. This notochord gene set is highly enriched for Gene Ontology codes related to the extracellular matrix, cell adhesion and cytoskeleton, and contains numerous genes with intriguing potential functions in morphogenesis. Orthologs of 112 of the Ciona notochord genes have known notochord expression in vertebrates, more than twice as many as would be predicted by chance alone. This set of putative effector genes with notochord expression conserved from tunicates to vertebrates will be invaluable for testing hypotheses about the evolution of the notochord.
+
+DESIGN
+Ciona notochord cells were fluorescently labeled by electroporation of fertilized eggs with the notochord reporter construct Bra > GFP. At two timepoints (Hotta St16 and St19/20, embryos were dissociated to single cells and then flow-sorted to isolate populations of notochord-enriched GFP+ cells and notochord-depleted GFP- cells. Triple biological replicates of purified RNA were analyzed by RNAseq and transcript enrichment was calculated using the Cufflinks software suite
+
+PLATFORM
+GPL23102 Illumina HiSeq 2500 (Ciona intestinalis)
+
+CITATIONS
+28928284
+

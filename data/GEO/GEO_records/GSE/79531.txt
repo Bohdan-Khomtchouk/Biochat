@@ -1,0 +1,18 @@
+TITLE
+Gene expression analysis between rainbow trout strains with different susceptibility to enteritis when reared on plant-based diets
+
+ORGANISM
+Oncorhynchus mykiss
+
+SUMMARY
+Rainbow trout (Oncorhynchus mykiss) and other salmonids are piscivorous fish. In aquaculture, fish-based feed ingredients are rapidly becoming unsustainable due to increased demand and diminishing supply. Total replacement of fishmeal with plant proteins causes severe intestinal enteritis, leading to reduced growth and lower feed efficiency. Through selective breeding, we have developed a strain of rainbow trout that does not develop distal intestine enteritis when reared on a high soy plant protein-based feed and also shows increased growth compared to other strains. Since central metabolism plays a major role in dietary alterations, and as growth was a major factor in the selection program, both muscle and liver gene expression were examined for differential regulation between commercial and selected trout strains when fed alternative diets. After three months of rearing on either a fishmeal (FM) or plant protein-based (PM) diet, muscle and liver tissues from a domestic non-selected strain (House Creek; develops enteritis) and  the selected strain (ARS-KO; no enteritis) were extracted and prepped for Illumina RNA-seq. Raw reads were screened for quality then aligned to the rainbow trout transcriptome. Read-counts were used to assess differential expression between strains and treatments. Significant differentially expressed genes between comparisons were assessed.
+
+DESIGN
+Rainbow trout strain selected for tolerance to plant-based diets (ARS-KO) and control fish strain (House Creek) were fed either a fish meal (FM) or plant meal (PM) based diet in replicate tanks over a 12-week period. After this time, muscle and liver tissues were sampled. A total of 80 samples were taken: ten biological replicates, sampling two tissues, with two treatment groups, for each of the two trout strains.
+
+PLATFORM
+GPL21647 Illumina HiSeq 1500 (Oncorhynchus mykiss)
+
+CITATIONS
+28723948
+

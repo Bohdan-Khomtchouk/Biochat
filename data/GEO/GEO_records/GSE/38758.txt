@@ -1,0 +1,18 @@
+TITLE
+Identification of DNA-replication domains in single S-phase cells: part 1 whole genome amplified single-cell DNA
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA-replication is a key process in life and can lead to disease when disturbed. Cell-type specific early and late replication domains have been discovered throughout genomes by analysis of DNA from populations of cells. However, cell to cell differences and the association of these differences with other cellular processes remain largely elusive. Here we demonstrate for the first time that consecutive domains of early and late DNA-replication can be detected in single S-phase cells using array comparative genomic hybridization, providing proof-of-concept for a novel tool to investigate DNA-replication genome wide at the single-cell level. Furthermore, methods to profile the genome of a single cell for DNA-copy number aberrations are revolutionizing both basic genome research and clinical genetic diagnosis. It is thus important to apprehend not only technical but also biological reasons for false positive copy number detection. None of the current single-cell copy number calling methods distinguishes between a cell in G1-, S- or G2/M-phase of the cell cycle and mostly use cells isolated randomly from populations. We demonstrate that the oscillating pattern between early and late replicating loci instigates significantly more false-positive DNA copy-number calls in a diploid cell in S-phase cells than in G1- or G2/M-phase, depending on the specific aCGH-signal normalization method used. We propose a work-flow to detect single cells in S-phase and to correct for DNA-replication bias before copy number profiling.
+
+DESIGN
+The genome of 4 S-phase, 3 M-phase and 4 G-phase single cells was amplified using the Sureplex amplification system. These test samples were hybridized comparatively to commercial male reference DNA,
+
+PLATFORM
+GPL15703 BlueGnome Homo sapiens 3K 24 sure version 3.0
+
+CITATIONS
+23295674
+

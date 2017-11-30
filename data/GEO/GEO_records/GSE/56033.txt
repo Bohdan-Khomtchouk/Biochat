@@ -1,0 +1,18 @@
+TITLE
+Immune Variation Project (ImmVar) [CD4]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression profiling of CD4 T-Cells (CD4+CD62L+) from human peripheral blood mononuclear cells (PBMCs). PBMCs were isolated from healthy individuals from the Boston area.
+
+DESIGN
+Over the course of 18 months, fresh blood samples from healthy participants were collected following a rigorous, standardized set of procedures (SOP). 15ml of blood was collected and used to isolate peripheral blood mononuclear cells (PBMCs). From the PBMCS, cell population of interest, CD4+CD62L+, underwent a two-step sorting strategy in order to achieve cell purity > 99%. mRNAs from these cells were profiled on Affymetrix GeneChip Human Gene ST 1.0 microarrays. Raw data CEL files were processed using the Robust Multichip Average (RMA) algorithm in Affymetrix PowerTools. To account for non-genetic factors such as batch effects, age, gender, and technical artifacts in gene expression data, we used Principal Component Analysis (PCA). PCs were estimated separately from the gene expression matrix for each population and cell type. The optimal numbers of PCs for association analysis were determined based on the PC that resulted in maximum number of cis-eQTLs. This procedure identified 20, 12 and 12 PCs in EU, EA and AA CD4+ T-cells, respectively. GSE56033_GSM.ImmVarCD4.*.PC*.txt supplementary files: For each population EU, AA, and EA, individual PC-corrected matrices for samples that have passed both Expression QC and Genotyping QC. These are the same expression matrices that were used for the eQTL association analysis.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24786080
+

@@ -1,0 +1,18 @@
+TITLE
+Calibrating ChIP-seq with nucleosomal internal standards to measure histone modification density genome-wide
+
+ORGANISM
+Drosophila melanogaster ; Homo sapiens ; Mus musculus ; synthetic construct
+
+SUMMARY
+Despite serving as a central experimental technique in epigenetics research, chromatin immunoprecipitation (ChIP) suffers from several serious drawbacks: it is a relative measurement untethered to any external scale that obviates fair comparison amongst experiments; it employs antibody reagents that have differing affinity and specificity for target epitopes, which are in turn variable in abundance; and it is frequently not reproducible. To address these problems, we developed internal standard calibrated ChIP (ICeChIP), a method of spiking a native chromatin sample with nucleosomes reconstituted from recombinant and semisynthetic histones on barcoded DNA prior to immunoprecipitation. ICeChIP measures local histone modification densities on a biologically meaningful scale, enabling unbiased trans-experimental comparisons and revealing a correlation between the apparent symmetry of H3K4me3 in promoter nucleosomes and gene expression.  Direct in situ assessment of immunoprecipitation accommodates for a number of experimental pitfalls, and provides a critical examination of untested assumptions inherent in conventional ChIP.
+
+DESIGN
+Examination of spiked-in semi-synthetic nucleosomes in ICeChIP-seq experiments performed for HEK293, mESC E14 and DM S2 cell line
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster) GPL19604 Illumina HiSeq 2500 (synthetic construct)
+
+CITATIONS
+26004229
+

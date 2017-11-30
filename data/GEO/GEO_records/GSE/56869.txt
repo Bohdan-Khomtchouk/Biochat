@@ -1,0 +1,18 @@
+TITLE
+Fine-scale chromatin interaction maps reveal the cis-regulatory landscape of human lincRNA genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Characterizing the relationship between genome form and function requires methods both for zooming out, to globally survey the genomic architectural landscape, and for zooming in, to investigate regions of interest at high resolution. High throughput methods based on chromosome conformation capture (3C) have greatly advanced our understanding of the three-dimensional (3D) organization of genomes, but are limited in resolution by their reliance on restriction enzymes. Here we describe a method for comprehensively mapping global chromatin contacts that uses DNaseI for chromatin fragmentation, leading to greatly improved efficiency and resolution. Coupling this method with DNA capture technology provides a high-throughput approach for targeted mapping of fine-scale chromatin architecture. We applied targeted DNase Hi-C to characterize the 3D organization of 1,030 lincRNA promoters in two human cell lines, and identified thousands of high-confidence lincRNA promoter-associated chromatin contacts at 1 kilobase pair (kbp) resolution. Detailed analysis of these contacts reveals that expression of lincRNAs is tightly controlled by complex mechanisms involving both super-enhancers and the polycomb repressive complex. Our results provide the first glimpse of the cell-type-specific 3D organization of lincRNA genes.
+
+DESIGN
+DNase Hi-C assay (x1 replicate) in H1 and K562 cells, respectively. Targeted DNase Hi-C assays of the 220kb promoter-enhancer library (x1 replicate) and the 5Mb lincRNA promoter library (x2 replicate), in H1 and K562 cells, respectively.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25437436
+

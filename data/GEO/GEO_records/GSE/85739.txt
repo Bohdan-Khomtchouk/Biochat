@@ -1,0 +1,18 @@
+TITLE
+Paused RNA polymerase II inhibits new transcriptional initiation [ChIP-nexus spike-in]
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+RNA polymerase II (Pol II) pauses downstream of the transcription initiation site before beginning productive elongation. This pause is a key component of metazoan gene expression regulation. Some promoters have a strong disposition for Pol II pausing and often mediate faster, more synchronous changes in expression. This requires multiple rounds of transcription and thus cannot rely solely on pause release. But it is unclear how pausing affects the initiation of new transcripts during consecutive rounds of transcription. Using our recently developed ChIP-nexus method, we find that Pol II pausing inhibits new initiation. We propose that paused Pol II helps prevent new initiation between transcription bursts, which may reduce noise.
+
+DESIGN
+ChIP-nexus was performed against Pol II in Drosophila melanogaster Kc167 cells. A fix amount of spike-in is added into each sample in order to control for the loss of Pol II ChIP signal after Triptolide treatment or NELF depletion.
+
+PLATFORM
+GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster) GPL19132 Illumina NextSeq 500 (Drosophila melanogaster)
+
+CITATIONS
+28504701
+

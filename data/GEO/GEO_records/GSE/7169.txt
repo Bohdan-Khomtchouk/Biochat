@@ -1,0 +1,18 @@
+TITLE
+Sex-dependent and STAT5a-dependent Liver Gene Expression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A series of dual-channel gene expression profiles obtained using Agilent Mouse TOE 75k microarrays was used to examine the sex-dependent and STAT5a-dependent differences in gene expression in adult mouse liver.  This series is comprised of 3 randomly chosen independent male and female wildtype mouse liver cDNA samples and 3 randomly chosen independent male and female STAT5a-deficient mouse liver cDNA samples, totalling 12 samples.  The samples were paired randomly to generate 4 comparisons of M-WT:F-WT, M-WT:M-KO, F-KO:F-WT, F-KO:M-KO.  Comparison of the set of sex-dependent genes with the set of genes responsive to the loss of STAT5a in females shows a small group of the sex-specific genes were also regulated by STAT5a in females.  These results indicate a role for STAT5a in female gene expression to a lesser degree than that shown for STAT5b in males. Keywords: genetic knockout and sex response
+
+DESIGN
+A Cy3-labeled cDNA sample is co-hybridized with a Cy5-labeled cDNA sample depending on the comparison being made.  The samples are then dye-swapped and compared again on a second microarray chip.  The two pairs are averaged together, the averages are normalized across the fluorescent reverse pairings, and the normalized ratio is reported along with the two separate intensities.  This is replicated 3 times with independent samples of cDNA for each pair being compared.  There are a total of 4 pairs of conditions being compared for a grand total of 12 samples.
+
+PLATFORM
+GPL3562 Rosetta/Merck Mouse TOE 75k Array 1 microarray
+
+CITATIONS
+17536022
+

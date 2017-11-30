@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling of LCM captured breast cancer cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The purpose of this study is to obtain comprehensive gene expression profiles in breast cancer. Mammary gland cells were specifically isolated from 433 clinical tissue samples by laser capture microdissection (LCM). Total RNAs were extracted from LCM captured samples. We investigated gene expression profiles in 417 patients with breast cancer and 16 non-tumor tissues as a normal control using an Affymetrix GeneChip.
+
+DESIGN
+Mammary gland cells were captured from clinical tissues of breast cancer patient by LCM. Gene expression profilings for 417 tumor and 16 non-tumor samples were acquired using GeneChip Human Genome U133 Plus 2.0 (Affymetrix, Santa Clara, CA). Microarray datasets were normalized and transformed to log2 values using robust multi-array average (RMA) method with R statistical software and BioConductor package.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25214461
+

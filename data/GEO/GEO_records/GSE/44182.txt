@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis of Eggplant (Solanum melongena L.) cv. PPL during fruit development and ripening.
+
+ORGANISM
+Solanum melongena
+
+SUMMARY
+Transcriptome analysis of Eggplant cv. PPL during fruit development at 0, 5, 10, 20 and 50 dpa. Eggplant is third most important solanaceae crop species after potato and tomato. It is a versatile crop adapted to different agro-climatic regions and can be grown throughout the year. Unripe eggplant fruit is consumed as cooked vegetable in various ways. It is low in calories and fats, contains mostly water, some protein, fibre and carbohydrates. To decipher molecular mechanisms involved in fruit development eggplant fruit were collected at 0, 5, 10, 20 and 50 dpa and gene expression profiles were analyzed using Affymetrix tomato GeneChip Genome array.
+
+DESIGN
+Eggplant plants were was grown under controlled conditions in glasshouse. Flowers were hand-pollinated at anthesis and samples were collected at 0, 5, 10, 20 and 50 days post anthesis (dpa). Total RNA was isolated using SpectrumTM Plant Total RNA kit (Sigma, USA) according to the manufacturer’s protocol. Affymetrix tomato GeneChip Genome array (Affymetrix, USA) having 10,000 probe sets was used for transcriptome analysis. Three biological replicates were maintained to test the reproducibility and quality of the chip hybridization. cDNA labeling, array hybridization, staining and washing procedures were carried out as described in the Affymetrix protocols. CEL files having estimated probe intensity values were analyzed with GeneSpring GX-11.5 software (Agilent Technologies, USA) to get differentially expressed transcripts. The Robust Multiarray Average (RMA) algorithm was used for the back ground correction, quantile normalization and median polished probe set summarization to generate single expression value for each probe set. Normalized expression values were log2-transformed and differential expression analysis was performed using unpaired t-test. The p-values were corrected by applying the false discovery rate (FDR) correction (Benjamini and Hochberg, 2000).
+
+PLATFORM
+GPL4741 [Tomato] Affymetrix Tomato Genome Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

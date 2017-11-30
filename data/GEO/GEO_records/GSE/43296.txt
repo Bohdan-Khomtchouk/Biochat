@@ -1,0 +1,18 @@
+TITLE
+Polysome-associated mRNA profiling of cancer cells in response to CXCL12 and IGF1
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+CXCL12 and IGF1 are key secreting molecules produced by cancer-associated fibroblasts in breast cancer. These factors promote the survival of disseminated cancer cells in the bone marrow. To assess the combined responses elicited by CXCL12 and IGF1, we examined the translating transcriptome of cancer cells in response to these two factors by Translating Ribosome Affinity Purification (TRAP)-RNAseq.
+
+DESIGN
+MDA-MB-231 cells were engineered to express an EGFP-tagged version of ribosomal protein L10a. This allows the retrieval of polysome-associated mRNA by anti-GFP pull down (TRAP) and profiling the translating transcriptome by RNAseq. EGFP-L10a+ cancer cells were serum starved (0.2% serum) for 24 hours, and then treated with CXCL12 (30ng/mL) + IGF1 (10ng/mL) or CXCL12 (300ng/mL) + IGF1 (100ng/mL) for 6hrs. Two biological replicates were profiled for each condition.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+23993096
+

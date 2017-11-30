@@ -1,0 +1,18 @@
+TITLE
+Genome-wide control of RNA polymerase II activity by cohesin (tiling)
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Cohesin is a well-known mediator of sister chromatid cohesion, but it also influences gene expression and development. These non-canonical roles of cohesin are not well understood, but are vital: gene expression and development are altered by modest changes in cohesin function that do not disrupt chromatid cohesion. To clarify cohesin’s roles in transcription, we measured how cohesin controls RNA polymerase II (Pol II) activity by genome-wide chromatin immunoprecipitation and precision global run-on sequencing. On average, cohesin-binding genes have more transcriptionally active Pol II and promoter-proximal Pol II pausing than non-binding genes, and are more efficient,  producing higher steady state levels of mRNA per transcribing Pol II complex. Cohesin depletion frequently increases pausing at cohesin-binding genes, indicating that cohesin  often facilitates transition of paused Pol II to elongation. In many cases this likely reflects a role for cohesin in transcriptional enhancer function. Strikingly, more than 95% of predicted extragenic enhancers bind cohesin, and cohesin depletion can reduce their association with Pol II, indicating that cohesin facilitates enhancer-promoter contact. Cohesin directly promotes transcription of the myc gene, and cohesin depletion reduces Pol II activity at most Myc target genes. The multiple transcriptional roles of cohesin revealed by these studies likely underlie the growth and developmental deficits caused by minor changes in cohesin activity.
+
+DESIGN
+We performed ChIP-chip of Rpb3 (representing total Pol II), Ser2P-Pol II (representing elongating Pol II), and Cdk12 and CycT Pol II kinase components in Mock RNAi-treated and cohesin subunit Rad21 RNAi-treated ML-DmBG3-c2 cells, which revealed that cohesin depletion has a variety of effects on Pol II occupancy and modification, as well as on occupancy of Pol II kinases.
+
+PLATFORM
+GPL6629 [DM_tiling2_MR] Affymetrix Drosophila Tiling 2.0R Array
+
+CITATIONS
+23555293
+

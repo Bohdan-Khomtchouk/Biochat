@@ -1,0 +1,18 @@
+TITLE
+Genome-wide transcription start site mapping of Bradyrhizobium japonicum free-living cells and bacteroids -  a rich resource to identify new transcripts, proteins and to study gene regulation
+
+ORGANISM
+Bradyrhizobium diazoefficiens USDA 110
+
+SUMMARY
+Background: During the symbiosis with legumes, Bradyrhizobium japonicum cells infect roots where they induce the formation of root nodules and differentiate into intracellular nitrogen-fixing bacteroids. We used differential RNA-seq (dRNA-seq) for the genome-wide detection of transcriptional start sites (TSSs) in B. japonicum USDA 110 cells grown free-living or as bacteroids in soybean root nodules. Results: A newly developed TSS recognition procedure based on machine learning allowed us to map 15,923 TSSs: 14,360 in free-living bacteria, 4,329 in bacteroids and 2,766 in both living conditions. Using a proteogenomics approach, we provide evidence for the translation of 107 new transcripts including 14 with TSSs in annotated genes. In addition, we provide evidence for 178 shorter or longer proteins, 109 of them with TSS support. Based on our TSS map and a new de novo promoter prediction algorithm, we identified promoter motifs mainly used in nodules (similar to RpoN-dependent promoters) or under both conditions (similar to RpoD-dependent promoters). The data is made available in a generic feature format (GFF) file along with an updated and extended genome annotation comprising promoters, TSSs and terminators. The value of such a TSS and promoter map beyond the identification of novel transcripts and ORFs is illustrated by the experimental analysis of an antisense RNA, which is a by-product of transcriptional interference in a gene encoding a cytochrome P450 highly expressed in nodules. Conclusions: The genome-wide TSS and promoter map along with the extended genome annotation represents a very useful resource for detailed analyses of gene regulation and further systems biology studies on B. japonicum in symbiosis with soybean.
+
+DESIGN
+dRNA-seq analysis of total RNA from exponentially growing B. japonicum USDA in oxic, liquid cultures (free-living cells) and from soybean root nodules
+
+PLATFORM
+GPL20219 Illumina Genome Analyzer IIx (Bradyrhizobium diazoefficiens USDA 110)
+
+CITATIONS
+27107716
+

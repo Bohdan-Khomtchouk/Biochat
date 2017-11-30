@@ -1,0 +1,18 @@
+TITLE
+Genome-Wide Molecular Signature of Cholangiocarcinoma and Its Trandifferentation-Related Genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cholangiocarcinoma (CC) is an aggressive tumor that shows a poor survival rate even after resection. The present study aimed at identification of the genome-wide expressed genes related to CC oncogenesis and its sarcomatous transdifferentiation using DNA microarray technology. The differentially expressed genes in 9 cholangiocarcinoma cell lines (Choi.CK, Cho.CK, J.CK, S.CK, CK.L1, CK.L2, CK.P1, CK.P2 and CK.Y1) were analyzed in comparison with 4 kinds of cultured biliary epithelial cells (ND.1, ND.2, ND.3 and ND.4) using the Illumina Human-6 v2 BeadChip (48 K). Unsupervised hierachical clustering analysis perfectively classified the 13 cell samples into two groups, normal biliary epithelial (N) and immortalized biliary epithelial cells and CC (T) cells. We identified 120 commonly upregulated ( > 2.5 fold) genes and 340 commonly downregulated ( < 0.4-fold) genes in the two groups. Hierachical clustering analysis of sarcomatoid CC cells (S.CK) revealed 316 differentially upregulated genes ( > 4-fold) and 335 downregulated genes ( < 0.25-fold).) compared with 3 CC cell lines (Choi.CK, Cho.CK, and J.CK). In conclusion, these data will contribute to better understand the molecular mechanisms of oncogenesis and transdifferentiation in CC and provide the molecular targets for CC diagnosis and therapy.
+
+DESIGN
+Total RNA was extracted from each sample. Five-hundred nanograms of total RNA were used for labeling and hybridization, according to the manufacturer’s protocols (Illumina). After the bead chips were scanned with an Illumina BeadArray Reader (Illumina), the microarray data were normalized using the quantile normalization method in the Linear Models for Microarray Data package in the R language environment. The expression level of each gene was transformed into a log 2 base before further analysis.
+
+PLATFORM
+GPL6102 Illumina human-6 v2.0 expression beadchip
+
+CITATIONS
+21333016
+

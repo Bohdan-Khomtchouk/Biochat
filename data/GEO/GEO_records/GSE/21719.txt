@@ -1,0 +1,18 @@
+TITLE
+Identification of the receptor tyrosine kinase AXL in triple negative breast cancer as a novel target for the human miR-34a microRNA (miRNA study)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Triple negative breast cancer (TNBC) is histologically characterized by the absence of the hormone receptors estrogen and progesterone, in addition to having a negative immunostain for HER-2.  The aggressiveness of this disease and lack of targeted therapeutic options for treatment is of high clinical importance.  MicroRNAs are short 21- to 23 nucleotide endogenous non-coding RNAs that regulate gene expression by binding to mRNA transcripts, resulting in either decreased protein translation or mRNA degradation.  Dysregulated expression of miRNAs is now a hallmark of many human cancers.  In order to identify a miRNA/mRNA interaction that is biologically relevant to the triple negative breast cancer genotype/phenotype, we initially conducted a miRNA profiling experiment to detect differentially expressed miRNAs in cell line models representing the triple negative (MDA-MB-231), ER+ (MCF7), and HER-2 overexpressed (SK-BR-3) histotypes.  We identified human miR-34a expression as being > 3-fold down (from its median expression value across all cell lines) in MDA-MB-231 cells, and identified AXL as a putative mRNA target using multiple miRNA/target prediction algorithms.  The miR-34a/AXL interaction was functionally characterized through ectopic overexpression experiments with a miR-34a mimic.  In reporter assays, miR-34a binds to the putative target site within the AXL 3’UTR to affect luciferase expression.  We also observed degradation of AXL mRNA and decreased AXL protein levels, as well as cell signaling effects on AKT phosphorylation and phenotypic effects on cell migration.  Finally, we present an inverse correlative trend in miR-34a and AXL expression for both cell line and patient tumor samples.
+
+DESIGN
+The small RNA (sRNA) fraction from four separate passages (biological replicates) of MCF7, SK-BR-3, MDA-MB-231, and MCF10A cells were extracted using Qiagen’s miRNeasy kit following the manufacturer’s instructions (Qiagen; Germantown, MD).  Five micrograms of sRNA was labeled with either Cy3 (MCF10A) or Cy5 (breast cancer cell) fluorescent label (GE Healthcare; Piscataway, NJ) using the mirVana miRNA labeling kit (Ambion; Austin, TX).  The labeled products were hybridized to miRVana miRNA Bioarrays V2 (Ambion, Austin, TX) and washed following the manufacturer’s protocol.  Each array was comprised of 328 human miRNA probes in addition to 114 mouse and 46 rat miRNAs.  The comparative hybridization for each breast cancer cell line to the reference MCF10A cell line control was conducted in quadruplicate (n=12 total arrays).  Processed arrays were scanned for dual channel hybridization using a GenePix 4000B scanner (Molecular Devices; Sunnyvale, CA).  Analyses were performed using BRB-Array Tools Version 3.8.1 ( http://linus.nci.nih.gov/BRB-ArrayTools.html ).  Replicate spots for each miRNA were averaged within the array, background adjusted, and log2 normalized.  Normalization was performed using a per chip median normalization method.  Only those miRNAs with at least a 3-fold change in expression from its median value across all arrays, in at least 33% of all arrays tested, were retained.  Samples and genes were hierarchical clustered with average linkage under the Euclidian distance similarity metric using the Cluster 3.0 ( http://rana.stanford.edu/software ) and Java TreeView 1.1.4r3 applications.  MiRNA probes of mouse, rat, and manufacturer’s (Ambion) origins that passed the gene filter were excluded from future analyses.
+
+PLATFORM
+GPL5106 mirVANA miRNA Bioarray V2
+
+CITATIONS
+21814748
+

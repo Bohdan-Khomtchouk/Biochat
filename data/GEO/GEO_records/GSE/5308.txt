@@ -1,0 +1,18 @@
+TITLE
+Evaluation of the performance of the Arabidopsis Pathoarray 464_001: an example of detailed analysis of mutants
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+The Arabidopsis Pathoarray 464_001 (GPL3638) was used to compare response of wild-type, rps2-101C (Bent et al., 1994; Mindorinos et al., 1994) and ndr1-1 (Century et al., 1995) to Pseudomonas syringae strain expressing avrRpt2.  The two mutants are compromised in RPS2-mediated resistance but distinct difference between them has not been described.  The results suggested that ndr1-1 affects a defense signaling pathway(s) in addition to the RPS2-dependent pathway, and indicate that the microarray is a powerful tool for systems analysis of the Arabidopsis disease signaling network. Keywords: Evaluation of the Arabidopsis Pathoarray 464_001 performance
+
+DESIGN
+This experiment consists of two biological replicates of four samples (Col-0, rps2-101C, ndr1-1 and ndr1-1blind.  The ndr1-1blind was included as a fourth genotype whose identity was unknown to the experimenter and identified as ndr1-1 by genotyping.)  The profiles of the two ndr1-1 were used to set false discovery rate empirically in significant analysis of microarray (Tusher et al., 2001).  A more conservative FDR than the FDR determined empirically using two ndr1-1 was used to analyze other pairwise comparisons.  For each genotype, two leaves per plant were pooled from three pots to prepare total RNA.
+
+PLATFORM
+GPL3638 The miniarray (Arabidopsis Pathoarray) 464_001
+
+CITATIONS
+17181774
+

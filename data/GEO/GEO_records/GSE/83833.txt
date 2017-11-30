@@ -1,0 +1,18 @@
+TITLE
+Genome-wide characterization of histone mark co-occurrence at single molecule resolution
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Histone modifications play an important role in chromatin organization and transcriptional regulation. Specific combinations of these modifications to the histone tails have been associated with different functional genomic elements: for example, promoters, enhancers and insulators. Despite the enormous amount of genome-wide histone modification data collected in different cells and tissues, little is known about co-occurrence of modifications on the same nucleosome. Here we present a novel, genome-wide quantitative method for combinatorial indexed chromatin immunoprecipitation (Co-ChIP) to characterize the co-occurrence of histone modifications. Using Co-ChIP, we characterize the genome-wide co-occurrence of 15 chromatin marks (70 pairwise combinations), and find unexpected dynamics between the different marks, including co-occurrence of H3K9me1-H3K27ac in super-enhancers. Finally, we apply Co-ChIP to characterize the distribution of the bivalent H3K4me3-H3K27me3 domain in distinct mouse embryonic stem cell (mESC) states as well as in four adult tissues. We observe dynamic changes in 5786 regions and discover both loss and de novo gain of bivalency in key tissue-specific regulatory genes, suggesting a crucial role for bivalent domains following development. Taken together, we demonstrate that Co-ChIP enables routine single molecule characterization of histone mark co-occurrence and probes the previously hidden dynamic interactions of histone modifications.
+
+DESIGN
+CoChIP is a modular protocol in which every step has been optimized to minimize noise. 1) Cells are cross-linked and frozen in aliquots of 10-20 million cells; 2) Chromatin is sheared; 3) Immobilized on specific antibody-coated magnetic beads; 4) Bead-immobilized chromatin is indexed by ligation of sequencing adaptors; 5) The indexed chromatin is released from the antibody-coated magnetic beads using antibody-denaturing conditions and pooled together with other samples in a single tube; 6) The chromatin pool is washed to remove antibody-denaturing elements; 7) The chromatin pool is subjected to a second chromatin immunoprecipitation step; 8) RNA and proteins are degraded and DNA is reverse crosslinked; 9) ChIPed DNA, which contains P5 and P7 Illumina sequences, is purified using SPRI AMPure XP beads; and 10) DNA is amplified by PCR. Genome-wide co-occurrence of 14x6 chromatin marks in bone-marrow-derived dendritic cells. Co-occurrence of H3K4me3 and H3K27me3 in 4 adult tissues (lung/kidney/liver/brain) and primed/naïve mESC.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+27454738
+

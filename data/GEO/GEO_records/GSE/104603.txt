@@ -1,0 +1,18 @@
+TITLE
+Expression data from Imiquimod-induced psoriasis mouse model
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Psoriasis is a chronic inflammatory skin disorder that is predominantly characterized by sharply demarcated chronic erythematous plaques. Although its etiological mechanisms are largely unknown, recent evidence suggests that the topical application of imiquimod (IMQ) cream causes psoriasis-like skin inflammation in humans and mice. Skin examined 4 hours after IMQ cream treatment. Results provide insight into the role of each knockout mice phenotype in the response to IMQ-induced psoriasis model.
+
+DESIGN
+WT, Card14−/−, Tlr7−/−, Tlr9−/−, and Tlr7−/−Tlr9−/− mice were treated with or without a topical dose of 62.5 mg of Beselna cream containing 5% Imiquimod (Mochida Pharmaceutical Co., Ltd). Total RNA was isolated from control and IMQ-treated (4 h) whole-ear skin using TRIzol reagent (Invitrogen) and purified using RNeasy Mini Kit (Qiagen) according to the manufacturer’s instructions. Equal aliquots of total RNA from six to eight mice were pooled (total, 10ug), and treated with DNase with the RNase-Free DNase Set (Qiagen). RNA quality and quantity were determined with a Bioanalyzer 2100 (Agilent Technologies). In brief, 200 ng of total RNA was labeled with Cy3 using the SurePrint G3 Mouse Gene Expression v2 8x60K Microarray Kit (Agilent) at the DNA-chip Development Center for Infectious Diseases (University of Osaka). After background subtraction, quartile normalization was performed with the limma package in R (R Development Core Team [2011]).
+
+PLATFORM
+GPL21163 Agilent-074809 SurePrint G3 Mouse GE v2 8x60K Microarray [Probe Name version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

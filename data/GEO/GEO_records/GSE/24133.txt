@@ -1,0 +1,18 @@
+TITLE
+Pausing of RNA polymerase II disrupts DNA-specified nucleosome organization to enable precise gene regulation: Expression data
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Metazoan transcription is controlled through either coordinated recruitment of transcription machinery to the gene promoter, or subsequently, through regulated pausing of RNA polymerase II (Pol II) in early elongation. We report that a key difference between genes that use these distinct regulatory strategies lies in the chromatin architecture specified by their DNA sequences. Pol II pausing is prominent at highly-regulated genes whose sequences inherently disfavor nucleosome formation within the gene, but favor nucleosomal occlusion of the promoter. Pausing of polymerase maintains these genes in an active state by inhibiting the formation of repressive promoter chromatin. In contrast, promoters of housekeeping genes that lack paused Pol II are deprived of nucleosomes regardless of polymerase binding, but show higher nucleosome occupancy downstream. Our results suggest that the “default” chromatin state of a gene instructs its regulation, and that highly-regulated promoters have evolved to encourage competition between nucleosomes and paused Pol II for promoter occupancy.
+
+DESIGN
+Drosophila melanogaster S2 cells (Drosophila Genomics Resource Center) were untreated, or treated with dsRNA for 96 hours, as described in Armknecht, S. et al. (2005) Methods in Enzymology, 392: pp. 55-73. Total RNA was then extracted using the RNeasy RNA extraction kit, with on column DNAse digestion (Qiagen), according to manufacturer’s protocol. Gene expression analysis was conducted using Drosophila Genome 2.0 Genechip® arrays (Affymetrix, Santa Clara, CA). Starting with 1ug of total RNA, biotin-labeled cRNA was produced using the Affymetrix 3’ Amplification One-Cycle Target labeling kit according to manufacturer’s protocol. For each array, 10ug of amplified cRNAs were fragmented and hybridized to the array for 16 hours in a rotating hybridization oven using the Affymetrix Eukaryotic Target Hybridization Controls and protocol. Slides were stained and washed as indicated in the Antibody Amplification Stain for Eukaryotic Targets protocol using the Affymetrix Fluidics Station FS450. Arrays were then scanned with an Affymetrix Scanner 3000 and data was obtained using either Genechip® Operating Software (Version 1.2.0.037) or Affymetrix GeneChip Command Console (V. 1.1) and imported into the Rosetta Resolver system (Version 6.0) as outlined in the scan and data processing protocols.
+
+PLATFORM
+GPL1322 [Drosophila_2] Affymetrix Drosophila Genome 2.0 Array
+
+CITATIONS
+21074046
+

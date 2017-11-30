@@ -1,0 +1,18 @@
+TITLE
+Small RNAs from dcl3 and rdr6 mutants of Physcomitrella
+
+ORGANISM
+Physcomitrella patens
+
+SUMMARY
+Endogenous 24nt short interfering RNAs (siRNAs) derived mostly from intergenic and repetitive genomic regions constitute a major class of endogenous small RNAs in Arabidopsis thaliana.  Accumulation of A. thaliana 24nt siRNAs requires the Dicer family member DCL3, and clear homologs of DCL3 exist in both flowering and non-flowering plants.  However, the absence of a conspicuous 24nt peak in the total RNA populations of several non-flowering plants has raised the question of whether this class of siRNAs might, in contrast to the ancient 21nt microRNAs (miRNAs) and 21-22nt trans-acting siRNAs (tasiRNAs), be an angiosperm-specific innovation.  Analysis of non-miRNA, non-tasiRNA hotspots of small RNA production within the genome of the moss Physcomitrella patens revealed multiple loci which consistently produced a mixture of 21-24nt siRNAs with a peak at 23nts.  These Pp23SR loci were significantly enriched in transposon content, depleted in overlap with annotated genes, and typified by dense concentrations of the 5-methyl cytosine (5mC) DNA modification.  Deep sequencing of small RNAs from two independent Ppdcl3 mutants showed that the P. patens DCL3 homolog is required for the accumulation of 22-24nt siRNAs, but not 21nt siRNAs, at Pp23SR loci.  The 21nt component of Pp23SR-derived siRNAs was also unaffected by a mutation in the RNA-dependent RNA polymerase mutant Pprdr6.  Transcriptome-wide, Ppdcl3 mutants specifically failed to accumulate 23 and 24nt small RNAs from repetitive regions.  We conclude that intergenic/repeat-derived siRNAs are indeed a broadly conserved, distinct class of small regulatory RNAs within land plants.  Our results also suggest that Pp DCL3 produces siRNAs of heterogenous size, unlike its A. thaliana homolog which generates exclusively 24nt siRNAs.
+
+DESIGN
+Small RNAs from Wild-type (two technical replicates), rdr6-19 (two technical replicates), dcl3-5 (one sample), and dcl3-10 (one sample) were sequenced using a Solexa GA.  Three different linkers were used for different samples and mixed prior to sequencing. linker 1: CTGTAGGCACCATCAAT (GPL7174 AND GSM313212, GSM313213) linker 2: CACTCGGGCACCAAGGA (GPL7175 AND GSM313214, GSM313215) linker 3: TTTAACCGCGAATTCCAG (GPL7176 AND GSM313216, GSM313217) Raw data: Two FASTQ files represent the raw data underlying the processed sample data in GSE12468. 080616_s_7_seq_GAK-2.fastq corresponds to GSM313212, GSM313214, and GSM313216. 080616_s_8_seq_GAK-3.fastq corresponds to GSM313213, GSM313215, and GSM313217. Experimentally, samples GSM313212, GSM313214, and GSM313216 (i.e., all three genotypes) were sequenced in the same run (hence the same FASTQ file).  The sequencing run was a mixture of three different libraries with different linker sequences (as indicated above). These 'barcoded' samples were computationally extracted based on the linker sequences.  This is also true for samples GSM313213, GSM313215, and GSM313217. Raw data were filtered to identify small RNAs associated with each linker.  Subsequently, small RNAs were filtered to remove rRNA fragments.  The remainder were mapped to the Physcomitrella patens draft genome version 1.2 (using oligomap) and filtered to retain only those with one or more perfect match.  See Cho et al. for details.
+
+PLATFORM
+GPL9391 Illumina Genome Analyzer (Physcomitrella patens)
+
+CITATIONS
+19096705
+

@@ -1,0 +1,18 @@
+TITLE
+REST Couples Loss of Pluripotency with Neural Induction and Neural Differentiation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Neural differentiation of embryonic stem cells (ESCs) requires coordinated repression of the pluripotency regulatory programme and reciprocal activation of the neurogenic regulatory programme. Upon neural induction, ESCs rapidly repress expression of pluripotency genes followed by staged activation of neural progenitor and differentiated neuronal and glial genes. The transcriptional factors that underlie pluripotency are partially characterized, whereas those underlying neural induction are much less explored, and the factors that coordinate these two developmental programs are completely unknown. One transcription factor, REST (RE1 silencing transcription factor), has been linked with terminal differentiation of neural progenitors, and more recently and controversially, with control of pluripotency. Here, we show that in the absence of REST, coordination of pluripotency and neural induction is lost and there is a resultant delay in repression of pluripotency genes and a precocious activation of both neural progenitor and differentiated neuronal and glial genes. Further, we show that REST is not required for production of radial glia-like progenitors but is required for their subsequent maintenance and differentiation into neurons, oligodendrocytes and astrocytes. We propose that REST acts as a regulatory hub that coordinates timely repression of pluripotency with neural induction and neural differentiation.
+
+DESIGN
+We have investigated the role of REST in the coupling of pluripotency and neural induction and neurogenesis using Rest-null mouse ESCs (mESCs) in conjunction with a novel mESC neural differentiation protocol. Differential expression between Rest-null ESCs and controls was tested using Illumina Mouse Ref-8 v2 BeadArray technology. Three replicates were used for Rest-null and three for control. Data analysis was performed using Bioconductor libraries beadarray and limma.
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+22162260
+

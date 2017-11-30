@@ -1,0 +1,18 @@
+TITLE
+Effect of mago nashi depletion on gene expression in Drosophila S2R+ cells
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+This study was designed to identify changes in gene expression resulting from depletion of Mago nashi (Mago), a core subunit of the exon junction complex. Drosophila S2R+ cells were treated with double-stranded RNA targeting either LacZ or Mago for 6 days. Poly(A)+ RNA was purified from each sample and sequenced using 54 bp reads on an Illumina Genome Analyzer II. Fold changes in expression were calculated for each gene as the ratio of the reads per kilobase per million reads (RPKM) for Mago relative to LacZ. In other experiments, we have shown that Mago is required for correct splicing of the MAP kinase gene and its depletion causes a large reduction in MAP kinase mRNA levels. MAP kinase is a large gene in heterochromatin. In this study, we find that heterochromatic genes are disproportionately down-regulated in Mago-depleted cells, and those with large introns are particularly likely to be affected. SRA accession number: SRP003001.1
+
+DESIGN
+Sequencing of poly(A)+ RNA from S2R+ cells treated with either lacZ (control) or mago (experimental) dsRNA
+
+PLATFORM
+GPL9061 Illumina Genome Analyzer II (Drosophila melanogaster)
+
+CITATIONS
+20946982
+

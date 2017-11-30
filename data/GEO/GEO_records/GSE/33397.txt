@@ -1,0 +1,18 @@
+TITLE
+A Ca2+/calmodulin-dependent protein kinase required for symbiotic nodule development: Gene identification by transcript-based cloning
+
+ORGANISM
+Hordeum vulgare
+
+SUMMARY
+Trancript Based Cloning (TBC) uses standard Gene Expression techniques to quickly isolate genes of interest and begin to determine their function. Using a particular mutant phenotype, identified during a programme of mutagenesis and screning, and a wild-type control we can quickly determine a list of genes that is likely to contain the gene responsible for the phenotype.  TBC is a general method for identifying and cloning important plant genes that is fast and may be applicable to almost any plant species  Transcript abundance assays on the barley rar1-2 mutant and Sultan5 wild type were performed by using standard methods for the Affymetrix barley genome array (Affymetrix). For each genotype, two independent biological replicates were analyzed and pooled for analysis.  Data were analyzed with DCHIP VERSION 1.3 (www.dchip.org),using data from only perfect-match oligonucleotides. Model-based analysis was performed by using perfect match-only analysis, compiling data from two biological replicates for each condition. Pairwise comparisons were analyzed for each condition, and a lower 90% confidence bound (LCB) and fold change were determined for each comparison. Gene expression changes were considered significant if the LCB was 1.4-fold or higher and if the intensities between the two conditions differed by > 100.   ****[PLEXdb( http://www.plexdb.org ) has submitted this series at GEO on behalf of the original contributor,  james hadfield.  The equivalent experiment is BB5 at PLEXdb.]
+
+DESIGN
+genotype: rar1-2 (mutant)(2-replications);  genotype: Sultan 5 (wild type)(2-replications)
+
+PLATFORM
+GPL1340 [Barley1] Affymetrix Barley Genome Array
+
+CITATIONS
+15070781
+

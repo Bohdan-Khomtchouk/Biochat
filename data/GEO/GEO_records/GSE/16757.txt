@@ -1,0 +1,18 @@
+TITLE
+Gene expression study in hepatocellular carcinoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression data from 100 human hepatocellular carcinomas (HCC) were generated and analyzed as part of effort for validating prognostic gene expression signatures from previous studies. Using four different classification algorithms and leave-one-out cross-validation approaches, four different prognostic signatures were applied to test the robustness and concordance of predicted outcome in individual patients.  All four tumor-derived signatures were significantly associated with prognosis and had a high rate of concordance with predicted outcomes for individual patients.
+
+DESIGN
+Total RNA was extracted from the fresh frozen tissues of 100 HCC. Five-hundred nanograms of total RNA were used for labeling and hybridization, according to the manufacturer’s protocols (Illumina). After the bead chips were scanned with an Illumina BeadArray Reader (Illumina), the microarray data were normalized using the quantile normalization method in the Linear Models for Microarray Data package in the R language environment.   The expression level of each gene was transformed into a log 2 base before further analysis.
+
+PLATFORM
+GPL6102 Illumina human-6 v2.0 expression beadchip
+
+CITATIONS
+22105560 , 26459179 , 26389641
+

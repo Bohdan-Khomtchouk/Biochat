@@ -1,0 +1,18 @@
+TITLE
+Deep Sequence Analysis of the Relationship between Gene Expression, CpG Island Methylation, and Gene Copy Number in Breast Cancer Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We used deep sequencinge technology to profile the transcriptome, gene copy number, and CpG island methylation status simultaneously in eight commonly used breast cell lines to develop a model for how these genomic features are integrated in estrogen receptor positive (ER+) and negative breast cancer. Total mRNA sequence, gene copy number, and genomic CpG island methylation were carried out using the Illumina Genome Analyzer. Sequences were mapped to the human genome to obtain digitized gene expression data, DNA copy number in reference to the non-tumor cell line (MCF10A), and methylation status of 21,570 CpG islands to identify differentially expressed genes that were correlated with methylation or copy number changes. These were evaluated in a dataset from 129 primary breast tumors. Gene expression in cell lines was dominated by ER-associated genes. ER+ and ER- cell lines formed two distinct, stable clusters, and 1,873 genes were differentially expressed in the two groups. Part of chromosome 8 was deleted in all ER- cells and part of chromosome 17 amplified in all ER+ cells. These loci encoded 30 genes that were overexpressed in ER+ cells; 9 of these genes were overexpressed in ER+ tumors. We identified 149 differentially expressed genes that exhibited differential methylation of one or more CpG islands within 5kb of the 5' end of the gene and for which mRNA abundance was inversely correlated with CpG island methylation status. In primary tumors we identified 84 genes that appear to be robust components of the methylation signature that we identified in ER+ cell lines. Our analyses reveal a global pattern of differential CpG island methylation that contributes to the transcriptome landscape of ER+ and ER- breast cancer cells and tumors. The role of gene amplification/deletion appears to more modest, although several potentially significant genes appear to be regulated by copy number aberrations.
+
+DESIGN
+8 commonly used breast cancer cell lines were sequenced for mRNA expression, CpG methylation and DNA copy number
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+21364760
+

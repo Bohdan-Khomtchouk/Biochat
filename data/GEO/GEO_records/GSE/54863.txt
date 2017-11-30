@@ -1,0 +1,18 @@
+TITLE
+FIREWACh: High-throughput Functional Detection of Transcriptional Regulatory Modules in Mammalian Cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We report a new method called FIREWACh (Functional Identification of Regulatory Elements Within Accessible Chromatin), a high-throughput functional assay for directly identifying active promoter and enhancer elements. FIREWACh simultaneously assessed over 80,000 DNA fragments derived from “nucleosome-free regions” within embryonic stem cell (ESC) chromatin to identify 6,364 new active regulatory elements.  Many FIREWACh DNAs represent newly discovered ESC-specific enhancers and their analyses identified enriched binding site motifs for ESC transcription factors including SOX2, POU5f1 (OCT4), and KLF4. Thus FIREWACh identifies endogenous regulators of gene expression and can be used for the discovery of key cell-specific transcription factors. The application of FIREWACh to additional cultured cell types will facilitate functional annotation of the genome and expand our view of transcriptional network dynamics.
+
+DESIGN
+Nucleosome free DNA (i.e. " open chromatin " ) is isolated enzymatically from cross-linked nuclei of cells (e.g. mouse embryonic stem cells, mESC) and cloned upstream of a minimal promoter driving GFP within a lentivral reporter construct. Virus is made from a pooled library of these plasmids, and used to transfect the target cell (mESC). GFP positive cells contain active NFRs and can be sorted by FACS. The loci of the NFR is determined using high throughput sequencing and mapping.
+
+PLATFORM
+GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+24658142
+

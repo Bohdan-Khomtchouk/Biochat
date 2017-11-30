@@ -1,0 +1,18 @@
+TITLE
+RNA immunoprecipitation and sequencing of ILF2-bound transcripts in Multiple Myeloma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To understand the mechanistic basis of ILF2’s regulation of mRNA splicing in response to DNA damage in Multiple Myeloma, we performed RNA immunoprecipitation (RIP) and sequencing of ILF2-bound transcripts under both physiological and DNA damage (melphalan treatment) conditions. Cells were treated with melphalan for 10 hours. RNA immunopreciptation (RIP) and sequencing of ILF2-bound RNAs was performed in the JJN3 and H929 cell lines (two biological replicates/condition). Cells were treated with melphalan for 10 hours.
+
+DESIGN
+RNA immunoprecipitation (RIP) analyses were performed on untreated or melphalan treated JJN3 and H929 cells using anti-ILF2 (Abcam, ab113205) or anti-YB-1 (Abcam, ab12148) antibodies. In brief, cells were cross-linked in 0.1% formaldehyde for 10 min prior to harvest and lysis. RIP was performed using the Magna RIP RNA-binding protein immunoprecipitation kit (Millipore) according to the manufacturer’s instructions. RNA in each eluted sample was sequenced. Libraries were constructed using the Ovation RNA-Seq System V2 (Nugen) according to the manufacturer’s instructions. Reads were mapped to the human genome (GRCh38) using STAR . Isoform abundances were quantified using Cufflinks (version 2.2.1) . Low-abundance isoforms in the immunoprecipated samples (Fragments Per Kilobase of transcript per Million mapped reads [FPKM] < 3) were excluded. Isoforms with significantly increased ILF-2 or YB-1 binding were identified using a q value < 0.05 and a fold change > 1.5 as cutoffs between the input and immunoprecipitate of each sample.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

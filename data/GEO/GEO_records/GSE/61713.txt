@@ -1,0 +1,18 @@
+TITLE
+HDACs and Phosphorylated Pol II CTD recruit Spt6 for cotranscriptional histone reassembly
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Spt6 is a multifunctional histone chaperone involved in the maintenance of chromatin structure during elongation by RNA polymerase II (Pol II). Spt6 has a tandem SH2 (tSH2) domain within its C-terminus that recognizes Pol II CTD peptides phosphorylated on Ser2, Ser5 or Try1 in vitro. Deleting the tSH2 domain, however, only has a partial effect on Spt6 occupancy in vivo, suggesting that more complex mechanisms are involved in the Spt6 recruitment. Our results show that the Ser2 kinases Bur1 and Ctk1, but not the Ser5 kinase Kin28, cooperate in recruiting Spt6, genome-wide. Interestingly, the Ser2 kinases promote the association of Spt6 in early transcribed regions and not toward the 3' end of genes, where phosphorylated Ser2 reaches its maximum level. Additionally, our results uncover an unexpected role for histone deacetylases (Rpd3 and Hos2) in promoting Spt6 interaction with elongating Pol II. Finally, our data suggest that phosphorylation of the Pol II CTD on Tyr1 promotes the association of Spt6 with the 3' end of transcribed genes, independently of Ser2 phosphorylation. Collectively, our results show that a complex network of interactions, involving the Spt6 tSH2 domain, CTD phosphorylation and histone deacetylases, coordinate the recruitment of Spt6 to transcribed genes in vivo.
+
+DESIGN
+We examined the genome-wide distribution (using ChIP-chip) of Spt6. Spt6 occupancy was also assayed in mutants for CTD Serine 2 and Serine 5 kinases and in mutants for histone deacetylases.  ChIPs were performed with a Myc-tagged version of Spt6. Most ChIPs (in Cy5) were hybridyzed against a control ChIP sample from an isogenic non-tagged strain (in Cy3). In the ChIP experiments with the spt6-202del mutant, non immunoprecipitated DNA (input) was used as the control. In addition to Spt6 ChIPs, the project includes RNAPII (Rpb3) ChIP-chip datasets, where an anti-Rpb3 antibody was used to ChIP RNAPII and non immunoprecipitated DNA (input) was used as the control. All ChIP-chip experiments were done in duplicates. Each microarray was normalized using the Lima Loess and replicates were combined using a weighted average method as previously described (Pokholok et al., 2005).
+
+PLATFORM
+GPL18340 Agilent-034462 Yeast_4x180K
+
+CITATIONS
+25182531
+

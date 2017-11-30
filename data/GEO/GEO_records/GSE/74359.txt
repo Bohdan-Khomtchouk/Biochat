@@ -1,0 +1,18 @@
+TITLE
+A multiplexed system for quantitative comparisons of chromatin landscapes
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Genome-wide profiling of histone modifications can provide systematic insight into the regulatory elements and programs engaged in a given cell type. However, conventional chromatin immunoprecipitation and sequencing (ChIP-seq) does not capture quantitative information on histone modification levels, requires large amounts of starting material, and involves tedious processing of each individual sample. Here we address these limitations with a technology that leverages DNA barcoding to profile chromatin quantitatively and in multiplexed format. We concurrently map relative levels of multiple histone modifications across multiple samples, each comprising as few as a thousand cells. We demonstrate the technology by monitoring dynamic changes following inhibition of P300, EZH2 or KDM5, by linking altered epigenetic landscapes to chromatin regulator mutations, and by mapping active and repressive marks in purified human hematopoietic stem cells. Hence, this technology enables quantitative studies of chromatin state dynamics across rare cell types, genotypes, environmental conditions and drug treatments.
+
+DESIGN
+Five datasets are included: (1) K562 cells were treated with with DMSO, C646 or GSK126 (Fig 3C in manuscript). Three separate experiments were performed: Exp004-5 had 1 replicate, and also included libraries with mouse YAC-1 cells to check for contamination (Fig. 1D in manuscript), whereas Exp004-8 and Exp004-9 were performed in triplicate. Immunoprecipiation was performed for H3K27ac, H3K27me3 and total H3 for normalization. (2) K562 cells were treated with DMSO or KDM5-C70 (Fig 3E-J in manuscript). This experiment (Exp015-5) was performed in triplicate at 2 MNase concentrations and 2 barcodes per condition. Immunoprecipitation was performed for H3K4me3 and total H3 for normalization. All DMSO or KDM5-C70 conditions were merged for visualization (tdf). (3) K562 cells were analyzed at low input and different MNase concentrations (Fig. 1B, Fig. 2A-C in manuscript). Two separate experiments were performed: Exp004-2 had 5 MNase concentrations, 4 cell numbers, and 4 marks (H3, H3K4me3, H3K27ac and H3K27me3). Exp015-2 had 5 MNase concentrations, 4 cell numbers, and 2 marks (H3K4me3 and H3K27me3). (4) Pfeiffer, SKM-1 or Toledo cells were treated with DMSO or GSK126 (Fig. 4 in manuscript). This experiment (Exp016-3) was performed in duplicate at 2 MNase concentrations. Immunoprecipitation was performed for H3K27ac, H3K27me3 and total H3 for normalization. (5) Human HSCs were analyzed (Fig. 2D-F in manuscript). Cells were digested at 2 MNase concentrations with 2 barcodes each. Immunoprecipitation was performed for H3K27ac, H3K27me3 and H3K36me3. A total of 6,000 cells was used per mark and data was merged for visualization (tdf).
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+26687680
+

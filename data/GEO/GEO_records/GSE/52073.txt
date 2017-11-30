@@ -1,0 +1,18 @@
+TITLE
+Analysis of the recruitment of JARID2 via Xist RNA during XCI by ChIP-seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+JARID2 ChIP-seq profile mediated by Xist was investigated using two separate approaches: In the first approach, we use the TX1072 female embryonic stem cell (ESC) line; this is a genetically polymorphic ESC line derived from a mouse with one X-chromosome (X-chr) from the Mus musculus castaneus (Cast) origin and the other of Mus musculus domesticus, C57BL/6  (BL6) strain origin, containing an inducible promoter on the BL6 Xist allele; differentiation and simultaneous induction of Xist for 4 days results in the inactivation of ONLY the BL6-derived X-chr and coating by JARID2 protein. We analysed this ESC line in the undifferentiated state, in which both X-chrs are active (and not coated by JARID2), and also after 4 days of differentiation under Xist inducible conditions, in which cells display one inactive X-chr from BL6 origin and one Xa of the Cast origin; the presence of SNPs allows for the comparison of the degree and localisation of JARID2 enrichment on the inactive X-chr versus the active X-chr; our results suggests that JARID2 is enriched on the inactive X-chr chromosome-wide and not in confined peaks as elsewhere in the genome; This pattern resembles patterns of Xist enrichment published before (Engreitz et al., 2013).  In the second approach, we use a male ESC line that carries an inducible Xist transgene (TG) on chromosome 11 (chr11) (Wutz et al., 2000) in the presence (36:11 WT) or the absence of Eed (36:11 Eed-/-) Induction of Xist TG results in Xist coating and enrichment of JARID2 across the chr11, regardless of the presence of Eed when assess by IF/Xist RNA FISH experiments. We compare inducible and uninducible condition in both the 36:11 WT and Eed-/- ESCs; this way, we could assess the Xist-mediated JARID2 recruitment and the effect of the absence of Eed-/-; Our results shows that Xist induction result in a chromosome-wide enrichment of JARID2 on chr11, in a manner that resembles enrichment on the inactive X-chr; this pattern seem to be independent of EED, showing that in contrast to other regions in the genome where JARID2 occupancy is abrogated in the absence of EED, Xist-mediated JARID2 recruitment is not affected.
+
+DESIGN
+JARID2 ChIP-seq analysis in differentiating female ESCs (TX1072) and in a male ESC harbouring a Xist transgene on chromosome 11 in WT and Eed-/- genetics settings
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+24462204
+

@@ -1,0 +1,18 @@
+TITLE
+Inferring drug-induced gene regulatory relationships in primary human hepatocytes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Statins are widely used cholesterol-lowering drugs that inhibit HMG-CoA reductase, a key enzyme in cholesterol synthesis. In some cases, however, these drugs may cause a number of toxic side effects in hepatocytes and skeletal muscle tissue. Currently, the specific molecular mechanisms that cause these adverse effects are not sufficiently understood. In this work, genome-wide RNA expression changes in primary human hepatocytes of six individuals were measured at five time points upon atorvastatin treatment. A novel systems-level analysis workflow was applied to reconstruct regulatory mechanisms based on these drug-response data and available knowledge about transcription factor binding specificities, protein-protein interactions and protein-drug interactions. Several previously unknown transcription factors, regulatory cofactors and signaling molecules were found to be involved in atorvastatin-responsive gene expression. Some novel relationships, e.g., the regulatory influence of nuclear receptor NR2C2 on CYP3A4, were successfully validated in wet-lab experiments.
+
+DESIGN
+Whole-genome Affymetrix U133 Plus 2.0 (Affymetrix, Santa Clara, CA) microarray measurements were conducted using samples of primary human hepatocytes cultured from six individuals (i.e., hh62, hh65, hh67, hh79, hh80 and hh81). Each sample was treated with atorvastatin and dimethylsulfoxide (DMSO), which was used as a control substance. Microarray measurements were performed at five time points (6 h, 12 h, 24 h, 48 h and 72 h) after the drug stimulus.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+21757465
+

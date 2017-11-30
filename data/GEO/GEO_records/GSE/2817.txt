@@ -1,0 +1,18 @@
+TITLE
+Wavelet modelling of microarray data provides chromosomal pattern of expression which predicts survival in gliomas
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genetic and epigenetic processes result in gene expression changes through alteration of the chromatin structure.  The relative position of genes on chromosomes has therefore important functional implications and can be exploited to model microarray datasets.  Gliomas are the most frequent primary brain tumours in adults and their prognosis is related to histology and grade.  In  oligodendrogliomas, allelic loss of 1p/19q and hypermethylation of MGMT promoter is associated with longer survival and chemosensitivity.  In this work we used oligonucleotide microarray to study a group of 30 gliomas with various oligodendroglial and astrocytic components.  We used an original approach combining a wavelet model of inter-probe genomic distance (CHROMOWAVE) and unsupervised method of analysis (Singular Value Decomposition) in order to discover new prognostic chromosomal patterns of gene expression.  We identified a major pattern of variation that strongly correlated with survival (p= 0.007) and could be visualized as a genome-wide chromosomal pattern including widespread gene expression changes on 1p, 19q, 4, 18, 13 and 9q and multiple smaller clusters scattered along chromosomes.  Gene expression changes on chromosomes 1p, 19q and 9q were significantly correlated with the allelic loss of these regions as measured by FISH.  Differential expression of genes implicated in drug resistance was also a feature of this chromosomal pattern and in particular low expression of MGMT was correlated with favourable prognosis (p < 0.0001).  Remarkably, unsupervised analysis of the expression of individual genes and not of their chromosomal ensemble produced a pattern that could not be associated with prognosis, emphasizing the determinant role of the wavelet mathematical modelling. Keywords: wavelet, glioma, unsupervised
+
+DESIGN
+Unsupervised analysis using wavelet models of 30 diffuse gliomas
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+17140431
+

@@ -1,0 +1,18 @@
+TITLE
+Molecular mechanism underlying the regulatory specificity of a Drosophila homeodomain protein that specifies myoblast identity
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+A subfamily of Drosophila homeodomain (HD) transcription factors (TFs) controls the identities of individual muscle founder cells (FCs). However, the molecular mechanisms by which these TFs generate unique FC genetic programs remain unknown. To investigate this problem, we first applied genome-wide mRNA expression profiling to identify genes that are activated or repressed by the muscle HD TFs Slouch (Slou) and Muscle segment homeobox (Msh). Next, we used protein binding microarrays to define the sequences that are bound by Slou, Msh and other HD TFs having mesodermal expression. These studies revealed that a large class of HDs, including Slou and Msh, predominantly recognize TAAT core sequences but that each HD also binds to unique sites that deviate from this canonical motif. To better understand the regulatory specificity of an individual FC identity HD, we evaluated the functions of atypical binding sites that are preferentially bound by Slou relative to other HDs within muscle enhancers that are either activated or repressed by this TF. These studies showed that Slou regulates the activities of particular myoblast enhancers through Slou-preferred sequences, whereas swapping these sequences for sites that are capable of binding to multiple HD family members does not support the normal regulatory functions of Slou. Moreover, atypical Slou binding sites are overrepresented in putative enhancers associated with additional Slou-responsive FC genes. Collectively, these studies provide new insights into the roles of individual HD TFs in determining cellular identity, and suggest that the diversity of HD binding preferences can confer regulatory specificity.
+
+DESIGN
+10 Protein binding microarray (PBM) experiments of Drosophila transcription factors were performed. Briefly, the PBMs involved binding GST-tagged fly transcription factors to double-stranded 44K Agilent microarrays in order to determine their sequence preferences. The method is described in Berger et al., Nature Biotechnology 2006 (PMID: 16998473). A key feature is that the microarrays are composed of de Bruijn sequences that contain each 10-base sequence once and only once, providing an evenly balanced sequence distribution. Individual de Bruijn sequences have different properties, including representation of gapped patterns. The array probe sequences on the custom array design used in this study were reported previously in Berger et al., Cell 2008 (PMID: 18585359) and are available via an academic research use license.  Here we provide the data transformed into median signal intensities (after normalization and detrending of the original array data) for all 32,896 8-base sequences, Z-scores for these intensities, and E-scores. E-scores are a modified version of AUC, and describe how well each 8-mer ranks the intensities of the spots. 'Keep fraction' (kf) parameter setting of 0.9 was used to calculate E-scores. In general the E-scores are slightly more reproducible than Z-scores, but contain less information about relative binding affinity. Additional experimental details are found in Berger et al., Nature Biotechnology 2006 (PMID: 16998473), and the accompanying Supplementary information.
+
+PLATFORM
+GPL6796 UT/TH_all-8mer-v1
+
+CITATIONS
+22296846
+

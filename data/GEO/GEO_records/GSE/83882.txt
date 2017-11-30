@@ -1,0 +1,18 @@
+TITLE
+Simultaneous measurement of chromatin accessibility, DNA methylation, and nucleosome phasing in single cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gaining insights into the regulatory mechanisms that underlie the pervasive transcriptional variation observed between individual cells necessitates the development of methods that measure chromatin organization in single cells. Nucleosome Occupancy and Methylome-sequencing (NOMe-seq) employs a GpC methyltransferase to detect accessible chromatin and has been used to map nucleosome positioning and DNA methylation genome-wide in bulk samples. Here I provide proof-of-principle that NOMe-seq can be adapted to measure chromatin accessibility and endogenous DNA methylation in single cells (scNOMe-seq). scNOMe-seq recovered characteristic accessibility and DNA methylation patterns at DNase Hypersensitive sites and enabled direct estimation of the number of accessible DHS sites within an individual cell. In addition, scNOMe-seq provided high resolution of chromatin accessibility within individual loci which was exploited to detect footprints of CTCF binding and to estimate the average nucleosome phasing distances in single cells.
+
+DESIGN
+Single cell study of chromatin organization using GpC methyltransferase in 19 GM12878 cells (inlcuding 7 controls without GpC methyltransferase treatment) and 11 K562 cells.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+28653622
+

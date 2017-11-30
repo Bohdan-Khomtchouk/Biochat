@@ -1,0 +1,18 @@
+TITLE
+Chromatin Remodeling Inactivates Activity Genes and Regulates Neural Coding
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Activity-dependent transcription influences neuronal connectivity, but the roles and mechanisms of inactivation of activity-dependent genes have remained poorly understood. Genome-wide analyses in the mouse cerebellum revealed that the nucleosome remodeling and deacetylase (NuRD) complex deposits the histone variant H2A.z at promoters of activity-dependent genes, thereby triggering their inactivation. Purification of translating mRNAs from synchronously developing granule neurons (Sync-TRAP) showed that conditional knockout of the core NuRD subunit Chd4 impairs inactivation of activity-dependent genes when neurons undergo dendrite pruning. Chd4 knockout or expression of NuRD-regulated activity genes impairs dendrite pruning. Imaging of behaving mice revealed hyperresponsivity of granule neurons to sensorimotor stimuli upon Chd4 knockout. Our findings define an epigenetic mechanism that inactivates activity-dependent transcription and regulates dendrite patterning and sensorimotor encoding in the brain.
+
+DESIGN
+One or two replicates of the histone modifications (H3K27me3 and H2A.z), total histone proteins (H2A.z and H3), and ATPase Chd4 using postnatal day 22 cerebella from wild type (WT) or Chd4 conditional knockout (cKO) mice were examined using libraries prepared with the Illumina ChIP-Seq DNA Sample Prep Kit. Four replicates of total RNA were extracted from postnatal day 27-28 cerebella from rotarod-trained or control homecage mice, or Chd4 cKO or WT mice using Trizol and reverse-transcribed with oligo-dT priming. Three replicates of immunoprecipitated Sync-TRAP RNA or the input control using postnatal day 12 Chd4 cKO or WT cerebella were purified and amplified with Ovation RNA-Seq System V2 (NuGEN). All samples were sequenced on the Illumina HiSeq 2000 platform.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+27418512
+

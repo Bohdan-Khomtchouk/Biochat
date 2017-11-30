@@ -1,0 +1,18 @@
+TITLE
+Next generation sequencing facilitates quantitative analysis of changes in mRNA after knock-down of putative master regulators of the breast cancer metastasis transcriptome.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose:  To identify regulatory proteins that are potential drivers of a coordinated breast cancer metastasis gene expression signatures. Methods: Knockdown of target genes in breast cancer cell lines was achieved using scramble and/or gene-specific siRNA (ON-TARGET SMARTpool, Thermo Scientific) and Lipofectamine RNAiMAX.  48h post transfection, total RNA was isolated from cell lines using the RNeasy Plus mini prep kit (Qiagen). Nucleic acid quality was determined with the Agilent 2100 Bioanalyzer. RNA Sequencing was also performed at the New York Genome Center (Manhattan, NY, USA) using a HiSeq 2500 Ultra-High-Throughput Sequencing System (Illumina, San Diego, CA, USA). Results: Raw reads in the fastq format were aligned to Human Genome HG19 using the RNA-seq STAR aligner version 2.4.0d ( http://www.ncbi.nlm.nih.gov/pubmed/23104886, http://www.ncbi.nlm.nih.gov/pubmed/26334920 ) as recommended by user manual downloaded along with the software. STAR aligner was chosen for mapping accuracy and speed ( http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2722.html ).  Mapped reads for each sample were counted for each gene in annotation files in GTF format (gencode.v19.annotation.gtf available for download from GENECODE website ( http://www.gencodegenes.org/releases/19.html )) using the FeatureCounts read summarization program ( http://www.ncbi.nlm.nih.gov/pubmed/?term=24227677 ) following the user guide ( http://bioinf.wehi.edu.au/subread-package/SubreadUsersGuide.pdf ). Individual count files were merged to generate the raw-counts matrix by an in-house R script, normalized to account for differences in library size and the variance was stabilized by fitting the dispersion to a negative-binomial distribution as implemented in the DESeq R package ( http://bioconductor.org/packages/release/bioc/html/DESeq.html )(Anders and Huber, 2010). Conclusions:  Our data suggest that targeting keystone proteins in the breast cancer metastasis transcriptome can effectively collapse transcriptional hierarchies necessary for metastasis formation, thus representing a formidable cancer intervention strategy.
+
+DESIGN
+Examination of mRNA profiling of breast cancer cell lines after knock-down of putative master regulators of the breast cancer metastasis transcriptome
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Comparison between NuGEN's WT-Ovation Pico and One-Direct Amplification Systems
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Differential gene expression between groups of homogenous cell types is a biological question whose time has come.  RNA can be extracted from small numbers of cells, such as those isolated by laser capture microdissection, but the small amounts obtained often require amplification to enable whole genome transcriptome profiling by technologies such as microarray analysis and RNA-seq.  Recently, advances in amplification procedures make amplification directly from whole cell lysates possible.  The aim of this study was to compare two amplification systems for variations in observed RNA abundance attributable to the amplification procedure for use with small quantities of cells isolated by laser capture microdissection.   Arabidopsis root cells undergoing giant cell formation due to nematode infestation and un-infested control root cells were laser captured and used to evaluate 2 amplification systems.  One, NuGEN's WT-Ovation Pico amplification system, uses total RNA as starting material while the other, NuGEN's WT-One-Direct Amplification system, uses lysate containing the captured cells.   The reproducibility of whole genome transcript profiling and correlations of both systems were investigated after microarray analysis.  The NuGEN WT-Ovation One-Direct system was less reproducible and more variable than the NuGEN WT-Ovation Pico system.  The NuGEN WT-Ovation Pico Amplification kit resulted in the detection of thousands of genes differentially expressed genes between giant cells and control cells.  This is in marked contrast to the relatively few genes detected after amplification with the NuGEN WT-Ovation One-Direct Amplification kit.
+
+DESIGN
+Evaluation of each amplification system consisted of three biological replicates per treatment (control root cells or giant cells) with one biological replicate split into three technical replicates for a total of 10 samples per amplification procedure.  RNA samples for amplification with the NuGEN WT-Ovation Pico kit were isolated from 150 control cells or from 80 giant cells using the PicoPure RNA Isolation Kit (Arcturus, Mountain View, USA).  For amplification with the NuGEN WT-Ovation One-Direct kit, samples containing 150 control or 80 giant cells were collected directly into 2ul of the NuGEN lysis buffer.  RNA amplifications were carried out according to the respective kits’ protocols.
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+20808643
+

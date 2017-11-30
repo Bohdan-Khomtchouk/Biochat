@@ -1,0 +1,18 @@
+TITLE
+High Resolution Copy Number Analysis of Paraffin Embedded Archival Tissue Using SNP BeadArrays
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+High density SNP microarrays provide insight into the genomic events that occur in diseases like cancer by their capability to measure both LOH and genomic copy numbers. Where currently available methods are restricted to the use of fresh frozen tissue, we now describe the design and validation of copy number measurements using the Illumina BeadArray platform and its application to formalin fixed, paraffin embedded (FFPE) tissue. In fresh frozen tissue, using a set of colorectal tumors with numerous chromosomal aberrations, our method measures copy number patterns that are comparable to values from established platforms, like Affymetrix GeneChip and BAC array-CGH. Moreover, paired comparisons of fresh frozen and FFPE tissue showed nearly identical patterns of genomic changes. We conclude that this method enables the use of paraffin embedded material for research into both LOH and numerical chromosomal abnormalities. These findings make the large pathological archives available for genomic analysis, which could be especially relevant for hereditary disease where fresh material from affected relatives is rarely available. Keywords: platform comparison and method development
+
+DESIGN
+Colorectal tumor tissue and corresponding normal tissue from 4 patients was used. The samples included a rectal adenoma (T514), one right-sided Dukes B (T44) and two Dukes C carcinomas (T106, T108). Copy number and genotyping was compared between the following platforms: - Illumina Sentrix BeadArrays with linkage mapping panel version IV - Affymetrix GeneChip Mapping 10K Xba1 arrays - 3.7 K LUMC BAC array The first Illumina experiment (201 suffixes) showed low intensity values, and was repeated (260 suffixes) The Sentrix plates were filled up with other patient material to process a total of 24 samples with different types of normal and affected tissue. Normal samples have been used for normalization
+
+PLATFORM
+GPL1266 [Mapping10K_Xba131] Affymetrix Human Mapping 10K SNP Array GPL2641 [Mapping10K_Xba142] Affymetrix Human Mapping 10K 2.0 Array GPL3896 Sentrix® Linkage IV Panel BeadChip GPL4012 3.7k full genome LUMC BAC array
+
+CITATIONS
+17267813
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression timecourse in clock rescue strains
+
+ORGANISM
+Synechococcus elongatus PCC 7942
+
+SUMMARY
+The goal of this experiment was to determine whether global circadian gene expression oscillation depends strictly on the presence of rpaA, even when the KaiABC post-translational oscillator is oscillating with a circadian period.  Strains deleted for rpaA lack functional KaiABC post-translational oscillators because their reduced kaiBC expression level leads to a non-permissive Kai protein stoichiometry.  We restored KaiABC post-translational oscillator function in a ΔrpaA ΔkaiBC strain by ectopic expression of kaiBC from the Ptrc promoter and used microarrays to measure the timecourse of gene expression globally.  As a control, we used microarrays to measure the gene expression timecourse in a ΔkaiBC Ptrc::kaiBC strain, in which gene expression was expected to be rhythmic (Y Murayama et al, J. Bac. 198, 2008), as it is in the pure wild-type strain.
+
+DESIGN
+Cultures were grown in a flasks bubbled with 1% CO2 in air, initially in the absence of IPTG.  Cultures were treated with two consecutive light/dark cycles and released into continuous light at time T = 0, at which time IPTG was added to a final concentration of 6 µM.  Cultures were samples every 4 hours for 44 h between T = 24 h and T = 68 h, inclusive.  Gene expression at each timepoint was compared to the time-averaged gene expression (determined using a pool of equal mass quantities of RNA from all timepoints) using a two-color Agilent microarray.
+
+PLATFORM
+GPL9534 Agilent-020846 Synechococcus elongatus PCC 7942 Oligo Microarray
+
+CITATIONS
+24315105
+

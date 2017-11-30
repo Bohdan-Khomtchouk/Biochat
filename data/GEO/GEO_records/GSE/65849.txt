@@ -1,0 +1,18 @@
+TITLE
+RIA to verify MARIO in mapping RNA-RNA interactome and RNA structures in vivo
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Many biological processes are regulated by RNA-RNA interactions 1, nonetheless it remains formidable to analyze the entire RNA interactome. We developed a method, MARIO (MApping Rna-rna Interactions in vivO), to map protein-assisted RNA-RNA interactions in vivo. By circumventing the selection for a specific RNA-binding protein 2-5, our approach vastly expands the identifiable portion of the RNA interactome. Using this technology, we mapped the RNA interactome in mouse embryonic stem cells, which was composed of 46,780 RNA-RNA interactions. The RNA interactome was a scale-free network, with several lincRNAs and mRNAs emerging as hubs. We validated an interaction between two hubs, Malat1 and Slc2a3 using single molecule RNA fluorescence in situ hybridization. Base pairing was observed at the interaction sites of long RNAs, and was particularly strong in transposonRNA-mRNA and lincRNA-mRNA interactions. This reveals a new type of regulatory sequences acting in trans. Consistent with their hypothesized roles, the RNA interaction sites were more evolutionarily conserved than other regions of the transcripts. MARIO also provided new information on RNA structures, by simultaneously revealing the footprint of single stranded regions and the spatially proximal sites of each RNA. The unbiased mapping of the protein-assisted RNA interactome with minimum perturbation of cell physiology will greatly expand our capacity to investigate RNA functions.
+
+DESIGN
+Three (3) ESC samples were treated with one (1) type of antisense oligonucleotides as is described in Kretz M. et al. (Nature. 2013 Jan 10;493(7431):231-5) to show the RNA interaction among specific RNAs and verify the results from MARIO
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27338251
+

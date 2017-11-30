@@ -1,0 +1,18 @@
+TITLE
+Whole-genome Haplotype Reconstruction using Proximity-ligation and Shotgun Sequencing
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Rapid advances in high-throughput DNA sequencing technologies are accelerating the pace of research into personalized medicine. While methods for variant discovery and genotyping from whole genome sequencing (WGS) datasets have been well established, linking variants together into a single haplotype remains a challenge. An understanding of complete haplotypes of an individual will help clarify the consequences of inheriting multiple alleles in combination, identify novel disease associations, and augment studies of gene regulation. Although numerous methods have been developed to reconstruct haplotypes from WGS data, chromosome-span haplotypes at high resolution have been difficult to obtain. Here we present a novel method to accurately reconstruct chromosome-span haplotypes from proximity-ligation and DNA shotgun sequencing. We demonstrate the utility of this approach in producing high-resolution chromosome-span haplotype phasing in mouse and human. While proximity-ligation based methods were originally designed to investigate spatial organization of the genome, our results lend support for their use as a general tool for haplotyping in the future.
+
+DESIGN
+Hi-C experiments in two replicates of Human GM12878 Lymphoblastoid cells and two replicates of F123 mouse ES cells (4 total samples)
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+24185094
+

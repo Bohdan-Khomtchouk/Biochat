@@ -1,0 +1,18 @@
+TITLE
+Genome-wide DNA methylation analyses by the HELP assay
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The HELP tagging assay was performed on purified genomic DNAs. The protocol was modified for NEBNext Multiplex Oligos for Illumina (NEB) from the original protocol4 ( http://wasp.einstein.yu.edu/index.php/Protocol:HELP_tagging ). Briefly, genomic DNA was digested by HpaII or MspI, the former only cutting at CCGG sequences where the central CG dinucleotide is unmethylated. AS and AE adapters were prepared by annealing two oligo DNAs separately. The first Illumina AE adapter was ligated to the compatible cohesive end created, juxtaposing an EcoP15I site beside the HpaII/MspI digestion site and allowing EcoP15I to digest within the flanking genomic DNA sequence. An A-overhang was created, allowing the ligation of the second Illumina AS adapter. This created both AE-insert-AS products and AS-insert-AS molecules. By performing a T7 polymerase-mediated in vitro transcription from a promoter sequence located on the AE adapter, we selectively enriched for the AE-insert-AS product. PCR amplification by NEBNext Multiplex Oligos was performed to generate a single-sized amplicons for Illumina sequencing.
+
+DESIGN
+DNA methylation in Zscan4 positive and negative cells
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+26324425
+

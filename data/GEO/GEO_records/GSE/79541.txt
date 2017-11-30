@@ -1,0 +1,18 @@
+TITLE
+cis regulated role of lncRNA in transcriptional or developmental process (ChIRP-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We report that long noncoding RNAs contribute to transcription and developmental process. Thousands of lncRNAs have been identified in the whole genome, and tend to located closely to protein-coding genes. To study position relationship between lncRNA and protein-coding genes, we classified all of lncRNA to several subgroups based on the genome position with their coding neighbors. XH, the head to head subgroup is associated with transcription and development in GO analysis. Here, we knockdown serveral XH lncRNA by shRNA in embryonic stem cells and induce nondirectional differnetiation by removing LIF or neural differnetiation by RA. Knockdown of XH lncRNAs led to uniform downregulation of nearby coding genes, and form regulatory circuits with its nearby coding genes to fine-tune embryonic lineage development. In addition, we also knockout one lncRNA-Evx1as and its nearby protein-coding gene-EVX1 by CRISPR, and get similar results as knockdown.We propose that XH lncRNA may function primarily as 'cis-regulators' of the expression of nearby protein-coding genes, and tend to participate in transcriptional or development regulations as their coding neighbors.
+
+DESIGN
+All RNA-seq(s) were designed to reveal the differentially expressed genes between wild-type and XH lncRNA knockdown/knockout ESCs during differentiation.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26996597
+

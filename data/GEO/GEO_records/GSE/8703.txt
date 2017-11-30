@@ -1,0 +1,18 @@
+TITLE
+Nuclear Localization of Hog1 MAPK is Not Necessary for Resistance to Hyperosmotic Stress
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+In budding yeast, this signaling pathway—  the high-osmolarity glycerol (HOG) response  —culminates in dual phosphorylation and nuclear translocation of the MAPK, Hog1 (ortholog of mammalian p38/SAPK).  Induction of at least 50 genes requires nuclear Hog1, implying that transcriptional up-regulation is necessary to cope with hyperosmotic stress.  Contrary to this expectation, we found that cells lacking the karyopherin (Nmd5) required for Hog1 nuclear import or in which Hog1 was permanently anchored at the plasma membrane(HOG1-CCAAX) (or both) withstood hyperosmotic challenge by three different solutes (1 M sorbitol, KCl or NaCl).  In cells where activated Hog1 is excluded from the nucleus, there was little change in transcriptional program after exposure to hyperosmotic shock (comparable to hog1∆ cells), as judged by examining several diagnostic mRNAs and by global transcript measurements using microarrays.  Systematic genetic analysis ruled out the need for any transcription factor known to be influenced by Hog1 (Hot1, Msn2, Msn4, Sko1 and Smp1). Keywords: Time course of stress response gene expression array
+
+DESIGN
+The transcriptomes' of HOG1-GFP, hog1del, and HOG1-CCAAX strains before and after 60 min hyperosmotic shock with 1M sorbitol at 25C were compared.  Three biological replicates were done, with the first biological replicate done in technical triplicate, and the final two biological replicates beind done in technical duplicate by in slide duplication of features. Several supplementary files attached to the Series are summarized below: GSE8703 B1, B2, B3 Tscombined_matrix files show the averages of the technical replicates for each biological replicate. GSE8703 B1, B2, B3 norm_to_0_matrix files show the fold change over the time course (log2 time 60 - log2 time 0) for each of the three strains in each biological replicate. GSE8703 Figure_S6 shows the 30 genes with the most significant difference between the HOG1-GFP strain and the hog1del strain as determined by SAM. Genes were identified as: > 3 fold induction in HOG1-GFP over 60 minute hyperosmotic shock and < 3 fold induction in hog1del over 60 minute hyperosmotic shock.
+
+PLATFORM
+GPL5709 Cerevisiae Operon Ybox and Aros UCSF
+
+CITATIONS
+18719124
+

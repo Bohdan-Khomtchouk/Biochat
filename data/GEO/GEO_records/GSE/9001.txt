@@ -1,0 +1,18 @@
+TITLE
+Whole body transcriptional response of female fruitflies to juvenile hormone
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Juvenile hormone (JH) and 20-hydroxy-ecdysone (20E) are highly versatile hormones, coordinating development, growth, and reproduction in insects. Pulses of 20E provide key signals for initiating developmental and physiological transitions, while JH promotes or inhibits these signals in a stage-specific manner. Previous evidence suggests that JH and 20E might modulate innate immunity, but whether and how these hormones interact to regulate the immune response remains unclear. Here we show that JH and 20E have antagonistic effects on the expression of antimicrobial peptides (AMPs) in Drosophila melanogaster. In S2* cells challenged with bacterial peptidoglycans, 20E induces promoter activity and expression of AMPs in a dose-dependent manner, while JH III and its synthetic analogs (JHa) methoprene and pyriproxyfen abolish this 20E-dependent response. Using microarrays and GFP reporter gene assays in adult flies, we confirm that JH is a hormonal immuno-suppressor in vivo. When silencing both partners of the ecdysone receptor (EcR ) / ultraspiracle (USP) heterodimer with RNAi in S2* cells, 20E fails to activate Diptericin (Dpt) expression, suggesting that 20E regulates expression of this gene through EcR / USP signaling. In contrast, silencing methoprene-tolerant (MET), a candidate JH receptor, does not impair the immuno-suppressive action of JH III and JHa, indicating that in this context MET does not function as a JH receptor. Our results suggest that the balance of 20E and JH is a major determinant of immune homeostasis in insects. Keywords: Topical hormone treatment of whole flies
+
+DESIGN
+To examine the transcriptional response of y, w flies to treatment with exogenous JH, we performed a microarray experiment on females treated with JH or solvent (control). Flies were grown on regular yeast diet, switched to no-yeast food within one hour of eclosion, and yeast-starved for 5 days posteclosion to lower their endogenous JH titer and to synchronize their physiology (cf. Tu and Tatar, 2003; Gershman et al., 2007). Subsequently, we anesthetized flies on ice and topically treated them with 0.1 ul of 187 mM JH III in acetone or with 0.1 ul 100% acetone (control) using a 1 ul Hamilton syringe with a repeating dispenser. 12 hours after hormone administration, samples were snap-frozen in liquid nitrogen and stored at -80°C. RNA was isolated from samples (2 JH samples, 2 control samples, each with 30 females) by lysis, as described in Gershman et al. (2007). cDNA products were hybridized at the Brown University Genomics Core Facility to Affymetrix GeneChip Drosophila_1 Genome Arrays (2 replicate chips per treatment). The dataset consisted of 14,009 probe sets, with 6,142 probe sets annotated. Expression data were analyzed for significant over- or underrepresentation of gene ontology (GO) terms with the web application FatiGO (Al-Shahrour et al., 2004), using a two-fold change criterion. To test whether JH treatment significantly suppresses expression of AMPs we used t-tests implemented in JMP IN 5.1.
+
+PLATFORM
+GPL72 [DrosGenome1] Affymetrix Drosophila Genome Array
+
+CITATIONS
+18689425
+

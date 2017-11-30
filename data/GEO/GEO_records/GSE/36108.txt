@@ -1,0 +1,18 @@
+TITLE
+Deep sequencing the circadian and light-dependent transcriptome of Drosophila brain
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Eukaryotic circadian clocks include transcriptional/translational feedback loops that drive 24-hour rhythms of transcription.These transcriptional rhythms underlie oscillations of protein abundance, thereby mediating circadian rhythms of behavior, physiology, and metabolism. Numerous studies over the last decade have employed microarrays to profile circadian transcriptional rhythms in various organisms and tissues. Here we use RNA sequencing (RNA-Seq) to profile the circadian transcriptome of *Drosophila melanogaster* brain from wild-type and *period*-null clock-defective animals. We identify several hundred transcripts whose abundance oscillates with 24-hour periods, including a number of non-coding RNAs (ncRNAs) that were not identified in previous microarray studies. Of particular interest are *U snoRNA host genes* (*Uhgs*), a family of cycling ncRNAs that encode the precursors of over 50 box C/D snoRNAs, key regulators of ribosomal biogenesis. Transcriptional profiling at the level of individual exons reveals alternative splice isoforms for many genes whose relative abundances are regulated by either *period* or circadian time, although the effect of circadian time is muted in comparison to that of *period*. Interestingly, *period* loss-of-function significantly alters the frequency of RNA editing at a number of editing sites, suggesting an unexpected link between a key circadian gene and RNA editing. We also identify tens of thousands of novel splicing events beyond those previously annotated by the modENCODE consortium, including several that affect key circadian genes. These studies demonstrate extensive circadian control of ncRNA expression, reveal the extent of clock control of alternative splicing and RNA editing, and provide a novel, genome-wide map of splicing in *Drosophila* brain.
+
+DESIGN
+RNA-Seq transcriptional profiling of Drosophila brains from wildtype and period loss-of-function (per0) flies with time points taken over two days in constant darkness.  Time points at CT24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, and 68. 10-12 brains per time point.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+22472103
+

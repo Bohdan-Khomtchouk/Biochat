@@ -1,0 +1,18 @@
+TITLE
+Transcriptome wide identification of Dicer binding in human and C. elegans reveals a variety of substrates (CEL small RNA)
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Dicer is a deeply conserved endoribonuclease with key functions in small RNA biogenesis. Here we employed PAR-CLIP/iPAR-CLIP to identify direct Dicer binding sites in the transcriptomes of human cells and human. We found hundreds of novel miRNAs and non-canonical Dicer substrates with high sensitivity. Small RNA production depended on structure of the binding site and is globally biased towards the 5' arm of hairpins. Unexpectedly, in both species Dicer bound numerous hairpins inside mRNAs without observable small RNA production. Our data revealed ~100 mRNAs of protein coding genes to be targeted in both human and worm. These mRNAs significantly overlapped with the RNAi pathway. We also, unexpectedly, found that mitochondrial transcripts are Dicer targets in both species. We demonstrate functional consequences of Dicer binding by perturbation analysis. Taken together,we provide the first genome-wide catalog of direct Dicer targets. Our results suggest widespread function outside of miRNA biogenesis.
+
+DESIGN
+small RNAs were extracted from total RNA of lysed worms. Standard small RNA sequencing was performed to sequence 5' monophosphate bearing small RNAs. Alternatively, 5'polyphosphatase from Epicenter was used to catch also tri-phosphate bearing secondary endo-siRNAs.
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+25416952
+

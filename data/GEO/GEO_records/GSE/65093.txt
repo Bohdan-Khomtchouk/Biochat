@@ -1,0 +1,18 @@
+TITLE
+Base-resolution methylation patterns accurately predict transcription factor bindings in vivo
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Detecting in vivo transcription factor (TF) binding is important for understanding gene regulatory circuitries. ChIP-seq is a powerful technique to empirically define TF binding in vivo. However, the multitude of distinct TFs makes genome-wide profiling for them all labor-intensive and costly. Algorithms for in silico prediction of TF binding have been developed, based mostly on histone modification or DNase I hypersensitivity data in conjunction with DNA motif and other genomic features. However, technical limitations of these methods prevent them from being applied broadly, especially in clinical settings. We conducted a comprehensive survey involving multiple cell lines, TFs, and methylation types and found that there are intimate relationships between TF binding and methylation level changes around the binding sites. Exploiting the connection between DNA methylation and TF binding, we proposed a novel supervised learning approach to predict TF-DNA interaction using data from base-resolution whole-genome methylation sequencing experiments. We devised beta-binomial models to characterize methylation data around TF binding sites and the background. Along with other static genomic features, we adopted a random forest framework to predict TF-DNA interaction. After conducting comprehensive tests, we saw that the proposed method accurately predicts TF binding and performs favorably versus competing methods.
+
+DESIGN
+Examine Oct4 genome-wide binding in mouse embryonic stem cells (E14)
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25722376
+

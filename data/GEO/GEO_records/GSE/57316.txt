@@ -1,0 +1,18 @@
+TITLE
+High resolution Hi-C analysis in S. pombe reveals fundamental elements of genome architecture (NGS)
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Eukaryotic genomes are folded into a hierarchy of three-dimensional structures that impact nuclear functions, including transcription, replication, and repair1-3. Studies in Drosophila and mammals have revealed megabase-sized topologically associated domains (TADs) within chromosomes, which in turn are spatially restricted within the nucleus4-8.  However, little is known about local physical constraints that drive higher-order folding of chromosomes. Here we performed Hi-C analysis of the fission yeast Schizosaccharomyces pombe to explore genome organization at high resolution. S. pombe comprises a small genome ideal for examining structural features of chromatin folding, and contains fundamental components present in higher eukaryotes. Large domains of heterochromatin coat centromeres and telomeres and recruit cohesin, a ring-like protein complex that binds sister chromatids and mediates long range looping of interphase chromosomes. Our analyses reveal a highly ordered chromosome organization, consistent with a Rabl configuration, which is dependent on constraints imposed at centromeres and telomeres. We find that local chromatin compaction and cohesin recruitment to centromeres mediated by heterochromatin is required for maintaining global genome territorial restraint. In addition to larger complex domains, we also observed locally interacting regions of chromatin ~50 kilobases long, which organize chromosome arms into structures referred to as “globules”. Globule boundaries are enriched in cohesin and convergent gene orientation. The role of cohesin in maintaining globule domains is independent of its role in sister chromatid cohesion, as globule domains are also a feature of G1 chromosome architecture. Defect in cohesin disrupts globule domains and results in an altered chromosome organization at larger scales, including the loss of chromosome territories. Disruption of globules also affects functional annotation of the genome, leading to impairment of borders between neighboring transcriptional units. Our analyses reveal key features of chromatin organization and folding and show that distinct mechanisms uniquely impact the hierarchy of genome organization to protect genome integrity and to coordinate nuclear functions.
+
+DESIGN
+Comparison of HiC contact maps under various conditions reveal fundamental principles of genome organization
+
+PLATFORM
+GPL13988 Illumina HiSeq 2000 (Schizosaccharomyces pombe)
+
+CITATIONS
+25307058
+

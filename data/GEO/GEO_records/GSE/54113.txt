@@ -1,0 +1,18 @@
+TITLE
+Genome wide analysis of the direct and indirect consequences on gene expression of a thyroid hormone receptor alpha 1 mutation restricted to Sertoli cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A dominant negative allele of TRα1 (TRαAMI) has been introduced only in Sertoli cells using the Cre/lx system and the AmhCre mouse line. Testes were isolated at P3 and RNA was extracted. MRNA were enriched by oligo-dT purification and submitted to Illumina HiSeq2000 sequencing. Reads were aligned on the mouse mm9 genome, gene counts were obtained with the HTSeq-count script and differential expression was investigated with the DESeq2 R package.
+
+DESIGN
+Examination of thyroid hormone target genes in testes after disruption of the receptor in only the Sertoli cells.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25487743
+

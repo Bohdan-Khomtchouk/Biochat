@@ -1,0 +1,18 @@
+TITLE
+Myasthenia gravis model: gene expression profile in diaphragm, extensor digitorum longus and extraocular muscles of rats
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+gene expression profile in diaphragm (DIA), extensor digitorum longus (EDL) and extraocular (EOM) muscles of rats with actively induced experimentally acquired MG (EAMG) using Affymetrix rat RAE230 gene chip. Keywords: myasthenia gravis (MG), rats with actively induced experimentally acquired MG (EAMG)
+
+DESIGN
+Total RNA was obtained with TRIzol (Invitrogen Carlsbad, CA) following the manufacturers recommended protocol. Tissues from 3 animals were combined into each RNA sample to decrease inter-subject variability. RNA pellets were cleaned by RNasey kits and resuspended at 1 μg RNA/μl DEPC-treated water and 5 ug was used in a reverse transcription reaction (SuperScript II; Life Technologies, Rockville, MD) to generate first strand cDNA.  Double strand cDNA was synthesized and used in an in vitro transcription (IVT) reaction to generate biotinylated cRNA.  Fragmented cRNA (15 ug) was used in a 300 ul hybridization cocktail containing herring sperm DNA and BSA as carrier molecules, spiked IVT controls, and buffering agents.  A 200 ul aliquot of this cocktail was used for hybridization to Affymetrix rat REA230 (Santa Clara, CA) microarrays for 16 hrs at 45o C.  The manufacturer’s standard post-hybridization wash, double-stain, and scanning protocols used an Affymetrix GeneChip Fluidics Station 400 and a Hewlett Packard Gene Array scanner. Microarray data analysis Raw data from microarray scans were analyzed with Affymetrix GCOS 2.0.  GCOS evaluates sets of perfect match (PM) and mismatch (MM) probe sequences to obtain both hybridization signal values and present/absent calls for each transcript. Microarrays were scaled to the same target intensity and pairwise comparisons were made between experimental and control samples. Comparisons the one-sided Wilcoxon’s signed rank test to estimate “increase/no change/ decrease” difference calls for each pair-wise comparison. Transcripts defined as differentially regulated met the criteria of: (a) consistent increase/decrease call across 7 out of 9 replicate comparisons, based upon Wilcoxon’s signed rank test (algorithm assesses probe pair saturation, calculates a p value and determines increase, decrease, or no change calls) and (b) the average fold difference ≥ 2.0.  Data were visualized as a hierarchical dendrogram generayed on computer (Genespring software,ver 7.2; Silicon Genetics, Redwood city, CA). Annotation was done according to Affymetrix NetAffyx Gene Ontology database.
+
+PLATFORM
+GPL1355 [Rat230_2] Affymetrix Rat Genome 230 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

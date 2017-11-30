@@ -1,0 +1,18 @@
+TITLE
+Multiplexing of ChIP-seq samples for a model experimental condition has minimal impact on peak detection
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+ChIP-seq experiments are standard experimental procedure for interrogating epigenetic states and protein-DNA interactions. Sequencing experiments are often designed according to the trade-off between the need to obtain maximum sequencing coverage limited funds. Multiplexing samples is a common approach to minimize cost and maximize information yield. We therefore performed an extensive ChiP-seq multiplexing study to gain a better understanding of the effect of multiplexing on the resulting peak detection and genomic annotation and to provide solid guidelines for multiplexing ChIP-seq studies. For a well characterized antibody, our results indicate that multiplexing to ~20M reads (roughly 8 samples per sequencing lane) is sufficient to capture most of the biological signal. Multiplexing samples in sequencing experiments is a common approach to maximize information yield while minimizing cost. In most cases the number of samples that are multiplexed is determined by financial consideration or experimental convenience with limited understanding on the effects on the experimental results. Here we set to examine the impact of multiplexing ChIP-seq experiments on the ability to identify a specific epigenetic modification. We performed an analysis of peak detection to determine the effects of multiplexing. These include false discovery rates, size, position and statistical significance of peak detection and changes in gene annotation. We found that, for histone marker H3K4me3, one can multiplex up to 8 samples (7 IP + 1 input) at ~21 million reads each and still detect over 90% of all peaks found when using a full lane for sample. Furthermore, there are no variations introduced by indexing or lane batch effects and importantly there is no significant reduction in the number of genes with neighboring H3K4me3 peaks. We conclude that, for a well characterized antibody and therefore, model IP condition, multiplexing 8 samples per lane is sufficient to capture most of the biological signal.
+
+DESIGN
+We devised a multiplexing titration scheme starting from one full lane of ChIP and one lane of input samples down to 7 IP samples and one input in a single lane (Figure 1). The remainder of the flow cell contained two lanes of two ChIPs and two inputs, one lane of 5 ChIPs and one input, and one lane of 7 ChIPs and one input.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26066343
+

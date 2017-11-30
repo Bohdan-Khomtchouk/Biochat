@@ -1,0 +1,18 @@
+TITLE
+Combining Next-Generation Sequencing and Microarray Technology into a Transcriptomics Approach for the Non-Model Organism Chironomus riparius
+
+ORGANISM
+Anopheles gambiae ; Chironomus riparius
+
+SUMMARY
+Whole-transcriptome gene-expression analyses are commonly performed in species that have a sequenced genome and for which microarrays are commercially available. To do such analyses in species with no or limited genome data, i.e. non-model organisms, necessary transcriptomics resources, i.e. an annotated transcriptome and a validated gene-expression microarray, must first be developed. The aim of the present study was to establish an advanced approach for developing transcriptomics resources for non-model organisms by combining next-generation sequencing (NGS) and microarray technology. We applied our approach to the non-biting midge Chironomus riparius, an ecologically relevant species that is widely used in sediment ecotoxicity testing. We sampled extensively covering all C. riparius developmental stages as well as toxicant exposed larvae and obtained from a normalized cDNA library 1.5 M NGS reads totalling 501 Mbp. Using the NGS data we developed transcriptomics resources in several steps. First, we designed 844 k probes directly on the NGS reads, as well as 76 k probes targeting expressed sequence tags of related species. These probes were tested for their affinity to C. riparius DNA and mRNA, by performing two biological experiments with a 1 M probe-selection microarray that contained the entire probe-library. Subsequently, the 1.5 M NGS reads were assembled into 23,709 isotigs and 135,082 singletons, which were associated to ~55 k, respectively, ~61 k gene ontology terms and which corresponded together to 22,593 unique protein accessions. An algorithm was developed that took the assembly and the probe affinities to DNA and mRNA into account, what resulted in 59 k highly-reliable probes that targeted uniquely 95% of the isotigs and 18% of the singletons. Concluding, our approach allowed the development of high-quality transcriptomics resources for C. riparius, and is applicable to any non-model organism. It is expected, that these resources will advance ecotoxicity testing with C. riparius as whole-transcriptome gene-expression analysis are now possible with this species.
+
+DESIGN
+1x 1M CGH array with Cy3 labeled C. riparius gDNA and Cy5 labeled A. gambiae gDNA. The microarray was designed against C. riparius mRNA sequencing reads, and has been used to identify trustworthy sequencing reads to design an expression array. This 1M array is therefore not functionally annotated.
+
+PLATFORM
+GPL18083 Agilent-033305 Chironomus riparius 1M CGH array
+
+CITATIONS
+24771343
+

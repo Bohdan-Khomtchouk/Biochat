@@ -1,0 +1,18 @@
+TITLE
+Genomic-scale identification of host genes regulated by EBV during lytic cycle [ChIP-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Infection of resting primary B-lymphocytes by Epstein Barr virus (EBV) generates a population of cells that are effectively immortal. This represents the first step in the establishment of life-long viral latency in vivo and generates precursors that can develop into the lymphoid malignancies. However, virus spread requires a switch from latency to the lytic replication cycle, a process orchestrated by the virally encoded protein Zta, an AP1-like transcription factor that interacts with a 7 base-pair DNA sequence element. As Zta has the potential to reprogram the patterns of gene expression in the host cell, we undertook global transcriptome analyses (RNA sequencing) in a Burkitts lymphoma derived cell line in which the Zta is expressed from an inducible promoter, mimicking the switch from latency to lytic cycle. We identified 2,263 host genes whose expression levels were altered. In parallel, we performed chromatin precipitation and next-generation DNA sequencing (ChIP-Seq) to identify genes that are direct targets of Zta. Integrating these data sets revealed 277 host genes that appear to be directly regulated by Zta. Surprisingly, the frequency and distribution of the Zta binding peaks suggests that Zta regulates host genes through long-range enhancers, with a median distance of 25.8kb from the transcriptional start site, rather than equivalents of the promoter elements through which Zta regulates viral genes.
+
+DESIGN
+Surface IgG on Akata cells was cross-linked by application of anti-IgG and 48 hours later chromatin was prepared from 1 x 10^8 cells. An additional sample was treated with acyclovir to halt viral replication prior to EBV genome replication.  Chromatin was fixed, extracted and sheared and precipitated with an antibody to Zta (BZLF1). Sequencing of the precipitated DNA was undertaken and aligned to the EBV and human genomes.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+25779048
+

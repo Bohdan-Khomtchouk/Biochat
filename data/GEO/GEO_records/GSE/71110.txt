@@ -1,0 +1,18 @@
+TITLE
+Transcriptional variation associated with cactus host plant adaptation in Drosophila mettleri populations
+
+ORGANISM
+Drosophila mettleri
+
+SUMMARY
+Although the importance of host plant chemistry in plant-insect interactions is widely accepted, the genetic basis of adaptation to host plants is poorly understood. Here, we investigate transcriptional changes associated with a host plant shift in Drosophila mettleri. While D. mettleri is distributed mainly throughout the Sonoran Desert where it specializes on columnar cacti (Carnegiea gigantea and Pachycereus pringleii), a population on Santa Catalina Island has shifted to coastal prickly pear cactus (Opuntia littoralis). We compared gene expression of larvae from the Sonoran Desert and Santa Catalina Island when reared on saguaro (C. gigantea), coastal prickly pear, and laboratory food. Consistent with expectations based on the complexity and toxicity of cactus relative to laboratory food, within population comparisons between larvae reared on these food sources revealed transcriptional differences in detoxification and other metabolic pathways. The majority of transcriptional differences between populations on the cactus hosts were independent of the rearing environment, and included a disproportionate number of genes involved in processes relevant to host plant adaptation (e.g. detoxification, central metabolism, and chemosensory pathways). Comparisons of transcriptional reaction norms between the two populations revealed extensive shared plasticity that likely allowed colonization of coastal prickly pear on Santa Catalina Island. We also found that while plasticity may have facilitated subsequent adaptive divergence in gene expression between populations, the majority of genes that differed in expression on the novel host were not transcriptionally plastic in the presumed ancestral state.
+
+DESIGN
+mRNA profiles of third instar larvae from two different populations reared on three food types was sequenced on two lanes of an Illumina HiSeq 2000 Please note that the de novo assembly gives names to transcripts with the following convention: compXXX_cX_seqX.  The first two identifiers (compXX_cX) are equivalent to a  gene  while the  'seq' identifier might refer to different isoforms or splice variants, etc.  Therefore, for example, a gene might be comp123_c0, and this could have multiple sequences corresponding to different isoforms or splice variants.  Since the analysis was carried out at the gene level, the program internally merged the multiple sequences together for each gene to generate the count matrix (AllGenesint.counts.matrix.txt) (i.e. it only includes comp123_c0),  while the file from the assembly (i.e. Trinity.fasta) also include the individual sequences with the  'seq' identifier.
+
+PLATFORM
+GPL20713 Illumina HiSeq 2000 (Drosophila mettleri)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

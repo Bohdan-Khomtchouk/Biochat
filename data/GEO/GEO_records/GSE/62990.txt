@@ -1,0 +1,18 @@
+TITLE
+Next generation sequencing reveals the diversity and population-genetic properties of cattle CNVs
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+Structural and functional impacts of copy number variations (CNVs) on livestock genomes are not yet well understood. In this study, we have identified 1853 CNV regions (CNVRs) using population-scale sequencing data generated from 75 cattle of 8 breeds (Holstein, Angus, Jersey, Limousin, Romagnola, Brahman, Gir and Nelore). Individual genome sequence coverage ranged from 4 to 30 fold, with a mean of 11.8 fold. A total of 3.1% (87.5 Mb) of the cattle genome is predicted to be copy number variable, representing a substantial increase over the previous estimates (~2%). This dataset was highly correlated with array CGH data (r2 = 0.761) and was validated to be accurate with an estimated 12% false positive rate and a 19% false negative rate based on qPCR and array CGH, respectively. Hundreds of CNVs were found to be either breed specific or differentially variable across breeds, including the RICTOR gene in dairy breeds and the PNPLA3 gene in the beef breeds. In contrast, clusters of the PRP and PAG genes are duplicated in all sequenced animals, implicating that subfunctionalization, neofunctionalization or overdominance play a role in diversifying these fertility related genes. Further population-genetic analyses based on CNVs revealed the population structures of these taurine and indicine breeds and uncovered hundreds of positively selected CNV candidates near important functional genes. These CNV results provide a new glimpse of diverse selections during cattle speciation, domestication, breed formation, and recent genetic improvement.
+
+DESIGN
+25 animals were analyzed using a custom Nimblegen aCGH chip with 2.1 million probes. The reference animal chosen was L1 Dominette, a Hereford cow of European ancestry. The array was subjected to a dye-swap with the reference sample to test probe intensity fidelity. Single channel intensity data from the array was used in a digital aCGH analysis to compare aCGH copy number estimates to copy number estimates derived from sequence data. Briefly, the reference signal from all analyzed arrays was collected and a median signal intensity was calculated from probe intensities within the BTF3 gene. The copy number of the reference animal was then inferred by division of single channel probe intensities with the median intensity of the BTF3 gene. Next, test sample intensities were normalized by taking the log2 ratio of the test intensity divided by the normalized reference copy number for the probe. CN values derived from sequence data were also normalized in this fashion by taking the log2 of the ratio of NGS CN divided by aCGH reference copy number.
+
+PLATFORM
+GPL11314 NimbleGen Bos taurus UMD3.0 2.1M WG HD CGH
+
+CITATIONS
+27085184
+

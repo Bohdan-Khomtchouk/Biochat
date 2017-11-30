@@ -1,0 +1,18 @@
+TITLE
+Pulsatile exposure to simulated reflux leads to stereotypical changes in gene expression in a 3D model of oesophageal mucosa
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Oesophageal exposure to duodenogastroesophageal refluxate is implicated in the development of Barrett’s Metaplasia, with increased risk of progression to oesophageal adenocarcinoma. The literature proposes that reflux exposure activates NF-kB, driving the aberrant expression of intestine-specific caudal-related homeobox genes. However, early events in the pathogenesis of Barrett’s Metaplasia from a normal epithelium are poorly understood. To investigate this, our study subjected a 3D model of the normal human oesophageal mucosa to repeated, pulsatile exposure to specific bile components and examined changes in gene expression. Initial 2D experiments with a range of bile salts observed that taurochenodeoxycholate (TCDC) impacted upon NF-kB activation without causing cell death. Informed by this, the 3D human oesophageal model was repeatedly exposed to TCDC in the presence and absence of acid, and the epithelial cells underwent gene expression profiling. We identified ~300 differentially expressed genes following each treatment, with a large and significant overlap between treatments. Enrichment analysis (Broad GSEA, DAVID and Metacore™, GeneGo Inc) identified multiple gene sets related to cell signalling, inflammation, proliferation, differentiation and cell adhesion. Specifically NF-kB activation, Wnt signalling, cell adhesion and targets for the transcription factors PTF1A and HNF4α were highlighted. CDX1/2 transcription factors are believed to play a role in BM development; however, in this study their targets were not enriched, suggesting that CDX1/2 activation may not be the one of the initial events for BM formation. Our findings highlight new areas for investigation in the earliest stages of BM pathogenesis of oesophageal diseases and new potential therapeutic targets.
+
+DESIGN
+RNA was extracted from oesophageal epithelium grown in a 3D oesophageal mucosa model. The model received pulsatile exposure for 10 mins twice a day for 11 days to pH 7.4 (control, n=6), TCDC (n=6), pH 4 (n=6) or TCDC, pH 4 (n=6). In one experiment, four oesophageal constructs were grown using the epithelial cells from one patient and each construct was exposed to a different insult. The experiment was performed six times using cells from three different patients, repeating each experiment once to produce technical replicates. RNA was then pooled from one technical replicate per patient to produce 8 samples for array analysis.  The three treatments were compared to the control.
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+24713057
+

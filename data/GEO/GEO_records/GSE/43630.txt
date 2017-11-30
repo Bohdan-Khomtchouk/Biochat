@@ -1,0 +1,18 @@
+TITLE
+The gene expression profiling array of mRNAs and LncRNA between portal vein tumor thrombus tissues and paired tumor tissues in hapatocellular carcinoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Investigation of whole genome gene expression level changes of mRNAs and LncRNAs in portal vein tumor thrombus tissues and paired tumor tissues in hapatocellular carcinoma. The different expression genes were further analyzed.
+
+DESIGN
+The human mRNA and LncRNA microarray analysis of the 6 samples (3  portal vein tumor thrombus tissues and 3 paired tumor tissue) were completed. Total RNA from each sample was quantified using the NanoDrop ND-1000 and RNA integrity was assessed using standard denaturing agarose gel electrophoresis. Total RNA of each sample was used for labeling and array hybridization as the following steps: 1) Reverse transcription with by Invitrogen Superscript ds-cDNA synthesis kit; 2) ds-cDNA labeling with NimbleGen one-color DNA labeling kit; 3) Array hybridization using the NimbleGen Hybridization System and followed by washing with the NimbleGen wash buffer kit; 4) Array scanning using the Agilent Scanner G2505C. Scanned images (TIFF format) were then imported into NimbleScan software (version 2.5) for grid alignment and expression data analysis. Expression data were normalized through quantile normalization and the Robust Multichip Average (RMA) algorithm included in the NimbleScan software. The Probe level (*_norm_RMA.pair) files and mRNA level (*_RMA.calls) files were generated after normalization. All mRNAs level files were imported into Agilent GeneSpring GX software (version 11.5.1) for further analysis.mRNAs that at least 3 out of 6 samples have values greater than or equal to lower cut-off: 50.0 (All Targets Value) were chosen for further data analysis. Differentially expressed mRNAs were identified through Volcano Plot filtering. Pathway analysis and GO analysis were applied to determine the roles of these differentially expressed mRNAs played in these biological pathways or GO terms. Finally, Hierarchical Clustering was performed to show the distinguishable mRNAs expression pattern among samples. This array contains ~19000 RefSeq coding genes and ~21000 long non-coding RNAs (lncRNA), and each sample data table contains both mRNAs and LncRNAs data.
+
+PLATFORM
+GPL14715 NimbleGen Human 100309_AS_human_100426_pz array [gene-level version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

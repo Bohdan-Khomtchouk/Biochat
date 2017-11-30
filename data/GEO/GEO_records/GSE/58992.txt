@@ -1,0 +1,18 @@
+TITLE
+State Transitions in the TORC1 Signaling Pathway and Information Processing in S. cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+TOR kinase complex I (TORC1) is a key regulator of cell growth and metabolism in all eukaryotes. Previous studies in yeast have shown that three GTPases, Gtr1, Gtr2 and Rho1, bind TORC1 in nitrogen and amino acid starvation conditions to block phosphorylation of the S6 kinase Sch9 and activate protein phosphatase 2A (PP2A). This leads to down-regulation of 450 Sch9-dependent protein and ribosome synthesis genes, and up-regulation of 100 PP2A-dependent nitrogen assimilation and amino acid synthesis genes. Here, using bandshift assays and microarray measurements, we show that the TORC1 pathway also populates three other stress/starvation states. First, in glucose starvation conditions, the AMP activated protein kinase (AMPK/Snf1) and at least one other factor, push the TORC1 pathway into an off state where Sch9- branch signaling and PP2A-branch signaling are both inhibited. Remarkably, the TORC1 pathway remains in the glucose starvation (PP2A off) state even when cells are simultaneously starved for nitrogen and glucose. Second, in osmotic stress, the MAPK Hog1/p38 drives the TORC1 pathway into a different Sch9 off, PP2A off state, where PP2A-branch signaling can still be activated by nitrogen starvation. Third, in oxidative stress and heat stress, TORC1-Sch9 signaling is blocked while weak PP2A-branch signaling occurs. Together, our data show that the TORC1 pathway acts an information-processing hub, activating different genes in different conditions to ensure that available energy is allocated to drive growth, amino acid synthesis or a stress response, depending on the needs of the cell.
+
+DESIGN
+2-color microarray dataset. Experiments interrogate the immediate response of wild-type (ACY044) and mutant strains (ACY142 and ACY509) to log growth; stress, including heatshock (42C), oxidative (0.4mM H2O2), and osmotic stress (0.375M KCl); and starvation conditions, including nitrogen, amino acid, and glucose starvation. Cells in mid-log growth were subjected to stress and/or starvation and/or the TOR inhibitor rapamycin for 20 minutes. Taken together, these microarrays support a model where the TORC1 pathway acts an information-processing hub. We find that condition dependent gene expression programs are activated hierarchically to allocate available energy for growth, amino acid synthesis, or a stress response, depending on the needs of the cell.  All yeast strains are of W303 background, MatA. Mutant strains were made using standard techniques (homologous recombination).
+
+PLATFORM
+GPL16244 Agilent-016322 Yeast (V2) Gene Expression 8x15K Microarray (Probe Name version)
+
+CITATIONS
+25085507
+

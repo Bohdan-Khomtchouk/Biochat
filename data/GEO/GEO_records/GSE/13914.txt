@@ -1,0 +1,18 @@
+TITLE
+Molecular profiling of breast cancer cell lines defines relevant tumor models (aCGH)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Breast cancer cell lines have been used widely to investigate breast cancer pathobiology and new therapies.  Breast cancer is a molecularly heterogeneous disease, and it is important to understand how well and which cell lines best model that diversity.  In particular, microarray studies have identified molecular subtypes - luminal A, luminal B, ERBB2-associated, basal-like and normal-like - with characteristic gene-expression patterns and underlying DNA copy number alterations (CNAs).  Here, we studied a collection of breast cancer cell lines to catalog molecular profiles and to assess their relation to breast cancer subtypes.  Whole-genome DNA microarrays were used to profile gene expression and CNAs in a collection of 52 widely-used breast cancer cell lines, and comparisons were made to existing profiles of primary breast tumors.  Hierarchical clustering was used to identify gene-expression subtypes, and Gene Set Enrichment Analysis (GSEA) to discover biological features of those subtypes.  Genomic and transcriptional profiles were integrated to discover within high-amplitude CNAs candidate cancer genes with coordinately altered gene copy number and expression.  Transcriptional profiling of breast cancer cell lines identified one luminal and two basal-like (A and B) subtypes.  Luminal lines displayed an estrogen receptor (ER) signature and resembled luminal-A/B tumors, basal-A lines were associated with ETS-pathway and BRCA1 signatures and resembled basal-like tumors, and basal-B lines displayed mesenchymal and stem-cell characteristics.  Compared to tumors, cell lines exhibited similar patterns of CNA, but an overall higher complexity of CNA (genetically simple luminal-A tumors were not represented), and only partial conservation of subtype-specific CNAs.  We identified 80 high-level DNA amplifications and 13 presumptive homozygous deletions, and the resident genes with concomitantly altered gene-expression, highlighting known and novel candidate breast cancer genes.  Overall, breast cancer cell lines were genetically more complex than tumors, but retained expression patterns with relevance to the luminal-basal subtype distinction.  The compendium of molecular profiles defines cell lines suitable for investigations of subtype-specific pathobiology, biomarkers and therapies, and provides a resource for discovery of new breast cancer genes.
+
+DESIGN
+cDNA microarrays from the Stanford Functional Genomics Facility were used to carry out array-based Comparative Genomic Hybridization (array CGH) analysis of 52 human breast epithelial cell lines, in comparison to normal female DNA.  Three reference arrays of normal male vs. normal female DNA were also done.  Map positions for arrayed cDNA clones were assigned using the NCBI genome assembly, accessed through the UCSC genome browser database (NCBI Build 36).  The cghFLasso method was used to call DNA gains and losses.
+
+PLATFORM
+GPL7778 SMD Print_1060 GPL7779 SMD Print_1126 GPL7780 SMD Print_1257 GPL7781 SMD Print_849 GPL7782 SMD Print_924 GPL7783 SMD Print_989 GPL7784 SMD Print_999
+
+CITATIONS
+19582160
+

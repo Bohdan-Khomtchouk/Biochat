@@ -1,0 +1,18 @@
+TITLE
+Evolution and genetic architecture of chromatin accessibility and function in yeast
+
+ORGANISM
+Saccharomyces cerevisiae ; Saccharomyces cerevisiae x Saccharomyces paradoxus
+
+SUMMARY
+Chromatin accessibility is an important functional genomics phenotype that influences transcription factor binding and gene expression. Genome-scale technologies allow chromatin accessibility to be mapped with high-resolution, facilitating detailed analyses into the genetic architecture and evolution of chromatin structure within and between species. We performed Formaldehyde-Assisted Isolation of Regulatory Elements sequencing (FAIRE-Seq) to map chromatin accessibility in two parental haploid yeast species, Saccharomyces cerevisiae and Saccharomyces paradoxus and their diploid hybrid. We show that although broad-scale characteristics of the chromatin landscape are well conserved between these species, accessibility is significantly different for 947 regions upstream of genes that are enriched for GO terms such as intracellular transport and protein localization exhibit. We also develop new statistical methods to investigate the genetic architecture of variation in chromatin accessibility between species, and find that cis effects are more common and of greater magnitude than trans effects.  Interestingly, we find that cis and trans effects at individual genes are often negatively correlated, suggesting widespread compensatory evolution to stabilize levels of chromatin accessibility. Finally, we demonstrate that the relationship between chromatin accessibility and gene expression levels is complex, and a significant proportion of differences in chromatin accessibility might be functionally benign.
+
+DESIGN
+There are 20 samples in total. These consist of 10 FAIRE-seq samples, specifically 6 haploid samples, S. cerevisiae strain UWOPS05_217_3 replicates 1 and 2, S. cerevisiae strain DBVPG1373 replicates 1 and 2, and S. paradoxus strain CBS432 replicates 1 and 2.  There are also 4 diploid hybrid samples, hybrid between S. cerevisiae strain UWOPS05_217_3 and S. paradoxus strain CBS432 replicates 1 and 2, and the hybrid between S. cerevisiae strain DBVPG1373 and S. paradoxus strain CBS432 replicates 1 and 2.  There are also RNA-seq samples for each of these 10 samples.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae) GPL17601 Illumina HiSeq 2000 (Saccharomyces cerevisiae x Saccharomyces paradoxus)
+
+CITATIONS
+24992477
+

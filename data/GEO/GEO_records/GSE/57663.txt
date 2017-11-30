@@ -1,0 +1,18 @@
+TITLE
+Target mRNAs induce tailing and trimming of Ago2-loaded miRNAs in neurons
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+We show that target mRNAs trigger the non-templated addition of nucleotides (mainly adenosines and uridines) and shortening of their cognate miRNAs in primary hippocampal neurons. The induced effect is observable both in total RNA and in Ago2-associated RNA, demonstrating that the process is initiated in Ago2 bound miRNAs.
+
+DESIGN
+Illumina Small RNA sequencing was performed on rat hippocampal neurons infected with different target mRNAs in different conditions. The data includes 3 independent experiments: 1. Hippocampal neurons (DIV15) 6 days after transducing them with target mRNAs (driven by the Synapsin promoter) against different miRNAs. Samples are titled " Syn-Target " . Samples transduced with targets containing extensive complementarity are labeled " Ext " and those with Seed complementarity are labeled " Seed " . 2. Hippocampal neurons (DIV16) 7 days after transducing them with an inducible target mRNA against miR-132, and inducing for different times with Doxycycline. Samples are titled " Time-course " 3. Hippocampal neurons (DIV16) 7 days after co-transducing them with FLAG/HA-Ago2 plus an inducible target mRNA against miR-132, and inducing them for different times with Doxycycline. Samples are titled " Time-course_Ago2 "
+
+PLATFORM
+GPL14844 Illumina HiSeq 2000 (Rattus norvegicus) GPL18694 Illumina HiSeq 2500 (Rattus norvegicus)
+
+CITATIONS
+25724380
+

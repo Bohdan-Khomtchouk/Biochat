@@ -1,0 +1,18 @@
+TITLE
+Combinatorial quorum-sensing allows bacteria to resolve their social and physical environment
+
+ORGANISM
+Pseudomonas aeruginosa PAO1
+
+SUMMARY
+Quorum-sensing (QS) is a cell-cell communication system that controls gene expression in many bacterial species, mediated by diffusible signal molecules. While the intracellular regulatory mechanisms of QS are often well-understood, the functional roles of QS remain controversial. In particular, the use of multiple signals by many bacterial species poses a serious challenge to current functional theories. Here we address this challenge by showing that bacteria can use multiple QS signals to infer both their social (density) and physical (mass-transfer) environment. Analytical and evolutionary simulation models show that the detection of and response to complex social/physical contrasts requires multiple signals with distinct half-lives and combinatorial (non-additive) responses to signal concentrations. We test these predictions using the opportunistic pathogen Pseudomonas aeruginosa, and demonstrate significant differences in signal decay between its two primary signal molecules as well as diverse combinatorial responses to dual signal inputs. QS is associated with the control of secreted factors, and we show that secretome genes are preferentially controlled by synergistic ‘AND-gate’ responses to multiple signal inputs, ensuring the effective expression of secreted factors in high density and low mass-transfer environments. Our results support a novel functional hypothesis for the use of multiple signals and, more generally, show that bacteria are capable of combinatorial communication.
+
+DESIGN
+The two primary signal molecules of P. aeruginosa are the homoserine lactones N-(3-oxododecanoyl)-L-homoserine lactone (3-oxo-C12-HSL) and N-butyryl-homoserine lactone (C4-HSL).  Effects of the different signal molecules was assessed using a double QS synthase mutant of Pseudomonas aeruginosa PAO1 lasI/rhlI grown at 37°C in 25 ml LB broth and 250 ml flasks with shaking at 200 r.p.m. in four treatments, each with a replicate: (a) no addition; (b) 3-oxo- C12-HSL; (c) C4-HSL; and (d) both 3-oxo-C12-HSL and C4-HSL.
+
+PLATFORM
+GPL18296 OGT-PseudomonasPA01-0148_018645
+
+CITATIONS
+24594597
+

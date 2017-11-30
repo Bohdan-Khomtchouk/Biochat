@@ -1,0 +1,18 @@
+TITLE
+Expression data from wildtype and foxL1null Drosophila embryos
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Determining how organs attain precise positioning within an organism is a crucial facet of developmental biology. The Fox family winged-helix transcription factors are known to play key roles in development of multiple organs. Drosophila FoxL1 (aka Fd64A) is dynamically expressed in embryos but its function is completely uncharacterized. FoxL1 is expressed in a single group of body wall - muscles in the 2nd and 3rd thoracic segments, in homologous abdominal muscles at earlier stages, and in the hindgut mesoderm from early through late embryogenesis. We show that FoxL1 expression in T2 and T3 is in VIS5, which is not a single muscle spanning the entire thorax, as previously published, but is, instead, three individual muscles, each spanning a single thoracic segment. We generate mutations in foxL1 and show that, surprisingly, none of the tissues that express FoxL1 are affected by its loss. Instead, loss of foxL1 results in defects in salivary gland positioning and morphology, as well as defects in the migration of hemocytes, germ cells and Malpighian tubules. We also show that FoxL1-dependent expression of secreted Sema2a in T3 VIS5 is required for normal salivary gland positioning. Altogether, these findings suggest that Drosophila FoxL1 functions like its mammalian counterpart in non-autonomously orchestrating the behaviors of surrounding tissues. We performed a microrarray analysis comparing gene expression changes between wild-type and foxL1 null embryos (foxL1del/foxL1cr). Total RNA was collected from embryos from stages 11-15, which correspondes with expression of foxL1 in the embryo.
+
+DESIGN
+Total RNA was isolated from stage 11-15 foxLCr/foxL1del embryos and from stage-matched Oregon R wild-type embryos. The Qiagen RNeasy kit was used for RNA cleanup. Standard Affymetrix protocols were used to label and amplify total RNA (100 ng per sample). Three independent biological RNA samples (WT_rep1-3; KO_rep1-3) of each genotype were hybridized to the Drosophila genome 2.0 Chip.
+
+PLATFORM
+GPL1322 [Drosophila_2] Affymetrix Drosophila Genome 2.0 Array
+
+CITATIONS
+27618755
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis of the RpoN regulon in Geobacter sulfurreducens
+
+ORGANISM
+Geobacter sulfurreducens
+
+SUMMARY
+In this experiment two strains were compared. The control strain was the wild type strain containing the plasmid, pCD341. pCD341 is an inducible expression vector, a plasmid which can be used to make a bacterium produce a protein of interest. It is called inducible, because the protein of interest will only be produced if an inducer, in this case, IPTG, is present. In the control strain pCD341 is " empty " , meaning the gene encoding the protein of interest has not been inserted into the vector, so when you add IPTG nothing will be produced. Because producing plasmid and being exposed to IPTG can stress cells, the wild type strain harboring the " empty " plasmid was used as the control. The experimental strain DL1/pCD341RpoN contained the a " full " vector into which the gene for the sigma factor RpoN was been inserted. Thus when IPTG is added to the growth medium, this strain will overproduce RpoN. RpoN is an alternative sigma factor, a subunit of the RNA polymerase which is required for binding of the polymerase to specific promoters and is therefore required for the transcription of genes with these promoter sequences. Most bacteria have multiple sigma factors, many of which have specialized functions. In many other bacteria, RpoN is required for the expression of genes involved in nitrogen fixation. However, in G.sulfurreducens and myxococcus xanthus, RpoN appears to essential for survival under all conditions tested and its function and promoter specificity are not known. This experiment was performed in order to gain insight into the physiological function of G. sulfurreducens RpoN. Since we could not knock out RpoN, we decided to try overproducing it, hoping that overproducing RpoN would increase expression of genes who's promoters are recognized by RpoN. We took the wild type strain + empty vector and and the wild type strain with the RpoN vector and transferred them both into medium containing IPTG. For this experiment, we used batch cultures, or closed culture containers (no media nutrients or cells flowing in and out). We harvested cells at mid log phase for RNA preparation. There were three biological replicates and two replicate hybridizations were carried out for each. Keywords: cell type comparison
+
+DESIGN
+RNA samples from three biological replicates were hybridized in duplicate on 12K Combimatrix sense-detecting arrays.  The experiment (DL1/pCDrpoN; rpoN overexpressor) was labeled with cy5, the control (DL1/pCD341) was labeled with cy3.
+
+PLATFORM
+GPL4897 Geobacter sulfurreducens sense-detecting 12K oligo array
+
+CITATIONS
+19624843
+

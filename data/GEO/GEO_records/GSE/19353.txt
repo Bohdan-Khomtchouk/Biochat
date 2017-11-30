@@ -1,0 +1,18 @@
+TITLE
+Classifier analysis of gene expression profiles reveals a discriminatory gene set for soil containing different metals
+
+ORGANISM
+Folsomia candida
+
+SUMMARY
+Environmental pollution is a worldwide problem, and metals are the largest group of contaminants in soil. Microarray toxicogenomic studies with ecologically relevant organisms such as springtails, supplement traditional ecotoxicological research, but are presently rather descriptive. Classifier analysis, a more analytical application of the microarray technique, is able to predict biological classes of unknown samples. We used the uncorrelated shrunken centroid (USC) method to classify gene expression profiles of the springtail Folsomia candida exposed to soil spiked with six different metals (barium, cadmium, cobalt, chromium, lead, and zinc). We identified a gene set (classifier) of 188 genes that can discriminate between six different metals present in soil, which allowed us to predict the correct classes for samples of an independent test set with an accuracy of 83% (error rate = 0.17). This study shows further that in order to apply classifier analysis to actual contaminated field soil samples, more insight and information is needed on the transcriptional responses of soil organisms to different soil types (properties) and mixtures of contaminants.
+
+DESIGN
+Gene expression was measured in springtails after exposure of 2 days to soil containing either EC10 or EC50 of 6 different metals. The exposure experiment was performed in two separate series (1 and 2), both containing a separate non-spiked (LUFA 2.2) soil control. Also, two field soil samples were tested. The samples were divided into a separate training set and a validation set for USC classifier analysis.
+
+PLATFORM
+GPL7150 ISQ Chip Folsomia candida Collembola VU 15.7K version 2.0
+
+CITATIONS
+20133373
+

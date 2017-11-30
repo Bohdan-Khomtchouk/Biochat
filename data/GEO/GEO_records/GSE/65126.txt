@@ -1,0 +1,18 @@
+TITLE
+Comparative Hi-C reveals that CTCF underlies evolution of chromosomal domain architecture.
+
+ORGANISM
+Macaca mulatta ; Canis lupus familiaris ; Oryctolagus cuniculus ; Mus musculus
+
+SUMMARY
+Topological domains are key architectural building blocks of chromosomes in complex genomes. Their functional importance and evolutionary dynamics are however not well defined.  Here we performed comparative Hi-C in liver cells from four mammalian species, and characterized the conservation and divergence of chromosomal contact insulation and the resulting domain architectures within distantly related genomes. We show that the modular organization of chromosomes is robustly conserved in syntenic regions. This overall conservation is compatible with conservation of the binding landscape of the insulator protein CTCF.  Specifically, conserved CTCF sites are co-localized with cohesin, enriched at strong topological domain borders and bind to DNA motifs with orientations that define the directionality of CTCF’s long-range interactions. Interestingly, CTCF binding sites which are divergent between species are strongly correlated with divergence of internal domain structure. This divergence is likely driven by local CTCF binding sequence changes, demonstrating how genome evolution can be linked directly with a continuous flux of local chromosome conformation changes. Conversely, we provide evidence that large-scale domains are harder to break and that they are reorganized during genome evolution as intact modules.
+
+DESIGN
+Hi-C and 4C-seq experiments were conducted in primary liver cells obtained from mouse, rabbit, macaque and dog
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL14954 Illumina HiSeq 2000 (Macaca mulatta) GPL16540 Illumina HiSeq 2000 (Canis lupus familiaris) GPL18453 Illumina HiSeq 2000 (Oryctolagus cuniculus)
+
+CITATIONS
+25732821
+

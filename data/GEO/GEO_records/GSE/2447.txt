@@ -1,0 +1,18 @@
+TITLE
+Chemosensitivity prediction in esophageal cancer cell line using oligonucleotide array
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A total of 20 KYSE human esophageal squamous cell carcinoma cell lines (KYSE-30, -140, -150, -170, -180, -200, -220, -350, -410, -450, -510, -520, -590, -770, -850, -890, -1170, -1190, -1250, and -2270) were kindly provided by Dr. Y. Shimada (Kyoto University, Kyoto, Japan).  The KYSE cell lines were cultured in RPMI 1640 medium (Life Technologies, Inc., Grand Island, NY) containing 10% heat-inactivated fetal bovine serum (FBS; BioWhittaker, Verviers, Belgium) in a humidified atmosphere of 5% CO2 and maintained in continuous exponential growth by passage every 3 days. The exponentially growing cultured cells (2 x 10^6) were collected after two-washings with PBS. Total RNA was prepared from the frozen cell pellets using QIAGEN RNeasy mini kit (QIAGEN, Inc., Valencia, CA). The quality of the RNA was checked using Agilent Technologies 2100 Bioanalyzer (Agilent, Palo Alto, CA). CodeLink Expression Bioarray System (Amersham Bioscience, Tokyo, Japan) was used according to the manufacturer’s protocol. Briefly, first-strand cDNA was generated from 1 µg of total RNA for each cell line using reverse transcriptase and a T7 primer, and then second-strand cDNA was produced using DNA polymerase mix and RNase H. cRNA was generated via an in vitro transcription reacrion using T7 RNA polymerase and biotin-11-UTP (Perkin Elmer, Boston, MA). After quantified by spectrometry and qualified using Agilent Technologies 2100 Bioanalyzer (Agilent), 10 µg of cRNA was fragmented and hybridized to a Uniset Human 20K I Bioarray containing 19,981 human probes with 108 positive and 300 negative bacterial control probes. After hybridization, the arrays were rinsed and labeled with Streptavidin-Cy5, scanned using Agilent DNA Microarray Scanner (Agilent), then analyzed with CodeLink Expression Analysis Software ver.2.3. Expression levels were normalized to the median expression value of the whole array spots except for the bacterial controls. Keywords: parallel sample
+
+DESIGN
+To explore the genes responsible for chemosensitivity in cancer cells, expression profiles of various cancer cell lines were examined. Statistically comparing them with the chemosensitivity measured by in vitro MTT assay in each cell line, several candidate genes were selected and predicition models for anticancer efficacy were established using their expression levels.
+
+PLATFORM
+GPL1928 CodeLink Human 20K ver4.1
+
+CITATIONS
+16596231
+

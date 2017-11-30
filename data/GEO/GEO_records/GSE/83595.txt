@@ -1,0 +1,18 @@
+TITLE
+“Same Difference”: Comprehensive evaluation of four DNA methylation measurement platforms
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA methylation in CpG context is fundamental to the epigenetic regulation of gene expression in high eukaryotes. Disorganization of methylation status is implicated in many diseases, cellular differentiation, imprinting, and other biological processes. Techniques that enrich for biologically relevant CpG-rich genomic regions are desired since, depending on the size of an oragnism's methylome, the depth of sequencing required to cover all CpGs can be prohibitively expensive. Currently, restriction-enzyme based Reduced Representation Bisulfite Sequencing and its modified protocols are widely used to study methylation differences. Recently, Agilent Technologies and Roche NimbleGen have aimed to both reduce sequencing costs and capture CpGs of known biological relevance by marketing in-solution custom-capture hybridization platforms. These three methods target approximately 10-13% of the human methylome. For each platform - restriction-enzyme based enhanced reduced representation (ERRBS), capture based Agilent SureSelect Methyl-seq (SSMethylseq), and capture based Roche NimbleGen SeqCap Epi CpGiant (CpGiant) - we used human lung fibroblast cell line IMR90 DNA to make libraries according to each protocol and sequenced to equivalent depth. Overall, SSMethylSeq and CpGiant covered > 95% of their designed capture regions whereas ERRBS covered 70% of its expected MspI regions. Methylation levels were concordant across the platforms. The concordance of annotations of CpG units for genomic features, displayed roughly the same proportions of genomic features. SSMethylSeq and CpGiant are most similar and cover marginally more annotated regions than ERRBS. However, the number of CpG units shared by all methods was low, ~26% of any platform. We conclude that captured based methods are largely consistent in terms of covered CpG loci although ERRBS provides comparable data at a significantly reduced price. Furthermore, library preparation for ERRBS can be performed with as little as 75ngs of starting material, whereas micrograms are needed for the capture hybridization techniques.
+
+DESIGN
+Libraries were made from human lung fibroblast cell line IMR90 DNA for each protocol of ERRBS, Agilent SureSelect Methyl-seq, Roche NimbleGen SeqCap Epi CpGiant, and WGBS, then sequenced as paired-end 100bp on an Illumina HiSeq 2500.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

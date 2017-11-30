@@ -1,0 +1,18 @@
+TITLE
+SigH, SigL, and SigC regulon in Listeria monocytogenes 10403S
+
+ORGANISM
+Listeria monocytogenes
+
+SUMMARY
+To characterize regulons of alternative sigma factor SigH, SigL, and SigC in Listeria monocytogenes, in-frame mutant strains were created in the 10403S background.  Regulons controlled by these 3 alternative sigma factors were characterized by whole-genome microarrays.  The L. monocytogenes 10403S wild type and sigma factor null mutation strains were grown at 37 °C to stationary phase (defined in this study as growth to OD600 = 1.0, followed by incubation for an additional 3 h) prior to RNA isolation.  Transcriptional profiles of 10403S wild type were compared to those of null mutation strain. In addition to stationary phase condition, SigC regulon was further characterized using heat stress (cultures grown to log phase at OD600 = 0.4, 37 °C and then exposed to heat at 55 °C for 10 min) and a condition with IPTG-inducible expression of sigC (sigC gene is placed under Pspac promoter using pLIV2 vector in wild type 10403S background). Under these conditions, expression profiles were compared between (i) wild type and sigC null mutant for heat stress and (ii) IPTG-inducible sigC strain and sigC null mutant, respectively. Using adjusted P < 0.05 and ≥ 1.5 fold change as cutoff values, microarray analyses identified 169 SigH-dependent, 51 SigL-dependent, and 3 SigC-dependent genes.  Keywords: Listeria monocytogenes, alternative sigma factor, SigH, SigL, SigC
+
+DESIGN
+Independent RNA isolations were performed for cultures grown to stationary phase (OD600 = 1 + additional incubation for 3 hours) at 37°C. In addition to RNA from stationary phase cultures, for SigC regulon characterization, cultures were also grown to log phase (OD600 = 0.4) then exposed to heat at 55 °C for 10 min) and grown in BHI with 0.5 mM IPTG to log phase prior to RNA isolations. Three biological replicates were used in competitive whole-genome microarray experiments. The LIMMA package from the R/BioConductor software project was used for data pre-processing and differential expression analyses.
+
+PLATFORM
+GPL5029 CUFSL Listeria 6K oligonuclotide array v1.0
+
+CITATIONS
+21037293
+

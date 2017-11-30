@@ -1,0 +1,18 @@
+TITLE
+Identification of a gene expression signature associated with the metastasis suppressor function of NME1
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transciptome analysis using a panel of WM793 melanoma cell lines following stable overexpression of wild-type or mutant forms of human NME1 NME1 is well known for its ability to suppress melanoma metastasis, however the means by which NME1 accomplishes this remains controversial. Herein, we utilized a bioinformatics approach to systematically identify effector genes of NME1’s metastasis suppressor function by tracking genes regulated by wild-type NME1 but not by metastasis suppressor deficient mutants of NME1. This approach identified a number of novel genes, such as ALDOC, CXCL11, LRP1b and XAGE1 as well as known targets of NME1 such as NETO2. Our NME1-mediated Metastasis Suppressor Signature (MSS) was capable of identifying subpopulations of metastatic melanoma patients with prolonged progression free survival. Interestingly, when patients were clustered by an extension of the MSS, two populations of metastatic melanoma patients were identified with significantly lowered overall and progression free survival times. Together, these data demonstrate that NMEl is a powerful tool for identifying genes that both promote and inhibit melanoma metastasis.
+
+DESIGN
+Analysis of WM793 (parent) and NME1 (wild-type and 3 mutant (E5A, K12Q, P96S) constructs) overexpressing cell lines using the Affymetrix GeneChip Human Exon 1.0 ST Arrays. 20 arrays were run across the 5 cell lines with 4 technical replicates performed for each cell line. Array data was processed and normalized in R using the RMA method.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+29058705
+

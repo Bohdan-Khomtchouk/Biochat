@@ -1,0 +1,18 @@
+TITLE
+LASSIM -a network inference toolbox for genome-wide mechanistic modeling [USF2, KLF6/COPEB, CBL and HIS1 siRNA]]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We present LASSIM, which is a toolbox built to build and infer parameters within mechanistic models on a genomic scale. This is made possible due to a property shared across biological systems, namely the existence of a subset of master regulators, here denoted the core system. The introduction of a core system of genes simplifies the inference into small solvable sub-problems, and implies that all main regulatory actions on peripheral genes come from a small set of regulator genes. This separation allows substantial parts of computations to be solved in parallel, i.e. permitting the use of a computer cluster, which substantially reduces the time for the computation to finish.
+
+DESIGN
+Data contains 31 samples: 8 controls, 6 CBL knockdowns, 6 USF2 knockdowns, 6 COPEB(KLF6) knockdowns and 5 HIS1 knockdowns.
+
+PLATFORM
+GPL14550 Agilent-028004 SurePrint G3 Human GE 8x60K Microarray (Probe Name Version)
+
+CITATIONS
+28640810
+

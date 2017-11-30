@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic profiling maps anatomically patterned subpopulations among single embryonic cardiac cells [qPCR]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Embryonic gene expression intricately reflects anatomical context, developmental stage, and cell type. To address whether the precise spatial origins of cardiac cells can be deduced solely from their transcriptional profiles, we established a genome-wide expression database from 118, 949, and 1166 single murine heart cells at embryonic days (e)8.5, 9.5, and 10.5, respectively. We segregated these cells by type using unsupervised bioinformatic analysis and identified novel chamber-specific genes. Using a random forest algorithm, we reconstructed the spatial origin of single e9.5 and e10.5 cardiomyocytes with 92.0+/-3.2% and 91.2+/-2.8% accuracy respectively (99.4+/-1.0% and 99.1+/-1.1% if a +/-1 zone margin is permitted) and predicted the second heart field distribution of Isl1-lineage descendants. When applied to Nkx2-5-/- cardiomyocytes from murine e9.5 hearts, we showed their transcriptional alteration and lack of ventricular phenotype. Our database and zone classification algorithm will enable the discovery of novel mechanisms in early cardiac development and disease.
+
+DESIGN
+Single-cell qPCR of mouse embryonic day 10.5 (e10.5) cardiac cells with probes to distinguish cell type and anatomical origin. The embryonic hearts were dissected into 9 zones: right atrium (RA), left atrium (LA), atrioventricular canal (AVC), left ventricle (LV), left septum (LS), right septum (RS), proximal outflow tract (PO), and distal outflow tract (DO). Four 96x96 Fluidigm dynamic arrays (#BMKM-96.96) were used to profile expression of 81 genes in 374 single GFP+ cells isolated from each of the 9 cardiac zones in e10.5 Nkx2-5Cre/+;ROSA26mTmG/+ mouse embryos based on GFP expression. This experiment serves as a validation of the anatomical context prediction algorithm described in the referenced publication
+
+PLATFORM
+GPL22632 Custom panel of 81 Taqman probes
+
+CITATIONS
+27840109
+

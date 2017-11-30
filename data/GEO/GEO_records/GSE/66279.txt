@@ -1,0 +1,18 @@
+TITLE
+Effect of decitabine, carboplatin and their combination on gene expression in the YB5 colon cancer cell line.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+YB5 cell line is a clonal derivative of the SW48 colon cancer cell line that contains a single copy of a green fluorescent protein (GFP) reporter silenced by CpG methylation at its CMV promoter. We treated the YB5 cells with decitabine (5-aza-2’-deoxycytidine), carboplatin and the combination of decitabine plus carboplatin and analyzed the effects of the drugs on gene expression.
+
+DESIGN
+YB5 cells in the early log phase of growth were seeded at 3.5 million in 20 ml of culture medium in 10 cm diameter tissue culture plates at day 0.  The cells were treated with 20 microliters of decitabine (final concentration 25 nM), carboplatin (final concentration 20 uM) or both at days 1, 2, 3 and 4. Control cells were treated with 20 microliters of diluent (DMSO). The cells were harvested at day 6. Total RNA was extracted by TRIZOL, labeled with Cy5 (control cells) or Cy3 (treated cells) and hybridized on Agilent Whole Genome Array (G4112F). Raw data from the Agilent scanner were loess normalized using Bioconductor packages limma and agilp.
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+26366234
+

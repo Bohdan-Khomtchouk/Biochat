@@ -1,0 +1,18 @@
+TITLE
+Next Generation RNA Sequencing reveals defects in nuclear and chloroplast mRNA maturation of Arabidopsis thaliana lefko1 mutant
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Introduction: The Plant Organelle RNA Recognition (PORR) domain proteins are nucleus-encoded RNA-binding proteins that have acquired specific roles in organelle RNA metabolism as splicing factors of chloroplast group II introns. LEFKOTHEA (At5g62990) is a nuclear gene encoding a PORR domain protein that carries a transit peptide (TP) and monopartite or bipartite nuclear localization signals (NLS). These motifs result in dual-targeting of LEFKOTHEA to the nucleus and chloroplasts implying a role in the splicing of chloroplast group II introns and nuclear pre-mRNA introns. Therefore, we examined the splicing efficiency of plastid and nuclear genes in lefko1 mutant Methods: The lefko1 mutant is represented by the Salk T-DNA collection unicode SALK_044699/emb1692 and was obtained from the Nottingham Arabidopsis Stock Centre (NASC, Nottingham, UK). Embryo development in homozygous lefko1 plants is ceased abruptly arresting embryogenesis upon globular-to-heart stage transition. Total RNA was extracted using plant RNA kit spin columns with an on-column DNase treatment from heart-stage lefko1 mutant and wild-type Arabidopsis embryos. The quantity and integrity of the RNA was assessed using a NanoDrop 1000 spectrophotometer and agarose gel electrophoresis. RNA-seq libraries were generated using the TruSeq Low Input kit according to the manufacturer’s instructions (Illumina). Sequencing was performed on an Illumina HiSeq 2000 instrument at BGI (Beijing Genomics Institute). Raw reads were filtered into clean reads and aligned to the Arabidopsis genome (TAIR10).  RNA-seq data were analyzed using the SOAP (Release 2.121) with parameters “-s 40 -l 32 -v 3 -r 2” and the TopHat/Cufflinks pipeline (version 2) with parameters “-p 16 --solexa1.3-quals --segment-length 30 --segment-mismatches 2 -r 20 --mate-std-dev 20 --library-type fr-unstranded”. We generated 470 million paired-end reads (101 bp in length) for each sample. On average, about 90% of these reads could be unambiguously aligned to the TAIR10 reference genome sequence. Alternative splicing events were detected for lefko1 and wild-type using TopHat. Intron retention events detected in wild-type were filtered out from lefko1 or vice-versa, and visualized using the Integrative Genomics Viewer (IGV) tool. Results: RNA-seq uncovered an outstanding number of coding or non-coding novel transcripts in lefko1 mutant embryos. Splicing defects were observed in numerous nuclear and plastid genes of lefko1 embryos compared to wild type. Among them, intron retention (IR) events were the most prominent. Further, the fidelity of 5’ splice site (5’SS) donor and 3’SS acceptor splicing was highly disturbed in lefko1 embryos. To less extend, exon skipping (ES) defects were also detected. Conclusions: Detailed nuclear and chloroplast splicing events were widely observed in lefko1 aborted mutant embryos demonstrating a prevalent role of LEFKOTHEA in the splicing of nuclear pre-mRNA introns and chloroplast group II introns.
+
+DESIGN
+RNA-seq libraries were generated using the TruSeq Low Input kit according to the manufacturer’s instructions (Illumina). Sequencing was performed on an Illumina HiSeq 2000 instrument at BGI (Beijing Genomics Institute).
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

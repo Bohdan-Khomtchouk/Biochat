@@ -1,0 +1,18 @@
+TITLE
+Histone H2A T120 phophorylation promotes oncogenic transformation via upregulation of cyclin D1 [ChIP-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+It is well known that deregulation of chromatin modifiers, such as histone acetylases and methylases, causes malignancies. However, the possible role of histone phosphorylation in carcinogenesis has not yet been elucidated. Here, we found that histone phosphorylation by itself can be the causal event in carcinogenesis. First, we found that histone H2A T120 is phosphorylated in human cancer cell lines and proved that this phosphorylation is catalyzed by hVRK1. By knocking down VRK1, cyclin D1 was found to be downregulated by loss of H2A T120 phosphorylation and increased H2A K119 ubiquitylation of its promoter region, resulting in impaired cell growth. In human cancer tissues, we found that histone H2A is hyperphosphorylated, with upregulated cyclin D1. Mechanistically, histone H2A T120 phosphorylation and histone H2A K119 ubiquitylation, which repress transcription, are mutually inhibitory, suggesting that histone phosphorylation indirectly activates chromatin. Furthermore, mutated H2A T120D, which mimics phosphorylation, causes elevated H3K4 methylation in the same nucleosome. Subsequently, H3K4R, which functionally mimics H3K4 methylation, increases H3 S10 phosphorylation in the same nucleosome. Finally, both VRK1 and the H2A T120D mutant histone transformed NIH/3T3 cells. This suggests that histone H2A T120 phosphorylation by hVRK1 causes inappropriate gene and protein expression, including upregulated cyclin D1, resulting in carcinogenesis.
+
+DESIGN
+ChIP-Seq analysis using 3 antibody (anti-H2A pT120, anti-VRK1, anti-H2A ubiquitylated K119 )  in siVRK1 or siControl treated HT1080 cells.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+27716482
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression changes during retinal development and rod specification.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Photoreceptor disorders are collectively known as retinal degeneration (RD), and include retinitis pigmentosa (RP), cone-rod dystrophy and age related macular degeneration (AMD). These disorders are largely genetic in origin; individual mutations in any one of > 200 genes cause RD, making mutation specific therapies prohibitively expensive. A better treatment plan, particularly for late stage disease, may involve stem cell transplants into the photoreceptor or ganglion cell layers of the retina. Stem cells from young mouse retinas can be transplanted, and can form photoreceptors in adult retinas. These cells can be grown in tissue culture, but can no longer form photoreceptors. We have used microarrays to investigate differences in gene expression between cultured retinal progenitor cells (RPCs) that have lost photoreceptor potential, postnatal day 1 (pn1) retinas and the postnatal day 5 (pn5) retinas that contain transplantable photoreceptors. We have also compared FACS sorted Rho-eGFP expressing rod photoreceptors from pn5 retinas with Rho-eGFP negative cells from the same retinas. We have identified over 300 genes upregulated in rod photoreceptor development in multiple comparisons, 37 of which have been previously identified as causative of retinal disease when mutated. It is anticipated that this research should bring us closer to growing photoreceptors in culture and therefore better treatments for RD. This dataset is also a resource for those seeking to identify novel retinopathy genes in RD patients.
+
+DESIGN
+We extracted whole retinas from postnatal day 1 (Pn1) and postnatal day 5 (Pn5) mice, and compared them with cultured RPCs derived from pn5 retinas, using Affymetrix mouse 430A_2 arrays. We also extracted cells from Rho-eGFP Pn5 retinas and FACS sorted them. GFP+ve cells represent immature rod photoreceptors, as they express the Rho-eGFP fusion protein, which is only expressed in rods. GFP-ve cells represent all other retinal neurons. These samples were amplified and compared using Affymetrix mouse 430A_2arrays, by Source Biosciences GMBH, Berlin, Germany. Results from immature rods were then compared with those from other retinal neurons, while results from whole Pn5 retinas were compared with Pn1 retinas (which don't yet express rod specific genes), and RPCs, which are glial precursors. RPCs were also compared with Pn1 retinas. Genes which showed changed expression profiles in at least 3/4 of comparisons were prioritised for further investigation.
+
+PLATFORM
+GPL8321 [Mouse430A_2] Affymetrix Mouse Genome 430A 2.0 Array
+
+CITATIONS
+25678762
+

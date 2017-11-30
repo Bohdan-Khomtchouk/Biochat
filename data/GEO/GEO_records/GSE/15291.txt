@@ -1,0 +1,18 @@
+TITLE
+Development of a novel parameter for quantification of methylation levels in MeDIP-CpG island microarray analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarray analysis of DNA methylation has a great promise in biomedical research.  However, its accuracy in quantification of DNA methylation, especially at intermediate levels, is still unreliable due to the lack of an appropriate parameter that takes account of unique distribution nature of methylation levels and highly variable mean methylation levels depending upon individual samples.  Here, for methylated DNA immunoprecipitation-microarray analysis, we developed a parameter, " Me value " as a parameter that linearly correlates with methylation levels in CpG islands (CGIs) in various samples with various mean methylation levels.  The Me value had a linear correlation with the fraction of methylated DNA molecules obtained by bisulfite sequencing (R=0.86).  Analysis of cells treated with 5-aza-2'-deoxycitidine showed that distribution of the Me values shifted toward lower methylation levels.  For analysis of completely unmethylated or methylated CGIs, common threshold values stood valid with accuracy of 80 % for cell lines with various methylation levels, which was shown by methylation-specific PCR of more than one hundred loci.  Combined with expression microarray analyses, it was shown that methylation of promoter CGIs was significantly associated with low gene expression while that of far downstream was not.  It was also shown that various regions against TSSs are demethylated evenly by a demethylating agent, and that the degree of demethylation of any region was not associated with the degree of re-expression.
+
+DESIGN
+Genome-wide methylation analysis of six samples were performed using MeDIP and CpG island microarray.  Analysis of AGS was replicated for checking reproducibility.
+
+PLATFORM
+GPL4126 Agilent-014791 Human CpG Island ChIP-on-Chip Microarray 244K (G4492A) (Feature Number version)
+
+CITATIONS
+19767598
+

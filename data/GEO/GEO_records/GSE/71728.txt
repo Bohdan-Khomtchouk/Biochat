@@ -1,0 +1,18 @@
+TITLE
+Function and regulation of Cph2 in Candida albicans [ChIP-Seq]
+
+ORGANISM
+Candida albicans
+
+SUMMARY
+Candida albicans is associated with humans as both a harmless commensal organism and a pathogen. Cph2 is a transcription factor whose DNA binding domain is similar to mammalian sterol response element binding proteins (SREBPs). SREBPs are master regulators of cellular cholesterol levels, and are highly conserved from fungi to mammals. However, ergosterol biosynthesis is regulated by the zinc finger transcription factor Upc2 in C. albicans and several other yeasts. Cph2 is not necessary for ergosterol biosynthesis, but important for colonization in the murine gastrointestinal tract. Here we demonstrate that Cph2 is a membrane-associated transcription factor that is processed to release the N-terminal DNA binding domain like SREBPs; but its cleavage is not regulated by cellular levels of ergosterol or oxygen. ChIP-Seq shows that Cph2 binds to the promoters of HMS1 and other components of the regulatory circuit for GI tract colonization. In addition, 50% of Cph2 targets are also bound by Hms1 and other factors of the regulatory circuit. Several common targets function at the head of the glycolysis pathway. Thus, Cph2 is an integral part of the regulatory circuit for GI colonization that regulates glycolytic flux. RNA-seq shows a significant overlap in genes differentially regulated by Cph2 and hypoxia, and Cph2 is important for optimal expression of some hypoxia-responsive genes in glycolysis and the citric acid cycle. We suggest that Cph2 and Upc2 regulate hypoxia-responsive expression in different pathways, consistent with a synthetic lethal defect of the cph2 upc2 double mutant in hypoxia.
+
+DESIGN
+Genome binding/occupancy profiling by high throughput sequencing. ChIP-seq of Cph2 was carried out in a wild-type strain carrying N-terminal myc-tagged Cph2 under the MAL2 promoter (MAL2-myc-Cph2N). IP and INPUT samples from 2 independent experiments, as well as a sample of untagged wild-type control, were sequenced.
+
+PLATFORM
+GPL19036 Illumina HiSeq 2500 (Candida albicans)
+
+CITATIONS
+26342020
+

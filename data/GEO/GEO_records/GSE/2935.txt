@@ -1,0 +1,18 @@
+TITLE
+Macrophage Response to Sendai virus infection.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Thus, mouse macrophage cultures were established from PBMCs isolated from wild-type control mice and were inoculated with SeV (Sendai virus) or UV-SeV (UV-inactivated SeV). These microarrays were performed in concert with assays of CCL5 and CCR5 expression, viral replication, and cellular apoptosis. Initial experiments indicated that wild-type mouse macrophages inoculated with SeV exhibit induction of CCL5 mRNA to the highest level of any known mouse gene product, while mRNA levels for CCL5 receptors (CCR5 as well as CCR3 and CCR1) or alternative ligands for these receptors (CCL3 and CCL4) were relatively unchanged by viral infection. Keywords: Treatment Comparison
+
+DESIGN
+Macrophages were pooled from mice and subsequently cultured (~3 mice/well).  Each culture well was then subjected to one of two treatments (SeV, or UV-SeV) for 4 days.  Thus, per condition, N = 2 culture wells, with each well independently analyzed by microarray.  No technical replicates were performed, but arrays were evaluated for quality control using the SimpleAffy package (Miller CJ, 2004) in Bioconductor 1.5.
+
+PLATFORM
+GPL81 [MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array
+
+CITATIONS
+16208318
+

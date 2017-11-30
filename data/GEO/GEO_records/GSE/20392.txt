@@ -1,0 +1,18 @@
+TITLE
+Comparison of GFP- and Nurr1-infected ES-cell derived neurons
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+ES cell-derived neurons of forebrain identity were isolated by magnetic sorting, cultured for 7 days and transduced with either Nurr1 or eGFP lentivirus. After an additional 12 h in culture, mRNA was isolated and subjected to microarray analysis.
+
+DESIGN
+The raw data have been provided in CEL format The processed data have been provided in CHP format ES-cell derived forebrain neurons were plated in 10cm dishes and infected with either GFP or Nurr1 lentivirus at a MOI of 10. 18h after infection, RNA was prepped by the Qiagen mini kit and submitted to labeling and hybridization. Microarray experiments were carried out using GeneChip 430A 2.0 arrays (Affymetrix). Data was normalized and expression values were computed using the gcrma method. Statistical analysis was performed by empirical Bayes inference for linear models using the limma package. The inclusion criteria fold-change was > 1.6 and P < 0.001
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+20566846
+

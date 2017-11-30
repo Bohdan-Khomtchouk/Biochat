@@ -1,0 +1,18 @@
+TITLE
+MCF-7 Luciferase, PARP-1, PARG, SIRT1, and macroH2A Knockdown
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Affymetrix expression arrays were used to compare expression patterns upon knockdown of PARP-1,  PARG, SIRT1, or macroH2A in comparison to Luciferase control.
+
+DESIGN
+Total RNA isolated from three independently generated control-matched MCF-7 knockdown cell lines targeting Luciferase (control), PARP-1, PARG, SIRT1, and macroH2A was used to probe Affymetrix Human U133A 2.0 Expression Microarrays. The raw array data was processed by Affymetrix GeneChip Operating Software (GCOS) to obtain detection calls (ABS_CALL) and signal values (VALUE_2). The signals were then normalized by scaling to a target value of 500 using GCOS. To adjust for batch effects due to day-to-day differences in RNA isolations, the empirical Bayes method was applied to the data set. After adjusting any values less than 0.01 to 0.01, the data was log2 transformed, median centered for each array, and median centered for each individual probe set (VALUE). Filters were then applied to obtain final gene lists.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+19812418 , 19478080
+

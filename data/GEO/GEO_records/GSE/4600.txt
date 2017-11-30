@@ -1,0 +1,18 @@
+TITLE
+Identifying targets of MeCP2 during neuronal maturational differentiation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Rett syndrome (RTT) is an X-linked dominant neurodevelopmental disorder caused by mutations in MECP2, encoding methyl-CpG binding protein 2. MeCP2 is a transcriptional repressor elevated in mature neurons and is predicted to be required for neuronal maturation by regulating multiple target genes. Identifying primary gene targets in either Mecp2-deficient mice or human RTT brain has proven to be difficult, perhaps because of the transient requirement for MeCP2 during neuronal maturation. In order to experimentally control the timing of MeCP2 expression and deficiency during neuronal maturation, human SH-SY5Y cells undergoing mature neuronal differentiation were transfected with methylated MeCP2 oligonucleotide decoy to disrupt the binding of MeCP2 to endogenous targets. Genome-wide expression microarray analysis identified all four known members of the inhibitors of differentiation or inhibitors of DNA binding (ID1, ID2, ID3 and ID4) subfamily of helix-loop-helix (HLH) genes as novel neuronal targets of MeCP2. Chromatin immunoprecipitation analysis confirmed binding of MeCP2 near or within the promoters of ID1, ID2 and ID3, and quantitative RT-PCR confirmed increased expression of all four Id genes in Mecp2-deficient mouse brain. All four ID proteins were significantly increased in Mecp2-deficient mouse and human RTT brain using immunofluorescence and laser scanning cytometric analyses. Because of their involvement in cell differentiation and neural development, ID genes are ideal primary targets for MeCP2 regulation of neuronal maturation that may explain the molecular pathogenesis of RTT. Keywords: Neuronal Differentiation, Targets of MeCP2, Rett syndrome.
+
+DESIGN
+The series GSE4600 submission consists of 12 samples representing data from three biological replicates with four treatments (UD, D-UT, D-MD, and D-CD) per one replicate experiment. This study was conducted to identify the neuronal targets of MeCP2 during PMA induced SH-SY5Y neuronal maturational differentiation. Data from each sample consisted of dChip derived PM-only model gene expression index from four SH-SY5Y treatments: 1. Undifferentiated SH-SY5Y cells, i.e. before PMA induced differentiation (UD) (Sample ID - GSM102825, GSM102842 and GSM102870). 2. 48 h differentiated and untransfected cells (D-UT) (Sample ID - GSM102875, GSM102876 and GSM102877). 3. 48 h differentiated and MeCP2 decoy transfected cells (D-MD) (Sample ID – GSM102878, GSM102879 and GSM102880). 4. 48 h differentiated and Control decoy transfected cells (D-CD) (Sample ID – GSM102881, GSM102882 and GSM102883). Affymetrix HG U133 plus 2.0 genechips were used. Data analysis was performed using dChip analysis software and significant differences between different cell treatments were identified. List of genes regulated by MeCP2 were obtained by comparing gene lists with fold changes ≥ 2 and significant P values ≤ 0.05 between undifferentiated and MeCP2 decoy transfected but not undifferentiated and control decoy (UD vs. D-MD NOT D-CD) during neuronal maturational differentiation. Short listed candidate gene targets were validated by quantitative real time RT-PCR. Additional functional studies were also conducted on interesting and relevant neuronal targets of MeCP2.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+16682435
+

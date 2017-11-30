@@ -1,0 +1,15 @@
+TITLE
+L1000 Connectivity Map perturbational profiles from Broad Institute LINCS Center for Transcriptomics LINCS PHASE *II* (n=354,123; updated March 30, 2017)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Library of Integrated Cellular Signatures (LINCS) is an NIH program which funds the generation of perturbational profiles across multiple cell and perturbation types, as well as read-outs, at a massive scale. The LINCS Center for Transcriptomics at the Broad Institute uses the L1000 high-throughput gene-expression assay to build a Connectivity Map which seeks to enable the discovery of functional connections between drugs, genes and diseases through analysis of patterns induced by common gene-expression changes. The platform is GPL20573: Broad Institute Human L1000 epsilon http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20573 For questions or assistance with this dataset, please email the CMap support team at: clue@broadinstitute.org
+
+DESIGN
+LINCS aims to enable a functional understanding of biology by cataloging changes in gene expression and other cellular processes that occur when cells are exposed to a variety of perturbing agents. The Broad Institute LINCS Center for Transcriptomics contributes to this collaborative effort by application of the Connectivity Map concept. In brief, the study design involves the generation of a compendium of transcriptional expression data from cultured human cells treated with small-molecule and genetic loss/gain of function perturbagens. These measurements are made using the L1000 high-throughput gene-expression assay that enables data generation at an unprecedented scale.  The data are processed through a computational system, that converts raw fluorescence intensities into differential gene expression signatures. The data at each stage of the pre-processing are available: Level 1 (LXB) - raw, unprocessed flow cytometry data from Luminex scanners. One LXB file is generated for each well of a 384-well plate, and each file contains a fluorescence intensity value for every observed analyte in the well. Level 2 (GEX) - gene expression values per 1,000 genes after deconvolution from Luminex beads. Level 3 (Q2NORM) - gene expression profiles of both directly measured landmark transcripts plus inferred genes. Normalized using invariant set scaling followed by quantile normalization. Level 4 (Z-SCORES) - signatures with differentially expressed genes computed by robust z-scores for each profile relative to control (PC relative to plate population as control; VC relative to vehicle control)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

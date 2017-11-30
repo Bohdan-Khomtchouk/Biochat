@@ -1,0 +1,18 @@
+TITLE
+YY1 plays an essential role at all stages of B cell differentiation [RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+YY1 is a ubiquitously expressed transcription factor that has been demonstrated to be essential for pro-B cell development.  However, the role of YY1 in other B cell populations has never been investigated.  It has been proposed that YY1 is a key regulator for the germinal center B cell program since the YY1 motif was present in much higher frequency in germinal center B cell signature genes than signature genes of other B cell subsets. Indeed, in accord with this prediction, we demonstrated that deletion of YY1 by Cg1-Cre completely prevented differentiation of naïve B cells into germinal center B cells and plasma cells after antigen stimulation.  To determine if YY1 was also required for the differentiation of other B cell populations, we deleted YY1 with CD19-Cre and found that all peripheral B cell subsets including B1 B cells require YY1 for their differentiation.  By deleting YY1 acutely with ER-Cre, we demonstrated that all B cell subsets require YY1 for their maintenance.  ChIP-seq shows that YY1 predominantly binds to promoters, and pathway analysis of the genes which bind YY1 show that they are enriched in ribosomal functions, mitochondrial functions such as bioenergetics, and functions related to transcription, such as mRNA splicing, metabolism of RNA. By RNA-seq analysis of differentially expressed genes, we demonstrated that YY1 normally activates genes involved in mitochondrial bioenergetics, while it normally downregulates genes involved in transcription, mRNA splicing, NF-kB signaling pathways, AP-1 transcription factor network, chromatin remodeling, cytokine signaling pathways, cell adhesion, cell proliferation and c-Myc targets.
+
+DESIGN
+Total RNA was prepared from RAG-/-pro-B cells, RAG-/-YY1f/f x mb1-Cre pro-B cells, RAG-/- µ+ pre-B cells, C57BL/6 follicular B cells, and C57BL/6 GC B cells. RNA was extracted using TRIzol (Life Technologies) and genomic DNA was eliminated using the genomic DNA wipeout buffer in the QuantiTect Reverse transcription kit (Qiagen). A final purification of the RNA was performed with the RNeasy kit (Qiagen). Ribosomal RNA was eliminated using Ribo-Zero Magnetic Gold Kit (Illumina).RNA samples were submitted to the Next Generation Sequencing Core, where they were processed with the NEBNext Ultra Directional RNA Library Prep Kit  for Illumina and sequenced on the Illumina HiSeq. Three independent RNA-seq samples were used for RAG-/- pro-B and RAG-/- YY1f/f x mb1-Cre pro-B cells, and two samples for the other cell types.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+27335461
+

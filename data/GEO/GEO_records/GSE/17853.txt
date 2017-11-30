@@ -1,0 +1,18 @@
+TITLE
+E. coli K-12 hha hns: pCA24N-hnsK57N vs pCA24N-hns biofilm
+
+ORGANISM
+Escherichia coli K-12
+
+SUMMARY
+The global regulator, H-NS, controls genes related to stress response, biofilm formation, and virulence expression by recognizing the curved DNA and silences gene transcription acquired from lateral gene transfer.  Here, we rewired H-NS to control biofilm formation using protein engineering.  One H-NS variant, H-NS K57N was obtained to reduce biofilm formation 10-fold compared to H-NS wild-type. Whole-transcriptome analysis (BW25113 hha hns / pCA24N-hns K57N vs. BW25113 hha hns / pCA24N-hns) revealed that H-NS K57N represses biofilm formation through the interactinon with other nucleoid proteins, Cnu and StpA.  Remarkably, H-NS K57N enhanced the excision of defective prophage Rac while H-NS wild-type represses it, and H-NS controlled only Rac excision among E. coli prophages.  These results imply that the repression of Rac excision is one of the silencing manner for foreign genes by H-NS.  Also, the prophage excision not only led to the change of biofilm formation but also resulted in cell lysis through the expression of toxin protein HokD with reduced viability, which are important for cell physiology in response to the change of environmental conditions.  Hence, H-NS regulatory system may be evolved easily with specialized functions in terms of biofilm formation, prophage control, and cell lysis.
+
+DESIGN
+For the whole transcriptome study of BW25113 hha hns / pCA24N-hns K57N versus BW25113 hha hns / pCA24N-hns, cells were grown in 250 mL LB containing 1 mM IPTG for 7 h with 10 g of glass wool (Corning Glass Works, Corning, N.Y.) in 1 L Erlenmeyer flasks to form a robust biofilm.  Biofilm cells were obtained by rinsing and sonicating the glass wool in sterile 0.85% NaCl solution at 0°C, and RNALater buffer® (Applied Biosystems, Foster City, CA) was added for RNA stabilization and protection during the RNA preparation steps.  Total RNA was isolated from biofilm cells.  The E. coli GeneChip Genome 2.0 array (Affymetrix, Lot# 4059655) containing 10,208 probe sets for four E. coli strains (MG1655, CFT073, O157:H7-Sakai, and O157:H7-EDL933) was used for DNA microarray.  cDNA synthesis, fragmentation, and hybridizations were performed.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+Hong SH, Wang X, Wood TK. Controlling biofilm formation, prophage excision and cell death by rewiring global regulator H-NS of Escherichia coli. Microb. Biotechnol. 3: 344-356 (2010). DOI: 10.1111/j.1751-7915.2010.00164.x
+

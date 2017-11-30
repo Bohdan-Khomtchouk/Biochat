@@ -1,0 +1,18 @@
+TITLE
+Identification of sex-biased genes in Drosophila using gonad RNAseq data
+
+ORGANISM
+Drosophila ananassae ; Drosophila pseudoobscura ; Drosophila yakuba
+
+SUMMARY
+Purpose: Accurate identification of sex-biased genes requires precise measurement of gene expression levels in gonads. This study is designed to provide such data for various Drosophila species to enhance studies of sex-biased gene expression and evolution across the genus. Methods: Virgin flies were collected and aged 6-10 days before dissecting 2-3 replicates of testes or ovaries. Total RNA was extracted using the Arcturus® PicoPure® kit .  Illumina® TruSeq® RNA library kits were used to poly-A+ select and reverse-transcribe mRNA, shear cDNA into ~120 bp fragments, and produce libraries for 1x50 bp sequencing on an Illumina GAIIx or HiSeq2000. Illumina®’s Real Time Analysis v1.13 module processed images, called bases, and provided base qualities. Reads were mapped to the current reference genomes using Bowtie v2.1.0 (Langmead and Salzberg, 2012, Nat Meth) with default settings. Differentially expressed genes were detected using Cufflinks v 2.1.0 (Trapnell et al., 2010, Nat Biotech; default settings) or edgeR (Robinson et al., 2010, Bioinformatics; full-quantile GC-content normalization and full-quantile between-sample normalization). Genes were called differentially expressed at a Benjamini-Hochberg false discovery rate of 0.01. Results: Thousands of male- and female-biased genes were detected for each species using both DE detection methods. These results provide a significant improvement in sensitivity of sex-biased gene detection relative to using whole-body RNA-sequencing data. These data provide a foundation for accurate identification of sex-biased genes throughout the Drosophila genus.
+
+DESIGN
+Testis and ovary samples from Drosophila species were sequenced 1 x 50 bp in duplicate from 6-10 day old virgin, Wolbachia-free adult flies on an Illumina GAIIx or HiSeq2000.
+
+PLATFORM
+GPL13309 Illumina HiSeq 2000 (Drosophila ananassae) GPL13310 Illumina HiSeq 2000 (Drosophila pseudoobscura) GPL15872 Illumina Genome Analyzer IIx (Drosophila yakuba) GPL17883 Illumina Genome Analyzer IIx (Drosophila pseudoobscura)
+
+CITATIONS
+25031657
+

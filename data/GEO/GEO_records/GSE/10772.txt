@@ -1,0 +1,18 @@
+TITLE
+Transcriptome-wide noise controls differentiation potential of mammalian progenitor cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Phenotypic cell-to-cell variability within clonal populations may be amanifestation of " gene expression noise " , or it may reflect stablephenotypic variants.  Such " non-genetic cell individuality " can arisefrom the slow fluctuations of protein levels in mammalian cells. Thesefluctuations produce persistent cell individuality, thereby rendering aclonal population heterogeneous. However, it remains unknown whetherthis heterogeneity may account for the stochasticity of cell fatedecisions in stem cells which depends on the kinetics that underliesheterogeneity.  Here we show that in clonal populations of hematopoieticprogenitor cells, spontaneous " outlier " cells with extremely high or lowexpression levels of the stem cell marker Sca-1 reconstitute theparental distribution of Sca-1 but do so only after more than one week.This slow relaxation is described by a Gaussian-Mixture Model (GMM) thatincorporates noise-driven transitions between discrete subpopulations,suggesting hidden multi-stability within one cell type. Despiteclonality, the Sca-1 outliers had distinct transcriptomes. Although theunique gene expression profiles eventually reversed to that of themedian cells, they lasted long enough to confer a greatly differentproclivity for choosing either the erythroid or myeloid lineages. Preference in lineage choice was associated with elevated expression oflineage-specific transcription factors, such as > 200-fold increase inGATA1 among the erythroid-prone cells, or > 15-fold PU.1 expressionamong myeloid-prone cell. Thus, clonal heterogeneity of gene expressionlevel is not due to independent noise in the expression of individualgenes, but reflects metastable states of a slowly fluctuatingtranscriptome that is distinct in individual cells and may govern thereversible, stochastic priming of multipotent progenitor cells in cellfate decision. Keywords: murine EML cell line
+
+DESIGN
+In the study presented here, the highest, middle, and lowest 15% Sca-1expressors from a clonal population of EML cells were used to acquireexpression profiles of a total of 46,628 unique genes using the IlluminaMouse-6 v1.1 microbead chips. Here, the Rank-Invariant normalized datais provided along with the individual raw data files.
+
+PLATFORM
+GPL6568 Illumina mouse-6 v1.1 expression beadchips
+
+CITATIONS
+18497826
+

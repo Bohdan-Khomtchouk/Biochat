@@ -1,0 +1,18 @@
+TITLE
+Effect of Artemisinin on Aspergillus fumigatus gene expression program
+
+ORGANISM
+Aspergillus fumigatus
+
+SUMMARY
+We examined the antifungal activity of artemisinin against Aspergillus fumigatus (A. fumigatus), a pathogenic filamentous fungus responsible for allergic and invasive aspergillosis in humans and analyzed transcript profiles of the fungus on exposure to Artemisinin. A. fumigatus spores were cultured for 48 h and then treated with artemisinin (at MIC50 concentration) or solvent control (DMSO) for 3 h to study its transcriptomic profiles.
+
+DESIGN
+Total RNA (7 µg) from A. fumigatus treated with solvent control (DMSO) or artemisinin was reverse transcribed separately using fluorescein-labeled dCTP or biotin-labeled dCTP from Micromax TSA labeling kit (Cy3 or Cy5 dyes are differentially deposited to these labeled cDNAs, post-hybridization, using tyramide signal amplification (TSA) protocol). Labeled cDNAs from test and control sample were mixed in equal amount and hybridized to microarray slide(s). After hybridization, the slides were processed as per the protocol of the Micromax TSA labeling kit and scanned in both the Cy3 and the Cy5 channels with a model 4200 Axon Instruments scanner with a 10-µm resolution. Each of the signals was converted into a resolution of 16 bits per pixel. A dye swap experiment with a biological replicate was performed to ensure the reproducibility of each gene expression pattern.TIFF images were analyzed using GenePix Pro 6.0 software. The signal intensity value of each spot was reduced by the local background level for each spot. Diagnosis and normalization of microarray data (DNMAD) program was used for print-tip loess normalization of microarray data and for merging the data from dye-swap experiments . M-values obtained from this program were converted to log ratio (test/reference) and fold modulation. Genes having less than 3 spots in 2 dye swap slides were discarded and only those having their all fold change values (from 3 or 4 replicates in 2 slides; as each target is spotted twice on the slide) within a coefficient of variation ± 0.5 were used for analysis. Gene expression ratios of ≥2 (fold upregulation or downregulation) in both replicates (dye swap) were considered to be differentially expressed genes.
+
+PLATFORM
+GPL10315 JCVI Aspergillus fumigatus 20K microarray Version 2
+
+CITATIONS
+21755315
+

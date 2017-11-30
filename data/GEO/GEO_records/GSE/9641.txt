@@ -1,0 +1,18 @@
+TITLE
+The CodY Regulon in Streptoccus mutans
+
+ORGANISM
+Streptococcus mutans
+
+SUMMARY
+In this report, codY mutant strains were constructed and used to demonstrate the relationship of (p)ppGpp synthesized by RelP and RelQ with the activation of CodY.  In addition, because CodY has not been studied in S. mutans, we used microarrays to demonstrate that this protein function as a global regulator of gene expression in S. mutans. Keywords: stress response, gene knockout analysis
+
+DESIGN
+For microarray analysis, cells were grown in complete FMC to an optical density at 600 nm (OD600) of 0.3 collected by centrifugation, quick frozen in a dry-ice/ethanol bath, and stored at - 80∞C for RNA isolation. RNA was isolated from exponential phase (OD600 0.3), as described previously.  All samples were digested with DNase I (Ambion, Austin, TX) and purified using the RNeasy mini kit column (Qiagen, Inc., Chatsworth, CA).  RNA concentrations were determined spectrophotometrically in triplicate and one µg of RNA was run in a formaldehyde gel to verify RNA quality.  Reverse transcription (RT) reaction was performed with 10 mg of RNA following the protocol provided by TIGR with minor modifications.  Transcriptome analysis was performed using the S. mutans UA159 microarrays provided by The Institute for Genomic Research (TIGR).  The microarrays consisted of 1,948 70-mer oligonucleotides representing 1,960 open reading frames printed four times on the surface of each microarray slide.  Additional details regarding the arrays are available at http://pfgrc.tigr.org/descriptions/S_mutans.shtml. A reference RNA prepared from a large-scale culture of S. mutans UA159 cells that had been grown in BHI broth to an OD600 = 0.5 was used in every experiment.   cDNA labeling was performed according to TIGR protocols with minor modifications as described elsewhere.  Four cDNA samples originating from four independent cultures of UA159 and JLcodY strains were hybridized to the arrays along with the reference cDNA, generating a total of 16 slides.  Hybridizations were performed in a Maui hybridization chamber (BioMicro Systems, Salt Lake City, UT).  Additional details regarding array protocols are available at http://pfgrc.tigr.org/protocols/protocols.shtml. Data from all individual experiments were analyzed using Spotfinder software and normalized using Midas according to TIGR specifications ( http://www.tigr.org/software/ ).  Statistical analysis was carried out using BRB Arrays Tools ( http://linus.nci.nih.gov/BRB-ArrayTools.html ) with a P-value of 0.001.
+
+PLATFORM
+GPL4340 JCVI PFGRC Streptococcus mutans 10K v2.1 array designed primarily based on strain UA159 [FULL_FEATURE_LAYOUT]
+
+CITATIONS
+18539745
+

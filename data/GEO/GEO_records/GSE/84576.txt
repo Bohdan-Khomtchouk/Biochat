@@ -1,0 +1,18 @@
+TITLE
+Polycomb Underlies Transcriptional Heterogeneity in Lineage Priming of Embryonic Stem Cells [ChIP-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+X-linked Chromatin Immunoprecipitation (ChIP) for the histone modification H3K27me3 was performed on subpopulations of the HexVenus reporter mouse ES cell line (clone HV1.5) grown under self-renewing conditions. Subpopulations were identified and isolated based on the expression of the ES cell surface marker SSEA 1 and the expression of the venus protein. At approximately 70% confluence, cells were trypsinised, resuspended in FACs buffer (10%FCS in PBS) and incubated with a mouse monoclonal antibody to SSEA 1 (MC-480, Developmental Hybridoma Studies Bank, University of Iowa). Cells were then incubated with an Alexa-647 conjugated anti-mouse IgM antibody (Invitrogen) and subpopulations were fractionated by flow cytometry prior to further processing specific to each method. The aim was to determine if subtle changes in priming gene transcription were associated with changes in the magnitude of H3K27me3.
+
+DESIGN
+mESCs carrying a fluorescently tagged Hhex-Venus (HV) reporter construct were FACS sorted and immediately cross-linked with formaldehyde and then stored at -80°C prior to performing ChIP. ChIP was performed on two independent biological replicates for both the primed and re-sorted populations in addition to a single replicate for the minor HV+S- (spontaneously differentiated) population. Sequencing libraries were generated for each sample and deep sequenced.
+
+PLATFORM
+GPL21103 Illumina HiSeq 4000 (Mus musculus)
+
+CITATIONS
+27723457
+

@@ -1,0 +1,18 @@
+TITLE
+A quantitative framework to evaluate modeling of cortical development by neural stem cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In vitro neural stem cell models are widely used to model a wide range of neuropsychiatric conditions. However, how well such models correspond to in vivo brain has not been evaluated in an unbiased, comprehensive manner. We used transcriptomic analyses to compare in vitro systems to developing human fetal brain and observed strong conservation of in vivo gene expression and network architecture in differentiating primary human neural progenitor cells (phNPCs). Conserved modules are enriched in genes associated with ASD, supporting the utility of phNPCs for studying neuropsychiatric disease. We also developed and validated a machine learning approach called CoNTExT that identifies the developmental maturity and regional identity of in vitro models. We observed strong differences between in vitro models, including hiPSC-derived neural progenitors from multiple laboratories. This work provides a framework for evaluating in vitro systems and supports their value in studying the molecular mechanisms of human neurodevelopmental disease. In this GEO submission, we upload data from 5 lines of phNPCs as well as hiPSCs cultured in two different laboratories all at multiple differentiation time points.
+
+DESIGN
+phNPCs: For each of 5 lines generated from 3 donors (15-16 PCW), two independent differentiation experiments each containing two replicates were performed and harvested at four time points (1, 4, 8, 12 wks PD; ~16 samples per line; 77 total samples). We confirmed RNA integrity by RIN score with the Agilent 2100 Bioanalyzer (mean +/- sd: 9.16 +/- 0.78).   iPSC: Two hiPSC datasets were RNA profiled as part of this study.  hiPSCs grown in the Kosik lab was derived from two independent, non-isogenic IPS lines: one derived from a patient carrying a mutant Tau variant G55R and one reference control. For each of these lines, two samples were harvested at each of 0, 1, 4, and 8 weeks PD (total n=16 samples). hiPSCs grown in the Gage lab were from six samples derived from 3 control lines at each of two time points (0 and 4 wk PD, total n=12 samples).  Samples were randomized to microarray chip by all biological variables of interest (donor, line, passage, replicate number, differentiation week, plate date, and RIN) to control for potential batch effects.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+24991955
+

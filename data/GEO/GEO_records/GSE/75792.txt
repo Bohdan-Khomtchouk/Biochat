@@ -1,0 +1,18 @@
+TITLE
+TT-Seq captures the human transient transcriptome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A large portion of the genome is transcribed but many of the resulting RNAs live only transiently and can generally not be mapped. Here we develop transient transcriptome sequencing (TT-Seq), a protocol that maps transcriptionally active regions in a nearly uniform manner and allows for unbiased monitoring of cellular RNA synthesis activity. Application of TT-Seq to human K562 cells recovers stable mRNAs and long intergenic non-coding RNAs, and additionally maps over 10,000 transient RNAs including enhancer RNAs, antisense RNAs, promoter-associated upstream antisense and convergent RNAs. TT-Seq also provides RNA half-lives, and reveals that transient RNAs are short and lack U1 motifs and secondary structure. TT-Seq further uncovers transcription termination sites and reveals a universal DNA motif for RNA polymerase II release.
+
+DESIGN
+TT-Seq is an adaptation of 4sU-Seq for human cells. The labeled RNA is fragmented prior to 4sU-purification, which leads to an overall enrichment of transient transcripts. 8 RNA-Seq (TT-Seq, 4sU-Seq, total RNA-Frag-Seq and total RNA-Seq; in biological duplicates) were sequenced on a HiSeq 1500
+
+PLATFORM
+GPL18460 Illumina HiSeq 1500 (Homo sapiens)
+
+CITATIONS
+27257258
+

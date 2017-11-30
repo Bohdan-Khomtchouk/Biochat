@@ -1,0 +1,18 @@
+TITLE
+Comparative expression profile of microRNAs in Anopheles anthropophagus midgut after blood feeding and Plasmodium infection
+
+ORGANISM
+Anopheles anthropophagus
+
+SUMMARY
+High-throughput sequencing was performed to identify miRNAs profiles of Anopheles anthropophagus midguts after blood feeding and Plasmodium infection. The expression patterns of miRNA in different midgut libraries were compared basing on transcripts per million reads (TPM). This study provides novel regulated miRNAs information of An. anthropophagus during blood feeding and parasite infection
+
+DESIGN
+Experiment was divided into three groups.Midguts dissection of female adults was performed 48 h post-blood feeding on P. berghei–infected or uninfected ICR mice . Total RNAs were extracted from dissected tissue. The small RNA samples were collected and subsequently sequenced by illumina Hiseq2000 . Raw reads generated post high-throughput sequencing was processed. Clean reads derived from deep sequencing were trimmed and filtered with BOWTIE software to fetch sequences having an appropriate length (15-32 nt). Mature and pre-miRNA sequences of available mosquito species namely Anopheles gambiae, Aedes aegypti were used as a reference miRNAs database from the mirbase v.21. Data derived from three midguts libraries generated after sequencing were analyzed separately. The identification of novel miRNA were performed by using RNA fold and miRDeep2 .
+
+PLATFORM
+GPL22912 Illumina HiSeq 2000 (Anopheles anthropophagus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+RNA Seq in wild type and zfs1 deficient C. albicans
+
+ORGANISM
+Candida albicans
+
+SUMMARY
+Members of the tristetraprolin (TTP) family of CCCH tandem zinc finger proteins bind to AU-rich regions in the 3'-untranslated regions (UTR) of target mRNAs, leading to their deadenylation and accelerated decay.  Family members in S. cerevisiae influence iron metabolism, whereas the family member in S. pombe leads to defects in cell-cell interactions.  In the important human fungal pathogen Candida albicans, deep sequencing of transcripts in mutants deficient in the analogous protein, Zfs1p, revealed 156 transcripts whose levels were significantly increased by at least 1.5-fold.  Of these, 113 (72%) contained at least a single predicted TTP family member binding site in their 3’UTR.  In contrast, 102 transcripts were significantly down-regulated by 1.5-fold or more, and only 5 (5%) of these contained potential binding sites.  Sequences of the proteins encoded by the putative Zfs1p targets were highly conserved among other Candida species, while the predicted Zfs1p binding sites in these mRNAs progressively “disappeared” with increasing evolutionary distance from the parental species.  The C. albicans results support the concept that the biochemical functions of the TTP family members in fungal organisms are highly conserved, yet each species appears to have evolved its own set of transcripts that are regulated by this mechanism.
+
+DESIGN
+Strains were grown in YPD media to approximately OD600=0.75 and total RNA was harvested from four biological replicates each of WT and 2 independent isolates of the zfs1 deletion.
+
+PLATFORM
+GPL15149 Illumina Genome Analyzer IIx (Candida albicans)
+
+CITATIONS
+25524641
+

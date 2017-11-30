@@ -1,0 +1,18 @@
+TITLE
+Functional Study of the Chicken microRNAs miR-143 and miR-10a
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+MicroRNA (miRNA) is a family of small regulatory RNA that post-transcriptionally regulates many biological functions including growth and development. Chicken miR-143 and miR-10a are expressed in both the embryonic and post-hatch chick in a spatio-temporal manner. In order to study the functions of these miRNAs, loss of function and microarray approaches were employed. Spleen cells were isolated from embryonic day 18 chickens and immediately transfected with either a synthetic miR-143 inhibitor or a synthetic miR-10a inhibitor or a negative control oligo-nucleotide (Dharmacon). Cultures were maintained for 48 hrs and microarray analysis was performed using the Arizona Gallus gallus 20.7K long oligoarray (GPL6049). Differentially expressed genes were identified for each miRNA by comparing the miRNA knock-down group to the negative control group. The differentially expressed genes were functionally categorized using the DAVID Functional Annotation Tool ( http://david.abcc.ncifcrf.gov/ ). The 3’-UTR of the up-regulated genes (de-repressed after the miRNAs knock-down) were scanned for potential miR-143 or miR-10a binding sites using the miRanda algorithm version 3.1 ( http://www.microrna.org/microrna ). In addition, the Chicken (Gallus gallus) Unigene database (NCBI) was also used to predict potential targets of these miRNAs. A set of predicted targets for both miRNAs was selected and validated by dual luciferase reporter gene assay. Overall, many of the identified targets for miR-143 are associated with cell proliferation, tumerigenesis and apoptosis. Many of potential targets for miR-10a are associated with immune response.
+
+DESIGN
+A reference designed microarray was performed in which samples (Cy3) were co-hybridized with the reference RNA pool (Cy5) on the array. The microarray data set was processed using within- and across-array loess normalization method in JMP Genomics 3.0, SAS (Cary, NC). Data quality was evaluated using the MA plots process and the correlation and grouped scatter plots procedure (JMP Genomics 3.0). Differentially expressed genes were identified using ANOVA process on JMP Genomics 3.0 with fixed effect of treatments and random effect of arrays.
+
+PLATFORM
+GPL6049 Arizona Gallus gallus 20.7K Oligo Array v1.0
+
+CITATIONS
+20064147
+

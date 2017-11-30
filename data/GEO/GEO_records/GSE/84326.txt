@@ -1,0 +1,18 @@
+TITLE
+Human tandem repeat custom custom microarray ChIP-chip with anti-CTCF and anti-CTCFL/BORIS antibodies in K562 cell line
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A common aberration in cancer is the activation of germline-specific proteins. The DNA-binding proteins among them generate novel chromatin states, not found in normal cells. The chromatin architecture protein CTCF has a germline-specific paralog BORIS/CTCFL, which is often erroneously activated in cancers. Another common feature of malignancies is the changed expression and epigenetic states of genomic repeats. The investigation of BORIS and CTCF binding to DNA repeats in cancer cell lines by ChIP-chip revealed three classes: elements cohabited by BORIS and CTCF, CTCF-bound only, or BORIS-only.
+
+DESIGN
+The two-channel experiment included 3 biological replicas for each protein, 6 datasets in total. The input was labeled with Cy3 and ChIP DNA was labeled with Cy5. The custom arary design (OID24708_Human) was done at Nimblegen based on Tandem Repeat Finder (TRF) database generated with human genome release hg18
+
+PLATFORM
+GPL22150 Nimblegen OID24708_Human, Design: 091105_HG18_AS_ChIP_HX1
+
+CITATIONS
+27588042
+

@@ -1,0 +1,18 @@
+TITLE
+ENL Links Histone Acetylation to Oncogenic Gene Expression in AML
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cancer cells are characterized by aberrant epigenetic landscapes and often exploit the chromatin machinery to activate oncogenic gene expression programs1. The recognition of modified histones by “reader” proteins constitutes a key mechanism underlying these processes; therefore targeting such pathways holds clinical promise, as exemplified by the recent development of BET bromodomain inhibitors2,3. We recently identified the YEATS domain as a novel acetyllysine-binding module4, yet its functional importance in human cancer remains unknown. Here we show that the YEATS domain-containing protein ENL, but not its paralog AF9, is required for disease maintenance in a variety of acute myeloid leukaemias (AML). CRISPR-Cas9 mediated depletion of ENL led to anti-leukemic effects, including increased terminal myeloid differentiation and suppression of leukaemia growth in vitro and in vivo. Biochemical and crystal structural studies in vitro and ChIP-seq analyses in leukaemia cells revealed that ENL binds to acetylated histone H3, and colocalizes with H3K27ac and H3K9ac on the promoters of actively transcribed genes that are essential for leukaemias. Disrupting the interaction between the YEATS domain and histone acetylation via structure-based mutagenesis reduced RNA polymerase II recruitment on ENL target genes, thus leading to suppression of oncogenic gene expression programs. Importantly, disruption of ENL’s functionality further sensitized leukaemia cells to BET inhibitors. Together, our study identifies ENL as a histone acetylation reader that regulates oncogenic transcriptional programs in AML and suggests that displacement of ENL from chromatin is a promising epigenetic therapy alone or in combination with BET inhibitors for AML
+
+DESIGN
+iCas9-MOLM-13 or MV411 cells were transduced with sgRNA or shRNA targeting control or ENL in indicated conditions. RNA-seq was then performed to identify differentially expressed genes.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+28241141
+

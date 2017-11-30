@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis of the arginine regulon in E.coli
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Analysis of the response to arginine of the Escherichia coli K-12 transcriptome by microarray hybridization and real-time quantitative PCR provides a first coherent quantitative picture of the ArgR-mediated repression of arginine biosynthesis and uptake genes. Transcriptional repression was shown to be the major control mechanism of the biosynthetic genes, leaving only limited room for additional transcriptional or post-transcriptional regulations. The art genes coding for the specific arginine uptake system are subject to ArgR-mediated repression, with a strong repression of artJ, coding for the periplasmic binding protein of the system. The hisJQMP genes of the histidine transporter (part of the LAO uptake system) were discovered to be a part of the arginine regulon. Analysis of their control region with reporter gene fusions and electrophoretic mobility shift in the presence of pure ArgR repressor showed the involvement in repression of the ArgR protein and of an ARG box 120 bp upstream of hisJ. No repression of the genes of the AO uptake system was observed. Finally, comparing the time course of arginine repression of gene transcription with the evolution of the specific activities of the cognate enzymes showed that while full genetic repression was achieved two minutes after arginine addition, enzyme concentrations were diluted at the rate of cell division. This emphasizes the importance of the feedback-inhibition of the first enzymatic step of the pathway in controlling the metabolic flow through the biosynthesis in the period following the onset of repression. Keywords: dose response, replicate design, genetic modification design
+
+DESIGN
+3 groups of 3 replicate samples were analyzed: (1) Wild type on minimal medium (strain P4X, slides 1753, 1765, 1989), this created a reference condition (2) Wild type grown in the presence of arginine (strain P4X plus 100µg/ml of arginine, slides 1754, 1766, 1990), this gave a list of all the genes repressed by the system: ArgR+arginine (3) Mutant where no active repressor is present; grown in the presence of arginine (strain P4XB2 (argR-) plus 100µg/ml arginine, slides 1992, 1993, 1994). This condition told us which genes are indeed regulated by the system: ArgR+arginine. Those genes are in this case derepressed.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+17074904
+

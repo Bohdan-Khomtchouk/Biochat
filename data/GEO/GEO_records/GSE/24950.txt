@@ -1,0 +1,15 @@
+TITLE
+Renormalized GSE6089 by using the parametric method
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Each of the channel data was normalized and summarized by using SuperNORM data service (Skylight Biotech Inc.). http://www.super-norm.com/eng/index.html ABS_CALL: A, affected severely by noise; M, marginal; P, plausible.
+
+DESIGN
+Both R and G signal data of samples in GSE6089, GSM140954-GSM140967, were parametrically normalized in channel-wise manner according to the three-parameter lognormal distribution method (Konishi, 2004 BMC Bioinformatics, 5, 5 http://www.biomedcentral.com/1471-2105/5/5 ).  A pseudo data was then derived in a form of antilog of the z-scores; the center of the pseudo data was 256. The pseudo data, ABS_CALL, and the normalized data (z-scores) are presented in the matrix form.
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

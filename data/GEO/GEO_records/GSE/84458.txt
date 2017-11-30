@@ -1,0 +1,18 @@
+TITLE
+TET-dependent regulation of retrotransposable elements in mouse embryonic stem cells [RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+TET enzymes oxidise DNA methylation as part of an active demethylation pathway. Despite extensive research into the role of TETs in genome regulation, little is known about their effect on transposable elements (TEs), which make up nearly half of the mouse and human genomes. Epigenetic mechanisms controlling TEs have the potential to affect their mobility and to drive the co-adoption of TEs for the benefit of the host. We have performed a detailed investigation of the role of TET enzymes in the regulation of TEs in mouse embryonic stem cells (ESCs). We found that TET1 and TET2 bind multiple TE classes that harbour a variety of epigenetic signatures indicative of different functional roles. Namely, TETs co-bind with pluripotency factors to enhancer-like TEs that interact with highly expressed genes in ESCs, whose expression is partly maintained by the demethylating action of TET2. TETs and 5-hydroxymethylcytosine are also strongly enriched at the 5’ UTR of full-length, evolutionarily young LINE1 elements, a pattern that is conserved in human embryonic stem cells. TET depletion leads to a marked increase in DNA methylation levels at LINE1s, but surprisingly their expression is stably maintained through additional TET-dependent activities. Specifically, we find that TET1 recruits the SIN3A co-repressive complex to LINE1s, ensuring their repression upon TET-driven hypomethylation. This dual nature of TET action may reflect the evolutionary battle between TEs and the host. Our data implicate TET enzymes in the evolutionary dynamics of TEs, both in the context of exaptation processes and of retrotransposition control.
+
+DESIGN
+TET1 or TET2 were depleted in embryonic stem cells by shRNA, using a non-targeting sequence (shScr) as a control. RNA was extracted to generate rRNA-depleted RNA-seq libraries (5 replicates of each sample) and small RNA-seq libraries (2 replicates of each sample).
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+27863519
+

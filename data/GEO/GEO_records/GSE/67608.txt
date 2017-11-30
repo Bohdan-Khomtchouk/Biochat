@@ -1,0 +1,18 @@
+TITLE
+Gene expression changes in Porphyromonas gingivalis W83 after inoculation in rat oral cavity
+
+ORGANISM
+Porphyromonas gingivalis W83
+
+SUMMARY
+The aim of this study is to investigate the alterations in gene expression in Porphyromonas gingivalis W83 after inoculation in rat oral cavity. P.gingivalis W83 inoculation in rat oral cavity caused inflammatory responses in gingival tissues and destroyed host alveolar bone. Microarray analysis revealed that 42 genes were upregulated, and 22 genes were downregulated in the detected 1786 genes in the inoculated P.gingivalis W83. Products of these upregulated and downregulated genes are mainly related to transposon functions, cell transmembrane transportation, protein and nucleic acid metabolism, energy metabolism, cell division and bacterial pathogenicity.P.gingivalis W83 has a pathogenic effect on host oral cavity. Meanwhile, inflammatory oral environment alters P.gingivalis W83 gene expression profile. These changes in gene expression may limit the proliferation and weaken the pathogenicity of P.gingivalis W83, and favor themselves to adapt local environment for survival.
+
+DESIGN
+3 samples were picked up from wild strain P.gingivalis W83 and inoculated P.gingivalis W83, respectively. The total RNA was extracted and labeled with Klenow, and then hybridism with P.gingivalis W83 chip. The commercial GeneChip P.gingivalis W83 Genome Array used here was provided by CapitalBio Corporation ( http://www.capitalbio.com/en/index.asp, Beijing, China), a service provider authorized by Roche NimbleGen (Wisconsin, USA). Five replicates of the genome were included per chip. An average of 19 different 60-base oligonucleotides (60-mer probes) represented each gene in the genome. Array hybridization, washing, scanning and data analysis were performed at the CapitalBio Corporation, Beijing, China and carried out according to the NimbleGen’s Expression user’s guide. The arrays were scanned using MS200 scanner (NimbleGen), and NimbleScan software (NimbleGen) was used to extract fluorescent intensity raw data from the scanned images. The expression data of probes were normalized using quantile normalization and expression data of genes were generated using the Robust Multichip Average (RMA) algorithm. In a comparison analysis, two class unpaired method in the Significant Analysis of Microarray software (SAM, version 3.02) was performed to identify significantly differentially expressed genes between TEST and CONTROL groups. Genes were determined to be significantly differentially expressed with a selection threshold of false discovery rate, FDR < 5% and fold change＞2.0 in the SAM output result.
+
+PLATFORM
+GPL6533 Porphyromonas gingivalis W83 array
+
+CITATIONS
+26001932
+

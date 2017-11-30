@@ -1,0 +1,18 @@
+TITLE
+Transcriptional response of ethanol-stressed vs. non-stressed culture
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The yeast Saccharomyces cerevisiae is well known for its high ethanol production performances. An original fermentation process that allows the yeast S. cerevisiae to produce in less than 45 h more than 150 g/l ethanol (i.e. 18.9°GL) was set up in our laboratory [1]. Under this condition, the yeast cells induce a dynamic process to adapt to increased ethanol concentration by a mechanism that is likely different to the stress response triggered by sudden ethanol addition to exponentially growing cells [2]. Kinetic analysis of the growth curve identified two main phases: a growth phase that ended up at 90 g/l ethanol and then an uncoupling phase during which non-growing cells kept producing ethanol. This latter phase is also characterized with an increased loss of viability. In order to investigate on a genome scale the expression changes occurring during this process, gene expression was quantified using DNA chips technology at six different time-points during fed-batch fermentation. [1] Alfenore et al, Appl. Microbiol. Biotechnol. 60 : 67-72, 2002. [2] Alexandre H. et al., FEBS Lett. 498(1) : 98-103, 2001.
+
+DESIGN
+We measure the changes in the gene expression of ethanol stressed culture at five different time-points during fed-batch fermentation compared to a common reference consisting of exponentially growing yeast cells ( sample number 1 : growing cells ; low ethanol concentration of  17 g/l ; specific growth rate of 0.3 h-1) . The sets corresponded to sample number 2 : growing cells/ethanol concentration of 60 g/l ; sample number 3 : before growth arrest/ethanol concentration of 90 g/l ; sample number 4 : growth arrest/ethanol concentration of 95 g/l ; sample number 5 : 1 hour after growth arrest/ethanol concentration of 100 g/l and sample number 6 : uncoupling phase/ethanol concentration of 125 g/l. For each sample, total RNAs from one yeast culture (no biological replicate) were extracted three times (technical replicates -extract). For labelling, we labelled the common reference with dCTP-Cy5 and labelled the sample with dCTP-Cy3 and hybridized cDNA on three independent microarrays, given rise to six data value per gene (each gene is duplicate in the slide).
+
+PLATFORM
+GPL8372 Genotoul/Biopuces Eurogentec Yeast 6K 20x21
+
+CITATIONS
+19686340
+

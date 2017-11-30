@@ -1,0 +1,18 @@
+TITLE
+Effect of overexpressed UTR constructs on RNA enrichment at protrusions
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We generated fibroblast lines overexpressing beta-globin constructs under a doxycycline-inducible promoter. These constructs contain the beta-globin coding sequence followed by either a control 3'UTR (HBB) or the Pkp4 3'UTR. The Pkp4 3'UTR carries a protrusion-targeting element and is expected to compete with localization of endogenous protrusion-localized mRNAs.  We used a fractionation scheme to isolate protrusions and cell bodies from HBB and Pkp4 UTR-expressing fibroblasts, which were induced to extend protrusions in response to addition of lysophosphatidic acid (LPA). 4 replicate protrusion and cell body samples for each cell type were analyzed by RNA-Seq. To identify RNAs enriched in protrusions, a protrusion/cell body ratio was calculated. We find that ca. 4.5% of detected RNAs were enriched in protrusions of control HBB cells. Overexpression of the Pkp4 UTR reduced the protrusion enrichement of a subset of these RNAs, while the degree of localization of the remaining RNAs was not significantly affected.
+
+DESIGN
+RNA-seq profiles of protrusions and cell bodies from cells stably overexpresing beta-globin constructs carrying either a control 3' UTR (HBB) or the Pkp4 3'UTR. 4 replicates were sequenced on Illumina HiSeq2500.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

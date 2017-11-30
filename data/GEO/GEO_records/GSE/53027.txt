@@ -1,0 +1,18 @@
+TITLE
+Genome-wide nucleosome positioning is orchestrated by genomic regions associated with DNase I hypersensitivity in rice
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+Nucleosome positioning dictates the DNA accessibility for regulatory proteins, and thus is critical for gene expression and regulation. It has been well documented that only a subset of nucleosomes are reproducibly positioned (phased) in eukaryotic genomes. The most prominent example of phased nucleosomes is the context of genes, where phased nucleosomes flank the transcriptional starts sites (TSSs). It is unclear, however, what factors influence nucleosome phasing in regions that are not close to genes. We performed a combinational mapping of nucleosome positioning and DNase I hypersensitive sites (DHSs) across the rice genome. We discovered that DHSs located in a variety of contexts, both genic and intergenic, were flanked by strongly phased nucleosome arrays. Our results support the barrier model for nucleosome organization as a general feature of eukaryote genomes, including plant genomes, and not limited to TSSs. Specifically, regions bound with regulatory proteins, including intergenic regions, can serve as barriers that organize phased nucleosome arrays on both sides. Our results also suggest that rice DHSs often span a single, phased nucleosome, similar to the H2A.Z-containing nucleosomes observed in DHSs in the human genome. We propose that genome-wide nucleosome positioning in the eukaryotic genomes is orchestrated by genomic regions associated with regulatory proteins.
+
+DESIGN
+Rice chromatin was digested by micrococcal nuclease (MNase) into mono-nucleosome size. Mono-nucleosomal DNA was isolated and sequenced (MNase-seq) using Illumina sequencing platforms. We obtained a total of 38 million (M) single-end reads from our first MNase-seq experiment and mapped ~26 M to unique positions in the rice genome. We also conducted pair-end sequencing of an independent MNase-seq library, obtained 274 M paired-end reads, and mapped ~231 M read pairs to unique positions in the rice genome.We applied a strategy of combinational mapping of nucleosome positioning and DHSs (GSE26610) to examine whether nucleosome positioning is associated with all cis-regulatory elements in the rice genome. All datasets used in the analysis were developed using rice leaf tissue in the same developmental stage
+
+PLATFORM
+GPL9316 Illumina Genome Analyzer II (Oryza sativa)
+
+CITATIONS
+24852592
+

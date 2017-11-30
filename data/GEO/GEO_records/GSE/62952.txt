@@ -1,0 +1,18 @@
+TITLE
+Integrated genome and transcriptome sequencing from the same cell
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Single-cell genomics and single-cell transcriptomics have recently emerged as powerful tools to study the biology of single cells at a genome-wide scale. Here we describe a method that allows the integration of genomic DNA and mRNA sequencing from the same cell. We use this method to correlate DNA copy number variation to transcriptome variability among individual cells.
+
+DESIGN
+First, hand-picked single cells are lysed and reverse transcribed using a poly-A primer including cell-specific barcodes, a 5' Illumina adapter and a T7 promoter overhang to convert mRNA to single stranded cDNA (ss cDNA). The gDNA and single stranded cDNA are then subjected to quasilinear whole genome amplification, as previously described, using an adapter with a defined 27 nucleotide sequence at the 5’ end followed by 8 random nucleotides. After 7 rounds of amplification, the gDNA and cDNA are copied to generate a variety of different short amplicon (0.5–2.5 kb) species, with a majority of amplicons containing adapter Ad-2 at both ends and a small fraction of cDNA derived amplicons containing Ad-2 at one end and Ad-1x at the other. Next, the sample is split into two tubes to further amplify gDNA and cDNA. The tube used to sequence gDNA is amplified using PCR. Following sonication, adapter Ad-2 removal, and cell-specific indexed Illumina library preparation, this half is used to sequence gDNA. The tube used to sequence cDNA is converted to double-stranded cDNA and amplified using in vitro transcription such that the amplified RNA (aRNA) is uniquely produced from cDNA but not gDNA. 3’ Illumina adapters are then ligated to the aRNA followed by reverse transcription and PCR, allowing quantification of mRNA.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25599178
+

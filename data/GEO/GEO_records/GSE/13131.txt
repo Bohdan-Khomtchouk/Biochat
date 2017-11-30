@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling of LNCaP and PC-3 prostate cancer cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BACKGROUND.  Human prostate cancer LNCaP and PC-3 cell lines have been extensively used as prostate cancer cell models to study prostate cancer progression and to develop therapeutic agents.  Although LNCaP and PC-3 cells are generally assumed to represent early and late stages of prostate cancer development, respectively, there is limited information regarding comprehensive gene expression patterns between these two cells lines and relating these cells to prostate cancer progression based on their gene expression. METHODS.  Comprehensive gene expression analysis was performed in LNCaP and PC-3 cells.  Total RNA was isolated from cultured cells and hybridized to Illumina human Ref-8 version 3 BeadChips representing 24,526 transcripts.  Bioinformatics approach was applied to identify genes, their functional roles and interaction networks that are unique in either LNCaP or PC-3 cells. RESULTS.  We observed large differences in gene expression between LNCaP and PC-3 cells.Using robust statistical analysis and very high significance criteria to identify tractable number of genes 115 and 188 genes were identified uniquely expressed in LNCaP and PC-3 cells, respectively. Genes uniquely expressed in LNCaP cells contained UDP-glucosyltransferases as a signature for this cell line. This cell line demonstrated upregulation of various metabolic pathways on gene expression level. Talα/β, GATA-1 and c-Myc/Max were identified by in silico analysis as possible transcription factors regulating unique LNCaP genes. PC-3 cells were characterized by cytosceleton-related genes, keratins in particular. Several other well known genes (VEGFC, IL8, TGFβ2 and others) scattered throughout literature were identified and summarized in the discussion. CONCLUSIONS.  This study demonstrated that LNCaP and PC-3 cells represent two distinct prostate cancer cell lineages.  LNCaP cells retain many prostate cell specific properties, whereas PC-3 cells have acquired more aggressive bone-like characteristics following bone metastasis and show little resemblance to prostate cells.  Microarray studies confirmed previously published results and provided more information between these two prostate cancer cell lines.  Future studies need to consider their similarities and differences in gene expression between localized and metastasized prostate cancer.
+
+DESIGN
+LNCaP and PC-3 human prostate cancer cell lines were grown on Plastic under normal conditions. Total RNA was isolated from LNCaP cells passaged 31-32 times and from PC-3 cells passaged 16-17 times. Four biological replicates for each cell line (each replicate from different passage) were run on Illumina HumanRef-8 v3.0 platform. Two groups were compared by using associative t-test (Dozmorov I. & Centola M, 2003) and differentially expressed genes were characterized.
+
+PLATFORM
+GPL6883 Illumina HumanRef-8 v3.0 expression beadchip
+
+CITATIONS
+19343732
+

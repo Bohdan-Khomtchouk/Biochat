@@ -1,0 +1,18 @@
+TITLE
+Identification of StpA-binding sites on the Salmonella genome
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344
+
+SUMMARY
+We used ChIP-chip analysis to identify where the nucleoid associated protein StpA binds on the Salmonella Typhimurium genome. We identified 285 chromosomal regions bound by StpA, ranging in size from 400 to 3500 base pairs and containing 572 genes. Comparison of the ChIP data revealed that StpA displayed an identical binding profile to H-NS; all genomic regions associated with StpA were also bound by H-NS. Of the 88 StpA-dependent genes that are de-repressed in the absence of StpA, only 25 were bound by StpA, suggesting that StpA generally regulates gene expression indirectly.
+
+DESIGN
+To identify the direct StpA targets, we co-immunoprecipitated DNA from a strain expressing a 3xFLAG-tagged StpA-protein using an anti-3xFLAG antibody. As a negative control, we used the same antibody (anti-3xFLAG) to co-immunoprecipitate DNA from an isogenic strain expressing the non-tagged StpA-protein. Three independent biological replicates were generated. For comparative purposes we also performed the co-immunoprecipitation on wild type Salmonella using a monoclonal anti-H-NS antibody. In that case, the negative control was obtained by performing the co-immunoprecipitation protocol on wild type Salmonella without adding antibody.
+
+PLATFORM
+GPL5791 IFR OGT Salmonella SL1344 22k v1.0
+
+CITATIONS
+19843227
+

@@ -1,0 +1,18 @@
+TITLE
+Comparison of gene expression in ΔrpaA strain and wild-type strain
+
+ORGANISM
+Synechococcus elongatus PCC 7942
+
+SUMMARY
+The goal of the experiment was to determine the difference in gene expression between the wild-type strain and a strain lacking rpaA (ΔrpaA).  Because gene expression is not at steady-state in the wild-type -- it oscillates with a circadian period -- and we did not know a priori whether it is at steady-state in the ΔrpaA strain, we compared the time-averaged gene expression in the wild-type to the time-averaged gene expression in the ΔrpaA strain.
+
+DESIGN
+Cultures were grown in a turbidostat as described previously (Vijayan et al, PNAS 2009).  Cultures were entrained with two consecutive light/dark cycles and released into continuous light at time T = 0.  Cultures were samples every 4 hours for 20 h between T = 24 h and T = 44 h, inclusive (no 4 h sample was acquired because, in a circadianly-oscillating culture, it would be duplicative with the 24 h timepoint).  A pool of RNA representing time-averaged wild-type RNA was constructed by pooling equal mass quantities of RNA from each wild-type timepoint.  A pool of RNA representing time-averaged RNA for the ΔrpaA strain was constructed by pooling equal mass quantities of RNA from each ΔrpaA timepoint.  These two pooled RNA samples were compared by two-color Agilent microarray.  To correct for dye biases, two microarrays were performed -- one in which the ΔrpaA pool was labeled with Cy3 and the wild-type pool was labeled with Cy5, and another in which the dyes were swapped.  In the manuscript, the average log2 ratio value from these two microarrays was employed (average of log2(ΔrpaA/wild-type) = 0.5 * (log2(ΔrpaA Cy3 / wild-type Cy5) - log2(wild-type Cy3 / ΔrpaA Cy5)), with the minus sign correcting for the sign changed caused by the dye swap).  See supplementary file linked at foot of Series record.
+
+PLATFORM
+GPL9534 Agilent-020846 Synechococcus elongatus PCC 7942 Oligo Microarray
+
+CITATIONS
+24315105
+

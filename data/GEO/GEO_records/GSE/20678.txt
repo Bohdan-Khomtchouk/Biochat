@@ -1,0 +1,18 @@
+TITLE
+Development of a versatile, target-oriented tiling microarray assay for measuring allele-specific gene expression
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+In the study of gene expression regulation in plants, it is often desirable to distinguish transcript pools derived from different alleles present in the same organism. We report here an oligonucleotide tiling microarray designed to specifically target 518 single nucleotide polymorphisms (SNPs) between the two sequenced rice (Oryza sativa) subspecies indica and japonica. The tiling array includes all pairs of 25-mer allele-specific probes interrogating each SNP by placing the polymorphic site at all 25 possible positions within the probe. Hybridization of the tiling array to a titration series in which the japonica- and indica-derived cDNA templates are mixed with altering proportions and development of a novel bioinformatic methodology allowed us to screen for diagnostic probe pairs for each SNP. Our result indicates that 284 (55%) SNPs have at least one diagnostic probe pair suitable for distinguishing and quantifying the relative abundance of allele-specific transcripts. As a proof-of-concept, we analyzed allele-specific expression in reciprocal indica × japonica F1 hybrids and detected imbalanced expression at 95 (33%) and 71 (25%) SNPs, respectively. Comparison results from RNA-sequencing and allele-specific real-time PCR experiment validates the sensitivity and reliability of the tiling array method. Together, our results demonstrate the advantages of the tiling array method in interrogating large numbers of SNPs and for the reliability of the experimental and analytical techniques used for quantifying allele-specific gene expression.
+
+DESIGN
+For each selected SNP, 25 pairs of 25-mer oligonucleotide probes were designed with one match perfectly to the indica allele and the other the japonica allele within each pair. Among the 25 probe pairs, the polymorphic site was placed at a different position such that all possible 25-mer allele-specific probes spanning the polymorphic site were included. The resultant 25,900 probes were synthesized in triplicate in a single microarray produced on the Maskless Array Synthesizer platform as previously described (Li et al., 2005; 2006). Poly(A+) RNA from japonica, indica and their reciprocal hybrids was reverse transcribed using an oligo(dT)18 primer, during which amino-allyl-modified dUTP (aa-dUTP) was incorporated. The aa-dUTP decorated cDNA was fluorescent labeled by conjugating the monofunctional Cy3 dye (GE Healthcare) to the amino-allyl functional groups in the cDNA. Dye-labeled target was quantified using a spectrophotometer and two μg used for hybridization to each array. In the titration series experiment, the dye-labeled targets from japonica and indica were mixed in known proportions before hybridization.
+
+PLATFORM
+GPL10148 Yale University Rice SNP Array 386K
+
+CITATIONS
+20688151
+

@@ -1,0 +1,18 @@
+TITLE
+Technical Analysis of Fundulus heteroclitus cDNA Microarrays, experiment A
+
+ORGANISM
+Fundulus heteroclitus
+
+SUMMARY
+In the teleost fish Fundulus heteroclitus there is extensive variation in gene expression among individuals within and between populations.  Accurate measures of the variation in mRNA expression using microarrays can be confounded by technical variation, which includes variation in RNA isolation procedures, day of hybridization and methods used to amplify and dye label RNA for hybridization.  In this manuscript we analyze the relationship between the amount of mRNA and the fluorescent signal from the microarray hybridizations demonstrating that for a wide-range of mRNA concentrations the fluorescent signal is a linear function of the amount of mRNA.  Additionally, the separate isolation, labeling or hybridization of RNA does not add significant amounts of variation in microarray measures of gene expression.  However, single or double rounds of amplification for labeling do have small but significant affects on 10% of genes, but this source of technical variation is easy to avoid.  To examine both technical and stochastic biological variation, mRNA expression was measured from the same five individuals over a six-week time course.  There were few, if any, meaningful differences in gene expression among time points.  Thus, microarray measures using standard laboratory procedures can be precise and quantitative and are not subject to significant random biological noise.
+
+DESIGN
+mRNA expression was measured using microarrays where each array had four spatially separated replicates per gene.  The 384 F. heteroclitus cDNA microarrays were printed using 55 control genes and 329 cDNAs which encode essential proteins for cellular metabolism. To test for the relationship between fluorescence and the quantity of RNA, five concentrations of fluorescently labeled RNA were used: 1.2 to 700 pmol of Cy3 or Cy5. A 15 µl hybridization using the 384 cDNA array corresponds to 0.09 to 47 µM of Cy dye.  Cy5 dye labeled RNA was used at concentrations 18% less than Cy3 because the Cy5 dye is a more efficient fluorophore (greater fluorescence per photon) than the Cy3 dye.  The average of eight fluorescence values for each gene was normalized to the original concentration of RNA added.
+
+PLATFORM
+GPL7335 RSMAS Crawford Fundulus 384 cDNA [condensed array version]
+
+CITATIONS
+19221589
+

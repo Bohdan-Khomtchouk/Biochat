@@ -1,0 +1,18 @@
+TITLE
+A native chromatin purification system for epigenomic profiling in C. elegans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+We describe an in vivo chromatin purification system for genome-wide epigenetic profiling in C. elegans. In this system, we coexpressed the E. coli biotin ligase enzyme (BirA), together with the C. elegans H3.3 gene fused to BioTag, a 23-amino acid peptide serving as a biotinylation substrate for BirA, in vivo in worms. We developed methods to isolate chromatin under different salt extraction conditions, followed by affinity purification of biotinylated chromatin with streptavidin and genome-wide profiling with microarrays. For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf
+
+DESIGN
+All experiments were done using two channels per chip, comparing DNAs extracted from either salt-extracted or insoluble chromatin to whole nuclear chromatin, whole nuclear chromatin to randomly fragmented genomic DNA, streptavidin-bound biotin-tagged histone-variant-containing chromatin to salt-extracted chromatin, gel-purified mononucleosomes to whole EDTA-extracted soluble chromatin, or streptavidin-bound biotin-tagged histone-variant-containing chromatin to whole EDTA-extracted soluble chromatin to randomly fragmented DNA from embryo nuceli.
+
+PLATFORM
+GPL7098 NimbleGen C_elegans_WS170_Tiling_Iso_HX1 tiling design
+
+CITATIONS
+19966274
+

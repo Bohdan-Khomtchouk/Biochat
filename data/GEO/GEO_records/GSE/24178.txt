@@ -1,0 +1,18 @@
+TITLE
+Genome wide localization of Activation induced cytidine deaminase (AID), Spt5, and RNA Polymerase II (PolII) in mouse
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Activation induced cytidine deaminase (AID) initiates antibody gene diversification by creating U:G mismatches. However, AID is not specific for antibody genes. Off-target lesions can activate oncogenes or cause chromosome translocations. Despite its importance in these key transactions little is known about how AID finds its target sites. To examine AID regulation we performed an shRNA screen. We found that Spt5, a factor associated with paused RNA polymerase II (Pol II) and single stranded DNA (ssDNA), is required for class switch recombination (CSR).  Spt5 interacts with AID, it is required for the association of AID and Pol II, and for AID recruitment to switch regions. ChIP-seq experiments reveal that Spt5 co-localizes with AID and stalled Pol II. Further, Spt5 accumulation at sites of Pol II pausing is predictive of AID-induced mutation. Our data suggest that Spt5 acts as an adaptor, which brings AID to Pol II on target DNA.
+
+DESIGN
+PolII, AID, and Spt5 were immunoprecipitated from in vitro activated B cells.  For Spt5 and AID, two different antibodies were used in separate, biological replicates. Notes:  Peaks of enrichment relative to a random background model were identified with SICER 1.03 (Zhang et al., 2009).  For AID, the parameters used were window size = 100, gap size = 100, e = 0.000001, redundancy = 1, fragment size   = 127 (AID+/+, ab1), 115 (AID-/-, ab1), and 125 (AID+/+, ab2).  Fragment size estimates were calculated from the data based on a shifting algorithm that attempts to minimize a Shannon entropy measure.  Read counts were adjusted for library size and are given as reads per million non-redundant aligned reads (RPM). Densities were then filtered to only display windows falling onto enriched regions as identified by SICER.  AID-/- densities were additionally scaled by a factor of 0.592 to correct for an overestimation of background levels at 104 genes that displayed higher read densities in AID-/- cells than AID+/+ cells.  Corrected values were used to calculate RPKM values in Table S1 of Yamane et al. (PMID 21113164) and for display in browser tracks. Please note a typo in Fig. 1a of Yamane et al. (PMID 21113164) where the Y axes of AID+/+ and AID-/- samples should read 0.15-1.2, instead of 0-1.2.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+20887897 , 21113164 , 23706737
+

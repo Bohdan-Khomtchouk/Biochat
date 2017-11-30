@@ -1,0 +1,18 @@
+TITLE
+Highly parallel assays of tissue-specific enhancers in whole Drosophila embryos
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Understanding transcriptional regulatory networks requires the identification and characterization of cis-regulatory modules (CRMs), DNA sequences which can direct expression of associated genes to a specific cell type and/or developmental stage.  Reporter assays for the capacity of a candidate CRM to activate a heterologous promoter have been productive but suffer limited throughput or fail to convey information on cell type specificity.  We have developed an assay in which reporter constructs containing a pool of candidate CRMs are introduced in parallel to Drosophila embryos along with a common cell-type-specific second marker; candidate CRMs isolated by PCR from FACS-purified double-positive cells can by quantitated by high-throughput sequencing, and their relative abundance compared to those in the input cell population to detect activity in the cell type (or types) of interest.
+
+DESIGN
+twi-CD2+/GFP+ cells in triplicate, and input (twi-CD2+) cells in triplicate for comparison; twi-CD2-/GFP+ cells in triplicate, and input (twi-CD2-) cells in triplicate for comparison; mef2-CD2+/GFP+ cells (single sample), and input (mef2-CD2-) cells in quintuplicate for comparison and variance estimation; mef2-CD2-/GFP+ cells in triplicate, and input (mef2-CD2-) cells in triplicate for comparison; duf:CD2+/GFP+ cells (single sample), and input (duf:CD2-) cells in quintuplicate for comparison and variance estimation; duf:CD2-/GFP+ cells in sextuplicate, and input (duf:CD2-) cells in sextuplicate for comparison.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+23852450
+

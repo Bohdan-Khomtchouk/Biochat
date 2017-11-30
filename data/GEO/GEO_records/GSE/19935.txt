@@ -1,0 +1,18 @@
+TITLE
+Identifying genetic loci and spleen gene coexpression networks driving immunophenotypes in the BXD panel
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The immune system plays a pivotal role in susceptibility to and progression of a variety of diseases. Due to its strong genetic basis, heritable differences in immune function may contribute to differential disease susceptibility between individuals. Genetic reference populations, such as the BXD (C57BL/6J X DBA/2J) panel of recombinant inbred (RI) mouse strains, provide a unique model through which to integrate baseline phenotypes in healthy individuals with heritable risk for disease because of the ability to combine data collected from these populations across multiple studies and time.  We performed basic immunophenotyping (e.g. percentage of circulating B and T lymphocytes and CD4+ and CD8+ T cell subpopulations) in peripheral blood of healthy mice from 41 BXD RI strains to define the phenotypic variation in this model system and to characterize the genetic architecture that unlerlies these traits. Significant QTL models that explained the majority (50-77%) of phenotypic variance were derived for each trait and for the T:B cell and CD4+:CD8+ ratios. Combining QTL mapping with spleen gene expression data uncovered two quantitative trait transcripts (QTTs), Ptprk and Acp1, that which are candidates for heritable differences in the relative abundance of helper and cytotoxic T cells. These data will be valuable in extracting genetic correlates of the immune system in the BXD panel. In addition, they will be a useful resource in prospective, phenotype-driven model selection to test hypotheses about differential disease or environmental susceptibility between individuals with baseline differences in the composition of the immune system.
+
+DESIGN
+Spleen gene expression was analyzed from 38 BXD strains. Adult mice (8-12 weeks) were euthanized by cervical dislocation and spleens were harvested and stabilized in RNAlater.  Total RNA was extracted and gene expression profiling was performed on the Illumina Sentrix mouse-6 gene expression arrays v1.1. Each BXD sample profiled consisted of a pool of equal amounts of RNA from two individuals of the same sex and strain (approximately 15ug per strain). In addition, flow cytometry was used for the immunophenotyping of male and female mice (average of four mice/sex/strain) from 41 BXD strains (spleen expression profiling was performed on 34 of these strains) and the parental strains. Lymphoctes were identified as CD3+, CD79+, CD4+, or CD8+ to identify T cells, B cells, T helper cells, and cytotoxic T cells, respectively. These data are presented as percentage of lymphoctes with those cell surface markers (e.g. CD3%, CD79%, CD4%, CD8%). Lymphocyte subpopulations are also represented as natural log-transformed ratios (e.g. LN T:B, LN CD4:CD8). In addition, the median expression of MHCII on B cells is reported (LN MHC Med).  The immunophenotype data is available in the supplementary file.
+
+PLATFORM
+GPL6105 Illumina mouse-6 v1.1 expression beadchip
+
+CITATIONS
+20179155
+

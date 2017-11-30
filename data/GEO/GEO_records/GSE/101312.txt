@@ -1,0 +1,18 @@
+TITLE
+Daily oscillation and enrichment patterns in the transcriptome of the behavior-manipulating parasite Ophiocordyceps kimflemingiae
+
+ORGANISM
+Ophiocordyceps sp. SC16a
+
+SUMMARY
+The natural histories of various parasite-host interactions that involve adaptive manipulation of host behavior describe a time-of-day synchronization of certain events. One example is the manipulated biting behavior observed in Carpenter ants infected with Ophiocordyceps unilateralis sensu lato. Field observations in Thailand demonstrated that manipulated biting takes place around solar noon. Laboratory work with species from South Carolina, demonstrated a shift of this synchronized biting event to the early morning. We therefore hypothesize that biological clocks play an important role in these and other parasite-host interactions. To set the stage for our future research into this, we, here, aimed to explore if fungal species of the complex O. unilateralis s.l. have a functional molecular clock. We, therefore, performed RNA-Seq on time course samples of the recently sequenced species Ophiocordyceps kimflemingiae. Fungal blastospores grown in liquid media were harvested under cycling light-dark and continuous darkness conditions. Rhythmic mRNA levels were assessed with JTK_CYCLE. We found that O. kimflemingiae is not hugely rhythmic under our sampling conditions, but rhythmicity can be observed. Moreover, we identified functional homologs of known clock genes. In addition, our data indicated that regulation of transcription appears to take place during the light phase (day time). In contrast, the expression levels of a significant number of secreted enzymes, proteases, toxins and small bioactive compounds peaked during the dark phase (night time). This suggests that this fungal parasite might indeed rely on biological clocks for the precise daily timing of certain events and additionally validates further research into this.
+
+DESIGN
+Samples were taken of O. kimflemingiae cultures at 4h intervals both under light cycling (LD) and constant darkness (DD) conditions. These samples were used for RNA-Seq and gene expression was analyzed for rhythmicity with a circa 24h period. For each sampled time point one replicate was generated. Part of the data was verified with RT-QPCR.
+
+PLATFORM
+GPL23701 Illumina HiSeq 2500 (Ophiocordyceps sp. SC16a)
+
+CITATIONS
+29099875
+

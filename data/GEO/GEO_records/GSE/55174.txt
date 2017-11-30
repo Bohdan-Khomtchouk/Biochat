@@ -1,0 +1,18 @@
+TITLE
+Epigenetic landscape of olfactory receptor enhancers
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Distant enhancer elements are a major source of specificity in mammalian gene expression. Although enhancers that regulate broad developmental decisions and inducible gene expression have been studied extensively, little is known about regulatory elements that govern monogenic and monoallelic expression. Here, using high throughput epigenetic and genetic techniques we identified a plethora of distant enhancers that regulate monoallelic olfactory receptor (OR) gene expression. Potential OR enhancers have unique, cell type specific epigenetic marks that distinguish them from other neuronal enhancers and correlate with enhancer activity in vivo. Using sequence capture to enrich for these sequences we identified Dnase-protected footprints that reveal novel regulatory sequences and transcription factors required for OR gene activation. Our experiments provide insight to the regulation of OR expression, and describe novel principles and methodologies towards the understanding of transcriptional mechanisms that generate cellular diversity.
+
+DESIGN
+In vivo examination of H3K79me3 enrichment and DNAse protected footprints on olfactory receptor enhancer sequences.  We performed ChIP-seq on native chromatin isolated from the mouse olfactory epithelium using antibodies against H3K79me3. To sequence accessible regions of the genome we treated nuclei with limiting amounts of DNAse I to digest accessible chromatin and perform Dnase Hypersensitivity (DHS)-seq.  In the olfactory epithelium, the H enhancer – the first described enhancer for olfactory receptors has a well-defined DNAse I hypersensitivity peak and is flanked by high levels of H3K79me3.  We find other intergenic sequences nearby olfactory receptor genes that share the same chromatin signature, and test their function in vivo.  TO uncover transcription factor footprints on olfactory receptor enhancers we performed sequence capture of the DHS-seq library to enrich for these sequences.  We find multiple DNAse-protected sequences and perform motif analysis on transcription factor footprints to reveal factors involved in olfactory receptor gene regulation.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25417106
+

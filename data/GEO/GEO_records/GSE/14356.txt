@@ -1,0 +1,18 @@
+TITLE
+Kidney transplantation (Agilent set)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In this study, we examined transcriptional profiles from 3 different microarray platforms, across 103 peripheral blood samples with and without acute rejection, to find a critical gene-set for the diagnosis of acute renal rejection that matched biopsy diagnosis, irrespective of patient demographics, clinical confounders, concomitant infection, immunosuppression usage or sample processing methods. We hypothesized that changes in peripheral blood expression profiles correlate with biopsy-proven rejection, and that these changes could be used as biomarkers for the diagnosis and prediction of acute rejection.
+
+DESIGN
+We performed cross-sectional microarray analysis of 103 matched peripheral blood samples collected at a single time point, timed with a biopsy where acute rejection was either confirmed as present (60 AR samples) or absent (62 STA samples). The samples were hybridized to one of 3 microarray platforms: Affymetrix (n=75 the 54K HG-U133_Plus2 Array), Agilent (n=26, 44K oligo Array) and cDNA array (n=21, ~30K cDNA).  Of 103 samples, 14 were used on both Affy and Agilent arrays; 1 was used in cDNA and Agilent array and 2 were used across 3 array platforms.   Microarray data generated from 3 array platforms were cross-compared, by mapping common and overlapping transcripts to Human Gene Organization (HUGO) gene names. Significant gene lists on each platform were identified using Significant Analysis of Microarray (SAM, ref) with a common significance threshold of a false discovery rate (FDR) of < 10%. This set contains the data for samples hybridized to Agilent arrays. Disease State: Acute Rejection (AR#sampleid) or Stable (S#sampleid) samples
+
+PLATFORM
+GPL1708 Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number version) GPL8040 Agilent human SMD Print_1409
+
+CITATIONS
+23009139
+

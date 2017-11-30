@@ -1,0 +1,18 @@
+TITLE
+Integrating whole transcriptome assays on a lab-on-a-chip for single cell gene profiling
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To correlate gene expression profiles to fundamental biological processes such as cell growth, differentiation and migration, it is essential to work at the single cell level. Gene expression analysis always starts with the relatively low efficient reverse transcription (RT) of RNA into complementary DNA (cDNA), an essential step as unprocessed RNAs will not be analyzed further. In this paper, we present a novel method for RT that uses microfluidics to manipulate nanoliter volumes. We compare our method to conventional protocols performed in microliter volumes. More specifically, reverse transcription was performed either in a poly-dimethylsiloxane (PDMS) rotary mixer or in a tube, using single cell amount of mouse brain RNA (10 pg), and was followed by a template-switching PCR (TS-PCR) amplification step. We demonstrate that, using the microfluidic protocol, 74% of the genes expressed in mouse brain were detected, while only 4% were found with the conventional approach. We next profiled single neuronal progenitors. Using our microfluidic approach, i.e. performing cell capture, lysis and reverse transcription on-chip followed by TS-PCR amplification in tube, a mean of 5000 genes were detected in each neuron, which corresponds to the expected number of genes expressed in a single cell. This demonstrates the outstanding sensitivity of the microfluidic method. Keywords: Single cell, transcriptome, PDMS, microfluidic, reverse-transcription (RT), template-switching, lab-on-a-chip
+
+DESIGN
+To validate our approach, we first reverse-transcribed 10pg of mouse forebrain RNA, which corresponds to the RNA content of a single cell, either in a microcentrifuge tube, in 10 µL, or in a 7 nL rotary mixer. Then, the cDNAs were all amplified in tubes by template-switching PCR (TS-PCR, 40 cycles). We also performed control experiments using 15µg of RNA without amplification. The gene expression profiles were  compared using pangenomic microarrays. Single embryonic neuronal cells were dissociated from CGE explants and trapped into the microfluidic device. Cell lysis and reverse-transcription reactions were performed in the rotary mixer. cDNAs were then amplified by TS-PCR in tubes. In parallel, 5µg of RNA from the explant were reverse-transcribed without amplification. Gene expression profiles were next examined using pangenomic microarrays.
+
+PLATFORM
+GPL4736 RNG-MRC_MM25k_EVRY
+
+CITATIONS
+18305863
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression profile alone is inadequate in predicting complete response in multiple myeloma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have analyzed gene expression microarray datasets from four different clinical trials to assess accuracy of gene expression based signature in predicting treatment complete response in patients with multiple myeloma. Two of four datasets were made available via The Intergroupe Francophone du Myélome (IFM) group, and remaining two datasets were downloaded from NCBI GEO portal with accession IDs: GSE19784 (HOVON65/GMMG-HD4 trial) and GSE9782 (APEX/SUMMIT trial). Analysis UUID: datasets_archive--2afcd42a-7e12-11e3-9145-5fcc1e060548--15-Jan-2014-12-23-44-CST. Following dataset provides gene expression microarray dataset for IFM-2005 trial involving 67 newly diagnosed patients with MM. A second and larger dataset involving 136 newly diagnosed patients with MM from IFM-2005 trial can be accessed via NCBI GSE ID: GSE39754.
+
+DESIGN
+CD-138 purified plasma cells from 67 newly diagnosed patients with MM were profiled using Affymetrix Exon-1.0 ST microarray platform. Pre-processing and normalization of dataset was carried out using dChip ( http://www.hsph.harvard.edu/cli/complab/dchip/exon.htm#expressio ) and R package - aroma.affymetrx ( http://www.aroma-project.org/vignettes/FIRMA-HumanExonArrayAnalsis ). Patients subsequently received bortezomib based induction therapy, followed by autologus stem cell transplant. Post-induction treatment response is attached in metadata file.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24732597
+

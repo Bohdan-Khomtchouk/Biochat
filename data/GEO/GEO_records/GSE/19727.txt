@@ -1,0 +1,18 @@
+TITLE
+Molecular profiling of temporal fossa arachnoid cysts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The gene expression signature of seven surgically removed intracranial temporal fossa arachnoid cysts was generated with two normal arachnoid membrane samples as control. Briefly, we used the Qiagen RNeasy minikit (QIAGEN GmbH Germany, Qiagen) to extract total RNA. After RNA quality and quantity assessment, we then constructed cDNA with RT-PCR reagents (Applied Biosystems, U.S). Gene expression microarray analysis was performed on the ABI 1700 Expression Array System (Applied Biosystems, U.S) using the Applied Biosystems Chemo luminescent RT-IVT Labeling Kit and Human Genome microarray (Applied Biosystems, U.S). Signal intensities generated with the ABI 1700 Expression Array System (Applied Biosystems, U.S) were imported into the J-Express Pro 2.7 software (MolMine AS, Bergen, Norway), where inter-array quantile normalization was performed to minimize the effect of external variables into the data. All control spots and flagged spots were removed, leaving 33096 gene probes available for analysis. First, we performed an unsupervised hierarchical cluster analysis in which the group belonging of the samples was defined. Second, we used Significance Analysis of Microarrays (SAM) with 400 and 1000 permutations to compare AC and AM samples and generate gene lists of differentially expressed genes between these groups. With SAM the false discovery rate (FDR) of the gene lists was calculated. FDR returned the number of false positive genes present on the gene list. A measure of FDR is the Q value, which conveniently shows an estimation of the FDR in percent. In the current study only genes with a Q value < 1.0 % were accepted as being differentially expressed.
+
+DESIGN
+A quantile normalized data set consisting of 33096 individual gene probes for each sample was subjected to Significance Analysis of Microarrays.
+
+PLATFORM
+GPL9851 ABI Human Genome Survey Microarray v.1
+
+CITATIONS
+20187927
+

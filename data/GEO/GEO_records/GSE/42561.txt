@@ -1,0 +1,18 @@
+TITLE
+Genome-wide differences in expression and alternative splicing in human dendritic cells upon E.coli challenge
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The immune system relies on the plasticity of its components to produce appropriate responses to frequent environmental challenges. Dendritic cells (DCs) are critical initiators of innate immunity and orchestrate the later and more specific adaptive immunity. The generation of diversity in transcriptional programs is central for effective immune responses. Alternative splicing is widely considered a key generator of transcriptional and proteomic complexity, but its role has been rarely addressed systematically in immune cells. Here we used splicing-sensitive arrays to assess genome-wide gene- and exon-level expression profiles in human DCs in response to a bacterial challenge. We find widespread alternative splicing events and splicing factor transcriptional signatures induced by an E. coli challenge to human DCs. Alternative splicing acts in concert with transcriptional modulation, but these two mechanisms of gene regulation affect primarily distinct functional gene groups. Alternative splicing is likely to have an important role in DC immunobiology because it affects genes known to be involved in DC development, endocytosis, antigen presentation and cell cycle arrest
+
+DESIGN
+6 samples were analysed. 3 were used as controls (non-stimulated replicates) and 3 were stimulated with E.coli for 3 distinct periods: (T1) 4 hours, to cover early changes that occur after the bacterial challenge; (T2) 8 hours, to assess intermediate changes; and (T3) 18 hours, to measure the late response stage. Microarray data pre-processing and summarization was performed using AltAnalyze application, which includes several rigorous statistical methods for data filtering, summarization and determination of differential splicing. Briefly, low quality probesets were removed according to detection above background (DABG) p-value and absolute expression values. Next, probesets were summarized with RMA algorithm and using the AltAnalyze annotations, derived from Ensembl [29] and UCSC databases [30]. Gene expression levels were determined using only probesets targeting constitutive exons. Determination of overall gene level variation was assessed using linear models and empirical Bayes methods s implemented in ‘limma’ package. The B-statistics gives the log odds of differential expression and it requires an ‘a priori’ value for the estimated proportion of differentially expressed genes. To determine this value, we visually inspected the volcano plot, which compares biological significance (represented by fold-changes) with statistical significance (B-values), finding the value which enabled genes to be distinguished from the majority (logFC≤~1.585). Additionally, we verified the P-values corresponding to moderated F-statistics. Using the Benjamini and Hochberg method, all genes selected as differentially expressed had adjusted P-values < 0.05. . Detection of alternative splicing variations were determined using splicing-index and FIRMA approaches, calculating MiDAS and normalized intensity p-values (p-value < 0.05).
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version] GPL16329 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [HuEx-1_0-st-v2.r2 ENST]
+
+CITATIONS
+23613991
+

@@ -1,0 +1,18 @@
+TITLE
+Identification of allele-specific alternative mRNA processing via transcriptome sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Establishing the functional roles of genetic variants remains a significant challenge in the post-genomic era. Here, we present a method, allele-specific alternative mRNA processing (ASARP), to identify genetically influenced mRNA processing events using transcriptome sequencing (RNA-Seq) data. The method examines RNA-Seq data at both single nucleotide and whole-gene/isoform levels to identify allele-specific expression (ASE) and existence of allele-specific regulation of mRNA processing. We applied the methods to data obtained from the human glioblastoma cell line U87MG and primary breast cancer tissues and found that 26–45% of all genes with sufficient read coverage demonstrated ASE, with significant overlap between the two cell types. Our methods predicted potential mechanisms underlying ASE due to regulations affecting either whole-gene-level expression or alternative mRNA processing, including alternative splicing, alternative polyadenylation and alternative transcriptional initiation. Allele-specific alternative splicing and alternative polyadenylation may explain ASE in hundreds of genes in each cell type. Reporter studies following these predictions identified the causal single nucleotide variants (SNVs) for several allele-specific alternative splicing events. Finally, many genes identified in our study were also reported as disease/phenotype-associated genes in genome-wide association studies. Future applications of our approach may provide ample insights for a better understanding of the genetic basis of gene regulation underlying phenotypic diversity and disease mechanisms.
+
+DESIGN
+Examine allele-specific gene expression and alternative RNA processing in U87MG cell line
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+22467206
+

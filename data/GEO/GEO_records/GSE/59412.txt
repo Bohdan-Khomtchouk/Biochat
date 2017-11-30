@@ -1,0 +1,18 @@
+TITLE
+A Systems Biology Approach identified different regulatory networks targeted by KSHV miR-K12-11 in B cells and endothelial cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Kaposi’s sarcoma associated herpes virus (KSHV) is associated with tumors of endothelial and lymphoid origin. During latent infection, KSHV expresses miR-K12-11, an ortholog of the human tumor gene hsa-miR-155. Both gene products are microRNAs (miRNAs), which are important post-transcriptional regulators that contribute to tissue specific gene expression. Advances in target identification technologies and molecular interaction databases have allowed a systems biology approach to unravel the gene regulatory networks (GRNs) triggered by miR-K12-11 in endothelial and lymphoid cells. Understanding the tissue specific function of miR-K12-11 will help to elucidate underlying mechanisms of KSHV pathogenesis.  Results: Ectopic expression of miR-K12-11 differentially affected gene expression in BJAB cells of lymphoid origin and TIVE cells of endothelial origin. Direct miRNA targeting accounted for a small fraction of the observed transcriptome changes: only 29 common genes were identified as putative direct targets of miR-K12-11 in both cell types. However, a number of commonly affected biological pathways, such as carbohydrate metabolism and interferon response related signaling, were revealed by gene ontology analysis. Integration of transcriptome profiling, bioinformatic algorithms, and databases of protein-protein interactome from the ENCODE project identified different nodes of GRNs utilized by miR-K12-11 in a tissue-specific fashion. These effector genes, including cancer associated transcription factors (TFs) and signaling proteins, amplified the regulatory potential of a single miRNA, from a small set of putative direct targets to a larger set of genes.   Conclusions: This is the first comparative analysis of miRNA-K12-11’s effects in endothelial and B cells, from tissues infected with KSHV in vivo. MiR-K12-11 was able to broadly modulate gene expression in both cell types. Using a systems biology approach, we inferred that miR-K12-11 establishes its GRN by both repressing master TFs and influencing signaling pathways, to counter the host anti-viral response and to promote proliferation and survival of infected cells. The targeted GRNs are more reproducible and informative than target gene identification, and our approach can be applied to other regulatory factors of interest.
+
+DESIGN
+The experiment was designed for the comparison of miR-155 transduced cells, miR-K12-11 treated cells, and mock transduced cells. The experiment was conducted in four subsequent time periods such that all the experimental conditions were independently repeated. TIVE and BJAB cells were retrovirally transduced at two levels of Multiplicity of Infection (MOI): 1 and 10. 72hr post transduction, positive cells were sorted according to their GFP signal. RNA was extracted using the RNA-Bee reagent according to the manufacturer’s instructions. For each HG-133 plus 2.0 chip, 200ng RNA was used as the starting material. RNA was synthesized and labeled using GeneChip® 3’ IVT Express Kit and chips were hybridized according to manufacturer instructions (Affymetrix). Raw data were summarized using Affymetrix Expression Console software (v1.1).
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25106478
+

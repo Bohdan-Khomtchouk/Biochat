@@ -1,0 +1,18 @@
+TITLE
+MiROvaR, a microRNA-based predictor of early relapse for ovarian cancer patients [training set; OC179]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Despite a pathological complete response, risk-of-relapse remains a challenge for most of epithelial ovarian cancer (EOC) patients and an ad-hoc predictor can be a valuable clinical tool. We developed a 35 miRNAs-based predictor of Risk of Ovarian Cancer Relapse (MiROvaR) using a training set of patients from MITO-2 (Multicentre Italian Trials in Ovarian Cancer-2; Pignata S et al. J Clin Oncol. 2011 Sep 20). MiROvaR performance was confirmed in two independent validation cohorts.
+
+DESIGN
+The training set OC179 was derived from MITO2 clinical trial. Paraffin blocks from primary tumors of 549 patients out of the 820 enrolled for the MITO2 trial were collected from 17 out of 43 centers participating to the trial: 305 were excluded for lack of materials for RNA extraction, 18 for poor quality of extracted RNA, 10 since tumor derived from metastatic lesions, 30 because not chemo-naive and 1 for hybridization failure. After profiling on Agilent SurePrint 8x60K human miRNA arrays, 179 cases were eligible for data analysis. Ethical Statement: Samples collection for translational research purpose was done following the approval of study amendments (Prot. CEI/98/11).                                                                                                              Clinical codes:  Age (years)  Histology: according to International Federation of Gynecological and Obstetrics guidelines ( 1: Serous; 2: Mucinous; 3: Endometrioid; 4: Undifferentiated; 5: Clear cell; 6: Mixed or other; NA:  Missing information)  Stage: according to International Federation of Gynecological and Obstetrics guidelines  Grading: according to WHO guidelines (BL: border line; G1: well differentiated; G2: moderately differentiated; G3: poorly differentiated; undiff: undifferentiated; NA: missing information)  Debulking: NED: not evident disease; mRD: minimal residual disease ( < 1cm) ; GRD: gross residual disease ( > 1cm); NO: not operated; NA: missing information  Time to relapse (TTR, months) code: 0=no relapse; 1=relapse  Overall survival (OS, months) code: 0=alive; 1=dead
+
+PLATFORM
+GPL20968 Agilent-035758 Human miRBASE 16.0 plus 031181 [Probe Name version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

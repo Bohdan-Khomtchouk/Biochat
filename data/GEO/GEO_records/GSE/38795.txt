@@ -1,0 +1,18 @@
+TITLE
+TFH cell dynamics in Rhesus Monkeys during SIV infection
+
+ORGANISM
+Macaca mulatta
+
+SUMMARY
+Cells from SIV-negative (SIVnegative_p17, n=5; SIVnegative_p18, n=5) and SIV-chronic (ChronicSIVinfection_p18, n=6) SP tissues were sorted for microarray studies. RNA samples were prepared using the Illumina beads station assay and hybridized to the Illumina HumanHT-12 version 4 Expression BeadChip according to the Illumina’s instruction. The data were normalized with the quantile normalization method of Bioconductor package limma . Missing values were imputed with R package impute ( http://cran.rproject.org/web/packages/impute/index.html ). Genes with significant differential expression levels were identified using Bioconductor limma package with > = 1.5 fold change (up or down), the false discovery rate (FDR) adjusted P value < 0.05.
+
+DESIGN
+Cells from SIV-negative (SIV and SIV-chronic SP) tissues were sorted for micorarray studies
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

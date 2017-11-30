@@ -1,0 +1,18 @@
+TITLE
+degradome sequence data
+
+ORGANISM
+Glycine max
+
+SUMMARY
+To identity the targets of miRNAs, we bundled 12 samples from different developing satages into four mixture samples. These samples were used to cosntruct degradome libraries and preform degradome sequencing on Illumina Hi-seq 2000 analyzer. More than 44.98 millions clean reads were obtained and 33.52 million reads were mapped to the soybean cDNA. The mapped reads were used to identity miRNA targets by CleaveLand4 pipeline.
+
+DESIGN
+4 degradome mixed samples, no replicates, but every degradome data consists of two parts data. Please note that every degradome sample has two processed and two raw data files. To have enough data, additional sequencing was performed from each sample library.  And each sample raw data was processed separately (tissue_name*degradome.txt) and also combined (all_degradome*.txt).
+
+PLATFORM
+GPL15008 Illumina HiSeq 2000 (Glycine max)
+
+CITATIONS
+26714457
+

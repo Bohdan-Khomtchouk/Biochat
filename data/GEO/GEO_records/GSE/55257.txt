@@ -1,0 +1,18 @@
+TITLE
+H3K27 modifications define segmental regulatory domains in the Drosophila bithorax complex.
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The bithorax complex (BX-C) in the fruit fly, Drosophila melanogaster, is a cluster of homeotic genes that determines the identities the body segments.  Expression of these genes is governed by cis-regulatory domains, one for each parasegment, which are arranged on the chromosome in the order of the parasegments they affect.  Stable repression of these domains depends on the functions of the Polycomb Group, including its ability to methylate lysine 27 of histone H3.  To learn whether PcG proteins generate parasegment-specific chromatin signatures, we have used transgenes to mark and isolate nuclei from single parasegments.  These nuclei were profiled for histone modifications and chromatin proteins.  The H3K27me3 profiles across the BX-C in successive parasegments show a striking “stairstep” pattern that reveals sharp boundaries of the BX-C regulatory domains.  The borders of H3K27me3 modification domains are sharp, and align precisely with binding sites for the CCCTC-binding protein (CTCF).  H3K27ac is broadly enriched across active domains, in a pattern complementary to K27me3.  These findings provide a molecular definition of the homeotic domains, and implicate precisely localized H3K27 modification as a central determinant of segment identity.
+
+DESIGN
+Nuclei from single parasegments of the Drosophila embryo were isolated and ChIP-seq performed for H3K27me3, CTCF, H3K27ac, H3K4me3, Ph, Pol2, Pc, and Suz12. For each sample, two biological replicates were performed.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster) GPL16479 Illumina MiSeq (Drosophila melanogaster) GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster)
+
+CITATIONS
+25082344
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data from chick embryos overexpressing NEUROG2 or NEUROG2AQ in the neural tube
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+The proneural NEUROG2 is essential for neuronal commitment, cell cycle exit and neuronal differentiation. Characterizing genes networks regulated downstream of NEUROG2 is therefore of prime importance. To identify NEUROG2 early response genes, we combined gain of function in the neural tube with a global detection of modified transcripts using microarrays. We included in our study a mutant form of NEUROG2 (NEUROG2AQ) that cannot bind DNA and cannot trigger neurogenesis. Using this approach, we identified 942 genes modified at the onset of NEUROG2 activation. The global analysis of functions regulated by NEUROG2 allowed unmasking its rapid impact on cell cycle control. We found that NEUROG2 specifically represses a subset of cyclins acting at the G1 and S phases of the cell cycle, thereby impeding S phase re-entry. This repression occurs before modification of p27kip1, indicating that the decision to leave the cell cycle precedes the activation of this Cyclin-dependant Kinase Inhibitor. Moreover, NEUROG2 down-regulates only one of the D-type cyclins, cyclinD1, and maintaining cyclinD1 blocks the ability of the proneural to trigger cell cycle exit, without altering its capacity to trigger neuronal differentiation. The fact that NEUROG2 represses a subset but not all cell cycle regulators indicates that cell cycle exit is not an indirect consequence of neuronal differentiation but is precisely controlled by NEUROG2. Altogether our findings indicate that NEUROG2, by specifically repressing G1 and S cyclins, allows committed neuronal precursors to perform their last mitosis but blocks their re-entry in the cell cycle, thus favouring cell cycle exit.
+
+DESIGN
+Stage HH10-11 embryos (11 to 15 somites) were electroporated with a control vector (pGIG-GFP), a NEUROG2-expressing vector (pCIGNEUROG2-GFP), or a NEUROG2AQ-expressing vector (pCIGNEUROG2AQ-GFP). For each biological replicate, neural tubes from 20 embryos were pooled for GFP+ cells collection. GFP+ cells were collected 6h later using FACS sorting (Epics Altra HSS cell sorter, Toulouse Rio platform) and processed for RNA probe preparation and hybridization on Affymetrix microarrays. For each experimental condition, four biological replicates were processed.
+
+PLATFORM
+GPL3213 [Chicken] Affymetrix Chicken Genome Array
+
+CITATIONS
+22547683
+

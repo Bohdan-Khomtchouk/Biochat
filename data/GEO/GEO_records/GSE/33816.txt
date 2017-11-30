@@ -1,0 +1,18 @@
+TITLE
+RNA-seq analysis of K562 cells (K562-shX) with stable integration of a tet-inducible shRNA targeting a candidate (X) transcription factor from ENCODE/HudsonAlpha-MyersLab
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+K562-shX cells are made in an effort to validate TFBS data and ChIP-seq antibodies in Myers lab (GSE32465). K562 cells are transduced with lentiviral vector having Tet-inducible shRNA targeting a transcription factor gene. Cells with stable integration of shRNA constructs are selected using puromycin in growth media. Doxycycline is added to the growth media to induce the expression of shRNA and a red fluorescent protein marker.  A successful shRNA cell line shows at least a 70% reduction in expression of the target transcription factor as measured by qPCR. For identification, we designated these cell lines as K562-shX, where X is the transcription factor targeted by shRNA and K562 denotes the parent cell line.  For example, K562-shATF3 cells are K562 derived cells selected for stable integration of shRNA targeting the transcription factor ATF3 gene and showed at least a 70% reduction in the expression of ATF3 gene when measured by qPCR. Cells growing without doxycycline (uninduced) are used as a control to measure the change in expression of target transcription factor gene after induction of shRNA using doxycycline. For detailed growth and culturing protocols for these cells please refer to http://hudsonalpha.org/sites/default/files/pdf/shRNA%20K562%20protocol.pdf. To identify the potential downstream targets of the candidate transcription factor, analyze the mRNA expression profile of the uninduced and induced K562-shX using RNA-seq. For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf
+
+DESIGN
+Make K562-shX cells as described in the http://hudsonalpha.org/sites/default/files/pdf/shRNA%20K562%20protocol.pdf. Measure the mRNA expression levels in uninduced K562-shX and induced K562-shX cells in two biological replicates using RNA-seq. Identify the potential downstream targets of the candidate transcription factor.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

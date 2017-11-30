@@ -1,0 +1,18 @@
+TITLE
+Integrated analysis reveals microRNA networks coordinately expressed with key proteins in breast cancer [miRNA]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BACKGROUND: The role played by microRNAs in the deregulation of protein expression in breast cancer is only partly understood. To gain insight, the combined effect of microRNA and mRNA expression on protein expression was investigated in three independent data sets. METHODS: Protein expression was modeled as a multilinear function of powers of mRNA and microRNA expression. The model was first applied to mRNA and protein expression for 105 selected cancer-associated genes and to genome-wide microRNA expression from 283 breast tumors. The model considered both the effect of one microRNA at a time and all microRNAs combined. In the latter case the Lasso penalized regression method was applied to detect the simultaneous effect of multiple microRNAs. RESULTS: An interactome map for breast cancer representing all direct and indirect associations between the expression of microRNAs and proteins was derived. A pattern of extensive coordination between microRNA and protein expression in breast cancer emerges, with multiple clusters of microRNAs being associated with multiple clusters of proteins. Results were subsequently validated in two independent breast cancer data sets. A number of the microRNA-protein associations were functionally validated in a breast cancer cell line. CONCLUSIONS: A comprehensive map is derived for the co-expression in breast cancer of microRNAs and 105 proteins with known roles in cancer, after filtering out the in-cis effect of mRNA expression. The analysis suggests that group action by several microRNAs to deregulate the expression of proteins is a common modus operandi in breast cancer.
+
+DESIGN
+The miRNA expression profiling of 283 breast cancer samples was performed using the 8x15k “Human miRNA Microarray Kit release 14.0 (V2)” with design id 029297 from Agilent (Agilent Technologies, Santa Clara, CA, USA). In brief, 100 ng total RNA was dephosphorylated, labeled and hybridized for 20 hours, following the manufacturer’s protocol. Scanning was performed on Agilent Scanner G2565A, signals were extracted using Feature Extraction v10.7.3.1 and the subsequent data processing was performed using the GeneSpring software v11.0 (Agilent Technologies). In brief, the miRNA signal intensities were log2-transformed and normalized to the 90th percentile, and miRNAs that were detected in less than 10% of the samples were excluded. This resulted in 421 unique mature miRNAs.
+
+PLATFORM
+GPL10656 Agilent-029297 Human miRNA Microarray v14 Rev.2 (miRNA ID version)
+
+CITATIONS
+25873999
+

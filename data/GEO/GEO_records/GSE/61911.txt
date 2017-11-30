@@ -1,0 +1,18 @@
+TITLE
+Glucocorticoid receptor and nuclear factor kappa-b affect 3D chromatin organization
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The impact of signal dependent transcription factors, such as glucocorticoid receptor (GR) and NFκB on the three-dimensional organization of chromatin remains a topic of discussion. The possible scenarios range from remodeling of higher order chromatin architecture by activated transcription factors to recruitment of activated transcription factors to pre-established long-range interactions. Using 4C-seq and high-resolution ChIA-PET analysis of P300 we observed agonist-induced changes in long-range chromatin interactions, and uncovered interconnected enhancer-enhancer hubs spanning up to one megabase. The vast majority of activated GR and NFκB appears to join pre-existing P300 enhancer hubs without affecting the chromatin conformation. In contrast, binding of the activated transcription factors to loci with their consensus response elements leads to increased formation of an active epigenetic state of enhancers and a significant increase in long-range interactions within pre-existing enhancer networks. De novo enhancers or ligand-responsive enhancer hubs preferentially interact with ligand-induced genes. We demonstrate that, at a subset of genomic loci, ligand-mediated induction leads to active enhancer formation and an increase in long-range interactions, facilitating efficient regulation of target genes. Therefore, our data suggest an active role of signal dependent transcription factors in chromatin and long-range interaction remodeling.
+
+DESIGN
+Using DNaseI-seq and ChIP-seq for P300, H3K4me1, H3K4me3 and H3K27ac, we systematically characterized the GR and NFκB binding sites and their chromatin state in well-synchronized HeLa cells. The vast majority of binding sites (90%) is at distal regulatory regions that displayed the epigenetic marks of active enhancers (‘pre-programmed’) whereas at a small fraction, TF binding is concomitant with de novo establishment of an active chromatin state. Next, we mapped the distal chromatin interactions made by the GR and NFκB bound regulatory elements by generating high-resolution chromatin interaction profiles using the ChIA-PET method. For the ChIA-PET analysis we used antibodies against enhancer-associated P300 and against RNA-Polymerase II (POLII). P300 is a co-factor shared by GR and NFκB and its genomic occupancy in general is considered a hallmark of active enhancers. We specifically scrutinized the local chromatin interaction networks at genomic loci that are de novo programmed and compared them to those of pre-programmed loci. Subsequently, we extended our analysis using high-resolution 4C technology on a subset of 10 genomic viewpoint harboring de novo programmed regulatory elements. Our comprehensive analysis using ChIA-PET and 4C technologies provide compelling evidence for the active roles GR and NFκB in setting up the regulatory interaction networks de novo. In addition, such agonist induced de novo interaction networks preferentially make direct long-range contacts with the agonist responsive genes. Collectively, our study reveals a previously unappreciated signal dependent TF induced dynamic changes in chromatin regulatory networks and its impact on gene regulation.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+26619937
+

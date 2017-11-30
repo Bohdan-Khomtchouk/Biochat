@@ -1,0 +1,18 @@
+TITLE
+Integrative analysis identifies targetable CREB1/FoxA1 transcriptional co-regulation as a predictor of prostate cancer recurrence
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Next-generation sequencing (NGS) has revolutionized systems-based analysis of cellular pathways. The goals of this work is comprehensive analysis of target genes co-regulated by CREB1 and FoxA1 in prostate cancer cell models, tissues, and circulating tumor cells (CTCs). Expression of CREB1/FoxA1 target genes corresponds with disease recurrence and aggressive clinical features. Methods: LNCaP cells between passage number 32-34 and abl between 62-64 were used for assay. For RNA-seq, cells are transfected with FoxA1,CREB1 specific or nonspecific siRNA and total RNA is extracted with Qiangen RNeasy Mini kit(cat 74104) and library is generated with  TruSeq RNA Sample Preparation Kit v2 from Illumina(cat  RS-122-2001). For Chip-seq,  LNCaP cells between passage number 32-34 and abl between 62-64 were used for assay. After crosslinking with 1% formaldehyde, ChIP was performed. the ChIP producted was further used to generate library with illumina ChIP-seq kit. Hi-seq 2500 was used for sequencing and the data was analyzed by MACs for peaks.
+
+DESIGN
+LNCaP cells and LNCaP cells were used as cell model. Library was sequenced using Illumina HISeq 2500.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26743006
+

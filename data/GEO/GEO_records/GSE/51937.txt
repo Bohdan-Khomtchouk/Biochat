@@ -1,0 +1,18 @@
+TITLE
+Clustering of CpG islands constitutes an important determinant of the interphase chromosome 3D organization [4C-Seq]
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Using 4C-Seq experimental procedure we have characterized, in cultured chicken lymphoid and erythroid cells, genome-wide patterns of spatial contacts of several CpG islands scattered along the chromosome 14. A clear tendency for interaction of CpG islands present within the same and different chromosomes has been observed. Accordingly, preferential spatial contacts between Sp1 binding motifs, and other GC-rich genomic elements including DNA sequence motifs capable to form G-quadruplexes were demonstrated. On the other hand, an anchor placed in gene/CpG islands-poor area was found to form spatial contacts with other gene/CpG islands-poor areas within chromosome 14 and other chromosomes. These results corroborate the two compartments model of interphase chromosome spatial organization and suggest that clustering of CpG islands harboring promoters and origins of DNA replication constitutes an important determinant of the 3D organization of eukaryotic genome in the cell nucleus. Using ChIP-Seq experimental procedure we have mapped genome-wide the CTCF deposition sites in chicken lymphoid and erythroid cells subjected to the 4C analysis. A good correlation between the density of these sites and the level of 4C signals was observed for the anchors located in CpG islands. It is thus possible that CTCF contributes to the clustering of CpG islands revealed in our experiments.
+
+DESIGN
+We applied 4C-seq to map long-range interactions of a CpG island harboring promoter of a housekeeping gene NPRL3 on a genome-wide scale in DT40 and HD3 cell lines in chicken (Gallus gallus). Two replicates per cell line were sequenced in paired-end mode with a depth of 45-64 million reads. We next performed additional 4C experiments on HD3 cells with different 4C anchors. In three experiments anchors were placed on different CpG island on the chromosome 14 that have demonstrated a strong interaction with the NPRL3 anchor (anchors near TSR3, TRAP1, PPL genes). In the forth experiment (anchor GENE-Des) the anchor was placed in a gene-poor area that did not interact with the NPRL3 promoter. The libraries for all anchors were pooled and sequenced in paired-end mode with a total depth of 75 million reads. Anchor NPRL3: two replicates for HD3 and two replicates for DT40 cell lines. Other anchors (TSR3, GENE-Des, TRAP1, PPL): two replicates, pooled library
+
+PLATFORM
+GPL16133 Illumina HiSeq 2000 (Gallus gallus)
+
+CITATIONS
+24736527
+

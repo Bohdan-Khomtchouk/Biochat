@@ -1,0 +1,18 @@
+TITLE
+ChIP-Seq of TAL1 and its regulatory partners in T-ALL cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The oncogenic transcription factor TAL1/SCL is aberrantly expressed in over 40% of cases of T-cell acute lymphoblastic leukemia (T-ALL), emphasizing its importance in the molecular pathogenesis of T-ALL. Here we identify the core transcriptional regulatory circuit controlled by TAL1 and its regulatory partners HEB, E2A, LMO1, LMO2, GATA3 and RUNX1 in T-ALL cells. We show that TAL1 forms an interconnected auto-regulatory loop with its partners, and that the TAL1 complex directly activates the MYB oncogene, forming a feed-forward positive regulatory loop that further promotes the TAL1-regulated oncogenic program. one of the cirtical downstream targets in this circuitry is the TRIB2 gene, which is oppositely regulated by TAL1 and HEB/E2A, and is essential for the survival of T-ALL cells.
+
+DESIGN
+Human T-ALL cells were cross-linked with formaldehyde for 20 min. DNA was enriched by chromatin immunoprecipitation (ChIP) and analyzed by Solexa sequencing. A sample of whole cell extract (WCE) was sequenced and used as the background to determine enrichment. ChIP was performed using an antibody against total TAL1 (Santa Cruz SC-12984), TCF12/HEB (Santa Cruz SC-357),TCF3/E2A (Santa Cruz SC-349X), LMO1 (Santa Cruz SC-10494), LMO2 (R & D AF2726),GATA3 (Santa Cruz SC-22206) and RUNX1 (Santa Cruz SC-8563). This represents the ChIP-seq portion of this dataset.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+22897851
+

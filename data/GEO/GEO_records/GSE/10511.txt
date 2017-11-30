@@ -1,0 +1,18 @@
+TITLE
+wuHMM: a robust algorithm to detect DNA copy number variation using long oligonucleotide microarray data
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Copy number variants (CNVs) are currently defined as genomic sequences that are polymorphic in copy number and range in length from 1,000 to several million base pairs.  Among current array-based CNV detection platforms, long-oligonucleotide arrays promise the highest resolution.  However, the performance of currently available analytical tools suffers when applied to these data because of the lower signal:noise ratio inherent in oligonucleotide-based hybridization assays.  We have developed wuHMM, an algorithm for mapping CNVs from array comparative genomic hybridization (aCGH) platforms comprised of 385,000 to more than 3 million probes.  wuHMM is unique in that it can utilize sequence divergence information to reduce the false positive rate (FPR).  We apply wuHMM to 385K-aCGH, 2.1M-aCGH, and 3.1M-aCGH experiments comparing the 129X1/SvJ and C57BL/6J inbred mouse genomes.  We assess wuHMM’s performance on the 385K platform by comparison to the higher resolution platforms and we independently validate 10 CNVs.  The method requires no training data and is robust with respect to changes in algorithm parameters.  At a FPR of less than 10%, the algorithm can detect CNVs with five probes on the 385K platform and three on the 2.1M and 3.1M platforms, resulting in effective resolutions of 24 kb, 2-5 kb, and 1 kb, respectively. Keywords: CNV detection algorithm development and assessment
+
+DESIGN
+All four samples in this series are hybridizations of genomic DNA from inbred mouse strains 129X1/SvJ versus C57BL6/J.  The experiments were performed at increasing resolutions (one 385K, two 2.1M, and one 3.1M).
+
+PLATFORM
+GPL4276 NimbleGen Mouse 388K NCBI34 GPL6363 NimbleGen Mouse 3.1M NCBI36 GPL6436 NimbleGen Mouse 2.1M NCBI36
+
+CITATIONS
+18334530
+

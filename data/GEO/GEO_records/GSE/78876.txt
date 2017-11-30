@@ -1,0 +1,18 @@
+TITLE
+Time-ChIP in ESCs and NSCs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Histone H3.3 turnover in ESCs and NSCs was determined using time-ChIP. This was performed by biotin-labeling H3.3_SNAP and following the loss of labeled histones over time. H3.1 time-ChIP was also performed although the resolution of these data is limited due to the depth of sequencing required.
+
+DESIGN
+ESCs and NSCs carrying a H3.3_SNAP (or H3.1_SNAP) transgene were labeled with CP-biotin. Cells were harvested at 0h, 3h, 6h and 12h post-labeling and biotinylated histones recoved by streptavidin affinity pulldown. The resulting DNA, along with input DNA, was made into libraries and sequenced on an Illumina HiSeq 2500.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27304074
+

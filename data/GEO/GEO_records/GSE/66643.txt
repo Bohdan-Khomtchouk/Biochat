@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic Evaluation of Pyrococcus furiosus strains engineered to produce 3HP
+
+ORGANISM
+Pyrococcus furiosus ; Pyrococcus furiosus DSM 3638 ; Pyrococcus furiosus COM1
+
+SUMMARY
+A hybrid array setup containing WT Pyrococcus furiosus genes plus heterologous genes for engineered pathway producing 3HP from maltose and CO2 was used to study the impact of heterlogous pathway on native metabolic systems Four different experiments were run: 1) Pfu WT vs Pfu COM1; 2) Pfu COM1 vs MW56 (strain containing 3 heterologous genes from Metallosphaera sedula for production of 3HP); 3) Pfu COM1 vs MW76 at 72C before and after 3HP production; 4) MW76 at 72C before and after 3HP production at high agitation
+
+DESIGN
+Two or four condition arrays; 2 biological replicates, independently grown and harvested, RNA combined before RT Please note that [1] The *normdata.xlsx files contain the normalized data from each array/channel (prior to analyzing data from all slides in loop with JMP Genomics 5 (SAS, NC), using a mixed effects ANOVA model) [2] The data column headers indicate strain_treatement_dye-assignment-slide (or replicate) # (e.g. COM1_72C_cy3_4) [3] The *xlsx contains merged data from 2-6 arrays resulted from a mixed effects ANOVA model analyses [4] The processed data files associated with each sample are indicated in the corresponding sample description field.
+
+PLATFORM
+GPL19860 NCSU_P.furiosus_COM1_hybrid_array
+
+CITATIONS
+25753826
+

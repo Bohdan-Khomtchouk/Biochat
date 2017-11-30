@@ -1,0 +1,18 @@
+TITLE
+HeLa cells: control vs IFN-gamma-treated
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transcriptional profiling of HeLa cells comparing control untreated HeLa cells with IFN-gamma-treated HeLa cells To infect host cells, many viruses use small cellular compartments, called endosomes, for entry, and the thiol/disulfide interchange in viral envelope glycoproteins (Envs) is crucial for infection. By screening cysteine-reacting chemicals, we found a compound, 4,4’-dithiopyridine, which is active at acidic pH, efficiently restricts retrovirus vector infection. We thus hypothesized that some products of endosome-localized, interferon-stimulated genes (ISGs) exhibit anti-viral activity by inhibiting thiol/disulfide interchange in viral Envs. Among the hundreds of ISGs, gamma-interferon (IFN)-inducible lysosomal thiolreductase (GILT) is the only molecule that resides in the endosomes/lysosomes and digests the S-S bonds of proteins under acidic conditions. We now report that GILT significantly inhibits the replication of retroviruses, including HIV-1 and MLV, by restricting both the early and late phases of their life cycles. Using the VSV-G pseudotyped HIV-1 model, we found that GILT digests the S-S bonds of viral Env proteins. GILT also inhibits HIV-1 viral release by digesting the S-S bond of CD63, an endosome-localized molecule reportedly involved in HIV-1 particle release. The effect of -IFN on HIV-1 is limited, although GILT induced by gamma-IFN is supposed to have anti-HIV-1 activity. We found that while gamma-IFN effectively inhibits MLV replication through GILT, the gamma-IFN signaling is remarkably inhibited by the HIV-1 Env protein, but not the MLV Env protein. These findings suggest that GILT functions as an anti-viral host factor induced by gamma-IFN, however, HIV-1 may have evolved to inhibit gamma-IFN signaling by the Env protein.
+
+DESIGN
+Two-condition experiment, control HeLa cells vs IFN-gamma-treated HeLa cells. Biological replicates: 1 control replicate, 1 treated replicate. Please note that sample data tables contain raw data. The raw values of beta actin and GAPDH (that are commonly used as controls) showed that expression levels of beta actin and GAPDH were elevated 1.3 and 0.8 times by gamma-IFN, respectively, suggesting the raw values of these control genes were not significantly affected by gamma-IFN. However, when the raw values are normalized by GAPDH in gamma-IFN-treated cells, beta-actin expression is activated 1.6-time by gamma-IFN. Therefore, the raw data was used for the further analysis.
+
+PLATFORM
+GPL13497 Agilent-026652 Whole Human Genome Microarray 4x44K v2 (Probe Name version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

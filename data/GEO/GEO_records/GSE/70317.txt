@@ -1,0 +1,18 @@
+TITLE
+Reporter Gene Silencing in Targeted Mouse Mutants is Associated with Promoter CpG Island Methylation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We report the generation and analysis of high-throughput DNA methylation profiles at nucleotide resolution in a subset of targeted gene trap mouse mutants. Using high-throughput sequencing of bisulfite treated DNA, we generated DNA methylation percentage for CpG islands, and LacZ (reporter) gene in mice with the apparent silencing of the targeted gene promoter reflected by reduced reporter mRNA level. These results were contrasted with findings for a set of mutants with no silencing or CpG methylation following targeted mutagenesis using the same gene trap vector. Our findings supports the hypothesis that presence of the exogenous DNA in the targeting vector may influence the expression of genes in close proximity or may lead to promoter silencing of the target where the promoter is marked by CpG methylation.
+
+DESIGN
+Examination of CpG methylation profiles in Knock-out and wild type mice We evaluated targeted gene promoter silencing in a group of six mutants carrying the tm1a Knockout Mouse Project allele containing both a LacZ reporter gene driven by the native promoter and a neo selection cassette. Methylation of the promoter CpG islands and LacZ coding sequence were evaluated by sequencing of bisulfite-treated DNA. CpG Islands (samples labeled as CpG) and trans gene (samples labeled as LacZ) were amplified after Bisulfite treatment. Please note that the same gDNA was used to amplify CpG Island (Gene_CpG_KO ) and LacZ (Gene_LacZ_KO) reporter for the same gene. PCR product of amplification was gel separated, isolated and pooled. After libraries were prepared and sequenced, the alignment was performed. CpG island and LacZ alignments were done separately resulting in three different Processed Data files per gene investigated: Gene_CpG_KO, Gene_LacZ_KO and Gene_CpG_WT. LacZ reference is included in the submission, but is also available for download from KOMP Phenotype website (www.kompphenotype.org). Also please note that the libraries were prepared using Illumina TruSeq RNA Sample Prep Kit starting from adapter binding step as samples were double stranded Bisulfite treated DNA amplicons. So the library preparation was done as with RNASeq, but samples investigated were bisulfite treated.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

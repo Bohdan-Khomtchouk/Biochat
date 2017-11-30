@@ -1,0 +1,18 @@
+TITLE
+Reduced levels of protein tyrosine phosphatase CD45 protect mice from the lethal effects of Ebola virus infection
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To gain insight into the changes in gene expression pattern upon Ebola infection, CD45+/+ (100% protein level) and CD45+/- (62% protein level) mice were challenged with mouse adapted Ebola virus. At time-points day 0, 1, 3, 5, 7, 9, 11 and 13, spleen tissue was harvested and splenocytes isolated. Total RNA was isolated for mRNA expression analysis. The mouse genome 430 2.0 array (Affymetrix, Inc.), which consists of over 39,000 genes in a single array, was used.  Based on gene expression patterns, the variable genes were grouped into sixteen clusters. Each cluster contained genes associated with cellular immune processes, signaling, cell-cycle, complement coagulation cascade, biosynthesis/metabolism, ubiquitous genes involved in several cascades, and genes of unknown function.  Interestingly, gene expression in clusters 2 and 3 were significantly downregulated by day 1 following EBOV challenge in CD45100% mice.  In contrast, at day 1 following EBOV infection, the CD45 62% mice maintained gene expression patterns similar to day 0.  The differences in gene expression patterns between the CD45 100% and CD45 62% splenocytes were less apparent at day 3 following infection and by days 5 and 7 they became very similar.  At day 9, when wild-type mice had succumbed to the disease, the pattern in CD45 62% mice remained similar to the day 7 patterns of CD45 100% and CD45 62% mice.  The pattern at days 11 and 13 in the CD45 62% mice had returned to that of day 0 CD45 100% or CD45 62% mice.  These results suggested that in CD45 100% mice, subversion of the cell transcriptional machinery during the early stages of EBOV infection (day 1) might represent a major factor leading to death of the mice.  In CD45 62% mice, early control of gene regulation likely provided the appropriate antiviral responses leading to regulated inflammation, immune co-stimulation, and survival.
+
+DESIGN
+RNA expression in CD45 100% and 62% mice were compared at each time point: days 0, 1, 3, 5, and 7, using an empirical Bayes procedure. From 3 to 8 biological replicates were in each group. Samples for days 9, 11, and 13 (4 biological replicates each) were also available for only CD45 62%. Median expression values for highly variable genes within each group were clustered using agglomerative nesting over all available time points.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+19683682
+

@@ -1,0 +1,18 @@
+TITLE
+Transcriptomes of isolated rice gametes characterized by deep sequencing:  Evidence for distinct sex-dependent chromatin and epigenetic states before fertilization
+
+ORGANISM
+Oryza sativa Japonica Group
+
+SUMMARY
+The formation of a zygote by the fusion of egg and sperm involves the two gametic transcriptomes.  In flowering plants, the embryo sac embedded within the ovule contains the egg cell, while the pollen grain contains two sperm cells inside a supporting vegetative cell. The difficulties of collecting isolated gametes and consequent low recovery of RNA have restricted in-depth analysis of gametic transcriptomes in flowering plants. We isolated living egg cells, sperm cells, and pollen vegetative cells from rice, and identified transcripts for ~36,000 genes by deep sequencing.  The three transcriptomes are highly divergent, with about three quarters of those genes differentially expressed in the different cell types.  Distinctive expression profiles were observed for genes involved in chromatin conformation, including an unexpected expression in the sperm cell of genes associated with active chromatin.  Furthermore, both the sperm cell and the pollen vegetative cell were deficient in expression of key RNAi components. Differences in gene expression were also observed for genes for hormonal signaling and cell cycle regulation. The egg cell and sperm cell transcriptomes reveal major differences in gene expression to be resolved in the zygote, including pathways affecting chromatin configuration, hormones and cell cycle.  The sex-specific differences in expression of RNAi components suggest that epigenetic silencing in the zygote might act predominantly through female-dependent pathways.  More generally, this study provides a detailed gene expression landscape for flowering plant gametes, enabling the identification of specific gametic functions and their contributions to zygote and seed development.
+
+DESIGN
+The gene expression profiles of the three gametic cells, egg cell (EC), sperm cell (Sp) and vegetative cell (Ve) were compared via RNA-seq using three biological replicates for each. Differential expression (DE) analysis was performed using edgeR and the resulting DE genes were assessed for Gene Ontology term enrichment.
+
+PLATFORM
+GPL13834 Illumina HiSeq 2000 (Oryza sativa Japonica Group)
+
+CITATIONS
+24215296
+

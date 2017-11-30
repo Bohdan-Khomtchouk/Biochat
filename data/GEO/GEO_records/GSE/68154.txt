@@ -1,0 +1,18 @@
+TITLE
+Transitive silencing of mobile small RNAs in Arabidopsis Pollen
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+To assay siRNA movement in the pollen grain, we took advantage of the known behavior of 22nt siRNAs to target transcripts for cleavage and initiate secondary siRNA biogenesis. Previous research has demonstrated that when targeted by a 22nt microRNA, a transcript containing a truncated non-fluorescent ~400 bp version of GFP (trGFP) will produce GFP secondary siRNAs that can target a second copy of a functional full-length GFP mRNA in trans. Therefore, we created a ~400 bp non-fluorescent version of trGFP with a 5’ 22nt microRNA target site driven by the vegetative cell-specific KRP6 promoter and transformed this construct into a line homozygous for the sperm-specific functional full-length GFP driven by the MGH3 promoter. If cleaved by a 22nt microRNA, the vegetative cell-driven trGFP will be cleaved into secondary siRNAs, and if the RNA components of this system are mobile and transferred into the sperm cells, the sperm-specific fluorescence of GFP will be reduced. We used two versions of the microRNA target site, which included a mock target site that is not targeted by small RNAs, the target site of microRNA173 (which is a 22nt known to induce the production of secondary siRNAs). We demonstrate that when the 22nt microRNA173 target site is used in the vegetative cell transcript, a corresponding decrease in sperm cell fluorescence is observed. In the mock small RNA target site this reduction in fluorescence was not observed. To ensure the transitive silencing sperm cell transcripts is occurring via secondary small RNAs, we transferred this trGFP experiment into a dcl2/dcl4 mutant background that is defective in TE 21-22nt siRNA silencing. In dcl2/dcl4 double mutants with the trGFP system, we find that the GFP fluorescence of the mock target site transgene does not change, while the repression found in wild-type pollen with the 22nt microRNA173 target site is alleviated. The data for microRNA173 is particularly important, as DCL2 and DCL4 are not necessary for microRNA173 production, and therefore this demonstrates that specifically secondary siRNAs acting downstream of microRNA action are required to silence the sperm cell GFP. We further analyzed the production of sRNAs derived from GFP in pollen grains of transgenic lines expressing the 22nt miR173 or 22nt mock target sites inserted on the 5’ region of the trGFP transgene in both wt and dcl2/dcl4 backgrounds.
+
+DESIGN
+Four small RNA sequencing libraries. There are two genotypes: wt Col and a dcl2/dcl4 double mutant. Each genotype has one of two truncated-GFP transgenes: one with a 22nt microRNA173 target site and one with 22nt 'mock' target site not targeted by small RNAs.
+
+PLATFORM
+GPL17639 Illumina HiSeq 2500 (Arabidopsis thaliana)
+
+CITATIONS
+Germán Martínez, Kaushik Panda, Claudia Köhler and R. Keith Slotkin. Silencing in sperm cells is directed by RNA movement from the surrounding nurse cell. NATURE PLANTS 2. 21 MARCH 2016 ARTICLE NUMBER: 16030 http://dx.doi.org/10.1038/nplants.2016.30
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide mRNA level and mRNA translation analysis of eIF4E silencing in MCF10A cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Translation initiation factor eIF4E is overexpressed early in breast cancers in association with disease progression and reduced survival.  Much remains to be understood regarding the role of eIF4E in human cancer. Using immortalized human breast epithelial cells, we report that elevated expression of elF4E translationally activates the TGFβ pathway, promoting cell invasion, loss of cell polarity, increased cell survival and other hallmarks of early neoplasia.  Overexpression of eIF4E is shown to facilitate selective translation of integrin β1 mRNA, which drives the translationally controlled assembly of a TGFβ receptor signaling complex containing α3β1 integrins, β-catenin, TGFβ receptor I, E-cadherin and phosphorylated Smads2/3.  This receptor complex acutely sensitizes non-malignant breast epithelial cells to activation by typically sub-stimulatory levels of activated TGFβ.  TGFβ can promote cellular differentiation or invasion and transformation.  As a translational coactivator of TGFβ, eIF4E confers selective mRNA translation, reprogramming non-malignant cells to an invasive phenotype by reducing the set-point for stimulation by activated TGFβ.  Overexpression of eIF4E may be a pro-invasive facilitator of TGFβ activity.
+
+DESIGN
+MCF10A cells were subjected to consitutive silencing with a non-silencing control shRNA or an shRNA to eIF4E.  Total RNA, light polysomal RNA (2-3 ribosome fraction) and heavy polysomal RNA (greater than or equal to 4 ribosome fraction) were purified and used for hybridization to Affymetrix 133 2.0 Plus arrays. Data analysis was conducted using MicroArray Suite Software from Affymetrix. To remove probe sets with insignificant differences between perfect match and mismatch data, which creates a more robust data set of greater clarity without a high level of background noise, discrimination values for each probe pair were calculated for low intensity ratios using Wilcoxon signed rank test to assess significance and data re-assigned as either changed or unchanged mRNAs. Data sets were compared using Expressionist Suite software. Significance of mRNAs were assessed using fold changes and the FDRs estimated based on t-tests.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+25986608
+

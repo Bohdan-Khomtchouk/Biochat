@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling of rice seedling with 2-azahypoxanthine
+
+ORGANISM
+Oryza sativa Japonica Group
+
+SUMMARY
+Rings or arcs of fungus-stimulated plant growth occur often on the floor of woodlands which are commonly called “fairy rings”. We purified a plant growth-stimulating compound, 2-azahypoxanthine (AHX), from the fairy ring-forming fungus Lepista sordida, and the detection of AHX in the fungus-infected soil near the growth-stimulated turfgrass roots. The growth-promoting activity of AHX towards rice was further analyzed by oligo DNA microarrays.
+
+DESIGN
+Immediately after germination, rice seedlings were treated with AHX and incubated for 2 weeks. Total RNA was isolated from the seedlings using an RNeasy plant mini kit (Qiagen). cDNA was synthesized to provide 400 ng of total RNA (Agilent Technologies). This cDNA was used as a template to synthesize cRNA. The cRNA was labeled with Cyanine-3 (Cy3) CTP or Cyanine-5 (Cy5) CTP. Cy3-labeled cRNA was mixed with the same amount of Cy5-labeled cRNA and the mixture was used for hybridization. After hybridization for 17 h at 65°C, the slides were washed and scanned with an Agilent Microarray Scanner. Genes showing a signal value below 300 in the Cy3 channel of the control were excluded from the analysis. Feature extraction and image analysis software (version A.6.1.1; Agilent Technologies) were used to locate and delineate each spot in the array and to integrate each spot’s intensity, filtering, and normalization. We attempted dye swap experiments to estimate the error of technical and dye labelling. Three-condition experiment, control vs. compound-treated rice (0.05 and 0.2 mM). Biological replicates: control, 0.05 mM AHX-treated,  0.2 mM AHX-treated rice independently grown and harvested. One replicate per array.
+
+PLATFORM
+GPL6864 Agilent-015241 Rice Gene Expression 4x44K Microarray (Feature Number version)
+
+CITATIONS
+20486242
+

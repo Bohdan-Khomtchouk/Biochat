@@ -1,0 +1,18 @@
+TITLE
+Dynamic Sumoylation of a Conserved Transcription Corepressor Prevents Persistent Inclusion Formation during Hyperosmotic Stress
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Cells are often exposed to physical or chemical stresses that can damage the structures of essential biomolecules. Stress-induced cellular damage can become deleterious if not managed appropriately. Rapid and adaptive responses to stresses are therefore crucial for cell survival. In eukaryotic cells, different stresses trigger post-translational modification of proteins with the small ubiquitin-like modifier SUMO. However, the specific regulatory roles of sumoylation in each stress response are not well understood. Here, we examined the sumoylation events that occur in budding yeast after exposure to hyperosmotic stress. We discovered by proteomic and biochemical analyses that hyperosmotic stress incurs the rapid and transient sumoylation of Cyc8 and Tup1, which together form a conserved transcription corepressor complex that regulates hundreds of genes. Gene expression and cell biological analyses revealed that sumoylation of each protein directs distinct outcomes. In particular, we discovered that Cyc8 sumoylation prevents the persistence of hyperosmotic stress-induced Cyc8-Tup1 inclusions, which involves a glutamine-rich prion domain in Cyc8. We propose that sumoylation protects against persistent inclusion formation during hyperosmotic stress, allowing optimal transcriptional function of the Cyc8-Tup1 complex.
+
+DESIGN
+This dataset contains gene expression analysis of wild type and mutant yeast strains across a time course (0, 30, or 60 minutes) of hyperosmotic stress (yeast complete+1.2M sorbitol media). We grew biological duplicates (replicates A and B) of four strains expressing different combinations of wild type and sumoylation-deficient Tup1 and Cyc8: wild type, TUP1(K270R), CYC8(K735R,K736R,K738R,K748R), and TUP1(K270R)/CYC8(K735R,K736R,K738R,K748R). The wild type, replicate A, 0 minute sample was labeled with Cy5 and served as a reference for all other replicate A samples; the wild type, replicate B, 0 minute sample was labeled with Cy3 and served as a reference for all other replicate B samples. One array compared the two references to each other.
+
+PLATFORM
+GPL10045 Agilent Yeast 8X15K conversion (Agilent-016322)
+
+CITATIONS
+26800527
+

@@ -1,0 +1,18 @@
+TITLE
+Identification of MicroRNA Expression Patterns and a MicroRNAs/mRNA Regulatory Network in Multiple Myeloma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To date, little evidence of miRNA expression/deregulation in multiple myeloma (MM) has been reported. To characterize miRNA expression profiling of MM plasma cells (PCs) and integrate miRNA expression data with other molecular features of MM patients, global miRNA expression profiles were generated for PCs isolated from BM biopsies of 38 newly diagnosed MM, 2 plasma cell leukemia patients, and 3 healthy donors; the samples were also profiled for global gene expression, and nineteen of them underwent genome-wide DNA analysis using high-density SNP-microarrays. Differential miRNA expression patterns were mainly identified in association with the major IGH translocations: in particular, t(4;14) showed specific over-expression of let-7e, miR-125a-5p and miR-99b belonging to a cluster at 19q13.33. The occurrence of other lesions, such as 1q gain, 13q and 17p deletions, and hyperdiploidy, was less well characterized by specific miRNA signatures. Genome-wide analysis showed that some allelic imbalances led to the significantly altered expression of miRNAs located in the involved regions, such as let-7b at 22q13.31 loss and miR-142-3p at 17q22 gain. The integrative analysis based on computational target prediction, miRNA and mRNA profiling defined a network of putative functional miRNA-target regulatory relations supported by expression data.
+
+DESIGN
+This series of microarray experiments contains the microRNA profiles of purified plasma cells (PCs) obtained from 3 normal donor (N), 38 multiple myeloma (MM) and 2 plasma cell leukemia (PCL) at diagnosis. PCs were purified from bone marrow specimens after red blood cell lysis with 0.86% ammonium chloride using CD138 immunomagnetic microbeads. The purity of the positively selected PCs was assessed by morphology and flow cytometry and was > 90% in all cases. 500 nanograms of total RNA was processed in accordance with the manufacturer's protocols (Agilent Technologies) to generate Cy3-labeled RNA which were purified on chromatography columns (Micro Biospin 6, Bio-Rad, Hercules, CA) and hybridized on an Agilent microarray (G4470B) at 55°C for 17 hr in a rotating oven. Images at 5 um resolution were generated using an Agilent scanner G2505B. The Feature Extraction 9.5 software (Agilent Technologies) was used to obtain the raw microarray data. The human miRNAs included in the platform were annotated according to Sanger miRBase Release 12.0. After discarding non-human miRNAs, the data were normalized using the Aroma Light package for Bioconductor. To overcome scaling biases due to background subtraction, the data were converted to obtain positive values throughout the dataset, at a minimum value of 1. The global gene expression raw data used in this study was originally deposited as GSE13591 and renormalized for this study. The genome wide profile (DNA) analysis was originally deposited as GSE16121.
+
+PLATFORM
+GPL2005 [Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array GPL8227 Agilent-019118 Human miRNA Microarray 2.0 G4470B (miRNA ID version) GPL9021 Affymetrix Human Genome U133A Array [CDF: XLab gahgu133a_2.0.1]
+
+CITATIONS
+19846888
+

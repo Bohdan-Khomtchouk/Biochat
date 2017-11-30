@@ -1,0 +1,18 @@
+TITLE
+Unbiased Capture Hi-C reveals the potential targets of breast cancer susceptibility loci
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association studies have identified over 70 common variants that are associated with breast cancer risk. Most of these variants map to non-protein-coding regions; several map to gene deserts, regions of several hundred kb lacking protein-coding genes. We hypothesized that gene deserts harbour long-range regulatory elements that can physically interact with target genes to influence their expression. To test this, we developed Capture Hi-C (CHi-C), which by incorporating a sequence capture step into a Hi-C protocol, allows high-resolution analysis of targeted regions of the genome. We used CHi-C to investigate long-range interactions at three breast cancer gene deserts mapping to 2q35, 8q24.21 and 9q31.2. We identified interaction peaks between putative regulatory elements ( " bait fragments " ) within the captured regions and " targets " that included both protein-coding genes and long non-coding (lnc)RNAs, over distances of 6.6 kb to 2.6 Mb. Target protein-coding genes were IGFBP5, KLF4, NSMCE2 and MYC; target lncRNAs included DIRC3, PVT1 and CCDC26. For two gene deserts we were able to define a set of SNPs that were correlated with the published risk variant and that clustered within the bait end of an interaction peak. Preliminary functional analyses implicate one SNP (rs12613955; 2q35) as a potentially functional variant.
+
+DESIGN
+Capture Hi-C was carried out in BT483, SUM44, and GM06990 cell lines to investigate breast cancer risk loci 2q35, 8q24.21 and 9q31.2.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25122612
+

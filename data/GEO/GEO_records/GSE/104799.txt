@@ -1,0 +1,18 @@
+TITLE
+Computational guideline for small RNA profiling in virus-infected plants
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+We describe a series of computational pipelines for the in silico analysis of small RNAs (sRNA) produced in response to viral infections in plants. Our workflow is primarily focused on the analysis of sRNA populations derived from known or previously undescribed viruses infecting host plants. Furthermore, we provide an additional pipeline to examine host-specific endogenous sRNAs activated or specifically expressed during viral infections in plants. We present some key points for a successful and cost-efficient processing of next generation sequencing sRNA libraries, from purification of high quality RNA to guidance for library preparation and sequencing strategies. We report a series of free available tools and programs as well as in-house Perl scripts to perform in-house sRNA-seq data mining. A multi-step analysis pipeline is extensively detailed so previous bioinformatic background is not required, but experience with basic Unix commands is desirable.
+
+DESIGN
+sRNAseq from Arabidopsis leaves non-infected and infected with Tobacco rattle virus (TRV)
+
+PLATFORM
+GPL17639 Illumina HiSeq 2500 (Arabidopsis thaliana)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

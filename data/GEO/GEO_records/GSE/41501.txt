@@ -1,0 +1,18 @@
+TITLE
+Expression profiling of B.subtils SMY wild-type, (p)ppGpp0, ΔcodY (p)ppGpp0 and guaB- (p)ppGpp0 cells upon amino acid starvation (RHX) or guanosine (Guo) treatment.
+
+ORGANISM
+Bacillus subtilis subsp. subtilis str. SMY
+
+SUMMARY
+The nucleotide (p)ppGpp is crucial for viability during amino acid limitation in bacteria, yet how it accomplishes this remains unknown. We found that the absence of (p)ppGpp in Bacillus subtilis cells leads to multiple amino acid auxotrophy, and that (p)ppGpp allows for prototrophy by reducing GTP levels. We provide evidence that reduction of GTP levels relieves the requirements for branched-chain amino acids primarily by preventing hyperactivity of the GTP-dependent transcriptional regulator CodY, but that GTP levels can also play an important role in regulating transcription of many amino acid biosynthesis genes independently of CodY. Thus, CodY-dependent and independent regulation of transcription by GTP levels plays overlapping yet distinct physiological roles in allowing amino acid prototrophy. Finally, supplementing these required amino acids does not protect against cell death upon nutrient downshift, but allows for sustained growth following this transition. We conclude that regulation of GTP levels by (p)ppGpp allows cells to adapt to conditions of amino acid limitation by first allowing survival during shifting nutrient conditions, and then allowing amino acid prototrophy by transcriptionally regulating amino acid biosynthesis. This strategy may be used to ensure viability during amino acid limitation in evolutionarily divergent bacteria.
+
+DESIGN
+Twelve-condition experiment: wt, wt+RHX, wt+Guo, (p)ppGpp0, (p)ppGpp0+RHX, (p)ppGpp0+Guo, ΔcodY (p)ppGpp0, ΔcodY (p)ppGpp0+RHX, ΔcodY (p)ppGpp0+Guo, guaB- (p)ppGpp0, guaB- (p)ppGpp0+RHX, guaB- (p)ppGpp0+Guo. Biological replicates: 3 for each sample. Reference: a mixture of wt RNA from different growth phases and wt backgrounds.
+
+PLATFORM
+GPL16167 Bacillus subtilis WGD14 platform [BS_ID_Col_Row]
+
+CITATIONS
+24163341
+

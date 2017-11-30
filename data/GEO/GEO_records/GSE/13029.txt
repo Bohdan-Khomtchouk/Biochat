@@ -1,0 +1,18 @@
+TITLE
+Predicting Outcome in Follicular Lymphoma by Using Interactive Gene Pairs
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Follicular lymphoma is a common lymphoma of adults. Although its course is often indolent, a substantial proportion of patients have a poor prognosis, often due to rapid progression or transformation to a more aggressive lymphoma. Currently available clinical prognostic scores, such as the follicular lymphoma international prognostic index, are not able to optimally predict transformation or poor outcome. Experimental Design: Gene expression profiling was done on primary lymphoma biopsy samples.  Results: Using a statistically conservative approach, predictive interaction analysis, we have identified pairs of interacting genes that predict poor outcome, measured as death within 5 years of diagnosis. The best gene pair performs > 1,000-fold better than any single gene or the follicular lymphoma international prognostic index in our data set. Many gene pairs achieve outcome prediction accuracies exceeding 85% in extensive cross-validation and noise sensitivity computational analyses.Many genes repeatedly appear in top-ranking pairs, suggesting that they reproducibly provide predictive capability. Conclusions:The evidence reported here may provide the basis for an expression-based, multigene test for predicting poor follicular lymphoma outcomes. Keywords: Comparative genomics
+
+DESIGN
+41 frozen follicular lymphoma tissues were profiled, then correlated to 5 year follow up survival data.
+
+PLATFORM
+GPL1708 Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number version)
+
+CITATIONS
+18223222
+

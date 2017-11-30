@@ -1,0 +1,18 @@
+TITLE
+plusGDNF and minusGDNF comparison using U74Av2 and 430A arrays
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Isolated mouse ureteric buds from E11.5 were grown in Matri-gel plus or minus GDNF.  Differential gene expression was analyzed between the " plus " and " minus " GDNF ureteric buds.
+
+DESIGN
+3 " plus GDNF " and 2 " minus GDNF " chips were analyzed with different pooled samples for each chip (U74Av2 and 430A). Sample comparisons and statistical analysis were performed using dChip 1.3, using the Comparison Analysis feature to identify genes differentially expressed between the two groups. The following filtering criteria were used: the “lower limit” for fold-change between the means of the +GDNF and -GDNF samples must exceed 1.2 with a 90% confidence limit, and the absolute difference between the two group means must exceed 100.
+
+PLATFORM
+GPL81 [MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array GPL339 [MOE430A] Affymetrix Mouse Expression 430A Array
+
+CITATIONS
+19898483
+

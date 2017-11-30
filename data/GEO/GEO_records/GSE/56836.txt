@@ -1,0 +1,18 @@
+TITLE
+Derivation and characterization of Dicer and microRNA deficient human cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have used genome editing to generate inactivating deletion mutations in all three copies of the dicer (hdcr) gene present in the human cell line 293T. As previously shown in murine ES cells lacking Dicer function, hDcr-deficient 293T cells are severely impaired for the production of mature microRNAs (miRNAs). Nevertheless, RNA-induced silencing complexes (RISCs) present in these hDcr-deficient cells are readily programmed by transfected, synthetic miRNA duplexes to repress mRNAs bearing either fully or partially complementary targets, including targets bearing incomplete seed homology to the introduced miRNA. Using these hDcr-deficient 293T cells, we demonstrate that human pre-miRNA processing can be effectively rescued by ectopic expression of the Drosophila Dicer 1 protein, but only in the presence of the PB isoform of Loquacious (Loqs-PB), the fly homolog of the hDcr co-factor TRBP. In contrast, Drosophila Dicer 2, even in the presence of its co-factors Loqs-PD and R2D2, was unable to support human pre-miRNA processing. Interestingly, although ectopic Drosophila Dicer 1/Loqs-PB or hDcr both rescued pre-miRNA processing effectively in these hDcr-deficient cells, there were significant differences in the ratio of the miRNA isoforms that were produced, especially in the case of miR-30 family members, and we also noted differences in the relative expression level of miRNAs versus passenger strands for a subset of human miRNAs. These data demonstrate that the mechanisms underlying the accurate processing of pre-miRNAs are largely, but not entirely, conserved between mammalian and insect cells.
+
+DESIGN
+Series includes three datasets of total small RNA reads from wild type and Dicer negative 293T cells.  Also included are total small RNA reads of the Dicer-negative cell line NoDice(4-25) transfected with a vector expressing human Dicer, Drosophila Dicer1, or mock transfected.  RISC-associated small RNAs identified by ribonucleoprotein immunoprecipitation (RIP-Seq) in wild type 293T, Dicer-negative NoDice(4-25) line, and NoDice(4-25) transfected with either hsa-miR-155 or kshv-miR-K12-11 miRNA duplexes.  The final data series are PAR-CLIP libraries which identified microRNA targets in untransfected NoDice(4-25) cells and NoDice(4-25) cells transfected with either hsa-miR-92a, hsa-miR-155, kshv-miR-K12-11 miRNA duplexes
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24757167
+

@@ -1,0 +1,18 @@
+TITLE
+APOBEC3B facilitates a functional and necessary link between oestrogen receptor mediated transcription and DNA repair
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Oestrogen receptor-α (ER) is the principal transcription factor in the majority of breast cancers, driving expression of genes that control cell growth and endocrine response. Understanding the mechanisms of ER action is crucial for improving response to endocrine treatments. Recent studies show that cytosine deaminase (CD) activity is an important source of cancer mutations. In particular, APOBEC3B (A3B) promotes mutagenesis in breast cancer cells1. Our analysis of breast cancer expression datasets showed that A3B expression predicts for poor survival in ER-positive, but not in ER-negative patients, indicative of a link with ER activity. Chromatin immunoprecipitation coupled to deep sequencing (ChIP-seq) used to map global A3B binding sites showed a remarkable oestrogen-stimulated recruitment of A3B to ER binding sites. Functionally, A3B was critical for ER transcriptional activity and regulated breast cancer cell proliferation. We show that A3B regulates ER transcription by promoting cytosine deamination and activation of DNA strand break repair at ER binding regions. We propose that cytosine deamination and DNA strand break generation by A3B facilitates gene expression by aiding chromatin remodeling at ER target genes. Our findings also suggest a mechanism by which subversion of transcription factor mediated recruitment of cytosine deaminases promotes cancer mutations.
+
+DESIGN
+Hormone-depleted MCF-7 breast cancer cell line was treated with estrogen (100 nM) or vehicle for 45 minutes. APOBEC3B ChIP-seq was performed using Illumina methodology.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26411678
+

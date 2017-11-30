@@ -1,0 +1,18 @@
+TITLE
+Technical Variations in Low-Input RNA-seq Methodologies
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcriptomics data obtained from limiting amounts of mRNA is often noisy, providing primarily qualitative changes in transcript expressions. So far, technical variations arising out of the library preparation protocols have not been adequately characterized at reduced levels of mRNA. Here, we generated sequencing libraries from limiting amounts of mRNA using three amplification-based methods, viz. Smart-seq, DP-seq and CEL-seq, and demonstrated significant technical variations in these libraries. Reduction in mRNA levels led to inefficient amplification of the majority of low to moderately expressed transcripts. Furthermore, stochasticity in primer hybridization and/or enzyme incorporation was magnified during the amplification step resulting in significant distortions in fold changes of the transcripts. Consequently, the majority of the differentially expressed transcripts identified were either high-expressed and/or exhibited high fold changes. High technical variations, which were sequencing depth independent, ultimately masked subtle biological differences mandating the development of improved amplification-based strategies for quantitative transcriptomics from limiting amounts of mRNA.
+
+DESIGN
+Sequencing libraries were prepared from serial dilutions of mRNA, ranging from 1 ng to 25 pg, using three amplification-based methods, viz. Smart-seq, DP-seq and CEL-seq. The mRNA was derived from an in vitro model of lineage segregation achieved by modulating TGF beta signaling pathway in differentiating mouse embryonic stem cells.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24419370
+

@@ -1,0 +1,18 @@
+TITLE
+Higher Order Chromosomal Network of Imprinted Loci
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+It is increasingly being recognized that physical interactions between distant chromosomal loci influence the expressivity of the genome. Thus, multiple enhancers may converge on a single gene promoter 1,2 and a single enhancer can stochastically loop to multiple promoters 3. Regulatory elements from neighboring domains or from other chromosomes may interact to generate chromatin structures poised for transcription4-8 or repression 9-11. However, a broader perspective on the formation and function of such networks remains largely unexplored. Using the high-resolution 4C (Circular Chromosome Conformation Capture) analysis, we identify here a genome-wide physical network between genomically imprinted domains impinging H19 imprinting control region (ICR). Sequences interacting with the H19 ICR constitutively map at or within most of known imprinted domains both in mouse embryonic stem cells and in vitro-derived embryoid bodies, despite distinct differences in chromatin environments. Moreover, all-to-all 3D DNA FISH analyses revealed that imprinted domains from 7 different chromosomes co-localize with each other in pair-wise patterns, highlighting the dynamic nature of these interactions. The observed interaction network is dependent on CTCF binding sites within the maternally inherited H19 ICR allele and delays reprogramming of epigenetic features at imprinted domains during male germline development. As other imprinted regions can interact with each other in an H19 ICR-dependent manner, the H19 ICR emerges as an organizer of chromosomal networks by specifically recognizing and reconfiguring imprinted domains. We propose that an ancient key regulatory region, such as the H19 ICR, gradually impacted epigenetic modifications via long-range interactions in the germline to facilitate the recruitment of imprinted genes and their formation in clusters during mammalian radiation. Furthermore, the perspective of epigenetic lesions de-stabilizing such chromosomal networks may advance our understanding of how quantitative traits influence human diseases, such as cancer.
+
+DESIGN
+Circular Chromosome Conformation Capture (4C) experiments were performed on mouse embryonic cell line (R1) and in-vitro derived embryoid bodies taking H19 ICR as a bait. Resulting 4C product and input DNA was hybridized on NimbleGen tiling array dedicated for genomic locations preferred for interactions as determined by a genome-wide 4C screen of pooled samples from neonatal liver, neonatal brain, ES cells and embryoid bodies. The experiments were performed in two distinct biological replicates, each representing a pool of three independent samples.
+
+PLATFORM
+GPL7878 ohlsson_mm6_dedicated
+
+CITATIONS
+19933149
+

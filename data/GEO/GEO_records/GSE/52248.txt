@@ -1,0 +1,18 @@
+TITLE
+Identification of mRNAs and lincRNAs associated with lung cancer progression using next-generation RNA sequencing from laser micro-dissected archival FFPE tissue specimens
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Adenocarcinoma in situ (AIS) is considered an intermediate step in the progression of normal lung tissue to invasive adenocarcinoma.  However, the molecular mechanisms underlying this progression remain to be fully elucidated due to difficulties in obtaining and preserving clinical samples for downstream analyses.  Formalin fixation and paraffin embedding (FFPE) is a tissue preservation system that is widely used as a means for long-term storage.  Until now, challenges in working with FFPE have precluded using new RNA sequencing technologies (RNA-seq), which would help clarify some of the key pathways affected in the transition from normal to AIS to invasive adenocarcinoma.  Recent technological advances have made it possible to sequence RNA from archival tissues.  Also, isolation techniques including laser-capture micro-dissection provide the ability to select histopathologically distinct tissues, allowing researchers to study transcriptional variations between tightly juxtaposed cell and tissue types.  Utilizing these technologies and new alignment tools we examined differential expression of long intergenic non-coding RNAs and mRNAs across normal, AIS and invasive adenocarcinoma samples from six patients to identify possible markers of lung cancer progression. RNA extracted and sequenced from these 18 samples generated an average of 198 million reads per sample.  After alignment and filtering, uniquely aligned reads represented an average 35% of the total reads.  We detected differential expression of a number of lincRNAs and mRNAs when comparing normal to AIS, or AIS to invasive adenocarcinoma.  Of these, 5 lincRNAs and 31 mRNAs were consistently up- or down-regulated from normal to AIS and more so to invasive carcinoma.  We validated the up-regulation of two mRNAs and one lincRNA by RT-qPCR as proof of principle. Our findings indicate a potential role of not only mRNAs, but also lincRNAs in invasive adenocarcinoma.  We anticipate that our current findings will lay the groundwork for future experimental studies of candidate RNAs from FFPE samples to identify their functional roles in lung cancer.
+
+DESIGN
+RNA-Seq in 6 patients in norma lung, adenocarcinoma in situ of the lung, and invasive lung carcinoma
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+24735754
+

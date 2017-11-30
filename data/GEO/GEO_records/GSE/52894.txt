@@ -1,0 +1,18 @@
+TITLE
+High mitochondrial respiration and glycolytic capacity represent a metabolic phenotype of human tolerogenic dendritic cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Human monocyte-derived dendritic cells (moDCs) have been used as an in vitro model for studying tolerance and immunity. However, the underlying metabolic states of tolerogenic (dexamethasone and vitamin D3-treated), immature and immunogenic (mature, LPS-treated) moDCs have not been completely characterized. Through transcriptomic analyses, we determined that tolerogenic moDCs exhibit augmented catabolic pathways with respect to oxidative phosphorylation (OXPHOS), fatty acid oxidation (FAO) and glycolysis. Functionally, tolerogenic moDCs showed the highest mitochondrial membrane potential, production of reactive oxygen species and superoxide, and increased mitochondrial spare respiratory capacity. Tolerogenic and mature moDCs manifested differential FAO gene expression with FAO activity being significantly higher in tolerogenic and immature moDCs than in mature. In addition, tolerogenic and mature moDCs demonstrated similar levels of glycolytic rate, but not glycolytic capacity and reserve, which were more pronounced in tolerogenic and immature moDCs. Finally, tolerogenic and immature moDCs, but not mature moDCs, showed high plasticity to compensate the intracellular ATP content after inhibition of different energetic metabolic pathways. Overall, tolerogenic moDCs exhibit a metabolic signature of increased, stable OXPHOS programing and high plasticity for metabolic adaptation. These findings provide a framework for future research of metabolic properties of human DCs.
+
+DESIGN
+Total RNA of sixteen samples from four moDC types (tolerogenic, LPS-tolerogenic, immature and mature) were extracted by Trizol (Invitrogen) followed by a clean-up procedure using RNeasy Micro Kit (Qiagen). All RNA samples had an integrity number ≥9.6 assessed by Agilent Bioanalyzer. Total RNA samples were amplified using TargetAmp™ and the biotinilated cRNA was prepared by Nano-g™ Biotin-aRNA Labeling Kit for the Illumina® System (Epicentre). After the hybridization to the Illumina Human HT-12 v4 Beadchips for 17 h at 58°C, the arrays were washed, stained (Illumina Wash Protocol) and then scanned using BeadArray Scanner 500GX. Array data were extracted at the probe level without background correction using Illumina GenomeStudio software. These raw data were quantile normalized and log2 transformed. Technical replicates were obtained from the hybridization in duplicate of three samples. Pearson correlation analysis showed high correlation between the technical replicates (r > 0.99). Differentially expressed genes (DEGs) were identified using Limma16 with Benjamini-Hochberg multiple testing correction (p < 0.05). DEGs were further clustered into different groups according to the patterns of expression change among the different moDC types using STEM software17. The analysis was performed in R v.2.12.2 ( http://www.R-project.org ) with Bioconductor 2.12 ( http://www.bioconductor.org ) and enabled by Pipeline Pilot (www.accelrys.com).
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+25917094
+

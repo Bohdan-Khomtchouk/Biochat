@@ -1,0 +1,18 @@
+TITLE
+RNA-Seq data for five HER2 over-expressed samples with twelve green fluorescent protein control samples using human mammary epithelial cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: The goal was to capture the transcriptional activity due to over-expression of HER2 protein. We profiled this transcriptional activity using two different RNA-Seq alignment and quantification pipelines. We also used these samples to generate a gene expression signature of HER2 pathway activity. Over-expression was validated using Western blots. Illumina RNA-Seq technology was used to capture the downstream transcriptional activity. Reads were 101 base pairs long and single ended. An R open source package “Rsubread” was used to align and quantify the read using UCSC hg19 annotation. The integer-based gene counts were later normalized in FPKM and TPM .
+
+DESIGN
+A profile of gene expression, downstream of ERBB2/HER2 over-expression, was generated in cells derived from breast and used to generate a gene-expression signature reflective of HER2 pathway activation status.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26209429
+

@@ -1,0 +1,18 @@
+TITLE
+iMEF SDHC-loss RNA-seq time course
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We have developed a tet-inducible immortalized mouse embryonic fibroblast (iMEF) cell culture model of SDH-loss paraganglioma/pheochromocytoma in which silencing gene rearrangement of the Sdhc floxed allele is driven by doxycycline-dependent expression of cre-recombinase from a tet-inducible promoter (R26M2rtTA/+;TetOcre;Sdhcfl/fl).  Using this model and an isogenic Sdhc wt control line (R26M2rtTA/+;TetOcre;Sdhcfl/wt), we have characterized the time-course of Sdhc gene rearrangement, protein loss, and succinate accumulation following induction with doxycycline.  Using RNA-seq, we have quantified changes in gene expression due to succinate accumulation using our Sdhc -/- cell line.  Through a time-course experimental design, we have grown R26M2rtTA/+;TetOcre;Sdhcfl/fl (experimental) and R26M2rtTA/+;TetOcre;Sdhcfl/wt (control) iMEFs in standard DMEM media containing 10% FBS and quantified transcriptional changes in these cells as a function of time after triggering SDHC gene rearrangement via doxycycline exposure.
+
+DESIGN
+Included in this dataset are single replicate RNA-seq time course data for experimental (R26M2rtTA/+;TetOcre;Sdhcfl/fl) and control (R26M2rtTA/+;TetOcre;Sdhcfl/wt) cell lines at days 0, 5, 9, 12, and 20 after induction with doxycycline.  We also include biological triplicate data for both experimental and control cell lines at day 16 after induction with doxycycline.
+
+PLATFORM
+GPL21103 Illumina HiSeq 4000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

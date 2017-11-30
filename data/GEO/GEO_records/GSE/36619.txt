@@ -1,0 +1,18 @@
+TITLE
+Gene expression profile of U373MG exposed to novel anti-cancer 1,2,3,4-tetrahydroisoquinoline alkaloids
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Glioblastoma is the most aggressive form of brain tumors showing resistance to treatment with various chemotherapeutic agents. The most effective way to eradicate glioblastoma requires the concurrent inhibition of multiple signaling pathways and target molecules involved in the progression of glioblastoma. Recently, we obtained a series of 1,2,3,4-tetrahydroisoquinoline alkaloids with potent anti-cancer activities, including ecteinascidin-770 (ET-770; the compound 1a) and renieramycin M (RM; the compound 2a) from Thai marine invertebrates, together with a 2’-N-4”-pyridinecarbonyl derivative of ET-770 (ET-770-DR; the compound 3). We attempted to characterize the molecular pathways responsible for cytotoxic effects of these compounds on a human glioblastoma cell line U373MG. Methods: We studied the genome-wide gene expression profile on microarrays and molecular networks by using pathway analysis tools of bioinformatics. Results: All of these compounds dissolved in dimethyl sulfoxide (DMSO) as a vehicle induced apoptosis of U373MG cells at nanomolar concentrations. The compound 3 reduced the expression of 417 genes and elevated the levels of 84 genes, while ET-770 downregulated 426 genes and upregulated 45 genes. RM decreased the expression of 274 genes and increased the expression of 9 genes. The set of 196 downregulated genes and 6 upregulated genes showed an overlap among all the compounds, suggesting an existence of the common pathways involved in induction of apoptosis. We identified the ErbB (EGFR) signaling pathway as one of the common pathways enriched in the set of downregulated genes, composed of PTK2, AKT3, and GSK3B serving as key molecules that regulate cell movement and the nervous system development. Furthermore, a GSK3B-specific inhibitor induced apoptosis of U373MG cells, supporting an anti-apoptotic role of GSK3B. Conclusion: Molecular network analysis is a useful approach not only to characterize the glioma-relevant pathways but also to identify the network-based effective drug targets.
+
+DESIGN
+To determine the 50% inhibitory concentration (IC50), U373MG human glioblastoma cells, incubated in Dulbecco’s Modified Eagle’s medium (DMEM) supplemented with 10% fetal bovine serum (FBS), 100 U/ml penicillin and 100 μg/ml streptomycin (feeding medium), were exposed to the chemical compounds for varying periods at variable concentrations. Then, we assessed the cell viability by morphological observations and by using the 3-[4,5-dimethylthiazol-2-yl]-2,5-diphenyl tetrazolium bromide (MTT) cell growth kit (Millipore). The cells were incubated for 4 to 72 hours in the feeding medium with inclusion of the chemical compounds at the IC50 concentration or the vehicle (DMSO) at an equivalent concentration (v/v), and then were processed for microarray analysis at 24 hours after exposure and western blot analysis of the cleavage of poly-ADP-ribose-polymerase (PARP) and caspase-3 at 4 to 72 hours after exposure.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+22494416
+

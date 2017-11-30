@@ -1,0 +1,18 @@
+TITLE
+A genomic algorithm for the molecular classification of renal cortical neoplasms: Development and Validation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Accurate diagnostic discrimination of benign renal oncocytoma (OC) and malignant renal cell carcinomas (RCC) is not only useful for planning appropriate treatment strategies of patients with renal masses but also for estimating prognosis. Classification of renal neoplasms solely by histopathology can often be challenging for a variety of reasons. The aim of this study was to develop and validate a genomic algorithm for molecular classification of renal cortical neoplasms that could be implemented in a routine clinical diagnostic setting. Using TCGA (The Cancer Genome Atlas) copy number profiles of over 600 RCC specimens, prior FISH studies and published literature, a classification algorithm was developed consisting of 15 genomic markers: loss of VHL, 3p21, 8p, and chromosomes 1, 2, 6, 10 and 17, and gain of 5qter, 16p, 17q, 20q, and chromosomes 3, 7, and 12. Criteria for scoring specimens for the presence of each genomic marker were established. As validation, 191 surgically resected formalin-fixed paraffin-embedded renal neoplasms were blindly submitted to targeted array-CGH and were classified according to the algorithm. Upon histologic re-review leading to exclusion of three specimens and using histology as the gold standard, the algorithm correctly classified 58 of 62 (93%) clear cell renal cell carcinoma, 51 of 56 (91%) papillary RCC, and 33 of 34 (97%) chromophobe RCC. Of the 36 OC specimens, 17 were classified as OC, two as a malignant subtype, 14 as benign, and three exhibited alterations not associated with a specific subtype. In ten of the latter two groups, CCND1-rearrangement was detected by fluorescence in situ hybridization, affording a classification as OC. Together, 33 of 36 (92%) OC were classified as OC or benign. For the entire validation cohort, an overall diagnostic sensitivity of 93% and above 97% specificity was achieved, suggesting that the implementation of genome-based molecular classification in a clinical diagnostic setting could impact the overall management and outcome of patients with renal tumors.
+
+DESIGN
+A total of 191 RCC FFPE samples are analyzed including 63 clear cell RCC (ccRCC), 57 papillary RCC (pRCC), 35 chromophobe RCC (chrRCC) and 36 oncocytoma (OC). Two-color array-comparative genomic hybdrization on custom designed using RCC DNA as test and normal sex-matched DNA as reference.
+
+PLATFORM
+GPL18623 Agilent-031550 Homo sapiens 45K UroGenRa
+
+CITATIONS
+25498568
+

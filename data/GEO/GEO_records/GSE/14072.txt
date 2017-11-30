@@ -1,0 +1,18 @@
+TITLE
+dyrk1a
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcription profiling of transgenic down syndrome mouse model to show the role of DYRK1A gene. The molecular mechanisms that lead to the cognitive defects characteristic of Down syndrome (DS), the most frequent cause of mental retardation, have remained elusive. Here we use a transgenic DS mouse model to show that DYRK1A gene dosage imbalance deregulates chromosomal clusters of genes located near neuron-restrictive silencer factor (REST/NRSF) binding sites. We found that DYRK1A binds the SWI/SNF-complex known to interact with REST/NRSF. Mutation of a REST/NRSF binding site in the promoter of the REST/NRSF target gene L1cam modifies the transcriptional effect of Dyrk1Adosage imbalance on L1cam. DyrkA dosage imbalance perturbs Rest/Nrsf levels with decreased Rest/Nrsf expression in embryonic neurons and increased expression in adult neurons. We identified a coordinated deregulation of multiple genes that are responsible for the cellular phenotypic traits present in DS such as dendritic growth impairment and microcephaly during prenatal cortex development. Dyrk1a overexpression in primary mouse cortical neurons reduced the neuritic complexity. In the postnatal hippocampus, DYRK1A overexpression suppresses a form of synaptic plasticity that may be sufficient to cause DS cognitive defects. We propose that DYRK1A overexpression-related neuronal gene deregulation generates the brain phenotypic changes that characterize DS, with an accessory role for the gene dosage imbalance of other chromosome 21 genes.
+
+DESIGN
+Transgenic embrionic brain regions versus wild type mice were analysed. The log2 values represent Cy5/Cy3 ratio (transgenic Cy5/wild type Cy3). Each array was scanned under a green laser (543 nm for Cy3 labeling) or a red laser (633 nm for Cy5 labeling) using a ScanArray Lite scanning confocal fuorescent scanner with 10 u resolution (laser power: 85% for Cy5 and 90% for Cy3, gain: 75% for Cy5 and 70% for Cy3). Scanned output files were analyzed using the GenePix Pro 3.0 software. Each spot was defined by automatic positioning of a grid of circles over the image. The average and median pixel intensity ratios calculated from both channels and the local background of each spot were determined. Local background corrected intensity ratios was determined for each spot. The background-corrected expression data were filtered for flagged spots and weak signal. Normalization was performed by the global Lowess method. Student’s t-test was applied to determine the p value.
+
+PLATFORM
+GPL7877 BRC Mus musculus 3K
+
+CITATIONS
+19218269
+

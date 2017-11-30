@@ -1,0 +1,18 @@
+TITLE
+Rocaglamide A converts RNA helicase eIF4A into a sequence-specific translational repressor
+
+ORGANISM
+Homo sapiens ; synthetic construct
+
+SUMMARY
+Rocaglamide A (RocA) typifies a novel class of protein synthesis inhibitors that selectively kill aneuploid tumor cells and repress translation of specific mRNAs. RocA targets eukaryotic initiation factor 4A (eIF4A), the prototypical DEAD-box RNA helicase, and its mRNA selectivity is proposed to reflect highly structured 5′ UTRs that are very dependent on eIF4A-mediated unwinding. Here, we show that secondary structure in 5′ UTRs is only a minor determinant for RocA selectivity and RocA does not repress translation by reducing eIF4A activity. Rather, in vitro and in vivo, RocA clamps eIF4A onto a specific sequence motif even after ATP hydrolysis. This artificially clamped eIF4A blocks 43S scanning, leading to premature, upstream translation initiation and reducing gene expression on transcripts bearing the RocA-eIF4A target sequence. In elucidating the mechanism of this lead anti-cancer compound and explaining its mRNA selectivity, we provide the first example of a drug stabilizing sequence-specific RNA-protein interactions.
+
+DESIGN
+Ribosome profiling, mRNA-Seq, RIP-Seq, and Bind-n-Seq Ribosome profiling for sample 1-5, and 11-15.  Sample1 and 2  are replicates of control of DMSO treatment for sample 3-5, and 11, with RocA and PP242  treatments. Sample 12 and 13 are replicates of control of DMSO treatment for sample 14 and 15 with Hipp treatments. mRNA-Seq for sample 6-10.  Sample 6 and 7  are replicates of control of DMSO treatment for sample 8-10 with RocA treatments. RIP-Seq for 16-19. Sample 16 and 17  are replicates of control of DMSO treatment for sample 18-19 with RocA treatments. Bind-n-Seq for 20-23. Sample 21 is control of DMSO treatment for sample 22-23 with RocA treatments. Sample 20 is a input contol for protein-bound fraction of sample 21. We stably expressed SBP (streptavidin binding peptide)-tagged eIF4A in HEK 293T-REx cells and purified it via M270 streptavidin beads (life techonologies).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL15228 Illumina HiSeq 2000 (synthetic construct)
+
+CITATIONS
+27309803
+

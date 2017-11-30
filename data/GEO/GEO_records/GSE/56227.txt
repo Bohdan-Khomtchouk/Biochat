@@ -1,0 +1,18 @@
+TITLE
+Monitoring Infection-Based Transcriptomic Changes in Staphylococcus aureus using RNA-seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Staphylococcus aureus is a major pathogen of healthcare settings with a high rate of morbidity and mortality. S. aureus has also emerged as a serious threat in healthy individuals in the community. Increasingly, antibiotic resistant S. aureus strains, particularly methicillin resistant S. aureus (MRSA), are causing these community-acquired infections (CA-MRSA). Because of the rising incidence of antibiotic resistance, including resistance to “last resort” antibiotics, development of prophylactic vaccines for S. aureus is considered a high priority. A complete, accurate characterization of the transcriptome of the host during different types of infection would expedite S. aureus vaccine development by identifying antigens that would be optimal vaccine targets. RNA-seq (deep-sequencing of cDNA) provides an unbiased method to comprehensively and systematically define the transcriptome (the complete set of transcribed regions in a genome) of an organism in a manner that is significantly more sensitive than microarray hybridization approaches. We propose a comprehensive characterization of the host transcriptome in two different murine models of infection (systemic infection and skin and soft tissue infection (SSTI)). We believe that this research will provide insight into potential vaccine targets that are expressed at high levels in both types of infection. We also wish to determine what mouse genes are up- or down-regulated during the course of these infections in order to better characterize the host-pathogen interaction. This description of the in vivo transcriptome will give novel insight into how the host senses and responds to infection with S. aureus in different infection types, and how the host tissue responds to bacterial invasion.
+
+DESIGN
+S. aureus strain SAP149 was used to infect mice epicutaneously to one ear of immunocompetent mice using an allergy testing needle; the other ear was left alone. RNA was extracted from each at 1, 4 or 7 days post-infection The transcriptomes were sequenced by Illumina HiSeq of paired end libraries. Reads were mapped against the mouse reference genome and compared through a differential expression analysis.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

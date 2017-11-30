@@ -1,0 +1,18 @@
+TITLE
+BATF-JUN is critical for IRF4-mediated transcription in T cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Interferon regulatory factor 4 (IRF4) is an IRF family transcription factor with critical roles in lymphoid development and in regulating the immune response. IRF4 binds DNA weakly owing to a carboxy-terminal auto-inhibitory domain, but cooperative binding with factors such as PU.1 or SPIB in B cells increases binding affinity, allowing IRF4 to regulate genes containing ETS–IRF composite elements (EICEs; 5'-GGAAnnGAAA-3'). Here we show that in mouse CD4+ T cells, where PU.1/SPIB expression is low, and in B cells, where PU.1 is well expressed, IRF4 unexpectedly can cooperate with activator protein-1 (AP1) complexes to bind to AP1–IRF4 composite (5'-TGAnTCA/GAAA-3') motifs that we denote as AP1–IRF composite elements (AICEs). Moreover, BATF–JUN family protein complexes cooperate with IRF4 in binding to AICEs in pre-activated CD4+ T cells stimulated with IL-21 and in TH17 differentiated cells. Importantly, BATF binding was diminished in Irf4-/- T cells and IRF4 binding was diminished in Batf-/- T cells, consistent with functional cooperation between these factors. Moreover, we show that AP1 and IRF complexes cooperatively promote transcription of the Il10 gene, which is expressed in TH17 cells and potently regulated by IL-21. These findings reveal that IRF4 can signal via complexes containing ETS or AP1 motifs depending on the cellular context, thus indicating new approaches for modulating IRF4-dependent transcription.
+
+DESIGN
+Genome-wide transcription factors mapping and binding of IRF4, BATF, IRF8, STAT3, JUN etc in WT, Irf4-/- and Batf-/- mice in different cell types (B cells, CD4+ T cells and TH17 cells) cultured with or without IL-21 was conducted. RNA-Seq is conducted in mouse B cells, CD4+ T cells, TH1/TH2/TH9/TH17/Treg.
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus) GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+22992523
+

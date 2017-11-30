@@ -1,0 +1,18 @@
+TITLE
+Analysis of gene expression changes in RN2 acute myeloid leukemia (AML) cells at 24hrs and 48hrs after Ddx5 knockdown.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Ddx5 inhibition in RN2 cells slows cell proliferation and induces apoptosis within 48-72hrs. The aim of this analysis was to gain insight into how Ddx5 inhibition causes this outcome by analyzing gene expression changes in RN2 cells that occur at early timepoints after Ddx5 inhibition that precedes the timepoint when RN2 proliferation/cell death becomes evident in tissue culture (72hrs after inhibition).
+
+DESIGN
+Derivatives of RN2 AML cells were prepared that encode doxycycline-inducible expression of either of two different shRNAs targeting Ddx5 (shDdx5.1322 and shDdx5.2086) or a negative control shRNA that targets Renilla Luciferase (shRen.713). Six independent cultures of each derivative RN2 cell line (shDdx5.1322, shDdx5.2086, or shRen.713) were treated with doxycycline at timepoint 0 days to induce expression of the indicated shRNA in the RN2 cells. Each shRNA is co-expressed with dsRed in a doxycycline-induced manner and flow cytometry analysis indicated that doxycycline induced expression of dsRed and the shRNA in 70-to-80% of the cells in each culture. RNA was isolated from three independent cultures of each derivative RN2 cell line at either 24hrs and 48hrs after dpxycycline treatment. Therefore this study consists of 18 samples, sequencing results from biological triplicate samples of RN2-shDdx5.1322, RN2-shDdx5.2086, and RN2-shRen.713 at 24hrs post-doxycycline and sequencing results from biological triplicate samples of RN2-shDdx5.1322, RN2-shDdx5.2086, and shRen.713 at 48hrs post-doxycycline.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24910429
+

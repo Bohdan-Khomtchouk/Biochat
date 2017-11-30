@@ -1,0 +1,18 @@
+TITLE
+Circadian patterns of gene expression in the human brain and disruption in major depressive disorder
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A cardinal symptom of Major Depressive Disorder (MDD) is the disruption of circadian patterns. Yet, to date, there is no direct evidence of circadian clock dysregulation in the brains of MDD patients. Circadian rhythmicity of gene expression has been observed in animals and peripheral human tissues, but its presence and variability in the human brain was difficult to characterize. Here we applied time-of-death analysis to gene expression data from high-quality postmortem brains, examining 24-hour cyclic patterns in six cortical and limbic regions of 55 subjects with no history of psychiatric or neurological illnesses ('Controls') and 34 MDD patients. Our dataset covered ~12,000 transcripts in the dorsolateral prefrontal cortex (DLPFC), anterior cingulate cortex (AnCg), hippocampus (HC), amygdala (AMY), nucleus accumbens (NAcc) and cerebellum (CB). Several hundred transcripts in each region showed 24-hour cyclic patterns in Controls, and > 100 transcripts exhibited consistent rhythmicity and phase-synchrony across regions. Among the top ranked rhythmic genes were the canonical clock genes BMAL1(ARNTL), PER1-2-3, NR1D1(REV-ERB), DBP, BHLHE40(DEC1), and BHLHE41(DEC2). The phasing of known circadian genes was consistent with data derived from other diurnal mammals. Cyclic patterns were much weaker in MDD brains, due to shifted peak timing and potentially disrupted phase relationships between individual circadian genes. This is the first transcriptome-wide analysis of cyclic patterns in the human brain and demonstrates a rhythmic rise and fall of gene expression in regions outside of the suprachiasmatic nucleus in control subjects. The description of its breakdown in MDD suggest novel molecular targets for treatment of mood disorders.
+
+DESIGN
+Sample collection, including human subject recruitment and characterization, tissue dissection, and RNA extraction, was described previously (see Evans 2003 Neurobiol Dis 14:240-250, Li 2004 Biol Psychiatry 55:346-352). RNA samples for different regions came from the same set of brains from 86 control subjects. Sample size varied by region: AnCg (n=70 controls), DLPFC (n=83), CB (n=51), AMY (n=32), HC (n=63) and NAcc (n=66). Many of the samples were run on two or more chips, resulting in the following chip counts for each region: AnCg = 124, DLPFC = 161, CB = 79, AMY = 62, HC = 108 and NaCC = 136. We ran each sample on at least two microarrays using the Affymetrix U133-A or U133Plus-v2 GeneChips, however, we only used the U133A part of the U133Plus-v2 GeneChip in our analysis. We applied RMA (Robust Multi-array Analysis) (see Irizarry 2003 Biostatistics 4:249-264, Irizarry 2003 Nucleic Acids Res 31:e15) to summarize probe set expression levels, using a custom Chip Definition File, resulting in expression data for 11,911 ENTREZ transcripts. Microarray data for each region were analyzed separately. All downstream analyses were performed in R. Details of the data processing, including data cleaning and normalization, are located in the Supplementary Materials (section 1). After data filtering, 1,424 microarrays remained, corresponding to 776 unique RNA samples in six regions.
+
+PLATFORM
+GPL17027 [HG-U133A] Affymetrix Human Genome U133A Array [hgu133ahsentrezg.cdf]
+
+CITATIONS
+23671070
+

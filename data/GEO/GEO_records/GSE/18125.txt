@@ -1,0 +1,18 @@
+TITLE
+Epigenetic regulation of Bmp2 and Smad6 in Ras-induced senescence
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Epigenetically silenced Ink4a-Arf locus is activated by loss of H3K27me3 in cellular senescence, where secreted factor expression is also involved. Here we analyzed epigenome and transcriptome alteration during Ras-induced senescence using mouse embryonic fibroblast (MEF). Seventeen genes with H3K27me3 loss and H3K4me3 gain showed marked upregulation, including p16Ink4a and Bmp2, a secreted factor for BMP/SMAD signal. Smad6, specific BMP/SMAD pathway inhibitor, was identified as the only one gene showing de novo H3K27 trimethylation with H3K4me3, resulting in strong repression. Ras-activated cells senesced with SMAD1/5/8 phosphorylation, and they escaped from senescence with decreased SMAD1/5/8 phosphorylation when introducing Smad6 or knocking-down Bmp2.
+
+DESIGN
+Mouse embryonic fibroblasts were established from 13.5 embryonic day embryos of C57/B6. After cells were passaged twice (MEFp2), cells were infected with retroviruses for 48 hours. Then cells were exposed to 4 μg/mL peuromycin for selection during days 0-3, and were passed on days 3, 7, and 10. Retroviral vectors for Ras was constructed by cloning cDNAs for wild type HRAS (RasG12) and mutated HRAS (RasV12) by reverse-transcription PCR products from HMEC and SK-BR3 cell RNA, respectively, with N-terminal FLAG tag into pMX vector that contains puromycin resistance gene. Mock pMX vector (mock), and vectors containing RasG12 and oncogenic RasV12 were transfected into plat-E packaging cells using FuGENE 6 Transfection Reagent (Roche, Germany) to prepare retroviruses. Smad6 cDNA with N-termainal 6x Myc tag was also cloned into pMX vector. To knock down Bmp2, double strand oligonucleotide DNA to express small hairpin RNA against Bmp2 (shBmp2) was cloned into RNAi-Ready pSIREN-RetroQ Vector (Clontech, CA). Viral packaging for Smad6 and shBmp2 retrovirus vectors was also done using plat-E cells. For genome-wide transcription analysis, GeneChip Mouse Genome 430 2.0 Array (Affimetrix) was used. For global normalization, the average signal in an array was made equal to 100. Chromatin immunoprecipitation (ChIP)-sequencing was performed. MEFp2 cells and cells with mock, RasG12 or RasV12 infection at day 10 were cross-linked with 1% formaldehyde for 10 min at room temperature and were prepared for ChIP. ChIP using anti-H3K4me3 (ab8580, abcam, rabbit polyclonal) or H3K27me3 (07-142, Upstate, rabbit polyclonal) antibody was performed as described previously. Sample preparation for ChIP-sequencing was performed according to the manufacturer's instructions (Ilumina), and sequencing was performed using Solexa Giga sequencer.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+22072987
+

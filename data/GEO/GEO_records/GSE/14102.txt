@@ -1,0 +1,18 @@
+TITLE
+Gene expression change caused by CYS4 alleles
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Each strain was grown overnight then diluted in fresh YPD to 10% v/v and grown for 3 hours at 30'C. Total RNA was isolated using an RNeasy mini kit, reverse transcribed, labeled with either Cy3 or Cy5, and hybridized to epoxy-coated slides with 6388, 70mer oligos (Qiagen-Operon). After an overnight hybridization, microarrays were scanned using a ScanArray Express laser scanner.
+
+DESIGN
+Reference, a pool of total RNA from all samples, was used to contrast with each sample. Dye-swap was performed for one of the three replicates of each strain, where Cy3 instead of Cy5 was used to label the reference RNA.
+
+PLATFORM
+GPL7882 Washington University Saccharomyces 70 mer 13K oligonucleotide microarray v1
+
+CITATIONS
+19456872
+

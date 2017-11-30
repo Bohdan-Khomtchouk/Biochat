@@ -1,0 +1,18 @@
+TITLE
+Opposing roles of Toll-like receptor and cytosolic DNA-STING signaling pathways for Staphylococcus aureus cutaneous host defense
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Successful host defense against pathogens requires innate immune recognition of the correct pathogen associated molecular patterns (PAMPs) by pathogen recognition receptors (PRRs) to trigger the appropriate gene program tailored to the pathogen. While many PRR pathways have been shown to contribute to the innate immune response to specific pathogens, the relative importance of each pathway for the complete transcriptional program elicited has not been examined in detail. Herein, we used RNA-sequencing with wildtype and mutant macrophages to delineate the innate immune pathways responsible for the early transcriptional response to Staphylococcus aureus, a ubiquitous microorganism that can activate a wide variety of PRRs. Unexpectedly, only two PRR pathways – the Toll-like receptor (TLR) and Stimulator of Interferon Gene (STING) pathways - were identified as dominant regulators of approximately 95% of the genes that were potently induced within the first four hours of macrophage infection with live S. aureus.  TLR signaling predominantly activated an inflammatory program, STING signaling activated an antiviral/type I interferon response, and both pathways contributed to a program linking innate and adaptive immunity. Only a small number of genes were induced in the absence of TLR or STING signaling, and these genes possessed a strong hypoxia signature. STING pathway activation required live S. aureus and was largely dependent on the DNA sensor cyclic guanosine-adenosine synthase (cGAS) recognition of S. aureus DNA. Interestingly, using a cutaneous infection model, we found that the TLR and STING pathways played opposite roles in host defense to S. aureus, with TLR signaling being required for protective interleukin (IL)-1 and neutrophil recruitment and STING signaling having an opposite effect. These results provide novel insights into the complex interplay of innate immune signaling pathways triggered byS. aureus and uncover opposing roles of TLR and STING in cutaneous host defense to S. aureus.
+
+DESIGN
+Files are labeled according to the figures  in which they were used. Note, that many data files were used in multiple figures or figure panels. Files are labeled by genotype of macrophages (WT=wildtype; KO= StingGt/Gt; DKO=MyD88-/-TRIF-/-) and whether the macrophages were treated with live (Live) or heat killed (HK) or uninfected (zero hour). Labeling of time points is in the order of " minutes_replicate #. " For example, " WT_HK_30_2 " indicates that this is wild type mouse macrophages stimulated with heat killed bacteria at the 30-minute time point and is replicate number 2. Reads were converted into RPKM, and the RPKM for all replicates listed for a given time point were averaged to obtain the average RPKM that was used for figures and analyses. For samples listed as contributing to either figure 3 or supplemental figure 2, the replicates that do NOT end in either KO_analysis nor DKO analysis were used to determine induced genes in wild type macrophages. In contrast, the replicates that end in KO_analysis or DKO_analysis were used to determine dependence on either STING signaling or MyD88/TRIF signaling, respectively. If a replicate was used in the STING or MyD88/TRIF dependence analysis for both live and heat-killed S. aureus, " live_and_hk " was added after the dependence analysis it contributed to. Some 0h samples were used in both live and heat-killed analyses.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28704551
+

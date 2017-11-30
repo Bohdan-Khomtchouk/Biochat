@@ -1,0 +1,18 @@
+TITLE
+ChIP-seq analysis of dCas9 chromatin occupancy by dCas9/sgRNA-mediated CAPTURE
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Cis-regulatory elements (CREs) are commonly recognized by correlative chromatin features, yet the molecular composition of the vast majority of CREs in chromatin remains unknown. Here we describe a CRISPR affinity purification in situ of regulatory elements (CAPTURE) approach to unbiasedly identify locus-specific chromatin-regulating protein complexes and long-range DNA interactions. Using an in vivo biotinylated endonuclease-deficient Cas9 protein and sequence-specific guide RNAs, we show high-resolution and selective isolation of chromatin interactions at a single copy genomic locus. Purification of human telomeres using CAPTURE identifies known and new telomeric factors. In situ capture of individual constituents of the enhancer cluster controlling human β-globin genes establishes evidence for composition-based hierarchical organization of enhancer structure. Furthermore, unbiased analysis of chromatin interactions at disease-associated cis-elements and developmentally controlled super-enhancers reveals spatial features causally regulate gene transcription. Thus, comprehensive analysis of locus-specific regulatory composition provides mechanistic insight into genome structure and function in development and disease.
+
+DESIGN
+ChIP-seq was performed to determine the chromatin occupancy of biotinylated dCas9 in cells expressing target-specific sgRNAs or the non-targeting sgRNA (sgGal4).
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28841410
+

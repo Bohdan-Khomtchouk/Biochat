@@ -1,0 +1,18 @@
+TITLE
+Parallel high-throughput RNA-sequencing suggests little overlap of differential gene expression between knockout of TDP-43 and its over-expression in central nervous system in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The human Tar-DNA-binding protein TDP-43 is closely associated with ALS and other neurodegenerative disorders. TDP-43 contains two highly conserved RNA-binding motifs and possesses a variety of documented roles in RNA metabolism, including pre-RNA splicing and repression of transcription. We sought to measure the effect that knockout and over-expression of the fly orthologue of this protein, Tar-DNA-binding protein homolog (TBPH), has on the transcriptome of the central nervous system (CNS) of Drosophila melanogaster. To this end, we used massively parallel sequencing methods (RNA-seq) to transcriptionally profile the CNS in loss-of-function mutants and gain-of-function over-expression genotypes. We found that loss of TBPH resulted in widespread gene activation, much of which could be reversed by rescue of TBPH expression, suggesting that repression is one of the major roles of TBPH. Conversely, we found that over-expression of TBPH resulted largely in decreased gene expression. However, there was little overlap in the genes which were affected in these two genotypes, suggesting that the bulk of genes affected by TBPH loss-of-function and over-expression are different. We provide a comprehensive look at enriched gene ontologies in both cases, suggesting that TDP-43 plays a role in regulating basic processes in neurons. We also describe a number of genes whose splicing is likely to be altered in the absence of TDP-43.
+
+DESIGN
+In this study we compare the effects of knockout of the TDP-43 ortholog (TBPH) in the fly nervous system with the effects of its overexpression. 2 treatment groups are presented. In the first, TDP-43 knockout (G2) is compared to control (A1) and rescue (G2; TDP-43-GAL4 > UAS-TDP-43). In the second comparison, the motor neuron driver D42-GAL4 is used to overexpress TDP-43 in motor neurons, using LacZ as a control for overexpression of a foreign protein.
+
+PLATFORM
+GPL11203 Illumina Genome Analyzer IIx (Drosophila melanogaster)
+
+CITATIONS
+22870402
+

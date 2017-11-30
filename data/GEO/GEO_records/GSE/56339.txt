@@ -1,0 +1,18 @@
+TITLE
+Comparison of Transcriptome Profiles of Human Ehrlichiosis Agents
+
+ORGANISM
+Ixodes scapularis ; Canis lupus familiaris ; Ehrlichia chaffeensis str. Arkansas ; Ehrlichia sp. HF ; Ehrlichia chaffeensis str. West Paces ; Ehrlichia chaffeensis str. Heartland ; Ehrlichia chaffeensis str. Jax ; Ehrlichia chaffeensis str. Liberty ; Ehrlichia chaffeensis str. Osceola ; Ehrlichia chaffeensis str. Saint Vincent ; Ehrlichia chaffeensis str. Wakulla
+
+SUMMARY
+This study is to determine and compare the transcriptomes in two eukaryotic hosts (mammalian host - DH82 canine cell line and tick vector - ISE6 Ixodes scapularis cell line) of eight Ehrlichia chaffeensis strains in three divergent genetic groups, including Arkansas, Heartland, Jax, Liberty, Osceola, St. Vincent, Wakulla, and West Paces, and one Ehrlichia sp. HF strain.
+
+DESIGN
+RNA samples for the Arkansas (reference), Heartland, Jax, Liberty, Osceola, St. Vincent, Wakulla, and West Paces strains in both tick and canine cell lines, including two uninfected controls, will be isolated in triplicate. As such 108 libraries will be constructed and sequenced corresponding to (8 strains + 1 control) x 2 conditions (tick cells + dog cells) x 3 biological triplicates x 2 molecules sequenced (eukaryotic RNA + prokaryotic RNA). The transcriptomes are obtained with Illumina HiSeq reads obtained from paired end libraries. The bacterial reads will be mapped against the reference genome and compared through a differential expression analysis. The eukaryotic reads from the same cell types (i.e. tick or canine) will be assembled with Trinity. The reads will then be mapped back to this assembly for the differential expression analysis.
+
+PLATFORM
+GPL16540 Illumina HiSeq 2000 (Canis lupus familiaris) GPL18488 Illumina HiSeq 2000 (Ehrlichia chaffeensis str. Arkansas) GPL18489 Illumina HiSeq 2000 (Ehrlichia chaffeensis str. Heartland) GPL18490 Illumina HiSeq 2000 (Ehrlichia chaffeensis str. Jax) GPL18491 Illumina HiSeq 2000 (Ehrlichia chaffeensis str. Liberty) GPL18492 Illumina HiSeq 2000 (Ehrlichia chaffeensis str. Osceola) GPL18494 Illumina HiSeq 2000 (Ehrlichia chaffeensis str. Wakulla) GPL18495 Illumina HiSeq 2000 (Ehrlichia chaffeensis str. West Paces) GPL18496 Illumina HiSeq 2000 (Ixodes scapularis) GPL18497 Illumina HiSeq 2000 (Ehrlichia sp. HF) GPL18512 Illumina HiSeq 2000 (Ehrlichia chaffeensis str. Saint Vincent)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

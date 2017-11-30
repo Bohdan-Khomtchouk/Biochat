@@ -1,0 +1,18 @@
+TITLE
+SMAUG Is a Major Regulator of Maternal mRNA Destabilization in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+In animals, egg activation triggers a cascade of posttranscriptional events that act on maternally synthesized RNAs. We show that, in Drosophila, the PAN GU (PNG) kinase sits near the top of this cascade, triggering translation of SMAUG (SMG), a multifunctional posttranscriptional regulator conserved from yeast to humans. Although PNG is required for cytoplasmic polyadenylation of smg mRNA, it regulates translation via mechanisms that are independent of its effects on the poly(A) tail. Analyses of mutants suggest that PNG relieves translational repression by PUMILIO (PUM) and one or more additional factors, which act in parallel through the smg mRNA's 3' untranslated region (UTR). Microarray-based gene expression profiling shows that SMG is a major regulator of maternal transcript destabilization. SMG-dependent mRNAs are enriched for gene ontology annotations for function in the cell cycle, suggesting a possible causal relationship between failure to eliminate these transcripts and the cell cycle defects in smg mutants. Keywords:  Identification of Maternal mRNAs
+
+DESIGN
+RNA was extracted from staged unfertilized eggs and stage 14 oocytes using a modification of the TRIzol (Invitrogen) method (Neal et al., 2003). Sample quality was evaluated by probing northern blots for known stable (rpA1) and unstable (Hsp83) transcripts. Total RNA was reverse transcribed as previously described (Neal et al., 2003), except that priming was carried out using random primers rather than oligo-dT in order not to bias the labeling toward mRNAs with long poly(A) tails. The fluorescently labeled cDNA probes were hybridized to 12Kv1 microarray slides obtained from the Canadian Drosophila Microarray Centre ( http://www.flyarrays.com ). These represent 10,500 distinct protein-coding genes, or 77% of the Drosophila protein-coding genome. Hybridization and scanning was also as previously described (Neal et al., 2003), using a PerkinElmer/GSI ScanArray 4000 scanner and the ScanArray software. The 16 bit TIFF image files were quantified using QuantArray Version 3 (PerkinElmer) using the adaptive quantification algorithm and analyzed using GeneTraffic Duo 3.2 (Iobion Informatics/Stratagene) after normalization to the known stable transcripts rpA1 and rp49. Of the 10,500 distinct protein-coding genes on the microarray, 9,257 were analyzed for maternal expression. The averages of all of the raw values for 21 hybridizations of wild-type stage 14 oocyte RNA (three replicates of seven experiments) were sorted from highest to lowest. Maternal expression was assessed at different levels in the list by scanning the Berkeley Drosophila Genome Project in situ database ( http://www.fruitfly.org/cgi-bin/ex/insitu.pl ). RNA from the genes at the top of the table is maternally loaded (90.4% of transcripts with an average raw intensity > 20,000 are maternal; n = 73), whereas RNA from genes at the bottom is absent from early embryos (only 8.2% of those with an average intensity of < 2,000 are maternal; n = 73). Hsp83 appeared near the top of the list (sixth out of 9,257). Transcripts with average values between 3,500 and 5,000 were mostly maternal (75%; n = 76). As the values decreased, there was a decreasing frequency of maternal transcripts (58.7% between 3,000 and 3,500, n = 172; 46.9% between 2,800 and 3,000, n = 160; 26.2% between 2,500 and 2,800, n = 80; 24.7% between 2,000 and 2,500, n = 81). Using a cutoff value of 3,000, we calculate that 55% of all protein-coding genes are represented in stage 14 oocytes
+
+PLATFORM
+GPL1467 CDMC_Drosophila_12k1
+
+CITATIONS
+17199047
+

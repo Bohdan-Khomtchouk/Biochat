@@ -1,0 +1,18 @@
+TITLE
+DNase hypersensitivity mapping (DNase-chip) using Nimblegen ENCODE arrays in a variety of human cell types
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNase hypersensitivity using Nimblegen ENCODE arrays (DNase-chip) in primary human trachea epithelia (pHTE), normal human bronchial epithelia (NHBE), Caco2, HT29, human skin fibroblasts, primary human male epididymis. DNase hypersensitivity mapping is used to detect putative regulatory elements of the human genome. We digested chromatin from the above cell types with DNaseI using the DNase-chip protocol devised by Crawford et al. (Nat. Methods, 2006). Briefly, cells are lysed, chromatin is digested with increasing amounts of DNase I, digested ends are blunted in adequetely digested samples, ligated to biotinylated linkers, purified with streptavidin beads, amplified by LM-PCR. As control, randomly sonicated genomic DNA is used. LM-PCR material was labeled and hybridized to hg_17 ENCODE arrays at Nimblegen facility.
+
+DESIGN
+DNaseI-digested chromatin was hybridized to Nimblegen ENCODE arrays (build hg17). Randomly sonicated genomic DNA was used as control. Three biological replicates on three arrays were performed for Caco2 cells, three replicates were done with skin fibroblasts (two digestions were pooled and hybridized to a single array [Sample: SkinFibro.sample2]), two replicates on two arrays were performed for pHTE, NHBE, and HT29, and a single experiment for primary male epididymis.
+
+PLATFORM
+GPL7513 NimbleGen human (hg17) ENCODE tiling array
+
+CITATIONS
+19897727
+

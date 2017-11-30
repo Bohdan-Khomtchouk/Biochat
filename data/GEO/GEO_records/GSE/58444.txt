@@ -1,0 +1,18 @@
+TITLE
+The long noncoding RNAs NEAT1 and MALAT1 bind active chromatin sites
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Long noncoding RNAs (lncRNAs) are important regulators of chromatin; however, the mechanistic roles for many lncRNAs are poorly understood in part because their direct interactions with genomic loci and proteins are difficult to assess. We used CHART-seq to map the genomic binding sites for two highly expressed human lncRNAs, NEAT1 and MALAT1, which localize within the nucleus to paraspeckles and nuclear speckles, respectively. We show that NEAT1 and MALAT1 localize to hundreds of genomic sites in human cells, primarily over active genes. NEAT1 and MALAT1 exhibit colocalization to many of these loci, but display distinct gene body binding patterns at these sites, suggesting independent but complementary functions for these RNAs. Protein mass spectrometry analysis of CHART-enriched material (CHART-MS) identified numerous proteins enriched by both lncRNAs, supporting complementary binding and function, in addition to unique associated proteins. Transcriptional inhibition or stimulation affects the localization of NEAT1 to active chromatin sites, implying that DNA sequence itself does not target NEAT1 to chromatin and that localization responds to cues involved in the transcription process.
+
+DESIGN
+Paired-end CHART-seq was performed for a single replicate of each capture oligonucleotide in untreated MCF-7 cells to establish binding sites of these RNAs, for a total of 6 samples. To investigate the effects of transcriptional inhibition and E2 stimulation on the localization of these RNAs, we performed paired-end CHART-seq with each capture oligonucleotide for two biological replicates of flavopiridol- and vehicle (DMSO)-treated MCF-7 cells and for two biological replicates of E2- and vehicle (ethanol)-treated MCF-7 cells. To establish the overlap of NEAT1 and MALAT1 binding sites with a known component of paraspeckles (NEAT1-containing subnuclear body), we performed paired-end ChIP-seq for the paraspeckle component PSF in MCF-7 cells, as well as a single-end biological replicate.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25155612
+

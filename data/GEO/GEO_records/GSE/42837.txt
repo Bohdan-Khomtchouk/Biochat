@@ -1,0 +1,18 @@
+TITLE
+ChIP-chip data for transcription factor binding in white and opaque cell types of Candida albicans
+
+ORGANISM
+Candida albicans
+
+SUMMARY
+The human fungal pathogen Candida albicans can switch between two phenotypic cell types, termed “white” and “opaque.” Both cell types are heritable for many generations, and the switch between the two types occurs epigenetically, that is, without a change in the DNA sequence of the genome. Previous work identified six key transcriptional regulators important for white-opaque switching: Wor1, Wor2, Wor3, Czf1, Efg1, and Ahr1. In this work, we use a combination of genetic and genome-wide approaches to explore the topology of the transcriptional network that specifies each of the two cell types, and governs the ability to switch between them. In particular, we use a combination of genome-wide chromatin immunoprecipitation and gene expression profiling to determine the direct and indirect regulatory interactions that form the switch network. The six regulators are arranged together in a complex transcriptional network, and we propose that the topology of this network is responsible for both the epigenetic maintenance of the white and opaque states and for the switching between them. Chromatin IP's were performed using the protocol described by Hernday et al (Methods Enzymol. 2010;470:737-58. ).  Briefly, log phase cultures were crosslinked with formaldehyde prior to cell lysis, chromatin shearing, and transcription-factor immunoprecipitation.  Recovered DNA was amplified, dye-coupled, and competitively hybridized to a 244k-probe tiling array with a non-enriched genomic DNA reference.
+
+DESIGN
+Immunoprecipitated chromatin was hybridized against a non-enriched genomic DNA reference to identify transcription-factor binding sites
+
+PLATFORM
+GPL16365 Candida albicans tiling ChIP array
+
+CITATIONS
+23610392
+

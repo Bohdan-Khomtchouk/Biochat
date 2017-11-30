@@ -1,0 +1,18 @@
+TITLE
+In vitro study of gene expression and response to chemotherapy across 50 human-melanoma derived cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To identify patterns of gene expression that correlate with response to treatment with either melphalan or temozolomide we measured both gene expression using microarray genechips and response to drug using a standard in vitro cell proliferation assay.  Senstivity to melphalan was measured 48hrs after drug treatment while sensitivity to temozolomide was measured 12 days after drug treatment. Keywords: Patterns of gene expression predictive of response to chemotherapy with melphalan or temozolomide in melanoma
+
+DESIGN
+For each of the 50 melanoma-derived cell lines, 1 flask of cells was grown to 80% confluence and harvested for RNA isolation.  Cells were lysed in buffer with 1% β-mercaptoethanol and RNA isolated using Qiagen RNeasy-plus RNA isolation kit which included a step to eliminate genomic DNA.  RNA concentration was measured and quality assessed using the NanoDrop ND100 spectrophotometer.  RNA was reverse transcribed and biotin-labeled cRNA synthesized.  The product was hybridized to the Affymetrix human genechip HU133 Plus2 according to manufacturer's instructions.  Data was initially assessed for quality and a relative value for expression was calculated as the difference between the perfect match and the mismatch signal intensities using the Affymetrix GeneChip Operating System (GCOS).  A detection call (present, absent or marginal) as well as a detection p-value was also calculated.  Data was normalized by multiplying each signal by a scaling factor such that the mean signal intensity for each GeneChip was equal to 500.  Scaling factors were all under 10.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19147755 , 20371714
+

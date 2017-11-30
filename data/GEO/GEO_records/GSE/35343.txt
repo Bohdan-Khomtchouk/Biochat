@@ -1,0 +1,18 @@
+TITLE
+Immunopurification results of cytoskeletal motor proteins in S. cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The accompanying dataset is the result of a systematic study to identify the RNA cargoes associated with the cytoskeletal motor proteins of Saccharomyces cerevisiae. We immunopurified, via the use of integrated, C-terminal GFP and 9Myc tags, the five actomyosin motors, Myo1, Myo2, Myo3, Myo4, and Myo5; the kinesin-like proteins Kar3, Kip1, Kip2, Kip3, and Smy1; and the dynein, Dyn1, from S. cerevisiae.  Cells were either treated with formaldehyde or with the small molecule latrunculin B.  We used formaldehyde crosslinking to stabilize associations between motors proteins and interacting RNAs before IP.   Yeast cells growing exponentially in rich medium were treated with formaldehyde, lysed and sonicated, then incubated with magnetic beads coupled to monoclonal antibodies against either 9Myc or GFP  to isolate the tagged motor proteins along with any associated RNAs.  After IP, the formaldehyde crosslinks were reversed and the enriched RNAs and RNAs purified from the corresponding total lysate were amplified and labeled respectively with Cy5 and Cy3, then jointly hybridized to custom-made, S. cerevisiae oligonucleotide microarrays (Hogan et al., PLoS Biology, 2008).  Alternatively, the addition of a low concentration of latrunculin B (2 ug/ml) to live cells to partially solubilize the actin cytoskeleton allowed for successful IP of the motor proteins and associated mRNAs without the need for a chemical crosslinker.  In both the case of latrunculin B and formaldehyde treatment, we also performed IPs in which the untagged parent yeast strains were processed for IP and microarray analysis in a manner identical to that of the tagged strains (labeled as mock).
+
+DESIGN
+transcription profiling
+
+PLATFORM
+GPL10697 SMD Print_1587 Saccharomyces cerevisiae CPBZO8 GPL15162 SMD Print_1327 Saccharomyces cerevisiae ACATL2 GPL15163 SMD Print_1428 Saccharomyces cerevisiae JJL1 GPL15164 SMD Print_1633 Saccharomyces cerevisiae SFGF:cpcc
+
+CITATIONS
+22359641
+

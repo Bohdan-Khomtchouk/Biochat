@@ -1,0 +1,18 @@
+TITLE
+Role of Blimp-1 in programing Th effector cells into IL-10 producers
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Gene expression profiling on IL-10-secreting and non-secreting murine Th1 cells, stimulated in the presence or absence of the Notch ligand Delta-like 4 (Dll4), was performed to identify transcription factors co-expressed with IL-10.
+
+DESIGN
+Primary naïve T helper cells were isolated from lymph nodes and spleens of C57BL/6 wildtype mice. Cells were enriched using the Multisort Kit from Miltenyi Biotec for CD25-CD4+CD62L+, and afterwards cultured under Th1 polarizing conditions. For activation, 0.25E06 naïve T cells were co-cultured with 0.75E06 MACSi Beads in 96-well flat bottom plates. MACSi Beads were coated with anti-CD3 and anti-CD28 (30 µg of total primary IgG antibody per 1.0E08 beads) prior to seeding. Notch activation via Dll4 was induced by additional co-culture with MACSi Beads covalently coated with recombinant mouse Dll4. After 5 days in culture, the cells were restimulated with PMA/Ionomycin and subjected to an IL-10-secretion assay (Miltenyi Biotec) to separate IL-10-secreting and non-secreting cells. Using a BD Aria or DIVA cell sorter (Becton Dickinson), living CD4+ IL-10-secreting and non-secreting cells, with (co-culture with Dll4; 'TH1Notch') or without ('TH1Control') activation of the Notch signaling pathway, were isolated. Total RNA was extracted using the RNeasy Mini kit (Qiagen). The integrity and amount of isolated RNA was assessed for each sample using an Agilent 2100 Bioanalyzer (Agilent, Waldbronn, Germany) and a NanoDrop ND-1000 spectrophotometer (NanoDrop Technologies, Wilmington, DE). The preparation for the hybridization to the chip was done using the GeneChip 3' IVT Express Kit. Fifteen micrograms of fragmented cRNA of each sample were hybridized to a total of 4 mouse genome 430 2.0 GeneChips (Affymetrix). Hybridization was performed in a Hybridization Oven 640, and chips were washed and stained in the Fluidics Station 400 (both Affymetrix). Finally, the arrays were scanned with a GeneChip Scanner 3000 using the GCOS software, version 1.1.1., both Affymetrix. The data was analyzed using the original GCOS CHP-file Signals, Excel and AmiGO website.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+25073792
+

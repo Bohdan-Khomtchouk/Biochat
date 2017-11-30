@@ -1,0 +1,18 @@
+TITLE
+RAR/RXR binding dynamics distinguishes pluripotency from differentiation-associated cis-regulatory elements
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In mouse embryonic cells, a retinoic acid (RA) stimulation triggers a massive change of gene expression leading the pluripotent, proliferating cells to a lineage-specific differentiation process. The retinoic acid receptor (RAR) plays a key role in this response by inhibiting pluripotency-maintaining genes and simultaneously activating some major actors of cell differentiation. To investigate the mechanism underlying this dual regulation, we performed joint RAR/RXR ChIP-seq and mRNA-seq time series during the first 48 hours of the RA-induced Primitive Endoderm differentiation process in F9 embryonic carcinoma cells. We detected significantly more RAR/RXR binding regions than previous studies and identified among them a handful of typical binding intensity patterns during differentiation. We demonstrate that these patterns are correlated with the coincidental binding of essential transcription factors (TFs) for pluripotency maintenance or PrE differentiation of embryonic stem (ES) cells, as well as the presence of variants of RAR binding motifs. Most importantly, early-bound regions coincide with pluripotency-associated transcription factor binding in ES (like Pou5f1, Sox2, Esrrb and Nr5a2) and display an increased frequency of the DR0 type RAR binding motifs; late-bound sites are associated to the PrE marker Sox17 and are enriched in the canonical DR5 binding motif. Our data offer an unprecedently detailed view on the action of RA in triggering pluripotent cell differentiation. Altogether, this work sheds light on the relocation of RAR/RXR binding sites throughout differentiation, and shows how RAR/RXR progressively shift from DR0 enriched regions, which were specifically identified in undifferentiated models, to canonical RAR binding sites containing loci.
+
+DESIGN
+Time course (0, 2, 6, 12, 24, 48h) after stimulation of F9 cultured cells by retinoic acid: PanRAR and PanRXR ChIP-seq at 0, 2, 24 and 48h (no replicate); WCE-seq at 0h (no replicate); mRNA-seq at 0, 6, 12, 24, 48h (2 replicates except for time 0h, 4 replicates). Additionally, a control time course (culture in DMSO) sampled at 24 and 48h (no replicates).
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25897113
+

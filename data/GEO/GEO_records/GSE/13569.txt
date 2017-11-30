@@ -1,0 +1,18 @@
+TITLE
+Expression data from human amniotic fluid-derived stem cells (AFSC) treated with ethanol
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The effects of ethanol may vary from induction of apoptosis to the inhibition of proliferation, differentiation, migration or other function.  The complex and diverse response of fetal cells to ethanol has prompted us to use a bioinformatics approach to study the effect of ethanol on fetal stem cells derived from the amniotic fluid-derived (AFSC). To characterize the global response of human AFSC to ethanol, gene expression profiles of AFSC treated with or without 100mM ethanol for 48 hours were analyzed. Keywords: stem cells, amniotic fluid-derived stem cells, ethanol, alcohol
+
+DESIGN
+Two microarrays were performed (AFSC sealed with parafilm for 48 hours treated with or without 100 mM of ethanol).  Total RNA was isolated using RNA Bee according to manufacturer's instructions.  Fragmented antisense cRNA was used for hybridizing with human U133 A arrays (Affymetrix, Inc. Santa Clara, CA, USA) at the Core Genomic Facility of Wake Forest University School of Medicine.  Raw CEL files were provided by the Microarray Core Facility of the Wake Forest University School of Medicine and were then analyzed with a software package AffylmGUI (Affymetrix LIMMA, Linear Models for Microarray Data, Graphical User Interfaces).  AffylmGUI reads the raw Affymetrix CEL files directly, summarizes the gene expression values using RMA, and then uses LIMMA to identify statistically significant differences in gene expression.  LIMMA fits a linear model for every gene (like ANOVA or multiple regression analysis), and adjusts P values for multiple testings.  Differentially expressed genes were identified with a fold change > 1.8.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

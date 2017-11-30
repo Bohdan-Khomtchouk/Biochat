@@ -1,0 +1,18 @@
+TITLE
+VIPR HMM: A hidden Markov model for detecting recombination with microbial detection arrays
+
+ORGANISM
+Chlorocebus aethiops ; Alphavirus ; Flavivirus
+
+SUMMARY
+In previous work, we developed a novel algorithm, VIPR, for analyzing diagnostic microarray data using a training set of empirical hybridizations of infected and uninfected samples. We have expanded up our previous implementation by incorporating a hidden Markov model (HMM) to detect recombination. We trained our HMM on a set of nonrecombinant parental viruses and applied our method to 11 recombinant alphaviruses and 4 recombinant flaviviruses hybridized to a diagnostic microarray in order to evaluate performance of the HMM. VIPR HMM identified 95% of the 62 inter-species recombinant breakpoints in the validation set and only two false positive breakpoints were predicted. This study represents the first description and validation of an algorithm capable of identifying recombination in viruses based on diagnostic microarray hybridization patterns.
+
+DESIGN
+In this study, 30 viruses including recombinant and nonrecombinant alphaviruses and flaviviruses were grown in culture and hybridized to 105 microarrays.  In addition, 9 uninfected samples were hybridized (114 total hybridizations).  These hybridizations were used to train and test a novel algorithm for detecting recombination using diagnostic microarrays.
+
+PLATFORM
+GPL15022 Recombination Detection Microarray Release I (R1.1Tiled)
+
+CITATIONS
+23044542
+

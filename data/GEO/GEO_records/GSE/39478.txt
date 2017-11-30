@@ -1,0 +1,18 @@
+TITLE
+Genome-Wide Characterization of the Phosphate Starvation Response in Schizosaccharomyces pombe [gene expression data]
+
+ORGANISM
+Schizosaccharomyces pombe 972h-
+
+SUMMARY
+Inorganic phosphate is an essential nutrient required by organisms for growth. During phosphate starvation, Saccharomyces cerevisiae activates the phosphate signal transduction (PHO) pathway leading to the expression of the secreted acid phosphatase, PHO5. The fission yeast, Schizosaccharomyces pombe, regulates expression of the ScPHO5 homolog (pho1+) via a non-orthologous PHO pathway. The genes induced by phosphate limitation and the molecular mechanism by which the genetically identified positive (pho7+) and negative (csk1+) regulators function are not known. Here we use a combination of molecular biology, expression microarrays, and chromatin immunoprecipitation coupled with high-throughput sequencing (ChIP-Seq) to characterize the role of pho7+ and csk1+ in the PHO response. We define the set of genes that comprise the initial response to phosphate starvation in S. pombe. We identify a conserved PHO response for the ScPHO5 (pho1+), ScPHO84 (spbc8e4.01c+), and ScGIT1 (spbc1271.09+) orthologs. We use ChIP-Seq to identify members of the Pho7 regulon and characterize Pho7 binding in response to phosphate-limitation and Csk1 activity. We demonstrate that activation of pho1+ requires Pho7 binding to a UAS in the pho1+ promoter and that Csk1 repression does not regulate Pho7 enrichment. Further, we find that Pho7-dependent activation is not limited to phosphate-starvation, as additional environmental stress response pathways require pho7+ for maximal induction. We provide a global analysis of the PHO pathway in S. pombe. Our results elucidate the conserved core regulon required for responding to phosphate starvation between distantly related ascomycetes and a better understanding of flexibility in environmental stress response networks.
+
+DESIGN
+Schizosaccharomyces pombe 972 h- cells were starved for inorganic phosphate for 0, 30, 60, 120, or 240 minutes pior to microarray preparation to determine the extent and temporal resolution of the phosphate starvation response. At 120 minutes post-starvation we define a set of genes that are directly and specifically induced by phosphate starvation, providing a time-point at which all other experiments were performed. We characterize the pho7+- and csk1+- dependency of this PHO response at 120 minutes post-starvation in pho7+csk1+, pho7Δ, csk1Δ, and pho7Δcsk1Δ cells. In a seperate set of experiments we characterized the S. pombe stress response to copper limitation, iron limitation, and carbon switching at 120 minutes post-stress and osmotic shift at 20 minutes post-stress in both pho7+ and pho7Δ cells.
+
+PLATFORM
+GPL15827 Agilent Gene Expression Array for Schizosaccharomyces pombe 8x15K [Agilent-020613 Spom-8x15 Feature Number version]
+
+CITATIONS
+23231582
+

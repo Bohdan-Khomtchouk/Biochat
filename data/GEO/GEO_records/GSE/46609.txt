@@ -1,0 +1,18 @@
+TITLE
+Analysis for expression of genes in multiple myeloma cells treated with PRIMA-1Met or dimethyl sulfoxide (DMSO) control
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Targeting p53 by the small molecule PRIMA-1Met/APR-246 has shown promising preclinical activity in various cancer types. However, the mechanism of PRIMA-1Met-induced apoptosis is not completely understood and its effect on multiple myeloma (MM) cells is unknown. In this study we evaluated anti-tumor effect of PRIMA-1Met alone or combined with current anti-myeloma agents in MM cell lines, patient samples, and a mouse xenograft model. Results of our study showed that PRIMA-1Met decreased the viability of MM cells irrespective of p53 status with limited cytotoxicity toward normal hematopoietic cells. PRIMA-1Met restored wild type conformation of mutant p53 and induced activation of p73 up-regulating Noxa and down-regulating Mcl-1 without significant modulation of p53 level. Importantly, PRIMA-1Met delayed tumor growth and prolonged survival of mice bearing MM tumor.  To identify the potential targets of PRIMA-1Met, we performed gene expression profiling (GEP) by microarray in three different cell lines harboring wild type, mutant or null p53 and analysed differential expression of target genes between PRIMA-1Met treated and non-treated samples. Based on our we conclude that treatment of MM cells with PRIMA-1Met lead to induction of p73-mediated apoptosis by up-regulating Noxa and down-regulating Mcl-1 irrespective of p53 status.
+
+DESIGN
+MM.1S, U266, and 8266R5 cells were treated with 20, 40, and 40 µM PRIMA-1Met, respectively for 8 hrs and total RNA was isolated. Gene expression was analyzed with Illumina RNA analysis Beadchips (Illumina Inc. San Diego, CA) representing 48,000 human genes (Human HT12). Array data analysis was carried out with Bead Studio software. Genes showing at least a 2.0-fold difference in expression levels between control and PRIMA-1Met-treated cells were considered to be modulated by PRIMA-1Met.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+24030633
+

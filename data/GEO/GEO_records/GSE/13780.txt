@@ -1,0 +1,18 @@
+TITLE
+Intracellular expression pattern of recombinant Mtb strain TB294 overexpressing sigma factor A
+
+ORGANISM
+Mycobacterium tuberculosis
+
+SUMMARY
+We previously showed that increased expression of the principal sigma factor, SigA, mediates the capacity of Mycobacterium tuberculosis 210 strains to grow more rapidly in human monocytes, compared to other strains. To identify SigA-regulated genes that favor intracellular mycobacterial growth, we used microarray analysis to compare gene expression between a recombinant M. tuberculosis 210 strain bearing a sense sigA construct and a vector control during growth in MonoMac6 cells. The most strongly upregulated gene in the sense sigA transformant was Rv2416c, which has previously been shown to enhance intracellular survival of M. smegmatis, and has been designated as eis. Real-time PCR confirmed marked upregulation of eis mRNA by the intracellular sense sigA transformant, and lysates of this transformant contained high concentrations of the Eis protein. Chromatin immunoprecipitation demonstrated that SigA bound the eis promoter region in live bacteria. Deletion of the eis gene reduced growth of M. tuberculosis in macrophages, and complementation of eis reversed this effect. We conclude that SigA regulates eis expression, which in turn contributes to the enhanced capacity of the M. tuberculosis 210 strain to grow in human macrophages.
+
+DESIGN
+The M. tuberculosis DNA microarray consisted of 4,295 70-mer oligonucleotides representing the 3,924 predicted open reading frames of the H37Rv strain ( http://www.sanger.ac.uk ) and 371 probes designed to detect sequences in the CDC1551 strain ( http://www.tigr.org ). The arrays were prepared by spotting oligonucleotides (Tuberculosis Genome set version 1.0, Operon Biotechnologies) onto poly-L-lysine coated glass microscope slides, as described (Pang et al., 2007). Total RNA from two independent experiments was prepared from M. tuberculosis harvested from infected MonoMac6 cells, as described above. cDNA synthesis, labeling, hybridization, scanning, image acquisition and normalization were performed, as described (Pang et al., 2007), and for each experiment, a dye flip was performed. Data were filtered by removing all spots that were below the background noise or flagged as ‘bad’. Spots were considered to be below the background noise if the sum of the median intensities of the two channels was less than twice the highest mean background of the chip.  The ratio of the average median intensity of Cy5 over the average median intensity of Cy3 was determined for each spot and the fold change values were calculated.  Expression changes were considered significant if there was at least a 2-fold or higher change in expression between TB294-pSigA and TB294-pCV in three of the four array experiments.
+
+PLATFORM
+GPL4057 PHRI-UMNDJ Mycobacterium tuberculosis 4.8K CAG_Mtb
+
+CITATIONS
+19332828
+

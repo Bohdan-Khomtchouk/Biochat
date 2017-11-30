@@ -1,0 +1,18 @@
+TITLE
+Bisulfite-independent analysis of CpG island methylation enables genome-scale stratification of single cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This set of data is for assessing and validation of a novel method, CGI-seq, as described in the corresponding paper, for profiling of single cell CpG methylome. We tested 4 different cell lines (K562, GM12878, 551 K1-iPSC, and Fibroblast ATCC-CCL-110) with a low quantity of cells (LQC, here including 100-cell or 10-cell) and with single cells (SC) separately. Briefly, the protocol include these steps. The intact gDNA of the cell(s) was released. This gDNA (i.e. the TEST sample, but this step was omitted for the Methylation Control or MC sample) was cut with the 1st set of  restriction endonucleases, called RE1, which were sensitive to CpG methylation, and distinguished methylated from unmethylated DNA sequences. Then, each sample, including digested TEST DNAs and intact MC DNA, was immediately amplified by MDA method (or REPLIg kit), in which the methylated DNA sequences were highly efficiently amplified, while unmethylated DNA sequences were depleted. The amplicon was then cut with the 2nd set of restriction endonucleases, called RE2, and the appropriate size (between 50-500bp) of fragments were recovered to generate sequencing library, which was to enrich CpG-rich sequences (especially CpG islands) and improve the sequencing efficiency (reduced representation sequencing). Finally, Next Generation Sequencing (NGS) was performed. The outcome sequencing reads were analyzed with a specially designed algorithms. The result shows the high sensitivity, high reliability, high reproduciblity, and high coverage of the method on profiling the genome-wide CpG methylation pattern for single cells. It is a simple, robust and faithful technology for single cell CpG methylation pattern analysis, enabling unsupervised clustering of single cells basing on genome-wide CpG methylation pattern. This method will be valuable to dissect the subpopulation structure for a cellular population heterogeneous in CpG-methylation pattern.
+
+DESIGN
+We designed 2 protocols (protocol option 1 - BstUI as RE2, and protocol option2 - ABH as RE2, while other steps were the same) for LQC processing (30 samples with 100Cell or 10cell), and the option 2 above was used for SC (8 samples for K562 and GM12878 separately, totally 16 samples). The corresponding Methylation Controls (MCs, for which no RE1 was applied but all other processes were the same as the TEST) were also generated corresponding to each set of TEST samples. The sequencing data was analyzed, and compared with the published ENCODE data generated with RRBS or Infinium HumanMethylation450 BeadChip methods with bulk cells, for CpG islands, promoters and other informative sequencing fragments. These data were also subject to unsupervised clustering analysis of the cells.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28126923
+

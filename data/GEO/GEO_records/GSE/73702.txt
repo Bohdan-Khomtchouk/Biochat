@@ -1,0 +1,18 @@
+TITLE
+An RNA matchmaker protein regulates the activity of the long noncoding RNA HOTAIR
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The human long noncoding RNA (lncRNA) HOTAIR acts in trans to recruit the Polycomb Repressive Complex 2 (PRC2) to the HOXD gene cluster and promote gene silencing during development. In breast cancers, overexpression of HOTAIR increases metastatic potential via the repression of many additional genes. It has remained unclear what factors determine HOTAIR-dependent PRC2 activity at specific genomic loci, particularly when high levels of HOTAIR result in aberrant gene silencing. To identify additional proteins that contribute to the specific action of HOTAIR, we performed a quantitative proteomic analysis of the HOTAIR interactome. We found that the most specific interaction was between HOTAIR and the heterogeneous nuclear ribonucleoprotein (hnRNP) A2/B1, a member of a family of proteins involved in nascent mRNA processing and RNA matchmaking. Our data suggest that A2/B1 are key contributors to HOTAIR-mediated chromatin regulation in breast cancer cells: A2/B1 knockdown reduces HOTAIR-dependent breast cancer cell invasion and decreases PRC2 activity at the majority of HOTAIR-dependent loci. We found that the B1 isoform, which differs from A2 by 12 additional amino acids, binds with highest specificity to HOTAIR. B1 also binds chromatin and associates preferentially with RNA transcripts of HOTAIR gene targets. We furthermore demonstrate a direct RNA-RNA interaction between HOTAIR and a target transcript that is enhanced by B1 binding.  Together, these results suggest a model in which B1 matches HOTAIR with transcripts of target genes on chromatin, leading to repression by PRC2.
+
+DESIGN
+ChIP-Seq analysis of H3K27me3 in four stable MDA-MB-231 breast cancer cell lines, each with two biological replicates. Cells express the HOTAIR lncRNA or an antisense Luciferase control lncRNA and are +/- lentiviral knockdown of the proteins hnRNP A2/B1
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27146324
+

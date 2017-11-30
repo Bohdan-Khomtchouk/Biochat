@@ -1,0 +1,18 @@
+TITLE
+Transcriptome of Colletotrichum graminicola wild-type and and mutant isolates during infection of Zea mays leaf sheaths
+
+ORGANISM
+Colletotrichum graminicola
+
+SUMMARY
+Colletotrichum graminicola is a hemibiotrophic fungal pathogen that causes maize anthracnose disease. It progresses through three recognizable phases of pathogenic development *in planta*: melanized appressoria that form on the host surface prior to penetration; biotrophy, characterized by colonization of living host cells; and necrotrophy, characterized by host cell death and symptom development. An improved filtering algorithm and a Mixed Effects Generalized Linear Model (GLM) were developed and applied to an existing Illumina transcriptome dataset, substantially increasing the statistical power of the analysis of *C. graminicola* gene expression during infection and colonization. Additionally, the *in planta* transcriptome of the wild-type was compared with that of a mutant strain impaired in the establishment of biotrophy, allowing detailed dissection of events occurring specifically during penetration, and during early versus late biotrophy. Results indicated that there is a continuum of activities that occur during colonization of maize by *C. graminicola*, and that boundaries drawn between the three recognizable phases are artificial. More than 2000 fungal genes were differentially transcribed in waves during appressorial maturation, penetration, and colonization. Secreted proteins and membrane receptors were over-represented among the differentially expressed genes, suggesting that the fungus engages in an intimate and dynamic conversation with the host, beginning prior to penetration. This communication process is likely to involve reception of plant signals that trigger subsequent developmental progress in the fungus, as well as the production of signals that induce responses in the host. Later phases of biotrophy were more similar to necrotrophy, with increased production of secreted proteases, inducers of plant cell death, hydrolases, and membrane bound transporters for the uptake and egress of potential toxins, signals, and nutrients. The differentially expressed genes could be used as landmarks to more accurately identify developmental progress in compatible versus incompatible interactions involving genetic variants of both host and pathogen.
+
+DESIGN
+Analysis of C. graminicola colonization stages: pre-penetration appressoria (PA), early biotrophic phase (BP), and the switch from biotrophy to necrotrophy (NP), in two different isolates, a wild-type (WT) and a non-pathogenic mutant (MT). There are 3 biological replicates per stage, except for the MTBP treatment with only 2 biological replicates. A total of four lanes (i.e. technical replicates) of data were generated for WTAP; one lane each was produced for WTBT and WTNT; and two lanes each were produced for MTAP and MTBT. The technical replicates for each treatment were pooled. The wild type strains of this study were submitted in GSE34632. The new wild type Samples combined reps. The attached excel file describes the Sample to Sample associations.
+
+PLATFORM
+GPL20793 Illumina Genome Analyzer II (Colletotrichum graminicola)
+
+CITATIONS
+26956617
+

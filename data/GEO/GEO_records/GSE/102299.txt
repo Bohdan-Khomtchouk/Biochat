@@ -1,0 +1,18 @@
+TITLE
+Neuromedin U receptor-1 amplifies inflammatory lung innate lymphoid cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Type 2 innate lymphoid cells (ILC2s) promote mucosal homeostasis, yet also contribute to pathologic type 2 inflammation in allergic asthma. Alarmin cytokines produced by damaged and stressed epithelial cells, such as IL-25, activate ILC2s, but it remains unclear if these cytokines are unique in switching homeostatic ILC2s into pro-inflammatory cells that drive tissue inflammation. To identify molecular cues that modulate ILC responses to alarmins, we collected single-cell RNA-seq profiles of lung-resident ILCs at steady state and after in vivo stimulation. Computational and functional analysis identified that ILC2s express the neuropeptide receptor Nmur1. Neuromedin U (NMU), the ligand of Nmur1, activates ILCs in vitro, and when co-administered with IL-25 in vivo, NMU dramatically amplifies allergic inflammation and induces ILC2 expansion.  Finally, loss of NMU/Nmur1-signaling reduces ILC2 frequency and effector function following allergen challenge in vivo. Our results demonstrate that Nmur1 signaling modifies alarmin-mediated ILC2 responses to promote pro-inflammatory ILCs, and highlights the importance of neuro-immune crosstalk in allergic inflammatory responses at mucosal surfaces.
+
+DESIGN
+For one set of experiments C57BL/6 mice were given PBS, IL-25, IL-33, NMU or NMU+IL-25 intranasally daily for 3 consecutive days. For another set of experiments, wildtype or Nmur1-deficient C57BL/6 mice were given PBS or house dust mite extract intranasally daily on days 0, 7, 8 and 9. In all cases, one day after the last treatment, lungs from mice of the same treatment group were pooled and enriched for CD90.2+ cells. Innate lymphoid cells (live CD45+ Lineage- CD90.2+ CD127+) were then isolated by fluorescence-activated cell sorting and analyzed by droplet-based 3' scRNA-seq (10x) and full-length scRNA-seq (SMART-Seq2). Two biologic replicates exist for each sample.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28902842
+

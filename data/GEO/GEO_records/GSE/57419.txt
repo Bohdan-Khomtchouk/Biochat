@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis of next generation sequencing for Lsh+/+ and Lsh-/- mouse embryonic fibroblasts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To examine the relationship of reduced CG methylation and gene expression in Lsh KO MEFs, we computed mean CG methylation levels at promoter regions of protein-coding genes. About 60% of TSS regions of protein-coding genes display a difference of CG methylation values greater than 0.3 (WT CG methylation minus KO CG methylation) indicating that Lsh deletion has widespread effects at promoter regions. RNA-seq analysis detects similar transcript steady state levels in WT and KO samples.  To determine the relationship of Pol II binding and CG methylation reduction in KO MEFs, Pol II Chip-seq was performed. Protein coding genes were ranked according their CG methylation differences between WT MEFs and KO MEFs. The greatest loss of CG methylation is found at promoter with low CG density. Pol II association is inversely related to the number of CpG sites within promoter regions. KO MEFs show less Pol II association at CG rich promoter regions. However, RNA-seq reads are indistinguishable comparing WT and KO samples, suggesting similar transcriptional efficiency in the absence of Lsh. To explore other molecular mechanisms that may preserve low transcription activity or repression at CG hypomethylated promoter regions, we examined H3K27me3 and H3K4me3 modifications by ChIP-seq. Genome wide computation of histone modifications at 5kb tiles shows no increase of H3K27me3 level in KO MEFs. When we ranked 5kb tiles based on CG methylation differences between WT and KO, we observed alterations in H3K27me3 distribution, while H3K4me3 modifications are unremarkable. Regions with moderate CG methylation reduction exhibit concomitant decreases in H3K27me3.
+
+DESIGN
+mRNA profiles and Genome-wide maps of H3K27me3, H3K4me3 and Pol II in wildtype (WT) and Lsh KO primary MEFs.
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25170028
+

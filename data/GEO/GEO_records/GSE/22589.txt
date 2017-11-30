@@ -1,0 +1,18 @@
+TITLE
+A cryptic sensor for HIV-1 activates antiviral innate immunity in dendritic cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Dendritic cells (DC) serve a key function in host defense, linking innate detection of microbes to the activation of pathogen-specific adaptive immune responses. Whether there is cell-intrinsic recognition of HIV-1 by host innate pattern-recognition receptors and subsequent coupling to antiviral T cell responses is not yet known. DC are largely resistant to infection with HIV-1, but facilitate infection of co-cultured T-helper cells through a process of trans-enhancement. We show here that, when DC resistance to infection is circumvented, HIV-1 induces DC maturation, an antiviral type I interferon response and activation of T cells. This innate response is dependent on the interaction of newly-synthesized HIV-1 capsid (CA) with cellular cyclophilin A (CypA) and the subsequent activation of the transcription factor IRF3. Because the peptidyl-prolyl isomerase CypA also interacts with CA to promote HIV-1 infectivity, our results suggest that CA conformation has evolved under opposing selective pressures for infectivity versus furtiveness. Thus, a cell intrinsic sensor for HIV-1 exists in DC and mediates an antiviral immune response, but it is not typically engaged due to absence of DC infection. The virulence of HIV-1 may be related to evasion of this response, whose manipulation may be necessary to generate an effective HIV-1 vaccine.
+
+DESIGN
+We analyzed the gene expression profiles of uninfected human monocyte-derived dendritic cells (MDDCs) and MDDCs infected with an envelope-defective GFP-encoding VSV-G-pseudotyped HIV-1 vector (HIVGFP(G)) and with VSV-G pseudotyped virus-like particles derived from SIVmac to deliver Vpx (SIVVLP(G)), alone or in combination. Cells were infected at day 4 of differentiation and cells were harvested 48 hours later. RNA was extracted with TRIzol. RNA was labeled and hybridized to Human Genome U133A 2.0 arrays arrays following the Affymetrix protocols. Data were analyzed in R and Bioconductor.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+20829794
+

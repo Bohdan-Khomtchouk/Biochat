@@ -1,0 +1,18 @@
+TITLE
+Neuronal CRTC-1 governs systemic mitochondrial metabolism and lifespan via a catecholamine signal
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Low energy states delay aging in multiple species, yet mechanisms coordinating energetics and longevity across tissues remain poorly defined. The conserved energy sensor AMP-activated protein kinase (AMPK) and its corresponding phosphatase calcineurin modulate longevity via the ‘CREB regulated transcriptional coactivator (CRTC)-1 in C. elegans. We show that CRTC-1 specifically uncouples AMPK/calcineurin mediated effects on lifespan from pleiotropic side effects by reprogramming mitochondrial and metabolic function. Strikingly, this pro-longevity metabolic state is regulated cell-nonautonomously by CRTC-1 in the nervous system. CRTC-1/CREB act antagonistically with the functional PPARα ortholog, NHR-49 to promote distinct peripheral metabolic programs. Neuronal CRTC-1 drives mitochondrial fragmentation in distal tissues and suppresses the effect of AMPK on systemic mitochondrial metabolism and longevity via a cell-nonautonomous catecholamine signal. These results demonstrate that transcriptional control of neuronal signals can override enzymatic regulation of metabolism in peripheral tissues. Central perception of energetic state therefore represents a target to promote healthy aging.
+
+DESIGN
+Experiment was performed with three biological replicates. Gravid adults grown at 20¡C on 100 mm NG plates seeded with OP50-1 E. coli were collected and treated with hypochlorite to release eggs. Eggs were incubated overnight in M9 media to obtain L1 synchronized populations. One thousand L1 larvae were grown on a 100 mm NG plate seeded with OP50-1 E. coli. Worms were harvested for RNA extraction when L4 larval stage was reached. Animals were collected and washed extensively with M9 media to remove bacteria. Worms were then snap frozen in liquid nitrogen. RNA was extracted by five freeze/thaw cycles in Qiazol then purified by RNeasy mini kit (Qiagen). RNA quality was checked using an Agilent Technologies 2100 Bioanalyzer. All samples had an RNA integrity number of 10. cDNA libraries were prepared from 4 ugs of total RNA using the TruSeq RNA Sample Preparation v2 kit (Illumina). 50-cycle paired-end sequencing was performed on an Illumina HiSeq 2000 by the Harvard Biopolymer Core. Read quality was evaluated with FASTQC. Adapter sequences and poor quality bases ( < 20) were trimmed and filtered with CUTADAPT, resulting in a median of 44 million reads per replicate. These were aligned to the C. elegans genome (ce6, WS238) using TopHat version 2.0.8 (Kim et al., 2013), with a median 35 million reads mapped in proper pairs. The number of reads mapping to each gene was counted with htseq-count. Genes with less than 1 Count Per Million Reads (CPM) were discarded from further analysis. Counts were normalized for sequencing depth and RNA composition across all samples with edgeR (Robinson et al., 2010). Genes were tested for differential expression between each mutant strain and wild-type using edgeR’s glm method. For each comparison, genes with less than 5 CPM were filtered and those with at least 50% change and False Discovery Rate (FDR) of 1% or less were considered differentially expressed.
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+25723162
+

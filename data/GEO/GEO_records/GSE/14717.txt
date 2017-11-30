@@ -1,0 +1,18 @@
+TITLE
+Direct calibration of PICKY-designed microarrays
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+Picky is an optimal microarray design software which designed the NSF Rice 45K Array. A series of microarray experiments using a one-chip version of this array were conducted to validate as well as to develop a calibration method for Picky designed microarrays. Synthesized samples with known content were used in the validation. PICKY designed microarrays were found to be highly reliable. The PICKY predicted closest nontarget information was used to quantitatively calibrate the best microarray hybridization conditions using the same microarrays and synthesized samples. Because this method works under most microarray protocols, it is generally applicable in any lab that uses PICKY as their microarray design tool. The associate publication provides more details about the experiment design and discussions about its results. Keywords: Microarray Calibration
+
+DESIGN
+20 probes on the NSF Rice Oligonucleotide 45K Array grouped into two sets were chosen for microarray calibration. 40 antisense oligonucleotides were synthesized based on the target and closest nontarget gene sequences for each of the chosen probes. 5 different experiments were designed with varied concentrations and dye labeling schemes for the 40 antisense oligos. Two hybridizations were conducted for each experiment at each calibration temperature. 7 sets of experiments were conducted at 70, 60, 55, 53, 50, 48 and 45 degree C using a total of 70 microarrays. Each microarray is scanned at multiple PMT settings to obtain multiple data files. After inspection, weak signal results at 70 degree C and a few contaminated microarray results were discarded. Altogether, 165 valid GenePix GPR files were produced and included in this series.
+
+PLATFORM
+GPL8161 NSF Rice Oligonucleotide Array 45K One Chip Version
+
+CITATIONS
+19849862
+

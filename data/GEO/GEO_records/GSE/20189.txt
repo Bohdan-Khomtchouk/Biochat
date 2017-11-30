@@ -1,0 +1,18 @@
+TITLE
+A gene expression signature from peripheral whole blood for stage I lung adenocarcinoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Affordable early screening in subjects with high risk of lung cancer has great potential to improve survival from this deadly disease. We measured gene expression from lung tissue and peripheral whole blood (PWB) from adenocarcinoma cases and controls to identify dysregulated lung cancer genes that could be tested in blood to improve identification of at-risk patients in the future. Genome-wide mRNA expression analysis was conducted in 153 subjects (73 adenocarcinoma cases, 80 controls) from the Environment And Genetics in Lung cancer Etiology (EAGLE) study using PWB and paired snap-frozen tumor and non-involved lung tissue samples. Analyses were conducted using unpaired t-tests, linear mixed effects and ANOVA models. The area under the receiver operating characteristic curve (AUC) was computed to assess the predictive accuracy of the identified biomarkers. We identified 50 dysregulated genes in stage I adenocarcinoma versus control PWB samples (False Discovery Rate ≤0.1, fold change ≥1.5 or ≤0.66). Among them, eight (TGFBR3, RUNX3, TRGC2, TRGV9, TARP, ACP1, VCAN, and TSTA3) differentiated paired tumor versus non-involved lung tissue samples in stage I cases, suggesting a similar pattern of lung cancer-related changes in PWB and lung tissue. These results were confirmed in two independent gene expression analyses in a blood-based case-control study (n=212) and a tumor-non tumor paired tissue study (n=54). The eight genes discriminated patients with lung cancer from healthy controls with high accuracy (AUC=0.81, 95% CI=0.74-0.87). Our finding suggests the use of gene expression from PWB for the identification of early detection markers of lung cancer in the future.
+
+DESIGN
+Samples from 164 subjects were initially included in the study. Two samples with poor quality profile based on quality assessment (described in Supplemental Material 2) were excluded before normalization. The remaining 162 samples were processed and normalized with the Robust Multichip Average (RMA) method. Nine additional subjects were excluded after data normalization because of reclassification to non-adenocarcinoma morphology during histologic review. The final analyses were based on 73 adenocarcinoma cases and 80 controls. All 22,277 probe sets based on RMA summary measures were used in the analyses.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+21742797
+

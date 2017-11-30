@@ -1,0 +1,18 @@
+TITLE
+SPECtre: a spectral coherence-based classifier of actively translated transcripts from ribosome profiling sequence data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Active protein translation can be assessed and measured using ribosome profiling sequencing strategies. Existing approaches make use of sequence fragment length or frame occupancy to differentiate between active translation and background noise, however they do not consider additional characteristics inherent to the technology which limits their overall accuracy. Here, we present an analytical tool that models the overall tri-nucleotide periodicity of ribosomal occupancy using a classifier based on spectral coherence. Our software, SPECtre, examines the relationship of normalized ribosome profiling read coverage over a rolling series of windows along a transcript against an idealized reference signal. A comparison of SPECtre against current methods on existing and new data shows a marked improvement in accuracy for detecting active translation and exhibits overall high sensitivity at a low false discovery rate.
+
+DESIGN
+Classification of actively translated transcripts in ribosome profiling data derived from human neuroblastoma SH-SY5Y cells, and data previously published derived from mouse embryonic stem cells and zebrafish embryos.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

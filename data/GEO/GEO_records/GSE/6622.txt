@@ -1,0 +1,18 @@
+TITLE
+PPARa siRNA-Treated Expression Profiles Uncover the Causal Sufficiency Network for Compound-Induced Liver Hypertrophy
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Approaches for discovering mechanisms of action and for identifying molecular biomarkers in biomedical research are evolving today, as the growing symbiosis with computational sciences becomes more widely appreciated than ever. In fact, the combination of various new technologies has been pushing forward both frontiers. Here, we present an example of the combined use of in vivo siRNA knock-down technology, genome-wide gene expression profiling, and computational reasoning to unveil regulatory causal relationships and the sufficiency network of identified genes for compound-induced toxicity. Unlike previously reported approaches, our method requires only one targeted perturbation for genome-wide de novo pathway discovery. Hence, our method can be directly applied to animal models in which it is still technically challenging to perform genome-wide genetic perturbation or RNAi screening. The independent application of our derived model to compounds with unrelated mechanisms of action suggests the existence of a universal molecular module that mediates liver hypertrophy. The resulting sufficiency network for induction of liver hypertrophy will have an immediate impact on the progress of toxicogenomics. When combined with phenotypic evaluation, our approach should help to unleash the full potential of siRNAs in systematically unveiling the molecular mechanisms of biological events. Keywords: Regulatory pathway discovery by In vivo transcription modification
+
+DESIGN
+Two different siRNAs targeting peroxisome proliferator-activated receptor a (Ppara), and two control siRNAs targeting secreted alkaline phosphatase (SEAP) and GL3 were delivered to the mouse liver by hydrodynamic tail vein injection . Four animals per group were treated 48 hours before livers were collected. RNAs were extracted and profiled on a custom-designed mouse oligonucleotide microarray with approximately 25,000 genes according to a published procedure. In total, the Ppara siRNA mouse expression profiles included eight profiles for the Ppara siRNAs targeted to two different fragments of the Ppara mRNA sequence, four profiles for the SEAP control siRNA, four profiles for the GL3 control siRNA, and eight profiles for a vehicle control (Ringer solution).
+
+PLATFORM
+GPL4696 Rosetta/Merck Mouse 25k v1.9 microarray
+
+CITATIONS
+17335344
+

@@ -1,0 +1,18 @@
+TITLE
+Cis-regulatory landscape of four cell types of the retina
+
+ORGANISM
+Mus musculus ; synthetic construct ; Adeno-associated virus
+
+SUMMARY
+The retina is composed of ~50 cell-types with specific functions for the process of vision. Identification of the cis-regulatory elements active in retinal cell-types is key to elucidate the networks controlling this diversity. Here, we combined transcriptome and epigenome profiling to map the regulatory landscape of four cell-types isolated from mouse retinas including rod and cone photoreceptors as well as rare inter-neuron populations such as horizontal and starburst amacrine cells.  Integration of this information reveals sequence determinants and candidate transcription factors for controlling cellular specialization. Additionally, we refined parallel reporter assays to enable studying the transcriptional activity of large collection of sequences in individual cell-types isolated from a tissue.  We provide proof of concept for this approach and its scalability by characterizing the transcriptional capacity of several hundred putative regulatory sequences within individual retinal cell-types. This generates a catalogue of cis-regulatory regions active in retinal cell types and we further demonstrate their utility as potential resource for cellular tagging and manipulation.
+
+DESIGN
+We generated genome-wide DNA methylation maps of four cell types isolated from mouse retina using FACS-sorting isolated from transgenic animals carrying markers for cones, rods, HCs and SBACs. We used this information to design libraries of candidate CRE (based on hypomethylation-LMRs) that were cloned into a parallelized transcriptional reporter construct (PRA) and packaged in adeno-associated viruses (AAVs) for batch delivery into mouse eyes. We measured the activity of hundreds of CREs in the four individual cell types. Samples originate from starburst amacrine cells, cones, rods, horizontal cells and whole retina.
+
+PLATFORM
+GPL16417 Illumina MiSeq (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL17769 Illumina MiSeq (synthetic construct) GPL22168 Illumina MiSeq (Adeno-associated virus) GPL22169 Illumina HiSeq 2500 (Adeno-associated virus)
+
+CITATIONS
+29059322
+

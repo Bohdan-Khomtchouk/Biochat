@@ -1,0 +1,18 @@
+TITLE
+Time-series of IL-6 stimulated primary mouse hepatocytes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+External stimulations of cells by hormones, growth factors or cytokines activate signal transduction pathways that subsequently induce a rearrangement of cellular gene expression. The representation and analysis of changes in the gene response is complicated, and essentially consists of multiple layered temporal responses. In such situations, matrix factorization techniques may provide efficient tools for the detailed temporal analysis. Related methods applied in bioinformatics intentionally do not take prior knowledge into account. In signal processing, factorization techniques incorporating data properties like second-order spatial and temporal structures have shown a robust performance. However, large-scale biological data rarely imply a natural order that allows the definition of an autocorrelation function. We therefore develop the concept of graph-autocorrelation. We encode prior knowledge like transcriptional regulation, protein interactions or metabolic pathways as a weighted directed graph. By linking features along this underlying graph, we introduce a partial ordering of the samples to define an autocorrelation function. Using this framework as constraint to the matrix factorization task allows us to set up the fast and robust graph decorrelation (GraDe) algorithm. To analyze the alterations in the gene response in IL-6 stimulated primary mouse hepatocytes by GraDe, a time-course microarray experiment was performed. Extracted gene expression profiles show that IL-6 activates genes involved in cell cycle progression and cell division in a time-resolved manner. On the contrary, genes linked to metabolic and apoptotic processes are down-regulated indicating that IL-6 mediated priming rendered hepatocytes more responsive towards cell proliferation and reduces expenses for the energy household.
+
+DESIGN
+Primary mouse hepatocytes were used in the analysis comprising stimulations with 1 nM IL-6 for 1 h, 2 h, 4 h and an unstimulated control (0 h), each performed in triplicate.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+21118515
+

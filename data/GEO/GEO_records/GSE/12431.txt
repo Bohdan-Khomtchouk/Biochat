@@ -1,0 +1,18 @@
+TITLE
+RNA exosome depletion reveals ubiquitous transcriptional activity upstream of active human promoters
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recent high-throughput transcriptome analyses have revealed that > 90% of all human DNA is transcribed. The vast majority of these transcripts are non-coding, thus challenging the classical definition of what constitutes a gene and, by association, a promoter. Adding to the complexity, short-lived transcripts have likely gone unnoticed. Here, we couple RNAi-depletion of one of the major RNA degradation activities, the human 3’-5’ exoribonucleolytic exosome with ENCODE microarrays tiling 1% of the human genome, to reveal a new class of short, polyadenylated and highly unstable transcripts. We name these RNAs PROMoter uPstream Transcripts (PROMPTs) due to their production at a restricted distance (0.5-2.5 kb) upstream active transcription start sites. Transcription of individual PROMPTs is bi-directional and detectable at the majority, if not all, active genes. PROMPT DNA bears hallmarks of transcription, including coverage by RNA polymerase II (RNAPII), H3K4me3, and H3K9ac. PROMPT expression requires the presence of the gene promoter and is positively correlated with gene activity. Remarkably, the transcription activity in a given PROMPT region is comparable to that of a similar region immediately downstream the promoter. Interestingly, stabilization of these new transcripts is particularly high in CpG-rich promoters. We propose that PROMPTs are common characteristics of RNAPII driven genes with an intrinsic regulatory potential.
+
+DESIGN
+Cell culture and RNAi-mediated knock-downs. HeLa cells were grown in DMEM medium supplemented with 10% fetal bovine serum at 37°C and 5% CO2. Transfections were done with 20 nM siRNA for 3 days and repeated for another 3 days both times using Lipofectamin20000 as transfecting agent according to the manufacturers instructions (Invitrogen). Double-stranded cDNA was generated from 20 μg of total RNA from eGFP and hRrp40 siRNA-treated cells using Invitrogens double-stranded cDNA synthesis kit and an anchored primer (T20VN). Labeling with Cy3 and Cy5, respectively, hybridization to ENCODE NimbleGen HG17 50mer 39K tiling arrays (catalog number C1980001), analysis of primary data and identification of peaks were all paid services by Roche NimbleGen.
+
+PLATFORM
+GPL7161 ENCODE NimbleGen HG17 50mer 390K tiling array (catalog number C1980001)
+
+CITATIONS
+19056938
+

@@ -1,0 +1,18 @@
+TITLE
+Cistrome profiles of Retinoids x Receptor alpha (RXRα) , Retinoic Acid Receptor alpha (RARα), and Retinoic Acid Receptor beta (RARβ) in livers of mice treated by control and retionic acid-containing diet
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Comparison between ChIP-Seq data of RARα and RARβ, between RAR and RXR, as well as between control and retinoic acid-treatment for each investigated nuclear receptors.
+
+DESIGN
+Mouse were treated by control diet and RA-diet for 1 days. After treatment, livers were used to do ChIP using antibodies of RXRα, RARα, and RARβ. An aliquote of total chromatin without pull-down process by any antibodies was used as input control. A single-end read of 35bp sequencing was performed on each of ChIPed DNA and input.   Sequencing data of RARα and RARβ were compared to each other. In addtional, each of RARα and RARβ data were compared with RXRα data. For each nuclear receptor,  ChIP-Seq data prior or after RA-treatment were also compared with each other.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+23981290
+

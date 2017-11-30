@@ -1,0 +1,18 @@
+TITLE
+Nascent-seq indicates widespread cotranscriptional RNA editing in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The RNA editing enzyme ADAR chemically modifies adenosine (A) to inosine (I), which is interpreted by the ribosome as a guanosine. Here we assess cotranscriptional A-to-I editing in Drosophila, by isolating nascent RNA from adult fly heads and subjecting samples to high-throughput sequencing. There are a large number of edited sites within nascent exons. Nascent RNA from an ADAR null mutant strain was also sequenced, indicating that almost all A-to-I events require ADAR. Moreover, mRNA editing levels correlate with editing levels within the cognate nascent RNA sequence, indicating that the extent of editing is set cotranscriptionally. Surprisingly, the nascent data also identify an excess of intronic over exonic editing sites. These intronic sites occur preferentially within introns that are poorly spliced cotranscriptionally, suggesting a link between editing and splicing. We conclude that ADAR-mediated editing is more widespread than previously indicated and largely occurs cotranscriptionally.
+
+DESIGN
+GSM914095: Fly genomic DNA sequencing. Sequenced on the Illumina GA II. GSM914102-GSM914113: Fly head nascent RNA profiles over 6 time points of a 12hr light:dark cycle in duplicate; sequenced on the Illumina GA II. GSM914114-GSM914119: Fly head nascent RNA profiles of yw, FM7, ADAR0 males in duplicate; sequenced on the HiSeq2000. GSM915213-GSM915214: Fly head mRNA profiles over 2 time points of a 12hr light:dark cycle; sequenced on the Illumina GA II. GSM915215-GSM915220: Fly head mRNA profiles over 6 time points of a 12hr light:dark cycle; paired-end sequenced on the Illumina GA II. GSM915221-GSM91526: Fly head mRNA profiles over 6 time points of a 12hr light:dark cycle; sequenced on the Illumina GA II.
+
+PLATFORM
+GPL9061 Illumina Genome Analyzer II (Drosophila melanogaster) GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+22658416
+

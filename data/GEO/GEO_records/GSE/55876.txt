@@ -1,0 +1,18 @@
+TITLE
+The synthetic glucocorticoids prednisolone and dexamethasone regulate the same genes in acute lymphoblastic leukemia cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Glucocorticoids (GCs) cause apoptosis in malignant cells of lymphoid lineage by transcriptionally regulating a plethora of genes.  As a result, GCs are included in almost all treatment protocols for lymphoid malignancies, particularly childhood acute lymphoblastic leukemia (chALL). The most commonly used synthetic GCs in the clinical setting are prednisolone and dexamethasone. While the latter has a higher activity and more effectively reduces the tumor load in patients, it is also accompanied by more serious adverse effects than the former. Whether this difference might be explained by regulation of different genes by the two GCs has never been addressed. Results: Using a recently developed GC bioassay based on a GC-responsive reporter construct in human Jurkat T-ALL cells, we found ~7-fold higher biological activity with dexamethasone than prednisolone. Similarly, 1.0e-7M dexamethasone and 7.0e-7M prednisolone triggered similar cell death rates in CCRF-CEM-C7H2 T-chALL cells after 72 hours of treatment. Using microarray-based whole genome expression profiling and a variety of statistical and other approaches, we compared the transcriptional response of chALL cells to 6 hour exposure to both synthetic GCs at the above concentrations. Our experiments did not detect any gene whose regulation by dexamethasone differed significantly from that by prednisolone. Conclusions: Our findings suggest that the reported differences in treatment efficacy and cytotoxicity of dexamethasone and prednisolone are not caused by inherent differences of the 2 drugs to regulate the expression of certain genes, but rather result either from applying them in biologically in-equivalent concentrations and/or from differences in their pharmacokinetics and - dynamics resulting in different bioactivities in tumor cells and normal tissues. Additional microarray data set with RNA from CCRF-CEM-C7H2 cells treated with 1.0e-7M dexamethasone, 4.0 and 8.0 e-6M Solu-dacortin (prednisolone 21-(sodium succinate), a water soluble prednisolone) and 0.1% ethanol.
+
+DESIGN
+CCRF-CEM-C7H2 childhood T-ALL cells were treated with 1.0e-7M dexamethasone (DEX), 4.0 and 8.0 e-6M Solu-dacortin (SD, prednisolone 21-(sodium succinate), a water soluble prednisolone) or 0.1% ethanol (empty carrier control) in three independent experiments. RNA was extracted after 6 hours of treatment and subjected to gene expression profiling using Affymetrix HuGene 1.0 ST microarrays. Differences in transcriptional responses was determined by comparing DEX against SD treated samples, GC-regulated genes for each synthetic GC by comparing DEX or SD against ethanol treated samples. Significance for differential regulation or expression was determined using the moderated t-test from Bioconductor's limma package. Resulting p-values were adjusted for multiple hypothesis testing using the method from Benjamini and Hochberg.
+
+PLATFORM
+GPL18412 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [custom CDF: hugene10stv1_74_030.cdf]
+
+CITATIONS
+25103118
+

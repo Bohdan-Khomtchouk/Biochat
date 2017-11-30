@@ -1,0 +1,18 @@
+TITLE
+GAGA Factor maintains promoters in nucleosome-free conformation and allows promoter-proximal pausing [GRO-seq]
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Promoter-proximal pausing of RNA polymerase II (Pol II) is a widespread in higher eukaryotes. Previous studies have shown that GAF is enriched at paused genes, but the role of GAF in pausing has not been well characterized on a genome-wide level. To investigate the role of GAF in pausing, we RNAi-depleted GAF from Drosophila S2 cells, and examined the effects on promoter-proximal polymerase. We confirmed the importance of GAF for pausing on the classic pause model gene Hsp70. To determine the dependence of pausing on GAF genome-wide, we assayed the levels of transcriptionally-engaged polymerase genome-wide using GRO-seq in control and GAF-RNAi cells. We found that promoter-proximal polymerase was significantly reduced on a subset of paused genes with GAF-bound promoters. There is a dramatic change in nucleosome distribution at genes with reduction in pausing upon GAF depletion and intergenic GAF binding sites in GAF knock-down, suggesting that GAF allows the establishment of pausing at these genes by directing nucleosome displacement off of the promoter. In addition, the insulator factor BEAF, BEAF-interacting protein Chriz, and transcription M1BP enrichment on unaffected genes suggests that redundant transcription factors or insulators protect other GAF-bound paused genes from GAF knock-down effects.
+
+DESIGN
+Two biological replicates of nascent RNA sequencing using GROseq to map transcriptionally-engaged RNA polymerases in untreated, LacZ-RNAi (control), and GAGA factor-RNAi.
+
+PLATFORM
+GPL9058 Illumina Genome Analyzer (Drosophila melanogaster)
+
+CITATIONS
+25815464
+

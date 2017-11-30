@@ -1,0 +1,18 @@
+TITLE
+Quinacrine Overcomes Resistance to Erlotinib by Inhibiting FACT, Nuclear Factor-kappa B and Cell Cycle Progression in Non-Small Cell Lung Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Erlotinib is a tyrosine kinase inhibitor (TKI) that is approved as a second-line monotherapy in patients with advanced non-small cell lung cancer (NSCLC). In these patients, erlotinib prolongs survival but its benefit remains modest since many tumors express wild-type EGF receptor (wtEGFR) lacking a TKI-sensitizing mutation, develop a second-site EGFR mutation, e.g., EGFR-L858R/T790M, or activate an alternate receptor tyrosine kinase, e.g., through MET amplification. To test potential drug combinations that could improve the efficacy of erlotinib, we combined erlotinib with quinacrine, which inhibits the FACT (facilitates chromatin transcription) complex that is required for nuclear factor-κB (NF-κB) transcriptional activity. In A549 (wtEGFR), H1975 (EGFR-L858R/T790M) and H1993 (MET amplification) NSCLC cells, the combination of erlotinib and quinacrine was highly synergistic, as quantified by Chou-Talalay combination indices. The combination inhibited colony formation, induced cell cycle arrest and apoptosis, and slowed xenograft tumor growth. Quinacrine decreased the level of active FACT subunit SSRP1 and suppressed NF-κB-dependent luciferase activity. Knockdown of SSRP1 decreased cell growth and sensitized cells to erlotinib. Transcriptomic profiling showed that quinacrine, alone or in combination with erlotinib, significantly affected cell cycle-related genes that contain binding sites for transcription factors that regulate SSRP1 target genes. As potential biomarkers of drug synergy, we identified genes that were more strongly suppressed by the combination than by either single treatment, and whose increased expression predicted poorer survival in lung adenocarcinoma patients. Combination of quinacrine and erlotinib is synergistic in NSCLC through suppression of FACT, resulting in inhibition of cell cycle progression.
+
+DESIGN
+RNA was isolated from cells treated with 1 μM erlotinib, 3 μM or 5 μM quinacrine or a combination of both for 6, 12, 24, or 48 h using the RNeasy Mini Kit (QIAGEN) according to the manufacturer’s instructions. Microarray analysis was performed using the Affymetrix Human Gene 2.1 ST Array at the Gene Expression & Genotyping Core Facility at Case Comprehensive Cancer Center. Raw CEL files were pre-processed using the Affymetrix Expression Console Software 1.30 with Robust Multi-array Average (RMA) normalization (background correction, quantile normalization and log2 transformation). Probes were annotated using the HuGene 2.1 st hg19 probeset annotation files downloaded from the Affymetrix website.
+
+PLATFORM
+GPL17692 [HuGene-2_1-st] Affymetrix Human Gene 2.1 ST Array [transcript (gene) version]
+
+CITATIONS
+25028470
+

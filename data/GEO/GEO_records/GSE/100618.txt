@@ -1,0 +1,18 @@
+TITLE
+Single Cell RNA sequencing analysis of human haemopoietic lympho-myeloid progenitor populations (LMPP, MLP and GMP)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We performed single cell RNA sequencing of human haemopoietic lympho-myeloid progenitors with the aim to separate functionally and transcriptionally distinct progenitors within the heterogeneous GMP, LMPP and MLP populations. We performed RNA sequencing in a total of 415 single cells. From donors 1 (CB369) and 2 (CB431), 163/166 and 157/249 cells passed quality control.We further analysed the 320 single cells that passed quality control from two  different donors (157 and 163 from each donor; 91 LMPP, 110 MLP and 119 GMP). We performed clustering using Seurat package, which identified 3 clusters of cells.  We identified genes that were differentially expressed among cells of the different clusters. The majority of the cells in cluster 1 were MLP, the majority of cluster 3 were GMP while cluster comprised of LMPP and GMP cells. Cluster 1 showed high expression of lymphoid-affiliated genes. Conversely, cluster 3 showed increased expression of myeloid genes, while cluster 2 showed a mixed transcriptional signature. PCA analysis revealed a transcriptional continuum of LMPP, MLP and GMP populations.
+
+DESIGN
+Transcriptional heterogeneity of LMPP, MLP and GMP human lymphomyeloid progenitors at the single cell level.
+
+PLATFORM
+GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

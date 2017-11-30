@@ -1,0 +1,18 @@
+TITLE
+Expression data from wildtype and mec-3 mutant PVD/OLL sensory neurons in C. elegans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Nociceptive neurons develop a complex dendritic arbor to sense noxious stimuli, which enables animals to react to environmental insults and perform self-protective behaviours. The genetic programs controlling neuronal dendritic morphogenesis are poorly understood. In C. elegans, the PVD sensory neuron generates a complex dendritic arbor that envelops the body of the animal. This nociceptive neuron enables study of dendrite formation in vivo. MEC-3 is a transcription factor expressed in the PVD neuron (Chatzigeorgiou et al., 2010; Li et al., 2011; Way and Chalfie, 1989). mec-  3 mutant PVD neurons fail to elaborate lateral branches and show defective function  (Smith et al., 2010; Tsalik et al., 2003) (Husson et al., 2012).
+
+DESIGN
+We used tiling arrays to identify genes regulated by the mec-3 transcription factor in PVD sensory neurons.  We employ the mRNA-tagging method to isolate poly(A) RNA from the PVD and OLL neurons in wildtype and mec-3 mutants (3 replicates each) by expressing a 3X FLAG-tagged poly(A) binding protein PAB-1 in PVD and OLL under control of the ser-2prom3B promoter. The enriched poly(A) RNA is amplified using the NuGEN WT-Pico amplification system and applied to Affymetrix C. elegans tiling microarrays. Whole animal reference samples were obtained by isolating total RNA at the L2/L3 stages in wildtype and mec-3 mutants (2 replicates each) and processed as above.
+
+PLATFORM
+GPL17100 [Ce25b_MR] Affymetrix C. elegans Tiling 1.0R Array [custom CDF Ce25b_MR_v02]
+
+CITATIONS
+23889932
+

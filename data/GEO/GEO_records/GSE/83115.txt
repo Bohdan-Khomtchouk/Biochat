@@ -1,0 +1,18 @@
+TITLE
+Identification of Tissue-Specific Protein-Coding and Noncoding Transcripts across 14 Human Tissues Using RNA-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Many diseases and adverse drug reactions exhibit tissue specificity. To better understand the tissue-specific expression characteristics of transcripts in different human tissues, we deeply sequenced RNA samples from 14 different human tissues. After filtering many lowly expressed transcripts, 24,729 protein-coding transcripts and 1,653 noncoding transcripts were identified. By analyzing highly expressed tissue-specific protein-coding transcripts (TSCTs) and noncoding transcripts (TSNTs), we found that testis expressed the highest numbers of TSCTs and TSNTs. Brain, monocytes, ovary, and heart expressed more TSCTs than the rest tissues, whereas brain, placenta, heart, and monocytes expressed more TSNTs than other tissues. Co-expression network constructed based on the TSCTs and TSNTs showed that each hub TSNT was co-expressed with several TSCTs, allowing functional annotation of TSNTs. Important biological processes and KEGG pathways highly related to the specific functions or diseases of each tissue were enriched with the corresponding TSCTs. These TSCTs and TSNTs may participate in the tissue-specific physiological or pathological processes. Our study provided a unique data set and systematic analysis of expression characteristics and functions of both TSCTs and TSNTs based on 14 distinct human tissues, and could facilitate future investigation of the mechanisms behind tissue-specific diseases and adverse drug reactions.
+
+DESIGN
+Identification of Tissue-Specific Transcripts across 14 Human Tissues Using RNA-seq
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL15456 Illumina HiScanSQ (Homo sapiens)
+
+CITATIONS
+27329541
+

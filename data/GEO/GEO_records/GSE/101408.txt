@@ -1,0 +1,18 @@
+TITLE
+Identification of cis-regulatory mutations generating de novo edges in personalized cancer gene regulatory networks
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The identification of functional non-coding mutations is a key challenge in the field of genomics, where whole-genome re-sequencing can swiftly generate a set of all genomic variants in a sample, such as a tumor biopsy. The size of the human regulatory landscape places a challenge on finding recurrent cis-regulatory mutations across samples of the same cancer type. Therefore, powerful computational approaches are required to sift through the tens of thousands of non-coding variants, to identify potentially functional variants that have an impact on the gene expression profile of the sample. Here we introduce an integrative analysis pipeline, called μ-cisTarget, to filter, annotate and prioritize non-coding variants based on their putative effect on the underlying 'personal' gene regulatory network. We first validate μ-cisTarget by re-analyzing three cases of oncogenic non-coding mutations, namely the TAL1 and LMO1 enhancer mutations in T-ALL, and the TERT promoter mutation in melanoma. Next, we re-sequenced the full genome of ten cancer cell lines of six different cancer types, and used matched transcriptome data and motif discovery to infer master regulators for each sample. We identified candidate functional non-coding mutations that generate de novo binding sites for these master regulators, and that result in the up-regulation of nearby oncogenic drivers. We finally validated the predictions using tertiary data including matched epigenome data. Our approach is generally applicable to re-sequenced cancer genomes, or other genomes, when a disease- or sample-specific gene signature is available for network inference. μ-cisTarget is available from http://mucistarget.aertslab.org.
+
+DESIGN
+Validation of predicted gain of function non-coding mutations in cancer cell lines, using ChIP against the chromatin marker H3K27ac. In this study, H3K27ac ChIP-seq experiments were performed on 4 cell lines (OVCAR-3, SKOV-3, DU-145, Colo-205).
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28854983
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data from three human cancer cell lines (PC-3, SK-OV-3, WM793B) exposed to  experimental cycling and chronic hypoxa in vitro
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+One of the most important features of tumor microenvironment, imposing adverse effect on patient prognosis, is low oxygen tension. There are two types of hypoxia that may occur within tumor mass: chronic and cycling. Preliminary studies point at cycling hypoxia as being more relevant in induction of aggressive phenotype of tumor cells and radioresistance though little is known about the molecular mechanism of this phenomenon. Analysis of gene expression profile of human prostate (PC-3), ovarian (SK-OV-3) and melanoma (WM793B) cancer cells to expermental cycling (interchanging conditions of 1% and 21% oxygen) or chronic (1% oxygen) for 72 hours. Gene expression profiles were analyzed using U133 Plus 2.0 Array (Affymetrix) oligonucleotide microarrays. Data analysis revealed that globally gene expression profiles induced by the two types of hypoxia are similar and they strongly depend on the cell type.However, cycling hypoxia changes expression of lower number of genes in comparison to chronic one ( 3767 vs. 5954 probesets (p < 0.001)) and to lower extent (lower fold changes). Analysis of hypoxia-regulated gene lists obtained using  Random Variance Model t-test  identified 253 probe sets (FC > 2, p < 0.001) common to all three cell lines, though no universal (changed throughout all analyzed cell lines) genes specifically influanced only by cycling hypoxia was selected. On the other hand, we identified such genes within particular one or two cell lines. Among them those related with EGF pathway seemed to be overrepresented (i.e. EPHA2, AREG, and HBEGF) and together with PLAU and IL-8 were mostly validated by Q-PCR.
+
+DESIGN
+We investigated transcriptional activity of prostate and ovarian cancer cells as well as melanoma cells cultured for 72h under chronic hypoxic (nominal 1% oxygen; 3 experimental samples for each cell type), cycling hypoxia (interchanging periods of nominal 1% and 21% oxygen; 3 samples for each line) and control conditions (21% oxygen; 3 samples for each cell lines).
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25122487
+

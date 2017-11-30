@@ -1,0 +1,18 @@
+TITLE
+Deep sequencing reveals cell-type specific patterns of single cell transcriptome variation
+
+ORGANISM
+Mus musculus ; Rattus norvegicus
+
+SUMMARY
+We present high quality deep read-depth single cell RNA sequencing for 91 cells from five mouse tissues and 18 cells from two rat tissues, along with 30 control samples of bulk RNA diluted to single-cell levels. We find that transcriptomes differ globally across tissues with regard to the number of genes expressed, the average expression patterns, and within cell-type variation patterns. We develop methods to filter genes for reliable quantification and to calibrate biological variation. All cell types include genes with high variability in expression, in a tissue-specific manner. We also find evidence that single cell variability of neuronal genes in mice is correlated with that in rats consistent with the hypothesis that levels of variation may be conserved.
+
+DESIGN
+From an initial 143 cells we identified 107 high quality samples with deep genic coverage, including 13 brown adipocytes, 19 cardiomyocytes, 19 cortical pyramidal neurons and 18 hippocampal pyramidal neurons from embryonic mouse, 8 cortical pyramidal neurons and 8 hippocampal pyramidal neurons from embryonic rat, and 22 serotonergic neurons from adult mouse. While mouse data is collected from three strains of mice at different ages, each cell type dataset is internally consistent. There are no technical replicates of single-cell samples. We additionally prepared 30 control samples, amplifications of bulk total cardiomyocyte RNA diluted to single cell quantities.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL14844 Illumina HiSeq 2000 (Rattus norvegicus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26056000
+

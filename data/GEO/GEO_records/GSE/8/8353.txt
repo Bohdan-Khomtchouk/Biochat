@@ -1,9 +1,0 @@
-TITLE
-A Mathematical Model for Affymetrix GeneChip Probe Level Data
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-Affymetrix GeneChip PM-MM probe pair is designed with the intension of measuring non-specific binding. Though the rationale behind the design id that a PM probe is expected to have a larger value than that of the MM probe, there are many exceptions in actual data.  We gave an explanation for this inconsistency based on the assumption of functional states of a gene ‘ON/OFF’. Our hypothesis on PM-MM probe pairs is that the logarithmic of PM and MM values have the same distribution when gene is in OFF state. It means that the probability of MM > PM is expected to be equal to that of MM < PM for OFF genes. The validity of the hypothesis was given by inter-platform comparisons using common targets among three different types of platforms. Keywords: Affymetrix Gene Chip; Binomial distribution; Mathematical modeling; Oligonucleotide microarray; ON/OFF genes
-

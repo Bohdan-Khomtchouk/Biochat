@@ -1,0 +1,18 @@
+TITLE
+Ribozyme-enhanced single-stranded Ago2-processed interfering RNA triggers efficient gene silencing with fewer off-target effects.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA interference (RNAi) is an evolutionarily conserved phenomenon of post-transcriptional gene silencing mediated by small interfering RNAs (siRNAs) generated from short hairpin RNAs (shRNAs) by Dicer cleavage. Here, we report that siRNA precursors can be divided into two categories with different processing mechanisms and silencing activities that are dependent on stem loop length. We designed an alternative siRNA precursor for triggering RNAi named single-stranded Argonaute2 (Ago2)-processed interfering RNA (saiRNA). saiRNA is composed of a 16-18 bp stem and a loop complementary to the target transcript. The introduction of a self-cleavage ribozyme derived from hepatitis delta virus (HDV) to the 3’ end of the saiRNA dramatically improved its silencing activity. Unlike classical shRNA, the strand-specific cleavage of saiRNA by Ago2 during its processing not only eliminated the passenger strand but also avoided the association of mature siRNA with non-nucleolytic Ago proteins, thereby further reducing the risk of off-target effects. Additionally, saiRNA exhibited less competition with the biogenesis of endogenous miRNAs. Therefore, HDV ribozyme-enhanced saiRNA provides a reliable tool for RNAi applications.
+
+DESIGN
+A total of 400 ng plasmids of control, shRNA, shRNA-LC, saiRNA-RZ were transiently transfected into HEK293 cells in a 6-well plate for 48 hr. For RNA-seq, total cellular RNA was extracted to construct a cDNA library using the NEBNext Ultra Directional RNA Library Prep Kit (NEB) according to the manufacturer’s protocol. The cDNA libraries were sequenced using Illumina Hi-seq 2000 with 2 × 100 running circles. For small-RNA seq, total cellular RNA was extracted to construct a small RNA library according to the Illumina protocol,  and cDNA libraries was sequencing by Hi-seq 2000 with 50 running circles.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26455506
+

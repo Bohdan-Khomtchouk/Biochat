@@ -1,0 +1,18 @@
+TITLE
+mRNA profiling of wildtype, germline depleted, NMD mutant C. elegans whole worms and wildtype dissected gonads
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Adjacent alternative 3’ splice sites, those separated by ≤18nt, provide a unique problem in the study of alternative splicing regulation; there is overlap of the cis-elements that define the adjacent sites.  Identification of the intron's 3' end depends upon sequence elements that define the branchpoint, polypyrimidine tract and terminal AG dinucleotide.  Starting with RNA-seq data from germline-enriched and somatic cell-enriched C. elegans samples, we identify hundreds of introns with adjacent alternative 3’ splice sites.  We identify 203 events that undergo tissue-specific alternative splicing. For these, the regulation is mono-directional, with somatic cells preferring to splice at the distal 3' splice site and germline cells showing a distinct shift towards usage of the adjacent proximal 3' splice site.  Splicing patterns in somatic cells follow consensus rules of 3’ splice site definition, using sites with a short stretch of pyrimidines and an AG dinucleotide.  Splicing in germline cells occurs at proximal 3' splice sites that frequently lack a polypyrimidine tract or, occasionally, the AG dinucleotide.  We provide evidence that use of germline-specific proximal 3' splice sites is conserved across Caenorhabditis species.  We propose that divergent mechanisms exist between germline and somatic cells in determining an intron terminus at adjacent alternative 3’ splice sites.
+
+DESIGN
+Examination of alternative splicing changes between germline- and somatic-cell enriched samples as well as nonsense-mediated decay mutants.
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+25922281
+

@@ -1,0 +1,18 @@
+TITLE
+Thiol-linked alkylation for the metabolic sequencing of RNA [SLAM-seq pulse/chase labeling in wildtype mES cells]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Gene expression profiling by high-throughput sequencing reveals qualitative and quantitative changes in RNA species at steady-state but obscures the intracellular dynamics of RNA transcription, processing and decay. We developed thiol(SH)-linked alkylation for the metabolic sequencing of RNA (SLAM-seq), an orthogonal chemistry-based epitranscriptomics-sequencing technology that uncovers 4-thiouridine (s4U)-incorporation in RNA species at single-nucleotide resolution. In combination with well-established metabolic RNA labeling protocols and coupled to standard, low-input, high-throughput RNA sequencing methods, SLAM-seq enables rapid access to RNA polymerase II-dependent gene expression dynamics in the context of total RNA. When applied to mouse embryonic stem cells, SLAM-seq provides global and transcript-specific insights into pluripotency-associated gene expression. We validated the method by showing that the RNA-polymerase II-dependent transcriptional output scales with Oct4/Sox2/Nanog-defined enhancer activity; and provides quantitative and mechanistic evidence for transcript-specific RNA turnover mediated by post-transcriptional gene regulatory pathways initiated by microRNAs and N6-methyladenosine. SLAM-seq facilitates the dissection of fundamental mechanisms that control gene expression in an accessible, cost-effective, and scalable manner.
+
+DESIGN
+Wildtype mouse embryonic stem cells (mES cells) were subjected to s4U metabolic RNA labeling for 24 h (pulse, 100 µM s4U), followed by washout (chase) using non-thiol-containing uridine. Total RNA was prepared at various time points along the chase (0h, 0.5h, 1h, 3h, 6h, 12h, and 24h). Total RNA was then subjected to alkylation and mRNA 3ʹ end sequencing library preparation (QuantSeq, Lexogen).
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28945705
+

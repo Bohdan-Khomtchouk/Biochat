@@ -1,0 +1,18 @@
+TITLE
+Comparison of whole-genome bisulfite sequencing library preparation strategies identifies sources of biases affecting DNA methylation data
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We performed a parallel analysis of commonly used pre- and post-bisulfite WGBS library preparation protocols for their performance and quality of sequencing outputs. Our results show that bisulfite conversion per se generates pronounced sequencing biases, and subsequent fragmentation and amplification steps lead to several-fold overrepresentation of these artefacts. Standard pre-bisulfite library preparation methods lead to a significantly biased genomic sequence representation and a marked overestimation of methylation levels. We have integrated a bias diagnostic tool in the Bismark package and propose that amplification-free and post-bisulfite procedures should become the gold standard for WGBS library preparation.
+
+DESIGN
+WGBS (BS-seq) was performed on unmethylated or in vitro methylated triple-Dnmt-KO (TKO) mouse embryonic stem cells with two bisulfite conversion protocols - with either alkaline or heat denaturation. MeDIP input was used as a non-bisulfute converted genomic DNA control.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

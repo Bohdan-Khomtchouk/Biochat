@@ -1,0 +1,18 @@
+TITLE
+Integrative genomics positions MKRN1 as a novel ribonucleoprotein within the embryonic stem cell gene regulatory network [RIP-chip]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In embryonic stem cell (ESCs), gene regulatory networks (GRNs) coordinate gene expression to maintain ESC identity; however, the complete repertoire of factors that regulate the ESC state are not fully understood. Our previous temporal microarray analysis of ESC commitment identified the E3 Ubiquitin Ligase Protein Makorin-1 (MKRN1) as a potential novel component of the ESC GRN. Here, using multilayered systems-level analyses we compiled a MKRN1-centered interactome in undifferentiated ESCs at the proteomic and ribonomic level. Proteomic analyses revealed that MKRN1 is a novel RNA-binding protein that exists within messenger ribonucleoprotein (mRNP) complexes in undifferentiated ESC populations. In accordance with its presence in mRNPs, MKRN1 is mobilized to stress granules (SG) upon arsenite-induced stress, yet MKRN1 is not required for SG formation. RIP-chip analysis revealed that MKRN1 associates with mRNAs encoding functionally related regulatory proteins involved in diverse processes such as cell differentiation, apoptosis, or secreted proteins. Thus, our unbiased systems level analyses supports a role for MKRN1 as a novel RNA-binding protein and a potential gene regulatory protein within the ESC GRN.
+
+DESIGN
+Five samples are included from this single ribonucleoprotein immunoprecipitation (RIP) experiment. Total (Input) or Immunoprecipitated (RIP) RNA was derived from mouse R1 embryonic stem cell (ESC) clones constitutively expressing either the pCAGGS::FLAG:MKRN1 fusion protein (FLAG:MKRN1) or the pCAGGS::FLAG:Ctrl construct (FLAG:Ctrl); the latter was used as a control lysate to identify background from anti-FLAG immunoprecipitation. Total (Input) RNA was harvested from an aliquot of FLAG:MKRN1 and FLAG:Ctrl ESC lysates taken prior to initiating the immunoprecipitation step. RIP RNA was obtained from FLAG:MKRN1 and FLAG:Ctrl ESC lysates following immunoprecipitation with anti-FLAG or anti-IgG antibodies. Sample 1: Input FLAG Control - total RNA obtained from bulk FLAG:Ctrl ESC lysates prior to RNA immunoprecipitation.  Sample 2: Input FLAG MKRN1 - total RNA obrtained from bulk FLAG:MKRN1 ESC lysates prior to RIP. Sample 3: anti-FLAG RIP FLAG Control - Immunoprecipitated RNA resulting from FLAG immunoprecipitation from bulk FLAG:Ctrl ESC lysates. This control sample indicates background RNA that is immunoprecipitated with FLAG antibodies from ESC lysates that do not express the FLAG:MKRN1 fusion protein. Sample 4: anti-FLAG RIP FLAG MKRN1 - immunoprecipitated RNA resulting from FLAG immunoprecipitation of FLAG:MKRN1 fusing protein from FLAG:MKRN1 ESC lysates. This sample represents the treatment group. Sample 5: anti-IgG RIP FLAG MKRN1 - Immunoprecipitated RNA resulting from immunoprecipitation with IgG control antibodies from FLAG:MKRN1 ESC lysates. This control sample indicates background RNA that is immunoprecipitated with IgG and beads from the FLAG:MKRN1 ESC lysate.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+26265008
+

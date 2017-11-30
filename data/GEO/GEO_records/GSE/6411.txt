@@ -1,0 +1,18 @@
+TITLE
+HP1 controls genomic targeting of four novel heterochromatin proteins in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Heterochromatin is important for the maintenance of genome stability and regulation of gene expression, yet our knowledge of heterochromatin structure and function is incomplete. We identified four novel Drosophila heterochromatin proteins. Three of these proteins (HP3, HP4, and HP5) interact directly with HP1, while HP6 in turn binds to each of these three proteins. Immunofluorescence microscopy and genome-wide mapping of in vivo binding sites shows that all four proteins are components of heterochromatin.  Depletion of HP1 causes redistribution of all four proteins, indicating that HP1 is essential for their heterochromatic targeting. Finally, mutants of HP4 and HP5 are dominant suppressors of position effect variegation, demonstrating their importance in heterochromatic gene silencing. These results indicate that HP1 acts as a docking platform for several mediator proteins that contribute to heterochromatin function. Keywords: DamID knock-down
+
+DESIGN
+DamID is based on the in vivo expression of a chimaeric protein consisting of a chromatin protein of interest fused to E. coli DNA adenine methyltransferase (Dam). Expression of low amounts of this fusion protein leads to preferential adenine methylation of DNA in the vicinity of native binding sites of the chromatin protein. Subsequently, adenine-methylated DNA fragments are isolated, labeled with a fluorescent dye, and hybridized to a microarray. Genomic binding sites of the protein can then be identified based on the methylation pattern. To correct for nonspecific binding of Dam, methylated DNA fragments from cells transfected with Dam alone served as a reference, and binding data are expressed as Dam-fusion:Dam methylation ratios. We performed DamID on heterochromatin proteins HP1 and Su(var)3-9. In addition we performed DamID on four interaction partners identified by Giot et al. (2003) that were previously unknown to be heterochromatin proteins (we named these HP3, HP4, HP5 and HP6). As a control non-heterochromatin protein we mapped the transcription factor Jra. The novel heterochromatin proteins HP3 and HP6 were also mapped after knock-down of HP1 and after knock-down of the white gene (as a control).
+
+PLATFORM
+GPL1908 FHCRC Fly 12K v1.0
+
+CITATIONS
+17255947
+

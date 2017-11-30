@@ -1,0 +1,18 @@
+TITLE
+SONAR discovers RNA binding proteins from analysis of large-scale protein-protein interactomes.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA metabolism is controlled by an expanding yet incomplete catalog of RNA binding proteins (RBPs), many of which lack characterized RNA binding domains. Approaches to expand the RBP repertoire to discover non-canonical RBPs are currently needed. Here, HaloTag fusion pull-down of twelve nuclear and cytoplasmic RBPs followed by quantitative mass-spectrometry (MS) demonstrates that proteins interacting with multiple RBPs in an RNA-dependent manner are enriched for RBPs. This motivated SONAR, a computational approach that predicts RNA binding activity by analyzing large-scale affinity precipitation-MS protein-protein interactomes. Without relying on sequence or structure information, SONAR identifies 1923 human, 489 fly and 745 yeast RBPs, including over 100 human candidate RBPs that contain zinc finger domains. Enhanced CLIP confirms RNA binding activity and identifies transcriptome-wide RNA binding sites for SONAR-predicted RBPs, revealing unexpected RNA binding activity for disease-relevant proteins and DNA binding proteins.
+
+DESIGN
+eCLIP-seq was performed in biological replicate for AIFM1, NUMA1, RANGAP1, RNF219, VIM, ZNF184. Each sample has a size-matched input control for analysis
+
+PLATFORM
+GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+27720645
+

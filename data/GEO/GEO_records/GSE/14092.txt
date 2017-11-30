@@ -1,0 +1,18 @@
+TITLE
+An Integrated Network of Androgen Receptor and TMPRSS2-ERG Gene Fusion in Prostate Cancer Progression (II)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Androgen receptor (AR) is a transcription factor that plays a central role in the growth and development of the normal prostate and its malignant transformation.  More recently, a majority of prostate cancers have been shown to harbor recurrent gene fusions of the androgen-regulated gene, TMPRSS2, to the oncogenic ETS transcription factor ERG.  Here we employed chromatin immunoprecipitation coupled to massively parallel sequencing (ChIP-Seq) to explore the genome-wide localization of these transcription factors in human prostate cancer cell lines as well as tissues.  Unexpectedly, transcriptional networks emanating from AR and ERG were found to be highly overlapping.  Furthermore, AR was found to regulate known 5’ fusion partners in prostate cancer including TMPRSS2, as well as negatively regulating its own expression.  While induced by androgen through fusion to TMPRSS2, ERG itself was shown to inhibit AR expression and positively regulate the genomic locus of wild-type ERG, thus revealing multiple levels of molecular cross-talk between AR and ERG.  Importantly, androgen-sensitive prostate cancer cells in which ERG is overexpressed are able to proliferate and invade in the absence of androgen.  Thus, we dissected the intertwined genomic landscape of two master transcriptional regulators of prostate cancer and suggest a role for ERG in maintaining transcriptional networks necessary for androgen-independent prostate cancer growth.  These studies may suggest that future therapies against prostate cancer should target both AR and ERG, rather than AR alone, in order to achieve maximum effectiveness.
+
+DESIGN
+ChIP_Seq examination of histone modifications and key transcription factors in LNCaP and VCaP prostate cancer cell lines in un-treated, vehicle treated or 10nM R1881 treated conditions. LNCaP ChIP-Seq experiments include samples GSM353609-GSM353618, GSM353625-GSM353628, GSM353633-GSM353635, GSM353641-GSM353644, and GSM353648. VCaP ChIP-Seq experiments include samples GSM353601-GSM353608, GSM353619-GSM353624, GSM353629-GSM353632, and GSM353645-GSM353647. In addition, we performed re-ChIP of AR and ERG in VCaP cells (GSM356767), and examined the effect of ERG knockdown on AR and ERG binding (samples GSM353636-GSM353639). To study ectopic ERG binding we performed ERG ChIP-Seq in stable RWPE+ERG or control cells (samples GSM353649-GSM353650). AR ChIP-Seq was also done in the AR-positive but ETS fusion-negative 22RV1 cells (GSM353640). To further study transcription factor binding and chromatin state we performed ChIP-Seq of AR, ERG, H3K4me3, H3K9me3, H3K27me3 and RNA Pol II in a metastatic prostate tumor tissue (samples GSM353651-GSM353656). To couple  the ChIP-Seq experiments with gene expression, we have also done Illumian SAGE-tag profiling in LNCaP cells following androgen treatment for 0, 24 and 48hrs. These DGE experiments correspond to samples GSM353657-GSM353659.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+20478527
+

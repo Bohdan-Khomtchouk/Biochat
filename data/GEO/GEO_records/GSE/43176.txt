@@ -1,0 +1,18 @@
+TITLE
+Wild-Type Nras Lacks Tumor Suppressor Activity and Nras Oncogene Dosage Strongly Modulates Hematopoietic Transformation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Contemporary treatment of pediatric acute myeloid leukemia (AML) requires the assignment of patients to specific risk groups. To explore whether expression profiling of leukemic blasts could accurately distinguish between the known risk groups of AML, we analyzed 130 pediatric and 20 adult AML diagnostic bone marrow or peripheral blood samples using the Affymetrix U133A microarray.  Class discriminating genes were identified for each of the major prognostic subtypes of pediatric AML, including t(15;17)[PML-RARalpha], t(8;21)[AML1-ETO], inv(16) [CBFbeta-MYH11], MLL chimeric fusion genes, and cases classified as FAB-M7. When subsets of these genes were used in supervised learning algorithms, an overall classification accuracy of more than 93% was achieved.  Moreover, we were able to use the expression signatures generated from the pediatric samples to accurately classify adult de novo AMLs with the same genetic lesions. The class discriminating genes also provided novel insights into the molecular pathobiology of these leukemias.  Finally, using a combined pediatric data set of 130 AMLs and 137 acute lymphoblastic leukemias, we identified an expression signature for cases with MLL chimeric fusion genes irrespective of lineage. Surprisingly, AMLs containing partial tandem duplications of MLL failed to cluster with MLL chimeric fusion gene cases, suggesting a significant difference in their underlying mechanism of transformation.  All the gene expression arrays are available through http://www.stjuderesearch.org/site/data/AML1/ in the original study (PMID:15226186).  To study the RAS gene expression in the human AML patients, a total of 104 AML cases with known KRAS and NRAS status (including 72 gene expression arrays in the original study and 32 additional arrays acquired later on), as well as 4 CD34+ normal bone marrow cases deposited in GEO GSE33315, were including in this depository.
+
+DESIGN
+Gene expression profiling was performed on 104 single diagnosis tumor samples and 4 CD34+ normal bone marrow samples
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+23733505
+

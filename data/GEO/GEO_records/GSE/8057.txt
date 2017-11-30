@@ -1,0 +1,18 @@
+TITLE
+Expression data from ovarian cancer cells with time-course and concentration-profiles
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Time-course and concentration-effect experiments with multiple time points and drug concentrations provide far more valuable information than experiments with just two design-points (treated vs. control), as commonly performed in most microarray studies. Analysis of the data from such complex experiments, however, remains a challenge. Here we present a semi-automated method for fitting time profiles and concentration-effect patterns, simultaneously, to gene expression data. The submodels for time-course included exponential increase and decrease models with parameters such as initial expression level, maximum effect, and rate-constant (or half-time). The submodel for concentration-effect was a 4-parameter Hill model. The method was applied to an Affymetrix HG-U95Av2 dataset consisting of 51 arrays. The specific study focused on the effects of two platinum drugs, cisplatin and oxaliplatin, on A2780 human ovarian carcinoma cells. Replicates were available at most time points and concentrations. Eighteen genes were selected; time-course and concentration-effect were modeled simultaneously. Comparisons of model parameters helped distinguish genes with different expression patterns between the two drug treatments. This overall paradigm can help in understanding the molecular mechanisms of the agents, and the timing of their actions. Keywords: time course , dose response, cisplatin, oxaliplatin, Human ovarian carcinoma cells
+
+DESIGN
+For the time-course experiments, samples were exposed to IC90 concentrations of oxaliplatin (32 μM) or cisplatin (25 μM) for 2 hours, and then allowed to grow in drug free medium. Cells were harvested and processed at the following times: before treatment, immediately after treatment (0 h), and at 2 h, 6 h, 16 h and 24 h after treatment. Control experiments were done following a similar design, but with exposure to drug-free medium. For the concentration-effect experiments, samples were treated with specific growth-inhibitory concentrations of cisplatin or oxaliplatin for 2 hours. The previously-estimated IC10, IC25, IC50, IC75 and IC90 concentrations (for 2 hr drug exposure; 72 hr total growth) for cisplatin and oxaliplatin growth inhibition of A2780 were 2.6, 4.0, 6.4, 12 and 25 μM and 2.8, 4.8, 8.5, 17 and 32 μM respectively. Cells were harvested and processed at 16 h after completion of treatment
+
+PLATFORM
+GPL8300 [HG_U95Av2] Affymetrix Human Genome U95 Version 2 Array
+
+CITATIONS
+18359979
+

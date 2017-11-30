@@ -1,0 +1,18 @@
+TITLE
+Transcriptome profiling of human lung cancer cell lines.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: The aim of this study is to compare different RNA extraction methods using a mixture design that allows the relative changes of the majority of genes profiled to be estimated. A number of samples were degraded to allow us to compare methods for dealing with more variable samples. Methods - Cell Culture: Lung adenocarcinoma cell lines NCI-H1975 and HCC827 from a range of passages (2-4) were grown on 3 separate occasions in RPMI media (Gibco) supplemented with Glutamax and 10% fetal calf serum to a 70% confluence. To replicate common experimental conditions cell lines were treated with 0.01% Dimethyl sulfoxide (Sigma), which is commonly used as a vehicle in drug treatment experiments. After 6 hours of treatment, cells were collected, snap-frozen on dry ice and stored at -80 degrees C until required. Methods - RNA preparation: Total RNA was extracted from between half a million and million cells using Total RNA Purification Kit (Norgen Biotek) with on-column DNAse treatment accorting to the kit instructions. RNA concentration for each pair of samples to be mixed was equalised to ~100 ng/μl using Qubit RNA BR Assay Kit (Life Technologies). Replicates were pooled in known proportions to obtain mixtures ranging from pure NCI-H1975 (100:0) to pure HCC827 (0:100) and intermediate mixtures ranging from 75:25 to 50:50 to 25:75  NCI-H1975:HCC827. All mixtures corresponding to the second replicate were split into two equal aliquots. One aliquot was left intact (we refer to this as the 'good' replicate), while the second aliquot was degraded to produce known outlier samples by incubation at 37 degrees C for 7 days in a thermal cycler with a heated lid. 10 μl from each replicated mixture (both good and degraded) were used for Next Generation Sequencing library preparation using two kits: Illumina TruSeq Total Stranded RNA with Ribozero (TotalRNA) and Illumina TruSeq RNA v2 (mRNA) according to the manufacturer's instructions. Completed libraries were sequenced on HiSeq 2500 with TruSeq SBS Kit v4- HS reagents (Illumina) as 100 bp single-end reads at the Australian Genome Research Facility (AGRF), Melbourne. Approximately 30 million 100 bp single-end reads were obtained for each sample. Reads were aligned to the human reference genome hg19 and mapped to known genomic features at the gene level using the Rsubread package (version 1.16.1) (Liao et al. 2013). Single reads were then summarized into gene-level counts using FeatureCounts (Liao et al. 2014).
+
+DESIGN
+Total RNA was extracted from lung adenocarcinoma cell lines NCI-H1975 and HCC827 (3 independent samples for each cell line) and mixed in known ratios. Both mRNA and Total RNA transcriptomes from these mixtures were profiled by RNA-Seq.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25925576 , 27899618
+

@@ -1,0 +1,18 @@
+TITLE
+Smc5/6-Mms21 prevents and eliminates inappropriate recombination intermediates in meiosis
+
+ORGANISM
+Saccharomyces cerevisiae SK1
+
+SUMMARY
+Repairing broken chromosomes via joint molecule (JM) intermediates is hazardous and therefore strictly controlled in most organisms. Also in budding yeast meiosis, where production of enough crossovers via JMs is imperative, only a subset of DNA breaks are repaired via JMs, closely regulated by the ZMM pathway. The other breaks are repaired to non-crossovers avoiding JM formation requiring BLM/Sgs1 helicase. " Rogue " JMs that escaped the ZMM pathway and BLM/Sgs1 are eliminated before metaphase by resolvases like Mus81-Mms4 to prevent chromosome nondisjunction.
+
+DESIGN
+7 genome-wide meiotic ChIP-seq sets: 2 meiotic time points Smc6-myc DNA interaction (Smc6-ChIP), 2 meiotic time points Smc6-myc DNA interaction in the absence of induced recombination (Smc6-ChIP, spo11delta), 2 meiotic time points Sgs1-myc DNA interaction (Sgs1-ChIP), and 1 meiotic time point untagged as a negative control. (Corresponds to the main Figures 2 and 6, as well as to Figures S4, S7, in the associated publication.)
+
+PLATFORM
+GPL17874 Illumina HiSeq 2000 (Saccharomyces cerevisiae SK1)
+
+CITATIONS
+24385936
+

@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of JEG3 cells with HLA-G ablation via deletion of Enhancer L
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+HLA-G is a nonclassical HLA molecule expressed specifically in the placenta. While it is known to play a central role in maternal immune tolerance during pregnancy, the mechanism underlying its tissue-specific expression remains poorly understood. To elucidate this mechanism, we used a Massively Parallel Reporter Assay (MPRA) to systematically interrogate the HLA-G locus. This uncovered Enhancer L, a novel cis-regulatory element with enhancer activity 12kb upstream of HLA-G. To verify enhancer function and specificity for HLA-G in culture, we deleted Enhancer L in JEG3 cells and performed RNA sequencing and differential expression analysis. Upon Enhancer L knockout, we observe complete ablation of HLA-G and minimal dysregulation of other genes within 2Mb, suggesting that HLA-G is the only direct cis target of Enhancer L. DNase-seq and Chromatin Conformation Capture (3C) confirm that Enhancer L is a cell type-specific enhancer that loops into the HLA-G promoter. MPRA-based saturation mutagenesis of Enhancer L identifies motifs for transcription factors of the CEBP and GATA families which are essential for placentation. These factors associate with Enhancer L and regulate HLA-G expression. Our findings identify long-range chromatin looping mediated by core trophoblast transcription factors as a novel mechanism controlling tissue-specific HLA-G expression at the maternal-fetal interface.
+
+DESIGN
+RNA sequencing of JEG3 cells with CRISPR knockout of Enhancer L
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27078102
+

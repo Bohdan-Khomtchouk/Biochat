@@ -1,0 +1,15 @@
+TITLE
+Genetic and Phenotypic Intra-Species Variation in Candida albicans: Differential expression analysis
+
+ORGANISM
+Candida albicans
+
+SUMMARY
+Differential expression of isolates of Candida albicans grown in YPD using RNA-Seq.
+
+DESIGN
+We examined transcript level changes in YPD for five strains; P94015 (two replicates) and P60002 were compared to three other strains as controls (SC5314, P87, GC75). Sample name|title|strain|SRA accession Candida albicans strain P94015 replicate 1|Candida albicans strain P94015 in YPD|P94015|SRX186183 Candida albicans strain P94015 replicate 2|Candida albicans strain P94015 in YPD|P94015|SRX337483 Candida albicans strain P94015 replicate 2|Candida albicans strain P94015 in YPD|P94015|SRX337482 Candida albicans strain P94015 replicate 2|Candida albicans strain P94015 in YPD|P94015|SRX337481 Candida albicans strain SC5314 |Candida albicans strain SC5314 in YPD|SC5314|SRX131011 Candida albicans strain SC5314 |Candida albicans strain SC5314 in YPD|SC5314|SRX129863 Candida albicans strain P87|Candida albicans strain P87 in YPD|P87|SRX129856 Candida albicans strain P87|Candida albicans strain P87 in YPD|P87|SRX131022 Candida albicans strain GC75|Candida albicans strain GC75 in YPD|GC75|SRX131009 Candida albicans strain GC75|Candida albicans strain GC75 in YPD|GC75|SRX129858 Candida albicans strain P60002|Candida albicans strain P60002 in YPD|P60002|SRX186182 SRX186183, SRX186182 processed with Base caller: GAPipeline RTA1.13.48 Sequencer Application 1.5.15.1 SRX337483, SRX337482, SRX337481 processed with Base caller: GAPipeline RTA1.17.20 Sequencer Application 2.0.5 SRX131011, SRX129863, SRX129856,SRX131022, SRX131009, SRX129858 processed with Base caller: GAPipeline RTA1.12.4.2 Sequencer Application 1.4.8 Aligner: Trinity (version r2012-05-18) alignReads.pl (parameters --aligner bowtie (version 1) and --SS_lib_type RF) Estimate counts: Trinity run_RSEM.pl (RSEM version1.1.18) on properly mapped paired reads (parameters --paired --no_group_by_component --SS_lib_type RF) Normalized counts: Trinity summarize_RSEM_fpkm.pl on RSEM output Differential expression: edgeR (version 3.4.2) with TMM normalization, strains SC5314, GC75 and P87 were used as the wild type comparison  in differential expression analysis. genome build A21-s02-m01-r01 Log2FC and FDR (as qvalue) from Edge R along with FPKM counts of strains grown in YPD
+
+CITATIONS
+25504520
+

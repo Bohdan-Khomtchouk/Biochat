@@ -1,0 +1,18 @@
+TITLE
+Dicer-2 processes diverse viral RNA species
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Background: RNA silencing pathways play critical roles in gene regulation, virus infection, and transposon control. RNA interference (RNAi) is mediated by small interfering RNAs (siRNAs), which are liberated from double stranded (ds) RNA precursors by Dicer and direct the RNA-induced silencing complex (RISC) to target transcripts. Recent efforts have uncovered important principles governing small RNA (smRNA) sorting into RISC, yet mechanisms defining substrate selection by Dicer proteins remain uncharacterized. Methodology: To better characterize Dicer-2 substrates in Drosophila, we examined the antiviral RNAi response, which generates virus-derived siRNAs from viral RNA. Using high-throughput sequencing, we found that diverse viruses were uniquely targeted; substrates included dsRNA replication intermediates and intramolecular RNA stem loops. smRNA distribution patterns from viral and synthetic dsRNA precursors were highly reproducible, and machine learning techniques identified characteristics of precursor molecules and smRNA duplexes important in determining relative smRNA abundance. Significance: To our knowledge, this study provides the first description of the rules governing Dicer-2 substrate selection, which has important implications for exogenous RNA silencing technologies and the development of smRNA-based antiviral therapeutics.
+
+DESIGN
+virus-derived siRNA (vsiRNA) expression comparison between control and 4 different virus-infected cells in control as well as 5 different RNAi pathway protein knock-downs in Drosophila dl1 cells
+
+PLATFORM
+GPL9061 Illumina Genome Analyzer II (Drosophila melanogaster)
+
+CITATIONS
+23424633
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data identifying hypermethylated genes associated with acquired cisplatin resistance
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Treatment-related DNA hypermethylation may play a role in creating drug resistant phenotypes by inactivating genes that are required for cytotoxicity, but there have been no genome-wide studies to systematically investigate methylation of individual genes following exposure to chemotherapy. We used microarrays and a pharmacologic unmasking protocol in isogenic cisplatin-sensitive and -resistant cell lines to identify genes that were down-regulated in cisplatin-resistant cells and could be re-activated by the DNA methyltransferase inhibitor 5-Aza-2'-deoxycytidine (5-Aza-dC). We identified several hundred genes that were down-regulated in each resistant cell line. Of these, 30 genes were common to > 2 cell lines, and/or reported to be down-regulated in previous studies. siRNA knockdown of two candidate genes increased cell viability with cisplatin treatment in sensitive parental cell lines
+
+DESIGN
+Cisplatin-sensitive and -resistant SCC cells and KB and KB cisplatin-resistant clones (n=2) were split to low density and treated with freshly prepared 5 microM 5-Aza-dC dissolved in 50% acetic acid/50% PBS or were mock treated with the same volume of vehicle in the media for 5 days. Subsequently, RNA was extracted and hybridized on Affymetrix U133A microarrays.  Signal intensity and statistical significance was established for each transcript, and a 2-fold decrease in signal in each paired sensitive/resistant cell line in combination with 1.5-fold increase after 5Aza-dC treatment was used to identify candidate genes.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+20215521
+

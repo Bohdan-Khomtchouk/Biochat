@@ -1,0 +1,18 @@
+TITLE
+DEN-induced HCC in c-Met knockout mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+HGF has been reported to have both positive and negative effects on carcinogenesis. Here we show that the loss of c-Met signaling in hepatocytes enhanced rather than suppressed the early stages of chemical hepatocarcinogenesis. c-Met conditional knockout mice (c-metfl/fl, AlbCre+/-; MetLivKO) treated with N-nitrosodiethylamine (DEN) developed significantly more and bigger tumors and with a shorter latency as compared with control (wt/wt, AlbCre+/-; Cre-Ctrl) mice. Accelerated tumor development was associated with increased rate of cell proliferation and prolonged activation of epidermal growth factor receptor (EGFR) signaling. MetLivKO livers treated with DEN also displayed elevated lipid peroxidation, decreased ratio of reduced glutathione (GSH) to oxidized glutathione (GSSG), and upregulation of superoxide dismutase 1 (Sod1) and heat shock protein 70 (Hsp70), all consistent with increased oxidative stress. Likewise, gene expression profiling performed at 3 and 5 months after DEN treatment revealed upregulation of genes associated with cell proliferation and stress responses in c-Met mutant livers. The negative effects of c-Met-deficiency were reversed by chronic oral administration of anti-oxidant N-acetylcysteine (NAC). NAC blocked the EGFR activation and reduced the DEN-initiated hepatocarcinogenesis to the levels of Cre-Ctrl mice. These results argue that intact HGF/c-Met signaling is essential for maintaining normal redox homeostasis in the liver and has tumor suppressor effect(s) during the early stages of DEN-induced hepatocarcinogenesis. Keywords: compound treatment design
+
+DESIGN
+To address a role for c-Met in liver carcinogenesis, we employed a hepatocyte specific c-Met conditional knockout mouse model generated in our laboratory. Mice received a single intraperitoneal injection of 10 µg/g body weight of N-nitrosodiethylamine (DEN) (Sigma-Aldrich, Inc., St. Louis, MO, USA) at 14 days of age. Livers were examined at 3 and 5 months after DEN injection. Expression profiling was conducted on five animals from each genotype per time point. Total RNA pooled from five wild-type B6/129 strain mouse livers was used as universal hybridization reference. All experiments were performed in duplicates following a dye-swapping design. Arrays were scanned with a GenePix 4000A scanner (Axon Instruments Ltd., Burlingame, CA) in a way to achieve optimal signal intensity at both channels with less than 1% saturated spots. After excluding the invalid features, all arrays were normalized to the 50th percentile of the median signal intensity using the mAdb data analysis suite ( http://nciarray.nci.nih.gov/ ). Unsupervised cluster analysis was performed with the Cluster and TreeView programs ( http://rana.lbl.gov/EisenSoftware.htm ). The BRB ArrayTools V3.3.0 software package (Biometric Research Branch, National Cancer Institute; http://linus.nci.nih.gov/BRB-ArrayTools.html ) was used for the supervised comparison. Differentially expressed genes were selected using a univariate 2-sample t-test (P < 0.001) with a random variance model (15). Functional classification of the significant genes was based on the Gene Ontology (GO) annotations (www.geneontology.org).
+
+PLATFORM
+GPL4200 NCI/ATC Mm-MEEBO
+
+CITATIONS
+17942915
+

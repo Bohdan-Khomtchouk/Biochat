@@ -1,0 +1,18 @@
+TITLE
+Identification of Signature Molecule-Marked Native Mesenchymal Stem Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background. The in vivo distribution status and molecular signature of bone marrow mesenchymal stem cells (MSC) remain unknown, although ex vivo expanded MSC have been used in numerous studies. Methods/Results. To address these issues, we identified human MSC-characteristic genes, including 9 transcription factor genes - using DNA microarray analysis: Most (75 %) of the MSC-characteristic genes were down-regulated by knockdown of the transcription factors. Furthermore, we used an antibody set for the MSC-characteristic molecules in immunohistochemistry, which revealed that, in embryonic/neonatal mice, elongated MSC were abundant near the endosteum and in the interior of bone marrow, perichondrium and periosteum, whereas in adult mice round/compact MSC were found only in the interior of bone marrow: No MSC-like cells were found in any other skeletal or non-skeletal tissues using this antibody set. Conclusion. The identification of native MSC in developing and adult skeletal tissues should be useful in basic and clinical studies on MSC. Keywords: cell type comparison
+
+DESIGN
+Cell Cultures Human iliac MSC were purchased from BioWhittaker Inc (Walkersville, MD) or obtained from iliac crest according to protocol approved by ethical authorities at Hiroshima University. Human skin fibroblasts were purchased from KURABO (Osaka, Japan), and human gingival fibroblasts were isolated as described previously (Kawahara K, Shimazu A (2003) Expression and intracellular localization of progesterone receptors in cultured human gingival fibroblasts. J Periodontal Res 38: 242-246.). Culture of MSC and their differentiation from the osteoblast, chondrocyte or adipocyte lineage were performed as described (Matsubara T, Suardita K, Ishii M, Sugiyama M, Igarashi A, et al. (2005) Alveolar bone marrow as a cell source for regenerative medicine: differences between alveolar and iliac bone marrow stromal cells. J Bone Miner Res 20: 399-409.) : We used FGF-2 at 1 ng/mL to expand MSC, because MSC expanded ex vivo with FGF-2 maintained their multidifferentiation potential throughout many mitotic divisions (Tsutsumi S, Shimazu A, Miyazaki K, Pan H, Koike C, et al. (2001) Retention of multilineage differentiation potential of mesenchymal cells during proliferation in response to FGF. Biochem Biophys Res Commun 288: 413-419.). To avoid direct action of FGF-2 on gene expression, FGF-2 was removed from the culture medium of MSC or fibroblasts 72 h before isolation of RNA. DNA Microarray Analysis Total RNA was isolated from confluent cultures of 3 lines of MSC (passage 6-9), 3 lines of fibroblasts (passage 7-14), 3 lines of MSC incubated for 28 days in the differentiation-induction medium, using RNeasy Mini Kit (QIAGEN, Chatsworth, CA). DNA microarray analysis was performed by KURABO GeneChip Custom Analysis Service with Human Genome U133 Plus 2.0 chips(Affymetrix. Inc., Santa Clara, CA). The CHP data (Microarray Suite version 5.0, Scaling Factor = 1, Normalization Value = 1, Detection Call a1 = 0.05, a2 = 0.065, Tau = 0.015, Affymetrix Inc.) were standardized by the global median normalization method using GeneSpring (Silicon Genetics, Redwood City, CA). The normalization was limited by flag values, and the median was calculated using the genes that exceeded the Present or Marginal flag restriction. Gene filtering on normalized intensity followed by fold changes ( > 2-fold) was used to generate the list of genes for expression profiles before or after differentiation.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19228201
+

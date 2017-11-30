@@ -1,0 +1,18 @@
+TITLE
+Transcriptional landscape of transkingdom communication between Candida albicans and Streptococcus gordonii
+
+ORGANISM
+Streptococcus gordonii ; Candida albicans
+
+SUMMARY
+Recent studies have shown that the transcriptional landscape of the pleiomorphic fungus Candida albicans is highly dependent upon growth conditions. Here using a dual RNA-seq approach we identified 299 C. albicans and 72 Streptococcus gordonii genes that were either up- or down-regulated specifically as a result of co-culturing these human oral cavity microorganisms. Seventy five C. albicans genes involved in responses to chemical stimuli, regulation, homeostasis, protein modification and cell cycle were statistically (P ≤0.05) upregulated, while 36 genes mainly involved in transport and translation were down-regulated. Upregulation of filamentation-associated TEC1 and FGR42 genes, and of ALS1 adhesin gene, concurred with previous evidence that the C. albicans yeast to hypha transition is promoted by S. gordonii. Increased expression of genes required for arginine biosynthesis in C. albicans was potentially indicative of a novel oxidative stress response. The transcriptional response of S. gordonii to C. albicans was less dramatic, with only eight S. gordonii genes significantly (P ≤0.05) up-regulated ≥ twofold (glpK, rplO, celB, rplN, rplB, rpsE, ciaR, and gat). The expression patterns suggest that signals from S. gordonii cause a positive filamentation response in C. albicans, while S. gordonii appears to be transcriptionally less influenced by C. albicans.
+
+DESIGN
+Five Samples; Sample 1 - Candida albicans cells grown in hypha inducing conditions for two hours; Sample 2 - Candida albicans cells grown in hypha-inducing conditions for two hours before co-culture with Streptococcus gordonii cells for one hour in a 2:1 rato; Sample 3 - Candida albicans cells grown in hypha-inducing conditions for two hours before culture in Streptococcus gordonii media for one hour; Sample 4 - Candida albicans cells grown in hypha inducing conditions for two hours, filtered to remove Candida albicans cells and media added to Streptococcus gordonii cells for one hour; Sample 5 - Streptococcus gordonii cells alone for one hour. All samples extracted and sequenced in biological triplicate using Illumina HiSeq2500. Samples 1, 2 and 3 aligned to the reference genome for Candida albicans and Samples 2, 4 and 5 aligned to the reference genome for Streptococcus gordonii.
+
+PLATFORM
+GPL19036 Illumina HiSeq 2500 (Candida albicans) GPL20134 Illumina HiSeq 2500 (Streptococcus gordonii) GPL20135 Illumina HiSeq 2500 (Candida albicans; Streptococcus gordonii)
+
+CITATIONS
+26042999
+

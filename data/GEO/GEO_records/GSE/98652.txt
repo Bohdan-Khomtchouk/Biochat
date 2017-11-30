@@ -1,0 +1,18 @@
+TITLE
+Quantitative analysis of the DNA methylation sensitivity of transcription factor complexes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+EpiSELEX-seq method was used to characterize the binding preference of human TF complexes to methylated DNA, including BZIP proteins ATF4 and CEBPb, homeodomain TF heterodimers of HM(Meis1)-Pbx1 together with either HoxA1, HoxA5 or HoxA9 and tumor suppressor protein p53.
+
+DESIGN
+One round of EpiSELEX-seq was performed for all TFs tested as described in Kribelbauer et al. Purified TFs were incubated with a mix of methylated and unmethylated randomized 16bp (26bp for p53) DNA libraries of sequence GGTAGTGGAGG-TGGG-CCTGG-16xN/26xN-CCAGG-GAGGTGGAGTAGG for unmethylated and GGTAGTGGAGG-GCAC-CCTGG-16xN/26xN-CCAGG-GAGGTGGAGTAGG for methylated library. Bound fractions were amplified and sequenced.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+28614722
+

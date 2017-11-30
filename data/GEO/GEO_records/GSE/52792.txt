@@ -1,0 +1,18 @@
+TITLE
+mRNA expression in RNase deletion mutants of Thermus thermophilus HB8
+
+ORGANISM
+Thermus thermophilus HB8
+
+SUMMARY
+We analyzed the expression profile of RNase deletion strains of Thermus thermophils HB8. Keywords: cell type comparison
+
+DESIGN
+The T. thermophilus HB8 wild-type strain and disruptants were cultured in TT medium at 70°C until the cells reached to OD600 of 0.8 (log phase) or to stationary phase.  In the case of TTHA0137, TTHA0540 and TTHA1817 log phase samples, an equal volume of hot medium was added to the culture.  In the other disruptants, cultures were added to an equal volume of 100% ethanol and stored at -80°C.  Total RNA was extracted from these frozen cells by following the same procedure as described previously (Shinkai et al. 2007) with the exception that the RNA was resuspended in 20 μL of water after ethanol precipitation.  The cDNA was synthesized with SuperScript II reverse transcriptase (Invitrogen, Carlsbad, CA) in the presence of the RNase inhibitor SUPERase (Ambion, Austin, TX) and 6-base random primers (Invitrogen).  The cDNA was fragmented with 35 units of DNase I (GE Healthcare, Amersham, UK) at 37°C for 10 min; after inactivation at 98°C for 10 min, the cDNA fragments were labeled with the GeneChip DNA labeling reagent (Affymetrix, Santa Clara, CA), using terminal transferase, according to the manufacturer's instructions (Affymetrix). The 3'-terminally labeled cDNA (2 μg) was hybridized to a TTHB8401a520105F GeneChip (Affymetrix), which contained probe sets of 25-mer oligonucleotides representing 2238 ORFs and 1096 intergenic regions.  The procedure was basically the same as that described previously with the exception that 20 μg of herring sperm DNA (Promega) was added to the hybridization mixture (Shinkai et al. 2007).  The array was automatically washed and stained with streptavidin-phycoerythrin (Invitrogen) using a GeneChip Fluidics Station 450XP (Affymetrix).  The probe array was then scanned with a GeneChip Scanner 3000 (Affymetrix).  To determine the mRNA expression level in disruptants relative to that in wild-type, the image data for the three samples in each disruptant and growth phase were processed. The expression intensity of each of the 2238 ORFs for the three wild-type strains was evaluated using image data and scaled by means of the one-step Tukey's biweight algorithm using GeneChip Operating Software version 1.0 (Affymetrix).  Scaled probe value was calculated as Sc = 500 according to Statistical Algorithms Description Document (Affymetrix).
+
+PLATFORM
+GPL9209 [TTHB8401a520105F] Riken Thermus thermophilus HB8 4K mRNA custom array, library Rev.2
+
+CITATIONS
+24884843
+

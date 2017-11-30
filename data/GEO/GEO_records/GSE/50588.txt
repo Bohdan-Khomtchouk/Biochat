@@ -1,0 +1,18 @@
+TITLE
+The Functional Consequences of Variation in Transcription Factor Binding
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+One goal of human genetics is to understand how the information for precise and dynamic gene expression programs is encoded in the genome. The interactions of transcription factors (TFs) with DNA regulatory elements clearly play an important role in determining gene expression outputs, yet the regulatory logic underlying functional transcription factor binding is poorly understood. Many studies have focused on characterizing the genomic locations of TF binding, yet it is unclear to what extent TF binding at any specific locus has functional consequences with respect to gene expression output. To evaluate the context of functional TF binding we knocked down 59 TFs and chromatin modifiers in one HapMap lymphoblastoid cell line. We then identified genes whose expression was affected by the knockdowns. We intersected the gene expression data with transcription factor binding data (based on ChIP-seq and DNase-seq) within 10 kb of the transcription start sites of expressed genes. This combination of data allowed us to infer functional TF binding. Using this approach, we found that only a small subset of genes bound by a factor were differentially expressed following the knockdown of that factor, suggesting that most interactions between TF and chromatin do not result in measurable changes in gene expression levels of putative target genes. We found that functional TF binding is enriched in regulatory elements that harbor a large number of TF binding sites, at sites with predicted higher binding affinity, and at sites that are enriched in genomic regions annotated as “active enhancers”.
+
+DESIGN
+201 samples were analyzed - 57 transcription factors were knocked down in triplicate in the same cell line, 2 factors were knocked down in 6 replicates each and an additional 18 control knockdowns (siRNA not targeting any known gene) were analyzed
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+24603674
+

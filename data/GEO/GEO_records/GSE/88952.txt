@@ -1,0 +1,18 @@
+TITLE
+The dynamic three-dimensional organization of the diploid yeast genome
+
+ORGANISM
+Saccharomyces cerevisiae ; Saccharomyces paradoxus ; Saccharomyces uvarum ; Saccharomyces cerevisiae x Saccharomyces uvarum ; Saccharomyces cerevisiae x Saccharomyces paradoxus ; Saccharomyces paradoxus x Saccharomyces uvarum
+
+SUMMARY
+The budding yeast Saccharomyces cerevisiae is a long-standing model for the three-dimensional organization of eukaryotic genomes1,2, and recent high-throughput chromatin conformation capture (Hi-C)2 methods have allowed systematic and unbiased measurement of this organization. Using polymer modeling, some groups have suggested that yeast genome conformation is simple and dominated by its Rabl-like orientation (anaphase-like polarization)3,4. Others have argued that yeast genome conformation is influenced by homolog pairing in diploids5–7 and environment-induced gene relocalization8–13, but the generality and extent of these phenomena remain unclear14. Here, we perform Hi-C on diverged Saccharomyces hybrid diploids to obtain the first global view of chromosome conformation in diploid budding yeasts. Previous studies of homolog pairing have attempted to control for the Rabl-like orientation14, but genomic analysis combined with polymer modeling reveals underappreciated contributions of the Rabl-like orientation to homolog proximity. After controlling for these features, we observe a residual signature of homolog proximity, particularly in saturated phase. From these same data, we also identify known and unexpected inducible gene repositioning. We observe that GAL1 shifts away from the centromere cluster upon galactose induction, consistent with reports of peripheral relocalization8,15. Surprisingly, under galactose induction and saturated phase, we observe a localized increase in homologous interactions between the HAS1 alleles, mediated by association with nuclear pore complexes. The discovery of this conformational change in such well-studied conditions suggests that our understanding of inducible genome reorganization remains incomplete. Together, these results reveal that the diploid yeast genome displays dynamic and complex 3D organization.
+
+DESIGN
+Hi-C, RNA-seq, and Nup60-TAP ChIP-seq on yeast strains under exponential growth in glucose and galactose, and saturated culture
+
+PLATFORM
+GPL17143 Illumina MiSeq (Saccharomyces cerevisiae) GPL19756 Illumina NextSeq 500 (Saccharomyces cerevisiae) GPL22580 Illumina NextSeq 500 (Saccharomyces paradoxus) GPL22581 Illumina NextSeq 500 (Saccharomyces uvarum) GPL22587 Illumina NextSeq 500 (Saccharomyces cerevisiae x Saccharomyces uvarum) GPL22588 Illumina NextSeq 500 (Saccharomyces cerevisiae x Saccharomyces paradoxus) GPL22589 Illumina NextSeq 500 (Saccharomyces paradoxus x Saccharomyces uvarum)
+
+CITATIONS
+28537556
+

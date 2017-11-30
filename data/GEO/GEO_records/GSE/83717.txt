@@ -1,0 +1,18 @@
+TITLE
+Identification and validation of differentially expressed transcripts by RNA-Sequencing of formalin-fixed, paraffin-embedded (FFPE) lung tissue from patients with Idiopathic Pulmonary Fibrosis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BACKGROUND: Idiopathic Pulmonary Fibrosis (IPF) is a lethal lung disease of unknown etiology. A major limitation in transcriptomic profiling of lung tissue in IPF has been a dependence on snap-frozen fresh tissues (FF). In this project we sought to determine whether RNA-Seq could be used to identify IPF expression profiles from archived Formalin-Fixed Paraffin-Embedded (FFPE) lung fibrotic tissue. RESULTS: We isolated total RNA from 7 IPF and 5 control FFPE lung tissues (median archived time 6 years) and performed 50 bp paired-end sequencing on Illumina 2000 HiSeq. TopHat2 was used to map sequencing reads to the human genome. On average ~62 million reads (53.4% of ~116 million reads) were mapped per sample. Cufflinks calculated FPKM values (Fragments per Kilobase of exon per Million) and identified differentially expressed genes between the IPF and control samples. Here we show that RNA-Seq data obtained from FFPE lung tissues is comparable to microarray data obtained from IPF fresh frozen tissues. Pathway enrichment and network analysis confirmed numerous IPF relevant genes and pathways. CONCLUSION: Our results demonstrate that transcriptomic analysis of RNA obtained from archived FFPE lung tissues is feasible. Therefore FFPE IPF lungs can be used as a valid and reliable source for transcriptomic profiling in IPF
+
+DESIGN
+RNA-Seq was performed on mRNA isolated from 6 IPF and 5 control lung FFPE tissues by using Illumina HiSeq 2000
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28081703
+

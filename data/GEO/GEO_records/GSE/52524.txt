@@ -1,0 +1,18 @@
+TITLE
+Network Biology of the Skin [1]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Gene expression levels in normal tissues can differ substantially between individuals, due to inherited polymorphisms acting in cis or trans. Analysis of this variation across a population of genetically distinct individuals allows us to visualize a network of co-expressed genes under normal homeostatic conditions, and the consequences of perturbation by tissue damage or disease development. Here, we explore gene expression networks in normal adult skin from 470 genetically unique mice, and demonstrate the dependence of the architecture of signaling pathways on skin tissue location (dorsal or tail skin) and perturbation by induction of inflammation or tumorigenesis. Gene networks related to specific cell types, as well as signaling pathways including Sonic Hedgehog (Shh), Wnt, Lgr family stem cell markers, and keratins differed at these tissue sites, suggesting mechanisms for the differential susceptibility of dorsal and tail skin to development of skin diseases and tumorigenesis. The Pten tumor suppressor gene network is extensively rewired in premalignant tumors compared to normal tissue, but this response to perturbation is lost during malignant progression. We present a software package for eQTL network analysis and demonstrate how network analysis of whole tissues provides insights into interactions between cell compartments and signaling molecules.
+
+DESIGN
+A backcross was generated using male Mus spretus and female FVB/N mice; female F1 hybrids were mated with male FVB/N mice.   Mice were aged to 8 weeks and sacrificed. Shaved dorsal skin and tail skin were snap frozen.
+
+PLATFORM
+GPL11533 [MoGene-1_1-st] Affymetrix Mouse Gene 1.1 ST Array [transcript (gene) version]
+
+CITATIONS
+27425619
+

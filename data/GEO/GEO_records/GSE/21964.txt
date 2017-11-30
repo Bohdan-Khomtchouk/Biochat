@@ -1,0 +1,18 @@
+TITLE
+Maternal methylmercury from a wild-caught walleye diet dysregulates gene expression in zebrafish offspring
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+The goal of this project is to identify neural and molecular biomarkers as predictors of MeHg exposure and deficits in specific neurobehavioral endpoints. Specifically, we are investigating the effects of sublethal MeHg exposure (1, 2 and 3.5 ppm of wild-caught walleye diet) on developing zebrafish by analyzing early lifestage (ELS) toxicity, changes in global gene expression by microarray analysis and quantitative real-time PCR (QPCR), and neurobehavioral dysfunction. Gene expression analysis in exposed embryos was performed using an 8,000 element custom zebrafish cDNA microarray. Microarray results were validated using QPCR. A number of the early life stage zebrafish genes found to be dysregulated by maternal MeHg have functional annotations involving cell division, cell cycle progression, neurodevelopment, liver development, ion-binding, transcriptional regulation and endopeptidase activity.
+
+DESIGN
+Female TL zebrafish were fed by wild-caught and lyophilized walleye fillets following Low and High MeHg (1 and 3.5 ppm), then bred with male GL fish which were fed normal food. Eggs were collected after 24 hpf. RNA was isolated from pooled 24 hpf embryos from each group (N=100) using Trizol reagent (Invitrogen) and further purified using an RNeasy MiniElute cleanup kit (Qiagen).cDNA was synthesized using SuperScript II Reverse Transcriptase (Invitrogen). Targets were labeled with Cy3 and Cy5 using the Array 50 Expression Array Detection kit (Genisphere).Slides placed in shaking water bath for 16 h at 42 °C. Arrays then washed in 2x SSC (+0.1 % SDS), 1x SSC, 0.2x SSC and 0.1x SSC, each at 37 °C for 5 min prior to drying and scanning. Arrays were scanned using an ScanArray Express (PerkinElmer) scanner. Raw data were extracted by Imagene version 6.0 software and analyzed by R version 2.9., Bioconductor 2.4, specifically limma 2.18.3. Graph 1.22.5 and Igraph 0.5.1 were used for network analysis which is visualized by Cytoscape 2.6.1.We used dual channel labeling system with Cy3 and Cy5, and did dye-swap. Duplicates were run for each comparison.
+
+PLATFORM
+GPL10456 Zebrafish 8K cDNA array TKH
+
+CITATIONS
+27544571
+

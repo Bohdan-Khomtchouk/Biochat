@@ -1,0 +1,18 @@
+TITLE
+Transcriptional mechanisms controlling direct motor neuron programming
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcriptional programming of cell identity promises to open up new frontiers in regenerative medicine by enabling the efficient production of clinically relevant cell types. We examine if such cellular programming is accomplished by transcription factors that each have an independent and additive effect on cellular identity, or if programming factors synergize to produce an effect that is not independently obtainable. The combinations of Ngn2-Isl1-Lhx3 and Ngn2-Isl1-Phox2a transcription factors program embryonic stem cells to express a spinal or cranial motor neuron identity respectively. The two alternate expression programs are determined by recruitment of Isl1/Lhx3 and Isl1/Phox2a pairs to distinct genomic locations characterized by two alternative dimeric homeobox motifs. These results suggest that the function of programming modules relies on synergistic interactions among transcription factors and thus cannot be extrapolated from the study of individual transcription factors in a different cellular context.
+
+DESIGN
+In this study, we functionally characterize induced motor neurons that have been directly generated from ES cells via the forced expression of two different combinations of three transcription factors. Spinal motor neurons are induced via the expression of Ngn2, Isl1, and Lhx3 (iNIL), while cortical motor neurons are induced via the expression of Ngn2, Isl1, and Phox2a (iNIP). Here we profile the gene expression patterns of both types of induced motor neurons, directed differentiation motor neurons, and control cells. In all, 20 microarray experiments are provided in this submission, including 3 replicates of a control condition, 3 replicates of cells that have 24hrs induction of iNIL, 2 replicates of induced spinal motor neurons (induction of iNIL for 48hrs) that have been Hb9-GFP sorted, 3 replicates of induced spinal motor neurons exposed to retinoic acid that have been Hb9-GFP sorted, 3 replicates of motor neurons that have been differentiated in vitro using RA and Hh signalling, 3 replicates of induced cortical motor neurons (induction of iNIP for 48hrs), and 3 replicates of cells in which Isl1 in induced alone (induction of iI for 48hrs). For ChIP-Seq Samples: In this study, we functionally characterize induced motor neurons that have been directly generated from ES cells via the forced expression of two different combinations of three transcription factors. Spinal motor neurons are induced via the expression of Ngn2, Isl1, and Lhx3 (iNIL), while cortical motor neurons are induced via the expression of Ngn2, Isl1, and Phox2a (iNIP). The genome-wide binding of some of the programming factors is characterized here using ChIP-seq. We characterize the binding of Lhx3 and Isl1/2 in iNIL cells, Phox2a and Isl1/2 in iNIP cells, and Isl1/2 in cells in which Isl1 is induced alone (iI). There are 7 Illumina sequence datasets in this submission; one replicate for each of iLhx3-V5 and Isl1/2 in iNIL cells, two replicates for each of iPhox2a-V5 and Isl1/2 in iNIP cells, and one replicate for Isl1/2 in iI cells. An appropriate pseudo-IP control experiment is included.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version] GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+23872598
+

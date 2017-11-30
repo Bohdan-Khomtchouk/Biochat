@@ -1,0 +1,18 @@
+TITLE
+Senseless-responsive genes in larval salivary glands of late Drosophila prepupae
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+When misexpressed in late Drosophila prepupae, the transcription factor Senseless (Sens) blocks death of the larval salivary glands that normally occurs in the early pupa. The aim of the experiment was to identify genes responding to Sens that might mediate the effect of the protein on cell death and other biological processes. The yeast transcription factor GAL4, expressed from a heat-inducible transgene (P{GAL4-Hsp70.PB}89-2-1), was used to drive expression of Sens from a UAS-sens transgene.  After crossing the GAL4 and UAS lines, expression of GAL4 was induced by a 30-min heat shock treatment (37 °C) of the progeny at 9 hours after puparium formation. Salivary glands were dissected at 14 hours after puparium formation and RNA isolated for microarray analysis with Affymetrix GeneChips. Control samples were obtained from animals treated the same way carrying one copy of the GAL4 transgene (progeny of a cross between flies of the P{GAL4-Hsp70.PB}89-2-1 and w1118 strains) and  w1118 animals. The microarray data identified several genes associated with programmed cell death, including caspase genes, which respond to Sens. In addition, the data show that many Drosophila genes respond to the yeast transcription factor GAL4 in a UAS-independent manner. To identify target genes of Sens that are of biological relevance, gene expression patterns in the presence of Sens were compared to gene expression patterns in both the presence and the absence of GAL4. This comparison revealed that Sens seems to preferentially downregulate targets that are upregulated by GAL4, suggesting that these genes may not necessarily constitute true transcriptional targets of Sens. Keywords: ectopic expression experiment
+
+DESIGN
+Experimental RNA samples were obtained in 3 biological replicates from sens-expressing salivary glands (SG_sens_14APF_rep1, SG_sens_14APF_rep2, SG_sens_14APF_rep3) and compared to control samples obtained from GAL4-expressing salivary glands (SG_1P{hsGAL4}89(S)_14APF_rep1) and non-GAL4-expressing salivary glands (SG_w1118_14APF_rep1, SG_w1118_14APF_rep2). All samples were compared using dChip and normalized to the same baseline array (median intensity 150).
+
+PLATFORM
+GPL1322 [Drosophila_2] Affymetrix Drosophila Genome 2.0 Array
+
+CITATIONS
+18820459
+

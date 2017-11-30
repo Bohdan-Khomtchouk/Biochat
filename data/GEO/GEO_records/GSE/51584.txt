@@ -1,0 +1,18 @@
+TITLE
+Expanded identification and characterization of mammalian circular RNAs
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The recent reports of two circular RNAs (circRNAs) with strong potential to act as microRNA (miRNA) sponges suggest that circRNAs might play important roles in regulating gene expression. However, the global properties of circRNAs are not well understood. We developed a computational pipeline to identify circRNAs and quantify their relative abundance from RNA-seq data. Applying this pipeline to a large set of non-poly(A)-selected RNA-seq data from the ENCODE project, we annotated 7,112 human circRNAs that were estimated to comprise at least 10% of the transcripts accumulating from their loci. Most circRNAs are expressed in only a few cell types and at low abundance, but they are no more cell-type–specific than are mRNAs with similar overall expression levels. Although most circRNAs overlap protein-coding sequences, ribosome profiling provides no evidence for their translation. We also annotated 635 mouse circRNAs, and although 20% of them are orthologous to human circRNAs, the sequence conservation of these circRNA orthologs is no higher than that of their flanking linear exons. The previously proposed miR-7 sponge, CDR1as, is one of only two circRNAs with more miRNA sites than expected by chance, with the next best miRNA-sponge candidate deriving from a primate-specific zinc-finger gene, ZNF91. These results provide a new framework for future investigation of this intriguing topological isoform while raising doubts regarding a biological function of most circRNAs.
+
+DESIGN
+Examination of 9 samples in 1 cell type Note: The ENCODE data we used are under GEO SuperSeries GSE26284 (all samples labeled " _cell_total " ). But they were not used in the processing of the U2OS data.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25070500
+

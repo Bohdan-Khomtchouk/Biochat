@@ -1,0 +1,18 @@
+TITLE
+Whole-transcript expression data for liposarcoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Liposarcoma is the most common soft tissue sarcoma, accounting for about 20% of cases. Liposarcoma is classified into 5 histologic subtypes that fall into 3 biological groups characterized by specific genetic alterations. To identify genes that contribute to liposarcomagenesis and to better predict outcome for patients with the disease, we undertook expression profiling of liposarcoma. U133A expression profiling was performed on 140 primary liposarcoma samples, which were randomly split into training set (n=95) and test set (n=45). A multi-gene predictor for distant recurrence-free survival (DRFS) was developed using the supervised principal component method. Expression levels of the 588 genes in the predictor were used to calculate a risk score for each patient. In validation of the predictor in the test set, patients with low risk score had a 3-year DRFS of 83% vs. 45% for high risk score patients (P=0.001). The hazard ratio for high vs. low score, adjusted for histologic subtype, was 4.42 (95% confidence interval 1.26-15.55; P=0.021). The concordance probability for risk score was 0.732.  Genes related to adipogenesis, DNA replication, mitosis, and spindle assembly checkpoint control were all highly represented in the multi-gene predictor. Three genes from the predictor, TOP2A, PTK7, and CHEK1, were found to be overexpressed in liposarcoma samples of all five subtypes and in liposarcoma cell lines. Knockdown of these genes in liposarcoma cell lines reduced proliferation and invasiveness and increased apoptosis. Thus, genes identified from this predictor appear to have roles in liposarcomagenesis and have promise as therapeutic targets. In addition, the multi-gene predictor will improve risk stratification for individual patients with liposarcoma.
+
+DESIGN
+140 human liposarcoma specimens were profiled on Affymetrix U133A arrays per manufacturer's instructions.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+21335544
+

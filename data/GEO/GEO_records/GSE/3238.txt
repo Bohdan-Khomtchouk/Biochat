@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis of Paracoccidioides brasiliensis cells undergoing the Mycelium-to-Yeast transition
+
+ORGANISM
+Paracoccidioides brasiliensis
+
+SUMMARY
+Paracoccidioides brasiliensis is a thermodimorphic fungus associated with paracoccidioidomycosis (PCM), a prevalent systemic mycosis in South America. In humans, infection starts by inhalation of fungal propagules, which reach the pulmonary epithelium and transform into the yeast parasitic form. Thus, the mycelium-to-yeast transition is of particular interest because conversion to yeast is essential for infection. We have used a P. brasiliensis biochip, carrying sequences of 4,692 genes from this fungus to monitor gene expression at several time points of the mycelium-to-yeast morphological shift (from 5 to 120 h). Keywords: Time Course
+
+DESIGN
+Microarray hybridizations were carried out with RNA obtained from cells harvested at 5, 10, 24, 48, 72 and 120 h after setting the temperature shift from 26 to 37oC. The RNA obtained from the original mycelial culture was taken as reference (t = 0 h). Each time point was analyzed with four independent hybridizations (two pairs of dye-swap hybridizations). The hybridizations labeled as " Exp1 " and " Exp2 " have been performed with independent RNA preparations. Since each biochip carried two replicas of the arrayed genes, a total of eight samples were generated for each timepoint. The data has been filtered, normalized and adjusted as described in the " data processing " box for each individual sample. Dye swap consistency checking has been performed between equivalent experimental pairs with the aid of the software TIGR MIDAS v2.19 and inconsistent spots have been flagged and excluded from further analyses. The values obtained from each dye swap pair have been averaged and consolidated into a single data file, generating a total of 24 hybridization files (four from each timepoint). These files have been loaded into the software TIGR MIDAS v. 3.03. Experiments were then normalized and genes that displayed statistically significant modulation were identified by one-way ANOVA, considering p < 0.01 as a cutoff value. A list of statisticaly significant, modulated genes was created, showing the average log ratio for each one of these genes, within each time point
+
+PLATFORM
+GPL2780 Paracoccidioides brasiliensis microarray v1
+
+CITATIONS
+16339729
+

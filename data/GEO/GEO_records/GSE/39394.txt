@@ -1,0 +1,18 @@
+TITLE
+Expression data from fibroblasts treated with TGF-Beta
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The survival of isolated metastatic cells and expansion into macroscopic tumour has been recognized as a limiting step for metastasis formation in several cancer types yet the determinants of this process remain largely uncharacterized. In colorectal cancer (CRC), we identify a transcriptional programme in tumour-associated stromal cells, which is intimately linked to a high risk of developing recurrent disease after therapy. A large proportion of CRCs display mutational inactivation of the TGF-beta pathway but paradoxically they are characterized by high TGF-beta production. In these tumours, TGF-beta instructs a transcriptional programme in stromal cells, which confers a high risk of developing metastatic disease. We quantified the association of TGF-beta-activated fibroblasts with disease progression. To this end, we used as surrogates the gene expression programme upregulated by addition of TGF-beta to normal colon mucosa-derived fibroblasts (CCD-Co-18) in culture.
+
+DESIGN
+CCD-Co-18 were seeded at 60% confluence and treated with TGF-β1. Gene expression profiles were measured in duplicate using HG-U133 plus 2.0. We used RMA background correction, quantile normalization and RMA summarization (Gautier et al., 2004). A TGF-β response signature was obtained by selecting genes with limma P-value < 0.05 and at least two fold up-regulation in TGF-β treated fibroblasts.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+23153532
+

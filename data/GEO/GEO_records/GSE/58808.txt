@@ -1,0 +1,18 @@
+TITLE
+Break-Seq of DNA double stranded breaks in Saccharomyces cerevisiae WT and mec1 cells after exposure to hydroxyurea
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We previously demonstrated that inactivation of the replication checkpoint via a mec1 mutation led to chromosome breakage at replication forks initiated from virtually all origins of replication, after transient exposure to hydroxyurea (HU), an inhibitor of ribonucleotide reductase.  Furthermore, we have shown that chromosomes break at replication forks that have suffered single-stranded DNA (ssDNA) formation.  Here we sought to determine whether all replication forks containing ssDNA gaps have equal probability of producing double strand breaks (DSBs) when cells attempt to recover from HU exposure.  We devised a new methodology, Break-Seq, that combines our previously described DSB labeling with NextGen sequencing to map chromosome breaks with improved sensitivity and resolution.  We show that DSBs preferentially occur at genes transcriptionally induced by HU.  Notably, different subsets of the HU-induced genes produced DSBs in MEC1 and mec1 cells as replication forks traversed greater distance in MEC1 cells than in mec1 cells during the recovery from HU.  Specifically, while MEC1 cells exhibited chromosome breakage at stress-response transcription factors, mec1 cells predominantly suffered chromosome breakage at transporter genes, many of which are the substrates of the said transcription factors.  We propose that HU-induced chromosome fragility arises at higher frequency near HU-induced genes as a result of destabilized replication forks encountering transcription factor binding and/or the act of transcription.  Our model provides an explanation for a long-standing problem in chromosome biology: why different replication inhibitors produce different spectra of chromosome breakage?  We propose that different inhibitors elicit different transcription responses as well as destabilize replication forks, and, when the two processes collide, ssDNA at the replication fork suffers further strand breakage, causing DSBs.
+
+DESIGN
+We queried the yeast genome for DSBs after cells were treated with 200 mM hydroxyurea during S phase.  Samples were collected from 1) cells synchronized in G1 phase by alpha factor; 2) cells released from G1 into medium containing 200 mM hydroxyurea for 1 h; 3) cells recovering in fresh medium without hydroxyurea for 1 h after the 1 h exposure to HU.  These samples are referred to as G1, HU 1h, and R 1h, respectively.   The strains from which the samples were collected are indicated following the time point, e.g. G1_MEC1 or R 1h_mec1.  The experiment with mec1 was done twice (Experiments A and B) and that with MEC1 was done once (Experiment C).  In addition, a control experiment of in vitro digestion with BamHI using the G1_mec1 sample (G1_BamHI) was performed.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae) GPL17143 Illumina MiSeq (Saccharomyces cerevisiae)
+
+CITATIONS
+25609572
+

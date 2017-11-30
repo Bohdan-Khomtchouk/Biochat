@@ -1,0 +1,18 @@
+TITLE
+Vitamin D and microRNA Expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Vitamin D has been observed to affect the expression of a number of genes, however its mechanism of action has not been completely elucidated. MicroRNA molecules have recently been shown to be key mediators of gene regulation. We hypothesised therefore that vitamin D might modulate gene expression by influencing the expression of microRNAs.  Methodology/Principal findings: A microRNA array was used to investigate the expression of microRNAs in RNA extracted from cells exposed to calcitriol for 0, 8 or 36 hours.  A diverse panel of human cell lines were analysed including Hep-G2, HL60, K562, two fibroblast cell lines (AG09309 and AG09319), and four lymphoblastoid cell lines (GM15084, GM12878, GM07348 and GM07019).  When compared between 0, 8 and 36 hours of calcitriol treatment, there were several microRNAs that were differentially regulated but the significance of these was lost after correction for multiple hypothesis testing.  Conclusions/Significance: No microRNA showed significantly altered expression after exposure to vitamin D.  However, some nominally significant miRNA molecules may warrant further investigation for a potential vitamin D-related role in immune function.
+
+DESIGN
+We used nine cell lines (Hep-G2, HL60, K562, AG09309, AG09319, GM15084, GM12878, GM07348 and GM07019).  These were cultured in RPMI-1640 supplemented with 10% fetal bovine serum, 0.2 mM L-glutamine at 37 oC in 5% humidified CO2.  We stimulated cells with 0.1 microM calcitriol for 0 hours, 8 hours or 36 hours.  We performed 2 replicates of each condition with each cell line.  After harvesting, cells were lysed in 500 uL of lysis buffer (Promega).  Homogenised samples were immediately stored at -80 oC.  The quality of the total RNA was verified by an Agilent 2100 Bioanalyzer profile. 400 ng total RNA from sample and reference was labelled with Hy3™ and Hy5™ fluorescent label, respectively, using the miRCURY™ LNA Array power labelling kit (Exiqon, Denmark) following the procedure described by the manufacturer. The Hy3™-labeled samples and a Hy5™-labeled reference RNA sample were mixed pair-wise and hybridized to the miRCURY™ LNA array version 11.0 (Exiqon, Denmark), which contains capture probes targeting all miRNAs for human, mouse or rat registered in the miRBASE version 14.0 at the Sanger Institute. The hybridization was performed according to the miRCURY™ LNA array manual using a Tecan HS4800 hybridization station (Tecan, Austria). After hybridization the microarray slides were scanned and stored in an ozone free environment (ozone level below 2.0 ppb) in order to prevent potential bleaching of the fluorescent dyes. The miRCURY™ LNA array microarray slides were scanned using the Agilent G2565BA Microarray Scanner System (Agilent Technologies, Inc., USA) and the image analysis was carried out using the ImaGene 8.0 software (BioDiscovery, Inc., USA). The quantified signals were background corrected (Normexp with offset value 10 [21]) and normalized using the global Lowess (LOcally WEighted Scatterplot Smoothing) regression algorithm.
+
+PLATFORM
+GPL7723 miRCURY LNA microRNA Array, v.11.0 - hsa, mmu & rno
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

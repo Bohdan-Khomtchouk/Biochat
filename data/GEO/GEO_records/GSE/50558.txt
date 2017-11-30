@@ -1,0 +1,18 @@
+TITLE
+Intraspecific variation of recombination rate in maize
+
+ORGANISM
+Zea mays
+
+SUMMARY
+The data set submitted here contains the raw SNP genotyping data obtained from the analysis of 24 biparental segregating maize (Zea mays L.) populations and their respective parents. The processed and filtered data were used to construct genetic linkage maps which we used in our study of variation of recombination rate in maize. In sexually reproducing organisms, meiotic crossovers ensure the proper segregation of chromosomes and contribute to genetic diversity by shuffling allelic combinations. Such genetic reassortment is exploited in breeding to combine favorable alleles, and in genetic research to identify genetic factors underlying traits of interest via linkage or association-based approaches. Crossover numbers and distributions along chromosomes vary between species, but little is known about their intraspecies variation. In our study, we report on the variation of recombination rates between 22 European maize inbred lines that belong to the Dent and Flint gene pools. We genotyped 23 doubled-haploid populations derived from crosses between these lines with a 50k-SNP array and constructed high-density genetic maps, showing good correspondence with the maize B73 genome sequence assembly. By aligning each genetic map to the B73 sequence, we obtained the recombination rates along chromosomes specific to each population. We identified significant differences in recombination rates at the genome-wide, chromosome, and intrachromosomal levels between populations, as well as significant variation for genome-wide recombination rates among maize lines. Crossover interference analysis using a two-pathway modeling framework revealed a negative association between recombination rate and interference strength. To our knowledge, the present work provides the most comprehensive study on intraspecific variation of recombination rates and crossover interference strength in eukaryotes. Differences found in recombination rates will allow for selection of high or low recombining lines in crossing programs. Our methodology should pave the way for precise identification of genes controlling recombination rates in maize and other organisms.
+
+DESIGN
+We genotyped 2233 maize DH lines from 24 biparental populations, and the 23 parents of these populations using the Illumina MaizeSNP50 BeadChip. We created two large half-sib panels, one each for the Dent and the Flint germplasm. The Dent populations have the prefix CFD, the Flint populations have the prefix CFF. In each panel, a common central parent was crossed to diverse founder lines, and doubled haploids were generated from the respective F1 plants. For a detailed description of the material, see Bauer et al. (2013) Genome Biology (submitted). We submit here three datasets: 1) Dataset Parents comprises all 23 parental lines. 2) Dataset CFD comprises all 1005 DH lines from Dent crosses, 3) Dataset CFF comprises all 1262 DH lines from Flint crosses.
+
+PLATFORM
+GPL17677 Illumina MaizeSNP50 BeadChip
+
+CITATIONS
+24050704 , 25236445
+

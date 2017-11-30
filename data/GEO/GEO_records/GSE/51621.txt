@@ -1,0 +1,18 @@
+TITLE
+Comprehensive Functional Annotation of 77 Prostate Cancer Risk Loci
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association studies (GWAS) have revolutionized the field of cancer genetics, but the causal links between increased genetic risk and onset/progression of disease processes remain to be identified. Here we report the first step in such an endeavor for prostate cancer. We provide a comprehensive annotation of the 77 known risk loci, based upon highly correlated variants in biologically relevant chromatin annotations- we identified 727 such potentially functional SNPs.  We also provide a detailed account of possible protein disruption, microRNA target sequence disruption and regulatory response element disruption of all correlated SNPs at r^2≥0.5.  Greater than 88% of the 727 SNPs fall within putative enhancers, many of which alter critical residues in the response elements of transcription factors known to be involved in prostate biology. We define as risk enhancers those regions with enhancer chromatin biofeatures in prostate-derived cell lines with prostate-cancer correlated SNPs. To aid in the identification of these enhancers, we performed genomewide ChIP-seq for H3K27-acetylation, a mark of actively engaged enhancer regions, as well as the transcription factor TCF7L2. We analyzed in depth three variants in risk enhancers, two of which show significantly altered androgen sensitivity in LNCaP cells. This includes rs4907792, that is in linkage disequilibrium (r^2=0.91) with an eQTL for NUDT11 (on the X chromosome) in prostate tissue, and rs10486567, the index SNP in intron 3 of the JAZF1 gene on chromosome 7. Rs4907792 is within a critical residue of a strong consensus androgen response element that is interrupted in the protective allele, resulting in a 56% decrease in its androgen sensitivity, whereas rs10486567 affects both NKX3-1 and FOXA-AR motifs where the risk allele results in a 39% increase in basal activity and a 28% fold-increase in androgen stimulated enhancer activity. Identification of such enhancer variants and their potential target genes represents a preliminary step in connecting risk to disease process.
+
+DESIGN
+ChIP-seq analysis of H3K27Ac in LNCaP charcoal-stripped serum, H3K27Ac in LNCaP charcoal-stripped serum +DHT, TCF7L2 in LNCaP
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens) GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+24497837
+

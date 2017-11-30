@@ -1,0 +1,18 @@
+TITLE
+The Rpd3 Core Complex is a Chromatin Stabilization Module
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The S. cerevisiae Rpd3 large (Rpd3L) and small (Rpd3S) histone deacetylase (HDAC) complexes are prototypes for understanding transcriptional repression in eukaryotes [1]. The current view is that they function by deacetylating chromatin, thereby limiting accessibility of transcriptional factors to the underlying DNA. However, an Rpd3 catalytic mutant retains substantial repression capability when targeted to a promoter as a LexA fusion protein [2]. We investigated the HDAC-independent properties of the Rpd3 complexes biochemically and discovered a chaperone function, which promotes histone deposition onto DNA, and a novel activity, which prevents nucleosome eviction but not remodeling mediated by the ATP-dependent RSC complex. These HDAC-independent activities inhibit Pol II transcription on a nucleosomal template. The functions of the endogenous Rpd3 complexes can be recapitulated with recombinant Rpd3 core complex comprising Sin3, Rpd3, and Ume1. To test the hypothesis that Rpd3 contributes to chromatin stabilization in vivo, we measured histone H3 density genomewide and found that it was reduced at promoters in an Rpd3 deletion mutant but partially restored in a catalytic mutant. Importantly, the effects on H3 density are most apparent on RSC-enriched genes [3]. Our data suggest that the Rpd3 core complex could contribute to repression via a novel nucleosome stabilization function.
+
+DESIGN
+H3 were ChIP'd from yeast strains and normalized to input.
+
+PLATFORM
+GPL4130 Agilent-014741 Yeast Whole Genome ChIP-on-Chip Microarray 244K (G4491A)
+
+CITATIONS
+22177115
+

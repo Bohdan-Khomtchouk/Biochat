@@ -1,0 +1,18 @@
+TITLE
+Gene-level summary data from Affymetrix Human Exon 1.0 ST array
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Affymetrix Human Exon 1.0 ST array was used to measure differential splicing patterns in archived RNA isolated from 26 of 80 children (11 Rejectors and 15 Non-Rejectors). The gene-level probe summaries reported in this series were computed using the Affymetrix Power Tools (APT) software and 'rma-sketch' normalization method. Keywords: Affymetrix 1.0 ST exon array; gene-level analysis
+
+DESIGN
+The gene-level normalized intensities (NI) were computed with the MiDAS algorithm and both the splicing index (SI) and Student's t-test p-values (two-sided) were computed on the NI values in R.  To remove low expressed gene-level probes, those with values less than 3.5 (log2 scale) in > 50% of the samples in either group were filtered out leaving 17,242 of the original 22,011 probes. Those gene-level probes that were highly differentially expressed between groups were also removed using a fold change threshold of log2. This step accounts for the tendency for the genelevel probe set intensities in each group to be " disproportionately affected by background noise or saturation " (Affymetrix Technical notes).
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+18639552
+

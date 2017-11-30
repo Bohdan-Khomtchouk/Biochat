@@ -1,0 +1,18 @@
+TITLE
+Sequence Features Accurately Predict Genome-wide MeCP2 Binding in vivo
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+MECP2 is critical for proper brain development and expressed at near-histone levels in neurons, but the mechanism of its genomic localization remains poorly understood. Using high-resolution MeCP2 binding data, we show that genetic features alone can predict binding with 88% accuracy. Integrating MeCP2 binding and DNA methylation in a probabilistic graphical model, we demonstrate that previously reported methylation preferences may be due to MeCP2’s affinity to GC-rich chromatin, a result replicated using published data. Furthermore, MeCP2 co-localized with nucleosomes, and Mecp2 deletion led to nucleosome repositioning. Finally, MeCP2 binding downstream of promoters correlated with increased expression in Mecp2 deficient neurons.
+
+DESIGN
+Study of genetic and epigenetic determinants of MeCP2 binding using MeCP2 ChIP-seq, MNase-seq, Bisulfite-seq and  RNA-seq. Please see individual  sample record  for details on experimental design.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27008915
+

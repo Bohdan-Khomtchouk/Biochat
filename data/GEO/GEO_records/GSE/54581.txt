@@ -1,0 +1,18 @@
+TITLE
+Selective mRNA translation during eIF2 phosphorylation induces expression of IBTKalpha
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Disruption of protein folding in the endoplasmic reticulum triggers the Unfolded Protein Response (UPR), a transcriptional and translational control network designed to restore protein homeostasis. Central to the UPR is PERK phosphorylation of the alpha subunit of eIF2 (eIF2~P), which represses global translation coincident with preferential translation of mRNAs, such as ATF4 and CHOP, that serve to implement the UPR transcriptional regulation. In this study, we used sucrose gradient ultracentrifugation and a genome-wide microarray approach to measure changes in mRNA translation during ER stress. Our analysis suggests that translational efficiencies vary across a broad range during ER stress, with the majority of transcripts being either repressed or resistant to eIF2~P, while a notable cohort of key regulators are subject to preferential translation. From this latter group, we identify IBTKa as being subject to both translation and transcriptional induction during eIF2~P in both cell lines and a mouse model of ER stress. Translational regulation of IBTKalpha mRNA involves the stress-induced relief of two inhibitory uORFs in the 5'-leader of the transcript. Depletion of IBTKalpha by shRNA reduced viability of cultured cells coincident with increased caspase 3/7 cleavage, suggesting that IBTKalpha is a key regulator in determining cell fate during the UPR. We used a genome-wide microarray approach to determine how individual mRNAs were differentially translated during endoplasmic reticulum stress.
+
+DESIGN
+A microarray analysis from our laboratory identified gene transcripts suggested to be under translation control in mouse embryonic fibroblast (MEF) cells following a 6 hour treatment with thapsigargin, a potent inducer of ER stress, or no stress. The mRNAs were separated by sucrose gradient analyses to yield three fractions, those transcripts associated with large polysomes (≥4 ribosomes per mRNA), those associated with monosome, disomes, or trisomes, and those fractionated at the top of the gradient with free ribosomes. RNA was extracted from sucrose gradients corresponding to these fractions and hybridized on Affymetrix microarrays. In parallel, we also measured total levels for each gene transcript in the presence or absence of thapsigargin treatment to address transcription regulation coincident with translational control. Please note that the treatment plus fractionation based on association with different numbers of ribosomes did yield different populations of mRNAs, which resulted in considerable variation in normalized data across the samples.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+24648495
+

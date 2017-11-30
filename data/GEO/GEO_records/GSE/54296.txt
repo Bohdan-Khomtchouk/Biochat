@@ -1,0 +1,15 @@
+TITLE
+Transcription Factor Highly Occupied Target (HOT) Regions of 145 Cell Lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: 253 GSM Samples from GSE32970 and GSE29692 was reanalyzed to find the highly occupied target (HOT) regions of 154 cell lines. Methods: 1. We assigned the binding sites of 542 TFs in 154 cell lines as GSE53962 (Our last submission).  2.We performed a Gaussian kernel density estimation across the genome with a bandwidth of 300 bp, using the centers of each of the TF binding peaks as points. Then, we scanned this density for peaks, and denoted each peak a TF region(Candidate region to find HOT regions).To determine the complexity of the TF region, we summed the Gaussian kernalized distance from the peak to each TF that contributed at least 0.1 to its strength. The TF region around eat peak was derived by finding the maximum distance (in bp) from the peak to a contributing TF, and then adding 150 bp (one half of the bandwidth). Each TF region is centered on the peak, and have a TF complexity value.  3.To define HOT region according to the TF complexity, we required a complexity cutoff for each cell line.To geometrically define the cutoff we first scaled the TF complexity such that the x and y axis were from 0-1. We then found the x axis point for which a line with a slope of 1 was tangent to the curve. We define this point as the cutoff value,TF region whose complexity above this point to be HOT region, and TF region complexity below that point to be lowly occupied target (LOT) regions. Result: Using the binding sites of 542 TFs in 145 cell lines, we assigned a TF complexity score to each TF region corresponding to the number of distinct TFs bound, resulting in HOT regions of 145 cell lines.
+
+DESIGN
+TF HOT Regions of 145 Cell Lines. 54 GSM Samples from GSE32970 and 199 GSM Samples from GSE29692 were combined to 154 cell types.
+
+CITATIONS
+26113264
+

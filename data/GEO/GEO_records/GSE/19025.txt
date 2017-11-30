@@ -1,0 +1,18 @@
+TITLE
+Genome-wide binding profile for Heat Shock Factor (HSF).
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Sequence-specific transcription factors (TFs) are critical for specifying patterns and levels of gene expression, but the DNA elements to which they can bind are not always sufficient to specify their binding in vivo.  In eukaryotes, the binding of a TF is in competition with a constellation of other proteins, including histones which package DNA into nucleosomes.  Here, we examine using the ChIP-seq assay, the genome-wide distribution of Drosophila Heat Shock Factor (HSF), a TF whose binding activity is mediated by heat shock-induced trimerization.  We detect HSF binding to 464 sites, the vast majority of which contain HSF Sequence-binding Elements (HSEs) in Drosophila S2 cells, but these HSF-bound sites represent only a small fraction of HSEs present in the genome.  We find a strong correlation of bound HSEs to active chromatin marks present prior to HSF binding, indicating an HSE’s residence in open chromatin is a primary determinant of whether HSF can bind following heat shock.
+
+DESIGN
+A single mock immunoprecipitation (IP) using the pre-innoculated animal serum was used as a background dataset for this study.  For each condition (NHS and 20minute HS), we performed two independent HSF-ChIP-seq experiments.  In addition, we performed two independent HSF-ChIP-seq experiments for each condition (NHS and 20minute HS) in cells that were highly depleted of HSF by RNAi.
+
+PLATFORM
+GPL9061 Illumina Genome Analyzer II (Drosophila melanogaster)
+
+CITATIONS
+20844575
+

@@ -1,0 +1,18 @@
+TITLE
+siRNAs in C2C12
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The two catalytic subunits of the SWI/SNF chromatin remodeling complex - Brg1 and Brm - have been often implicated as essential components of common biological processes, suggesting a functional redundancy between these two proteins. For instance, earlier works indicated that both proteins are required for the activation of the myogenic program. However, their mutually exclusive pattern of incorporation in SWI/SNF complexes with variable composition and functional heterogeneity predicts that Brg1- and Brm-based SWI/SNF complexes execute specific functions to coordinate gene expression in multistep programs, such as skeletal myogenesis. We detected a distinct expression profile of Brg1 and Brm during the myogenic program, with Brm being upregulated in differentiating myocytes. Genetic knockdown of either Brg1 or Brm in skeletal myoblasts, followed by gene expression analysis, revealed discrete functions during myogenic differentiation. While Brm is required for the exit from the cell cycle at the early stages of differentiation, by repressing CyclinD1 transcription, Brg1 is required for the activation of muscle gene transcription. Interestingly, at later stages of differentiation Brg1 and Brm cooperate to the activation of a cluster of common target genes. Thus, Brg1 and Brm appear to coordinate activation and repression of distinct subsets of genes during initial phase myogenesis, and converge to cooperatively activate the expression of muscle genes at later stages.
+
+DESIGN
+C2C12 myoblasts treated with siBRM or siBRG1 or siSCR in growth medium (GM) and differentiated by medium replacemnte (DM ). Celles were collected at 18h and 48h from the onset of DM for RNA extraction and microarray analysis. Arrays were used to generate 6 data sets in duplicate.To address the question of which genes were regulated by BRM and/or BRG1 the fold changes in gene expression were calculated between  Scrambled siRNA and the BRM or BRG1 siRNA.  The experiments were repeated at 2 different time points (18 hours and 48 hours) .
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip
+
+CITATIONS
+26136374
+

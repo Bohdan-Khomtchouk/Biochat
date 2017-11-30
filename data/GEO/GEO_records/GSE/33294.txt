@@ -1,0 +1,18 @@
+TITLE
+Transcriptome sequencing of human hepatocellular carcinoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Deep high-throughput transcriptome sequencing (RNA-seq) performed on 3 pairs of matched tumor and adjacent non-tumorours (NT) tissues from HCC patients of Chinese origin generated 183.6-million reads that could be aligned. We discovered a number of differentially expressed genes and multiple types of somatic single nucleotide variations (SNVs) in expressed genes.  After the removal of the error alignments, high-quality reads were mapped to the human reference sequence (GRCh37/hg19) using three different softwares TopHat, Burrows-Wheeler Aligner (BWA) and CLC Genomics Workbench (CLC).  The high-quality variants were identified using VarScan with the following parameters: minimum coverage depth of 10, variation frequency of more than 30% and base quality of more than 15.  A total of 568, 545 and 494 potential somatic single nucleotide variants (SNVs), including 94, 89 and 101 coding somatic SNVs (cSNVs), were identified in 3 tumor samples HCC448T, HCC473T and HCC510T, respectively. Validation analysis was carried out for 10 of the intersected cSNVs (all are non-synonymous substitutions) within selected genes of interests with the majority confirmed.
+
+DESIGN
+Examination of 3 paired human hepatocellular carcinoma and matched non-tumor tissues
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+23766440
+

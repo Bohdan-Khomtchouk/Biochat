@@ -1,0 +1,18 @@
+TITLE
+Overexpression of BglJ and LeuO in Escherichia coli K12
+
+ORGANISM
+Escherichia coli K-12
+
+SUMMARY
+The only target locus of transcription factor BglJ known to date is the bgl operon, and activation of bgl by BglJ requires RcsB. Transcription factor LeuO is involved in stress responses and known as antagonist of H-NS. To identifiy novel targets of BglJ, we overexpressed BglJ in Escherichia coli K12 and measured differential gene expression by performing DNA microarray analysis. Moreover, to analyze whether all targets of BglJ require RcsB, we overexpressed BglJ in an rcsB deletion background. In addition, we overexpressed LeuO to identifiy targets of LeuO.
+
+DESIGN
+We expressed BglJ from plasmid pKETS1 in Δ(yjjP-yjjQ-bglJ) strain T75 (sample group 1), LeuO from plasmid pKEDR13 (sample group 3) and used empty vector pKESK22 as control (sample group 2). To study dependence of BglJ on RcsB, we expressed BglJ from pKETS1 in Δ(yjjP-yjjQ-bglJ) ΔrcsB strain T175 (sample group 4) and used pKESK22 as control (sample group 5). Additionally, we expressed BglJ from pKETS1 in Δ(yjjP-yjjQ-bglJ) ΔleuO strain T177 (sample group 6) and used pKESK22 as control (sample group 7). For each sample group, four independent biological replicates were analyzed. We interpreted the expression values as follows: comparing expression pattern of sample group 1 with group 2 gives all loci expressed dfferentially in presence of BglJ, comparing group 3 with group 2 gives all loci expressed differentially in presence of LeuO. Comparing group 4 with group 5 gives all RcsB-independent target loci of BglJ. Comparing group 6 with group 7 gives all LeuO-independent target loci of BglJ.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+22295907
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data for human retinal pigment epithelium (RPE)/choroid - early age-related macular degeneration (AMD) and control samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Age-related degeneration (AMD) is a major cause of blindness in developed countries. The molecular pathogenesis of early events in AMD is poorly understood. We investigated differential gene expression in samples of human retinal pigment epithelium (RPE)/choroid from early AMD and control maculas using exon-based arrays. Methods: Gene expression levels in nine early AMD and nine control human donor eyes were assessed using Affymetrix Human Exon ST 1.0 arrays. Two controls did not pass quality control and were removed. Differentially expressed genes were annotated using DAVID, and gene set enrichment analysis (GSEA) was performed on RPE-specific and endothelium-associated gene sets. CFH genotype was also assessed and differential expression was analyzed with respect to high AMD risk (YH/HH) and low AMD risk (YY) genotypes. Results: Seventy-five genes were identified as differentially expressed (raw p-value < 0.01; > 50% fold change, mean log2 expression level in AMD or control ≥ median of all average gene expression values); however, no genes were significant (adj. p-value < 0.01) after correction for multiple hypothesis testing. Of 52 genes with decreased expression in AMD (fold change < 0.5; raw p-value < 0.01), 18 genes were identified by DAVID analysis as associated with vision or neurological processes. GSEA of RPE-associated and endothelium-associated genes revealed a significant decrease in genes typically expressed by endothelial cells in the early AMD group compared to controls, consistent with previous histologic and proteomic studies. Analysis with respect to CFH genotype indicated decreased expression of ADAMTS9 in eyes with high-risk genotypes (fold change = -2.61; raw p-value = 0.0008). Conclusions: GSEA results suggest that RPE transcripts are preserved or elevated in early AMD, concomitant with loss of endothelial cell marker expression. These results are consistent with the notion that choroidal endothelial cell dropout occurs early in the pathogenesis of AMD.
+
+DESIGN
+Using AltAnalyze (ver. 2.0.7 beta), we analyzed nine early AMD and nine control eyes using Affymetrix Human Exon ST 1.0 arrays. Following initial processing in AltAnalyze, two control arrays were identified as potential outliers by tests implement in arrayQualityMetrics, a package for R.
+
+PLATFORM
+GPL17629 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [AltAnalyz probeset-to-Ensembl mapping]
+
+CITATIONS
+24265543
+

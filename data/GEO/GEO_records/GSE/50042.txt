@@ -1,0 +1,18 @@
+TITLE
+Inhibition of phosphodiesterase-4 promotes oligodendrocyte precursor cell differentiation and enhances CNS remyelination
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+We used transcription-profiling to identify mitogen-activated protein kinase (Mapk) signaling as an important regulator involved in the differentiation of oligodendrocyte progenitor cells (OPCs) into oligodendrocytes. We show in tissue culture that activation of Mapk signaling by elevation of intracellular levels of cAMP using administration of either dibutyryl-cAMP or inhibitors of the cAMP-hydrolyzing enzyme phosphodiesterase-4 (Pde4) enhances OPC differentiation. Finally, we demonstrate that systemic delivery of a Pde4 inhibitor leads to enhanced differentiation of OPCs within focal areas of toxin-induced demyelination and a consequent acceleration of remyelination.
+
+DESIGN
+Study was conducted to identify the genes that are differentialy regulated during early time point of OPC differentiation. This study includes reanalyzed data from the following 6 Samples available in GSE24821: [i] 5 days post lesion (dpl) laser captured caudal cerebellar peduncle (CCP) replicates 1-3 (GSM610956-GSM610958), and [ii] 14 dpl laser captured CCP replicates 1-3 (GSM610959-GSM610961). For the reanalyzed data, raw data files were background-corrected, normalized and summarized using the RMA algorithm as implemented in the R statistical programming environment ( http://www.r-project.org ). Differential expression between sample groups was assessed using the moderated t-test as implemented in the limma package for the Bioconductor suite of R bioinformatics software ( http://bioconductor.org ). In order to correct for hypothesis testing on such a scale, P-values relating to differential expression were corrected for multiple testing using FDR correction. Differential expression across sample groups was deemed significant at an FDR of 5% (q < 0.05). The processed data for the reanalyzed dataset is linked below as supplementary file 'GSE50042_reanalyzed_Samples.txt'. The processed data for Samples GSM1213100-GSM1213114 is linked below as supplementary file 'GSE50042_processed_data.txt'.
+
+PLATFORM
+GPL6247 [RaGene-1_0-st] Affymetrix Rat Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+21131950
+

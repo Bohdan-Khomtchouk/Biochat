@@ -1,0 +1,18 @@
+TITLE
+Context Influences on TALE-DNA Binding Revealed by Quantitative Profiling
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+Transcription Activator Like Effector (TALE) proteins have been described as recognizing DNA using a simple DNA-binding code, which has allowed for their use in many techniques requiring precise targeting of genomic loci. The TALE DNA binding domain is composed of an array of short repeats that differ in two key DNA-contacting positions, the repeat variable diresidues (RVD); the identities of the amino acids at these positions determine which base the repeat binds. While this simple code has been used successfully to design TALEs to target specific sequences, off-target binding has also been observed, indicating the need for a more rigorous understanding of the factors that determine TALE specificity. In this study, we assayed the DNA binding specificities of 21 TALE proteins of different lengths and RVD compositions using custom-designed Protein Binding Microarrays (PBMs). Position weight matrices derived from these data were used to develop a model to predict the specificity of any TALE protein. This modeling shows the large influence of protein length, RVD position, and neighboring RVD identity on binding specificity, indicating that the simple cipher-like code does not fully capture the complexity of TALE-DNA binding.
+
+DESIGN
+A set of 21 TALE proteins, with numbers of TALE repeats ranging from 8.5 to 18.5, was chosen to cover all 16 possible RVD pairs. Three types of custom PBMs were designed to test the effects of substitutions in the binding sites on binding.
+
+PLATFORM
+GPL18593 Agilent TALE_v1 GPL18594 Agilent TALE_v2a_1 GPL18595 Agilent TALE_v2a_2 GPL18596 Agilent TALE_v2b GPL18597 Agilent TALE_v3
+
+CITATIONS
+26067805
+

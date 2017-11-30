@@ -1,0 +1,18 @@
+TITLE
+Using transcriptomic tools to evaluate biological effects across effluent gradients at a diverse set of study sites in Minnesota, USA
+
+ORGANISM
+Pimephales promelas
+
+SUMMARY
+To assess the impact of a municiple effluent across different environments, a gradient design (upstream, downstream, and at effluent) was set up across three waste water treatment plant outflows in three different regions of MN.  These three sites represents vastly different land use and contamination profiles.  The upstream location at each site was used as a point of comparison to reduce site specific differences in water.  Fish were exposed at three sites in three locations for 4 days.  The objectives of the study were to 1). determine if biological impact of the effluent could be detected at the downstream site; 2). If the use of the upstream site would allow point source influence to be detected over the ambient level of biological activity; 3). if using functional analyses of transcriptomic results would show similarities between effleunt and downstream sites. The current series contains n=53 microarrays associated with fish exposed at three locations (upstream, effluent, downstream) at 3 different site R, H, E for 4 days until tissues were collected
+
+DESIGN
+At the specific locations (UP, EF, DS), sexually mature female fathead minnows (SI-SM2) were exposed to location specific water in mini-mobile environmental monitoring units (MMU)14  for a period of 4d, at each of three sites (R, H, E) during the summer and fall of 2010 (SI-SM3).  The MMUs allowed for consistency in aeration, temperature, and feeding.  In the case of the riverine R and H sites, the MMU was supplied with a continuous flow of location-specific water.  Due to logistical constraints, exposures at the lake site (E) were conducted under static renewal conditions within the MMUs.  However, the cumulative number of daily water exchanges were equivalent to those in the flow-through studies.  After exposure fish were anesthetized (buffered MS-222), and necropsied at a facility near the site, specific tissues were excised and flash frozen in liquid nitrogen, and stored at -80°C. Gonads were removed from female and flash-frozen for gene expression analyses using microarray. Ovarian transcripts from six females per location (three locations per site, three sites) were analyzed using a custom 15,000 feature microarray (GEO Platform Accession GPL9248). Data sets for this phase (n=53 microarrays)  were normalized independently using Fastlo (Ballman et al., 2004) implemented in R ( http://www.r-project.org/ ), but analyzed using parallel approaches.
+
+PLATFORM
+GPL9248 Agilent-019597 FHM_Denslow_8x15K [Feature Number version]
+
+CITATIONS
+24433150
+

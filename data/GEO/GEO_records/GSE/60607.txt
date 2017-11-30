@@ -1,0 +1,18 @@
+TITLE
+Affymetrix SNP 6.0 data for individuals with Trisomy 21 or Down syndrome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Individuals with Down syndrome (DS) are at an increased risk for developing congenital heart defects especially atrioventricular septal defects (AVSD). Our goal was to identify the contribution of copy number variants (CNV) to DS-associated AVSD. We used the Affymetrix SNP 6.0 genotyping platform to comprehensively characterize CNVs in 452 ethnically matched individuals with DS, comprising of 210 cases (DS + complete AVSD) and 242 controls with a structurally normal heart (DS + NH). Results from burden and region-wise analyses using PLINK revealed that despite the 2000 fold elevated risk, common CNVs of large effect (OR > 2.0) do not account for the increased risk observed in DS-associated AVSD. In contrast, cases do harbor a significantly elevated burden of large rare variants ( > 100kb, < 1% frequency) (p < 0.01) and case deletions intersect genes more often than those observed in controls (p < 0.007). Gene enrichment analysis showed a trend for enrichment among deletions impacting the ciliome pathway in cases compared to controls. Our findings suggest that the etiology of AVSD is highly complex and does not arise from the action of a few common variants of large effect. Instead, our data support a multifactorial model, wherein large rare deletions play a significant role in elevating the risk of AVSD in a trisomic background.
+
+DESIGN
+Copy Number Variation Analysis of individuals with DS using Affymetrix SNP 6.0 genotyping platform. A composite reference was generated using the same dataset to derive the log2 ratios using Affymetrix Power Tols (APT). Submitting here the preliminary data from 437 subjects, 15 were excluded due to privacy concerns.
+
+PLATFORM
+GPL6801 [GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array
+
+CITATIONS
+25341113 , 26194203
+

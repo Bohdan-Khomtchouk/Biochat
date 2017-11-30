@@ -1,0 +1,18 @@
+TITLE
+A map of mobile DNA insertions in the NCI-60 human cancer cell panel
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The National Cancer Institute-60 (NCI-60) cell lines are among the most widely used models of human cancer. They provide a platform to integrate DNA sequence information, epigenetic data, RNA and protein expression, and pharmacologic susceptibilities in studies of cancer cell biology. Genome-wide studies of the NCI-60 have included exome sequencing, karyotyping, and copy number analyses but have not targeted repetitive sequences. Interspersed repeats are a significant source of heritable genetic variation, and insertions of active elements can occur somatically in malignancy. To approach a functional understanding of these sequences in transformed cells, we used transposon insertion profiling (TIP) to map Long INterspersed Element-1 (LINE-1, L1) and Alu Short INterspersed Element (SINE) insertions in cancer genes in NCI-60 cells. As expected, this identified known insertions, polymorphisms shared in unrelated tumor cell lines, as well as unique, potentially tumor-specific insertions. Here, we report a map of these insertion sites and conduct association analyses relating individual insertions to a variety of cellular phenotypes.
+
+DESIGN
+60 cell lines representing nine different types of neoplasias were mapped for LINE-1 and Alu transposable elements using a TIP-CHIP microarray tiling known cancer genes Please note that a technique called TIP-Chip was used to discover transposable elements (TE) in the NCI-60 cancer cell lines. The process uses labeled unique 3' DNA amplicons adjacent to these elements to map the TEs in the genome. These 3' amplicons are hybridized to the array and serve as a marker to identify a genomic coordinate. When the array scanner generate .gff output files as raw data output files on which clean-up algorithms and subsequent analysis were performed (resulting in peak files in text format).
+
+PLATFORM
+GPL21986 NimbleGen Human 2.1M array v1.0 [110201_HG19_KB_ChIP_HX1]
+
+CITATIONS
+27807467
+

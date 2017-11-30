@@ -1,0 +1,18 @@
+TITLE
+Microarray analysis of gene expression in the kidneys and testes of mice after low-dose-rate irradiation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Measuring global gene expression using cDNA or oligonucleotide microarrays is an effective approach to understanding the complex mechanisms of the effects of radiation. However, few studies have been carried out that investigate gene expression in vivo after prolonged exposure to low-dose-rate radiation. In this study, C57BL/6J mice were continuously irradiated with γ-rays for 485 days at dose-rates of 0.032 – 13 μGy/min. Gene expression profiles in the kidney and testis from irradiated and unirradiated mice were analyzed, and differentially expressed genes were identified. A combination of pathway analysis and hierarchical clustering of differentially expressed genes revealed that expression of genes involved in mitochondrial oxidative phosphorylation was elevated in the kidney after irradiation at the dose-rates of 0.65 μGy/min and 13 μGy/min. Expression of cell cycle-associated genes was not profoundly modulated in the kidney, in contrast to the response to acute irradiation, suggesting a threshold in the dose-rate for modulation of the expression of cell cycle-related genes in vivo following exposure to radiation. We demonstrated that changes to the gene expression profile in the testis were largely different from those in the kidney. The Gene Ontology categories “DNA metabolism”, “response to DNA damage” and “DNA replication” overlapped significantly with the clusters of genes whose expression decreased with an increase in the dose-rate to the testis. These observations provide a fundamental insight into the organ-specific responses to low-dose-rate radiation. Key Words: kidney, low-dose-rate, radiation, microarray, mitochondrial oxidative phosphorylation, testis
+
+DESIGN
+3 biological replicates for each experimental group were analysed. GSE14290_Kidney_raw_data.csv contains the raw data for GSM357146, GSM357425, GSM357426, GSM357452 to GSM357460. GSE14290_Testis_raw_data.csv contains the raw data for GSM357471 to GSM357482. In these files, the sample identifiers are included in the column headers.
+
+PLATFORM
+GPL4234 Sentrix Mouse-6 Expression BeadChip
+
+CITATIONS
+19398854
+

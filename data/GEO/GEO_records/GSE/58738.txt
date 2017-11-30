@@ -1,0 +1,18 @@
+TITLE
+Expression Data from Fluorescently Sorted Muscle Subsets
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Skeletal muscles are formed in a variety of shapes and sizes, and this diversity impacts muscle function and disease susceptibility. To understand how muscle diversity is generated, we performed gene expression profiling of muscle subsets from Drosophila embryos. By comparing the transcriptional profiles of two muscle subsets, we identified a core group of founder cell-enriched genes. We screened mutant embryos for muscle defects and identified Sin3A and 10 other transcription and chromatin regulators as having novel functions in the Drosophila embryonic somatic musculature. Sin3A is required for the morphogenesis of a subset of muscles, and Sin3A mutants display muscle loss and misattachment. Additionally, misexpression of identity gene transcription factors in Sin3A heterozygous embryos leads to direct transformations of one muscle into another, while overexpression of Sin3A results in the reverse transformation. Our data implicate Sin3A as a key buffer controlling muscle responsiveness to transcription factors in the formation of muscle identity, thereby generating tissue diversity. We used microarray analysis to look for changes in gene expression between different musle founder cell subsets
+
+DESIGN
+Flies expressing GFP or RFP transgenes were maintained at 25° C on a 12-hour light/12-hour dark cycle in an incubator and fed with yeast paste spread on apple juice agar plates. After a 2-hour pre-lay, flies were allowed to lay for 2 hours; these plates were removed and aged for an additional 8 hours. Embryos were dissociated by dounce homogenization into a single cell suspension as previously described (Dobi et al., 2011). Cells were sorted using standard methods on a Beckton-Dickson FACS Aria Cell Sorter (Estrada and Michelson, 2008). Total cellular RNA from each sample was prepared from sorted cells using TRIzol LS Reagent without amplification (Invitrogen). Total cellular RNA was labeled and hybridized to Drosophila Affymetrix GeneChip 2.0 arrays according to the manufacturers instructions. Three independent sorts were made for each transgene, and each RNA sample was independently labeled and hybridized.    For apME-GFP, we sorted 1,000,000 GFP-positive cells from 4 X 108 starting cells, a positive-rate of 0.03%, which yielded 1 μg of RNA. The purity upon resort of the cells was 74%. The purity of S59ME-RFP and twiprom-actin-GFP was 87% and 95%, respectively, with positive-rates and yields also correspondingly higher.   Affymetrix microarray data was normalized and compared using Partek Genomics Suite Software. apterousME-GFP and slouchME-RFP-positive cells were compared to twiprom-actin-GFP-expressing cells to generate lists of differentially regulated genes, fold change ≥ 1.7, p-value < 0.05. The Database for Annotation, Visualization and Integrated Discovery (DAVID) v6.7 was used to assign Gene Ontology classifications to the genes identified by the array (Huang et al., 2009a; 2009b). Default parameters were used to perform Functional Annotation of gene lists, p-value < 0.05.
+
+PLATFORM
+GPL1322 [Drosophila_2] Affymetrix Drosophila Genome 2.0 Array
+
+CITATIONS
+25088419
+

@@ -1,0 +1,18 @@
+TITLE
+Improved statistical analysis of budding yeast TAG microarrays
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Yeast knockout collection TAG microarrays are an emergent platform for rapid, genome-wide functional characterization of yeast genes. We describe a method for analyzing two-color array data to efficiently represent differential knockout strain representation across two experimental conditions. Using a fully defined spike-in pool, we show that the sensitivity and specificity of this method exceed typical current approaches. Keywords: Saccharomyces cerevisiae, yeast, self_vs_self, spike-in pools
+
+DESIGN
+Two pools were created (“A” and “B”) such that 94 heterozygous yeast knockout strains were differentially represented between the two. The 94 differentially represented strains were diluted 1:1, 1:8, or 1:64 (High, Medium, or Low representation), then added to Pool B. Each strain was then diluted again from 1:2^0.33 to 1:2^5 and added to pool A. One set of strains from each representation group was not added to pool A (dilution 1:2^inf). All other strains are at equivalent representation between the two pools.
+
+PLATFORM
+GPL1444 Hopkins Tag Array
+
+CITATIONS
+16166654
+

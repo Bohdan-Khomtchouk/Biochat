@@ -1,0 +1,18 @@
+TITLE
+Modeling bias and variation in the stochastic processes of small RNA sequencing
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+The use of RNA-seq as the preferred method for the discovery and validation of small RNA biomarkers is hindered by high variability and biased sequence counts. In this paper we develop a statistical model for sequence counts  that accounts for ligase bias and stochastic variation  in library amplification steps and sequencing depth variation.  Our analytical contributions are the description of the Linear Quadratic (LQ) relation between the mean and variance of the sequence counts in an RNA-seq experiment and the derivation of the Poisson truncated mixture as the underlying probability distribution for RNA-seq data.  Using a large number of sequencing datasets, we demonstrate here how one can use this modeling framework to calculate empirical correction factors for ligase bias, while accounting for random variation in sequence counts. Bias correction may remove the majority of bias in the absence of differential expression and more than 40% of the bias in the presence of variable expression of miRNAs. Empirical bias correction factors appear to be nearly constant over at least one and up to four orders of magnitude of total RNA input and independent of sample composition.
+
+DESIGN
+Small RNA libraries were prepared from equimolar or ratiometric mixes of two synthetic RNA pools at the indicated input concentrations using various protocol variations.
+
+PLATFORM
+GPL19424 Illumina NextSeq 500 (synthetic construct)
+
+CITATIONS
+28369495
+

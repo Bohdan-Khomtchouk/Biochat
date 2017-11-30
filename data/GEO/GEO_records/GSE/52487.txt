@@ -1,0 +1,18 @@
+TITLE
+Expression data from Arabidopsis under simualted acid rain treatments
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Acid rain, as a worldwide environmental issue, can cause serious damage to plants. In this study, we provided the first  case study on the systematic responses of arabidopsis (Arabidopsis thaliana (L.) Heynh.) to simulated acid rain (SiAR) by transcriptome  approach. In this dataset, we include the expression data obtained from Arabidopsis with simulated acid rain treatments for 68 hr, and contrasting with control group in the same time. Totally, 439 differetal expression genes were obtained in our stduy. Form them, 13 genes which dramatically changed their expression were found related to S metabolism.
+
+DESIGN
+6 Total samples were analyzed. Total RNA was extracted using the RNeasy Plant Mini Kit (Qiagen). Preparation of labeled target cRNA was carried out following the technical manual of Arabidopsis Genome GeneChip array (Affymetrix). Double-stranded cDNA was synthesized from 5 μg of template total RNA using the One-Cycle cDNA Synthesis kit (Affymetrix), and biotin labeled cRNA was synthesized using the IVT Labeling kit (Affymetrix). The labeled cRNA was purified with GeneChip Sample Cleanup Module (Affymetrix). The quality and quantity of the cRNA was checked by conducting gel electrophoresis. Twenty micrograms of the purified cRNA of each sample was fragmented and hybridized to arrays for 16 h at 45°C. All arrays were washed and stained automatically by using a fluidics Station 450 (Affymetrix) and scanned by GeneChip® scanner 3000 (Affymetrix). All procedures were performed according to the manufacturer’s protocols (Affymetrix). Normalization and expression estimate computation were calculated from the .CEL output files from the Affymetrix GCOS 1.1 software using RMA implemented in R language using standard settings. Statistical testing for differential expression was performed with logic-t analysis. Functional categories were assigned to genes using the AGI number to search the MIPS database ( http://mips.gsf.de/cgi-bin/proj/thal/ ) and the Arabidopsis Information Resource website, TAIR ( http://www.arabidopsis.org/ ).
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

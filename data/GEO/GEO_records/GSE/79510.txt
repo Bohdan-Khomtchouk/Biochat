@@ -1,0 +1,18 @@
+TITLE
+Single-cell RNA sequencing reveals non-canonical brain macrophage activation states in murine neurotrauma
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Background: Macrophage polarization programs, commonly referred to as “classical” and “alternative” activation, are widely considered as distinct states that are exclusive of one another, and are associated with different functions such as inflammation and wound healing, respectively. In a number of disease contexts, such as traumatic brain injury (TBI), macrophage polarization influences the extent of pathogenesis, and efforts are underway to eliminate pathogenic subsets. However, previous studies have not distinguished whether the simultaneous presence of both classical and alternative activation signatures represents the admixture of differentially polarized macrophages, or if they have adopted a unique state characterized by components of both classical and alternative activation. Results: We analyzed the polarization of individual macrophages responding to TBI using single-cell RNA sequencing. Analysis of signature polarization genes revealed diverse activation states, including M(IL4), M(IL10), and M(LPS, IFNγ). However, the expression of a given polarization marker was no more likely than at random to predict simultaneous expression or repression of markers of another polarization program within the same cell, suggesting a lack of exclusivity in macrophage polarization states in vivo in TBI. Also unexpectedly, individual TBI macrophages simultaneously expressed high levels of signature polarization genes across two or three different polarization states, and in several distinct and seemingly incompatible combinations. Conclusions: Single-cell gene expression profiling demonstrated that monocytic macrophages in TBI are not comprised of distinctly polarized subsets, but are uniquely and broadly activated. TBI macrophage activation in vivo is deeply complex, with individual cells concurrently adopting both inflammatory and reparative features. These data provide physiologically relevant evidence that the early macrophage response to TBI is comprised of novel activation states that are discordant with the current paradigm of macrophage polarization—a key consideration for therapeutic modulation.
+
+DESIGN
+Monocyte derived macrophages were isolated from the ipsilateral hemisphere of mouse brains one day following traumatic brain injury elicited by control cortical impact in C57BL/6 adult male mice.   Single-cells were isolated and processed for RNA sequencing using a Fluidigm C1 integrated fluidic circuit chip.  45 biological replicates were analyzed.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27220367
+

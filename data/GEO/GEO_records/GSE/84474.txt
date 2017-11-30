@@ -1,0 +1,18 @@
+TITLE
+Cut-and-Run in situ factor profiling maps DNA binding and 3D contact sites at high resolution
+
+ORGANISM
+Saccharomyces cerevisiae ; Homo sapiens
+
+SUMMARY
+Unlike Chromatin Immunoprecipitation (ChIP), which fragments and solubilizes total chromatin, Cut-and-Run is performed in situ, allowing for both high-resolution chromatin mapping and probing of the local chromatin environment. When applied to yeast and human nuclei, Cut-and-Run yielded precise transcription factor profiles while avoiding cross-linking and solubilization issues. Cut-and-Run is simple to perform and at low temperatures is inherently robust, with extremely low backgrounds that make it especially cost-effective for transcription factor and chromatin profiling. When used in conjunction with native ChIP-seq and applied to human CTCF, Cut-and-Run mapped high-resolution 3D directional interactions. We conclude that Cut- and-Run is a suitable complement or replacement for ChIP-seq that can also provide 3D mapping information.
+
+DESIGN
+We used Cleavage under targets and Release using nuclease (Cut-and-Run), a chromatin profiling strategy in which antibody-targeted controlled cleavage by micrococcal nuclease releases specific protein-DNA complexes into the supernatant for paired-end DNA sequencing.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+28079019
+

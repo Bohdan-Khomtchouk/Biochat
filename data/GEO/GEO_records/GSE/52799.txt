@@ -1,0 +1,18 @@
+TITLE
+Polysome profiling and ribosome footprinting of Drosophila mature oocyte and activated egg
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+We use mRNA-seq in combination with polysome profiling to determine translational status for all mRNAs in Drosophila mature oocytes and activated eggs. Puromycin-treated lysates are used as a negative control in polysome profiling experiments. Additionally, we use ribosome footprinting to globally measure translational efficiency of mRNAs in wild type mature oocytes as well as wild type and png mutant activated eggs.
+
+DESIGN
+Lysates of hand-dissected Drosophila mature oocytes  (containing ~540 μg of total RNA) were subjected to separation by velocity sedimentation through sucrose gradients. In this way, free mRNAs (present in RNPs fraction) or those comigrating with ribosomal subunits (40S or 60S+80S fractions) or with varying numbers of bound ribosomes (low polysomes (2-4 ribosomes), medium polysomes (5-9 ribosomes), and heavy polysomes (more than 10 ribosomes) can be separated based on their size and collected as sucrose gradient fractions. To compare quantitatively the levels of every mRNA across the polysome gradient fractions, we added 5ng of S. cerevisiae mRNA as an exogenous spike-in to each of the six fractions of interest: RNPs, 40S, 60S+80S, low polysomes, medium polysomes and heavy polysomes. RNA was extraced from these fractions, follwing proteinase K treatment, by hot acid phenol method.  In case of unfractionated lysates, RNA was extracted using TRIzol (Invitrogen) according to manufacturer’s instructions. mRNA-seq samples were prepared from 1 μg of total RNA (in case of sucrose gradient fractions and unfractionated lysates) and subject to Illumina based sequencing. Puromycin-treated lysates of mature oocytes or 0-2h Drosophila activated  eggs (containing ~540 μg of total RNA) were also subjected to separation by velocity sedimentation through sucrose gradients. Puromycin causes premature termination of elongating ribosomes and thus it can be used to determine whether the mRNAs co-sedimenting with the polysomal peaks (defined here as ≥5 ribosomes) were actively engaged in translation. As an independent approach to assess translation and obtain information on the position of ribosomes on mRNAs, we employed ribosome footprinting. In addition to analyzing the same samples, as by polysome profiling, we also analyzed png mutant activated eggs by ribosome footprinting. Ribosome footprint profiling measures the number of ribosome-protected fragments (RPFs) derived from the mRNAs of each gene, resulting in a singular value of translational efficiency (TE) for each gene (TE=RPF/RNA).
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+24882012
+

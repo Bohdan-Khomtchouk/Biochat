@@ -1,0 +1,18 @@
+TITLE
+Evaluating the impact of sleep on genome-wide methylation levels in college students
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Approximately 4 μg of DNA was isolated from blood of each of 16 subjects using the Qiagen DNEasy Blood and Tissue Kit.  Of the 16 samples, 8 were from group 1 (CESD-H/TST-H; 5 female, 3 male) and 8 were from group 2 (CESD-H/TST-L; 5 female, 3 male).  All DNA samples were confirmed to be of high purity (A260/280: 1.7-2.0).  Pooled samples were prepared for each group by combining approximately 75 ng of DNA from each of the eight subjects.  These two samples were submitted to the Yale Genomics Core for epigenome-wide methylation profiling using the Illumina Infinium HumanMethylation450 BeadChip, which measures the level of methylation β (a value ranging from 0 to 1, where 0 represents a completely unmethylated site and 1 a completely methylated site) at each of the 485,577 CpG sites on the array.  Illumina’s GenomeStudio software was used to calculate the degree of differential methylation by group for each CpG site on the array, and FDR-adjusted p-values (Q-values) were calculated for each site in order to adjust for multiple comparisons. CESD=depression score; TST=sleep score
+
+DESIGN
+Blood-derived genomic DNA was isolated from 16 subjects; 8 each with high and low total sleep scores, respectively. DNA was pooled by group and genome-wide methylation profiling was performed.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

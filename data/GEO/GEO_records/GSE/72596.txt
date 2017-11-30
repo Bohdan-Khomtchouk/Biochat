@@ -1,0 +1,18 @@
+TITLE
+SMAD2/3 potentiate cell identity conversions with master transcription factors
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The exogenous expression of master transcription factors (TFs) is a powerful and exciting approach to convert cellular identity. Yet, the generation of desired cell types is often plagued by inefficiency, slow kinetics and inability to produce mature cell types. Through investigations of the molecular mechanisms of induced plurpipotent stem cell generation, we discovered that expression of constitutively active Smad2/3 (Smad2CA/3CA), together with the Yamanaka factors, could dramatically improve the efficiency and kinetics of reprogramming. Mechanistically, SMAD3 interacted with both co-activators and reprogramming factors, bridging their interaction during reprogramming. Fascinatingly, SMAD2/3 interact with a multitude of master TFs in different cell types, and conversions of B cells to macrophages, myoblasts to adipocytes, and human fibroblasts to neurons were also markedly enhanced when their master TFs were co-expressed with Smad3CA. These results revealed the existence of shared molecular mechanisms underlying diverse TF-mediated cellular conversions, and demonstrated SMAD2/3 as a widely applicable booster.
+
+DESIGN
+84 samples were analysed. There are 10 sample groups: mouse embryonic fibroblasts (MEF), embryonic stem (ES) and 4 time points for each of two series; MEF: Wild type 129 MEFs were grown to 80% confluence then harvested in Trypsin/EDTA, counted and 2500 cells were processed for sequencing identically to other samples. MEF cultured in Glasgow's Minimum Essential Medium (GMEM), 10% FCS, non-essential amino acids, 2 mM L-Glutamine, 1 mM sodium pyruvate, 100 U/ml penicillin/streptomycin, all from Life technologies) supplemented with 5 ng/ml FGF2 (Peptrotech) and 1 ng/ml heparin (Sigma-Aldrich). ES: TNG-MKOS ES cells were grown to 80% confleunce, harvested in trypsin/EDTA, counted and then 2500 cells were processed for sequencing identically to other samples. ES mdeium is MEF medium supplemented with human LIF 100 U/ml. d*_Sm3CA3: d* samples are reprogramming samples with over-expression of constitutive active Smad3 (Smad3CA), where d* reperesents the number of days since initiating reprogramming. At each time point, cells were lifted with Trypsin/EDTA, FACS sorted for mOrange expressing transgenic cells, and then 2500 cells were processed for sequencing. Reprogramming media consisted of ES medium supplemented with 300 ng/ml doxycycline (Sigma-Aldrich), with 10 ug/ml Vitamin C (Sigma-Aldrich) d*_BFP1: The are the control reprogramming samples with control BFP expression vector infection, prepared the same way as Sm3CA samples. Each sample group has three biological replicates, each of which has 2-3 technical replicates. All samples are present in three lanes of sequencing, reads from which were demultiplexed and provided here. Biological replicates in time series samples are paired within each series, such that d3_BFP1, for is paired with d8_BFP1. Sequencing is based on a platform that uses molecular tags, which are present with the barcodes in the read names in the format < 6bp tag > . < 8bp barcode > .es in the format < 6bp tag > . < 8bp barcode > . Please note that technical replicates are indicated in the Sample titles (e.g. [A*] [B*] etc.). For the analysis in the paper, authors combined all reads from the technical replicates.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

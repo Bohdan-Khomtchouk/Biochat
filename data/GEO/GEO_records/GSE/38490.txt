@@ -1,0 +1,18 @@
+TITLE
+Comparative analysis of transcriptome profiles of G. hirsutum L. cv. MCU5 and its fuzzless-lintless mutant during fiber development stages.
+
+ORGANISM
+Gossypium hirsutum
+
+SUMMARY
+Cotton is one of the most commercially important Fiber crops in the world and used as a source for natural textile Fiber and cottonseed oil. The fuzzless-lintless ovules of cotton mutants are ideal source for identifying genes involved in Fiber development by comparing with Fiber bearing ovules of wild-type. To decipher molecular mechanisms involved in Fiber cell development, transcriptome analysis has been carried out by comparing G. hirsutum cv. MCU5 (wild-type) with its fuzzless-lintless mutant (MUT). Cotton bolls were collected at Fiber initiation (0 dpa/days post anthesis), elongation (5, 10 and 15 dpa) and secondary cell wall synthesis stage (20 dpa) and gene expression profiles were analyzed in wild-type and MUT using Affymetrix cotton GeneChip Genome array.
+
+DESIGN
+Cotton plants were grown under field condition. Flowers were tagged and cotton bolls were collected during Fiber development stages. Total RNA was isolated from Fiber bearing ovules of wild-type (WT) and fuzzless-lintless ovules of mutant (MUT) collected at various (0, 5, 10, 15 and 20 dpa) Fiber development stages using SpectrumTM Plant Total RNA kit (Sigma, USA) according to the manufacturer’s protocol. Affymetrix cotton GeneChip Genome array (Affymetrix, USA) having 23,977 probe sets representing 21,854 cotton transcripts was used for transcriptome analysis. Three biological replicates were maintained to test the reproducibility and quality of the chip hybridization. cDNA labeling, array hybridization, staining and washing procedures were carried out as described in the Affymetrix protocols. CEL files having estimated probe intensity values were analyzed with GeneSpring GX-11.5 software (Agilent Technologies, USA) to get differentially expressed transcripts. The Robust Multiarray Average (RMA) algorithm was used for the back ground correction, quantile normalization and median polished probe set summarization to generate single expression value for each probe set. Normalized expression values were log2-transformed and differential expression analysis was performed using unpaired t-test. The p-values were corrected by applying the false discovery rate (FDR) correction (Benjamini and Hochberg, 2000).
+
+PLATFORM
+GPL8672 [Cotton] Affymetrix Cotton Genome Array
+
+CITATIONS
+23151214
+

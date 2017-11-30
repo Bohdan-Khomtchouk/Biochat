@@ -1,0 +1,18 @@
+TITLE
+Apoptosis induced by Piroxicam/Cisplatin combined treatment is triggered by p21 in mesothelioma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Here we report that piroxicam/cisplatin combined treatment exerts an apoptotic effect on mesothelioma cells. Genome-wide transcriptome analyses lead us to identify p21 as the possible apoptosis mediator acting as downstream target of the piroxicam/cisplatin treatment.
+
+DESIGN
+To analyze the potential therapeutic effect of the piroxicam/cisplatin treatment at molecular level, and to identify gene expression pattern modifications following the combined treatment, we performed a transcriptional profiling on HGU133A arrays, using cells treated with piroxicam, cisplatin or with piroxicam and cisplatin, choosing the time exposures in which apoptosis induction was absent or evident (8 and 24 hours). Biological duplicates or triplicates were generated for each prototypic situation and data were analyzed using the oneChannelGUI Bioconductor package (Sanges et al., 2007), comparing untreated cells with cells treated in single or combined treatment. After quality controls, the complexity of the data set was reduced removing the non-significant probe sets, resulting in a total of 4,247 out of the 22,283 probe sets present in the microarray. To assess differential expression, linked to piroxicam, cisplatin- and the combined treatment we used an empirical Bayes method together with a false discovery rate (FDR) correction of the P-value. Specifically genes were selected using a corrected p-value ≤0.05 and |log2(fc)| ≥1. We detect a total of 536 differentially expressed genes.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+21858171
+

@@ -1,0 +1,18 @@
+TITLE
+Time-Resolved Proteomics Extends Ribosome Profiling-Based Measurements of Protein Synthesis Dynamics
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Ribosome profiling is a widespread tool for studying translational dynamics in human cells.  Its central assumption is that ribosome footprint density on a transcript quantitatively reflects protein synthesis.  Here, we test this assumption using pulsed-SILAC (pSILAC) high-accuracy targeted proteomics.  We focus on multiple myeloma cells exposed to bortezomib, a first-line chemotherapy and proteasome inhibitor. In the absence of drug effects, we found that direct measurement of protein synthesis by pSILAC correlated well with indirect measurement of synthesis from ribosome footprint density.  This correlation, however, broke down under bortezomib-induced stress. By developing a statistical model integrating longitudinal proteomic and mRNA-seq measurements, we found that proteomics could directly detect global alterations in translational rate caused by bortezomib; these changes are not detectable by ribosomal profiling alone.  Further, by incorporating pSILAC data into a gene expression model, we predict cell-stress specific proteome remodeling events.  These results demonstrate that pSILAC provides an important complement to ribosome profiling in measuring proteome dynamics.
+
+DESIGN
+Timecourse experiment with six points over 48hr after bortezomib exposure in MM.1S myeloma cells.  mRNA-seq and ribosome profiling data at each time point.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28578850
+

@@ -1,0 +1,18 @@
+TITLE
+MMASS: an optimised array-based method for assessing CpG island
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We describe an optimized microarray method for identifying genome-wide CpG island methylation called Microarray-based Methylation Assessment of Single Samples (MMASS) which directly compares methylated to unmethylated sequences within a single sample. To improve previous methods we used bioinformatic analysis to predict an optimised combination of methylation-sensitive enzymes that had the highest utility for CpG-island probes and different methods to produce unmethylated representations of test DNA for more sensitive detection of differential methylation by hybridization. Subtraction or methylation-dependent digestion with McrBC was used with optimized (MMASS-v2) or previously described (MMASS-v1, MMASS-sub) methylation-sensitive enzyme combinations and compared to a published McrBC method. Comparison was performed using DNA from the cell line HCT116. We show that the distribution of methylation microarray data is inherently skewed and requires exogenous spiked controls for normalization and that analysis of digestion of methylated and unmethylated control sequences together with linear fit models of replicate data showed superior statistical power for the MMASS-v2 method. Comparison to previous methylation data for HCT116 and validation of CpG islands from PXMP4, SFRP2, DCC, RARB and TSEN2 confirmed the accuracy of MMASS-v2 results. The MMASS-v2 method offers improved sensitivity and statistical power for high-throughput microarray identification of differential methylation. Keywords: Methylation genomic hybridizations.
+
+DESIGN
+For each of the methods we obtained four microarray hybridisations, using replicate biological preparations in a balanced dye-swap design and compared the results to the published method of Nouzova et al. DNA from the colorectal cancer cell line HCT116 was used for all experiments as methylation patterns have been well characterized in this cell lin
+
+PLATFORM
+GPL2040 UHN Human CpG 12K Array (HCGI12K)
+
+CITATIONS
+17041235
+

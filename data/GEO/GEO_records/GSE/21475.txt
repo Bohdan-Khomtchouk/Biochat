@@ -1,0 +1,18 @@
+TITLE
+From mouse to humans: detecting preventing vaccination targets associated to breast cancer stem cells. Exon-level analysis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+TuBo cell line (E) was compared to passage 1 (P1), 2 (P2) and 3 (P3) mammospheres to detect specific transcription isoforms associated to cancer stem cell.
+
+DESIGN
+TuBo cell line (E) was compared to passage 1 (P1), 2 (P2) and 3 (P3) mammospheres. Exon-level transcription profiling was done using Affimetrix GeneChip® Exon 1.0 ST. Exon-level analysis is more complex than gene-level analysis. The number of probesets to be investigated is at least 10 times larger in number than gene-level probesets. Thus results, upon statistical analysis, are massively contaminated by type I statistical errors, i.e. false positive [Della Beffa et al. 2008]. Furthermore, exon-level probesets are based only on four probes, which makes exon-level signal summarization more noisy than gene-level, where signal summarization is based on the overall probes encompassed by all exons of a gene. To moderate these issues we have expanded the number of experimental replications: six for TuBo and passage 1 mammosphere, four for passage 3 mammosphere and three for passage 2 mammosphere. Furthermore, after data summarization with RMA and normalization with sketch quantile method, alternative splicing detection between epithelial and mammospheres passages, was assessed using MiDAS, a two way anova developed by Affymetrix for the detection of alternative splicing events. We considered suitable for further investigations the splicing events in common between the sets of exons detected as spliced in each of the following comparisons: E vs P1, E vs P2 and E vs P3.
+
+PLATFORM
+GPL6096 [MoEx-1_0-st] Affymetrix Mouse Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

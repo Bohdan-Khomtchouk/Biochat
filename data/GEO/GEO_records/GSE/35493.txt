@@ -1,0 +1,18 @@
+TITLE
+Pediatric rhabdoid tumors of kidney and brain show many differences in gene expression but share dysregulation of cell cycle and epigenetic effector genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Rhabdoid tumors (RTs) are aggressive tumors of early childhood that occur most often in brain (AT/RTs) or kidney (KRTs). Regardless of location, they are characterized by loss of functional SMARCB1 protein, a component of the SWI/SNF chromatin remodeling complex. The aim of this study was to determine genes and biological process dysregulated in common to both AT/RTs and KRTs. Gene expression for AT/RTs was compared to that of other brain tumors and normal brain using microarray data from our lab. Similar analysis was performed for KRTs and other kidney tumors and normal kidney using data from GEO. Dysregulated genes common to both analyses were analyzed for functional significance. Unsupervised hierarchical clustering of RTs identified 3 major subsets: 2 comprised of AT/RTs, and 1 of KRTs. Compared to other tumors, 1187, 663 and 539 genes were dysregulated in each subset, respectively. Only 14 dysregulated genes were common to all 3 subsets. Compared to normal tissue, 5209, 4275 and 2841 genes were dysregulated in each subset, with an overlap of 610 dysregulated genes. Among these genes, processes associated with cell proliferation, MYC activation, and epigenetic dysregulation were common to all 3 RT subsets. The low overlap of dysregulated genes in AT/RTs and KRTs suggests that factors in addition to SMARCB1 loss play a role in determining subsequent gene expression. Drugs which target cell cycle or epigenetic genes may be useful in all RTs. Additionally, targeted therapies tailored to specific RT subset molecular profiles should be considered.
+
+DESIGN
+Molecular profiling of 20 ATRTs, 42 other pediatric CNS WHO Grade IV tumor samples and 9 pediatric normal brain samples was performed using Affymetrix U133 Plus2 GeneChips. Data were background corrected and normalized using gcRMA (as implemented in Bioconductor). ANOVA was used to identify differentially expressed genes for AT/RTs compared to other brain tumor types. Various analyses, including bioinformatics tools DAVID, Gene Set Enrichment (GSEA), and Ingenuity Pathways Analysis,  were used to identify biological processes and genes of particular interest among the  differentially expressed genes. Similar analysis of publicly available KRT and pediatric kidney tumor  and normal kidney data was also performed by us. The overlaps between the results were examined to determine genes and processes dysregulated in common to both ATRTs and KRTs. This study includes a re-analysis of samples from other studies (AT/RT: GSE28026;  glioblastoma: GSE33331).
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+23382118
+

@@ -1,0 +1,18 @@
+TITLE
+Principal components of embryonic stem cell pluripotency
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To decipher gene regulatory networks, we used systematic suppression of 97 transcription factors (TFs) and 7 other genes with shRNA in mouse embryonic stem (ES) cells, followed by global gene expression profiling. Meta-analysis of these data together with the earlier data obtained by the induction of 50 TFs and the existing genome-wide data on TF binding sites identified the sets of regulated target genes for 23 TFs. Principal component analysis shows different roles of two groups of TFs that are active in ES cells: Pou5f1 and Sox2 support the expression of their target genes and prevent the upregulation of trophectoderm-related genes, whereas Esrrb, Sall4, Nanog, Gbx2, Grhl2, Mtf2, Aff1, Tcfap4, and Cdc5l support the expression of targets of Esrrb, including glycolysis genes, and prevent upregulation of targets of Trp53 and Polycomb TFs. If TFs from the second group are downregulated while Pou5f1 and Sox2 are still active, then the cell state changes towards epiblast lineages.
+
+DESIGN
+Sequences for shRNA were designed to target 3    untranslated region of genes (Supplementary Table S8). Gene expression change was checked with real time qPCR (Supplementary Figure S7) and Westerm blot. ES cells (ES[MC1R(20)], passage 20) were cultured without feeders and were co-transfected with 1.6  g of shRNA expression vector and 0.4  g of pPyCAG-EGFP-IP carrying expression cassettes for puromycin resistant genes and EGFP using Effectene (Qiagen). Transfected cells were cultured in presence of 1.5  g/ml of puromycin and were harvested at 72 h after transfection. Mock cells were treated with transfection reagent without DNA and cultured in the absence of puromycin. Experiments were done in 3 replications with 2 of them used for gene expression profiling with microarrays.  Total RNA was isolated by TRIzol (Invitrogen) after 2 days. Cy3-CTP labeled sample targets were prepared with total RNA by Low RNA Input Fluorescent Linear  Amplification Kit (Agilent). Cy5-CTP labeled reference target was Stratagene Universal Mouse Reference RNA. Note that the processed data in the paper, which is also attached as GSE26520_Table_data.txt.gz, is slightly different from the values columns in each sample. The original processed data are normalized with a batch method, as the new batches of arrays added in the set.  The value columns in this submission reflect full normalization as described in the data processing fields in each sample.
+
+PLATFORM
+GPL6867 NIA Mouse 44K Microarray v3.0 (Whole Genome 60-mer Oligo) [Agilent 015087]
+
+CITATIONS
+23462645
+

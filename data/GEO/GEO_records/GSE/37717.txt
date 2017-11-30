@@ -1,0 +1,18 @@
+TITLE
+Conjunctival miRNA expression data in scarring and inflammatory trachoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Ocular infection with Chlamydia trachomatis (trachoma) is the leading cause of blindness that results from infection. Chronic inflammation is believed to drive the scarring process and the progressive blinding disease, however the mechanisms by which this occurs are not completely understood. We hypothesized that Micro RNA (miRNA), as key regulators of genes in inflammatory pathways, are involved in the immunopathogenesis and tissue remodeling observed in trachoma. Conjunctival swabs were collected from a total of 63 individuals resident in trachoma endemic communities in The Gambia, West Africa. MiRNA was extracted from the conjunctival swabs of 23 healthy controls (N), 18 cases with trachomatous scarring (TS) and 22 cases with trachomatous scarring in the presence of clinically significant inflammation (TSI) using Qiagen Allprep DNA/RNA/protein kits. Following reverse transcription and pre-amplification, quantitative RT-PCR was performed using TaqMan Array Human MicroRNA genecards (Av2.0 and Bv3.0) on a 7900HT thermal cycler (Life Technologies, Inc). A total of 754 of the most well characterised unique human miRNA from miRBase (www.mirbase.org/) were screened. Data from each array were uploaded and analysed using the high throughput qPCR package in bioconductor R. Samples with a global miRNA median cycle threshold of 40 were filtered out. A and B cards were analysed separately due to differences in performance of samples on each card. In the A card group 40 samples were normalized and tested: 8 TSI, 16 TS and 16 N. In the B card group 29 samples were normalized and tested: 6 TSI, 13 TS and 10 N. Results were normalized by rank invariant normalization as it reduced the coefficient of variation and increased sample distribution homology more than any other normalization procedure tested. Data in each group were tested for differential expression by Limma.
+
+DESIGN
+63 total Samples. In the A card group 40 samples were normalized and tested: 8 TSI, 16 TS and 16 N. In the B card group 29 samples were normalized and tested: 6 TSI, 13 TS and 10 N. Results were normalized by rank invariant normalization as it reduced the coefficient of variation and increased sample distribution homology more than any other normalization procedure tested.
+
+PLATFORM
+GPL8979 Applied Biosystems Human Taqman MicroRNA Array v2.0 GPL11316 Applied Biosystems Human Taqman MicroRNA Array v3.0
+
+CITATIONS
+23516655
+

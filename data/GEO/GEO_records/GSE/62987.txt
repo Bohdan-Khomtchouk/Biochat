@@ -1,0 +1,18 @@
+TITLE
+RIP-seq of RNA associated in vivo with the ProQ, Hfq or CsrA proteins, performed in Salmonella Typhimurium SL1344 or Escherichia coli W3110
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+While many general RNA-binding proteins have been described in eukaryotes, the small RNA chaperone Hfq and the translational regulator CsrA remain the only known global RNA-associated cofactors involved in the bacterial post-transcriptional gene expression control. Here, using an RNA-seq-based analysis of the biochemically partitioned ensemble of cellular RNAs, we uncovered a large group of transcripts that interact with the RNA-binding protein ProQ in Salmonella enterica. We show that ProQ is a conserved abundant protein with a wide range of targets, including a new class of ProQ-associated small RNAs, and predicted functions in many cellular pathways. ProQ preferentially associates with highly structured RNAs, filling the so-far vacant niche of a global double-stranded RNA-binding protein and expanding the range of the post-transcriptional regulation in bacteria. " This dataset includes representative RIP experiments carried out to characterize the in vivo interactome of the bacterial global RNA-binding protein ProQ. They include a series of RIPs performed on a Salmonella Typhimurium SL1344 ProQ-3xFLAG strain grown to the exponential (OD600=0.5), transition (OD600=2.0) or stationary (6 hours after cells reached OD600=2.0) phases; a RIP perfomed on an Escherichia coli W3110 ProQ-3xFLAG strain grown to the transition phase; a control series of RIPs performed on Salmonella Typhimurium SL1344 ProQ-3xFLAG and PhoP-3xFLAG strains grown to the transition phase. The first series shows how the ProQ RNA interactome evolves over growth in Salmonella, the second reveals ProQ targets in Escherichia, the third illustrates the lack of RNA-binding activity in a negative control, DNA-binding transcription regulator PhoP.
+
+DESIGN
+This set includes 4 samples from Escherichia ProQ experiments
+
+PLATFORM
+GPL14548 Illumina HiSeq 2000 (Escherichia coli)
+
+CITATIONS
+27671629
+

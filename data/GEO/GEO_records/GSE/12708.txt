@@ -1,0 +1,18 @@
+TITLE
+ERRγ mediates Tamoxifen resistance in novel models of invasive lobular breast cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+One-third of all ER+ breast tumors treated with endocrine therapy fail to respond, and the remainder are likely to relapse in the future.  Almost all data on endocrine resistance has been obtained in models of invasive ductal carcinoma (IDC). However, invasive lobular carcinomas (ILC) comprise up to 15% of newly diagnosed invasive breast cancers diagnosed each year and, while the incidence of IDC has remained relatively constant during the last 20 years, the prevalence of ILC continues to increase among postmenopausal women.  We report a new model of Tamoxifen (TAM)-resistant invasive lobular breast carcinoma cells that provides novel insights into the molecular mechanisms of endocrine resistance.  SUM44 cells express ER and are sensitive to the growth inhibitory effects of antiestrogens.  Selection for resistance to 4-hydroxytamoxifen led to the development of the SUM44/LCCTam cell line, which exhibits decreased expression of estrogen receptor alpha (ERα) and increased expression of the estrogen-related receptor gamma (ERRγ).  Knockdown of ERRγ in SUM44/LCCTam cells by siRNA restores TAM sensitivity, and overexpression of ERRγ blocks the growth-inhibitory effects of TAM in SUM44 and MDA-MB-134 VI lobular breast cancer cells.  ERRγ-driven transcription is also increased in SUM44/LCCTam, and inhibition of activator protein 1 (AP1) can restore or enhance TAM sensitivity.  These data support a role for ERRγ/AP1 signaling in the development of TAM resistance, and suggest that expression of ERRγ may be a marker of poor Tamoxifen response.
+
+DESIGN
+Total RNA was extracted from sub-confluent T-25 cm^2 tissue culture flasks of SUM44 and LCCTam cells, then processed and arrayed.  Microarray data quality was then assessed using several tools, including those recommended by Affymetrix and a series of additional QC measures. The Robust Multiple-Array Average (RMA) method was used to preprocess the raw gene expression data, as implemented in the Bioconductor project ( http://bioconductor.org ). We then isolated a reduced dimension dataset that included genes that exhibit ≥2 fold change, p < 0.05 and genes with intensity ≥log2(10) in both SUM44 and SUM44/LCCTam groups.  Data visualization before and after dimensionality reduction was facilitated by multidimensional scaling as estimated using Principal Component Analysis (PCA) and Discriminant Component Analysis (DCA), to ensure that the global structure of the data was not altered by dimensionality reduction procedures.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+18974135
+

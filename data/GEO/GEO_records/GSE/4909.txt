@@ -1,0 +1,18 @@
+TITLE
+Gene Expression Profile identify a role for cyclooxygenase 2-depedent prostinoid generation in BMP6-induced
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The bone morphogenetic protein (BMP) family of proteins participates in an underappreciated signaling pathway involved in regulating angiogensis in physiological and pathological conditions. Microarray profiles of BMP-responsive genes in the endothelium performed by our lab suggest important roles for cyclooxygenase-2 (Cox2) as a potential downstream regulator of BMP-induced angiogenesis. Cox2 is upregulated by BMP6 at both mRNA and protein levels. Inhibition of Cox2 blocks BMP6 induced endothelial cell proliferation, migration and tube formation activity. Microvessel outgrowth stimulated by BMP6 also required Cox2 activity. These results strongly support that Cox2 is an important downstream target for BMP6, and that prostaniod synthesis is essential for BMP6 induced endothelial cell activation. This further suggests that our microarray data is a reliable tool to identify unkown BMP6 targets in angiogenesis. Keywords: BMP, angiogenesis, Cox2, MEC
+
+DESIGN
+Mouse intraembryonic endothelial cells (MECs) were cultured as previously described.  Total RNA was extracted from MECs treated with BMP6 for 4, 12, or 24 hrs, or from mock-treated controls.  Universal mouse reference RNA was used as a reference, and was labeled with Cy3 florescence dye using the Fluorescent Linear Amplification Kit (Agilent Technologies, CA). Samples of MEC RNA were labeled Cy5, and equimolar mixtures of the two florescence dye-labeled probes were hybridized to Agilent 22k Mouse Development Oligo Microarrays (Agilent Technologies). Microarrays were scanned with a GenePix 4000B scanner (Axon Instruments) and images were quantified with GenePix Pro 5.0 Software (Axon Instruments). Each experimental group included independent triplicate biological replications.  Raw expression data was normalized via a modified quantiles local algorithm (X. He and C. Patterson, manuscript in preparation).  Differentially expressed genes were identified with a two-tailed type 2 Student t-test.  Cluster analysis and visualization using Java-TreeView were accomplished as previously described.
+
+PLATFORM
+GPL922 Agilent-011472 Mouse Development Oligo Microarray G4120A (Feature Number version)
+
+CITATIONS
+17119124
+

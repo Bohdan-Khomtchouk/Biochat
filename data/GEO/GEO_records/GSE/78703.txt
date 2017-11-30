@@ -1,0 +1,18 @@
+TITLE
+Pharmacological Targeting of a Metabolic Co-Dependency Pathway in Brain Cancers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mutations in growth factor receptor signaling pathways are common in cancer, including in tumors that arise from or metastasize to the brain. However, most small-molecule inhibitors targeting growth factor receptors have failed to show efficacy for brain cancers, potentially due to inability to achieve sufficient drug levels in the CNS. Targeting non-oncogene tumor co-dependencies provides an alternative approach, particularly if drugs with high brain penetration can be identified. Here we demonstrate that EGFR-mutant cancers, including a highly lethal form of brain cancer glioblastoma (GBM), are remarkably dependent on cholesterol for survival, rendering them sensitive to Liver X receptor (LXR) agonist-dependent cell death. We show that LXR-623, a clinically viable, highly brain-penetrant LXRα-partial/LXRβ-full agonist selectively kills GBM cells in an LXRβ- and cholesterol-dependent fashion, causing massive tumor regression and prolonged survival in mouse models. Thus, a metabolic co-dependency provides a pharmacological means to kill growth factor-activated cancers in the CNS.
+
+DESIGN
+U87EGFRvIII (U87vIII) and Normal Human Astrocyte (NHA) cells were treated with DMSO control or LXR-623 5 uM for 24 hr. Total RNA was isolated in triplicate for each condition using the RNeasy Plus Mini Kit (QIAGEN). Primeview affymetrix arrays were obtained from Affymetrix, and labeled samples were hybridized and scanned, and gene expression was analyzed in the UCSD VA/VMRF Microarray and NGS Core. The data were robust multiarray average (RMA) normalized in R using the affy package.
+
+PLATFORM
+GPL15207 [PrimeView] Affymetrix Human Gene Expression Array
+
+CITATIONS
+27746144
+

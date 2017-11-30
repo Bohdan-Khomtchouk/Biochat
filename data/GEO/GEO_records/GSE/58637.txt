@@ -1,0 +1,18 @@
+TITLE
+MicL, a new σE-dependent sRNA, combats envelope stress by repressing synthesis of Lpp, the major outer membrane lipoprotein
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+In enteric bacteria, the transcription factor σE maintains membrane homeostasis by inducing expression of proteins involved in membrane repair and of two small, regulatory RNAs (sRNAs) that downregulate synthesis of abundant membrane porins. Here, we describe the discovery of a third σE-dependent sRNA, MicL, transcribed from a promoter located within the coding sequence of the cutC gene. MicL is synthesized as a 308 nt primary transcript that is processed to an 80 nt form. Both forms possess features typical of Hfq-binding sRNAs, but surprisingly only target a single mRNA, which encodes the outer membrane lipoprotein Lpp, the most abundant protein of the cell. We show that the copper sensitivity phenotype previously ascribed to inactivation of the cutC gene is actually derived from the loss of MicL and elevated Lpp levels. This observation raises the possibility that other phenotypes currently attributed to protein defects are due to deficiencies in unappreciated regulatory RNAs. We also report that σE activity is sensitive to Lpp abundance and that MicL and Lpp comprise a new σE regulatory loop that opposes membrane stress. Together MicA, RybB and MicL allow σE to repress the expression of all abundant outer membrane proteins in response to stress.
+
+DESIGN
+12 samples mRNA-seq data, 2 samples ribosome profiling data.  For mRNA-seq data, samples were gathered at the indicated time (in min) after induction of either vector (WT), long (MicL), and short (MicL-S) forms of MicL.
+
+PLATFORM
+GPL14548 Illumina HiSeq 2000 (Escherichia coli)
+
+CITATIONS
+25030700
+

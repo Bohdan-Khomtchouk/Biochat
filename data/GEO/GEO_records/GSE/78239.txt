@@ -1,0 +1,18 @@
+TITLE
+Late pre-B cell transcriptomes from Zfp36l1 Zfp36l2 double knockout mice [iCLIP]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: We aimed to identify the targets of the RNA binding protein ZFP36L1 in B cells. Methods:  Mature B cells were stimulated with LPS, IL-4 and IL-5 for 48 hours to induce ZFP36L1 expression.  Cells were treated with UV light to crosslink RNA and proteins then RNA-protein complexes were pulled down with anti-ZFP36L1.  RNA was extracted and used to make cDNS libraries that were then sequenced using Illumina’s HiSeq2000 (100 bp single end sequencing). Results: Sample demultiplexing was performed by identification of the 3 known bases of the 7 bases barcode introduced in the 5’ end of the read by the RCLIP primer.  The remaining four random bases were used to remove PCR duplicate reads.  Reads were trimmed to remove any adaptor sequence and barcodes before mapping reads to genome mm10 using Bowtie.  After read mapping, the single-nucleotide at position -1 was annotated as unique ZFP36L1 crosslink site.  Identification of highly significant ZFP36L1 binding sites was performed using iCount to assign a FDR to each crosslink site Conclusions: We identified ZFP36L1 binding sites in 1361 B cell mRNAs.
+
+DESIGN
+Individual nucleotide resolution cross linking immunoprecipitation (iCLIP) of ZFP36L1-bound RNAs in LPS activated B cells from C57BL/6 mice.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+27102483
+

@@ -1,0 +1,18 @@
+TITLE
+The B-cell receptor confers super competitor status to lymphoma cells via GSK3β inhibition II
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Similar to resting mature B cells, where the B-cell antigen receptor (BCR) is essential for cellular survival, surface BCR expression is conserved in most mature B cell lymphomas. The identification of activating BCR mutations and the growth disadvantage upon BCR knockdown of cells of certain lymphoma entities has led to the view that BCR signaling is required for tumour cell survival. Consequently, the BCR signaling machinery has become a new target in the therapy of B cell malignancies. Here, we studied the effects of BCR ablation on MYC-driven mouse B cell lymphomas and compared them to observations in human Burkitt lymphoma. Whereas BCR ablation did not, per se, significantly affect lymphoma growth, BCR-negative (BCR-) tumour cells rapidly disappeared in the presence of their BCR-expressing (BCR+) counterparts in vitro and in vivo. This required neither cellular contact, nor factors released by BCR+ tumour cells. Instead, BCR loss induced the rewiring of central carbon metabolism increasing the sensitivity of receptor-less lymphoma cells to nutrient restriction. The BCR attenuated GSK3β activity to support MYC-controlled gene expression. BCR- tumour cells exhibited increased GSK3β activity and were rescued from their competitive growth disadvantage by GSK3β. BCR-negative lymphoma variants that restored competitive fitness, normalized GSK3β following constitutive activation of the MAPK pathway, commonly through Ras mutations. Similarly, in Burkitt lymphoma, activating RAS mutations may propagate Ig-crippled tumour cells, which usually represent a minority of the tumour bulk. Thus, while BCR expression enhances lymphoma cell fitness, BCR-targeted therapies may profit from combinations with drugs targeting BCR-less tumour cells. In this dataset, we included the expression data obtained from BCR-positive (BCR+), BCR-negative (BCR-) and BCR-independent lymphoma cells co-cultured for four days in presence or absence of GSK3b inhibitor, CHIR99021. This data was used to a) identify genes regulated by the BCR through  GSK3b inhibition, and b) identify genes that confers BCR-independency to lymphoma variants resistant to BCR loss.
+
+DESIGN
+BCR-positive lymphoma cells (BCR.POS) were co-culture with either BCR-negative lymphomas (BCR.NEG) or BCR-independent lymphoma variants (BCR.NEG. cl.x indep.) for four days in presence or absence of CHIR99021 (CT). BCR-positive and BCR-negative cells were sorted when counterselection of the latter population was observed (4 days). BCR-independent clones were not counterselected at the same time point. Total RNA was extracted and gene expression profiling was performed on Affymetrix Mouse Gene 1.1 ST Arrays
+
+PLATFORM
+GPL11533 [MoGene-1_1-st] Affymetrix Mouse Gene 1.1 ST Array [transcript (gene) version]
+
+CITATIONS
+28562582
+

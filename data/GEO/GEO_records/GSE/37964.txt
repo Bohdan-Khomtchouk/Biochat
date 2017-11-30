@@ -1,0 +1,18 @@
+TITLE
+Expression data from three human DLD-1-derived colon cancer cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The LEF/TCF family of transcription factors are downstream effectors of the WNT signaling pathway, which drives colon tumorigenesis.  LEF/TCFs have a DNA sequence-specific HMG box that binds Wnt Response Elements (WREs).  The “E tail” isoforms of TCFs are alternatively spliced to include a second DNA binding domain called the C-clamp.  We show that induction of a dominant negative C-clamp version of TCF1 (dnTCF1E) induces a p21-dependent stall in the growth of DLD1 colon cancer cells.  Induction of a C-clamp mutant did not induce p21 or stall cell growth.  Microarray analysis revealed that induction of p21 by dnTCF1EWT correlated with a decrease in expression of p21 suppressors that act at multiple levels from transcription (SP5, YAP1, RUNX1), to RNA stability (MSI2), and protein stability (CUL4A).  We show that the C-clamp is a sequence specific DNA binding domain that can make contacts with 5’-RCCG-3’ elements upstream or downstream of WREs.  The C-clamp-RCCG interaction was critical for TCF1E mediated transcriptional control of p21-connected target gene promoters.  Our results indicate that a WNT/p21 circuit is driven by C-clamp target gene selection. Gene expression analysis of dnTCF and dnLEF induction in colon cancer cells.  Dominant negative LEF/TCFs interferes with endogenous Wnt signaling by binding to Wnt Response Elements of target genes and displacing beta-catenin.  Here we used induction of dnTCF-1 (wildtype and mutant forms of the C-clamp DNA binding domain) and dnLEF-1 to identify genes that change expression at 8 hours and 23 hours post-induction.
+
+DESIGN
+Three DLD-1 clonal stable cell lines created by tetracycline-regulated expression (T-REx) system were treated with or without doxycycline for RNA extraction and hybridization on Affymetrix microarrays. One of the three cell lines is a mock cell line,a parental cell line that expresses only the Tet regulator and does not overexpress any protein when induced with doxycycline (Dox).  The other three cell lines can be induced by Doxycycline to overexpress wild-type dnTCF-1E or a mutant form of dnTCF-1E with five amino acid substitution mutations in the C-clamp of the E-tail, or dnLEF-1. The mock cell line and dnLEF-1 cell lines were treated with or without Dox for 23 hr. The wild-type and mutant dnTCF-1E cell lines were treated with or without Dox for 8 and 23 hr, and as well, wild-type dnTCF-1E was induced with maximal amounts of Dox (hi: 1ug/ml) for maximum expression and gene expression regulation.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+22778133
+

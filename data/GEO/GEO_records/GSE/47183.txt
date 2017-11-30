@@ -1,0 +1,18 @@
+TITLE
+In silico nano-dissection: defining cell type specificity at transcriptional level in human disease (glomeruli)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To identify genes with cell-lineage-specific expression not accessible by experimental micro-dissection, we developed a genome-scale iterative method, in-silico nano-dissection, which leverages high-throughput functional-genomics data from tissue homogenates using a machine-learning framework. This study applied nano-dissection to chronic kidney disease and identified transcripts specific to podocytes, key cells in the glomerular filter responsible for hereditary proteinuric syndromes and acquired CKD. In-silico prediction accuracy exceeded predictions derived from fluorescence-tagged-murine podocytes, identified genes recently implicated in hereditary glomerular disease and predicted genes significantly correlated with kidney function. The nano-dissection method is broadly applicable to define lineage specificity in many functional and disease contexts.
+
+DESIGN
+We applied a machine-learning framework on high-throughput gene expression data from human kidney biopsy tissue homogenates and predict novel podocyte-specific genes. The prediction was validated by Human Protein Atlas at protein level. Prediction accuracy was compared with predictions derived from experimental approach using fluorescence-tagged-murine podocytes.
+
+PLATFORM
+GPL11670 Affymetrix Human Genome U133 Plus 2.0 Array [Hs133P_Hs_ENTREZG.cdf] GPL14663 Affymetrix GeneChip Human Genome HG-U133A Custom CDF [Affy_HGU133A_CDF_ENTREZG_10]
+
+CITATIONS
+23950145 , 24925724
+

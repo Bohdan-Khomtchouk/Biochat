@@ -1,0 +1,18 @@
+TITLE
+Histones associated with downregulated genes are hypo-acetylated in Huntington’s disease models
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcriptional dysregulation plays a major role in the pathology of Huntington's disease (HD). However, the mechanisms causing selective downregulation of genes remain unknown. Histones regulate chromatin structure and thereby control gene expression; recent studies have demonstrated a therapeutic role for histone deacetylase (HDAC) inhibitors in polyglutamine diseases. This study demonstrates that despite no change in overall acetylated histone levels, histone H3 is hypo-acetylated at promoters of downregulated genes in R6/2 mice, ST14a and STHdh cells, as demonstrated by in vivo chromatin immunoprecipitation. In addition, HDAC inhibitor treatment increases association of acetylated histones with downregulated genes and corrects mRNA abnormalities. In contrast, there is a decrease in mRNA levels in wild-type cells following treatment with a histone acetyltransferase inhibitor. Although changes in histone acetylation correlate with decreased gene expression, histone hypo-acetylation may be a late event, as no hypo-acetylation is observed in 4-week-old R6/2 mice. Nevertheless, treatment with HDAC inhibitors corrects mRNA abnormalities through modification of histone proteins and may prove to be of therapeutic value in HD. Keywords: cell type comparison and disease state analysis
+
+DESIGN
+Total RNA was isolated from STHdh7/7 and STHdh111/111 cell lines by extraction with TRI-Reagent (Sigma-Aldrich, St Louis, MO) and purified further over RNeasy columns (Qiagen, Valencia, CA). Fifteen µg of total RNA was pooled for each sample and used to generate labeled cRNA probes according to the Affymetrix GeneChip protocol. Biotinylated cRNA probes were hybridized to MOE40.3K oligonucleotide microarrays using the Affymetrix Fluidics Station 400 according to the manufacturer's standard protocol. Microarray analysis Chips were developed, scanned, and normalized using global scaling. All quality control parameters calculated by Affymetrix GCOS Software were monitored (38).  The images of the chips were analyzed to find spotted or damaged array regions and to ensure data quality (39).  The Presence/Absence calls from Affymetrix MAS5 were monitored and compared throughout the different samples. All data were normalized using the GeneChip Robust MultiChips Analysis (GCRMA) algorithm (40, 41), performed with R in BioConductor. The processed images of the arrays were analyzed for quality control, we found all the samples to be of equal very good quality, with an average of 40.5% ± 1.44% Present calls with a range of 38% to 42.4%, (the background, noise, spike in controls, housekeeping genes presented a variability over the 8 samples less than 7% pre-normalization). In addition, 31.55% of the probe sets were called Present or Marginal in all the 8 samples and 44.6% were called Absent in all the 8 samples, showing a good consistency of the quality between the samples and between the groups compared.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+17409194
+

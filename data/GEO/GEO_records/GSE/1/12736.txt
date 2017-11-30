@@ -1,9 +1,0 @@
-TITLE
-Gene expression data from human erythroleukemic cells in a time dependent manner after PMA treatment
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-The molecular regulation of megakaryocytic differentiation is poorly understood.  Using a myelogenous leukemia cell line, K562, which can partly recapitulate the process in response to phorbol 12-myristate 13-acetate (PMA), we performed a microarray-based gene expression profiling using Illumina HumanRef-8 Expression Beadchip to identify genes that play significant roles in megakaryopoiesis.  Time course microarray data were obtained at 8 time points.  Illumina HumanRef-8 Expression Beadchip has ~over 24,000 transcripts a piece. Duplicate experiments were performed for each time point.  Here, we reported raw data of two independent experiments.  After microarray data analysis, selecting genes with significant detection p-value produced ~14,000 probes out of total 23,920 probes. Quantile normalization was carried out for each dataset at 8 time points using the average expression value.  The K-means clustering method (k=12) was used to classify those probes according to characteristic temporal pattern.  We selected transcription factors shown fold changes in a time dependent manner to examine genes related for megakaryopoiesis.  Finally, we can suggest that FosB which belongs to the Fos family of AP1 transcription factors is related in megakaryopoiesis.
-

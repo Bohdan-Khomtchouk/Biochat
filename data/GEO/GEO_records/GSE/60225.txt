@@ -1,0 +1,18 @@
+TITLE
+Application of a low cost array-based technique - TAB-Array - for quantifying and mapping both 5mC and 5hmC at single base resolution.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+5-hydroxymethylcytosine (5hmC), an oxidized derivative of 5-methylcytosine (5mC), has been implicated as an important epigenetic regulator of mammalian development.  Current procedures use cost-prohibitive DNA sequencing methods to discriminate 5hmC from 5mC, limiting their accessibility to the scientific community.  Here we report a method that combines TET-assisted bisulfite conversion with Illumina 450K DNA methylation arrays for a low-cost high-throughput approach that distinguishes 5hmC and 5mC signals. Implementing this approach, termed TAB-array, we assessed DNA methylation dynamics in the differentiation of human pluripotent stem cells into cardiovascular and neural progenitors. With the ability to discriminate 5mC and 5hmC, we found a much larger number of dynamically methylated genomic regions implicated in the development of these lineages than we could detect by 5mC analysis alone. The increased resolution and accuracy afforded by this approach provides a powerful means to investigate the distinct contributions of 5mC and 5hmC in human development and disease.
+
+DESIGN
+We generated illumina 450k DNA methylation data for a total of 9 sample groups with two biological replicates for each group.   Data for 4/9 groups were generated from glucosylated and bisulfite converted DNA, from human induced plurupotent stem cells (hIPSCs), differentiated cardiovascular progenitors (CVPs), differentiated neural progenitors (NPCs), and fibroblasts. Data for the next 4/9 groups were generated from glucosylated, TET-oxidized and bisulfite converted DNA, from and included replicates of hIPSCs, CVPs, NPCs, and fibroblasts.  Data for the last group was generated  from standard bisulfite converted DNA (not glucosylated) from fibroblasts.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+25179373
+

@@ -1,0 +1,18 @@
+TITLE
+The Path to Triacylglyceride Obesity in the sta6 Strain of Chlamydomonas reinhardtii
+
+ORGANISM
+Chlamydomonas reinhardtii
+
+SUMMARY
+When the sta6 (starch-null) strain of the green microalga Chlamydomonas reinhardtii is nitrogen-starved in acetate and then " boosted " after two days with additional acetate, the cells become " obese " after eight days, with triacylglyceride-filled lipid bodies filling their cytoplasm and chloroplasts. To assess the transcriptional correlates of this response, sta6 and the starch-forming cw15 strain were subjected to RNA-Seq analysis during the two days prior and two days post boost, and the data were compared with published reports using other strains and growth conditions. During the two hours post boost, ~425 genes are up-regulated ≥2-fold and ~875 genes are down-regulated ≥2-fold in each strain. Expression of a small subset of " sensitive " genes, encoding enzymes in the glyoxylate and Calvin Benson cycles, gluconeogenesis, and the pentose phosphate pathway, is responsive to culture conditions and genetic background as well as to boost. Four genes--encoding a diacylglycerol acyltransferase (DGTT2), a glycerol-3-P dehydrogenase (GPD3), and two candidate lipases (Cre03.g155250 and Cre17.g735600)--are selectively up-regulated in sta6. Although the bulk rate of acetate depletion from the medium is not boost-enhanced, three candidate acetate permease-encoding genes in the GPR1_FUN34_YaaH superfamily are boost-up-regulated, and 13 of the " sensitive " genes are strongly responsive to the cell's acetate status. A cohort of 64 autophagy-related genes is down-regulated by boost. Our results indicate that the boost serves both to avert an autophagy program and to prolong the operation of key pathways that shuttle carbon from acetate into storage lipid, the combined outcome being enhanced TAG accumulation, notably in sta6.
+
+DESIGN
+Here we report studies on gene-expression patterns during the path to obesity. The Merchant/Pellegrini and Los Alamos laboratories recently generated and analyzed RNA-Seq transcriptomes of cw15, sta6, and several complemented sta6 strains during two days of N-starvation (0→48 h). In collaboration with these groups, the Goodenough lab generated a second pair of transcriptomes using cw15 and sta6, tracing 0→48 h gene expression patterns under a different set of culture conditions and taking the time course out to 96 h, with an intervening acetate boost. Analysis of these data was deeply informed by cross-comparisons with the Blaby et al. data. Three additional RNA-Seq studies of wild-type strains were also considered.
+
+PLATFORM
+GPL15922 Illumina HiSeq 2000 (Chlamydomonas reinhardtii)
+
+CITATIONS
+24585881
+

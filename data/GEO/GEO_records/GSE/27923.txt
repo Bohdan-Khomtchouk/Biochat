@@ -1,0 +1,18 @@
+TITLE
+Affymetrix SNP array data for Japanese schizophrenia samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association study (GWAS) was performed in 120 patient-parents trio samples from Japanese schizophrenia pedigrees ABSTRACT: Schizophrenia is a devastating neuropsychiatric disorder with genetically complex traits.  Genetic variants should explain a considerable portion of the risk for schizophrenia, and genome-wide association study (GWAS) is a potentially powerful tool for identifying the risk variants that underlie the disease.  Here, we report the results of a three-stage analysis of three independent cohorts consisting of a total of 2,535 samples from Japanese and Chinese populations for searching schizophrenia susceptibility genes using a GWAS approach.  Firstly, we examined 115,770 single nucleotide polymorphisms (SNPs) in 120 patient-parents trio samples from Japanese schizophrenia pedigrees.  In stage II, we evaluated 1,632 SNPs (1,159 SNPs of p < 0.01 and 473 SNPs of p < 0.05 that located in previously reported linkage regions).  The second sample consisted of 1,012 case-control samples of Japanese origin.  The most significant p value was obtained for the SNP in the ELAVL2 [(embryonic lethal, abnormal vision, Drosophila)-like 2] gene located on 9p21.3 (p = 0.00087).  In stage III, we scrutinized the ELAVL2 gene by genotyping gene-centric tagSNPs in the third sample set of 293 family samples (1,163 individuals) of Chinese descent and the SNP in the gene showed a nominal association with schizophrenia in Chinese population (p = 0.026).    The current data in Asian population would be helpful for deciphering ethnic diversity of schizophrenia etiology.
+
+DESIGN
+Affymetrix SNP arrays were performed according to the manufacturer's directions on DNA extracted from peripheral blood samples. SUPPLEMENTARY FILES: CEL files were processed by manufacture's protocol. Genotype data were analyzed with the GeneSpring GT (Varia) 2.0 software package developed by Agilent Technologies (Santa Clara, CA). Matrix tables for the Genetic programs were produced (Linkage format: http://bioinformatics.med.utah.edu/~alun/software/docs/linkage.html ) File 1: Matrix file_SNP_Map.txt File 2: Matrix file_Family_Information.txt File 3: Matrix file_Pedigree_Format.txt (Genotyping data of Linkage format) Transmission disequilibrium test was performed using the R program ( http://www.r-project.org ). File 4: Matrix file_results.txt
+
+PLATFORM
+GPL2004 [Mapping50K_Hind240] Affymetrix Human Mapping 50K Hind240 SNP Array GPL2005 [Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array GPL13283 [CentHindAv2] Affymetrix Human CentHindAv2 SNP Array GPL13284 [CentXbaAv2] Affymetrix Human CentXbaAv2 SNP Array
+
+CITATIONS
+21674006
+

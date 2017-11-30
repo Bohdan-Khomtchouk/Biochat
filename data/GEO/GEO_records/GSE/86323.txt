@@ -1,0 +1,18 @@
+TITLE
+Reduced representation bisulphite sequencing of ten bovine somatic tissues reveals DNA methylation patterns and their impacts on gene expression [RNA-Seq]
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+As a key epigenetic modification, DNA methylation is essential for normal development by regulating processes like gene expression, genomic imprinting, and suppression of repetitive elements. However, DNA methylation in the cattle genome is not well understood. Here we presented the first single-base-resolution maps of DNA methylation in 10 diversely somatic tissues harvested from the sequenced Hereford cow L1 Dominette 01449 and her relatives using reduced representation bisulphite sequencing (RRBS). In total, we observed 1,868,049 high accuracy cytosines that located in the CG enriched regions. Similar to the methylation patterning in other species, the CG context was predominant methylated. Widespread differences were identified between the methylation patterns of CG and non-CG contexts. They were distributed differentially among the genomic features, including the genic regions, CpG islands, and repetitive sequences. Autocorrelation analysis among adjacent residues illustrated that methylation level of CGs were highly correlated in a region. In contrast, weak or no correlation was found among non-CGs or between CGs and non-CGs. The distinct distribution and low correlation of CG and non-CG methylation suggested that non-CG methylation may be independent from CG methylation and may be mediated by different mechanisms. We also detected 798 tissue-specific differentially methylated cytosines (tDMC) and 131 tissue-specific differentially methylated CpG islands. Combined analysis with the RNA-seq data, we discovered several non-CGs in tDMCs also highly correlated with gene expression, which implied the potential function of non-CG methylation in somatic cells in addition to pluripotent cells. In summary, we showed that non-CGs exist in bovine tissues and some of them were correlated with tissue-specific functions. This study provided essential information for the cytosine methylation patterning in bovine somatic tissues.
+
+DESIGN
+We applied RNA_seq for 8 different tissues to detect the effects of methylation on gene expression.
+
+PLATFORM
+GPL15749 Illumina HiSeq 2000 (Bos taurus)
+
+CITATIONS
+27716143
+

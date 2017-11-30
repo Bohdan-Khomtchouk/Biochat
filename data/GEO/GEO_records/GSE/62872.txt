@@ -1,0 +1,18 @@
+TITLE
+Association of Prostate Cancer Risk Variants with Gene Expression in Normal and Tumor Tissue
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Numerous germline genetic variants are associated with prostate cancer risk, but their biological role is not well understood. One possibility is that these variants influence gene expression in prostate tissue. We therefore examined the association of prostate cancer risk variants with the expression of genes nearby and genome-wide. Methods: We generated mRNA expression data for 20,254 genes with the Affymetrix GeneChip Human Gene 1.0 ST microarray from normal prostate (N=160) and prostate tumor (N=264) tissue from participants of the Physicians’ Health Study and Health Professionals Follow-up Study. With linear models, we tested the association of 39 risk variants with nearby genes and all genes, and the association of each variant with canonical pathways using a global test. Results: In addition to confirming previously reported associations, we detected several new significant (p < 0.05) associations of variants with the expression of nearby genes including C2orf43, ITGA6, MLPH, CHMP2B, BMPR1B, and MTL5. Genome-wide, four genes (MSMB, NUDT11, NEFM, KLHL33) were significantly associated after accounting for multiple comparisons for each SNP (p < 2.5x10-6). Many more genes had a false discovery rate < 10%, including SRD5A1 and PSCA, and we observed significant associations with pathways in tumor tissue. Conclusions: The risk variants were associated with several genes, including promising prostate cancer candidates and lipid metabolism pathways, suggesting mechanisms for their impact on disease. These genes should be further explored in biological and epidemiological studies. Impact: Determining the biological role of these variants can lead to improved understanding of prostate cancer etiology and identify new targets for chemoprevention.
+
+DESIGN
+264 prostate tumor and 160 normal prostate tissue samples from the Health Professionals Follow-up Study and Physicians' Health Study Prostate Tumor Cohort. We tested the association of 39 prostate cancer risk variants with Affymetrix gene expression array data. We compared each variant to all nearby genes (500 kb up- and downstream), as well as with all genes and KEGG pathways.
+
+PLATFORM
+GPL19370 Affymetrix Human Gene 1.0 ST Array [Gene Symbols]
+
+CITATIONS
+25371445
+

@@ -1,0 +1,18 @@
+TITLE
+Analysis of genome-wide methylation and gene expression induced by decitabine treatment in HL60 leukemia cell line
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epigenetic changes play a role in the pathogenesis of myeloid malignancies and hypomethylating agents have shown efficacy in these diseases. We studied the apoptotic effect, the genome-wide methylation and gene expression profiles in HL60 cells following decitabine treatment, using micro-array technologies. Decitabine treatment resulted in a decrease in global DNA methylation, corresponding to 4876 probeset IDs with significantly reduced methylation levels, while expression of 2583 IDs was induced. The integrated analysis identified 160 genes demethylated and upregulated by decitabine, mainly including development and differentiation pathways genes. Genes target of polycomb group protein regulation were overrepresented in this group. Apoptosis was induced by decitabine and apoptosis-specific PCR arrays more precisely indicated decitabine-induced upregulation of 13 apoptosis-related genes, in particular Dap-kinase 1 and Bcl2L10. Correspondingly, in primary patient samples, BCL2L10 was hypermethylated in 45% of AML, 43% of therapy-related myeloid neoplasms, 12% of MDS and in none of the controls.
+
+DESIGN
+In this work, we were interested in the identification of key pathways involved in the global methylation and gene expression changes induced by decitabine in a myeloid cell line model. The human acute myeloid leukemia cell line HL60 was treated with 1 µM decitabine or the same volume of vehicle (mock sample) for 3 days. At the end of treatment DNA and total RNA were extracted for methylation and gene expression studies, to identify genes hypermethylated in HL60 cells and that could be targets of hypomethylating treatment. Methylation profiling was performed by the Methylated DNA Immunoprecipitation (MeDIP) using an anti-5-Methylcytidine Antibody (GeneTex Inc). Methylation-enriched DNA and total DNA  were labeled and hybridized on the Affymetrix GeneChip Human Promoter 1.0R Tiling Arrays (Affymetrix, USA). Gene expression profiling (GEP) was performed using the Affymetrix  U133 Plus 2.0 expression array. All hybridization reactions were performed using GeneChip Fluidics Station 450, and GeneChips were scanned using the Affymetrix GeneChip Scanner 3000 (Affymetrix, USA). The MeDIP.CEL files for biological triplicates of HL60 mock and decitabine-treated were log2 transformed, normalized and imported into the Partek Genomic Suite software (PGS). The differences between treated and control samples were performed using a t-Test (p-value 0.05). Significantly enriched regions were obtained by the MAT algorithm (Model-based Analysis of Tiling arrays). The expression array .CEL files for HL60 mock and decitabine-treated cells were imported in PGS using the Gene Expression Workflow tool, after GC-RMA normalization and log2 transformation. Significantly over and under-expressed genes were detected using the 1-way ANOVA tool at p < 0.01 and +/- 2 fold enrichment. The integration between significantly demethylated and induced genes upon decitabine treatment was performed using the VENN diagram tool in PGS.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array GPL5082 [Hs_PromPR] Affymetrix Human Promoter 1.0R Array
+
+CITATIONS
+21077739
+

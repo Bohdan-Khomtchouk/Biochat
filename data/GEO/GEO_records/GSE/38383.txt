@@ -1,0 +1,18 @@
+TITLE
+RNA polymerase II collision interrupts convergent transcription (RNA-seq)
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Anti-sense non-coding transcripts, genes-within-genes, and convergent gene pairs are prevalent among eukaryotes. The existence of such transcription units raises the question of what happens when RNA polymerase II (RNAPII) molecules collide head-to-head. Here we use a combination of biochemical and genetic approaches in yeast to show that polymerases transcribing opposite DNA strands cannot bypass each other. RNAPII stops, but does not dissociate upon head-to-head collision in vitro, suggesting that opposing polymerases represent insurmountable obstacles for each other. Head-to-head collision in vivo results in RNAPII stopping as well, and removal of collided RNAPII from the DNA template can be achieved via ubiquitylation-directed proteolysis. Indeed, in cells lacking efficient RNAPII poly-ubiquitylation, the half-life of collided polymerases increases, so that these can be detected between convergent genes by ChIP-Seq. These results provide new insight into fundamental mechanisms of gene traffic control, and point to an unexplored effect of anti-sense transcription on gene regulation via polymerase collision.
+
+DESIGN
+Total RNA was extracted from WT or Elongin C deletion mutant (elc1∆) cells and strand-specific RNA-Seq was performed. Three biological replicates were performed for WT and elc1∆.
+
+PLATFORM
+GPL13272 Illumina Genome Analyzer IIx (Saccharomyces cerevisiae)
+
+CITATIONS
+23041286
+

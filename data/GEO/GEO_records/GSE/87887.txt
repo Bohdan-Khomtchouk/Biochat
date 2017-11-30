@@ -1,0 +1,18 @@
+TITLE
+Quantifying RNA binding sites transcriptome-wide using DO-RIP-seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA-binding proteins (RBPs) and non-coding RNAs orchestrate post-transcriptional processes through the recognition of specific sites on targeted transcripts. Thus, understanding the connection between binding to specific sites and active regulation of the whole transcript is essential. Many immunoprecipitation techniques have been developed that identify either whole transcripts or binding sites of RBPs on each transcript using cell lysates. However, none of these methods simultaneously measures the strength of each binding site, and quantifies binding to whole transcripts. In this study, we compare current procedures and present Digestion Optimized (DO)-RIP-seq, a simple method that locates and quantifies RBP binding sites using a continuous metric. We have used the RBP HuR/ELAVL1 to demonstrate that DO-RIP-seq can quantify HuR binding sites with high coverage across the entire human transcriptome, thereby generating metrics of relative RNA binding strength. We demonstrate that this quantitative enrichment of binding sites is proportional to the relative in vitro binding strength for these sites. Also, we used DO-RIP-seq to quantify and compare HuR's binding to whole transcripts, thus allowing for seamless integration of binding site data with whole transcript measurements. Finally, we demonstrate that DO-RIP-seq is useful for identifying functional mRNA target sets, and binding sites where combinatorial interactions between HuR and AGO-microRNAs regulate the fate of the transcripts. Our data indicate that DO-RIP-seq will be useful for quantifying RBP binding events that regulate dynamic biological processes.
+
+DESIGN
+Three HuR immunoprecipitation replicates and three matched negative control immunoprecipitation replicates.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

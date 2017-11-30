@@ -1,0 +1,18 @@
+TITLE
+Discovering the miR-26a/targetome in prostate cancer cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In this work, we showed that the re-expression of miR-26a in DU-145 prostate cancer cells restored the tumor suppressor activity of miR-26a. To discover the genes and pathways elicited by miR-26a re-expression, we used the miRNA pull out assay to capture and the Next Generation Sequencing to identify the miR-26a targets. Data showed that: i) miR-26a captured both non-coding and coding RNAs; ii) 46% of transcripts were putative miR-26a targets according to target prediction algorithms; iii) 21 pathways were significantly enriched and the “Pathway in Cancer” was among those comprising the largest number of genes, including BIRC5 that we experimentally validated. Accordingly, the detection of cell proliferation-related events showed that miR-26a exerted its tumor suppressor activity at several levels, by decreasing the survival, impairing the migration of tumor cells and by inducing both apoptosis and cell cycle block. In conclusion, we showed that the collection of miR-26a interacting transcripts (miR-26a/targetome) represented a fruitful platform to decipher the miR-26a-dependent gene expression networks. In perspective the availability of miRNA-specific and tumor-specific targetomes will allow the discovery of new druggable tumor genes and pathways.
+
+DESIGN
+The miRNA pull out assay was performed modifying the protocol described by Orom et al. {Methods 43, 162-165, doi:S1046-2023(07)00097-7}. DU-145 were seeded into the wells of a 6-well at the density of 1.5 x105. After 24 hours from seeding, cells were transfected using lipofectamine (Thermo Fisher) with 60nM of either miR-26a duplex (ds-miR-26aCT) or a mix of 3’ biotin-tagged miR-26a 7tU (nucleotide 7 was a thiouridine) and miR-26a 17tU duplexes (ds-miR-26aBIO). The day after transfection, the cells were washed with PBS and irradiated with UV (365nm, 2J/cm2), using the Bio-Link crosslinking (BLX) (Ambrose Lourmat) with appropriate UV lamps, to induce cross-linking of tU nucleotides to RNA. Total RNA was extracted adding directly on adherent cells TRIzol reagent (Thermo Fisher) and following the instructions provided by the manufacturer. After DNAse treatment, 15 mg of RNA was incubated for 4 hrs at 4°C with 100 ml of streptavidin-conjugated beads (200 ml of Streptavidin Sepharose high performance, GE Healthcare) previously suspended in PO buffer (1M Tris pH8, 5M NaCl, 1M MgCl2, NP40 50 ml in 100 ml buffer). After 2 washes with PO buffer and 2 washes with DEPC-treated water, the RNA complexed with beads was recovered by adding 1 ml Trizol directly on the beads and then following the TRIzol RNA extraction protocol. We performed two biological replicates obtaining two miR-26aCT (control) and two miR-26aBIO (miR-26a) pull out samples. The RNA isolated after the miRNA pullout procedure from both miR-26aCT and miR-26aBIO samples was used for the construction of the cDNA libraries using the TruSeq Stranded Total RNA Sample Preparation kit (Illumina) according to the manufacturer’s suggestions. cDNA libraries were sequenced by HiSeq2000 (Illumina) in single-reads mode (50bp) by IGA Technology Service, Udine, Italy, obtaining about 20 million of reads for each samples.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Integrating chromosomal aberrations and gene expression profiles to dissect rectal cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Accurate staging of rectal tumors is essential for making the correct treatment choice. In a previous study, we found that loss of 17p, 18q and gain of 8q, 13q and 20q could distinguish adenoma from carcinoma tissue and that loss of 1q was related to lymph node metastasis. In order to find markers for tumor staging, we searched for candidate genes on these specific chromosomes. We performed gene expression microarray analysis on 79 rectal tumors and integrated these data with genomic data from the same sample series (Series GSE7946, Samples GSM194994-GSM195028). We performed supervised analysis to find candidate genes on affected chromosomes and validated the results with qRT-PCR and immunohistochemistry. Approximately 8% of the genes were significantly different between adenomas and carcinomas; the most differently expressed genes were involved in cell adhesion and cell cycle processes. Integration of gene expression and chromosomal instability data revealed a significant genome-wide correlation between these two data types. Supervised analysis identified up-regulation of EFNA1 in cases with 1q gain, and EFNA1 expression was correlated with the expression of a target gene (VEGF). The BOP1 gene, involved in ribosome biogenesis and related to chromosomal instability, was over-expressed in cases with 8q gain. SMAD2 was the most down-regulated gene on 18q, and on 20q, STMN3 and TGIF2 were highly up-regulated. Immunohistochemistry for SMAD4 correlated with SMAD2 gene expression and 18q loss. This study showed a good correlation between chromosomal aberrations and gene expression data. In the near future, specific genes identified by such integrative methods could be of additional value for explaining rectal tumorigenesis. Keywords: disease state analysis
+
+DESIGN
+Samples GSM307294-GSM307372: 79 Tumor RNAs were hybridised, all against a common reference sample, consisting of a mixture of cell line and normal colon RNA. 9 replicates (primarily duplicates) were performed (tumor samples: 217, 544, 608, 609, TME1344, TME625, TME884, TME947).
+
+PLATFORM
+GPL2641 [Mapping10K_Xba142] Affymetrix Human Mapping 10K 2.0 Array GPL3676 NKI-CMF Homo sapiens 35k oligo array
+
+CITATIONS
+18959792
+

@@ -1,0 +1,18 @@
+TITLE
+Timecourse of interferon-beta stimulation of mouse bone marrow derived macrophages
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcriptomic analysis of the temporal changes induced in mouse bone marrow derived macrophages (BMDMs) by the cytokine Interferon-beta over a timecourse of 0 to 24 hours of treatment. We set out to study the transcriptional events in mouse macrophages over time following stimulation with Interferon-beta. Mouse bone marrow derived macrophages were stimulated for 1, 2, 4, 8 and 24 hours with 10U/mL mouse interferon-beta or left untreated.
+
+DESIGN
+Mouse BMDMs were stimulated with 10 U/ml recombinant mouse interferon-beta (Ifn-β) and harvested 1, 2, 4, 8 and 24 h following treatment or collected pre-treatment (0 h). RNA from two biological replicates per time-point were processed using the Affymetrix  WT cDNA Synthesis and WT Terminal Labeling Kit and the Mouse Exon 1.0 ST Array platform. Array data was processed using the Affymetrix Expression Console Software and analysed used the Bioconductor package with R and the network-based visualisation tool BioLayout Express3D.
+
+PLATFORM
+GPL6096 [MoEx-1_0-st] Affymetrix Mouse Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+20470404
+

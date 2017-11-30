@@ -1,0 +1,18 @@
+TITLE
+Genome-wide profiling of human gene in HPV16E2 protein expressing human keratinocyte
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In the early stage of human papillomavirus (HPV) infection, E2 and E6 proteins are expressed and elicit specific immune response to clear cervical lesion. HPV E6 protein can reduce type I interferon (IFN) including IFN-? that involves in immune evasion and HPV persistence. To evaluate the role of E2 protein in modulation of the expression of cellular genes as well as innate immune associated genes in HPV associated cervical cancer, genome-wide expression profiling of human primary keratinocytes (HPK) harbouring HPV16 E2 and HPV18 E2 was investigated using microarray assay and innate immune associated genes were analyzed. These results indicated that HPV E2s altered cellular gene expression including immune associated genes. Altered cellular signaling pathways in HPK expressing HPV E2s based on KEGG database. The top 10 canonical pathways include metabolic pathway, cytokine-cytokine receptor interaction, pathway in cancer, viral carcinogenesis, protein processing in endoplasmic reticulum, PI3K-AKT signaling pathway, MAPK signaling pathway, leukocyte transendothelial migration, chemokine signaling, and focal adhesion.
+
+DESIGN
+The human primary neonatal foreskin keratinocytes (HPK) (Lonza, Basel, Switzerland) were cultured in supplemented CnT-57 medium (CELLnTEC, Bern, Switzerland). All cells used were tested and found free of mycoplasma.  HPK was transduced 4 replicates of either recombinant adenoviruses containing GFP, GFP-HPV16E2, and GFP-HPV18E2 at MOI 50 and collected cells for RNA extraction after 48 h. Total RNA were isolated and analyzed on an RNA 6000 Nano Lab-on-a-Chip in the 2100 Bioanalyzer (Agilent Technology, ON, CA), showing RIN score above 9.4 and then Illumina microarray was performed using platform Human HT-12 v4.0 BeadChip. Gene expression data were imported into Partek Genomics Suite 6.5 (Partek, St Louis, Mo). Raw data were preprocessed, in steps of background correction, normalization, and summarization using robust multiarray average analysis, and the expression data were transformed to log2. Principal-component analysis (PCA) was performed to identify outliers of sample group. Differential expression analysis for the samples was performed using one way analysis of variance (ANOVA). Gene lists were created using a cut-off of P < 0.05, 1.5-fold change (ANOVA_results.txt).
+
+PLATFORM
+GPL10904 Illumina HumanHT-12 V4.0 expression beadchip (gene symbol)
+
+CITATIONS
+24614210
+

@@ -1,0 +1,18 @@
+TITLE
+ASXL3 is a Novel Pluripotency Factor in Human Respiratory Epithelial Cells and a Potential Therapeutic Target in Small Cell Lung Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In order to investigate epigenetic mechanisms contributing to stemness/pluripotency in lung cancers and potentially identify novel therapeutic targets in these malignancies, induced pluripotent stem cells (iPSCs) were generated from normal human small airway epithelial cells (SAEC) by lentiviral transduction of Oct4, SOX2, KLF4, and MYC (Yamanaka factors). The lung iPSC (Lu-iPSC) exhibited hallmarks of pluripotency including morphology, surface antigen and stem cell gene expression, in-vitro proliferation, and teratoma formation. Additionally, Lu-iPSC exhibited no chromosomal aberrations, complete silencing of reprogramming transgenes, genomic hypermethylation, up-regulation of genes encoding components of polycomb repressive complex 2 (PRC2), hypermethylation of stem cell polycomb targets, and modulation of more than 15,000 other genes relative to parental SAEC. Additional Sex Combs Like-3 (ASXL3), encoding a PRC2 associated protein not previously described in reprogrammed cells, was markedly up-regulated in Lu-iPSC as well as human small cell lung cancer (SCLC) lines and specimens. ASXL3 over-expression correlated with increased genomic copy number in SCLC lines. Knock-down of ASXL3 inhibited proliferation, clonogenicity, and teratoma formation by Lu-iPSC, and significantly diminished in-vitro clonogenicity and growth of SCLC cells in-vivo. Collectively, these studies highlight the potential utility of this Lu-iPSC model for elucidating epigenetic mechanisms contributing to pulmonary carcinogenesis, and suggest that ASXL3 is a novel target for SCLC therapy.
+
+DESIGN
+DNA methylation experiment on Infinium HumanMethylation450 BeadChip (Illumina, San Diego, CA. USA) was performed as described previously. Briefly, DNA was isolated using QIAamp DNA Mini Kit (Qiagen #51304) and treated with bisulfite using EpiTect Bisulfite Kit (Qiagen). Efficiency of methylation level was measured by Illumina Infinium methylation assays (Illumina).  The raw data file “FinalReport.txt” generated from Illumina “GenomeStudio” (Illumina) was normalized with “Simple Scaling Normalization” (SSN) method implemented in the “lumi” R package following the color-bias adjustment. Two files were produced, one with beta value for individual target and another one with corresponding “M” values for the beta values. The file with “M” values was used for statistical analysis with FDR < 0.05 (adjusted based on Benjamini-Hochberg procedure) as significant cutoff unless otherwise indicated, and also the absolute beta value difference greater than 0.2 from the same contrast comparison was applied. Partek Genomics Suite (Partek Inc.), R packages of lumi, methlumi and also other related R packages were used for data processing, analyzing and data presentation.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

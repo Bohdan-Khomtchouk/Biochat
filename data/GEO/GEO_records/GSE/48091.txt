@@ -1,0 +1,18 @@
+TITLE
+A nested case-control study to investigate drivers for metastatic disease in breast cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The purpose of this study was to improve prediction of patients at high-risk for metastatic disease utilizing a nested case-control design that uniquely enables enrichment for relevant phenotypes. We identified all women diagnosed with primary breast cancer from January 1, 1997, to December 31, 2005, in the Stockholm health care region. Patients developing distant metastatic disease (cases) were selected and controls (free from distant disease) were randomly matched by adjuvant therapy, age and calendar period at diagnosis. The nested case-control study included 768 study subjects with clinical information and gene expression arrays (Human Cancer G110). Study subjects were randomly and equally divided into training set (discovery) or testing (validation) set. Metastatic onset prediction was then compared including either clinical variables only or combining clinical and genetic information. Differentially expressed genes and pathways between cases and controls included a wide-spectrum of well known as well as candidate regulators of the metastatic cascade.
+
+DESIGN
+The nested case-control study included 768 study subjects corresponding to 623 primary tumor samples. Details concerning case-control status are given in the samples section. Each case and its' matching controls form risk sets, indicated by the setnr variable.
+
+PLATFORM
+GPL10379 Rosetta/Merck Human RSTA Custom Affymetrix 2.0 microarray [HuRSTA-2a520709]
+
+CITATIONS
+26077471 , 27742676
+

@@ -1,0 +1,18 @@
+TITLE
+SMN and Symmetric Arginine Dimethylation of RNAP II CTD Control Termination
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The C-terminal domain (CTD) of the RNA polymerase II (RNAPII) subunit POLR2A is a platform for modifications specifying the recruitment of factors that regulate transcription, mRNA processing, and chromatin remodeling.  Here, we show that a CTD arginine residue (R1810 in human) that is conserved across vertebrates is symmetrically dimethylated (me2s).  This R1810me2s modification requires Protein Arginine Methyltransferase 5 (PRMT5) and recruits the Tudor domain of the Survival of Motor Neuron (SMN) protein, which is mutated in spinal muscular atrophy (SMA).  SMN interacts with Senataxin, which is sometimes mutated in Ataxia Oculomotor Apraxia 2 (AOA2) and Amyotrophic Lateral Sclerosis (ALS4).  Because R1810me2s and SMN, like Senataxin, are required for resolving RNA-DNA hybrids, created by RNA polymerase II, that form ‘R-loops’ in transcription termination regions, we propose that R1810me2s, SMN, and Senataxin are components of a pathway for R-loop resolution in which defects can influence transcription termination and may contribute to neurodegenerative disorders.
+
+DESIGN
+ChIP of RNAPII in Raji cells expressing shRNG against SMN or GFP; ChIP against RNAPII in Raji cells where endogenous RNAPII has been replaced with wt or R1810A mutant amanitin-resistant protein; and ChIP of SMN in HEK293 cells.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26700805
+

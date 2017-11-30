@@ -1,0 +1,18 @@
+TITLE
+Transcriptional glucocorticoid-response at the exon level and NR3C1 DNA-binding in childhood leukemia models; NR3C1-DNA binding in CCRF-CEM-C7H2 T-ALL cells.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Glucorticoids (GCs) are steroid hormones with a wide range of physiological actions in different cell types and tissues. Their ability to induce apoptosis in malignant cells of the lymphoid lineage is exploited since decades in the treatment of childhood acute lymphoblastic leukemia (ALL), the molecular mechanism of this cell death induction being however still unknown.  Using an integrative approach we delineated the transcriptional response of a preB- and a T-ALL model system employing Exon microarrays and identified in vivo interactions of the transcription factor GC receptor (GR) with genes' promoters in the same samples using the ChIP-on-chip technology. We did find differences in GR-DNA interaction in the genes' promoters between the two cell systems and also in extent and kinetics of GC mediated gene regulation. The overall response was stronger in CEM-C7H2 T-ALL cells where it was also accompanied by a stronger autoup-regulation of the GR gene. Considering the differing kinetics we furthermore defined a set of  common response genes. These response genes were enriched in apoptosis related gene ontology processes, and about half of them yielded also GR enrichment in the respective promoter regions.  Globally, the presence of GR at gene's promoters was higher for GC induced compared to repressed genes, indicating that GR mediates gene repression by interaction with distant enhancer regions or by cross-talk with other transcription factors.  In order to identify the genes' GC regulated transcript variants we analyzed the data set also at the level of individual exons and predicted first exons of GC induced isoforms. We could thus define GC regulated variants of response genes, did however also identify first exons not corresponding to any known transcript.  We reconfirmed these results for the genes ATP4B, GPR98, TBCD and ZBTB16 and identified for the latter also a novel exon employing 5' nested amplification of cDNA ends. Expression and regulation of this and all downstream exons of ZBTB16 was further verified by real time RT-PCR in 4 different preB-ALL cell lines. Thus, besides potential other novel gene isoforms, GCs induce a novel short transcript variant of ZBTB16 in preB-ALL cells.  Finally, the implemented bioinformatic methods may be useful also for other high density microarray data sets to identify alternative splice events and transcript variant expression.
+
+DESIGN
+This data set was used for the identification of GC receptor (GR/NR3C1) DNA interactions in CCRF-CEM-C7H2 T-ALL cells. For each probe t-statistics were calculated between signals in test against control samples using the moderated t-test. These t-scores were then smoothed using a moving window approach averaging values of neighboring probes along the chromosome (window half site of 300nt). Windows with less than 4 probes were discarded. To estimate the p-value for enrichment in the test versus the control sample an aproach similar to MAT (Johnson et al. 2006) was used. Resulting p-values were subsequently adjusted for multiple hypothesis testing using the q-value method (Storey and Tibshirani, 2003). Windows with a q-value smaller 0.05 were considered to be significantly enriched, overlapping significant windows were merged.
+
+PLATFORM
+GPL13490 Affymetrix Human Promoter 1.0R Array [genome build GRCh37]
+
+CITATIONS
+22074950
+

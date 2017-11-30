@@ -1,0 +1,18 @@
+TITLE
+Next generation sequencing of the transcriptome in MCF-7 cells with/without SRA knockdown
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We employed next generation sequencing to examine whether knocking down the steroid receptor RNA activator (SRA) gene significantly affect the expression levels of certain genes in MCF-7 cells. MCF-7 cells were transfected with either a pool of four non-target control siRNAs or a pool of four SRA siRNAs for 32 hrs. 157 million reads were generated from triplicate samples of the control group; 151 million reads were generated from triplicate samples of the SRA knockdown group. Six genes were identified as significantly changed in the expression levels with the cutoff of q value ≤ 0.05, fold change ≤ 0.5 or ≥ 2, and reads per kilobase per million mapped reads (RPKM) ≥ 1. However, except for SRA itself, the other five genes were shown by real-time PCR to be only affected by one siRNA in the SRA siRNA pool. Further analysis of this dataset with different cuttoff setting may reveal true SRA-regulated genes in MCF-7.
+
+DESIGN
+MCF-7 cells were cultured in high glucose DMEM with 10% fetal bovine serum, 2 mM Glutamax-1, 100 units/ml penicillin and 100 μg/ml streptomycin. ON-TARGETplus SMARTpool for human SRA (Thermo Scientific, L-027192-00-0005) was used to knockdown SRA (siSRA) and ON-TARGETplus Non-targeting Pool Thermo Scientific, D-001810-10-05) was used as a negative control (siCtrl). A total of 25 nM siRNA was transfected in 6-well dishes using Lipofectamine™ RNAiMAX Reagent (Life Technologies, Invitrogen) following the manufacturer’s recommendations. Polyadenylated RNA was purified from the cells 32 hrs after transfection. cDNA libraries were prepared and double-stranded cDNA was fragmented using DNase I according to Illumina specifications, prior to adaptor ligation. Sequencing libraries were amplified and sequenced using an Illumina HiSeq 2000 sequencer.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24486609
+

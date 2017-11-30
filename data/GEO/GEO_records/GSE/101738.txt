@@ -1,0 +1,18 @@
+TITLE
+Measuring the effect of MYC on transcription during the DNA double-strand break response by RNA-seq of newly synthesized transcripts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We sequenced newly synthesized mRNA to determine which genes are differentially transcribed during the DNA double-strand break (DSB) response. Moreover, as the transcription factor MYC is repressed in a p53-dependent manner during the DSB response, we determined the effect of this repression on transcription by maintaining MYC above its basal expression level. To control for differences in cell size, we spiked in S. pombe RNA proportional to cell number, then normalized human transcript counts to S. pombe transcript counts. We found that ~77% of transcripts were produced at a lower level during the time interval 2.5‑3.5 h after treatment with neocarzinostatin (NCS), which causes DSBs, than in a one-hour time interval without NCS treatment. When MYC was maintained above its basal level during the DSB response, only ~59% of transcripts were produced at a lower level in NCS-treated cells. Known p53 target genes were upregulated during the same time interval, and maintaining MYC above its basal level did not change this significantly. Consistent with previous observations, we found that increasing MYC levels increased transcription of most genes, with a larger effect on more highly transcribed genes. We observed the opposite in NCS-treated cells, in which more highly transcribed genes were downregulated to a greater degree. These data support a model that p53, by repressing MYC, redistributes transcription during the DSB response, inhibiting global transcription while activating transcription of specific genes involved in the response.
+
+DESIGN
+mRNA transcribed over a 1-h interval in cells with/without DNA double-strand breaks and with/without increased MYC levels, in triplicate. RNA from S. pombe was spiked in proportional to cell number.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28867293
+

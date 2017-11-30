@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analyses for the WOPR regulator osaA and the velvet regulator veA
+
+ORGANISM
+Aspergillus nidulans
+
+SUMMARY
+Orchestration of cellular growth and development occurs during the life cycle of Aspergillus nidulans. A multi-copy genetic screen intended to unveil novel regulators of development identified the AN6578 locus predicted to encode a protein with the WOPR domain, which is a broadly present fungi-specific DNA-binding motif. Multi-copy of AN6578 disrupted the normal life cycle of the fungus leading to enhanced proliferation of vegetative cells, whereas the deletion resulted in hyper-active sexual fruiting with reduced asexual development (conidiation), thus named as osaA (Orchestrator of Sex and Asex). Further genetic studies indicate that OsaA balances development mainly by repressing sexual development downstream of the velvet regulator VeA. The absence of osaA is sufficient to suppress the veA1 allele leading to the sporulation levels comparable to veA+ wild type (WT). Genome-wide transcriptomic analyses of WT, veA1, and osaA veA1 strains by RNA-Seq further corroborate that OsaA functions in repressing sexual development downstream of VeA. However, OsaA also plays additional roles in controlling development, as the ΔosaA veA1 mutant exhibits precocious and enhanced formation of Hülle cells compared to WT. The OsaA orthologue of Aspergillus flavus is able to complement the osaA null phenotype in A. nidulans, suggesting a conserved role of this group of WOPR domain proteins. In summary, OsaA is an upstream orchestrator of morphological and chemical development in Aspergillus that functions downstream of VeA.
+
+DESIGN
+Examining the transcriptomic profiles of three Aspergillus nidualns strains: FGSC4, FGSC26, and ΔosaA veA1. Samples were collected at 12 h post developmental induction. Samples were collected in triplictaes.
+
+PLATFORM
+GPL20839 Illumina HiSeq 2500 (Aspergillus nidulans)
+
+CITATIONS
+26359867
+

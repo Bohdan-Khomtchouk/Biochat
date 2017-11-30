@@ -1,0 +1,18 @@
+TITLE
+Expression array data for oleate-specific transcriptional regulatory network analysis
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The goal of the study was to determine the expression profiles of transcription factor deletion strains in the presence of oleate. The data were used for a larger study described below: A novel network topology-based clustering approach was used to characterize a dynamic transcriptional regulatory network responsive to the fatty acid oleate.  Condition-specific large-scale chromatin localization data were generated for four fatty-acid related regulators, and used to construct physical interaction networks.  Data integration and simple statistical analysis of dynamic network architecture led to the identification of a regulatory role for a previously uncharacterized protein, and unique mechanism for coordination and regulation of multiple biological responses through the formation of related parallel combinatorial control motifs.  Temporal coordination and specificity are achieved through the ability of a regulator (Oaf1p) to have multiple context-specific activities under the same condition.  The analysis suggests that active paths for a transcriptional response can be highly interconnected in parallel and involve multiple functions for individual regulators through combinatorial control. Keywords: expression analysis of gene deletion strains
+
+DESIGN
+Experiments 1-4: mRNA levels in each of four deletion strains (delta_OAF1, delta_PIP2, delta_ADR1 or delta_OAF3) were compared to those in wild type cells by microarray analysis.  All strains were induced for 5h in the fatty acid oleate. Experiment 5: mRNA levels in wild-type cells grown in the presence of 0.1% glucose were compared to those in wild-type cells grown in oleate for 5h by microarray analysis. Control Experiment 6:  mRNA levels in wild-type cells were compared to mRNA levels in wild-type cells by microarray analysis.  All strains were induced for 5h in the fatty acid oleate. For all 6 experiments, cells were harvested, and poly A+ RNA was extracted and labeled with Cy3 and Cy5 fluorescent dyes, and equimolar amounts of each label were mixed and hybridized to yeast ORF oligonucleotide microarrays as previously described (Smith et al., 2002).  There were two biological replicates for each experiment, and for each replicate both label orientations were analyzed on arrays containing 4 replicate spots of each gene, resulting in a total of 16 replicate spots per gene.
+
+PLATFORM
+GPL4287 ISB yeast ORF 2642-2665 GPL4303 ISB yeast ORF 3265-4161 GPL4304 ISB yeast ORF 4866-5708
+
+CITATIONS
+17551510
+

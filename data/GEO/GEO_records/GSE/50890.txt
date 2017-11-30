@@ -1,0 +1,18 @@
+TITLE
+Efficient identification of microRNAs for classification of tumor origin (I)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Carcinomas of unknown primary origin constitute 3-5% of all newly diagnosed metastatic cancers, of which the primary source is difficult to classify with current histological methods. Effective cancer treatment depends on early and accurate identification of the tumor, which is why patients with metastases of unknown origin have poor prognosis and short survival. Because microRNA expression is highly tissue specific, the microRNA profile of a metastasis may be used to identify its origin. As a first step to realize this goal, we evaluated the potential of microRNA profiling for identification of the primary tumor of known metastases.   208 formalin-fixed paraffin-embedded samples representing 15 different histologies were profiled on an LNA-enhanced microarray platform, which allows for highly sensitive and specific detection of microRNA. Based on these data, we developed and cross-validated a novel classification algorithm, LASSO (Least Absolute Shrinkage and Selection Operator), which had an overall accuracy of 85%. When the classifier was applied on an independent test set of 48 metastases, the primary site was correctly identified in 42 cases (88% accuracy).  Our findings suggest that microRNA expression profiling on paraffin tissue can efficiently predict the primary origin of a tumor, and may provide pathologists with a molecular diagnostic tool that can improve their capability to correctly identify the origin of hitherto unidentifiable metastatic tumors, and eventually, enable tailored therapy.
+
+DESIGN
+94 samples
+
+PLATFORM
+GPL15462 Exiqon miRCURY LNA microRNA array v.10.0 Extended Version
+
+CITATIONS
+24211363
+

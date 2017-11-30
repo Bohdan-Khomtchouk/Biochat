@@ -1,0 +1,18 @@
+TITLE
+Microarray analysis of human monocytes infected with Francisella tularensis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Differential expression in human peripheral blood monocytes between F. novicida-infected and uninfected, and between Francisella tularensis tularensis isolate Schu S4 and uninfected. The goal was to examine genomewide transcriptional reponses to these two strains, and identify differentially-regulated genes that may help explain the virulence of Schu S4. Keywords: Immune Response, Human Monocytes, Bacteria, Francisella
+
+DESIGN
+Human monocytes were infected with the Schu S4 isolate of Francisella tularensis tularensis (n=4), with F. tularensis subspecies novicida isolate U112 (n=4) or were left uninfected (n=6).  Gene expression values were calculated using the gcrma package in R and BioConductor, and limma to identify differentially expressed genes.  Submitted here are expression values calculated using R 2.7.1 and BioConductor 2.2 (FreeBSD/amd64) but the original were done using R 2.6.1 and BioConductor 2.1 (FreeBSD/amd64).  Twelve other chips were pooled with these 14 for preprocessing.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18698339
+

@@ -1,0 +1,18 @@
+TITLE
+Determination of Lsd1 function in inguinal white adipose tissue (ingWAT) by global transcriptome analysis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To investigate the role of Lsd1 in ingWAT we crossed mice harboring conditional Lsd1 alleles (Zhu et al., 2014) with the Adipoq-Cre deleter strain (Eguchi et al., 2011), which results in Cre-mediated loss of Lsd1 selectively in adipocytes. Transciptome analysis of ingWAT obtained from control and knock-out mice revealed 727 genes differentially expressed between Lsd1 knock-out and control mice at 6 weeks of age (p-value < 10-2).
+
+DESIGN
+We selectively knocked-out Lsd1 in adipose tissue by crossing Lsd1 floxed mice to Adipoq-Cre mice. RNA from inWAT of 6 week.old control (Lsd1 floxed mice) and knock-out mice was extracted with trizol according to the manufacturer protocol. RNA samples were sequenced by the standard Illumina protocol to create raw sequence files (.fastq files). We annotated these reads to the mm10 build of the mouse genome using TopHat version 2. The aligned reads were counted with the homer software (analyze RNA) and DEG’s were identified using EdgeR and DESeq version 1.8.3.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28461471
+

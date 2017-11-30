@@ -1,0 +1,18 @@
+TITLE
+Analysis of gene expression in esophageal squamous cell carcinoma (ESCC)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To characterize gene expression in esophageal squamous cell carcinoma, we examined gene expression in tumor and matched normal adjacent tissue from 17 ESCC patients from a high-risk region of China.
+
+DESIGN
+RNA was extracted from 17 micro-dissected tumor and matched normal tissue pairs using the PureLink Micro-to-Midi Total RNA Purification System (Invitrogen, Carlsbad, CA) Affymetrix HG-U133A 2.0 gene expression arrays were performed according to the manufacturer's directions. The Robust Multiarray Average (RMA) algorithm implemented in Bioconductor in R was used for background correction and normalization across all samples.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+20955586
+

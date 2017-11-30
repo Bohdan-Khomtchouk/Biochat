@@ -1,0 +1,18 @@
+TITLE
+Ovarian Cancer Cell Lines pre-microRNA Transfection
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs (miRNAs) represent a class of small non-coding RNAs that control gene expression by targeting mRNAs and triggering either translation repression or RNA degradation. Emerging evidence suggests the potential involvement of altered regulation of miRNA in the pathogenesis of cancers, and these genes are thought to function as both tumor suppressors and oncogenes. Using microRNA microarrays, we identify several miRNAs aberrantly expressed in human ovarian cancer tissues and cell lines. miR-221 stands out as a highly elevated miRNA in ovarian cancer, while miR-21 and several members of the let-7 family are found downregulated. Public databases were used to reveal potential targets for the highly differentially expressed miRNAs. In order to experimentally identify transcripts whose stability may be affected by the differentially expressed miRNAs, we transfected precursor miRNAs into human cancer cell lines and used oligonucleotide microarrays to examine changes in the mRNA levels. Keywords: Expression data from various ovarian cancer cell lines transfected with pre-microRNA.
+
+DESIGN
+2 Cell lines, UCI101 and BG1,  were tranfected with various miRNA precursors, 4 different miRNA candidates (miR-98, miR-424, miR-34c and let-7f), (Ambion) and control siRNA (Dharmacon) in 24 well plates using siPORT neo-FX (Ambion) according to the manufacturer’s protocol. Three days post-transfection, RNA was prepared using RNeasy kit (Qiagen) and changes in RNA levels analyzed using Illumina microarrays.  In Short, biotinylated cRNA was prepared using the Illumina RNA Amplification Kit (Ambion, Inc., Austin, TX) according to the manufacturer’s directions starting with approximately 500 ng total RNA. Samples were purified using the RNeasy kit (Qiagen, Valencia, CA). Hybridization to the Sentrix HumanRef-8 Expression BeadChip (Illumina, Inc., San Diego, CA), washing and scanning were performed according to the Illumina BeadStation 5006manual (revision C). Array data processing and analysis was performed using Illumina Bead Studio software.  The changes in miRNA levels were monitored using N-code cDNA synthesis and qPCR.
+
+PLATFORM
+GPL6104 Illumina humanRef-8 v2.0 expression beadchip
+
+CITATIONS
+18560586
+

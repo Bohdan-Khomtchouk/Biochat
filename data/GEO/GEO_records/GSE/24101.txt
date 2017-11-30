@@ -1,0 +1,18 @@
+TITLE
+Comparison of gene expression profile of Ruditapes philippinarum gills and digestive glands.
+
+ORGANISM
+Ruditapes philippinarum
+
+SUMMARY
+A manila clam oligo microarray platform (GPL10900) was used to profile gene expression in gills and digestive gland of R. philippinarum. For each tissue, total RNA was extracted from three (3) independent biological replicates of digestive gland and gills, each consisting of tissue pools of five (5) animals. Statistical analysis with SAM (Significance Analysis of Microarray) identified 8,257 probes differentially expressed between the two different tissues.
+
+DESIGN
+In this study, we analyzed six (6) samples, three (3) pools of digestive gland and three (3) pools of gills. Gene expression profiling was performed using the Agilent-019810 Ruditapes philippinarum Oligo Microarray platform (GPL10900) based on single-colour detection (Cyanine-3 only). Microarrays were scanned with Agilent scanner G2565BA (barcode on the left, DNA on the back surface, scanned through the glass) at a resolution of 5 microns; all slides were scanned twice at two different sensitivity settings (XDRHi 100% and XDRLo 10%); the scanner software created a unique ID for each pair of XDR scans and saved it to both scan image files. Feature Extraction (FE) 9.5 used XDR ID to link the pairs of scans together automatically when extracting data. The signal left after all the FE processing steps have been completed is ProcessedSignal that contains the Multiplicatively Detrended, Background-Subtracted Signal.
+
+PLATFORM
+GPL10900 UniversityPadova_Ruditapes philippinarum_4x44K_v1.0
+
+CITATIONS
+21569398
+

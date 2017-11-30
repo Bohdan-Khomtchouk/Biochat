@@ -1,0 +1,18 @@
+TITLE
+Up-regulation of translational machinery and distinct genetic subgroups characterize hyperdiploidy in multiple myeloma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Karyotypic instability, including numerical and structural chromosomal aberrations, represents a distinct feature of multiple myeloma (MM). 40-50% of patients displayed hyperdiploidy, defined by recurrent trisomies of non-random chromosomes. To characterize hyperdiploid (H) and nonhyperdiploid (NH) MM molecularly, we analyzed the gene expression profiles of 66 primary tumors, and used FISH to investigate the major chromosomal alterations. The differential expression of 225 genes mainly involved in protein biosynthesis, transcriptional machinery and oxidative phosphorylation distinguished the 28 H-MM from the 38 NH-MM cases. The 204 upregulated genes in H-MM mapped mainly to the chromosomes involved in hyperdiploidy, and the29% up-regulated genes in NH-MM mapped to 16q. The identified transcriptional fingerprint was robustly validated on a publicly available gene expression dataset of 64 MM cases; and the global expression modulation of regions on the chromosomes involved in hyperdiploidy was verified using a self-developed non-parametric statistical method. We showed that H-MM could be further divided into two distinct molecular and transcriptional entities, characterized by the presence of trisomy 11 and 1q-extracopies/chromosome 13 deletion, respectively. Our data reinforce the importance of combining molecular cytogenetics and gene expression profiling to define a genomic framework for the study of MM pathogenesis and clinical management. Keywords: other
+
+DESIGN
+This series of microarray experiments contains the gene expression profiles of purified plasma cells (PCs) obtained from 102 newly diagnosed multiple myeloma (MM). PCs were purified from bone marrow specimens, after red blood cell lysis with 0.86% ammonium chloride, using CD138 immunomagnetic microbeads. The purity of the positively selected PCs was assessed by morphology and flow cytometry and was > 90% in all cases. 5 micrograms of total RNA was processed and, in accordance with the manufacturer's protocols, 15 micrograms of fragmented biotin-labelled cRNA were hybridized on GeneChip Human Genome U133A Arrays (Affymetrix Inc.). The arrays were scanned using the Agilent GeneChip Scanner G2500A. The images were acquired using Affymetrix MicroArray Suite (MAS) 5.0 software and the probe level data converted to expression values using the Bioconductor function for the Robust Multi-Array average (RMA) procedure (Irizarry et al, 2003), in which perfect match intensities are background adjusted and quantile-quantile normalised.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+17367409
+

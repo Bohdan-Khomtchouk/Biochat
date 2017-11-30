@@ -1,0 +1,18 @@
+TITLE
+Cell cycle- and chaperone-mediated regulation of H3K56ac incorporation in yeast
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Acetylation of histone H3 lysine 56 is a covalent modification best-known as a mark of newly-replicated chromatin, but has also been linked to replication-independent histone replacement.  Here, we measured H3K56ac levels at single-nucleosome resolution in asynchronously growing yeast cultures, as well as in yeast proceeding synchronously through the cell cycle. We developed a quantitative model of H3K56ac kinetics, which shows that H3K56ac is largely explained by the genomic replication timing and the turnover rate of each nucleosome, suggesting that cell cycle profiles of H3K56ac should reveal most first-time nucleosome incorporation events. However, since the deacetylases Hst3/4 prevent use of H3K56ac as a marker for histone deposition during M phase, we also directly measured M phase histone replacement rates. We report a global decrease in turnover rates during M phase, and a further specific decrease in turnover among early origins of replication, which switch from rapidly-replaced in G1 phase to stable-bound during M phase. Finally, by measuring H3 replacement in yeast deleted for the H3K56 acetyltransferase Rtt109 and its two co-chaperones Asf1 and Vps75, we find evidence that Rtt109 and Asf1 preferentially enhance histone replacement at rapidly-replaced nucleosomes, whereas Vps75 appears to inhibit histone turnover at those loci. These results provide a broad perspective on histone replacement/incorporation throughout the cell cycle, and suggest that H3K56 acetylation provides a positive feedback loop by which replacement of a nucleosome enhances subsequent replacement at the same location.
+
+DESIGN
+To characterize incorporation of H3K56ac in yeast, several sets of ChIP-chip experiments were performed, along with a set of gene expression microarrays.  The following describes each individual set, the number of biological and array replicates performed, dye-flip replicates if performed, the total number of arrays, and the applicable figures in the manuscript.  Except for Item D (gene expression), all arrays were ChIP-chip experiments. A.  Mid-log H3K56ac measurement.  3 biological replicates, 1 array replicate each of K56Ac ChIP with Grunstein Lab antibody.  2 biological replicates, 2 array replicates each of K56Ac ChIP with Upstate antibody.  7 total arrays.  Figure 1A-C, 3, S1, S2A, S6, S7. B.  Cell cycle - H3K56ac measurements.  1 biological replicate, 3 array replicates each of K56Ac ChIP with Upstate antibody.  17 time points (10 min. unavailable in third array replicate).  50 total arrays.  Figures 2, 3, 4, S4, S5, S7, S8. C.  G1 phase turnover.  1 biological replicate (3 time points) with 1 dye-flip replicate each time point (45 minutes replaced with 60 minutes for dye-flip replicate).  6 total arrays.  Tables S2, S3. D.  Cell cycle - mRNA measurements.  2 biological replicates, 1 array replicate each.  34 total arrays.  Figure S3. E.  M phase turnover rates.  2 biological replicates, second biological replicate has one dye-flip replicate.  17 total arrays.  Figure 5. F.  Deletion mutants in H3K56ac pathway for G1-arrested cells.  Strains:  wild-type parental strain (PKY4212; 2 biological replicates), asf1D (strain 2 biological replicates), vps75D (3 biological replicates, third biological replicate having two array replicates), rtt109D (2 biological replicates, each with one dye-flip replicate).  12 total arrays.  Figure 6.
+
+PLATFORM
+GPL1864 Yeast spotted cDNA microarray GPL2625 yeast_nucleosome_positioning_microarray 6-9
+
+CITATIONS
+19023413
+

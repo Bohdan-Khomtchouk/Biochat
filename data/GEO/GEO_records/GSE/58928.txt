@@ -1,0 +1,18 @@
+TITLE
+Rbfox2-coordinated alternative splicing of Mef2d and Rock2 controls myoblast fusion during myogenesis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: The goals of this study are to compare transcriptomes using RNA-seq of mouse myoblasts (C2C12 cell line) in undifferentiated and differentiated states and with siRNA-mediated knock down of the RNA binding proteins, Rbfox1 (only expressed in differentiated state) and Rbfox2 (expressed in both undifferentiated and differentiated states). Methods: Differentiated and undifferentiated C2C12 cultures treated with Rbfox1 (differentiated only) or Rbfox2 siRNAs or a mock siRNA transfection were used for RNA-Seq analysis using Illumina HiSeq2000. 101x2 paired-end RNA-seq reads were first uniquely aligned to the mouse genome (mm9) using TopHat 1.4.1. RSEM was used to count the number of reads mapped to genes using UCSC database, followed by edgeR to call differentially expressed genes with false discovery rate less than 0.01. Cufflinks was used to reconstruct isoforms and analyze alternative splicing and percent spliced in (PSI) was calculated. PSI values were validated by RT-PCR. Results: 58-88% of the RNA-seq reads from technical and biological replicates mapped uniquely to the mouse genome. Analysis of gene expression and alternative splicing changes are published in Singh et al. Molecular Cell (2014). Conclusions: Our study has identified gene expression and alternative splicing transitions that occur during myoblast differentiation, demonstrate that 30% of the splicing transitions are regulated by Rbfox2, demonstrated that Rbfox2 is required for a late step of myoblast differentiation and identified two Rbfox2-regulated splicing transitions that are required for differentiation.
+
+DESIGN
+Undifferentiated and differentiated C2C12 cultures with Rbfox2 depletion or Rbfox1 depletion (differentiated only) in at least duplicate samples analyzed by deep sequencing on Illumina HiSeq2000.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25087874
+

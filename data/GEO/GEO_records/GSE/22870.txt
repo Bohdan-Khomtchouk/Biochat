@@ -1,0 +1,18 @@
+TITLE
+Human LSD2/KDM1b/AOF1 regulates gene transcription by modulating intragenic H3K4me2 methylation (ChIP-chip)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Dynamic histone H3K4 methylation is an important epigenetic component of transcriptional regulation. However, most of our current understanding of this histone mark is confined to regulation of transcriptional initiation. We now show that human LSD2/KDM1b/AOF1, the human homolog of LSD1, is a novel H3K4me1/2 demethylase that specifically regulates histone H3K4 methylation within intragenic regions of its target genes. Genome-wide mapping reveals that LSD2 associates predominantly with the gene bodies of actively transcribed genes, but is markedly absent from promoters. Depletion of endogenous LSD2 results in an increase of H3K4me2 as well as a decrease of H3K9me2 at LSD2 binding sites, and a consequent dysregulation of target gene transcription. Furthermore, characterization of LSD2 complex revealed that LSD2 forms active complexes with euchromatic histone methyltransferases EHMT1/2 and NSD3 as well as cellular factors involved in active transcription elongation. These data provide a possible molecular mechanism linking LSD2 to transcriptional regulation post initiation.
+
+DESIGN
+Native chromatin of HeLa-S stably expressing FgHA-LSD2 was prepared by micrococcal nuclease digestion as previously described (Umlauf et al., 2004), and was primarily composed of mono-, di-, and tri-nucleosomes. Native chromatin fragments were sequential immunoprecipited using anti-flag and anti-HA agarose beads (Sigma). After extensive washing, Flag or HA peptides (Sigma) were used for elution after each immunoprecipitation. DNA from the final step was purified and processed for tiling array hybridization to Human Genome tiling 2.0 Array (Affymetrix) per manufacture’s instructions. Input DNA was used as control. Regions enriched by TAP N-ChIP were identified using algorithm Model-Based Analysis of Tiling arrays (MAT) (Johnson et al., 2006), and displayed by Integrated Genome Browser (IGB). CEAS (cis-element annotation system) was used for statistic analysis of the distribution pattern of LSD2 binding sites on promoter and non-promoter regions (Ji et al., 2006). To estimate the statistical significance of colocalization between LSD2 and histone modification marks previously identified (Barski et al., 2007), we estimated the null distribution of overlap by generating 100 randomly permutated sample of the histone modification loci and the overlap is calculated for each permutated sample.
+
+PLATFORM
+GPL4912 [Hs35b_P03R] Affymetrix Human Tiling 2.0R Set, Array 3
+
+CITATIONS
+20670891
+

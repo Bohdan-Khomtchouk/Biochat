@@ -1,0 +1,18 @@
+TITLE
+Involvement of ergosterol contents in the tolerance to vanillin in Saccharomyces cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The vanillin tolerance Saccharomyces cerevisiae was screened and compared intracellular ergosterol levels with several laboratory yeast strains, to study potential relationship between ergosterol contents and vanillin tolerance.  S. cerevisiae NBRC1950 was selected as a vanillin tolerant strain.  Its ergosterol contents were higher than those of laboratory strains.  The results of DNA microarray and quantitative RT-PCR analysis showed that 5 genes involved in ergosterol biosynthesis (ERG28, HMG1, MCR1, ERG5 and ERG7) were up-regulated in NBRC 1950 compared with strain X2180, suggested that high expressions of genes involved in ergosterol biosynthesis may cause for the high ergosterol content in strain NBRC 1950.  S. cerevisiae HX strain, which was a high ergosterol content strain derived from X2180, became more tolerant to vanillin compared with the parental strain.  It is suggested that high ergosterol contents may be in part responsible for vanillin tolerance.  These findings provide a biotechnological basis for the molecular engineering of S. cerevisiae with increased tolerance to vanillin.
+
+DESIGN
+Total RNA was extracted from cells in YPD media with shakin by using a hot phenol method. Poly(A)+ RNA was enriched from total RNA by using an Oligotex dT30 (Super) mRNA purification kit (Takara Bio, Ohtsu, Japan). cDNA synthesis, cRNA synthesis, and labeling were performed according to the Affymetrix user’s manual (Affymetrix, Santa Clara, USA). Biotinyated cRNA was fragmented and then used as a probe.Affimetrix Yeast Genome 2.0 arrays (Affymetrix) were used as DNA microarrays. All experiments were done in duplicate independently. Statistical analysis after data acquisition and normalization of expression data were performed using GeneSpring ver.7.3.1 (Agilent Technologies, Palo Alto, CA, USA) based on the gene expression data from two independent experiments. After data transformation to GeneSpring, per-chip normalization to the 50th percentile was performed, and per-gene normalization to the specific samples (X2180 samples) was applied to the per-chip normalized data. Quality control was performed based on experimental confidence levels (each condition in which all samples were present or marginal) and on statistical confidence levels (condition in which P-value of T-test comparisons between X2180 and NBRC 1950 was less than 0.05).
+
+PLATFORM
+GPL2529 [Yeast_2] Affymetrix Yeast Genome 2.0 Array
+
+CITATIONS
+19686341
+

@@ -1,0 +1,18 @@
+TITLE
+Two independent modes of chromosome organization are revealed by cohesin removal
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The three-dimensional organization of chromosomes is tightly related to their biological function. Both imaging and chromosome conformation capture studies have revealed several layers of organization, including segregation into active and inactive compartments at the megabase scale, and partitioning into domains (TADs) and associated loops at the sub-megabase scale. Yet, it remains unclear how these layers of genome organization form, interact with one another, and contribute to or result from genome activities. TADs seem to have critical roles in regulating gene expression by promoting or preventing interactions between promoters and distant cis-acting regulatory elements, and different architectural proteins, including cohesin, have been proposed to play central roles in their formation. But so far, experimental depletions of these proteins have resulted in marginal changes in chromosome organization. Here, we show that deletion of the cohesin-loading factor, Nipbl, leads to loss of chromosome-associated cohesin and results in dramatic genome reorganization. TADs and associated loops vanish globally, even in the absence of transcriptional changes. In contrast, segregation into compartments is preserved and even reinforced. Strikingly, the disappearance of TADs unmasks a finer compartment structure that accurately reflects the underlying epigenetic landscape. These observations demonstrate that the 3D organization of the genome results from the independent action of two distinct mechanisms: 1) cohesin-independent segregation of the genome into fine-scale compartment regions, defined by the underlying chromatin state; and 2) cohesin-dependent formation of TADs possibly by the recently proposed loop extrusion mechanism, enabling long-range and target-specific activity of promiscuous enhancers. The interplay between these mechanisms creates an architecture that is more complex than a simple structural hierarchy and can be central to guiding normal development.
+
+DESIGN
+This submission contains the following experiments on primary hepatocytes isolated from wildtype (WT), control (TAM) and Nipbl-/- (NIPBL) mice: 2 biological replicates of Hi-C (TCC) in WT, TAM and NIPBL cells, 1 replicate of H3K27ac ChIP-seq in WT and NIPBL cells, 1 replicate of H3K4me3 ChIP-seq in WT and NIPBL cells, 1 replicate of Rad21 ChIP-seq in TAM and NIPBL cells, 1 replicate of Smc3 ChIP-seq in TAM and NIPBL cells, 1 replicate of CTCF ChIP-seq in TAM and NIPBL cells, 4 replicates of RNA-seq in each of WT, TAM and NIPBL cells.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+29094699
+

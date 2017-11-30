@@ -1,0 +1,18 @@
+TITLE
+Balanced activation of IspG and IspH to eliminate intermediate accumulation and improve isoprenoids production in Escherichia coli
+
+ORGANISM
+Escherichia coli ATCC 8739
+
+SUMMARY
+Purpose: To understand the dynamic transcriptional response of Escherichia coli cells to intracellular HMBPP accumulation. Methods: RNA-seq libraries were constructed for three samples, including (I) CAR005, which used as control; (II) IspG1, which strong over-expressed ispG in CAR005; (III) G4H14, which simultaneously over-expressed ispG and ispH in CAR005.For preparation of RNA samples, single colonies were inoculated into 15x100 mm tubes containing 4 ml LB, and grown at 30ºC and 250 rpm overnight. 100 μl seed culture was inoculated into a 100 ml flask containing 10 ml LB medium, and grown at 30ºC and 250 rpm. After 5 h, 1 ml culture was harvested by centrifugation, frozen in liquid nitrogen and sent to Beijing Genomics Institute (BGI, Shenzhen, China). The three 90-nt paired-end RNA-seq libraries were generated commercially at Beijing Genomics Institute by using the HiSeq™ 2000 platform. Sequencing data was handled essentially with Bowtie2, Tophat2, NOIseq. Expression levels are presented as Reads Per Kilobase of transcript per Million mapped reads (RPKM). Results: We assessed expression levels of a 5 hour culture of ispG1 and compared to the parent strain CAR005. Among the 4200 predicted genes in E. coli ATCC 8739, relative expression levels for 504 genes were found changed in strain ispG1, with 166 markedly up-regulated and 338 repressed. FunCat was used to analyze the biological processes represented by these genes and found categories related to “nucleotide/nucleoside/nucleobase metabolism” (P=7.76E-05), “ribosome biogenesis,” (P=1.06E-20), “translation,” (P=4.26E-12) and “nucleobase binding” (P=1.86E-06) were markedly enriched in the repressed genes set, suggested that HMBPP accumulation might exert deterious effect on cell growth and viability. As for G4H14, only 64 genes were found down-regulated in G4H14. Biological processes associated with macromolecular synthesis no longer markedly enriched, suggesting that cell growth and viability tended to be restored to control level after eliminating HMBPP accumulation. Conclusions: Transcriptome profiling exhibited additional evidence to the cytotoxicity of HMBPP, meanwhile, demonstrated that activating downstream IspH could contribute to attenuation of such deterious effects.
+
+DESIGN
+mRNA profiles of Escherichia coli ATCC8739 genetically engineered strain CAR005,IspG1, and G4H14  by deep sequencing, using Illumina HiSeq™ platform.
+
+PLATFORM
+GPL22139 Illumina HiSeq 2000 (Escherichia coli ATCC 8739)
+
+CITATIONS
+28864262
+

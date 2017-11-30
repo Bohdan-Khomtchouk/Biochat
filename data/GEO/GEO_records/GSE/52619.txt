@@ -1,0 +1,18 @@
+TITLE
+Deletion of KDM2B DNA-binding domain affects RING1B and SUZ12 occupancy
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The histone lysine demethylase protein, KDM2B, associates with the PCGF1/PRC1 complex and binds to non-methylated DNA through its ZF-CxxC domain, providing a possible molecular link between CpG island elements and polycomb nucleation (Farcas et al., 2012, Wu et al., 2013). Here, a novel genetic system was designed in which PCGF1/PRC1 targeting could be disrupted in vivo through the ablation of KDM2B-mediated DNA binding. To ablate PCGF1/PRC1 targeting, an exon that encodes most of the KDM2B ZF-CxxC domain and is shared by both the long and short form of the protein was flanked by loxP sites (Kdm2bfl/fl). Homozygous mouse ES cell lines were derived that also stably express a tamoxifen inducible form of CRE-recombinase. CRE induced deletion of the ZF-CxxC domain by the addition of tamoxifen yields KDM2B long and short form proteins that are incapable of binding to CpG island DNA but still remain associated with the PCGF1/PRC1 variant complex. We then assessed genome-wide occupancy of the PRC1 component RING1B and the PRC2 component SUZ12 to examine the impact of losing KDM2B-dependent targeting of polycomb.
+
+DESIGN
+KDM2Bfl/fl ES cells were treated with 800µM tamoxifen for 72hours and compared to untreated control cells by ChIP-seq for KDM2B, RING1B and SUZ12, and RNA-seq.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24856970
+

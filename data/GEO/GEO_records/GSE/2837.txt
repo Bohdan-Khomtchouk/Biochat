@@ -1,0 +1,18 @@
+TITLE
+Survival Prediction of HNSCC using FFPE samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recently it was shown that gene expression signatures generated from DNA microarray analyses have promise as biomarkers of clinical outcome and that the molecular characteristics of tumors could be elucidated. Through this study, we have determined a high-risk signature for recurrence as a prognostic biomarker using formalin-fixed HNSCC tumors and tested the results to an independent data set obtained from fresh frozen tumors as a comparison. Also, we have shown the genes that are involved in epithelial to mesenchymal transition and nuclear factor-ĸB signaling deregulation are the most prominent molecular characteristics of the high-risk tumors. Forty samples including 34 formalin-fixed tissues and 6 matched frozen tissues from 29 HNSCC patients were analyzed for gene expression. The formalin-fixed tumors were classified based on their gene expression by intrinsic analysis and the intrinsic gene list was tested on the classification of previously published 60 frozen HNSCC tumors which highly correlated. Based on the molecular classification, a 75-gene list that is predictive of high-risk for recurrence was determined by training on the formalin-fixed tumor set and tested on the independent frozen tumor set. The difference in recurrence-free survival (RFS) between the high-risk vs. low-risk groups in the training and test sets were statistically significant (Log-rank test, p=0.002 and p=0.03, respectively). Also, the gene expression data was interrogated using Gene Set Enrichment Analysis to determine functional significance. The most significant sets of genes that are enriched in the high-risk tumors were genes involving epithelial to mesenchymal transition (EMT), NF-ĸB activation and cell adhesion. In conclusion, global gene expression analysis is feasible using formalin-fixed tissue, and the data from different sample preparations and array platforms can be reliably combined for analyses. The 75-gene list can be utilized as a prognostic biomarker of recurrence and the molecular characteristics of EMT and NF-ĸB activation can be targeted as the novel therapy in the identified high-risk patients. Keywords: FFPE, survival analysis
+
+DESIGN
+34 HNSCC samples from FFPE tissue and 6 HNSCC samples from fresh frozen tissue.  Each independtly hybridized using Affymetrix X3P chips.
+
+PLATFORM
+GPL1352 [U133_X3P] Affymetrix Human X3P Array
+
+CITATIONS
+16912200
+

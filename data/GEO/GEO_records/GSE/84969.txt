@@ -1,0 +1,18 @@
+TITLE
+Quorum Quenching of Nitrobacter winogradskyi Suggests that Quorum Sensing Regulates Fluxes of Nitrogen Oxide(s) during Nitrification.
+
+ORGANISM
+Nitrobacter winogradskyi
+
+SUMMARY
+Quorum sensing (QS) is a widespread process in bacteria used to coordinate gene expression with cell density, diffusion dynamics, and spatial distribution through the production of diffusible chemical signals. To date, most studies on QS have focused on model bacteria that are amenable to genetic manipulation and capable of high growth rates, but many environmentally important bacteria have been overlooked. For example, representatives of proteobacteria that participate in nitrification, the aerobic oxidation of ammonia to nitrate via nitrite, produce QS signals called acyl-homoserine lactones (AHLs). Nitrification emits nitrogen oxide gases (NO, NO2, and N2O), which are potentially hazardous compounds that contribute to global warming. Despite considerable interest in nitrification, the purpose of QS in the physiology/ecology of nitrifying bacteria is poorly understood. Through a quorum quenching approach, we investigated the role of QS in a well-studied AHL-producing nitrite oxidizer, Nitrobacter winogradskyi.We added a recombinant AiiA lactonase to N. winogradskyi cultures to degrade AHLs to prevent their accumulation and to induce a QS-negative phenotype and then used mRNA sequencing (mRNA-Seq) to identify putative QS-controlled genes. Our transcriptome analysis showed that expression of nirK and nirK cluster genes (ncgABC) increased up to 19.9-fold under QS-proficient conditions (minus active lactonase). These data led to us to query if QS influenced nitrogen oxide gas fluxes in N. winogradskyi. Production and consumption of NOx increased and production of N2O decreased under QS-proficient conditions. Quorum quenching transcriptome approaches have broad potential to identify QS-controlled genes and phenotypes in organisms that are not genetically tractable.
+
+DESIGN
+Examination of quorum-sensing-proficient (Treatment) and quorum-sensing-deficient (Reference/control) cells through mRNA-seq. N=4. The quorum-sensing-deficient reference treatment (A) was accomplished by addition of purified, recombinant AiiA lactonase. The quorum-sensing-proficient treatment (HK) was accomplished by addition of heat-denatured AiiA lactonase.
+
+PLATFORM
+GPL22258 Illumina HiSeq 3000 (Nitrobacter winogradskyi)
+
+CITATIONS
+27795404
+

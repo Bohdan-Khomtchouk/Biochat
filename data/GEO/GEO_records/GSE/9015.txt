@@ -1,0 +1,18 @@
+TITLE
+Genome-Wide Mapping of Hypomethylated Sites in Human Genomes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have developed a method for mapping unmethylated sites in human genome based on the resistant of TspR1 digested ends to exoIII nuclease degradation.  Digestion with TspR1 and methylation-sensitive restriction endonuclease, HpaII, followed by exoIII and single strand DNA nuclease allows the removal of DNA fragments containing unmethylated HpaII sites.  We then use array CGH to map the sequences depleted by this procedures in human genomes derived from five human tissues, a primary breast tumor and two breast tumor cell lines.  Analysis of methylation patterns of the normal tissue genomes indicates that the hypomethylated sites are enriched in the 5’ end of widely expressed genes including promoter, first exon and first intron.  In contrast, genomes of the MCF-7 and MDA-MB-231 cell lines show extensive hypomethylation in the intragenic and intergenic regions whereas primary tumor exhibits intermediate pattern between normal tissue and cell lines.  A striking characteristic of tumor genomes is the presence of megabase-sized hypomethylated zones.  These hypomethylated zones are associated with large genes, fragile sites, evolutionary breakpoints, chromosomal rearrangement breakpoints, tumor supperessor genes, and with regions containing tissue-specific gene clusters or with gene poor region containing novel tissue-specific genes.  Bisulfite sequencing analysis shows a novel mosaic methylation pattern with alternative methylated and unmethylated zones was found in human histone gene clusters in chromosome 6.  Correlation with microarray analysis show that genes with hypomethylated sequence 2kb up- or down-stream of transcription start site are highly expressed whereas genes with extensive intragenic and 3’ UTR hypomethylation are silenced. The method described herein can be used for large scale screening of changes in methylation pattern in the genome of interest. Keywords: Genome-Wide Mapping of Hypomethylated Sites in Human Genomes
+
+DESIGN
+Protected from Exonuclease III digestion by TspR1 ends. 1~2μg DNA was digested with methylation sensitive restriction enzyme in 10μl of total volume for 2hrs, 1μl(10units) TspR1 was then added and reacted at 65℃ for two hours using hot top PCR machine. 10unit of Exonuclease III enzyme was then added and total volume was brought to 20μl by addition of water and 10X buffer. Reaction was carried out at 30℃ for 1hr. Exonuclease III was heat inactive by 70℃ for 20min. 30units RecJf was added to remove single-strand DNA and the enzyme was inactivated by heating at 65℃ for 20min. DNA was then phenol/chloroform extracted and ethanol precipitate. Array-CGH protocols. 7 µg of the undigested and digested DNA were labeled with Cy3 or Cy5 respectively according to the manual of Agilent Oligo Microarray Kit. The log2 ratio (log2 Cy3/Cy5) were calculated and compared. Affymetrix analysis. Affymetrix microarray was performed using Human U133 2.0 (Affymetrix). Details of the methods for RNA quality, sample labeling, hybridization and expression analysis are according to the manual of Affymetrix Microarray Kit.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array GPL4091 Agilent-014693 Human Genome CGH Microarray 244A (Feature number version)
+
+CITATIONS
+18256232
+

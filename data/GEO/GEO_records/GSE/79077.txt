@@ -1,0 +1,18 @@
+TITLE
+Microarray analysis of human monocyte-derived macrophages stimulated with dexamethasone, interferon-gamma and dexamethasone/interferon-gamma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Glucocorticoids are extensively used to treat inflammatory diseases, however their chronic intake increases the risk of mycobacterial infections. Meanwhile, the effects of glucocorticoids on innate host responses are incompletely understood. Here, we studied the direct effects of glucocorticoids on antimycobacterial host defense in primary human macrophages. We found that glucocorticoids triggered the expression of cathelicidin, an antimicrobial critical for antimycobacterial response, independent of the intracellular vitamin D metabolism. Despite upregulating cathelicidin, glucocorticoids failed to promote macrophage antimycobacterial activity. Gene expression profiles of human macrophages treated with glucocorticoids and/or IFN-gamma, which promotes induction of cathelicidin, as well as antimycobacterial activity, were investigated. Using weighted gene coexpression network analysis (WGCNA), we identified a module of highly connected genes that was strongly inversely correlated with glucocorticoid treatment and associated with IFN-gamma stimulation. This module was linked to the biological functions “autophagy”, “phagosome maturation” and “lytic vacuole/lysosome”, and contained the vacuolar H+-ATPase (v-ATPase) subunit a3, alias TCIRG1, a known antimycobacterial host defense gene, as a top hub gene. We next found that glucocorticoids, in contrast to IFN-gamma, failed to trigger expression and phagolysosome recruitment of TCIRG1, as well as to promote lysosome acidification. Finally, we demonstrated that the tyrosine kinase inhibitor imatinib induces lysosome acidification and antimicrobial activity in glucocorticoid-treated macrophages without reversing the anti-inflammatory effects of glucocorticoids. Taken together, we provide evidence that the induction of cathelicidin by glucocorticoids is not sufficient for macrophage antimicrobial activity, and identify the v-ATPase as a potential target for host-directed therapy in the context of glucocorticoid therapy.
+
+DESIGN
+Peripheral blood mononuclear cells (PBMCs) of three healthy human donors were isolated by Ficoll-Paque (GE Healthcare). Monocytes were isolated via CD14+ MACS cell separation (Miltenyi Biotec) according to the manufacturers instructions. Monocyte-derived macrophages (MDMs) were prepared by culturing peripheral blood monocytes in RPMI media containing 10% FCS for four to seven days in the presence of M-CSF (50 ng/ml). Afterwards cells were cultured in fresh media with 10% vitamin D-sufficient human AB serum. Cells were stimulated with media, dexamethasone, interferon-gamma and dexamethasone/interferon-gamma for 20h. Total RNA of was isolated with TRIZOL (Life Technologies) and RNA quality was confirmed using micro capillary electrophoresis (2100 Bioanalyzer, Agilent). 100ng RNA was labeled and hybridized to Sureprint G3 human GE 8x60K whole genome mRNA microarray according to the manufacturer’s specifications. The arrays were scanned (Agilent G2595C scanner), data extracted and processed using the Genespring XII software (Agilent).
+
+PLATFORM
+GPL17077 Agilent-039494 SurePrint G3 Human GE v2 8x60K Microarray 039381 (Probe Name version)
+
+CITATIONS
+27233968
+

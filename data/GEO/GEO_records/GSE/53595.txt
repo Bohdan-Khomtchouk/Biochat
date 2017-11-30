@@ -1,0 +1,18 @@
+TITLE
+Stage-specific control of early B cell development by the transcription factor Ikaros
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Ikaros is an essential regulator of lymphopoiesis. Here, we studied the B-cell-specific function of Ikaros by conditional Ikzf1 inactivation in pro-B cells. B-cell development was arrested at an aberrant ‘pro-B’ cell stage characterized by increased cell adhesion and loss of pre-B cell receptor signaling. Ikaros was found to activate genes coding for pre-BCR signal transducers and to repress genes involved in the downregulation of pre-BCR signaling and upregulation of the integrin signaling pathway. Unexpectedly, derepression of Aiolos expression could not compensate for the loss of Ikaros in pro-B cells. Ikaros differentially controlled active chromatin at promoters and enhancers of repressed and activated target genes. Notably, Ikaros binding and target gene expression was dynamically regulated at distinct stages of early B-lymphopoiesis.
+
+DESIGN
+16 RNA-Seq samples in pre-proB cells (4 replicates, for each 2 controls and 2 experimental samples);  4 RNA-Seq samples in pro-B cells in Rag2-/- backgrounds (Ikzf1 deleted versus non deleted, 2 replicates each);  4 RNA-Seq samples in c-Kit high pro-B cells (Ikzf1 deleted versus non deleted, 2 replicates each); 4 RNA-Seq samples in pro-B cells (Ikzf1 deleted versus non deleted, 2 replicates each);  2 RNA-Seq samples pre-B cells wild type;  8 chromatin ChIP-Seq samples (4x H3K9ac, 4x H3K4me3, Ikzf1 deleted/non deleted, two replicates each).; 4 Transcription factor ChIP-Seq samples in pro-B cells; 1 Transcription factor ChIP-Seq samples in DP-T cells; 1 Transcription factor ChIP-Seq samples in pre-pro-B cells; 2 Mi-2b Chip-Seq samples (Ikzf1 deleted versus non deleted); 1 ChIP-Seq input track for pro-B cells;  1 ChIP-Seq input track for DP-T cells
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24509509
+

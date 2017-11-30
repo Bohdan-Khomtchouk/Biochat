@@ -1,0 +1,18 @@
+TITLE
+Enrichment of inflammatory bowel disease and colorectal cancer risk variants in colon expression quantitative trait loci
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome wide association studies (GWAS) have identified single nucleotide polymorphisms (SNPs) associated with diseases of the colon including inflammatory bowel diseases (IBD) and colorectal cancer (CRC). However, the functional role of many of these SNPs is largely unknown and tissue-specific resources are lacking. Expression quantitative trait loci (eQTL) mapping identifies target genes of disease-associated SNPs. Here, we comprehensively map eQTLs in the human colon, assess their relevance for GWAS of colonic diseases and provide functional characterization.
+
+DESIGN
+Subjects included 40 healthy African American individuals who had undergone colonoscopy at the University of Illinois Chicago for screening purposes. Distal colonic biopsies were obtained in all subjects at 20 cm from the anal verge at the recto-sigmoid junction and were immediately dispensed in RNAlater. Total mRNA was extracted from manually ground tissue with the Promega Maxwell 16 Tissue LEV Total RNA Purification Kit for automated purification on the Maxwell 16 Instrument and mRNA analysis was performed on Illumina HumanHT-12v4 Expression BeadChip arrays. Genomic DNA was obtained from whole-blood samples from the same individuals and genotyped using the Affymetrix Axiom Genome-wide Pan-African array. Cis- and trans-eQTL analyses were performed on the dataset of 8.4 million imputed SNPs and 16,252 expression probes corresponding to 12,363 unique autosomal genes in 40 subjects. Associations between SNPs and gene expression levels were examined with Matrix eQTL using linear regression. False discovery rate calculations were performed separately for cis- and trans-eQTLs.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+25766683
+

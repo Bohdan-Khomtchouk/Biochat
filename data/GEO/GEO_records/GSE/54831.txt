@@ -1,0 +1,18 @@
+TITLE
+Transcription Factor Regulation and Chromosome Dynamics in Pseudohyphal Growth
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Pseudohyphal growth is a developmental pathway seen in some strains of yeast, in which cells elongate and form multicellular filaments in response to environmental stresses.  Regulation of this process is complex and involves multiple signaling pathways and a large number of transcription factors (TFs).  We used multiplexed transposon “Calling Cards” to simultaneously record the genome-wide binding patterns of 28 TFs in nitrogen-starved yeast. We were able to identify TF targets relevant for pseudohyphal growth, producing a detailed map of the regulatory network that governs this process.  Using tools from graph theory, we identified 8 transcription factors that lie at the center of this network, including Flo8, Mss11, and Mfg1, which bind as a complex.  Surprisingly, the DNA binding preferences for these key transcription factors were not known.  Using Calling Card data, we predicted the in vivo DNA binding motif for the Flo8-Mss11-Mfg1 complex and validated it using a reporter assay.  We found that this complex binds several important targets, including FLO11, at both their promoter and termination sequences.  We demonstrated that this binding pattern is the result of DNA-looping, which regulates the transcription of these targets and is stabilized by an interaction with the nuclear pore complex.  This looping provides yeast cells with a transcriptional memory, enabling them to more rapidly execute the filamentous growth program when nitrogen-starved if they have been previously exposed to this condition.
+
+DESIGN
+These data contain mapped insertion sites from Ty5 transposon " Calling Cards " in Σ1278b yeast sequenced using an Illumina Hiseq.  Other sequencing data present are RNA-seq reads.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+25009286
+

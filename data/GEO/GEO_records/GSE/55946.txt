@@ -1,0 +1,18 @@
+TITLE
+Next generation sequencing identifies discrete classes of box C/D snoRNAs featuring different ends and RNA binding protein dependency
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The paired-end next-generation sequencing of all small RNAs of less than 200 nucleotides in length from four different human cell lines (SKOV3ip1, MCF-7, BJ-Tielf, INOF) allowed us to determine the exact sequence(s) and variations of human box C/D snoRNAs (small nucleolar RNAs), revealing processing patterns of this class of molecules.   Two distinct groups of box C/D snoRNAs were identified based on the position of their ends with respect to their characteristic boxes and the terminal base pairing potential. Short box C/D snoRNAs start sharply 4 or 5 nucleotides upstream of their box C and end 2 or 3 nucleotides downstream of their box D. In contrast, long box C/D snoRNAs start 5 or 6 nucleotides upstream of their box C and end 4 or 5 nucleotides downstream of their box D, increasing the likelihood of formation of a k-turn between their boxes C and D. Sequencing of SKOV3ip1 cells following the depletions of NOP58, a core box C/D snoRNA-binding protein and of RBFOX2, a splicing factor, shows that the short box C/D snoRNA forms are significantly more affected by the depletion of RBFOX2 while the long snoRNA forms, which display more canonical box C/D snoRNA features, are significantly more affected by the depletion of NOP58. Together the data suggest that box C/D snoRNAs are divided into at least two groups of RNA with distinct maturation and functional preferences.
+
+DESIGN
+Small RNAs ( < 200 nucleotides) were isolated from different human cell lines that were either untreated or depleted of NOP58 or RBFOX2 using specific siRNAs. The resulting libraries were multiplexed and paired-end sequenced using Illumina HiSeq.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25074380
+

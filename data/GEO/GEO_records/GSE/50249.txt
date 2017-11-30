@@ -1,0 +1,18 @@
+TITLE
+Systematic design and functional analysis of artificial microRNAs as an approach for multi-gene targeting
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Unlike short interfering RNAs (siRNAs), which are commonly designed to repress a single messenger RNA (mRNA) target through perfect base pairing, microRNAs (miRNAs) are endogenous small RNAs that have evolved to concurrently repress multiple mRNA targets through imperfect complementarity. MicroRNA target recognition is primarily determined by pairing of the miRNA seed sequence (nucleotides 2–8) to complementary match sites in each mRNA target. Whereas siRNA technology is well established for single target knockdown, the design of artificial miRNAs for multi-target repression is largely unexplored. We designed and functionally analysed over 200 artificial miRNAs for simultaneous repression of pyruvate carboxylase and glutaminase by selecting all seed matches shared by their 3′ untranslated regions. Although we identified multiple miRNAs that repressed endogenous protein expression of both genes, seed-based artificial miRNA design was highly inefficient, as the majority of miRNAs with even perfect seed matches did not repress either target. Moreover, commonly used target prediction programs did not substantially discriminate effective artificial miRNAs from ineffective ones, indicating that current algorithms do not fully capture the features important for artificial miRNA targeting and are not yet sufficient for designing artificial miRNAs. Our analysis suggests that additional factors are strong determinants of the efficacy of miRNA-mediated target repression and remain to be discovered.
+
+DESIGN
+293T cells were transiently transfected with artificial miRNAs or non-targeting control (Allstars siRNA, Qiagen). Three replicate transfections were performed for each miRNA or control. Total RNA was extracted 48 hours after transfection.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+24598260
+

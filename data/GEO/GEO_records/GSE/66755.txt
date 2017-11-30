@@ -1,0 +1,18 @@
+TITLE
+CRISPR Display: A modular method for locus-specific targeting of long noncoding RNAs and synthetic RNA devices in vivo [RNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Noncoding RNAs (ncRNAs) comprise an important class of natural regulators that mediate a vast array of biological processes, including the modulation of chromatin architecture. Moreover, artificial ncRNAs have revealed that the functional capabilities of RNA are extremely broad. To further investigate and harness these capabilities, we developed CRISPR-Display ( " CRISP-Disp " ), a targeted localization strategy that uses Cas9 to deploy large RNA cargos to specific DNA loci. We demonstrate that exogenous RNA domains can be functionally appended onto the CRISPR scaffold at multiple insertion points, allowing the construction of Cas9 complexes with RNAs nearing one kilobase in length, with structured RNAs, protein-binding cassettes, artificial aptamers and pools of random sequences. CRISP-Disp also allows the simultaneous multiplexing of disparate functions at multiple targets. We anticipate that this technology will provide a powerful method with which to ectopically localize functional RNAs and ribonuceloprotein complexes at specified genomic loci.
+
+DESIGN
+Whole cell poly(A) selected RNA seq, from HEK293FT cells bearing lentivirally-integrated Gaussia and Cypridina luciferase reporter loci.  Cells were transiently transfected with dCas9~VP64 alone, or with dCas9~VP and one of several modified sgRNAs,each targeting the Gaussia reporter.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26030444
+

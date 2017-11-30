@@ -1,0 +1,18 @@
+TITLE
+Interplay between manganese and zinc homeostasis in the human pathogen Streptococcus pneumoniae
+
+ORGANISM
+Streptococcus pneumoniae
+
+SUMMARY
+ICP-MS analysis of Streptococcus pneumoniae D39 reveals a high cell-associated manganese (Mn(II)) concentration that is comparable to that of zinc (Zn(II)).  Stressing these cells with 100-200 µM Zn(II) leads to a slow-growth phenotype and a reduction in total Mn(II) concentration, with no decrease in the concentrations of other metal ions. Supplementation of the growth media with as little as 10 µM Mn(II) fully restores wildtype growth patterns and normal levels of cell-associated Mn(II).  DNA microarray analysis reveals that zinc stress induces the expected upregulation of czcD (encoding a zinc effluxer), but also a pleiotropic transcriptional response suggestive of mild cell wall stress. Genes encoding a nitric oxide detoxification system (nmlR) and the Mn(II) uptake system (psaABC) are also induced.  We conclude that Zn(II) toxicity results in a cytoplasmic Mn(II) deficiency, possibly caused by competition at the Mn(II) uptake transporter protein PsaA.
+
+DESIGN
+Bacteria were grown statically in Brain Heart Infusion media (Bacto BHI, Becton Dickinson) or BHI supplemented with metals at 37C in an atmosphere of 5% CO2 to a culture density of OD620~0.2 and were processed as described in the related Sample records. Samples were collected from three independent biological replicates, including one dye swap. Data were analyzed using software from the TM4 Microarray Software Suite (www.tm4.org). GenePix results files (.gpr) were converted to TIGR MultiExperiment Viewer file format (.mev) using ExpressConverter 2.1 software and median spot intensities. Lowess (block) normalization was performed on non-background subtracted data using TIGR MIDAS 2.21 software. Spots flagged as bad (A=0 non-saturated pixels in spot; X= low spot intensity relative to background) were removed from the analysis. The cut-off for statistical significance of differential expression was set at Bayesian P =0.001 and an average up or down fold change of at least 1.8 fold. The data were normalized both with and without removal of flagged spots and used to calculate expression ratios and Bayesian P values. Ratios and P values did not differ significantly with or without removal of flagged spots.
+
+PLATFORM
+GPL536 MWG Streptococcus pneumoniae Array
+
+CITATIONS
+22006096 , 21275153
+

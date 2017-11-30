@@ -1,0 +1,18 @@
+TITLE
+Estimating accuracy of absolute gene expression measurement by RNA-Seq and microarrays with proteomics
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarrays revolutionized biological research by enabling gene expression comparisons on a transcriptome-wide scale. Microarrays, however, do not estimate absolute expression level accurately. At present, high throughput sequencing is emerging as an alternative methodology for transcriptome studies. Although free of many limitations imposed by microarray design, its potential to estimate absolute transcript levels is unknown. In this study, we evaluate relative accuracy of microarrays and transcriptome sequencing (RNA-Seq) using third methodology: proteomics. We find that RNA-Seq provides a better estimate of absolute expression levels.
+
+DESIGN
+We first determined whether we could reproduce the agreement between mRNA expression estimates measured by microarrays and by RNA-Seq reported in other studies. For this purpose, we collected mRNA expression data in two independent cerebellar samples, each containing pooled mRNA from 5 adult human individuals, using both methodologies. Next, to test whether biological variation among samples would substantially reduce correlation strength, we compared expression levels determined by RNA-Seq in two pooled samples to the microarray data obtained from different individuals. For this purpose we used expression measurements obtained using Affymetrix Exon Arrays in 5 individual adult human cerebellar samples, none of which were included in the two pooled samples. Further, since technical and stochastic variation are extremely unlikely to result in better correlation between mRNA and protein expression measurements, we argue that the technology resulting in better correlation must provide more accurate measurements.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+19371429
+

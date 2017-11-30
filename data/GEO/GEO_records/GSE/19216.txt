@@ -1,0 +1,18 @@
+TITLE
+The effect of tert-butyl hydroperoxide on hepatic multi-transcript patterns of the sentinel fish Lithognathus mormyrus
+
+ORGANISM
+Lithognathus mormyrus
+
+SUMMARY
+The study was aimed at examining the effect of the model organic oxygen reactive species (ROS) tert-Butyl Hydroperoxide (tBHP) on hepatic multi-gene expression patterns of the fish Lithognathus mormyrus. Fish were exposed to injected tBHP followed by extraction of RNA from their livers. The corresponding labeled cDNAs of treated versus control fish were applied onto a cDNA microarray of ~1500 unique sequences and differentially expressed genes were identified. The hepatic profile of the in individual fish versus a reference RNA was the basic biomarker parameter. M, the log2 ratio of gene expression (M) was calculated from the imaged hybridization results by the LIMMA software (R environment) used also to statistically determine the differentially expressed genes in the various treatments. EXPANDER4.1 software was used to hierarchically cluster M profiles of individual fish across genes. This clustering was used as a preliminary step aimed at distinguishing groups of similarly expressed genes across the treatments. Gene annotation was aimed at more educated interpretation of the results.
+
+DESIGN
+The study is composed of two experiments, Experiments 1 and 2. Experiment 1 – (samples GSM476020, GSM476029, GSM476030). Three groups with five fish in each of them were injected by three tBHP doses, 0.5, 5, 50 mg/kg body weight/injection. Three injections were applied to each fish in three days intervals between consecutive injections. A control group of five fish was sham-injected with saline, the tBHP carrier. Both the control and the treated fish were sacrificed three days after the last injection. Experiment 2 - (samples GSM476074, GSM476112) Two groups with 18 fish in each of them were injected by two tBHP doses, 5, and 30-50 mg/kg body weight/injection. Five injections were applied daily to each fish. The first injection of the high dose contained 50 mg/kg body weight, but was reduced to 30 mg/kg body weight due to mortality of two fish several hours after the first injection. A control group of 18 fish was sham-injected by saline, the tBHP carrier. Six fish of each of the treatment and control groups were sacrificed at three time intervals: 2, 20 and 68 hours after the last injection. RNA preparations resulted from the two exposure experiments were labeled and hybridized on the cDNA microarray. The hybridization design of Experiment 1 is composed of dual hybridizations of randomly selected treated fish with randomly selected control fish. Four replicate slides were used for each fish pair, applying dye swap design. Experiment 2 is similarly designed, with only one replicate slide per fish pair. Alternate labeling in the each half of the biological replicates is aimed at partial compensation of dye effect. Please see 'hybridization_design.txt' file for sample label details.
+
+PLATFORM
+GPL5351 IOLR_Lithognathus mormyrus_4608_v1.0
+
+CITATIONS
+20553222
+

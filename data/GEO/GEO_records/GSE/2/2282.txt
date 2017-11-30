@@ -1,9 +1,0 @@
-TITLE
-Kidney development time course
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-Array Design; Mouse Compugen 22K Spotted Oligo Author; Sean Grimmond Common Reference (Yes/No, ID); Yes Mouse universal Reference (Stratagene) Concentration; 100 Data processing/normalization; Lowess Normalisation GeneSpring) Developmental Stage; embryonic Diseased/Normal; normal Dye Swap; red/green Experiment Type; time course Genetic Characteristic; Wild type Image Analysis Software; Imagene5.5 (Biodiscovery) Labeling Protocol; Amino Allyl Message Amp- Ambion Organ/Organism part; kidney Organism; Mus Musculus RNA type; aRNA Message Amp-ambion Tissue Type; Pool of whole organs Organization; IMB, Uni of QLD, Brisbane Australia Sample Source; primary tissue Sampling Method; Dissection of whole organ Sex; Pool of both sexes Strain/Cell-line; CD1 Series_overall_design: To account for dye swap, the signal channel and control channel measurements for each sample were reversed.  A Lowess curve was fit to the log-intensity versus log-ratio plot. 20.0% of the data was used to calculate the Lowess fit at each point. This curve was used to adjust the control value for each measurement. If the control channel was lower than 10 then 10 was used instead.  Specific samples were normalized to one another:  sample(s) 1-38 were normalized against the median of the control sample(s) 1-38. Each measurement for each gene in those specific samples was divided by the median of that gene's measurements in the corresponding control samples. Keywords: time-course
-

@@ -1,0 +1,18 @@
+TITLE
+VIPR: A probabilistic algorithm for analysis of microbial detection microarrays
+
+ORGANISM
+Dengue virus 1 ; Dengue virus 2 ; Dengue virus 3 ; Dengue virus 4 ; Yellow fever virus ; La Crosse virus ; Rift Valley fever virus ; Toscana virus ; Junin mammarenavirus ; Lassa mammarenavirus ; Lymphocytic choriomeningitis mammarenavirus ; Machupo mammarenavirus ; Mopeia mammarenavirus ; Tacaribe mammarenavirus ; Omsk hemorrhagic fever virus ; unidentified ; Kyasanur forest disease virus ; California encephalitis virus ; Amapar mammarenavirus ; Guanarito mammarenavirus ; Sabia mammarenavirus ; Ippy mammarenavirus ; Mobala mammarenavirus ; Rocio virus ; Ebola virus - Gabon (1994-1997) ; Zaire ebolavirus ; Reston ebolavirus ; Sudan ebolavirus ; Ngari virus ; Lake Victoria marburgvirus - Angola2005 ; Hantaan orthohantavirus ; Puumala orthohantavirus ; Seoul orthohantavirus ; Crimean-Congo hemorrhagic fever orthonairovirus
+
+SUMMARY
+The development of rapid and sensitive assays capable of detecting a wide range of infectious agents is critical for the effective diagnosis of diseases that have multiple etiologies.  In recent years, many microarray-based diagnostics have been developed to identify viruses present in clinical specimens in a highly parallel fashion.  Unfortunately, the rate of development of algorithms to interpret data generated from such platforms has not been commensurate.  In particular, none of the existing interpretive algorithms is capable of utilizing empirical training data in a Bayesian framework.  We have developed an interpretive algorithm, VIPR (Viral Identification using a PRobabilistic algorithm), to capitalize on our ability to generate positive control data for analysis of microbial diagnostic arrays.  To illustrate this approach, we have focused on the analysis of viruses that cause hemorrhagic fever (HF).  To assess the efficacy of VIPR, we hybridized 33 viruses to 100 microarrays and applied our algorithm to this dataset.  A microarray composed of nearly 15,000 oligonucleotides was designed using a custom viral taxonomy-based strategy.  The performance of VIPR was assessed by performing a leave-one-out cross validation.  VIPR was able to identity the infecting virus with an accuracy of 94%.  VIPR outperformed previously described algorithms for the set of HF viruses tested.  Bayesian interpretative algorithms such as VIPR should be considered for diagnostic microarray applications.
+
+DESIGN
+In this study, 33 viruses including virtually every known hemorrhagic fever virus and a selection of their close relatives were grown in culture and hybridized to 102 microarrays.  In addition, 8 uninfected samples were hybridized (110 total hybridizations).  These hybridizations were used to test a novel algorithm for diagnosing the infecting virus from a hybridization pattern.
+
+PLATFORM
+GPL10345 Hemorrhagic Fever Microarray Release I (V2.10HF)
+
+CITATIONS
+20646301
+

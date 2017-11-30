@@ -1,0 +1,18 @@
+TITLE
+STAT3 promotes motor neuron differentiation by collaborating with motor neuron-specific LIM complex
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The motor neuron (MN)–hexamer complex consisting of LIM homeobox 3, Islet-1, and nuclear LIM interactor is a key determinant of motor neuron specification and differentiation. To gain insights into the transcriptional network in motor neuron development, we performed a genome-wide ChIP-sequencing analysis and found that the MN–hexamer directly regulates a wide array of motor neuron genes by binding to the HxRE (hexamer response element) shared among the target genes. Interestingly, STAT3-binding motif is highly enriched in the MN–hexamer–bound peaks in addition to the HxRE. We also found that a transcriptionally active form of STAT3 is expressed in embryonic motor neurons and that STAT3 associates with the MN–hexamer, enhancing the transcriptional activity of the MN–hexamer in an upstream signal-dependent manner. Correspondingly, STAT3 was needed for motor neuron differentiation in the developing spinal cord. Together, our studies uncover crucial gene regulatory mechanisms that couple MN–hexamer and STAT-activating extracellular signals to promote motor neuron differentiation in vertebrate spinal cord.
+
+DESIGN
+To explain our experimental scheme briefly, we are interested in finding target sites for the dimer of transcription factors Isl1 and Lhx3. To mimic the biological activity of Isl1/Lhx3 dimer, we made Isl1-Lhx3 fusion and found that Isl1-Lhx3 has a potent biological activity in multiple systems (i.e. generation of ectopic motor neurons). Then we made ES cell line that induces Flag-tagged Isl1-Lhx3 expression upon Dox treatment. These *mouse* ES cells differentiate to motor neurons (iMN-ESCs) when treated with Dox following EB formation. To identify genomic binding sites of Isl1-Lhx3 (Flag-tagged), we performed ChIP with Flag antibody (pull down of Flag-Isl1-Lhx3) in ES cells treated with Dox. ChIP with Flag antibody in ES cells treated with vehicle (no Dox) was done as a negative control in parallel, and sequenced along with +Dox sample. We have done these experiments twice (two sets).
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+23798382 , 24763339
+

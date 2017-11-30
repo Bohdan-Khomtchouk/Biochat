@@ -1,0 +1,18 @@
+TITLE
+Gene expression of E. coli in continuous culture during adaptation to artificial sunlight
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+E. coli growing in continuous culture under continuous UVA irradiation exhibits growth inhibition with a subsequent adaptation to the stress.  Transcriptome analysis was performed during transient growth inhibition and in the UVA light-adapted growth state.  The results indicate that UVA light induces stringent response and an additional response that includes the upregulation of the synthesis of valine, isoleucine, leucine, phenylalanine, histidine and glutamate.  The induction of several SOS response-genes strongly points to DNA damage as a result of UVA exposure.  The involvement of oxidative stress was observed with the induction of ahpCF.  Taken together it supports the hypothesis of the production of reactive oxygen species by UVA light.  In the UVA-adapted cell population strong repression of the acid tolerance response was found.  We identified the enzyme chorismate mutase as a possible chromophore for UVA light-inactivation and found strong repression of the pyrBI operon and the gene mgtA encoding for an ATP dependent Mg2+ transporter.  Furthermore, our results indicate that the role of RpoS may not be as important in the adaptation of E. coli to UVA light as it was implicated by previous results with starved cells, but that RpoS might be of crucial importance for the resistance under transient light exposure. Keywords: stress response
+
+DESIGN
+Slide microarrays were purchased from MWG-Biotech AG (Ebersberg, Germany). The MWG E. coli Array contains 4,288 gene specific oligonucleotide probes representing the complete E. coli K12 genome. Microarray slides were scanned using the Affymetrix 428TM Array Scanner (High Wycombe, UK). Spot intensities and corresponding background signals were quantified with the Affymetrix JaguarTM software version 2.0. Further data analysis was performed with the program GeneSpring from Silicon Genetics (Redwood City, CA, USA). Induction factors (IF) were calculated from the Cy3 and Cy5 signal intensities of the spot. Spots with signal intensity below a value of 50 were excluded from the analysis and the minimal induction factor was set to 0.01.  The normalization was performed with the 50th percentile distribution of remaining spots after background correction.  The mean value of the IF of a specific gene was calculated from three replicates.  Biological experiments were carried out three times, which provided three biological repeats. Dye swapping was performed for one replicate and did not alter the result.
+
+PLATFORM
+GPL534 MWG E. coli K12 Array
+
+CITATIONS
+16913923
+

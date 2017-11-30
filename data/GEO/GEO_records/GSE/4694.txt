@@ -1,0 +1,18 @@
+TITLE
+Expression data from myogenesis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+During muscle differentiation, myogenesis sepcific genes are differentially regulated, including Lamins that function at least in maintenance of nuclear architecture and regulation of gene expression. We used microarrays to detail the global changes of gene expression in lamins and nuclear envelope assoicated proteins during myogenesis. Keywords: comparative, myogenesis
+
+DESIGN
+C2C12 were cultured either in 20% serum (undifferentiated) or in 2% horse serum (differentiated). Differentiated C2C12 cells were harvested on day 6 after induction of myogenesis in low serum. Affymetirx microarray raw data were further processed by GCRMA to globally normalized signal values and then subjected to analysis of Bayesian regularized t-test. Gene expression, that has a p-value less than 0.05 in the t-test and has more than 1.5 fold change, was considered siginificant.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+17062158
+

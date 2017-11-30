@@ -1,0 +1,18 @@
+TITLE
+Gene expression analysis of abscisic acid responsive genes in AR7 mutant
+
+ORGANISM
+Physcomitrella patens
+
+SUMMARY
+To obtain the gene expression profiles of the moss Physcomitrella patens ABA insensitive mutant AR7, we performed microarray analysis of wildtype plant and AR7 using a custom Physcomitrella oligonucleotide microarray, which carries probes for 33,942 gene models of Physcomitrella genome version 1.1. on a 4 x 44 K Agilent platform.
+
+DESIGN
+Because this microarray slide has 4 arrays, one GPR file has 8 entities (4    arrays x 2 channels).    We scanned the same slide thrice on different gain level of the scanner, so    we have the three GPR files. 1) The three GPR files were processed by GenePix Pro 6.1 and we got three    set of 4 array(block) data. (total: 12 arrays data)            Block 1: Cy3 WT ABA(+), Cy5 AR7 ABA(+)            Block 2: Cy3 AR7 ABA(+), Cy5 WT ABA(+)            Block 3: Cy3 AR7 ABA(-), Cy5 AR7 ABA(+)            Block 4: Cy3 AR7 ABA(+), Cy5 AR7 ABA(-)    Some spots on the array were dropped off by GenePix Pro.        2) The ratios were calculated from log2( (Cy5 foreground intensity - Cy5    background intensity) /    (Cy3 foreground intensity - Cy3 background intensity) ).        3) We applied the global normalization to each array data. (total: 12    arrays data)        4) We unified the three set of data. If the ratio for a spot in    AS01_high.gpr was available, we used the ratio in AS01_high.gpr for the    spot.    However, if the ratio was unavailable, we checked the ratio for the spot in    AS01_middle.gpr.    If the ratio in AS01_middle.gpr was available, we used the ratio in    AS01_middle.gpr for the spot.    If the ratio in AS01_middle.gpr was unavailable, we used the ratio in    AS01_low.gpr for the spot.  (total: 4 arrays data)        5) We applied LOWESS method to the unified data. (total: 4 arrays data)
+
+PLATFORM
+GPL15514 Agilent-021569 Physcomitrella patens 4 x 35 K array
+
+CITATIONS
+26540727
+

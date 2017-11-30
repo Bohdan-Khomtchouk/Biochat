@@ -1,0 +1,18 @@
+TITLE
+DNA copy number detection from exome sequencing - Exploiting the off-targets  (Nimblegen)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Current methods for detection of copy number aberrations (CNA) from whole-exome sequencing (WES) data are based on the read counts of the captured exons only. However, accurate CNA determination is complicated by the non-uniform read depth and uneven distribution of exons. Therefore, we developed ENCODER (ENhanced COpy number Detection from Exome Reads), which eludes these problems. By exploiting the ‘off-target’ sequence reads, it allows for creation of robust copy number profiles from WES. The accuracy of ENCODER compares to approaches specifically designed for copy number detection, and outperforms current exon-based WES methods, particularly in samples of low quality.  Current methods for detection of copy number aberrations (CNA) from whole-exome sequencing (WES) data are based on the read counts of the captured exons only. However, accurate CNA determination is complicated by the non-uniform read depth and uneven distribution of exons. Therefore, we developed ENCODER (ENhanced COpy number Detection from Exome Reads), which eludes these problems. By exploiting the ‘off-target’ sequence reads, it allows for creation of robust copy number profiles from WES. The accuracy of ENCODER compares to approaches specifically designed for copy number detection, and outperforms current exon-based WES methods, particularly in samples of low quality.  Current methods for detection of copy number aberrations (CNA) from whole-exome sequencing (WES) data are based on the read counts of the captured exons only. However, accurate CNA determination is complicated by the non-uniform read depth and uneven distribution of exons. Therefore, we developed ENCODER (ENhanced COpy number Detection from Exome Reads), which eludes these problems. By exploiting the ‘off-target’ sequence reads, it allows for creation of robust copy number profiles from WES. The accuracy of ENCODER compares to approaches specifically designed for copy number detection, and outperforms current exon-based WES methods, particularly in samples of low quality. DNA copy number profiles generated with a new tool, ENCODER, were compared to DNA copy number profiles from SNP6, NimbleGen and low-coverage Whole Genome Sequencing.
+
+DESIGN
+DNA copy number profiles of mouse squamous cell lung cancer (SCLC) were generated with ENCODER from whole exome sequencing data and compared to results from  the NimbleGen array
+
+PLATFORM
+GPL13924 Nimblegen 12-plex 135K full genome mouse custom NKI array [091016_MM9_RK_CGH_HX12]
+
+CITATIONS
+25887352
+

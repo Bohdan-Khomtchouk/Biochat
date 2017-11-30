@@ -1,0 +1,18 @@
+TITLE
+Single-cell RNA sequencing of EPLM subpopulations (152 Ly6D+ and 213 TN)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Single-cell RNA-sequencing has emerged as a powerful technology to assess heterogeneity within defined cell populations. Here, we comprehensively study the heterogeneity of a previously described B220+CD117intCD19-NK1.1- uncommitted hematopoietic progenitor with combined lymphoid and myeloid potential (EPLM). Using staining for surface markers together with functional assays, we describe four subpopulations of this progenitor with distinct lineage developmental potentials. Amongst them, the Ly6D+SiglecH-CD11c- fraction was lymphoid restricted exhibiting strong B-cell potential, whereas the Ly6D-SiglecH-CD11c- fraction showed mixed lympho-myeloid potential. Single-cell RNA-sequencing of these subsets revealed that the latter population is composed of a mixture of cells with distinct lymphoid and myeloid genetic signatures and identified a subgroup as the potential precursor of Ly6D+SiglecH-CD11c-. We observed a B-cell priming gradient within the Ly6D+SiglecH-CD11c- subset and propose a herein newly identified subgroup as the direct precursor of the first B-cell committed stage. Our study demonstrates that the multipotency of B220+CD117intCD19-NK1.1- progenitors is a result of underlying heterogeneity at the single-cell level. Moreover, it highlights the validity of single-cell transcriptomics to resolve cellular heterogeneity and identify developmental relationships in hematopoietic progenitors.
+
+DESIGN
+Single cells were captured from ex-vivo sorted hematopoietic progenitors (from Flt3Ltg mice) on a small-sized (5-10μm) C1 chip using the Fluidigm C1 system. A total of 3 chips per population were used yielding to 178 Ly6D+ and 232 TN single cells captured. During the quality control, cells having less than 60% of mapped reads, less than 2x10e5 counts, or less than 800 detected genes were filtered out from further analysis. In total, 152 Ly6D+ and 213 TN passed these criteria, which are the samples provided in the repository.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

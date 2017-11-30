@@ -1,0 +1,18 @@
+TITLE
+Differentiating Staphylococcus aureus from Escherichia coli mastitis: S. aureus triggers unbalanced immune-dampening and host cell invasion immediately after udder infection
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+Outcome and resolution of an udder inflammation (mastitis) depends on the type of the invading pathogen. Gram-negative pathogens, such as Escherichia coli mostly trigger strong inflammation and full local activation of the immune defense eventually resulting in  pathogen elimination. Staphylococcus aureus and other Gram-positive pathogens elicit only weak immune reactions possibly allowing for pathogen persistence. Little is known about the very early molecular determinants of this pathogen-species specific immune response of the udder. We therefore infected healthy mid-lactating heifers with a high dose of defined E. coli1303 or S. aureus1027 pathogens, sampled udder tissues at 1, 2, and 3 h post infection and globally profiled the transcriptome of samples from the gland cistern. We expectedly found that the E. coli infection elicited a fast and strong immune response. Bioinformatics analyses suggested that pathogen recognizing receptors triggered the activation of the IkB/NF-kB signaling cascade inducing the expression of a wealth of inflammation related genes, but also many immune dampeners. S. aureus infection failed to elicit inflammation and activate IkB/NF-kB signaling. Instead, it triggered immune suppressive mechanisms which were, however not outweighed by strong induction of inflammatory genes. Moreover, it activated the wnt/b-catenin signaling cascade resulting in active suppression of NF-kB signaling and rearrangement of the actin-cytoskeleton through modulating expression of the Rho GTPases. These alterations facilitate invasion of pathogens into host cells. We validated experimentally that pathogenic S. aureus, but not E. coli may invade mammary epithelial cells (MEC). Microscopy revealed an altered structure of the actin-cytoskeleton of primary MEC having internalized live GFP-tagged S. aureus pathogens. Our study reveals for the first time the earliest host responses in the udder differentiating E. coli from S. aureus mastitis. The latter is characterized by eliciting immune suppression rather than inflammation and invasion of S. aureus into the epithelial cells of the host.
+
+DESIGN
+48 samples from 12 animals were analyzed. Three of four quarters per animal were sequentially inoculated with either 5 x E+06 CFU E. coli (n=6) or 5 x E+06CFU S. aureus (n=6) for 1, 2 and 3 h. One control quarter (front right quarter) remained untreated and was used to measure baseline expression values. Transcripts were defined as differentially expressed during infection if the fold change of the infected quarters relative to the unstimulated control quarter exceeded > 1.5 and the p-value of the univariate t-test paired according the individual animal was < 0.05.
+
+PLATFORM
+GPL17645 [BovGene-1_0-v1] Bovine Gene 1.0 Array [transcript (gene) version]
+
+CITATIONS
+28684793
+

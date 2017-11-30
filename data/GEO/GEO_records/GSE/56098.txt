@@ -1,0 +1,18 @@
+TITLE
+Reorganization of enhancer patterns in transition from naïve to primed pluripotency (ChIP-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Naïve and primed pluripotency is characterized by distinct signaling requirements, transcriptomes and developmental properties, but both cellular states share key transcriptional regulators, Oct4, Sox2 and Nanog. Here we demonstrate that transition between these two pluripotent states is associated with widespread Oct4 relocalization, mirrored by global rearrangement of enhancer chromatin landscapes. Our genomic and biochemical analyses identified candidate mediators of primed state-specific Oct4 binding, including Otx2 and Zic2/3. Even in the absence of other differentiation cues, premature Otx2 overexpression is sufficient to exit the naïve state, induce transcription of a large subset of primed pluripotency-associated genes and redirect Oct4 to thousands of previously inaccessible sites. However, ability of Otx2 to engage new enhancer regions is determined by its levels, cis-encoded properties of the sites and signaling environment. Our results illuminate regulatory mechanisms underlying pluripotency and suggest that capacity of transcription factors such as Otx2 and Oct4 to function as pioneers is highly context-dependent
+
+DESIGN
+ChIP-seq analysis was performed to map enhancers and associated transcription factors. We used H3K27ac, H3K4me1 and p300 to call enhancers from 2 different pluripotent cell states: ESC and EpiLC. In addition we performed ChIP-seq for Oct4 and Otx2 from these cell states. All these experiments were carried out in replicates, for the EpiLC state the replicates were performed with and without ActivinA. Additionally we carried out ChIPseq for Otx2 and Oct4 in Otx2ko cell lines in which we integrated an inducible Otx2 gene before and after induction with doxycycline.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+24905168
+

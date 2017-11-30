@@ -1,0 +1,18 @@
+TITLE
+Lsh regulates LTR retrotransposon repression independent of Dnmt3b function (HELP-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Background: Global DNA methylation contributes to genomic integrity by supressing repeat associated transposition events. Several chromatin factors are required in addition to DNA methyltransferases to maintain DNA methylation at intergenic and satellite repeats. Embryos lacking Lsh, a member of the SNF2 superfamily of chromatin helicases, are hypomethylated. The interaction of Lsh with the de novo methyltransferase, Dnmt3b, facilitates the deposition of DNA methylation at stem cell genes. We wished to determine if a similar targeting mechanism operates to maintain DNA methylation at repetitive sequences. Results: We used HELP-seq to map genome wide DNA methylation patterns in Lsh-/- and Dnmt3b-/- somatic cells. DNA methylation is predominantly lost from specific genomic repeats in Lsh-/- cells: LTR-retrotransposons, LINE-1 repeats and mouse satellites. RNA-seq experiments demonstrate that specific IAP (Intracisternal A-type particle) LTRs and satellites, but not LINE-1 elements, are aberrantly transcribed inLsh-/- cells. LTR hypomethylation in Dnmt3b-/- cells is moderate and hypomethylated repetitive elements (IAP, LINE-1 and satellite) are silent. Chromatin immunoprecipitation (ChIP) indicates that repressed LINE-1 elements gain H3K4me3, but H3K9me3 levels are unaltered in Lsh-/- cells, indicating that DNA hypomethylation alone is not permissive for their transcriptional activation. Mis-expressed IAPs and satellites lose H3K9me3 and gain H3K4me3 in Lsh-/- cells. Conclusions: Our study emphasizes that regulation of repetitive elements by DNA methylation is selective and context dependent. We propose a model where Lsh is specifically required at a precise developmental window to target de novo methylation to repeat sequences, which is subsequently maintained by Dnmt1 in somatic cells to enforce repeat silencing thus contributing to genomic integrity.
+
+DESIGN
+Two pairs of genomic samples compared: WT and Lsh-/- DNA isolations from tail-tip fibroblasts; WT and Dnmt3b knockout DNA isolations from mouse embryonic fibroblasts.
+
+PLATFORM
+GPL15103 Illumina HiSeq 1000 (Mus musculus)
+
+CITATIONS
+24367978
+

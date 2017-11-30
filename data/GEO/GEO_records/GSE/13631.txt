@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of root-knot nematode induced feeding sites in cowpea (Vigna unguiculata L. Walp)
+
+ORGANISM
+Vigna unguiculata
+
+SUMMARY
+In this study we have looked at the transcriptome profile of both incompatible and compatible cowpea-RKN interaction for two different time points using the Affymetrix soybean GeneChip. This is the first study of this kind in cowpea-RKN interaction. This study provides a broad insight into the Rk-mediated resistance in cowpea and creates an excellent dataset of potential candidate genes involved in both nematode resistance and parasitism, which can be further tested for their role in this biological process using functional genomics approaches. our results have shown that the root-knot nematode resistant pathway is still partially suppressed at 9 days post inoculation in resistant cowpea root. There is indication that subtle variation of ROS concentration, induction of toxins and other defense related genes play a role in this unique resistance mechanism. Further functional analysis of these differentially expressed genes will help us to understand this intriguing plant-nematode interaction in a more precise manner.
+
+DESIGN
+Seeds of CB46 (resistant) and null-Rk (susceptible) cowpea genotypes were surface sterilized using 10% (v/v) bleach solution and were planted in growth pouches. Plants were grown under controlled environmental conditions of 26.7°C ± 0.5°C constant temperature and daily light/dark cycles of 16/8 hours. This temperature was used because it lies within the optimum temperature range of 26 – 28 °C for development and reproduction of M. incognita on cowpea in growth pouches. Each pouch was inoculated with 3000 J2 in 5 ml of deionized water, 12 days after planting (dap). Equal number of pouches was mock inoculated with 5 ml of deionized water to use as control. Nematode infected root tissue was excised using a sterile scalpel at 3 days post inoculation (dpi) and 9 dpi respectively under a magnifying glass and flash frozen immediately in liquid nitrogen. Approximately equal amount of root tissue was also excised and flash frozen from the control plants. The harvested tissue was stored in -80°C until RNA isolation. For 9 dpi samples 3 biological replicates were used for each treatment. So total number of soybean GeneChips used for 9dpi samples was 12. For 3 dpi samples two biological replicates were used for each treatment and a total of 8 GeneChips were used. Expression signals were first analyzed in Microarray Suite 5.0 software (MAS 5, Affymetrix Inc.) to determine the “present” probe set list. The detection algorithm uses probe pair intensities to generate a detection p-value and assign a “present”, “marginal”, or “absent” call. Each probe pair in a probe set has a potential vote in determining whether the measured transcript is or is not “present”.  The vote is described by the discrimination score (R). R is calculated for each probe pair and compared to a predefined threshold, Tau. Probe pairs with R higher than Tau vote “present” and the voting result is summarized as a p-value. The greater the number of discrimination scores (R) that are above Tau, the smaller the p-value and the more likely the given transcript is truly present in the sample. Only probe sets with a “present” call in all three replicates of at least one treatment was considered to be “expressed”.
+
+PLATFORM
+GPL4592 [Soybean] Affymetrix Soybean Genome Array
+
+CITATIONS
+20723233
+

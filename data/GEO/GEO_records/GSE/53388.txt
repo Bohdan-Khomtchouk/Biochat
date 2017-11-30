@@ -1,0 +1,18 @@
+TITLE
+Immunotherapy Targets in Tumors
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Recent work has shown that cytotoxic T cells play a central role in immune-mediated control of cancers1-3, and monoclonal antibodies that target inhibitory receptors on T cells can induce significant clinical benefit in patients despite advanced disease4-6. However, many of the regulatory pathways that result in loss of T cell function within immunosuppressive tumors remain unknown. Here we show that such regulatory mechanisms can be systematically discovered in vivo in the tumor microenvironment. We devised a pool shRNA screening approach aimed at identifying genes that block the function of tumor-infiltrating CD8 T cells. We postulated that shRNAs targeting key inhibitors would enable robust T cell infiltration and proliferation in tumors, despite multiple inhibitory signals. Candidate shRNAs were discovered by transfer of shRNA-transduced T cells into tumor-bearing mice, followed by deep sequencing to quantify the representation of all hairpins in tumors and lymphoid organs. A subset of shRNAs induced T cell accumulation in tumors but not the spleen, demonstrating feasibility of discovering shRNAs with differential action across tissues. One of the targets was Ppp2r2d, a regulatory subunit of the family of PP2A phosphatases7. Control shRNA-transduced T cells underwent apoptosis upon recognition of melanoma cells, while Ppp2r2d shRNA-transduced T cells accumulated in tumors due to enhanced proliferation and reduced apoptosis. Ppp2r2d shRNAexpressing T cells also significantly delayed tumor growth. This in vivo approach has wide applications to dissect complex immune functions in relevant tissue microenvironments.
+
+DESIGN
+OT-I derived T cells were transduced with shRNA's and adoptively transferred to B16 tumor bearing mice. Following incubation the T cells were purified from either tumors or spleens. The shRNA's targeted either a control gene (LacZ) or one of 5 selected genes found to regulate the presence of T cells in tumors vs in spleen
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+24476824
+

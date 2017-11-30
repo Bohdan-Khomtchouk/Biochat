@@ -1,0 +1,18 @@
+TITLE
+Expression data from glioblastoma tissue
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Glioblastomas are among the most lethal cancers; however, recent advances in survival have increased the need for better prognostic markers. microRNAs (miRNAs) hold great prognostic potential being deregulated in glioblastomas and highly stable in stored tissue specimens. Moreover, miRNAs control multiple genes representing an additional level of gene regulation possibly more prognostically powerful than a single gene. The aim of the study was to identify a novel miRNA signature with the ability to separate patients into prognostic subgroups. Samples from 40 glioblastoma patients were included retrospectively; patients were comparable on all clinical aspects except overall survival enabling patients to be categorized as short-term or long-term survivors based on median survival. A miRNome screening was employed, and a prognostic profile was developed using leave-one-out cross-validation. We found that expression patterns of miRNAs; particularly the four miRNAs: hsa-miR-107_st, hsa-miR-548x_st, hsa-miR-3125_st and hsa-miR-331-3p_st could determine short- and long-term survival with a predicted accuracy of 78%. Heatmap dendrograms dichotomized glioblastomas into prognostic subgroups with a significant association to survival in univariate (HR 8.50; 95% CI 3.06-23.62; p < 0.001) and multivariate analysis (HR 9.84; 95% CI 2.93-33.06; p < 0.001). Similar tendency was seen in The Cancer Genome Atlas (TCGA) using a 2-miRNA signature of miR-107 and miR-331 (miR sum score), which were the only miRNAs available in TCGA. In TCGA, patients with O6-methylguanine-DNA-methyltransferase (MGMT) unmethylated tumors and low miR sum score had the shortest survival. Adjusting for age and MGMT status, low miR sum score was associated with a poorer prognosis (HR 0.66; 95% CI 0.45-0.97; p=0.033). A Kyoto Encyclopedia of Genes and Genomes analysis predicted the identified miRNAs to regulate genes involved in cell cycle regulation and survival.  In conclusion, the biology of miRNAs is complex, but the identified 4-miRNA expression pattern could comprise promising biomarkers in glioblastoma stratifying patients into short- and long-term survivors.
+
+DESIGN
+miRNA expression data from primary glioblastoma tissue; 40 patient samples were analyzed. One sample was omitted from further analysis due to low intensity on the chip (Patient ID 10). Another sample (Patient ID 21) had a mutation in isocitrate dehydrogenase 1 and was therefore omitted from further analysis due to potential confounding.
+
+PLATFORM
+GPL14613 [miRNA-2] Affymetrix Multispecies miRNA-2 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

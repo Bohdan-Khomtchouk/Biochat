@@ -1,0 +1,18 @@
+TITLE
+Expression data from normal human epidermal keratinocytes undergoing density-induced differentiation and treated with EGF
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Combining genome-wide microarray and functional analyses, we found that EGFR activation abrogates barrier function, increasing transepidermal water loss (TEWL) and transepithelial permeability of water-soluble ions and higher molecular weight dextrans, in part by disrupting the expression of tight junction proteins.  EGF decreases certain lipid matrix free fatty acids and ceramides by its actions to repress the expression of specific biosynthetic enzymes. Activation of EGFR inhibits cornified envelope formation by regulating the expression of 59 percent of the known contributing genes.  EGF-responsiveness enriches more than 100 genes known to be associated with skin diseases. These data are used to obtain 2,676 density-dependent genes that are differentially expressed in response to EGF treatment.
+
+DESIGN
+The 16 microarrays were preprocessed using the 5th percentile of region method in dChip. Genes with at least a 1.5 fold difference between the untrated samples at 50% and 100% confluent cell density were exported for further analysis. Two-way ANOVA was used to identify differentially expressed genes by either density or treatment factors using JMP Genomics 4.1 (SAS). Multiple hypothesis testing was corrected by Benjamini-Hochberg false discovery rate control at the 0.05 level. Pair-wise comparisons were performed using the Tukey’s Honestly Significant Difference test.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+22395315
+

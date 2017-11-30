@@ -1,0 +1,18 @@
+TITLE
+MicroRNA analysis of the bovine alveolar macrophage response to Mycobacterium bovis infection suggests pathogen survival is enhanced by miRNA regulation of endocytosis and lysosome trafficking
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+Purpose: The goal of this RNA-seq study was to profile changes in miRNA expression in bovine alveolar macrophages isolated from Holstein-Friesian and challenged with M. bovis over a 48 hour time course. Background: Mycobacterium bovis, the causative agent of bovine tuberculosis, is a major infectious disease problem for global agriculture, resulting in losses of billions of Euros annually. The bacterium spreads via an airborne route and is taken up by alveolar macrophages in the lung. MicroRNAs (miRNAs) — short non-coding RNAs that post-transcriptionally regulate gene expression — are increasingly being recognised as key regulators of the immune system. There is mounting evidence for the role of miRNAs in regulating the early innate immune response to mycobacterial infections; however, the underlying processes are not fully understood yet. Results: In total, 2.5 billion raw sequencing reads were generated. 93% of post-filtered reads aligned to known miRNAs. The expression of miRNAs varied over a wide range: miR-21 was expressed at approximately 430,000 reads per million (RPM), but the majority were more lowly expressed (1000-10,000 RPM). One, six, and 40 miRNAs were identified as significantly differentially expressed at 2, 24 and 48 h post-infection (hpi), respectively (FDR < 0.05); the differential expression at 48 hpi of three (out of four) of these miRNAs was confirmed by RT-qPCR. No miRNAs were detected to be differentially expressed 6 hpi. Many of the differentially expressed miRNAs have been shown to have a role in the host response to mycobacterial pathogens and other infections in other species. MicroRNA-155, for example, which we observed to be upregulated in response to M. bovis has recently been shown to control autophagy in murine macrophages infected with the human pathogen Mycobacterium tuberculosis. Pathway analysis suggests that upregulated miRNAs target endocytosis and lysosome trafficking, thus potentially enhancing bacterial survival. An independent gene silencing experiment with a bovine macrophage cell line (Bomac) has confirmed downregulation of IRAK1 by miR-146a and miR-146b. Moreover, downregulation of another predicted target, TGFRB2, by miR-146a was also confirmed. These findings support the target prediction and pathway analysis results. Our results suggest that several miRNAs have an important role in the alveolar macrophage response to pathogenic mycobacteria.
+
+DESIGN
+10 animals (biological replicates) were used. Alveolar macrophages from each animal were treated with M. bovis and miRNA expression was analyzed at 4 timepoints (2hpi, 6hpi, 24hpi, 48hpi), in addition to the 0h control. Uninfected samples was used for each timepoint for each animals.
+
+PLATFORM
+GPL15749 Illumina HiSeq 2000 (Bos taurus)
+
+CITATIONS
+25692199
+

@@ -1,0 +1,18 @@
+TITLE
+Identification of brain transcriptional variability reproduced in peripheral blood: an approach for mapping brain eQTLs
+
+ORGANISM
+Chlorocebus sabaeus
+
+SUMMARY
+Genome-wide gene expression studies may provide a comprehensive insight in gene activities and biological pathways differing between individuals and tissues (even closely related tissues building complex organs such as the brain). Our research addressed both kinds of gene expression variation – between brain regions and between individuals – by expression profiling in brain tissues derived from eight brain regions and blood from 12 vervet monkeys (Chlorocebus aethiops sabaeus). We employed the non-human primate model to assure tissue quality and to enhance the probability of precise dissection of the brain tissues, which is difficult to realize in human subjects. We characterized brain regional differences in gene expression levels which may relate to specific functions of brain tissues including disease symptoms affecting specific brain regions. We focused on inter-individual variability of brain transcript levels in different regions that correlates well between blood and brain tissues and therefore could be further reliably studied in easily accessible blood samples. Applying very stringent transcript selection criteria including 1). considerable similarities between brain and blood tissues, 2). consistent repeat measurements in blood, 3). higher inter-individual than intra-individual variability and 4). detection in all tissue samples, allowed us to identify transcripts in which inter-individual variation in brain expression profiles indicates possible genetic factors regulating gene transcript levels. High heritabilities of these transcript levels indicated that our approach focusing on transcripts showing higher inter-individual variability than intra-individual variability identifies transcripts with a strong genetic component.
+
+DESIGN
+Total RNA was isolated from 8 brain regions (cerebellar vermis, pulvinar, head of caudate, hippocampus, frontal pole, dorsolateral prefrontal cortex (DLPFC), orbital frontal cortex and occipital pole) and peripheral blood from vervet monkey (Chlorocebus aethiops sabaeus), according to standard protocols. Tissue specimens were collected from vervet monkeys that were related members of the Vervet Research Colony (VRC) pedigree. We created three tissue sets. Set one (AGMBB) consists of brain and blood samples collected from 12 monkeys and allows comparison of gene expression between brain and peripheral blood. Set two (AGMBR) consists of replicate blood samples collected from 18 monkeys (the average kinship coefficient among these is 0.026) and enables gene expression analysis of biological replicate samples. Set three (AGMPED) consists of blood samples collected from vervets in the entire pedigree N=347 and enables estimation of heritability of gene expression data. RNA expression profiles were determined using an Illumina HumanRef-8 v2 Expression BeadChip system. A transcript was called detectable by BeadStudio (Illumina) when the detection p-value was < 0.01. Background correction was performed in Bead Studio. Signal intensities were VST transformed (variance-stabilizing transformation) and RSN normalized (robust spline normalization) using the Lumi package.
+
+PLATFORM
+GPL6104 Illumina humanRef-8 v2.0 expression beadchip
+
+CITATIONS
+19692348
+

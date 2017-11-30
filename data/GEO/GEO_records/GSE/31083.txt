@@ -1,0 +1,18 @@
+TITLE
+Transcriptome profiling of degU expression reveals unexpected regulatory patterns in Bacillus megaterium and discloses new targets for optimizing expression
+
+ORGANISM
+Bacillus megaterium
+
+SUMMARY
+First whole transcriptome assessment of a Bacillus megaterium strain. The B. megaterium DegU regulon was assessed for LB batch cultures with artificially induced degU expression. DegU is a pleiotropic regulator in B. subtilis governing adaptive responses such as secretory enzyme production.
+
+DESIGN
+8 x 15 K customer made microarrays for gene expression analysis of B. megaterium were obtained from Agilent (Agilent Technologies, USA) with up to three probes per open reading frame of the B. megaterium DSM319 genome. Finally, the hybridization and final washing steps of the microarrays  occurred as described in the Agilent manual for two color microarrays. The microarrays were scanned with the help of the Agilent C Scanner (Agilent Technologies, USA). For scanning and feature extraction the software Agilent Scan Control 8.4.1 and Feature Extraction 10.7.3.1 (Agilent Technologies, USA), respectively, was used according to the instruction. The analysis of the raw data occurred with the programming language R and Bioconductor as described in Yang and Paquet (2005). Finally, in consequence of the microarray design  three different probes belonging to one gene were matched performing mean and median summarization of the logarithmic fold changes (logFC). Nevertheless, the p-values and also the logFC values were given for each probe separately, to account for different hybridization behavior of the different probes (Bunk, 2010). Only genes with a p-value < 0.01 in all replicates and an absolute  |logFC| > 1 were considered as to be differentially expressed. Samples from degU expressing cells (xylose induction) of a degSU deletion mutant were compared to samples obtained from the likewise induced empty vector control strain, two time points, biological replicates: 3-5
+
+PLATFORM
+GPL13998 Agilent-028409 Bacillus megaterium Bm3_100512 (Feature Number version)
+
+CITATIONS
+21935588
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data from 290 primary colorectal cancers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Samples were taken from colorectal cancers in surgically resected specimens in 290 colorectal cancer patients. The expression profiles were determined using Affymetrix Human Genome U133Plus 2.0 arrays. The training set of our prognosis classifier included the stage A and D samples. Validation used our stage B and C samples. Keywords: Expression profiling by array
+
+DESIGN
+mRNA from 290 primary colorectal tumour samples were extracted and hybridized to HG-U133Plus 2.0 expression arrays. The MAS5.0 procedure was used to make calls of expression. Data from the Stage A and D samples were quantile normalized and used with microarray data from the expO set to build a classifier. The Stage B and C samples were were quantile normalized with reference to a training set prior to application of our prognosis classifier.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19996206
+

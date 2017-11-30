@@ -1,0 +1,18 @@
+TITLE
+Determination and Inference of Eukaryotic Transcription Factor Sequence Specificity
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+The DNA sequence preferences of the vast majority of eukaryotic transcription factors (TFs) are unknown.  Using an approach designed to broadly sample both DNA-binding domain types and eukaryotic clades, we have determined DNA-binding motifs for 1,033 TFs from 131 diverse eukaryotes, encompassing 54 domain types.  Closely related orthologs and paralogs typically have very similar sequence preferences; this property allows inference of motifs for roughly one third of the 166,851 known or predicted eukaryotic TFs.  While the origins of most motifs can be dated to hundreds of millions of years ago, we also characterize more recent TF expansions.  Sequences matching the motifs are enriched upstream of TSS in most eukaryotic lineages, and at informative eQTL SNPs in Arabidopsis promoters, demonstrating their utility in mapping transcriptional networks.  The motifs are housed at http://cisbp.ccbr.utoronto.ca
+
+DESIGN
+Protein binding microarray (PBM) experiments were performed for a set of 1048 diverse eukaryotic transcription factors. Briefly, the PBMs involved binding GST-tagged DNA-binding proteins to two double-stranded 44K Agilent microarrays, each containing a different DeBruijn sequence design, in order to determine their sequence preferences. Details of the PBM protocol are described in Berger et al., Nature Biotechnology 2006.
+
+PLATFORM
+GPL11260 Agilent custom ME and HK design array [8mer]
+
+CITATIONS
+25215497
+

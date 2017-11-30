@@ -1,0 +1,18 @@
+TITLE
+The Disruption of Celf6, a Gene Identified by Translational Profiling of Serotonergic Neurons, Results in Autism-Related Behaviors
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The immense molecular diversity of neurons challenges our ability to deconvolve the relationship between the genetic and the cellular underpinnings of neuropsychiatric disorders. We suspected that comprehensive approaches to parsing this complexity may inform human genetics studies. The serotonergic system has long been suspected in disorders that involve repetitive behaviors and resistance to change, including autism.  We generated a bacTRAP mouse line to permit the in vivo profiling of all ongoing translation in serotonergic neurons. From this, we identified 174 serotonergic-cell enriched and specific genes, including all known markers of these cells.  Analysis of common variants in these genes in human families with autism implicated two genes, C1QTNF2 and the RNA-binding protein CELF6. This work provides a reproducible and accurate method to assess the translational profiles of serotonergic neurons under a variety of conditions in vivo, and suggests cell-specific information may provide some insight into the genetic etiology of complex psychiatric disorders
+
+DESIGN
+For each cell population, three independent TRAP replicates were collected, and total RNA from both the immunoprecipitate and unbound fractions were seperately amplified and hybridized. For each tissue, several representative unnbound fractions are provided to serve as controls.  Biological replicates are GCRMA normalized within groups. Following averaging of replicates, we recommend further global normalization between groups, using affymetrix biotinylated controls, to correct for any broad biases in scanning and hybridization. Finally for many analyses, we also recommend filtering to remove those probesets with low IP/UB fold change values from each cell type(see PMID:20962086). Researchers can contact us for spreadsheets where these additional steps have been completed.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+23407934 , 24453331
+

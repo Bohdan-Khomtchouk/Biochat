@@ -1,0 +1,18 @@
+TITLE
+Transcriptome profiling of 15 conditions for Escherichia coli selected from optimal experiment design
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+For finding new conditions that show maximum entropy and highest prediction interval, we bound the condition space to explore by making a list of top 98 conditions for MG1655 without genetic perturbations that use 13 most populated stresses (acidic, Ax, Bm, butanol, Cfs, cold, ethanol, heat, Mcn, Nx, hypoxia, osmotic, oxidative) or no stress and 7 most-used carbon sources (Glu 0.4%, Gly 0.4%, Lac 0.4%, Galactose, Arabinose 0.4%, Glucose 0.2%, and Alanine) for M9 medium. Among them, 13 conditions were in Ecomics dataset. For the 85 unexplored conditions, we identify the top 15 conditions that show maximum entropy and highest prediction interval in an adaptive fashion. That is, for each iteration, we find a condition in the list that shows maximum entropy and highest prediction interval from the model that was built from the training data. Since the maximum entropy quantification and prediction interval value are not at the same scale, we bound the two measures between zero and one by min-max normalization for 85 conditions. Then we supplement the predicted expression levels for that candidate condition and repeat the next iteration of the procedure, until we identify all 15 conditions. The initial training data is 2610 profiles of 178 transcription factors.
+
+DESIGN
+Transcriptome profiling of 45 samples (3 replicates for each condition) for E. coli selected from optimal experiment design for genome-scale model.
+
+PLATFORM
+GPL18956 Illumina HiSeq 2500 (Escherichia coli str. K-12 substr. MG1655)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

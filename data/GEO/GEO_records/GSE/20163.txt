@@ -1,0 +1,18 @@
+TITLE
+Systematic meta-analysis and replication of genome-wide expression studies of Parkinson's disease: 2
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Systematic meta-analysis and replication of genome-wide expression studies identifies molecular pathways of Parkinson's disease. Examination of substantia nigra from postmortem brains of 8 patients with Parkinson's disease (PD).
+
+DESIGN
+The substantia nigra samples from 8 PD subjects were obtained from the Human Brain and Spinal Fluid Resource Center, VAMC, Los Angeles, CA, the Mind Unit Brain Bank at the University of Rochester, Rochester, NY, and from Dr. E. Masliah at UCSD, San Diego, CA, and 9 control subjects were obtained from the University of Rochester Alzheimer's Disease Center brain bank. The RNA was extracted using Trizol reagent (Invitrogen), DNAse treated with Qiagen DNAse, and analyzed on a bioanalyzer. The complementary RNA was fragmented and hybridized to Affymetrix human U133A arrays. The total 17 Affymetrix .CEL files were normalized to " all probe sets " in a standardized matter, and scaled to 100 by the MAS5 algorithm implemented in the Bioconductor package.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+20926834
+

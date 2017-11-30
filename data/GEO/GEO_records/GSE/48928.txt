@@ -1,0 +1,18 @@
+TITLE
+Knockdown of breast cancer master regulators: siRNA targeting PTTG1 and SPDEF in MCF-7 cells.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association studies for breast cancer have identified over 80 different risk regions in the genome, with the FGFR2 locus consistently identified as the most strongly associated locus. However, we know little about the mechanisms by which the FGFR2 locus mediates risk or the pathways in which multiple risk loci may combine to cause disease.  Here we use a systems biology approach to elucidate the regulatory networks operating in breast cancer and examine the role of FGFR2 in mediating risk. Using model systems we identify FGFR2-regulated genes and, combining variant set enrichment and eQTL analysis, show that these are preferentially linked to breast cancer risk loci. Our results support the concept that cancer-risk associated genes cluster in pathways
+
+DESIGN
+The data consists of 18 microarray samples after knocking down PTTG1 and SPDEF in MCF-7 cells. The data have been pre-processed in R using the Beadarray package, and are presented in the form of log2 expression values. The experiment was carried out on Humanv4 BeadChips arrays interrogating 48107 randomly-distributed bead-types, and in this experiment there was a mean of 22 beads per bead-type (Standard Deviation of 5)
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+24043118
+

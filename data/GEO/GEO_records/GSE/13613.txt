@@ -1,0 +1,18 @@
+TITLE
+Genome-wide Analysis of Mono-, Di- and Trimethylation of Histone H3 Lysine 4 in Arabidopsis thaliana
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Background. Post-translational modifications of histones play important roles in regulating transcription by modulating the structural properties of the chromatin. In plants, methylation of histone H3 lysine4 (H3K4me) is associated with genes and required for normal plant development. Results. We have characterized the genome-wide distribution patterns of mono-, di- and trimethylation of H3K4 (H3K4me1, H3K4me2 and H3K4me3, respectively) in Arabidopsis thaliana using chromatin immunoprecipitation and high-resolution whole-genome tiling microarrays (ChIP-chip). All three types of H3K4me are found to be almost exclusively genic, and two thirds of Arabidopsis genes contain at least one type of H3K4me in seedlings. H3K4me2 and H3K4me3 accumulate predominantly in promoters and 5’ genic regions, whereas H3K4me1 is distributed within transcribed regions. In addition, H3K4me3-containing genes are highly expressed with low levels of tissue specificity, but H3K4me1 or H3K4me2 may not be directly involved in transcriptional activation. Furthermore, a genome-wide preferential co-localization of H3K4me3 and H3K27me3 found in mammals does not appear to exist in plants, but H3K4me2 and H3K27me3 co-localize at a higher-than-expected frequency. Finally, the relationship between H3K4me and DNA methylation was explored by comparing the genome-wide distribution patterns of H3K4me1, H3K4me2 and H3K4me3 in wild type plants and the met1 DNA methyltransferase mutant. Conclusions. H3K4me plays widespread roles in regulating gene expression in plants. Although many aspects of the mechanisms and functions of H3K4me appear to be conserved among all three kingdoms, we observed significant differences in the relationship between H3K4me and transcription or other epigenetic pathways in plants and mammals.
+
+DESIGN
+Arabidopsis thaliana plants (accession Col) were grown on soil under continuous light for three weeks, and the aerial part of the seedlings were harvested. The met1-3 mutant plants were grown under the same conditions and harvested at a similar developmental stage. ChIP was performed as previously described using antibodies purchased from Abcam (anti-H3K4me1: ab8895; anti-H3K4me2: ab7766; anti-H3K4me3: ab8580; anti-H3: ab1791).  ChIP samples were amplified, labeled, and hybridized to microarrays as previously described (Zhang et al., 2007b; Zhang et al., 2006). Three biological replicates were performed for H3K4me1 and H3K4me3, and 6 biological replicates were performed for H3K4me2. For each H3K4me ChIP, an H3 ChIP was performed to isolate nucleosomal control DNA. Microarray hybridization intensities from probes that match a unique genomic region were analyzed using Tilemap with the Hidden Markov model option, as previously described (Ji and Wong, 2005)
+
+PLATFORM
+GPL7639 Arabidopsis thaliana genome tiling 1.0R array
+
+CITATIONS
+19508735
+

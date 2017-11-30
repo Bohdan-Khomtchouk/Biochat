@@ -1,0 +1,18 @@
+TITLE
+Schizosaccharomyces pombe splicing microarray
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Analysis of splicing defects in Schizosaccharomyces pombe upon chemical genetic inhibition of splicing kinases dsk1, lkh1, and prp4, as well as alanine-mutation of phosphorylated residues in the splicing factors bpb1, prp2, rsd1, srp1, srp2, usp101, usp103, sum3, prp22, cdc5, and cwf22. This study shows the splicing kinase dsk1 modulates splicing efficiency of introns with non-consensus splice sites, likely through phosphorylation of bpb1.  Modulation of splicing efficiency of transcripts through kinase signaling pathways may afford the necessary flexibility to tune the gene expression profile in response to environmental and developmental cues.
+
+DESIGN
+Experiments were conducted as direct two-color designs with 2-3 biological replicates per genotype pairing. Raw microarray data was normalized with loess normalization using the R package limma. Log2-fold changes (perturbation over reference) are reported. Each splicing event on the custom-designed splicing microarray was monitored with an exon probe reading out mRNA changes, an intron probe for unspliced pre-mRNA, and a splice junction probe spanning the junction between two spliced exons. For the analysis of the splicing efficiency for a given intron, a score was calculated as exon*intron/junction.
+
+PLATFORM
+GPL19357 Agilent-027365 Schizosaccharomyces pombe V3
+
+CITATIONS
+26167880
+

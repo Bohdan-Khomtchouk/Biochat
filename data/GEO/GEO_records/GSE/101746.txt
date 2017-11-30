@@ -1,0 +1,18 @@
+TITLE
+DAN (NBL1) promotes collective neural crest migration by restraining uncontrolled invasion
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Neural crest cells are both highly migratory and significant to vertebrate organogenesis. However, the signals that regulate neural crest cell migration remain unclear. Here, we test the function of DAN, a BMP antagonist we detected by analysis of chick cranial mesoderm. Our analysis shows that, prior to neural crest cell exit from the hindbrain, DAN is expressed in the mesoderm, then it becomes absent along cell migratory pathways. Cranial neural crest and metastatic melanoma cells avoid DAN protein stripes in vitro. Addition of DAN reduces the speed of migrating cells, in vivo and in vitro respectively. In vivo loss-of-function of DAN results in enhanced neural crest cell migration by increasing speed and directionality. Computer model simulations support the hypothesis that DAN restrains cell migration by regulating cell speed. Taken together, our results identify DAN as a novel factor that inhibits uncontrolled neural crest and metastatic melanoma invasion and promotes collective migration in a manner consistent with inhibition of BMP signaling.
+
+DESIGN
+Neural tube cultures were prepared and plated. DAN was added to the media at 0, 1 and 10 ug/ml. After overnight incubation, neural tubes and any ectoderm were removed from in vitro cultures using a tungsten needle and pipette. Media was then removed from neural tube cultures and the adherent neural crest cells were gently rinsed once with 0.1% DEPC PBS. Three biological replicates were harvested for each of the three conditions (untreated, 1 ug/ml and 10 ug/ml). cDNA was synthesized using SMART-seq v4 Ultra Low Input RNA kit (634888, Clontech) with subsequent library preparation by Nextera XT DNA Sample Prep (FC-131-1096, Illumina) and Index kits (FC-131-1002, Illumina). cDNA samples and libraries were both confirmed on a Bioanalyzer 2100 prior to RNAseq. Libraries were sequenced as 75bp, high output, paired reads on an Illumina NextSeq. Each sample generated in excess of 20 million fastq counts.
+
+PLATFORM
+GPL19787 Illumina NextSeq 500 (Gallus gallus)
+
+CITATIONS
+28811280
+

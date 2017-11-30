@@ -1,0 +1,18 @@
+TITLE
+Gene (mRNA) expression profiling in frontal cortex of ethanol-treated mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Analysis of early stages of alcohol dependence at the gene expression level. The hypothesis tested in the present study was that ethanol-treatment impact gene expression in a mouse model of high ethanol consumption. Results provide important information of genes and pathways being affected by ethanol actions in the mouse frontal cortex.
+
+DESIGN
+Total RNA obtained from frontal cortex from mice treated with 20% ethanol solution for 20 days. Control group is composed of untreated animals. Frontal cortex (FCtx) tissue was dissected to produce a 2-mm coronal section from the most rostral portion of the mouse brain devoid of olfactory bulbs (coordinates Bregma +1.56 to +3.56). The dorsal part of this coronal section, cut immediately above the forceps minor of the corpus callosum as the anatomical landmark, was used for RNA extraction. This section of the cortex is mostly composed of frontal associated cortex (FrA), cingulate cortex area 1 (Cg1), prelimbic cortex (PrL), and primary (M1) and secondary (M2) motor cortices, as depicted in the mouse brain atlas (Franklin and Paxinos 2007). Samples from both alcohol-treated and control groups were always included in each batch of extracted RNA. Total RNA was extracted using the mirVana® miRNA Isolation kit (Ambion, Austin, TX) according to the manufacturer’s instructions. Yield and quality of the total RNA preparation was determined using the Agilent 2100 Bioanalyzer (Agilent, Palo Alto, CA). For mRNA expression profiling, biotin-labeled cRNA was prepared using Illumina TotalPrep RNA Amplification kit (Ambion, Austin, TX) and then hybridized to Illumina MouseRef-8 v2.0 Expression BeadChips (Illumina, San Diego, CA). The quality of the Illumina bead summary data was assessed using the Bioconductor packages Lumi and arrayQualityMetrics. Data preprocessing included variance stabilization and quantile normalization using the Lumi package. Statistical analysis comparing ethanol-treated and control groups was performed using the Bioconductor package limma, which implements an empirical Bayes approach in R (Smyth 2005). False discovery rate (FDR) was assessed using the Benjamini-Hochberg method.
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+24148570
+

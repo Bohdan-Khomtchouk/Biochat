@@ -1,0 +1,18 @@
+TITLE
+IVT-seq reveals extreme bias in RNA-sequencing
+
+ORGANISM
+Homo sapiens ; Mus musculus ; mixed libraries
+
+SUMMARY
+Background: RNA-seq is a powerful technique for identifying and quantifying transcription and splicing events, both known and novel. However, given its recent development and the proliferation of library construction methods, understanding the bias it introduces is incomplete but critical to realizing its value. Results: We present a method, in vitro transcription sequencing (IVT-seq), for identifying and assessing the technical biases in RNA-seq library generation and sequencing at scale. We created a pool of over 1,000 in vitro transcribed RNAs from a full-length human cDNA library and sequenced them with polyA and total RNA-seq, the most common protocols. Because each cDNA is full length, and we show in vitro transcription is incredibly processive, each base in each transcript should be equivalently represented. However, with common RNA-seq applications and platforms, we find 50% of transcripts have more than two-fold and 10% have more than 10-fold differences in within-transcript sequence coverage. We also find greater than 6% of transcripts have regions of dramatically unpredictable sequencing coverage between samples, confounding accurate determination of their expression. We use a combination of experimental and computational approaches to show rRNA depletion is responsible for the most significant variability in coverage, and several sequence determinants also strongly influence representation. Conclusions: These results show the utility of IVT-seq for promoting better understanding of bias introduced by RNA-seq. We find rRNA depletion is responsible for substantial, unappreciated biases in coverage introduced during library preparation. These biases suggest exon-level expression analysis may be inadvisable, and we recommend caution when interpreting RNA-seq results.
+
+DESIGN
+5 rRNA-depleted samples with duplicates, 1 polyA selected, 1 total RNA, and 1 plasmid library all without replicates.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL15520 Illumina MiSeq (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17651 Illumina HiSeq 2000 (mixed libraries)
+
+CITATIONS
+24981968
+

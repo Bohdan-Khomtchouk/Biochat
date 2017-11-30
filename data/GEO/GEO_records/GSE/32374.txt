@@ -1,0 +1,18 @@
+TITLE
+Clinical and Molecular Characteristics of  Congenital Glioblastoma Multiforme
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Congenital glioblastoma multiforme (cGBM) historically has been considered an aggressive tumor of infancy requiring extensive chemotherapy to achieve cure. We report on 4 patients at our institution with cGBMs who were treated with surgery and chemotherapy (carboplatin and etoposide every 21 days for 2-6 cycles).  Four of four patients are progression free at a median time of 27.5 months (22-103 months).  To characterize the molecular biology of cGBM, we compared the gene expression profiles of 3 cGBMs to 12 pediatric and 6 primary adult glioblastomas collected at our institution. Unsupervised hierarchical clustering showed cGBMs grouped together with other high-grade gliomas. cGBMs demonstrated marked similarity to both pediatric and adult GBMs, with only a total of 31 differentially expressed genes identified (FDR < 0.05). Unique molecular features of congenital GBMs identified included over-expression of multiple genes involved in glucose metabolism and tissue hypoxia pathways. Four tyrosine kinases were also mong the up-regulated genes (RET, RASGRF2, EFNA5, ALK). Thus, at our institution congenital GBMs, while similar both histologically and molecularly to other GBMs, appear to have a good prognosis with surgery in combination with relatively moderate chemotherapy. Further study is needed to determine if the few gene expression differences that were identified may contribute to the better survival seen in these tumors compared to pediatric or adult GBMs. Key Words: glioblastoma; congenital; pediatric; gene expression; microarray
+
+DESIGN
+Molecular profiling of 18 AT/RT patient tumor samples was performed using Affymetrix U133 Plus2 GeneChips. Data were background corrected and normalized using gcRMA (as implemented in Bioconductor). Unsupervised agglomerative hierarchical clustering was performed to identify subsets of AT/RTs with similar gene expression. Limma (moderated t-tests; Bioconductor) was used to identify signature genes for each cluster. Bioinformatics web tool DAVID was used to identify enriched biological processes for each cluster. Survival was analyzed using Kaplan-Meier curves and Cox Hazard Ratio.  Bioinformatics tools Gene Set Enrichment (GSEA) and Ingenuity Pathways Analysis were also used to gain further insight into cluster differences.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+22711608
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide expression analysis of yeast with CRISPR-mediated inhibition of GAL10 ncRNA compared to wild-type.
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We analyzed the genome-wide expression by RNA-seq of a yeast strain that expresses Cas9d and a guideRNA targeted to the GAL10 locus (called +116), which inhibits GAL10 ncRNA expression from the antisense strand. We compared this strain to a strain expressing a scrambled guideRNA. The goal was to examine the effects of ncRNA inhibition and to examine if CRISPR inhibition of gene expression has off-target effects.  We find that CRISPR-mediated inhibtion of GAL10 ncRNA only significantly changes expression of transcripts at the GAL1-10 locus, showing that CRISPR is highly specific, and that GAL10 ncRNA only control genes at the GAL locus.
+
+DESIGN
+RNA-seq of 2 strains with CRISPR scrambled and 2 strains with CRISPR +116, the latter of which inhibits GAL10 ncRNA
+
+PLATFORM
+GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+26549684
+

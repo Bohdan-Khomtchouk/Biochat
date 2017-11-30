@@ -1,0 +1,18 @@
+TITLE
+mRNA profiling of Drosophila midguts treated by uracil
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+We performed an mRNA-sequencing experiment using Drosophila midgut to find uracil-induced signaling pathways and biological processes in response to uracil. The sequenced reads from Illumina Hiseq2000 that passed quality filters were mapped to Drosophila genome (NCBI build 5.3) using Tophat and then quantitatively analyzed by HTseq at the gene level. By comparing uracil-treated and non-treated samplesl,  we profiled uracil-dependent gene expression changes.
+
+DESIGN
+mRNA expression profiles of uracil-treated Drosophila midgut and control Drosophila midgut were examined by Illumina Hiseq2000.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+25639794
+

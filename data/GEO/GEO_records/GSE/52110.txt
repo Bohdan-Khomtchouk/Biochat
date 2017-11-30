@@ -1,0 +1,18 @@
+TITLE
+Whole genome methylation profiling in developing and developed Zebrafish
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+DNA methylation is a dynamic process through which specific chromatin modifications can be stably transmitted from parent to daughter cells. A large body of work has suggested that DNA methylation influences gene expression by silencing gene promoters. However, these conclusions were drawn from data focused mostly on promoter regions.  With regards to the entire genome, it is unclear how methylation and gene transcription patterns are related during vertebrate development. To identify the genome-wide distribution of CpG methylation we created series of high-resolution methylome maps of Danio rerio embryos during development and in mature, differentiated tissues. We find that embryonic and terminal tissues have unique methylation signatures in CpG islands and repetitive sequences. Fully differentiated tissues have increased CpG and LTR methylation and decreased SINE methylation relative to embryonic tissues. Unsupervised clustering analyses reveal that the embryonic and terminal tissues can be classified solely by their methylation patterning. Novel analyses also identify a previously undescribed genome-wide exon methylation signature. We also compared whole genome methylation with genome-wide mRNA expression levels using publicly available RNA-seq datasets. These comparisons revealed previously unrecognized relationships between gene-expression, alternative splicing and exon methylation. Surprisingly, we find that exonic methylation is a better predictor of mRNA expression level than promoter methylation. We also found that transcriptionally skipped exons have significantly less methylation than retained exons. Our integrative analyses reveal highly complex interplay between gene expression, alternative splicing, development, and methylation patterning in zebrafish.
+
+DESIGN
+MBD-Seq with whole embryos (sperm, 1cell, mbt, 3dpf) and adult tissues (eye, brain, heart, liver) Please note that the mePoor brain lane4 sample raw data files were used as loading/sequencing controls for the following meRich.lane4 samples; eye_meRich.lane4 heart_meRich.lane4 liver_meRich.lane4 The mePoor brain lane5 sample raw data files were used as loading/sequencing controls for the following meRich.lane5 samples; 1cell_meRich.lane5 mbt_meRich.lane5 sperm_meRich.lane5
+
+PLATFORM
+GPL14875 Illumina HiSeq 2000 (Danio rerio)
+
+CITATIONS
+24657902
+

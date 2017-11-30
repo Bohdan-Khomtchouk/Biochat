@@ -1,0 +1,18 @@
+TITLE
+Differential Expression of NF-kB target genes in MALT lymphoma with and without chromosome translocation: insights into molecular mechanism
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MALT lymphoma is characterized by t(11;18)(q21;q21)/API2-MALT1, t(1;14)(p22;q32)/BCL10-IGH and t(14;18)(q32;q21)/IGH-MALT1, which commonly activate the NF-κB pathway. Gastric MALT lymphomas harboring such translocation do not respond to H. pylori eradication, while those without translocation can be cured by antibiotics. To understand the molecular mechanism of these different MALT lymphoma subgroups, we performed gene expression profiling analysis of 24 MALT lymphomas (15 translocation-positive, 9 translocation-negative). Gene set enrichment analysis (GSEA) of the NF-κB target genes and 4394 additional gene sets covering various cellular pathways, biological processes and molecular functions showed that translocation-positive MALT lymphomas are characterized by an enhanced expression of NF-κB target genes, particularly TLR6, CCR2, CD69 and BCL2, while translocation-negative cases were featured by active inflammatory and immune responses, such as IL8, CD86, CD28 and ICOS. Separate analyses of the genes differentially expressed between translocation-positive and negative cases and measurement of gene ontology term in these differentially expressed genes by hypergeometric test reinforced the above findings by GSEA. Finally, expression of TLR6, in the presence of TLR2, enhanced both API2-MALT1 and BCL10 mediated NF-κB activation in vitro. Our findings provide novel insights into the molecular mechanism of MALT lymphomas with and without translocation, potentially explaining their different clinical behaviors.
+
+DESIGN
+This study compares MALT with other lymphomas namely follicular and mantle cell lymphomas, and investigates the molecular mechanisms of the lymphomagenesis between translocation positive versus negative MALT lymphoma cases in order to derive the pathways leading to MALT lymphoma pathogenesis using GSEA, GO, dynamic pathway analysis as well as other bioinformatics analysis. Samples were run on the Affymetrix HG-U133A and HG-U133 plus2 GeneChips.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+20520640
+

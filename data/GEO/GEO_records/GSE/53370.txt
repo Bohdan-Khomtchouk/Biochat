@@ -1,0 +1,18 @@
+TITLE
+RNA m5C Methylation in breast cancer using MeRIP-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA m5C methylation profile of MCF10A and MDA486 by using MeRIP-Seq protocol
+
+DESIGN
+Immunoprecipitation of Methylated mRNA at Cytosine (m5C) residues: Affinity purified of anti-methyl cytosine (m5C) polyclonal antibody 7ug (Zymo Research, Catalog#A3001-50) was conjugated with protein-A magnetic beads for 2 h at 4°C in end to end rotator. After that, conjugated beads were extensively washed with RNA immunoprecipitation (RIP) wash buffer to remove unbound antibody. Fragmented 25 ug polyA RNA (mRNA) was incubated with m5C conjugated beads for overnight at 4°C in in the rotating platform in RIP buffer. RIP was done using Megna RNA Immunoprecipitation kit (Millipore, Catalog#17-700). m5C mRNA-immune bead complex was treated with proteinase K buffer to release m5C mRNA from the conjugated antibody. To isolate m5C, mRNA was treated with phenol:chloroform:isoamyl and mixed with 400 ul of chloroform, which was centrifuged at 14000 rpm for 10 minutes to separate aqueous phase. The aqueous phase was ethanol precipitated at -80°C for overnight, to get m5C mRNA. This precipitated m5C mRNA pellet was washed twice with 70% ethanol and air dried. Finally, m5C mRNA pellet was dissolved in nuclease free Water. The m5C mRNA integrity and conentration was quantified by bioanalyzer (Agilent) and Qubit 2.0 flurometer (Invitrogen). The fragmented mRNA was used by following TruSeq RNA Sample Preparation Guide to develop RNA-Seq library for sequencing.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

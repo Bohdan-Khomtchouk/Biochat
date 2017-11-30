@@ -1,0 +1,18 @@
+TITLE
+Identification of histone codes and crosstalk in fission yeast
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Aims: To map histone modifications with unprecedented resolution both globally and locus-specifically, and to link modification patterns to gene expression. Materials & methods: Using correlations between quantitative mass spectrometry and chromatin immunoprecipitation/microarray analyses, we have mapped histone post-translational modifications in fission yeast (Schizosaccharomyces pombe). Results: Acetylations at lysine 9, 18 and 27 of histone H3 give the best positive correlations with gene expression in this organism. Using clustering analysis and gene ontology search tools, we identified promoter histone modification patterns that characterize several classes of gene function. For example, gene promoters of genes involved in cytokinesis have high H3K36me2 and low H3K4me2, whereas the converse pattern is found ar promoters of gene involved in positive regulation of the cell cycle. We detected acetylation of H4 preferentially at lysine 16 followed by lysine 12, 8 and 5. Our analysis shows that this H4 acetylation bias in the coding regions is dependent upon gene length and linked to gene expression. Our analysis also reveals a role for H3K36 methylation at gene promoters where it functions in a crosstalk between the histone methyltransferase Set2KMT3 and the histone deacetylase Clr6, which removes H3K27ac leading to repression of transcription. Conclusion: Histone modification patterns could be linked to gene expression in fission yeast.
+
+DESIGN
+The combined microarray strategy in this study was performed essentially as outlined in Wiren et al, 2005. We used the S. pombe spotted microarrays (Eurogentec, Belgium). For histone modification maps, ChIP-CHIP method was essentially used according to Robyr and Grunstein (2003). Antibodies against H3K9Ac, H3K14Ac, H3K18Ac, H3K23Ac, H3K27Ac, H3K56Ac , H4K5Ac, H4K8Ac, H4K12Ac, H4K16Ac (Suka, Suka et al. 2001; Xu, Zhang et al. 2007) and H3K36Me2 (Millipore) were used. The histone ?H3cter? antibody (Upstate) was used for ChIP according to Wiren et al, 2005. Spotted microarrays were hybridized using Cy3 and Cy5. For normalization of the data (in Series supplementary file) all the different modification channels were divided by average input value and then divided by ?H3cter? value to correct the histone loss calculations followed by 50th percentile normalization. For our cluster analysis we have used variance normalization method. To reduce the variations between different sample preparations we used same extracts for all IPs. The standard S.pombe laboratory strain Hu303(972h-) was used for this study. For Wt, set1D and set2D expression studies we have used Affymetrix genechip yeast Genome 2.0 microarray. Wt, set1D and set2D cells were grown to mid logarithmic phase (5*10 power 6 cells/ml) in rich medium. RNA was extracted and hybridized according to Affymetrix protocol. For each expression profile at least two independent cultures were analyzed with microarray experiments.
+
+PLATFORM
+GPL2529 [Yeast_2] Affymetrix Yeast Genome 2.0 Array GPL11381 Eurogentec Schizosaccharomyces pombe IGR+ORF array (J120E)
+
+CITATIONS
+22121899
+

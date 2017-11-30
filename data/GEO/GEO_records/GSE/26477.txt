@@ -1,0 +1,18 @@
+TITLE
+Nuclear Scaffold Attachment Sites in HeLa Cells Across 1% of the Human Genome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The nuclear scaffold, consisting of structural and functional nuclear proteins, remains after extraction of nuclei and anchors loops of DNA.  In the search for cis-elements functioning as chromatin domain boundaries, we mapped 453 nuclear scaffold attachment sites purified by lithium-3,5-iodosalicylate from HeLa cells across 30 Mb of the human genome studied by the ENCODE pilot project.  The scaffold attachment sites recovered mapped predominately near expressed genes and localized near transcription start sites and the ends of genes.
+
+DESIGN
+Nuclear scaffold associated DNA was purfied from lithium-diiodosalicylate extracted HeLa nuclei by digestion with EcoRI/HindIII/HaeIII restriction enzymes.  Nuclear scaffold DNA from three independent biological replicates and total genomic DNA digested with EcoRI and HindIII were biotin labeled and hybridized to ENCODE01-F (P/N 900543; Affymetrix, Santa Clara, CA) tiling microarrays.  Hybridization data were analyzed using Model-based analysis tool (MAT) for tiling arrays (Johnson et al., 2006) and genomic positions (using the hg17 build (May 2004) of the Human genome assembly) with a statistically significant enrichment (P < 10-3 within a 1-kb window) of scaffold signal as compared to the genomic control were reported as scaffold attachment regions.  These sites were then remapped to hg18 build of the genome using the UCSC Genome Browser liftover tool ( http://genome.ucsc.edu ) .  To account for potential gaps in the data due to repetitive sequences that were not spotted on the microarray, intervals from the MAT analysis that were less than 2501 bp apart were subsequently joined yielding 453 SARs.
+
+PLATFORM
+GPL3725 Affymetrix ENCODE Tiling Array - SENSE - NCBI build 35
+
+CITATIONS
+21423757
+

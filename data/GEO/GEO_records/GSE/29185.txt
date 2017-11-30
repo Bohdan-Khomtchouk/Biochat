@@ -1,0 +1,18 @@
+TITLE
+Identification of active microRNA/transcription factor feed-forward loops during human adipogenesis (miRNA)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Post-transcriptional regulation of gene expression accomplished by microRNAs (miRNAs) importantly affects the complex gene regulatory network. In particular, miRNAs are known to be involved in recurrent motifs named miRNA-mediated feed forward loops (FFLs) where a transcription factor (TF) regulates a miRNA and they both regulate the expression level of a target RNA. Here, we focus on the identification of active FFLs during adipogenic differentiation. A list of putative feed-forward loops was generated based on sequence analysis of conserved and overrepresented motifs in the regulatory regions. Since this approach is not specific for adipogenesis and is known to generate false positive feed-forward loops, an experiment was designed to select active ones based on their dynamics using a model-based approach. Microarray time series of gene and miRNA expression data were collected at seven time points on human multipotent adipose-derived stem (hMADS) cells upon adipogenic differentiation. Three different dynamic models, sharing the same FFL topology but incorporating descriptions of increasing complexity of miRNA and mRNA dynamics, are identified on miRNA and mRNA expression data and compared based on identification criteria, namely: goodness of fit, precision of the estimates and comparison with submodels. 24 FFLs, able to properly reproduce data, are selected as active out of the 329 putative ones. This method considerably reduces the search space for new interactions between TFs, miRNAs and mRNAs and provides interesting biological results identifying genes known from the literature to be regulators in adipogenesis and adipocyte-related functions that can be interpreted as positive control of the validity of the apporoach. Therefore, the genes in the selected FFLs that are not yet known to be involved in this context are potential novel players in this regulatory network of adipogenesis and adipocyte function.
+
+DESIGN
+Two independent cell culture experiments were performed as biological replicates during adipogenic differentiation of human mesenchymal stem cell. Cells where harvested at the pre-confluent stage as reference (day -3) and at seven subsequent time points during human adipogenic differentiation: day -2 and 0 before, and 1, 2, 5, 10, 15 days after induction of differentiation. All hybridizations were repeated with reversed dye assignment (dye-swap).
+
+PLATFORM
+GPL13514 miRCURY LNA Human 1.5K miRNA Array Ready-To-Spot Probe Set no. 208010-A
+
+CITATIONS
+22300320
+

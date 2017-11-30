@@ -1,0 +1,18 @@
+TITLE
+IKK-epsilon regulates the balance between the type I and type II interferon responses
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Virus infection induces the production of type I and type II interferons (IFN-I and IFN-II), cytokines that mediate the antiviral response.  IFN-I (IFN-a and -b) induces the assembly of ISGF3 (interferon-stimulated gene factor 3), a multimeric transcriptional activation complex comprised of STAT1, STAT2 and IRF9.   IFN-II (IFN-g) induces the homodimerization of STAT1 to form the GAF (gamma-activated factor) complex.   ISGF3 and GAF bind specifically to distinct regulatory DNA sequences located upstream of IFN-I and II inducible genes, respectively, and activate the expression of distinct set of antiviral genes.   The balance between the type I and type II IFN pathways plays a critical role in orchestrating the innate and adaptive immune systems.  Here, we show that the phosphorylation of STAT1 by IKKε (IkB-related kinase epsilon) inhibits STAT1 homodimerization, and thus GAF formation, but does not disrupt ISGF3 formation.  Therefore, virus and/or IFN-I activation of IKKε suppresses GAF-dependent transcription and promotes ISGF3-dependent transcription.  In the absence of IKKε, GAF-dependent transcription is enhanced at the expense of ISGF3-mediated transcription, rendering cells less resistant to infection.  We conclude that IKKε plays a critical role in regulating the balance between the IFN-I and IFN-II signaling pathways.
+
+DESIGN
+ChIP-seq libraries were constructed with an antibody targeting STAT1 from bone marrow macrophages treated with interferon
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+22171011
+

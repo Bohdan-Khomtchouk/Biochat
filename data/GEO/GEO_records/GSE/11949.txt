@@ -1,0 +1,18 @@
+TITLE
+Effect of dietary immunostimulation in head kidney and spleen of rainbow trout
+
+ORGANISM
+Oncorhynchus mykiss
+
+SUMMARY
+The effect of dietary immunostimulation in the immune organs, head kidney and spleen, of rainbow trout (Oncorhynchus mykiss), was investigated using a salmonid-specific microarray platform enriched with immune-related genes. Immunostimulant-diet feeding significantly changed transcriptomic expression profiles: larger reduction rather than induction was observed, with significant regulation in genes and functional GO categories related to remodeling processes and immune and hematopoietic activities. The results revealed that Immunostimulant-diets hava effect in the transcriptome of cultured fish. Keywords: spleen, head kidney, immunostimulats, transcriptomic response, trout
+
+DESIGN
+Adult rainbow trout (Oncorhynchus mykiss) were randomly distributed in four fibreglass tanks (25 fish per tank). During the feeding trial, trouts were hand-fed once a day with either the control diet or the immunodiet, in duplicate tanks, following manufacturer’s indication of 1 g food/fish for 4 weeks. After the 4 weeks, 4 fish of each tank (8 for each diet) were sampled for microarray analysis. Tissues removed for RNA extraction were frozen in liquid nitrogen and stored at -80 ºC. Total RNA was extracted from the organs using 1 ml of Tri Reagent (Sigma) per 100 mg of tissue, following the manufacturer’s instructions and quantity and integrity was analyzed by Experion RNA StdSens Analysis Kit (Bio-Rad). The design of the microarray posses 1818 genes printed in six replicates each, including random clones from common and subtracted cDNA libraries which were compared with known vertebrate proteins using blastx. The platform was enriched in immune-related genes. RNA was pooled within treatments (n=8), and 15 µg of control and test were labeled with Cy3- and Cy5-dCTP (Amersham Pharmacia) using SuperScript III reverse transcriptase (Invitrogen) and oligo(dT) primer (Promega), and cDNA was purified with Microcon YM30 (Millipore). Dye swap method was used, therefore each sample was hybridized to two microarrays. For the first slide, test and control cDNA were labeled with Cy5 and Cy3 respectively, and for the second array dye assignments were reversed. Scanning was performed with Axon scanner 4000B and images were processed with GenePix Pro 6.0. After subtraction of mean background, and LOWESS normalization was performed. To assess differential expression of genes, the normalized log intensity ratios were analyzed with Student’s t-test (p < 0.01) and genes were ranked by log(p-level). The Bayesian modification to the false discovery rate (FDR) was used to correct for multiple comparison tests, estimating the q-value for the set of differentially expressed genes. The functional categories of Gene Ontology were compared with regulated genes (p < 0.01) by the sums of ranks (Student’s t-test, p < 0.05) and the statistical significance of over represented functional categories was assessed using the Yates correction to Chi square test (corrected p < 0.05).
+
+PLATFORM
+GPL6154 UKU_trout_1.8K_v1
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

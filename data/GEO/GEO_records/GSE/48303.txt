@@ -1,0 +1,18 @@
+TITLE
+Expression data from aldosterone-producing adenomas (APAs) with a somatic mutation in either KCNJ5, CACNA1D, or ATP1A1
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Analysis of aldosterone-producing adenoma (APA) samples from patients with primary hyperaldosteronism. These APAs have a somatic mutation in either KCNJ5, CACNA1D, or ATP1A1. Results provide insight into the different mechanisms each mutation may cause leading to elevated aldosterone production in APA. In this dataset, we include expression data from aldosterone-producing adenomas (APAs) with a somatic mutation in either KCNJ5, CACNA1D, or ATP1A1. These data are used to obtain differentially expressed genes between KCNJ5 mutant APAs and CACNA1D/ATP1A1 mutant APAs.
+
+DESIGN
+A total of 13 samples were analyzed (8 KCNJ5 mutant APAs and 5 CACNA1D/ATP1A1 mutant APAs).  43 genes had a false discovery rate (FDR) < 0.5% and were > 2-fold different between KCNJ5 mutant APAs and 5 CACNA1D/ATP1A1 mutant APAs. The two sets of genotypes were separated on unsupervised hierarchical clustering of 1475 genes correlating > 0.6 with CYP11B2.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23913004
+

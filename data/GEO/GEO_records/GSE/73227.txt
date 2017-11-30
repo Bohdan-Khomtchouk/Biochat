@@ -1,0 +1,18 @@
+TITLE
+The binding specificity and regulatory effect of WT and redesigned Puf2p [RNA-Seq]
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+PUF proteins have become a leading scaffold for designing RNA-binding proteins to contact and control RNAs at will. We analyze the effects of that reengineering across the transcriptome in vivo for the first time. We show, by HITS-CLIP and PAR-CLIP, that S. cerevisiae Puf2p, a non-canonical PUF protein, binds more than 1000 mRNA targets. Puf2p binds multiple UAAU elements, unlike canonical PUF proteins. We also perform CLIP-seq on truncations of Puf2p, showing that its prion domain is dispensable for WT binding. We design a modified Puf2p to bind UAAG rather than UAAU, which allows us to align the protein with the binding site. In vivo, the redesigned protein binds UAAG sites. Its altered specificity redistributes the protein away from 3’UTRs, such that the protein tracks with its sites and binds throughout the mRNA. We use RNA-seq to determine that R1 SNE Puf2p represses a novel RNA network. 
+
+DESIGN
+CLIP-seq was performed in BY4742 S. cerevisiae grown in log phase, and using 2 replicates of TAP-tagged proteins. RNA-seq was performed to determine the regulatory effect of WT or mutant Puf2p, using 4 replicates of the control (no Puf2p), 3 of WT Puf2p and 4 of R1 SNE Puf2p.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+26668354
+

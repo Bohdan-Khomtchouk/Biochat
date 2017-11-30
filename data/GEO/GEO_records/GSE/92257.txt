@@ -1,0 +1,18 @@
+TITLE
+RNA fate determination through co-transcriptional methylation of newely synthesized transcripts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Using murine embryonic stem (mES) cells, here we show that two RNAi factors, Dgcr8 and the RNAseIII Drosha, physically associate with chromatin. We found that these known microRNA-processing factors associate with a subset of actively transcribed genes, as well as non-coding genes, including snoRNA, and lncRNA genes. Dgcr8 recruitment to chromatin was dependent on Methyltransferase-like 3 (Mettl3), which catalyzes N6-methyladenosine (m6A) of RNAs. Chemical inhibition of RNA polymerase II (RNAPII) disrupted the association of Dgcr8 and Mettl3 with chromatin, strongly suggesting RNA methylation and processing events occur co-transcriptionally. We also found that temperature stress causes a radical relocalization of Dgcr8 and Mettl3 to stress-induced genes including Hsp70. Genetic ablation of Dgcr8 or Mettl3 led to the accumulation of Hsp70 mRNA, elongation of its half-life, and increased protein levels only in cells subjected to acute heat stress. This indicates that acute heat-stress co-transcriptionally marks Hsp70 mRNAs by Mettl3 and Dgcr8 for subsequent RNA degradation to control the timing and magnitude of the heat shock response.
+
+DESIGN
+CRISPR/Cas9 genome editing was used to endogenously tag the Mettl3, Dicer, Dgcr8, and Drosha genes with FLAG/Avi tags (to identify DNA interactions by immunoprecipitation) in mES cells that express E. coli biotin holoenzyme synthetase (BirA). We performed ChIP coupled to massive parallel DNA sequencing (ChIP-seq) to determine potential interactions of Mettl3, Dicer, Drosha, and Dgcr8 with the mouse genome. We introduced an additional crosslinking step using disuccinimidyl glutarate (DSG), which enables crosslinks over longer distances than formaldehyde alone and hence also captures proteins bound to nascent transcripts.  We also profiled Ribosomal depleted RNA from DGCR8 and Drosha conditional KO mES cells as well as non-4OHT-treated controls by RNA-seq. Finally we also profiled by RNA-seq WT cells mES cells or cells exposed to 42C for 1 hour to identify genes up-regulated upon heat stress. Please note that there were no antibodies used for the ChIP-seq studies. The proteins were biotin-tagged, and thus Streptavidin magnetic beads were used for all IPs,
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28581511
+

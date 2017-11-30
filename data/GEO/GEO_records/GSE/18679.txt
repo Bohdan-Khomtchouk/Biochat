@@ -1,0 +1,18 @@
+TITLE
+TimEX from human embryonic stem cells, mesenchymal stem cells, and erythroid cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The organization of mammalian DNA replication is poorly understood. We have produced genome-wide high-resolution dynamic maps of the timing of replication in human erythroid, mesenchymal and embryonic stem cells using TimEX, a method that relies on gaussian convolution of massive, highly redundant determinations of DNA copy number variations during S phase obtained using either high-density oligonucleotide tiling arrays or massively-parallel sequencing to produce replication timing profiles. We show that in untransformed human cells, timing of replication is highly regulated and highly synchronous, and that many genomic segments are replicated in temporal transition regions devoid of initiation where replication forks progress unidirectionally from origins that can be hundreds of kilobases away. Absence of initiation in one transition region is shown at the molecular level by SMARD analysis. Comparison of ES and erythroid cells replication patterns revealed that these cells replicate about 20% of their genome in different quarter of S phase and that ES cells replicate a larger proportion of their genome in early S phase than erythroid cells. Importantly, we detected a strong inverse relationship between timing of replication and distance to the closest expressed gene. This relationship can be used to predict tissue specific timing of replication profiles from expression data and genomic annotations. We also provide evidence that early origins of replication are preferentially located near highly expressed genes, that mid firing origins are located near moderately expressed genes and that late firing origins are located far from genes.
+
+DESIGN
+Comparison of S/G1 from ES cells, MSCs and erythroid cells The purpose of the study was to measure replication timing by taking advantage of the fact that copy number of DNA increases from 2 two 4 during replication. Specifically, the study was designed to compare the number of copies of DNA of cells in the G1 phase of the cell cycle with the number of copies of DNA of cells in the S phase of the cell cycle. The cells in G1 and S of the cell cycle were obtained by sorting cells based on DNA content after staining with propidium iodide, a fluorescent compound that binds to DNA. We first tested the strategy with Nimblegen tiling arrays representing about 3% of the genome and found that it was indeed possible to measure such a small difference of copy number if a high-level of redundancy was used. We then extended the study genome-wide using massively parallel sequencing on either the SolID or the Illumina platform. Both platforms were tested and we found that for that application, both platforms were equivalent and provided sufficient number of reads to measure timing of replication genome-wide. We then attempted to better understand the correlation between timing of replication and transcription. We therefore obtained RNA from hESC and from erythroblast and hybridized them to standard Affymetrix U133plus2 arrays. This analysis revealed that it was possible to predict the replication timing patterns with relatively good accuracy (r=0.8) using expression data and distance of every genomic windows to express genes.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL9475 NimbleGen Human 400K/100bp oligo array GPL9492 NimbleGen Human 400K/250bp oligo array GPL9520 AB SOLiD System (Homo sapiens)
+
+CITATIONS
+19767418
+

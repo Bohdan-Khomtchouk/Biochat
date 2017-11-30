@@ -1,0 +1,18 @@
+TITLE
+Vitamin D Prevents Cognitive Decline and Enhances Hippocampal Synaptic Function in Aging Rats
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Vitamin D is an important calcium-regulating hormone with diverse functions in numerous tissues including the brain.  Increasing evidence suggests that vitamin D may play a role in maintaining cognitive function and that vitamin D deficiency may accelerate age-related cognitive decline.  Using aging rodents, we attempted to model the range of human serum vitamin D levels, from deficient to sufficient, to test whether vitamin D could preserve or improve cognitive function with aging.  For 5-6 months, middle-aged F344 rats were fed diets containing low, medium (typical amount) or high vitamin D3 (100, 1000 or 10,000 IU/kg diet, respectively) and then hippocampal-dependent learning and memory were tested in the Morris water maze.  Rats on high vitamin D achieved the highest blood levels (in the sufficient range) and significantly outperformed low and medium groups on maze reversal, a particularly challenging task that detects more subtle changes in memory.  In addition to calcium-related processes, hippocampal gene expression microarrays identified pathways pertaining to synaptic transmission, cell communication and G-protein function as being up-regulated with high vitamin D.  Basal synaptic transmission also was enhanced corroborating observed effects on gene expression and learning and memory.  Our studies demonstrate a causal relationship between vitamin D status and cognitive function and suggest that vitamin D-mediated changes in hippocampal gene expression may improve the likelihood of successful brain aging.
+
+DESIGN
+Sixty, middle-aged male F344 rats were divided into three groups, each receiving for 5-6 months a different dietary amount of cholecalciferol (vitamin D3; VitD3). Purified AIN-93G (Harlan-Teklad) diet was modified to contain low, medium or high VitD3 (IU/kg diet):  High = 10,000, Standard (Control) = 1000; Low = 100. Animal weight and amount of food consumed was recorded 2-3 times/week.  Serum levels of 25-hydroxy vitamin D were determined using liquid chromatography/tandem mass spectrometry (ZRT Laboratory). Hippocampal RNA was isolated, quantified and checked for RNA integrity. One low VitD3 sample failed RNA quality control. Remaining RNA samples were applied to Affymetrix Rat Gene 1.0 ST arrays (one array/subject). Pre-statistical filtering removed poorly annotated probe sets, low intensity signals, and outlier values ( > 2SD of the group mean). Filtered data were analyzed by 1-way ANOVA to identify significant differences and the False Discovery Rate (FDR) procedure was used to estimate the error of multiple testing. FDR was compared at 0.31 and 0.17. Significant genes were assigned to one of four idealized expression patterns using Pearson’s test and separated by the sign of their correlation; relative gene expression values are provided on the log-2 scale. Functional categorization for significant genes was determined using DAVID bioinformatic tools. Please note that 'Marked' and 'Unmarked' (in the sample titles) refers to whether the rat had a mark on its tail. The rats were pair-housed and this is how two rats in one cage were distinguished.
+
+PLATFORM
+GPL6247 [RaGene-1_0-st] Affymetrix Rat Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+25267625
+

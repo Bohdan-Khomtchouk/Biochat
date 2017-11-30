@@ -1,0 +1,18 @@
+TITLE
+Expression data for non-small-cell lung cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose  Prospectively identifying who will benefit from adjuvant chemotherapy (ACT) would improve clinical decisions for individual non-small-cell lung cancer (NSCLC) patients. Most current molecular signatures for lung cancer are prognostic only and provide limited information with regard to the functional importance of the genes selected. In this study, we aim to develop and validate a functional gene set that predicts the clinical benefit of ACT in NSCLC.  Experimental Design  An 18-hub-gene prognosis signature was developed through a systems biology approach using a large NSCLC dataset from the Director’s Challenge Consortium. The prognostic value of this signature was tested in NSCLC patients from UT Lung SPORE cohort and additional five public datasets. The 18-hub-gene set was then integrated with genome-wide functional (RNAi) data and genetic aberration data to derive a 12-gene predictive signature for ACT benefit in NSCLC.   Results  We showed that the 18-hub-gene set can robustly predict the prognosis of patients with adenocarcinoma in all validation datasets across four microarray platforms. The refined 12-gene functional set was successfully validated in two independent datasets. The predicted benefit group showed significant improvement in survival after ACT (JBR.10 clinical trial data: hazard ratio=0.36, p=0.038; UT Lung SPORE data: hazard ratio=0.34, p=0.017), while the predicted non-benefit group showed no survival improvement.  Conclusions  This is the first study to integrate genetic aberration, genome-wide RNAi functional data, and mRNA expression data to identify a functional gene set that is predictive for ACT benefits. This 12-gene predictive signature has been validated in two independent NSCLC cohorts.
+
+DESIGN
+Patients were eligible to enter the study if they underwent curative resection for NSCLC at MD Anderson Cancer Center between December 1996 and June 2007, and patients with radiation therapy were excluded from the study. All tissue samples were obtained by surgical resection from patients who had provided written informed consent. Tissues were stored at −140°C after being snap frozen in liquid nitrogen. Serial sectioning of each sample was used to histologically evaluate tumor and malignant cells content before RNA extraction. The primary tumor tissues from 176 patients were selected randomly from similar samples in the UT Lung SPORE tumor collection based on stringent, predefined quality control procedures before any data analysis, including the presence of ≥70% tumor tissue and ≥50% malignant cells in the frozen tissue used for RNA extraction. In this cohort, 133 patients are adenocarcinomas (ADCs) and 43 patients are squamous cell carcinomas (SCCs); 49 patients received ACT (mainly Carboplatin plus Taxanes) and 127 patients did not receive ACT.
+
+PLATFORM
+GPL6884 Illumina HumanWG-6 v3.0 expression beadchip
+
+CITATIONS
+23357979
+

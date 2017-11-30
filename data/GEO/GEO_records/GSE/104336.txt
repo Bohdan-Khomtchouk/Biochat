@@ -1,0 +1,18 @@
+TITLE
+RNA-Sequencing of Drosophila melanogaster Head Tissue on High Sugar and High Fat Diets
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Obesity has been shown to increase risk for cardiovascular disease and type-2 diabetes. In addition, it has been implicated in aggravation of neurological conditions such as Alzheimer’s. In the model organism Drosophila melanogaster, a physiological state mimicking diet-induced obesity can be induced by subjecting fruit flies to a solid medium disproportionately higher in sugar than protein (HSD) or that has been supplemented with a rich source of saturated fat (HFD). These flies can exhibit increased circulating glucose levels, increased triglyceride content, insulin-like peptide resistance, and behavior indicative of neurological decline, such as decreased climbing ability. We subjected Oregon-R-C flies to variants of the HSD, HFD, or normal (control) diet (ND), followed by a total RNA extraction from fly heads of each diet group for the purpose of Poly-A selected RNA-Sequencing. We targeted at least 50 million paired-end, stranded reads of 75 basepairs in size, and analyzed 4 biological replicates per dietary condition. Our objective was to identify the effects of obesogenic diets on transcriptome patterns, how they differed between obesogenic diets, and identify genes that may relate to pathogenesis accompanying an obesity-like state.  Functional annotation and enrichment analysis among genes whose expression was significantly affected by the obesogenic diets indicated an overrepresentation of genes associated with immunity, metabolism, and hemocyanin in the HFD group, and CHK, cell cycle activity, and DNA binding and transcription in the HSD group. Heat map representation of genes affected by both diets illustrated a large fraction of differentially expressed genes between the two diet groups.  Diets high in sugar and diets high in fat both have notableeffects on the Drosophila transcriptome in head tissue. The impacted genes, and how they may relate to pathogenesis in the Drosophila obesity-like state, warrant further experimental investigation.  Our results also indicate differences in the effects of the HFD and HSD on expression profiles in head tissue of Oregon-R-C flies, despite the reportedly similar phenotypic impacts of the diets.
+
+DESIGN
+Flies were reared on one of three diets (high fat, high sugar, or normal).  6 replicates, with twenty flies each, from each diet treatment were collected for a total of 18 samples.  The heads of the flies were then obtained, and RNA extracted from each of those samples.  4 of the RNA samples from each diet group (12 samples total) were sequenced.
+
+PLATFORM
+GPL19132 Illumina NextSeq 500 (Drosophila melanogaster)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

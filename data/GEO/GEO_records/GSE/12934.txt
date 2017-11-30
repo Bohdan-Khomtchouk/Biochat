@@ -1,0 +1,18 @@
+TITLE
+miRNA profiles of tonsilar B and T lymphocytes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+miRNA profiling of human tonsilar B lymphocytes (naïve B cells, centroblasts and memory B cells) and tonsilar T cells, analyzing the 470 human miRNAs present in miRBase V9.1. B cell subpopulations and T cells were purified using specific antibodies, magnetic beads and the AutoMACS system (Miltenyi Biotec) from reactive tonsils obtained from routine tonsilectomies. Informed consents and the Institutional Review Board approval were obtained. Total RNA was extracted from cell pellets using the mirVana™ miRNA Isolation Kit (Ambion), and sent to LC Sciences facility for microarray hybridization using microfluidics technology. FirstChoice® Human Skeletal Muscle Total RNA (Ambion) was used as common reference for all hybridizations. Background substracted and normalized data from each channel was used to calculate log ratios sample/reference. Keywords: miRNA profiling
+
+DESIGN
+Dual channel experiments using FirstChoice® Human Skeletal Muscle Total RNA (Ambion) as common reference for all hybridizations. Reference was labeled with Cy5 and the lymphocyte extracted RNA with Cy3. Biological replicates: 4 for each B cell subpopulation (centroblasts, naïve and memory B cells) and 3 for T cells, all of them purified from reactive tonsils with specific antibodies and magnetic beads. Microarray hybridization was performed at LC Sciences, using slides containing in situ synthesized oligonucleotides to detect the 470 miRNAs present in miRBase V9.1. Probes hsa-miR-337 and hsa-miR-542-5p were excluded due to systematic dye bias, according to the manufacturer intructions. Background substracted and normalized detectable data was used to calculate log ratios sample/reference. Background is determined using a regression-based background mapping method.  The regression is performed on 5% to 25% of the lowest intensity data points excluding blank spots.  Raw data matrix is then subtracted by the background matrix. Normalization was carried out using a LOWESS (Locally-weighted Regression) method on the background-subtracted data.   A transcript to be listed as detectable must meets at least two conditions: signal intensity higher than 3×(background standard deviation) and spot CV < 0.5.  CV is calculated by (standard deviation)/(signal intensity).  When repeating probes are present on an array, a transcript is listed as detectable only if the signals from at least 50% of the repeating probes are above detection level.
+
+PLATFORM
+GPL7372 LC Sciences_miRNA_Human_v9(1).1
+
+CITATIONS
+19047678
+

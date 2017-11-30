@@ -1,0 +1,18 @@
+TITLE
+Gene expression profile analysis of Manila clam (Ruditapes philippinarum) hemocytes after a Vibrio alginolyticus challenge using an immune-enriched oligo-microarray
+
+ORGANISM
+Ruditapes philippinarum
+
+SUMMARY
+The Manila clam (Ruditapes philippinarum) is a cultured bivalve species with high worldwide commercial importance. Nevertheless, diseases can cause high economical losses. For this reason, the study of immune genes in bivalve mollusks has increased in the last years. The present work describes the construction of the first R. philippinarum microarray containing immune-related hemocyte sequences and its application for the study of the gene transcription profiles of hemocytes from clams challenged with Vibrio alginolyticus through a time course.
+
+DESIGN
+A comparative analysis of gene expression was conducted between R. philippinarum infected and non-infected by V. alginolyticus clam hemocytes. Clams (n=100) were notched in the shell next to the adductor muscles and injected with 100 µl of Vibrio alginolyticus, strain TA15, (10^8 UFC/ml in PBS) to mimic an intramuscular infection. Controls (n=100) were injected with 100 µl of PBS. After stimulation, clams were returned to the tanks and maintained at 15ºC until sampling at 3, 8, 24, and 72 hours after challenge Hemolymph (1 ml) was withdrawn from the adductor muscle of the clams with a 0.5mm diameter (25G) disposable needle. Hemolymph from four individuals was pooled and biological replicates were taken at each sampling point. Hemolymph was centrifuged at 4°C at 3000 g for 10 minutes. The pellet was resuspended in 250 µl of Trizol (Invitrogen). Total RNA isolation was conducted following the manufacturer's specifications in combination with the RNeasy mini kit (Qiagen) for RNA purification after DNase I treatment. Gene expression profiling was performed using an R. philippinarum oligo-DNA microarray of 13,671 probes based on single-colour detection (Cyanine-3 only). Microarrays were scanned with Agilent scanner G2565BA at a resolution of 5 microns; all slides were scanned twice at two different sensitivity settings (XDRHi 100% and XDRLo 10%); the scanner software created a unique ID for each pair of XDR scans and saved it to both scan image files. Feature Extraction (FE) 9.5 used XDR ID to link the pairs of scans together automatically when extracting data. The signal left after all the FE processing steps have been completed is ProcessedSignal that contains the Multiplicatively Detrended, Background-Subtracted Signal.
+
+PLATFORM
+GPL16450 Agilent-035923 UniversityPadova_Ruditapes philippinarum_8x15K_v2.0
+
+CITATIONS
+24708293
+

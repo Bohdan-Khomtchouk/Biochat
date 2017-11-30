@@ -1,0 +1,18 @@
+TITLE
+Detained introns are novel, widespread class of posttranscriptionally-spliced introns
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Removal of introns by pre-mRNA splicing is a critical and in some cases rate-limiting step in mammalian gene expression.  Deep sequencing of mouse embryonic stem cell RNA revealed many specific internal introns that are significantly more abundant than the other introns within poly(A) selected  transcripts; we classify these as “detained” introns (DIs). We identified thousands of DIs flanking both constitutive and alternatively spliced exons in human and mouse cell lines. Drug inhibition of Clk SR-protein kinase activity triggered rapid splicing changes in a specific set of DIs, about half of which showed increased splicing and half increased intron detention, altering the transcript pool of over 300 genes.  These data suggest a widespread mechanism by which a nuclear detained pool of mostly processed pre-mRNAs can be rapidly mobilized in response to stress or homeostatic autoregulation.
+
+DESIGN
+v6.5 mouse embryonic stem cells were untreated, treated with the Clk kinase inhibitor KH-CB19, or treated with DMSO as a negative control.  Untreated cells were harvested and a single replicate was sequenced using a custom, ligation-based, stranded library preparation protocol.  Treated cells were harvested at time 0 and at 2 hours post-treatment, and poly(A)-selected RNA-seq libraries were made from biological duplicates for each treatment/time, barcoded, and sequenced by strand-specific, paired-end sequencing using the Illumina TruSeq kit.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25561496
+

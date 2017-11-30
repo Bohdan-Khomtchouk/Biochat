@@ -1,0 +1,18 @@
+TITLE
+Saccharomyces cerevisiae Sko1-HA strain MAP37, W303-1A background
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+These three replicates were analyzed in " Genomewide identification of Sko1 target promoters reveals a regulatory network that operates in response to osmotic stress in Saccharomyces cerevisiae. " , by Proft M, Gibbons FD, Copeland M, Roth FP, Struhl K; published in Eukaryot Cell. 2005 Aug;4(8):1343-52. A new analysis algorithm for Chip-chip data ('Chipper') is described in Genome Biology. Manuscript entitled " Chipper: discovering transcription-factor targets from chromatin immunoprecipitation microarrays using variance stabilization. " by FD Gibbons, M Proft, K Struhl, and FP Roth. Accepted, no publication date as yet. Keywords: ChIP-chip
+
+DESIGN
+Design is as in original platform submission. Caveat with this dataset is that the data have been filtered to remove intergenic regions deemed unreliable. Thus for 7200 intergenic regions originally spotted on the chip, only about 3500 are included in each replicate, and it's not the same 3500 for each. Overall about 6000 intergenic regions are covered between all three replicates. Original images have been lost, so re-analysis to generate data for all intergenic regions is no longer possible.
+
+PLATFORM
+GPL1689 Struhl Lab Yeast Double Intergenic Array
+
+CITATIONS
+16087739
+

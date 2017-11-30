@@ -1,0 +1,18 @@
+TITLE
+Transcripts associated with cell wall metabolism and development in the sugarcane stem by GeneChip expression profiling
+
+ORGANISM
+Saccharum hybrid cultivar Q117
+
+SUMMARY
+Sugarcane is an important crop in tropical regions of the world, producing a very large biomass and accumulating large amounts of sucrose in the stem. In this study, we present the first report of transcript profiling using the GeneChip Sugarcane Genome Array. We have identified transcripts that are differentially expressed in the sugarcane stem during development by expression profiling using the array and total RNA derived from three disparate stem tissues (meristem, internodes 1-3; internode 8; internode 20) from four replicates of the sugarcane variety Q117 grown in the field. We have identified 119 transcripts that were highly differentially expressed with stem development and have characterised members of the cellulose synthase (CesA) and cellulose synthase-like (Csl) gene families which displayed coordinated expression during stem development. In addition, we determined that many other transcripts involved in cell wall metabolism and lignification were also co-expressed with members of the CesA and Csl gene families, offering additional insights into the dynamics of primary and secondary cell wall synthesis in the developing sugarcane stem. Keywords: stem development profile
+
+DESIGN
+Three tissue samples were harvested from four biological replicates of field-grown Q117 sugarcane plants (12 tissue samples in all). The plants were grown as a commercial crop and were harvested in late March, 2005, 11 months after planting at Kalamia Mill estate in the Burdekin River region (North Queensland, Australia, Lat.: 19° 32’ S; Long.: 147° 25’ E). The tissue samples comprised (i) young stem (meristem and internodes 1-3; M,I1-3); (ii) maturing stem (internode 8; I8) and mature stem (internode 20; I20). Internodes were numbered from the apex down according to the method of Moore (1987). All samples were immediately frozen in liquid nitrogen and stored at -80ºC until required, then ground to a fine powder in liquid nitrogen using a coffee grinder followed by a mortar and pestle, and then stored again at -80ºC. Total RNA was isolated from each tissue using a modification of the method devised by Chomczynski and Sacchi (1987). Each RNA sample was subjected to DNase digestion (QIAGEN) to remove any remaining DNA and purified through an RNeasy column according to the manufacturer’s directions (QIAGEN). Labelled cRNA target for use in hybridisations was generated from 15 µg of total RNA using the One-Cycle Eukaryotic Target Labeling Assay, and hybridized to an Affymetrix Sugarcane Genome Array with washing, staining and scanning beingperformed as specified in the manufacturer’s protocol (Affymetrix, Inc.). The scanner operating software, GCOS, converted the signal on each array into a DAT file, which was then used to generate CEL and CHP files for analysis. GeneSpring 7.3 (Agilent Technologies) was used for data analysis. A “Sugarcane Genome” text file describing the probe sets present on the array was developed from the Sugar_Cane.gin file provided by Affymetrix as part of the GeneChip Sugarcane Genome Array Library Files. The CHP file was imported into GeneSpring running the Sugarcane Genome. A final normalised ratio was obtained by applying an additional “per probe set” normalisation. This was achieved by dividing the raw value for each probe set by the median value for that probe set in the whole experiment. This centred the data near a value of 1 and ensured ease of identification of differentially expressed probe sets.
+
+PLATFORM
+GPL3844 [Sugar_Cane] Affymetrix Sugar Cane Genome Array
+
+CITATIONS
+17111183
+

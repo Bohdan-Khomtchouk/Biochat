@@ -1,9 +1,0 @@
-TITLE
-Explaining Differences in Saturation Levels for Affymetrix GeneChip Arrays
-
-ORGANISM
-Drosophila melanogaster
-
-SUMMARY
-The experimental spike-in studies of microarray hybridization conducted by Affymetrix demonstrate a nonlinear response of fluorescence intensity signal to target concentration. It was shown that the Langmuir adsorption isotherm recapitulates a general trend of signal response to concentration. However, this model fails to explain some key properties of the observed signal. In particular, according to the simple Langmuir isotherm, all probes should saturate at the same intensity level. However, this effect was not observed in the publicly available Affymetrix spike-in datasets. In our experimental study, we attempt to account for the unexplained variation in the observed probe intensities using customized fluidics scripts. We explore experimentally the effect of the stringent wash, target concentration, and hybridization time on the final microarray signal. Keywords: hybridization condition effect
-

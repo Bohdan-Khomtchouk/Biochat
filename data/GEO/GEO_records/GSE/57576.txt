@@ -1,0 +1,18 @@
+TITLE
+Engineering of a histone-recognition domain in Dnmt3a alters the epigenetic landscape of ESCs revealing changes in lineage specification and chromosomal stability (Bisulfite-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Histone modifications and DNA methylation represent two distinct modes of varying epigenetic landscapes, but whose exact interrelationship remains unclear. Previous studies have shown that histone H3 lysine 4 trimethylation (H3K4me3) inhibits the binding of de novo DNA methyltransferases (Dnmt) through the ATRX-DNMT3-DNMTL (ADD) domain, thus protecting H3K4me3 marked CpG islands (CGI) from DNA methylation. In addition to H3K4me3, we identified antagonistic relationship between H3T3 phosphorylation and the binding of the ADD domain to the unmodified H3 N-terminus. To assess the physiological relevance of these restrictions, we engineered the wild-type ADD domain of Dnmt3a (WT) to permit additional binding to either H3K4me3 (WWD) or H3T3ph (R) and stably introduced FLAG-tagged, full-length normal or mutant Dnmt3a2 into ESCs lacking all Dnmts (TKO; triple knock-out of Dnmt1, Dnmt3a, and Dnmt3b) using the PiggyBac transposon system. For each WT-, WWD-, and R-Dnmt3a2, we generated bulk and clonally-derived ESC lines. We then employed chromatin immunoprecipitation followed by high-throughput DNA sequencing (ChIP-seq) to identify the genomic distribution of full-length WT-, WWD-, R-Dnmt3a2, and the H3K4me3 distribution. In parallel, we quantitatively measured genome-wide CpG (cytosine) methylation at base-pair resolution using an enhanced form of reduced representation bisulfite sequencing (RRBS), and performed RNA-seq to assess transcription in matched ESC lines.
+
+DESIGN
+Examination of DNA methylation levels in Dnmt TKO-ESCs expressing wild-type/mutant Dnmt3a2.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26073541
+

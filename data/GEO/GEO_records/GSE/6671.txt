@@ -1,0 +1,18 @@
+TITLE
+Comparison of conventional target labelling to PCR and IVT amplified target populations
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Our aim was to identify which stand alone amplification protocol performed best in our lab when the starting amount of total RNA was limited to 50 ng (A typical amount of total RNA we obtained by laser capture microdissection of tissues from silique samples). Since the quality of extracted RNA is very often tissue dependent and will affect the amplification efficiency, we decided to use total RNA extracted from whole siliques; better representing tissues targeted by LCM. We set out to compare two basic methods of RNA amplification, based on IVT and PCR. Keywords: Comparison of target preparation regimes from limiting amounts of RNA
+
+DESIGN
+RNA was isolated from siliques during early (2-5 DAP) and late (6-10 DAP) stages of development. To help identify major alterations in the array data due to our target preparation protocols, the late stage RNA sample was spiked with 10% early stage sample (90%-late). In the absence of compression, the signals from the genes only expressed in the early sample should not be more than 10-fold higher than those obtained from the late sample. Conversely, the late sample should display a full range of differential expression. This design should result in the unamplified MA plots (plots of differential expression against intensity) having a distinctive asymmetrical shape. Our study compared unamplified samples and three RNA amplification regimes; one-round IVT, two-round IVT and a PCR-based method. The unamplified treatments used 30 µg of total RNA followed by conventional labelling and hybridisation. The one round IVT amplifications were made from 5 µg of total RNA (a standard labelling procedure in many microarray experiments). The two round IVT and PCR regimes started from 50 ng of total RNA and would therefore be appropriate for use with LCM samples. The unamplified treatment involved duplicate hybridisations of the 90%-late sample against our early sample. For each of the amplification regimes, a single amplification of the 90%-late sample was hybridised against two independent amplifications of our early sample. In all hybridisations the early and 90%-late samples were consistently labelled with Cy5 and Cy3, respectively. This consistent labelling strategy for all 8 slides reduced variation between the microarrays due to dye bias and enabled us to focus on the variation arising from duplicate amplifications of a single early silique sample.
+
+PLATFORM
+GPL4720 HortResearch_Arabidopsis_27K_Operon long oligo set_V1.0
+
+CITATIONS
+18253465 , 18923020
+

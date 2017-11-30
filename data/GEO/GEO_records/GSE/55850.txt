@@ -1,0 +1,18 @@
+TITLE
+Amplification of pico-scale DNA mediated by bacterial carrier DNA for small-cell-number transcription factor ChIP-seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+ChIP-seq is used to map transcription factor occupancy and generate epigenetic profiles genome-wide. The requirement of nano-scale ChIP DNA for generation of sequencing libraries has impeded ChIP-seq on in vivo tissues of low cell numbers. We describe a robust, simple and scalable methodology for ChIP-seq of low-abundant cell populations, reliably amplifying 50 pg of ChIP DNA, corresponding to ~30,000 input cells for transcription factor ChIP (CEBPA) and 3,000 cells for histone mark ChIP (H3K27me3). This represents a significant advance compared to existing technologies, which involve complex and time-consuming steps of pre-amplification, making them susceptible to experimental biases.
+
+DESIGN
+ChIP-seq of histone modifications H3K27me3 (2 biological replicates (I+II) , 2 ng input), H3K4me3 (2 biological replicates (II+III), 2 ng input), transcription factor CEBPA (2 biological replicates (I+II), 300 pg input), 4 diluted CEBPA libraries (pool of ChIP from 3 biol. replicates (I+II+III) 3x 100 pg input, 1x 50 pg). Additonal ChIP-seq using 10,000 cells, 1 biological replicate of each H3K4me3 and CEBPA.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25652644
+

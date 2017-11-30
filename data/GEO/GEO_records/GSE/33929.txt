@@ -1,0 +1,18 @@
+TITLE
+Slx5_Slx8_Genome_Stability
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The Saccharomyces cerevisiae Slx5/8 complex is the founding member of a recently defined class of ubiquitin ligases (STUbLs) that target sumoylated substrates. Slx5/8 has been implicated in genome stability and transcription, but the precise contribution to these processes is not clear. To characterize Slx5/8 function, we determined genome-wide changes in gene expression upon loss of either subunit. The majority of mRNA changes are part of a general stress response, also exhibited by mutants of other genome integrity pathways and therefore indicative of an indirect effect on transcription. Genome-wide binding analysis reveals a uniquely centromeric location for Slx5. Detailed phenotype analyses of slx5D and slx8D mutants show severe mitotic defects that include aneuploidy, spindle mispositioning, fish hook spindles and aberrant spindle kinetics. This is associated with accumulation of the PP2A regulatory subunit Rts1 at centromeres prior to entry into anaphase. Knockdown of the human STUbL orthologue RNF4 also results in chromosome segregation defects due to formation of chromosome bridges. The study shows that STUbLs have a conserved role in maintenance of chromosomal stability and the results link SUMO-dependent ubiquitination to a centromere-specific function during mitosis.
+
+DESIGN
+Two channel microarrays were used. RNA isolated from a large amount of wt yeast from a single culture was used as a common reference. This common reference was used in one of the channels for each hybridization and used in the statistical analysis to obtain an average expression-profile for each deletion mutant relative to the wt. Two independent cultures were hybridized on two separate microarrays. For the first hybridization the Cy5 (red) labeled cRNA from the deletion mutant is hybridized together with the Cy3 (green) labeled cRNA from the common reference. For the replicate hybridization, the labels are swapped. Each gene is represented twice on the microarray, resulting in four measurements per mutant. Using the Erlenmeyer growth protocol up to five deletion strains were grown on a single day. In the tecan platereader, up to eleven deletion strains could be grown on a single day. Wt cultures were grown parallel to the deletion mutants to assess day-to-day variance.
+
+PLATFORM
+GPL11232 A-UMCU-Y16k-1.3
+
+CITATIONS
+23785440
+

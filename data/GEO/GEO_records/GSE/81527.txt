@@ -1,0 +1,18 @@
+TITLE
+IRAK4_hPBMC_stimulus_compound_exp3
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The goal of this experiment is to characterize the ability of IRAK4 kinase inhibitors to block TLR7 or TLR9 induced gene transcription in human PBMCs. PBMCs from two donors were pretreated with compound for 30 minutes and stimulated with gardiquimod (TLR7 ligand) or ODN 2216 (TLR9 ligand) for 5 hrs. Compound treated gene expression profiles wil be compared to untreated.
+
+DESIGN
+PBMCs from 2 independent donors were isolated, pretreated with 5 μM BMS-986126 (BMT-087965) or DMSO (vehicle) for 30 minutes at 37°C and then stimulated for 5 hours with 5 μg/ml gardiquimod. Total RNA was isolated from the cells with Qiagen RNeasy Mini Kit (Cat. # 74104). Total RNA was then treated with DNase I and cleaned up with Qiagen RNeasy MiniElute Cleanup Kit (Cat. # 74204). The RNA concentrations were determined by NanoDrop and RNA quality was evaluated using Experion (Bio-Rad). All target labeling reagents were purchased from Affymetrix (West Sacramento CA). Double-stranded cDNAs were synthesized from 1ug of total RNA through reverse transcription with an oligo-dT primer containing the T7 RNA polymerase promoter and double strand conversion using the cDNA Synthesis System. Biotin-labeled cRNA was generated from the cDNA and used to probe Human Genome U219 array, comprising of 49,293 probe sets and representing more than 20,000 human genes, using the Gene Titan MC instrument (Affymetrix, West Sacramento, CA). All cDNA and cRNA target preparation steps were processed on a Caliper GeneChip Array Station from Affymetrix. Array hybridization, washing and scanning were performed according to the manufacturer’s recommendations.
+
+PLATFORM
+GPL13667 [HG-U219] Affymetrix Human Genome U219 Array
+
+CITATIONS
+28003376
+

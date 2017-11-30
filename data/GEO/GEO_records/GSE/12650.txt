@@ -1,0 +1,18 @@
+TITLE
+Genome-wide mapping cis-regulatory sequence elements in the human genome using Nuclease-Hypersensitive-CGH technique
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cis-regulatory sequences are the key elements for understanding global, context-dependent gene expression program in response to environmental challenges.  Because of uncertainty in their location relative to gene, nuclease hypersensitivity has been used as the robust experimental approach for identifying these regulatory elements.  We used oligonucleotide array chip and 454 sequencing platform to map the nuclease-hypersensitive sites (NHSS) in MCF-7 cell genome.  Small DNA fragments released after very mild micrococcal nuclease treatment were found to be highly associated with promoter, transcription factor binding sites, regulatory potential and gene expression.  In addition, sequencing data reveal three classes of novel NHSS not reported previously: 1) those containing regular repeat of NHSS (RNHSS), 2) those containing mitochondria sequence inserts (MNHSS), and 3) those containing highly clustered NHSS (CNHSS).  Blatting analysis shows that these novel NHSS are highly associated with genome rearrangements and creation of novel genes during primate genome evolution.  Repeated genes/ESTs in RNHSS are often widely expressed in human adult and fetal tissues.  The majority of NHSS is sensitive to alpha-amanitin treatment with the exception of RNHSS and some genes with amanitin-insensitive expression.  We suggest that study of these novel classes of NHSS may be crucial for understanding primate genome evolution.
+
+DESIGN
+Cells were washed three times with ice-cold 1X PBS. The cells were lysed with 700 μl of ice-cold MNase lysis buffer on ice for 15 min. The lysate was removed by suction, and then gently rinse the nuclei with 700 μl of MNase digestion buffer (without CaCl2). The reaction was performed by incubating cell nuclei in 650 μl of MNase digestion buffer (with CaCl2) and 0units (control) or 5units of MNase at 25 ℃ for 5 min. The reaction was terminated by adding 40 μl MNase stop buffer and 20 μl of 20 % SDS. DNA was then phenol/chloroform extracted and ethanol precipitate. Control total genomic DNA was labeled with Cy3, and 5U MNase treated nuclease-released small DNA fragments were labeled with Cy5. When small DNA fragments are hybridized with total genomic DNA, MNase sensitive DNA signal will be higher than control. The same strategy was applied with cells treated with 10μg/ml of alpha-amanitin for 48hrs. Array-CGH protocols. 10 µg of the undigested and digested DNA were labeled with Cy3 or Cy5 respectively according to the manual of Agilent Oligo Microarray Kit. The log2 ratio (log2 Cy5/Cy3) were calculated and compared. Affymetrix analysis. Affymetrix microarray was performed using Human U133 2.0 (Affymetrix). Details of the methods for RNA quality, sample labeling, hybridization and expression analysis are according to the manual of Affymetrix Microarray Kit. Cells were either untreated (control) or treated with 10μg/ml of alpha-amanitin for 48hrs.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array GPL4091 Agilent-014693 Human Genome CGH Microarray 244A (Feature number version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

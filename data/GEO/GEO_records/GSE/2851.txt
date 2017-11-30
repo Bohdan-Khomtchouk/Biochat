@@ -1,0 +1,18 @@
+TITLE
+Resistant response of leaves of upland cotton line Im216 to Xanthomonas campestris pv. malvacearum race 1
+
+ORGANISM
+Gossypium hirsutum
+
+SUMMARY
+Gene expression profiling of upland cotton line Im216 to inoculation with Xanthomonas campestris pv. malvacearum race 1. Fifth or sixth leaves of the bacterial blight-resistant cotton line Im216, which had been grown in a plant growth chamber, were infiltrated with a suspension of about 5x10^6 colony-forming units ml^-1 of Xanthomonas campestris pv. malvacearum race 1 in sterile saturated CaCO3 solution or were not inoculated (control). Keywords: Time-course
+
+DESIGN
+Samples consisting of one leaf were harvested at 8, 14, 20, 30, 45, and 60 hpi.  Three biological replicate experiments were performed on separate occasions.  Total RNA was isolated, and from each sample 50 µg was reverse-transcribed along with non-plant normalizing Sp4 RNA (0.5 ng) and Sp5 RNA (0.05 ng), hybridized to slides for approximately 18 h, and detected with Cy5 (inoculated) or with Cy3 (non-inoculated) labeled dendrimers (hybridization for 3 h), using the 3DNA Array 350TM kit (Genisphere).  Hybridization signals were measured using a ScanArray Express (PerkinElmer), and images were processed with GenePix Pro version 4.0 (Axon Instruments).  Normalized log ratio VALUES were determined using the R-project statistical environment ( < http://www.r-project.org/ > ), Bioconductor ( < http://www.bioconductor.org/ > ) and the LIMMA package (Smyth 2004) through the GenePix AutoProcessor (GPAP, http://darwin.biochem.okstate.edu/gpap/ > ) website (H. Weng and P. Ayoubi, unpublished).
+
+PLATFORM
+GPL2585 OSU Upland cotton line Im216 SSH library array
+
+CITATIONS
+Mohini A. Patil, Margaret L. Pierce, Angela L. Phillips, Bryan J. Venters, Margaret Essenberg, Identification of genes up-regulated in bacterial-blight-resistant upland cotton in response to inoculation with Xanthomonas campestris pv. malvacearum, Physiological and Molecular Plant Pathology, Volume 67, Issue 6, December 2005, Pages 319-335, ISSN 0885-5765, DOI: 10.1016/j.pmpp.2006.05.004.
+

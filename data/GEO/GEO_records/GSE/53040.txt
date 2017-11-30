@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of wild type Neurospora crassa cells treated with novel antifungal agents
+
+ORGANISM
+Neurospora crassa
+
+SUMMARY
+Purpose: Evaluate the transcriptional profile of Neurospora crassa cells treated with a group of novel antifungal compounds Methods: Conidial suspensions were obtained and 1 x 106 cells/ml incubated in minimal medium for 6 hours (26ºC, 140 rpm, constant light) followed by the addition of the indicated compound (or DMSO) and growth for 1 more hour. Cells were harvested using 0.45 μm filters and immediately frozen in liquid nitrogen. Total RNA was isolated by the Trizol-Phenol-Chloroform method. After digestion of 25 μg RNA with TURBO DNAse (Life Technologies), mRNA was purified using Dynabeads oligo(dT) magnetic beads (Life Technologies). The mRNA was chemically fragmented using the Ambion RNA fragmentation kit (Life Technologies). First and second strand cDNA synthesis was achieved using appropriate kits (Life Technologies). The illumina TruSeq kit was employed to generate the cDNA libraries with indexing adapters essentially following the manufacturer’s protocol. After purification of the libraries with AMPure XP beads (Roche), the quality of the libraries was analysed in a Agilent 2100 Bioanalyzer. The cDNA libraries were sequenced in a illumina HiSeq2000 and single reads of 50 bp were obtained. Sequencing data was handled essentially with Tophat, Cufflinks and Cuffdiff. Expression levels are presented as Fragments Per Kilobase of transcript per Million mapped reads (FPKM). Results: XP13 promoted a particularly active transcriptional response. Functional enrichment analysis of the genes with altered expression revealed novel pathways that are affected by these compounds. Conclusions: These compounds are active in Neurospora crassa and we anticipate that this and future studies will ascertain their potential as antifungal agents.
+
+DESIGN
+The transcriptional profile of Neurospora crassa wild type cells exposed with a group of novel compounds with antifungal activity was analysed using illumina HiSeq2000 and single reads of 50 bp.
+
+PLATFORM
+GPL16164 Illumina HiSeq 2000 (Neurospora crassa)
+
+CITATIONS
+26484172
+

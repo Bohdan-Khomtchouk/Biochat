@@ -1,0 +1,18 @@
+TITLE
+Clinical Microfluidics for Neutrophil Genomics and Proteomics
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Neutrophils play critical roles in modulating the immune response. However, neutrophils have a short circulating half life, are readily stimulated in vitro, and have low levels of cellular mRNA when compared to other blood leukocyte populations. All of these factors have made it difficult to evaluate neutrophils from clinical populations for molecular and functional studies. Here we present a robust methodology for rapidly isolating neutrophils directly from whole blood and develop ‘on- chip’ processing for mRNA and protein isolation for genomics and proteomics.  We validate this device with an ex vivo stimulation experiment and demonstrate the ability of the device to discriminate subtle differences in the genomic and proteomic response of peripheral blood neutrophils to direct and indirect stimulation. Lastly, we implement this tool as part of a near patient blood processing system within a multi-center clinical study of the immune response to severe trauma and burn injury and demonstrate that this technique is easy to use by nurses and technical staff yielding excellent quality and sufficient quantity of mRNA for sensitive genomic readout of the host response to injury
+
+DESIGN
+1. Ex vivo Stimulation Studies: We assessed whether the relatively small number of isolated neutrophils captured by the microfluidics cassettes would impact the resulting genomic sensitivity and potential discriminatory genomic capabilities in response to various stimuli. To do this, we compared the genome-wide expression profile in neutrophils from 4 independent repeated experiements under three conditions - untimulated, ex vivo activation with either Escherichia coli lipopolysaccharide (LPS), or with granulocyte-macrophage colony-simulating factor (GM-CSF) and interferon-gamma (INF-g) (referred to as GM+I). In both protocols, whole blood was stimulated ex vivo to allow leukocyte and plasma protein interactions. 2.  Inter-subject Reproducibility: To further ensure the reliability of the of the microfluidics cassette isolation method, we directly compared the gene expression of neutrophils captured in the microfluidics cassettes with neutrophils isolated using density centrifugation with Ficoll-dextran. We performed parallel neutrophil isolations using both methodologies from five different healthy volunteers and processed the cell lysates for microarray analysis using identical protocols.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+20802500
+

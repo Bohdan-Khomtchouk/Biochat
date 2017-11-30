@@ -1,0 +1,18 @@
+TITLE
+Transcriptional gene silencing by Arabidopsis Microrchidia homologues involves the formation of heteromers
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Epigenetic gene silencing is of central importance to maintain genome integrity and is mediated by an elaborate interplay between DNA methylation, histone posttranslational modifications and chromatin remodeling complexes. DNA methylation and repressive histone marks usually correlate with transcriptionally silent heterochromatin, however there are exceptions to this interdependence. In Arabidopsis, mutation of MORPHEUS MOLECULE 1 (MOM1) causes transcriptional derepression of heterochromatin independently of changes in DNA methylation. More recently, two Arabidopsis homologs of mouse Microrchidia (MORC) have also been implicated in gene silencing and heterochromatin condensation without altering genome-wide DNA methylation patterns. In this study, we show that AtMORC6 physically interacts with AtMORC1 and with its close homologue AtMORC2 in two mutually exclusive protein complexes. RNA-seq analysis of high-order mutants indicates that AtMORC1 and AtMORC2 act redundantly to repress a common set of loci. We also examined the genetic interactions between AtMORC6 and MOM1 pathways. Although AtMORC6 and MOM1 control the silencing of a very similar set of genomic loci, we observed synergistic transcriptional regulation in the mom1/atmorc6 double mutant, suggesting that these epigenetic regulators act mainly by independent silencing mechanisms.
+
+DESIGN
+RNA-seq libraries were prepared for two suites of mutants to allow direct comparisons between mutants within each set. The two sets consisted of the following samples: Set_1) A wildtype (Col) control, the morc1 mutant, the morc2 mutant, the morc1 morc2 double mutant, the morc6 mutant, and the morc1 morc2 morc6 triple mutant ; Set_2) A wildtpe (Col) control, the morc6 mutant, the mom1 mutant, and the mom1 morc6 double mutant. For each sample, two biological replicates were performed (denoted " bio_replicate_1 " or " bio_replicate_2 " ). Whole genome bisulifte libraries were sequenced from material grown in parallel.
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+24799676
+

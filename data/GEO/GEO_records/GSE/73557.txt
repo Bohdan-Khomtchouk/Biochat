@@ -1,0 +1,18 @@
+TITLE
+RhoA Determines Lineage Fate of MSCs by Modulating CTGF-VEGF Complex in Extracellular Matrix
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mesenchymal stem cells (MSCs) participate in the repair/remodeling of many tissues, where MSCs commit to different lineages dependent on the cues in the local microenvironment. Here we show that TGFβ-activated RhoA/ROCK functions as a molecular switch regarding the fate of MSCs in arterial repair/remodeling after injury. MSCs differentiate into myofibroblasts when RhoA/ROCK is turned on, endothelial cells when turned off. The former is pathophysiologic resulting in intimal hyperplasia, whereas the latter is physiological leading to endothelial repair.  Further analysis revealed that MSC RhoA activation promotes formation of an extracellular matrix (ECM) complex consisting of connective tissue growth factor (CTGF) and vascular endothelial growth factor (VEGF). Inactivation of RhoA/ROCK in MSCs induces matrix metalloproteinase-3-mediated CTGF cleavage, resulting in VEGF release and MSC endothelial differentiation. Our findings uncover a novel mechanism by which cell-ECM interactions determine stem cell lineage specificity and offer additional molecular targets to manipulate MSC-involved tissue repair/regeneration.
+
+DESIGN
+Mouse bone marrow MSCs were purchased from Texas A & M Health Science Center College of Medicine Institute for Regenerative Medicine. All MSCs were cultured in αMEM supplied with 10% FCS. The transfection of DNA plasmids were performed with Lipofectamine® LTX with Plus Reagent (Life Technologies). Myc-L63RhoA or empty vector (control) was transfected into mouse bone marrow MSCs. Three days later, the cells were harvested and total RNA was isolated using RNeasy Mini kit (Qiagen).  A total of four independent experiments were performed. RNA samples were assessed for quality and integrity using Synergy HT (Biotek, Winooski, VT). Microarray expression profiles were generated using the Illumina MouseRef-8 v2.0 Expression BeadChip (Illumina, San Diego, CA). Biotin-labeled cRNA was synthesized by the total prep RNA amplification kit from Ambion (Austin, TX). cRNA was quantified and normalized to 75 ng/µl, and then 1µg was hybridized to Beadchips. The hybridized chip was scanned using the Illumina iScan system and background corrected signal intensities were extracted using the GenomeStudio software (Illumina). The lumi R package was used to transform the data using a Variance Stabilizing Transformation (VST) and normalized using quantile normalization. Differential expression analysis was performed using the R/Mannova package.  P-values were calculated by performing 1000 permutations, then corrected for multiple comparisons by false-discovery rate (FDR) transformation, using a 20% FDR cutoff.
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+27126736
+

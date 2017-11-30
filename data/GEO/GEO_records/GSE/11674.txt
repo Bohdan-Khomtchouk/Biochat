@@ -1,0 +1,18 @@
+TITLE
+Genes up-regulated by VE-cadherin expression and clustering at junctions
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In order to identify genes regulated by VE-cadherin expression, we compared a mouse VE-cadherin null cell line (VEC null) with the same line reconstituted with VE-cadherin wild type cDNA (VEC positive). The morphological and functional properties of these cell lines were described previously [Lampugnani,M.G. et al. Contact inhibition of VEGF-induced proliferation requires vascular endothelial cadherin, beta-catenin, and the phosphatase DEP-1/CD148. J. Cell Biol. 161, 793-804 (2003)]. By Affymetrix gene expression analysis we found several genes up-regulated by VE-cadherin, among which claudin-5 reached remarkably high levels. The up-regulation of these genes required not only VE-cadherin expression but also cell confluence suggesting that VE-cadherin clustering at junctions was needed.
+
+DESIGN
+VEC null or positive cells in the sparse and confluent conditions have been starved in MCDB 131 medium 1% BSA for 36 h. Next, RNA has been extracted with standard guanidinium isothiocyanate lysis buffer and cesium chloride ultracentrifugation. Synthesis of biotinylated cRNA targets, array hybridization (GeneChips MG_U74Av2 and MG_U74Bv2), staining and scanning were performed according to the Affymetrix standard protocols, starting from 15 μg of total RNA. Two copies of the GeneChips were hybridized with each cRNA sample. The MAS5 algorithm was used to determine the expression levels of mRNAs; the absolute analysis was performed using default parameters and scaling factor 500. Report files were extracted for each chip, and performance of labeled target was evaluated on the basis of several values (scaling factor, background and noise values, % present calls, average signal value, etc). Gene expression levels were normalized on the median over all samples. Annotation of Probe Sets is according to Affymetrix Annotation Tables (release May 31, 2007) [Vecchi,M. et al. Gene expression analysis of early and advanced gastric cancers. Oncogene 26, 4284-4294 (2007)]. We selected the genes up-regulated by VE-cadherin expression and clustering at junctions in confluent VEC positive cells.
+
+PLATFORM
+GPL81 [MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array GPL82 [MG_U74Bv2] Affymetrix Murine Genome U74B Version 2 Array
+
+CITATIONS
+18604199
+

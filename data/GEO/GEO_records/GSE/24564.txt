@@ -1,0 +1,18 @@
+TITLE
+ArcA- mutant vs. WT
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium
+
+SUMMARY
+Background: Salmonella enterica serovar Typhimurium (S. Typhimurium) is a Gram-negative pathogen that must successfully adapt to the broad fluctuations in the concentration of dissolved dioxygen encountered in the host. In Escherichia coli, ArcA (Aerobic Respiratory Control) helps the cells to sense and respond to the presence of dioxygen. The global role of ArcA in E. coli is well characterized; however, little is known about its role in anaerobically grown S. Typhimurium. Results: We compared the transcriptional profiles of the virulent wild-type (WT) strain (ATCC 14028s) and its isogenic arcA mutant grown under anaerobic conditions. We found that ArcA directly or indirectly regulates 392 genes (8.5% of the genome); of these, 138 genes are poorly characterized. Regulation by ArcA in S. Typhimurium is similar, but distinct from that in E. coli. Thus, genes/operons involved in core metabolic pathways (e.g., succinyl-CoA, fatty acid degradation, cytochrome oxidase complexes, flagellar biosynthesis, motility, and chemotaxis) were regulated similarly in the two organisms. However, genes/operons present in both organisms, but regulated differently by ArcA in S. Typhimurium included those coding for ethanolamine utilization, lactate transport and metabolism, and succinate dehydrogenases. Salmonella-specific genes/operons regulated by ArcA included those required for propanediol utilization, flagellar genes (mcpAC, cheV), Gifsy-1 prophage genes, and a few SPI-3 genes (mgtBC, slsA, STM3784). In agreement with our microarray data, the arcA mutant was non-motile, lacked flagella, and was as virulent in mice as the WT. Furthermore, we identified a set of 120 genes whose regulation was shared with the anaerobic redox regulator, Fnr. Conclusion(s): We have identified the ArcA regulon in anaerobically grown S. Typhimurium. Our results demonstrated that in S. Typhimurium, ArcA serves as a transcriptional regulator coordinating cellular metabolism, flagella biosynthesis, and motility. Furthermore, ArcA and Fnr share in the regulation of 120 S. Typhimurium genes.
+
+DESIGN
+Anaerobic cultures of the WT or the arcA mutant were used to inoculate three independent flasks for each strain. Every flask contained 150 ml of anoxic LB-MOPS-X. The three independent cultures of each strain were grown to an OD600 of 0.25-0.35, pooled, and treated with RNAlater (Qiagen, Valencia, CA) to fix the cells and preserve the quality of the RNA. Total RNA was extracted using RNeasy RNA extraction kit (Qiagen) and the samples were treated with RNase-free DNase (Invitrogen, Carlsbad, CA). The absence of contaminating DNA and the quality of the RNA was confirmed by the lack of PCR amplification of known genes (i.e.: fnr) and by using agarose-gel electrophoresis. Aliquots of the RNA samples were kept at -80°C for use in the microarray and the qRT-PCR studies.
+
+PLATFORM
+GPL1835 STv5B_MMCC
+
+CITATIONS
+21418628
+

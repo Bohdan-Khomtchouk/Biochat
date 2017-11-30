@@ -1,0 +1,18 @@
+TITLE
+Genome-wide identification of transcriptional start sites in the haloarchaeon Haloferax volcanii based on differential RNA-Seq (dRNA-Seq)
+
+ORGANISM
+Haloferax volcanii DS2
+
+SUMMARY
+Three biological replicates of H. volcanii grown under optimal conditions to mid-exponential growth phase were used to determine the primary transcriptome and map 5’-ends of transcripts. In total, 4,749 potential transcriptional start sites (TSS) were detected. A position weight matrix was derived for promoter prediction, showing that 64% of the TSS were preceded by stringent or relaxed basal promoters. 1,851 TSS belonged to protein-coding genes, showing that less than half (46%) of the 4040 protein-coding genes are expressed under optimal growth conditions. 72% of all protein-coding transcripts were leaderless, underscoring that this is the default pathway for translation initiation in haloarchaea. The 5’-UTRs of transcripts with leaders had a widely varying length distribution without any optimum. 2,898 of the TSS belong to potential non-coding RNAs, representing an unexpectedly high fraction (61%) among all transcripts. 2792 of the non-coding TSS had not been described before and were thus novel (59% of all TSS). A large fraction of the potential novel non-coding transcripts are cis-antisense RNAs (1,244 aTSS). There was a strong negative correlation between the levels of antisense transcripts and cognate sense mRNAs, suggesting that negative regulation of gene expression via antisense RNAs may play an important role in haloarchaea. The other types of novel non-coding transcripts correspond to internal transcripts overlapping with mRNAs (1,153 iTSS) and intergenic small RNA (sRNA) candidates (395 TSS).
+
+DESIGN
+Three biological replicates were performed with slight differences in library preparation. In each case, part of the sample was treated with terminator 5'-phosphate-dependent exonuclease (+TEX), while part of the sample remained untreated (-TEX). Therefore, in total, six samples were analysed by high-throughput sequencing.
+
+PLATFORM
+GPL21976 Illumina HiSeq 2000 (Haloferax volcanii DS2)
+
+CITATIONS
+27519343
+

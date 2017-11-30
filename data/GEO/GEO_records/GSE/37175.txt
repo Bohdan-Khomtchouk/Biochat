@@ -1,0 +1,18 @@
+TITLE
+Time course analysis of colon cancer samples (part 1)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The study outcome was to evaluate the effect of the time on normal colon mucosa samples and possibly select specific genes whose expression is time-related, that could be used as detectors of tissue degradation.
+
+DESIGN
+RNA extracted from specimens of 15 patients at four time points after surgery was analyzed for gene expression on high-density oligonucleotide microarrays. A mixed-effects model implemented by considering the factor time (T0, T1, T2, T3) as fixed and the factor patient as random was used to identify probes with different expression means across the four different time points. The p-values of the model were adjusted with the Bonferroni method (p < 0. 05).
+
+PLATFORM
+GPL6947 Illumina HumanHT-12 V3.0 expression beadchip
+
+CITATIONS
+23308215
+

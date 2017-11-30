@@ -1,0 +1,18 @@
+TITLE
+Mouse embryonic stem cells can differentiate via multiple paths to the same state [RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In embryonic development, cells must differentiate through stereotypical sequences of intermediate states to generate mature states of a particular fate. By contrast, direct programming can generate similar fates through alternative routes, by directly expressing terminal transcription factors. Yet the cell state transitions defining these new routes are unclear. We applied single-cell RNA sequencing to compare two mouse motor neuron differentiation protocols: a standard protocol approximating the embryonic lineage, and a direct programming method. Both undergo similar early neural commitment. Then, rather than transitioning through spinal intermediates like the standard protocol, the direct programming path diverges into a novel transitional state. This state has specific and abnormal gene expression. It opens a 'loop' or 'worm hole' in gene expression that converges separately onto the final motor neuron state of the standard path. Despite their different developmental histories, motor neurons from both protocols structurally, functionally, and transcriptionally resemble motor neurons from embryos.
+
+DESIGN
+2 protocols were profiled at 3 timepoints each (samples 1-5), and compared to primary embryonic motor neurons (sample 6). Each sample contains 667-1,057 single-cell transcriptomes (total = 5,405).
+
+PLATFORM
+GPL16417 Illumina MiSeq (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Targeted reconstruction of T cell receptor sequence from single cell RNA-seq links CDR3 length to T cell differentiation state
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+The T cell compartment must contain diversity in both T cell receptor (TCR) repertoire and cell state to provide effective immunity against pathogens. However, it remains unclear how differences in the TCR contribute to heterogeneity in T cell state. Single cell RNA-sequencing (scRNA-seq) can allow simultaneous measurement of TCR sequence and global transcriptional profile from single cells. However, current methods for TCR inference from scRNA-seq are limited in their sensitivity and require long sequencing reads, thus increasing the cost and decreasing the number of cells that can be feasibly analyzed. We present TRAPeS, a publicly available tool that can efficiently extract TCR sequence information from short-read scRNA-seq libraries. We apply it to investigate heterogeneity in the CD8+ T cell response in humans and mice, and show that it is accurate and more sensitive than existing approaches. Coupling TRAPeS with transcriptome analysis of CD8+ T cells specific for a single epitope from Yellow Fever Virus (YFV), we show that the recently described “naive-like” memory population have significantly longer CDR3 regions and greater divergence from germline sequence than do effector-memory phenotype cells. This suggests that TCR usage is associated with the differentiation state of the CD8+ T cell response to YFV.
+
+DESIGN
+We applied and tested TRAPeS to scRNA-seq data from a range of CD8+ T cell responses. These data sets were selected to include both mouse and human CD8+ T cells as well as those expected to have a range of TCR complexities. In mice, we used the lymphocytic choriomeningitis virus (LCMV) infection model, and profiled CD8+ T cells responding to either acute or chronic infection (using the Armstrong and Clone 13 strains of LCMV, respectively). In healthy human subjects we profiled naive CD8+ T cells, effector memory CD8+ T cells, and antigen-specific CD8+ T cells elicited by CMV infection; vaccination with the live attenuated yellow fever virus infection (YFV-17D); or by vaccination with adenoviral and modified vaccinia Ankara vectors encoding HCV proteins. We sorted up to 128 single CD8+ T cells from each dataset to a total of 565 cells, and generated scRNA-seq libraries with short (25-30bp) paired-end reads. To evaluate the accuracy of TRAPeS, we compared its output with that of directly sequencing the TCR sequence using long reads (in which reconstruction is not required). To that end, we sequenced libraries of epitope-specific cells for Clone 13, Armstrong and CMV, and naive T cells from the CMV donor with both short (25-30bp) paired-end and 150bp single-end sequence reads.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28934479
+

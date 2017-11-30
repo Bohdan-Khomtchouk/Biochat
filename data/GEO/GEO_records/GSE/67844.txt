@@ -1,0 +1,18 @@
+TITLE
+PANCR, the PITX2 adjacent noncoding RNA, is specifically expressed in human left atria and regulates PITX2c expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Common genetic variation at chromosome 4q25 lead to the strongest locus associated with atrial fibrillation (AF), the most frequent arrhythmia.  The mechanism of association is currently unknown.  We recently have identified a novel noncoding RNA expressed in the left atria.  To determine the potential functional roles of the LNCRNA adjacent to PITX2 (PANCR) via knockdown in cardiomyocytes Methods and Results: H9 differentiated cardiomyocytes were treated with siRNA targeting PANCR and PITX2c and a scrambled control in triplicate.  RNA and small RNA extracted and sent for sequencing.  Approximately 50 million read fragments mapped to the transcriptome using STAR aligner to hg19 and fragments counted with htseq.  EdgeR was used to quantify the differences between treatment groups.   There were significant changes upon knocking down PITX2c or PANCR in the RNA sequencing with high concordance of effect sizes between the two treatments (r2 = 0.85).  Similar to the RNAseq analysis, this miRNAseq analysis shows that the effects of PANCR knockdown on miRNA expression may be largely mediated by through its effect on PITX2c expression. Conclusion: PANCR knockdown decreased PITX2c expression in H9 differentiated cardiomyocytes, and altered the transcriptome similar to PITX2c knockdown.
+
+DESIGN
+H9 derived cardiomyoctyes were treated with siRNA knockdown (scrambled control, PANCR, PITX2c) in triplicate and RNA and smallRNAs extracted for sequencing.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL15520 Illumina MiSeq (Homo sapiens)
+
+CITATIONS
+26783232
+

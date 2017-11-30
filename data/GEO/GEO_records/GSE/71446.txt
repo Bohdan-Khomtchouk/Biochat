@@ -1,0 +1,18 @@
+TITLE
+Genome-wide Analysis of Human Constitutive Androstane Receptor (CAR) Transcriptome in Wild-type and CAR-knockout HepaRG cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The constitutive androstane receptor (CAR, NR1I3) modulates the transcription of numerous genes involving drug metabolism, energy homeostasis, and cell proliferation. Most functions of CAR however were defined from animal studies. Given the known species difference of CAR and the significant cross-talk between CAR and the pregnane X receptor (PXR), it is extremely difficult to decipher the exact role of human CAR (hCAR) in gene regulation, relying predominantly on pharmacological manipulations.  Here, utilizing a newly generated hCAR-knockout (KO) HepaRG cell line, we carried out RNA-seq analysis of the global transcriptomes in wild-type (WT) and hCAR-KO HepaRG cells treated with CITCO, a selective hCAR agonist, phenobarbital (PB), a dual activator of hCAR and hPXR, or vehicle control. Real-time PCR assays in separate experiments were used to validate RNA-seq findings. Our results indicate that genes encoding drug-metabolizing enzymes are among the main clusters altered by both CITCO and PB. Specifically, CITCO significantly changed the expression of 135 genes in an hCAR-dependent manner, while PB altered the expression of 227 genes in WT cells of which 94 were simultaneously modulated in both cell lines reflecting the dual effects of PB on hCAR/PXR. Notably, we found that many genes promoting cell proliferation and tumorigenesis were up-regulated in hCAR-KO cells, suggesting that hCAR may play an important role in cell growth that differs from mouse CAR. Together, our results reveal both novel and known targets of hCAR and support the role of hCAR in maintaining the homeostasis of metabolism and cell proliferation in the liver.
+
+DESIGN
+Compare the mRNA profiles of HepRG WT and hCAR-KO cells after DMSO, PB and CITCO treatment, each sample was done in duplicate.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26275810
+

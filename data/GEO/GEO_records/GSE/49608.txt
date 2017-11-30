@@ -1,0 +1,18 @@
+TITLE
+Differential transcript stability measurements in MDA-MB-231 vs. MDA-LM2 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We performed whole-genome stability measurements for MDA-MB-231 and its highly metastatic derivative MDA-LM2. Our goal was to identify post-transcriptonal regulons that are deregulated en route to higher metastatic capacity.
+
+DESIGN
+Cells were pulsed with 4-thiouridine for 2 hours and then RNA was extracted at 0, 2, 4, and 7 hr time-points in quadruplicate from each cell line. 4sU labeling followed by RNA-seq was then used to measure the abundance of transcripts in each population. A decay rate was estimated based on the rate at which transcript abundance was reduced at these time-points.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25043050
+

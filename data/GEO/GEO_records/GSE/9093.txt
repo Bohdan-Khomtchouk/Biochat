@@ -1,0 +1,18 @@
+TITLE
+MCF-7 6A-SA5 and WT-WB1 cells untreated
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+TGFBR1*6A is a common hypomorphic variant of the type 1 Transforming Growth Factor Beta Receptor (TGFBR1), which has been associated with increased cancer risk in some studies. Although TGFBR1*6A is capable of switching TGF-β growth inhibitory signals into growth stimulatory signals when stably transfected into MCF-7 breast cancer cells, TGFBR1*6A biological effects are largely unknown. To broadly explore TGFBR1*6A potential oncogenic properties, we assessed its impact on the migration and invasion of MCF-7 cells.  We found that TGFBR1*6A significantly enhances MCF-7 cell migration and invasion in a TGF-β signaling independent manner.  We set up and performed a gene array using the conditions mimicking the cell migration experiments to determine which genes in the migratory pathway were differentially regulated between the MCF-7*6A cells and the MCF-7*9A (wild type transfected) cells.  The gene array identified two downregulated genes in *6A compared to *9A that are involved in cell migration and invasion: ARHGAP5, encoding ARHGAP5, and FN1, encoding fibronectin-1 (FN1).  We were subsequently able to use this information in further studies in the lab. Keywords: cell type comparison
+
+DESIGN
+MCF-7 cells were stably transfected with pIRES-TGFBR1-HA-FLAG or pIRES-TGFBR1*6A-HA-FLAG.  Clones were picked up and named 6A-SA5 and WT-WB1 referring to the *6A and TGFBR1 clones, respectively. We have found that the *6A mutation causes an increase in migration and invasion of MCF-7 cells which is independent of TGF-beta.  We used the gene array to identify genes that were differentially regulated between the two cell lines that could lead to this phenotype. We collected RNA from samples that were serum-deprived overnight prior to being fed with complete media to mimic the conditions in the migration experiment.  No exogenous growth factors were added to the media besides the normal 10% heat inactivated FBS.  Samples were collected and run in triplicate (referred to in this data set as sample 1, sample 2, and sample 3).   The “untreated” refers to the fact that samples were grown in complete media alone with no exogenously added growth factors.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18316594
+

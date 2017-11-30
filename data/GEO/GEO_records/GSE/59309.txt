@@ -1,0 +1,18 @@
+TITLE
+Multicilin drives centriole biogenesis via E2f proteins
+
+ORGANISM
+Xenopus laevis
+
+SUMMARY
+Biochemistry suggests e2f4 forms a complex with the coiled-coiled protein multicilin (MCIDAS), a protein that is necessary and sufficient to specify multiciliated cells in vertebrates. Here, we performed RNAseq on Xenopus laevis ectoderm in the presence of multicilin alone or multicilin and a dominant-negative e2f4 construct. We also performed ChIPseq on e2f4 in the presence or absence of multicilin. Taken together, these data demonstrate how multicilin affects e2f4 genomic targets and their downstream transcription.
+
+DESIGN
+RNAseq: misexpression of multicilin-HGR +/- dominant-negative e2f4 messenger RNAs in X. laevis animal caps, multicilin induced with dexamethasone at mid-stage 11 and harvested at 3 timepoints (3, 6, and 9 hours after induction, roughly corresponding to stages 13, 16, and 18) with 3 biological replicates. ChIPseq: misexpression of e2f4-GFP +/- multicilin-HGR messenger RNAs in X. laevis animal caps, multicilin induced at mid-stage 11 and harvested at one timepoint (6 hours after induction, roughly corresponding to stage 16), immunoprecipitated with anti-GFP and sequenced;  2 biological replicates. Background was input prior to IP.
+
+PLATFORM
+GPL18936 Illumina HiSeq 2500 (Xenopus laevis)
+
+CITATIONS
+24934224
+

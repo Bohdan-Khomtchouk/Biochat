@@ -1,0 +1,18 @@
+TITLE
+A comparison of control samples for ChIP-seq of histone modifications
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The advent of high-throughput sequencing has allowed genome wide profiling of histone modifications by Chromatin ImmunoPrecipitation (ChIP) followed by sequencing (ChIP-seq). In this assay the histone mark of interest is enriched through a chromatin pull-down assay using an antibody for the mark. Due to imperfect antibodies and other factors, many of the sequenced fragments do not originate from the histone mark of interest, and are referred to as background reads. Background reads are not uniformly distributed and therefore control samples are usually used to estimate the background distribution at any given genomic position. The Encyclopedia of DNA Elements (ENCODE) Consortium guidelines suggest sequencing a whole cell extract (WCE, or “input”) sample, or a mock ChIP reaction such as an IgG control, as a background sample. However, for a histone modification ChIP-seq investigation it is also possible to use a Histone H3 (H3) pull-down to map the underlying distribution of histones. In this paper we generated data from a hematopoietic stem and progenitor cell population isolated from mouse foetal liver to compare WCE and H3 ChIP-seq as control samples. The quality of the control samples is estimated by a comparison to pull-downs of histone modifications and to expression data. We find minor differences between WCE and H3 ChIP-seq, such as coverage in mitochondria and behaviour close to transcription start sites. Where the two controls differ, the H3 pull-down is generally more similar to the ChIP-seq of histone modifications. However, the differences between H3 and WCE have a negligible impact on the quality of a standard analysis.
+
+DESIGN
+WCE and histone H3 ChIP-seq samples are compared to H3K27me3 ChIP-seq and RNA-seq.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

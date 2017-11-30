@@ -1,0 +1,18 @@
+TITLE
+Therapeutic utility of natural estrogen receptor beta agonists on ovarian cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We examined the transcriptional changes modulated by ESR2 agonist liquiritigenin by perfroming global transcriptome analysis. ES2 cells were treated with either vehicle or liquiritigenin for 24 h and the isolated RNA was utilized for RNA-seq analysis. Our results demonstrated that liquiritigenin modulated several genes that are involved in NF-kB signaling, inflammation, NRF2 mediated oxidative stress response, and MMP signaling.
+
+DESIGN
+Total RNA was isolated from the ES2 cells that were treated with vehicle or liquiritigenin for 24 hours. Illumina TruSeq RNA Sample Preparation was performed following manufacturer's protocol. Samples were run on an Illumina HiSeq 3000 in duplicate. The combined raw reads were aligned to UCSC hg19 and genes were annotated by Tophat. Genes were annotated and quantified by HTSeq-DESeq pipeline.
+
+PLATFORM
+GPL21290 Illumina HiSeq 3000 (Homo sapiens)
+
+CITATIONS
+28654894
+

@@ -1,0 +1,18 @@
+TITLE
+Zelda determines chromatin accessibility during the Drosophila maternal-to-zygotic transition
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+We used FAIRE-seq to perform genome-wide profiling of open chromatin in 2-3 hour Drosophila embryos lacking maternal ZLD (zldM-) and in paired control embryos (yw). We demonstrate that ZLD is required to establish or maintain specific regions of open chromatin. Using single embryo RNA-seq data (from stage 5 yw and zldM- embryos) we show that loci that lose accessibility in zldM- embryos require ZLD for robust expression of associated genes.  By comparing our FAIRE peaks to publicly available ChIP data (Xu et al. 2014) we demonstrate that ZLD is required for binding of the transcription factor Bicoid. To our surprise, not all ZLD-bound loci are less accessible in the mutant, suggesting that these regions rely on additional factors for open chromatin. These constitutively accessible ZLD-bound sites are enriched for the GAGA factor (GAF) binding motif, and we therefore propose that GAF may provide this additional function. We conclude that ZLD functions like a pioneer factor to define the cis-regulatory regions that drive gene expression during the MZT.
+
+DESIGN
+Open chromatin profiling of 2-3 hour Drosophila embryos: embryos lacking maternal ZLD (zldM-, 3 replicates) and paired control embryos (yw, 2 replicates); Genomic DNA Inputs. Sequencing performed on Illumina HiSeq 2000.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+26335634
+

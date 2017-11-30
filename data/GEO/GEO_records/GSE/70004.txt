@@ -1,0 +1,18 @@
+TITLE
+Genome-wide gene expression and DNA methylation reveals Genetic and Epigenetic differences in cloned piglets and conventionally  bred normal piglets (MeDIP-Seq)
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Somatic cell nuclear transfer has brought considerable chances to breed excellent breeds and protect endanger animals, while also produced numerous fail embryos and abnormal individuals due to inefficient epigenetic modification at the same time. To understand some mechanisms of abnormal piglets with phenotypes such as macroglossia, standing and walking disabilities in our study and find some differences between abnormal piglets and conventionally bred normal piglets, DNA methylation profile and genome-wide gene expression were conducted in two groups, using methylated DNA immunoprecipitation binding highthroughput sequencing (MeDIP-Seq) and RNA sequencing(RNA-Seq). We generated and provided a genome-wide DNA methylation and gene expression profile for abnormal cloned and conventionally bred piglets.  We detected a total of 1493 genes differentially expressed in two groups and 382 of these genes also differentially methylated in two groups. Analysis of relationship between DNA methylation and gene expression revealed that DNA methylation levels had significantly negative and monotonic correlation with gene expression levels in particular regions of genes while no obvious monotonic correlation in other regions. Besides, we found some interesting genes and pathways such as MYH7 and mTOR signalling pathway that may played essential role in muscle growth and development. Briefly, these results provide reliable data for future epigenetic studies and may help to uncover the mechanism of failure clones via SCNT.
+
+DESIGN
+We dissected the leg muscle from the cloned piglets and the conventionally bred piglets, and analyzed the difference of MeDIP-seq and RNA-seq between the two groups. As for data of abnormal cloned piglets, we downloaded it from GEO under Super-Series accession No. GSE51477, including SubSeries accession No.GSE51282 for RNA-seq data (No. GSM1241829 for abnormal cloned group) and SubSeries accession No. GSE51476 for MeDIP-seq data (No. GSM1246252 for abnormal cloned group).
+
+PLATFORM
+GPL11429 Illumina HiSeq 2000 (Sus scrofa)
+
+CITATIONS
+27028246
+

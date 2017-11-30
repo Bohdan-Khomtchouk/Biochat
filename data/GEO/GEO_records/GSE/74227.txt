@@ -1,0 +1,18 @@
+TITLE
+Gut Microbiota Orchestrates Energy Homeostasis during Cold [16S rRNA gene V4-region miSeq]
+
+ORGANISM
+mouse gut metagenome
+
+SUMMARY
+Microbial functions in the host physiology are a result of co-evolution between microbial communities and their hosts. Here we show that cold exposure leads to marked shift of the microbiota composition, referred to as cold microbiota. Transplantation of the cold microbiota to germ-free mice is sufficient to increase the insulin sensitivity of the host, and enable complete tolerance to cold partly by promoting the white fat browning, leading to increased energy expenditure and fat loss. During prolonged cold however, the body weight loss is attenuated, caused by adaptive mechanisms maximising caloric uptake and increasing intestinal, villi and microvilli lengths. This increased absorptive surface is promoted by the cold microbiota - effect that can be diminished by co-transplanting the most downregulated bacterial strain from the Verrucomicrobia phylum, Akkermansia muciniphila, during the cold microbiota transfer. Our results demonstrate the microbiota as a key factor orchestrating the overall energy homeostasis during increased demand.
+
+DESIGN
+C57BL/6J mice were put for 31 day on cold (6C) or room temperature. Fresh feces and cecum samples were collected, immediately frozen and stored. Bacterial DNA content was extracted using QIAamp Fast DNA stool Mini Kit (Qiagen). Bacterial DNA was PCR amplified with barcoded universal bacterial primers targeting variable regionV4 of 16SrRNA gene. Samples were pooled and sequenced with Ilumina MiSeq platform. Using QIIME and custom scripts, sequences were quality filtered and demultiplexed using exact matches to the supplied DNA barcodes. Resulting sequences were then searched against the Greengenes reference database of 16S rRNA gene sequences, clustered at 97% by uclust. The longest sequence from each Operation Taxonomic Unit (OTU) thus formed was then considered as the OTU representative sequence, and assigned taxonomic classification via Mothur's Bayesian classifier, trained against the Greengenes database clustered at 98%. Each listed sample is indivudual biological replicate.
+
+PLATFORM
+GPL21051 Illumina MiSeq (mouse gut metagenome)
+
+CITATIONS
+26638070
+

@@ -1,9 +1,0 @@
-TITLE
-Systematic evaluation of variability in simulated ChIP-chip experiments
-
-ORGANISM
-ENCODE
-
-SUMMARY
-The most widely-used method for detecting and measuring genome-wide protein-DNA interactions is chromatin immunoprecipitation on tiling microarrays, commonly known as ChIP-chip. Many tiling array platforms, amplification methods, and analysis algorithms exist for ChIP-chip, but a rigorous assessment of the relative performance of these factors has not been reported. In a multi-lab simulation of a ChIP-chip experiment, we conducted the first objective analysis of tiling array platforms and analysis algorithms. We designed a complex mixture of human genomic DNA with a " spike-in " comprised of nearly 100 human sequences at various concentrations. Eight independent groups hybridized these mixtures to four different tiling array platforms. The groups were blind to the composition of the spike-in mix, the range of concentrations covered, or how many sequences it contained. Still blind to the key, each group made predictions of the spike-in locations based on their measurements. The results reveal that all commercial tiling array platforms perform well, although each platform and analysis algorithm has distinct performance characteristics. Simple sequence repeats and genome redundancy tend to result in false positives on oligonucleotide platforms. We also compare genome-wide platforms with regard to performance and cost. The spike-in DNA samples and the resulting array data presented in our study provide a stable benchmark against which future ChIP platforms, protocol improvements, and analysis methods can be evaluated. Keywords: Spike in Control For data usage terms and conditions, please refer to and
-

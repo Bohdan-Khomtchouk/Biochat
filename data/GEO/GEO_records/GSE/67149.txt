@@ -1,0 +1,18 @@
+TITLE
+Strand-Specific RNA Sequencing for wild type and Drpd3 yeast entering quiescence [RNA-seq]
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Strand-specific RNA sequencing was performed on wild type yeast in log phase, after diauxic shift, and after entry into quiescence with incorporation of external ERCC RNA spike-in controls to account for global changes in RNA abundance.  We find that RNA profiles undergo at least two transitions: 1) From log-to-diauxic shift where stress response genes are induced and translational machinery is massively repressed.  2) From diauxic shift-to-quiescence, where global transcript abundance is repressed 15-fold. The transition from diauxic shift to quiescence was found to require Rpd3, as deletion of Rpd3 prevented the global repression of the transcriptome after the diauxic shift.
+
+DESIGN
+Strand-specific RNA sequencing was carried out in biological replicate with external controls then transcript abundance was normalized to reflect RNA content per cell.
+
+PLATFORM
+GPL9134 Illumina Genome Analyzer (Saccharomyces cerevisiae)
+
+CITATIONS
+26300265
+

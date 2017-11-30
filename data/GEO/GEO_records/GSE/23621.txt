@@ -1,0 +1,18 @@
+TITLE
+Mechanisms Establishing TLR4-Responsive Activation States of Inflammatory Response Genes (Illumina expression data)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Precise control of the innate immune response is required for resistance to microbial infections and maintenance of normal tissue homeostasis. Because this response involves coordinate regulation of hundreds of genes, it provides a powerful biological system to elucidate the molecular strategies that underlie signal- and time-dependent transitions of gene expression. Using a combination of genome-wide and gene-specific approaches, we provide evidence that rather than representing off/on transitions, Toll-like receptor 4 (TLR4)-dependent activation of nearly all immediate/early (I/E) and late response genes results from a sequential process in which signal-independent factors, exemplified by Gabpa, initially establish basal levels of gene expression that are then amplified by signal-dependent transcription factors. Promoters of I/E genes are distinguished from those of late genes by the use of distinct sets of signal-dependent transcription factors, preferential binding of TBP and basal enrichment for RNA Pol II immediately downstream of transcriptional start sites. Global nuclear run-on (GRO) sequencing and total RNA sequencing further indicates that TLR4 signaling markedly increases efficiency of transcriptional elongation of nearly all I/E genes, while RNA splicing is largely unaffected. NCoR/SMRT co-repressor complexes are unexpectedly found to be associated with H3K4me3-positive promoters of TLR4-responsive genes that exhibit a broad range of basal expression levels, implying a dynamic, rather than static role in regulation of gene expression. Collectively, these findings reveal mechanisms underlying temporally distinct patterns of TLR4-dependent gene activation required for homeostasis and effective immune responses.
+
+DESIGN
+ChIP-Seq, Total RNA-Seq, Gro-Seq, and gene expression profiling was performed in macrophages treated with Kdo2 Lipid A. Control samples for H3K4me3 and Input in Macrophages and B cells, in addition to control microarray data are included in GEO accession# GSE21512
+
+PLATFORM
+GPL6100 Illumina mouseRef-8 v1.0 expression beadchip
+
+CITATIONS
+22174696
+

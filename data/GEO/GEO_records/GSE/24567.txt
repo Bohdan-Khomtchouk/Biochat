@@ -1,0 +1,18 @@
+TITLE
+Comparison of gene expression in ventral prostates of 12 week old AR-E231G mice with AR-T857A mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The androgen receptor (AR) is an androgen-activated nuclear receptor.  The androgen signaling axis is critical in all stages of prostate cancer, although the mechanism by which it contributes to tumorigenesis remains unclear. Mutations in the AR have been detected in prostate tumors; one such mutant, E231G, exhibits increased ligand sensitivity in the presence of specific cofactors.  Mice with prostate-specific expression of AR-E231G invariably develop prostatic intraepithelial neoplasia (PIN) by 12 weeks, and metastatic prostate cancer by 52 weeks.  To determine a potential mechanism of AR-driven tumorigenesis in AR-E231G mice, we compared gene expression profiles in prostates of 12 week old AR-E231G mice with another AR-variant mouse strain (AR-T857A) that does not develop tumors.  Pathway classification of the 132 candidate genes differentially expressed in AR-E231G mouse prostates compared to AR-T857A mouse prostates revealed enrichment for groups important in prostate cancer, including “cancer,” “fatty acid metabolism” and “cell cycle” pathways.  Two genes significantly upregulated in the AR-E231G model were Adm and Cited1.  siRNA suppression of ADM and CITED1 expression by up to 63% and 79%, respectively, in LNCaP human prostate cancer cells, resulted in an approximate 1.8-fold increase in cell death.  Cell proliferation was reduced by 35% when CITED1 mRNA expression was suppressed, but not significantly altered by ADM suppression.  A gene signature set derived from this model was able to distinguish between primary Gleason grade 3 and Gleason grade 4 tumors (p=0.04237), and between human non-malignant and cancerous prostate in a test (p=0.02352) and validation cohort (p=7.53x10-9), highlighting the relevance of the AR-E231G model to the human disease.
+
+DESIGN
+RNA was extracted from ventral prostate tissue from 12-week old AR-E231G and AR-T857A mice in FVB background.  Pooled RNA from 3 mice per genotype were extracted using the RNeasy kit (Qiagen, Germantown, MD, USA), and 10 µg RNA was hybridized to a total of 2 Affymetrix Mouse Genome 430 2.0 chip® microarrays.  Microarray data was normalized by Robust Multiarray Averaging.  Probes with expression changes were identified using a fold-change cut-off of log1.5.  Normalized microarray data was analysed using Ingenuity Pathways Analysis (IPA, Redwood City, CA, USA).
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

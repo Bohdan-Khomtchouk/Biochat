@@ -1,0 +1,18 @@
+TITLE
+Differentially expressed genes in subpopulations of monocytes from non infected animals.
+
+ORGANISM
+Macaca mulatta
+
+SUMMARY
+On the basis of the cell-surface molecule expression, CD16+ monocytes are likely comprised of distinct subpopulations of monocytes rather than a continuum of CD14+ monocytes with differing levels of cell activation. To better study this, we used gene array analysis that compared overall gene expression profiles of CD16+ subpopulations (CD14+CD16+ and CD16+) with that of CD14+CD16-. Gene expression in three FACS-sorted monocyte subsets was assessed by Affymetrix rhesus macaque oligonucleotide gene arrays that contain 52,024 probe sets covering 47,000 monkey genes. There were 29,361 probe sets that expressed in at least one subpopulation (raw array signal intensity > 32). Raw data were processed using robust multi-array average. To identify the most strongly, differentially expressed genes in each subpopulation, we only selected transcripts with consistently greater than four-fold difference (P < .05). In comparison to CD14+CD16- monocyte subset, a large number of genes (9098/29361, 30.9%) were differentially expressed in both CD14+CD16+ and CD16+ subsets: 1999 genes down-regulated; and 7099 genes up-regulated. Altogether, we observed large-scale gene expression differences between the CD14+CD16- subset and the two CD16+ subsets (CD14+CD16+ and CD16+), demonstrating transcriptional heterogeneity. The differential gene expression between CD16- and CD16+ monocytes underscore the fundamental differences between these cells. Comparisons between CD14+CD16+ and CD16+ were made to identify the genes that distinguish between these two CD16+ subpopulations. A relatively small number of genes were specifically associated with each subpopulation. Thirty-one genes were expressed strongly in CD14+CD16+ subset compared to CD16+ subset, and 94 genes were expressed strongly in CD16+ subset compared to CD14+CD16+ subset. A small set of genes that were expressed differentially between the two CD16+ subpopulations highlights similarity between the two cell types, but differentially expressed genes of function observed in each subset suggest different roles that these two subpopulations may play in vivo.
+
+DESIGN
+To identify differentially expressed genes in subpopulations of monkey monocytes, three monocyte subsets from two normal uninfected rhesus macaques were FACS sorted based on their CD14 and CD16 expression. RNA purification and labeling, hybridization, array scanning, and image quantification were performed according to the manufacturer’s instructions. Briefly, FACS-isolated monocytes were spun down and lysed in Trizol reagents (Invitrogen), and total RNA was prepared using PureLink Micro-to-Midi Total RNA Purification system (Invitrogen). Quality of RNA was determined by 2100 Bioanalyzer RNA LabChip (Agilent Technologies). One hundred ng of high-quality total RNA was subjected to Affymetrix 1-cycle or 2-cycle synthesis amplification, fluorescent labeling, and hybridization to Affymetrix Rhesus Genome Arrays. Expression data was obtained from two aligned replicates using an Affymetrix GSC3000 scanner and processed by GCOS software (Affymetrix). Partek Genomic Suite System was used for downstream analysis of GCOS processed data. Signals from all probe sets were normalized using Rhesus Array Normalization Controls.
+
+PLATFORM
+GPL3535 [Rhesus] Affymetrix Rhesus Macaque Genome Array
+
+CITATIONS
+19843579
+

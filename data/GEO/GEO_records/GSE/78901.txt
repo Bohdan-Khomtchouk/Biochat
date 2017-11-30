@@ -1,0 +1,18 @@
+TITLE
+Expression data of three sets of cells: (1) Schwann cells and macrophages from 1m-old WT DRG, (2) Schwann cells (Nf1-/-) and macrophages (Nf1+/+) from 1m-old neurofibroma, (3) Schwann cells (Nf1-/-) and macrophages (Nf1+/+) from 7m-old neurofibroma
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Schwann cells and macrophages were dissociated from normal DRGs and 1- and 7-month-old neurofibroma. Schwann cells from neurofibroma have Nf1-/- phenotypes. All macrophages have Nf1+/+ phenotypes. We used microarrays (Affymetrix MoGene 2.0 ST GeneChip) to detect transcriptomal changes between 7-month-old neurofibroma Schwann cells (or macrophages)  versus 1-month-old wild-type (or neurofibroma) Schwann cells (or macrophages).
+
+DESIGN
+Expression data of three sets of cells: (1)Schwann cells and macrophages from 1-month-old wild-type mouse dorsal root ganglia, (2) Schwann cells (Nf1-/-) and macrophages (Nf1+/+) from  1-month-old  neurofibroma, (3) Schwann cells (Nf1-/-) and macrophages (Nf1+/+) from 7-month-old neurofibroma We chopped mouse DRG/neurofibromas into 1-3 mm^3 pieces and plated them in dissociation medium containing 20mL L-15 (Mediatech), 0.5 mg/mL collagenase type 1 (Worthington; Lakewood, NJ), and 2.5 mg/mL dispase protease type II (Cambrex; East Rutherford, NJ) at 37°C for 4-6 hours with shaking. The dissociation reaction was stopped by adding DMEM +10%FBS.  Undigested DRG/tumors were excluded by 100µM cell strainer. Cells were collected by centrifugation. For each microarrays (Schwann cell, macrophage), Affymetrix GeneChip Command Console (v4.0.0) was used to create .chp files. All the probe sets on Affymetrix Mouse Gene 2.0 ST array (Mogene-2_0-st-v1.na33.2.mm10) were summarized by Affymetix Expression Console program using robust multi-chip average (RMA) method . After preprocessing steps, data from two batches were combined and their batch effects were corrected using ComBat method Please note that [1] all MP samples are Nf1+/+ (no mutation on Nf1 gene) and the only difference is their ages (1month, 7month) and [2]  the 'nf1' in sample title reperesents " neurofibroma type1 disease " , not " Nf1 gene " .
+
+PLATFORM
+GPL16570 [MoGene-2_0-st] Affymetrix Mouse Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+28256556
+

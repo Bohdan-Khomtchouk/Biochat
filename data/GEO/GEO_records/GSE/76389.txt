@@ -1,0 +1,18 @@
+TITLE
+FOXE3 Contributes to Peters Anomaly through Transcriptional Regulation of an Autophagy Associated Protein termed DNAJB1
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+FOXE3 is a lens specific transcription factor that has been associated with anterior segment ocular dysgenesis. To determine the transcriptional target(s) of FOXE3 that are indispensable for the anterior segment development, we examined the transcriptome and the proteome of cells expressing truncated FOXE3 responsible for Peters anomaly identified through linkage-coupled next-generation whole exome sequencing. We found that DNAJB1, an autophagy-associated protein, was the only candidate exhibiting differential expression in both screens. We confirmed the candidacy of DNAJB1 through chromatin immunoprecipitation and luciferase assays while knockdown of DNAJB1 in human lens epithelial cells resulted in mitotic arrest. Subsequently, we targeted dnajb1a in zebrafish through injection of a splice-blocking morpholino. The dnajb1a morphants exhibited underdeveloped cataractous lenses with persistent apoptotic nuclei. In conclusion, we have identified DNAJB1 as a transcriptional target of FOXE3 in a novel pathway that is crucial for development of the anterior segment of the eye.
+
+DESIGN
+Human Embryonic Kidney (HEK293FT) cells were transfected with the expression vector (pT-RexTM-DEST30) harboring either the wild type or the mutant (C240*) FOXE3 ORF (open reading frame). The experimental design included a total of eight biological replicates of cells expressing the wild type and eight replicates of mutant FOXE3 along with eight non-transfected controls. Cells were harvested 24-hour post-transfection and subjected to total RNA isolation for the preparation of whole transcriptome next-generation sequencing libraries. Initially, we examined the quality of transcriptome libraries on a MiSeq genome analyzer. Subsequent to confirmation of the quality, all libraries were paired-end sequenced (2 x 100 bp) using Illumina TruSeq Cluster V3 flow cell at a concentration of 13.0 pM in two separate lanes (12 bar-coded mRNA pooled libraries in each lane) on a HiSeq 2000 genome analyzer.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27218149
+

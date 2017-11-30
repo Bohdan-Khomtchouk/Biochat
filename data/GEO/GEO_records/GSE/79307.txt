@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analyses of a pair of near-isogenic lines (NILs) from the cross Solanum lycopersicum var. cerasiforme (E9) x S. pimpinellifolium line (L5) under multistress conditions
+
+ORGANISM
+Solanum lycopersicum x Solanum pimpinellifolium
+
+SUMMARY
+NILs were created for the detailed genetic mapping of a QTL (gFW9.1) in tomato. Residual heterozygocity in recombinant inbred lines from the cross S. lycopersicum var. cerasiforme (parental accession E9) × S. pimpinellifolium line (parental accession L5) was used for the generation of a pair of NILs of which line E9 had DNA from parent E9 on a large section of chromosome 9 (5-56 Mb), whereas line L5 had parent L5 DNA. These two lines were tested as rootstocks grafted to a common scion (cv. Boludo) in multi-stress conditions - low phosphorus and drought stress compared to high phosphorus and well-watered conditions. RNA for transcriptomic analysis was prepared from root tissues. Secondary use of data: In a study aiming to identify genes that respond to multiple abiotic stresses, microarray data obtained from different plant species and under different stresses was analysed. A number of conserved stress-responsive genes were identified whose expression was differentially regulated in tomato roots in response to one or several stresses. 10 of these genes were validated as reliable biomarkers whose expression levels are related to different signalling pathways involved in adaptive stress responses. This dataset comprises part of the full stress dataset and is for plant roots harvested after growth under low phosphorus and drought conditions, compared to plant roots harvested after growth under sufficient phosphorus and well watered conditions.
+
+DESIGN
+The experiment was carried out wtih 4 replicates, 2 NIL lines and 2 conditions, which resulted in 16 samples. Both “E9” and “L5” rootstock lines were grafted to Boludo scions in 30 ml modules of peat-based compost, and then transplanted into 3L pots of Perlite.  A combined low phosphorus and drought stress treatment was applied during plant growth, which resulted in significantly reduced plant development compared to the control treated lines. After 29 days of treatment, the root tissues were harvested and total RNA were isolated from all 16 samples. These RNAs (after RNA quality check) were used for Cy3 labelling and hybridization to 4 x180k Agilent microarrays containing probes designed for the genes of the S.lycopersicum cv. Heinz 1706 genome (each array contained ~5 probes for 34,619 transcripts). Data was normalised using the Robust Multichip Averaging algorithm.
+
+PLATFORM
+GPL21602 Agilent-069672 S.lycopersicum Build 2.4
+
+CITATIONS
+Ferrández-Ayela Almudena, Sánchez-García Ana Belén, Martínez-Andújar Cristina, Kevei Zoltan, Gifford Miriam L., Thompson Andrew J., Pérez-Alfocea Francisco, Pérez-Pérez José Manuel. Identification of novel stress-responsive biomarkers from gene expression datasets in tomato roots. 2016. Functional Plant Biology 43, 783-796. DOI: 10.1071/FP15385
+

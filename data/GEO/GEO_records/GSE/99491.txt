@@ -1,0 +1,18 @@
+TITLE
+Enhancing the Potency of Mouse Embryonic Stem Cells [RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mouse naïve pluripotent stem cells (ESC) can contribute to all embryonic tissues and the germline, but rarely to the extra-embryonic tissues in chimeric embryos. Here we describe a novel advanced pluripotent stem cell (ASC) with higher potency, since a single ASC contributes very efficiently to the fetus, germline, yolk sac and the placental labyrinth in chimeras. ASCs were derived from blastocysts in two steps in a chemically defined medium with Activin A (ActA) and basic fibroblast growth factor (bFGF), followed by Wnt and BMP. Notably, ASCs exhibit a distinct transcriptome with the expression of both naïve pluripotent genes, as well as mesodermal somatic genes; Eomes, Eras, Tdgf1, Evx1, hand1, Wnt5a, and distinct repetitive elements. Established ESCs can also be readily and directly to ASCs. Importantly, ASCs exhibit a stable hypermethylated epigenome unlike the hypomethylated epiblast in blastocysts and naïve ESCs, indicating that ASCs might represent a state in between the naïve and primed states of pluripotency.
+
+DESIGN
+The RNA-seq libraries for this paper were constructed by using NEBNext Ultra Directional RNA Library Prep Kit from Illumina. After isolation of total RNA from bulk amount of mouse stem cells using RNeasy Micro Kit (QIAGEN), approximately 500ng total RNA was used to enrich mRNA with polyA tails by using NEBNext Magnetic Oligo d(T)25 beads. After RNA fragmentation and random priming, the first strand cDNAs and second strand cDNAs were synthesized, which was followed by end repair, dA-tailing, adapter ligation and PCR enrichment. The RNA-seq libraries were sequenced on HiSeq4000 platform.
+
+PLATFORM
+GPL21103 Illumina HiSeq 4000 (Mus musculus)
+
+CITATIONS
+29076502
+

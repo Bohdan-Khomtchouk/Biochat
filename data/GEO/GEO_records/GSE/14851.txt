@@ -1,0 +1,18 @@
+TITLE
+Gene expression in the embryonic serosa of Anopheles gambiae
+
+ORGANISM
+Anopheles gambiae
+
+SUMMARY
+Whole-genome transcriptome assays were performed with isolated serosa from A. gambiae embryos. These assays identified a large number of genes implicated in the production of the larval cuticle. In D. melanogaster, these genes are activated just once during embryogenesis, during late stages where they are used for the production of the larval cuticle. Evidence is presented that the serosal cells secrete a dedicated serosal cuticle, which protects A. gambiae embryos from desiccation.
+
+DESIGN
+10.5h mosquito embryos were collected and fixed as described previously (Goltsev et al., 2004) . Following embryo dissection procedure, the empty eggshells remaining on double-sticky tape (Scotch3M) were washed off the tape by Xylenes and equilibrated in ethanol. Total RNA was prepared from fixed eggs, dissected embryos or purified shells using RecoverALL kit (Ambion). Biotin-labeled probes were synthesized using two-step amplification kit (Affymetrix) and hybridized to Plasmodium-Anopheles expression arrays (Affymetrix). Three biological replicates were obtained for every each of the purified shells (serosa) or extracted embryo groups at 10.5h. Log base 2 expression values all probesets on the array were computed using RMAExpress (Bolstad et al., 2003).  Log2Fold values for each probeset were computed by subtracting the average expression value in the whole embryo group from the average expression value in the serosa group.
+
+PLATFORM
+GPL1321 [Plasmodium_Anopheles] Affymetrix Plasmodium/Anopheles Genome Array
+
+CITATIONS
+19298808
+

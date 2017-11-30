@@ -1,0 +1,18 @@
+TITLE
+FoxO RNAi in C2C12 cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+C2C12 cells are mouse skeletal muscle cells.  These cells were transfected with shRNA against FoxO1, FoxO3, and FoxO4.  FoxO1, FoxO3, and FoxO4 are the known paralogues expressed in this cell line.
+
+DESIGN
+C2C12 cells are transfected with shRNA against FoxO1, FoxO3, and FoxO4, respectively.  Colonies were selected for the best depletion of the target FoxOs, respectively.  Cells were grown in DMEM medium.  Total RNA was extracted from each line.  Microarray analysis was performed by following the Affymetrix protocols.  The data were analyzed by GCOS system.  The target genes that we are interested in were further confirmed by qRT-PCR, reporter assay, and other biochemical and molecular biology assays.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+18854138
+

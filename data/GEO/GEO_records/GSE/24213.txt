@@ -1,0 +1,18 @@
+TITLE
+Expression profiling of rat heart and blood after amiodarone treatment
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+In the present study, an oligonucleotide microarray platform was used to compare expression profiles of heart and blood in rats treated with amiodarone against respective controls. Male Sprague-Dawley (CD) rats, which were 10 weeks old and weighed 290-320 grams at the beginning of the study, have been treated for ten days with amiodarone by oral route at a dose of 300mg/Kg/die. The study has been constituted by a control group, which received the vehicle (methylcellulose 1%, w/v), and by a treatment group (10 animals for both groups). For each tissue sample, total RNA has been individually extracted and evaluated. For each tissue, three pools/group (2 pools composed of 3 animals and the last one by 4) have been used for microarray analysis. A modulation of 600 genes in heart and 8300 genes in blood has been obtained.
+
+DESIGN
+In this study, we analyzed the gene expression profiles of 6 pools (3 composed of control rats and 3 composed of rats treated with amiodarone) for each tissue (blood and heart) using the Agilent-014879 Rat oligo microarray platform (12 arrays, no replicates) based on single-colour detection (Cyanine-3 only). Microarrays were scanned with Agilent scanner G2565BA (barcode on the left, DNA on the back surface, scanned through the glass) at a resolution of 5 microns; all slides were scanned twice at two different sensitivity settings (XDRHi 100% and XDRLo 10%); the scanner software creates a unique ID for each pair of XDR scans and saves it to both scan image files. Feature Extraction 9.5 uses XDR ID to link the pairs of scans together automatically when extracting data. The signal remaining, after all the FE processing steps have been completed, is ProcessedSignal that contains the Multiplicatively Detrended, Background-Subtracted Signal. The heart and blood samples were normalized separately.
+
+PLATFORM
+GPL4135 Agilent-014879 Whole Rat Genome Microarray 4x44K G4131F (Feature Number version)
+
+CITATIONS
+25580480
+

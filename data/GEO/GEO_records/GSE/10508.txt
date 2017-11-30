@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis of HTLV-1 Tax-transformed T cell line Tesi in absence and presence of Tax
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Tesi system allows analysis of HTLV-1 Tax's impact on the transcriptome of a human CD4+ T-cell which is not derived from leukemia but directly from normal human lymphocytes. By comparing cells with and without Tax, one can specifically filter for celluar genes that are either activated or repressed in the presence of Tax. Keywords: cell type comparison, Tax
+
+DESIGN
+Tesi cells were kept in RPMI 1640 with 50% Panserin, 20% FCS, 0.35g/l glutamine, streptomycin as antibiotic and 40U/ml interleukin-2. To repress Tax expression, 1µg/ml tetracycline was added for ten days. Subsequently, total cellular RNA was extracted from samples and subjected to Affymetrix microarray analysis. For each state (with Tax and without Tax) a biological replicate was generated. Mean values of replicated samples were then compared.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18276843 , 21300980
+

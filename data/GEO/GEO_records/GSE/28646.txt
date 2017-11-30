@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling in A2780, CP70 and CP70 following Decitabine and/or PXD101 treatment
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Multiple DNA methylation changes have been associated with the acquisition of drug resistance; however it remains uncertain how many of these changes may represent critical DNA methylation drivers of chemoresistance. Using gene expression profiling method on HGU133plus2 array, we identified a total of 1370 genes showing significant gene expression changes with 687 genes going up and 683 genes going down in the resistant (cp70) versus sensitive cell lines (A2780) by Rank Product (FDR < 5%). Combining expression profiling with methylation profiling data we found out of 245 hypermethylated and down-regulated genes in the resistant cell line, 41 genes were up-regulated following Decitabine treatment alone, 45 genes up-regulated following combined treatment of Decitabine and PXD101, and only 10 genes up-regulated following PXD101 treatment alone. Altogether we found a small set of genes as being potential key drivers of chemoresistance and should be further evaluated as predictive biomarkers, both to existing chemotherapies, but also to epigenetic therapies used to modulate drug resistance.
+
+DESIGN
+Gene expression profiling was obtained from A2780, and CP70 before and after Decitabine and/or PXD101 treatment. Each sample have biological triplicates. Using Rank Product package in R (version 2.10.1), differentially expressed genes with FDR < 5% were identified.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+22249249
+

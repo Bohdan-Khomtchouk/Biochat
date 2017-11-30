@@ -1,0 +1,18 @@
+TITLE
+Hierarchy within the mammary STAT5-driven Wap super-enhancer
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Super-enhancers comprise of dense transcription factor platforms highly enriched for active chromatin marks. A paucity of functional data led us to investigate their role in the mammary gland, an organ characterized by exceptional gene regulatory dynamics during pregnancy. ChIP-Seq for the master regulator STAT5, the glucocorticoid receptor, H3K27ac and MED1, identified 440 mammary-specific super-enhancers, half of which were associated with genes activated during pregnancy. We interrogated the Wap super-enhancer, generating mice carrying mutations in STAT5 binding sites within its three constituent enhancers. Individually, only the most distal site displayed significant enhancer activity. However, combinatorial mutations showed that the 1,000-fold gene induction relied on all enhancers. Disabling the binding sites of STAT5, NFIB and ELF5 in the proximal enhancer incapacitated the entire super-enhancer, suggesting an enhancer hierarchy. The identification of mammary-specific super-enhancers and the mechanistic exploration of the Wap locus provide insight into the complexity of cell-specific and hormone-regulated genes.
+
+DESIGN
+ChIP-Seq for STAT5A, GR, H3K27ac, MED1, NFIB, ELF5, RNA Pol II, and H3K4me3 in wild type (WT) mammary tissues at day one of lactation (L1), and ChIP-Seq for STAT5A, GR, H3K27ac, MED1, NFIB, ELF5, and H3K4me3 in WT mammary tissues at day 13 of pregnancy (p13). ChIP-Seq for STAT5A, GR, H3K27ac in Wap-delE1a, -delE1b, -delE1c, -delE2, -delE3, -delE1a_delE2, -delE2_delE3 and -delE1a_delE2_delE3  mutant mammary tissues at L1, and ChIP-Seq for NFIB and ELF5 in Wap-delE1b and -delE1c mutant mammary tissues at L1. ChIP-Seq for H3K4me3 in mammary-epthelial cells at p13 and L1. DNase-seq in WT mammary tissues at L1 and DNase-seq in Wap-delE1a, -delE1c, and -delE3 mutant mammary tissues at L1. ChIP-seq for STAT5A, H3K27ac in WT mammary tissues at p14, ChIP-seq for STAT5A, H3K27ac in WT mammary tissues at p16, and ChIP-seq for CTCF in in WT mammary tissues at L1.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+27376239
+

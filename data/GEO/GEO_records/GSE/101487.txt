@@ -1,0 +1,18 @@
+TITLE
+A Distinct Population of Thirst-Associated Preoptic Neurons Encodes an Aversive Motivational Drive
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We FACS-isolated single thirst-associated neurons from the median preoptic hypothalamus of mice and determined their individual transcriptomes. This characterization revealed a molecularly distinct population of excitatory thirst-associated neurons that is responsible for producing thirst motivational dirve.
+
+DESIGN
+Thirst-associated cells in the preoptic hypothalamus of mice were labeled using the Fos-p2A-CreER; Ai14 reporter mouse after 48 hour water deprivation. The preoptic hypothalamus was dissociated, and individual tdTomato+ cells were sorted into 96 well plates with lysis buffer. The transcriptomes of 570 putative cells were amplified using SmartSeq2 single-cell RNA-seq (Picelli et al., 2014). Libraries were prepared using an Illumina Nextera XT following Illumina's protocols, and sequenced on an Illumina NextSeq 500. Data were processed using RSEM, and mapping directly to the ENSEMBL transcriptome, and quantified at a per-transcript level in TPM units. FASTQ files containing few reads ( < 1 MB in size for first paired-end read) were not mapped or subsequently analyzed; final dataset comprises 505 cells.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

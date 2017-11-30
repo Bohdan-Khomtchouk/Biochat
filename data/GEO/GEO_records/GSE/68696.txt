@@ -1,0 +1,18 @@
+TITLE
+Gene expression of fly testes with dMi-2, kumgang (CG5204) knock downs
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The effect of different loss of functions; kumgang (kmg or CG5204), dMi-2, and kmg and always early (aly) double on the gene expression in spermatocyte differentation was assessed by microarray. TITLE: Blocking promiscuous activation at cryptic promoters directs cell type–specific gene expression    ABSTRACT: To selectively express cell type–specific transcripts during development, it is critical to maintain genes required for other lineages in a silent state. Here, we show in the Drosophila male germline stem cell lineage that a spermatocyte-specific zinc finger protein, Kumgang (Kmg), working with the chromatin remodeler dMi-2 prevents transcription of genes normally expressed only in somatic lineages. By blocking transcription from normally cryptic promoters, Kmg restricts activation by Aly, a component of the testis-meiotic arrest complex, to transcripts for male germ cell differentiation. Our results suggest that as new regions of the genome become open for transcription during terminal differentiation, blocking the action of a promiscuous activator on cryptic promoters is a critical mechanism for specifying precise gene activation.
+
+DESIGN
+RNA was obtained from whole testes of flies with following mutations: 1) UAS-RNAi-kmg (VDRC# 107395); TM6b (kmg_Ctrl1/2.CEL), 2) UAS-RNAi-kmg (VDRC# 107395); bam-gal4, UAS-dicer2 (kmg_KD1/2.CEL), 3) UAS-RNAi-kmg(VDRC# 107395); bam-gal4, aly[2]/aly[5p] (kmg_KD_aly1/2.CEL), 4) UAS-RNAi-dMi-2 (VDRC# 107204); TM6b (dMi2_Ctrl1/2.CEL), 5) UAS-RNAi-dMi-2 (VDRC# 107204); bam-gal4, UAS-dicer2 (dMi2_KD1/2.CEL). Each genotype had two biological replicates. All experiments were done in 30C. RNA was obtained from whole testes of flies. Genotypes of flies and treatment applied to those lines are like the following: 1) w; ;bam[1]/bam[delta86] (no heat shock, 1 sample), 2) w; ;bam[1]/bam[delta86] (24 hours after 30 minutes pulse heat shock, 1 sample), 3) hs-Bam;;bam[1]/bam[delta86] (no heat shock, 2 samples), 4) hs-Bam;;bam[1]/bam[delta86] (24 hours after 30 minutes pulse heat shock, 2 samples). Flies were raised in 25C.
+
+PLATFORM
+GPL1322 [Drosophila_2] Affymetrix Drosophila Genome 2.0 Array
+
+CITATIONS
+28522526
+

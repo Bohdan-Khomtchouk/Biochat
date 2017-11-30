@@ -1,0 +1,18 @@
+TITLE
+Segmentation and intensity estimation for microarray images with saturated pixels
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Images and gpr files were examined using a novel saturation reduction method to determine whether accuracy could be improved by extending dynamic range of saturated pixels
+
+DESIGN
+Three immunosignatures from human Valley Fever (Coccidiodes) patients and three immunosignatures from human influenza vaccine recipients were examined to test an algorithm that extends the apparent dynamic range of a fluorescence image.  These images had several saturated spots at 70PMT and 100% laser power.  The program examined the differences between Valley Fever and influenza in terms of standard image processing vs. segmentation and intensity estimation.
+
+PLATFORM
+GPL14921 ASU_random-sequence peptide microarray
+
+CITATIONS
+22129216
+

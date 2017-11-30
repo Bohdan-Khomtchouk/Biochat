@@ -1,0 +1,18 @@
+TITLE
+Gene Expression and Isoform Variation Analysis using Affymetrix Exon Arrays
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background:Alternative splicing and isoform level expression profiling is an emerging field of interest within genomics. Splicing sensitive microarrays, with probes targeted to individual exons or exon-junctions, are becoming increasingly popular as a tool capable of both expression profiling and finer scale isoform detection. Despite their intuitive appeal, relatively little is known about the performance of such tools, particularly in comparison with more traditional 3’ targeted microarrays. Here, we use the well studied Microarray Quality Control (MAQC) dataset to benchmark the Affymetrix Exon Array, and compare it to two other popular platforms: Illumina, and Affymetrix U133. Results:We show that at the gene expression level, the Exon Array performs comparably with the two 3’ targeted platforms. However, the interplatform correlation of the results is slightly lower than between the two 3’ arrays. We show that some of the discrepancies stem from the RNA amplification protocols, e.g. the Exon Array is able to detect expression of non-polyadenylated transcripts. More importantly, we show that many other differences result from the ability of the Exon Array to monitor more detailed isoform-level changes; several examples illustrate that changes detected by the 3’ platforms are actually isoform variations, and that the nature of these variations can be resolved using Exon Array data. Finally, we show how the Exon Array can be used to detect alternative isoform differences, such as alternative splicing, transcript termination, and alternative promoter usage. We discuss the possible pitfalls and false positives resulting from isoform-level analysis. Conclusions:The Exon Array is a valuable tool that can be used to profile gene expression while providing important additional information regarding the types of gene isoforms that are expressed and variable. However, analysis of alternative splicing requires much more hands on effort and visualization of results in order to correctly interpret the data, and generally results in considerably higher false positive rates than expression analysis. One of the main sources of error in the MAQC dataset is variation in amplification efficiency across transcripts, which is not adequately corrected using existing statistical methods. We outline approaches to reduce such errors by filtering out potentially problematic data. This SuperSeries is composed of the SubSeries listed below.
+
+DESIGN
+Refer to individual Series.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version] GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+18990248
+

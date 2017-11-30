@@ -1,0 +1,18 @@
+TITLE
+Changes in transcript abundance for cuticular proteins and other genes three hours after a blood meal in Anopheles gambiae.
+
+ORGANISM
+Anopheles gambiae
+
+SUMMARY
+Numerous studies have examined changes in transcript levels after Anopheles gambiae takes a blood meal. Marinotti et al. (2006) used microarrays and reported massive changes in transcript levels 3 h after feeding (BF3h) compared to non-blood fed (NBF).  We were intrigued by the number of transcripts for structural cuticular proteins (CPs) that showed such major differences in levels and employed paired-end (50 bp) RNA-seq technology to compare whole body transcriptomes from 5-day-old females NBF and BF3h.  We detected transcripts for the majority of CPs (164/243) but levels of only 12 were significantly altered by the blood meal. While relative transcript levels of NBF females were somewhat similar to the microarray data, there were major differences in BF3h animals, resulting in levels of many transcripts, both for CPs and other genes changing in the opposite direction. We compared our data also to other studies done with both microarrays and RNA-seq. Findings were consistent that a small number of CP genes have transcripts that persist even in 5-day-old adults. Some of these transcripts showed diurnal rhythms (Rund et al., 2013; Rinker et al., 2013).  In situ hybridization revealed that transcripts for several of these CP genes were found exclusively or predominantly in the eye. Transcripts other than for CPs that changed in response to blood-feeding were predominantly expressed in midgut and Malpighian tubules.  Even in these tissues, genes responsible for proteins with similar functions, such as immunity or digestion, responded differently, with transcript levels for some rising and others falling. These data demonstrate that genes coding for some CPs are dynamic in expression even in adults and that the response to a blood meal is rapid and precisely orchestrated.
+
+DESIGN
+Five females 3h after the blood meal (BF3h) and non-blood fed (NBF, controls) were collected for each RNA extraction. RNA preparations were sent to HudsonAlpha where eight libraries were prepared (four replicates for each treatments) with poly-A selection and preparation of 200 bp fragments using the Illumina True-Seq RNA Sample Prep kit and analyzed with HiSEQ paired-end reads of 50 nt.
+
+PLATFORM
+GPL17644 Illumina HiSeq 2000 (Anopheles gambiae)
+
+CITATIONS
+24269292
+

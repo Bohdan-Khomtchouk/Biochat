@@ -1,0 +1,18 @@
+TITLE
+Quantitative assessment of single-cell RNA sequencing methods
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We generated single-cell transcriptomes from a large number of single cells using several commercially available platforms, in both microliter and nanoliter volumes, and compared performance between them. We benchmarked each method to conventional RNA-seq of the same sample using bulk total RNA, as well as to multiplexed qPCR, which is the current gold standard for quantitative single-cell gene expression analysis. In doing so, we were able to systematically evaluate the sensitivity, precision, and accuracy of various approaches to single-cell RNA-seq.  Our results show that it is possible to use single-cell RNA-seq to perform quantitative transcriptome measurements of individual cells, that it is possible to obtain quantitative and accurate gene expression measurements with a relatively small number of sequencing reads, and that when such measurements are performed on large numbers of cells, one can recapitulate the bulk transcriptome complexity, and the distributions of gene expression levels found by single-cell qPCR.
+
+DESIGN
+109 single-cell human transcriptomes were analyzed in total; 96 using nanoliter volume sample processing on a microfluidic platform, Nextera library prep (biological replicates); 3 using the SMARTer cDNA synthesis kit, Nextera library prep (biological replicates); 3 using the Transplex cDNA synthesis kit, Nextera library prep (biological replicates); 7 using the Ovation Nugen cDNA synthesis kit (biological replicates) where 3 used Nextera library prep and 4 used NEBNext library prep. In addition, 4 bulk RNA samples were sequenced: bulk RNA generated using ~1 million pooled cells was used to make bulk libraries, 2 of which were made using SMARTer cDNA synthesis kit (technical replicates) and 2 made using Superscript RT kit with no amplification (technical replicates). All 4 bulk samples were made into libraries using Nextera.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24141493
+

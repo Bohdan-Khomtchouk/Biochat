@@ -1,0 +1,18 @@
+TITLE
+Analysis of Unannotated Equine Transcripts Identified by mRNA Sequencing
+
+ORGANISM
+Equus caballus
+
+SUMMARY
+Sequencing of equine mRNA (RNA-seq) identified 428 putative transcripts which do not map to any previously annotated or predicted horse genes.  Most of these encode the equine homologs of known protein-coding genes described in other species, yet the potential exists to identify novel and perhaps equine-specific gene structures.  A set of 36 transcripts were prioritized for further study by filtering for levels of expression (depth of RNA-seq read coverage), distance from annotated features in the equine genome, the number of putative exons, and patterns of gene expression between tissues.  From these, four were selected for further investigation based on predicted open reading frames of greater than or equal to 50 amino acids and lack of detectable homology to known genes across species.  Sanger sequencing of RT-PCR amplicons from additional equine samples confirmed expression and structural annotation of each transcript.  Functional predictions were made by conserved domain searches.  A single transcript, expressed in the cerebellum, contains a putative kruppel-associated box (KRAB) domain, suggesting a potential function associated with zinc finger proteins and transcriptional regulation.  Overall levels of conserved synteny and sequence conservation across a 1MB region surrounding each transcript were approximately 73% compared to the human, canine, and bovine genomes; however, the four loci display some areas of low conservation and sequence inversion in regions that immediately flank these previously unannotated equine transcripts.  Taken together, the evidence suggests that these four transcripts are likely to be equine-specific.
+
+DESIGN
+Examination of 8 equine RNA samples representing 6 distinct tissues
+
+PLATFORM
+GPL10300 Illumina Genome Analyzer II (Equus caballus)
+
+CITATIONS
+23922931
+

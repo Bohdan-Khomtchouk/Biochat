@@ -1,0 +1,18 @@
+TITLE
+Serotonergic regulation of melanocyte conversion: a bioelectric network explains stochastic all-or-none hyperpigmentation
+
+ORGANISM
+Xenopus laevis
+
+SUMMARY
+Depolarization of resting membrane potential in select cells in Xenopus larvae induces striking hyperpigmentation due to dysregulation of melanocytes. Here, we show that this non-cell-autonomous process is mediated by cAMP, CREB, and the transcription factors Sox10 and Slug. Our microarray analysis reveals specific transcripts responsive to Vmem levels within a few hours of depolarization, and a set of 517 transcripts whose expression remains altered during the full hyperpigmented phenotype over a week later, linking instructor cell-depolarization to a range of developmental processes and disease states. We also show that voltage-dependent conversion of melanocytes involves the MSH-secreting melanotrope cells of the pituitary, and formulate a model for the molecular pathway linking the bioelectric properties of melanocyte cells’ microenvironment in vivo to the genetic and cellular changes induced in this melanoma-like phenotype. Remarkably, the phenotype is all-or-none: each individual animal either undergoes melanocyte conversion or not, as a whole. This group decision is stochastic, resulting in varying percentages of hyperpigmented individuals for a given experimental treatment. To understand the stochasticity and dynamic properties of this complex signaling system, we developed a novel computational method that automates the reverse-engineering of stochastic dynamic signaling models. We used this method to discover a network model that quantitatively explained our complex dataset, and even made correct predictions for new experiments that we validated in vivo. Taken together, these data (1) reveal new molecular details about a novel trigger of metastatic-like developmental cell behavior in vivo, (2) suggest new targets for biomedical intervention, and (3) demonstrate proof-of-principle of a computational method for understanding stochastic decision-making by cells during embryonic development and metastasis.
+
+DESIGN
+Gene expression analysis was performed using samples treated with ivermectin from NF stage 10 onwards, collected at two developmental stages; stage 15 (early neurula) and stage 45 (free-swimming tadpole). Embryos were collected in eppendorf tubes (N=50 for stage 15, N=5 for stage 45) and frozen at -80°C. RNA extraction and microarray analysis were performed by the Beth Israel Deaconess Medical Center Genomics and Proteomics Center (Harvard) according to standard Affymetrix protocol, using a high throughput hybridization and scanning system. Microarray hybridization was performed using the Affy 3’ IVT Express Kit. Fragmented and biotin labeled and amplified RNA was hybridized to the GeneChip® Xenopus laevis Genome 2.0 array as per manufacturer’s protocol. The Affymetrix GeneChip® X. laevis Genome 2.0 Array, has 32,400 probe sets representing more than 29,900 X. laevis transcripts.
+
+PLATFORM
+GPL10756 [X_laevis_2] Affymetrix Xenopus laevis Genome 2.0 Array
+
+CITATIONS
+26443706
+

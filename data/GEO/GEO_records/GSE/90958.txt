@@ -1,0 +1,18 @@
+TITLE
+ncRNA transcription-induced changes in nuclear architecture directs with high precision enhancer-promoter interaction
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+It is now well established that transcriptional enhancers dictate with high precision  lineage-specific programs of gene expression. However, it has remained an enigma as to  how distally located enhancers, while separated by vast genomic distances, selectively  target their cognate promoters. To explore the mechanism that underpins this  precision-directed targeting we have examined the nuclear architecture of a  super-enhancer that regulates the expression of Bcl11b. Bcl11b is a transcriptional  regulator that specifies T cell fate and suppresses T-cell malignancy. We show that in T  cell progenitors the Bcl11b super-enhancer is located at the nuclear lamina in a  transcriptionally silent environment. We found that during T cell commitment the  super-enhancer repositioned from the lamina to the transcriptionally permissive  compartment. In search for candidate factors that reposition the super-enhancer we  identified ThymoD (Thymocyte-Differentiation Factor). ThymoD expression pattern in T cell progenitors immediately precedes that of Bcl11b. We  show that ThymoD transcription is required to activate Bcl11b expression, to promote T  cell fate, and to suppress the development of T cell malignancy. We found that ThymoD  acts in cis to reposition the Bcl11b super-enhancer from the lamina to the nuclear interior.  We demonstrate that ThymoD brings the Bcl11b super-enhancer and promoter into close  spatial proximity by modulating CTCF and cohesin occupancy and chromatin folding  across the Bcl11b intergenic region. These data reveal how ncRNA transcription  modulates nuclear location and chromatin folding permitting distally located enhancers to  select with high precision their cognate promoter regions.
+
+DESIGN
+Adult hematopoietic stem cells (aHSCs) were obtained from either WT or ThymoD+/p(A) or ThymoD p(A)/p(A) bone marrow. aHSCs were cultured on OP9-DL1 stromoal cells with Flt3-L and IL7. DN2 cells were sorted by AriaII. 6 ATAC samples from in-vitro cultured DN2 cells  (duplicates, WT, ThymoD +/p(A) and ThymoD p(A)/p(A)), 6 RNAseq samples from in-vitro cultured DN2 cells  (triplicates, WT, ThymoD p(A)/p(A)), 6 SMC3 ChIP-seq samples from in-vitro cultured DN2 cells  (duplicates, WT, ThymoD +/p(A) and ThymoD p(A)/p(A)), 4 CTCF ChIP-seq samples from in-vitro cultured DN2 cells  (WT, duplicates ThymoD+/- and ThymoD p(A)/p(A)), 3 H3K4me1 ChIP-seq samples from in-vitro cultured DN2 cells  (WT, ThymoD +/p(A) and ThymoD p(A)/p(A)), 3 H3K4me3 ChIP-seq samples from in-vitro cultured DN2 cells  (WT, ThymoD+/- and ThymoDp(A)/p(A)), 3 H3.3 ChIP-seq samples from in-vitro cultured DN2 cells  (WT, ThymoD+/- and ThymoDp(A)/p(A)), 2 Hi-C samples from in-vitro cultured DN2 cells (WT and ThymoDp(A)/p(A)). This study includes a re-analysis of Hi-C samples GSM987816 and GSM987818 from GSE40173. Tag counts for the re-analyzed HiC samples and the wildtype HiC sample (GSM2418375) were normalized to the sample with lowest sequencing depth. For multipotent progenitors (GSM987816), pro-B (GSM987818) and wild-type DN2 (GSM2418375) comparisons a map resolution of 50 kb was chosen to ensure that > 80% of loci were associated with at least 1000 genomic contacts. The processed data files for the re-analyzed samples are available on the series record.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL21103 Illumina HiSeq 4000 (Mus musculus)
+
+CITATIONS
+28938112
+

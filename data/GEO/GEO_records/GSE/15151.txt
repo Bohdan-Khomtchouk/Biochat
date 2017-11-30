@@ -1,0 +1,18 @@
+TITLE
+Synthetic Lethal Interaction Between Oncogenic KRAS Dependency and Suppression of STK33 in Human Cancer Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Many human oncogenes are challenging therapeutic targets. An alternative to direct targeting of oncogenes is to perform “synthetic lethality” screens for genes that are essential only in the context of specific cancer-causing mutations. We used high-throughput RNA interference (RNAi) to identify synthetic lethal interactions in cancer cells harboring mutant KRAS, the most commonly mutated human oncogene. We find that cells that are dependent on mutant KRAS exhibit sensitivity to suppression of the serine/threonine kinase STK33 irrespective of tissue origin, whereas STK33 is not required by KRAS-independent cells. STK33 promotes cancer cell viability in a kinase activity-dependent manner by regulating the suppression of mitochondrial apoptosis mediated through S6K1-induced inactivation of the death agonist BAD selectively in mutant KRAS-dependent cells. These observations identify STK33 as a target for treatment of the broad spectrum of mutant KRAS-driven cancers, and demonstrate the potential of RNAi screens for discovering critical functional dependencies created by oncogenic mutations that may enable therapeutic intervention for cancers associated with “undruggable” genetic alterations.
+
+DESIGN
+NOMO-1 and SKM-1 acute myeloid leukemia (AML) cells were stably transduced with different pLKO.1puro lentiviral shRNA vectors targeting STK33 or a nontargeting control shRNA. VSV-G-pseudotyped lentiviral particles were produced by cotransfection of 293T cells with pLKO.1 constructs and the compatible packaging plasmids pMD.G and pCMVR8.91. Virus was harvested 48 and 72 hours after transfection, cells were incubated with lentiviral supernatants for 30 hours, and infected cells were selected with 2 µg/ml puromycin. RNA was isolated after 2 days of puromycin selection and isolation of viable cells by density gradient centrifugation, and gene expression was profiled using GeneChip Human Genome U133 Plus 2.0 microarrays (Affymetrix). Fluorescence ratios were normalized according to the RMA algorithm, and data were filtered as previously described (Bullinger et al. Blood 110:1291-300, 2007) using the BRB-ArrayTools software package. For subsequent analyses, only probe sets with a p-value for the log intensity variation of less than 0.01 were included. Average linkage clustering was used for hierarchical clustering (distance measure, correlation uncentered), and results were visualized using TreeView (Eisen et al. Proc Natl Acad Sci USA 95:14863-14868, 1998). Differentially expressed genes (p < 0.005) were identified by “class comparison analysis” for paired samples (cell line transduced with an shRNA targeting STK33 versus cell line transduced with a control shRNA) using the BRB-ArrayTools software package (Version 3.3.0 Beta_3; http://linus.nci.nih.gov/BRB-ArrayTools.html ) and R (Version 2.2.1; http://www.r-project.org ). Screening for an enrichment of genes belonging to distinct BioCarta pathways in the different gene sets was performed with the BRB Pathway Comparison tool computing several statistics, including the Fisher (LS) statistic and the Kolmogorov-Smirnov (KS) statistic. A pathway was considered differentially regulated if the significance level was less than 0.005.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19490892
+

@@ -1,0 +1,18 @@
+TITLE
+Small and large RNA sequencing of mouse livers receiving small hairpin RNAs
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Adeno-associated viral (AAV) small hairpin (shRNA) expression vectors are a promising therapeutic but can induce severe liver toxicity when delivered at high albeit undefined doses.  Using various AAV-shRNA vectors under the high-expressing U6 and low-expressing H1 promoters, we found that dose-limiting toxicity was strongly correlated with an shRNA concentration of > 12% of total microRNA levels.  Toxicity was associated with a specific reduction in the first synthesized 22nt isoform of miR-122-5p, resulting in the specific de-repression of miR-122 target mRNAs.  A causative link between miR-122 reduction and toxicity was established when an AAV-sh-miR-122 vector producing > 20% of the total liver miRNAs prevented liver toxicity.  Consistent with these results, miR-122 knockout mice, which in part adapt to an absence of miR-122 reduction, also show no toxicity with high dose AAV-shRNA delivery.
+
+DESIGN
+RNA sequencing of 12 liver samples, 2 receiving H1-shRNAs, 7 with U6-shRNAs and 3 controls; small RNA sequencing of 95 samples including 18 with CMV-driven miR-122 expression in HEK293 cells, 13 in miR-122 knockout mice, 9 samples in mice heterozygous for miR-122, 5 samples with Cre-mediate excision of miR-122, 19 samples immunoprecipitated with Ago2 and 31 additional liver samples (3 control, 11 receiving H1-shRNAs and 17 receiving U6-shRNAs).  Small RNA libraries were barcoded (first 4 nucleotides) at the 5' end and ligated to linker-1 (5'-CTGTAGGCACCATCAAT) at the 3' end.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL15520 Illumina MiSeq (Homo sapiens) GPL16417 Illumina MiSeq (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27064447
+

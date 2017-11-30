@@ -1,0 +1,18 @@
+TITLE
+Immune Cell Line Mixtures
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarray deconvolution is a technique for quantifying the relative abundance of constituent cells in a mixture based on that mixture's microarray signature and the signatures of the purified constituents.  Its ability to discriminate related human cells is unknown. Here we test the ability of this technique to determine the fractions of transformed cells of immune origin in mixed samples. Keywords: cell type comparison
+
+DESIGN
+Four immune cell lines were grown and run on microarrays either by themselves or in mixtures of various relative proportions.  Mixtures of cells were performed in triplicate. MixA (Jurkat: 2.5, IM-9: 1.25, Raji: 2.5, THP-1: 3.75) MixB (Jurkat: 0.5, IM-9: 3.17, Raji: 4.75, THP-1: 1.58) MixC (Jurkat: 0.1, IM-9: 4.95, Raji: 1.65, THP-1: 3.3) MixD (Jurkat: 0.02, IM-9: 3.33, Raji: 3.33, THP-1: 3.33)
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19568420
+

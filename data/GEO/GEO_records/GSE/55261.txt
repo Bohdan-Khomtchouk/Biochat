@@ -1,0 +1,18 @@
+TITLE
+3C-seq of HT29 cells with CCAT1-L knockdown or scramble knockdown
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+CCAT1-L is a highly expressed long noncoding RNA located in the colorectal cancer specific super enhance region about 500 kb upstream of MYC gene. Knockdown of CCAT1-L significantly down-regulated interaction frequency between CCAT1 and MYC locus and repress MYC expression, suggesting a long-range chromatin interaction between CCAT1-L and MYC locus maintained by CCAT1-L underlie the MYC regulation. To further validate this hypothesis, multiplexed 3C sequencing (3C-seq) was employed to evaluate chromatin interaction strength between CCAT1-L and MYC locus in CCAT1-L knockdown and scramble knockdown (Scr) HT29 cells.
+
+DESIGN
+The 3C-Seq design and data analysis were performed according to Stadhouders et al, Nat Protoc. 2013, 8:509-524. A series of bait sequences accommodating different locus around CCAT1-L and MYC were selected. Through integrating with specific sample barcodes, bait-specific primer sets were designed to construct relevant 3C-seq libraries in CCAT1-L knockdown and scramble knockdown (Scr) HT29 samples. All of the 3C sample libraries from different treatment, including CCAT1-L knockdown and scramble knockdown (Scr), were then pooled together for high-throughput sequencing. Two technical 3C-seq were performed (CCAT1_myc_3C_1.txt.gz and CCAT1_myc_3C_2.txt.gz) and then combined together to get enough reads for further analysis. 3C-seq reads from different samples were divided according to sample barcodes (CCAT1-L knockdown: ATGTCA; Scr: GCCAAT) and different bait sequences, and then mapped to human reference genome to assess chromatin interaction strength between CCAT1-L and MYC locus in different treatments. In our study, one representative bait-specific sequencing data (CTTCTACTGATTGGCCCTAAACACTTTTCCAAAGCTT) was select to generate bedgraph files and upload to UCSC for visualization to show the chromatin interaction between CCAT1-L and Myc locus in CCAT1-L knockdown (CCAT1-L_knockdown_out.bedgraph) and scramble knockdown (Scr_out.bedgraph) samples.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24662484
+

@@ -1,0 +1,18 @@
+TITLE
+Compendium of deletion mutant gene expression profiles, 700 responsive mutants [hs1991]
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+This dataset consists of 700 responsive mutants (four or more significant mRNA expression changes as a result of the deletion) from a gene expression profile compendium of 1,484 deletion mutants that have a role or are implicated in mRNA transcription regulation, mRNA turnover, signaling or are located in the nucleus.
+
+DESIGN
+Two channel microarrays were used. RNA isolated from a large amount of wt yeast from a single culture was used as a common reference. This common reference was used in one of the channels for each hybridization and used in the statistical analysis to obtain an average expression-profile for each deletion mutant relative to the wt. Two independent cultures were hybridized on two separate microarrays. For the first hybridization the Cy5 (red) labeled cRNA from the deletion mutant is hybridized together with the Cy3 (green) labeled cRNA from the common reference. For the replicate hybridization, the labels are swapped. Each gene is represented twice on the microarray, resulting in four measurements per mutant. Using the Erlenmeyer growth protocol up to five deletion strains were grown on a single day. In the tecan platereader, up to eleven deletion strains could be grown on a single day. Wt cultures were grown parallel to the deletion mutants to assess day-to-day variance.
+
+PLATFORM
+GPL11232 A-UMCU-Y16k-1.3
+
+CITATIONS
+24766815 , 24952590
+

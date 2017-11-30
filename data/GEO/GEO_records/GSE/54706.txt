@@ -1,0 +1,18 @@
+TITLE
+Wnt/β-catenin signaling integrates patterning and metabolism of the insect growth zone.
+
+ORGANISM
+Tribolium castaneum
+
+SUMMARY
+Purpose: Combination of systemic RNAi with RNAseq to identify target genes of important pathways in early development Wnt/β-catenin and hedgehog (Hh) signaling are essential for transmitting signals across cell membranes in animal embryos. Early patterning of the principal insect model, Drosophila melanogaster, occurs in the syncytial blastoderm, where diffusion of transcription factors obviates the need for signaling pathways. However, in the cellularized growth zone of typical short germ insect embryos, signaling pathways are predicted to play a more fundamental role. Indeed, the Wnt/β-catenin pathway is required for posterior elongation in most arthropods, although which target genes are activated in this context remains elusive. Here, we use the short germ beetle Tribolium castaneum to investigate two Wnt and Hh signaling centers located in the head anlagen and in the growth zone of early embryos. We find that Wnt/β-catenin signaling acts upstream of Hh in the growth zone, whereas the opposite interaction occurs in the head. We determine the target gene sets of the Wnt/β-catenin and Hh pathways and find that the growth zone signaling center activates a much greater number of genes and that the Wnt and Hh target gene sets are essentially non-overlapping. The Wnt pathway activates key genes of all three germ layers, including pair-rule genes, and Tc-caudal and Tc-twist. Furthermore, the Wnt pathway is required for hindgut development and we identify Tc-senseless as a novel hindgut patterning gene required in the early growth zone. At the same time, Wnt acts on growth zone metabolism and cell division, thereby integrating growth with patterning. Posterior Hh signaling activates several genes potentially involved in a proteinase cascade of unknown function.
+
+DESIGN
+10-11 h old whole embyro mRNA profiles of the following treatments: reference: wild type 100bp single read triplicates reference: wild type 50bp single read triplicates treatment: Tc-arrow RNAi knockdown 50 bp single read triplicates treatment: Tc-frizzled1/2 RNAi double knockdown 50 bp single read triplicates treatment: Tc-hedgehog RNAi knockdown 100bp single reads quadruplicates treatment: Tc-orthodenticle RNAi knockdown 100bp single reads triplicates treatment: Tc-torso RNAi knockdown 100bp single reads triplicates treatment: Tc-wntless RNAi knockdown 50bp single reads triplicates Total: 2 references, 6 treatments, 25 sequencing runs
+
+PLATFORM
+GPL18255 Illumina HiSeq 2000 (Tribolium castaneum)
+
+CITATIONS
+25395458
+

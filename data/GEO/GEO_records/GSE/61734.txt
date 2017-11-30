@@ -1,0 +1,18 @@
+TITLE
+mRNA- and RISC-sequencing of mouse hearts overexpressing miR-378a
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Rationale: MicroRNAs play key roles in hypertrophic stress responses. miR-378(-3p) is a highly abundant, cardiomyocyte-enriched microRNA whose downregulation in pressure-overload has been suggested as detrimental to the heart. Previous studies have utilized systemic anti-miR or microRNA-encoding virus administration, and thus questions regarding the cardiomyocyte-autonomous roles of miR-378 remain.  Objective: To examine whether persistent overexpression of miR-378 in cardiomyocytes alters the phenotype of the unstressed heart, whether its overexpression is beneficial or deleterious in the setting of pressure-overload, and to comprehensively identify its cardiomyocyte-specific effects on mRNA regulation.  Methods and Results: Cardiac function was compared in young (10-12 week-old) mice overexpressing miR-378 in the heart under the control of the Myh6 promoter (alphaMHC-miR-378 mice), in older (40 week-old) mice and their age-matched wild-type controls. Older alphaMHC-miR-378 mice exhibited decreased fractional shortening and modest chamber dilation with an increase in cardiomyocyte length. When subjected to pressure-overload, cardiomyocyte length was increased in young alphaMHC-miR-378 mice, but fractional shortening declined precipitously over two weeks. Transcriptome profiling of wild-type and alphaMHC-miR-378 hearts in unstressed and pressure-overload conditions revealed dysregulation of several upstream metabolic and mitochondrial genes in alphaMHC-miR-378 hearts, compromising the reprogramming that occurs during early adaptation to pressure overload. Ago2 immunoprecipitation with mRNA sequencing revealed novel miR-378 cardiac mRNA targets including Akt1 and Epac2 and demonstrated the contextual nature of previously described miR-378 targeting events.  Conclusions: Long-term upregulation of miR-378 levels in the heart is not innocuous and exacerbates contractile dysfunction in pressure-overload hypertrophy through numerous signaling mechanisms.
+
+DESIGN
+Cardiac polyadenylated RNA (mRNA) or RISC-seq (total RNA-seq of Ago2 immunoprecipitate) profiles were generated from nontransgenic and transgenic mouse hearts of FVB/N background, on Illumina HiSeq 2000 instruments.  Male mice 8-12 weeks of age were used in these studies, and subjected to sham surgery or 2 weeks of pressure-overload via transverse aortic constriction (TAC). 3 nontransgenic sham, 3 transgenic sham, 7 nontransgenic TAC, 7 transgenic TAC, each with mRNA-seq and RISC-seq data.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26553694
+

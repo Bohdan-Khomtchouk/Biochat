@@ -1,0 +1,18 @@
+TITLE
+Steady-state analysis of genes regulated by the E. coli RNA chaperone, Hfq
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+cDNA microarray analysis to identify genes regulated by the RNA chaperone, Hfq. Four experiments were performed: 1/ Hfq+ vs Hfq- strains. 269 significantly differentially regulated genes were identified by SAM (Statistical Analysis of Microarrays), of which 120 changed more than 1.5 fold (48 increased and 72 decreased in hfq-). Amongst other genes, these experiments identified significant regulation of the sigma E and sigma 32 regulons. However, only genes induced by sigma E were similarly induced in hfq-; 8 operons repressed by sigma E were not repressed in hfq-. 2/ wt vs delta rseA. RseA is the antisigma factor for sigmaE. This comparison results in elevated steady-state levels of sigma E, and confirmed induction and repression of target regulon members. 3/ hfq+ vs hfq+ rpoE overexpression. RpoE encoding sigma E was overexpressed in an hfq+ background, confirming normal regulation of the sigma E regulon. 4/ hfq+ vs hfq- rpoE overexpression. Sigma E was overexpressed in an hfq- background. This demonstrated that 8 operons normally repressed by sigma E require hfq for this repression. The simple conclusion is that sigma E regulates small RNAs that, together with Hfq, bind target mRNAs and results in their rapid degradation. This study is detailed in Guisbert et al 2007 (J Bacteriol, 189:1963-73) Keywords: Genetic modification
+
+DESIGN
+This series consists of 4 separate experiments: 1/ Hfq+ vs Hfq- strains, 8 independent replicates; 2/ wild type vs delta rseA, 7 independent replicates; 3/ hfq+ vs hfq+ rpoE induced overexpression, 3 independent replicates; 4/ hfq+ vs hfq- rpoE induced overexpression, 3 independent replicates. All strains were grown to in M9 complete until mid log. For experiments 1/ and 2/, samples were then harvested from separate cultures for comparative microarray analysis. For experiments 3/ and 4/, cultures were induced with 1 mM IPTG to induce overexpression of rpoE, and samples collected from all strains 20 min after induction.
+
+PLATFORM
+GPL2928 UCSF_Gross_Ecoli_v12.txt GPL3500 UCSF_Gross_Ecoli_v18.txt GPL4620 UCSF_Gross_Ecoli_v19.txt
+
+CITATIONS
+17158661
+

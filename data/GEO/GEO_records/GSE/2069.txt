@@ -1,0 +1,15 @@
+TITLE
+Differential expression under hypoxia in zebrafish
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+The local background was subtracted from the fluorescent value of each spot. Feature intensities were extracted from scanned microarray images using GenePix Pro 5.1. (Axon Instruments). The images were visually inspected, and spots from low-quality areas of the array were flagged and excluded from further analysis. Spots were also excluded from analysis if both the combined fluorescent intensity for both channels was less than 1.4 times that of the local background and the pixel-by-pixel correlation coefficient of the spot was less than 0.4. The fluorescence ratios were normalized as previously described (Turton and Gant oncogene 2001website). A hierarchical clustering algorithm (M. Eisen Brown and Botstein PNAS 98 website) was applied to those genes that fulfilled all of the following conditions: they were not flagged; they were differentially expressed (equal or higher than 1.5 fold upregulated or equal or lower than 2 fold downregulated); they had p-values equal or less than 0.02;  and they were consistent on at least 4 out of the 5 arrays. Keywords: repeat sample
+
+PLATFORM
+GPL1743 Zebrafish nucleotide array
+
+CITATIONS
+15994372
+

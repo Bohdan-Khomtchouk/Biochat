@@ -1,0 +1,18 @@
+TITLE
+Crizotinib inhibits metabolic inactivation of gemcitabine in ortothopic pancreatic tumors derived from primary cells with c-Met overexpression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Pancreatic ductal adenocarcinoma (PDAC) remains a major unsolved health problem. Most drugs that pass preclinical tests fail in these patients, emphasizing the need of appropriate preclinical models to test novel anticancer strategies. We developed four orthotopic mouse models employing primary human PDAC cells expressing Firefly and Gaussia luciferases, enabling bioluminescence monitoring of tumor growth and metastasis formation. Additional tumor characterization was performed using MR and high frequency ultrasound imaging. Genomic and immunohistochemical analysis revealed c-Met amplification and overexpression in one of four models. Analysis of c-Met inhibitors in vitro showed that crizotinib had the most potent effect. Moreover, we demonstrated synergistic effects between crizotinib and gemcitabine – the standard of care therapeutic in PDAC patients - in vitro and in vivo. Importantly, crizotinib reduced the cytidine deaminase activity in PDAC cells causing prolonged activity of gemcitabine due to diminished metabolic inactivation, as measured by LC-MS/MS. This might at least in part explain the observed prolonged survival of concomitantly treated mice with PDAC tumors and metastases. In conclusion, our orthotopic PDAC models enabled PDAC tumor imaging, and showed genetic, histopathological and metastatic features similar to their originator tumors. This allowed the identification of c-Met as a potential therapeutic target in PDAC, and revealed a cytidine deaminase-mediated synergistic mechanism between crizotinib and gemcitabine, a combination of drugs that warrants further investigation for the potential treatment of PDAC patients.
+
+DESIGN
+12 test samples in total [4 PDAC models (PDAC-1, PDAC-2, PDAC-3, PDAC-4; in three panel: primary human PDAC, primary tumor culture and mouse sample)] and reference sample (healthy control (mix/pool of healthy volunteers DNA) were analyzed as following (8 hybridizations); PDAC-1 primary human-Cy3 vs PDAC-4 cultured cells -Cy5 PDAC-1 cultured cells-Cy3 vs PDAC-4 mouse-Cy5 PDAC-1 mouse-Cy3 vs reference-Cy5 PDAC-2 primary human-Cy3 vs reference-Cy5 PDAC-2_cultured cells-Cy3 vs PDAC-2 mouse-Cy5 PDAC-3_primary human-Cy3 vs reference-Cy5 PDAC-3_cultured cells-Cy3 vs PDAC-3 mouse-Cy5 PDAC-4 primary human-Cy5 vs reference-Cy3 Normalized log2 ratio of (sample/references) data were calculated for 12 samples [*txt files on Series records]. Description of experimental/analysis design in r-program to generate 12 samples from 8 raw data files is provided in README.txt [Series supplementary file]
+
+PLATFORM
+GPL16694 Agilent-022522 SurePrint G3 CGH array 4X180K (Probe Name version)
+
+CITATIONS
+24085787
+

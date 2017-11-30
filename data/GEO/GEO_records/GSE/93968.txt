@@ -1,0 +1,18 @@
+TITLE
+Proximal methylation features associated with nonrandom changes in gene body methylation
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Gene body methylation at CG dinucleotides is a widely conserved feature of methylated genomes, but remains poorly understood. The A. thaliana strain Cvi has depleted methylation in gene bodies relative to the common reference strains Col and Ler. This naturally occurring hypomethylated strain offers the opportunity to improve understanding of the function and heritablity of genic CG methylation. We bisulfite-sequenced 10 recombinant inbred lines derived from a cross between Col and Cvi, as well as both parent lines, and examined the transmission of the different Col- and Cvi-derived gene body methylation states in these lines. We found that the majority of CG methylation polymorphisms were faithfully transmitted over nine generations according to the parental genotype in the RILs, with only 1-4% of CGs failing to maintain the parental methylation state. We found no evidence to suggest that these differences in gene body methylation led to changes in gene expression. However, we found that sites that fail to maintain the parental methylation state are nonrandom and are associated with intermediate levels of CG methylation and high methylation variability across many A. thaliana strains. These results provide new insights into the features determining the inheritance of gene body methylation and demonstrate that two different methylation equilibria can be maintained within single individuals.
+
+DESIGN
+Examination of DNA methylation and gene expression in the wild-type A. thaliana strains Col and Cvi as well as in 10 Col/Cvi recombinant inbred lines (RIL) at the F9 generation. High-throughput whole-genome bisulfite-sequencing was used to examine DNA methylation and identify differences between RIL and parent lines, while poly-A-selected mRNA-seq was used to evaluate differences in gene expression. Bisulfite sequencing samples are designated BSseq_{strain}_N, where strain = col, cvi, or a number indicating the RIL line number (e.g. 8, 124 etc.). N = the replicate # (either 1 or 2). Similar naming for RNA-seq samples but with prefix RNAseq_* instead of BS_seq_*. Creation of the RILs is described in Simon et al., Genetics 178:2253-2264 (2008).
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+28446217
+

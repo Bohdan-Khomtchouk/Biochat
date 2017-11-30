@@ -1,0 +1,18 @@
+TITLE
+Human beta cell proliferation induced by inhibition of Dyrk1a and GSK3b
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Purpose: Single-cell whole transcriptome sequencing was used to better understand the mechanism of action of our Dyrk1a inhibitor's proliferation of pancreatic islets. Methods: primary pancreatic islets were isolated, cultured, and stimulated with either 0.1% DMSO or 3 µM GNF4877.  Single cells were captured and cDNA isolated on a Fluidigm C1 instrument.  Sequencing libraries were made with Nextera XT reagents (Illumina) and single-end 50 bp reads were generated on an Illumina HiSeq 1000.  Reads were mapped to the rat transcriptome. Results:  Consistent with GNF4877 eliciting beta cell proliferation, we observed an increase in the number of beta cells co-expressing insulin 1 and genes involved in cell cycle including the M phase marker Cyclin B1. Comparison of Cyclin B1 expressing cells from GNF4877-treated islets to beta cells from DMSO-treated islets further revealed a significant increase expression of genes associated with full cell cycle progression and enrichment of Gene Ontology (GO) categories for proliferation. Conclusions:  Since only a small subset of islet cells proliferate when stimulated with GNF4877, single-cell transcriptome sequencing allowed us to examine expression of genes co-regulated with known proliferation markers and will hopefully allow us to characterize beta cell subsets which are responsive to proliferation-associated therapies.
+
+DESIGN
+84 GNF4877-treated and 86 DMSO-treated rat islet cells containing greater than 100,000 mapped sequencing reads per cell and having a single verified cell per port were compared
+
+PLATFORM
+GPL18469 Illumina HiSeq 1000 (Rattus norvegicus)
+
+CITATIONS
+26496802
+

@@ -1,0 +1,18 @@
+TITLE
+Effect of the global regulators RpoS and cyclic-AMP/CRP on the transcriptome of Escherichia coli K12 during  carbon- and energy-limited growth
+
+ORGANISM
+Escherichia coli K-12
+
+SUMMARY
+The faecal indicator bacterium Escherichia coli K12 was used to study the effects of the global regulators RpoS and cAMP at the transcription level using microarray technology during short-term (physiological) adaptation to slow growth under limited nutrient supply. Effects due to the absence of one global regulator were assessed by comparing the mRNA levels isolated from rpoS or cya mutants under glucose-limited continuous culture at a dilution rate of 0.3 h-1 for the rpoS mutant or 0.16 h-1 for the cya mutant with those from wt E. coli grown under the same conditions.
+
+DESIGN
+Wild-type Escherichia coli K12 MG1655 (ATCC 700926), E. coli delta-rpoS (MG1655 delta-rpoS::Tn10; Wick et al. (2002)) and AMS2 (MG1655 delta-cya-854; Schultz et al. (1988)) were grown at 37°C in mineral medium. Steady-state with respect to optical density was reached approximately 20 hours after switching on the medium feed. Samples for catabolic pathway assays and transcriptome analysis were taken 40 hours after switching to the continuous culture mode, and each experiment was done in triplicate. 800 ml of culture liquid was withdrawn from the chemostat, immediately cooled down on crushed ice and cells were collected by centrifugation at 4°C. Total RNA from E. coli cells was isolated (Sambrook et al., 1989). RNA in samples was quantified spectrophotometrically by measuring extinction at 260 nm, and purity (free from DNA) was checked by gel electrophoresis. Synthesis of cDNA from RNA was performed with the CyScribe First-Strand cDNA Labelling Kit (Amersham Bioscience, Little Chalfont, England). The purified cDNA was concentrated to 5 ul and was mixed with 120 ul of hybridization buffer (MWG-Biotech AG), heated to 95°C for 3 min and cooled down on ice for 3 min. The hybridization mixture was then added to the microarray slide and covered with a coverslip. The hybridization slide was incubated overnight at 42°C. After the hybridization step, the slide was washed three times, the first time for 5 min in 2x (times concentrated) SSC - 0.1 % SDS, the second time for 5 min in 1x SSC, and finally for 5 min in 0.1x SSC. SSC buffer was prepared as 20x solution containing 0.3M Na-citrate and 3M NaCl at pH 7.0. The slides were dried by centrifugation at room temperature for 2 min at 500g. Microarray slides were scanned using the Affymetrix 428TM Array Scanner (High Wycombe, UK). Spot intensities and corresponding background signals were quantified with the Affymetrix JaguarTM software version 2.0. Further data analysis was performed with the program GeneSpring from Silicon Genetics (Redwood City, USA). Induction factors were calculated from the Cy3 and Cy5 signal intensities of the spot. Spots with signal intensity below a value of 50 were excluded from the analysis and the minimal induction factor was set to 0.01. The normalization was performed with the 50th percentile distribution of remaining spots after background correction. The mean value of the induction factors of a specific gene was calculated from three replicates. Biological experiments were carried out three times, which provided three biological repeats. Data from the independent experiment were combined, genes that were differently regulated ≥3 and ≤-3 (t-test, p ≤ 0.2) were defined as being statistically significant.
+
+PLATFORM
+GPL534 MWG E. coli K12 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

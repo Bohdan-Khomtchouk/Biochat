@@ -1,0 +1,18 @@
+TITLE
+mTORC1 and -2 Coordinate Transcriptional and Translational Reprogramming in Resistance to DNA Damage and Replicative Stress in Breast Cancer Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+mTOR coordinates growth signals with metabolic pathways and protein synthesis and is hyperactivated in many human cancers. We have characterized the coordinated mTORC1 and -2 transcription and translation response using genome-wide translatome and transcriptome profiling on cells inhibited in mTORC1/2 with PP242 or only mTORC1 with RAD001, with or without concurrent IR. In this dataset, we include the expression data obtained from SUM149 cells treated with RAD001 + IR, RAD001, PP242+IR, PP242, IR, DMSO.  We include both total (transcriptional) data as well as polysome arrays.  These data are used to obtain differentially expressed genes in all treatments compared to DMSO in both polysome and transcriptional data.
+
+DESIGN
+35 samples were analyzed.  We examined the following comparisons using Limma with a p-value < 0.05, log fold-change > 1.5: PP242 vs. DMSO, PP242+IR vs. DMSO, RAD001 vs DMSO, RAD001 + IR vs DMSO, IR vs DMSO in polysome samples, total sampes, and using translational efficiency.
+
+PLATFORM
+GPL17586 [HTA-2_0] Affymetrix Human Transcriptome Array 2.0 [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

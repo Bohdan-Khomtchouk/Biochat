@@ -1,0 +1,18 @@
+TITLE
+mRNA Content of Human Sperm
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BACKGROUND: In previous studies using candidate gene approaches, low sperm count (oligospermia) has been associated with altered sperm mRNA content and DNA methylation in both imprinted and non-imprinted genes. We performed a genome-wide analysis of sperm DNA methylation and mRNA content to test for associations with sperm function. METHODS AND RESULTS: Sperm DNA and mRNA were isolated from 21 men with a range of semen parameters presenting to a tertiary male reproductive health clinic.  DNA methylation was measured with the Illumina Infinium array at 27,000 CpG loci.  Unsupervised clustering of methylation data differentiated the 21 sperm samples by their motility values. Recursively partitioned mixture modeling (RPMM) of methylation data resulted in four distinct methylation profiles that were significantly associated with sperm motility (P=0.01).  Linear models of microarray analysis (LIMMA) was performed based on motility and identified 9,189 CpG loci with significantly altered methylation (Q < 0.05) in the low motility samples, with many loci located in genes associated with subfertility and epigenetic regulation. In the low motility samples, the majority of disrupted CpG loci (80%) were hypomethylated.  Of the aberrantly methylated CpGs, 194 were associated with imprinted genes almost equally distributed into hypermethylated (predominantly paternally expressed) and hypomethylated (predominantly maternally expressed) groups. Sperm mRNA was measured with the Human Gene 1.0 ST Affymetrix GeneChip Array. LIMMA analysis based on motility identified 20 candidate transcripts as differentially expressed in low motility sperm, including HDAC1 (NCBI 3065), SIRT3 (NCBI 23410), and DNMT3A (NCBI 1788).  Altered expression of these epigenetic regulatory genes was associated with RPMM DNA methylation class. CONCLUSIONS:  Using integrative genome-wide approaches to study epigenetic and gene expression patterns in human sperm we identified CpG methylation profiles and mRNA alterations associated with low sperm motility, and that low motility sperm may have aberrant genome-wide hypomethylation due to excess HDAC1 activity.
+
+DESIGN
+See " summary " above
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+21674046
+

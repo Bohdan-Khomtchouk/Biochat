@@ -1,0 +1,18 @@
+TITLE
+Gene expression analysis of human seminoma samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: The aim of the present study was to examine the biological differences between seminomas with occult and clinically apparent metastases at the time of diagnosis of the primary tumor to gain insight into the biology of these tumors and facilitate the identification of novel predictors of seminoma metastasis. Materials and Methods: Total RNA including small RNAs was isolated from testicular tumors of patients with pure seminoma presenting with lymphogenic metastasis (n=5, clinical stage IIb/c) and occult metastasis (n=5, clinical stage I). The regulation of biological processes was examined (1) throughout the mRNA transcriptome (whole genome microarrays, 8x60K Array, Agilent and 4 samples per group) and (2) the miRNA transcriptome employing small RNA next generation sequencing (SOLID, Life Technologies). Protein coding genes (mRNAs) and small RNAs showing a significant ( > 2-fold) difference between the groups were identified. Finally (3), we examined 95 candidate miRNAs in 36 apparent metastasized and another 5 occult metastasized seminoma using logistic regression analysis. Results: Among 19,596 genes, on average 12,894 mRNAs appeared expressed (65.8%, SD +/- 2.4; range, 62.0–69.3%) and 16.99×106/13.94×106 small RNA reads were identified for apparent/occult metastasized seminoma. These reads on average convert into 9,901/9,675 small RNAs including 422/404 mature microRNAs. None of these mRNAs/small RNAs met our selection criteria for candidate genes. From 95 candidate miRNAs 44 appeared expressed, with 3 of them showing weak but significant (p=0.047-0.049) differences among both groups. Conclusions: Occult and apparent metastasized seminomas are biologically almost indistinguishable and probably represent no separate tumor entities. These findings may simplify future research on seminoma metastasis.
+
+DESIGN
+Regarding the genome-wide expression profiling we analyzed gene expression changes in human seminoma samples with occult or lymphatic metastasis using Agilent SurePrint G3 Human Gene Expression 8x60K v2 Microarrays in 8x60K format in combination with a one-color based hybridization protocol. Microarray signals were detected using the Agilent DNA Microarray Scanner. Differential RNA expression was assessed by applying appropriate biostatistics to the data set. GeneSpring GX12.6 analysis software was used to normalize and analyze the raw data. Different filtering approaches were applied to identify up- and downregulated transcripts in the comparisons of interest. Identified differentially expressed genes were further characterized for their involvement in biological pathways and processes based on the Panther database. For mRNA transcriptome analysis we used 4 samples per group. Only significant and > 2-fold differences in gene expression between the two groups were considered for comparisons, and unadjusted p-values and those adjusted for multiple comparisons (false discovery rate) were calculated. All gene candidates underwent gene set enrichment analyses using PANTHER pathway software ( http://www.pantherdb.org/ ), which groups genes with similar biological functions based on their annotation.
+
+PLATFORM
+GPL17077 Agilent-039494 SurePrint G3 Human GE v2 8x60K Microarray 039381 (Probe Name version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

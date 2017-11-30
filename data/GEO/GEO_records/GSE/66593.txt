@@ -1,0 +1,18 @@
+TITLE
+Epigenomic landscapes of human inflammation associated macrophages [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We previously demonstrated by genomic and bioinformatical approaches that human macrophage (MΦ) activation is best described by a spectrum model (Xue et al, Immunity, 2014). MΦ integrate exogenous input signals on transcriptional level in a unique fashion to generate specific functional programs, enabling the plasticity in disease-related pathophysiologies. Such versatile responsiveness requires fast changes of transcription mediated by transcriptional regulators (TRs) or epigenomic changes. To better understand the principles of this regulation during human MΦ activation, we assessed histone modifications including H3K4me1, H3K4me3, H3K27me3, and H3K27Ac by ChIP-sequencing allowing us to characterize the functional state of promoters (active, poised, repressed) and enhancers (active, inactive, intermediate). Using transcriptome data from our MΦ spectrum model, we generated a co-regulation network of all TRs. Next, we overlaid epigenomic information and transcriptional changes of major TRs over time onto the TR network. We observed that input signals like IFNγ or TNFα induce a specific network of TRs that are transcriptionally regulated themselves, the combination of regulated TRs changes over time with a boost of transcriptional regulation of dozens of TRs 4 to 12 hrs post input signal exposure, almost all TRs within the network show active promoters, even if the TR itself is not expressed, and similar results are obtained for enhancers with open or at least intermediated states. These findings strongly suggest that in MΦ, the TR-defined cellular ‘switch panel’ is always accessible thereby allowing MΦ to quickly respond to the diverse input signal repertoire from the environment.
+
+DESIGN
+Epigenetic analysis of promoter and enhancer sites in primary human macrophage subtypes and correlation to RNA-seq expression data
+
+PLATFORM
+GPL15456 Illumina HiScanSQ (Homo sapiens)
+
+CITATIONS
+26729620
+

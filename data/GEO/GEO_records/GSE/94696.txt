@@ -1,0 +1,18 @@
+TITLE
+POLR3G Dependent PolyA+ and smallRNA Transcriptomes in Human Pluripotent Stem Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+POLR3G is expressed at high levels in human pluripotent stem cells (hPSCs) and is required for maintenance of stem cell state through mechanisms, which are not known in detail. In order to explore how POLR3G regulates stem cell state, we have carried out deep sequencing analysis of polyA+ and smallRNA transcriptomes present in hPSCs and regulated in POLR3G dependent manner. Our data reveals that POLR3G regulates a specific subset of the hPSC transcriptome, including multiple transcripts types, such as protein coding genes, lincRNAs, miRNAs and snoRNAs. The primary function of POLR3G is in the maintenance rather than repression of transcription. The majority of POLR3G polyA+ transcriptome is regulated during differentiation and the key pluripotency factors bind to the promoters of at least 30 % of the POLR3G regulated transcripts. The POLR3G transcriptome is functionally linked to embryonic development and important tasks in cellular maintenance and function. #!/bin/bash
+
+DESIGN
+Transcriptome profiles of wild type and POLR3G siRNA knockdown hESC samples, in replicate and Chip-seq with antibodies for H3K4me3, POLR3G, and Input, in replicate.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL21290 Illumina HiSeq 3000 (Homo sapiens)
+
+CITATIONS
+28494942
+

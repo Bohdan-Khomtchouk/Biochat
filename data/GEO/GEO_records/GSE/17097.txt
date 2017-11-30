@@ -1,0 +1,18 @@
+TITLE
+mRNA composition of IRP2 mRNPs in mouse tissues
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Affymetrix microarrays were used to determine the mRNA composition of mRNPs obtained by immunoprecipitation with IRP2 (iron regulatory protein 2).
+
+DESIGN
+Reference Sanchez at al., 2007 Nat. Protoc. Affymetrix microarrays were used to determine the mRNA composition of mRNPs obtained by immunoprecipitation with IRPs (iron regulatory proteins). In brief, total RNA was extracted from the reported tissue of four to six C57BL6/J mice using Trizol reagent. mRNA from duodenum, liver and spleen were extracted from mice fed with an iron poor diet ( < 10mg/kg, Altromin Spezialfutter GmbH & Co, Lage, Germany) for 21 days starting from weaning age. mRNAs from bone marrow and brian were extracted from mice (8-10 weeks old) fed with an iron-normal diet. For each tissue, the RNA samples were pooled and the immunoprecipitations were carried out combining 50 µg of total RNA with purified recombinant His-tagged IRP2  produced in E.coli and a mouse monoclonal anti-His tag antibody.  A control reaction in which the recombinant IRP2 was omitted was performed in parallel (referred with the word “control” in the title). All the microarray procedures were conducted at  the EMBL Genomics Core Facility using standard Affymetrix protocols.  In brief, approximately 120ng of immunoprecipitated RNA was used as input to a two-step amplification procedure to generate biotin-labeled RNA fragments for hybridization to the Affymetrix GeneChip Mouse Genome 430 2.0 array (Eukaryotic Sample and Array Processing manual 701024 Rev.3). Intensity values for the hybridizations were obtained either using RMA, calculations done in bioconductor  (www.bioconductor.org) or MAS5, calculated using Affymetrix GCOS package. MAS5 calculated intensities were further quantile normalized using bioconductor.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+17703216 , 21940823
+

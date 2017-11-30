@@ -1,0 +1,18 @@
+TITLE
+Specification of innate type-2 lymphocytes by the transcriptional determinant Gfi1
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Innate type-2 lymphoid cells (ILC2s) function in immune responses against helminth parasites and are implicated in allergic inflammation and asthma. ILC2s are activated by the epithelial-derived cytokines IL-33 and IL-25 and are major sources of the type-2 cytokines IL-5 and IL-13. We show that the transcription factor Gfi1 promotes the generation of ILC2s and controls their responsiveness during Nippostrongylus brasiliensis infection as well as IL-33- or IL-25-instigated inflammation. Gfi1 directly activates Il1rl1, which encodes the IL-33 receptor. IL- 33 signaling upregulates Gfi1, thereby constituting a positive feedback loop that enables rapid and robust expansion of ILC2s in response to IL-33 signaling. Loss of Gfi1 in activated ILC2s results in an unusual effector state involving derepression of the IL-17 inflammatory program and co-expression of IL-13 with IL-17. ChIPseq reveals key Gfi1 targeted genes that are activated or repressed to maintain ILC2 identity. We propose that Gfi1 functions as a shared determinant within innate and adaptive immune cells to specify type-2 responses, while actively repressing the IL-17 effector state.
+
+DESIGN
+ILC2s (~3 x 10^7 cells) were sorted from the MLN of IL-25-treated mice. Chromatin fragments bound by Gfi1 were subject to ChIP using Gfi1 antibodies and followed by high-throughput sequencing.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+24141388
+

@@ -1,0 +1,18 @@
+TITLE
+A Network Approach of Gene Co-Expression in the Zea mays/Aspergillus flavus Pathosystem to Map Host/Pathogen Interaction Pathways
+
+ORGANISM
+Zea mays ; Aspergillus flavus
+
+SUMMARY
+A gene co-expression network was generated using a dual RNA-seq study with the fungal pathogen A. flavus and its plant host Z. mays during the initial 3 days of infection. The analysis deciphered novel pathways and mapped genes of interest in both organisms during the infection.  This network revealed a high degree of connectivity in many of the previously recognized pathways in Z. mays such as jasmonic acid, ethylene, and reactive oxygen species (ROS).  For the pathogen A. flavus, a link between aflatoxin production and vesicular transport was identified within the network.  There was significant interspecies correlation of expression between Z. mays and A. flavus for a subset of 104 Z. mays, and 1942 A. flavus genes.  This resulted in an interspecies subnetwork enriched in multiple Z. mays genes involved in the production of reactive oxygen species.  In addition to the ROS from Z. mays, there was enrichment in the vesicular transport pathways and the aflatoxin pathway for A. flavus. Included in these genes, a key aflatoxin cluster regulator, AflS, was found to be co-regulated with multiple Z. mays ROS producing genes within the network, suggesting AflS may be monitoring host ROS levels. The entire gene expression network for both host and pathogen, and the subset of interspecies correlations, is presented as a tool for hypothesis generation and discovery for events in the early stages of fungal infection of Z. mays by A. flavus.
+
+DESIGN
+Maize B73 was grown in Clayton, NC during the years 2011 and 2013.  Seeds were planted on April 16.  Ears were hand pollinated from July 5-8 and covered with a paper bag. On July 23, a time course study was performed by pin bar inoculating one ear (per time point) of maize B73 with A. flavus NR3357 and harvesting at 0, 6, 12, 18, 24, 30, 36, 42, 48 and 72 hours post inoculation.  Biological replicates were done for samples 12,24,48,72 hours post inoculation.  Samples were frozen in liquid nitrogen, placed on dry ice and stored at -80°C until RNA was isolated.
+
+PLATFORM
+GPL22349 Illumina HiSeq 2000 (Aspergillus flavus; Zea mays)
+
+CITATIONS
+27917194
+

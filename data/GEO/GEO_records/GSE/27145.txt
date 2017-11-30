@@ -1,0 +1,18 @@
+TITLE
+Prospective comparison of genome-wide aCGH platforms for the detection of CNVs in MR (GenomeWideSNP_6)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Clinical laboratories are adopting array comparative genomic hybridization (AGH) as a standard clinical test. A number of whole genome AGH systems are available, but little is known about the comparative performance in a clinical context.  We prospectively studied 30 children with idiopathic MR and both unaffected parents of each child using Affymetrix 500K GeneChip SNP arrays, Agilent Human Genome 244K oligonucleotide arrays and NimbleGen 385K Whole-Genome oligonucleotide arrays. We determined whether CNVs called on these platforms were detected by Illumina Hap550 beadchips or SMRT 32K BAC whole genome tiling arrays and tested 15 of the 30 trios on Affymetrix 6.0 SNP array.  The Affymetrix 500K, Agilent and NimbleGen platforms identified 3061 autosomal and 117 X chromosome CNVs in 30 trios. 147 of these CNVs were de novo, but only 33 (22%) of the de novo CNVs were found on more than one platform. Performing genotype-phenotype correlations, we identified 7 pathogenic and 4 possibly pathogenic CNVs for MR. All 11 of these CNVs were detected by both the Agilent and NimbleGen arrays, 9 by the Affymetrix 500K and Illumina beadchips, and 5 by the SMRT BAC array. Two of the 4 pathogenic or possibly pathogenic CNVs present in the trios tested with the Affymetrix 6.0 array were identified.   Our findings demonstrate that different results are obtained with different AGH platforms and illustrate the trade-off that exists between sensitivity and specificity. The large number of apparently false positive CNV calls supports the need for validating clinically important findings with a different methodology.
+
+DESIGN
+15 trios were analysed consisting of child (proband) and both normal parents. We performed separate hybridizations for the mother, father, and child and then performed pair-wise comparisons of the normalized hybridization intensities for the child to the mother and of the child to the father in silico.
+
+PLATFORM
+GPL6801 [GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array
+
+CITATIONS
+21439053
+

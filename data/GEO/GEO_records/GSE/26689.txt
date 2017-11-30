@@ -1,0 +1,18 @@
+TITLE
+Analysis of the Saccharomyces cerevisiae Pan-Genome Reveals a Pool of Copy Number Variants Distributed in Diverse Yeast Strains From Differing Industrial Environments.
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We created a multi-species microarray platform, containing probes to the whole genomes of seven different Saccharomyces species, with very dense coverage (one probe every ~500 bp) of the S. cerevisiae genome, including non-S288c regions, mitochondrial and 2 micron circle genomes, plus probes at fairly dense coverage (one probe every ~2,100 bp) for each of the genomes of six other Saccharomyces species:  S. paradoxus, S. mikatae, S. kudriavzevii, S. bayanus, S. kluyveri and S. castellii.  We performed array-Comparative Genomic Hybridization (aCGH) using this platform, examining 83 different Saccharomyces strains collected across a wide range of habitats; of these, 69 were widely used commercial S. cerevisiae wine strains, while the remaining 14 were from a wide range of other industrial and natural habitats.  Thus, we were able to sample much of the pan-genome space of the Saccharomyces genus.  We observed interspecific hybridization events, introgression events, and pervasive copy number variation (CNV) in all but a few of the strains.  These CNVs were distributed throughout the strains such that they did not produce any clear phylogeny, suggesting extensive mating in both industrial and wild strains.  To validate our results and to determine whether apparently similar introgressions and CNVs were identical by descent or recurrent, we also performed whole genome sequencing on nine of these strains.  These data may help pinpoint genomic regions involved in adaptation to different industrial milieus, as well as shed light on the course of domestication of S. cerevisiae.
+
+DESIGN
+Control arrays of the following types are included in the dataset:  (1) " Self-self " hybridizations (called " Self cntrl " in the dataset), where the reference DNA mix was labeled with either Cy3 or Cy5 (in separate reactions) and then mixed and hybridized. (2) Reference sub-pool hybridizations: the mix of 6 non-cerevisiae strains' DNA was labeled with Cy5, mixed with the final Reference pool (labeled in Cy3) and hybridized (called " OtherSppCompletePool " control) or the mix of 42 S. cerevisiae strains' DNA was labeled with Cy5, mixed with the final Reference pool (labeled in Cy3) and hybridized (called " Scer only ref pool " ) (3) Single Saccharomyces species hybridizations, where each of the 6 non-cerevisiae species, and also the S288c S. cerevisiae lab strain, was labeled with Cy5, mixed with the final Reference pool (labeled in Cy3) and hybridized (these arrays are called by the strain number followed by the species nickname).  Four separate replicates of the self-self hybridizations were performed, and duplicate arrays (done on different days using different DNA preparations) were performed for three of the wine strains: GSY2175, GSY2176 and GSY2196.
+
+PLATFORM
+GPL11575 Agilent 024417 Saccharomyces bayanus and Saccharomyces cerevisiae (SMD Print_1667)
+
+CITATIONS
+22369888
+

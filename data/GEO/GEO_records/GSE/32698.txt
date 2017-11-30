@@ -1,0 +1,18 @@
+TITLE
+Genome-wide DNA methylation analysis reveals novel epigenetic changes in chronic lymphocytic leukemia
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We conducted a genome-wide DNA methylation analysis in CD19+ B-cells from CLL patient and normal control samples using reduced representation bisulfite sequencing (RRBS). The methylation status of 1.8-2.3 million CpGs in the CLL genome was determined; about 45% of these CpGs were located in more than 23,000 CpG islands (CGIs). While global CpG methylation was similar between CLL and normal B-cells, 1764 gene promoters were identified as being differentially methylated between the two groups. Aberrant hypermethylation was found in all HOX gene clusters and a significant number of WNT signaling pathway genes. The genes that were frequently hypermethylated were typically associated with histone H3 lysine 27 tri-methylation or bivalent domains in normal B-cells. An additional 152 genes were found to be differentially methylated between normal naïve and memory B-cells. Of these 152 genes, 123 were hypomethylated in memory B-cells when compared to naïve B-cells. Overall, CLL B-cells had methylation patterns more similar to memory B-cells than naïve B-cells. Cluster analysis showed that the tissue-specific methylated genes separated CLL samples into two groups with differential ZAP70 methylation status. Hypomethylation occurred more frequently in the gene body including introns, exons, and 3'-UTRs in CLL. The hypomethylation in the NFATc1 P2 promoter and first intron correlated with up-regulation of both NFATc1 RNA and protein expression levels in CLL suggesting that an epigenetic mechanism is involved in the constitutive activation of NFAT activity in CLL cells. This comprehensive DNA methylation map will further our understanding of the epigenetic contribution to cellular dysfunction in CLL.
+
+DESIGN
+To perform a genome-wide analysis of DNA methylation in CLL, we applied the Reduced Representation Bisulfite Sequencing (RRBS) to CD19+ B-cells isolated from normal control and CLL peripheral blood samples.  The genomic DNA from each sample was digested with the methylation-insensitive restriction enzyme MspI (restriction site, CCGG) and ligated to Illumina sequencing adaptors containing methylated cytosine residues. The ligated MspI fragments were size-selected, treated with sodium bisulfite, and amplified by PCR. The PCR products were purified and sequenced using Illumina GAIIx sequencer with a read length of 52 or 76bp.  11 CLL B-cell samples, 3 normal control samples including one each of normal CD19+, CD19+/ IgD+ naïve, and CD19+/CD27+ memory B-cell sample and three CLL cell lines (Mec-1, Mec-2, and Wac-3) were used. We generated 20-30 million Illumina sequencing reads for each sample.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+22534504
+

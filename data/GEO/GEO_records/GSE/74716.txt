@@ -1,0 +1,18 @@
+TITLE
+SMARCA4 regulates gene expression and higher-order chromatin structure in proliferating mammary epithelial cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The packaging of DNA into chromatin plays an important role in transcriptional regulation and nuclear processes. Brahma related gene-1 SMARCA4 (also known as BRG1), the essential ATPase subunit of the mammalian SWI/SNF chromatin remodeling complex, uses the energy from ATP hydrolysis to disrupt nucleosomes at target regions. Although the transcriptional role of SMARCA4 at gene promoters is well-studied, less is known about its role in higher-order genome organization. SMARCA4 knockdown in human mammary epithelial MCF-10A cells resulted in 176 up-regulated genes, including many related to lipid and calcium metabolism, and 1292 down-regulated genes, some of which encode extracellular matrix (ECM) components that can exert mechanical forces and affect nuclear structure. ChIP-seq analysis of SMARCA4 localization and SMARCA4-bound super-enhancers demonstrated extensive binding at intergenic regions. Furthermore, Hi-C analysis showed extensive SMARCA4-mediated alterations in higher-order genome organization at multiple resolutions. First, SMARCA4 knockdown resulted in clustering of intra- and inter- sub-telomeric regions, demonstrating a novel role for SMARCA4 in telomere organization. SMARCA4 binding was enriched at TAD (Topologically Associating Domain) boundaries, and SMARCA4 knockdown resulted in weakening of TAD boundary strength. Taken together, these findings provide a dynamic view of SMARCA4-dependent changes in higher-order chromatin organization and gene expression, identifying SMARCA4 as a novel component of chromatin organization.
+
+DESIGN
+Hi-C and RNA-seq  experiments were conducted in MCF-10A shSCRAM and shSMARCA4 cells.  SMARCA4 ChIP-seq was conducted in wildtype MCF-10A cells.  Hi-C was performed by using the HindIII restriction enzyme.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27435934
+

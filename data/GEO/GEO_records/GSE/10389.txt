@@ -1,0 +1,18 @@
+TITLE
+Identification of Stat5 Target Genes by siRNA-mediated knockdown
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+STAT5A and STAT5B proteins belong to the family of signal transducers and activators of transcription. They are encoded by 2 separate genes with 91% identity in their amino acid sequences. Despite their high degree of conservation, STAT5A and STAT5B exert non-redundant functions, resulting at least in part from differences in target gene activation. To better characterize the differential contribution of STAT5A and STAT5B in gene regulation, we performed single or double knock-down of STAT5A and STAT5B using small interfering RNA. Subsequent gene expression profiling and RT-qPCR analyses of IL-3-stimulated Ba/F3-beta cells led to the identification of putative novel STAT5 target genes. Chromatin immunoprecipitation assays analyzing the corresponding gene loci identified unusual STAT5 binding sites compared to conventional STAT5 responsive elements. Some of the STAT5 targets identified are upregulated in several human cancers, suggesting that they might represent potential oncogenes in STAT5-associated malignancies. Keywords: siRNA-mediated knock-down
+
+DESIGN
+Ba/F3-beta cells transfected with either control (scramble I) or Stat5A and Stat5B siRNAs were stimulated with IL-3 for either 30 minutes or 2 hours.  Unstimulated Ba/F3-beta cells transfected with scramble I siRNA were used as a control. Total RNA was isolated using the RNeasy Maxi kit, including an on-column DNase I treatment to eliminate genomic DNA contamination, according to the manufacturer’s protocol (Qiagen, Valencia, CA). DNase-treated total RNA (5 µg) was synthesized into biotinylated cRNA probe using one-cycle target labeling and IVT labeling (Affymetrix, Inc., Santa Clara, CA) according to manufacturer’s instructions. Fifteen µg of biotinylated cRNA probe from each sample was hybridized onto murine U74A, U74B, U74C Affymetrix Microarray chips. The hybridized chips were then washed using the Affymetrix GeneChip Fluidics 400 station and scanned in the Affymetrix GeneChip Scanner 3000 (Affymetrix, Inc., Santa Clara, CA) according to manufacturer’s instructions.  The quality of cRNA probe synthesis and efficiency of hybridization was analyzed in the GeneChip Operating System for each Affymetrix chip once scanning was complete. Microarray data were normalized using MAS5 and then analyzed using the Genespring (Agilent, Palo Alto, CA). Out of the 36,767 genes, 14,553 passed our noise and P/M/A call filters. Genes were further selected for being stimulated at least 2-fold by IL-3 after 30 minutes (164 genes) and 2 hours (553 genes) stimulation compared to the unstimulated cells (ScI-transfected cells). Then, IL-3 induced genes that were down-regulated at least 2-fold in the STAT5A/B siRNA-transfected cells at 30 minutes and 2 hours (12 and 29 respectively) were identified as putative STAT5 target genes and further investigated.
+
+PLATFORM
+GPL81 [MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array GPL82 [MG_U74Bv2] Affymetrix Murine Genome U74B Version 2 Array GPL83 [MG_U74Cv2] Affymetrix Murine Genome U74 Version 2 Array
+
+CITATIONS
+18492722
+

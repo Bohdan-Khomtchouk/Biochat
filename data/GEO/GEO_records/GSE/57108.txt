@@ -1,0 +1,18 @@
+TITLE
+Expression data from Spade/Spade mutant and wild type littermates whole ear tissue
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Spade/Spade mutant develop the spontaneous progressive atopic dermatitis like skin inflammation at around 8-10 weeks after birth. In order to detect the pre-symptomatic events that occur in their ear tissue, we have sampled RNA from the whole ear tissue and identified the differentially expressed genes with twofolds difference in comparison with littermate wildtype ear tissue RNA samples.
+
+DESIGN
+RNA from ear tissue was isolated using an RNeasy Fibrous Tissue Kit (Qiagen) and microarray analysis was performed using GeneChip mouse genome 430_2.0 array (Affymetrix). The data were analyzed by GeneSpring GX (Agilent Technologies).   The data were further analyzed by using packages in R and Bioconductor(48). Per chip normalization of datasets was performed by GCRMA package. An average intensity of two independent of duplicate for each week-wise (second-, fourth-, sixth-week) and mixture dataset was adopted in differential gene expression analysis. The differential genes were identified based on the following criteria: (i) twofold changes between wild-type and Spade (ii) false discovery rate (FDR) calculated by RankProd package with permutation number 1000 (49) for week-wise (FDR < 0.05) and mixture (FDR < 0.001) datasets.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

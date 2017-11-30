@@ -1,0 +1,18 @@
+TITLE
+Acute depletion of Tet1-dependent 5-hydroxymethylcytosine levels impairs LIF/Stat3 signaling and results in loss of embryonic stem cell identity [MRE-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The TET family of FE(II) and 2-oxoglutarate-dependent enzymes (Tet1/2/3) promote DNA demethylation by converting 5-methylcytosine to 5-hydroxymethylcytosine (5hmC), which they further oxidize into 5-formylcytosine and 5-carboxylcytosine. Tet1 is robustly expressed in mouse embryonic stem cells (mESCs) and has been implicated in mESC maintenance. Here we demonstrate that, unlike genetic deletion, RNAi-mediated depletion of Tet1 in mESCs led to a significant reduction in 5hmC and loss of mESC identity. The differentiation phenotype due to Tet1 depletion positively correlated with the extent of 5hmC loss. Meta-analyses of genomic datasets suggested interaction between Tet1 and leukemia inhibitory factor (LIF) signaling. LIF signaling is known to promote self-renewal and pluripo-tency in mESCs partly by opposing MAPK/ERK mediated differentiation. Withdrawal of LIF leads to differentiation of mESCs. We discovered that Tet1 depletion impaired LIF-dependent Stat3-mediated gene activation by affecting Stat3's ability to bind to its target sites on chromatin. Nanog overexpression or inhibition of MAPK/ERK signaling, both known to maintain mESCs in the absence of LIF, rescued Tet1 depletion, further supporting the dependence of LIF/Stat3 signaling on Tet1. These data support the conclusion that analysis of mESCs in the hours/days immediately following efficient Tet1 depletion reveals Tet1’s normal physiological role in maintaining the pluripotent state that may be subject to homeostatic compensation in genetic models.
+
+DESIGN
+Genome-wide mapping of 5hmC and microarray gene expression profiling in E14Tg2a mESCs after transfection with indicated siRNAs: Tet1 siRNA #1 (Invitrogen, MSS284895), Tet1 siRNA #2 (Invitrogen, MSS284897), and Control siRNA duplex targeting firefly luciferase.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+22210859
+

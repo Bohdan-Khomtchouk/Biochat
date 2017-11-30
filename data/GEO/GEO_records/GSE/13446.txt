@@ -1,0 +1,18 @@
+TITLE
+Mechanisms that specify promoter nucleosome location and identity
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The chromatin architecture of eukaryotic gene promoters is generally characterized by a nucleosome-free region (NFR) flanked by at least one H2A.Z variant nucleosome.  Computational predictions of nucleosome positions based on thermodynamic properties of DNA-histone interactions have met with limited success.  Here we show that the action of the essential RSC remodeling complex in S. cerevisiae helps explain the discrepancy between theory and experiment.  In RSC-depleted cells, NFRs shrink such that the average positions of flanking nucleosomes move toward predicted sites.  Nucleosome positioning at distinct subsets of promoters additionally requires the essential Myb family proteins Abf1 and Reb1, whose binding sites are enriched in NFRs.  In contrast, H2A.Z deposition is dispensable for nucleosome positioning.  By regulating H2A.Z deposition using a steroid-inducible protein splicing strategy, we show that NFR establishment is necessary for H2A.Z deposition.  These studies suggest an ordered pathway for the assembly of promoter chromatin architecture.
+
+DESIGN
+Nucleosome positions were mapped in a variety of strains under a variety of conditions to determine how several proteins are involved in nucleosome positioning.  All replicates are biological replicates.  Each set of replicates is balanced in terms of Cy3:Cy5 such that there are equal numbers of Cy3:Cy5 and Cy5:Cy3 arrays (format:  mononucleosomal DNA:reference DNA). Changes in gene expression in a strain carrying either the Sth1-degron or Abf1-Reb1-degron under degron-inducing conditions were profiled by hybridizing labeled cDNA derived from the degron strain against labeled cDNA derived from a control strain lacking the degron, but grown under the same conditions.  Four biological replicates for each experiment were done using a balanced dye-swap design.
+
+PLATFORM
+GPL7542 Agilent-015072 Yeast Oligo Microarray 4x44K G2519F (Feature Number version) GPL7550 Madhani Saccharomyces cerevisiae tiling 16429
+
+CITATIONS
+19410542
+

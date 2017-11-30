@@ -1,0 +1,18 @@
+TITLE
+Digital gene expression profiling for maize development - 2mm ear libraries, B73 vs. ramosa3 mutant
+
+ORGANISM
+Zea mays
+
+SUMMARY
+Genome-wide expression signatures detect specific perturbations in developmental programs and contribute to functional resolution of key regulatory networks.  In maize (Zea mays) inflorescences, mutations in the RAMOSA (RA) genes affect determinacy of axillary meristems and thus alter branching patterns, an important agronomic trait.  In this work, we developed and tested a framework for analysis of tag-based, digital gene expression (DGE) profiles using Illumina’s high-throughput sequencing technology and the newly-assembled B73 maize reference genome.  We also used a mutation in the RA3 gene to identify putative expression signatures specific to stem cell fate in determinacy of axillary meristems.  The RA3 gene encodes a trehalose-6-phosphate-phosphatase and may act at the interface between developmental and metabolic processes.  Deep sequencing of DGE libraries, representing three biological replicate ear samples from wild-type and ra3 plants, generated 27 million 20-21nt reads with frequencies spanning four orders of magnitude.  Unique sequence tags were anchored to 3´-ends of individual transcripts by DpnII and NlaIII digests, which were multiplexed during sequencing.  We mapped 86% of non-redundant signature tags to the maize genome, which associated with 37,117 working gene models and un-annotated regions of expression.  66% of maize genes were detected at ≥ nine reads in immature maize ears.  We used comparative genomics to leverage existing information from Arabidopsis and rice in functional analyses of differentially expressed maize genes.  Results from this study provide a basis for analysis of short-read expression data in maize and resolved specific expression signatures that will help define mechanisms of action for the RA3 gene.
+
+DESIGN
+3' tag-based DGE libraries were generated using Illumina 1G technology.  Libraries were prepared from 2mm ear samples and represent: 3 biological replicates of wild-type B73, 3 biological replicates of ramosa3 (ra3) mutants, and 1 technical replicate of a ra3 sample.  Each sample was sequenced in a single lane of a flow cell.  Each lane includes library preparations from both DpnII and NlaIII digests for that sample.  Sequences from DpnII digests start with GATC and those from NlaIII digests start with ATG.
+
+PLATFORM
+GPL9141 Illumina Genome Analyzer (Zea mays)
+
+CITATIONS
+20833728
+

@@ -1,0 +1,18 @@
+TITLE
+Single-nucleotide mapping of N1-methyladenosine reveals a tissue-specific role in translational repression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Following synthesis, RNA can be modified with over 100 chemically distinct modifications, and in recent years it was shown that processing, localization, stability and translation of mRNAs can be impacted by an increasing number of these modifications. An emerging modification, present across all three domains of life, is N1-methyladenosine (m1A). m1A is of particular interest, as its methyl group disrupts Watson-Crick base pairing and it thus harbors substantial regulatory potential. Recent studies have suggested this modification to be relatively common in mammalian mRNA, but lacked the resolution of identifying individual m1A containing bases, and did not identify specific sequence motifs required for their modification or the enzymatic machinery catalyzing them. This rendered it challenging to validate the putative substrates and to address their function and mechanisms of action. Here we develop a highly sensitive and specific approach allowing the semi-quantitative mapping of m1A at single nucleotide resolution and in a transcriptome-wide manner. We found m1A to be present in cytosolic and mitochondrial mRNAs. In the cytosol m1A is present in a low number of mRNAs, typically at very low stoichiometry, almost invariably in the loop of hairpin structures, where it is introduced by the TRMT6/TRMT61A complex. In contrast, we found a single site in the mitochondrial ND5 mRNA, catalyzed by TRMT10C, with tightly regulated methylation levels in human development, ranging from nearly 100% up to the 8-cell stage and down to ~20% at the late blastocyst stage. We find that methylation at this site is the hallmark of hyper-stable transcripts, which are maternally transmitted and persist until the onset of zygotic mitochondrial transcription. Finally, we found that polysomes are strongly depleted from methylated mRNAs and that reporters harboring m1A in regions encountered by ribosomes (5’ UTR and CDS), but not in 3’ UTRs, are translated at reduced rates. Our findings suggest that m1A on mRNA, likely due to its dramatic impact on base pairing, lead to repression of translation which is by and large avoided by cells, while revealing one case - in mitochondria - where tight spatiotemporal control over m1A levels was adopted by cells as a potential means of post-transcriptional regulation.
+
+DESIGN
+M1A measurements in HEK293 cells based on (1) two distinct reverse transcriptase, (2) before and after immunoprecipitation using an anti-m1A antibody, (3) with and without a Dimroth rearrangement, and (4) with or without overexpression of TRMT6/TRMT61A.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+29072297
+

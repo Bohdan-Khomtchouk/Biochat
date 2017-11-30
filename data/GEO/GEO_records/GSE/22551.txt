@@ -1,0 +1,18 @@
+TITLE
+DNA methylation profiles of human active and inactive X chromosomes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+X chromosome inactivation (XCI) is a dosage compensation mechanism that silences the majority of genes on one X chromosome in each female cell. In order to characterize epigenetic changes that accompany this process, we measured DNA methylation levels in both 45,X Turner syndrome patients, who carry a single active X chromosome (Xa) and normal 46,XX females, who carry one Xa and one inactive X (Xi). Methylated DNA was immunoprecipitated and hybridized to tiling oligonucleotide arrays, generating epigenetic profiles of active and inactive X chromosomes. We observed that XCI is accompanied by changes in DNA methylation specifically at CpG islands. While the majority of CpG islands show increased methylation levels on the Xi, XCI results in reduced methylation at ~20% of CpG islands. Both intra- and inter-genic CpG islands are epigenetically modified, with the biggest increase in methylation occuring at the promoters of genes silenced by XCI. In contrast, genes escaping XCI have low levels of promoter methylation, while genes that undergo polymorphic silencing show intermediate increases in methylation proportionate to their frequency of inactivation. Thus promoter methylation and susceptibility to XCI are correlated. We observed a global correlation between CpG island methylation and the evolutionary age of different X chromosome strata, and that genes escaping XCI show increased methylation within gene bodies. We utilized our epigenetic map to predict both novel genes escaping XCI, and to identify sequence features that may contribute to the XCI process. Finally, as our study included Turner syndrome patients with single X chromosomes of both maternal and paternal origin we searched for parent-of-origin specific methylation differences, but found no evidence to support imprinting on the human X chromosome. Our study provides the first epigenetic profile of active and inactive X chromosomes, giving novel insights into the phenomenon of dosage compensation.
+
+DESIGN
+Methylated DNA was enriched by immunoprecipitation using antibodies against 5-methylcytosine. meDIP and input DNA was labeled with cy5 and cy3 respectively and hybridized to Nimblegen arrays comprising 2.1 million 50-85mers covering human chromosomes 20, 21, 22, X and Y at a mean density of ~1 probe per 100bp. Resulting log2 fluorescence ratios correspond to methylation levels. Seven patients with Turner syndrome (45,X karyotype), and three normal females (46,XX karyotype) were analyzed. Of the Turner syndrome cases, four had a maternally-derived X, and three had a paternally-derived X chromosome.
+
+PLATFORM
+GPL10573 Human Meth 2.1M WG-T 10-10 [0701_HG18_TILE_10_HX1]
+
+CITATIONS
+21862626
+

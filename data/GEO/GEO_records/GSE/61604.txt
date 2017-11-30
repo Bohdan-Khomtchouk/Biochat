@@ -1,0 +1,18 @@
+TITLE
+Effect of Drosophila immune proteins on gene expression in E. coli
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Interaction between the host and invading pathogen determines the fate of both organisms during the infectious state.  The host is equipped with a battery of immune reactions, while the pathogen displays a variety of mechanisms to compromise host immunity.  Although bacteria alter their pattern of gene expression when they enter host organisms, studies to elucidate the mechanism behind this are only in their infancy.  In the present study, we examined the possibility that host immune proteins directly participate in the change of gene expression in bacteria.  To this end, Escherichia coli was treated with a mixture of the extracellular region of membrane-bound peptidoglycan recognition protein LC (PGRP-LC) and the antimicrobial peptide attacin of Drosophila, and subsequently subjected to DNA microarray analysis for the repertoire of mRNA.  We identified nearly 200 genes whose mRNA increased after the treatment, and at least four of them were induced in response to PGRP-LC.  One such gene, lipoprotein-encoding nlpI, showed a transient increase of its mRNA level in adult flies depending on PGRP-LC, and NlpI-lacking E. coli had a smaller pathogenic effect with lowered growth/viability than the parental strain in adult flies.  These results suggest that a host immune receptor triggers a change of gene expression in bacteria simultaneously to their recognition of the invader and induction of immune responses.
+
+DESIGN
+The E. coli strain BW25113 (2 x 10^9) suspended with insect saline (0.13 M NaCl, 4.7 mM KCl, 1.9 mM CaCl2), was incubated with a mixture of GST-attacin (0.125 μM), GST-PGRP-LCa (0.5 μM), GST-PGRP-LCx (1 μM), and GST-PGRP-LCy (0.5 μM) for 10 min at room temperature.  As a negative control, incubation of E. coli was done in the presence of GST alone (3 μM).
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+25577644
+

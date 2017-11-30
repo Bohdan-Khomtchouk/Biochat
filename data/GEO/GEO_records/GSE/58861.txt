@@ -1,0 +1,18 @@
+TITLE
+Identification of the global transcriptional regulator All3953 (RbcR) in the cyanobacterium Anabaena sp. PCC 7120 by ChIP-Seq analysis
+
+ORGANISM
+Nostoc sp. PCC 7120
+
+SUMMARY
+The whole regulon of the LTTR All3953 was determined at 3 h after Ci deficiency in the cyanobacterium Anabaena sp. PCC 7120 by ChIP-Seq analysis. A TAP-tagged version of the protein was used for the chromatin immunoprecipitation. A total of 142 peaks were found, mainly located in the chromosome of Anabaena.
+
+DESIGN
+Two Anabaena sp PCC 7120 strains were constructed: one containing a TAP-tagged version of protein All3953 (strain CSS57), and a control strain expressing the TAP-tag under the all3953 promoter (strain CSS68). Cells of the two strains were grown in BG110 medium supplmented with 6 mM NH4Cl and 10 mM NaHCO3, and bubbled with 1% CO2-containing air. When the cultures had reached exponential phase (3-5 µgChl/ml), the cells were collected, washed with BG110, and resuspended in the same volume of BG110 supplemented with 6 mM NH4Cl and bubbled with air (low Ci conditions) for 3 h. Chromatin immunoprecipitation was carried out using extracts of both strains and IgG-conjugated dynabeads, and the resultant DNA was subjected to massive sequencing. The Triform algorithm method (Kornacker et al, 2013) was used to analyze the data. To identify the specific peaks found in strain CSS57, the CSS68 (control strain) ChIP data was used as the background for analysis of the CSS57 ChIP data.
+
+PLATFORM
+GPL11645 Illumina Genome Analyzer II (Nostoc sp. PCC 7120)
+
+CITATIONS
+25684321
+

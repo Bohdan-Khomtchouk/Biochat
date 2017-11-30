@@ -1,0 +1,18 @@
+TITLE
+Combinatorial binding of transcription factors in the pluripotency control regions of the genome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The pluripotency control regions (PluCRs) are defined as genomic regions that are bound by Oct4, Sox2, and Nanog in vivo. We utilized a high-throughput binding assay to record more than 270,000 different DNA/protein binding measurements along incrementally tiled windows of DNA within these PluCRs. This high-resolution binding map is then used to systematically define the context of Oct factor binding and reveals patterns of cooperativity and competition in the pluripotency network. The most prominent pattern is a pervasive binding competition between Oct4 and the forkhead transcription factors. Like many transcription factors, Oct4 is co-expressed with a paralog, Oct1, that shares an apparently identical binding specificity. By analyzing thousands of binding measurements we discover context effects that discriminate Oct1 from Oct4 binding. Proximal Nanog binding promotes Oct4 binding, whereas nearby Sox2 binding favors Oct1. We demonstrate by cross-species comparison and by chromatin immunoprecipitation (ChIP) that the contextual sequence determinants learned in vitro are sufficient to predict Oct1 binding in vivo.
+
+DESIGN
+An oligonucleotide pool that tiles through 316 PluCR regions ( a region of simulataneous in vivo Oct4, Sox2 and Nanog ChIP enrichement in human ES cells - Boyer et al. 2005) was incubated in embryonic stem cell extract. Complexes were allowed to form and oligonucletide:protein complexes were immunoprecipitated with one of four antidodies (against Oct4 , Sox2, Nanog, Oct1). The enrichment of oligonucleotides in co-precipitate was analyzed by two color (Cy3/Cy5) microarray strategy using an Agilent custom oligonucleotide array. MEGAshift (microarray evaluation of genomic aptamers by shift) binding assay protocol based on Tantin et. Al, 2008 and Reid et. Al, 2009. There are two internal technical replicates.
+
+PLATFORM
+GPL13242 BrownUniversity/FairbrotherLab Agilent-019800 Human 2x105K OSN_Validation tiling array
+
+CITATIONS
+21527551
+

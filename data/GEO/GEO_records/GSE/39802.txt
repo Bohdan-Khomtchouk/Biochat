@@ -1,0 +1,18 @@
+TITLE
+Nucleosome mapping in Saccharomyces cerevisiae in different conditions
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+This experiment aims to map nucleosome positions and comparison of the same in WT NORMAL GROWTH vs WT-NUTRIENT STARVATION/isw1∆2∆ MUTANT/rsc4-∆4  MUTANT in Saccharomyces cerevisiae using a custom designed tiling array on  Agilent plat form. The corresponding platform is submitted to GEO under Geo-ID GPL15842. 60mer probes with variable tiling density were designed for all the genes transcribed by RNA polymerase III. Each gene is tiled along with its 1kb downstream and upstream region with the exceptions of RPR1, SCR1, RDN5(1-6) and SNR52. Mononucleosomal DNA and size matched naked DNA was competitively hybridized to the array. Data was extracted and normalized log ratios were calculated using Agilent sofware. Normalized log2 ratio data was used in MLM to detection nucleosome positions.
+
+DESIGN
+Equal amount of mono-nucleosomal DNA  and sized matched naked DNA prepared from formaldehyde fixed cells (Yuan et al. 2005), was labeled with Cy5 and Cy3 respectively and hybridized to the microarray. Each Hybridization was done in triplicate from three independent biological samples in each condition. Enrichment of mono-nucleosomal DNA over naked genomic DNA is a measure of nucleosome density calculated as Log2(nucDNA/nakedDNA).
+
+PLATFORM
+GPL15842 Saccharomyces cerevesiae  1x244k ChIP on chip  designed by Genotypic Technology Private Limited. (AMADID: 022360)
+
+CITATIONS
+23767421
+

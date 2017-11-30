@@ -1,0 +1,18 @@
+TITLE
+TNFα Signaling Exposes Latent Estrogen Receptor Binding Sites in Breast Cancer Cells [ChIP-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The interplay between mitogenic and proinflammatory signaling pathways play key roles in determining the phenotypes and clinical outcomes of breast cancers.  We have used global nuclear run-on coupled with deep sequencing to characterize the immediate transcriptional responses of MCF-7 breast cancer cells treated with estradiol, TNF?, or both.  In addition, we have integrated these data with chromatin immunoprecipitation coupled with deep sequencing for estrogen receptor alpha (ER?), the pioneer factor FoxA1 and the p65 subunit of the NF-?B transcription factor. Our results indicate extensive transcriptional interplay between these two signaling pathways, which is observed for a number of classical mitogenic and proinflammatory protein-coding genes.  In addition, GRO-seq has allowed us to capture the transcriptional crosstalk at the genomic locations encoding for long non-coding RNAs, a poorly characterized class of RNAs which have been shown to play important roles in cancer outcomes.  The synergistic and antagonistic interplay between estrogen and TNF? signaling at the gene level is also evident in the patterns of ER? and NF-?B binding, which relocalize to new binding sites that are not occupied by either treatment alone.  Interestingly, the chromatin accessibility of classical ER? binding sites is predetermined prior to estrogen treatment, whereas ER? binding sites gained upon co-treatment with TNF? require NF-?B and FoxA1 to promote chromatin accessibility de novo.  Our data suggest that TNF? signaling recruits FoxA1 and NF-?B to latent ER? enhancer locations and directly impact ER? enhancer accessibility. Binding of ER? to latent enhancers upon co-treatment, results in increased enhancer transcription, target gene expression and altered cellular response.  This provides a mechanistic framework for understanding the molecular basis for integration of mitogenic and proinflammatory signaling in breast cancer.
+
+DESIGN
+Using GRO-seq and ChIP-seq (ER, FoxA1 and p65) to assay the molecular crosstalk of MCF-7 cells treated with E2, TNFa or both E2+TNFa.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25752574
+

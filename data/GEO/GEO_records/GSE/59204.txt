@@ -1,0 +1,18 @@
+TITLE
+miR-7 blockade alters E12.5 mouse cortical mRNA levels
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: To assess changes in mRNA levels due to in vivo blockade of microRNA miR-7 with a miR-7 sponge in the E12.5 mouse neocortex Methods: total RNA was isolated and sequenced from the dorsal cortex of wild-type or Emx1-Cre:miR-7-sponge transgenic mice in triplicate using an Illumina high-seq 1000.  Raw data was analyzed using Gobyweb v1.7.  Genes were considered changed which demonstrated expression level > 1RPKM, fold-change > 1.25, and FDR-qvalue < 0.25.  Changed genes were then filtered by prediction of miR-7 targeting to reveal predicted miR-7 targets which were altered in vivo due to miR-7 sponge expression. Results: 419 cortically expressed genes were significantly increased in expression level due to miR-7 sponge expression.  Of these, 162 are predicted to be targets of miR-7.
+
+DESIGN
+total RNA was isolated and sequenced from the dorsal cortex of wild-type or Emx1-Cre:miR-7-sponge transgenic mice in triplicate using an Illumina high-seq 1000.
+
+PLATFORM
+GPL15103 Illumina HiSeq 1000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide chromatin mapping with size resolution reveals a dynamic sub-nucleosomal landscape in Arabidopsis
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Background: Analysis of the effect that chromatin structure has on the expression patterns of eukaryotic genes has recently expanded knowledge of the complex influence genome accessibility has on genome function. Interlaced with regular nucleosomal patterning are other mobile and labile sub-nucleosomal-sized protein structures bound to the genome such as transcription factors (TF), initiation complexes, and modified nucleosomes. Results: We present chromatin structure maps of the A. thaliana Col-0 wild-type (in vitro cell culture) combining differential micrococcal nuclease (MNase) digestion and analysis by paired-end next-generation sequencing with RNASeq data to provide insight into the sensitive genomic regions and variable DNA-bound particle size related to transcriptional activity. The landscape of sub-nucleosomal sized particles (subNSPs) has been investigated, revealing the DNA-binding complex positioning genome-wide. We observe the dynamic changes in the distribution of these complexes surrounding genomic features, particularly at transcription start sites (TSS). Differential digestion reveals the presence of MNase-sensitive smaller particles and a labile -1 nucleosome upstream of the TSS of active genes. These changes correlate with gene expression differences resulting from different environmental conditions of light- or dark growth both globally and locally, and a complex profile of bound particles is directly visualised. Conclusions: Analysis of the A. thaliana genome reveals that resolution of chromatin particle size by differential MNase digestion allows detection of the sensitive features in chromatin structure that have hereto been obfuscated. The concomitant analysis of transcript levels reveals the impact of transient extrinsic factors in modifying the sub- nucleosomal landscape in association with transcriptional changes, giving insight into the binding of transcription-associated factors.
+
+DESIGN
+2x Light grown, 2x Dark grown Arabidopsis thaliana Col0 under High or Low MNase digestion with 4x associated RNAseq per condition
+
+PLATFORM
+GPL17639 Illumina HiSeq 2500 (Arabidopsis thaliana)
+
+CITATIONS
+28902852
+

@@ -1,0 +1,18 @@
+TITLE
+The Estrogen receptor alpha cistrome defined by DamIP
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have developed a new method to study DNA-protein interaction in vivo called DamIP, which is based on fusing a protein of interest to a mutant form of DNA adenine methylatransferase (Dam) from E. coli. We showed previously that DamIP can efficiently identify in vivo binding sites of Dam-tethered human estrogen receptor alpha (hERα). In current study, we present the cistrome of hERα determined by DamIP and high throughput sequencing (DamIP-seq). The DamIP-seq defined hERα cistrome overlaps significantly with those determined by ChIP-chip or ChIP-seq, but identifies many new binding regions. As shown by conventional ChIP assay, many DamIP-seq unique hERα binding regions show relatively stable hERα binding, whereas DamIP-seq misses some regions with very transient hERα binding. The methyl-adenine modifications introduced by Dam are stable and do not decrease over 12 days. In summary, the current study provides both an alternate view of the hERα cistrome to further understand the mechanism of hERα mediated transcription, and a new tool to explore other transcriptional factors and cofactors.
+
+DESIGN
+MCF7 cells were transfected with DamK9A or DamK9A-hERalpha. DamIP were performed from each sample and subjected to solexa sequencing
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+22207717
+

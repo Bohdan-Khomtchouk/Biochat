@@ -1,0 +1,18 @@
+TITLE
+Localization and Abundance Analysis of Human lncRNAs at Single Cell and Single Molecule Resolution
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Long noncoding RNAs (lncRNAs) have emerged as key players in different cellular processes and are required for diverse functions in vivo. However, fundamental aspects of lncRNA biology remain poorly characterized, including their subcellular localization, abundance and variation at a single cell resolution. Here, we used single molecule, single-cell RNA fluorescence in situ hybridization (RNA FISH) to survey 61 lncRNAs, chosen by properties such as conservation, tissue specific expression, and expression abundance, and to catalog their abundance and cellular localization patterns in three human cell types. Our lncRNAs displayed diverse sub-cellular localization patterns ranging from strictly nuclear localization to almost exclusive cytoplasmic localization, with the majority localized primarily in the nucleus. The low abundance of these lncRNAs as measured in bulk cell populations cannot be explained by high expression in a small subset of 'jackpot' cells. Simultaneous analysis of lncRNAs and mRNAs from corresponding divergently transcribed loci showed that divergent lncRNAs do not present a distinct localization pattern and are not always co-regulated with their neighbor. Overall, our study highlights important differences and similarities between lncRNAs and mRNAs. The rich set of localization patterns we observe are consistent with a broad range of potential functions for lncRNA, and assists in hypothesis generation for mechanistic studies. Here we provide the RNA-Seq expression matrix, as well as RNA-Seq raw data, which we used for comparison with RNA FISH molecule counts.
+
+DESIGN
+We estimate FPKM of coding genes and lncRNAs across HeLa, human lung fibroblasts and human foreskin. This study includes data from human foreskin fibroblasts (hFF), human lung fibroblasts (hLF), and HeLa cells. An hFF sample (GSM1376178) and the hLF samples (GSM1376175-GSM1376177) were previously submitted and are available in GSE30554 as GSM759893 and GSM759890-GSM759892, respectively. The HeLa samples (GSM591670-GSM591671) were previously submitted and are available in GSE23316. The complete dataset representing: (1) the hFF Samples, including the re-analysis of the hFF Sample from GSE30554, (2) the re-analysis of the hLF Samples from GSE30554, and (3) the re-analysis of the HeLa Samples from GSE23316, is linked below as a supplementary file.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25630241
+

@@ -1,0 +1,18 @@
+TITLE
+RNA-seq: technical variability and sampling (male)
+
+ORGANISM
+Drosophila simulans
+
+SUMMARY
+Background: RNA-seq is revolutionizing the way we study transcriptomes. mRNA can be surveyed without prior knowledge of gene transcripts. Alternative splicing of transcript isoforms and the identification of previously unknown exons are being reported. Initial reports of differences in exon usage, and splicing between samples as well as quantitative differences among samples are beginning to surface. Biological variation has been reported to be larger than technical variation. In addition, technical variation has been reported to be in line with expectations due to random sampling. However, strategies for dealing with technical variation will differ depending on the magnitude. The size of technical variance, and the role of sampling are examined in this manuscript. Results:  Independent Solexa/Illumina experiments containing technical replicates are analyzed. When coverage is low, large disagreements between technical replicates are apparent. Exon detection between technical replicates is highly variable when the coverage is less than 5 reads per nucleotide and estimates of gene expression are more likely to disagree when coverage is low. Although large disagreements in the estimates of expression are observed at all levels of coverage. Conclusions:  Technical variability is too high to ignore. Technical variability results in inconsistent detection of exons at low levels of coverage. Further, the estimate of the relative abundance of a transcript can substantially disagree, even when coverage levels are high. This may be due to the low sampling fraction and if so, it will persist as an issue needing to be addressed in experimental design even as the next wave of technology produces larger numbers of reads. We provide practical recommendations for dealing with the technical variability, without dramatic cost increases.
+
+DESIGN
+Three independent samples of D. simulans male heads were collected with each sample representing a unique pool of biological material. Each sample was prepared according to manufacturer's instructions and then the same library was run on two lanes of a Solexa/Illumina flow cell, resulting in two technical replicates for each biological replicate, runs were 36 base-pair paired end.
+
+PLATFORM
+GPL17484 Illumina Genome Analyzer IIx (Drosophila simulans)
+
+CITATIONS
+21645359
+

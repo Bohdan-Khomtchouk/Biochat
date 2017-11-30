@@ -1,0 +1,18 @@
+TITLE
+Transcriptional regulation of cellular processes important in control of skeletal myogenesis by interferon-γ
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The purpose of the study was to investigate the effect of IFN-γ on transcriptomic profile of differentiating mouse C2C12 myogenic cells. Global gene expression was evaluated using the oligonucleotide whole mouse genome microarrays and was validated with real-time PCR method. Exogenous IFN-γ (1 ng/ml) increased myoblast proliferation, but decreased cell viability, the fusion index and the cellular content of myosin heavy chain, MyHC in C2C12 cultures on the 3rd day of differentiation. IFN-γ up-regulated genes were mainly involved in biological processes such as: cell cycle, regulation of cell proliferation, programmed cell death, inflammatory, vasculature development, regulation of cytokine, transmembrane receptor protein tyrosine kinase signaling pathway, and chemotaxis, whereas down-regulated genes contributed mainly to: regulation of transcription, cell-cell signaling, nitrogen compound biosynthetic process, transmembrane receptor protein ser/thr protein kinase signaling pathway, and regulation of Wnt receptor signaling pathway.  IFN-γ up-regulated the expression of cytokines/growth factors controlling cell proliferation (Cxcl10, Il15, Ccl2, Fgf7, Figf, Csf1, Vegfc, Hgf). Moreover, IFN-γ: i) down-regulated genes encoding factors that are anabolic for muscle cells (Fst, Igf-1); ii) inhibited pro-myogenic transcription (via Mef2a, Nfkb1, and Pparg); iii) decreased expression of genes controlling cell adhesion and sarcolemma/cytoskeleton organization; and iv) activated the proteolytic pathways: proteasomes and catepsins, leading to protein degradation and impaired myotube growth. Our data suggest that the effect of IFN-γ on mygenesis is, at least partly, associated with the regulation of muscle cell secretom at the transcriptional level. To whom the correspondence should be addressed: Dr K. Grzelkowska-Kowalczyk; e-mail: k_grzel_kow@poczta.fm, tel/fax: (48 22) 847 24 52
+
+DESIGN
+After scanning of hybridized microarrays, quantitation of slide images was performed using Feature Extraction Software (Agilent) using default parameters and the raw data were exported to GeneSpring GX 12 (Agilent, Santa Clara, CA) and log2 transformed. For identification of genes significantly altered in cell compared with the control normal gene set, total detected entities were filtered by flags (detected, non detected) to remove very low signal entities and to select reproducible signal values of entities among the replicated experiments, respectively. In statistical analysis, separated for experiment with myoblasts treated with  IFNG (IFNG vs CTRL 1-4) was used t-test unpaired (p < 0.05) with multiple testing correction: Benjamini-Hochberg < 0.05, all significant changes over fold change 2 were selected. Analysis of GO, GSEA and signaling pathway was carried out using GeneSpring GX 12 (Agilent) and the DAVID Classification System (p < 0.05).
+
+PLATFORM
+GPL11202 Agilent-026655 Whole Mouse Genome Microarray 4x44K v2 (Probe Name version)
+
+CITATIONS
+25237846
+

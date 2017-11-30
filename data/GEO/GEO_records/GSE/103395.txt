@@ -1,0 +1,18 @@
+TITLE
+Oncolytic reactivation of KSHV as a therapeutic approach for primary effusion lymphoma: high-resolution mapping of BRD4 binding sites in the KSHV genome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Primary effusion lymphoma (PEL) is an aggressive subtype of non-Hodgkin lymphoma caused by Kaposi's sarcoma-associated herpesvirus (KSHV) infection. Currently, treatment options for patients with PEL are limited. Oncolytic viruses have been engineered as anticancer agents and have recently shown increased therapeutic promise. Similarly, lytic activation of endogenous viruses from latently infected tumor cells can also be applied as a cancer therapy. In theory, such a therapeutic strategy would induce oncolysis by viral replication, while simultaneously stimulating an immune response to viral lytic cycle antigens. We examined the combination of the FDA-approved drug ingenol-3-angelate (PEP005) with epigenetic drugs as a rational therapeutic approach for KSHV-mediated malignancies. JQ1, a bromodomain and extra terminal (BET) protein inhibitor, in combination with PEP005, not only robustly induced KSHV lytic replication, but also inhibited IL6 production from PEL cells. Using the dosages of these agents that was found to be effective in reactivating HIV (as a means to clear latent virus with highly active antiretroviral therapy), we were able to inhibit PEL growth in vitro and delay tumor growth in a PEL xenograft tumor model. KSHV reactivation was mediated by activation of NF-kB pathway by PEP005, which led to increased occupancy of RNA polymerase II onto the KSHV 33  genome. RNA-sequencing analysis further revealed cellular targets of PEP005, JQ1, and the synergistic effects of both. Thus, combination of PEP005 with a BET inhibitor may be considered as a rational therapeutic approach for the treatment of PEL.
+
+DESIGN
+The goal of these studies was to perform genome-wide mapping of BRD4 binding sites across the KSHV genome during viral reactivation using ChIP-Sequencing (ChIP-Seq). This was performed in the context of the BCBL-1 cell line model, which is derived from a KSHV-infected human primary effusion lymphoma (PEL) and contains latent KSHV genomes. For these studies, we utilized an engineered subline, referred to as TREx-K-Rta BCBL-1, which contains a Tetracycline/Doxycycline (Dox)-inducible Flagx3- and HAx3-tagged K-Rta expression cassette. Viral reactivation is then stimulated by inducing K-Rta expression in individual TREx-K-Rta BCBL-1 cultures by treatment with Dox for 24 hours. Following treatment, the cells were then processed for ChIP-Seq analyses by formaldehyde cross-linking, chromatin solubilization, and chromatin immunoprecipitation (ChIP) with anti-BRD4 antibody. Subsequently, DNA was isolated from the ChIP and total chromatin (Input) samples, and followed by library preparation and next-generation sequencing (NGS).
+
+PLATFORM
+GPL21290 Illumina HiSeq 3000 (Homo sapiens)
+
+CITATIONS
+28847988
+

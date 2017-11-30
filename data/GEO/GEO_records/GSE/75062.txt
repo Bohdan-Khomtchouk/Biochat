@@ -1,0 +1,18 @@
+TITLE
+Discovery and validation of a gene expression profile for human islet integrity and transplant functionality
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+There is growing evidence that transplantation of cadaveric human islets is an effective therapy for type 1 diabetes. However, gauging the suitability of islet samples for clinical use remains a challenge. We hypothesized that islet quality is reflected in the expression of specific genes. Therefore, gene expression in 59 human islet preparations was analyzed and correlated with diabetes reversal after transplantation in diabetic mice. Analysis yielded 262 differentially expressed probesets, which together predict islet quality with 83% accuracy. Pathway analysis revealed that failing islet preparations activated inflammatory pathways, while functional islets showed increased regeneration pathway gene expression. Gene expression associated with apoptosis and oxygen consumption showed little overlap with each other or with the 262 probeset classifier, indicating that the three tests are measuring different aspects of islet cell biology. A subset of 36 probesets surpassed the predictive accuracy of the entire set for reversal of diabetes, and was further reduced by logistic regression to sets of 14 and 5 without losing accuracy. These genes were further validated with an independent cohort of 16 samples. We believe this limited number of gene classifiers in combination with other tests may provide complementary verification of islet quality prior to their clinical use.
+
+DESIGN
+Microarray profiles of 59 human islet preparations were compared between three data sets using class comparisons, network and biological function analyses. Specific genes were validated by quantitative PCR and immunopathology. Clinical findings were also compared.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+28968432
+

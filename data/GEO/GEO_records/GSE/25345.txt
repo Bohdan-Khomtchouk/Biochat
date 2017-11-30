@@ -1,0 +1,18 @@
+TITLE
+High-throughput 16S rRNA amplicon pyrosequencing of contaminated aquifer sediment
+
+ORGANISM
+unidentified
+
+SUMMARY
+Contaminated aquifer (Dusseldorf-Flinger, Germany) templates extracted from 5 sediment depths ranging between 6.4 and 8.4 m below ground and over 3 years of sampling were amplified for amplicon pyrosequencing using the primers Ba27f (5’-aga gtt tga tcm tgg ctc ag-3’) and Ba519r (5’- tat tac cgc ggc kgc tg-3’), extended as amplicon fusion primers with respective primer A or B adapters, key sequence and multiplex identifiers (MID) as recommended by 454/Roche. Amplicons were purified and pooled as specified by the manufacturer. Emulsion PCR (emPCR), purification of DNA-enriched beads and sequencing run were performed following protocols and using a 2nd generation pyrosequencer (454 GS FLX Titanium, Roche) as recommended by the developer. Quality filtering of the pyrosequencing reads was performed using the automatic amplicon pipeline of the GS Run Processor (Roche), with a slight modification concerning the valley filter (vfScanAllFlows false instead of TiOnly) to extract the sequences. Demultiplexed raw reads were furhter trimmed for quality and lenght ( > 250 bp).
+
+DESIGN
+15 samples examined in total from important plume zones of the aquifer sampled in Feb. 2006, Sep. 2008 and Jun. 2009 (5 every year of sampling).
+
+PLATFORM
+GPL11212 454 GS FLX (unidentified)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

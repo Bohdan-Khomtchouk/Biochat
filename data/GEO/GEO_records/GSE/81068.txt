@@ -1,0 +1,18 @@
+TITLE
+Expression profile of Epstein Barr Virus infected mammary epithelial cells and Breast tumors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Whether the human tumor virus, Epstein-Barr virus (EBV) promotes breast cancers remains controversial and a potential mechanism has remained elusive. Here we show EBV can infect primary mammary epithelial cells (MECs) that express the attachment receptor, CD21.  EBV infection leads to the expansion of early MEC progenitor cells with a stem cell phenotype and enforces a differentiation block. When MECs were implanted as xenografts, EBV infection cooperated with activated Ras and accelerated the formation of breast cancer. Infection in EBV-related tumors was of a latency type II pattern, including expression of latent membrane proteins 1 (LMP1) and 2 (LMP2), similar to nasopharyngeal carcinoma (NPC). A human gene expression signature for EBVness was generated based on the RNA expression profile of the EBV infected primary mammary epithelial cells, tumors. This was signature associated with high grade (40 vs 13.5%) estrogen-receptor-negative status (31.8 vs. 10.5%, p53 mutation (37.5 vs 14.5%) and poor survival. In 11/33 (33%) of tumors positive for EBVness EBV-DNA was found in tumor cells by fluorescent in situ hybridization for the viral LMP1 and BXLF2 genes, while only 4/36 (11%) of EBVness-negative tumors tested positive for EBV DNA. An analysis of the TCGA breast cancer data revealed a correlation of EBVness with presence of the APOBEC mutational signatures consistent with past viral infection. We conclude that a contribution of EBV to breast cancer etiology via a ‘hit-and-run’ mechanism is plausible, in which EBV infection predisposes mammary epithelial cells to malignant transformation, but is not required for the maintenance of the malignant phenotype.
+
+DESIGN
+We incubated immortalized mammary epithelial cells (MCF-10A and HMECs) with GFP-labeled EBV and generated EBV infected mammary epithelial cells (EBV-MCF-10A, EBV-HMEC). The GFP control cells were also generated as GFP-MVF-10A, GFPHMEC. To test the hypothesis that EBV-infection of MECs cooperated with oncogenes to facilitate malignant transformation, we infected immortalized HMECs that expressed either GFP or GFP-EBV with Ras V12 or a matched retroviral vector control. At every step GFP-control HMECs were treated exactly like those infected with EBV. The resulting cell lines (EBV-GFP/RasV12/SV40-HMEC called EBV-HMEC-R, GFP/RasV12/SV40-HMEC called GFP-HMEC-R, EBV-GFP/RasV12/SV40-MCF-10A called EBV-MCF-10A-R and GFP/RasV12/SV40-MCF-10A called GFP- MCF-10A-R) were used for subsequent in vitro and xenotransplant experiments.  The HMEC line used to examine the effect of EBV infection on tumor formation in vivo was previously immortalized with telomerase (htert) and SV40 large T antigen. Eight tumors were generated, including four EBV tumor (EBV-tumor 1 to 4), four GFP tumor (GFP tumor 1 to 4).
+
+PLATFORM
+GPL13158 [HT_HG-U133_Plus_PM] Affymetrix HT HG-U133+ PM Array Plate
+
+CITATIONS
+27333046
+

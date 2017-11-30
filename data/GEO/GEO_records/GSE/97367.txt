@@ -1,0 +1,18 @@
+TITLE
+BioProject PRJNA381064: Convergent origination of a Drosophila-like dosage compensation mechanism in a reptile lineage
+
+ORGANISM
+Xenopus tropicalis ; Gallus gallus ; Ornithorhynchus anatinus ; Homo sapiens ; Mus musculus ; Monodelphis domestica ; Anolis carolinensis
+
+SUMMARY
+In order to study the green anole dosage compensation mechanism we generated strand-specific RNA-seq libraries for a total of 186 samples from the green anole and other representative amniotes (human, mouse, opossum, platypus, chicken and xenopus). Moreover, in order to understand the dosage compensation mechanism of A. carolinensis, we generated ChIP-Seq data for the histone modification H4K16ac and compared levels of acetylation between males and females. Moreover, we reconstructed 7 Y-linked transcripts of Anolis carolinensis based on a male/female subtraction approach and validate these Y sequences using re-sequenced genomes.
+
+DESIGN
+We generated strand-specific RNA-seq libraries using the Illumina TruSeq Stranded mRNA Library protocol. Sample size (minimum one male and one female for each species) was established to have a wide spectrum across amniotes and to capture general male/female sex-specific patterns. Each source RNA was of high quality, as assessed using a Fragment Analyzer machine from Advanced Analytical (RIN median = 9, RQN median = 8). Each library was sequenced on Illumina HiSeq 2500 platforms at the Lausanne Genomic Technologies Facility ( https://www.unil.ch/gtf/en/home.html ). At least 17 million sequencing reads (100 nt, single-end) were produced for each library (median: 34 million reads). Examination of H4K16ac enrichment between males and females in liver and brain. Two biological replicates, four genomic DNA input libraries. Y-linked transcripts of Anolis carolinensis were obtained using a male/female subtraction approach. The sequences were validated using re-sequenced male and female genomes.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL19005 Illumina HiSeq 2500 (Gallus gallus) GPL20141 Illumina HiSeq 2500 (Monodelphis domestica) GPL21875 Illumina HiSeq 2500 (Xenopus tropicalis) GPL23252 Illumina HiSeq 2500 (Anolis carolinensis) GPL23253 Illumina HiSeq 2500 (Ornithorhynchus anatinus) GPL23433 Illumina HiSeq 4000 (Anolis carolinensis)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

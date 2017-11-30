@@ -1,0 +1,18 @@
+TITLE
+Multiple platform assessment of the EGF dependent transcriptome by microarray and deep tag sequencing analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epidermal growth factor (EGF) is a key regulatory growth factor activating a myriad of processes affecting cell proliferation and survival that are relevant to normal development and disease. Here we have used a combined approach to study the EGF dependent transcriptome of HeLa cells. We obtained mRNA expression profiles using multiple long oligonucleotide based microarray platforms (from Agilent, Operon, Febit, and Illumina) in combination with digital gene expression profiling (DGE) with the Illumina Genome Analyzer I (GA-I). By applying a procedure for cross-platform data meta-analysis based on rank product and global ancova tests, we establish a well validated gene set with transcript levels altered after EGF treatment. We used this robust gene list to build higher order networks of gene interaction by interconnecting associated networks, supporting and extending the important role of the EGF signaling pathway in cancer. In addition, we found a whole new set of genes previously unrelated to the currently accepted EGF associated cellular functions, among which are metallothionein genes. We propose the use of global genomic cross-validation to generate more reliable datasets derived from high content technologies (microarrays or deep sequencing). This approach should help to improve the confidence of downstream in silico functional inference analyses based on high content data. Keywords: treated vs. untreated comparison, time course
+
+DESIGN
+Time course experiment comparing HeLa gene expression in response to EGF analyzed on different microarray platforms (Agilent, IMPPC, Illumina, and Operon) and by digital gene expression using short read high throughput tag sequencing. Three independent experiments were performed where HeLa cells were serum deprived for 24 hours and were either left untreated or treated with EGF for 6, and 24 h and harvested for RNA extraction. Technical dye swap duplicates were performed for each of the three biological replicates in both time points. Comparative genomic hybridization of HeLa cell genomic DNA versus  poooled genomic DNA from blood obtained from human females conducted on commercial oligonucleotide microarrays (Human Genome CGH Microarray Kit 244A, Agilent Technologies) in order to assess DNA dosage dependence of gene expression levels and response to EGF. Digital gene expression using short read high throughput tag sequencing data submitted to NCBI's SRA
+
+PLATFORM
+GPL4091 Agilent-014693 Human Genome CGH Microarray 244A (Feature number version) GPL4133 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Feature Number version) GPL6102 Illumina human-6 v2.0 expression beadchip GPL8948 IMPPC Homo sapiens 6.8K GPL8950 Operon Human 37.6K V4.0.1 Oparray GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+21699700
+

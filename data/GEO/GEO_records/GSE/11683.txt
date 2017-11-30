@@ -1,0 +1,18 @@
+TITLE
+Expression analysis in a breast cancer metastasis model
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This study compares a cell line (MDA-MB-468GFP-LN) that aggressively metastasizes to lymph nodes to its parental line MDA-MB-468GFP.  Derivation of the lines is described in Vantyghem et al, Clinical & Experimental Metastasis (2005) 22: 351–361.  The goal here was to compare the gene expression profile of MDA-MB-468GFP-LN to MDA-MB-468GFP,  Compare differential expression to databases of genes known to be involved in either cancer stem cell identification or lymph node specific metastasis in large scale clinical studies, and to confirm genes by RT-PCR
+
+DESIGN
+For each cell line, 3 biological replicates were grown, RNA isolated, and gene expression profiles determined using Affymetrix HGU133_Plus_2 genechips.  The MDA-MB-468GFP-LN cell line was the " experimental " group, and the MDA-MB-468GFP was the control group. Intensity values were calculated using MAS5.0, Data was then imported into Genespring 7.0, and ANOVA (nominal alpha set to 0.05) was used to determine probe sets showing significant differential expression.  A Benjamini and Hochberg algorithm was implemented in Genespring to reduce the false discovery rate.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19578743
+

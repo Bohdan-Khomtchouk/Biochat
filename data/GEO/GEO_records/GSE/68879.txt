@@ -1,0 +1,18 @@
+TITLE
+Expression data from MLL-rearranged leukemia model
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chromosomal rearrangements involving the mixed-lineage leukemia (MLL) gene occur in primary and treatment-related leukemias, and confer a poor prognosis. Studies based primarily on mouse models have substantially advanced our understanding of MLL leukemia pathogenesis, but often employ supra-physiologic oncogene expression with uncertain implications for human leukemia. Genome editing using site-specific nucleases provides a powerful new technology for gene modification to potentially model human disease, however this approach has not been used to recreate acute leukemia in human cells of origin comparable to disease observed in patients.  We applied TALEN-mediated genome editing to generate endogenous MLL-AF9 and MLL-ENL oncogenes through insertional mutagenesis in primary human hematopoietic stem and progenitor cells (HSPCs) derived from human umbilical cord blood. Engineered HSPCs displayed altered in vitro growth potentials and induced acute leukemias following transplantation in immuno-compromised mice at a mean latency of 14.5 weeks. The leukemias displayed phenotypic and morphologic similarities with patient leukemia blasts including a subset with mixed phenotype, a distinctive feature seen in clinical disease.  The leukemic blasts expressed an MLL-associated transcriptional program with elevated levels of crucial MLL target genes, displayed heightened sensitivity to DOT1L inhibition, and demonstrated increased oncogenic potential ex vivo and in secondary transplant assays. Thus, genome editing to create endogenous MLL oncogenes in primary human HSPCs faithfully models acute MLL-rearranged leukemia and provides an experimental platform for prospective studies of leukemia initiation and stem cell biology in a genetic subtype of poor prognosis leukemia.
+
+DESIGN
+BM cells (sorted for hCD45) of leukemic mice (ALL) were used for global gene expression measurement using Affymetrix Microarray GeneChip platform (HG-U133 Plus 2.0). The data together with those from 70 MLL patients (ALL) and 6 control samples (same GeneChip platform) from the leukemia study group were used for unsupervised hierarchical clustering analysis Haferlach T, Kohlmann A, Wieczorek L, et al. Clinical utility of microarray-based gene expression profiling in the diagnosis and subclassification of leukemia: report from the International Microarray Innovations in Leukemia Study Group. J Clin Oncol. 2010;28(15):2529-2537). Gene expression matrix from the arrays was normalized in the same way using RMA model from Bioconductor affy package. Gene expression values were then independently filtered to remove low variance probes using Bioconductor package, genefilter 1.50. Finally, 25,000 probes were then subjected to unsupervised hierarchical clustering analysis using R packages, ape and heatmap 2.0. -------------------------------- Stanford Functional Genomics Facility
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+26311362
+

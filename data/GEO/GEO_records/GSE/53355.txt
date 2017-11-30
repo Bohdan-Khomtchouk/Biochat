@@ -1,0 +1,18 @@
+TITLE
+Preserving biological heterogeneity with personalized genomics batch correction
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Motivation: Sample source, procurement process, and other technical variations introduce batch effects into genomics data. Algorithms to remove these artifacts enhance differences between known biological covariates, but also carry potential concern of removing intra-group biological heterogeneity and thus any personalized genomic signatures. As a result, accurate identification of novel subtypes from batch corrected genomics data is challenging using standard algorithms designed to remove batch effects for class comparison analyses. Nor can batch effects be corrected reliably in future applications of genomics-based clinical tests, in which the biological groups are by definition unknown a priori. Results: Therefore, we introduce new algorithm, personalized-SVA (pSVA), blind to biological covariates corrected technical artifacts while retaining biological heterogeneity in genomic data. This algorithm facilitated accurate subtype identification in head and neck cancer from gene expression data in both formalin fixed and frozen samples. When applied to predict HPV status, pSVA improved cross- study validation even if the sample batches were highly confounded with HPV status in the training set. Availability: All analyses were performed using R version 2.15.0. The code and data used to generate the results of this manuscript is available from https://sourceforge.net/projects/psva.
+
+DESIGN
+44 Head and Neck Squamous Cell Carcinoma (HNSCC) primary tumors that were either flash frozen (29) or preserved with FFPE (15), with 4 from both. Gene expression data from 38 of these samples was also measured using different amplification kits, and are available in GSE3292 and GSE10300. Data is log2 expression, obtained from fRMA normalization.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+24907368
+

@@ -1,0 +1,18 @@
+TITLE
+Comparisons of Affymetrix Whole-Transcript Human Gene 1.0 ST array with standard 3' expression arrays
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The recently released Affymetrix Human Gene 1.0 ST array has two major differences compared with standard 3'™ based arrays: (1) it interrogates the entire mRNA transcript, and (2) it uses cDNA targets. To assess the impact of these differences on array performance, we performed series of comparative hybridizations between the Human Gene 1.0 ST and the Affymetrix HG-U133 Plus 2.0 and the Illumina HumanRef-8 BeadChip arrays. Additionally, both cRNA and cDNA targets were probed on the HG-U133 Plus 2.0 array. The results show that the overall reproducibility is best using the Gene 1.0 ST array. When looking only at the high intensity probes, the reproducibility of the Gene 1.0 ST array and the Illumina BeadChip array is equally good. Concordance of array results was assessed using different inter-platform mappings. The Gene 1.0 ST is most concordant with the HG-U133 array hybridized with cDNA targets, thus showing the impact of the target type. Agreements are better between platforms with designs which choose probes from the 3' end of the gene. Overall, the high degree of correspondence provides strong evidence for the reliability of the Gene 1.0 ST array. Keywords: Cross-platform comparison
+
+DESIGN
+Expression data from two distinct reference RNA samples: Stratagene Universal Human Reference RNA (Catalog #740000) and Ambion Human Brain Reference RNA (Catalog #6050) were generated using different labeling protocols and technology platforms. We compared the results from 4 different technical protocols: Affymetrix HG-U133 Plus 2.0 array with Message Amp from Ambion labeling (protocol A), Affymetrix HG-U133 Plus 2.0 array with Ovation from NuGen labeling (protocol N), Affymetrix Gene 1.0 ST array (protocol G) and Illumina HumanRef-8 BeadChip (protocol I) with their respective labeling methods. Samples labeling and hybridization were repeated 2 times on different days with each time 2 technical replicates for a total of 4 technical replicates per condition.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] GPL6255 Illumina humanRef-8 v2.0 expression beadchip
+
+CITATIONS
+18476829
+

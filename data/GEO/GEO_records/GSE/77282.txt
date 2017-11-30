@@ -1,0 +1,18 @@
+TITLE
+rG4-seq reveals widespread formation of G-quadruplex structures in the human transcriptome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA structures are of crucial importance for biological function and gene regulation. Guanine (G)-rich sequences in RNA can assemble to form RNA G-quadruplex (rG4) structures; specific rG4s have been shown to regulate gene expression, and are associated with human diseases. However, no transcriptome-wide method has been reported to map rG4s, limiting our understanding of the rG4 structure and its relationship with function and regulation. Here we introduce a transcriptome-wide rG4 profiling method, rG4-Seq, in which the rG4-mediated reverse transcriptase stalling is read out by next-generation sequencing at nucleotide resolution. We apply this method to human RNA and report the first global map of rG4 structures for any organism. Our analysis identifies over 3,000 rG4s, and increases to over 11,000 upon addition of a rG4 stabilizing ligand Pyridostatin (PDS). Notably, we discover that besides canonical rG4s, many rG4s are non-canonical with novel structural features such as long-loops, bulges, and 2-quartet. We also find that rG4 formation is associated with its stability, Cytosine (C)-content, and the stability of alternative RNA structures. Our data reveals that rG4s can be found in messenger RNAs (mRNAs) and long intergenic noncoding RNAs (lincRNAs). In mRNAs, rG4s are enriched in untranslated regions, and are significantly correlated with microRNA target sites and polyadenylation signals. Remarkably, we found that majority of our in vitro identified rG4s can change the in silico predicted RNA structure to uncover alternative RNA conformation.. Futhermore, the rG4s that have analogues in many ortholog genes across different species show a preferential association with RNA processing and stability. rG4-seq is a broadly applicable method that enables the RNA G4 structurome and its biological roles to be interrogated and can be readily applied in other organisms on a transcriptome-wide scale.
+
+DESIGN
+12 samples, 150 bp single-ended RNA-Seq libraries from cell extracts after performing RTS reaction in different buffers (Li, K and K+PDS rich buffer). Each of the 3 conditions has 4 libraries from independent biological replicates.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+27571552
+

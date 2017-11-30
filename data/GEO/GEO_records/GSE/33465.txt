@@ -1,0 +1,18 @@
+TITLE
+Lytic Effect of Terpeneless Cold Pressed Valencia Orange Oil on Methicillin-Resistant Staphylococcus aureus
+
+ORGANISM
+Staphylococcus aureus
+
+SUMMARY
+Staphylococcus aureus has been recognized as an important cause of human disease for more than 100 years.  Resistance to multiple classes of antibiotics is becoming an increasingly difficult problem in the management of methicillin-resistant S. aureus (MRSA) and vancomycin-intermediate resistant S. aureus (VISA) infections. One approach to the MRSA and VISA problem, involves the discovery and development of new natural antimicrobials. The antimicrobial properties of essential oils of plant origin have been recognized for many years. In this study 0.1% of commercial cold pressed terpeneless Valencia orange oil (CPV) showed inhibitory and lytic activity against MRSA and VISA. To identify the mechanisms of action of CPV genomic response of CPV treated MRSA was analyzed by transcriptional profiling. Results showed alteration in the expression of cell wall peptidoglycan biosynthesis associated genes in the CPV treated cells.  Transmission electron microscopic observation of CPV treated MRSA cells exhibited cell wall damage and cell lysis.  Overall results of this study suggest that CPV may be a potential anti-staphylococcal agent for MRSA.
+
+DESIGN
+Overnight grown S. aureus COL was inoculated in TSB medium (20 ml) in a 50 ml Erlenmeyer flask and incubated at 37°C, with shaking at 200 rpm. Growth was measured at regular intervals at 600 nm until OD reached approximately 0.4.  Based on the GIC study ½ x MIC concentration of EO was added for 15 min of challenge. Control cultures were not challenged with EO and were also incubated for 15 min. Total bacterial RNA was isolated as previously described and the RNA samples were then converted to fluorescently-labeled cDNA and hybridized to S. aureus microarrays version 6 (NIAID's Pathogen Functional Genomics Resource Center). Hybridization signals were scanned using an Axon4000B scanner (Molecular Devices, Sunnyvale, CA ) with Acuity 6.0 software and scans were saved as TIFF image. Scans were analyzed using TIGR-Spotfinder (www.tigr.org/software/) software and the local background was subsequently subtracted. The data set was normalized by applying the LOWESS algorithm using TIGR-MIDAS (www.tigr.org/software/) software. The normalized log2 ratio of test/reference signal for each spot was recorded. Genes with less than three data points were considered unreliable, and their data points were discarded. The averaged log2 ratios for each remaining gene on the 6 replicate slides were ultimately calculated. Significant changes of gene expression were identified with SAM (significance analysis of microarrays; www.tat.stanford.edu/~tibs/SAM/index.html. Contents of raw data files: Channel A = Cy3 dye Channel B = Cy5 dye
+
+PLATFORM
+GPL14812 JCVI PFGRC Staphylococcus aureus array v6
+
+CITATIONS
+22372962
+

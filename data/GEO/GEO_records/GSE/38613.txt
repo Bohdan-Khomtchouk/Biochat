@@ -1,0 +1,18 @@
+TITLE
+Relevance of Chromosome 2p Gain in Early Binet Stage A Chronic Lymphocytic Leukemia (SNP)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chronic lymphocytic leukemia (CLL) is a clinically heterogeneous disease characterized by chromosomal aberrations of prognostic significance. Recent studies showed that gain of chromosome 2p is a recurrent lesion in CLL. We investigated the 2p gain and its relationship with prognostic biomarkers in a prospective series of 287 early-stage CLLs (Binet A). The 2p gain was detected by FISH in 17 patients (6%) and further characterized by single nucleotide polymorphism-array. Overall, unfavorable cytogenetic deletions, i.e. del(11)(q23) and del(17)(p13) (P=0.002) as well as unmutated (UM) status of IGHV (P < 1×10-4) and CD38 (P < 1×10-4) and ZAP-70 positive expression (P=0.003) were significantly more prevalent in 2p gain cases. Furthermore, 2p gained patients showed a significantly higher occurrence of stereotyped HCDR3 sequences compared to 2p normal CLLs (P=0.009). Among the stereotyped subsets, the incidence of subset #1 in 2p positive patients was significantly higher than that found in the remaining CLLs (P=0.031). Finally, gene expression profiling analysis identified a number of genes significantly upregulated in 2p gain CLLs. Among those located at 2p, NCOA1 and ROCK2 are known for their involvement in tumor progression in several human cancers, whereas among those located in different chromosomes, CAV1 at 7q31.1 has been recently identified to play a critical role in CLL progression. Our study indicates that 2p gain is a recurrent lesion in early CLL, correlated with the major biological and cytogenetic risk markers of the disease. Moreover, we provide insights to define novel candidate genes that may play additional pathogenetic roles in CLL.
+
+DESIGN
+This series of microarray experiments contains the genome-wide profiles of purified B-cell chronic lymphocytic leukemia (B-CLL) cells obtained from 10 patients (Binet stage A) showing 2p gain alteration. Peripheral blood mononuclear cells from B-CLL patients were isolated by Ficoll-Hypaque density-gradient centrifugation and the proportion of CD5/CD19/CD23 triple positive B cells in the suspension was determined by direct immunofluorescence performed using a FACS-sort flow cytometer with antibodies to: CD19 FITC/PE, CD23 PE and CD5 Cy-Chrome. If B-CLL cells were less than 90%, T cells, NK cells and monocytes were removed by negative selection using CD3, CD56, CD16, and CD14 monoclonal antibody treatment followed by magnetic beads. 250 nanograms of genomic DNA was processed and, in accordance with the manufacturer's protocols, 90 micrograms of fragmented biotin-labeled DNA were hybridized on GeneChip Human Mapping 250K NspI Arrays (Affymetrix Inc.). The arrays were scanned using the GeneChip Scanner 3000 7G. The images were acquired using Affymetrix GeneChip® Operating Software (GCOS version 1.4). Copy number values for individual SNPs were extracted and converted from CEL files into signal intensities using GTYPE 4.1 and Affymetrix Copy Number Analysis Tool (CNAT 4.0.1) softwares. The raw data for individual SNPs were extracted from CEL files and converted into signal intensities using GTYPE 4.1 and Affymetrix Copy Number Analysis Tool (CNAT 4.0.1) softwares using the Hidden Markov Model algorithm with a genomic smoothing window set to 0. After the pre-processing, piecewise constant estimates of the underlying local DNA copy number (CN) variation was calculated using the DNAcopy Bioconductor package, which looks for optimal breakpoints using circular binary segmentation (CBS).
+
+PLATFORM
+GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array
+
+CITATIONS
+23044996
+

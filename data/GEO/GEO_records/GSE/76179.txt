@@ -1,0 +1,18 @@
+TITLE
+Small RNA transcriptome in distinct cell types of the jejunal intestinal epithelium of germfree and conventionalized mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We evaluated miRNA expression profiles by next-generation high-throughput small RNA-sequencing in distinct IEC subtypes of germ-free (GF) and conventionalized (CV) mice. We used the highly characterized Sox9-EGFP transgenic mouse model, which permits the isolation and analysis of four distinct IEC populations using fluorescence-activated cell sorting (FACS) based on differing levels of cellular EGFP intensity. These are Sox9-EGFP Low (actively cycling IESCs), Sox9-EGFP Sublow (progenitor cells), Sox9-EGFP Neg (mostly differentiated enterocytes as well as goblet cells and Paneth cells), and Sox9-EGFP High (primarily EECs).
+
+DESIGN
+To assess the effect of microbiota on these distinct IEC populations, we used four pairs of female GF Sox9-EGFP littermates. One littermate from each pair was randomly selected at 8-10 weeks of age for conventionalization. Following a two-week conventionalization, the jejunal epithelial tissue from both the CV and GF littermates were harvested and IECs were sorted by FACS. RNA was isolated from the four sorted populations from each animal, as well as from non-sorted (NS) IECs, and subject to small RNA sequencing. Sequencing was performed in two groups, each of which contained small RNA libraries from sorted and unsorted IECs of two GF animals and two CV animals. miRNAs and their isomiRs were aligned and quantified using our previously described method (Baran-Gale, Plos-One, 2013). To avoid noise introduced by lowly expressed transcripts, we analyzed only robustly expressed miRNAs, defined as those with an expression of at least 100 reads per million mapped (RPMM).
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28053090
+

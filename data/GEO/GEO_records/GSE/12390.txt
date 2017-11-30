@@ -1,0 +1,18 @@
+TITLE
+A high efficiency system for the generation and study of human induced pluripotent stem cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Direct reprogramming of human fibroblasts to a pluripotent state has been achieved through ectopic expression of the transcription factors OCT4, SOX2, and either cMYC and KLF4 or NANOG and LIN28. Little is known, however, about the mechanisms by which reprogramming occurs, which is in part limited by the low efficiency of conversion. To this end, we sought to create a doxycycline-inducible lentiviral system to convert primary human fibroblasts and keratinocytes into human induced pluripotent stem (hiPS) cells. hiPS cells generated with this system were molecularly and functionally similar to human embryonic stem (hES) cells, demonstrated by gene expression profiles, DNA methylation status, and differentiation potential. While expression of the viral transgenes was required for several weeks in fibroblasts, we found that 10 days was sufficient for the reprogramming of keratinocytes, suggesting that the kinetics of reprogramming are cell-type dependent. Using our inducible system, we developed a strategy to induce hiPS cell formation at high frequency by generating differentiated cells that contain the viral transgenes in a pattern that enables successful induction of pluripotency. Upon addition of doxycycline to differentiated hiPS-derived cells, we obtained “secondary” hiPS cells at a frequency at least 100-fold greater than the initial conversion. The ability to reprogram cells with high efficiency provides a unique platform to dissect the underlying molecular and biochemical processes that accompany nuclear reprogramming.
+
+DESIGN
+Total RNA was isolated from control HUES lines, hBJ (donor line) 4 primary HIPS lines and 1 secondary HIPS line using an RNeasy kit (Qiagen). Samples were processed as independent triplicates. RNA probes for microarray hybridization were prepared and hybridized to Affymetrix HGU133 plus 2 oligonucleotide microarrays. Data was extracted and analyzed using Rosetta Resolver system. During importation, the data was subjected to background correction, intrachip normalization, and the Rosetta Resolver Affymetrix GeneChip error model (Weng et al, 2006). For the generation of intensity plots, genes that showed greater than a two-fold difference in expression value (p < 0.01) in HUES8 hES cells and BJ fibroblasts were noted (19,663 probes) and their expression analyzed. A hierarchical clustering was performed.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18786420
+

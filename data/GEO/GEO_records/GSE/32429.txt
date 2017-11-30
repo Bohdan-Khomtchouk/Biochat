@@ -1,0 +1,18 @@
+TITLE
+Toxic effects of dietary methylmercury (MeHg) on juvenile rainbow trout
+
+ORGANISM
+Oncorhynchus mykiss
+
+SUMMARY
+Juvenile rainbow trout were fed Biodiet starter (4% body weight per day) with MeHg added at 0, 0.5, 5 and 50 ppm for six weeks. Atomic absorption spectrometry was applied to measure the level of MeHg in the whole fish body. Trout at six weeks were sampled from each group for gene expression analysis by cGRASP 16K cDNA microarrays. MeHg-exposed rainbow trout did not show overt signs of toxicity, nor were significant differences seen in mortality, length, mass, or condition factor. The chronic accumulation of total Hg in trout exhibited dose- and time-dependent patterns. The dysregulated genes have multiple functional annotations, such as involving metabolism, cellular development, ion binding and homeostasis, stress response, immune response, transcriptional regulation, hemolytic development, and apoptotic pathways. These results show that numerous molecular pathways involved in the growth and development of multiple organ systems are disrupted by exposure to moderate levels of dietary MeHg.  The dysregulated genes will be selected by further analysis and used as biomarkers for MeHg exposure in aquatic environments.
+
+DESIGN
+Juvenile rainbow trout (Oncorhynchus mykiss, average body 0.118g) were fed Biodiet Starter (Bio-Oregon) 4% of body weight per day with MeHg added at 0ppm, 0.5ppm, 5ppm and 50ppm (with ethanol as vehicle). Trout at six weeks were sampled from each group for gene expression analysis. Total RNA from individual fish was isolated using Trizol reagent  (Invitrogen) and further purified using the RNeasy MiniElute cleanup kit (Qiagen).RNA of ten fish from control group was pooled as a common reference, and total RNA of five individual fish from control and MeHg-treated groups were randomly selected for microarray experiment.  cDNA was synthesized from 1 μg pooled RNA using SuperScript II Reverse Transcriptase (Invitrogen) according to the manufacturer’s protocol. The common reference cDNA targets were labeled with Cy3 and cDNA of individual fish from each group was labeled with Cy5 using the Array 900 Expression Array Detection kit (Genisphere) according to the manufacturer’s protocol. The labeled cDNA targets were hybridized to cGRASP 16K cDNA microarrays at 50°C for 16 hours. Following the first hybridization, arrays were washed in 2X SSC, 0.2% SDS solution at 50 C 1 x 15 min, 2X SSC 1 x 15 min at room temperature, then 0.2X SSC for 1 x 15 min at room temperature. The fluorescent labeling hybridization (50 C for 4hr) utilized the Genisphere 3DNA Cy3 and Cy5 capture reagents in formamide hybridization buffer. The slides were washed as described above, and the arrays were dried by centrifugation. were scanned using the ScanArray Express (PerkinElmer) at 10 um resolution. The TIFF images of arrays were generated with ScanArray Express software and the intensities of raw data of two-channel arrays were collected by the ImaGene 6.0 (BioDiscovery). Statistical analysis of microarray data was performed using scripts written in R language with LIMMA package.
+
+PLATFORM
+GPL2716 GRASP 16K version 2
+
+CITATIONS
+23529582
+

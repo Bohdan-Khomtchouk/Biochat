@@ -1,0 +1,18 @@
+TITLE
+Identification of Rbfox1 binding in the cytoplasm of neurons by iCLIP
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Human genetic studies have identified the neuronal RNA binding protein, Rbfox1, as a candidate gene for autism spectrum disorders. While Rbfox1 functions as a splicing regulator in the nucleus, it is also alternatively spliced to produce cytoplasmic isoforms. To investigate cytoplasmic Rbfox1, we knocked down Rbfox proteins in mouse neurons and rescued with cytoplasmic or nuclear Rbfox1. Transcriptome profiling showed that nuclear Rbfox1 rescued splicing changes induced by knockdown, whereas cytoplasmic Rbfox1 rescued changes in mRNA levels. iCLIP-seq of subcellular fractions revealed that in nascent RNA Rbfox1 bound predominantly to introns, while cytoplasmic Rbox1 bound to 3' UTRs. Cytoplasmic Rbfox1 binding increased target mRNA stability and translation, and overlapped significantly with miRNA binding sites. Cytoplasmic Rbfox1 target mRNAs were enriched in genes involved in cortical development and autism. Our results uncover a new Rbfox1 regulatory network and highlight the importance of cytoplasmic RNA metabolism to cortical development and disease. In this data set, we included the data from iCLIP-seq experiments.
+
+DESIGN
+We performed iCLIP procedures to identify Rbfox1 binding in the cytoplasm. Cultured mouse forebrain neurons were irradiated with UV and a cytoplasmic fraction was purified for immunoprecipitation. An anti-Rbfox1 antibody was used to immunoprecipitate Rbfox1 target RNAs and an anti-Flag antibody was used as control. Two samples were analyzed.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26687839
+

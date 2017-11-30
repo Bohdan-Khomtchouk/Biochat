@@ -1,0 +1,18 @@
+TITLE
+Neuroblastoma is composed of two super enhancer-associated differentiation states
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Intra-tumour heterogeneity is increasingly appreciated as a determinant of tumour recurrence. Several tumour types were recently found to include phenotypically divergent cell types, reflecting lineage development stages (1,2,3). Lineage identity has been proposed to ensue super-enhancer (SE)-associated transcription factor (TF) networks (4,5), but their role in intra-tumour heterogeneity is unknown. Neuroblastoma is a paediatric tumour of the adrenergic differentiation lineage. Here we show that most neuroblastoma tumors include two types of tumor cells with highly diverging gene expression profiles. The undifferentiated mesenchymal cells and more differentiated adrenergic cells can interconvert and may relate to normal  lineage differentiation stages. ChIP-seq analysis of isogenic pairs of mesenchymal and adrenergic neuroblastoma cells revealed a distinct, highly consistent super-enhancer landscape for each cell type. Two SE-associated TF networks emerged that potentially master each cell type. Accordingly, the mesenchymal TF PRRX1 could reprogram the SE- and mRNA-profiles of adrenergic cells towards a mesenchymal state. To assess the clinical relevance of this bi-phasic system, we investigated chemo-sensitivity of both cell types. Mesenchymal cells were more resistant in vitro and were enriched in post-therapy and relapsed neuroblastoma in patients. Intra-tumor heterogeneity in neuroblastoma is therefore structured according to distinct SE-associated transcriptional programs that mediate a dynamic bi-phasic structure.
+
+DESIGN
+Cultured cells were fixed with 1% formaldehyde. Nuclei were isolated and the DNA was sheared to 200 to 300 bp fragments. Histon-bound DNA was precipitated using antibodies H3K27Ac (#4729, Abcam) and H3K4me3 (#04-745, Millipore).  De-crosslinked DNA was purified using Qiagen PCR purification kit (Qiagen) and quantified with Quant-IT Picogreen (Invitrogen). The DNA was used to generate sequencing libraries according to the manufactures procedure (Life Technologies): The DNA was end-polished, dA-tailed and adaptors with barcodes were ligated. The fragments were amplified (8 cycles) and quantified with a Bioanalyzer (Agilent). The libraries were prepped with the 5500W Flowchip v2 kit  (Life Technologies) and sequenced on the SOLiD Wildfire (Illumina) resulting in 50 bp reads. Alternatively, the libraries were sequenced using the HiSeq PE cluster kit v4 (Illumina) with the HiSeq2500 (Illumina) resulting in 125 bp reads.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL20148 AB 5500xl-W Genetic Analysis System (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

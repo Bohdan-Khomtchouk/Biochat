@@ -1,0 +1,18 @@
+TITLE
+Efficient Yeast ChIP-Seq using Multiplex Short-Read DNA Sequencing
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Short-read DNA sequencing technologies provide new tools to answer biological questions.  However, high cost and low throughput limit their widespread use, particularly in organisms with smaller genomes such as S. cerevisiae.  Although ChIP-Seq in mammalian cell lines is replacing array-based ChIP-chip as the standard for transcription factor binding studies, ChIP-Seq in yeast is still underutilized compared to ChIP-chip.  We developed a multiplex barcoding system that allows simultaneous sequencing and analysis of multiple samples using Illumina’s platform.  We applied this method to analyze the chromosomal distributions of three yeast DNA binding proteins (Ste12, Cse4 and RNA PolII) and a reference sample (input DNA) in a single experiment and demonstrate its utility for rapid and accurate results at reduced costs.  We developed a barcoding ChIP-Seq method for the concurrent analysis of transcription factor binding sites for yeast. Our multiplex strategy generated high quality data that was indistinguishable from data obtained with non-barcoded libraries.  None of the barcoded adapters induced differences relative to a non-barcoded adapter when applied to the same DNA sample. We used this method to map the binding sites for Cse4, Ste12 and Pol II throughout the yeast genome and we found 148 binding targets for Cse4, 823 targets for Ste12 and 2508 targets for PolII.  Cse4 was strongly bound to all yeast centromeres as expected and the remaining non-centromeric targets correspond to highly expressed genes in rich media, the latter constituting a novel finding.  We designed a multiplex short-read DNA sequencing method to perform efficient ChIP-Seq in yeast and other small genome model organisms.  This method produces accurate results with higher throughput and reduced cost.  Given constant improvements in high-throughput sequencing technologies, increasing multiplexing will be possible to further decrease costs per sample and to accelerate the completion of large consortium projects such as modENCODE.
+
+DESIGN
+Examination of the distribution of PolII (4 biological replicates), Cse4 (3 biological replicates) and Ste12 (3 biological replicates) using barcoded adapters and non-barcoded genomic DNA Illumina adapters. Input DNA was used as a reference sample and for scoring as well.
+
+PLATFORM
+GPL9377 Illumina Genome Analyzer II (Saccharomyces cerevisiae)
+
+CITATIONS
+19159457
+

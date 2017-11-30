@@ -1,0 +1,18 @@
+TITLE
+Chromatin accessibility maps of chronic lymphocytic leukemia identify subtype-specific epigenome signatures and transcription regulatory networks
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chronic lymphocytic leukemia (CLL) is characterized by substantial clinical heterogeneity, despite relatively few genetic alterations. To provide a basis for studying epigenome deregulation in CLL, we established genome-wide chromatin accessibility maps for 88 CLL samples from 55 patients using the ATAC-seq assay, and we also performed ChIPmentation and RNA-seq profiling for ten representative samples. Based on the resulting dataset, we devised and applied a bioinformatic method that links chromatin profiles to clinical annotations. Our analysis identified sample-specific variation on top of a shared core of CLL regulatory regions. IGHV mutation status – which distinguishes the two major subtypes of CLL – was accurately predicted by the chromatin profiles, and gene regulatory networks inferred for IGHV-mutated vs. IGHV-unmutated samples identified characteristic differences between these two disease subtypes. In summary, we found widespread heterogeneity in the CLL chromatin landscape, established a community resource for studying epigenome deregulation in leukemia, and demonstrated the feasibility of chromatin accessibility mapping in cancer cohorts and clinical research.
+
+DESIGN
+Genome-wide profiling of chromatin states and gene expression levels in 88 CLL samples from 55 individuals gave rise to 88 ATAC-seq profiles, 40 ChIPmentation profiles (10 samples, each with 3 different antibodies and matched immunoglobulin control), and 10 RNA-seq profiles. Raw sequence data has been deposited at the EBI's European Genome-phenome Archive (EGA) under the accession number EGAS00001001821 (controlled access to protect patient privacy).
+
+PLATFORM
+GPL21290 Illumina HiSeq 3000 (Homo sapiens)
+
+CITATIONS
+27346425
+

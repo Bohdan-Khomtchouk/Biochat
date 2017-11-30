@@ -1,0 +1,18 @@
+TITLE
+Mll2 is required for H3K4 trimethylation on bivalent promoters in ES cells whereas Mll1 is redundant
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Trimethylation of histone 3 lysine 4 (H3K4me3) at promoters of actively transcribed genes is a universal epigenetic mark and a key product of Trithorax-Group action. Here we show that Mll2, one of the six Set1/Trithorax-type H3K4 methyltransferases in mammals, is required for trimethylation of bivalent promoters in mouse embryonic stem cells. Mll2 is bound to bivalent promoters but also to most active promoters, which do not require Mll2 for H3K4me3 or mRNA expression. In contrast, the Set1 complex (Set1C) subunit Cxxc1 is primarily bound to active but not bivalent promoters. This indicates that bivalent promoters rely on Mll2 for H3K4me3 whereas active promoters have more than one bound H3K4 methyltransferase including Set1C. Removal of Mll1, sister to Mll2, had almost no effect on any promoter unless Mll2 was also removed indicating functional back-up between these enzymes. Except for a subset, loss of H3K4me3 on bivalent promoters did not prevent responsiveness to retinoic acid thereby arguing against a priming model for bivalency. In contrast, we propose that Mll2 is the pioneer trimethyltransferase for promoter definition in the naïve epigenome and Polycomb-Group action on bivalent promoters blocks premature establishment of active, Set1C bound, promoters.
+
+DESIGN
+ChIP-Seq to study MLL2 function using H3K4me3 (12 samples), H3K27me3 (4 samples), Pol2 (1 sample) or GFP (7 samples) antibody, and 6 RNA-Seq profiles
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24423662
+

@@ -1,0 +1,18 @@
+TITLE
+Functional Importance of eRNAs for Estrogen-dependent Gene Transcriptional Activation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The functional importance of gene enhancers in regulated gene expression is well established. In addition to widespread transcription of long non-coding RNA (ncRNA) transcripts in mammalian cells, bidirectional ncRNAs referred to as eRNAs are present on enhancers. However, it has remained unclear whether these eRNAs are functional, or merely a reflection of enhancer activation. Here, we report that 17 β-estradiol (E2)-bound estrogen receptor alpha (ERα) on enhancers causes a global increase in eRNA transcription on enhancers adjacent to E2 upregulated coding genes. These induced eRNAs, as functional transcripts, appear to exert important roles for the observed ligand-dependent induction of target coding genes, causing an increased strength of specific enhancer:promoter looping initiated by ERα binding. Cohesin, present on many ERα-regulated enhancers even prior to ligand treatment, apparently contributes to E2-dependent gene activation by stabilizing E2/ERα/eRNA-induced enhancer:promoter looping. Our data indicate that eRNAs are likely to exert important functions in many regulated programs of gene transcription.
+
+DESIGN
+The ChIP-seqs in this study measure the binding landscape of master transcription regulator of estrogen signaling - ERα, together with common histone marks including H3K27ac and H3K4me1 in MCF7 cells. These data serve as the basis to understand the enhancer map and subsequent analysis of eRNA expression using GRO-seq. The GRO-seq measures the trancription of nascent RNAs in the genome. From MCF7 cells treated with veichle or estrodial, we could identify estrogen-regulated eRNAs and subsequently could study their functions.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+23728302
+

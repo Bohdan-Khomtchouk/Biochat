@@ -1,0 +1,18 @@
+TITLE
+Global RNA recognition patterns of post‐transcriptional regulators Hfq and CsrA revealed by UV crosslinking in vivo
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344
+
+SUMMARY
+The molecular roles of many RNA‐binding proteins in bacterial post‐transcriptional gene regulation are not well understood. Approaches combining in vivo UV crosslinking with RNA deep sequencing (CLIP‐seq) have begun to revolutionize the transcriptome‐wide mapping of eukaryotic RNA‐binding protein target sites. We have applied CLIP‐seq to chart the target landscape of two major bacterial post‐transcriptional regulators, Hfq and CsrA, in the model pathogen Salmonella Typhimurium. By detecting binding sites at single‐nucleotide resolution, we identify RNA preferences and structural constraints of Hfq and CsrA during their interactions with hundreds of cellular transcripts. This reveals 3′‐located Rho‐independent terminators as a universal motif involved in Hfq–RNA interactions. Additionally, Hfq preferentially binds 5′ to sRNA‐target sites in mRNAs, and 3′ to seed sequences in sRNAs, reflecting a simple logic in how Hfq facilitates sRNA–mRNA interactions. Importantly, global knowledge of Hfq sites significantly improves sRNA‐target predictions. CsrA binds AUGGA sequences in apical loops and targets many Salmonella virulence mRNAs. Overall, our generic CLIP‐seq approach will bring new insights into post‐transcriptional gene regulation by RNA‐binding proteins in diverse bacterial species.
+
+DESIGN
+To detect the binding sites for Salmonella Hfq and CsrA we collected three biological replicates of Salmonella strain SL1344 where either the hfq or csrA gene was fused to a 3xFLAG tag. Half of each replicate culture was irradiated with UV light (254 nm, 800 mJ/cm2) (+CL), while the other half was left untreated (-CL). Bacteria were lysed and the FLAG-tagged protein was immunoprecipitated using a monoclonal anti-FLAG antibody. The samples were treated with benzonase nuclease, calf intestine phophorylase, and polynucleotide kinase in the presence of radioactive gamma-ATP. Samples were separated with SDS-PAGE followed by transfer to nitrocellulose membranes. Radioactively labelled RNA-protein complexes were eluted from membranes and treated with Proteinase K. Purified RNA was used as input for library preparation using the NEB Next Small RNA Library kit.
+
+PLATFORM
+GPL20056 Illumina NextSeq 500 (Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344)
+
+CITATIONS
+27044921
+

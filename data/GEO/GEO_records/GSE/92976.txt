@@ -1,0 +1,18 @@
+TITLE
+Genome-wide transcriptional start site mapping and sRNA identification in the pathogen Leptospira interrogans
+
+ORGANISM
+Leptospira interrogans serovar Manilae
+
+SUMMARY
+Leptospira are emerging zoonotic pathogens transmitted from animals to humans typically through contaminated environmental sources of water and soil. Transcriptional regulation of pathogenic Leptospira spp. underlying the adaptive response to different hosts and environmental conditions remains elusive. In this study, we provide the first global Transcriptional Start Site (TSS) map of a Leptospira species. RNA was obtained from the pathogen Leptospira interrogans grown at 30° (optimal in vitro temperature) and 37°C (host temperature) and selectively enriched for 5' ends of native transcripts. Primary TSS (pTSS) was identified for 2,865 genes, accounting for 67% of the total genome. The majority of the TSSs were located between 0 to 10 nucleotides from the translational start site. Comparative dRNA-seq analysis revealed conservation of most pTSS at 30° and 37°C. Promoter prediction algorithms allow the identification of the binding sites of the alternative sigma factor sigma 54. However, other motifs were not identified indicating that Leptospira consensus promoter sequences are inherently different from the E. coli model. RNA sequencing also identified 277 and 226 putative small regulatory RNAs (sRNAs) at 30°C and 37°C, respectively, including 8 validated sRNAs by Northern blots. These results provide the first global view of transcriptional start sites and the repertoire of sRNAs in L. interrogans, and will establish a foundation for future experimental work on gene regulation under various environmental conditions including those in the host.
+
+DESIGN
+To detect the transcripts expressed by L. interrogans and identify TSS, we collected cultures grown to the exponential phase at 30 and 37°C. Total RNA was extracted and subjected to rRNA depletion. Directional cDNA libraries were prepared from enriched fragmented mRNA. To allow selective enrichment of native 5′ ends of transcripts for the determination of transcription start sites (TSS), RNA samples were also treated with terminator 5‘-phosphatedependent exonuclease (TEX) followed by tobacco acid pyrophosphatase (TAP) treatment prior to cDNA library construction. The cDNA libraries of the different samples (30-TEX(-)TAP(-) / 30-TEX(-)TAP(+) / 30-TEX(+)TAP(+) / 30-RNAseq / 37-TEX(-)TAP(-) / 37-TEX(-)TAP(+) / 37-TEX(+)TAP(+) / 37-RNAseq) were sequenced on an Illumina HiSeq2500 instrument (Illumina).
+
+PLATFORM
+GPL21582 Illumina HiSeq 2500 (Leptospira interrogans serovar Manilae)
+
+CITATIONS
+Anna Zhukova, Luis Guilherme Fernandes, Perrine Hugon, Christopher J. Pappas, Odile Sismeiro, Jean-Yves Coppée, Christophe Becavin, Christophe Malabat, Azad Eshghi, Jun-Jie Zhang, Frank X. Yang and Mathieu Picardeau. Genome-Wide Transcriptional Start Site Mapping and sRNA Identification in the Pathogen Leptospira interrogans. Front. Cell. Infect. Microbiol. 2017 January. doi:10.3389/fcimb.2017.00010
+

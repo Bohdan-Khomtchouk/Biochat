@@ -1,0 +1,18 @@
+TITLE
+Genome-wide methylation analysis detects genes specific to breast cancer hormone receptor status and risk of recurrence
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To better understand the biology of hormone receptor-positive and negative breast cancer and to identify methylated gene markers of disease progression, we performed a genome-wide methylation array analysis on 103 primary invasive breast cancers and 21 normal breast samples using the Illumina Infinium HumanMethylation27 array that queried 27,578 CpG loci. Estrogen and/or progesterone receptor-positive tumors displayed more hypermethylated loci than ER-negative tumors. However, the hypermethylated loci in ER-negative tumors were clustered closer to the transcriptional start site compared to ER-positive tumors. An ER-classifier set of CpG loci was identified, which independently partitioned primary tumors into ER-subtypes. Forty (32 novel, 8 previously known) CpG loci showed differential methylation specific to either ER-positive or ER-negative tumors.  Each of the 40 ER-subtype-specific loci was validated in silico using an independent, publicly available methylome dataset from The Cancer Genome Atlas (TCGA).  In addition, we identified 100 methylated CpG loci that were significantly associated with disease progression; the majority of these loci were informative particularly in ER-negative breast cancer. Overall, the set was highly enriched in homeobox containing genes. This pilot study demonstrates the robustness of the breast cancer methylome and illustrates its potential to stratify and reveal biological differences between ER-subtypes of breast cancer. Further, it defines candidate ER-specific markers and identifies potential markers predictive of outcome within ER subgroups.
+
+DESIGN
+Frozen breast cancer tissues that were excised from patients with Stage 1-3 disease prior to treatment (n=103) were retrieved from Surgical Pathology at Johns Hopkins Hospital (Baltimore, Maryland) and confirmed to contain > 50% epithelial cells.  Normal breast organoids were prepared by enzymatic digestion of reduction mammoplasty specimens (n=15; median patient age = 52 years, range 47 to 71).  Normal ducts from breast tissue > 2 cm away from the tumor (n=6) were isolated from cryosections using laser-capture micro-dissection (PALM MicroBeam, Carl Zeiss Microimaging, North America).  To determine the differences in breast cancer biology/behavior between ER subtypes, we characterized methylation patterns at 8376 selected CpG loci according to ER status.  These loci met two criteria: 1) showed the most variation across primary tumors (SD > 0.100) and 2) had probe detection p-values < 0.0001.  To develop an epigenomic signature that predicts outcome in patients with breast cancer, we conducted differential methylation analysis on primary tumors from recurrent versus non-recurrent breast cancers.  We used a subgroup of 82 well-annotated, invasive breast tumors derived from the discovery set of 103 tumors that included 44 ER-positive (7 recurrences) and 38 ER-negative (11 recurrences) breast cancers and independently queried the ER-positive and ER-negative tumor groups
+
+PLATFORM
+GPL8490 Illumina HumanMethylation27 BeadChip (HumanMethylation27_270596_v.1.2)
+
+CITATIONS
+21825015
+

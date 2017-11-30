@@ -1,0 +1,18 @@
+TITLE
+Development of gene expression profiles for tumour derived endothelium vs. matched healthy tissues (in renal cell carcinoma, colorectal cancer and colorectal metastasis to the liver)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In order to establish a profile of tumour vascular expression which could potentially be targeted therapeutically, we performed agilient microarray analysis on 4 samples each or renal cell carcinoma, colorectal cancer, colorectal metastasis to the liver and matched healthy tissues. The tumours had recieved no treatement prior to resection. The expression profiles were compared by one colour microarray analysis between matched healthy and tumour tissue. Genes expressed in all/or most of the comparisons were taken forward for further analysis. See acompanying publication: Wragg JW, Finnity JP, Anderson JA, Ferguson HJM, Bhatt RI, Murray PG, Heath VL, Bicknell R. MCAM is a vascular target in renal cancer. Cancer Research. 2016. The endothelum was isolated using collagenase V digestion, and dynabead magnetic bead isolation conjugated to lectin from Ulex Europaeus (Ulex Europaeus Agglutinin I (UEA I)), which binds human endothelial cells.
+
+DESIGN
+Endothelium was isolated from fresh, matched, healthy and tumour tissue, total RNA was extracted using the Qiagen miRNAeasy kit, processed into cRNA using the Agilient low input, one colour labelling kit, hybridised onto the 8 x 66k whole human genome expression microarrays. Data was normalised in R64 and comparison matrices between matched Tumour and Healthy endothelum were constructed. Genes upregualated in all the comparisons were taken forward for further analysis.
+
+PLATFORM
+GPL14550 Agilent-028004 SurePrint G3 Human GE 8x60K Microarray (Probe Name Version)
+
+CITATIONS
+26921326
+

@@ -1,0 +1,18 @@
+TITLE
+The Origin Recognition Complex interacts with a subset of metabolic genes tightly linked to origins of replication.
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The origin recognition complex (ORC) marks chromosomal sites as replication origins and is essential for replication initiation. In yeast, ORC also binds to DNA elements called silencers, where its primary function is to recruit silent information regulator (SIR) proteins to establish transcriptional silencing. Indeed, silencers function poorly as chromosomal origins. Several genetic, molecular, and biochemical studies of HMR-E have led to a model proposing that when ORC becomes limiting in the cell, such as in the orc2-1 mutant, only sites that bind ORC tightly, such as HMR-E, remain fully occupied by ORC, while lower affinity sites, including most origins, lose ORC occupancy. Since HMR-E possessed a unique non-replication function, we reasoned that other tight sites might reveal novel functions for ORC on chromosomes. Therefore, we comprehensively determined ORC “affinity” genome-wide by performing an ORC ChIP-on-chip in ORC2 and orc2-1 strains. Here we describe a novel group of orc2-1-resistant ORC-interacting chromosomal sites (ORF-ORC sites) that did not function as replication origins or silencers. Instead, ORF-ORC sites were comprised of protein-coding regions of highly transcribed metabolic genes. In contrast to the ORC-silencer paradigm, transcriptional activation promoted ORC association with these genes. Remarkably, ORF-ORC genes were enriched in proximity to origins of replication, and, in several instances, were transcriptionally regulated by these origins. Taken together, these results suggest a surprising connection between ORC, replication origins and cellular metabolism.
+
+DESIGN
+Two arrays are used, one for WT orc2 and one for mutant orc2-1.  On each array Cy3 was the IP and Cy5 was the input (total sheared genomic DNA).  The arrays were custom designed to tile the S. cerevisiae genome (as of 8/16/2006) with a 51 nt probe every 32 bp.  The probes alternated strands as they tiled the genome.  Microarray synthesis, fluorescent-labeling of ChIP DNA, hybridization of labeled DNA to the microarray, and scanning of the microarray after hybridization were all performed by NimbleGen at a NimbleGen facility.
+
+PLATFORM
+GPL9529 UW-Madison Saccharomyces cerevisiae 380K tiling array 51mer oligos 2006-10-12
+
+CITATIONS
+19997491
+

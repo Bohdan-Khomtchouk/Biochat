@@ -1,0 +1,18 @@
+TITLE
+Improved genome-wide mapping of uncapped and cleaved transcripts in eukaryotes—GMUCT 2.0
+
+ORGANISM
+Arabidopsis thaliana ; Homo sapiens
+
+SUMMARY
+The advent of high-throughput sequencing has led to an explosion of studies into the diversity, expression, processing, and lifespan of RNAs.  Recently, three different high-throughput sequencing-based methods have been developed to specifically study RNAs that are in the process of being degraded.  All three methods—genome-wide mapping of uncapped and cleaved transcripts (GMUCT), parallel analysis of RNA ends (PARE), and degradome sequencing—take advantage of the fact that Illumina sequencing libraries use T4 RNA ligase 1 to ligate an adapter to the 5’ end of RNAs that have a free 5’-monophosphate.  This condition for T4 RNA ligase 1 substrates means that mature mRNAs are not substrates of the enzyme because they have a 5’-cap.  As a result, these sequencing libraries are specifically made up of clones of decapped or degrading mRNAs and the 3’ fragment of cleaved miRNA and siRNA targets.  In this paper, we present a massively streamlined protocol for GMUCT that takes 2-3 days and can be initiated with as little as 5 µg of starting total RNA and involves only one gel size-selection step.  We show that the results are similar to libraries made using the previous GMUCT protocol and PARE.
+
+DESIGN
+GMUCT libraries were made from flower buds of the Arabidopsis thaliana accession Columbia (Col-0) and three human cell lines—the cervical cancer cell line HeLa, human embryonic kidney 293 T (HEK293T) cell line, and the human chronic myelogenous leukaemia cell line K562—two replicates of each.  Matched mRNA-seq libraries were made for each Col-0 GMUCT replicate. These libraries were sequenced on the Illumina HiSeq 2000 and the reads were trimmed to remove the adapter sequences (TGGAATTCTCGGGTGCCAAGGAACTCCAGTCA). The abundance of each unique read was determined, and unique reads were mapped to the Arabidopsis and human genomes, respectively.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+23867340
+

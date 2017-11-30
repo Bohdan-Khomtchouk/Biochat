@@ -1,0 +1,18 @@
+TITLE
+A-to-I RNA editing promotes developmental-stage specific gene and lncRNA expression
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+A-to-I RNA editing is a conserved and widespread phenomenon in which adenosine (A) is converted to inosine (I) by adenosine deaminases (ADARs) in double-stranded RNA regions. Although human RNAs contain millions of A-to-I editing sites, most of these occur in noncoding regions and their function is unknown. Knockdown of ADAR enzymes in C. elegans causes defects in normal development but is not lethal as it is in human and mouse, making C. elegans an ideal organism for studying the regulatory effects of RNA editing on the transcriptome. Previous studies in C. elegans indicated competition between RNA interference (RNAi) and RNA editing mechanisms, with the observation that lack of both mechanisms can suppress defects observed when only RNA editing is absent. To study the effects of RNA editing on gene expression and function, we established a novel screen that enabled to identify thousands of RNA editing sites in non-repetitive regions in the genome. These include dozens genes that are edited at their 3’UTR region. We found that these genes are mainly germline and neuronal genes and that they are downregulated in the absence of ADAR enzymes. Moreover, we discovered that almost half of these genes are edited in a developmental-specific manner. In addition, we found that many pseudogenes and other lncRNAs are also extensively downregulated in the absence of ADARs in embryo but not L4 larva developmental stage, while this downregulation is not observed in additional knockout of RNAi.  Taken together, our results suggest a role for RNA editing in normal growth and development by regulating silencing via RNAi.
+
+DESIGN
+RNA-seq samples were generated from:  1. wildtype (N2) at embryo stage  2. wildtype (N2) at L4 stage  3. ADAR mutant (BB21 or BB4) worms at L4 stage   4. ADAR mutant (BB21 or BB4) worms at embryo stage   5. ADAR mutant and RNAi mutant (BB23, BB24) at embryo stage   RNA in high and low molecular weight fractions was extracted by mirVana kit (ambion).   mRNA was sequenced from the high molecular weight fraction by means of Illumina   TruSeq® RNA Sample Preparation kit automated by Agilent Bravo Automated Liquid Handling Platform. The resulting libraries were sequences with an Illumina HiSeq 2500.
+
+PLATFORM
+GPL18245 Illumina HiSeq 2500 (Caenorhabditis elegans)
+
+CITATIONS
+28031250
+

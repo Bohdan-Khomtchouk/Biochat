@@ -1,0 +1,18 @@
+TITLE
+Expression data from MX treated Salmonella typhimurium TA100
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium
+
+SUMMARY
+We exposed Salmonella TA100 cells to 3 concentrations of MX that produced a linear concentration-response for mutagenesis with little cell killing.  We measured mutagenesis, survival, and global gene expression.  We used custom-spotted glass slides as our microarray platform and identified genes whose expressions were altered by MX treatment using three methods: (1) a Bayesian t-test, (2) an operon analysis that assumes if one gene in an operon is differentially expressed then all genes in that operon are differentially expressed, and (3) a monotonic-expression response to increasing doses of MX.  The resulting list of genes was analyzed for functional and KEGG pathway representation. Keywords: dose response
+
+DESIGN
+Suspensions were incubated with MX at 3 concentrations with shaking at 120 rpm for 30 min at 37oC and then sampled for survival, mutagenesis, and RNA extraction.  For survival, a sample was diluted 10-6, and 100 µl of this dilution were plated in triplicate onto VBME medium supplemented with excess biotin and histidine [8].  For mutagenesis, 50 µl of the treated cells were plated in duplicate onto VBME supplemented with excess biotin and trace histidine [9].  Plates were incubated for 3 days, and the colonies were counted by an automatic colony counter.  Immediately after sampling for survival and mutagenesis, RNA was extracted and purified using the Institute of Food Research Microarray Facility protocol.
+
+PLATFORM
+GPL4871 STv5B_MMCC_Locus_Tags
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling in cells with Ago1 knockdown (Affymetrix)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Argonautes, a family of highly evolutionarily conserved proteins, are the central platform for small RNA-mediated gene regulatory mechanisms which occur mainly in the cytoplasm. To understand a potential role of Argonaute 1 (Ago1) protein in the nucleus of mammalian cells in regulating gene transcription and epigenetics, we performed integrated analyses of Ago1 ChIP-sequencing (GSE40536) and gene expression profiling in cells depleted of Ago1. For gene expression profiling, we knocked down the expression of Ago1 by siRNA in PC-3 cells and compared gene expression profiles in the cells depleted of Ago1 and cells receiving control treatments. We found that Ago1 depletion resulted in more downregulated genes which were enriched in gene responsible for promoting cell cycle progression, DNA replication and repair, and response to endogenous stimuli. Integrated analyses of Ago1-chromosomal interactions and gene expression changes in response to Ago1 depletion reveal a significant correlation between Ago1-bound genes and genes altered by Ago1 depletion. These genes are significantly enriched in cancer-related pathways. Our data suggests a nuclear function of Ago1 in regulating gene transcription.
+
+DESIGN
+PC-3 cells were mock transfected or transfected with an Ago1 specific siRNA or a control siRNA. Each treatment was done in duplicates.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24086155
+

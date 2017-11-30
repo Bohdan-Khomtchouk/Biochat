@@ -1,0 +1,18 @@
+TITLE
+Host RAW264.7 macrophage transcript profile following Brucella melitensis, B. neotomae, and B. ovis infections
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Brucella dynamically engage macrophages while trafficking to an intracellular replicative niche as macrophages, the first line of innate host defense, attempt to eliminate organisms.  Brucella melitensis, B. neotomae, and B. ovis are highly homologous, yet exhibit a range of host pathogenicity and specificity.  RAW 264.7 macrophages infected with B. melitensis, and B. ovis exhibit divergent patterns of bacterial persistence and clearance; conversely, B. melitensis and B. neotomae exhibit similar patterns of infection.  Evaluating early macrophage interaction with Brucella spp. allows discovery of host entry and intracellular translocation mechanisms, rather than bacterial replication.  Microarray analysis of macrophage transcript levels following a 4 hr Brucella spp. infection revealed 130 probe sets altered compared to uninfected macrophages; specifically, 72 probe sets were increased and 58 probe sets were decreased with any Brucella spp.  Interestingly, much of the inflammatory response was not regulated by the number of Brucella gaining intracellular entry, as macrophage transcript levels were often equivalent among B. melitensis, B. ovis, and B. neotomae infections.  An additional 33 probe sets were identified with altered macrophage transcript levels among Brucella spp. infections that may correlate with species specific host defenses and intracellular survival.  Gene ontological categorization unveiled genes altered among species are involved in cell growth and maintenance, response to external stimuli, transcription regulation, transporter activity, endopeptidase inhibitor activity and G-protein mediated signaling.  Host transcript profiles provide a foundation to understand variations in Brucella spp. infections, while structure of the macrophage response and intracellular niche of Brucella spp. will be revealed through piecewise consideration of host signaling pathways. Keywords: Macrophage, intracellular pathogen, Brucella melitensis, Brucella neotomae, Brucella ovis, inflammatory immune response, species specificity
+
+DESIGN
+Eleven MG_U74Av2 GeneChip® microarrays (Affymetrix) were independently hybridized with cRNA from uninfected macrophage samples (2 independent samples) and each of three Brucella spp. infected macrophage samples (3 independent samples for each Brucella species infection – B. melitensis, B. neotomae, and B. ovis).  All probe sets were subjected to analysis by EBarrays, a statistical analysis package in the comprehensive R archive network ( http://cran.r-project.org/ ).  Data conformity to the statistical assumptions was checked (coefficient of variation and log-normal normal model) and best fit models were utilized.  Six hypotheses of altered transcript levels were tested and probe set specific posterior probabilities (EBarrays Probability) calculated with Empirical Bayesian statistics.  The null hypothesis identified probe sets with no change among conditions and 5 experimental hypotheses identified changes in transcript among the experimental conditions.
+
+PLATFORM
+GPL81 [MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array
+
+CITATIONS
+19934366
+

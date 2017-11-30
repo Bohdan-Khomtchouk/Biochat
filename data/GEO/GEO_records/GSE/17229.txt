@@ -1,0 +1,18 @@
+TITLE
+Mouse Cells Time of Replication (ToR)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Measurment of the ToR by comapring the DNA content of the S phase and the DNA content of the G1 phase, the method is based on the method used in the paper - Replication timing of the human genome by Woodfine et al. that was published in Hum. Mol. Genet. 2004. Briefly, after staining with Propidium Iodide,  cells in G1 and S phase of the cell cycle are sorted by FACS sorter (ARIA or Vantage), DNA is then extracted from the fractions and differentially labeled with dUTP-Cy3 or dUTP-Cy5 using direct labeling (Agilent labeling kit). The labeled DNA is cohybridized to the array. Early replicating sequences correspond to the spots with high S/G1 ratio and late replicating sequences correspond to the spots with low S/G1 ratio.
+
+DESIGN
+four mouse tissues were measured (MEF, L1210, ES-stem cell, and NPC-neuronal progenitor cells derived from the same ES line), 2 replicates for each sample
+
+PLATFORM
+GPL8892 The Hebrew university Mouse 105k v1
+
+CITATIONS
+20617169
+

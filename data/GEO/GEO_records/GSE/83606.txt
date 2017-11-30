@@ -1,0 +1,18 @@
+TITLE
+Loss of the DNA methyltransferase MET1 induces H3K9 hypermethylation at PcG target genes in Arabidopsis, and relocation of H3K27 trimethylation to transposons [array]
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Dimethylation of histone H3 lysine 9 (H3K9m2) and trimethylation of histone H3 lysine 27 (H3K27m3) are two hallmarks of transcriptional repression in many organisms. In Arabidopsis thaliana, H3K27m3 is targeted by Polycomb Group (PcG) proteins and is associated with silent protein coding genes, while H3K9m2 is correlated with DNA methylation and is associated with transposons and repetitive sequences.  Recently, ectopic genic DNA methylation in the CHG context (where H is any base except G) has been observed in globally DNA hypomethylated mutants such as met1, but neither the nature of the hypermethylated loci nor the biological significance of this epigenetic phenomenon have been investigated.  Here, we generated high-resolution genome-wide maps of both H3K9m2 and H3K27m3 in wild type and met1 plants, which we integrated with transcriptional data, to explore the relationships between these two marks. We found that most of the ectopic H3K9m2 observed in met1 is not due to defects in IBM1-mediated H3K9m2 demethylation, but instead targets H3K27m3-marked genes suggesting an interplay between these two silencing marks. Furthermore, H3K9m2/DNA-hypermethylation at these PcG targets in met1 is coupled with a decrease in H3K27m3 marks, whearas H3K9m2 hypomethylated transposons become ectopically H3K27me3 hypermethylated.  Our results bear interesting similarities with cancer cells, which show global losses of DNA methylation, but ectopic hypermethylation of genes previously marked by H3K27m3. Keywords: Genome binding/occupancy profiling by genome tiling array
+
+DESIGN
+We used the met1-3 allele (Saze et al. 2003) and the salk_006042 line for isolating ibm1 mutants. met1-1st generation homozygous mutants and ibm1-1st generation homozygous mutants were isolated from a segragating population by genotyping. met1-2nd generation second mutants are the progeny of a single met1-1st generation homozygous mutant that was partially fertile. The entire shoots of 3 weeks old Arabidopsis plants (Col-0 ecotype), grown for 3 weeks under continuous light, were harvested, cross-linked as described in (Bernatavichute et al., 2007), frozen under liquid nitrogen and grown to powder (2g). Arabidopsis chromatin enriched for H3K9m2 and H3K27m3 was immunoprecipitated using an antibody that specifically recognizes H3K9m2 (Abcam 1220) and an antibody that specifically recognizes H3K27m3 (Upstate  07-449) respectively.  Unmodified H3 was immunoprecipitated using Abcam 1791-100.  Nucleosomal DNA and Input DNA were used as controls. ChIP, DNA purification and amplification were performed as in (Bernatavichute et al., 2007); Roche Nimblegen performed labelling and hybridization of the samples, washing and scanning resolution. All ChIP signals were normalized with either H3 ChIP or input genomic DNA by taking the log2 ratio and adjusted so that the average log2 ratio score across the genome was zero. 6 samples Processed data can be downloaded at http://danio.pellegrini.mcdb.ucla.edu/~hume/Deleris_PLoSGen2012_H3K9m2data.zip
+
+PLATFORM
+GPL7143 Nimblegen_HD2_Arabidopsis
+
+CITATIONS
+23209430
+

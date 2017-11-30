@@ -1,0 +1,18 @@
+TITLE
+The Prion Protein (PrP) is involved in translation via RNA granule-like mRNPs, a connection which is impaired during neurodegenerative diseases
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Cytoplasmic RNA granules have emerged as important elements of posttranscriptional and translational regulation. Stress, germinal and neuronal granules contain RNA-binding proteins capable of self-assembly due to prion-like domains. Hyperassembly mediated by these prion-like domains causes several neurodegenerative diseases. Here, we report a subset of the mammalian prion protein (PrP), also prone to self-assembly, propagation and to cause devastating diseases, is a component of naturally occurring messenger ribonucleoproteins (mRNPs) in adult mouse brains. Biomolecules co-purified with PrP revealed a multitude of diverse RNA granule associated proteins and mRNAs encoding members of the translation machinery, indicating a role in a specialized translation process. Importantly, PrP mutations linked to Creutzfeldt-Jakob disease (CJD) or fatal familial insomnia (FFI) severely impaired recovery of mRNPs from preclinical mice, possibly representing a very early pathological process. Thus, mutant PrP may cause dysfunction in RNA regulation, thereby joining the constantly expanding ranks of disease associated RNP granule proteins. The file Enrichment_analysis.xlsx contains mRNAs (FDR < 0.01) co-purified with PrP in both WT sample pools as identified by DESeq2 and the respective gene counts and log2 fold changes for CJD and FFI PrP:IP sample pools.
+
+DESIGN
+RIP-Seq analysis of mRNAs co-purified with PrP from murine brain cytoplasmic fractions in wild-type (WT), CJD and FFI mice. Each RIP-Seq and control (input) library represents a pool of 12 to 16 co-immunoprecipitation samples out of 3 to 4 mice. To control for post-homogenization artifacts, we conducted an experiment in which we prepared homogenates from WT and PrP-KO (Prnp-/-) mice of different genetic backgrounds (C57BL/6 and 129S4) and identified SNPs in RIP-Seq and control libraries to finally identify specifically co-purified mRNAs.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

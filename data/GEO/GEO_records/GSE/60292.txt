@@ -1,0 +1,18 @@
+TITLE
+RNA Expression Profiling of Human iPSC-Derived Cardiomyocytes in a Cardiac Hypertrophy Model [miRNA expression]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cardiac hypertrophy is an independent risk factor for cardiovascular disease and heart failure. There is increasing evidence that microRNAs (miRNAs) play an important role in the regulation of messenger RNA (mRNA) and the pathogenesis of various cardiovascular diseases. However, the ability to comprehensively study cardiac hypertrophy on a gene regulatory level is impacted by the limited availability of human cardiomyocytes. Human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) offer the opportunity for disease modeling. We utilized a previously established in vitro model of cardiac hypertrophy to interrogate the regulatory mechanism associated with the cardiac disease process. We performed miRNA sequencing and mRNA expression analysis on endothelin 1 (ET-1) stimulated hiPSC-CMs to describe associated RNA expression profiles. MicroRNA sequencing revealed over 250 known and 34 predicted novel miRNAs to be differentially expressed between ET-1stimulated and unstimulated control hiPSC-CMs. Messenger RNA expression analysis identified 731 probe sets with significant differential expression. Computational target prediction on significant differentially expressed miRNAs and mRNAs identified nearly 2000 target pairs.
+
+DESIGN
+To characterize miRNA and mRNA expression patterns we utilized iCell Cardiomyocytes derived from human iPSCs (hiPSC-CMs). Based on preliminary dose-response and time-course studies, we stimulated these cells with ET-1 at 10-8M for 18h. We used unstimulated control (control-CM) and ET-1 stimulated (ET1-CM) hiPSCs from 3 separate experiments as triplicate data for this study. For the analysis of miRNA expression changes after ET-1 stimulation, single-end small RNA sequencing was performed using the Ion Torrent Personal Genome Machine (PGMTM) sequencing platform.
+
+PLATFORM
+GPL17301 Ion Torrent PGM (Homo sapiens)
+
+CITATIONS
+25255322
+

@@ -1,0 +1,18 @@
+TITLE
+Spalax gene expression profiling of muscle and brain under hypoxia
+
+ORGANISM
+Rattus norvegicus ; Nannospalax galili
+
+SUMMARY
+Spalax, an underground fossoral rodant is exposed to chronic hypoxic environments. Measurements of Spalax burrows indicated 7% oxygen and up to 15% CO2. In the laboratory Spalax can survive 3% oxygen up to 14 hours as compared to rats that survive less than 4 hours at these oxygen levels. we have proposed Spalax as a model species for the investigation of hypoxia tolerance. this research has implications for many biomedical phenomena involving ischemic disease, notably heart disease and cancer. In this work we have subjected Spalax to 3%, 6% and 10% O2 levels for varying lengths of time and have profiled expression patterns and differential expression in muscle and brain, two tissues with high energy requirements. For comparison with a terrestrial mammal we have profiled RNA from rats exposed to either 21% or 6% oxygen.
+
+DESIGN
+Spalax animals, captured in the field and held in captivity were subjected to 3 different levels of hypoxia. (1) 3% O2 for 6 hrs (2) 6% O2 for 6 hrs (3) 10% O2 for 44hrs (4) 21% O2 (normoxia). For comparison, Rats were subjected to 21% and 6% oxygen. Animals were euthanized according to approved protocols and RNA extracted from muscle and brain. Samples were labeled using the Agilent low input 2-color labeling kit and hybridized to a custom Spalax microarray (8x15K format). Results were normalized and analyzed using Limma from the R bioconductor package. Differentially expressed gens were identified as well as over-represented gene onotolgy defined functions.
+
+PLATFORM
+GPL14746 Agilent-028282 Whole Rat Genome Microarray 4x44K v3 (Probe Name version) GPL15478 University of Illinois/Haifa University Spalax galili Agilent 8x15K microarray
+
+CITATIONS
+23148642
+

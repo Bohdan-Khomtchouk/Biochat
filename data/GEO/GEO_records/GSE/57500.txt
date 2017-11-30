@@ -1,0 +1,18 @@
+TITLE
+Association of genes regulated by Ezh2 and trimethylation of histone 3 lysine 27
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Differentiation of naïve CD4+ T cells into effector (Th1, Th2 and Th17) and induced regulatory (iTreg) T cells requires lineage-specifying transcription factors and epigenetic modifications that allow appropriate repression or activation of gene transcription. The epigenetic silencing of cytokine genes is associated with the repressive H3K27 trimethylation mark, mediated by Ezh2 or Ezh1 methyltransferase components of the polycomb repressive complex 2 (PRC2). EZH2 over-expression and activating mutations are implicated in tumorigenesis and correlate with poor prognosis in several tumor types 35. This spurred the development of EZH2 inhibitors which, by inducing tumor cell growth arrest and cell death, show therapeutic promise in cancer. A role for Ezh2 in suppressing Th1 and Th2 cytokine production and survival has recently been reported.  It is not entirely clear whether Ezh2-PRC2 plays a role in H3K27me3 in cytokine loci in naïve CD4+ T cells and whether H3K27me3 has a non-redundant role in T helper cell lineage differentiation and survival. Here, we investigate the effects of T cell-specific Ezh2 deletion to determine the role that Ezh2-PRC2 plays in regulating the fate of differentiating naïve CD4+ T cells. Loss of Ezh2 altered the expression of 1328 genes in Th0 and 1979 genes in iTreg cells. Gene expression changes were positively correlated in both cell types, indicating that Ezh2 targets similar genes in these cells. As expected, Ifng was one of the genes most increased in expression by following loss of Ezh2. In addition, expression of Tbx21 homolog Eomes, a transcription factor that regulates IFNG production, was also significantly increased. We then performed H3K27me3 ChIP-seq on Ezh2fl/fl and Ezh2fl/fl.CD4Cre Th0 cells. Consistent with cellular phenotype and RNA-seq data, we observed a loss of the H3K27me3 at Eomes, Il4 and Il10 loci . Very low levels of H3K27me3 marks were present at Ifng and Tbx21 loci in differentiated Ezh2fl/fl Th0 cells, suggesting that upon differentiation, upregulation or activation of transcription factors accounts for IFNG overproduction. A significant loss of H3K27me3 was observed > 2kb upstream of Gata3 locus , however this did not result in increased transcription . Of the 22381 genes tested for changes in H3K27me3, 1360 showed a statistically significant decrease in Ezh2fl/fl.CD4Cre Th0 cells, compared to wildtype. Furthermore, 404 of these genes also showed a concomitant gain in expression in Ezh2fl/fl.CD4Cre Th0 cells, suggesting that these loci are likely direct Ezh2-PRC2 targets.
+
+DESIGN
+There are 3 biological replicates each of Ezh2fl/fl.CD4Cre and Ezh2fl/fl in both Th0 and iTreg cells for the RNA-seq experiment.  There are 2 biological replicates each of Ezh2fl/fl.CD4Cre and Ezh2fl/fl in Th0 cells for the ChIP-seq experiment.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24951427
+

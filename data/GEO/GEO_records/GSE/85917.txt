@@ -1,0 +1,18 @@
+TITLE
+Single cell RNA-seq data of human hESCs to evaluate SCnorm: robust normalization of single-cell rna-seq data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Normalization of RNA-sequencing data is essential for accurate downstream inference, but the assumptions upon which most methods are based do not hold in the single-cell setting. Consequently, applying existing normalization methods to single-cell RNA-seq data introduces artifacts that bias downstream analyses. To address this, we introduce SCnorm for accurate and efficient normalization of scRNA-seq data.
+
+DESIGN
+Total 183 single cells (92 H1 cells, 91 H9 cells), sequenced twice, were used to evaluate SCnorm in normalizing single cell RNA-seq experiments. Total 48 bulk H1 samples were used to compare bulk and single cell properties. For single-cell RNA-seq, the identical single-cell indexed and fragmented cDNA were pooled at 96 cells per lane or at 24 cells per lane to test the effects of sequencing depth, resulting in approximately 1 million and 4 million mapped reads per cell in the two pooling groups, respectively.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28418000
+

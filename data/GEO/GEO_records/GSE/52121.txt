@@ -1,0 +1,18 @@
+TITLE
+A novel aCGH method for non-model organisms for assessing genomes and de-novo transcriptome sequencing reads (Danio rerio)
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Genomes and transcriptomes of non-model organisms can be analyzed using next-generation sequencing technologies, but de-novo sequencing and annotating a full eukaryotic genome is still challenging. So, -omics experimentation with non-model organisms requires a suite of technologies to obtain reliable results in a cost-effective manner. Here, a novel method for microarray-based genome analysis is presented which is especially suitable for non-model organisms. We show that it is useful for complementing regular aCGH analyses and for evaluating transcriptome next-generation sequencing reads. The principle of the method is straightforward: feature intensities obtained after hybridizing the test genome are compared with the feature intensities of a control hybridization. The control hybridization is performed with negative control probes (no targets in the control sample), and with positive control probes (with targets in the control sample). The method has in principle a resolution of a single probe and it does not depend on the structural information of a reference genome: the genomic ordering of probe targets is irrelevant. In a test, analyzing the genome content of a sequenced bacterial strain: Staphylococcus aureus MRSA252, this approach proved to be successful demonstrated by receiver operating characteristic area under the curve values larger than 0.9995.
+
+DESIGN
+DNA from twelve Danio rerio individuals was extracted, fragmented, and hybridized onto the D. rerio microarray. DNA from the pool was used as common reference, but this channel was omitted in further analyses.
+
+PLATFORM
+GPL17935 NimbleGen Danio rerio expression array [090821_Danio_MAD_Dr_135K_EXP001]
+
+CITATIONS
+24771343
+

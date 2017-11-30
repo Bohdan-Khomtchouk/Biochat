@@ -1,0 +1,18 @@
+TITLE
+Genome-wide ChIP-Seq analysis of genomic Stat3 binding sites in murine gastric tumors following stimulation with IL6 or IL11 (MACS)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The latent transcription factor STAT3 is a point of convergence for numerous oncogenic signaling pathways and is excessively activated in the majority of human epithelial cancers. STAT3 promotes many hallmarks of cancer including enhanced proliferation, increased survival, sustained angiogenesis, immune evasion and tumor-promoting inflammation. We performed chromatin immunoprecipitations (ChIP) followed by next-generation sequencing (ChIP-Seq) to identify genomic Stat3 binding sites in established gastric tumors of gp130F/F mutant mice (Tebbutt et al., 2002) following administration of recombinant human interleukin (IL)-6 or IL11. The study was designed to assess differences in Stat3 recruitment in response to IL6 and IL11, two cytokines which both activate Stat3 through the shared IL6 cytokine family receptor subunit gp130. In gp130F/F mice, a robust model for inflammation-associated intestinal-type gastric tumorigenesis, the Y757F knock-in mutation in the gp130 receptor triggers spontaneous gastric tumor formation in a strictly IL11-dependent manner, but independent of IL6 signaling (Ernst et al., 2008). Therefore, the study aimed to identify IL6- and IL11-specific Stat3 target genes. In total, we identified 948 or 961 significant Stat3-DNA interactions in gp130F/F tumors following IL6 or IL11 administration, respectively. These interactions were validated by binding motif analysis which showed that at least 30% of all Stat3-associated genomic regions comprise a Stat3 consensus binding sequence.
+
+DESIGN
+Chromatin was extracted from gastric tumor tissue of gp130F/F mice collected 60 min after a single systemic (intraperitoneal) administration of PBS (vehicle control), recombinant human IL6 or IL11 (5 ug). ChIP reactions were carried out using a Stat3-specific antibody (Santa Cruz SC-482X) and the SIGMA Imprint ChIP Kit. The ChIP DNA was sequenced with Illumina's Genome Analyzer II. Following short read alignment, significantly enriched genomic regions in each of the three samples were identified using MACS software (Zheng et al., 2008), resulting in three lists of genomic Stat3 binding sites and associated genes or microRNAs.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

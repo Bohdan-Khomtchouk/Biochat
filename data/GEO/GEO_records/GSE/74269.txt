@@ -1,0 +1,18 @@
+TITLE
+ChIP-seq of histone methylation marks in YB5 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+ChIP-seq of H3K4me2, H3K9me2, and H3K27me3 was performed in YB5 cells to determine the impact of baseline histone methylation patterns on gene reactivation by epigenetic therapy
+
+DESIGN
+Biological duplicates were performed for a total of 8 samples. For peak calling, duplicates were merged and MACS2 (H3K4me2) or SICER (H3K9me2 or H3K27me3) was used to determine significant peaks compared to Input
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27879268
+

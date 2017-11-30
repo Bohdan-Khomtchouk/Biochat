@@ -1,0 +1,18 @@
+TITLE
+Microarray expression profiling of C. elegans N2 L4 control(RNAi) vs. mdt-15(RNAi)
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+We previously showed that the C. elegans Mediator subunit MDT-15 impacts expression of select genes involved in fatty acid (FA) metabolism (Taubert et al, Genes & Dev, 2006). To comprehensively identify processes downstream of MDT-15 in an unbiased manner, we set out to globally discover new MDT-15-dependent genes. Keywords: Expression profiling, RNAi depletion
+
+DESIGN
+We used expression microarrays to compare the transcriptional profiles in wild-type (N2) worms that were fed for 40 hr (i.e. allowed to synchronously develop to larval stage L4) with bacteria harboring vectors for either control or mdt-15 RNA-interference (RNAi). Note that array #4 is a dye-swap. To identify statistically significant changes in gene expression following MDT-15 depletion we analyzed the raw data using “linear models for microarray data” (limma). In total we found 187 genes that were downregulated, and 120 genes that were upregulated (P-value cutoff 0.05). An alternative approach, “statistical analysis of microarrays” (SAM), revealed similar numbers and similar sets of affected genes (data not shown).
+
+PLATFORM
+GPL5859 WASHU_C.elegans_22.5K_V1
+
+CITATIONS
+18454197
+

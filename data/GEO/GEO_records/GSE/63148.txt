@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis of the effect of Vibrio alginolyticus infection on the innate immunity-related complement pathway in Epinephelus coioides
+
+ORGANISM
+Epinephelus coioides
+
+SUMMARY
+Purpose: Next-generation sequencing (NGS) has revolutionized  analysis of the immune response to V. alginolyticus in Epinephelus coioides larvae, we used high-throughput deep sequencing technology to study the effect of infection on gene expression. Methods: Epinephelus coioides larvae (30-days-old) were injected with V. alginolyticus , and fish were sacrificed at 24 h after infection. Ten wild-type Epinephelus coioides larvae were used to build an EST library for transcriptome analysis. The library products were prepared for sequencing analysis using an Illumina HiSeq™ 2000. Raw data were saved as fastq files. The following were removed: reads with adaptors, reads in which over 10% bases were unknown, and low quality reads (i.e., the percentage of bases of quality value ≤ 5 exceeds 50% in the read). Clean reads were mapped to reference sequences using SOAP aligner/soap2 . The randomness of RNA fragmentation was used to construct the library, and the numbers of reads mapped to the reference sequence were calculated. The RPKM method (Reads Per kb per Million reads) was used to calculate gene expression level, and differentially expressed genes (DEGs) Results: A total of 114,851,002 reads were assembled, consisting of 9,687,355,560 nucleotides; these were further assembled into 209,082 contigs with a mean length of 372 bp. Gene ontology (GO) analysis of the transcriptome revealed 12 cellular component subcategories, 16 molecular function subcategories, and 42 biological process subcategories (P value < 0.05). A total of 32664 Epinephelus coioides genes were mapped to the Kyoto Encyclopedia of Genes and Genomes (KEGG); 1504 differentially expressed genes (DEGs) were subsequently identified, in 12 categories (P value < 0.05). Vibrio  infection affected the expression of genes involved in complementation, coagulation cascades, pathogen (Staphylococcus aureus) infection, phagosome activity, antigen processing, and the antigen presentation pathway. Conclusions: We conclude that the complement pathway of innate immunity and the hepicidin antimicrobial peptide may play important roles in the defense of Epinephelus coioides larvae against V. alginolyticus, and the immune response may activate at 4h after bacterial infection. These results implicate the complement pathway signal pathway in immunity during V. alginolyticus infection at early developmental stages, enhancing our understanding of the mechanisms underlying the immune response to Vibrio infection in Epinephelus coioides.
+
+DESIGN
+Comparing Vibrio infected mRNA profile with non-infected mRNA profile of Epinephelus coioides by RNA-seq
+
+PLATFORM
+GPL19400 Illumina HiSeq 2000 (Epinephelus coioides)
+
+CITATIONS
+25496447
+

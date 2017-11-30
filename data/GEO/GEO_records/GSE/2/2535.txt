@@ -1,9 +1,0 @@
-TITLE
-Expression data in patients with chronic myelogenous leukemia for response to imatinib
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-This is a class prediction experiment, where the class is the response status to imatinib (also called Gleevec), a drug used to treat patients with chronic myelogenous leukemia (CML).  There are two data sets, a training set (from Leipzig, 8 Responders and 5 Non-Responders) and a validation set (from Mannheim, 8 Responders and 7 Non-Responders).  The objective is to identify differentially regulated genes between CML patients who respond and those who do not respond to imatinib and confirm the results in the validation data set.  The samples from blood or bone marrow of CML patients were hybridized to Affymetrix HG-U95Av2 chip and RMA was used to generate the normalized signal values. Keywords = chronic myelogenous leukemia Keywords = imatinib Keywords = cytogenetic responses Keywords = Gleevec Keywords = Affymetrix Keywords: other
-

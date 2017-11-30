@@ -1,0 +1,18 @@
+TITLE
+Genome-wide RNA-seq analysis during CRE1-mediated carbon catabolite repression in Trichoderma reesei grown in sophorose
+
+ORGANISM
+Trichoderma reesei
+
+SUMMARY
+The mechanism of carbon catabolite repression (CCR) mediated by CRE1 in Trichoderma reesei emerged as a way to adapt to the environment in which the fungus is found. In situations where there is the presence of readily available carbon sources such as glucose, the fungus activates this mechanism and inhibits the production of cellulolytic complex enzymes to avoid unnecessary energy expenditure. CCR has been well described for the growth of T. reesei in cellulose and glucose, however, little is known about this process when the carbon source available to the fungus is sophorose, one of the most potent inducer of cellulase production. Thus, we performed high-throughput RNA sequencing using the Illumina/HiSeq-2000 to contribute to the understanding of CCR during cellulase formation in the presence of sophorose, by comparing the mutant Δcre1 with its parental strain, QM9414. Of the 9129 genes present in the genome of T. reesei, 184 were up- and 344 down-regulated in the mutant strain Δcre1 compared to QM9414. Genes belonging to CAZy, transcription factors and transporters are among the gene classes that were repressed by CRE1 in the presence of sophorose, most of which was regulated by CRE1 in an indirect way. Overall, there was a similarity in the profile of repressed genes when compared with another inducing carbon source, cellulose. These results contribute to a better understanding of CRE1-meadiated CCR in T. reesei when glucose comes from a potent inducer as sophorose, which can be very useful in improving the production of cellulases by the biotechnology sector.
+
+DESIGN
+T. reesei (QM9414 and Δcre1) was grown in Mandels-Andreotti medium, supplemented with 1 mM of sophorose. The cultures were incubated on an orbital shaker (200 rpm) at 28°C for 2, 4 and 6 hours using sophorose as carbon source. All experiments were performed in three biological replicates. The resultant mycelia were collected by filtration, frozen and stored at -80°C until RNA extraction. After growth, total RNA was isolated from the mycelia using TRIzol® reagent. RNA-seq experiments were performed by LGC Genomics GmbH (Berlin/Germany) using the platform Illumina/HiSeq2000.
+
+PLATFORM
+GPL18110 Illumina HiSeq 2000 (Trichoderma reesei)
+
+CITATIONS
+27226768
+

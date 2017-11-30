@@ -1,0 +1,18 @@
+TITLE
+Comparative Placental Efficiency in Swine Examined Using Expression Profiling
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Background: Genome-wide detection of single feature polymorphisms (SFP) in swine using transcriptome profiling of day 25 placental RNA by contrasting probe intensities from either Meishan or an occidental composite breed with Affymetrix porcine microarrays is presented. A linear mixed model analysis was used to identify significant breed-by-probe interactions.   Results:  Gene specific linear mixed models were fit to each of the log2 transformed probe intensities on these arrays, using fixed effects for breed, probe, breed-by-probe interaction, and a random effect for array.  After surveying the day 25 placental transcriptome, 789 probes with a q-value ≤ 0.05 and |fold change| ≥ 2 for the breed-by-probe interaction were identified as candidates containing SFP. To address the quality of the bioinformatics approach, universal pyrosequencing assays were designed from Affymetrix exemplar sequences to independently assess polymorphisms within a subset of probes. Of those probes sampled from high-, medium-, and low-ranking categories, 20 of 27 were confirmed by pyrosequencing to contain SFPs.  In most cases, the 25-mer probe sequence printed on the microarray diverged from Meishan, not occidental crosses. This analysis was used to define a set of highly reliable predicted SFPs according to their probability scores.   Conclusions:  By this method we detected transition and transversion single nucleotide polymorphisms, as well as insertions/deletions.  These results demonstrate that this approach can identify polymorphisms between two breeds and/or lines of any species for which a short oligonucleotide array is available, and can be used to rapidly develop markers for genetic mapping and association analysis in species where high density genotyping platforms are otherwise unavailable.  SNPs and INDELS discovered by this approach have been publicly deposited in NCBI’s SNP repository dbSNP. This method is an attractive bioinformatics tool for uncovering breed-by-probe interactions, for rapidly identifying expressed SNPs, for investigating potential functional correlations between gene expression and breed polymorphisms, and is robust enough to be used on any Affymetrix gene expression platform. Keywords: Transcriptional profiling of Day 25 porcine placentas
+
+DESIGN
+30 samples: Breed (Meishan, Occidental) Placental Tissue, Days (25, 45, 65, 85, 105)
+
+PLATFORM
+GPL6472 Affymetrix GeneChip Porcine Genome Array probe-level
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

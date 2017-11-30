@@ -1,0 +1,18 @@
+TITLE
+Genome-wide Expression Assay Comparison Across Frozen and Fixed Postmortem Brain Tissue Samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Comparison between in vitro transcription- and cDNA-mediated annealing, selection and ligation (DASL)-based assays on brain-specific reference RNA, and postmortem frozen and formalin fixed brain tissue from autistic and control cases.  Investigation of data preprocessing techniques for DASL-assayed RNA samples from frozen brain tissue.
+
+DESIGN
+IVT-  and DASL-based expression assays were performed on 10 reference RNA samples (brain and pooled artificially degraded at 0, 10, 30, and 60 min), 4 formalin-fixed tissue-extracted RNA samples with replicates, and 57 frozen tissue-extracted RNA samples with replicates.  A subset of the 57 (N=33 samples) from frozen brain tissue assayed using the DASL-based platform were then used to test different dataset preprocessing strategies implemented in the lumi package in R/Bioconductor.  The data from frozen-tissue extracted DASL-processed RNA samples passing exclusion criteria were log2 transformed and normalized using quantile normalisation with lumi in R (quantile-normalized data available as a supplementary file linked to the Series record).
+
+PLATFORM
+GPL6883 Illumina HumanRef-8 v3.0 expression beadchip GPL13388 Illumina Human 12k DASL assay
+
+CITATIONS
+22375143
+

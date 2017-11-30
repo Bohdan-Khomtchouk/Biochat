@@ -1,0 +1,18 @@
+TITLE
+Plasmodium parasites mount an arrest response against dihydroartemisinin [P. falciparum RNA-Seq]
+
+ORGANISM
+Plasmodium falciparum
+
+SUMMARY
+Control of malaria is threatened by emerging parasite resistance to artemisinin drug (ART) therapies. The molecular details of how Plasmodium malaria parasites response to ART and how this relates to resistance is not clear. To determine how parasites respond to ART by altering gene expression, we performed a transcriptomic study of dihydroartemisinin (DHA) response in P. falciparum K1 strain and in P. berghei ANKA strain.  Microarray data from DHA-treated P. falciparum trophozoite stage parasites were compared with data from other ART treatments. Genes with consistent changes in expression were identified, which includes notably down-regulation of cytosolic ribosomal protein genes. RNA-seq data revealed a similar pattern of transcriptomic change, although the pattern was much clearer in that more than one-third of P. falciparum trophozoite genes are differentially expressed with greater statistical support for down-regulation of ribosomal protein genes. The poor overlap of differentially-expressed genes between microarray and RNA-seq and less-well defined patterns for the former suggests that the accuracy of microarray is limited by technological bias. The trophozoite response to DHA is overall “ring-like” and less “trophozoite-like”, which is consistent with previous findings that Plasmodium can enter a quiescent ring-like state to resist ART. RNA-seq data from DHA-treated P. falciparum rings reveal a more muted response, although there is considerable overlap of differentially expressed genes with DHA-treated trophozoites. In contrast, P. falciparum schizonts are unresponsive to DHA, suggesting that the protective response acts mainly to arrest parasite development through the G2/M checkpoint. The transcriptional response of P. berghei to DHA treatment in vivo in infected mice is strikingly similar to the P. falciparum in vitro ring and trophozoite responses, in which ribosomal protein genes are notably down-regulated. These results suggest Plasmodium species respond to DHA in the same way. This knowledge could be applied to outwit the parasite to deliver more effective artemisinin therapies, and maybe hinder the development of drug resistance.
+
+DESIGN
+mRNA profiles of dihydroartemisinin (DHA)-treated parasites were compared with vehicle control treated parasites in duplicate; sequence data obtained from TruSeq stranded RNA-seq libraries sequenced on Illumina MiSeq  instrument
+
+PLATFORM
+GPL19269 Illumina MiSeq (Plasmodium falciparum)
+
+CITATIONS
+26490244
+

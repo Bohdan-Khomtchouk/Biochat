@@ -1,0 +1,18 @@
+TITLE
+T-TRAP Profiling Reveals Dynamic Changes in the Transcriptome during Circuit Assembly
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Purpose: Communication between growth cones and their environment plays a central role in assembling neural circuits. We use Tandemly-Tagged Ribosome Affinity Purification (T-TRAP) of mRNA from R cells followed by RNA-seq for multiple time points during development to follow gene expression during target selection and synapse formation. Methods: We chose a ribosome trap method by modifying the N-terminus of the Drosophila ribosomal protein RpL10 with two tandemly arranged epitopes, 3X FLAG and GFP, separated by the Tobacco Etch Virus (TEV) protease site and expressed this in specific cell types using the GAL4/UAS system. cDNA libraries were prepared from mRNA associated with the affinity purified ribosomes and sequenced using an Illumina HiSeq 2000. We mapped raw reads to the D. melanogaster reference genome (release FB2013_01) with the gapped aligner Tophat. Only reads uniquely aligned were collected.Transcript expression levels were quantified using RPKM units using customized scripts written in Perl. Results: In this study, we observed massive changes in expression of cell surface proteins over short time scales (i.e. 5 fold differences in the expression of many hundreds of genes over 5 hr intervals) as R cell growth cones encounter the processes of many different neurons during their conversion from growth cones to synaptic terminals. In addition, to changes in transcripts encoding cell surface proteins, other mRNAs changed significantly as did non-coding RNAs (lincRNAs) associated with ribosomes. Although dramatic changes in transcript levels of presynaptic proteins were not observed preceding the onset of synapse formation, marked changes in the 3'-untranslated regions of these transcripts were seen. Conclusions: These studies provide a step towards merging traditional genetic and global genomic approaches to understanding cellular recognition underlying the assembly of neural circuits.
+
+DESIGN
+We chose 7 time points for RNA-seq analysis of R cells during pupal development corresponding to 24, 35, 40, 45, 53, 65 and 96 hrs after pupal formation (APF).
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+26832407
+

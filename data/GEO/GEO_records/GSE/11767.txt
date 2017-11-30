@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling of fibroblasts and lymphoblastoid cells derived from four individuals
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Fibroblasts and lymphoblastoid cells (LCLs) are the most widely used cells in genetic, genomic, and transcriptomic studies in relation to human diseases. Examining the gene expression patterns in these two cell types will provide valuable information regarding the validity of using them to study gene expression related to various human diseases. Fibroblasts and LCLs from four members of the Old Order Amish family 884 were purchased from Coriell cell repositories (Coriell Institute for Medical Research, Camden, NJ). We used microarrays to profile the patterns of gene expression in these eight cell lines. By employing the PennCNV algorithm to the Illumina HumanHap550 SNP genotyping data, we detected 13 Copy Number Variants (CNV) that exist in these four individuals. CNV-expression association analysis revealed that seven of these 13 CNVs were associated with the expression of genes within or near ( < 2Mb sweep) these CNVs at a nominal regression P value of 0.05.
+
+DESIGN
+Fibroblast GM05930 and LCL GM05931 were from individual GM05930/5931, fibroblast GM05932 and LCL GM05933 were from individual GM05932/5933, fibroblast GM05934 and LCL GM05935 were from individual GM05934/5935, fibroblast GM05936 and LCL GM05937 were from individual GM05936/5937. These four individuals are siblings within a large sibship; two of them (GM05932/5933 and GM05934/5935) have bipolar type I disorder (BPI). Five μg of total RNA from each cell line was subjected to microarray experiments using HG U133A 2.0 Array (Affymetrix, Santa Clara, CA). Affymetrix Microarray Suite 5.0 was used to quantitate expression levels and assign Calls (Flags of present, marginal, and absent) for each probe set. The CEL files were used to generate normalized expression data that were corrected by the GCRMA algorithm in GeneSpring7.2.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+19214233
+

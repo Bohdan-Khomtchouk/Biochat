@@ -1,0 +1,18 @@
+TITLE
+Monovalent and unpoised status of most genes in undifferentiated cell-enriched Drosophila testis
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+We use male gonads isolated from a Drosophila strain that allows us to obtain enough cells at their primitive status as the starting material to study the endogenous chromatin structure of undifferentiated cells using ChIP-seq. We integrate the ChIP-seq data with RNA-seq data that measures the transcriptome in a digital manner. Our genome-wide analyses indicate that the majority of differentiation genes in undifferentiated cells lack an active chromatin mark and paused Pol II; instead, they are associated with either the repressive H3K27me3 mark or no detectable mark. In order to address the possibility that distinct techniques are responsible for such a difference, we also use the Drosophila S2 cells to perform ChIP-seq and RNA-seq and compare the results directly with published work using ChIP-chip and microarray on S2 cells. For the S2 cell ChIP-chip data, we used data from the following paper: Muse GW, Gilchrist DA, Nechaev S, Shah R, Parker JS, Grissom SF, Zeitlinger J, Adelman K: RNA polymerase is poised for activation across the genome. /Nat Genet /2007, 39(12):1507-1511. The accession number for this data is: GSE6714.
+
+DESIGN
+ChIP-seq: Profiling chromatin modifications using antibodies against 3 histone modifications and RNA Pol II in S2 cells Profiling chromatin structure in bam testis using antibodies against 3 histone modifications and RNA Pol II RNA-seq: Profiling transcriptome of S2 cells using RNA-seq
+
+PLATFORM
+GPL9061 Illumina Genome Analyzer II (Drosophila melanogaster)
+
+CITATIONS
+20398323
+

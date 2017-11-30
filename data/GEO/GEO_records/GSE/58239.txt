@@ -1,0 +1,18 @@
+TITLE
+Allele-specific expression and eQTL analysis in mouse adipose tissue
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In this study we use RNAseq to explore allele specific expression (ASE) in adipose tissue of male and female F1 mice, produced from reciprocal crosses of C57BL/6J and DBA/2J strains. Comparison of the identified cis-eQTLs, to local-eQTLs, that were obtained from adipose tissue expression in two previous population based studies in our laboratory, yields poor overlap between the two mapping approaches, while both local-eQTL studies show highly concordant results. Specifically, local-eQTL studies show ~60% overlap between themselves, while only 15-20% of local-eQTLs are identified as cis by ASE, and less than 50% of ASE genes are recovered in local-eQTL studies. Utilizing recently published ENCODE data, we also find that ASE genes show significant bias for SNPs prevalence in DNase I hypersensitive sites that is ASE direction specific. We suggest a new approach to analysis of allele specific expression that is more sensitive and accurate than the commonly used fisher or chi-square statistics. Our analysis indicates that technical differences between the cis and local-eQTL approaches, such as differences in genomic background or sex specificity, account for relatively small fraction of the discrepancy. Therefore, we suggest that the differences between two eQTL mapping approaches may facilitate sorting of SNP-eQTL interactions into true cis and trans, and that a considerable portion of local-eQTL may actually represent trans interactions.
+
+DESIGN
+4 samples  - male and female, BxD and DxB adipose of pooled RNA (3 animals per pool) were analyzed with high coverage RNAseq data.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24927774
+

@@ -1,0 +1,18 @@
+TITLE
+Highly specific epigenome editing by CRISPR-Cas9 repressors for silencing of distal regulatory elements
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epigenome editing with the CRISPR/Cas9 platform is a promising technology to modulate gene expression to direct cell phenotype and to dissect the causal epigenetic mechanisms that direct gene regulation.  Fusions of the nuclease-inactive dCas9 to the KRAB repressor domain (dCas9-KRAB) can effectively silence target gene expression.  We targeted dCas9-KRAB to the HS2 enhancer, a distal regulatory element that orchestrates the expression of multiple globin genes. Genome-wide analyses demonstrated that localization of dCas9-KRAB to HS2 specifically induced H3K9 tri-methylation (H3K9me3) at that enhancer and reduced the chromatin accessibility of both the enhancer and its promoter targets.  Targeted epigenetic modification of HS2 silenced the expression of multiple globin genes, with minimal off-target changes in gene expression. These results demonstrate that repression mediated by dCas9-KRAB is sufficiently specific to disrupt the activity of individual enhancers via local modification of the epigenome. This approach enables precise modulation of epigenetic function without modifying the underlying genome sequence.
+
+DESIGN
+K562 cells were transduced with in triplicate lentivirus encoding dCas9-KRAB with gRNA targeted to the HS2 globin enhancer.  Cells transduced with dCas9-KRAB without gRNA or dCas9 with gRNA targeted to the HS2 globin enhancer were included as controls.  RNA-seq was used to identify differential expression at on-target and off-target sites. -------------------------- This dataset is the DNA-Seq component only
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

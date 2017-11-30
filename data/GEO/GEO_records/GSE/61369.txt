@@ -1,0 +1,18 @@
+TITLE
+Characterization of TCF21 downstream target regions identifies a transcriptional network linking multiple independent coronary artery disease loci
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recent meta-analyses of genome wide association studies (GWAS) have identified approximately 150 loci that are associated with coronary artery disease (CAD). To link the causal genes in these loci to functional transcriptional networks, we have used chromatin immunoprecipitation sequencing (ChIP-Seq) with human coronary artery smooth muscle cells (HCASMC) to investigate the cellular and molecular program downstream of one CAD associated transcription factor, TCF21. Analysis of the TCF21 downstream target genes for enrichment of molecular and cellular annotation terms identified processes relevant to CAD pathophysiology, including growth factor binding (PDGF, VEGF), matrix interactions (“integrin binding,” “cell adhesion”), and smooth muscle contraction (“actin filament-based processes,” “actin cytoskeleton”). Motif searches of peak sequences confirmed the canonical E-box CAGCTG as the likely binding sequence for TCF21, but also identified bZip motifs that coordinate binding of AP1 family transcription factors. Follow-up ChIP-Seq studies verified enriched binding of bZip factors JUN and JUND to TCF21 target loci. Importantly, analysis of the representation of CAD genes among TCF21 target loci showed highly significant enrichment. Further, expression quantitative trait variation mapped to target genes of TCF21 were significantly enriched among variants with low P-values in the GWAS analyses, and single nucleotide polymorphisms within TCF21 peaks were shown to be in linkage disequilibrium with CAD-associated SNPs, suggesting a functional interaction between TCF21 binding and causal variants in other CAD disease loci. Thus, data and analyses presented here provide evidence for a transcriptional regulatory network that links TCF21 function in smooth muscle cells with a number of other CAD-associated genes, and suggest that study of GWAS transcription factors may be a highly useful approach to identifying disease gene interactions and thus pathways that may be relevant to complex disease etiology.
+
+DESIGN
+We did ChIP-Seq on human coronary artery smooth muscle cells grown in SmGM-2 Smooth Muscle Growth Medium-2 including hEGF, insulin, hFGF-B and FBS, but without antibiotics (Lonza, #CC-3182. We did immunoprecipitations with two antibodies (Sigma HPA013189 and Abcam 49475). We conducted two biological replicates for each antibody, and also did an IgG control for these studies. For these experiments, sequencing was done on an Illumina GAII, single end reads. In separate set of experiments we performed ChIP-Seq for JUN (Ab sc-1694) and JUND (Ab sc-74) with the same HCASMC cells under the same culture conditions. For these studies we did one replicate for each antibody, and also included an IgG control. Sequencing for the JUN and JUND studies was paired ends, on an Illumina HiSeq machine.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

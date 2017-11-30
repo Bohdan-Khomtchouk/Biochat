@@ -1,0 +1,18 @@
+TITLE
+Cell cycle dependent variation of a CD133 epitope in human embryonic stem cell, colon cancer and melanoma cell lines.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+CD133 (Prominin1) is pentaspan transmembrane glycoprotein expressed in several stem cell populations and cancers. Reactivity with an antibody (AC133) to a glycoslyated form of CD133 has been widely used for the enrichment of cells with tumor initiating activity in xenograph transplantation assays. We have found by fluorescence-activated cell sorting that increased AC133 reactivity in human embryonic stem cells, colon cancer and melanoma cells is correlated with increased DNA content and reciprocally, that the least reactive cells are in the G1/G0 portion of the cell cycle. Continued cultivation of cells sorted on the basis of high and low AC133 reactivity results in a normalization of the cell reactivity profiles indicating that cells with low AC133 reactivity can generate highly reactive cells as they resume proliferation. The association of AC133 with actively cycling cells may contribute to the basis for enrichment for tumor initiating activity. Keywords: Gene expression profiles of cells that express the AC133 epitiope of CD133 vs. AC133 negative cells
+
+DESIGN
+Total RNA from AC133 high and negative sorted Caco2 and WM115 cells was extracted using the TRI Reagent (Molecular Research Center, Inc., Cincinnati, OH) according to the manufacturer’s protocol. Two samples each of two cell lines were analyzed as biological duplicates (8 in total). Labeled cRNA was prepared from 500 ng RNA using the Illumina® RNA Amplification Kit from Ambion (Austin, TX, USA). The Biotin labeled cRNA (750 ng) was hybridized 18 hr at 58ºC to the HumanRef-8 v2 Expression BeadChip ( > 22,000 gene transcripts; Illumina, San Diego, CA, USA) according to the manufacturer’s instructions. BeadChips were scanned with an Illumina BeadArray Reader and hybridization efficiency was monitored using BeadStudio software (Illumina) to measure internal controls built into the Illumina system. Data analysis was done in three stages. First, expression intensities were calculated for each gene probed on the array for all hybridizations (8 in total) using illumina’s Beadstudio#3 software. Second, intensity values were quality controlled and normalized: quality control was carried out by using the illumina Beadstudio detection P-value set to < 0.05 as a cutoff. This removed genes which were effectively absent from the array (that is, were not detected). All the arrays were then normalized using the normalize quantiles routine from the Affy package in Bioconductor. This procedure accounted for any variation in hybridization intensity between the individual arrays.  Finally, these normalized data were imported into GeneSpring and analyzed for differentially expressed genes. The groups of biological replicates were described to the software and significantly differentially expressed genes determined on the basis of t-tests and fold difference changes in expression level. The list of significant differentially expressed genes was compared to published gene expression results with the use of Nextbio search engine.
+
+PLATFORM
+GPL6104 Illumina humanRef-8 v2.0 expression beadchip
+
+CITATIONS
+18829544
+

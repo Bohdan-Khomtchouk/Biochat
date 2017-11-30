@@ -1,0 +1,18 @@
+TITLE
+Deinococcus radiodurans R1: wildtype strains vs. oxyR disruption strains
+
+ORGANISM
+Deinococcus radiodurans
+
+SUMMARY
+In Deinococcus radiodurans, a previously unreported special characteristic of DrOxyR (DR0615) is found with only one conserved cysteine. dr0615 gene mutant is hypersensitive to H2O2, but a little to ionizing radiation. Site-directed mutagenesis and subsequent in vivo functional analyses revealed that the conserved cysteine (C210) is necessary for sensing H2O2, but its mutation did not alter the binding characteristics of OxyR on DNA. Under oxidant stress, DrOxyR is oxidized to sulfenic acid form, which can be reduced by reducing reagents. In addition, quantitative real-time PCR and global transcription profile results showed that OxyR is not only a transcriptional activator (e.g., katE, drb0125), but also a transcriptional repressor (e.g., dps, mntH). Transcriptional profiling of  comparing wildtype strains with oxyR disruption strains under normal growth conditions. Keywords: Genetic modification
+
+DESIGN
+All genes are identified as described in the published genome sequence ( ftp://ftp.ncbi.nih.gov/genomes/Bacteria/Deinococcus_radiodurans ). PCR primer were designed by PRIMEGENS software and 2996 pairs of gene-specific primers were obtained. The rest specific primers were designed by Primer3 and screened through Blastn. In total, 3096 pairs of primers were synthesized. PCR products were generated and purified, yielding a collection of 3084 distinct open reading frames (single band). Microarrays were scanned using a GenePix 4000B. GenePix Pro 5.1 was used to quantify hydridization signals. Prior to channel normalization, microarray outputs were filtered to remove spots of poor singal quality by excluding those data points with a mean intensity less than two standard deviations above background in both channels. Normalization and statistical analysis were carried out in the R computing environment using the linear models for microarray data package (Limma). Within Limma, global LOESS normalization was carried out for each microarray. The 2-replicate spots per gene in each array were used to maximize the robustness of differential expression measurement of each gene via the " lmFit " function within Limma. One-condition experiment, wildtype strains vs. oxyR disruption strains. Four biological replicates were carried out.
+
+PLATFORM
+GPL6124 Deinococcus radiodurans 6K cDNA microarray (NC_001263, NC_001264, NC_000958, NC_000959)
+
+CITATIONS
+18270589
+

@@ -1,0 +1,18 @@
+TITLE
+High Resolution Mapping of RNA Polymerases Identifies Mechanisms of Sensitivity and Resistance to BET Inhibitors in t(8;21) AML
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Bromodomain and extra-terminal domain (BET) family inhibitors offer a new approach to treating hematological malignancies. We used precision nuclear run-on transcription sequencing (PRO-seq) to create high-resolution maps of active RNA polymerases across the genome in t(8;21) acute myeloid leukemia (AML) that are exceptionally sensitive to BET inhibitors. PRO-seq identified over 1400 genes showing impaired release of promoter-proximal paused RNA polymerases, including the stem cell factor receptor tyrosine kinase KIT that is mutated in t(8;21) AML. PRO-seq also identified an enhancer 3’ to KIT. Chromosome conformation capture confirmed contacts between this enhancer and the KIT promoter and CRISPRi-mediated repression of this enhancer impaired cell growth. PRO-seq also identified microRNAs, including MIR29C and MIR29B2 that target the anti-apoptotic factor MCL1 and were repressed by BET inhibitors. MCL1 protein was up-regulated, and inhibition of BET proteins sensitized t(8:21)-containing cells to MCL1 inhibition, suggesting a potential mechanism of resistance to BET inhibitor-induced cell death.
+
+DESIGN
+Kasumi-1 cells were treated with DMSO, 250 nM JQ1, and 125 nM MS417 for 1 and 3 hours, and PRO-seq was performed to study transcriptional changes. Kasumi-1 cells were treated with 250 nM JQ1 for 0, 15, and 30 minutes, and PRO-seq was performed. Two biological replicates were included for each time point. Primary AML patient cells were treated with DMSO and 250 nM JQ1 for 1 hour, and PRO-seq was performed to confirm trancriptional effects of BET inhibitors.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+27498870
+

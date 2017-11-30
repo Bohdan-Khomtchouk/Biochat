@@ -1,0 +1,15 @@
+TITLE
+Renormalized GSE3889 by using the parametric method
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The GeneChip data was normalized and summarized by using SuperNORM data service (Skylight Biotech Inc.). http://www.super-norm.com/eng/index.html
+
+DESIGN
+PM data of samples in GSE3889, GSM88872-GSM88891, were parametrically normalized in chip-wise manner according to the three-parameter lognormal distribution method (Konishi et. al., 2009 PLoS ONE 3: e3555. http://dx.plos.org/10.1371/journal.pone.0003555 ). Expression level of a gene was estimated by summarizing the corresponding PM data. A pseudo data was then derived in a form of antilog of the z-scores; the center of the pseudo data was 256. The pseudo data, ABS_CALL, and the normalized data (z-scores) are presented in the summary matrix file. The normalized PM data of a chip were presented in separate ascii text files.  In each of the text files, the PM data is presented in matrix form where each row of the matrix corresponds a gene and the order of PM probe data in the row is identical to that of the chip's CDF file. The parameters found in each chip data were presented in the " parameters " text file. For details for the parameters, see Konishi et al. 2009.
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Monocyte Transcriptional Networks are Associated with Tuberculin Skin Test Status in Uganda
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Understanding mechanisms of resistance to M. tuberculosis (M.tb) infection in humans could identify novel therapeutic strategies as it has for other infectious diseases.  We hypothesized that monocytes from household contacts of pulmonary tuberculosis patients that failed to convert their tuberculin skin tests (TSTNEG) would respond differently to M.tb infection when compared to matched tuberculin skin test positive controls (TSTPOS).    We obtained genome-wide transcriptional profiles of M.tb-infected peripheral blood monocytes from 10 TSTNEG and 18 TSTPOS Ugandans.  We used Gene Set Enrichment Analysis and interaction networks to identify cellular processes associated with TST status. We discovered gene sets associated with histone deacetylases that were differentially expressed when comparing TSTPOS and TSTNEG subjects.  We used small molecule inhibitors to demonstrate that histone deacetylase function is important for the pro-inflammatory response to M.tb infection in monocytes.  Monocytes from individuals who appear to resist M.tb infection differentially activate pathways controlled by histone deacetylase in response to M.tb infection when compared to those who are susceptible to infection.  These data identify a potential cellular mechanism underlying the clinical phenomenon of persistently negative tuberculin skin tests despite known exposure to an infectious contact.
+
+DESIGN
+CD14+ monocytes from 18 TSTPOS and 10 TSTNEG subjects were isolated by positive selection.  Depending on the yield, between 5E5 and 1E6 monocytes were plated in duplicate in a 24-well tissue culture plate and rested overnight at 37oC, 5% CO2.  The next day, cells were mock-infected or infected with virulent M. tuberculosis strain H37Rv at a multiplicity of infection (MOI) 10:1.  After a six hour incubation at 37C, 5% CO2, the mycobacteria were killed and total RNA harvested using TRIzol-LS (Invitrogen).  TRIzol samples were stored at -80oC until all infections were completed.  To minimize batch effects, equal numbers of TSTPOS and TSTNEG subjects were processed on each of six days and frozen aliquots of M.tb were used for infections.  RNA was extracted using the RNeasy Mini Kit with on-column DNAse digestion.  RNA was transcribed into complementary DNA, labeled, and hybridized onto Illumina HT-12 microarrays according to the manufacturer’s instructions. Probe intensities were quantified using Illumina iScan platform and processed using BeadArray without performing normalization or background correction.
+
+PLATFORM
+GPL6947 Illumina HumanHT-12 V3.0 expression beadchip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

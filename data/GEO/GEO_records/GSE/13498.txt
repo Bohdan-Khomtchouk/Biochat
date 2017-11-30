@@ -1,0 +1,18 @@
+TITLE
+Halobacterium salinarum NRC-1 VNG1451C transcription factor ChIP-chip with and without carbon sources
+
+ORGANISM
+Halobacterium salinarum NRC-1
+
+SUMMARY
+Gene regulatory networks play an important role in coordinating biochemical fluxes through diverse metabolic pathways.  The modulation of enzyme levels enables efficient utilization of limited resources as organisms dynamically acclimate to nutritional fluctuations in their environment.  Here we have identified and characterized a novel nutrient-responsive transcription factor from the halophilic archaea, AgmR. Like TrmB, its thermophilic archaeal homolog, AgmR regulates glycolytic and gluconeogenic pathways in response to sugar availability. However, using high throughput genome-scale experiments, we find that AgmR directly governs the transcription of nearly 100 additional genes encoding enzymes in diverse metabolic pathways. Genome-scale in vivo binding site location data reveals that > 60% of these are direct targets. Integration of these systems-scale datasets with metabolic reconstruction models suggests that AgmR, a sequence-specific bacterial-like regulator, interacts with the general transcription factor machinery to coordinate nitrogen and carbon metabolism with the de novo synthesis of cognate cofactors and reducing equivalents, achieving system-wide redox and energy balance.
+
+DESIGN
+Halobacterium salinarum NRC-1 (ATCC700922) ura3 parent and VNG1451C strains were grown in rich medium (CM, 250  NaCl, 20 g/L MgSO4?7H2O, 3 g/L sodium citrate, 2 g/L KCl, 10 g/L peptone) with or without varying concentrations of glucose or glycerol at 37ºC under full-spectrum white light. The cells were cross-linked with 1.2% formaldehyde, then lysed and DNA sheared via sonication. Next cleared cell lysate was subject to immunoprecipitation against an anti-myc antibody. Protein-DNA complexes were purified and DNA was isolated after protease and RNAase treatment. DNA was amplified using universal linkers, labeled directly using Kreatech 547 and 647 dyes. Samples were grown in biological duplicate. Each DNA sample was hybridized against 2 microarrays as dyefilps. At least two experiments (including biological duplicates) were carried out.
+
+PLATFORM
+GPL4664 ISB Halobacterium Whole Genome SpanKit Spotted Microarray v1.3
+
+CITATIONS
+19536205
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide HIF-1, RNA polII, and H3K4me3 binding sites in U87 and HepG2 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Hypoxia-Inducible Factor 1 (HIF-1) plays a key role in cellular adaptation to hypoxia. To better understand the determinants of HIF-1 binding and transactivation, we used ChIP-chip and gene expression profiling to define the relationship between the epigenetic landscape, sites of HIF-1 binding, and genes transactivated by hypoxia in two cell lines, HepG2 hepatoma cell line and U87 glioma cell line.
+
+DESIGN
+U87 cells were cultured for 4 hours under normoxic or hypoxic (0.5%O2) conditions. Cells were fixed with 1% formaldehyde (37°C, 10 min) and lysed with 0.5% SDS lysis buffer. Chromatin was then sonicated to 500-1000bp fragments and immunoprecipitation carried out with HIF-1α pAb (Novus Biologicals, NB 100-134). RNA polymerase II and H3K4me3 ChIP were carried out using normoxic U87 or HepG2 cell samples with RNA polymerase II mAb (Abcam, ab5408) and H3K4me3 pAb (Abcam, ab8580). Triplicate ChIPed DNA and inputs were amplified and hybridized onto the Affymetrix Gene-Chip Human Tiling 2.0R Array Set. The MAT algorithm was used to identify peaks of probe intensity (‘‘hits’’).
+
+PLATFORM
+GPL5082 [Hs_PromPR] Affymetrix Human Promoter 1.0R Array
+
+CITATIONS
+19828020
+

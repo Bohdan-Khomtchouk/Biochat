@@ -1,0 +1,18 @@
+TITLE
+ETS trancription factors PU.1 and Spi-B binding in mouse lymphoma cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Spi-B and PU.1 are highly related members of the E26-transformation-specific (ETS) family of transcription factors that have similar, but not identical, functions in B cell development. PU.1 and Spi-B are both expressed at high levels in lymphoma cell lines. We hypothesized that Spi-B and PU.1 occupy similar sites in the genome. To determine binding sites of Spi-B and PU.1, WEHI-279 mouse lymphoma cells were infected with retroviral vectors encoding 3XFLAG-tagged PU.1 or Spi-B. Anti-FLAG chromatin immunoprecipitation followed by next generation sequencing (ChIP-seq) was performed. Both transcription factors occupied approximately 2000 sites in the genome, and approximately half of these sites were bound by both factors while the other sites were unique to each factor.
+
+DESIGN
+ChIP-seq analysis for PU.1 and Spi-B was conducted in duplicate, in WEHI-279 mouse lymphoma cells were infected with retroviral vectors encoding 3XFLAG-tagged PU.1 or Spi-B. Immuno-precipitated chromatin was sequenced using Next-generation Illimuna Sequencing conducted independantly at two different sequencing cores. Between-laboratory ChIP-seq datasets were combined using mmCHIP, and  ChIP-enriched regions compared and contrasted between the two transcription factors.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25505273 , 25733685
+

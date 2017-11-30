@@ -1,0 +1,18 @@
+TITLE
+methylSig: a whole genome DNA methylation analysis pipeline
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA methylation plays critical roles in gene regulation and cellular specification without altering DNA sequences.  The wide application of reduced representation bisulfite sequencing (RRBS) and whole genome bisulfite sequencing (bis-seq) opens the door to study DNA methylation at single CpG site resolution. One challenging question is how best to test for significant methylation differences between groups of biological samples in order to minimize false positive findings. Current methods to analyze genome-wide bisulfite sequencing data use a smoothing approach or a simple statistical test based on the binomial distribution.
+
+DESIGN
+Comparative DNA methylation profiling in AML blasts and normal CD34(+) control cells
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24836530
+

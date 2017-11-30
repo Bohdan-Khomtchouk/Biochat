@@ -1,0 +1,18 @@
+TITLE
+Abiraterone acetate and di-n-butyl phthalate (DBP) response in a human fetal testis xenograft bioassay
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The goal of this study was to determine the effects of a well-characterized anti-androgen, abiraterone acetate, and a suspected human anti-androgen, di-n-butyl phthalate (DBP) on the androgenic function of human fetal testis. Human fetal testis was xenografted into the renal subcapsular space of castrated male athymic nude mice.  Hosts were treated with hCG to stimulate testosterone production in the xenografts, and were concurrently treated with either abiraterone acetate or DBP.  While abiraterone acetate (14 d, 75 mg/kg/d p.o.) dramatically reduced testosterone and the weights of androgen-sensitive host organs, DBP (14 d, 500 mg/kg/d p.o.) had no effect on androgenic endpoints. Three paired analyses were performed using the LIMMA package in R (commands lmfit and eBayes), with the Benjamini-Hochberg correction for multiple comparisons (Smyth 2005):  vehicle-treated xenografts vs. unimplanted testis (n=5), abiraterone-treated xenografts vs. matched control xenografts (n=3), and DBP-treated xenografts vs. matched control xenografts (n=3).  There were significant differences in gene expression between grafted and ungrafted samples, including dramatic upregulation of microRNAs.  Gene expression analysis also showed that abiraterone decreased expression of genes related to cell differentiation, while DBP induced expression of oxidative stress response genes and decreased expression of factors related to embryonic development.
+
+DESIGN
+17 xenograft samples were analyzed, including 5 unimplanted samples, 6 vehicle treated xenografts, 3 abiraterone acetate-treated xenografts, and 3 DBP-treated xenografts.  Samples were paired (derived from the same donor tissue) for each comparison:  vehicle vs. unimplanted (n=5), abiraterone vs. vehicle (n=3), and DBP vs. vehicle (n=3).
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24284787
+

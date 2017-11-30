@@ -1,0 +1,18 @@
+TITLE
+Identification and analysis of miRNA target genes in a cell system
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs are instructions used by the genetic programs of a cell to fine-regulate protein expression levels. In order to gain insight into the full spectrum of miRNA regulation in a particular cellular context, we have exploited the idea that doubling the quantity of the endogenous miRNAs by transfection would enhance downregulation of the normally targeted transcripts. To this end, we isolated the small RNA fraction from cells in culture and transfected it into an identical culture in an amount corresponding to that of the endogenous miRNAs. A comparative gene expression analysis between transfected and mock-transfected cells revealed a large number of modestly downregulated genes. In silico analysis using TargetScan 5 revealed that a very high number of the expressed genes are predicted targets of the endogenous miRNAs, which we identified by deep-sequencing the small RNA fraction. Network analysis of the downregulated genes showed that miRNAs are involved in the simultaneous regulation of many pathways by targeting key molecules that interact with multiple pathways, suggesting a role of miRNAs in the synchronization of the activities of different pathways. Interestingly, we found a very high percentage of the genes regulated by miRNAs to be related to genetic disorders. This suggests that miRNAs might play a key role in maintaining homeostasis in processes that result in disease states when disregulated. Such a crucial role for miRNA regulation further underlines its importance for cell and organism survival. These results also confirm the important experimental value of our methodology as a high-throughput tool for the identification of genes endogenously regulated by miRNAs.
+
+DESIGN
+miRNA-induced gene expression was measured by doubling cellular miRNA content by transfecting the endogenous small RNA fraction ( < 200 bp) into cells of the same cell type (AG01522 normal human fibroblasts). Total RNA was isolated for gene expression analysis 38 h after transfection, when the cells were actively cycling. Five biological repeats were used for the transfected and mock-transfected cells.
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide map of Six4 in C2C12 cells 24 hours post-differentiation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In this study, we used ChIP-seq to map Six4 binding profile in different C2C12 cell lines 24 hours after differentiation (T24). We performed ChIP-seq using two different antibodies: anti-Flag antibody in Flag-Six4 C2C12 cell line  or in parental C2C12 cells; a custom-made anti-Six4 antibody in shNS C2C12 cell line (a control cell line) or shSix4 C2C12 (C2C12 with stable Six4 knockdown using short hairpin RNA). We also performed ChIP-seq in parental C2C12 cells using normal rabbit IgG. We were able to identify Six4-bound loci in C2C12 T24 that were recognized by two different antibodies and showed a decrease in peak intensity in shSix4 C2C12 compared to shNS C2C12 cells.
+
+DESIGN
+We established a C2C12 cell line with stable Six4 knockdown  by short hairpin RNA (shSix4) vs. a control cell line (shNS).  We also established a C2C12 cell line with stable expression of Flag-Six4-myc  by infection of retroviruses expressing  pBABE-Flag-Six4-myc  (Flag-Six4 C2C12) vs. parental C2C12. We differentiate these cells for 24 hours before using them for ChIP-seq.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26229056
+

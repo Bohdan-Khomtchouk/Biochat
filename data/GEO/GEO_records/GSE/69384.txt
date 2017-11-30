@@ -1,0 +1,18 @@
+TITLE
+Nonsense-Mediated Decay restricts lncRNAs levels in yeast unless blocked by double-stranded RNA structure
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Antisense long non-coding (aslnc)RNAs represent a substantial part of eukaryotic transcriptomes that are, in yeast, controlled by the Xrn1 exonuclease. Nonsense-Mediated Decay (NMD) destabilizes the Xrn1-sensitive aslncRNAs (XUT), but what determines their sensitivity remains unclear. We report that 3’ single-stranded (3’-ss) extension mediates XUTs degradation by NMD, assisted by the Mtr4 and Dbp2 helicases. Single-gene investigation, genome-wide RNA analyses and double-stranded (ds)RNA mapping revealed that 3'-ss extensions discriminate the NMD-targeted XUTs from stable lncRNAs. Ribosome profiling showed that XUT are translated locking them for NMD activity. Interestingly, mutants of the Mtr4 and Dbp2 helicases accumulated XUTs, suggesting that dsRNA unwinding is a critical step for degradation. Indeed, expression of anti-complementary transcripts protects cryptic intergenic lncRNAs from NMD. Our results indicate that aslncRNAs form dsRNA that are only translated and targeted to NMD if dissociated by Mtr4 and Dbp2. We propose that NMD buffers genome expression by discarding pervasive regulatory transcripts.
+
+DESIGN
+Strand-specific transcriptome analysis of biological replicates (1) of WT and xrn1-delta cells of the S288C, W303 and SK1 (n & 2n) genetic background of S. cerevisiae; (2) of WT, dcp2-7 and upf1-delta cells; (3) of WT, xrn1-delta and dcp2-7 cells upon treatment of total RNA with Terminator 5'-Phosphate-Dependent Exonuclease. This record also contains CAGE-Seq analysis in wild-type and decapping-deficient cells of the budding yeast S. cerevisiae.
+
+PLATFORM
+GPL13272 Illumina Genome Analyzer IIx (Saccharomyces cerevisiae) GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+26805575
+

@@ -1,0 +1,18 @@
+TITLE
+RNA-seq differential expression studies: more sequence, or more replication?
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Motivation: RNA-seq is replacing microarrays as the primary tool for gene expression studies. Many RNA-seq studies have used insufficient biological replicates, resulting in low statistical power and inefficient use of sequencing resources. Results: We show the explicit trade-off between more biological replicates and deeper sequencing in increasing power to detect differentially expressed (DE) genes. In the human cell line MCF-7, adding more sequencing depth after 10M reads gives diminishing returns on power to detect DE genes, while adding biological replicates improves power significantly regardless of sequencing depth. We also propose a cost-effectiveness metric for guiding the design of large scale RNA-seq DE studies. Our analysis showed that sequencing less reads and perform more biological replication is an effective strategy to increase power and accuracy in large scale differential expression RNA-seq studies, and provided new insights into efficient experiment design of RNA-seq studies
+
+DESIGN
+Treatment (10nM E2 treatment for 24h) and control MCF7 cells are both replicated 7 times, and collected for mRNA-seq. Reads are then subsampled for statistical analysis.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24319002
+

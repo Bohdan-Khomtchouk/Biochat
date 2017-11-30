@@ -1,0 +1,18 @@
+TITLE
+RNA sequencing (RNA-SEQ) of Dnmt1 and Dnmt3a conditional knockout mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Epigenetic regulation contributes to pathogenesis of neurondegenerative disease.  We found that dis-regulation of a  242-gene subnetwork related to DNA methylation regulated neuronal differentiation are common in AD and HD. There are two DNA methyltransferases, DNMT1 and DNMT3A, in the subnetwork. DNMT1 is one of top hub genes in the network and likely to play a key regulatory role in the subnetwork. To validate that DNMT1 is a key regulator for the subnetwork, and DNMT3A not as one, we constructed two brain-specific conditional knockout mice. Methods: Cortices were dissected from Dnmt1 conditional knockout (CKO), Dnmt3a CKO, and respective littermate control mice at 18 weeks. RNA was isolated from three biological replicates for each genotype using TRIzol (Invitrogen) extraction and isopropanol precipitation. RNA samples were resuspended in water and further purified with RNeasy columns with on-column DNase treatment (Qiagen). RNA purity was assessed by measuring the A260/A280 ratio using a NanoDrop and RNA quality checked using an Agilent 2100 Bioanalyzer (Agilent Technologies). Approximately 250 ng of total RNA per sample were used for library construction by the TruSeq RNA Sample Prep Kit (Illumina) and sequenced using the Illumina HiSeq 2500 instrument according to the manufacturer's instructions. Sequence reads were aligned to mouse genome assembly mm10 and quantified using Cufflinks. Results: Genes differentially expressed in CKO mice compared to littermate control mice, or the Dnmt1 CKO signature, including GSN (the genes with the largest number of connection in the subnetwork) and SOX10 (a key transcription factor of myelination), significantly overlaps with the subnetwork. Broadly, the Dnmt1 CKO signature is enriched for genes involved in GO biological processes immune response, lipid metabolism, endocytosis, glial cell differentiation, and nerve ensheatment, consistent with biological function of the subnetwork. Moreover, the Dnmt1 CKO mice show increased predilection to seizures, an incidence also increased in patients with AD (Amatniek et al, 2006) as well as juvenile form of HD (Cloud et al, 2012). In contrast, the Dnmt3a CKO signature does not overlap with the subnetwork (p=0.07) and is not enriched for any GO biological process. Conclusions: These results suggest the Dnmt1 regulates common genes related with AD and HD while Dnmt3a has little effect.
+
+DESIGN
+All of the mice used in this study were handled in accordance with IACUC-approved protocols. Dnmt1flox/flox (Fan et al, 2001; Jackson-Grusby et al, 2001) and Dnmt3aflox/flox (Nguyen et al, 2007) mice were backcrossed onto a C57BL/6 background and crossed with Olig1-cre mice to generate Dnmt1 conditional knockout (Olig1cre/+;Dnmt1flox/flox) and littermate control (Olig1+/+;Dnmt1flox/flox) mice, and Dnmt3a conditional knockout (Olig1cre/+;Dnmt3aflox/flox) and littermate control (Olig1+/+;Dnmt3aflox/flox) mice.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25080494
+

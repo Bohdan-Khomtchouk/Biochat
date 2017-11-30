@@ -1,0 +1,18 @@
+TITLE
+Characterisation of Myocardial Infarction and Unstable Angina with mRNA Profiles from Whole Blood of individual patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Coronary artery disease (CAD) remains a leading cause of death worldwide. Acute coronary syndromes (ACS) are the spectrum of diseases arising from coronary atherosclerotic plaque rupture, ranging from unstable angina (UA; clinical symptoms of cardiac ischemia without myocardial necrosis) to myocardial infarction (MI; clinical symptoms of cardiac ischemia with myocardial necrosis). We use microrray to identify changes in pathways following MI.This study examines mRNA expression levels in human whole blood at 7 and 30 days post ACS. Patients with MI are compared to those with UA (not healthy controls), thus focusing on differences in mRNA expression due to the acute clinical events rather than underlying atherosclerosis and its treatment.
+
+DESIGN
+We recruited 26 patients presenting with acute coronary syndromes (ACS); 8 with unstable angina (UA) and 18 with MI. Supplementary files: The files contain the combined values (for each group) of the single patients' expression levels, the fold changes and the significance levels associated. Gene expression levels were estimated using probabilistic models implemented in puma (Propagating Uncertainty in Microarray Analysis, bioconductor.org), which provide estimates for the variance and credibility interval for probe level errors of each transcript. FCs were calculated after combining gene expression values within groups using Bayesian hierarchical model, incorporating probe level errors into the variance estimate. Significance levels for differentially expressed genes were detected by calculating the probability of positive log ratio (PPLR). The higher is the probability the more confident is the estimate of that positive FC, conversely the lower is the probability the more confident is the estimate of that FC to be negative. This model was implemented in the pumaComb and pumaDE modules within puma. file1 = mRNA_MI_combday30_exprs file2 = mRNA_MI_combDay7_exprs
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

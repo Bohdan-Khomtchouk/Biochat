@@ -1,0 +1,18 @@
+TITLE
+DynaMO, a package identifying transcription factor binding sites in dynamical ChIPSeq/RNASeq datasets, identifies transcription factors driving yeast ultradian and mammalian circadian cycles
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Biological processes are usually associated with genome-wide remodeling of transcription driven by transcription factors (TFs). Identifying key TFs and their spatiotemporal binding patterns are indispensable to understanding how dynamic processes are programmed. We present a computational method, dynamic motif occupancy (DynaMO), which exploits random forest modeling and clustering based enrichment analysis. DynaMO exploits TF motifs and dynamic ChIP-seq data of chromatin surrogates such as histone modifications to infer important TFs and their spatiotemporal binding in biological processes. Application of DynaMO to the yeast ultradian cycle, mouse circadian clock and human neural differentiation exhibits its accuracy and versatility. We further demonstrate the function of stress response regulators Msn2 and Msn4 as key TFs activating yeast glycolysis genes. Msn2/4 regulates the cellular transition from quiescence to growth by accumulating the intracellular acetyl-CoA level through glycolysis. We anticipate DynaMO will be generally useful for elucidating transcriptional programs in dynamic processes.
+
+DESIGN
+6 time point ChIP-seq of Msn2 and Msn4 in YMC; 7 time point WT and 11 time point msn2Δmsn4Δ RNA-seq in YMC
+
+PLATFORM
+GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

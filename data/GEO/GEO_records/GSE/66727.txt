@@ -1,0 +1,18 @@
+TITLE
+The Landscape of Antisense Gene Expression in Human Cancers [I]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+High throughput RNA sequencing has revealed pervasive transcription of human genome than previously anticipated. However, the extent of natural antisense transcripts (NATs) expression, their regulation of cognate sense genes, and the role of NATs in cancer remain poorly understood. Here, we use strand-specific paired-end RNA sequencing (ssRNASeq) data from 376 cancer patients covering 9 tissue types to comprehensively characterize the landscape of antisense expression. We found consistent antisense expression in at least 38% of annotated transcripts, which in general is positively correlated with sense gene expression. Investigations of sense/antisense pair expression across tissue types revealed lineage-specific, ubiquitous and cancer-specific antisense loci transcription. Comparisons between tumor and normal samples identified both concordant (same direction) and discordant (opposite direction) sense/antisense expression patterns. Finally, we provide oncoNAT, a catalog of cancer related genes with significant antisense transcription, which will enable future investigations of sense/antisense regulation in cancer.  Using oncoNAT we identified several functional NATs, including NKX2-1-AS that regulates the NKX2-1 oncogene and cell proliferation in lung cancer cells. Overall, this study provides a comprehensive account of NATs and supports a role for NATs regulation of tumor suppressors and oncogenes in cancer biology.
+
+DESIGN
+Strand-specific RNA sequencing data (ssRNASeq) of cancer and benign samples. SRP048484 (PRJNA262128). Five samples in this series are missing raw data: GSM1630768, GSM1630773, GSM1630781, GSM1630784 and GSM1630790
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26063736
+

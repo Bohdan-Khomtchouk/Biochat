@@ -1,0 +1,18 @@
+TITLE
+Proton Irradiation Impacts Age Driven Modulations of Cancer Progression Influenced by Immune System Transcriptome Modifications from Splenic Tissue
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Age plays a crucial role in the interplay between tumor and host; with further perturbations induced by irradiation. Proton irradiation on tumors induces biological modulations including inhibition of angiogenic and immune factors critical to “hallmark” processes impacting tumor development, in addition to physical targeting advantages. These advantages have provided promising results for proton therapy in cancer. Additionally, protons have implications for carcinogenesis risk of space travel (due to the high proportion of high energy protons in space radiation). Through a systems biology approach, we investigated how host tissue (i.e. splenic tissue) of tumor-bearing mice is altered with age, with or without whole-body proton exposure. Transcriptome analysis was performed on splenic tissue from adolescent (68 day) versus old (736 day) C57BL/6 male mice injected with Lewis lung carcinoma cells with or without three fractionations of 0.5Gy (1GeV) proton irradiation. Global transcriptome analysis indicated that proton irradiation of adolescent hosts caused significant signaling changes within splenic tissues that support carcinogenesis within the mice, as compared to old subjects. Increases in cell cycling and immunosuppression in irradiated adolescent hosts with CDK2, MCM7, CD74, and RUVBL2 as the key players were involved in the regulatory changes in host environment response (i.e. spleen). These results suggest a significant biological component to proton irradiation, operative through host age, that would indicate a modulation of host’s ability to support carcinogenesis in adolescence and the bestowal of resistance to immunosuppression, carcinogenesis, and genetic perturbation by old age.
+
+DESIGN
+For genome-wide expression profiling of tumor tissue, Mouse WG-6 BeadArray chips (Illumina, San Diego, CA) were used. Total RNA was amplified with the Ambion Illumina TotalPrep Amplification Kit (Ambion, Austin, TX) and labeled from all replicate biological samples for each condition. For spleen replicates, 9 spleen samples from adolescent with 0Gy , 10 from adolescent with 0.5Gyx3 protons, 9 from old from old with 0Gy, and 10 from old mice with 0.5Gyx3 protons, were used. All replicate samples were run individually. Total RNA was isolated and purified using TRIzol (Invitrogen) and quantified using an Agilent Bioanalyzer. Samples were deemed suitable for amplification and hybridization if they had 28s/18s = 2:1, RIN > 7. Total RNA of 500ng per sample was amplified using AmbionTotalPrep, and 1.5ug of the product was loaded onto the chips. Following hybridization at 55C, the chips were washed and then scanned using the Illumina iScan System. The data was checked with GenomeStudio (Illumina) for quality control. Data were corrected through COMBAT correction, quantile normalized, collapsed to genes from probes, then imported into MultiExperiment Viewer, MeV for analysis. Statistically significant genes were determined by applying a one-way ANOVA with an adjusted Bonferroni correction and false discovery rate (FDR) < 0.001 that resulted in a list of significant genes.
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip
+
+CITATIONS
+26253138
+

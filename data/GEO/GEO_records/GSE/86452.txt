@@ -1,0 +1,18 @@
+TITLE
+CD161+ Tconv and Treg share transcriptome and display a migratory phenotype which is modified at the inflamed site
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Regulatory T cells (Treg) are a cornerstone of immune regulation. Recent evidence indicates that human Treg show plasticity in specific settings. A subpopulation of Treg expressing CD161, a marker associated with T helper (Th)17 cells, have T effector -like characteristics and are enriched at sites of autoimmune inflammation. Here we used RNAseq to confirm the effector-like signature of CD161+ Treg and demonstrated a shared transcriptional signature between CD161+ Treg and CD161+ conventional T cells (Tconv). Pathway analysis suggested that CD161+ T cells have a migratory phenotype, expressing high levels of CCR9 and integrin α4β7, markers associated with gut homing. In response to all-trans retinoic acid, CD161+ T cells expressed higher levels of CCR9 and integrin α4β7 than CD161- T cells. Our data suggest that blood CD161+ T cells may have adopted gut homing properties upon retinoic acid exposure. In contrast to their peripheral counterparts, CD161+ T cells from the site of autoimmune arthritis have a diminished gut homing phenotype and blunted response to retinoic acid. In health, the TCRβ repertoires of CD161+ and CD161- T cells showed limited overlap whereas there is clear overlap in T cell clones from synovial fluid of autoimmune arthritis patients. We therefore propose that CD161+ and CD161- T cells are largely distinct populations in the healthy immune system but that the inflamed site creates an environment where CD161 levels in T cells can be altered, potentially contributing to disease pathogenesis.
+
+DESIGN
+Transcriptional profilling of CD161+ and CD161- Tconv, and CD161+ and CD161- Tconv from blood of healthy adult controls. The raw files provided are BAM files, and the two associated raw files are merged into one BAM file for each sample. Note: Sample 2 CD161+ Treg was excluded due to low cDNA yield
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28321213
+

@@ -1,0 +1,18 @@
+TITLE
+Characterization of the Drosophila genome at the nuclear lamina
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The nuclear lamina (NL) binds chromatin in vitro and is thought to function in its organisation, but genes that interact with the NL are unknown. Using an in vivo approach we identified 474 Drosophila genes that interact with B–type lamin, Lam. These genes are transcriptionally silent, late replicating, lack active histone marks, and are widely spaced. These factors collectively predict Lamin binding behavior, indicating the NL integrates variant and invariant chromatin features. Consistently, NE proximity is partly conserved between cell types and induction of gene expression or active histone marks reduces Lam binding. Lam target genes cluster in the genome, and these clusters are coordinately expressed during development. This genome-wide analysis gives clear insight into the nature and dynamic behavior of the genome at the NL. Keywords: DamID and expression profiling
+
+DESIGN
+DamID is based on the in vivo expression of a chimaeric protein consisting of a chromatin protein of interest fused to E. coli DNA adenine methyltransferase (Dam). Expression of low amounts of this fusion protein leads to preferential adenine methylation of DNA in the vicinity of native binding sites of the chromatin protein. Subsequently, adenine-methylated DNA fragments are isolated, labeled with a fluorescent dye, and hybridized to a microarray. Genomic binding sites of the protein can then be identified based on the methylation pattern. To correct for nonspecific binding of Dam, methylated DNA fragments from cells transfected with Dam alone served as a reference, and binding data are expressed as Dam-fusion:Dam methylation ratios. We performed DamID experiments using Drosophila Lam, encoded by the Dm0 gene, in Drosophila Kc167 cells, under various conditions. These conditions included wild-type Lam; a Lam deletion mutant of the C-terminal 4 amino acids of this protein, containing its nuclear membrane-targeting CaaX signal; cells grown in the presence of Ecdysone; cells grown in the presence of the deacetylase inhibitor trichostatin A (TSA). We also compared Lam binding profiles to mRNA expression profiles under normal conditions or in the presence of Ecdysone. For normal ( " absolute " ) mRNA expression levels, mRNA-derived probe was hybridized against genomic DNA derived probe to correct for hybridization efficiency.
+
+PLATFORM
+GPL1908 FHCRC Fly 12K v1.0
+
+CITATIONS
+16878134
+

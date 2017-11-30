@@ -1,0 +1,18 @@
+TITLE
+Allele specific timing of replication
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have characterized allele-specific regulation of replication in human cultured primary basophilic erythroblasts using TimEX-seq. We show that in most of the genome the timing of replication of the two chromosome homologs is robustly and tightly regulated since the two alleles replicate almost at the same time. We also show that small genetic differences such as SNPs and indels do not affect replication timing. We identify two major causes of replication asynchrony: the presence of large structural variants and parental imprinting.  Both are associated with the formation of asynchronously replicated domains that can reach several megabases in size. We also report that replication timing domains have a previously undetected fine structure.
+
+DESIGN
+Compare DNA content in cells in S and G1 phase of cell cycle using TimEX-seq The goal of these experiments was to measure the timing of replication in human basophilic erythroblasts in an allele-specific manner by comparing DNA content in cells in S and G1 phase of cell cycle using TimEX-seq. Cells in S phase were obtained by sorting propidium iodide stained exponentially growing basophilic erythroblasts produce after 14 days of culture of circulating  peripheral blood stem and progenitor cells. The cells in G1, which are used to normalize the results from the cells in S phase for mapability, were  circulating mononuclear cells (WBCs) which are in the G1 cell for the cell cycle at 99.5%. The processed files represent S/G1 ratio values which are surrogate values for the timing of replication.  Allele-specific TimEX-seq profiles and hi-resolution non-allele specific profiles are provided at different smoothing levels. The following processed files are derived from the multiple files as indicated below; > FNY01_3_2_Ery_MAT_S.bed is generated from FNY01_3_2_Ery_round *_S_Phase.bed > FNY01_3_2_Ery_PAT_S.bed is generated from FNY01_3_2_Ery_round *_S_Phase.bed > FNY01_3_2_Ery_MAT_G1.bed is generated from FNY01_3_2_WBC_round *_G1_600.bed FNY01_3_2_WBC_round *_G1_300.bed > FNY01_3_2_WBC_PAT_G1.bed is generated from FNY01_3_2_WBC_round *_G1_600.bed FNY01_3_2_WBC_round *_G1_300.bed > FNY01_3_2_Ery_S_G1 ratio_MAT_100kb_smooth.bedGraph is from FNY01_3_2_Ery_MAT_S.bed FNY01_3_2_Ery_MAT_G1.bed > FNY01_3_2_Ery_S_G1 ratio_PAT_100kb_smooth.bedGraph is from FNY01_3_2_Ery_PAT_S.bed FNY01_3_2_Ery_PAT_G1.bed > FNY01_3_2_Ery_S_G1 ratio_unsmooth.bedGraph, FNY01_3_2_Ery_S_G1 ratio_20Kb_smooth.bedGraph, and FNY01_3_2_Ery_S_G1 ratio_100Kb_smooth.bedGraph are from FNY01_3_2_Ery_round *_S_Phase.bed FNY01_3_2_WBC_round *_G1_600.bed FNY01_3_2_WBC_round *_G1_300.bed > FNY01_3_2 & 3_3_Ery* files are generated from 14 .bed files linked to the corresponding sample records. Please note that *3_3* files follow the same pattern as *3_2*
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

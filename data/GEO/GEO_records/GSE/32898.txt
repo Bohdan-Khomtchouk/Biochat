@@ -1,0 +1,18 @@
+TITLE
+Comprehensive identification of long non-coding RNAs expressed during zebrafish embryogenesis [RNA_seq]
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Long non-coding RNAs (lncRNAs) comprise a diverse class of transcripts that structurally resemble mRNAs but do not encode proteins. Recent genome-wide studies in human and mouse have annotated lncRNAs expressed in cell lines and adult tissues, but a systematic analysis of lncRNAs expressed during vertebrate embryogenesis has been elusive. To identify lncRNAs with potential functions in vertebrate embryogenesis, we performed a time series of RNA-Seq experiments at eight stages during early zebrafish development. We reconstructed 56,535 high-confidence transcripts in 28,912 loci, recovering the vast majority of expressed RefSeq transcripts, while identifying thousands of novel isoforms and expressed loci. We defined a stringent set of 1,133 non-coding multi-exonic transcripts expressed during embryogenesis. These include long intergenic ncRNAs (lincRNAs), intronic overlapping lncRNAs, exonic antisense overlapping lncRNAs, and precursors for small RNAs (sRNAs). Zebrafish lncRNAs share many of the characteristics of their mammalian counterparts: relatively short length, low exon number, low expression, and conservation levels comparable to introns. Subsets of lncRNAs carry chromatin signatures characteristic of genes with developmental functions. The temporal expression profile of lncRNAs revealed two novel properties: lncRNAs are expressed in narrower time windows than protein-coding genes and are specifically enriched in early-stage embryos. In addition, several lncRNAs show tissue-specific expression and distinct subcellular localization patterns. Integrative computational analyses associated individual lncRNAs with specific pathways and functions, ranging from cell cycle regulation to morphogenesis. Our study provides the first comprehensive identification of lncRNAs in a vertebrate embryo and forms the foundation for future genetic, genomic and evolutionary studies.
+
+DESIGN
+RNA-Seq for 8 zebrafish developmental stages, 2 lanes for each stage (3 for shield).
+
+PLATFORM
+GPL9319 Illumina Genome Analyzer II (Danio rerio) GPL14875 Illumina HiSeq 2000 (Danio rerio)
+
+CITATIONS
+22110045 , 23698349
+

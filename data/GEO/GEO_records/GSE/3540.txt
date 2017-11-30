@@ -1,0 +1,18 @@
+TITLE
+Characterization of an Arabidopsis thaliana mutant deficient in the GAPC gene.
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+To investigate the role of this enzyme in different plant tissues, we characterized a mutant from Arabidopsis thaliana having an insertion at the GAPC gene locus. The homozygous mutant was determined to be null respect to GAPC, as it exhibited complete absence of both expression of GAPC mRNA and enzyme activity. Transcriptome analysis demonstrated that the insertion mutant plant shows altered expression of several enzymes involved in carbohydrate metabolism. Keywords: 2 channel experiment in triplicate including a dye swap comparison
+
+DESIGN
+Arabidopsis oligonucleotide microarrays fabricated by the University of Arizona contain 26,000 oligonucleotides. The experimental and reference RNA samples were directly labeled with either Cy5-dUTP or Cy3-dUTP fluorescent dye (Amersham Pharmacia Biotech, Piscataway, NJ), using random hexamer primers (Invitrogen). Excess nucleotides and primers were removed using QIAquick PCR Purification Kit (Qiagen, Valencia, CA). Labeled samples were mixed and then hybridized to a microarray for 15 h at 60C. The slides were washed at room temperature in three wash steps: 2x SSC, 0.5% SDS; 0.5x SSC; and 0.05x SSC for 5 min each with gentle shaking. The slides were scanned with a GenePix 4000B Scanner (Axon Instruments Inc., Union City, CA). Normalization between the Cy3 and Cy5 fluorescent dye emission channels was achieved by adjusting the levels of both image intensities. The experiments were repeated three times with samples from different experiments, as biological replicates. In dye swapping experiments, the RNA samples from different experiments were labeled reciprocally, both as a biological and technical repetition for comparing the reproducibility of the experiments. The hybridization intensities of each microarray element were measured using ScanAlyze 4.24 (available at http://genome-www4.stanford.edu/MicroArray/SMD /restech.html). The two channels were normalized in log space using the z-score normalization on a 95% trimmed data set. We removed unreliable spots according to the following criteria: spots flagged as having false intensity caused by dust or background on the array were removed; and spots for which intensity was less than three fold above background were also eliminated. Data from multiple experiments were normalized (Bolstad et al., 2003) and signals from spots from different experiments were analyzed using Significance Analysis of Microarrays using the one class response (SAM, Tusher et al., 2001, http://www-stat.stanford.edu/~tibs/SAM/. ), with a false discovery rate < 10%.
+
+PLATFORM
+GPL1941 Galbraith Laboratory Operon Long Oligonucleotide Microarray version 3.0 (ATv302.01.Z)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

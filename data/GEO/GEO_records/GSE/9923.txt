@@ -1,0 +1,18 @@
+TITLE
+Indole cell signaling occurs primarily at low temperatures in Escherichia coli
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+We have shown the quorum-sensing signals acylhomoserine lactones (AHLs), autoinducer-2 (AI-2), and indole influence the biofilm formation of Escherichia coli.  Here, we investigate how the environment, i.e., temperature, affects indole and AI-2 signaling in E. coli. We show in biofilms that indole addition leads to more extensive differential gene expression at 30°C (186 genes) than at 37°C (59 genes), that indole reduces biofilm formation (without affecting growth) more significantly at 25°C and 30°C than at 37°C, and that the effect is associated with the quorum-sensing protein SdiA. The addition of indole at 30°C compared to 37°C most significantly repressed genes involved in uridine monophosphate (UMP) biosynthesis (carAB, pyrLBI, pyrC, pyrD pyrF, and upp) and uracil transport (uraA). These uracil-related genes are also repressed at 30°C by SdiA, which confirms SdiA is involved in indole signaling. Also, compared to 37°C, indole more significantly decreased flagella-related qseB, flhD, and fliA promoter activity, enhanced antibiotic resistance, and inhibited cell division at 30°C.  In contrast to indole and SdiA, the addition of (S)-4,5-dihydroxy-2,3-pentanedione (the AI-2 precursor) leads to more extensive differential gene expression at 37°C (63 genes) than at 30°C (11 genes), and, rather than repressing UMP synthesis genes, AI-2 induces them at 37°C (but not at 30°C). Also, the addition of AI-2 induces the transcription of virulence genes in enterohemorrhagic E. coli O157:H7 at 37°C but not at 30°C. Hence, cell signals cause diverse responses at different temperatures, and indole- and AI-2-based signaling are intertwined.
+
+DESIGN
+We performed seven sets of microarray experiments in LB medium (Table 2): (i) biofilm cells of the BW25113 wild-type strain grown for 7 h at 30°C vs. 37°C to determine the effect of temperature on E. coli biofilm formation (initial absorbance of 0.05), (ii) biofilm cells of the tnaA mutant grown for 7 h with 1 mM indole vs. no indole at 30°C to determine the effect of temperature on indole signaling in E. coli (initial absorbance of 0.05), (iii) biofilm cells of the tnaA mutant grown for 7 h with 1 mM indole vs. no indole at 37°C to determine the effect of temperature on indole signaling in E. coli, (iv) suspension cells of the wild-type strain vs. the sdiA mutant at an absorbance of 4.0 at 600 nm  at 30°C (since production of indole takes place primarily in the stationary phase) to discern the genes that SdiA controls (initial absorbance of 0.05), (v) biofilm cells of the sdiA mutant grown for 7 h with 1 mM indole vs. no indole at 30°C to determine gene expression in response to indole in the absence of SdiA, (vi) suspension cells of the luxS mutant with 100 micro M AI-2 vs. no AI-2 at 30°C for 3 h to determine the effect of temperature on AI-2 signaling in E. coli (initial absorbance of 0.5), and (vii) suspension cells of the luxS mutant with 100 micro M AI-2 vs. no AI-2 at 37°C for 3 h to determine the effect of temperature on AI-2 signaling in E. coli.  Ten g of glass wool (Corning Glass Works, Corning, N.Y.) was used to form large amounts of biofilms (Ren et al., 2004a) in 250 mL LB in 1 L Erlenmeyer shake flasks. RNA was isolated from the suspension and biofilm cells as described previously (Ren et al., 2004b).
+
+PLATFORM
+GPL199 [Ecoli_ASv2] Affymetrix E. coli Antisense Genome Array GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+18528414
+

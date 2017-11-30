@@ -1,0 +1,18 @@
+TITLE
+DksA Guards Elongating RNA Polymerase Against Ribosome-Stalling-Induced Arrest
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+In bacteria, translation-transcription coupling inhibits RNA polymerase (RNAP) stalling. We present evidence suggesting that, upon amino acid starvation, inactive ribosomes promote rather than inhibit RNAP stalling. We developed an algorithm to evaluate genome-wide polymerase progression independently of local noise, and used it to reveal that the transcription factor DksA inhibits promoter-proximal pausing and increases RNAP elongation when uncoupled from translation by depletion of charged tRNAs. DksA has minimal effect on RNAP elongation in vitro and on untranslated RNAs in vivo. In these cases, transcripts can form RNA structures that prevent backtracking. Thus, the effect of DksA on transcript elongation may occur primarily upon ribosome slowing/stalling or at promoter-proximal locations that limit the potential for RNA structure. We propose that inactive ribosomes prevent formation of backtrackblocking mRNA structures and that, in this circumstance, DksA acts as a transcription elongation factor in vivo.
+
+DESIGN
+Chromatin immunoprecipitation (ChIP) experiments were performed by using antibodies against RNA polymerase b subunit in wild-type and DdksA cells treated with 0.5mg/ml serine hydroxamate (SHX) or untreated. DksA and s70 enrichments were compared to RNAP enrichment by ChIP experiments using antibodies against s70 and DksA in wild-type cells (also in DdksA cells as a negative control for DksA ChIP-chip). Differentially labeled ChIP DNA and genomic DNA were competitively hybridized to an E. coli K-12 MG1655 tiling array with overlapping probes at ~12bp spacing across the entire genome. The series contains 19 datasets.
+
+PLATFORM
+GPL8708 UW-Madison Escherichia coli K-12 MG1655 tiling array (YD Design)
+
+CITATIONS
+24606919
+

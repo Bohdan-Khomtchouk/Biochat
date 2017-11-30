@@ -1,0 +1,18 @@
+TITLE
+Base-resolution mapping reveals distinct classes of N1-methyladenosine methylome in nuclear- and mitochondrial-encoded transcripts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression can be post-transcriptionally regulated via dynamic and reversible RNA modifications. N1-methyladenosine (m1A) is a recently identified mRNA modification; however, little is known about its precise location, regulation and function. Here, we develop a single-nucleotide resolution m1A profiling method, based on m1A-induced misincorporation during reverse transcription, and report distinct classes of m1A methylome in the human transcriptome. m1A in the 5’-untranslated region, particularly those located exactly at the first nucleotide of mRNA transcripts, associates with increased translation efficiency. A different subset of m1A sites exhibit a GUUCRA tRNA-like motif, are evenly distributed in the transcriptome and are dependent on the methyltransferase complex TRMT6/61A. Additionally, we show for the first time that m1A is prevalent in the mitochondrial-encoded transcripts. Manipulation of m1A level via TRMT61B, a mitochondria-localizing m1A methyltransferase, demonstrates that m1A in mitochondrial mRNA interferes with translation. Collectively, our approaches reveal distinct classes of m1A methylome and provide a resource for functional studies of m1A-mediated epitranscriptomic regulation.
+
+DESIGN
+We developed a method named " m1A-MAP " to detect m1A in both the nuclear-encoded and mitochondrial encoded  transcriptome in a single-base resolution. We first tested several available RTases (including AMV, SuperScript II, SuperScript III and TGIRT) under different conditions for their performance on capturing m1A-induced reverse transcription signature (RT1-RT10). Then we applied our methods to detect m1A sites in the human transcriptome (m1A_input_TGIRT,m1A_IP_TGIRT, m1A_IP_demethylase_TGIRT, two replicates for each sample) . We also perform m1A seq for RNA fractions below 200nt in TRMT6/61 KD cells to evaluate the substrat specifity of m1A sites in tRNA (Mock and TRMT6_61A). Lastly, we investigated the correlation between m1A-mRNAs and their translation efficiency by performing ribosome profiling (HEK293T_RNA-seq and HEK293_Ribo-seq). Please note that these data were produced from the X-ten sequencing platform, and the output raw data were pair-end. However, due to the particularity of our library construction (a random barcode of 10 nt were included in our 3' end cDNA adapter, which cannot be precisely located in Read 1), data of Read 1 were discarded and only the data of Read 2 were used in our analysis and, therefore, submitted as single-end files.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

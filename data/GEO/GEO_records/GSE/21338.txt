@@ -1,0 +1,18 @@
+TITLE
+Genome-wide Identification of SHR Direct Targets Using a Custom Agilent Promoter Array
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+SHR is a key regulator of stem cell renewal and radial patterning in the Arabidopsis root. In previous studies we showed that the SHR is a transcriptional regulator and it regulates gene transcription directly. To fully understand the SHR developmental pathway, we aim to identify its direct target at the genome scale using the ChIP-on-chip method. To this end, we have designed a promoter microarray for Arabidopsis, which contains probes that tile the intergenic regions as well as the first intron and the 3' UTR for all annotated genes including miRNA genes. Chromatin immunoprecipitation (ChIP) was performed using an anti-GFP antibody on the root of a transgenic line expressing under the SHR promoter a functional fusion protein between SHR and GFP. After labeling with Cy5 and Cy3 respectively, DNA recoverd from the ChIP and mock experiments was hybridized to the same microarray. The array was scanned using an Agilent scanner and the signal intensity for each channel was retrieved and normalized by the Agilent feature extraction software.
+
+DESIGN
+Two bilogical replicate ChIP-on-chip experiments were performed; Each array is hybridized with both ChIP and control DNA samples, which are labeled with Cy5 and Cy3 dye respectively;
+
+PLATFORM
+GPL10326 Agilent-015210 Benfey/Cui Arabidopsis custom whole genome promoter array 244k v1.0
+
+CITATIONS
+20596025
+

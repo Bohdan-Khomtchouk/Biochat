@@ -1,0 +1,18 @@
+TITLE
+Concurrent whole-genome haplotyping and copy number profiling of single cells (Illumina)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Methods for haplotyping and DNA copy number typing of single cells are paramount for studying genomic heterogeneity and enabling genetic diagnosis. Before analyzing the DNA of a single cell by microarray or next-generation sequencing, a whole-genome amplification (WGA) process is required that substantially distorts the frequency and composition of the cell’s alleles. As a consequence, haplotyping methods suffer from error-prone discrete SNP-genotypes (AA, AB, BB), and DNA copy number profiling remains difficult as true DNA copy number aberrations have to be discriminated from WGA-artifacts. Here, we developed a single-cell genome analysis method that reconstructs genome-wide haplotype architectures as well as the copy-number and segregational origin of those haplotypes by deciphering WGA-distorted SNP B-allele fractions, using a process we coin haplarithmisis. We demonstrate clinical precision of the method on single cells biopsied from human embryos to diagnose disease alleles genome wide, we advance and facilitate the detection of numerical and structural chromosomal anomalies in single cells, and can distinguish meiotic from mitotic segregation errors in a single assay.
+
+DESIGN
+Here we provide two sample sets, including (1) a reference family delivering samples applied for the development and optimization of single-cell genotyping, QC-metrics, haplarithmisis and the siCHILD algorithm. Specifically, the reference family delivers genomic DNA samples isolated from peripheral blood of two siblings 'S1' and 'S2', the mother and father of these siblings, as well as of the maternal grandmother and grandfather. Of individuals ‘S1’ and ‘S2’, six EBV-transformed lymphoblastoid single cells were also isolated, of which three were whole-genome amplified using MDA and three using PicoPlex. These multi-cell genomic DNA samples and single-cell WGA-products were hybridized to Illumina HumanCytoSNP12-v2.1 SNP-arrays following: (i) the protocol as recommended by the company and/or (ii) a modified rapid protocol as described below. Subsequently, the SNP-probe signals were interpreted by two different genotyping algorithms (GenCall and GenoSNP). Based on overall performance, we decided to use GenCall for interpreting Illumina SNP-probe signals of single-cell and multi-cell DNA samples. (2) A set of 12 families undergoing genetic diagnosis (for Mendelian disorders or translocation chromosomes) of preimplantation embryos following in vitro fertilization. In general, each family delivers genomic DNA samples isolated from peripheral blood of the two parents as well as a sibling and/or other close relatives; the specific kinships for each family are given in the 'description' column. In addition, of each family single blastomeres biopsied from preimplantation embryos obtained via in vitro fertilization of the parental gametes are also provided. All single-cell genomes were amplified by MDA. All the samples were hybridized to Illumina HumanCytoSNP12-v2.1 SNP-arrays following the rapid protocol. This data was used for clinical validation of the siCHILD algorithm.
+
+PLATFORM
+GPL13829 Illumina HumanCytoSNP-12 v2.1 BeadChip
+
+CITATIONS
+25983246
+

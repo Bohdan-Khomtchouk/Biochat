@@ -1,0 +1,18 @@
+TITLE
+Mapping of hepatic expression quantitative trait loci (eQTLs) in a Han Chinese population [SNP analysis]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Elucidating the genetic basis underlying the variation in hepatic gene expression is of importance to understand disease etiology and drug metabolism variances. To date, no genome-wide eQTL analysis has been conducted in the Han Chinese, the largest ethnic group in the world. We performed a genome-wide eQTL mapping in a set of Han Chinese liver tissue (n=64).
+
+DESIGN
+Normal (non-diseased) liver tissues were previously collected from 64 Chinese donors who provided informed consent. All samples were stored frozen at -80℃ from collection until processing for RNA and DNA extraction. DNA /Total RNA of the human liver tissue samples were extracted by using the RNA/DNA Mini Kit (Qiagen, Hilden, Germany).each RNA sample were labeled and hybridized to the One-Color Agilent 60-mer Whole Human Genome Microarray (G4112F, GPL4133) at the Agilent Microarray Facility of Shanghai genomePilot Technology, Inc. The genome-wide scan was performed using the Affymetrix Genome-Wide Human SNP Array 6.0. We tested all expression traits for their associations with each of the QC passed SNPs using PLINK's assoc function for quantitative traits, which correlates allele dosage with changes in the trait.
+
+PLATFORM
+GPL6801 [GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array
+
+CITATIONS
+24665059
+

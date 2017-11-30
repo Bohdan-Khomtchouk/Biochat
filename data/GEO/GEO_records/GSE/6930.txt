@@ -1,0 +1,18 @@
+TITLE
+Expression data from A673 cell line treated with compounds at several doses and time points
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+An increasing number of cancer-associated mutations have been identified. Unfortunately, little therapy today exploits these tumor-specific genetic lesions. Often, the resulting oncoproteins have been intractable to easy manipulation with current small molecule screening approaches. To overcome this impasse, we developed an expression-based approach to small molecule library screening. We applied this platform to the discovery of modulators of the activity of EWS/FLI, the Ewing sarcoma associated oncoprotein. Cytarabine (ARA-C) was identified as the top hit in a small molecule library screen. ARA-C modulates EWS/FLI by decreasing EWS/FLI protein level and has striking effects on cellular viability and transformation in in vitro and in vivo models of Ewing sarcoma. With poor outcomes for patients with relapsed Ewing sarcoma and the well established safety profile of ARA-C, clinical trials testing ARA-C in Ewing sarcoma are warranted. Expression data was created for A673 cells treated with ARA-C and two other compounds used to treat Ewing sarcoma (Puromycin and Doxorubicin) at two doses (EC50 and 2xEC50) and three time points (24 hours, 3 days, and 5 days). Keywords: time course and dose response
+
+DESIGN
+A673 cells were treated with ARA-C (at doses of EC50 and 2xEC50) or vehicle in triplicate and expression profiled at 24 hours, 3 days, and 5 days. To exclude the possibility that ARA-C's modulation of the EWS/FLI signature was simply a non-specific response to treatment with all cytotoxic agents, we asked whether other compounds known to kill Ewing sarcoma cells (Doxorubicin and Puromycin) would induce the EWS/FLI off genome-wide expression pattern. A673 cells were treated with Doxorubicin and Puromycin (at doses of EC50 and 2xEC50) and expression profiled at 24 hours, 3 days, and 5 days.
+
+PLATFORM
+GPL4685 [U133AAofAv2] Affymetrix GeneChip HT-HG_U133A Early Access Array
+
+CITATIONS
+17425403
+

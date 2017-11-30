@@ -1,0 +1,18 @@
+TITLE
+Expression data from C. elegans during L4, L4-lethargus, and Adult
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+To identify genes differentially expressed during the molt, we collected RNA 30-40 minutes after feeding cessation at the start of the fourth larval stage (L4) lethargus.  Additional time points for RNA collection were in the mid-L4 stage, approximately four hours prior to lethargus, and in the young adult stage, four hours after lethargus. These samples were interrogated with the Affymetrix C. elegans Genome Array. A total of 1,804 gene transcripts were up regulated, and 1,088 gene transcripts were down regulated, during the L4 lethargus period compared to the L4 and Adult stages (false discovery rate (FDR) < 0.05).
+
+DESIGN
+There were a total of 3 groups and 5x replication for each group, for 15 total samples that were analyzed. The groups were (1) L4, (2) L4-lethargus, (3) Adult. We generated the following pairwise comparisons using R/maanova: L4-lethargus vs L4, L4-lethargus vs Adult. The permutation based p-values for each test were multiplied by 2 and transcripts with an FDR≤5% were selected.
+
+PLATFORM
+GPL200 [Celegans] Affymetrix C. elegans Genome Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

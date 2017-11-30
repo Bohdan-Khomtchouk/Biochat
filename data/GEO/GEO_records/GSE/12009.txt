@@ -1,0 +1,18 @@
+TITLE
+Transcript profiling in Actinobacillus pleuropneumoniae after adherence to, or planktonic growth over, SJPL cells.
+
+ORGANISM
+Actinobacillus pleuropneumoniae
+
+SUMMARY
+Host-pathogen interactions are of great importance in understanding the pathogenesis of infectious microorganisms. We developed in vitro models to study porcine respiratory tract pathogens using an immortalized epithelial cell line, the St. Jude Porcine Lung (SJPL) cell line.  In conditions where cytotoxicity was absent or low, the transcriptomic profile of A. pleuropneumoniae after contact with the porcine lung epithelial cells was determined using DNA microarrays. Genes such as tadB, rcpA, members of a putative adhesion locus, and a gene with high homology to the Hsf autotransporter adhesin of Haemophilus influenzae were upregulated as well as genes pgaBC involved in biofilm biosynthesis, while capsular polysaccharide-associated genes were downregulated.
+
+DESIGN
+Samples from A. pleuropneumoniae grown by either adhesion to SJPL cells or planktonic growth over SJPK cells were combined with samples from A. pleuropneumoniae grown in DMEM medium and co-hybridized on the microarray.  Four hybridizations were conducted for each sample combination type. Microarray analysis was carried out using the TM4 Suite of softwares (TIGR) and the SAM algorithm, using a false discovery rate (FDR) value of 0%.  For the planktonic and adhesion experiments, Cy5 signal (test) was compared to Cy3 signal (control) in order to obtain a list of significant differentially expressed genes.  In order to obtain the list of differentially expressed genes between planktonic growth and adhesion, log2 ratios were compared in TM4 also using the SAM algorithm.  Functional classification was performed using TIGR’s Comprehensive Microbial Resource.
+
+PLATFORM
+GPL3648 AppChip1 (NRC-IBS Actinobacillus pleuropneumoniae L20)
+
+CITATIONS
+19139196
+

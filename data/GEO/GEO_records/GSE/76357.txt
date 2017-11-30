@@ -1,0 +1,18 @@
+TITLE
+Coding and Non-coding mRNA expression after exposure of Breast Primary Epithelial Cells to different doses of X-ray
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Low and high doses of X-rays are used in medicine as diagnostic and therapeutic tools, respectively. While response to high doses of radiation is well known, contradictions exist about effects of low-dose irradiation. Therefore, improving the knowledge on the consequences of low-dose irradiation could help to address this controversy. Moreover, describing new insights into high-dose irradiation would improve new cancer therapies combining radiation and gene therapy. As long non-coding RNAs (lncRNAs) seems to be engaged to almost all biological functions, including response to DNA damage, we aimed to describe the participation of lncRNAs in the response to different doses of X-ray exposure. We observed that, in human breast epithelial cells, different sets of coding and non-coding transcripts are differentially regulated at moderate and high doses compared to low doses. The validation of expression of five lncRNAs only regulated at high and moderate X-ray doses supports our results. Altogether, we could conclude that response to moderate and high dose irradiation versus response to low-doses also differs in terms of lncRNA expression. Therefore, further studies on the participation of lncRNAs in this response to radiation would help to address controversies regarding low-dose irradiation response and to improve therapies using high-dose irradiation.
+
+DESIGN
+Breast primary epithelial cells were exposed to 0.02Gy, 0.1Gy and 2Gy of X-rays using medical devices and sham-irradiated samples were used as a control. To irradiate cells at low doses of X-ray, cells growing in 25cm2 flasks were irradiated with two (0.02 Gy) and ten automatic shots (0.1 Gy) under a mammography X-ray diagnostic device (SENO DMR plur, General electric). A Therapax STX 150 machine (Pantak) was used to irradiate BPECs at high doses (2Gy). RNA collection of the samples was done at three different days in order to have biological triplicates per each condition. Afterwards, total RNA was hybridized to Sureprint G3 Human Gene Expression v2 Microarray (Agilent) that includes probes to Broad Institute Human lincRNA catalog (Khalil et al. 2009; Guttman et al. 2009) among other ncRNAs. Differential expression analysis was carried out on non-control probes with an empirical Bayes approach on linear models (limma) (Smyth 2004). Results were corrected for multiple testing according to the False Discovery Rate (FDR) method (Benjamini & Hochberg 1995). Genes were selected as significant using a B-statistic cut-off B > 0 and Fold Change (FC) > 1.2 or > -1.2.
+
+PLATFORM
+GPL16699 Agilent-039494 SurePrint G3 Human GE v2 8x60K Microarray 039381 (Feature Number version)
+
+CITATIONS
+27841703
+

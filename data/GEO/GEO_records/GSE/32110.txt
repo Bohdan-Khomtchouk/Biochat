@@ -1,0 +1,18 @@
+TITLE
+RNA-seq expression profiles during terminal erythropoiesis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+It is unclear how epigenetic changes regulate the induction of erythroid-specific genes during terminal erythropoiesis. Here we use global mRNA sequencing (mRNA-seq) and chromatin immunoprecipitation coupled to high-throughput sequencing (CHIP-seq) to investigate the changes that occur in mRNA levels, RNA Polymerase II (Pol II) occupancy and multiple post-translational histone modifications when erythroid progenitors differentiate into late erythroblasts. Among genes induced during this developmental transition, there was an increase in the occupancy of Pol II, the activation marks H3K4me2, H3K4me3, H3K9Ac and H4K16Ac, and the elongation methylation mark H3K79me2. In contrast, genes that were repressed during differentiation showed relative decreases in H3K79me2 levels yet had levels of Pol II binding and active histone marks similar to those in erythroid progenitors. We also found that relative changes in histone modification levels-in particular, H3K79me2 and H4K16ac-were most predictive of gene expression patterns. Our results suggest that in terminal erythropoiesis both promoter and elongation-associated marks contribute to the induction of erythroid genes, while gene repression is marked by changes in histone modifications mediating Pol II elongation. Our data maps the epigenetic landscape of terminal erythropoiesis and suggests that control of transcription elongation regulates gene expression during terminal erythroid differentiation.
+
+DESIGN
+Mouse fetal liver cells are double-labeled for erythroid-specific TER119 and non erythroid-specific transferrin receptor (CD71) and then sorted by flow-cytometry. E14.5 fetal livers contain at least five distinct populations of cells (R1 through R5); as they progressively differentiate they gain TER119 and then gain and subsequently lose CD71.  CFU-E cells and proerythroblasts make up the R1 population; R2 consists of proerythroblasts and early basophilic erythroblasts; R3 includes early and late basophilic erythroblasts; R4 is mostly polychromatophilic and orthochromatophilic erythroblasts; and R5 is comprised of late orthochromatophilic erythroblasts and reticulocytes. We have sorted for R2-R5 cells for RNA-seq experiment.
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+21860024
+

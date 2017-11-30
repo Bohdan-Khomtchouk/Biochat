@@ -1,0 +1,18 @@
+TITLE
+MicroRNA expression profiles in lung cancer tissues versus adjacent lung tissues using next-gen sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: MicroRNAs (miRNAs) are small noncoding RNAs about 22 nucleotides in length and regulate mRNA expression by binding to 3?UTR of mRNAs and causing translation repression or degradation of mRNAs. Recent studies have revealed that microRNAs play important regulatory roles in carcinogenesis. However, the complement of miRNAs involved in lung carcinogenesis and tumor biology is generally unknown. We used high-throughput sequencing technology to investigate miRNA expression profiles in a study of paired lung non-small cell carcinomas and remote noncancerous lung tissues. Methods: Total RNA was isolated by Trizol from patient lung tissues, including 1 non-pair of macroscopic lung adenocarcinoma tissue, and 20 pairs of macroscopic lung adenocarcinoma tissues and corresponding paired noncancerous lung tissues from the same patients, 1 non-pair of noncancerous lung tissues of squamous cell carcinoma patient, and 10 pairs of squamous cell carcinoma and corresponding paired noncancerous lung tissues from the same patients. Small RNA library of each total RNA was constructed with Illumina?s Small RNA Sample Prep Kit, followed by high-throughput sequencing. Statistical differences in microRNA expression between groups were analyzed by GenePattern software. Results: Using 2-fold threshold with FDR < 0.05, there were ~90 miRNAs differentiated the lung cancers from nontumor lung tissues, both histologies.  (a) The sets of microRNAs differentiating adenocarcinoma from paired nontumor tissues are largely different from those differentiating squamous tumors. There were 40 upregulated and 23 downregulated microRNAs differentiating adenocarcinoma Tvs.NT .  For squamous cell, the numbers were 19 and 6, respectively.  (b) In common between the two tumor histologies, there were six common upregulated microRNAs (miR-21, 135b, 200a, 494, 708. 1259), and four common down-regulated microRNAs (miR-144, 184, 516a, 1251). (c) Comparing our 22 miRNAs in common with Yanaihara/Harris Cancer Cell 2006 using spotted microarrays, we found similar direction of change in 19/22.  (d) As a group, the top over-expressed miRNA in lung tumors (determined as fold change > 2, and comprising at least .01% of total miRNA) are able to predict mRNAs that are differentially expressed in those same samples (p=4.6x10^-6). Conclusions: This effort represents one of the more comprehensive surveys of the lung tumor micronome. (i) Tumor microRNA complement differs from far-adjacent lung; (ii) Histologies differ in their overall, and tumor-distinctive microRNA complement; (iii) Statistical correlations of individual microRNA:mRNA (putative) pairing from the same tissue sets are pending.  (iv) Experimental confirmation of microRNA:mRNA targeting, using our microRNA affinity pull down assay is also pending.
+
+DESIGN
+Examination of different microRNA expression profiles between lung cancer tissues and adjacent lung tissues. Our lung tissues were from 32 patients, including 21 adenocarcinoma patient (20 pairs of tumor and non-tumor and 1 non-pair tumor) and 11 squamous cell carcinoma patients (10 pairs of tumor and non-tumor and 1 non-pair non-tumor).
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

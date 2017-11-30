@@ -1,0 +1,18 @@
+TITLE
+eQTL mapping in Lake Whitefish Species Pairs.
+
+ORGANISM
+Coregonus clupeaformis
+
+SUMMARY
+Mapping of expression quantitative trait loci (eQTL) is a powerful means for elucidating the genetic architecture of gene regulation. Yet, eQTL mapping has not been applied towards investigating the regulation architecture of genes involved in the process of population divergence, ultimately leading to speciation events. Here, we conducted an eQTL mapping experiment to compare the genetic architecture of transcript regulation in adaptive traits differentiating the recently evolved limnetic (dwarf) and benthic (normal) species pairs of lake whitefish. The eQTL were mapped in three data sets derived from a F1 hybrid-dwarf backcrossed family: the entire set of 66 genotyped individuals, and the two sexes treated separately. We identified strikingly more eQTL in the female dataset (174), compared to both male (54) and combined (33) data sets. The majority of these genes were not differentially expressed between male and female progeny of the backcross family, thus providing evidence for a strong pleiotropic sex-linked effect in transcriptomic regulation. The subtelomeric region of a linkage group segregating in females encompassed more than 50% of all eQTL, which exhibited the most pronounced additive effects. We also conducted a direct comparison of transcriptomic profiles between pure dwarf and normal progeny reared in controlled conditions. We detected 34 differentially expressed transcripts associated with eQTL segregating only in sex-specific data-sets, and mostly belonging to functional groups that differentiate dwarf and normal whitefish in natural populations. Therefore, these eQTL are not related to inter-individual variation, but instead to the adaptive and historical genetic divergence between dwarf and normal whitefish. This study exemplifies how the integration of genetic and transcriptomic data offers a strong means for dissecting the functional genomic response to selection by separating mapping family specific effects from genetic factors under selection, potentially involved in the phenotypic divergence of natural populations. Keywords: eQTL mapping
+
+DESIGN
+Dissected white muscle tissue (250-350 mg) was sampled for 76 individuals from the hybrid x dwarf backcross mapping family. We used a loop design (YANG and SPEED 2002; CHURCHILL 2002) to maximize the number of sampled meioses. Each of 76 samples was technically replicated on two distinct slides, while performing dye swapping (Cy3 and Alexa) to estimate the dye intensity variation bias. After correcting for local background, raw intensity values were both log2 transformed and normalized using the regional LOWESS method implemented in the R/MANOVA software (KERR et al. 2000). The design file used for the maanova analysis is linked below as a supplementary file.
+
+PLATFORM
+GPL6260 cGRASP Salmon 16k cDNA array
+
+CITATIONS
+18660540
+

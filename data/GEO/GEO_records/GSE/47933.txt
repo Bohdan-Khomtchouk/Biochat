@@ -1,0 +1,18 @@
+TITLE
+Impact of library preparation on downstream analysis and interpretation of RNA-seq data: comparison between Illumina PolyA and NuGEN Ovation protocol
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Objectives: The sequencing by the PolyA selection is the most common approach for library preparation. With limited amount or degraded RNA, alternative protocols such as the NuGEN have been developed. However, it is not yet clear how the different library preparations affect the downstream analyses of the broad applications of RNA sequencing. Methods and Materials: Eight human mammary epithelial cell (HMEC) lines with high quality RNA were sequenced by Illumina’s mRNA-Seq PolyA selection and NuGEN ENCORE library preparation. The following analyses and comparisons were conducted: 1) the numbers of genes captured by each protocol; 2) the impact of protocols on differentially expressed gene detection between biological replicates; 3) expressed single nucleotide variant (SNV) detection; 4) non-coding RNAs, particularly lincRNA detection; and 5) intragenic gene expression. Results: Sequences from the NuGEN protocol had lower (75%) alignment rate than the PolyA (over 90%). The NuGEN protocol detected fewer genes (12-20% less) with a significant portion of reads mapped to non-coding regions. A large number of genes were differentially detected between the two protocols. About 17-20% of the differentially expressed genes between biological replicates were commonly detected between the two protocols. Significantly higher numbers of SNVs (5-6 times) were detected in the NuGEN samples, which were largely from intragenic and intergenic regions. The NuGEN captured fewer exons (25% less) and had higher base level coverage variance. While 6.3% of reads were mapped to intragenic regions in the PolyA samples, the percentages were much higher (20-25%) for the NuGEN samples. The NuGEN protocol did not detect more known non-coding RNAs such as lincRNAs, but targeted small and “novel” lincRNAs. Conclusion: Different library preparations can have significant impacts on downstream analysis and interpretation of RNA-seq data. The NuGEN provides an alternative for limited or degraded RNA but it has limitations for some RNA-seq applications.
+
+DESIGN
+Eight human mammary epithelial cell (HMEC) lines with high quality RNA were sequenced by Illumina’s mRNA-Seq PolyA selection and NuGEN ENCORE library preparation. The goal was to look the impacts of protocols on results and intepretation.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+23977132
+

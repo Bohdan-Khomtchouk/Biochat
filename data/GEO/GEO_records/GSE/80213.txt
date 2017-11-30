@@ -1,0 +1,18 @@
+TITLE
+The small molecule ID8 increases Aldefluor+ breast cancer stem cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The cancer stem cell (CSC) hypothesis postulates that tumors are maintained by a self-renewing CSC population that is also capable of differentiating into non-self renewing cell populations that constitute the bulk of the tumor. Targeting breast CSC (BCSC) self-renewal represents an avenue for developing therapeutics; however, the molecular mechanisms that govern self-renewal of BCSCs are poorly understood. Our data show the small molecule ID8 decreases overall cell growth, but increases the self-renewal of Aldefluor+ BCSCs and increases functional metastatic BCSCs in a xenograft model. Microarray analysis showed that ID8 is a pleotropic molecule by increasing numerous pathways, including cytokines and chemokines. However, inhibition of those pathways does not abrogate the ID8-induced increase in Aldefluor+ BCSCs. Rather, ID8 is able to activate MAPK pathway through upregulation of the scaffold protein LAMTOR3 and inhibition of MEK prevented the increase in Aldefluor+ BCSCs. By using ID8 as a molecular tool, we identified a new function of the MAPK pathway in regulating BCSC growth and self-renewal.
+
+DESIGN
+In three separate experiments per cell line, SUM159 and T47D breast cancer cells were treated with DMSO or 5uM (micromolar) ID8 for 3 days. DMSO and ID8 treated cells were trypsinized, processed, and stained for intracellular aldehyde dehydrogenase (ALDH) activity using the Aldefluor assay to identify cancer stem cells (Aldefluor+). CSCs and non-CSCs (Aldefluor-) were collected by flow cytometry from both groups.     Total RNA was collected from each fraction (Aldefluor+, Aldefluor-), treatment (DMSO, ID8), and experiment (#2-7). A total of 24 samples were analyzed on an Affymetrix Human Gene ST 2.1 plate. Differential gene expression was determined with R/Bioconductor with Robust Multiarray Average (RMA) and fitting the data to linear models (limma). Experimental and processing batch effects were accounted for using ComBat. Eight sets of univariate comparisons were made: 1) SUM159 ID8 Aldefluor+ vs SUM159 DMSO Aldefluor+; 2) SUM159 ID8 Aldefluor+ vs SUM159 ID8 Aldefluor-; 3) SUM159 DMSO Aldefluor+ vs SUM159 DMSO Aldefluor-; 4) SUM159 ID8 Aldefluor- vs SUM159 DMSO Aldefluor-; 5) T47D ID8 Aldefluor+ vs T47D DMSO Aldefluor+; 6) T47D ID8 Aldefluor+ vs T47D ID8 Aldefluor-; 7) T47D DMSO Aldefluor+ vs T47D DMSO Aldefluor-; 8) T47D ID8 Aldefluor- vs T47D DMSO Aldefluor-. Multiple testing comparisons were adjusted using Benjamini and Hochberg (aka FDR). Probes with an adjusted p-value < 0.05 were considered statistically significant.
+
+PLATFORM
+GPL17692 [HuGene-2_1-st] Affymetrix Human Gene 2.1 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

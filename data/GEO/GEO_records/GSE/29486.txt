@@ -1,0 +1,18 @@
+TITLE
+Uncoupling growth and product formation kinetics to design improved strains for recombinant protein production in escherichia coli
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+The ability to control the synthesis of products in the absence of cell division remains an attractive alternative for the optimization of microbial processes.  If this could be achieved, it would dramatically expand the productivity of many microbial processes by increasing product synthesis in the absence of an increase in cell mass. In the present work we have looked at the factors involved in the design of a host where the fluxes would be channeled towards product formation rather than biomass synthesis. To identify the genes responsible for diverting the metabolic flux specifically towards product formation we have used for this study is quiescent-cell (Q-cell) expression system, in which a plasmid-encoded protein is expressed in nongrowing but metabolically active cells. These cells channel the metabolic flux towards recombinant protein production and therefore the specific product yield per unit biomass is significantly higher. Indole which is previously known to be a signalling molecule is here used as an inducer of Quiescence. E.coli L-Asparaginase is used as a model protein in this work.
+
+DESIGN
+Fed batch cultures were carried out in Sartorius BIOSTAT B plus 5liter bioreactor. The data acquisition was done with the MFCS Shell software (version) provided with the bioreactor. The Sartorius BIOSTAT B plus had proportional integral derivative-based control loops for temperature, pH, antifoam, and dissolved-oxygen (DO) regulation. The culture was grown in a batch mode till 10-12 OD (µ=0.5) and then the feed was attached. In the next hour the culture was induced for product formation with 1M IPTG. In case of Q culture quiescence was induced with 0.5M Indole just 5min after induction with IPTG. Post induction every hour samples were collected and frozen with liquid nitrogen and stored at -80ºC for further analytical use. Total RNA extraction, RNA quality control (Agilent BioAnalyser), total RNA labeling, microarray hybridization and scanning were performed according to the Affymetrix GeneChip Expression analysis .
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Mapping Gene Expression in Excitatory Neurons During Hippocampal Late-Phase Long-term Potentiation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The long-lasting changes in synaptic connectivity that underlie long-term memory require new RNA and protein synthesis for their persistence. To elucidate the temporal pattern of gene expression that gives rise to long-lasting, learning-related neuronal plasticity, we profiled RNAs in mouse hippocampal CA3-CA1 slices following induction of late phase long-term potentiation (LTP), analyzing differential expression (DE) specifically within pyramidal excitatory neurons by Translating Ribosome Affinity Purification RNA sequencing (TRAP-seq). We detected time-dependent changes in up- and down-regulated ribosome-associated mRNAs over the two hours following LTP induction, with minimal overlap of DE transcripts between time points. TRAP-seq revealed greater numbers and amplitudes of LTP-induced changes than RNA-seq of all cell types in the hippocampus. Transcripts that were DE by TRAP-seq but not RNA-seq were enriched in mRNAs encoding cytoskeletal and cell adhesion proteins, while RNA-seq identified DE in many non-neuronal mRNAs. Together our results highlight the importance of considering both the time course and the cell-type specificity of activity-dependent gene expression during memory formation.
+
+DESIGN
+RNA-seq and TRAP-seq were performed on RNA isolated from acute hippocampal slices following a chemical LTP induction, which utilizes forskolin followed by elevated levels of Ca2+/K+ in 0 Mg2+ artificial cerebral spinal fluid. We crossed the RiboTag line of mice with a Camk2a-cre line to generate mice heterozygous for both cre and RiboTag, which expresses an HA-tagged ribosomal protein L22 in excitatory neurons. Total RNA from all cell-types and TRAP RNA from excitatory neurons was isolated from the same hippocampal slice homogenate at 30 min, 60 min, and 120 min following LTP induction from LTP induced slices as well as time-matched vehicle-treated control slices. Both LTP and basal slices were generated from the same animals on the same day, with slices from each animal evenly distributed between basal and LTP. Thus, each basal replicate has a corresponding LTP treated replicate.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28275336
+

@@ -1,0 +1,18 @@
+TITLE
+Cohesin and Polycomb proteins functionally interact to control transcription at silenced, restrained, and active genes [tiling array data]
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Cohesin is crucial for proper chromosome segregation, but also regulates gene transcription and organism development by poorly understood mechanisms. We find that in Drosophila, cohesin functionally interacts with Polycomb group (PcG) silencing proteins at both silenced and active genes. Cohesin unexpectedly facilitates binding of Polycomb Repressive Complex 1 (PRC1) to many active genes. In contrast, cohesin and PRC1 binding are mutually antagonistic at silenced genes. PRC1 depletion decreases phosphorylated RNA polymerase and mRNA at many active genes, but increases them at silenced genes. Cohesin also facilitates long-range interactions between Polycomb Response Elements in the invected-engrailed gene complex where it represses transcription. These multiple distinct cohesin-PcG interactions reveal a previously unrecognized role for PRC1 in facilitating productive gene transcription, and provide new insights into how cohesin and PRC1 control development.
+
+DESIGN
+ChIP-chip of cohesin, Polycomb group proteins, and RNA Polymerase II was performed in whole wing imaginal discs in developing wing imaginal disc, revealing that cohesin and Polycomb Repressive Complex 1 (PRC1) components co-bind with cohesin proteins at active genes. We then measured cohesin, Pc, and H3K27me3 separately in anterior and posterior wing imaginal discs and compared their binding at the invected-engrailed complex, which is silenced in the anterior disc, and expressed in its posterior.  This  confirmed that cohesin and PRC1 (Pc) co-bind at inv-en in its active state, and H3K27me3 and PRC1 (Pc) co-target inv-en in its silenced state. Comparison of binding between Pc-RJ and Pc-VP was performed, and revealed that Pc-VP is subject to epitope masking specifically at active genes. Finally, we measured cohesin and Pc binding in Drosophila ML-DmBG3-c2 cells, and found that they co-bind active genes in this cell line in as well as in wing imaginal discs. ChIP-chip of cohesin subunit Rad21 after PRC1 component Ph depletion, and ChIP-chip of PRC1 subunit Pc after Rad21 RNAi depletion, revealed that these two complexes affect one another's binding.  Finally, ChIP-chip of Rpb3 (representing total Pol II) and Ser2P-Pol II (representing elongating Pol II) after PRC1 component Ph depletion revealed that PRC1 restrains entry of non-phosphorylated Pol II into gene bodies.
+
+PLATFORM
+GPL6629 [DM_tiling2_MR] Affymetrix Drosophila Tiling 2.0R Array
+
+CITATIONS
+23818863
+

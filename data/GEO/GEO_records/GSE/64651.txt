@@ -1,0 +1,18 @@
+TITLE
+Small RNAs in stress-related rice cultivars
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+In this study, we sequenced small RNA content from three different rice cultivars employing Illumina technology. More than 15 million reads were generated using Illumina high-throughput sequencing platform. After pre-processing, distinct small RNA sequences were identified for each rice cultivars.
+
+DESIGN
+We collected seedlings of different rice cultivars and total RNA isolated was subjected to Illumina sequencing. The sequenced data was further filtered using NGS QC Toolkit to obtain high-quality reads. The filtered reads were pre-processed using modified perl script provided in the miRTools software. After quality control, the identical reads were collapsed into a unique read and read count for each sequence was recorded. All the filtered unique reads from each sample were mapped on the rice genome to find their location.
+
+PLATFORM
+GPL13160 Illumina HiSeq 2000 (Oryza sativa)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Effects of RPAP1 depletion on mRNA gene expression (RNA-seq) and RNA Pol II abundance (ChIP-seq) in primary mouse embryonic fibroblasts or embryonic stem cells.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Here, we investigated the role of RPAP1 in mammalian cell identity.  As in plants, interfering with RPAP1 function did not affect the viability of mouse embryonic stem cells, but severely impaired their differentiation capacity (RNA-Seq#2 data, below).  Conversely, in somatic cells, RPAP1 was essential for the expression of lineage specifying factors and viability (RNA-seq#1 data, below).  Moreover, inhibition of RPAP1 triggers dedifferentiation and facilitates reprogramming into pluripotent stem cells.  Mechanistically, RPAP1 maintains transcribing Pol II levels and Pol II Ser5 phosphorylation, particularly on developmental genes (ChIP-seq data, below).
+
+DESIGN
+Series includes two RNA-seq datasets, and one ChIP-seq dataset: In the RNA-seq#1 data (below), three independent lines of mouse embryonic fibroblasts (#1, #3, #5) were lentivirally infected with shRNAs against RPAP1 (shRP) or a non-targeting control (SCR) followed by puromycin selection.  To assess differential mRNA expression, RNA-seq was performed at day 3 after lenti-shRNA delivery, comparing control (SCR) versus RPAP1-depleted cells (shRP). In the RNA-seq#2 data (below), three independent replicates (A, B, C) of mouse ES cells were lentivirally infected with shRNAs against RPAP1 (shRP) or a non-targeting control (SCR) followed by puromycin selection.  The ES cells were then induced to differentiate by LIF removal for 24 hrs, and to assess differential mRNA expression, RNA-seq was performed, comparing control (SCR) versus RPAP1-depleted cells (shRP). In the ChIP-seq data (below), three independent lines of mouse embryonic fibroblasts were lentivirally infected with shRNAs against RPAP1 (shRP) or a non-targeting control (SCR) followed by puromycin selection.  To assess any changes in RNA Pol II abundance on genes, ChIP-seq for total Pol II, or Ser5P Pol II, was performed at day 3 after lenti-shRNA delivery, comparing control (SCR) versus RPAP1-depleted cells (shRP).
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

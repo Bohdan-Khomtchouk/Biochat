@@ -1,0 +1,18 @@
+TITLE
+4C-ker: A method to reproducibly identify genome-wide interactions captured by 4C-Seq experiments
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+4C-Seq has proven to be a powerful technique to identify genome-wide interactions with a single locus of interest (or " bait " ) that can be important for gene regulation. However, analysis of 4C-Seq data is complicated by the many biases inherent to the technique. An important consideration when dealing with 4C-Seq data is the differences in resolution of signal across the genome that result from differences in 3D distance separation from the bait. This leads to the highest signal in the region immediately surrounding the bait and increasingly lower signals in far-cis and trans. Another important aspect of 4C-Seq experiments is the resolution, which is greatly influenced by the choice of restriction enzyme and the frequency at which it can cut the genome. Thus, it is important that a 4C-Seq analysis method is flexible enough to analyze data generated using different enzymes and to identify interactions across the entire genome. Current methods for 4C-Seq analysis only identify interactions in regions near the bait or in regions located in far-cis and trans, but no method comprehensively analyzes 4C signals of different length scales. In addition, some methods also fail in experiments where chromatin fragments are generated using frequent cutter restriction enzymes. Here, we describe 4C-ker, a Hidden-Markov Model based pipeline that identifies regions throughout the genome that interact with the 4C bait locus. In addition, we incorporate methods for the identification of differential interactions in multiple 4C-seq datasets collected from different genotypes or experimental conditions. Adaptive window sizes are used to correct for differences in signal coverage in near-bait regions, far-cis and trans chromosomes. Using several datasets, we demonstrate that 4C-ker outperforms all existing 4C-Seq pipelines in its ability to reproducibly identify interaction domains at all genomic ranges with different resolution enzymes.
+
+DESIGN
+4C-Seq experiments from Igh and Cd83 bait in activated B cells and Tcrb (Eb) bait in double negative T cells and immature B cells. RNA-Seq and ATAC-Seq experiments in DN and Immature B cells.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26938081
+

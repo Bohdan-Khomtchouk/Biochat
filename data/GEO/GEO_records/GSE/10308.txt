@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of aluminum toxicity and tolerance responses in maize roots
+
+ORGANISM
+Zea mays
+
+SUMMARY
+Aluminum (Al) toxicity is a major factor limiting crop yields on acid soils. In maize, Al tolerance is a complex phenomenon involving multiple genes and physiological mechanisms yet uncharacterized. To begin elucidating the molecular basis of maize Al toxicity and tolerance, we performed a detailed temporal analysis of root gene expression under Al stress using microarrays with an Al-tolerant and an Al-sensitive maize genotype. Seedlings of both genotypes were grown in hydroponics in a full nutrient solution containing 39uM of free Al3+ activity. Root samples were collected at 'time zero', and after 2, 6 and 24 hours of treatment. Keywords: stress treatment, time course
+
+DESIGN
+Time course experiment with 0h, 2h, 6h and 24 hours of Al treatment in two maize genotypes contrasting for Al tolerance. The experimental design used for the microarray study was of two interconnected loops, and utilized a total of 16 slide sets. Samples collected from each genotype at one time point were contrasted with the previous and subsequent time points in a loop (4 time points x 2 genotypes = 8 slide sets). Additionally, the loops were interconnected (with dye swap) so that the two genotypes were contrasted directly at each time point (4 time points x 2 replicates = 8 slide sets). The design was balanced for dye distribution throughout samples and biological replicates. Each sample was labeled twice with Cy3 and twice with Cy5; each biological replicate had four samples labeled with Cy3 and four samples labeled with Cy5. The Sample signal intensity values were log2 transformed and analyzed by two interconnected ANOVA mixed models using PROC MIXED in SAS (Jin et al., 2001; Wolfinger et al., 2001). The normalization ANOVA model  yij = µ + Ai + Dj + (A x D)ij + eij was applied to account for experiment-wide sources of variation associated with array (Ai, degrees of freedom (df) = 15, random effect), dye (Dj, df = 1, fixed effect), and their interactions. The residuals (eij) were treated as normalized values and analyzed in the following ANOVA model (gene model), where effects were evaluated for each gene individually: rikl = µ + Ai + Gk + Tl + (G x T)kl + ekl. Gk is the kth genotype (i.e. C100-6 or L53; df = 1) and represents the effect of each genotype on the expression of every gene, Tl represents the lth treatment (i.e. 0, 2, 6 or 24 hours of Al treatment; df = 3), and (G x T)kl the interaction between genotype and treatment (df = 3). Array (Ai) was included as a random effect to control for spot effects (Jin et al., 2001). Least square means were calculated, and estimates of differential expression were calculated as the difference between least-square means for each of the terms in the model. ANOVA results linked below as Supplementary files.
+
+PLATFORM
+GPL1992 Maize oligo array version 1.3 array A GPL1993 Maize oligo array version 1.3 array B
+
+CITATIONS
+18399934
+

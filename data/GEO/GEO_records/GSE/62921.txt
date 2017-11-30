@@ -1,0 +1,18 @@
+TITLE
+The Activation-Induced Assembly of an RNA/Protein Interactome Centered on the Splicing Factor U2AF2 Regulates Gene Expression in Human CD4 T Cells [total RNA-array]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Activation of CD4 T cells is a reaction to challenges such as microbial pathogens, cancer and toxins that defines adaptive immune responses. The roles of T cell receptor crosslinking, intracellular signaling, and transcription factor activation are well described, but the importance of post-transcriptional regulation by RNA-binding proteins (RBPs) has not been considered in depth. We describe a new model expanding and activating primary human CD4 T cells and applied this to characterizing activation-induced assembly of splicing factors centered on U2AF2. We immunoprecipitated U2AF2 to identify what mRNA transcripts were bound as a function of activation by TCR crosslinking and costimulation. In parallel, mass spectrometry revealed the proteins incorporated into the U2AF2-centered RNA/protein interactome. Molecules that retained interaction with the U2AF2 complex after RNAse treatment were designated as “central” interactome members (CIMs). Mass spectrometry also identified a second class of activation-induced proteins, “peripheral” interactome members (PIMs), that bound to the same transcripts but were not in physical association with U2AF2 or its partners. siRNA knockdown of two CIMs and two PIMs caused changes in activation marker expression, cytokine secretion, and gene expression that were unique to each protein and mapped to pathways associated with key aspects of T cell activation. While knocking down the PIM, SYNCRIP, impacts a limited but immunologically important set of U2AF2-bound transcripts, knockdown of U2AF1 significantly impairs assembly of the majority of protein and mRNA components in the activation-induced interactome. These results demonstrated that CIMs and PIMs, either directly or indirectly through RNA, assembled into activation-induced U2AF2 complexes and play roles in post-transcriptional regulation of genes related to cytokine secretion. These data suggest an additional layer of regulation mediated by the activation-induced assembly of RNA splicing interactomes that is important for understanding T cell activation.
+
+DESIGN
+HTA 2.0 microarray results of total from a primary CD4 T cell culture after treatment with siRNAs (Control, U2AF1, SRRM2, SYNCRIP, and ILF2) and 24 hours after anti-CD3/CD28 bead activation Please note that the Series supplementary 'TotalRNA_HTA2_all_siRNA_100414.xslx' file has multiple worksheets containing: 1) Differentially expressed genes in ctrl siRNA vs. U2AF1 siRNA; 2) Differntially spliced genes in ctrl siRNA vs. U2AF1 siRNA; 3) Differentially spliced exons in ctrl siRNA vs. U2AF1 siRNA; 4) Differentially expressed genes in ctrl siRNA vs. SRRM2 siRNA; 5) Differntially spliced genes in ctrl siRNA vs. SRRM2 siRNA; 6) Differentially spliced exons in ctrl siRNA vs. SRRM2 siRNA; 7) Differentially expressed genes in ctrl siRNA vs. SYNCRIP siRNA; 8) Differntially spliced genes in ctrl siRNA vs. SYNCRIP siRNA; 9) Differentially spliced exons in ctrl siRNA vs. SYNCRIP siRNA; 10) Differentially expressed genes in ctrl siRNA vs. ILF2 siRNA; 11) Differntially spliced genes in ctrl siRNA vs. ILF2 siRNA; 12) Differentially spliced exons in ctrl siRNA vs. ILF2 siRNA
+
+PLATFORM
+GPL17585 [HTA-2_0] Affymetrix Human Transcriptome Array 2.0 [probe set (exon) version] GPL17586 [HTA-2_0] Affymetrix Human Transcriptome Array 2.0 [transcript (gene) version]
+
+CITATIONS
+26641092
+

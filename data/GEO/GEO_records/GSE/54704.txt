@@ -1,0 +1,18 @@
+TITLE
+miR-125b: A Rheostat of Growth versus Stress-Induced MAPKs That Governs Stemness and OncomiR Addiction in Skin
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We analyze the globel gene expression changes in the tumor initiating cells of regressing miR-125b addicted tumors after oncomiR withdrawal
+
+DESIGN
+For Histone-H2BGFP expression in DTG tumor cells, the U6 promoter was deleted in the PLKO-PGK-H2B-GFP vector throughNdeI-AgeI digestion, Quick Blunting Kit treatment (NEB), and self-ligation. The resulting PLNA-PGK-H2BGFP plasmid was packaged into lentivirus and used to infect ~1x106freshly sorted α6hiβ1hi DTG tumor cells. After 30 min, cells were then extensively washed and immediately engrafted onto backskins of Nude mice by intradermal transplantation. GFP+α6hiβ1hicells were FACS-isolated from resulting tumors and then serially transplanted as above. For RNA seq analysis of the miR-125b addicted tumor regression process, H2BGFP labeled DTG tumor cells were intradermally engrafted onto backskins of Nude mice (1x104cells/site). Tumors were allowed to grow to ~1cm diameter. Mice were then taken Off Dox by transferring them to regular food for 0, 4, 7 days. GFP+α6hiβ1hiwere then FACS-isolated from the tumors. Two or three independent replicates were collected for each time point. Total RNAswere extracted from the FACS-sorted cells using the miRNeasy Mini Kit (Qiagen) according to the vender’s protocol. Expression of miR-125b in each sample was quantified by RT-PCR using TaqMan MicroRNA Assays (Applied Biosystems). For RNA seq, RNA samples were submitted to the Genomics Resources Core Facility of the Weill Cornell Medical College for library construction using IlluminaTruSeq Stranded mRNA Sample Prep Kit and then sequencing using Illumina HiSeq2000. Resultswere analyzed via the Galaxy web platform using TopHat for initiate mapping and Cufflinks for transcripts assembling and expression level estimation (Computing FPKM: fragments per kilobase of exon per million fragments mapped). The MM9 genome assembly (UCSC Genome Browser) was used as reference genome for all analyses. Low expression genes
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25403182
+

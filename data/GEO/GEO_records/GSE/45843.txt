@@ -1,0 +1,18 @@
+TITLE
+Genomic analysis of diffuse pediatric low-grade gliomas identifies recurrent, oncogenic MYBL1-truncating rearrangements
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Pediatric low-grade gliomas (PLGGs) are among the most common solid tumors in children but apart from BRAF mutations or duplications in specific subclasses, few genetic driver events are known. Diffuse PLGGs comprise a set of uncommon subtypes that exhibit invasive growth and are therefore especially challenging clinically.  These tumors are particularly poorly understood. We performed high-resolution copy-number analysis of 44 diffuse PLGGs to identify recurrent alterations. Diffuse PLGGs exhibited fewer such alterations than adult low-grade gliomas, but we identified several significantly recurrent events. The most significant event, 8q13.1 gains, were observed in 28% of diffuse astrocytomas grade II (DA2s) and resulted in partial duplication of the transcription factor MYBL1 with truncation of its C-terminal negative-regulatory domain. A similar recurrent deletion-truncation breakpoint was identified in two angiocentric gliomas in the related gene MYB on 6q23.3. Whole-genome sequencing of a MYBL1-rearranged DA2 demonstrated MYBL1 tandem duplication, and few other events. Two novel, truncated MYBL1 transcripts identified in this tumor induced anchorage-independent growth when expressed in 3T3 cells and tumor formation in nude mice. Truncated transcripts were also expressed in two additional tumors with MYBL1 partial duplication. Our results define clinically relevant molecular subclasses of diffuse PLGGs and highlight a potential role for the MYB family in the biology of low-grade gliomas.
+
+DESIGN
+IRB approval from all institutions was obtained, and all samples were from patients who provided informed consent or were studied with waiver of the requirement for informed consent by the appropriate IRB. Samples of various histologic subtypes were identified and collected at multiple institutions (Boston Children’s Hospital, Boston, MA, The University of Texas School of Medicine Southwestern, Dallas, TX, Children’s Cancer Hospital, Egypt, Cairo, Johns Hopkins University School of Medicine, Baltimore, MD, Children’s National Medical Center, Washington, DC, The Hospital for Sick Children, Toronto, Canada, Mayo Clinic, Rochester, MN). Central histopathologic review was performed by at least three board-certified neuropathologists using WHO criteria. DNA extraction from archival FFPE samples and Array CGH were performed as previously described (Craig, et al., 2012 PLoS One). GC-normalized copy-number data for the samples were then cleaned of known germline CNVs. Circular Binary Segmentation was used to segment the copy-number data, using parameters [alpha=0.001, undo.splits=sdundo, undo.SD=1.5, min.width=5]. Forty-four samples passed QC metrics (based on aCGH quality metrics for DNA integrity) for inclusion in the GISTIC analysis. Segmented data were analyzed with GISTIC 2.0 to determine statistically significant recurrent broad and focal CNAs. The following parameters were used: minimum segment size = 8, lesion amplitude threshold = 0.2, focal/broad cutoff = 0.9x chromosome arm length, q-value threshold 0.10, and gene confidence level 0.95.
+
+PLATFORM
+GPL8737 Agilent-021529 Human CGH Whole Genome Microarray 1x1M (G4447A) (Probe Name version)
+
+CITATIONS
+23633565
+

@@ -1,0 +1,18 @@
+TITLE
+MtDASH Gain and loss of function mutants
+
+ORGANISM
+Medicago truncatula
+
+SUMMARY
+Comparison between transcriptomes of dash mutants vs WT plants and ectopic expression of 35S::DASH in hairy roots versus empty vector
+
+DESIGN
+Loss of function: 3 WT plants A17 at 8 days after pollination and 3 dash mutant plants at 8 days afer pollination. Gain of function transformants: 3 transformed plants containing empty vector and 4 transformed plants containing 35S::DASH Total RNA was extracted using a modified cetyltrimethylammonium bromide method (Verdier et al., 2008). 5ug of total RNA from each sample was purified (RNeasy MinElute Cleanup kit; Qiagen) according to the manufacturer?s instructions. RNA was quantified and evaluated for purity using an ND-1000 Nanodrop Spectrophotometer (NanoDrop Technologies) and a Bioanalyzer 2100 (Agilent). The Affymetrix M. truncatula GeneChip Array (Affymetrix) was used for expression analysis during seed development. RNA from three (for dash mutant analysis) and four (for DASH ectopic expression analysis) independent biological replicates were analysed for each time point. Probe synthesis/labelling was carried out from 500 ng of RNA using the GeneChip 3?IVT express kit, according to the manufacturer?s instructions (Affymetrix). Array hybridization, scanning, and data normalization were performed as described by Benedito et al., (2008). Each file from the hybridized Affymetrix array was exported from GeneChip Operating Software version 1.4 (Affymetrix) and imported into Robust Multiarray Average Express (Irizarry et al., 2003) for global normalization. Presence/absence call for each probe set to remove background noise was obtained using dCHIP (Li and Wong, 2001). To identify probe sets differentially expressed in dash mutant vs WT control, the R package Anapuce (J. Aubert, UMR 518 AgroParisTech/INRA) was used. For each probe set, a paired t-test was performed on the log2 expression data from three arrays (3 independent biological repeats for 8 dap data), assuming that the variance of the log expression was the same for all transcripts per genotype. Spots with extreme specific variance, too low or too high, were excluded from the statistical analysis (details on the procedure given in Gagnot et al., 2008). P-values were adjusted by the Benjamini-Hochberg method (Benjamini and Hochberg, 1995), which controls the family-wise error rate.
+
+PLATFORM
+GPL4652 [Medicago] Affymetrix Medicago Genome Array
+
+CITATIONS
+25492260
+

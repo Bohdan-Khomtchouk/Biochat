@@ -1,9 +1,0 @@
-TITLE
-Epithelium transition profile
-
-ORGANISM
-Mus musculus
-
-SUMMARY
-Transcriptional Profiling of the Transition from Normal Intestinal Epithelia to Adenomas and Carcinomas in the APC(Min/+) Mouse. Samples used in analysis: * GSM6191-GSM6196 (WT): Ilea epithelial cells from C57/BL6 wild-type samples * GSM6197-GSM6201 (Adenoma): Epithelial cells from crypts of adenomas of APC(Min/+) mice * GSM6202-GSM6206 (Carcinoma): Epithelial cells from crypts of carcinomas of APC(Min/+) mice Using a PixCell IIe instrument (Arcturus), ~30,000 laser firings per sample were used to collect cells of interest. RNA was extracted from captured cells by PicoPure (Arcturus) technique, followed by 2 rounds of RiboAmp amplification (Arcturus), with incorporation of biotinylated nucleotides (Enzo) in the IVT of round 2. All protocols were as per manufacturers instructions. 15ug of labeled cRNA from individual samples were hybridized to respective MG_U74Av2 chips (Affymetrix) and washed/stained using the standard EukGEWS2v4 protocol (Affymetrix). Chips were scanned and analyzed using MAS 5 (Affymetrix) and data scaled to TI=500. Pairwise comparisons using the Mann-Whitney test were performed in DMT 3 (Affymetrix), comparing: * WT vs Adenoma (n=6 x n=5; 83.3% concordance) * WT vs Carcinoma (n=5 x n=5; 84% concordance) * Adenoma vs Carcinoma (n=5 x n=5; 84% concordance) This resulted in the identification of differentially expressed transcripts. Fold changes were calculated from signal-log-ratios. Identified transcripts were clustered based on functional information which was publicly available at time of analysis, obtained through the NetAffx web portal (Affymetrix). Keywords = colon cancer Keywords = gene expression Keywords = DNA microarrays Keywords = beta-catenin Keywords = familial adenomatous polyposis Keywords: ordered
-

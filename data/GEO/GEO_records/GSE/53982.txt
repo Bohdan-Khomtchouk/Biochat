@@ -1,0 +1,18 @@
+TITLE
+Runx2-mediated gene regulation is affected by its genomic occupancy
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Osteogenesis is a highly regulated developmental process and continues during the turnover and repair of mature bone. Runx2, the master regulator of osteoblastogenesis, directs a transcription program essential for bone formation through both genetic and epigenetic mechanisms. While individual Runx2 gene targets have been identified, further insights into the broad spectrum of Runx2 functions required for osteogenesis are needed. By performing genome-wide characterization of Runx2 binding at the three major stages of osteoblast differentiation: proliferation, matrix deposition and mineralization, we identified Runx2-dependent regulatory networks driving bone formation. Using chromatin immunoprecipitation followed by high-throughput sequencing (ChIP-Seq) over the course of these stages, we discovered close to 80,000 significantly enriched regions of Runx2 binding throughout the mouse genome. These binding events exhibited distinct patterns during osteogenesis, and were associated with proximal promoters as well as a large percentage of Runx2 occupancy in non-promoter regions: upstream, introns, exons, transcription termination site (TTS) regions, and intergenic regions. These peaks were partitioned into clusters that are associated with genes in complex biological processes that support bone formation. Using Affymetrix expression profiling of differentiating osteoblasts depleted of Runx2, we identified novel Runx2 targets including Ezh2, a critical epigenetic regulator; Crabp2, a retinoic acid signaling component; Adamts4 and Tnfrsf19, two remodelers of extracellular matrix. We demonstrated by luciferase assays that these novel biological targets are regulated by Runx2 occupancy at non-promoter regions. Our data establish that Runx2 interactions with chromatin across the genome reveal novel genes, pathways and transcriptional mechanisms that contribute to the regulation of osteoblastogenesis.
+
+DESIGN
+MC3T3-E1 cells were treated with scramble or Runx2 shRNA, then harvested at proliferating stage (day 0) and differentiating stage (day 9). Total RNAs recovered from these cells were hybridization on Affymetrix microarrays. We sought to find new target genes or pathways regulated by Runx2 during osteoblast differentiation. When combined with genome-wide occupancy of Runx2, we expect to gain new insights on how Runx2 controls a transcriptional program essential for osteoblast differentiation.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24655370
+

@@ -1,0 +1,18 @@
+TITLE
+Analyzing the Transcriptomes of Two Quorum-Sensing Controlled Transcription Factors,   RcsA and LrhA, Important for Pantoea stewarti Virulence
+
+ORGANISM
+Pantoea stewartii subsp. stewartii
+
+SUMMARY
+The Gram-negative proteobacterium Pantoea stewartii subsp. stewartii causes wilt disease in corn plants.  Wilting is primarily due to bacterial exopolysaccharide (EPS) production that blocks water transport in the xylem during the late stages of infection.  EsaR, the master quorum-sensing (QS) regulator in P. stewartii, modulates EPS levels.  At low cell densities EsaR represses or activates expression of a number of genes in the absence of its acyl homoserine lactone (AHL) ligand.  At high cell densities, binding of AHL inactivates EsaR leading to derepression or deactivation of its direct targets. Two of these direct targets are the key transcription regulators RcsA and LrhA, which in turn control EPS production and surface motility/adhesion, respectively.  In this study, RNA-Seq was used to further examine the physiological impact of deleting the genes encoding these two second-tier regulators.  Quantitative reverse transcriptase PCR (qRT-PCR) was used to validate the regulation observed in the RNA-Seq data. A GFP transcriptional fusion reporter confirmed the existence of a regulatory feedback loop in the system between LrhA and RcsA.  Plant virulence assays carried out with rcsA and lrhA deletion and complementation strains demonstrated that both transcription factors play roles during establishment of wilt disease in corn. These efforts further define the hierarchy of the QS-regulated network controlling plant virulence in P. stewartii.
+
+DESIGN
+RNA-Seq on three strains harvested and sequenced in duplicate.  Two mutant strains compared to the wild type strain to monitor changes in expression
+
+PLATFORM
+GPL20222 Illumina HiSeq 2500 (Pantoea stewartii subsp. stewartii)
+
+CITATIONS
+26699719
+

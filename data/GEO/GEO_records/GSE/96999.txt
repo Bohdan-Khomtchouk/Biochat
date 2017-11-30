@@ -1,0 +1,18 @@
+TITLE
+High-throughput and site-specific identification of 2'-O methylation sites using Ribose Oxidation sequencing (RibOxi-Seq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We report our newly developed method for high-throughput sequencing of 2'-O methylation sites using positive signal and site specific approach. The pilot experiment using MiSeq generated ~2.5 million reads per sample. The 2'-O methylation site identification produced a promising distribution pattern matching known sites. For accurate and sensitive base call, > 10 million reads are required per sample as evidenced in the NextSeq experiment.
+
+DESIGN
+Total RNA extracted are aliquoted either as control or oxidized samples. The control RNAs are digested and subjected to custom small RNA sequencing library preparation, while the oxidized group has additional steps after digestion to oxidize RNA ends to selectively enrich fragments with 2'-O methylated terminal base for subsequent library preparation.
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+28495677
+

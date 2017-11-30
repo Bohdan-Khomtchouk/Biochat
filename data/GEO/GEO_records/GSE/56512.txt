@@ -1,0 +1,18 @@
+TITLE
+InFusion: advancing discovery of fusion genes and chimeric transcripts from RNA-seq data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene fusions and chimeric transcripts occur frequently in cancers and in some cases drive the development of the disease. An accurate detection of these events is crucial for cancer research and in a long-term perspective could be applied for personalized therapy. RNA-seq technology has been established as an efficient approach to investigate transcriptomes and search for gene fusions and chimeric transcripts on a genome-wide scale. A number of computational methods for the detection of gene fusions from RNA-seq data have been developed. However, recent studies demonstrate differences between commonly used approaches in terms of specificity and sensitivity. Moreover their ability to detect gene fusions on the isoform level has not been studied carefully so far. Here we propose a novel computational approach called InFusion for fusion gene detection from deep RNA sequencing data. Validation of InFusion on simulated and on several public RNA-seq datasets demonstrated better detection accuracy compared to other tools. We also performed deep RNA sequencing of two well-established prostate cancer cell lines. Using these data we showed that InFusion is capable of discovering alternatively spliced gene fusion isoforms as well as chimeric transcripts that include non-exonic regions. In addition our method can detect anti-sense transcription in the fusions by incorporating strand specificity of the sequencing library.
+
+DESIGN
+Detection of fusion genes and chimeric transcripts from deep RNA-seq data
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27907167
+

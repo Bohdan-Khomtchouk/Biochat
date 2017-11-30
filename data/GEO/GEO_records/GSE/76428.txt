@@ -1,0 +1,18 @@
+TITLE
+Gene expression data from adipocytes of insulin resistant mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We developed a novel network inference approach, Biologically Anchored Knowledge Expansion (BAKE), to analyze large volume gene expression data obtained from a mouse model of insulin resistance progression. Both genetic aspects and dietary factors, specifically high caloric high-fat high-sugar diets, contribute to the progression of insulin resistance. To mimic genetic predisposition, we used a mouse model with double heterozygous deletion of early insulin signaling pathway intermediates, insulin receptor (IR) and insulin receptor substrate 1 (IRS1) genes. These mice were fed with high-fat (Western) or low-fat (Chow) diet for 8 and 16 weeks starting at 8 weeks of age. Gene expression data was collected from adipocytes isolated from these mice. Applying BAKE analysis to the adipocyte gene expression data, we demonstrate that we can accurately discover a novel regulatory gene in the insulin signaling pathway.
+
+DESIGN
+The mouse model of double heterozygous deletion of insulin receptor (IR) and insulin receptor substrate 1 (IRS1) was originally introduced as a polygenic model to study the development of type 2 diabetes. This mouse model, on an atherosclerosis-prone ApoE null background (IR+/- IRS1+/- ApoE-/-), also shows increased atherosclerotic lesions due to impaired insulin signaling.  For our study we used female double heterozygous mice (IR+/- IRS1+/-, 'Dhet' mice or 'D’ mice) on an ApoE null background (ApoE-/-, ‘E’) fed with a Western (high-fat) diet for 8 (DW8, n=5) and 16 (DW16, n=9) weeks starting at 8 weeks of age or with a Chow (low-fat) diet (DC8, n=7; DC16, n=5). There were also ApoE null mice (ApoE-/-, 'E’) fed either Western diet for 8 (EW8, n=6) and 16 (EW16, n=8) weeks or Chow diet for 16 weeks (EC16, n=5) starting at 8 weeks of age.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

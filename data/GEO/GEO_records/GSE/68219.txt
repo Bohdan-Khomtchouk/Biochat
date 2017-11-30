@@ -1,0 +1,18 @@
+TITLE
+MYC is a major determinant of mitotic cell fate
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: To determine global gene expression changes following siRNA knockdown of Myc, Kcnk1, and Snta1 compared to non-targeting siRNAs or mock-transfected cells Methods: Total RNA was processed using the Illumina TruSeq Stranded mRNA Sample Preparation Kit according to manufacturer’s protocol. Generated cDNA libraries were sequenced using an Illumina HiSeq 2000 sequencer with four biological replicates sequenced per condition using single read, 50 cycle runs. Quality of sequencing reads were assessed using FastQC (Babraham Bioinformatics) and then aligned to a reference genome (hg19, UCSC Genome Browser) using TopHat. Sequencing yielded, on average, 23.7 million unique reads per sample with a 60.7 - 65.7% mapping rate. Cufflinks was used to generate transcript abundance for each annotated protein-coding gene as Fragments Per Kilobase of transcript per Million mapped reads (FPKM), and statistical analysis and comparison of FPKM values was calculated using R (Bioconductor). Results: Fold changes comparing mock and a non-targeting siRNA were highly congruent. Myc RNAi induced numerous changes, with 955 downregulated genes and 1214 upregulated genes. The effect on Myc itself was relatively modest, possibly reflecting its ability to negatively auto-regulate its own expression. Gene ontology analysis highlighted ribosome biogenesis, metabolism, gene expression, cell cycle, and apoptosis pathways, consistent with known Myc functions. The Kcnk1 siRNA affected 424 genes, with KCNK1 itself one of the most repressed. While gene ontology analysis also highlighted metabolism and biosynthesis pathways, the p-values and fold enrichment scores were substantially lower, indicating that DiM can be suppressed without major effects on metabolism and biosynthesis pathways. The Snta1 siRNA deregulated 575 genes, with SNTA1 itself the most repressed gene. Cell cycle and mitosis-related gene ontology terms feature heavily, consistent with this siRNA accelerating mitotic exit. Interestingly, FoxM1, which drives G2/M gene expression was reduced 1.75-fold, indicating that this siRNA may disrupt mitotic controls by deregulating FoxM1. Conclusions: Global gene expression profiling identifies Egr1 as regulator of mitotic cell fate.
+
+DESIGN
+Total RNA was extracted from at least four replicates of siRNA-transfected cells and libraries for sequencing was prepared for each replicate.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26175417
+

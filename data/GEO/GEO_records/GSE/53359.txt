@@ -1,0 +1,18 @@
+TITLE
+Conservation of mRNA and protein expression during development of C. elegans
+
+ORGANISM
+Caenorhabditis briggsae ; Caenorhabditis elegans
+
+SUMMARY
+Spatiotemporal control of gene expression is crucial for development and subject to evolutionary changes. Although proteins are the final product of most genes, the developmental proteome of an animal has not yet been comprehensively defined, and the correlation between RNA and protein abundance during development is largely unknown. Here, we globally measured and compared protein and mRNA expression changes during the life cycle of the nematodes C. elegans and C. briggsae, separated by ~30 million years of evolution. We observed that developmental mRNA and protein changes were highly conserved, to a surprisingly similar degree, but poorly correlated within a species, suggesting important and widespread post-transcriptional regulation. Post-transcriptional control was particularly well conserved if mRNA fold changes were buffered on the protein level, indicating a predominant repressive function. Finally, among divergently expressed genes, we identified insulin signaling, a pathway involved in life span determination, as a putative target of adaptive evolution.
+
+DESIGN
+Samples of C. elegans and C. briggsae were collected at major developmental stages throughout the nematode life cycle. These stages comprise a population of mixed embryonic stages (E), populations of all four larval stages (L1, L2, L3, L4), late L4 larvae (LL4), young adults (YA), and a reference sample consisting of a mixture of all stages. To obtain synchronized worm populations, embryos were extracted by bleaching gravid adults and synchronized by starvation. Later stages were picked at fixed timepoints after determining the developmental stages by microscopic observation. For all stages, at least a single poly(A)-extracted mRNA library was sequenced on a single lane of an Illumina Genome Analyzer IIx.
+
+PLATFORM
+GPL13776 Illumina Genome Analyzer IIx (Caenorhabditis elegans) GPL18072 Illumina Genome Analyzer IIx (Caenorhabditis briggsae)
+
+CITATIONS
+24462290
+

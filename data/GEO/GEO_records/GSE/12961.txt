@@ -1,0 +1,18 @@
+TITLE
+Effect of dietary immunostimulation in the portals of entry of rainbow trout after LPS challenge
+
+ORGANISM
+Oncorhynchus mykiss
+
+SUMMARY
+Rainbow trout (Oncorhynchus mykiss) were fed during 4 weeks with either a control diet or an immunostimulant diet and then injected with LPS to investigate the effect of dietary immunostimulation in the portals of entry, intestine and gills, using a salmonid-specific microarray platform enriched with immune-related genes. IS-diet feeding significantly changed transcriptomic expression profiles in response to LPS:  significant changes in genes and functional GO categories related to remodeling processes and antigen presentation were different for both diets. The results revealed that one of the main effects of IS-diets in trout is the increase of genes involved in antigen recognition and in adaptive immunity. Keywords: gills, intestine, immunostimulats, transcriptomic response, trout
+
+DESIGN
+Adult rainbow trout (Oncorhynchus mykiss) were randomly distributed in four fibreglass tanks (25 fish per tank). During the feeding trial, trouts were hand-fed once a day with either the control diet or the immunodiet, in duplicate tanks, following manufacturer’s indication of 1 g food/fish for 4 weeks. After the 4 weeks, 5 fish were injected with LPS and 5 fish were injected with PBS. After 24h, samples were taken for microarray analysis. Tissues were removed for RNA extraction and frozen in liquid nitrogen, then stored at -80 ºC. Total RNA was extracted from the organs using 1 ml of Tri Reagent (Sigma) per 100 mg of tissue, following the manufacturer’s instructions and quantity and integrity was analyzed by Experion RNA StdSens Analysis Kit (Bio-Rad). The design of the microarray posses 1818 genes printed in six replicates each, including random clones from common and subtracted cDNA libraries which were compared with known vertebrate proteins using blastx. The platform was enriched in immune-related genes. RNA was pooled within treatments (n=5), and 15 µg of control and test were labeled with Cy3- and Cy5-dCTP (Amersham Pharmacia) using SuperScript III reverse transcriptase (Invitrogen) and oligo(dT) primer (Promega), and cDNA was purified with Microcon YM30 (Millipore). Dye swap method was used, therefore each sample was hybridized to two microarrays. For the first slide, test and control cDNA were labeled with Cy5 and Cy3 respectively, and for the second array dye assignments were reversed. Scanning was performed with Axon scanner 4000B and images were processed with GenePix Pro 6.0. After subtraction of mean background, and LOWESS normalization was performed. To assess differential expression of genes, the normalized log intensity ratios were analyzed with Student’s t-test (p < 0.01) and genes were ranked by log(p-level). The Bayesian modification to the false discovery rate (FDR) was used to correct for multiple comparison tests, estimating the q-value for the set of differentially expressed genes. The functional categories of Gene Ontology were compared with regulated genes (p < 0.01) by the sums of ranks (Student’s t-test, p < 0.05) and the statistical significance of over represented functional categories was assessed using the Yates correction to Chi square test (corrected p < 0.05).
+
+PLATFORM
+GPL6154 UKU_trout_1.8K_v1
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

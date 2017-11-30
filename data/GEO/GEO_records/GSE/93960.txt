@@ -1,0 +1,18 @@
+TITLE
+Human Cord Blood Sorted Live Cell Erythroblasts RNA-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Erythroblasts cultured from six healthy commercial available cord blood CD34+ cells were used to generate an cord blood erythroblast transcriptome. Cellular maturation was maintained including enucleation.  On culture day 14 total RNA was isolated (see PMID: 23798711 for details). These RNA-Seq profiles were generated after flow cytometric sorting (live cell gating of culture Day 14 erythroblasts according to forward and side scatter).
+
+DESIGN
+Human CD34+ cells from health donor cultured in serum free medium.  RNA extracted from sorted live cell gate on Day 14 using Qiagen miRNeasy Mini Kit.  1ug of RNA was used for library construction and Ribo depletion with globin subtraction. We would like to thank Gerard Bouffard and the National Human Genome Research Institute for their expertise and assistance with RNA-seq.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Guo RL, Lee YT, Byrnes C, Miller JL (2017) Puromycin Selection Confounds the RNA-Seq Pro les of Primary Human Erythroblasts. Transcriptomics 5: 140. doi:10.4172/2329-8936.1000140
+

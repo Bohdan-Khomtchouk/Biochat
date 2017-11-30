@@ -1,0 +1,18 @@
+TITLE
+Genome-wide RNA tomography in the zebrafish embryo
+
+ORGANISM
+Danio rerio ; Mus musculus
+
+SUMMARY
+Advancing our understanding of embryonic development is heavily dependent on identification of novel pathways or regulators. While genome-wide techniques such as RNA sequencing are ideally suited for discovering novel candidate genes, they are unable to yield spatially resolved information in embryos or tissues. Microscopy-based approaches, using for example in situ hybridization, can provide spatial information about gene expression, but are limited to analyzing one or a few genes at a time. Here, we present a method where we combine traditional histological techniques with low-input RNA sequencing and mathematical image reconstruction to generate a high-resolution genome-wide 3D atlas of gene expression in the zebrafish embryo at three developmental stages. We also demonstrate that our technique is suitable for spatially-resolved differential expression analysis in wildtype and Gli3 mutant mouse forelimbs. Importantly, our method enables searching for genes that are expressed in specific spatial patterns without manual image annotation. We envision broad applicability of RNA tomography as an accurate and sensitive approach for spatially resolved transcriptomics in whole embryos and dissected organs.
+
+DESIGN
+To generate spatially-resolved RNA-seq data for zebrafish embryos (shield stage, 10 somites, 15 somites, 18 somites) and mouse forelimbs (E10.5), we cryosectioned samples, extracted RNA from the individual sections, and amplified and barcoded mRNA using the CEL-seq protocol (Hashimshony et al., Cell Reports, 2012) with a few modifications. Libraries were sequenced on Illumina HiSeq 2500 using 50bp paired end sequencing. Selected zebrafish libraries were sequenced on MiSeq 250bp paired-end to improve 3' annotations.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL18413 Illumina HiSeq 2500 (Danio rerio)
+
+CITATIONS
+25417113
+

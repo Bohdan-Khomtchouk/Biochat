@@ -1,0 +1,18 @@
+TITLE
+Regional gene expression in the Xenopus gastrula
+
+ORGANISM
+Xenopus laevis
+
+SUMMARY
+Studies on the early embryonic development of Xenopus laevis contributed much to the understanding of vertebrate patterning. Gastrula stages are of particular interest because establishment of the axis and germ layer formation take place during these stages. While many genes belonging to several signaling pathways including FGF, Wnt and TGF-beta, have been implicated in patterning the gastrula embryo, the hierarchical interactions between these factors are incompletely known. To study this question, we took advantage of microarray technology to create a regional gene expression profile for the Xenopus gastrula. Stage 10 Xenopus embryos were dissected into four portions. The dorsal marginal zone including the blastopore and some ectoderm and dorsal yolk plug, composed mostly of endomesoderm; the ventral marginal zone, also containing a portion of the yolk plug; the animal cap, dissected just above the floor of the blastocoel; and the vegetal region, composed of the central part of the yolk plug. To avoid possible cross contamination that might blur the microrarray data, thin junctional regions between the explants were removed. The dissected explants were homogenized in Stat 60 (TEL TEST), RNA was precipitated by isopropanol, treated with DNase I, and purified using the RNeasy kit (Qiagen). Biotinylated probe was prepared from 100 ng total RNA using the OVATION RNA amplification system (Nugen Technologies, Inc). The probes were hybridized to Affymetrix Xenopus Chips containing features that represent about 15,000 genes according to the manufacture’s instructions. Hybridized arrays were further processed by the GeneChip Fluidics system (Affymetrix), and signals were detected by the GeneChip Scanner (Affymetrix). Gene expression profiles were analyzed by the GCOS software (Affymetrix). The analysis showed that 100 transcripts were enriched in the dorsal explant (dorsal vs. ventral, signal log2 ratio > 1.5), including the known dorsal markers Chordin, gsc, Admp; 90 transcripts were enriched in the ventral explant (ventral vs. dorsal, signal log2 ratio > 1.5) including Sizzled, bambi, PV.1; 449 transcripts were enriched in the vegetal explant (vegetal vs. dorsal, vegetal vs. ventral, vegetal vs. animal cap, all signal log2 ratio > 1.5), including Mixer, Sox17; 70 transcripts were enriched in the animal cap (animal cap vs. vegetal, signal log2 ratio > 1.5; animal cap vs. dorsal, signal log2 ratio > 1; animal cap vs. ventral, signal log2 ratio > 1) including Epidermal type I cytokeratin and forkhead-2.  RT-PCR was used to check the enrichment of some of the unknown genes; the enrichment of 8 of 9 ventral genes, and 9 of 12 dorsal genes was confirmed in these experiments. Keywords: Xenopus, gastrula, explant, gene expression, embryonic, gene regulation
+
+DESIGN
+Ceate a regional gene expression profile in Xenopus gastrula, and predict gene expression pattern by comparing gene expression in different explant.
+
+PLATFORM
+GPL1318 [Xenopus_laevis] Affymetrix Xenopus laevis Genome Array
+
+CITATIONS
+19793890
+

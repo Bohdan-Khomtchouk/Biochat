@@ -1,0 +1,18 @@
+TITLE
+A Universal RNA Polymerase II CTD Cycle Is Orchestrated by Complex Interplays Between Kinase, Phosphatase and Isomerase Enzymes Along Genes
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Transcription by RNA polymerase II (RNAPII) is coupled to mRNA processing and chromatin modifications via the C-terminal domain (CTD) of its largest subunit, consisting of multiple repeats of the heptapeptide YSPTSPS. Pioneering studies showed that CTD serines are differentially phosphorylated along genes in a prescribed pattern during the transcription cycle. Genome-wide analyses challenged this idea, suggesting that this cycle is non-uniform among different genes. Moreover, the respective role of enzymes responsible for CTD modifications remains controversial. Here, we systematically profiled the location of the RNAPII phospho-isoforms in wild type cells and mutants for most CTD modifying enzymes. Together with results of in vitro assays, these data reveal a complex interplay between the modifying enzymes, and provide evidence that the CTD cycle is uniform across genes. We also identify Ssu72 as the Ser7 phosphatase and show that proline isomerization is a key regulator of CTD dephosphorylation at the end of genes.
+
+DESIGN
+We took a systematic approach to examine the genome-wide distribution of the various CTD modifications using a panel of RNAPII CTD phospho-specific antibodies; both in wild type cells and in mutants for most of the CTD kinases, phosphatases and the isomerase. Immunoprecipitation of CTD phospho-isoforms were done using the following antibodies: H14 and 3E8 for Ser5, H5 and 3E10 for Ser2, 4E12 for Ser7, 8WG16 (anti-Rpb1-CTD) and W0012 (anti-Rpb3) for RNAPII (global localization). A list of the mutant strains and their genotypes can be found  in the supplemental files of the related publication. Most ChIPs (in Cy5) were hybridyzed against a non-immunoprecipitated (whole cell extract, WCE) in Cy3. Ssu72, Pti1 and Rpb1 were immunoprecipitated using tagged proteins (3myc-Ssu72, Pti1-3myc, Rpb1-9myc) and the ChIP DNA hybridized in competition with a control ChIP DNA prepared from an isogenic untagged strain (NoTag). ChIP from wild type strains yFR116 (W303) and yFR117 (S288C) were used to obtains wild type profiles that can be compared to mutants strains of the same background. All ChIP-chip experiments were done at least in duplicates. Each microarray was normalized using the Lima Loess and replicates were combined using a weighted average method as previously described  (Pokholok et al., 2005).
+
+PLATFORM
+GPL4131 Agilent-014810 Yeast Whole Genome ChIP-on-Chip Microarray 4x44K (G4493A)
+
+CITATIONS
+22284676
+

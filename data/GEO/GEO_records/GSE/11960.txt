@@ -1,0 +1,18 @@
+TITLE
+Affymetrix 500K Mapping Array data from ovary tumors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Fifty-seven ovary tumors were profiled for copy-number alterations with the high-resolution Affymetrix 500K Mapping Array. Keywords: Mapping Array
+
+DESIGN
+Affymetrix 500K Mapping Array intensity signal CEL files were processed by dChip 2005 (Build date Nov 30, 2005) using the PM/MM difference model and invariant set normalization.  Forty-eight normal samples were downloaded from the Affymetrix website ( http://www.affymetrix.com/support/technical/byproduct.affx?product=500k ) and analyzed at the same time.  One CEL file for each set (Sty and Nsp) with the median signal intensity across the set was selected as the reference array.   The dChip-normalized signal intensities were converted to log2 ratios and segmented as follows.  For each autosomal probe set, the log2 tumor/normal ratio of each tumor sample was calculated using the average intensity for each probe set in the normal set.  For Chromosome X, the average of the 20 normal female samples was used.   Each probe set was mapped to the genome, NCBI assembly version 36, using annotation provided by the Affymetrix web site.  The log2 ratios were centered to a median of zero and segmented using the GLAD package for the R statistical environment. Copy number was calculated as power(2,log2ratio + 1).
+
+PLATFORM
+GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array
+
+CITATIONS
+19419571
+

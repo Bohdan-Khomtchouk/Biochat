@@ -1,0 +1,18 @@
+TITLE
+Context-specific microRNA analysis: identification of functional microRNAs and their mRNA targets
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs (miRs) function primarily as post-transcriptional negative regulators of gene expression through binding to their mRNA targets. Reliable prediction of a miR’s targets is a considerable bioinformatic challenge of great importance for inferring the miR’s function. Sequence-based prediction algorithms have high false-positive rates, are not in agreement, and are not biological context specific. Here we introduce CoSMic (Context-Specific MicroRNA analysis), an algorithm that combines sequence-based prediction with miR and mRNA expression data. CoSMic differs from existing methods—it identifies miRs that play active roles in the specific biological system of interest and predicts with less false positives their functional targets. We applied CoSMic to search for miRs that regulate the migratory response of human mammary cells to epidermal growth factor (EGF) stimulation. Several such miRs, whose putative targets were significantly enriched by migration processes were identified. We tested three of these miRs experimentally, and showed that they indeed affected the migratory phenotype; we also tested three negative controls. In comparison to other algorithms CoSMic indeed filters out false positives and allows improved identification of context-specific targets. CoSMic can greatly facilitate miR research in general and, in particular, advance our understanding of individual miRs’ function in a specific context.
+
+DESIGN
+MCF10A cells were transfected using Oligofectamine transfection reagent (Invitrogen), with siRNA oligonucleotides directed at hsa-miR-20a, hsa-miR-671-5p and a non-targeting control (purchased from Dharmacon). Total RNA was extracted from biological duplicates at four time-points following EGF stimulation (t=0,30,60,120 min.). RNA was isolated and was hybridized to Affymetrix GeneChip Human Gene 1.0 ST arrays.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+22977182
+

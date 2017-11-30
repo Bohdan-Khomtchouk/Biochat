@@ -1,0 +1,18 @@
+TITLE
+REV-ERBα influences stability and nuclear localization of the glucocorticoid receptor
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We report here that REV-ERBα influences nuclear localization of the glucocorticoid receptor and vice versa. As a consequence these two nuclear receptors influence each others transcriptome. REV-ERBα (Nr1d1) is a nuclear receptor that is part of the circadian clock mechanism and regulates metabolism and inflammatory processes. The glucocorticoid receptor (GR, Nr3c1) influences similar processes, but is not part of the circadian clock mechanism although glucocorticoid signaling affects resetting of the circadian clock in peripheral tissues. Because of their similar impact on physiological processes we studied the interplay between these two nuclear receptors. We found that REV-ERBα competes with GR for binding to HSP90, a chaperone responsible for the activation of substrate proteins to ensure survival of a cell. This competition affected stability and nuclear localization of GR, thereby affecting GR target gene expression such as IκB and alcohol dehydrogenase 1 (Adh1). Our findings highlight an important interplay between two nuclear receptors that influence each others transcritpional potential indicating that the transcriptional landscape is strongly dependent on dynamic processes at the protein level. 
+
+DESIGN
+In this dataset, we isolated livers at Zeitgebertime (ZT) 8 and ZT20 of wild type and Rev-erb alpha knock-out animals. Liver samples were immediately flash frozen in liquid N2 and stored at −80 °C. RNA was extracted using NucleoSpin RNA (Machery-Nagel, Düren, Germany) according to the instructions of the manufacturer. Quality of the RNA samples was analysed with a spectrophotometer, agarose gel electrophoresis and reverse transcription-PCR. Library construction starting from the poly(A)-tail and multiplexing was performed according to the instructions of the manufacturer (Illumina). The samples were organized as follows: Three replicas (1-WT, 2-WT, 3-WT) correspond to genotype WT at ZT8. Three replicas (4-Rev, 5-Rev, 6-Rev) correspond to genotype Rev-/- at ZT8. Three replicas (7-WT, 8-WT, 9-WT) correspond to genotype WT at ZT20. Three replicas (10-Rev, 11-Rev, 12-Rev) correspond to genotypeRev-/- at ZT20. For the experiment, complementary DNA (cDNA) libraries were barcoded using Illumina primers and loaded onto one lane of an IlluminaHS2000 machine. cDNA libraries were diluted and loaded onto each lane. The samples were sequenced for a maximum sequencing length of 75 bp. Sequences were aligned to the mouse genome (UCSC version mm10 database). Numbers of the sequences obtained for each library can be found in Supplementary Table 3. Sequences (fastq format) were mapped with Tophat (Trapnell, C. 2009), uniquely mapped sequences from the output files (bam format) were then used for further analysis, percentage of the mapping obtained for each sample can be found in Supplementary Table 3. For all files the reads were counted with HTSeq-count using the following criteria: samtools view sample.bam | htseq-count -m union -a 10 -s no -i gene_name Mus_Musculus.gtf > sample_counts.txt Tests for differential expression between the samples were performed in R software (R Core Team, 2014  http://www.R-project.org/ ) using the DESeq2 package (Version 1.6.3) (Love, M. 2014). A threshold on the corrected P value was used to call for differentially expressed genes (P.adjust < 0.05).    
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+27686098
+

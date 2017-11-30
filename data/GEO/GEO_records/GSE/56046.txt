@@ -1,0 +1,18 @@
+TITLE
+Transcriptomics and methylomics of human monocytes [methylome]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The MESA Epigenomics and Transcriptomics Study has been launched to investigate potential gene expression regulatory methylation sites in humans by examining the association between CpG methylation and gene expression in purified human monocytes from a large study population (community-dwelling participants in the Multi-Ethnic Study of Atherosclerosis (MESA)). The MESA Epigenomics and Transcriptomics Study was funded by a National Heart, Lung and Blood Institute grant (R01HL101250) through the NIH Roadmap Epigenomics Program in 2009.
+
+DESIGN
+The current study is particularly focused on the relationships between transcriptomics and methylomics with age. Data includes transcriptomic and methylomic data from CD14+ samples, collected from 1,202 individuals ranging 44 - 83 years of age (Exam 1).  Peripheral monocytes were isolated from blood (Exam 5) with anti-CD14 coated magnetic beads, and the Illumina HumanHT-12 v4 Expression BeadChip and the Illumina HumanMethylation450 BeadChip were used to provide genome-wide coverage of mRNA expression and DNA methylation, respectively.  This data enabled us to identify CpG loci whose degree of methylation was associated with age (age-DMR),and identify age- and expression-associated methylation sites (age-eMS), whose degree of methylation was associated with age and cis-gene expression (+/- 1Mb), after adjusting for other covariates such as race, gender, study site, and sample contaimination with B-cells, T-cells, natural killer cells, and neutrophils. To estimate residual sample contamination for monocyte data analysis, separate enrichment scores for neutrophils, B cells, T cells, and natural killer cells were calculated and provided as sample characteristics. The participant race, gender, and study site were provided as 'raceGenderSite variable' which represents a combination of those factors. A detailed description of each sample characteristics is included in the 'README.txt'.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+25404168 , 26153245 , 27613907
+

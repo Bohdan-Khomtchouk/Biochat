@@ -1,0 +1,18 @@
+TITLE
+Escherichia coli BW25113 cobB/pCA24N-cobB vs. cobB/pCA24N under stress conditions
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Acetylation of lysine residues is conserved in all three kingdoms; however, its role in prokaryotes is unknown.  Here we demonstrate that acetylation enables the reference bacterium Escherichia coli to withstand environmental stress. Specifically, the bacterium reaches higher cell densities and becomes more resistant to heat and oxidative stress when its proteins are acetylated, as shown by deletion of the gene encoding acetyltransferase YfiQ and the gene encoding deacetylase CobB, as well as by overproducing YfiQ and CobB. Furthermore, we show that the increase in oxidative stress resistance with acetylation is due to the induction of catalase activity through enhanced katG expression. We also found that two-component system proteins CpxA, PhoP, UvrY, and BasR are associated with cell catalase activity and may be responsible as the connection between bacterial acetylation and the stress response. This is the first demonstration of a specific environmental role of acetylation in prokaryotes.
+
+DESIGN
+Overnight cultures of cobB/pCA24N-cobB and cobB/pCA24N were cultured to a turbidity of 0.05 at 600 nm and grown 2 h. Then, 0.1 mM IPTG was added for another 4 h to induce cobB expression, and then the cells were exposed to 20 mM H2O2 for 10 min. Cell pellets were collected and resuspended in RNAlater (Ambion Inc., Austin, TX), and total RNA was isolated using the RNeasy Mini Kit (Qiagen Inc., Valencia, CA). The E. coli GeneChip Genome 2.0 array (Affymetrix, P/N 900551) was used, and cDNA synthesis, fragmentation, and hybridizations were performed as described previously. If the gene with the larger transcription rate did not have a consistent transcription rate based on the 11-15 probe pairs (P-value less than 0.05), these genes were discarded. A gene was considered differentially expressed when the P-value for comparing two chips was lower than 0.05 (to assure that the change in gene expression was statistically significant and that false positives arise less than 5%) and if their fold change is higher than the standard deviation for the whole genome.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+21703240
+

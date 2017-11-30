@@ -1,0 +1,18 @@
+TITLE
+Decreased Fgf8 gene dosage on gene expression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Robustness to perturbation, or canalization, is a fundamental and required feature of complex organisms.1 Mutations are the raw material for evolution, but robustness to their effects is required for organisms to tolerate mutational loads.1  Similarly, robustness to environmental perturbations, or limiting environmental responses to an adaptive range, is necessary for organisms to tolerate environmental variation. Robustness is heritable2-4, but the mechanisms that produce it are poorly understood. Explanations range from the role of specific processes such as heat shock proteins to more general embedded features of developmental systems. Nonlinearities are an embedded, ubiquitous feature of development that may modulate how variation in development relates to phenotypic robustness.5,6 Here, we show that variation in Fibroblast Growth Factor 8 (Fgf8) expression across an allelic series has a nonlinear relationship to phenotypic variation, predicting the magnitude of variation within genotypes. These differences in phenotypic variance are independent of genetic variance and so reflect differential robustness to minor environmental variation. Differences in robustness are not related to differences in the variance of gene expression within genotypes. However, mean gene expression levels do vary across genotypes, particularly in genes downstream to FGF8 signaling. Gene expression changes thus explain the genotype-phenotype curve but not the changes in robustness along the curve. This suggests that mechanisms above the gene-regulatory network are important determinants of robustness. Our results show that nonlinearities in developmental mechanisms can persist from genotype to phenotype to produce variation in robustness between genotypes.  This suggests that embedded features of development rather than specific canalizing mechanisms explain robustness.  How such features vary among individuals in natural populations and relate to genetic variation more generally are key questions for unravelling the origin and evolvability of this fundamental feature of organismal development.
+
+DESIGN
+Mouse breeding and embryo generation: The Fgf8 neo series is a 5 member series generated from a combination of the neomycin insertion into the intron between exon  2 and 3 of the Fgf8 locus and a null allele generated from loss of exon 2.  Fgf8 mice were generated from the Fgf8 flp/ floxed allele originally developed by (Meyers et al., 1998). The neo cassette was maintained in the Fgf8Neo mice.  Deletion constructs were developed by crossing with β-actin cre (FVB/N-Tg(ACTB-cre)2Mrt/J), to delete exons 2 and 3 from all cells. To generate the neo series, crosses were performed between mice that were heterozygous for and mice that were homozygous for the Neo (flp) allele. Genotyping was performed as in (Meyers et al., 1998). For embryos, pregnant dams were sacrificed at embryonic day (E) 10.5 based on visualization of a post-coital plug at E0.5. E10.5 embryos were dissected into PBS on ice and snap frozen at -80C. RNA was extracted in batch preps using Trizol. TapeStation analysis was used to select samples for RNAseq, all samples tested had a RIN number of between 9.0 and 10. Single end reads were performed to a read depth of 40 million reads/ sample on an illumina NextSeq 5000.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

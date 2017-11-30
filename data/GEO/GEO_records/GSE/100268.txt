@@ -1,0 +1,18 @@
+TITLE
+HPIP activation through TGF-β signaling governs cartilage homeostasis and osteoarthritis development [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To underly the potential downstream transcriptional regulation of HPIP that could account for cartilage and skeletal development. RNA-seq analysis were performed in HPIP－／－ and control primary chondrocytes.Among the 1271 significantly differentially expressed genes, transcripts for 486 (7%) of them were upregulated while transcripts for 785 (11%) were downregulated in HPIP－／－ chondrocytes compared to the controls. We found HPIP was closely correlated with the cartilage development.
+
+DESIGN
+Total RNA was isolated with TRIzol from the HPIP-/- and control primary chondrocytes. Complementary DNA library were prepared and then sequenced by Novel Bioinformatics Co, Ltd ( https://en.novogene.com/ ). Clean reads was obtained from the raw reads by removing the adaptor sequence before read mapping. Reference genome and gene model annotation files were downloaded from genome website browser (NCBI/UCSC/Ensembl). HTSeq V0.6.1 was used to count the read numbers mapped of each gene. And then RPKM of each gene was calculated based on the genes reads count mapped to this gene. Differential expression analysis was performed using the DESeq R package (1.10.1).
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

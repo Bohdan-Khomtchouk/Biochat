@@ -1,0 +1,18 @@
+TITLE
+Identification of protein-RNA interactions in Drosophila using RIP-Seq
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The goal of these experiments is to identify RNAs bound by individual RNA-binding proteins. Drosophila S2R+ cells were transiently transfected with vectors encoding the indicated HA-tagged RNA-binding proteins, or without an insert as a control. Expression was induced with CuSO4, whole cell lysates were prepared and protein-RNA complexes were isolated by immunoprecipitation with HA immunoaffinity resin. RNA was then isolated from the immunoprecipitated material, and RNA-Seq libraries were prepared and sequenced. Sequence reads were aligned to the D. melanogaster reference genome Dm3 using TopHat and expression levels were quantitated using cufflinks. This work was funded as part of the modENCODE project by NHGRI. For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf
+
+DESIGN
+At least two biological replicates were performed for each protein studied. In addition, control experiments were performed in which cells were transfected with the same vector lacking an open reading frame.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+26294687
+

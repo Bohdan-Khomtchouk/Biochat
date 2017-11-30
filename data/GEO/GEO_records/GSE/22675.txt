@@ -1,0 +1,18 @@
+TITLE
+RNA Polymerase mapping during stress responses reveals widespread nonproductive transcription in yeast
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The use of genome-wide RNA abundance profiling by microarrays and deep sequencing has spurred a revolution in our understanding of transcriptional control. However, changes in mRNA abundance reflect the combined effect of changes in RNA production, processing, and degradation, and thus, mRNA levels provide an occluded view of transcriptional regulation. To partially disentangle these issues, we carry out genome-wide RNA Polymerase II (“Pol2”) localization profiling in budding yeast in two different stress response time courses. While mRNA changes largely reflect changes in transcription, there remains a great deal of variation in mRNA levels that is not accounted for by changes in Pol2 abundance. We find that genes exhibiting “excess” mRNA produced per Pol2 are enriched for those with overlapping cryptic transcripts, indicating a pervasive role for nonproductive or regulatory transcription in control of gene expression. Finally, we characterize changes in Pol2 localization when Pol2 is genetically inactivated using the rpb1-1 temperature-sensitive mutation. We find that Pol2 is lost from chromatin after roughly an hour at the restrictive temperature, and that there is a great deal of variability in the rate of Pol2 loss at different loci. Together, these results provide a global perspective on the relationship between Pol2 and mRNA production in budding yeast.
+
+DESIGN
+The array studies consisted of 4 time courses in which the genome-wide location of RNA Polymerase II was mapped via chromatin immunoprecipitation (ChIP) in BY4741 S. cerevisiae cells or in such cells bearing the temperature sensitive mutation rpb1, in response to heat shock at 37 degrees C and/or 1.5 mM diamide.  All samples were hybridized as the ChIP sample (Cy3 labeled, channel 1) versus its cognate ChIP input sample (Cy5 labeled, channel 2).  The first time course was a heat shock in wild-type BY4741 cells.  The second time course was a heat shock in BY4741 rpd1 cells.  The third time course was a diamide treatment of BY4741 rpd1 cells.  The fourth time course was a 10 minute heat shock in BY4741 rpd1 cells followed by treatment from 15-60 minutes with diamide (3 samples).  In the first three time courses the time range is 0-120 minutes (5 samples).  A total of 18 arrays were used in this study.  No additional replicates or dye-flip experiments were performed.
+
+PLATFORM
+GPL4131 Agilent-014810 Yeast Whole Genome ChIP-on-Chip Microarray 4x44K (G4493A)
+
+CITATIONS
+20637075
+

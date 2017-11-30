@@ -1,0 +1,18 @@
+TITLE
+SNP array data for 304 pediatric and adult acute lymphoblastic leukemia cases
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Copy number and LOH analysis was performed for 304 casesof B-progenitor and T-lineage acute lymphoblastic leukemia. All caseswere genotyped with Affymetrix 250k Sty and Nsp arrays. 252 cases werealso genotyped with Hind and Xba arrays. Keywords: Acute leukemia, BCR-ABL1, copy number analysis, loss-of-heterozygosity, genomics *** Due to privacy concerns, the primary SNP array data is no longer available with unrestricted access. Individuals wishing to obtain this data for research purposes may request access using the Web links below. ***
+
+DESIGN
+All assays were performed on DNA extracted fromcryopreserved, mononuclear cell preparations of diagnostic peripheralblood or bone marrow samples. Samples with less than 80% blasts wereflow sorted prior to DNA extraction. SNP calls were generated usingAffymetrix GTYPE. Probe intensity data was extracted and used for DNAcopy number analysis using dChip, a karyotype-guided normalizationalgorithm (Reference normalization, Mullighan et al Nature2007;446:758), dChip and circular binary segmentation (implemented asDNAcopy in R). Copy number inferences were made using a set of 50 acuteleukemia remission samples (GSE9111).
+
+PLATFORM
+GPL2004 [Mapping50K_Hind240] Affymetrix Human Mapping 50K Hind240 SNP Array GPL2005 [Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array
+
+CITATIONS
+18408710
+

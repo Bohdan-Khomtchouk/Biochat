@@ -1,0 +1,18 @@
+TITLE
+Expression data from OT-I CD8 T cells activated with DC in the presence or absence of CpG-Induced Inflammation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Inflammatory cytokines promote the accumulation of activated CD8 T cells.  Here, we transfer 600 OT-I CD8 T cells iv into naïve C57BL/6 hosts.  One day later, 500,000 LPS-matured and OVA257 peptide-coated DC were injected iv into OT-I CD8 T cell seeded hosts with (DC+CpG) or without (DC).  Other seeded mice were infected with 2x10^4 virulent Listeria monocytogenes (vLM-OVA) iv.  OT-I CD8 T cells were harvested from the spleen, flow sort purified, then RNA was extracted using RNeasy (Qiagen) kit.  Naive OT-I CD8 T cells (Naive) were purified from the spleens of OT-I transgenic mice. Each group had three independent biological replicates.Transcriptomes were compared using DAVID analysis (with genes scoring FDR < 0.01) and GSEA analysis.
+
+DESIGN
+3 biological replicates per group.  Groups included Naïve OT-I CD8 T cells, DC+CpG OT-I CD8 T cells, DC OT-I CD8 T cells, and vLM-OVA OT-I CD8 T cells.  Most comparisons used Naïve OT-I CD8 T cells as a baseline comparison
+
+PLATFORM
+GPL6096 [MoEx-1_0-st] Affymetrix Mouse Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24367005
+

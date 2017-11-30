@@ -1,0 +1,18 @@
+TITLE
+Classification of three temporal kinetic transcripts of SGIV
+
+ORGANISM
+Iridovirus ; Epinephelus coioides
+
+SUMMARY
+Singapore grouper iridovirus (SGIV) is the major agent that causes severe iridovirus diseases in grouper maricluture. Based on the genomic information, a DNA microarray, containing probes corresponding to 162 putative SGIV open reading frames (ORFs) was constucted. The viral microarrays wereused to classify the majority of SGIV transcripts into three temporal kinetic classes (immediate-early, IE; early, E; late, L) during an in vitro infection by their dependence on de novo protein synthesis inhibitor and viral DNA replication. Keywords: drug response
+
+DESIGN
+To map the SGIV transcripts into temporal kinetic classes during the infection in vitro, GS cells were treated with drug inhibitors as previously described with some slight modifications. Briefly, GS monolayers were treated for 1 h prior to, during and throughout the viral infection with either CHX or PAA, which inhibited de novo protein synthesis and viral DNA replication mechanisms, respectively. To distinguish between viral IE transcripts and other transcripts, cells infected with SGIV (MOI of 5) or mock infected were treated with CHX (100 µg/ml), and then harvested at 8 h p.i. Whereas, viral E and L transcripts were categorized when cells infected with SGIV (MOI of 5) in the presence and absence of PAA (200 µg/ml), respectively. Until at 36 h p.i., cells were collected for RNA extraction. In a comparison analysis, we used Significance Analysis of Microarrays (SAM) software to identify the groups of different expression genes between the drug-treated samples and untreated samples. SAM identifies genes with statistically significant changes in expression by assimilating a set of gene-specific t tests. Significance is based on an estimated of FDR≤5% and a 2 fold-change cutoff. Only the genes that met the following three criteria could be categorized into various temporal kinetic classes: (i) a viral gene was considered to be a IE transcript if its expression level increased or weakly affected under CHX treatment, (ii) a viral gene was considered to be a L transcript if its median intensity ratio in the PAA-treated samples was at least two-fold lower than that in the untreated samples and (iii) a viral gene was considered to be a E transcript if it expressed higher or remained within the two- fold range after PAA treatment but was inhibited distinctly by CHX treatment. To identify the significant differences in gene expression, a criterion with at least two-fold change combined with student’s one sample t-test p value < 0.05 was adopted.
+
+PLATFORM
+GPL4893 Singapore Grouper Iridovirus 0.5K genomic DNA microarray
+
+CITATIONS
+18555886
+

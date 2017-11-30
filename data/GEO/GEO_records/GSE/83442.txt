@@ -1,0 +1,18 @@
+TITLE
+CLAMP Protein Binding Microarray (PBM) experiment
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+To investigate the DNA binding specificity of the CLAMP protein, we have designed a custom PBM to interrogate the binding of CLAMP to DNA sequences extracted from the Drosophila melanogaster genome. Specific regions were extracted based on ChIP-seq data, motif occurence and proximity to gene transcription start sites.
+
+DESIGN
+N-terminal GST-tagged protein samples were made for the C-terminal four and six zinc finger portions of the protein CLAMP; samples were made by in vitro transcription translation (IVT). IVT reaction mixtures for the two CLAMP constructs were applied directly to the PBM microarray and incubated for 1hour. Microarray-bound protein was fluorescently labeled using Alexa488-conjugated antibodies targeting GST, and the microarray was scanned in using a standard microarray scanner. Median fluorescence intensity over eight replicate probes was reported for each unique DNA sequence on the microarray.
+
+PLATFORM
+GPL22023 Agilent-037964 mre_4x180k_design_1_1211 Protein Binding Microarray (Probe name version)
+
+CITATIONS
+27414415
+

@@ -1,0 +1,18 @@
+TITLE
+ChIP-chip of mouse ES cells using Ring1B antibody
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The Polycomb group (PcG) gene products mediate heritable silencing of developmental regulators in metazoans, participating in one of two distinct multimeric protein complexes, the Polycomb repressive complexes-1 (PRC1) and -2 (PRC2).  PRC2 catalyses trimethylation of histone H3 at lysine 27 (H3K27) which in turn is thought to provide a recruitment site for PRC1. Recent studies demonstrate that mono-ubiquitylation of histone H2A at lysine 119 is important in PcG mediated silencing with the core PRC1 component Ring1A/B functioning as the E3 ligase8.  PRC2 has been shown to share target genes with the core transcription network to maintain embryonic stem (ES) cells including Oct4 and Nanog9. Here we identify an essential role for PRC1 in repressing developmental regulators in ES cells, and thereby in maintaining ES cell pluripotency. A significant proportion of the PRC1 target genes are also repressed by Oct4.  We demonstrate that engagement of PRC1 and PRC2 at target genes is Oct4-dependent and moreover that Ring1B interacts with Oct4. Collectively these results show that PcG complexes are instrumental in Oct4-dependent repression required to maintain pluripotency of ES cells. This study provides a first functional link between a core ES cell regulator and global epigenetic regulation of the genome. Keywords: ChIP-chip
+
+DESIGN
+Comprehensive location mapping of Ring1B binding regions was carried out using Mouse promoter Chip-on-chip 244k slide 2 (Agilent, G4495A＃014717), which covers chromosomes 9 to 19, sex chromosomes and mitochondrial genome of mice. 5x107 ES cells were grown on a 10cm dish. After removal from culture dish using cell scraper, cells were fixed in 1% formaldehyde/PBS for 10 minutes at room temperature with rocking, washed twice in PBS, suspended to 3ml TE [10mM Tris-HCl (pH 8.0), 1mM EDTA], and sonicated with microtip attached to Digital Sonifier 450 (Branson) 30 seconds, five times with maximum output power. Insoluble material was removed by centrifugation and NaCl and NP-40 were added to the supernatants to 100mM and 0.4% respectively. After preclearing with 10% volume of 50% protein A Sepharose beads slurry, lysate was incubated with 10% volume of monoclonal anti-Ring1b culture soup overnight. Immune complexes were captured bu incubating for 1 hour with 500ml of 50% Protein A Sepharose beads slurry. DNA was purified from immunoprecipitant and a small aliquot of precleared lysate was used to estimate yield as described previously12. Blunting of DNA ends, ligation with linker oligo DNA, amplification of DNA via linker mediated PCR (LM-PCR), labeling, hybridization and washing were performed following Agilent mammalian ChIP-on-chip protocol. Scanned images were quantified with Agilent Feature Extraction software under standard conditions.
+
+PLATFORM
+GPL4128 Agilent-014716 Mouse Promoter ChIP-on-Chip Set 244K, Microarray 1 of 2 (G4490A) (Feature Number version)
+
+CITATIONS
+18339675
+

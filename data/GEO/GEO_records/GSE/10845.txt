@@ -1,0 +1,18 @@
+TITLE
+A Chromatin Immunoprecipitation Approach Based on BAC Transgenesis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have devised a technology that enables chromatin immunoprecipitation (ChIP) experiments in cultured human cells by circumventing both the laborious production of protein-specific antibodies and the optimization of crosslinking/immunoprecipitation conditions for each protein. Our approach utilizes bacterial artificial chromosomes (BACs) to physiologically express chromatinbinding proteins fused to epitope tags that are recognized by widely available and highly specific antibodies. We demonstrate the robustness of our methodology for mapping chromatin binding sites of transcription factors. Keywords: ChIP-Chip Analysis
+
+DESIGN
+This series contains ChIP-on-Chip data sets for three transcription factors (FOXA1 (Forkhead box A1), XBP1-S (spliced X-box binding protein 1) and VDR (Vitamin D receptor)) and control samples (INPUT) for partial of the human genome including chromosomes 4, 15, 18, and 20 in MCF7 cells. We mapped the binding sites of these three transcription factors in the BAC transgenic MCF7 cells in which we tagged the transcription factors with a modified LAP (localization and affinity purification) tag. Goat anti-GFP (raised against His-tagged full-length eGFP and affinity-purified with GST-tagged full-length eGFP) was used to perform ChIP experiments in those transgenic lines. For comparison, we also mapped FOXA1 and XBP1-S binding sites with the available antibodies against the endogenous proteins. Goat anti-FoxA1 (Abcam: ab5089) and goat anti-XBP1 (Santa Cruz Biotech: sc-7160X) were used in these studies. Independent biological triplicates were performed for each transcription factor, as well as the control (Input).
+
+PLATFORM
+GPL4913 [Hs35b_P04R] Affymetrix Human Tiling 2.0R Set, Array 4
+
+CITATIONS
+18391959
+

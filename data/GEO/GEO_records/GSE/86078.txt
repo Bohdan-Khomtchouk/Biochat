@@ -1,0 +1,18 @@
+TITLE
+Discovery of Methylated Circulating DNA Biomarkers For Comprehensive Non-Invasive Monitoring Of Treatment Response In Metastatic Colorectal Cancer.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Evaluation of cell free circulating DNA (cfDNA) has recently been proposed for tracking disease relapse in colorectal cancer (CRC). Such assays could overcome the issues of classical monitoring, but requires personalized assay design due to absence of common alteration. On the contrary, early methylation alterations are restricted to delimited genomic loci allowing comprehensive assay design for population study. Our objective was to identify new cancer specific methylation biomarkers fitted to assess cfDNA over treatment, thus monitoring response in the metastatic CRC (mCRC) setup. Genome wide methylation profiling of colorectal cancer cell lines (surrogate to pure tumor tissue) was carried out and compared to publically available normal healthy colon mucosa (cancer unrelated). Identified loci were validated in additional publically available cohorts. Digital PCR assays were designed for selected markers and assessed in cfDNA of self-declared healthy donors ( > 40 years old), and of mCRC patients. Longitudinal assessment was performed in a subset of colorectal cancer patients treated with different therapy regimen (chemotherapy or targeted agents). Samples from the current GEOset were extracted by Wizard SV Genomic DNA Purification System (Promega). DNA samples were checked for integrity by 1% agarose gel, and quantity via Picogreen quantification. All samples were bisulfite converted using the EZ DNA methylation Gold kit (Zymo Research) with a minimum input of 500ng and following manufacturer’s instructions. Infinium HumanMethylation450 BeadChip arrays were carried out according to the Illumina Infinium HD methylation protocol.
+
+DESIGN
+All raw data (IDAT files) were imported in R Bioconductor using the minfi package. Matrix signal intensities data correspond to Methylated and unmethylated signal obtained through getMeth and getUnmeth function after preprocessRaw. Processed data were obtained via preprocessIllumina function (using background correction and control normalization) to achieve similar normalized data than GEO downloaded datasets.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+28982739
+

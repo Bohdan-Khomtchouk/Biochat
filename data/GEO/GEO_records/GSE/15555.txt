@@ -1,0 +1,18 @@
+TITLE
+ngatha mutant inflorescences
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Floral organ identities are specified by few transcription factors which act as master regulators. Subsequently, specification of organ axes programs the distribution of distinct tissue types within the organs that themselves develop unique identities. The C-class, AGAMOUS-clade MADS box genes are primary promoters of the gynoecium which is divided into a distal style and a subtending ovary along the apical-basal axis. We show that members of a clade of B3-domain transcription factors, NGATHA1 to NGA4 (NGA1-4), are expressed distally in all lateral organs, and all four have a redundant and essential role in style development. Loss of all four genes results in gynoecia where style is replaced by valve-like projections and a reduction in style-specific SHATTERPROOF1 (SHP1) expression. In agreement, floral misexpression of NGA1 promotes ectopic style and SHP1 expression. STYLISH1, an auxin biosynthesis inducer, conditionally activated NGA genes, which in turn, promoted distal expression of other STY genes in a putative positive feed back loop. Inhibited auxin transport or lack of YABBY1 gene activities resulted in a basally expanded style domain and broader expression of NGA genes. We speculate that early gynoecium factors delimit NGA gene response to an auxin-based signal, elicited by STY gene activity, to restrict the activation of style program to a late and distal carpel domain.
+
+DESIGN
+RNA was extracted from inflorescences of 30 day old plants using Qiagen RNAEasy kit. cRNA was synthesized and hybridized to Affymetrix ATH1 array according to manufacture recommendation. Seven repeats of wild type, two repeats of nga quadruple mutants and two repeats of 35S:amiR-NGA164a were collected. Signal values were obtained and normalized using the GC-RMA protocol, using R 2.7.2 (www.r-project.org) and Bioconductor 2.2 (www.bioconductor.org/). Average correlation values between repeats was 0.985, while the average correlation between wild type and mutant samples was only 0.972. As the average correlation between samples the nga quadruple mutants and 35S:amiR-NGA164a plants was 0.984, and given the identical phenotype, we grouped the two genotypes together.
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+19435933
+

@@ -1,0 +1,18 @@
+TITLE
+Analysis of Ago2-associated transcripts after knockdown of Importin8
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Small regulatory RNAs including small interfering RNAs (siRNAs) and microRNAs (miRNAs) guide Argonaute (Ago) proteins to specific target RNAs leading to mRNA destabilization or translational repression. We recently reported the identification of Importin 8 (Imp8) as a novel component of miRNA-guided regulatory pathways. Imp8 interacts with Ago proteins and localizes to cytoplasmic processing bodies (P-bodies), structures involved in RNA metabolism. For this micro-array dataset, we used immunoprecipitations of Ago2-associated mRNAs followed by micro-array analysis. The results demonstrate that Imp8 is required for recruiting Ago protein complexes to a large set of Ago2-associated target mRNAs allowing for efficient and specific gene silencing. Therefore, we provide evidence that Imp8 is required for cytoplasmic miRNA-guided gene silencing.
+
+DESIGN
+HeLa cells were transfected with control or Imp8 siRNAs. Each sample was divided into two parts for total RNA extraction and anti-Ago2 immunoprecipitation followed by RNA extraction. In addition to the knockdown of Imp8, total RNA samples were included where the miRNA pathway protein TNRC6B was depleted by RNAi. All micro-array experiments were performed in at least two biological replicates. Total RNA samples and immunoprecipitated RNA samples were hybridized to separate Human Genome U133 Plus 2.0 Affymetrix microarrays. Microarray data were analyzed using Agilent Genespring software. Expression values below 0.01 were set to 0.01. For each array, each measurement was divided by the 50th percentile of all measurements in that sample. The specific enrichment of each individual transcript can be calculated from its normalized value in the immunoprecipitation sample, divided by its normalized value in the corresponding total RNA sample.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19167051
+

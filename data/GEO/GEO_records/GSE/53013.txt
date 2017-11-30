@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of staurosporine-induced cell death in Vogel's minimal medium with different concentrations of calcium
+
+ORGANISM
+Neurospora crassa
+
+SUMMARY
+Purpose: Compare the transcriptional profile of staurosporine-treated cells in Neurospora crassa wild type cells grown with different availabilities of calcium. Methods: Conidial suspensions were obtained and 1 x 106 cells/ml incubated in minimal medium (with the indicated concentrations of calcium) for 6 hours (26ºC, 140 rpm, constant light) followed by the addition of staurosporine (or DMSO) and growth for 1 more hour. For the experiments in 0 Ca2+ or 20 mM CaCl2 media, the concentration of KH2PO4 in the 50x Vogel’s stock solution was limited to 10 mM to avoid precipitation with supplemental calcium. Cells were harvested using 0.45 μm filters and immediately frozen in liquid nitrogen. Total RNA was isolated by the Trizol-Phenol-Chloroform method. After digestion of 25 μg RNA with TURBO DNAse (Life Technologies), mRNA was purified using Dynabeads oligo(dT) magnetic beads (Life Technologies). The mRNA was chemically fragmented using the Ambion RNA fragmentation kit (Life Technologies). First and second strand cDNA synthesis was achieved using appropriate kits (Life Technologies). The illumina TruSeq kit was employed to generate the cDNA libraries with indexing adapters essentially following the manufacturer’s protocol. After purification of the libraries with AMPure XP beads (Roche), the quality of the libraries was analyzed in a Agilent 2100 Bioanalyzer. The cDNA libraries were sequenced in a illumina HiSeq2000 and single reads of 50 bp were obtained. Sequencing data was handled essentially with Tophat, Cufflinks and Cuffdiff. Expression levels are presented as Fragments Per Kilobase of transcript per Million mapped reads (FPKM). Results: Differences in the concentration of extracellularly available Ca2+ result in distinct transcriptional programs. Conclusions: Our transcriptomic analysis provides a reference dataset for future investigations on the role of Ca2+ in fungal biology.
+
+DESIGN
+Transcriptional profile of staurosporine-treated Neurospora crassa wild type cells growing with different concentrations of calcium was compared using illumina HiSeq2000 and single reads of 50 bp.
+
+PLATFORM
+GPL16164 Illumina HiSeq 2000 (Neurospora crassa)
+
+CITATIONS
+25595444
+

@@ -1,0 +1,18 @@
+TITLE
+Transcriptome dynamics of developing photoreceptors in 3-D retina cultures recapitulates temporal sequence of human cone and rod differentiation revealing cell surface markers and gene networks
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To define molecular mechanisms underlying rod and cone differentiation, we generated H9 human embryonic stem cell line carrying a GFP reporter that is controlled by the promoter of cone-rod homeobox (CRX) gene, the first known marker of post-mitotic photoreceptor precursors. CRXp-GFP reporter in H9 line replicates endogenous CRX expression when induced to form self-organizing 3-D retina-like tissue. We define temporal transcriptome dynamics of developing photoreceptors during the establishment of cone and rod cell fate. Our studies provide an essential framework for delineating molecules and cellular pathways that guide human photoreceptor development and should assist in chemical screening and cell-based therapies of retinal degeneration.
+
+DESIGN
+Undifferentiated CRXp-GFP HP hES cells and 3D-neural retina were collected at days 37, 47, 67 and 90 and dissociated into single cells. Cells were sorted at 4°C and by FACSAria (Becton Dickinson). GFP+ and GFP- cells were separately collected. Total RNA was extracted by RNA purification kit (Norgen Biotek) and analyzed by 2100 Bioanalyzer (Agilent Technologies Genomics). High quality of total RNA (RIN: 7.7-9.2) was subjected to libraries construction using 40-60 ng of total RNA as input. Libraries were constructed using a stranded modification of the Illumina TruSeq mRNA (Brooks, et al. Meth Mol Biol 2012). Each library was single-end sequenced in an independent lane of a GAIIx at a length of 76 bases.  Fastq files were generated from reads passing chastity filter.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+26235913
+

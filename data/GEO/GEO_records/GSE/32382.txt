@@ -1,0 +1,18 @@
+TITLE
+Human SW480 cells: Untreated vs H2O2 Treated
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+ChIP-on-chip tilling array comparing untreated human SW480 cells vs SW480 cells treated with 2mM H2O2 for 30min.  Exposing cells to the reactive oxygen species, hydrogen peroxide, recruits DNA methyltransferase 1 (DNMT1) to damaged chromatin. DNMT1 becomes part of a complex(es) containing DNMT3B and members of Polycomb Repressive Complex 4. The goal was to determine the effect of hydrogen peroxide treatment on chromatin, including changes in histone modifications and binding patterns of chromatin-associated proteins.
+
+DESIGN
+[Agilent-014706]: Two-condition: untreated SW480 cells (U) vs  H2O2 treated SW480 cells (T).  Five-mark: SIRT1, gamma-HA2X, DNMT1, DNMT3B, and EZH2. [Agilent-014707]: Two-condition: untreated SW480 cells (U) vs  H2O2 treated SW480 cells (T).  Five-mark: SIRT1, gamma-HA2X, DNMT1, DNMT3B, and EZH2. [Agilent-026595]: Two-condition: untreated SW480 cells (U) vs  H2O2 treated SW480 cells (T).  Five-mark: SIRT1, gamma-HA2X, DNMT1, DNMT3B, and H3. [Agilent-027811]: Two-condition: untreated SW480 cells (U) vs  H2O2 treated SW480 cells (T).  Four-mark: H3, 3MeK4H3, AcK16H4, and 3MeK27H3.
+
+PLATFORM
+GPL8169 Agilent-014706 Human Promoter ChIP-on-Chip Set 244K, Microarray 1 of 2 G4489A (Probe name version) GPL8170 Agilent-014707 Human Promoter ChIP-on-Chip Set 244K, Microarray 2 of 2 G4489A (Probe name version) GPL14618 Agilent-026595 Whole Chr array_18 19 21 [Feature Number Version] GPL14622 Agilent-027811 SurePrint G3 Human Promoter Microarray 1x1M [Probe Name Version]
+
+CITATIONS
+22094255
+

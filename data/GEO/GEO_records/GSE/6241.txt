@@ -1,0 +1,18 @@
+TITLE
+The effects of Serum Amyloid A on gene expression profile in HUVECs
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This study attemps to study the global effects of Serum Amyloid A (SAA) on human endothelial gene expression profile in different time points. Keywords: time course
+
+DESIGN
+HUVECs were cultured to confluence in 6-well plates and stimulated with 20 μg/ml of SAA (PeproTech) for 0, 4, 24 and 48 h. To determine the cellular transcript profile in Control (0h) and 3 different SAA groups (S4h, S24h and S48h), the relative abundance of mRNAs in SAA groups were compared with Control by use of  Human Genome U133 Plus 2.0 Array (HG-U133 Plus 2.0, Affymetrix)). Each group had 2 individual samples. . In order to obtain the 3 group comparison datasets (S4h/C, S24h/C and S48h/C), expression patterns for each individual SAA sample (4h, 24h and 48h) were compared to each individual control sample. Hence, each group comparison has 4 individual sample comparisons. The robust increased or decreased cut-off was use the Affymetrix recommending " 1 " or " -1 " of the signal log ratio. . If the gene is robust “increased” or “decreased” in 4 individual sample comparisons of the total 4 comparisons, it was selected as the final robust changed in group comparison. Each gene we were interested, real time PCR was carried out to validate the microarray results.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18552508
+

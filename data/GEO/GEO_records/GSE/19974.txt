@@ -1,0 +1,18 @@
+TITLE
+Systematic evaluation of genome-wide methylated DNA enrichment using a CpG island array
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Methylated DNA enrichment is a key step in a microarray based genome-wide methylation profiling study, and even for future high-throughput sequencing based methylome analysis. In order to evaluate the sensitivity and accuracy of methylated DNA enrichment, we investigated and optimized a number of important parameters to improve the performance of several enrichment assays, including differential methylation hybridization (DMH), microarray-based methylation assessment of single samples (MMASS), and methylated DNA immunoprecipitation (MeDIP). With advantages and disadvantages unique to each approach, we found that assays based on methylation-sensitive enzyme digestion and those based on immunoprecipitation detected different methylated DNA fragments, indicating that they are complementary in their relative ability to detect methylation differences. Our study provides the first comprehensive evaluation for widely used methodologies for methylated DNA enrichment, and could be helpful for developing a cost effective approach for DNA methylation profiling.
+
+DESIGN
+We optimized several of the experimental parameters in three DNA enrichment methodologies, DMH (-v1 and -v2), MMASS (-v1 and -v2), and MeDIP. For DMH and MMASS assays, where the digested DNA products are amplified using PCR, we assessed the impact of annealing temperature (65°C, 68.5°C, and 72°C) in the PCR amplification of the digested products, and for MeDIP we looked at the incubation time of the 5-methylcytosine antibodies (2 hours and 12 hours) and secondary antibody during immunoprecipitation (1 hour, 2 hours, 3 hours, 4 hours, and 6 hours). Then these three DNA enrichment approaches were utlized to compare the differential methylation profiling of the gastric epithelium cell line Ges-1 and the gastric adenocarcinoma cell line MGC-803.
+
+PLATFORM
+GPL9952 Human 9K CGI Array
+
+CITATIONS
+21211017
+

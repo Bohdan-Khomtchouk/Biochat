@@ -1,0 +1,18 @@
+TITLE
+Identification of recurrent GBM patients that may benefit from Bevacizumab and CCNU:  A report from the BELOB trial by the Dutch Neurooncology Group
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The results from the randomized phase II BELOB trial provided evidence for a potential benefit of bevacizumab (beva; a humanized monoclonal antibody against circulating VEGF-A) when added to CCNU chemotherapy in recurrent GBM patients. In this study, we have performed gene expression profiling (DASL and RNA-seq) on formalin fixed, paraffin embedded (FFPE) tumor material from patients treated within the BELOB trial to identify recurrent GBM patients who benefit most from combined beva/CCNU treatment. We first extensively validate the use of FFPE tissues for expression profiling on both DASL and RNA-seq. Our data show that tumors assigned to IGS-18 or ‘classical’ GBMs show a significant benefit in progression free survival (PFS) and a trend towards benefit in overall survival (OS) from beva+CCNU treatment; other subtypes do not show such benefit. In particular, expression of FMO4 and OSBPL3 were associated with treatment response. All molecular glioma subtypes are evenly distributed along the different study arms and the improved outcome in the beva/CCNU arm therefore is not explained by an uneven distribution of prognostically favorable subtypes. Analysis of RNA-seq data highlighted genetic changes, including mutations, gene fusions (and identification of the exact genomic breakpoint), and copy number changes (albeit with limited resolution) within this well-defined cohort of tumors. When validated in an independent dataset, the predictive markers identified in this study will allow selection of recurrent GBM patients that benefit from beva+CCNU treatment.
+
+DESIGN
+A total of 112 samples of patients included in the Belob trial were profiled. Profiling was done in three batches (3 raw data files; Belob1, Belob2 and Belob3*.txt). Please note that several replicates were performed to demonstrate platform reproducibility on FFPE material (basically the entire first experiment, samples 1-10 described in the all_sample_description.txt). In addition, a few samples were scraped (macrodissection) as the original tissue block contained a too low tumor content (as indicated in the  sample description field).  These Samples omitted from the final analysis are marked with X at the end of the patient ID column (in the all_sample_description.txt). Also, Of the 117 individual patients, the following patient samples were excluded in the final analysis: B11, B57, B73, B91 and B59. These samples were outliers in the gene expression analysis and did not meet the quality criteria (their median overall expression was < 7.5 (log2)). The complete sample description and raw data (of 135 samples) are provided in the all_sample_description.txt and Belob*French.txt files, however only 112 samples (included in the final data analysis) are included in this record. Tumor Subtype (in the sample 'characteriscts) is defined by Gravendeel et al, Cancer Res 2009 Dec 1;69(23):9065-72. TCGA subtype (in the sample 'characteriscts) is defined by Verhaak et al, Cancer Cell. 2010 Jan 19;17(1):98-110. The sample 'chracteristic:Sensor' values indicate whether the patient alive or dead at time of analysis.
+
+PLATFORM
+GPL14951 Illumina HumanHT-12 WG-DASL V4.0 R2 expression beadchip
+
+CITATIONS
+26762204
+

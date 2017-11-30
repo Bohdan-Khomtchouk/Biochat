@@ -1,0 +1,18 @@
+TITLE
+RNA Sequencing analysis of Wild Type and HID1 mutant Transcriptomes
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Seedling photomorphogenesis is a sophisticated developmental process that is controlled by both the transcriptional and posttranscriptional regulation of gene expression. Here, we identify an Arabidopsis noncoding RNA, designated HIDDEN TREASURE 1 (HID1), as a new factor promoting photomorphogenesisin continuous red light (cR). We show that HID1 acts through PHYTOCHROME-INTERACTING FACTOR 3 (PIF3), a bHLH transcription factor known to be a key repressor of photomorphogenesis.
+
+DESIGN
+Total RNA was isolated from 5-day-old cR-grown WT and hid1(hidden treasure 1)seedlings using RNeasy Plant Mini Kits (Qiagen). Three biological replicates for each sample were subjected to RNA-seq. Poly (A) RNA from 1 μg total RNA was used to generate the cDNA library according to the TruSeq RNA Sample Prep Kit protocol. The library was then sequenced using a HiSeq 2000 system (Illumina). RNA-seq reads were mapped to TAIR10 using Tophat (version 2.0.9) (1). Differentially expressed genes were defined as those that differed by > 2-fold with an adjusted P value ≤0.05 that was identified using Cuffdiff software (version 2.0.0)
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+24982146
+

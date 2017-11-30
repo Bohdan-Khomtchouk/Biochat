@@ -1,0 +1,18 @@
+TITLE
+Annotating Low Abundance and Transient RNAs in Yeast using Ultra High-throughput Sequencing
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Annotating Low Abundance and Transient RNAs in Yeast using Tiling Microarrays and Ultra High-throughput Sequencing Reveals New Transcripts that are not Conserved Across Closely Related Yeast Species A complete description of the transcriptome of an organism is crucial for a comprehensive understanding of how it functions, how its transcriptional networks are controlled, and may provide insights into the organism’s evolution.  Despite the status of Saccharomyces cerevisiae as arguably the most well studied model eukaryote, we still do not have a full catalog or understanding of all its genes.  In order to interrogate the transcriptome of S. cerevisiae for low abundance or rapidly turned over transcripts, we deleted elements of the RNA degradation machinery with the goal of preferentially increasing the relative abundance of such transcripts.  We then used high-resolution tiling microarrays and ultra high-throughput sequencing (UHTS) to identify, map and validate unannotated transcripts that are more abundant in the RNA degradation mutants relative to wild-type cells.  We identified 365 currently unannotated transcripts, the majority presumably representing low abundance or short-lived RNAs, of which 185 are previously unknown and unique to this study.  It is likely that many of these are cryptic unstable transcripts (CUTs), which are rapidly degraded and whose function(s) within the cell are still unclear, while others may be novel functional transcripts.  Of the 185 transcripts we identified as novel to our study, greater than 80 percent come from regions of the genome that have lower conservation scores amongst closely related yeast species than 85 percent of the verified ORFs in S. cerevisiae.  Such regions of the genome have typically been less well studied, and by definition transcripts from these regions will distinguish S. cerevisiae from these closely related species. Keywords: Saccharomyces cerevisiae, transcriptome, RNA-Seq, RNA degradation, XRN1, RRP6, LSM1, PAT1, Salt Shock, NaCl
+
+DESIGN
+Four samples, a wild-type reference and three mutants (1 containing 4 deletions and the other two containing 3 each), were subjected to high salt shock, and total RNA was harvested.  PolyA RNA was purified, and  libraries were generated for the Solexa platform. Each library was run on 4 lanes of a Solexa flow cell.
+
+PLATFORM
+GPL9134 Illumina Genome Analyzer (Saccharomyces cerevisiae)
+
+CITATIONS
+19096707
+

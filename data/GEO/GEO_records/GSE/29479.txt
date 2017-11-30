@@ -1,0 +1,18 @@
+TITLE
+Identification of Transcription Factor DAF-12::GFP Binding Regions in L4
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+modENCODE_submission_3380 This submission comes from a modENCODE project of Michael Snyder. For full list of modENCODE projects, see http://www.genome.gov/26524648 Project Goal: We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology. For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf
+
+DESIGN
+EXPERIMENT TYPE: CHIP-seq. BIOLOGICAL SOURCE: Strain: OP222(official name : OP222 genotype : unc119(ed3);wgIs222(daf-12:TY1 EGFP FLAG;unc119) outcross : 3 transgene : daf-12 tags : Bombard tag : GFP::3xFlag description : This strain's transgene was constructed by Mihail Sarov at the Max Planck Institute for Cell Biology in Tubiginen using Tony Hyman's recombineering pipeline.  The resulting plasmid was used for biolistic transformation of an unc-119(ed3) strain.  The DAF-12::EGFP fusion protein is expressed in the correct daf-12 spatio-temporal expression pattern.  This strain was used for ChIP-seq experiments to map the in vivo binding sites for the DAF-12 transcription factor. made_by : Mihail Sarov ); Developmental Stage: L4; Genotype: unc119(ed3);wgIs222(daf-12:TY1 EGFP FLAG;unc119); Sex: Hermaphrodite; Transgene: daf-12;  EXPERIMENTAL FACTORS: Developmental Stage L4; Target gene daf-12; Strain OP222(official name : OP222 genotype : unc119(ed3);wgIs222(daf-12:TY1 EGFP FLAG;unc119) outcross : 3 transgene : daf-12 tags : Bombard tag : GFP::3xFlag description : This strain's transgene was constructed by Mihail Sarov at the Max Planck Institute for Cell Biology in Tubiginen using Tony Hyman's recombineering pipeline.  The resulting plasmid was used for biolistic transformation of an unc-119(ed3) strain.  The DAF-12::EGFP fusion protein is expressed in the correct daf-12 spatio-temporal expression pattern.  This strain was used for ChIP-seq experiments to map the in vivo binding sites for the DAF-12 transcription factor. made_by : Mihail Sarov ); temp (temperature) 20 degree celsius
+
+PLATFORM
+GPL9309 Illumina Genome Analyzer (Caenorhabditis elegans)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

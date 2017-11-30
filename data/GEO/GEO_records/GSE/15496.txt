@@ -1,0 +1,18 @@
+TITLE
+MicroRNA expression in the newborn mouse cochlea and vestibule
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+MicroRNAs (miRNAs) inhibit the translation of target mRNAs and affect, directly or indirectly, the expression of a large portion of the protein-coding genes. This study focuses on miRNAs that are expressed in the mouse cochlea and vestibule, the two inner ear compartments. To identify miRNAs that are expressed in the vertebrate developing inner ear, we used miRNA microarrays. Similar miRNA profiles were found in newborn (P0) mouse whole cochleae and vestibules. 105 miRNAs were found to be expressed in the whole P0 cochlea and 114 miRNAs expressed in the whole P0 vestibule with average intensities higher than twice the global background, out of 206 included in the arrays. Only 24 miRNAs were found to have different levels of expression in these whole organs, and these differences were mild (15-40%). The microarray results were intersected with two bioinformatic complementary approaches in order to choose candidate miRNAs that are predicted to be expressed specifically in the inner ear sensory epithelia (see the paper).
+
+DESIGN
+Six small ( < 40 nt) RNA samples were hybridized with 4 microarrays (to save costs, some of the microarrays were hybridized with two different samples, labeled with different CyDyes – Cy3 and Cy5). Each RNA sample contains small RNAs ( < 40 nt) pooled from at least 20 newborn cochleae or vestibules, and there are 3 different samples for each organ. However, one of the samples (WT_P0_whole_Cochlea_3_V4) was hybridized with a different array than the other samples (printed from the same probes, but at a different date), and therefore excluded from the analysis described in the paper. Each microarray contains at least 4 identical spots per each probe that may be considered as technical replicates. Four of the samples were hybridized in parallel at the same day to two microarrays, and the dyes were swaped: First microarray: WT_P0_whole_Cochlea_1 (Cy3) [GSM388075] and WT_P0_whole_Vestibule_2 (Cy5) [GSM388635]; second microarray: WT_P0_whole_Cochlea_2 (Cy5) [GSM388633] and WT_P0_whole_Vestibule_1 (Cy3) [GSM388634]. The other 2 samples: WT_P0_whole_Vestibule_3 (Cy3) [GSM388637] and WT_P0_whole_Cochlea_3_V4 (Cy3) [GSM388660] were hybridized to two individual microarrays, at different dates. The miRNA profile in the cochlear and vestibular samples were compared: the vestibular samples are considered as the “experiment” samples, and the cochlear samples – as “reference”. Positive control probes (labeled as “control 1” in raw data) were added to RNA samples before labeling. The average of empty and buffer spots was used to calculate the global background of each array, and only miRNAs with an average expression higher than twice the fold of the array global background at least in one of the tissues were considered as expressed.
+
+PLATFORM
+GPL8369 TAU/KBA_mouse_206_v2.0 GPL8375 TAU/KBA_mouse_206_v4.0
+
+CITATIONS
+19416898
+

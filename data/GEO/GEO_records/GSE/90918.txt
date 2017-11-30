@@ -1,0 +1,18 @@
+TITLE
+Blimp1 induces transient metastatic heterogeneity in pancreatic cancer [688M_ATAC-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Due to its high metastatic proclivity, pancreatic ductal adenocarcinoma (PDAC) is one of the most deadly types of cancer.  Therefore, it is imperative to better understand how the disease spreads as it progresses. Using a novel genetically engineered mouse model that allows us to isolate a subpopulation of cancer cells with superior metastatic capacity, we show that this aggressive phenotype correlates exclusively with a strong hypoxia signature. We subsequently identified the novel hypoxia-inducible gene Blimp1, which appears to play a critical role in regulating the hypoxic response upon its induction. Furthermore, genetic ablation of Blimp1 greatly reduces the level of metastasis in a PDAC mouse model. The nature of this Blimp1-regulated hypoxia signature is very unstable, since the seeded metastatic lesions mostly re-adopt similar transcriptomic profiles as the primary tumors. In conclusion, our results offer a potential mechanistic insight into how hypoxia drives metastasis in PDAC. Methods: The liver metastasis cell line 688M was subjected to control or knockdown of Blimp1 before assay. Cells ere validated for knockdown efficiency and then cultured under normoxia and hypoxia (0.5% O2) for 24 hours before preparation for ATAC-Seq (total of 4 groups with 2 technical replicates per group, overall 8 samples). Reference for ATACSeq: Buenrostro et al. 2013. Nat Methods 12:1213-8. Results: For the control knockdown group, 0.5% O2 culture (hypoxia) for 24 hours induced dramatic changes in global genome accessibility, and Blimp1 knockdown appeared to induce minimum changes in chromatin accessibility under hypoxia or normoxia (20% O2). Conclusions: Compared to our RNASeq profiles of the same liver met PDAC cell line under identical conditions, Blimp1 appeared to impact a global gene expression changes under hypoxia that is not associated with a corresponding changes of chromatin accessibility.
+
+DESIGN
+Transcriptomes of derivatives of liver metastasis cell line 688M (control and Blimp1 knockdown) derived from the KPCT (Kras-LSL-G12D;p53-LSL-R172H;Pdx1-cre;R26-LSL-Tomato) mice were cultured under 0.5% or 20% O2 for 24 hours before ATAC-Seq preparation (Illumina NextSeq).
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28790031
+

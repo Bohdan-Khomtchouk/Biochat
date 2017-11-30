@@ -1,0 +1,18 @@
+TITLE
+Dissecting hematopoietic and renal cell heterogeneity in adult zebrafish at single cell resolution using RNA sequencing [Smart-seq]
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Recent advances in single-cell transcriptomic profiling have provided unprecedented access to investigate cell heterogeneity during tissue and organ development. Here, we utilized massively parallel single-cell RNA sequencing to define cell heterogeneity within the zebrafish kidney marrow, constructing a comprehensive molecular atlas of definitive hematopoiesis and functionally-distinct renal cells found in adult zebrafish. Because our method analyzed blood and kidney cells in an unbiased manner, our approach was useful in characterizing immune cell deficiencies within prkdcD3612fs, il2rgaY91fs and double homozygous mutant fish, identifying blood cell losses in T, B, and natural killer cells within specific genetic mutants.  Our analysis also uncovered novel cell types including two classes of natural killer immune cells, classically-defined and erythroid-primed hematopoietic stem and progenitor cells, mucin secreting kidney cells, and kidney stem/progenitor cells. In total, our work provides the first comprehensive single cell transcriptomic analysis of kidney and marrow cells in the adult zebrafish.
+
+DESIGN
+The goal of our study is to establish the transcriptional profiles of hematopoietic and kidney cell lineages residing in the zebrafish whole kidney marrow. Firstly, we performed single-cell RNA sequencing by a modified Smart-seq2 protocol on sorted single cells from fluorescent transgenic zebrafish lines, which label distinct blood cell types (n = 246 cells total). Secondly, we utilized droplet-based single-cell RNA sequencing (inDrop) to investigate unmarked, comprehensive hematopoietic lineage structure within wild-type, casper-strain zebrafish (N=3 animals, n=3,782 cells total). From this, we identified ten distinct hematopoietic groups of blood and immune identities. Thirdly, we confirmed blood lineage interpretations by comparing hematopoietic lineages within wild-type fish with mutant zebrafish with known immunodeficiencies, including prkdc(D3612fs) (N=3 animals, n=3,201 cells), il2rga(Y91fs) (N=2 animals, n=2,068 cells) and prkdc(D3612fs), il2rga(Y91fs) double compound mutant fish (N=2 animals, n=2,276 cells). Lastly, we identified seven structural and functional cell lineages of kidney identities in the whole kidney marrow (n=1,699 kidney cells).
+
+PLATFORM
+GPL20828 Illumina NextSeq 500 (Danio rerio)
+
+CITATIONS
+28878000
+

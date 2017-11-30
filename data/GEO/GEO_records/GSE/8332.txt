@@ -1,0 +1,18 @@
+TITLE
+Death receptor O-glycosylation controls tumor-cell sensitivity to the proapoptotic ligand Apo2L/TRAIL
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Apo2L/TRAIL stimulates cancer-cell death through the proapoptotic receptors DR4 and DR5, but the determinants of tumor susceptibility to this ligand are not fully defined. mRNA expression of the peptidyl O-glycosyl transferase GALNT14 correlated with Apo2L/TRAIL sensitivity in pancreatic carcinoma, non-small cell lung carcinoma and melanoma cell lines (P < 0.00009; n=83), and up to 30% of samples from various human malignancies displayed GALNT14 overexpression. RNA interference of GALNT14 reduced cellular Apo2L/TRAIL sensitivity, whereas overexpression increased responsiveness. Biochemical analysis of DR5 identified several ectodomain O-GalNAc-Gal-Sialic acid structures. Sequence comparison predicted conserved extracellular DR4 and DR5 O-glycosylation sites; progressive mutation of the DR5 sites attenuated apoptosis signaling. O-glycosylation promoted ligand-stimulated clustering of DR4 and DR5, which mediated recruitment and activation of the apoptosis-initiating protease caspase-8. These results uncover a novel link between death receptor O-glycosylation and apoptosis signaling, providing potential predictive biomarkers for Apo2L/TRAIL-based cancer therapy. Keywords: cell type comparison
+
+DESIGN
+Gene expression for untreated cell lines analyzed. Some cell lines have one replicate profile, some two (Samples with 2 CEL files). Normalized data for replicates was averaged. Analysis involved a regularized t-test to identify genes with expression differences between Apo2L sensitive and resistant lines.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+17767167
+

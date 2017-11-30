@@ -1,0 +1,18 @@
+TITLE
+RNA-Seq following PCR-based sorting reveals rare cell transcriptional signatures
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Rare cell subtypes can profoundly impact the course of human health and disease, yet their presence within a sample is often missed with bulk molecular analysis.  Single-cell analysis tools such as FACS, FISH-FC and single-cell barcode-based sequencing can investigate cellular heterogeneity; however, they have significant limitations that impede their ability to identify and transcriptionally characterize many rare cell subpopulations. Results: PCR-activated cell sorting (PACS) is a novel cytometry method that uses single-cell TaqMan PCR reactions performed in microfluidic droplets to identify and isolate cell subtypes with high-throughput. Here, we extend this method and demonstrate that PACS enables high-dimensional molecular profiling on TaqMan-targeted cells. Using a random priming RNA-Seq strategy, we obtained high-fidelity transcriptome measurements following PACS-sorting of prostate cancer cells from a heterogeneous population.  The sequencing data revealed prostate cancer gene expression profiles that were obscured in the unsorted populations.  Single-cell expression analysis with PACS was subsequently used to confirm a number of the differentially expressed genes identified with RNA sequencing. Conclusions: PACS requires minimal sample processing, uses readily available TaqMan assays and can isolate cell subtypes with high sensitivity.  We have now validated a method for performing next-generation sequencing on mRNA obtained from PACS isolated cells.  This capability makes PACS well suited for transcriptional profiling of rare cells from complex populations to obtain maximal biological insight into cell states and behaviors.
+
+DESIGN
+The PACS workflow was used to isolate a spiked-in cell subpopulation and compare its RNA profile with the hegterogeneous starting population and the individual populations.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27189161
+

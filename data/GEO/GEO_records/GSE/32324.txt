@@ -1,0 +1,18 @@
+TITLE
+ChIP-seq analysis LPS stimulated THP-1 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Macrophages play a critical role in innate immunity, and the expression of early response genes orchestrate much of the initial response of the immune system. Macrophages undergo extensive transcriptional reprogramming in response to inflammatory stimuli such as Lipopolysaccharide (LPS).  To identify gene transcription regulation patterns involved in early innate immune responses, we used two genome-wide approaches - gene expression profiling and chromatin immunoprecipitation-sequencing (ChIP-seq) analysis. We examined the effect of 2 hrs LPS stimulation on early gene expression and its relation to chromatin remodeling (H3 acetylation; H3Ac) and promoter binding of Sp1 and RNA polymerase II phosphorylated at serine 5 (S5P RNAPII), which is a marker for transcriptional initiation. Our results indicate novel and alternative gene regulatory mechanisms for certain proinflammatory genes. We identified two groups of up-regulated inflammatory genes with respect to chromatin modification and promoter features. One group, including highly up-regulated genes such as tumor necrosis factor (TNF), was characterized by H3Ac, high CpG content and lack of TATA boxes. The second group, containing inflammatory mediators (interleukins and CCL chemokines), was up-regulated upon LPS stimulation despite lacking H3Ac in their annotated promoters, which were low in CpG content but did contain TATA boxes. Genome-wide analysis showed that few H3Ac peaks were unique to either +/-LPS condition. However, within these, an unpacking/expansion of already existing H3Ac peaks was observed upon LPS stimulation. In contrast, a significant proportion of S5P RNAPII peaks (approx 40%) was unique to either condition. Furthermore, data indicated a large portion of previously unannotated TSSs, particularly in LPS-stimulated macrophages, where only 28% of unique S5P RNAPII peaks overlap annotated promoters. The regulation of the inflammatory response appears to occur in a very specific manner at the chromatin level for specific genes and this study highlights the level of fine-tuning that occurs in the immune response.
+
+DESIGN
+2 pairs of THP-1 cells either stimulated with LPS or not. ChIP using either H3K9/K14Ac, RNA Pol II (phospho S5) or SP1 antibody. This submission represents chip-seq component of study.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+22384210
+

@@ -1,0 +1,18 @@
+TITLE
+Molecular mechanisms underlying the metabolic changes induced by the Pro12Ala PPARγ2 variant in mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The metabolic impact of the common peroxisome proliferator-activated receptor gamma isoform 2 (PPARγ2) variant Pro12Ala in human populations has been widely debated. We demonstrate using a Pro12Ala knock-in model that on chow Ala/Ala mice are leaner, have improved insulin sensitivity and plasma lipid profiles, and longer lifespan. Gene-environment interactions played a key role as high-fat feeding eliminated the beneficial effects of the Pro12Ala variant on adiposity, plasma lipids, and insulin sensitivity. The underlying molecular mechanisms involve changes in cofactor interaction and adiponectin signaling. Altogether, our results establish the Pro12Ala variant of Pparγ2 as an important modulator in metabolic control that strongly depends on the metabolic context.
+
+DESIGN
+Pparγ Pro12Ala and wild-type littermates were fed regular rodent chow or high-fat diet (D12330, 5560 kcal/kg, Research Diets, New Brunswick, NJ), as indicated. Only males were used to minimize possible effects of variation in estrus status of females. Since the body weight development of Pro/Ala heterozygote mice was intermediate to that of Pro/Pro and Ala/Ala mice, we focused on the two homozygote genotypes in further experimentation. Mice were housed with a 12h light-dark cycle and had free access to water and food. Eight week old male Pro/Pro and Ala/Ala littermate mice were fed either regular rodent chow or high-fat diet (as above) for 15 weeks (n = 8-10 per group), at which time blood and tissue samples were collected. Total RNA extraction, sample amplification, labeling, and microarray (Genechip Mouse Genome 430 2.0 Array, Affymetrix Inc., Santa Clara, CA) processing steps were performed by the Rosetta Inpharmatics Gene Expression Laboratory (Seattle, WA) using custom automated procedures in compliance with manufacturer protocols. Microarray data was processed using Rosetta Resolver (Rosetta Inpharmatics, Seattle, WA) and expressed as relative to the virtual pool of HFD – Pro/Pro group (mlratio). Gene expression signatures were generated from these mlratios for expressed genes (25% of RMA processed intensities above 60% quantile) by T-testing (Pro/Pro vs. Ala/Ala) and correcting for multiple testing (20% cut-off for False Discovery Rate). GSEA was performed according to provider suggestions, Pro/Pro vs. Ala/Ala. Statistical significance was declared if P < 0.05.
+
+PLATFORM
+GPL7368 Rosetta/Merck Mouse 430 2.0 RSTA Custom CDF microarray
+
+CITATIONS
+19117549
+

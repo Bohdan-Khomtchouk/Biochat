@@ -1,0 +1,18 @@
+TITLE
+miRNA profiling of breast cancer patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chemotherapy resistance frequently drives tumor progression. However, the underlying molecular mechanisms are poorly characterized. Epithelial-to-mesenchymal transition (EMT) has been shown to correlate with therapy resistance, but the functional link and signaling pathways remain to be elucidated. We report here that miR-30c, a human breast tumor prognostic marker, plays a pivotal role in chemo-resistance by a direct targeting of the actintransporter TWF1, which promotes EMT. An IL-6 family member, IL-11 was identified as a secondary target of TWF1 in the miR-30c signaling pathway. Expression of miR-30c inversely correlated with IL-11 expression in clinical tumors and IL-11 correlated with relapse-free survival in breast cancer patients. Identification of a novel miRNA-mediated pathway that regulates chemo-resistance in breast cancer will facilitate the development of new management strategies.
+
+DESIGN
+For the primary breast tumor and normal breast samples, both mRNAs (Agilent array data deposited in GSE22049) and miRNAs (Exiqon array data deposited here) profiles have been examined. Patient information include age, tumor subtype and outcome etc. When clustering samples and genes 152 of 757 miRNA passed the filtering criteria on variation across samples; standard deviation > 0.50. Hence, the upper 152 miRNAs in the expression matrix were used in the  two-way hierarchical clustering of genes. The matrix numbers are all log2(Hy3/Hy5) ratios, meaning sample/pool. The percentages above the matrix indicates the present call in each sample/slide. When calling of a particular miRNA failed on an array this is indicated as a blank in the row containing this miRNA and in the column corresponding to this array. The criteria for deciding that the calling of a miRNA had failed on a particular array, was that 2 or more of the 4 replicated measures of this miRNA were flagged 1 or 2 (i.e. the signal is below background) by the image analysis software. Further in the expression matrix all capture probes with Hy3 and Hy5 signals lower than 1.5x of the median signal intensity of the given slide is indicated as a blank.
+
+PLATFORM
+GPL15834 Exiqon Human 757 v10.0
+
+CITATIONS
+23340433
+

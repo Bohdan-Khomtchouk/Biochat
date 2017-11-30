@@ -1,0 +1,18 @@
+TITLE
+Spatial dissection of the Arabidopsis response to downy mildew using Fluorescence Activated Cell Sorting
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Changes in gene expression form a crucial part of the plant response to pathogen infection. Whole-leaf expression profiling has played a valuable role in identifying genes and processes that contribute to the interactions between the model plant Arabidopsis thaliana and a diverse range of pathogens. However, for highly localised infections, such as downy mildew caused by the biotrophic oomycete pathogen Hyaloperonospora arabidopsidis (Hpa), whole-leaf profiling may fail to capture the complete Arabidopsis response. Highly localised expression changes may be diluted by the comparative abundance of non-responding leaf cells or the Hpa oomycete evading detection by cells. Furthermore, local and systemic Hpa responses of a differing nature may become convoluted. To address this we applied the technique of Fluorescence Activated Cell Sorting (FACS), typically used for analyzing plant abiotic responses, to the study of plant-pathogen interactions. Using the promoter of Downy Mildew Resistant 6 (DMR6) linked to GFP as a fluorescent marker of pathogen-contacting cells, we isolated Hpa-proximal and Hpa-distal cells from infected leaf samples using FACS, and measured global gene expression.
+
+DESIGN
+The whole experiment was carried out in triplicate, with two time points (5 and 7 days post-inoculation) and three cell types (pathogen-proximal, pathogen-distal and uninfected control), totalling 18 microarrays. Transgenic Arabidopsis thaliana Col-0 with the transgene pDMR6:GFP was used for all experiments. Seedling populations were inoculated with 30,000-60,000 spores/ml of Hyaloperonospora arabidopsis strain Noks1 at 7 days old, and overground tissue sampled at 5 and 7 days post-inoculation. Protoplasts were generated from these samples according to Grønlund et al. 2012 JOVE, and sorted by fluorescence activated cell sorting into a GFP-positive (pathogen-proximal) and GFP-negative (pathogen-distal) population. As a control, uninfected seedlings were also sampled at 12 and 14 days old (equivalent age of 5 and 7 days post-inoculation), protoplasts generated and sorted to yield a GFP-negative population of uninfected control cells. Gene expression was analysed using NimbleGen 12 x 135K microarrays, designed for the TAIR10 genome. Data was normalised using the Robust Multichip Averaging algorithm.
+
+PLATFORM
+GPL18735 NimbleGen Arabidopsis 12 x 135K array for TAIR10 genome release
+
+CITATIONS
+26217372
+

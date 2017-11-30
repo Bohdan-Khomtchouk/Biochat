@@ -1,0 +1,18 @@
+TITLE
+Increase in chromatin accessibility to MNase at sites of DNA replication
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Faithful DNA replication is essential for normal cell division and differentiation. In eukaryotic cells, DNA replication takes place on chromatin. This poses the critical question as to how DNA replication can progress through chromatin, which is inhibitory to all DNA-dependent processes. Here, we have developed a novel genome-wide method to measure chromatin accessibility to micrococcal nuclease that is normalized for nucleosome density, NCAM (Normalized Chromatin Accessibility to MNase) assay.  This method enabled us to discover that chromatin accessibility increases specifically at and ahead of DNA replication forks in normal S phase and during replication stress.   We further found that Mec1, a key regulatory ATR-like kinase in the S-phase checkpoint, is required for both normal chromatin accessibility around replication forks and replication fork rate during replication stress.
+
+DESIGN
+In this study we sought to analyze the chromatin structural changes that take place at sites of DNA replication. To this end, we obtained yeast cell populations synchronously undergoing DNA replication by α-factor G1 arrest and release. In order to analyze chromatin structure at sites of DNA replication we first mapped the genomic locations undergoing DNA replication to high-resolution, strand-specific microarrays tiling chromosomes III, VI, and XII, covering ~14% of the genome. Two complementary approaches were taken: (1) we mapped fork positions by chromatin immunoprecipitation (ChIP) of a FLAG-tagged DNA polymerase 1 (Pol1), a replication fork component and (2) we mapped the sites of active DNA synthesis by generating DNA copy number profiles. We then analyzed chromatin structure at the sites of DNA replication by Micrococcal nuclease mononucleosome mapping and by generating histone H3 density maps. We further generated a Normalized Chromatin Accessibility to MNase (NCAM) signal by normalizing MNase mononucleosome signal for histone H3 density. NCAM signal represents a measure of nucleosome accessibility to MNase that is normalized for nucleosome content. These three approaches allowed us to assess potential changes in nucleosome positioning, nucleosome density, and nucleosome accessibility during DNA replication. We searched for changes in chromatin structure by comparing, during S phase, regions undergoing DNA replication to those not yet replicated, and also by comparing the same region before replication (not replicated, G1 arrested control) and during DNA replication in S phase. We typically harvested S phase cells at 30 or 60 minutes after release from G1 arrest. Experimental conditions included releasing cells into rich media at 24°C or into rich media containing 200 mM Hydroxyurea (HU). Both conditions slowed down replication fork rate and made these experiments feasible. For each strain, samples for the different experiments (Chromatin for Pol1 and H3 ChIP, in vivo MNase digestion, and DNA for DNA copy number profiles) were harvested simultaneously for each time point. Therefore, comparisons between time points for each strain must be made using samples from the same replicate experiment. Our analysis included WT cells, as well as S phase checkpoint mutants (Δmec1 Δsml1 and mec1-100 Δsml1), as well as control strains (Δsml1).
+
+PLATFORM
+GPL10725 NimbleGen Saccharomyces cerevisiae 2007-09-04_SGD1_TT_ChIP
+
+CITATIONS
+23307868
+

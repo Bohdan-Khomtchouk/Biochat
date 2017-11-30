@@ -1,0 +1,18 @@
+TITLE
+CTL-OA-OP human IT PF Bone - CompuGen H19K microarray study
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Aims of study: (1) To identify systemic differences in osteoarthritic (OA) bone that contribute to OA pathogenesis. (2) Identify novel osteoporotic (OP) bone-related disease genes. Study involved comparison of trabecular bone extracted from the intertrochanteric (IT) region of the proximal femur (PF) from OA, OP and normal/control (CTL) individuals. Bone was obtained from OA and OP individuals at surgery for total hip replacement and from CTL individuals at autopsy. Keywords: Bone tissue comparison, diseased versus non-diseased, factorial design, linear modelling
+
+DESIGN
+Four sets of sample comparisons (39 comparisons in total) were made in this study. These comprised 10 OA-CTL female, 10 OA-CTL male, 10 OA-OP female and 9 OP-CTL female comparisons. A Compugen Human 19K-oligo library spotted onto glass slides by the Adelaide Microarray facility (AMF) was used in this study. The slides were interrogated by competitive hybridisation of Cy3 and Cy5 labelled pairs of OA-CTL, OA-OP or OP-CTL amplified RNA samples. Sample pairs were age-matched as closely as possible. A biological dye-swap strategy was employed. After hybridisation and washing of the slides they were scanned using a GenePix 4000B Scanner driven by GenePix Pro 4.0. All analyses were performed using the statistical programming and graphics environment R. The “SPOT” software package was used to identify spots by adaptive segmentation method and subtract backgrounds utilising morphological opening approach.  Data analysis was performed in R using Bioconductor. Loess print tip method was used to correct for dye-bias and intensity within each group of adjacent spots printed by one pin.  Linear modelling was performed with the Limma package of Bioconductor. Linear models were used to incorporate all available data into a single analysis. This allowed the use of both direct and indirect comparisons in calculation of expression ratios as well as improved accuracy in estimation of variance for each gene. Factorial design utilised the following factors: medical condition (OA or OP or CTL); sex (male or female) for OA patients only.
+
+PLATFORM
+GPL5391 Adelaide Microarray Facility CompuGen Human 19K Oligo Library
+
+CITATIONS
+17900349
+

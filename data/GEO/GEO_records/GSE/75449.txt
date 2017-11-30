@@ -1,0 +1,18 @@
+TITLE
+Unlinking a lncRNA from its associated cis element [gene expression]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcriptome analysis of effect of Lockd knockout on cells Many long non-coding (lnc) RNAs are reported to regulate gene expression and protein functions. However, the proportion of lncRNAs with biological activities among the thousands expressed in mammalian cells is controversial. We studied Lockd (Downstream of p27), a 434 bp polyadenylated lncRNA originating 4 kb 3’ to the Cdkn1b gene. Heterozygous and homozygous deletion of the 25 kb Lockd locus reduced Cdkn1b transcription by approximately 35 and 70% respectively in a mouse erythroid cell line. In contrast, homozygous insertion of a polyadenylation cassette 80 bp downstream of the Lockd transcription start site reduced the entire lncRNA transcript level by > 90%, but had no effect on Cdkn1b transcription. The 5’ region of the Lockd gene contains a DNase hypersensitive site, binds numerous transcription factors (TFs), and physically associates with the Cdkn1b promoter in chromosomal conformation capture (NG Capture-C) studies. Thus, the Lockd gene positively regulates Cdkn1b transcription through an enhancer-like cis element and not via the lncRNA transcript. These findings demonstrate that the biological functions of a lncRNA cannot be inferred simply from phenotypes that arise after deleting the corresponding genomic locus.
+
+DESIGN
+We analyzed mouse G1E erythroid cell line clones with Control Lockd (C - 3 replicates) and with Lockd deletion with CRISPR (KO - 4 replicates) using Mouse Gene 2.0 ST Array platform (transcript version). Array data was processed by RMA algorithm.
+
+PLATFORM
+GPL16570 [MoGene-2_0-st] Affymetrix Mouse Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+27041223
+

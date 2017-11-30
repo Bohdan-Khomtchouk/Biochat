@@ -1,0 +1,18 @@
+TITLE
+The transcriptomic signature of myostatin inhibitory influence on the differentiation of mouse C2C12 myoblasts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+GDF8 (myostatin) is a unique cytokine strongly affecting the skeletal muscle phenotype in human and animals. The aim of the present study was to elucidate the molecular mechanism of myostatin influence on the differentiation of mouse C2C12 myoblasts, using the global-transcriptome analysis with the DNA microarray technique. Treatment with exogenous GDF8 strongly affected the growth and development of C2C12 mouse myoblasts. This was manifested by the inhibition of proliferation and differentiation as well as the impairment of cell fusion. DNA microarray analysis revealed 778 genes regulated by GDF8 in differentiating myoblasts. Ontological analysis revealed their involvement in 17 types of biological processes, 10 types of molecular functions and 68 different signaling pathways. The effect of GDF8 was mainly mediated by the disruption of the cell cycle, calcium and insulin signaling pathways and expression of cytoskeletal and muscle specific proteins.
+
+DESIGN
+After scanning of hybridized microarrays, quantitation of slide images was performed using Feature Extraction Software 9.1.1.1 (Agilent) using default parameters. The raw data were exported to GeneSpring GX 12 (Agilent, Santa Clara, CA). For identification of genes significantly altered in cell compared with the control normal gene set, total detected entities were filtered by flags (present, marginal) to remove very low signal entities and to select reproducible signal values of entities among the replicated experiments, respectively. In statistical analysis (GDF8 treated myoblasts vs untreated myoblasts) was used t-test unpaired (p < 0.05) and fold change cutoff over 1.6. Analysis of GO and signaling pathway was carried out using KEGG and PANTHER Classification System.
+
+PLATFORM
+GPL7202 Agilent-014868 Whole Mouse Genome Microarray 4x44K G4122F (Probe Name version)
+
+CITATIONS
+22439337
+

@@ -1,0 +1,18 @@
+TITLE
+Sex-biased miRNA expression in mouse, opossum and chicken
+
+ORGANISM
+Gallus gallus ; Mus musculus ; Monodelphis domestica
+
+SUMMARY
+Sexual dimorphism depends on sex-biased gene expression, but the contributions of microRNAs (miRNAs) have not been globally assessed. We therefore produced an extensive small RNA sequencing dataset to analyse male and female miRNA expression profiles in mouse, opossum and chicken. Our analyses uncovered numerous cases of somatic sex-biased miRNA expression, especially in the mouse heart and liver. Sex-biased expression is explained by miRNA-specific regulation, including sex-biased chromatin accessibility at promoters, rather than piggybacking of intronic miRNAs on sex-biased protein-coding genes. In mouse, but not opossum and chicken, sex bias is coordinated across tissues such that autosomal testis-biased miRNAs tend to be somatically male-biased, whereas autosomal ovary-biased miRNAs are female-biased, possibly due to broad hormonal control. In chicken, which has a Z/W sex chromosome system, expression output of genes on the Z chromosome is expected to be male-biased, since there is no global dosage compensation mechanism that restores expression in ZW females after almost all genes on the W chromosome decayed. Nevertheless, we found that the dominant liver miRNA, miR-122-5p, is Z-linked but expressed in an unbiased manner, due to the unusual retention of a W-linked copy. Another Z-linked miRNA, the male-biased miR-2954-3p, shows conserved preference for dosage-sensitive genes on the Z chromosome, based on computational and experimental data from chicken and zebra finch, and acts to equalise male-to-female expression ratios of its targets. Unexpectedly, our findings thus establish miRNA regulation as a novel gene-specific dosage compensation mechanism.
+
+DESIGN
+Small RNA sequencing of 72 tissue samples from mouse, opossum and chicken. Libraries were prepared with the NEXTflex Small RNA-Seq Kit (NF). For two of the samples, libraries were also prepared with the lllumina TruSeq Small RNA Library Prep Kit (IL) and the HD protocol (HD) developed by Sorefan et al, 2012 (DOI: 10.1186/1758-907X-3-4).
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL19005 Illumina HiSeq 2500 (Gallus gallus) GPL20141 Illumina HiSeq 2500 (Monodelphis domestica)
+
+CITATIONS
+29079676
+

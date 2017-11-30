@@ -1,0 +1,18 @@
+TITLE
+De novo DNA methyltransferases DNMT3A and DNMT3B are essential of global DNA methylation maintenance [RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+DNA methylation is the net result of deposition by DNA methyltransferases (DNMT1, 3A and 3B) and removal by the Ten-Eleven Translocation 1-3 (TET1-3) family of proteins and/or passive loss by replication. The relative contribution of the individual enzymes and pathways is only partially understood. Here we comprehensively analyzed and mathematically simulated the dynamics of DNA de-methylation during the reprogramming of the hypermethylated serum-cultured mouse embryonic stem cells (ESCs) to the hypomethylated 2i-cultured ground state of mESC. We show that DNA demethylation readily occurs in TET[1-/-, 2-/-] ESCs with similar kinetics as their WT littermates. Vitamin C activation of TET causes accelerated and more profound DNA demethylation without markedly affecting reprogramming kinetics. We developed a mathematical model that highly accurately predicts the global level of 5methyl- and 5hydroxymethylcytosine during the transition. Modeling and experimental validation show that the concentration of DNMT3A and DNMT3B determines the steady state level of global DNA methylation and absence of DNMT3A/B even in continued presence of DNMT1 results in gradual loss of 5mC. Taken together, DNMT1 alone is insufficient to maintain DNA methylation but requires the action of DNMT3A/3B that act as a “dimmer switches”.
+
+DESIGN
+RNA-seq time series was performed during the early time phase of serum to 2i transition in the presence and absence of vitamin C  (4h, 16h,24h, 32h), 1 replicate
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+27237052
+

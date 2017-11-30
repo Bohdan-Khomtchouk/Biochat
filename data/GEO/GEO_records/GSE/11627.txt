@@ -1,0 +1,18 @@
+TITLE
+A functional and regulatory network associated with PIP expression in human breast cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background The PIP (prolactin-inducible protein) gene has been shown to be expressed in breast cancers, with contradictory results concerning its implication. As both the physiological role and the molecular pathways in which PIP is involved are poorly understood, we conducted a combined gene expression profiling and network analysis studies on selected breast cancer cell lines presenting distinct PIP expression levels and hormonal receptor status, to explore the functional and regulatory network of PIP co-modulated genes. Results Microarray analysis allowed identification of genes co-modulated with PIP independently of modulations resulting from hormonal treatment or cell line heterogeneity. Relevant clusters of genes that can discriminate between [PIP+] and [PIP-] cells were identified. Functional and regulatory network analyses based on knowledge database revealed a master network of PIP co-modulated genes, including many interconnecting oncogenes and tumor suppressor genes, half of which were detected as differentially expressed through high-precision measurements. The networks identified appear associated with an inhibition of proliferation coupled with an increase of apoptosis and an enhancement of cell adhesion in breast cancer cell lines. Finally, the STAT5 motif was identified in promoters of an important part of genes belonging to the PIP networks. Conclusion Our global exploratory approach was found to be an effective strategy to identify the biological pathways modulated along with the PIP expression, thus supporting good prognostic value of disease-free survival time in breast cancer based on previous reports focusing on PIP’s favorable signature. Moreover, our data allowed us to provide the first insight in its regulatory subnetwork in which STAT5 appears as a potential key regulator.
+
+DESIGN
+Microarray analyses were applied to breast cancer cell lines (T47D, MCF7, MDA-MB231, VHB1) with or without DHT treatment following a randomized and blinded unbalanced design. To assess data reproducibility and minimize dye bias effects, four independent RNA preparations were collected for each DHT-treated and -untreated cell lines  and each of the samples was measured at least twice times, once with Cy3 and once with Cy5. For some samples additional technical replicates were achieved. To ensure robustness and flexibility in data analysis, a reference design was used with a universal reference sample (Stratagene, USA) serving as a baseline for the comparisons of tumor samples. Hybridizations were performed onto an 11K human array (GPL3282), which provides a genome-wide coverage of functional pathways. Raw data were obtained using the ArrayVision™ 7.0 software (Imaging Research Inc., USA); the resulting hybridization data points collected from 86 arrays were stored in a a MIAME-compliant database and pre-processed for normalization and filtering as described in [Graudens et al., Genome Biol 2006, 7: R19; PMID: 16542501]. Statistical comparison was done considering that samples can be divided into subgroups according to PIP expression level: two-classes (weak expression of PIP gene considered as negative, [PIP-], and positive expression of PIP gene, [PIP+]1) or three classes comparisons (low [PIP-], moderate [PIP+]2 and high [PIP++] expression level) were conducted.
+
+PLATFORM
+GPL3282 11K_VJF-ARRAY
+
+CITATIONS
+19262752
+

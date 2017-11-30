@@ -1,0 +1,18 @@
+TITLE
+The significance of different algorithms in transcriptome analysis of leukemic cells with rearranged MLL (gene expression)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This study shows how the way by which the RNA-Seq data is analyzed affects the resulting gene expression profile. Three parameters were explored: the RNA-Seq analysis algorithm pipeline (cufflinks – Cuffdiff 2 or HTSeq & DESeq), sequencing depth and sequencing protocol: single or paired end, 100 or 50 bases. For comparison, the same samples were processed by gene microarrays.
+
+DESIGN
+RNA-Seq and gene microarray were conducted on total RNA from four acute lymphoblastic leukemia (ALL) precursor B cell lines, two lines carrying the chromosome translocation t(4;11) in which the human MLL gene is rearranged, and two lines lacking this abnormality.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

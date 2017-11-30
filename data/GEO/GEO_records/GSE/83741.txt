@@ -1,0 +1,18 @@
+TITLE
+DNA methylation on type-specific human skeletal muscle fibers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Reduced Representation Bisulfite Sequencing (RRBS) DNA input requirements become a challenge when working with small pools of tissue-specific cell types. We describe an application of the RRBS method to assess DNA methylation on low-DNA input from human slow-twitch (MHC I) and fast-twitch (MHC IIa) skeletal muscle fibers. Methods : Fiber-type specific (MHC I and MHC IIa muscle fibers) total DNA was extracted from vastus lateralis muscle biopsies of 8 young physically active men (~25 yrs). A total of 16 DNA samples were generated : 8 DNA samples from pure MHC I and 8 DNA samples from pure MHC IIa muscle fibers. An equal quantity of DNA (4 ng) from each sample was combined to generate a " pooled " DNA sample representing all 8  subjects for each fiber type. Two fiber-type specific " pooled " samples of 32 ng of DNA were generated for library construction and sequencing, creating a Type 1 (MHC I muscle fibers) and Type 2a (MHC IIa muscle fibers) sample. Sequencing was performed using the HiSeq 2500 (Illumina) with 50 bp paired-end read parameters. Minimum sequencing read coverage of 5 (5x) was used as the cutoff for CpG-sites inclusion in the DNA methylation analysis. Fisher’s exact test was performed on CpG-sites that overlapped (i.e. identified in both samples) Type 1 and Type 2a samples to obtain p-values that indicate the likelihood of the site being a differentially methylated CpG-site (DMS). DMS with p < 0.05 were classified as hypermethylated or hypomethylated if they were more or less methylated than the Type 1 sample, which was used as the reference sample. Results: The 32 ng of DNA from fiber-type specific muscle samples  (Type 1 and 2a) used in this study ensured similar sequencing quality as compared to other studies using greater DNA input ( > 50 ng). Mapping ratios of ~47% and  bisulfite conversion rates of ~97-98% were obtained.The unique and best alignment was successfully assessed for each of 17,376,728 CpG-sites in the Type 1 sample and 17,006,993 in the Type 2a sample, which represents ~30% of the total CpG number  in the human genome. We identified 143,160 differentially methylated CpG-sites (DMS) across 14,046 genes among MHC I and MHC IIa muscle fibers.  The analysis revealed that some genes predominantly expressed in MHC I were hypermethylated in MHC IIa muscle fibers. Conclusion: This study validates a low-DNA input RRBS method for human skeletal muscle samples to investigate the methylation patterns at a fiber-type specific level. These are the first fiber-type specific methylation data reported from human skeletal muscle. Considering the metabolic and structural differences between MHC I and MHC IIa muscle fibers, this technique could provide novel insights into the skeletal muscle methylation profile in relation to health, performance, disease or disuse.
+
+DESIGN
+Comparison of DNA methylation profiles in slow-twitch (MHC I) and fast-twitch (MHC IIa) human skeletal muscle fibers.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28057818
+

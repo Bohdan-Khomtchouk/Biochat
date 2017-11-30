@@ -1,0 +1,18 @@
+TITLE
+Expression analysis of stable chronic obstructive pulmonary disease and acute exacerbation of chronic obstructive pulmonary disease
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Investigation of whole genome gene expression level changes of the dynamic gene profiling of peripheral blood mononuclear cells (PBMCs) from patients with AECOPD) on day1, 3 and 10, compared to the normal people and stable COPD patients.
+
+DESIGN
+A five chip study using total RNA recovered from Peripheral Blood Mononuclear Cell of Peripheral Blood.Evaluating the dynamic gene profiling of peripheral blood mononuclear cells (PBMCs) from patients with AECOPD) on day1, 3 and 10 after the hospital admission, to compared with healthy controls or patients with stable COPD. Slides were scanned at 5 μm/pixel resolution using an Axon GenePix 4000B scanner (Molecular Devices Corporation) piloted by GenePix Pro 6.0 software (Axon). Scanned images (TIFF format) were then imported into NimbleScan software (version 2.5) for grid alignment and expression data analysis. Expression data were normalized through quantile normalization and the Robust Multichip Average (RMA) algorithm included in the NimbleScan software. The Probe level (*_norm_RMA.pair) files and Gene level (*_RMA.calls) files were generated after normalization.
+
+PLATFORM
+GPL18451 NimbleGen Homo sapiens HG18 expression array [100718_HG18_opt_expr_HX12] SEQ_ID condensed version
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

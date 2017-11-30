@@ -1,0 +1,18 @@
+TITLE
+Analysis of ToxT regulon in Vibrio cholerae El Tor
+
+ORGANISM
+Vibrio cholerae O1 str. C6706
+
+SUMMARY
+Using a combination of ChIP-seq and RNA-seq we show that ToxT regulates expression of the small RNA TarB. TarB modulates the expression level of the transcriptioanl repressor VC0177. VC0177 controls expression of several genes including VC0179.
+
+DESIGN
+The function of the Vibrio 7th pandemic island-1 (VSP-1) in cholera pathogenesis has remained obscure. Utilizing ChIP-seq and RNA-seq to map the regulon of the master virulence regulator ToxT, we identify a TCP island encoded small RNA that reduces the expression of a previously unrecognized VSP-1 encoded transcription factor termed VspR. VspR modulates the expression of several VSP-1 genes including one that encodes a novel class of di-nucleotide cyclase (DncV), which preferentially synthesizes a previously undescribed hybrid cyclic AMP-GMP molecule.  We show that DncV is required for efficient intestinal colonization and down-regulates V. cholerae chemotaxis, a phenotype previously associated with hyperinfectivity. This pathway couples the actions of previously disparate genomic islands, defines VSP-1 as a pathogenicity island in V. cholerae and implicates its occurrence in 7th pandemic strains as a benefit for host adaptation through the production of a regulatory cyclic di-nucleotide.
+
+PLATFORM
+GPL15332 Helicos HeliScope (Vibrio cholerae O1 str. C6706) GPL15333 Illumina HiSeq 2000 (Vibrio cholerae O1 str. C6706)
+
+CITATIONS
+22500802
+

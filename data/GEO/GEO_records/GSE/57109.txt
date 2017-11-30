@@ -1,0 +1,18 @@
+TITLE
+A new dataset of spermatogenic vs oogenic transcriptomes in the nematode C. elegans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+The nematode Caenorhabditis elegans is an important model for studies of germ cell biology, including specification as sperm or oocyte, the meiotic cell cycle and gamete differentiation.  Fundamental to those studies is a genome-level knowledge of the germline transcriptome.  Here we use RNA-Seq to identify genes expressed in isolated XX gonads, which are roughly 95% germline and 5% somatic gonadal tissue.  We generate data from mutants making either sperm [fem-3(q96)] or oocytes (fog-2), both grown at 22°C.  Our dataset identifies a total of 10,754 mRNAs in the polyadenylated transcriptome of XX gonads, with 1,723 enriched in spermatogenic gonads, 2,869 enriched in oogenic gonads and the remaining 6,274 not enriched in either.  These spermatogenic, oogenic and gender-neutral gene datasets compare well with those of earlier studies, but double the number of genes identified.  We also query our RNA-Seq data for differential exon usage and find 351 mRNAs with sex-specific isoforms.  We suggest that this new dataset will prove useful for studies focusing on C. elegans germ cell biology.
+
+DESIGN
+Comparison of spermatogenic vs oogenic transcriptomes
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+25060624
+

@@ -1,0 +1,18 @@
+TITLE
+Role of SWI/SNF in acute leukemia maintenance and enhancer-mediated Myc regulation (RNA-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Cancer cells frequently depend on chromatin regulatory activities to maintain a malignant phenotype. Here, we show that leukemia cells require the mammalian SWI/SNF chromatin remodeling complex for their survival and aberrant self-renewal potential. While Brg1, an ATPase subunit of SWI/SNF, is known to suppress tumor formation in several cancer types, we found that leukemia cells instead rely on Brg1 to support their oncogenic transcriptional program, which includes Myc as one of its key targets. To account for this context-specific function, we identify a cluster of lineage-specific enhancers located 1.7 megabases downstream of Myc that are occupied by SWI/SNF, as well as the BET protein Brd4. Brg1 is required at these distal elements to maintain transcription factor occupancy and for long-range chromatin looping interactions with the Myc promoter. Notably, these distal Myc enhancers coincide with a region that is focally amplified in 3% of acute myeloid leukemia. Together, these findings define a leukemia maintenance function for SWI/SNF that is linked to enhancer-mediated gene regulation, providing general insights into how cancer cells exploit transcriptional coactivators to maintain oncogenic gene expression programs
+
+DESIGN
+To profile the basal transcription level, we performed NSR and PolyA+ (illumine TruSeq) in a murine AML RN2 cell lines. To define the rapid downregulated genes in response to JQ1, BET bromodomian inhibitor, in RN2 cell, we performed RNA-seq in RN2 exposing to 250nM JQ1 for 48h time course.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24285714
+

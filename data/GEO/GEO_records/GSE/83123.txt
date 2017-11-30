@@ -1,0 +1,18 @@
+TITLE
+MNase-sensitive complexes in yeast: nucleosomes and non-histone barriers
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Micrococcal nuclease (MNase) is commonly used to map nucleosomes genome-wide, but nucleosome maps are affected by the degree of digestion. It has been proposed that many yeast promoters are not nucleosome-free but occupied by easily digested, unstable, “fragile” nucleosomes. We analyzed the histone content of all MNase-sensitive complexes by MNase-ChIP-seq and Sonication-ChIP-seq. We find that yeast promoters are predominantly bound by non-histone protein complexes, with little evidence for fragile nucleosomes. We do detect MNase-sensitive nucleosomes elsewhere in the genome, including transcription termination sites. However, they have high A/T-content, suggesting that MNase sensitivity does not indicate instability, but the preference of MNase for A/T-rich DNA, such that A/T-rich nucleosomes are digested faster than G/C-rich nucleosomes. We confirm our observations by analyzing ChIP-exo, chemical mapping and ATAC-seq data from other laboratories. Thus, histone ChIP-seq experiments are essential to distinguish nucleosomes from other DNA-binding proteins that protect against MNase.
+
+DESIGN
+We mapped MNase-sensitive complexes in budding yeast by comparing protected DNA fragments at different levels of digestion (MNase titration). We used MNase-ChIP-seq and Sonication-ChIP-seq to detect histones H4 and H2B in order to distinguish between MNase-sensitive nucleosomes and non-histone complexes. 
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+FOXM1 binds directly to non-consensus sequences in the human genome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Forkhead transcription factor, FOXM1, is a key regulator of the cell cycle and is over-expressed in most types of cancer. FOXM1, similar to other Forkhead (FKH) factors binds to a canonical FKH motif in vitro. However, genome-wide mapping studies in different cell lines have shown a lack of enrichment of the FKH motif at FOXM1 binding sites suggesting an alternative mode of chromatin recruitment. We have investigated the role of direct versus indirect DNA binding in FOXM1 recruitment by performing ChIP-seq with WT and DNA binding deficient FOXM1. An in vitro fluorescence polarization (FP) assay was used to identify point mutations in the DNA binding domain (DBD) of FOXM1 that inhibit binding to a FKH consensus sequence. Stable cell lines expressing either WT or DBD mutant green fluorescence protein (GFP)-tagged FOXM1 were utilized for genome-wide mapping studies comparing the distribution of the DBD mutant protein to the WT. This showed that interaction of the DBD of FOXM1 with target DNA is essential for recruitment. Moreover, analysis of protein interactome of the WT versus DBD mutant FOXM1 showed that the reduced recruitment is not due to the mutation inhibiting protein-protein interactions. This study showed that a functional DBD domain is essential for FOXM1 chromatin recruitment. Even in FOXM1 mutants that show almost complete loss of binding the protein-protein interactome and pattern of phosphorylation are largely unaffected. These results strongly support a model whereby FOXM1 is specifically recruited to chromatin through co-factor interactions by binding directly to both canonical and non-canonical DNA sequences.
+
+DESIGN
+15 samples, 40 bp single-ended ChIP-Seq libraries from cell lines with antibody for FOXM1 or expressing GFP-tagged FOXM1 (GFP-FOXM1), either wild type (GFP-FOXM1 WT) and with 2 different point mutations (GFP-FOXM1-HA and GFP-FOXM1-RA respectively). FOXM1: 2 replicates, samples labelled FOXM1_GTX; FOXM1-GFP WT: 5 replicates, samples labelled GFP and WT_GFP_FOXM1; FOXM1-GFP HA: 3 replicates, samples labelled GFP_FOXM1_HA; FOXM1-GFP RA: 2 replicates, samples labelled GFP_FOXM1_RA; input libraries: 3 different inputs for the respective experiments.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26100407
+

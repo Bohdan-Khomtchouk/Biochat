@@ -1,0 +1,18 @@
+TITLE
+Differential analysis of HOXA1 in adult cells at isoform resolution by RNA-Seq [Agilent]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+High-throughput RNA sequencing (RNA-Seq) has enabled accurate gene discovery and expression estimation, but robust differential analysis of gene and transcript abundances has proven difficult. We present a new algorithm, implemented in the freely available tool Cuffdiff, which integrates transcript-level expression estimation with a method to control for variability across replicate samples. Cuffdiff robustly identifies differentially regulated isoforms and genes and reveals differential splicing or promoter-preference changes. We demonstrate the accuracy of our approach through differential analysis of lung fibroblasts in response to loss of the developmental transcription factor HOXA1 and uncover a critical role for this gene in the maintenance of adult cells. We show that HOXA1 is required for lung fibroblast and HeLa cell cycle progression, and loss of HOXA1 results in significant expression level changes in thousands of individual transcripts, along with isoform switching events in key regulators of the cell cycle.
+
+DESIGN
+Lung Fibroblasts were transfected with either a HOXA1 directed siRNA pool or a scramble non-targeting siRNA control. RNA was collected 48 hours after transfection and changes in gene expression were assayed for using Agilent microarrays.
+
+PLATFORM
+GPL13607 Agilent-028004 SurePrint G3 Human GE 8x60K Microarray (Feature Number version)
+
+CITATIONS
+23222703
+

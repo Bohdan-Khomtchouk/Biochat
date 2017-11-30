@@ -1,0 +1,18 @@
+TITLE
+Regulatory networks define phenotypic classes of human stem cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Stem cells are defined as self-renewing cell populations that can differentiate into multiple distinct cell types.  However, hundreds of different human cell lines from embryonic, fetal, and adult sources have been called stem cells, even though they range from pluripotent cells, typified by embryonic stem cells, which are capable of virtually unlimited proliferation and differentiation, to adult stem cell lines, which can generate a far more limited repertory of differentiated cell types. The rapid increase in reports of new sources of stem cells and their anticipated value to regenerative medicine have highlighted the need for a general, reproducible method for classification of these cells. We report here the creation and analysis of a database of global gene expression profiles (“Stem Cell Matrix”) that enables the classification of cultured human stem cells in the context of a wide variety of pluripotent, multipotent, and differentiated cell types. Using an unsupervised clustering method to categorize a collection of ~150 cell samples, we discovered that pluripotent stem cell lines group together, while other cell types, including brain-derived neural stem cell lines, are very diverse. Using further bioinformatic analysis we uncovered a protein-protein network (“PluriNet”) that is shared by the pluripotent cells (embryonic stem cells, embryonal carcinomas, and induced pluripotent cells). Analysis of published data showed that the PluriNet appears to be a common characteristic of pluripotent cells, including mouse ES and iPS cells and human oocytes. Our results offer a new strategy for classifying stem cells and support the idea that pluripotence and self-renewal are under tight control by specific molecular networks. Keywords: cell type comparison, clustering, classification, systems analysis, gene networks, protein-protein interactions, taxonomy, reference based classification
+
+DESIGN
+In vitro stem cell preparations were first grouped with an unsupervised clustering mechanism and then we identified differentially expressed, connected subnetworks  by a systems analysis with differential MATISSE (Ulitsky & Schamir 2007), which integrated information on  a) co-expression patterns b) topological data from protein-protein interaction networks of the respective gene products and c) group memberships from the Stem Cell Matrix clustering step.
+
+PLATFORM
+GPL2700 Sentrix HumanRef-8 Expression BeadChip
+
+CITATIONS
+18724358
+

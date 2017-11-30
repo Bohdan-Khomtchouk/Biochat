@@ -1,0 +1,18 @@
+TITLE
+Post-transcriptional generation of miRNA variants by multiple nucleotidyl transferases contributes to miRNA transcriptome complexity (Validation 1)
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+Modification of microRNA sequences by the 3' addition of nucleotides to generate so-called “isomiRs” adds to the complexity of miRNA function, with recent reports showing that 3' modifications can influence miRNA stability and efficiency of target repression. Here we show that the 3' modification of miRNAs is a physiological and common post-transcriptional event that shows selectivity for specific miRNAs and is observed across species ranging from C. elegans to human. The modifications result predominantly from adenylation and uridylation, and are seen across tissue types, disease states, and developmental stages. To quantitatively profile 3' nucleotide additions, we developed and validated a novel assay based on NanoString Technologies' nCounter platform. For certain miRNAs, the frequency of modification was altered by processes such as cell differentiation, indicating that 3' modification is a biologically regulated process.  To investigate the mechanism of 3' nucleotide additions, we used RNA interference to screen a panel of eight candidate miRNA nucleotidyl transferases for 3' miRNA modification activity in human cells. Multiple enzymes, including PAPD1, PAPD4, PAPD5, ZCCHC6, ZCCHC11, and TUT1, were found to govern 3' nucleotide addition to miRNAs in a miRNA-specific manner. Three of these enzymes–PAPD1, ZCCHC6 and TUT1–have not previously been known to modify miRNAs.  Collectively, our results indicate that 3' modification observed in next generation small RNA sequencing data is a biologically relevant process, and identify enzymatic mechanisms that may lead to new approaches for modulating miRNA activity in vivo.
+
+DESIGN
+We validated the specificity of the platform by assaying three pools of synthetic RNA oligonucleotides representing canonical, variant 1, and variant 2 versions of 5 miRNAs (miR-15a, miR-15b, miR-125a-5p, miR-143 and miR-221).Each bridge pool (i.e., specific to canonical, variant 1 or variant 2) was used to assay the three mixtures of synthetic miRNA oligonucleotides.  In order to assess accuracy, we also assayed mixtures of 5 synthetic miRNAs containing 60% canonical miRNA, 30% variant 1, and 10% variant 2. Triplicate technical replicates of each sample were performed.
+
+PLATFORM
+GPL11668 NanoString nCounter miRNA expression platform (validation 1)
+
+CITATIONS
+21813625
+

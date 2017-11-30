@@ -1,9 +1,0 @@
-TITLE
-Neuroblastoma cell lines under normoxic and hypoxic conditions
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-Hypoxia is a low oxygen condition that occurs in the developing tumor mass and that is associated with poor prognosis and resistance to chemo- and radio-therapy. The definition of the hypoxia gene signature is fundamental for the understanding of tumor biology, as in the case of neuroblastoma, the most common pediatric solid tumor. The issue of identifying a significant group of variables in microarray gene expression experiments is particularly difficult due to the typical high dimensional nature of the data and great effort has been spent in the development of feature selection techniques. Our main goal is to define a robust hypoxia gene signature in neuroblastoma cell lines. A set of 9 neuroblastoma cell lines were cultured under normoxic and hypoxic conditions for 18 hours, and their gene expression profiles were measured with Affymetrix GeneChip HG-U133 Plus 2.0. The clustering analysis of the expression profiles based on different clustering methods consistently revealed that hypoxia was not the major factor characterizing the data set. T-test analysis with multiple testing correction fails to identify significantly differentially expressed genes. Conversely the l1-l2 regularization selects 11 significant probesets while building an effective classification rule. The algorithm is cast within a cross-validation framework in order to achieve an unbiased analysis. The estimated cross-validation error is 17% (3 out of 18). We show that the use of l1-l2 regularization allowed us to model the effect of hypoxia, which was not detected by conventional t-test based approaches and we find a panel of genes able to properly discriminate the normoxic versus the hypoxic status of neuroblastoma cell lines.
-

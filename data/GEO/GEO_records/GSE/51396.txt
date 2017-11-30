@@ -1,0 +1,18 @@
+TITLE
+Systematic discovery of spleen miRNAs involved in host response to avian pathogenic Escherichia coli (APEC) by deep sequencing and integrated analysis
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Avian pathogenic Escherichia coli (APEC) is considered one of the most common infectious bacterial diseases resulting in significant economic losses in poultry industry worldwide. In order to investigate the association between host immune resistance and miRNA expression in the pathogenic process induced by APEC, miRNA expression profiles in broilers spleen were performed by Solexa deep sequencing from three different treatment groups including non-challenged (NC), challenged-mild pathology (MD), and challenged-severe pathology (SV).In total, 3 462 706, 3 586 689, and 3 591 027 clean reads were obtained for NC, MD, and SV, respectively. After comparing the miRNA expression patterns, 27 differentially expressed miRNAs were identified among the three response groups, which included 13 miRNAs between NC and MD, 17 between NC and SV, and 14 between MD and SV. For these miRNAs, different expression in MD and SV suggested they may have resistance activity in APEC infection. Through integrated analysis of miRNA and mRNA expression patterns, 43 negative pairs between miRNA and mRNA (r < -0.80) were obtained. 4 miRNAs were validated to be significant negatively correlated to targets by quantitative real time PCR: gga-miR-21 (CLEC3B and GGTLA1), gga-miR-429 (TMEFF2, CDC20, SHISA2 and NOX4), gga-miR-146b (LAT2 and WNK1), and gga-miR-215 (C7 and ASL2). Additionally, the expression of gga-miR-21 and gga-miR-146b was significantly up-regulated by LPS induced in HD11 macrophage cell. In contrast, gga-miR-429 has no significant change. In summary, we present the first report that characterized the miRNA profiles of chicken spleen in response to APEC infection, and identified several candidate miRNAs which might accelerate host immune response through down-regulating their specific target genes.
+
+DESIGN
+Through the intra-air sac route into the left thoracic air sac, 240 non-vaccinated males at 4 weeks of age were challenged with 0.1 ml APEC O1 (10^8 colony forming units) and another 120 non-vaccinated males were non-challenged but treated with 0.1 ml PBS. Detailed information on the APEC O1 strain and challenge process was described by previously described study. Necropsy was performed at 1 day post challenge, and a summarized lesion ranging from 0 to 7 was determined for each APEC-challenged bird. Birds with lesions scoring 0-2 were regarded as mild infection, and those scoring 4-7 were designated as severe infection. The mild and severe pathology meant that birds were resistant and susceptible to APEC infection, respectively. Then, spleens from three groups, consisting of non-challenged, challenged-mild pathology and challenged-severe pathology were subjected to Solexa deep sequencing to investigate the dynamics of chicken miRNA expression.
+
+PLATFORM
+GPL13797 Illumina Genome Analyzer IIx (Gallus gallus)
+
+CITATIONS
+27795362
+

@@ -1,0 +1,18 @@
+TITLE
+Early specification of CD8+ T lymphocyte fates during adaptive immunity revealed by single-cell gene expression analyses
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+T lymphocytes responding to microbial infection give rise to effector cells that mediate acute host defense and memory cells that provide long-lived immunity, but the fundamental question of when and how these cells arise remains unresolved.  Here we combine single-cell gene expression analyses with machine-learning approaches to trace the transcriptional roadmap of individual CD8+ T lymphocytes throughout the course of an immune response in vivo.  Gene expression signatures predictive of eventual fates could be discerned as early as the first T lymphocyte division and may be influenced by asymmetric partitioning of the interleukin-2 receptor during mitosis.  These findings underscore the importance of single-cell analyses in understanding fate determination and provide new insights into the specification of divergent lymphocyte fates early during an immune response to microbial infection.
+
+DESIGN
+The goal of the study was to profile the gene expression in single CD8+ T cells responding in vivo to a microbial infection over multiple timepoints.  5 x 103 CD8+ CD45.1+ T cells transgenic for the OT-1 T cell receptor (which recognizes Listeria monocytogenes expressing ovalbumin (Lm-ova)) were adoptively transferred into congenic wild-type CD45.2 C57/B6J recipients, followed by infection intravenously one day later with 5 x 103 colony-forming units (CFU) of Lm-OVA.  Splenocytes were isolated from recipient mice at 5, 7, or 45 days post-infection.  To isolate cells at 3 days post-infection, 2 x 104 OT-1 CD8+ T cells were adoptively transferred.  To isolate cells that had undergone their first division, 2 x 106 OT-1 CD8+ T cells were first labeled with carboxyfluorescein diacetate succinimidyl ester (CFSE) prior to adoptive transfer and recipient mice were sacrificed at 48 hours post-infection.  Unactivated naïve OT-1 CD45.1+ CD8+ T cells were also included. Cells were stained with fluorochrome-labeled antibodies against CD8, CD44, CD4, CD11b, CD11c, and F4/80, and sorted on a MoFlo (Beckman Coulter) or FACS Aria II (BD Biosciences) flow cytometer.      The Ct value for each gene analyzed in each individual cell at each time point is reported in the Matrix non-normalized.  The 94 ABI TaqMan Assay IDs are listed on the left (A2-A96), along with the accession number (B2-B96) and corresponding gene name (C2-C96) of each gene studied. The Il2 gene expression assay was duplicated. Each heading (D1-BCV)) represents a single cell from each of 13 timepoints or T cell subset that were profiled.  The timepoints/T cell subsets and number of each cells profiled from each timepoint/T cell subset were: unactivated naïve (149 cells), distal daughter (48), proximal daughter (83), division 1 (144), day 3 post-infection (143), day 5 post-infection memory precursor (Tmp) (90), day 5 post-infection short-lived effector (Tsle) (79), day 5 post-infection (154), day 7 post-infection memory precursor Tmp (62), day 7 post-infection short-lived effector Tsle (89), day 7 post-infection (134), central memory Tcm (138), and effector memory Tem (136).
+
+PLATFORM
+GPL18198 ABI Taqman 94 gene expression assays
+
+CITATIONS
+24584088
+

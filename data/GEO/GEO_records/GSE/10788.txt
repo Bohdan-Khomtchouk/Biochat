@@ -1,0 +1,18 @@
+TITLE
+Comparison of L. interrogans strains 56601 and IPAV at 37°C
+
+ORGANISM
+Leptospira interrogans serovar Lai ; Leptospira interrogans serovar Lai str. 56601
+
+SUMMARY
+DNA microarray analysis was used to compare the differential gene-expression profiles between Leptospira interrogans serovar Lai type strain 56601 and its corresponding attenuated strain IPAV. A 22 kb genomic island covering a cluster of 34 genes (LA0186 to LA0219) was actively expressed in both strains but concomitantly up-expressed in strain 56601 in contrast to that of IPAV. RT-PCR assays proved that the gene cluster comprised five transcripts. Gene annotation of this cluster revealed characteristics of a putative prophage-like remnant with at least 8 out of 34 CDSs encoding prophage-like proteins, of which, LA0195 is probably a putative prophage CI-like regulator. The transcription initiation activities of putative promoter-regulatory sequences of transcripts I, II and III, all proximal to LA0195, were further analyzed in the Escherichia coli promoter probe vector pKK232-8 by assaying the reporter CAT enzyme activities. The strong promoter activities of both transcripts I and II indicated by the E. coli CAT assay were well correlated with the in vitro sequence-specific binding of the recombinant LA0195 protein to the corresponding promoter probes detected by the electrophoresis mobility shift assay. On the other hand, the promoter activity of transcript III was very low in E. coli and failed to show active binding to LA0195 in vitro. These results suggested that LA0195 is likely involved in the transcription of transcripts I and II. However, the identical complete DNA sequences of this prophage remnant from these two strains strongly suggests that possible regulatory factors or signal transduction systems resided outside of this region within the genome maybe responsible for the differential expression profiling in these two strains. Keywords: Differential expression of  L.interrogans 56601 and IPAV in 37°C
+
+DESIGN
+The microarray chip was prepared as previously described (42). In brief, the 3528 protein coding sequences (CDSs) successfully amplified by PCR were printed in triplicate on the slides as probes. Three expression profiling experiments were performed via reverse transcription using Superscript (Invitrogen) and with one experiment having the cDNA of IPAV labeled by Cy3 and of 56601 labeled by Cy5, while the other two having the cDNA of 56601 labeled by Cy3 and of IPAV labeled by Cy5. The unincorporated dye was removed using a QIAquick Nucleotide Removal Kit (Qiagen) as specified by the manufacturer's protocol. Samples were hybridized at 42°C for 16h, and then washed as described in the manual. Hybridization experiments were performed in triplicate using cDNA derived from three different cultures of virulent strain 56601 and avirulent strain IPAV grown at 37°C. The hybridized slides were scanned and analyzed by Tiffsplit (Agilent) to calculate the signal intensities and to determine the presence or absence of each CDS. The data were then normalized, and their backgrounds were defined using GeneSpring 4.0 (Silicon Genetics). The GeneSpring software was used to further analyze the transcription patterns. To identify genes with significantly altered expression levels, cutoff values for expression level ratios 1.5 were used to filter genes with changes (n-fold) greater than ±1.5 in three independent biological samples (27, 48, 50). Student’s t test analysis of variance was used to compare the mean expression levels of the test and reference samples. Genes with significant differential expression levels (P < 0.05) were selected.
+
+PLATFORM
+GPL6571 L.interrogans PCR-based array version 1
+
+CITATIONS
+18362131
+

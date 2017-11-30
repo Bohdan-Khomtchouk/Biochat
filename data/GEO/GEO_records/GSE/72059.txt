@@ -1,0 +1,18 @@
+TITLE
+Identification of transcriptome of mouse non-neural ectoderm during nueral tube closure and gene enrichment compared to remaining neural tube tissue
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The process of neural tube closure is a highly complex morphogenetic event that results in the generation of the primordial central nervous system. During formation of the neural tube, the non-neural ectoderm separates from the neighboring neural ectoderm and forms a single layer epithelial sheet that overlies the closed neural tube. Previous work has shown that the non-neural ectoderm is necessary for proper cranial neural tube closure, however little is known about this cell population at the molecular level or how the non-neural ectoderm contributes to neural tube closure. In this study, we used a mouse genetic system to fluorescently label the non-neural ectoderm cells and FACS sorted these cells away from the other cell populations in the neural tube. We performed high throughput RNA-sequencing to identify the transcriptome of the non-neural ectoderm and compared the gene expression profile of non-neural ectoderm cells to the remaining population of cells within the neural tube in order to identify which genes are enriched within the non-neural ectoderm. This analysis provides a clue as to which underlying molecular processes may be important for non-neural ectoderm function during neural tube closure.
+
+DESIGN
+mTomato/mGFP dual fluorescent reporter mice were mated to Grhl3-cre mice to generate embryos that expressed a membrane-bound RFP throughout the embryo with specific expression of membrane-bound GFP in the Grhl3+ non-neural ectoderm. Embryos were dissected at 9.5 days post-fertilization and scored for correct genetic recombination. Non-neural tube tissue was dissected away and single cell suspensions were made followed by FACS to sort the GFP+ and RFP+ populations. RNA was isolated immediately and pooled samples of 1ug total RNA were used to generate libraries for sequencing with the Illumina TruSeq RNA sample preparation kit. Pooled RNA was generated from 25 individual embryos all aged betweed 21 and 25 somites. RNA-sequencing was performed on an Illumina HiSeq 2000.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26903501
+

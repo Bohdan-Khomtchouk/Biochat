@@ -1,0 +1,18 @@
+TITLE
+RNAseq to determine gene expression changes following depletion of SETDB1 in THP-1 AML Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: To determine how loss of SETDB1 effects gene expression in THP-1 AML cells. Methods: THP-1 cells were treated with two different SETDB1 sgRNAs (6, and 9) or Non-targeting control sgRNA (NTC) for 4 and 7 days. RNA was isolated and prepared for RNAseq with Qiagen RNeasy kits. Results: Using an optimized data analysis workflow, we mapped 23 million or more sequence reads per sample to the human genome (GRCh38) with GSNAP for obtaining standard gene expression measurements. Since SETDB1 is also know to regulate repetitive elements we also mapped sequences to a pseudogenome containing tranposable elements from hg19 repeatmasker annotations using RepEnrich and following the pipeline published on GitHub ( https://github.com/nskvir/RepEnrich ). Conclusions: Our data determined that immediately following the disruption of SETDB1, a strong type I Interferon response can be observed at day 4. In addition, many repetitive elements are also significanly induced, including L1 LINEs, Endogenous Retroviruses, and Satellite repeats.
+
+DESIGN
+THP-1 RNA samples treated with 2 different SETDB1 sgRNAs (6, and 9) or NTC sgRNAs and collected at days 4 and 7 in triplicate for a total of 18 samples.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

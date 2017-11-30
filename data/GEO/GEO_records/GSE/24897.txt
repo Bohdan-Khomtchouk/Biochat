@@ -1,0 +1,18 @@
+TITLE
+Expression data from human macrophages treated with Porphyromonas gingivalis and its components
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Periodontitis is the most common human infection affecting tooth-supporting structures. It was shown to play a role in aggravating atherosclerosis. To deepen our understanding of the pathogenesis of this disease, we exposed human macrophages to an oral bacteria Porphyromonas gingivalis (P. gingivalis) either as live bacteria, or its lipopolysaccharide (LPS) or fimbria. Microarray data from treated macrophages or control cells were analyzed to define molecular signatures. We focused our analysis on three important groups of genes. Group PG (genes differentially expressed by live bacteria only); Group LFG (genes differentially expressed in response to exposure to LPS and/or FimA); Group CG (core gene set jointly activated by all 3 stimulants). A total of 842 macrophage genes were differentially expressed in at least one of the three conditions compared to naïve cells. Using pathway analysis, we found that group CG activates the initial phagocytosis process and induces genes relevant to immune response, whereas group PG can de-activate the phagocytosis process associated with phagosome-lysosome fusion. LFG mostly affected RIG-I-like receptor signaling pathway.
+
+DESIGN
+12 samples in total. 4 conditions (treatment with live P. gingivalis, P. gingivalis LPS, P. gingivalis fimbriae, or saline) were used, and triplicates were performed for each condition. We considered the following comparisons: PG vs. Control (saline), PG-LPS vs. Control, and PG-fimbriae vs. Control. Fold-change > 2.0 and FDR < 0.25 were used to select significantly expressed genes.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+21203416
+

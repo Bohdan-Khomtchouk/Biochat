@@ -1,0 +1,18 @@
+TITLE
+Umea Lucidea Experiment
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The experiment was designed to enable validation of pre-processing and test algorithms. The in-house produced cDNA-array contains 44 clones: 19 clones from mice, 4 clones from Pine (involved in photosynthesis) and 21 artificial clones from the Lucidea Universal ScoreCard (Amersham Bioscienses), where each clone was printed 480 times in 48 identically designed sub-grids. The experiment contains eight arrays with identical experimental design. Total RNA from murine cell line was divided in two samples;  the reference sample was labeled with the fluorophore Cy5 and spiked with the Lucidea Universal ScoreCard reference reaction, the test sample was labeled with Cy3 and spiked with the Lucidea Universal ScoreCard test reaction. The concentrations of the Lucidea reactions are known and consequently so are the true ratios between the reference and test channels. Approximately 40% of the artificial genes were differentially expressed.  The particular design of the experiment makes the data suitable for validating algorithms for pre-processing and tests for identifying differentially expressed genes. - The 80.I.1 normalization algorithm :  all spots flagged as not found during image analysis considered missing values (complete filtration). Print-tip MA-loess dye normalization based on the calibration clones was applied to the raw data and the B-statistic was calculated. - The 80.II.1 normalization algorithm : all spots flagged as not found during image analysis considered missing values (complete filtration). Local background correction was applied and all spots with negative values were excluded. Print-tip MA-loess dye normalization based on the calibration clones was applied to the background corrected data and the B-statistic was calculated. - The 80.II.64 normalization algorithm : all spots flagged as not found during image analysis considered missing values (complete filtration). Local background correction was applied, negative values were excluded and all spots with a value below 64 were set to 64 (censored). Print-tip MA-loess dye normalization based on the calibration clones was applied to the background corrected data and the B-statistic was calculated. - The 80.V.1 normalization algorithm :  The intensities of all spots flagged not found were treated as missing values during normalization, but prior to calculating test-statistics the spot's log-ratios were set to zero. In the special case when all arrays generated not-found spots, the gene was removed from the experiment (Partial filtration). Local background correction was applied and all negative values were considered missing values. Print-tip MA-loess dye normalization based on the calibration clones was applied to the background corrected data and the B-statistic was calculated.
+
+DESIGN
+The experiment contains eight arrays with identical experimental design. The reference sample was labeled with the fluorophore Cy5 and spiked with the Lucidea Universal ScoreCard reference reaction, the test sample was labeled with Cy3 and spiked with the Lucidea Universal ScoreCard test reaction.
+
+PLATFORM
+GPL13623 Umea Lucidea array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+LTR-retrotransposon control by tRNA-derived small RNA
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Transposon reactivation is an inherent danger in cells that lose epigenetic silencing during developmental reprogramming. In the mouse, LTR-retrotransposons, or endogenous retroviruses (ERV), account for most novel insertions and are expressed in the absence of histone H3 Lysine 9 trimethylation in preimplantation stem cells. We found abundant, 18 nt tRNA-derived small RNA (tRF) in these cells, and ubiquitously expressed 22 nt tRFs, that include the 3' terminal CCA of mature tRNAs, and target the tRNA primer binding site (PBS) essential for ERV reverse transcription. We show that the two most active ERV families, IAP and MusD/ETn, are major targets and are strongly inhibited by tRFs in retrotransposition assays. 22 nt tRFs post-transcriptionally silence coding-competent ERVs, while 18 nt tRFs specifically interfere with reverse transcription and retrotransposon mobility. The PBS offers a unique target to specifically inhibit LTR-retrotransposons and tRF-targeting is a potentially highly conserved mechanism of small RNA-mediated transposon control.
+
+DESIGN
+small RNA profiling of mouse trophoblast (TS) stem cells, embryonic stem cells (ES wild-type, Dnmt1 KO, Setdb1 inducible KO), and mouse embryonic fibroblasts, transfected HeLa cells, 3-5 replicates (a/b technical rep., integer biological rep.); H3K9m3 native ChIPseq of trophoblast stem cells (TS), 4 replicates; transposon-specific RACE of uncapped, 5' RNA ends (2x2 conditions), 2 replicates per condition; sRNA libraries of transfected HeLa cells, 3 conditions, 3 replicates each
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL15520 Illumina MiSeq (Homo sapiens) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28666125
+

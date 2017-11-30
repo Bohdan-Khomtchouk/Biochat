@@ -1,0 +1,18 @@
+TITLE
+ATAC-seq profiling of open chromatin in the root tips of four plant species (Arabidopsis thaliana, Medicago truncatula, Solanum lycopersicum, and Oryza sativa) and two Arabidopsis thaliana cell types (root hair and non-hair epidermal cells)
+
+ORGANISM
+Arabidopsis thaliana ; Medicago truncatula ; Solanum lycopersicum ; Oryza sativa
+
+SUMMARY
+The transcriptional regulatory structure of plant genomes remains poorly defined relative to that of animals. It has been unclear how many cis-regulatory elements generally exist in plant genomes, where these elements lie in relation to their target promoters, and how these features are conserved across species. We employed the Assay for Transposase-Accessible Chromatin with sequencing (ATAC-seq) in four different plant species (Arabidopsis thaliana, Medicago truncatula, Solanum lycopersicum, and Oryza sativa) to delineate open chromatin regions and transcription factor (TF) binding sites across each genome. Despite a ~10-fold variation in intergenic space among species, the majority of open chromatin regions consistently lie within 3 kb upstream of a transcription start site (TSS) in all four species. Nearly 70% of genes in Arabidopsis, Medicago, and Rice have a single putative regulatory region upstream of the TSS, while a similar percentage of tomato genes have 2-5 such elements. Despite variation in the location and number of regulatory elements within orthologous gene sets, transcriptional regulatory networks appear to be largely conserved across species. Profiling of open chromatin in the Arabidopsis root hair and non-hair epidermal cell types indicated that while the open chromatin landscapes of these two cell types were largely indistinguishable on a global scale, thousands of relatively subtle, quantitative cell-specific differences could be found. Analysis of TF binding sites in these differentially accessible regions led to the discovery of a MYB-driven transcriptional regulatory module unique to the hair cell type, which appears to control both hair cell fate regulators and abiotic stress responses. Our cross-species and cross-cell type analyses revealed common transcriptional regulatory principles among species and shed light on the mechanisms that produce cell type-specific transcriptomes during development.
+
+DESIGN
+ATAC-seq was performed on nuclei isolated from 1 cm root tips of Arabidopsis thaliana, Medicago truncatula, Solanum lycopersicum, and Oryza sativa plants grown vertically on nutrient agar plates. Plants of all species were transgenics constitutively expressing the INTACT transgenes (UBQ10p:NTF/ACT2:BirA) such that all root tip nuclei could be affinity purified using streptavidin beads. ATAC-seq was also performed on Arabidopsis thaliana root tip nuclei prepared by sucrose sedimentation (crude purification). Root hair and non-hair cell nuclei of Arabidopsis thaliana affinity purified from INTACT transgenics (ADF8p:NTF/ACT2p:BirA and GL2p:NTF/ACT2p:BirA, respectively) were also used in ATAC-seq. All ATAC-seq experiments were performed in two biological replicates. ATAC-seq was also performed on purified Arabidopsis thaliana genomic DNA as a control.
+
+PLATFORM
+GPL13160 Illumina HiSeq 2000 (Oryza sativa) GPL19580 Illumina NextSeq 500 (Arabidopsis thaliana) GPL21087 Illumina NextSeq 500 (Oryza sativa) GPL21643 Illumina NextSeq 500 (Medicago truncatula) GPL21762 Illumina NextSeq 500 (Solanum lycopersicum)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

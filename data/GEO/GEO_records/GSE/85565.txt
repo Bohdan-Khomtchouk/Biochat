@@ -1,0 +1,18 @@
+TITLE
+TCF21 and Aryl-hydrocarbon receptor gene cooperate to activate a pro-atherosclerotic gene expression program
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide association studies (GWAS) for coronary artery disease (CAD, also termed coronary heart disease, CHD) have discovered and validated 48 loci genome-wide and recent 1000-Genomes based meta-analyses have discovered additional 8 loci with significant association, however, true follow-up studies on the mechanisms of association are still scarce. Here we analyze the relationship of two transcription factors, TCF21, one of the lead GWAS candidate genes for coronary artery disease and AHR, aryl hydrocarbon receptor, which previously was not implicated as fundamental for the atherosclerotic process. We show that both the predicted and in-vivo ChIP-Seq binding sites for TCF and AHR colocalize in the human genome with over 400 predicted sites and 119 ChIP-Seq sites directly overlapping. TCF and AHR-ARNT predicted binding sites longitudinal phasing was observed near the transcription start sites, outlining the position of +1 nucleosome. AHR-ARNT matrix was highly enriched in both TCF21 ChIP-Seq peaks and ATAC-Seq open chromatin regions in human coronary artery smooth muscle cells (HCASMC), implicating the role of AHR in this important cell type for vascular biology. Co-expression modules of TCF21 and AHR showed high degree of connectivity. Separation of rotationally phased and unphased predicted binding sites for TCF and AHR resolved the roles of direct and indirect TCF-AHR interactions, and implicated as highly-modulated various inflammatory, interleukin and cytokine related processes, while ChIP-Seq co-localization of TCF21 and AHR/ARNT emphasized the role of calcium related processes. We performed TCF21 overexpression analysis in human coronary artery smooth muscle cells (HCASMC) and obtained GO ontologies that recapitulate in vivo pathophysiology of the atherosclerotic vessel wall, and a set of chronic inflammatory ontologies was established with the colocalization of TCF21 and AHR ChIP-Seq sites as well as with the binomial testing of GWAS SNP overrepresentation. We experimentally confirmed that TCF21 binds to and regulates AHR gene expression in HCASMC, as well as to elements near AHR downstream genes, such as CYP1A1, using reporter assays. The functional relevance of AHR pathway in HCASMC is confirmed using AHR ligands TCDD and oxidized LDL. Finally, we show that AHR is elevated in atherosclerotic arteries using laser capture microdissection in mice in vivo and in human ex vivo. In conclusion, we extend GWAS results to functional assays and show that TCF21 and AHR functional connectivity provides a novel mechanism for diseased coronary vessel wall biology.
+
+DESIGN
+[RNA-Seq] HCASMC: TCF21 overexpression and control. The ChIP-Seq data are submitted under GSE61369 and the ATAC-Seq data are submitted under GSE72696.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28481916
+

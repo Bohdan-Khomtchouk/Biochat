@@ -1,0 +1,18 @@
+TITLE
+Effects of pregnancy and progesterone supplementation on endometrial gene expression in cattle
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+An increase in circulating progesterone (P4) concentrations is associated with increased pregnancy success in beef and dairy cattle. Our objective was to ascertain differential effects of elevated P4 concentrations following conception on endometrial gene expression in beef heifers on Days 5, 7, 13 and 16 of pregnancy, corresponding to the morula, blastocyst, elongation and maternal recognition of pregnancy stages, respectively. Estrus was synchronized in beef heifers (N=263). Two-thirds (N=140) were inseminated (Day 0), and all animals were randomly assigned to one of the following treatments: (i) pregnant, high P4; (ii) pregnant, normal P4; (iii) cycling, high P4; (iv) and cycling, normal P4. All high P4 groups received a P4 release intravaginal device (PRID) on Day 3 post-estrus/mating. Tissue was collected on Days 5, 7, 13 or 16 of the cycle or pregnancy, and pregnancy was confirmed by the presence of an appropriately developed embryo/conceptus.  PRID insertion elevated (P < 0.05) P4 concentrations from Day 3.5 to 8 compared with untreated animals and conceptus size was larger (P < 0.05) in animals with elevated P4 on Days 13 and 16 compared with normal P4. Total RNA was extracted from predominantly intercaruncular endometria from the ipsilateral uterine horn. Samples from individual heifers were selected on the basis of their P4 profiles and gene expression was analyzed using bovine Affymetrix microarrays (N=5 per treatment per time point). Microarray data from analyses using Bioconductor GCRMA and Limma packages were subjected to a modified t-test and P-values were adjusted for multiple testing using the Benjamin and Hochberg false discovery rate method. Differentially expressed genes were selected on the basis of an adjusted P-value of < 0.01. There were no detectable differences in gene expression in endometria from pregnant and cyclic heifers on Days 5, 7 and 13 post-estrus, but, the expression of 764 genes was altered due to the presence of the conceptus at maternal recognition of pregnancy (Day 16). On Days 5 and 7, elevated P4 in pregnant heifers, altered the expression of 36 and 124 genes respectively but on Days 13 and 16 there were relatively few DEG between high and normal P4 heifers (15 and 25). Of the genes that were differentially regulated by P4, the majority were unique to a specific day of the estrous cycle/early pregnancy. In conclusion, gene expression in endometria did not differ between pregnant and cycling heifers until Day 16 of pregnancy (i.e. the time of maternal recognition of pregnancy and production of interferon tau by conceptus trophectoderm); however, elevating P4 in early pregnancy programmed changes in gene expression in endometria that are hypothesized to impact early conceptus growth and development. Thus, on Days 5, 7 and 13 differential gene expression was affected by P4, but on Day 16 the conceptus primarily influenced gene expression in uterine endometria of heifers.
+
+DESIGN
+Endometiral samples were taken from estrous synchronized beef heifers that were either cyclic or confirmed pregnant with either normal or high concentrations of progesterone on Day 5, 7, 13 and 16 of the estrous cycle/early pregnancy.
+
+PLATFORM
+GPL2112 [Bovine] Affymetrix Bovine Genome Array
+
+CITATIONS
+21349821 , 20881316 , 19553605
+

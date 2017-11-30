@@ -1,0 +1,18 @@
+TITLE
+RNAseq profiling of multiciliated cells
+
+ORGANISM
+Xenopus laevis
+
+SUMMARY
+To determine what genes are upregulated in multiciliated cells, we manipulated Xenopus laevis ectoderm to either make more or fewer of this cell type with multiple approaches  across multiple timepoints. By finding differentially expressed genes in common across all comparisons in which multiciliated cell number changed, we obtained a robust, but conservative, core group of multiciliated cell genes.
+
+DESIGN
+We suppressed multiciliated cell development by activating the notch pathway with an injected mRNA encoding the intracellular domain of notch (icd) or by injecting an mRNA encoding a dominant-negative form of multicilin (dnmcidas). Conversely, we promoted multiciliated cell differentiation by blocking notch signaling with a DNA-binding mutant of Suppressor of Hairless (dbm), or by overexpressing an inducible form of multicilin (mcidas). We also coinjected these constructs in a way aimed at causing the greatest change in multiciliated cells and reducing background transcriptional programs not associated with these cells: for example, we coinjected icd with mcidas, in order to reduce other cell types specified by notch. After injecting, we isolated ectoderm surgically and, when injected with multicilin, induced at mid-stage 11. We then harvested RNA at 3, 6, and 9 hours after induction, roughly corresponding to stages 13, 16, and 18 and performed poly-a+  RNAseq (Illumina Truseq v2). We then aligned reads to X. laevis gene models (Mayball version, Chung and Kwon et al. 2014) and took the intersection of genes differentially expressed between all comparisons in which the multiciliated cell number dramatically changed (icd vs. icd + mcidas, icd vs. dbm, dbm vs. dbm + dnmcidas) to obtain a core list of  multiciliated cell genes.
+
+PLATFORM
+GPL18936 Illumina HiSeq 2500 (Xenopus laevis)
+
+CITATIONS
+28103240
+

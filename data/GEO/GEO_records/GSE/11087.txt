@@ -1,0 +1,18 @@
+TITLE
+E. coli Isoleucine starvation and stringent response network
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+Transcription profiling of wild type, relA-, and relA-spoT-, crp-, dksA-, rpoS-, lrp- mutant strains of E. coli starved for isoleucine Bacteria comprehensively reorganize their global gene expression when faced with nutrient exhaustion.  In Escherichia coli and other free-living bacteria, the alarmone ppGpp facilitates this massive response by directly or indirectly coordinating the down-regulation of genes of the translation apparatus, and the induction of biosynthetic genes and the general stress response.  Such a large reorientation likely requires the cooperative activities of many different genetic regulators, yet the structure of the transcription network below the level of ppGpp remains poorly defined.  Using isoleucine starvation as an experimental model system for amino acid starvation, we identified genes that required ppGpp, Lrp, and RpoS for their induction.  Surprisingly, despite the fact that the overwhelming majority of genes controlled by Lrp and RpoS required ppGpp for their activation, we found that these two regulons were not induced simultaneously.  The data reported here suggest that metabolic genes, such as those of the Lrp regulon, require only a low basal level of ppGpp for their efficient induction.  In contrast, the RpoS-dependent general stress response is not robustly induced until relatively high levels of ppGpp accumulate.  Here we describe a data-driven conceptual model that explains how bacterial cells allocate transcriptional resources between metabolic and stress survival processes by discretely tuning regulatory activities to a central indicator of cellular physiology.  The regulatory structure that emerges is consistent with a rheostatic model of the stringent response that allows cells to efficiently adapt to a wide range of nutritional environments. Keywords: genetic modification design; stress response; isoleucine starvation
+
+DESIGN
+Two experiments were run. First experiment: WT and several mutant strains were starved for isoleucine (exhaustion of 60 uM ile). 40 minutes after starvation, RNA was extracted. All samples were compared to RNA from rapidly growing WT cells in identical medium replete with isoleucine (400 uM).  16 samples were hybridized: duplicates of 8 strains/conditions.  Wildtype in log phase (OD = 0.4) with replete ile was control for ile starved samples. Second experiment: WT strain was starved for isoleucine (exhaustion of 60 uM ile).  RNA was extracted at 12 timepoints as the cells entered stationary phase. All samples were compared to RNA from rapidly growing WT cells in identical medium replete with isoleucine (400 uM).  14 samples were hybridized: duplicates of the control condition and single  timepoints during starvation.  Wildtype in log phase (OD = 0.4) with replete ile was control for ile starved samples.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array GPL6702 Affymetrix Custom Array - enterocha520147F
+
+CITATIONS
+18430135 , 21299642
+

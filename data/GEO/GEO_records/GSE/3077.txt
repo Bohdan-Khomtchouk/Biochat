@@ -1,0 +1,18 @@
+TITLE
+Dillution series comparison of Affymetrix and Illumina Expression Platforms
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The growth in popularity of RNA expression microarrays has been accompanied by concerns about the reliability of the data especially when comparing between different platforms. Here we present an evaluation of the reproducibility of microarray results using two platforms, Affymetrix GeneChips and Illumina BeadArrays. The study design is based on a dilution series of two human tissues (blood and placenta), tested in duplicate on each platform. By a variety of measures the two platforms yielded data of similar quality and properties. The results of a comparison between the platforms indicate very high agreement, particularly for genes which are predicted to be differentially expressed between the two tissues. Agreement was strongly correlated with the level of expression of a gene. Concordance was also improved when probes on the two platforms could be identified as being likely to target the same set of transcripts of a given gene. These results shed light on the causes or failures of agreement across microarray platforms. The set of probes we found to be most highly reproducible can be used by others to help increase confidence in analyses of other data sets using these platforms. Keywords: Dilution series, platform comparison, Affymetrix, Illumina
+
+DESIGN
+This experiment compares Affymetrix HG-U133 Plus 2.0 microarrays with the Illumina HumanRef-8 BeadArrays. We used a dilution design, where two different RNA samples are mixed at known proportions, and the same RNA is analyzed in duplicate on each platform.  The advantage of this design is that it is very simple to prepare and the number of differentially expressed genes is large, allowing testing of many of the probes on each array. However, in contrast to spike-in studies, the identities of the genes expected to show differential expression are not known ahead of time.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array GPL2725 Sentrix® HumanRef-8RD BeadChip
+
+CITATIONS
+16237126
+

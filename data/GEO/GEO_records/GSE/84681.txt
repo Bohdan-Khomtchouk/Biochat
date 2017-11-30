@@ -1,0 +1,18 @@
+TITLE
+PRC2 represses transcriptionally competent genes on the inactive X-chromosome
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Polycomb repressive complex 2 (PRC2) catalyzes histone H3K27me3, which characterizes many silenced genes including those on the inactive X-chromosome.  Here we interrogate the role of core PRC2 protein EED in X-linked gene silencing by assessing allele-specific X-linked gene expression in WT and Eed-/- hybrid mouse trophoblast stem cells (TSCs) harboring a 129/S1-derived maternal X-chromosome and a JF1/Ms-derived paternal X-chromosome. This study generates mRNA-seq data for WT and Eed-/- TSCs, which undergo imprinted inactivation of the paternal X-chromosome. RNA-seq data was mapped allele-specifically to in silico strain-specific maternal and paternal reference genomes, generated based on known single nucleotide polymorphisms. We find that EED loss abrogates H3K27me3 and expression of Xist lncRNA, which is required for X-inactivation, however, despite the absence of H3K27me3 and Xist, only a subset of PRC2 target genes are derepressed in Eed-/- TSCs.
+
+DESIGN
+RNA-seq profiles of four WT (Eed +/+ and Eed fl/fl) and three EED null (Eed -/-) female TS cell lines were generated through strand-specific 100 bp paired-end sequencing on the Illumina HiSeq2000
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28468635
+

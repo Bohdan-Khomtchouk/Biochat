@@ -1,0 +1,18 @@
+TITLE
+Comparative analysis of different cortical interneuron groups.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+GABAergic interneuron in the cortex comprise a very heterogenous group. and it is critical to identify discrete interneuron types to understand how their contributions to behavior can be modulated by external and internal cues. However, molecular difinition of these interneuron cell groups has been difficult.  Comparative analysis of different interneuron subtypes can provide us new candidate marker genes which could target more specific interneuｒon cell group. Here we identify oxytocin responsive novel class of interneuron through our comparative analysis. We employed the bacTRAP strategy, which uses BAC transgenic mice expressing EGFP-tagged ribosomal protein L10a in specific cell populations, to affinity purify polysome-bound mRNAs from Nek7, Dlx1, Cort, Htr3a, Oxtr expressing cortical interneurons. We show that Oxtr expressing cells are a subtype of somatostatin positive interneurons.
+
+DESIGN
+Three independent TRAP replicates were collected and total RNA from the immunoprecipitates or flow-through (input) whole cortex lysates were amplified and hybridized. Data were normalized with the GCRMA algorithm and replicates were averaged across conditions. We recommend filtering data to remove probe sets with normalized expression values less than 50 in at least one condition. Because the Nek7 BAC labels non-neuronal cells, we recommend to delete astrocytes and oligodendrocytes genes from the list using GSE13379 data.
+
+PLATFORM
+GPL18376 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array [CDF: Brainarray Mouse4302_Mm_ENTREZG_12.1.0]
+
+CITATIONS
+25303526
+

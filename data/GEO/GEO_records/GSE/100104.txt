@@ -1,0 +1,18 @@
+TITLE
+Myocardial gene expression in mice with cardiac-restricted knockout of COP9 signalosome subunit 8 (CSN8)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Background: The COP9 signalosome (CSN) consisting of 8 protein subunits (CSN1 through CSN8) is a deneddylase for Cullin-RING ligases (CRLs), essential to the functioning of the ubiquitin-proteasome system.  CSN8 is encoded by the Cops8 gene. We have shown that CSN8 plays a key role in the regulation of cardiac protein quality control (PQC), and cardiomyocyte-restricted Cops8 knockout (CSN8-CKO) in perinatal and adult mice causes massive cardiomyocyte necrosis and acute heart failure in mice. Objective:  To identify the underlying mechanisms at the transcriptional level, we examined the impact of perinatal CSN8-CKO on myocardial gene expression.  Design:  Whole mouse genome DNA microarrays (CodeLink) were used to assess myocardial gene expression profiles in Control (CTL), heterozygous (Het-CKO), and homozygous (Hom-CKO) cardiac Cops8 knockout littermate mice at 2- and 3-weeks-of-age. GeneSpring GS software (v.12.5) was used to analyze differentially expressed genes (DEGs). DEGs were analyzed using the GeneGo MetaCore Analytical Suite ( http://genego.com; GeneGo, St. Joseph, MI) to identify significantly enriched pathways. Network analysis was performed using R package WGCNA on the expression profiles of DEGs. IPA analysis was also performed.  Results: The microarray data revealed 521 DEGs at 3-weeks-of-age with cut-off log2 |fold change|≧1. Among these genes, 271 genes were upregulated and 250 were downregulated. Similarly, at 2-weeks-of-age, out of 78 DEG, 35 genes were upregulated and 43 were downregulated. The transcript levels of many substrate receptors of CRLs (Fbxo14, Fbxo31, Klhdc1, Klhdc7a, Klh31, Klh41) were significantly down-regulated by CSN8-CKO. Consistent with cardiac pathology and prior RNA dot blot analysis results, the microarray analysis revealed significant upregulation of fetal genes (e.g., Nppa, Nppb, Acta1) and down-regulation of many postnatal genes (Actc1, Atp2a2,  Pln, Tpm1). Our results suggest that CSN8-CKO-induced decrease in cardiac contractility could be due to decreased transcription of cacna1s, ptgfr and mylk2 genes. Pathways related to cellular stress particularly oxidative stress and vesicular trafficking were also observed to be enriched following CSN8 deficiency in cardiomyocytes. Enrichment of DEGs in chromatin remodeling pathway corroborates the involvement of CSN8 in gene expression regulation.  Conclusions: Myocardial gene expression profiles are dynamically affected by CSN8-CKO in mice. Our data strongly suggest that CSN8 is involved in the regulation of myocardial gene expression programs that regulate ubiquitination, chromatin remodeling, and vesicle trafficking in cardiomyocytes.
+
+DESIGN
+The goal of this experiment was to examine myocardial differential gene expression in mice with perinatal conditional cardiac-restricted knockout of COP9 signalosome subunit 8 (CSN8). 18 total samples were analyzed; each sample comprised ventricular cardiac tissue from one animal. 9 of the samples were obtained from mice at two weeks of age and 9 from mice at three weeks of age. At each time point there were 3 control animals (Csn8flox/flox::Myh6-CreNTG), 3 homozygous Csn8 cardiac knockout animals (Csn8flox/flox::Myh6-CreTG or Hom-CKO), and 3 heterozygous Csn8 cardiac knockout animals (Csn8flox/+::Myh6-CreTG or Het-CKO).
+
+PLATFORM
+GPL2897 GE Healthcare/Amersham Biosciences CodeLink™   Mouse Whole Genome Bioarray
+
+CITATIONS
+28861005
+

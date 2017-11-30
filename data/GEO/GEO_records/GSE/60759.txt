@@ -1,0 +1,18 @@
+TITLE
+AKT Isoform Specificity Downstream of PIK3CA Mutation Impacts Estradiol and PI3K Inhibitor Response in Breast Cancer Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: PIK3CA mutations are observed in > 30% of breast cancers, which are more common in estrogen receptor (ERα)-positive breast cancer compared with ERα-negative breast cancer. AKT1, 2, and 3 isoforms, major isoforms downstream of PI3K, modulate ERα activity. It is unknown whether PIK3CA mutation leads to preferential activation of specific AKT isoforms with an ability to modulate ERα function.  Methods: Gene expression arrays were performed on parental, AKT1 knockdown or AKT2 knockdown MCF-7 breast cancer cells with or without estradiol treatment for three hours.  Results: AKT1 had a dominant role in ERα:estradiol-dependent gene expression and proliferation. We have identified a unique gene expression signature that is dependent on ERα, estradiol, AKT1 and the pioneer factor FOXA1. Overexpression of this signature was associated with better outcome in patients with ERα-positive breast cancer. In contrast, AKT2 controlled global gene expression.
+
+DESIGN
+Cells were maintained in phenol red free MEM with 5% charcoal dextran treated fetal calf serum for four days and then treated with ethanol or 0.1 nM estradiol for three hours. RNA was prepared using RNeasy kit (Qiagen, Valencia, CA, USA) Microarray with biological triplicates was performed using Illumina HumanHT-12 V4 expression beadchip. Genes that showed statistically insignificant signals in majority of samples were removed from the microarray data, and only those probes that showed statistically significant signal in at least half of samples of at least one group were retained. The probe level data was then collapsed to gene level data by retaining only the probes, which showed a maximal coefficient of variation across all samples. The data was imported into partek genomics suite for differential expression analysis. ANOVA analysis was performed to identify genes differentially expressed between AKT1KD vs. pLKO, AKT2KD vs. pLKO, and AKT1KD vs. AKT2KD groups. Stratagene Universal Human Reference RNA (Illumina Catalog # 740000) was used as quality control specimen
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+27197157
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data from H1299 and H460 lung cancer cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To identify a set of genes related to radioresistance, we analyzed the time-series gene expression profiles of radioresistant H1299 and radiosensitive H460 lung cancer cells in response to 2 Gy of ionizing radiation (IR) by performing quadratic regression (QR) analysis. Out of the 21,331 genes, we selected 6,538 genes by QR analysis from the gene expression profile of H460 cells and 6,086 genes from that of H1299 cells.  Most of the genes identified in the H460 cells were classified into continuously up- or down-regulated groups, while the major QR groups were transiently changed groups in the H1299 cell line.  From gene ontology analysis of the major QR groups, the DNA damage response was commonly enriched in both cell lines.  DNA repair-related genes such as ATM, ATR, TP53BP1, BRCA1, MRE11, NBN and RAD50 were particularly up-regulated in H1299 cells. Suppression of these DNA repair-related genes using siRNA made H1299 cells radiosensitive to ionizing radiation. The data suggest that differential responses to DNA damage confer radioresistance to cancer cells, and provide potential novel targets for sensitizing radiotherapy.
+
+DESIGN
+We analyzed the time-series gene expression profiles of radioresistant H1299 and radiosensitive H460 lung cancer cells in response to 2 Gy of ionizing radiation (IR) by performing quadratic regression (QR) analysis to  identify genes associated with radioresistance
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

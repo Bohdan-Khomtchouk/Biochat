@@ -1,0 +1,18 @@
+TITLE
+Mapping and dynamics of regulatory DNA in A. thaliana tissues and cell types across developmental transitions
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+We performed DNase-seq on root tissue, root epidermal cell types, seed coat epidermal cells at two developmental stages, and open and closed flowers.
+
+DESIGN
+Root: We performed chromatin profiling (DNase-seq) on whole root (all cell types), or root epidermal cell types (hair cell, non-hair cell). Seed coat: We performed chromatin profiling on seed coat epidermal cells from siliques at two developmental stages (4 days past anthesis, 7 days past anthesis). We preformed chromatin profiling (DNase-seq) on flowers at two developmental time points (open and closed flowers). All plants were grown on plates (roots only) or in soild in LD conditions (16hr light 22°C, 8hr dark 20°C). The following processed data files are pooled short read data from 2 biological replicates (GSM1289379 [DS21306] and GSM1824051 [DS20134]): Col-0.Seed_Coat.Seed_Coat_7DPA.DNase.pooled.6.8M.signal.bw Col-0.Seed_Coat.Seed_Coat_7DPA.DNase.pooled.6.8M.peaks.bed Col-0.Seed_Coat.Seed_Coat_7DPA.DNase.pooled.6.65M.signal.bw Col-0.Seed_Coat.Seed_Coat_7DPA.DNase.pooled.6.65M.peaks.bed The following processed data files are pooled short read data from 2 biological replicates (GSM1824052 [DS20131] and GSM1824053 [DS20132]): Col-0.Seed_Coat.Seed_Coat_4DPA.DNase.pooled.6.8M.signal.bw Col-0.Seed_Coat.Seed_Coat_4DPA.DNase.pooled.6.8M.peaks.bed Col-0.Seed_Coat.Seed_Coat_4DPA.DNase.pooled.6.65M.signal.bw Col-0.Seed_Coat.Seed_Coat_4DPA.DNase.pooled.6.65M.peaks.bed The following processed data files are pooled  pooled short read data from 2 biological replicates (GSM1824054 [DS19056] and GSM1824055 [DS21512]): Col-0.Root.Hair.DNase.pooled.6.8M.signal.bw Col-0.Root.Hair.DNase.pooled.6.8M.peaks.bed
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+25220462
+

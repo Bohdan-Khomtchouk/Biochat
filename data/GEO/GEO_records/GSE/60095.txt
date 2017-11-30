@@ -1,0 +1,18 @@
+TITLE
+Ribosome Profiling Reveals Pervasive Translation Outside of Annotated Protein-Coding Genes
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Ribosome profiling suggests that ribosomes occupy many regions of the transcriptome thought to be non-coding, including 5' UTRs and lncRNAs. Apparent ribosome footprints outside of protein-coding regions raise the possibility of artifacts unrelated to translation, particularly when they occupy multiple, overlapping open reading frames (ORFs). Here we show hallmarks of translation in these footprints: co-purification with the large ribosomal subunit, response to drugs targeting elongation, trinucleotide periodicity, and initiation at early AUGs. We develop a metric for distinguishing between 80S footprints and nonribosomal sources using footprint size distributions, which validates the vast majority of footprints outside of coding regions. We present evidence for polypeptide production beyond annotated genes, including induction of immune responses following human cytomegalovirus (HCMV) infection. Translation is pervasive on cytosolic transcripts outside of conserved reading frames, and direct detection of this expanded universe of translated products enables efforts to understand how cells manage and exploit its consequences.
+
+DESIGN
+Ribosome profiling to verify that true ribosome footprints shift in response to different elongation inhibitors (CHX vs Emetine) and co-purify with an affinity-tagged large ribosomal subunit (bound vs input)
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25159147
+

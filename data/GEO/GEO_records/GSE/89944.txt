@@ -1,0 +1,18 @@
+TITLE
+An Argonaute phosphorylation cycle promotes microRNA-mediated silencing [GeCKO screen]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs (miRNAs) perform critical functions in normal physiology and disease by associating with Argonaute proteins and downregulating partially complementary messenger RNAs (mRNAs).  To identify new regulators of the miRNA pathway, we employed CRISPR-Cas9 genome-wide loss-of-function screening coupled with a fluorescent reporter of miRNA activity.  Iterative rounds of screening revealed a novel mechanism whereby target engagement by Argonaute 2 (AGO2) triggers its hierarchical, multi-site phosphorylation by CSNK1A1 on a set of highly conserved residues (S824-S834), followed by rapid dephosphorylation by the ANKRD52-PPP6C phosphatase complex.  Although genetic and biochemical studies demonstrated that AGO2 phosphorylation on these residues inhibits target mRNA binding, inactivation of this phosphorylation cycle globally impairs miRNA-mediated silencing.  Analysis of the transcriptome-wide binding profile of non-phosphorylatable AGO2 revealed a dramatic expansion of the target repertoire bound at steady-state, effectively reducing the active pool of AGO2 on a per target basis.  These findings support a model in which an AGO2 phosphorylation cycle stimulated by target engagement regulates miRNA:target interactions to maintain the global efficiency of miRNA-mediated silencing.
+
+DESIGN
+Multiple genome-scale CRISPR-Cas9 screens were performed in HCT116 cells expressing one of two reporters.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+28114302
+

@@ -1,0 +1,18 @@
+TITLE
+CRISPR/Cas9 Screens Reveal Epstein-Barr virus Synthetic Lethal Targets
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epstein-Barr virus (EBV) causes endemic Burkitt lymphoma and immunosuppression-related lymphomas.  These B-cell malignancies arise by distinct transformation pathways and utilize divergent viral and host expression programs.  To identify host dependency factors elicited by EBV latent-infection states, we performed parallel genome-wide CRISPR/Cas9 screens in Burkitt lymphoma (BL) and lymphoblasotid cell lines (LCL). Our results highlighted 57 BL and 87 LCL genes selectively critical for their growth and survival.  LCL hits were enriched for EBV-induced genes, including viral super-enhancer targets and multiple kinases.  We uncovered key CD19/CD81 roles in EBV membrane protein-driven PI3K/AKT activation and mechanisms by which EBV evades tumor suppressor responses to its growth program. LMP1-induced cFLIP was critical for LCL defense against TNFa-mediated programmed cell death, while EBV-induced BATF/IRF4 were critical for LCL BIM suppression and MYC induction.  EBV super-enhancer targeted IRF2 protected LCLs against BLIMP1 responses.  Collectively, our results identify host/pathogen interaction-driven synthetic lethal targets for therapeutic intervention.
+
+DESIGN
+CRISPR was employed to knock out IRF2, IRF4 and BATF in LCLs. Control sgRNA was included as a control. RNA-seq was performed on these samples to conduct transcriptome profiling.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+28494239
+

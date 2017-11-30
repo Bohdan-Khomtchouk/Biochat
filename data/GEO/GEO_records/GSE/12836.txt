@@ -1,0 +1,18 @@
+TITLE
+PDGF-B induces a homogeneous class of oligodendrogliomas from embryonic neural progenitors
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We analyzed the generation of mouse gliomas following the overexpression of PDGF-B in embryonic neural progenitors. Comparison of our microarray data, with published gene expression data sets for many different murine neural cell types, revealed a closest relationship between our tumor cells and oligodendrocyte progenitor cells, confirming definitively that PDGF-B-induced gliomas are pure oligodendrogliomas.
+
+DESIGN
+Sorted cultures of GFP-positive cells from 3 independent tumors were harvested with Trizol (Invitrogen) and used for further processing. RNA extraction and microarray hybridization procedure were performed at the “Consorzio Genopolis” (University of Milano-Bicocca, Dept. of Biotechnology and Bioscience) using the Affymetrix GeneChip Mouse Genome 430A 2.0 Array. Files containing the raw data from the study published by Cahoy and collegues 28, using the Affymetrix GeneChip Mouse Genome 430 2.0 Array, were retrieved at the NCBI GEO DataSets online repository (GSE9566 record). Data were analyzed using the R software and BioConductor version 2.2 29. Only the probesets common to both platforms were used for the comparison. Expression values were extracted from both our and public raw data files using the RMA method built in the affy 1.18.2 package without prior normalization and collected in a single data set. Probe level quantile normalization method provided by the affyPLM 1.16.0 package was then used to normalize the dataset. The probesets where then ranked based on the variance of their expression level across the different cell types and the uppermost 5% (1135 probesets with highest variance) were selected and used to produce a hierarchical clustering of the samples. Hierarchical clustering was obtained using hclust method with complete linkage and euclidean distance in R. The following Sample from GSE9566 were analyzed: GSM241889 OLs (GC_b) GSM241890 Myelin OLs (MOG_b) GSM241891 OLs (GC_a3) GSM241892 OLs (GC_c) GSM241893 Myelin OLs (MOG_a2) GSM241894 Myelin OLs (MOG_c) GSM241895 OPCs (PDGF) GSM241896 Neurons P16 (10d) GSM241897 Neurons P16n (11d) GSM241898 Astros P7 (5a) GSM241899 Neurons P7 (5b) GSM241900 Astros P7 (6a) GSM241901 Neurons P7 (6b) GSM241902 Astros P8 (7a) GSM241903 Neurons P7 (8b) GSM241904 Neurons P16 (13b) GSM241912 Astros P17 (22a) GSM241914 Astros P17 (24a) GSM241915 Astros P17g (25g) GSM241916 OPCs (30o) GSM241917 OLs (30p) GSM241918 Myelin OLs (30q) GSM241919 Astros P30 (33a) GSM241920 Astros P1 (34a) GSM241922 Neurons P7n (38B) GSM241925 Astros P17g (36g) GSM241926 Astros P17 (32a)
+
+PLATFORM
+GPL8321 [Mouse430A_2] Affymetrix Mouse Genome 430A 2.0 Array
+
+CITATIONS
+19165863
+

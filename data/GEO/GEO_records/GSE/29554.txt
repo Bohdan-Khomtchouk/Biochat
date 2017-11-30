@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic analysis of Clostridium thermocellum ATCC 27405 cellulose fermentation
+
+ORGANISM
+Ruminiclostridium thermocellum ATCC 27405
+
+SUMMARY
+Background: The ability of Clostridium thermocellum ATCC 27405 wild-type strain to hydrolyze cellulose and ferment the degradation products directly to ethanol and other metabolic byproducts makes it an attractive candidate for consolidated bioprocessing of cellulosic biomass to biofuels. In this study, whole-genome microarrays were used to investigate the expression of C. thermocellum mRNA during growth on crystalline cellulose in controlled replicate batch fermentations. Results: A time-series analysis of gene expression revealed changes in transcript levels of ~40% of genes (~1300 out of 3198 ORFs encoded in the genome) during transition from early-exponential to late-stationary phase. K-means clustering of genes with statistically significant changes in transcript levels identified six distinct clusters of temporal expression. Broadly, genes involved in energy production, translation, glycolysis and amino acid, nucleotide and coenzyme metabolism displayed a decreasing trend in gene expression as cells entered stationary phase. In comparison, genes involved in cell structure and motility, chemotaxis, signal transduction and transcription showed an increasing trend in gene expression. Hierarchical clustering of cellulosome-related genes highlighted temporal changes in composition of this multi-enzyme complex during batch growth on crystalline cellulose, with increased expression of several genes encoding hydrolytic enzymes involved in degradation of non-cellulosic substrates in stationary phase. Conclusions: Overall, the results suggest that under low substrate availability, growth slows due to decreased metabolic potential and C. thermocellum alters its gene expression to (i) modulate the composition of cellulosomes that are released into the environment with an increased proportion of enzymes than can efficiently degrade plant polysaccharides other than cellulose, (ii) enhance signal transduction and chemotaxis mechanisms perhaps to sense the oligo-saccharide hydrolysis products, and nutrient gradients generated through the action of cell-free cellulosomes and, (iii) increase cellular motility for potentially orienting the cells’ movement towards positive environmental signals leading to nutrient sources. Such a coordinated cellular strategy would increase its chances of survival in natural ecosystems where feast and famine conditions are frequently encountered.
+
+DESIGN
+Total RNA was extracted from the cell pellets and the reverse transcribed cDNA was hybridized to oligo-arrays containing duplicated probes representing ~90% of the annotated ORFs in C. thermocellum ATCC27405 genome.Dual-channel dye swap experimental design was used to analyze the time-course of gene expression during cellulose fermentation using two biological replicate fermentation. The 6hr sample as the reference, to which all other time-point samples (8, 10, 12, 14, 16hr) were compared.
+
+PLATFORM
+GPL13640 ORNL Clostridium thermocellum Oligoarray
+
+CITATIONS
+21672225
+

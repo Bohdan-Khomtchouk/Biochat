@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis of Escherichia coli during dGTP Starvation
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+Our laboratory has recently discovered that E. coli cells starved for the DNA precursor dGTP are killed efficiently (dGTP starvation) in a manner similar to that described for Thymineless Death (TLD).  Conditions for specific dGTP starvation can be achieved by depriving an E. coli optA1 gpt strain of the purine nucleotide precursor hypoxanthine (Hx).  To gain insight into the mechanisms underlying dGTP starvation, we conducted genome-wide gene expression analyses on actively growing optA1 gpt strains subjected to hypoxanthine deprivation for increasing periods of time.  The data show that, upon Hx withdrawal, the optA1 gpt strain displays a diminished ability to de-repress the de novo purine biosynthesis genes, and this is likely due to internal guanine accumulation.  The impairment to fully induce the purR regulon may be a contributing factor to the lethality of dGTP starvation.  At later time points, and coinciding with cell lethality, strong induction of the SOS is observed, supporting the concept of replication stress as a final cause of death.  No evidence was observed for the participation of other stress responses, including the rpoS-mediated global stress response in the starved cells, and reinforcing the lack of feedback of replication stress into the global metabolism of the cell.  The genome-wide expression data also provide direct evidence for increased genome complexity during dGTP starvation, as a markedly increased gradient is observed for expression of genes located nearby the replication origin relative to those located towards the replication terminus.
+
+DESIGN
+The present study was aimed at understanding the metabolic changes in dGTP-starved cells.  To do so, we designed two experiments.  The first experiment was aimed at investigating the transcriptional consequences of loss of the Hx purine source in each of the four strains (wt, optA1, gpt, and optA1 gpt).  Here, hypoxanthine was withdrawn from actively growing cells starting at OD 0.1, and periodic 2-fold dilutions were applied to keep to OD of the growing cultures below or only slightly above 0.20 (low-dilution protocol).  Samples were taken for microarray analysis at 15, 30, 45, 60, and 120 min. At each time point RNA samples were taken and analyzed for gene expression changes using the Affymetrix GeneChip E. coli Genome 2.0 Array.  This experiment was conducted three times, independently. A second experiment was aimed at following the transcriptional changes in the optA1 gpt strain during the entire 6-hour time course including the filamentation and cell death stage.  Here, we used a slightly different dilution protocol (high-dilution protocol), in which the strain was initially highly diluted (OD630 = 0.01) and further diluted at strategic points to prevent the OD to rise above 0.1.  These conditions optimize the cell death phenomenon. This experiment was also conducted three times independently.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+27002130
+

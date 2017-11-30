@@ -1,0 +1,18 @@
+TITLE
+Detecting differential peaks in ChIP-seq signals with ODIN
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Motivation: Detection of changes in DNA-protein interactions from ChIP-seq data is a crucial step in unraveling the regulatory networks behind biological processes. The simplest variation of this problem is the differential peak calling problem. Here one has to find genomic regions with ChIP-seq signal changes between two cellular conditions in the interaction of a protein with DNA. The great majority of peak calling methods can only analyse one ChIP-seq signal at a time and are unable to perform differential peak calling. Recently, a few approaches based on the combination of these peak callers with statistical tests for detecting differential digital expression have been proposed. However, these methods fail to detect detailed changes of protein-DNA interactions. Results: We propose ODIN; an HMM-based approach to detect and analyse differential peaks in pairs of ChIP-seq data. ODIN performs genomic signal processing, peak calling and p-value calculation in an integrated framework. We also propose an evaluation methodology to compare ODIN with competing methods. The evaluation method is based on the association of differential peaks with expression changes in the same cellular conditions. Our empirical study based on several ChIP-seq experiments from transcription factors, histone modifications and simulated data shows that ODIN outperforms considered competing methods in most scenarios.
+
+DESIGN
+H3K4me1 and PU.1 occupancy in MPP, CDP, cDC and pDC
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25371479 , 26476451
+

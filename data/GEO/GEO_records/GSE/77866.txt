@@ -1,0 +1,18 @@
+TITLE
+Functional gene diversity of microbial communities sampled in 2010 in CiPHER site, Aklaska
+
+ORGANISM
+Bacteria ; Archaea ; Eukaryota ; Viruses ; synthetic construct
+
+SUMMARY
+The response of soil microbial community to climate warming through both function shift and composition reorganization may profoundly influence global nutrient cycles, leading to potential significant carbon release from the terrain to the atmosphere. Despite the observed carbon flux change in northern permafrost, it remains unclear how soil microbial community contributes to this ecosystem alteration. Here, we applied microarray-based GeoChip 4.0 to investigate the functional and compositional response of subsurface (15~25cm) soil microbial community under about one year’s artificial heating (+2°C) in the Carbon in Permafrost Experimental Heating Research site on Alaska’s moist acidic tundra. Statistical analyses of GeoChip signal intensities showed significant microbial function shift in AK samples. Detrended correspondence analysis and dissimilarity tests (MRPP and ANOSIM) indicated significant functional structure difference between the warmed and the control communities. ANOVA revealed that 60% of the 70 detected individual genes in carbon, nitrogen, phosphorous and sulfur cyclings were substantially increased (p < 0.05) by heating. 18 out of 33 detected carbon degradation genes were more abundant in warming samples in AK site, regardless of the discrepancy of labile or recalcitrant C, indicating a high temperature sensitivity of carbon degradation genes in rich carbon pool environment. These results demonstrated a rapid response of northern permafrost soil microbial community to warming. Considering the large carbon storage in northern permafrost region, microbial activity in this region may cause dramatic positive feedback to climate change, which is important and necessary to be integrated into climate change models.
+
+DESIGN
+A total of 12 soil samples were analyzed for functional genes of microbial communities. The soil samples include soil warming treatment and control with six biological replicates. Please note that the *532.exp.ftr files recorded intensities of targeted spots, and *532.void.ftr files were intensities of the areas between two adjacent targeted spots, which were used as background intensity (noise) in the normalization step in GeoChip.
+
+PLATFORM
+GPL21447 NimbleGen GeoChip v.4.2 [110902_GeoChip_JV_exp]
+
+CITATIONS
+Cheng, Lei, Wu, Liyou, He, Zhili, Van Nostrand, Joy D., Bracho, Rosvel, Natali, Susan, Schuur, Edward A. G., Luo, Chengwei, Konstantinidis, Konstantinos T., Wang, Qiong, Cole, James R., Tiedje, James M., Luo, Yiqi and Zhou, Jizhong. 2016. Tundra soil carbon is vulnerable to rapid microbial decomposition under climate warming. Nat Clim Chang. advance online publication 02/22/online DOI: http://dx.doi.org/10.1038/nclimate2940
+

@@ -1,0 +1,18 @@
+TITLE
+Expression profile of MCF7, CCD18 and Ramos human cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To uncover the chromosome 16 associated proteome and to take advantage of the generated knowledge to make progress in human biology in health and disease, a consortium of 15 groups was organized in four working groups: SRM and protein sequencing, antibody and peptide standard, clinical healthcare and biobanking and bioinformatics. According to a preliminary in silico study integrating knowledge from Ensembl, UniProt and GPM, Ramos B lymphocyte cells, MCF-7 epitelial cells and CCD18 fibroblast were selected as it is theoretically expected that any chromosome 16 protein coding gene is expressed in at least one of them. To define in detail the transcriptome of the above mentioned cell lines Affymetrix microarray based analyses were performed.   Upon hybridization in Human ST 1.0 arrays, raw data were processed with RMA algorithm for background correction and normalization. Chromosome 16 gene expression pattern was then defined in each cell line and comparative analysis was done with R package statistics. Biological functions involving chromosome 16 genes were analysed with GO and functional networks were studied with Ingenuity Pathway Analysis. Expressed genes were compared with data from shotgun proteomic experiments to find the degree of correlation mRNA-protein. Expression of genes coding for proteins with weak or none MS evidence is shown. The integration of this information in decision-making process of the mass spectrometry group is discussed.
+
+DESIGN
+Expression profiles of MCF7, CCD18 and Ramos human cell lines.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23234512
+

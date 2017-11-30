@@ -1,0 +1,18 @@
+TITLE
+Agreement in Breast Cancer Classification between Microarray and qRT-PCR from Fresh-Frozen and Formalin-Fixed Tissues
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Determining agreement in classification between platforms and procurement methods requires a variety of methods. We have shown that centroid-based algorithms are robust classifiers for breast cancer subtype assignment across platforms (microarray and qRT-PCR data) and procurement conditions (fresh frozen and formalin-fixed, paraffin-embedded tissues). On a gene-by-gene basis, we found that the standard deviation, dynamic range, and concordance correlation coefficient are important parameters to assess individual primer set performance across procurement methods. Our strategy for primer set validation and classification have applications in routine clinical practice for stratifying breast cancers and other tumor types Keywords: reference x sample
+
+DESIGN
+We used microarray data from 124 breast samples as a training set for classifying tumors into 4 previously defined molecular subtypes: Luminal, HER2(+)/ER(-), basal-like, and normal-like. We used the training set data in 2 different centroid-based algorithms to predict sample class on 35 breast tumors (test set) procured as FF and FFPE tissues (70 samples). We classified samples on the basis of large and minimized gene sets.
+
+PLATFORM
+GPL885 Agilent-011521 Human 1A Microarray G4110A  (Feature Number version) GPL887 Agilent-012097 Human 1A Microarray (V2) G4110B (Feature Number version) GPL1390 Agilent Human 1A Oligo UNC custom Microarrays
+
+CITATIONS
+17525107
+

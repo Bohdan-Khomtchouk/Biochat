@@ -1,0 +1,18 @@
+TITLE
+Large-scale low-cost NGS library preparation using a robust Tn5 purification and tagmentation protocol [polyA]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In recent years, tagmentation-based library preparation using a hyperactive version of the Tn5 transposase gained more and more popularity. The limited hands-on time, robustness and high efficiency of the method are essential for the processing of next-generation sequencing libraries form little input material like single cells or the processing of hundreds of samples simultaneously. The hyperactive Tn5 is commercially available (Nextera XT DNA library preparation kit), however, high-throughput experiments with hundreds of samples are costly. Here, we present a highly reproducible Tn5 transposase purification strategy via an N-terminal His6-Sumo3 tag and the workflow for the tagmentation-based NGS library preparation. We demonstrate that NGS libraries processed with the in-house produced Tn5 are of the same quality like those processed with the Nextera XT DNA library preparation kit and that the purification of the transposase is reproducible across institutes. Producing the Tn5 transposase in-house allows for customized experimental design and reduces costs of large-scale experiments dramatically. We describe a novel single cell polyadenylation site mapping protocol that benefits from the fact that the in-house produced Tn5 can be loaded with any desired linker oligonucleotide for tagmentation.
+
+DESIGN
+For samples labeled polyA, full-length cDNA was amplified from 15pg of HeLa RNA using a modified smart-seq2 protocol, which uses a 3' end specific adapter carrying a sample barcode of length 6nt as well as a unique molecular identifier of length 8nt. cDNA was  tagmented with a single adapter (loaded onto Tn5), technical replicates were performed on different cDNA samples. PCR was performed using batch-specific index primers complementary to the tagmentation adapter as well as a primer complementary to the 3' end specific adapter. Fragments were size selected to achieve a median library size of approximately 350-450 bp and sequenced asymetrically: The i7 index read was used for demultiplexing into sample batches, a first read of 14 cycles was used to assign the cell- and molecular identifier whereas a second read of 290 cycles was used to identify gene and polyadenylation site. Both tagmentation- and smartseq2 replicates are included.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+29118030
+

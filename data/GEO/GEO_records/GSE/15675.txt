@@ -1,0 +1,18 @@
+TITLE
+Allelic imbalance sequencing reveals that single-nucleotide polymorphisms frequently alter microRNA-directed repression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Genetic changes that help explain the differences between two individuals might create or disrupt sites complementary to microRNAs (miRNAs), but the extent to which such polymorphic sites influence miRNA-mediated repression is unknown. Here, we describe a method to measure mRNA allelic imbalances associated with a regulatory site found in mRNA transcribed from one allele but not found in that transcribed from the other. Applying this method, called allelic imbalance sequencing, to sites for three miRNAs (miR-1, miR-133 and miR-122) provided quantitative measurements of repression in vivo without altering either the miRNAs or their targets. A substantial fraction of polymorphic sites mediated repression in tissues that expressed the cognate miRNA, and downregulation was correlated with site type and site context. Extrapolating these results to the other broadly conserved miRNAs suggests that when comparing two mouse strains (or two human individuals), polymorphic miRNA sites cause expression of many genes (often hundreds) to differ.
+
+DESIGN
+There are four distinct samples (pool1-4), each of which is a pool of ~60 distinct PCR or RT-PCR products. The samples were loaded into different segments of the same pyrosequencing plate. Three sequencing runs (run1-3) were performed for each sample pool. Any amplicons of the four pools are for miR-1, miR-122, miR-133 or control sites. To control for allele-specific PCR bias, genomic DNA was also used as a template for generating amplicons.
+
+PLATFORM
+GPL9273 454 GS FLX (Mus musculus)
+
+CITATIONS
+19396161
+

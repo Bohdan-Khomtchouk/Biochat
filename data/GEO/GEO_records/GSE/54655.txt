@@ -1,0 +1,18 @@
+TITLE
+RiboMeth-seq: High-throughput mapping of ribose methylations in RNA at single-nucleotide resolution
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The major information-carrying macromolecules in the cell, DNA, RNA, and protein, carry an additional layer of information on top of their sequence in the form of modifications of residues. The modifications provide additional functional groups and impact the structure and function of the molecules. Cellular RNA molecules contain more than 100 different modifications and are found in all domains of life and in all major classes of RNA in eukaryotic organisms. Together these modifications constitute the epitranscriptome of which two-thirds are methylations with 2’-O methylation of the ribose moiety of the nucleotide as the most abundant. Many aspects of ribose methylation are underexplored because the existing methods for their detection are laborious and can only address a few modification sites at a time.  Here, we introduce RiboMeth-Seq, a high-throughput sequencing based method and applies it to yeast ribosomal RNA. We detect all of the known as well as one new methylation site and provide evidence for hypomethylation at specific residues. Furthermore we demonstrate that many methylation events are interdependent and outline the timing of modifications during ribosome biogenesis. Our results demonstrate a novel and efficient approach to understanding of the role of modifications in ribosomal RNA folding and ribosome function. Recent evidence point to changes in ribose methylation patterns in cancer ribosomes and we anticipate that RiboMeth-Seq can be applied here as well as to other diseases in which ribosomes are affected, including the heritable ribosomopathies.
+
+DESIGN
+Yeast RNA was degraded at denaturing conditions into small fragments, long enough to be mapped by sequence alignment to the reference genome (20-40 nucleotides). The fragments were ligated to RNA oligos using a tRNA ligase that was mutated to remove its kinase activity, reverse transcribed and the cDNA used as input for Ion semiconductor sequencing. The first and last nucleotides of the inserts were recorded using the full sequence for mapping and the read-ends plotted against the sequence. 2'-O-Methylated RNA positions are protected from cleavage, and read ends from such positions are therefore underrepresented compared to the surrounding positions.
+
+PLATFORM
+GPL16028 Ion Torrent PGM (Saccharomyces cerevisiae) GPL18249 Ion Torrent Proton (Saccharomyces cerevisiae)
+
+CITATIONS
+25417815
+

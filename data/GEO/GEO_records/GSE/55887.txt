@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis reveals characteristics of off-target sites bound by the Cas9 endonuclease
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA-guided genome editing with the CRISPR-Cas9 system has great potential for basic and clinical research, but the determinants of targeting specificity and the extent of off-target cleavage remain insufficiently understood. Using chromatin immunoprecipitation and high-throughput sequencing (ChIP-seq), we mapped genome-wide binding sites of catalytically inactive Cas9 (dCas9) in HEK293T cells, in combination with 12 different single guide RNAs (sgRNAs). The number of off-target sites bound by dCas9 varied from ~10 to > 1,000 depending on the sgRNA. Analysis of off-target binding sites showed the importance of the PAM-proximal region of the sgRNA guiding sequence and that dCas9 binding sites are enriched in open chromatin regions. When targeted with catalytically active Cas9, some off-target binding sites had indels above background levels in a region around the ChIP-seq peak, but generally at lower rates than the on-target sites. Our results elucidate major determinants of Cas9 targeting, and we show that ChIP-seq allows unbiased detection of Cas9 binding sites genome-wide
+
+DESIGN
+1.sgRNA1-6 binding sites were identified  with ChipSeq by using HA antibody (there are 2 replicates for sgRNA1-3, one sample for sgRNA4-6,one control without sgRNA) 2.PCR products which amplifies " off-target genomic sites " were deep sequenced in the presence of WT Cas9+sgRNA or WT Cas9 alone( unique adaptor was used for each sgRNA and mixed for multiplex run)
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens)
+
+CITATIONS
+24837660
+

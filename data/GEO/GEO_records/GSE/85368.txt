@@ -1,0 +1,18 @@
+TITLE
+Transcription elongation has a tissue-specific impact in alternative cleavage and polyadenylation in Drosophila melanogaster
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Alternative cleavage and polyadenylation (APA) is a mechanism generating multiple mRNA isoforms with different 3'UTRs and/or coding sequences from a single gene. Here we used 3' Region Extraction And Deep Sequencing (3'READS) to systematically map cleavage and polyadenylation sites (PAS) in Drosophila and analyzsed APA in the RpII215 C4 mutant strain, which harbors a mutant RNA polymerase II (RNAPII) with a slower elongation rate. We found that about two thirds of mRNA genes in fly undergo APA and cis element analysis indicates that fly PASs are associated with downstream UGUG elements to a lesser degree than mammalian PASs. The head tissue tends to use distal PASs compared to the body, leading to preferential expression of long 3'UTR isoforms and transcripts using distal terminal exons. Gene Ontology analysis correlates brain-specific APA events with neuronal functions, indicating their functional relevance. We also found that the distance between the proximal and distal PASs and intron locations might play important roles for brain APA. Analysis of the RpII215 C4 mutant strain, reveals that a 50% decrease in transcriptional elongation rate leads to shortened 3'UTRs in the fly body, but not in the head. This correlates with an upregulation of Ssu72 specifically in RpII215 C4 bodies, suggesting that the mechanism underlying those observations involves another layer of regulation by RNAPII termination factors. By contrast, more significant activation of intronic PASs was observed in the head compared to the body when RNAPII speed is slow. Together, our results reveal that in Drosophila RNAPII elongation impacts on PAS choice in a context-specific manner.
+
+DESIGN
+Fly samples. Fly strains were obtained from the Bloomington Stock Centre and grown at 25ºC using standard culture conditions and media. w1118 flies were used as a wild-type strain and the RpII215 flies, carrying the RNA Pol II 215 C4 allele (Chen et al. 1993), as the mutant fly strain. Heads and bodies were dissected from adult flies using standard procedures. 3'READS and PAS identification. Total RNA was extracted and purified from different strains of Drosophila using Trizol reagent (Invitrogen). The 3' region extraction and deep sequencing (3'READS) and 3'READS+ methods were previously described in (Hoque et al. 2014) and in (Zheng, 2016), respectively. Briefly, 25 ug of input total RNA from each sample was used and poly(A)+RNA was selected using oligo d(T)25 magnetic beads (NEB), followed by on-bead fragmentation using RNase III (NEB). Poly(A)+RNA fragments were then selected using the chimeric U5 and T45 (CU5T45) oligo conjugated on streptavidin beads, followed by RNase H (NEB) digestion. Eluted RNA fragments were ligated with 5' and 3' adapters, followed by reverse transcription and PCR (15x) to obtain cDNA libraries for sequencing on the Illumina platform.
+
+PLATFORM
+GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster)
+
+CITATIONS
+28851752
+

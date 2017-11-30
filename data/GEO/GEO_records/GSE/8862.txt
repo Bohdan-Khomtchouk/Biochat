@@ -1,0 +1,18 @@
+TITLE
+RSC Regulates Nucleosome Positioning at Pol II Genes and Density at Pol III Genes
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Nucleosomes restrict the access of transcription factors to chromatin. RSC is a SWI/SNF-family chromatin-remodeling complex from yeast that repositions and ejects nucleosomes in vitro. Here, we examined these activities and their importance in vivo. We utilized array-based methods to examine nucleosome occupancy and positioning at more than 200 locations in the genome following the controlled destruction of the catalytic subunit of RSC, Sth1. Loss of RSC function caused pronounced and general reductions in transcription from Pol I, II, and III genes. At Pol III genes, Sth1 loss conferred a general gain in nucleosome density and an accompanying reduction in RNA Pol III occupancy. In contrast, we observed primarily single nucleosome changes, including movement, at Pol II promoters. Importantly, a greater number of changes were observed near the transcription start sites of RSC-occupied promoters than non-occupied promoters. These changes are distinct from those due to general loss of transcription. Thus, RSC action affects both nucleosome density and positioning in vivo, but applies these remodeling modes differently at Pol II and Pol III genes. Keywords: ChIP-chip, nucleosome, mononucleosome, RSC, transcription
+
+DESIGN
+To examine chromatin remodeling that was dependent upon RSC, we generated a customized microarray platform that focused on known RSC targets. This array (GPL5637) sampled 218 specific loci in the genome at relatively high resolution to monitor nucleosome occupancy. We first confirmed the design of the array by performing ChIP against two subunits of RSC. Since the Sth1 degron allele used in our studies is degraded under specific growth conditions, we also performed RSC ChIP under mock degradation conditions (mock-after). We next analyzed the chromatin structure of RSC target genes in the absence of RSC function. In these experiments, we compared microarray results between two strains: the Degron strain, which allows for RSC inactivation, and the Control strain, which prevents RSC inactivation. We analyzed chromatin structure using two approaches. First, general histone occupancy was examined by performing ChIP against histone H4. Second, we hybridized DNA from mononucleosomes that were released by micrococcal nuclease digestion to examine single nucleosome events, including movement, gain, and loss. We also examined the occupancy of RNA Polymerase III by ChIP. Finally, we examined single nucleosome occupancies by mononucleosome hybridization in a RNA Polymerase II mutant, rpb1-1, at both permissive and non-permissive temperatures.
+
+PLATFORM
+GPL5637 Saccharomyces cerevisiae RSC Specific 22K 8pack
+
+CITATIONS
+18059476
+

@@ -1,0 +1,18 @@
+TITLE
+Phanerochaete chrysosporium gene expression in different media
+
+ORGANISM
+Phanerochaete chrysosporium
+
+SUMMARY
+Transcript profiles of Phanerochaete chrysosporium grown on different substrates were analyszed. Array design was based on the DoE's Joint Genome Institute's gene models for P. chrysosporium version s. The research goal is to identify genes essential for lignocellulose depolymerization.
+
+DESIGN
+From a data set of 10004 unique gene models, each NimbleGen (Madison, WI) array targeted 9959 genes and featured 12 unique 60mers per gene, all in triplicate.  RNA and protein were obtained from P. chrysosporium strain RP78 (Forest Mycology Center, Forest Products Lab) grown in Highley’s basal salt medium containing 0.5% (w/v) wiley milled (1 mm mesh) wood. For each of the three samples (hybrid line P717, transgenic line 82, transgenic line 64) multiple branches were harvested, debarked and dried.  Each two-liter Erlenmeyer flask contained 250 ml medium and was inoculated with approximately 10e7 P. chrysosporium spores scraped from the surface of YMPG agar.  Cultures were incubated for five days on a rotary shaker (150 RPM) at 37° C.  For RNA, mycelium from triplicate cultures was collected by filtration through Miracloth (Calbiochem, EMD Biosciences, Gibbstown, NJ), squeeze dried and snap frozen in liquid nitrogen. Pellets were stored at -80 °C until use. For mass spectroscopic analysis, culture filtrates were stored at -20 before use. P. chrysosporium Roche NimbleGen array design was similar to GPL8022, but repetitive elements were removed and 25 gene targets were added. The latter corresponded to open reading frames for which peptides had been detected in culture filtrates. Culture condition compariso:  Total RNA was purified from frozen mycelial pellets, converted to Cy3 labeled cDNA, hybridized to microarrays, and scanned as described by Vanden Wymelenberg et al 2010 (Appl Enviro Microbiol 76:3599-3610). The 9 arrays used in these experiments were scanned on the Axon4000B Scanner (Molecular Dynamics) and data extracted using NimbleScan v2.4. Quantile normalization and robust multi-array averaging (RMA) were applied to the raw data using DNASTAR ArrayStar v4 (Madison, WI). Expression levels are based on log2 signals and significant differences in expression were determined using the Moderated t-Test with the FDR  threshold set at P < 0.05. triplicate cultures for each substrate (wood genotype); The three wood substrates are lines 64, 82 and P717; three different media, and each medium was represented by three flasks (reps).
+
+PLATFORM
+GPL18011 FPL/Cullen-Phanerochaete chrysosporium RP-78 microarrays v2.0 [090423_Phan_Chry_UW_DC_expr]
+
+CITATIONS
+25015893
+

@@ -1,0 +1,18 @@
+TITLE
+Localization of RNAPII and 3’ end formation factor CstF subunits on C. elegans genes and operons [RNA-seq]
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Transcription termination is mechanistically coupled to pre-mRNA 3’ end formation to prevent transcription much beyond the gene 3’ end. C. elegans, however, engages in polycistronic transcription of operons in which 3’ end formation between genes is not accompanied by termination. We have performed RNA polymerase II (RNAPII) and CstF ChIP-seq experiments to investigate at a genome-wide level how RNAPII can transcribe through multiple poly-A signals without causing termination. Our data shows that transcription proceeds in some ways as if operons were composed of multiple adjacent single genes. Total RNAPII shows a small peak at the promoter of the gene cluster and a much larger peak at 3’ ends. These 3’ peaks coincide with maximal phosphorylation of Ser2 within the C-terminal domain (CTD) of RNAPII and maximal localization of the 3’ end formation factor CstF. This pattern occurs at all 3’ ends including those at internal sites in operons where termination does not occur. Thus the normal mechanism of 3’ end formation does not always result in transcription termination. Furthermore, reduction of CstF50 by RNAi did not substantially alter the pattern of CstF64, total RNAPII, or Ser2 phosphorylation at either internal or terminal 3’ ends. However, CstF50 RNAi did result in a subtle reduction of CstF64 binding upstream of the site of 3’ cleavage, suggesting that the CstF50/CTD interaction may facilitate bringing the 3’ end machinery to the transcription complex.
+
+DESIGN
+RNA-seq analysis of wild type (empty vector) and RNAi CstF50 mRNA (polyA-selected) and rRNA-depleted RNA (total RNA).
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

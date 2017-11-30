@@ -1,0 +1,18 @@
+TITLE
+SitkaSpruce_FB3-425_Bark_UntreatedControl_SelfHybridization
+
+ORGANISM
+Picea sitchensis
+
+SUMMARY
+As part of a larger conifer genomics project, we developed a new 21.8K cDNA microarray containing 21,843 spotted ESTs from spruce (Picea spp.).  To evaluate the performance of the array we conducted four technical replicate self-self hybridizations using untreated control bark RNA pooled from four biological replicates.  The objectives were to determine: 1) the linear dynamic range of expression detection of the array; 2) the level of non-specific hybridization to negative control elements on the array; and 3) the overall technical reproducibility of the array. Keywords: Array performance evaluation using self-self hybridizations.
+
+DESIGN
+To assess performance of the spruce 21.8K microarray, a model containing a dye effect and a treatment effect for untreated control (C) minus C' was fit using data from four microarray slides. The C minus C' effect was computed by assigning two of the self-hybridized arrays to be Cy5-Cy3 and two to be Cy3-Cy5. Three analyses were done such that each self-hybridized array was paired with each other self-hybridized array only once, either as a Cy5-Cy3 or a Cy3-Cy5 combination.  Expression variance was derived from technical variance between slides. The ratio of the C minus C' parameter estimate to the standard error was used to calculate a t statistic, from which a P value was obtained. The Q value for each effect and gene was calculated for each of the two models to adjust for the false discovery rate [Storey & Tibshirani (2003) Proc. Natl. Acad. Sci. USA. 100: 9440-9445].  All statistical analyses were performed within the R statistical package (www.r-project.org/).
+
+PLATFORM
+GPL5423 Treenomix spruce 21.8K cDNA microarray
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

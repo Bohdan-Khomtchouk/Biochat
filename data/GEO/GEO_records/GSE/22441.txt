@@ -1,0 +1,18 @@
+TITLE
+Mapping of ETV1 genomic binding sites in gastrointestinal stromal tumor (GIST).
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+ETV1 is highly expressed in GIST and their presumed precursors--the interstitial cells of Cajal. ETV1 is required for survival for both GIST and ICC and regulates GIST signature genes. Here, using Illumina-Solexa based next-generation sequencing of ETV1 chromatin immunoprecipates (ChIP-Seq), we define ETV1 binding sites in the GIST48 cell line.
+
+DESIGN
+Crosslinked ChIP using input control ETV1 ChIP in GIST48 cells. Details: GIST48 cells were crosslinked for 15-minutes in 1% parformaldehyde. Cells were lysed and chromatin sheared using bioruptor. Sheared chromatin was incubated with anti-rabbit IgG dynabeads pre-conjugated with anti-ETV1 antibody (Abcam Ab81086, Lot 787879), washed, eluted, reverse cross-linked, and purified. Purified ChIP DNA was blunt-ended, ligated to Solexa adaptors, amplified with 18-cycles of PCR, and sequenced on Solexa Genome Analyzer. All reads (~36-bp) from ChIP-Seq were aligned to the human genome (build 36, or hg18) using the ELAND alignment software within the Illumina Analysis Pipeline. Unique reads mapped to a single best-matching location with no more than two mismatches were kept and used to generate genome-wide distribution of ETV1-binding and for peak identification. Redundant reads were considered once.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+20927104
+

@@ -1,0 +1,18 @@
+TITLE
+Identification of Embryonic Pancreatic Genes using Xenopus DNA Microarrays
+
+ORGANISM
+Xenopus laevis
+
+SUMMARY
+The pancreas is an exocrine and endocrine endodermal organ involved in digestion and glucose homeostasis.  During embryogenesis, the anlagen of the pancreas arise from dorsal and ventral evaginations of the foregut that later fuse to form a single organ.  In order to better understand the molecular genetics of early pancreas development, we sought to isolate markers that are uniquely expressed in this tissue.  Microarray analysis was performed comparing dissected pancreatic buds, liver buds, and the stomach region of tadpole stage Xenopus embryos.  A total of 912 genes were found to be differentially expressed between these organs during early stages of organogenesis.  K-means clustering analysis predicted 120 of these genes to be specifically enriched in the pancreas. Of these, we report on the novel expression patterns of 24 genes.  Among them, STXBP6 and KIRREL2 were expressed by the early tailbud stage, suggesting the possible involvement of novel signaling pathways in early pancreas development. Keywords: organ type comparison
+
+DESIGN
+We wished to identify genes that are specifically expressed in the developing pancreas of early Xenopus embryos to better understand the process of endodermal organ differentiation.  During embryonic gut formation, the liver and pancreatic rudiments bud out from the epithelium of the developing digestive tube posterior to the future stomach (Kelly and Melton 2000; Chalmers and Slack, 1998).  The dorsal pancreatic bud originates from the gut tube underneath a portion of the notochord and the ventral pancreatic buds derive from the ventral gut adjacent to the heart.  These pancreatic primordia are independently induced and later fuse to form a single pancreas.  We isolated the pancreas, liver, and stomach buds from stage 42 embryos (swimming tadpole stage after the dorsal and ventral pancreatic buds fuse), and performed Affymetrix gene expression analyses using Xenopus laevis genome arrays (version 1.0).  These organ buds consist of the endoderm component, as well as also the endodermal and a mesodermal component.  Experiments were performed twice independently using two independently isolated tissue samples.  We used Expressionist software (GeneData) to refine microarray data and performed gene expression profiling analyses.  In order to identify the genes that are differentially expressed between the pancreas, liver, and stomach, we first selected genes that survived the analysis of variance (ANOVA) with p values of less than 0.05.  Four thousand two hundred two genes satisfied this criterion. Next, the expression levels of each gene in the pancreas, liver and stomach, were compared.  Genes with average expression difference ratios of greater than three-fold were selected for further analyses.  After manually removing genes that are redundantly represented in the Affymetrix chips, 912 genes survived the analyses.  These genes were separated into six expression groups based on K-means clustering analysis.  Group P represents 120 genes that are specifically enriched in the pancreas.  Group L represents 237 genes preferentially expressed in the liver, and 303 genes in Group S are enriched in the stomach.  Groups PL, PS and LS represent the genes that are enriched in both the pancreas and liver (90 genes), pancreas and stomach (88 genes), and liver and stomach (74 genes), respectively.
+
+PLATFORM
+GPL1318 [Xenopus_laevis] Affymetrix Xenopus laevis Genome Array
+
+CITATIONS
+19191222
+

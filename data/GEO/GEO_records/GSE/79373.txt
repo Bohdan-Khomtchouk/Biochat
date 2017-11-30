@@ -1,0 +1,18 @@
+TITLE
+CLIC5: a novel ETV6 target gene in childhood acute lymphoblastic leukemia
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: The most common rearrangement in childhood precursor B-cell acute lymphoblastic leukemia (pre-B ALL) is the t(12;21)(p13;q22) translocation resulting in the ETV6-AML1 fusion gene. A frequent concomitant event is the loss of the residual ETV6 allele suggesting a critical role for the ETV6 transcriptional repressor in the etiology of pre-B ALL. However, the precise mechanism through which loss of functional ETV6 contributes to disease pathogenesis is still unclear Results: To investigate the impact of ETV6 loss on the transcriptional network and identify new transcriptional targets of ETV6, we used whole transcriptome analysis of both pre-B leukemic cell lines and pre-B ALL patients combined with chromatin immunoprecipitation. Using this integrative approach, we identified 4 novel direct ETV6 target genes: CLIC5, BIRC7, ANGPTL2 and WBP1L. To further evaluate the role of chloride intracellular channel protein CLIC5 in leukemogenesis, we generated cell lines overexpressing CLIC5 and demonstrated an increased resistance to hydrogen peroxide-induced apoptosis. We further described the implications of CLIC5’s ion channel activity in lysosomal-mediated cell death, possibly by modulating the function of transferrin receptor with which it co-localizes intracellularly. Conclusion: For the first time, we showed that loss of ETV6 leads to significant overexpression of CLIC5, which in turn leads to decreased lysosome-mediated apoptosis. Our data suggest that heightened CLIC5 activity could promote a permissive environment for oxidative-stress induced DNA damage accumulation and thereby contribute to leukemogenesis.
+
+DESIGN
+To identify direct targets of ETV6, we first designed an in vitro RNA-seq experiment using ETV6-/- Reh-derived clones. Cells were transduced with lentiviral constructs to express ETV6-His and ETV6ΔETS_NLS-His. Total RNA was extracted from stable cell populations and RNA-seq libraries were sequenced. Expression profiles were analyzed using EdgeR. Gene expression profiles in ETV6-His cells were first compared with ETV6ΔETS_NLS-His and pLENTI cells to identify repressed genes (FDR ≤ 0.1). We then included data from the ETV6ΔETS_NLS-His vs. pLENTI comparison and further considered genes whose expression remains constant (p-value ≥ 0.05 or logFC ≥ -0.5) which are more likely to be direct ETV6 targets. Finally, only genes that showed a specific overexpression in t(12;21)-positive childhood pre-B ALL patients were considered.
+
+PLATFORM
+GPL16558 AB 5500 Genetic Analyzer (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

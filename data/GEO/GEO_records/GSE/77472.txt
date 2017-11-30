@@ -1,0 +1,18 @@
+TITLE
+The mammalian LINC complex controls mechanosensing at a genome-wide level: RNA-Seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mechanical cues influence the shape, growth, and function of tissues and organs and are necessary for the development of engineered tissues. Yet, how cells sense mechanical cues and transduce them into changes in gene expression is not well understood. It is known that mechanical forces transmitted to the nucleus induce chromatin remodeling, promote DNA repair, contribute to the motion of intranuclear organelles and cause direct dissociation of protein complexes inside nuclei. Yet, the extent to which such signals impact gene expression is not understood. Because mechanical forces from the cytoskeleton to the nucleus interior are transmitted by the LINC (linker of nucleoskeleton-to-cytoskeleton) complex, we disrupted the LINC complex and performed genome wide expression studies using RNA sequencing. LINC disruption altered the expression of hundreds of genes at a genome-wide scale. We asked how LINC disruption affected the mechanosensitivity of individual genes by quantifying fold changes in gene expression on soft and stiff substrates. Remarkably, LINC disruption tended to preserve gene mechanosensitivity, but to reverse its direction. LINC disruption did not cause changes in nuclear shape, nor eliminated nuclear shape sensitivity to substrate rigidity. Our results show for the first time that the LINC complex regulates mechano-sensing at a genome-wide level, and argue for a distinct mechanism that does not require changes in nuclear morphology.
+
+DESIGN
+mRNA profiles of NIH 3T3 TetON cells that were induced to express either SS-GFP-KDEL (control) or SS-HA-Sun1L-KDEL by the addition of doxycycline. Two (2) substrate stiffnesses were used (1 kPa and 308 kPa), Y27632 or blebbistatin was used for certain samples to inhibit myosin II activity. A total of 6x3 reps= 18 samples were analyzed.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27905489
+

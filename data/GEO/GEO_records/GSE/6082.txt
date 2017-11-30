@@ -1,0 +1,18 @@
+TITLE
+An injected bacterial effector targets chromatin access for NF-kB as a strategy to shape transcription of immune genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Phosphorylation of histone H3 at Serine 10 emerges as a mechanism increasing chromatin accessibility of the transcription factor NF-kB for a particular set of immune genes. Here we report that a bacterial pathogen uses this strategy to shape the transcriptional response of infected host cells. We identify the Shigella flexneri type III protein effector OspF as a Dual Specific Phosphatase. OspF dephosphorylates MAP kinases within the nucleus impairing histone H3 phosphorylation at Serine 10 in a gene-specific manner. Therefore, OspF reprograms the transcriptional response for inactivation of a subset of NF-kB responsive genes. This regulation leads to repression of polymorphonuclear leukocytes recruitment in infected tissues. Thus, pathogens have evolved the ability to precisely modulate host cell epigenetic information as a strategy to repress innate immunity. Keywords: mutant strain
+
+DESIGN
+The wild-type (WT) invasive strain of S. flexneri serotype 5a. To construct the ospF mutant, a PCR amplified DNA fragment encompassing nucleotides 61 to 420 of ospF was cloned between the XbaI and EcoRI sites of the suicide plasmid pSW23T, giving raise to pSWOspFTr. This plasmid was transferred by conjugation to the WT strain WT-Sm. To complement the ospF mutant, we constructed pUC18-OspF containing a PCR fragment encompassing the ospF gene inserted between the EcoRI and HindIII sites of pUC18. Cells were infected 2 hours with the differents strains. 2 biological replicates were done for each experimental conditions. After infection, cells were washed and total RNA was extracted using Rneasy mini kit from Qiagen. After cRNA synthesis and labeling with biotin, hybridizations were performed following Affymetrix procedures. After scanning, data were normalized with RMA (Quantile normalization). Comparative analyses with dChip software between baseline (wild-type-infected cells) and experiment (mutant- or transcomplemented strain-infected cells) were done using an unpaired Welch t-test with a p-value threshold of 0.05 and a Signal Log Ratio (SLR) threshold of 0.6. This SLR threshold corresponds to a Fold Change of 1.5
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+17159983
+

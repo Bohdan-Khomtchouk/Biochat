@@ -1,0 +1,18 @@
+TITLE
+Distinct effects of p19 RNA silencing suppressor on small RNA mediated pathways in plants
+
+ORGANISM
+Nicotiana benthamiana
+
+SUMMARY
+RNA silencing is one of the main defense mechanisms employed by plants to fight viruses. In change, viruses have evolved silencing suppressor proteins to neutralize antiviral silencing. Since the endogenous and antiviral functions of RNA silencing pathway rely on common components, it was suggested that viral suppressors interfere with endogenous silencing pathway contributing to viral symptom development. In this work, we aimed to understand the effects of the tombusviral p19 suppressor on endogenous and antiviral silencing during genuine virus infection. We showed that ectopically expressed p19 sequesters endogenous small RNAs (sRNAs) in the absence, but not in the presence of virus infection. Our presented data question the generalized model in which the sequestration of endogenous sRNAs by the viral suppressor contributes to the viral symptom development. We further showed that p19 preferentially binds the perfectly-paired ds-viral small interfering RNAs (vsiRNAs) but does not select based on their sequence or the type of the 5’ nucleotide. Finally, co-immunoprecipitation of sRNAs with AGO1 or AGO2 from virus-infected plants revealed that p19 specifically impairs vsiRNA loading into AGO1 but not AGO2. Our findings, coupled with the fact that p19-expressing wild type Cymbidium ringspot virus (CymRSV) overcomes the Nicotiana benthamiana silencing based defense killing the host, suggest that AGO1 is the main effector of antiviral silencing in this host-virus combination. To further support our hypothesis we investigate whether the ability of p19 to bind endogenous sRNA without virus infection has biological important impact on endogenous pathways and is this reduced if the virus is present. To asses this we made mRNA sequencing from mock inoculated and Cym19stop infected p19syn plants. Cym19stop infected wild type plant was sequenced as a control. The sequencing data results supports our claims. An increase in transcriptional levels were found in case of genes known to be under small RNA regulation in uninfected p19syn plants and expressional levels return to normal Cym19stop p19syn plants.
+
+DESIGN
+In this study we analyzed how p19 of CymRSV interacts with small RNAs and how this effects AGO1 and AGO2 in Nicotiana benthamiana. To have a better understanding on how p19 works with or without viral background we used wild type and synthetic p19 expressing plants (p19syn) combined with wild type and p19 deficient CymRSV (cym19stop). We made small RNA seq from RNAs co-immunoprecipitating with p19 from samples where p19 was expressed trans (p19syn x cym19s ), expressed cis (wt Nb x CymRSV) and p19 without viral background (p19syn x mock inoculation). Input samples for each were also sequenced for comparing. mRNA seq were made from direct RNA extraction from a parallel experiments. AGO1 and AGO2 immunoprecipitation were made from mock, cym19s and CymRSV infected plants. Small RNAs from the input and pulldown samples were sequenced. A biological replicate was made to enhance reliability. Small RNA seq was made from RNA directly extracted from Cym19s A biological repeat was made to increase credibility of the small RNA sequencing of small RNAs co-immunoprecipitating with AGO1 and AGO2. This experiment was conducted exactly as the previous one.
+
+PLATFORM
+GPL21356 Illumina HiScanSQ (Nicotiana benthamiana)
+
+CITATIONS
+27711201
+

@@ -1,0 +1,18 @@
+TITLE
+Mapping of meiotic single-stranded DNA reveals double-strand break hotspots near centromeres and telomeres.
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Every chromosome requires at least one crossover to be faithfully segregated during meiosis. At least two levels of regulation govern crossover distribution; where the initiating DNA double-strand breaks (DSBs) occur and whether those DSBs are repaired as crossovers. We mapped meiotic DSBs in budding yeast by identifying sites of DSB-associated single-stranded DNA (ssDNA) accumulation. These analyses revealed substantial DSB activity in regions close to centromeres, where crossover formation is largely absent. Our data suggest that centromeric suppression of recombination occurs at the level of break repair rather than DSB formation. Additionally, we found an enrichment of DSBs within a ~100-kb region near the ends of all chromosomes. Introduction of new telomeres was sufficient to induce large ectopic regions of increased DSB formation, revealing a remarkable long-range effect of telomeres on DSB formation. The concentration of DSBs close to chromosome ends increases the relative DSB density on small chromosomes, providing an interference-independent mechanism to ensure that all chromosomes receive at least one crossover per homolog pair. Together, our results indicate that selective DSB repair accounts for crossover suppression near centromeres, and suggest a simple telomere-guided mechanism to ensure sufficient DSB activity on all chromosomes. Keywords: ssDNA analysis, comparative genomic hybridization, ChIP-chip
+
+DESIGN
+We mapped DSB sites by detecting DSB-associated ssDNA enrichment on microarrays. We used the following strains to test determinants of DSB site selection: wild-type, dmc1Δ, spo11Y135F, dmc1Δ ndj1Δ, dmc1Δ zip1Δ and dmc1Δ with bisected chromosome XV. ssDNA was isolated from cells after either 3 hours (WT and spo11Y135F) or 5 hours (all other strains) in sporulation medium. As a reference, ssDNA isolated from cells at 0 hrs in sporulation medium was differentially labeled and co-hybridized to the same array. For each experiment, we have submitted biological replicates that were hybridized to separate arrays. For each experiment a dye swap was performed and shown to have no effect on the data observed, although not all experiments in this series include the dye swap sample (we have included only two representative experiments for each strain). We also mapped DSB sites by performing Spo11-18myc ChIP in a rad50S strain incubated for 5 hours in sporulation medium. Immunoprecipitated and input DNA samples were differentially labeled and cohybridized to a single microarray. We have included 3 biological replicates of this experiment, including one dye swap experiment.
+
+PLATFORM
+GPL3499 Agilent Yeast Whole Genome ChIP-on-chip Microarray GPL5991 Agilent-015239 Yeast Whole Genome ChIP-on-chip Microarray (G4493A)
+
+CITATIONS
+18060788
+

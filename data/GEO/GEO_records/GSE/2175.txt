@@ -1,0 +1,15 @@
+TITLE
+Differential gene expression in pituitary adenomas by oligonucleotide array analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This series includes the four major subtypes of pituitary adenomas and normal post-mortem pituitary tissue Data Transformation Using Affymetrix Microarray Suite 5.0 global scaling was applied to the quantification data to adjust the average recorded to a target intensity of 100. Data were then exported into the bioinformatics software GeneSpring 6.0 (Silicon Genetics, Redwood City, CA) for further analysis. Data normalization was performed to scale the data so that the average intensity value on each array was 1 by dividing each expression value by the median of the expression levels on each chip. The individual gene expression levels for each of the 4 pituitary adenoma subtype arrays was divided by the expression level in the normal pituitary array. Thus, the data are presented as relative to the expression in normal pituitary tissue. Filtering was then performed to identify genes over-expressed or under-expressed at least 2.0 fold in tumours compared to normal pituitary. TABLE 1: The genes / ESTs differentially overexpressed > = 2-fold in at least one pituitary adenoma subtype compared to normal pituitary. Negative values represent underexpression. Where genes are represented by more than one probe set, individual probe data sets are given. TABLE 2: The genes / ESTs differentially underexpressed > = 2-fold in at least one pituitary adenoma subtype compared to normal pituitary. Negative values represent underexpression. Where genes are represented by more than one probe set, individual probe data sets are given. Keywords = pituitary tumor Keywords: other
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+15994756
+

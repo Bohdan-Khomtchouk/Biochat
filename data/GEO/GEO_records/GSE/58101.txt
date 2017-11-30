@@ -1,0 +1,18 @@
+TITLE
+High-resolution mapping of chromatin packaging in mouse embryonic stem cells and sperm
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mammalian embryonic stem (ES) cells and sperm exhibit unusual chromatin packaging that plays important roles in cellular function. Here, we extend a recently developed technique, based on deep paired-end sequencing of lightly digested chromatin, to assess footprints of nucleosomes and other DNA-binding proteins genome-wide in murine ES cells and sperm. In ES cells, we recover well-characterized features of chromatin such as promoter nucleosome depletion, and further identify widespread footprints of sequence-specific DNA-binding proteins such as CTCF, which we validate in knockdown studies. We document global differences in nuclease accessibility between ES cells and sperm, finding that the majority of histone retention in sperm preferentially occurs in large gene-poor genomic regions, with only a small subset of nucleosomes being retained over promoters of developmental regulators. Finally, we describe evidence that CTCF remains associated with the genome in mature sperm, where it could play a role in organizing the sperm genome.
+
+DESIGN
+We use Micrococcal Nuclease (MNase) to map chromatin structure in mouse ES cells and sperm. Specifically, we generate paired-end deep-sequencing libraries that are able to distinguish DNA digestion products by size, thus allowing us to simultaneously map nucleosomes as well as other DNA-binding proteins such as transcription factors.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+24998598
+

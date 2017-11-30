@@ -1,0 +1,18 @@
+TITLE
+Spark: A navigational paradigm for genomic data exploration
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Biologists possess the detailed knowledge critical for extracting biological insight from genome-wide data resources and yet they are increasingly faced with non-trivial computational analysis challenges posed by genome-scale methodologies. To lower this computational barrier, particularly in the early data exploration phases, we have developed an interactive pattern discovery and visualization prototype, Spark, designed with epigenomic data in mind. Here we demonstrate Spark’s ability to reveal both known and novel epigenetic signatures using genome-wide histone modification, DNA methylation, and transcription factor data from human embryonic stem cells.
+
+DESIGN
+Human embryonic stem cells (hESCs) were obtained from Cellular Dynamics as part of a large batch of cells prepared for the ENCODE Consortium and the RoadMap Epigenome Consortium. Cell growth and crosslinking conditions can be found at http://www.genome.ucsc.edu/ENCODE/cellTypes.html. ChIP-seq experiments for the histone modifications have been described previously (Harris et al. 2010). The YY1ChIP assay was performed using 5x107 cells following the protocol provided at http://farnham.genomecenter.ucdavis.edu/pdf/FarnhamLabChIP%20Protocol.pdf except that StaphA cells were blocked only with BSA before use and the pre-clearing step was omitted. ChIP and Input samples (10% of the amount of chromatin used per ChIP) were purified using the QIAquick PCR purification kit (QIAGEN) according to manufacturer’s instructions and purified eluates were dissolved in 50uls of water. ChIP libraries were created and sequenced as described previously (Harris et al. 2010)  by the DNA Technologies Core Facility at the University of California-Davis ( http://genomecenter.ucdavis.edu/dna_technologies/ ). Illumina read sequences were aligned to the reference human genome (hg18) using BWA (Li and Durbin 2009). FindPeaks 4.0.15 (Fejes et al. 2008) was subsequently used to detect enrichment peaks at an FDR of 0.01.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+22960372
+

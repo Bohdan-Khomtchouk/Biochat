@@ -1,0 +1,18 @@
+TITLE
+RNA-seq reveals differential gene expression in Staphylococcus aureus at single-nucleotide resolution
+
+ORGANISM
+Staphylococcus aureus
+
+SUMMARY
+Staphylococcus aureus is a gram-positive cocci and an important human commensal bacteria and pathogen.  S. aureus infections are increasingly difficult to treat because of the emergence of highly resistant MRSA (Methicillin-resistant S. aureus) strains. Here we present a method to study differential gene expression in S. aureus using high-throughput RNA-sequencing (RNA-seq).  We use RNA-seq to examine the differential gene expression in S. aureus RN4220 cells containing an exogenously expressed transcription factor and between two S. aureus strains (RN4220 and NCTC8325-4).  The information provided by RNA-seq was a significant advance over previously described microarray based techniques. We investigated the sequence and gene expression differences between RN4220 and NCTC8325-4 and used the RNA-seq data to identify S. aureus promoters suitable for in vitro analysis.  We used RNA-seq to describe, on a genome wide scale, genes positively and negatively regulated by a phage encoded transcription factor, gp67.  RNA-seq offers the ability to study differential gene expression with single-nucleotide resolution, and is a considerable improvement over the predominant genome-wide transcriptome technologies used in S. aureus.
+
+DESIGN
+RNA-seq analysis of Staphylococcus aureus RN4220 (electrocompetent strain) carrying either empty pRMC2 (inducible expression vector) or pRMC2 carrying the ORF67 gene (encodes gp67).  Both strains were grown to OD 0.2 and transgene expression was induced with 100ng/ml anhydrotetracycline.   As a control, Staphylococcus aureus strain NCTC8325-4 (non-electrocompetent strain) was grown under identical conditions except without the addition of anhydrotetracycline.
+
+PLATFORM
+GPL17452 Illumina HiSeq 2000 (Staphylococcus aureus)
+
+CITATIONS
+24116120
+

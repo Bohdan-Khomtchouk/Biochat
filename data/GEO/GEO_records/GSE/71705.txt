@@ -1,0 +1,18 @@
+TITLE
+Expression data from CD38high vs CD38low CD11b+Gr1+ splenocytes from tumor-bearing L2-Cre;p120f/f mice.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Myeloid derived suppressor cells (MDSCs) are an immunosuppressive population of immature myeloid cells found in advanced stage cancer patients and mouse tumor models.  We have identified Cd38 gene as potentially playing an essential role in MDSC biology. To determine the diffences between CD38high and CD38 low MDSCs from tumor-bearing mice, we have conducted this microarray. In this dataset, we include the expression data obtained from sorted splenic CD38high CD11b+Gr1+ cells from tumor-bearing L2-Cre;p120f/f mice, compared to CD38low CD11b+Gr1+ cells from the same mice. Using these data, we have detected differential expression of 498 genes . The Nos2 gene was among the genes most upregulated in CD38high MDSCs.
+
+DESIGN
+8 total samples were analyzed: 3 pairs of CD38high and CD38 low MDSCs (coming from individual mice), as well a pair of CD38high and CD38low pulled MSDCs (splenocytes from 3 mice were pulled together for sorting to increase yields).  Gene expression difference was determined by univariate test (two-sample t-test) with multivariate permutation test (10,000 random permutations). A cut-off p-value of less than 0.001 and minimum 2-fold expression change were used to identify genes with significant expression differences between the two groups.
+
+PLATFORM
+GPL6096 [MoEx-1_0-st] Affymetrix Mouse Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+26294209
+

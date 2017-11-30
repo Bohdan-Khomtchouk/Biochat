@@ -1,0 +1,18 @@
+TITLE
+Genome-wide binding profiles of an artificial zinc finger protein with or without a KLF3 functional domain
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transcription factors are often regarded as having two distinct components: a DNA binding domain (DBD) to allow binding to the regulatory region of a target gene and a trans-acting functional domain (FD) to modulate gene expression. Recently, it is becoming clear that the DBDs of transcription factors alone are incapable of providing sufficient specificity to account for the highly complex genomic structures in eukaryotes. Other regions, outside of the DBD, may play a role in transcription factor DNA binding specificity in vivo. In order to test this hypothesis, we examined a model zinc finger transcription factor, Krüppel-like factor 3 (KLF3) with a FD that recruits partner proteins for its repressive activity and a three zinc finger DBD. Previously, we showed that deletion of the entire KLF3 FD reduced DNA binding across the genome. This implied the importance of the FD for in vivo DNA binding specificity. In the current study, we fused the KLF3 FD onto an unrelated, but well characterised Artificial Zinc Finger (AZF) targeting a standard target gene, VEGF-A.  We compared the genomic DNA binding profile of this chimeric KLF3 construct, termed KLF3FD-AZF, to that of the AZF alone. Chromatin Immunoprecipitation followed by next generation sequencing was used to assess genomic wide DNA-binding of these AZFs. Remarkably, in these gain-of-function experiments, we again observed that the KLF3 FD is critical for in vivo DNA binding specificity. The addition of KLF3 FD increased the number of binding sites by more than two fold compared to the AZF alone. KLF3 FD also directed more binding to the promoter regions. Further investigations of these acquired sites identified a substantial portion of these sites as the known endogenous KLF3 bound regions, whilst others contain sequences that are similar but not identical to the predicted AZF target sequence. These results clearly demonstrate that the specific localisation of this model transcription factor to target genes is not solely dependent on the DBD and that the regions outside of this domain may also play an important role.
+
+DESIGN
+ChIP-Seq experiments were performed on four HEK293 cell lines, two each stably expressing AZF or KLF3FD.AZF or KLF3FD only (two biological replicates). Input samples were included as controls.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+26673701
+

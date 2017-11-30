@@ -1,0 +1,18 @@
+TITLE
+Network reconstruction and systems analysis of plant cell wall deconstruction by Neurospora crassa (RNA-seq)
+
+ORGANISM
+Neurospora crassa
+
+SUMMARY
+The ability to rationally engineer filamentous fungi could greatly facilitate biotechnological enzyme production for the degradation of plant cell wall polysaccharides in biorefinery applications. However, an incomplete and fragmented knowledge base of the biomolecular networks responsible for plant cell wall deconstruction by filamentous fungi impedes experimental efforts in this direction. To expand this knowledge base, we have reconstructed a detailed network of those reactions occurring in the filamentous fungus Neurospora crassa that are important for the degradation of plant cell wall polysaccharides into simple sugars. To build this network, we integrated information from five heterogeneous data types: functional genomics, transcriptomics, proteomics, genetics, and biochemical characterizations. We encapsulated the combined information into a feature matrix and weighed evidence to assign annotation confidence scores for each gene within the network. Comparative analyses of next-generation transcriptome sequencing profiles for N. crassa grown on different substrates corresponding to specific plant cell wall polysaccharides revealed environment-specific modules within the network. Subsequent analyses of next-generation ChIP and RNA sequencing data within the network context shed new light on how N. crassa regulates the plant cell wall degradation network (PCWDN). Specifically, our system-level analyses led to the hypothesis-driven experimental validation of the role transcription factor CLR-2 plays in degradation of the major hemicellulose mannan. In the future, we expect the network to serve as a scaffold for integration of diverse experimental data, leading to elucidation of regulatory design principles for plant cell wall deconstruction by filamentous fungi. In turn, this will guide efforts to rationally engineer novel, industrially relevant fungal hyper-secretion strains.
+
+DESIGN
+Media shift experiments were performed in triplicate and followed the procedure described earlier in Coradetti et al. (Coradetti et al, 2012) and Znameroski et al. (Znameroski et al, 2012) to ensure optimal comparability with the previously published RNA-seq datasets. First, using shake-flasks (200 rpm), Neurospora crassa cultures were pre-grown from conidia for 16 hrs in 100 mL of Vogels Minimal Medium (VMM) with 2% sucrose. Next, the mycelia were passed over a Whatman glass microfiber filter and washed three times with VMM without a carbon source (NoC). The mycelial mass was then transferred to new shake flasks with 100 mL of VMM containing a specific carbon source 2% xyloglucan (P-XYGLN, Megazyme) or 2% mannan (P-MANCB, Megazyme) or 2% mixed-linkage-glucan (P-BGBM, Megazyme) or 2% starch. After 4 hrs in the new carbon source, the mycelia were harvested over a filter, flash frozen in liquid nitrogen and stored at −80°C.  Total RNA was extracted for library generation using the standard procedures as described in Tian et al. (Tian et al, 2009).
+
+PLATFORM
+GPL16164 Illumina HiSeq 2000 (Neurospora crassa)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

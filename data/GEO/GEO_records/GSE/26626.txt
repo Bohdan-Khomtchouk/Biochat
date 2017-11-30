@@ -1,0 +1,18 @@
+TITLE
+mRNAs associated with human Pumilio2 protein (PUM2)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The presence of the PUF (Pumilio/FBF) domain defines a conserved family of RNA-binding proteins involved in repressing gene expression. It has been suggested that a conserved function of PUF proteins is to repress differentiation and sustain the mitotic proliferation of stem cells. In humans, Pumilio2 (PUM2) is expressed in embryonic stem cells and adult germ cells. To identify mRNAs associated with human PUM2 protein in adipose tissue stem cells (ADSC), we used a modified Ribonucleoprotein-ImmunoPrecipitation Microarray (RIP-Chip). PUM2 ribonucleoprotein (RNP) complexes were performed with 2 µg of anti-Pum2 antibody (goat polyclonal, Santa Cruz Biotechnology, CA, USA) bound to protein G-agarose beads (Sigma, Deisenhofen, Germany). ADSCs were lysed in polysome lysis buffer  (Tris-HCl pH 7.4 15mM, MgCl2 15 mM, NaCl 0,3 M, 1% Triton X-100, 1 mM DTT, 100 U/ml RNase Out, PMSF 1mM and E64 10uM) for one hour at 4°C. Beads were washed, then buffer and cell lysate were added, and the reaction mixtures were tumbled for 2 hours at 4°C. After this incubation, the beads were thoroughly washed again with polysome lysis buffer and then either RNA extracted for microarray and RT-PCR experiments using the RNeasy mini kit (Qiagen). To control for non-specifically enriched RNAs, identical IPs were performed with beads precoated with preimmune goat serum as a negative control. RNA was processed for hybridization with GeneChip 3’ IVT Express (Affymetrix - Santa Clara, USA), according to the manufacturers instruction. Briefly, cDNA was synthesized from immunoprecipitated RNA using reverse transcriptase followed by second strand synthesis to generate double-stranded cDNA. An in vitro transcription reaction was used to generate biotinylated cRNA. After purification and fragmentation, cRNA was hybridized onto GeneChip Affymetrix Human Genome U133 Plus 2.0 arrays. Post hybridization washes were preformed on an Affymetrix GeneChip Fluidics Station 450. Arrays were scanned on an Affymetrix GeneChip Scanner 3000. Scanned arrays were normalized using GCRMA in Partek software (Partek Incorporated. St. Louis, MO). Differentially enriched RNAs were found after performing One-way ANOVA analysis comparing immunoprecipitated samples against control samples. Final lists of genes were obtained by filtering the data from the statistical results according to fold enrichment more than 2 and a p value associated of less than 0.05 for features with signal well above the background.
+
+DESIGN
+Pum2 IP and control IP samples were analyzed for each of 2 biological replicates.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+21649561
+

@@ -1,0 +1,18 @@
+TITLE
+Evolutionary consequences of DNA methylation on the GC content in vertebrate genomes
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+The genomes of many vertebrates show a characteristic variation in GC content. To explain its origin and evolution mainly three mechanisms have been proposed, selection for GC content, mutation bias and GC-biased gene conversion. At present the mechanism of GC-biased gene conversion, i.e. short-scale, unidirectional exchanges between homologous chromosomes in the neighborhood of recombination-initiating double-strand breaks in favor for GC nucleotides, is the most widely accepted hypothesis. We here suggest that DNA methylation also plays an important role in the evolution of GC content in vertebrate genomes. To test this hypothesis we investigated one mammalian (human; GSE30340) and one avian (chicken) genome. We used bisulfite sequencing to generate a whole-genome methylation map of chicken sperm. Human processed data files (spermdonor1, #reads > =1) were downloaded from the NGSmethDB database ( http://bioinfo2.ugr.es/NGSmethDB/database.php ). Inclusion of these methylation maps into a model of GC content evolution provided significant support for the impact of DNA methylation on the local equilibrium GC content. Moreover, two different estimates of equilibrium GC content, one which neglects and one which incorporates the impact of DNA methylation and the concomitant CpG hypermutability, give estimates that differ about 15% in both genomes, arguing for a strong impact of DNA methylation on the evolution of GC content. Thus, our results put forward that previous estimates of equilibrium GC content, which neglect the hypermutability of CpG dinucleotides, need to be reevaluated.
+
+DESIGN
+Genomic DNA from chicken mature sperm was isolated, bisulfite converted and sequenced on a Illumina HiSeq instrument
+
+PLATFORM
+GPL16506 Illumina HiSeq 1000 (Gallus gallus)
+
+CITATIONS
+25591920
+

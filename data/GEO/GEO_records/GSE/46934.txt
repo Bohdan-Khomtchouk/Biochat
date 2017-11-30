@@ -1,0 +1,18 @@
+TITLE
+Individual and combined effects of DNA methylation and copy number alterations on miRNA expression in breast tumors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: The global effect of copy number and epigenetic alterations on miRNA expression in cancer is poorly understood. In the present study, we integrate genome-wide copy number, DNA methylation and miRNA expression and identify genetic mechanisms underlying miRNA dysregulation in breast cancer. Results: We identify 70 miRNAs whose expression was associated with aberrations in copy number or methylation, or both. Among these, five miRNA families are represented. Interestingly, the members of these families are encoded on different chromosomes and are complementarily altered by gain or hypomethylation across the patients. In an independent breast cancer cohort of 123 patients, 41 of the 70 miRNAs were confirmed with respect to aberration pattern and association to expression. In vitro functional experiments were performed in breast cancer cell lines with miRNA mimics to evaluate the phenotype of the replicated miRNAs. let-7e-3p, which in tumors is found associated with hypermethylation, is shown to induce apoptosis and reduce cell viability, and low let-7e-3p expression is associated with poorer prognosis. The overexpression of three other miRNAs associated with copy number gain, miR-21-3p, miR-148b-3p and miR-151a-5p, increases proliferation of breast cancer cell lines. In addition, miR-151a-5p enhances the levels of phosphorylated AKT protein. Conclusions: Our data provide novel evidence of the mechanisms behind miRNA dysregulation in breast cancer. The study contributes to the understanding of how methylation and copy number aberrations influence miRNA expression, emphasizing miRNA functionality through redundant encoding, and suggests novel miRNAs important in breast cancer.
+
+DESIGN
+The miRNA expression profiling of 149 breast cancer samples was performed using the 8x15k “Human miRNA Microarray Kit (V2)” with design id 019118 from Agilent (Agilent Technologies, Santa Clara, CA, USA). In brief, 100 ng total RNA was dephosphorylated, labeled and hybridized for 20 hours, following the manufacturer’s protocol. Scanning was performed on Agilent Scanner G2565A, signals were extracted using Feature Extraction v9.5 and the subsequent data processing was performed using the GeneSpring software v12.0 (Agilent Technologies). In brief, the miRNA signal intensities were log2-transformed and normalized to the 90th percentile, and miRNAs that were detected in less than 10% of the samples were excluded. This resulted in 448 unique mature miRNAs.
+
+PLATFORM
+GPL8227 Agilent-019118 Human miRNA Microarray 2.0 G4470B (miRNA ID version)
+
+CITATIONS
+24257477
+

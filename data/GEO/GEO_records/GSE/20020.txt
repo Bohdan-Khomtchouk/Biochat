@@ -1,0 +1,18 @@
+TITLE
+IgE reactivity profiling in an asthma affected cohort
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Most asthmatic patients have high serum levels of IgE directed against common environmental allergens such as house dust mite, animal danders and moulds. However the presence of specific IgE against individual allergens alone does not account for asthma. Many individuals are atopic but not asthmatic. Precise knowledge of the serum IgE specificity repertoire in asthmatic and non-asthmatic patients would substantially help in understanding the pathogenesis of the disease and at the same time facilitate the treatment and the implementation of preventive measures.  Methods: We developed a microarray immunoassay containing 103 common allergens to study the IgE reactivity profiles of 485 asthmatic and 342 non-asthmatic individuals from families whose members had a documented history of asthma and atopy. The results were analyzed using k-means clustering to investigate whether IgE reactivity profiles correlated with asthma, disease severity and age of onset as well as with other atopic conditions such as rhinitis, conjunctivitis and eczema. We trained an artificial neural network (ANN) using the serum reactivity data to identify individuals as asthmatic and non-asthmatic.   Results: Individual sera showed clear differences in the number and the combinations of allergens recognized as well as in the level of specific IgE. While the presence of specific IgE against single allergens correlated poorly with the pathological conditions examined k-means clustering analysis unraveled that a particular profile was significantly associated with asthma (p < 1E-8). An ANN-based algorithm, calibrated with the profile reactivity data correctly classified as asthmatic or non-asthmatic 78% of the individual examined.  Conclusions: Our analysis demonstrates that asthma may be a higher-order phenomenon related to patterns of response and not attributable to single antibody reactions. This information sheds new light on the risk of developing the disease and can be readily utilized in combination with an ANN-based tool to distinguish asthmatic and non-asthmatic individuals on the basis of their serum reactivity profile.
+
+DESIGN
+The study consisted of a total of 872 sera samples: 485 individuals were diagnosed with asthma, 342 were classified as non asthmatic, a remaining 45 were classified as unconfirmed asthma diagnosis. The serum IgE reactivity profiles were analyzed against 103 allergens representative of 11 distinct allergen classes. Quantification of bound IgE: The fluorescence signal was acquired using ProScanArray Express™ version 3.0 software. PMC reading values of individual spots were corrected against the internal negative control to identify signals above background. Duplicate measurements of individual allergens were utilized. The signal collected from the allergens was interpolated with an external calibration curve to obtain the IU/ml value (see supplementary file GSE20020_IU_ml values.txt), and translated into a Class Score by plotting the data in a standard reactivity scale (see Sample data tables). Class Score values: (CLASS 0 (less than 0.35 IU/ml); CLASS 1 (0.35-0.7 IU/ml); CLASS 2 (0.71-3.5 IU/ml); CLASS 3 (3.51-17.5 IU/ml); CLASS 4 (17.51-50 IU/ml); CLASS 5 (50.01-100 IU/ml).
+
+PLATFORM
+GPL9968 Allergochip for asthma diagnosis
+
+CITATIONS
+21829614
+

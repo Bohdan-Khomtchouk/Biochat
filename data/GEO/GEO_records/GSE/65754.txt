@@ -1,0 +1,18 @@
+TITLE
+Expression data from 10 months old sciatic nerves of Sterol regulatory element binding factor 1c (SREBF-1c) KO mice and relative littermates
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+SREBF-1c is a transcription factor regulating fatty acid biosynthesis. We have charaterized the impact of the abcence of SREBF-1c on the development of peripheral neuropathy In this dataset we included expression data from dissected sciatic nerve from 10 months old SREBF-1c KO mice and relative littermates.
+
+DESIGN
+6 total samples were analyzed (3 wild type and 3 SREBF-1c KO). Data handling was mainly done using TAC and Partek Genomic Suite software. The Robust Multichip Average (RMA) method was employed to calculate probe set intensity. RMA is a robust multi-chip average expression method that estimates the probe-level data from a set of chips: the perfect-match (PM) values are background-corrected, normalized and finally summarized resulting in a set of expression measures. The identification of differentially expressed genes was addressed using Fold Change (FC) and ANOVA. For each experimental condition the probesets whose fold change are higher or equal than 1.5 with an ANOVA unadjusted p-value lower than 0,05 are selected as significantly modulated.
+
+PLATFORM
+GPL16570 [MoGene-2_0-st] Affymetrix Mouse Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+25817536
+

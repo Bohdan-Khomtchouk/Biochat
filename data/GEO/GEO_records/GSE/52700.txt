@@ -1,0 +1,18 @@
+TITLE
+Transcription profiling of sweet orange in response to PthA4-dependent infection
+
+ORGANISM
+Citrus sinensis
+
+SUMMARY
+We used this microarray data to survey the differentially expressed genes in sweet orange by comparing leaf tissues challenged with wild type X. citri ssp. citri (Xcc) strain 306 and leaf tissues challenged with pthA4 gene defeciency mutant Xcc306ΔpthA4at 6 h and 48 h post inoculation.The deletion of pthA4 gene reduced the virulence of Xcc306, and eliminated pustule formation. The citrus gene expression changes after inoculation of these two isogenic strains represent PthA4-mediated molecular events in a susceptible reaction.
+
+DESIGN
+Xcc306 wild-type strain and pthA4 gene deletion mutant Xcc306ΔpthA4 were used to inoculate fully expanded young leaves in sweet orange (Citrus sinensis)  at the concentration of 5 X 108 cfu/ml using syringe with needle in a quarantine greenhouse facility at the Citrus Research and Education Center, Lake Alfred, FL. The leaves were harvested 6 hours and 48 hours after inoculation for RNA isolation. To allow stringent statistical data analysis, three biological replicates were conducted and three technical replicates were pooled for each strain. RNA extraction was performed by using RNeasy Plant Mini Kit (Qiagen, Valencia, CA). The quantity and quality of RNA were determined on a ND-8000 Nanodrop spectrophotometer (NanoDrop Technologies, Wilmington,DE). Microarray labeling, hybridization, washing, scanning, and data analysis were performed at ICBR facility at University of Florida in Gainesville. Statistical tests were performed using BioConductor statistical software, open source software based on the R programming language. Robust Multichip Analysis (RMA) approach was used for normalizing the raw data. Differential expression analysis was carried out using a linear modeling approach and the empirical Bayes statistics as implemented in the Limma package. Differentially expressed genes with fold change higher than 3 and an adjusted P-value (FDR) less than 0.05 were considered as differentially expressed genes at a statistically significant level.
+
+PLATFORM
+GPL5731 [Citrus] Affymetrix Citrus Genome Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

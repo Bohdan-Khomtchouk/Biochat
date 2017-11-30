@@ -1,0 +1,18 @@
+TITLE
+Benchmark study of different chromatin isolation methods using the E2Fa transcription factor
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Genome-wide identification of transcription factor (TF) binding sites is pivotal to our understanding of gene expression regulation. Although much progress has been made in the determination of potential binding regions of proteins by chromatin immunoprecipitation (ChIP), this method has some inherent limitations regarding DNA enrichment efficiency and antibody necessity. Here, we report an alternative strategy for assaying in vivo TF-DNA binding in Arabidopsis thaliana cells by tandem chromatin affinity purification (TChAP). Evaluation of TChAP using the E2Fa TF and comparison with traditional ChIP and single chromatin affinity purification illustrates the suitability of TChAP and provides a resource for exploring the E2Fa transcriptional network. Integration with transcriptome, cis-regulatory element, functional enrichment, and co-expression network analyses demonstrates the quality of the E2Fa TChAP-seq data and validates the identification of new direct E2Fa targets. TChAP enhances both TF target mapping throughput, by circumventing issues related to antibody availability, and output, by improving DNA enrichment efficiency.
+
+DESIGN
+Illumina Seq analysis of E2Fa bound DNA elements isolated using different chromatin isolation methods. BioProject PRJNA172013; SRA study ID SRP014713
+
+PLATFORM
+GPL11221 Illumina Genome Analyzer IIx (Arabidopsis thaliana)
+
+CITATIONS
+24453163
+

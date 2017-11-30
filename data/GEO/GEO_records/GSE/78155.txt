@@ -1,0 +1,18 @@
+TITLE
+Deciphering targets of CD271-dependent signaling processes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genome-wide expression profiling of stably NGFR transfected melanoma cells was used to identify genes driven by expression of the nerve growth factor receptor CD271 (NGFR).
+
+DESIGN
+Stable overexpression of NGFR (CD271): Generation of cell lines stably overexpressing CD271 (NGFR), melanoma cells were transfected with 2 µg of a plasmid expressing GFP-tagged human NGFR (RG207966, OriGene) and selected with G418 (100-300 µg/ml, PAA) over a period of two weeks followed by sub-cloning or FACS. Gene expression profiling: Whole genome expression profiling of T20/02 and A375 cells (NGFR) and control cells (Mock or GFP) was performed with three biological replicates. Illumina raw data of BeadChip HumanHT-12V4 platform were summarized via the BeadStudio without normalization and background correction. Follow-up processing was done via the R/Bioconductor environment employing packages lumi, limma and q-value. Data were normalized with quantile normalization. Genes were termed significantly differentially expressed when the average detection p-value of at least one case was < 0.05  the ratio was outside the interval [0.75,1.33], one of the p-values from limma test, Student's t-test, Welch test and Wilcoxon test was < 0.05. At least one of the q-values corresponding to one of these tests < 0.05.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+28112719
+

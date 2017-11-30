@@ -1,0 +1,18 @@
+TITLE
+Establishment of regions of genomic activity during the Drosophila maternal-to-zygotic transition
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+A conspicuous feature of early animal development is the lack of transcription from the embryonic genome, and it typically takes several hours to several days (depending on the species) until widespread transcription of the embryonic genome begins. Although this transition is ubiquitous, relatively little is known about how the shift from a transcriptionally quiescent to transcriptionally active genome is controlled. We describe here the genome-wide distributions and temporal dynamics of nucleosomes and post-translational histone modifications through the maternal-to-zygotic transition in embryos of the pomace fly Drosophila melanogaster. At mitotic cycle 8, when few zygotic genes are being transcribed, embryonic chromatin is in a relatively simple state: there are few nucleosome-free regions, undetectable levels of the histone methylation marks characteristic of mature chromatin, and low levels of histone acetylation at a relatively small number of loci. Histone acetylation increases by cycle 12, but it is not until cycle 14 that nucleosome-free regions and domains of histone methylation become widespread. Early histone acetylation is strongly associated with regions that we have previously shown are bound in early embryos by the maternally deposited transcription factor Zelda. Most of these Zelda-bound regions are destined to be enhancers or promoters active during mitotic cycle 14, and our data demonstrate that they are biochemically distinct long before they become active, raising the possibility that Zelda triggers a cascade of events, including the accumulation of specific histone modifications, that plays a role in the subsequent activation of these sequences. Many of these Zelda-associated active regions occur in larger domains that we find strongly enriched for histone marks characteristic of Polycomb-mediated repression, suggesting a dynamic balance between Zelda activation and Polycomb repression. Collectively, these data paint a complex picture of a genome in transition from a quiescent to an active state, and highlight the role of Zelda in mediating this transition.
+
+DESIGN
+We performed genome-wide mapping of histone H3 and 9 types of histone modifications, including H4K5ac, H4K8ac, H3K4me1, H3K4me3, H3K27me3, H3K36me3, H3K9ac, H3K18ac, and H3K27ac by ChIP-seq, in hand-sorted wild-type Drosophila melanogaster embryos at 4 different development time points corresponding to mitotic cycle 7-9, 11-13, 14a-b, and 14c-d, respectively. We also carried out ChIP-seq experiments in zelda mutant embryos after showing that the deposition of histone marks in early embryos strongly correlated with the binding of Zelda in wild-type embryos.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+25313869
+

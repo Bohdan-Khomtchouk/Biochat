@@ -1,0 +1,18 @@
+TITLE
+miR-1-2 knockout versus wild-type hearts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+microarray was done on Heart tissue from ko and wt MicroRNAs (miRNAs) are genomically encoded small RNAs used by organisms to regulate the dosage of proteins generated from messenger RNA transcripts. The in vivo requirement of specific miRNAs in mammals is unknown, and reliable prediction of mRNA targets remains problematic. Here, we show that miRNA biogenesis in the mouse heart is essential for cardiogenesis. Furthermore, targeted deletion of the muscle-specific miRNA, miR-1-2, revealed numerous functions in the heart, including regulation of cardiac morphogenesis, electrical conduction, and cell cycle control. Analyses of miR-1 complementary sequences in mRNAs upregulated upon miR-1-2 deletion revealed an enrichment of miR-1 " seed matches " and a strong tendency for potential miR-1 binding sites to be located in physically accessible regions. These findings indicate that subtle alteration of miRNA dosage can have profound consequences in mammals and demonstrate the utility of mammalian loss-of-function models in revealing physiologic miRNA targets. Keywords: miRNA
+
+DESIGN
+Heart tissues from 3 wild type and 3 miR-1-2 knockout mice at postnatal days 10 were used and total RNA was extracted by Trizol. Expression level was compared between wild type and miR-1-2 knockout mice.  The affy package from R/Bioconductor was used to generate RMA values.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+17397913
+

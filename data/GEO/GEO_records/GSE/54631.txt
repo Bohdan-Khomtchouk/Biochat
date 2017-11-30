@@ -1,0 +1,18 @@
+TITLE
+Novel Bioinformatics Method for Identification of Genome-Wide Non-Canonical Spliced Regions using RNA-Seq Data
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We developed a bioinformatics approach called the Read-Split-Walk (RSW) pipeline, and evaluated it using two Ire1α heterozygous and two Ire1α-null samples. The 26nt non-canonical splice site in Xbp1 was detected as the top hit by our RSW pipeline in heterozygous samples but not in the negative control Ire1α knockout samples. We compared the Xbp1 results from our approach with results using the alignment program BWA, STAR, Exonerate and the Unix “grep” command.  We then applied our RSW pipeline to RNA-Seq data from the SKBR3 human breast cancer cell line. RSW reported a large number of non-canonical spliced regions for 108 genes in chromosome 17, which were identified by an independent study.
+
+DESIGN
+Identification of non-canonical spliced regions for mouse MEF samples (two Ire1α heterozygous and two Ire1α-null samples)
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+24991935
+

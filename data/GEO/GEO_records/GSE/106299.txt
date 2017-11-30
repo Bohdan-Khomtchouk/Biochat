@@ -1,0 +1,18 @@
+TITLE
+IGBMC-human-HeLa-TAF10 and TBP-HeLa-polysome RNA Ips
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA immunoprecipitation using mouse monoclonal antibody against human TAF10 protein from HeLa polysome extracts Cells dedicate significant energy to building proteins1, which are often organized in multiprotein assemblies with tightly regulated stoichiometries2. Cotranslational assembly, a process of synchronous translation and protein heterodimerization, is a potential mechanism for efficient matching of partner subunits and avoiding the negative effects of protein aggregation3. Recent studies in bacteria demonstrate that cotranslational assembly of the LuxA-LuxB dimer follows the order established by operon structure and is more efficient than post-translational assembly4. As genes encoding protein complex subunits are dispersed among chromosomes in eukaryotes, it is unclear how cotranslational assembly is accomplished mechanistically, but studies in yeast have nevertheless suggested it as a potential assembly pathway5,6,7. Here we show that mammalian transcription complexes, such as the RNA polymerase II general transcription factor TFIID and the TRanscription and EXport complex-2 (TREX-2) assemble co-translationally. Moreover, we show that the position of heterodimerization domains determines the order of cotranslational assembly in mammalian TFIID. In polysomes, the TATA binding protein associated factor 10 (TAF10), which contains a C-terminal histone-fold dimerization domain (HFD) is recruited cotranslationally to its HFD-containing binding partner TAF8. This interaction is established unidirectionally and determined by the position rather than the sequence of the dimerization domain. We further show that similar mechanisms guide the assembly of other TFIID subunits. Our results thus predict that cotranslational assembly of eukaryotic multisubunit complexes is a general principle in building multiprotein machines. We used microarrays to assess globally the mRNAs associated with TAF10 and TBP immunoprecipitations from HeLa polysomes.
+
+DESIGN
+We prepared polysome-containing cytoplasmic extracts from HeLa cells treated with cycloheximide (100 ug/ml for 15min at 37deg) and performed immunoprecipitations (IP) with a mouse monoclonal antibody against the N-terminus of human TAF10 and against GST as a control. We isolated input and IP RNA and hybridized the corresponding cDNA to microarrays in order to analyze the enrichment of specific transcripts in the IPs. 3 biological replicates per condition (input, mock IP, IP) were analyzed.
+
+PLATFORM
+GPL16686 [HuGene-2_0-st] Affymetrix Human Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

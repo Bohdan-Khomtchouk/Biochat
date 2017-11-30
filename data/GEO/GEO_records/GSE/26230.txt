@@ -1,0 +1,18 @@
+TITLE
+Loqs-PD and R2D2 define independent pathways for RISC generation in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+In Drosophila, siRNAs are classified as endo- or exo-siRNAs based on their origin. Both are processed from double-stranded RNA precursors by Dcr-2, then loaded into the Argonaute protein Ago2. While exo-siRNAs serve to defend the cell against viruses, endo-siRNAs restrict the spread of selfish DNA in somatic cells, analogous to piRNAs in the germ line. Endo- and exo-siRNAs display a differential requirement for double-stranded RNA binding domain proteins (dsRBPs): R2D2 is needed to load exo-siRNAs into Ago2 while the PD isoform of Loquacious (Loqs-PD) stimulates Dcr-2 during the nucleolytic processing of hairpin-derived endo-siRNAs. In cell culture assays, R2D2 antagonizes Loqs-PD in endo-siRNA silencing and Loqs-PD is an inhibitor of RNA interference. Loqs-PD can interact via the C-terminus unique to this isoform with the DExH/D-helicase domain of Drosophila Dcr-2, where binding of R2D2 has also been localized. Separation of the two pathways is not complete; rather, the dicing and Ago2-loading steps appear uncoupled, analogous to the corresponding steps in miRNA biogenesis. Analysis of deep sequencing data further demonstrates that in r2d2 mutant flies, siRNAs can be loaded into Ago2 but not all siRNA classes are equally proficient for this. Thus, the canonical Ago2-RISC loading complex can be bypassed under certain circumstances.
+
+DESIGN
+Examination of small RNAs from two different mutant strains as well as the corresponding heterozygous controls
+
+PLATFORM
+GPL9061 Illumina Genome Analyzer II (Drosophila melanogaster)
+
+CITATIONS
+21245036
+

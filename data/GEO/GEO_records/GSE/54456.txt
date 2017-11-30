@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis of psoriasis in a large case-control sample:  RNA-seq provides insights into disease mechanisms
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To increase our understanding of psoriasis, we utilized RNA-seq to assay the transcriptomes of lesional psoriatic and normal skin. We sequenced polyadenylated RNA-derived cDNAs from 92 psoriatic and 82 normal punch biopsies, generating an average of ~38 million single-end 80-bp reads per sample. Comparison of 42 samples* examined by both RNA-seq and microarray [GSE13355] revealed marked differences in sensitivity, with transcripts identified only by RNA-seq having much lower expression than those also identified by microarray. RNA-seq identified many more differentially expressed transcripts enriched in immune system processes.  Weighted gene co-expression network analysis (WGCNA) revealed multiple modules of coordinately expressed epidermal differentiation genes, overlapping significantly with genes regulated by the long non-coding RNA TINCR, its target gene, staufen-1 (STAU1), the p63 target gene ZNF750, and its target KLF4. Other coordinately expressed modules were enriched for lymphoid and/or myeloid signature transcripts and genes induced by IL-17 in keratinocytes. Dermally-expressed genes were significantly down-regulated in psoriatic biopsies, most likely due to expansion of the epidermal compartment. These results demonstrate the power of WGCNA to elucidate gene regulatory circuits in psoriasis, and emphasize the influence of tissue architecture in both differential expression and co-expression analysis. *The list of 42 samples examined by both RNA-seq and microarray is provided in the 'MAoverlappedsamples.txt'.
+
+DESIGN
+92 psoriatic and 82 normal skin samples
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+24441097 , 25723451 , 27992404
+

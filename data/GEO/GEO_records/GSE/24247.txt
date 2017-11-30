@@ -1,0 +1,18 @@
+TITLE
+Orientsia tsutsugamushi stimulates an original gene expression program in human monocytes: relationship with gene expression in patients with scrub typhus
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Orientia tsutsugamushi, an obligate intracellular bacterium, is the causative agent of scrub typhus. As O. tsutsugamushi is detected in circulating monocytes during acute phase of scrub typhus, we wondered if this organism was able to infect monocytes. We showed here that O. tsutsugamushi replicated in monocytes from healthy donors. Using human whole genome microarrays, we found that O. tsutsugamushi the expression of genes in which up-regulated and down-modulated genes were equally distributed. , the expression of type I interferon, interferon-stimulated genes and M1-associated genes was significantly up-regulated. Second, O. tsutsugamushi the expression of apoptosis-related genes and induced cell death in monocytes. Live organisms were indispensable to type I interferon response and apoptosis and enhanced the expression of M1 cytokines. These findings were related to the transcriptional changes found in mononuclear cells from patients with scrub typhus. Hence, a microarray study revealed the up-regulation of 613 genes and the down-modulation of 517 genes. Importantly, IFN-related genes were specifically enriched and some features of M1 polarization were observed in patients, as found in O. tsutsugamushi-stimulated cells. Our results provide a comprehensive understanding of scrub typhus pathogenesis in which IFN-mediated activation of monocytes appears as critical.
+
+DESIGN
+Monocytes (1.5 x 105 per assay) were incubated with or without 3 x 105 O. tsutsugamushi organisms in RPMI 1640 containing 10% FBS, 20 mM HEPES and 2 mM L-glutamine (Invitrogen) for 2 hours. The raw data, from the Agilent feature extraction software, were preprocessed with background subtraction and quantile normalization. This pretreatment was performed by using a bioconductor limma package, called Agi4x44PreProcess ( http://www.bioconductor.org/packages/2.3/bioc/html/ Agi4x44PreProcess.html)
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

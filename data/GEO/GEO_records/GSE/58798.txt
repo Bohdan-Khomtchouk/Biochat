@@ -1,0 +1,18 @@
+TITLE
+Argonaute HITS-CLIP in wild-type and APOBEC1-deficient BMDMs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To investigate the possible consequences of APOBEC1 editing for miRNA targeting, high-throughput sequencing of RNA isolated by cross-linking immunoprecipitation (HITS-CLIP) of the Argonaute (Ago) proteins (Chi et al., 2009) was performed in BMDMs derived from wild-type and Apobec1-/- littermates.
+
+DESIGN
+High-throughput sequencing of RNA isolated by cross-linking immunoprecipitation using antibodies specific to the Argonaute proteins was peformed on BMDMs isolated from wild-type and APOBEC1-deficient littermate mice. The RNA in the Ago complexes was radiolabeled, purified by gel electrophoresis and then visualized by radiography, where two complex sizes were apparent at ~110kDa and ~130kDa, corresponding to miRNA and mRNA complexes respectively. After proteinase digestion to remove Ago, previously Ago-bound mRNA and miRNA pools were reverse transcribed, PCR amplified and subjected to ultra high-throughput sequencing. Resultant high-throughput sequencing reads were separated by read length into mRNA (≥25nt) and miRNA (≤24nt) pools and aligned to the genome (mm9).  A list of bound miRNAs was generated from the miRNA alignment. Ago clusters, or loci with abundant Ago binding, were defined as regions with ≥ 5 nucleotide overlap and a total of ≥ 8 mRNA reads. The Ago footprint (-30,+32; or more narrowly -24,+22) was extracted from the peak of the cluster, and these footprints were normalized to RNA-Seq transcript expression, defining the relative “Ago occupancy” of the Ago-bound region. High-confidence footprints were defined as occurring in at least 2 replicates of one genotype (biological complexity of 2 for either wild-type or Apobec1-/-).High-confidence Ago footprints were then intersected with APOBEC1 editing events to identify regions of Ago-APOBEC1 overlap across the transcriptome.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Global identification of Arabidopsis thaliana ARGONAUTE1-associated small RNA.
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Small RNA from total RNA (input fraction) and immunoprecipitated HA-AGO1-complexes (IP fraction) were identified using high-throughput sequencing-by-synthesis.
+
+DESIGN
+Two replicate input fraction samples were used as controls for two replicate IP fraction samples. Total RNA from input fractions and small RNA that co-immunoprecipitated with HA-AGO1 complexes were size fractionated by polyacrylamide gel electrophoresis to recover 18-24 nucleotide small RNA. 3' and then 5' adaptors were serially ligated on to each small RNA followed by PAGE purification. RT-PCR was used to convert RNA to DNA amplicons.  Amplicons were sequenced using the Illumina GAIIx platform. Resulting reads were parsed and mapped to the A. thaliana genome (TAIR9) using the CASHX pipeline.
+
+PLATFORM
+GPL9302 Illumina Genome Analyzer II (Arabidopsis thaliana)
+
+CITATIONS
+20562854
+

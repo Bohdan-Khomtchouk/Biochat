@@ -1,0 +1,18 @@
+TITLE
+ChIP-CHIP data for oleate-specific transcriptional regulatory network analysis
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The goal of the study was to determine the direct targets of four oleate-responsive transcription factors (Oaf1p, Pip2p, Oaf3p, Adr1p) in the presence and absence of the fatty acid oleate. This data is part of a larger study outlined below: A novel network topology-based clustering approach was used to characterize a dynamic transcriptional regulatory network responsive to the fatty acid oleate.  Condition-specific large-scale chromatin localization data were generated for four fatty-acid related regulators, and used to construct physical interaction networks.  Data integration and simple statistical analysis of dynamic network architecture led to the identification of a regulatory role for a previously uncharacterized protein, and unique mechanism for coordination and regulation of multiple biological responses through the formation of related parallel combinatorial control motifs.  Temporal coordination and specificity are achieved through the ability of a regulator (Oaf1p) to have multiple context-specific activities under the same condition.  The analysis suggests that active paths for a transcriptional response can be highly interconnected in parallel and involve multiple functions for individual regulators through combinatorial control. Keywords: ChIP-chip, growth condition
+
+DESIGN
+For each experiment (i.e. IP of one factor under one growth condition), there were 3 biological replicates, each hybridized to one array.  As each array contains four replicates of each intergenic region, the total number of replicates for each condition is 12.
+
+PLATFORM
+GPL4326 ISB yeast intergenic 3695-3719 GPL4327 ISB yeast intergenic 4002-5225
+
+CITATIONS
+17551510
+

@@ -1,0 +1,18 @@
+TITLE
+Mapping of hns sites in Typhimurium 14028 using a tiling oligo array
+
+ORGANISM
+Salmonella
+
+SUMMARY
+The NimbleGen array contains 387,000 46~50-mer oligos, including 377,230 salmonella probes whose sequences only hit genome once. The probes were designed based on Salmonella typhimurium LT2 (NC_003197) genome, with a moving window of about 12 bases. Raw intensities were normalized by the median intensity in each channel and the ratios were calculated by log base 2 (hns-bound DNA / genomic DNA) after the normalization. Keywords: ChIP-chip
+
+DESIGN
+Two arrays were hybridized with Typhimurium 14028genomic DNA and hns-bound DNA from a chromatin immunoprecipitation with a Dye swap.
+
+PLATFORM
+GPL3786 SKCC Salmonella 380K tiling array
+
+CITATIONS
+16763111
+

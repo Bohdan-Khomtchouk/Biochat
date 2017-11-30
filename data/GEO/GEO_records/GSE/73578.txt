@@ -1,0 +1,18 @@
+TITLE
+Anti-leukemic effects of glucocorticoids in childhood acute lymphoblastic leukemia: conserved transcriptional pathway to cell cycle arrest but not to cell death
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Glucocorticoids (GCs) cause cell cycle arrest and cell death in malignant lymphoblasts and constitute a principal component in the treatment of childhood acute lymphoblastic leukemia (chALL). To address the molecular mechanism of the anti-leukemic GC effects, we performed microarray-based whole-genome expression profiling of lymphoblasts from 46 patients undergoing systemic GC mono-therapy and combined these data with clinical information (e.g., molecular genotype, reduction in peripheral blood lymphoblasts, GC bioactivity in the patient's blood) using differential gene expression with GO analyses, regression modeling correlating transcriptional with clinical response, and an iterative elastic net approach to address combinatorial effects of gene expression and regulation. Our analysis revealed that, although there are a number of common response genes, the transcriptional response to GC in vivo varies considerably in the different molecular subtypes of this disease. Regarding the anti-leukemic response, repression of mRNA for key regulators of G2/M transition was commonly observed in all subtypes whereas we failed to observe a common transcriptional control of apoptosis genes. Although sets of genes were identified which in combination appear to contribute to the apoptotic response, the data as a whole suggest that GC-induced cell death does not result from conserved transcriptional regulation of the apoptotic machinery itself but might rather result from a wide spread deregulation of gene expression.
+
+DESIGN
+For differential expression analysis, M-values (log2 fold change values) were calculated for each patient comparing the 6 or 24 hour gene expression profile to the gene expression profile prior to treatment start (0h time point). Differential expression analysis was performed on these M-values using the moderated t-test from limma employing two different linear models, one including a factor for the time point, thus identifying differentially expressed genes after 6 or 24 hours of GC treatment (common GC response), and one with an additional factor for the chALL subtype, thus identifying differentially expressed genes after 6 or 24 hours in each subtype (sub-type specific response). Description of sample characteristics: treatment time point: time point in hours relative to initiation of GC mono-therapy; age: age of the patient at day of diagnosis; sex: gender; ALL subtype by clustering: ALL subtype determined by clustering based on the gene expression profile and probe sets specific for the various subtypes of ALL; ALL subtype for analysis: subtype assignment used in the analysis; prednisone poor responder: clinical indicator whether the patient responded to the first week of GC therapy; hyb year: year in which the microarray was generated; normalization set: defines the sets in which the microarrays were normalized, arrays with set of type reference were used to define the reference vectors for frozen RMA (and affinity parameters for GCRMA background adjustment), all other microarrays were normalized using the parameters estimated in the reference set.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

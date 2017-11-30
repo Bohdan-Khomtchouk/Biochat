@@ -1,0 +1,18 @@
+TITLE
+Gene expression of VPA and GEM
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Histone deacetylase (HDAC) is strongly associated with epigenetic regulation and carcinogenesis, and its inhibitors induce the differentiation or apoptosis of cancer cells. Valproic acid (VPA) is one of the clinically available HDAC inhibitors. We investigated the anticancer effects of VPA in combination with gemcitabine (GEM) in cholangiocarcinoma cell line, and explored the mechanisms of the anticancer effects using microarray analysis. Methods: A human cholangiocarcinoma cell line (HuCCT1) was used. The anticancer effects of VPA, or gemcitabine (GEM), and the effects of VPA combined with GEM, were studied by cell proliferation assay. The microarray analysis was performed, the genes were picked up using Gene Spring GX11.5, Ingenuity Pathways Analysis (IPA) was performed, and then the gene-expression was determined by RT-PCR. Results: GEM (5nM) and VPA (0.5mM) reduced by 23%, which significantly augmented the anticancer effect of GEM alone or VPA alone (P < 0.01). Using the microarray analysis, forty-three genes were identified with the comparison between GEM group and GEM plus VPA combination group. The interactions were shown between genes of the “Cellular Development” relevant to the differentiation of cancer cell using IPA.
+
+DESIGN
+Total RNA was isolated from both the stimulated and unstimulated cells (HuCCT-1) using RNeasy Mini kit (Qiagen, Valencia, CA). Relative purity was examined using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA). RNA expression was analyzed using GeneChip○R Human Gene 1.0 ST Array (Affymetrix, Santa Clara, CA, USA), containing 28,869 oligonucleotide probes for known and unknown genes. First standard cDNA was synthesized from 300 ng of total RNA by using GeneChip○R Whole Transcript (WT) cDNA Synthesis and Amplification Kit (Affymetrix) according to the manufacturer’s instructions. 10 μg of cRNA were input into the second-cycle cDNA reaction. cDNA was fragmented and end-labeled with the GeneChip○R WT Terminal Labeling Kit (Affymetrix). Approximately 5.5μg of fragmented and labeled DNA target was hybridized to the Affymetrix GeneChip○R Human Gene 1.0 ST Array at 45°C for 17h on a GeneChip○R Hybridization Oven 640  (Affymetrix) according to the manufacturer’s recommendation. Hybridized arrays were washed and stained on a GeneChip○R Fluidics Station 450 and scanned on a GeneChip○R Scanner 3000 7G (Affymetrix), and then generated CEL files for each array. The microarray data was normalized by GeneSpring GX 11.5 software (Agilent). The cut-off value was set at 0.5 to 2.0 for the ratio (more than 2.0: up-regulation, 0.5-2.0: no change, less than 0.5: down-regulation). Gene Ontology (GO) was analyzed using GeneSpring GX 11.5 software (Agilent), and p-value < 0.05 was used for significance. Then we used Ingenuity Pathway Analysis (IPA) 8.7 ( http://www.ingenuity.com ) to determine the functional pathways associated with the set of differentially expressed genes between genotypes. IPA utilizes the knowledge in the literature about biological interactions among genes and proteins.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

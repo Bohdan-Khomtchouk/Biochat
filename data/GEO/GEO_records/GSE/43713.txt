@@ -1,0 +1,18 @@
+TITLE
+Microarray to find CHOP dependent genes in response to proteasome inhibition
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Environmental stresses that disrupt protein homeostasis induce phosphorylation of eIF2, triggering repression of global protein synthesis coincident with preferential translation of ATF4, a transcriptional activator of the Integrated stress response (ISR). Depending on the extent of protein disruption, ATF4 may not be able to restore proteostatic control and instead switch to a terminal outcome that features elevated expression of the transcription factor CHOP (GADD153/DDIT3). The focus of this study was to define the mechanisms by which CHOP directs gene regulatory networks that determine cell fate.  We find that in response to proteasome inhibition, CHOP induces the expression of a collection of genes encoding transcription regulators, including ATF5, which is preferentially translated during eIF2 phosphorylation.  Transcriptional expression of ATF5 is directly activated by both CHOP and ATF4.   Knock-down of ATF5 increased cell survival in response to proteasome inhibition, supporting the idea that both ATF5 and CHOP have pro-apoptotic functions.  Transcriptome analyses of ATF5-dependent genes revealed targets involved in apoptosis, including, NOXA, which is important for inducing cell death during proteasome inhibition. This study suggests that the ISR features a feed-forward loop of stress induced transcriptional regulators, each subject to transcriptional and translational control that can switch cell fate towards apoptosis.
+
+DESIGN
+8 plates (10cm)  of WT and and 8 plates (10cm) of CHOP-/- MEF cells were subject to no stress (4 each for a total of 8) or treated for 8 hours with 1uM MG132 (4 each for a total of 8).  Unstressed cells were harvested at the same time as the stressed cells
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+23761072
+

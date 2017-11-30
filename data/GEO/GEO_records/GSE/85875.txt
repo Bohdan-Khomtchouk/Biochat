@@ -1,0 +1,18 @@
+TITLE
+Single cell transcriptome sequencing of mammary stem cells in the pubertal mammary gland
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The mammary gland is a highly dynamic organ that mainly develops during puberty. Based on morphology and proliferation analysis, mammary stem cells (MaSCs) are thought to be close to or reside in the terminal end buds (TEBs) during pubertal development. However, exclusive stem cell markers are lacking, and therefore the true identity of MaSCs, including their location, multiplicity, dynamics and fate during branching morphogenesis, has yet to be defined. To gain more insights into the molecular identity and heterogeneity of the MaSC pool, we performed single cell transcriptome sequencing of mammary epithelial cells micro-dissected from ducts and TEBs during puberty. These data show that the behaviour of MaSCs cannot be directly linked to a single expression profile. Instead, morphogenesis of the mammary epithelium relies upon a heterogeneous population of MaSCs that functions long-term as a single equipotent pool of stem cells.
+
+DESIGN
+Ducts and terminal end buds were micro-dissected from the 4th and the 5th murine mammary gland at 5 weeks-of-age, dissociated into single cells, and FACS sorted. Single-cell transcriptomics was performed on live cells using an automated version of CEL-seq2 on live, FACS sorted cells. The StemID algorithm was used to identify clusters of cells corresponding to basal and luminal cells types derived from ducts and terminal end buds.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28135720
+

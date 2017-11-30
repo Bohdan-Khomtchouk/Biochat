@@ -1,0 +1,18 @@
+TITLE
+Aedes aegypti circadian expression profiling
+
+ORGANISM
+Aedes aegypti
+
+SUMMARY
+Background. Aedes aegypti is arguably the most studied of all mosquito species in the laboratory and is the primary vector of both Dengue and Yellow Fever flaviviruses in the field. A large number of transcriptional studies have been made in the species and these usually report transcript quantities observed at a certain age or stage of development.  However, circadian oscillation is an important characteristic of gene expression in many animals and plants, modulating both their physiology and behavior. Circadian gene expression in mosquito species has been previously reported but for only a few genes directly involved in the function of the molecular clock.    Results. Herein we analyze the transcription profiles of 21,494 messenger RNAs using an Ae. aegypti Agilent® microarray. Transcripts were quantified in adult female heads at 24 hours and then again at 72 hours and eight subsequent time points spaced four hours apart.  We document circadian rhythms in multiple molecular pathways essential for growth, development, immune response, detoxification/pesticide resistance.  Circadian rhythms were also noted in ribosomal protein genes used for normalization in reverse transcribed PCR (RT-PCR) to determine transcript abundance.  We report pervasive oscillations and intricate synchronization patterns relevant to all known biological pathways.   Conclusion. These results argue strongly that transcriptional analyses either need to be made over time periods rather than confining analyses to a single time point or development stage or exceptional care needs to be made to synchronize all mosquitoes to be analyzed and compared among treatment groups.
+
+DESIGN
+12 samples representing 48h timeline sampled every 4h. Each chip has one channel taken by sample at ZG24h and the other by ZG72h, ZG76h and so on. Each time point has two independent replicates from two independent pools of mosquitoes sampled on the same calendar day. These time series are concatenated to form one continuous 48h time series for each gene. The circadian expression analysis presented in the associated paper encompasses a test timeframe of 72 – 92 hour (Cy3-labeled). Supplementary file: The unabridged matrix of processed data (includes duplicated features) is linked below.
+
+PLATFORM
+GPL4877 Aedes aegypti Genome Array Annotation 1.0
+
+CITATIONS
+21414217
+

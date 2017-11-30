@@ -1,0 +1,18 @@
+TITLE
+Suppression of breast tumor growth and metastasis by an engineered transcription factor
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Abstract Maspin is a tumor and metastasis suppressor playing an essential role as gatekeeper of tumor progression. It is highly expressed in epithelial cells but is silenced in the onset of metastatic disease by epigenetic mechanisms. Reprogramming of Maspin epigenetic silencing offers a therapeutic potential to lock metastatic progression. Herein we have investigated the ability of the Artificial Transcription Factor 126 (ATF-126) designed to upregulate the Maspin promoter to inhibit tumor progression in pre-established breast tumors in immunodeficient mice. ATF-126 was transduced in the aggressive, mesenchymal-like and triple negative breast cancer line, MDA-MB-231. Induction of ATF expression in vivo by Doxycycline resulted in 50% reduction in tumor growth and totally abolished tumor cell colonization. Genome-wide transcriptional profiles of ATF-induced cells revealed a gene signature that was found over-represented in estrogen receptor positive (ER+) “Normal-like” intrinsic subtype of breast cancer and in poorly aggressive, ER+ luminal A breast cancer cell lines. The comparison transcriptional profiles of ATF-126 and Maspin cDNA defined an overlapping 19-gene signature, comprising novel targets downstream the Maspin signaling cascade.  Our data suggest that Maspin up-regulates downstream tumor and metastasis suppressor genes that are silenced in breast cancers, and are normally expressed in the neural system, including CARNS1, SLC8A2 and DACT3. In addition, ATF-126 and Maspin cDNA induction led to the re-activation of tumor suppressive miRNAs also expressed in neural cells, such as miR-1 and miR-34, and to the down-regulation of potential oncogenic miRNAs, such as miR-10b, miR-124, and miR-363. As expected from its over-representation in ER+ tumors, the ATF-126-gene signature predicted favorable prognosis for breast cancer patients. Our results describe for the first time an ATF able to reduce tumor growth and metastatic colonization by epigenetic reactivation of a dormant, normal-like, and more differentiated gene program.
+
+DESIGN
+A total of six cell lines were used for gene expression analyses: CONTROL –DOX, CONTROL +DOX, ATF-126 –DOX, ATF-126 +DOX (all with 3 technical replicates), p-RetoX-Tight-Maspin –DOX, and p-RetoX-Tight-Maspin +DOX (with 2 technical replicates). For each cell line, total RNA was purified, amplified, labeled, and hybridized [46] using Agilent Agilent 4X44K oligo microarrays (Agilent Technologies, United States). The probes/genes were filtered by requiring the lowest normalized intensity values in both –DOX and +DOX samples to be > 10. The normalized log2 ratios (Cy5 sample/Cy3 control) of probes mapping to the same gene were averaged to generate independent expression estimates. We also used available microarrays from the breast cancer cell lines [21], the UNC337-patient [20], the MERGE 550-patient dataset [47] and the NKI (295 patients [48,49]). All microarray cluster analyses were displayed using Java Treeview version 1.1.3. Average-linkage hierarchical clustering was performed using Cluster v2.12 [50]. ANOVA tests for gene expression data were performed using R ( http://cran.r-project.org ).
+
+PLATFORM
+GPL4133 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Feature Number version)
+
+CITATIONS
+21931769
+

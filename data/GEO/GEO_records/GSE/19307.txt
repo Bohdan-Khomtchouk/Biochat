@@ -1,0 +1,18 @@
+TITLE
+Functional interaction of chromatin with nucleoporins in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Nuclear pore complexes (NPCs) mediate transport across the nuclear envelope. In yeast, they have also been proposed to interact with active genes, attracting or retaining them at the nuclear periphery. However, some NPC components (nucleoporins) in higher eukaryotes are also found in the nucleoplasm, with so far unknown function. Therefore, we have functionally distinguished between nucleoporin-chromatin interactions at the NPC and within the nucleoplasm in Drosophila. For this we analyzed genomic interactions of full-length nucleoporins Nup98, Nup50 and Nup62 and nucleoplasmic and NPC-tethered forms of Nup98. We found that nucleoporins predominantly interacted with transcriptionally active genes inside the nucleoplasm. A smaller set of non-active genes interacted with the NPC. We identified a direct role for nucleoplasmic Nup98 in stimulating gene expression, as genes downregulated upon Nup98 depletion were activated upon nucleoplasmic Nup98 overexpression and showed strong nucleoplasmic Nup98 interaction. Thus, nucleoporins stimulate gene expression away from the NPC by interacting with genes inside the nucleoplasm.
+
+DESIGN
+Chromatin nucleoporin (nup) interactions were mapped using DamID. Three full length nups were tested, Nup62, Nup98 and Nup50 on cDNA resolution (GSM478015, GSM478289, GSM478290, GSM478291). Replicate microarrays were used including dye swaps. Nups are located at the nuclear pore complex (NPC) and inside the nucleoplasm. To discriminate between these localizations, two mutants were made: nucleoplasmic Nup98 and NPC-tethered Nup98 (GSM479750, GSM479755). Together with full length Nup98 (GSM479749), Nup50 (GSM479753) and NDC1 (GSM479756), these were mapped on high resolution arrays. Replicate arrays were used including dye swaps. To functionally test the interactions, Nup98 (GSM478903) and Nup50 (GSM478904) were depleted using RNAi and nucleoplasmic Nup98 was overexpressed (GSM478905) and changes in mRNA expression were recorded on oligonucleotide arrays representing the transcribed genome. Replicate experiments were performed including dye swaps. To further investigate Nup/chromatin interactions, the response in chromatin interaction (tested with DamID) was recorded upon ecdysone traetment (GSM478910, GSM478911) or nucleoporin depletion (GSM478906, GSM478907, GSM478908, GSM478909). Replicate experiments were performed including dye swaps. To compare Nup/chromatin interaction with Lamin/chromatin interaction, Lamin/chromatin interaction was recorded using DamID on high resolution on chromosome 2L. Two experiments were performed and hybridized in a dye swap (GSM479757).
+
+PLATFORM
+GPL1908 FHCRC Fly 12K v1.0 GPL2678 Tiling design for D. melanogaster GPL6952 Illumina Fly INDAC 35k Oligo GPL8471 NimbleGen Drosophila 385k array rel4 300bp
+
+CITATIONS
+20144760
+

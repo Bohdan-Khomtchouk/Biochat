@@ -1,0 +1,18 @@
+TITLE
+Transcriptomes of major renal collecting duct cell types in mouse  identified by single-cell RNA-Seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Transport processes in the renal collecting duct are responsible for precise regulation of blood pressure and body fluid composition.  The collecting duct is composed of at least three cell types, type A intercalated cells (A-IC), type B intercalated cells (B-IC) and principal cells (PC). To identify the genes that are selectively expressed in each cell type, including cell-surface receptors, transcription factors, transporters and secreted proteins, we used cell surface markers necessary for isolation of each of the three cell types using fluorescence-activated cell sorting and carried out single-cell RNA-Seq to measure the mRNA species in each of these cell types. Methods: We enriched each of the three cell types using fluorescence-activated cell sorting. Subsequently, we carried out single-cell RNA-Seq of those cells using a microfluidic chip (Fluidigm C1 system). Single-cell cDNA libraries were constructed for paired-end sequencing and sequenced on Illumina HiSeq3000 platform. In addition, we also microdissected mouse CCDs and cTALs and carried out single-tubule RNA-Seq. Reads were mapped to mouse Ensembl Genome by STAR and transcript abundances were calculated in the units of transcripts per million (TPM) using RSEM ( https://github.com/deweylab/RSEM ). Single-cell RNA-Seq data anaysis were carried out using Seurat package in R. Results and conclusion: Single-cell cDNA libraries were constructed for paired-end sequencing and at least 10-million sequence reads per cell were mapped to the mouse genome (Ensembl, GRCm38.p5). On average, cells were sequenced to a depth of 3000 genes (TPM > 1). Unsupervised clustering analysis revealed five different cell types, namely type A intercalated cells (n=87), type B intercalated cells (n=23), principal cells (74), proximal tubule cells (n=19), and non-epithelial cells (n=32). The identified patterns of gene expression among A-ICs, B-ICs and PCs provide a foundation for understanding physiological regulation and pathophysiology in the renal collecting duct.
+
+DESIGN
+Single-cell RNA-Seq data were generated from separate fludigm chips. 11 microdissected mouse CCDs and 8 cTALs were included for for single-tubule RNA-Seq.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL21493 Illumina HiSeq 3000 (Mus musculus)
+
+CITATIONS
+29089413
+

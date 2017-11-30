@@ -1,0 +1,18 @@
+TITLE
+Alternative splicing detection workflow needs a careful combination of sample prep and bioinformatics analysis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Different Library Sample Preparation (LSP) allow the detection of a large common set of isoforms. However, each LSP also detects a smaller set of isoforms which are characterized both by lower coverage and lower FPKM than that observed for the common ones among LSPs. This characteristic is particularly critical in case of low input RNA NuGEN v2 LSP. The effect of statistical detection of alternative splicing considering low input LSP (NuGEN v2) with respect to high input LSP (TruSeq) was studied using a benchmark dataset, in which both synthetic reads and reads generated from high and low input LSPs were spiked-in. Statistical detection of alternative splicing was done using prototypes of bioinformatics analysis for isoform-reconstruction and exon-level analysis.
+
+DESIGN
+Each available sample contains a total of 5 paired end replicates. 3 samples contain increasing numbers of spiked-in reads (20, 40, 80 millions) from NuGENv2 library preparation kit on a common TruSeq 1000ng background. 3 additional samples were built with the same approach, but spiked-in reads were collected from a TruSeq-based experiment. The remaining 6 samples follow the same approach of the previous 6, but the common background is based on a TruSeq library preparation on 100ng of material
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Matteo Carrara, Josephine Lum, Francesca Cordero, Marco Beccuti, Michael Poidinger, Susanna Donatelli, Raffaele A Calogero, Francesca Zolezzi. Alternative splicing detection workflow needs a careful combination of sample prep and bioinformatics analysis. Cold Spring Harbor Laboratory bioRxiv http://dx.doi.org/10.1101/005546
+

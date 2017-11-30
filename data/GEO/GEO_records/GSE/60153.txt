@@ -1,0 +1,18 @@
+TITLE
+Towards a PBMC " virogram assay " for precision medicine: concordance between ex vivo and in vivo viral infection transcriptomes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BACKGROUND: Understanding individual patient host response to viruses is key to designing optimal personalized therapy. Unsurprisingly, in-vivo human experimentation to understand individualized dynamic response of the transcriptome to viruses are rarely studied because of the obvious limitations stemming from ethical considerations of the clinical risk. OBJECTIVE: In this rhinovirus study, we first hypothesized that ex-vivo human cells response to virus can serve as a proxy for otherwise controversial in-vivo human experimentation. We further hypothesized that the N-of-1-pathways framework, previously validated in cancer, can be effective in understanding the more subtle individual transcriptomic response to viral infection. METHOD: N-of-1-pathways computes a significance score for a given list of gene sets at the patient level, using merely the 'omics profiles of two paired samples as input. We extracted the peripheral blood mononuclear cells (PBMC) of four human subjects, aliquoted in two paired samples, one subjected to ex-vivo rhinovirus infection. Their dysregulated genes and pathways were then compared to those of 9 human subjects prior and after intranasal inoculation in-vivo with rhinovirus. Additionally, we developed the Similarity Venn Diagram, a novel visualization method that goes beyond conventional overlap to show the similarity between two sets of qualitative measures. RESULTS: We evaluated the individual N-of-1-pathways results using two established cohort-based methods: GSEA and enrichment of differentially expressed genes. Similarity Venn Diagrams and individual patient ROC curves illustrate and quantify that the in-vivo dysregulation is recapitulated ex-vivo both at the gene and pathway level (p-values < 0.004). CONCLUSION: We established the first evidence that an interpretable dynamic transcriptome metric, conducted as ex-vivo assays for a single subject, has the potential to predict individualized response to infectious disease without the clinical risks otherwise associated to in-vivo challenges. These results serve as a foundational work for personalized " virograms " .
+
+DESIGN
+PBMC INCUBATED WITH VIRUSES: The live PBMCs had been isolated from blood samples collected from four human subjects under a protocol approved by The University of Arizona Internal Review Board. Whole blood was obtained from donors and placed in Becton Dickenson’s CPT tubes that were centrifuged according to standard protocols to obtain PBMCs, and then each aliquoted in two paired samples. Each sample of the pair was subsequently exposed to and incubated with either (i) Human Rhinovirus serotype 16 (ex vivo infected sample) or to (ii) sterile medium (control ex vivo non-infected sample) and incubated at 37 °C in 5% CO2 for 24 h. This protocol resulted in 4 ex vivo infected + 4 ex vivo controls = 8 paired samples. RNA was extracted from these samples, amplified, tagged, and hybridized on Affymetrix Human Gene 1.0 ST microarrays according to standard operating procedures. DATA NORMALIZATION: Robust Multiple-array Average (RMA) normalization was applied on each patient data independently (2 paired samples at a time, to avoid bias in the single-patient experiments) using Affymetrix Power Tools (APT)
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+25797143
+

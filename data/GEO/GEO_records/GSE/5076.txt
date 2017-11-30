@@ -1,0 +1,18 @@
+TITLE
+Anaerobic transcriptional responses of Escherichia coli to NO under defined chemostat conditions.
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Escherichia coli strain MG1655 was grown in a New Brunswick Scientific Bioflow III Biofermentor under continuous culture (chemostat) conditions. Cells were grown in defined media containing 54 mM glycerol as the sole and limiting source of energy and carbon. The working volume was 1 litre, and the dilution rate 0.1 h-1. In order to establish anaerobic growth, nitrogen was sparged through the chemostat medium prior to inoculation and throughout the course of the experiment at a rate of 0.2 l/min. No dissolved oxygen was detectable using the OxyProbe. Sodium fumarate was added to anaerobic medium at a final concentration of 50 mM to act as a terminal electron acceptor. Cells were grown as above to steady-state, At steady-state, NOC-5 and NOC-7 were added to the chemostat culture and to the nutrient feed at a final concentration of 10 uM of each, unless otherwise stated. Samples were taken immediately prior to the addition of NOCs and after a period of 5 min exposure to NOC for subsequent analysis using microarrays. Cells were harvested directly into RNA Protect (Qiagen) to stabilize RNA, and total RNA was purified using Qiagen’s RNeasy Mini kit as recommended by the suppliers. Equal quantities of RNA from control and NOC-supplemented cultures were labelled using nucleotide analogues of dCTP containing either Cy3 or Cy5 fluorescent dyes. The average signal intensity and local background correction were obtained using a commercially available software package from Biodiscovery, Inc (Imagene, version 4.0 and GeneSight, version 3.5). The mean values from each channel were log2 transformed and normalised using the Lowess method to remove intensity-dependent effects in the log2(ratios) values. The Cy3/Cy5 fluorescent ratios were calculated from the normalized values. Keywords: Stress Reponse, Continuous culture, Chemostat, NO, Nitric oxide
+
+DESIGN
+Two biological repeats (ie. two chemostat runs) were grown. Control and exposed samples were taken as described in summary. For each chemostat run 2 hybridisations were performed. One in which the control was Cy3 labelled whilst the exposed was Cy5 labelled, and a dye swap.
+
+PLATFORM
+GPL534 MWG E. coli K12 Array
+
+CITATIONS
+17189370
+

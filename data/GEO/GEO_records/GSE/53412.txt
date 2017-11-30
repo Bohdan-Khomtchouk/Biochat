@@ -1,0 +1,18 @@
+TITLE
+The C. elegans SNAP complex component SNPC-4 coats piRNA domains and globally affects piRNA abundance
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Remarkably, tens of thousands of piwi-interacting RNAs (piRNAs) arise from a minimal number of discrete clustered regions in many organisms. However, it remains unclear if organization into these domains contributes to the highly coordinated, germline-specific expression of these small RNAs. Here, we show that SNPC-4, the DNA-binding subunit of the small nuclear RNA activating protein complex (SNAPc), binds piRNA clusters in a germline-specific manner and is required for global piRNA expression in C. elegans. Within piRNA domains, SNPC-4 not only binds at discrete sites through its established sequence motif, but also exhibits widely distributed binding across the region. Intriguingly, discrete peaks are not found at every piRNA, but instead occur frequently at Pol III-occupied tRNA genes, which have been previously implicated in chromatin organization. Given its unique binding pattern, we suggest that SNPC-4 promotes robust piRNA expression by establishing a permissive chromatin environment at clusters specifically in the germ line.
+
+DESIGN
+This data submission includes a total of 11 ChIP-seq samples and 2 RNA-seq samples. The ChIP-seq samples include six timecourse samples (Emb-YA) and three tissue-specific samples (WA, GL, SO) for one factor called SNPC-4 (previously called GEI-11).  The remaining two ChIP-seq samples are for pol II (AMA-1) and pol III (RPC-1) at one developmental stage.  All of these samples were done in replicate, with inputs, yielding at least four sequencing files per sample.  Some of the ChIP-seq samples already have fastq files submitted to GEO:  (SNPC-4 EMB _GSE48744: GSM1183805, GSM1183806, GSM1183807, GSM1183808), (SNPC-4 L1_GSE48702: GSM1183629, GSM1183630, GSM1183631, GSM1183632), (SNPC-4 L2_GSE37809: GSM928364, GSM928365, GSM928366, GSM928367), (SNPC-4 L3_GSE35276: GSM864851, GSM864852, GSM864853, GSM864854), and (AMA-1_GSE15535: GSM389309, GSM389310, GSM389312, GSM389313).  We are submitting fastq files for the remaining ChIP-seq datasets:  SNPC-4 L4 - 4 files, SNPC-4 YA - 5 files, SNPC-4 WA - 4 files, SNPC-4 GL - 4 files, SNPC-4 SO - 4 files, and RPC-1 WA - 5 files.  Thus we are submitting an additional 26 fastq files.  Additionally, we are submitting processed files for all 11 datasets, consisting of one normalized file for the combined duplicate IP and one normalized file for the input sequence.  In the case of the three tissue-specific samples for SNPC-4, we are submitting an additional processed (but not normalized) file that represents the IP data with input-subtracted.  Thus, we are submitting a total of 25 processed files.  NOTE:  The processed files for the ChIP-seq samples that already have fastq files submitted to GEO (SNPC-4 EMB _GSE48744, etc.) are linked below as supplementary files at the foot of the Series record. The RNA-seq samples represent one control (control_RNAseq) and one treatment (SNPC-4(RNAi)_RNA-seq)and were not duplicated.  We are submitting one fastq file for each, as well as one processed data file for each, for a total of 2 fastq and 2 processed data files.
+
+PLATFORM
+GPL9269 Illumina Genome Analyzer II (Caenorhabditis elegans)
+
+CITATIONS
+25373775
+

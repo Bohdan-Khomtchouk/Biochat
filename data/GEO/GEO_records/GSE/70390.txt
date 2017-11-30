@@ -1,0 +1,18 @@
+TITLE
+Long non-coding RNAs display higher natural expression variation than protein-coding genes in healthy humans
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Long non-coding RNAs (lncRNAs) are increasingly implicated as gene regulators and may ultimately be more numerous than protein-coding genes in the human genome. Despite large numbers of reported lncRNAs, reference annotations are likely incomplete due to their lower and tighter tissue-specific expression compared to mRNAs. An unexplored factor potentially confounding lncRNA identification is inter-individual expression variability. Here, we characterize lncRNA natural expression variability in human primary granulocytes. Results: We annotate granulocyte lncRNAs and mRNAs in RNA-seq data from ten healthy individuals, identifying multiple lncRNAs absent from reference annotations, and use this to investigate three known features (higher tissue-specificity, lower expression, and reduced splicing efficiency) of lncRNAs relative to mRNAs. Expression variability was examined in seven individuals sampled three times at one or more than one month intervals. We show that lncRNAs display significantly more inter-individual expression variability compared to mRNAs. We confirm this finding in 2 independent human datasets by analyzing multiple tissues from the GTEx project and lymphoblastoid cell lines from the GEUVADIS project. Using the latter dataset we also show that including more human donors into the transcriptome annotation pipeline allows identification of an increasing number of lncRNAs, but minimally affects mRNA gene number. Conclusions: A comprehensive annotation of lncRNAs is known to require an approach that is sensitive to low and tight tissue-specific expression. Here we show that increased inter-individual expression variability is an additional general lncRNA feature to consider when creating a comprehensive annotation of human lncRNAs or proposing their use as prognostic or disease markers.
+
+DESIGN
+We used PolyA+ RNA-seq data from human primary granulocytes of 10 healthy individuals to de novo annotate lncRNAs and mRNAs in this cell type and ribosomal depleted (total) RNA-seq data from seven of these individuals sampled three times to analyze lncRNA amd mRNA expression variability
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26821746
+

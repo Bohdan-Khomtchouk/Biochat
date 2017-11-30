@@ -1,0 +1,18 @@
+TITLE
+Effect of LacI (lac repressor) on transcription in Salmonella
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+
+SUMMARY
+Salmonella is an important enteric pathogen that causes a spectrum of diseases varying from mild gastroenteritis to life threatening typhoid fever. Salmonella does not have lac operon. However, E. Coli, Salmonella’s close relative, has lac operon. Being an enteric pathogen like E. coli, Salmonella will also benefit from lac operon. Then, why Salmonella has lost lac operon?. To address this question, lacI, an important component of lac operon was expressed in Salmonella via pTrc99A plasmid.  As a control, pTrc99A without lacI was also expressed in Salmonella. The effect of LacI on the transcription profile of Salmonella was analyzed using microarray technique.
+
+DESIGN
+Overall design	The total RNA was isolated from Salmonella using ‘RNeasy Mini Kit’ (QIAGEN). Organism used: Salmonella enterica serovar Typhimurium  LT2 * Slides: Agilent’s arrays (8x15k) AMADID: NO: 17809 * Starting material: Salmonella RNA in nuclease-free water * RNA Samples used: Wild type (WT), WT + pTrc99A+LacI (PTRC), WT + pTrc99A-LacI(Delta lac) * Labeling kit: MessageAmp™ II-Bacteria RNA Amplification Kit from Ambion Cat # AM1790 * Labeling Method: T7 promoter based-linear amplification to generate labeled complementary RNA * Total RNA and cRNA Purification Kit: Qiagen’s RNeasy minikit Cat#74104 * Hybridization Kit: Agilent’s In situ Hybridzation kit 5184-3568 * RNA quality was checked using Bioanalyzer. The array slides were scanned immediately by PerkinElmer Scan array Gx Microarray scanner. The Scan array software (PerkinElmer) was used for grid wise normalization of array images. Two arrays were used with mutant and rescue experiments and dye swap experiments were included in the final analysis. The data was analysed by GeneSpring GX and Biointerpreter software from Genotypic Technology, Bangalore. The differential expression was considered if the Log 2 mean of at least -1 for the down regulated genes and +1 for the upregulated genes. We considered only the genes that were reproducible from both replicates.
+
+PLATFORM
+GPL8520 Indian Institute of Science, Salmonella Typhimurium 15K array version 1
+
+CITATIONS
+19495420
+

@@ -1,0 +1,18 @@
+TITLE
+The Open Chromatin Landscape of Kaposi's Sarcoma-Associated Herpesvirus
+
+ORGANISM
+Human gammaherpesvirus 8
+
+SUMMARY
+Kaposi’s sarcoma-associated herpesvirus (KSHV) is an oncogenic gammaherpesvirus which establishes latent infection in endothelial and B cells, as well as in primary effusion lymphoma (PEL). During latency, the viral genome exists as a circular DNA minichromosome (episome) and is packaged into chromatin analogous to human chromosomes. Only a small subset of promoters, those which drive latent RNAs, are active in latent episomes. In general, nucleosome depletion (“open chromatin”) is a hallmark of eukaryotic regulatory elements such as promoters and transcriptional enhancers or insulators. We applied formaldehyde-assisted isolation of regulatory elements (FAIRE) followed by next-generation sequencing to identify regulatory elements in the KSHV genome and integrated these data with previously identified locations of histone modifications, RNA polymerase II occupancy, and CTCF binding sites. We found that (i) regions of open chromatin were not restricted to the transcriptionally defined latent loci; (ii) open chromatin was adjacent to regions harboring activating histone modifications, even at transcriptionally inactive loci; and (iii) CTCF binding sites fell within regions of open chromatin with few exceptions, including the constitutive LANA promoter and the vIL6 promoter. FAIRE-identified nucleosome depletion was similar among B and endothelial cell lineages, suggesting a common viral genome architecture in all forms of latency.
+
+DESIGN
+Ten total samples analyzed by FAIRE-seq from latent KSHV-infected cell lines.  Two replicates were performed for BC1, KSHV-BJAB, KSHV-HUVEC, and L1-TIVE cells using the Illumina HiSeq 2000 platform.  For BCBL1 cells, 1 FAIRE-seq sample and 1 non-cross-linked control BCBL1 sample was analyzed using the Illumina GAIIx
+
+PLATFORM
+GPL17680 Illumina HiSeq 2000 (Human herpesvirus 8) GPL17681 Illumina Genome Analyzer IIx (Human herpesvirus 8)
+
+CITATIONS
+23986576
+

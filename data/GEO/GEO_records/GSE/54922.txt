@@ -1,0 +1,18 @@
+TITLE
+Deep sequencing shows multiple oligouridylations are required for 3' to 5' degradation of histone mRNAs on polyribosomes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We developed a customized RNA-Seq strategy to identify the 3' termini of degradation intermediates of histone mRNAs. Using this strategy, we identified two types of oligouridylated degradation intermediates: RNAs ending at different sites of the 3' side of the stemloop that resulted from initial degradation by 3'hExo and intermediates near the stop codon and within the coding region. We established a method for identifying degradation intermediates for replication-depdendent histone mRNAs.  Histone mRNAs are present in large amounts in S-phase cells.  Inhibition of DNA replication results in a rapid degradation of histone mRNA.  We developed an approach to selectively amplify the 3' ends of histone mRNA molecules, including degradation intermediates, which we then sequenced.  Using a novel bioinformatics platform we identified degradation intermediates including many that had untemplated nts added to the 3' end.  We identified a large variety of degradation intermediates that contained oligo(U) tails.  We were able to deduce the 3' to 5' pathway of histone mRNA degradation.
+
+DESIGN
+RNA-seq with a custom 3' linker: The samples analyzed included two biological replicates of RNAs before and 20 min after HU treatment (samples 1, 26, 27) capped RNAs from cells treated with HU for 20 min (samples 2,3,16,17) RNA isolated from polyribosomes 20 min after HU treatment, from untreated cells (samples 4-9) and cells treated with pactamycin for 5 min (samples 10-15); from cells in which the exosome subunit Pml/SC100 had been knocked down (samples 22-23) and cells treated with the control siRNA (samples 20-21). Please note that, for Sample 2 and Sample 3, the sequencer was unable to recover both ends in the mate pairs for these two sequencing runs, but we chose to use these data anyway since the reads that were recovered included the 3' linker that we used to determine the presence of untemplated additions.
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens)
+
+CITATIONS
+24656133 , 26015596
+

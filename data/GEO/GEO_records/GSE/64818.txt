@@ -1,0 +1,18 @@
+TITLE
+Evolutionary analysis across mammals reveals distinct classes of long noncoding RNAs
+
+ORGANISM
+Homo sapiens ; Mus musculus ; Mus musculus castaneus ; Rattus norvegicus
+
+SUMMARY
+Recent advances in transcriptome sequencing have enabled the discovery of thousands of long non-coding RNAs (lncRNAs) across many species. Though several lncRNAs have been shown to play important roles in diverse biological processes, the functions and mechanisms of most lncRNAs remain unknown. Two significant obstacles lie between transcriptome sequencing and functional characterization of lncRNAs: identifying truly non-coding genes from de novo reconstructed transcriptomes, and prioritizing the hundreds of resulting putative lncRNAs for downstream experimental interrogation. We present slncky, a computational lncRNA discovery tool that produces a high-quality set of lncRNAs from RNA-sequencing data and further uses evolutionary constraint to prioritize lncRNAs that are likely to be functionally important. Our automated filtering pipeline is comparable to manual curation efforts and more sensitive than previously published computational approaches. Furthermore, we develop a sensitive alignment pipeline for aligning lncRNA loci and propose new evolutionary metrics relevant for analyzing sequence and transcript evolution. Our analysis reveals that evolutionary selection acts in several distinct patterns, and uncovers two notable classes of intergenic lncRNAs: one showing strong purifying selection on RNA sequence and another where constraint is restricted to the regulation but not the sequence of the transcript.
+
+DESIGN
+To study a comprehensive and comparable set of lncRNAs expressed in the pluripotent state, we analyzed RNA-Seq data from pluripotent cells derived from several strains and species, and grown in two physiological conditions. First we derived “naïve” ES cells (ESCs) from each of three different mice strains: 129SvEv, NOD, and Mus musculus castaneus (cast) mouse, a wild mouse subspecies originally from Thailand, as well as naïve induced pluripotent stem (iPS) cells from rat and human. Next, to facilitate comparisons across pluripotent cells from different species, we also cultured mouse and rat cells in “primed” epiblast stem cell (EpiSC) culture conditions, since human iPS cells in culture are much more similar molecularly and functionally to mouse primed EpiSCs rather than to a ground state naïve ESCs. We polyA selected RNA from each cell type and deeply sequenced on HiSeq2500
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL18694 Illumina HiSeq 2500 (Rattus norvegicus) GPL19618 Illumina HiSeq 2500 (Mus musculus castaneus)
+
+CITATIONS
+26838501
+

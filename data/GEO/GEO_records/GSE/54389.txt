@@ -1,0 +1,18 @@
+TITLE
+A genetic approach of wine yeast fermentation capacity in nitrogen-starvation reveals the key role of nitrogen signaling.
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+In conditions of nitrogen limitation, Saccharomyces cerevisiae strains differ in their fermentation capacities, due to differences in their nitrogen requirements. A population of 133 individuals from the F2 segregant population from a cross between two strains with different nitrogen requirements for efficient fermentation has been analyzed for their fermentation capacities. Two groups of 15 strains were defined, one group of High and one of Low Nitrogen requirement. These two groups are compared in order to detect genomic regions involved in the differences of nitrogen requirement. We used a custom isothermal array that has been designed for the detection of SNP at 6317 position on RM11.1a genome sequence http://www.broadinstitute.org/annotation/genome/saccharomyces_cerevisiae.3/Home.html ) and obtained from the comparison with the genome sequence of strain Saccharomyces P3-D5.
+
+DESIGN
+Each parental strain and each pool of segregant (Low Nitrogen Requirement LNR and High Nitrogen Requirement HNR) are hybridized in duplicates on the array (8*15k from Agilent). Each DNA pool is labeled with Cy3. A pool of both parental strains, labeled in Cy5, is used as a reference for each hybridization. Please note that the array is built on pairs of probes, with each probe specific to one parent. S o that we calculate the hybridization differences between each probes in a pair which is proportional to the allele frequencies. The manner the probes used for the analysis are coded such as: SACE-rm11-Chr03_1000412_1000394_1000422_r_P3 SACE-rm11-Chr03_1000412_1000395_1000422_f_RM11 where SACE-rm11 is the reference genome, Chr03_1000412 the SNP location, 1000394_1000422 the coordinates of the probe, and P3 or RM11 the name of the ancestral allele. The processed_data.txt contains the further-processed log ratio data between the P3 specific probe and the RM11 specific probe along with the data description.
+
+PLATFORM
+GPL18217 Agilent-045343 Saccharomyces cerevisiae VinVoile 8x15K
+
+CITATIONS
+24947828
+

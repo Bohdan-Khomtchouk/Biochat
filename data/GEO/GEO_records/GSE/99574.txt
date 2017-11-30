@@ -1,0 +1,18 @@
+TITLE
+RNA-seq of sexed adult tissues/body parts from eight Drosophila species
+
+ORGANISM
+Drosophila ananassae ; Drosophila melanogaster ; Drosophila mojavensis ; Drosophila persimilis ; Drosophila pseudoobscura ; Drosophila virilis ; Drosophila yakuba ; Drosophila willistoni ; synthetic construct
+
+SUMMARY
+This data set contains polyA+ transcriptional profiling of sexed adult tissues/body parts and whole adults of eight Drosophila species: Drosophila melanogaster (FBsp00000001) from two strains [w1118 (FBst0005905) and Oregon-R (FBst0025211)], Drosophila yakuba (FBsp00000254), Drosophila ananassae (FBsp00000052), Drosophila pseudoobscura (FBsp00000201), Drosophila persimilis (FBsp00000188), Drosophila willistoni (FBsp00000253), Drosophila mojavensis (FBsp00000160), and Drosophila virilis (FBsp00000251).
+
+DESIGN
+Samples were collected in quadruplicate from sexually-mature freely-mated adults (4 to 14 days post-eclosion).  Samples were either sexed whole flies (individual) or tissues/body parts (pooled from 2-5 flies).  For the two strains of D. melanogaster, we profiled whole flies along with seven adult tissues/body parts for each sex.  Dissection examples are shown in Figure 1.  Samples were whole organism (FBbt:00003004), head (FBbt:00003007, Fig. 1A), thorax (FBbt:00003018, Fig. 1B) without digestive system, abdomen (FBbt:00003023, Fig. 1C) without digestive or reproductive system, gonad [female (FBbt:00004865, Fig. 1D) or male (FBbt:00004928, Fig. 1E)], reproductive system [female (FBbt:00004864, Fig. 1F) or male (FBbt:00004927, Fig. 1G)] without gonad or genitalia, genitalia [female (FBbt:00004827, Fig. 1H) or male (FBbt:00004828, Fig. 1I)], and digestive (FBbt:00003123) plus excretory (FBbt:00005724) system (Fig. 1J).  For non-melanogaster species, we dissected as above except genitalia were included in the reproductive system without gonad.  Non-melanogaster strains were: D. yakuba (Drosophila Species Stock Center ID: 14021-0261.01), D. ananassae (14021-0371.13), D. pseudoobscura (14011-0121.94), D. willistoni (14030-0811.24), D. virilis (15010-1051.87), D. persimilis (14011-0111.49), and D. mojavensis (15081-1352.22).  After extracting RNA from each sample, we mixed equal amounts of total RNA (except genitalia samples from D. melanogaster) from each of three genetically distant species (rate of cross-mapping in simulations < 0.6%).  Specifically, we mixed RNA of:  1) D. melanogaster (w1118), D. pseudoobscura, and D. virilis; 2) D. melanogaster (Oregon-R), D. mojavensis, and D. persimilis; 3) D. yakuba, D. ananassae, and D. willistoni.  We isolated polyA+ RNA from these pools and prepared RNA-seq libraries, which were further multiplexed with indexed adaptors and pooled for sequencing.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster) GPL13307 Illumina HiSeq 2000 (Drosophila yakuba) GPL13309 Illumina HiSeq 2000 (Drosophila ananassae) GPL13310 Illumina HiSeq 2000 (Drosophila pseudoobscura) GPL13311 Illumina HiSeq 2000 (Drosophila mojavensis) GPL13313 Illumina HiSeq 2000 (Drosophila virilis) GPL14359 Illumina HiSeq 2000 (Drosophila willistoni) GPL15228 Illumina HiSeq 2000 (synthetic construct) GPL17717 Illumina HiSeq 2000 (Drosophila melanogaster; Drosophila pseudoobscura; Drosophila virilis) GPL23340 Illumina HiSeq 2000 (Drosophila persimilis) GPL23536 Illumina HiSeq 2000 (Drosophila ananassae; Drosophila willistoni; Drosophila yakuba) GPL23537 Illumina HiSeq 2000 (Drosophila melanogaster; Drosophila mojavensis; Drosophila persimilis)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

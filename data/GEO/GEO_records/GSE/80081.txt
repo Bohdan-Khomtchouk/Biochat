@@ -1,0 +1,18 @@
+TITLE
+Expression profiling of muscles in NOD-SCID mice bearing RXF and SKR tumors
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Cachexia is a devastating muscle wasting syndrome that occurs in patients suffering from chronic diseases, most commonly observed in 80% of advanced cancer patients. One of the primary causes of cachexia-associated morbidity and mortality is involuntary muscle wasting. And while many cachexia patients show hypermetabolism, its causative role in muscles had remained unclear. To understand the molecular basis of this muscle wasting, accurate models of cachexia are necessary. Using transcriptomics and cytokine profiling of human muscle stem cell-based models and human cancer-induced cachexia models in mice, we found that cachectic cancer cells secreted many inflammatory factors which rapidly led to higher levels of fatty acid metabolism and the activation of a p38 stress response signature, before the cachectic muscle wasting is manifested. Metabolomics profiling revealed that factors secreted by cachectic cancer cells rapidly induce excessive fatty acid oxidation in human myotubes, leading to oxidative stress, p38 activation, and impaired muscle growth. Pharmacological blockade of fatty acid oxidation not only rescued human myotubes, but also significantly improved muscle mass and total weight in cancer cachexia models in vivo. Therefore, fatty acid-induced oxidative stress could be targeted to prevent cancer cachexia.
+
+DESIGN
+Three NOD-SCID mice were subcutaneously transplanted with RXF393 or SKRC39 cancer cells for 22 d. Quadriceps muscles were harvested and total RNA was extracted with the Trizol reagent (Ambion) for each mouse, processed with the Total Prep RNA for Illumina kit (Ambion), and hybridized to an Illumina MouseWG-6 v2.0 beadchip, then scanned on the Illumina Beadarray Reader. Array normalization was performed with Illumina Genome Studio Gene Expression module 1.9.0 using quantile normalisation. In total 6 RNA samples were prepared on the beadchip.
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

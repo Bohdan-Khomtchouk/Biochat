@@ -1,0 +1,18 @@
+TITLE
+Phenotype-directed analysis of genotype in early-onset, familial breast cancers using arrayCGH
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Summary: Considerable heterogeneity of morphology and disease outcome exists within breast cancers (BC), which likely reflects variable molecular pathogeneses within this broad clinical group. Aim: To evaluate the underlying genomic alterations associated with familial, early-onset BC (EOBC) phenotypes, in order to improve the management of this disease. Methods: Using hierarchical clustering of morphological and immunophenotypical parameters, 116 EOBC were stratified into six groups. Conventional and array-based comparative genomic hybridisation was used to analyse the genomic alterations. Results: Specific areas of genomic imbalance were associated with individual phenotypes. The largest phenotypical group was high grade, oestrogen receptor and HER-2 negative. This group contained the majority of BRCA1 germline mutation-associated tumours and commonly showed loss of chromosomal regions 5cent-5q13, 5q14–22 and 4q28–32. High mitotic rate, an important indicator of tumour cell proliferation and poor prognosis, was associated with gain of 19p, mapped within 7 Mb of the telomere. This region contains the candidate oncogene CDC34, the protein product of which is involved in ubiquitin-mediated degradation of the cyclin-dependent kinase inhibitor, p27Kip1. Conclusion: Phenotype-based analysis can be used to determine the genetic changes important in subtypes of BC. Further, the different morphological phenotypes could act as a cost-effective surrogate for genotypical stratification to facilitate optimal management of this disease. Keywords: comparative genomic hybridisation, breast cancer, aCGH
+
+DESIGN
+aCGH data was produced for 27 cases within a cohort of 116 Early Onset Breast Cancers (Phenotype-directed analysis of genotype in early-onset, familial breast cancers. Pathology 2006 GARETH R. PRICE, JANE E. ARMES, SUSAN J. RAMUS, ELENA PROVENZANO, BEENA KUMAR, TIFFANY F. COWIE, JOHN CICIULLA, ANNE-MARIE HUTCHINS, MERVYN THOMAS AND DEON J. VENTER). Cases were chosen to represent each of 6 phenotypic cluster represented in Price et al, 2006. DNA was extracted from formalin-fixed paraffin embedded tissue and subjected to amplification and labelling using a modified cCGH procedure detailed in Price et al, 2006. The normalized data matrix below was generated as follows: All following steps refer to Spot Ratio generated as: [(F653-B635) / (F532-B532)] 1) Spot Ratio normalised across entire sample to Median = 1 2) Spots removed where either 635nm or 532nm Feature/Background ratio was < 1.2 3) Spots removed where either 635nm or 532nm Feature signal was < 0.66 of whole slide Background median signal for corresponding nm channel 4) Removed individual spots where Flag status did not equal 0 5) BAC spot pairs were averaged by Meta_Row position (BAC spots duplicated in Blocks 1 and 2, corresponding to Meta_Row positions 1 and 2), therefore a BAC represented more than twice on the slide will only be averaged within its Meta_Row pairing, not averaged across all instances on the slide 6) Individual spot data rows were removed if SPOT_ID = “Control” or “Empty” Original file contains: 3840 Total Spots - 96 Control Spots - 640 Empty Spots = 3104 BAC spots /2 (average) = 1552 individual BAC IDs
+
+PLATFORM
+GPL5015 Human BAC array 2-4Mb NoGap
+
+CITATIONS
+17393978
+

@@ -1,0 +1,18 @@
+TITLE
+Transcriptome Profiling of Testis Tissue from Boars with Good and Bad Sperm DNA Fragmentation Index
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Chromatin packaging in sperm protects it against DNA fragmentation, and the importance of proper chromatin packaging for boar fertility outcome has become increasingly evident. Little is known however about the molecular mechanisms underlying differences in sperm DNA fragmentation and an understanding of the genes controlling this sperm parameter could help in selecting the best boars for AI use. The aim of this study was to identify differentially expressed genes in testis of Norsvin Landrace and Duroc boars with good and bad sperm DNA fragmentation using transcriptome sequencing and to use the data for polymorphism search. RNA sequence reads were obtained using Illumina technology and mapped by TopHat using the Ensembl pig database. Differentially expressed genes and pathways were analyzed using the R Bioconductor packages edgeR and goseq respectively. Using a false discovery rate of 0.05, 309 and 375 genes were found displaying significant differences in expression level between the good and bad condition in Landrace and Duroc respectively. Of the differentially expressed genes, 72 were found in common for the two breeds. Gene ontology analysis revealed that terms common for the two breeds included extracellular matrix, extracellular region and calcium ion binding. Additionally, different metabolic processes were enriched in Landrace and Duroc, whereas immune response ontologies were found to be important in Landrace. SNP detection in Landrace/Duroc identified 53182/53931 variants in 10924/10748 transcripts and of these, 1573/1827 SNPs occurred in 189/241 unique genes that were also differentially expressed. Possible high impact variants were detected using SnpEff. Transcriptome sequencing identified differentially expressed genes and nucleotide variants related to differences in sperm DNA fragmentation, and functional annotation of the genes pointed towards important biochemical pathways. This study provides insights into the genetic network underlying this trait and is a first step towards using sperm DNA fragmentation for predicting boar fertility.
+
+DESIGN
+Nine Landrace, five low and four high, and eleven Duroc, five low and six high, boars were selected for transcriptome profiling based on their extreme DFI values. The biological replicates within the high and low groups were compared.
+
+PLATFORM
+GPL19176 Illumina HiSeq 2500 (Sus scrofa)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

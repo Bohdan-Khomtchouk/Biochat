@@ -1,0 +1,18 @@
+TITLE
+The impact of cell source, culture methodology, culture location and individual donors on gene expression profiles of bone marrow-derived and adipose-derived stromal cells.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression was influenced most by the tissue source, followed by culture methodology, next by location where the cells were cultured and lastly the donor variability.
+
+DESIGN
+On the normalized log2 expression values per gene a multifactorial Analyses of Variance (ANOVA) was conducted. Factors CELL CULTURES (cell source), MEDIUM (culture methodology), LOCATION (culture location), and SCAN DATE (hybridization batch) were included in the ANOVA model as independent factors. The following pairwise comparisons were made; Fetal calf serum vs. Human platelet lysate, Bone marrow vs. Adipose tissue, Utrecht vs. Leiden, Utrecht vs Nijmegen, and Leiden vs Nijmegen. Changes ≥2  and Benjamini Hochberg corrected p-values < 0.05 were considered significant.
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23145933
+

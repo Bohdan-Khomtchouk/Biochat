@@ -1,0 +1,18 @@
+TITLE
+Defining the role of a CzcRS-like two-component system in Burkholderia cenocepacia K56-2 (RNA-Seq)
+
+ORGANISM
+Burkholderia cenocepacia
+
+SUMMARY
+BACKGROUND: We identified that a putative CzcRS-like two-component system (TCS) in Burkholderia cenocepacia K56-2 is required for heavy metal resistance and virulence. To investigate this TCS further, we applied RNA-seq to determine the transcriptional response of wildtype and CzcRS-deficient B. cenocepacia to subinhibitory concetrations of zinc. METHODS. Wildtype B. cenocepacia K56-2 was cultured in LB broth with and without 1.5 mM zinc chloride. In parallel, a ΔczcRS mutant strain was also cultured in 1.5 mM zinc chloride. Total RNA was extracted from triplicate mid log-phase cultures for each strain/culture condition.  Illumina Sequencing libraries were prepared from 50 ng ribosomal-depleted RNA using ScriptSeq v2 with indexing and 15 cycles of PCR amplification using Kapa HiFi DNA polymerase. The amplified libraries were purified using a 1:1 ratio of Ampure XP beads resulting in 45-75nM concentrations and average insert size of 350 bp. Libraries were pooled in equimolar concentrations, denatured and diluted to 6.5 pM before clustering on a cBOT (Illumina). Libraries were subjected to 100-bp paired-end sequencing on a HiSeq 2000 using TruSeq SBS v 3 reagents (Illumina). Paired-end reads were filtered using the fastq-mcf package from the ea-utils suite to remove reads with less than 90% Q20 scores or above and to trim off adaptor sequence. The reads were then aligned against the B. cenocepacia J2315 genome (NC_011001-NC_011003) using Bowtie 1 to remove reads mapping to ERCC spike-in. Abundance of ERCC spike-ins was then checked against predicted values to confirm successful library preparation. Tophat v2.0.4 was used to align reads against the reference genome. The Bedtools multicov command was used to extract per-gene counts for each gene. The DESeq suite was used to determine statistical significance of differential expression between conditions. RESULTS: Wildtype B. cenocepacia K56-2 showed a restricted transcriptional response to 1.5 mM zinc chloride, with only 54 genes exhibiting significant differential expression (≥ 1.5-fold; P < 0.05) compared to unsupplemented LB. This transcriptional response included genes encoding the CzcRS-like TCS itself and the associated efflux pump  (CzcCBA). In contrast, the ΔczcRS mutant strain when cultured in 1.5 mM zinc chloride exhbited a profound transcriptional response with 767 genes differentially expressed. Many genes showing differential expression in the ΔczcRS strain are indicative of a stress response, indicating the pivotal role of the CzcRS-like TCS in maintaining cellular homeostasis in response to zinc.
+
+DESIGN
+The transcriptional profile of wildtype Burkholderia cenocepacia K56-2 and the corresponding  ΔczcRS mutant to 1.5 mM zinc chloride was assessed in triplicate by Illumina HiSeq2000 sequencing.
+
+PLATFORM
+GPL19185 Illumina HiSeq 2000 (Burkholderia cenocepacia)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

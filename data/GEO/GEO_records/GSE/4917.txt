@@ -1,0 +1,18 @@
+TITLE
+Time course microarray data following GR activation in MCF10A-Myc breast cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This series contain time course microarray data from MCF10A-Myc cells treated with either ethanol or Dexamethasone for 30 min, 2 hr, 4 hr, and 24 hr. This series contains three biological replicates that were analyzed as independent replicate experiments (data were normalized within each replicate experiment, not across all samples). Keywords: time course
+
+DESIGN
+MCF10A-Myc cells were subjected to 72 hrs of growth factor withdrawal followed by treatment with either vehicle (ethanol) or Dex (10-6 M) for 0.5, 2, 4 or 24 hrs.  Total RNA from each sample was extracted using Qiagen’s RNeasy Kit.  Preparation of biotinylated cRNA and hybridization to oligonucleotide arrays (Affymetrix human genome genechip HG-U133A) were performed at the University of Chicago Microarray Core Facility.  HG-U133A genechip contains 22,215 probe sets that represent approximately 16,000 human genes.  The complete procedure was repeated independently three times.  Gene chips were scanned and analyzed using Robust Multi-array Average (RMA) algorithm.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+16690749
+

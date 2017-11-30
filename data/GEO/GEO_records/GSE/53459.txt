@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis of 3 WT mouse lines and 3 NTD mutants with the BAF155^msp3 allele
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+BAF155, as a component of a chromatin remodeling complex, is thought to be involved in the regulation of gene expression. Baf155 knockdown in ES cells results in misregulation of hundreds of genes (Ho et al., 2009). The Baf155msp3 allele presents a unique case for gene expression analysis wherein the BAF complex appears to be intact, in contrast to disruption of the BAF complex when BAF155 function is lost (Chen and Archer, 2005; Sohn et al., 2007). To examine gene expression in the Baf155msp3 mutant at the time of neural tube closure, we performed RNA-Seq and compared gene expression levels between homozygous wildtype and homozygous mutant embryos. After extensive analysis of the RNA-Seq data comparing all 3 mutants to all 3 WT replicates, 78 genes were identified as being upregulated on average in the mutant samples while 22 genes were downregulated. To facilitate an understanding of global gene expression differences, Ingenuity Pathway Analysis (IPA) was used to assign functional categories to the up- and down-regulated genes in the mutants. The most significant molecular and cellular functions of these genes were: 1. cellular movement (1.46E-04 > p > 4.12E-02), 2. cell death and survival (2.69E-04 > p > 4.12E-02), and 3. cell growth and proliferation (2.69E-04 > p > 3.41E-02). Many neuronal genes were significantly misregulated as well. Overall, the RNA-Seq analysis revealed that surprisingly few genes showed altered expression in Baf155 mutant neural tissue, given the broad epigenetic role of the BAF complex, but included genes involved in neural development and cell survival. Moreover, gene expression changes between individual mutants were variable even though the NTD was consistently observed. This suggests that inconsistent gene regulation contributes to failed neural tube closure.
+
+DESIGN
+RNA was isolated from somite matched (21-23 somites) and phenotype matched cranial tissue of homozygous wildtype and homozygous mutant embryos (3 of each genotype) at E9.5 just after the time of neural tube closure. At E9.5, the vast majority of the embryonic neural tube is comprised of proliferating neural progenitor cells, constituting a relatively homogeneous cell population.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24170322
+

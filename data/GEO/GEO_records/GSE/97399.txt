@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of quiescent muscle stem cells in vivo
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Many stem cell populations exist in a quiescent state in vivo, exiting quiescence and entering the cell cycle in response to specific stimuli. In the case of skeletal muscle, the muscle stem cells (MuSCs, or “satellite cells”) are quiescent under normal homeostatic conditions and undergo activation and cell cycle entry in response to muscle fiber damage. Quiescent MuSCs are also much more potent than their proliferating progeny in assays of stem cell transplantation. In recent years, it has become increasingly apparent that the quiescent state is both actively maintained and dynamically regulated. However, most of the analyses of quiescent MuSCs have come from cells that have been removed from their niche in vivo, purified by fluorescence activated cell sorting, and then assay ex vivo. Although such cells are still in the quiescent state under these conditions, there is no doubt that significant biochemical changes will occur during the isolation and purification process. Thus, we have sought to examine the true in vivo quiescent state by analyzing the transcriptome of MuSCs. To achieve that, we have used techniques to label actively transcribing RNA in vivo using nucleoside analogs. In mice in which the enzyme uracil phosphoribosyltransferase (UPRT) is expressed specifically in MuSCs, administration of 4-thiouracil (4TU), which is converted to thiouridine (TU) by UPRT, resulted in labelling of MuSC transcripts, and the transcriptome could be analyzed following pull-down of TU-tagged RNA. Varying the timing of 4TU administration revealed the dynamic regulation of different subsets of transcripts. Notably, labeling transcripts during the isolation procedure revealed very active transcription of specific subsets of genes. Nevertheless, the ex vivo transcriptome remained largely reflective of the in vivo transcriptome. Using the transcriptional inhibitor, α-amanitin, we were also able to show that there was little difference between the steady-state transcript levels of the most highly expressed genes when comparing the ex vivo transcriptome with the in vivo transcriptome. Together, these data provide a novel view of the molecular regulation of the quiescent state at the transcriptional level, demonstrate the utility of these tools for probing transcriptional dynamics in vivo, and provide an invaluable resource for understanding stem cell state transitions.
+
+DESIGN
+To examine nascent transcripts in MuSCs in vivo, Pax7CreER/+: UPRTHA/+ mice were injected with 4tU every 12 hours for 4 days (TU_4d), every 12 hours for 1 day (TU_1d), or 6 hours (TU_6h  in vivo) prior to harvesting of hindlimb muscles. Total RNA from hindlimb muscle (Input_muscle) was extracted and 4tU labelled transcripts were pulled down. In vivo labeling of MuSCs was compated to labeling nascent transcripts during the isolation procedure of MuSCs. During the ~6hr isolation procedure 4tU was added to the samples. Total RNA was isolated from purified MuSCs (Input_MuSC) and 4tU labeled RNA was pulled down (TU_sort ex vivo). The effect of nascent transcription on global RNA levels was determined by treating MuSC during the isolation procedure with the transcription inhibitor a-amanitin (MuSC_aAM) or DMSO control (MuSC_ctrlAM).
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL21103 Illumina HiSeq 4000 (Mus musculus)
+
+CITATIONS
+29141228
+

@@ -1,0 +1,18 @@
+TITLE
+High resolution mapping of modified nucleobases in DNA using excision repair enzymes
+
+ORGANISM
+Escherichia coli ; Saccharomyces cerevisiae
+
+SUMMARY
+Data from Excision-seq experiments to map deoxyuridine and pyrimidine dimers in S. cerevisiae and E. coli
+
+DESIGN
+For uracil mapping in pre-digestion Excision-seq, uracil was excised from genomic DNA from dut ung yeast and bacteria yielding double-stranded DNA fragments. Adapters were ligated to these fragments for Illumina library preparation. Using this method, the number of reads at a genomic location corresponds to the quantity of dU at that location. In post-digestion Excision-seq, uracil-containing library fragments are destroyed by UDG treatment, thus coverage is inversely proportional to uracil content. For pyrimidine dimer Excision-seq, yeast were irradiated with high doses of UVC light to generate a large number of DNA modifications.  Using the excision repair enzyme UVDE from S. pombe, we excised pyrimidine dimers, cutting the phosphodieseter bond to release small double stranded fragments. These fragments were repaired with either CPD photolyase or 6-4 photolyase to generate independent libraries for each modification type. Illumina adapters were ligated to these fragments for library preparation. Using this method the number of reads at a genomic location corresponds to the quantity of the 3' pyrimidine of the dimer.
+
+PLATFORM
+GPL9377 Illumina Genome Analyzer II (Saccharomyces cerevisiae) GPL10328 Illumina Genome Analyzer II (Escherichia coli) GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae) GPL17143 Illumina MiSeq (Saccharomyces cerevisiae)
+
+CITATIONS
+25015380
+

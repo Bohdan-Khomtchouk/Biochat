@@ -1,0 +1,18 @@
+TITLE
+Direct and tissue-specific assessment of the damaging potential of regulatory SNPs
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+In the era of GWAS and personalized medicine systematically deciphering the impact of non-coding sequence variation on the regulatory genome is a critical bottleneck. Here we present Sasquatch a novel computational approach to estimate and visualize the effects of noncoding-variants on transcription factor (TF) binding using DNase I footprint data. Developed to provide an unbiased approach to prioritise non-coding variants for functional analysis, Sasquatch performs exhaustive, k-mer based analysis of average footprints to determine any k-mers potential for TF binding and quantifies how this is changed by sequence variants.  Importantly the approach only requires one DNase-seq dataset per cell-type, from any genotype and is resilient across differing experimental procedures and sequence depths. We have made Sasquatch available as a versatile, high-throughput, webtool incorporating pre-processed human data from the Encode project and we demonstrate its effectiveness using validated causal GWAS SNPs and known polymorphic TF binding sites in erythroid tissues.
+
+DESIGN
+2 biological replicates using 2 growth protocols and 2 background controls of DNaseq-seq and 1 replicate and 1 background of ATAC-seq.
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

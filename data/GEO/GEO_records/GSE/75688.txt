@@ -1,0 +1,18 @@
+TITLE
+Single cell RNA sequencing of primary breast cancer.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We performed single cell RNA sequencing (RNA-seq) for 549 primary breast cancer cells and lymph node metastases from 11 patients with distinct molecular subtypes (BC01-BC02, estrogen receptor positive (ER+); BC03, double positive (ER+ and HER2+); BC03LN, lymph node metastasis of BC03; BC04-BC06, human epidermal growth factor receptor 2 positive (HER2+); BC07-BC11, triple-negative breast cancer (TNBC); BC07LN, lymph node metastasis of BC07) and matched bulk tumors. We separated these single cells into epithelial tumor and tumor-infiltrating immune cells using inferred CNVs from RNA-seq. The refined single cell profiles for the tumor and immune cells provide key expression signatures of breast cancer and the surrounding microenvironment.
+
+DESIGN
+All single-cell mRNA expression profiles were acquired from eleven patients (BC01-BC11) including two lymph node metastases (BC03LN, BC07LN) (549 samples). We applied four filtering criteria so as to remove samples with low sequencing quality and finally obtained 515 single cell sequencing data. Matched bulk tumor tissues and/or pooled cells were also sequenced and analyzed by the single cell RNA-seq pipeline (14 samples). Bulk tumor transcriptomes showed significant correlations with the average of single cell transcriptomes.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28474673
+

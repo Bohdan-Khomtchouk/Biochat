@@ -1,0 +1,18 @@
+TITLE
+The Ess1 prolyl isomerase is required for the transcription termination of small non-coding RNAs via Nrd1 pathway
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Genome-wide studies have identified abundant small, non-coding RNAs including snRNAs, snoRNAs, cryptic unstable transcripts (CUTs), and upstream regulatory RNAs (uRNAs) that are transcribed by RNA polymerase II (pol II) and terminated by a Nrd1-dependent pathway.  Here, we show that the prolyl isomerase, Ess1, is required for Nrd1-dependent termination of ncRNAs.  Ess1 binds the carboxy terminal domain (CTD) of pol II and is thought to regulate transcription by conformational isomerization of Ser-Pro bonds within the CTD.  In ess1 mutants, expression of ~10% of the genome was altered, due primarily to defects in termination of snoRNAs, CUTs, SUTs and uRNAs.  Ess1 promoted dephosphorylation of Ser5 (but not Ser2) within the CTD, most likely by the Ssu72 phosphatase, and we provide evidence for a competition between Nrd1 and Pcf11 for CTD-binding that is regulated by Ess1-dependent isomerization.  This is the first example of a prolyl isomerase required for interpreting the “CTD code.”
+
+DESIGN
+Two separate experiments were done: a standard Expression Array, and a Tiling Array. For the Expression Array, two independent methods were used.  First, we compared wild-type and ess1(H164R) ts-mutants, where the mutant allele is integrated at the normal genomic locus.  Cells were shifted to 34°C for 2 hr and RNA was prepared.  In the second method, we used ESS1 deletion mutants that carried wild-type or H164R on a centromeric plasmid driven by the GAL1 promoter.  These constructs were activated by a GAL4-ER-VP16 driver, which even in the absence of beta-estradiol (“0 hormone”), drives low level protein expression. For the Tiling Array we compared wild-type and ess1(H164R) ts-mutants after a shift to 34°C for 2 hr.
+
+PLATFORM
+GPL90 [YG_S98] Affymetrix Yeast Genome S98 Array GPL7250 [Sc03b_MR] Affymetrix GeneChip S. cerevisiae Tiling 1.0R Array
+
+CITATIONS
+19854134
+

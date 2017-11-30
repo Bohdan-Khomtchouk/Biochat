@@ -1,0 +1,18 @@
+TITLE
+Sensitive detection of chromatin-altering polymorphisms reveals autoimmune disease mechanisms
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Most disease associations detected by genome-wide association studies (GWAS) lie outside coding genes, but very few have been mapped to causal regulatory variants. Here, we present a method for detecting regulatory quantitative trait loci (QTLs) that does not require genotyping or whole-genome sequencing. The method combines deep, long-read chromatin immunoprecipitation–sequencing (ChIP-seq) with a statistical test that simultaneously scores peak height correlation and allelic imbalance: the genotype-independent signal correlation and imbalance (G-SCI) test. We performed histone acetylation ChIP-seq on 57 human lymphoblastoid cell lines and used the resulting reads to call 500,066 single-nucleotide polymorphisms de novo within regulatory elements. The G-SCI test annotated 8,764 of these as histone acetylation QTLs (haQTLs)—an order of magnitude larger than the set of candidates detected by expression QTL analysis. Lymphoblastoid haQTLs were highly predictive of autoimmune disease mechanisms. Thus, our method facilitates large-scale regulatory variant detection in any moderately sized cohort for which functional profiling data can be generated, thereby simplifying identification of causal variants within GWAS loci.
+
+DESIGN
+We applied our method to 57 cell lines from a single population group. We used the resulting sequence data for variant calling, and validated calls using an independent platform. We then identified histone acetylation QTLs (haQTLs) using a novel statistical test that requires no prior genotype information and combines peak height and allelic imbalance data across the 57 individuals. Transcription factor binding site analysis was used to independently support the functionality of haQTLs. Finally, we examined the association between haQTLs and SNPs associated with human phenotypes.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25799442
+

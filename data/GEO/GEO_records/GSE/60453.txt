@@ -1,0 +1,18 @@
+TITLE
+Analysis of transcription start sites from nascent RNA identifies a unified architecture of initiation at mammalian promoters and enhancers (GRO-cap)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Despite the conventional distinction between promoters and enhancers, they share many features in mammals, including divergent transcription and similar modes of transcription factor (TF) binding. Here, we examine the architecture of transcription initiation genome-wide through comprehensive mapping of transcription start sites (TSSs) in human lymphoblastoid B-cell (GM12878) and chronic myelogenous leukemic (K562) tier 1, ENCODE cell lines using a nuclear run-on protocol called GRO-cap. This method captures TSSs for both stable and unstable transcripts, thus allowing us to conduct detailed comparisons between thousands of promoters and enhancers in human cells. These analyses reveal a common architecture of initiation at both promoters and enhancers, including tightly spaced (110 bp) divergent initiation that features similar frequencies of core-promoter sequence elements, highly-positioned flanking nucleosomes, and two modes of TF binding. Transcript elongation stability, a feature determined after transcription initiation, provides a more fundamental distinction between promoters and enhancers than the relative abundance of histone modifications and the presence of TFs or coactivators. These results support a unified model of transcription initiation at both promoters and enhancers.
+
+DESIGN
+We sequenced nascent RNAs purified from run-on sequencing reactions (GRO-seq) performed in two ENCODE cells lines: K562 and GM12878. Precision Run-on sequencing (PRO-seq was also performed in K562 cells). We also enriched separate libraries from the same cells for the 5-meG cap associated with transcription start sites (TSSs) in order to produce a comprehensive mapping of nascent TSSs in these cells. This assay is called GRO-cap. We compared these TSSs to those identified in stable RNAs from CAGE assays to generate annotations for all TSSs based on the stability of the resulting transcript.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25383968
+

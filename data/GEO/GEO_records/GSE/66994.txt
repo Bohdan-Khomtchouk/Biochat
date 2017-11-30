@@ -1,0 +1,18 @@
+TITLE
+Dose-Responsive Gene Expression in Suberoylanilide Hydroxamic Acid (SAHA) Treated Resting CD4+ T Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Design: Persistent latently infected CD4+ T cells represent a major obstacle to HIV eradication.  Histone deacetylase inhibitors (HDACis) are a promising activation therapy in a “shock and kill” strategy.  However, off-target effects of HDACis on host gene expression are poorly understood in primary cells of the immune system.  We hypothesized that HDACi-modulated genes would be best identified with a dose response analysis.  Methods: Resting primary CD4+ T cells were treated with increasing concentrations (0.34, 1, 3, or 10 μM) of the HDACi, suberoylanilide hydroxamic acid (SAHA), for 24 hours and then subjected to microarray gene expression analysis.  Genes with dose-correlated expression were identified with a likelihood ratio test using Isogene GX and a subset of these genes with a consistent trend of up or downregulation at each dose of SAHA were identified as dose-responsive.  Histone modifications were characterized in promoter regions of the top 6 SAHA dose-responsive genes by RT-qPCR analysis of immunopreciptated chromatin (ChIP).  Results: A large number of genes were shown to be up (N=657) or down (N=725) regulated by SAHA in a dose-responsive manner (FDR p-value < 0.05 and fold change ≥ |2|).  Several of these genes (CTNNAL1, DPEP2, H1F0, IRGM, PHF15, and SELL) are potential in vivo biomarkers of SAHA activity.  SAHA dose-responsive gene categories included transcription factors, HIV restriction factors, histone methyltransferases, and host proteins that interact with HIV proteins or the HIV LTR.  Pathway analysis suggested net downregulation of T cell activation with increasing SAHA dose.  Histone acetylation was not correlated with host expression, but plausible alternative mechanisms for SAHA-modulated expression were identified.   Conclusions: Numerous host genes in CD4+ T cells are modulated by SAHA in a dose-responsive manner, including genes that may negatively influence HIV activation from latency.  Our study suggests that SAHA influences gene expression through a confluence of several mechanisms, including histone acetylation, histone methylation, and altered expression and activity of transcription factors.
+
+DESIGN
+Primary CD4+ T cells were isolated from human peripheral blood drawn from 6 healthy HIV-seronegative donors.  For each donor sample, CD4+ T cells were counted and aliquoted into 6-well plates; 5 million cells per well at a concentration of 2.5 million cells per mL of media (RPMI 1640 with 5% human serum AB).  Wells containing CD4+ T cells were treated with SAHA (Merck) at 0.34 μM, 1 μM, 3 μM, or 10 μM in 0.1% DMSO, or with only 0.1% DMSO (vehicle control).  Treated cells were incubated at 37°C, 5% CO2 for 24 hours.  Treated cells were then collected for microarray analysis of mRNA in SAHA treated cells versus DMSO treated cells.
+
+PLATFORM
+GPL6947 Illumina HumanHT-12 V3.0 expression beadchip
+
+CITATIONS
+26258524
+

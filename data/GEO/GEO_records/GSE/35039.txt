@@ -1,0 +1,18 @@
+TITLE
+Imatinib/Rapamycin Gradient Encoding
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The purpose of this study was to compare changes in translation (using Gradient Encoding, described below) to changes in mRNA abundance. Lysates of wildtype v-Abl transformed pre-B cells harvested before and after 12 hours of treatment either with 2.5 uM imatinib, a v-Abl kinase inhibitor, or 10ng/mL (10.9 nM) rapamycin, an mTOR inhibitor, were fractionated by sedimentation through linear sucrose gradients.  Gradient fractions were encoded such that the mRNA from successive fractions was labeled with increasing ratios of Cy5 to Cy3.  mRNAs derived from fractions in the lighter portion of the gradient therefore have a lower Cy5 to Cy3 ratio, whereas those deeper in the gradient have a higher Cy5 to Cy3 ratio.  The ratio of Cy5 to Cy3 for each mRNA therefore reflects its average position within the gradient. We thus encoded the sedimentation rate of each mRNA across the entire gradient.  The resulting ratios were quantitatively measured for each mRNA species by hybridization to DNA microarrays, and related to the 260 nm absorbance peaks representing different numbers of ribosomes bound per mRNA Compound Based Treatment: wildtype v-Abl transformed pre-B cells were treated with imatinib mesylate (IMA), rapamycin (RAP) or nothing (NONE)
+
+DESIGN
+compound_treatment_design
+
+PLATFORM
+GPL15119 SMD Print_1643 Run:moi
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

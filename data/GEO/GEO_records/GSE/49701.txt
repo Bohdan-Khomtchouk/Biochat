@@ -1,0 +1,18 @@
+TITLE
+Multiplexed activation of endogenous genes by CRISPR-on, an RNA-guided transcriptional activator system
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Technologies allowing for specific regulation of endogenous genes are valuable for the study of gene functions and have great potential in therapeutics. We created the CRISPR-on system, a two-component transcriptional activator consisting of a nuclease-dead Cas9 (dCas9) protein fused with a transcriptional activation domain and single guide RNAs (sgRNAs) with complementary sequence to gene promoters. We demonstrate that CRISPR-on can efficiently activate exogenous reporter genes in both human and mouse cells in a tunable manner. In addition, we show that robust reporter gene activation in vivo can be achieved by injecting the system components into mouse zygotes. Furthermore we show that CRISPR-on can activate the endogenous IL1RN, SOX2, and OCT4 genes. The most efficient gene activation was achieved by clusters of 3 to 4 sgRNAs binding to the proximal promoters suggesting their synergistic action in gene induction. Significantly, when sgRNAs targeting multiple genes were simultaneously introduced into cells, robust multiplexed endogenous gene activation was achieved. Genome-wide expression profiling demonstrated high specificity of the system.
+
+DESIGN
+We used microarray to assay the gene expression changes after transfection of dCas9VP160 with the different sgRNAs
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+23979020
+

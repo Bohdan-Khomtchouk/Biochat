@@ -1,0 +1,18 @@
+TITLE
+Genome-wide transcriptional analysis of Drosophila ring gland
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Samples 1-8: Tissue-specific RNA sequencing (Illumina) using dissected ring glands isolated from TWO different time points of control (phm > w1118) third instar larvae. Time points are: light phase zt0-4 (which corresponde to 2-4 hours from second to third instar larvae molt);  and dark phase zt18-22 (which corresponde to 16-20 hours from second to third instar larvae molt) Samples 9-32: Tissue-specific gene expression (RNA seq Illumina) using dissected ring glands isolated from TWO different time points of third instar larvae. Genotypes were Timeless-RNAi (phm > tim-RNAi), Period-RNAi (phm > per-RNAi), UAS-TimcDNA (phm > UAS-Tim) and UAS-TimcDNA;UAS-PercDNA (phm > UAS-TimcDNA;UAS-PercDNA). Goal was to identify circadin pathway dependent gene sets in the ring gland. Time points were 2-4 hours and 18-20 hours after L2-L3 molt.
+
+DESIGN
+This study comprises two parts: First, Next generation sequencing was used to determine transcriptional profiles from Drosophila ring glands at ZT0-4 versus ZT18-22 in control larvae. Encore Complete RNA-Seq IL Multiplex System 1-8 (Nugen Part No. 0312) and Encore Complete RNA-Seq IL Multiplex System 9-16 (Nugen Part No. 0313) was used for barcoding and multiplex sequencing. Library prep was based on total RNA isolated from dissected ring glands  at two different time points during the third instar (the last larval stage of Drosophila development). Libraries were sequenced on a High-Seq Illumina platform. The second part examined gene expression changes in ring glands where we altered circadian signaling by genetic means. Encore Complete RNA-Seq IL Multiplex System was used to prep the cDNA library from total RNA isolated from ring glands of controls, ring gland-specific Timeless-RNAi (phm > tim-RNAi), Period-RNAi (phm > per-RNAi), UAS-Tim-cDNA (phm > UAS-Tim) and UAS-Tim-cDNA; UAS-Per-cDNA (phm > UAS-Tim-cDNA;UAS-Per-cDNA) larvae at two different time points in the day (ZT0-4 and ZT18-22) for the first three genotypes and exclusively at ZT18-22 for the last two genotypes. Each condition was measured by using two biological samples.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+27546572
+

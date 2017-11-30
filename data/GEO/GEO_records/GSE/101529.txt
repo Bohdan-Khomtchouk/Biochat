@@ -1,0 +1,18 @@
+TITLE
+Coop-Seq Analysis Demonstrates that Sox2 Evokes Latent Specificities in the DNA Recognition by Pax6
+
+ORGANISM
+mixed DNA library
+
+SUMMARY
+Sox2 and Pax6 co-regulate genes in neural lineages and the eye by forming a ternary complex likely facilitated allosterically through DNA. We used the quantitative and scalable Cooperativity-by-sequencing (Coop-seq) approach to interrogate Sox2/Pax6 dimerization on a DNA library where five positions of the Pax6 half site are randomized yielding 1024 cooperativity factors. Consensus positions normally required for the high-affinity DNA binding by Pax6 need to be mutated for effective dimerization with Sox2. Out of the five randomized bases, a 5’ thymidin is present in most of the top ranking elements. However, according to structural models, this thymidin maps to a spacer region separating Sox and Pax half –sites and is not expected to directly interact with the binding proteins. Cooperative binding to the Coop-seq defined sequence signature was validated by classical EMSAs. Re-analysis of ChiPseq data identified several candidate elements in genomic regions co-bound by Sox2 and Pax6. A highly conserved Sox2/Pax6 bound site near the Sprouty2 locus consists of a prototype cooperativity signature. This element was verified to promote cooperative dimerization designating Sprouty2 as candidate target of Sox2/Pax6 in several mouse and human tissues including the brain and the eye. Collectively, the functional interplay of Sox2 and Pax6 demands the relaxation of high affinity binding sites and is enabled by alternative DNA sequences. We conclude that this binding mode evolved to warrant that a subset of target genes is only regulated in the presence of suitable partner factors.
+
+DESIGN
+1 Coop-seq experiment and 3 technical replicates.
+
+PLATFORM
+GPL23791 Illumina HiSeq 2000 (mixed DNA library)
+
+CITATIONS
+29050852
+

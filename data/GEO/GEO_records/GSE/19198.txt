@@ -1,0 +1,18 @@
+TITLE
+Analysis of interleukin-21-induced Prdm1 gene regulation reveals functional cooperation of STAT3 and IRF4 TFs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Interleukin-21 (IL-21) is a pleiotropic cytokine that induces expression of transcription factor BLIMP1 (encoded by Prdm1), which regulates plasma cell differentiation and T cell homeostasis. We identified an IL-21 response element downstream of Prdm1 that binds the transcription factors STAT3 and IRF4, which are required for optimal Prdm1 expression. Genome-wide ChIP-Seq mapping of STAT3- and IRF4-binding sites showed that most regions with IL-21-induced STAT3 binding also bound IRF4 in vivo, and furthermore, revealed that the noncanonical TTCnnnTAA GAS motif critical in Prdm1 was broadly used for STAT3 binding. Comparing genome-wide expression array data to binding sites revealed that most IL-21-regulated genes were associated with combined STAT3-IRF4 sites rather than pure STAT3 sites. Correspondingly, ChIP-Seq analysis of Irf4_/_ T cells showed greatly diminished STAT3 binding after IL-21 treatment, and Irf4_/_ mice showed impaired IL- 21-induced Tfh cell differentiation in vivo. These results reveal broad cooperative gene regulation by STAT3 and IRF4.
+
+DESIGN
+Affymetrix expression data: Prepare CD4+ T cells from spleen. CD4+ T cells were preactivated, rested, and treated with IL-21 for 1, 6, and 24 hours. ChIP-seq data: Profiling of IRF4 and Stat3 binding with and without IL-21 stimulation in wild type and IRF4 KO mice.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+20064451
+

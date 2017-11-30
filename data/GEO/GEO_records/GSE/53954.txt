@@ -1,0 +1,18 @@
+TITLE
+Expression analysis of DamP mRNAs using expressed molecular barcodes
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We have generated 979 yeast strains in which the natural 3' UTR of essential gene mRNAs has been replaced by the same long 1.4 kb artificial 3' UTR (DAmP modification). Nonsense mediated mRNA decay (NMD) of these mRNA reporters was tested by using Agilent barcode microarrays by taking advantage of molecular barcodes introduced just downstream the stop codon during strain construction. We introduced in each DAmP strain either a neutral mutation (deletion of YEL068C) or the deletion of essential factors for NMD: NAM7 and NMD2. The resulting haploid cells were tested for changes in DAmP mRNA levels by comparing an RNA sample with a DNA genomic sample. Differences between the samples indicate the sensibility of the DAmP mRNAs to degradation through NMD. The large scale results were validated by Q-PCR analysis of individual strains. A strong negative correlation between the level of destabilization elicited by a long 3' UTR and the size of the coding sequence suggests that long ORF mRNAs can escape NMD even in the presence of a long 3' UTR.
+
+DESIGN
+Three samples were analysed and for each sample a technical replicate was performed, starting from the raw cellular material. YEL068C samples represent the reference population while NMD2 and NAM7 samples are the ones important for the analysis. Only a very limited part of the Agilent barcode microarray signal (barcodes corresponding to the “up” tag in the DamP strain) was used for the interpretation of the data.
+
+PLATFORM
+GPL18088 Agilent-026035 Scer_barcode_v2_200911
+
+CITATIONS
+24529707
+

@@ -1,0 +1,18 @@
+TITLE
+Differential expression of 24,426 human alternative splicing events and predicted cis-regulation in 48 tissues
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Alternative pre-messenger RNA splicing impacts development, physiology, and disease, but its regulation in humans is not well understood, partially due to the limited scale to which the expression of specific splicing events has been measured.  We generated the first genome-scale expression compendium of human alternative splicing events using custom whole-transcript microarrays monitoring expression of 24,426 mutually exclusive alternative splicing event pairs in 48 diverse human samples. Over 11,700 genes and 9,500 splicing events were differentially expressed, providing a rich resource for studying splicing regulation. An unbiased, systematic screen of 21,760 4-mer to 7-mer words for cis-regulatory motifs identified 143 RNA 'words' enriched near regulated cassette exons, including six clusters of motifs represented by UCUCU, UGCAUG, UGCU, UGUGU, UUUU, and AGGG, which map to trans-acting regulators PTB, Fox, Muscleblind, CELF/CUG-BP, TIA-1, and hnRNP F/H, respectively. Each cluster showed a distinct pattern of genomic location and tissue specificity.  For example, UCUCU occurs 110 to 35 nucleotides preceding cassette exons upregulated in brain and striated muscle but depleted in other tissues.  UCUCU and UGCAUG appear to have similar function but independent action, occurring 5' and 3', respectively, of 33% of the cassette exons upregulated in skeletal muscle but co-occurring for only 2%. Keywords: multiple tissue comparison
+
+DESIGN
+PolyA+ purified RNA pooled from multiple donors of a single human tissue type (e.g. cerebellum) were amplified with random primers and hybridized on a two-color ink-jet oligonucletodie microarray (17 array set) against a common reference pool, comprising ~20 normal adult tissue pools, on custom microarray patterns containing probes to monitor every exon and exon-exon junction in transcript databases, patent databases, and predicted from mouse transcripts.  Data were analyzed for gene expression (the average of multiple probes), exon and junction expression, and splice form proportionality (see paper).
+
+PLATFORM
+GPL6826 Rosetta/Merck DT_Phase2_1_of_17 microarray GPL6827 Rosetta/Merck DT_Phase2_2_of_17 microarray GPL6828 Rosetta/Merck DT_Phase2_3_of_17 microarray GPL6829 Rosetta/Merck DT_Phase2_4_of_17 microarray GPL6830 Rosetta/Merck DT_Phase2_5_of_17 microarray GPL6831 Rosetta/Merck DT_Phase2_6_of_17 microarray GPL6832 Rosetta/Merck DT_Phase2_7_of_17 microarray GPL6833 Rosetta/Merck DT_Phase2_8_of_17 microarray GPL6834 Rosetta/Merck DT_Phase2_9_of_17 microarray GPL6835 Rosetta/Merck DT_Phase2_10_of_17 microarray GPL6836 Rosetta/Merck DT_Phase2_11_of_17 microarray GPL6837 Rosetta/Merck DT_Phase2_12_of_17 microarray GPL6838 Rosetta/Merck DT_Phase2_13_of_17 microarray GPL6839 Rosetta/Merck DT_Phase2_14_of_17 microarray GPL6840 Rosetta/Merck DT_Phase2_15_of_17 microarray GPL6841 Rosetta/Merck DT_Phase2_16_of_17 microarray GPL6842 Rosetta/Merck DT_Phase2_17_of_17 microarray
+
+CITATIONS
+18978788 , 18794351
+

@@ -1,0 +1,18 @@
+TITLE
+The impact of experience-dependent and independent factors on gene expression in songbird brain [e01]
+
+ORGANISM
+Taeniopygia guttata ; Zonotrichia leucophrys gambelii
+
+SUMMARY
+Songbirds provide rich natural models for studying the relationships of brain anatomy, behavioral function, environmental signals and gene expression.  Under the Songbird Neurogenomics Initiative, investigators from more than a dozen laboratories collected brain samples from six species of songbird under a range of experimental conditions, and 488 of these samples were analyzed systematically for gene expression by microarray.  ANOVA was used to test 32 planned contrasts in the data, revealing the relative impact of different factors.  The brain region from which tissue was taken had the greatest influence on gene expression profile, affecting the majority of signals measured by the 18,848 non-redundant cDNAs spotted on the microarray. Social and environmental manipulations had highly variable impact, ranging from nil in some cases to robust in others.  Several specific genes were identified as points of interest in the evolution of mechanisms by which environmental signals influence behavior. The data were also analyzed using Weighted Gene Co-expression Network Analysis (WGCNA) followed by Gene Ontology (GO) analysis. This revealed modules of co-regulated genes that are also enriched for specific functional annotations such as  “ribosome” (expressed more highly in juvenile brain) and “dopamine metabolic process” (expressed more highly in striatal song control nucleus Area X).  These results underscore the complexity of influences on neural gene expression and provide a resource for studying how these influences are integrated during natural experience.
+
+DESIGN
+RNA samples were collected from six different songbird species (phylogeny in SI Appendix, Figure S1) and representing 80 different “treatments”, i.e., combinations of species, brain region, sex, age, and behavioral state. The tissue samples were organized around 15 standalone experiments (Table 1 and SI Appendix, Table S1), contributed by investigators in a dozen different laboratories but analyzed under uniform conditions in a single laboratory as originally planned under the Songbird Neurogenomics Initiative. Each sample was hybridized to a zebra finch cDNA array along with a universal reference (a pool of zebra finch telencephalic RNA). e01: Brain regions HVC and RA were collected from Gambel's White crowned sparrows (Zonotrichia leucophrys gambelii) from the following  experimental groups: long-term Short Day (SD); Long Day (LD) with Testosterone (T) for 3, 7, and 21 days (3LD+T, 7LD+T, 21LD+T respectively); SD and removal of T at 1 and 2 days (1SD-T, 2SD-T). Six biological replicates per group, five biological replicates in 3LD+T.HVC group. All samples were hybridized against the SoNG universal reference RNA pool.
+
+PLATFORM
+GPL9554 Songbird Neurogenomics Initiative 20K Array
+
+CITATIONS
+23045667
+

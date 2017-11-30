@@ -33,13 +33,14 @@
       (:title "Biochats")
       (:link :href "/static/style.css" :rel "stylesheet" :type "text/css")
       (:script :type "text/javascript" :src "/static/jquery-1.11.3.js" "")
+      (:script :type "text/javascript" :src "/static/spin.js" "")
       (:script :type "text/javascript" :src "/static/main.js" "")
       (:script :type "text/javascript"
                "$(document).ready(function () {
                    $('input[name=simmethods]:first').attr('checked', true);
                 });"))
      (:body
-      (:div :class "page"
+      (:div :class "page" :id "page"
             (:h1 "Biochats")
             (:div :style "font-size: smaller; color: gray;"
                   "Here, you can find the most similar records from the "
@@ -75,7 +76,7 @@
                        (:input :type :checkbox
                                :value filter :name "sim-filters")
                        (:label :for "sim-filters"
-                               (who:str (string-downcase desc)))
+                               (who:str desc))
                        (:br))))
                    (:div :class "box" :id "sim-organisms"
                          "Look only in these organisms: "
@@ -112,6 +113,7 @@
                (vecs (case type
                        (:gds *gds-vecs*)
                        (:gse *gse-vecs*)))
+               (same-histone (? *geo-same-histones* type))
                (methods (mapcar ^(mksym % :package :b42)
                                 (split #\, sim-methods :remove-empty-subseqs t)))
                (filters (or (mapcar 'mkeyw (split #\, sim-filters
@@ -132,8 +134,7 @@
                                   (when (some (lambda (filter)
                                                 (case filter
                                                   (:histone
-                                                   (if-it (? *geo-same-histones*
-                                                             it)
+                                                   (if-it (? same-histone it)
                                                           (member rec it)
                                                           t))
                                                   (:organism

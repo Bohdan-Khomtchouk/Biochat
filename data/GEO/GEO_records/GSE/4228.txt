@@ -1,0 +1,18 @@
+TITLE
+Nitric Oxide Activation of Erk Regulates the Stability and Translation of mRNA Transcripts Containing CU-Rich Elements
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Nitric oxide (NO) can stabilize mRNA by activating p38 mitogen-activated protein kinase (MAPK). Here, transcript stabilization by NO was investigated in human THP-1 cells using microarrays. After LPS pre-stimulation, cells were treated with actinomycin D and then exposed to NO without or with the p38 MAPK inhibitor SB202190. The decay of 220 mRNAs was affected; most were stabilized by NO. Unexpectedly, SB202190 often enhanced rather than antagonized transcript stability. NO activated p38 MAPK and Erk1/2; SB202190 blocked p38 MAPK, but further activated Erk1/2. PCR confirmed that NO and SB202190 could additively stabilize mRNA, an effect abolished by Erk1/2 inhibition. In affected genes, these responses were associated with CU-rich elements (CURE) in 3' un-translated regions. NO stabilized the mRNA of a CURE-containing reporter gene, while repressing translation. Dominant-negative Mek1, an Erk1/2 inhibitor, abolished this effect. NO similarly stabilized, but blocked translation of MAP3K7IP2, a natural CURE-containing gene. NO increased hnRNP translocation to the cytoplasm and binding to CURE. Over-expression of hnRNP K, like NO, repressed translation of CURE-containing mRNA. These findings define a sequence-specific mechanism of NO-triggered gene regulation that stabilizes mRNA, but represses translation. Keywords: time course and dose response
+
+DESIGN
+THP-1 cells were first stimulated with LPS (1 µg/ml) for 4 h to boost transcript levels. After 30 min treatment with ActD (2.5 µg/ml), a transcription inhibitor, in the absence or presence of p38 MAPK inhibitor SB (0.1 µM), cells were then further incubated for 0-180 min with 400 µM of GSNO or GSH control (N = 4). Total RNA at different time points (0, 45, 90 and 180 min) was extracted, labeled and hybridized to human U133A microarrays, which were then scanned using Agilent GeneArray Scanner. Affymetrix MAS5 signal values were analyzed and first normalized to the 97th percentile, a value corresponding to the expression level of the 678th most intense probeset on the array.  This normalization strategy assumed that the most intense probesets corresponded to mRNA species which were most stable and were generally unaffected by the treatments studied here.  Then logarithmically transformed normalized data were subject to linear regression with respect to the 4 time points studied (0, 45, 90, 180 min following the start of incubation with GSH or GSNO), to estimate a slope corresponding to a first-order decay rate. The decay slope was calculated for each probeset, for each of the four conditions (GSH, GSNO, SB/GSH and SB/GSNO) using an Analysis of Covariance (ANCOVA), constraining the time 0 expression value to be identical for the pair of conditions without SB and the pair with SB, as necessitated by the design of the experiment.  Further, since the experiment was replicated in 4 distinct batches, a blocked ANCOVA was utilized. The analysis results were then used to select genes which decayed, and whose decay rate changed following treatment.  The p-value for a one-way, four level ANCOVA was calculated and used to compute a false discovery rate (FDR).  The probesets with the lowest p-values, corresponding to a FDR of 10%, were selected and annotated based on information presented by Affymetrix at the NetAffx web-site as of April 12, 2004.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+16757573
+

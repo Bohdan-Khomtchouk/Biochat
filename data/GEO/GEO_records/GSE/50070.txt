@@ -1,0 +1,18 @@
+TITLE
+Expression data from Serinus canaria HVC, RA and Entopallium
+
+ORGANISM
+Serinus canaria ; Taeniopygia guttata
+
+SUMMARY
+Within the overall project, we performed a set of microarrays to validate RNAseq data. In this data set, we compare the expression data of song nuclei to the optical tectrum dissected from adult canaries housed at long day cycles to identify nuclei specific genes.
+
+DESIGN
+18 total S. canaria samples housed at long day were analyzed, 6 HVC samples, 5 RA samples and 7 Entopallium samples. The differential expression was analyzed using the group-wise exhaustive analysis with False Discovery Rate set to zero and 10-significant probe minimum coverage, HVc/RA compared to entopallium samples. Additionally, 24 total samples of S. canaria housed at short day were analyzed, 6 HVC samples, 6 HVC samples of canaries treated with Testosterone, 6 Entopallium samples and 6 Entopallium samples treated with Testosterone, and  24 total samples of T. guttata, 6 HVC samples, 6 HVC samples of finches treated with Testosterone, 6 Entopallium samples and 6 Entopallium samples treated with Testosterone, the HVC samples were compared to Entopalliun as described before. ChipInspector carries out significance analysis on the single probe level. Normalized probe set level data not provided for individual Sample records. Processed data is available on Series record.
+
+PLATFORM
+GPL17605 [MPIO-ZF1s520811] Affymetrix Zebra finch Custom Array [transcript version]
+
+CITATIONS
+25631560
+

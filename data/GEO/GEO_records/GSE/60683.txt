@@ -1,0 +1,18 @@
+TITLE
+LASSIM -a network inference toolbox for genome-wide mechanistic modeling
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We present LASSIM, which is a toolbox built to build and infer parameters within mechanistic models on a genomic scale. This is made possible due to a property shared across biological systems, namely the existence of a subset of master regulators, here denoted the core system. The introduction of a core system of genes simplifies the inference into small solvable sub-problems, and implies that all main regulatory actions on peripheral genes come from a small set of regulator genes. This separation allows substantial parts of computations to be solved in parallel, i.e. permitting the use of a computer cluster, which substantially reduces the time for the computation to finish.
+
+DESIGN
+Refer to individual Series
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version) GPL14550 Agilent-028004 SurePrint G3 Human GE 8x60K Microarray (Probe Name Version) GPL17077 Agilent-039494 SurePrint G3 Human GE v2 8x60K Microarray 039381 (Probe Name version)
+
+CITATIONS
+28640810
+

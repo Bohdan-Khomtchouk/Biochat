@@ -1,0 +1,18 @@
+TITLE
+Impact of RNA degradation on gene expression profiling
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+1.) Background: Gene expression profiling is a highly sensitive technique which is used for profiling of tumor samples for medical prognosis. RNA quality and degradation influences the analysis results of gene expression profiles. The impact of this influence on the profiles and its medical impact is not fully understood. As patient samples are very valuable for clinical studies, it is necessary to establish criteria for the RNA quality to use these samples in later analysis. 2.) Methods: To investigate the effects of RNA integrity on gene expression profiling whole genome expression arrays were used. We therefore used tumor biopsies from patients diagnosed with locally advanced rectal cancer. To simulate degradation, the isolated total RNA of all patients was subjected to heat-induced degradation in a time-dependent manner. Expression profiling was then performed and data were analyzed bioinformatically to assess  the differences. 3.) Results: The biological differences between the patients largely over-weighed the differences introduced by RNA degradation. Only a relatively small number of probes (275 out of 41000) show a significant effect due to degradation. The genes that show the strongest effect due to RNA degradation were especially those with short mRNAs and probe positions near the 5' end. 4.) Conclusions: RNA from tumor samples with differing realistic qualities ( > 5) can still be used to perform gene expression analysis. A much higher biological variance between patients is observed compared to the effect that is imposed by degradation of RNA. Nevertheless there are genes that are prone to degradation, especially very short ones and those with the probe binding side close to the 5´-end. Therefore, these genes should be excluded from gene expression analysis when working with degradated RNA.
+
+DESIGN
+Biopsies were taken from 3 different patients with 4 time-points of degradation per patient. The resulting 12 samples were separately hybridised (OneColor Array Design).
+
+PLATFORM
+GPL4133 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Feature Number version)
+
+CITATIONS
+21062371
+

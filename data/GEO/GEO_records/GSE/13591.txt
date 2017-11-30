@@ -1,0 +1,18 @@
+TITLE
+Integrated genomics approach to detect allelic imbalances in multiple myeloma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Multiple myeloma (MM) is characterized by marked genomic instability. Beyond structural rearrangements, a relevant role in its biology is represented by allelic imbalances leading to significant variations in ploidy status. To better elucidate the genomic complexity of MM, we analyzed a panel of 45 patients using combined FISH and microarray approaches. Using a self-developed procedure to infer exact local copy numbers for each sample, we identified a significant fraction of patients showing marked aneuploidy. A conventional clustering analysis showed that aneuploidy, chromosome 1 alterations, hyperdiploidy and recursive deletions at 1p and chromosomes 13, 14 and 22 were the main aberrations driving samples grouping. Then, we integrated mapping information with gene and microRNAs expression profiles: a multiclass analysis of the identified clusters showed a marked gene-dosage effect, particularly concerning 1q transcripts, also confirmed by correlating gene expression levels and local copy number alterations. A wide dosage effect affected also microRNAs, indicating that structural abnormalities in MM closely reflect in their expression imbalances. Finally, we identified several loci in which genes and microRNAs expression correlated with loss-of-heterozygosity occurrence. Our results provide insights into the composite network linking genome structure and gene/microRNA transcriptional features in MM. Keywords: Integrated genomics approach based on SNP microarray and FISH procedures to detect allelic imbalances in multiple myeloma.
+
+DESIGN
+This series of microarray experiments contains the gene expression profiles of purified plasma cells (PCs) obtained from 5 normal donors (N), 11 monoclonal gammopathy of undetermined significance (MGUS), 133 multiple myeloma (MM) and 9 plasma cell leukemia (PCL) at diagnosis. PCs were purified from bone marrow specimens, after red blood cell lysis with 0.86% ammonium chloride, using CD138 immunomagnetic microbeads. The purity of the positively selected PCs was assessed by morphology and flow cytometry and was > 90% in all cases. 5 micrograms of total RNA was processed and, in accordance with the manufacturer's protocols, 15 micrograms of fragmented biotin-labelled cRNA were hybridized on GeneChip Human Genome U133A Arrays (Affymetrix Inc.). The arrays were scanned using the Agilent GeneChip Scanner G2500A. The images were acquired using Affymetrix MicroArray Suite (MAS) 5.0 software and the probe level data converted to expression values using the Bioconductor function for the Robust Multi-Array average (RMA) procedure (Irizarry et al, 2003), in which perfect match intensities are background adjusted, quantile-quantile normalised and log2 transformed.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+19396863
+

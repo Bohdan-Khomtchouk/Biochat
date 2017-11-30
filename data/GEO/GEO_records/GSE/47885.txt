@@ -1,0 +1,18 @@
+TITLE
+Deep sequencing of the murine Igh repertoire reveals complex regulation of non-random V gene rearrangement frequencies (RNA-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A diverse antibody repertoire is formed through the rearrangement of V, D, and J segments at the immunoglobulin heavy chain (Igh) loci. The C57BL/6 murine Igh locus has over 100 functional VH gene segments that can recombine to a rearranged DJH. While the non-random usage of VH genes is well documented, it is not clear what elements determine recombination frequency. To answer this question we conducted deep sequencing of 5’-RACE products of the Igh repertoire in pro-B cells, amplified in an unbiased manner. ChIP-seq results for several histone modifications and RNA polymerase II binding, RNA-seq for sense and antisense non-coding germline transcripts, and proximity to CTCF and Rad21 sites were compared to the usage of individual V genes. Computational analyses assessed the relative importance of these various accessibility elements. These elements divide the Igh locus into four epigenetically and transcriptionally distinct domains, and our computational analyses reveal different regulatory mechanisms for each region. Proximal V genes are relatively devoid of active histone marks and non-coding RNA in general, but having a CTCF site near their RSS is critical, suggesting that position near the base of the chromatin loops is important for rearrangement. In contrast, distal V genes have high levels of histone marks and non-coding RNA, which may compensate for their poorer RSS and for being distant from CTCF sites. Thus, the Igh locus has evolved a complex system for the regulation of V(D)J rearrangement that is different for of each the four domains that comprise this locus.
+
+DESIGN
+RNA was extracted from C57BL/6 RAG-/- pro-B cells using Trizol® (Life Technologies Corp., Carlsbad CA) and genomic DNA was eliminated using the genomic DNA wipeout buffer in the QuantiTect Reverse transcription kit (QIAGEN). A final purification of the RNA was performed with the RNeasy kit from QIAGEN. For each  sample, 100 ng of total RNA was used to make RNASeq libraries using the NuGEN Encore Complete DR kits following manufacturer's recommended protocols. Sequencing libraries were gel purified to ensure insert sizes were larger than 100 bp in length and sequenced on an Ilumina HiSeq2000 for 100 bases plus 7 bases for indexing.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+23898036
+

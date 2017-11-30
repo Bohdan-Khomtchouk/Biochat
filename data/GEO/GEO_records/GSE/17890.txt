@@ -1,0 +1,18 @@
+TITLE
+WT vs. PPARd-/- Macrophages
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Macrophages rapidly engulf apoptotic cells to limit the release of noxious  cellular contents and to restrict autoimmune responses against self antigens.   Although factors participating in recognition and engulfment of apoptotic cells have  been identified, the transcriptional basis for the sensing and silently disposing of  apoptotic cells is unknown.  Here we show that peroxisome proliferator activated  receptor delta (PPARdelta) is induced when macrophages engulf apoptotic cells and  functions as a transcriptional sensor of dying cells.  Genetic deletion of PPARdelta  decreases expression of opsonins, such as C1qb, resulting in impairment of  apoptotic cell clearance and reduction in anti-inflammatory cytokine production.  This  increases autoantibody production and predisposes global and macrophage-specific  PPARdelta deficient mice to autoimmune kidney disease, a phenotype resembling the  human disease systemic lupus erythematosus.  Thus, PPARdelta plays a pivotal role in  orchestrating the timely disposal of apoptotic cells by macrophages, ensuring that  tolerance to self is maintained. HoxA9 immortalized ES cell derived myeloid precursors were created and differentiated as in Odegaard et al, 2007. After expansion, macrophages were differentiated for 8 days in the presence of MCSF in 20% L929 conditioned media with 2.5% bovine serum albumin in low glucose media. Macrophages were harvested for RNA using Qiagen's RNeasy Kit. A common reference was generated using e17.5 C57Bl/6 embryos. 30ug of either reference or macrophage RNA was labeled with Cy3 and Cy5 (Amersham) and hybridized to Stanford Functional Genomics Facility mouse cDNA microarrays for 16 hours. The arrays were washed and scanned on an Agilent G2505A ChipScan v. A.6.3.1. Florescence values were extracted using GenePix Pro v. 5.0.0.51. The data were normalized using regression correlation. Subsequently, missing values were imputed and significantly differentially expressed genes were found with Significance Analysis of Microarrays. For the Nature Medicine manuscript, significantly differentially expressed genes including genes involved in the process of uptake of apoptotic cells were extracted and clustered by complete linkage using Cluster and visualized using TreeView. Key to genotypes: " J1 untreated " are WT differentiated macrophages; " 18 Untreated " are PPARd-/- differentiated macrophages Genotype: Wild type (WT) or PPAR delta minus (PPARd -/-) macrophages
+
+DESIGN
+genetic_modification_design
+
+PLATFORM
+GPL9127 SMD Print_1128 Mus musculus
+
+CITATIONS
+19838202
+

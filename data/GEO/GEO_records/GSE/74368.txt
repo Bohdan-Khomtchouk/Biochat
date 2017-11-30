@@ -1,0 +1,18 @@
+TITLE
+Variation in 5-hydroxymethylcytosine (5hmC) across human cortex and cerebellum
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The most widely utilized approaches for quantifying DNA methylation involve the treatment of genomic DNA with sodium bisulfite, although this method cannot distinguish between DNA methylation (5mC) and DNA hydroxymethylation (5hmC). Previous studies have shown that 5hmC is enriched in the brain, although little is known about its genomic distribution and how it differs between anatomical regions and individuals. In this study, we combined oxidative bisulfite (oxBS) treatment with the Illumina Infinium 450K BeadArray to quantify genome-wide patterns of 5hmC in two distinct anatomical regions of the brain (prefrontal cortex and cerebellum) dissected from multiple individuals. We identified 37,145 and 65,563 sites passing our threshold for detectable 5hmC in the prefrontal cortex and cerebellumm, respectively, with 23,445 loci common across both brain regions. Distinct patterns of 5hmC were identified in each brain region, with notable differences in the genomic location of the most hydroxymethylated loci between these brain regions. Tissue-specific patterns of 5hmC were subsequently confirmed in an independent set of prefrontal cortex and cerebellum samples. Our data are available as downloadable UCSC genome browser tracks ( http://epigenetics.iop.kcl.ac.uk/HMC/ ) as a resource to the community. Our study represents the first systematic analysis of 5hmC in the human brain, identifying tissue-specific hydroxymethylated positions and genomic regions characterized by inter-individual variation in DNA hydroxymethylation. This study demonstrates the utility of combining oxBS-treatment with the Illumina 450k methylation array to systematically quantify 5hmC across the genome and the potential utility of this approach for epigenomic studies of brain disorders.
+
+DESIGN
+Prefrontal cortex and cerebellum brain tissue from six control donors, with no evidence of neurological impairment, was bisulfite treated and oxidative bisulfite treated. DNA modifications for these samples were quantified using the Illumina Infinium Human 450K Methylation Array. The level of 5-hmC within each sample was identified by subtracting the oxBS (CEGX) beta-value from the BS (CEGX) beta value at each probe on the 450K array (ΔβBS-oxBS) in each sample. A threshold for detection of 5hmC was established by determining the lowest fifth percentile in the data (i.e., -0.09158275 in this study). We then applied this value as a threshold for the positive data. Sites with an average 5hmC level in either the prefrontal cortex or cerebellum above this level (i.e., +0.09158275) were classified as having " detectable " levels of 5hmC. CEGX control samples are from a Cambridge Epigenetix conversion kit.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+26883014
+

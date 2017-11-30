@@ -1,0 +1,18 @@
+TITLE
+Related insects show differing amounts of population differentiation and localization of transcribed genes in response to climate (Papilio zelicaon)
+
+ORGANISM
+Papilio zelicaon
+
+SUMMARY
+We used custom Nimblegen microarrays representing whole-larval transcriptomes for two species (Papilio zelicaon [this submission] and Erynnis propertius [submitted seperately]) to assess gene expression differences affecting tolerance to climatic regimes. Many individuals were sourced from populations from the northern periphery and center of the species' (shared) range; these were each divided into groups treated under peripheral and central climate regimes, resulting in 4 experimental groups for each species (Peripheral Source, Peripheral treatment; Peripheral Source, Central Treatment; Central Source, Peripheral Treatment; Central Source, Central Treatment). Using technical microarray replicates allowed us to use ANOVA to identify genes whose expression may underlie local adaptation to climate (i.e., those showing an interaction term between source and population). Abstract: Population differences may determine geographic range shifts and adaptive evolution under climate change. Local adaptation in peripheral populations could preclude or slow range expansions, and populations with different genetic make-up could have distinct trajectories that produce complex spatial patterns of population change. To investigate the genetic extent of local responses to climate change, we exposed poleward-periphery and central populations of two Lepidoptera to reciprocal, common-garden climatic conditions and compared whole-transcriptome expression. We found significant expression differences between populations in both species. In addition, several hundred genes including genes involved in energy metabolism and oxidative stress responded in a localized fashion in the species that exhibits greater population structure and local adaptation. Expression levels of these genes are most divergent in the same environment in which we previously detected phenotypic divergence in metabolism. By contrast, we found no localized genes in the species with higher gene flow, reflecting the lack of previously observed local adaptation. These results suggest that population differences do not generalize easily, even for related species living in the same climate, but some taxa deserve population-level consideration when predicting the effects of climate change.
+
+DESIGN
+Previously we sequenced and assembled whole larval transcriptome ESTs sourced from pooled central-population individuals subjected to environmental stressors (see O'Neil et al., 2008). From these assemblies custom Nimblegen microarrays were designed (Nimblegen, Inc.), representing 34,609 putative gene sequences for E. propertius (submitted separately) and 25,735 putative gene sequences for P. zelicaon (this submission). Probe designs sought 5 representative 60mer probes for E.propertius and 4 representative probes for P. zelicaon. Messenger RNA was was sampled from multiple individuals of each experimental group and pooled before being converted to cDNA and hybridized to technical replicate microarrays. Three technical replicates for each experimental group were used, for a total of 12 microarrays (per species). Microarray data were log2 transformed and quintile-normalized (Bolstad et al. 2003) on a per-species basis.
+
+PLATFORM
+GPL18507 NimbleGen Papilio zelicaon 385K 1.0
+
+CITATIONS
+24766086
+

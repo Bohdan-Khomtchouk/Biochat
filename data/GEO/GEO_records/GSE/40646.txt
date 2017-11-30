@@ -1,0 +1,18 @@
+TITLE
+The Genomic Binding Profile of GAGA Element Associated Factor (GAF) in Drosophila S2 cells
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+GAGA associated transcription factor (GAF) is a highly abundant and essential protein in Drosophila. GAF recognizes and binds arrays of GA dinucleotides via a zinc finger DNA binding domain to regulate transcription by binding to general TF machinery or recruit nucleosome remodeling factors. We performed GAF ChIP-seq to quantify the intensity of GAF binding at high resolution in S2 cells. In addition, we performed GAF ChIP-seq in S2 cells that were depleted of GAF by RNAi. By quantifying the degree to which all GAF binding sites are susceptible to GAF depletion, we found the cellular degree of depletion does not translate equally to the depletion of GAF at individual chromatin bound sites. For example, some high intensity GAF binding sites were completely unaffected by GAF depletion, while lower affinity binding sites were often ablated upon GAF depletion. These data sets will serve as a valuable resource to others who study the dynamic interplay between GAF and chromatin. We also compared the GAF binding sites to the full set of genomic ChIP data that is available for S2 cells and compared the intensity for each factor and histone modification/variant. Lastly, we investigated the influence that GAF had upon inducible transcription factor binding using the heat shock system.
+
+DESIGN
+A single mock immunoprecipitation (IP) using non-specific IgG was used as a background dataset for this study (see PMID: 20844575; GSM470838). We performed two independent GAF-ChIP-seq experiments in untreated S2 cells and two replicates in S2 cells that were depleted of GAF by RNAi.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+25815464
+

@@ -1,0 +1,18 @@
+TITLE
+Latent enhancers unveiled by stimulation expand and adapt the available cis-regulatory repertoire (ChIP-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+According to current models, transcription factors (TFs) activated by extracellular stimuli operate in the context of a pre-established enhancer repertoire induced and maintained by lineage-specific TFs. Here, we uncovered the existence of latent enhancers, defined as regions of the genome that in terminally differentiated cells are poorly accessible and lack the histone marks characteristic of enhancers, but readily acquire these features in response to extracellular cues. Stimulation of resting macrophages caused simultaneous binding of stimulus-activated TFs and lineage-determining TFs to these regions, enabling deposition of enhancer-specific features. Once unveiled, these enhancers did not return to a latent state even when stimulation ceased; instead, they persisted and mediated a faster and stronger response upon restimulation. We suggest that stimulus-specific expansion of the available cis-regulatory repertoire provides an epigenomic memory of the exposure to environmental agents.
+
+DESIGN
+Chromatin immunoprecipitations of H3 lysine 4 mono-methylated, H3 lysine 27 acetylated, H3 lysine 4 tri-methylated, the transcription factors PU.1, Stat1, Stat6 and JunB and the total RNA polymerase II followed by multiparallel sequencing performed in murine bone marrow-derived macrophages (BMDMs). Experiments were carried out in untreated cells as well as in cells treated for 4hrs (lipopolysaccharide (LPS), IFNg, IL4, TNFa, TGFb1, IL1b, MALP2, CpG) and 24hrs (LPS). Same experiments were carried out in Stat1 KO (BMDM stimulated with IFNg) and Stat6 KO (BMDM stimulated with IL4) backgrounds. In case of IL4 an independent time-course was performed considering 15', 30', 1hrs, 2hrs and 4hrs after treatment while for IFNg we considered 30', 1hrs and 2hrs after treatment. For washout experiments, IP against H3 lysine 4 mono-methylated was performed 24hrs and 72hrs after stimulation as well as 48 hours after washout of the stimulus (24hrs).
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+23332752
+

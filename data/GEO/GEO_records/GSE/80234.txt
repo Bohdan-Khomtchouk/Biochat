@@ -1,0 +1,18 @@
+TITLE
+Genome-wide Localization of Mot1, Spt16, and Nucleosomes in mot1, spt16, and mot1 spt16 cells
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Mot1 is a conserved and essential Swi2/Snf2 ATPase that can remove TATA-binding protein (TBP) from DNA using ATP hydrolysis, and in so doing exerts global effects on transcription.  Spt16 is also essential and functions globally in transcriptional regulation as a component of the FACT histone chaperone complex.  Here we demonstrate that Mot1 and Spt16 regulate a largely overlapping set of genes in Saccharomyces cerevisiae.  As expected, Mot1 was found to control TBP levels at co-regulated promoters.  In contrast, Spt16 did not affect TBP recruitment.  On a global scale, Spt16 was required for Mot1 promoter localization, and Mot1 also affected Spt16 localization to genes.  Interestingly, we find that Mot1 has an unanticipated role in establishing or maintaining the occupancy and positioning of nucleosomes at the 5’ ends of genes.  Spt16 has a broad role in regulating chromatin organization in gene bodies, including those nucleosomes affected by Mot1. These results suggest that the large-scale overlap in Mot1 and Spt16 function arises from a combination of both their unique and shared functions in transcription complex assembly and chromatin structure regulation.
+
+DESIGN
+ChIP was performed for Spt16-myc in WT cells and mot1-42 cells in duplicate with input DNA from WT as control.  ChIP was performed for Mot1-myc in WT cells and spt16-197 cells in dublicate with input DNA from WT as control.  Micrococcal nuclease digested chromatin from WT, mot1-42, spt16-197, and mot1-42 spt16-197 cells were immunoprecipitated with H3 antibody in duplicate.  All samples were sequenced by Illumina MiSeq.
+
+PLATFORM
+GPL17143 Illumina MiSeq (Saccharomyces cerevisiae)
+
+CITATIONS
+27226635
+

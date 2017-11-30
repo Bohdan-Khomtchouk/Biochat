@@ -1,0 +1,18 @@
+TITLE
+Analysis of Allelic bias in gDNA, cDNA and ChIP with H3K27me3 and H3K36me3 antibody with multiplexed padlock probe approach
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In this experiment, we asked how the allelic distribution of the active and repressive chromatin marks in clonal cell lines relates to the transcriptional allelic bias.  A multiplexed padlock probe approach (Zhang et al., 2009) enabled us to assess allelic bias in heterozygous exonic SNPs in two clones with GM12878 genotype, and four clones from GM13130 cells. We used this approach to assess allelic bias in H3K27me3 and H3K36me3 ChIP samples simultaneously with cDNA from the same cells, as well as ChIP input and genomic DNA controls. In order to pool data from two individuals, one of which (GM13130) lacked complete genotypes for parents, we assessed SNP bias as reference and alternative alleles (rather than maternal or paternal bias).  SNPs in cDNA were assigned to one of three bins: reference allele bias; no bias; and alternative allele bias. For these groups, allelic bias in H3K27me3 (Fig.4B) and H3K36me3 (Fig.4C) was determined. In unbiased loci, both H3K27me3 and H3K36me3 were equally represented. In contrast, preferential expression of an allele was associated with elevated levels of H3K36me3 and decreased levels of H3K27me3 on that allele.  Both effects were highly significant (p < 2x10e-9). Genes predicted to have MAE were about four-fold over-represented among genes where SNPs showed significant bias (Fig.4D). SNPs with skewed H3K27me3 and H3K36me3 distribution were highly enriched in the genes predicted as MAE (p < 10e-6 and p=0.01, respectively; two-tailed Fisher's exact test). This suggests that the asymmetric distribution of the histone modifications is to a large extent due to the genes that have the chromatin signature of monoallelic expression.
+
+DESIGN
+Samples analyzed were A. polyclonal cell line GM12878 , and clones derived from it: DF1 and DF2, B. Polyclonal GM13130 (H0) and clones derived from it: H7, H14 and H16. gDNA, cDNA, ChIP material and input were used.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+24381246
+

@@ -1,0 +1,18 @@
+TITLE
+H2A.Z Facilitates Access of Active and Repressive Complexes to Chromatin in Embryonic Stem Cell Self-renewal and Differentiation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Chromatin modifications have been implicated in the self-renewal and differentiation of embryonic stem cells (ESCs). However, the function of histone variant H2A.Z in ESCs remains unclear. We show that H2A.Z is highly enriched at promoters and enhancers and is required for both efficient self-renewal and differentiation of murine ESCs. H2A.Z deposition leads to an abnormal nucleosome structure, decreased nucleosome occupancy and increased chromatin accessibility. In self-renewing ESCs, knockdown of H2A.Z compromises OCT4 binding to its target genes and leads to decreased binding of MLL complexes to active genes and of PRC2 complex to repressed genes in self-renewal of ESCs. During differentiation of ESCs, inhibition of H2A.Z also compromises RA-induced RARα binding, activation of differentiation markers and the repression of pluripotency genes. We propose that H2A.Z mediates such contrasting activities by acting as a 'general facilitator' that generates access for a variety of complexes both activating and repressive.
+
+DESIGN
+ChIP-Seq in murine embryonic stem (mES) cells for H2A.Z and acetylated H2A.Z. ChIP-Seq of H3K4me3, H3K27me3, RbBP5, SUZ12 and OCT4 for mES cells of both H2A.Z RNAi knockdown and shLuc control. ChIP-Seq of RARalpha in H2A.Z knockdown (withdraw of LIF and exposure to RA for 3h) and control cells. MNase-Seq and chromatin accessibility assay using Benzonase digestion followed by next-generation sequencing for mES cells of both H2A.Z RNAi knockdown and shLuc control. ChIP-Seq of H2A.Z and H3K4me3 for mES cells of both MLL4 RNAi knockdown and shLuc control. RNA-Seq for mES cells of H2A.Z knockdown and shluc control. RNA-Seq for embryonic bodies derived from mES cells (H2A.Z knockdown and shLuc control) at day 3 and day 7.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+23260488
+

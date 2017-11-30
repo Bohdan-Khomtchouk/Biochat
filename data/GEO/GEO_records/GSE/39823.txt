@@ -1,0 +1,18 @@
+TITLE
+Microarray Study Reveals Hormone-Modulated Gene Transcription During Human Podocyte Differentiation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Glomerular podocytes are highly differentiated kidney cells that constitute one of the key components responsible for removing toxins and metabolic waste while preserving nutrients in the bloodstream in the renal glomerulus. In addition, podocytes contribute significantly to the formation of the glomerular basement membrane and the integrity of the vascular endothelium. Thus, podocyte injury and/or loss of podocytes results in impaired blood filtration and causes many common renal diseases characterized by severe proteinuria (protein in the urine) and hypoalbuminemia (low levels of blood albumin). Small lipopholic molecules such as steroids, fatty acids, prostaglandins and vitamin metabolites control many aspects of animal development, cell proliferation and differentiation, and homeostasis through binding to their intracellular receptors. Upon binding to their cognate ligands, these nuclear receptors (NRs) are capable of turning on or off of an array of gene networks. By doing so, they regulate a whole spectrum of cellular activities. The ability of small molecule hormones to regulate NR activity makes them excellent pharmaceutical targets. Clinical evidence and animal studies have implicated several NRs in contributing to podocyte development and disease. Recent studies from animals and cultured human or mouse podocytes indicate that synthetic hormones including estradiol, glucocorticoid, retinoid, pioglitazone, vitamin D3 and WY-14643 protect or rescue podocytes from experimental injury. Post treatment of injured podocytes with ligands for the above-mentioned NRs restores cytoskeletal architecture of the podocytes. Nonetheless, the mechanisms underlying the ability of these hormones in protecting podocytes remain largely unexplored. This is partly due to our limited knowledge of the target genes controlled by these hormones. In order to elucidate the mechanisms by which Dex, VD3 and ATRA elicit their renoprotective activity, we initiate a gene expression profiling study to identify the target genes of these hormones in cultured human podocytes.
+
+DESIGN
+The temperature-sensitive cultured human podocytes (HPCs) were maintained in culture media of RPMI supplemented with 10% FBS, 1% antibiotics and the Insulin-Transferrin-Selenium at the permissive (undifferentiated) temperature of 33 Celsius degree. The 70%~80% confluent HPCs were induced to in vitro differentiate by culturing at 37 Celsius degree for 2 days then with incubation of vehicle (equal volume of DMSO), 100 nM all-trans retinoic acid (ATRA), 100 nM dexamethasone (Dex), or 100 nM vitamin D3 (VD3) treatment for 3 more days. The undifferentiated HPCs with vehicle (equal volume of DMSO) treatment was included as a control. The total RNAs of these cells were isolated using USB prepEase RNA spin kit following the manufacturer's instructions. Total 1 microgram RNA at 100 nanogram per microliter for each sample were sent for a single-channel gene expression microarray studies using HumanRef-8 chip (V3_0_R3_11282963) on Illumina BeadStation platform. The RNA were converted to aRNA and appropriately labelled using MessageAmp Biotin aRNA Amplification Kit (Ambion) following the manufacturer's instructions. The raw data were collected by scanning the chip on Illumina BeadStation. Background subtracted raw data were exported and the following analysis was done in R/Bioconductor environment. Thus, we were able to compare the gene expression profiles between differentiated and undifferentiated HPCs with or without hormone treatment.
+
+PLATFORM
+GPL6883 Illumina HumanRef-8 v3.0 expression beadchip
+
+CITATIONS
+23593176
+

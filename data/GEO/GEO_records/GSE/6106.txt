@@ -1,0 +1,18 @@
+TITLE
+Sense-antisense transcript comparison in mouse brain and kidney
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Comparison of sense (forward probes) and antisense (reverse probes on U74 v1 gene arrays) transcripts in mouse kidney and brain. Positive calls related to antisense transcripts were compared to the cognate signals on the 430 version of mouse genome arrays to obtain genes that co expressed sense and antisense transcripts. This had to be done manually because divergent probe IDs on the two chip generations. Keywords: Qualitative comparison of expression
+
+DESIGN
+The first Affymetrix U74 mouse gene chips contains reversely oriented probe sets. These probes will hybridize to natural antisense transcripts that overlap with the sense transcript in the cognate area. Affymetrix provided a mask to identify the reverse probes. Positive calls with these reverse probes will give an estimate of the antisense transcriptome in that particular tissue. Comparison of the reversely oriented probes with correctly annotated probes will reveal the expression ratio of sense and antisense transcripts.
+
+PLATFORM
+GPL32 [MG_U74A] Affymetrix Murine Genome U74A Array GPL33 [MG_U74B] Affymetrix Murine Genome U74B Array GPL339 [MOE430A] Affymetrix Mouse Expression 430A Array GPL340 [MOE430B] Affymetrix Mouse Expression 430B Array GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+17105753
+

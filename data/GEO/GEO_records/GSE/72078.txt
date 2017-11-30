@@ -1,0 +1,18 @@
+TITLE
+Whole genome expression analysis of Human Induced pluripotent stem cells using Illumina Human HT-12 BeadChip
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Whole genome expression analysis was performed on iPSC lines generated during different steps of a cGMP compliant manufacturing process at Lonza.  Hierarchical clustering of all lines and overall correlation co-efficiency (R2 value) between each line exhibited that the gene expression profile of these lines was closey related to each other and also other well chracterized lines previously generated using similar or different reprogramming methodologies.
+
+DESIGN
+Total RNA was isolated from iPSC lines generated at the end of manufacturing process using the RNeasy Mini kit according to the manufacturer’s instructions (Qiagen, CA) and hybridized to Illumina Human HT-12 BeadChip (Illumina, Inc., CA, performed by Microarray core facility at the Burnham Institute for Medical Research). All the data processing and analysis was performed using the algorithms included with the Illumina BeadStudio software. The background method was used for normalization. The maximum expression value of gene for probe set was used as the expression value of the gene. For the processed data, the dendrogram was represented by global array clustering of genes across all the experimental samples using the complete linkage method and measuring the Euclidian distance. Expression of sample correlations was a measure of Pearson's coefficient, implemented in R System.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

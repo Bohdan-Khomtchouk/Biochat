@@ -1,0 +1,18 @@
+TITLE
+Global modulation of gene expression in Paracoccidioides brasiliensis in response to thioridazine
+
+ORGANISM
+Paracoccidioides brasiliensis
+
+SUMMARY
+Phenothiazines are antipsychotic drugs used in the treatment of schizophrenia, which have been shown to present antimicrobial activity (in vitro and in vivo) against a great variety of pathogenic microorganisms, including bacteria, parasites (protozoa and helmints) and fungi. In this study, we used competitive microarray hybridization to evaluate the effects of increasing concentrations of the piperidinic phenothiazine derivative thioridazine (TR) on the transcriptome of Paracoccidioides brasiliensis, the causative agent of paracoccidioidomycosis (PCM) - the most common systemic mycosis in Latin America. These analyses showed that the presence of TR affected expression of more than 1,800 genes from this fungus, including genes related to cellular processes such as cell wall metabolism and drug resistance.
+
+DESIGN
+Microarray hybridizations were carried out with amplified RNA (aRNA), which was produced starting with total RNA extracted from cells treated with thioridazine (15, 20 or 25 µM) for 144 hours. The aRNA synthesized from cells unexposed to TR was taken as reference. Each treatment was analyzed with four independent hybridizations (two pairs of dye-swapped hybridizations), using RNA from two biological replicas. The data has been filtered, normalized and adjusted as described in the " data processing " box for each individual sample. Dye swap consistency checking has been performed between equivalent experimental pairs with the aid of the software TIGR MIDAS v2.19 and inconsistent spots have been flagged and excluded from further analyses. The values obtained from each dye swap pair have been averaged and consolidated into a single data file, generating a total of 8 hybridization files (four from each treatment concentration). These files have been loaded into the software TIGR Multi-Experiment Viewer, v.3.1 Experiments were then normalized and genes that displayed statistically significant modulation were identified by one-way ANOVA, considering p < 0.01 as a cutoff value. A list of statisticaly significant, modulated genes was created, showing the average log ratio for each one of these genes, within each time point.
+
+PLATFORM
+GPL2780 Paracoccidioides brasiliensis microarray v1
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

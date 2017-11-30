@@ -1,0 +1,18 @@
+TITLE
+TLR4 Signaling Is a Major Mediator of the Female Tract Response to Seminal Fluid in Mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To examine the effect of seminal fluid on the whole genome expression profile of endometrial tissue following mating, RNA was extracted from endometrial tissue collected 8 h after CBAF1 females were mated with intact Balb/c males and compared to RNA from endometrial tissue of females mated with seminal fluid deficient SVX/VAS Balb/c males. This comparison controlled for ovarian hormone status, exposure to the male and mating activity, and the neuroendocrine response to cervical and vaginal stimulus at mating, so that changes in endometrial gene expression could be attributed specifically to contact with seminal fluid. The endometrial RNA from n=16 individual females was pooled into four independent biological replicates per treatment group (n=4 endometrial samples per replicate) and expression profiles were analyzed by Affymetrix microarray. Seminal fluid exposure induced a clear difference in the profile of genes expressed in the endometrium with a total of 335 genes were differentially regulated with a fold-change greater than 1.5 and p < 0.05. Of these, 190 genes were upregulated and 145 genes were downregulated following contact with seminal fluid. Bioinformatics analysis revealed TLR4 signaling as a strongly predicted upstream regulator activated by the differentially expressed genes.Additional experiments confirmed the role of TLR4 with the absence of TLR4 in TLR4 null mice resulting in a failure for seminal fluid to induce endometrial Csf3, Cxcl2, Il6 and Tnf expression. This study provides evidence that TLR4 contributes to seminal fluid modulation of the periconception immune environment. Activation of TLR4 signaling by microbial or endogenous components of seminal fluid is thus implicated as a key element of the female tract response to seminal fluid at the outset of pregnancy in mice.
+
+DESIGN
+Endometrial RNA collected 8 h following coitus from n=16 individual females was pooled into four independent biological replicates per treatment group (n=4 endometrial samples per replicate) and expression profiles were analyzed by Affymetrix microarray. Microarray analysis was performed using Affymetrix Mouse Gene 2.0 ST Arrays at the Adelaide Microarray Centre (Adelaide, Australia). Total RNA (300 ng) was labelled using the GeneChip® WT PLUS Reagent Kit according to the manufacturer’s instructions (Affymetrix, Santa Clara, CA). Microarray data was analyzed using Partek Genomics Suite version 6.6). Briefly, .cel files were imported using RMA background correction, following GC content correction and mean probe summarization. Differentially expressed probes were defined as ≥1.50-fold change, t-test p < 0.05.  To investigate gene pathways and upstream regulators activated by seminal fluid following mating, differentially expressed genes were analyzed using Ingenuity Pathway Analysis (IPA) version 18488943 Build 308606M (IPA, Ingenuity Systems, Redwood City, CA).
+
+PLATFORM
+GPL16570 [MoGene-2_0-st] Affymetrix Mouse Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+26157066
+

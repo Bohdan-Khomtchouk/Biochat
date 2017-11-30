@@ -1,0 +1,18 @@
+TITLE
+A map of the PPARα transcription regulatory network for primary human hepatocytes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Nuclear receptor activation in liver leads to coordinated alteration of the expression of multiple gene products with attendant phenotypic changes of hepatocytes. Peroxisome proliferators including endogenous fatty acids, environmental chemicals, and drugs induce a multi-enzyme metabolic response that affects lipid and fatty acid processing. We studied the signaling network for the peroxisome proliferator-associated receptor alpha (PPARα) in primary human hepatocytes using the selective PPARα ligand, GW7647. We measured gene expression over multiple concentrations and times and conducted ChIP-seq studies at 2 and 24 hours to assess genomic binding of PPARα. Over all treatments there were 192 genes differentially expressed. Of these only 51% showed evidence of PPARα binding – either directly at PPARα response elements or via alternative mechanisms. Almost half of regulated genes had no PPARα binding.  We then developed two novel bioinformatics methods to visualize the dose-dependent activation of both the transcription factor circuitry for PPARα and the downstream metabolic network in relation to functional annotation categories. Available databases identified several key transcription factors involved with the non-genomic targets after GW7647 treatment, including SP1, STAT1, ETS1, ERα, and HNF4α. The linkage from PPARα binding through gene expression likely requires intermediate protein kinases to activate these transcription factors. We found enrichment of functional annotation categories for organic acid metabolism and cell lipid metabolism among the differentially expressed genes. Lipid transport processes showed enrichment at the highest concentration of GW7647 (10μM). While our strategy for mapping transcriptional networks is evolving, these approaches are necessary in moving from toxicogenomic methods that derive signatures of activity to methods that establish pathway structure, showing the coordination of the activated nuclear receptor with other signaling pathways.
+
+DESIGN
+Primary hepatocytes from four donors were exposed to 0, 0.001, 0.01, 0.1, 1.0, or 10.0μM GW7647 for 2, 6, 12, 24, or 72 hours.
+
+PLATFORM
+GPL13158 [HT_HG-U133_Plus_PM] Affymetrix HT HG-U133+ PM Array Plate
+
+CITATIONS
+24269660
+

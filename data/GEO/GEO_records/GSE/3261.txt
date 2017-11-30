@@ -1,0 +1,18 @@
+TITLE
+Global gene expression in catfish spleen after injection of lipopolysaccharide
+
+ORGANISM
+Ictalurus punctatus
+
+SUMMARY
+A high-density oligonucleotide microarray for channel catfish (Ictalurus punctatus) was designed and produced with Maskless Array Synthesizer technology (MAS). The microarray contained ~379,652 24-mer oligonucleotides covering ~18,999 catfish unique sequences. The global expression profiling of the catfish spleens stimulated by lipopolysaccharide (LPS) for 2h, 4h, 8h and 24h was investigated with the microarray.  In the spleen samples, 409 genes were identified to be induced or repressed greater than 2-fold by LPS treatment.   Self-organizing maps (SOM) clustering analysis was applied to interpret gene expression patterns, and 84 of these genes were clustered into six expression patterns.  Real-time RT-PCR was used to verify the microarray results for 9 selected genes representing different expression levels. The results from real-time RT-PCR were positively correlated (R^2 = 0.87) with the results from the microarray. Keywords: time course
+
+DESIGN
+Channel catfish were injected with LPS or PBS carrier.  Fish were killed by anesthesia overdose at 2, 4, 8, or 24h post-injection and total RNA was isolated from spleen.  The experiment contained two replicate fish per time point.  Relative signal intensities for each feature were generated using the Robust Multi-Array Average algorithm and log2 transformed.  Transformed data were then processed using quantile normalization, and the average and std. error for each gene were calculated from the 10 perfectly matched oligos only.  After detransformation, the ratio (fold change) was calculated using PBS treated samples (control) as the baseline against LPS-treated samples.
+
+PLATFORM
+GPL2814 Nimblegen channel catfish 382K oligo array version 1.0
+
+CITATIONS
+16740160
+

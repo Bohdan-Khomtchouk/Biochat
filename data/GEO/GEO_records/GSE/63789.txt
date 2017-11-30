@@ -1,0 +1,18 @@
+TITLE
+Causal signals between codon bias, mRNA structure and the efficiency of translation and elongation
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Ribosome profiling data reports on the distribution of translating ribosomes, at steady-state, with codon-level resolution. We present a robust method to extract codon translation rates and protein synthesis rates from these data, and identify causal features associated with elongation and translation efficiency in physiological conditions in yeast. We show that neither elongation rate nor translational efficiency is improved by experimental manipulation of the abundance or body sequence of the rare AGG tRNA. Deletion of three of the four copies of the heavily used ACA tRNA shows a modest efficiency decrease that could be explained by other rate-reducing signals at gene start. This suggests that correlation between codon bias and efficiency arises as selection for codons to utilize translation machinery efficiently in highly translated genes. We also show a correlation between efficiency and RNA structure calculated both computationally and from recent structure probing data, as well as the Kozak initiation motif, which may comprise a mechanism to regulate initiation.
+
+DESIGN
+We test whether tRNA abundance affects elongation or translation efficiency by changing the tRNA levels through deletion or over expression and measuring the ribosomal dwell time at each codon using a robust statistical method that accounts for flow conservation.
+
+PLATFORM
+GPL9377 Illumina Genome Analyzer II (Saccharomyces cerevisiae)
+
+CITATIONS
+25538139
+

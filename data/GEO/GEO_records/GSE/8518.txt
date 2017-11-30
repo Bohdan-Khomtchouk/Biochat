@@ -1,0 +1,18 @@
+TITLE
+Rice Gene Expression During Biotrophic Invasion by Magnaporthe oryzae (Agilent Array G4138A)
+
+ORGANISM
+Oryza sativa ; Magnaporthe oryzae
+
+SUMMARY
+The hemibiotrophic fungus Magnaporthe oryzae produces specialized biotrophic invasive hyphae (IH) that alter membrane structure and defense responses in invaded rice cells.  IH successively invade live neighbor cells, apparently through plasmodesmata.  Understanding fungal and rice genes that contribute to biotrophic invasion has been a challenge because so few plant cells have encountered IH at the earliest infection stages.  Using a rice sheath inoculation method, we successfully enriched for infected tissue RNA that contained ~20% fungal RNA at a point when most IH were still growing in first-invaded rice cells.  The RNAs were analyzed using the whole-genome M. oryzae oligoarray and a rice oligoarray.  Rice genes that were induced > 50-fold during infection were enriched for genes involved in transferring information from sensors to cellular responses.  Fungal genes that were induced > 50-fold in IH included the PWL2 avirulence gene and genes encoding hypothetical secreted proteins.  The IH-specific secreted proteins are candidate effectors, proteins that the fungus secretes into live host cells to control cellular processes.  Gene knock-out analyses of three putative effector genes failed to show major effects on pathogenicity.  Details of the blast interaction transcriptome will provide insights on the mechanisms of biotrophic plant disease. Keywords: Disease state analysis
+
+DESIGN
+Our goal was to compare expression in infected rice sheath to expression in mock inoculated rice, and to compare expression in biotrophic IH to expression in mycelium grown in nutrient medium. Using the rice microarray (Agilent Technologies), we analyzed samples from three biological replicates of rice leaf sheath at 36 hours after inoculation with the rice blast fungus M. oryzae. The same samples were used with the Agilent M. oryzae microarray (see series GSE8517). To estimate the ratio of fungal to rice RNAs in the infected sheaths, we compared RT-PCR amplification of fungal genes in infected tissue to amplification in standards produced by mixing known ratios of pure mycelial RNA with mock-inoculated rice RNA. Using this assay, fungal RNA content in infected tissues were approximately 20% of the total RNAs. We prepared control mixtures by pooling 20% mycelial RNA and 80% RNA from mock-inoculated rice sheath. Complementary RNAs from infected tissues were labeled with Cy3 or Cy5 and hybridized together with the control mixture RNA labeled with the other dye.  Three independent biological replications were performed, with separate hybridizations for 2 technical replications and corresponding dye swap experiments.  Data were analyzed by Rosetta Resolver® and showed a correlation of over 80% between biological replications.
+
+PLATFORM
+GPL892 Agilent-012106 Rice Oligo Microarray G4138A (Feature Number version)
+
+CITATIONS
+19357089
+

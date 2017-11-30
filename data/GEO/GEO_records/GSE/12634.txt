@@ -1,0 +1,18 @@
+TITLE
+Listeria monocytogenes SOS response determined after mitomycin C exposure
+
+ORGANISM
+Listeria monocytogenes EGD-e
+
+SUMMARY
+The SOS response is a conserved pathway that is activated under certain stress conditions and is regulated by the repressor LexA and the activator RecA. The food-borne pathogen Listeria monocytogenes contains RecA and LexA homologs, but their roles in Listeria have not been established. In this study, we identified the SOS regulon in L. monocytogenes by comparing the transcription profiles of the wild-type strain and the ΔrecA mutant strain after exposure to the DNA damaging agent mitomycinC (MMC). The SOS response is an inducible pathway involved in DNA repair, restart of stalled replication forks, and in induction of genetic variation in stressed and stationary phase cells. It is regulated by LexA and RecA. LexA is an autoregulatory repressor which binds to a consensus sequence in the promoter region of the SOS response genes, thereby repressing transcription. A consensus LexA binding motif for L. monocytogenes has not been identified thus far. Generally, the SOS response is induced under circumstances in which single stranded DNA accumulates in the cell. This results in activation of  RecA, which in turn stimulates cleavage of LexA, and ultimately in the induction of the SOS response. Keywords: stress response, loop design, SOS response, mitomycin c, listeria monocytogenes, RecA, LexA
+
+DESIGN
+Triple loop design of 3 independent experiments (series A, B, and C) using Wt strain and recA mutant (activator of the SOS response).  Sampling was done before (t=0) and 1 hour after (t=60) exposure to mitomycin C (MMC) for both the wild-type strain and the recA mutant strain. One series therefore contains 4 samples and the complete experiments consists of 12 samples. Each of the 3 series was designed in a loop (wt, t=0 = > wt, t=60 = > recA, t=60 = > recA, t=0 = > wt, t=0). These 3 loops were connected using series B as the central loop. Series B was connected to series A as follows: wt, t=0 (B) = > recA, t=0 (A) and wt, t=60 (B) = > recA, t=60 (A). Series B was connected to series C as follows: recA, t=0 (B) = > wt, t=0 (C) and recA, t=60 (B) = > wt, t=60 (C).
+
+PLATFORM
+GPL7235 TIFN_Listeria monocytogenes EGD-e_15K_v1.0
+
+CITATIONS
+19892760
+

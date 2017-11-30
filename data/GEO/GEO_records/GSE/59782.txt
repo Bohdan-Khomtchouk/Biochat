@@ -1,0 +1,18 @@
+TITLE
+Open chromatin mapping identifies transcriptional networks regulating human epididymis epithelial function [Dnase-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The epithelium lining the epididymis in the male reproductive tract maintains a luminal environment that promotes sperm cell maturation. This process is dependent on the coordinated expression of many genes that encode proteins with a role in epithelial transport. We previously generated genome-wide maps of open chromatin in primary human fetal epididymis epithelial cells to identify potential regulatory elements controlling coordinated gene expression in the epididymis epithelium. Subsequent in silico analysis identified transcription factor binding sites (TFBS) that were over-represented in the HEE open chromatin, include the motif for paired box 2 (PAX2). PAX2 is a critical transcriptional regulator of urogenital tract development, which is well studied in the kidney but is unexplored in the epididymis. Due to the limited lifespan of primary HEE cells in culture we investigated the role of PAX2 in an immortalized HEE cell line (REP). First, REP cells were evaluated by DNase-seq and their open chromatin map overlapped that of primary HEE cells at ~ 65% of sites. Moreover, the PAX2-binding motif was again identified as an overrepresented TFBS within intergenic open chromatin, though on fewer chromosomes than in the primary HEE cells. To identify PAX2-target genes in REP cells, RNA-seq analysis was performed after siRNA-mediated depletion of PAX2 in comparison to a non-targeting siRNA. In response to PAX2-represssion, 3142 transcripts were differentially expressed (1334 up-regulated and 1808 down-regulated). Novel PAX2 targets included multiple genes encoding proteins with a predicted function in the epididymis epithelium.
+
+DESIGN
+examination of open chromatin region in REP cells with 2 replicates
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25180270
+

@@ -1,0 +1,18 @@
+TITLE
+Human mesenchymal cells treated with various supplements (dataset to support blima package for bead level Illumina microarray analysis)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This dataset contains 9 Illumina array spots representing 3 different treatment conditions of human mesenchymal cells. First two conditions in quadruplicate and third condition on single array. The data are intended to support blima package as testing data included in blimaTestingData package available at https://bitbucket.org/kulvait/blima page. The package was developed to make analysis of Illumina bead level data possible without summarizing them to the level of probes prior to differential expression testing.
+
+DESIGN
+We label the arrays used for downstream analysis A1, A2, A3, A4 for condition A (cells grown in alfa-MEM medium with 10% fetal bovine serum) and E1, E2, E3, E4 for condition E (cells grown in CellGro medium, with human serum and suplements FGF-2, EGF, M-CSF and insulin) in the set there is also included array labeled D4 for condition D (cells grown in CellGro medium, with human serum and supplements PDGF-BB, EGF, M-CSF and insulin).
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

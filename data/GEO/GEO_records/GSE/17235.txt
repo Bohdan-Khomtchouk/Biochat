@@ -1,0 +1,18 @@
+TITLE
+Human Cells Time of Replication (ToR)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Measurment of the ToR by comapring the DNA content of the S phase and the DNA content of the G1 phase, the method is based on the method used in the paper - Replication timing of the human genome by Woodfine et al. that was published in Hum. Mol. Genet. 2004. Briefly, after staining with Propidium Iodide,  cells in G1 and S phase of the cell cycle are sorted by FACS sorter (ARIA or Vantage), DNA is then extracted from the fractions and differentially labeled with dUTP-Cy3 or dUTP-Cy5 using direct labeling (Agilent labeling kit). The labeled DNA is cohybridized to the array. Early replicating sequences correspond to the spots with high S/G1 ratio and late replicating sequences correspond to the spots with low S/G1 ratio.
+
+DESIGN
+two human tissues were measured (MOLT4 and FFT-foreskin fibroblasts), 2 replicates for each sample
+
+PLATFORM
+GPL8895 The Hebrew university Human 105k v1
+
+CITATIONS
+20617169
+

@@ -1,0 +1,18 @@
+TITLE
+Dynamic profiling of the protein life cycle in response to pathogens (RNA-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Protein expression is regulated by production and degradation of mRNAs and proteins, but their specific relationships remain unknown. We combine measurements of protein production and degradation and mRNA dynamics to build a quantitative genomic model of the differential regulation of gene expression in LPS stimulated mouse dendritic cells. Changes in mRNA abundance play a dominant role in determining most dynamic fold changes in protein levels. Conversely, the preexisting proteome of proteins performing basic cellular functions is remodeled primarily through changes in protein production or degradation, accounting for over half of the absolute change in protein molecules in the cell. Thus, the proteome is regulated by transcriptional induction of novel cellular functions and remodeling of preexisting functions through the protein life cycle.
+
+DESIGN
+Mouse primary dendritic cells were treated with LPS or mock stimulus and profiled over a 12-hour time course. Cells were grown in M-labeled SILAC media, which was replaced with H-labeled SILAC media at time 0. Aliquots were taken at 0, 0.5, 1, 2, 3, 4, 5, 6, 9, and 12 hours post-stimulation and added to equal volumes of a master mix of unlabeled (L) cells for the purpose of normalization. RNA-Seq was performed at 0, 1, 2, 4, 6, 9, and 12 hours post-stimulation.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25745177
+

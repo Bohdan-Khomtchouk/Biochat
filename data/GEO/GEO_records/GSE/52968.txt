@@ -1,0 +1,18 @@
+TITLE
+Ribosome profiling study of dom34 and hbs1 knockout strains using short (16-nt) and long (28-nt) monosome-protected footprints and disome-protected footprints
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Ribosomes that stall before completing peptide synthesis must be recycled and returned to the cytoplasmic pool. The protein Dom34 and cofactors Hbs1 and Rli1 can dissociate stalled ribosomes in vitro, but the identity of targets in the cell is unknown. Here we use ribosome profiling methodology to reveal a high- resolution molecular characterization of Dom34 function in vivo. We show that Dom34 removes stalled ribosomes from mRNAs that are truncated but, in contrast, does not generally dissociate ribosomes on coding sequences known to trigger stalling, such as polyproline. We also show that Dom34 targets arrested ribosomes near the ends of 3 ́ UTRs. These ribosomes appear to gain access to the 3 ́ UTR via a mechanism that does not require decoding of the mRNA. These results suggest that Dom34 carries out the important task of rescuing ribosomes found in noncoding regions.
+
+DESIGN
+25 samples are included in the study (2 mRNA-Seq samples and 23 ribosome footprint profiling samples). These include wild-type and dom34 or hbs1 knockout strains that were created in a variety of genetic backgrounds, treated with various agents in cell culture (e.g. diamide, 3-AT, or glucose starvation), treated differently during cell lysis (use of cycloheximide vs. other ribosome-stabilizing agents), or prepared in different ways after cell lysis (e.g. retention of short vs. long monosome-protected footprints or disome footprints).
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae) GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+24581494
+

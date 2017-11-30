@@ -1,0 +1,18 @@
+TITLE
+A combinatorial code for pattern formation in Drosophila oogenesis
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Two-dimensional patterning of the follicular epithelium in Drosophila oogenesis is required for the formation of three-dimensional eggshell structures. Our analysis of a large number of published gene expression patterns in the follicle cells suggests that they follow a simple combinatorial code based on six spatial building blocks and the operations of union, difference, intersection, and addition. The building blocks are related to the distribution of inductive signals, provided by the highly conserved epidermal growth factor receptor and Decapentaplegic (DPP) pathways. We demonstrate the validity of the code by testing it against a set of patterns obtained in a large-scale transcriptional profiling experiment. Using the proposed code, we distinguish 36 distinct patterns for 81 genes expressed in the follicular epithelium and characterize their joint dynamics over four stages of oogenesis. The proposed combinatorial framework allows systematic analysis of the diversity and dynamics of two-dimensional transcriptional patterns and guides future studies of gene regulation. Keywords: EGFR, BMP, gain/loss-of-function
+
+DESIGN
+RNA was isolated from hand dissected, stage 9-10 egg chambers.  Five genetic backgrounds were profiled including: wild type, EGFR gain of function, EGFR loss of function, BMP gain of function, and BMP loss of function. Three biological replicates were hybridized for each pathway perturbation. The samples were split across two rounds of hybridization. Each round of hybridizations included three biological replicates for wild type: The first round included EGFR gof, EGFR lof, BMP gof, and wild type controls A1-A3 (GSM313514-16). For these 12 arrays the extraction, labeling, and hybridization steps were done in parallel. The second round included the BMP lof and wild type controls B1-B3 (GSM313517-19). For these 6 arrays, the extraction, labeling, and hybridization steps were done in parallel.
+
+PLATFORM
+GPL72 [DrosGenome1] Affymetrix Drosophila Genome Array
+
+CITATIONS
+19000837
+

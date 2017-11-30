@@ -1,0 +1,18 @@
+TITLE
+Gene expression regulation by C. elegans SAM-10
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Little is known about transcriptional control of neurite branching or presynaptic differentiation, events that occur relatively late in neuronal development.   Using the C. elegans mechanosensory circuit as an in vivo model, we show that SAM-10, an ortholog of mammalian Single-Stranded DNA binding Protein (SSDP), functions cell-autonomously in the nucleus to regulate synaptic differentiation as well as positioning of a single neurite branch.  PLM mechanosensory neurons in sam-10 mutants exhibit abnormal placement of the neurite branch point, and defective synaptogenesis, characterized by an overextended synaptic varicosity, underdeveloped synaptic morphology and disrupted co-localization of active zone and synaptic vesicles.  SAM-10 functions coordinately with LDB-1 (Lim Domain Binding protein-1), demonstrated by our observations that 1) mutations in either gene show similar defects in PLM neurons; and 2) LDB-1 is required for SAM-10 nuclear localization.  SAM-10 regulates PLM synaptic differentiation by suppressing transcription of prk-2, which encodes an ortholog of the mammalian Pim kinase family.  PRK-2-mediated activities of SAM-10 are specifically involved in PLM synaptic differentiation, but not other sam-10 phenotypes such as neurite branching.   Thus, these data reveal a novel transcriptional signaling pathway that regulates neuronal specification of neurite branching and presynaptic differentiation.
+
+DESIGN
+Animals were grown on fresh 8P plates (Wormbook.org) until gravid.  Eggs were collected by bleaching and hatched in M9 buffer overnight.  L1 animals were fed on fresh food for 2 hours at room temperature, harvested and separated from worm debris using a 25μm mesh.  RNA was isolated using a standard Trizol protocol.  RNA preps were stored at -80C.  Quality of RNA preps was first estimated using Agilent 2100 Bioanalyzer.  RNA was then reverse-transcribed using the Genisphere Array 350 kit, which generate tagged cDNA.  Resulted products are hybridized to the microarrays.  Four independent high quality RNA preps (RIN > =7) were chosen for microarray assay using long oligomer-based spotted microarray (Washington University, St. Louis, MO).  For dye-swap controls, we ran a technical replicate hybridization for each pair of samples in which the dyes are reversed.  Gene spots with “found/good” signals (defined by ScanArray, channel flag 3) in all scans were chosen for gene expression analysis.
+
+PLATFORM
+GPL5859 WASHU_C.elegans_22.5K_V1
+
+CITATIONS
+21115607
+

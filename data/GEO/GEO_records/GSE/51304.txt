@@ -1,0 +1,18 @@
+TITLE
+Non-CG methylation patterns shape the epigenetic landscape in Arabidopsis
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+DNA methylation occurs in both CG and non-CG sequence contexts. Non-CG methylation is abundant in plants, and is mediated by CHROMOMETHYLASE (CMT) and DOMAINS REARRANGED METHYLTRANSFERASE (DRM) proteins; however its roles remain poorly understood. Here we characterize the roles of non-CG methylation in Arabidopsis thaliana. We show that a poorly characterized methyltransferase, CMT2, is a functional methyltransferase in vitro and in vivo. CMT2 specifically binds histone H3 lysine 9 (H3K9) dimethylation and methylates non-CG cytosines at sites that are also regulated by H3K9 dimethylation. By generating different combinations of non-CG methylation mutants, we reveal the contributions and redundancies between each methyltransferase in DNA methylation patterning and in regulating transposable elements (TEs) and protein-coding genes. We also demonstrate extensive dependencies of small RNA accumulation and H3K9 methylation patterning on non-CG methylation, suggesting self-reinforcing mechanisms between these epigenetic factors. The results suggest that non-CG methylation patterns are critical in shaping the histone modification and small non-coding RNA landscapes.
+
+DESIGN
+Eighteen mRNA-seq samples, five smRNA-seq samples, five bisulfite-seq samples, twenty ChIP-seq samples. Bisulfite-seq data for cmt2-7 single mutants, cmt3 single mutants, drm1/2 double mutants, drm1/2 cmt3 triple mutants are deposited in GSE39901. Processed wiggle format files for all datasets can be downloaded at http://genomes.mcdb.ucla.edu/AthBSseq/
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+24336224
+

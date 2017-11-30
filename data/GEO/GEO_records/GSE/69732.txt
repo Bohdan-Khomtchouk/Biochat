@@ -1,0 +1,18 @@
+TITLE
+Circulating RNAs profile in non-small cell lung cancer patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Circulating RNAs are a less invasive and easy accessed source of samples for biomedical research and clinical applications. However, circulating mRNA is mostly fragmented and less abundant. High throughput RNA sequencing (RSEQ) and DASL assay have been both applied to profile such fragmented RNA samples. In this study, we compared the ability of transcriptomic profiling of the two platforms. Circulating RNAs from three non-small cell lung cancer patients and three age-matched healthy controls were analyzed by RSEQ and DASL assay. The concordance of each gene analyzed by the two platforms were measured with Pearson's correlation coefficient. And gene expression level determined by both platforms were confirmed by RT-PCR. The two platforms showed modest to moderate correlation. Genes with higher expression level represented higher cross-platform concordance. Compare the results of RT-PCR and the two platforms, RSEQ was much higher correlated with RT-PCR. This data suggested that RSEQ could be more suitable for circulating RNA profiling. In conclusion, we have demonstrated that genes with higher expression levels showed cross-platform concordance. And, the RSEQ could be more suitable tool for profiling circulating RNAs.
+
+DESIGN
+Whole blood samples were obtained from three NSCLC patients and three healthy volunteers. The plasma section were collected after 1,600 x g centrifugation. The plasma RNAs were extracted with TRIzol-LS reagents. Total cell-free RNAs were quantitized with NanoDrop-1000. The gene expression levels were determined by Illumina DASL-HT12-v4 array. Gene expression determined by Illumina data analysis pipeline with quantile normalization. The pathways activated in each groups were identified with gene set enrichment analysis.
+
+PLATFORM
+GPL14951 Illumina HumanHT-12 WG-DASL V4.0 R2 expression beadchip
+
+CITATIONS
+26417025
+

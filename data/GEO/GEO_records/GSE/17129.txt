@@ -1,0 +1,18 @@
+TITLE
+The IKK2/NF-kB-pathway suppresses MYC-induced lymphomagenesis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Abstract. Deregulated c-MYC is found in a variety of cancers where it promotes proliferation as well as apoptosis. In many hematological malignancies enhanced NF-kB exerts prosurvival functions. Here we investigated the role of NF-kB in mouse and human c-MYC-transformed lymphomas. The NF-kB-pathway is extinguished in murine lymphoma cells and extrinsic stimuli typically inducing NF-kB activity fail to activate this pathway. Genetic activation of the NF-kB pathway induces apoptosis in these cells, while inhibition of NF-kB by an IkBa superrepressor provides a selective advantage in vivo. Furthermore, in human Burkitt´s lymphoma cells we find that NF-kB activation induces apoptosis. NF-kB upregulates Fas and predisposes to Fas-induced cell death, which is caspase 8 mediated and can be prevented by CFLAR overexpression. We conclude that c-MYC overexpression sensitizes cells to NF-kB-induced apoptosis and persistent inacvtivity of NF-kB signaling is a prerequisite for MYC-mediated tumorigenesis. We could also show that low immunogenicity and Fas insensitivity of MYC driven lymphoma cells is reversed by activation of NF-kB. Our observations provide a molecular explanation for the described absence of the NF-kB signaling in Burkitt´s lymphoma and question the applicability of NF-kB inhibitors as candidates for treatment of this cancer.
+
+DESIGN
+Ramos cells were transfected in triplicates with pRTS-GFP (A+,C+,D+) or pRTS-CA-IKK2 (E+,F+,H+), selected with hygromycin and transgene expression was induced with doxycycline (0,5mg/ml) for 48hrs. RNA was isolated with RNeasy mini kit (Qiagen, Venlo, Netherlands) and Gene expression profiling (GEP) was performed using Affymetrix Human Genome U133 Plus 2.0 Array (Affymetrix, Santa Clara, CA, USA). 2 µg of total RNA were labeled using the GeneChip® One-Cycle Target Labeling assay kit (Affymetrix). After hybridization arrays were stained and washed in a FS 450 Fluidics station (Affymetrix) before imaging on an Affymetrix GeneChip (3000) scanner. Raw data were generated using the GCOS 1.4 software (Affymetrix). Probe level data were obtained using the Robust Multichip Average (RMA) normalization algorithm and CEL files were loaded into Genesifter (GeneSifter.Net, VizX Laboratories, Seattle, WA, USA). Genes were identified as differentially expressed among the two classes if a two-sample T-test revealed a nominal significance level of 0.05 and the ratio between the two classes was at least 2 fold. Calculation of false discovery rate was done according to the method of Benjamini and Hochberg. Biological significance was determined using Gene Ontolgy reports.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19628709
+

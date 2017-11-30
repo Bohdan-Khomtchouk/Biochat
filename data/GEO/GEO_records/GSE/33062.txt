@@ -1,0 +1,18 @@
+TITLE
+Genomic analysis for predicting cell culture status in a sparged bench-scale 5L bioreactor
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+There is a great need for setting novel measurable attributes at the cell physiological level in a scalable biopharmaceutical production process to be able to predict the process outcomes and improve process understanding. In a biologic production process, changes in culture environment due to several factors such as shear and bubble induced damage from gas sparging and agitation are known to occur. There is a gap in the knowledge of cellular response due to varying bioreactor environment itself during the course of cell culture, from lag-phase to log-phase to stationary-phase in culture. With the emergence of micro-arrays as tools for exploring cell physiological changes, it opens the possibility for studying the effect of bioreactor culture environment itself on the cell substrate. Such information could be eventually used to designate gene transcripts as biomarkers for cell status in a controlled bioreactor system. A model 5L bench-scale bubble aerated and impeller agitated bioreactor system was used to study gene expression profiles of a hybridoma cell line during the time-course of batch culture. Gene expression profiles that were variable from early-to-late in batch culture, as well as invariant gene profiles were summarized using microarray findings. Typical cellular functions studied were oxidative stress response, DNA damage response, apoptosis, antioxidant activity, cellular metabolism, and protein folding. These findings were also verified with a more rigorous semi-quantitative RT-PCR technique. The results of this study suggest that under predefined bioreactor culture conditions, significant gene changes from lag to log to stationary phase could be identified, which could then be used to track the culture state.
+
+DESIGN
+We ran consecutive 5L bioreactor runs, each with an independent vial thaw, to achieve multiple biological replicates per time-point. Bioreactors were sampled approximately every 12 hours for RNA extraction. For the 5L bioreactors, microarray samples were run for day 1 (n=2), day 2 (n=2), day 3 (n=3), and day 3.5 (n=3). Here 2 or 3 of the three biological replicates run for each time-point were included in the analysis, based on > 70% genes found. We define early exponential as day 1, peak exponential as day 2 and day 3 and late stationary as day 3.5.
+
+PLATFORM
+GPL14743 Mm-FDA-OperonV4-35K
+
+CITATIONS
+22837152
+

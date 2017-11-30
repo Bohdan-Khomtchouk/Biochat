@@ -1,0 +1,18 @@
+TITLE
+Expression data from peripheral blood  - blood draws at Pre and Post time points of Allergen inhalation challenge (ER and DR)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To determine differential gene expression in peripheral blood of asthmatic individuals undergoing allergen inhalation challenge between early responders (ERs) and dual responders (DRs) following allergen inhalation challenge
+
+DESIGN
+Blood was collected immediately prior to, and two hours after challenge The change in gene expression (post expression minus pre expression) in ERs was compared with the change in gene expression in DRs using age and sex as covariates Preprocessing and probeset filtering were applied to the entire dataset (28 CEL files) using the Factor Analysis for Robust MicroArray Summarization (farms) package in R The Linear Models for MicroArrays (limma) package was used to determine differential gene expression using a Benjamini Hochberg FDR of 10%.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23844124
+

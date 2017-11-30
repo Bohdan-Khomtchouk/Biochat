@@ -1,0 +1,18 @@
+TITLE
+Steady-state samples of Methanococcus maripaludis MM901 grown on formate under hydrogen limited conditions
+
+ORGANISM
+Methanococcus maripaludis S2
+
+SUMMARY
+Hydrogenotrophic methanogenic Archaea are defined by a H2 requirement for growth. Despite this requirement, many hydrogenotrophs are also capable of growth with formate as an electron donor for methanogenesis. Hydrogenotrophs respond to H2 starvation both phenotypically and at the level of gene expression; however, the responses during growth on formate have not been characterized. Here we report that during continuous culture of Methanococcus maripaludis under defined nutrient conditions, growth yields relative to methane production decreased markedly with either H2 excess or formate excess, suggesting that energy spilling occurs. Using microarray analysis, we show that the expression of genes encoding F420-dependent steps of methanogenesis, including one of two formate dehydrogenases, increased with H2 starvation, but with formate occurred at high levels regardless of limitation or excess. One gene, encoding H2-dependent methylene-tetrahydromethanopterin dehydrogenase, decreased in expression with either H2 limitation or formate limitation. Expression of genes for the second formate dehydrogenase, molybdenum-dependent formylmethanofuran dehydrogenase, and molybdenum transport increased specifically with formate limitation. Of the two formate dehydrogenases, only the first could support growth on formate in batch culture where formate was in excess.
+
+DESIGN
+The strain was grown by continuous culture in a one-liter fermenter (New Brunswick Scientific, Edison, NJ) at 37°C (FEMS Microbiol Lett 238: 85-91, 2004). Medium and gas compositions were modified from those for non-limiting conditions (BMC Microbiol 9: 149, 2009). The medium contained 380 mM sodium formate in place of NaCl.  The agitation rate was 250 revolutions per minute. The gas mixture initially supplied to the chemostat was H2/Ar/CO2/1% H2S (21/125/40/14 mLs min-1) (Proc Natl Acad Sci USA 104: 8930-8934, 2007). After the OD increased above 0.6 (24 h), the medium flow was turned on at 0.083 L/h. Medium was either non-limiting (described above), formate limiting (modified to contain 200 mM sodium formate and 180 mM NaCl), nitrogen limiting (2 mM NH4Cl), or phosphate limiting (0.08 mM K2HPO4). Also at this point, gas flow through the vessel was shut off, a 1 psi check valve was installed on the exhaust line to maintain positive pressure within the vessel while also allowing for exhaust of gaseous metabolic byproducts, and a 1% Na2S9H2O feed was started into the vessel at 0.83 mL/h. 48 hours later, samples were taken for physiological measurements or microarray analysis. Samples were collected for microarray analysis as follows: 1.5 mLs of chemostat culture (OD660 ~0.65) was centrifuged at 13,000 x g for 30 seconds and supernatant was discarded. The pellet was immediately placed in a dry ice/ethanol bath and stored at -80C until RNA extraction and microarrays could be performed.  Total RNA from each sample was compared against a reference RNA pool that was generated in bulk from a mid-log phase culture of MM901. Total RNA from samples and reference were directly labeled with Cy3 or Cy5, and were hybridized to the tiling array. After hybridization and washing according to array manufacturer's instructions, the arrays were scanned by Microarray Scanner (Agilent Technologies, Santa Clara, CA). Dye-flip experiments were done for each sample.
+
+PLATFORM
+GPL15063 Agilent-029364 ISB Mmp 60K 60mer tiling array
+
+CITATIONS
+23335420
+

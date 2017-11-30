@@ -1,0 +1,18 @@
+TITLE
+Transcriptome of choroid endothelial cells from P5 and P30 mice.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: The outer blood-retina barrier is established through the coordinated terminal maturation of the retinal pigment epithelium (RPE), fenestrated choroid endothelial cells (ECs) and Bruch’s membrane, a highly organized basement membrane that lies between both cell types. Here we study the contribution of choroid ECs to this process by comparing their gene expression profile before (P5) and after (P30) the critical postnatal period when mice acquire mature visual function. Methods: ECs from P5 and P30 mice were labeled in vivo by retro-orbital injection of fluorescently-labeled anti-VE-Cadherin. After 10 minutes, mice were euthanized, eyeballs were enucleated and the anterior segment was discarded. After removal of the neural retina, RPE/choroid was mechanically dissected from the sclera and digested. ECs were isolated by flow cytometry and processed immediately for RNA extraction. Results: Transcriptome analyses show that whereas P5 choroid EC transcriptome is preferentially enriched in cell cycle- and chromosome-related transcripts, reflecting an immature phenotype, the transcriptome of adult (P30) choroid ECs is enriched in genes encoding proteins involved in ‘biological adhesion’, including a variety of extracellular matrix (ECM)-related genes. Conclusion: these results strongly suggest that mature choroid ECs actively participate in extracellular matrix assembly and regulation.
+
+DESIGN
+Transcriptome of choroid ECs isolated from P5 and P30 mice (3 independent isolations, 7 animals per isolation) was determined using the Illumina HiSeq2000 platform. Upon quality control using FastQC, raw reads were aligned to the mouse genome (mm9) using TopHat with default parameters. CuffLinks with GC and upper quartile normalization was then used to calculate normalized expression levels.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28524846
+

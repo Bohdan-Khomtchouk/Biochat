@@ -1,0 +1,18 @@
+TITLE
+Zfx controls the self-renewal of embryonic and hematopoietic stem cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Stem cells (SC) exhibit a unique capacity for self-renewal in an undifferentiated state. It is unclear whether the self-renewal of pluripotent embryonic SC (ESC) and of tissue-specific adult SC such as hematopoietic SC (HSC) is controlled by common mechanisms. The deletion of transcription factor Zfx impaired the self-renewal but not the differentiation capacity of murine ESC; conversely, Zfx overexpression facilitated ESC self-renewal by opposing differentiation. Furthermore, Zfx deletion abolished the maintenance of adult bone marrow HSC, but did not affect erythromyeloid progenitors or fetal HSC. In both ESC and HSC, Zfx activated a common set of direct target genes. In addition, the loss of Zfx resulted in the induction of immediate-early and/or stress-inducible genes in both SC types but not in their differentiated progeny. These studies identify the first shared transcriptional regulator of ESC and HSC, suggesting a common molecular basis of self-renewal in embryonic and adult SC. Keywords: Global gene expression data analysis in Zfx-deficient murine ESC and HSC
+
+DESIGN
+Global gene expression analysis For ESC, Zfxnull and control Zfxflox clones were grown on gelatin in medium with 15% Knockout SR and LIF. For HSC, BM cells were pooled from 4-6 Mx1-Cre+ Zfxflox/y CKO and control Zfxflox/y Cre- littermates 4 days after the last pI·C injection, and Lin- Sca-1+ c-Kit+ cells were flow-sorted. RNA was amplified, labeled and hybridized to Mouse Genome 430 2.0 microarrays containing probes for ~37,000 genes (Affymetrix). Total RNA (2.5 ug) was isolated from ESC using RNeasy Mini Kit (QIAGEN) and used for reverse transcription and antisense RNA (aRNA) amplification using MessageAmp II system (Ambion). The resulting aRNA was labeled with Biotin-16-UTP (Roche Applied Sciences) and Biotin-11-CTP (PerkinElmer Life Sciences) in a single round of linear amplification. Labeled aRNA (average size ~1500 nucleotides) was fragmented in RNA Fragmentation Buffer (QIAGEN) prior to hybridization. For HSC, pooled BM cells were stained with a biotinylated lineage antibody cocktail, and Lin+ cells were depleted using streptavidin-conjugated magnetic beads and LS selection columns (Miltenyi Biotech). Enriched cells were stained for lineage, c-Kit and Sca-1, and 5 x 104 LSK cells were sorted directly into Trizol Reagent (Invitrogen). Total RNA was isolated and quantified using the Quant-IT RNA Assay Kit (Invitrogen), and 100 ng of each RNA sample were used for reverse transcription and two-round linear aRNA amplification. The aRNA was amplified without labeling in the first round, and then labeled with Biotin-16-UTP/Biotin-11-CTP in the second round. Labeled aRNA (average size ~800 nucleotides) was fragmented as above. Labeled RNA samples (10 ug/array) were hybridized to Mouse Genome 430 2.0 arrays (Affymetrix) at the Columbia University Microarray Project core facility according to the manufacturer's instructions. Samples were hybridized in duplicates, with the correlation between duplicate samples calculated at 0.995-0.997. Quality control and normalization were performed using positive and negative hybridization controls (Affymetrix) spiked into the RNA prior to labeling. Linear amplification of RNA was confirmed for every sample. Array scanning and raw data processing were done using GCOS 1.4 software (Affymetrix).
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+17448993
+

@@ -1,0 +1,18 @@
+TITLE
+Poly(A) tail length change of miRNA targets in HeLa cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNA induces deadenylation of its targets according to the current model in the scientific community, but this model is based on the studies of a few individual genes. We tested the model by examining the global effect of miRNA on poly(A) tail of the targets. Synthetic miR-1 mimic was transfected into HeLa cells, and the poly(A) length was measured by TAIL-seq. Deadenylation of miR-1 targets was evident as early as 3 hours post-transfection without a significant change in mRNA level. After 6 or 9 hours, target mRNA level was substantially downregulated. Therefore, although there are some exceptions, our result confirms that, in general, miRNA indeed induces deadenylation. Furthermore, our kinetic global analysis confirms that deadenylation precedes mRNA decay.
+
+DESIGN
+Four culture dishes of HeLa cells were treated with miR-1 all together, then collected and prepared for sequencing after different time of incubation (0, 3, 6, and 9 hours post-transfection)
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+24582499
+

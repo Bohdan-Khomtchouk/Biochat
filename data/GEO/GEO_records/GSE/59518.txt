@@ -1,0 +1,18 @@
+TITLE
+The Mediator complex subunit MED23 couples H2B mono-ubiquitination to transcriptional control and cell fate determination
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The Mediator complex orchestrates multiple transcription factors with the Pol II apparatus for precise transcriptional control. However, its interplay with the surrounding chromatin remains poorly understood. Here, we analyze differential histone modifications between WT and MED23-/- (KO) cells and identify H2B mono-ubiquitination at lysine 120 (H2Bub) as a MED23-dependent histone modification. Using tandem affinity purification and mass spectrometry, we find that MED23 associates with the RNF20/40 complex, the enzyme for H2Bub, and show that this association is critical for the recruitment of RNF20/40 to chromatin. In a cell-free system, Mediator directly and substantially increases H2Bub on recombinant chromatin through its cooperation with RNF20/40 and the PAF complex. Integrative genome-wide analyses show that MED23 depletion specifically reduces H2Bub on a subset of MED23-contolled genes. Importantly, MED23-coupled H2Bub levels are oppositely regulated during myogenesis and lung carcinogenesis. In sum, these results establish a mechanistic link between the Mediator complex and a critical chromatin modification in coordinating transcription with cell growth and differentiation.
+
+DESIGN
+To examine the enrichment of H2B ubiquitination, Pol II, H3K4me3, H3K79me3 in WT and KO MED23 MEF cells, we performed H2Bub ChIP-seq, Pol II ChIP-seq, H3K4me3 ChIP-seq and H3K79me3 ChIP-seq assays. 10 high-throughput sequencing data were deposited and WT, KO input data were controls for peak calling.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26330467
+

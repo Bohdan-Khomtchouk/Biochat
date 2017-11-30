@@ -1,0 +1,18 @@
+TITLE
+A novel methyl-binding domain protein enrichment method for identifying genome-wide tissue-specific DNA methylation from nanogram DNA samples
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Growing evidence suggests that DNA methylation plays a role in tissue-specific differentiation. Current approaches to methylome analysis using MBD-enrichment are restricted to large (≥1 µg) DNA samples, limiting the analysis of small tissue samples. Here we present a technique which enables characterization of genome wide tissue-specific methylation patterns from nanogram quantities of DNA. We have developed a methodology utilizing MBD2b/MBD3L1-enrichment for methylated DNA, kinase pre-treated ligation-mediated PCR amplification (MeKL) and hybridization to the comprehensive high-throughput array for relative methylation (CHARM) customized NimbleGen 2.1M mouse tiling arrays (Feinberg_MM8_Me_HX1), which we termed MeKL-chip. The kinase-modification in combination with the addition of PEG have increased the ligation-mediated PCR amplification over 20-fold, enabling > 400-fold amplification of starting DNA.  We have shown that MeKL-chip can be applied to as little as 20 ng DNA, enabling comprehensive analysis of small DNA samples. Applying MeKL-chip to the mouse retina (a limited tissue source) and brain, 2498 tissue-specific differentially methylated regions (T-DMRs) were characterized.  The top five T-DMRs (Rgs20, Hes2, Nfic, Cckbr and Six3os1) were validated by pyrosequencing.   MeKL-chip enables genome-wide methylation analysis of nanogram quantities of DNA with a wide range of observed-to-expected CpG ratios due to the binding properties of the MBD2b/MBD3L1 protein complex. This methodology enabled the first analysis of genome-wide methylation in the mouse retina, characterizing novel T-DMRs.
+
+DESIGN
+MBD-enrichment was performed on 3 x retina  and 3 x brain DNA samples from adult C57BL/6J mice on varied DNA quantities (250, 50, 25 and 10 ng). Samples were amplified using a modified ligation-mediated PCR and hybridized to custom NimbleGen 2.1M mouse arrays (Feinberg_MM8_Me_HX1)
+
+PLATFORM
+GPL10680 NimbleGen Mouse 2.1M array [Feinberg_MM8_Me_HX1]
+
+CITATIONS
+23759032 , 23887936
+

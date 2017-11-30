@@ -1,0 +1,18 @@
+TITLE
+Distinct and predictive chromatin signatures of transcriptional promoters and enhancers in the human genome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Eukaryotic gene regulatory information is contained within the DNA sequences of cis-regulatory elements and the epigenetic features of the chromatin surrounding these elements.  Recent investigations in yeast, fly, and mammalian systems have made significant contributions toward our understanding of the relationship between gene activation and chromatin architecture at transcriptional promoters, but much work remains to improve our knowledge of this relationship at human promoters and other transcriptional regulatory elements, such as enhancers. Here, we report that human promoters and enhancers are associated with distinct chromatin signatures that can be employed to predict these classes of regulatory elements in the human genome. Using a combination of chromatin immunoprecipitation (ChIP) and microarray (ChIP-chip) experiments, we generated high-resolution maps of the chromatin architecture along 30 Mbp of the human genome, located promoters and enhancers in these regions, and characterized the histone modification features of these regulatory elements. We found that active promoters are marked by tri-methylation of histone H3 lysine 4 (H3K4me3) at the transcriptional start site (TSS) and mono-methylation of this residue (H3K4me1) downstream and upstream of the TSS. In contrast, enhancers are marked by H3K4me1 but not H3K4me3. Both types of regulatory elements are also associated with nucleosome depletion and varying degrees of histone acetylation and H3K4me2. We developed computational prediction algorithms that employ the distinct chromatin signatures to identify new promoters and enhancers, predicting over 200 promoters and 400 enhancers within the 30 Mbp regions. This approach correctly predicted over 84% of the regulatory elements identified in an independent, unbiased study of transcription factor binding in the same regions. Our results suggest a histone code for distinct classes of transcriptional regulatory elements, offering insights into the functional relationships between chromatin modifications and regulatory activity in human cells and providing a new resource for the functional annotation of the human genome. Keywords: ChIP-chip
+
+DESIGN
+ChIP-chip analysis was performed to determine the chromatin architecture along 44 human loci selected by the ENCODE consortium as common targets for genomic analysis, totalling 30 Mbp. We investigated the patterns of core histone H3 and five histone modifications: acetylated histone H3 lysine 9/14 (H3ac), acetylated histone H4 lysine 5/8/12/16 (H4ac), and mono-, di-, and tri-methylated histone H3 lysine 4 (H3K4me1, H3K4me2, H3K4me3). We also examined binding of two components of the basal transcriptional machinery (RNAPII and TAF1) and the transcriptional coactivator p300 to identify active promoters and enhancers, respectively. Three biological replicate ChIP-chip experiments were carried out for each marker in HeLa cells before and after treatment with interferon-gamma (IFNγ), as p300 is known to be involved in the cellular response to this cytokine. ChIP samples were amplified, labelled, and hybridized to tiling oligonucleotide microarrays covering the non-repetitive sequences of 30 Mbp at 38-bp resolution.
+
+PLATFORM
+GPL1454 RenLab ENCODE PCR tiling array GPL4558 ENCODE NimbleGen hg16 tiling array GPL4559 ENCODE NimbleGen hg17 tiling array
+
+CITATIONS
+17277777 , 18927605
+

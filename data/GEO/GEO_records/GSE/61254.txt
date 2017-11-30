@@ -1,0 +1,18 @@
+TITLE
+NFkB perturbation followed by genome-wide allelic-expression data assessment
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We developed a method that perturbs transcription factor followed by monitoring genome-wide allelic expression measurements in living cells. As a model for this novel approach, we chose the factor NFκB.
+
+DESIGN
+We performed TNF-α induction coupled to inhibition of NFκB in LCLs followed by Allelic Expression (AE) analysis on Illumina HumanOmni5-Quad BeadChips. Samples used included two HapMap trios: one from the CEU (GM12891, GM12892, and GM12878) and one from the YRI (GM19239, GM19238, and GM19240) population. NF-κB knockdown was validated using RT-PCR of known gene targets for NFkB. Differential AE was assessed on Illumina HumanOmni5-Quad BeadChips for each experimental condition: (1) inhibition with Helenanin followed 1 hour later by activation by TNF-α (TN); (2) activation by TNF-α (tnfalpha); (3) DMSO; (4) no treatment (notmt).
+
+PLATFORM
+GPL14157 Illumina HumanOmni5-Quad BeadChip (HumanOmni5-4v1_B)
+
+CITATIONS
+25326100
+

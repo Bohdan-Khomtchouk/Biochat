@@ -1,0 +1,18 @@
+TITLE
+Dynamic cell culture in bubble-confined cell array
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+One of the important issues in advanced cell culture development is to create an accurate and controlled micro-environment surrounding the cell while meeting the requirements for processes such as cell differentiation, gene function or pharmacological screening tests. In this sight, we were aimed at designing and developing a micro-scale culture system suitable to analyze the synergic effects of extracellular matrix proteins and soluble environment on cell phenotype in high-throughput fashion. Moreover we were interested in the opportunity to create a more “tissue-friendly” microenvironment than traditional culture methods simulating liquids movements. According to these purposes, cell arrays were produced deposing micrometer-scale protein islands on polyacrylamide hydrogels using a robotic DNA microarrayer and were used both in conventional culture methods and by automated stable and constant perfusion. We produced a mathematical modeling assisting the experimental design and assessing efficient mass transport and proper fluidodynamic regimes. It was validated using a particle tracking experiment used to predict the constant value of the velocities over the cell arrays which ensure the same mass transport regime over the cultured cell arrays. Cell-array permits the maintenance of the correct phenotype of cells cultured on 500 μm islands both in static and dynamic conditions.  Immunostaining and gene expression analysis confirmed the ability for cells to proliferate and differentiate in response to changed stimuli. Microarray gene expression analysis evidenced activation of specific skeletal muscle genes like MYL2, confirmed by qRT-PCR, and troponins and tropomyosins. Keywords: cell array, dynamic, perfusion, C2C12, hydrogel, ECM
+
+DESIGN
+C2C12 cells were cultured onto the protein microarray specifically produced. Cells were cultured in a dynamic flow medium. After 6 and 24 hours in proliferative medium and 24 and 60 hours in differentiative medium total RNA was extracted and used to perform linear amplification and microarray and qRT-PCR gene expression experiments. Cells cultured for 24 hours in proliferative medium and in confluence state were used as common control in all experiments. At least 2 microarray experiments were performed for each time point (technical replicate). Each slide was scanned and extracted data was normalized and analyzed. Data were used for clustering genes and experiments analysis. Series table " Experiment filtering details " pertains to the data filtering steps in the Sample 'Data processing' fields.
+
+PLATFORM
+GPL6747 Micro-CRIBI Mouse Oligo 13.4k Array V_0 (Operon V1.1)
+
+CITATIONS
+19882696
+

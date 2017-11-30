@@ -1,0 +1,18 @@
+TITLE
+Multilayered control of alternative splicing regulatory networks by transcription factors (RNA-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Networks of coordinated alternative splicing (AS) events play critical roles in development and disease. However, a comprehensive knowledge of the factors that regulate these networks is lacking. We describe a high-throughput system for systematically linking trans-acting factors to endogenous RNA regulation events. Using this system, we identify hundreds of factors associated with diverse regulatory layers that positively or negatively control AS events linked to cell fate. Remarkably, more than one third of the new regulators are transcription factors. Further analyses of the zinc finger protein Zfp871 and BTB/POZ domain transcription factor Nacc1, which regulate neural and stem cell AS programs, respectively, reveal roles in controlling the expression of specific splicing regulators. Surprisingly, these proteins also appear to regulate target AS programs via binding RNA. Our results thus uncover a large ‘missing cache’ of splicing regulators among annotated transcription factors, some of which dually regulate AS through direct and indirect mechanisms.
+
+DESIGN
+RNA-Seq of N2A cells upon RNAi-mediated knockdown of Mbnl1/Mbnl2 or Nacc1, or control knockdown (1 replicate each), as well as upon knockdown of Srrm4 or Zfp871, or control knockdown (2 replicates each) vast-tools.AltSplicing_Mbnl.Nacc1.tab: Primary vast-tools output for Mbnl and Nacc1 knockdowns vast-tools.AltSplicing_Srrm4.Zfp871.tab: Primary vast-tools output for Srrm4 and Zfp871 knockdowns AltSplicing_Mbnl.Nacc1.tab: Filtered PSI values and differential AS annotation for Mbnl and Nacc1 knockdowns AltSplicing_Srrm4.Zfp871.tab: Filtered PSI values and differential AS annotation for Srrm4 and Zfp871 knockdowns Expression_Mbnl.Nacc1.tab: Raw and read counts per gene, normalized expression and fold-change for Mbnl and Nacc1 knockdowns Expression_Srrm4.Zfp871.tab: Raw read counts per gene, normalized expression and fold-change (edgeR analysis) for Srrm4 and Zfp871 knockdowns
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28157508
+

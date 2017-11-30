@@ -1,0 +1,18 @@
+TITLE
+Transcriptome partitioning in mouse fertilization.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+RNA transcripts are distributed non-uniformly in the oocytes of many animals, such that newly-divided embryo cells (blastomeres) inherit distinct transcriptomes following fertilization. In animals such as the frog, Xenopus laevis, programmed transcript regionalization directs early embryonic axis formation and is essential for normal development. However, it is unknown whether such transcriptome asymmetry directs embryogenesis in mammals, or indeed, whether it occurs at all. We here address this by transcript profiling of matching sub-cellular structures and single cells in mouse oocytes and early embryos and analytical strategies exploiting the paired data structure. Spindle samples contained a set of transcripts that was distinguishable from that of the unfertilized metaphase II (mII) oocytes from which each spindle was microsurgically dissected. Immediately following fertilization, cytokinesis produces a 1-cell embryo (zygote) and associated spindle-enriched second polar body (Pb2) whose transcript profiles also differed one from the other, partially reflecting the enrichment of spindle-associated transcripts. Non-uniform transcript distribution within zygotes did not lead to programmed transcriptome asymmetry between the blastomeres of nascent two-cell embryos, or between the second mitotic products of 3-cell embryos. These findings suggest that mammalian oocytes and zygotes exhibit transcript regionalization without subsequent transcriptome asymmetries between respective early mitotic products. This contrasts the situation in Xenopus and places constraints on the ability of maternal transcriptomic prepatterning to prescribe early mammalian development.
+
+DESIGN
+16 Zygote vs. Polar body pairs, 10 spindle vs. oocyte pairs, 22 2-cell embryos and 8 3-cell embryos were analysed. Although the raw data are two channel, only the Cy5 signal of each file was analyzed. The Cy5 channel for each gene is normalized to the average Cy5 intensity of the gene across all samples.
+
+PLATFORM
+GPL13188 Operon OpArray - Mus Musculus - 38k v4.0.3
+
+CITATIONS
+21468028
+

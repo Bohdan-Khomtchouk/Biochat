@@ -1,0 +1,18 @@
+TITLE
+Expression profiling of MCF-7 cells with 10nM treatment of TCDD
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The aryl hydrocarbon receptor (AHR) is a ligand-activated transcription factor that is regulated by environmental toxicants that function as AHR agonists such as 2,3,7,8 tetrachlorodibenzo-p-dioxin (TCDD).  L-Type Amino Acid Transporter 1 (LAT1) is a leucine uptake transporter that is overexpressed in cancer.  The regulation of LAT1 by AHR in MCF-7 and MDA-MB-231 breast cancer cells (BCCs) was investigated in this report.  Ingenuity pathway analysis (IPA) revealed a significant association between TCDD-regulated genes (TRGs) and molecular transport.  Overlapping the TCDD-RNA-Seq dataset in this report with a published TCDD-ChIP-seq dataset identified that LAT1 was a direct TCDD/AHR gene target.  Short interfering RNA (siRNA)-directed knockdown of AHR confirmed that TCDD-stimulated increases in LAT1 mRNA and protein required AHR.  TCDD-stimulated increases in LAT1 mRNA was also inhibited by the AHR antagonist CH-223191.  Upregulation of LAT1 by TCDD coincided with increases in leucine uptake by MCF-7 cells in response to TCDD.  Chromatin immunoprecipitation-quantitative PCR (ChIP-qPCR) assays revealed increases in AHR, AHR nuclear translocator (ARNT) and p300 binding and histone H3 acetylation at an AHR binding site in the LAT1 gene in response to TCDD.  In MDA-MB-231 cells, which exhibit high levels of endogenous AHR activity, the levels of endogenous LAT1 mRNA and protein were reduced in response to knockdown of AHR with AHR-siRNA.  The regulation of LAT1 by AHR stimulated MDA-MB-231 proliferation.  Collectively, these findings have provided a deeper mechanistic understanding of extrinsic and intrinsic regulation of LAT1 by AHR.
+
+DESIGN
+Expression profiling of four replicates of MCF-7 cells treated with 10nM TCDD were compared to expression profiles of four control replicates of MCF-7 cells treated with DMSO by RNA-Seq
+
+PLATFORM
+GPL18460 Illumina HiSeq 1500 (Homo sapiens)
+
+CITATIONS
+26944194
+

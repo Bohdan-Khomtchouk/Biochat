@@ -1,0 +1,18 @@
+TITLE
+Evidence for a role of viruses in the thermal sensitivity of coral photosymbionts
+
+ORGANISM
+Symbiodinium sp. C1
+
+SUMMARY
+Symbiodinium, the dinoflagellate photosymbiont of corals, is posited to become more susceptible to viral infections when heat-stressed. To investigate this hypothesis, we mined transcriptome data of a thermo-sensitive and a thermo-tolerant type C1 Symbiodinium population at ambient (27°C) and elevated (32°C) temperatures. We uncovered hundreds of transcripts from nucleocytoplasmic large double-stranded DNA viruses (NCLDVs) and the genome of a novel positive-sense single-stranded RNA virus (+ssRNAV). In the transcriptome of the thermo-sensitive population only, +ssRNAV transcripts had remarkable expression levels in the top 0.03% of all transcripts at 27°C, but at 32°C, expression levels of +ssRNAV transcripts decreased while expression levels of antiviral transcripts increased. In both transcriptomes, expression of NCLDV transcripts increased at 32°C, but thermal-induction of NCLDV transcripts involved in DNA manipulation was restricted to the thermo-sensitive population. Our findings reveal that viruses infecting Symbiodinium are affected by heat stress and may contribute to Symbiodinium thermal sensitivity.
+
+DESIGN
+Transcriptional regulation of viral and host antiviral transcripts in response to heat stress by two type C1 Symbiodinium populations was analyzed at three time points. Please note that this is a follow-up study on the GSE72763 data set for a separate publication. Data were re-processed and re-analyzed using the same raw reads and transcriptome assemblies represented in GSE72763 records. The sample records were duplicated for the convenient retrieval of the complete raw data from SRA and the accession of the corresponding (re-analysis) sample is indicated in each sample title. *min250_nr.fasta: de novo transcriptome of each Symbiodinium population, non-redundant transcripts (min transcript length 250 bp) *virus_AnnotationReport.xlsx: virus transcript annotation spreadsheet *antiviral_AnnotationReport.xlsx: antiviral transcript annotation spreadsheet Trinity_*report.complete.5.xls: annotation of all transcripts in each transcriptome *nr.counts.txt: read count matrix for all transcripts in each transcriptome *TMM.fpkm.matrix.txt: FPKM matrix for all transcripts in each transcriptome
+
+PLATFORM
+GPL20890 Illumina HiSeq 2500 (Symbiodinium sp. C1)
+
+CITATIONS
+27911439
+

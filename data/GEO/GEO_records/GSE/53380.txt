@@ -1,0 +1,18 @@
+TITLE
+Kat2a regulates hippocampal memory formation [RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We sequenced mRNA from 24 samples extracted from mouse CA1 tissue to generate the first CA1-specific murine transcriptome and the first CA1-transcriptome in response to environmental novelty under normal and Kat2a-loss-of-function conditions.
+
+DESIGN
+Samples were divded in 4 groups: A: Control naïve (n=6), B: control novelty-exposed (n=5), C: Kat2a cKO naïve (n=6), D: Kat2a cKO novelty-exposed (n=7). Pairwise comparisons for AvsB, AvsC, BvsD and CvsD were performed using DESeq2.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25024434
+

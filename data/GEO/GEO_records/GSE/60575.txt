@@ -1,0 +1,18 @@
+TITLE
+RNA-seq analysis of trait-associated genes (TAGs) in somatic cells from Holstein’s milk
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+Background : Although the chemical, physical, and nutritional properties of bovine milk have been extensively studied, few studies have attempted to characterize the milk synthesizing genes associated with milk yielding traits. In addition, no previous attempts have been made to detect quantitative traits such as milk production related traits, associated genes on RNA-seq experiment with several biological replicates. Research in this field is necessary as bovine milk is a primary source of nutrition for humans. Results : We investigated advantages of using linear models with continuous response variables over converted group variables in a Holsteins’ milk. Suggested methods were more suitable in detection of significant genes in our analysis; the proportion of false discoveries to total significant genes was observed to be much lower compared to the precedent approaches we employed. These were observed through mock comparison studies and quantitative real time PCR (qRT-PCR). Conclusion : Several milk production related genes and pathways were identified from the suggested methods. Given the current trend in RNA-seq pricing, we expect our methods to be successfully applied in various RNA-seq studies with numerous biological replicates that handle continuous response traits.
+
+DESIGN
+We generated 21 RNA-seq samples (biological replicates) from the RNA samples were extracted from the somatic cells of Holsteins’milk.
+
+PLATFORM
+GPL15749 Illumina HiSeq 2000 (Bos taurus)
+
+CITATIONS
+27071914
+

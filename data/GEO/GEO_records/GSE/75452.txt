@@ -1,0 +1,18 @@
+TITLE
+Pan-cancer transcriptomic analysis associates long non-coding RNAs with key mutational driver events
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To identify genes regulated by NFE2L2 (Nrf2), we selected a lung cancer cell line (A549) in which NFE2L2 is normally active. Three transfections using siRNAs targeting NFE2L2 and four control transfections using two different negative control siRNAs were done. As a result, we found several genes up or down regulated in response to NFE2L2 inactivation in these cells.
+
+DESIGN
+A549 cells were cultured, and 250,000 cells were transfected with Lipofectamine RNAiMAX reagent containing 5 nmol siRNA particles in a 6-well plate. Three transfections with siRNAs targeting NFE2L2 were performed, using three independent duplexes, while four control transfections were done using two different control duplexes, in addition to one mock (Lipofectamine only) transfection. RNA was prepared using the RNeasy Mini kit. 8 strand-specific total RNA-seq libraries were generated on an Illumina NextSeq 500. Between 50.5 and 60.6 million reads were obtained per sample. Reads were aligned to hg19 genome, at an alignment rate exceeding 94.4% for all samples.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Ashouri, A. et al. Pan-cancer transcriptomic analysis associates long non-coding RNAs with key mutational driver events. Nat. Commun. 7, 13197
+

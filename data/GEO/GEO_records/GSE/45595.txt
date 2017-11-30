@@ -1,0 +1,18 @@
+TITLE
+A Local Regulatory Network Around Three NAC Transcription Factors in Stress Responses and Senescence in Arabidopsis leaves (Dark Induced Senescence).
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+A network model has been generated that describes the immediate gene expression cascade surrounding three similar but distinct NAC transcription factors that have roles to play in leaf senescence and in many stress responses in Arabidopsis.  ANAC019, ANAC055 and ANAC072 belong to the same clade of NAC domain genes and have overlapping expression patterns. A combination of promoter DNA/protein interactions identified using yeast 1 hybrid analysis and modeling using gene expression time course data has been used to predict the regulatory network upstream of these genes. Similarities and divergence in regulation during a variety of stress responses are predicted by different combinations of upstream transcription factors binding and also by the modeling. Mutant analysis with potential upstream genes was used to test and confirm some of the predicted interactions.. Gene expression measurements in mutants of ANAC019 and ANAC055 at different times during leaf senescence have shown a distinctly different role for each of these genes.
+
+DESIGN
+To assess mutant response to Dark Induced Senescence (DIS), leaf5 from transplanted rosettes, subjected to dark conditions, from Col-0, myb2 (genotype IM24) and myb108 (genotype BOS1) knockout plants, were photographically assessed for red/green ratio. When the average ratio for Col-0 samples was > 0.8, leaf 5 for Col-0, myb2 and myb108 lines was harvested (4 biological replicates). The same sampling procedure was then performed on consecutive days to sample as senescence progressed. Analysis of expression differences between Col-0 and myb2 and Col-0 and myb108 under each condition, using dye swaps, was performed using the R Bioconductor package limmaGUI (Wettenhall and Smyth, 2004).
+
+PLATFORM
+GPL16132 CATMA Arabidopsis V4 TAIR V9 spotted cDNA array
+
+CITATIONS
+23578292
+

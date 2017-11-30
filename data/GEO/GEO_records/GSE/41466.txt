@@ -1,0 +1,18 @@
+TITLE
+Nucleosome driven transcription factor binding and gene regulation [ChIP-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Elucidating the global function of a transcription factor implies the identification of its target genes and genomic binding sites. The role of chromatin in this context is unclear, but the dominant view is that factors bind preferentially to nucleosome-depleted regions, identified as DNaseI-hypersensitive sites (DHS). Here we show by chromatin-IP, MNase and DNaseI assays followed by deep sequencing that the progesterone receptor (PR) requires nucleosomes for optimal binding and function. In breast cancer cells treated with progestins we identified 25,000 PR binding sites (PRbs), the majority encompassing several copies of the hexanucleotide TGTYCY, highly abundant in the genome. We found that functional PRbs accumulate around progesterone-induced genes mainly in enhancers, are enriched in DHS but exhibit high nucleosome occupancy. Progestin stimulation results in remodeling of these nucleosomes with displacement of histones H1 and H2A/H2B dimers. Our results strongly suggest that nucleosomes are crucial for PR binding and hormonal gene regulation.
+
+DESIGN
+T47D-MTVL human breast cancer cells were incubated with the progestin R5020 for different times between 0 to 360 minutes at 37C. ChIP-seq experiments were performed using antibodies against progesterone receptor. Mononucleosomal DNA was prepared from cells untreated or stimulated 60 min with R5020 and subjected to deep sequencing using the Solexa Genome Analyzer.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

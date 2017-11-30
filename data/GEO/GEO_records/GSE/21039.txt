@@ -1,0 +1,18 @@
+TITLE
+Gene Expression Profiles from PBMC are Sensitive to Short Processing Delays
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In the analysis of peripheral blood gene expression, timely processing of samples is essential to ensure that measurements reflect in vivo biology, rather than ex vivo sample processing variables.  The effect of processing delays on global gene expression patterns in peripheral blood mononuclear cells (PBMC) was assessed by isolating and stabilizing PBMC-derived RNA from three individuals either immediately after phlebotomy or following a 4 hour delay.  RNA was labeled using NuGEN Ovation labeling and probed using the Affymetrix HG U133plus 2.0 GeneChip®.  Comparison of gene expression levels (p < 0.05 and ≥ 2-fold expression change) identified 327 probe sets representing genes with increased expression and 46 indicating decreased expression after 4 hours.  The trends in expression patterns associated with delayed processing were also apparent in an independent set of 276 arrays of RNA from human PBMC samples with varying processing times.  These data indicate that the time between sample acquisition, initiation of processing, and when the RNA is stabilized should be a prime consideration when designing protocols for translational studies involving PBMC gene expression analysis. Keywords: Technical comparison
+
+DESIGN
+3 subjects, 3 samples each.  First sample is prepared immediately, 2nd after 2 hour delay and last after a 4 hour delay.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+21743826
+

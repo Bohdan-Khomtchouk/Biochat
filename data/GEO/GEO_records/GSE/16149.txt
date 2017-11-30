@@ -1,0 +1,18 @@
+TITLE
+Examining smoking-induced differential gene expression changes in buccal mucosa
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A tissue like buccal mucosa (from cheek swabs) would be an ideal sample material for rapid, easy collection for testing of biomarkers as an alternative to blood.  A limited number of studies, primarily in the smoker/oral cancer literature, address this tissue's efficacy for quantitative PCR or microarray gene expression analysis.  In this study both qPCR and microarray analyses were used to evaluate gene expression in buccal cells.  An initial study comparing blood and buccal cells from the same individuals looked at relative amounts of four genes.  The RNA isolated from buccal cells was degraded but was of sufficient quality to be used with RT-qPCR to detect expression of specific genes. Second, buccal cell RNA was used for microarray-based differential gene expression studies by comparing gene expression between smokers and nonsmokers.  The isolation and amplification protocol allowed use of 150-fold less buccal cell RNA than had been reported previously with human microarrays.  We report here the finding of a small number of significant gene expression differences between smokers and nonsmokers, using buccal cells as target material.  Additionally, Gene Set Enrichment Analysis confirmed that these genes were changing expression in the same pattern as seen in an earlier buccal cell study performed by another group.  Our results suggest that in spite of a high degree of RNA degradation, buccal cells from cheek mucosa could be used to detect differential gene expression between smokers and nonsmokers.  However the RNA degradation, increase in sample variability and microarray failure rate show that buccal samples should be used with caution as source material in expression studies.
+
+DESIGN
+Samples were collected from eight subjects, four smokers (Sm)and four nonsmokers (NS). Each cheek was sampled creating an a and b sample for each subject which is reflected in the array name. All samples were isolated separately for total RNA. Each was hybridzed to microarrays to examine for differential gene expression between smokers and nonsmokers. There are 14 total samples in the main dataset (Set 2). One cheek sample failed in microarray analysis for two individuals, 08BCNS23 a and 08BCSm27 a, and so are not included here. A sample set (Set 1) was created which contains the four samples shown in this file. They represent repeated sampling of both cheeks for two individuals to test for reproducibility. There is a separate RMA file and metadata file (this file) for these data. These included samples 08BC11Sm a and b, a smoker, and 08BC12NSa and b a nonsmoker.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+20576139
+

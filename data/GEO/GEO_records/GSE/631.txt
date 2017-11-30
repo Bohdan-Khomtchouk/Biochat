@@ -1,0 +1,15 @@
+TITLE
+Auxin mediated gene expression in WT and arf2-6 mutant
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Global gene expression data from 7-day old light-grown liquid cultured seedlings treated with or without auxin (5µM IAA) for 2 h. Columbia (WT) and Auxin response factor 2 (ARF2) T-DNA insertion mutant (arf2-6 ) were used for this study. Each experimental condition has three true replicates for a total of 12 hybridizations. Data analysis: Affymetrix GeneChip Microarray Suite version 5.0 software was used to obtain signal values for individual genes. The data files containing the probe level intensities (cell files) were used for background correction and normalization using the log2 scale robust multi-array analysis (RMA) procedure (Irizarry et al., 2003). The “R” environment (Ihaka and Gentleman, 1996) was used for running the RMA program. Data analysis and statistical extraction were performed using log2 converted expression intensity data within Microsoft Excel 98. Based on preliminary analysis, a hybridization signal less than 5.64385619 (= log2 50) was considered as background; all signals less than 5.64385619 were converted to 5.64385619 prior to further analysis. Keywords = Auxin Keywords = Auxin response factor Keywords: other
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+15960614
+

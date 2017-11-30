@@ -1,0 +1,18 @@
+TITLE
+Highly parallel identification of sequence preferences for eukaryotic C2H2 zinc finger domains using a bacterial 1-hybrid assay
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+The largest and most diverse class of eukaryotic transcription factors contain Cys2-His2 zinc fingers (C2H2-ZFs), each of which typically binds a DNA nucleotide triplet within a larger binding site.  Frequent recombination and diversification of their DNA-contacting residues suggests that these zinc fingers play a prevalent role in adaptive evolution.  Very little is known about the function and evolution of the vast majority of C2H2-ZFs, including whether they even bind DNA.  Using the bacterial 1-hybrid (B1H) system, we determined DNA-binding motifs for thousands of individual natural C2H2-ZFs, and correlated them with the C2H2-ZF specificity residues.
+
+DESIGN
+We generated 47,072 variants of the DNA-binding domain of the well-characterized three-C2H2-ZF protein Egr1, in which the third C2H2-ZF ('F3') was replaced with a natural C2H2-ZF.  We screened this library using the bacterial 1-hybrid (B1H) system to assess the relative preference of each protein for 200 of the 256 possible NNN NGG GCG variants of the optimal Egr1 binding site, GCG TGG GCG, each in duplicate. Each sample might have been sequenced multiple times, in which case multiple raw and processed data files are indicated. This data represent bacterial 1-hybrid assays using three different " Original Library Samples " , OLS-A, OLS-B, and OLS-C. The 'characteristics:OLS' indicates which OLS was used as the initial material for each of the assays. The processed data contains unique ID given to each sequence in the library and its abundance count. The 'OLS.info.xlsx' file contains the mapping of these IDs to different sequences.
+
+PLATFORM
+GPL15228 Illumina HiSeq 2000 (synthetic construct)
+
+CITATIONS
+25690854
+

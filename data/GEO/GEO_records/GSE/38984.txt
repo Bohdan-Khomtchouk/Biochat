@@ -1,0 +1,18 @@
+TITLE
+Fungal-Specific Transcription Factor AbPf2 Activates Pathogenicity in Alternaria brassicicola
+
+ORGANISM
+Alternaria brassicicola
+
+SUMMARY
+Alternaria brassicicola is a successful saprophyte and necrotrophic plant pathogen.  Molecular determinants of its life style shift between saprophyte and pathogen, however, are unknown.  To identify these determinants we studied nonpathogenic mutants of a transcription factor-coding gene, AbPf2.  Frequency and timing of germination and appressorium formation on host plants were similar between the nonpathogenic Δabpf2 mutants and wild-type A. brassicicola.  The mutants were also similar in vitro to wild-type A. brassicicola in vegetative growth, conidium production, and responses to chemical stressors, such as a phytoalexin, reactive oxygen species, and osmolites.  The mutants, however, did not penetrate host plant tissues, though their hyphae continued to grow on the plant surface.  Transcripts of the AbPf2 gene increased exponentially soon after wild-type conidia encountered their host plants.  A small amount of AbPf2 protein, monitored by fused green fluorescent protein, was located in both the cytoplasm and nuclei of young, mature conidia.  The protein level decreased during saprophytic growth but increased several-fold during pathogenesis.  Levels of both the proteins and transcripts sharply declined following colonization of host tissues beyond the initial infection site.  When the transcription factor was expressed at an induced level in the wild type during early pathogenesis, the expression of 106 fungal genes was down-regulated in the Δabpf2 mutants.  Notably, 33 of the 106 genes encoded secreted proteins, including eight putative effector proteins.  Plants inoculated with Δabpf2 mutants expressed higher levels of genes associated with photosynthesis, the pentose phosphate pathway, and primary metabolism, but lower levels of defense-related genes.  Our results suggest that conidia of A. brassicicola are programmed as saprophytes, but become parasites upon contact with their hosts.  AbPf2 coordinates this transformation by expressing pathogenesis-associated genes, including those coding for effectors.
+
+DESIGN
+Twenty seven Ar. thaliana (Col-0) were spray-inoculated until run-off with 5x105 conidia per milliliter of Δabpf2-5 mutant or the wild type.  Tissues containing both host plant tissue and fungal hyphae were harvested at 12 hours postinoculation and 48 hours postinoculation from three plants for each sample and immediately frozen in liquid nitrogen to fix gene expression profiles. The frozen tissues were ground and total RNA was extracted using an RNeasy kit.  Residual DNA was digested in columns with RNase-free DNase following the manufacturer’s protocol (Qiagen, Palo Alto, CA). Three biological replicates were prepared for the mutant and three for the wild type and their gene expression profiles compared.  We constructed strand-specific sequencing libraries using the TruSeq™ RNA Sample Prep Kit (Illumina, San Diego, CA) from total RNA following the manufacturer’s protocol.  Each sample RNA was used to construct a library with a unique index primer.  A total of six index primers were used to construct six libraries.  All six libraries were mixed and determined 100 nucleotide-long sequence tags using Illumina Hiseq2000 (Illumina, San Diego, CA, USA) according to the manufacturer’s protocol.  Image analysis, base-calling, and quality checks were performed with the Illumina data analysis pipeline CASAVA v1.8.0.
+
+PLATFORM
+GPL15377 Illumina HiSeq 2000 (Alternaria brassicicola)
+
+CITATIONS
+23617599
+

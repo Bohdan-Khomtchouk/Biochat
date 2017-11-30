@@ -1,0 +1,18 @@
+TITLE
+Differential gene expression following exposure to rivals in male Drosophila melanogaster.
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+We used RNAseq to detect differential gene expression in Drosophila melanogaster males exposed to rival males or not for a period of 2, 26 or 50h. Dahomey wild type males were raised at a density of 100 larvae per vial on SYA medium. Upon eclosion, males were stored 10 per vial and then at 1d old placed in individual vials for 5days. Rival wild type males were then introduced to the focal males for 2, 26 or 50h. The focal males were then snap frozen in liquid nitrogen. Prior to RNA extraction, males were separated into abdomen and Head+Thorax body parts. RNA was extracted (MiRVana kit) from pools of n = 40 male body parts and sent for RNA sequencing (Illumina HiSeq, 50 cycles, non directional, 4 samples per lane). We then followed a set of careful QC procedures and analysed the data for differential gene expression due to the presence or absence of rival males over time. Differential expression of transcrits was validated by using qRT-PCR on the same biological samples.
+
+DESIGN
+We analysed 2 treatments (rivals / no rivals) x 3 time points (2h, 26h or 50h) x 3 biological replicates x 2 body parts (Head+Thorax, Abdomen) = 36 samples. Samples are coded as: timepoint (2, 26, 50), treatment (E = no rival, R = Rival), body part (H = Head+Thora,; A = Abdomen), replicate (1,2,3).
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+28428330
+

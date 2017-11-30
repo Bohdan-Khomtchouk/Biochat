@@ -1,0 +1,18 @@
+TITLE
+Molecular pathways underlying inhibitory effect of antimicrobial peptide Nal-P-113 on bacteria biofilms formation of Porphyromonas gingivalis W83 by DNA microarray
+
+ORGANISM
+Porphyromonas gingivalis
+
+SUMMARY
+The aim of this study is to determine the effects of different concentration Nal-P-113 in biofilm formation. Besides, we performed gene expression profiling in Nal-P-113-treated P. gingivalis W83 to delineate the underlying molecular mechanism of Nal-P-113-inhibited biofilm formation.
+
+DESIGN
+3 samples were picked up from wild strain P.gingivalis W83 and 1 sample was treated with 6.25 ug/mL antimicrobial peptide. The total RNA was extracted and labeled with Klenow, and then hybridism with P.gingivalis W83 chip. The commercial GeneChip P.gingivalis W83 Genome Array used here was provided by CapitalBio Corporation ( http://www.capitalbio.com/en/index.asp, Beijing, China), a service provider authorized by Roche NimbleGen (Wisconsin, USA). Five replicates of the genome were included per chip. An average of 19 different 60-base oligonucleotides (60-mer probes) represented each gene in the genome. Array hybridization, washing, scanning and data analysis were performed at the CapitalBio Corporation, Beijing, China and carried out according to the NimbleGen’s Expression user’s guide. The arrays were scanned using MS200 scanner (NimbleGen), and NimbleScan software (NimbleGen) was used to extract fluorescent intensity raw data from the scanned images. The expression data of probes were normalized using quantile normalization and expression data of genes were generated using the Robust Multichip Average (RMA) algorithm. In a comparison analysis, two class unpaired method in the Significant Analysis of Microarray software (SAM, version 3.02) was performed to identify significantly differentially expressed genes between TEST and CONTROL groups. Genes were determined to be significantly differentially expressed with a selection threshold of false discovery rate, FDR < 5% and fold change＞2.0 in the SAM output result.
+
+PLATFORM
+GPL22953 Aligent-047614
+
+CITATIONS
+28212615
+

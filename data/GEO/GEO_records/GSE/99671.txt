@@ -1,0 +1,18 @@
+TITLE
+Whole transcriptome analysis identifies differentially regulated networks between osteosarcoma and normal bone samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We performed whole transcriptome analysis of osteosarcoma bone samples. Initially we sequenced total RNA from 36 fresh-frozen samples (18 tumoral bone samples and 18 non-tumoral paired samples) matching in pairs for each osteosarcoma patient. We also performed independent gene expression analysis of formalin-fixed paraffin-embedded (FFPE) samples to verify the RNAseq results. The use of FFPE samples allowed to analyse the effect of chemotherapy. Data were analysed with DESeq2 and Reactome packages of R. We found 6775 genes expressed differentially between the normal bone and osteosarcoma tissues with an FDR below 0.1, of which 4092 genes were up-regulated and 2683 were down-regulated. Among those genes, BTNL9, MMP14, ABCA10, ACACB, COL11A1 and PKM2 were expressed differentially with the highest significance between tumor and normal bone. Functional annotation with the Reactome identified significant changes in the pathways related to the extracellular matrix degradation and collagen biosynthesis. Analysis of independent FFPE samples largely verified our findings in fresh frozen samples, indicating that osteosarcoma is characterized by massive bone loss. We also found that chemotherapy induced the bone formation and reverses the bone loss caused by sarcoma. Taken together, our results indicate that changes in the degradation of extracellular matrix seem to be an important mechanism of osteosarcoma and efficient chemotherapy induces the genes related to bone formation.
+
+DESIGN
+36 samples, 18 from sarcoma and 18 from controls 15 FFPE samples, parffin sections [GSM2652426-40]
+
+PLATFORM
+GPL20148 AB 5500xl-W Genetic Analysis System (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

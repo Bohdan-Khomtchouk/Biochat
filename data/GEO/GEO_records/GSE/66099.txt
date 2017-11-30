@@ -1,0 +1,18 @@
+TITLE
+Unique Patients from the Genomics of Pediatric SIRS and Septic Shock Investigators (GPSSSI)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This dataset is composed of the unique patients (276; at the Day 1 timepoint) that are present in the six other GEO datasets published by Hector Wong and the Genomics of Pediatric SIRS and Septic Shock Investigators. This dataset thus includes all unique patients from GSE4607, GSE8121, GSE9692, GSE13904, GSE26378, and GSE26440. These are only from the Day 1 timepoint.
+
+DESIGN
+The original studies examined pediatric patients admitted to the ICU, who were later classified as either SIRS (non-infectious) or Sepsis or Septic Shock (infectious). There is also a group of healthy controls. Although the original studies examine patients at both ICU day 1 and ICU day 3, here we have only aggregated ICU day 1 patients. All samples here were downloaded as .CEL files and re-normalized together using gcRMA using R package 'affy'.  The normalized data can be found on the series record and contains the gcRMA normalized expression values.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25972003
+

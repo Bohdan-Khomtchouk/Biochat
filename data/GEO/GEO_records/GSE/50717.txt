@@ -1,0 +1,18 @@
+TITLE
+Genome-scale DNA methylation maps of Zebrafish Muller glia during retina regeneration
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Upon retinal injury, zebrafish Müller glia (MG) transition from a quiescent supportive cell to a progenitor cell (MGPC). This event is accompanied by the induction of key transcription and pluripotency factors. Because somatic cell reprogramming during iPSC generation is accompanied by changes in DNA methylation, especially in pluripotency factor gene promoters, we were interested in determining if DNA methylation changes also underlie MG reprogramming following retinal injury. Consistent with this idea, we found that genes encoding components of the DNA methylation/demethylation machinery were induced in MGPCs and that manipulating MGPC DNA methylation with 5-aza-2’-deoxycytidine altered their properties. A comprehensive analysis of the DNA methylation landscape as MG reprogram to MGPCs revealed that demethylation predominates at early times, while levels of de novo methylation increase at later times. We found that these changes in DNA methylation were largely independent of Apobec2 protein expression. A correlation between promoter DNA demethylation and injury-dependent gene induction was noted. In contrast to iPSC formation, we found that pluripotency factor gene promoters were already hypomethylated in quiescent MG and remained unchanged in MGPCs. Interestingly, these pluripotency factor promoters were also found to be hypomethylated in mouse MG.  Our data identify a dynamic DNA methylation landscape as zebrafish MG transition to a MGPC and suggest that DNA methylation changes will complement other regulatory mechanisms to ensure gene expression programs controlling MG reprogramming are appropriately activated during retina regeneration.
+
+DESIGN
+Reduced representation bisulfite sequencing (MspI,~40-220bp size fraction) of zebrafish MG before and after injury. This dataset includes 4 replicated samples:  The MG samples report the genomic methylation of a quiescent state. The 4dpi MGPC sampes report the methylation of a dedifferentiated, proliferating progenitor.  The 2dpi morpholino samples report the genomic methylation of a dedifferentiated MGPC following a conrtol or Apobec2a,2b knockdown.
+
+PLATFORM
+GPL14875 Illumina HiSeq 2000 (Danio rerio)
+
+CITATIONS
+24248357
+

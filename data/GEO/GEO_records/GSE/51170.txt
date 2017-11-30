@@ -1,0 +1,18 @@
+TITLE
+Identification of building principles of methylation states at CG rich regions by high-throughput editing of a mammalian genome
+
+ORGANISM
+Escherichia coli ; Mus musculus ; synthetic construct
+
+SUMMARY
+Methylation is a repressive modification of DNA prevalent throughout mammalian genomes yet mostly absent at CG rich stretches referred to as CGI. Here we identify their building principles by parallel genomic targeting of sequence libraries.  Iterative insertions generated over 3,000 variants of genome-derived and artificial sequences at the same genomic site.  Single molecule profiling of the methylation status of this collection allowed modeling the contribution of CG content and DNA binding factors towards the unmethylated state. It made the surprising prediction that the majority of CGs within endogenous islands are susceptible to methylation changes modulated by the presence of transcription factors, which is indeed confirmed by genome-wide methylation dynamics during multiple cellular differentiations.   Our model further predicts blocks of constitutively unmethylated CGs independent from TF binding, which have a median size of ~300bp but are only present in half of all islands. Their constitutively unmethylated state is a hallmark of untransformed cells but their increased methylation is a specific and predictive feature of cancer.   This study quantifies the two principal mechanisms governing methylation patterns in mammalian genomes. It provides a framework to interpret methylation data across normal and cancer samples and refines the concept of CpG islands. Methylation is a repressive modification of DNA prevalent throughout mammalian genomes yet mostly absent at CG rich stretches referred to as CGI. Here we identify their building principles by parallel genomic targeting of sequence libraries.  Iterative insertions generated over 3,000 variants of genome-derived and artificial sequences at the same genomic site.  Single molecule profiling of the methylation status of this collection allowed modeling the contribution of CG content and DNA binding factors towards the unmethylated state. It made the surprising prediction that the majority of CGs within endogenous islands are susceptible to methylation changes modulated by the presence of transcription factors, which is indeed confirmed by genome-wide methylation dynamics during multiple cellular differentiations.   Our model further predicts blocks of constitutively unmethylated CGs independent from TF binding, which have a median size of ~300bp but are only present in half of all islands. Their constitutively unmethylated state is a hallmark of untransformed cells but their increased methylation is a specific and predictive feature of cancer.   This study quantifies the two principal mechanisms governing methylation patterns in mammalian genomes. It provides a framework to interpret methylation data across normal and cancer samples and refines the concept of CpG islands.
+
+DESIGN
+Libraries of DNA sequences were constructed either by mouse genome (129S6) or E.coli genome (NC_010473.1) subrepresentation or custom synthesis. DNA fragments were inserted into the genome of mouse embryonic stem cells by recombination mediated casette exchange (RMCE) at the B-globin locus. Methylation status of the inserted DNA sequences was profiled by bisulfite sequencing using a pair of universal primers flanking the fragments.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL10328 Illumina Genome Analyzer II (Escherichia coli) GPL16085 Illumina MiSeq (Escherichia coli) GPL16417 Illumina MiSeq (Mus musculus) GPL17769 Illumina MiSeq (synthetic construct)
+
+CITATIONS
+25259795
+

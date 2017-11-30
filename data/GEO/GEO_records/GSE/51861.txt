@@ -1,0 +1,18 @@
+TITLE
+RNA-seq (Illumina and PacBio) of hESC
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We used PacBio data to identify more reliable transcripts from hESC, based on which we can estimate gene/transcript abundance better from Illumina data.
+
+DESIGN
+PacBio long reads and Illumina short reads were generated from the same hESC cell line H1. PacBio reads were error-corrected by Illumina reads to identify transcripts. rSeq is used to estimate gene/transcript abundance of the identified transcriptome.
+
+PLATFORM
+GPL15433 Illumina HiSeq 1000 (Homo sapiens)
+
+CITATIONS
+24282307
+

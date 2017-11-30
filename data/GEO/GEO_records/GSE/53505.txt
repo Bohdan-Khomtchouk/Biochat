@@ -1,0 +1,18 @@
+TITLE
+PRC2 coordinates lineage fidelity and DNA methylation during ESC differentiation (ChIP-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Polycomb Repressive Complex 2 (PRC2) catalyzes histone H3 lysine 27 tri-methylation, an epigenetic modification associated with gene repression. H3K27me3 is enriched at the promoters of a large cohort of developmental genes in embryonic stem cells (ESCs). Loss of H3K27me3 leads to a failure of ESCs to properly differentiate, which presents a major roadblock for dissecting the precise roles of PRC2 activity during lineage commitment. While recent studies suggest that loss of H3K27me3 leads to changes in DNA methylation in ESCs, how these two pathways coordinate to regulate gene expression programs during lineage commitment is poorly understood. Here, we analyzed gene expression and DNA methylation levels in several PRC2 mutant ESC lines that maintain varying levels of H3K27me3. We found that maintenance of intermediate levels of H3K27me3 allowed for proper temporal activation of lineage genes during directed differentiation of ESCs to spinal motor neurons (SMNs). However, genes that function to specify other lineages failed to be repressed, suggesting that PRC2 activity is necessary for lineage fidelity. We also found that H3K27me3 is antagonistic to DNA methylation in cis. Furthermore, loss of H3K27me3 leads to a gain in promoter DNA methylation in developmental genes in ESCs and in lineage genes during differentiation. Thus, our data suggest a role for PRC2 in coordinating dynamic gene repression while protecting against inappropriate promoter DNA methylation during differentiation.
+
+DESIGN
+Embryonic Stem Cell (ESC)  lines mutant for PRC2 core components Suz12 (Suz12GT and Suz12delta) and Eed (Eednull) were subjected to in vitro directed differentiation down the spinal motor neuron lineage. ESCs and day 5 differentiated cells from the three mutant lines and wild-type were used for H3K27me3 ChIP-seq.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25333635
+

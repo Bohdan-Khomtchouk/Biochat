@@ -1,0 +1,18 @@
+TITLE
+HapMap CEU parent custom array expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The exploration of quantitative variation in human populations has become one  of the major priorities for medical genetics. The successful identification of  variants that contribute to complex traits is highly dependent on reliable assays  and genetic maps. We have performed a genome-wide quantitative trait analysis  of 630 genes in 60 unrelated Utah residents with ancestry from Northern and  Western Europe (CEPH) using the publicly available phase I data of the  International HapMap project. The genes are located in regions of the human  genome with elevated functional annotation and disease interest including the  ENCODE regions spanning 1% of the genome, chromosome 21 and chromosome  20q12-13.2.  We apply three different methods of multiple test correction,  including Bonferroni, False Discovery Rate and permutations. For the 374  expressed genes, we find many regions with statistically significant association of  SNPs with expression variation in lymphoblastoid cell lines after correcting for  multiple tests.  Based on our analyses, the signal proximal (cis-) to the genes of  interest is more abundant and more stable than distal and trans across statistical  methodologies.  Our results suggest that regulatory polymorphism is widespread in the human genome and show that the 5 kb (phase I) HapMap has  sufficient density to enable linkage disequilibrium mapping in humans. Such  studies will significantly enhance our ability to annotate the non-coding part of  the genome and interpret functional variation. In addition, we demonstrate that  the HapMap cell lines themselves may serve as a useful resource for quantitative  measurements at the cellular level. Keywords: Gene expression, Lymphoblastoid,
+
+DESIGN
+Gene expression of lymphoblastoid cell lines from the 60 HapMap CEU parents was quantified with a custom Illumina bead array (see above). Two (Ambion Message Amp II) IVT reactions were performed for each cell line and each IVT was hybridised to 3 or 5 arrays, so that each sample had either 6 or 8 replicates. Arrays were run in 96-well plate format (SAM). Each array was made from a bead pool containing 1433 unique bead types (each with a unique 50mer probe). On average an array contains 30 of each bead distributed at random.
+
+PLATFORM
+GPL3090 Sanger Pilot Study V1
+
+CITATIONS
+16362079
+

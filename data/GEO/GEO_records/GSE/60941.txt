@@ -1,0 +1,18 @@
+TITLE
+Molecular mechanism behind the hematopoiesis-enhancing effect of SRT3025
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We used wild-type 129 mice to understand the mechanism of action behind SRT3025’s hematopoiesis-enhancing effect. Transcriptome analysis of cKit+ Sca1+ Lin- cells (KSL) cells discovered that a list of genes changed their expression levels significantly after SRT3025 administration in wild-type mice. Most notably, the cell cycle regulator p21 was down-regulated by 2.1 fold after SRT3025 administration. It is possible that the transcriptional suppression of p21 by SRT3025 might contribute to the compound’s beneficial effects on hematopoiesis.  It has to be pointed out that, since our transcriptome analysis was limited to hematopoietic stem and progenitor cell population, we cannot rule out the possibility that SRT3025 works through the regulation of other cells such as certain important HSC niche components. The HSC niche is known to regulate stem cell pool size. Among the other genes suppressed by SRT3025, Thbs1 and Fosl2 encode thrombospondin 1 and Fos-like antigen 2, respectively. Both proteins are components of the HSC niche.
+
+DESIGN
+The goal of this study is to investigate gene expression changes in wild-type 129 mice in response to SRT3025 treatment. The study focuses on bone marrow cKit+ Sca1+ Lin- cells (representing hematopoietic stem and progenitor cells). These cells were sorted twice by FACS to ensure the purity. Cells of interest were collected in Trizol. RNA were isolated using RNAeasy mini prep kit and mRNAs were positively selected using oligo(dT)- Dynobeads. Then RNAseq libraries were then made using Illumina TruSeq RNA Sample Prep Kit and sequeced on an Illumina HiSeq 2000 genome analyzer.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26046330
+

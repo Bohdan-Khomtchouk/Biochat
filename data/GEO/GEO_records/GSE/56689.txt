@@ -1,0 +1,18 @@
+TITLE
+Characterizing the contrasting roles of JMJD3 and UTX histone demethylases in T cell acute lymphoblastic leukemia [short_hairpins_RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+T-cell acute lymphoblastic leukemia (T-ALL) is an immature hematopoietic malignancy driven mainly by oncogenic activation of NOTCH1 signaling. In this study we abrogated the expression of JMJD3 (KDM6B) and UTX (KDM6A) H3K27me3 demethylases in human T-ALL lines and assayed for genome-wide expression changes using RNA sequencing. This piece of data was further integrated to ChIP-Sequencing analysis of H3K27me3 from the same treatment as well as H3K27me3 and JMJD3 genome-wide analysis from treatment of T-ALL lines with the GSKJ4 inhibitor. These results, coupled to genomic analysis of primary samples for the genomic status of the UTX gene in T-ALL, helped us to identify a hitherto unknown role of JMJD3as an oncogenice facilitator in leukemia whereas UTX seems to play a tumor suppressor role.
+
+DESIGN
+Whole RNA was extracted from 1-5 million T-ALL (lines) cells or primary cells using the RNAeasy kit (Qiagen) according to the manufacturer’s protocol. Poly-A+ (magnetic oligodT-containing beads (Invitrogen)) or Ribominus RNA was used for library preparation. cDNA preparation and strand-specific library construction was performed using the dUTP method. Libraries were sequenced on the Illumina HiSeq 2000 using 50bp single-read method. Differential gene expression analysis was performed for each matched knockdown vs control pairs, separately in each biological or technical replicate in each of two cell lines (CUTLL1, CEM). Three types of comparisons were tested: (a) JMJD3 knockdown vs Renilla, (b) JMJD3 knockdown vs UTX knockdown, and (c) UTX knockdown vs Renilla. Analysis was performed using both DEGseq and Cufflinks packages leading to very similar conclusions.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25132549
+

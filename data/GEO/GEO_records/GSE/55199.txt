@@ -1,0 +1,18 @@
+TITLE
+Identification and validation of antisense RNAs in Escherichia coli
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+In this study transcriptional start sites (TSS) of E. coli were determined for several growth conditions
+
+DESIGN
+To detect the complement of transcripts expressed from E. coli, we collected two independent biological replicates (B1 and B2 samples) from MG1655 wild type strain grown to exponential (OD 600 ~0.4) or stationary phase (OD 600 ~2.0) in LB medium (samples LB 0.4 and LB 2.0, respectively) as well as grown to exponential phase (OD 600 ~0.4) in M63 minimal glucose medium (sample M63 0.4). For all six samples, total RNA was extracted and subjected to differential RNA-seq (dRNA-seq) library preparation for primary transcriptome analysis as described previously (Sharma et al., 2010). Specifically, prior to cDNA library construction half of each RNA sample was treated with 5’ terminator exonuclease (+TEX samples), which degrades RNAs containing a 5’-mono-phosphate (5’-P) and, thus, enriching enriches for primary transcripts containing 5’-tri-phosphates (5’-PPP). The other half of each sample was left untreated (-TEX samples) and thus contains both primary transcripts (5’-PPP) and processed RNAs (5’-P).
+
+PLATFORM
+GPL15010 Illumina HiSeq 2000 (Escherichia coli str. K-12 substr. MG1655) GPL17024 Illumina Genome Analyzer IIx (Escherichia coli str. K-12 substr. MG1655)
+
+CITATIONS
+25266388
+

@@ -1,0 +1,18 @@
+TITLE
+Targeted deletion of miR-132/212 impairs memory and alters the hippocampal transcriptome
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+miR-132 and miR-212 are structurally-related microRNAs that have been found to exert powerful modulatory effects within the central nervous system (CNS). Notably, these microRNAs are tandomly processed from the same non-coding transcript, and share a common seed sequence: thus it has been difficult to assess the distinct contribution of each microRNA to gene expression within the CNS. Here, we employed a combination of conditional knockout and transgenic mouse models to examine the contribution of the miR-132/212 gene locus to learning and memory, and then to assess the distinct effects that each microRNA has on hippocampal gene expression. Using a conditional deletion approach, we show that miR-132/212 double knockout mice exhibit significant cognitive deficits in spatial memory, recognition memory, and in tests of novel object recognition. Next, we utilized transgenic miR-132 and miR-212 overexpression mouse lines and the miR-132/212 double knockout line explore the distinct effects of these two miRNAs on the transcriptional profile of the hippocampus. Illumina sequencing revealed that miR-132/212 deletion increased the expression of 1,138 genes; Venn analysis showed that 96 of these genes were also downregulated in mice overexpressing miR-132. Of the 58 genes that were decreased in animals overexpressing miR-212, only four of them were also increased in the knockout line. Functional gene ontology analysis of downregulated genes revealed significant enrichment of genes related to synaptic transmission, neuronal proliferation, and morphogenesis, processes known for their roles in learning, and memory formation. These data, coupled with previous studies, firmly establish a role for the miR-132/212 gene locus as a key regulator of cognitive capacity. Further, although miR-132 and miR-212 share a seed sequence, these data indicate that these miRNAs do not exhibit strongly overlapping mRNA targeting profiles, thus indicating that, these two genes may function in a complex, non-redundant manner to shape the transcriptional profile of the CNS. The dysregulation of miR-132/212 expression could contribute to signaling mechanisms that are involved in an array of cognitive disorders
+
+DESIGN
+Hippocampal mRNA was isolated from CaMKII-Cre::miR-132/212f/f, tTA::miR132, and tTA::miR212 animals, as well as their respective nontransgenic controls. cDNA from six animals was pooled into three independent biological replicates for each. Libraries were prepared according to the Illumina TruSeqTM Sample Preparation Guide and sequenced using an Illumina Genome Analyzer II. Sequences were aligned to the UCSC mm9 reference genome using Bowtie v0.12.7 and custom R scripts. The sequence data have been submitted to the NCBI Short Read Archive with accession number in progress. Relative abundance was measured in Fragments Per Kilobase of exon per Million fragments mapped using Cufflinks v1.2.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+26773099
+

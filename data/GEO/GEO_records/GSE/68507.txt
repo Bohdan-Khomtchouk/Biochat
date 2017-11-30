@@ -1,0 +1,18 @@
+TITLE
+Cross-species comparison of epigenetic poising in the mammalian germ line
+
+ORGANISM
+Gallus gallus ; Macaca mulatta ; Homo sapiens ; Bos taurus ; Mus musculus ; Monodelphis domestica
+
+SUMMARY
+In the mouse, germ cells and embryonic stem cells maintain an epigenetically poised (bivalent) state, defined by the simultaneous presence of the opposing histone modifications H3K4me3 and H3K27me3 and by transcriptional repression, at the promoters of many developmental regulatory genes. We compared genome-wide chromatin state in male germ cells of five mammalian and one avian species. We identified a set of 405 genes whose promoters retain poised chromatin in the mammalian germ line throughout mammalian evolution.
+
+DESIGN
+ChIP-seq of H3K4me3 and H3K27me3, along with RNA-seq, in sorted meiotic and post-meiotic male germ cells of human (3 biological replicates), rhesus (2 biological replicates), mouse (1 replicate), bull (1 replicate), opossum (2 replicates), and chicken (1 replicate). Raw data is in SRA under accession numbers SRP057141, SRP028905, and SRP028906 (BioProjects PRJNA281061, PRJNA214839 and PRJNA214840).
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL19005 Illumina HiSeq 2500 (Gallus gallus) GPL19129 Illumina HiSeq 2500 (Macaca mulatta) GPL19172 Illumina HiSeq 2500 (Bos taurus) GPL20141 Illumina HiSeq 2500 (Monodelphis domestica)
+
+CITATIONS
+27294618
+

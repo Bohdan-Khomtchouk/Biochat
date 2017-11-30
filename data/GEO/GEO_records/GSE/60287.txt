@@ -1,0 +1,18 @@
+TITLE
+Stress responsive gene expression in rice cultivars
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+In this study, we aim to present a global view of transcriptome dynamics in different rice cultivars (IR64, Nagina 22 and Pokkali) under control and stress conditions. More than 50 million high quality reads were obtained for each tissue sample using Illumina platform. Reference-based assembly was performed for each rice cultivar. The transcriptome dynamics was studied by differential gene expression analyses between stress treatment and control sample.
+
+DESIGN
+We collected seedlings of three rice cultivars subjected to control (kept in water), desiccation (transferred on folds of tissue paper) and salinity (transferred to beaker containing 200 mM NaCl solution) treatments. Total RNA isolated from these tissue samples was subjected to Illumina sequencing. The sequence data was further filtered using NGS QC Toolkit to obtain high-quality reads. The filtered reads were mapped to Japonica reference genome using Tophat software. Cufflinks was used for reference-based assembly and differential gene expression was studied using cuffdiff software. The differentially expressed genes during various abiotic stress conditions were identified.
+
+PLATFORM
+GPL9316 Illumina Genome Analyzer II (Oryza sativa)
+
+CITATIONS
+26449881 , 27029818
+

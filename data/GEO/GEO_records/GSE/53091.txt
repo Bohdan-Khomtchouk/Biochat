@@ -1,0 +1,18 @@
+TITLE
+Inference and validation of predictive gene networks from biomedical literature and gene expression data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Although many methods have been developed for inference of biological networks, the validation of the resulting models has largely remained an unsolved problem. Here we present a framework for quantitative assessment of inferred gene interaction networks using knock-down data from cell line experiments. Using this framework we are able to show that network inference based on integration of prior knowledge derived from the biomedical literature with genomic data significantly improves the quality of inferred networks relative to other approaches. Our results also suggest that cell line experiments can be used to quantitatively assess the quality of networks inferred from tumor samples.
+
+DESIGN
+Knock-down of eight genes were performed on colorectal cancer cell lines to identify the genes whose expression was significantly affected. These genes were subsequently used to validate the quality of our causal gene interaction network.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

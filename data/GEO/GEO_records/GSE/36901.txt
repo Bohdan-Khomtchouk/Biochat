@@ -1,0 +1,18 @@
+TITLE
+Expression data from U87MG cells expressing EGFRvIII
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+EGFRvIII is the most common deletion mutant of EGFR in human cancer and its levels are highly correlated with poor prognosis in GBM.  The deletion of exons 2-7 removes most of the extracellular ligand binding domain, so it is unable to bind EGF or other EGFR-binding ligands.  Nevertheless, the mutant receptor is constitutively phosphorylated, and is capable of activating downstream signaling pathways at a low level. To comprehensively identify the downstream signaling consequences of the EGFRvIII, we incorporated phosphoproteomic, transcription profiling and DNase-Seq data from U87MG glioblastoma cells expressing titrated levels of this mutant receptor.
+
+DESIGN
+Total RNA were extracted from U87MG cells engineered to expressed different levels of EGFRvIII: medium (U87M; 1.5 million copies of EGFRvIII receptor per cell), high (U87H; 2 million copies per cell), super-high (U87SH; 2.5 million copies per cell), and kinase-dead EGFRvIII (U87DK; 2 million copies of kinase dead EGFRvIII per cell).  RNA was hybridized to Affymetrix microarrays.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+23408876
+

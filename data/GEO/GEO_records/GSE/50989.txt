@@ -1,0 +1,18 @@
+TITLE
+Advancing Functional Utility of PAR-CLIP by Quantifying Background Binding to mRNAs and lncRNAs
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We developed a method for measuring non-specific background in PAR-CLIP data demonstrating that covalently crosslinked background binding is common, reproducible and apparently universal.  Furthermore, we show that quantitative determination of background is essential for identifying targets of weakly binding RNA-binding proteins and can substantially improve motif analysis.
+
+DESIGN
+To define background binding events in PAR-CLIP data we performed the standard PAR-CLIP protocol (Hafner et al., Cell 2010.) on lysates expressing a commonly used non-RBP control, FLAG-GFP.  After FLAG-tag immunopurification of UV 365nm irradiated lysates prepared from cells supplemented with 4-thiouridine (4SU), RNA was partially digested with RNase T1, radiolabeled and separated by SDS-PAGE.  Reads were sequenced by Illumina HiSeq.  PAR-CLIP was also performed for HuR.  Included as well is a total from lysates treated like PAR-CLIP, but without immunoprecipitation (see sample description for more detail).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24393468
+

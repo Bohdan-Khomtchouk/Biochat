@@ -1,0 +1,18 @@
+TITLE
+The network of targeting interactions in chromatin
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+In eukaryotes, many chromatin proteins together regulate gene expression. Chromatin proteins often direct the genomic binding pattern of other chromatin proteins, for example by recruitment or competition mechanisms. The network of such targeting interactions in chromatin is complex and still poorly understood. Based on genome-wide binding maps, we constructed a network model of the targeting interactions among a broad set of 43 chromatin components in Drosophila cells. This model predicts many novel functional relationships. For example, we identified mechanisms that determine the distinct genomic binding patterns of the heterochromatin components HP3 and Su(var)3-7. We also discovered a central role for the remodeling factor Brahma in the targeting of several DNA-binding factors. Furthermore, the interaction network consists of several sub-networks that regulate distinct groups of genes. Our network model provides a global view of the targeting interplay among dozens of chromatin components. For this study, we used 36 published datasets, representing various chromatin components,  as well as 7 newly generated DamID profiles. Additionally, we generated DamID profiles of 4 proteins and a profile of differential accessibility in Brm knockdown vs. control cells.
+
+DESIGN
+DamID experiments for multiple chromatin proteins was performed in Drosophila cell cultures. Samples were hybridized to spotted cDNA arrays. Every experiment was done at least in duplicate with one sample in the reverse dye orientation. Where indicated, one biological sample was hybridized to two arrays (a and b) in the same dye orientation; values from these arrays were first averaged before averaging dye-swapped biological replicates. Samples represent averaged results of replicates.  A metadata file and a value matrix for the individual replicates are linked below as supplementary files. Change in chromatin accessibility was probed by Dam methylase expression in white vs. brahma RNAi treated Kc167 cells. Material from two test and control experiments was isolated according to DamID procedure and co-hybridized in reverse dye orientations. Sample represents averaged results of replicates. A metadata file and a value matrix for the individual replicates are linked below as supplementary files. An additional processed data file 'GATCfragments_deltaAcc.gff' whose rows represent normalized values averaged per GATC fragment rather than normalized values per array reporter is linked below as a supplementary file.
+
+PLATFORM
+GPL1908 FHCRC Fly 12K v1.0 GPL8471 NimbleGen Drosophila 385k array rel4 300bp
+
+CITATIONS
+20007327
+

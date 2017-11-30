@@ -1,0 +1,18 @@
+TITLE
+Small RNA interactome revealed through crosslinking of the degradosome
+
+ORGANISM
+Escherichia coli O157:H7 str. Sakai
+
+SUMMARY
+UV-crosslining of protein-RNA complexes was employed to capture sRNA-mRNA interactions occuring on the RNA degradosome protein, RNase E, in enterohaemorhaggic E. coli. Abstract from associated mansucript: In many organisms small regulatory RNAs (sRNA) play important roles in the regulation of gene expression by base-pairing to specific target mRNAs. In enterohaemorrhagic E. coli (EHEC), sRNAs are encoded by both the “core” genome and in numerous horizontally acquired pathogenicity islands. To identify functionally important sRNA-target RNA interactions we applied crosslinking and sequencing of hybrids (CLASH) to the core degradosome component RNase E in EHEC. RNase E was shown to bind to many classes of RNA, confirming the wide distribution of degradosome targets. These included several hundred sRNA-mRNA duplexes, and the distribution of non-templated oligo(A) tails indicated that the sRNA target RNase E-mediated cleavage at these interaction sites. Functional repression of target mRNAs was confirmed for the core sRNA RyhB, and the pathogenicity-associated sRNA Esr41. In the case of Esr41, three confirmed target mRNAs participate in iron accumulation and the ∆esr41 strain showed increased growth under conditions of iron limitation. We conclude that CLASH can be used to identify functional targets for bacterial sRNAs.
+
+DESIGN
+The endoribonuclease, RNase E, was affiity tagged with a His-FLAG tag. Cultures were UV irradiated with 1800 mJ of UV-C and harvested. RNA-protein complexes were purified using M2-anti-FLAG resin and eluted but incubating with TEV protease to release the FLAG tag. RNAs were trimmed using RNase T1/A and bound to Ni-NTA resin under denaturing conditions. Complexes were washed, 5' and 3' ends phophorylated and dephophorylated respectively and RNA linkers ligated. Complexes were eluted and cDNA libraries prepared from recovered RNAs. cDNA were PCR amplified and gel extracted before Illumina HiSeq2500 sequencing. Sequence files were analysed using the hyb package and pyCRAC software.
+
+PLATFORM
+GPL21393 Illumina HiSeq 2500 (Escherichia coli O157:H7 str. Sakai)
+
+CITATIONS
+27836995
+

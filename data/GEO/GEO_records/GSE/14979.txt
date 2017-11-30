@@ -1,0 +1,18 @@
+TITLE
+Sex- and gonad-biased gene expression in zebrafish
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+A microarray study of sex- and gonad-biased gene expression was conducted to determine whether zebrafish demonstrate male-specific patterns consistent with those observed in other animals.  We identified a large number of genes (5899) demonstrating statistical differences in transcript abundance between male and female Danio rerio.  All sex-biases in gene expression were due to differences between testis and ovary, although differences between male and female body likely went undetected due to constraints imposed by study design and statistical criteria.  Male-enriched genes were more abundant than female-enriched genes, and the magnitude of expression bias for male-enriched genes was greater than that for female-enriched genes.  We also identified a large number of candidate reproductive genes based on elevated transcript abundance in testes and ovaries, relative to male body and female body, respectively.  Gene expression patterns in adult zebrafish from this study are consistent with the male-biased patterns typical of most animal taxa studied to date.  Recent zebrafish studies designed to address more specific questions have not reported the same findings, but major methodological and analytical differences across these studies could explain discrepancies.
+
+DESIGN
+Adult male and female zebrafish (3 each) were allowed to spawn, and were then separated for 5 days before gonad excision.  Total RNA was extracted from each individual's gonads, as well as the remainder of the body.  Each individual sample was hybridized to an Affymetrix Zebrafish Genome Array, for a total of 12 arrays (3 male body, 3 female body, 3 testis, 3 ovary).  Male-female comparisons as well as gonad-soma comparisons were performed. Data were analyzed four different ways (GCOS, GC-RMA, dCHIP PM-only, and dCHIP PM-MM). Published results were based on a strict consensus across all 4 methods. A gene will be considered differentially expressed if the t-test corresponding to each of the 4 methods is significant (False Discovery Rate = 0.05).
+
+PLATFORM
+GPL1319 [Zebrafish] Affymetrix Zebrafish Genome Array
+
+CITATIONS
+19958554
+

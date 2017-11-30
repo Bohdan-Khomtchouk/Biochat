@@ -1,0 +1,18 @@
+TITLE
+Mutational landscape of aggressive natural killer-cell leukemia and drug profiling highlight JAK-STAT signaling as a therapeutic target in NK-cell malignancies
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cell lines derived from NK cell neoplasms were characterized using RNA sequencing and high-throughput drug sensitivity profiling to identify therapeutically actionable drivers in malignant NK cells.
+
+DESIGN
+RNA sequencing data was obtained from natural killer and T cell lines for gene expression profiling and mutation detection in parallel with drug sensitivity profiling. The 'NK_cell_line_GEO_drug_sensitivity.txt' contains drug sensitivity scores of cell lines screened using 459 compounds. Breifly, compounds were preprinted on 384-well plates (Corning) in five different concentrations covering a 10,000-fold concentration range with an acoustic liquid handling device (Echo 550, Labcyte Inc.) and dissolved in 5   l culture medium on a shaker for 10 min. 20   l of single-cell suspension of cell lines (3,000 cells per well) were dispensed using Multi-Drop Combi peristaltic dispenser (Thermo Scientific). Plates were incubated at 37   C and 5% CO2 for 72 h after which cell viability was measured using CellTiter-Glo 2.0 reagent (Promega) according to the manufacturer   s instructions with a Pherastar FS plate reader (BMG Labtech). Cell viability luminescence data were normalized to DMSO-only wells (negative control) and 100 mM benzethonium chloride-containing wells (positive control). The data were quantified using the drug sensitivity score (DSS) (Yadav et al., Scientific Reports 2014).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

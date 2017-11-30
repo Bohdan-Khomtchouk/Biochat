@@ -1,0 +1,18 @@
+TITLE
+Ribosome profiling reveals an important role for translational control in circadian gene expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Physiological and behavioral circadian rhythms are driven by a conserved transcriptional/translational negative feedback loop in mammals. Although most core clock factors are transcription factors, post-transcriptional control introduces delays that are critical for circadian oscillations. Little work has been done on circadian regulation of translation, so to address this deficit we conducted ribosome profiling experiments in a human cell model for an autonomous clock. We found that most rhythmic gene expression occurs with little delay between transcription and translation, suggesting that the lag in the accumulation of some clock proteins relative to their mRNAs does not arise from regulated translation. Nevertheless, we found that translation occurs in a circadian fashion for many genes, sometimes imposing an additional level of control on rhythmically expressed mRNAs and, in other cases, conferring rhythms on non-cycling mRNAs.  Most cyclically transcribed RNAs are translated at one of two major times in a 24h day, while rhythmic translation of most non-cyclic RNAs is phased to a single time of day. Unexpectedly, we found that the clock also regulates the formation of cytoplasmic processing (P) bodies, which control the fate of mRNAs, suggesting circadian coordination of mRNA metabolism and translation.
+
+DESIGN
+U2-OS cell time course over one day of 12 wildtype total RNA-seq samples, 12 wildtype ribosome profiling samples, 12 Bmal1 knockdown total RNA-seq samples and 12 Bmal1 knockdown ribosome profiling samples. All samples have duplicates.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26338483
+

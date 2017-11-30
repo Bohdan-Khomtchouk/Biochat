@@ -1,0 +1,18 @@
+TITLE
+Expression of sense and antisense transcripts at the ribosomal locus
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epigenetic methyl-CpG silencing of the ribosomal RNA (rRNA) genes is thought to down-regulate rRNA synthesis in mammals. In contrast, we now show that CpG methylation in fact positively influences rRNA synthesis and processing. Human HCT116 cells, inactivated for DNMT1 and DNMT3b or treated with aza-dC, lack CpG methylation and reactivate a large fraction of normally silent rRNA genes. Unexpectedly, these cells display reduced rRNA synthesis and processing, and accumulate unprocessed 45S rRNA. Reactivation of the rRNA genes is associated with their cryptic transcription by RNA polymerase II. Ectopic expression of cryptic rRNA gene transcripts recapitulates the defects associated with loss of CpG methylation. The data demonstrate that rRNA gene silencing prevents cryptic RNA polymerase II transcription of these genes. Lack of silencing leads to the partial disruption of rRNA synthesis and rRNA processing, providing an unexpected explanation for the cytotoxic effects of loss of CpG methylation. Agilent custom microarray analyses of transcripts from sense and antisense strands of the human rRNA genes present in total nuclear RNA from HCT116-DNMT1-/-;DNMT3b-/- (DKO) and HCT116 (PS) cells. The DKO/PS RNA  ratio was normalized within the 5’ region of the 45S ribosomal RNA, since this sense coding region was found by quantitative Northern and S1-mapping analyses to equally present in the RNA pools from both cells (as compared to total RNA levels and 18S and 28S levels).  The distribution for sense RNAs from the coding region is strongly influenced by the predominant RPI 45S rRNA transcript and hence peaks at 0, the DKO and PS 45S rRNA signals having been normalized.
+
+DESIGN
+60-mer probes were designed to tile Human rDNA (GenBank accession U13369) on both strands using ArrayOligoSelector (Wardle et al., 2006). A total of 1,146 different non-overlapping probes (573 for each DNA strand) were designed to cover the 43 kb of human rDNA and each printed in triplicate on the array. The experiment was performed using a dye-swap duplicate analysis. The microarrays were scanned on a G2565CA DNA microarray scanner (Agilent Technologies) and the quantification performed using the Feature Extraction software (Agilent technologies). The data were analyzed using the LIMMA software package in R (Smyth and Speed, 2003).
+
+PLATFORM
+GPL8839 Moss Human 15k rRNA v1.0
+
+CITATIONS
+19716787
+

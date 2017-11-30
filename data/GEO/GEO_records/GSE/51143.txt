@@ -1,0 +1,18 @@
+TITLE
+Effect of BET inhibitors (JQ1 and RVX-208) on gene expression in HepG2 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Bromodomains have emerged as attractive candidates for the development of inhibitors targeting gene transcription. Inhibitors of the bromo-and-extra-terminal (BET) family recently showed promising activity in diverse disease models. However, the pleiotropic nature of BET proteins regulating tissue specific transcription has raised safety concerns and suggested that attempts should be made for domain-specific targeting. Here we report that RVX-208, a compound currently in phase II clinical trials, is a BET bromodomain inhibitor specific for second bromodomains (BD2). Co-crystal structures revealed binding modes of RVX-208 and its synthetic precursor and fluorescent recovery after photobleaching demonstrated that RVX-208 displaces BET proteins from chromatin. However, gene expression data showed that BD2 inhibition only modestly affects BET-dependent gene transcription. Our data demonstrate the feasibility of specific targeting within the BET family resulting in different transcriptional outcomes and highlight the importance of BD1 in transcriptional regulation
+
+DESIGN
+HepG2 Cells were treated with eitther DMSO or 0.5uM JQ1 or 5uM RVX-208. Three samples per condition, total of nine samples. Inhbitor treatment was carried out for 4h before RNA was extracted. HepG2 cells (ATCC: HB-8065) were maintained in α-MEM (Cat.#BE12-169F; BioWhittaker) supplemented with 10 % heat-inactivated foetal calf serum (PAA #A15-152), non-essential amino acids (Cat. #M7145; Sigma), glutamine (Cat.#M11-004; PAA), and vitamins (Cat.#M6895; Sigma). Cells were grown at 37 °C in a humidified cabinet at 5 % CO2 (Heraeus Function Line). For experiments, cells were seeded the day prior to treatment at 2x105/ml. Treatments were performed for 4 h so that a final concentration of 0.1 % DMSO (Cat.#D1435; Sigma) was achieved. At harvest, cells were washed once with PBS (Cat.#H15-002; PAA), and lysed in situ using RLT buffer supplemented with 10 μl/ml β-mercaptoethanol (Cat.#M7522; Sigma). Total RNA was extracted and prepared using RNeasy columns (Cat.#74106 plus; Qiagen) including a Qia shredding step (Cat.#79656; Qiagen) and an on-column DNAse digestion (Cat.#EN0521; Fermentas), according to the manufacturer’s instructions. The resulting RNA was quantified and quality controlled using a Nanodrop spectrophotometer (model ND1000; Thermo Fisher). RNA integrity was assessed on a BioAnalyzer (model G2938C; Agilent Laboratories, USA) and all samples had a RNA Integrity Number (RIN) ≥ 9. Labelled sense ssDNA for hybridization was generated from 200 ng starting RNA with the Ambion WT expression kit (Cat.#4411973; Ambion) and the Affymetrix GeneChip WT Terminal Labelling and Controls Kit (Cat.#901525; Affymetrix) according to the manufacturer’s instructions. The distribution of fragmented sense ssDNA lengths was measured on the BioAnalyser. The fragmented ssDNA was labelled and hybridized for 17 hours at 45 °C on the Affymetrix GeneChip Human Gene 1.0 ST Array (Affymetrix). Chips were processed on an Affymetrix GeneChip Fluidics Station 450 and Scanner 3000 and the affymetrix Command Console (v.3.2.4; Affymetrix) was used to generate CEL files.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24248379
+

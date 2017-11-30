@@ -1,0 +1,18 @@
+TITLE
+Genome-wide characterization of ARID3B binding sites and KDM4C in ARID3B-knockout OECM1 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In this study we assayed for genome-wide localization of ARID3B and KDM4C enrichment in control and ARID3B-knockout OECM1 cells. The expression of the embryonic stem cell (ESC) signature in cancer cells indicates the coordinated regulation of the stemness genes in cancer stem cells, which are responsible for cancer initiation and dissemination. let-7 family microRNAs are crucial regulators for stem cell differentiation. In cancer cells, let-7 suppresses cancer stemness through targeting different oncogenes such as c-Myc, RAS, and HMGA2. However, most let-7 target genes are oncogenes rather than stemness factors, and the mechanism of let-7-repressed stemness is unclear. Here we demonstrate that let-7 supresses the formation of AT-rich interacting domain 3B (ARID3B) complex through targeting the expression of ARID3B, the interacting partner ARID3A, and importin 9. ARID3B complex recruits histone demethylase 4C (KDM4C) to the regulatory region of stemness genes for reducing histone 3 lysine 9 trimethylation, resulting in an open configuration of the chromatin of stemness genes. In cancer tissues, ARID3B expression correlates with the nuclear ARID3A expression and a worse prognosis. This result highlights the role of let-7 in regulating stemness through histone modifications.
+
+DESIGN
+The Cas9/gRNA target sites containing20 bp gRNA sequence plus the PAM sequence (NGG) using Jack Lin’s CRISPR/Cas9 gRNA finder tool. The gRNA using for knockout ARID3B was predicted by blasting with human genomic and transcript sequences using the NCBI/blastn suite for the detection of potential off-targets.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+26776511
+

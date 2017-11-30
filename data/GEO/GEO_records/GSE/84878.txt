@@ -1,0 +1,18 @@
+TITLE
+Next Generation Sequencing Comparison of Wild Type and Whsc1-/- Activated B-cell Transcriptomes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Whsc1 gene codes for a SET domain-containing H3K36 dimethylase, whose activity has been suggested, in ex vivo cell culture experiments, to control many aspects of DNA and RNA processing (replication, repair, transcription, etc). Its precise function in vivo is still unclear. Here, we use RNA-seq transcriptome analysis to study the changes in gene expression in the absence of Whsc1. Our results show that, in the experimental system used, loss of Whsc1 caused massive changes in genes affecting many fundamental cellular processes, from cell cycle to ribosome synthesis, DNA repair, replication, etc.
+
+DESIGN
+Whsc1-KO mice are embryonic lethal. We therefore took hematopoietic cells from fetal liver of WT and Whsc1-KO embryo littermates and injected them in to lethally irradiated RAG1-KO recipients and allowed the generation of a full Whsc1-KO hematopoietic system. Then, WT and Whsc1-KO B cells were obtained from the spleen and stimulated with LPS to induce proliferation and class switch recombination. Flow cytometry and cell cycle analyses (among others) showed the existence of serious proliferative alterations in Whsc1-KO cells. Then, we performed paired-end RNAseq analyses of 7 independent WT and 6 independent Whsc1-KO biological replicates and we used these data to identify differentially expressed genes and pathways regulated by Whsc1 in B cells.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28538178
+

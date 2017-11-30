@@ -1,0 +1,18 @@
+TITLE
+Discovery of Transcription Factors and Regulatory Regions Driving In Vivo Tumor Development by ATAC-seq and FAIRE-seq Open Chromatin Profiling
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Genomic enhancers regulate spatio-temporal gene expression by recruiting specific combinations of transcription factors (TFs). When TFs are bound to active regulatory regions, they displace canonical nucleosomes, making these regions biochemically detectable as nucleosome-depleted regions or accessible/open chromatin. Here we ask whether open chromatin profiling can be used to identify the entire repertoire of active promoters and enhancers underlying tissue-specific gene expression during normal development and oncogenesis in vivo. To this end, we first compare two different approaches to detect open chromatin in vivo using the Drosophila eye primordium as a model system: FAIRE-seq, based on physical separation of open versus closed chromatin; and ATAC-seq, based on preferential integration of a transposon into open chromatin. We find that both methods reproducibly capture the tissue-specific chromatin activity of regulatory regions, including promoters, enhancers, and insulators. Using both techniques, we screened for regulatory regions that become ectopically active during Ras-dependent oncogenesis, and identified 3778 regions that become (over-)activated during tumor development. Next, we applied motif discovery to search for candidate transcription factors that could bind these regions and identified AP-1 and Stat92E as key regulators. We validated the importance of Stat92E in the development of the tumors by introducing a loss of function Stat92E mutant, which was sufficient to rescue the tumor phenotype. Additionally we tested if the predicted Stat92E responsive regulatory regions are genuine, using ectopic induction of JAK/STAT signaling in developing eye discs, and observed that similar chromatin changes indeed occurred. Finally, we determine that these are functionally significant regulatory changes, as nearby target genes are up- or down-regulated. In conclusion, we show that FAIRE-seq and ATAC-seq based open chromatin profiling, combined with motif discovery, is a straightforward approach to identify functional genomic regulatory regions, master regulators, and gene regulatory networks controlling complex in vivo processes.
+
+DESIGN
+FAIRE-Seq in Drosophila wild type eye-antennal imaginal discs (2 wt strains); ATAC-Seq in Drosophila wild type eye-antennal imaginal discs (3 wt strains) ; FAIRE-Seq in Drosophila Ras/Scrib induced eye disc tumors (1 early and 1 late);  ATAC-Seq in Drosophila Ras/Scrib induced eye disc tumors (1 early and 1 late); ATAC-Seq in Drosophila eye discs with Unpaired over-expression (2 biological replicates); CTCF ChIP-seq in Drosophila eye discs; ChIP-seq input in Drosophila eye discs
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+25679813
+

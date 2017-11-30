@@ -1,0 +1,18 @@
+TITLE
+Exon level integration of proteomics and microarray data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Previous studies comparing quantitative proteomics and microarray data have generally found poor correspondence between the two. We hypothesised that this might in part be because the different assays were targeting different parts of the expressed genome and might therefore be subjected to confounding effects from processes such as alternative splicing.  Results: Using a genome database as a platform for integration, we combined quantitative protein mass spectrometry with Affymetrix Exon array data at the level of individual exons. We found significantly higher degrees of correlation than have been previously observed (r=0.808). The study was performed using cell lines in equilibrium in order to reduce a major potential source of biological variation, thus allowing the analysis to focus on the data integration methods in order to establish their performance.  Conclusion: We conclude that much of the variation observed when integrating microarray and proteomics data may occur as a consequence both of the data analysis and of the high granularity to which studies have until recently been limited. The approach opens up the possibility for the first time of considering combined microarray and proteomics datasets at the level of individual exons and isoforms, important given the high proportion of alternative splicing observed in the human genome.
+
+DESIGN
+This data set contains three technical replicates of the cell lines MCF7 and MCF10A
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+18298841
+

@@ -1,0 +1,18 @@
+TITLE
+Investigation of the molecular mechanism of liver regeneration by the multi-omics approach (ChIP-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Liver regeneration has fascinated the field of regenerative medicine due to its outstanding capacity to undergo a substantial regeneration. The capacity to regenerate is likely to be encoded as a plasticity of molecular networks within the liver. While several reports have utilized massive molecular profiling approaches, a bird-like view of the molecular processes is still lacking. Here, by applying a combination of comprehensive analysis of epigenome, transcriptome and proteome, we depict the molecular landscape of liver regeneration. We demonstrate that histone H3K4 was tri-methylated at promoter regions of many loci, among which only a fraction including cell cycle related genes were transcriptionally up-regulated. Cistrome analysis guided by the histone methylation patterns and transcriptome identified FOXM1 as the key transcription factor to promote liver regeneration, which was confirmed using hepatocytes in vitro. Conditional protein degradation was also observed. These sets of informational resources will be useful to further investigate liver regeneration.
+
+DESIGN
+We performed portal vein branch ligation in mouse, and hypertrophic right lobe was collected at 3 days after surgery. Then we performed the ChIP-seq analysis using anti-H3K4me3 and H3K27me3 antibodies. We prepared sham operated mice as a control. For peak calling, we used input-DNA as control.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28302717
+

@@ -1,0 +1,18 @@
+TITLE
+Analysis of genome-wide methylation of phenotypically discordant monozygotic twins
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Human intelligence demonstrates one of the highest heritabilities among human quantitative traits. Phenotypically discordant monozygotic twins provide a way to identify loci reponsible for the phenotypical differences. We performed comprehensive DNA methylation analysis in monozygotic twins manifesting differences in IQ scores. Genes with significantly different methylation status are considered as candidates related to human intelligence.
+
+DESIGN
+Methylation profiling was conducted using methylated DNA enriched fraction by MethylMiner. Subjects were compared with their co-twins by MAT software and  bed files were generated. Significantly high methyalted regions with MAT score p value < 0.000001 in each twin pairs were extracted as candidates.
+
+PLATFORM
+GPL5082 [Hs_PromPR] Affymetrix Human Promoter 1.0R Array
+
+CITATIONS
+23082141
+

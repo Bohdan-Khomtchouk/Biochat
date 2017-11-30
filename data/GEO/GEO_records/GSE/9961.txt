@@ -1,0 +1,18 @@
+TITLE
+Mutant gshF peroxide treatment
+
+ORGANISM
+Lactobacillus plantarum
+
+SUMMARY
+The goal of this study is to characterize a gshF::cam L. plantarum strain NZ7608. From phenotype characterization we have observed that the gene gshF plays a role in hydrogen peroxide resistance in L. plantarum and therefore we wanted to analyze the global transcriptome response of strain NZ7608 towards peroxide and compared this to wild type response. In this experiment we compared two L. plantarum strains: WCFS1 (wild type) and NZ7618 (gshF::cam). Both strains were grown -in duplo- on CDM containing 0.5% glucose at 37 degrees celsius. When cell density reached OD600=1.0 a hydrogen peroxide stress was given to the cultures to a final concentration of 10mM. Samples were taken at times (0 10 and 30 minutes) upon hydrogen peroxide. All withdrawn samples were used for this microarray experiment. Keywords: peroxide, gshF mutant
+
+DESIGN
+Per array two cDNA labeled targets were hybridized on custom designed L. plantarum WCFS1 11K Agilent oligo microarrays (GEO Acc. Nr. GPL5874) using the Agilent 60-mer oligo microarray processing protocol version 4.1. An oligo-microarray contained an average of 3 probes per transcript. Dried slides were scanned in the Scan Array Express (PerkinElmer Life Sciences; Packard Bioscience) for both Cy3 and Cy5 at 10 microns and a PMT Gain between 40-50%.  Spot intensity data was normalized and quantified (average intensity) using a customized grid in ImaGene (BioDiscovery, Inc.). Signal intensities of all probes were corrected against background in BioArray Software Environment (BASE). The ratio of each probe (M) was defined as log [cy5 intensity/cy3 intensity] where cy3 is the wild type. Fold change (FC) is defined as 2M. For the statistical analysis we used Linear Models for Microarray Analysis (Limma) (R/limma).  Significant transcripts were defined as transcripts with a False Discovery Rate (FDR) adjusted for the pvalues of less than 1% and FC = 1.5
+
+PLATFORM
+GPL5874 WCFS Lactobacillus plantarum 15K 60-mer array, Version 3, our ID LPAG3_8
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+MicroRNA-offset RNA regulates gene expression and cell proliferation (BeadChip)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+MicroRNA-offset RNAs (moRs) were first identified in simple chordates and subsequently in mouse and human cells by deep sequencing of short RNAs. MoRs are derived from sequences located immediately adjacent to microRNAs (miRs) in the primary miR (pri-miR). Currently moRs are considered to be simply a by-product of miR biosynthesis that lack biological activity. Here we show for the first time that a moR is biologically active. We now demonstrate that endogenous and over-expressed moR-21 significantly alters gene expression and inhibits the proliferation of vascular smooth muscle cells (VSMC). We report that the seed region of moR-21 as well as the seed match region in the target gene 3'UTR are indispensable for moR-21-mediated gene down-regulation. We further demonstrated that moR-21-mediated gene repression is Argonaute 2 (Ago2) dependent. In addition, we find that miR-21 and moR-21 may regulate different genes in a given pathway and can oppose each other in regulating certain genes. Taken together, these findings provide the first evidence that microRNA offset RNA regulates gene expression and is biologically active.
+
+DESIGN
+Primary mouse aortic smooth muscle cells (AoSMCs) were transfected with scrambled control or moR-21 mimetics at 5nM final concentration. Triplicate samples were prepared for each treatment. Total RNA was isolated at 48hr post-transfection. Labeling and hybridization to MouseRef-8 v2.0 Expression BeadChip (llumina) were performed according to the Yale Center for Genome Analysis protocol (YCGA, http://ycga.yale.edu/ ). Beadstudio suite of programs were used to calculate the quantile normalized expression values for probe sets. Bioconductor packages Lumi and Limma Linear models and empirical Bayes methods for assessing differential expression in microarray experiments were use to process and annotate the expression values and calculate the fold changes and P-values.
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+27276022
+

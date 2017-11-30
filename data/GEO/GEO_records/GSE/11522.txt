@@ -1,0 +1,18 @@
+TITLE
+Integrative genomic approach reveals expression of intronic miR-335, miR-342, and miR-561 in multiple myeloma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The role of microRNAs (miRNAs) in multiple myeloma (MM) has yet to be fully elucidated. To identify miRNAs that are potentially deregulated in MM, we investigated those mapping within transcription units, based on evidence that intronic miRNAs are frequently coexpressed with their host genes. To this end, we monitored host transcript expression values in a panel of 20 human MM cell lines (HMCLs) profiled on Affymetrix U133A oligonucleotide microarrays and focused on transcripts whose expression varied significantly across the dataset. We identified transcripts specific to six miRNA host genes (CCPG1, GULP1, EVL, TACSTD1, MEST, and TNIK) whose average changes in expression varied at least 2-fold from the mean of the examined dataset. We evaluated the expression levels of the corresponding intronic miRNAs by quantitative real-time RT-PCR. There was a significant correlation between the expression levels of MEST, EVL, and GULP1 and those of the corresponding miRNAs miR-335, miR-342-3p, and miR-561, respectively. Genome-wide profiling of the 20 HMCLs with the Affymetrix GeneChip human mapping 250K array set indicated that the increased expression of the three host genes and their corresponding intronic miRNAs was not correlated with local copy number variations. Notably, miRNAs and their host genes were overexpressed in a fraction of primary tumors with respect to normal plasma cells; however, this finding was not correlated with known molecular myeloma groups. The predicted putative miRNA targets, as well as the transcriptional profiles associated with the primary tumors, suggest that MEST/miR-335 and EVL/miR-342-3p may play a role in plasma cell homing and/or interactions with the bone marrow microenvironment. Our data support the idea that intronic miRNAs and their host genes are regulated dependently, and may contribute to the understanding of their biological roles in cancer. To our knowledge, this is the first evidence of deregulated miRNA expression in MM, providing insights that may lead to the identification of new biomarkers and altered molecular pathways of the disease. Keywords: integrative genomic analysis of miR-335, miR-342, and miR-561 in multiple myeloma
+
+DESIGN
+This series of microarray experiments contains the genome-wide profiles of 20 HMCLs. 250 nanograms of genomic DNA was processed and, in accordance with the manufacturer's protocols, 90 micrograms of fragmented biotin-labelled DNA were hybridized on GeneChip® Human Mapping 250K NspI Arrays (Affymetrix Inc.). The arrays were scanned using the GeneChip® Scanner 3000 7G. The images were acquired using Affymetrix GeneChip® Operating Software (GCOS version 1.4). Copy number values for individual SNPs were extracted and converted from CEL files into signal intensities using GTYPE 4.1 and Affymetrix Copy Number Analysis Tool (CNAT 4.0.1) softwares. Raw data were extracted using the Hidden Markov Model Genomic Smoothing window was set to 0. After the preprocessing, piecewise constant estimates of the underlying local DNA CN variation was calculated using the DNA copy Bioconductor package, which looks for optimal breakpoints using circular binary segmentation (CBS).
+
+PLATFORM
+GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array
+
+CITATIONS
+18700954
+

@@ -1,0 +1,18 @@
+TITLE
+Expansion of signal transduction pathways in fungi by extensive genome duplication
+
+ORGANISM
+Phycomyces blakesleeanus
+
+SUMMARY
+Plants and fungi use light and other signals to regulate development, growth, and metabolism. The fruiting bodies of the fungus Phycomyces blakesleeanus are single cells that react to environmental cues, including light, but the underlying mechanisms are largely unknown [1]. The related fungus Mucor circinelloides is an opportunistic human pathogen that changes its mode of growth upon receipt of signals from the environment to facilitate pathogenesis [2]. Understanding how these organisms respond to environmental cues should provide new insights into the mechanisms of sensory perception and signal transduction by a single eukaryotic cell, and their role in pathogenesis. We sequenced the genomes of P. blakesleeanus and M. circinelloides, and show that they have been shaped by an extensive genome duplication or, most likely, a whole genome duplication (WGD), which is rarely observed in fungi [3-6]. We show that the genome duplication has resulted in expansion of gene families, including those involved in signal transduction, and that duplicated genes have specialized, as evidenced by differences in their regulation by light. The transcriptional response to light indeed varies with the developmental stage and is still observed in a photoreceptor mutant of P. blakesleeanus. A phototropic mutant of P. blakesleeanus with a heterozygous mutation in the photoreceptor gene madA demonstrates that photosensor dosage is important for the magnitude of signal transduction. We conclude that the genome duplication provided the means to improve signal transduction for enhanced perception of environmental signals. Our results will help to understand the role of genome dynamics in the evolution of sensory perception in eukaryotes.
+
+DESIGN
+For this experiment, three biological replicates were made for each condition, however during the differential expression analysis using the edgeR package, we determined that the WTMD3, WTSD3, WTSL2 and ΔL51SD2 libraries have greater dispersion compared to their respective biological replicas, so it was decided not to consider these data for the final analysis.
+
+PLATFORM
+GPL19573 AB SOLiD 4 System (Phycomyces blakesleeanus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+PIAS1 is a target gene selective androgen receptor coregulator in prostate cancer cell chromatin
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To study the importance of PIAS1 (protein inhibitor of activated STAT1) for the androgen-regulated transcriptome of VCaP prostate cancer cells, we silenced its expression by RNAi. Transcriptome analyses revealed that a subset of the androgen-regulated genes is significantly influenced, either activated or repressed, by PIAS1 depletion. The depletion also exposed a completely new set of genes to androgen regulation, suggesting that PIAS1 can mask genes from androgen receptor (AR). Pathway analyses of gene expression data suggest involvement of PIAS1 in VCaP cell proliferation. According to genome-wide ChIP-seq analyses, PIAS1 interacts with the AR on chromatin harboring also SUMO2/3, as androgen exposure multiplied the occupancy of PIAS1 in the chromatin, and resulted in nearly complete overlap with AR chromatin binding events. PIAS1 interacted also with pioneer factor FOXA1 in the chromatin. Our results strongly suggest that PIAS1 is a genuine chromatin-bound coregulator of AR which functions in a target gene selective fashion in prostate cancer cells.
+
+DESIGN
+All ChIP-seq samples were collected from cells treated with vehicle (EtOH) or 10 nM R1881 (synthetic androgen methyltrienolone) for 2 h. In addition, AR and FOXA1 ChIP-seq samples were collected from cells exposed to control siRNA (siNON, Dharmacon Non-targeting pool) or PIAS1 siRNA (siPIAS1, Dharmacon ON-TARGETplus SMARTpool for human PIAS1). IgG sample was collected from EtOH- and R1881-treated cells (siNON and siPIAS1 cells) and used as background control. Biological duplicate samples of the AR (siNON-R1881), PIAS1 (vehicle- and R1881-treated), FOXA1 (vehicle- and R1881-treated), RNA polymerase 2 (Pol2) (R1881-treated) and SUMO2/3 (R1881-treated) ChIP-seq samples were analyzed by using Solexa/Illumina 1.5 System and AR (siPIAS1-R1881), FOXA1 (siNON-R1881- and siPIAS1-R1881-treated) and SUMO2/3 (vehicle-treated) samples were analyzed using Illumina HiSeq 2000 platform. Single IgG sample was analyzed using Solexa/Illumina 1.5 System and single H3K4me2 (R1881-treated) sample with Illumina HiSeq 2000 platform 1.9.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25552417
+

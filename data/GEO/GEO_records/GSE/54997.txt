@@ -1,0 +1,18 @@
+TITLE
+ChIP-seq study of sigma factors in Pseudomonas aeruginosa
+
+ORGANISM
+Pseudomonas aeruginosa
+
+SUMMARY
+Sigma factors are master regulators of bacterial transcription which direct gene expression of specific subsets of genes. In particular, alternative sigma factors are well-known to be key players of bacterial adaptation to changing environments. To elucidate the regulatory network of sigma factors in P. aeruginosa, an integrative approach including ChIP-seq of 11 polyhistidine-tag sigma factors was performed to define the primary regulon of each sigma factor.
+
+DESIGN
+Sigma factor genes were fused to a polyhistidine-tag and provided in trans. Under optimal conditions regarding sigma factor activity and induction of sigma factor expression, DNA-sigma factor interactions were conserved by formaldehyde treatment. Upon DNA fragmentation by sonication, the complexes were specifically immunoprecipitated by polyclonal anti-6X His-tag antibodies and the purified DNA was analyzed by Illumina sequencing. DNA enrichment to a control strain was calculated and used for peak calling within promoter region (-500,+100) to identify directly regulated genes/operons.
+
+PLATFORM
+GPL18286 Illumina Genome Analyzer IIx (Pseudomonas aeruginosa) GPL18287 Illumina HiSeq 2500 (Pseudomonas aeruginosa)
+
+CITATIONS
+25780925
+

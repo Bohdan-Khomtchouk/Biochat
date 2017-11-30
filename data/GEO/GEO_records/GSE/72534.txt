@@ -1,0 +1,18 @@
+TITLE
+Modeling genome-wide transcriptional cis-regulation in n LNCaP-abl cell line after siRNA knock down of a series of gene factors [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We describe, MARGE, Model-based Analysis of the Regulation of Gene Expression, a robust methodology that leverages a large library of genome-wide H3K27ac ChIP-seq profiles to predict key regulated genes and cis-regulatory regions in human or mouse. MARGE adopts a gene centric approach to define a regulatory potential that summarizes the aggregate activity of multiple cis-regulatory elements on each gene. This model is effective in describing cis-regulatory activity and, unlike the super-enhancer based approach, is highly predictive of gene expression changes in response to BET-bromodomain inhibitors. We show that linear combinations of H3K27ac defined regulatory potentials, selected from an extensive database of published H3K27ac profiles, can accurately model diverse gene sets derived from differential gene expression experiments. In addition, we demonstrate a novel semi-supervised learning approach for identifying transcription factor binding sites associated with the set of transcription factors that regulate the gene set. MARGE leverages published H3K27ac ChIP-seq data to enhance the interpretation of newly generated H3K27ac ChIP-seq profiles. MARGE can also be used to analyze gene expression studies, without the production of matched H3K27ac ChIP-seq data.
+
+DESIGN
+Transcriptome profiling in LNCaP-abl cell line after siRNA knock down of a series of gene factors.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27466232
+

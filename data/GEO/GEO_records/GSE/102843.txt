@@ -1,0 +1,18 @@
+TITLE
+CG-dinucleotide suppression enables antiviral defense targeting non-self RNA
+
+ORGANISM
+Human immunodeficiency virus 1
+
+SUMMARY
+Vertebrate genomes exhibit marked CG-suppression, that is lower than expected numbers of 5’-CG-3’ dinucleotides1. This feature is likely due to C-to-T mutations that have accumulated over hundreds of millions of years, driven by CG-specific DNA methyl transferases and spontaneous methyl-cytosine deamination. Remarkably, many RNA viruses of vertebrates that are not substrates for DNA methyl transferases mimic the CG-suppression of their hosts2-4. This striking property of viral genomes is unexplained4-6. In a synonymous mutagenesis experiment, we found that CG-suppression is essential for HIV-1 replication. The deleterious effect of CG dinucleotides on HIV-1 replication was cumulative, evident as cytoplasmic RNA depletion, and exerted by CG dinucleotides in both translated and non-translated exonic RNA sequences. A focused siRNA screen revealed that zinc finger antiviral protein (ZAP)7 inhibited virion production by cells infected with CG-enriched HIV-1. Crucially, HIV-1 mutants containing segments whose CG-content mimicked random sequence were defective in unmanipulated cells, but replicated normally in ZAP-deficient cells. Crosslinking-immunoprecipitation-sequencing assays demonstrated that ZAP binds directly and selectively to RNA sequences containing CG dinucleotides. These findings suggest that ZAP exploits host CG-suppression to discriminate non-self RNA. The dinucleotide composition of HIV-1, and perhaps other RNA viruses, appears to have adapted to evade this host defense.
+
+DESIGN
+PAR-CLIP data sets from 293T cells
+
+PLATFORM
+GPL20319 Illumina HiSeq 2000 (Human immunodeficiency virus 1)
+
+CITATIONS
+28953888
+

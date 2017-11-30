@@ -1,0 +1,18 @@
+TITLE
+Fatal Asthma vs. Control Human Airway Smooth Muscle Transcriptome Changes in Response to Vitamin D or Albuterol
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Rationale: Asthma is a chronic inflammatory airway disease. Children with severe asthma have lower levels of vitamin D than children with moderate asthma, and among children with severe asthma, airway smooth muscle (ASM) mass is inversely related to vitamin D levels. Beta2 agonists are a common asthma medication that act partly by targetting the ASM. We used RNA-Seq to characterize the human ASM transcriptome of fatal and asthma vs. contols at baseline and under two treatment conditions. Methods: The Illumina TruSeq assay was used to prepare 75bp paired-end libraries for ASM cells from white donors, 6 with fatal asthma and 12 control donors under three treatment conditions: 1) no treatment; 2) treatment with a β2-agonist (i.e. Albuterol, 1μM for 18h); 3) treatment with vitamin D 100 nM for 18h). Llibraries were sequenced with an Illumina Hi-Seq 2000 instrument. The Tuxedo Suite Tools were used to align reads to the hg19 reference genome, assemble transcripts, and perform differential expression analysis using the protocol described in https://github.com/blancahimes/taffeta
+
+DESIGN
+mRNA profiles obtained via RNA-Seq for primary human airway smooth muscle cell lines from fatal asthma or control donors that were treated with vitamin D, albuterol, or were left untreated.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Allele-specific chromosome conformations induced by a transgene- and locus-dependent imprinting
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A reporter transgene displayed parental imprinting in mouse embryos when positioned into the Itga6 gene.  The strong lacZ pattern of expression scored in embryos inheriting the transgene from a male was not present when transmitted from a female. The transgene exhibited maternal allele-specific DNA hyper-methylation acquired in the germ-line and histone modifications corresponded to profiles described at known imprinted loci. Chromosome conformation analyzes revealed distinct, parent-of-origin interaction domains, with a more compact structure characterizing the maternally inherited repressed allele. The analysis of such transgene insertions with a selective potential to induce imprinting may help understanding the mechanisms identifying particular loci as targets for allele-specific repression.
+
+DESIGN
+Data were quantile normalized within 4C/input replicate groups and scaled to medial feature intensity of 100 using TAS software (Affymetrix), generating signal.bar files. For each genomic position, a data set was generated consisting of all (PM-MM) pairs mapping within a sliding window of 250 bp. For Inv(rel5-Itga6) tissues, two independent 4C experiments were performed and merged in the .bar file.
+
+PLATFORM
+GPL13195 [Mm35b_M02R_v01] Affymetrix Mouse Tiling 1.1R Array Set
+
+CITATIONS
+23818637
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression in helped versus helpless CD8 T cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+CD4+ ‘helper’ T cells (TH) are pivotal for the generation and maintenance of CD8+ T cell responses. ‘Helped’ CD8+ T cells receive signals during priming that prevent the induction of the pro-apoptotic molecule TRAIL during reactivation, thereby enabling robust secondary expansion. Conversely, ‘helpless’ CD8+ T cells primed in the absence of TH induce TRAIL expression upon restimulation and undergo activation-induced cell death (AICD). We have investigated the molecular basis for the differential regulation of TRAIL in helped versus helpless CD8+ T cells by comparing their transcriptional profiles, and have identified a transcriptional corepressor, NGFI-A binding protein 2 (Nab2) that is selectively induced in helped CD8+ T cells. Enforced expression of Nab2 prevents TRAIL induction upon restimulation of primary helpless CD8+ T cells, and expression of a dominant-negative form of Nab2 in helped CD8+ T cells impairs their secondary proliferative response that is reversible by TRAIL blockade. Finally, we observe that the CD8+ T cell autocrine growth factor interleukin-2 (IL-2) coordinately increases Nab2 expression and decreases TRAIL expression. These findings identify Nab2 as a mediator of TH-dependent CD8+ T cell memory responses through regulation of TRAIL and promotion of secondary expansion, and suggest a mechanism through which this operates.
+
+DESIGN
+Helped and helpless E1B192-200-specific CD8+ T cells were generated as previously described16. Briefly, C57BL/6J mice were treated with 100 ug GK1.5 intraperitoneally (helpless) or left untreated (helped) prior to subcutaneous immunization with 1x107 irradiated (3000 rad) TAP-/-Ad5E1-MEC. 3 days post immunization, all mice were treated with 100 ug GK1.5. Spleens and draining lymph nodes were harvested 7 days post immunization, and CD8+ T cells were purified with the CD8 negative isolation kit (Miltenyi) according to the manufacturer’s protocol. Purity was 88-95%. Microarray and data analysis Purified CD8+ T cells from helped and helpless mice were sorted on CD44hi expression by flow cytometry. Cells were restimulated for 4h with 2ug/ml E1B192-200 peptide in the presence of 20uM qVD-OPh (R & D Systems). RNA was extracted using TriZol (Gibco BRL) according to the manufacturer's instructions. 5ug of total RNA was used to generate cDNA with RT Superscript III (Invitrogen). cDNA was indirectly labeled using Cyanine 3 and Cyanine 5 (Amersham). Labeled samples were purified and spotted in an equimolar ratio on the Mouse Exonic Evidence Based Oligonucleotide (MEEBO) array. Images were preview scanned on an Axon 4000B and channels were balanced until an overall Cy5/Cy3 ratio of 1 was achieved before a final data scan at 5µm was performed in GenePix.  The images were manually gridded, and then saved for analysis. Data were analysed using Spotfire Decision Site. Gene Ontology terms were downloaded from BioMart < http://www.biomart.org > version NCBI37, 09 April 2009. Genes with Biological Process term " regulation of transcription " (GO:0045449) were assumed to encode transcription factors. Of 276 probes with an absolute log2 ratio > 2, 231 probes were present in BioMart; the remaining cDNA probes did not match currently known genes.
+
+PLATFORM
+GPL3876 UCSF Mus musculus 39K 15Mm MEEBO Oligo Array
+
+CITATIONS
+22128144
+

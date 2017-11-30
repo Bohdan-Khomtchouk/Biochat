@@ -1,0 +1,18 @@
+TITLE
+Detection of Y chromosome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+PCR based detection of Y-chromosome compared against results obtained by CGH microarrrays in Preimplantation Genetic Screening
+
+DESIGN
+Two-condition experiment: subjects classified by PCR results as male (y-chromosome present) or female (y-chromosome absent). Biological replicates: 10 male, 11 female. Please note that the row counts for the raw data files vary from 1,755 to 2,888. Even with the standard protocol according Illumina's 24sure instructions for the microarrays, each run generates a set of analyzed probes that varies from sample to sample. However all the different combinations represent a uniform sampling of the genome.
+
+PLATFORM
+GPL17760 BlueGnome/Illumina 24sure v3.0
+
+CITATIONS
+Elizabeth Schaeffer, Bruno López-Bayghen, Adina Neumann, et al., “Whole Genome Amplification of Day 3 or Day 5 Human Embryos Biopsies Provides a Suitable DNA Template for PCR-Based Techniques for Genotyping, a Complement of Preimplantation Genetic Testing,” BioMed Research International, vol. 2017, Article ID 1209158, 10 pages, 2017. doi:10.1155/2017/1209158
+

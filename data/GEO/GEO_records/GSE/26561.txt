@@ -1,0 +1,18 @@
+TITLE
+Transcriptome-wide study of alternative splicing in nonsense-mediated mRNA decay-deficient mouse tissues
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A major task in analyzing alternative splicing (AS) by RNA-Seq is to explore and quantify the differential representation of various splice classes and the protein-coding potential of the mapped reads. To this end, we have generated a streamlined bioinformatic pipeline available to the scientific community, which maps RNA-Seq reads to a complex combinatorial database of exon-exon junctions for the unique junction discovery, PTC detection and identification of splice isoforms. Hence, we have incorporated a splice isoform inference and PTC detection algorithm, which facilitates a highly accurate mapping and prediction of splice isoform junctions and nonsense-mediated mRNA decay (NMD)-susceptibility. We used this pipeline to investigate the complexity of the transcriptome and global role of AS-NMD in vivo in mammalian cells, by taking advantage of our Upf2 conditional knock-out mouse. Using tissue-specific Cre deleter strains, we have previously demonstrated in vivo that NMD acts to degrade many transcripts that results from AS. Also, ablating UPF2 (a core NMD factor) in the mouse leads to rapid mortality and collapse of most organs tested (Thoren et al., 2010; Weischenfeldt et al., 2008), suggesting an essential function for NMD in AS. To explore the effect of NMD on global splicing and to generate and validate an attractive bioinformatic pipeline for the scientific community to study AS and NMD, we chose to analyze two different mammalian organ systems with distinct phenotypes upon UPF2 ablation to test the robustness and dynamic range of the analysis. In one end of the spectrum, we chose to analyze the liver, wherein removal of UPF2 results in failure in liver metabolism and a high mortality rate (Thoren et al., 2010). To profile a less affected tissue, we chose to analyze bone marrow-derived macrophages (BMMs). These are macrophages that differentiate in vitro and Upf2 deleted BMMs are completely devoid of NMD activity but nevertheless show no morphological or functional phenotype compared to wild-type controls (Weischenfeldt et al., 2008). Thus, we were able to make a direct comparison between these two tissues to demonstrate the potency of our Isoform and PTC detection pipeline described below, which will allow the scientific community to analyze transcriptome data for global AS and NMD-susceptibility.
+
+DESIGN
+Examination of UPF2 WT vs. KO in two different murine tissues (liver, bone marrow-derived macrophages).
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+22624609
+

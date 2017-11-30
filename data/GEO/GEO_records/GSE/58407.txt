@@ -1,0 +1,18 @@
+TITLE
+Foxd3 binding at enhancers controls developmental timing of gene expression by regulation of histone acetylation [ChIP-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcription factor/enhancer interactions determine cell specific gene expression.  Here, we followed enhancers during differentiations of embryonic stem (ESCs) to epiblast like cells (EpiLCs).  There were highly dynamic changes in histone lysine 27 acetylation at enhancer sites throughout the genome. These sites were enriched for a Foxd3 binding motif, a forkhead transcription factor essential in early embryonic development. Surprisingly, Foxd3 occupied largely mutually exclusive sites in the ESCs versus EpiLCs. Foxd3 bound to nucleosome occupied regions, simultaneously evicting the histones while inhibiting full gene expression through the recruitment of histone deacetylases. Knockout of Foxd3 resulted in hyperacetylation and transcriptional upregulation of neighboring genes, many of which were further upregulated at later stages of differentiation. These data show that Foxd3 primes enhancer sites during pregastrulation by removing nucleosomes, yet suppresses neighboring histone hyperacetylation. Such a mechanism may be common to many transcription factors that prepare enhancers for later gene activation during development.
+
+DESIGN
+ChIP-seq of H3K4me1, H3K27ac, H3K27me3, p300, H3K4me3, RNA Pol2 and Oct4 in four pluripotent states: embryonic stem cells (ESCs) day 1 ESC differentiation, Epi-like stem cells (EpiLCs), and epiblast stem cells (EpiSCs); ChIP-seq of 3XFlag tagged Foxd3 in ESCs and EpiLCs; ChIP-seq of H3K4me1, H3K27ac, H3K27me3, p300 and H3K4me3 in Foxd3 conditional knockout cells (tamoxifen-inducible) -/+ 36h Tamoxifen treatemnt. ChIP seq of Flag-Foxd3 (third replicate), ChIP-seq of HDAC1 and Brg1 in WT and Foxd3 KO cells and MNase-ChIP-seq of H3K4me1
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

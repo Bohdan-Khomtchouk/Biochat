@@ -1,0 +1,18 @@
+TITLE
+Interleukin-7 co-ordinates proliferation, differentiation and TCRA recombination during thymocyte β-selection
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We used Illumina global gene expression profiling to compare IL7-regulated pathways in post-beta-selected DN3b and DN4 versus pre-beta-selected DN3a cell stages. We found that IL7 induced fewer genes in both DN3b and DN4 cells (800 and 300 respectively, versus 1800 in DN3a). We found several direct JAK/STAT target genes were significantly induced in all 3 stages. This group included Bcl2 and Cish, Socs2 and Socs3, feedback regulators of JAK-STAT signaling, as well as Pim1, Tfrc (Cd71) and Ccnd2. Thus, in addition to inducing survival genes, here we show that IL7 acutely regulates expression of trophic receptors and cell cycle regulators in pre- and post-beta-selection DN thymocytes.
+
+DESIGN
+DN3a, DN3b and DN4 thymocytes were sorted from Il7r+/+ mice (4 independent sorts), rested for 1h at 370 C in a humidified atmosphere with 5% CO2, and then left untreated or stimulated with IL7 (10 ng/ml, Stem Cell Technologies) for 3h before isolating total cellular RNA using the RNeasy isolation kit (Qiagen). Quality control and quantitation was done on a Bioanalyzer 2100 (Agilent). Genome-wide expression profiling was carried out using Illumina mouse Ref8v2 beadchips according to standard protocols at The Centre for Applied Genomics (TCAG, www.tcag.ca) core facility at the Hospital for Sick Children. Data processing and other statistical analyses were performed using R Bio-conductor 2.13.0. Raw signals from 25697 probes were pre-processed to perform background subtraction, quantile normalization and log2 transformation before using moderated T-tests within Bioconductor package Limma (Linear Models for Microarray Data). Empirical Bayes smoothing was applied to the standard errors. Paired T-tests were used to identify IL7-induced changes in gene expression in each subset and the false discovery rate (FDR) was estimated using the Benjamini-Hochberg method to correct for multiple testing. Pearson correlations showed that technical replicates showed very high correlations between chips. For genes that were represented by multiple probesets on the array, we selected the ones with the highest ANOVA F-statistics (lowest FDR-adjusted q-value).
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+25729925
+

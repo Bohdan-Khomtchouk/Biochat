@@ -1,0 +1,18 @@
+TITLE
+AltitudeOmics gene expression data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Acclimatization to high altitude over 21 days, and upon re-ascent 7 and 21 days post-descent. See Subudhi et al. (2014) PLoS One 9(3):e92191, PMCID PMC3962396, PMID 24658407 for experiment details.
+
+DESIGN
+112 total samples representing 21 subjects at 7 time points (not all subjects represented at all time points) were taken. Significance was determined by change vs. baseline (sea level). Genes represented by probesets showing significant change vs. baseline (Benjamini-Hochberg FDR q-value less than or equal to 0.01) at any time point were subject to WGCNA clustering.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+hnRNPK knock down in Ewing cell line
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Ewing sarcoma is a highly aggressive tumor characterized by a translocation between members of the FET family of RNA binding proteins and one of several ETS transcription factors, with the most common translocation being EWS-FLI1. EWS-FLI1 leads to changes in gene expression through mechanisms that are not completely understood. We performed RNA sequencing analysis on primary pediatric human mesenchymal progenitor cells (pMPCs) expressing EWS-FLI1 in order to identify novel target genes. This analysis identified lnc277 as a previously uncharacterized long non-coding RNA upregulated by EWS-FLI1 in pMPCs. Inhibiting the expression of lnc277 diminished the ability of Ewing sarcoma cell lines to proliferate and form colonies in soft agar whereas inhibiting lnc277 had no effect on other cell types tested. By analyzing gene expression after shRNA knockdown, we found that both EWS-FLI1 and lnc277 repressed many more genes that they induced and that a significant fraction of EWS-FLI1 repressed targets were also repressed by lnc277. Analysis of primary human Ewing sarcoma RNA sequencing data further supports a role for lnc277 in mediating gene repression. We identified hnRNPK as an RNA binding protein that interacts directly with lnc277. We found a significant overlap in the genes repressed by hnRNPK and those repressed by both EWS-FLI1 and lnc277, suggesting that hnRNPK participates in lnc277 mediated gene repression. Thus, lnc277 is a previously uncharacterized long non-coding RNA downstream of EWS-FLI1 that facilitates the development of Ewing sarcoma via the repression of target genes. Our studies identify a novel mechanism of oncogenesis downstream of a chromosomal translocation and underscore the importance of lncRNA-mediated gene repression as a mechanism of EWS-FLI1 transcriptional regulation.
+
+DESIGN
+A673 Ewing cells expressing an shRNA targeting hnRNPK or control were subjected to paired end RNA sequencing and compared to shGFP control.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Identification of functional interactions through integration and systems analysis of matched gene and microRNA expression data across the Ludwig-Melbourne Melanoma (LM-MEL) Cell Line Panel
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs contribute to metastatic progression in many cancers by modulation of phenotypic reprogramming processes such as epithelial-mesenchymal plasticity. However, it remains challenging to identify microRNA-mRNA interactions of functional significance at endogenous expression levels. The LM-MEL cell line panel comprises a large set of unique melanoma cell lines derived from largely metastatic melanoma tumours, as described in Behren et al, PCMR 2013 26(4):597-600 (PMID 23527996). For this study, 57 of the cell lines underwent matched gene expression (Illumina HT12v4 microarray) and small RNASeq (Illumina HiSeq) profiling in unperturbed conditions, generating a large dataset of matched gene and microRNA abundance data which was integrated with available phenotypic annotations covering several conditions of biological interest. We developed a novel systems analysis workflow to identify putative regulatory interactions suitable for subsequent validation.
+
+DESIGN
+Small RNA profiling of 57 cell lines of the LM-MEL panel using the Illumina HiSeq platform, with miRNA profiling performed subsequently using the miRanalyzer webserver interface ( http://bioinfo5.ugr.es/miRanalyzer/miRanalyzer.php )
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27852308
+

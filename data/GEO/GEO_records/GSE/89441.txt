@@ -1,0 +1,18 @@
+TITLE
+Systematic analysis of chromatin interactions at disease associated loci links novel candidate genes to inflammatory bowel disease
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Genome wide association studies (GWASs) have revealed many susceptibility loci for complex genetic diseases. For most loci the causal genes have not been identified. The identification of candidate genes is currently mainly based genes that localize close to or within the identified loci. We have recently shown that 92 of the 163 Inflammatory Bowel Disease (IBD)-loci co-localize with noncoding DNA regulatory elements (DRE). Mutations in DRE can contribute to the pathogenesis of IBD through dysregulation of gene expression.  Consequently, genes that are regulated by these 92 DRE are to be considered as candidate genes. We developed a novel approach for candidate gene identification that is based on DNA regulatory mechanisms.Results: By using circular chromosome conformation capture-sequencing (4C-seq), we have identified genomic regions that physically interact with the 92 DRE that were found at IBD susceptibility loci. Since the activity of regulatory elements is cell type specific, 4C-seq was performed in monocytes, lymphocytes and intestinal epithelial cells. Altogether, we identified 902 novel IBD candidate genes. These genes include genes specific for one of the IBD subtypes and many noteworthy genes like ATG9A and IL10RA. We show that the expression of many novel candidate genes is genotype dependent and that these genes are upregulated during intestinal inflammation in IBD. Pathway analyses further identified HNF4α as a potential key upstream regulator of the IBD candidate genes.Conclusions: In this study, 4C-seq is used to systematically analyze chromatin interactions at IBD susceptibility loci that localize to regulatory DNA We reveal many novel and relevant IBD candidate genes, pathways and regulators.  Our approach complements classical candidate gene identification, links novel genes to IBD and can be applied to any existing GWAS data.
+
+DESIGN
+92 individual 4C-seq datasets in human monocytes, lymphocytes and DLD cell line. Lymphocyte dataset consists from two biological replicates.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27903283
+

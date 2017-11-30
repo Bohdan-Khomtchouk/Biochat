@@ -1,0 +1,18 @@
+TITLE
+High-throughput identification of miRNA targets using CLASH (crosslinking, ligation and sequencing of hybrids)
+
+ORGANISM
+Saccharomyces cerevisiae ; Homo sapiens
+
+SUMMARY
+Purpose: Identification of miRNA-mRNA interactions in human cells. Method: We used the CLASH technique with PTH-tagged AGO1 protein as a bait. Results: In 6 experiments we identified more than 18,000 miRNA-mRNA  interactions in human HEK293 cells, corresponding to targets of 399 miRNAs. Conclusions: The binding of most miRNAs includes the 5' seed region, but around 60% of seed interactions are noncanonical, containing bulged or mismatched nucleotides. Moreover, seed interactions are generally accompanied by specific, non-seed basepairing. 18% of miRNA-mRNA interactions involve the miRNA 3' end, with little evidence for 5' contacts, and some of these were functionally validated. Analyses of miRNA:mRNA basepairing showed that miRNA species systematically differ in their target RNA interactions, and strongly overrepresented motifs were found in the interaction sites of several miRNAs. We speculate that these affect the response of RISC to miRNA-target binding.
+
+DESIGN
+6 samples (E1-E6) were prepared with comparable but not identical protocols, described in more detail in Helwak et al. Cell 2013. Samples E7-E10 were used for the determination of the background of the method resulting from RNA-RNA interactions formed after cell lysis.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL15520 Illumina MiSeq (Homo sapiens) GPL17658 Illumina MiSeq (Homo sapiens; Saccharomyces cerevisiae)
+
+CITATIONS
+23622248
+

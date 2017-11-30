@@ -1,0 +1,18 @@
+TITLE
+IMPACT: Unraveling intracellular signal transduction and pathway crosstalk by exploring pathway landscape
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Understanding complicated modularization and crosstalk of intracellular signal transduction pathways holds the key to battle against drug resistance in human cancer research. We propose an integrative approach, namely Inferring Modularization of PAthway CrossTalk (IMPACT), to identify aberrant pathway modules and their between-module crosstalk by exploring pathway landscape that is reconstructed from a sampling strategy. The pathway identification method (i.e., IMPACT) was applied to breast cancer data to uncover aberrant pathway modules, which were further investigated with cell line studies to understand drug resistance in breast cancer. The patient datasets we mentioned are published and are available in the GEO database as GSE6532 and GSE17705. The re-processed GSE6532 and GSE17705 patient datasets are linked below as supplementary files. The GSE6532_matrix.txt and GSE17705_matrix.txt are processed by Affy Gene console with plier as normailization. But importantly, we also used 'Combat' method ( http://www.bu.edu/jlab/wp-assets/ComBat/Abstract.html ) to remove potential institutional batch effect.
+
+DESIGN
+Four MCF7 derived cell models were included in the study: MCF7-STR, MCF7RR-STR, LCC1 and LCC2 cell lines. MCF7-STR and MCF7RR-STR were grown in phenol red-free IMEM supplemented with 5% charcoal-stripped calf serum and 1nM estradiol for 72 h prior to RNA extraction. LCC1 and LCC2 cells were grown in phenol red-free IMEM supplemented with 5% charcoal-stripped calf serum. The cell line data were used to validate computational results derived from patient datasets.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

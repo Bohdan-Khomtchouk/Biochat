@@ -1,0 +1,18 @@
+TITLE
+Cross-platform correlation analysis of global microRNA expression technologies
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Two reference pools comprised of different miRNA content were hybridized to four different miRNA microarray platforms (Agilent, LC Sciences, Exiqon and a homemade chip (generated from an Inviteogen Ncode probeset)) This dataset includes the reference samples on the Agilent miRNA array. Keywords: miRNA
+
+DESIGN
+Two reference pools were created from commercially available reference RNA (FirstChoice® mouse Total RNA including the small fraction (Catalogue # AM7800-AM7828, Ambion, Streetsville, ON)). Reference #1 contained equal parts of mouse testicle, ovary and 10-12 day embryo. Reference #2 contained liver, heart and lung. These references were hybridized to four different miRNA microarray platforms (two in two colour, two in one-colour, with 4 replicates each). Data from each platform were normalized by cyclic lowess and analysed by correlation analyses both within and between platforms.
+
+PLATFORM
+GPL7723 miRCURY LNA microRNA Array, v.11.0 - hsa, mmu & rno GPL8530 LC_MRA-1002_miRMouse_13.0_090309 GPL8824 Agilent-019119 Mouse miRNA Microarray 1.0 G4472A (miRNA ID version) GPL9838 NCode Multi-Species miRBase Microarray V2
+
+CITATIONS
+20504329
+

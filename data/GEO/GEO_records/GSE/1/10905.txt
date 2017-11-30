@@ -1,9 +1,0 @@
-TITLE
-Profiling BRCA1, BRCA2 and non-BRCA1/2 LCLs post-Irradiation
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-The functional consequences of missense variants in disease genes are difficult to predict. We assessed if gene expression profiles could distinguish between BRCA1 or BRCA2 pathogenic truncating and missense mutation carriers and familial breast cancer cases whose disease was not attributable to BRCA1 or BRCA2 mutations (BRCAX cases). 72 cell lines from affected women in high-risk breast-ovarian families were assayed after exposure to ionising irradiation, including 23 BRCA1 carriers, 22 BRCA2 carriers, and 27 BRCAX individuals. A subset of 10 BRCAX individuals carried rare BRCA1/2 sequence variants considered to be of low clinical significance (LCS). BRCA1 and BRCA2 mutation carriers had similar expression profiles, with some subclustering of missense mutation carriers. The majority of BRCAX individuals formed a distinct cluster, but BRCAX individuals with LCS variants had expression profiles similar to BRCA1/2 mutation carriers. Gaussian Process Classifier predicted BRCA1, BRCA2 and BRCAX status with a maximum of 62% accuracy, and prediction accuracy decreased with inclusion of BRCAX samples carrying an LCS variant, and inclusion of pathogenic missense carriers. Similarly, prediction of mutation status with gene lists derived using Support Vector Machines was good for BRCAX samples without an LCS variant (82-94%), poor for BRCAX with an LCS (40-50%), and improved for pathogenic BRCA1/2 mutation carriers when the gene list used for prediction was appropriate to mutation effect being tested (71-100%). This study indicates that mutation effect, and presence of rare variants possibly associated with a low risk of cancer, must be considered in the development of array-based assays of variant pathogenicity. Keywords: cell type comparison, stress response
-

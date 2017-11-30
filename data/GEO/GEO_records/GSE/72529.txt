@@ -1,0 +1,18 @@
+TITLE
+Mapping the Landscape of a Eukaryotic Degronome
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Maintenance of cellular protein homeostasis requires controlled temporal and spatial protein degradation as well as the continuous removal of damaged proteins. Despite our detailed knowledge of the cellular proteolytic network, little is known about sequence and structural determinants that target proteins for elimination (termed “degrons”). Here we introduce a systematic approach to map degrons, either native or out-of-frame. We use a reporter-based high throughput degron competition assay, followed by deep sequencing analysis, to quantitatively evaluate the degradation potency of thousands of polypeptides originating from the yeast genome (degronome). We show that our assay is quantitative and recapitulates relative degradation rates in vivo. By applying our assay in cells with deletion of the E3 ligase Doa10p, we identify specific targets in a principal branch of the ubiquitin-mediated protein quality control (PQC) pathway. We further compare nuclear and cytosolic specific degrons and identify substantial variations between the degradation signals in these respective cellular compartments. Our results provide the first comprehensive map of the yeast degronome and identify hundreds of degradation signals that reside within open reading frames of native proteins. Based on the versatility and robustness of the system described herein we anticipate that it can be utilized in more complex in vivo studies in eukaryotic cells aimed at better understanding how proteolysis regulates various cellular functions.
+
+DESIGN
+Mid-log yeast mRNA was purified, reverse transcribed to cDNA and cleaved using a 4-cutter (Sau3AI). The resulting fragments were cloned into the c-terminus of a URA3-HA-GFP reporter. Each of the resulting fragments was randomly inserted into one of the three possible translation frames, followed immediately by a stop codon. Plasmids from this library were transformed into ~5x106 yeast colonies (Leu selection). These were harvested into a single flask and kept in plasmid-selective conditions with 5FOA for the duration of the experiment. Yeast samples were drawn at indicated time points and plasmid DNA was amplified using specific primers followed by high-throughput sequencing.
+
+PLATFORM
+GPL17143 Illumina MiSeq (Saccharomyces cerevisiae) GPL19756 Illumina NextSeq 500 (Saccharomyces cerevisiae)
+
+CITATIONS
+27618491
+

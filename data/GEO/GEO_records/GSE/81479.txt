@@ -1,0 +1,18 @@
+TITLE
+HSF1-expression: Molecular mechanisms that distinguish TFIID housekeeping from regulatable SAGA promoters
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+An important distinction is frequently made between constitutively expressed housekeeping genes versus regulated genes. Although generally characterized by different DNA elements, chromatin architecture and cofactors, it is not known to what degree promoter classes strictly follow regulatability rules and which molecular mechanisms dictate such differences. We show that SAGA-dominated/TATA-box promoters are more responsive to changes in the amount of activator, even compared to TFIID/TATA-like promoters that depend on the same activator Hsf1. Regulatability is therefore an inherent property of promoter class. Further analyses show that SAGA/TATA-box promoters are more dynamic because TBP recruitment through SAGA is susceptible to removal by Mot1. In addition, the nucleosome configuration upon activator depletion shifts on SAGA/TATA-box promoters and seems less amenable to preinitiation complex formation. The results explain the fundamental difference between housekeeping and regulatable genes, revealing an additional facet of combinatorial control: an activator can elicit a different response dependent on core promoter class.
+
+DESIGN
+The genotype of yeast strains was modified for nuclear depletion experiments as follows: By4742-aa : tor1-1; fpr1del; RPL13A-FKBP12-NAT;MET15;his3-1;leu2; lys2; ura3; matalpha. Hsf1-aa: Hsf1-FRB-yEGFP. Hsf1 was depleted from the nucleus by adding either 7.5 uM (standard) or 0.15 uM (slow) rapamycin to the cells. Newly synthesized mRNA were extracted using 4tU labeling at different time points: before (0 min) and 15, 30, 60 and 90 minutes after Hsf1 depletion. mRNA synthesis rates were measured using two-channel microarrays. Two independent cultures were hybridized on two separate microarrays. For the first hybridization, the Cy5 (red) labeled cRNA from the WT-aa or Hsf1-aa strain is hybridized together with the Cy3 (green) labeled cRNA from a (4tU-)refpool. This 4tU-refpool was created by pooling 4tU labeled mRNA from two independently grown WT-aa strains without addition of rapamycin. For the replicate hybridization of the slow depletion timecourse, the labels are swapped.
+
+PLATFORM
+GPL11232 A-UMCU-Y16k-1.3
+
+CITATIONS
+27979920
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide identification of binding sites for NAC and YABBY transcription factors and co-regulated genes during soybean seedling development by ChIP-Seq and RNA-Seq.
+
+ORGANISM
+Glycine max
+
+SUMMARY
+In order to dissect the gene regulatory network during the functional transition of cotyledons from non-photosynthetic storage tissue to metabolically active photosynthetic tissue, we constructed ChIP-Seq libraries for NAC and YABBY transcription factors using pooled cotyledons from seedling developmental stage 4 and stage 5.  Millions of raw reads obtained from ChIP-Seq libraries were aligned to the reference soybean genome using the ultrafast Bowtie aligner to obtain quantitative data for genome matched reads. MACS software was used to call peaks representing enriched binding sites for NAC and YABBY transcription factors. Based on our ChIP-Seq data, we identified 72 genes are potentially regulated by NAC transcription factor and 96 genes by YABBY transcription factor. The motif analysis using MEME discovered three separate motifs for the NAC and YABBY transcription factors. For the NAC transcription factor, three commonly found motifs were G[AT]G[AG]G[AG]GA, C[AC]C[GA][TC][GA]CC and TGGGCC . The first one matched to a known zinc finger motif and the last two were identified as leucine zippers in the database of plant transcription factor binding motifs, JASPAR CORE plants. Similarly the three most commonly found motifs for YABBY transcription factors are CC [CA][TC]C[TA][CT]C, GA[AG]AGAAA and CCCCAC . The first two motifs matched to a known zinc finger motif and the last one was an AP2 MBD-like motif.
+
+DESIGN
+Construction of ChIP-Seq libraries for NAC and YABBY transcription factors using germinating cotyledons from seedling developmental stages
+
+PLATFORM
+GPL15008 Illumina HiSeq 2000 (Glycine max)
+
+CITATIONS
+23865409
+

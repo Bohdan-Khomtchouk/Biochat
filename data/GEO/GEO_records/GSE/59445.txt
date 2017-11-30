@@ -1,0 +1,18 @@
+TITLE
+Whole Genome Expression Profiling shows that BRG1 Transcriptionally Regulates UV Inducible Genes and other Novel Targets in Human Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BRG1, an ATPase catalytic subunit of the SWI/SNF chromatin remodeling complex, has been identified as a tumor suppressor protein, as it has been shown to play a role in Nucleotide Excision Repair (NER) of CPDs, suppress apoptosis, and restore checkpoint deficiency, in response to UV exposure.   Although BRG1 has been shown to regulate transcription of some genes that are instrumental in proper DNA damage repair and cell cycle maintenance in response to UV, its role in transcriptional regulation of the whole genome in response to UV has not yet been elucidated.  With whole genome expression profiling in SW13 cells, we show that upon UV induction, BRG1 regulates transcriptional expression of many genes involved in cell stress response.  Additionally, our results also highlight BRG1’s general role as a master regulator of the genome, as it transcriptionally regulates approximately 4.8% of the human genome, including expression of genes involved in many pathways.
+
+DESIGN
+SW13 cells without or with BRG1 protein exrpession were treated with UV-C (10 J/m2) or mock treated. Cells were incubated for 6 hrs after UV or mock treaments, total RNA was prepared using TRIZOL reagent (Invitrogen, Carlsbad, CA), followed by the RNeasy kit (Qiagen, Valencia, CA), according to the manufacturer’s instructions. Three independent biological replicates of SW13+pREP7 and SW13+pREP7+BRG1 were subjected to microarray analysis using Affymetrix U133 plus 2.0 gene chip. Target synthesis and GeneChip hybridization, washing, staining, and scanning were performed at the Molecular Biology Core at Washington State University. Microarray output was examined visually for excessive background noise and physical anomalies. The default MAS statistical values were used for all analyses. All probe sets on each array were scaled to a mean target signal intensity of 125, with the signal correlating to the amount of transcript in the sample. An absolute analysis using MAS was performed to assess the relative abundance of the 47,000 represented transcripts and variants, including 38,500 human genes, based on signal and detection
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25157878
+

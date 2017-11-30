@@ -1,0 +1,18 @@
+TITLE
+Exon expression for NCI Sarcoma cell line panel
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Characterization of 68 cell lines derived from human sarcoma and 5 normal counterpart cells,  including drug sensitivity testing, gene expression profiling and microRNA expression profiling have been completed. Data and tools for searching these data will be made publicly available through the NCI Developmental Therapeutics Program. The raw data (.cel files ) are  provided through the GEO website. Sarcoma represents a variety of cancers at arise from cells of mesenchymal origin and have seen limited treatment advances in the last decade. Drug sensitivity data coupled with the transcription and microRNA profiles of a cohort of sarcoma cell lines may help define novel treatment paradigms.
+
+DESIGN
+For each cell line, exon expression was measured using Genechip Human Exon 1.0 ST arrays from Affymetrix, interrogating > 1 million exon clusters, to provide comprehensive coverage of the entire genome at the exon and gene expression level. Please note that there are 2 replicates included in the study: Arrays 1 (GSM1676295) and 49 (GSM1676338) are replicates of the A-204 cell line Arrays 9 (GSM1676369) and 50 (GSM1676340) are replicates of the ES-4 cell line The sample titles represent are the cell line names (e.g. A-204, EW8 etc.). The drug screening data and details are provided in the 'NCI-Sarcoma-median-log10-IC50.csv' and 'drug_screening_readme.txt', respectively.
+
+PLATFORM
+GPL11028 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [HuEx-1_0-st-v2,coreR3,A20071112,EP.cdf]
+
+CITATIONS
+26351324
+

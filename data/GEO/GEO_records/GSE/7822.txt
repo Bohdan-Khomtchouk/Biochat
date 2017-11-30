@@ -1,0 +1,18 @@
+TITLE
+A comparison of DNA copy number profiling platforms using a panel of melanoma cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The accurate mapping of recurring DNA copy number aberrations (CNAs), a hallmark feature of the cancer genome, has facilitated the discovery of tumor suppressor genes and oncogenes.  Microarray-based assays designed to detect these chromosomal copy number alterations on a genome-wide and high-resolution scale have emerged as a cornerstone technology in the genomic era.   The diversity of commercially-available platforms prompted a systematic comparison of five copy number profiling assays for their ability to detect 2-fold copy number gain and loss (4n or 1n, respectively) as well as focal high-amplitude CNAs.   Here, using a collection of established human melanoma cell lines, we defined the reproducibility, absolute signals, signal:noise, false-positive and false-negative rates for each of the five assays against ground-truth defined by Spectral Karyotyping (SKY), in addition to comparing the concordance of CNAs detection by two high-resolution Agilent and Affymetrix microarray platforms.  Our analyses concluded that the Agilent’s 60mer oligo-microarray with probe design optimized for genomic hybridization offers the highest sensitivity and specificity [area under Receiver Operator Characteristic (ROC) curve > 0.99] while Affymetrix’s SNP microarray appears to offer better detection of CNAs in gene-poor region.  Availability of these comparison results should guide study design decisions and facilitate further computational development. Keywords: comparative genomic hybridization
+
+DESIGN
+We generated copy number profiles of a defined set of tumor cell lines on five oligo-microarray-based assays of three platforms (Agilent, Affymetrix and NimbleGen) and determined the reproducibility, signal and noise as well as sensitivity and specificity of each in detecting two-fold signals based on SKY-defined aberrations as ground-truth for comparison.  In addition, high-density microarray assays from Agilent and Affymetrix platforms were further compared for definition of CNAs in an independent dataset using published analytical approaches.  All arrays were run from the same DNA harvest from respective cell lines.  Each array was run according to the protocol of the manufacturer.
+
+PLATFORM
+GPL2004 [Mapping50K_Hind240] Affymetrix Human Mapping 50K Hind240 SNP Array GPL2005 [Mapping50K_Xba240] Affymetrix Human Mapping 50K Xba240 SNP Array GPL2879 Agilent-013282 Human Genome CGH Microarray 44B (Feature number version) GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array GPL4091 Agilent-014693 Human Genome CGH Microarray 244A (Feature number version) GPL5144 Nimblegen Homo sapiens 4 array Tiling Set GPL5149 Agilent Homo sapiens 185K array
+
+CITATIONS
+17968032 , 19671800
+

@@ -1,0 +1,18 @@
+TITLE
+H3K36 methylation promotes longevity by enhancing transcriptional fidelity [ChIP-Seq]
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Epigenetic mechanisms including histone post-translational modifications control longevity in diverse organisms. Relatedly, loss of proper transcriptional regulation on a global scale is an emerging aspect of shortened lifespan, but the specific mechanisms linking these observations remain to be uncovered. Here, we describe a lifespan screen in S. cerevisiae, designed to identify altered amino acid residues of histones that alter yeast replicative aging. Our results reveal that lack of sustained H3K36 methylation is commensurate with increased cryptic transcription in a set of genes in old cells and shorter lifespan. Deletion of the K36me2/3 demethylase Rph1 increases H3K36me3 within these genes and suppresses cryptic transcript initiation to extend lifespan. We show that this aging phenomenon is conserved, as cryptic transcription also increases in old worms. We propose that epigenetic misregulation in aging cells leads to an increase in transcriptional noise that is detrimental to lifespan, and, importantly, this acceleration in aging can be reversed by restoring transcriptional fidelity.
+
+DESIGN
+This study examines H3K36me3 in yeast aging using a WT or Rph1 mutant background over a sequence of time-dependent FACS sorts of old cells. There are three sorts: S2Y (young yeast), S2O or S3O (both old yeast). The study has two replicates, F1 and F2. F2 is the combination of two flowcells of sequenced tags. For each sample, we sequenced H3K36me3, H3, and input, and we use H3 as a sonication efficiency normalization in the associated study.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae) GPL19756 Illumina NextSeq 500 (Saccharomyces cerevisiae)
+
+CITATIONS
+26159996
+

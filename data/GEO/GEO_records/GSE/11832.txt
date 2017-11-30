@@ -1,0 +1,18 @@
+TITLE
+naive/activated ANOVA group
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In order to identify genes with differential gene expression or alternative splicing between the groups naive and activated we study 4 hybridizations on the Human Exon 1.0 ST array using mixed model analysis of variance.  1904 genes with significant gene expression differences between the groups and 1603 genes with significant exon-group interaction (a symptom of alternative splicing) were found, including 427 genes with both gene and possible splicing differences (p < 0.01).  Contingency table analysis of the set of studied genes and a dataset of known pathways and gene classifications revealed that the set of alternatively spliced and expressed genes were found to be significantly over-represented in groups of the GOMolFn, GOProcess, GOCellLoc, and Pathway classes  (p < 0.01). Algorithm ANOVA study of 4 Human Exon 1.0 ST files.
+
+DESIGN
+Factorial arrangment
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+18669861
+

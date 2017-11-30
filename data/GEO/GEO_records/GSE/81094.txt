@@ -1,0 +1,18 @@
+TITLE
+A Method for High-throughput Production of Sequence-verified DNA Libraries and Strain Collections
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The low costs of array-synthesized oligonucleotide libraries are empowering rapid advances in quantitative and synthetic biology. Unfortunately, high synthesis error rates, uneven representation, and lack of access to individual oligonucleotides limit the true potential of these libraries. We have developed a cost-effective method called Recombinase Directed Indexing (REDI) to address these problems. The method involves integration of a complex library into yeast, site-specific recombination to index (i.e. barcode) library DNA, and then next-generation sequencing to identify clones containing the DNA of interest. We used REDI to generate a molecular probe library (n = ~3,300) that exhibited > 96% purity and remarkable uniformity ( > 95% of probes were within 2-fold relative abundance of the median). Moreover, each sequence-verified probe was readily accessible. We also used REDI to rapidly create an arrayed collection of ~9,000 strains for CRISPR interference in yeast and demonstrate the utility of this collection for highly sensitive phenotypic screening. Our approach will enable a variety of applications requiring accurate, high-quality DNA libraries.
+
+DESIGN
+102 samples, some of which are replicates.
+
+PLATFORM
+GPL17143 Illumina MiSeq (Saccharomyces cerevisiae)
+
+CITATIONS
+28193641
+

@@ -1,0 +1,18 @@
+TITLE
+Single-cell indexed RNA-Seq of human hematopoietic stem and progenitors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To characterize early human hematopoiesis on a single-cell level we developed an approach termed index-omics, which combines flow-cytometric, single-cell transcriptomic and single-cell lineage fate data. Healthy human bone marrow was labeled with a panel of up to 11 FACS surface markers commonly used to identify human hematopoietic stem and progenitor cells (HSPCs). Lin-CD34+38+ progenitors and Lin-CD34+CD38- stem cell enriched HSPCs were individually sorted, their surface marker fluorescence intensities recorded, and subjected to single-cell RNAseq or single-cell ex vivo cultures.
+
+DESIGN
+For transcriptomics, human bone marrow was stained with antibodies against Lineage markers (CD4, CD8, CD11b, CD14, CD19, CD20, CD56 and CD235a), CD7, CD10, CD34, CD38, CD45RA, CD49f, CD90 and CD135. For individual 1, 8 96-well plates of Lin-cd34+cd38+ and 6 96 well plates of Lin-cd34+cd38- cells were sorted into lysis buffer and subjected to a modified smart-seq2 protocol. For individual 2, 4 96-well plates of Lin-cd34+cd38+, 7 plates of Lin-cd34+cd38- and 1 plate of Lin-cd34+cd38-cd45RA-cd90+ were sorted into lysis buffer and subjected to QUARTZ Seq (Sasagawa et al 2013). For single-cell culture, human bone marrow from a third individual was stained with antibodies against CD2, CD34, CD38, CD45RA, CD71, CD90, CD130, CD135, FCER1A, KEL and a Lineage cocktail as above, plus CD10. Lineage output was then determined by automated FACS following prolonged ex-vivo cultivation. The files transcriptomics_raw_filtered_I1.csv and transcriptomics_raw_filtered_I2.csv contain the raw read counts for the cells that passed quality control. transcriptomics_normalized_filtered_I1.csv and transcriptomics_raw_filtered_I2.csv contain the readcounts normalized by posterior odds ratio (POR) as described in our manuscript. The files transcriptomics_facs_indeces_filtered_I1.csv and transcriptomics_facs_indeces_filtered_I2.csv contain the FACS surface marker expression for the cells that passed filter. Additionally, FACS surface marker expression is given as a characteristic of each sample. The file culture_data.csv contains the FACS surface marker expression, quantification of cell types in the mature colony, and scoring of colony type of the cells that were subjected to ex-vivo culture.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28319093
+

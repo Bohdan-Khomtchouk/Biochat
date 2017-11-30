@@ -1,0 +1,18 @@
+TITLE
+siPools: highly complex but accurately defined siRNA pools eliminate Off-target effects (HuGene-2_0)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Short interfering RNAs (siRNA) are widely used as tool for gene inactivation in basic research and therapeutic applications. One of the major shortcomings of siRNA experiments are sequence-specific Off-target effects. Such effects are largely unpredictable because siRNAs can affect partially complementary sequences and function like microRNAs (miRNAs), which inhibit gene expression on mRNA stability or translational levels. Here we demonstrate that novel, enzymatically generated siRNA pools - referred to as siPools - containing up to 60 accurately defined siRNAs eliminate Off-target effects. This is achieved by the low concentration of each individual siRNA diluting sequence-specific Off-target effects below detection limits. In fact, whole transcriptome analyses reveal that single siRNA transfections can severely affect global gene expression. However, when complex siRNA pools are transfected, almost no transcriptome alterations are observed. Taken together, we present enzymatically-produced complex but accurately defined siRNA pools with potent On-target silencing but without detectable Off-target effects.
+
+DESIGN
+dsRNA fragments of more than 30bp length may trigger interferon response in mammalian cells, depending on the cell type as well as length and concentration of the dsRNA. To demonstrate that complex siRNA pools (siPools) do not contain trace amounts of such longer dsRNA species and therefore do not trigger interferon response, MCF7 cells which exhibit sensitive interferon response, were transfected with a siPool targeting human SCYL1, consisting of 60 siRNA at a total siRNA concentration of 3nM. As positive control, MCF7 cells were transfected with an RNAseIII generated mixture of dsRNAs (esiRNAs) at equal concentration (weight/volume). Mock transfected cells served as negative control. Every sample was tested in biological triplicates. Total RNA was extract 48h after transfection for affimetrix expression analysis.
+
+PLATFORM
+GPL16686 [HuGene-2_0-st] Affymetrix Human Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24875475
+

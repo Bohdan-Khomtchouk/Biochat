@@ -1,0 +1,18 @@
+TITLE
+Differentiation state-specific mitochondrial dynamic regulatory networks are revealed by global transcriptional analysis of the developing chicken lens.
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+The mature eye lens contains a surface layer of epithelial cells called the lens epithelium that require a functional mitochondrial population to maintain the homeostasis and transparency of the entire lens.  The lens epithelium overlies a core of terminally differentiated fiber cells that must degrade their mitochondria to achieve lens transparency.  These distinct mitochondrial populations make the lens a useful model system to identify those genes that regulate the balance between mitochondrial homeostasis and elimination.  Here we used an RNA sequencing and bioinformatics approach to identify the transcript levels of all genes expressed by distinct regions of the lens epithelium and maturing fiber cells of the embryonic Gallus gallus (chicken) lens.  Our analysis detected over 15,000 unique transcripts expressed by the embryonic chicken lens.  Of these, over 3000 transcripts exhibited significant differences in expression between lens epithelial cells and fiber cells.  Multiple transcripts coding for separate mitochondrial homeostatic and degradation mechanisms were identified to exhibit preferred patterns of expression in lens epithelial cells that require mitochondria relative to lens fiber cells that require mitochondrial elimination.  These included differences in the expression levels of metabolic, autophagy, and mitophagy transcripts between lens epithelial cells and lens fiber cells. These data provide a comprehensive window into all genes transcribed by the lens and those mitochondrial regulatory and degradation pathways that function to maintain mitochondrial populations in the lens epithelium and to eliminate mitochondria in maturing lens fiber cells.
+
+DESIGN
+Differentiation-state transcriptional analysis of embryonic chicken lenses was performed following microdissection of 100 embryonic day 13 (E13) chicken lenses into four distinct regions that represent a continuum of lens cell differentiation states: lens central epithelium (EC), equatorial epithelium (EQ), cortical fibers (FP), and central fibers (FC).  Further analysis of the transcriptional content of biologically replicate samples was performed by Illumina directional mRNA sequencing and resulting reads mapped by TopHat and assembled with Cufflinks.
+
+PLATFORM
+GPL13797 Illumina Genome Analyzer IIx (Gallus gallus)
+
+CITATIONS
+24928582
+

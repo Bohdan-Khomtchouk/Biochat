@@ -1,0 +1,18 @@
+TITLE
+Differential gene expression in Jagged1 treated human dental pulp cells.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The present study aimed to determine mRNA expression profilling of indirect immobilized Jagged1 treated human dental pulp cells. Human dental pulp cells were seeded on indirect immobilized Jagged1 surface for 24 h. Cells on hFc immobilized surface was employed as the control. RNA sequencing was performed using NextSeq500, Illumina. Data were processed on FastQC and FastQ Toolkit and subsequently mapped with Homo sapiens hg38 using TopHat2. Mapped data were processed through Cufflink2 and Cuffdiff2. Results demonstrated 1,465 differentially expressed genes in Jagged1 treated cells compared with the control. Enriched pathway analysis revealed that Jagged1 treated cells upregulated genes mainly involved in extracellular matrix organization, disease, and signal transduction categories. However, genes related to cell cycle, DNA replication and DNA repair categories were downregulated. In conclusion, Jagged1 activates Notch signaling and regulates cell cycle pathway in hDPs.
+
+DESIGN
+The mRNA profiles of human dental pulp cells treated with indirect immobilized Jagged1 (10nM) for 24 h was evaluated by next genereation RNA sequencing (NextSeq 500, Illumina) in triplicates. Cells on hFc immobilized surface was used as the control. In some condition, cells were pretreated with a gamma secretase inhibitor (DAPT; 20 uM) for 30 mins prior to Jagged1 exposure.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+28860516
+

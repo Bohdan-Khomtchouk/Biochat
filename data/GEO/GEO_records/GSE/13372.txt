@@ -1,0 +1,18 @@
+TITLE
+High-resolution mapping of copy-number alterations with massively parallel sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In order to benchmark the reproducibility of Affymetrix Genome-Wide Human SNP Array 6.0 for detecting copy-number alterations, we performed replicate hybridizations of 3 tumor cell lines and 2 paired normal cell lines obtained from the American Type Culture Collection (ATCC). We calculated copy numbers at each SNP probeset by a custom copy-number pipeline (PMID: 18772890).  For each cell line, copy number data from replicate arrays are supplied in the accompanying matrix files.  For each SNP probeset, we calculated the median copy number across replicate arrays. We compared the copy-number alterations detected by Circular Binary Segmentation segmentation of these arrays with statistical analyses of short sequence reads obtained from the Illumina/Solexa 1G GenomeAnalyzer.  Shotgun sequencing results can be found in the NCBI Short Read Archive, accession number SRP000246 Keywords: disease state analysis
+
+DESIGN
+21 replicates of HCC1143 (breast ductal carcinoma), 21 replicates of HCC1143BL (matched normal), 13 replicates of HCC1954 (breast ductal carcinoma), 11 replicates of HCC1954BL (matched normal), 1 replicate of NCI-H2347 (lung adenocarcinoma), 1 replicate of NCI-H2347BL (matched normal)
+
+PLATFORM
+GPL6801 [GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array
+
+CITATIONS
+19043412
+

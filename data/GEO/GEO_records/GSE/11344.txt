@@ -1,0 +1,18 @@
+TITLE
+MADS: a New and Improved Method for Analysis of Differential Alternative Splicing by Exon-tiling Microarrays
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We describe a method, MADS (Microarray Analysis of Differential Splicing), for discovery of differential alternative splicing from exon tiling microarrays. MADS incorporates a series of low-level analysis algorithms motivated by the “probe-rich” design of exon arrays, including background correction, iterative probe selection, and removal of sequence-specific cross-hybridization to off-target transcripts. We used MADS to analyze Affymetrix Exon 1.0 array data on a mouse neuroblastoma cell line after shRNA-mediated knockdown of the splicing factor PTB.  From a list of exons with pre-determined inclusion/exclusion profiles in response to PTB depletion, MADS recognized all exons known to have large changes in transcript inclusion levels, and offered improvement over Affymetrix’s analysis procedure. We also identified numerous novel PTB-dependent splicing events. 30 novel events were tested by RT-PCR, and 27 were confirmed. This work demonstrates that the exon tiling microarray design is an efficient and powerful approach for global, unbiased analysis of pre-mRNA splicing. Keywords: control / knockdown comparison
+
+DESIGN
+Short hairpin knockdown of PTB in mouse N2A neuroblastoma cells was performed as described before (Boutz et al., 2007, Genes Dev 21:1636-1652). The efficiency of the PTB knockdown was monitored by western blot using PTB-NT primary antibody and Cy5 labeled secondary antibody (GE Life Sciences). The blots were imaged using Typhoon 9410 (GE Life Sciences). The band intensities were measured using ImageQuant and normalized to GAPDH. In all cases the efficiency of the knockdown was close to 80% (data not shown). We conducted Exon array profiling on RNAs from three shRNA-PTB treated samples and three mock-treated controls (using empty vectors).
+
+PLATFORM
+GPL6096 [MoEx-1_0-st] Affymetrix Mouse Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+18566192
+

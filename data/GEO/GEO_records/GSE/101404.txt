@@ -1,0 +1,18 @@
+TITLE
+Goose Mx and OASL play vital roles in the antiviral effects of type I, II, and III interferon against newly emerging avian flavivirus
+
+ORGANISM
+Anser anser
+
+SUMMARY
+Purpose：Next-generation sequencing (NGS) has revolutionized systems-based analysis of cellular pathways. PBMCs are important immune cells and effectively respond to IFN treatment. Therefore, the goals of this study are to compare the transcriptional profile of the goose IFN (goIFNα, goIFNγ and goIFNλ)-mediated immune response in PBMCs. Methods：Peripheral blood mononuclear cells (PBMCs) were stimulated with recombinant goIFN-α, γ and λ for 3 h, and those treated with cell lysates from pcDNA3.1 (+)-transfected BHK-21 cells were considered as control group. Cells were harvested with 1 mL RNAiso Plus reagent for RNA extraction. Obtained RNA quantity and quality were evaluated using NanoDrop, Qubit and Agilent 2100 Bioanalyzer. After qualification and quantification using an Agilent 2100 Bioanalyzer and ABI Step One Plus Real Time PCR System, the libraries were sequenced with Illumina HiSeqTM 2000. Results：Comparisons between IFN treatment groups and the control group were performed, and DEGs were analysed using the DESeq R package, a model based on the negative binomial distribution. For the statistical analysis, all read counts were normalized by calculating the FPKM value, and further, the FPKM + 1 values were log2 transformed and the means of expression (in log2 FPKMs) were used for further analysis. An P value < 0.05, which was adjusted by the false discovery rate (FDR), was defined as the threshold of DEGs, and log2-fold change ＞ 0 (or < 0) was defined as up-regulated (down-regulated genes). According to the results of DEG analysis, we selected 17 IFN‑responsive genes from the RNA-seq data for validation by RT-qPCR. Conclusion：Our study represents the first detailed analysis of the transcriptional profile of the goose IFN (goIFNα, goIFNγ and goIFNλ) immune response in PBMCs. The stimulation of goIFNs initiated a series of signalling cascades at early stages, leading to the transcriptional regulation of hundreds of DEGs, and each IFN induced a unique and partially overlapping set of ISGs. Most importantly, we identified approximately 101 immune-related genes, which were mainly involved in the toll-like receptor signalling pathway, JAK-STAT signalling pathway and antiviral pathway. Moreover, these results were verified by RT-qPCR, and the correlation analysis of RNA-Seq data and qRT-PCR results showed that some relevant relationships between candidate genes may be related to the balance of the host immune response, which remains to be further studied in the future.
+
+DESIGN
+Deep RNA sequencing (RNA-seq) was carried out to generate a high-resolution transcriptome map for goIFNα, goIFNγ and goIFNλ-treated PBMCs, and subsequently, some ISGs that might be involved in the IFN-dependent antiviral response were identified.
+
+PLATFORM
+GPL23506 Illumina HiSeq 2000 (Anser anser)
+
+CITATIONS
+28878774
+

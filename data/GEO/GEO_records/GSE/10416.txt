@@ -1,0 +1,18 @@
+TITLE
+Gene expression based profiling of brains from mice infected with lethal Listeria monocytogenes over a 4-day period
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Data presented here show that gene expression in the mouse brain changes  during systemic infection relative to a steady state (uninfected control) mouse during systemic Listeria monocytogenes infection.  Microarray analysis of gene expression in the brain following i.v. inoculation of 1-2 LD 50 L. monocytogenes showed changes in brain transcriptional activity occurred prior to brain infection. Keywords: infectious diseases model, gene expression profiling for cell signaling/trafficking
+
+DESIGN
+Mice were injected with 1-2 LD50 wild type L. monocytogenes or with sterile PBS (control) then seven animals from each group were harvested daily for 4 days.  From each day, groups of five infected animals were selected for microarray analysis based upon similarities in CFU bacteria in the spleen (day 1), blood (day 2), and brain (days 3 and 4) and were randomly paired with brains harvested from control animals.  RNA was extracted from the brain halves using the Atlas™ Pure Total RNA Labeling System and hybridized to plastic slides with 32P-labeled probes using Atlas™ Plastic Mouse 5K Microarray (Clontech, Mountain View, CA) according to the manufacturer’s directions.  Hybridization to the arrays and phosphorimaging analysis were performed in the OUHSC microarray facility.  Phosphorimaging analysis was performed using a Storm™ optical scanner (Molecular Dynamics Inc., Sunnyvale, CA), and initial background corrections were performed using the Array Vision Software (Imaging Research Inc., St. Catharines, Ontario). Data analyses were performed using Genespring GX v. 7.3 (Agilent Technologies, Palo Alto, CA).  Raw signal data were normalized to the median of the entire chip for each sample, and all samples were further normalized per gene to the medians of data from the uninfected samples.  Data for each day were analyzed by Mann Whitney Wilcoxen nonparametric test with a p-value cutoff of 0.05.  Lists of genes were generated to reflect 2, 3, or 5-fold upregulation and downregulation based on significance.  Expression data were incorporated into Ingenuity software (Ingenuity Systems, Inc., Redwood City, CA) to enable further understanding of complex relationships as well as provide further information about key canonical pathways in which the genes of interest functions.
+
+PLATFORM
+GPL151 Atlas Plastic Mouse 5K Microarray (Cat. #7906-1)
+
+CITATIONS
+18566419
+

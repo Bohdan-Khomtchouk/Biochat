@@ -1,0 +1,18 @@
+TITLE
+Heterogeneous nuclear ribonucleoprotein C1/C2 links transcriptional and splicing actions of 1,25-dihydroxyvitamin D
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Heterogeneous nuclear ribonucleoprotein C1/C2 (hnRNPC1/C2) functions as an RNA splicing regulator through co-transcriptional association with nascent mRNA. HnRNPC1/C2 can also bind to double-stranded DNA as a vitamin D response element-binding protein (VDRE-BP), thereby regulating transcriptional activity of the vitamin D receptor (VDR) bound to 1,25-dihydroxyvitamin D (1,25(OH)2D). In this way hnRNPC1/C2 may act as a coupling factor for 1,25(OH)2D-directed transcription and RNA splicing. Studies using MG63 osteoblastic cells confirmed that 1,25(OH)2D-VDR mediated induction of the gene for the enzyme 24-hydroxylase (CYP24A1), involved CYP24A1-specific chromatin and RNA immunoprecipitation of hnRNPC1/C2. Furthermore, small interfering (siRNA) knockdown of hnRNPC1/C2 in MG63 cells and was associated with dysregulated expression of CYP24A1 and an alternatively spliced form of CYP24A1 (CYP24A1-variant 2). Genome-wide analysis of RNA expression and alternative splicing indicated that dual role of hnRNPC1/C2 in directing 1,25(OH)2D-mediated gene expression is not restricted to the classical VDR-target CYP24A1. Knockdown of hnRNPC1/C2 resulted in 3500 differentially expressed genes (DEG), and treatment with 1,25(OH)2D 324 DEG. A further 87 DEG were only observed in 1,25(OH)2D-treated cells in hnRNPC1/C2 knockdown cells. HnRNPC1/C2 knockdown or 1,25(OH)2D treatment also induced alternative splicing (AS) (5039 and 310 AS events respectively). Combined hnRNPC1/C2 knockdown and 1,25(OH)2D treatment resulted in significant overlap between DEG and AS genes, but this was not observed for 1,25(OH)2D treatment alone. These data indicate that hnRNPC1/C2 can act to couple transcriptional and splicing responses to 1,25(OH)2D by binding to both DNA and RNA.  Similar mechanisms may also exist for other members of the hnRNP and steroid receptor family.
+
+DESIGN
+Human MG63 osteosarcoma cells (American Type Culture Collection, CRL-1427) were cultured in Dulbecco’s modified Eagle medium (DMEM, high glucose, Gibco, 11995-065) supplemented with 10% Fetal Bovine Serum (FBS) cultured at 37oC with 5% CO2. Crystalline 1,25-dihydroxyvitamin D3 (1,25(OH)2D3, Enzo Life Sciences, BML-DM200-0050) was reconstituted in ethanol. Ethanol (0.1%) was used as vehicle treatment. RNA-seq analysis was carried out using total RNA extracted from MG63 cells using RNAeasy mini kit (Qiagen, 74104), with on-column DNase treatment to remove contaminating genomic DNA. cDNA libraries were prepared using the Illumina TruSeq RNA Sample Preparation Kit (illumina). High-throughput sequencing was performed using an Illumina HiSeq2500 (paired-end, non-strand-specific 107-bp read length). Knockdown and control samples were sequenced together in two flowcells on four lanes.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27672039
+

@@ -1,0 +1,18 @@
+TITLE
+Systematic analysis of a human renal transcript dataset
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Glomerular diseases account for the majority of cases with chronic renal failure. Several genes have been identified with key relevance for glomerular function. Quite a few of these genes show a specific or preferential mRNA expression in the renal glomerulus. To identify additional candidate genes involved in glomerular function in humans we generated a human renal glomerulus-specific transcript dataset (GTD) by comparing gene expression profiles from human glomeruli and tubulointerstitium obtained from six transplant living donors using Affymetrix HG-U133A arrays. This analysis resulted in 677 genes with prominent overrepresentation in the glomerulus. Genes with ‘a prior’i established known prominent glomerular expression served for validation and were all found in the novel expression library (e.g. CDKN1, DAG1, DDN, EHD3, MYH9, NES, NPHS1, NPHS2, PDPN, PLA2R1, PLCE1, PODXL, PTPRO, SYNPO, TCF21, TJP1, WT1). The mRNA expression for several novel glomerulus-enriched genes identified in REGGEL was validated by qRT-PCR. Gene ontology and pathway analysis identified biological processes previously not reported to be of relevance in glomeruli including among others axon guidance. This finding was further validated by assessing the expression of the axon guidance molecules neuritin (NRN1) and roundabout receptor ROBO1 and -2. Glomerular disease associated differential mRNA regulation of ROBO2 was found in diabetic nephropathy. In summary, using a comparative strategy on microdissected nephrons novel transcripts with predominant expression in the human glomerulus could be identified.  A systematic analysis of this glomerulus-specifc gene expression library allows the detection of target molecules and biological processes involved in glomerular biology and renal disease.
+
+DESIGN
+Sample from kidney biopsies of 6 transplant Living Donors (LD) were microdissected into tubular and glomerular compartment and separately hybridized an Affymetrix HG-U133A microarrays. Background correction and quantile normalization was ferformed using RMAexpress Version 0.3 as part of a dataset of 88 samples for glomeruli and 84 samples for tubuli. All data are reported in log2 scale. A background filter cut-off was defined to lower the count of false positive calls using the highest signal value obtained from non-human Affymetrix control oligonucleotides multiplied by a factor of 1.2, following previous studies: Schmid H, Boucherot A, Yasuda Y, et al.: Modular activation of nuclear factor-kappaB transcriptional programs in human diabetic nephropathy. Diabetes 55:2993-3003, 2006 A linear model was fit to compensate differences in expression due to separate sample processing of the compartments. Subsequently, genes were selected based on foldchange.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+20634963
+

@@ -1,0 +1,18 @@
+TITLE
+A genome-wide analysis of Cas9 binding specificity using ChIP-seq and targeted sequence capture
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Clustered regularly interspaced short palindromic repeat (CRISPR) RNA-guided nucleases have gathered considerable excitement as a tool for genome engineering. However, questions remain about the specificity of their target site recognition. Most previous studies have examined predicted off-target binding sites that differ from the perfect target site by one to four mismatches, which represent only a subset of genomic regions. Here, we used ChIP-seq to examine genome-wide CRISPR binding specificity at gRNA-specific and gRNA-independent sites. For two guide RNAs targeting the murine Snurf gene promoter, we observed very high binding specificity at the intended target site while off-target binding was observed at 2- to 6-fold lower intensities. We also identified significant gRNA-independent off-target binding. Interestingly, we found that these regions are highly enriched in the PAM site, a sequence required for target site recognition by CRISPR. To determine the relationship between Cas9 binding and endonuclease activity, we used targeted sequence capture as a high-throughput approach to survey a large number of the potential off-target sites identified by ChIP-seq or computational prediction. A high frequency of indels was observed at both target sites and one off-target site, while no cleavage activity could be detected at other ChIP-bound regions. Our results demonstrate that even a simple configuration of a Cas9:gRNA nuclease can support very specific DNA cleavage activity and that most interactions between the CRISPR nuclease complex and genomic PAM sites do not lead to DNA cleavage.
+
+DESIGN
+ChIP-seq using dCas9 to determine genome-wide binding of CRISPR/Cas9 noED: Cas9 doublemutant protein without an effector domain KRAB: Cas9 doublemutant protein fused to the KRAB repressor domain S1 gRNA: guide RNA targeting GCTCCCTACGCATGCGTCCC(AGG) in the mouse genome S2 gRNA: guide RNA targeting AATGGCTCAGGTTTGTCGCG(CGG) in the mouse genome VEGFA TS3 gRNA: guide RNA targeting GGTGAGTGAGTGTGTGCGTG(TGG) in the human genome
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25712100
+

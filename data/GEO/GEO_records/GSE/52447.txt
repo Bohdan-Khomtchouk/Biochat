@@ -1,0 +1,18 @@
+TITLE
+Transcriptome-wide mapping of human Staufen1 binding sites
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: We performed RNA-Immunoprecipitation in Tandem (RIPiT) experiments against human Staufen1 (Stau1) to identify its precise RNA binding sites in a transcriptome-wide manner. To monitor the consequences of Stau1 binding in terms of target mRNA levels and ribosome occupancy, we modified the levels of endogenous Stau1 in cells by siRNA or overexpression and performed RNA-sequencing and ribosome-footprinting experiments. Staufen1 (Stau1) is a double-stranded RNA (dsRNA) binding protein implicated in mRNA transport, regulation of translation, mRNA decay and stress granule homeostasis. Here we combined RNA-Immunoprecipitation in Tandem (RIPiT) with RNase footprinting, formaldehyde crosslinking, sonication-mediated RNA fragmentation and deep sequencing to map Staufen1 binding sites transcriptome-wide. We find that Stau1 binds complex secondary structures containing multiple short helices, many of which are formed by inverted Alu elements in annotated 3'UTRs or in " strongly distal " 3'UTRs extending far beyond the canonical polyadenylation signal. Stau1 also interacts with both actively translating ribosomes and with mRNA coding sequences (CDS) and 3'UTRs in proportion to their GC-content and internal secondary structure-forming propensity.  On mRNAs with high CDS GC-content, higher Stau1 levels lead to greater ribosome densities, suggesting a general role for Stau1 in modulating the ability of ribosomes to elongate through secondary structures located in CDS regions.
+
+DESIGN
+We used HEK293 cells expressing near endogenous levels of wild-type Flag-Stau1 (65KDa isoform with an N-Terminal Flag tag). As a control we used a mutant version of Stau1 that is not functional for dsRNA binding. Formaldehyde crosslinking experiments and RNase footprinting experiments were done in two biological replicates. All RNASeq, Ribosome footprinting and PAS-Seq were done in two biological replicates.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24336223
+

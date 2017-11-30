@@ -1,0 +1,18 @@
+TITLE
+Exercise-induced modification of skeletal muscle transcriptome in Arabian horses
+
+ORGANISM
+Equus caballus
+
+SUMMARY
+Purpose: RNA-seq method was used to select genes expressed in muscle tissue and are potentially associated with exercise adaptation in Arabian horses. Methods: Whole transcriptomes between three time points of muscle tissue collection were compared: T0 (untrained horses),  T1 (horses after intense gallop phase) and T2 (at the end of the racing season), in total 23 samples.  The biopsy of gluteus medius muscle was performed by using minimally invasive ProMag™ Ultra Automatic Biopsy Instrument with a 2 mm diameter biopsy needle. The total RNA was isolated using by TriReagent and 300ng was used to  cDNA libraries preparation.  The NGS sequencing was performed on HiScan SQ (Illumina). The quantifying transcript abundances was made using the RSEM supported by STAR aligner. The raw reads were aligned to the Equus caballus reference genome. Differentially expressed genes were detected by DESeq2. The RNA-seq results were validated using by qPCR. Results: To detected differentially expressed genes during training preparing to the flat racing, whole transcriptomes between three time points of muscle tissue collection were compared: T0 (untrained horses),  T1 (horses after intense gallop phase) and T2 (at the end of the racing season). We identified 1168 DEGs between T0 vs T1; 1593 between T1 vs T2 and 763 between T2 vs T0. The analysis for all DEGs allow to detect 11 pathways which ale significant over represented between at last two training periods. The numerous group of exercise-regulated DEGs was related with muscle cell structure and signaling (‘focal adhesion’, ‘adherens juntion’ and ‘PI3-ATK signaling’) and included insulin-like growth factor 1 receptor (IGF1R); insulin receptor (INSR); transforming growth factor beta receptors 1 and 2 (TGFBR1; TGFBR2); vascular endothelial growth factor B (VEGFB);  epidermal growth factor (EGF); hepatocyte growth factor (HGF) and vascular endothelial growth factor D (FIGF). Our results showed that in Arabian horses exercise modified the expression of genes belonging to the  ‘PPAR signaling pathway’ (e.g. PPARA; PPARD; PLIN2); ‘calcium signaling pathway’ (e.g. PLN; PLCD1; TNNC1; TNNC2) as well as pathways associated with metabolism processes - ‘oxidative phosphorylation’; ‘fatty acid metabolism’; ‘glycolysis/gluconeogenesis’ and ‘citrate cycle’. Conclusions: Our research allowed to identify the group of exercise-regulated genes which was related with muscle cell structure as well as signaling and pinpointed the significant metabolic processes critical for adaptive response during training. We confirmed that in Arabians, the exercise switch energy generation towards fatty acid utilization, enhance glycogen transport and calcium signaling. The sequencing of skeletal muscle transcriptome allowed to propose the panel of new candidate genes (such as SLC16A1; ME3; ACTN3; PPARα; SH3RF2; TPM3; TNNC1; TNNI3; TGFBR1; TGFBR2; FABP3) potentially related with body homeostasis maintenance and race performance in Arabian horse.
+
+DESIGN
+The muscle (gluteus medius) transcriptome sequencing was performed for 23 samples collected form Arabian horses , using Illumina HiScan SQ in50 single-end cycles and in 6 technical repetitions repetitions.
+
+PLATFORM
+GPL22019 Illumina HiScanSQ (Equus caballus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

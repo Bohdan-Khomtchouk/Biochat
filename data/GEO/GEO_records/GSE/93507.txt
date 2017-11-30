@@ -1,0 +1,18 @@
+TITLE
+Stage-specific human induced pluripotent stem cells map the progression of myeloid transformation to transplantable leukemia.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We used Illumina NGS for high-throughput profiling of the DNA methylome (ERRBS) for myelodysplastic syndrome (MDS) iPSC cell lines. We performed DNA methylation analysis of the low-risk MDS1.12 cells (iPSC cell line)  treated with 5-AzaC- and show that profound hypomethylation changes can be detected following treatment with 5-AzaC and support the use of our stage-specific induced pluripotent stem cells system to study mechanisms of drug action.
+
+DESIGN
+For ERRBS experiments, MDS-1.12 cells used to assess  colony formation, were collected on day 14 of hematopoietic  differentiation and treated with 0, 100 nM and 500 nM 5-AzaC every day for 3 days. Genomic DNA was extracted and library fragment lengths of 150-250 bp  and 250-400 bp were prepared, gel isolated and sequenced on an Illumina Hi-seq 2500. All samples passed quality control with methylation assayed at > 2  million CpG dinucleotides per sample on average 80x coverage per cytosine.  Methylation data analysis was performed using an established computational pipeline (Akalin et al., PLoS Genetics 2012). Briefly, reads were aligned to the genome using the bismark alignment software with a maximum of 2 mismatches in a directional manner and only uniquely aligning reads were retained. Read bases aligning to positions with at least 20 phred quality score were retained for subsequent analysis. Percentage of bisulfite converted Cs (representing unmethylated Cs) and non-converted Cs (representing methylated Cs) were recorded for each C position in a CpG context. Differential methylation analysis was performed using R package methylKit (Akalin et al., Genome Bio 2012). Differentially methylated loci between the 5-AzaC-treated and untreated groups were identified (25% methylation difference, q < 0.01). The  differentially methylated loci were annotated with hg19 to infer gene associations.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

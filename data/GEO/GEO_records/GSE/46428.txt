@@ -1,0 +1,18 @@
+TITLE
+High-throughput sequencing of methylated cytosine enriched by modification-dependent restriction endonuclease MspJI
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+In this study, we combine MspJI digestion and electrophoretic band selection with next generation high-throughput sequencing technology to detect 5-methylcytosines in Arabidopsis genome. By developing a bioinformatics workflow to attribute the CNNR sites recognized by MspJI to the reference genome, we fulfilled the systematic assessment of this method. According to the assessment, here we provide the method for generating a detailed map of plant methylome that could be feasible, reliable and economical in methylation investigation.
+
+DESIGN
+Extracting the MspJI digested fragments, constructing sequencing library according to the Illumina protocol and sequencing with Illumina HiSeq2000. Repeatability and reproducibility studies were performed between two samples from the same individual. Specificity and sensitivity of the method was examined by comparing our data with WGBS data downloaded from GEO (GSE15922: GSM399600). **The WGBS seq data ('aerial_tissues_BS_seq_CNNR.gff') was generated from the GSM399600 Sample supplementary files ('aerial_tissues_BS_seq_alignment_batch-*.gff.gz') and was utilized to do comparative study with our MspJI-seq data  including sensitivity and specificity analysis.
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

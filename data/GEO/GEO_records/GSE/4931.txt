@@ -1,0 +1,18 @@
+TITLE
+Expression analysis of hns mutant Salmonella
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium
+
+SUMMARY
+Transcriptome analysis of two independently derived hns mutants compared to an isogenic wild-type Salmonella (strain 14028s - lab ID# WN153).  Note: both the wild-type and hns strains carry an additional mutation in the rpoS locus (encoding the stationary phase sigma factor) resulting in a deletion of amino acids 61-65 that diminish its activity. Keywords: cell type comparison
+
+DESIGN
+Comparison of wild-type Salmonella typhimurium to isogenic hns mutants.  Strains were grown to OD 2.0 (600nm), before RNA was harvested.  cDNA was labeled with Cy3 or Cy5 fluorophores incoroporated during reverse transcription.  The array was hybridized with a standard Cy3/Cy5 dye-swap protocol with the exact conditions outlined in the heading for each of the samples. The data in this series represents four biological replicates, with 6 technical replicates for each biological replicate (3 for each of 2 dye-swaps). Two of the biological replicates compare hns-mutant strain WN342 to the wild-type.  Two of the biological replicates compare hns-mutant strain WN341 to the wild-type.  This was done to account for the possibility that suppressor mutations might arise in the slower growing hns strain.  WN341 and WN342 were thought to be identical but later analysis revealed that WN341 had acquired a large deletion in the pagC/pagD region which should be accounted for when looking at the data.
+
+PLATFORM
+GPL1305 STv5_MMCC GPL1835 STv5B_MMCC
+
+CITATIONS
+16763111
+

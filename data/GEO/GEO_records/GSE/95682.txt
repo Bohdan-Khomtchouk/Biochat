@@ -1,0 +1,18 @@
+TITLE
+Effect of glucocorticoid steroid regimens on murine dystrophic muscle
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The goal of this study is to compare the effect of weekly and daily steroid regimens (prednisone) on transcriptional regulation of candidate genes for muscle repair and atrophic response in mdx mice (n=5 mice/group).
+
+DESIGN
+Total RNA was isolated from ~30mg muscle tissue (quadriceps muscles from treated and control DBA/2J-mdx male 6 month-old mice) with the RNeasy Protect Mini Kit as per manufacturer’s instructions. RNA was quantitated at the Qubit fluorometer and quality-controlled at a 2100 Bioanalyzer. Libraries were prepared from approximately 1ug RNA/sample by means of TruSeq Stranded Total RNA Library Prep Kit. Libraries were sequenced through the Illumina NextSeq 500 System (high-throughput, paired-end 150bp fragment sequencing. Reads from each sample were aligned with TopHat v2.1.0 to the mm10 genome assembly (grcm38, version 78). Transcripts were assessed and raw read counts per gene were quantified with HTseq.  Reads Per Kilobase of transcript per Million mapped reads (RPKM) and fold-changes between groups were calculated using EdgeR from the Bioconductor package. Differentially expressed genes were identified by adjusted P-value < 0.05.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28481224
+

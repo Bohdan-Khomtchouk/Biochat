@@ -1,0 +1,18 @@
+TITLE
+Coop-seq: quantitative measurement of cooperative binding between transcription factors to hundreds of variants simultaneously
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+Cooperative binding of transcription factors is known to be important in the regulation of many promoters and enhancers, but current methods to measure cooperativity parameters have been laborious and therefore limited to studying only a few sequence variants at a time. Coop-seq (cooperativity by sequencing) is capable of efficiently and accurately determining the cooperativity parameters for hundreds of different DNA sequences in a single experiment, which we demonstrate using members of the Sox and POU families of transcription factors. Spec-seq directly measures specificity by sequencing. We run an EMSA experiment on TF of interest with a library of DNA targets. Then we extract and sequence the bound and unbound portion of the DNA separately. Finally we count the occurences of each variant in the library and calculate the ratio and the relative binding energy.
+
+DESIGN
+6 independent Spec-seq experiments and 12 independent Coop-seq experiments and their replicates.
+
+PLATFORM
+GPL15228 Illumina HiSeq 2000 (synthetic construct) GPL17769 Illumina MiSeq (synthetic construct)
+
+CITATIONS
+27915232
+

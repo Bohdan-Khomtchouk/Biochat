@@ -1,0 +1,18 @@
+TITLE
+The Hematopoietic System - Myeloid arm
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We used microarray to create a normal cell landscape for the myeloid arm of the hematopoietic system.
+
+DESIGN
+Mononuclear bone marrow cells from heathly donors were enriched for 34+ and hematopoietic stem and progenitor cells were sorted by FACS. Bone marrow cells were aspirated from the posterior iliac crest of healthy subjects, according to the standard protocol of the Department of Hematology, Rigshospitalet University of Copenhagen (Denmark), and in accordance with the Declaration of Helsinki. All samples were obtained after informed consent according to guidelines established by the local ethics committee, which are in accordance with the Declaration of Helsinki. Hematopoietic stem cells (HSCs) and hematopoietic progenitors (HPCs) with the following immunophenotypes were purified essentially as described in earlier1-3 paper using a FACS Aria I cell sorter (BD Bioscience): HSCs: Lin−, CD34+, CD38−, CD90+, CD45RA−, multipotent progenitors (MPPs): Lin−, CD34+, CD38−, CD90−, 45RA−), common myeloid progenitors (CMPs; Lin−, CD34+, CD38+, CD45RA−, CD123+), megakaryocyte-erythroid progenitors (MEPs; Lin−, CD34+, CD38+, CD45RA−, CD123−) and granulocyte-macrophage progenitors (GMPs; Lin−, CD34+, CD38+, CD45RA+, CD123+).  BM populations representing early and late promyelocytes (Early_PMs, Late_PMs), myelocytes (MYs), metamyelocytes (MMs), band cells (BCs), and bone marrow polymorphonuclear neutrophil granulocytes (BM_PMNs) were isolated by flow cytometry-based cell sorting : Eraly_PM( LIN neg,  FSC hi,  SSC int,  CD34 neg,  CD15 int,  CD49d hi,  CD33 hi,  CD11b neg,  CD16 neg ) Late_PM( LIN neg,  FSC hi,  SSC hi,  CD34 neg,  CD15 hi,  CD49d hi,  CD33 hi,  CD11b neg,  CD16 neg ) MY( LIN neg,  FSC hi,  SSC hi,  CD34 neg,  CD15 hi,  CD49d hi,  CD33 hi,  CD11b hi,  CD16 neg) MM( LIN neg,  FSC hi,  SSC hi,  CD34 neg,  CD15 hi,  CD49d neg,  CD33 neg,  CD11b hi,  CD16 neg) BC( LIN neg,  FSC hi,  SSC hi,  CD34 neg,  CD15 hi,  CD49d neg,  CD33 neg,  CD11b hi,  CD16 int ) PMN( LIN neg,  FSC hi,  SSC hi,  CD34 neg,  CD15 hi,  CD49d neg,  CD33 neg,  CD11b hi,  CD16 hi )
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+24363398
+

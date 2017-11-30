@@ -1,0 +1,18 @@
+TITLE
+Inhibition of the LSD1 (KDM1A) demethylase reactivates the all-trans-retinoic acid differentiation pathway in acute myeloid leukemia [ChIP-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+All-trans-retinoic acid (ATRA) has been successfully used in therapy of acute promyelocytic leukemia (APL), a cytogenetically distinct subtype of acute myeloid leukemia (AML) but the response of non-APL AML cases to ATRA-based treatment has been poor. Here we show that, via epigenetic reprogramming, inhibitors of LSD1/KDM1 demethylase including tranylcypromine (TCP) unlocked the ATRA-driven therapeutic response in non-APL AML. LSD1 inhibition did not lead to an increase in genome-wide H3 lysine4 dimethylation (H3K4me2) but did increase H3K4me2 and expression of myeloid differentiation-associated genes. Importantly, treatment with ATRA plus TCP dramatically diminished engraftment of primary human AML cells in vivo in NOD.SCID mice, suggesting that ATRA in combination with TCP may target leukemia-initiating cells. Furthermore, initiation of ATRA plus TCP co-treatment 15 days post-engraftment of human AML cells in NOD.SCID gamma mice also revealed the ATRA plus TCP drug combination to have a potent anti-leukemic effect, which was superior to treatment with either drug alone. These data identify LSD1 as a therapeutic target and strongly suggest that it may contribute to AML pathogenesis by inhibiting the normal pro-differentiative function of ATRA, paving the way for novel combinatorial therapies of AML.
+
+DESIGN
+ChIP-seq was used to study the effects of ATRA, TCP and ATRA/TCP treatment on H3K4 dimethylation. In addition to the three treatment samples, two reference samples were processed: (i) An untreated sample using the same anti-H3K4me2 antibody and an untreated sample using IgG. These five sequencing experiments were conducted using HL-60 cells and TEX cells, leading to 10 ChIP-seq samples in total.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+22406747
+

@@ -1,0 +1,18 @@
+TITLE
+Pseudo-temporal ordering of individual cells reveals regulators of differentiation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Single-cell expression profiling by RNA-Seq promises to exploit cell-to-cell variation in gene expression to reveal regulatory circuitry governing cell differentiation and other biological processes.  Here, we describe Monocle, a novel unsupervised algorithm for ordering cells by progress through differentiation that dramatically increases temporal resolution of expression measurements. This reordering unmasks switch-like changes in expression of key regulatory factors, reveals sequentially organized waves of gene regulation, and exposes regulators of cell differentiation. A functional screen confirms that a number of these regulators dramatically alter the efficiency of myoblast differentiation, demonstrating that single-cell expression analysis with Monocle can uncover new regulators even in well-studied systems.
+
+DESIGN
+We selected primary human myoblasts as a model system of cell differentiation to investigate whether ordering cells by progress revealed new regulators of the process. We sequenced RNA-Seq libraries from each of several hundred cells taken over a time-course of serum-induced differentiation. Please note that this dataset is a single-cell RNA-Seq data set, and each cell comes from a capture plate.  Thus, each well of the plate was scored and flagged with several QC criteria prior to library construction, which are provided as sample characteristics; CONTROL indicates that this library is a off-chip tube control library constructed from RNA of approximately 250 cells and 'DEBRIS' indicates that the well contained visible debris (and may or may not include a cell). Libraries marked DEBRIS thus cannot be confirmed to come from a single cell.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+24658644
+

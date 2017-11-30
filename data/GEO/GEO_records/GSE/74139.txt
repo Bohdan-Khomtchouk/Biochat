@@ -1,0 +1,18 @@
+TITLE
+A regression-based analysis of ribosome-profiling data reveals a conserved complexity to mammalian translation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A fundamental goal of genomics is to identify the complete set of expressed proteins. Automated annotation strategies rely on assumptions about protein-coding sequences (CDSs), e.g., they are conserved, do not overlap, and exceed a minimum length. However, an increasing number of newly discovered proteins violate these rules. Here we present an experimental and analytical framework, based on ribosome profiling and linear regression, for systematic identification and quantification of translation. Application of this approach to lipopolysaccharide-stimulated mouse dendritic cells and HCMV-infected human fibroblasts identifies thousands of novel CDSs, including micropeptides and variants of known proteins, that bear the hallmarks of canonical translation and exhibit comparable translation levels and dynamics to annotated CDSs. Remarkably, many translation events are identified in both mouse and human cells even when the peptide sequence is not conserved. Our work thus reveals an unexpected complexity to mammalian translation suited to provide both conserved regulatory or protein-based functions.
+
+DESIGN
+37 ribosome footprint samples from mouse BMDCs across a time course of LPS stimulation and in the presence or absence of translation inhibitors cycloheximide, harringtonine, or lactimidomycin. A mock (non-LPS stimulated) time course is also included, collected in the presence of cycloheximide. Two replicates are available for the LPS timecourse under CHX treatment. Reads include the 3' linker sequence CTGTAGGCACCATCAAT.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26638175
+

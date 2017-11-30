@@ -1,0 +1,18 @@
+TITLE
+Wild-type and COUP-TFI-/- newborn inner ear microarrays
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In order to establish a list of candidate direct COUP-TFI gene targets in the inner ear, we analyzed the differential gene expression profiles of the wild-type and the COUP-TFI–/– P0 inner ears.
+
+DESIGN
+We performed a total of 8 microarray experiments using Affymetrix MG-U74Av2 chips, including 2 biological and 2 experimental replicates per genotype sample.  Due to limiting RNA yields from the newborn inner ear, each microarray chip was hybridized with an RNA pool from multiple tissue samples. We analyzed our data using two different algorithms: GC-Robust Multi-Array (GCRMA) and dChip.  Each normalized expression dataset was subsequently analyzed by 2-way ANOVA, evaluating both genotype and experimental effects.  This statistical approach allowed us to 1) account for an experimental effect observed in the expression value of many genes, therefore increasing the power of the analysis, and 2) filter out potential expression differences due to contamination during dissections (contaminating genes would present as probes with a significant interaction p-value).  Using this methodology, the gene hits from the GCRMA-normalized expression dataset consisted of 256 genes with a significant genotype effect (p < 0.01) and no interaction (p > 0.01).  Similar cutoffs applied on the dChip-normalized dataset resulted in 250 significant gene hits.  Within both groups, COUP-TFI has the lowest genotype p-value, validating our statistical approach.
+
+PLATFORM
+GPL81 [MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array
+
+CITATIONS
+20111703
+

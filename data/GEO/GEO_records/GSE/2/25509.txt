@@ -1,9 +1,0 @@
-TITLE
-Becker_etal_SNParray_BSA
-
-ORGANISM
-Arabidopsis thaliana
-
-SUMMARY
-Bulk segregant analysis using microarrays, and extreme array mapping have recently been used to rapidly identify genomic regions associated with phenotypes in multiple species. These experiments, however require the identification of single feature polymorphisms between the cross parents for each new combination of genotypes, which raises the cost of experiments. The availability of the genomic polymorphism data in Arabidopsis thaliana, coupled with the efficient designs of Single Nucleotide Polymorphism (SNP) genotyping arrays removes the requirement for SFP detection and lowers the per array cost, thereby lowering the overall cost per experiment. To demonstrate that these approaches would be functional on SNP arrays and determine confidence intervals, we analyzed hybridizations of natural accessions to the Arabidopsis ATSNPTILE array and simulated BSA or XAM given a variety of gene models, populations, and bulk selection parameters. Our results show a striking degree of correlation between the genotyping output of both methods, which suggests that the benefit of SFP genotyping in context of BSA can be had with the cheaper, more efficient SNP arrays. As a final proof of concept, we hybridized the DNA from bulks of an F2 mapping population of a Sulfur and Selenium ionomics mutant to both the Arabidopsis ATTILE1R and ATSNPTILE arrays, which produced almost identical results. We have produced R scripts that prompt the user for the required parameters and perform the BSA analysis using the ATSNPTILE1 array and have provided them as supplemental data files. Keywords: genomic hybridization of inbred lines and bulked segregant analysis
-

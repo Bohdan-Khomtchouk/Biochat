@@ -1,0 +1,18 @@
+TITLE
+Identification of the calcium-responsive genes dependent on CrzA in the filamentous fungus Aspergillus nidulans
+
+ORGANISM
+Aspergillus nidulans
+
+SUMMARY
+Microarray analysis was used to identify the calcium-responsive genes dependent on CrzA in the filamentous fungus Aspergillus nidulans. In order to identify such genes, we conducted the two types of experiment. One was a comparison between  wild type with calcium treatment and wild type without calcium treatment. Another was a comparison between wild type with calcium treatment and crzA mutant with calcium treatment. From a comparison between the results of these experiments, we could identify the genes whose expression was induced or repressed in response to calcium in a manner dependent on CrzA. KEY WORD; Aspergillus nidulans, calcium response, crzA
+
+DESIGN
+Conidia of wild type or crzA mutant strains were incubated at 37C in CD medium for 18h and treated with or without calcium (final concentration; 50 mM)  for 15 min. The mycelia were harvested and frozen in liquid nitrogen, ground to a powder, and used for RNA preparation. mRNA was purified and used for hybridization experiments. A total of 2 hybridizations were performed for each microarray experiment described in the summary. The following replicates were carried out: 1. In-slide replicates were carried out for each analyses. 2. Dye swap replicates were carried out for each analyses. The slides were scanned with an Axon GenePix 4000B scanner (Molecular Devices). The resulting TIFF images were imported into GenePix Pro and fluorescent intensity of spots were calculated for each of the Cy3 and Cy5 channels. Global normalization was applied to all analyses. Following normalization, spots whose Cy3 or Cy5 intensity was less than 0 were removed from the data set (the exceptional case was that intensity of the other channel was more than 100). The dye-swap replicates and in-slide replicates were subjected to all analyses. Finally, gene expression ratios (channel 2/channel 1) were calculated for each replicates. Gene expression was considered to be significantly higher or lower whenever the spot intensity changed by at least 2-fold in all four replicates.
+
+PLATFORM
+GPL7364 TIGR PFGRC Aspergillus nidulans version 2 array designated primarily based on strain FGSC A4
+
+CITATIONS
+19002465
+

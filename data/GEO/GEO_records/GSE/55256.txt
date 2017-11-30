@@ -1,0 +1,18 @@
+TITLE
+Impacts of the Ubiquitous Factor Zelda on Bicoid-dependent DNA-binding and Transcription in Drosophila
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+In vivo crosslinking studies suggest that the Drosophila transcription factor Bicoid (Bcd) binds to several thousand sites during early embryogenesis, but it is not clear how many of these binding events are functionally important. In contrast, reporter gene studies have identified more than 60 Bcd-dependent enhancers, all of which contain clusters of the consensus binding sequence TAATCC. These studies also identified clusters of TAATCC motifs (inactive fragments) that failed to drive Bcd-dependent activation. In general, active fragments showed higher levels of Bcd-binding in vivo, and were enriched in predicted binding sites for the ubiquitous maternal protein Zelda (Zld). Here we test the role of Zld in Bcd-mediated binding and transcription. Removal of Zld function and mutations in Zld sites caused significant reductions in Bcd-binding to known enhancers, and variable effects on the activation and spatial positioning of Bcd-dependent expression patterns. Genome-wide binding experiments in Zld mutants showed variable effects on Bcd-binding peaks, ranging from strong reductions to significantly enhanced levels of binding. Increases in Bcd binding caused the precocious Bcd-dependent activation of genes that are normally not expressed in early embryos, suggesting that Zld controls the genome-wide binding profile of Bcd at the qualitative level, and is critical for selecting target genes for activation in the early embryo. These results underscore the importance of combinatorial binding in enhancer function, and provide data that will help predict regulatory activities based on DNA sequence.
+
+DESIGN
+1-3 hour wild type and zelda mutant embryos were examined for Bicoid binding using Illumina HiSeq 2000. The Bcd antibody is a rabbit polyclonal antiserum raised against full length Drosophila Bcd protein (Ochoa-Espinosa et al. 2009 PNAS). The antiserum was further purified using the Protein A Antibody Purification Kit (Sigma) for ChIP-seq.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+24637116
+

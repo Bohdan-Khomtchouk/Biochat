@@ -1,0 +1,18 @@
+TITLE
+Analysis of chromosomal aberrations and recombination by allelic bias in RNA-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genomic instability has profound effects on cellular phenotypes. Studies have shown that pluripotent cells with abnormal karyotypes may grow faster, differentiate less and become more resistance to apoptosis. Previously, we showed that microarray gene expression profiles can be utilized for the analysis of chromosomal aberrations by comparing gene expression levels between normal and aneuploid samples. Here we adopted this method for RNA-Seq data and present eSNP-Karyotyping for the detection of chromosomal aberrations, based on measuring the ratio of expression between the two alleles. We demonstrate its ability to detect chromosomal gains and losses in pluripotent cells and their derivatives, as well as meiotic recombination patterns. This method is advantageous since it does not require matched diploid samples for comparison, is less sensitive to global expression changes caused by the aberration, and utilizes already available gene expression profiles to determine chromosomal aberrations.
+
+DESIGN
+RNA was extracted from different cell lines and analyzed for chromosomal stability using eSNP-Karyotyping
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+27385103
+

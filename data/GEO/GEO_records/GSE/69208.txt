@@ -1,0 +1,18 @@
+TITLE
+roX ChIRP-seq in four Drosophila species
+
+ORGANISM
+Drosophila melanogaster ; Drosophila virilis ; Drosophila willistoni ; Drosophila busckii
+
+SUMMARY
+We identified orthologs of the roX lncRNAs across diverse Drosophilid species, and then mapped the genomic binding sites of roX1 and roX2 in four Drosophila species (D. melanogaster, D. willistoni, D. virilis, and D. busckii) using ChIRP-seq (chromatin isolation by RNA Purification and sequencing), thus revealing the interplay of the evolution of roX1 and roX2 and their genomic binding sites.
+
+DESIGN
+We found roX1 and roX2 orthologs in D. willistoni, D. virilis, and D.busckii and designed antisense biotinylated 20-mer ChIRP oligos against each RNA target. The ChIRP oligo pools were then divided into Even (E) or Odd (O) pools for independent ChIRP experiments for each RNA target. In each species, chromatin was prepared directly from larval tissue; the RNA target was recovered using the indicated ChIRP oligo pools. Input DNA was sampled from the prepared chromatin. DNA from each ChIRP-seq experiment was purified, prepared into libraries, and sequenced as described. Each sample was then mapped to the respective Drosophila genome; each even-odd pair was then merged and peaks were called using MACS2.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster) GPL19132 Illumina NextSeq 500 (Drosophila melanogaster) GPL20239 Illumina NextSeq 500 (Drosophila willistoni) GPL20240 Illumina NextSeq 500 (Drosophila virilis) GPL20241 Illumina NextSeq 500 (Drosophila busckii)
+
+CITATIONS
+26773003
+

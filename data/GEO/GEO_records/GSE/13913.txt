@@ -1,0 +1,18 @@
+TITLE
+WT and php mutants
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Transcriptional profiling for wild-type and php mutants Expression of > 22,600 genes was analyzed in aerial tissues from 14 day old soil grown wild type and php mutant plants using Affymetrix ATH1 GeneChip, and two independent biological replicates. Data from CEL files were adjusted for background and normalized using the Bioconductor GCRMA package ( http://www.bioconductor.org ).
+
+DESIGN
+Affymetrix ATH array with seedling samples from wild-type and php mutants Aerial tissues from 14-day-old soil grown wild-type and php mutant plants were  collected. Total RNAs were isolated and used for cDNA synthesis/biotin labeling following Affymetrix protocol. Affymetrix ATH1 GeneChip and two biologically independent replicates were used. Data from CEL files were adjusted for background and normalized using Bioconductor GCRMA package (transformed to Log2).
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+20363855
+

@@ -1,0 +1,18 @@
+TITLE
+Effects of Lipocalin 2 (Lcn2), iron, and the bacterial siderophore Enterobactin on A549 respiratory cell gene expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Iron is essential for many cellular processes and is required by bacteria for replication. To acquire iron from the host, pathogenic Gram-negative bacteria secrete siderophores, including Enterobactin (Ent). However, Ent is bound by the host protein Lipocalin 2 (Lcn2), preventing bacterial reuptake of aferric or ferric Ent.  In two experiments we treated A549 (lung cancer cell line) cells with Lcn2, Ent, and iron, alone and in combination.  In experiment 1, biological duplicates of 4 conditions were used: PBS control, Lcn2, Lcn2+Ent, and Lcn2+Ent+iron. In experiment 2, 4 biological replicates of 4 conditions were used: PBS control, Ent, iron, and Ent+iron.  Targets made from the samples were hybridized to Affymetrix Human Gene 1.0 ST arrays to measure transcript abundances.  The RMA algorithm was used to estimate transcript levels. Replicate samples were exchangeable, so we fit one-way ANOVA models to log2-transformed data separately to each experiment, and tested for pairwise differences between groups in each experiment, as well as asking if the Ent vs. PBS differences were larger or smaller than the Ent+iron vs. iron differences (Ent by iron interactions).  We report results for 29096 probe-sets that were not annotated as positive or negative controls on the array.  A supplementary Excel workbook is provided that contains the estimated expression level, some probe-set annotation, and simple statistical analysis for each probe-set.  It may be convenient for some users, however obtaining newer probe-set annotation may be advisable.
+
+DESIGN
+A549 (ATCC CCL-185) cells, a human type II pneumocyte cell line, were cultured in F12K (Invitrogen, Carlsbad, CA) media supplemented with 10% fetal bovine serum (Invitrogen) and 1:100 penicillin streptomycin (Invitrogen).  24-well plates were seeded with A549 cells at a concentration of 35000 cells/well. After two days, cells were weaned from serum and antibiotics overnight. Cells were then stimulated overnight with the indicated combinations of 50 uM Ferric ammonium citrate (FAC) (Sigma, St. Louis, MO), 50 um Ent (Sigma or EMC Microcollections, Tubingen, Germany), and/or 25 uM lipocalin 2 (Lcn2) in F12K media lacking serum or antibiotics. Prior to incubation with cells, siderophore-Lcn2 complexes were prepared by sequential incubation at room temperature of FAC and Ent for 30 minutes followed by addition of Lcn2 and incubation for an additional 30 minutes. In experiment 1, 2 biological replicates of each of these 4 conditions were grown: PBS,   25 uM lipocalin 2 (Lcn2), a combination of 25 uM Lcn2 with 50 uM Enterobactin (Ent),  and a combination of Lcn2, Ent and 50 uM Ferric Ammonium Citrate (FAC). In experiment 2, 4 biological replicates of each of these 4 conditions were grown: PBS, 50 uM Ent, 50 uM FAC, and a combination of 50 uM Ent and 50 uM FAC. Cells were harvested and RNA was extracted using an miRNeasy Mini Kit (Qiagen). Biotinylated cDNA targets were prepared according to the Ambion WT expression kit protocol from 150 ng total RNA.  There are no batches within each experiment - the samples in each group are exchangeable.  Targets were hybridized to Affymetrix Human Gene 1.0 ST arrays.  Arrays were scanned and quantified by usual procedures, and transcript abundances for 29096 non-control probe-sets estimated by an RMA algorithm.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24980968
+

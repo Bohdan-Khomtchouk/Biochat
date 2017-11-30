@@ -1,0 +1,18 @@
+TITLE
+Genome-wide targets of conserved histone chaperone Asf1 in budding yeast
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Asf1, through its histone chaperone activity, helps chromatin closing/opening during DNA replication, repair, recombination and transcription. Despite extensive research on Asf1-mediated physiological functions, a genome-wide localization map is lacking, limiting our knowledge of chromosomal features targeted by Asf1. We present a high-resolution genome-wide map of Asf1, localizing at essentially all pol III-transcribed genes, highly active pol II-transcribed genes and heterochromatic features. Pol III-transcribed genes are negatively regulated by Asf1, whereas pol II genes are regulated indirectly by Asf1-dependent H3K56 acetylation. Interestingly, Asf1 localization along yeast chromosomes shows nearly identical distribution to that of the condensin complex, predicting a functional overlap in chromosome architecture and genome organization.
+
+DESIGN
+ChIP-seq analysis of Asf1 targets using a yeast strain that expresses an 18-Myc tag fused to the C-terminus of ASF1. Two biological replicates and one mock/control were performed. The Illumina GAII was used. ChIP-seq reads are aligned to the budding yeast sacCer3 (2011) assembly.
+
+PLATFORM
+GPL9377 Illumina Genome Analyzer II (Saccharomyces cerevisiae)
+
+CITATIONS
+25264624
+

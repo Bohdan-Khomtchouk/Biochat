@@ -1,0 +1,18 @@
+TITLE
+Definition of human cardiac progenitor cell plasma membrane signature: comparative genomic and proteomics analysis with human mesenchymal stem cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Adult cardiac progenitor/stem cells (CPC/CSC) are multipotent resident populations involved in cardiac homeostasis and heart repair. Assisted by complementary RNAseq analysis, we defined the proteome fraction associable to specific CPC functions by comparison with human mesenchymal stem cells (MSC), the reference population for cell therapy. Label-free proteomics analysis identified 526 proteins expressed differentially in CPC. Quantitative iTRAQ analysis confirmed differential expression of a substantial proportion of these proteins expressed specifically in CPC relative to MSC. Systems biology analysis defined a clear overrepresentation of several categories related to enhanced angiogenic potential. The CPC plasma membrane compartment is comprised by 1595 proteins including a minimal signature of 167 proteins expressed preferentially in CPC. Of these core CPC functions, we selected a panel of 15 predicted cell surface markers and validated high differential expression of CDH5, CD200 and F11R in CPC.
+
+DESIGN
+RNA was isolated from CPC (CPC1 (H1), CPC2 (H3), CPC3 (H4)), MSC (MSC1 (19), MSC2 (33)), MSC3 (45) and HDF (FB1, FB2, FB3) as described (Moscoso et al., 2013).  For RNAseq library production, total RNA (1 μg) was used with the TruSeq RNA Sample Preparation v2 Kit (Illumina) to construct index-tagged cDNA libraries. Libraries were sequenced (single-end mode, 75 bp length) on the Genome Analyzer IIx following the standard RNA sequencing protocol, with the TruSeq SBS Kit v5.  Fastq files containing reads for each library were extracted and demultiplexed using the Casava v1.8.2 pipeline
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+28970523
+

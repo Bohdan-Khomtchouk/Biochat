@@ -1,0 +1,18 @@
+TITLE
+Genome-wide maps of FoxP3 binding in transduced CD4+ T cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The transcription factor FoxP3 partakes dominantly in the specification and function of FoxP3+ CD4+ T regulatory cells (Tregs), but is neither strictly necessary nor sufficient to determine the characteristic Treg transcriptional signature. Computational network inference and experimental testing assessed the contribution of several other transcription factors (TFs). Enforced expression of Helios or Xbp1 elicited specific signatures, but Eos, Irf4, Satb1, Lef1 and Gata1 elicited exactly the same outcome, synergizing with FoxP3 to activate most of the Treg signature, including key TFs, and enhancing FoxP3 occupancy at its genomic targets. Conversely, the Treg signature was robust to inactivation of any single cofactor. A redundant genetic switch thus locks-in the Treg phenotype, a model which accounts for several aspects of Treg physiology, differentiation and stability.
+
+DESIGN
+We used chromatin immunoprecipitation followed by high-throughput sequencing (ChIP-seq) to assess how cofactors affect the genome-wide localization of FoxP3. Chromatin was prepared from primary CD4+ Tconv cells transfected with FLAG-FoxP3 alone or together with GATA1, immunoprecipitated with anti-FLAG, and the bound DNA determined by Illumina deep sequencing. Immunoprecipitation with anti-PolII, or whole cell extract, provided genome-wide controls for transcriptional start sites (TSSd) or for sequencing non-homogeneity, respectively.
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+22961053
+

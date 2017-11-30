@@ -1,0 +1,18 @@
+TITLE
+CGH analysis of two components of carcinosarcoma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In this study, we present a case of parotid gland de novo carcinosarcoma. Salivary gland carcinosarcoma (or true malignant mixed tumor) is a rare biphasic neoplasm, composed of both malignant epithelial and malignant mesenchymal components. It is yet unclear whether these two phenotypes occur by collision of two independent tumors or if they are of clonal origin. To analyze the clonality of the different morphologic tumor components, oligonucleotide microarray-based comparative genomic hybridization (oaCGH) was performed on the carcinoma and the sarcoma entity separately. This technique enables a high-resolution, genome-wide overview of the chromosomal alterations in the distinct tumor elements. Analysis of both fractions showed a high number of DNA copy number changes. Losses were more prevalent than gains (82 and 49, respectively). The carcinomatous element displayed more chromosomal aberrations than the sarcomatous component.  Specific amplifications of MUC20 (in mesenchymal element) and BMI-1 (in both elements) loci were observed. Overall homology between the two genomic profiles was 75%. DNA copy number profiles of the epithelial and mesenchymal components in this salivary gland carcinosarcoma displayed extensive overlap, indicating a monoclonal origin. Since losses are shared to a larger extent than gains, they seem to be more essential for initial oncogenic events. Furthermore, specific amplifications of a mucin and a Polycomb group gene imply these proteins in the tumorigenesis of carcinosarcomas.
+
+DESIGN
+We investigated 1 FFPE salivary gland carcinosarcoma, of which we macrodissected the two components separately before DNA extraction. To explore the genomic profiles of the two distinct cellular components of the carcinosarcoma, we employed a 4x44k array CGH platform including 45.214 60-mer oligonucleotides. This allowed us a genome-wide survey and molecular karyotyping of genomic aberrations with an average resolution of 75 kb.18 Labeling of tumor and reference DNA was performed using the ENZO BioArray™ CGH Labeling System (Farmingdale, NY, USA). 500 ng genomic DNA of tumor was labeled in Cy3 and mixed with a normal human reference pool of ten healthy individuals (labeled with Cy5) prior to hybridization on a 4x44K Agilent slide (Amstelveen, The Netherlands) using the Agilent hybridization oven (G2545A) overnight at 20 rpm. The oligo CGH-microarray slide was scanned using a DNA microarray scanner G2565AB (Agilent Technologies Netherlands B.V., Amstelveen, The Netherlands).Washing, scanning and feature selection (Feature extraction software v.9.1) were furthermore performed using standard Agilent procedures. In order to determine exact breakpoints in the generated array CGH profiles, we segmented the obtained log2 ratios by DNAcopy. Sex chromosomes were discarded from the analysis, since all tumor samples were hybridized to a pool of reference DNA of the opposite gender. In the downstream analysis, only clones with no missing values were included. Segmented log2 ratios were converted to four levels of categorized data (i.e. losses, normals, gains, and amplifications) by CGHCall,20 implemented using the statistical software environment R [R Development Core Team (2006)].
+
+PLATFORM
+GPL5477 Agilent-014950 Human Genome CGH Microarray 4x44K (Feature Number version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Comparative analysis of gene expression in Fra-1+/+ and Fra-1-/- mice lung
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We hypothesized that gene expression in lungs of Fra-1+/+ and Fra-1-/- mice are divergent thus contributing fibrosis. More specifically, Fra-1-/- mice are increased susceptible to fibrosis. In order to test these hypotheses at the gene expression level, we utilized microarray analysis to examine transcriptional differences between Fra-1+/+ and Fra-1-/- mice at early time point.
+
+DESIGN
+This study utilizes microarray analysis to test these hypotheses. 5 days PBS and bleomycin treated lung samples from both Fra-1+/+ and Fra-1-/- mice were used. RNA was isolated and used for global gene expression profiling (Affymetrix MoGene 1.0ST v1 Array). The raw probe signal intensities were quantile normalized over all samples, summarized with the robust multi-array average (RMA) algorithm and log2 transformed with a median polish, using the Affymetrix Power Tools. We considered a transcript cluster (gene-level) to be reliably expressed in a sample if the Affymetrix implemented DABG (detection above ground) p-value was less than 0.05. We used local-pooled-error (LPE) estimates and robust statistical tests for evaluating significance of each gene's differential expression in a comparison.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23758685
+

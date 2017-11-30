@@ -1,0 +1,18 @@
+TITLE
+Kinetic transcriptome study reveals an essentially intact cellulase induction system in a cellulase hyper-producer Trichoderma reesei strain
+
+ORGANISM
+Trichoderma reesei
+
+SUMMARY
+The filamentous fungus Trichoderma reesei is the main industrial cellulytic enzymes producer. Several strains have been developed in the past using random mutagenesis, and despite impressive performance enhancements, the pressure for low-cost cellulases has stimulated continuous research in the field. In this context, comparative study of the lower and higher producer strains obtained through random mutagenesis using systems biology tools (genome sequencing, transcriptome) can shed light on the mechanisms of cellulase production and help identify genes linked to performance. Previously, our group published comparative genome sequencing of the lower and higher producer strains NG14 and RUT C30. In this follow-up work, we examined how these mutations affect phenotype at the level of the transcriptome and cultivation behavior.  We performed kinetic transcriptome analysis of the NG14 and RUT C30 strains of early cellulase production induced by lactose using bioreactor cultivations close to industrial conditions. RUT C30 exhibited both earlier onset of cellulase production and higher steady-state productivity. A rather low  number of genes were regulated, most of them being specific to the NG14 strains. Clustering of these genes highlighted similar behavior for some functional categories, and allowed to distinguish between induction-related genes and productivity-related genes. The lower number of genes regulated in RUT C30 could not formally be linked to the relief in catabolic repression that is characteristic of this strain. Cross-comparison of our transcriptome data with mutations previously identified revealed that most genes from our dataset have not been mutated. Interestingly, the few mutated genes belong to the same clusters, suggesting these clusters contain genes playing a role in strain performance. This is the first kinetic transcriptome study carried out in industry-relevant conditions with two related strains of T. reesei showing distinctive performances. Our study sheds some light on some of the events occurring in these strains following induction by lactose. The fact that few regulated genes have been affected by mutagenesis suggest that the induction mechanism is essentially intact and that there is room for further improvement of T. reesei. We also provide some potential target for further genetic improvement of these strains.
+
+DESIGN
+Two biological pool by condition in dye switch. For the two biological replicates on each four experiments we apply on the pretreated results the linear modeling approach implemented by lmFit and the empirical Bayes statistics implemented by eBayes from the limma R package (Smyth 2004). We select the list of statistically regulated genes using a 5% significance threshold.
+
+PLATFORM
+GPL9076 ENS SGDB Trichoderma reesei Tr20_Tiling140_1 240k oligo array GPL19095 ENS SGDB Trichoderma reesei Tr20_Transcript_1
+
+CITATIONS
+25550711
+

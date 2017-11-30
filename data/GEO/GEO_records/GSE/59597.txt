@@ -1,0 +1,18 @@
+TITLE
+Condensin-Driven Remodeling of X-Chromosome Topology during Dosage Compensation [ChIP-Seq]
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+The three-dimensional (3D) organization of a genome plays a critical role in regulating gene expression, yet little is known about the machinery and mechanisms that determine higher-order chromosome structure or how structure influences gene expression. Here we exploit the X-chromosome-wide process of dosage compensation to dissect these mechanisms. The dosage compensation complex (DCC) of C. elegans, a condensin complex, binds to both X chromosomes of hermaphrodites via sequence-specific recruitment sites (rex sites) to reduce chromosome-wide gene expression by half. Using genome-wide chromosome conformation capture and single-cell FISH to compare chromosome structure in wild-type and DCC-defective embryos (DC mutants), we show that the DCC remodels X chromosomes of hermaphrodites into a spatial conformation distinct from autosomes. The dosage-compensated X chromosomes are composed of Topologically Associating Domains (TADs) that have sharper boundaries and more regular spacing than TADs on autosomes. Most TAD boundaries on X coincide with the highest-affinity rex sites, and these boundaries are lost or diminished in DC mutants, thereby restoring the topology of X to a native conformation resembling that of autosomes. Although most rex sites engage in multiple strong DCC-dependent long-range interactions, the strongest interactions occur between rex sites at the DCC-dependent TAD boundaries. We propose the DCC actively shapes the topology of the entire X chromosome by forming new TAD boundaries and reinforcing pre-existing weak TAD boundaries through interactions between its highest affinity sites. Such changes in higher-order X-chromosome structure then influence gene expression over long distances.
+
+DESIGN
+Our goal was to determine the molecular topology of the dosage compensated X chromosomes of C. elegans.  To do so we performed Hi-C analysis and FISH analysis in wild-type XX embryos and mutant XX embryos in which the dosage compensation complex was defective and could therefore not bind to the X chromosome.   We showed the dosage compensation complex actively shapes the topology of the entire X chromosome and creates a unique, sex-specific Xconformation that differs from the conformation of autosomes. RNA-seq experiments in wild-type and mutant embryos permitted a comparison between changes in chromosome structure and changes in gene expression.
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+26030525
+

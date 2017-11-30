@@ -1,0 +1,18 @@
+TITLE
+Genome-wide gene expression in response to mating pheromones in S. pombe
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Fission yeast cells undergo sexual differentiation in response to nitrogen starvation. In this process haploid M and P cells first mate to form diploid zygotes, which subsequently enter meiosis and sporulate. Prior to mating, M cells secrete M-factor and P-cells secrete P-factor, and these diffusible mating pheromone can activate a signal transduction pathway in the opposite cell type. The pheromone response orchestrates mating and is also required for entry into meiosis. Here we use DNA microarrays to identify genes that are induced by M-factor in P cells and by P-factor in M-cells. The use of a cyr1 genetic background allowed us to study pheromone stimulation independently of nitrogen starvation. We identified a total of 163 genes that were consistently induced more than two-fold by pheromone stimulation. As expected, there was a substantial overlap between the genes induced by M- and P-factor. Surprisingly, we found that pheromone control extended to genes fulfilling their function well beyond the point of entry into meiosis, including numerous genes required for meiotic recombination. A direct comparison of the M- and P-factor induced expression pattern allowed us to identify cell-type specific transcripts, including three new M-specific genes and one new P-specific gene. Finally, our results support the notion that Ste11 is the key transcription factor activated by pheromone signalling. Keywords: dose response
+
+DESIGN
+Gene expression profiling experiment in which gene expression in pheromone treated cultures was compared to that of untreated control cells. All cultures were growing exponentially in MSL minimal medium. S. pombe h+ cyr1- cells treated with M-factor mating pheromone for 2, 4 and 6 hrs respectively, were compared to non-treated cells. Similarly, S. pombe h- sax2- cyr1- cells treated with P-factor mating pheromone for 2, 4 and 6 hrs, were compared to non-treated cells. For identiofication of cell-type specific gene expression, h+ cyr1- cells were compaired  to h+ sxa2- cyr1- cells. This was done both before pheromone treatment (0h/0h) and after 6 hours of pheromone treatment (6h/6h). RNA was extracted and subjected to cDNA expression profiling analysis using the established protocols (Xue et al, Yeast 21, 25-39, 2004).Data normalized with 'Lowess' per chip per spot normalization.
+
+PLATFORM
+GPL3424 Eurogentec AG S. pombe ORF array 11k (L040B)
+
+CITATIONS
+17137508
+

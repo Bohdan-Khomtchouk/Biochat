@@ -1,0 +1,18 @@
+TITLE
+Evidence of transcription in intergenic sequences in Rickettsia conorii
+
+ORGANISM
+Rickettsia conorii str. Malish 7
+
+SUMMARY
+We used a microarray covering the whole genome of R. conorii to check if intergenic sequences were found transcribed. We checked the expression signals for probes corresponding to spacers as compared to probes corresponding to Open Reading Frames (ORFs). We got total RNA from R. conorii XTC cultures; we performed cDNA synthesis and then hybridizations. The hybridizations were repeated four times, and data were compared to check the reproducibility.
+
+DESIGN
+Bacterial culture. In this study, we used R. conorii subsp. conorii, strain Malish 7. It was cultivated on XTC cells for 3 days at 28°C. Microarray design. EArray (Agilent technologies) was used to generate a set of probes covering the whole genome of seven species of Rickettsiae (R. conorii strain Malish 7 (NC_003103), R. africae strain ESF-5 (NC_012633), R. slovaca (unpublished genome), R. massiliae (NC_009900), R. raoultii (unfinished genome), R. felis (NC_007109), R. prowazekii  strain Madrid E (NC_000963)). Only CDSs > 120 nt long and spacers > 60 nt long were retained to generate probes. The probes are 60 nt long, following Agilent’s recommendations, except for those corresponding to 34 short predictions (see below) of 20 nt long. The probes present the following Tm properties: mean=78.82, minimum=66.34, maximum=85.16. Preceding steps yielded a final oligonucleotide set of 14,625 probes resulting to a final coverage of 96%. Microarray design included control spots. Expression microarrays and analysis. Using the previously obtained RNA, cDNA synthesis was performed with M-MLV reverse transcriptase (Invitrogen) following the manufacturer’s instructions. 1µg cDNA was labelled with Cy3-dCTP and Cy5-dCTP (GE Healthcare) using BioPrime DNA labelling System (Invitrogen). Labelled cDNA was purified using Minelute Reaction Cleanup kit (Qiagen). The levels of Cy3-dCTP and Cy5-dCTP incorporation were quantified by absorbance measurement at 550 nm and 650 nm, respectively, on Nanodrop (ThermoFisher). Hybridizations were performed for 17h at 62°C as previously described. Slides were scanned using Agilent scanner (Agilent Technologies, CA, USA) with a 3 µm resolution and a 20 bit format. Data were extracted by Feature Extraction TM software (10.5.1.1 version, Agilent). Data were then treated using MIDAS software (Microarray Data Analysis System) ( http://www.tm4.org/midas.html ) to perform a global normalization. Data were analyzed using Excel 2003 (Microsoft). A cut-off value defined as 2-standard deviation obtained for background intensities was then applied. The microarray data were analyzed after a global normalization. The hybridizations were repeated four times, and data were compared to check the reproducibility. The hybridization pattern after normalization showed a linear correlation in the relative gene expression; the correlation’s coefficients for the four repeated assays are presented in table 3A. They vary from 0.9468 to 0.9845 highlighting a good reproducibility of the experiments.
+
+PLATFORM
+GPL9887 R. conorii chip V2
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

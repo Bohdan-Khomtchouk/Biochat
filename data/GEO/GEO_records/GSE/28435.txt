@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic Analysis of Rat Brain Following Exposure to the Organophosphonate Anticholinesterase Sarin
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Organophosphorus nerve agents irreversibly inhibit acetylcholinesterase, causing a toxic buildup of acetylcholine at muscarinic and nicotinic receptors.  Current medical countermeasures to nerve agent intoxication increase survival if administered within a short period of time following exposure but may not fully prevent neurological damage.  Therefore, there is a need to discover drug treatments that are effective when administered after the onset of seizures and secondary responses that lead to brain injury.  Methods  To determine potential therapeutic targets for such treatments, we analyzed gene expression changes in the rat piriform cortex following sarin (O-isopropyl methylphosphonofluoridate) exposure.  Male Sprague-Dawley rats were challenged with 1.0 x LD50 sarin and subsequently treated with atropine sulfate, 2-pyridine aldoxime methylchloride (2-PAM), and the anticonvulsant diazepam.  Control animals received an equivalent volume of vehicle and drug treatments.  The piriform cortex, a brain region particularly sensitive to neural damage from sarin-induced seizures, was extracted at 0.25, 1, 3, 6, and 24 h after seizure onset, and total RNA was processed for microarray analysis.  Principal component analysis identified sarin-induced seizure occurrence and time point following seizure onset as major sources of variability within the dataset.  Based on these variables, the dataset was filtered and analysis of variance was used to determine genes significantly changed in seizing animals at each time point.  The calculated p-value and geometric fold change for each probeset identifier were subsequently used for gene ontology analysis to identify canonical pathways, biological functions, and networks of genes significantly affected by sarin-induced seizure over the 24-h time course.  Results  A multitude of biological functions and pathways were identified as being significantly altered following sarin-induced seizure.  Inflammatory response and signaling pathways associated with inflammation were among the most significantly altered across the five time points examined.    Conclusions  This analysis of gene expression changes in the rat brain following sarin-induced seizure and the molecular pathways involved in sarin-induced neurodegeneration will allow a better identification of potential therapeutic targets for the development of effective neuroprotectants to treat nerve agent exposure.
+
+DESIGN
+Three animals were used for each experimental group (naïve, sarin-exposed non-seizure, non-seizure control [saline], sarin-exposed seizure, and seizure control [saline]) at each time point (0.25, 1, 3, 6, 24 h), with the exception of 1 h seizure control, 3 h sarin-exposed seizure, 24 h sarin-exposed non-seizure, and 24 h sarin-exposed seizure (n=4).
+
+PLATFORM
+GPL1355 [Rat230_2] Affymetrix Rat Genome 230 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

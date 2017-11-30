@@ -1,0 +1,18 @@
+TITLE
+Comparative analysis of single-cell RNA sequencing methods
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Single-cell RNA sequencing (scRNA-seq) offers new possibilities to address biological and medical questions. However, systematic comparisons of the performance of diverse scRNA-seq protocols are lacking. We generated data from 583 mouse embryonic stem cells to evaluate six prominent scRNA-seq methods: CEL-seq2, Drop-seq, MARS-seq, SCRB-seq, Smart-seq and Smart-seq2. While Smart-seq2 detected the most genes per cell and across cells, CEL-seq2, Drop-seq, MARS-seq and SCRB-seq quantified mRNA levels with less amplification noise due to the use of unique molecular identifiers (UMIs). Power simulations at different sequencing depths showed that Drop-seq is more cost-efficient for transcriptome quantification of large numbers of cells, while MARS-seq, SCRB-seq and Smart-seq2 are more efficient when analyzing fewer cells. Our quantitative comparison offers the basis for an informed choice among six prominent scRNA-seq methods and provides a framework for benchmarking further improvements of scRNA-seq protocols.
+
+DESIGN
+J1 mESC in two replicates per library preparation method.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL18480 Illumina HiSeq 1500 (Mus musculus)
+
+CITATIONS
+28212749
+

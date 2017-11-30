@@ -1,0 +1,18 @@
+TITLE
+Differential expression of miR-4520a associated with gain-of-function mutations in Familial Mediterranean Fever (FMF)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We knocked down the Mediterranean fever (MEFV) gene by RNA interference (siRNA) in human myelomonocytic cells that express endogenous pyrin, aiming to identify microRNAs (miRNAs) that are differentially expressed in siMEFV treated cells. The purpose of this study was to better understand the pathophysiology of FMF, through the identification of novel miRNAs involved in the regulation of MEFV.
+
+DESIGN
+The MEFV gene was knocked down by RNA interference (siRNA) in human myelomonocytic cells that express endogenous pyrin, aiming to identify microRNAs (miRNAs) that are differentially expressed in siMEFV treated cells using Affymetrix miRNA-3_0 chips. Heat maps from the significant differentially expressed microRNAs were produced and gene networks have been constructed to correlate pyrin with other known pathways and identify potential effectors regulated by pyrin. Microarray analyses revealed 29 significantly differentially regulated and most relevant miRNAs implicated in pathways associated with regulation of cellular integrity and survival. Bioinformatics analyses showed that miR-4520a is predicted to target genes implicated in autophagy through regulation of RHEB/mTOR signaling. Differential expression levels of RHEB were confirmed by luciferase reporter gene assays providing further evidence that RHEB is directly targeted by miR-4520a. Total RNA was extracted using the RNeasy Mini kit (Qiagen). The integrity of isolated RNA was assessed for each sample using an Agilent 2100 Bioanalyzer (Agilent, Waldbronn, Germany) and amount was checked with a NanoDrop ND-1000 spectrophotometer (NanoDrop Technologies, Wilmington, DE). Double-stranded complementary RNA was synthesized from 1 µg total RNA using Message AmpII Biotin (Ambion, USA). Fifteen micrograms of fragmented cRNA of each sample were hybridized to miRNA-3_0 chips (Affymetrix). Hybridization was performed in a Hybridization Oven 640, and chips were washed and stained in the Fluidics Station 400 (both Affymetrix). Finally, the arrays were scanned with a GeneChip Scanner 3000 using the Expression Console 1.3.1 software, both Affymetrix. The RMA or not RMA normalized data of quality checked microarrays were analyzed with High Performance Chip Data Analysis (HPCDA), using Access databases also for HPCDA-Score, HPCDA-Volcano-Plot and Gene List Significance Index (GLSI) calculations. Not RMA normalized data were further normalized with four different methods or only scaled. With HPCDAs of all the seven differently normalized Signals, seven lists of significant differentially expressed miRNAs were generated. With GLSI, HPCDA-Score and HPCDA-Volcano-Plot, the 29 most relevant miRNAs were defined.
+
+PLATFORM
+GPL16384 [miRNA-3] Affymetrix Multispecies miRNA-3 Array
+
+CITATIONS
+27636101 , 19265543
+

@@ -1,0 +1,18 @@
+TITLE
+Control of expression noise, fitness and gene aggregation by a component of the yeast pheromone response pathway
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Cellular processes are subject to variability, or noise, yet mechanisms that promote cell-to-cell uniformity are poorly understood.  We have identified such a role for Dig1, a redundant (with Dig2) MAPK-responsive inhibitor of the S. cerevisiae mating pathway transcription factor Ste12.  Cells lacking Dig1, but not Dig2, exhibited increased variability in outputs of the mating pathway.  dig1∆ mutants also displayed a Ste12-dependent defect in growth in the absence of mating pheromone and a quantitative defect in the process of mating, itself.  In cells expressing two reporter genes driven by the same promoter, both intrinsic/uncorrelated and extrinsic/correlated noise were found to increase.  Remarkably, the extrinsic noise phenotype in cells lacking Dig1 correlates with the aggregation of target genes: we observed subnuclear foci of Ste12 specifically in dig1∆ cells and, using a newly-developed method to immunoprecipitate a single locus from crosslinked chromatin, we found that Dig1 inhibits long-range interactions between Ste12 target genes in vivo.  Dig1 may shield binding surfaces on Ste12 whose unmasking leads to inappropriate gene associations and increased gene expression noise.  These studies reveal how investigations of variability modulation mechanisms can yield unexpected biological insights.
+
+DESIGN
+The FUS1 locus is tagged with an array of lac operators.  Wild type and dig1∆ cells containing this tagged FUS1 locus and expressing a mCherry-LacI were grown up for ChIP-chip.  The FUS1 locus was selectively immunoprecipitated using an anti-DsRed antibody.
+
+PLATFORM
+GPL4130 Agilent-014741 Yeast Whole Genome ChIP-on-Chip Microarray 244K (G4491A)
+
+CITATIONS
+20852627
+

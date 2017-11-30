@@ -1,0 +1,18 @@
+TITLE
+Key transcription factors altered in multiple myeloma patients revealed by logic programming approach combining gene expression pro ling and regulatory networks
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Innovative approaches combining regulatory networks and genomic data are needed to extract pertinent biological informations to a better understanding of complex disease such as cancer and improve identi cation of entities leading to potential new therapeutic avenues. In this study, we confronted an automatic generated regulatory network with gene expression pro les (GEP) from a large cohort of patients with multiple myeloma (MM) and normal individuals with a causality reasonning method based of graph coloring to identify keynodes. Due to this causality reasoning, it is possible to infer proteins state from these GEP. Also, our method is able to simulate the impact of the perturbation of a node in this regulatory network to identify therapeutic targets. This method allowed us to nd that JUN/FOS and FOXM1, known in MM, and their inhibition as speci c to large group of patients with MM. Moreover, we associated the inhibition of FOXM1 activity with good prognosis, suggesting the inhibition of FOXM1 activity could be a survival marker. Finally, if JUN/FOS activation seems to be a way to strongly perturb the regulatory network in view of GEP, our result suggests the activation of FOXM1 could be interesting way to perturb some sub-group of profiles.
+
+DESIGN
+602 myeloma patients examined with regulatory network on gene expression profiling
+
+PLATFORM
+GPL5175 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+28835615
+

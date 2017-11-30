@@ -1,0 +1,18 @@
+TITLE
+Transcriptional and Epigenetic Dynamics During Specification of Human Embryonic Stem Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Differentiation of human embryonic stem cells (hESCs) provides a unique opportunity to study the epigenetic mechanisms that facilitate cellular transitions in a human context. To that end, we performed comprehensive transcriptional and epigenetic profiling of early populations derived through directed differentiation of hESCs representing each of the three embryonic germ layers. Integration of whole genome bisulfite sequencing, chromatin immunoprecipitation-sequencing and RNA-Sequencing reveals unique events associated with specification towards each lineage. While we observe expected dynamics such as loss of DNA methylation and gain of H3K4me1 at distal putative regulatory elements, we frequently found a germ layer specific switch to H3K27me3 at sites of high DNA methylation in the undifferentiated state. By carefully dissecting these initial events, we may be able to devise more faithful differentiation strategies and gain novel insights in to the robust rewiring of regulatory programs during cellular transitions.
+
+DESIGN
+10 Samples in total, 5 in replicate. To better understand the interplay of epigenetic dynamics and transcription factor binding upon in vitro specification of human embryonic stem cells we profiled OCT4, SOX2 and NANOG in hESC and the endoderm master regulatory factor FOXA2 in in vitro derived endoderm cells (dEN). To gain further insights into the relation of DNA methylation and TF binding, we carried out ChIP-bisulfite sequencing for FOXA2 in dEN. Lastly, we were interested in the fate of genes bound by FOXA2 in dEN upon further differentiation and therefore differentiated dEN further towards a hepatocyte like state and performed RNA-Seq.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+23664763
+

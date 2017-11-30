@@ -1,0 +1,18 @@
+TITLE
+Rec8 guides canonical Spo11 distribution along yeast meiotic chromosomes
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Spo11-mediated DNA double strand breaks (DSBs) that initiate meiotic recombination are temporally and spatially controlled. The meiotic cohesin Rec8 has been implicated in regulating DSB formation, but little is known about the features of their interplay. To shed light on this point, we investigated the genome-wide localization of Spo11 in budding yeast during early meiosis by chromatin immunoprecipitation using high-density tiling arrays. We found that Spo11 is dynamically localized to meiotic chromosomes. Spo11 initially accumulated around centromeres and thereafter localized to arm regions as premeiotic S-phase proceeded. During this stage, a substantial proportion of Spo11 bound to Rec8 binding sites. Eventually, some of Spo11 further bound to both DSB and Rec8 sites. We also showed that such a change in a distribution of Spo11 is affected by hydroxyurea (HU) treatment. Interestingly, deletion of REC8 influences the localization of Spo11 to centromeres and in some of the intervals of the chromosomal arms. Thereby we observed a lack of DSB formation in a region-specific manner. These observations suggest that Rec8 would prearrange the distribution of Spo11 along chromosomes and will provide clues to understanding temporal and spatial regulation of DSB formation. Keywords: ChIP-chip
+
+DESIGN
+• The goal of the experiment Genome-wide localization of Spo11, Mre11, Rec8, and DSB sites on meiotic chromosomes in Saccharomyces cerevisiae • Keywords Meiosis, Meiotic homologous recombination, Premeiotic DNA replication, cohesin, Saccharomyces cerevisiae, Genome tilling array (chromosome III, IV, V, VI), Spo11, Mre11, Rec8, DSB (Double strand break) • Experimental factor Distribution of Spo11, Mre11, and Rec8 in wild type in early meiosis (1.5 hrs, 2 hrs, 3 hrs, 4 hrs, and 5 hrs in sporulation medium) Distribution of Spo11 in rec8delta cells in early meiosis (1.5 hrs, 2 hrs, 3 hrs, 4 hrs, and 5 hrs in sporulation medium) Distribution of Spo11 in wild type in the presence of HU (2hrs and 4 hrs in sporulation medium containing HU) Distribution of DSB sites in rad50S mutant cells at 7 hrs in sporulation medium Distribution of DSB sites in rec8delta rad50S mutant cells at 7 hrs in sporulation medium • Experimental design ChIP analyses: SK1 background cells expressing FLAG tagged protein were used for the ChIP using anti-FLAG M2 antibody. ChIP-chip analyses: In all cases, hybridization data for ChIP fraction was compared with WCE (whole cell extract) fraction. Saccharomyces cerevisiae affymetrix genome tiling array (SC3456a520015F for chromosome III, IV, V, VI and rikDACF for chromosome VI) were used. Mapping of DSB sites: DSB rich fraction was concentrated by ChIP of Spo11-FLAG in rad50S mutant without crosslinking. In the mutant, DSBs ramain unrepaired with covalently attached Spo11.Meiotic cells (at 7 hours in sporulation medium) were used for the analyses. • Quality control steps taken Confirmation of several loci by quantitative real time PCR. Southern blotting of several DSB sites.
+
+PLATFORM
+GPL347 rikDacFC6 GPL1280 SC3456a520015F
+
+CITATIONS
+19439448
+

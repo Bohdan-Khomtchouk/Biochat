@@ -1,0 +1,18 @@
+TITLE
+Regulation of bifurcating B cell trajectories by mutual antagonism between IRF4 and IRF8 (RNA-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Upon antigen recognition B cells undertake a bifurcated response in which some cells rapidly differentiate into plasmablasts while others undergo affinity maturation in germinal centers (GC). We uncover a double negative feedback loop between interferon regulatory factors IRF4 and IRF8, which regulates the initial bifurcation of activated B cells as well as the GC response. IRF8 dampens BCR signaling, facilitates antigen specific interaction with helper T cells, and promotes selection of high affinity clones while antagonizing IRF4 driven plasmablast differentiation. Genomic analysis reveals concentration dependent action of IRF4 and IRF8 in regulating distinctive gene expression programs. Stochastic modeling suggests that the double negative feedback is sufficient to initiate bifurcating B cell developmental trajectories.
+
+DESIGN
+Naïve B cells were isolated from Irf8+/+ (wild type, WT) mice spleen and activated in vitro with 10μg/ml LPS (Sigma). CD138hi IgMhi (IRF4hi*) cells and CD138lo IgMlo (IRF8hi*) cells were sorted by flow cytometry at 72 hours. Total RNA was prepared by using Rneasy Mini kit (Qiagen) and sequenced with Illumina HiSeq2500. Alignment was performed with Taphat2, and transcript abundance quantification using Cuffdiff function from Cufflinks. GC B cells were sorted from CD19cre/+ Irf8+/+ (Ctrl) or CD19cre/+ Irf8flox/flox (Irf8 cKO) mice on dpi 13 post NP-KLH immunization. Total RNA was prepared by using Rneasy Mini kit (Qiagen) and amplified with with Ovation RNA-Seq System v2 (NuGEN). The data were analyzed by Wardrobe. More details are provided in the manuscript.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26437243
+

@@ -1,0 +1,18 @@
+TITLE
+Transcriptome-wide ribonuclease footprinting to identify RNA-protein interaction sites
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA-binding proteins (RBPs) are intimately involved in all aspects of RNA processing and regulation and are linked to neurodegenerative diseases and cancer. Therefore, understanding the relationship between RBPs and their RNA targets is critical for a broader understanding of post-transcriptional regulation in normal and disease processes.  The majority of approaches to study RNA-protein interactions focus on single RBPs, however there are many hundreds RBPs encoded in the human genome, and each cell type expresses a different catalog of these regulatory molecules, greatly limiting the ability of these single RBP approaches to capture the global landscape of RNA-protein interactions. We and others have developed approaches to globally catalog regions of mRNAs that are bound by proteins in an unbiased manner.  Here we describe a detailed protocol for performing our RNase-mediated protein footprint sequencing approach, termed protein interaction profile sequencing (PIP-seq). In this protocol, RNA-protein interactions are stabilized by cross-linking, and un-bound regions are digested with RNases, leaving only the protein-bound regions intact. To control for RNase insensitive regions, proteins are first denatured and then RNP complexes are subject to RNase treatment. After high-throughput sequencing of remaining fragments, peak calling is performed to identify protein protected sites (PPSs). We describe the application of this protocol to a human embryonic kidney cell line and perform basic quality control, reproducibility and benchmarking analyses.  Finally, we describe the landscape of protein-interactions in HEK293T cells, underscoring the value of this approach.  Future applications of this method to study the dynamics of RNA-protein interactions in developmental processes will help to uncover the role of RBPs in post-transcriptional regulation.
+
+DESIGN
+Protein interaction profile sequencing (PIP-seq) in HEK293T cells. Three replicates of formaldehyde cross-linked PIP-seq are described
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25448484
+

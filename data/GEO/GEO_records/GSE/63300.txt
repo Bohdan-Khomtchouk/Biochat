@@ -1,0 +1,18 @@
+TITLE
+RNA-seq analysis of differences in gene expression between dorsal and ventral MEC
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Neural circuits in the medial entorhinal cortex (MEC) encode an animal’s position and orientation in space. Within the MEC spatial representations, including grid and directional firing fields, have a laminar and dorsoventral organization that corresponds to a similar topography of neuronal connectivity and cellular properties. Yet, in part due to the challenges of integrating anatomical data at the resolution of cortical layers and borders, we know little about the molecular components underlying this organization. To address this we develop a new computational pipeline for high-throughput analysis and comparison of in situ hybridization (ISH) images at laminar resolution. We apply this pipeline to ISH data for over 16,000 genes in the Allen Brain Atlas and validate our analysis with RNA sequencing of MEC tissue from adult mice. We find that differential gene expression delineates the borders of the MEC with neighboring brain structures and reveals its laminar and dorsoventral organization. Our analysis identifies ion channel-, cell adhesion- and synapse-related genes as candidates for functional differentiation of MEC layers and for encoding of spatial information at different scales along the dorsoventral axis of the MEC. Our results support the hypothesis that differences in gene expression contribute to functional specialization of superficial layers of the MEC and dorsoventral organization of the scale of spatial representations.
+
+DESIGN
+Examination of dorsal and ventral regions from 4 replicate samples each containing pooled data from 3-4 mice
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25615592
+

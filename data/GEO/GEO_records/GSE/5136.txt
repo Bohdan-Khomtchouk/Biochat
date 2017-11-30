@@ -1,0 +1,18 @@
+TITLE
+Comparison of linear and exponential amplification techniques for expression profiling at the single-cell level
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We tested the performance of three methods for amplifying single-cell amounts of RNA under ideal conditions: T7-based in vitro transcription; switching mechanism at 5' end of RNA template (SMART) PCR amplification; and global PCR amplification. All methods introduced amplification-dependent noise when mRNA was amplified 108-fold, compared with data from unamplified cDNA. PCR-amplified cDNA demonstrated the smallest number of differences between two parallel replicate samples and the best correlation between independent amplifications from the same cell type, with SMART outperforming global PCR amplification. SMART had the highest true-positive rate and the lowest false-positive rate when comparing expression between two different cell types, but had the lowest absolute discovery rate of all three methods. Direct comparison of the performance of SMART and global PCR amplification on single-cell amounts of total RNA and on single neural stem cells confirmed these findings. Under the conditions tested, PCR amplification was more reliable than linear amplification for detecting true expression differences between samples. SMART amplification had a higher true-positive rate than global amplification, but at the expense of a considerably lower absolute discovery rate and a systematic compression of observed expression ratios. Keywords: Oliginucleotide expression microarrays, T7-based linear amplification; SMART PCR-based amplification;  global PCR amplification
+
+DESIGN
+Total RNA was isolated from two mouse cell lines, an ovary epithelial cell line (OV) and 3T3 fibroblasts (3T3). Unamplified targets (cDNA) were synthesized from 100 μg of total RNA by reverse transcription. RNA (starting with 10 ng) was amplified by using linear T7 based- (cRNA) or exponential PCR-based amplifications (switching mechanism at 5' end of RNA template (SMART) PCR amplification; modified SMART  (SM37) and global PCR amplification (GA). Synthesized DNA/cRNA samples were indirectly labeled with Cy3/Cy5 dyes. Labeled targets were co-hybridized on oligonucleotide arrays. Self-self control hybridizations were performed to estimate the levels of technical noise. Labeled DNA/cRNA were divided in two parts and each was coupled with either Cy3 or Cy5 NHS-esters followed by co-hybridization on the same slide Replicate hybridizations were performed to estimate the variability in expression data due to amplification techniques. Pairs of technical replicates synthesized from ovarian cell line total RNA by each amplification method or by reverse transcription (unamplified cDNA) were compared in two dye-swaps hybridizations. Comparison of gene expression between two different cell lines was performed to estimate the rate of true outliers for each amplification method in four hybridizations of cDNAs amplified by the same technique. Similarly, we compared the precision of SMART and GA amplification techniques at the 10 pg input RNA level in four hybridizations of the targets obtained from the same cell lines.
+
+PLATFORM
+GPL2584 FJL Mouse Compugen 22K Oligo
+
+CITATIONS
+16542485
+

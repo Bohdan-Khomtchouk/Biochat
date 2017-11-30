@@ -1,0 +1,15 @@
+TITLE
+Expression profiling of Gastric Cancers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+124 gastric biopsies comprising of Normals, Intestinal Metaplasia, Chronic Gastritis and Carcinomas are profiled. The ratio metric is given by (Biological sample / Universal Reference). The Biological Samples are labeled with Cy5 (Green) and the Pooled Normal Biopsies  RNA is always labeled with Cy3 (Red). The arrays were scanned using a ScanArray 5000 scanner (Perkin-Elmer) and data extraction was done using Quantarray (GSI Lumonics). Subsequently, the data was imported into GeneSpring (Silicon Genetics) and intensity dependent LOWESS normalization was performed. The 7383 genes were filtered using an intensity in the reference channel (Cy3) of 300. This corresponded to 2 standard deviations above the mean for the background signal. Background singal was calculated using the empty wells/spots on the array and the average of 4 different positions on the slide were used. Keywords: other
+
+PLATFORM
+GPL2048 PeterMac 8k cDNA chip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

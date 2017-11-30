@@ -1,0 +1,18 @@
+TITLE
+Transcriptional repression in hypoxia is mediated by the Sin3A histone deacetylase complex [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cells adapt to environmental changes, including fluctuations in oxygen levels, through the induction of specific gene expression programs. To identify genes regulated by hypoxia at the transcriptional level, we pulse-labeled HUVEC cells with 4-thiouridine and sequenced nascent transcripts. Then, we searched genome-wide binding profiles from the ENCODE project for factors that correlated with changes in transcription and identified binding of several components of the Sin3A co-repressor complex, including SIN3A, SAP30 and HDAC1/2, proximal to genes repressed by hypoxia. SIN3A interference revealed that it participates in the downregulation of 75% of the hypoxia-repressed genes in endothelial cells. Unexpectedly, it also blunted the induction of 47% of the upregulated genes, suggesting a role for this corepressor in gene induction. In agreement, ChIP-seq experiments showed that SIN3A preferentially localizes to the promoter region of actively transcribed genes and that SIN3A signal was enriched in hypoxia-repressed genes, prior exposure to the stimulus. Importantly, SINA3 occupancy was not altered by hypoxia in spite of changes in H3K27ac signal. In summary, our results reveal a prominent role for SIN3A in the transcriptional response to hypoxia and suggest a model where modulation of the associated histone deacetylase activity, rather than its recruitment, determines the transcriptional output.
+
+DESIGN
+Exponentially growing non-synchronized HUVEC were transduced with lentiviral particles encoding for shRNA targeting SIN3A or control shRNA. 72h after infections cells were exposed to normoxia or hypoxia (21% or 1%  oxygen respectively) for 16 hours. RNA was extracted from samples and analyzed by high-throughput sequencing. Data include 8 samples corresponding to 2 independent biological replicates.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

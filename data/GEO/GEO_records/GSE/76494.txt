@@ -1,0 +1,18 @@
+TITLE
+Identification of in vivo binding sites of human GFP-tagged C2H2-ZF proteins
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The largest and most diverse class of eukaryotic transcription factors contain Cys2-His2 zinc fingers (C2H2-ZFs), each of which typically binds a DNA nucleotide triplet within a larger binding site. Frequent recombination and diversification of their DNA-contacting residues suggests that these zinc fingers play a prevalent role in adaptive evolution. Very little is known about the function and evolution of the vast majority of C2H2-ZFs, including whether they even bind DNA. We determined in vivo binding sites of 39 human C2H2-ZF proteins, and correlated them with potential functions for these proteins.
+
+DESIGN
+We expressed GFP-tagged C2H2-ZF proteins in stable transgenic HEK293 cells. Chromatin immunoprecipitation was performed as described before (Schmidt et al., Methods, 2009), and ChIP samples along with several control samples from different experimental batches were sequenced on Illumina HiSeq 2000. Reads were mapped to hg19 (GRCh37) assembly, and peaks were identified by MACS using an experiment-specific background that controls for various biases, such as the Sono-Seq effect as well as potential co-purification of targets of other (interacting) proteins.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27852650
+

@@ -1,0 +1,18 @@
+TITLE
+Acid-inducible genes in Streptococcus mutans: multiple two-component systems involved in acid adaptation
+
+ORGANISM
+Streptococcus mutans
+
+SUMMARY
+Global transcriptional analysis of acid-inducible genes in Streptococcus mutans: multiple two-component systems involved in acid adaptation pH is a major environmental factor that regulates gene expression in many bacteria. Streptococcus mutans in dental biofilms is regularly exposed to cycles of acidic pH during the ingestion of fermentable dietary carbohydrates. The ability of S. mutans to tolerate low pH is crucial for its virulence and the pathogenesis in dental caries. To better understand its acid tolerance mechanisms, we used DNA microarray to perform genome-wide transcriptional analysis of S. mutans in response to acidic pH. The results showed that adaptation of S. mutans to pH 5.5 for 2 hrs induced differential expression of nearly 14% of genes in the genome, including 169 up-regulated genes and 108 down-regulated genes, largely categorized into six groups. Especially, we found that the genes encoding multiple two-component systems, including CiaHR, LevSR, LiaSR, ScnKR, HK/RR07 and ComDE, were up-regulated during acid adaptation. These findings were further confirmed by real time qRT-PCR and phenotypic assays of the gene deletion mutants. The results support that the multiple two-component systems are required for S. mutans to orchestrate its signal transduction networks for optimal adaptation to acidic pH.
+
+DESIGN
+Total RNAs were isolated from S. mutans UA159 cells (0.6 at OD600) grown in a TYG broth (3% tryptone, 0.3% yeast extract and 20 mM glucose) at either pH 5.5 or pH 7.5. The RNAs were treated with RNase-free DNase 1 and purified by Qiagen RNeasy mini columns. The purified RNAs were used to generate cDNA probes by an indirect labeling method based on the protocol from TIGR. The cDNAs were coupled with AlexaFluor 555 or AlexaFluor 647 (Invitrogen). The labeled cDNA probes from three different cultures of UA159 were hybridized to the S. mutans microarray slides obtained from PFGRC ( http://pfgrc.tigr.org ). Array hybridization was conducted using a protocol from the PFGRC with minor modification. After hybridization, washes and dried, the array slides were scanned by ScanArray 5000XL Reader (Perkin Elmer, Boston, MA). After the array slides were scanned, the resulting images were loaded into TIGR Spotfinder software ( http://www.tigr.org/software/ ) and overlaid. A spot grid was created according to TIGR specifications and manually adjusted to fit all spots within the grid, and the intensity values of each spot were determined. Signal intensities of individual channels from an array slide were averaged and normalized using an array data analysis software (MIDAS) by using LOWESS and iterative log mean centering with default settings, followed by in-slide replicate analysis. A t-test was used to determine the consistency of ratios across replicate hybridizations. Only genes whose ratios were ≥ 2-fold changes (either increase or decrease) with 99% confidence interval (P ≤ 0.01) were considered statistically significant.
+
+PLATFORM
+GPL8255 Streptococcus mutans 10.7K oligonucleotide array version 1
+
+CITATIONS
+19608608
+

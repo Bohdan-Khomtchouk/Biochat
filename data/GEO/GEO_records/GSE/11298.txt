@@ -1,0 +1,18 @@
+TITLE
+Tissue/Cell DNaseI sensitivity/hypersensitivity screening II
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNaseI hypersensitivity using DNase-array method on Affy platform overall design Per DNase-array method (Sabo et al Nature Methods 3:511,2006) PMID: 15782197 This study is part of an ongoing screening process designed to obtain high quality cell-lines/tissues for further high throughput sequencing analysis. Bed files based on hg17 genome build Keywords: genomic
+
+DESIGN
+This deposit consists of 74 experimental samples (DNaseI enriched). Each experimental sample is analyzed, by cell type, with a set of 3 averaged control replicate samples. PBLC controls consist of the 3 replicates full set of seven Affymetrix 2.0R arrays, each of the other control sets consist of only 1 component array (denoted by the first value in the CEL file name and as a component of the characteristics). 3 BJ controls where combined via Affymetrix TAS (tiling array software) for control analysis vs. each of the 4 BJ experimental samples 3 CACO controls where combined via Affymetrix TAS (tiling array software) for control analysis vs. each of the 7 CACO experimental samples 3 GM12878 controls where combined via Affymetrix TAS (tiling array software) for control analysis vs. both of the GM12878 experimental samples 3 OVCAR controls will be used in future experimental analysis (TBD) 18 PBLC controls where combined via Affymetrix TAS (tiling array software) for control analysis vs. each of the of the 11 SKMC, 1 HMEC and 1 NHBE experimental samples. 3 SKNS controls where combined via Affymetrix TAS (tiling array software) for control analysis vs. each of the 16 SKNS samples Previous GEO submission comprise the control samples for the remaining experimental samples: GSM227018, GSM227019, GSM227020 combined via Affymetrix TAS for control analysis vs. each of the 3 ESER, 3 FLER, 3 ESER, 5 GM69 experimental samples GSM172647, GSM172673, GSM172681 combined via Affymetrix TAS for control analysis vs. each of the 12 HeLa experimental samples GSM227015, GSM227016, GSM227017 combined via Affymetrix TAS for control analysis vs. each of the 3 HEPG experimental samples GSM227012, GSM227013, GSM227014 combined via Affymetrix TAS for control analysis vs. each of the 3 HL60 experimental samples
+
+PLATFORM
+GPL4910 [Hs35b_P01R] Affymetrix Human Tiling 2.0R Set, Array 1 GPL4911 [Hs35b_P02R] Affymetrix Human Tiling 2.0R Set, Array 2 GPL4912 [Hs35b_P03R] Affymetrix Human Tiling 2.0R Set, Array 3 GPL4913 [Hs35b_P04R] Affymetrix Human Tiling 2.0R Set, Array 4 GPL4914 [Hs35b_P05R] Affymetrix Human Tiling 2.0R Set, Array 5 GPL4915 [Hs35b_P06R] Affymetrix Human Tiling 2.0R Set, Array 6 GPL4916 [Hs35b_P07R] Affymetrix Human Tiling 2.0R Set, Array 7
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

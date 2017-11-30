@@ -1,0 +1,18 @@
+TITLE
+Pac1+/+ versus Pac1-/- BMMCs_IgE-DNP 2 h
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Bone marrow-derived mast cells were differentiated over 4-6 weeks using bone marrow from Pac-1+/+ and Pac1-/- littermate mice. Cell purity was 99% c-kit and Fc epsilon receptor positive as assessed by flow cytometry. Cells were stimulated by Fc epsilon receptor crosslinking using IgE-DNP/HSA for sensitization for 18 hours and DNP-HSA antigen for crosslinking for 2 hours. Gene transcript abundance was determined and scaled to 150 using alogorithms in MicroArray Analysis Suite Software 5.0 (Affymetrix). Keywords: Cpmparison of Pac-1+/+ and Pac-1-/- activated BMMCs
+
+DESIGN
+Two genechips on independent mBMMC cultures was performed.  The signal data of the .CEL files for the four Affymetrix 430A chips (2 Pac1+/+ and 2 Pac1–/–) were normalised using the RMA method 49. The ebayes function implemented in the version 1.3.12 of the Limma package (2003) of Bioconductor was used to analyse the data and P-values were adjusted for multiple testing. After conversion from logged values to the original intensities, the data was filtered to remove probe sets with mean, non-logged, intensities below 100.  Transcripts with p-values less than 0.05 were considered different from Pac1+/+.
+
+PLATFORM
+GPL339 [MOE430A] Affymetrix Mouse Expression 430A Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

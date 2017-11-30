@@ -1,0 +1,18 @@
+TITLE
+Threonine-4 of Mammalian RNA Polymerase II CTD is Targeted by  Polo-like Kinase-3 and Required for Transcriptional Elongation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Eukaryotic RNA polymerase II (Pol II) has evolved an array of heptad repeats with the consensus sequence Tyr1-Ser2-Pro3-Thr4-Ser5-Pro6-Ser7 at the carboxy-terminal domain (CTD) of the large subunit (Rpb1). Differential phosphorylation of Ser2, Ser5, and Ser7 in the 5’ and 3’ regions of genes coordinates the binding of transcription and RNA processing factors to the initiating and elongating polymerase complexes. Here, we report phosphorylation of Thr4 by Polo-like-kinase-3 in mammalian cells. ChIPseq analyses indicate an increase of Thr4-P levels in the 3’ region of genes occurring subsequently to an increase of Ser2-P levels. A Thr4/Ala mutant of Pol II displays a lethal phenotype. This mutant reveals a global defect in RNA elongation, while initiation is largely unaffected. Since Thr4 replacement mutants are viable in yeast we conclude that this amino acid has evolved an essential function(s) in the CTD of Pol II for gene transcription in mammalian  cells.
+
+DESIGN
+In this study, we investigated the function and ChIPseq genome-wide profiling of Thr4P residue (using the 6D7 antibody) of the Pol II CTD in Raji human B cells in comparison with either total Pol II profiling (N20 antibody, santa-cruz sc-899x), Ser5P CTD (3E8) or Ser2P (3E10) profiling in WT Raji cells. In another set of experiments, we also analysed total Pol II profiling (using an HA tag at the N-terminus of RPB1 and HA antibody Abcam ab9110) when endogenous enzyme is shut down by alpha-amanitin and replaced by either a recominant Pol II with 48 consensus repeats of the CTD (con48) or a mutated version where Thr4 residues were replaced by Ala (Thr4-Ala).In total 6 experimental sets (Pol IIt, Ser5P, Ser2P, Thr4P, con48, Thr4-Ala) were generated for our analysis and for each a biological replicate was performed. Biological replicates were merged when the data showed comparable signal noise ratio. Otherwise a unique replicate, showing the best noise ratio, was chosen for further analysis although the second replicate (for Ser2P and Thr4-Ala experiments). An input control (genomic DNA extracted after reverse crosslinking of the nuclear chip extracts) was performred and used for substraction to the ChIP experiments. One specific input material was used for wt cells, one for con48 and one for Thr4-Ala. Our data were processed to generate final wig files using our in house analysis pipeline essentially as described in Koch et al, (2011) NSMB 18 (8) p956.In brief, after alignment, sequence tags are: (i) artefact removed, (ii) elongated to an in silico optimized actual size of the initial fragments , (iii) input substracted, (iv) merged if applicable, (v) scaled for all experiments to correct for variation of tag number in between experiments. Several of the raw data files were no longer available.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+22549466
+

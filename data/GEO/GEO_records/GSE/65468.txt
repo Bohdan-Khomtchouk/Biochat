@@ -1,0 +1,18 @@
+TITLE
+Analysis of Klf4 factor stoichiometry effects during iPS cell derivation from mouse embryonic fibroblasts
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Oct3/4, Sox2, Klf4, and c-Myc re-wire somatic cells to achieve induced pluripotency (iPS cells). However, subtle differences in reprogramming methodology may confound comparative studies of reprogramming-induced gene expression changes. We specifically focused on the design of polycistronic reprogramming constructs, which encode all four factors linked with 2A peptides. Notably, publically available cassettes were found to employ one of two Klf4 variants (Klf4S and Klf4L; GenBank Accession No’s: AAC52939.1 and AAC04892.1), differing only by nine N-terminal amino acids. In a polycistronic context, these two variants generated dissimilar protein stoichiometry, where Klf4L vectors produced more Klf4 protein than those encoding Klf4S. Employing piggyBac transposons, we systematically assessed gene expression changes during mouse embryonic fibroblast (MEF) reprogramming using a panel of novel and publically available polycistronic cassettes (Klf4S: OKMS, STEMCCA, EB-C5, WTSI; Klf4L: OSKM, MKOS, OK+9MS, OKN-HAMS). Strikingly, global gene expression patterns elicited by the panel of polycistronic cassettes at an intermediate stage of reprogramming (day6) diverged according to the Klf4 variant they encoded. Klf4L expressing vectors induced gene expression changes in MEFs similar to over-expression of Klf4 alone. Moreover, we found that these gene expression clusters were associated with differences in reprogramming hallmarks, including colony formation frequencies and the stabilization of transgene-independent pluripotency. Our data exposes a Klf4 reference cDNA variation that alters polycistronic factor stoichiometry, implicating a threshold in determining reprogramming outcomes. We hope this study will help to guide the comparison of compatible public gene expression data sets.
+
+DESIGN
+11 samples were analyzed. MEFs were transfected with one of eight different polycistronic reprogramming vectors or one of two Klf4 variants, followed by FACS sorting for transgene-positive cells. A MEF cell sample, mock transfected with a lacZ expression vector, was used as a reference for all intermediate reprogramming populations. All samples were compared to reveal construct-specific and common gene expression changes.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+25772473
+

@@ -1,0 +1,18 @@
+TITLE
+A modified bacterial one-hybrid system yields improved quantitative models of transcription factor specificity
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+We examine the use of high-throughput sequencing on binding sites recovered using a bacterial one-hybrid (B1H) system and find that improved models of transcription factor (TF) binding specificity can be obtained compared to standard methods of sequencing a small subset of the selected clones. We can obtain even more accurate binding models using a modified version of B1H selection method with constrained variation (CV-B1H). However, achieving these improved models using CV-B1H data required the development of a new method of analysis - GRaMS (Growth Rate Modeling of Specificity) - that estimates bacterial growth rates as a function of the quality of the recognition sequence.  We benchmark these different methods of motif discovery using Zif268, a well characterized C2H2 zinc finger transcription factor on both a 28bp randomized library for the standard B1H method and on 6bp randomized library for the CV-B1H method for which forty-five different experimental conditions were tested: 5 time points and three different IPTG and 3-AT concentrations.  We find that GRaMS analysis is robust to the different experimental parameters whereas other analysis methods give widely varying results depending on the conditions of the experiment. Finally, we demonstrate that the CV-B1H assay can be performed in liquid media, which produces recognition models that are similar in quality to sequences recovered from selection on solid media.
+
+DESIGN
+All selections were performed using the bait transcription factor Zif268.  45 different B1H selections were performed on plates and the selected sites were multiplexed and sequenced in a single lane.  A single selection was performed in liquid media and sequenced along with other multiplexed sets of sites in a separate lane.  For the experiments performed on plates, the of the selections assays was varied (4, 8, 12, 18, 24 hours).  The stringency of the selections was also varied by changing the concentration of IPTG (0, 10, 50 uM) and 3-AT (0.5, 1, 2 mM).  The initial randomized library used for all selections was also sequenced in a single lane.  The randomized portion of each transcription factor binding site is 6bp long and is immediately 5' of the constant sequence, GCGG, which is the consensus binding site for finger 1 of Zif268.  Upstream of the randomized binding site is a 4bp randomized region referred to as the key region.  The purpose of the key region is to detect possible PCR 'jackpotting.'  The single liquid media experiment was run for 4 hours using 50uM IPTG and 5mM 3-AT.  Four selections were performed using a prey library with a 28bp long randomized region and not fixed consensus site region. These selections were performed at either 36 or 48 hours using 10uM IPTG and 0, 2, or 5 mM 3-AT.
+
+PLATFORM
+GPL11631 Illumina Genome Analyzer IIx (synthetic construct)
+
+CITATIONS
+21507886
+

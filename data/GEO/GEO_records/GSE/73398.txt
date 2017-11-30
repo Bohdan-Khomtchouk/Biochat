@@ -1,0 +1,18 @@
+TITLE
+Fixed tissue ChIP-Seq (FiT-Seq) of archived clinical samples reveals chromatin dynamics and tumor-specific enhancer profiles
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Analysis of cancer epigenomes has revealed important insights into key lineage determinants and oncogenic drivers. Chromatin immune-precipitation followed by next generation sequencing (ChIP-seq) has allowed the comprehensive mapping of transcription factor cistromes and histone modifications in fresh or frozen cells and tissues. It has not been possible, however, to apply ChIP-seq to the vast majority of clinical tissue samples, owing to the very extensive tissue fixation and cross-linking introduced during routine pathological processing. This severely limits the ability to study the most valuable, clinically annotated tissue resources. Here we describe Fixed-Tissue chromatin immune-precipitation sequencing (FiT-seq), which allows the epigenomic analysis of routine formalin-fixed paraffin-embedded (FFPE) tissue samples. FiT-seq enables reliable extraction of soluble chromatin from fixed tissues for accurate detection of histone marks and we verify high concordance between FiT-seq from FFPE and ChIP-seq from matched fresh frozen (FF) samples of the same tumors. We demonstrate the value of FiT-seq to investigate differences in chromatin states in normal and malignant colorectal epithelium and to identify robust correlations to methylated DNA, gene expression, and transcription factor activities. Using multiple histone marks we generate chromatin state maps and identify tissue- and tumor-specific cis-regulatory elements in clinical samples from various tumor types, readily distinguishing cancers by tissue of origin. Tumor specific enhancers and super-enhancers elucidated by FiT-seq are correlated with known biological drivers of cancer and can assist in understanding how chromatin state affects gene regulation.
+
+DESIGN
+Histone marks analysis in FFPE samples to assess the performance of our newly designed method FiT-seq. The design comprises: 1) analysis of H3K4me2 in colorectal (CRC) FFPE vs matched FF tissues. 2) H3K4me2 comparison between CRC and corresponding colonic mucosas both for FF and FFPE samples. 3) analysis of enhancers by H3K4me2 across tumor types (CRC, breast cancer, seminoma, bladder cancer) in FFPE samples. 4) analysis of a series of histone marks that includes H3K36me3, H3K4me3, H3K4me2, H3K9ac, H3K27me3 in a FFPE bladder cancer (BlCa6) and includes H3K36me3, H3K4me3 and H3K4me2 in a FFPE (CRC8)
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+27111282
+

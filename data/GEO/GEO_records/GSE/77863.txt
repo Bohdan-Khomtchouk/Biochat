@@ -1,0 +1,18 @@
+TITLE
+Global analysis of transcriptionally engaged yeast RNA polymerase III reveals extended tRNA transcripts
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+RNA polymerase III (RNAPIII) synthesizes a range of highly abundant small stable RNAs, principally pre-tRNAs. Here we report the genome-wide analysis of nascent transcripts attached to RNAPIII under permissive and restrictive growth conditions. This revealed strikingly uneven polymerase distributions across transcription units, generally with a predominant 5´ peak. This peak was higher for more heavily transcribed genes, suggesting that initiation site clearance is rate limiting during RNAPIII transcription. Down-regulation of RNAPIII transcription under stress conditions was found to be uneven; a subset of tRNA genes showed low response to nutrient shift or loss of the major transcription regulator Maf1, suggesting potential “housekeeping” roles. Many tRNA genes were found to generate long, 3´-extended forms due to read-through of the canonical poly(U) terminators. The degree of read-through was anti-correlated with the density of T-residues in the coding strand, and multiple, functional terminators can be located far downstream. The steady-state levels of 3´-extended pre-tRNA transcripts are low, apparently due to targeting by the nuclear surveillance machinery; especially the RNA-binding protein Nab2, cofactors for the nuclear exosome and the 5´-exonuclease Rat1.
+
+DESIGN
+CRAC protocol performed on samples containing HTP-tagged proteins: Rpc160(Rpo31), Nab2, Rrp44(Dis3), Rrp6 and Mtr4. Rpc-160-bound RNAs were analyzed in wildtype and maf1 mutant cells and after a shift to medium containing glycerol.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+27206856
+

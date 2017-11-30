@@ -1,0 +1,18 @@
+TITLE
+Prediction of gene activity based on an integrated multi-omics approach.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+An increasingly common method for predicting gene activity is genome-wide chromatin immunoprecipitation of ‘active’ chromatin modifications followed by massively parallel sequencing (ChIP-seq). Using a novel ChIP-seq quantification method (cRPKM), we tested the power of such ChIP-seq strategies to predict relative protein and RNA levels at the pre-pro-B and pro-B differentiation stages in early B cell lymphopoiesis. Using a multi-omics approach that compares promoter chromatin status (ChIP-seq; published in GSE:21978) with ongoing active transcription (GRO-seq; published in GSE:40173), steady state mRNA (RNA-seq), inferred mRNA stability, and relative proteome abundance measurements (iTRAQ), we demonstrate that active chromatin modifications at promoters are a good indicator of transcription and steady state mRNA levels. Moreover, we found that promoters with active chromatin modifications exclusively in one of these cell states frequently predicted differentially expressed proteins. However, we found that many genes whose promoters have non-differential but active chromatin modifications also displayed changes in expression of their cognate proteins. This large class of developmentally and differentially regulated proteins that was uncoupled from chromatin status used mostly post-transcriptional mechanisms. Interestingly, the most differentially expressed protein in our B-cell development system, 2410004B18Rik, was regulated by a post-transcriptional mechanism, which further analyses indicated was mediated by an identified miRNA. These data provide a striking example of how our integrated multi-omics data set can be useful in uncovering regulatory mechanisms.
+
+DESIGN
+Total RNA from mouse pre-pro-B and pro-B cells, depleted of rRNA and small RNAs, was sequenced using a strand specific, single end sequencing strategy.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25544807
+

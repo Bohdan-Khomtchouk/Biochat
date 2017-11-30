@@ -1,0 +1,18 @@
+TITLE
+A microarray-based analysis of oocytes quality of the European clam Ruditapes decussatus
+
+ORGANISM
+Ruditapes decussatus
+
+SUMMARY
+The European clam, Ruditapes decussatus (Linnaeus, 1758) is a bivalve mollusc of the family Veneridae native to the European Atlantic and Mediterranean coastal waters. Its production is exclusively based on natural recruitment, which is subject to high annual fluctuations due to adversely affected by pollution and other environmental factors. A microarray-based analysis was performed with the objectives of describe genomic feature of oocytes and identify potential markers of oocyte quality in the economically important European clam, Ruditapes decussatus. The oocytes of a total of 25 females from Ria de Aveiro, Western coast of Portugal, were selected for this study and their quality was estimated by early developmental success until D-larval rate, under controlled conditions.
+
+DESIGN
+Clams (Ruditapes decussatus) were induced to spawn, in four different dates, by thermal stimulation, with temperature increasing from 5 to 28 ± 1 °C. To avoid uncontrolled fertilization, females once identified were stored in individual containers for spawning. From each female, three samples of 20 000 oocytes were taken.  For RNA-sequencing and microarray analysis, total RNA was isolated on 25 oocyte samples collecting from 25 clam females using Extract-all (Eurobio) procedure. RNA quality and integrity was controlled on the Agilent bioanalyzer using RNA nanochips and Agilent RNA 6000 nanoreagents (Agilent Technologies, Waldbronn, Germany). RNA concentrations were measured at 260 nm using a ND-1000 spectrophotometer (Nanodrop Technologies) using the conversion factor 1 OD = 40 mg/mL total RNA. Samples were stored at -80°C until further use. Gene expression profiling was performed using an R.decussatus oligo-DNA microarray of 59,951 probes based on single-colour detection (Cyanine-3 only). Microarrays were scanned with Agilent scanner G2565BA at a resolution of 2 microns; all slides were scanned twice at two different sensitivity settings (XDRHi 100% and XDRLo 10%); the scanner software created a unique ID for each pair of XDR scans and saved it to both scan image files. FeatureExtraction v10.7.3.1 used XDR ID to link the pairs of scans together automatically when extracting data. The signal left after all the FE processing steps have been completed is ProcessedSignal that contains the Multiplicatively Detrended, Background-Subtracted Signal.
+
+PLATFORM
+GPL18284 UniversityPadova_Ruditapes philippinarum_8x60K (Feature Number version)
+
+CITATIONS
+25470487
+

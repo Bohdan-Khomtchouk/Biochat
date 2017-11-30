@@ -1,0 +1,18 @@
+TITLE
+The transcription factor, Nuclear factor, erythoid 2 (Nfe2), is a regulator of the oxidative stress response during Danio rerio development
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Development is a complex and well-defined process characterized by rapid cell proliferation and apoptosis. At this stage in life, a developmentally young organism is more sensitive to toxicants and other stressors when compared to an adult. In response to pro-oxidant exposure, members of the Cap’n’Collar (CNC) basic leucine zipper (b-ZIP) transcription factor family (including the Nfe2-related factors, Nrfs) activate the expression of genes that contribute to reduced toxicity. Here, we studied the role of the Nrf protein, Nfe2, in the developmental response to pro-oxidant exposure in the zebrafish. Following acute waterborne exposures to diquat or tert-buytlhydroperoxide (tBOOH) at three developmental stages, wildtype (WT) and nfe2 knockout (KO) embryos and larvae were morphologically scored and their transcriptomes sequenced.
+
+DESIGN
+Wildtype animals were on the AB background and an additional germline nfe2 knockout strain were created by disruption of the nfe2 reading frame. Waterborne exposures to either diquat or tBOOH were carried out at three different developmental stages: 2 hours post fertilization (hpf), 48hpf, and 96hpf in 3 pools of 30 embryos per condition. Animals were exposed to no treatment, 20µM diquat or 1mM tBOOH for a 4-hour dosing period. Total RNA was isolated from pooled animals and 50 bp, paired end, libraries were sequenced using the Illumina HiSeq 2000 platform, with approximately 25 million reads per sample. Reads were then aligned to the Ensembl GRCz10 zebrafish reference genome using Tophat2 and raw counts data normalized using DESeq2. Gene annotation was from Ensemble for GRCz10.
+
+PLATFORM
+GPL14875 Illumina HiSeq 2000 (Danio rerio)
+
+CITATIONS
+27716579
+

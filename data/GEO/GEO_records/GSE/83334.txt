@@ -1,0 +1,18 @@
+TITLE
+Longitudinal study of DNA methylation during the first 5 years of life
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Early life epigenetic programming influences adult health outcomes. Moreover, DNA methylation levels have been found to change more rapidly during the first years of life. Our aim was the identification and characterization of the CpG sites that are modified with time during the first years of life. We hypothesize that these DNA methylation changes would lead to the detection of genes that might be epigenetically modulated by environmental factors during early childhood and which, if disturbed, might contribute to susceptibility to diseases later in life. Methods: The study of the DNA methylation pattern of 485577 CpG sites was performed on 30 blood samples from 15 subjects, collected both at birth and at 5 years old, using Illumina® Infinium 450 k array. To identify differentially methylated CpG (dmCpG) sites, the methylation status of each probe was examined using linear models and the Empirical Bayes Moderated t test implemented in the limma package of R/Bioconductor. Surogate variable analysis was used to account for batch effects. Results: DNA methylation levels significantly changed from birth to 5 years of age in 6641 CpG sites. Of these, 36.79 % were hypermethylated and were associated with genes related mainly to developmental ontology terms, while 63.21 % were hypomethylated probes and associated with genes related to immune function. Conclusions: Our results suggest that DNA methylation alterations with age during the first years of life might play a significant role in development and the regulation of leukocyte-specific functions. This supports the idea that blood leukocytes experience genome remodeling related to their interaction with environmental factors, underlining the importance of environmental exposures during the first years of life and suggesting that new strategies should be take into consideration for disease prevention.
+
+DESIGN
+Longitudinal study including 15 samples
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+27259700
+

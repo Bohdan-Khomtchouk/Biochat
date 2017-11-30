@@ -1,0 +1,18 @@
+TITLE
+Genome-wide distribution and function of ATP-dependent chromatin remodelers in embryonic stem cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+This study describes the distribution and functional analysis of ATP-dependent chromatin remodelers in mouse 46C ES cells. The remodelers for which ChIP-Seq profiles were generated are Brg1, Chd1, Chd2, Chd4, Chd6, Chd8, Chd9 and Ep400. We first generated ES cell lines expressing individual remodelers fused to an affinity tag at the C-terminus, from their endogenous loci. Remodelers were then formaldehyde-crosslinked to chromatin in vivo, MNase digested to release individual nucleosomes, then immunoprecipitated sequentially with two distinct antibodies against the tag. DNA fragments immunoprecipitated with each factor  were then identified by high throughput sequencing. Control experiments were realized by applying the same protocol to untagged ES cells. Pol II distribution was examined by ChIP-exo in ES cells depleted of either Ep400, Brg1 and Chd4. Chromatin access was studied by ATAC-seq in remodeler-depleted cells. Finally, nucleosomal occupancy was  explored by MNase-seq.
+
+DESIGN
+ChIP-Seq profiling, FAIRE-seq profiling, RNA-Seq profiling, ATAC-seq profiling, MNase-seq profiling, ChIP-exo profiling on mouse ES cells
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus) GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+26814966
+

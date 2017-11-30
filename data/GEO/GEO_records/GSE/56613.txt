@@ -1,0 +1,18 @@
+TITLE
+RNAseq analysis of murine ITPKB deficient versus wild type LT-HSC
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Tight regulation of hematopoietic stem cell (HSC) homeostasis is essential for life-long hematopoiesis, for preventing blood cancers and for averting bone marrow failure. The underlying mechanisms are incompletely understood. Here, we identify production of inositol-tetrakisphosphate (IP4) by inositoltrisphosphate 3-kinase B (ItpkB) as essential for HSC quiescence and function. Young ItpkB-/- mice accumulated phenotypic HSC and showed extramedullary hematopoiesis. ItpkB-/- HSC were less quiescent and proliferated more than wildtype controls. They downregulated quiescence and stemness associated mRNAs, but upregulated activation, oxidative metabolism, protein synthesis and lineage associated transcripts. Although they showed no significant homing defects, ItpkB-/- HSC had a severely reduced competitive long-term repopulating potential. Aging ItpkB-/- mice lost hematopoietic stem and progenitor cells and died with severe anemia. Wildtype HSC normally repopulated ItpkB-/- hosts, incidating a HSC-intrinsic ItpkB requirement. ItpkB-/- HSC had reduced cobblestone-area forming cell activity in vitro and showed increased stem-cell-factor activation of the phosphoinositide 3-kinase (PI3K) effector Akt, reversed by exogenous provision of the known PI3K/Akt antagonist IP4. They also showed transcriptome changes consistent with hyperactive Akt/mTOR signaling. Thus, we propose that ItpkB ensures HSC quiescence by limiting cytokine-induced PI3K signaling in HSC.
+
+DESIGN
+For each of 3 replicate ItpkB-/- or wt samples, we enriched Lin- cells from BM of 4 pooled age-matched mice with Rapidspheres (Stemcell Technologies), FACS-sorted ≥10,000 LSK CD34-CD150+CD48-Flk2- LT-HSC into lysis buffer and prepared RNA with RNeasy Micro kits (Quiagen). RNA sequencing was done using an Illumina HISeq Analyzer 2000, Casava v1.8.2 genome analyzer pipeline, TopHat v1.4.1/Bowtie2 genome alignment and Partek v6.6 mRNA annotation software. Statistical analyses were done with edgeR (Bioconductor package), excluding genes with false discovery rates > 0.15, fold-change magnitudes ≤1.4 and log2(counts per million) ≤4 to avoid undefined values and the poorly defined log fold-changes for low counts close to 0. Unsupervised clustering of 441 significantly changed genes was done with dChip using rank correlation and a centroid linkage method. Scatter plots were generated in Spotfire.  GSEA was performed with gene set permutation, using gene sets from MSigDB (www.broadinstitute.org/gsea/msigdb/index.jsp) or manually curated from, excluding genes without HUGO approved symbols
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25788703
+

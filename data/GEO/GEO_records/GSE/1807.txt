@@ -1,0 +1,18 @@
+TITLE
+Solar UV-B regulation of high altitude maize
+
+ORGANISM
+Zea mays
+
+SUMMARY
+To initiate a genomic scale analysis of high altitude maize, we performed expression-profiling experiments using Unigene I cDNA arrays from the Maize Gene Discovery Project that contain 5664 cDNAs printed in triplicate spots; a triplicate set for nearly all cDNAs was printed in at least one additional location on each slide, thus there is a minimum of 6 spots for each cDNA per slide. Four-week-old maize plants grown in the field under the three irradiation regimes no UV-B, solar UV-B or UV-B supplemental were used for the experiments. Samples were collected from adult leaves 9 and 10; samples from 6 plants were pooled for preparation of poly(A)+ RNA. Keywords: parallel sample
+
+DESIGN
+Statistical analysis of array data was undertaken with analysis of variance (ANOVA) style models essentially as previously described (Blum et al, 2004).  As before, the following ANOVA models were constructed: ygijklr= µ+Li+A(L)ji+Tk+LTik+Dl+ADjl+εgijklr	      (1) rgijklr=GLgi+GA(L)gj(i)+GTgk+GLTgik+GDgl+GS(A)gr(j)+ εgijklr       (2) In model (1), y is the logarithm (base 2) of the intensity for a particular spot. L, T and D are global effects due to differences in lines, treatments and dyes, respectively while LT represents interaction between lines and treatments.  The AD interaction term is present to account for intensity scaling done on the two channels.  The nested term, A(L), accounts for variation across replicate arrays, as in this experiment, lines are not connected since no array has samples from two different lines hybridized to it; the arrays are arranged in a split-plot design, with line being the whole plot factor and treatment the split-plot factor. Model (2) takes residuals from model (1) as normalized response values and includes gene specific effects.  Additionally, it models replicate spot variation with the GS(A) term. Both models were fit using the Mixed procedure (SAS 9.0, SAS Institute, Cary, NC) with model (2) being fit gene by gene.  Observed significance levels for all effects tests were adjusted for multiplicity of testing by the False Discovery Rate (FDR) method.  Background (threshold) levels for the arrays were set at median value in all conditions lower than the median values for the SP array control genes; this is a conservative threshold that retains genes with low expression levels in even a single treatment/line combination.  Additional low-expression genes (with normalized log2 levels less than -2) were flagged.
+
+PLATFORM
+GPL498 ZmDB Array Unigene-1-01-01 GPL499 ZmDB Array Unigene-1-01-07
+
+CITATIONS
+16640598
+

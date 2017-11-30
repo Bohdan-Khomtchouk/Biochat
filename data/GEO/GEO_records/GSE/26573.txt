@@ -1,0 +1,18 @@
+TITLE
+Global post-transcriptional control of genes involved in amino acid metabolism by the Hfq-dependent GcvB RNA
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344
+
+SUMMARY
+The control of amino acid synthesis and transport in bacteria has been well-investigated at the transcriptional level. The discovery of a small Hfq-dependent regulatory RNA, GcvB, added another layer of gene expression control at the post-transcriptional level. GcvB RNA has been shown to directly regulate multiple ABC transporters for amino acids in E. coli and Salmonella using a highly conserved G/U-rich domain, R1. To identify additional GcvB targets, we have combined a sRNA pulse-expression and microarray analysis of whole transcriptome changes with biocomputational target searches for C/A- rich target sites in Salmonella. Moreover, we have included GcvB mutant RNAs in our microarray approach providing a new target search approach by inactivating conserved domains or target interaction sites. This dual approach revealed further amino acid transporters and, in addition, genes involved in amino acid metabolism as consensus R1-dependent GcvB targets. Moreover, GcvB RNA seems to bind with at least two binding sites to an R1-independent target, the glycine transporter cycA. Using GFP reporter gene fusions we have now validated 21 GcvB targets which is best to our knowledge with ~1% of all Salmonella protein coding genes, the largest bacterial sRNA-controlled regulon. Intriguingly, GcvB rewires many primary control circuits and, thus, constitutes an important metabolic knot.
+
+DESIGN
+To predict direct GcvB targets with better confidence, we expanded the sRNA pulse-expression approach to assay effects of several versions of GcvB sRNA. We cloned GcvB wild-type and mutants RNAs deleted for the conserved regions R1 or R2 (Fig. 1A) under control of an arabinose-inducible PBAD promoter, yielding plasmid pBAD-GcvB (pKP1-1), pBAD-GcvB delta R1 (pKP2-6) and pBAD-GcvB delta R2 (pKP30-1). For confirmation of inducible expression, Salmonella wild-type carrying pBAD control vector (pKP8-35), and Salmonella ΔgcvB carrying either control vector (Ctr) or the above GcvB expression plasmids were grown to mid-exponential phase (OD600 of 1) and treated with L-arabinose for up to 15 min. We used whole-genome S. typhimurium microarrays to determine relative mRNA expression changes at 10 min of induction, comparing the mRNA profiles of the pBAD-GcvB, pBAD-GcvB delta R1 or pBAD-GcvB delta R2 strains to that of the delta gcvB deletion mutant strain carrying the control vector. Microarrays used in this study were produced by in-situ synthesis as 8x15k multipack format from Agilent Technologies. Each microarray comprises 13268 60-mer S. typhimurium strain SL1344 specific oligonucleotides supplemented with 319 60-mer S. enterica subsp. serovar Typhimurium 14028S specific oligonucleotides, 360 60-mer S. typhimurium LT2 specific oligonucleotides and 360 60-mer oligonucleotides specific for 149 Salmonella sRNAs. The experimental design involves the use of Salmonella enterica serovar Typhimurium genomic DNA as the co-hybridized control for one channel on all microarrays. Two independent biological eperiments were analyzed.
+
+PLATFORM
+GPL11416 SALSIFY, Agilent-026881 S. Typhimurim
+
+CITATIONS
+21696468
+

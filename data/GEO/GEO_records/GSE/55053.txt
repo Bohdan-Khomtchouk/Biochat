@@ -1,0 +1,18 @@
+TITLE
+Subtelomeric  CTCF and Cohesin binding site organization using improved subtelomere assemblies and a novel annotation pipeline
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We investigated the reported binding of telomere associated factor TERF1 and TERF2 to internal telomere sites using ChIP-Seq for these two factors in a lymphoblastoid cell line.  We mapped over 40 million reads for each sample to a custom reference genome that incorporates our subtelomere assembly, and generated signal tracks using only uniquely mapping reads, and also using a multimapping pipeline we developed.   We find that peaks are misshapen and made up of reads that cannot be distinguished from true telomere sequence.  Removing telomere identified reads removes all internal signal.
+
+DESIGN
+Examination of TRF1 and TRF2
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+24676094
+

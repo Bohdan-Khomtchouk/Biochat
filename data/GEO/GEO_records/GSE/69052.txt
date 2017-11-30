@@ -1,0 +1,18 @@
+TITLE
+Beclin-1 is dispensable for chromosome congression and proper outer kinetochore assembly
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chromosomal instability (CIN) is defined by the propensity to acquire structural and/or numerical aberration in the normal cellular karyotype and is often associated with cancer. Autophagy is a catabolic process that leads to the recycling of cellular components that may positively or negatively impact on cancer development and progression, depending on the context. Recent work postulated that the depletion of the pro-autophagic and tumor suppressive protein Beclin 1 triggers CIN by interfering with mitotic chromosome segregation, providing a possible mechanism for how Beclin 1 can act as a tumor suppressor (Fremont et al., PMID: 23478334). Here, we present data supporting the notion that the phenotypes described in Fremont et al., depend on a siRNA off-target effect. The transcriptomic analysis shown here was designed to identify the factor(s) that are responsible for such phenotype.
+
+DESIGN
+HeLa cells synchronized in mitosis have been transfected in 3 independent experiments with either Beclin 1-ER or Beclin 1-II siRNA. RNA was extracted and subjected to gene expression profiling. Differentially expressed probe sets/genes have been identified between the ER and II siRNA using the moderated t-test from Bioconductor's limma package with the resulting p-values being adjusted for multiple hypothesis testing using the method from Benjamini and Hochberg.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+26297610
+

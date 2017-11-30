@@ -1,0 +1,18 @@
+TITLE
+The human cap-binding complex is functionally connected to the nuclear RNA exosome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Nuclear processing and quality control of eukaryotic RNA is mediated by the multi-subunit RNA exosome, which utilizes accessory factors to regulate its enzymatic activity. However, the mechanism of exosome recruitment to its ribonucleoprotein (RNP) targets remains poorly understood. Here we disclose a physical link between the human nuclear RNA exosome and the cap-binding complex (CBC). The CBC associates with the ARS2 protein to form CBC-ARS2 (CBCA), and then further connects together with the uncharacterized ZC3H18/NHN1 protein to the nuclear exosome targeting (NEXT) complex, forming CBC-NEXT (CBCN). RNA immunoprecipitation analysis using CBCN factors as baits as well as the combinatorial depletion of CBCN and exosome components underscore the functional relevance of CBC-exosome bridging at the level of target RNA. Specifically, CBCA suppresses read-through transcription of several RNA families by promoting their transcriptional termination. We suggest that the RNP 5’cap links transcription termination to exosomal RNA degradation via CBCN.
+
+DESIGN
+In total 10 samples; 4 control IP HeLa, 2 Flag- Ars2 IP,  2 Flag-CBP20 IP; and 2 GFP-RBM7 Ips. The signal intensity data was analyzed with the Affymetrix Tiling Analysis Software (v. 1.1) using parameters: one side upper, 90 bp bandwidth and perfect match only. Output txt files (i.e. result file). TASParam* files include parameter settings and input file information for the TAS analysis for each result file. The description of 'ProcessedDatas_TA.xls' file is provided in the 'README.txt'
+
+PLATFORM
+GPL4910 [Hs35b_P01R] Affymetrix Human Tiling 2.0R Set, Array 1
+
+CITATIONS
+24270879 , 25578728
+

@@ -1,0 +1,18 @@
+TITLE
+Variable D. melanogaster Y chromosomes into the genetic background JIL-1/+, Mod(mdg4)/+, and Su(var)205/+.
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Fly strains were obtained from the Bloomington Stock Center. The chromosomes containing the gene deletion mod(mdg4)L3101 {y[1] w[1118]; P{w[+mC]=lacW}mod(mdg4)[L3101]/TM3, Ser[1]}, HP1 {In(1)w[m4h]; Su(var)205[5]/In(2L)Cy,In(2R)Cy, Cy[1]}, mod(mdg4)G16853 {w[1118]; P{w[+mC]=EP}mod(mdg4)[G16853]/TM6C, Sb[1]}, and Jil-1Scim {y[1]; P{y[+mDint2] w[BR.E.BR]=SUPor-P}JIL-1[Scim] ry[506]} were introgressed into the genetic background y[1]; bw[1]; e[4]; ci[1] ey[R] to generate the strains Mod(mdg4)/+, Su(var)205/+ and JIL-1/+. All females used in the introgression were collected within 7 hours after eclosion. For gene expression analyses, flies were grown in incubators at 25°C, 65% of relative humidity, and constant light. Newly emerged male adults flies harboring the mutations and the Y chromosomes Yohio and Ycongo(Mod(mdg4)/+;Yohio and Mod(mdg4)/+;Ycongo, Su(var)205/+;Yohio and Su(var)205/+;Ycongo, and JIL-1/+;Yohio and JIL-1/+;Ycongo) were collected and aged for 2 days at the same rearing condition before they were flash-frozen in liquid nitrogen. Four replicas of each sample were collected and stored at -80°C. Total RNA was extracted from whole flies using TRIzol (Life Technologies). The synthesis of cDNA and its labeling with fluorescent dyes (Cy3 and Cy5) as well as hybridization reactions were carried out using 3DNA protocols and reagents (Genisphere). The genetic interaction of the Y chromosome and the mutation was studied by the following contrasts: 1) male flies Mod(mdg4)/+;Yohio versus male flies Mod(mdg4)/+;Ycongo; 2) male flies Su(var)205/+;Yohio versus male flies Su(var)205/+;Ycongo; 3) male flies JIL-1/+;Yohio versus male flies JIL-1/+;Ycongo). As reference we used the same genetic background without the mutations [+/+;Ycongo (background 2) and +/+;Yohio (background 2)]. Slides were scanned using Axon 400B scanner (Axon Instruments) and GenePix Pro 6.0 software. Foreground fluorescence of dye intensities was normalized by the Loess method in Bioconductor / Limma.
+
+DESIGN
+Dye " swaps, " loop design.
+
+PLATFORM
+GPL6056 HartlLab Drosophilamelanogaster PCRproducts 22k
+
+CITATIONS
+23636736
+

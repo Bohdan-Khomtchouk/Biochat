@@ -1,0 +1,18 @@
+TITLE
+Alternative cleavage and polyadenylation analysis in an isoform-resolved way by Second- and Third-Generation Sequencing technologies
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Alternative cleavage and polyadenylation (APA) is emerging as an important mechanism of gene regulation in eukaryotes and plays important regulatory roles in human development and diseases. Despite the widespread application of Second Generation Sequencing (SGS) technology for polyadenylation site identification, matching each identified polyadenylation site within a gene to its derived isoform remains a major challenge. To achieve the isoform-resolved APA analysis, we developed a tool termed “IDP-APA” that constructs truly expressed isoforms and identifies polyadenylation sites by integrating the respective strengths of Third Generation Sequencing (TGS) long reads and SGS short reads. Compared to existing tools, IDP-APA demonstrated superior performance in both isoform reconstruction and polyadenylation site identification. Applications to human embryonic stem cells, breast cancer cells and brain tissue from a patient with Alzheimer’s disease revealed prevalent APA events and cell-/tissue-specific APA patterns, especially in an isoform-resolved way.
+
+DESIGN
+Construct expressed isoform and analyze APA events in two human samples with TGS (PacBio) long read and SGS (Illumina) short read data: human embryonic stem cells (H1 cell line, H1-hESC) and brain tissue from a patient with Alzheimer’s disease (Brain-AD).
+
+PLATFORM
+GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

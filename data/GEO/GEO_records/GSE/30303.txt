@@ -1,0 +1,18 @@
+TITLE
+Reliable analysis of the catabolic gene landscape and transcriptome for pollutant degradation using a custom open source microarray with internal calibration
+
+ORGANISM
+unidentified microorganism ; Ralstonia eutropha JMP134 ; Paraburkholderia xenovorans LB400 ; Pseudomonas putida F1 ; Sphingomonas wittichii RW1
+
+SUMMARY
+Despite various efforts to develop tools to detect and compare the activity and catabolic potential and activity for pollutant degradation of microorganisms in environmental samples, an open-source, curated and reliable method is still required. Here we report on a customize normalization system that can be applied to any microarray design, allowing the assessment of reliability of signals and enabling cross-experiment comparisons. Probes for the underlying catabolic gene array were designed based on manually curated databases for catabolic key genes. Signals were assigned to the respective catabolic protein subfamily that allows to inferring the functions and substrate specificity. The placement of probes for critical degradation nodes and subsequent metabolic steps allows the retrieval of information on the metabolic net. Information on gene localization from genome surveys was correlated to signals of putative hosts to generate phylogenetic community information. Hence, this novel array system was validated using genomic DNA of genome sequenced bacterial strains hosting biodegradation functions and applied to genomic DNA and RNA extracted from environmental samples under aromatic pollution pressure.
+
+DESIGN
+Catabolic microarray was optimized for detection and expression of catabolic genes involved in the degradation of pollutant compounds using genome genomic DNA of type strains: Burkholderia xenovorans LB400, Cupriavidus necator JMP134, Pseudomonas putida F1 and Sphingomonas wittichii RW1. Afterwards, this microarray was applied for environmental samples. For microcosm experiments, 200 ml of each groundwater were incubated in closed 1 l Erlenmeyer flasks at 20  degree C and 50 rpm. Second sets of 200 ml microcosms were supplemented with naphthalene (100 mg), which had above been identified as a contaminant present in both groundwaters in similar amounts. Naphthalene was supplied via the vapor phase and incubated under identical conditions as the control microcosms. After 4 days of incubations, 50 ml of each of the 4 microcosms were subjected to genomic DNA extraction and another 50 ml to RNA extraction.
+
+PLATFORM
+GPL13771 Catabolic microarray Version 2.1
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

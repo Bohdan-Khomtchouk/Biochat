@@ -1,0 +1,18 @@
+TITLE
+Gene expression, single nucleotide variant and fusion transcript discovery in archival material from breast tumors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Advantages of RNA-Seq over array based platforms are quantitative gene expression and discovery of expressed single nucleotide variants (eSNVs) and fusion transcripts from a single platform, but the sensitivity for each of these characteristics is unknown. We measured gene expression in a set of manually degraded RNAs, nine pairs of matched fresh-frozen, and FFPE RNA isolated from breast tumor with the hybridization based, NanoString nCounter, (226 gene panel) and with whole transcriptome RNA-Seq using RiboZeroGold ScriptSeq V2 library preparation kits. We performed correlation analyses of gene expression between samples and across platforms. We then specifically assessed whole transcriptome expression of lincRNA and discovery of eSNVs and fusion transcripts in the FFPE RNA-Seq data. For gene expression in the manually degraded samples, we observed Pearson correlation of > 0.94 and > 0.80 with NanoString and ScriptSeq protocols respectively. Gene expression data for matched fresh-frozen and FFPE samples yielded mean Pearson correlations of 0.874 and 0.783 for NanoString (226 genes) and ScriptSeq whole transcriptome protocols respectively. Specifically for lincRNAs, we observed superb Pearson correlation (0.988) between matched fresh-frozen and FFPE pairs. FFPE samples across NanoString and RNA-Seq platforms gave a mean Pearson correlation of 0.838. In FFPE libraries, we detected 53.4% of high confidence SNVs and 24% of high confidence fusion transcripts. Sensitivity of fusion transcript detection was not overcome by an increase in depth of sequencing up to 3-fold (increase from ~56 to ~159 million reads). Both NanoString and ScriptSeq RNA-Seq technologies yield reliable gene expression data for degraded and FFPE material. The high degree of correlation between NanoString and RNA-Seq platforms suggests discovery based whole transciptome studies from FFPE material will produce reliable expression data. The RiboZeroGold ScriptSeq protocol performed particularly well for lincRNA expression from FFPE libraries but detection of eSNV and fusion transcripts was less sensitive.
+
+DESIGN
+We performed RNASeq on RNA from nine matched pairs of fresh-frozen and FFPE tissues from breast cancer patients. The goal was to test the RiboZeroGold ScriptSeq complete low input library preparation kit for degraded RNA samples.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24278466
+

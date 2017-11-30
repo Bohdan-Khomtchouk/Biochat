@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling of human tissue samples using SAGE-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We present a powerful application of ultra high-throughput sequencing, SAGE-Seq, for the accurate quantification of normal and neoplastic mammary epithelial cell transcriptomes. We develop data analysis pipelines that allow the mapping of sense and antisense strands of mitochondrial and RefSeq genes, the normalization between libraries, and the identification of differentially expressed genes. We find that the diversity of cancer transcriptomes is significantly higher than that of normal cells. Our analysis indicates that transcript discovery plateaus at 10 million reads/sample, and suggests a minimum desired sequencing depth around 5 million reads. Comparison of SAGE-Seq and traditional SAGE on normal and cancerous breast tissues reveals higher sensitivity of SAGE-Seq to detect less abundant genes including those encoding for known breast cancer-related transcription factors and G protein-coupled receptors (GPCRs). SAGE-Seq is able to identify genes and pathways abnormally activated in breast cancer that traditional SAGE failed to call. SAGE-Seq is a powerful method for the identification of biomarkers and therapeutic targets in human disease.
+
+DESIGN
+Global transcriptome profilings of 7 samples in normal and 7 samples in cancer from clinical breast tissue using Sage-Seq
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+21045080
+

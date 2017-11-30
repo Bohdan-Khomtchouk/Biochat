@@ -1,0 +1,18 @@
+TITLE
+Application of a translational profiling approach for the comparative analysis of CNS cell types.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Comparative analysis can provide important insights into complex biological systems. As demonstrated in the accompanying paper, Translating Ribosome Affinity Purification (TRAP), permits comprehensive studies of translated mRNAs in genetically defined cell populations following physiological perturbations. To establish the generality of this approach, we present translational profiles for twenty four CNS cell populations, and identify known cell-specific and enriched transcripts for each population. We report thousands of cell-specific mRNAs that were not detected in whole tissue microarray studies, and provide examples that demonstrate the benefits deriving from comparative analysis. To provide a foundation for further biological and in silico studies, we provide a resource of sixteen transgenic mouse lines, their corresponding anatomic characterization, and translational profiles for cell types from a variety of CNS structures. This resource will enable a wide spectrum of molecular and mechanistic studies of both well known and previously uncharacterized neural cell populations. Keywords: Cell Type Comparison
+
+DESIGN
+For each cell population, three independent TRAP replicates were collected, and total RNA from both the immunoprecipitate and unbound fractions were seperately amplified and hybridized. For each tissue, several representative unbound fractions are provided to serve as controls.  Biological replicates are GCRMA normalized within groups. Following averaging of replicates, we recommend further global normalization between groups, using affymetrix biotinylated controls, to correct for any broad biases in scanning and hybridization. Finally for many analyses, we also recommend filtering to remove those probesets with low IP/UB fold change values from each cell type. Researchers can contact us for spreadsheets where these additional steps have been completed.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+19013282 , 20308160
+

@@ -1,0 +1,18 @@
+TITLE
+Deletion of RING1A/B and loss of H2AK119ub1 affects PRC2 occupancy and H3K27me3 genome-wide
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The chromatin modifying activities inherent to polycomb repressive complexes PRC1 and PRC2 play an essential role in gene regulation, cellular differentiation, and development. However, the mechanisms by which these complexes recognize their target sites and function together to form repressive chromatin domains remain poorly understood. Recruitment of PRC1 to target sites has been proposed to occur through a hierarchical process, dependent on the prior nucleation of PRC2 and placement of H3K27me3. Here, using a de novo targeting assay in mouse embryonic stem cells we unexpectedly discover that PRC1-dependent H2AK119ub1 leads to the recruitment of PRC2 and H3K27me3 to effectively initiate a polycomb domain. Genetic ablation of catalytic subunit of the PRC1 complex (RINGA/B) and ChIP-seq analysis of PRC1 and PRC2 components confirmed genome-wide decreases in PRC2 occupancy and H3K27me3 levels at PRC target sites. This activity is restricted to variant PRC1 complexes and genetic ablation experiments reveal that targeting of the variant PCGF1/PRC1 complex by KDM2B to CpG islands is required for polycomb domain formation and normal development. Together these observations provide a surprising new PRC1-dependent logic for PRC2 occupancy and polycomb domain formation.
+
+DESIGN
+RING1A-/-;RING1Bfl/fl ES cells were treated with 800µM tamoxifen for 48hours and compared to untreated control cells by ChIP-seq for RING1B, SUZ12, EZH2 and H3K27me3.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24856970
+

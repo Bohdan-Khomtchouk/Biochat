@@ -1,0 +1,18 @@
+TITLE
+Expression data from elicitor-treated Arabidopsis seedling roots [3h]
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Plants can perceive the presence of pathogens at the cell surface and plant damage-derived molecules via recognition of conserved microbial molecules, named pathogen- or microbe-associated molecular patterns (PAMPs) and damage associated molecular patterns (DAMPs). Well-studied examples of PAMPs are chito-oligomers, breakdown products of fungal cell walls and insect exoskeletons.  Pectin-derived oligogalacturonides (OGs) are well-characterized DAMPs. Both PAMPs nd DAMPs are capable of activating plant immunity, generating changes in gene expression that lead to increased production of defense compounds and proteins; thus, equipping the plant cell to defend itself. We used microarrays to assess the gene expression changes that follow 3h after elicitor treatment.
+
+DESIGN
+RNA was extracted from roots of seedlings treated with cellobiose, chito-oligomers, OGs or a no-elicitor control, for 3 hours using Trizol LS (Invitrogen) according to the manufacturer's recommendations. RNA integrity was checked with an Agilent 2100 BioAnalyzer. An aliquot from each RNA sample was used as a template to make cDNA, which was assessed by qRT-PCR to confirm that samples had the expected WRKY30 expression profile at 3 hours post-treatment. Samples were then analyzed for gene expression with Affymetrix GeneChip Arabidopsis ATH1 Genome Arrays, using standard Affymetrix reagents and protocols at the QB3-Functional Genomics Lab at the University of California, Berkeley. Samples from three biological replicas for each treatment were analyzed. A total of 24 chips were used (4 treatments x 2 time points x 3 biological replicates). Microarray data were analyzed using the GCRMA algorithm as described previously (Fletcher et al., 2011); ratios of normalized probe set intensity values were calculated for each sample pair (in which M value = log2 [elicitor/control]) and then averaged among the three replicates.
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

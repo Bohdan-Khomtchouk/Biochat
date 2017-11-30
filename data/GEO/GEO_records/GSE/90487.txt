@@ -1,0 +1,18 @@
+TITLE
+Dissecting immune circuits by linking CRISPR pooled screens with single cell RNA-seq [SET2]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In multicellular organisms, dedicated regulatory circuits control cell-type diversity and response. The crosstalk and redundancies within these circuits and substantial cellular heterogeneity pose a major research challenge. We present CRISP-seq, an integrated method for massively parallel single-cell RNA-seq and CRISPR pooled screens. We show that profiling the perturbation and transcriptome in the same cell, enables to elucidate, the function of multiple factors and their interactions. In this benchmarking study, we applied this technology to probe regulatory circuits of innate immunity. By sampling tens of thousands of perturbed cells in vitro and in mice, we identified interactions and redundancies between developmental and signaling-dependent factors controlling the commitment toward different cell lineages or the inflammatory and antiviral pathways. CRISP-seq thereby emerges as a broadly applicable, comprehensive, and unbiased approach for elucidating mammalian regulatory circuits.
+
+DESIGN
+DNA sequencing of guide RNA targeted loci for several CRISPR pools.  Libraries were generated using primer flanking the target region for bulk population of cells, and sequenced on the Illumina MiSeq.
+
+PLATFORM
+GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+27984734
+

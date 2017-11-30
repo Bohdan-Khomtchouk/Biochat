@@ -1,0 +1,18 @@
+TITLE
+A Clinically Relevant Gene Signature in Triple-Negative and Basal-Like Breast Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Current prognostic gene expression profiles for breast cancer mainly reflect proliferation status and are most useful in ER-positive cancers. Triple-negative breast cancers (TNBCs) are clinically heterogeneous, and prognostic markers and biology-based therapies are needed to better treat this disease. We assembled Affymetrix gene expression data for 579 TNBCs and performed unsupervised analysis to define metagenes that distinguish molecular subsets within TNBC. We used n=394 cases for discovery and n=185 cases for validation. Sixteen metagenes emerged that identified basal-like, apocrine and claudin-low molecular subtypes, or reflected various non-neoplastic cell populations including immune cells, blood, adipocytes, stroma, angiogenesis, and inflammation within the cancer. The expressions of these metagenes were correlated with survival and multivariate analysis was performed including routine clinical and pathological variables. 73% of TNBCs displayed basal-like molecular subtype that correlated with high histological grade and younger age. Survival of basal-like TNBC was not different from non-basal-like TNBC. High expression of immune cell metagenes was associated with good and high expression of inflammation and angiogenesis-related metagenes were associated with poor prognosis. A ratio of high B-cell and low IL-8 metagenes identified 32% of TNBC with good prognosis (HR 0.37, 95% CI 0.22-0.61; P < 0.001) and was the only significant predictor in multivariate analysis including routine clincopathological variables. We describe a ratio of high B-cell presence and low IL-8 activity as a powerful new prognostic marker for TNBC. Inhibition of the IL-8 pathway also represents an attractive novel therapeutic target for this disease.
+
+DESIGN
+Analysis of primary breast cancer biopsies from patients before treatment. No replicates. No control or reference samples are included. The set of 579 TNBCs includes: (1) 67 new GEO Samples (GSM782523-GSM782589), (2) 489 re-analyzed GEO Samples (see 'Relation' links below), and (3) 23 re-analyzed ArrayExpress Samples. Cohorts: HH = University of Hamburg FRA = University of Frankfurt, adjuvant chemotherapy FRA-2 = University of Frankfurt, neoadjuvant chemotherapy FRA-3 = University of Frankfurt, no adjuvant chemotherapy Data processing of the 579 TNBC Samples: MAS5 values were taken from GEO if available. For samples with no MAS5 values, CEL files were downloaded from GEO and the affy package from Bioconductor was used to generate MAS5 values. Next, MAS5 values corresponding only to the 22283 probesets from the U133A array were compiled. Subsequently, normalization of MAS5 data was performed using the command line version of the program CLUSTER 3.0 (Michael Eisen; updated by Michiel de Hoon; http://bonsai.hgc.jp/~mdehoon/software/cluster/command.txt ). The following three steps were performed in the following order: 1. log2 transformation of MAS5 values 2. median centering of arrays 3. magnitude normalization of arrays These three steps correspond to the following commands: cluster.com filename -l cluster.com filename -ca m cluster.com filename -na The resulting dataset, which is linked below as a supplementary file, was used for the subsequent analyses.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+21978456 , 22220191 , 21741824 , 26484129
+

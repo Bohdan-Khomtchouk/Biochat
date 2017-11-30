@@ -1,0 +1,18 @@
+TITLE
+Allelic reprogramming of the histone modification H3K4me3 in early mammalian development
+
+ORGANISM
+Danio rerio ; Mus musculus
+
+SUMMARY
+Histone modifications are considered as fundamental epigenetic regulators that control many crucial cellular processes 1. However, whether these marks can be passed on from gametes to the next generation in mammals is a long-standing question that remains unclear. By developing a highly sensitive approach, STAR ChIP-seq, we provided a panoramic view of the landscape of H3K4me3, a histone hallmark for transcription initiation 2, from developing gametes to postimplantation embryos. Interestingly, we found that upon fertilization, extensive reprogramming occurred on the paternal genome, as few H3K4me3 peaks were observed in zygotes before they reappeared after major zygotic genome activation at the late 2-cell stage. On the maternal genome, we unexpectedly found a non-canonical form of H3K4me3 (ncH3K4me3) in full-grown and mature oocytes, which exists as broad peaks at promoters and a large number of distal loci. Such broad H3K4me3 peaks are in striking contrast to typical sharp H3K4me3 peaks restricted in CpG rich regions of promoters. Interestingly, ncH3K4me3 in oocytes overlaps almost exclusively with partially methylated DNA domains (PMDs). It is then inherited in preimplantation embryos before being erased in the late 2-cell embryos, when canonical H3K4me3 starts to be established. The removal of ncH3K4me3 requires zygotic transcription but is independent of DNA replication mediated passive dilution. Finally, downregulation of H3K4me3 in full-grown oocytes by overexpressing an H3K4me3 demethylase KDM5B is associated with defects in genome silencing. Taken together, these data unveiled inheritance and highly dynamic reprogramming of the epigenome in early mammalian development.
+
+DESIGN
+Mouse preimplantation embryos were obtained from crosses of C57BL/6N and PWK. A newly developed ChIP-seq approach (STAR ChIP-seq) and RNA-seq were performed in these embryos at variou stages in preimplantation development. Please note that [1] 'PN5 zygote histone H3' sample represents input files for PN5_K4me3 sample, using H3 antibody. [2] both separate (for each replicate sample, i.e. sample supplementary file) and combined processed bed file (for all replicates, i.e. Series supplementary file) have been provided.
+
+PLATFORM
+GPL18171 Illumina HiSeq 1500 (Danio rerio) GPL18480 Illumina HiSeq 1500 (Mus musculus)
+
+CITATIONS
+27626382
+

@@ -1,0 +1,18 @@
+TITLE
+Translational validation of personalized treatment strategy based on genetic characteristics of glioblastoma [surgical samples]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Glioblastoma (GBM) heterogeneity in the genomic and phenotypic properties has potentiated personalized approach against specific therapeutic targets of each GBM patient. The Cancer Genome Atlas (TCGA) Research Network has been established the comprehensive genomic abnormalities of GBM, which sub-classified GBMs into 4 different molecular subtypes. The molecular subtypes could be utilized to develop personalized treatment strategy for each subtype. We applied a classifying method, NTP (Nearest Template Prediction) method to determine molecular subtype of each GBM patient and corresponding orthotopic xenograft animal model. The models were derived from GBM cells dissociated from patient's surgical sample. Specific drug candidates for each subtype were selected using an integrated pharmacological network database (PharmDB), which link drugs with subtype specific genes. Treatment effects of the drug candidates were determined by in vitro limiting dilution assay using patient-derived GBM cells primarily cultured from orthotopic xenograft tumors. The consistent identification of molecular subtype by the NTP method was validated using TCGA database. When subtypes were determined by the NTP method, orthotopic xenograft animal models faithfully maintained the molecular subtypes of parental tumors. Subtype specific drugs not only showed significant inhibition effects on the in vitro clonogenicity of patient-derived GBM cells but also synergistically reversed temozolomide resistance of MGMT-unmethylated patient-derived GBM cells. However, inhibitory effects on the clonogenicity were not totally subtype-specific. Personalized treatment approach based on genetic characteristics of each GBM could make better treatment outcomes of GBMs, although more sophisticated classifying techniques and subtype specific drugs need to be further elucidated.
+
+DESIGN
+Gene expression profiling experiments were conducted for 25 patient-derived xenograft glioblastoma samples using Affymetrix Human Gene 1.0 ST arrays according to manufacturer's protocol.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+25084005
+

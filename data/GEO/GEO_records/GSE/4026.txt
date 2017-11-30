@@ -1,0 +1,18 @@
+TITLE
+A Distinct QscR Regulon in the Pseudomonas aeruginosa Quorum Sensing Circuit
+
+ORGANISM
+Pseudomonas aeruginosa
+
+SUMMARY
+To better understand the role of QscR in P. aeruginosa gene regulation and to better understand the relationship between QscR, LasR and RhlR control of gene expression we used transcription profiling to identify a QscR-dependent regulon. Our analysis revealed that QscR activates some genes and represses others. Some of the repressed genes are not regulated by the LasR-I or RhlR-I systems while others are. The LasI-generated 3-oxododecanoyl-homoserine lactone serves as a signal molecule for QscR. Thus QscR appears to be an integral component of the P. aeruginosa quorum sensing circuitry. QscR uses the LasI-generated acyl-homoserine lactone signal and controls a specific regulon that overlaps with the already overlapping LasR and RhlR-dependent regulons. Keywords: Quorum sensing regulon, Direct activation
+
+DESIGN
+First comparisaon We first compared transcriptomes of the qscR mutant P. aeruginosa PAO-R3 and the parental strain PAO1 at several points during growth (OD600nm 0.5, 0.8, 1.4, 2.0 and 3.5). To identify those genes with expression significantly different between PAO1 and PAO-R3 at different culture densities we used CYBER-T. The Bayesian prior estimate was 10 and the sliding window size was 101. The p-value threshold was 0.001, the posterior probability of differential expression > 0.95, and fold change was > 2.5. Second comparison We selected genes that were at least 3-fold differentially expressed in the strain containing the L-arabinose promoter-driven qscR allele vs the strain containing L-arabinose promoter-driven qscR-Ddbd allele, and were also at least 3-fold differentially expressed in the parent strain PAO1 as compared to the strain containing the qscR null mutation. RNA were extracted from cultures at OD 0.5, 0.8, 1.4, 2.0 and 3.5
+
+PLATFORM
+GPL84 [Pae_G1a] Affymetrix Pseudomonas aeruginosa Array
+
+CITATIONS
+16621831
+

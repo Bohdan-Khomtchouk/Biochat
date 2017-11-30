@@ -1,0 +1,18 @@
+TITLE
+Gene expression profile of conjunctival epithelial cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Human conjunctival cell lines are useful tools for modeling ocular surface disease and evaluation of ocular drugs. Here we demonstrate that the IOBA-NHC and the ChWK conjunctival epithelial cell lines show, using an unbiased gene microarray approach, unique gene expression signatures that differ from primary conjunctival epithelial cells (PCEC) and conjunctival tissue. Globally, the expression profile obtained with the Affymetrix U133A chip ( > 22000 genes) from PCEC was clustered more closely to conjunctival tissue than either of the 2 cell lines. However, when restricted to Gene Ontology sub-categories: cellular defense, viral replication/cycling, antigen presentation, anti-oxidant pathways and ubiquitin ligase complex, the cell lines correlated reasonably well to PCEC (r > 0.70). In the category response to inflammation, correlation of cell lines to PCEC was poor (r = -0.012 and –0.041 for IOBA-NHC and ChWK respectively).  In general, the expression profile in IOBA-NHC cells was better correlated to PCEC than the ChWK cells. This was statistically significant (p < 0.05) when one considers all the genes on the chip, or for proteins in the extracellular region, response to wounding, stress, lipid, protein and organic acid metabolism, development and differentiation. Our results are useful for the choice of conjunctival cell lines, if necessary, in future experiments, to increase validity of extrapolation to clinical scenarios. Keywords: Cell type comparison
+
+DESIGN
+Affymetrix U133A Genechip Experimental samples: IOBA-NHC cells (5 samples) Chang conjunctival epithelial cells WK derivative (4 samples) Primary conjunctival epithelial cells from explants (3 samples, obtained from cadaveric human explants) Conjunctival tissue from pterygium study where small piece uninvolved conjunctiva harvested (4 patients' RNA pooled to form one sample, total number of samples: 4) RT and hybridisation 16 hr according to Affymetrix protocol Labeling with biotin Washing microfluidics station 450 Analysis with Genespring GX 7.3.1 RMA normalisation following by normalisation to chip level median signal These processed data used for correlation analysis Further gene level normalisation to primary conjunctival epithelial cells samples for the purpose of fold change analysis to compare expression in IOBA or ChWK cells vs primary conjunctival epithelial cells.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+19630270
+

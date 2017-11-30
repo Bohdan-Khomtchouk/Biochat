@@ -1,0 +1,18 @@
+TITLE
+Spike-in Experiment for ChIP-chip Simulation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The most widely-used method for detecting genome-wide protein-DNA interactions is chromatin immunoprecipitation on tiling microarrays, commonly known as ChIP-chip. Here, we conducted the first objective analysis of tiling array platforms and analysis algorithms in a simulated ChIP-chip experiment. Mixtures of human genomic DNA and " spike-ins " comprised of nearly 100 human sequences at various concentrations were hybridized to four tiling array platforms by eight independent groups. Blind to the number of spike-ins, their locations, and the range of concentrations, each group made predictions of the spike-in locations. All commercial tiling array platforms performed well, although each platform and analysis algorithm had distinct performance and cost characteristics. Simple sequence repeats and genome redundancy tend to result in false positives on oligonucleotide platforms. The spike-in DNA samples and the resulting array data presented here provide a stable benchmark against which future ChIP platforms, protocol improvements, and analysis methods can be evaluated. Keywords: chip-ChIP simulation For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf
+
+DESIGN
+For each replicate array, we labeled 1µg of spike-in sample and 1µg of control sample.  The Bioprime Plus Array CGH labeling Module (Invitrogen Catolog number 18095-014) was used.  The spike-in was labeled with the red channel dye (Alexa Fluor-647) and the control was labeled with the green channel dye (Alexa Fluor-555) in two of the replicates.  A dye swap was performed for the third replicate.  These samples were then competitively hybridized to three replicate 244k arrays from Agilent, (AMADID 25150451).  We hybridized the samples to the arrays using the Agilent Array CGH protocol, with some modifications.  Briefly, labeled DNA was combined with Cot-1 DNA, blocking reagent, and hybridization buffer.  The hybridizations were carried out at 60°C.  The arrays were scanned using an Agilent dual laser scanner, and the images were processed using Agilent Feature Extraction Software.
+
+PLATFORM
+GPL6189 Agilent 244k ENCODE custom tiling array
+
+CITATIONS
+18258921
+

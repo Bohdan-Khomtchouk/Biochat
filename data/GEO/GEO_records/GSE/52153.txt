@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of staurosporine-induced cell death in wild type versus Δczt-1 in Neurospora crassa
+
+ORGANISM
+Neurospora crassa
+
+SUMMARY
+Purpose: Compare the transcriptional profile of staurosporine-treated cells in Neurospora crassa wild type and Δczt-1 (ΔNCU09974) cells Methods: Conidial suspensions were obtained and 1 x 106 cells/ml incubated in minimal medium for 6 hours (26ºC, 140 rpm, constant light) followed by the addition of staurosporine (or DMSO) and growth for 1 more hour. Cells were harvested using 0.45 μm filters and immediately frozen in liquid nitrogen. Total RNA was isolated by the Trizol-Phenol-Chloroform method. After digestion of 25 μg RNA with TURBO DNAse (Life Technologies), mRNA was purified using Dynabeads oligo(dT) magnetic beads (Life Technologies). The mRNA was chemically fragmented using the Ambion RNA fragmentation kit (Life Technologies). First and second strand cDNA synthesis was achieved using appropriate kits (Life Technologies). The illumina TruSeq kit was employed to generate the cDNA libraries with indexing adapters essentially following the manufacturer’s protocol. After purification of the libraries with AMPure XP beads (Roche), the quality of the libraries was analysed in a Agilent 2100 Bioanalyzer. The cDNA libraries were sequenced in a illumina HiSeq2000 and single reads of 50 bp were obtained. Sequencing data was handled essentially with Tophat, Cufflinks and Cuffdiff. Expression levels are presented as Fragments/Reads Per Kilobase of transcript per Million mapped reads (FPKM/RPKM). Results: Transcriptional profiling of staurosporine-treated cells wild type by RNA-sequencing showed that genes encoding the machinery for protein synthesis are enriched among the genes repressed by the drug. Functional category enrichment analyses also show that genes encoding components of the mitochondrial respiratory chain are downregulated by staurosporine, whereas genes involved in endoplasmic reticulum activities are upregulated. In contrast, a staurosporine-treated czt-1 deletion strain is unable to repress the genes for the respiratory chain and to induce the genes related with the endoplasmic reticulum, indicating a role for CZT-1 on the regulation of activity of these organelles. Conclusions: This transcriptional profiling study is framed in a comprehensive study on the role of the novel transcription factor CZT-1 (NCU09974) in Neurospora crassa.
+
+DESIGN
+Transcriptional profile of wild type and Δczt-1 cells staurosporine-treated cells in Neurospora crassa was compared using illumina HiSeq2000 and single reads of 50 bp.
+
+PLATFORM
+GPL16164 Illumina HiSeq 2000 (Neurospora crassa)
+
+CITATIONS
+24717808
+

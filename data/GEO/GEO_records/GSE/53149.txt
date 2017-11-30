@@ -1,0 +1,18 @@
+TITLE
+Genotyping of E14 mouse embryonic stem cells by sequencing
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+More than 2x10E9 sequences made on Illumina platform derived from the genome of E14 embryonic stem cells cultured in our laboratory were used to build a database of about 2.7x10E6 single nucleotide variant. The database was validated using other two sequencing datasets from other laboratory and high overlap was observed. The identified variant are enriched on intergenic regions, but several thousands reside on gene exons and regulatory regions, such as promoters, enhancers, splicing site and untranslated regions of RNA, thus indicating high probability of an important functional impact on the molecular biology of this cells. We created a new E14 genome assembly including the new identified variants and used it to map reads from next generation sequencing data generated in our laboratory or in others on E14 cell line. We observed an increase in the number of mapped reads of about 5%. CpG dinucleotide showed the higher variation frequency, probably because of it could be target of DNA methylation. We performed a reduced representation bisulfite sequencing on E14 cell line to test our new genome assembly with respect to the mm9 genome reference. After mapping and methylation status calling, we obtained an increase of about 120,000 called CpG and we avoided about 20,000 wrong CpG calling.
+
+DESIGN
+genotyping of E14 embryonic stem cells (ESCs) and Reduced representation Bisulfite Sequencing (RRBS) of E14 ESCs.
+
+PLATFORM
+GPL16173 Illumina HiScanSQ (Mus musculus)
+
+CITATIONS
+25004115
+

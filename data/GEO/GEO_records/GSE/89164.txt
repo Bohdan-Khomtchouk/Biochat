@@ -1,0 +1,18 @@
+TITLE
+Cell fixation and preservation for droplet-based single cell transcriptomics
+
+ORGANISM
+Drosophila melanogaster ; Homo sapiens ; Mus musculus
+
+SUMMARY
+Background: Recent developments in droplet-based microfluidics allow the transcriptional profiling of thousands of individual cells, in a quantitative, highly parallel and cost-effective way. A critical, often limiting step is the preparation of cells in an unperturbed state, not compromised by stress or ageing. Another challenge are rare cells that need to be collected over several days, or samples prepared at different times or locations. Results: Here, we used chemical fixation to overcome these problems. Methanol fixation allowed us to stabilize and preserve dissociated cells for weeks. By using mixtures of fixed human and mouse cells, we showed that individual transcriptomes could be confidently assigned to one of the two species. Single-cell gene expression from live and fixed samples correlated well with bulk mRNA-seq data. We then applied methanol fixation to transcriptionally profile primary single cells from dissociated complex tissues. Low RNA content cells from Drosophila embryos, as well as mouse hindbrain and cerebellum cells sorted by FACS, were successfully analysed after fixation, storage and single-cell droplet RNA-seq. We were able to identify diverse cell populations, including neuronal subtypes.  As an additional resource, we provide 'dropbead', an R package for exploratory data analysis, visualization and filtering of Drop-seq data. Conclusions: We expect that the availability of a simple cell fixation method will open up many new opportunities in diverse biological contexts to analyse transcriptional dynamics at single cell resolution.
+
+DESIGN
+Mixtures of human and mouse cells, either live or fixed, or fixed and stored for several weeks were used for droplet-based single cell mRNA transcriptome profiling. The methods were also successfully applied to primary cells isolated from Drosophila embryos and newborn mouse hindbrain/cerebellum.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19057 Illumina NextSeq 500 (Mus musculus) GPL19132 Illumina NextSeq 500 (Drosophila melanogaster) GPL19415 Illumina NextSeq 500 (Homo sapiens; Mus musculus)
+
+CITATIONS
+28526029
+

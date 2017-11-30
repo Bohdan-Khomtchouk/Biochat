@@ -1,0 +1,18 @@
+TITLE
+Halobacterium salinarum NRC-1 growth curve, tiling arrays
+
+ORGANISM
+Halobacterium salinarum NRC-1
+
+SUMMARY
+Experimentally mapped transcriptome structure of H. salinarum NRC-1 by hybridizing total RNA (including RNA species < 200 nt) to genome-wide high-density tiling arrays (60 mer probes with 40 nt overlap between contiguous probes). H. salinarum NRC-1 presents a number of interesting switches in metabolism during growth due to complex changes in EFs including pH, oxygen, nutrition, etc. While most single perturbations (radiation, oxygen, metals, etc.) affect the expression of only ~10% of all genes (Baliga et al, 2004; Kauret al , 2006; Whitehead et al, 2006), the changes during growth resulted in differential regulation of a significantly higher proportion of genes (~63%, 1,518 genes). These conditions enabled the investigation of a wider transcriptional landscape, which includes not only modulation of transcript levels, but also extensive changes in transcriptome structure. We observed altered transcription start sites (TSSs), transcription termination site (TTSs), operon organizations and differential regulation of putative ncRNAs. By integrating hybridization signals with dynamic growth-related changes, we estimated the probability that each tiling array probe was complementary to a transcribed region, mapped locations of putative transcript boundaries and identified 1,574 TSSs and 1,952 TTSs for most genes with some transcriptional variation. In sum, TSSs were assigned to 64% (1,156 singletons and 544 genes in 203 operons) of all annotated genes and TTSs were assigned to 1,114 genes and 202 operons. We were also able to identify 5' and 3' UTRs and revise start sites for 61 genes and 12 operons.
+
+DESIGN
+H. salinarum NRC-1 growth curve experiments were conducted in CM media, in a water bath incubator at 37oC with agitation of 125 rpm. Reference samples were cultured under standard growth conditions (Baliga and DasSarma, 1999), at mid-log phase (OD600 = ~0.6), as well as all strains used for ChIP-chip experiments (Facciotti et al., 2007). Whole-genome high resolution tiling arrays for H. salinarum NRC-1 were designed with e-Array (Agilent Technologies), using strand specific 60mer probes tiled every 20nt for the main chromosome (NC_002607) and every 21nt for the plasmids pNRC200 (NC_002608) and pNRC100 (NC_001869), consisting a total of 244K probes, including manufacturers’ controls. Microarrays were printed by Agilent technologies and hybridized to total RNA, which was isolated using mirVana miRNA Isolation kit (Ambion) and direct labeled with Alexa547 and Alexa647 dyes (Kreatech) (Baliga et al., 2004). We used direct chemical labeling of RNA (Baliga et al., 2004) to avoid enzymatic labeling artifacts (Perocchi et al., 2007) and enable strand-specific signals for transcribed segments. Hybridization and washing were performed according to array manufacturer’s instructions. Arrays were scanned in ScanArray (Perkin Elmer) and spot-finding was performed using Feature Extraction (Agilent Technologies). Two biological replicates were sampled and dye-flip experiments were conducted for each sample. Resulting intensities were quantile normalized across all experiments. Log ratios were calculated for each probe (growth curve sample/reference). Reference RNA signals were normalized by sequence content using a linear model similar to that of (Johnson et al., 2006). Interactive visualization of the data was performed in the Gaggle Genome Browser (Bare et al., in preparation), available at http://baliga.systemsbiology.net/regulatory_logic/.
+
+PLATFORM
+GPL7255 Halobacterium tiling array Agilent 015962
+
+CITATIONS
+19536208
+

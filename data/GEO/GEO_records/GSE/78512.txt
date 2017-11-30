@@ -1,0 +1,18 @@
+TITLE
+Identification Of Candidate Anti-Cancer Molecular Mechanisms Of Compound Kushen Injection Using Functional Genomics
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Compound Kushen Injection (CKI) has been clinically used in China for over 15 years to treat various types of solid tumours.  However, because such Traditional Chinese Medicine (TCM) preparations are complex mixtures of plant secondary metabolites, it is essential to explore their underlying molecular mechanisms in a systematic fashion.  We have used the MCF-7 breast cancer cell line as an initial in vitro model to identify CKI induced changes in gene expression.  Cells were treated with CKI for 24 and 48 hours at two concentrations (1.0 and 2.0 mg/mL), and 5-Fluorouracil (5-FU) was used to treat cells as a positive control.  Cell proliferation and apoptosis activity were measured with XTT and Caspase-3 assays respectively.  Transcriptome data of cells treated with CKI or 5-FU for 24 and 48 hours were acquired using high-throughput Illumina RNA-seq technology. In this report we show that CKI inhibited MCF-7 cell proliferation and induced apoptosis in a dose-dependent fashion.  We integrated and applied a series of transcriptome analysis methods, including gene differential expression analysis, pathway over-representation analysis, de novo identification of long non-coding RNAs (lncRNA) as well as co-expression network reconstruction, to identify candidate anti-cancer molecular mechanisms of CKI.  Multiple pathways were perturbed and the cell cycle was identified as the potential primary target pathway of CKI in MCF-7 cells.  CKI may also induce apoptosis in MCF-7 cells via a p53 independent mechanism.  In addition, we identified novel lncRNAs and showed that many of them might be expressed as a response to CKI treatment.  Overall, we have comprehensively investigated the utility of transcriptome analysis with high-throughput sequencing to characterise the molecular response of cancer cells to a TCM drug, and provided a practical guideline for future molecular studies of TCM.
+
+DESIGN
+High-depth paired-end RNA-seq from MCF-7 cell line. Each sample contains 3 biological replicates.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27602759
+

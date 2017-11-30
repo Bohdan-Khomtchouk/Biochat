@@ -1,0 +1,18 @@
+TITLE
+Salmonella Cascade assembles on both cis- and -trans encoded CRISPR RNAs
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344
+
+SUMMARY
+CRISPR/Cas loci commonly encode both proteins and small guide RNAs (crRNAs) to assemble ribonucleoproteins particles (RNPs) that confer a sequence-based, adaptive immunity against viruses and plasmids in prokaryotes. However, it has not been established whether this conserved synteny of RNA and protein genes is needed for the efficient RNP production in vivo. We show that the pathogenic bacterium Salmonella Typhimurium harbours two physically unlinked loci, CRISPR01 and CRISPR02, both of which produce mature crRNAs, although CRISPR02 lacks the protein genes for the type I-specific Cascade complex. Utilizing these coexisting complete and orphan CRISPR loci, we provide the first in vivo evidence for a crRNA-dependent assembly of Cascade. Strikingly, the full RNP assembles identically on crRNAs from either CRISPR cassette, i.e. regardless of their expression in cis or trans. Deep sequencing of Cas-bound transcripts identifies crRNAs derived from both loci as the sole bona fide targets of Cascade, although individual Cas proteins may interact with other cellular RNAs outside of the Cascade context. Altogether, our data demonstrate that CRISPR RNAs, independently of their origin, serve as the organizing centre of Cascade in vivo and are the main reason-to-be for its protein components in Salmonella.
+
+DESIGN
+RNA-seq approach for RNA samples from cultures of Salmonella enterica serovar Typhimurium strain SL1344 Cas-protein CoIPs, harvested at mid-log. Salmonella expressing 3×FLAG-tagged Cas proteins were grown in LB at 37°C until OD600 of 0.5. For each strain cells equivalent to an OD600 of 50 were collected in parallel and subjected to Cas coIP and control coIP as described in (35).For each sample two cDNA libraries from total RNA were prepared to enriche for transcripts  5’OH : one library is generated from untreated RNA, whereas the other is treated with polynucleotide kinase (PNK).
+
+PLATFORM
+GPL18823 Illumina HiSeq 2000 (Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

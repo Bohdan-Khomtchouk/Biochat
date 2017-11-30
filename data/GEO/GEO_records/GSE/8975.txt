@@ -1,0 +1,18 @@
+TITLE
+Global expression profiling of Arabidopsis plants overexpressing a member of the DEVIL gene family.
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+The DEVIL (DVL) family is a plant-specific family of genes that encode predicted small polypeptides (Wen, et al., 2004; Narita, et al., 2004). Overexpression of DVL family members in Arabidopsis results in pleiotropic developmental phenotypes including shortened stature, rounded rosette leaves, clustered inflorescences, shortened pedicles and horn-like protrusions at the distal end of siliques. Point mutations reveled that a conserved C-terminal domain is required for DVL overexpression phenotypes and is conserved in all family members. Based on the overexpression experiments, DVL family members are suggested to play important roles in plant development. In an attempt to uncover genes whose transcription was changed in response to DVL overexpression, we designed a microarray-based global profiling experiment. A transgenic Arabidopsis line that carried a GVG construct (glucocorticoid inducible) (Aoyama and Chua, 1997) driving the expression of DVL4 was generated and used in this experiment. This allowed for better identification of primary transcriptional responses to DVL overexpression. Experiments with transgenic lines in which DVL overexpression is driven by a constitutive promoter would add the complexity of secondary transcriptional responses as well. Computational analysis of the datasets generated in this experiment lead to the identification of genes that may be involved in responding to DVL overexpression. Experimentation is currently ongoing to investigate the role these genes play in plant development and the DVL overexpression phenotypes.
+
+DESIGN
+To identify genes that are transcriptionally responsive to DVL overexpression, we used microarray analysis to globally profile different transgenic Arabidopsis lines in a Columbia (Col) background. A control line was transformed with the GVG construct, but without a coding sequence inserted in the multiple cloning site. This line was indistinguishable from Col Wt with and without dexamethazone (dex, a steroid that activates transcription of the coding sequence inserted in the GVG vector) treatment or mock treatment. This line is called the empty vector control. A second line was also transformed with the GVG construct containing the DVL4 coding sequence. Without dex treatment or mock treatment, this line was indistinguishable from Col Wt, but displayed a typical DVL overexpression phenotype with dex treatment. This line is called GVG DVL4. These lines were grown in standard growth chambers with 16hr days to the six rosette leaf stage (vegetative). The plants were then mock treated or dex treated and samples for RNA extraction were collected 10hrs post-treatment. Three different samples were treated and collected: Empty vector control with dex treatment; GVG DVL4 with mock treatment; and GVG DVL4 with dex treatment. All samples were collected as three biological replicates. Affymetrix Arabidopsis ATH1 Genome GeneChips were used for the global analysis. Computational analysis was completed using dChip software (www.dchip.org). The empty vector control with dex treatment can be used to correct for any transcriptional responses due to dex treatment alone.
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+Interactions between a NAC-Domain Transcription Factor and the Putative Small Protein Encoding DVL/ROT Gene Family. Plant Molecular Biology Reporter Volume 28, Number 1 / March, 2010: 162-168 DOI:10.1007/s11105-009-0131-2. http://www.springerlink.com/content/m0242845k1847367
+

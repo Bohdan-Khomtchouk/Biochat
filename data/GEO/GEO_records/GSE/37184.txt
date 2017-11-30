@@ -1,0 +1,18 @@
+TITLE
+Dynamic binding of RBPJ is determined by Notch signalling status
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Notch signalling plays crucial roles in mediating cell fate choices in all metazoans largely by specifying the transcriptional output of one cell in response to a neighbouring cell. The DNA-binding protein RBPJ is the principle effector of this pathway in mammals and together with the transcription factor moiety of Notch (NICD) it regulates the expression of target genes. The prevalent view presumes that RBPJ statically occupies consensus binding sites while exchanging repressors for activators in response to NICD. We present the first specific RBPJ chromatin immunoprecipitation and high-throughput sequencing study in mammalian cells. To dissect the mode of transcriptional regulation by RBPJ and identify its direct targets, whole genome binding profiles were generated for RBPJ, its coactivator p300, NICD and the histone H3 modifications H3K4me3, H3K4me1 and H3K27ac in myogenic cells under active or inhibitory Notch signalling conditions. Our results demonstrate dynamic binding of RBPJ in response to Notch activation at essentially all sites co-occupied by NICD. Additionally, we identify a distinct set of sites where RBPJ recruits neither NICD nor p300, and binds DNA statically, irrespective of Notch activity. These findings significantly modify our views on how RBPJ and Notch signalling mediate their activities and consequently impact on cell fate decisions.
+
+DESIGN
+ChIP (chromatin immunoprecipitation) is followed by deep sequencing to generate genome-wide patterns of RBP-J binding in mouse C2C12 cells under various conditions. Cells were either Notch activated by exposure to immobilized ligand or by overexpression of NICDGFP, or Notch inhibited by treatment with DAPT. Notch activation and inhibition treatments were applied for 6h and 24h. In addition to RBP-J, p300 and NICDGFP were profiled by ChIP-Seq and gene expression was assessed by RNA-Seq.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+23651858
+

@@ -1,0 +1,18 @@
+TITLE
+RNA-Seq Analysis of CNF2 and GPF1-dependent Genes in Magnaporthe oryzae 70-15
+
+ORGANISM
+Magnaporthe oryzae
+
+SUMMARY
+Purpose: The goals of this study are to find out the genes regulated directly or indirectly by Zn2Cys6 transcription factors Cnf2 and Gpf1 by RNA-seq and to evaluate the similarities and differences in gene regulation mechanisms of Cnf2 and Gpf1 in the rice blast fungus Methods: Mycelial mRNAs of the wild type strain 70-15, mutants Δgpf1 (01F1-1) and Δcnf2 (03C7-2) incubated in H2O at 25˚C for 4 h, in triplicate independently for each strain, were extracted and isolated by RNeasy Plant mini kit (QIAGEN) and AMPure XP beads (Beckman). RNA-sequencing libraries were constructed using NEBNext RNA sample preparation kit (NEB). Samples were sequenced in a 1 x 100 nt way on Illumina Hiseq2500 instrument using TruSeq PE Cluster Kit v3 - cBot - HS (Illumina) and TruSeq SBS Kit v3-HS (Illumina).The M. oryzae genome database (Version 7) (www.broadinstitute.org) was used as a reference gene database. Genome-wide transcript levels of genes were quantified in fragments per kilobase of exon model per million mapped reads (FPKM) (Trapnell 2010). Gene Ontology (GO) enrichment analyses for differentially expressed genes were performed using hypergeometric test with topGO, and p-values were adjusted with Bonferroni for multiple testing (Alexa 2006). And we selected FDR < 0.05 as enrichment terms. Results and Conclusions: We identified 2641 genes regulated by GPF1 and 3144 genes by CNF2 through RNA-Seq. Interestingly, 2021 genes were regulated in same direction in Δgpf1 and Δcnf2. This fact suggested GPF1 and CNF2 have similar mechanisms in the regulation of fungal pathogenicity. More than sixty differentially expressed genes in Δgpf1 and Δcnf2 were confirmed to be required for fungal pathogenicity. Nearly half of Zn2Cys6 transcription factor genes and many other DNA binding domain transcription factor genes were regulated by GPF1 and CNF2. These data primarily revealed the gene expression network in the regulation of fungal pathogenicity controlled by GPF1 and CNF2.
+
+DESIGN
+Mycelial mRNA profiles of wild type strain 70-15 (WT), Δgpf1 and Δcnf2 incubated in H2O for 4 h were generated, in biologic triplicate, by Illumina Hiseq2500 in a 1 x 100 nt way
+
+PLATFORM
+GPL18618 Illumina HiSeq 2500 (Magnaporthe oryzae)
+
+CITATIONS
+25299517
+

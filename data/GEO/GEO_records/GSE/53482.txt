@@ -1,0 +1,18 @@
+TITLE
+Integrative Analysis of Gene and miRNA expression profiles in Primary Myelofibrosis CD34+ cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Ph-negative myeloproliferative neoplasms (MPNs) are characterized by many somatic mutations which have already been shown useful in the prognostic assessment of MPN patients. Moreover, aberrant microRNA (miRNA) expression seems to add to the molecular complexity of MPNs, as specific miRNA signatures capable of discriminating MPN cells from those of normal donors were previously reported. In order to have a comprehensive picture of miRNA deregulation and its relationship with differential gene expression in primary myelofibrosis (PMF) cells, we obtained gene- (GEP) and miRNA expression profiles (miEP) of CD34+ cells from 31 healthy donors and 42 PMF patients using Affymetrix technology (HG-U219 and miRNA 2.0 arrays). Differentially expressed genes (DEG) and miRNAs (DEM) were sorted out by means of  Partek Genomic Suite vs 6.6. Since each miRNA can target many mRNAs while a single mRNA can be targeted by multiple miRNAs, we performed Integrative Analysis (IA) by means of Ingenuity Pathway Analysis (IPA) to untangle this combinatorial complexity. In particular, IPA points out DEM-DEG pairs among experimentally validated interactions from TarBase, miRecords and Ingenuity Expert Findings as well as predicted microRNA-mRNA interactions from TargetScan. IPA microRNA Target Filter was then employed to select only the DEM-DEG pairs showing an anti-correlated expression pattern and to build regulatory networks. Finally, 3'UTR luciferase reporter assays were performed to validate IPA predicted miRNA-mRNA interactions. This study allowed the identification of different networks possibly involved in PMF onset and progression, highlighting an aberrant cross-regulation in miRNA-targets involved in malignant hematopoiesis. Furthermore, Integrative analysis was proved a powerful tool to unravel miRNA-mRNA interactions in functional networks, shedding light on the potential contribution of miRNAs to PMF pathogenesis.
+
+DESIGN
+Gene expression profile (GEP) and miRNA expression profile (miEP) were performed starting from the same totalRNA of CD34+ cells from 42 PMF patients and 31 healthy donors (n=16 PB CD34+, n=15 BM CD34+) (1 replicate for each sample). In particular, GEP and miEP were performed on 23 PMF patients carrying the mutation JAK2V617F and 19 wild-type  samples.
+
+PLATFORM
+GPL13667 [HG-U219] Affymetrix Human Genome U219 Array GPL14613 [miRNA-2] Affymetrix Multispecies miRNA-2 Array
+
+CITATIONS
+25097177 , 28423484
+

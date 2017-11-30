@@ -1,0 +1,18 @@
+TITLE
+Composite macroH2A/NRF-1 Nucleosomes Suppress Noise and Generate Robustness in Gene Expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The histone variant macroH2A has been implicated in transcriptional repression, but the molecular mechanisms that contribute to global macroH2A-dependent genome regulation remain elusive. Using ChIP-seq coupled with transcriptional profiling in macroH2A knock-down cells (GSE53103) we demonstrate that singular macroH2A nucleosomes occupy transcription start sites of subsets of both expressed and repressed genes with opposing regulatory consequences. Specifically macroH2A nucleosomes mask repressor binding sites in expressed genes, but activator binding sites in repressed genes thus generating distinct chromatin landscapes limiting genetic or extracellular inductive signals. We show that composite nucleosomes containing macroH2A and NRF-1 are stably positioned on gene regulatory regions and can buffer the transcriptional noise typifying antiviral responses. In contrast, macroH2A nucleosomes without NRF-1 bind promoters weakly and mark genes with noisier gene expression patterns. Thus, the strategic position and stabilization of macroH2A nucleosomes in human promoters defines robust gene expression patterns.
+
+DESIGN
+ChIP-seq experiments were performed in human Namalwa B cells and Hela epithelial cells in order to investigate the function of specialized nucleosomes containing the macroH2A histone variant and the transcription factor NRF-1. Native ChIP, Native RecHIP or crosslink ChIP  were performed in replicates, sequenced and aligned to the reference genome (hg18). mRNA-seq experiments were performed in human Namalwa B cells using a strand-specific protocol. Please see manuscript for details.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25959814
+

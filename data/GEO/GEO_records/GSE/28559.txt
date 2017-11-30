@@ -1,0 +1,18 @@
+TITLE
+An expression microarray approach for the identification of candidate metastable epialleles in the mouse genome
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Genetic loci displaying environmentally responsive epigenetic marks, termed metastable epialleles, offer a solution to the paradox presented by genetically identical yet phenotypically distinct individuals.  The murine viable yellow agouti (Avy) locus is a well-described metastable epiallele that serves as a visual epigenetic biosensor. The Avy locus exhibits a high R-value or ratio of inter-individual (Vi) to inter-tissue (Vt) variance in gene expression, characteristic of what we term the ‘Agouti Expression Fingerprint.’ We propose a novel method for identification of candidate metastable epialleles based on the Agouti Expression Fingerprint, defining candidates as loci with R-values greater than 1.5 on expression microarray. Using Expression data from tissues of the three germ layers (liver, kidney, brain), high variance in agouti RNA levels among isogenic animals coupled with low variance among tissue types in individual animals is demonstrated. Here, we provide proof of concept for the ‘Agouti Expression Fingerprint’; the characterization of epigenetically labile loci in humans will be crucial to the development of novel screening and therapeutic targets for human disease prevention.
+
+DESIGN
+For expression microarray studies, total RNA was isolated from liver, kidney, and brain tissue from 10 male Avy/a mice (2 per each of the 5 coat color classes) at time of weaning and coat color determination (day 22). Using Affymetrix GeneChip Mouse Genome 2.0 arrays (Santa Clara, CA), we queried the entire mouse genome for candidate metastable epialleles that display the Agouti Fingerprint.  Approximately 100 of the greater than 40,000 transcripts on the mouse array displayed an expression pattern characterized as high inter-individual variation coupled with low inter-tissue variation (R-value > 1.5).
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

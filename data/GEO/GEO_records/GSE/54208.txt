@@ -1,0 +1,18 @@
+TITLE
+Global analysis of cell cycle gene expression of the legume symbiont Sinorhizobium meliloti
+
+ORGANISM
+Sinorhizobium meliloti 1021
+
+SUMMARY
+In α-proteobacteria, strict regulation of cell cycle progression is necessary for the specific cellular differentiation required for adaptation to diverse environmental niches. The symbiotic lifestyle of Sinorhizobium meliloti requires a drastic cellular differentiation that includes genome amplification. To achieve polyploidy, the S. meliloti cell cycle program must be altered to uncouple DNA replication from cell division. In the α-proteobacterium Caulobacter crescentus, cell cycle regulated transcription plays an important role in control of cell cycle progression but this has not been demonstrated in other α-proteobacteria. Here we describe a robust method for synchronizing cell growth that enabled the first global analysis of S. meliloti cell cycle regulated gene expression. The objective of the microarray-based cell cycle gene expression analysis was to determine which genes were transcriptionally regulated as a funciton of a cell cycle in order to understand the contribution of transcriptional regulation to the timing of cell cycle events. The microarray analysis identified 462 genes with cell cycle regulated transcripts, including several key cell cycle regulators, and genes involved in motility, attachment, and cell division. Only 28% of the 462 S. meliloti cell cycle regulated genes were also transcriptionally cell cycle regulated in C. crescentus. Furthermore, CtrA and DnaA binding motif analysis revealed little overlap between the cell cycle-dependent regulons of CtrA and DnaA in S. meliloti and C. crescentus. The predicted S. meliloti cell cycle regulon of CtrA, but not that of DnaA, was strongly conserved in more closely related α-proteobacteria with similar ecological niches as S. meliloti, suggesting that the CtrA cell cycle regulatory network may control functions of central importance to the specific lifestyles of α-proteobacteria. Gene expression levels were quantified in synchronously growing S. meliloti cultures across 8 time points and compared to gene expression levels in unsynchronized culture via a two-color custom agilent array
+
+DESIGN
+A two-color array format was used with time point from synchronous culture being competed with a sample from unsynchronized culture (control same for all arrays) to determine the cell cycle-phase specific induction or repression  of genes relative to batch culture which contains cells in all phases of the cell cycle. For each of the 8 cell cycle time points, four biological replicates were used resulting in 4 arrays per time point and a total of 32 arrays. The arrays also contained duplicates of each probe resulting in two technical replicates per biological replicate per time point.
+
+PLATFORM
+GPL18182 Agilent-036667 Sinorhizobium meliloti Smexpr1
+
+CITATIONS
+24501121
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression profile of Dicer knockout in mouse DP thymocytes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The RNase III enzyme dicer is essential for the processing of microRNAs (miRNAs) and small interfering RNAs (siRNAs) from double-stranded RNA precursors. miRNAs and siRNAs regulate chromatin structure, gene transcription, mRNA stability and translation in a wide range of organisms. To provide a model system to explore the role of dicer-generated RNAs in the differentiation of mammalian cells in vivo, we have generated a conditional dicer allele. Deletion of dicer at an early stage of T cell development compromised the survival of αβ lineage cells, while the numbers of γδ-expressing thymocytes were not affected. In developing thymocytes, dicer was not required for the maintenance of transcriptional silencing at pericentromeric satellite sequences (constitutive heterochromatin), the maintenance of cytosine DNA methylation and X chromosome inactivation in female cells (facultative heterochromatin) and the stable shutdown of a developmentally regulated gene (developmentally regulated gene silencing). Most remarkably, given that one-third of mammalian mRNAs are putative miRNA targets, dicer appears to be dispensable for CD4/8 lineage commitment, a process where epigenetic regulation of lineage choice has been well documented. Thus, although dicer appears critical for the development of the early embryo, it may have limited impact on the implementation of lineage-specific gene expression programs.
+
+DESIGN
+LckCre was used to delete a floxed Dicer1 allele from developing thymocytes (Cobb BS, Nesterova TB, Thompson E, Hertweck A, O'Connor E, Godwin J, Wilson CB, Brockdorff N, Fisher AG, Smale ST and Merkenschlager M. T cell lineage choice and differentiation in the absence of the RNAse III enzyme dicer. J. Exp. Med. 2005 201: 1367-1373). Thymocytes were stained for CD4 and CD8, and double-positive (DP) thymocytes were sorted by flow cytometry. Three biological replicates of Dicer lox/lox control samples and LckCre Dicer lox/lox KO samples were analysed.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+25714103
+

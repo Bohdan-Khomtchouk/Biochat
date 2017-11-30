@@ -1,0 +1,15 @@
+TITLE
+Ev106+107, Histone 3 Lysine 4 methylation in WT Arabidopsis thaliana seedlings
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+This series is a biological replicate of EV49+50. The purpose of the chromatin immunoprecipitation/microarray (ChIP/chip) experiment is to determine which regions of a genome are enriched for a particular histone modification in a single Arabidopsis thanliana genotype. Chromatin immunoprecipitation with antibodies raised against dimethyl histone-H3 lysine-9 (H3mK9) or dimethyl histone-H3 lysine-4 (H3mK4) is performed on a selected genotype.  This purified DNA from each immunoprecipiation (mH3K9, mH3K4, no antibody control) is used for random amplification to increase the quantity of DNA for microarray hybridization. The amplified DNA from each experimental sample is then labeled with Cy5 and hybridized against total input DNA from the corresponding genotype, labeled in Cy3.  In a single hybridization, the total input DNA serves as a baseline and is compared to the immunoprecipitated samples. Ratios of normalized signal intensities were calculated to identify enrichment of a particular sequence after immunoprecipitation, in comparison to the total input DNA. Dye swap analysis is carried out to take account of experimental variation by repeating the hybridization with identical samples labeled with Cy3 and Cy5, respectively. The two samples in this series are complementary hybridizations in a dye-swap analysis These data were normalized and subjected to hypothesis testing. Error rate was controlled only by Benjamini and Hochberg's step-up procedure for limiting the False Discovery Rate. WT seedlings, 9 days old This is the normalized result of the paired dye swap samples EV106 and EV107. The ANOVA model of Kerr, Martin and Churchill (2000) was used to analyze the data from the dye-swap experiments, with terms included to account for gene, dye-by-gene, treatment-by-gene, and random error terms. The style of hypothesis test proposed by Black and Doerge (2002) was applied to each of the features represented on each array, with rejection of the null hypothesis indicating a significant change in fluorescence intensity. To account for the number of hypothesis tests being made, and thus provide some level of error rate control, significance was assessed using false discovery rate (FDR) controlling methods. The step-up procedure of Benjamini and Hochberg (1995) was used to control the FDR below alpha = 0.01. For the purposes of this experiment, the hypotheses were assumed to be independent. Features found after hypothesis-testing with a controlled error rate to be significantly enriched or depleted for H3K4 methylation compared to mean values found in euchromatic regions are flagged in the FDR column. No family-wise error rate method was used to analyze this sample. Keywords: other
+
+PLATFORM
+GPL785 Arabidopsis thaliana (ecotype Columbia) chromosome 4 knob genomic tiling array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

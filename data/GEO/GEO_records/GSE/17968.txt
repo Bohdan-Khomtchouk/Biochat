@@ -1,0 +1,18 @@
+TITLE
+Detection call p-values for Affymetrix low level spike-in experiment
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Four different concentrations (0, 0.75, 1.5, 3 pM) of genes were spiked in groups (group size 6-7 transcripts) Each concentration combination were spiked into a common backgroung sample (HeLa cell line) and hybridized to three HG-U133A Plus 2.0 Arrays. Keywords: Latin square design for HG-U133A Plus 2.0 GeneChips
+
+DESIGN
+Latin square design List of probe sets belonging to each spike-in concentration group. Probe set	Spike Group 204205_at	J 204265_s_at	J 204951_at	J 205790_at	J 205903_s_at	J 207641_at	J 207655_s_at	J 203508_at	K 204912_at	K 204959_at	K 205692_s_at	K 206060_s_at	K 209795_at	K 210895_s_at	K 203471_s_at	L 204836_at	L 205267_at	L 207540_s_at	L 209734_at	L 212827_at	L 200665_s_at	M 201721_s_at	M 204563_at	M 205249_at	M 205671_s_at	M 212886_at	M
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19939941
+

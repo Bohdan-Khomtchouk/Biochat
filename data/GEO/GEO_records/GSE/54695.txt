@@ -1,0 +1,18 @@
+TITLE
+Validation of noise models for single-cell transcriptomics
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Single-cell transcriptomics has recently emerged as a powerful technology to explore gene expression heterogeneity amongst single cells. Here we identify two major sources of technical variability, sampling noise and global cell-to-cell variation in sequencing efficiency. We propose noise models to correct for this and after validation by single-molecule FISH experiments, we apply these models to demonstrate that growing mES cells in 2i instead of serum/LIF globally reduces gene expression variability.
+
+DESIGN
+J1 mouse embryonic stem cells (mESCs) were cutured in 2i or in serum medium.  Cells were dissociated into a single cell suspension and picked under a stereomicroscope using a 30μm glass capillary and mouth pipette. Picked cells were deposited in the lid of an 0.5ml LoBind eppendorf tube and snap frozen in liquid nitrogen. For the pool and split controls, approximately 1 million cells were lysed, the amount of RNA was quantified on a bioanalyzer (Agilent) using the Eukaryote Total RNA pico kit. 20pg aliquots of total RNA were used for each pool and split control. Single cells and controls were processed using the previously described CEL-seq technique, with a few alterations. A 4bp random barcode as unique molecular identifier (UMI) was added to the primer in between the cell specific barcode and the poly T stretch. Libraries were sequenced on an Illumina HighSeq 2500 using 50bp paired end sequencing. For cells and controls, two libraries were sequenced on two lanes in total for each condition.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+24747814
+

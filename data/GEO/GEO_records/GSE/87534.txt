@@ -1,0 +1,18 @@
+TITLE
+Atheroprotective flow alters EZH2/H3K27me3 dependent transcriptional profile in human endothelial cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Atherosclerosis is a focal disease that preferentially develop in the regions of atheroprone disturbed flow, but less in regions of atheroprotective laminar flow. The mechanisms by which atheroprotective laminar flow prevents atherosclerosis at the epigenetic level remain largely unknown. In this study, we observed that laminar flow decreased histone methyltransferase EZH2, which imposes a repressive epigenetic mark of histone 3 lysine 27 trimethylation (H3K27me3) onto target gene promoters, leading to transcriptional silencing. To evaluate the effect of atheroprotective flow on EZH2 and H3K27me3 dependent genome-wide transcriptional profile, we performed RNA-sequencing study on laminar flow and EZH2 siRNA treated human endothelial cells. Venn diagram was used to compare the common regulated genes by both laminar flow and EZH2 depletion. We found atheroprotective flow and EZH2 depletion altere endothelial gene landscape, which include upregulating atheroprotective genes while downregulating pro-atherosclerotic genes.
+
+DESIGN
+Human Umbilical Vein Endothelial Cells (HUVEC, passage 3 to passage 5) were seeded in 0.2% gelatin-coated dishes the day before experiment. The next day, HUVECs were changed with new complete media and then exposed to atheroprotective laminar flow (shear stress=12 dyne/cm2) for 48 hours using a cone and plate viscometer. For EZH2 siRNA experiment, HUVECs at 80% confluence were transfected with control siRNA or EZH2 siRNA for 48 h. After treatment, RNA was isolated using the RNA-Easy Mini Plus kit (QIAGEN). High quality RNA samples (pre-assessed by Nanodrop measurements) were further processed in the Genome Research Center of the University of Rochester Medical Center. The TruSeq RNA Sample Preparation Kit V2 (Illumina, San Diego, CA) was used for next generation sequencing library construction per manufacturer’s protocols. Briefly, mRNA was purified from 100ng total RNA with oligo-dT magnetic beads and fragmented. First-strand cDNA synthesis was performed with random hexamer priming followed by second-strand cDNA synthesis. End repair and 3’ adenylation was then performed on the double stranded cDNA. Illumina adaptors were ligated to both ends of the cDNA, purified by gel electrophoresis and amplified with PCR primers specific to the adaptor sequences to generate amplicons of approximately 200-500bp in size. The amplified libraries were hybridized to the Illumina single end flow cell and amplified using the cBot (Illumina, San Diego, CA) at a concentration of 8pM per lane. Single end reads of 100nt are generated for each sample and aligned to the organism specific reference genome. Sequenced reads were cleaned using Trimmomatic-0.32 before mapping some of to the human reference genome (GRCh38.p2) with STAR-2.4.2a. Raw read counts were obtained using HTSeq and gencode 23 human gene annotations. DESeq2-1.10.1 was used to perform data normalization and differential expression analysis with an adjusted p-value threshold of 0.05. Then, Cufflinks-2.0.2 Software was used with the gencode 23 human gene annotations to perform differential expression analysis with an FDR cutoff of 0.05.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

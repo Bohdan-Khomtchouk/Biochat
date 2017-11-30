@@ -1,0 +1,18 @@
+TITLE
+Dachshund ChIP-seq in Drosophila Melanogaster 3rd instar imaginal eye discs
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The patterning of Drosophila retina occurs both very fast and with high precision. This process is driven by the dynamic changes in signalling activity of the conserved Hedgehog (Hh) pathway, which coordinates cell fate determination, cell cycle and tissue morphogenesis. Here we show that during Drosophila retinogenesis, the retinal determination gene dachshund (dac) is not only a target of the Hh signaling pathway, but is also a modulator of its activity. Using developmental genetics techniques, we demonstrate that dac enhances Hh signaling by promoting the accumulation of the Gli transcription factor Cubitus interruptus (Ci) parallel to or downstream of fused. In the absence of dac, all Hh-mediated events associated to the morphogenetic furrow are delayed. One of the consequences is that, posterior to the furrow, dac- cells cannot activate a Roadkill-Cullin3 negative feedback loop that attenuates Hh signaling and which is necessary for retinal cells to continue normal differentiation. Therefore, dac is part of an essential positive feedback loop in the Hh pathway, guaranteeing the speed and the accuracy of Drosophila retinogenesis.
+
+DESIGN
+ChIP-seq against Dachshund vs input ChIP-seq. Eye-antennal imaginal discs are dissected from Grh-GFP (Bloomington stock 42269) 3rd instar larvae and fixed with formaldehyde. Chromatin is prepared and sonicated until fragments reach an average size of 500 bp. Chromatin is immunoprecipitated with an anti-GFP Ab (ab290, Abcam) and the immunocomplexes are recovered with protein A/G magnetic beads (Millipore).
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+27442438
+

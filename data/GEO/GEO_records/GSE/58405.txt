@@ -1,0 +1,18 @@
+TITLE
+Upf2 in NMD pathway
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Probe the transcriptome-wide changes in the expression pattern between WT and Sertoli-specific Upf2 KO testes Methods: Total RNA were extracted from WT and Sertoli-specific Upf2 KO testes in triplicates and subject to deep-sequencing in Ion Torrent seq platform. Results: Using an optimized data analysis workflow, we mapped about 30 million sequence reads per sample to the mouse genome (build mm9) and identified 16,014 transcripts in the retinas of WT and Nrl−/− mice with BWA workflow and 34,115 transcripts with TopHat workflow. RNA-seq data confirmed stable expression of 25 known housekeeping genes, and 12 of these were validated with qRT–PCR. RNA-seq data had a linear relationship with qRT–PCR for more than four orders of magnitude and a goodness of fit (R2) of 0.8798. Approximately 10% of the transcripts showed differential expression between the WT and Nrl−/− retina, with a fold change ≥1.5 and p value < 0.05. Altered expression of 25 genes was confirmed with qRT–PCR, demonstrating the high degree of sensitivity of the RNA-seq method. Hierarchical clustering of differentially expressed genes uncovered several as yet uncharacterized genes that may contribute to retinal function. Data analysis with BWA and TopHat workflows revealed a significant overlap yet provided complementary insights in transcriptome profiling. Conclusions: Our study represents the first detailed analysis of Upf2-mediated NMD pathway in Sertoli cell development
+
+DESIGN
+Testis mRNA profiling was generated from postnatal day 4 WT and Amh-cKO (Sertoli specific Upf2 KO) testes, in triplicates.
+
+PLATFORM
+GPL18635 Ion Torrent Proton (Mus musculus)
+
+CITATIONS
+25503407
+

@@ -1,0 +1,18 @@
+TITLE
+Growth competition experiment on the Yeast Homozygous Diploid Deletion Pool to investigate which ORFs conferred an advantage/disadvantage when growing on both standard and high concentration of oleic acid
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The combination of genetic analysis and genome-wide expression profiles make Saccharomyces cerevisiae the cradle of Systems Biology. The way S. cerevisiae uses carbon sources has long been a landmark for studies concerning cellular responses to environmental conditions. S. cerevisiae conserves the entire machinery for utilization of fatty acids, yet with a different compartmentalization compared to higher eukaryotes. We propose S. cerevisiae as a model to understand how perixosomal compartmentalization of oleate metabolism co-evolved with the transcriptional regulatory networks of FA metabolism. With this aim, we performed growth competition experiments in oleate on the pooled collection of all viable yeast null mutants. We integrated results of competitive fitness with transcriptional profiles in oleate, identifying two genes previously not directly associated to FA metabolism: OAR1 and FET3. For the first time we show the importance of iron metabolism not only in maintaining functional mitochondria, but also in influencing peroxisome wellness.
+
+DESIGN
+An aliquot of the Yeast Homozygous Diploid Deletion Pool (95401.H1Pool, Invitrogen), containing equal amounts of each barcoded viable knock-out mutant from the Saccharomyces Genome Deletion project, was grown in the presence of G418 in YPD medium for 24h, then aliquots of 5x10^7 cells were harvested and stored at -80°C. From the same pooled culture, equal amounts of cells were washed and transferred to YP medium added with oleic acid 0.1% and 5%. We collected samples of cells 24h and 72h after carbon source metabolic shift, and genomic DNA was extracted.  Each experiment was performed in biological duplicate. The upTAG and downTAG regions were amplified separately in PCR reactions, one for each experimental condition, using specific primers. Amplified upTAG and downTAG sequences were combined in equal amounts and used to probe high-density oligonucleotide arrays (Affymetrix GeneChip_DNA_Tag3). Data analysis was performed as previously described (Pierce et al., 2007). In order to adapt this data analysis protocol to our experimental design, and to the use of  GeneChip_DNA_Tag3 arrays, some changes to the procedure have been improved.
+
+PLATFORM
+GPL10373 Affymetrix Saccharomyces cerevisiae GeneChip_DNA_Tag3 array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

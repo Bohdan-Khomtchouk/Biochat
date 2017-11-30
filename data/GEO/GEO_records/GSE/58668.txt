@@ -1,0 +1,18 @@
+TITLE
+Molecular differences between mesenchymal populations from deciduous and permanent human teeth
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Deciduous and permanent human teeth represent a model system to study ageing of mesenchymal populations. Aging is tightly connected to self-renewal and proliferation and thus, mapping potential molecular differences in these characteristics between populations constitutes an important task. Specifically designed microarray panels were used. We have detected a number of molecules that were differentially expressed in dental pulp mesenchyme from deciduous and permanent teeth extracted from young children and adults, respectively. Among the differentially regulated genes HMGA2, a stem cell-associated marker, stood out as a remarkable example with a robust expression in deciduous pulp cells. In addition to this, we discovered that several proliferation-related genes, including CDC2A and CDK4, were up-regulated in deciduous pulp cells, while matrix genes COL1A1, fibronectin and several signaling molecules, such as VEGF, FGFr-1 and IGFr-1 were up-regulated in the pulp cells from permanent teeth. Taken together, our data suggest that deciduous pulp cells are more robust in self- renewal and proliferation, whereas adult dental pulp cells are more capable of signaling and matrix synthesis.
+
+DESIGN
+The deciduous teeth were collected from 3-12-year-old children (N=8), whereas the permanent teeth were collected from adults, 19-52 years of age (N=8). The tooth was mechanically separated into two halves to remove all soft tissue in the pulp. The pulp tissue was digested and the dissociated cells were passed through cell strainer and plated with culture medium.  The cells were then passaged at 90% confluency to a 10 cm dish for expansion. RNA was extracted from passage one cells with the Qiagen RNeasy Mini Kit. Microarray analysis was performed using PIQORTM Stem Cell Microarray chip (Miltenyi Biotech), which is comprised of 942 relevant genes for stem/progenitor cells and key genes for cell differentiation, to identify gene sets that are differentially expressed between cells in the deciduous and adult teeth. A total of 1 μg RNA for each sample was used for amplification and further analysis with the PIQORTM stem cell microarray chip (Miltenyi Biotec), followed by detection with a laser scanner (Agilent Technologies). In total, 8 comparisons were performed with dataset consisting of two microarrays, each containing a total of 11 slides with signal intensities within the R/Bioconductor statistical framework. The Linear Model for Microarray Data package (Limma) was used to pre-process the raw data, perform quality controls and estimate statistical significance. Expression intensities were background-corrected using a convolution of normal and exponential distributions with an offset of 50, which were then normalized within every slide using loess normalization. We analyzed the red and green channels separately using the mixed model method and different groups were quantile-normalized separately. The correlation was computed between the two channels for the same spot. Differentially expressed genes were identified by computing the contrasts, fitting to a linear model, performing the hypothesis tests, and correcting for multiple testing by performing the false discovery rate using the Benjamini-Hochberg correction.
+
+PLATFORM
+GPL13480 PIQOR (TM) Stem Cell Microarray, human AS (780)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

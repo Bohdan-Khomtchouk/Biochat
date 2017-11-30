@@ -1,0 +1,18 @@
+TITLE
+Chip-chip analysis of C. glutamicum SigH.
+
+ORGANISM
+Corynebacterium glutamicum R
+
+SUMMARY
+The extracytoplasmic function sigma factor SigH is responsible for heat and oxidative stress response in a biotechnologically -important bacterium Corynebacterium glutamicum. Due to the hierarchical nature of the regulatory network, it has not been possible to fully determine the SigH regulon by previous transcriptome analyses. Here, we determined the direct genome-wide targets of SigH were determined by ChIP-chip analysis using a deletion mutant of rshA, encoding an anti-sigma factor of SigH. Seventy-five SigH-dependent promoters, including 39 new ones, were identified. Firstly, SigH-dependent heat induction was confirmed for several of the new targets, including two genes (ilvD and lipA) encoding Fe-S cluster containing enzymes. Internal SigH-dependent promoters were found in operon-like gene clusters involved in the pentose phosphate pathway, and riboflavin biosynthesis, and Zn uptake. Accordingly, deletion of rshA resulted in hyperproduction of riboflavin probably due to the coordinated upregulation of these genes. A SigH-dependent promoter was also found upstream of znuC1 in the znuA1C1B1 operon encoding an ABC-type transporter for Zn uptake. Overexpression of znuC1B1 by deletion of rshA and by an IPTG-inducible promoter and similarly affected expression of Zn-responsive genes, indicating that SigH-dependent upregulation of part of the operon potentiates Zn uptake. probably through Zn overload, indicating new physiological roles of SigH. Furthermore, reporter assays demonstrated that rshA in the sigH-rshA operon was heat-inducible under the control of an internal SigH-dependent promoters, identified upstream of rshA within the sigH-rshA operon, while the sigH promoter was independent of SigH, suggesting negative autoregulation of SigH activity.  Finally, a SigH-dependent promoter identified and upstream of sigA encoding the primary sigma factor , wereas highly heat-inducible, but much weaker than the known SigA-dependent one.. The promoter upstream of sigH was independent of SigH but showed weak heat-shock response. The known SigA-dependent sigA promoter was much stronger than the SigH-dependent one. Taken together with the fact that SigH also regulates sigB encoding the primary-like sigma factor, Tthese findings uncovered a complicated regulatory network of the sigma factors.
+
+DESIGN
+ChIP-chip analyses using two strains carrying FLAG-tagged sigH in the background of the wild type and rshA deletion mutant at two growth phases (exponential and stationary phases). Biological replicates: 3 replicates for the rshA mutant at each growth phase, 2 replicates for the wild type at each growth phase.
+
+PLATFORM
+GPL17881 Agilent-025748 Corynebacterium glutamicum CGRarray
+
+CITATIONS
+25404703
+

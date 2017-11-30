@@ -1,0 +1,18 @@
+TITLE
+Heme_k2_Filtered bckg correct trans-norm
+
+ORGANISM
+Lactobacillus plantarum
+
+SUMMARY
+We ran for each studied culture (WCFS1 NZ7608 NZ7602 and NZ7603) an independent shake flask cultivation and designed one experiment. The hybridization scheme (4 arrays) of the experiment was as follows: WCFS1_respiratory NZ7608_respiratory NZ7602_respiratory NZ7603_respiratory WCFS1_respiratory. In the experiment we studied the difference in response towards respiratory cultivation (OXYGEN HEME and VITAMIN K2) of each strain compared to wild type Keywords: comparative genomic hybridization
+
+DESIGN
+Per array two cDNA labeled targets were hybridized on custom designed L. plantarum WCFS1 11K Agilent oligo microarrays (GEO Acc. Nr. GPL4318) using the Agilent 60-mer oligo microarray processing protocol version 4.1. An oligo-microarray contained an average of 3 probes per transcript. Dried slides were scanned in the Scan Array Express (PerkinElmer Life Sciences; Packard Bioscience) for both Cy3 and Cy5 at 10 microns and a PMT Gain between 40-50%.  Spot intensity data was normalized and quantified (average intensity) using a customized grid in ImaGene (BioDiscovery, Inc.). Signal intensities of all probes were corrected against background in BioArray Software Environment (BASE). The ratio of each probe (M) was defined as log [cy5 intensity/cy3 intensity] where cy3 is the wild type. Fold change (FC) is defined as 2M. For the statistical analysis we used Linear Models for Microarray Analysis (Limma) (R/limma).  Significant transcripts were defined as transcripts with a False Discovery Rate (FDR) adjusted for the pvalues of less than 1% and FC = 1.5
+
+PLATFORM
+GPL4318 WCFS Lactobacillus plantarum 11K 60-mer array, Version 1, our ID LPAG1
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

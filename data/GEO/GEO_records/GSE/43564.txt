@@ -1,0 +1,18 @@
+TITLE
+The Molecular Toxicity Identification Evaluation (mTIE) Approach Predicts Chemical Exposure in Daphnia magna
+
+ORGANISM
+Daphnia magna
+
+SUMMARY
+Daphnia magna is a bio-indicator organism accepted by several international water quality regulatory agencies.  Current approaches for assessment of water quality rely on acute and chronic toxicity that provide no insight into the cause of toxicity. Recently, molecular approaches, such as genome wide gene expression responses, are enabling an alternative mechanism based approach to toxicity assessment. While these genomic methods are providing important mechanistic insight into toxicity, statistically robust prediction systems that allow the identification of chemical contaminants from the molecular response to exposure are needed. Here we apply advanced machine learning approaches to develop predictive models of contaminant exposure using a D. magna gene expression dataset for 36 chemical exposures. We demonstrate here that we can discriminate between chemicals belonging to different chemical classes including endocrine disruptors, metals and industrial chemicals based on gene expression.  We also show that predictive models based on indices of whole pathway transcriptional activity can achieve comparable results while facilitating biological interpretability.
+
+DESIGN
+D. magna were exposed to 36 Chemicals and 5 control series in quadruplicate.
+
+PLATFORM
+GPL16518 Agilent-023710 DM15k (probe version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

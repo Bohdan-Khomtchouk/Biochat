@@ -1,0 +1,18 @@
+TITLE
+Role of Prdm14 in mouse embryonic stem cells: ChIP-seq and RNA-seq analyses
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Prdm14 is a PR-domain and zinc-finger protein whose expression is restricted to the pluripotent cells of an early embryo, embryonic stem cells (ESCs), and germ cells. Here we show that Prdm14 safeguards mouse ESC maintenance by preventing induction of extraembryonic endoderm (ExEn) fates. Conversely, Prdm14 overexpression impairs ExEn differentiation during embryoid body (EB) formation. Prdm14 occupies and represses genomic loci encoding ExEn differentiation factors, while also binding to and promoting expression of genes associated with ESC self-renewal. Prdm14-bound genomic regions significantly overlap those occupied by Nanog and Oct4, are enriched in a chromatin signature associated with distal regulatory elements, and contain a unique DNA-sequence motif recognized by Prdm14 in vitro. Our work identifies Prdm14 as a new member of mouse ESC (mESC) transcriptional network, which plays a dual role as a context-dependent transcriptional repressor or activator at distal silencers and enhancers.
+
+DESIGN
+[ChIP-seq] Genome-wide mapping of Prdm14 binding sites in mouse embryonic stem cells: A FLAG-HA tagged Prdm14 (FH-Prdm14) mESC line was established. FLAG-HA double ChIP (ChIP with FLAG antibody followed by ChIP with HA antibody) was performed with FH-Prdm14 mESCs (Prdm14-ChIPseq) and as a negative control, wildtype mESCs (FLAG-HA_ChIPseq). H3K4me1 ChIPseq in mouse ES cells. Using published H3K4me1 data, we found there is a correlation between Prdm14 binding and H3K4me1 marks. So we obtained our own H3K4me1 data, using the wildtype mESCs. [RNA-seq] Global RNAseq analysis of Prdm14 knockdown in mouse embryonic stem cells: Analysis of poly(A)+ RNA from mESCs treated with non-targeting control siRNA and Prdm14 siRNA.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+21183938
+

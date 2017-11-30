@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic analysis of  rapeseed (Brassica napus) flower buds exposure to male gametocide amidosulfuron
+
+ORGANISM
+Brassica napus
+
+SUMMARY
+To reveal the possible molecular mechanism underpinning the male sterility induced by a sulfonyflurea herbicide amidosulfuron, a comparative transcriptome analysis between rapeseed under amidosulfuron folia spray and the contrast was conducted  by using Illumina digital gene expression tag profiling technology (DGE). A total of 54 up-regulated and 119 down-regulated DETs (differentially expressed transcripts) were annotated by 357 GOs and 32 KEGG pathways, indicating that the reaction to amidosulfuron exposure is complicated in rapeseed. Some interesting GOs included (1) amino acid metabolite, (2) energy metabolite, (3) carbohydrate, lipid, protein metabolite, (4) cell division, growth and death, (5) stimulus and defense response, (6) chlorophyll and mitochondria, (7) hormone, (8) oxidoreductase, and (9) flavonoid biosynthesis. Expression of most genes in cell division, growth and death category, and flavonoid biosynthesis were down-regulated. Ethylene mediated signaling pathway was up-regulated, while auxin mediated signaling pathway was down-regulated. Stimulus and defense response were induced.
+
+DESIGN
+Two groups of DGE libraries including the amidosulfuron treatment (DAT group) and the control (F group), each in three biological replications, were constructed using total RNA of young floral buds of amidosulfuron-treated cultivar Qinyou3 and the control with Illumina’s Digital Gene Expression Tag Profiling Kit according to the manufacturer’s protocol. We performed a single end sequencing on an Illumina GAIIX platform following the vendor's recommended protocol. The raw data containing adaptor sequences, tags with low quality sequences and unknown nucleotides N were filtered to obtain clean reads with 36 nt in length. Clean reads were then conducted for quality assessment. All clean tags were aligned to the unigenes of a previous assembled transcripts dataset (Trinity_rapeseed.fa.gz attachment of gene expression Omnibus GSE69638) by Bowtie2 ver 2.1.0 ( http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.1.0/ ), only 1 bp mismatch is allowed. The assembled unigenes were matched to Brassica rapa genome FPsc v1.3 in JGI ( http://genome.jgi.doe.gov/ ). The number of perfect clean reads corresponding to each gene was calculated and normalized to the number of Reads Per Kilobase of exon model per Million mapped reads (RPKM). The transcripts of low-frequency with the 3rd quartile of counts in all samples < 10 were removed. Based on the expression levels, the significant DETs among two groups of samples were identified with a criteria of p value ≤0.05 and log2 fold-change≥1. The analysis of gene ontology ( http://www.geneontology.org/ ) was conducted for functional classification of DETs and the pathway analysis was carried out by using KEGG (Kyoto Encyclopedia of Genes and Genomes) database retrieved from http://www.genome.jp/kegg/.
+
+PLATFORM
+GPL19732 Illumina Genome Analyzer IIx (Brassica napus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

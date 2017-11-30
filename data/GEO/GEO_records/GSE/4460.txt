@@ -1,0 +1,18 @@
+TITLE
+Human skeletal muscle differentiation time course
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have developed an algorithm (“Lever”) that systematically maps metazoan DNA regulatory motifs or motif combinations to the sets of genes that they likely regulate. Lever accomplishes this by assessing whether the motifs are enriched within cis regulatory modules (CRMs), predicted by our “PhylCRM” algorithm, in the noncoding sequences surrounding genes in a collection of gene sets. When these gene sets correspond to Gene Ontology (GO) categories, the results of Lever analysis allow the unbiased assignment of functional annotations to the regulatory motifs and also to the candidate CRMs that comprise the genomic motif occurrences. We demonstrate these methods using human myogenic differentiation as a model system, for which we statistically assessed greater than 25,000 pairings of gene sets and motifs / motif combinations. These results allowed us to assign functional annotations to candidate regulatory motifs predicted previously, and to identify gene sets that are likely to be co-regulated via shared regulatory motifs. Lever allows moving beyond the identification of putative regulatory motifs in mammalian genomes, towards understanding their biological roles. This approach is general and can be applied readily to any cell type, gene expression pattern, or organism of interest. Keywords: expression profiling, time course
+
+DESIGN
+Primary human skeletal muscle cells were grown in proliferating medium (DMEM + 10% FCS) for 48 hours until about 80% confluence. Cells were then switched to differentiation medium (DMEM/F12 + 2% horse serum) for 48 hours. Total RNA was extracted from cells at -48, -24, 0, +12, +24, and +48 hours relative to induction of differentiation, and labeled with either Cy5 or Cy3. Universal total RNA was also labeled  with either Cy3 or Cy5 and was hybridized to the array with the experimental sample. Dye-swaps were performed in addition to duplicate hybridizations for a total of 4 hybridizations per timepoint.
+
+PLATFORM
+GPL3519 HPCGG_human_19k_Compugen_v1.0
+
+CITATIONS
+18311145
+

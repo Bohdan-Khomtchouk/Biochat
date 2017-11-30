@@ -1,0 +1,18 @@
+TITLE
+Widespread natural variation of DNA methylation within angiosperms
+
+ORGANISM
+Cannabis sativa ; Theobroma cacao ; Cucumis sativus ; Populus trichocarpa ; Brassica rapa ; Malus domestica ; Prunus persica ; Medicago truncatula ; Manihot esculenta ; Ricinus communis ; Erythranthe guttata ; Setaria viridis ; Sorghum bicolor ; Brachypodium distachyon ; Vitis vinifera ; Lotus japonicus ; Panicum virgatum ; Fragaria vesca ; Eucalyptus grandis ; Eutrema salsugineum ; Citrus clementina ; Beta vulgaris ; Panicum hallii
+
+SUMMARY
+DNA methylation is a chemical modification of DNA that can be faithfully inherited across generations in flowering plant genomes. Failure to properly maintain DNA methylation can lead to epigenetic variation and transposon reactivation. Plant genomes are dynamic, spanning large ranges in size and there is an interplay between the genome and epigenome in shaping one another. To understand the variation in genomic patterning of DNA methylation between species, we compared methylomes of numerous diverse angiosperm species. By examining these variations in a phylogenetic context it becomes clear that there is extensive variation in mechanisms that govern gene body DNA methylation, euchromatic silencing of transposons and repeats, as well as silencing of heterochromatic transposons. Extensive variation is observed at all cytosine sequence contexts (CG, CHG and CHH, where H = A, C, T), with the Brassicaceae showing reduced CHG methylation levels and also reduced or loss of CG gene-body methylation. The Poaceae are characterized by a lack or reduction of heterochromatic CHH methylation and enrichment of CHH methylation in genic regions. Reduced CHH methylation levels are found in clonally propagated species, suggesting that these methods of propagation may alter the epigenomic landscape over time, in the absence of sexual reproduction. These results show that DNA methylation targeting pathways have diverged functionally and that extant DNA methylation patterns are likely a reflection of the evolutionary and life histories of plant species.
+
+DESIGN
+Bisulfite-seq of leaf tissue from plants representing diverse angiosperms. RNA-seq and small RNA-seq was performed on leaf tissue of a subset of the species.
+
+PLATFORM
+GPL15671 Illumina HiSeq 2000 (Prunus persica) GPL16310 Illumina HiSeq 2000 (Cucumis sativus) GPL16761 Illumina HiSeq 2000 (Fragaria vesca) GPL17194 Illumina HiSeq 2000 (Manihot esculenta) GPL17337 Illumina HiSeq 2000 (Brachypodium distachyon) GPL17415 Illumina HiSeq 2000 (Populus trichocarpa) GPL17491 Illumina HiSeq 2000 (Medicago truncatula) GPL18137 Illumina HiSeq 2000 (Malus domestica) GPL18592 Illumina HiSeq 2000 (Cannabis sativa) GPL18740 Illumina HiSeq 2000 (Vitis vinifera) GPL18777 Illumina HiSeq 2000 (Eucalyptus grandis) GPL20816 Illumina HiSeq 2000 (Erythranthe guttata) GPL20818 Illumina HiSeq 2000 (Sorghum bicolor) GPL20925 Illumina HiSeq 2000 (Lotus japonicus) GPL21044 Illumina HiSeq 2000 (Citrus clementina) GPL21150 Illumina NextSeq 500 (Eutrema salsugineum) GPL21478 Illumina HiSeq 2000 (Setaria viridis) GPL21631 Illumina HiSeq 2000 (Beta vulgaris) GPL21633 Illumina NextSeq 500 (Cucumis sativus) GPL21634 Illumina NextSeq 500 (Fragaria vesca) GPL21635 Illumina NextSeq 500 (Manihot esculenta) GPL21636 Illumina HiSeq 2000 (Panicum hallii) GPL21637 Illumina HiSeq 2000 (Panicum virgatum) GPL21638 Illumina HiSeq 2000 (Ricinus communis) GPL21639 Illumina HiSeq 2000 (Theobroma cacao) GPL21640 Illumina NextSeq 500 (Eucalyptus grandis) GPL21641 Illumina NextSeq 500 (Ricinus communis) GPL21642 Illumina NextSeq 500 (Panicum hallii) GPL21643 Illumina NextSeq 500 (Medicago truncatula) GPL21644 Illumina NextSeq 500 (Brassica rapa)
+
+CITATIONS
+27671052
+

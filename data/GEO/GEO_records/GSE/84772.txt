@@ -1,0 +1,18 @@
+TITLE
+Real-time quantitative PCR analysis of BV2 murine microglia cell line
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Murine BV2 microglia cells were transfected either with siRNA negative control or siRNA against caspase-3 for 48h.  Later on some the of the BV2 transfected cells  were co-cultured with C6 glioma cells during 6h.  We used the SA Biosciences Mouse Wound Healing PCR Array (PAMM-121Z) to quantitate gene expression of  relevant genes related to the wound healing process Glioma cells recruit and exploit microglia, resident immune cells of the brain, for their proliferation and invasion capability.  The underlying molecular mechanism used by glioma cells to transform microglia into a tumor-supporting phenotype remains elusive. Here, we report that glioma-induced microglia conversion is coupled to a reduction of basal microglial caspase-3 activity, increased S-nitrosylation of mitochondria-associated caspase-3 through inhibition of thioredoxin-2 activity, and demonstrate that caspase-3 inhibition regulates microglial tumor-supporting function. Further, we identified nitric oxide synthase-2 (NOS2) activity originating from the glioma cells as a driving stimulus in the control of microglial caspase-3 activity. Repression of glioma NOS2 expression in vivo led to reduction in both microglia recruitment and tumor expansion, whereas depletion of the microglial caspase-3 gene promoted tumor growth. This study provides evidence that the inhibition of Trx2-mediated denitrosylation of SNO-procaspase-3 is part of the microglial pro-tumoral activation pathway initiated by glioma cancer cells.
+
+DESIGN
+qPCR gene expression profiling.  Three independent experiments of siControl BV2 monoculture, siCaspase3 BV2 monoculture, siControl BV2 cocultured 6h with C6 glioma cells and siCaspase3 BV2 cocultured 6h with C6 glioma cells. Equal amount total RNA from each culture was used for the  gene expression analysis. Please note that the raw data for three independent experiments (prior to averaging the data) is provided in the 'Raw_Data_File_with_the_Ct_values_for_3_indep_experiments.txt'.
+
+PLATFORM
+GPL22205 SABiosciences  Mouse Wound Healing PCR Array assay panel
+
+CITATIONS
+27618552
+

@@ -1,0 +1,18 @@
+TITLE
+Custom Illumina array DNA methylation analysis of 384 CpGs across five cancer types
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Tumor heterogeneity is a major barrier to effective cancer diagnosis and treatment. We recently identified cancer-specific differentially DNA-methylated regions (cDMRs) in colon cancer, which also distinguish normal tissue types from each other. We therefore hypothesized that these colon cDMRs might also be cDMRs for other cancer types. For colon, lung, breast, thyroid, and Wilms tumors, we show stochastic variation in methylation within each tumor type, but involving the same loci across tumor types, with intermediate values of variation for premalignant adenomas.
+
+DESIGN
+Seeking to increase the precision of DNA methylation measurements over our previous tiling array-based approach, termed CHARM (Comprehensive High-throughput Array for Relative Methylation), we designed a custom nucleotide-specific bead array on the Illumina GoldenGate platform to analyze 151 colon cDMRs from Irizarry et al. (PMID 19151715). The resulting 384 probes covered 139 regions, with 1-7 probes per region. We studied 290 samples, including cancers from colon (10), lung (24), breast (27), thyroid (36), and kidney (Wilms) (25), with matched normal tissues to 111 of these 122 cancers, along with 30 colon premalignant adenomas, 18 normal colon, and 9 normal breast samples.
+
+PLATFORM
+GPL13645 Custom human colon-CDMR DNA methylation array (384 CpG)
+
+CITATIONS
+21706001
+

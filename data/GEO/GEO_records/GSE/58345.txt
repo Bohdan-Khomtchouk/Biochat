@@ -1,0 +1,18 @@
+TITLE
+Activation of a SOX2-dependent transcriptional regulatory circuit drives glioblastoma.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Overexpression of the transcription factor SRY-related box 2 (SOX2) is characteristic of Glioblastoma (GBM), yet its regulatory network in vivo is poorly understood. Using a human orthotopic tumor model of GBM for ChIP-Seq analysis, we mapped the SOX2 cistrome. Integrative analysis of SOX2 cistrome and GBM transcriptome data identified two transcription factors, oligodendrocyte lineage transcription factor 2 (OLIG2) and zinc finger E-box binding homeobox 1 (ZEB1) as critical SOX2 targets. Their expression is strongly correlated with SOX2 expression in clinical GBM specimens, and all three proteins are frequently co-expressed in primary Glioblastoma cells, even in the setting of EGFR intratumoral heterogeneity. Sox2, Olig2, and Zeb1 expression is activated by the oncogene EGFRvIII in a murine glioma model, and we demonstrate that co-expression of these transcription factors transforms tumor suppressor deficient astrocytes in the absence of an upstream oncogene and that the resulting tumors exhibit the major histopathological features of GBM.
+
+DESIGN
+A NOD-SCID mouse harboring HOT1 tumor derived from a human glioblastoma patient sample was euthanized. Three slices of tumor sample (~1 mm thick, ~100 mg total) were obtained from the dissected brain within three minutes after sacrificing the mouse, and were immediately placed in 1 ml of pre-warmed DMEM (37C) containing 1% formaldehyde, and homogenized with a POLYTRON for 30 seconds. After 10 minutes of incubation at room temperature 111 µl 1.25 M glycine was added, and after 5 minutes of incubation at room temperature the cells were pelleted by centrifugation at 700g. The cell pellet was washed twice with 1 ml of ice-cold PBS. The cell pellet was then lysed in 1 ml ChIP lysis buffer (1% SDS, 10 mM EDTA, 50 mM Tris-HCl [pH 8.1] with protease inhibitors, Roche) and sonicated at 4C with a Bioruptor (Diagenode) (30 seconds ON and 30 seconds OFF at highest power for 15 minutes). The sheared chromatin with an average fragment length of ~500 bp was centrifuged at 10,000 g for 10 minutes at 4C. 100 μl of the supernatant was used for ChIP or as input. A 1:10 dilution of the solubilized chromatin in ChIP dilution buffer (0.01% SDS, 1.1% Triton X-100, 1.2 mM EDTA, 167 mM NaCl 16.7 mM Tris-HCl [pH 8.1]) was incubated at 4C overnight with 6 μg/ml of SOX2 antibody (Cell Signaling Technology, rabbit monoclonal antibody). Immunoprecipitation was carried out by incubating with 40 μl pre-cleared Protein G Sepharose beads (Amersham Bioscience) for 1 hour at 4C, followed by five washes for 10 minutes with 1ml of the following buffers: Buffer I: 0.1% SDS, 1% Triton X-100, 2 mM EDTA, 20 mM Tris-HCl [pH 8.1], 150 mM NaCl; Buffer II: 0.1% SDS, 1% Triton X-100, 2 mM EDTA, 20 mM Tris-HCl [pH 8.1], 500 mM NaCl; Buffer III: 0.25 M LiCl, 1% NP-40, 1% deoxycholate, 1 mM EDTA, 10 mM Tris-HCl [pH 8.1]; twice with TE buffer [pH 8.0]. Elution from the beads was performed twice with 100 μl ChIP elution buffer (1% SDS, 0.1 M NaHCO3) at room temperature (RT) for 15 minutes. Protein-DNA complexes were de-crosslinked by heating at 65C in 192 mM NaCl for 16 hours. DNA fragments were purified using QiaQuick PCR Purification kit (Qiagen) and eluted twice with 30 μl EB buffer according to the manufacturer’s protocol after treatment with RNase A and Proteinase K.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL16558 AB 5500 Genetic Analyzer (Homo sapiens)
+
+CITATIONS
+28122245
+

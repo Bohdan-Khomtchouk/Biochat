@@ -1,0 +1,18 @@
+TITLE
+Profiles of global gene expression in ionizing radiation-damaged human diploid fibroblasts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cell cycle arrest and transcriptional responses to ionizing radiation (IR)-induced DNA damage were quantified in telomerase-expressing human diploid fibroblasts. Assays of clonal expansion established 1.5 Gy IR as the D0 dose in three fibroblast lines and this dose was used in all subsequent analyses.  Fibroblasts exhibited > 90% arrest of progression from G2 to M at 2 h and from G1 to S at 6 and 12 h post-IR. Normal rates of DNA synthesis and mitosis 6 and 12 h after irradiation caused the S and M compartments to empty by over 70% at 24 h. Microarray monitored global gene expression in IR-treated cells and a new microarray analysis algorithm, EPIG, identified nine IR-responsive patterns of gene expression including a dominant p53-dependent G1 checkpoint response. Many p53 target genes, like CDKN1A, GADD45, BTG2 and PLK3, were significantly up-regulated at 2 h post-IR while many genes whose expression is regulated by E2F family transcription factors, including CDK2, CCNE1, CDC6, CDC2, MCM2, were significantly down-regulated at 24 h post-IR. Numerous genes that participate in DNA metabolism were also markedly repressed in arrested fibroblasts as a result of cell synchronization behind the G1 checkpoint. However, cluster and principal component analyses of gene expression revealed a profile of gene expression 24 h after IR with similarity to that of G0 growth quiescence. These results demonstrate a highly stereotypic pattern of response to IR that reflects primarily synchronization behind the G1 checkpoint but with prominent induction of additional markers of G0 quiescence such as GAS1. Keywords: time-course, DNA damgage responses
+
+DESIGN
+Logarithmically growing cells were treated with 1.5 Gy IR or sham, and harvested at 2, 6 or 24 h after the treatment. Total RNA was isolated using Qiagen RNeasy kit. The quality of all RNA samples was confirmed using an Agilent 2100 Bioanalyzer. Microarray analysis was then performed: briefly, 1 µg of sample RNA and global reference RNA (Stratagene) were converted to cDNA with reverse transcriptase then amplified using T7 RNA polymerase while labeling with either Cy3-dUTP or Cy5-dUTP (Agilent’s Low RNA Input Linear Amplification Kit). The quality of each labeled cRNA was evaluated using an Agilent 2100 Bioanalyzer prior to hybridization. 750ng of Cy3 and Cy5-labeled cRNA were used in the hybridization. The labeled cRNA from sham- or IR-treated samples was hybridized with the labeled global reference cRNA on an Agilent 22k human 1A array in a hybridization oven (Robbins Scientific Model 400, 1040-60-1AG) at 60oC for 17 h. Hybridization of sample RNA against reference RNA was done twice with dye swap. Following hybridization, the arrays were scanned using the Agilent DNA Microarray Scanner with SureScan® Technology and microarray images were analyzed using Agilent Feature Extraction Software (v7.1). The gene expression level was presented as ratio of sample intensity against reference intensity.
+
+PLATFORM
+GPL885 Agilent-011521 Human 1A Microarray G4110A  (Feature Number version) GPL887 Agilent-012097 Human 1A Microarray (V2) G4110B (Feature Number version)
+
+CITATIONS
+16581545
+

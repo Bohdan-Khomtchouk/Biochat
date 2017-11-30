@@ -1,0 +1,18 @@
+TITLE
+Embryonic stem cell-derived cerebral cortex largely reproduces the in vivo epigenetic control of imprinted gene expression [RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In vitro differentiation of embryonic stem cells (ESC) provides models that reproduce in vivo development and cells for therapy. Whether the epigenetic signatures that are crucial for brain development and function and that are sensitive to in vitro culture are similar between native brain tissues and their artificial counterpart generated from ESC is largely unknown.  Here, using RNA-seq we have compared the parental origin-dependent expression of imprinted genes (IGs), a model of epigenetic regulation, in cerebral cortex generated either in vivo, or from ESCs using in vitro corticogenesis, a model that reproduces the landmarks of in vivo corticogenesis. For a majority of IGs, the expressed parental alleles were the same for in vivo and in vitro cortex. In most cases, this choice was already set in ESCs and faithfully maintained during the 3 weeks of in vitro corticogenesis. Confirming these findings, methylation, which selects the parental allele to be transcribed, was also largely equivalent between the 2 types of cortex and ESCs.   Our results thus indicate that the allele specific expression of imprinted transcripts, a model of epigenetic regulation resulting from a differential methylation of parental genomes, is mostly mimicked in cortical cells derived from ESC.
+
+DESIGN
+We have crossed two strains of mice (B6 and JF1) that display more than 12 million of SNPs (Takada et al., Genome Res. 2013 Aug;23(8):1329-38. doi: 10.1101/gr.156497.113). We have then analyzed allele specific expression transcriptome-wide using RNA-seq on hybrid F1 cortex generated either in vivo or in vitro from ESCs. In addition, we have used 2 different developmental stages of in vivo cortex (E13.5, P0) and three stages in vitro (undiffererentiated ESC, and differentiated into cortex for 12 and 21 days) to measure the dynamics of parental expression. Please note that [1] the same raw data files were used to generate the '*allele-specific_sense_read_bases_by_gene_withoutContamination.txt' processed data files. [2] The samples associated with each file are indicated in the file column header (as their GSM accession numbers). [3] The readme.txt file contains the data processing steps, file description.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+27095822
+

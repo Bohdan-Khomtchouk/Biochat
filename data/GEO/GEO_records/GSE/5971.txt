@@ -1,0 +1,18 @@
+TITLE
+Characterization of the HP1021 regulon of Helicobacter pylori
+
+ORGANISM
+Helicobacter pylori
+
+SUMMARY
+The genome of the gastric pathogen Helicobacter pylori harbors a remarkably low number of regulatory genes, including three and five open reading frames encoding two-component histidine kinases and response regulators, respectively, which are putatively involved in transcriptional regulation. Inactivation of the response regulator gene hp1021 resulted in a severe growth defect, as indicated by a small-colony phenotype. Recently we found that phosphorylation of the receiver domain HP1021 is not needed for its response regulator function and may not occur at all. No target genes have been identified so far. In this study we define the HP1021-dependent regulon consisting of 79 genes (51 activated, 28 repressed) by global transcriptional profiling of an HP1021-deficient H. pylori mutant. Keywords: Identification of an HP1021-Regulon
+
+DESIGN
+Transcriptome analyses were performed using a whole-genome microarray containing 1649 PCR products generated with specific primer pairs derived from the genome sequences of H. pylori 26695 (Tomb et al., 1997. The complete genome sequence of the gastric pathogen Helicobacter pylori. Nature 388:539-547) and J99 (Alm et al., 1999. Genomic-sequence comparison of two unrelated isolates of the human gastric pathogen Helicobacter pylori. Nature 397:176-180) which were spotted in duplicate. Microarrays were produced as described by Gressmann et al. (Gressmann et al., 2005. Gain and loss of multiple genes during the evolution of Helicobacter pylori. PLoS Genet 1(4):e43). To determine genes which are differentially expressed in the HP1021-deficient mutant 26695/1021::km, cDNA was prepared from RNA extracted from H. pylori 26695 WT and 26695/1021::km. A total of eight RNA samples from two independent RNA preparations from strain 26695 WT and 26695/HP1021::km, respectively, was used for cDNA labelling und hybridisation. Dye reversal colour swaps were performed as follows: one cDNA sample was generated using Cy3-dCTP and the other using Cy5-dCTP resulting in four labelled cDNAs per colour swap. Cy5-dCTP and Cy3-dCTP labelled cDNAs were combined and hybridized to the H. pylori microarray. The slides were scanned using ScanArray HT and analysed by using the ScanArray express software (Perkin Elmer, version 3.0). Spots were flagged and eliminated from analysis when the signal to background ratio was less then three or in obvious instances of high background or stray fluorescent signals. Median intensities of spots were background corrected and differences in dye bias were normalized by using the LOWESS algorithm (Yang et al., 2002. Normalization for cDNA microarray data: a robuste composite method addressing single and multiple slide systematic variation. Nucleic Acid Res. 30:e15). The signal ratios as measure of differential expression between the red and green channels were obtained from processed signal intensities. Ratios were further analysed with Microsoft Excel (Microsoft) and SAM software for statistic significance (Tusher et al., 2001. Significance analysis of microarrays applied to the ionizing radiation response. Proc. Natl. Acad. Sci. USA 98:5116-5121). To determine the significance of differential expression RNA was isolated from the H. pylori 26695 WT grown in BHI broth, and 20 µg of this RNA were labelled either with Cy3-dCTP or with Cy5-dCTP. The two cDNA probes generated were hybridized onto the same slide, and the data were analysed as mentioned above. Signal ratios < 0.5 and > 2.0 were analyzed further.
+
+PLATFORM
+GPL3476 MPIIB Helicobacter pylori cDNA array
+
+CITATIONS
+17220217
+

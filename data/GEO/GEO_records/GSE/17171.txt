@@ -1,0 +1,18 @@
+TITLE
+Processing of Drosophila endo-siRNAs depends on a specific Loquacious isoform
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Drosophila melanogaster expresses three classes of small RNAs, which are classified according to their mechanisms of biogenesis. MicroRNAs are ~22-23-nt, ubiquitously expressed small RNAs that are sequentially processed from hairpin-like precursors by Drosha/Pasha and Dcr-1/Loquacious complexes. MicroRNAs usually associate with AGO1 and regulate the expression of protein-coding genes. Piwi-interacting RNAs (piRNAs) of ~24-28-nt associate with Piwi-family proteins and can arise from single-stranded precursors. piRNAs function in transposon silencing and are mainly restricted to gonadal tissues. Endo-siRNAs are found in both germline and somatic tissues. These ~21-nt RNAs are produced by a distinct Dicer, Dcr-2, and do not depend on Drosha/Pasha complexes. They predominantly bind to AGO2 and target both mobile elements and protein-coding genes. Surprisingly, a subset of endo-siRNAs strongly depend for their production on the dsRNA-binding protein Loquacious (Loqs), thought generally to be a partner for Dcr-1 and a co-factor for miRNA biogenesis. Endo-siRNA production depends on a specific Loqs isoform, Loqs-PD, which is distinct from the one, Loqs-PB, required for the production of microRNAs. Paralleling their roles in the biogenesis of distinct small RNA classes, Loqs-PD and Loqs-PB bind to different Dicer proteins, with Dcr-1/Loqs-PB complexes and Dcr-2/Loqs-PD complexes driving microRNA and endo-siRNA biogenesis, respectively. Small RNA profiling by high throughput sequencing
+
+DESIGN
+Total RNA was isolated using Trizol reagent (Invitrogen) and size-fractionated by PAGE into 19-24nt. These were independently processed and sequenced using the Illumina GAII platform. In total, six libraries were analyzed.
+
+PLATFORM
+GPL9061 Illumina Genome Analyzer II (Drosophila melanogaster)
+
+CITATIONS
+19635780
+

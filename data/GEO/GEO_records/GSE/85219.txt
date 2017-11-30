@@ -1,0 +1,18 @@
+TITLE
+miRBShunter: a pipeline to identify miRNA binding sites from Ago2-CLIP data by de novo motif finding
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The proposed method uses enriched de novo motifs on the peak sequences of Ago2-CLIP to determine miRNA-RNA heteroduplex for either canonical or non-canonical miRNA-binding sites. miRNA-RNA heteroduplex are ranked based on a duplex score. Since the quality of the peak detection is of pivotal importance for the final output of the proposed method, we also provide an illustrative comparative evaluation of four peak detection programs, namely CIMS, PIPE-CLIP, Piranha and Pyicoclip, for four publicly available Ago2-datasets and one previously unpublished in-house Ago2-dataset in stem cells. The experimental validation was carried out on the in-houseAgo2 dataset by gene reporter assay.
+
+DESIGN
+Ago2 HITS-CLIP in P19 cell in triplicates.
+
+PLATFORM
+GPL18635 Ion Torrent Proton (Mus musculus)
+
+CITATIONS
+28108660
+

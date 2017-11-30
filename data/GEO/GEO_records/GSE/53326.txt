@@ -1,0 +1,18 @@
+TITLE
+Genome-wide discovery of human splicing branchpoints [BPCapture]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene splicing requires three basal genetic elements; the 3’ and 5’ splice sites and the branchpoint to which the 5’ intron termini is ligated to form a closed lariat during the splicing reaction. The 5’ and 3’ splice sites that define exon boundaries have been widely identified, revealing pervasive transcription and splicing of human genes. However, the locations of the third requisite element, the branchpoint, are still largely unknown. Here we employ two complementary approaches, targeted RNA sequencing and exoribonuclease digestion, to distil sequenced reads that traverse the lariat junction and, via non-conventional alignment, locate human branchpoint nucleotides. Alignments identify 88,748 branchpoints that correspond to 20% of known introns, with 76% supported by diagnostic sequence mismatch errors. This affords a first genome-wide analysis of branchpoints, describing their distribution, selection, and the existence of a diverse array of overlapping sequence motifs with distinct usage, evolutionary histories, and co-variation with distal splicing elements. The overlap of branchpoints with noncoding human genetic variation also indicates a notable contribution to disease. This annotation and analysis incorporates branchpoints into transcriptomic research and reflects a core role for this element in the regulatory code that governs gene splicing and expression.
+
+DESIGN
+CaptureSeq identification of branchpoint nucleotides
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25561518
+

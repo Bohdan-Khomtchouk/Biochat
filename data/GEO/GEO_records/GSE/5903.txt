@@ -1,0 +1,18 @@
+TITLE
+A synthetic gene-metabolic circuit preferentially increased fatty acid metabolism in human hepatocytes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Obesity is becoming increasingly widespread in developed countries, and is often associated with heart diseases and diabetes.  Elevated levels of plasma free fatty acids are a biochemical hallmark of obesity.  Unlike plants and bacteria, mammals cannot utilize fatty acids to generate glucose because of the lack of glyoxylate shunt enzymes. Instead, fatty acids are used for energy storage, and their utilization is regulated at multiple levels ranging from hormonal to metabolic ensuring that glucose is preferentially oxidized before fatty acids.  Here we designed a synthetic gene-metabolic circuit to alter the intracellular signaling and metabolic pathways that control fatty acid metabolism. By introducing the Escherichia coli glyoxylate shunt enzymes, isocitrate lyase (AceA) and malate synthase (AceB), into the mitochondria of human hepatocytes, we demonstrated that fatty acid utilization is preferentially increased while glucose uptake is significantly reduced.  This bacterial pathway diverts signal metabolites (citrate, acetyl-CoA, and malonyl-CoA) that inhibits fatty acid uptake and provides an additional channel for fatty acid utilization. Remarkably, the hepatocytes readily adapted to the synthetic circuit by a series of global transcriptional and post-translational changes in metabolic and signal transduction pathways that further advanced our design objective. This systems approach illustrates the logic of the synergistic interaction between metabolism and signal transduction. The ready acceptance of this non-native pathway by hepatocytes suggests the plasticity of liver metabolism and opens a possibility for the synthetic approach in regulating human metabolism. Keywords: Fatty acid response, synthetic circuit, carbohydrate metabolism, stably transfected HepG2 cell line, glyoxylate shunt
+
+DESIGN
+Wild type (WT) human hepatocyte HepG2 and HepG2 cells stably transfected with pBudaceAB (designated ACE), a vector containing isocitrate lyase and malate synthase from E. coli, were analyzed after 24hour exposure to palmitate.  Cells were seeded at 70% confluency in 10cm plates with DMEM growth media augmented with 300uM palmitate.  After 24hours, total RNA was harvested and hybrized to Affymetrix HG_U133A 2.0 GeneChips.  Data was processed using GCOS 1.2 software. 2 WT biological replicates and 2 ACE biological replicates were analyzed.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+19490907
+

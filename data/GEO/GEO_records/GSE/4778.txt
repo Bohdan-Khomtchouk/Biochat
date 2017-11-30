@@ -1,0 +1,18 @@
+TITLE
+Acid-Shifted Time Course of Gene Expression Profiles of Aerobically Grown Escherichia coli K-12
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+The effect of an extracellular acid shift on gene expression profiles of Escherichia coli K-12 W3110 was observed using Affymetrix E. coli arrays. In order to maximize aeration and maintain logarithmic growth, the overnight culture (LBK broth medium) was diluted 500-fold into a 250-ml baffled flask containing 55 ml of 20mM HOMOPIPES buffered medium (pH 7.6). Cultures were grown to OD600=0.2. A shift to acid external pH was conducted by rapid addition of 840 µl 1M HCl, which lowered the pH of the medium to pH 5.5. For each of five biological replicates, 10-ml samples were taken at times 0, 1, 5, and 10 min post addition of HCl. Each sample was added to 1 ml 10% phenol-ethanol stop solution in < 5 sec. For each sample, cDNA synthesized from total RNA was hybridized onto Affymetrix E. coli arrays. Model-based gene expression intensities were determined using GCOS software. Gene-by-gene temporal differential expression was analyzed as a mixed-effects model using polynomial time functions as fixed effects and flask variation as a random effect. Keywords: Time Course
+
+DESIGN
+Gene expression profiles of Escherichia coli K-12 W3110 were compared as a function of time versus change in external pH. Overnight cultures were diluted 1:500 in potassium-modified Luria-Bertani medium (LBK) buffered with 20 mM HOMOPIPES at 7.6. Bacteria were cultured in baffled flasks (less than 10% volume) with rotation at 225 rpm, incubated at 37°C to an optical density at 600 nm of 0.2. External pH was lowered to pH 5.5 by adding 840 µl of 1M HCl to 40 mls of culture within 5 seconds. Four samples were taken from each of  five replicate cultures, corresponding to time 0 (before HCl addition),1, 5, and 10 min post HCl addition.
+
+PLATFORM
+GPL199 [Ecoli_ASv2] Affymetrix E. coli Antisense Genome Array
+
+CITATIONS
+18302792
+

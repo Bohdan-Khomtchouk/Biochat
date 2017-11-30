@@ -1,0 +1,18 @@
+TITLE
+Differentiated Truncation and Uridylation Patterns of miRNAs in Arabidopsis and Rice hen1 Mutants Suggest miRNAs May Re-program RISC
+
+ORGANISM
+Arabidopsis thaliana ; Oryza sativa ; Zea mays
+
+SUMMARY
+miRNA levels depend on both biogenesis and turnover. The methyltransferase HEN1 stabilizes plant miRNAs, animal piRNAs, and siRNAs in both kingdoms via 3' terminal methylation. Loss of HEN1 in plants results in non-templated oligo-uridylation and accelerated degradation of miRNAs. In hen1 mutants from Arabidopsis and rice, we found that the patterns of miRNA truncation and uridylation differ substantially among miRNA families, but such patterns for the same miRNA are conserved between species. miR166 and miR163 are truncated predominantly to ~17 and ~16 nt, and subsequently recover via uridylation to approximately their original sizes, 21 and 24 nt, suggesting that in these cases miRNA truncation triggers uridylation. miR171 is untruncated but uridylated to 22 nt in hen1 mutants, gaining the ability to trigger production of phased, secondary siRNAs. Truncated and tailed variants were bound by ARGONAUTE1 (AGO1) in hen1, implying that these events occur while miRNAs are still bound by AGO1. Unexpectedly, a portion of miR158 in wildtype remains unmethylated and thus subject to uridylation and destabilization, suggesting that plants naturally utilize miRNA methylation to modulate miRNA accumulation. Our results suggest that the AGO1-containing RISC complex may undergo programming to reflect each bound miRNA, determining a defined, distinct decay destiny.
+
+DESIGN
+In this analysis, we sequenced sRNAs from two hen1 mutant alleles in Arabidopsis and three hen1 alleles in rice. In Arabidopsis, the strong hen1-1 allele in the Landsberg erecta (Ler) ecotype is the first hen1 mutant and emerged from an enhancer screen in the hua1-1/hua2-1 background, and hen1-8 in the Columbia (Col) background is a weak allele. In rice, WAVY LEAF1 (WAF1) is the ortholog of Arabidopsis HEN1, and two mutant alleles waf1-1 and waf1-2 each bear a single-base substitution leading to a premature stop codon in the second exon and a non-functional splicing site of the fourth intron, respectively. We identified a third mutant allele of the rice HEN1 gene (Oshen1-3 from the Korean (POSTEC) rice T-DNA mutant population).
+
+PLATFORM
+GPL11221 Illumina Genome Analyzer IIx (Arabidopsis thaliana) GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana) GPL15432 Illumina Genome Analyzer IIx (Oryza sativa) GPL15463 Illumina HiSeq 2000 (Zea mays)
+
+CITATIONS
+23839787
+

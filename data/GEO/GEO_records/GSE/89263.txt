@@ -1,0 +1,18 @@
+TITLE
+RNA-seq of mixed mouse glomerular mesangial and endothelial cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+There are 3 cell types in a glomerulus: podocytes, mesangial cells and endothelial cells. These cell types play distinct roles in the structure and functions of glomeruli. In order to profile the gene expression of single glomerular cells, we isolated mouse glomeruli by Dynabead/magnetic concentration method and digested them with enzymes to dissociate them into single cells. We loaded the single cell suspension to a Fluidigm C1 Single-Cell Auto Prep System for single cell cDNA preparation. We performed qPCR analyses of marker genes of podocytes (Npsh2, Synaptopodin, WT1), mesangial cells (Gata3, IGFbp5) and endothelial cells (CD31, Tie2) to determine the identity of each cDNA sample. To identify podocyte-specific genes, we mixed 15 mesangial cell cDNA samples and 15 endothelial cell cDNA samples and further divided into 3 aliquots as replicates for sequencing using Illumina HiSeq 2000 system. The resulting data are used to compare with that of podocytes in order to identify podocyte-specific genes.
+
+DESIGN
+A C57BL/6 male mouse was sacrificed for isolation of glomeruli. Glomeruli were dissociated into single cells, which were loaded to a Fluidigm C1 Single-Cell Auto Prep System for single cell cDNA preparation. qPCR analyses of marker genes of podocytes (Npsh2, Synaptopodin, WT1), mesangial cells (Gata3, IGFbp5) and endothelial cells (CD31, Tie2) were conducted to determine sample identities. Fifteen mesangial cells and 15 endothelial cells' cDNA samples were mixed and divided into 3 aliquots as replicates for sequencing.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28709640
+

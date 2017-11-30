@@ -1,0 +1,18 @@
+TITLE
+LncRNA expression profiling for 6 human plasma samples from Coronary Artery Disease patients and non Coronary Artery Disease patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The human LncRNA microarray analysis of the 6 plasma samples  from Coronary Artery Disease patients and non Coronary Artery Disease
+
+DESIGN
+Agilent Feature Extraction software (version 11.0.1.1) was used to analyze acquired array images. Quantile normalization was performed using Expander6 and subsequent data processing was performed using the GeneSpring GX v11.5.1 software package (Agilent Technologies). After low intensity filtering, LncRNAs and mRNAs that at least 2 out of 12 samples have flags in Present or Marginal (“All Targets Value”) were chosen for quantile normalization and further data analysis. Differentially expressed LncRNAs and mRNAs with statistical significance were identified through Volcano Plot filtering. Pathway analysis and GO analysis were applied to determine the roles of these differentially expressed mRNAs played in these biological pathways or GO terms. Finally, Hierarchical Clustering was performed to show the distinguishable LncRNAs expression pattern among samples.
+
+PLATFORM
+GPL15314 Arraystar Human LncRNA microarray V2.0 (Agilent_033010 Probe Name version)
+
+CITATIONS
+26201019 , 26857419
+

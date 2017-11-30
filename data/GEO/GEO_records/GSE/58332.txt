@@ -1,0 +1,18 @@
+TITLE
+piRNA pathway targets active LINE1 elements to establish repressive H3K9me3 mark in germ cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transposable elements (TEs) occupy large fraction of metazoan genomes and pose constant threat to genomic integrity. This threat is particularly critical in germ cells, as changes in the genome that are induced by TEs will be transmitted to the next generation. Small non-coding piwi interacting (pi)RNAs recognize and silence a diverse set of TEs in germ cells. In mice, piRNA-guided transposon repression correlates with establishment of CpG DNA methylation on their sequences, yet the mechanism and the spectrum of genomic targets of piRNA silencing are unknown. Here we show that in addition to DNA methylation, the piRNA pathway is required to maintain a high level of the repressive H3K9me3 histone modification on long interspersed nuclear elements (LINEs) in germ cells. piRNA-dependent chromatin repression targets exclusively full-length elements of actively transposing LINE families, demonstrating the remarkable ability of the piRNA pathway to recognize active elements among the large number of genomic transposon fragments.
+
+DESIGN
+Total of 34 libraries were analyzed. In case of ChIP libraries, every 'input' sample was used for normalization of the respective ChIP (H3K9me3 or H3) sample; the input libraries preceed ChIP libraries in the list below. There are four replicates (input-ChIP pairs) for H3K9me3 ChIP on liver cells, two for ChIP on testicular somatic cells for each genotype (Miwi2 Het and KO); and four for ChIP on male germ cells for each genotype (one from FACS-sorted germ cells, and three from MACS-sorted germ cells). Each replicate has a Het/KO pair, and the respective libraries were cloned from the material isolated from littermates. One H3 ChIP for each genotype is included, with respective inputs.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+24939875
+

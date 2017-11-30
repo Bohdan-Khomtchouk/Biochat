@@ -1,0 +1,18 @@
+TITLE
+Three-dimensional proximity mapping of the DRGFP DNA double-strand break site in U2OS cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We mapped the DNA sequences located in physical proximity to an I-SceI endonuclease-dependent DNA double-strand break (DSB) site to be able to study the impact of DSBs on the break-associated chromatin micro-environment. The I-SceI DSB site is part of a DRGFP transgene that serves as a reporter for homology-directed DSB repair and was stably integrated into U2OS human osteosarcoma cells (Pierce et al., Genes Dev, 1999). DRGFP-U2OS cells were modified to carry a stable Doxycycline (Dox)-inducible I-SceI transgene (TRE-I-SceI) as well as the Tet-ON vector from Contech. Circular chromosome conformation capture (4C) was used to identify DSB-proximal DNA. 4C amplified DNA was subjected to Illumina Hi-Seq 200 100 bp paired end sequencing and reads were mapped to the human genome. The resulting genome-wide map of I-SceI/DRGFP-proximal DNA allows for the investigation of changes in DSB-surrounding chromatin features following I-SceI-mediated DSB induction.
+
+DESIGN
+4C library of I-SceI (DRGFP)-proximal DNA contacts in DRGFP-U2OS cells was generated using Illumina Hi-Seq 2000 sequencing, data sets are from two independent experiments.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25131201
+

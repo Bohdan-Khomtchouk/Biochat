@@ -1,0 +1,18 @@
+TITLE
+LPS and brain inflammation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Normal mice were injected i.p. with LPS or saline. 24h later, perfused brains were dissociated. Cells were fixed, immunolabeled and FACS sorted. RNA was extracted from neuron, astrocyte, and microglial cell populations. Typical RIN=4-5 for neurons, 6-8 for astrocytes, and 5-7 for microglia. Typical RNA yields ~100ng for neurons, ~20ng for microglia, and ~10ng for astrocytes. cDNA was generated from up to 25 ng of total RNA using Nugen's RNA-Seq method for low-input RNA samples, Ovation RNA-Seq System V2 (NuGEN). (Per manufacturers instructions, total RNA was neither depleted of rRNA nor polyA-selected.) 1 μg of sheared cDNA was taken into further processing, starting at end repair step, using Illumina's TruSeq RNA Sample Preparation Kit v2 (Illumina). The " SAMID " sample characteristic is a sample identifier internal to Genentech. The ID of this project in Genentech's ExpressionPlot database is PRJ0005404
+
+DESIGN
+Astrocytes, microglia and neurons were sorted from LPS or saline treated mice. n=4 or 5 per group.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27097852
+

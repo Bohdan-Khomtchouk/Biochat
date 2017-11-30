@@ -1,0 +1,18 @@
+TITLE
+Deep RNA sequencing of the human placental transcriptome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The goal of this study was to conduct an in-depth analysis of the human placental transcriptome. RNA was extracted from 16 placental samples using TRIzol following the manufacturer’s protocol. All samples were spiked with 96 External RNA Controls Consortium (ERCC) ExFold RNA transcripts. Ribosomal RNAs were depleted from samples using Ribo-Zero Gold and sequencing libraries were prepared using Illumina TruSeq Stranded Total RNA Sample Preparation kits. Sequencing was performed on the Illumina Hi-Seq 2500 using a 100bp paired-end protocol. Sequence adapters were trimmed using AdapterRemoval with options --trimns, --minlength 20. Trimmed RNA-Seq reads were aligned to known UCSC hg19 genes and the hg19 genome using Bowtie 2 v2.1.0 and TopHat v2.0.9 with options --library-type=fr-firststrand --mate-inner-dist -20 --mate-std-dev 180. UCSC hg19 reference genome and transcriptome was obtained through Illumina iGenomes ( https://support.illumina.com/sequencing/sequencing_software/igenome.html ). Aligned RNA-Seq reads were summarised using the summarizeOverlaps algorithm with the UCSC known genes hg19 GTF file using the the options overlapMode=``Union'', ignoreStrand=FALSE, singleEnd=FALSE, fragments=TRUE to generate a table of unique read counts per gene for each sample. All samples were processed in the same way, with all sequencing libraries created in the same batch and sequenced together.
+
+DESIGN
+Villous tissue from 16 human placental samples were profiled by total RNA-Seq.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28049421
+

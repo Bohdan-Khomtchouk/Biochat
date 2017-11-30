@@ -1,0 +1,18 @@
+TITLE
+MNase titration reveals differences between nucleosome occupancy and chromatin accessibility
+
+ORGANISM
+Drosophila melanogaster ; Homo sapiens ; Mus musculus
+
+SUMMARY
+Chromatin accessibility plays a fundamental role in gene regulation. One mechanism to regulate accessibility is nucleosome placement, which is often measured by quantifying protection of DNA from enzymatic digestion. We introduce a metric that uses micrococcal nuclease (MNase) digestion in a novel manner to measure chromatin accessibility by combining information from several digests of increasing depths. This metric, MACC, quantifies the inherent heterogeneity of nucleosome accessibility in which some nucleosomes are seen preferentially at high MNase and some at low MNase. MACC interrogates each genomic locus, measuring both location of nucleosomes and accessibility to MNase in the same assay. MACC can be performed either with or without a histone immunoprecipitation step, and thereby compares behavior of nucleosomes to that of non-histone proteins. We find that enhancers, promoters and other regulatory regions have changes in accessibility that do not correlate with changes in nucleosome occupancy. Moreover, we show that high nucleosome occupancy does not necessarily preclude high accessibility, revealing novel principles of chromatin regulation.
+
+DESIGN
+MNase-seq profiles for different concentrations obtained for fly, mouse and human samples
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster)
+
+CITATIONS
+27151365
+

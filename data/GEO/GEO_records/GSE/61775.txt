@@ -1,0 +1,18 @@
+TITLE
+Context-specific regulation of BMAL1 target genes during the circadian cycle in mammals
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+While the circadian rhythm is a highly conserved phenomenon, it has highly specific functions, which differ from one cell type to another. Hence, although the master regulators BMAL1-CLOCK are conserved, the input and output conveying the tissue specificity vary. Through comparative analyses of ChIP-seq data in mouse liver and NIH3T3 fibroblasts, we reveal that only a fraction of BMAL1 binding sites are shared between different cell types and that many sites are bound, active and accessible in a cell-type-specific way. While we found a large fraction of the overall active liver transcriptome to be rhythmically expressed, rhythmic genes among BMAL1 targets are more enriched compared to the overall cyclic transcriptome in NIH3T3 than in liver. Thus, BMAL1 may launch and reinforce oscillations of a number of genes that propagate timing information rather than globally drive rhythmic gene expression.
+
+DESIGN
+We conducted a comparative functional genomics study based on ChIP Seq and RNA Seq time courses in dexamethasone synchronized NIH3T3 cells and mouse liver. We assessed rhythmic gene expression in NIH3T3 cells through RNA Seq time courses that contained RNA samples taken for 48 every 4 hours starting at 16h after Dex. The raw data of BMAL1 ChIP-seq in mouse liver is deposited under GSE26602 (Rey et al., 2011). The reprocessed data file for the liver BMAL1_ZT06_ChIP-Seq Samples (GSM654882, GSM654883), BMAL1_ZT06_Liver_Stringent_peaks_all_withannotation.bed, is linked below as a supplementary file.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

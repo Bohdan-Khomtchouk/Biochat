@@ -1,0 +1,18 @@
+TITLE
+RNA- and ChIP-seq analysis of cytokine treated islets
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: In the early phases of T1D development exposure of β-cells to IFNγ, IL-1β, and TNFα  is thought to induce β-cell dysfunction and the expression of chemokines and cytokines. These changes are mediated in part by post-translational histone modifications within cis-regulatory regions. The purpose of this study was to determine if prevention of these epigenetic changes can alter cytokine induced gene expression changes. Methods: Pancreatic islets were isolated from both male and female CD1 mice by collagenase digestion and were picked by hand. Hand-picked islets were cultured for four days with 1.6ng/ml IFNγ, 0.25ng/ml IL-1β and 0.16ng/ml TNFα (cytokine) or were left untreated (nocytokine). For RNA-seq islets were collected and processed for NGS using the Illumina TruSeq library prep kit. Chromatin immunoprecipitation (ChIP) was performed using 3μg of anti-H3K4me1 (Abcam) with islets from at least 10 adult ICR mice (8-10 weeks old) exposed to 1.6ng/ml IFNγ, 0.25ng/ml Il-1β and 0.16ng/ml TNFα for four days. DNA from 4 separate ChIP experiments was pooled for library construction and sequencing using the Illumina platform. Results: Comparison of gene expression levels between untreated and cytokine-treated islets resulted in the identification of 205 genes that showed an IFNγ, Il-1β, and TNFα-induced chromatin state change (from repressed or inactive to H3K4me1 enriched, i.e. the de novo regions), or increased H3K4me1 enrichment, that were associated with genes with up-regulated expression in response to IFNγ, Il-1β, and TNFα, and 111 genes with reduced H3K4me1 and down-regulated expression in response to IFNγ, Il-1β, and TNFα. Conclusions: Our study confirms that exposure of islets to pro-inflammatory cytokines induces the expression of chemokines and that these changes are the result of a switch from an inactive to an active chromatin state. Further we show that disruption of the trithorax group complex inhibits the upregulation of pro-inflammatory gene expression.
+
+DESIGN
+Isolated islets were cultured with or without IFNγ, IL-1β, and TNFα for four days and processed for RNA- and ChIP-seq.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26505193
+

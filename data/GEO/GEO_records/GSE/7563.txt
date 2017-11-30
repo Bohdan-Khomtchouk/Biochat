@@ -1,0 +1,18 @@
+TITLE
+Molecular portrait of cisplatin induced response in human testis cancer cell lines based on gene expression profiles
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Testicular germ cell tumors (TGCTs) are the most common tumors in young men. Fortunately, TGCTs respond very well to cisplatin -based chemotherapy and show a low incidence of acquired resistance compared to most somatic tumors. This high sensitivity also applies to more than 80% of all TGCTs with metastatic disease. The reasons for this particularly high sensitivity of male germ cell tumors to chemotherapy seem to be multifactorial. To study this phenomenon, we have addressed the issue of whether cisplatin produces germ cell tumor specific gene expression profiles using testicular germ cell tumor derived cell lines. By means of microarray technology, we have analyzed cisplatin-induced gene expression in two well characterized human testicular germ cell tumor (TGCT) derived cell lines (833K and GCT27) which are sensitive to cisplatin treatment, and in a human colon carcinoma cell line (HCT116), to compare responses in germ cell tumor cell lines with those of tumor cells of somatic origin. We further evaluate the male germ cell tumor specificity, by mining available public databases and literature. By using SAM analysis, we identified 1794 differentially expressed genes. Among these, 1180 genes were over-expressed in TGCT cells and under-expressed in HCT116 cells and 614 genes were down-regulated in TGCT cells and up-regulated in HCT116 cells after exposure to cisplatin. Functional classification of these genes showed that they participate in a variety of different and widely distributed functional categories and biochemical pathways. Keywords: Testicular germ cell tumors (TGCT) Cisplatin, Microarray, cell type comparison, Gene expression
+
+DESIGN
+Description of the cell lines: The testis cancer cell lines 833K (metastasis, nonseminomatous germ cell tumour) and GCT27 (primary, nonseminomatous germ cell tumour), were generous gifts from John Masters. HCT116 (ATCC-CCL-247, Manassas, VA) is a colon-cancer derived cell line. Treatment of cell cultures: Cells in exponential growth phase were exposed to cisplatin 24h after plating. Cells were harvested after 24h and 48h of exposure and prepared for further analysis. Mock treated cells used as control (referance) Microarray analysis: Array slides, sample preparation, and hybridisation: -Human oligo array slides with 21K genes produced at the Norwegian Microarray Consortium were used. -Total RNA was isolated from the cell lines by GeneElute kit (Sigma). 20μg of total RNA was used to generate a probe for hybridization, using FairPlay kit from Stratagene. Hybridization was performed overnight at 42°C. -The slides were scanned by Agilent microarray laser Scanner (Agilent, Palo Alto, CA). Data analysis:The microarray images were analyzed using the GenePix 4.1 image analysis software (Axon Instruments). Flagged spots were filtered out and normalized using lowess normalization. All data filtering and normalization was performed in J-Express Pro v 2.7 (MolMine, Bergen, Norway). The missing values were estimated by the k-nearest neighbor imputation (k=15). To minimize the experimental variations, the cells were treated in three independent experiments and the RNA isolated from these experiments were mixed and used as a template for the microarray assay. Each RNA sample was hybridized with two (some with three) arrays.
+
+PLATFORM
+GPL4882 NMC Homo sapiens 21K Hs-OperonV2
+
+CITATIONS
+17711579
+

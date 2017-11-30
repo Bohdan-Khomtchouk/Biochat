@@ -1,0 +1,18 @@
+TITLE
+shRNA knockdown of the transcription factor NF-YA (NFYA)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+NF-Y, a trimeric transcription factor (TF) composed of two histone-like subunits (NF-YB (NFYB) and NF-YC (NFYC)) and a sequence-specific subunit (NF-YA), binds to the CCAAT motif, a common promoter element. Genome-wide mapping reveals 5,000-15,000 NF-Y binding sites depending on the cell type, with the NF-YA and NF-YB subunits binding asymmetrically with respect to the CCAAT motif. Despite being characterized as a proximal promoter TF, only 25% of NF-Y sites map to promoters. A comparable number of NF-Y sites are located at enhancers, many of which are tissue specific, and nearly half of NF-Y sites are in select subclasses of HERV LTR repeats. Unlike most TFs, NF-Y can access its target DNA motif in inactive (non-modified) or polycomb-repressed chromatin domains. Unexpectedly, NF-Y extensively co-localizes with FOS in all genomic contexts, and at promoters and enhancers this often occurs in the absence of JUN and the AP-1 motif. NF-Y also co-associates with a select cluster of growth-controlling and oncogenic TFs, consistent with the abundance of CCAAT motifs in the promoters of genes overexpressed in cancer. Interestingly, NF-Y and several growth-controlling TFs bind in a stereo-specific manner, suggesting a mechanism for cooperative action at promoters and enhancers. Our results indicate that NF-Y is not merely a commonly-used, proximal promoter TF, but rather performs a more diverse set of biological functions, many of which are likely to involve co-association with FOS. Scrambled control (shSCM) and NF-YA pLKO.1-shRNAs were designed by Sigma-Aldrich. The puromycin resistance cassette was replaced with an EGFP cassette. Viral production and transduction were carried out as previously described (Benatti et al. 2011). HeLaS3 cells were transduced with shSCM or shNF-YA viral supernatants, in triplicate, and cells collected after 48 hr of incubation. Total RNA was prepared by Trizol extraction and Qiagen RNeasy kit purification, converted to biotinylated aRNA and hybridized to U133 Plus 2.0 GeneChip expression arrays using the 3’ IVT Express Kit (Affymetrix, USA) following the manufacturer’s protocol. Arrays were RMA normalized (Irizarry et al. 2003), gene expression levels calculated, differential expression determined using the following R packages from the Bioconductor project: affy (Gautier et al. 2004), limma (Smyth 2004).
+
+DESIGN
+HelaS3 cells were transduced with shSCM or shNF-YA in triplicate for 48hrs.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+23595228
+

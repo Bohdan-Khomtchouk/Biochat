@@ -1,0 +1,18 @@
+TITLE
+Gene expression analysis of urine sediment: evaluation for potential noninvasive markers of interstitial cystitis/bladder pain syndrome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Determine if gene expression profiles in urine sediment could provide non-invasive candidate markers for painful bladder syndrome (PBS) with and/or without Hunner lesions. Materials and Methods: Fresh catheterized urine was collected and centrifuged from control (n = 5), lesion-free (n = 5), and Hunner lesion bearing (n = 3) patients. RNA was extracted from the pelleted material and quantified by gene expression microarray (Affymetrix Human Gene ST Array). Results: Three biologically likely hypotheses were tested: A) all three groups are distinct from one another; B) controls are distinct from both types of PBS patients combined, and C) Hunner lesion PBS patients are distinct from controls and non-Hunner-lesion PBS combined.  For statistical parity an unlikely fourth hypothesis was included: non-Hunner-lesion PBS patients are distinct from controls and Hunner lesion PBS combined.  Analyses supported selective upregulation of genes in the Hunner lesion PBS group (hypothesis C), and these were primarily associated with inflammatory function. This profile is similar to that reported in a prior microarray study of bladder biopsies in Hunner lesion PBS. Conclusions: Urine sediment gene expression from non-Hunner-lesion PBS patients lacked a clear difference from that of control subjects, while the array signatures from PBS patients with Hunner lesions showed a clear, primarily inflammatory, signature.  This signature was highly similar to that seen in a prior microarray study of bladder biopsies. Thus, although sample sizes were small, this work suggests that gene expression in urine sediment may provide a non-invasive biomarker for Hunner lesion, but not non-Hunner lesion, PBS.
+
+DESIGN
+Urine (40-100 ml) was immediately placed on ice, transported to the laboratory and centrifuged at -4C for 5 minutes.  Pellets were washed twice with ice-cold phosphate-buffered saline, suspended in 0.8 ml TRIzol and RNA was extracted according to the manufacturer's instructions.  RNA was stored at -80oC until all samples had been collected, then analyzed at our Microarray Core Facility using the Affymetrix GeneChip Whole Transcript (WT) Sense Target Labeling Assay protocol, added to Human Gene 1.0 ST array chips, and annotated with gene symbol and functional information (Affymetrix). Probe level data were produced by Partek GS (6.10) using the gcRMA output option. Probe set signal intensities < 4.2 were considered absent, and if > 10 chips rated a probe set absent, that probe set was not considered for further analysis. Additionally, probe sets that did not have a gene symbol-level annotation (e.g., were considered 'hypothetical', or 'expressed sequence tags') were not considered for further analysis.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+22177197
+

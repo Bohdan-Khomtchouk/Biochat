@@ -1,0 +1,18 @@
+TITLE
+SMAUG is required for zygotic transcription during the maternal-zygotic transition MZT
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Microarray analysis of zygotic gene expression in 2-to-3 hour wild-type (wt) and smg mutant embryos.  Expression is relative to mature, stage 14 oocytes, which contain the full maternal pool of mRNA.   Strictly maternal genes that are not transcribed at the MZT contribute approximately 80% of transcripts in early embryos, and are not shown.  Class I zygotic genes showed high levels of expression in 2-to-3 hour embryos.  142 of the 166 Class I genes were not expressed in smg mutants.  The remaining zygotically expressed genes were also present in oocytes.  These genes were divided into two classes, based on analysis of 4-to-6 hour old unfertilized eggs (4-6h unf), which are transcriptionally inactive.  Class-II genes produce maternal transcripts that are stable in unfertilized eggs and show significantly increased expression in 2-to-3 hour post-fertilization embryos. 358 of 395 Class-II genes require SMAUG for zygotic expression.  Class-III genes produce maternal transcripts that are degraded in unfertilized eggs and show significantly increased expression in 2-to-3 hour post-fertilization embryos.  65 of 408 Class-III genes require SMAUG for expression in 2-to-3 hour embryos.
+
+DESIGN
+mRNA was extracted from staged fertilized or unfertilized eggs, as well as stage 14 oocytes as described previously (Tadros et al., 2007a). To assay mRNA quality, known stable (rpA1) and unstable (Hsp83) transcripts were probed on Northern blots. Total RNA was then reverse transcribed with random primers (Tadros et al., 2007a) and labeled asÊdescribed in the Indirect Labeling of Total RNA for Microarray Hybridization protocol at http://www.flyarrays.com. The fluorescently labeled cDNA probes were hybridized to 12Kv1 microarrays obtained from the Canadian Drosophila Microarray Centre ( http://www.flyarrays.com; GEO platform accession number GPL1467: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL1467 ).  Hybridization and scanning were performed using a PerkinElmer/GSI ScanArray 4000 scanner and the ScanArray software as previously described (Neal et al., 2003). The 16 bit TIFF image files were quantified using QuantArray Version 3 (PerkinElmer), using the adaptive quantification algorithm and analyzed using GeneTraffic Duo3.2 (Iobion Informatics/Stratagene). The 12Kv1 arrays were normalized using the rank invariant LOWESS extrapolation method (Schadt et al., 2001).
+
+PLATFORM
+GPL1467 CDMC_Drosophila_12k1
+
+CITATIONS
+19234062
+

@@ -1,0 +1,18 @@
+TITLE
+Comprehensive transcriptional profiling analysis reveals candidate regulators in cold-stressed seedlings of Petunia hybrida
+
+ORGANISM
+Petunia x hybrida
+
+SUMMARY
+Investigation of gene expression level changes in Petunia hybrida seedlings subjected to cold at 2°C for 0.5 h, 2 h, 24 h and 5 d, compared to the CK.
+
+DESIGN
+The custom-designed four-plex microarray with 72000 features was constructed based on the EST sequences generated in Breuillin's study together with all sequences of P.hybrida and P.axillaris available at Genbank, TIGR, and the Solanaceae genomics network SGN, which was ultimately composed by a set of 24816 non-redundant unique sequences (unigenes).The probe intensity files resulting from RNA hybridization were first read into R. Background Correction, quantile normalization and summarization were then performed using the Robust Multi-array Average (RMA) method included in Bioconductor Affy package based on the home made chip description library.
+
+PLATFORM
+GPL18705 NimbleGen_Petunia hybrida _array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

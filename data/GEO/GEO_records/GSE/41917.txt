@@ -1,0 +1,18 @@
+TITLE
+Genomic profiling of lymphomas in Canis lupus familiaris
+
+ORGANISM
+Canis lupus familiaris
+
+SUMMARY
+Comparative oncology is a developing research discipline that is being used to assist our understanding of human neoplastic diseases.  Companion canines are a preferred animal oncology model due to spontaneous tumor development and similarity to human disease at the pathophysiological level. We use a paired RNA sequencing (RNA-Seq)/microarray analysis of a set of four normal canine lymph nodes and ten canine lymphoma fine needle aspirates to identify technical biases and variation between the technologies and convergence on biological disease pathways.   Surrogate Variable Analysis (SVA) provides a formal multivariate analysis of the combined RNA-Seq/microarray data set. Applying SVA to the data allows us to decompose variation into contributions associated with transcript abundance, differences between the technology, and latent variation within each technology. A substantial and highly statistically significant component of the variation reflects transcript abundance, and RNA-Seq proved more sensitive for detection of transcripts expressed at low levels. Latent random variation among RNA-Seq samples is also distinct in character from that impacting microarray samples. In particular, we observed variation between RNA-Seq samples that reflects transcript GC content. Platform-independent variable decomposition without a priori knowledge of the sources of variation using SVA represents a generalizable method for accomplishing cross-platform data analysis.    We identified genes differentially expressed between normal lymph nodes of disease free dogs and a subset of the diseased dogs diagnosed with B-cell lymphoma using each technology. There is statistically significant overlap between the RNA-Seq and microarray sets of differentially expressed genes. Analysis of overlapping genes in the context of biological systems suggests elevated expression and activity of PI3K signaling in B-cell lymphoma biopsies compared with normal biopsies, consistent with literature describing successful use of drugs targeting this pathway in lymphomas.
+
+DESIGN
+RNA was extracted from 10 lymphoma fine needle aspirates attained from companion canines. 4 normal lymph node samples were obtained from a Beagle breeding colony at Pfizer, including two samples that were taken from the same dog but different lymph nodes. This Series represents the Affymetrix gene expression only, not RNA-Seq referenced above.  RNA-Seq data have been submitted to SRA as SRA059558.
+
+PLATFORM
+GPL3738 [Canine_2] Affymetrix Canine Genome 2.0 Array
+
+CITATIONS
+23593398
+

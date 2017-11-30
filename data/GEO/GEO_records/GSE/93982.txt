@@ -1,0 +1,18 @@
+TITLE
+Open chromatin region, histone acetylation, and SREBP2 binding in PANC-1 and AsPC-1 human pancreatic carcinoma cells under hypoxia, nutrient starvation and low pH culture condition.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The conditions of the tumor microenvironment, such as hypoxia and nutrient starvation, play critical roles in cancer progression. However, the role of acidic extracellular pH in cancer progression is not studied as extensively as that of hypoxia. Here, we show that extracellular acidic pH (pH 6.8) triggered activation of sterol regulatory element-binding protein 2 (SREBP2) by stimulating nuclear translocation and promoter binding to its targets along with intracellular acidification. Interestingly, inhibition of SREBP2, but not SREBP1, suppressed the upregulation of low pH-induced cholesterol biosynthesis-related genes. Moreover, acyl-CoA synthetase short-chain family member 2 (ACSS2), a direct SREBP2 target, provided a growth advantage to cancer cells under acidic pH. Furthermore, acidic pH-responsive SREBP2 target genes were associated with reduced overall survival of cancer patients. Thus, our findings show that SREBP2 is a key transcriptional regulator of metabolic genes and progression of cancer cells, partly in response to extracellular acidification.
+
+DESIGN
+For ChIP-seq, PANC-1 cells (1 × 107) were crosslinked with 1% formaldehyde for 10 min at room temperature (RT). Fixation was stopped by adding 0.125 M　glycine. After crosslinking, nuclear pellets were prepared for ChIP. Pre-washed magnetic Dynabeads (Life Technologies, Massachusetts, USA) were incubated with anti-H3K27ac antibody (Millipore, Massachusetts, USA, #07-360) or anti-SREBP2 antibody (Cayman, Michigan, USA) for 6 h by wheel rotating at 4 °C. Sonicated crosslinked nuclear lysates and 8 ml ChIP Dilution buffer were added and incubated overnight at 4 °C by wheel rotating. The beads were washed several times and eluted with elution buffer (1% SDS and 100 mM NaHCO3), the eluent was incubated with pronase (1 mg ml-1) at 42 °C for 2 h and then incubated at 65 °C overnight to reverse the crosslinks. DNA was purified using QIA quick PCR purification kit (QIAGEN, Hilden, Germany).  Formaldehyde-assisted isolation of regulatory elements was performed as described previously (Giresi et al., 2007; Nakaki et al., 2012). Briefly, formalin-crosslinked cell pellets were lysed in SDS lysis buffer (50 mM Tris-HCl, pH 8.0, 10 mM ETDA, 1% SDS and proteinase inhibitor cocktail (Nacalai Tesque, Kyoto, Japan) and sonicated by ultrasound homogenizer (Bioruptor UCD-200TM, Cosmo Bio). Samples were subjected to phenol/chloroform extraction twice followed by ethanol precipitation and subsequently purified using QIAquick PCR purification kit (QIAGEN, Hilden, Germany).
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+28249167
+

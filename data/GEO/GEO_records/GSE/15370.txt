@@ -1,0 +1,18 @@
+TITLE
+A systematic evaluation of pattern discovery algorithms
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Pattern discovery algorithms are methods for discovering recurrent, non-random motifs widely used in the analysis of biological sequences. Many algorithms exist but few comparisons have been made amongst them. We systematically profile eight representative methods at multiple parameter settings across 174 diverse experimental datasets, including ten novel ChIP-on-chip datasets. We executed 16,777 pattern discovery analyses to assess prediction accuracy, CPU usage and memory consumption. For 144 datasets we developed a gold-standard using machine-learning algorithms; cross-validation was used for the remaining datasets. Performance was highly disparate, with median accuracy ranging from 32% to 96%. Importantly we were unable to replicate previously reported algorithm-rankings, emphasizing the need to use many and diverse experimental datasets. We found deterministic algorithms like Projection and Oligo/Dyad had the highest prediction accuracy. Computational efficiency was not linearly related to dataset size and becomes critical: some algorithms are intractably slow on large datasets. This work provides the first combined assessment of the CPU, memory, and prediction accuracies of pattern discovery algorithms on real experimental datasets.
+
+DESIGN
+HL60-Mnt-ChIP: ChIP-Chip with 10 biological replicates HL60-Trrap-ChIP: ChIP-Chip with 13 biological replicates
+
+PLATFORM
+GPL2040 UHN Human CpG 12K Array (HCGI12K)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

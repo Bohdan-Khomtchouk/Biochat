@@ -1,0 +1,18 @@
+TITLE
+microRNA microarray of Sinperca chuatsi's skeletal muscle
+
+ORGANISM
+Siniperca chuatsi
+
+SUMMARY
+Contains 90 Sinperca chuatsi miRNAs identified in fast and slow muscle fibers, and 60 miRNAs showed significantly different levels of expression.
+
+DESIGN
+In this experiment, six Samples are analyzed with 3 replicates are included.The miRNA microarrays were used to analyze miRNA expression patterns in the white muscle and red muscle (LC-Bio Hangzhou, China). Chip hybridizations were performed overnight on a μParaflo microfluidic chip using a microcirculation pump (Atactic Technologies). Based on mature miRNA sequences of zebrafish downloaded in miRBase Release 19.0 ( http://microrna.sanger.ac.uk/ ), 246 probes were designed to detect S. chuatsi miRNAs on microarray chips. In addition, the arrays contained 95 probes complementary to the miRNA in S. chuatsi, positive control probes for zebrafish 5s rRNA, and negative controls for normalizing data with low-density signals. Sufficient RNA was extracted to hybridize in triplicate with three biological repeats to ensure microarray reproducibility. After hybridization, signals were detected using tag-specific Cy3 and Cy5 dyes. Hybridization images were collected using a laser scanner (GenePix 4000B, Molecular Devices, Sunnyvale, CA, USA) and digitized by Array-Pro image analysis software (Media Cybernetics, Bethesda, MD, USA). Finally, hybridization signals were detected and quantified, and data were analyzed by first subtracting the background and then normalizing the signals with a cyclic LOWESS filter (Locally-weighted Regression). Please note that the  experiments were performed technically as dual channel (eg, Cy3 and Cy5-labeled samples hybridized to the same array) but processed the results as though they are single channel (Cy3 and Cy5 signals are calculated). Therefore there are total 3 raw data files for 6 samples, and the corresponding raw data file is indicated in the sample description field.
+
+PLATFORM
+GPL23235 LC_MRA-1004_miRZebrafish_13.0_090309 [miRNA ID version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

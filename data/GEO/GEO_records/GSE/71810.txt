@@ -1,0 +1,18 @@
+TITLE
+Gene expression data from human tonsillar B lymphocytes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+B lymphocytes are important mediators of adaptive immunity. They drive naïve T cells to different T-helper profiles. Th2 responses are implicated in allergic reactions. The goal of this study was to characterize the gene expression profile of B cells under Th2-skewing conditions.
+
+DESIGN
+B lymphocytes were isolated from human tonsils and cultured for 24 hours under Th2-skewing stimulation (anti-CD40 and IL4 treatment) or with no stimulation. RNA was isolated from 4 biological replicates for each condition. 8 samples in total were hybridized to Affymetrix gene expression microarrays. variable: treatment: antiCD40-IL4: antiCD40-IL4_1, antiCD40-IL4_2, antiCD40-IL4_3, antiCD40-IL4_4 variable: treatment: unstimulated: Control_1, Control_2, Control3, Control_4 repeat: biological replicate: antiCD40-IL4_1, antiCD40-IL4_2, antiCD40-IL4_3, antiCD40-IL4_4 repeat: biological replicate: Control_1, Control_2, Control3, Control_4
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+Xue Di, Desjardins Marylin, Kaufman Gabriel N., B  land Marianne, Al-Tememi Salem, Ahmed Eisha, Tao Shao, Friedel Roland H., Mourad Walid, Mazer Bruce D. Semaphorin 4C: A Novel Component of B-Cell Polarization in Th2-Driven Immune Responses. Frontiers in Immunology 2016;7:558. DOI: 10.3389/fimmu.2016.00558
+

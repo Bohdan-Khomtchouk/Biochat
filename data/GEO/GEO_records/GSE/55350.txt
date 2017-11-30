@@ -1,0 +1,18 @@
+TITLE
+Modeling Luminal breast cancer heterogeneity: Combination therapy to suppress hormone receptor negative cells in Luminal disease
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Many Luminal breast cancers are heterogeneous, containing substantial numbers of estrogen (ER-) and progesterone (PR-) receptor-negative cells among the ER+PR+ ones. Currently, the Basal-like ER-PR- Luminobasal subpopulation in Luminal disease is not targeted for treatment. To address the relationships between ER+PR+ and ER-PR- cells in Luminal cancers and tightly control their ratios, we have generated isogenic pure Luminal (pLUM) and pure Luminobasal (pLB) cells from the same parental Luminal human breast cancer cell line. We show that pLUM suppress proliferation of pLB cells in mixed-cell 3D colonies in vitro and in pLUM:pLB mixed-cell xenografts in mice. High-throughput screening of FDA-approved oncology drugs reveal pLB cells are sensitive to the EGFR inhibitors Gefitinib and Erlotinib. In mixed-cell 3D colonies and mixed-cell solid mouse tumors, combination therapy with the antiestrogen Fulvestrant and the EGFRi Gefitinib constitutes a robust treatment strategy. We propose that response to combination endocrine/EGFRi therapies in heterogeneous Luminal cancers will improve long-term survival in patients whose primary tumors have been preselected for the appropriate biomarkers.
+
+DESIGN
+The study contains 2 different sample groups measured in triplicate, for a total of 6 individual samples (6 arrays). To generate pLUM, cells from an E tumor were propagated in vitro ~2 months in 1nM E. Live cells were FACS-sorted (Moflo XDP 100, BeckmanCoulter) using CLD3 (mouse Anti-human CLD3-FITC, R & D Systems) and CD49f (PE-Cy5 Rat Anti-Human CD49f, BD Pharmingen) to separate Luminal (CLD3+CD49f-) from Luminobasal (CLD3-CD49f+) cells. Cells were re-plated, cultured another ~2 months in E, then resorted twice to generate pure pLUM (CLD3+CD49f-). They are maintained in E-containing medium and remain Luminobasal-free. To generate pLB, cells from an E+P tumor were plated in vitro ~2.5 months under EWD conditions. They were FACS sorted and the CLD3-CD49f+ subpopulation was re-cultured an additional ~2 months under EWD conditions then resorted twice to yield pure pLB (CLD3-CD49f+). They are maintained in EWD media and remain Luminal-free. Thus, the experiment contains two cell lines and analyzed in triplicate (6 microarrays). RNA from triplicate sorts was profiled using Agilent 4x44K chips. Labeling, hybridization and initial analyses were performed at MOgene LC (www.mogene.com).
+
+PLATFORM
+GPL13497 Agilent-026652 Whole Human Genome Microarray 4x44K v2 (Probe Name version)
+
+CITATIONS
+25116921
+

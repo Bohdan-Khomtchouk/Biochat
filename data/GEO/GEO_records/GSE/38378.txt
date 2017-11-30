@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of 14 regulators required for Salmonella virulene
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S
+
+SUMMARY
+To cause a systemic infection, Salmonella must respond to many environmental cues during mouse infection and express specific subsets of genes in a temporal and spatial manner, but the regulatory pathways are poorly established. To unravel how micro-environmental signals are processed and integrated into coordinated action, we constructed in-frame non-polar deletions of 83 regulators inferred to play a role in Salmonella enteriditis Typhimurium (STM) virulence and tested them in three virulence assays (intraperitoneal [i.p.], and intragastric [i.g.] infection in BALB/c mice, and persistence in 129X1/SvJ mice). Overall, 35 regulators were identified whose absence attenuated virulence in at least one assay, and of those, 14 regulators were required for systemic mouse infection, the most stringent virulence assay. As a first step towards understanding the interplay between a pathogen and its host from a systems biology standpoint, we focused on these 14 genes. Transcriptional profiles were obtained for deletions of each of these 14 regulators grown under four different environmental conditions. These results, as well as publicly available transcriptional profiles, were analyzed using both network inference and cluster analysis algorithms. The analysis predicts a regulatory network in which all 14 regulators control the same set of genes necessary for Salmonella to cause systemic infection. We tested the regulatory model by expressing a subset of the regulators in trans and monitoring transcription of 7 known virulence factors located within Salmonella pathogenicity island 2 (SPI-2). These experiments validated the regulatory model and showed that the response regulator SsrB and the MarR type regulator, SlyA, are the terminal regulators in a cascade that integrates multiple signals. Furthermore, experiments to demonstrate epistatic relationships showed that SsrB can replace SlyA and, in some cases, SlyA can replace SsrB for expression of SPI-2 encoded virulence factors.
+
+DESIGN
+A total of 55 RNA pools from 14 strains in 4 conditions were prepared. An additional 12 RNA samples were prepared from the parental strain. All were subjected to microarray analysis according to the procedures described  (Porwollik S et al. 2003 Nucleic Acids Res 31: 1869–1876). Genomic DNA from 14028s was isolated and used as reference for hybridization.
+
+PLATFORM
+GPL4804 STv7S_MMCC
+
+CITATIONS
+21711513 , 19229334
+

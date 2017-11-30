@@ -1,0 +1,18 @@
+TITLE
+Sequence specificity incompletely defines the genome-wide occupancy of Myc
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Myc-Max heterodimer is a DNA binding protein that regulates expression of a large number of genes. Genome occupancy of Myc-Max is thought to be driven by E-boxes (CACGTG or variants) to which the heterodimer binds in vitro. By analyzing ChIP-Seq datasets, we demonstrated that the positions occupied by Myc-Max across the human genome correlate with the RNA polymerase II (Pol II) transcription machinery better than with E-boxes. Metagene analyses showed that in promoter regions, Myc was uniformly positioned about 100 bp upstream of essentially all promoter proximal paused polymerases with Max about 10 bp upstream of Myc. We re-evaluated the DNA binding properties of full length Myc-Max proteins using electrophoretic mobility shift assays (EMSA) and protein-binding microarrays (PBM). EMSA results demonstrated Myc-Max heterodimers have high affinity for both E-box containing and non-specific DNA. Quantification of the relative affinities of Myc-Max for all possible 8- mers using PBM assays showed that sequences surrounding core 6-mers significantly affect binding. Comparing to the in vitro sequence preferences, Myc-Max genomic occupancy measured by ChIP-Seq was largely, although not completely, independent of sequence specificity. Our results suggest that the transcription machinery and associated promoter accessibility play an important role in genomic occupancy of Myc.
+
+DESIGN
+Two protein binding microarray (PBM) experiments were performed: one for the heterodimer of the human transcription factors c-Myc and Max, and one for the Max-Max homodimer. Briefly, 4x44K arrays (Agilent Technologies; AmadID 015681) containing the ‘all 10-mer’ universal PBM design were used.  Arrays were incubated with a PBS buffer based protein mixture of wither 10nM His-tagged Myc-Max heterodimer or 10nM His-tagged Max-Max homodimer, 2% milk, 200ng/µL BSA, 50ng/µL Salmon Testes DNA, and 0.02% TX-100.  Bound protein was tagged with 10ng/µL anti-His antibody conjugated to Alexa 488 (Qiagen; 35310) in PBS with 2% milk.  Data were analyzed to obtain fluorescence intensities for all 8mers.  The PBM protocol is described in Berger et al., Nature Biotechnology 2006 (PMID 16998473).
+
+PLATFORM
+GPL18817 Duke/RG_MycMax_Max
+
+CITATIONS
+25287278
+

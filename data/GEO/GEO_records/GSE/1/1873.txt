@@ -1,9 +1,0 @@
-TITLE
-The effect of intermittent hypoxia on gene expression in the liver of ob/ob mice
-
-ORGANISM
-Mus musculus
-
-SUMMARY
-All animals were kept in a controlled environment (22-24 °C with a 12 h : 12 h light : dark cycle; lights on at 09.00) on a standard chow diet with free access to water. Five ob/ob mice (sample_ids GSM32865-GSM32869) were placed in the intermittent hypoxia (IH) chamber and subjected to IH for 12 consecutive weeks and compared to pair-fed control exposed to intermittent room (IA) air for 12 weeks in identical chambers (n = 5, sample_ids GSM32860-GSM32864). The IH and IA states were induced during the light phase alternating with 12 h of constant room air during the dark phase. The IH and IA groups were weight-matched daily during the experiment by varying food intake. Weight-matching was conducted in pairs. The signal intensity fluorescent images produced during samples hybridizations to Affymetrix GeneChip were read using the Agilent Gene Array Scanner and converted into GeneChip Cell files (CEL) using MAS 5.0 software (Affymetrix, Santa Clara, CA). Gene expression values were generated form CEL files using Robust Microarray Analysis (RMA, Bioconductor affy package). Briefly, the rma module of this package was used for background correction, across array normalization, and extraction of the probe level data. Ref:  Irizarry R, Gautier L, and Cope L, An R package for analyses of Affymetrix oligonucleotide arrays. The Analysis of Gene Expression Data: Methods and Software, ed. G Parmigiani,ES Garrett, RA Irizarry,and SL Zeger. 2003, New York: Springer Keywords: ordered
-

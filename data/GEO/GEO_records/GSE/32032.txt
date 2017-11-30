@@ -1,0 +1,18 @@
+TITLE
+Role of ndvB on gene expression in Pseudomonas aeruginosa
+
+ORGANISM
+Pseudomonas aeruginosa PA14
+
+SUMMARY
+ndvB is a gene expressed preferrentialy in biofilms of Pseudomonas aeruginosa and has been implicated in antibiotic resistance. This gene also has a role in signaling in some plant pathogens. A knockout ndvB strain was used to determine if it controlled any other gene expression related to antibiotic resistance We used microarrays of wildtype and ndvB knockout P. aeruginosa grown in biofilms to identify the role of ndvB in gene expression
+
+DESIGN
+Wildtype and ndvB knockout  PA14 biofilms were grown for 48 hours followed by RNA extraction. RNA was pooled from 2 wells for each condition to obtain a single biological replicate. Affymetrix microarray processing was performed on PA01 genechips and data analysis was carried out using R statistical framework with bio-conductor packages using RMA and MAS5.0 normalization procedures
+
+PLATFORM
+GPL84 [Pae_G1a] Affymetrix Pseudomonas aeruginosa Array
+
+CITATIONS
+22505683
+

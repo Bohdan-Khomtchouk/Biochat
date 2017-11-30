@@ -1,0 +1,18 @@
+TITLE
+A novel small molecule that disrupts the oocyte-to-embryo transition in C. elegans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+The complex cellular events that occur in response to fertilization are essential for mediating the oocyte-to-embryo transition.  Here, we describe a comprehensive small molecule screen focused on identifying compounds that affect the oocyte-to-embryo transition in C. elegans.  We identify a single novel compound that disrupts early embryogenesis with remarkable stage- and species-specificity.  The compound, named C22, primarily impairs eggshell integrity, leading to osmotic sensitivity and embryonic lethality.  We show that this phenotype is dependent upon the upregulation of the LET-607/CREBH transcription factor.  We then demonstrate that LET-607 candidate gene targets primarily encode factors involved in diverse aspects of protein trafficking.  Together, our data suggest that in the presence of C22, one or more key components of the eggshell are inappropriately processed, leading to permeable, inviable embryos.  The remarkable specificity and reversibility of this compound will facilitate further investigation into the role and regulation of protein trafficking in the early embryo, as well as serve as a tool for manipulating the life cycle for other studies such as aging.
+
+DESIGN
+This data submission includes a single ChIP-seq sample for one factor called LET-607 in C. elegans (CREBH in human).  These samples were done in replicate, with input, yielding three sequence files per sample (two replicates, and one input fastq file). In addition, we are submitting two wig files for the dataset, consisting of one normalized wig file for the combined duplicate IP and one normalized wig file for the input sequence.
+
+PLATFORM
+GPL9269 Illumina Genome Analyzer II (Caenorhabditis elegans)
+
+CITATIONS
+27510972
+

@@ -1,0 +1,18 @@
+TITLE
+Gene expression data of human peripheral blood-derived cultured mast cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mast cell (MC) activation contributes considerably to immune responses, such as host protection and allergy. Cell surface immunoreceptors expressed on MCs play an important role in MC activation. Although various immunoreceptors on MCs have been identified, the regulatory mechanism of MC activation is not fully understood. To understand the regulatory mechanisms of MC activation, we used gene expression analyses of human MCs to identify a novel immunoreceptor expressed on MCs. We found that Tek, which encodes Tie2, was preferentially expressed in the MCs of humans.
+
+DESIGN
+Total RNA of peripheral blood (PB)-derived cultured MCs and other PR-derived cells were extracted by using an RNeasy Mini kit (Qiagen, Hilden, Germany), and a Ribo-Zero rRNA Removal Kit (Illumina, San Diego, CA) was used to remove ribosomal RNA. RNA-seq was performed according to the protocol described in the SOLiD Total RNA-Seq Kit (Life Technologies, Carlsbad, CA). The library was subjected to emulsion PCR (SOLiD™ EZ Bead™ Emulsifier kit, Life Technologies) to generate clonal DNA fragments on beads, followed by bead enrichment (SOLiD™ EZ Bead™ Enrichment kit, Life Technologies). Enriched template beads were sequenced on a SOLiD 5500xl sequencer as single-end, 75-bp reads (Life Technologies). The SOLiD 5500xl output reads were aligned against the human genome reference sequence (hg19) by using LifeScope version 2.5.1 (Life Technologies) to generate BAM files, and subsequent data analysis was performed in Avadis NGS (Strand Scientific Intelligence Inc., San Francisco, CA).
+
+PLATFORM
+GPL16288 AB 5500xl Genetic Analyzer (Homo sapiens)
+
+CITATIONS
+26659448
+

@@ -1,0 +1,18 @@
+TITLE
+Dll3 and Notch1 genetic interactions model axial segmental and craniofacial malformations of human birth defects
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mutations in the Notch1 receptor and delta-like 3 (Dll3) ligand cause global disruptions in axial segmental patterning.  Genetic interactions between members of the notch pathway have previously been shown to cause patterning defects not observed in single gene disruptions.  We examined Dll3-Notch1 compound mouse mutants to screen for potential gene interactions.  While mice heterozygous at either locus appeared normal, 30% of Dll3-Notch1 double heterozygous animals exhibited localized, stochastic segmental anomalies similar to human congenital vertebral defects.  Unexpectedly, double heterozygous mice also displayed statistically significant decreases in mandibular height and elongated maxillary hard palate.  Examination of somite-stage embryos and perinatal anatomy and histology did not reveal any organ defects, so we used microarray-based analysis of Dll3 and Notch1 mutant embryos to identify gene targets that may be involved in notch-regulated segmental or craniofacial development.  Therefore, Dll3-Notch1 double heterozygous mice model human congenital scoliosis and craniofacial disorders. Keywords: genotype comparison
+
+DESIGN
+Given the reduced penetrance and stochastic nature of the segmental and craniofacial defects in Dll3-Notch1 double heterozygous animals, we next sought to identify candidate genes that may be down or up-regulated in Dll3 and Notch1 homozygous mutant embryos during development of these structures.  We carried out microarray analysis using Affymetrix MOE430 microarrays, comparing 9.5 dpc homozygous embryos in duplicate to littermates with wild-type alleles at both loci, and comparing with heterozygous littermate embryos.  Affymetrix analysis software (Microarray Suite 5.0) was used to determine whether gene probes were present, marginal or absent.  Probes with present flags in replicates of Dll3, Notch1, or embryos with wild-type alleles at both loci were considered present for further analysis.  Altogether, out of 22,690 probe sets on the MOE430A array, we identified 12,820 probes that were present in replicates of at least one genotypic group.  To identify genes that were increased or decreased in expression in mutant embryos, we carried out robust multichip average (RMA) normalization of microarray data sets using the RMA module of Genespring GX 7.3 (Agilent).  After RMA normalization, housekeeping genes such as Gapdh showed steady expression (probe AFFX-GapdhMur/M32599_M_at, normalized expression 1.00 ± 0.02).  As a general indicator of variability between samples, we calculated Pearson’s correlation coefficients.  We found that the correlations between duplicates were moderately high: wild-type embryos (0.623), Dll3 embryos (0.584), Notch1 embryos (0.531).
+
+PLATFORM
+GPL339 [MOE430A] Affymetrix Mouse Expression 430A Array
+
+CITATIONS
+17849441
+

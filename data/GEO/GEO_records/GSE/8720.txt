@@ -1,0 +1,18 @@
+TITLE
+Cell type specific expression data from Mecp2 null mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mutations in methyl-CpG-binding protein 2 (MeCP2) cause Rett syndrome and related autism spectrum disorders. MeCP2 is believed to be required for proper regulation of brain gene expression, but prior microarray studies in Mecp2 knockout mice using brain tissue homogenates have revealed only subtle changes in gene expression. Here, by profiling discrete subtypes of neurons we uncovered more dramatic effects of MeCP2 on gene expression, overcoming the " dilution problem " associated with assaying homogenates of complex tissues. The results reveal misregulation of genes involved in neuronal connectivity and communication. Importantly, genes up-regulated following loss of MeCP2 are biased toward longer genes but this is not true for down-regulated genes, suggesting MeCP2 may selectively repress long genes. Since genes involved in neuronal connectivity and communication, such as cell adhesion and cell-cell signaling genes, are enriched among longer genes, their misregulation following loss of MeCP2 suggests a possible etiology for altered circuit function in Rett syndrome.
+
+DESIGN
+Transgenic mice lines which label subpopulations of neurons (G42: fast spiking Parvarbumin positive interneurons, YFPH: layer 5 thick tufted pyramidal neurons, TH: tyrosine hydroxylase positive locus coeruleus neurons) were used to obtain cell type specific expression profiles on Affymetrix microarrays. Females which carry Mecp2 null alleles (and one of the fluorescent alleles) were crossed with males (which may or may not carry one of the fluorescent alleles depending on whether the female has one or not). Male offsprings at ages P37 to P55 days which carry fluorescent allele and Mecp2 null allele were used for experiments for post-symptomatic condition and ages P22 to P25 days were used for pre-symptomatic condition (TH_LCY). Littermate males which carry fluorescent allele but not Mecp2 null allele were used for controls. 3 or 4 biological replicates were done for each condition.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+25232122
+

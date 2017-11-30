@@ -1,0 +1,18 @@
+TITLE
+Deconstructing the dynamic transcriptional program of pluripotent stem cells.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Pluripotent stem cells (PSCs) are capable of dynamic interconversion between distinct substates, but the regulatory circuits specifying these states and enabling transitions between them are not well understood. We set out to address this issue and map the landscape of gene expression variability in PSCs by single-cell expression profiling of PSCs under different chemical and genetic perturbations. We find that signaling factors and developmental regulators show highly variable expression in PSCs, with expression states for some variable genes heritable through multiple cell divisions. Expression variability and population heterogeneity can be influenced by perturbation of signaling pathways and chromatin regulators. Strikingly, either removal of mature miRNAs or pharmacologic blockage of external signaling pathways drives PSCs into a low-noise ground state characterized by a reconfigured pluripotency regulatory network, increased self-renewal efficiency, and a distinct chromatin state, an effect mediated by the action of opposing miRNA families on the c-myc / Lin28 / let-7 axis. These findings illuminate the causes of transcriptional heterogeneity in PSCs and their consequences for cellular decision-making.
+
+DESIGN
+Single-cell RNA-Seq on 183 individual v6.5 mouse embryonic stem cells (mESCs) cultured in serum+LIF media, 94 v6.5 mESCs cultured in 2i+LIF media ('ground state' conditions), and 84 Dgcr8 -/- mESCs (constructed in a v6.5 background), that lack mature miRNAs due to knockout of a miRNA processing factor, cultured in serum+LIF. ChIP-Seq for RNA polymerase II, H3K4me3, H3K27me3, H3K27ac, H3K9me3, and H3K36me3 on the three populations of mESCs profiled by single-cell RNA-Seq. Single-cell RNA-Seq on 54 individual nestin-positive neural precursor cells derived from v6.5 mESCs.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25471879
+

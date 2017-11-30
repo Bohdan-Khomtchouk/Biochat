@@ -1,0 +1,18 @@
+TITLE
+Continuous analysis captures cellular states that reflect dominant effects of the HTT CAG repeat in human lymphoblastoid cell lines.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In Huntington’s disease (HD), expanded HTT CAG repeat length correlates strongly with age at motor onset, indicating that it determines the rate of the disease process leading to diagnostic clinical manifestations. Similarly, in normal individuals, HTT CAG repeat length is correlated with biochemical differences that reveal it as a functional polymorphism.  Here, we tested the hypothesis that gene expression signatures can capture continuous, length-dependent effects of the HTT CAG repeat.  Using gene expression datasets for 107 HD and control lymphoblastoid cell lines, we constructed mathematical models in an iterative manner, based upon CAG correlated gene expression patterns in randomly chosen training samples, and tested their predictive power in test samples.  Predicted CAG repeat lengths were significantly correlated with experimentally determined CAG repeat lengths, whereas models based upon randomly permuted CAGs were not at all predictive.  Predictions from different batches of mRNA for the same cell lines were significantly correlated, implying that CAG length-correlated gene expression is reproducible.  Notably, HTT expression was not itself correlated with HTT CAG repeat length. Taken together, these findings confirm the concept of a gene expression signature representing the continuous effect of HTT CAG length and not primarily dependent on the level of huntingtin expression.  Such global and unbiased approaches, applied to additional cell types and tissues, may facilitate the discovery of therapies for HD by providing a comprehensive view of molecular changes triggered by HTT CAG repeat length for use in screening for and testing compounds that reverse effects of the HTT CAG expansion.
+
+DESIGN
+To evaluate the continuous analytical approach as a strategy to discover the molecular consequences of the HTT CAG repeat, genome-wide gene expression datasets were generated from a panel of 107 human lymphoblastoid cell lines with HTT CAGs spanning the entire spectrum of allele sizes.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+23595883
+

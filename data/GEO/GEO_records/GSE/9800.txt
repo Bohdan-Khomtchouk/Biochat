@@ -1,0 +1,18 @@
+TITLE
+Expression signature of cardiac muscle as a potential diagnostic or prognostic tool for dilated cardiomyopathy
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+There is an emerging hypothesis that dilated cardiomyopathy (DCM) is a manifestation of end-stage heart failure (ESHF) resulting from “final common pathway” despite heterogeneous primary etiologies. We performed genome-wide expression profiling by means of high-density oligonucleotide microarrays using cardiac muscles from patients with DCM or specific cardiomyopathy as well as non-disease control hearts. Differentially expressed genes between ESHF and non-disease samples should include both genes reactive to heart failure (HF) and those responsible for ESHF. With the aid of samples with acute HF without DCM and those with DCM without HF (corrected with left ventricular assist device), we successfully distinguished ESHF genes from HF genes. Our findings implicate that transcriptional signature of cardiac muscle can be potentially applied as a diagnostic or prognostic tool for severe HF. Keywords: disease state analysis
+
+DESIGN
+The expression profiles of approximately 20,227 genes were analyzed using a microarray, Human 1A ver.2 (Agilent Technologies). A total of 30 cardiac RNA samples (21 clinical samples and 9 purchased samples) were used in the hybridizations. 200ng of total RNA was used for T7 RNA polymerase-based cRNA labeling. The microarray experiments were then carried out using competitive hybridization experiments with Cy5-labeled heart RNAs as a test RNA and with Cy3-labeled pooled heart RNA (Sample N) as a template control for normalization. The glass slides were scanned using an Agilent G2565BA microarray scanner. Scanned images were then analyzed using Feature Extraction software. The average signal intensities were corrected for median background intensity and transferred with GenBank descriptors to a Microsoft Excel data spreadsheet (Microsoft, Redmond, WA). Data analysis was performed using Genespring software version 6.1 (Silicon Genetics, Redwood City, CA). To avoid ‘false positive’ signals, we excluded certain genes from the analysis for which the average reference signal level constraints were under 70. After intensity dependent normalization (Lowess), the expression levels relative to the control were calculated as a ratio, and the expression profiles were then compared between each disease or normal sample. Statistical analysis was done using non-parametric tests. To order the samples according to the correlation coefficient, we applied “Find Similar Samples” algorithm using Spearman Correlation.
+
+PLATFORM
+GPL887 Agilent-012097 Human 1A Microarray (V2) G4110B (Feature Number version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

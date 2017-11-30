@@ -1,0 +1,18 @@
+TITLE
+Systematic identification of fragile sites via genome-wide location analysis of gamma-H2AX
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Phosphorylation of histone H2AX is an early response to DNA damage in eukaryotes. In Saccharomyces cerevisiae, DNA damage or replication fork stalling results in histone H2A phosphorylation to yield gamma-H2A (yeast gamma-H2AX) in a Mec1 (ATR)- and Tel1 (ATM)- dependent manner. Here, we describe the genome-wide location analysis of gamma-H2A as a strategy to identify loci prone to engage the Mec1 and Tel1 pathways. Remarkably, gamma-H2A enrichment overlaps with loci prone to replication fork stalling and is caused by the action of Mec1 and Tel1, indicating that these loci are prone to breakage. Moreover, about half the sites enriched for gamma-H2A map to repressed protein-coding genes, and histone deacetylases are necessary for formation of gamma-H2A at these loci. Finally, our work indicates that high resolution mapping of gamma-H2AX is a fruitful route to map fragile sites in eukaryotic genomes.
+
+DESIGN
+To identify loci enriched in gamma-H2A, we carried out chromatin immunoprecipitations with a phospho-specific antibody that recognizes gamam-H2A in yeast and hybridized to high-density tiling arrays surveying the genome at an average density of one probe per 275 bp. In a typical experiment, we performed competitive hybridization of DNA precipitated from HTA1 HTA2 cells with DNA precipitated from the gamma-H2A-deficient hta1-S129A hta2-S129A cells (referred to hereafter as S129A). All experiments were done at least in duplicate and combined using a weighted average method.
+
+PLATFORM
+GPL3737 Agilent-012713 Yeast Whole Genome ChIP-on-chip Microarray (G4486A) GPL4131 Agilent-014810 Yeast Whole Genome ChIP-on-Chip Microarray 4x44K (G4493A)
+
+CITATIONS
+20139982
+

@@ -1,0 +1,18 @@
+TITLE
+Genes downstream of p53 mediating its effect on megakaryopoiesis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In order to examine genes whose expression is altered as a result of the knock-down (KD) of p53, we used gene expression microarray analysis based on the CHRF cell line, a human megakaryoblastic cell line, which upon PMA stimulation undergoes polyploidization, and extends proplatelet-like cytoplasmic protrusions combined with apoptosis. The CHRF cell line has been validated in our laboratory as a good model of in vitro megakaryopoiesis by comparison to hematopoietic stem cells undergoing Mk differentiation. As described, we have previously generated stable p53-KD CHRF cell lines by lentiviral delivery of microRNA-adapted-short hairpin sequences targeting p53 as well as a suitable scrambled-control cell line.
+
+DESIGN
+For the microarray analysis we utilized the 4x44K whole human genome microarrays from Agilent. This analysis compared the p53-KD CHRF cells against the control CHRF cells in the absence of PMA treatment and on days 1, 3, 5 and 7 after PMA treatment (5 time-points). p53-KD and control samples were hybridized against each other (direct comparison). We carried out two biological replicate experiments, i.e., 10 measurements of gene expression for each microarray probe. Probes from which > 50% of measurements were missing were discarded and not included in the analysis of differential expression. Differentially expressed genes were identified using the significance analysis of microarrays (SAM) with a false discovery rate (FDR) of less than 5%, as implemented in the MultiExperiment Viewer (MeV) tool.
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+22024107 , 22548738
+

@@ -1,0 +1,18 @@
+TITLE
+Chromatin-Remodeling Components of the BAF Complex Facilitate Reprogramming
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Human and mouse somatic cells can be reprogrammed by the combination of Oct4, Sox2, Klf4, and c-Myc, but the efficiency of reprogramming is low. To better understand the process of reprogramming we sought to identify factors that mediate reprogramming at higher efficiency. For this we established an assay to screen nuclear fractions from the extracts of pluripotent cells based on Oct4 reactivation. We identified components of the ATP-dependent SWI/SNF chromatin-remodeling complex, which when used along with the above four factors increase reprogramming efficiency by five-fold and improve the quality of the reprogrammed cells. These cells were found to be capable of germline transmission and exhibited pluripotency according to gene expression and in vivo and in vitro assays. SWI/SNF was found to replace c-Myc and mediate its effects by facilitating recruitment of Oct4 on target promoters during reprogramming. Thus, somatic cell reprogramming using chromatin-remodeling molecules represents an efficient method of generating reprogrammed cells. DNA-free RNA samples to be hybridized on Illumina expression BeadChips were processed using a linear amplification kit (Ambion) (generating IVT duration: 12h). cRNA samples were quality-checked on a 2100 Bioanalyzer (Agilent) and hybridized as biological triplicates onto MouseWG-6 V2 chips as recommended and using materials / reagents provided by the manufacturer (hybridization time: 18h). The Myc probe on the V2 arrays was found to be defective. The bead intensities were mapped to gene information using BeadStudio 3.2 (Illumina), background correction was performed using the Affymetrix Robust Multi-array Analysis (RMA) background correction model, variance stabilization was performed using log2 scaling, and gene expression normalization was calculated with the quantile method implemented in the lumi package of R-Bioconductor. Data post-processing and graphics were performed with in-house developed functions in Matlab. Hierarchical clusters of genes and samples were performed with a one minus correlation metric and the average (unweighted pair group) linkage method.
+
+DESIGN
+4 samples were analyzed, each one them by triplicate. ESC: Mouse Embryonic Stem Cells (OG2 mix female and male) MEF: Mouse Embryonic Fibroblasts (OG2 male) iPS4F: Mouse induced Pluripotent Stem cells with 4 factors (Oct4, Sox2, Klf4, c-myc) iPS6F: Mouse induced Pluripotent Stem cells with 6 factors (Oct4, Sox2, Klf4, c-myc, Brg1, Baf155)
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip
+
+CITATIONS
+20550931
+

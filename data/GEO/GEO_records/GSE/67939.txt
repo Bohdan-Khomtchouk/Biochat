@@ -1,0 +1,18 @@
+TITLE
+A microfluidic device for label-free, physical capture of circulating tumor cell-clusters
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cancer cells metastasize through the bloodstream either as single migratory circulating tumor cells (CTCs) or as multicellular groupings (CTC-clusters). Existing technologies for CTC enrichment are designed primarily to isolate single CTCs, and while CTC-clusters are detectable in some cases, their true prevalence and significance remain to be determined. Here, we developed a microchip technology (Cluster-Chip) specifically designed to capture CTC-clusters independent of tumor-specific markers from unprocessed blood. CTC-clusters are isolated through specialized bifurcating traps under low shear-stress conditions that preserve their integrity and even two-cell clusters are captured efficiently. Highly parallel architecture of the chip allows deterministic screening of clinically relevant volumes of blood samples at slow, and hence, non-damaging flow rates. Using the Cluster-Chip, we identify CTC-clusters in 30-40% of patients with metastatic cancers of the breast, prostate and melanoma. RNA sequencing of CTC-clusters confirms their tumor origin and identifies leukocytes within the clusters as being tissue-derived macrophages. Together, the development of a device for efficient capture of CTC-clusters will enable detailed characterization of their biological properties and role in cancer metastasis.
+
+DESIGN
+We used the Cluster-Chip to capture CTC-clusters from the blood of a breast cancer patient with high CTC counts, released CTC-clusters in solution, stained them with TexasRed-conjugated antibodies against the leukocyte cell surface markers CD45, CD14 and CD16, and then isolated intact CTC-clusters individually using a micromanipulator. From a single time point, we retrieved 15 CTC-clusters, and each of those clusters was individually subjected to RNA-sequencing analysis using a next generation platform (SOLiD 5500). In addition, two leukocytes were isolated from the blood of a healthy donor were individually subjected to RNA-sequencing analysis using the same platform.
+
+PLATFORM
+GPL16288 AB 5500xl Genetic Analyzer (Homo sapiens)
+
+CITATIONS
+25984697
+

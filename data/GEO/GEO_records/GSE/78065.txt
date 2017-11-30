@@ -1,0 +1,18 @@
+TITLE
+TRIBE : Hijacking an RNA-editing enzyme to identify cell-specific targets of RNA-binding proteins
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+RNA transcripts are bound and regulated by RNA-binding proteins (RBPs). Current methods for identifying in vivo targets of a RBP are imperfect and not amenable to examining small numbers of cells. To address these issues, we developed TRIBE (Targets of RNA-binding proteins Identified By Editing), a technique that couples an RBP to the catalytic domain of the Drosophila RNA editing enzyme ADAR and expresses the fusion protein in vivo. RBP targets are marked with novel RNA editing events and identified by sequencing RNA. We have used TRIBE to identify the targets of three RBPs (Hrp48, dFMR1 and NonA). TRIBE compares favorably to other methods, including CLIP, and we have identified RBP targets from as little as 150 specific fly neurons. TRIBE can be performed without an antibody and in small numbers of specific cells.
+
+DESIGN
+Three different TRIBE fusion proteins (an RNA-binding protein fused to the catalytic domain of the RNA editing enzyme dADAR) are expressed in cell lines (Drosophila S2 cells) or specific sub-groups of Drosophila neurons. mRNA or nascent RNA is sequenced from cells of interest and compared to sequenced gDNA. RNA editing events are identified as RNA-A-gDNA-G mismatches and indicate the binding position of the TRIBE protein. CLIP was performed for one RBP as validation. Code for RNA editing analysis is available here: https://github.com/rosbashlab/TRIBE
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster) GPL19132 Illumina NextSeq 500 (Drosophila melanogaster)
+
+CITATIONS
+27040499
+

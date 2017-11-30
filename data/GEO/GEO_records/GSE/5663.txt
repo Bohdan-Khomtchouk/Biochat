@@ -1,0 +1,18 @@
+TITLE
+Molecular Diagnostics in Sepsis: from Bedside to Bench
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Accuracy of sepsis prediction was obtained using cross-validation of gene expression data from 12 human spleen samples and from 16 mouse spleen samples. For blood studies, classifiers were constructed using data from a training data set of 26 microarrays. The error rate of the classifiers was estimated on seven de-identified microarrays, and then on a subsequent cross-validation for all 33 blood microarrays. Estimates of classification accuracy of sepsis in human spleen were 67.1%; in mouse spleen, 96%; and in mouse blood, 94.4% (all estimates were based on nested cross-validation). Lists of genes with substantial changes in expression between study and control groups were used to identify nine mouse common inflammatory response genes, six of which were mapped into a single pathway using contemporary pathway analysis tools. Keywords: genomics, diagnosis, microarray, calprotectin
+
+DESIGN
+Exploratory studies were conducted using spleens from septic patients and from mice with abdominal sepsis. Seven patients with sepsis after injury were identified retrospectively and compared with six injured patients. C57BL/6 male mice were subjected to cecal ligation and puncture, or to IP lipopolysaccharide. Control mice had sham laparotomy or injection of IP saline, respectively. A sepsis classification model was created and tested on blood samples from septic mice.
+
+PLATFORM
+GPL80 [Hu6800] Affymetrix Human Full Length HuGeneFL Array GPL81 [MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array
+
+CITATIONS
+17084318
+

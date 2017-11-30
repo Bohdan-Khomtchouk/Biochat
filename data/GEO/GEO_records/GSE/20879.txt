@@ -1,0 +1,18 @@
+TITLE
+DEVELOPMENTAL MicroRNA EXPRESSION PROFILING OF MURINE NEURAL TUBE
+
+ORGANISM
+Homo sapiens ; Mus musculus ; Rattus norvegicus
+
+SUMMARY
+BACKGROUND: Development of the neural tube is a highly orchestrated process relying on precise, spatio-temporal expression of numerous genes as well as hierarchies of signal transduction and gene regulatory networks. Disruption of expression of a number of genes participating in these networks is believed to underlie developmental anomalies such as neural tube defects (NTDs) resulting from anomalous neural tube morphogenesis. MicroRNAs (miRNAs), a large family of noncoding RNAs, have been shown to function as gene silencers, and thus, are key modulators of cell and tissue differentiation. To elucidate potential roles of miRNAs in murine neural tube development, miRNA gene expression profiling has been utilized in the current study, to garner novel and in-depth knowledge on the expression and regulation of genes encoding miRNAs as well as their potential target genes governing maturation of the mammalian neural tube. METHODS: With the aim of identifying differentially expressed miRNAs during mammalian neural tube ontogenesis, miRNA expression profiles from gestation day (GD) -8.5, -9.0 and -9.5 murine neural tube tissue were compared utilizing miRXplore™ microarrays from Miltenyi Biotech GmbH. Gene expression changes observed in microarray analysis were verified by TaqManTM quantitative Real-Time PCR. clValid R package and the UPGMA (hierarchical) clustering method were utilized for cluster analysis of the microarray data. Functional associations among selected miRNAs were examined exploiting Ingenuity Pathway Analysis. RESULTS: Expression of approximately 12% of the 609 murine miRNA genes examined was detected in murine neural tube tissues from GD -8.5, -9.0 and -9.5. Clustering analysis revealed several developmentally regulated clusters among these expressed genes. MicroRNA target analysis enabled identification of a panoply of protein-coding target genes of the differentially expressed miRNAs within such clusters. Interestingly, many of these target genes have been shown to be associated with vital cellular processes such as cell proliferation, cell adhesion, cell migration, differentiation, apoptosis and epithelial-mesenchymal transformation, all of which are essential for normal neural tube development. Utilization of Ingenuity Pathway Analysis (IPA; Ingenuity Systems) allowed identification of interactive biological networks connecting differentially expressed miRNAs and their target genes highlighting functional relationships. CONCLUSIONS: In the present study, a unique gene expression signature of a range of miRNAs in embryonic neural tube tissue was delineated. Analysis of miRNA target genes and gene interaction pathways emphasized that expression of numerous protein-encoding genes, indispensable for normal neural tube morphogenesis, may be regulated by specific miRNAs.
+
+DESIGN
+Time-course experiment (Developmental Stages), ICR mice embryos on gestational days (GD) 8.5, 9.0 and 9.5.  Biological replicates: For each day of gestation, 3 independent pools of 15 to 20 staged embryos were used to procure embryonic orofacial tissues for preparation of 3 distinct pools of RNA that were independently processed and applied to individual miRXplore™ microRNA Microarray chips (Miltenyi Biotec GmbH).  Technology: 2-color spotted cDNA, Hy5 (experimental sample) vs. Hy3 (control - miRXplore Universal Reference).
+
+PLATFORM
+GPL10178 Miltenyi Biotec miRXplore miRNA Microarray (717)
+
+CITATIONS
+21770019
+

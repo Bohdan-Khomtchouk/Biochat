@@ -1,0 +1,18 @@
+TITLE
+MARIS: Method for Analyzing RNA following Intracellular Sorting [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We've developed a new Method to Analyze RNA following Intracellular Sorting (MARIS) allowing us to carry out gene expression studies on cells sorted based on intracellular immunoflourescence. The purpose of this study is to determine the degree of bias that MARIS introduces on gene expression. We report RNA-seq gene expression data from human embryonic stem cells differentiated to a stage in which insulin-expressing cells are present. Gene expression data using RNA isolated from live cells is compared to gene expression data using RNA isolated from MARIS processed cells (fixed, permeabilized, antibody stained and mock sorted) to determine the degree of correlation in gene expression between these two biologically identical samples.
+
+DESIGN
+Human embryonic stem cells are differentiated to a stage in which insulin-expressing cells are present and split into two biologically identical samples. RNA is immediately isolated from one sample using the RNeasy protocol (live sample). RNA is isolated from the second sample following MARIS (processed sample) with all cells collected after the sort in order to keep the cell type composition between the live and processed samples the same.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24594682
+

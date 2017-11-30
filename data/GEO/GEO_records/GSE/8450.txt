@@ -1,0 +1,18 @@
+TITLE
+Cell-cycle regulation of cohesin stability along fission yeast chromosomes
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Sister chromatid cohesion is mediated by cohesin but the process of cohesion establishment during S phase is still enigmatic. Recent data indicate that in mammalian cells, cohesin binding to chromatin is dynamic in G1 but becomes stabilized during S phase. Whether the regulation of chromosomal cohesin turn-over is integral to the process of cohesion establishment is unknown. Here, we provide evidence that fission yeast cohesin also displays dynamic behaviour. Cohesin association with G1 chromosomes requires continued activity of the cohesin loader Mis4/Ssl3, implying that repeated loading cycles maintain cohesin binding. Cohesin retention on G1 chromosomes was improved by deletion of wpl, the fission yeast ortholog of mammalian WAPL, suggestive of a conserved mechanism that controls cohesin stability on chromosomes. wpl is non-essential, indicating that a change in wpl-dependent cohesin turnover is not integral to the mechanism of cohesion establishment. Instead we find that cohesin instability is down-regulated during S phase in a reaction independent of DNA replication. Hence, cohesin stabilization might be a pre-requisite for cohesion establishment rather than its consequence. Keywords: ChIP-chip
+
+DESIGN
+Experiments in budding and fission yeast have shown that the cohesin loading factors are dispensable for viability in G2, when cohesion has been established (Bernard et al., 2006; Ciosk et al., 2000). In fission yeast, inactivation of the loading machinery at that time no longer affects cohesin binding to chromosomes (Bernard et al., 2006). In mammalian cells, about one-third of nuclear cohesin becomes stably bound to chromatin in G2 (Gerlich et al., 2006). Since the binding of cohesin to chromosomes appears labile in G1, but stabilized in G2, we asked how cohesin becomes stable during the intervening S phase. Spreads showed that Rad21 was only slightly decreased in HU arrested cells after inactivation of the cohesin loading factors Mis4 or Ssl3. In this series we analyzed whether cohesin association was equally stabilised at all its association sites along chromosome arms. Rad21 binding was therefore analyzed on a chromosome-wide scale by ChIP followed by hybridization to an oligonucleotide tiling array covering chromosomes 2 and 3. We compared the Rad21 binding pattern in HU arrested wild-type versus ssl3-29 cells after the shift to the restrictive temperature. Four 50 kb regions from chromosome 2 are shown in Figure 5, and the complete chromosome 2 in Supplemental Fig.2 (based on samples GSM209708 & GSM209722 compared to the SUP sample GSM209740, provisional accession numbers). This showed that cohesin peaks remained indistinguishable in their relative height and positions whether or not Ssl3 was inactivated. We conclude that, unlike in G1, the loading machinery is dispensable for the stable binding of cohesin to chromosomes in S phase cells. The experiment was repeated twice with slightly changed parameters (16B12 vs 12CA5 anti-HA antibody, 8.5h vs 9h HU arrest at 20C,  3h at 36C vs 3h at 37C inactivation in HU, see samples for details).
+
+PLATFORM
+GPL1281 S_pombea520106F
+
+CITATIONS
+18079700
+

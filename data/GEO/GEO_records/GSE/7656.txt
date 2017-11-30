@@ -1,0 +1,18 @@
+TITLE
+E.coli GeneChip study of E.coli responses to osmotic and heat stresses
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+We probed the mechanism of cross-regulation of osmotic and heat stress responses by characterizing the effects of high osmolarity (0.3M vs. 0.0M NaCl) and temperature (43oC vs. 30oC) on the transcriptome of Escherichia coli K12 using  E. coli Genome 2 Array (Affymetrix, Inc.). Independent array hybridizations were carried out for 3 biological replicates (independent cultures). Total RNA was extracted using a hot phenol-chloroform method.  cDNA synthesis, fragmentation and labeling, and washing and scanning of E. coli GeneChip Arrays were performed according to the instructions of the manufacturer (Affymetrix Technical Manual, Affymetrix, Inc., USA). Labeled cDNA was hybridized to E. coli Genome 2 Array (Affymetrix, Inc.). Independent array hybridizations were carried out for 3 biological replicates (independent cultures) of each condition.   A number of genes in the SoxRS and OxyR oxidative stress regulons were up-regulated by high osmolarity, high temperature, and/or by the combination of both stresses. This result could account for cross-protection of osmotic stress against oxidative stress.  The trehalose biosynthetic genes were induced by both stresses, in accord with the proposed protective role of this disaccharide against thermal and oxidative damage. Keywords: Affymetrix microarrays
+
+DESIGN
+E. coli K12 strain NCM3722 cultures were grown with aeration in K medium containing 10 or 20 mM glucose.  To impose osmotic stress, the osmolarity of the medium was increased to 0.64 osm by supplementation with 0.3 M NaCl. Because E. coli is a methionine auxotroph above 42oC the K medium cultures were supplemented with 0.5 mM methionine. Glycine betaine (GB) was added to the high osmolarity media to a final concentration of 1 mM. Cells taken from a single colony on LB agar were inoculated into 1ml liquid LB and grown to saturation at 37oC, then 0.05 ml were inoculated into i) K medium, 0.5 mM methionine, 10 mM glucose; ii) K medium, 0.5 mM methionine, 10 mM glucose, 0.3 M NaCl; and iii) K medium, 0.5 mM methionine, 10 mM glucose, 0.3 M NaCl, 1 mM GB. The cultures were grown to saturation at 30oC and 43oC, and sub-cultured once into the same medium and grown at the same temperatures as before. Exponentially growing cells form these cultures were then inoculated into Erlenmeyer flasks (starting OD600nm 0.05) containing 40 ml of the same medium, and incubated in the same salt and temperature conditions as used previously, except that the glucose concentration was increased to 20 mM. When the cells reached OD600nm of 0.4-0.5 (~3 doublings), 25 ml were added to a 2.5 ml mixture of cold 95% ethanol and 5% phenol to preserve RNA. The cells were cooled briefly on ice, immediately harvested by centrifugation (4oC), and the pellet was frozen on dry ice. The six different growth conditions used were: C1 - 30oC, no NaCl; C2: 30oC, 0.3 M NaCl; C3: 30oC, 0.3 M NaCl, 1 mM GB; C4: 43oC, no NaCl; C5: 43oC, 0.3 M NaCl; C6: 43oC, 0.3 M NaCl, 1 mM GB.
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+18359805
+

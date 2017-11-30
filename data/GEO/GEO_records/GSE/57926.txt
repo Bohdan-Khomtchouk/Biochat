@@ -1,0 +1,18 @@
+TITLE
+RBFox2 regulates a broad RNA program and is required for genome-wide targeting of polycomb complex
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Increasing evidence suggests that diverse RNA binding proteins interact with regulatory RNAs to regulate transcription. RBFox2 is a ubiquitous RNA binding protein with prevalent expression in stem cells, heart, and brain. Here, we report a systematic dissection of the RBFox2-regulated RNA program in the mouse heart, demonstrating its essential function for organizing the contractile apparatus and excitation-contraction (EC) coupling by modulating alternative splicing and microRNA activity. In this analysis, we unexpectedly encounter a major functional intersection between RBFox2 and Polycomb Complex 2 (PRC2), revealing a central requirement for RBFox2 to mediate genome-wide targeting of the PRC2 complex and transcriptional repression via chromatin-associated nascent RNAs. These findings unveil the mechanism underlying the enigmatic association of PRC2 with numerous active genes, highlight the importance of gene body sequences to gauge transcriptional output, and suggest nascent RNAs as critical signals for transcriptional feedback control to maintain homeostatic gene expression in mammalian cells.
+
+DESIGN
+RASL-seq in cardiac myocytes (from WT and RBFox2 KO mouse hearts at ages of week 5, week 9 and week 18); RBFox2 whole cell and nucleus CLIP-seq in cardiac myocytes (from WT mouse hearts at age of week 9); Ago2 CLIP-seq in cardiac myocytes (from WT and RBFox2 KO mouse hearts at age of week 9); 3'-end RNA-seq in cardiac myocytes (from WT and RBFox2 KO mouse hearts at age of week 9); GRO-seq in mouse hearts (from WT and RBFox2 KO mice at age of week 9) and cultured MEF cells (negative control RNA, RBFox2 siRNA or SUZ12 siRNA treatment); RBFox2 and SUZ12 CHIP-seq in mouse hearts(from WT mice at age of week 9); RBFox2, SUZ12 and H3K27me3 CHIP-seq in cultured MEF cells (negative control RNA, RBFox2 siRNA or SUZ12 siRNA treatment, DRB treatment).
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25753418
+

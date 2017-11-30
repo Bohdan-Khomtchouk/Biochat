@@ -1,0 +1,18 @@
+TITLE
+Regulation of highly expressed hCINAP on translatome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+hCINAP is essential for human 18S rRNA processing and ribosome assembly. hCINAP is highly expressed in human cancers and promotes cancer cell growth. To connect the role of hCINAP in ribosome biogenesis and tumor growth, genome-wide polysome profiling was performed to detect the regulation of hCINAP on ribosome assembly and translation control. The results showed taht hihgly expressed hCINAP promotes ribosome biogenesis and selectively modulates cancer-associated translatome to promote malignancy. This result provides important insights into the molecular mechanism underlying the role of hCINAP in tumorigenesis.
+
+DESIGN
+For the transcriptional profile, MCF7 cells transfected with control vector or GFP-hCINAP were collected and total RNA was extracted. For the polysoem profile, MCF7 cells with stably expressed GFP or GFP-hCINAP were subjected to surcose gradient fractionation. Ribosome profiles were obtained by measuring the absorbance of the sucrose gradient at a wavelength of 254 nm using a BioComp Gradient Fractionator. The fractions corresponding to subpolysome and polysome were collected and RNA was extracted. The cDNA library was generated and sequenced via Illumina HiSeqTM 2000. The clean reads were mapped to the UCSC hg19 reference genome and FPKM was assigned to calculate expression levels. The recruitment to polysome of each mRNA was calculated according to their FPKM values in the monsome and polysome.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

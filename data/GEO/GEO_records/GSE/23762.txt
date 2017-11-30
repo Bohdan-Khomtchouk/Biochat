@@ -1,0 +1,18 @@
+TITLE
+Off-Target Analysis of Zinc Finger Nucleases
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Zinc Finger Nucleases (ZFNs) facilitate precise editing of DNA enabling targeted genomic modifications in vivo. ZFNs have been employed to obtain genetically modified plants and animals, and cell-based therapies utilizing ZFNs are undergoing clinical trials. However, many ZFNs display dose-dependent toxicity presumably due to the generation of undesired double stranded breaks at off-target sites within the genome. To evaluate the parameters influencing the functional specificity of ZFNs, we compared the in vivo activity of ZFN variants targeting the zebrafish kdrl locus, which display both high on-target activity and dose-dependent toxicity. We evaluated their functional specificity by assessing lesion frequency at 141 potential off-target sites within the zebrafish genome using Illumina sequencing.  Only a minority of these off-target sites displayed significant lesion frequency with kdrl ZFNs. Furthermore, we find that active off-target sites appear to be defined by the thermodynamics of zinc finger-DNA recognition. Surprisingly, we observed that the zinc finger protein specificity and the choice of the engineered dimerization domain of the FokI nuclease could independently influence the fidelity of these ZFNs. The results of this study have implications for the assessment of likely off-target sites within a genome and point to both ZFP-dependent and –independent mechanisms of potential improvement for engineering ZFNs with higher levels of precision.
+
+DESIGN
+Examined lesions at 141 off-target sites for various treatments of ZFNs and compare to the untreated sample stage 1: raw read but missing quality values stage 2: fastq files available from SRA
+
+PLATFORM
+GPL10164 Illumina Genome Analyzer (Danio rerio)
+
+CITATIONS
+20843781
+

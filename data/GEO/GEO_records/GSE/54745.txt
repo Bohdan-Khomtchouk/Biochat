@@ -1,0 +1,18 @@
+TITLE
+Genome-wide binding of the CRISPR endonuclease Cas9 in mammalian cells
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+The bacterial CRISPR-Cas9 system has been widely adapted for RNA-guided genome editing and gene regulation in diverse organisms yet its in vivo target specificity is poorly understood. Here we provide the first genome-wide binding maps of nuclease-deactivated Cas9 loaded with guide RNAs in mammalian cells. We find a 5-nucleotide seed region in the guide RNA targets Cas9 to thousands of sites in the genome. Chromatin accessibility limits binding to the other hundreds of thousands sites with matching seed sequences, and consequently 70% of off-target binding sites are associated with genes. U-rich seeds have low numbers of off-target sites limited by both low guide RNA abundance and scarcity of complimentary sites in accessible chromatin. Unexpectedly, off-target sites show little evidence of cleavage, supporting a two-state model reminiscent of eukaryotic RNAi machinery where a short seed match triggers binding but extensive pairing is required for cleavage.
+
+DESIGN
+ChIP-seq of HA-dCas9 loaded with 4 sgRNAs (Phc1-sg1, Phc1-sg2, Nanog-sg2, and Nanog-sg3) in mouse, and 2 sgRNAs in human (EMX1-sg1 and EMX1-sg3)
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24752079
+

@@ -1,0 +1,18 @@
+TITLE
+Drosophila Myb-MuvB/dREAM (ChIP-chip data)
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Myb-MuvB (MMB)/dREAM is a nine subunit complex first described in Drosophila as a repressor of transcription, dependent upon E2F2 and the RBFs. Myb, an integral member of MMB, curiously plays no role in the silencing of the test genes previously analyzed. Moreover, Myb plays an activating role in DNA replication in Drosophila egg chamber follicle cells. The essential functions for Myb are executed as part of MMB. This duality of function lead to the hypothesis that MMB, which contains both known activator and repressor proteins, might function as part of a switching mechanism that is dependent upon DNA sites and developmental context. Keywords: Drosophila Myb-MuvB/dREAM, ChIP-chip
+
+DESIGN
+We used proliferating Drosophila Kc tissue culture cells to explore the genomic locations of MMB following chromatin immunoprecipitation  (ChIP) and tiling array analysis. Purified DNAs were then fragmented, TdT labeled and hybridized to the Affymetrix Drosophila genome Tiling Array 1.0 (reverse part number 520054), as previously described (Manak et al. 2006) Three CEL files were used as input control DNA for all experiments: Dro_AS_DroS2_Input_C01_B1_T1.CEL Dro_AS_DroS2_Input_C01_B1_T2.CEL Dro_AS_DroS2_Input_C01_B1_T3.CEL Replicate copies of these three files exist on all 5 samples (GSM231023-GSM231027), and therefore, the TAR file for this series will have 5 copies of each of these files (one for each GSM).
+
+PLATFORM
+GPL5919 [Dm35b_MR] Affymetrix Drosophila Tiling 1.0R Array
+
+CITATIONS
+17978103
+

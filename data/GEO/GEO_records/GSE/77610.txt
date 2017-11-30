@@ -1,0 +1,18 @@
+TITLE
+Interactions between mitochondrial and nuclear DNA in mammalian cells are non-random
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+There is evidence for the on-going recurrent transfer of mitochondrial DNA (mtDNA) into the nucleus in both germ line and somatic cells. However, the outcomes associated with the transfer of mtDNA into somatic cell nuclei are poorly understood. High-resolution Chromosome Conformation Capture (HiC) techniques, which are used to identify global patterns of chromatin interactions, regularly capture physical interactions between mitochondrial and nuclear DNA (i.e. mito-nDNA interactions) in mammalian cells. These mito-nDNA interactions are routinely considered a consequence of nonspecific ligation events during chromatin library preparation. Here, we have evaluated mito-nDNA interactions captured by HiC in six human cell lines, and by Circular Chromosome Conformation Capture (4C) in mouse cortical astrocytes. We show that mito-nDNA interactions are statistically significant and shared between biological and technical replicates in the HiC and 4C experiments. The most frequent interactions between mtDNA and nuclear loci in the HiC and 4C data occur with repetitive DNA sequences including the centromeric regions in the six human cell lines and 18S rDNA in mouse cortical astrocytes. Such findings confirm previous observations of mtDNA forming interactions with rDNA genes in budding yeast and centomeres in rat bone marrow cells. Finally the mitochondrial D-loop tends to be enriched in the captured mito-nDNA interactions. Collectively our results imply a degree of selective regulation in the identity of the interacting mitochondrial partners confirming that mito-nDNA interactions in mammalian cells are not random.
+
+DESIGN
+We used 4C to capture interactions between mouse mitochondrial genes (ND1, ND2, CO1, CO2, ATPase8, ATPase 6) and nuclear chromosomes in primary mouse cortical astrocytes derived from animals in their first two days of postnatal life. To reduce the chances of identifying false positive mito-nDNA interactions we prepared a digested, but not ligated library. This enabled the identification of non-specific products that were likely caused by mis-priming during the PCR amplification step of the procedure. We also reduced the signal due to the PCR amplification of the sequences adjacent to the bait fragment, which are expected to interact, by including blocker primers in the PCR reactions that were on the 4C libraries. The blocker primers are modified with three carbons on their 5’ and 3’ ends and are designed to anneal to the sequences adjacent to the baits. The capping of the blocker primers with carbons blocks polymerase activity and prevents amplification through the sequences to which they are annealed. This series includes the Circular Chromosome Conformation Capture (4C) in mouse cortical astrocytes data.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+27503698
+

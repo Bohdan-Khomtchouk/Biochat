@@ -1,0 +1,18 @@
+TITLE
+Polycomb preferentially targets stalled promoters of coding and non-coding transcripts
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The Polycomb group (PcG) and Trithorax group (TrxG) of proteins are required for stable and heritable maintenance of repressed and active gene expression states. Their antagonistic function on gene control, repression for PcG and activity for TrxG, is mediated by binding to chromatin and subsequent epigenetic modification of target loci. Despite our broad knowledge about composition and enzymatic activities of the protein complexes involved, our understanding still lacks important mechanistic detail and a comprehensive view on target genes. In this study, we use an extensive data set of ChIP-seq, RNA-seq, and genome-wide detection of transcription start sites (TSSs) to identify and analyze thousands of binding sites for the PcG proteins and Trithorax from a Drosophila S2 cell line. In addition to finding a preference for stalled promoter regions of annotated genes, we uncover many intergenic PcG-binding sites coinciding with non-annotated transcription start sites. Interestingly, this set includes previously unknown promoters for primary transcripts of microRNA genes, thereby expanding the scope of Polycomb control to non-coding RNAs essential for development, apoptosis and growth.
+
+DESIGN
+Chromatin from S2 cells was immunoprecipitated using antibodies against Pc, Ph, Psc, Trx-C or H3K4me3. In parallel, we isolated RNA from S2 cells and generated global gene expression profiles by RNA-seq. We also surveyed the Drosophila genome for yet non-annotated transcription start sites (TSSs) using a newly adapted protocol for Illumina sequencing (termed 5’-MACE) with RNA isolated from S2 cells and embryos.
+
+PLATFORM
+GPL9061 Illumina Genome Analyzer II (Drosophila melanogaster)
+
+CITATIONS
+21177970
+

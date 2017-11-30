@@ -1,0 +1,18 @@
+TITLE
+Explicit DNase sequence bias modeling enables high resolution transcription factor footprint detection
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNase I footprinting is an established assay for identifying transcription factor (TF)-DNA interactions with single base pair resolution. High throughput DNase-seq assays have recently been used to detect in vivo DNase footprints across the genome. A number of computational approaches have been developed to accurately identify DNase-seq footprints and these methods have been used as a predictor of TF-DNA interactions by itself or in combination with other epigenetic features.  However, recent studies have pointed to a substantial cleavage bias of DNase and its impact on footprinting, casting doubts on its predictive performance. To assess the potential for using DNaseI to identify individual binding sites, we performed DNase-seq experiments on deproteinized naked genomic DNA isolated from two different cell types and determined sequence cleavage bias associated with the DNase-seq protocol. This allowed us to build cleavage bias corrected footprint models specific to individual transcription factors. The predictive performance of these DNase-seq-based binding site models demonstrated that predicted footprints corresponded to high confidence TF-DNA interactions.
+
+DESIGN
+To quantify the DNase I sequence-dependent cleavage bias, we performed DNase-seq experiments using deproteinized DNA from K562 and MCF7 cell lines.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25294828
+

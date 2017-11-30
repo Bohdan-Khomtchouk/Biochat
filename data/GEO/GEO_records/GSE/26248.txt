@@ -1,0 +1,18 @@
+TITLE
+Comparative Analysis of RNA-Seq Alignment Algorithms and the RNA-Seq Unified Mapper (RUM).
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A critical task in high throughput sequencing is aligning millions of short reads to a reference genome. Alignment is especially complicated for RNA sequencing (RNA-Seq) because of RNA splicing. A number of RNA-Seq algorithms are available, and claim to align reads with high accuracy and efficiency while detecting splice junctions. RNA-Seq data is discrete in nature; therefore with reasonable gene models and comparative metrics RNA-Seq data can be simulated to sufficient accuracy to enable meaningful benchmarking of alignment algorithms. The exercise to rigorously compare all viable published RNA-Seq algorithms has not previously been performed. RESULTS: We developed an RNA-Seq simulator that models the main impediments to RNA alignment, including alternative splicing, insertions, deletions, substitutions, sequencing errors, and intron signal. We used this simulator to measure the accuracy and robustness of available algorithms at the base and junction levels. Additionally, we used RT-PCR and Sanger sequencing to validate the ability of the algorithms to detect novel transcript features such as novel exons and alternative splicing in RNA-Seq data from mouse retina. A pipeline based on BLAT was developed to explore the performance of established tools for this problem, and to compare it to the recently developed methods. This pipeline, the RNA-Seq Unified Mapper (RUM) performs comparably to the best current aligners and provides an advantageous combination of accuracy, speed and usability.
+
+DESIGN
+RNA-Seq of mouse retinal RNA, as described.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+21775302
+

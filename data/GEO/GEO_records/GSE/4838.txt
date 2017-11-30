@@ -1,0 +1,18 @@
+TITLE
+Array CGH in dendritic cell tumours
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This series represents the data set described in the publication “Genetic and Immunohistochemical Analysis of Localized Extranodal and Nodal Dendritic Cell Tumours  – An Outlook for Individualized Therapies in Rare Tumours” by Ullmann et al. (submitted). Keywords: array CGH
+
+DESIGN
+Six patients with dendritic cell tumors and one recurrence were hybridised on a submegabase resolution whole genome tiling path BAC array. DNA from two samples was isolated from frozen tissue, the remaining samples were available as formalin-fixed, paraffin embedded tissue only. Detailed step-by step protocols for labelling and hybridisation can be downloaded from our website. Each case was hybridised once. No background subtraction was done and signal intensities were normalized by subgrid LOWESS. Circular binary segmentation was employed to define segments of the same DNA copy number change. Aberrations were defined as segments, which exceeded a fixed log2 threshold of +/- 0.2.
+
+PLATFORM
+GPL3749 MPIMG Homo sapiens 44K aCGH2_MPIMG_BERLIN
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

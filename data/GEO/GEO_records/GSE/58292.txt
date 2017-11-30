@@ -1,0 +1,18 @@
+TITLE
+dRNA-seq of Shewanella oneidensis MR-1
+
+ORGANISM
+Shewanella oneidensis MR-1
+
+SUMMARY
+We combined high-resolution tiling microarrays and 5'-end RNA sequencing to obtain a genome-wide map of transcription start sites (TSSs) for Shewanella oneidensis MR-1. To test the reliability of these TSSs, we compared our result to those from differential RNA sequencing (dRNA-seq), which discriminates primary and processed ends of transcripts. We found that our identified TSSs tend to have significantly more mapped reads in the TEX(+) sample than the TEX(-) sample. Overall, the dRNA-seq results support the validity of our predictions for TSS.
+
+DESIGN
+S. oneidensis MR-1 was grown to mid-log phase in Luria-Bertani broth (LB) or defined lactate minimal medium, and total RNA was isolated and used for differential RNA-sequencing (dRNA-seq) by next-generation sequencing, which is used to verify genome-wide transcription start sites. For dRNA-seq, total RNA was partially treated with Terminator Exonuclease (TEX) to digest processed RNA and thereby enrich for primary transcript ends.
+
+PLATFORM
+GPL18765 Illumina MiSeq (Shewanella oneidensis MR-1)
+
+CITATIONS
+24987095
+

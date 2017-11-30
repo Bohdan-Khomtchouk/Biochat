@@ -1,0 +1,18 @@
+TITLE
+Identification of RNAs associated with telomeres by enChIP-RNA-Seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Accumulating evidence suggests important roles of RNAs interacting with genomic regions in the regulation of genome functions including X chromosome inactivation and gene expression. However, no method to identify RNAs interacting with a given genomic region in a non-biased manner has been reported. Here, we used engineered DNA-binding molecule-mediated chromatin immunoprecipitation (enChIP) combined with the RNA-Seq analysis (enChIP-RNA-Seq) to perform non-biased search of RNAs interacting with telomeres. In enChIP-RNA-Seq, the target genomic regions are captured with an engineered DNA-binding molecule such as a TAL protein. Subsequently, RNAs are purified and subjected to the RNA-Seq analysis. The detected RNAs contained known telomere-binding RNAs including telomerase RNA and Cajal body-specific RNAs. In addition, we detected many novel telomere-binding RNAs. We confirmed binding of candidate RNAs to telomeres by the enChIP-RT-PCR analysis. Identified novel telomere-binding RNAs may play important roles in telomere functions. In addition, our results suggest that enChIP-RNA-Seq analysis would be useful for identification of RNAs interacting with specific genomic regions.
+
+DESIGN
+RNAs associated with telomeres were identified by using the enChIP technology combined with deep sequencing using Illumina Miseq. Briefly, to isolate telomeres, a TAL protein, Telomere-TAL (Tel-TAL), recognizing a 19-bp sequence containing an array of TTAGGG (telomere repeats) was fused with 3xFLAG tag and NLS (3xFN-Tel-TAL) and LexA protein (3xFNLDD)11 were expressed in a mouse hematopoietic cell line, Ba/F3, respectively. The cells were crosslinked with formaldehyde, and crosslinked chromatin was fragmented by sonication. Subsequently, chromatin complexes containing 3xFN-Tel-TAL or 3xFNLDD were immunoprepicitated with anti-FLAG M2 Ab. Supplementary URL: http://www.nature.com/srep/2013/131108/srep03171/full/srep03171.html
+
+PLATFORM
+GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+25874893
+

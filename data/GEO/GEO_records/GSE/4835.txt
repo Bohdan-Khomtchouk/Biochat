@@ -1,0 +1,18 @@
+TITLE
+GE Healthcare (Amersham) experiments for cross-platform study including site 2 data
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Gene expression microarrays have made a profound impact in biomedical research. The diversity of platforms and analytical methods has made comparison of data from multiple platforms very challenging. In this study, we describe a framework for comparisons across platforms and laboratories. We have attempted to include nearly all the available commercial and “in-house” platforms. Using probe sequences matched at the exon level improved consistency of measurements across the different microarray platforms compared to annotation-based matches. Generally, consistency was good for highly expressed genes, and variable for genes with lower expression values as confirmed by QRT-PCR. Concordance of measurements was higher between laboratories on the same platform than across platforms. We demonstrate that, after stringent pre-processing, commercial arrays were more consistent than “in-house” arrays, and by most measures, one-dye platforms were more consistent than two-dye platforms. Keywords: cross platform microarrays
+
+DESIGN
+RNA samples used were aliquoted from two pools of samples: C57/B6 adult mouse retina (MR) and Swiss-Webster postnatal day one (P1) mouse cortex (MC). The mouse cortex was used as a reference sample for the dual-dye platforms.Five replicates of each sample were used to assess the degree of variation in the expression data within each platform. Additionally there were five replicates of each sample to assess the degree of variation in the expression data across different sites (site 2).
+
+PLATFORM
+GPL3760 GE-Amersham-CodeLink-10K
+
+CITATIONS
+16823376
+

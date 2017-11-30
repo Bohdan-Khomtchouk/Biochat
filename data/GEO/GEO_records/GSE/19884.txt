@@ -1,0 +1,18 @@
+TITLE
+Changes in H2A.Z occupancy and DNA methylation during B-cell lymphomagenesis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The histone variant H2A.Z has been implicated in the regulation of gene expression, and in plants antagonizes DNA methylation. Here we ask whether a similar relationship exists in mammals, using a mouse lymphoma model, where chromatin states can be monitored during tumorigenesis. Using native ChIP-on-chip, we found a progressive depletion of H2A.Z around transcriptional start sites (TSSs) during cell state transformations. In addition, we found that H2A.Z and DNA methylation are anti-correlated around TSSs in wild-type and Myc-transformed cells. Surprisingly, approximately 30% of genes show a redistribution of H2A.Z from around TSSs to bodies of active genes during oncogenesis but not before, and these changes are accompanied by DNA methylation changes in the opposite direction. Our results suggest that antagonism between H2A.Z deposition and DNA methylation is a conserved feature of eukaryotic genes, and that transcription-coupled H2A.Z changes may play a role in cancer initiation and progression. Keywords: Chromatin affinity-purification on microarray
+
+DESIGN
+Two types of experiments were performed on wild type pre-B cells, Myc induced pre-B cells, and B cell tumors: H2AZ profiling was performed by comparing DNA isolated by Chromatin immunoprecipitation (ChIP) using antibody against H2AZ, to total MNase fragmented genomic DNA isolated from each of the three cell types.  Methylation profiling was performed by comparing DNA isolated using immunoprecipitation with an antibody against single stranded DNA (MeDIP) to total sonicated genomic DNA isolated from each of the three cell types. For each sample, the input and IP material was differentially labeled and cohybridized to a promoter microarray chip.  Expression analysis was done using single channel microarrays.  In brief, total RNA was isolated from each of the three cell types, followed by poly-AAA CDNA synthesis and labeling.
+
+PLATFORM
+GPL9832 NimbleGen Mus musculus 2M 090316_MM9_Promoter_MeDIP_HX1 tiling design GPL9833 NimbleGen Mus musculus 2.1M 2007-09-21_MM8_Deluxe_Promoter_HX1 tiling design GPL9899 NimbleGen Mouse 2006-08-03_MM8_60mer_expr tiling design
+
+CITATIONS
+20709945
+

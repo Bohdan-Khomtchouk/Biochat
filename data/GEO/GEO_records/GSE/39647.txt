@@ -1,0 +1,18 @@
+TITLE
+Francisella Expression Microarray Analysis
+
+ORGANISM
+Francisella tularensis subsp. novicida
+
+SUMMARY
+Francisella tularensis is a Gram-negative bacterium that is highly virulent in humans, causing the disease tularemia. F. novicida is closely related to F. tularensis and exhibits high virulence in mice, but is avirulent in healthy humans. A F. novicida-specific gene cluster (FTN0451-FTN0456) encodes two proteins with diguanylate cyclase (DGC) and phosphodiesterase (PDE) domains that modulate synthesis and degradation of cyclic di-GMP (cdGMP). No DGC or PDE containing proteins are present in the F. tularensis genome. F. novicida strains lacking either the two DGC/PDE genes cdgA and cdgB or the entire gene cluster (KKF457) are defective for biofilm formation. In addition, expression of CdgB or a heterologous DGC in KKF457 stimulated F. novicida biofilms, even in a strain lacking the biofilm regulator QseB. Genetic evidence suggests that CdgA is predominantly a PDE, while CdgB is predominantly a DGC. The F. novicida qseB strain has reduced cdgA and cdgB transcript levels, demonstrating a F. novicida biofilm signaling cascade that controls cdGMP levels. Interestingly, KKF457 with elevated cdGMP levels exhibited a decrease in intramacrophage replication and virulence in mice, as well as increased growth yield and biofilm formation in vitro. Microarray analyses revealed that cdGMP stimulated the transcription of a chitinase (ChiB) known to contribute to biofilm formation. Our results indicate that elevated cdGMP in F. novicida stimulates biofilm formation and inhibits virulence. We suggest that differences in human virulence between F. novicida and F. tularensis may be due in part to the absence of cdGMP signaling in F. tularensis.
+
+DESIGN
+A whole genome NibleGen microarray was developed for multiple Francisella subspecies, using shared probes for common genes as well as unique probes for subspecies-specific genes. Included were probes representing the F. novicida U112 genome, with a maximum of 6 probes/gene. RNA was isolated from bacteria and purified as described above. The double-strand cDNA was generated and labeled with Cy3 according to the NimbleGen Gene Expression Array protocol (www.nimblegen.com), using SuperScript Double-Stranded cDNA Synthesis Kit (Invitrogen) and the DNA Labeling Kit (NimbleGen). Microarray results were analyzed using the ArrayStar software (DNASTAR).
+
+PLATFORM
+GPL15848 NimbleGen Francisella sp expression array [090630_F_tularensis_4_sp_expr]
+
+CITATIONS
+22988021
+

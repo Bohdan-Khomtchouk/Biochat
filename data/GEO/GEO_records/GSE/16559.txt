@@ -1,0 +1,18 @@
+TITLE
+Lung adenocarcinoma and mesothelioma DNA methylation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Pathologic differentiation of tissue of origin in tumors found in the lung can be challenging, with differentiation of mesothelioma and lung adenocarcinoma emblematic of this problem. Indeed, proper classification is essential for determination of treatment regimen for these diseases, making accurate and early diagnosis critical. Here we investigate the potential of epigenetic profiles of lung adenocarcinoma, mesothelioma, and non-malignant pulmonary tissues (n=285) as differentiation markers in an analysis of DNA methylation at 1413 autosomal CpG loci associated with 773 cancer-related genes. Using an unsupervised recursively-partitioned mixture modeling technique for all samples, the derived methylation profile classes were significantly associated with sample type (P < 0.0001). In a similar analysis restricted to tumors, methylation profile classes significantly predicted tumor type (P < 0.0001). Random forests classification of CpG methylation of tumors - which splits the data into training and test sets - accurately differentiated MPM from lung adenocarcinoma over 99% of the time (P < 0.0001). In a locus-by-locus comparison of CpG methylation between tumor types, 1266 CpG loci had significantly different methylation between tumors following correction for multiple comparisons (Q < 0.05); 61% had higher methylation in adenocarcinoma. Using the CpG loci with significant differential methylation in a pathways analysis revealed significant enrichment of methylated gene-loci in Cell Cycle Regulation, DNA Damage Response, PTEN Signaling, and Apoptosis Signaling pathways in lung adenocarcinoma when compared to mesothelioma. Methylation-profile-based differentiation of lung adenocarcinoma and mesothelioma is highly accurate, informs on the distinct etiologies of these diseases, and holds promise for clinical application.
+
+DESIGN
+Mesotheliomas (n=158) and grossly non-tumorigenic parietal pleura (n=18) were obtained following surgical resection at Brigham and Women’s Hospital through the International Mesothelioma Program  from a pilot study conducted in 2002 (n=70) and an incident case series beginning in 2005 (n=88) with a participation rate of 85%.  We used biopsy specimens from patients treated for NSCLC at the Massachusetts General Hospital from 1992 – 1996 (18) including lung adenocarcinomas (n=57) and non-malignant pulmonary tissues (n=48) (of which 22 (39%) were taken from the adenocarcinoma patients) (18). Additional normal lung tissues were obtained from the National Disease Research Interchange from donors free of lung malignancy (n=4).
+
+PLATFORM
+GPL9183 Illumina GoldenGate Methylation Cancer Panel I
+
+CITATIONS
+19638575
+

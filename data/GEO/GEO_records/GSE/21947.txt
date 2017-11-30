@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiles of breast cancer subtypes are detectable in histologically normal breast epithelium
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: We hypothesize that important genomic differences between breast cancer subtypes occur early in carcinogenesis. Therefore, gene expression might distinguish histologically normal breast epithelium (NlEpi) from breasts containing estrogen receptor positive (ER+) compared with estrogen receptor negative (ER-) cancers. Methods: We examined gene expression in 46 cases of microdissected NlEpi from previously untreated women undergoing breast cancer surgery. From 30 age-matched cases (15 ER+, 15 ER-) we used Affymetryix U133A arrays. From 16 independent cases (9ER+, 7 ER-), we validated seven selected genes using qPCR. We then compared gene expression between NlEpi and invasive breast cancer using 4 publicly available datasets. Results: 216 probes (corresponding to 198 unique genes) distinguished the NlEpi from breasts with ER+ (NlEpiER+) compared to ER- cancers (NlEpiER-). These include genes characteristic of ER+ and ER- cancers themselves, (e.g., ESR1, GATA3, and CX3CL1, FABP7, respectively). QPCR validated the microarray results in both a sampling of the 30 original cases (84%) and all of the 16 independent cases (77%). Gene expression in NlEpiER+ and NlEPIERNlEpiER- resembled gene expression in ER+ and ER- cancers, respectively: 36%-53% of the genes or probes examined in each the 4 external datasets overlapped between NlEpi and the corresponding cancer subtype. Conclusions: Gene expression differs in NlEpi of breasts containing ER+ compared to ER- breast cancers.  These differences echo differences in ER+ and ER- invasive cancers. Thus, breast cancer subtypes may be detectable before histologic abnormalities. NlEpi gene expression may help define subtype-specific risk signatures, identify initial subtype specific genomic differences, and suggest new targets for subtype-specific prevention and therapy. We determined that 216 probesets significantly differed between histologically normal epithelium from ER+ breast cancer patients and from ER- breast cancer patients, and that gene expression in each type of histologically normal epithelium resembles expression of the corresponding subtype of invasive breast cancer (i.e., ER+ or ER-). These findings suggest that characteristic features of breast cancer subtypes are detectable prior to any histologic abnormality. This suggestion has implications for understanding breast cancer biology and devising new tools for assessing breast cancer risk.
+
+DESIGN
+30 total laser capture microdissected histologically normal breast tissue samples were analyzed with Affymetrix HU133A microarrays. All samples were age-matched between histologically normal epithelial samples from ER+ breast cancer patients (n=15) and histologically normal epithelial samples from ER- breast cancer patients (n=15). Sample numbers correspond to individual patient samples. Of the 4 publicly available datasets mentioned above, the only dataset with a GEO number was GSE3494, corresponding to the Miller dataset.  The supplementary file below lists the 251 Samples used from the GSE3494 study.  We did not reanalyze the data - there was no change made to the Miller dataset; we only used these data for confirmation of our own dataset.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+21059815
+

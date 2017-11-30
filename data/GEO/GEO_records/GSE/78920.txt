@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic network analyses of leaf dehydration responses identify highly connected ABA and ethylene signaling hubs in three grapevine species differing in drought tolerance
+
+ORGANISM
+Vitis vinifera ; Vitis riparia ; Vitis x champinii
+
+SUMMARY
+Background: Grapevine is a major food crop that is affected by global climate change. Consistent with field studies, dehydration assays of grapevine leaves can reveal valuable information of the plant’s response at physiological, transcript, and protein levels. There are well-known differences in grapevine rootstocks responses to dehydration. We used time-series transcriptomic approaches combined with network analyses to elucidate and identify important physiological processes and network hubs that respond to dehydration in three different grapevine species differing in their drought tolerance. Results: Transcriptomic analyses of the leaves of Cabernet Sauvignon, Riparia Gloire, and Ramsey were evaluated at different times during a 24-h controlled dehydration. ANOVA revealed that 11,000 transcripts changed significantly with respect to the genotype x treatment interaction term and 6,000 transcripts changed significantly according to the genotype x treatment x time interaction term indicating massive differential changes in gene expression over time. Standard analyses determined substantial effects on the transcript abundance of genes involved in the metabolism and signaling of two known plant stress hormones, ABA and ethylene. ABA and ethylene signaling maps were constructed and revealed specific changes in transcript abundance that were associated with the known drought tolerance of the genotypes including genes such as VviABI5, VviABF2, VviACS2, and VviWRKY22. Weighted-gene coexpression network analysis (WGCNA) confirmed these results. In particular, WGCNA identified 30 different modules, some of which had highly enriched gene ontology categories for photosynthesis, phenylpropanoid metabolism, ABA and ethylene signaling. The ABA signaling transcription factors, VviABI5 and VviABF2, were highly connected hubs in two modules, one having overrepresentation in gaseous transport and the other in ethylene signaling. VviABI5 was distinctly correlated with an early response and high expression for the drought tolerant Ramsey and with little response from the drought sensitive Riparia Gloire. These ABA signaling transcription factors were highly connected to VviSNRK1 and other gene hubs associated with sugar, ethylene and ABA signaling. The ABA and ethylene signaling hubs were highly connected, supporting the hypothesis that there is substantial cross-talk between the two hormone pathways. This study identifies solid gene candidates for future investigations of drought tolerance in grapevine.
+
+DESIGN
+Fully mature Cabernet Sauvignon, Riparia Gloire, and Ramsey leaves were dehydrated (Hopper et al., 2014) to assess rapid transcriptomic changes. Briefly, the leaf was excised from the plant and placed into a dehydration box for various time points over a 24-h period. Leaf dehydration occurred in the air above a solution of 333 mM NaCl in a sealed container in a growth chamber. Leaves were removed from the box and immediately frozen in liquid nitrogen. Control samples were taken from the same plant at the corresponding time to account for any circadian effect on transcript abundance. RNA was extracted from three experimental replicates for treatment and control samples at each time point.
+
+PLATFORM
+GPL17894 NimbleGen 090918 Vitus vinifera exp HX12 [090918_Vitus_exp; GENE_CALL_ID version]
+
+CITATIONS
+27215785
+

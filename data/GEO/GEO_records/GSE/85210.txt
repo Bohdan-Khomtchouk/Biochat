@@ -1,0 +1,18 @@
+TITLE
+Differential methylation analysis in human whole blood DNA from healthy smokers and non-smokers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To better characterize smoking–associated methylation changes in whole blood, we used Illumina HumanMethylation450 BeadChip to assess DNA samples from current (SM, n=172) and never smokers (NS, n=81).
+
+DESIGN
+253 individual study participants consisting of 172 smokers and 81 non-smokers enrolled between 1993 and 1995 as healthy volunteers from the general public in Durham and Chapel Hill, North Carolina . These subjects were part of a community-based sample comprised of 294 healthy unrelated blacks and whites and have been described in several studies (Jones et al. 1993; Bell et al. 1995; Li et al. 2000; Lunn et al. 1999). All non-smokers were self-reported as not having smoked > 100 cigarettes in their lifetime. Smokers reported their average daily cigarette consumption for the past 3 months.   The analysis of samples was carried out under an approved human subject protocol (NIEHS 86-E-0037). Nucleated DNA from whole blood was collected after sucrose-induced osmotic lysis of cells followed by phenol-chloroform extraction and DNA was stored in Tris-EDTA buffer at -20°C. The Human Methylation 450 BeadChip (Illumina) was used to measure methylation by the NCI Center for Genome Research. Specifically, 500 ng of DNA was bisulfite converted using the EZ-DNA Methylation kit (Zymo Research), hybridized to HumanMethylation450 BeadChip arrays and then scanned with an iScan microarray scanner (Illumina) following the manufacturer’s protocols. The ChAMP pipeline was used to extract and Normalize data from iDat files (Morris et al. 2014).
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+27935972
+

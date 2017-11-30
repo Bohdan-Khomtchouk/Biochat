@@ -1,0 +1,18 @@
+TITLE
+A nucleosome turnover map reveals that the stability of histone H4 Lys20 methylation depend on histone recycling in transcribed chromatin [ChIP]
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Nucleosome composition actively contribute to the chromatin structure and accessibility. To preserve chromatin state during replication, transcription and DNA repair, cells have evolved mechanisms to evict or recycle histones, generating a landscape of differentially aged nucleosomes. To map the stability of nucleosomes, we have adapted the recombination induced tag exchange (RITE) method to Schizosaccharomyces pombe histone H3. The RITE method allows us to study replication-independent protein turnover both through the occurrence of, in our case, new histone H3 and the disappearance or preservation of old histone H3. We contrast the RITE system to nucleosome turnover measured by chromatin incorporation of an epitope-tagged H3 under an inducible promoter. We confirm previous findings that stable nucleosomes are found at heterochromatin, but also at coding regions of actively transcribed genes. Genome-wide comparisons with several chromatin marks showed that high turnover nucleosomes correlate with H2A.Z, acetylated H4 and H3K4me2. The histones with high turnover are primarily found at the nucleosomes on the 5´and/or 3´ edges of the transcribed unit. In addition, in this study we have determined genome-wide maps of all three methylation marks at H4K20. All methylation of H4K20 appeared in low turnover nucleosomes and particularly in euchromatic regions. H4K20me1 marks stable nucleosomes at loci proximal to nucleosome depleted regions (NDR) and H4K20me2/3 were found further inside of transcribed units, especially at coding regions of long genes expressed at low levels. Further, this transcription-dependent accumulation of histone methylations was dependent on the histone chaperone complex FACT (Facilitates Chromatin Transcription), as predicited from its role in recycling nucleosomes during transcription.
+
+DESIGN
+In total 28 samples: 26  ChIP DNA files, 2 Input files. Two related datasets using 1) H4K20 methylation (antibodies against each me1, me2 and me3, compared between WT and set9-delta cells) and 2) nucleosome turnover, with 2 systems, i) RITE and ii) pInv. Each of these are compared 2h (after induction) to 0h. Input files not used for comparisons, and therefore only provided as CEL files for reference.
+
+PLATFORM
+GPL7715 [Sp20b_M] Affymetrix S. pombe Tiling 1.0FR Array
+
+CITATIONS
+25778913
+

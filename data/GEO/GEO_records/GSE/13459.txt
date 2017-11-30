@@ -1,0 +1,18 @@
+TITLE
+Expression analysis upon SIRT1 knockdown in MCF-7 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+SIRT1 is a nuclear NAD+-dependent protein deacetylase.  Expression microarray analysis was used to study the effect of SIRT1 knockdown on gene expression in MCF-7 breast cancer cells.
+
+DESIGN
+SIRT1 stable knockdown was achieved using two retroviral shRNA constructs. An shRNA directed against Luciferase was used to generate the Luc control cells.  Three independent biological replicates with matching Luc controls were analyzed using Affymetrix U133A 2.0 microarrays. These 6 samples were part of a 15-sample microarray analysis (GSE12971) examining expression regulation by SIRT1, PARP-1, PARG and macroH2A.  All 15 samples were included for the following data normalization steps: data sets obtained using the GCOS software were grouped based on date of experiment and adjusted for batch effect using the parametric empirical Bayes method (Combat R); all values < 0.01 were adjusted to 0.01; the data were log2 transformed, median centered for each array, and median centered for each gene.
+
+PLATFORM
+GPL571 [HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array
+
+CITATIONS
+19478080
+

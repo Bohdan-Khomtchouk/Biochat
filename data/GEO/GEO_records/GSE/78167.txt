@@ -1,0 +1,18 @@
+TITLE
+An integrative transcriptomics approach identifies miR-503 as a candidate master regulator of the estrogen response [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Estrogen receptor α (ERα) is an important biomarker of breast cancer severity and a common therapeutic target. Recent studies have demonstrated that in addition to its role in promoting proliferation, ERα also protects tumors against metastatic transformation. Current therapeutics antagonize ERα and interfere with both beneficial and detrimental signaling pathways stimulated by ERα. The goal of this study is to uncover the dynamics of coding and non-coding RNA (microRNA) expression in response to estrogen stimulation and identify potential therapeutic targets that more specifically inhibit ERα-stimulated growth and survival pathways without interfering with its protective features. To achieve this, we exposed MCF7 cells (an estrogen receptor positive model cell line for breast cancer) to estrogen and prepared a time course of paired mRNA and miRNA sequencing libraries at ten time points throughout the first 24 hours of the response to estrogen. From these data, we identified three primary expression trends—transient, induced, and repressed—that were each enriched for genes with distinct cellular functions. Integrative analysis of paired mRNA and microRNA temporal expression profiles identified miR-503 as the strongest candidate master regulator of the estrogen response, in part through suppression of ZNF217—an oncogene that is frequently amplified in cancer. We confirmed experimentally that miR-503 directly targets ZNF217 and that over-expression of miR-503 suppresses breast cancer cell proliferation. Overall, these data indicate that miR-503 acts as a potent estrogen-induced tumor suppressor microRNA that opposes cellular proliferation and has promise as a therapeutic for breast cancer. More generally, our work provides a systems-level framework for identifying functional interactions that shape the temporal dynamics of gene expression.
+
+DESIGN
+Quantification of mRNAs in MCF7 cells responding to estrogen following a period of estrogen starvation. Three independent biological replicates (30 samples: 3 replicates x 10 time points) of MCF7 cells were exposed to 10nM Estradiol for 0, 1, 2, 3, 4, 5, 6, 8, 12 , or 24 hours, and total RNA was extracted from the samples. Total RNA was used to generate paired RNA and miRNA sequencing. RNA libraries were prepared using an Illumina TruSeq stranded mRNA library preparation kit.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27539783
+

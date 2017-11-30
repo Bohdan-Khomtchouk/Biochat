@@ -1,0 +1,15 @@
+TITLE
+Perturbational proteomic and transcriptional profiles of drug perturbations from Broad Institute LINCS Proteomic Characterization Center for Signaling and Epigenetics and Broad Institute LINCS Center for Transcriptomics (U54HG008097) (n=5,063)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Library of Integrated Cellular Signatures (LINCS) is an NIH program which funds the generation of perturbational profiles across multiple cell and perturbation types, as well as read-outs, at a massive scale. The LINCS PCCSE uses two high-throughput liquid chromatography-mass spectrometry (LCMS) assays to study the proteomic changes induced by drug and genetic perturbations. P100 monitors ~100 phosphorylated peptides from cellular proteins that serve as a reduced representation of the phosphoproteome. GCP monitors ~60 modified peptides from histones (e.g., methylated, acetylated, and combinations thereof) encompassing nearly every well-studied post-translational modification on the core nucleosomal histone proteins. Closely complementing these assays is the L1000 high-throughput gene-expression assay. The files available here contain P100, GCP, and L1000 data for 90 small-molecule perturbations in six cell lines (five cancer cell lines and a neurodevelopmental cell model). These data were generated under the auspices of the NIH LINCS Program (www.lincsproject.org). Note: Related GEO projects include a large corpus of additional L1000 data, available at GSE92742. The Platform for the L1000 data is GPL20573: Broad Institute Human L1000 epsilon http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20573 For questions or assistance with this dataset, please email the Connectivity Map support team at: clue@broadinstitute.org
+
+DESIGN
+These data represent three different read-outs (phosphosignaling, chromatin modifications, and transcriptional changes) of the same 90 small-molecule perturbations in six cell lines. The duration of treatment was 3 hours for P100, 24 hours for GCP, and 6 hours for L1000. These data are available at multiple levels of processing: level 1 is fluorescence intensity (for L1000) or mass spectrometry extracted ion chromatogram traces (for P100, GCP); level 2 is gene expression or proteomic values without normalization; level 3 is normalized; and level 4 is differential (i.e., each sample is compared to all other samples on a plate).
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

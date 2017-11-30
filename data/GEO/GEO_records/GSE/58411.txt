@@ -1,0 +1,18 @@
+TITLE
+Blood Transcriptional Signature of hyperinflammation in HIV-associated Tuberculosis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Patients with HIV-associated TB are known to experience systemic hyperinflammation, clinically known as immune reconstitution inflammatory syndrome (IRIS), following the commencement of antiretroviral therapy (ART). No prognostic markers or biomarkers have been identified to date and little is known about the mechanism mediating the hyperinflammation. We recruited a prospective cohort of 63 patients with HIV-associated TB, 33 of whom developed TB-IRIS. Of which transcriptomic profiling was performed using longitudinal whole blood RNA samples from 15 non-IRIS and 17 TB-IRIS patients. Transcriptomic signatures that distinguish patients who would eventually develop IRIS were identified as early as week 0.5 (2-5 days post-ART) and predicted a downstream activation of proinflammatory cytokines. At the peak of IRIS (week 2), transcriptomic signatures were overrepresented by innate receptor signaling pathways including toll-like receptor, IL-1 receptor and TREM-1.
+
+DESIGN
+Patients are classified either as TB-IRIS and non-IRIS and longitudinal samples (week 0, 0.5, 1 and 2) were analyzed. There are a total of 107 samples across all 4 timepoints. For normalization, week 0 samples were baseline transformed to the median of all samples. For all other weeks, samples were baseline transformed either to the median of all samples or to the corresponding week 0 values. Samples 5411298027_F and 5412485008_F do not have a corresponding baseline and were therefore excluded in the analysis for the latter.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+26399326
+

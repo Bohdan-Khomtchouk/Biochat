@@ -1,0 +1,18 @@
+TITLE
+ChIP-seq Analysis of Estrogen Receptor-alpha on Treatment with Fulvestrant with internal and spike-in controls
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A key challenge in quantitative ChIP-seq is the normalisation of data in the presence of genome-wide changes. Data-based methods often rely on assumptions that do not hold true. Misapplication of these methods to ChIP-seq data results in the suppression of the biological signal or erroneous measurement of differential occupancy.     To develop methods that address this challenge, we generated three ChIP-seq datasets, each measuring Estrogen Receptor-alpha (ER) binding in MCF7 before and after 100 nm Fulvestrant treatment for 48 hours. The three methods were: a novel internal control using CTCF binding to normalise (SLX-14229 & SLX-14438); a spike-in control using H2av binding to D. Melanogaster chromatin (SLX-8047); and a spike-in control using the cross reactivity of ER antibody against M. Musculus chromatin (SLX-12998).
+
+DESIGN
+3 ER ChIP-seq experiments implimenting internal or spike-in normalisation stratergies Please note that there is no processed data for one dataset (SLX-12998) as these form part of a study to evaluate multiple methods and it is concluded at an early stage that this method isn't suitable, however the sequencing raw data is still relevant and provided for those who may be interested in re-evaluating the methods.
+
+PLATFORM
+GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

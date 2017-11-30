@@ -1,0 +1,18 @@
+TITLE
+Transcript profiling of wild-type and dcl1-5 early globular embryos
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+DICER-LIKE1 (DCL1) is required for miRNA biogenesis and embryonic pattern formation. Presumably the patterning defects observed in dcl1-5 null embryos are due to the loss of miRNAs and the consequent up-regulation of their respective targets. To test which miRNA targets were up-regulated in dcl1 embryos relative to wild-type embryos, we performed genome-wide transcript profiling of wild-type and dcl1-5 early globular embryos using directional mRNA-Seq.
+
+DESIGN
+For RNA isolation, pools of 30 Col-0 (wild-type) and dcl1-5 early globular embryos were hand-dissected in water, immediately transferred to 30 ul of RNAlater (Ambion), incubated at 60° C with 500 ul TRIzol Reagent (Invitrogen) for 30 minutes, and then purified according to the TRIzol Reagent protocol for RNA isolation from small quantities of tissue (Invitrogen). Two rounds of linear amplification of poly(A) RNA were performed using the Arcturus RiboAmp HS Plus kit (Molecular Devices). Strand-specific mRNA-Seq libraries were generated as previously described (Guo et al., Nature, 2010). After removing adaptor sequences, sequences were mapped to the Arabidopsis thaliana genome (TAIR9 assembly) using the Bowtie short read aligner allowing up to two mismatches within a 25 nt ‘seed’ sequence and retaining reads mapping uniquely to the genome. Since the Arcuturus RiboAmp HS Plus kit generates amplified RNAs in the antisense orientation, reads were counted as matching TAIR9 annotated genes if they overlapped the antisense strand.
+
+PLATFORM
+GPL9302 Illumina Genome Analyzer II (Arabidopsis thaliana)
+
+CITATIONS
+21123653
+

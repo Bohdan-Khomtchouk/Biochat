@@ -1,0 +1,18 @@
+TITLE
+Bayesian bisulphite sequencing analysis reveals changes in macrophage DNA methylation in glomerulonephritis
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+DNA methylation is one of the key epigenetic modifications involved in gene regulation. While whole-genome bisulfite sequencing (WGBS) allows the genome-wide quantification of DNA methylation at the single-base pair resolution, the contribution of DNA methylation in disease susceptibility remains to be fully understood. Here, we present a novel Bayesian smoothing approach (called ABBA) to accurately detect differentially methylated regions (DMRs) from WGBS data, and employ ABBA to map DNA methylation changes in disease. ABBA enables the genome-wide modeling of single-base resolution DNA methylation data, automatically adapting to different correlation structures in CpG methylation across the genome without requiring user-defined parameters and accounts for covariates and non-genetic confounding factors. First, we demonstrate the approach by an extensive simulation study and benchmarked ABBA against recently proposed alternative methods. We show the better performance of ABBA across a range of relevant parameters, including sequencing depth, number of replicates and noise level originating from incomplete bisulfite conversion. Second, we generated WGBS data from primary macrophages derived from an experimental rat model of glomerulonephritis and control rats, and employed ABBA to identify DMRs ( > 1,000 at 5% FDR) genome-wide that were associated with disease susceptibility. Investigation of the DMRs revealed differential DNA methylation localized to the promoter of the Ifitm3 gene and comparisons with existing DMR detection methods shows the enhanced interpretability of the results provided by ABBA. Additional ChIP-seq and RNA-seq analyses in the same experimental system showed differential transcription factor binding at the Ifitm3 promoter by JunD (an established determinant of glomerulonephritis) and consistent differential expression of Ifitm3. Taken together, these data suggest a role for DNA methylation alteration of the Ifitm3 gene in the pathogenesis of glomerulonephritis, and provide a proof of concept of using ABBA for differential methylation analysis of WGBS data.
+
+DESIGN
+Whole-genome bisulfite sequencing of primary bone marrow-derived macrophages (BMDMs) from two rat strains (WKY and Lewis) were generated using the HiSeq 2000 platform. Four biological replicates per strain were used
+
+PLATFORM
+GPL14844 Illumina HiSeq 2000 (Rattus norvegicus)
+
+CITATIONS
+28213474
+

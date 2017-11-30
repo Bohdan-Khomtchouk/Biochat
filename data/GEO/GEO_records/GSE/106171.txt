@@ -1,0 +1,18 @@
+TITLE
+Identification of RNAs that co-purify with the Caulobacter sRNA, GsrN
+
+ORGANISM
+Caulobacter vibrioides
+
+SUMMARY
+Purpose: To identify RNAs that interact with GsrN, a small regulatory RNA from Caulobacter crescentus. Methods: Pseudomonas phage 7 (PP7) viral coat protein fused to maltose binding protein (MBP) was immobilized on amylose resin. PP7 coat protein binds to PP7 RNA hairpins (PP7hp).  A strain expressing GsrN tagged with a genetically encoded PP7hp at base 37 (GsrN(37)-PP7hp) was captured on this column, washed, and eluted in biological triplicate (pos_rep). As a negative control, we incubated the PP7 coat protein column with independent duplicate lysates from a Caulobacter strain expressing PP7hp fused to a non-functional 3' isoform of GsrN (mock). We generated RNA-seq libraries for each of three independent GsrN(37)-PP7hp fractions, and the duplicate mock fractions. Results: We quantified levels of RNAs in the GsrN(37)-PP7hp (pos) fractions with fractions from parallel PP7hp-3'GsrN(mock) pull-downs by RNA-seq. From these data, we identified a group of RNAs that were enriched in the GsrN(37)-PP7hp fraction.
+
+DESIGN
+For Rockhopper analysis: RNA-seq reads of three replicate GsrN(37)-PP7hp (pos) purifications and duplicate (mock) PP7hp-GsrN purifications were quantified and analyzed with Rockhopper 2.0 (Tjaden, 2015). Reads were mapped to modified Caulobacter NA1000 genome files (FASTA, PTT, RNT) where the gsrN locus was replaced with the sequence of gsrN(37)-PP7hp. We pruned the data set to find genes that had a low FDR values (“qValue” < .05), were specifically enriched in the GsrN(37)-PP7 (“Expression GsrN(37)-PP7hp” > “Expression PP7hp”), and had a high level of reads mapped to the gene in the GsrN(37)::PP7 (“Expression GsrN(37)-PP7hp” > 1000). For sliding window analysis: Read quantification across the three independent GsrN(37)-PP7hp fractions showed some differences. In sample 1 (pos_rep1) 2.69% reads mapped to gsrN(37)-PP7hp, while 15.78% and 14.04% mapped to GsrN in samples 2 (pos_rep2) and 3 (pos_rep3) respectively. We observed several genes that were strongly enriched in sample 1 but not in sample 2 and 3. Thus we employed a metric to balance the discrepancies between the three independent purifications. To minimize potential false positives, we calculated the average of all three samples and the average of samples 2 and 3. If the total average was 1.5 times greater than the sample 2 and 3 average, we assumed that the sample 1 artificially raised the average RPKM value and did not consider any data from any of the purifications in that specific window.
+
+PLATFORM
+GPL22063 Illumina HiSeq 4000 (Caulobacter vibrioides)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

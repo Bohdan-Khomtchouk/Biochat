@@ -1,0 +1,18 @@
+TITLE
+Aromatic inhibitors derived from ammonia-pretreated lignocellulose hinder bacterial ethanologenesis by activating regulatory circuits controlling inhibitor efflux and detoxification (III)
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Efficient microbial conversion of lignocellulosic hydrolysates to biofuels is a key barrier to the economically viable deployment of lignocellulosic biofuels. A chief contributor to this barrier is the impact on microbial processes and energy metabolism of lignocellulose-derived inhibitors, including phenolic carboxylates, phenolic amides (for ammonia-pretreated biomass), phenolic aldehydes, and furfurals. To understand the bacterial pathways induced by inhibitors present in ammonia-pretreated biomass hydrolysates, which are less well studied than acid-pretreated biomass hydrolysates, we developed and exploited synthetic mimics of ammonia-pretreated corn stover hydrolysate (ACSH). To determine regulatory responses to the inhibitors normally present in ACSH, we measured transcript and protein levels in an Escherichia coli ethanologen using RNA-seq and quantitative proteomics during fermentation to ethanol of synthetic hydrolysates containing or lacking the inhibitors. Our study identified four major regulators mediating these responses, the MarA/SoxS/Rob network, AaeR, FrmR, and YqhC. Induction of these regulons was correlated with a reduced rate of ethanol production, buildup of pyruvate, depletion of ATP and NAD(P)H, and an inhibition of xylose conversion. The aromatic aldehyde inhibitor 5‑hydroxymethylfurfural appeared to be reduced to its alcohol form by the ethanologen during fermentation, whereas phenolic acid and amide inhibitors were not metabolized. Together, our findings establish that the major regulatory responses to lignocellulose-derived inhibitors are mediated by transcriptional rather than translational regulators, suggest that energy consumed for inhibitor efflux and detoxification may limit biofuel production, and identify a network of regulators for future synthetic biology efforts.
+
+DESIGN
+Fermentations were carried out in 0.5L bioreactors (Sartorius) containing 0.3L of  SynH, SynH lacking osmoprotectants, SynH+LT, or SynH lacking osmoprotectants but containing lignotoxins and cultures were diluted into SynH with initial OD at 0.2, grown anaerobically overnight, and then inoculated into bioreactors to a starting OD600 of 0.2.  Two biological replicates (independent cultures) were grown in each medium.  RNA samples were obtained at 4 time points, corresponding to exponential (Exp), transitional (Trans), early stationary (Stat1), and late stationary (Stat2) growth phases.
+
+PLATFORM
+GPL13634 UW-Escherichia_coli_K12-4x72k-v1.0 [090224_EcoK12_Zmob_expr]
+
+CITATIONS
+David H. Keating, Yaoping Zhang, Irene M. Ong, Sean McIlwain, Eduardo H. Morales, Jeff A. Grass, Mary Tremaine, William Bothfeld, Alan Higbee, Arne Ulbrich, Allison Balloon, Michael S. Westphall, Joshua Aldrich, Mary S. Lipton, Joonhoon Kim, Oleg Moskvin, Yury V. Bukhman, Joshua Coon, Patricia J. Kiley, Donna M Bates and Robert Landick. Aromatic inhibitors derived from ammonia-pretreated lignocellulose hinder bacterial ethanologenesis by activating regulatory circuits controlling inhibitor efflux and detoxification. Front. Microbiol. doi: 10.3389/fmicb.2014.00402
+

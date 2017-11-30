@@ -1,0 +1,18 @@
+TITLE
+In flies, the 5´ ends of both microRNAs and their miRNA* strands are more accurately defined than their 3´ termini
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+MicroRNAs (miRNAs) are short (∼ 21-23 nt) regulatory RNAs that guide the degradation or translational repression of their RNA targets. The miRNA “seed”—nucleotides 2 through 7—establishes miRNA target specificity, because this region is the primary determinant of RNA binding by both miRNA and small interfering RNAs. Accurate processing of the miRNA 5´ end is thought to be under strong selective pressure, as a shift by just one nucleotide in the 5´ end of a miRNA would alter its seed sequence, redeﬁning its repertoire of targets. Animal miRNAs are produced by the sequential cleavage of partially double-stranded precursor RNAs by the RNase III endonucleases Drosha, which cleaves the primary miRNA transcript in the nucleus to release a pre-miRNA, and Dicer, which cleaves the pre-miRNA to generate a transitory intermediate comprising the mature miRNA paired with its miRNA* strand. Here, we report that in flies, the 5´ end of a miRNA is typically more precisely deﬁned than the 3´ ends of both the miRNA and its miRNA*. Surprisingly, the 5´ end of the miRNA* sequence was also more precisely defined than the adjacent 3´ end of the miRNA. Our data imply either that many miRNA* sequences are under evolutionary pressure to maintain their seed sequences—that is, they have cellular or exogenous RNA targets—or that secondary constraints, such as the sequence requirements for loading small RNAs into functional Argonaute protein complexes narrow the range of miRNA and miRNA* 5´ ends that accumulate in flies. Keywords: microRNA deep sequencing; pyrosequencing
+
+DESIGN
+Four samples were analyzed: fly heads (subjected to beta-elimination, or not), and S2 cells (idem). Beta-elimination prevents RNAs from being ligated on their 3' end, unless they bear a 3' modification (e.g., a 2'-O-methylation). Small RNAs (18 to 30 nt in length) from each of these sample were submitted to deep sequencing with the 454 technology. Small RNA sequences were extracted from the 454 reads with 10 different stringencies (tolerating 0, 1, 2 ..., 9 mismatches on the pair of adapters). The proportion of genome-matching inserts is the same when 0 or 1 mismatch is tolerated on the pair of adapters, but it drops when more mismatches are tolerated; hence, in the article (Argonaute Loading Improves the 5' Precision of Both MicroRNAs and Their miRNA* Strands in Flies (2008) Curr. Biol. 18:147; PubMed ID: 18207740), only the inserts identified when 0 or 1 mismatch was tolerated on the pair of adapters, were considered. Raw data is linked to this submission as supplementary files (.sff files are not available). There are two fasta files, and two corresponding .qual files. Each fasta file contains the sequences of small RNAs from two samples (two samples were analyzed per lane by barcoding with different 3´ adapters). The file associations are: IR-NB_S2-NB.fna/IR-NB_S2-NB.qual: - fly heads, non beta-eliminated - S2 cells, non beta-eliminated IR-B_S2-B.fna/IR-B_S2-B.qual: - fly heads, beta-eliminated - S2 cells, beta-eliminated
+
+PLATFORM
+GPL6024 UMMS Drosophila melanogaster 454 sequenced small RNAs
+
+CITATIONS
+18207740 , 18403677
+

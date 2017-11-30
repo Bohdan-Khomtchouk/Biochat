@@ -1,0 +1,18 @@
+TITLE
+Expression data for minimally invasive glioblastoma stem-like cell (GSC) plasma membrane markers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We compared whole genome expression profiles of GSCs with normal human cortex, human neural stem cells (hNSC) from fetal cortex, glioblastoma (GBM) primary, and recurrent tumors to find GSC-specific plasma membrane transcripts.
+
+DESIGN
+All of the expression profiles were batch normalized by a robust multichip average (RMA) algorithm using Geospiza GeneSifter (PerkinElmer) online microarray database and analysis software. The data was then exported into Microsoft Office Excel 2010 and organized for GSC transcripts with raw intensity values 10 fold or higher over normal brain, hNSCs, GBM primary and recurrent tumor samples. The reverse sorting algorithm was done to obtain downregulated GSC trascripts.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25361488
+

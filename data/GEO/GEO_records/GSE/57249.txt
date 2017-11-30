@@ -1,0 +1,18 @@
+TITLE
+Cell fate inclination within 2-cell and 4-cell mouse embryos revealed by single-cell RNA sequencing
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+It remains an open question when and how the first cell fate decision is made in mammals. Using deep single-cell RNA-seq of matched sister blastomeres, we report highly reproducible interblastomere differences among ten 2-cell and five 4-cell mouse embryos. Inter-blastomere gene expression differences dominated between-embryo differences and noises, and were sufficient to cluster sister blastomeres into distinct groups. Dozens of protein-coding genes exhibited reproducible bimodal expression in sister blastomeres (0 vs. 1e3-1e6 of FPKM), which cannot be explained by random fluctuations. The protein expression of one of these bimodal genes, Gadd45a, exhibited clear inter-blastomeric contrasts. We traced some of the bimodal mRNA expressions to embryonic genome activation, and others to blastomere-specific RNA depletion. Inter-blastomere differences created co-expression gene networks that were much stronger and larger than those that can be possibly created by random noises. The highly correlated gene pairs at the 4-cell overlapped with those showing the same directions of differential expression between inner cell mass (ICM) and trophectoderm (TE). These data substantiate the hypothesis of inter-blastomere differences in 2- and 4-cell mouse embryos, and associate these differences with ICM/TE differences.
+
+DESIGN
+9 zygotes, 10 2-cell, and 5 4-cell mouse (C57BL/6) embryos were collected and multi-cell embryos were separated into blastomeres. 4 inner cell mass (ICM) and 3 trophectoderm (TE) samples are also extracted from mouse blastocysts. Transcriptome profiles for all samples are obtained via Smart-seq protocol.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25096407
+

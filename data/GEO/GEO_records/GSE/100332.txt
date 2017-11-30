@@ -1,0 +1,18 @@
+TITLE
+Next-generation sequencing measuring ribosome mRNA occupancy and translation efficiency in CD4+ T cells isolated from Mettl3 KO and WT mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+CD4+ Naive T cells were isolated by StemCell CD4+ T cell isolation kit of spleen and lymph nodes WT mice. Total RNAs were isolated from the pure CD4+ T cells, subjected to standard m6A RIP protocol. The libraries were generated with IPed and Input RNAs and subjected to Sequencing. Raw sequencing reads were aligned to the mouse genome (mm10) with Tophat, and gene expression levels were measured by Cufflinks.
+
+DESIGN
+Ribosome protected fragments were isolated following Illumina TruSeq Ribo Profile Kit with CD4+ T cells from Mettl3 KO and WT mouse, and subjected to deep sequencing, in duplicate, using Illumina HiSeq 2000.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28792938
+

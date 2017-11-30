@@ -1,0 +1,18 @@
+TITLE
+MicroRNA expression changes associated with specific STAT3 activation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Signal transducer and activator of transcription 3 (STAT3) is a critical transcription factor in cancer. However, while the protein-coding target genes of STAT3 have been extensively studied, the microRNA target genes of STAT3 are less understood. MicroRNAs are short, non-coding RNAs that regulate messenger RNAs through translational inhibition and transcript degradation. They have been found to be involved in all aspects of cancer biology. Given the roles of both STAT3 and miRNAs in cancer, the function of STAT3 as a transcription factor, and the dearth of known STAT3 miRNA targets, our goal was to identify novel STAT3 miRNA targets relevant to cancer. To do so, we engineered MCF-10A cells with doxycycline-inducible expression of STAT3C. STAT3C is a constitutively-active mutant version of STAT3. Although STAT3 can be activated by various growth factors and kinases, other pathways can be activated as well, which would confound analysis of the results. Thus, the advantage of STAT3C is that it allowed specific and focused activation of STAT3 alone, and this screen represents the first genome-wide survey of miRNA expression changes associated specifically with STAT3 activity. MCF-10A, a non-transformed breast epithelial cell line, was chosen because STAT3C has been reported to be sufficient to cause their neoplastic transformation. Therefore, we reasoned that analysis of STAT3C’s effects in MCF-10A cells would be especially informative for STAT3-regulated miRNAs relevant to cancer. As a result of our study, we identified previously-known as well as novel miRNA targets of STAT3.
+
+DESIGN
+Doxycycline-inducible MCF-10A cells were seeded, and then untreated (grown in standard growth media alone) or treated with 2μg/ml doxycycline for 48hr. Each condition was performed in biological triplicate (labeled A, B, and C), for a total of 6 samples. Total RNA was harvested and submitted to the Dana-Farber Cancer Institute Molecular Diagnostics Laboratory. MicroRNA expression profiling was performed using TaqMan Low-Density Arrays (TLDA), human miRNA version 2.0A and version 3.0B cards (Applied Biosystems).
+
+PLATFORM
+GPL11316 Applied Biosystems Human Taqman MicroRNA Array v3.0 GPL14851 Applied Biosystems Human Taqman Array MicroRNA Card A v2.0
+
+CITATIONS
+24473196
+

@@ -1,0 +1,18 @@
+TITLE
+Mapping cell type-specific transcriptional enhancers using high affinity, lineage-specific p300 bioChIP-seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We report a method for high throughput mapping of transcriptional enhancers, genomic regulatory regions that activate lineage-specific transcription. Since tissue-specific enhancers are bound by the transcriptional co-activator p300, we developed murine knock-in alleles that permit Cre-dependent, lineage-specific p300 in vivo biotinylation and high affinity pulldown on immobilized streptavidin. Subsequent next generation sequencing of p300-bound genomic DNA identified lineage-specific enhancers. By driving this system with lineage-specific Cre transgenes, we mapped enhancers active in embryonic endothelial cells/blood or skeletal muscle. Analysis of these enhancer sequences identified new transcription factor heterodimer motifs that likely regulate transcription in these lineages. Furthermore, we identified candidate enhancers that regulate adult heart- or lung- specific endothelial cell specialization.
+
+DESIGN
+ES_p300_bioChIP x2, E12.5 forebrain_p300bioChIP x2 and H3K27Ac ChIP x2,  E12.5 heart_p300bioChIP x2 and H3K27Ac ChIP x2, E11.5_embryo_p300_bioChIP x3, E11.5_Tie2Cre_EC_p300-bioChIP x3, E13.5_Myf5Cre_muscle prognitors_p300-bioChIP x3, adult_heart_p300-bioChIP x2, adult heart_lung_p300-bioChIP x3, adult_heart_EC_p300-bioChIP x3, adult_lung_EC_p300-bioChIP x3, E12.5 Cardiomyocyte_ATAC-seq x2, E10.5_Tie2Cre-TRAP x1
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28121289
+

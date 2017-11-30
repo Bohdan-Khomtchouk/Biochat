@@ -1,0 +1,18 @@
+TITLE
+Dynamics of gene silencing during X inactivation using allele-specific RNA-Seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Background: During early embryonic development, one of the two X chromosomes in mammalian female cells is inactivated to compensate for a potential imbalance in transcript levels with male cells containing a single X chromosome. We use mouse female Embryonic Stem Cells (ESCs) with nonrandom XCI and polymorphic X chromosomes to study the dynamics of gene silencing over the inactive X chromosome (Xi) by high-resolution allele-specific RNA-Seq. Results: Induction of XCI by differentiation of female ESCs shows that genes proximal to the X-inactivation center (XIC) are silenced earlier than distal genes, while lowly expressed genes show faster XCI dynamics than highly expressed genes. The active X chromosome shows a minor but significant increase in gene activity during differentiation, resulting in complete dosage compensation in differentiated cell types. Genes escaping XCI show little or no silencing during early propagation of XCI. Using allele-specific RNA-Seq of Neural Progenitor Cells (NPCs) generated from the female ESCs, we identify three regions distal to the XIC that stably escape XCI during differentiation of the female ESCs, as well as during propagation of the NPCs. These regions coincide with Topologically Associated Domains (TADs) as determined in the undifferentiated female ESCs. Also the previously characterized human gene clusters escaping XCI correlate with TADs. Conclusions: Together, the dynamics of gene silencing observed over the Xi during XCI provide further insight in the formation and maintenance of the repressive Xi complex. The association of regions of escape with TADs, in mouse and human, suggests a regulatory role for TADs during propagation of XCI.
+
+DESIGN
+19 RNA-Seq profiles of mouse ESCs, EpiSCs and NPCs, mostly from distant crosses to allow allele specific mapping. 1 HiC profile of an undifferentiated mouse female ESC line containing a Tsix mutation. Mainly focusing on X inactivation.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+26235224
+

@@ -1,0 +1,18 @@
+TITLE
+Knockdown of STAT1 in SCC61 tumor xenografts leads to alterations in the expression of energy metabolic pathways
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Signal Transducer and Activator of Transcription 1 (STAT1) has traditionally been regarded as a transmitter of interferon signaling and a pro-apoptotic tumor suppressor. Recent data have identified new functions of STAT1 associated with tumorigenesis and resistance to genotoxic stress, including ionizing radiation (IR) and chemotherapy. To investigate the mechanisms contributing to the tumorigenic functions of STAT1, we performed a combined transcriptomic-proteomic expressional analysis and found that STAT1 is associated with regulation of energy metabolism.   Methods: We generated a stable knockdown of STAT1 in the SCC61 human squamous cell carcinoma cell line, established tumor xenografts in athymic mice, and compared transcriptomic and proteomic profiles of STAT1 wild-type (WT) and knockdown (KD) untreated or irradiated (IR) tumors. Transcriptional profiling was based on Affymetrix Human GeneChip® Gene 1.0 ST microarrays. Proteomes were determined from the MS/MS data by searching against the human subset of the UniProt database. Data were analyzed using Significance Analysis of Microarrays (SAM) for RNA and Visualize software for proteins. Functional analysis was performed with Ingenuity Pathway Analysis (IPA) with statistical significance measured by Fisher’s exact test.   Results: Knockdown of STAT1 led to significant growth suppression in untreated tumors and radiosensitization of irradiated tumors. These changes were accompanied by alterations in the expression of genes and proteins of glycolysis (GG), the citrate cycle (CC) and oxidative phosphorylation (OP). Of these pathways, GG had the most concordant changes in gene and protein expression and demonstrated a STAT1-dependent expression of genes and proteins consistent with tumor-specific glycolysis. IR drastically suppressed the GG pathway in STAT1 KD tumors without significant change in STAT1 WT tumors. The STAT1 and glycolytic pathways were co-expressed in human breast tumors, and expression of STAT1-linked glycolytic genes was highly predictive of poor prognosis.   Conclusions: Our results identify a previously uncharacterized function of STAT1 in tumors: expressional regulation of genes and enzymes involved in glycolysis, the citrate cycle, and mitochondrial oxidative phosphorylation, with predominant regulation of glycolysis. STAT1-dependent transcriptional and translational regulation of glycolysis suggests a potential role for STAT1 as a transcriptional modulator of genes responsible for the Warburg effect.
+
+DESIGN
+This dataset includes expression data from SCC61 cells stably transfected with a control vector or one expressing a short hairpin RNA (shRNA) to STAT1 and grown as tumor xenografts in athymic mice. A subset of tumors were treated with ionizing radiation in 5 Gy fractions over six consecutive days (total 30 Gy). Each array was hybridized with a pooled sample normalized to total RNA and consisting of RNA obtained from three independent tumor xenografts. Analysis of differentially expressed genes was based on pair-wise comparisons (STAT1 wild-type versus STAT1 knockdown for untreated or irradiated conditions) of duplicated arrays using Significance Analysis of Microarrays (SAM) version 3.02.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+19891767
+

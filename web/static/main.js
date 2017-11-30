@@ -1,3 +1,26 @@
+var opts = {
+  lines: 13,
+  length: 28,
+  width: 14,
+  radius: 42,
+  scale: 1,
+  corners: 1,
+  color: '#fff',
+  opacity: 0.25,
+  rotate: 0,
+  direction: 1,
+  speed: 1,
+  trail: 60,
+  fps: 20,
+  zIndex: 2e9,
+  className: 'spinner',
+  top: '50%',
+  left: '50%',
+  shadow: false,
+  position: 'absolute'
+};
+
+
 function checked(id) {
     return $('#' + id + ' :checkbox:checked').map(function() {
         return this.value;
@@ -9,6 +32,7 @@ function selected(name) {
 }
 
 function search() {
+    var spinner = new Spinner(opts).spin(document.getElementById('page'));
     $.ajax({
         type: 'GET',
         url: '/search?gid=' + $('#gid').val()
@@ -18,9 +42,11 @@ function search() {
             + "&sim-organisms=" + checked('simorganisms')
         })
         .done(function (data) {
+            spinner.stop();
             $("#search-results").html(data);
         })
         .fail(function () {
+            spinner.stop();
             alert("Oops. Something went wrong. :(")
         });
     return false;

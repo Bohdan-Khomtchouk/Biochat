@@ -1,0 +1,18 @@
+TITLE
+RNA-Sequencing of primary myoblasts from mice with a satellite cell specific knockout of the histone demthylase UTX/KDM6A
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The KDM6 histone demethylases (UTX/KDM6A and JMJD3/KDM6B) mediate removal of repressive histone H3K27me3 marks to establish transcriptionally permissive chromatin. Loss of UTX in female mice is embryonic lethal. Unexpectedly, male UTX-null mice escape embryonic lethality due to expression of UTY, a paralog lacking H3K27-demethylase activity. This suggests that UTX plays an enzyme-independent role in development, and challenges the need for active H3K27-demethylation in vivo. However, the requirement for active H3K27-demethylation in stem cell-mediated tissue regeneration remains untested. Using an inducible mouse knockout that ablates UTX in satellite cells, we show that active H3K27-demethylation is necessary for muscle regeneration. Indeed, loss of UTX in satellite cells blocks myofiber regeneration in both male and female mice. Furthermore, we demonstrate that UTX mediates muscle regeneration through its H3K27-demethylase activity using a chemical inhibitor, and a demethylase-dead UTX knock-in mouse. Mechanistically, dissection of the muscle regenerative process revealed that UTX is required for expression of the transcription factor Myogenin that drives differentiation of muscle progenitors. Thus, we have identified a critical role for the enzymatic activity of UTX in activating muscle-specific gene expression during myofiber regeneration, revealing for the first time that active H3K27-demethylation has a physiological role in vivo.
+
+DESIGN
+Satellite cells were sorted based on Cre-dependent expression of TdT reporter gene. Sorted UTXmKO or UTX WT satellite cells were then induced to differentiate for 24 hrs. RNA was then isolated and subjected to RNA-Seq analysis.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+26999603
+

@@ -1,0 +1,18 @@
+TITLE
+RNA-seq Analysis of VRF1 and VRF2-dependent Genes in the mycelia of Magnaporthe oryzae 70-15
+
+ORGANISM
+Magnaporthe oryzae
+
+SUMMARY
+Purpose: The goals of this study are to find out the genes regulated directly or indirectly by C2H2 transcription factors Vrf1 and Vrf2 by RNA-seq and to evaluate the similarities and differences in gene regulation mechanisms of Vrf1 and Vrf2 in the rice blast fungus Methods: Mycelial mRNAs of the wild type strain 70-15, Δvrf1 and Δvrf2 incubated in H2O at 25˚C for 4 h, in triplicate independently for each strain, were extracted and isolated by RNeasy Plant mini kit (QIAGEN) and AMPure XP beads (Beckman). RNA-sequencing libraries were constructed using NEBNext RNA sample preparation kit (NEB). Samples were sequenced in a 1 x 100 nt way on Illumina Hiseq2500 instrument using TruSeq PE Cluster Kit v3 - cBot - HS (Illumina) and TruSeq SBS Kit v3-HS (Illumina).The M. oryzae genome database (MG8) (www.broadinstitute.org) was used as a reference gene database. Genome-wide transcript levels of genes were quantified in fragments per kilobase of exon model per million mapped reads (FPKM) (Trapnell 2010). Gene Ontology (GO) enrichment analyses for differentially expressed genes were performed using hypergeometric test with topGO, and p-values were adjusted with Bonferroni for multiple testing (Alexa 2006). And we selected FDR < 0.05 as enrichment terms. Results and Conclusions: We identified 401 genes regulated by VRF1 and 1045 genes by VRF2 through RNA-seq.
+
+DESIGN
+Mycelial mRNA profiles of wild type strain 70-15 (WT), Δvrf1 and Δvrf2 incubated in H2O for 4 h were generated, in biologic triplicate, by Illumina Hiseq2500 in a 1 x 100 nt way
+
+PLATFORM
+GPL18618 Illumina HiSeq 2500 (Magnaporthe oryzae)
+
+CITATIONS
+27041000
+

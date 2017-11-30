@@ -1,0 +1,18 @@
+TITLE
+RNAseq to determine whether bidirectional transcription occurs over transposable elements following depletion of SETDB1 in THP-1 AML Cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+SETDB1 disruption leads to an increase in the expression of transposable elements as determined by our standard RNAseq, where bidirectional transcription has been reported. We repeated RNA seq on our samples with a stranded prep to determine whether bidirectional transcription occurs of transposable elements following depletion of SETDB1 in THP-1 AML Cells Methods: THP-1 cells were treated with two different SETDB1 sgRNAs (6, and 9) or Non-targeting control sgRNA (NTC) for 4 and 7 days. RNA was isolated and prepared for RNAseq with Qiagen RNeasy kits. Results: Consensus sequences for elements for upregulated TEs were downloaded from the Dfam database (Hubley et al., 2016). Stranded RNA-seq data was then aligned to consensus sequences using BWA-MEM and quantified using HTseq-count(Anders et al., 2015; Li, 2013). Reads were visualized using the IGV genome browser, using a custom pseudogenome that was generated from the Dfam consensus sequences (Robinson et al., 2011; Thorvaldsdottir et al., 2013). Conclusions: Our data determined that following the disruption of SETDB1, there is increased bidirectional transcription over a subset of transposable elements.
+
+DESIGN
+THP-1 RNA samples treated with 2 different SETDB1 sgRNAs (6, and 9) or NTC sgRNAs and collected at days 4 and 7 in triplicate for a total of 12 samples.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

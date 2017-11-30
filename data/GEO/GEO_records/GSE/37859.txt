@@ -1,0 +1,18 @@
+TITLE
+Compare gene expression profiles of mouse iNSC, WT-NSC, and MEF
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The iNSC cells are two clones generated from the same MEF line.  Therefore, we conducted one analysis that compared the two clonal lines and a separate analysis that compared iNSC vs. NSC, iNSC vs. MEF, and NSC vs. MEF.  Both were single factor ANOVAs, the first compared two groups (the iNSC lines) and the second had three groups.  For the second analysis, we then used linear contrasts to extract the information about differences between all pairs (e.g. iNSC vs. NSC). Looking at the iNSC lines, the correlations between samples from different clonal lines are as high as the correlations between samples from within a clonal line.  Given this, we think that the analysis that combines all 6 of them to compare against the other cell types is appropriate.
+
+DESIGN
+Array Platform: Affymetrix Mouse Gene 1.0 ST    Samples: A total of 12 arrays    array# filename genotype  1 01.iNSC1.1.CEL iNSC  2 02.iNSC1.2.CEL iNSC  3 03.iNSC1.3.CEL iNSC  4 04.iNSC2.1.CEL iNSC  5 05.iNSC2.2.CEL iNSC  6 06.iNSC2.3.CEL iNSC  7 07.WT.NSC.1.CEL NSC   8 08.WT.NSC.2.CEL NSC   9 09.WT.NSC.3.CEL NSC   10 10.WT.MEFs.1.CEL MEF   11 11.WT.MEFs.3.CEL MEF   12 12.WT.MEFs.5.CEL MEF
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+22683203
+

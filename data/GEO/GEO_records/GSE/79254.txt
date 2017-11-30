@@ -1,0 +1,18 @@
+TITLE
+Mechanisms and disease associations of haplotype-dependent allele specific DNA methylation: genotyping data for the identification of mQTL
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Haplotype-dependent allele-specific methylation (hap-ASM) can impact disease susceptibility, but maps of this phenomenon using stringent criteria in disease-relevant tissues remain sparse. Here we apply array-based and Methyl-seq approaches to multiple human tissues and cell types, including brain, purified neurons and glia, T lymphocytes, and placenta, and identify 795 hap-ASM differentially methylated regions (DMRs) and 3,082 strong methylation quantitative trait loci (mQTLs), most not previously reported. More than half of these DMRs have cell type-restricted ASM, and among them are 188 hap-ASM DMRs and 933 mQTLs located near GWAS signals for immune and neurological disorders. Targeted bis-seq confirmed hap-ASM in 12/13 loci tested, including CCDC155, CD69, FRMD1, IRF1, KBTBD11, and S100A*-ILF2, associated with immune phenotypes, MYT1L, PTPRN2,CMTM8 and CELF2, associated with neurological disorders, NGFR and HLA-DRB6, associated with both immunological and brain disorders, and ZFP57, a trans-acting regulator of genomic imprinting. Polymorphic CTCF and transcription factor (TF) binding sites are over-represented among hap-ASM DMRs and mQTLs, and analysis of the human data, supplemented by cross-species comparisons to Macaca mulattamacaques, indicates that CTCF and TF binding likelihood predicts the strength and direction of the allelic methylation asymmetry. These results show that hap-ASM is highly tissue-specific; an important trans-acting regulator of genomic imprinting is regulated by this phenomenon; variation in CTCF and TF binding sites is an underlying mechanism in primary tissues, and maps of hap-ASM and mQTLs reveal regulatory sequences underlying supera- and sub-threshold GWAS peaks in immunological and neurological disorders.
+
+DESIGN
+Genomic DNA from 54 T cells,  47  brains (temporal cortex) and 37 fetal placentas were hybridized to the Illumina HumanOmni2.5-8v1.1 (Omni2.5) BeadChip. Illumina HumanOmni2.5 arrays were performed by the Genomics Shared Resource supported by Roswell Park Cancer Institute and National Cancer Institute (NCI). Sample-dependent and sample-independent controls were evaluated to ensure the reagent performance, efficiency of hybridization and the staining process as well as to evaluate sample quality and performance.  Each SNP was analyzed independently to identify genotypes. Genotypes were called by comparing generated data with those in a standard cluster file.  To identify mQTL (methylation quantitative trait loci), these genotyping data were used in combination with methylation data obtained using  Illumina Infinium 450k Human Methylation Beadchip arrays.
+
+PLATFORM
+GPL18952 Illumina HumanOmni2.5-8v1.1 beadchip
+
+CITATIONS
+27153397
+

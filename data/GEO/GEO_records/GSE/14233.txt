@@ -1,0 +1,18 @@
+TITLE
+Detection of differentially methylated regions in CD4+CD25+CD45RA+ regulatory T-cells and conventional CD4+CD25- T-cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We have previously developed an approach that fractionates genomic DNA fragments depending on their CpG density (methyl-CpG-immunoprecipitation, MCIp), and adapted this approach to identify regions that are differentially methylated in the two closely related regulatory T-cells (Treg cells) and conventional T-cells (Tconv cells). Because Treg cells naturally occur at a relatively low frequency, we used a previously established protocol to expand Treg cells from a stable naïve Treg population that is characterized by the co-expression of CD4, CD25 and CD45RA. We separated gDNA of both expanded T cell lineages (Tregexp and Tconvexp) into unmethylated (CpG) and methylated pools (mCpG) using MCIp and compared cell type-specific differences in DNA methylation by co-hybridization of the two umethylated or the two methylated DNA subpopulations of Treg and Tconv, respectively, to these locus-wide custom tiling arrays. As enriched DNA-fragments from a cell type in the methylated fraction should be depleted in the unmethylated fraction, the signal intensities in CpG pool and mCpG pool hybridizations should complement themselves (“Mirror-Image” approach) and thereby allow the identification of differentially methylated regions (DMR). Because we expected to find lineage-specific methylation differences with greater probability in regions associated with differential transcriptional activity, we limited our analysis to gene loci that showed cell type-specific gene expression in Treg versus Tconv cells plus a handful of control regions that were equally expressed in both cell types. The microarray used in this study covered 12 megabases of the human genome and contained 69 regions (with a median size of 100.000 kb) and 128 proximal promoter regions and 181 genes, which included a number of well known and functionally relevant genes like CD40LG, IFNG, FOXP3, IL2RA and CTLA4. Keywords: MCIp-on-chip; comparative genomic hybridization
+
+DESIGN
+With MCIp gDNA from Treg or Tconv cells was separated into hypo- and hypermethylated pools. On each array, wheather the two hypomethylated fractions- one from Treg, the other from Tconv cells- or the two hypermethylated fractions were cohybridized. Two biological replicates.
+
+PLATFORM
+GPL8014 Human custom chip-on-chip 2x105k tiling microarray AMADID: 018053
+
+CITATIONS
+19494038
+

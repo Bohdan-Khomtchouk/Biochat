@@ -1,0 +1,15 @@
+TITLE
+The suitability of statistical tests according to characteristics in variation of expression microarray data
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Microarray technology has enabled the measurement of comprehensive transcriptomic information. However, each data entry may reflect trivial individual differences among samples and also contain technical noise. Therefore, the certainty of each observed difference should be confirmed at earlier steps of the analyses, and statistical tests are frequently used for this purpose. Since a microarray measures a huge number of genes and the results are processed simultaneously, concerns regarding problems of multiplicity have been raised to the tests. To deal with these problems, several methodologies have been proposed, making the tests very conservative. Indeed, arbitrary tuning of the test threshold has also been introduced to relax the test conditions. However, the appropriateness of the multiplicity problems as well as the compensation methods has not been confirmed. The appropriateness of the compensation methods was checked by means of coincidence of the premises of the methodologies with the observed characteristics found in real data of two typical platforms of microarray analysis. Normality was observed in within-group data variations, supporting applications of parametric tests. However, genes displayed their own tendencies in the magnitude of variations, and the distributions of P-values were rather complex and varied; these characteristics are inconsistent with the premises of the compensation methodologies. Additionally, the appropriateness of the proposed multiplicities is reconsidered. When we observed differences in the transcriptome, the family-wise error rate should not be considered, since analyses at higher levels would not be influenced by a few false positives among the huge numbers of true information. Likely, concerns for a false discovery rate are not suitable for the point null hypotheses on expression levels, since the rate of true null hypotheses should be rare in contradiction to the premise of the methodology. Although compensation methods have been recommended to deal with the problem of multiplicity, the compensations are actually inappropriate for many of the applications of transcriptome analyses. Compensations are not only unnecessary, but will increase the occurrence of false negative errors, and arbitrary adjustment of the threshold damages the objectivity of the tests. Rather, the results of parametric tests should be evaluated directly. This SuperSeries is composed of the SubSeries listed below.
+
+DESIGN
+Refer to individual Series.
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

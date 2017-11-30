@@ -1,0 +1,18 @@
+TITLE
+Differential gene expression in human THP-1 monocytes expressing the RdRP transgene (WT version) compared to THP-1 empty vector control cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Previously, we reported that mice made transgenic for a picornaviral RdRP – the 3Dpol protein of Theiler’s murine encephalomyelitis virus (TMEV) – suppress infection by diverse viruses. Using mouse genetic studies, we determined that uninfected RdRP transgenic mice inherently induce an arsenel of prominent antiviral effectors and that this phenotype is MDA5-, MAVS- and IFNαβR-dependent. To determine the mechanism underlying MDA5 activation and induction of constitutive antiviral signaling by the picornaviral RdRP, we constructed mutant RdRP transgenes. First, we introduced pervasive, coding-neutral point mutations into the RdRP cDNA to maximally disrupt primary and secondary RNA structure (RdRP∆rna). Another mutant, RdRP∆cat, lacks catalytic activity due to alanine substitution of the key catalytic center triad aspartate residues (D233, D328, and D329), but is otherwise intact at the nucleotide and amino acid levels. The WT,  RdRP∆rna, and RdRP∆cat versions of the RdRP transgenes were transduced with lentiviral vectors into human THP-1 monocytes, with RdRP mRNA transcription controlled by the Spleen Focus Forming Virus (SFFV) promoter. In parallel a control cell line transduced with a vector lacking any RdRP transgene (null THP-1) was generated.
+
+DESIGN
+RdRP cDNAs and a GFP-puromycin fusion protein selection marker were cloned into transfer constructs containing HIV LTRs, a small portion of gag, an RRE, and a cPPT. Transfer constructs were transfected into HEK 293T cells along with packaging construct R∆8.9 and envelope pseudotyping construct expressing VSV-G. RT-normalized amounts of vector were used to transduce THP-1 cells. After selection in puromycin, whole-genome expression profiling was performed on total RNA extracted from the different THP-1 lines.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+26633895
+

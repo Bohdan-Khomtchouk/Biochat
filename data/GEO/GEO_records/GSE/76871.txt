@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic Analysis of Petunia hybrida in Response to Salt Stress Using High Throughput RNA Sequencing
+
+ORGANISM
+Petunia x hybrida
+
+SUMMARY
+Salinity and drought stress are the primary cause of crop losses worldwide. In sodic saline soils sodium chloride (NaCl) disrupts normal plant growth and development. The complex interactions of plant systems with abiotic stress have made RNA sequencing a more holistic and appealing approach to study transcriptome level responses in a single cell and/or tissue. In this work, we determined the Petunia transcriptome response to NaCl stress by sequencing leaf samples and assembling 196 million Illumina reads with Trinity software. Using our reference transcriptome we identified more than 7,000 genes that were differentially expressed within 24 h of acute NaCl stress. The proposed transcriptome can also be used as an excellent tool for biological and bioinformatics in the absence of an available Petunia genome and it is available at the SOL Genomics Network (SGN) http://solgenomics.net. Genes related to regulation of reactive oxygen species, transport, and signal transductions as well as novel and undescribed transcripts were among those differentially expressed in response to salt stress. The candidate genes identified in this study can be applied as markers for breeding or to genetically engineer plants to enhance salt tolerance. Gene Ontology analyses indicated that most of the NaCl damage happened at 24 h inducing genotoxicity, affecting transport and organelles due to the high concentration of Na+ ions. Finally, we report a modification to the library preparation protocol whereby cDNA samples were bar-coded with non-HPLC purified primers, without affecting the quality and quantity of the RNA-seq data. The methodological improvement presented here could substantially reduce the cost of sample preparation for future high-throughput RNA sequencing experiments
+
+DESIGN
+Control group received the Hoagland's solution with no added NaCl, the salt treatment group received Hoagland's solution amended with 150 mM NaCl.
+
+PLATFORM
+GPL21338 Illumina HiSeq 2500 (Petunia x hybrida)
+
+CITATIONS
+24722556
+

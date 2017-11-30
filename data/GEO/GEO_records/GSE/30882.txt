@@ -1,0 +1,18 @@
+TITLE
+Embryonic stem cell based system for the discovery and mapping of developmental transcriptional programs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Chromatin immunoprecipitation followed by deep sequencing (ChIP-seq) is the method of choice to study function of transcription factors in cell fate determination. This technique faces two major obstacles when applied to developmental studies: the availability of ChIP grade antibodies and access to sufficient quantities of the cells of interest. We present a robust method for the genome-wide analysis of transcription factor binding during development in highly homogenous cells in defined developmental states.  It combines efficient embryonic stem cell (ESC) differentiation protocols with an inducible system of tagged transcription factors to enable affinity based assays such as ChIP-seq during lineage specific development.  To validate the system, we compared the activity and genomic binding of native and V5-tagged Olig2 in motor neuron progenitors and Flag-tagged and V5-tagged Hoxc9 in motor neurons.  We find that tagging transcription factors and expressing them alongside their endogenous counterparts does not alter their function or genomic association. The technology presented here can be applied to known as well as novel DNA-binding proteins. In combination with a suitable ESC differentiation paradigm it can be applied to determine how lineage-specific transcriptional networks are established and regulated.
+
+DESIGN
+The aim of this study is to validate a platform for analysis of transcription factor binding that combines directed differentiation of ES cells with an inducible system of tagged transcription factors. Here, we perform ChIP-seq analysis to compare binding profiles of Olig2 as found using a native antibody and anti-V5 against the epitope tag. We also compare the ChIP-seq profiles of Hoxc9 as found using two independent epitope tags (V5 and FLAG). In all, there are 6 Illumina sequence datasets in this submission, including one replicate for each of native Olig2, iOlig2-V5 and FLAG-iHoxc9, two replicates of iHoxc9-V5, and a pseudo-ChIP control using anti-V5 in a non-induced iOlig2 cell-line.  The differentiation of ventral motor neurons is induced by treating embryonic stem cell cultures with retinoic acid and hedgehog.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+22081127
+

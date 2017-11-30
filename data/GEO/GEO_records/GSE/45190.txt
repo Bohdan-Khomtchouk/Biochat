@@ -1,0 +1,18 @@
+TITLE
+The genomic landscape of small intestine neuroendocrine tumors [CGH]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Small intestine neuroendocrine tumors are the commonest neuroendocrine tumors of the GI tract. Next gen sequencing of the whole exome was undertaken to identify SNPs and SCNA in these tumor samples. Subsequent bioinformatic anlaysis was done where the reads ratios of tumor/normal were log2 tranformed, segments indentified with DNAcopy (R package) and regions of SCNA were identified. Amplification of chr 4, 5, 14 and 20 was observed. The validation of these SCNAs was done with arrayCGH. The results of array CGH is in concordeance with the exome sequencing data.
+
+DESIGN
+DNA from matched tumor and normal sample of SI-NETs was done by spin column method. Libraries were constructed and exome enriched for next gen sequencing. The same gDNA was hybridized with Cy5 and Cy3 and subsequent analysis was done. This study represents the CGH portion of the study.
+
+PLATFORM
+GPL16795 Agilent-024616 ISCA human array 4X180K v2 (Feature Number version)
+
+CITATIONS
+23676460
+

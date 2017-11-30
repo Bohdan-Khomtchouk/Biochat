@@ -1,0 +1,18 @@
+TITLE
+Whole-genome DNA methylation maps for human and chimpanzee peripheral blood leukocytes (PBLs).
+
+ORGANISM
+Pan troglodytes ; Homo sapiens
+
+SUMMARY
+It has been thought that epigenetic changes underlie the evolutionary divergence of phenotype between closely related species. To study differences in DNA methylation between humans and chimanzees, we collected methylated DNAs from age- and gender-matched PBL samples of the two species, and deeply sequenced.  The map counts were then converted to MEDIPS scores in 100-bp bins, which are related to absolute methylation levels.
+
+DESIGN
+Genomic  DNA samples of PBLs from 4 individuals for each species were pooled, and the pooled samples were flagmented into 200-600 bp by sonication. Methylated DNA fragments were collected by using  the His-tagged MBD1.  The sequence libraries were constructed for total and MBD1-collected DNA fragments by using paired-end sequencing kit (Illumina).  The library was deeply sequenced on Illumina Genome Analyzer II with 75-bp paired-end sequencing.  These reads were aligned to the human (hg19) or chimpanzee (panTro3) genomes using Bowtie.  The aligned results were further processed using MEDIPS, which gave methylation scores in 100-bp windows.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL9378 Illumina Genome Analyzer II (Pan troglodytes)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

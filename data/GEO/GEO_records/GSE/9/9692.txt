@@ -1,9 +1,0 @@
-TITLE
-Validation of Genome-wide Expression patterns in Pediatric Septic Shock
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-Rationale:  We previously generated genome-wide expression data in children with septic shock, based on whole blood-derive RNA, having the potential to lead the field into novel areas of investigation. Objective:  Herein we seek to validate our data through a bioinformatic approach centered on a validation patient cohort. Methods:  Microarray- and bioinformatics-centered analyses involving our previous data as a training data set (n = 42) and a new, validation cohort (n = 30) as the test data set. Measurements and Main Results:  Class prediction modeling using the training data set and the previously reported genome-wide expression signature of pediatric septic shock correctly identified 93 to 100% of septic shock patients in the test data set, depending on the class prediction algorithm and the gene selection method. Subjecting the test data set to an identical filtering strategy as that used for the training data set, demonstrated 72% concordance between the two gene lists. Subjecting the test data set to a purely statistical filtering strategy, with highly stringent correction for multiple comparisons, demonstrated less than 50% concordance with the previous gene filtering strategy. However, functional analysis of this statistics-based gene list demonstrated similar functional annotations and signaling pathways as that seen in the learning data set. In particular, we validated that pediatric septic shock is characterized by large scale repression of genes related to zinc homeostasis and lymphocyte function. Conclusions:  These data demonstrate that the previously reported genome-wide expression signature of pediatric septic shock is applicable to a validation cohort of patients. Keywords: Inflammation; sepsis; innate immunity; T cells; MHC antigen; zinc
-

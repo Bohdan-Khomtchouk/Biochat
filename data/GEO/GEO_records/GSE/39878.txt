@@ -1,0 +1,18 @@
+TITLE
+RNA-DNA DIFFERENCES IN NASCENT RNA
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA sequences are expected to be identical to their corresponding DNA sequences.  Advances in technologies have enabled deep sequencing of nucleic acids that uncovered exceptions to the one-to-one relationship between DNA and RNA sequences.  Previously in human cells, post-transcriptional RNA editing was the only known mechanism that changes RNA sequences from the underlying DNA sequences.  Here, we sequenced nascent RNA  and found all 12 types of RNA-DNA differences.  Using various experimental analyses, we validated this finding.  Our results showed that sequences of nascent RNAs within 40 nucleotides of the exit channel of RNA polymerase II already differ from the corresponding DNA sequences.  These RNA-DNA differences are mediated by RNA processing steps closely coupled with transcription and not by known deaminase-mediated RNA editing mechanisms nor during NTP incorporation by Pol II.  This finding identifies sequence substitution as part of co-transcriptional RNA processing.
+
+DESIGN
+We sequenced nascent RNA using global run-on sequencing, GRO-seq from human B-cells from two individuals and a variant of the GRO-seq procedure, known as precision run-on sequencing, PRO-seq.  The RNAs are prepared after a short run-on assay performed with isolated nuclei in the presence of Br-UTP.  The isolated RNAs are base hydrolyzed to ~100 nucleotides and affinity purified with anti-BrU beads three times at each successive step of preparing the RNAs for orientation-specific sequencing using Illumina technology.  The 5’ ~half of each sequence represents nascent RNA made in the cell and the 3’ ~half  represents sequences made in vitro during the run-on reaction.  The precision variation, PRO-seq, incorporates one or at most a few biotin-labeled nucleoside triphosphates during the run-on, and sequencing from the 3’ end of this affinity purified, nascent RNA maps the cellular location of engaged polymerases with near single nucleotide precision.  We obtained ~ 100 million 100-nucleotide uniquely mapped GRO-seq reads from B-cells of two individuals.  For one subject, we also carried out pGRO-seq and obtained 60 million uniquely mapped reads.  In addition, we sequenced ~135 million uniquely mapped RNA-seq reads, and the corresponding DNA of the two individuals to 30X and 60X coverage. Additionally, we isolated and sequenced nascent RNA with an alternate method described by Wuarin and Schibler (1994) in order to compare chromatin-bound RNA to the very nascent RNA from PRO-seq.  We obtained ~190 million uniquely mapped reads from chormatin-bound RNA-seq.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24561252
+

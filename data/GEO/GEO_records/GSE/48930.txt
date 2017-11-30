@@ -1,0 +1,18 @@
+TITLE
+Genome-wide mapping of SPDEF and ESR1 binding in MCF-7 cells (ChIP-seq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Using a transcriptional network derived from 2000 breast cancer gene expression profiles we identify the master regulators (MRs) of FGFR2 signalling. To validate the identified regulons, we examined whether there was enrichment of TF binding near the transcription start sites (TSS) of genes found in the regulons of a particular MR.
+
+DESIGN
+For ESR1 and SPDEF, ChIP-seq experiments were performed in MCF-7 cells, while existing data was analysed for FOXA1 (Hurtado et al. Nature Genetics, 43:27–33, 2010) and GATA3 (Theodorou, et al., Genome Res 23: 12-22, 2013). ChIP-seq experiments were performed on three biological replicates per each transcription factor. For each sample, 36bp single-end reads were obtained. Peak regions were identified in all ChIP-seq TF data sets using the peak caller algorithm MACS (Zhang et al., Genome Biology, 9(9):R137, 2008) with default parameters.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+24043118 , 27236187
+

@@ -1,0 +1,18 @@
+TITLE
+The Project for High-Confidence Coding and Noncoding Transcriptome Maps
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+The advent of high-throughput RNA sequencing (RNA-seq) has led to the discovery of unprecedentedly immense transcriptomes encoded by eukaryotic genomes. However, the transcriptome maps are still incomplete partly because they were mostly reconstructed based on RNA-seq reads that lack their orientations (known as unstranded reads) and certain boundary information. Methods to expand the usability of unstranded RNA-seq data by predetermining the orientation of the reads and precisely determining the boundaries of assembled transcripts could significantly benefit the quality of the resulting transcriptome maps. Here, we present a high-performing transcriptome assembly pipeline, called CAFE, that significantly improves the original assemblies, respectively assembled with stranded and/or unstranded RNA-seq data, by orienting unstranded reads using the maximum likelihood estimation and by integrating information about transcription start sites and cleavage and polyadenylation sites. Applying large-scale transcriptomic data comprising 230 billion RNA-seq reads from the ENCODE, Human BodyMap Projects, The Cancer Genome Atlas, and GTEx, CAFE enabled us to predict the directions of about 220 billion unstranded reads, which led to the construction of more accurate transcriptome maps, comparable to the manually curated map, and a comprehensive lncRNA catalogue that includes thousands of novel lncRNAs. Our pipeline should not only help to build comprehensive, precise transcriptome maps from complex genomes but also to expand the universe of non-coding genomes. This SuperSeries is composed of the SubSeries listed below.
+
+DESIGN
+The direction of unstranded reads (from ENCODE, Human BodyMap Projects, GTEx and TCGA as well as from HeLa and mES cells) were predicted using k-order Markov chain models (kMC) generating a read with a predicted direction (RPD) and were used to assemble transcriptome maps (BIGTranscriptome). Those transcriptome maps were next used for quantification of RPDs. Refer to individual Series
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+28396519
+

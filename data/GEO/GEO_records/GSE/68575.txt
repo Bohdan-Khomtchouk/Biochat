@@ -1,0 +1,18 @@
+TITLE
+A probabilistic generative model for quantification of DNA modifications enables analysis of demethylation pathways [T-cells]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To characterize the largely unknown functions of oxidised methylcytosines (oxi-mC; 5hmC/5fC/5caC) in DNA, several sequencing protocols have been recently developed. Quantitative analysis is complicated because DNA methylation modifications need to be deconvoluted from the data which is affected by several experimental parameters, including e.g. imperfect bisulphite conversion, oxidation efficiencies, various chemical labeling and protection steps, and sequencing errors. Here, we present a hierarchical generative model, Lux, for integrative analysis of any combination of BS-seq and “oxi-mC”-seq (BS-seq/oxBS-seq/TAB-seq/fCAB-seq/CAB-seq/redBS-seq/MAB-seq) data. We show that Lux improves quantification and comparison of methylation levels over existing methods and that Lux can easily process any oxi-mC-seq data sets to quantify all cytosine modifications simultaneously together with their experimental parameters. Application of Lux to targeted data from Tet2 knockdown ESCs and T cells during development demonstrates DNA modification quantification at unprecedented detail, quantifies active demethylation pathway and reveals 5hmC localization in putative regulatory regions.
+
+DESIGN
+Examine the distribution of C, 5mC, and 5hmC in DP, CD4 SP, and naïve CD4 T cells within selected loci. Half of the samples are measured using the traditional bisulphite-seq protocol but the other half is measured using the oxidative bisulphite-seq protocol (oxBS-seq).
+
+PLATFORM
+GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+26975309
+

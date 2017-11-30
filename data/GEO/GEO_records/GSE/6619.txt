@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis of the phytobacterium Xylella fastidiosa growing under xylem-based chemical conditions
+
+ORGANISM
+Xylella fastidiosa 9a5c
+
+SUMMARY
+Xyllela fastidiosa (Xf) is a xylem-limited bacterium responsible for important plant diseases, such as citrus variegated chlorosis (CVC) in Brazil and grapevines Pierce´s disease in the USA. One intriguing aspect of this microorganism is its capacity to grow in an extremely harsh environment such as the xylem, mainly composed of water, minerals and few organic salts. In vitro growth of Xf cells in chemically-defined media that mimic xylem fluid has been recently achieved, allowing more detailed studies of metabolic processes used by xylem-dwelling bacteria to thrive in such a nutrient-poor environment. We employed microarray hybridization experiments to compare the transcriptomes of Xf cells grown in 3G10-R, a medium that resembles grape sap and in Periwinkle Wilt (PW), the complex medium traditionally used to cultivate Xf. We identified 317 transcripts modulated in response to growth in either of the two media. Some of these genes seem to be involved in plant colonization, virulence and competition with other microorganisms, and have also been shown, in independent studies, to be up-regulated in cells directly isolated from the xylem of infected plants. Xf cells also show an increase in aerobic respiration when cultivated in PW, which can be associated with enhanced bacterial growth rates. This finding raises the question of weather such a metabolic switch might be related to the onset of CVC in infected plants, when Xf population seems to increase dramatically. Keywords: Diefential growth conditions
+
+DESIGN
+To evaluate and compare the bacterial transcriptome profiles from bacteria cultured in PW and 3G10R media, bacterial cultures were  harvested for total RNA extraction at day 3 (PW) and day 13 (3G10R), which allowed us to compare bacterial cultures grown into similar cellular densities. Samples from the resulting RNAs were then used in competitive hybridizations against Xf microarrays. Replicated experiments were performed with two independent RNA preparations from cells cultivated in each medium and since each microarray carried two replicas of each spotted gene, we ended up with a series of 8 independent readings for each gene present in the microarrays. Images were analyzed with the TIGR Spotfinder program (v.2.2.4). All spots with median values lower than the median local background plus two Standard Deviations have been flagged and excluded from further analyses. Replicated experiments were performed with two independent RNA preparations from cells cultivated in each medium. For each pair of RNA preparations, two independent hybridizations were performed, with dye swaps within each pair. The results from each hybridization were submitted to a series of mathematical transformations with the aid of the software TIGR MIDAS v.2.19. These included filtering out all spots whose integrated intensities were below 10,000 a/d units, normalization between the two channels with the aid of the Lowess algorithm and SD regularization of the Cy5/Cy3 ratios across all sectors (blocks) of the array. Finally, the results from each individual experiment were loaded into the software TIGR Multi-Experiment Viewer (TMEV), v.3.01. Experiments were then normalized and genes that displayed statistically significant modulation were identified with the aid of the one-class option of the Significance Analysis of Microarrays (SAM) test, described by Tusher et al. (2001). The δ factor of the SAM test was adjusted to guarantee a False Discovery Rate (FDR) < 1.
+
+PLATFORM
+GPL4683 Xylella fastidiosa 9a5c Biochip v.2.0
+
+CITATIONS
+20625415
+

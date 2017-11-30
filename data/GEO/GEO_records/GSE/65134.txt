@@ -1,0 +1,18 @@
+TITLE
+Robust enumeration of cell subsets from tissue expression profiles (HGU133A)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We introduce CIBERSORT, a method for characterizing cell composition of complex tissues from their gene expression profiles. When applied to enumeration of hematopoietic subsets in RNA mixtures from fresh, frozen, and fixed tissues, including solid tumors, CIBERSORT outperformed other methods with respect to noise, unknown mixture content, and closely related cell types. CIBERSORT should enable large-scale analysis of RNA specimens for cellular biomarkers and therapeutic targets ( http://cibersort.stanford.edu ).
+
+DESIGN
+To evaluate the performance of CIBERSORT for enumerating Tregs, RNA was extracted from PBMC samples from 6 healthy normal controls and 1 follicular lymphoma (FL) patient. All PBMC samples were also interrogated by flow cytometry for FOXP3+ Tregs.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+25822800
+

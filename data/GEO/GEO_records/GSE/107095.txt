@@ -1,0 +1,18 @@
+TITLE
+Dynamic transcriptional control of macrophage miRNA signature via inflammation responsive enhancers revealed using a combination of next generation sequencing-based approaches
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+MicroRNAs are important components of the post-transcriptional fine-tuning of macrophage gene expression in physiological and pathological conditions. However, the mechanistic underpinnings and the cis-acting genomic factors of how macrophage polarizing signals induce miRNA expression changes are not well characterized. Therefore, we systematically evaluated the transcriptional basis underlying the inflammation-mediated regulation of macrophage microRNome using the combination of different next generation sequencing datasets. We investigated the LPS-induced expression changes at mature miRNA and pri-miRNA levels in mouse macrophages utilizing a small RNA-seq method and publicly available GRO-seq dataset, respectively. Next, we identified an enhancer set associated with LPS-responsive pri-miRNAs based on publicly available H3K4 mono-methylation-specific ChIP-seq  and GRO-seq datasets. This enhancer set was further characterized by the combination of publicly available ChIP and ATAC-seq datasets. Finally, direct interactions between the miR-155-coding genomic region and its distal regulatory elements were identified using a 3C-seq approach. Our analysis revealed 15 robustly LPS-regulated miRNAs at the transcriptional level. In addition, we found that these miRNA genes are associated with an inflammation-responsive enhancer network. Based on NFκB-p65 and JunB transcription factor binding, we showed two distinct enhancer subsets associated with LPS-activated miRNAs that possess distinct epigenetic characteristics and LPS-responsiveness. Finally, our 3C-seq analysis revealed the LPS-induced extensive reorganization of the pri-miR-155-associated functional chromatin domain as well as chromatin loop formation between LPS-responsive enhancers and the promoter region. Our genomic approach successfully combines various genome-wide datasets and allows the identification of the putative regulatory elements controlling miRNA expression in classically activated macrophages.
+
+DESIGN
+Small RNA-seq samples were derived from LPS-treated (3 hours) and unstimulated bone marrow-derived macrophages in triplicates. 3C-seq samples were derived from LPS-treated (3 hours) and unstimulated bone marrow-derived macrophages.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+29133016
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data from the adult hippocampus of Sox1-GFP mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The dentate gyrus of the hippocampus continues generating new neurons throughout life.  These nerve cells originate from radial astrocytes within the subgranular zone (SGZ). We find that Sox1, a member of the SoxB1 family of transcription factors, is expressed in a subset of radial astrocytes. Lineage tracing using Sox1 driven reporter mice shows that the Sox1-expressing cells represent an activated neural stem/progenitor population. We used microarrays to evaluate the molecular constitution of neural stem cells with aging.
+
+DESIGN
+Hippocampi were isolated from Sox1-GFP mice at 5-7 months (n=3) or 1 year 9 months (n=4) using a Leica dissecting scope.  Cells were immediately dissociated using papain (Worthington Biochemical Corporation. Lakewood, NJ, USA) and sorted for the GFP high or GFP negative population using a FACSAria Flow Cytometer (BD Biosciences, San Diego, CA, USA). RNA was harvested using the Arcturus PicoPure RNA isolation kit (Life Technologies Corp, Carlsbad, CA, USA) and the quality and quantity of each sample was checked using Agilent BioAnalyzer (Santa Clara, CA, USA) and Nanodrop spectrophotometer (Wilmington, DE, USA).  Samples were amplified using the NuGEN FFPE kit (San Carlos, CA, USA) and cDNA was prepared using an oligo(dT)-T7 RNA polymerase primer before biotinylation by in vitro transcription, partial hydrolysis and final hybridization to the Affymetrix (Santa Clara, CA, USA) GeneChip Mouse Gene 1.0 ST Array (Gladstone Genomics Core). Arrays were normalized using Robust Multichip Average (RMA) and the latest probe map to MM9 RefSeq genes (Irizarry et al., 2003; Dai et al., 2005).  To detect potential outlier arrays, the distributions of fold changes between all possible pairs within each group were analyzed.  One sample from a young mouse was found to have a skewed distribution when compared to other biological replicate samples and was removed from further analysis.  The statistical package R was used to perform average linkage hierarchical clustering of the remaining samples.  Significance Analysis of Microarrays (SAM) was performed to determine significant differentially expressed genes between the old and young mice with a False Discovery Rate cutoff of 5% (Tusher et al., 2001).
+
+PLATFORM
+GPL15912 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [CDF: MoGene10stv1_Mm_REFSEQ_13.0.0]
+
+CITATIONS
+22992951
+

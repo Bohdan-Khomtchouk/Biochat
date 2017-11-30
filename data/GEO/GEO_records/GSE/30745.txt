@@ -1,0 +1,18 @@
+TITLE
+Expression data from murine acute myeloid leukemia (AML) cells following shRNA-mediated suppression of Myb
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Using an integrative approach combining a Tet-off conditional AML mouse model, global expression profiling following suppression of the driving MLL-AF9 oncogene, and a new Tet-on conditional shRNA expression system we have identified Myb as critical mediator of addiction to MLL-AF9. Suppression of Myb in established AML in vivo terminates aberrant self-renewal and triggers a terminal myeloid differentiation program that precisely phenocopies the effects of suppressing MLL-AF9. Remarkably, suppressing Myb effectively eradicates aggressive and chemotherapy resistant AML. To further investigate Myb dependent transcriptional programs involved in mediating aberrant self-renewal in leukemia, we globally surveyed gene expression changes following acute shRNA-induced suppression of Myb in an established Tet-on competent model of MLL-AF9;NrasG12D-induced AML.
+
+DESIGN
+To enable regulatable suppression of Myb in AML, we retrovirally transduced established Tet-on competent MLL-AF9;NrasG12D induced AML cells with TRMPV-Neo vectors (Zuber et al., Nature Biotech, 2010) harboring shRNAs targeting Myb (shMyb.2572 and shMyb.2652), a control shRNA targeting Renilla Luciferase (shRen.713), or an empty miR30 cassette of the recipient cloning vector (Rec). Following drug selection, shRNA expression was induced by doxycycline treatment and total RNA was isolated from sorted shRNA expressing (Venus+/dsRed+) leukemia cells after 3 days of dox treatment, and subjected to Affymetrix microarray expression analysis. Expression profiles following expression of two independent Myb shRNAs were compared to those observed after induction in shRen.713- and Rec-expressing control samples (each in 3 biological replicates).
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+21828272
+

@@ -1,0 +1,18 @@
+TITLE
+Cleavage of NIK by the API2-MALT1 Fusion Oncoprotein Leads to Noncanonical NF-{kappa}B Activation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Proper regulation of nuclear factor κB (NF-κB) transcriptional activity is required for normal lymphocyte function, and deregulated NF-κB signaling can facilitate lymphomagenesis. We demonstrate that the API2-MALT1 fusion oncoprotein created by the recurrent t(11;18)(q21;q21) in mucosa-associated lymphoid tissue (MALT) lymphoma induces proteolytic cleavage of NF-κB–inducing kinase (NIK) at arginine 325. NIK cleavage requires the concerted actions of both fusion partners and generates a C-terminal NIK fragment that retains kinase activity and is resistant to proteasomal degradation. The resulting deregulated NIK activity is associated with constitutive noncanonical NF-κB signaling, enhanced B cell adhesion, and apoptosis resistance. Our study reveals the gain-of-function proteolytic activity of a fusion oncoprotein and highlights the importance of the noncanonical NF-κB pathway in B lymphoproliferative disease.
+
+DESIGN
+This study compares nine t(11;18)-positive MALT lymphomas (8 from the stomach and 1 from lung) and eight translocation negative MALT lymphomas (all from the stomach) using gene set enrichment analysis (GSEA). All cases were subjected to Affymetrix U133A and U133B microarray analysis. The cases used in this study are the same cases used for the study by Hamoudi et al. (2010) entitled " Differential expression of NF-kB target genes in MALT lymphoma with and without chromosome translocation: insights into molecular mechanism " with GEO reference number: GSE18736 and PubMed ID: http://www.ncbi.nlm.nih.gov/pubmed/20520640 All cases were subjected to non-specific filtering to eliminate non-variant probes, then the U133A and U133B probes were collapsed and the collapsed set was subjected to GSEA using the NF-kB target gene set as described in Hamoudi et al. (2010) study mentioned above. The 34 samples in this study are identical to the ones done in the previous series except that the gene set enrichment was done on just those 34 samples and not the complete set.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array GPL97 [HG-U133B] Affymetrix Human Genome U133B Array
+
+CITATIONS
+21273489
+

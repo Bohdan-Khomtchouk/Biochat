@@ -1,0 +1,18 @@
+TITLE
+Genomic Profiling of Adult Male Germ Cell Tumors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genomic profiling of a panel of 74 adult male germ cell tumors of various histologies from primary and metastatic sites using high resolution BAC array CGH. See Pubmed ID # 17943972. Completed Study: Statistical analyses were performed to identify regions that were frequently altered in all tumors, as well as in specific histologic subsets and from different tumor sites (i.e., primary gonadal, primary extra-gonadal, and metastatic). Target genes of altered regions were also identified using corresponding tumor expression data (see GEO GSE3218 for expression data). Ongoing: 1) Analysis of high level amplifications and multiple copy number gains and losses and underlying target genes. 2) Regional alterations associated with patient outcome Keywords: tumor profiling
+
+DESIGN
+DNA was isolated from tumor specimens using standard techniques. For the reference sample, karyotypically normal human female placental DNA was used. Samples were labeled with either Cy3 or Cy5 using a Bioprime Labeling Kit, combined with a differentially expressed reference sample, then hybridized to Spectral Genomic 2600 BAC arrays according to manufacturer's recommended conditions; 5 samples done with dye swaps to ensure reproducibility; otherwise one replicate per specimen. Images were captured using an Axon Instruments 4000B scanner and data were processed by median subarray centering followed by a global loess correction. Gains and losses were called using the Circular Binary Segmentation (CBS) algorithm. Associations with histologic subtypes and tumor sites were tested with Fisher's exact test. Genes mapping to regions that were differentially altered were tested for expression differences using Significance Analysis for Microarrays (SAM) by comparing tumors with a specific alteration to those lacking the alteration.
+
+PLATFORM
+GPL5679 Spectral Chip 2600 BAC array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

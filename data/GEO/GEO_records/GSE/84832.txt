@@ -1,0 +1,18 @@
+TITLE
+KRAB-ZFP/KAP1 is essential to restrict excessive IGF2 expression during mouse embryo development
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Insulin-like growth factor 2 (Igf2) is the major fetal growth hormone in mammals. Here we identify the Kruppel-associated-box (KRAB) zinc finger protein 568 (ZFP568) as a direct repressor of a placental specific Igf2 transcript (designated Igf2-P0) in early mouse development.  Loss of Zfp568, which leads to gastrulation failure, causes inappropriate Igf2-P0 activation.  Strikingly, deletion of paternal Igf2 can completely rescue Zfp568 knockout-induced gastrulation phenotypes. Mechanistically, ZFP568 and its binding site are required to maintain H3K9me3 and CpG methylation of the Igf2-P0 region. The ZFP568 binding site upstream of the Igf2-P0 transcript is highly conserved throughout Eutheria, along with the DNA binding domain of ZFP568 orthologs, with the exception of human, whose three Znf568 alleles previously linked to human head size at birth have rapidly evolved and mostly lost the ability to bind and suppress Igf2, coincident with the loss of Igf2-P0 transcript activity.  We speculate that the Igf2-P0 transcript and its repressor ZFP568 appeared in a common ancestor of placental mammals as a critical adaptation to boost Igf2 expression specifically in the placenta to regulate maternal supply and fetal demand for nutrients. These data also highlight the exquisite specificity and selectivity by which KRAB-ZFPs have been naturally selected to recognize their genomic targets for pinpoint heterochromatin establishment during mammalian evolution.
+
+DESIGN
+ChIP-seq using WT and KO ESCs/TSCs for ZFP568 and H3K9me3. RNA-seq using WT and KO ESCs/TSCs and hybrid ESCs. ChIP-seq using IGF2 promoter crispr cell lines for ZFP568 and H3K9me3. Two platforms, Illumina Hiseq2500 and Solid 5500xL were used for sequencing. For Solid platforms, raw data was aligned to mm9 by LifeScope™ Genomic Analysis Software v2.5.1 to generate bam files. All data from Illumina platform was deposited in fastq format.
+
+PLATFORM
+GPL15907 AB 5500xl Genetic Analyzer (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28522536
+

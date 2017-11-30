@@ -1,0 +1,18 @@
+TITLE
+antiOsLIC collar chip
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+30 collars were taken from wild type plants or antiOsLIC transgenic plants respectively. One collar from one plant only. The leaves are just sprout 2-3 cm (about 1-2 days) from the stem. For measuring the genes expression level, Wild type plants were taken as control. The developing collar from both line2 of OsLIC antisense transgenic plants and wild type were harvested at the heading stage. The position of the collar was about 1cm above the last developed collar. Total RNA was extracted from the collars using TRIzol regeant (Invitrogen, P/N 15596-018, USA) and purified by using Qiagen RNeasy columns (QIAGEN, Cat. NO. 74104). All the processes for cDNA and cRNA synthesis, cRNA fragmentation, hybridization, washing and staining, and scanning, were conducted according to the GeneChip Standard Protocol (Eukaryotic Target Preparation, Affymetrix). Poly-A RNA Control Kit and the One-Cycle cDNA Synthesis kit were used in this experiment as described in the website: http://www.affymetrix.com/products/arrays/specific/rice.affx.
+
+DESIGN
+To identify genes differentially expressed between the OsLIC antisense transgenic lines and the wild-type plants.The developing collar from both lines of OsLIC antisense transgenic plants and the wild type was harvested at the heading stage. The chip experiments were performed according to standard protocol from Affymetrix.The overall intensity of all probe sets of each array was scaled to 500 to ensure equal hybridization intensity; each probe set was assigned “P”, “A” or “M” and a p-value from the algorithm in GCOS, a log2 transformed signal ratio of each gene was calculated with use of the GCOS baseline tool, and log2 (ratio) ≥1 (2-fold change) was used as a cut-off.
+
+PLATFORM
+GPL2025 [Rice] Affymetrix Rice Genome Array
+
+CITATIONS
+18953406
+

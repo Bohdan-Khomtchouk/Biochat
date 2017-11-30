@@ -1,0 +1,18 @@
+TITLE
+Principles for the regulation of multiple developmental pathways by a versatile transcriptional factor, BLIMP1(ChIP-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcription factors (TFs) regulate biological events depending on cellular contexts, precise mechanisms for which are elusive.  BLIMP1 has been shown to play key roles in many developmental processes, canonically as a transcriptional repressor that targets to proximities of promoters.  Here, we systematically and quantitatively characterized genomic binding patterns of BLIMP1 across four distinct, developing cell types; photoreceptor precursors, embryonic intestinal epithelium, plasmablasts, and primordial germ cells (PGCs).  BLIMP1-binding sites are highly enriched in genomic regions proximal to transcription start sites (TSSs), majority of which are shared among cell types and are highly occupied by BLIMP1, whereas only a small number of associated genes are regulated consistently among cell types.  In contrast, BLIMP1 weakly binds to more distal, cell type-specific sites with divergent recognition sequences, which account for gene regulations much more efficiently in proportion to the magnitude of expression level changes, with notably similar impacts per site among cell types.  Various TF motifs contained in the cell type-specific binding sites exhibit only moderate impacts on transcription dynamics and BLIMP1-occupancy levels.  On the other hand, germ cells uniquely involve the shared binding sites in the specification, and grossly maintain the binding pattern in late PGCs, accounting for vast majority of the repressive targets.  Furthermore, we identified new sequence motifs strongly bound to BLIMP1 especially in the late PGCs, GGGAAA repeats, a few of which are located around key regulators of gametogenesis.  These findings provide a foundation for understanding the genomic regulation of BLIMP1 across developmental processes.
+
+DESIGN
+13 EGFP-BLIMP1 ChIP-seq samples in 7 cell types: d2PGCLC (2 replicates), d6PGCLC (2 replicates), E12.5 male and female PGC (E12.5_PGC_M and E12.5_PGC_F, respectively, 1 replicate each), intestinal epithelium (emIE, 2 replicates), Photoreceptor precursor (PRP, 2 replicates), Plasmablast (PB, 2 replicates).,  E12.5 male PGC input (E12.5_PGCM, input, 1 replicate)
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28981894
+

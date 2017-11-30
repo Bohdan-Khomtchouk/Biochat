@@ -1,0 +1,18 @@
+TITLE
+Anti-SLBP RIPchip data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The animal replication-dependent (RD) histone mRNAs are coordinately regulated with chromosome replication. They are the only known cellular mRNAs that are not polyadenylated.  Instead, the mature transcripts end in at a conserved stem-loop (SL) structure. This SL structure interacts stably with the stem-loop binding protein (SLBP), which is involved in all aspects of RD-histone mRNA metabolism. We used several genomic methods, including RNA Binding Protein IP followed by microarray analysis (RIP-ChIP) to analyze the RNA binding landscape of SLBP.
+
+DESIGN
+Reference based design on two color Agilent DNA microarrays.  Experimental sample is labeled in Ch1 (Cy3), which are mRNA bound by the SLBP RNA-binding protein.  The reference sample is labeled in Ch2 (Cy5) which are the polyribosomal mRNAs from the supernatant that were not bound by anti-SLBP.  Controls included no antibody in the IP (which tends to have non-specific background binding to the beads) and pre-incubation of the SLBP with the antibodies antigenic peptide, which blocks antibody binding to the SLBP.
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+26377992
+

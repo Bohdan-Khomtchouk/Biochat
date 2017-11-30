@@ -1,0 +1,18 @@
+TITLE
+LIN28A Over-expression RNAseq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To explore the effects of LIN28Ain human erythroid cell development, lentiviral transduction was used for LIN28A over-expression in erythroblasts cultured from mobilized CD34+ cells from six healthy adult human donors. LIN28A over-expression in cultured adult erythroblasts reduced the expression of let-7 and significantly increased HbF expression. Cellular maturation was maintained including enucleation. LIN28Aexpression in adult erythroblasts increased the expression of gamma-globin, and the HbF content of the cells rose to levels > 30% of their hemoglobin. mRNA was isolated on culture day 14 (see PMID: 23798711 for details). These RNA-Seq profiles were generated after flow cytometric sorting (live cell gating of culture Day 14 erythroblasts according to forward and side scatter). [Acknowledgement] We would like to thank Gerard Bouffard and the National Human Genome Research Institute for their expertise and assistance with RNA-seq.
+
+DESIGN
+Human CD34+ cells from healthy donor transduced with lentivirus expressing human LIN28A in serum free culture.  RNA extracted from sorted live cell gate on Day 14 using Qiagen miRNeasy Mini Kit.  1ug of RNA was used for library construction and Ribo depletion with globin subtraction.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Guo RL, Lee YT, Byrnes C, Miller JL (2017) Puromycin Selection Confounds the RNA-Seq Pro les of Primary Human Erythroblasts. Transcriptomics 5: 140. doi:10.4172/2329-8936.1000140
+

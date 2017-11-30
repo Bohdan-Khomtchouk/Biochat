@@ -1,0 +1,18 @@
+TITLE
+Upstream Anti-sense Promoters Act as Local Enhancers of Mammalian Protein-coding Genes
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Anti-sense transcription originating upstream of mammalian protein-coding genes is a well-documented phenomenon, but remarkably little is known about the function or regulation of these anti-sense promoters or the non-coding RNAs they generate. Here we define at nucleotide resolution the divergent transcription start sites (TSSs) near mouse mRNAs. We find that coupled sense and anti-sense TSSs form the boundaries of an evolutionarily conserved and nucleosome-depleted regulatory region with dramatically enriched transcription factor (TF) occupancy. Notably, as the distance between sense and anti-sense TSSs increases, so does the level of TF binding and signal-dependent gene activation. We further discover a cluster of anti-sense TSSs in macrophages with an enhancer-like chromatin signature. Remarkably, this signature identifies promoters that are selectively and rapidly activated during immune challenge. We conclude that anti-sense TSSs can serve as potent, local enhancers of sense-strand gene expression by facilitating TF binding and deposition of activating histone modifications.
+
+DESIGN
+ChIP-seq, Start-RNA-seq, and MNase-seq from mouse bone marrow-derived macrophages (BMDMs), and Start-RNA-seq from mouse embryonic fibroblasts (MEFs) are included. For ChIP-seq, two biological replicates are included for each of three treatment conditions; untreated, 30 minutes lipopolysaccharide (LPS), and 2 hours LPS. Each biological replicate for all ChIP conditions was sequenced in two lanes for depth, creating two technical replicates for each biological replicate. Raw files for paired technical replicates are labeled as repX.1 and repX.2, where repX.1 is technical replicate 1 and repX.2 is technical replicate 2. For Start-RNA-seq in BMDMs, two biological replicates are included for each of three treatment conditions; untreated, 30 min LPS, and 2 hr LPS. For MNase-seq, data from three biological replicates of untreated BMDMs are included. Four technical replicates of biological replicate 1, two technical replicates of biological replicate 2, and four technical replicates of biological replicate 3 are included. Raw files for paired technical replicates are labeled as repX.1, repX.2, repX.3, etc. For Start-RNA-seq in untreated MEFs, two biological replicates are included. Two technical replicates for each of the MEF Start-RNA-seq biological replicates are included. Paired technical replicates are labeled as repX.1 and repX.2.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+26028540
+

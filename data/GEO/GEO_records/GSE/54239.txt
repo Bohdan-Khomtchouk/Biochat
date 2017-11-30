@@ -1,0 +1,18 @@
+TITLE
+The PhoP-dependent ncRNA Mcr7 modulates the TAT secretion system in Mycobacterium tuberculosis [ChIP-Seq]
+
+ORGANISM
+Mycobacterium tuberculosis H37Rv
+
+SUMMARY
+The PhoPR two-component system is essential for virulence in Mycobacterium tuberculosis where it controls expression of approximately 2% of the genes, including those for the ESX-1 secretion apparatus, a major virulence determinant. Mutations in phoP lead to compromised production of pathogen-specific cell wall components and attenuation both ex vivo and in vivo. Using antibodies against the native protein in ChIP-seq experiments (chromatin immunoprecipitation followed by high-throughput sequencing) we demonstrated that PhoP binds to at least 35 loci on the M. tuberculosis genome. The PhoP regulon comprises several transcriptional regulators as well as genes for polyketide synthases and PE/PPE proteins. Integration of ChIP-seq results with high-resolution transcriptomic analysis (RNA-seq) revealed that PhoP controls 30 genes directly, whilst regulatory cascades are responsible for signal amplification and downstream effects. The most prominent site of PhoP regulation was located in the intergenic region between rv2395 and PE_PGRS41, where the mcr7 gene codes for a small non-coding RNA (ncRNA). Northern blot experiments confirmed the absence of Mcr7 in the M. tuberculosis phoP mutant as well as low-level expression of the ncRNA in M. tuberculosis complex members other than M. tuberculosis. By means of genetic and proteomic analyses we demonstrated that Mcr7 modulates translation of the tatC mRNA thereby impacting the activity of the Twin Arginine Translocation (Tat) protein secretion apparatus. As a result, secretion of the immunodominant Ag85 complex and the beta-lactamase BlaC is affected, among others. Mcr7, the first ncRNA of M. tuberculosis whose function has been established, therefore represents a missing link between the PhoPR two-component system and the downstream functions necessary for successful infection of the host.
+
+DESIGN
+ChiP-Seq: M. tuberculosis H37Rv (GC1237) cultures grown in vitro to exponential phase. Two wild type samples plus one isogenic phoP mutant as control
+
+PLATFORM
+GPL17967 Illumina Genome Analyzer IIx (Mycobacterium tuberculosis H37Rv)
+
+CITATIONS
+24874799
+

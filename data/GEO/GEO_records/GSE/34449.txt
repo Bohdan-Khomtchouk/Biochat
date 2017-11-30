@@ -1,0 +1,18 @@
+TITLE
+Digital RNA Sequencing Minimizes Sequence-Dependent Bias and Amplification Noise with Optimized Single Molecule Barcodes
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+RNA-Seq is a powerful tool for transcriptome profiling, but is hampered by sequence-dependent bias and inaccuracy at low copy numbers intrinsic to exponential PCR amplification.  We developed a simple strategy for mitigating these complications, allowing truly digital RNA-Seq.  Following reverse transcription, a large set of barcode sequences is added in excess, and nearly every cDNA molecule is uniquely labeled by random attachment of barcode sequences to both ends.  After PCR, we applied paired-end deep sequencing to read the two barcodes and cDNA sequences.  Rather than counting the number of reads, RNA abundance is measured based on the number of unique barcode sequences observed for a given cDNA sequence.  We optimized the barcodes to be unambiguously identifiable even in the presence of multiple sequencing errors.  This method allows counting with single copy resolution despite sequence-dependent bias and PCR amplification noise, and is analogous to digital PCR but amendable to quantifying a whole transcriptome. We demonstrated transcriptome profiling of E. coli with more accurate and reproducible quantification than conventional RNA-Seq.
+
+DESIGN
+We analyzed two replicates of the same bulk E. coli transcriptome sample. In each sample, we included internal standards to demonstrate that the digital RNA-Seq system may accurately count fragments correctly.
+
+PLATFORM
+GPL15010 Illumina HiSeq 2000 (Escherichia coli str. K-12 substr. MG1655)
+
+CITATIONS
+22232676
+

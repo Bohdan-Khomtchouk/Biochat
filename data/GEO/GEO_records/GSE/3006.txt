@@ -1,0 +1,18 @@
+TITLE
+Genome-wide transcriptional dependencies on TAF1 functional domains
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+TFIID plays a central role in regulating the expression of most eukaryotic genes. Of the 14 TAF subunits that compose TFIID, TAF1 is one of the largest and most functionally diverse.  Yeast (Saccharomyces cerevisiae) TAF1 reportedly possesses at least four distinct activities including a histone acetyltransferase, and TBP, TAF, and promoter binding.  Establishing the importance of each region in gene expression through deletion analysis has been hampered by the cellular requirement of TAF1 for viability.  To circumvent this limitation we introduced galactose-inducible deletion derivatives of previously defined functional regions of TAF1 into a temperature sensitive taf1ts2 yeast strain.  After galactose-induction and temperature inactivation of the temperature-sensitive allele, we examined the properties and phenotypes of the mutants, including their impact on genome-wide transcription.  Virtually all TAF1-dependent genes, which comprise ~90% of the yeast genome, displayed a strong dependency upon all regions of TAF1 that were tested.  This might reflect the need for each region of TAF1 to stabilize TAF1 against degradation or that all TAF1-dependent genes require the many activities of TAF1.  Paradoxically, deletion of the region of TAF1 that is important for promoter binding interfered with the expression of many genes that are normally TFIID-independent/SAGA-dominated, suggesting that this region normally prevents TAF1 (TFIID) from interfering with the expression of SAGA-regulated genes. Keywords: genetic modification
+
+DESIGN
+Experiment contains 14 total hybridizations.  Yeast cDNA dual channel (Cy3/Cy5) cohybridization.  All experiments performed in duplicate (dye swap).  Homotypic (reference vs reference) sample included with each hybridization.  Dye swap data was mode normalized using " R " software package and then corrected by B. subtilis spiking controls (added to each culture based on OD600 units).  Platform GPL1220: non-commercial nucleotide arrays. PCR amplified yeast (Saccharomyces cerevisiae) genomic DNA chip with ResGen Primer Pairs.  Amplification as described at http://cmgm.stanford.edu/pbrown/protocols/2_DNA.html. Printed on aminosaline glass slides by the Penn State University Microarray facility
+
+PLATFORM
+GPL1220 PSU_Yeast6000_V2
+
+CITATIONS
+16407318
+

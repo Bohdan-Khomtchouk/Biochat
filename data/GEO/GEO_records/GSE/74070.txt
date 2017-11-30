@@ -1,0 +1,18 @@
+TITLE
+Learning the Sequence Determinants of Alternative Splicing from Millions of Random Sequences
+
+ORGANISM
+Homo sapiens ; synthetic construct
+
+SUMMARY
+Most human transcripts are alternatively spliced, and many disease-causing mutations affect RNA splicing. Towards better modeling the sequence determinants of alternative splicing, we measured the splicing patterns of nearly 2 million (M) synthetic mini-genes, which include degenerate subsequences totaling to nearly 100M bases of variation. The massive size of these training data allowed us to improve upon current models of splicing as well as to gain new mechanistic insights. Our results show that a vast majority of hexamer sequence motifs measurably influence splice site selection when positioned within alternative exons, with multiple motifs acting additively rather than cooperatively. Intriguingly, motifs that enhance (suppress) exon inclusion in alternative 5’ splicing also enhance (suppress) exon inclusion in alternative 3’ or cassette exon splicing, suggesting a universal mechanism for alternative exon recognition.  Finally, our empirically trained models are highly predictive of the effects of naturally occurring variants on alternative splicing in vivo.
+
+DESIGN
+HEK293 cells were transfected with two alternatively spliced plasmid libraries. Spliced reads were sequenced to determine isoform counts for each library sequence.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL15228 Illumina HiSeq 2000 (synthetic construct) GPL17769 Illumina MiSeq (synthetic construct)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

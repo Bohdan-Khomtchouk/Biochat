@@ -1,0 +1,18 @@
+TITLE
+MethylPurify: tumor purity deconvolution and differential methylation detection from tumor DNA methylomes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We propose a statistical algorithm MethylPurify that uses regions with bisulfite reads showing discordant methylation levels to infer tumor purity from tumor samples alone. With purity estimate, MethylPurify can identify differentially methylated regions (DMRs) from individual tumor samples without genomic variation information or prior knowledge from other datasets. In simulations with mixed bisulfite reads from cancer and normal cell lines, MethylPurify correctly inferred tumor purity and identified over 96% of the DMRs. On real patient data where tumor to normal comparison were used as golden standard, MethylPurify called DMR from tumor samples alone at over 57% sensitivity and 91% specificity.
+
+DESIGN
+Lung adenocarcinoma cancer and normal tissues from 5 patients were captured by Agilent SureSelect Methyl-Seq system, followed by bisulfite sequencing.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25103624
+

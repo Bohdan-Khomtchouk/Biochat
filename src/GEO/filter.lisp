@@ -30,7 +30,8 @@
 (defvar *gds-same-histones* (group-by-histone :gds))
 (defvar *gse-same-histones* (group-by-histone :gse))
 
-(defvar *geo-same-histones* *gds-same-histones*)
+(defvar *geo-same-histones* #h(:gds *gds-same-histones*
+                               :gse *gse-same-histones*))
 
 
 ;;; organism-based filtering

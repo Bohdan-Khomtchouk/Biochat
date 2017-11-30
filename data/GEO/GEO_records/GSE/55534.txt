@@ -1,0 +1,18 @@
+TITLE
+Rate of elongation by RNA polymerase II is influenced by specific gene features and histone modifications
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The rate of transcription elongation plays important roles in the timing of expression of full-length transcripts as well as for the regulation of alternative splicing. In this study we coupled Bru-Seq technology with 5,6-dichlorobenzimidazole 1-β-D-ribofuranoside (DRB) to estimate the elongation rates of over 2,000 individual genes in human cells. This technique, BruDRB-Seq, revealed gene-specific differences in elongation rates with a median rate of around 1.5 kb/min. We found that genes with fast elongation rates showed higher densities of H3K79m2 and H4K20me1 marks compared to slower elongating genes. Furthermore, fast elongation rates had a positive correlation with gene length, low complexity DNA sequence and distance from nearest active transcription unit. Features that negatively correlated with elongation rate included exon density and the number of LINE sequences in the gene. The BruDRB-Seq technique offers new opportunities to interrogate mechanisms of regulation of transcription elongation.
+
+DESIGN
+Measurement of RNA Pol II elogation rate. Normal fibroblasts (HF1 and TM), Cockayne syndrome group B fibroblasts, K562 and MCF-7 cells were exposed to DRB for 60 minutes, after which a washout was performed. Nascent RNA was labeled using bromouridine for 10 minutes immediately after the washout. The genomic region extending from actice Trancription Start Sites was used to determine the gene's elongation rate. Please note that the nf_0h_3* samples are duplicated sample records of GSM1062445 and GSM1062446, for the convenient retrieval of the complete raw data from SRA.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24714810
+

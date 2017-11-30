@@ -1,0 +1,18 @@
+TITLE
+Digital gene expression profiling of primary acute lymphoblastic leukemia cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We determined the genome-wide digital gene expression (DGE) profiles of primary acute lymphoblastic leukemia (ALL) cells from 28 patients and fractionated blood cells from healthy blood donors taking advantage of “second generation” sequencing technology. The patients included in the study represent distinct subtypes of B-cell precursor (BCP) ALL and T-cell lineage ALL (T-ALL) and the controls are fractionated CD19+ and CD3+ cells.
+
+DESIGN
+Gene expression analysis of 28 ALL patient samples with different  immunophenotypic backgrounds including T-ALL (n=4) and patients with BCP ALL with diverse cytogenetic backgrounds: High Hyperploidy (HeH) (n=10), t(9;22) BCR-ABL1 (n=3), t(12;21) ETV6-RUNX1 (n=4), dic(9;20) (n=3), t(1;19)TCF3-PBX1, MLL/11q23 (n=1) and undefined/non-recurrent aberrations (n=1). Fractionated b-cells (CD19+) and t-cells (CD3+) isolated from peripheral blood of healthy donors were used as controls. Sequencing libraries were prepared from 1 µg of total RNA using reagents from the NlaIII Digital Gene Expression Tag Profiling kit (Illumina Inc, San Diego, CA, USA). mRNA was captured on magnetic oligo(dT) beads and reverse transcribed into double-stranded cDNA. The cDNA was cleaved using the restriction enzyme NlaIII. An adapter sequence containing the recognition sequence for the restriction enzyme MmeI was ligated to the NlaIII cleavage sites. The adapter-ligated cDNA was digested with MmeI to release the cDNA from the magnetic bead, while leaving 17 base-pairs of sequence in the fragment. The fragments were dephosphorylated and purified by phenol-chloroform. A second adapter was ligated at the MmeI cleavage sites. The adapter-ligated cDNA fragments were amplified by PCR, and the PCR products were purified on a 6% polyacrylamide gel. The ~96 base pair PCR products were excised from the gel and eluted overnight, followed by ethanol precipitation and re-suspension. Purified libraries were quality controlled and quantified on a Bioanalyzer using DNA 1000 series or High Sensitivity chips.  The DGE libraries were diluted to a 10 nM concentration and sequenced on one lane of an Illumina GAII or GAIIx for 18 cycles.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+22173241 , 24063430
+

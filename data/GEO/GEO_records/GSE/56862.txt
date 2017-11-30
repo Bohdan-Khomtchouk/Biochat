@@ -1,0 +1,18 @@
+TITLE
+Genome-wide quantification of microRNA processing efficiency from RNA-seq data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microprocessor is responsible for conversion of pri-miRNA transcripts into pre-miRNA hairpins in miRNA biogenesis. The in vivo properties of this process remain enigmatic. Here, we present the first study of in vivo transcriptome-wide pri-miRNA processing using next-generation sequencing of chromatin-associated pri-miRNAs. We identify a distinctive Microprocessor signature in the transcriptome profile, from which efficiency of the endogenous processing event can be accurately quantified. This analysis reveals differential susceptibility to Microprocessor cleavage as a key regulatory step in miRNA biogenesis. Processing is highly variable among pri-miRNAs and a better predictor of miRNA abundance than primary transcription itself. Processing is also largely stable across three cell lines, suggesting a major contribution of sequence determinants. Based on differential processing efficiencies we define functionality for short sequence features adjacent to the pre-miRNA hairpin. In conclusion, we identify Microprocessor as the main hub for diversified miRNA output and suggest a role for uncoupling miRNA biogenesis from host gene expression.
+
+DESIGN
+We performed polyA independent deep sequencing of the chromatin-isolated RNA fraction for 5 samples: 2 replicates in HeLa cells, 1 Drosha knock down in HeLa cells, 1 sample for A549 cells and 1 sample for HEK293 cells. We also performed deep sequencing of the small RNA fraction in the same cell lines.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25310978 , 28250203
+

@@ -1,0 +1,18 @@
+TITLE
+FoxA1 regulates sweat secretion through Best2 and Nkcc1 ion transporters
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Body temperature is maintained in a narrow range in mammals, primarily controlled by sweating. In humans, the dynamic thermoregulatory organ, comprised of 2-4 million sweat glands distributed over the body, can secrete up to 4 liters of sweat per day1, thereby making it possible to withstand high temperatures and run long distances. The genetic basis for sweat gland function, however, is largely unknown. We find that a forkhead transcription factor, FoxA1, is required to generate mouse sweating capacity. When FoxA1 is ablated, mice are otherwise healthy and sweat gland morphogenesis occurs, but no sweating ensues, with the Nkcc1 sodium/potassium/chloride co-transporter and a specialized Ca2+-activated bicarbonate channel protein, Best2, both sharply down-regulated, and glycoprotein accumulating in gland lumens and ducts. Furthermore, Best2 knockout mice display comparable anhidrosis and glycoprotein accumulation. These findings link earlier observations that both sodium/potassium/chloride exchange and Ca2+ are required for sweat production.  FoxA1 is inferred to regulate two corresponding features of sweat secretion.  One, via Best2, catalyzes a bicarbonate gradient that could help to drive calcium-associated ionic transport; the other, requiring Nkcc1, facilitates monovalent ion exchange into sweat. These mechanistic components can be pharmaceutical targets to defend against hyperthermia and alleviate defective thermoregulation in the elderly2, and may provide a model relevant to more complex secretory processes.
+
+DESIGN
+For expression profiling of FoxA1, hairless fore footpad skin (6) was collected from FoxA1 knockouts and wild-type littermates at P10, P14 and P31. Three skin samples from 3 embryos for each genotype at each time point were used for biological replicates. Total RNAs were isolated with Trizol (Invitrogen), precipitated by 7.5M LiCl (Ambion), and cyanine-3-labeled cRNAs were hybridized to the NIA Mouse 44K Microarray v3.0  (Agilent Technologies). Triplicate data were analyzed by ANOVA (6). Genes with FDR < 0.05, fold difference > 1.5 and mean log intensity > 2.0 were considered to be significant.
+
+PLATFORM
+GPL6867 NIA Mouse 44K Microarray v3.0 (Whole Genome 60-mer Oligo) [Agilent 015087]
+
+CITATIONS
+22223659
+

@@ -1,9 +1,0 @@
-TITLE
-Vanadium pentoxide induced gene expression in human lung fibroblasts
-
-ORGANISM
-Homo sapiens
-
-SUMMARY
-Exposure to vanadium pentoxide (V2O5) is a cause of occupational bronchitis. We evaluated gene expression profiles in cultured human lung fibroblasts exposed to V2O5 in vitro in order to identify candidate genes that could play a role in airway remodeling associated with V2O5-induced bronchitis. Gene expression was measured at various time points over a 24 hr period using the Affymetrix Human Genome U133A 2.0 Array. Expression data were preprocessed using RMA with a log2 transformation. Statistical analysis was performed in R using the affylmGUI package using a linear model with contrasts between untreated control and V2O5-exposed fibroblasts. Genes identified as statistically significant were filtered by selecting only those genes that exhibited a > 2-fold change. Quantitative real-time RT-PCR was utilized to confirm expression of selected genes. More than 2000 genes were significantly changed in response to V2O5 over the time course of our experiment. Genes altered by V2O5 were involved in biologic processes related to cell growth and differentiation, oxidative stress responses, immune regulation, and interferon signaling and apoptosis. In particular, V2O5 induced genes that encode growth factors involved in epithelial repair (HB-EGF) or angiogenesis (VEGF), peroxide generating enzymes (SOD2), pro-inflammatory enzymes (PGHS2), while suppressing genes involved in growth arrest (GAS1, STAT-1) and cell cycle inhibition (CDKN1B). Our study also identified a variety of novel genes that could be used as biomarkers of V2O5-induced bronchitis or could serve as candidate genes for disease progression. Keywords: time course, stress response
-

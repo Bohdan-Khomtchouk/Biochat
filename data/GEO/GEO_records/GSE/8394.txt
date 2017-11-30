@@ -1,0 +1,18 @@
+TITLE
+cis sequence effects on gene expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Sequence and transcriptional variability within and between individuals are typically studied independently. The joint analysis of sequence and gene expression variation provides insight into biological mechanisms that underlie gene regulation and function. We investigated the role of sequence variation in cis on gene expression (cis sequence effects) in a group of genes frequently studied in cancer research. We assessed the proportion of genes exhibiting cis sequence effects and the proportion of gene expression variation explained by cis sequence effects, and compared our results to the literature. Keywords: genetical genomics
+
+DESIGN
+Thirty lymphoblastoid cell lines drawn from the SNP500Cancer resource were cultured in triplicate. The intersection of gene expression profiling data at N=697 candidate genes and genomic sequencing data at N=552 candidate genes from these cell lines yielded data at thirty candidate genes with strong and variable gene expression suitable for the investigation of cis sequence effects. We used regression on SNP genotype in an additive model, the single-point additive model of Mander, and the haplotype phylogeny scanning approach of Templeton to evaluate associations between individual SNPs, all SNPs at a gene, and diplotypes, with log-transformed and rank-invariant normalized mean gene expression. SNPs and diplotypes at eight candidate genes exhibited statistically significant (p < 0.05) association with gene expression using one or more methods. Data were available for fourteen candidate genes common to the literature and our analysis, five of which exhibited significant cis effects in this study. Using the literature results as a “gold standard”, and after excluding two genes that exhibited discordant literature results, our study concordantly identified 4 of 5 genes, and 6 of 7 genes as exhibiting and not exhibiting significant cis sequence effects, respectively.
+
+PLATFORM
+GPL5089 Custom Illumina Sentrix Human Cancer Genes
+
+CITATIONS
+17727713
+

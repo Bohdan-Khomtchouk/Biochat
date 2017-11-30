@@ -1,0 +1,18 @@
+TITLE
+Development of gene expression for an INH-responsive transcriptional regulator InbR
+
+ORGANISM
+Mycobacterium bovis BCG str. Pasteur 1173P2
+
+SUMMARY
+To further determine the gene expression profile of InbR, encoded by Rv0275c in Mycobacterium tuberculosis, whole genome microarray analysises were applied to inbR-overexpressing strain and wild type Mycobacterium bovis BCG. Comparison of the gene expression pattern of logarithmic growth phase wild-type M. bovis BCG and that of the inbR-overexpression strain revealed a total of 142 genes that were significantly up-regulated (2-fold to 187-fold, p < 0.05) and 200 that were down-regulated (2-fold to 113-fold, p < 0.05). Strikingly, most of the genes in the regulon were predicted to function as molecular chaperones, heat shock proteins, or transcription factors.
+
+DESIGN
+Microarrays used in this study consisted of 15744 60-mer probes, which were synthesized in situ by Agilent Technologies. The probes were designed based on the genome sequences of M. bovis BCG Pasteur_1173P2_uid58781 (GenBank accession numbers: NC_008769) and covered 3934 ORFs. Each probe was repeated thrice on the array. The Inb-overexpression M. bovis BCG strain, M. bovis BCG wild-type strain, and INH-treated strain (M. bovis BCG wild-type strain grown on exponential phase OD600 ≈ 0.8 and treated with 0.5 μg/mL INH for 24 h) grown on exponential phase OD600 ≈ 1.2 were harvested. Total RNA was extracted and purified using RNeasy mini kit (Cat. #74106, QIAGEN, GmBH, Germany) following the manufacturer’s instructions. RNA integrity was determined by utilizing RNA integrity number (RIN) generated using an Agilent Bioanalyzer 2100 (Agilent technologies, Santa Clara, CA, US). Total RNA was amplified and labeled by Low Input Quick Amp Labeling Kit, One-Color (Cat. #5190-2305, Agilent technologies) following the manufacturer’s instructions. Labeled cRNA were purified using the RNeasy mini kit.   Each slide was hybridized with 600 ng Cy3-labeled cRNA using Gene Expression Hybridization Kit of Agilent technologies (Cat. #5188-5242) according to the manufacturer’s instructions. After 17 h of hybridization with 15744 60-mer probes, slides were washed in staining dishes (Cat. # 121, Thermo Shandon, Waltham, MA, US) with Gene Expression Wash Buffer Kit (Cat. # 5188-5327, Agilent Technologies) following the manufacturer’s instructions. Slides were scanned using an Agilent Microarray Scanner (Cat. # G2565CA) with default settings; Dye channel: Green; Scan resolution = 5 μm; and PMT = 100% and 10%, 16 bit. Data were extracted with Feature Extraction software (ver. 10.7, Agilent Technologies). Raw data were normalized using the Quantile algorithm in the Gene Spring Software (ver. 11.0, Agilent Technologies). Normalized microarray expression data deemed significant (P ≤ 0.05) from the InbR-overexpression M. bovis BCG or BCG exposed to INH were selected, and the genes with fold change > 2.0 were selected for further analysis.
+
+PLATFORM
+GPL20248 Agilent-055694 Bacillus Calmette Guerin 8X15K array [Probe Name Version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

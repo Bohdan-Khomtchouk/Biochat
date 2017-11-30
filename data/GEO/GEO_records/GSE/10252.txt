@@ -1,0 +1,18 @@
+TITLE
+Comparison of gene expression in MGAS315 and its isogenc mtsR mutant
+
+ORGANISM
+Streptococcus pyogenes
+
+SUMMARY
+RATIONALE: mtsR is a regulator of genes involved in ion aquisition in S. pyogenes that has been suggested to be involved in development of invasive infections. We wanted to identify mtsR regulon. EXPERIMENT: We compared global gene expression in wild type strain MGAS315 with expression in its isogenc mtsR mutant. Experiment was performed with bacteria in exponential (EXP) and at late exponential phase (Late EXP) grown in THY medium Keywords: strain comparison
+
+DESIGN
+1. Three independent cultures of WT or mutant strain bacteria at exponential phase of growth (OD60=0.5, biological replicates) served as source of total RNA. RNA was transcribed into cDNA, fragmented and labeled using standard Affymetrix protocol for prokaryotic target preparation. Hybridization with custom Affymetrix array and scaning was performed using protocol recomended by manufacturer. Hybridizaton values aquired by GCOS (in CHP files) are normalized to global hybridization intesity. 2. Analogous experiment was performed with bacteria grown to OD600=1.2 representing late exponential growth phase
+
+PLATFORM
+GPL2129 Affymetrix RML Custom Pathogenic chip 1
+
+CITATIONS
+20080771
+

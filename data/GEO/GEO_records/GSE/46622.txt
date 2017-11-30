@@ -1,0 +1,18 @@
+TITLE
+High-throughput sequencing of matched colorectal normal, tumor and metastasis tissues and proof-of principal bioinformatics modeling of therapeutic consequences of miRNA applications
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MiRNAs are discussed as diagnostic and therapeutic molecules. However, effective miRNA drug treatments with miRNAs are so far hampered by the complexity of the miRNA networks. To identify potential miRNA drugs in colorectal cancer, we profiled miRNA and mRNA expression in matching normal, tumor and metastasis tissues of eight patients by Illumina sequencing. We identified miRNA-1 as top candidate differentially expressed in tumor and metastasis. Furthermore, miRNA-1 was de-regulated in 16 additional tumor entities underscoring its central role in tumor pathogenesis. Functional analyses showed an additive effect of miRNA-1 with camptothecin treatment. We used a systems-biology simulation of cellular cancer models implemented in PyBios to investigate miRNA-1 function and assessed the effects of depletion as well as overexpression in terms of miRNA-1 as a potential treatment option. In this system miRNA-1 treatment reverted the disease phenotype with different effectiveness among the patients. Scoring the gene expression changes obtained through mRNA-Seq from the same patients we show that the combination of deep sequencing and systems biological modeling can help to identify patient-specific responses to miRNA treatments. We present this data as guideline for future pre-clinical assessments of new and personalized therapeutic options.
+
+DESIGN
+Examination of miRNA expression values by Illumina sequencing of matched benign, tumor and metastasis tissues of 8 colorectal cancer patients. For 4 of these patients all tissues have been resequenced to obtain mRNA expression values.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+23874421
+

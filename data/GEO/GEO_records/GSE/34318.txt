@@ -1,0 +1,18 @@
+TITLE
+Mapping regulatory elements using signatures of open chromatin in Arabidopsis thaliana
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Gene expression is controlled by the complex interaction of transcription factors binding to promoters and other regulatory DNA elements.  One common characteristic of the genomic regions associated with regulatory proteins is a pronounced sensitivity to DNase I digestion.  We reported genome-wide high resolution maps of DNase I hypersensitive (DH) sites from both seedling and flower tissues of Arabidopsis from the Columbia (Col) ecotype and the corresponding ddm1 (deficient in DNA methylation 1) mutant. We identified 38,290, 41,193, 38,313, and 38,153 DH sites in leaf (Col), flower (Col), ddm1 leaf, and ddm1 flower tissues, respectively. Approximately 45% of the DH sites in all tissue types were located within 1 kb of a transcription start site (TSS), which represents a putative promoter region. Pairwise comparisons of the DH sites derived from different tissue types revealed DH sites specific to each tissue. DH sites are significantly associated with long non-coding RNAs (lncRNAs) and conserved non-coding sequences (CNSs). The binding sites of MADS-domain transcription factors AP1 and SEP3 are highly correlated with DH sites.
+
+DESIGN
+To map the DH sites in A. thaliana, we constructed a total of five DNase-seq libraries using leaf and flower tissues from the Columbia (Col) ecotype and a ddm1 (deficient in DNA methylation 1) mutant of Columbia.  These libraries were sequenced using the Illumina Genome Analyzer.  We obtained a total of 190 million (M) sequence reads from these libraries.  Approximately 114 M reads had a single sequence match in the A. thaliana genome
+
+PLATFORM
+GPL9302 Illumina Genome Analyzer II (Arabidopsis thaliana)
+
+CITATIONS
+22773751
+

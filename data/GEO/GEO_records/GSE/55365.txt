@@ -1,0 +1,18 @@
+TITLE
+Fermentative and nitrate respiratory transcriptome analysis of E. coli K12 MG1655
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+Determining how facultative anaerobic organisms sense and direct cellular responses to electron acceptor availability has been a subject of intense study. However, even in the model organism Escherichia coli, established mechanisms only explain a small fraction of the hundreds of genes that are regulated during shifts in electron acceptor availability. Here we propose a qualitative model that accounts for the full breadth of regulated genes by detailing how two global transcription factors (TFs), ArcA and Fnr of E. coli, sense key metabolic redox ratios and act on a genome-wide basis to regulate anabolic, catabolic, and energy generation pathways. We first fill gaps in our knowledge of this transcriptional regulatory network by carrying out ChIP-chip and gene expression experiments to identify 463 regulatory events. We then interfaced this reconstructed regulatory network with a highly curated genome-scale metabolic model to show that ArcA and Fnr regulate > 80% of total metabolic flux and 96% of differential gene expression across fermentative and nitrate respiratory conditions. Finally, based on the data we propose a feedforward with feedback trim regulatory scheme by showing extensive repression of catabolic genes by ArcA and extensive activation of chemiosmotic genes by Fnr. We further corroborated this regulatory scheme by showing a 0.71 r2 (p < 1e-6) correlation between changes in metabolic flux and changes in regulatory activity across fermentative and nitrate respiratory conditions. We also are able to relate the proposed model to a wealth of previously generated data by contextualizing the existing transcriptional regulatory network.
+
+DESIGN
+Biological replicates were performed in triplicate for Δfnr, ΔarcA, and wild type Escherichia coli K12 MG1655 strains under both fully fermentative and nitrate respiratory conditions. An 18 chip study with three different strains under two different culture conditions.
+
+PLATFORM
+GPL199 [Ecoli_ASv2] Affymetrix E. coli Antisense Genome Array GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+24699140
+

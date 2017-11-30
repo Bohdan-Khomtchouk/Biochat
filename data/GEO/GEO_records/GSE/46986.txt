@@ -1,0 +1,18 @@
+TITLE
+Developmental dynamics of floral gene regulation [ChIP-Seq]
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Development of eukaryotic organisms is controlled by transcription factors that trigger specific and global changes in gene expression programmes. In plants, MADS-domain transcription factors act as master regulators of developmental switches and organ specification. However, the mechanisms by which these factors dynamically regulate the expression of their target genes at different developmental stages are still poorly understood. Here, we characterize the dynamic relationship of chromatin accessibility, gene expression and DNA-binding of two MADS-domain proteins during Arabidopsis flower development. The developmental dynamics of DNA-binding of APETALA1 and SEPALLATA3 is largely independent of chromatin accessibility, and our findings suggest that AP1 acts as 'pioneer factor' that modulates chromatin accessibility, thereby facilitating access of other transcriptional regulators to their target genes. Our data provide a primer to the idea that cellular differentiation in plants can be associated to dynamic changes in chromatin accessibility, as consequence of the action of master transcription factors.
+
+DESIGN
+We used the AP1-GR system to conduct chromatin immunoprecipitation experiments with SEP3-specific antibodies and GR atibodies followed by deep-sequencing (ChIP-Seq) in order to determine SEP3 and AP1 binding sites on a genome-wide scale. Samples were generated from tissue in which the AP1-GR protein was induced using a treatment of 1 uM DEX to the shoot apex. The material was collect 2, 4 and 8 days after treatment. As control, we performed ChIP experiments using pre-immune serum at the different time points. Experiments were done in two biological replicates for 4 days and 8 days time-points while one biological replicate was done for control samples and 2 days time-point. The GSE47981 includes expression data that are complementary to the data in the GSE46986 and GSE46894.
+
+PLATFORM
+GPL9302 Illumina Genome Analyzer II (Arabidopsis thaliana) GPL17970 Illumina MiSeq (Arabidopsis thaliana)
+
+CITATIONS
+24581456
+

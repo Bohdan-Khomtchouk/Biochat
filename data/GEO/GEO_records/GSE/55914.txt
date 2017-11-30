@@ -1,0 +1,18 @@
+TITLE
+RNA-RNA interactions enable specific targeting of noncoding RNAs to nascent pre-mRNAs and chromatin sites
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We developed a general method based on RNA Antisense Purification (RAP) to identify the intermolecular RNA-RNA interactions of a target RNA (RAP-RNA). RAP-RNA identifies endogenous RNA-RNA complexes through in vivo crosslinking, RNA capture with antisense oligonucleotides, and high-throughput RNA sequencing. This approach provides a systematic view of other RNAs that interact with a target RNA, and furthermore can distinguish between direct and indirect RNA-RNA interactions through the use of crosslinking reagents with different reactivities with proteins and nucleic acids.  We applied this method to numerous small and large noncoding RNAs, including U1 snRNA, Malat1 lncRNA, Xist lncRNA, U3 snoRNA, U17/Snora73a snoRNA and U12 snRNA.
+
+DESIGN
+We examined the RNA and chromatin interactions of ncRNAs in mouse embryonic stem cells.  We developed and applied three related protocols: RAP-RNA[AMT], RAP-RNA[FA], and RAP-RNA[FA-DSG]. In the RAP-RNA[AMT] protocol, we fixed direct RNA-RNA hybrids in mouse embryonic stem (ES) cells with 4'-aminomethyltrioxalen (AMT), a psoralen-derivative crosslinker; AMT generates inter-strand crosslinks between uridine bases in RNA but does not react with proteins. In the RAP-RNA[FA] protocol, we used a different crosslinking strategy to capture both direct and indirect RNA-RNA interactions: we fixed ES cells using formaldehyde (FA), which crosslinks protein-RNA and protein-protein interactions and thus can capture both indirect interactions as well as direct interactions that are caged or flanked by proteins. In the RAP-RNA[FA-DSG] protocol, we fixed with both FA and disuccinimidyl glutarate (DSG), a strong protein-protein crosslinker, to more efficiently capture RNAs linked indirectly through multiple protein intermediates.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25259926
+

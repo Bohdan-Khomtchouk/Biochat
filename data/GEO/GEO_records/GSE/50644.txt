@@ -1,0 +1,18 @@
+TITLE
+Analysis of miRNA expression in lung (CC10) VEGF transgenic mice and their wild type litters
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Vascular Endothelial Growth Factor (VEGF) is a critical regulator of pulmonary Th2 inflammation but the underlying mechanism and the roles of miRNAs in this process have not been defined. We analyzed the effect of VEGF on lung microRNAs by microarray analysis and validated the findings by Taqman qRT-PCR. We compared the levels of microRNAs in the lungs of transgenic mice with their wild type litters after overexpression of VEGF from a lung epithelium-restricted transgene.  VEGF was overexpressed in the lung epithelium of CC10-rtTA-VEGF transgenic mice by adding Doxycycline to their drinking water for 7-10 days. RNA from the lungs of VEGF transgenic mice and their wild type litters were extracted and analyzed by microarray. The expression levels of microRNAs that were significanly altered were validated in another group of mice.
+
+DESIGN
+Lung RNA from each transgenic mouse was labeled with Cy5 and lung RNA from wild type mice were labeled with Cy3. The two labeled RNAs were hybridized to the miRNA array. This array (chip ID 01_M9.1_070362) detects miRNA transcripts listed in Sanger miRBase Release 9.1 ( http://www.sanger.ac.uk/Software/Rfam/mirna/ ).      Multiple control probes are included in each chip.  The control probes are used for quality controls of chip production, sample labeling and assay conditions.  Among the control probes, PUC2PM-20B and PUC2MM-20B are the perfect match and single-based match detection probes, respectively, of a 20-mer RNA positive control sequence that is spiked into the RNA samples before labeling.  One may assess assay stringency from the intensity ratio of PUC2PM-20B and PUC2MM-20B, which is normally larger than 30.  When the option for custom probes is selected, custom probes are also included.  After hybridization three imaged were obtained. From Cy3 and Cy5 images one may directly read miRNA profiles and from Ratio images one may get a quick sense of differential expressions between the corresponding samples.  The images are displayed in pseudo colors so as to expand visual dynamic range.  In the Cy3 and Cy5 intensity images, as signal intensity increases from 1 to 65,535 the corresponding color changes from blue to green, to yellow, and to red.  In the Cy3/Cy5 ratio image, when Cy3 level is higher than Cy5 level the color is green; when Cy3 level is equal to Cy5 level the color is yellow; and when Cy5 level is higher than Cy3 level the color is red.
+
+PLATFORM
+GPL17685 LC Sciences Mouse 01_M9.1_070362 miRNA Array
+
+CITATIONS
+24043765
+

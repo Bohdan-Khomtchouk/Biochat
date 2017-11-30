@@ -1,0 +1,18 @@
+TITLE
+DNA epigenome editing using CRISPR-Cas SunTag-directed DNMT3A [BS-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Here, we demonstrate that dCas9-SunTag-DNMT3A dramatically increased CpG methylation at the HOXA5 locus in human embryonic kidney 293T cells (HEK293T). Furthermore, using a single sgRNA, dCas9-SunTag-DNMT3A was able to methylate a 4.5 kb genomic region and repress HOXA5 gene expression. Reduced representation bisulfite sequencing (RRBS) and RNA-seq showed that dCas9-SunTag-DNMT3A methylated regions of interest with minimal impact on the global DNA methylome and transcriptome.
+
+DESIGN
+I)PCR amplicon deep sequencing of dCas9-SunTag-DNMT3A treated HEK2937 samples  using Illumina Nextseq sequencing system. II) Reduced representation bisulfited sequencing (RRBS) of plasmid transfected HEK 293T cells using Illumina Hiseq2000 sequencing system. III)  Whole genome bisulfite sequencing of dCas9-SunTag-DNMT3A treated HEK2937 samples. IV) RNA sequencing of dCas9-SunTag-DNMT3A treated HEK2937 samples
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28923089
+

@@ -1,0 +1,18 @@
+TITLE
+mESCs cultured in microfluidic chambers take control of their fate by producing endogenous signals including LIF
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+mESCs cultured in microfluidic chambers secrete endogneous signals which accumulate to facilitate expression of pluripotency associated genes
+
+DESIGN
+ES-D3 [D3] ATCC® CRL-1934™ mouse embryonic stem cells (strain: 129S2/SvPas) were culture in standard tissue culture wells or microfluidic chambers prior to RNA extraction and hybridization on Affymetrix microarrays. We sought to assess gene expression of mESCs cultured in microfluidic chambers under conditions of minimal perfusion. Microarray probe intensity values (CEL files) were background-corrected, summarized, log2-transformed, and normalized using the Robust Multi-array Average (RMA16) algorithm and filtered for raw signal intensity values in the range of the 20th-100th percentile (lower/upper cut-off).
+
+PLATFORM
+GPL16570 [MoGene-2_0-st] Affymetrix Mouse Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+26865369
+

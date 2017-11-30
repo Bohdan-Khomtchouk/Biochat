@@ -1,0 +1,18 @@
+TITLE
+Modeling the combined effect of RNA-binding proteins and microRNAs in post-transcriptional regulation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recent studies show that RNA-binding proteins (RBPs) and microRNAs (miRNAs) function in coordination with each other to control post-transcriptional regulation (PTR). Despite this, the majority of research to date has focused on the regulatory effect of individual RBPs or miRNAs. Here, we mapped both RBP- and miRNA-binding sites on human 3'UTRs and utilized this collection to better understand PTR. We show that the transcripts that lack competition for HuR binding are destabilized more after HuR depletion. We also confirm this finding for PUM1(2) by measuring genome-wide expression changes following the knockdown of PUM1(2) in HEK293 cells. Next, to find potential cooperative interactions, we identified the pairs of factors whose sites co-localize more often than expected by random chance. Upon examining these results for PUM1(2), we found that transcripts where the sites of PUM1(2) and its interacting miRNA form a stem-loop are more stabilized upon PUM1(2) depletion. Finally, using dinucleotide frequency and counts of regulatory sites as features in a regression model, we achieved an AU-ROC of 0.86 in predicting mRNA half-life in BEAS-2B cells. Altogether, our results suggest that future studies of PTR must consider the combined effects of RBPs and miRNAs, as well as their interactions.
+
+DESIGN
+HEK293T cells were maintained at 37⁰C at 5% CO2 in Dulbecco's Modified Eagle's Medium (DMEM), high glucose (4500mg/L), supplemented with Penicillin (100units/ml), Streptomycin (100μg/ml), Glutamine (2mM) and 10% heat-inactivated fetal calf serum. Trypsin-EDTA solution was used to dissociate the cells to subcultivate the cells in a 1:8 ratio, every 3-4 days (all materials were purchased from Gibco, Life Technologies). siRNA pools for Pumilio 1 and Pumilio 2 (siRNAs from Dharmacon/GE) were mixed and diluted to a final concentration of 50nM and transfected overnight in a 24-wells culture plate. Cells were incubated for 48 hours, thereafter lysed in Trizol Reagent (Life Technologies). RNA was isolated using the RNeasy Mini Kit (Qiagen, cat no: 74104) according to the manufacturer's instructions. An on-column DNA digestion was also performed to eliminate any genomic DNA contamination (Qiagen cat no: 79254). RNA concentration and purity were assessed using a NanoDrop1000 (NanoDrop Products). RNA integrity number (RIN) was assessed using a BioAnalyzer (Agilent Technologies), all RNA's used had a RIN value of 10. Arrays were performed by AROS Applied Biotechnology A/S (Aarhus, Denmark) according to the manufacturer's instructions. Arrays were scanned using the iScan system (Illumina, Inc.), and the fluorescence intensities were analyzed and annotated using GenomeStudio software (Illumina, Inc.)
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+26837572
+

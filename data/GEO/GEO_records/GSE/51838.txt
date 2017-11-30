@@ -1,0 +1,18 @@
+TITLE
+Transcriptome assembly and microarray construction for Enchytraeus crypticus, a model oligochaete to assess stress response mechanisms derived from soil conditions
+
+ORGANISM
+Enchytraeus crypticus
+
+SUMMARY
+The soil worm Enchytraeus crypticus (oligochaete) is an ecotoxicology model species although without genome or transcriptome sequence information. The present research aimed at studying, via high-throughput pyrosequencing, the transcriptome of Enchytraeus crypticus, sampled from multiple test conditions, and the construction of a high-density microarray for functional genomic studies. A pyrosequencing run retrieved approximately 1.5 million reads representing 645 million bases. After assembly, 27,296 contigs and 87,686 singletons were obtained. from which 44% and 25% were annotated as protein-coding genes. We show that the high amount of orphan genes is not due to poor sequence or assemble quality: 84% of the contig sequences contains an open reading frame with a start codon and E. crypticus homologs were identified for 92% of the core eukaryotic genes. Moreover, 65 and 77% of the unknown singletons and contigs, respectively, showed transcriptional activity.  An Agilent 180K microarray platform was designed and validated by hybridizing cDNA from 3 day zinc- exposed E. crypticus to the concentration corresponding to 50% reduction in reproduction (EC50). Overall, 70% of all probes exerted a hybridization signal above background level. More specifically, the probes derived from contigs showed a wider range of average intensities when compared to probes derived from singletons. In total, 522 significantly regulated transcripts were identifying upon zinc exposure. Several significantly regulated genes exerted predicted functions (e.g. zinc efflux, zinc transport) associated with zinc stress. Unexpectedly, the microarray data suggest that zinc exposure alters retrotransposon activity in the E. crypticus genome. In conclusion, characterization of the presented E. crypticus transcriptome and associated microarray platform is a valuable and high quality resource that permits further functional genomics experiments examining gene expression patterns underlying distinct environmental stress conditions. We show that unknown sequences are not the result of technical errors but mostly represent functional genes that are actively transcribed.
+
+DESIGN
+The data presented in our manuscript is part of a larger experiment which was performed in single, large loop design. The analysis presented here can be replicated only by including all raw data from the larger experiment (all raw files are included in the archive linked to this submission). A single channel, interwoven loop design was used to test animals exposed to zinc EC50 on reproduction as compared to untreated controls for 4 days. 4 biological replicates per condition were used containing 25 grams of soil and 5 - 7, adult old animals per replicate. T4_con stands for untreated control soil while T4_50 are the samples exposed to EC50 of zinc on reproduction.
+
+PLATFORM
+GPL17851 Agilent-042279 Enchytraeus crypticus_v1
+
+CITATIONS
+24758194
+

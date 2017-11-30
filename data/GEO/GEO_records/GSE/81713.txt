@@ -1,0 +1,18 @@
+TITLE
+Whole organism lineage tracing by combinatorial and cumulative genome editing
+
+ORGANISM
+Danio rerio ; Homo sapiens
+
+SUMMARY
+Multicellular systems develop from single cells through a lineage, but current lineage tracing approaches scale poorly to whole organisms. Here we use genome editing to progressively introduce and accumulate diverse mutations in a DNA barcode over multiple rounds of cell division. The barcode, an array of CRISPR/Cas9 target sites, records lineage relationships in the patterns of mutations shared between cells. In cell culture and zebrafish, we show that rates and patterns of editing are tunable, and that thousands of lineage-informative barcode alleles can be generated. By sampling hundreds of thousands of cells from individual zebrafish, we find that most cells in adult zebrafish organs derive from relatively few embryonic progenitors. Genome editing of synthetic target arrays for lineage tracing (GESTALT) will help generate large-scale maps of cell lineage in multicellular systems.
+
+DESIGN
+The GESTALT lineage tracing barcode was introduced into human cell culture (HEK293T) or the Danio rerio model organism. Mutations in this barcode, introduced by the CRISPR/Cas9 system, persist through cell divisions, and provide a means to trace the shared lineage of cells.  These compact barcodes were read out by sequencing either the RNA or DNA of specific cell populations. Specifics of the protocol can found in the accompanying citation.The GESTALT lineage tracing barcode was introduced into human cell culture (HEK293T) or the Danio rerio model organism. Mutations in this barcode, introduced by the CRISPR/Cas9 system, persist through cell divisions, and provide a means to trace the shared lineage of cells.  These compact barcodes were read out by sequencing either the RNA or DNA of specific cell populations. Specifics of the protocol can found in the accompanying citation.
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens) GPL20828 Illumina NextSeq 500 (Danio rerio) GPL21930 Illumina MiSeq (Danio rerio)
+
+CITATIONS
+27229144
+

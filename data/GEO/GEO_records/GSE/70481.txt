@@ -1,0 +1,18 @@
+TITLE
+Viral nucleases reveal an mRNA degradation-transcription feedback loop in mammalian cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Gamma-herpesviruses encode a cytoplasmic mRNA-targeting endonuclease, termed SOX, that cleaves the majority of mRNAs within a cell.  Cleaved fragments are subsequently degraded by the cellular mRNA degradation machinery.  Here, we reveal that mammalian cells respond to this widespread cytoplasmic mRNA decay by altering levels of RNA polymerase II (RNAPII) transcription in the nucleus.  Measurements of both RNAPII recruitment to promoters and nascent mRNA synthesis revealed that the majority of affected genes are transcriptionally repressed in SOX-expressing cells. The transcriptional feedback does not occur in response to the initial endonuclease-induced cleavage, but instead to degradation of the cleaved fragments by cellular exonucleases.  In particular, Xrn1 catalytic activity is required for transcriptional repression. Notably, viral mRNA transcription escapes decay-induced repression, and this escape requires Xrn1.  Collectively, these results indicate that mRNA decay rates impact transcription in mammalian cells, and that gamma-herpesviruses have incorporated this feedback mechanism into their own gene expression strategy.
+
+DESIGN
+NIH 3T3 cells were mock, WT, or ∆HS infected with MHV68 in duplicate and 4sU-labeled RNA isolated. 4sU-labeled RNA was submitted for sequencing and reads aligned to the mouse genome or MHV68 viral genome. Differential cellular gene expression was determined between mock and WT infected, mock and ∆HS infected, as well as differential viral gene expression between WT and ∆HS.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26211836
+

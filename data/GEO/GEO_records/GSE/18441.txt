@@ -1,0 +1,18 @@
+TITLE
+FUR- mutant vs. WT
+
+ORGANISM
+Salmonella enterica subsp. enterica serovar Typhimurium
+
+SUMMARY
+Ferric uptake regulator (Fur) is the major regulator of iron acquisition in Escherichia coli and other bacteria. In the present study, the role of Fur in anaerobic S. enterica serovar Typhimurium was determined by transcriptome analysis, reporter assays, and enzymatic assays. In anaerobic Δfur, 298 genes were differentially expressed. In general, Fur repressed genes required for iron acquisition/storage, metabolism, electron transport, oxidative/nitrosative stress, and modulators of virulence. There were 73 genes whose expression required Fur, eleven of which contain a putative Fur box 5‟ of the gene. Transcription of sodA was > 9-fold higher in Δfur but there was no corresponding increase in the activity of SodA.
+
+DESIGN
+Anaerobic cultures of the fur mutant and the WT were used to inoculate two sets of three independent flasks each containing 150 ml of anoxic LB-MOPS-X. The three independent cultures were grown to an optical density at 600 nm (OD600) of 0.25 to 0.35, pooled, and treated with RNAlater (QIAGEN, Valencia, CA) to fix the cells and preserve the quality of the RNA. Total RNA was extracted with the RNeasy RNA extraction kit (QIAGEN), and the samples were treated with RNase-free DNase (Invitrogen, Carlsbad, CA). The absence of contaminating DNA and the quality of the RNA was confirmed by PCR amplification of known genes and by using agarose gel electrophoresis. Aliquots of the RNA samples were kept at –80°C for use in the microarray and quantitative real-time reverse transcription-PCR (qRT-PCR) studies. The SuperScript Indirect cDNA labeling system (Invitrogen) was used to synthesize the cDNA for the hybridizations. Each experiment consisted of two hybridizations, on two slides, and was carried out in Corning Hybridization Chambers at 42°C overnight. Dye swapping was performed to avoid dye-associated effects on cDNA synthesis. The slides were washed at increasing stringencies (2x SSC [1x SSC is 0.15 M NaCl plus 0.015 M sodium citrate], 0.1% sodium dodecyl sulfate [SDS], 42°C; 0.1% SSC, 0.1% SDS, room temperature; 0.1% SSC, room temperature). Following hybridization, the microarrays were scanned for the Cy3 and Cy5 fluorescent signals with a ScanArray 4000 microarray scanner from GSI Lumonics (Watertown, MA). The intensity of every spot was codified as the sum of the intensities of all the pixels within a circle positioned over the spot itself and the background as the sum of the intensities of an identical number of pixels in the immediate surroundings of the circled spot. Cy3 and Cy5 values for each spot were normalized over the total intensity for each dye to account for differences in total intensity between the two scanned images. The consistency of the data obtained from the microarray analysis was evaluated by a pair-wise comparison, calculated with a two-tailed Student's t test and analyzed by the MEAN and TTEST procedures of SAS-STAT statistical software (SAS Institute, Cary, NC) . The signal intensity at each spot from the fur mutant and the WT were background subtracted, normalized, and used to calculate the ratio of gene expression between the two strains. All replicas were combined, and the median expression ratios and standard deviations were calculated for open reading frames (ORFs) showing 2.5-fold change.
+
+PLATFORM
+GPL1835 STv5B_MMCC
+
+CITATIONS
+22017966
+

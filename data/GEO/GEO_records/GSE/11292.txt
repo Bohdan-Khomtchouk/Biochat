@@ -1,0 +1,18 @@
+TITLE
+High-time-resolution dynamic analysis of human regulatory T cell (Treg) / CD4+ T-effector cell (Teff) activation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Human FOXP3+CD25+CD4+ regulatory T cells (Tregs) play a dominant role in the maintenance of immune homeostasis. Several genes are known to be important for murine Tregs, but for human Tregs the genes and underlying molecular networks controlling the suppressor function still largely remain unclear. We here performed a high-time-resolution dynamic analysis of the transcriptome during the very early phase of human Treg/ CD4+ T-effector cell activation. After constructing a correlation network specific for Tregs based on these dynamic data, we described a strategy to identify key genes by directly analyzing the constructed undirected correlation network. Six out of the top 10 ranked key hubs are known to be important for Treg function or involved in autoimmune diseases. Surprisingly, PLAU (the plasminogen activator urokinase) was among the 4 new key hubs. We here show that PLAU was critical for expression regulation of FOXP3, EOS and several other important Treg genes and the suppressor function of human Tregs. Moreover, we found Plau inhibits murine Treg development and but promotes the suppressive function. Further analysis unveils that PLAU is particularly important for memory Tregs and that PLAU mediates Treg suppressor function via STAT5 and ERK signaling pathways. Our study shows the potential for identifying novel key genes for complex dynamic biological processes using a network strategy based on high-time-resolution data, and highlights a critical role of PLAU in both human and murine Tregs. The construction of a dynamic correlation network of human Tregs provides a useful resource for the understanding of Treg function and human autoimmune diseases. The high-time-resolution time-series transcriptomic data during the very early phase of human Treg/Teff activation could be generally used for further mechanistic analysis of human Treg function. These data could be further used for biological network analysis, dynamic analysis, modeling by experimental researchers, bioinformaticians, computational biologists and systems biologists.
+
+DESIGN
+We have measured the genome-wide expression of 38,500 genes (probes) by performing a high-time-resolution time-series analysis during the activation process of human regulatory T cells /CD4+ T-effector cells at 19 time points for the first 6h with an equal interval of 20 min. We have also overexpressed the GARP gene in human effector T cells and measured the genome-scale expression for the GARP-overexpressed cells and ThGFP cells at time point 0, 100 and 360min following activation. The stimulation source used in this work is a combination of anti-CD3/-CD28 Dynal beads with IL2 100U/ml.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+23169000
+

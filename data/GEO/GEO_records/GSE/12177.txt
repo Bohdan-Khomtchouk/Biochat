@@ -1,0 +1,18 @@
+TITLE
+Saccharomyces pastorianus strains comparison
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Saccharomyces pastorianus is the yeast used to make lager beer; it is known to be an interspecific hybrid formed by the fusion between S. cerevisiae and S. bayanus genomes.  This data set queries 17 S. pastorianus strains, collected at various times over the last 125 years from various breweries located in different geographical locations, which were obtained from CBS and DBVPG culture collections.  The data in this set represent array-CGH experiments performed with these strains, using " 2-species " custom Agilent arrays (the " 2-species " arrays contain probes spaced every ~2 kb across the whole genomes of both S. cerevisiae and S. bayanus; the probes are unique and specific for each genome).  The data set also contains 3 self-self hybridizations (S. cerevisiae + S. bayanus DNA mixed together in equimolar amounts, then labeled green or red in separate reactions, then hybridized to the " 2-species " arrays) used for normalization in CGH-Miner analysis. A strain or line experiment design type assays differences between multiple strains, cultivars, serovars, isolates, lines from organisms of a single species.
+
+DESIGN
+Keywords: strain_or_line_design
+
+PLATFORM
+GPL7077 Print_1356
+
+CITATIONS
+18787083
+

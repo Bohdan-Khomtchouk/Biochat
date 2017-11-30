@@ -1,0 +1,18 @@
+TITLE
+Expression profiling of ProB and PreB cells in Ebf1 heterozygous mouse bone marrow
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Loss of one allele of Ebf1 impairs pre-B cell (B220+CD19+CD43low/negIgM-) expansion. In order to better understand the underlying cause of the reduced pre-B cell compartment in Ebf1+/- mice, we sorted pro-B (B220+CD19+CD43highIgM- ) as well as pre-B cells from Wt and Ebf1 heterozygote mutant mice and performed Affymetrix based microarray gene expression analysis. While the overall gene expression patterns as well as Pax5 expression in Wt and Ebf1 pro-B cells were similar, gene set enrichment (GSE) analysis of the microarray data suggested a reduced expression of cell division (p < 0.001) and mitosis (p < 0.001) genes in the Ebf1+/- pre-B cells as compared to their Wt counterparts. This in combination with rather normal expression of B-lineage genes in Ebf1+/- pre-B cells opens for the possibility that the phenotypic loss of pre-B cells in Ebf1+/- mice could be a result of reduced expansion of progenitors rather than by a differentiation block.
+
+DESIGN
+RNA was extracted from 20,000 or 25000 purified adult bone marrow cells using the RNAeasy microkit. RNA was labeled and amplified by dual amplification and hybridized to Affymetrix microarray MOE430_2, according to AffymetrixTM GeneChip Expression Analysis Technical Manual. Probe level expression values were calculated using the RMA algorithm.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+24078629
+

@@ -1,0 +1,18 @@
+TITLE
+Genome-wide alterations in yeast strains lacking RNase H1, RNase H2, or both RNase H1 and RNase H2
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Two types of RNA:DNA associations can lead to genome instability: the formation of R-loops during transcription and the incorporation of ribonucleotide monophosphates (rNMPs) into DNA during replication. Both ribonuclease (RNase) H1 and RNase H2 degrade the RNA component of R-loops, whereas only RNase H2 can remove one or a few rNMPs from DNA. We performed high-resolution mapping of mitotic recombination events throughout the yeast genome in diploid strains of Saccharomyces cerevisiae lacking RNase H1 (rnh1Δ), RNase H2 (rnh201Δ), or both RNase H1 and RNase H2 (rnh1Δ rnh201Δ). We found little effect on recombination in the rnh1Δ strain, but elevated recombination in both the rnh201Δ and the double-mutant strains; levels of recombination in the double mutant were about 50% higher than in the rnh201 single-mutant strain. An rnh201Δ mutant that additionally contained a mutation that reduces rNMP incorporation by DNA polymerase ε (pol2-M644L) had a level of instability similar to that observed in the presence of wild-type Polε. This result suggests that the elevated recombination observed in the absence of only RNase H2 is primarily a consequence of R loops rather than misincorporated rNMPs.
+
+DESIGN
+The details of these experiments are in press in Genetics This diploid S.cerevisiae strain used here is a hybrid between W303-1A and YJM789. The backgrounds are diverged by about 50,000 polymorphisms that are surveyed by custom CGH microarrays containing SNP-specific probes (St. Charles et al., 2012; Genetics 190: 1267-1284; PMID 22267500). The whole genome array surveyed loss of heterozygosity (LOH) events throughout the genome of in wild type, pol2-M644L, rnh1Δ, rnh201Δ, rnh201Δ pol2-M644L, and rnh1Δ rnh201Δ mutant backgrounds in 10, 12, 10, 19, 17, and 22 samples, respectively. The names of these strains are KO_198,KO_234, KO_73, KO_75, KO_244, and KO_5, respectively. Another assay was performed mapping reciprocal crossover events on the right arm of chromosome IV in the rnh201Δ (strains KO_135 and KO188) and the rnh1Δrnh201Δ (strain KO_132) mutant backgrounds. A reporter system with a wild type ADE2 on the end of chromosome IV allowed us to detect crossovers by seeing a red-white sectored colony. Each reciprocal event was mapped by doing a microarray specific for the right arm of chromosome IV (St. Charles and Petes, 2013; PLoS Genet. 1267-1284 PMCID PMC3616911) on the red and white sides of sectors. 21 sectors were analyzed for the rnh201Δ mutant while 14 were analyzed for the rnh1Δ rnh201Δ mutant. We mapped crossovers on the right arm of chromosome IV in the rnh201Δ mutant in four different diploid isolates: KO135_5 (1R/1W, 2R/2W, 4R/4W, 5R/5W, 12R/12W, and 13R/13W), KO_135_6 (1R/1W, 4R/4W, 5R/5W, 7R/7W, 9R/9W, 11R/11W, 13R/13W, and 17R/17W), KO 188_1 (1R/1W, and 4R/4W), and KO188_2 (6R/6W, 7R/7W, 11R/11W, and 12R/12W). We mapped crossovers on the right arm of chromosome IV in the rnh1Δ rnh201Δ mutant in two different diploid isolates: KO_132_31 (2R/2W, 6R/6W, 8R/8W, 15R/15W, 17R/17W, 21R/21W, 22R/22W, and 24R/24W) and KO_132_29 (3R/3W, 7R/7W, 18R/18W, 24R/24W, and 34R/34W).
+
+PLATFORM
+GPL20143 Agilent-027438 Yeast S-Y SNP v1 [Feature Number Version] GPL20943 Agilent-031671 Chr4 RA V2 027289 GPL20944 Agilent-047217 ch4array_v3
+
+CITATIONS
+26400613
+

@@ -1,0 +1,18 @@
+TITLE
+The catalytically inactive Domains Rearranged Methyltransferase3 controls DNA methylation and regulates RNA polymerase V transcript abundance in Arabidopsis
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+DNA methylation is a mechanism of epigenetic gene regulation and genome defense conserved in many eukaryotic organisms. In Arabidopsis, the DNA methyltransferase DRM2 controls RNA-directed DNA methylation in a pathway that also involves the plant specific RNA Polymerase V (Pol V). The Arabidopsis genome also encodes an evolutionarily conserved but catalytically inactive DNA methyltransferase DRM3. Here, we show that DRM3 has moderate effects on global RNA-directed DNA methylation and small RNA abundance throughout the genome, and DRM3 protein physically interacts with Pol V.  In drm3 mutants, we observe a lower level of Pol V-dependent transcripts, even though Pol V chromatin occupancy is increased at many sites in the genome. These findings suggest that DRM3 acts to promote Pol V transcriptional elongation or assist in the stabilization of Pol V transcripts, and shed further light on the mechanism of RNA-directed DNA methylation.
+
+DESIGN
+For wildtype plants as well as drm3, drm2, and nrpe1 mutants ChIP-seq was carried out using an endogenous NRPE1 antibody given to us by the Craig Pikaard lab. Two biological replicates of ChIP-seq were also carried out using anti-Flag resin on wildtype and drm3 plants carrying a Flag epitope tagged version of NRPE1. Small RNA sequencing was carried out on Col, drm3, drm2, and nrpe1 plants. Finally, whole-genome bisulfite sequencing analysis was carried out on previously published datasets (as detailed below) which were realigned using a newer genome version and mapping protocol. As such the updated processed files are part of this submission. Please note that the drm2, drm3, and nrpe1 mutant libraries used in this study were previously published (GSE39901), as were the 2 other Col replicates used (GSE36129) as below and thus duplicated sample records were created for the convenient retrieval of the complete raw data from SRA; Bisulfite_seq-Col_1 - GSM881756 Bisulfite_seq-Col_2 - GSM1193638 Bisulfite_seq-drm3 - GSM981017 Bisulfite_seq-drm2 - GSM981015 Bisulfite_seq-nrpe1- GSM981040
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+25561521
+

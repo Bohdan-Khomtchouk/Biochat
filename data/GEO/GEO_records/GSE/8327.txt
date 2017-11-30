@@ -1,0 +1,18 @@
+TITLE
+Zebrafish response to Mycobacterium marinum infection (Affymetrix series)
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Mycobacteria infect macrophages that aggregate with additional macrophages and lymphocytes to form granulomas. We have used a functional genomics approach to identify immune response genes expressed during granuloma formation in Mycobacterium marinum-infected transparent zebrafish larvae where individual infection steps can be viewed in real time. We assessed RNA expression profiles from zebrafish larvae that were either infected with Mycobacterium marinum, mock-infected, or uninfected. Zebrafish infections were performed at 1 day post-fertilization (dpf), and samples were derived from pools of 6dpf zebrafish larvae. Keywords: host response to infection
+
+DESIGN
+Total RNA was purified from pooled intact zebrafish larvae (31-82 larvae/pool, 3 biological replicate pools/condition) using Trizol reagent (Invitrogen) followed by DNase I digestion (DNA-Free, Ambion) according to manufacturers' protocols. Total RNA from each replicate pool (12ug RNA/replicate) was used as template for independent cDNA synthesis and in vitro transcription reactions (BioArray HighYield RNA Transcript Labeling Kit; Enzo Life Sciences) to generate biotinylated cRNA targets. cRNA targets (30ug/replicate) were fragmented using standard methods. Hybridization and scanning were performed using standard Affymetrix protocol. Raw expression values were normalized (Invariant set method) and modeled (PM-MM model), and present/absent calls were generated using dChip software (build date Dec.11, 2005).
+
+PLATFORM
+GPL1319 [Zebrafish] Affymetrix Zebrafish Genome Array
+
+CITATIONS
+20007864
+

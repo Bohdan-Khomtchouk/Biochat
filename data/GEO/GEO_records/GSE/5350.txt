@@ -1,0 +1,18 @@
+TITLE
+MicroArray Quality Control (MAQC) Project
+
+ORGANISM
+Homo sapiens ; Rattus norvegicus
+
+SUMMARY
+Microarray technology has had a profound impact on gene expression research.  Some studies have questioned whether similar expression results are obtained when the same RNA samples are analyzed on different platforms. The MicroArray Quality Control (MAQC) project was initiated to address these concerns, as well as other performance and analysis issues.  We demonstrate the consistency of results within a platform across test sites as well as the high level of cross-platform concordance in terms of genes identified as differentially expressed.  The MAQC study provides a rich resource that will help build consensus on the use of microarrays in research, clinical and regulatory settings.  Manuscripts related to the MAQC project have been published in Nature Biotechnology, 24(9), September, 2006.  More information about the MAQC project can be found at http://edkb.fda.gov/MAQC/. Keywords: Cross-platform comparison
+
+DESIGN
+Expression data from two distinct reference RNA samples (A and B) in four titration pools were generated at multiple test sites using a variety of microarray-based and alternative technology platforms.  Sample A = Stratagene Universal Human Reference RNA (UHRR, Catalog #740000), Sample B = Ambion Human Brain Reference RNA (HBRR, Catalog #6050), Sample C = Samples A and B mixed at 75%:25% ratio (A:B); and Sample D = Samples A and B mixed at 25%:75% ratio (A:B).  In general, each microarray platform was tested at three sites and each sample was tested in five replicates at each test site.  Samples (hybridizations) were named according to the following convention: Platform_Testsite_SampleRelicate.  For example, AFX_2_B1 represents the hybridization (array) from platform AFX processed by test site 2 for the first replicate of sample B. Assignment of platform code: ABI = Applied Biosystems (microarray); AFX = Affymetrix; AG1 = Agilent one-color; AGL = Agilent two-color; GEH = GE Healthcare; ILM = Illumina; NCI = NCI two-color (Operon oligos); EPP = Eppendorf; TAQ = TaqMan (Applied Biosystems); QGN = QuantiGene (Panomics); GEX = StaRT-PCR (Gene Express); H25K = TeleChem two-color; H25K1 = TeleChem one-color; BIO = CapitalBio two-color (Operon oligos); BIO1 = CapitalBio one-color (Operon oligos); OPN = Operon two-color (Operon oligos); NMC = Norwegian Microarray Consortium two-color (Operon oligos).
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array GPL1355 [Rat230_2] Affymetrix Rat Genome 230 2.0 Array GPL1708 Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number version) GPL2507 Sentrix Human-6 Expression BeadChip GPL2877 Agilent-013162 Whole Rat Genome Microarray G4131A (Feature Number version) GPL2895 GE Healthcare/Amersham Biosciences CodeLink Human Whole Genome Bioarray GPL2896 GE Healthcare/Amersham Biosciences CodeLink™   Rat Whole Genome Bioarray GPL2986 ABI Human Genome Survey Microarray Version 2 GPL2996 ABI Rat Genome Survey Microarray GPL4096 Eppendorf DualChip Human MAQC (EPP) GPL4097 TaqMan Human MAQC (TAQ) GPL4098 Panomics Human MAQC (QGN) GPL4108 NCI Operon Human MAQC GPL4185 NCI Operon (second printing) Human MAQC GPL4186 NMC (Norwegian Microarray Consortium) Operon Human MAQC GPL4187 CapitalBio Operon Human MAQC (BIO and BIO1, two- and one-color) GPL4188 Operon Human MAQC (OPN) GPL4198 Gene Express StaRT-PCR (GEX) Human MAQC GPL4219 TeleChem ArrayIt Human Microarrays for MAQC (H25K and H25K1 , two- and one-color)
+
+CITATIONS
+16964229 , 20946593 , 25150837 , 25633159
+

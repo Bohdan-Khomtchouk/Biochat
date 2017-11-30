@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profile of primary astrocytes expressing ALS-linked mutant SOD1.
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Amyotrophic lateral sclerosis (ALS) is caused by the progressive degeneration of motor neurons. Mutations in the Cu/Zn superoxide dismutase (SOD1) are found in about 20% of patients with familial ALS. Mutant SOD1 causes motor neuron death through an acquired toxic property. Although, molecular mechanism underlying this toxic gain-of-function remains unknown, evidence support the role of mutant SOD1 expression in non-neuronal cells in shaping motor neuron degeneration. We have previously found that in contrast to non-transgenic, SOD1G93A-expressing astrocytes induced apoptosis of co-cultured motor neurons. This prompted us to investigate whether the effect on motor neuron survival was related to a change in the gene expression profile. Through high-density oligonucletide microarrays we found changes in the expression of genes involved in transcription, signaling, cell proliferation, extracellular matrix construction, response to stress and steroid and lipid metabolism. Decorin, a small multifunctional proteoglycan, was the most up-regulated gene. Down-regulated genes included the insulin-like growth factor-1 receptor and the RNA binding protein ROD1. We also analyzed the expression of selected genes in purified motor neurons expressing SOD1G93A and in spinal cord of asymptomatic and early symptomatic ALS-rodent model. The expression of mutated SOD1 in astrocytes cause gene expression changes with potential consequences for its interaction with motor neurons. The astrocyte-specific gene expression profile contributes to the identification of possible candidates for cell type-specific therapies in ALS Keywords: Cell type comparison
+
+DESIGN
+Astrocytes were plated at a density of 2x104 cells/cm2 and maintained as described in Cassina P, et al.J Neurosci Res. 2002;67(1):21-9. Confluent astrocytes monolayers were changed to supplemented L15 medium (Vargas et al., 2006) for 24h before RNA isolation. Total RNA was isolated with RNeasy kit/RNase-Free DNase Set (Qiagen, CA, USA). RNA quality was assessed with the A260/280 ratio and the 2100 Bioanalyzer  (Agilent Technologies, CA, USA) to ensure integrity of the samples used for microarray analysis. Double-stranded cDNA was synthesized from 5 μg of total RNA and used for microarray analysis with the Rat Genome 230 2.0 array (Affymetrix, CA, USA). A total of six arrays divided in three control and three transgenic samples were used. Labeling was performed with one-cycle target labeling assay according to Affymetrix, including the eukaryotic poly-A RNA control and the eukaryotic hybridization control kit. Hybridization, washing and scanning were carried out as described in the Affymetrix GeneChip expression analysis technical manual at the Oregon State University’s Center for Genome Research and Biocomputing. Image processing was done using Affymetrix GCOS 1.4 software. The quality of hybridization and overall chip performance was determined by visual inspection of the raw scanned data and the GCOS-generated report file. Microarray data (.CEL files) was normalized using GC-RMA probe-level analysis in ArrayAssist 4.0 (Stratagene, CA, USA). Following variance stabilization and Log transformation, fold chance versus p-value was calculated using nontransgenic (NonTG) samples as base values.
+
+PLATFORM
+GPL1355 [Rat230_2] Affymetrix Rat Genome 230 2.0 Array
+
+CITATIONS
+18683239
+

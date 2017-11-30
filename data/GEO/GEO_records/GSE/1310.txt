@@ -1,0 +1,15 @@
+TITLE
+Embryonic stem cell study
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cell culture: H9 hESCs were grown using feeder-free conditions for 7 days after passage then either RNA was harvested or embryoid bodies were prepared, cultured in suspension for 4 days, plated on gelatin-coated plates, and cultured for an additional 9 days in embryoid body medium. Detailed protocols for feeder-free culture and embryoid body formation are available at www.geron.com/scprotocols.pdf RNA preparation: Cells were then harvested in situ by overlaying with RLT lysis buffer (Qiagen, Valencia, CA). RNA was prepared using RNeasy Midi kits as described by the manufacture (Qiagen). To remove contaminants, RNA was precipitated by adding an equal volume of LiCl Precipitation Solution (Ambion, Austin, TX), washed with 70% ethanol and resuspended in water. Probe preparation: Probes were prepared from 20ug of total RNA by direct incorporation of Cy3 or Cy5 dCTP (Amersham Biosciences, Piscataway, NJ) into oligo dT primed first strand cDNA using SuperscriptIII reverse transcriptase (Invitrogen), as described by the dye manufacturer. RNA was removed by alkaline hydrolysis, then neurtralized probes were purified using Qiaquick columns as described by the manufacturer (Qiagen). Hybridization/Washing: Purified probes were dried and resuspended MWG Hybridization Buffer C (MWG Biotech) with the addition of 20 ug of sheared salmon sperm DNA. Slides were hybridized overnight at 42°. After the coverslips were removed, the slides were rinsed in 2X SSC + 0.1% SDS, washed in 2X SSC + 0.1% SDS for 5 min, 1X SSC for 5 min, 0.2X SSC for 5 min and 0.1X SSC for 5 min. Slides were then dried by centrifugation. Scanning: Arrays were scanned using a GenePix 4000A microarray scanner (Axon Insturments, Fremont, CA) with 100% scan power and PMT voltage set to minimize saturated pixels and approximately equalize signal intensities in the two channels. Image processing and data extraction were performed using GenePix Pro 3.0.6 (Axon Instruments). Data Analysis: Average background signal from negative control spots was subtracted from Cy3 and Cy5 signal intensities. In cases where background was larger than signal, signal was set to 1. Log ratios were calculated for each spot and log ratios from replicate spots were averaged. Data was normalized using the “Lowess” method, and analyzed for differential expression. Differentially expressed genes were defined as those with log transformed expression ratios more than 1.5 SD from the mean. This lower threshold was chosen since comparison of the microarray dat to qRT-PCR on the samples used for the microarray experiment indicated that the data was compressed. For example, TDGF1 was up-regulated 100-fold in uES versus EB by qRT-PCR, but only ~5-fold by microarray analysis in the same sample. Normalization and identification of differentially expressed genes was performed using the MIDAS package (Saeed et al. (2003) Biotechniques 34(2):374-8). Keywords: other
+
+PLATFORM
+GPL1105 A111
+
+CITATIONS
+15146197
+

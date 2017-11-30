@@ -1,0 +1,18 @@
+TITLE
+Transcriptome and marker frequency analysis of E. coli (control vs. Trimethoprim) and S. pneumoniae (control vs. HPUra/Kanamycin)
+
+ORGANISM
+Escherichia coli ; Streptococcus pneumoniae
+
+SUMMARY
+We show that treatment with HPUra (for S. pneumoniae) and trimethoprim (for E. coli) leads to a skewed gene dosage profile (increase around the origin of replication), which is also propagated to the transcriptome level. Kanamycin, however, does not have this effect. In case of S. pneumoniae this shift in gene dosage distribution leads to the population-wide activation of competence.
+
+DESIGN
+Pairwise comparison of untreated and antibiotic-treated cells (either RNA-seq or DNA-seq). It was performed with deep sequencing, using an Illumina HiSeq 2000 machine with 100 nt paired-end reads. Control (E. coli and S. pneumoniae), HPUra- (S. pneumoniae) and Trimethoprim-treated (E. coli) samples were analysed from duplicate samples, while other conditions were from single samples.
+
+PLATFORM
+GPL14548 Illumina HiSeq 2000 (Escherichia coli) GPL18183 Illumina HiSeq 2000 (Streptococcus pneumoniae)
+
+CITATIONS
+24725406
+

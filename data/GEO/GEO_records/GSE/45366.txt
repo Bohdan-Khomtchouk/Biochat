@@ -1,0 +1,18 @@
+TITLE
+Loss of a Conserved tRNA Anticodon Modification Perturbs Cellular Signaling
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Transfer RNA (tRNA) modifications enhance the efficiency, specificity and fidelity of translation in all organisms. The anticodon modification mcm5s2U34 is required for normal growth and stress resistance in yeast; mutants lacking this modification have numerous phenotypes. Mutations in the homologous human genes are linked to neurological disease. The yeast phenotypes can be ameliorated by overexpression of specific tRNAs, suggesting that the modifications are necessary for efficient translation of specific codons. We determined the in vivo ribosome distributions at single codon resolution in yeast strains lacking mcm5s2U. We found accumulations at AAA, CAA, and GAA codons, suggesting that translation is slow when these codons are in the ribosomal A site, but these changes appeared too small to affect protein output. Instead, we observed activation of the GCN4-mediated stress response by a non- canonical pathway. Thus, loss of mcm5s2U causes global effects on gene expression due to perturbation of cellular signaling.
+
+DESIGN
+WT yeast and mutants lacking anticodon tRNA modifications were grown in YPD, and subjected to ribosome footprint profiling (ribo-seq) and RNA-seq of poly-A selected RNA. Dataset contains biological replicates for WT, Δncs6 and Δuba4. Technical replicates were also performed for all RNA-seq datasets (using a different poly-A selection method).
+
+PLATFORM
+GPL13272 Illumina Genome Analyzer IIx (Saccharomyces cerevisiae)
+
+CITATIONS
+23935536
+

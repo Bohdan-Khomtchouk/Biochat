@@ -1,0 +1,18 @@
+TITLE
+Nucleosome remodeling by the SWI/SNF complex in non-coding RNA-mediated transcriptional gene silencing (ChIP-seq)
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+RNA-mediated transcriptional silencing prevents deleterious effects of transposon activity and controls the expression of protein-coding genes. It involves long non-coding RNAs (lncRNAs)1, which in Arabidopsis thaliana are produced by a specialized RNA Polymerase V (Pol V)2. lncRNAs guide Argonaute-siRNA complexes to specific genomic loci and mediate the establishment of DNA methylation3,4. The mechanism by which lncRNAs affect chromatin structure and mRNA production remains mostly unknown. Here we identify the SWI/SNF nucleosome remodeling complex as a component of the RNA-mediated transcriptional silencing pathway. We found that SWI3, an essential subunit of the SWI/SNF complex, physically interacts with a lncRNA-binding IDN2 protein5,6. RNA-mediated DNA methylation and transcriptional silencing was compromised in the swi3 mutant. Moreover, targets of SWI/SNF significantly overlapped with genes controlled by Pol V, which shows that the physical interaction reflects a functional relationship. We further found that non-coding transcription by Pol V affects nucleosome positioning on silenced regions. We propose that lncRNAs mediate transcriptional silencing by guiding the SWI/SNF complex and establishing positioned nucleosomes on specific genomic loci. We further propose that guiding ATP-dependent chromatin remodeling complexes may be a more general function of lncRNAs.
+
+DESIGN
+H3 ChIP-seq of 2 samples (Col-0 and nrpe1) with 2 biological repeats.
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+23246435
+

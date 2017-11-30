@@ -1,0 +1,18 @@
+TITLE
+The Epstein-Barr virus B-ZIP protein Zta recognizes specific DNA sequences containing 5-methylcytosine and 5-hydroxymethylcytosine [Zta_5mC_5hmC]
+
+ORGANISM
+Mus musculus ; Human gammaherpesvirus 4
+
+SUMMARY
+The Epstein-Barr virus (EBV) B-ZIP transcription factor (TF) Zta binds to many DNA sequences containing methylated CG dinucleotides.  Using protein binding microarrays (PBMs), we analyzed the binding of Zta to four kinds of double-stranded DNA: 1) DNA containing cytosine on both strands, 2) DNA with 5-methylcytosine (5mC) on one strand and cytosine on the second strand, 3) DNA with 5-hydroxymethylcytosine (5hmC) on one strand and cytosine on the second strand, and 4) DNA where both cytosines in all CG dinucleotides contain 5mC. We compared the resulting data to PBM data for three other B-ZIP proteins (CREB1 and CEBPB homodimers, and cFos-cJun heterodimers).  With cytosine, Zta binds the TRE motif TGAC/GTCA as previously reported.  With CG dinucleotides containing 5mC on both strands, many TRE motif variants containing a methylated CG dinucleotide at two positions in the motif, such as MGAGTCA and TGAGMGA (where M=5mC) were preferentially bound.  5mC inhibits Zta binding to both TRE motif half sites GTCA and CTCA.  Like the CREB1 homodimer, the Zta homodimer and the cJun|cFos heterodimer bind the C/EBP half site tetranucleotide GCAA stronger when it contains 5mC.  Our results identify new DNA sequences that are well-bound by the viral B-ZIP protein Zta only when they contain 5mC or 5hmC, opening the potential for discovery of new viral and host regulatory programs controlled by EBV.
+
+DESIGN
+Protein binding microarray (PBM) experiments were performed for a set of B-ZIP transcription factors:  Zta and CEBPB homodimers, and cJun|cFos heterodimers. Briefly, the PBMs involved binding GST-tagged DNA-binding proteins to double-stranded 44K Agilent microarrays (Berger et al., Nature Biotechnology 2006) in order to determine their binding preferences to sequences containing modified cytosines.  We modified the double stranding step of the PBM protocol in which the nucleotide mixture contained 5-methylcytosine or 5-hydroxymethylcytosine.  Details of the modified cytosine PBM protocol are described in Khund-Sayeed S et al., Integrative Biology, 2016.
+
+PLATFORM
+GPL11260 Agilent custom ME and HK design array [8mer]
+
+CITATIONS
+29072898
+

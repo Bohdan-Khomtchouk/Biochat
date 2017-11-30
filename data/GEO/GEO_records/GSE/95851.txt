@@ -1,0 +1,18 @@
+TITLE
+Comprehensive and quantitative mapping of RNA-protein interactions across a transcribed eukaryotic genome
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Purpose: High-throughput sequencing has transformed modern biology, but its repertoire is currently confined to reading DNA molecules. Here, we report hardware and software adaptations that allow the very methods that enabled the genomic sequencing revolution to be applied to fluorescence-based biochemical assays, on a massive scale. Methods: Using commonly available hardware, we built a customizable, open-source platform that leverages the inherent throughput of Illumina technology for direct biophysical measurements. We used the platform to quantitatively measure the binding affinity of the prototypical RBP Vts1 for every transcript in the S. cerevisiae genome. Results: Our transcribed genome array (TGA) assayed both rare and abundant transcripts with equivalent proficiency, revealing hundreds of low-abundance targets missed by previous approaches. These targets regulated diverse biological processes including nutrient sensing and the DNA damage response, and implicated Vts1 in the ‘birth’ of new genes. TGA provided single nucleotide resolution for each binding site and delineated a highly specific sequence and structure motif for Vts1 binding. Conclusions: Our technology establishes a flexible new platform for high-throughput biochemistry that can be easily extended to any nucleic acid template (e.g. the human exome), used to study diverse types of biochemical interaction (e.g. RNA-guided nucleases), and adapted to even higher- throughput systems (e.g. HiSeq). Our application of TGA to Vts1 i) doubled the number of known Vts1 targets, identifying key regulators of cell cycle and the DNA damage response ii) provided a marked improvement in the specificity of the protein’s binding motif, iii) generated structural insight into its ability to discriminate among targets, and iv) suggested that Vts1 may have a role in regulating the transcripts of evolutionarily nascent genes. The breadth of new findings stemming from analysis of an already exceptionally well-studied RBP suggests that TGA technology will be similarly enabling for other RBPs and establishes a new paradigm for quantitative, ultra high-throughput biochemistry.
+
+DESIGN
+A yeast genome sequenced on a MiSeq flow cell with an RNA polymerase promoter and stall sequence attached as adaptors.
+
+PLATFORM
+GPL17143 Illumina MiSeq (Saccharomyces cerevisiae)
+
+CITATIONS
+28325876
+

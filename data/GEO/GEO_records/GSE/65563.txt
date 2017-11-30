@@ -1,0 +1,18 @@
+TITLE
+Genome-wide identification and analysis of mRNA expression in  MEFs, ESCs, and iPSCs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Microarray analysis of mRNA—RNA was prepared from ESCs (CGR8 and CJ7), MEFs, and iPSCs with a PureLink RNA Mini Kit (Life Technologies). Initial sample quality control was performed with a Nanodrop 8000 (Thermo Scientific). RNA samples with an optical density (OD) 260/280 ratio and an OD 260/230 ratio of 1.8 or higher were used. Samples with an RNA Integrity Number of 7.5 or greater measured with a LabChip Caliper GX (Perkin Elmer) were applied to an Illumina TotalPrep-96 RNA Amplification Kit (Life Technologies) to generate biotinylated and amplified RNA. With this kit, 300 ng of total RNA was first processed in a reverse transcription reaction. The cDNA then underwent second-strand synthesis and cleanup to serve as a template for in vitro transcription, which generated biotinylated antisense RNA copies of each mRNA. Samples went through another round of quality control with the Nanodrop 8000 and were applied to Illumina MouseWG-6 v2.0 Beadchips (#BD-201-0202). After overnight hybridization, the Beadchips were washed, stained, and scanned using an Illumina iScan Beadarray Reader. The obtained data were analyzed with an Illumina Genome Studio.
+
+DESIGN
+In the study presented here, compared the genome-wide expression patterns of mRNAs in MEFs, ESCs, and various iPSCs to identify mRNAs that were potentially involved in the LIF-independence. iPSCs in this study: O-retro-iPSCs-LIF(+), O-lenti-iPSCs-LIF(+), M3O-lenti-iPSCs-LIF(+), and M3O-lenti-iPSCs-LIF(-). O-retro-iPSCs-LIF(+) was established by transduction of the OSKM genes into MEFs with the pMXs-IP retroviral vector and maintained with LIF. O-lenti-iPSCs-LIF(+) was prepared with lentiviral Oct4 and retroviral Sox2, Klf4, and c-Myc (SKM) to maintain the expression of the Oct4 transgene in iPSCs as a control for the two M3O-based iPSC types. M3O-lenti-iPSCs-LIF(+) was the same as O-lenti-iPSCs-LIF(+) except that M3O was used instead of Oct4. M3O-lenti-iPSCs-LIF(-) was the same as M3O-lenti-iPSCs-LIF(+) except that LIF was omitted during establishment and maintenance.
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip
+
+CITATIONS
+26413786 , 26981399
+

@@ -1,0 +1,18 @@
+TITLE
+Dendritic Cells Compare the Similarity of Endogenous and Exogenous Antigens
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Here we demonstrate by the use of extensive controls and stringent statistical analysis that dendritic cells differentially regulate hundreds of different genes based upon sequence similarity of endogenously- and exogenously-loaded antigens and in a T-cell independent fashion.  When endogenously and exogenously-derived antigens are identical, dendritic cells upregulate many different components of the Th-1 response, favoring the priming of CD8+ effectors and promulgating cellular immunity. Keywords: Loading methodology comparison
+
+DESIGN
+Dendritic cells were loaded by 1 of 5 different methods, then matured for 48 hours.  Total cellular RNA was then extracted from 9 unloaded DC populations, 10 mRNA-loaded populations, 11 lysate-loaded populations, 7 doubly-loaded (matched) populations, and 7 doubly-loaded (mismatched) populations, a total of 44 different experiments.  Each population was derived from a different normal human donor.  Matched/mismatched refers to the source of the mRNA and lysate used to load the DCs.  Matched signifies that the mRNA and lysate came from the same source.  Mismatched signifies that the mRNA and lysate came from disparate sources.  Gene expression profiles were then determined according to the method by which the DCs had been loaded.  Genes were identified as differentially expressed by DCs doubly-loaded with matched antigens, only if they were significantly different from all of the other four controls.  Significance was defined as Cohen’s |d| > 1.0 (large effect) and q-value (Benjamini-Hochberg false discovery) < 0.01.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+19171878
+

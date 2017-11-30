@@ -1,0 +1,18 @@
+TITLE
+Transcriptional override: a regulatory network model of indirect responses to modulations in microRNA expression (mRNA)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNAs are small non-coding molecules that have been shown to repress the translation of thousands of genes. Changes in microRNA expression in a variety of diseases, including cancer, are leading to the development of microRNAs as early indicators of disease, and to their potential use as therapeutic agents. A significant hurdle to the use of microRNAs as therapeutics is our inability to predict the molecular and cellular consequences of perturbations in the levels of specific microRNAs on targeted cells. While the direct gene (mRNA) targets of individual microRNAs can be computationally predicted and are often experimentally validated, assessing the indirect effects of microRNA variation remains a major challenge in molecular systems biology. We present experimental evidence for a computational model that quantifies the extent to which down-regulated transcriptional repressors contribute to the unanticipated upregulation of putative microRNA targets. An appreciation of the effects of these repressors may provide a more complete understanding of the indirect effects of microRNA dysregulation in diseases such as cancer, and to their successful clinical application.
+
+DESIGN
+mRNA were collected from the surface epithelial cells of 10 normal ovaries and from laser capture microdisection of 10 ovarian tumors. mRNA expression was captured on Affymetrix U133 Plus 2 chips. Present/absent calls were generated using MAS5, while signals were calculated using GCRMA. All signals were then log2 normalized. Expression was compared between miRanda-mirSVR predicted target genes of upregulated microRNAs, non-predicted target genes, and genes putatively targeted by down-regulated transcriptional repressors.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+24666724
+

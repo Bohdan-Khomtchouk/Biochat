@@ -1,0 +1,18 @@
+TITLE
+[miRNA Validation Set] Protein-coding and MicroRNA Biomarkers of Recurrence of Prostate Cancer Following Radical Prostatectomy
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To identify biomarkers predictive of biochemical recurrence, we isolated the RNA from 70 formalin-fixed paraffin-embedded (FFPE) radical prostatectomy specimens with known long term outcome to perform DASL expression profiling with a custom-designed panel of 522 prostate cancer relevant genes that we designed.  We identified a panel of ten protein-coding genes and two miRNA genes that could be used to separate patients with and without biochemical recurrence (p < 0.001), as well as for the subset of 42 Gleason score 7 patients (p < 0.001). We performed an independent validation analysis on 40 samples and found that the biomarker panel was also significant at prediction of recurrence for all cases (p = 0.013) and for a subset of 19 Gleason score 7 cases (p = 0.010), both of which were adjusted for relevant clinical information including T-stage, PSA and Gleason score.  Importantly, these biomarkers could significantly predict clinical recurrence for Gleason 7 patients.  These biomarkers may increase the accuracy of prognostication following radical prostatectomy using formalin-fixed specimens.
+
+DESIGN
+Total RNA prepared from FFPE cores from prostatectomy samples of 70 patients were used for the training phase (29 with biochemical recurrence and 41 controls).  All samples were analyzed by both custom Prostate DASL of 522 genes and by Illumina miRNA microarray.  Subsequently in the validation phase, samples from 40 patients were used on the same platforms (13 with biochemical recurrence and 27 controls).  For the training set, 45 cases were from Sunnybrook Health Science Center (Toronto, ON), and 25 patients from Emory University.  For the validation set, all samples were from Emory University.  Relevant clinical metadata included are PSA, T-stage, and Gleason Score.
+
+PLATFORM
+GPL11350 Illumina Custom Prostate Cancer DASL Panel miRNA
+
+CITATIONS
+24713434
+

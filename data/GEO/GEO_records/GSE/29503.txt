@@ -1,0 +1,18 @@
+TITLE
+Microarray CGH Profiling Of Serous Ovarian Tumours Identifies Novel Copy Number Alterations Associated with Patient Survival
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We used microarray CGH analysis with a tiling path BAC DNA microarray to profile DNA copy number alterations in 164 serous ovarian adenocarcinomas. Survival probabilities modelled by proportional hazards were used to stratify cases into good, intermediate or poor survival groups. Comparison of aCGH data from these groups was used to identify genomic alterations associated with patient survival.
+
+DESIGN
+A total of 984 cases of serous ovarian adenocarcinoma from three different studies were combined and Cox proportional hazards used to model survival using patient age, tumour stage and residual disease status as covariates. Survival probabilities (Pr) were extracted for all cases and used to stratify 384 cases for which microarray CGH data was available. From these, we identified 70 cases with poor survival (Pr > 0.784) and 70 cases with good survival (Pr < 0.35). aCGH data from these cases was provided to an iterative Support Vector Machine (SVM) routine to detect copy number changes associated with survival. Candidate regions were then validated by survival analysis in all 384 cases for which aCGH data was available. This series contains aCGH data from 164 tumours from the MALOVA collection.
+
+PLATFORM
+GPL6853 Mermaid_Human_32K_CGH_v1.0
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

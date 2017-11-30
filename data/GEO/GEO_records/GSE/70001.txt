@@ -1,0 +1,18 @@
+TITLE
+Ubiquitin-dependent turnover of MYC promotes loading of the PAF complex on RNA Polymerase II to drive transcriptional elongation (ChIP-seq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The MYC transcription factor is an unstable protein and its turnover is controlled by the ubiquitin system. Ubiquitination enhances MYC-dependent transactivation, but the underlying mechanism remains unresolved. Here we show that proteasomal turnover of MYC is dispensable for recruitment of RNA polymerase II (RNAPII), but is required to promote transcriptional elongation at MYC target genes. Degradation of MYC stimulates histone acetylation and recruitment of BRD4 and P-TEFb to target promoters, leading to phosphorylation of RNAPII CTD and the release of elongating RNAPII. In the absence of degradation, the RNA polymerase II-associated factor (PAF) complex associates with MYC via interaction of its CDC73 subunit with a conserved domain in the amino-terminus of MYC ( " MYC box I " ), suggesting that a MYC/PAF complex is an intermediate in transcriptional activation. Since histone acetylation depends on a second highly conserved domain in MYCs amino-terminus ( " MYC box II " ), we propose that both domains co-operate to transfer elongation factors onto paused RNAPII.
+
+DESIGN
+ChIP-Seq experiments for MYC-HA (HA-IP) and RNAPII (total,Ser2p,Ser5p) performed in IMEC primary breast epithelial cells. Input-samples were sequenced as controls. The following antibodies were used: HA (Abcam; ab 9110)/ total RNAPII (Santa Cruz; sc-899x)/ Ser2p RNAPII (Abcam; ab 5095)/ Ser5p RNAPII (Covance; MMS-128P)
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+26687678
+

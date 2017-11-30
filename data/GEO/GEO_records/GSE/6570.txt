@@ -1,0 +1,18 @@
+TITLE
+ZAS3-null vs wild-type whole mouse thymus
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The HIVEP/ZAS/Schnurri genes encode large zinc finger proteins that regulate gene expression through DNA binding to the kappaB motif. The ZAS proteins have also been shown to associate with signaling molecules to regulate the TNFa and TGFb signaling pathways. Because ZAS3 transcript and protein expression is rapidly abrogated in primary lymphocytes upon tissue culture, we have generated a ZAS3-null mouse model to study the physiological function of ZAS3. Mice with targeted disruption of ZAS3 are viable with life span comparable to controls. Additionally, the gross anatomy and histology of the major organs, proliferation rates of splenocytes and thymocytes, and the diversity of the TCRb chains of ZAS3 mice are comparable to wild-type. However, compared to wild-type mice, there are decreased CD3+CD4+ and CD3+CD4+CD69+ thymocyte populations.   Additionally, CD44hi/CD62Llo subset and CD25 and CD69 expression are increased in splenocytes of ZAS3 mice. Microarray analysis validated by  real time PCR revealed changes in the expression level of specific transcripts in ZAS3-null thymus, including several proteins in the G-protein coupled olfactory receptor family. Furthermore, EMSA shows that disruption of ZAS3 results in varying changes in binding activities towards NF-kB and AP1 binding sites. Other phenotypes observed in the ZAS3 mice include generalized increased bone density in older animals and infertility in females. As with ZAS2/shn-2 mice, disruption of ZAS3 is not lethal and does not grossly affect development or homeostasis. We propose that the ZAS proteins likely have overlapping functions, which may be uncovered with deletion of multiple ZAS genes in a single animal. Keywords: Gene knock-out mouse model
+
+DESIGN
+Five independent microarray hybridizations were performed with thymocytes isolated from sex- and age-matched mutant and wild-type littermates at 6-8 weeks of age. The Agilent Whole Mouse Genome Oligo Microarray (G4121A) containing over 20,000 60-mer oligonucleotide probes representing mouse genes, ESTs and EST clusters was used (Agilent, Cincinnati, OH). Probe labeling and hybridization were preformed by the Microarray Core Faculty (Columbus Children’s Research Institute) following the manufacturer's protocols. Briefly, cDNA probes were synthesized with Superscript III, oligo-dT primers and dNTPs supplemented with amino-allyl-UTP to improve hybridization characteristics and stability. After purification, cDNA samples from mutant or control mice were labeled with Cy3 or Cy5, respectively, and hybridized to the microarray for 14 hours at 48o C.  Slide image was acquired using an Affymetrix 428 scanner with gain settings set so that 95% of spots were below saturation to yield the maximum dynamic range within an experiment.  Images were converted into “.gpr” files using GenePix software (Axon, Union City, CA).  Data were analyzed using GeneTraffic 2.6 software (Iobion, La Jolla, CA).  Lowess-global normalization was applied to all experiments.  Flagging parameters were set as spot intensity lower than the intensity of local spot background, spot intensity lower than average background, and raw spot intensity less than 100.  Flagged spots were not included in normalization or aggregate calculations.  Only genes that were induced or repressed 1.5-fold in at least four of the five independent analyses and hybridization were targeted for potential further study.
+
+PLATFORM
+GPL891 Agilent-011978 Mouse Microarray G4121A (Feature Number version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

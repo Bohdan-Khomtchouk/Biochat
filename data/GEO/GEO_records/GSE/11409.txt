@@ -1,0 +1,18 @@
+TITLE
+MSNP data for normal blood, normal bone marrow, CD34+ cells and placenta samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+A novel method for detecting genome-wide ASM (allele-specific methylation) was developed by modification of the Affymetrix 250K StyI SNP arrays. Using this method, and the above mentioned samples, we consistently detected ASM in non-imprinted regions of the genome. Interestingly, ASM appears to be strongly correlated with the SNP sequences in cis.
+
+DESIGN
+DNA from various sources (6 normal blood, 2 normal bone marrow, 2 CD34+ bone marrow, and 3 placenta samples) was genotyped and ASM was scored as an allele call conversion from 'AB' (heterozygous) to 'AA' or 'BB' (homozygous) in the StyI+HpaII genomic representation, compared to the StyI-only representation.  Each sample was subjected to 5 runs of genotyping on the 250K StyI array, including 2 StyI alone, 2 StyI+HpaII and 1 StyI+MspI.
+
+PLATFORM
+GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array
+
+CITATIONS
+18568024
+

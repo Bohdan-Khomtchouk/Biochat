@@ -1,0 +1,18 @@
+TITLE
+Widespread Co-translational RNA Decay Reveals Ribosome Dynamics
+
+ORGANISM
+Schizosaccharomyces pombe ; Saccharomyces cerevisiae
+
+SUMMARY
+It is generally assumed that mRNAs undergoing translation are protected from decay. Here, we show that mRNAs are, in fact, co-translationally degraded. This is a widespread and conserved process affecting most genes, where 5′–3′ transcript degradation follows the last translating ribosome, producing an in vivo ribosomal footprint. By sequencing the ends of 5′ phosphorylated mRNA degradation intermediates, we obtain a genome-wide drug-free measurement of ribosome dynamics. We identify general translation termination pauses in both normal and stress conditions. In addition, we describe novel codon-specific ribosomal pausing sites in response to oxidative stress that are dependent on the RNase Rny1. Our approach is simple and straightforward and does not require the use of translational inhibitors or in vitro RNA footprinting that can alter ribosome protection patterns.
+
+DESIGN
+RNA samples were quantified according to their 5’modification. Samples were quantified using 2 alternative methods. 5PSeq (measures 5’P RNAs) and 5PSeq-fragmented (measures the sequencing bias present in any sample by randomly fragmenting RNA, re-phosphorilating the 5’ends and subjecting the sample to 5PSeq; it is used as a negative control). Different strains of S. cerevisiae and S. pombe samples were analyzed. Cells were grown both in rich media (YPD or YES) and synthetic defined media (SD). Cells were subjected to different treatments such as inhibition of translation elongation with cyclohexamide (CHX), oxidative stress (0.2 mM H2O2) or inhibition of histidine biosyntesys (3-AT; 100mM 3-amino-1,2,4-triazole). S. cerevisiae samples grown in rich media were also analyzed after CHX treatment and sucrose fractionation into monosome and polyribosome fractionation. All samples were analyzed in biological duplicates.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae) GPL13988 Illumina HiSeq 2000 (Schizosaccharomyces pombe) GPL16192 Illumina MiSeq (Schizosaccharomyces pombe) GPL17143 Illumina MiSeq (Saccharomyces cerevisiae)
+
+CITATIONS
+26046441
+

@@ -1,0 +1,18 @@
+TITLE
+The SPOP-containing Complex Functions as an E3 Ligase for SETD2 to Regulate Gene-Specific H3K36me3-Coupled Alternative Splicing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+H3K36me3 has been reported to associate with active gene expression, and SETD2 is the mainly methyltransferase for H3K36me3. We identified SPOP which is a CUL3 family protein as a E3 ligase for SETD2. Genome wide analysis by using ChIPSeq and RNASeq demonstrate that SPOP specificly eliminate H3K36me3 modification at target genes and resulted in alternative splicing of those target genes.
+
+DESIGN
+RNA-Seq was perfomed in negative control(NC), siSPOP, siSEDT2, and SPOP/SETD2 double knock down cell lines. For alternative splicing events analysis illumina HiSeq4000 platform was used for sequencing with 150 paired end mode and sequencing reads range from 67 million to 90 million. H3K36me3 ChIP-Seq was performed in NC, siSPOP, siSETD2, SPOP and SETD2 double knock down cell lines. ChIP-Seq libraries were sequenced by HiSeq 2500 platform with single end 50bp mode.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+27614073
+

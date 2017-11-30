@@ -1,0 +1,18 @@
+TITLE
+Robust inference of cell-to-cell expression variations from single- and k-cell profiling (RNA-Seq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Quantifying heterogeneity in gene expression among single cells can reveal information inaccessible to cell-population measurements. However, the levels of many transcripts in single cells fall below the detection limit of even the most sensitive technologies currently available. One proposed approach to overcome this challenge is to measure random pools of k cells (e.g., 10) to increase sensitivity, followed by computational deconvolution of cellular heterogeneity parameters (CHPs), such as the biological variance of single-cell expression levels. Existing approaches infer CHPs using either single-cell or k-cell data alone, and typically within a single population of cells. However, quantifying differences in CHPs across cell populations or conditions could reveal novel biological information, and integrating both single- and k-cell data may reap additional benefits. Here we present a Bayesian approach that can utilize single-cell, k-cell, or both simultaneously to infer CHPs within a single condition or their differences across two conditions. Using simulated as well as experimentally generated single- and k-cell data, we found situations where each data type would offer advantages, but using both together can improve precision and better reconcile CHP information contained in single- and k-cell data. We illustrate the utility of our approach by applying it to jointly generated single- and k-cell data to reveal CHP differences in several key inflammatory genes between resting and inflammatory cytokine-activated human macrophages, delineating differences in the distribution of 'ON' versus 'OFF' cells and in continuous variation of expression level among cells. Our approach thus offers a practical and robust framework to assess and compare cellular heterogeneity within and across biological conditions using modern multiplexed technologies.
+
+DESIGN
+Macrophages, differentiated for 6 days from human blood monocytes using M-CSF (100ng/mL) cultured in X-vivo 15, were treated with stimuli for 18 hours and RNA collected for RNAseq (Illumina Truseq Ribo Zero stranded  protocol).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27438699
+

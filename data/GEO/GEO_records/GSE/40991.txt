@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic profiling permits the identification of pollutant sources and effects in ambient water samples
+
+ORGANISM
+Hypomesus transpacificus
+
+SUMMARY
+The delta smelt (Hypomesus transpacificus) is a pelagic fish species endemic to the Sacramento-San Joaquin Estuary in Northern California, listed as endangered under both the USA Federal and Californian State Endangered Species Acts and acts as an indicator of ecosystem health in its habitat range. Interrogative tools are required to successfully monitor effects of contaminants upon the delta smelt, and to research potential causes of population decline in this species. We used microarray technology to investigate genome-wide effects in 47-day old larvae after a 7-day exposure to ambient water samples from the Sacramento River at a monitoring field station (Hood) situated 8 miles downstream of the Sacramento regional Wastewater Treatment Plant. Genomic assessments were carried out on surviving organisms and contrasted to laboratory controls.
+
+DESIGN
+Microarray assessments were conducted on larvae exposed for 7-days to Sacramento River water collected at Hood and pooled laboratory controls. Assessments were carried out in quadruplicate, using 3 fish per treatment. RNA was extracted from frozen whole, individual organisms, using Trizol Reagent (Invitrogen) as per manufacturer's guidelines. Total RNA from 5 fish was pooled per treatment and cDNA was synthesized from a total of 2ug total RNA, amplified using a SuperScripttm Indirect RNA Amplification System (Invitrogen). Resulting aRNA was labeled with Alexa fluor dyes (Invitrogen) as per manufacturer’s instructions. Two color microarray assessments were carried out on quadruplicate treatments, using 5µg of aRNA for pooled controls vs exposed sample, (total 4 samples). Microarray hybridizations were performed manually, and incubated in a waterbath at 42C for 16 hours. Slides were scanned using a GenePix 4000B scanner (Axon Instruments). Data was analyzed using LIMMA GUI (Linear model for microarray analysis graphical user interface) (Smyth, 2005), written in the R-programming language available through Bioconductor http://www.Bioconductor.org. Data was normalized within using print-tip Lowess and between arrays applying average intensity quantile (Aquantile) normalization methods with background correction (Smyth, 2005). A linear model fit was computed using the duplicates on the arrays and the least-squares method, with Benjamin Hochberg false discovery rate adjustment.
+
+PLATFORM
+GPL10818 [UCDavis]-[Delta smelt]-[18240]-[V:1.2]
+
+CITATIONS
+24061060
+

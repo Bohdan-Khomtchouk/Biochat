@@ -1,0 +1,18 @@
+TITLE
+Calmodulin controlled gene expression profiling in mouse cortical neruons
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We used wild-type neurons, and directly compared neurons that had been infected with lentiviruses expressing the CaM shRNAs either without or with a wild-type CaM rescue protein. We then analyzed the gene expression patterns in these neurons with the Affymetrix mouse gene ST_1.0 chip. We identified in two independent array studies ~250 genes whose expression was consistently up- or down-regulated by the CaM KD, as compared to the CaM KD/rescue control. As expected, multiple classes of genes were regulated by CaM. Consistent with previous studies, we found that activity-dependent genes, such as Homers, Npas2, Arc and Egr3, were down-regulated by the CaM KD. Interestingly, we observed that several synaptic trafficking proteins were either up- or downregulated by the CaM KD. Among these was a large increase in the expression of Syt2, which can serve as a Ca2+-sensor for synaptic exocytosis; thus, this upregulation of Syt2 by the CaM KD likely accounts for the rescue of the Syt1 KO phenotype. In addition, expression of Syb1 was massively increased, whereas expression of Syt4, Syt9, and syntaxin-1A was decreased. Another intriguing class of proteins whose expression was strongly regulated by CaM were cell-adhesion molecules, such as the synaptic cell-adhesion molecules Lrrtm1, Lrrtm3, and contactin-2. Moreover, we observed up-regulation of sodium channels, and a down-regulation of potassium channels, suggesting that CaM might control the activity-dependent regulation of neuronal excitability. Finally, we detected changes in multiple genes encoding transcription factors, intracellular signal transduction proteins, elements of the cytoskeleton, or metabolic enzymes. It should be noted, however, that despite these multifarious changes, more than 95% of genes showed no CaM KD-induced change, suggesting that the observed CaM KD-dependent expression changes are specific.
+
+DESIGN
+Microarray analysis was performed twice (dated 11/26 and 11/30) representing two repeats. Experimental groups:  L309 samples are control infections of mouse cortical neurons, KD30 samples are calmodulin knockdowns, rCaM Samples are shRNA-rescued with shRNA resistant calmodulin knockdowns. Both test samples were compared to the L309 control samples and only ratio data are available. CEL files for the two control Samples are available on the Series record.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+20729199
+

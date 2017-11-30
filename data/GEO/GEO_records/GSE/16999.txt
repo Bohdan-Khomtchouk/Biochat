@@ -1,0 +1,18 @@
+TITLE
+Gene expression analysis study in cerulenin treated and control Y79 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression analysis study in cerulenin treated - 7µg/ml cerulenin treated Y79 cells and control Y79 cells
+
+DESIGN
+Organism used: Homo sapiens * Slides: Gene Expression Whole Human Genome 4x44k * Starting material: Cells in RNA later * RNA Samples used: Control Y79 and Treated_Cerulenin * Labeling kit: Agilents Low input RNA linear amplification Kit one color * Labeling Method: T7 promoter based-linear amplification to generate labeled complementary RNA * Total RNA and cRNA Purification Kit: Qiagen's RNeasy minikit * Hybridization Kit: Agilent's In situ Hybridzation kit Hybridization protocol  The fragmented cRNA were mixed with 25ul of 2x GE Hybridization Buffer (Agilent). About 45ul of the resulting mixture was applied to the Microarray and hybridized at 65degC for 17 hours in an Agilent Microarray Hybridization Chamber (SureHyb: G2534A) with Hybridization Oven. After hybridization, slides were washed with Agilent Gene expression Wash Buffer I for 1 minute at room temperature followed by a 1 min wash with Agilent Gene expression Wash Buffer II for 37C. Slides were finally rinsed with Acetonitrile for cleaning up and drying. Scan protocol  Laser detection of Cyanine 3 and Cyanine 5 fluorescence is performed using a confocal scanning instrument containing two tuned lasers, which excite Cyanine dyes at the appropriate wavelengths. Description  Microarrays were scanned on an Agilent scanner (G2565AA) at 100% laser power, 30% PMT.Data extraction was carried out with Agilent Feature Extraction software (version 9.1), and normalization was done using linear per array algorithm according to the manufacturer's protocol. Data processing  Feature extracted data was analyzed using GeneSpring GX v 7.3.1 software from Agilent. Normalization of the data was done in GeneSpring GX using the recommended one color Per Chip and Per Gene Data Transformation: Set measurements less than 0.01 to 0.01, Per Chip: Normalize to 50th percentile, Per Gene: Normalize to Specific Samples. Further quality control of normalized data was done using correlation based condition tree to eliminate bad experiments. Differentially regulated Genes were filtered with cutoff of > 1.5 for Up regulation and < 0.55 for Down Regulation were obtained. Differentially regulated genes were clustered using gene tree to identify significant gene expression patterns.
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+23441619
+

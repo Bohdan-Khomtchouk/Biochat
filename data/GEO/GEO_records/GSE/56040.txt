@@ -1,0 +1,18 @@
+TITLE
+Dam selectivity upon glass eel migration: insights from genes expression analysis.
+
+ORGANISM
+Anguilla anguilla
+
+SUMMARY
+Gene expression analyses have been performed on brain, liver and muscle of eels (Anguilla anguilla) sampled in three different segment of the Canal des Etangs ( artificial canal linking Arcachon Basin and Lacanau Lake). The present study relies on intraspecific differences of glass eels encountered below and above the water dams.  Eels were collected using electric fishing under similar climatic and hydrological conditions. Individuals were sampled below the obstacle, close to the fishway entry in segment 1 (Pas du Bouc; +44° 50' 27.95, -1° 9' 8.09) and 2 (Langouarde, +44° 51' 32.92, -1° 9' 5.03). Fish from the segment 3 (Joncru; +44° 52' 57.13, -1° 8' 11.70) were sampled on the fishway, as water depth before the obstacle, approximately 2 meters, precluded the use of electro-fishing technique. Ten individuals were selected from each site according to their body size (between 83 and 155 mm) and health status (no externally visible pathogens) criteria. Internal parasites such as Anguilicola crassus were taken into account. Sampled and selected fish were immediately sacrified by decapitation and the whole brain, liver and muscle tissue (posterior bottom body part) were dissected and stored at -80°C in separate tubes with RNAlater buffer (Quiagen) for gene expression analysis.  Microarray analysis was conducted using an European eel-specific array consisting of a total of 14,913 probes based on a large collection of high-throughput transcriptomic sequences (Pujolar et al. 2012). Probe sequences and further details on the microarray platform can be found on the GEO database under accession number GPL15124.
+
+DESIGN
+A comparative analysis of gene expression was conducted between eels sampled in differents segments of Canal des Etangs. Total RNAs were extracted from the whole liver,muscle and brain using the Absolutely RNA RT-PCR Miniprep kit (Agilent) according to the manufacturer’s instructions. Three independent RNA pools, each consisting of three individuals RNA samples, were prepared for each sampling site and tissues. Due to technical problems, it was no possible to perform microarray analyses in muscle of eels sampled in forebay 3. Accordingly, DNA microarray analysis has been performed in a total of 24 pools. RNAs’ quality was evaluated by electrophoresis on a 1% agarose gel and their concentrations were determined by spectrophotometry. Total RNA was stored in RNAse free water at -80° C. Sample labelling and hybridization were conducted following the details in Pujolar et al. (2012). Hybridized slides were scanned at 5 µm resolution using an Agilent DNA microarray scanner. Slides were scanned at two different sensitivity levels (XDR Hi 100% and XDR Lo 10%) and the two linked images generated were analysed together. Data were extracted and background subtracted using the standard procedure in Agilent Feature Extraction (FE) software v. 9.5.1. Data were normalized separately for each tissue using a quantile normalization procedure using R ( http://www.r-project.org ).
+
+PLATFORM
+GPL15124 University of Padova Anguilla anguilla 8x15K v1.0
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

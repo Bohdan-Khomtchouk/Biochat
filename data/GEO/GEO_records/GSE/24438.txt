@@ -1,0 +1,18 @@
+TITLE
+Genome wide maps of Dmc1 in testis of Hop2 null mice.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We report the application of ChIP-seq targeted at the meiosis-specific protein DMC1 to reveal the genome-wide distribution of initiation of meiotic recombination. The mouse model here employed is Hop2-/- because it is unable to repair the DNA double-stranded breaks and therefore the DMC1 signal is more persistent. We also provide the resulting dataset of ChIP-seq targeted at RAD51 which is not meiosis specific but is also targeted at initiation of recombination loci in meiotic tissue. In addition, we report DMC1 ChIP-seq on wild type mouse pup testis. Finally, we present ChIP-seq targeted at H3K4me3 in testis and liver tissues.
+
+DESIGN
+Lysates from mice testis cells were sonicated, clarified and DNA protein complexes were isolated with anti Dmc1 or anti Rad51 or H3K4Me3 antibodies. DNA purified from proteins and libraries were prepared according to Illumina's instructions accompanying the genomic DNA Sample preparing kit part number 1000181. Briefly, DNA was end-repaired using a combination of T4 DNA polymerase, E. coli DNA Pol I large fragment (Klenowpolymerase) and T4 polynucleotide kinase. The blunt, phosphorylated ends were treated with Klenow fragment (3’ to 5’ exo minus) and dATP to yield a protruding 3- 'A' base for ligation of Illumina's adapters which have a single 'T' base overhang at the 3’ end. After adapter ligation DNA was PCR amplified with Illumina primers for 18 cycles and library fragments of 150~250 bp were isolated from an agarose gel. The purified DNA was captured on an Illumina flow cell for cluster generation. To prepare Micrococcal Nuclease-digested fractions of chromatin DNA, homogenized testis cells were treated with MN and pelleted. The supernatant containing the digested fraction was separated and the DNA was purified from proteins. The library was prepared the same way as described above and all were sequenced on the Genome Analyzer following the manufacturer's protocols.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+21460839
+

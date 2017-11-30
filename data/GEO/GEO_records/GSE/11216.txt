@@ -1,0 +1,18 @@
+TITLE
+Brassinazole treatment of arf2 and wild-type dark-grown seedlings
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+While the close relationship between BRs and auxin has been widely reported, the molecular mechanism for combinatorial control of shared target genes has remained elusive. In this work, we demonstrate that BRs synergistically increase seedling sensitivity to auxin and show that combined treatment with both hormones can increase the magnitude and duration of gene expression. arf2 mutants are less sensitive to changes in endogenous BR levels, while a large number of genes affected in an arf2 background are returned to near wild-type levels by altering BR biosynthesis. Together, these data suggest a model where BIN2 increases expression of auxin-induced genes by directly inactivating repressor ARFs, leading to synergistic increases in transcription. Keywords: arf2 vs. Col, BRZ vs. mock
+
+DESIGN
+Total RNA was extracted from 4-day-old, etiolated Arabidopsis seedlings grown on 0.5 µM BRZ or mock treatments and used to probe ATH1 microarrays (Affymetrix), according to manufacturer’s protocols. There are three independent biological replicates for each genotype and treatment, except for arf2 mutants with BRZ where only two arrays passed quality control. We performed standard Affymetrix quality-control procedures using the BioConductor packages simpleaffy. Expression was normalized and estimated using the gcRMA package of BioConductor.
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+18599455
+

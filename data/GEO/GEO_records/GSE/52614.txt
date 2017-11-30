@@ -1,0 +1,18 @@
+TITLE
+Genome-wide mapping proteins at replication forks in the yeast S. cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Faithful duplication of DNA is essential for the maintenance of genomic stability in all organisms. DNA synthesis proceeds bi-directionally with continuous synthesis of leading strand DNA and discontinuous synthesis of lagging strand DNA. Herein, we describe a method of enriching and Sequencing of Protein-Associated Nascent strand DNA (eSPAN) to detect whether a protein binds the leading- and lagging-strands of DNA replication forks. We show that Pol-epsilon, PCNA, Cdc45, Mcm6 and Mcm10 preferentially associate with leading strands, whereas Pol-alpha, Pol32, Pol-delta, Rfa1 and Rfc1 associate with lagging strands of hydroxyurea (HU)-stalled replication forks. In contrast, PCNA is enriched at lagging strands of normal replication forks in wild type cells and HU-stalled forks in cells lacking Elg1. These studies demonstrate a strategy to reveal proteins at leading and lagging strands of DNA replication forks, and suggest that the unloading of PCNA from lagging strands of HU-stalled replication forks helps maintain genome integrity.
+
+DESIGN
+We synchronized yeast cells at G1 and released into early S phase in the presence of BrdU, a nucleotide analog that can be incorporated into newly synthesized DNA strand, and hydroxyurea (HU), a ribonucleotide reductase inhibitor. HU has no effect on initiation of DNA replication at early replication origins, but inhibit late replication firing. In addition, replication forks are stalled due to depletion of dNTPs. We then performed chromatin-immunoprecipitation of 12 proteins of interest following a standard procedure. Protein-bound DNAs were then reverse-crosslinked and double strand DNA was denatured. Nascent DNA was enriched by immunoprecipitation using anti-BrdU antibodies. The recovered ssDNA was first marked with ligation to one oligo at 3’ end before conversion to dsDNA for library preparation and sequencing. In this way, the directionality of ssDNA and therefore strand information of each sequenced DNA were known. The sequencing tag was mapped to both Watson (red) and Crick (blue) strands of the reference genome. In addition to ChIP-eSPAN, we also performed BrdU-IP and single strand DNA sequence (BrdU-ssSeq) and protein ChIP followed by single-strand DNA sequencing (ChIP-ssSeq) for each corresponding ChIP-eSPAN experiment. We also performed Mcm4 and Mcm6 ChIP-seq using cells synchronized at G1 phase of the cell cycle for identification of replication origins in comparison with published dataset. Some protein ChIP-ssSeq and ChIP-eSPAN experiments were repeated and the data fits well each other. Therefore, we did not repeat all protein ChIP-ssSeq and ChIP-eSPAN experiments.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+25449133
+

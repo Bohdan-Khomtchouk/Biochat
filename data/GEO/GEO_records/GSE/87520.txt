@@ -1,0 +1,18 @@
+TITLE
+Analysis of the in planta Transcriptome Expressed by the Corn Pathogen Pantoea stewartii subsp. stewartii via RNA-Seq
+
+ORGANISM
+Pantoea stewartii subsp. stewartii DC283
+
+SUMMARY
+Pantoea stewartii subsp. stewartii is a bacterial phytopathogen that causes Stewart’s wilt disease in corn.  It uses quorum sensing to regulate expression of some genes involved in virulence in a cell density-dependent manner as the bacterial population grows from small numbers at the initial infection site in the leaf apoplast to high cell numbers in the xylem where it forms a biofilm. There are also other genes important for pathogenesis not under quorum-sensing control such as a Type III secretion system. The purpose of this study was to compare gene expression during a high-density in planta infection versus a low-density pre-inoculum liquid culture and in a high-density culture grown on agar medium to identify genes specifically expressed in planta that may also be important for colonization and/or virulence.  RNA was purified from each sample type to determine the transcriptome via RNA-Seq using Illumina sequencing of cDNA.  Fold gene expression changes in the high-density in planta data set in comparison to the two in vitro grown samples were determined and a list of the most differentially expressed genes was generated to elucidate genes important for plant association.  Quantitative reverse transcription PCR (qRT-PCR) was used to validate expression patterns for a select subset of genes. Analysis of the transcriptome data via gene ontology revealed that bacterial transporters and systems active under low oxygen tensions appear to play a critical role for P. stewartii as it colonizes and causes wilt disease in corn plants.
+
+DESIGN
+Duplicate samples of wild-type P. stewartii were obtained for RNA-Seq after a 10 day in planta corn infection, pre-inoculum liquid culture in RM medium, and a high cell density plate culture
+
+PLATFORM
+GPL22513 Illumina HiSeq 2500 (Pantoea stewartii subsp. stewartii DC283)
+
+CITATIONS
+28462040
+

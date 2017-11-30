@@ -1,0 +1,18 @@
+TITLE
+Identification of the Candida albicans Cap1p regulon (Cap1-CSE-HA and Cap1-HA complete datasets)
+
+ORGANISM
+Candida albicans
+
+SUMMARY
+Cap1p, a transcription factor of the basic region-leucine zipper family, regulates oxidative stress response (OSR) in Candida albicans.  Alteration of its C-terminal cysteine-rich domain (CRD) results in Cap1p nuclear retention and transcriptional activation.  To better understand the function of Cap1p in C. albicans, we used genome-wide location profiling (ChIP-on-chip) to identify its transcriptional targets in vivo.  A triple-hemagglutinin epitope was introduced at the C-terminus of wild-type Cap1p (Cap1p-HA3) or hyperactive Cap1p with an altered CRD (Cap1p-CSE-HA3).  Location profiling using whole-genome oligonucleotide tiling microarrays identified 89 targets bound by Cap1p-HA3 or Cap1p-CSE-HA3 (binding ratio ≥ 2-fold, P ≤ 0.01).  Strikingly, Cap1p binding was not only detected at the promoter region of its target genes but also at their 3'-end and within their open-reading frame, suggesting that Cap1p may associate with the transcriptional or the chromatin remodeling machinery to exert its activity.  Overrepresented functional groups of the Cap1p targets (P ≤ 0.02) included 11 genes involved in OSR (CAP1, GLR1, TRX1, SOD1, CAT1, others), 13 genes involved in response to drugs (PDR16, MDR1, FLU1, YCF1, FCR1, others), 4 genes involved in phospholipid transport (PDR16, GIT1, RTA2, orf19.932) and 3 genes involved in the regulation of nitrogen utilization (GST3, orf19.2693, orf19.3121), suggesting that Cap1p has other cellular functions in addition to OSR.  Bioinformatic analyses of the bound sequences suggest that Cap1p recognizes the DNA motif 5'- MTKASTMA.  Finally, transcriptome analyses showed that increased expression generally accompanies Cap1p binding at its targets, indicating that Cap1p functions as a transcriptional activator.
+
+DESIGN
+Processing of raw data from 3 independent replicate samples for each Cap1 dataset was conducted using Tilescope ( http://tilescope.gersteinlab.org:8080/mosaic/pipeline.html ). Quantile normalization was applied to the data. The parameters used were as follows: window size of 400 bp, MaxGap of 60 bp and MinRun of 120 bp. The replicate data were combined and peak-finding (i.e. Cap1p-binding sites) was determined using the following criteria: pseudo-median signal threshold of ≥ 2-fold and p-value cut-off of ≤ 0.01.
+
+PLATFORM
+GPL4037 Snyder - Nimblegen C.albicans WGT 50-60; 50-120
+
+CITATIONS
+19395663
+

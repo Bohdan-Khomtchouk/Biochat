@@ -1,0 +1,18 @@
+TITLE
+Global analysis of ZNF217 chromatin occupancy in the breast cancer cell genome reveals an association with Eralpha
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: The ZNF217 gene, encoding a C2H2 zinc finger protein, is located at 20q13 and found amplified and overexpressed in greater than 20% of breast tumors. Current studies indicate ZNF217 drives tumorigenesis, yet the regulatory mechanisms of ZNF217 are largely unknown. Because ZNF217 associates with chromatin modifying enzymes, we postulate that ZNF217 functions to regulate specific gene signaling networks. Here, we present a large-scale functional genomic analysis of ZNF217, which provides insights into the regulatory role of ZNF217 in MCF7 breast cancer cells. Results: ChIP-seq analysis reveals that the majority of ZNF217 binding sites are located at distal regulatory regions associated with the chromatin marks H3K27ac and H3K4me1. Analysis of ChIPseq transcription factor binding sites shows clustering of ZNF217 with FOXA1, GATA3 and ERalpha binding sites, supported by the enrichment of corresponding motifs for the ERalpha-associated cisregulatory sequences. ERalpha expression highly correlates with ZNF217 in lysates from breast tumors (n=15), and ERalpha co-precipitates ZNF217 and its binding partner CtBP2 from nuclear extracts. Transcriptome profiling following ZNF217 depletion identifies differentially expressed genes co-bound by ZNF217 and ERalpha; gene ontology suggests a role for ZNF217-ERalpha in expression programs associated with ER+ breast cancer studies found in the Molecular Signature Database. Data-mining of expression data from breast cancer patients correlates ZNF217 with reduced overall survival in multiple subtypes. Conclusions: Our genome-wide ZNF217 data suggests a functional role for ZNF217 at ERalpha target genes. Future studies will investigate whether ZNF217 expression contributes to aberrant ERalpha regulatory events in ER+ breast cancer and hormone resistance
+
+DESIGN
+Differential RNA-seq profiling from triplicate biological replicates of MCF7 cells treated with scrambled siRNA or siZNF217.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24962896
+

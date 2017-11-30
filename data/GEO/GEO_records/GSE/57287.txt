@@ -1,0 +1,18 @@
+TITLE
+Microarray study of the Sex Inducer Proteins in Cryptococcus neoformans var. neoformans (JEC20/21)
+
+ORGANISM
+Cryptococcus neoformans var. neoformans
+
+SUMMARY
+To identify genes regulated by the homeodomain transcription factors Sxi1α and Sxi2a (Sex Inducer 1α and 2a) in Cryptococcus neoformans, we carried out a whole-genome expression experiment. We performed two independent whole-genome microarray experiments comparing transcript levels in cells that either possessed or were lacking the Sxi proteins. In the first experiment we compared the expression profile of a haploid sxi1αΔ strain to that of a haploid strain expressing both SXI1α and an inducible copy of SXI2a (Sxi +). In the second experiment, we compared the expression profile of a wild type cross (JEC20 x JEC21) to the expression profile of a cross whose mating partners did not possess either of the transcription factors (sxi2a∆ x sxi1α∆)(Sxi -). In both experiments RNA from each condition was harvested, labeled, and hybridized competitively to a spotted oligonucleotide microarray representing the approximately 6,500 genes in the C. neoformans genome. The resulting data was analyzed in Limma using standard methods.
+
+DESIGN
+In the Sxi (+) experiment, each strain (Δsxi1α and the Sxi-Inducible strain) were grown overnight in liquid YPD, diluted back to an OD600 of 0.2, grown to log phase, and then switched to growth in liquid YPGal media for 6 hrs. The Δsxi1α strain was designated the control condition. Two biological replicates were used and in the first replicate there were two technical replicates for each dye orientation (4 replicates total). For the second Sxi (+) biological replicate, there were three total technical replicates, and one of those was a dye swap. For Sxi deletion crosses, strains (JEC20 x JEC21 or Δsxi1α x Δsxi2a) were mixed and plated onto V8 media (pH 7.0) and incubated at 22°C in the dark for approximately 16 hours. The wild type (JEC20 x JEC21) cross was designated as the control in this experiment. Eight total hybridizations were carried out that consisted of 2 biological replicates and four technical replicates for each biological replicate (2 technical replicates per dye swap).
+
+PLATFORM
+GPL18646 WashU C. neoformans 24k Ver2
+
+CITATIONS
+25476490
+

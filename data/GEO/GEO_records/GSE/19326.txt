@@ -1,0 +1,18 @@
+TITLE
+Expression data from various tomato plant tissues
+
+ORGANISM
+Solanum lycopersicum
+
+SUMMARY
+Gene-to-gene coexpression analysis is a powerful approach to infer function of uncharacterized genes. To perform non-targeted coexpression analysis of tomato genes, we collected a developmental gene expression dataset using various tissues of tomato plant. Expression data are collected from 24 different tissue types including root, hypocotyl, cotyledon, leaf at different stages, and fruit tissues at 4 different ripening stages from 4 different Solanum lycopersicum cultivars. Fruits were separated to the flesh and the peel. These two tissue types indeed showed remarkably different gene expression profiles. We also collected data from 4 different ripening stages (mature green, yellow, orange, and red) to detail the changes during ripening. By using this gene expression dataset, we calculated pair-wise Pearson’s correlation coefficients, and performed network-based coexpression analysis. The analysis generated a number of coexpression modules, some of which showed an enrichment of genes associated with specific functional categories. This result will be useful in inferring functions of uncharacterized tomato genes, and in prioritizing genes for further experimental analysis. We used Affymetrix GeneChip Tomato genome Arrays to detail the global gene expression change using 24 different tomato tissue types (67 hybridizations).
+
+DESIGN
+We collected gene expression data from 24 different tomato tissue types using 67 hybridizations. Root, hypocotyl, cotyledon, and leaf were sampled from 3-week-old or 5-week–old plant of Solanum lycopersicum cultivar Micro-Tom. Fruit tissues were sampled from S. lycopersicum cultivars Micro-Tom, Anthocyanin fruit (Aft, LA1996), Line27859, and Momotaro 8 (Takii, Japan). From Micro-Tom fruit, the peel and the flesh were separately sampled from 4 different ripening stages: mature green (MG, approximately 30 day after anthesis), yellow (Y, approximately 35 days after anthesis), orange (O, approximately 38-40 days after anthesis), and red (R, approximately 45-48 days after anthesis). From fruits of Aft and Line27859, the peel and the flesh were sampled at mature green (MG, approximately 40 days after anthesis) and red (R, approximately 50-55 days after anthesis) stages. From Momotaro 8, the peel and the flesh were sampled at red (R, 50- approximately 50-55 days after anthesis) stages. For each tissue type, 2-4 biological replicates were made in RNA preparation.
+
+PLATFORM
+GPL4741 [Tomato] Affymetrix Tomato Genome Array
+
+CITATIONS
+20130013
+

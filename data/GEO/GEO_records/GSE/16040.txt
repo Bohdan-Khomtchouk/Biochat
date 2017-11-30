@@ -1,0 +1,18 @@
+TITLE
+S. pombe genome-wide nucleosome mapping reveals positioning mechanisms distinct from S. cerevisiae
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Positioned nucleosomes limit the access of proteins to DNA and implement regulatory features encoded in eukaryotic genomes. Here we generated the first genome-wide nucleosome positioning map for Schizosaccharomyces pombe and annotated transcription start and termination sites genome-wide. Using this resource we found surprising differences compared to the nucleosome organization in the distantly related yeast Saccharomyces cerevisiae [the cerevisiae data has been published by others (PMID: 17873876) and the raw data is deposited at ArrayExpress(E-MEXP-1172)]. DNA sequence guides nucleosome positioning differently, e.g., poly(dA:dT) elements are not enriched in S. pombe nucleosome-depleted regions (NDRs). Regular nucleosomal arrays emanate more asymmetrically, i.e., mainly co-directionally with transcription, from promoter NDRs, but promoters harbouring the histone variant H2A.Z show regular arrays also upstream. Regular nucleosome phasing in S. pombe has a very short repeat length of 154 base pairs, and requires a remodeler, Mit1, conserved in humans but not found in S. cerevisiae. Nucleosome positioning mechanisms are evidently not universal but evolutionarily plastic.
+
+DESIGN
+For GSM401392-400: Nucleosomal DNA vs. Genomic Input DNA in wildtype, Mit1 mutant and Fft3 mutant S. pombe. For GSM468642-6: Wildtype and Mit1 mutant S. pombe total RNA. 3 biological replicates for wildtype and 2 for mutant have been collected. For GSM468647-8: Nucleosomal DNA vs. Genomic Input DNA in wildtype, Mit1 mutant, Fft3 and Tup11/12 mutant S. pombe.
+
+PLATFORM
+GPL2529 [Yeast_2] Affymetrix Yeast Genome 2.0 Array GPL7715 [Sp20b_M] Affymetrix S. pombe Tiling 1.0FR Array
+
+CITATIONS
+20118936
+

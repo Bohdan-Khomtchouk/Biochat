@@ -1,0 +1,18 @@
+TITLE
+LKR13-Kras-WT1-KO
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+K-ras is one of the most frequently mutated human oncogenes.  However, activation of K-ras can lead to either senescence or proliferation in primary cells.  The precise mechanism governing these distinct outcomes remains unclear.  Here we describe a novel loss-of-function screen to assess the role of specific genes identified as potential key regulators of K-ras driven oncogenesis.  Using this approach, we identify the transcription factor Wt1 as an inhibitor of senescence in primary cells expressing oncogenic K-ras.  Deletion or suppression of Wt1 expression leads to senescence of primary cells expressing oncogenic K-ras under the control of the native promotor and at physiological levels, but had no effect on cells expressing wild-type K-ras.  Furthermore, loss of Wt1 in lung cancer cell lines that harbor mutant K-ras leads to apoptosis.  Taken together, these observations reveal a novel role for Wt1 as a key regulator of the complex genetic network required for the oncogenic effect of the small GTPase K-ras. We compare the expression profiles of K-ras mutant mouse cell line (LKR13) upon shRNA knockdown of K-ras itself or Wt1. The study provides insights into the transcriptional role of Wt1 in the context of oncogenic K-ras.
+
+DESIGN
+LKR13 cells were infected with plko.1s vectors carrying one of two shRNAs against K-ras or Wt1.  Control cells were infected with an shRNA against GFP.  48 hours after infection, cells were selected with puromycin for 3 days.  RNA was isolated using Trizol 7 days after infection.  RNA was further prepared by passage over an RNeasy column.  cDNA synthesis, biotinylation of cRNA and hybridization to mouse Genechip 430A v2 containing 39,000 probes was performed according to the manufacturer’s instructions (Affymetrix, Santa Clara). Microarray data was normalized with Expression Console software (Affymetrix, Santa Clara), using RMA algorithms.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

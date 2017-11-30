@@ -1,0 +1,18 @@
+TITLE
+Global transcriptome changes in HepG2 cells exposed to copper
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Our hypothesis is that copper modulates the activity of multiple intracellular signal transduction pathways to affect transcription. We have previously shown that copper activates transcription through both metal- and oxidative stress-responsive signal transduction pathways. Since the global molecular mechanisms underlying copper toxicity have not been well elucidated in humans, we have profiled transcriptome changes in HepG2 cells exposed to 100, 200, 400 and 600 uM copper for 4, 8, 12 and 24 hours using a human oligonucleotide microarray. Differentially expressed genes were identified, and integrated into biological and functional pathways through Gene Ontology analysis. Global gene expression profile was overlaid onto biomolecular interaction networks and signal transduction cascades using pathway mapping and interactome identification. Keywords: copper toxicity, HepG2 cells, copper concentrations: 100, 200, 400 and 600 uM, exposure times: 4, 8, 12, and 24 h, expression profiles of copper-responsive genes
+
+DESIGN
+To prepare RNA for microarray studies, HepG2 cells were plated and allowed to grow until they were 50% confluent.  Cells were then treated with 100, 200, 400 and 600 uM of copper sulfate (Sigma-Aldrich Chemical Co., St Louis, MO) for 4, 8, 12 and 24 h.  These exposure conditions concentrations were based on cytotoxicity results, previously reported and corresponded to LD's between LD5 to LD50.  Three independent sets of total RNAs were isolated from untreated and treated cells using RNeasy mini kits (Qiagen, Inc., Valencia, CA) following manufacturer's instructions.  The quality of the purified RNA was determined using a BioAnalyzer (Agilent Technologies, Palo Alto, CA), and then stored at -70°C until used. For microarray hybridizations, 100 ng of total RNA from metal-treated cells was amplified and labeled with Cy3 fluorescent dye, and a common reference pool (non-treated cells) was amplified and labeled with Cy5 using Agilent Technologies Low RNA Input Linear Amplification labeling kit following the manufactureâ€™s protocol.  The quantity and purity of the resulting fluorescently-labeled cRNA was evaluated using a Nanodrop ND-100 spectrophotometer (Nanodrop Technologies, Wilmington, DE), and the size distribution using an Agilent Bioanalyzer.  Equal amounts of Cy3- and Cy5-lableled cRNA were then hybridized to an Agilent Human Microarray (~22,000 k features) for 17 h at 65°C.  The hybridized microarrays were then washed and scanned using an Agilent G2565BA scanner.  Data were extracted from the scanned images using Agilent Feature Extraction software.  A total of 98 microarrays were analyzed in this study:  4 concentrations x 4 time points x 3 biological replicates x 2 (dye-flip/technical replicates).  This results in six measurements for each treatment condition. GeneSpring v.7 (Agilent Technologies) was used to identify genes that showed significant changes in gene expression with any treatment.  For global normalization of raw microarray data, per spot and per chip: intensity dependent (LOWESS) normalization was applied.
+
+PLATFORM
+GPL6087 Agilent-012097 Human 1A Microarray (V2) G4110B - alternative version
+
+CITATIONS
+19549813
+

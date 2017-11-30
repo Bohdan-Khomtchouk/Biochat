@@ -1,0 +1,18 @@
+TITLE
+Effect of AZA on gene expression of multiple breast, colon, and ovarian cell lines [expression]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epigenetic therapy is emerging as a potential therapy for solid tumors. To investigate its mechanism of action, we performed integrative expression and methylation analysis of 63 cancer cell lines (breast, colorectal, and ovarian) after treatment with the DNA methyltransferase inhibitor 5-azacitidine (AZA). Gene Set Enrichment Analysis demonstrated significant enrichment for immunomodulatory pathways in all three cancers (14.4-31.3%) including interferon signaling, antigen processing and presentation, and cytokines/chemokines. Strong upregulation of cancer testis antigens was also observed. An AZA IMmune gene set (AIMs) derived from the union of these immunomodulatory pathway genes classified primary tumors from all three types, into “high” and “low” AIM gene expression subsets in tumor expression data from both TCGA and GEO (GSE42284, GSE10893, and GSE26712 for the colon, breast, and ovarian samples, respectively). Samples from selected patient biopsies showed upregulation of AIM genes after treatment with epigenetic therapy. These results point to a broad immune stimulatory role for DNA demethylating drugs in multiple cancers.
+
+DESIGN
+control vs. 5'-azacitidine-treated breast, colon, and ovarian cells at different time points (1, 3, 7, 10, 14, 21, or 28 days)
+
+PLATFORM
+GPL4133 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Feature Number version)
+
+CITATIONS
+24583822
+

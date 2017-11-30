@@ -1,0 +1,18 @@
+TITLE
+Single-nucleosome mapping of histone modifications in S. cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We have used a high-resolution tiled microarray, with single-nucleosome resolution, to investigate the in vivo occurrence of combinations of 12 histone modifications on thousands of nucleosomes in actively growing S. cerevisiae. We found that histone modifications do not occur independently; there are roughly two groups of co-occurring modifications.  We find no evidence for a deterministic code of many discrete states, but instead see blended, continuous patterns that distinguish nucleosomes at one location (promoter nucleosomes, for example) from those at another location (over the 3’ ends of coding regions, for example). These results are consistent with the idea of a simple, redundant histone code, in which multiple modifications share the same role. Keywords: ChIP-chip
+
+DESIGN
+In mid-log phase S. cerevisiae, we performed ChIP-chip on 12 different histone modifications and compared their enrichment levels within the genome based on nucleosome position data in series GSE2563.  Each TLAD-amplified ChIP sample was labeled with Cy5 and hybridized against Cy3-labeled, TLAD-amplified input on oligonucleotide tiling arrays.  At least 3 biological/technical replicates were performed per epitope, with  more than one technical replicate for some of the biological replicates, for a total of 64 arrays.
+
+PLATFORM
+GPL2625 yeast_nucleosome_positioning_microarray 6-9 GPL2626 yeast_nucleosome_positioning_microarray 10+
+
+CITATIONS
+16122352
+

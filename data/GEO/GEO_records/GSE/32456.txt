@@ -1,0 +1,18 @@
+TITLE
+Co-addiction to IRF4 and SPIB in ABC-DLBCL
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA interference screens identified the transcription factor IRF4 as essential for the survival of the activated B-cell-like subtype of diffuse large B-cell lymphoma (ABC-DLBCL). Analysis of IRF4 genomic targets in ABC-DLBCL and Multiple Myeloma (MM) revealed that IRF4 regulates distinct networks in these cancers. IRF4 peaks in ABC-DLBCL, but not MM, were enriched for a composite ETS-IRF DNA motif that can be bound by heterodimers of IRF4 and the ETS-family transcription factor SPIB, whose expression is also essential for ABC-DLBCL survival. Gene expression and ChIP-Seq analysis identified essential genes co-regulated by IRF4 and SPIB. Together, these factors regulate a critical oncogenic loop by activating CARD11, which controls ABC-DLBCL survival via the NF-kB pathway. The interaction between IRF4 and SPIB presents an attractive therapeutic target in this aggressive lymphoma.
+
+DESIGN
+Gene expression was analyzed using Agilent human 4X44K oligo gene expression arrays. Cell lines (HBL1, OCILY3, TMD8-ABC-DLBCL; KMS12-MM) were infected with control (shControl, Cy3), shIRF4_3'UTR (Cy5), shspiB_2_3'UTR (Cy5), shspib_2 (Cy5), chimeric repressor (Cy5) constructs, and changes in gene expression were monitored over time after induction of the shRNA with doxycyclin. For each of the three ABC-DLBCL cell line a four timepoint series (24, 48, 72, 96 hrs) of shRNA induction was analyzed, for a total of 12 arrays. In HBL-1 a second shRNA targeting the IRF4 cds (shIRF4_cds) was used in a similar time course of shRNA induction (4 arrays). Also in HBL-1 a shRNA targeting wild type SPIB (shspiB_2) was used in a similar time course of shRNA induction (4 arrays). Also in HBL-1 a shRNA targeting mutant SPIB (shspib_2) was used in a similar time course of shRNA induction (4 arrays). Also in HBL-1 an IRF4:SPIB chimeric repressor was used in a similar time course (4, 8, 24, 48 hrs) (4 arrays). For the KMS12 MM cell line a three point time course was analyzed using the shIRF4_3'UTR with one technical (using the same RNA sample) duplicate time point measurement (4 arrays).
+
+PLATFORM
+GPL4133 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Feature Number version)
+
+CITATIONS
+22698399
+

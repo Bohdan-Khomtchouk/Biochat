@@ -1,0 +1,18 @@
+TITLE
+Affymetrix SNP array data for various human ES cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Human pluripotent stem cells commonly undergo adaptive changes during prolonged passaging in vitro. We have developed a new laminin-521 based method for self-renewal of human pluripotent stem cells. SNP6.0 array was used to assess genetic stability of several human ES cell lines cultured in the new system with two lines (H1 and HS401) cultured on feeders (standard conditions) Two main objectives in this study: To compare the number of the CNVs in human ES cells at early and late passages; for example, samples HS980 p6 and HS980 p31 represent HS980 cells at passages 6 and 31, respectively. The overall conclusion is that the observed number of CNVs is similar in the cells at early and late passages. This analysis can be remade without the reference samples. To compare the number of CNVs in control human ES  cells (H1 and HS401) grown under standard protocol with that in cells (HS980, HS983a, HS999, HS916, and HS1001) grown under a new, developed by us, protocol. Because the cells were from different individuals, we could not compare them directly. Instead, we compared them to a set of samples from 75 healthy individuals, and then with each other. For the Reference  These samples had been hybridized in the same lab as our samples, but for a different project; and the data were kindly provided by Prof. Kere. However, the same overall conclusion would result from an other sufficiently large dataset of healthy human individuals. Please note that 75 healthy individual samples had been hybridized in the same lab as our samples and the data were kindly provided by Prof. Kere, which is linked as a Series supplementary file ('75_samples_ref.REF'). It is a Reference Model File that Affymetrix Genotyping Console software has created based on data from 75 healthy individuals (i.e. processed file based on the CEL files of the 75 healthy individuals). The file derives from the " CN/LOH Reference Model File Creation and Analysis (Batch Sample Mode) " process according to the Genotyping Console manual. It contains SNP-wise information on the observed distribution of hybridization intensities of a set of samples that are assumed to be diploid in copy number (for most part of their genomes at least). This file is then used to compare the intensities observed in the CEL files of interest to infer deviations from the reference as CNVs. Thus, in combination with the CEL files (from each ES cell line), this file enables the exact replication of the CNV analyses done for the various human ES cell lines study.
+
+DESIGN
+Affymetrix SNP arrays were performed according to the manufacturer's directions on DNA extracted cultured human ES cells. Several lines were analysed at different time points of the experiment. The analysis was done using default parameters and comparing each sample against a reference set of 75 healthy individuals provided by Juha Kere.
+
+PLATFORM
+GPL6801 [GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array
+
+CITATIONS
+24463987
+

@@ -1,0 +1,18 @@
+TITLE
+Next Generation Sequencing Identifies Differentially Expressed Genes in Zebrafish Embryos and Larvae Following Benzo[a]pyrene Exposure
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+Purpose: This study aimed to identify differentially expressed genes and transcripts in zebrafish embryos and larvae following benzo[a]pyrene (BaP) exposure. Methods: Adult zebrafish (2 males × 4 females, N=6 replicate tanks for each treatment) were acclimated for 7 days in an 818 Low Temp Illuminated Incubator (Precision Scientific, Chennai, India) at 28.5°C. Next, adult fish were waterborne exposed to control or 50 μg/L (ppb) BaP for 7 days; ethanol was used as vehicle solvent, and final ethanol concentration was 0.1 mL/L (100 ppm) in all treatment groups. This dose of ethanol is not teratogenic to zebrafish. Water was changed and/or re-dosed daily. From day 7 to 11 of the parental exposure, eggs were collected, counted, and raised in normal conditions (control) or continuously exposed to 50 μg/L BaP until 3.3 and 96 hours post fertilization (hpf). At 3.3 or 96 hpf, embryos (200/pool) or larvae (10/pool) were collected and pooled. Total RNA was isolated for transcriptomic RNA sequencing with Illumina HiSeq2000 (2X100bp). RNA-seq reads were uploaded to the galaxy platform https://main.g2.bx.psu.edu/. RNA-seq reads were trimmed, filtered, and aligned to the zebrafish genome (Danio_rerio.Zv9.68) with the Tophat for Illumina tool. Counting and annotation of RNA-seq reads were performed with Partek Genomics Suite version 6.11. Refseq Transcripts (2013-04-10) and Ensembl Transcripts release 70 databases were used for gene and transcript annotation. Differential expression of gene and transcript reads between treatments was analyzed with R package EdgeR. Genes/transcripts with false discovery rate (FDR) less than 0.05 and absolute fold change greater than 1.5 were considered as significant. Differentially expressed genes were defined as genes with altered expression at either gene or transcript level. Results: Differential expression analysis with EdgeR revealed that gene expression was vastly different between 3.3 hpf zebrafish embryos and 96 hpf larvae. Using Refseq annotation, we found that 10644 out of 13950 transcribed zebrafish genes were differentially expressed between the two developmental time-points, with 5961 up-regulated genes and 4683 down-regulated genes in 96 hpf larvae compared with 3.3 hpf embryos. Similarly, using Ensembl annotation, 16529 out of 19886 transcribed zebrafish genes were differentially expressed, with 9318 up-regulated genes and 7211 down-regulated genes in 96 hpf larvae compared with 3.3 hpf embryos. In 3.3 hpf embryos, four genes and seven transcripts were differentially expressed after BaP exposure. In 96 hpf larvae, 447 and 484 zebrafish genes were significantly up- and down-regulated, respectively, by BaP exposure. Conclusions: Parental and developmental BaP exposure caused gene expression changes in zebrafish embryos and larvae.
+
+DESIGN
+Illumina HiSeq2000 deep sequencing was used to generate transcriptomic profiles for BaP-exposed 3.3 hpf zebrafish embryos (n=3 for control, n=3 for BaP) and 96 hpf larvae (n=2 for control, n=2 for BaP).
+
+PLATFORM
+GPL14875 Illumina HiSeq 2000 (Danio rerio)
+
+CITATIONS
+26001963
+

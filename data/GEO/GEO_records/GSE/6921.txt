@@ -1,0 +1,18 @@
+TITLE
+Rice japonica gene expression array across eleven tissues
+
+ORGANISM
+Oryza sativa
+
+SUMMARY
+To validate transcription of the japonica non-exonic TARs and to understand their transcriptional relation with annotated genes, we constructed a new array (designated the re-array) to surrogate 44,385 non-TE gene models and 25,313 TARs in japonica each with five independent 36mer probes. Using the re-array, we obtained triplicate expression estimates from 11 rice tissue. Keywords: gene expression
+
+DESIGN
+To facilitate transcriptional profiling of all transcription units (gene models and novel TARs), we constructed the re-array in which five probes were used to represent each gene model and novel TAR. To ensure that the probes are specific to its target and are free of secondary structures, we used the software OligoArray 2.1 to select probes (8). We used the coding sequence (CDS) for each gene model. For those that generate alternative transcripts, we picked the longest CDS to represent the loci. We started with 44,497 gene models and 25,346 novel TARs, which were used as the database sequence to search against. Two separate runs were initiated, one for the gene models and the other for the novel TARs, using the following parameters: (i) Oligo length: 36, (ii) Maximum distance accepted between the 5' end of the oligo and the 3' end of the input sequence: 2000, (iii) Minimum oligonucleotide Tm: 80, (iv) Maximum oligonucleotide Tm: 95, (v) Temperature to use during secondary structure prediction (an oligo will be rejected if it can fold into a stable secondary structure at this temperature): 65, (vi) Threshold to report putative cross-hybridizations (all targets hybridizing with a given oligo with a Tm exceeding this threshold are reported): 70, (vii) Minimum oligonucleotide GC content: 40, (viii) Maximum oligonucleotide GC content: 73 for gene models; 77 for TARs, (iv) List of prohibited sequences to mask in the input sequence: Runs of five or more consecutive single nucleotides, (x) Minimum distance between the 5' end of two adjacent oligos: 1. For those transcription units for which the software could not generate five probes, the remaining probes were selected from the original tiling arrays that were in the 75th percentile and met most of the above criteria (hence the name ‘re-array’). For example, if the software reported three probes for a given gene model, the remaining two were picked from the tiling experiment. As a negative control, we chose from the full-genome tiling arrays 10,000 randomly selected probes and 9000 probes that exhibit intensities below the median and are within introns of PASA gene models. All probes were synthesized into a single array and hybridized in triplicates to cDNA target derived from 10 rice tissue types, namely, light-grown seedling, dark-grown seedling, seedling root, leaf, Xoo-infected leaf, flag leaf, whole flower (floret), carpel, developing seed, and suspension cultured cell.
+
+PLATFORM
+GPL4794 Rice japonica 400K NimbleGen Oligo Array
+
+CITATIONS
+17372628
+

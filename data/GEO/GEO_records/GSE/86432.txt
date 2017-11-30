@@ -1,0 +1,18 @@
+TITLE
+Gene expression analysis to identify target genes of miR-150 in Burkitt lymphma cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The oncogenic transcription factor MYC regulates expression of protein-coding genes, microRNAs and long non-coding RNAs. Here we show that overexpression of the MYC-repressed miR-150 severely impaired growth of Burkitt lymphoma (BL) cells. AGO2-RIP-Chip revealed two novel miR-150 targets, ZDHHC11 and ZDHHC11B, as the two most enriched genes, followed by MYB, a known miR-150 target. ZDHHC11 and ZDHHC11B encode both protein-coding and non-coding transcripts and contain a strikingly high number of miR-150 binding sites, i.e. 18 and 62, respectively. Effective targeting of ZDHHC11 and ZDHHC11B by miR-150 was confirmed by luciferase assay and for the ZDHHC11 protein by Western blot. Furthermore, we identified a circular ZDHHC11 transcript which contains the miR-150 binding site region and interacts strongly with miR-150. Knockdown of both MYB and ZDHHC11/ZDHHC11B significantly impaired growth of BL cells. Moreover, downregulation of ZDHHC11/ZDHHC11B also resulted in reduced MYB levels in BL cells. Together, our results demonstrate that elevated levels of MYB required for the high proliferative state of BL cells are ensured in two ways. First, MYC represses the tumor suppressor miR-150, which prevents its inhibitory effects on MYB expression. Second, the novel miR-150 targets ZDHHC11 and ZDHHC11B are required for maintaining high MYB levels in BL cells.
+
+DESIGN
+ST486 and DG75 BL cell lines with low endogenous miR-150 levels were transduced with either miR-150 overexpression vector or control empty vector. AGO2 RNA immunoprecipitation was performed followed by expression analysis of all known mRNAs and > 15 000 lncRNAs (based on LNCipedia) to identify target genes of miR-150 in BL Please note that Cy5 signals in raw data files represent unrelated samples; Each Cy3 sample was mixed with the same amount of a Cy5-labeled sample, which was non-relevant for this study, and hybridized at 65C overnight on Agilent-050524 SurePrint G3 Custom Human 8x60K Microarrays.
+
+PLATFORM
+GPL18641 Agilent-050524 CMGG Human V2.0 60k
+
+CITATIONS
+28331227
+

@@ -1,0 +1,18 @@
+TITLE
+Knock-down of BCL6 expression in human Diffuse Large B-Cell Lymphoma cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This dataset was used to benchmark the Virtual Inference of Protein-activity by Regulon Readout algorithm (VIPER). Despite recent advances in molecular profiling, proteome-wide assessment of protein activity in individual samples remains a highly elusive target. In stark contrast, protein activity quantitation is increasingly critical to the dissection of key regulatory processes and to the elucidation of biologically relevant mechanisms. Importantly, its value extends to the study of drug activity, as most small molecules inhibit activity of their cognate protein substrates without affecting the protein’s or associated mRNA’s abundance. VIPER leverages the increasingly accurate and context specific knowledge of regulatory networks. Specifically, it uses the expression of the transcriptional targets most directly regulated by a given protein in an individual sample as a reporter for the computational inference of its activity.
+
+DESIGN
+BCL6 knock down experiments were performed in OCI-Ly7 and Pfeiffer GCB-DLBCL cell lines. Both cell lines were maintained in 10% FBS supplemented IMDM medium and transiently transfected with either a BCL6-specific or a non-target control siRNA oligo in triplicate. Total RNA was isolated 48h after transfection and gene expression was profiled on H-GU133plus2 Affymetrix gene chips.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+27322546
+

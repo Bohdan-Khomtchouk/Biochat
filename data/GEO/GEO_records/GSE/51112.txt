@@ -1,0 +1,18 @@
+TITLE
+Analysis of the regulation of circadian gene expression in cyanobacteria with RNA sequencing
+
+ORGANISM
+Synechococcus elongatus PCC 7942
+
+SUMMARY
+The cyanobacterium Synechococcus elongatus contains a circadian clock which coordinates circadian changes in gene expression of a large percentage of its genes. The response regulator RpaA has been implicated as an important regulator of many circadian genes, but the role of this protein in regulating changes in gene expression genome-wide is not known. We show that deletion of rpaA abrogates circadian gene expression genome-wide and arrests cells in a gene expression state highly similar to that of wildtype cells in the morning. Furthermore, we show that RpaA binds DNA in an circadian manner that is dependent on phosphorylation of the protein. To demonstrate the sufficiency of phosphorylated RpaA in driving global changes in gene expression, we used RNA sequencing to measure changes in gene expression elicited by a phosphomimetic of RpaA (RpaA D53E) and compared these changes to those that occur during a circadian cycle in wildtype cells. This analysis reveals that induction of RpaA D53E is sufficient to drive all circadian gene expression changes that happen from dawn to dusk in wildtype cells. Interestingly, the dynamics of gene expression elicited by RpaA D53E induction mirror those observed during a circadian cycle in wildtype cells, suggesting that the dynamics of circadian gene expression and hard-wired in the regulon downstream of RpaA.
+
+DESIGN
+Enriched mRNA was prepared from synchronized wildtype S. elongatus cells every four hours over a circadian cycle and sequenced using the Illumina TruSeq Stranded mRNA Sample Prep Kit and Illumina HiSeq technology. To test the role of phosphorylated RpaA in driving circadian gene expression, we generated a strain which we refer to as OX-D53E that lacks core clock components (ΔrpaA, ΔkaiBC) with an RpaA phosphomimetic (RpaA D53E) under the control of an IPTG-inducible promoter (Ptrc::rpaAD53E). We used the same methodology to measure gene expression in OX-D53E before and after induction of RpaA D53E. As a control, we also measured gene expression in the OX-D53E strain over time in the absence of IPTG. Also, we generated a strain similar to OX-D53E in which the only difference was that no gene was inserted downstream of the IPTG inducible promoter (OX-Empty). We measured gene expressio in OX-Empty before and after IPTG addition to test for off-target effects of IPTG.
+
+PLATFORM
+GPL17750 Illumina HiSeq 2500 (Synechococcus elongatus PCC 7942)
+
+CITATIONS
+24315105
+

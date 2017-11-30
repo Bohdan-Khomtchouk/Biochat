@@ -1,0 +1,18 @@
+TITLE
+Genome-wide ChIP sequence analysis of KSHV-infected primary effusion lymphoma (PEL) cell line BCBL-1 and human umbilical vein endothelial TIVE-LTC cells.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Kaposi’s sarcoma-associated herpesvirus (KSHV) is a g-herpesvirus which persists as circular extrachromasomal DNA in the nucleus during latent infection.  During latency a limited number of viral proteins are expressed, including LANA (latency-associated nuclear antigen). LANA is a multi-functional protein known to interact with transcriptional regulators and chromatin remodelers, and to regulate the LANA and RTA promoters.  We hypothesized that LANA may contribute to the establishment of latency through controlling chromatinization and histone modification of KSHV episomes. We performed ChIP-seq analysis and correlated H3K4me3, H3K27me3, polII, and LANA occupancy of the KSHV genome at nucleotide resolution. Epigenetic marks were analyzed in BCBL-1 lymphoid cells and in telomerase-immortalized vein endothelial TIVE-LTC cells.  We found that the transcription active mark H3K4me3, but not silencing mark H3K27me3, was enriched at KSHV regions where LANA is bound. Co-occupancy of LANA and H3K4 was also detected on 167 host genes, of which 89 are actively transcribed. By comparing LANA occupancy with the profiling of 43 transcription factors from ENCODE, a subset of transcription factors was enriched at regions where LANA is bound, including znf143, CTCF, and Stat1. These results indicate that LANA also plays a role in modulating expression of host genes. Co-immunoprecipitation of LANA with the H3K4 methyltransferase hSET1 suggests that LANA recruits hSET1 to specific loci on the viral genome, leading to H3K4 methylation and ensuring transcription of latency-associated genes.  Host gene expression may be regulated by the same mechanism.
+
+DESIGN
+LANA binding was correlated with the distribution in the latent KSHV genome of the transcription active histone modification H3K4me3, the silencing mark H3K27me3, and RNA polymerase II, using cells of lymphoid and endothelial origin.  A similar analysis was done for the human genome.  Biological replicates (BR) and technical replicates (TR) were included.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+25033463
+

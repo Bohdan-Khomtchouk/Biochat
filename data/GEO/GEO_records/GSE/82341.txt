@@ -1,0 +1,18 @@
+TITLE
+A Molecular Genetic Basis Explaining Altered Bacterial Behavior in Space
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+Bacterial behavior has been observed to change during spaceflight. Higher final cell counts, enhanced biofilm formation, increased virulence, and reduced susceptibility to antibiotics have been reported to occur for cells cultured in space . Most of these phenomena are theorized as being an indirect effect of an altered extracellular environment, where the carbon source uptake is inhibited and excreted acidic byproducts buildup around the cell due to the lack of gravity-driven transport forces. However, to date neither spaceflight results, ground-based studies, physical measurement techniques nor computational approaches have provided sufficient evidence needed to confirm this model. Gene expression data from the Antibiotic Effectiveness in Space (AES-1) experiment, however, have now allowed us to look into the biomolecular processes behind these observations and showed a systematic activation of glucose starvation and acid resistance genes. These results corroborate the reduced mass transport model proposed to govern bacterial responses to spaceflight. Furthermore, the gene expression data suggests that metabolism was stimulated in space, which could play a role in causing the observed increase in bacterial cell concentrations in microgravity. Similarly, the decrease in extracellular pH may also be involved with the reported increase in virulence in space.
+
+DESIGN
+E. coli ATTC 4157 was cultured and challenged with Gentamicin Sulfate (between 0 and 150 ug/mL) on board the International Space Station while maintaining matched ground (1g) controls (every tested condition consisted of four replicates). BioServe's spaceflight hardware, Fluid Processing Apparatus (FPA) and Group Activation Packs (GAP) were used for flight and ground samples. The FPA contains four chambers, the first one was loaded with 2.75 mL of Growth Medium (Medium E), the second with 0.50 mL inoculum (E. coli at a concentration that would yield and experiment start cc of 1.2e6 cell/mL), the third with 0.25 mL of antibiotic, and the fourth with 2.10 mL of fixative (RNA Later II). Post-flight analyses included cell concentration and differential gene expression.
+
+PLATFORM
+GPL18133 Illumina HiSeq 2500 (Escherichia coli)
+
+CITATIONS
+27806055
+

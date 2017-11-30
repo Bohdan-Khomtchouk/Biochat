@@ -1,0 +1,18 @@
+TITLE
+DNA copy number analysis of myxoinflammatory fibroblastic sarcoma, and morphologically similar lesions
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA copy number analysis of myxoinflammatory fibroblastic sarcomas, and related lesions, using 32k BAC array CGH. All four cases analyzed with array CGH showed amplification of the region 86.30-87.74 Mb in 3p11.1-12.1. No additional aberration was detected in more than two tumors, except for the deletion distal to the amplification on chromosome 3. Case 1 showed deletion affecting the region from the centromere of chromosome 1 to the 5'-end of TGFBR3. Homozygous deletion was found in one case (case 6) affecting the region 21.08-22.15 Mb on chromosome arm 9p harboring the CDKN2A and CDKN2B genes.
+
+DESIGN
+DNA copy numbers in cases 1 and 6-8 were analyzed using tiling microarrays containing more than 32 000 partly overlapping BAC clones, generating complete coverage of the human genome (Jönsson et al., 2007, Genes Chromosomes Cancer 46: 543-58.). The arrays were produced at the Swegene DNA Microarray Resource Center, Department of Oncology, Lund University ( http://swegene.onk.lu.se ), as previously described (Jönsson et al., 2007), using BAC clones mapped to the hg17 genome build. Extraction, labeling and hybridization of genomic DNA from freshly frozen tumor biopsies, as well as pretreatment and washing of slides were performed as described (Heidenblad et al., 2006, Oncogene 25: 7106-16). As a control for normal copy number, a DNA pool derived from multiple healthy male donors was used (Promega, Madison, WI, USA). Primary array CGH data were collected using the GenePix Pro 4.0 (Axon Instruments Inc., Foster City, CA, USA). The quantified data matrix was deposited into the web-based database BioArray Software Environment (BASE) (Saal et al., 2002, Genome Biol 3: software0003.1-0003.6), and data analyses were done as described (Hallor et al., 2008, Br J Cancer 98: 434-42). In brief, following background correction the log(2) ratios were calculated for each spot, and unreliable features and spots not showing signal-to-noise ratios ?5 for both channels were eliminated. Normalization of data was performed using pin-based Lowess normalization and single outlier probes were removed. Thereafter, the log(2) ratios for each sample were segmented, followed by elimination of segments less than 500 kb in size. Copy number alterations were determined by comparing the segmented log(2) ratios to gain/loss thresholds obtained by an adaptive scaling method (Staaf et al., 2007, BMC Genomics 8: 382).
+
+PLATFORM
+GPL4723 SWEGENE_BAC_32K_Full
+
+CITATIONS
+19199331
+

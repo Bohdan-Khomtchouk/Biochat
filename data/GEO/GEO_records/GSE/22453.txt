@@ -1,0 +1,18 @@
+TITLE
+Custom MHC array analysis of lymphoblastoid cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The human MHC is a paradigm for genomics, showing striking association with disease but functional variants remain largely unresolved. Using an original hybrid microarray (containing tiling and junction probes) for the MHC and accounting for known sequence diversity, we have drawn the first high-resolution, strand-specific transcriptional map of the MHC, defining differences in gene expression for three common haplotypes associated with autoimmune disease. In total, 6% of the MHC is transcribed with one transcript per 1.4kb, including previously unrecognized intergenic transcription. The distributions of differentially expressed probes and polymorphisms between haplotypes are significantly correlated, arguing for cis effects. Haplotype-specific transcription involved 96 differentially expressed genes, including ZFP57, which was validated in a cohort of healthy volunteers, while 526 exons show haplotypic differences. We also find splicing events are significantly more extensive in the MHC than in the rest of the genome. This study marks a new step in immunogenetics. The results files (.bedgraph and .gff) contain tiling data for both the shared-path and the alternate paths (shared and haplotype-specific) , defining transcriptional activity across the entire MHC region in each sample.
+
+DESIGN
+Lymphoblastoid cell lines carrying three common autoimmunity haplotypes (COX, PGF, QBL) were analysed in triplicate using the custom MHC array, under both unstimulated and stimulated (200nM PMA and 125nM ionomycin for 6 hours) conditions.
+
+PLATFORM
+GPL10567 [MHC_MAP1_univ] Custom Affymetrix MHC Tiling Array
+
+CITATIONS
+21628452
+

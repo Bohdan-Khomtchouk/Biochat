@@ -1,0 +1,18 @@
+TITLE
+The anti-Shine-Dalgarno sequence drives translational pausing and codon choice in bacteria
+
+ORGANISM
+Escherichia coli ; Bacillus subtilis subsp. subtilis str. 168 ; Escherichia coli str. K-12 substr. MG1655 ; Escherichia coli BW25113
+
+SUMMARY
+Protein synthesis by ribosomes takes place on a linear substrate but at variable speeds. Transient pausing of ribosomes can impact a variety of co-translational processes, including protein targeting and folding. These pauses are influenced by the sequence of the mRNA. Thus redundancy in the genetic code allows the same protein to be translated at different rates. However, our knowledge of both the position and the mechanism of translational pausing in vivo is highly limited. Here we present a genome-wide analysis of translational pausing in bacteria using ribosome profiling-deep sequencing of ribosome-protected mRNA fragments. This approach enables high-resolution measurement of ribosome density profiles along most transcripts at unperturbed, endogenous expression levels. Unexpectedly, we found that codons decoded by rare tRNAs do not lead to slow translation under nutrient-rich conditions. Instead, Shine-Dalgarno-(SD) like features within coding sequences cause pervasive translational pausing. Using an orthogonal ribosome possessing an altered anti-SD sequence, we demonstrated that pausing is due to hybridization between mRNA and the 16S rRNA of the translating ribosome. In protein coding sequences, internal SD sequences are disfavoured, which leads to biased usage, avoiding codons and codon pairs that resemble canonical SD sites. Our results indicate that internal SD-like sequences are a major determinant of translation rates and a global driving force for the coding of bacterial genomes.
+
+DESIGN
+Identification of translation pause sites in vivo using ribosome profiling
+
+PLATFORM
+GPL14548 Illumina HiSeq 2000 (Escherichia coli) GPL15010 Illumina HiSeq 2000 (Escherichia coli str. K-12 substr. MG1655) GPL15205 Illumina HiSeq 2000 (Bacillus subtilis subsp. subtilis str. 168) GPL15206 Illumina HiSeq 2000 (Escherichia coli BW25113)
+
+CITATIONS
+22456704
+

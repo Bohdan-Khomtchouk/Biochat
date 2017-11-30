@@ -1,0 +1,18 @@
+TITLE
+Cellular function of a novel human peptide that binds to P-bodies
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mass spectrometry peptidomics coupled with RNA deep sequencing has revealed a large number of translated eukaryotic short open reading frames that produce genomically encoded peptides. The human LOC550643 gene, previously annotated as non-coding, encodes such a peptide (referred to as NoBody). NoBody peptide binds to EDC4 (enhancer of decapping 4) site-specifically, enriches complexes of proteins involved in 5'-3' mRNA degradation, and localizes to P-bodies, which are cellular RNA-protein granules associated with RNA degradation. Furthermore, modulating NoBody expression levels inversely regulates P-body numbers. This peptide has the potential to reveal new insights into the P-body structure-function relationship and cellular regulation of mRNA degradation. We used siRNA-mediated gene silencing coupled with biological pathway analysis to determine the cellular functions of NoBody (LOC550643), and whether it has similar cellular functions to related (Dcp2) and unrelated (DcpS) mRNA degradation proteins.
+
+DESIGN
+HEK293T cells were silenced for NoBody/LOC550643 expression by transfection with a pool of 4 commercially designed siRNAs (Qiagen). The negative control/reference sample consisted of HEK293T cells transfected with a non-targeting siRNA. Comparison samples were silenced for Dcp2 expression (expected to be functionally related in mRNA decapping and degradation, positive control), DcpS (another mRNA degradation protein from a different pathway, expected to be unrelated, negative control) or GAPDH (unrelated protein, negative control), so that the specificity of cellular responses to NoBody/LOC550643 silencing could be assessed. 48 hours after transfection with siRNA, cells were treated with actinomycin D for 4 hours (expected to blunt transcriptional responses to assay mRNA degradation phenotypes), then harvested and total RNA was extracted and subjected to Affymetrix GeneChip analysis. We note that the mRNA degradation phenotype was apparently overwhelmed by transcriptional responses despite the actinomycin D treatment, so the most meaningful analyses of the data involved gene ontology/biological pathway analysis.
+
+PLATFORM
+GPL16686 [HuGene-2_0-st] Affymetrix Human Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

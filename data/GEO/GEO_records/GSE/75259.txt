@@ -1,0 +1,18 @@
+TITLE
+Meiosis timecourse Rap1-depletion expression profile
+
+ORGANISM
+Saccharomyces cerevisiae SK1
+
+SUMMARY
+To investigate the impact of Rap1 binding on nearby gene expression during the transition from vegetative growth to meiosis, we measured RNA abundance in cells depleted (plus doxycycline) or not depleted (minus doxycycline) of Rap1. RNA abundance was measured in depleted and non-depleted condition in respiratory cells (pre-meiotic/YPA 20 hours) and in cells undergoing synchronous meiosis/sporulation in the budding yeast Saccharomyces cerevisiae. There is growing recognition that the binding of a transcription factor near a gene does not always indicate regulatory function, and further that a single factor may function to either activate or repress its targets depending on the cellular context. We examined these issues through a series of experiments involving the S. cerevisiae transcription factor Rap1, and its function throughout critical metabolic and developmental transitions between vegetative growth, respiratory growth, meiosis and sporulation. We simultaneously monitored the expression of all genes and the genomic binding locations of Rap1 throughout the timecourse. Genes downstream of Rap1 binding were activated and repressed dynamically, but a change - or lack of change - in Rap1 binding status was not predictive of activation, repression, or no change in regulation. Despite this, we show that Rap1 is required, at a given point in time, for both activation and repression of different gene targets, within the same cell. Specification of the transcriptional consequences of Rap1 binding is thus highly promoter-specific. The presence of other transcription factor binding motifs, the subtype of Rap1 motif, and the underlying chromatin structure of the promoter cannot fully account for the observed transcriptional outcomes. There is a better accounting for the dynamic binding behavior of Rap1 including specification of an expanded meiotic target set through a Tup1- dependent nucleosome-loss mechanism. The variable and dynamic association between binding and transcription in this simple unicellular system portends a similarly volatile relationship in more complex eukaryotes. Biological interpretations of transcription factor occupancy should be made cautiously and in conjunction with supporting data obtained under the precise condition of interest.
+
+DESIGN
+SK1 yeast strain SHy20 (MATa/MATalpha lys2/lys2 ura3/ura3 ho::LYS2/ho::LYS2 leu2::hisG/leu2::hisG his4x/his4b URA3::CMV-tetTA/URA3::CMV-tetTA RAP1promoter::kanR-tetO7-TATA/RAP1promoter::kanR-tetO7-TATA).  An overnight culture of YPD was used to innoculate a YPA culture (minus doxycycline; Rap1 on). The YPA culture was grown for 8 hours and then split into minus doxycyline (Rap1 on) and plus doxycylcine (Rap1 depleted) samples. Minus and plus doxycyline samples were collected after an additional 12 hours in YPA (respiratory growth/pre-meiotic; YPA 20 hours) and 0 hr, 3hr, 6hr, 9hr and 12hr after transfer to sporulation media (SM) with or without doxycycline.  3 separate biological replicates were used for each condition/time-point.  Labeled total RNA from Rap1 depeleted and non-depleted samples were competitively hybridized to yeast whole genome PCR based spotted arrays (resolution ~1kb).  The Rap1-depletion ChIP and RNA abundance/expression analysis were carried out on the same biological samples. The three replicates of Rap1-depletion RNA abundance/expression analysis correspond to replicates 2, 3, and 5 of the Rap1-depletion Rap1 ChIP experiment.
+
+PLATFORM
+GPL4414 Lieb Lab at UNC-CH_Yeast Whole-genome Array (PCR-based)_for Buck MJ et al.
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

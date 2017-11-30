@@ -1,0 +1,18 @@
+TITLE
+Differential microRNA expression and microRNA editing upon HP-PRRSV infection in vivo across different pig breeds
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Purpose: To characterize the differential microRNA expression profiles and microRNA editing upon PRRSV infection, using NGS techonology, we sequenced small RNAs of the lungs of Tongcheng and Landrace pigs before (0 dpi) and after (3, 5, 7 dpi) infection with high-pathogenic PRRSV (HP-PRRSV). Methods: The miRNA expression profiles of the lungs of Tongcheng and Landrace pigs before (0 dpi) and after (3, 5, 7 dpi) HP-PRRSV infection were produced by using solexa platform. The raw reads with low qualities were filtered and the clean high quality reads were mapped to Ensembl Sus reference genome 10.2.71 using BWA. The unique mapped reads were retained for microRNA expression analysis. The raw reads counts of each microRNA were calculated by perl scripts and the differentially expressed microRNA (Fold change > 2; FDR < 0.05) were called using edgeR. The microRNA editing was identified using the methods described by Alon, S. and E. Eisenberg. Methods Mol Biol, 2013. Further analysis of microRNA editing was performed with perl scripts.
+
+DESIGN
+Comparison of the microRNA expression profiles and microRNA editing profiles of lungs from two pig breeds: Tongcheng and Landrace, at 0, 3, 5, 7 dpi infected with HP-PRRSV.
+
+PLATFORM
+GPL10945 Illumina Genome Analyzer II (Sus scrofa)
+
+CITATIONS
+25856272
+

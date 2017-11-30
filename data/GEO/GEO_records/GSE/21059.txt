@@ -1,0 +1,18 @@
+TITLE
+IMR90 radiation bystander time-course experiment 0.5Gy alpha particle
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The radiation bystander effect is an important component of the overall biological response of tissues and organisms to ionizing radiation. Little is known about the contribution of genome level changes in neighboring bystander cells to tissue and organ stress after irradiation. The timing of these changes is critical in the physiological context and these questions can only be answered by studying signaling and global transcriptomics in a chronological way. Here, we present a strategy to identify different biologically important signaling modules that act in concert in the radiation and bystander responses. We used time series gene expression analysis of normal human fibroblast cells measured at 0.5 hour, 1 hour, 2 hours, 4 hours, 6 hours and 24 hours after exposure to radiation coupled with a novel clustering method targeted to short time series, Feature Based Partitioning around medoids Algorithm (FBPA), to look for genes that were potentially co-regulated. This method uses biologically meaningful features of the expression profile and dimension augmentation to address the analysis of sparse data sets such as ours. We applied FBPA and Short Time series Expression Miner (STEM) to the same datasets and present the results of our comparisons using computational metrics as well as biological enrichment.  Enrichment showed that gene expression in irradiated cells fell into broad categories of signal transduction, cell cycle/cell death and inflammation/immunity; but only FBPA clustered functions well. In bystander cells, the gene expression response was also broadly categorized into functions associated with cell communication and motility, signal transduction and inflammation; but neither STEM nor FBPA separated biological functions as well as in irradiated samples. Network analysis revealed that p53 and NF-kappaB were central players in gene expression in both irradiated and bystander gene clusters. Analysis of individual clusters also suggested new regulators of gene expression in the radiation and bystander response that may act at the epigenetic level such as histone deacetylases (HDAC1 and HDAC2) and methylases (KDM5B) that can act as strong transcription repressors.  Based on these results, we propose a novel time series clustering method, FBPA, as a powerful approach that can be applied to sparse data sets (including genomic profiling data), where the choice of features selected for clustering and stringent statistical outcome analysis can augment our knowledge of the underlying cellular mechanisms in biological processes.
+
+DESIGN
+There are 72 total samples, 4 corresponding biological replicates of IMR90 cells that were not irradiated (control=C), irradiated (alpha=A) and bystander (B), cells were harvested at 0.5 hour, 1 hour, 2 hours, 4 hours, 6 hours and 24 hours after treatment
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+21205307
+

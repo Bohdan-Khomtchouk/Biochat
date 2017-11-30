@@ -1,0 +1,18 @@
+TITLE
+RNAseq of duodenal tissue from C57BL/6 mice both susceptible and resistant to Heligmosomoides polygyrus
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Identify genes implicated in resistance to H. polygyrus Method: RNA was extracted from duodenal tissue from C57BL/6 mice during primary and secondary H. polygyrus. Total RNA libraries were created using the Encore® Complete RNA-Seq Library Systems kit (NuGEN), following manufacturer’s instructions. Total RNA libraries were sequenced using the Illumina® HiSeq 2500. The raw Illumina reads were analysed as follows. First, the data quality was analysed using FastQC. Then the low quality bases were trimmed using Trimmomatic. The read pairs which passed the trimming quality filters were then aligned to mm10 (Ensembl version 75) using Tophat2. Counts were determined using htseq_count. Normalisation and statistical analysis was performed using edgeR. Differential gene analysis was calculated from naïve control group (A). Statistically significant genes with FDR < 0.05 are reported. Results: Following analysis, we identified many transcripts significantly different from the naïve control following primary and secondary H. polygyrus infection. Conclusions: The intestinal transcriptome of both primary and secondary infected mice differ significantly, identifying qualitative and quantitative differences between susceptible (primary infected) and resistant (secondary infected) mice.
+
+DESIGN
+Total RNA profiles were generated from duodenal tissue of mice infected with the intestinal helminth H. polygyrus using the Illumina HiSeq 2500. 6 groups, 8 replicates per group. All data compared to naïve group (A).
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+29024642
+

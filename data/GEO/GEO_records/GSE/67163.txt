@@ -1,0 +1,18 @@
+TITLE
+KDM5 Lysine Demethylases Are Involved in Maintenance of 3'UTR Length [RNA-Seq]
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+We discovered that the Saccharomyces cerevisiae lysine demethylase, Jhd2 (also known as KDM5), recruits 3'UTR processing machinery and promotes alteration of 3'UTR length in a demethylase-dependent manner. Interaction of Jhd2 with both chromatin and RNA suggests that Jhd2 affects selection of polyadenylation sites through a transcription-coupled mechanism.
+
+DESIGN
+For 3'READs analysis, wild-type yeast or yeast with JHD2 deleted were grown to mid-log phase and RNA was extracted as mentioned above.  cDNA libraries enriched for 3'UTRs were prepared as previously published and as noted in Figure 4a [28].  Samples were then subjected to RNA sequencing on the Illumina Hiseq 2000 using 50bp single end reads.  Data was analyzed as previously [Hoque M] with the following modifications:   The adapter sequences were trimmed off the single-ended reads.  The remaining reads longer than 15 bp were mapped to yeast genome SacCer3 using bowtie2 [Langmead B 2012] with the setting '-5 4 --local', trimming off 4bp from 5' and allowing soft clipping (S) at both ends.  The alignments were then filtered by 1) MAPQ > =10, 2) mismatches < = 5%, 3) unaligned 5' Ts > =2 to get the PASS reads. The last aligned positions of the PASS reads were grouped to pA clusters with a clustering size of 24 bp.  Each pA cluster was assigned to one of the genes defined by SGD [Cherry JM].  The 3' end of a gene was extended 1000bp from the end of CDS until it overlaps with another gene in the same direction.  The pA Clusters were then filtered by contains 1) > = 3 PASS reads 2) > = 5% of all PASS reads mapped to the gene.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

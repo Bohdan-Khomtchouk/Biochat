@@ -1,0 +1,18 @@
+TITLE
+Gene expression from normal and Msi2 KO mouse LSK cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Hematopoietic stem and progenitor cells (Lineagelo ScaI+ c-Kit+) were sorted 4 weeks post pIpC injection. RNA was extracted using TRIZOL and RNEASY RNA extraction kit. RNA was then amplified using NUGEN Pico amplification kit, fragmented and hybridized on Mouse Expression Array 430 2.0. Signal normalization was performed by RMA method. Data were analyzed using GSEA across the complete list of genes ranked by signal-to-noise ratio.
+
+DESIGN
+Samples came from bone marrow of 4 normal mice and 4 mice with conditional Msi2 knockout.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+24395885
+

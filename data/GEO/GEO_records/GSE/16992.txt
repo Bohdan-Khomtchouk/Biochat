@@ -1,0 +1,18 @@
+TITLE
+Expression Profiling of Early Myogenesis - Affymetrix Dataset
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Analysis of Early Myogenesis Reveals an Extensive Set of Transcriptional Regulators Whose Knock-down Can Inhibit Differentiation Myogenesis is a tightly controlled process involving the transcriptional activation and repression of thousands of genes. Although many components of the transcriptional network are known for the later phases of myogenesis, relatively little work has described the transcriptional landscape within the first 24 hours, when myoblasts commit to differentiate. Through dense temporal sampling of differentiating C2C12 myoblasts, we identify 266 transcriptional regulators (TRs) whose expression is altered within the first 12 hours of myogenesis. A high-content shRNA screen of 76 TRs involving 427 stable lines identified 48 genes whose knockdown significantly inhibits differentiation of C2C12 myoblasts. These include known regulators of myogenesis (Myod1, Myog and Myf5), as well as 26 regulators not previously associated with the process. Of the TRs differentially expressed within the first 24 hours, two-thirds inhibited differentiation when knocked down. Surprisingly, a similar proportion (67%) of shRNAs targeting TRs whose expression did not change during differentiation also inhibited myogenesis, suggesting that both stably and differentially expressed TRs are essential for this complex differentiation program. This implies that microarray-based approaches that concentrate functional validation studies on differentially-expressed genes will fail to identify many genes that are critically implicated in complex biological processes.
+
+DESIGN
+C2C12 myoblasts were differentiated into myotubes and sampled at various timepoints for gene expression measurement on MOE-430v2 chips.  Cells grown in separate plates were harvested at 14 different timepoints: t_-24h, t_0h, t_0.5h, t_1h, t_1.5h, t_2h, t_3h, t_6h, t_9h, t_12h, t_24h, t_48h, t_96h, t_144h.  Cells were also pre-treated with 50uM cycloheximide 1 hour prior to inducing differentiation and harvested at two timepoints: t_chx_1h, t_chx_3h.  All harvests were performed in triplicate using growths from successive passages.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+22147266
+

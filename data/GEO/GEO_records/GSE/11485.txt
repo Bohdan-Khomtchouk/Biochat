@@ -1,0 +1,18 @@
+TITLE
+A sequence motif within chromatin entry sites directs MSL establishment on the Drosophila X chromosome
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Dosage compensation serves as a model for understanding how chromatin-modification enzymes are targeted to initiate and maintain gene regulation. In Drosophila, the MSL complex associates with active genes specifically on the male X chromosome to acetylate histone H4 at lysine 16, and increase expression of most X-linked genes approximately two-fold. To date, no DNA sequence has been discovered to explain the specificity of MSL binding. We previously hypothesized that sequence-specific targeting occurs at initiation or “chromatin entry sites”, but binding to the majority of sites is sequence-independent. Here we characterize more than 150 potential entry sites by ChIP-chip and ChIP-seq and discover a common GA-rich MSL recognition element (MRE). The motif is only slightly enriched on the X chromosome (~2 fold), but this is doubled when considering its preferential location within or 3’ to active X-linked genes ( > 4 fold enrichment). When inserted on an autosome, a newly identified site can direct local MSL spreading to flanking active genes on the autosome. These results provide strong evidence for both sequence-dependent and -independent steps in MSL targeting of dosage compensation to the male X chromosome.
+
+DESIGN
+ChIP-chip: msl3 mutant embryos (1 g) were collected for chromatin preparation as described in Alekseyenko et al. (2006). Immunoprecipitation was performed with anti-MSL2 antibody, as in Larschan et al. (2007). Immunoprecipitated DNA was isolated, amplified and hybridized to NimbleGen tiling arrays as in Alekseyenko et al (2006). We performed two replicates for each type of ChIP-chip experiment. ChIP-seq: Immunoprecipitated DNA from Clone 8 cells was isolated as in Alekseyenko et al. (2006). DNA amplification was performed using the Illumina Sample Prep Kit with minor modifications. 1 µl adapter oligo mix was used per 100 ng ChIP DNA. The ligation mix was first amplified as detailed in the protocol and then the PCR products (3-8 µg) were gel-fractionated using Biorad Certified Low Range Ultra Agarose. Different fractions (100-200 bp, 200-300 bp, 300-400 bp) were collected. Purified DNA was run on the Solexa Genome Analyzer. A detailed protocol for Solexa sample preparation is available upon request
+
+PLATFORM
+GPL5636 Tiling design for chromosome X, 2L and 4 for D. melanogaster GPL6924 HMS Drosophila ChIP-seq
+
+CITATIONS
+18724933
+

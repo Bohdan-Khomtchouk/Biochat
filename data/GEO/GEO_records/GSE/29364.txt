@@ -1,0 +1,18 @@
+TITLE
+Identification of WUSCHEL direct targets.
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Cell-cell communication is critical for stem cell maintenance. Shoot apical meristem (SAM) located at the shoot tip harbors stem cells within the central zone (CZ). Their progeny differentiate in the adjacent peripheral zone (PZ). WUSCHEL (WUS) is a homeodomain transcription factor produced in a few cells of the organizing center (OC), located beneath the CZ. It has been shown to specify stem cell fate and also activate CLAVATA3 (CLV3) expression in cells of the CZ. CLV3 is a secreted peptide that activates a membrane bound receptor kinase-CLAVATA1 to restrict WUS transcription to the OC. It has been hypothesized that WUS activates CLV3 expression and stem cell fate in adjacent cells of the CZ by activating a non-cell autonomous signal. Contrary to this hypothesis, here we show that the WUS protein after being synthesized in cells of the OC, migrates into the superficial cell layers of the CZ where it activates CLV3 transcription by binding to its promoter elements. WUS also migrates laterally into the PZ to repress the expression of differentiation promoting transcription factors by binding to their regulatory regions. Migration of a stem cell inducing transcription factor into adjacent cells to activate a negative regulator, whereby restricting its own accumulation is unique to plant stem cell niches. While stem cell promoting transcription factor directly repressing differentiation promoting transcription factors to prevent premature differentiation of stem cell progenitors is conserved among diverse stem cell niches. A dexamethasone inducible version of WUSCHEL was used to identify its direct tragets.
+
+DESIGN
+To analyze WUS-regulated gene expression programs at a higher spatial resolution, we introduced a dexamethasone (Dex)-inducible form of WUS consisting of the WUS protein-coding region fused to sequences coding for the ligand-binding domain of the rat glucocorticoid receptor (GR), expressed under a ubiquitous promoter (35S::WUS-GR) into apetala1-1;cauliflower1-1 (ap1-1;cal1-1) double mutant background. 35S::WUS-GR; ap1-1;cal1-1 SAMs were either treated with 10μM Dex or mock solution for four hours and RNA samples were hybridized to Arabidopsis ATH1 gene Chip (Affymmetrix). To identify putative genes that are directly regulated by WUS, in independent experiments, SAMs were simultaneously treated with 10μM Dex and 10μM Cycloheximide (Cyc), protein synthesis inhibitor and Cyc alone for four hours. A comparison of Dex-treated samples with mock identified 641 genes as differentially expressed [DEGs] (≥/≤2 fold; p < 0.01) and comparison of Dex+Cyc with Cyc identified 457 genes as DEGs (≥/≤2 fold; p < 0.01).
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+23549482
+

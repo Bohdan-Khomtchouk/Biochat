@@ -1,0 +1,18 @@
+TITLE
+Transcriptomics of adult human small bowel grafts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Objective: the objective of this work was to determine different gene expression patterns in small bowel grafts biopsies with “minimal changes” histology that could identify patients with high rejection risk Methods: 24 samples (17 stable and 7 non stable grafts) from 8 adult patients with small bowel transplantation were included for RNA-Sequencing.Total RNA extracted from intestinal biopsies was used with the TruSeq RNA Sample Preparation v2 Kit to construct index-tagged cDNA libraries. Libraries were sequenced on the Genome Analyzer IIx following the standard RNA sequencing protocol with the TruSeq SBS Kit v5. Fastq files containing reads for each library were extracted and demultiplexed using Casava v1.8.2 pipeline. Sequencing adapter contaminations were removed from reads using Cutadapt software v1.6 and the resulting reads were aligned to the reference human genome (Ensembl gene-build GRCh37.75) using TopHat2 v2.0.13. Gene expression values were calculated as counts using HTSeq v0.6.1. Only genes with at least 1 count per million in all samples were considered for statistical analysis. Data were then normalized and differential expression tested using the R Bioconductor package edgeR. We selected all biopsies from 4 of the patients (18 biopsies, 11 stable and 7 non stable) as the discovery set. The other 6 biopsies from 4 patients (all stable) were used as the test set. Differences in the discovery set were tested by generalized linear model analysis,and results were considered significant when the Benjamini-Hochberg adjusted p-value was < 0,05. Results: We obtained 816 differentially expressed genes (DEGs) between stable and non stable biopsies in the discovery set: 369 upregulated and 447 downregulated in the non stable group. The classification and prediction with the Nearest Shrunken Centroids method identified 5 genes (ADH1C, CYP4F2, PDZK1, SLC39A4 and OPTN) from the 816 DEGs that could classify both groups with an error rate of 11% and classified correctly all samples from the test set. These results were confirmed by Supoprted Vector Machine (SVM), bagSVM and Random Forest methods, showing high accuracy, sensitivity and specificity. Conclusions: We identified 5 genes from the DEGs as possible biomarkers to classify patients with normal histology  that could be however in a higher risk of rejection. In this way, gene expression assays are powerful tools with high sensitivity that allow more accurate diagnosis.
+
+DESIGN
+The study included 24 samples from 8 adult patients with small bowel transplantation. Samples correspond to RNA extracted from intestinal biopsies obtained at different post-transplantation time. All biopsies have an histological diagnosis of " minimal changes " and they were classified in two groups according their immunological stability (stable and non stable). Stable group comprised biopsies of patients that never rejected and biopsies obtained at least 15 days after rejection if no other rejection episode occurred in at least the next six months. Non stable group included biopsies obtained between rejection episodes (separated less than six months) and also those biopsies collected within the 15 days before the first rejection episode.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+28843648
+

@@ -1,0 +1,18 @@
+TITLE
+caArray_louis-00379: Gene Expression-based Classification of Malignant Gliomas Correlates Better with Survival than Histological Classification
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarray analysis was used to determine the expression of 12,000 genes in a set of 50 gliomas, 28 glioblastomas and 22 anaplastic oligodendrogliomas. Supervised learning approaches were used to build a two-class prediction model based on a subset of 14 glioblastomas and 7 anaplastic oligodendrogliomas with classic histology. A 20-feature k-nearest neighbor model correctly classified 18 of the 21 classic cases in leave-one-out cross-validation when compared with pathological diagnoses. This model was then used to predict the classification of clinically common, histologically nonclassic samples. When tumors were classified according to pathology, the survival of patients with nonclassic glioblastoma and nonclassic anaplastic oligodendroglioma was not significantly different (P = 0.19). However, class distinctions according to the model were significantly associated with survival outcome (P = 0.05). This class prediction model was capable of classifying high-grade, nonclassic glial tumors objectively and reproducibly. Moreover, the model provided a more accurate predictor of prognosis in these nonclassic lesions than did pathological classification. These data suggest that class prediction models, based on defined molecular profiles, classify diagnostically challenging malignant gliomas in a manner that better correlates with clinical outcome than does standard pathology.
+
+DESIGN
+louis-00379 Assay Type: Gene Expression Provider: Affymetrix Array Designs: HG_U95Av2 Organism: Homo sapiens (ncbitax) Material Types: total_RNA, synthetic_RNA, organism_part, whole_organism Disease States: Classic anaplastic oligodendroglioma, Non-classic glioblastoma, Classic glioblastoma, Non-classic anaplastic oligodendroglioma
+
+PLATFORM
+GPL8300 [HG_U95Av2] Affymetrix Human Genome U95 Version 2 Array
+
+CITATIONS
+12670911
+

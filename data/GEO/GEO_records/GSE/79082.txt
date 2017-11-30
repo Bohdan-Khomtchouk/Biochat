@@ -1,0 +1,18 @@
+TITLE
+Identification of viral ncRNA-mRNA interactions in Herpesvirus saimiri-infected marmoset T cells
+
+ORGANISM
+Callithrix jacchus
+
+SUMMARY
+Viruses express several classes of non-coding (nc) RNAs1. For most of them, the functions and mechanisms by which they act are unknown. Herpesvirus saimiri (HVS), a g-herpesvirus that establishes latency in T cells of New World primates and has the ability to cause aggressive leukemias and lymphomas in non-natural hosts2, expresses seven small nuclear (sn), U-rich ncRNAs called HSURs in latently infected cells3-5. HSURs associate with Sm proteins and share biogenesis and structural features with cellular Sm-class snRNAs4,6. One of these viral snRNAs, HSUR 2, base-pairs with two host microRNAs (miRNAs), miR-142-3p and miR-167. However, HSUR 2 does not affect the abundance or activity of these two cellular miRNAs, suggesting alternative functions for these interactions. Here we show that HSUR 2 also base-pairs with messenger RNAs (mRNAs) in infected cells. We combined in vivo psoralen-mediated RNA-RNA crosslinking and high-throughput sequencing to identify mRNAs targeted by HSUR 2. HSUR 2 targets include mRNAs encoding Retinoblastoma (pRb) and factors involved in p53 signaling and apoptosis. We show that HSUR 2 represses expression of target mRNAs. Base-pairing between HSUR 2 and miR-142-3p and miR-16 is essential for HSUR 2-mediated mRNA repression, suggesting that HSUR 2 recruits these two cellular miRNAs to target mRNAs. Moreover, we show that HSUR 2 utilizes this mechanism to inhibit apoptosis. Our results uncover a role for a viral Sm-class RNA as a miRNA adaptor in post pre-mRNA-processing regulation of gene expression.
+
+DESIGN
+Three independent samples of marmoset T cells infected with H. saimiri and expressing HSUR 2 as well as three independent samples of control T cells in which HSUR 2 was depleted with antisense oligonucleotide were crosslinked in the presence of psoralen at 365 nm for 1 hour at 4°C (6 samples total).  Samples were distributed in 100-µl aliquots and lysed with 3 M guanidinium-HCl and 1 % SDS in the presence of 1.8 mg/ml of proteinase K and incubated for 1 hour at 65°C.  One-milliliter of Trizol was added to each sample and then stored at -80°C until used.  Total RNA was purified from each sample following the standard protocol and pooled before capturing polyA+ RNA using oligo-dT magnetic beads.  The polyA+ was suspended in water and 10% of each polyA+ sample was retained as input RNA and stored in 1 ml of Trizol.  The remainder of each sample was suspended in binding buffer plus 500 pmoles of a biotinylated oligonucleotide complementary to HSUR 2 (GGTTTTTAAATATGTACACCC-3’-Bio) (three WT samples containing HSUR 2 and three samples from HSUR 2-depleted cells) and incubated for 4 hours at room temperature.  Samples were then incubated overnight at 4°C with streptavidin-conjugated magnetic beads.  Bound RNA was eluted from the beads by adding 1 ml Trizol.  RNA was purified from each sample (a total of 12 samples: six inputs and the corresponding HSUR 2-pulldowns) and the crosslinking was reverted by shining 254-nm UV light on the samples for 10 min.  RNA was recovered by ethanol-acetate precipitation and used with Illumina's TruSeq Stranded mRNA LT kit to prepare libraries for sequencing.
+
+PLATFORM
+GPL21580 Illumina HiSeq 2500 (Callithrix jacchus)
+
+CITATIONS
+28976967
+

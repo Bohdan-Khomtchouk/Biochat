@@ -1,0 +1,18 @@
+TITLE
+Epigenome Editing by a CRISPR/Cas9-Based Acetyltransferase Activates Genes from Promoters and Enhancers
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Epigenetic modifications determine the structure and regulation of eukaryotic genomes and define key signatures of cell lineage specification. Technologies that facilitate the targeted manipulation of epigenetic marks could be used to precisely control cell phenotype or interrogate the relationship between the epigenome and transcriptional control. Here we have generated a programmable acetyltransferase based on the CRISPR/Cas9 gene regulation system, consisting of the nuclease-null dCas9 protein fused to the catalytic core of the human acetyltransferase p300. This fusion protein catalyzes acetylation of histone H3 lysine 27 (H3K27) at its target sites, leading to robust transcriptional activation of target genes from promoters, proximal enhancers, and distal enhancers. In contrast to conventional dCas9-based activators, the acetyltransferase fusion effectively activated genes from enhancer regions and with individual guide RNAs. The core p300 domain was also portable to other programmable DNA-binding proteins. This technology enables the targeted perturbation of native epigenetic architecture and will be useful for reprogramming the epigenome for applications in genomics, genetics, disease modeling, and manipulating cell fate.
+
+DESIGN
+HEK293T cells were transfected in triplicate with plasmids expressing synthetic transcription factors. The synthetic TFs were either (a) dCas9-VP64 fusion protein and a targeting guide RNA (gRNA), or (b)dCas9-p300 fusion protein containing the catalytic domain of p300 and a targeting guide RNA (gRNA).  As a control, cells were transfected with plasmids expressing dCas9 alone and dCas9 fused with a aceryltransferase null mutatnt form of the p300 catalytic domain (D1399Y, as in text). After transfection, RNA-seq was used to identify differential expressin at on-target and off-target  sites.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25849900
+

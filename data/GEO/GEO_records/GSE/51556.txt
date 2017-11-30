@@ -1,0 +1,18 @@
+TITLE
+The dsRBP and inactive editor, ADR-1, utilizes dsRNA binding to regulate A-to-I RNA editing across the C. elegans transcriptome
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Purpose: The purpose of this experiment is to expand the repertoire of C. elegans edited transcripts and identify the roles of ADR-1 as indirect regulator of editing and ADR-2 as the only active deaminase in vivo. Methods: Strand-specific RNA sequencing of wild-type and adr mutant worms, followed by a novel RNA variant calling and comparative analysis pipeline. Results: Despite lacking deaminase function, ADR-1 affects editing of over 60 adenosines within the 3’ UTRs of 16 different mRNAs. Furthermore, ADR-1 interacts directly with ADR-2 substrates, even in the absence of ADR-2; and mutations within its dsRNA binding domains abolished both binding and editing regulation. Conclusions: ADR-1 acts as a major regulator of editing by binding ADR-2 substrates in vivo and raises the possibility that other dsRNA binding proteins, including the inactive human ADARs, regulate RNA editing by deaminase-independent mechanisms.
+
+DESIGN
+Strand-specific RNA sequencing of wild-type and adr mutant worms, followed by a novel RNA variant calling and comparative analysis pipeline.
+
+PLATFORM
+GPL9269 Illumina Genome Analyzer II (Caenorhabditis elegans) GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+24508457
+

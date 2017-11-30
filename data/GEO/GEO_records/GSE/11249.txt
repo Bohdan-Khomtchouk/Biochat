@@ -1,0 +1,18 @@
+TITLE
+Glucocorticoid Signaling Defines a Novel Commitment State during Adipogenesis In Vitro
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Differentiation of 3T3-L1 preadipocytes can be induced by a 2-d treatment with a factor " cocktail " (DIM) containing the synthetic glucocorticoid dexamethasone (dex), insulin, the phosphodiesterase inhibitor methylisobutylxanthine (IBMX) and fetal bovine serum (FBS). We temporally uncoupled the activities of the four DIM components and found that treatment with dex for 48 h followed by IBMX treatment for 48 h was sufficient for adipogenesis, whereas treatment with IBMX followed by dex failed to induce significant differentiation. Similar results were obtained with C3H10T1/2 and primary mesenchymal stem cells. The 3T3-L1 adipocytes differentiated by sequential treatment with dex and IBMX displayed insulin sensitivity equivalent to DIM adipocytes, but had lower sensitivity to isoproterenol-stimulated lipolysis and reduced triglyceride content. The nondifferentiating IBMX–then-dex treatment produced transient expression of adipogenic transcriptional regulatory factors C/EBP{beta} and C/EBP{delta}, and little induction of terminal differentiation factors C/EBP{alpha} and PPAR{gamma}. Moreover, the adipogenesis inhibitor preadipocyte factor-1 (Pref-1) was repressed by DIM or by dex-then-IBMX, but not by IBMX-then-dex treatment. We conclude that glucocorticoids drive preadipocytes to a novel intermediate cellular state, the dex-primed preadipocyte, during adipogenesis in cell culture, and that Pref-1 repression may be a cell fate determinant in preadipocytes.
+
+DESIGN
+We sought to define the genes differentially expressed in response to dexamethasone (dex) in 3T3L1 mouse preadipocytes.  We treated 3T3L1 cells with dex or DMSO vehicle for 2 or 36 hrs and then prepared total RNA.  We hybridized each sample (Cy5) to a pool of the samples, which served as the reference (Cy3) channel. All linear models for differential gene expression were constructed with the " limma " package (Smyth, 2004) in BioConductor (Gentleman et al., 2004). A linear model for dex was constructed to compare the 4 biological replicates of DMSO vehicle treatment with dex treatment at either 2 or 36hr. Genes were considered differentially expressed if at least one probe had log-odds greater than 50:50 in the linear model.
+
+PLATFORM
+GPL5137 MEEBO Mus musculus Oligo 70mer Array V1.0
+
+CITATIONS
+18653467
+

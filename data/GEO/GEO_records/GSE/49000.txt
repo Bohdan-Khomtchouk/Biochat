@@ -1,0 +1,18 @@
+TITLE
+SRT2104 extends survival of male mice on a standard diet and preserves bone and muscle mass
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Increased expression of SIRT1 extends the lifespan of lower organisms and delays the onset of age-related diseases in mammals. Here, we show that SRT2104, a synthetic small molecule activator of SIRT1, extends both mean and maximal lifespan of mice fed a standard diet. This is accompanied by improvements in health, including enhanced motor coordination, performance, bone mineral density and insulin sensitivity associated with higher mitochondrial content and decreased inflammation. Short-term SRT2104 treatment preserves bone and muscle mass in an experimental model of atrophy. These results demonstrate it is possible to design a small molecule that can slow aging and delay multiple age-related diseases in mammals, supporting the therapeutic potential of SIRT1 activators in humans. Key words: Sirtuins, lifespan, healthspan, osteoporosis, muscle wasting, inflammation
+
+DESIGN
+Groups of 28 week old male C57BL6/J mice were maintained for the rest of their lives or until sacrifice on either an ad libitum AIN-93G SD diet, an ad libitum AIN-93G diet supplemented with SRT2104 or a caloric restricted AIN-93G diet consisting of 60% of what the ad lib animals ate. SRT2104 was added at a dose of 1.33 g drug per kg of chow, formulated to provide daily doses of approximately 100 mg drug per kg bodyweight to the mice.  5 mice from each  group were selected after 41 weeks and RNA was extracted from both muscle and liver tissue using 1.0mm glass beads in a Precellys 24 Tissue Homogenizer and Qiagen RNeasy Mini Kits for Fibrous Tissue according to manufacturer's specifications. Quality and quantity of the total RNA was checked with the Agilent 2100 bioanalyzer using RNA 6000 Nano chips.  RNA samples were labeled using the Illumina TotalPrep RNA Amplification Kit.  In short, 0.5ug of total RNA was first converted into single-stranded cDNA with reverse transcriptase using an oligo-dT primer containing the T7 RNA polymerase promoter site and then copied to produce double-stranded cDNA molecules. The double stranded cDNA was cleaned and concentrated with the supplied columns and used in an overnight in-vitro transcription reaction where single-stranded RNA (cRNA) was generated and labeled by incorporation of biotin-16-UTP.  Arrays were hybridized using a total of 0.75ug of biotin-labeled cRNA at 58 degrees C for 16 hours to Illumina's Sentrix MouseRef-8 v2 Expression BeadChips. Each BeadChip has ~24,000 well-annotated RefSeq transcripts with approximately 30-fold redundancy. The arrays were washed, blocked and the biotin labeled cRNA was detected by staining with streptavidin-Cy3.  Arrays were scanned at a resolution of 0.8um using the Beadstation 500 X from Illumina and the data was extracted using the Illumina GenomeStudio software(v1.6.0).  Any spots at or below the background were filtered out using an Illumina detection p value of 0.02 and above. The natural log of all remaining scores were used to find the avg and std of each array and the z-score normalization was calculated and presented below.  Z-score = (raw value - avg)/std.
+
+PLATFORM
+GPL6885 Illumina MouseRef-8 v2.0 expression beadchip
+
+CITATIONS
+24931715
+

@@ -1,0 +1,18 @@
+TITLE
+Single stranded DNA formation during S phase in orc4Y232C yeast cells
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+A form of dwarfism known as Meier-Gorlin syndrome (MGS) is caused by recessive mutations in one of six different genes (ORC1, ORC4, ORC6, CDC6, CDT1, and MCM5).  These genes encode components of the pre-replication complex, which assembles at origins of replication prior to S phase.  Also, variants in two additional replication initiation genes have joined the list of causative mutations for MGS (Geminin and CDC45).  The identity of the causative MGS genetic variants strongly suggests that some aspect of replication is amiss in MGS patients; however, little evidence has been obtained regarding what aspect of chromosome replication is faulty.  Since the site of one of the missense mutations in the human ORC4 alleles is conserved between humans and yeast, we sought to determine in what way this single amino acid change affects the process of chromosome replication, by introducing the comparable mutation into yeast (orc4Y232C).  To examine early replication dynamics on a genome-wide scale in orc4Y232C cells, we utilized an assay that was previously developed in our lab.  This assay uses microarray hybridization to measure the levels of single stranded DNA exposed at replication forks.  While we do not fully understand the molecular processes that give rise to peaks of different amplitudes—e.g., number of cells that have activated a particular origin vs. amount of ssDNA revealed at different forks—the results from different replicates of the experiment are highly reproducible.  We find that origins that are known to fire early and are efficient produce the peaks of greatest magnitude, while later firing and less efficient origins produce smaller or no peaks in this assay.  The characteristic time and/or efficiency of origin firing within the S phase is altered for at least 15% of the 300 yeast origins.  Among the origins with delayed/reduced origin firing are normally early-firing origins adjacent to centromeres.
+
+DESIGN
+To investigate the dynamics of ssDNA formation on a genomic scale, we harvested cells at discrete times after releasing them from late G1 phase arrest with alpha factor into a synchronous S phase in the presence of 200 mM HU. Chromosomal DNA isolated from these S phase samples and an alpha factor arrested G1 control sample were differentially labeled with Cy-conjugated deoxyribonucleotides by random priming and synthesis without denaturation of the DNA, followed by co-hybridization to a microarray. Because the labeling was done without denaturation of the template DNA, single-stranded regions of the genome should preferentially act as templates for dye incorporation. Comparison of experimental (S phase) and control (G1 phase) samples from the microarray hybridization revealed regions of the genome that became single-stranded in S phase. The calculated total percentages of ssDNA in the samples were then used to normalize the raw ratio of ssDNA (S/G1) (raw data) to generate the normalized ratio of ssDNA (S/G1) (raw normalized data). The normalized relative ratio of ssDNA was then smoothed over a 22 kb window (smoothed data) via loess smoothing.  Peaks of S-phase specific ssDNA accumulation mark locations of active origins.
+
+PLATFORM
+GPL10930 Agilent-014810 Yeast Whole Genome ChIP-on-Chip Microarray 4x44K (G4493A) [Probe Name version]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

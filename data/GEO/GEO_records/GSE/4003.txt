@@ -1,0 +1,18 @@
+TITLE
+Microarray analysis of LRRC3B stable cell derived xenograft tumors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To understand how LRRC3B exerted tumor supprissive function in tumorigenesis assay, we performed microarray analysis of LRRC3B stable cell derived xenograft tumors. Keywords: Xenograft tumor
+
+DESIGN
+LRRC3B stably expressed SNU-601 cells and vector control cells were injected subcutaneously into 3-week-old male nude mice. After 57 days of injection, mice were sacrificed and the tumors were removed. Total RNA was extracted from the xenograft tumors. Twenty µg of xenograft tumor RNA and 20 µg of SNU601 cell line RNA were used as templates for the synthesis of cDNA, labeled with Cy5 or Cy3, using a 3DNA Array 50 kit (Genisphere Inc, Hatfield, PA). 24K cDNA microarray chips containing 23,232 genes and 1,056 controls were hybridized. The hybridized slide was scanned using a GenePix 4000B Scanner (Axon Instruments) and analyzed using the GenePix Pro 4.0 program (Axon Instruments). The raw data were normalized using the print-tip Lowess method available in the marray package of the Bioconductor project ( http://www.bioconductor.org )
+
+PLATFORM
+GPL2913 Center for Functional Analysis of Human Genome Human KUGI 24K (liver cancer)
+
+CITATIONS
+18757430
+

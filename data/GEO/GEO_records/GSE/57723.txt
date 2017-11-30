@@ -1,0 +1,18 @@
+TITLE
+Modulation of the TNF-induced macrophage response by synovial fibroblasts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Here we explored how the human macrophage response to tumor necrosis factor (TNF) is regulated by human synovial fibroblasts, the representative stromal cell type in the synovial lining of joints that become activated during inflammatory arthritis. Genome-wide transcriptome analysis (RNAseq) showed that co-cultured synovial fibroblasts modulate the expression of approximately one third of TNF-inducible genes in macrophages, including expression of target genes in pathways important for macrophage survival and polarization towards an alternatively activated phenotype. This work furthers our understanding of the interplay between innate immune and stromal cells during an inflammatory response, one that is particularly relevant to inflammatory arthritis. Our findings also identify modulation of macrophage phenotype as a new function for synovial fibroblasts that may prove to be a contributing factor in arthritis pathogenesis.
+
+DESIGN
+Human CD14+ MCSF-differentiated macrophages were cultured with or without synovial fibroblasts in transwell chambers.  TNF was added at Day 0, macrophages were harvested at Day 2. Total of 4 samples: (1) macrophages alone (2) macrophages with fibroblasts (3) macrophages with TNF (4) macrophages with fibroblasts and TNF. Macrophage RNA was purified using RNeasy mini kit (Qiagen).  Tru-seq sample preparation kits (Illumina) were used to purify poly-A transcripts and generate libraries with multiplexed barcode adaptors.  All samples passed quality control on a Bioanalyzer 2100 (Agilent).  Paired-end reads (50 x 2 cycles, ~75x106 reads per sample) were obtained on an Illumina HiSeq 2500.  The TopHat program was used to align the reads to the UCSC Hg19 human reference genome, while the Cufflinks program allowed for measurements of transcript abundance (represented by Fragments Per Kilobase of exon model per Million mapped reads (FPKM)).
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25057003
+

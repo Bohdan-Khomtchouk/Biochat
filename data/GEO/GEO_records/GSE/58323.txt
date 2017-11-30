@@ -1,0 +1,18 @@
+TITLE
+Evollutionally dynamic L1 regulation in embryonic stem cells
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Mobile elements are important evolutionary forces that challenge genomic integrity. Long interspersed element-1 (L1, also known as LINE-1) is the only autonomous transposon still active in the human genome. It displays an unusual pattern of evolution, with at any given time a single active L1 lineage amplifying to thousands of copies before getting replaced by a new lineage likely under pressure of host restriction factors, which act notably by silencing L1 expression during early embryogenesis. Here, we demonstrate that in human embryonic stem cells (hESC) KAP1, the master co-factor of KRAB-containing zinc finger proteins (KRAB-ZFP) previously implicated in the restriction of endogenous retroviruses, represses a discrete subset of L1 lineages predicted to have entered the ancestral genome between 26.8 and 7.6 million years ago. In the mouse, we documented a similar chronologically conditioned pattern, albeit with a much contracted time scale. We could further identify an L1-binding KRAB-ZFP, suggesting that this rapidly evolving protein family is more globally responsible for L1 recognition. KAP1 knockdown in hESC induced the expression of KAP1-bound L1 elements, but their younger, human-specific counterparts (L1Hs) were unaffected. Instead, they were stimulated by depleting DNA methyltransferases, consistent with recent evidence demonstrating that the PIWI-piRNA pathway regulates L1Hs in hESC. Altogether, these data indicate that the early embryonic control of L1 is an evolutionary dynamic process, and support a model whereby newly emerged lineages are first suppressed by DNA methylation-inducing small RNA-based mechanisms, before KAP1-recruiting protein repressors are selected.
+
+DESIGN
+HA-tagged Gm6871 ChIP-seq in mES cells, RNA-seq in control and Gm6871 KD mES cells, KAP1 ChIP-seq in WT mES cells, RNA-seq in  control and DNMTs KD hES cells.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24939876
+

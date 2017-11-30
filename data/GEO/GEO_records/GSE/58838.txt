@@ -1,0 +1,18 @@
+TITLE
+Microprocessor mediates transcription termination in long noncoding microRNA genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+MicroRNA (miRNA) play a major role in the post-transcriptional regulation of gene expression. In mammals most miRNA derive from the introns of protein coding genes where they exist as hairpin structures in the primary gene transcript, synthesized by RNA polymerase II (Pol II). These are cleaved co-transcriptionally by the Microprocessor complex, comprising DGCR8 and the RNase III endonuclease Drosha, to release the precursor (pre-)miRNA hairpin, so generating both miRNA and spliced messenger RNA1-4. However, a substantial minority of miRNA originate from Pol II-synthesized long non coding (lnc) RNA where transcript processing is largely uncharacterized5. Here, we show that most lnc-pri-miRNA do not use the canonical cleavage and polyadenylation (CPA) transcription termination pathway6, but instead use Microprocessor cleavage both to release pre-miRNA and terminate transcription. We present a detailed characterization of one such lnc-pri-miRNA that generates the highly expressed liver-specific miR-1227. Genome-wide analysis then reveals that Microprocessor-mediated transcription termination is commonly used by lnc-pri-miRNA but not by protein coding miRNA genes. This identifies a fundamental difference between lncRNA and pre-mRNA processing. Remarkably, inactivation of the Microprocessor can lead to extensive transcriptional readthrough of lnc-pri-miRNA, resulting in inhibition of downstream genes by transcriptional interference. Consequently we define a novel RNase III-mediated, polyadenylation-independent mechanism of Pol II transcription termination in mammalian cells.
+
+DESIGN
+Chromatin associated RNA-seq from sicntrl,siDrosha,siDGCR8 treated Hela cells. Same for sicntrl and siDGCR8 from Huh7 cells. Nuclear polyA + and polyA- RNA-seq from sicntrl and siDGCR8 in HeLa cells. Chromatin associated RNA-seq from siDicer treated Hela cells.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25730776
+

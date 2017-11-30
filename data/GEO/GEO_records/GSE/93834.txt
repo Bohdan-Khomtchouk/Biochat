@@ -1,0 +1,15 @@
+TITLE
+Compute the Significant Interactions of Hi-C data through HOMER
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: We can explain the related biological significance from the enhanced proximity in the Hi-C data. Methods: 1. Look for pairs of regions that have more Hi-C reads between them than would be expected by chance.  2.The expected number of reads is calculated using the background model. Result: We found 261,758 significant interactions from H1 cell line and 133,169 significant interactions from IMR90 cell line.
+
+DESIGN
+Significant interactions of Hi-C data from two cell lines. Hi-C data are used from GSE43070.
+
+CITATIONS
+28472433
+

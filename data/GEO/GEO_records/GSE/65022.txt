@@ -1,0 +1,18 @@
+TITLE
+Genome-wide transcriptome analysis of rice in response to controlled drought stress at vegetative
+
+ORGANISM
+Oryza sativa Japonica Group
+
+SUMMARY
+In this study, genome-wide transcriptome profiling was used to understand molecular genetic mechanism of drought tolerance in rice. Illumina High-Seq 2000 platform was used for sequencing RNA from leaf tissue of rice plants exposed to controlled drought stress and well-watered conditions. The differentially expressed genes were used to identify biological process and cis-regulatory elements enriched under drought stress compared to well-watered conditions.
+
+DESIGN
+Oryza sativa ssp. japonica cv. Nipponbare plants were exposed to controlled drought stress and well-watered conditions at the vegetative stage. Controlled drought (DR) stress was applied on 45 day old plants following gravimetric approach. The soil water content was brought down to 40% field capacity over a period of 3-4 days and plants were maintained at that level for 10 days by weighing the pots daily at a fixed time of the day and replenishing the water lost through evapotranspiration. Another set of plants were maintained at 100% FC as well-watered (WW) condition. Total RNA isolated from leaf tissue was used for RNA-sequencing. Two biological replicates per sample were sequenced. cDNA library was constructed using TruSeq Stranded Total RNA with Ribo-Zero Plant kit (Illumina). Sequencing was carried out on each library to generate 50 bp SE reads using Illumina High-Seq 2000 platform. The transcriptome reads were mapped to the rice reference genome sequence (MSU 7.0) with tophat1.3.1 using the program’s default parameters ( http://tophat.cbcb.umd.edu ). Mapped RNA-Seq reads were assembled into transcripts by Cufflinks ( http://cufflinks.cbcb.umd.edu/ ) and differentially expressed genes were identified by using Cuffdiff.
+
+PLATFORM
+GPL19657 Illumina Genome Analyzer (Oryza sativa Japonica Group)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

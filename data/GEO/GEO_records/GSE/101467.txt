@@ -1,0 +1,18 @@
+TITLE
+Gene expression in control and DOCK8 CRISPR KHYG1 NK cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mutations in the DOCK8 gene cause an autosomal recessive form of hyper-immunoglobulin E syndrome, characterised by chronic immunodeficiency with persistent microbial infection and increased incidence of malignancy. These manifestations suggest a defect in cytotoxic lymphocyte function and immune surveillance. However, how DOCK8 regulates NK cell-driven immune responses remains unclear. Here, we demonstrate that DOCK8 regulates NK cell cytotoxicity and cytokine production in response to target cell engagement or receptor ligation. Genetic ablation of DOCK8 in human NK cells attenuated cytokine transcription and secretion through inhibition of Src family kinase activation, particularly Lck, downstream of target cell engagement or NKp30 ligation. PMA/Ionomycin treatment of DOCK8 deficient NK cells rescued cytokine production, indicating a defect proximal to receptor ligation. Importantly, NK cells from DOCK8 deficient patients had attenuated production of IFNγ and TNFα upon NKp30 stimulation. Taken together, we reveal a novel molecular mechanism by which DOCK8 regulates NK cell driven immunity.
+
+DESIGN
+KHYG1 cells were cultured as indicated prior to stimulation with anti-Nkp30 (duplicate samples). After 90 minutes, cell pellets were collected and total RNA was extracted using the Nucleospin® RNA extraction kit (Macherey-Nagel). RNA quality was checked on the Agilent 4200 Tapestation and RNA with RIN values > 9 were used for the subsequent analysis. Sequencing libraries were prepared using the QuantSeq 3' mRNA-Seq Library Prep Kit (Lexogen) according to the manufacturers instructions using 200ng total RNA input. Single-end 75bp RNA-sequencing was performed on the NextSeq 500 (Illumina).
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

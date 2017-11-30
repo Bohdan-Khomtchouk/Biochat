@@ -1,0 +1,18 @@
+TITLE
+Characterizing the contrasting roles of JMJD3 and UTX histone demethylases in T cell acute lymphoblastic leukemia [UTXKO_RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+T-cell acute lymphoblastic leukemia (T-ALL) is an immature hematopoietic malignancy driven mainly by oncogenic activation of NOTCH1 signaling. In this study we conduct expression analysis in NOTCH1-IC-induced tumors in Utx wild-type (Utx+/+ or Utx+/Y) and knockout (Utx-/Y) background. These results, coupled to genomic analysis of primary samples for the genomic status of the UTX gene in T-ALL, helped us to characterize the hitherto understudied role of Utx as an oncogenic facilitator in leukemia and the contrasting expression signatures between JMJD3 and UTX in this disease.
+
+DESIGN
+Whole RNA was extracted from 1-5 million primary cells from Notch1-IC-expressing (sorted populations of) mouse T-ALL tumors using the RNAeasy kit (Qiagen) according to the manufacturer’s protocol. Poly-A+ (magnetic oligodT-containing beads (Invitrogen)) or Ribominus RNA was used for library preparation. cDNA preparation and strand-specific library construction was performed using the dUTP method. Libraries were sequenced on the Illumina HiSeq 2000 using 50bp single-read method. Differential gene expression analysis was performed between knockout vs wild-type background samples. Analysis was performed using DEGseq package leading to very similar conclusions.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25132549
+

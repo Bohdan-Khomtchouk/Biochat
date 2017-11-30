@@ -1,0 +1,18 @@
+TITLE
+Time-course studies of three cell wall interfering drugs on gene expression in yeast
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Caffeine is a natural purine analog that elicits pleiotropic effects, which ultimately lead to cell death by a mechanism that is still largely uncharacterized. This drug can activate the PKC1-MAPK cell integrity pathway, as shown by phosphorylation of Mpk1 kinase. However, and contrary to expectation, the caffeine-induced hyperphosphorylation of Mpk1 was accompanied by a negligible activation of its downstream targets Rlm1 and SBF transcription factors, which suggested that the fortification of the cell wall induced by caffeine was independent on the MAP kinase activation. This result was consistent with the finding that the loss of RLM1 had no consequence on the increased resistance of caffeine-treated cells to zymolyase, and was further consolidated by a genome-wide microarray analysis showing that, contrary to the cell wall drugs Congo Red and Calcofluor white, caffeine did not cause upregulation of Rlm1-dependent genes encoding cell wall remodeling enzymes. Interestingly, this global expression analysis revealed a striking resemblance of the transcriptomic responses to caffeine with those of rapamycin, a potent inhibitor of the TOR1 and TOR2 kinases. Consistent with this analysis, we found that the caffeine-induced phosphorylation of Mpk1 was lost in a tor1(delta) mutant but it was conserved in a TOR1-1 strain bearing a rapamycin-insensitive Tor1 kinase. Also, and contrary to the mechanism by which rapamycin led to activation of the PKC pathway, the caffeine-dependent process did not necessitate cell wall sensors and was completely abolished upon deletion of ROM2 encoding a GDP/GTP exchange factor of the Rho1-PKC pathway. Moreover, addition of caffeine to yeast cells resulted in a transient drop in intracellular cAMP, and this effect was not observed in a rom2(delta) mutant. In summary, our results revealed that Tor1 is a potential direct target of caffeine in yeast, whose inhibition leads to activation of the Pkc1-Mpk1 kinase cascade and inhibition of the Ras/cAMP pathway, and that for this specific case, the cross-talk between these signaling pathways is mediated by Rom2. These results may have broad implication for our understanding of caffeine effects in analogous regulatory networks in mammalian cells. Key words: caffeine, antifungal drugs, cell wall, transcript profiling, TOR, PKC1, RAS/cAMP. Keywords: time course, dose response
+
+DESIGN
+At every time point a treated and non treated yeast samples are put on a slide. There are two biological replicates that are labeled in dye-switch way (sometimes called biological dye-swap).
+
+PLATFORM
+GPL3250 GenoToul/Biopuces operon_yeast22x22
+
+CITATIONS
+16925551
+

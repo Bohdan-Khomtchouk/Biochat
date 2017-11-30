@@ -1,0 +1,18 @@
+TITLE
+Evidence that XRN4, an Arabidopsis homolog of exoribonuclease XRN1, preferentially impacts transcripts with certain sequences or in particular functional categories.
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+One of the major players controlling RNA decay is the cytoplasmic 5'-to-3' exoribonuclease, which is conserved among eukaryotic organisms. In Arabidopsis, the 5'-to-3' exoribonuclease XRN4 is involved in disease resistance, the response to ethylene, RNAi, and miRNA-mediated RNA decay. Curiously, XRN4 appears to display selectivity among its substrates because certain 3' cleavage products formed by miRNA-mediated decay, such as from ARF10 mRNA, accumulate in the xrn4 mutant, whereas others, such as from AGO1, do not. To examine the nature of this selectivity, transcripts that differentially accumulate in xrn4 were identified by combining PARE and Affymetrix arrays. Certain functional categories, such as stamen-associated proteins and hydrolases, were over-represented among transcripts decreased in xrn4, whereas transcripts encoding nuclear-encoded chloroplast-targeted proteins and nucleic acid-binding proteins were over-represented in transcripts increased in xrn4. To ascertain if RNA sequence influences the apparent XRN4 selectivity, a series of chimeric constructs was generated in which the miRNA-complementary sites and different portions of the surrounding sequences from AGO1 and ARF10 were interchanged. Analysis of the resulting transgenic plants revealed that the presence of a 150 nucleotide sequence downstream from the ARF10 miRNA-complementary site conferred strong accumulation of the 3' cleavage products in xrn4. In addition, sequence analysis of differentially accumulating transcripts led to the identification of 27 hexamer motifs that were over-represented in transcripts or miRNA-cleavage products accumulating in xrn4. Taken together, the data indicate that specific mRNA sequences, like those in ARF10, and mRNAs from select functional categories are attractive targets for XRN4-mediated decay.
+
+DESIGN
+Mixed-stage inflorescences from Col-0 and xrn4-5 plants were harvested.  Total RNA was extracted and hybridized to the ATH1 array to determine genes differentially expressed in xrn4-5 compared to Col-0. 2 replicates each.
+
+PLATFORM
+GPL198 [ATH1-121501] Affymetrix Arabidopsis ATH1 Genome Array
+
+CITATIONS
+21224377
+

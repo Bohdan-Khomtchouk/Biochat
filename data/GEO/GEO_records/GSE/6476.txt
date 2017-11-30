@@ -1,0 +1,18 @@
+TITLE
+Effect of chronic fluoxetine treatment on hippocampal gene expression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Both the mechanism of action and the factors determining the behavioral response to antidepressants are unknown. It has been shown that antidepressant treatment promotes the proliferation and survival of hippocampal neurons via enhanced serotonergic signaling, but it is still unclear whether hippocampal neurogenesis is responsible for the behavioral response to antidepressants. Furthermore, a large subpopulation of patients fails to respond to antidepressant treatment due to presumed underlying genetic factors. In the present study, we have used the phenotypic and genotypic variability of inbred mouse strains to show that there is a genetic component to both the behavioral and neurogenic effects of chronic fluoxetine treatment, and that this antidepressant induces an increase in hippocampal cell proliferation only in the strains that also show a positive behavioral response to treatment. The behavioral and neurogenic responses are associated with an upregulation of genes known to promote neuronal proliferation and survival.  These results suggest that inherent genetic predisposition to increased serotonin-induced neurogenesis is a determinant of antidepressant efficacy. Keywords: drug response
+
+DESIGN
+Male DBA/2J, age 3-5 weeks, were obtained from The Jackson Laboratory (Bar Harbor, ME) and maintained on a 12:12 light:dark cycle with lights on at 0700 hours. Following at least one week of acclimation, mice were provided with either untreated or fluoxetine-treated drinking water, available ad libitum.  Fluoxetine-HCl was obtained from Spectrum Chemicals (Gardena, CA). Differences in daily water consumption were previously determined by measuring water intake for three weeks from at least 12 mice  (6.4 mL (+/- .58 mL) per day). We also determined the average weight at 10 weeks of age (25.5 g +/- 1.4 g), and used this information to dilute fluoxetine in the water in order to provide a daily dosage of 0 or 18 mg/kg/mouse. Mice were 8-12 weeks of age at the time of behavioral testing, which was performed during the light phase between 1300h and 1600h. Behavioral despair was measured using a mouse Tail Suspension apparatus from Med Associates (Georgia, VT). Individual bilateral hippocampii from 21-day-treatment 0 and 18 mg/kg/day DBA/2J mice were homogenized in 500 µl TRIzol using a QIAgen Tissuelyser (15 minutes at 30 Hz, QIAgen, Chatsworth, CA). RNA was extracted by phenol-chloroform phase separation and further processed using the RNAeasy miniprep kit (QIAgen). For each treatment group of 12 animals, separate RNA pools were made using hippocampal RNA from 6 mice per pool. These biological replicates were processed separately through the entirety of the microarray procedure. Five µg of total RNA from each pool was used as a template to synthesize complementary DNA (cDNA) and biotinylated cRNA (Enzo kit, Affymetrix, Santa Clara, CA) using standard Affymetrix protocols. cRNA was hybridized to  Affymetrix GeneChip Mouse Genome 430 2.0 Array. Data were analyzed using ArrayAssist software (Stratagene, La Jolla, CA) and normalized with the GCRMA algorithm. A probeset had to obtain a minimal intensity value 100 to be considered as detecting expression above background.  Therefore, any probeset that failed to meet this cutoff was removed from the analysis.  Ratios of intensity differences were generated and genes showing at least a two-fold difference between experimental conditions were identified for further analysis.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+17609676
+

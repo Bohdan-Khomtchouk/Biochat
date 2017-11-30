@@ -1,0 +1,18 @@
+TITLE
+Transcription factors GAF and HSF act at distinct regulatory steps to modulate stress-induced gene activation
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The coordinated regulation of gene expression at the transcriptional level is fundamental to development and homeostasis. Inducible systems are invaluable when studying transcription because the regulatory process can be triggered instantaneously, allowing the tracking of ordered mechanistic events. Here, we use precision run-on sequencing (PRO-seq) to examine the genome-wide heat shock (HS) response in Drosophila and the function of two key transcription factors on the immediate transcription activation or repression of all genes regulated by HS. We identify the primary HS response genes and the rate-limiting steps in the transcription cycle that GAGA-associated factor (GAF) and HS factor (HSF) regulate. We demonstrate that GAF acts upstream of promoter-proximally paused RNA polymerase II (Pol II) formation (likely at the step of chromatin opening) and that GAF-facilitated Pol II pausing is critical for HS activation. In contrast, HSF is dispensable for establishing or maintaining Pol II pausing but is critical for the release of paused Pol II into the gene body at a subset of highly activated genes. Additionally, HSF has no detectable role in the rapid HS repression of thousands of genes.
+
+DESIGN
+We used PRO-seq to map the distribution of transcriptionally engaged RNA polymerases in Drosophila S2 cells before (non-Heat Shock) and after 20min of Heat Shock in LacZ-RNAi (control), GAF-RNAi, HSF-RNAi and M1BP-RNAi treated cells. We also performed PRO-seq as a function of time after Heat Shock induction (30sec, 2min, 5min, 10min and 20min) in S2 cells. Furthermore, we used RNA-seq to measure mRNA levels in S2 cells before (non-Heat Shock) and after 30min of Heat Shock. All experiments were performed in two biological replicates.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster) GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster) GPL19132 Illumina NextSeq 500 (Drosophila melanogaster)
+
+CITATIONS
+27492368
+

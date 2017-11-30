@@ -1,0 +1,18 @@
+TITLE
+Comparison of Transcriptomic Platform for Analysis of Whole Blood from Ebola-Infected Cynomolgus Macaques
+
+ORGANISM
+Macaca fascicularis
+
+SUMMARY
+Ebola virus disease (EVD) is a serious illness associated with 20-90% fatalities. EVD is characterized by robust virus replication and strong host inflammatory immune response. Analyzing the host immune response has increasingly involved multimodal approaches including transcriptomics to profile gene expression.  We studied cynomolgus macaques exposed to Ebola virus (EBOV) Makona via different routes with the intent of comparing RNA-Seq to a NanoString nCounter codeset targeting 769 non-human primate (NHP) genes. RNA-Seq analysis of serial blood samples showed different routes led to the same overall transcriptional response seen in previously reported EBOV-exposed NHP studies. Similar profiles were observed using the NanoString codeset. Both platforms displayed a strong correlation in gene expression patterns, thus cross-validating the two methods. This included a strong induction of innate immune response genes at early time points post-infection, and neutrophil-associated genes at later time points. Using data generated from either platform, we could deploy a 41-gene classifier to cluster samples by EBOV infection status. Finally, NanoString and RNA-Seq identified changes in circulating immune cell populations that matched traditional hematology. Together, these results show the complementarity of RNA-Seq and NanoString for gene expression analysis, verifying host biomarkers of infection, and predicting changes in cell types.
+
+DESIGN
+Whole blood total RNA-seq analysis of 5 Cynomolgus macaques infected with Ebola variant Makona at three different doses and three different routes of infection.
+
+PLATFORM
+GPL20302 Illumina HiSeq 2500 (Macaca fascicularis)
+
+CITATIONS
+29116224
+

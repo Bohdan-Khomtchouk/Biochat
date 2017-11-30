@@ -1,0 +1,18 @@
+TITLE
+Optimized Method for Robust Transcriptome Profiling of Minute Tissues Using Laser Capture Microdissection and Low-Input RNA-Seq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: To determine the optimal RNA extraction and library generation protocols for mouse hippocampal tissue acquired by laser capture microdissection (LCM). Methods: Hippocampal subregion CA2 was captured from eight micron fresh frozen brain sections from AMIGO2 EGFP mice. Total RNA was extracted using the PicoPure (LCM standard) and QIAGEN micro RNeasy RNA extraction kits. RNA quantity and quality was assessed using a Bioanalzyer. Resulting RNA was used to generate cDNA libraries using NuGEN or SMARTer low input RNA-Seq library kits. We compared the effects of RNA quality and library generation approach to determine the methods that detected the greatest number of genes/exons with even coverage using minimal rounds of PCR. Results: We determined that the QIAGEN RNA extraction kit resulted in far superior RNA compared to the Picopure RNA extraction kit. We also found the NuGEN library generation kit that depletes ribosomal RNA towards the end of the protocol, led to higher cDNA library yields that required fewer rounds of PCR while providing even gene coverage and detection.
+
+DESIGN
+RNA from laser-captured tissue from mouse hippocampus was extracted using two low input methods generating a lower quality RNA sample (RIN 7, PicoPure) and higher quality sample (RIN 9, QIAGEN). Each sample was used to prepare cDNA using two commerically available low-input library generation methods (Clontech or NuGEN). The effect of RNA quality and library generation method were compared. The effect of shearing cDNA and PCR amplification were also tested for libraries made with the QIAGEN extracted RNA and NuGEN library kits (3 libraries, 16, 18 or 20 cycles of PCR). The libraries were multiplexed and run on the Illumina NextSeq500 instrument.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28659759
+

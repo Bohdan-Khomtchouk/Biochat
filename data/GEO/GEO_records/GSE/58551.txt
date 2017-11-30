@@ -1,0 +1,18 @@
+TITLE
+Detection of genome-wide copy number variations in two chicken lines divergently selected for abdominal fat content
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Background: The chicken (Gallus gallus) is an important model organism that bridges the evolutionary gap between mammals and other vertebrates. Copy number variations (CNVs) are a form of genomic structural variation widely distributed in the genome. CNV analysis has recently gained greater attention and momentum, as the identification of CNVs can contribute to a better understanding of traits important to both humans and other animals. To detect chicken CNVs, we genotyped 475 animals derived from two broiler chicken lines divergently selected for abdominal fat content using chicken 60K SNP array, which is a high-throughput method widely used in chicken genomics studies. Results: Using PennCNV algorithm, we detected 438 and 291 CNVs in the lean and fat lines, respectively, corresponding to 271 and 188 CNV regions (CNVRs), which were obtained by merging overlapping CNVs. Out of these CNVRs, 99% were confirmed also by the CNVPartition program. These CNVRs covered 40.26 and 30.60 Mb of the chicken genome in the lean and fat lines, respectively. Moreover, CNVRs included 176 loss, 68 gain and 27 both (i.e. loss and gain within the same region) events in the lean line, and 143 loss, 25 gain and 20 both events in the fat line. Ten CNVRs were chosen for the validation experiment using qPCR method, and all of them were confirmed in at least one qPCR assay. We found a total of 886 genes located within these CNVRs, and Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analyses showed they could play various roles in a number of biological processes. Integrating the results of CNVRs, known quantitative trait loci (QTL) and selective sweeps for abdominal fat content suggested that some genes (including SLC9A3, GNAL, SPOCK3, ANXA10, HELIOS, MYLK, CCDC14, SPAG9, SOX5, VSNL1, SMC6, GEN1, MSGN1 and ZPAX) may be important for abdominal fat deposition in the chicken. Conclusions: Our study provided a genome-wide CNVR map of the chicken genome, thereby contributing to our understanding of genomic structural variations and their potential roles in abdominal fat content in the chicken.
+
+DESIGN
+In total, 475 birds (203 and 272 individuals from the lean and fat lines, respectively) from the 11th generation population of Northeast Agricultural University broiler lines divergently selected for abdominal fat content (NEAUHLF) were used. These 475 birds were genotyped by the chicken 60k SNP chip and PennCNV method were used to perform genome-wide CNV detection.
+
+PLATFORM
+GPL18807 Illumina chicken 60k SNP chip
+
+CITATIONS
+24962627 , 28235410
+

@@ -1,0 +1,18 @@
+TITLE
+ERa and PolII ChIP seq from KIKO mouse uterus
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+ChIP-seq from mice with DNA binding mutations in Esr1 (KIKO mouse). Estrogen Receptor α (ERα) interacts with DNA, directly, or indirectly via other transcription factors, referred to as “tethering”. Evidence for tethering is based on in vitro studies and a widely used “KIKO” mouse model containing mutations that prevent direct estrogen response element (ERE) DNA-binding. KIKO mice are infertile, due in part to the inability of estrogen (E2) to induce uterine epithelial proliferation. To elucidate the molecular events that prevent KIKO uterine growth, regulation of the pro-proliferative E2 target gene Klf4, and of Klf15, a progesterone (P4) target gene that opposes KLF4’s pro-proliferative activity, were evaluated. Klf4 induction was impaired in KIKO uteri; however, Klf15 was induced by E2 rather than by P4. Whole uterine ChIP-seq revealed enrichment of KIKO ERα binding to hormone response elements (HRE), motifs. KIKO binding to HRE motifs was verified using reporter gene and DNA-binding assays. Because the KIKO ERα has HRE DNA-binding activity, we evaluated the “EAAE” ERα, which has more severe DBD mutations, and demonstrated lack of ERE or HRE reporter gene induction or DNA binding. The EAAE mouse has an ERα-null like phenotype, with impaired uterine growth and transcriptional activity. Our findings demonstrate that the KIKO mouse model, which has been used by numerous investigators, cannot be used to establish biological functions for ERα tethering, as KIKO ERα effectively stimulates transcription using HRE motifs. The EAAE-ERα DBD mutant mouse demonstrates that ERα DNA-binding is crucial for biological and transcriptional processes in reproductive tissues, and that ERα-tethering may not contribute to estrogen-responsiveness in vivo.
+
+DESIGN
+one sample each, vehicle ER-alpha ChIP seq,1 hour estradiol ER-alpha ChIP seq, vehicle RNA polymerase II ChIP seq,1 hour estradiol RNA polymerase II ChIP seq, input DNA
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+24713037
+

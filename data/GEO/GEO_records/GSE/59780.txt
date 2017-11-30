@@ -1,0 +1,18 @@
+TITLE
+Expression data from menadione, PERK inhibitor, or control-treated HMLE-shGFP and HMLE-Twist human mammary epithelial cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Malignant carcinomas that recur following therapy are typically de-differentiated and multi-drug resistant (MDR). De-differentiated cancer cells acquire MDR by upregulating reactive oxygen species (ROS)-scavenging enzymes and drug efflux pumps, but how these genes are upregulated in response to de-differentiation is not known. Here, we examine this question by using global transcriptional profiling to identify ROS-induced genes that are already upregulated in de-differentiated cells, even in the absence of oxidative damage. Using this approach, we found that the Nrf2 transcription factor, which is the master regulator of cellular response to oxidative stress, is pre-activated in de-differentiated cells. In de-differentiated cells, Nrf2 is not activated by oxidation but rather through a non-canonical mechanism involving its phosphorylation by the ER membrane kinase PERK. In contrast, differentiated cells require oxidative damage to activate Nrf2. Constitutive PERK-Nrf2 signaling protects de-differentiated cells from chemotherapy by reducing ROS levels and increasing drug efflux. These findings are validated in therapy-resistant basal breast cancer cell lines and animal models, where inhibition of the PERK-Nrf2 signaling axis reversed the MDR of de-differentiated cancer cells. Additionally, analysis of patient tumor datasets showed that a PERK pathway signature correlates strongly with chemotherapy resistance, tumor grade, and overall survival. Collectively, these results indicate that de-differentiated cells upregulate MDR genes via PERK-Nrf2 signaling, and suggest that targeting this pathway could sensitize drug-resistant cells to chemotherapy.
+
+DESIGN
+Differentiated human breast epithelial cells (HMLE-shGFP) or de-differentiated cells (HMLE-Twist) were treated in culture with 40uM menadione for 2 hours or 1uM PERK inhibitor for 48 hours and compared to control DMSO-treated cells.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25203443
+

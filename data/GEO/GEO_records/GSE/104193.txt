@@ -1,0 +1,18 @@
+TITLE
+Hypoxia-mediated translational activation of ITGB3 in breast cancer cells enhances TGF-β signalling and malignant features in vitro and in vivo 
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We performed a polysomal RNA-Seq screen in non-malignant breast epithelial (MCF10A) and TNBC (MDA-MB-231) cells exposed to normoxic or hypoxic conditions and/or treated with an mTOR pathway inhibitor. Analysis of both the transcriptome and the translatome identified mRNA transcripts translationally activated or repressed by hypoxia in an mTOR-dependent or -independent manner. The mRNA populations of each sample were converted to cDNA libraries using the TruSeq protocol and then sequenced using a HiSeq 2000 machine. Paired-end reads were mapped against the reference human genome (GRCh38) with STAR v2.5.1b (ENCODE parameters for long RNA) and GENCODE v24 annotation. Gene quantification was performed using RSEM v1.2.28 with default parameters. Only protein-coding genes were included in the analysis. Normalization of the count matrix was performed with the TMM method of the edgeR R package. Polysomal RNA (P) and RNA total (T) fold changes across conditions were calculated with edgeR. Significant genes (FDR < 5% for MCF10A cells and FDR < 10% for MDA-MB-231 cells) in polysomes were selected for translational efficiency calculation (log2FC RNA polysomes/log2FC RNA total). Genes with a z-score > 1.5 were considered to have an increased translational efficiency and genes with a z-score < –1.5 were considered to have a decreased translational efficiency. GO enrichment analysis of significant genes was performed with the DAVID database.
+
+DESIGN
+RNA-Seq profiles in polysomes vs total in Normoxia, Hypoxia, Hypoxia + PP242, Normoxia + PP242 in MCF10A and MDA-MB-231 cell lines
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

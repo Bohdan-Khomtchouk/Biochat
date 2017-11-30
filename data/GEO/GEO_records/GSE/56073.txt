@@ -1,0 +1,18 @@
+TITLE
+PARP-1 regulation of alternative splicing
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+To address the global impact of PARP-1 on alternative splicing, we isolated total RNA in two biological replicates from control (non-treated), PARP-1 siRNA- and PJ-34-treated cells. Sequencing of these RNAs on an Illumina HiSeq 2500, yielded > 56 million 100-bp paired-end RNA-seq reads. First we tested if PARP-1 KD was effective at the RNA-seq level. Read aligning to the entire gene body of PARP-1 shown a reduction in PARP-1 expression of about 1.5-fold (P-value < 0.0003), confirming that indeed PARP-1 was depleted after PARP-1 siRNA treatment. We next used these RNA-seq data sets (control, PARP-1 KD and PARylation inhibited) to assess whether these treatments resulted in changes in i) gene expression and ii) alternative splicing.
+
+DESIGN
+mRNA profiles of two biological replicates (non-treated), two PARP-1 siRNA knockdowns (100ng and 500ng) and two PARylation inhibition PJ-34-treated cells (10uM and 0.3uM) were compared using RNA-Seq on an Illumina HiSeq 2500.
+
+PLATFORM
+GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

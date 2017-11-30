@@ -1,0 +1,18 @@
+TITLE
+A genomic classifier predicting metastatic disease progression in men with biochemical recurrence after prostatectomy
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BACKGROUND: Due to their varied outcomes, men with biochemical recurrence (BCR) following radical prostatectomy (RP) present a management dilemma. Here, we evaluate Decipher, a genomic classifier (GC), for its ability to predict metastasis following BCR. METHODS: The study population included 85 clinically high-risk patients who developed BCR after RP. Time-dependent receiver operating characteristic (ROC) curves, weighted Cox proportional hazard models, and decision curves were used to compare GC scores to Gleason score (GS), PSA doubling time (PSAdT), time to BCR (ttBCR), the Stephenson nomogram, and CAPRA-S for predicting metastatic disease progression. All tests were two-sided with a type I error probability of 5%. RESULTS: GC scores stratified men with BCR into those who would or would not develop metastasis (8% of patients with low versus 40% with high scores developed metastasis, p < 0.001). The area under the curve for predicting metastasis after BCR was 0.82 (95% CI, 0.76-0.86) for GC, compared to GS 0.64 (0.58-0.70), PSAdT 0.69 (0.61-0.77) and ttBCR 0.52 (0.46-0.59). Decision curve analysis showed that GC scores had a higher overall net benefit compared to models based solely on clinicopathologic features. In multivariable modeling with clinicopathologic variables, GC score was the only significant predictor of metastasis (p=0.003). CONCLUSIONS: When compared to clinicopathologic variables, GC better predicted metastatic progression among this cohort of men with BCR following RP. While confirmatory studies are needed, these results suggest that use of GC may allow for better selection of men requiring earlier initiation of treatment at the time of BCR.
+
+DESIGN
+85 formalin-fixed paraffin-embedded (FFPE) tissue samples from primary prostate cancer obtained from Radical Prostatectomy.
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+24145624
+

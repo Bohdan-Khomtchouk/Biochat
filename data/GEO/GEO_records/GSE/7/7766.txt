@@ -1,9 +1,0 @@
-TITLE
-Moderate long-term drought stress in rice
-
-ORGANISM
-Oryza sativa
-
-SUMMARY
-We investigated the physiological and gene expression response of drought-tolerant (IR57311 and LC-93-4; subgroup indica) and drought-sensitive (Nipponbare and Taipai 309; subgroup japonica) rice (Oryza sativa) cultivars to 18 days of drought stress in climate chamber experiments. Rice plants were grown under water sufficient and water limiting conditions in three independent experiments in a controlled climate chamber with 12 h day length at 600 µE m-2 s-1; temperature was 26°C in the light and 22°C at night, with a relative humidity of 75% in the light and 70% at night. Leaf material for expression profiling analysis was harvested five hours after the beginning of the light period after 18 days of stress or control treatment. Normalization and statistical testing was performed using the R package limma (R 2.3.1, limma version 2.7.3; (Smyth, 2005)). The methods Robustspline for within array normalization and Quantile for between array normalization were applied. A linear model with the effects genotype, drought treatment, genotype x drought, dye was fitted to normalized data in limma that models the systemic variation in the data. Afterwards, for the comparisons of interest, moderated t-statistics that use an empirical Bayes method were calculated. Differentially expressed genes were identified using the decideTests function (method global, Benjamini & Hochberg fdr corrected p-value < 0.05 in limma) Keywords: stress reponse
-

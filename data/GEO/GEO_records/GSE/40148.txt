@@ -1,0 +1,18 @@
+TITLE
+Genome-wide distribution of 5-formylcytosine in ES cells is associated with transcription and depends on TDG
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Methylation of cytosine in DNA (5mC) is an important epigenetic mark that is involved in the regulation of genome function. During early embryonic development in mammals, the DNA methylation landscape is dynamically reprogrammed in part through active demethylation. Recent advances have identified key players involved in active demethylation pathways, including oxidation of 5mC to 5-hydroxymethylcytosine (5hmC) and 5-formylcytosine (5fC) by the TET family of enzymes and excision of 5fC by the base excision repair enzyme thymine DNA glycosylase (TDG). Here, we provide the first genome-wide distribution map of 5fC in mouse embryonic stem (ES) cells and evaluate potential roles for 5fC in differentiation. Our method exploits the unique reactivity of 5fC to link a biotin tag for pulldown and high-throughput sequencing. Genome-wide mapping revealed 5fC enrichment in CpG islands (CGIs) of promoters and exons. CGI promoters in which 5fC was relatively more enriched than 5mC or 5hmC corresponded to transcriptionally active genes. Accordingly, 5fC-rich promoters had elevated H3K4me3 levels, a histone mark associated with active transcription, and were frequently bound by RNA Polymerase II. Downregulation of TDG led to accumulation of 5fC in CGIs in ES cells, which correlates with increased methylation in these genomic regions during differentiation and in mouse embryonic fibroblasts derived from TDG knockout embryos. Collectively, our data suggest that 5fC plays a role in epigenetic reprogramming. The formation and removal of this cytosine modification are confined to specific genomic regions, which are in part controlled by TDG. Notably, 5fC excision in ES cells is necessary for the correct establishment of CGI methylation patterns during differentiation, and hence, for appropriate patterns of gene expression during development.
+
+DESIGN
+We devised a method to map 5-formylcytosine (5fC) by linking a biotin tag to 5fC for pulldown and high-throughput sequencing. We mapped 5fC in the following samples of mouse embryonic stem cells (J1): Wild-type ES cells (two replicates); ES cells transfected with siRNA targeting TDG (two replicates); ES cells transfected with non-targeting siRNA (two replicates). One genomic input library was also sequenced to detect and correct biases in fragment enrichment.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+22902005
+

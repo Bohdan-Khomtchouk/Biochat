@@ -1,0 +1,18 @@
+TITLE
+Function, targets and evolution of Caenorhabditis elegans piRNAs (small RNA-Seq)
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+piRNAs are required to maintain germline integrity and fertility but their mechanism of action is poorly understood. Here we demonstrate that C. elegans piRNAs silence transcripts in trans through imperfectly complementary sites. We find that target silencing is independent of Piwi endonuclease activity or “slicing”. Instead, we show that piRNAs initiate a localized secondary endogenous small interfering RNA (endo-siRNA) response. Endogenous protein-coding gene, pseudogene and transposon transcripts exhibit Piwi-dependent endo-siRNAs at sites complementary to piRNAs and are derepressed in Piwi mutants. Genomic loci of piRNA biogenesis are depleted of protein-coding genes but not pseudogenes or transposons. Our data suggest that nematode piRNA clusters are evolving to generate piRNAs against active mobile elements. Thus, piRNAs provide heritable, sequence-specific triggers for RNAi in C. elegans.
+
+DESIGN
+7 small RNA libraries were sequenced as part of 25 flow cell lanes on the Illumina GA II platform. Samples were treated with tobacco acid pyrophosphatase to allow cloning of small RNAs with a 5'-triphosphate. Samples were labelled for multiplexing using 4-bp 5'-barcodes or barcodes included in Illumina TruSeq adapters. In most cases a single flow cell lane included several multiplexed libraries.
+
+PLATFORM
+GPL9269 Illumina Genome Analyzer II (Caenorhabditis elegans)
+
+CITATIONS
+22700655 , 22738725
+

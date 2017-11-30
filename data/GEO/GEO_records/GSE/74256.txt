@@ -1,0 +1,18 @@
+TITLE
+Mouse lung tissue expression data after exposure to Cd-enriched water.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Mice received 10 mg/L Cd in drinking water for 20 weeks, or normal water. At time of sacrifice, the lung tissue was harvested and RNA was extracted.
+
+DESIGN
+3 control and 3 Cd-treated are compared after RMA table generation with package 'oligo' followed by 'limma' for univariate analysis.
+
+PLATFORM
+GPL16570 [MoGene-2_0-st] Affymetrix Mouse Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+27401458
+

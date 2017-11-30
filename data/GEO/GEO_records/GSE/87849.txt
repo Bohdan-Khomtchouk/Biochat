@@ -1,0 +1,18 @@
+TITLE
+The Nature and Nurture of Cell Heterogeneity: Accounting for Macrophage Gene-environment Interactions with Single-cell RNA-Seq
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Single-cell RNA-Seq can be a valuable and unbiased tool to dissect cellular heterogeneity, despite the transcriptome’s limitations in describing higher functional phenotypes and protein events. Perhaps the most important shortfall with transcriptomic ‘snapshots’ of cell populations is that they risk being descriptive, only cataloging heterogeneity at one point in time, and without microenvironmental context. Studying the genetic (‘nature’) and environmental (‘nurture’) modifiers of heterogeneity, and how cell population dynamics unfold over time in response to these modifiers is key when studying highly plastic cells such as macrophages. Results: We introduce the programmable PolarisTM microfluidic lab-on-chip for single-cell sequencing, which performs live-cell imaging while controlling for the culture microenvironment of each cell. Using gene-edited macrophages we demonstrate how previously unappreciated knockout effects of SAMHD1, such as an altered oxidative stress response, have a large paracrine signaling component. Furthermore, we demonstrate single-cell pathway enrichments for cell cycle arrest and APOBEC3G degradation, both associated with the oxidative stress response and altered proteostasis. Interestingly, SAMHD1 and APOBEC3 are both HIV-1 inhibitors (‘restriction factors’), with no previously known co-regulation. Conclusion: As single-cell methods continue to mature, so will the ability to move beyond simple ‘snapshots’ of cell populations towards studying the determinants of population dynamics. By combining single-cell culture, live-cell imaging, and single-cell sequencing, we have demonstrated the ability to study cell phenotypes and microenvironmental influences. It’s these microenvironmental components - ignored by standard single-cell workflows - that likely determine how macrophages, for example, react to inflammation and form treatment resistant HIV reservoirs.
+
+DESIGN
+Stem cell derived macrophages (wildtype and SAMHD1 knockout) were single-cell cultured for 1h or 8h under for different media conditions (with/without lipopolysaccharide, with/without conditioned media to account for inter-macrophage signalling)
+
+PLATFORM
+GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+28061811
+

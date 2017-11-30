@@ -1,0 +1,18 @@
+TITLE
+Systematic Functional Dissection of Common Genetic Variation Affecting Red Blood Cell Traits [MPRA]
+
+ORGANISM
+Escherichia coli ; Homo sapiens
+
+SUMMARY
+Genome-wide association studies (GWAS) have successfully identified thousands of associations between common genetic variants and human disease phenotypes, but the majority of these variants are non-coding, often requiring genetic fine-mapping, epigenomic profiling, and individual reporter assays to delineate potential causal variants. We employ a massively parallel reporter assay (MPRA) to simultaneously screen 2,756 variants in strong linkage disequilibrium with 75 sentinel variants associated with red blood cell traits. We show that this assay identifies elements with endogenous erythroid regulatory activity. Across 23 sentinel variants, we conservatively identified 32 MPRA functional variants (MFVs). We used targeted genome editing to demonstrate endogenous enhancer activity across 3 MFVs that predominantly affect the transcription of SMIM1, RBM38, and CD164. Functional follow-up of RBM38 delineates a key role for this gene in the alternative splicing program occurring during terminal erythropoiesis. Finally, we provide evidence for how common GWAS-nominated variants can disrupt cell-type-specific transcriptional regulatory pathways.
+
+DESIGN
+Constructs containing SNPs in high LD with sentinel red blood cell GWAS hits were cloned upstream of a reporter gene in an MPRA plasmid. DNA from the plasmid and RNA 48 hours after transfection into K562 cells were isolated, RT-PCR was performed, reads containing barcodes were sequenced, and these barcodes were counted and a RNA/DNA ratio was derived to measure the relative activity of the construct.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL18133 Illumina HiSeq 2500 (Escherichia coli)
+
+CITATIONS
+27259154
+

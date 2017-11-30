@@ -1,0 +1,18 @@
+TITLE
+Genome-Wide Gene Expression Profiling Of Chicken Spleen Responding To Campylobacter jejuni Infection In Broilers
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Campylobacter jejuni (C. jejuni) is a zoonotic pathogen that causes human diarrhea worldwide. Chickens are a natural reservoir of C. jejuni. Understanding the host response to C. jejuni infection at the molecular level will lay the foundation to control human campylobacterosis by reducing food contamination. Two distinct genetic lines, resistant (line A) and susceptible (line B) to C. jejuni colonization, were utilized to profile the host response to C. jejuni infection using an Agilent chicken 44K microarray. Day-old chickens were challenged orally with C. jejuni and spleens collected for total RNA 7 days post-challenge. Twenty infected samples with highest (a) or lowest bacterial number (b) in cecal content and twenty non-infected (c) in each line were randomly pooled into four biological replicates. The pair comparisons among these three groups within each line were analyzed. The signal intensity of each gene was normalized using LOWESS method. A mixed model was used to identify differentially expressed genes by SAS (P < 0.001). This was opposite to previous cecal tonsil microarray result. There were 468, 743, and 939 genes differentially expressed between groups a and c, groups a and b, and groups b and c in line A, respectively, and 201, 37, 126 genes in line B, respectively. More differentially expressed genes in spleen in line A than in line B were found. The results indicated that significantly different response to C. jejuni infection occurred between resistant and susceptible chicken lines, and the effects of interaction between genetics and tissue should be considered.
+
+DESIGN
+Chickens in two broiler lines were inoculated with 10^5 cfu C. jejuni on one day after hatch. The cecal content and cecal tonsil was collected and bacterial number in cecal content was counted on day 7 after inoculation. Twenty samples were separated into 3 groups (high burden, low burden, and control) based on bacterial burden of cecal content in each line, 5 samples were mixed randomly into one pool. A dual color, balanced design was carried on for all samples. Three comparisons were used in each line, non-infected/susceptible, susceptible/resistant, resistant/non-infected, totally, four biological replicates in each line. A Dye swap was used in each pair of comparisons including AN/AS, AS/AR, AR/AN; BN/BS, BS/BR, and BR/BN. Background subtracted signal intensity were collected from 24 arrays and normalized for data analysis.
+
+PLATFORM
+GPL6413 Chicken 44K custom Agilent microarray (2nd version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

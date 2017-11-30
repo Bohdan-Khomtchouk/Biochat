@@ -1,0 +1,18 @@
+TITLE
+roX RNAs are required for up-regulation of male X chromosome in Drosophila.
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Drosophila males double transcription of their single X chromosome to equalize X-linked gene expression with females, which carry two X chromosomes.  Increased transcription requires the Male-Specific Lethal (MSL) complex.  One of the primary functions of the MSL complex is thought to be enrichment of H4Ac16 on the male X chromosome, a modification linked to elevated transcription. The roX1 and roX2 RNAs are essential but redundant components of the MSL complex.  Simultaneous removal of both roX RNAs reduces MSL X-localization and leads to ectopic binding of these proteins at autosomal sites and to the chromocenter.  Some H4Ac16 accumulates at these ectopic sites in roX1- roX2- males, suggesting the possibility of increased expression.  The global effect of roX mutations on gene expression was measured by microarray analysis.  We found that expression of the X chromosome was decreased by 26% in roX1- roX2- male larvae, supporting the involvement of roX RNAs in the up-regulation of X-linked genes.  This finding is broadly comparable to reports of reduced X chromosome expression following msl2 RNAi knockdown in S2 cells. In spite of strong MSL binding and H4Ac16 accumulation at autosomal sites in roX1- roX2- males, enhanced gene expression could not be detected at these sites by microarray analysis or reverse northern blotting.  Thus, failure to compensate X-linked genes, rather than inappropriate up-regulation of autosomal genes at ectopic sites of MSL binding, appears to cause male lethality upon loss of roX RNAs. Keywords: effect of roX1-roX2- mutant on gene expression
+
+DESIGN
+Total RNA was prepared from groups of 50 third instar larvae by TRIzol (Invitrogen) extraction and purified using the RNeasy kit (Qiagen).  Three independent RNA preparations for each genotype served as templates for probe synthesis.  Affymetrix Drosophila Genome 2.0 chips were hybridized to these probes (Santa Clara, CA).  The affymertrix Drosophila annotation of December 2004 was used to map genes to their cytological locations.  Genes were filtered for present/absent calls by a PM-MM (Perfect match- Mismatch) comparison.  Autosomal transcripts were normalized on a chip-by-chip basis to bring their median values to 100.  The identical degree of adjustment was used to normalize X-linked transcripts. Changes in gene expression were determined by comparing the mean signal intensities of genes on arrays hybridized with roX1SMC17A roX2- probes to those hybridized with roX1+ roX2- probes.
+
+PLATFORM
+GPL1322 [Drosophila_2] Affymetrix Drosophila Genome 2.0 Array
+
+CITATIONS
+17028315
+

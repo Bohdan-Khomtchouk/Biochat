@@ -1,0 +1,18 @@
+TITLE
+Isoform switch of TET1 regulates DNA demethylation and mouse development
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The methylcytosine oxidase TET proteins play important roles in DNA demethylation and development. However, it remains elusive how exactly they target substrates and execute oxidation. Interestingly, we found that in mice, the full-length TET1 isoform (TET1e) is restricted to early embryos, ESCs and PGCs. By contrast, a short isoform (TET1s) is preferentially expressed in somatic cells which lacks the N-terminus including the CXXC domain, a DNA-binding module that often recognizes CpG islands (CGIs) where TET1 predominantly occupies. Unexpectedly, TET1s can still bind CGIs, despite the fact that its global chromatin binding is significantly reduced. Interestingly, the global chromatin binding, but not the targeted binding at CGIs, is correlated with TET1 mediated demethylation. Finally, mice with exclusive expression of Tet1s failed to erase imprints in PGCs and displayed developmental defects in progeny. These data show that isoform switch of TET1 regulates epigenetic memory erasure and mouse development.
+
+DESIGN
+ChIP-seq was conducted in mESCs where Tet1 variants were overexpressed. MethylC-seq was performed in WT, Tet1 KO, Tet2 KO, Tet1/2 DKO, and Tet1cs/cs mESCs. RNA-seq was conducted in WT and Tet1cs/cs mESCs. DNA methylome and transcriptome were also profiled in WT and Tet1cs/cs E13.5 PGCs.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+27916660
+

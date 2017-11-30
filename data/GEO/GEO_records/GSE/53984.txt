@@ -1,0 +1,15 @@
+TITLE
+Identification of Replication Timing Domains Using DNN-HMM
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Sixteen GSM Samples from GSE34399 was used to identify four different types of replication timing domains. Methods: 1. Chromosome 1 of Bj_Rep1 was manually annotated. 2. We developed a new supervised method called DNN-HMM (Deep Neural Network-Hidden Markov Model), and used the manual annotation as the training set to learn a model. 3. The model learnt in Step 2 was used to divide the un-annotated Repli-seq datas into four different replication domains (early replication domain, down transition zone, late replication domain, up transition zone). Result: We used DNN-HMM to identify four different replication timing domains respectively in fifteen cell lines. The accuracy of identification was about 87%, and the overlapping percentage of two independent replicates of Bj cell line was about 83%. Data File Formats :(bed) chrom - The name of the chromosome chromStart - The starting position of the feature in the chromosome chromEnd - The ending position of the feature in the chromosome category - The domain identified (denoted by: ERD, short for early replication domain; DTZ, short for down transition zone; LRD, short for late replication domain; UTZ, short for up transition zone)
+
+DESIGN
+Repli-seq datas from GSE34399 were used as the raw datas. After mapping and normalization, the signals from six cell cycle fractions: G1/G1b, S1, S2, S3, S4, G2 (six fraction profile) were merged into a matrix. The six-dimensional matrix then was used as input of DNN-HMM to identify replication timing domains.
+
+CITATIONS
+26545821
+

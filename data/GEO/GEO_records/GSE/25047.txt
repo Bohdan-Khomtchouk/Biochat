@@ -1,0 +1,18 @@
+TITLE
+Identification of DNA Methylation Markers for Lineage Commitment of in vitro Hepatogenesis [methylation profiling]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Hepatocytes that have differentiated from human embryonic stem cells have great potential for the treatment of liver disease as well as for drug testing. Moreover, in vitro hepatogenesis is a powerful model system for studying the molecular mechanisms underlying liver development. DNA methylation is an important epigenetic mechanism that influences differential gene expression during embryonic development. We profiled gene expression and DNA methylation of three cell states of in vitro hepatogenesis—human embryonic stem cells, endoderm progenitors, and mature hepatocytes—using microarray analysis. Among 525 state-specific expressed genes, 67 showed significant negative correlation between gene expression and DNA methylation. State-specific expression and methylation of target genes were validated by quantitative reverse transcription–PCR and pyrosequencing, respectively. To elucidate genome-scale methylation changes beyond the promoter, we also performed high-throughput sequencing of methylated DNA captured by MBD2 protein [see SRA link below]. We found dynamic methylation changes in intergenic regions of the human genome during differentiation. Conclusion: This study provides valuable methylation markers for the lineage commitment of in vitro hepatogenesis and should help elucidate the molecular mechanisms underlying stem cell differentiation and liver development.
+
+DESIGN
+ES, EP, and MH methylation assays were run in triplicate. Genomic DNA (1 µg) from each sample was bisulfite converted using the EZ DNA methylation kit (Zymo Research, Orange, CA), and 200 ng of the converted DNA was used for amplification. Amplified DNA was hybridized to the Infinium HumanMethylation27 BeadChip (Illumina), which analyzes the methylation status of 27,578 CpG sites selected from more than 14,495 well-annotated genes. The arrays were imaged using the BeadArray Reader, and image processing and extraction of intensity data were performed according to Illumina’s instructions. Each methylation signal was used to compute the β value, which is a quantitative measure of DNA methylation ranging from 0 (for completely unmethylated cytosines) to 1 (for completely methylated cytosines).
+
+PLATFORM
+GPL8490 Illumina HumanMethylation27 BeadChip (HumanMethylation27_270596_v.1.2)
+
+CITATIONS
+21505074
+

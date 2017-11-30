@@ -1,0 +1,18 @@
+TITLE
+Pre-Collaborative Cross lung gene expression after allergen challenge
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The Collaborative Cross (CC) recombinant inbred panel was conceived as an ideal resource for mammalian system genetics. The pre-CC is a proof-of-concept experiment involving CC lines that have undergone at least five generations of inbreeding. Siblings from these lines were each involved in one of four distinct phenotyping arms, then genotyped on a high-density Affymetrix platform. These mice were initially described in the following reference. Genome Research 2011 Aug;21(8):1213-22 (PMID: 21406540).  The goal of this specific project was to identify gene expression QTL using lung tissue from pre-CC mice that were sensitized and challenged with house dust mite allergen (namely, Der p 1).
+
+DESIGN
+We analyzed whole lung RNAs from 138 pre-Collaborative Cross mice using Illumina WG6v2 arrays. Pre-Collaborative Cross (CC) mice are partially inbred strains created by intercrossing eight founder (parental) strains: 129S1/SvImJ, (129S1), A/J (AJ), C57BL/6J (B6), CAST/Ei (CAST), NOD/LtJ (NOD), NZO/H1LtJ (NZO), PWK/Ph (PWK), and WSB/Ei (WSB). Sister-brother mating in 220 families was done for 5-12 generations. One animal was sampled from 138 unique pre-CC strains, each designated by the prefix OR which denotes Oak Ridge National Laboratory as the original source of these mice. The parental strains are not part of this submission. Hybridizations were performed at the National Human Genome Research Institute’s Gene Expression Core Facility.The resulting data were initially processed using Illumina Genome Studio software and then imported into R (v2.9.2) for post-processing. Normalization was conducted using RMA with quantile normalization and log2 transformation.
+
+PLATFORM
+GPL6887 Illumina MouseWG-6 v2.0 expression beadchip
+
+CITATIONS
+24693920
+

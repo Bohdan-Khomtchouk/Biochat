@@ -1,0 +1,18 @@
+TITLE
+Comparing the biological impact of glatiramer acetate with the biological impact of a generic.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+For decades, policies regarding generic medicines have sought to provide patients with economical access to safe and effective drugs, while encouraging the development of new therapies. This balance is becoming more challenging for physicians and regulators as biologics and non-biological complex drugs (NBCDs) such as glatiramer acetate demonstrate remarkable efficacy, because generics for these medicines are more difficult to assess. We sought to develop computational methods that use transcriptional profiles to compare branded medicines to generics, robustly characterizing differences in biological impact. We combined multiple computational methods to determine whether differentially expressed genes result from random variation, or point to consistent differences in biological impact of the generic compared to the branded medicine. We applied these methods to analyze gene expression data from mouse splenocytes exposed to either branded glatiramer acetate or a generic. The computational methods identified extensive evidence that branded glatiramer acetate has a more consistent biological impact across batches than the generic, and has a distinct impact on regulatory T cells and myeloid lineage cells. In summary, we developed a computational pipeline that integrates multiple methods to compare two medicines in an innovative way. This pipeline, and the specific findings distinguishing branded glatiramer acetate from a generic, can help physicians and regulators take appropriate steps to ensure safety and efficacy.
+
+DESIGN
+Glatiramoid samples for SPL cell activation were grouped into four categories: 1) Verified GA, which included GA-RS (22 biological samples) and GA drug product (GA-DP, 34 biological samples from 30 batches) manufactured by Teva; 2) Deliberately Modified GA (DM-GA; 9 biological samples), which included glatiramoids made by Teva that were similar to GA but modified in a variety of ways: prepared with different ingredients (e.g., missing a constituent amino acid); prepared with the same amino acids in the same molar ratio as GA, but with defined amino acid sequences and different molecular weights (referred to as peptide markers TV-35 and TV-66); synthesized by a different process (e.g., changing acetolytic cleavage conditions, alternating polymerization initiator); exposed to destabilizing conditions (e.g., degradation by acid, base, and heat); 3) Unverified Glatiramoids, which included 4 biological samples, TV-5010 and 3 glatiramoids synthesized to be similar to GA but not manufactured using the Teva-patented manufacturing process; and 4) Unverified Generic GA, which included samples from 2 glatiramoids (“GA-Q” 11 biological samples from 5 different batches, and 2 “GA-C” samples from a single batch) marketed as generic GA manufactured by companies other than Teva. Please note that GSE61901 is another series on the same data as GSE40566.  GSE61901 includes the individual  technical replicates, and was utilized for the manuscript: Towfic F, Funt JM, Fowler KD, Bakshi S et al. Comparing the biological impact of glatiramer acetate with the biological impact of a generic. PLoS One 2014;9(1):e83757. PMID: 24421904.  GSE40566 was preprocessed to average the technical replicates, and was utilized for the manuscript: Bakshi S, Chalifa-Caspi V, Plaschkes I, Perevozkin I et al. Gene expression analysis reveals functional pathways of glatiramer acetate activation. Expert Opin Ther Targets 2013 Apr;17(4):351-62. PMID: 23469939.
+
+PLATFORM
+GPL19250 Illumina MouseWG-6 v2.0 expression beadchip (unofficial custom annotation)
+
+CITATIONS
+23469939 , 24421904
+

@@ -1,0 +1,18 @@
+TITLE
+RNA pol II ChIP on chip (RPCC)
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Adaptation of the ChIP-on-chip protocol, to calculate genomic transcription rates in S. cerevisiae. Keywords: ChIP-chip
+
+DESIGN
+There are 3 different experimental conditions: -Yeast cell growing exponentially  in YPD. -Yeast cell stopped after 2 h of changing them to YPGal. -Yeast cell growing exponentially after 14.5 h of changing them to YPGal.  We have used 3 different IP protocols: -total RNA pol II using a Myc tagged RNA pol (RPB1-Myc) -RNA pol II CTD using the Ab 8WG16 (Covance) -RNA pol II CTD Phosphorylated on Ser5 (David Bentley\'s lab)  There are 3 independent biological replicates of each experiment.
+
+PLATFORM
+GPL6727 Valencia yeast v6 GPL7871 Valencia yeast v5r2
+
+CITATIONS
+19696888 , 21103382
+

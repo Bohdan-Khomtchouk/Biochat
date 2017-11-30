@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiling in THP1 cells after PAPD5 or GLD2 knockdown
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Next-generation sequencing experiments have shown that microRNAs are expressed in many different isoforms (isomiRs), whose biological relevance is often unclear. We found that mature miR-21, the most widely researched microRNA because of its importance in human disease, is produced in two prevalent isomiR forms that differ by one nucleotide at their 3’ end, and moreover that the 3’ end of miR-21 is post transcriptionally adenylated by the noncanonical poly(A) polymerase PAPD5. PAPD5 knockdown caused an increase in the miR-21 expression level, suggesting that PAPD5-mediated adenylation of miR-21 leads to its degradation. Exoribonuclease knockdown experiments followed by small RNA sequencing suggested that PARN degrades miR-21 in the 3’-to-5’ direction. In accordance with this model, microarray expression profiling demonstrated that PAPD5 knockdown results in a downregulation of miR-21 target mRNAs. We found that disruption of the miR-21 adenylation and degradation pathway is a general feature in tumors across a wide range of tissues, as evidenced by data from The Cancer Genome Atlas, as well as in the non-cancerous proliferative disease psoriasis. We conclude that PAPD5 and PARN mediate degradation of oncomiR miR-21 through a tailing and trimming process, and that this pathway is disrupted in cancer and other proliferative diseases.
+
+DESIGN
+Gene expression levels were profiled by Illumina microarrays using RNA produced previously (PMID 20719920). Briefly, total RNA was extracted from THP1 cells in four replicates 72 hours after transfection of siRNA against PAPD5 or GLD2, or of calibrator negative control siRNA. Gene expression levels were profiled in two of the PAPD5 knockdown replicates, two of the GLD2 knockdown replicates, and two of the negative control replicates.
+
+PLATFORM
+GPL6884 Illumina HumanWG-6 v3.0 expression beadchip
+
+CITATIONS
+25049417
+

@@ -1,0 +1,18 @@
+TITLE
+Effect of read-mapping biases on detecting allele-specific expression from RNA-sequencing data.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Next-generation sequencing has become an important tool for genome-wide quantification of DNA and RNA.  However, a major technical hurdle lies in the need to map short sequence reads back to their correct locations in a reference genome.  Here we investigate the impact of SNP variation on the reliability of read-mapping in the context of detecting allele-specific expression (ASE).We generated sixteen million 35 bp reads from mRNA of each of two HapMap Yoruba individuals.  When we mapped these reads to the human genome we found that, at heterozygous SNPs, there was a significant bias towards higher mapping rates of the allele in the reference sequence, compared to the alternative allele.  Masking known SNP positions in the genome sequence eliminated the reference bias but, surprisingly, did not lead to more reliable results overall. We find that even after masking, $\sim$5-10\% of SNPs still have an inherent bias towards more effective mapping of one allele. Filtering out inherently biased SNPs removes 40\% of the top signals of ASE.  The remaining SNPs showing ASE are enriched in genes previously known to harbor cis-regulatory variation or known to show uniparental imprinting.  Our results have implications for a variety of applications involving detection of alternate alleles from short-read sequence data. Scripts, written in Perl and R, for simulating short reads, masking SNP variation in a reference genome, and analyzing the simulation output are available upon request from JFD.
+
+DESIGN
+RNA-Seq on two YRI Hapmap cell lines. Each individual sequenced on two lanes of the Illumina Genome Analyzer
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+19808877
+

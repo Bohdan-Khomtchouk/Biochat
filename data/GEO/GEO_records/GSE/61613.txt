@@ -1,0 +1,18 @@
+TITLE
+Affinity-seq detects genome-wide PRDM9 binding sites and reveals the impact of prior chromatin modifications on mammalian recombination hotspot usage
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We report a novel technique, Affinity-seq, that for the first time identifies both the genome-wide binding sites of DNA-binding proteins and quantitates their relative affinities. We have applied this in vitro technique to PRDM9, the zinc-finger protein that activates genetic recombination, obtaining new information on the regulation of hotspots, whose locations and activities determine the recombination landscape. We identified 31,770 binding sites in the mouse genome for the PRDM9Dom2 variant. Comparing these results with hotspot usage in vivo, we find that less than half of potential PRDM9 binding sites are utilized in vivo. We show that hotspot usage is increased in actively transcribed genes and decreased in genomic regions containing H3K9me2/3 histone marks or bound to the nuclear lamina. These results show that a major factor determining whether a binding site will become an active hotspot and what its activity will be are constraints imposed by prior chromatin modifications on the ability of PRDM9 to bind to DNA in vivo. These constraints lead to the presence of long genomic regions depleted of recombination.
+
+DESIGN
+The terminal zinc finger domain of PRDM9Dom2 (PRDM9ΔZnF1Dom2, 412–847 aa), the allele present in C57BL/6J (B6) mice was cloned and tagged with 6His-HALO and then expressed in E. coli. DNA sheared to 180–200 bp is provided in considerable excess to provide competition between DNA binding sites. Following binding, DNA–protein complexes are then isolated on streptavidin beads and the DNA extracted for deep sequencing. Two replicate Affinity-seq samples were sequenced at 100-bp reads using the Illumina HiSeq 2500. Alignments to the mm9 mouse genome were obtained utilizing BWA v1.2.3 with default parameters and reads which failed to align to unique positions in the genome were discarded. Peaks were called individually for the two replicates with MACS2 at a p value threshold of 0.01 utilizing a control dataset obtained by sequencing the input DNA and subsequently compared, leading ultimately to combining the two replicates for definitive analysis.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+26351520
+

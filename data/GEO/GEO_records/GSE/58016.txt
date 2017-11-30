@@ -1,0 +1,18 @@
+TITLE
+Gene silencing triggers Polycomb Repressive Complex 2 recruitment to CpG islands genome-wide [RNA-seq_PcG-KO]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Polycomb group (PcG) proteins are required for normal differentiation and development, and their activity is found deregulated in cancer. PcG proteins are involved in gene silencing, however, whether they initiate or maintain transcriptional repression is a subject of debate. Here, we show that knockout of the Polycomb repressive complex 2 (PRC2) does not lead to significant gene expression changes in mouse embryonic stem cells (mESCs), and that it is dispensable for initiating silencing of target genes during differentiation. Transcriptional inhibition in mESCs is sufficient to induce genome-wide ectopic PRC2 recruitment to endogenous PcG target genes found in other tissues. PRC2 binding analysis shows that it is restricted to nucleosome-free CpG islands (CGIs) of un-transcribed genes. Our results show that it is the transcriptional state that governs PRC2 binding, and we propose that it binds by default to non-transcribed CGI genes to maintain their silenced state and to protect cell identity.
+
+DESIGN
+RNA-seq experiments with Mus musculus E14TG2a (E14-WT), Ezh2[fl/fl] (Ezh2-WT), Ezh2[-/-] (Ezh2-KO), Suz12[-/-] (Suz12-KO), Ring1A[-/-];Ring1B[-/-] (Ring1A+B-DKO) Embryonic Stem Cells with three biological replicates per condition.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24999238
+

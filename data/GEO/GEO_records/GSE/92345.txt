@@ -1,0 +1,18 @@
+TITLE
+Systematic mapping of RNA-chromatin interactions in vivo
+
+ORGANISM
+Drosophila melanogaster ; Homo sapiens
+
+SUMMARY
+RNA molecules can attach to chromatin and thus provide a type of epigenomic information. It remains difficult to know what RNAs are associated with chromatin and where are the genomic target loci of these RNAs. Here, we present MARGI (Mapping RNA-genome interactions), a technology to massively reveal native RNA-chromatin interactions from unperturbed cells. The gist of this technology is to ligate chromatin-associated RNA (caRNA) with their target genomic sequence by proximity ligation, forming RNA-DNA chimeric sequences, which are converted to sequencing library for paired-end sequencing. Using MARGI, we produced RNA-genome interaction maps for human embryonic stem (ES) cells and HEK cells. MARGI revealed hundreds of chromatin-associated RNAs (caRNA), including previously known XIST, SNHG1, NEAT1, and MALAT1, as well as each caRNA's genomic interaction loci. Using a cross-species experiment, we estimated that approximately 2.2% of MARGI identified interactions are false positives. MARGI data suggested that 80-95% of interactions are proximal, where a caRNA is connected to its nearby genomic regions, 1-2% are distal, and 5-15% are inter-chromosomal. The majority of TSSs are associated with distal or inter-chromosomal caRNAs. ChIP-seq reported H3K27ac and H3K4me3 levels are positively correlated while H3K9me is negatively correlated with MARGI reported RNA attachment levels. The MARGI technology should facilitate revealing novel RNA functions and epigenomic events.
+
+DESIGN
+Two human cell lines were analysed: H9 and HEK. For each, we used two protocols, pxMARGI and diMARGI, having two replicates for the former and only one for the latter. Two samples from each replicate were sequenced. Whereas pxMARGI is designed to not differentiate passive and direct interactions, diMARGI is aimed to reveal protein tethered interactions. For the former, this was achieved by a combination of formaldehyde crosslinking and complete genome fragmentation, by overnight HaeIII digestion to ensure all genomic regions including heterochromatin were fragmented before the subsequent DNA ligation step. For the second, after crosslinking with formaldehyde and DSG, the chromatin was fragmented by sonication, and only the soluble fraction was passed onto the subsequent ligation steps.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL22790 Illumina MiniSeq (Homo sapiens) GPL22791 Illumina MiniSeq (Drosophila melanogaster; Homo sapiens)
+
+CITATIONS
+28222283
+

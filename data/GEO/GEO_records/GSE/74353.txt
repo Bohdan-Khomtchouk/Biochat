@@ -1,0 +1,18 @@
+TITLE
+RNA duplex map in living cells reveals higher order transcriptome structure
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+RNA has the intrinsic property to base pair, forming complex structures fundamental to its diverse functions. Here we develop PARIS, a method based on reversible psoralen-crosslinking for global mapping of RNA duplexes with near base-pair resolution in living cells. PARIS analysis in three human and mouse cell types reveals frequent long-range structures, higher order architectures, and RNA:RNA interactions in trans across the transcriptome. PARIS determines base-pairing interactions on an individual-molecule level, revealing pervasive alternative conformations. We used PARIS-determined helices to guide phylogenetic analysis of RNA structures, and discovered conserved long-range and alternative structures. XIST, a lncRNA essential for X chromosome inactivation, folds into evolutionarily conserved RNA structural domains that span many kilobases. XIST A-repeat forms complex inter-repeat duplexes that nucleate higher order assembly of the key epigenetic silencing protein SPEN. PARIS is a generally applicable and versatile method that provides novel insights into the RNA structurome and interactome.
+
+DESIGN
+Cells are crosslinked with AMT and RNA is extracted from cells by RNase digestion. Crosslinked RNA fragments are selected from total RNA by 2D gel electrophoresis. Purified crosslinked RNA duplexes are proximity ligated and crosslinking is reversed. Then the chimeric RNA molecules are converted into cDNA libraries for high-throughput sequencing.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19057 Illumina NextSeq 500 (Mus musculus) GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+27180905
+

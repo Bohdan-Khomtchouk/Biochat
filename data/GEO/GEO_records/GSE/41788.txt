@@ -1,0 +1,18 @@
+TITLE
+Expression data from the comparison between poly(I:C)-treated WT and Oasl1-/- BMDMs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Oasl1-/- BMDMs express more type I IFN upon poly(I:C) treatment. Because OASL1 seems to rather specifically suppress the type I IFN expression, we tried to address the specificity by determining the defects associated with the Oasl1 mutation using genome-wide gene expression microarray analysis under moderate poly(I:C) stimulation (5 µg/ml for 9 h); this condition was used to identify the primary targets of OASL1 while minimizing the secondary targets induced by the earlier, higher production of type I IFNs in Oasl1-/- cells. Only 23 genes out of approximately 35,000 probed transcripts showed a signal difference greater than two-fold between the WT and KO cells; 15 showed higher signals in KO cells while 8 showed lower signals in KO cells
+
+DESIGN
+We analyzed total RNA from poly(I:C)-treated WT and Oasl1-/- BMDM using the Affymetrix Mouse Gene 1.0 ST array. Array data were processed by Affymetrix GCOS software. We compared these using Affymetrix Expression console1.1, TMEV4.4, DAVID.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23416614
+

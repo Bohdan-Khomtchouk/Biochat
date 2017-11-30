@@ -1,0 +1,18 @@
+TITLE
+comparison of the transcriptome of the conditional afpig-a mutant and the wild-type
+
+ORGANISM
+Aspergillus fumigatus
+
+SUMMARY
+In order to gain a better understanding of the mechanism of increased cell death triggered by deficient GPI anchoring, we constructed a whole genome microarray using the Agilent eArray 5.0 program.The chip specification is 8×15K. The genome sequences were downloaded from the following site: http://www.ncbi.nlm.nih.gov/genome?Db=genome & =Search & =txid330879 [orgn]. Each gene was represented by one 60-nt oligonucleotide probe, and 358 genes out of the 9630 total were replicated 14 times.Using this microarray,we got 3274 genes which were induced or reduced at least 1.5 fold in the afpig-a mutant comparing to the wild-type.
+
+DESIGN
+Mycelia of the afpig-a mutant and the wild-type were harvested from strains grown in liquid CM at 37°C for 36h with shaking at 200 rpm and ground by hand.Total RNA was extracted to do the hybridization.cRNAs were labled with Cy3 NHS ester.afpig-a_37 was sample, afpig_37_1a,afpig_37_2a,afpig_37_3a and afpig_37_4a were biological repeats. w_37 was control,w_37_1a,w_37_2a,w_37_3a and w_37_4a were biological repeats.Four independent experiments were performed. Each time we got a set of differentilly expressed genes.Differentially expressed genes were selected with P≤0.05, FC≥1.5 by T-test methods using the independent four sets data.
+
+PLATFORM
+GPL16320 Agilent-023681 yanqumei - Aspergillus fumigatus custom 8×15K
+
+CITATIONS
+23527074
+

@@ -1,0 +1,18 @@
+TITLE
+Heterogeneous ribosomes exist and selectively translate distinct subpools of mRNAs in stem cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Emerging studies have linked the ribosome to more selective control of gene regulation. However, an outstanding question is whether ribosome heterogeneity at the level of core ribosomal proteins (RPs) enables ribosomes to preferentially translate specific mRNAs genome-wide. Here, we measured the absolute abundance of RPs in translating ribosomes and profiled transcripts that are enriched or depleted from select subsets of ribosomes within embryonic stem cells. We find that heterogeneity in RP composition endows ribosomes with different selectivity for translating subpools of transcripts including those controlling metabolism, the cell cycle, and development. As a paradigm example, we show that mRNAs enriched in binding to RPL10A/uL1-containing ribosomes require RPL10A/uL1 for their efficient translation. Within several of these transcripts, we find this level of regulation is mediated, at least in part, by internal ribosome entry sites. Together, these results reveal a critical functional link between ribosome heterogeneity and the post-transcriptional circuitry of gene expression.
+
+DESIGN
+To identify the transcripts specifically translated by ribosomes demarcated by RPL10A or RPS25, we enriched for RPL10A or RPS25-containing ribosomes by immunoprecipitation (IP), and performed RPL10A-Ribo-Seq and RPS25-Ribo-Seq (2 replicates each), with the control being total Ribo-Seq (2 replicates each). To further assess the translation efficiencies of mRNAs upon Rpl10a knockdown at genome-wide scale, we performed RNA-Seq (2 replicates each) of purified RNAs from combined medium and heavy polysome fractions containing the most actively translating ribosomes ( > =4 ribosomes along a mRNA molecule), and from all other fractions containing the free ribonucleoproteins (RNPs), 40S/60S ribosomal free subunits, 80S/monosomes as well as light polysomes (2-3 ribosomes per mRNA molecule).
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28625553
+

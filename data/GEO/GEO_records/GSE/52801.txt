@@ -1,0 +1,18 @@
+TITLE
+Assessing the ceRNA hypothesis with quantitative measurements of miRNA and target abundance
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Recent studies have reported that competitive endogenous RNAs (ceRNAs) can act as sponges for a miRNA through their binding sites and that changes in ceRNA abundances from individual genes can modulate the miRNA’s activity. Consideration of this hypothesis would benefit from knowing the quantitative relationship between a miRNA and its endogenous target sites. Here, we altered intracellular target-site abundance through expression of a miR-122 target in hepatocytes and livers, and analyzed the effects on miR-122 target genes. Target repression was released in a threshold-like manner at high target-site abundance (≥1.5x10^5 added target sites per cell), and this threshold was insensitive to the effective levels of the miRNA. Furthermore, in response to extreme metabolic liver disease models, global target-site abundance of hepatocytes did not change sufficiently to affect miRNA-mediated repression. Thus, modulation of miRNA target abundance is unlikely to cause significant effects on gene expression and metabolism through a ceRNA effect.
+
+DESIGN
+Seventeen mRNA profiles were generated of 1) primary hepatocytes of mice expressing variable levels of a recombinant Adenovirus expressing the transcript of AldolaseA (Ad-AldoA), containing either 1 or 3 sites matching miR-122 or a mutated miR-122 site (no site), 2) primary hepatocytes derived from mice treated with Antagomir-122 (treatment group) or Antagomir-122mm (control group), 3) livers originating of a genetic model (Ldlr deficient mice) causing severe pathological changes in cholesterol metabolism, 4) livers of mice perfused with Insulin or PBS, and 5) livers of mice fed a high-fat or chow diet; most samples were sequenced in duplicate or triplicate by an Illumina HiSeq 2000. One small RNA profile was also generated from livers of mice fed a chow diet by Solexa sequencing.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24793693
+

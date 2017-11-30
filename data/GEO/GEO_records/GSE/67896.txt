@@ -1,0 +1,18 @@
+TITLE
+Gene expression profiles of inoculated tumor cells in TNC-KO mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Tenascin-C (TNC), a cancer-associated extracellular matrix glycoprotein, plays a pivotal role in tumor growth. To identify the genes regulated by TNC during tumor growth, we performed a tumor growth assay, DNA microarray analysis, and quantitative real-time PCR (qRT-PCR). Mouse mammary tumor cells were subcutaneously inoculated into GRS/A (WT) and GRS/A-TgH(Tnc) (TNKO) mice. Tumors in WT mice significantly increased in volume with expressing TNC while tumors in TNKO mice showed hardly detectable levels of TNC. Tumor gene expression profiles between TNKO and WT mice were compared using DNA microarray analysis. We found that 447 genes were up-regulated (TNKO > WT) and 667 genes were down-regulated (TNKO < WT) in the TNKO group. We then classified these genes by Gene Ontology (GO) terms in order to elucidate their biological function. There were three GO terms found related to tumor growth, namely, “acute inflammatory response”, “cell adhesion”, and “response to wounding”. Eighty-three of the genes primarily involved in these GO terms were further validated by qRT-PCR. Eight genes: Tnc, Cxcl2, Cxcl1, Hbegf, Chl1, Cd44, Serpina3n, and F3 were significantly down-regulated relative to the WT. Eighteen genes: Saa3, P2rx7, Ptgs1, Ptger2, Comp, Steap4, Il1rn, Il1b, Ncf1, Mst1, Nfκb1, Ctsb, Tnfrsf1a, Tnfrsf1b, Cd24a, Adam17, Mtpn, and Sox4 were significantly up-regulated relative to the WT. These results support our hypothesis that TNC has multi-faceted effects on both the tumor cells and their microenvironment. First, TNC acts on the tumor cells directly by up-regulating genes involved in cancer cell proliferation through the CXCL1/2 and CXCR2 pathway. Second, TNC controls the tumor microenvironment by promoting angiogenesis through the CXCL1/2 and CXCR2 pathway, and by suppressing inflammatory gene expression through a separate pathway.
+
+DESIGN
+Eight-week-old male GRS/A (WT) and GRS/A-TgH(TnC) (TNKO) mice were used as hosts for tumor growth assays. Three mice were used in each experimental group. GLMT1 (GRS/A Lung Metastasis Tumor 1) cell was washed twice with phosphate buffered saline (PBS(-); Nissui, Tokyo, Japan), and then trypsinized with 0.05% trypsin-EDTA (Gibco BRL) once the cell line reached 90% confluence. The cell suspension was then centrifuged at 1,500 rpm for 5 min at 4°C, after inactivation of tryptic activity by adding 10% FBS-containing medium. Cells were re-suspended in the serum-free medium to adjust the cell density to 1 × 10^7 cells/ml. One hundred microliters of the cell suspension was then inoculated underneath the back skin of both WT and TNKO mice. All animal experiments were carried out in accordance with the University of Tokyo's guideline for animal experimentation, and the University's animal experimentation manual.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+28874093
+

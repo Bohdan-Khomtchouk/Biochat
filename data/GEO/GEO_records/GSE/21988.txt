@@ -1,0 +1,18 @@
+TITLE
+Nutrient-dependent regulation of gene expression in Saccharomyces cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Fatty acid synthesis is closely linked to nutrient availability and cellular energetic status. The committed step in fatty acid synthesis is the acetyl CoA carboxylase. Eukaryotes have two genes encoding acetyl CoA carboxylases, one encoding a cytosolic enzyme and another coding for a mitochondrial enzyme. They catalyze the synthesis of malonyl CoA in the cytosol and the mitochondria, respectively. While cytosolic malonyl CoA is the precursor for fatty acid synthesis, mitochondrial malonyl CoA controls the transfer of fatty acyl group into the mitochondria by inhibiting carnitine/palmitoyl transferase activity and thus, regulates β-oxidation. In Saccharomyces cerevisiae, β-oxidation is restricted to the peroxisomes, raising the question of the function of the mitochondrial isoform (HFA1). In this study, we replaced the cytosolic Acc1 with Hfa1 expressed in the cytosol by removing the mitochondrial leader peptide, under control of the HFA1 promoter. We studied fatty acid synthesis and transcription profiles in this strain during starvation for carbon or nitrogen, using glucose or ethanol as the carbon source. Under all the conditions studied, the key sensor of energetic status, Snf1, was activated, indicating active inhibition of fatty acid synthesis. The pool size of fatty acids was smaller when Acc1 was replaced with truncated Hfa1 for fatty acid synthesis. Yet, the transcription profiles were similar in both the cases. These results point towards the conclusion that Hfa1 is either catalytically less efficient or it is more sensitive to inhibition by Snf1. Gene expression from a strain of Saccharomyces cerevisiae where cytosolic fatty acid synthesis occurs by mitochondrial acetyl CoA carboxylase (without its mitochondrial leader peptide) is compared with that in a reference strain while growing in chemostats on carbon or nitrogen starvation using glucose or ethanol as the carbon source.
+
+DESIGN
+There are two strains (reference or mutant), two carbon sources (glucose or ethanol) and two limitations (carbon or nitrogen), resulting in 8 comparisons. Each array was performed in duplicate, resulting in 16 CEL files. Growth was limited by either carbon or nitrogen. When carbon was the limited nutrient, we tested growth on either glucose or ethanol (both using ammonium sulfate as the nitrogen source). When ammonium sulfate was limiting, we used either glucose or ethanol as the carbon source.
+
+PLATFORM
+GPL2529 [Yeast_2] Affymetrix Yeast Genome 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

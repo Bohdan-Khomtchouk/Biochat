@@ -1,0 +1,18 @@
+TITLE
+miRNA expression profiling of human immune cell subsets (Roche)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Blood consists of different cell populations with distinct functions and correspondingly, distinct gene expression profiles. In this study, global miRNA expression profiling was performed across a panel of nine human immune cell subsets (neutrophils, eosinophils, monocytes, B cells, NK cells, CD4 T cells, CD8 T cells, mDCs and pDCs) to identify cell-type specific miRNAs.  mRNA expression profiling was performed on the same samples, to determine if miRNAs specific to certain cell types down-regulated expression levels of their target genes.  Six cell-type specific miRNAs (miR-143; neutrophil specific, miR-125; T cells and neutrophil specific, miR-500; monocytes and pDC specific, miR-150; lymphoid cells specific, miR-652 and miR-223; both myeloid cells specific) were negatively correlated with expression of their predicted target genes.  These results were further validated using an independent cohort where similar immune cell subsets were isolated and profiled for both miRNA and mRNA expression. miRNAs negatively correlated with target gene expression in both cohorts were identified as candidates for miRNA-mRNA regulatory pairs and were used to construct a cell-type specific regulatory network.  miRNA-mRNA pairs formed two distinct clusters in the network corresponding to myeloid (nine miRNAs) and lymphoid lineages (two miRNAs). Several myeloid specific miRNAs targeted common genes including ABL2, EIF4A2, EPC1 and INO80D; these common targets were enriched for genes involved in the regulation of gene expression (p < 9.0E-7). Those miRNA might therefore have significant further effect on gene expression by repressing the expression of genes involved in transcriptional regulation. The miRNA and mRNA expression profiles reported in this study form a comprehensive transcriptome database of various human blood cells and serve as a valuable resource for elucidating the role of miRNA mediated regulation in the establishment of immune cell identity.
+
+DESIGN
+Nine cell subsets (CD16+CD66b+ Neutrophils, CD16-CD66b+ Eosinophils, CD14+ Monocytes, CD4+ T cells, CD8+ T cells, CD56+ NK cells, CD19+ B cells, CD123+ pDCs and CD11c+ mDCs) were isolated from healthy human blood and assessed for cell type purity by flow cytometry.  Cell types were isolated from 5 pools of 5 healthy donors each, with the exception for monocytes, where 10 pools were used.  RNA obtained from these purified populations were subsequently used for miRNA and mRNA expression profiling by Affymetrix GeneChip miRNA and HG-U133Plus2.0 microarrays.
+
+PLATFORM
+GPL8786 [miRNA-1] Affymetrix Multispecies miRNA-1 Array
+
+CITATIONS
+22276136
+

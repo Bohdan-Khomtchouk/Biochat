@@ -1,0 +1,18 @@
+TITLE
+Direct identification of endogenous SMG6 targets and a preferred motif spanning SMG6 cleavage sites by parallel analysis of RNA ends in human cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In metazoans, the endoribonuclease SMG6 is thought to cleave many endogenous mRNAs targeted for nonsense-mediated mRNA decay (NMD). However, most evidence as to the identity of endogenous SMG6 substrates is indirect, and little is known about their cleavage sites. Here, we report the efficacy of an RNA degradome approach called parallel analysis of RNA ends (PARE) for identifying NMD intermediates in human cells. By specifically sequencing the 5’ ends of intermediates dependent on SMG6 and the critical NMD factor UPF1, hundreds of endogenous transcripts that are direct targets of SMG6 have been revealed. A preferred sequence motif spanning most SMG6 cleavage sites has been identified and validated by mutational analysis. For many SMG6 substrates, depletion of SMG6 leads to decapping of the RNAs. These findings provide key insights into NMD and targeting by SMG6 while also demonstrating the potential of PARE for analyzing other ribonucleases with diverse endogenous substrates.
+
+DESIGN
+Genome-wide degradome sequencing and mRNA profiling was done following the knockdown of SMG6 and UPF1.  SPARE libraries targeting a sequence motif surrounding the identified cleavage site were also deeply sequenced on an Illumina platform. PARE is a method of degradome analysis that captures and deeply sequences the 5' monophosphorylated ends of polyadenylated RNAs (see.German 2009 Nat Protoc 4, 356-362).  C-PARE libraries capture capped, polyadenlyated RNAs by first dephosphorylating the RNA, then decapping using tobacco acid pyrophosphatase and constructing PARE libraries, and will be described in the forthcoming paper.  SPARE captures the 5' monophosphorylated ends of specific RNAs using transcript-specific primers (see Schapire 3013 Methods 64:283-291).
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+25429978
+

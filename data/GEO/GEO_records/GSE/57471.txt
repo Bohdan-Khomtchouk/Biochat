@@ -1,0 +1,18 @@
+TITLE
+Methylation QTLs are associated with coordinated changes in transcription factor binding, histone modifications, and gene expression levels [Bisulfite-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA methylation is an important epigenetic regulator of gene expression. Recent studies have revealed widespread associations between genetic variation and methylation levels. However, the mechanistic links between genetic variation and methylation remain unclear. To begin addressing this gap, we collected methylation data at ~300,000 loci in lymphoblastoid cell lines (LCLs) from 64 HapMap Yoruba individuals, and genome-wide bisulfite sequence data in ten of these individuals. We identified (at an FDR of 10%) 13,915 *cis* methylation QTLs (meQTLs), i.e., CpG sites in which changes in DNA methylation are associated with genetic variation at proximal loci. We found that meQTLs are frequently associated with changes in methylation at multiple CpGs across regions of up to 3 kb. Interestingly, meQTLs are also frequently associated with variation in other properties of gene regulation, including histone modifications, DNase I accessibility, chromatin accessibility, and expression levels of nearby genes. These observations suggest that genetic variants may lead to coordinated molecular changes in all of these regulatory phenotypes. One plausible driver of coordinated changes in different regulatory mechanisms is variation in transcription factor (TF) binding. Indeed, we found that SNPs that change predicted TF binding affinities are significantly enriched for associations with DNA methylation at nearby CpGs.
+
+DESIGN
+Whole genomic DNA from 10 Yoruba HapMap individuals and spiked in unmethylated lambda phage DNA was bisuflite converted using the  Invitrogen MethylCode Bisulfite Conversion Kit and sequenced using a Illumina HiSeq 2000
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25233095
+

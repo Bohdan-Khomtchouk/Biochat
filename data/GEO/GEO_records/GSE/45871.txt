@@ -1,0 +1,18 @@
+TITLE
+Microarray profiling, C elegans: Neuronal miRISC IP vs Total RNA
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Identifying the physiological functions of microRNAs (miRNAs) is often challenging because miRNAs commonly impact gene expression under specific physiological conditions through complex miRNA::mRNA interaction networks and in coordination with other means of gene regulation, such as transcriptional regulation and protein degradation. Such complexity creates difficulties in dissecting miRNA functions through traditional genetic methods using individual miRNA mutations. To investigate the physiological functions of miRNAs in neurons, we combined a genetic “enhancer” approach complemented by biochemical analysis of neuronal miRNA-induced silencing complexes (miRISCs) in C. elegans. Total miRNA function can be compromised by mutating one of the two GW182 proteins (AIN-1), an important component of miRISC. We found that combining an ain-1 mutation with a mutation in unc-3, a neuronal transcription factor, resulted in an inappropriate entrance into the stress-induced, alternative larval stage known as dauer, indicating a role of miRNAs in preventing aberrant dauer formation. Analysis of this genetic interaction suggests that neuronal miRNAs perform such a role partly by regulating endogenous cyclic guanosine monophosphate (cGMP) signaling, potentially influencing two other dauer-regulating pathways. Through tissue-specific immunoprecipitations of miRISC, we identified miRNAs and their likely target mRNAs within neuronal tissue. We verified the biological relevance of several of these miRNAs and found that many miRNAs likely regulate dauer formation through multiple dauer-related targets. Further analysis of target mRNAs suggests potential miRNA involvement in various neuronal processes, but the importance of these miRNA::mRNA interactions remains unclear. Finally, we found that neuronal genes may be more highly regulated by miRNAs than intestinal genes. Overall, our study identifies miRNAs and their targets, and a physiological function of these miRNAs in neurons. It also suggests that compromising other aspects of gene expression, along with miRISC, can be an effective approach to reveal miRNA functions in specific tissues under specific physiological conditions.
+
+DESIGN
+Each array was used for one biological replicate, where the red channel is used for IP RNA and the green channel is used for Total RNA. IP RNA indicates the transcripts associated with a neuronally expressed, GFP-tagged, miRISC. Five biological replicates were done on asynchronous worms. Please note the two different microarray platforms that were used.
+
+PLATFORM
+GPL5883 WUSTL Caenorhabditis elegans Whole Genome 23k Oligo Array GPL10094 Agilent-020186 C. elegans (V2) Gene Expression Microarray (Feature Number version)
+
+CITATIONS
+23818874
+

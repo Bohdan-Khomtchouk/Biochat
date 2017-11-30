@@ -1,0 +1,18 @@
+TITLE
+Acute Appendicitis: Transcript Profiling of blood identifies promising biomarkers and potential underlying processes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: The diagnosis of acute appendicitis can be surprisingly difficult without computed tomography, which carries significant radiation exposure. Genome-wide expression profiling was applied to whole blood RNA of acute appendicitis patients versus patients with other abdominal disorders, in order to identify biomarkers of appendicitis. From a large cohort of emergency patients, a discovery set of patients with surgically confirmed appendicitis, or abdominal pain from other causes, was identified. RNA from whole blood was profiled by microarrays, and RNA levels were filtered by a combined fold-change ( > 2) and p value ( < 0.05). A separate set of patients, including patients with respiratory infections, was used to validate a partial least squares discriminant (PLSD) prediction model. Results: Transcript profiling identified 37 differentially expressed genes (DEG) in appendicitis versus abdominal pain patients. The DEG list contained 3 major ontologies: infection-related, inflammation-related, and ribosomal processing. Appendicitis patients had lower level of neutrophil defensin mRNA (DEFA1,3), but higher levels of alkaline phosphatase (ALPL) and interleukin-8 receptor-ß (IL8RB), which was confirmed in a larger cohort of 60 patients using droplet digital PCR (ddPCR). Conclusions: Patients with acute appendicitis have detectable changes in the mRNA expression levels of factors related to neutrophil inate defense systems. The low defensin mRNA levels suggest that appendicitis patient's immune cells are not directly activated by pathogens, but are primed by diffusible factors in the microenvironment of the infection. The detected biomarkers are consistent with prior evidence that biofilm-forming bacteria in the appendix may be an important factor in appendicitis.
+
+DESIGN
+40 samples were grouped into Discovery and Validation sets based on their clinical dx and analyzed for differential gene expression within groups by conditions
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+27417541
+

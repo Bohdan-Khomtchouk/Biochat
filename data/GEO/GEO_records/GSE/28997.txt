@@ -1,0 +1,18 @@
+TITLE
+Function-based discovery of significant transcriptional temporal patterns in insulin-stimulated muscle cells
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Background: Insulin's effect on protein synthesis (translation of transcripts) and post-translational modifications, especially those involving reversible modifications such as phosphorylation of various signaling proteins, are extensively studied. On the other hand, insulin's effect on the transcription of genes, especially of transcriptional temporal patterns, is not well investigated in the literature. Methods: To identify significant transcriptional temporal patterns, primary differentiated rat skeletal muscle myotubes were treated with insulin and samples were collected every 10 min for 8 hours. Pooled samples at every hour were analyzed by a gene array approach to measure transcript levels. The pattern of transcript levels were analyzed based on a novel method that integrates selection, clustering, and functional annotation to find the main temporal patterns associated with functional groups of differentially expressed genes. Conclusion: In response to insulin, 326 genes were selected as differentially expressed in response to in vitro insulin treatment in skeletal muscle myotubes.  Approximately 20% of the genes that were differentially expressed were identified as belonging to the insulin signaling pathway. 12 different clusters of gene expression profiles are identified which shows patterns that includes a slow and gradual decrease in gene expression, a gradual increase in gene expression reaching a peak at about 5 hours and then reaching a plateau or an initial decrease and other different variable patterns of increase in gene expression over time. As far as we know, this is the first systematic study in the literature monitoring transcriptional response to insulin in endothelial cells, in a time series microarray experiment.
+
+DESIGN
+The purpose of this investigation was to examine the transcriptional response of skeletal muscle cells during acute insulin stimulation. Samples were collected at times 0, 20, 40, 60, . . . , 480 minutes (every 20 minutes, for 8 hours) from both insulin treated and control cultures, for a total of 50 biological samples. Samples (20, 40, 60), (80, 100, 120), (140, 160, 180), (200, 220, 240), (260, 280, 300), (320, 340, 360), (380, 400, 420) and (440, 460, 480) from insulin-treated and control cultures were pooled together, obtaining eight joint samples. Consistently, sample 0’ was harvested and collected in triplicates and pooled together (0a, 0b, 0c) for each culture and two targets for the hybridization were prepared separately. All of the culturing and sampling procedures described above were repeated two additional times on different days, using the same identical cell line, to obtain a complete triplicate of the experiment. Sample 'Insulin_3_rep_a' (pool of 140', 160', 180') was excluded from the analysis since it had quite poor MvA plots compared to the median microarray signal.
+
+PLATFORM
+GPL1355 [Rat230_2] Affymetrix Rat Genome 230 2.0 Array
+
+CITATIONS
+22396763
+

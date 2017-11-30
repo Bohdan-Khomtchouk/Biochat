@@ -1,0 +1,18 @@
+TITLE
+RNA expression data from Halobacterium NRC-1 in response to oxic/anoxic transitions, verification experiment
+
+ORGANISM
+Halobacterium salinarum NRC-1
+
+SUMMARY
+In order to ensure the reproducibility of the transcriptional response of Halobacterium NRC-1 to oxic/anoxic transitions, we repeated global mRNA measurements for the oxygen time series data in GSE5924, except that cultures were equilibrated to high oxygen for 12 hours prior to the start of the experiment rather than low oxygen.  The results of these data suggest that there is good (~60%) reproducibility between datasets, and that Halobacterium responds robustly to oxic/anoxic transitions. Keywords: time series
+
+DESIGN
+This experiment was a replicate of Oxygen time series 1, except that cells were equilibrated at high oxygen for 12 hours prior to the experiment start.  Halobacterium sp. NRC-1 (ATCC700922) was routinely grown in complex medium (CM; 250g/L NaCl, 20g/L MgSO4.7H2O, 3g/L sodium citrate, 2g/L KCl, 10g/L peptone) at 37ºC under full-spectrum white light.  For turbidostat experiments, starter cultures of NRC-1 were inoculated into 2L of CM in a 3.0 L vessel (5-10% inoculum) and grown to mid-logarithmic phase (OD600 ~ 0.5) in batch mode in a BioFlo100 modular bench top fermentor (New Brunswick Scientific, Edison, NJ) at 300 – 500 rpm, pH 7.0.  Prior to each experiment, an oxygen sensor (model InPro 6000, Mettler Toledo, Columbus, OH) was calibrated to 100% oxygen at 1200rpm and sparging with 3.2 VVM of air. These conditions were approximately equivalent to oxygen saturation in CM medium, which is 1.6 mg/L (~5uM).   Once the culture reached mid-logarithmic phase, the oxygen level was rapidly increased to ~90-100% within 10 minutes (achieved by on airflow to 3.2VVM and increasing agitation to 1200rpm), and allowed to equilibrate for 12 h prior to the start of sampling. The flow rate was 2.5-5mL/min during high oxygen conditions.  The oxygen concentration in the culture was then rapidly decreased to approximately 0-10% (achieved by agitating at 250 rpm and turning off sparging) and sampling commenced and continued at the times indicated in the Sample records.  The culture was subsequently maintained in low oxygen conditions for 6hr.  During these perturbations, all other parameters were kept constant (pH 7.2-7.3, 37ºC, ambient light, O.D.600~0.5-6.5). Each culture sample taken at the times indicated in the Sample records was split in half, one half being used for RNA extraction and the other for protein preparation.
+
+PLATFORM
+GPL3739 ISB Halobacterium Spotted Microarray
+
+CITATIONS
+17785531
+

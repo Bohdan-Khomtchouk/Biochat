@@ -1,0 +1,18 @@
+TITLE
+Identification of polyA sites in Drosophila melanogaster
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The 3' ends of most Drosophila melanogaster genes are poorly annotated or are determined by only a single EST or cDNA clone.  To enhance the annotation of poly(A) site use in Drosophila, we performed deep sequencing on RNA isolated from 29 dissected tissues using an approach designed to enrich for poly(A) spanning reads.  From these experiments, we identified 1.4 million poly(A) spanning reads leading to the identification of many new poly(A) sites and the identification of many tissue-specific poly(A) sites. For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf
+
+DESIGN
+RNA from 29 dissected Drosophila melanogaster tissues (in duplicate) were used to prepare polyA enriched RNA-Seq libraries.  Briefly, total RNA was poly(A) selected, fragmented, and ligated to 5' and 3' RNA linkers.  These libraries were amplified using Illumina paired-end primers, and subsequently reamplified using a 3' primer complementary to the 3' adapter but containing 6 Ts at the 3' end.  The libraries were also multiplexed and up to 12 samples mixed per lane and sequenced on an Illumina GAIIx using paired-end 76 bp reads, or an illumina HiSeq 2000 using paired-end 100 bp reads.  All reads were mapped to the Drosophila melanogaster genome to identify unmapped reads.  Unmapped reads containing at least 10 A residues at the 3' end were identified, the terminal A residues trimmed, realigned to the genome to identify uniquely mapped reads.  Such reads were identified as polyA spanning reads
+
+PLATFORM
+GPL11203 Illumina Genome Analyzer IIx (Drosophila melanogaster) GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+22685694
+

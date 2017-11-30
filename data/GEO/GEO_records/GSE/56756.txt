@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis of intracellular notch1(ICN1) targets in gamma delta T cells (gd T cells).
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We performed chromatin immunoprecipitation followed by high-throughput DNA sequencing (ChIP-seq) for ICN1 in thymic gd T cells from neonates of C57BL/6 mice. Sequence reads for ICN1 and Input were aligned with the mouse reference genome (mm10) by bowtie program (v1.0.0), and peak detection and identification of ICN1 binding sites were obtained with MACS program (v1.4.2). ChIP-seq data revealed that 12%, 6% and 47% of ICN1 binding sites were within -10kb upstream of transcription start site, +10kb downstream of 3'end and the bodies of genes, respectively. The other of ICN1 binding sites was intergenic. We also found that ICN1 directly bound -5.4kb upstream of transcript start site of IL-7 receptor alpha (IL-7Ra) locus, which were estimated as a new promoter region of IL-7Ra. Some of ICN1 binding sites (e.g. TCF1 promoter) were consistent with previous reports, but others (e.g. Nr4a1 promoter) were novel. These suggests that ICN1 was associated with a lot of transcriptional regulation in gd T cells.
+
+DESIGN
+Examination of ICN1 binding sites in gd T cells
+
+PLATFORM
+GPL18480 Illumina HiSeq 1500 (Mus musculus)
+
+CITATIONS
+25429074
+

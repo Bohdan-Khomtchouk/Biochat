@@ -1,0 +1,18 @@
+TITLE
+Robust Gene Expression Signature from Formalin-Fixed Paraffin-Embedded Samples Predicts Prognosis of Non-Small-Cell Lung Cancer Patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The requirement of frozen tissues for microarray experiments limits the clinical usage of genome-wide expression profiling using microarray technology. Keywords:  Lung Cancer Prognosis, Gene Expression Signature, Formalin Fixed Paraffin Embedded Samples The goal of this study is to test the feasibility of developing lung cancer prognosis gene signatures using genome-wide expression profiling of formalin-fixed paraffin-embedded (FFPE) samples, which are widely available and provide a valuable rich source for studying the association of molecular changes in cancer and associated clinical outcomes. FFPE tumor specimens were collected, and total RNA was processed for analysis on the Affymetrix U133 plus 2.0 arrays according to Affymetrix protocols.  The quality control procedure for microarray data analysis was based on the percentage of present calls calculated by the MAS5 package. We selected 55 arrays with at least 15% of probe sets present, and we selected 1400 probe sets that present on all 55 arrays for data analysis. After microarray analysis QC, we used the RMA background correction algorithm to remove non-specific background  noise. A robust regression model was fitted to the probe level data, and the fitted expression values for the probes at the 3' end were used to summarize the probe set expression values.  Quantile-quantile normalization was used to normalize all the arrays. The 55 samples and the derived gene expression values for 1400 genes based on the robust regression model were used to develop gene signatures and were uploaded as supplementary data (GSE29013_fitted_1400_probes.txt).
+
+DESIGN
+We micro dissected tumor area from FFPE specimen, and used Affymetrix U133 plus 2.0 arrays to obtain gene expression data.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+21742808
+

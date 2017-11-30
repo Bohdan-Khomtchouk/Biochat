@@ -1,0 +1,18 @@
+TITLE
+Quantifying ChIP-seq data: a spiking method providing an internal reference for sample-to-sample normalization.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose:  Description of a spike-adjusting-method (SAM) to normalize ChIP-seq data . Methods: We performed ChIP-seq of POLR3D and POLR2B with mouse liver supplemented with 2.5% of human DNA. Human DNA will be used as an internal control for ChIP-seq quantification. Results: We show that using the SAM for ChIP-seq quantification improve similarity of POLR3D and POLR2B ChIP-seq replicates samples and improve difference between samples originate from different conditions. Conclusions: The SAM improves comparison of ChIP-seq samples, either by increasing similarity between replicates or by emphasise differences between conditions.
+
+DESIGN
+Chromatin Immuno-precipitations were performed with antibodies directed against POLR3D (Pol III) and POLR2B (Pol II) using mouse liver material supplemented with human DNA. Immuno-precipitated DNA was next sequenced using Illumina HiSeq. Three different concentrations of human spiked DNA were tested for the Pol III ChIP (2.5%, 5% and 10%). We also sequenced the corresponding inputs (crosslinked DNA from mouse liver). Two concentrations of human spiked DNA (5% and 10%) were tested for the Pol 2 ChIP. We also sequenced the corresponding inputs (crosslinked DNA from mouse liver).
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+24709819
+

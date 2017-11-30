@@ -1,0 +1,18 @@
+TITLE
+RNA immunoprecipitation of GLD-1 followed by microarray analysis of the co-IP'ed mRNAs
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+RNA-binding proteins (RBPs) are critical regulators of gene expression and elucidating the interactions of RBPs with their RNA targets is necessary to understand how combinations of RBPs control transcriptome expression. The Quaking-related (QR) sub-family of STAR domain RBPs includes developmental regulators and tumor suppressors such as C. elegans GLD-1, which functions as a master regulator of germ line development. To understand how GLD-1 interacts with the transcriptome, we identified GLD-1 associated mRNAs by a ribonomic approach. The scale of GLD-1 mRNA interactions allowed us to determine rules governing GLD-1 target selection and to derive a predictive model where GLD-1 association with mRNA is based on the number and strength of 7-mer GLD-1 binding elements (GBEs) within UTRs. GLD-1/mRNA interactions were quantified, and predictions were verified both in vitro and in live animals, including by ‘transplantation’ experiments where ‘weak’ and ‘strong’ GBEs imposed translational repression of increasing strength on a non-target mRNA.Importantly, this study provides a unique quantitative picture of how an RBP interacts with its mRNA targets. As combinatorial regulation by multiple RBPs is thought to regulate gene expression, quantification of RBP/mRNA interactions should be a way to predict and potentially modify biological outcomes of complex posttranscriptional regulatory networks, and our analysis suggests that such an approach is possible.
+
+DESIGN
+Wild-type (N2) or gld-1(q485); ozIs2 [gld-1::gfp::flag] worms were synchronized and harvested as young adults. To identify GLD-1 associated transcripts, two independent IP strategies were performed: 1. Comparison of anti-FLAG IP to anti-MYC IP on the gld-1(q485); ozIs2 [gld-1::gfp::flag] worm extract, 2. Comparison of anti-FLAG IP on the gld-1(q485); ozIs2 [gld-1::gfp::flag] worm extract to anti-FLAG IP on wild type extract. All IPs were performed in triplicate (12 IPs).
+
+PLATFORM
+GPL200 [Celegans] Affymetrix C. elegans Genome Array
+
+CITATIONS
+21169991
+

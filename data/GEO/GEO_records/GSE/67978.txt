@@ -1,0 +1,18 @@
+TITLE
+Epigenomic annotation of gene regulatory alterations during evolution of the primate brain
+
+ORGANISM
+Macaca mulatta ; Pan troglodytes ; Homo sapiens ; Mus musculus
+
+SUMMARY
+While genome sequencing has identified numerous non-coding alterations between primate species, which of these are regulatory and potentially relevant to the evolution of the human brain is unclear. Here, we annotate cis-regulatory elements (CREs) in the human, rhesus macaque and chimpanzee genome using ChIP-sequencing in different anatomical parts of the adult brain. We find high similarity in the genomic positioning of CREs between rhesus macaque and humans, suggesting that the majority of these elements were already present in a common ancestor 25 million years ago. Most of the observed regulatory changes between humans and rhesus macaque occurred prior to the ancestral separation of humans and chimpanzee, leaving a modest set of regulatory elements with predicted human-specificity. Our data refine previous predictions and hypotheses on the consequences of genomic changes between primate species, and allow the identification of regulatory alterations relevant to the evolution of the brain.
+
+DESIGN
+ChIP-Sequencing for H3K27ac on 8 distinct brain regions from human (three biological replicates per brain region), chimpanzee (two biological replicates per brain region) and rhesus macaque (three biological replicates per brain region).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL14954 Illumina HiSeq 2000 (Macaca mulatta) GPL16288 AB 5500xl Genetic Analyzer (Homo sapiens) GPL16809 Illumina HiSeq 2000 (Pan troglodytes) GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL21120 Illumina NextSeq 500 (Macaca mulatta) GPL21121 Illumina NextSeq 500 (Pan troglodytes)
+
+CITATIONS
+26807951
+

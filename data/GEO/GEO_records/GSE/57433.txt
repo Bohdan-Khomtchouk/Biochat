@@ -1,0 +1,18 @@
+TITLE
+Human Nonsense-Mediated RNA Decay Initiates Widely by Endonucleolysis and Targets snoRNA Host Genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Eukaryotic RNAs with premature termination codons (PTCs) are eliminated by nonsense-mediated decay (NMD). While human nonsense RNA degradation can be initiated either by an endonucleolytic cleavage event near the PTC or through decapping, the individual contribution of these activities on endogenous substrates has remained unresolved. Here we unambiguously establish that SMG6-catalyzed endonucleolysis is the primary initiating step in human nonsense RNA decay. We also show that both protein-coding and ‘non-coding’ genes hosting snoRNAs in their introns produce considerable amounts of NMD-sensitive splice variants, suggesting that these RNAs are merely by-products of a primary snoRNA production process. Finally, genes encoding multiple snoRNAs generally yield elevated numbers of alternative transcript isoforms, enabling the differential expression of individual snoRNAs. These findings demonstrate a hitherto unappreciated potential for decoupling of the individual expression levels of functional exon- and intron-encoded species from such composite genes. ------------------------------------------------------------------------------------- This article was corrected in http://genesdev.cshlp.org/content/30/9/1128.short Completely mapped 5'p-end sequencing data from the corrigendum have been updated in corresponding samples.
+
+DESIGN
+HEK293 Flp-In T-Rex cells were subjected to siRNA-mediated depletion of XRN1 and co-depletion of XRN1 with either SMG6 or UPF1. All the treated samples together with the controls were subjected to both RNA-seq and 5'-end-seq. RNA-seq was used for detecting NMD isoforms and their expression levels. 5'-end-seq was used for finding NMD decay intermediates (decapped and endocleaved molecules). CAGE was used to distinguish decapped from endocleaved RNA fragments.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25403180
+

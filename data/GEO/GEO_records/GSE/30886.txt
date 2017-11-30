@@ -1,0 +1,18 @@
+TITLE
+A Common Peripheral Blood Gene-Set for Diagnosis and Prediction of Operational Tolerance in Pediatric and Adult Liver Transplantation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The ability to identify a robust means for both pediatric and adult liver transplant recipients for minimization and weaning of immunosuppression is greatly needed.   We analyzed 298 samples from pediatric (n=83) and published adult (n=57) liver transplant recipients, and the public available cell or tissue specific samples (n=158). Biomarkers were first identified from the integration of the cross-platform analysis of Stanford pediatric and adult studies and validated in independent samples from UCLA on microarray. Furthermore, Q-PCR was performed for targets validation and delivers a robust diagnostic assay of predicting potential liver tolerance after liver transplantation.   Thirteen unique genes were identified (FDR < 5%) using nearest shrunken centroid classification methods as a minimum gene set to cross-validate and predict Stanford pediatric tolerance samples with 1misclassification, 5 misclassification for adult samples, and 100% sensitivity and 83% specificity for an independent UCLA pediatric samples in microarray platform. These subset of tolerant specific genes are highly expressed CD56+ natural killer cells (p=0.03). Furthermore, the subset can be narrowed down to 3 key genes with combined ROC=0.988 for the liver tolerance prediction from Q-PCR verification and 64% MIS and STA were predicted as tolerance with the > 90% prediction probability.   Specific peripheral transcriptional programs can be identified in operational tolerance in pediatric recipients of liver allografts, distinct from those previously identified in adult operationally tolerant liver recipients, and may provide a means to non-invasively monitor patients in a serial manner for immunosuppression minimization. These genes are highly expressed in specific peripheral blood lymphocyte subsets, and their coordinated may support the maintenance of operational tolerance in children, following liver transplantation.
+
+DESIGN
+Two centers data was included, which are 41 samples from Stanford as the training set and 44 samples from UCLA as the test set. 26 samples from Stanford and 15 samples from UCLA were used in microarray Agilent whole human genome microarray
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+22300520
+

@@ -1,0 +1,18 @@
+TITLE
+Trp Amino acid supplementation of Aspergillus flavus NRRL 3357 and Aspergillus parasiticus SRRC 143
+
+ORGANISM
+Aspergillus parasiticus ; Aspergillus flavus NRRL3357
+
+SUMMARY
+Aflatoxins are toxic and carcinogenic secondary metabolites produced by the fungi Aspergillus flavus and A. parasiticus. In order to better understand the molecular mechanisms that regulate aflatoxin production, the biosynthesis of the toxin in A. flavus and A. parasticus grown in yeast extract sucrose media supplemented with 50 mM tryptophan (Trp) were examined.  A. flavus grown in the presence of 50 mM tryptophan was found to have significantly reduced aflatoxin B1 and B2 biosynthesis, while A. parasiticus cultures had significantly increased B1 and G1 biosynthesis.  Microarray analysis of RNA extracted from fungi grown under these conditions revealed seventy seven genes that are expressed significantly different between A. flavus and A. parasiticus, including the aflatoxin biosynthetic genes aflD (nor-1), aflE (norA), and aflO (omtB).  It is clear that the regulatory mechanisms of aflatoxin biosynthesis in response to Trp in A. flavus and A. parasiticus are different.  These candidate genes may serve as regulatory factors of aflatoxin biosynthesis. Keywords: Aflatoxin, Aspergillus, flavus, Amnio Acids, Tryptophan
+
+DESIGN
+Each experiment consisted of one 48 hour YES sample coupled to a 48 hour YES supplemented with 50 mM tryptophan sample for either A. flavus or A. parasiticus.  Each comparison was repeated with triplicate biological replicates and with duplicate dye-flip.   Briefly, 3 µg of total RNA was used to generate cDNA using Genispheres random and MPX dT primers with Supercript II, Dithiotreitol and 5X SuperScript II First Strand Buffer from Invitrogen (Invitrogen corp., Carlsbad, CA) as per Genisphere’s instructions.  The generated cDNA’s were purified using Qiagen MiniElute PCR Purification Kit (Qiagen Inc., Valencia, CA) as well as after terminal deoxynucleotidyl transferase tailing reaction and ligation to 3DNA capture sequence reactions.  cDNA hybridizations were performed using the 2X Formamide-Based Hybridization Buffer overnight at 49oC in Hybridization Cassette’s (ArrayIt, TeleChem International, Inc., Sunnyvale, CA). Hybridized slides were scanned using either a ScanArray5000XL (GSI Lumonics, Packard Biochip, Packard BioScience Company, Billerica, MA) or a GenePix 4000B (Axon Instruments, Molecular Devices, Sunnyvale, CA), and the independent TIFF images from each channel were analyzed using TIGR Spotfinder software program.  After background correction and removal of flagged values, log base 2 expression ratios were median centered and linear transformed to obtain the log and linear values given in the data table.
+
+PLATFORM
+GPL2122 GAP_TIGR_I
+
+CITATIONS
+17216451
+

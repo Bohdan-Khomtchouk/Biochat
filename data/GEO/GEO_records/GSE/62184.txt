@@ -1,0 +1,18 @@
+TITLE
+shRNA off target analysis via RNAseq
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+shRNAs were assessed for off-target effects by comparing the gene expression profiles of cells that they had been infected into. shRNAs designed with the shERWOOD algorithm and house in the ultramir microRNA scafold were found to have very little off targeting.
+
+DESIGN
+Purpose: A major detriment to RNAi is off-targeting. We wished to assess the level of off targeting of microRNA (ultramiR) housed shERWOOD shRNAs as compared to similar shRNAs in the TRC collection. Methods: 5 shRNAs targeting each of two genes were infected into the 4T1 cell line. For each gene one shRNA was selected from the TRC collection and one based on the shERWOOD algorithm. For each gene, the exrpession profiles of the corresponding shRNA infected cells were compared using RNAseq. Conclusions:  Highly similar profiles were observed between shERWOOD selected shRNAs. TRC shRNAs produced profiles indicative of off-targeting.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25435137
+

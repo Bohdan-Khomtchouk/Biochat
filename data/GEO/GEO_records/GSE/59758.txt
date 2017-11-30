@@ -1,0 +1,18 @@
+TITLE
+Genome-wide shRNA screen to identify cellular regulators of the maintenance of HIV-1 latency
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Latent HIV-1 infection represents a barrier to virus eradication as latent HIV-1 is impervious to the effects of antiretroviral drugs and can avoid detection by the host immune system. Strategies to clear latent HIV-1 infection in patients have so far failed in clinical trials to increase the decay rate of the latent reservoir underscoring the need for continued study of HIV-1 latency. In this study, a genome-wide RNAi screen was performed to probe cellular factors involved in maintaining HIV-1 latency in HeLa cells latently infected with an HIV-1 reporter virus.
+
+DESIGN
+HeLa cells that were latently infected with an HIV-1 reporter virus (referred to as the experimental sample) and uninfected, parental HeLa cells (referred to as the reference control sample) were transduced with the GeneNet Genome-wide Human 50K Lentiviral shRNA Library (System Biosciences (SBI), Mountain View, CA). The library consists of approximately 200,000 shRNA constructs targeting about 38,000 human transcripts. It includes 1-4 shRNA constructs per gene, each targeting a different sequence within a specific gene. Transduced cells were selected with puromycin and cultured for a total of 17 days, which was experimentally determined to provide ample time for shRNA expression and knockdown of the target gene, as well as viral reactivation and viral protein-mediated cell death in the experimental sample. In other words, a negative selection protocol was used to identify shRNAs that activated latent virus by taking advantage of the cytotoxic effects of the HIV-1 viral protein Vpr. Following the culture period, cells were lysed and total RNA was isolated, reverse transcribed, amplified, and hybridized to an Affymetrix GeneChip Array (HG-U133+ 2.0) for identification. As the functional assay employed in this screen involved viral protein-mediated cell death upon the re-activation of latent HIV-1, signals from the reference control sample microarray that were at least three times greater than the corresponding signals from the experimental sample microarray were scored as “hits” and statistically analyzed further.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

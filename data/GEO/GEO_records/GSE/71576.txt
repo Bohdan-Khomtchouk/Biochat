@@ -1,0 +1,18 @@
+TITLE
+Integration analysis of three omics data using penalized regression methods: An application to bladder cancer (expression)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Omics data integration is becoming necessary to investigate the still unknown genomic mechanisms of complex diseases. During the integration process, many challenges arise such as data heterogeneity, the smaller number of individuals in comparison to the number of parameters, multicollinearity, and interpretation and validation of results due to their complexity and lack of knowledge about biological mechanisms. To overcome some of these issues, innovative statistical approaches are being developed. In this work, we applied penalized regression methods (LASSO and ENET) to explore relationships between common genetic variants, DNA methylation and gene expression measured in bladder tumor samples and have proposed a permutation-based method to concomitantly assess significance and correct by multiple testing with the MaxT algorithm. The overall analysis flow consisted of three steps: (1) SNPs/CpGs were selected per each gene probe within 1Mb window upstream and downstream the gene; (2) LASSO and ENET were applied to assess the association between each expression probe and the selected SNPs/CpGs in three multivariable models (SNP, CPG, and Global models, the latter integrating SNPs and CPGs); and (3) the significance of each model was assessed using the permutation-based MaxT method. We identified 48 genes whom expression levels were associated with both SNPs and GPGs. Importantly, we replicated results for 36 (75%) of them in an independent data set (TCGA). We checked the performance of the proposed method with a simulation study and further supported our results with a biological interpretation based on an enrichment analysis. The approach we propose allows reducing computational time and is flexibly and easy to implement when analyzing several omics data. Our results highlight the importance of integrating omics data by applying appropriate statistical strategies to discover new insights into the complexity of disease genetic mechanisms.
+
+DESIGN
+Gene expression data were obtained from 44 tumor samples using the Affymetrix DNA Microarray Human Gene 1.0 ST Array with 32,321 probes.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+26646822
+

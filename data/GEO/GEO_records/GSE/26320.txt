@@ -1,0 +1,18 @@
+TITLE
+Mapping and analysis of chromatin state dynamics in nine human cell types (ChIP-Seq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Chromatin profiling has emerged as a powerful means for annotating genomic elements and detecting regulatory activity. Here we generate and analyze a compendium of epigenomic maps for nine chromatin marks across nine cell types, in order to systematically characterize cis-regulatory elements, their cell type-specificities, and their functional interactions. We first identify recurrent combinations of histone modifications and use them to annotate diverse regulatory elements including promoters, enhancers, transcripts and insulators in each cell type. We next characterize the dynamics of these elements, revealing meaningful patterns of activity for promoter states and exquisite cell type-selectivity for enhancer states. We define multi-cell activity profiles that reflect the patterns of enhancer state activity across cell types, as well as analogous profiles for gene expression, regulatory motif enrichments, and expression of the corresponding regulators. We use correlations between these profiles to link enhancers to putative target genes, to infer cell type-specific activators and repressors, and to predict and validate functional regulator binding motifs in specific chromatin states. These functional annotations and regulatory predictions enable us to revisit intergenic single-nucleotide polymorphisms (SNPs) associated with human disease in genome-wide association studies (GWAS). We find that for several diseases, top-scoring SNPs are precisely positioned within enhancer elements specifically active in relevant cell types. In several cases a disease variant affects a motif instance for one of the predicted causal regulators, thus providing a potential mechanistic explanation for the disease association. Our study presents a general framework for applying multi-cell chromatin state analysis to decipher cis-regulatory connections and their role in health and disease.
+
+DESIGN
+CTCF, H3K27ac, H3K27me3, H3K4me1, H3K4me2, H3K4me3, H3K9ac, H4K20me1, H3K36me3 and Whole Cell Extract (WCE) were profiled with ChIP-seq  in 9 cell types (H1, GM12878, K562, HepG2, Huvec, HSMM, NHLF, NHEK, HMEC) in almost all cases in duplicate. Also H3K9me3 was profiled with ChIP-seq in K562.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+21441907
+

@@ -1,0 +1,18 @@
+TITLE
+Loss of Function Mutations in ETS2 Repressor Factor (ERF) Reveal a Balance Between Positive and Negative ETS Factors Controlling Prostate Oncogenesis [Organoids RNA-Seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Half of prostate cancers are caused by a gene-fusion that enables androgens to drive expression of the normally silent ETS transcription factor ERG in luminal prostate cells1-4.  Recent prostate cancer genomic landscape studies5-10 have reported rare but recurrent point mutations in the ETS repressor ERF11.  Here we show these ERF mutations cause decreased protein stability and ERF mutant tumours are mostly exclusive from those with ERG fusions.  ERF loss recapitulates the morphologic and phenotypic features of ERG gain in primary mouse prostate tissue, including expansion of the androgen receptor (AR) transcriptional repertoire, and ERF has tumour suppressor activity in the same genetic background of PTEN loss that yields oncogenic activity by ERG.  Furthermore, in a human prostate cancer model of ERG gain and wild-type ERF, ChIP-seq studies indicate that ERG inhibits the ability of ERF to bind DNA at consensus ETS sites.  Consistent with a competition model, ERF loss rescues ERG-positive prostate cancer cells from ERG dependency. Collectively, these data provide evidence that the oncogenicity of ERG is mediated, in part, by displacement of ERF and raise the larger question of whether other gain-of-function oncogenic transcription factors might also inactivate endogenous tumour suppressors.
+
+DESIGN
+Murine Pten+/+ prostates were infected with shNT or shErf lentivirus, selected with antibiotics and 2 rounds of FACS.  For each condition, 2 sets of equal numbers of cells were plated and then processed for RNA extraction and RNA-seq independently.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28614298
+

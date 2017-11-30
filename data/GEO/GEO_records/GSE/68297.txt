@@ -1,0 +1,18 @@
+TITLE
+PolyA RNAseq from HCT116 cells in normoxia and hypoxia
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To determine the effects of depleting TIP60, CDK8, or HIF1A on the transcriptional response to hypoxia, we performed RNAseq analysis of four HCT116 colorectal carcinoma cell lines (shNT, HIF1A-/-, shTIP60 and shCDK8) in normoxic and hypoxic (24hrs, 1% O2) conditions.
+
+DESIGN
+PolyA RNA for two independent biological replicates was purified from HCT116 cells stably expressing an shRNA against a non-targeting control (shNT), TIP60 (shTIP60) or CDK8 (shCDK8), or genetically deleted HIF1A (HIF1A-/-) subjected to 24hrs 1% O2 (hypoxia) or maintained under ambient oxygen (21%; normoxia) was sequenced on the Ion Torrent platform. Reads were aligned to the human genome and gene-level counts were used for differential expression analysis.
+
+PLATFORM
+GPL17303 Ion Torrent Proton (Homo sapiens)
+
+CITATIONS
+27320910
+

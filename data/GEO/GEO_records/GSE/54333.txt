@@ -1,0 +1,18 @@
+TITLE
+EDD: a program for detection of wide genomic enrichment domains robust against local variations [RNA-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Nuclear lamins contact the genome at the nuclear periphery through large domains and are involved in chromatin organization. Among broad peak calling algorithms available to date, none are suited for mapping lamin-genome interactions genome-wide. We disclose a novel algorithm, Enriched Domain Detector (EDD), for analysis of broad enrichment domains from ChIP-seq data. EDD enables discovery of genomic domains interacting with broadly distributed chromatin-associated proteins such as lamins. The main advantage of EDD over existing broad peak callers is sensitivity to domain width rather than enrichment strength at a particular site, and robustness against local variations. EDD is downloadable from http://github.com/eivindgl/edd.
+
+DESIGN
+RNA-seq experiments in human normal dermal fibroblasts (Lonza CC-2511; LDFs) and human normal primary dermal fibroblasts (Norwegian Stem Cell Center AD04DFs).
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+24782521 , 25524705 , 25602132
+

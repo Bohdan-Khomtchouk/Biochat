@@ -1,0 +1,18 @@
+TITLE
+Genome wide hydroxymethylation tested using the HELP-GT assay shows redistribution in cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: 5-hydroxymethylcytosine (5-hmC) is a recently discovered epigenetic modification that is altered in cancers. Genome wide assays for 5-hmC determination are needed as many of the techniques commonly used to assay 5-methylcytosine (5-mC), including conventional methyl-sensitive restriction digest and bisulfite sequencing, are incapable of distinguishing between 5-mC and 5-hmC.   Results: Glycosylation of 5-hmC residues by beta-Glucosyl Transferase (beta-GT) can make CCGG residues insensitive to digestion by MspI. We used this premise to modify the HELP-tagging assay to identify both 5-mC and 5-hmC loci in the genome. Comparison of sequencing libraries after HpaII, MspI and MspI+ beta-GT conversion resulted in locus specific 5-mC and 5-hmC determination. A custom bioinformatics pipeline was created to identify 5-hmC sites that were validated at global level by LS-MS and the locus specific level by qRT-PCR of 5-hmC pulldown DNA. Hydroxymethylation at both promoter and intragenic locations correlated positively with gene expression. Analysis of pancreatic cancer samples revealed striking redistribution of 5-hmC sites in cancer cells and demonstrated enrichment of this modification at many oncogenic promoters such as GATA6.   Conclusions: The HELP-GT assay allows a high resolution, simultaneous determination of 5-hmC and 5-mC loci from small amounts of DNA with the utilisation of modest sequencing resources. Redistribution of 5-hmC seen in cancer highlights the importance of examining this modification in conjugation with conventional methylome analysis.
+
+DESIGN
+We did methylation and hydroxymethylation tests for one control and two pancreatic cancer cases
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+23861445
+

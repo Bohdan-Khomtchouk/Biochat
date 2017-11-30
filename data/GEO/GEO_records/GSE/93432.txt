@@ -1,0 +1,18 @@
+TITLE
+The histone acetyltransferase Mst2 prevents epigenetic silencing via specific acetylation of the ubiquitin ligase Brl1 [NGS data]
+
+ORGANISM
+Schizosaccharomyces pombe
+
+SUMMARY
+Faithful propagation of distinct chromatin states is crucial to maintain cellular identity. Whereas mechanisms that sustain repressed states have been intensely studied, regulatory circuits that protect active chromatin from inactivating signals are not well understood. Here we report the discovery of a self-reinforcing feedback loop that preserves the transcription-competent state of RNA polymerase II transcribed genes. We found that the chromatin reader Pdp3 recruits the histone acetyltransferase Mst2 to H3K36me3 marked chromatin. Thereby, Mst2 binds to all transcriptionally active regions genome-wide. Besides histone H3K14, Mst2 specifically acetylates Brl1, a component of the histone H2B ubiquitin ligase complex (HULC). Brl1 acetylation results in increased histone H2B ubiquitination, which together with H3K14ac positively feeds back on transcription and prevents assembly of ectopic heterochromatin. Our work uncovers a molecular pathway that secures epigenome integrity and highlights the importance of opposing feedback loops for the partitioning of chromatin into transcriptionally active and inactive states.
+
+DESIGN
+The study comprises of 5 small RNAs and 3 RNA sequencing data sets from cells expressing a ade6-cox4 hairpin construct that gives rise to siRNAs against endogenous mutant ade6 and a second functional ade6 reporter gene. Experiments were performed in wt and paf1-Q264Stop and paf1Q264Stop,mst2D mutant, brl1-K242R, and brl1-K242R,mst2D cells. Furthermore, we conducted RNA-Seq from cells with the same ade6-cox4 hairpin construc in WT, pdp3D and mst2D cells.
+
+PLATFORM
+GPL17225 Illumina HiSeq 2500 (Schizosaccharomyces pombe)
+
+CITATIONS
+28648780
+

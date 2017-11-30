@@ -1,0 +1,18 @@
+TITLE
+Distinct transcriptional and genetic features associated with chromosome 13 deletion in multiple myeloma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background and objective: The chromosome 13 deletion (del(13)) represents one of the most frequent chromosomal alterations in multiple myeloma (MM). del(13) is associated with an unfavorable prognosis, although there is an increasing agreement that its prognostic relevance has to be related to the ploidy status and the presence of different chromosomal translocations. This study is aimed at providing a comprehensive analysis of the transcriptional features of del(13) in MM. Design and methods: Highly purified plasma cells from 80 newly diagnosed MM patients were characterized by means of FISH and high-density oligonucleotide microarray for gene expression profiling and chromosomal alterations. Results: We identified 67 differentially expressed genes in the del(13)+ and del(13)- groups, all of which downregulated in the del(13)+ cases: 44 mapped along the whole chromosome 13, seven on chromosome 11 and three on chromosome 19. Functional analyses of the selected genes indicated their involvement in protein biosynthesis, ubiquitination and transcriptional regulation. An integrative genomic approach based on regional analyses of the gene expression data identified distinct chromosomal regions whose global expression modulation could differentiate del(13)+, in particular the upregulation of 1q21-1q42 and the downregulation of 19p and almost the entire chromosome 11. FISH analyses confirmed the close relationship between del(13)+ and the presence of extracopies of 1q21-1q42 (P=6x10-4) or the absence of chromosome 11 and 19 trisomy (P=5x10-4). Interpretation and conclusions: Our results indicate that distinct types of chromosomal aberrations are closely related to the transcriptional profiles of del(13)+, suggesting that the contribution of del(13) on the malignancy should be considered together with associated abnormalities. Keywords: disease state analysis
+
+DESIGN
+This series of microarray experiments contains the gene expression profiles of purified plasma cells (PCs) obtained from 90 newly diagnosed multiple myeloma (MM). PCs were purified from bone marrow specimens, after red blood cell lysis with 0.86% ammonium chloride, using CD138 immunomagnetic microbeads. The purity of the positively selected PCs was assessed by morphology and flow cytometry and was > 90% in all cases. 5 micrograms of total RNA was processed and, in accordance with the manufacturer's protocols, 15 micrograms of fragmented biotin-labelled cRNA were hybridized on GeneChip Human Genome U133A Arrays (Affymetrix Inc.). The arrays were scanned using the Agilent GeneChip Scanner G2500A. The images were acquired using Affymetrix MicroArray Suite (MAS) 5.0 software and the probe level data converted to expression values using the Bioconductor function for the Robust Multi-Array average (RMA) procedure (Irizarry et al, 2003), in which perfect match intensities are background adjusted and quantile-quantile normalised.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+17229636
+

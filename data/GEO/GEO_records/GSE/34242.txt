@@ -1,0 +1,18 @@
+TITLE
+miR-34a targets PDGFRA in proneural malignant glioma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To identify potential targets of miR-34a, we performed transcriptional profiling on proneural TS543 GBM cells, focusing on mRNAs whose levels decreased in response to miR-34a transfection as compared to control oligonucleotide.
+
+DESIGN
+Proneural TS543 GBM cells were transfected with 100 nM hsa-miR-34a or control oligonucleotide using Hiperfect transfection reagent (Qiagen). After 3 days, RNA was isolated and expression analyses were performed using Illumina HT-12 bead array. The microarray dataset was normalized using a variance stable normalization (VSN) procedure in the ‘lumi’ package from the Bioconductor framework.
+
+PLATFORM
+GPL6947 Illumina HumanHT-12 V3.0 expression beadchip
+
+CITATIONS
+22479456
+

@@ -1,0 +1,18 @@
+TITLE
+Ovarian gene expression in the absence of FIGLA, an oocyte specific transcription factor
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Ovarian folliculogenesis in mammals is a complex process involving cross talk between germ and somatic cells. Carefully orchestrated expression of transcription factors, cell adhesion molecules and growth factors are required for success. We have identified a germ-cell specific, basic helix-loop-helix transcription factor, FIGLA (Factor In the GermLine, Alpha) and demonstrated its involvement in two independent developmental processes: formation of the primordial follicle and coordinate expression of zona pellucida genes. Taking advantage of Figla null mouse lines, we have used a combined approach of microarray and Serial Analysis of Gene Expression (SAGE) to identify potential downstream targets genes. Using high stringent cutoffs, we find that FIGLA functions as a key regulatory molecule in coordinating expression of the NALP family of genes, genes of known oocyte-specific expression and a set of functionally un-annotated genes. Keywords: Serial Analysis of Gene Expression
+
+DESIGN
+The libraries were constructed using Sau3AI as the anchoring enzyme as described in the SAGE protocol (Cheval et al., 2002). Total RNA (~50 µg) was obtained from newborn normal and Figla null ovaries with an RNeasy mini kit (Qiagen, Valencia, CA, USA). The presence of MSY2 and the absence of ZP2 transcripts as detected by one-step qRT-PCR (Qiagen, Valencia, CA, USA) confirmed the identity of Figla null ovaries. Poly(A)+ RNA was isolated with oligo d(T)-conjugated magnetic beads (Dynal-Invitrogen, Calsbad, CA, USA). SAGE libraries are constructed as per the protocol described by Virlon B and group (Virlon B et al, 1999).Briefly, cDNA was synthesized from 5 μg of poly(A) RNAs with the cDNA synthesis system kit. Double stranded cDNA was synthesized using the Invitrogen SuperscriptII kit. The double-strand cDNA was digested with Sau3AI, and the 3′ end was isolated through binding to 1 mg of paramagnetic streptavidin beads (Dynal, Invitrogen, Calsbad, CA, USA), The streptavidin-bound cDNA was divided into two fractions. Each fraction was ligated to 10 pmol of either linker 1 or linker 2, then digested with BsmFI. The released cDNA tags were blunt-ended for 10 min at 42°C in a 50-μl reaction volume containing 20 mM Tris HCl (pH 7.5), 10 mM MgCl2, 25 mM NaCl, 10 mM DTT, 400 μM dNTP, and 10 units of T7 DNA polymerase (Pharmacia Biotech). The two fractions then were ligated to each other by using T4 DNA ligase. PCR (95°C, 30 sec; 58°C, 30 sec; 70°C, 45 sec: 26–28 cycles) was carried out on 1% of ligation reaction in a 100-μl reaction volume containing 20 mM Tris HCl (pH 8.3), 50 mM KCl, 2.5 mM MgCl2, 4 mM DTT, 100 μM dNTP, 50 pmol of primers 1 and 2, and 5 units of Taq polymerase. The products from 10–12 reactions were pooled. The 110-bp DNA fragment was purified by agarose gel electrophoresis and submitted to preparative PCR (120–150 reactions performed as described above, except that the amount of primers was reduced to 25 pmol and the number of cycles was 12). The PCR sample was digested with Sau3AI, and ditags were purified and concatenated as described (Velculescu et al, 1995). Concatenated ditags were cloned into Bluescript pKS (Stratagene, La Jolla, CA, USA) using the BamHI site and blue-white screening, prior to sequence, identified colonies with inserts. Plating, picking, DNA preparation and sequencing were performed at the the NIH Intramural Sequencing Center (NISC). Low quality sequence data were eliminated by Phred analysis.
+
+PLATFORM
+GPL275 SAGE:10:Sau3A:Mus musculus
+
+CITATIONS
+17567914
+

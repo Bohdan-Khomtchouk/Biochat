@@ -1,0 +1,18 @@
+TITLE
+Expression data from hormone-starved MCF7/BUS cell culture
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To obtain comprehensive information on 17beta-estradiol (E2) sensitivity of genes that are inducible or suppressible by this hormone, we designed a method that determines ligand sensitivities of large numbers of genes using DNA microarray and a set of simple Perl computer scripts implementing the standard metric statistics, and employed it to characterize effects of low (0-100 pM) concentrations of E2 on the transcriptome profile of MCF7/BUS human breast cancer cells, whose E2 dose-dependent growth curve saturated with 100 pM E2. Evaluation of changes in mRNA expression for all genes covered by the DNA microarray indicated that, at a very low concentration (10 pM), E2 suppressed 3~5 times larger numbers of genes than it induced, whereas at higher concentrations (30-100 pM) it induced 1.5~2 times more genes than it suppressed. Using clearly defined statistical criteria, E2-inducible genes were categorized into several classes based on their E2 sensitivities. This approach of hormone sensitivity analysis revealed that expression of two previously reported E2-inducible autocrine growth factors, TGF-? and SDF-1, was not affected by 100 pM and lower concentrations of E2 but strongly enhanced by 10 nM E2, which was far higher than the concentration that saturated the E2 dose-dependent growth curve of MCF7/BUS cells. These observations suggested that biological actions of E2 are derived from expression of multiple genes whose E2 sensitivities differ significantly and, hence, dependent on the E2 concentration especially when it is lower than the saturating level, emphasizing the importance of characterizing the ligand dose-dependent aspects of E2 actions. (paper abstract) Keywords: Dose Response, Time Course
+
+DESIGN
+MCF7/BUS cells were exposed to varying concentrations of 17beta-estradiol (E2) for 48 hours. Experiments were repeated five times independently. In another experiment, MCF7/BUS cells were subjected to hormone starvation. At day 0, 1, and 2, RNA samples were isolated from cell culture. Experiments were repeated three times independently.
+
+PLATFORM
+GPL96 [HG-U133A] Affymetrix Human Genome U133A Array
+
+CITATIONS
+14610279
+

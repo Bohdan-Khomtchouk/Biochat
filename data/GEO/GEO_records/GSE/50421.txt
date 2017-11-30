@@ -1,0 +1,18 @@
+TITLE
+Exon Array Data for Colerectal Tumor and Normal Samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Exon-Level and Gene-Level Expression analysis of Tumor and Normal Samples The effect of somatic copy number alterations at the functional level can be analyzed by looking into the expression pattern of the affected genes. The task of identifying the ‘affected’ genes is facilitated by robust algorithms that carry out sensitive and confident localization of the targets of somatic copy number alterations in cancer. We had earlier identified 144 genes by GISTIC analysis that were potential targets of SCNAs. In this study we report our findings based on exon level analysis of these genes. Only a subset of these genes was found to have significant changes in expression levels. 8/24 genes were found to have fold change value > 1.5 and 3 of them were reported as novel in their association with CRC. The splice index of 29 exons corresponding to 13 genes was found to be significantly altered in tumor samples. Causal network analysis was carried out to study the difference in patterns of target genes affected by transcription factors identified by the GISTIC analysis. LIMMA analysis was carried out to find differentially expressed genes and their functional significance was studied using ingenuity pathway analysis.
+
+DESIGN
+We conducted a group-wise comparison of Tumor vs Normal samples obtained from cancer patients. Array data was processed using Expression Console and AltAnalyze
+
+PLATFORM
+GPL5188 [HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]
+
+CITATIONS
+27330311
+

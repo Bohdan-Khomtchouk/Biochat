@@ -1,0 +1,18 @@
+TITLE
+Genome-wide, High Resolution DNA Methylation Profiling Using Bisulfite-Mediated Cytosine Conversion
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+We developed a genome-wide DNA methylation profiling technology that determines methylation patterns using small amounts of starting material. This process involves a novel amplification step for DNA subjected to bisulfite-mediated cytosine conversion and generates highly reproducible datasets with low technical variation. The technology, named BiMP (for Bisulfite Methylation Profiling), is more cost-effective than mC immunoprecipitation techniques (mCIP) and can be applied to as little as 100 ng of Arabidopsis DNA. It is anticipated that this technology can be applied to mammalian genomes and may allow methylation profiling of a small number of physiologically uniform cells. Keywords: bisulfite DNA methylation profiling, Arabidopsis, methylation polymorphisms, met1-3,
+
+DESIGN
+This experiment compared bisulfite-treated entries of the wild type Columbia and the DNA maintenance methyltransferase mutant, met1-3, using non-treated genomic DNA as a reference control.  Per entry, the three biological replicate bisulfite-treated DNA files and the three biological replicate non treated DNA files were selected as the treatment and control group files, respectively, in a two sample comparison analysis using quantile normalization of both groups together. The resulting Col_BS+ and met1-3_BS+ BAR files, for the above two-sample comparisons, were loaded into IGB (Affymetrix) for analysis of differentially methylated regions.
+
+PLATFORM
+GPL10977 [At35b_MR] Affymetrix Arabidopsis Tiling 1.0R Array
+
+CITATIONS
+18218979
+

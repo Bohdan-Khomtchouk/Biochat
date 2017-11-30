@@ -1,0 +1,18 @@
+TITLE
+Transcriptome profiling of plaque macrophages during atherosclerosis regression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We have carried out a systems biology investigation of regulators controlling arterial plaque macrophage transcriptional changes in response to lipid lowering, in the Reversa mouse model of plaque regression in which poly I:C injections induce recombination-mediated inactivation of Mttp in the liver and (when combined with a switch to chow diet) restore normal lipid levels in an Ldlr-/-Apob100/100 mouse (Lieu et al., 2003, Circulation, v.107(9), pp.1315-21). Twenty-four Reversa mice (12 males, 12 females) were maintained on Western diet for 16 weeks and given injections of either poly I:C or vehicle (saline) and then switched to normal chow. At seven days after the last injection, animals were sacrificed and CD68+ macrophages were isolated from the aortic root plaque using laser-capture microdissection. An additional two Ldlr-/- animals (male) were treated with poly I:C and CD68+ aortic root plaque macrophages were obtained, as a control group for effects of poly I:C independent of Mttp inactivation. RNA isolated from each of the 26 samples was reverse-transcribed, amplified, fragmented, labeled, and then hybridized to the Affymetrix Mouse Exon Array 1.0 ST GeneChip. Probe intensities were analyzed using transcript-level probesets for gene expression profiling, and for each mouse transcript represented on the microarray, a two-factor model (sex and treatment) was used for the analysis of the 24 samples from the Reversa mice, to test for a significant effect of the poly I:C (vs. saline) treatment.
+
+DESIGN
+Four-week-old Reversa (or for the control group, Ldlr-/-) mice were weaned onto a Western diet for 16 weeks to establish aortic plaque and then switched to a chow diet and injected (i.p.) every other day, for a total of four injections, with either poly I:C or vehicle (saline, only for Reversa mice). In the Reversa mouse, poly I:C is rapidly taken up by the liver where it induces the MX1:Cre transgene, resulting in recombination at the loxP-flanked Mttp alleles and consequent silencing of Mttp expression (Lieu et al., ibid). Animals were sacrificed for arterial tissue collection at seven days after the last poly I:C injection. Hearts were harvested, aortic roots were frozen sectioned, and guide slides were immunostained for CD68. CD68+ cells were isolated by laser capture microdissection and RNA was reverse-transcribed, amplified, fragmented, labeled, and hybridized to the Affymetrix Mouse Exon Array 1.0 ST GeneChip. GeneChips were analyzed for differential expression (between the poly I:C and saline sample groups derived from the Reversa mouse) using transcript-level probesets from the CustomCDF project and using a two-factor model (sex and treatment) with empirical Bayes variance estimates (Limma).
+
+PLATFORM
+GPL17946 [MoEx-1_0-st] Affymetrix Mouse Exon 1.0 ST Array [custom CDF: MoEx10stv1_Mm_ENST ver. 15]
+
+CITATIONS
+25474352
+

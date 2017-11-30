@@ -1,0 +1,18 @@
+TITLE
+Identification of quiescent and spatially-restricted mammary stem cells that are hormone responsive
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: The aim of this study is to explore histone modification in four basal cell populations defined by Lgr5 and Tspan8 expression taken from adult mouse mammary glands using chromatin immunoprecipitation sequencing (ChIP-seq). Methods: The ChIP DNA samples were prepared and indexed for Ilumina sequencing using the TruSeq DNA sample Prep Kit (Ilumina) as per manufacturer's instruction. The library was quantified using the Agilent Tapestation and the Qubit's RNA assay kit for Qubit 2.0 Fluorometer (Life Technologies). The indexed libraries were then prepared for paired-end 75bp sequencing on a NextSeq500 instrument using the 150 cycle kit v2 chemistry (Ilumina) as per manufacturer's instructions. Reads were aligned to the mouse genome (mm10) using the subread algorithm by Liao et al. (2013) and counted into bins associated with Entrez gene identifiers (27080 genes in total) using featureCounts in two different ways. Genebody counts summarised the number of reads overlapping anywhere between the first and last base of a given gene while promoter counts summarized the number of reads overlapping a region 3000 bases upstream to 2000 bases downstream of the TSS of each gene. For downstream analysis, genebody counts were used for the H3K27me3 marks and promoter counts were used for the H3K4me3 marks.
+
+DESIGN
+Enrichment of H3K4me3 and H3K27me3 epigentic marks are shown in the four mammary basal cell populations defined by the expression of Lgr5 and Tspan8.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+28192422
+

@@ -1,0 +1,18 @@
+TITLE
+mRNA sequence of individual Drosophila melanogaster (w1118) male and female flies fed with different concentrations of dimethyl sulfoxide (DMSO) over different time periods.
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+To gain an understanding of the toxic effect of a commonly used solvent, flies were exposed to 0, 0.1, 0.2, or 0.4% v/v DMSO for 0, 2, 4, or 8 h. We performed compound exposure of 800 individual flies in 4 Whole Animal Feeding Flats (WAFFL), a novel 96 well system to house, feed, and harvest individual flies. This expression profiling was part of a set of the experiments performed to evaluate the suitability of the WAFFL for high throughput small compound screening in D. melanogaster. Treated flies and controls were used for poly A+ stranded mRNA library preparation and we performed high throughput RNA sequencing to determine the transcriptional changes due to DMSO treatment.
+
+DESIGN
+Flies were anesthetized and transferred one fly per well to the WAFFL for treatment, with half of the plate bearing females and the other half bearing males. Flies were fed for 24 h with 8 m of chemically defined food (CDF) 400 kcal/L after which flies were starved for 6 h with 8 m of Phosphate Buffered Saline (PBS) pH 7.4. After starvation, flies were fed with DMSO (0, 0.1, 0.2 or 0.4% v/v in CDF with 0.5 mg/ml of sulforhodamine B sodium salt) for 0, 2, 4 or 8 h. To ensure that flies fed, we visually examined them for a bolus of dyed food in the abdomen. We used 96 samples for the RNAseq libraries with the following design: sex (n=2), concentration (n=4), time point (n= 4), and biological replicates (n=3). We prepared PolyA+ RNA and stranded libraries that were multiplexed both by using index adaptors and by RNAs from distantly related species [Hawaiian Drosophila species (GSE80124) and Anopheles stephensi (to be reported elsewhere)]. RNAseq was performed using a HiSeq2500 Illumina platform, to produce single-end, 75 bp reads.
+
+PLATFORM
+GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

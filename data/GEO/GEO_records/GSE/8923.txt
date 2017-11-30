@@ -1,0 +1,18 @@
+TITLE
+Aberrant gene expression patterns in placentomes of cattle cloned by somatic cell nuclear transfer
+
+ORGANISM
+Bos taurus
+
+SUMMARY
+Transcription profiling of placentomes derived from somatic cell nuclear transfer (SCNT), in vitro fertilization (IVF) and artificial insemination (AI) at or near term development was performed in order to better understand why SCNT and IVF often result in placental defects, hydrops and large offspring syndrome (LOS).  Multivariate analysis of variance was used to distinguish the effects of SCNT, IVF and AI on gene expression, taking into account the effects of parturition, sex of the fetus, breed of dam, breed of fetus and disease status of the offspring.  The differential expression of 21 physiologically important genes was confirmed using quantitative PCR.  The largest effect on placentome gene expression was attributable to whether placentae were collected at term or preterm (whether the collection was due to disease or to obtain matching case-controls) followed by placentome source (AI, IVF or SCNT).  Gene expression in SCNT placentomes was dramatically different from AI (N=336 genes; 276 > 2-fold) and from IVF (N=733 genes; 162 > 2-fold) placentomes.  Functional analysis of differentially expressed genes (DEG) showed that IVF has significant effects on genes associated with cellular metabolism.  In contrast, DEG associated with SCNT are involved in multiple pathways, including cell cycle, cell death, gene expression, posttranslational modification, molecular transport and connective tissue development.  Many DEG were shared between the gene lists for IVF and SCNT comparisons, suggesting that common pathways are affected by the embryo culture methods used for IVF and SCNT.   However, the many unique gene functions and pathways affected by SCNT suggest that cloned fetuses may be starved and accumulating toxic wastes due to placental insufficiency caused by reprogramming errors.   Many of these genes are candidates for hydrops and LOS. Keywords: gene expression; development; SCNT; cloning; nuclear transfer; IVF; AI
+
+DESIGN
+In total 38 placentome samples from AI, IVF,and SCNT were used for expression profiling using a 13,257-element bovine oligoarray.  All samples were hybridized to the oligoarray in duplicate using a reference design and a dye swap (total arrays hybridized and analyzed is thus 76).  Data analysis was performed using a mixed model approach in SAS software.  The obtained P-values were corrected using the Fals Discovery rate approach. Note: in the data files, the normalized ratio is given as Cy5/Cy3 and should thus be reversed for the dye swaps.  These are all the files where the sample is labeled in Cy3 and the reference in Cy5 Note: Normalized log2 ratios only mean that instead of raw ratios the ratios are adjusted to fit the normal distribution. No other normalization has been performed.
+
+PLATFORM
+GPL2853 UIUC Bos taurus 13.2K 70-mer oligoarray
+
+CITATIONS
+18089771
+

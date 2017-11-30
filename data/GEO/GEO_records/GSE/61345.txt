@@ -1,0 +1,18 @@
+TITLE
+Endogenous miRNA and target concentrations determine susceptibility to potential ceRNA competition, based on hierarchical binding affinities (small RNA)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Target competition (ceRNA crosstalk) within miRNA-regulated gene networks has been proposed to influence biological systems. To assess target competition, we characterize and quantitate miRNA networks in two cell types. Argonaute iCLIP reveals that hierarchical binding of high to low affinity miRNA targets is a key characteristic of in vivo activity. Quantification of cellular miRNA and mRNA/ncRNA target pool levels indicates that miRNA-Target pool ratios and an affinity partitioned target pool accurately predict in vivo Ago binding profiles and miRNA susceptibility to target competition. Using single-cell reporters, we directly test predictions and estimate ~3,000 additional high affinity target sites can affect active miRNA families with low endogenous miRNA-Target ratios, such as miR-92/25. In contrast, the highly expressed miR-294 and let-7 families are not susceptible to increases of nearly 10,000 sites. These results show differential susceptibility based on endogenous miRNA-Target pool ratios and provide a physiological context for ceRNA competition in vivo.
+
+DESIGN
+Total small RNA sequencing from TT-FHAgo2 mouse embryonic stem cells grown with 2.5 μg/mL Dox to express Ago2 near wildtype levels. This is a biological replicate of GSM1224440.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25449132
+

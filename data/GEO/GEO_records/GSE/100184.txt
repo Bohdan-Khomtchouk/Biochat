@@ -1,0 +1,18 @@
+TITLE
+Hit-and-run epigenetic editing prevents senescence entry in primary breast cells from healthy donors [EPIC methylation]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Aberrant promoter DNA hypermethylation is a hallmark of cancer; however, whether this is sufficient to drive cellular transformation in the absence of genetic mutations is not clear. To investigate this question, we use a CRISPR/dCas9 based epigenetic editing tool, where an inactive form of Cas9 is fused to DNMT3A and its regulator DNMT3L. Using this system, we show simultaneous de novo DNA methylation of genes commonly methylated in cancer, CDKN2A, RASSF1, HIC1 and PTEN in primary myoepithelial cells isolated from healthy human breast tissue. We find that promoter methylation is maintained in this system, even in the absence of the fusion construct and results in sustained repression of CDKN2A and RASSF1 transcripts which prevents cells from entering senescence. The phenotype is associated with retuned expression of a subset of genes to levels in early passage cells; however, the outgrowing myoepithelial cells are not immortal but proliferate for 25-30 population doublings before cell cycle arrest. Finally, we show that the key driver of this phenotype is repression of CDKN2A transcript p16, but prolonged proliferation is enhanced by combined hypermethylation and repression of both CDKN2A transcripts p16 and p14. This work demonstrates that hit-and-run epigenetic events can prevent senescence entry, a potential first step in the disease process.
+
+DESIGN
+EPIC array data for n=3 samples, primary myoepithelial cells from donor 1 transfected with either dCas9 3A3L or dCas9 3A3L delta and 26x gRNAs targeting genes of interest in cancer, and harvested 10 days after transfection. N=1 early passage myoepithelial cells from donor 2 and n=1 for cells from donor 2 38 days after transfection with dCas9 3A3L.
+
+PLATFORM
+GPL21145 Infinium MethylationEPIC
+
+CITATIONS
+29133799
+

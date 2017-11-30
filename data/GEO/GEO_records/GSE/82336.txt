@@ -1,0 +1,18 @@
+TITLE
+Perlman syndrome nuclease DIS3L2 controls cytoplasmic non-coding RNAs and provides surveillance pathway for maturing snRNAs
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The exosome-independent exoribonuclease DIS3L2 is mutated in Perlman syndrome. Here we used extensive global transcriptomic and targeted biochemical analyses to identify novel DIS3L2 substrates in human cells. We show that DIS3L2 regulates pol II transcripts, comprising selected canonical and histone-coding mRNAs, and a novel FTL_short RNA from the ferritin mRNA 5' UTR. Importantly, DIS3L2 contributes to surveillance of pre-snRNAs during their cytoplasmic maturation. Among pol III transcripts, DIS3L2 particularly targets vault and Y RNAs and an Alu-like element BC200 RNA, but not Alu repeats, which are removed by exosome-associated DIS3. Using 3' RACE-Seq, we demonstrate that all novel DIS3L2 substrates are uridylated in vivo by TUT4/TUT7 poly(U) polymerases. Uridylation-dependent DIS3L2-mediated decay can be recapitulated in vitro, thus reinforcing the tight cooperation between DIS3L2 and TUTases. Together these results indicate that catalytically inactive DIS3L2, characteristic of Perlman syndrome, can lead to deregulation of its target RNAs to disturb transcriptome homeostasis.
+
+DESIGN
+To investigate DIS3L2 functions genome-wide, total RNA samples were collected from model cell lines producing either WT or mut DIS3L2 three days after induction with doxycycline. The RNA samples were rRNA-depleted before preparation of strand-specific total RNA libraries according to the standard TruSeq (Illumina) protocol. TruSeq library preparation favours RNA molecules longer than 200 nt, and shorter transcripts are suboptimal for sequencing via this protocol. Thus, to obtain information about potential DIS3L2 RNA substrates with lengths between 20 and 220 nt, another RNA-Seq was carried out in parallel (with size selection through gel purification). The stable inducible HEK293 cell lines producing DIS3L2 variants were obtained using “pAL_01” and “pAL_02” plasmid constructs and the Flp-In™ T-REx™ system according to the manufacturer’s guidelines. “pAL_01” and “pAL_02” plasmids are vectors for co-expression of recoded C-terminal FLAG-tagged DIS3L2 [wild type (WT) variant or its catalytic mutant counterpart (mut), respectively] and sh-miRNAs directed against endogenous DIS3L2 mRNA.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+27431325
+

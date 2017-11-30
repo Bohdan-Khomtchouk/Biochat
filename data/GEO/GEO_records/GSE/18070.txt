@@ -1,0 +1,18 @@
+TITLE
+Smad signaling is required for maintenance of epigenetic gene silencing during breast cancer progression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In this study, we took advantage of a previously established breast cancer progression cell line model system, which consists of a parental MCF10A (MI) spontaneously immortalized mammary epithelial cell line and two of its derivatives: 1) MCF10ATk.cl2 (MII), a MCF10A H-Ras transformed cell line and 3) MCF10CA1h (MIII), derived from a xenograft of the MII cells in nude mice that progressed to carcinoma (1, 2). These cell lines were previously reported to exhibit distinct tumorigenic properties when re-implanted in nude mice; MI is non-tumorigenic, MII forms benign hyperplastic lesions and MIII forms low-grade, well differentiated carcinomas (2, 3). The advantage of this system is that these cell lines were derived from a common genetic background (MCF10A) and accumulated distinct genetic/epigenetic alterations in vivo enabling them to acquire a range of non-tumorigenic to carcinogenic properties. Our initial studies showed that MIII cells, but not MI or MII, exhibit an EMT phenotype, promoter DNA hypermethylation of epithelial genes and highly invasive properties in vitro. To investigate the role of TGFβ  pathway in these processes, we disrupted the TGFβ downstream signaling events in MIII, by stably overexpressing the inhibitory Smad7, and analyzed the gene expression profiles of MII, MIII and MIIISmad7 cells using microarray analysis.    Total RNA was isolated from three biological replicates corresponding to MIIpB, MIIIpB and MIIIpB-Smad7 cells using Trizol (Invitrogen) according to the manufacturer’s protocol, and the RNeasy mini-kit (Qiagen) was used to clean-up the RNA. Labeled cRNA fragments derived from the samples were hybridized onto human genome U133 plus 2.0 arrays (Affymetrix). Gene-expression estimates and a measure of sequence-specificity of the hybridization intensities were both determined using standard settings in MAS5 (Affymetrix). Probesets that did not exhibit sequence-specific hybridization in any sample were excluded from subsequent analysis.  Differential expression between MIIpB and MIIIpB as well as between MIIIpB and MIIIpBSmad7 was assessed using Student’s t-test. Genes with a false discovery rate (FDR) < 0.05 and a greater than 2-fold difference in expression between the two cell lines were considered to be differentially expressed.
+
+DESIGN
+expression profiles of MII, MIII and MIIISmad7 cells
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+20086175
+

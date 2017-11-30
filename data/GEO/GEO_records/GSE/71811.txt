@@ -1,0 +1,18 @@
+TITLE
+Gene expression data from mouse regulatory T cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Intravenous Immunoglobulin (IVIg) is widely used as an immunomodulatory therapy. We have recently demonstrated that IVIg protects against airway hyper-reactivity (AHR) and inflammation in mouse models of allergic airway disease (AAD), associated with induction of Foxp3+ regulatory T cells (Treg). Using DEREG (DEpletion of REGulatory T cell) mice, in which endogenous Treg can be ablated with Diphtheria toxin (DTx) treatment, we demonstrate that IVIg generates a de novo population of induced Treg (iTreg) in the absence of endogenous Treg. IVIg-generated iTreg were sufficient for inhibition of ovalbumin-induced AHR in an antigen-driven murine model of AAD. In the absence of endogenous Treg, IVIg failed to confer protection against AHR and airway inflammation. Adoptive transfer of purified IVIg-generated iTreg prior to antigen challenge effectively prevented airway inflammation and AHR in an antigen-specific manner. The goal of this study was to characterize the gene expression profile of a pure population of IVIg-generated induced Treg (iTreg).
+
+DESIGN
+Treg were isolated from mice sensitized and challenged with ovalbumin (OVA). Animals were treated with IVIg to generate iTreg with or without DTx endogenous Treg pre-depletion. Human serum albumin (HSA) was used as a control protein treatment. RNA was isolated from 4 biological replicates for each condition. 12 samples in total were hybridized to Affymetrix gene expression microarrays. variable: treatment: OVA-HSA-OVA - DTx: BMR133, BMR134, BMR135, BMR136 variable: treatment: OVA-IVIg-OVA - DTx:  BMR137, BMR138, BR139, BMR140 variable: treatment: OVA-IVIg-OVA + DTx: BMR141, BMR142, BMR143, BMR144 repeat: biological replicate: eTreg: BMR133, BMR134, BMR135, BMR136 repeat: biological replicate: e_iTreg: BMR137, BMR138, BR139, BMR140 repeat: biological replicate: IVIg-iTreg: BMR141, BMR142, BMR143, BMR144
+
+PLATFORM
+GPL16570 [MoGene-2_0-st] Affymetrix Mouse Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+28219891
+

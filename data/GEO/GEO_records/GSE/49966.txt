@@ -1,0 +1,18 @@
+TITLE
+Spliceosome-Mediated-Decay (SMD) regulates expression of non-intronic genes in budding yeast
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Purpose: The goals of this study were to determine whether the spliceosome interacts with non-intronic mRNAs Methods: RNAseq was performed on RNA that immunoprecipitated with the yeast SMD1 protein. Tandem-affinity-purified RNAs were extracted and RNAseq libraries were generated using the EpiCentre ScriptSeq kit (v1). We also performed RNAseq experiments on rRNA depleted total RNA extracted from an exosome mutant (rrp6Δ), a temperature-sensitive splicing mutant (prp40-1) and a parental strain (BY4741). The rRNA was depleted using the Invitrogen RiboMinus kit, according to manufactureres procedures. The depleted RNA was subsequently treated with Turbo DNAse I (Ambion) and RNAseq libraries were generated using the EpiCentre ScriptSeq kit (v1). Results: The SM RNAseq data identified a number of non-intronic mRNAs that appeard to be bound by the spliceosome. Among these was the BDF2 mRNA, which enocdes for a bromo-domain protein. BDF2 was highly enriched in both SM-IP datasets and was therefore analyzed in more detail. To determine if other non-intronic mRNAs could be regulated by the spliceosome, we analysed the transcriptome in the rrp6Δ, the prp40-1 and a parental strain. Bioinformatic analysis of these data sets revealed that roughly 1% of the non-intronic mRNAs in yeast could be targeted by the spliceosome. TopHat revealed cannonical splice junctions in roughly 30 non-intronic mRNAs, indicating that these messages are spliced. Conclusions: We demonstrate, for the first time, that the spliceosome can regulate expression of non-intronic mRNAs via one and/or two RNA cleavage events. We refer to this process as Spliceosome Mediated Decay (SMD).
+
+DESIGN
+We report RNAseq data for two SM immunoprecipitation experiments and RNAseq datasets for the parental strain (BY4741), the prp40-1 mutant, and the rrp6Δ strain.
+
+PLATFORM
+GPL9377 Illumina Genome Analyzer II (Saccharomyces cerevisiae) GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+24065768
+

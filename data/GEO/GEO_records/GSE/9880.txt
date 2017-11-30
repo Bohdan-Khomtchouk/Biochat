@@ -1,0 +1,18 @@
+TITLE
+Babesia Infected/Control LongSAGE libraries for Boophilus microplus ovary tissue
+
+ORGANISM
+Rhipicephalus microplus
+
+SUMMARY
+Babesia infected (and control) ovary tissue was used to construct LongSAGE libraries.   The intent was to find differential gene expression in both libraries. Details: The extraction was done using Ambion's ToTALLY RNA kit, and the concatemers where constructed using Invitrogen's I-SAGE Long kit.   The concatmer files (multiple fasta sequence files) were processed using in-house perl scripts to extract the 17bp LongSAGE tags. **Note: contact person:   Felix D. Guerrero.   email:  felix.guerrero@ars.usda.gov Keywords: LongSAGE
+
+DESIGN
+1 control and 1 treatment library was constructed.  Besides the ovary, gut was also looked at but the data was un-analyzable. **************  Analysis Results  ********** Ovary Infected: Project tags: 				8750 Project files(concatemers/sequences): 	703 Project Duplicate Dimers(ditags):	1612 Unique tags				5315 Total tags inc. ditags			11974 % of tags in duplicate ditags		36% Ovary Control: Project tags: 				6764 Project files(concatemers/sequences): 	368 Project Duplicate Dimers(ditags):	846 Unique tags				3937 Total tags inc. ditags			8456 % of tags in duplicate ditags		25%
+
+PLATFORM
+GPL6274 SAGE:17:NlaIII:Rhipicephalus microplus
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

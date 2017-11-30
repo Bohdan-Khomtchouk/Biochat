@@ -1,0 +1,18 @@
+TITLE
+Borrelia host adaptation Regulator (BadR) regulates rpoS to modulate host adaptation and virulence factors in Borrelia burgdorferi
+
+ORGANISM
+Borrelia burgdorferi B31
+
+SUMMARY
+Our study is the first to demonstrate BadR as a repressor of rpoS and thus facilitates spirochete’s transition back into ticks. BadR binds upstream and represses rpoS in unfed ticks.  GLcNA-6P, an abundant nutrient of blood and released by subsequent remodeling of the tick peritrophic membrane, relieves repression of BadR on rpoS facilitating vertebrate host adaptation.  BadR regulates chitobiose utilization genes and activates genes critical for spirochetes residence of ticks (lp28-4 genes) badR-deficient strain (Gene BB0693) compared to B31-A3 parental wild-type B. burgdorferi strains
+
+DESIGN
+Two separate but identically designed microarrays were performed and thus two chips were used. Each chip contained two replicates of B31-A3 WT and badR-deficient strains, and thus the overall array analysis of both chips corresponds to n=4 for both WT and badR-deficient strains. Hierarchical clustering and correlation analysis was used to verify quality of the normalized array data. The expression data from biological replicates 1 and 2 (chip 1 and 2) were both pooled and analyzed individually. We used LIMMA R package to test contrasts between WT and badR-deficient strain (Smyth GK.2004. Stat Appl Genet Mol Biol 3:Article3 .)
+
+PLATFORM
+GPL15709 NimbleGen Borrelia burgdorferi B31 Expression array [080814_Bbur_B31_exp]
+
+CITATIONS
+23387366
+

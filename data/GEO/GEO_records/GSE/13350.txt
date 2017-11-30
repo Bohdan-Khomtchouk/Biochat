@@ -1,0 +1,18 @@
+TITLE
+Nutrient-Regulated Antisense and Intragenic RNAs Modulate a Signal Transduction Pathway
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The budding yeast Saccharomyces cerevisiae alters its gene expression profile in response to a change in nutrient availability. The PHO-system is a well-studied case in the transcriptional regulation responding to nutritional changes in which a set of genes (PHO genes) is expressed to activate phosphate (Pi) metabolism for adaptation to Pi-starvation. Pi-starvation triggers an inhibition of Pho85 kinase, leading to migration of unphosphorylated Pho4 transcriptional activator into the nucleus enabling expression of PHO genes. When Pi is sufficient, the Pho85 kinase phosphorylates Pho4 thereby excluding it from the nucleus and resulting in repression (i.e., lack of transcription) of PHO genes. The Pho85 kinase has a role in various cellular functions other than regulation of the PHO system, in that Pho85 monitors whether environmental conditions are adequate for cell growth, and represses inadequate (untimely) responses in these cellular processes. In contrast, Pho4 appears to activate some genes involved in stress-response and is required for G1 arrest caused by DNA damage. These facts suggest the antagonistic function of these two players on a more general scale when yeast cells must cope with stress conditions. To explore general involvement of Pho4 in stress-response, we tried to identify Pho4-dependent genes by a genome-wide mapping of Pho4- and Rpo21-binding (Rpo21 being the largest subunit of RNA polymerase II) using a yeast tiling array. In the course of this study, we found Pi- and Pho4-regulated intragenic and antisense RNAs that could modulate the Pi-signal transduction pathway. Low-Pi signal is transmitted via certain inositol polyphosphate (IP) species (IP7) that are synthesized by Vip1 IP6 kinase. We have shown that Pho4 activates transcription of antisense and intragenic RNAs in the KCS1 locus to downregulate the Kcs1 activity, another IP6 kinase, by producing truncated Kcs1 protein via hybrid formation with the KCS1 mRNA and translation of the intragenic RNA, thereby enabling Vip1 to utilize more IP6 to synthesize IP7 functioning in low-Pi signaling. Since Kcs1 also can phosphorylate these IP7 species to synthesize IP8, reduction in the Kcs1 activity can ensure accumulation of the IP7 species, leading to further stimulation of low Pi-signaling, i.e., forming a positive feedback loop. We also report that genes apparently not involved in the PHO system are regulated by Pho4 either dependent upon or independently of the Pi conditions, and many of the latter genes are involved in stress-response. In S. cerevisiae, a large-scale cDNA analysis and mapping of RNA polymerase II binding using a high-resolution tiling array have identified a large number of antisense RNA species whose functions are yet to be clarified. Here we have shown that nutrient-regulated antisense and intragenic RNAs, as well as direct regulation of structural gene transcription, function in the response to nutrient availability. Our findings also imply that Pho4 is present in the nucleus even under high-Pi condition to activate or repress transcription, which challenges our current understanding of Pho4 regulation.
+
+DESIGN
+Wild type and pho4 deletion mutant were grown in low or high phosphate medium and distribution of Rpo21 was analyzed.
+
+PLATFORM
+GPL3723 Shirahige S.cerevisiae Tiling1.0F Array
+
+CITATIONS
+19108609
+

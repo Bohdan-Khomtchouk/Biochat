@@ -1,0 +1,15 @@
+TITLE
+The non-CG methylation is cell-type specific and conserved between human and mouse [Third-party reanalysis]
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+The non-CG methylations are abundant in several mammalian cell types, while their biological functions are largely unknown. We gathered 51 DNA methylomes in both human and mouse, covering brain neuron cells, embryonic stem (ES) and induced pluripotent stem (iPS) cells, primordial germ cells (PGC) and oocytes. Then a two-dimensional comparison on non-CG methylation was carried out across cell types and species. We employed an unbiased sub-motif prediction method and identified CW (W can be A or T) as the representative non-CG methylation context. We further showed mCW was significantly distinct from CC methylation (mCC) in both context and genomic distribution. Our studies on sequence preferences and genomic region enrichment revealed that mCW was cell-type specific and conserved between human and mouse. We reported young long interspersed nuclear elements-1 (LINE-1) elements tended to be deprived of mCW in brain for both species. Interestingly, both human Alu elements and mouse B1 elements were found to prefer high mCW at specific loci during evolution. Additionally, we reported a peak of CG methylation (mCG) at the promoter of young LINE-1 element in PGC, in contrast to the global CG demethylation. Lastly, we confirmed strand-skewed non-CG methylation in mouse ES intronic region, and showed the strand-specific distributions of mCW in LINE elements are also cell-type specific and conserved. Our findings indicate that mCW is conserved in species, dynamically regulated during development, and likely to guide the evolution of transposon elements.
+
+DESIGN
+In this study, 41 samples were re-aligned from raw sequencing data using BS-Seeker2. The raw data available from the samples associated with the following Series: GSE11034 GSE30199 GSE30206 GSE34864 GSE37202 GSE42923 GSE46644 GSE46710 GSE49828 GSE51239 GSE52331 GSE56650 GSE61330 GSE61457 GSE63394 GSE63818 The accession numbers of the re-analyzed GEO Samples (GSMnnnnn; associated with each processed data file) are indicated in the 'complete_metadata.xls'. Please note that several raw data files are downloaded directly from SRA, DDBJ ( https://trace.ddbj.nig.ac.jp ), European Nucleotide Archive, and the public accession numbers for the raw data associated with each processed data file are indicated in the  'complete_metadata.xls' as well. The 'DATA PROCESSING PIPELINE' section (in the  'complete_metadata.xls') describes the re-analysis details.
+
+CITATIONS
+27573482
+

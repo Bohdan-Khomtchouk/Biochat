@@ -1,0 +1,18 @@
+TITLE
+Testing the Ret and Sema3d genetic interaction in mouse enteric nervous system development
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+For most multigenic disorders, clinical manifestation (penetrance) and presentation (expressivity) are likely to be an outcome of genetic interaction between multiple susceptibility genes.  Here, using gene knockouts in mice we evaluated genetic interaction between loss of Ret and loss of Sema3d, two Hirschsprung disease (HSCR) susceptibility genes.  We intercrossed Ret and Sema3d double null heterozygotes to generate mice with the nine possible genotypes and assessed survival by counting various genotypes, myenteric plexus development by acetylcholinesterase (AchE) staining and embryonic day 12.5 (E12.5) gut transcriptome by RNA-sequencing.  Survival rates of Ret wildtype, null heterozygote and null homozygote mice at E12.5, birth and weaning were not influenced by the genotypes at Sema3d locus and vice-versa.  Loss of myenteric plexus was observed only in all Ret null homozygotes, irrespective of the genotypes at Sema3d locus, and Sema3d null heterozygote and homozygote mice had normal gut innervation.  As compared to wildtype mice gut gene expression, loss of Ret in null homozygotes led to differential expression of ~300 genes, whereas loss of Sema3d in null homozygotes had no major consequence and there was no evidence supporting major interaction between the two genes influencing gut transcriptome.  Overall, given the null alleles and phenotypic assays used, we did not find evidence for genetic interaction between Ret and Sema3d affecting survival, myenteric plexus formation or gut transcriptome.
+
+DESIGN
+poly-A RNA-seq in embryonic day 12.5 mouse gut from 3 wildtype males, 3 wildtype females, 3 Ret null homozyogote males, 3 Ret null homozyogote females, 3 Sema3d null homozyogote males, 3 Sema3d null homozyogote females, 3 Ret-Sema3d double null homozyogote males, 3 Ret-Sema3d double null homozyogote females
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28334784
+

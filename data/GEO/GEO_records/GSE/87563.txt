@@ -1,0 +1,18 @@
+TITLE
+RNAseq of normal associate fibroblasts after treatment with large oncosomes from prostate cancer cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In order to detect the alteration in the transcriptomic profile of fibroblasts exposed to the large oncosomes and detemine the transcription factor responsible for those alteration we performed whole RNA sequncing with and without treatment with large oncosomes. Deep sequencing data were generated in duplicate using a NextSeq 500 platform (Illumina) using 75 single-end sequencing obtaining about 20 million reads per sample. Raw reads obtained from RNA-Seq were aligned to the custom human GRCh38 transcriptome reference ( http://www.gencodegenes.org ) using Bowtie (version 1.1.1) and RSEM (version 1.2.20) with default parameters. of 207 differentially expressed genes were identified between control and large oncosomes treated fibroblasts and master regulator analysis performed using TF-target interaction information collected from public databases revealed MYC and SPI1 as main transcription factors responsible for these alterations.
+
+DESIGN
+mRNA profile in 2 different treatment conditions fibroblasts ctrl and fibroblasts treated with large oncosomes
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

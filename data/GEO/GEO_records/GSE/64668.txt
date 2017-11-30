@@ -1,0 +1,18 @@
+TITLE
+Effect of FTO (fat mass and obesity-associated) overexpression on gene expression profiling in beta cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We have completed the mouse expression microarray analysis of the 2 samples. Total RNA from each sample was quantified using the NanoDrop ND-1000 and the RNA integrity was assessed using standard denaturing agarose gel electrophoresis. For microarray analysis, Agilent Array platform was employed. The sample preparation and microarray hybridization were performed based on the manufacturer’s standard protocols. Briefly, total RNA from each sample was amplified and transcribed into fluorescent cRNA with using the manufacturer’s Agilent’s Quick Amp Labeling protocol (version 5.7, Agilent Technologies). The labeled cRNAs were hybridized onto the Whole Mouse Genome Oligo Microarray (4x44K, Agilent Technologies). After having washed the slides, the arrays were scanned by the Agilent Scanner G2505C.Agilent Feature Extraction software (version 11.0.1.1) was used to analyze acquired array images. Quantile normalization and subsequent data processing were performed using the GeneSpring GX v11.5 software package (Agilent Technologies). After quantile normalization of the raw data, genes that at least 1 out of 2 samples have flags in Detected (“All Targets Value”) were chosen for further data analysis. Differentially expressed genes between two samples were identified through fold change filtering. Pathway analysis and GO Analysis were applied to determine the roles of these differentially expressed genes played in these biological pathways or GO terms. Finally, Hierarchical Clustering was performed to show the distinguishable gene expression profiling between samples.
+
+DESIGN
+beta cell lines (MIN6) were transfected with FTO vector or empty vector. The gene expression profiling of the two samples were performed by expression microarray analysis
+
+PLATFORM
+GPL11202 Agilent-026655 Whole Mouse Genome Microarray 4x44K v2 (Probe Name version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

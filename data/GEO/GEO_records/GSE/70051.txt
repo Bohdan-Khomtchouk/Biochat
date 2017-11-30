@@ -1,0 +1,18 @@
+TITLE
+Identifying pH independent hypoxia induced genes in human squamous cell carcinomas in vitro
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Genes upregulated by low oxygen have been suggested as endogenous markers for tumor hypoxia. Yet, most of the genes investigated have shown inconsistent results, which have led to concerns about their ability to be true hypoxia markers. Previous studies have demonstrated that expression of hypoxia induced genes can be affected by extracellular pH (pH e ). Methods: Five different human cell lines (SiHa, FaDu DD, UTSCC5, UTSCC14 and UTSCC15) were exposed to different oxygen concentrations and pH (7.5 or 6.3), and gene expression analyzed with microarray (Affymetrix - Human Genome U133 Plus 2.0 Array). Results: An analysis of two of the cell lines using SAM identified 461 probesets that were able to separate the four groups “ Normal oxygen, normal pH ” , “ Low oxygen, normal pH ” , “ Normal oxygen, low pH ” and “ Low oxygen, low pH ” . From here it was possible to identify a fraction of probesets induced at low oxygen independent of pH in these two cell lines, this fraction included HIG2, NDRG1, PAI1 and RORA. Further verifi cation by qPCR highlighted the necessity of using more cell lines to obtain a robust gene expression profi les. To specifi cally select pH independent hypoxia regulated genes across more cell lines, data for FaDu DD, UTSCC5, UTSCC14 and UTSCC15 were analyzed to identify genes that were induced by hypoxia in each cell line, where the induction was not affected by low pH, and where the gene was not signifi cantly induced by low pH alone. Each cell line had 65 – 122 probesets meeting these criteria. For genes to be considered as target genes (hypoxia inducible pH independent), genes had to be present in three of four cell lines. Conclusion: The result is a robust hypoxia profile unaffected by pH across cell lines consisting of 27 genes. This study demonstrates a way to identify hypoxia markers by microarray, where other factors in the tumor microenvironment are taken into account.
+
+DESIGN
+Five cell lines, four HNSCC (FaDuDD, UTSCC5, UTSCC14 and UTSCC15) and one cervical (SiHa). Hypoxia was achieved by continually gassing the cells in an airtight chamber for 24 hours with either atmo- spheric air, 5%, 1%, 0.1%, 0.01% or 0% oxygen, sup-  plemented with 5% CO 2 and nitrogen, at 37ºC. To simulate acidosis, pH of the medium (without sodium bicarbonate) was buffered with 20 mM tris (Hydroxym- ethyl) aminomethane (TRIS) base (Sigma), 20 mM 2-(N-Morpholino)ethanesulfonic acid (MES) (Sigma)  and 0.52 g/l NaHCO 3 (Sigma) and titrated to 6.3 or 7.4. The pH adjusted media was applied immediately before the induction of hypoxia. No replicates.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+20429727
+

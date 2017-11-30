@@ -1,0 +1,18 @@
+TITLE
+Organism-level analysis of vaccination reveals networks of protection across tissues
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Whole organs or CD8+ T cell populations sorted by FACS from tissues were isolated at various time points following vaccination with Vaccinia virus strain Modified Vaccinia Ankara (MVA; subcutaneously) and/or infection with strain Western Reserve (WR; intranasally). Total RNA was extracted from whole organs or sorted cell populations, RNA-seq libraries were prepared with a custom protocol, and sequenced at an average depth of ~5M/sample.
+
+DESIGN
+We compared three types of immune responses in vivo: (1) vaccinating (MVA only; 10^7 PFUs subcutaneously), (2) lethal (WR only; 10^7 PFUs intranasally), and (3) protective (MVA followed by WR challenge; same doses and routes as in 1 and 2, respectively). Overall, 6 datasets were generated from the following experiments and samples: (i) Whole-tissue samples from MVA, WR, MVA+WR cohorts with WR challenge at day 7, 21 (Exp. 1), or 80 (Exp. 2) in wild-type mice; (ii) Whole-tissue samples from MVA+WR at day 21 in wild-type versus knockout animals: Tcra-/- (Exp. 3), and Ifng-/-, Il22-/-, and Csf2-/- (Exp. 5); (iii) Sorted CD8+ T cell populations profiled from tissues of MVA-vaccinated (day 21) and control mice with (Exp. 6) or without (Exp. 4) intravascular staining (anti-CD45-PE antibody) to distinguish parenchyma-associated from vasculature-associated cells.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

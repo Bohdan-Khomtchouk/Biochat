@@ -1,0 +1,18 @@
+TITLE
+Extensive re-wiring of epithelial-stromal co-expression networks in breast cancer - ER-positive breast cancer validation dataset
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Epithelial-stromal crosstalk plays a critical role in invasive breast cancer (IBC) pathogenesis; however, little is known on a systems level about how epithelial-stromal interactions evolve during carcinogenesis. Results: We develop a framework for building genome-wide epithelial-stromal co-expression networks composed of pairwise co-expression relationships between mRNA levels of genes expressed in the epithelium and stroma across a population of patients. We apply this method to laser capture micro-dissection expression profiling datasets in the setting of breast carcinogenesis. Our analysis shows that epithelial-stromal co-expression networks undergo extensive re-wiring during carcinogenesis, with the emergence of distinct network hubs in normal breast, ER-positive IBC, and ER-negative IBC, and the emergence of distinct patterns of functional network enrichment. In contrast to normal breast, the strongest epithelial-stromal co-expression relationships in IBC mostly represent self-loops, in which the same gene is co-expressed in epithelial and stromal regions. We validate this observation using an independent laser capture micro-dissection dataset and confirm that self-loop interactions are significantly increased in cancer by performing computational image analysis of epithelial and stromal protein expression using images from the Human Protein Atlas. Conclusions: Epithelial-stromal co-expression network analysis represents a new approach for systems-level analyses of spatially-localized transcriptomic data. The analysis provides new biological insights into the re-wiring of epithelial-stromal co-expression networks and the emergence of epithelial-stromal co-expression self-loops in breast cancer. The approach may facilitate the development of new diagnostics and therapeutics targeting epithelial-stromal interactions in cancer.
+
+DESIGN
+36 flash-frozen human primary breast cancer samples were subjected to laser capture microdissection to separately isolate matched tumor epithelial and tumor-associated stromal components. RNA was isolated, subjected to 2 rounds of amplification, and hybridized on Agilent 4x44K microarrays along with a common reference (single round-amplified commercially obtained Universal Human Reference RNA) in a dyeswap design. For two samples of tumor-associated stroma, a second technical replicate was performed. Samples were labelled as ER-positive based on ESR1 gene expression levels in the tumor epithelium, using univariate Gaussian mixture model-based clustering via the mclust package in R.
+
+PLATFORM
+GPL1708 Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number version)
+
+CITATIONS
+26087699
+

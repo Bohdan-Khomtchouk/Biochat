@@ -1,0 +1,18 @@
+TITLE
+OSKM factors cooperatively engage chromatin to initiate reprogramming
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Reprogramming cells from one fate to another, using transcription factors, generates cells for research and potential therapy, yet little is known about the initial engagement of reprogramming factors with the genome.  We mapped the interactions between Oct4, Sox2, Klf4, and c-Myc (OSKM) and the human genome during the first 48 hours of cellular reprogramming to pluripotency.  Unlike that reported in ES/iPS cells, we find extensive overlap in the initial binding of OSKM, demonstrating that the initial regulatory network differs markedly from that in pluripotency.  OSK act as pioneer factors for c-Myc, and c-Myc enhances the engagement of OSK, including at many genes that are required for conversion to pluripotency.  Distal enhancer sites in closed chromatin dominate the initial OSKM distribution.  Hierarchical chromatin binding during reprogramming resembles that employed during development.
+
+DESIGN
+Four chIP-seq data sets (Oct4, Sox2, Klf4, and c-Myc) are included, one lane per factor, no replicates. Also included is an input lane from the same conditions and two mock lentiviral controls (no exogenous OSKM factors) treated with Oct4 IP and c-Myc IP.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+23159369
+

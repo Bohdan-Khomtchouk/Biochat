@@ -1,0 +1,18 @@
+TITLE
+RNA-seq analysis of FET cells treated with RSPO1 or TGFβ1
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To determine whether RSPO1 and TGFβ1 activate similar transcription, RNA-seq analysis was performed to compare gene profiles after treatment by RSPO1 or TGFβ1. FET cells were treated with RSPO1 or TGFβ1 in triplicates for 4 hours and RNAs extracted from these cells were used for RNA-seq analysis. When gene expression profiles were compared, it was found that 153 genes were commonly regulated by either RSPO1 or TGFβ1. Interestingly, the majority of genes regulated by TGFβ1 were also regulated by RSPO1.
+
+DESIGN
+FET cells were treated with RSPO1 or TGFβ1 in triplicates for 4 hours and RNAs extracted from these cells were used for RNA-seq analysis. Genes with log2 based fold change ≥1 and FDR < 0.05 were considered upregulated genes and those with log2 based fold change ≤ -1 and FDR < 0.05 were considered downregulated genes.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

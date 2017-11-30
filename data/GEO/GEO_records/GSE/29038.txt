@@ -1,0 +1,18 @@
+TITLE
+RNA Capture-Seq resolves the deep complexity of the human transcriptome (Illumina)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Transcriptomic analyses have revealed an unexpected complexity of the human transcriptome, whose breadth and depth exceeds current RNA sequencing capacity 1-3. Here we combine tiling arrays and RNA sequencing technologies, in an approach we term RNA Capture-Seq, to enable the assembly and characterisation of transcripts whose expression level is below the detection limits of conventional sequencing approaches. By this technique we identify novel exons and splicing patterns to even well-studied genes, such as the p53 and Hox loci, and expose widespread, regulated and remarkably complex noncoding transcription in intergenic gene deserts. We show that unassigned tags observed in conventional RNA sequencing datasets are not noise but can derive from rare transcripts fully assembled by RNA Capture-Seq. We expect RNA Capture-Seq to prove an invaluable technique for future research into gene expression and its relationship to phenotypic variation.
+
+DESIGN
+Application of RNA Capture sequencing from human fibroblasts for identifying rare novel transcripts. Hybridization enhancing oligos are designed to cover the full sequencing adaptor and MID sequences during hybridisation. Enhancing Oligo A 5   CCATCTCATCCCTGCGTGTCTCCGACTCAG/3ddc/ Enhancing Oligo B 5'   CCTATCCCCTGTGTGCCTTGGCAGTCTCAG/3ddc/
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+22081020
+

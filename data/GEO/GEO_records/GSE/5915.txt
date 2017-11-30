@@ -1,0 +1,18 @@
+TITLE
+Characterization of the mouse transcriptome by Serial Analysis of Gene Expression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+This study characterizes the expressed transcripts of 15 intact tissues in mice by using the serial analysis of gene expression (SAGE) strategy which indicates the relative level of expression for each transcript matched to the tag. Keywords: double-strand cDNA , serial analysis of gene expression (SAGE) , ditags
+
+DESIGN
+Total RNA was isolated from tissues by using the RNA extraction kit (TRIzol Reagent, Invitrogen Canada Inc., Burlington, ON). Approximately 5 µg of mRNA was extracted with Oligotex mRNA Mini Kit (Qiagen Inc., Mississauga, ON). The SAGE method was performed as previously described (Velculescu et al., 1995; St-Amand et al., 2001). In brief, double-strand cDNA was synthesized from the mRNA using a biotinylated (T)18 primer and cDNA synthesis kit (Invitrogen Canada Inc.). The cDNA libraries were digested with the restriction enzyme NlaIII (New England Biolabs Inc., Pickering, ON). The 3'-terminal cDNA fragments were captured using streptavidin-coated magnetic beads (Dynal, Biotech LLC, Brown Deer, WI). After ligation of 2 annealed linker pairs, the cDNA fragments were digested with BsmFI (New England Biolabs Inc.). The blunting kit from Takara Bio Inc. (Otsu, Japan) was used for the blunting and ligation of the two tag populations. The resulting ligation products were amplified by PCR and digested with NlaIII. The band containing the ditags was extracted from the 12% polyacrylamid gel. Using T4 ligase (Invitrogen Canada Inc.), the ditags were self-ligated to form concatemers that were cloned into SphI site of pUC19. White colonies were screened by PCR and agarose gel to select long inserts for automated sequencing (Applied Biosystems 3730, Foster City, CA). The sequence and occurrence of each tag were analyzed by the SAGEana program, which is a new version of SAGEparser.pl (Dinel et al., 2005).
+
+PLATFORM
+GPL11 SAGE:10:NlaIII:Mus musculus
+
+CITATIONS
+17519037
+

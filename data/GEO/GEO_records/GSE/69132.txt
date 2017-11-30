@@ -1,0 +1,18 @@
+TITLE
+Integrated genomics of Crohn’s disease risk variant identifies a role for CLEC12A in antibacterial autophagy
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Using integrated genomics we identify a role for CLEC12A in antibacterial autophagy. Clec12a-/- mice are more susceptible to bacterial infection and CLEC12A deficient cells exhibit impaired antibacterial autophagy. We used transcriptional profilinf to understand the role of CLEC12A in the response to Salmonella and Listeria.
+
+DESIGN
+Bone marrow-derived macrophages from WT or Clec12a-/- mice were infected with Salmonella enterica serovar Typhimurium or Listeria monocytogenes. Cells were harvested at 0,3,6, and 24hours post-infection for RNA analysis. Please note that single-end sequencing was performed but two files: R1 files that contained the sample barcodes (19 or 17bp reads) and R2 files that contained the single-end-sequenced 46bp cDNA reads were generated. Since the barcode info is mostly redundant, only R2 reads were submitted (described in 'raw_file_readme.txt').
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26095365
+

@@ -1,0 +1,18 @@
+TITLE
+Expression data from C2C12 cells with or without Smad3 overexpression
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The goal of this study was to identify genes in C2C12 myoblasts whose expression was altered by overexpression of Smad3.
+
+DESIGN
+Four total samples were analyzed. Two biological replicates were prepared from C2C12 cells infected with retroviral vector encoding wildtype Smad3 and exposed for 24 hours to 100 pM TGF-β.  Two biological replicates were prepared from C2C12 cells infected with a control retrovirus that did not encode Smad3 (empty vector, EV) and exposed for 24 hours to 100pM TGF-β.  To identify genes with altered expression between empty vector controls and cells overexpressing wild-type Smad3, we first pre-processed the four arrays using robust multiarray averaging as implemented in the R software package ‘xps’, version 1.10.2 ( http://www.bioconductor.org/packages/release/bioc/html/xps.html ). This preprocessing corrects for background noise and array effects, and aggregates probe data to 28,836 genes. Duplicates were averaged on the base-2 logarithm scale, and then we took differences between the averages to obtain logarithm-scale fold changes. Genes were selected which showed at least a two-fold change (raw scale) between wild-type and empty vector expressing cells. Due to the limited sample size, we did not apply any statistical tests to estimate false-discovery rate.  This resulted in 79 genes that were at least two-fold higher in the wild-type Smad3-expressing C2C12 cells compared to empty vector cells and 25 genes that were at least two-fold lower in the wild-type Smad3-expressing cells than the in the empty vector cells.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+21949838
+

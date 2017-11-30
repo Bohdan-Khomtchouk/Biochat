@@ -1,0 +1,18 @@
+TITLE
+High throughput quantitative whole transcriptome analysis of distal mouse lung epithelial cells from various developmental stages (E14.5, E16.5, E18.5 and adult)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We used microfluidic single cell RNA-seq on 198 individual mouse lung epithelial cells at 4 different stages throughout development to measure the transcriptional states which define the developmental and cellular hierarchy of the distal mouse lung epithelium. We classified 80 cells comprising the distal lung epithelium at E18.5 into distinct populations using an unbiased genome-wide approach that did not require a priori knowledge of the underlying cell types or prior purification of cell types.  This “reverse tissue engineering” approach confirmed the basic outlines of the conventional model of cell type diversity in the distal lung and led to the discovery of a large number of novel transcriptional regulators and cell type markers that discriminate between the different populations. Moreover, we reconstructed the steps during maturation of bipotential progenitors into both alveolar lineages based on the presence of undifferentiated, differentiated as well as differentiation intermediate cells at the single time point E18.5. Finally, we followed Sftpc-positive cells throughout their lifecycle (E14.5, E16.5, E18.5, adult) and identified 7 gene sets that differentiate between the multipotential, bipotential, mature, as well as intermediate states of the AT2 lineage.
+
+DESIGN
+198 single-cell transcriptomes from mouse lung epithelium were analyzed in total, two 200-cell bulk control samples as well as one no-cell control; All single cell and control samples contain 92 external RNA spike-ins; For time point E18.5, three individual experiments were performed using 3 different pregnant mice (3 biological replicates): Replicate 1 (pooled sibling lungs) yielded 20 single cell transcriptomes, replicate 2 (one single embryonic lung) yielded 34 single cell transcriptomes and replicate 3 (pooled siibling lungs) yielded 26 single cell transcriptomes; In addition, a 200-cell bulk control sample was prepared for E18.5 replicate 1 and E18.5 replicate 3 experiments; A no-cell control sample was generated for the E18.5 replicate 1 experiment; For time point E14.5, one experiment (one pregnant mouse, pooled sibling lungs) was performed yielding 45 single cell transcriptomes; For time point E16.5, one experiment (one pregnant mouse, pooled sibling lungs) was performed yielding 27 single cell transcriptomes; For the adult time point, one 107 day old mouse was used and transcriptomes of 46 single cells were obtained; All single cell samples were processed on the microfluidic platform, 200-cell-bulk and no-cell control samples were processed in microliter volumes in PCR tubes.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL16417 Illumina MiSeq (Mus musculus)
+
+CITATIONS
+24739965
+

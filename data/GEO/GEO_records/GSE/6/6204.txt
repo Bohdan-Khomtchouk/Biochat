@@ -1,9 +1,0 @@
-TITLE
-Rat gastric ECL cell transcriptomes: Change of gene expression during 24 hrs fasting
-
-ORGANISM
-Rattus norvegicus
-
-SUMMARY
-Gastric ECL cells and parietal (PC) cells in normal conditions and gastric ECL cells after 24 hrs fasting were purified using a combination of counter-flow elutriation, nycodenz gradient and FACS based on acridine orange labeling of histamine containing vesicles (ECL cells) or autofluorescense (PC cells) to homogeneity. cRNA probes from this purified cell suspensions and from mixed gastric homogenates were hybridized to whole rat genome expression oligonucleotide microarrays. We imported each channel separately (normalized intensity of Cy3 labeled samples = gProcessedSignal and of Cy5 labeled samples = rProcessedSignal) from the original Agilent Feature Extraction data files (submitted as raw data) after slide scanning from all slides into a Genespring 7.3 microarray database warehouse. Genespring’s built in statistical module was used to compare all channels to each other. The normalization used was against specific samples (the 5 channels of Gastric mucosal scrapings). Genespring identifies genes differentially expressed in the ECL cell samples and the parietal samples and also calculates the significance of difference (p-value). Keywords: rat whole genome expression microarray analysis (transcriptome)
-

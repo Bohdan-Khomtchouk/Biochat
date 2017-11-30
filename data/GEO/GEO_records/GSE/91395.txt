@@ -1,0 +1,18 @@
+TITLE
+A Trichostatin A expression signature identified by TempO-Seq targeted whole transcriptome profiling
+
+ORGANISM
+Homo sapiens ; synthetic construct ; unidentified
+
+SUMMARY
+The use of gene expression signatures to classify compounds, identify efficacy or toxicity, and differentiate close analogs relies on the sensitivity of the method to identify modulated genes. We used a novel ligation-based targeted whole transcriptome expression profiling assay, TempO-Seq®, to determine whether previously unreported compound-responsive genes could be identified and incorporated into a broad but specific compound signature. TempO-Seq exhibits 99.6% specificity, single cell sensitivity, and excellent correlation with fold differences measured by RNA-Seq (R2 = 0.9) for 20,629 targets. Unlike many expression assays, TempO-Seq does not require RNA purification, cDNA synthesis, or capture of targeted RNA, and lacks a 3′ end bias. To investigate the sensitivity of the TempO-Seq assay to identify significantly modulated compound-responsive genes, we derived whole transcriptome profiles from MCF-7 cells treated with the histone deacetylase inhibitor Trichostatin A (TSA) and identified more than 9,000 differentially expressed genes. The TSA profile for MCF-7 cells overlapped those for HL-60 and PC-3 cells in the Connectivity Map (cMAP) database, suggesting a common TSA-specific expression profile independent of baseline gene expression. A 43-gene cell-independent TSA signature was extracted from cMAP and confirmed in TempO-Seq MCF-7 data. Additional genes that were not previously reported to be TSA responsive in the cMAP database were also identified. TSA treatment of 5 cell types revealed 1,136 differentially expressed genes in common, including 785 genes not previously reported to be TSA responsive. We conclude that TSA induces a specific expression signature that is consistent across widely different cell types, that this signature contains genes not previously associated with TSA responses, and that TempO-Seq provides the sensitive differential expression detection needed to define such compound-specific, cell-independent, changes in expression.
+
+DESIGN
+Commercially available human reference and tissue RNAs, unpurified cell lysates from MCF-7 and MDA MB 231 cells, and synthetic ERCC RNAs were used to assess performance of a targeted whole transcriptome expression profiling method. In addition, MCF-7 cells, PC3 cells and HL60 cells were exposed to Trichostatin A, then lysed and profiled, to define a novel TSA-specific expression signature. Samples GSM2429258 - GSM2429287 were purified reference RNAs and brain RNAs and mixtures between them that were run in the TempO-Seq assay in replicates of 6 each. Samples GSM2429258 - GSM2429287 have no associated raw data due to data loss. The GSM2460368-GSM2460377 samples represent human reference RNA replicates that were processed in parallel, pooled in a single library and sequenced twice on the same instrument.
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19424 Illumina NextSeq 500 (synthetic construct) GPL22779 Illumina NextSeq 500 (unidentified)
+
+CITATIONS
+28542535
+

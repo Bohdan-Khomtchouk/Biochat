@@ -1,0 +1,18 @@
+TITLE
+Direct ChIP-bisulfite sequencing reveals a role of H3K27me3 mediating aberrant hypermethylation of promoter CpG islands in cancer cells (ChIP-BS)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The model describing that aberrant CpG island (CGI) methylation leads to transcription repression of tumor suppressor genes and thereby is implicated in tumor progression has been established in many cancers. However, recent studies indicated aberrantly hypermethylated genes in multiple cancers are already repressed in pre-cancerous tissues despite their promoters are hypomethylated. Here, we hypothesized that the occurrence of CGI promoter hypermethylation in cancers are associated with Polycomb-repressive complex and the associated H3K27me3 mark in pre-cancerous tissues. By using a ChIP-BS-seq technology that examines methylation of the DNA fragments precipitated by the antibodies to histone modifications, we provided direct evidences showing that genes highly enriched with H3K27me3 marks both in cancer and normal cells became aberrantly hypermethylated in CGI promoters in cancer cells in comparison with normal cells. Furthermore, we confirmed that these genes consistently were significantly hypermethylated in TCGA primary cancer in comparison with normal tissues. Thus, we provided direct evidences supporting that the presence of H3K27m3 may serve as a guide to promoter hypermethylation. This will spur future work on epigenetic signature of combined histone and DNA methylation that could define a cancer’s epigenetic abnormalities, therefore helping distinguish subtypes of cancers and aiding future diagnosis and therapeutics of cancers.
+
+DESIGN
+We applied ChIP-BS technology to examine H3K27me3 marks, which are catalyzed by the SET domain histone methyltransferase EZH2 and have a repressive function with 50bp pair-end sequencing. found H3K27me3 marks were enriched preferentially at CpG islands, (+/-500) transcription start sites (TSSs) and exons in two GC cell lines (BGC-823 and AGS). In YH cells, H3K27me3 marks were only preferentially enriched at CpG islands. In contrast, Hela cells presented a reverse pattern with highest H3K27me3 enrichment in intergenic regions. To confirm this result in Hela cells, we performed two independent replicates of ChIP-Seq and ChIP-BS-seq. Cause of useful was relative small. we still sequenced one 100bp pe reads replicate for H3K4me3 and two replicate for H3K27me3 ChIP-BS-seq.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24407023
+

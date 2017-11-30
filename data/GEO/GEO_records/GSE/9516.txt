@@ -1,0 +1,18 @@
+TITLE
+A. fumigatus wild type strain transcriptome analysis upon 200 mM CaCl2 treatment.
+
+ORGANISM
+Aspergillus fumigatus
+
+SUMMARY
+CRZ is a C2H2 zinc finger transcription factor activated by calcineurin, a protein phosphatase activated by calcium-calmodulin, in different stress conditions related with calcium cell accumulation. CRZ binds to a specific element on the promoter region of genes called CDRE (calcineurin-dependent response element) shown to be sufficient for calcium- and calcineurin-dependent gene expression. In order to investigate which pathways are involved under calcium stress conditions, we determined the transcriptional profile of A. fumigatus wild type strain. Conidia were incubated at 37°C in complete medium for 16 hours and were challenged with 200 mM calcium chloride for 10 minutes. At each time point, the mycelia were harvested by centrifugation and used for competitive microarray hybridizations. We were able to observe a decreased mRNA expression of genes encoding transcription factors and genes that encode GPI anchored proteins, an arrestin domain protein, and a fatty acid synthase beta subunit. In contrast, increased mRNA expression was observed for several genes involved in transcription, development, calcium metabolism, transport, cell cycle and signal transduction mechanisms, and lipid transport and metabolism. Keywords: gene expression array-based (log2 ratio)
+
+DESIGN
+For the time course microarray experiments, 5.0 x 108 conidia of A. fumigatus wild type [CEA17 delta akuB(KU80)] strain were inoculated in 300 ml of pre-warmed liquid cultures (YG) in 500-mL erlenmeyer flasks and allowed to grow for 16 hours in a reciprocal shaker (250 rpm) at 37°C. After this time, the control culture was centrifuged for mycelia recovery and RNA extraction. The other cultures were added by calcium chloride (200 mM) and incubated for 10 more minutes before centrifugation and RNA extraction. Hybridization experiments were competitive using probes derived from 10 minutes calcium chloride shock cultures using timepoint zero (control) as the reference RNA for every hybridizantion. Normalized signal intensities were used to generate relative hybridization ratios (query/reference). Following normalization, the values for each gene's in-slide replicates were condensed (median variance < 0.01), and the flip-dye replicates were averaged to compensate for dye-specific effects (see Supplementary file linked below).
+
+PLATFORM
+GPL6085 TIGR PFGRC Aspergillus fumigatus v2 array designed primarily based on strain Af293
+
+CITATIONS
+18298443
+

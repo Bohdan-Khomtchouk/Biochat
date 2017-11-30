@@ -1,0 +1,15 @@
+TITLE
+profiling of C/EBP targets
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The zinc-inducible C/EBP expression vectors pMTa, pMTb, pMTd and pMTe were constructed by cloning the human C/EBPa, C/EBPb, C/EBPd and C/EBPe cDNAs, respectively, into the pMTCB6+ vector. NIH 3T3 cells were transfected with zinc-inducible C/EBP vectors as well as control empty vector using the GenePORTER™ transfection Reagent (GTS Inc.). Multiple polyclonal clones were obtained by selection with G418 (700 mg/ml). Clones were screened by Western blot analysis for C/EBP protein expression following induction for 16 h with ZnSO4 (100 mM). Triplicate clones of NIH 3T3 cells were induced by addition of ZnSO4 (100 mM) for 16 h to the medium. Total RNA was isolated using TRIzol reagent (Invitrogen, Carlsbad, CA). Biotinylated cRNAs were prepared and hybridized to murine MG_74Av2 microarrays (Affymetrix, Santa Clara, CA, USA), which contains > 12 000 genes. The probed arrays were scanned with a Hewlett Packard Gene Array scanner. The scanned output image files were analyzed using Affymetrix Microarray Suite version 5.0. To identify genes that were differently expressed between the five-sample sets (empty vector, C/EBPa, C/EBPb, C/EBPd and C/EBPe) class compression analysis were performed using BRBArray Tools (developed by Richard Simon and Amy Peng Lam; http://linus.nci.nih.gov/BRB-ArrayTools.html ). Medium normalization was applied to the arrays and the percent absent filter was set at 80% to exclude probe sets that were unreliable. A list of 158 genes with probability of 95% that contain no more then 10% false discoveries was generated. Of these genes, 117 were significant at the 0.001 level of univariate F-test used and the remaining 41 were significant at the 0.027 level. Keywords: other
+
+PLATFORM
+GPL81 [MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array
+
+CITATIONS
+15985538
+

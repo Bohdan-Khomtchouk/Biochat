@@ -1,0 +1,18 @@
+TITLE
+DNaseI Hypersensitivity by Digital DNaseI from ENCODE/University of Washington
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+This track is produced as part of the mouse ENCODE Project. This track shows DNaseI sensitivity measured genome-wide in mouse tissues and cell lines using the Digital DNaseI methodology (see below), and DNaseI hypersensitive sites. DNaseI has long been used to map general chromatin accessibility and DNaseI hypersensitivity is a universal feature of active cis-regulatory sequences. The use of this method has led to the discovery of functional regulatory elements that include enhancers, insulators, promotors, locus control regions and novel elements. For each experiment (tissue/cell type) this track shows DNaseI sensitivity as a continuous function using sequencing tag density (Signal), and discrete loci of DNaseI sensitive zones (HotSpots) and hypersensitive sites (Peaks). For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf
+
+DESIGN
+Cells were grown according to the approved ENCODE cell culture protocols ( http://hgwdev.cse.ucsc.edu/ENCODE/protocols/cell/mouse ). Fresh tissues were harvested from mice and the nuclei prepared according to the tissue appropriate protocol ( http://hgwdev.cse.ucsc.edu/ENCODE/protocols/cell/mouse ). Digital DNaseI was performed by DNaseI digestion of intact nuclei, isolating DNaseI 'double-hit' fragments as described in Sabo et al. (2006), and direct sequencing of fragment ends (which correspond to in vivo DNaseI cleavage sites) using the Illumina IIx (and Illumina HiSeq by early 2011) platform (36 bp reads). Uniquely mapping high-quality reads were mapped to the genome using the bowtie aligner. DNaseI sensitivity is directly reflected in raw tag density, which is shown in the track as density of tags mapping within a 150 bp sliding window (at a 20 bp step across the genome). DNaseI sensitive zones (HotSpots) were identified using the HotSpot algorithm described in Sabo et al. (2004). 1.0% false discovery rate thresholds (FDR 0.01) were computed for each cell type by applying the HotSpot algorithm to an equivalent number of random uniquely mapping 36mers. DNaseI hypersensitive sites (DHSs or Peaks) were identified as signal peaks within FDR 1.0% hypersensitive zones using a peak-finding algorithm (I-max).
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

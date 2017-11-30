@@ -1,0 +1,18 @@
+TITLE
+De Novo Transcriptomic Analysis of a High Lipid-producing Mutant in the Green Alga Dunaliella tertiolecta through RNA-Seq
+
+ORGANISM
+Dunaliella tertiolecta
+
+SUMMARY
+Background: For many years, increasing demands for fossil fuels have met with limited supply. As a potential substitute and renewable source of biofuel feedstock, microalgae have received significant attention. However, few of the current algal species produce high lipid yields to be commercially viable. To discover more high yielding strains, next-generation sequencing technology is used to elucidate lipid synthetic pathways and energy metabolism involved in lipid yield. When subjected to manipulation by genetic and metabolic engineering, enhancement of such pathways may further enhance lipid yield. Results: In this study, transcriptome profiling of a random insertional mutant with enhanced lipid production generated from a non-model marine microalga Dunaliella tertiolecta is presented. D9 mutant has a lipid yield that is 2-4 fold higher than that of wild type. Using novel Bag2D-workflow scripts developed and reported here, the non-redundant transcripts from de novo assembly were annotated based on the best hits in five model microalgae, namely Chlamydomonas reinhardtii, Coccomyxa subellipsoidea C-169, Ostreococcus lucimarinus, Volvox carteri, and Chlorella variabilis NC64A. The assembled contigs (~181 Mb) includes 481,381 transcripts, covering 10,185 genes. Pathway analysis showed that a pathway from inositol phosphate metabolism to fatty acid biosynthesis is the most significantly correlated with higher lipid yield in this mutant. Conclusion: Herein, we described a pipeline to analyze RNA-Seq data without pre-existing transcriptomic information. The draft transcriptome of D. tertiolecta was constructed and annotated, which offered useful information for characterizing high lipid-producing mutants. D. tertiolecta mutant was generated with an enhanced photosynthetic efficiency and lipid production. RNA-Seq data of the mutant and wild type were compared, providing biological insights into the expression patterns of contigs associated with energy metabolism and carbon flow pathways. Comparison of D. tertiolecta genes with homologs of five other green algae can facilitate the annotation of D. tertiolecta, and lead to a more complete annotation of its sequence database, thus laying the groundwork for optimization of lipid production pathways based on genetic manipulation.
+
+DESIGN
+Examine two sets of RNA-Seq data from high lipid-producing mutant and wild-type sample Dt_v1*: the FASTA and annotation files used for D9_1, WT_1 samples Dt_v10*: the FASTA and annotation files used for D9_2, WT_2 samples Dt_v10-hit*: the FASTA and annotation files only including the contigs that can be annotated in Dt_v10 Additional file 1.xls: processed data for sample 1,2 Additional file 4.xls: processed data for sample 3-6
+
+PLATFORM
+GPL20688 Illumina MiSeq (Dunaliella tertiolecta)
+
+CITATIONS
+26613001
+

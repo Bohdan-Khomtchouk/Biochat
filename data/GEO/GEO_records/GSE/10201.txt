@@ -1,0 +1,18 @@
+TITLE
+ChIP-chip analysis of HTZ-1 and RNA Polymerase II in wildtype (N2) embryos
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+In all eukaryotes, histone variants are incorporated into a subset of nucleosomes to create functionally specialized regions of chromatin. One such variant, H2A.Z, replaces histone H2A and is required for viability in all metazoans tested to date. However, the function of H2A.Z in chromatin organization, transcription, and development remains controversialunclear. We mapped the genome-wide distribution of the C. elegans H2A.Z ortholog HTZ-1 during embryogenesis by Chromatin ImmunoPrecipitation on DNA microarrays (ChIP-chip). We find that H2A.Z is incorporated upstream of approximatelybout 25% of C. elegans genes, preferentially upstream of genes required for development and occupied by RNA polymerase II. Fewer sites of HTZ-1 localization occur on the X chromosome relative to autosomes, consistent with the lack of essential genes on X. The data provide evidence for unexpectedly widespread independent regulation of genes within operons. In 37% of operons, HTZ-1 is incorporated upstream of internally encoded genes. In conjunction with ChIP-chip, we used genetic mutation, RNAi, and microscopy to establish that HTZ-1 is present in every cell, and that maternally supplied HTZ-1 is essential for normal development. We interpret these results to indicate that C. elegans HTZ-1 functions in establishing or maintaining an essential chromatin state at promoters regulated dynamically during development. For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODEDataReleasePolicyFinal2008.pdf Keywords: chip-chip
+
+DESIGN
+4 independent HTZ-1 ChIP biological replicates were performed with 1 dye-swap replicate (ChIP 4). RNA Polymerase II ChIPs were performed from extracts used for HTZ-1 ChIPs 1 and 2 (RNAPII ChIP2 is a dye-swap). HTZ-1, RNA Polymerase II, and no antibody raw intensities Data were normalized by median centering log ratios (IP/input). Normalized Log2 ratios from each experiment were converted to standardized z-scores, array sets were concatenated, and then the median of experiments was taken.
+
+PLATFORM
+GPL4614 NimbleGen_DesignID3426_UNC_LiebLab tiling array GPL4619 NimbleGen_DesignID3427_UNC_LiebLab tiling array
+
+CITATIONS
+18787694 , 21177964
+

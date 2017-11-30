@@ -1,0 +1,18 @@
+TITLE
+Whole-transcriptome brain expression and exon-usage profiling in major depression and suicide
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Brain gene expression profiling studies of suicide and depression using oligonucleotide microarrays have often failed to distinguish these two phenotypes. Moreover, next generation sequencing approaches are more accurate in quantifying gene expression and can detect alternative splicing. Using RNA-seq, we examined whole-exome gene and exon expression in non-psychiatric controls (CON, N=29), DSM-IV major depressive disorder suicides (MDD-S, N=21) and MDD non-suicides (MDD, N=9) in the dorsal lateral prefrontal cortex (Brodmann Area 9) of sudden death medication-free individuals post mortem. Using small RNA-seq, we also examined miRNA expression (nine samples per group). DeSeq2 identified 35 genes differentially expressed between groups and surviving adjustment for false discovery rate (adjusted P < 0.1). In depression, altered genes include humanin-like-8 (MTRNRL8), interleukin-8 (IL8), and serpin peptidase inhibitor, clade H (SERPINH1) and chemokine ligand 4 (CCL4), while exploratory gene ontology (GO) analyses revealed lower expression of immune-related pathways such as chemokine receptor activity, chemotaxis and cytokine biosynthesis, and angiogenesis and vascular development in (adjusted P < 0.1). Hypothesis-driven GO analysis suggests lower expression of genes involved in oligodendrocyte differentiation, regulation of glutamatergic neurotransmission, and oxytocin receptor expression in both suicide and depression, and provisional evidence for altered DNA-dependent ATPase expression in suicide only. DEXSEq analysis identified differential exon usage in ATPase, class II, type 9B (adjusted P < 0.1) in depression. Differences in miRNA expression or structural gene variants were not detected. Results lend further support for models in which deficits in microglial, endothelial (blood-brain barrier), ATPase activity and astrocytic cell functions contribute to MDD and suicide, and identify putative pathways and mechanisms for further study in these disorder
+
+DESIGN
+We examined whole-exome gene and exon expression in non-psychiatric controls (CON, N=29), DSM-IV major depressive disorder suicides (MDD-S, N=21) and MDD non-suicides (MDD, N=9) in the dorsal lateral prefrontal cortex (Brodmann Area 9) of sudden death medication-free individuals post mortem. Using small RNA-seq, we also examined miRNA expression (nine samples per group).
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+27528462
+

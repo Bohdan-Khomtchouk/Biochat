@@ -1,0 +1,18 @@
+TITLE
+Transcriptional regulation of germinal center B and plasma cell fates by dynamical control of IRF4 (ChIP-seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Temporal analysis of Irf4 and PU.1 genome binding during B cell activation and differentiation in vitro using antigen (NP-Ficoll) CD40L and IL-2/4/5 cytokines (see Molecular Systems Biology 7:495 for details of cellular system). The results provide insight in the target genes and binding specificity of IRF4 and PU.1 during coordination of different programs of B cell differentiation. Regrettably three of the FASTQ raw sequence files in our study were corrupted during storage. FASTQ data from our experimental and control groups are available for download via GEO SRA; however, two groups are missing select raw sequence files. These include one PU.1 Day 3 group file (Sample GSM1133499) and two of four input files used to generate a concatenated “super” input file (Sample GSM1133490); the raw data provided for input consists of the two input files recovered. Importantly, FASTA sequences for both of these datasets are available as supplementary data through GEO, and we can make available upon request (rsciamma@uchicago.edu) all files in our study in the ELAND-extended alignment format. Please note that GEO no longer supports this format.
+
+DESIGN
+Resting mature peripheral primary B cells were enriched from the spleens of B1-8i (anti-NP gene targeted) mice. We sought to compare the genome-binding landscape of Irf4 and PU.1 prior to differentiation yet after B cell activation (Day 1) and after B cell differentiation (Day 3) of activated B cells into plasma cells (see Molecular Systems Biology 7:495 for description of cellular system). To this end, we used ChIP-seq (using the Illumina GA2 system) to obtain millions of unbiased, genome-wide, binding events. Sequences were mapped to the reference genome (mm9) and enrichment was calculated, relative to an Input sample, using QuEST algorithms.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus)
+
+CITATIONS
+23684984
+

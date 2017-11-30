@@ -1,0 +1,18 @@
+TITLE
+Genome wide mapping of transcription factor downstream targets using STAGE
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Identifying the chromosomal targets of transcription factors is important for reconstructing the transcriptional regulatory networks underlying global gene expression programs. We have developed an unbiased genomic method called sequence tag analysis of genomic enrichment (STAGE) to identify the direct binding targets of transcription factors in vivo. STAGE is based on high-throughput sequencing of concatemerized tags derived from target DNA enriched by chromatin immunoprecipitation. We optimized the STAGE protocol and developed analysis methods to allow the identification of transcription factor targets in human cells. We used STAGE to identify targets of human transcription factors c-myc and STAT1. STAGE provides a means of identifying the chromosomal targets of DNA-associated proteins in any sequenced genome. Keywords: ChIP Sequencing
+
+DESIGN
+STAGE is based on high-throughput sequencing of tags of defined length that are derived from DNA enriched by ChIP. Proteins were cross-linked to their binding sites in vivo with formaldehyde and chromatin was extracted and sheared. The cross-linked protein-DNA complexes were immunoprecipitated, cross-links were reversed and ChIP DNA was amplified by PCR using biotinylated primers. Amplified DNA fragments were digested with NlaIII, which cuts at 5'-CATG sites. Fragments with ends containing the NlaIII site were isolated by binding to streptavidin beads. They were separately ligated to one of two linkers containing a MmeI site, then incubated with MmeI, which cleaves 21 bp away from its recognition site. The 21-bp tags attached to linkers were isolated and ligated to create ditags. Ditags were amplified by PCR using nested primers and trimmed by digesting with NlaIII. Trimmed ditags were gel purified, concatemerized by ligation, cloned and sequenced. With the advent of pyrosequencing, ditags were directly sequenced without the need for any cloning.
+
+PLATFORM
+GPL1485 SAGE:17:NlaIII:Homo sapiens
+
+CITATIONS
+15782160 , 17571346
+

@@ -1,0 +1,18 @@
+TITLE
+PolyA RNA-seq from HCT116 (WT and CDK8as/as) cells in normoxia or hypoxia and treated with DMSO or 3MB-PP1
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+To determine the impact of CDK8 kinase activity on steady-state mRNA levels, we performed RNA-seq analysis of colorectal carcinoma cell line HCT116 (CDK8wt/wt and CDK8as/as) in the presence of absence of 3MB-PP1 to specifically inhibit analog senstitive (as) CDK8.
+
+DESIGN
+PolyA RNA for two independent biological replicates was purified  from HCT116 cells (CDK8wt/wt and CDK8as/as) incubated in normoxic (ambient oxygen) or hypoxic (1% oxygen) conditions for 24 hrs and treated with DMSO or the ATP-analog 3MB-PP1, and was sequenced on the Ion Torrent Proton platform. Reads were aligned (GSNAP) to the human genome (hg19) and gene-level counts (HTseq-count) were used for differential expression analysis (DESeq2).
+
+PLATFORM
+GPL17303 Ion Torrent Proton (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

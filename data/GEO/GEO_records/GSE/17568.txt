@@ -1,0 +1,18 @@
+TITLE
+RNA expression analysis of cells producing the synthetic protein DX over a 4hr time course
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+We expressed the man-made protein DX in E. coli cells over the course of 4 hours and examined effects on global gene expression.
+
+DESIGN
+We analyzed the change in RNA expression profiles of E. coli cells expressing the synthetic protein DX every half-hour over a four hour experiment.  These samples were compared to un-induced control cells.   Each sample represents a different time point with the 647nm channel being the DX-expressing samples and the 555nm chanel being the un-induced controls.  Controls contained the DX cassette in the pBAD18 vector and were treated identically to the experimental cells, except the arabinose inducer was omitted from the growth media.  The 2.5 hour time point is omitted because the control cDNA failed to label properly.  No dye swaps or repeats were performed because:  a) we were examining trends over time and any anomalous or faulty spot would be excluded during analysis if it were not part of a general trend, and b) Microarray data is not being used to draw conclusions, but rather to draw a picture of what was changing in the cell and open up avenues of exploration.
+
+PLATFORM
+GPL8984 Biodesign Inst. at ASU Escherichia coli Agilent-020097 array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

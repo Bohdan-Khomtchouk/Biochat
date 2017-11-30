@@ -1,0 +1,18 @@
+TITLE
+Transcriptome sequencing to systematically detect trans-splicing in human embryonic stem cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Trans-splicing occurs post-transcriptionally and generates transcripts that are orderly inconsistent with their corresponding DNA templates. Until recently only exceedingly rare trans-splicing events have been experimentally characterized in the mammalian transcriptomes. Although hundreds to thousands of trans-spliced RNA candidates have been nominated by bioinformatics- or NGS (next-generation sequencing)-based approaches, these candidates unavoidably suffered from potential false positives arising from genetic rearrangement events or in vitro artifacts. Here we develop a pipeline (TSscan) based on NGS transcriptome data to identify trans-splicing in human embryonic stem cells (ESCs). TSscan integrates RNA sequencing data derived from different NGS platforms (i.e., Roche 454, SOLiD, and Illumina) and different human ESC lines (i.e., H1 and H9) as well as several in silico filters to minimize these two types of potential false positives. Our result shows that a tremendous amount of apparent experimental artifacts are indeed present in NGS data, which may be the most major false positives of trans-splicing detection. TSscan totally identified 10 trans-spliced RNA candidates in human ESCs, four of which are experimentally validated to be true. Further experiments reveal that these four events represent differential expression during the transition of pluripotent status to differentiate statuses. Especially, we observe that one event (the trans-spliced isoform of NCRMS), which is also a large intergenic non-coding RNA, tends to be specifically transcribed in ESCs and induced pluripotent stem cells and can conspicuously affect the pluripotency maintenance of ESCs. As far as we know, TSscan is the first pipeline for systematic identification of trans-splicing that utilizes NGS data in the human transcriptome, opening up an important class of post-transcriptional events for comprehensive characterization.
+
+DESIGN
+human embryonic stem cell H9
+
+PLATFORM
+GPL9186 454 GS FLX (Homo sapiens) GPL9442 AB SOLiD System 3.0 (Homo sapiens)
+
+CITATIONS
+24131564
+

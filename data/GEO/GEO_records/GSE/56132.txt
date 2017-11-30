@@ -1,0 +1,18 @@
+TITLE
+Diatom transcriptomics under nitrate limitation
+
+ORGANISM
+Thalassiosira pseudonana ; Pseudo-nitzschia multiseries ; Fragilariopsis cylindrus
+
+SUMMARY
+Here, we examined the ramifications of between-species diversity by documenting the transcriptional response of three marine diatoms - Thalassiosira pseudonana, Fragilariopsis cylindrus, and Pseudo-nitzschia multiseries - to the onset of nitrate limitation of growth, a common limiting nutrient in the ocean. Less than 5% of orthologous genes, shared across the three diatoms, displayed the same transcriptional responses across species when growth was limited by nitrate availability. Orthologs, such as those involved in nitrogen uptake and assimilation, as well as carbon metabolism, were differently expressed across the three species. The two pennate diatoms, F. cylindrus and P. multiseries, shared 3,839 clusters without orthologs in the genome of the centric diatom T. pseudonana. A majority of these pennate-clustered genes, as well as the non-orthologous genes in each species, had minimal annotation information, but were often significantly differentially expressed under nitrate limitation, indicating their potential importance in the response to nitrogen availability. Despite these variations in the specific transcriptional response of each diatom, overall transcriptional patterns suggested that all three diatoms displayed a common physiological response to nitrate limitation that consisted of a general reduction in carbon fixation and carbohydrate and fatty acid metabolism and an increase in nitrogen recycling.
+
+DESIGN
+Transcriptomes were collected for diatom cultures harvested at the onset of stationary phase in low nitrate media (55 μM NaNO3, 212 μM Na2SiO3, 72.4 μM NaH2PO4), or at the onset of stationary phase in low silicic acid media (1764 μM NaNO3, 53 μM Na2SiO3, 72.4 μM NaH2PO4), or during mid-exponential growth in nutrient-replete media (882 μM NaNO3, 106 μM Na2SiO3, 36.2 μM NaH2PO4) in artificial seawater, maintaining three biological replicates per condition and per diatom (N=27). The SOLiD sequencer (version 4) was used to generate the transcriptomes and the SEAStAR software package was used to process the SOLiD reads and to calculate gene counts. Pooled counts for each nutrient-limited treatment were normalized to pooled counts for the nutrient-replete “control” treatment to generate log fold changes in gene transcription using the R software package edgeR from Bioconductor.
+
+PLATFORM
+GPL18457 AB SOLiD 4 System (Thalassiosira pseudonana) GPL18458 AB SOLiD 4 System (Fragilariopsis cylindrus) GPL18459 AB SOLiD 4 System (Pseudo-nitzschia multiseries)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

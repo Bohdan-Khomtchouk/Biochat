@@ -1,0 +1,18 @@
+TITLE
+Gene Expression profiling and pathway analysis in MCF-7 and MDA-MB-231 human breast cancer cell lines treated with dioscin
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The long-term goal of our study is to understand the genetic and epigenetic mechanisms of breast cancer metastasis in human and to discover new possible genetic markers for use in clinical practice. We have used microarray technology (Human OneArray microarray, phylanxbiotech.com) to compare gene expression profiles of non-invasive MCF-7 and invasive MDA-MB-231 cells exposed to dioscin (DS), a steroidal saponin isolated from the roots of wild yam, (Dioscorea villosa). Initially the differential expression of genes (DEG) was identified that followed pathway enrichment analysis (PEA). Of the genes queried on OneArray, we identified 4641 DEG changed between MCF-7 and MDA-MB-231 cells (vehicle-treated) with cut-off log2 |fold change|≧ 1. Among these genes, 2439 genes are upregulated and 2002 genes are downregulated. DS exposure (2.30 M, 72 h) to these cells identified 801 (MCF-7) and 96 (MDA-MB-231) DEG that showed significant difference compared to untreated cells (p < 0.05). Within these gene sets, DS is able to upregulate 395 genes and downregulate 406 genes in MCF-7 and upregulate 36 and downregulate 60 genes in MDA-MB-231 cells.  Further comparison of DEG between MCF-7 and MDA-MB-231 cells exposed to DS identified 3626 DEG of which 1700 were upregulated and 1926 genes were down-regulated. From PEA, 12 canonical pathways were significantly altered between these two cell lines (MCF-7 and MDA-MB-231). However, no alteration in any of these pathways was noticed in MCF-7 cell, while in MDA-MB-231 cells only MAPK pathway showed significant alteration. When PEA comparison was made on DS exposed cells, it was observed that only 2 pathways were significantly affected. Further, to identify shared DEG, which are targeted by DS and overlapped in both MCF-7 and MDA-MB-231 cells, we performed intersection analysis (Venn diagram). We found that only 7 DEG are overlapped of which six are reported in the database. This study highlights the diverse gene networks and pathways through which DS exhibits its effect on breast cancer cells.
+
+DESIGN
+Two condition experiment. Human breast cancer Cell line MCF-7 groups: Vehicle control and dioscin treated; Human breast cancer cell line MDA-MB-231 cell group; vehicle control and dioscin-treated. Biological replicates: MCF-7 control compared to MCF-7 dioscin treated; MDA-MB-231 control compated to MDA-MB-231 dioscin-treated; MCF-7 control compared to MDA-MB-231 control; MCF-7 dioscin treated compared to MDA-MB-231 dioscin-treated. duplicate array
+
+PLATFORM
+GPL19137 Phalanx Human OneArray [Annotation HOA6 release 1.0]
+
+CITATIONS
+27331101
+

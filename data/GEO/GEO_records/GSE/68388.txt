@@ -1,0 +1,18 @@
+TITLE
+YAP drives growth by controlling transcriptional pause release from dynamic enhancers (HuCCT1_siRNA)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Hippo/YAP signaling pathway is a crucial regulator of tissue growth and stem cell activity.YAP, a transcriptional co-activator and main effector of the pathway,   is   also   a   powerful   driver   of   tumorigenesis However, the genetic program regulated by YAP and the mechanism by which YAP controls transcription remains to be fully elucidated. Here, we utilize global chromatin occupancy analyses to demonstrate that robust YAP binding is restricted to a relatively small number of distal regulatory elements in the genome. YAP-occupancy defines a subset of enhancers and super-enhancers with the highest transcriptional outputs. We  find  that  YAP  modulates  transcription  from  these elements  predominantly  by regulating  promoter-proximal  Polymerase  II  (PolII) pause  release. Mechanistically, YAP physically interacts and recruits the Mediator complex to enhancers, which then allows for recruitment of the CDK9 elongating kinase. Genetic and chemical perturbation experiments demonstrate the requirement for Mediator and CDK9 in YAP-driven phenotypes of overgrowth and tumorigenesis. Our results here uncover the molecular mechanisms employed by YAP to exert its growth and oncogenic functions, and suggest new strategies for intervention.
+
+DESIGN
+A total of eighteen ChIP-Seq samples are available. 8 conditions are available both in HuCCT1 cells treated with siRNA against YAP/TAZ and the siRNA control system for a total of sixteen samples: two samples directed against H3K27Ac histone mark, two samples against H3K4Me1 histone mark, two samples against Mediator 1, two samples against SMC1, two samples against Polymerase II, two samples against Phosphoserine 2 of Polymerase II tail and two samples against Phosphoserine 5  of Polymerase II tail. An exception is made for H3K4Me3 (available in this dataset for completeness regarding histone marks) and the control IgG.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26439301
+

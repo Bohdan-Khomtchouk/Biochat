@@ -1,0 +1,18 @@
+TITLE
+MNase-seq analysis of Col-0 and chr11-1 chr17-1
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Chromatin has a highly organized structure with the repeating nucleosome subunits. The position of nucleosomes on the chromatin is dynamically regulated by ATP-dependent chromatin remodeling factors (remodelers), therefore providing specific epigenetic information. However, the in vivo nucleosome distribution pattern in plants and how plant remodelers control the pattern formation are not yet clear. Here we use the Micrococcal Nuclease digestion followed by deep sequencing (MNase-seq) assay to show the genome-wide nucleosome pattern in plants and the role of the Arabidopsis thaliana Imitation Switch (AtISWI) subfamily remodelers in the pattern formation. Our data revealed three patterns in wild-type plants: 1) Promoters have a relative low nucleosome density compared with gene bodies; 2) Nucleosome density is negatively associated with gene expression levels; 3) The evenly and periodically spaced nucleosomes in gene bodies are positively associated with gene expression levels. Double mutations in the AtISWI genes CHROMATIN REMODELING 11 (CHR11) and CHR17 resulted in loss of the evenly-spaced-nucleosome pattern in gene bodies, but did not affect nucleosome density, suggesting that the primary role of AtISWI is to slide nucleosomes in gene bodies for promotion of transcription.
+
+DESIGN
+The overall design of the experiment: (1) Nuclear extraction from Col-0 and chr11-1 chr17-1. (2) MNase treatment. (3) DNA purification. (4) Library construction. (5) Deep sequencing. (6) Data analysis.
+
+PLATFORM
+GPL17639 Illumina HiSeq 2500 (Arabidopsis thaliana)
+
+CITATIONS
+24606212
+

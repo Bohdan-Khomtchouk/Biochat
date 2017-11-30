@@ -1,0 +1,18 @@
+TITLE
+Deep sequencing of small RNA facilitates tissue and sex associated microRNA discovery in zebrafish
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+The role of microRNAs in gene regulation has been well established. The extent of miRNA regulation also increases with increasing genome complexity. Though the number of genes appear to be equal between human and zebrafish, substantially less microRNAs have been discovered in zebrafish compared to human (Release 19). It appears that most of the miRNAs in zebrafish are yet to be discovered. We sequenced small RNAs from brain, gut, liver, ovary, testis, eye, heart and embryo of zebrafish.  In brain, gut and liver sequencing was done in male and female separately. Majority of the sequenced reads (16-62%) mapped to known miRNAs, with the exception of ovary (5.7%) and testis (7.8%). Using the miRNA discovery tool (miRDeep2), we discovered novel miRNAs from the un-annotated reads that ranged from 7.6 to 23.0%, with exceptions of ovary (51.4%) and testis (55.2%). The prediction tool identified a total of 459 novel pre-miRNAs. We compared expression of miRNAs between different tissues and between males and females to identify tissue associated and sex associated miRNAs respectively. These miRNAs could serve as putative biomarkers for these tissues. The brain and liver had highest number of tissue associated (22) and sex associated (34) miRNAs, respectively. This study comprehensively identifies tissue and sex associated miRNAs in zebrafish. Further, we have discovered 459 novel pre-miRNAs (~30% seed homology to human miRNA) as  a genomic resource which can facilitate further investigations to understand miRNA-mRNA gene regulatory networks in zebrafish which will have implications in understanding the function of human homologs.
+
+DESIGN
+Known miRNA profiling, novel miRNA discovery and identification of tissue associated and sex associated miRNAs from sRNA deep sequencing data of different tissues and embryo of zebrafish (in triplicate) was carried out using the Illumina HiSeq 2000 platform.
+
+PLATFORM
+GPL14875 Illumina HiSeq 2000 (Danio rerio)
+
+CITATIONS
+26574018
+

@@ -1,0 +1,18 @@
+TITLE
+Identification of the networks that regulate human monocytic myeloid-derived suppressor cell differentiation into inflammatory macrophages
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Monocytic myeloid-derived suppressor cells (mMDSC) support immune evasion of tumors by blocking tumoricidal T and NK cell response. Efforts to reverse mMDSC-mediated immunosuppression identified that the TLR7/8 agonist R848 induces their maturation into tumoricidal macrophages Purpose: The factors that determine whether human mMDSC differentiate into MACinflam or MACsuppress are unclear. To investigate this issue, the role of cytokines and genes activated following R848 treatment was examined. Methods: After 4 hour stimulation, cells from stimulated mMDSC were stored in RNA protect (Qiagen, Frederick, MD).  Total RNA was isolated using the RNeasy micro kit (Qiagen) and RNA quality was assessed using an Agilent 2200 TapeStation. mRNA libraries were generated using the Smart-Seq ultra-low input kit (Clontech) and sequenced using a HiSeq2500 sequencer using IlluminaTruSeq v4 chemistry with 125bp paired-end reads. Sequences were aligned to the human (hg19) reference genome. Genes that were differentially expressed compared to untreated samples were identified using CLC genomics workbench (version 10). Results: TNFa combined with IL-6 effectively supports the differentiation of mMDSC into tumoricidal macrophage by activating expression of conserved set of genes. Mechanistically, transcription factors NF-KB and STAT4 emerge as important regulators and potential targets to modify mMDSC behavior.
+
+DESIGN
+Blood was received from human donors, FACS sorted for MDSC cells and then cultured with R848 or Il6-TNFa for 4 hours.  Rna was collected and mRNA libraries were generated using the Smart-Seq ultra-low input kit (Clontech) and sequenced using a HiSeq2500 sequencer using IlluminaTruSeq v4 chemistry with 125bp paired-end reads. Sequences were aligned to the human (hg19) reference genome. Genes that were differentially expressed compared to untreated samples were identified using CLC genomics workbench (version 10)
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

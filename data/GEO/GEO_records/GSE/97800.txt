@@ -1,0 +1,18 @@
+TITLE
+Evolution of Reduced Co-Activator Dependence Led to Target Expansion of a Starvation Response Pathway [Cgla RNA-seq]
+
+ORGANISM
+[Candida] glabrata
+
+SUMMARY
+In S. cerevisiae, the phosphate starvation (PHO) responsive transcription factors Pho4 and Pho2 are jointly required for induction of phosphate response genes and survival in phosphate starvation conditions. In the related human commensal and pathogen C. glabrata, Pho4 is required but Pho2 is dispensable for survival in phosphate-limited conditions and is only partially required for inducing the phosphate response genes. This reduced dependence on Pho2 evolved in C. glabrata and closely related species. Pho4 orthologs that are less dependent on Pho2 induce more genes when introduced into the S. cerevisiae background, and Pho4 in C. glabrata both binds to more sites and induces more genes with expanded functional roles compared to Pho4 in S. cerevisiae. We used RNA-seq to profile the transcriptome of wild type and mutants of Pho4 / Pho2 in C. glabrata, to identify genes induced by Pho4.
+
+DESIGN
+The goal is to identify genes induced by Pho4 in C. glabrata (CgPho4), either with or without C. glabrata Pho2 (CgPho2) in a genetic background where the negative regulator of Pho4, Pho80, is deleted. Pairwise comparisons such as that between PHO4 wild-type and pho4Δ strain, in the pho80Δ CgPHO2 background, will identify genes induced by Pho4 in the presence of Pho2. For each strain, two biological replicates, i.e. the same genotype grown, collected and processed separately, were analyzed by RNA-seq.
+
+PLATFORM
+GPL22622 Illumina HiSeq 2000 ([Candida] glabrata)
+
+CITATIONS
+28485712
+

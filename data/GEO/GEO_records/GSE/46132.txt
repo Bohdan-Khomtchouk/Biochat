@@ -1,0 +1,18 @@
+TITLE
+Genome-wide analysis of gene expression in bladder cancer cell lines 253JB-V and UM-UC13 exposed to bortezomib
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We previously showed that the proteasome inhibitor bortezomib (Velcade) induces cell death in a subset of human bladder cancer cell lines. Heat shock protein 72 kDa (Hsp72) is the major cytosolic stress-inducible molecular chaperone, and is thought to protect cells from proteasome inhibition. Here, using whole genome mRNA expression profiling, we identify isoform-specific expression of Hsp72 within a heterogeneous panel of bladder cancer cell lines.  Bortezomib induced strong upregulation of both the HSPA1A and HSPA1B isoforms of Hsp72 in 253J B-V and SW780 (HSPA1A-high) cells, whereas only HSPA1B isoform expression was induced in UM-UC10 and UM-UC13 (HSPA1A-low) cells.  Bortezomib stimulated the binding of heat shock factor-1 (HSF1) to the HSPA1A promoter much more efficiently in 253JB-V cells than in UM-UC13, but other HSF1 transcriptional targets were induced in all of the cell lines, implicating a specific defect in HSPA1A induction.  Methylation-specific PCR revealed that the HSPA1A promoter was selectively methylated in the HSPA1A-low cell lines (UM-UC10 and UM-UC13), and exposure to the chromatin demethylating agent 5-aza-2'-deoxycytidine restored HSPA1A expression. Overexpression of Hsp72 promoted bortezomib resistance in the UM-UC10 and UM-UC13 cells, whereas transient knockdown of HSPA1B sensitized these cells to bortezomib.  Exposure to the chemical HSF1 inhibitor KNK-437 promoted bortezomib sensitivity in the 253J B-V cells.  Finally, shRNA-mediated stable knockdown of Hsp72 in 253J B-V promoted sensitivity to bortezomib both in vitro and in vivo.  Together, our results suggest that a subset of human bladder cancer cells possess epigenetic modifications that shut off the HSPA1A promoter and increases dependency on the HSPA1B isoform to maintain Hsp72 expression. Our data also support the targeting of HSF1 or Hsp72 for use as tools to enhance bortezomib sensitivity in solid tumors.
+
+DESIGN
+RNA was isolated from cells using the TRIzol Reagent (Invitrogen/ Life Technologies, Grand Island, NY), followed by cleanup with RNeasy Mini kits (Qiagen, Germantown, MD). RNA was used for the synthesis of biotin-labeled cRNA, which was prepared using the Illumina RNA amplification kit (Ambion/ Life Technologies), and then hybridized to Illumina Human-HT12 (Illumina, Inc., Hayward, CA) chips. Washed chips were scanned with BeadStation 500x (Illumina) and the signal intensities quantified with BeadStudio (Illumina).
+
+PLATFORM
+GPL6947 Illumina HumanHT-12 V3.0 expression beadchip
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

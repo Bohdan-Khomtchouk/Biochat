@@ -1,0 +1,18 @@
+TITLE
+Combined Genome and Transcriptome Sequencing to Identify Allelic Selection in Epithelial Ovarian Cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Identifying genes where a variant allele is preferentially expressed in tumors could lead to a better understanding of cancer biology and optimization of targeted therapy. However, tumor sample heterogeneity complicates standard approaches for detecting preferential allele expression. We therefore developed a novel approach combining genome and transcriptome sequencing data from the same sample that corrects for sample heterogeneity and identifies significant preferentially expressed alleles. We applied this analysis to epithelial ovarian cancer samples consisting of matched primary ovary and peritoneum and lymph node metastasis. We find that preferentially expressed variant alleles include germline and somatic variants, are shared at a relatively high frequency between patients and are in gene networks known to be involved in cancer processes. Analysis at a patient level identifies patient-specific preferentially expressed alleles in genes that are targets for known drugs. Analysis at a site level identifies patterns of site specific preferential allele expression with similar pathways being impacted in the primary and metastasis sites. We conclude that genes with preferentially expressed variant alleles can act as cancer drivers and that targeting those alleles could lead to new therapeutic strategies.
+
+DESIGN
+Three cancer patients, three tumor samples per patient from different sites, two normal tissue samples from two different patients, four cell lines.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+26735499
+

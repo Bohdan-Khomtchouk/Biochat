@@ -1,0 +1,18 @@
+TITLE
+Identification of a CD271-associated signaling network in human malignant melanoma cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Large-scale genomic analyses of patient cohorts have revealed extensive heterogeneity between individual tumors, contributing to treatment failure and drug resistance. In malignant melanoma, heterogeneity is thought to arise as a consequence of the differentiation of melanoma-initiating cells that are defined by cell-surface markers like CD271 or CD133. Results: Here we identified the nerve growth factor receptor (CD271) as a crucial determinant of melanoma cell tumorigenicity, stem-like properties, heterogeneity and plasticity. Stable shRNA mediated knock-down of CD271 in patient-derived melanoma cells abrogated their tumor-initiating and colony-forming capacity. A genome-wide expression profiling and gene-set enrichment analysis revealed novel connections of CD271 with melanoma-associated genes like CD133 and points to a neural crest stem cell (NCSC) signature lost upon CD271 knock-down. In a meta-analysis, we found CD271 linked to the neural crest specifier SOX10 and observed a shared set of 271 differentially regulated genes. To dissect the connection of CD271 and CD133 we analyzed 10 patient-derived melanoma-cell lines for cell-surface expression of both markers compared to established cell lines MeWo and A375. We found CD271+ cells in the majority of cell lines analyzed as well as in a set of 16 different patient-derived melanoma metastases. Strikingly, only 2/12 cell lines harbored a CD133+ sub-set that in addition comprised a fraction of cells of a CD271+/CD133+ phenotype. Those cells were found in the label-retaining fraction and in vitro deduced from CD271+ but not CD271 knock-down  cells. Conclusions: Our present study provides a deeper insight into the regulation of melanoma cell properties and points CD271 out as a regulator of several melanoma-associated genes. Further, our data strongly suggest CD271 is a crucial determinant of stem-like properties of melanoma cells like colony-formation and tumorigenicity.
+
+DESIGN
+For knock-down of CD271 (NGFR), melanoma cells were transfected with 2 µg of each shRNA plasmid; #2: 5’-ACAACCTCATCCCTGTCTATT-3’; #3: 5’-CCCGAGCACATAGA CTCCTTT-3’ and #4: 5’-CCGAGCACATAGACTCCTTTA-3’ or control shRNA (shCtl 5’-GGAATCTCATTCGATGCATAC-3’; all from Quiagen) using Lipofectamine2000 (Invitrogen). Cells were selected with puromycin (10µg/ ml) over a period of two weeks. Whole genome expression profiling of CD271k.d. cells (shRNA#4) and shCtl. cells was performed with three biological replicates. Illumina raw data of BeadChip HumanHT-12V4 platform were summarized via the BeadStudio without normalization and background correction. Follow-up processing was done via the R/Bioconductor environment employing packages lumi, limma and q-value. Data were normalized with quantile normalization. Genes were termed significantly differentially expressed when the average detection p-value of at least one case was < 0.05  the ratio was outside the interval [0.75,1.33], one of the p-values from limma test, Student's t-test, Welch test and Wilcoxon test was < 0.05. At least one of the q-values corresponding to one of these tests < 0.05.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+24799129
+

@@ -1,0 +1,18 @@
+TITLE
+Specificity quantification of Glucocorticoid receptor binding using high-throughput sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In this work, we used our recently developed method Spec-seq to characterize the binding specificity of Glucocorticoid receptor in vitro.
+
+DESIGN
+This GR Spec-seq experiment has been run twice separately (Dec 2014 and Mar 2015) with different library compositions. The basic workflow is the same as our previous work for lac repressor published in  Genetics 198.3 (2014): 1329-1343. Recombinant human GR protein was used to facilitate in vitro DNA-binding and separation experiments. Bound and Unbound DNA fragments were separated in EMSA gels, purified, barcoded for further Illumina sequencing.  An initial experiment was performed using the putative consensus sequence: AGAACA GGG TGTTCT; randomized library 1: AGAACN NSN NGTTCT [diversity =512]; randomized library 2: AGAANN GGG NNNTCT [diversity = 1024]; randomized library 3: AGAACA GGG TGNNNN [diversity =256]; randomized library 4: AGAACA GGGC NNNTCT [diversity = 64]. The initial total library diversity was ~1853 with a library composition of 10% positive control sequence + randomized libraries 1-4 + 5% negative control sequence. A 5th library containing 2304 sequences based on DDNACW KKN KGTTCT, where D= " not C " , N= " any base " , W= " A or T " and K= " G or T " was subsequently prepared and analyzed using similar ratios of control sequences. Binding conditions for EMSA were 100ng FAM-labelled dsDNA+ 0/0.5/1/2/4uM GR DBD protein for each lane, 1X NEB buffer 4. GR DBD was prepared as previously described. The EMSA was performed using a 9% 33:1 acrylamide gel and TB buffer, and was run at 200V for 30mins @ 0 degrees C. The 2uM protein lane used for final sequencing. Bound/unbound fractions resulting from EMSA of these libraries and conditions were used to generate PWMs as described. The GR PWM that was generated through this analysis was used to define relative binding energies using the patser program (35), which can be accessed online at ( http://stormo.wustl.edu/consensus/cgi-bin/Server/Interface/patser.cgi ). Derived binding affinities are proportional to the inverse of the natural log of the calculated energies.
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens)
+
+CITATIONS
+26088140
+

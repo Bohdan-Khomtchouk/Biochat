@@ -1,0 +1,18 @@
+TITLE
+Genome-wide DNA methylation profiling of Progeria and Werner syndrome patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+DNA methylation gradiently changes with age and is likely to be involved in aging-related processes resulting in phenotype changes and increased susceptibility to certain diseases. The Hutchinson-Gilford Progeria Syndrome (HGP) and Werner Syndrome are two premature aging diseases showing features of common aging. Mutations in LMNA and WRN genes were associated to disease onset; however for a subset of patients the underlying causative mechanisms remain elusive. We aimed to evaluate the role of epigenetic alteration on premature aging diseases by performing genome-wide DNA methylation profiling of HGP and WS patients.
+
+DESIGN
+DNA was quantified by Quant-iT PicoGreen dsDNA Reagent (Invitrogen) and the integrity was analyzed in a 1.3% agarose gel. Bisulfite conversion of 600 ng of each sample was perform according to the manufacturer's recommendation for Illumina Infinium Assay. Effective bisulphite conversion was checked for three controls that were converted simultaneously with the samples. 4 ul of bisulfite converted DNA were used to hybridize on Infinium HumanMethylation 450 BeadChip, following Illumina Infinium HD Methylation protocol. Chip analysis was performed using Illumina HiScan SQ fluorescent scanner. The intensities of the images are extracted using GenomeStudio (2010.3) Methylation module (1.8.5) software. Methylation score of each CpG is represented as beta value. Naive B-cells and peripheral blood mononuclear cells were analyzed to correct for the epigenetic effects of the Epstein-Barr virus immortalization (lymphoblastoid cell lines) and cell composition of the samples, respectively.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+23257959
+

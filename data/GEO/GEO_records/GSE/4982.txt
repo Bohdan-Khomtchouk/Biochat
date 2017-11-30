@@ -1,0 +1,18 @@
+TITLE
+Dye Bias Array Set
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Spot intensity serves as a proxy for gene expression in dual-label microarray experiments. Dye bias is defined as an intensity difference between samples labeled with different dyes attributable to the dyes instead of the gene expression in the samples. Dye bias that is not removed by array normalization can introduce bias into comparisons between samples of interest. But if the bias is consistent across the samples for the same gene, it can be corrected by proper experimental design and analysis. If the dye bias is not consistent across samples for the same gene, but is different for different samples, then removing the bias becomes more problematic, perhaps indicating a technical limitation to the ability of fluorescent signals to accurately represent gene expression. Thus, it is important to characterize dye bias to determine: (1) whether it will be removed for all genes by array normalization, (2) whether it will not be removed by normalization but can be removed by proper experimental design and analysis and (3) whether dye bias correction is more problematic than either of these and is not easily removable. Keywords: dye swap design
+
+DESIGN
+For two dual-label experiments, one with cDNA arrays and the other with printed oligonucleotide arrays, Stratagene universal human reference RNA was used as a standard for testing with RNA from cell lines MCF10a, LNCAP, L428, SUDHL, OCILY3 and Jurkat. All arrays were dye-swapped at least twice. There were a total of 28 cDNA arrays and 30 oligonucleotide arrays.
+
+PLATFORM
+GPL1262 NCI/ATC Hs-UniGEM2 GPL1528 NCI/ATC Hs-OperonV2
+
+CITATIONS
+15774555
+

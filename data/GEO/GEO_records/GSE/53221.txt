@@ -1,0 +1,18 @@
+TITLE
+RF003-V3: Glucocorticoid-responsiveness correlates with an Interferon signature in Rheumatoid Arthritis Patients
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Pathogenesis of Rheumatoid arthritis (RA) is driven by monocytes and T-cells, which are heavily influenced by Glucocorticoids (GC). Although a cornerstone of RA-therapy, one third of RA-patients do not respond adequately to GC and the mechanisms of resistance have not yet been clarified. Objective: To find differences in GC-working mechanism in RA-patients responding versus GC-resistant patients by gene expression profiling. Methods: Patients were treated with 3x 1000mg Methylprednisolone. Before start (T0) and 24 hours (T24) after first treatment, CD14+ and CD4+cells were MACS-isolated At day 5, response was determined using the DAS28. Labeled cRNA from 5 GC-Responders and 5 Non-Responders was hybridized to Agilent 4x44K microarray chips. Differentially expressed genes between T0 and T24 were identified using MAANOVA, FWER (family wise error rate) correction and a > 1.5 ratio cut-off. Gene Ontology was used for pathway analysis; Transcription-factors were identified via TRANSFAC. Selected genes were validated by qPCR. Results: After 24 hours, 48 genes were exclusively changed in GC-Responders’ monocytes (CD4+cells: 19), 253 exclusively in Non-Responders (CD4+cells: 104) and 104 genes in both (CD4+: 18). In both cell-types a more pronounced down-regulation of interferon related genes was seen in Non-Responders, which was validated by qPCR in CD4+cells. At T24 higher expression of ERAP2 and FAM26F was seen in GC-Responders compared to Non-Responders. Several relevant transcription-factors were identified, among which LEF1in both cell types. Conclusion: GC treatment resulted in stronger suppression of the interferon signature in Non-Responders. This might be disease-specific, but should prompt further investigation of GC-mechanism in several auto-immune diseases known for an interferon signature.
+
+DESIGN
+PBMC from patients were obtained 24 hours after start of pulse therapy (T24) by density centrifugation of heparinized blood over Ficoll-Hypaque (Amersham Biosciences). CD14+ monocytes and CD4+ T-cells were isolated by positive (CD14-cells) or negative (CD4-cells) selection by AutoMACS (Miltenyi Biotec, Auburn, CA) and the respective isolation kits for CD14- or CD4- isolation (Miltenyi Biotec). Purity of the viable population assessed by flow cytometry was generally > 90%.  RNA was isolated using the RNeasy Mini Kit from Qiagen (Venlo, The Netherlands).    All patient sample cRNAs were labeled with cy5,  and co-hybridized with reference cRNA, labeled with cy3 on Human Whole Genome Gene Expression Microarrays v1. Differences between responders (RF-iv-r-) and non-responders (RF-iv-nr-) were analyzed.
+
+PLATFORM
+GPL13384 A-UMCU-HS44K-1.0
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

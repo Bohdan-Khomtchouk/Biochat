@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis in MDCK cells on anti-influenza A activity of bakuchiol
+
+ORGANISM
+Canis lupus familiaris
+
+SUMMARY
+Bakuchiol is a phenolic isoprenoid compound present in Babchi (Psoralea corylifolia Linn.) seeds. We examined the anti-influenza activity of synthetic bakuchiol using Madin-Darby canine kidney (MDCK) cells. We found that the naturally occurring form, (+)-(S)-bakuchiol, and its enantiomer, (-)-(R)-bakuchiol, inhibited influenza A infection and growth, and reduced the expression of viral mRNAs and proteins in MDCK cells. However, the molecular mechanism in anti-influenza activity of bakuchiol remains unclear. Thus, to evaluate its molecular mechanism in host cells, we performed the next generation sequencing analysis of the MDCK transcriptome in cells treated with bakuchiol and influenza A/PR/8/34. These results provide keys to elucidate the molecular mechnism of anti-influenza activity of bakuchiol for us, and these data will contribute to the development of novel approaches to anti-influenza treatments.
+
+DESIGN
+We used next generation sequence (NGS) to conduct a comprehensive transcriptome analysis in MDCK cells treated with bakuchiol and influenza virus (A/PR/8/34). (+)-(S)-Bakuchiol or (–)-(R)-bakuchiol (25 uM) were mixed with A/PR/8/34 at a MOI of 0.1. DMSO (0.25%) was used as a negative control. Each mixture was added to the MDCK cells and incubated for 24 h before extracting total RNA from the cell lysates. mRNA sequencing libraries were constructed from each total RNA extract using SureSelect Strand Specific RNA Library Preparation Kit. Thirty-six-base-pair, single-end-read RNA sequencing tags were generated using an Illumina Hiseq2500 sequencer. RNA sequencing tags that mapped to the dog reference genome sequences (CanFam3 genome) were analyzed. The reads per kilobase per million mapped reads (RPKM) was calculated for the mRNA transcripts in Ensemble gene. Genes that showed a > 1.5 fold-change in RPKM value in (+)-(S)-bakuchiol-treated MDCK cells are indicated. The complete NGS transcriptome analysis has been deposited in the DNA Data Bank of Japan database (accession number: DRA003499).
+
+PLATFORM
+GPL20988 Illumina HiSeq 2500 (Canis lupus familiaris)
+
+CITATIONS
+26446794
+

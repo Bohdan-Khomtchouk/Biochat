@@ -1,0 +1,18 @@
+TITLE
+ICSBP-mediated immune protection against BCR-ABL-induced leukemia requires the CCL6 and CCL9 chemokines
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Interferon is effective at inducing complete remissions in patients with Chronic Myelogenous Leukemia (CML), and evidence supports an immune mechanism. Here we show that the Type I Interferons (alpha and beta) regulate expression of the Interferon consensus sequence binding protein (ICSBP) in bcr-abl transformed cells and as shown previously for ICSBP, induce a vaccine-like immunoprotective effect in a murine model of bcr-abl induced leukemia. We identify the chemokines CCL6 and CCL9 as genes prominently induced by the Type I Interferons and ICSBP, and demonstrate that these immunomodulators are required for the immunoprotective effect of ICSBP expression. Insights into the role of these chemokines in the anti-leukemic response of interferons suggest new strategies for immunotherapy of CML.
+
+DESIGN
+Total RNA was isolated from parental BaF3 cells as well as BaF3 cells expressing BCR-ABL, ICSBP, or both BCR-ABL and ICSBP. Using standard Affymetrix protocols the RNA samples were analyzed for gene expression using Affymetrix mouse 430_2 whole genome microarrays arrays. A threshold value of 50 was set for all genes and the list of genes filtered to include only those that had at least one Present flag ( " P " flag) in one of the 4 conditions. For each gene, the ratio of its expression in a particular condition and its expression in parental BaF3 cells was determined. Only genes that had at least a 3-fold up or down change in expression were considered, leaving a set of 1431 genes for further analysis. K-means clustering with Gene cluster 3.0 was used to group these 1431 genes into 15 clusters and JavaTree was used to visualize the results.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+19171873
+

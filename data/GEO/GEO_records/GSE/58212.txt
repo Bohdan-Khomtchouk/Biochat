@@ -1,0 +1,18 @@
+TITLE
+Integrated analysis reveals microRNA networks coordinately expressed with key proteins in breast cancer [mRNA]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BACKGROUND: The role played by microRNAs in the deregulation of protein expression in breast cancer is only partly understood. To gain insight, the combined effect of microRNA and mRNA expression on protein expression was investigated in three independent data sets. METHODS: Protein expression was modeled as a multilinear function of powers of mRNA and microRNA expression. The model was first applied to mRNA and protein expression for 105 selected cancer-associated genes and to genome-wide microRNA expression from 283 breast tumors. The model considered both the effect of one microRNA at a time and all microRNAs combined. In the latter case the Lasso penalized regression method was applied to detect the simultaneous effect of multiple microRNAs. RESULTS: An interactome map for breast cancer representing all direct and indirect associations between the expression of microRNAs and proteins was derived. A pattern of extensive coordination between microRNA and protein expression in breast cancer emerges, with multiple clusters of microRNAs being associated with multiple clusters of proteins. Results were subsequently validated in two independent breast cancer data sets. A number of the microRNA-protein associations were functionally validated in a breast cancer cell line. CONCLUSIONS: A comprehensive map is derived for the co-expression in breast cancer of microRNAs and 105 proteins with known roles in cancer, after filtering out the in-cis effect of mRNA expression. The analysis suggests that group action by several microRNAs to deregulate the expression of proteins is a common modus operandi in breast cancer.
+
+DESIGN
+The mRNA expression profiling of 283 breast cancer samples was performed using the SurePrint G3 Human GE 8x60K one-color microarrays from Agilent (Agilent Technologies, Santa Clara, CA, USA) according to the manufacturer’s protocol (One-Color Microarray-Based Gene Expression Analysis, Low Input Quick Amp Labeling, v.6.5, May 2010). For each sample, 100 ng of RNA was amplified and hybridized on the array. Scanning was performed with Agilent Scanner G2565A, using AgilentG3_GX_1Color as profile. Signals were extracted using FE v.10.7.3.1 and protocol GE1_107_Sep09 (Agilent Technologies). Arrays were log2-transformed, quantile normalized and hospital-adjusted by subtracting from each probe value the mean probe value among samples from the same hospital.
+
+PLATFORM
+GPL14550 Agilent-028004 SurePrint G3 Human GE 8x60K Microarray (Probe Name Version)
+
+CITATIONS
+25873999
+

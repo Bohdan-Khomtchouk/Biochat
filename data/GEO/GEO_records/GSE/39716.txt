@@ -1,0 +1,18 @@
+TITLE
+Expression data from pheochromocytoma (PHEO) and paraganglioma (PGL) tumor samples
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Genotype specific differences in expression profiles have been evaluated using human HuGene1.0-ST Gene Chips. In this dataset we include expression data obtained from 8 normal adrenal medulla and 45 PHEOs/PGLs patient samples. Viable appearing tissue from the center of the lesions was collected and snap frozen for RNA extraction. Each of the 45 PHEO/PGL samples was examined by pathologist upon resection. Patients PKh_27 and PKh_28 with SDHB mutation were from the same patient with samples taken from two different locations at different times. Diagnosis of PHEO/PGL has been confired in all cases histopathologically. The tissues were grouped according to genetic/syndromic background and tumor location into SDHB (n = 18), SDHD-A/T (n = 6), SDHD-HN (n= 8), and VHL (n = 13).
+
+DESIGN
+Microarray analysis was performed on normal and tumor samples. We used PAM model to identify minimum subset of genes selective for each mutation class. Heirarchical cluster analysis was used to identify samples with similar expression patterns. Data was validated using qRT-PCR analysis.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+23555188 , 25263965 , 24699253
+

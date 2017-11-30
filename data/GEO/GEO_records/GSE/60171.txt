@@ -1,0 +1,18 @@
+TITLE
+Control of embryonic stem cell identity by BRD4-dependent transcriptional elongation of super-enhancer associated pluripotency genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+BET-regulated transcriptome and BRD4, BRD2, BRD3 and Pol II ChIP-seq datasets in human ESCs before and after BET inhibition. Transcription factors and chromatin remodeling complexes are key determinants of embryonic stem cell (ESC) identity. In this study, we investigate the role of BRD4, a member of the bromodomain and extra-terminal domain (BET) family of epigenetic reader proteins, in control of ESC identity. We performed RNA-seq analyiss in the presense of small molecule inhibitors of BET proteins to show that BRD4 positively regulates the ESC transcriptome. We also integrated RNA-seq analysis with ChIP-sequencing datasets s for BRD4 (and for other BRD2 and BRD3) to demonstrate that BRD4 binds SEs and regulates the expression of SE-associated pluripotency genes. We have also conducted ChIP-seq analysis for Pol II binding to demonstrate that SE-associated genes depend on BRD4-dependent Pol II binding at TSS and gene body for their productive transcriptional elongation.
+
+DESIGN
+Total RNA was extracted from samples using the RNeasy Qiagen kit according to the manufacturer’s instructions. Deep sequencing of RNA (1ug) from hESCs FGF- or MS436-treated at day 1 and day 5 was performed as described in (Higgin et al., 2010c). Samples were subjected to PolyA  selection using magnetic oligo-dT beads. The resulting RNA samples were then used as input for library construction  as described by the manufacturer (Illumina, CA, USA). RNA libraries were then sequenced on the GAIIx system using 50bp single reads. Chromatin for ChIP-sequencing was obtained from FGF-maintained hESCs, vehicle or MS417-treated (at 250nM concentration for 6h) (10 to 20x106 cells/IP). ChIP-Seq libraries were generated using standard Illumina kit and protocol as described in (Ntziachristos et al., 2012). We performed cluster amplification and single read 50 sequencing-method using the Illumina HiSeq 2000, following manufacturer’s protocols.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens) GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25263550
+

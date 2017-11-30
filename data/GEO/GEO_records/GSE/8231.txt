@@ -1,0 +1,18 @@
+TITLE
+The embryonic muscle transcriptome of C. elegans
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Background: The force generating mechanism of muscle is evolutionarily ancient; the fundamental structural and functional components of the sarcomere are common to motile animals throughout phylogeny. Recent evidence suggests that the transcription factors that regulate muscle development are also conserved. Thus, a comprehensive description of muscle gene expression in a simple model organism should define a basic muscle transcriptome that is also expressed in animals with more complex body plans.  To this end, we have applied Micro-Array Profiling of C. elegans (MAPCeL) to muscle cell populations extracted from developing C. elegans embryos. Results: Fluorescence Activated Cell Sorting (FACS) was used to isolate myo-3::GFP-positive muscle cells, and their cultured derivatives, from dissociated early C. elegans embryos.  Microarray analysis identified 6,693 expressed genes, 1,324 of which are enriched in the myo-3::GFP positive cell population relative to the average embryonic cell.  The muscle-enriched gene set was validated by comparisons to known muscle markers, independently derived expression data, and GFP reporters in transgenic strains.  These results confirm the utility of MAPCeL for cell type-specific expression profiling and reveal that 60% of these transcripts have human homologs. Conclusions: This study provides a comprehensive description of gene expression in developing C. elegans embryonic muscle cells.  The finding that over half of these muscle-enriched transcripts encode proteins with human homologs suggests that mutant analysis of these genes in C. elegans could reveal evolutionarily conserved models of muscle gene function with ready application to human muscle pathologies. Keywords: time course, muscle cells, HLH-1 induction
+
+DESIGN
+Approximately 80 one- and two-cell stage embryos were collected from either heat-shock hlh-1 (KM267) or heat-shock pal-1(JA1179) worms and were incubated for 20 min (hs pal-1) or 60 min (hs hlh-1) at room temperature prior to a heat pulse at 34oC for 30min.  After the heat pulse, embryos were incubated at room temperature for 2, 4, and 6 hours (hs hlh-1) or 2, 4, 6, and 8 hours (hs pal-1) prior to total RNA isolation. Embryos were also collected prior to heat shock as a control (0 hour).  Triplicate independent samples were prepared for all time points.  All hs pal-1 experiments were performed on embryos derived from skn-1, pop-1 double RNAi injected animals.  The isolation of total RNA from embryos followed the procedures in (Baugh et al. 2003). Total RNA was used with the Super Smart PCR cDNA synthesis kit (BD Clontech) in 20 cycles with a modified primer (SMART7T27 Primer: 5'-TGAAGCAGTGGTAACAACGCAGAGTAATACGACTCACTATAGGGAGAAGC(T)27VN -3') prior to one cycle target labeling reaction by standard procedures (Affymetrix).  Affymetrix C. elegans gene chips (P/N900383, ~22,500 transcript probes) were processed according to manufactures protocol using the NIDDK Genomics Core Laboratory.  Microarray data was normalized by MAS5 prior to analysis using GeneSpring software (Silicon Genetics).
+
+PLATFORM
+GPL200 [Celegans] Affymetrix C. elegans Genome Array
+
+CITATIONS
+17848203
+

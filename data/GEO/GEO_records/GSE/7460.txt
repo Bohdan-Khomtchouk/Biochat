@@ -1,0 +1,18 @@
+TITLE
+Contribution of Foxp3 to the Treg signature
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The transcription factor Foxp3 is usually considered the master regulator for the CD4+CD25+ " Treg " lineage, which plays a key role in controlling immune and autoimmune responses, and is characterized by a unique transcriptional signature. We have performed a meta-analysis of this signature in Treg cells in several conditions to delineate the elements that can be ascribed to T cell activation, TGFbeta signaling, or Foxp3 itself. We find that these influences synergize to activate many of the signature’s components. Foxp3 and TGFbeta signaling have interconnected relationships, as Foxp3 is induced by TGFbeta while enhancing TGFbeta’s positive feedback loop.  Much of the Treg signature cannot be ascribed to Foxp3, as it contains gene clusters that are co-regulated, but cannot be transactivated, by Foxp3.  This suggests that the Treg lineage is specified at a higher level of regulation, upstream of Foxp3, which does control some of the lineage’s essential immunoregulatory attributes. Keywords: Cell population comparison
+
+DESIGN
+All gene expression profiles were obtained from highly purified T cell populations sorted by flow cytometry.  To reduce variability, cells from multiple mice were pooled for sorting, and three replicates were generated for essentially all groups. RNA from 0.5-2.5 x 105 cells was amplified, labeled, and hybridized to Affymetrix M430v2 microarrays. Raw data were preprocessed with the RMA algorithm in GenePattern, and averaged expression values were used for analysis.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+18024188
+

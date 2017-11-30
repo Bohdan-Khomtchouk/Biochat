@@ -1,0 +1,18 @@
+TITLE
+Wnt/beta-catenin-signaling in immortalized mouse adrenocortical cell line ATCL7
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+In order to investigate genes regulated by Wnt/Beta-catenin-signaling in immortalized mouse adrenocortical cells, we treated a pair of ATCL7 cell cultures, one with BIO, a small molecule mimicking Wnt/Beta-catenin-signaling, the other with a control treatment. We repeated this 3 additional times resulting in 4 pairs of samples. The Wnt/beta-catenin pathway is not basally active in ATCL7 cells, nor do these cells appear to contain any mutations in the Wnt/Beta-catenin pathway. ATCL7 cells were grown under standard conditions at 37°C in a humidified incubator containing 5% CO2. 250,000 ATCL7 cells per sample were treated with 0.5uM BIO (6-Bromoindirubin-3'-oxime) or 0.01% DMSO (v/v) for 24 hours, in DMEM:F12 growth media containing 100U/mL pencillin/streptomycin, 1X insulin-transferrin-selenium-X, 0.025% fetal bovine serum and 0.025% horse serum. Cells were harvested and RNA was extracted using an RNeasy Plus Mini Kit (Qiagen). Biotinylated cDNA were prepared according to the Ambion WT kit protocol from 250 ng total RNA (GeneAtlas™ WT Expression Kit User Manual P/N 702935 Rev. 3). We assayed the targets with Affymetrix Mouse Gene ST 1.1 strip arrays. We modeled the data using paired T-tests for each probe-set. We also supply a supplementary file holding the data and some statistical analysis, as well as probe-set annotation that we used at that time (users may wish to obtain new annotation though). We analyzed only 28944 probe-sets with category " main " , " --- " , and " flmrna- > unmapped " according to Affymetrix annotation.
+
+DESIGN
+ATCL7 cells were grown under standard growth conditions at 37°C in a humidified incubator containing 5% CO2. 250,000 ATCL7 cells per sample were treated for 24 hours with 0.5uM BIO (6-Bromoindirubin-3'-oxime) or 0.01% DMSO (v/v) in growth media containing 100U/mL pencillin/streptomycin, 1X insulin-transferrin-selenium-X, 0.025% fetal bovine serum and 0.025% horse serum. Cells were harvested and RNA was extracted using an RNeasy Plus Mini Kit (Qiagen). Biotinylated cDNA were prepared according to the Ambion WT kit protocol from 250 ng total RNA (GeneAtlas™ WT Expression Kit User Manual P/N 702935 Rev. 3). We assayed the targets with Affymetrix Mouse Gene ST 1.1 strip arrays.
+
+PLATFORM
+GPL11533 [MoGene-1_1-st] Affymetrix Mouse Gene 1.1 ST Array [transcript (gene) version]
+
+CITATIONS
+25029241
+

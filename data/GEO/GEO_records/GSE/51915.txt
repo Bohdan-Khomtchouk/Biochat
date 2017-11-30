@@ -1,0 +1,18 @@
+TITLE
+Systematic evaluation of DNase-seq experimental parameters
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We systematicaly evaluated two major factors, enzyme digestion level and fragment size, that would affect DNase-seq experiment. We found that while under- or over-digestion sigificantly decreases the DNase-seq signal, there is a broad range of suitable digestion level. In addition, we found fragment smaller than nucleosome size is optimal to identify transcription factor binding events.
+
+DESIGN
+We tested digestion level of 5U, 25U, 50U, 75U, 100U and fragment size of 50-100bp, 100-200bp, 200-300bp
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24317252
+

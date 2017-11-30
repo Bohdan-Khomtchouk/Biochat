@@ -1,0 +1,18 @@
+TITLE
+Expression data from yeast strain containing CDC34tm allele compared to WT
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Cdc34 is an essential E2 ubiquitin conjugating enzyme found in nearly all eukaryotes.  It contains a highly conserved motif composed of S73/S97/12 amino acid insert near the active site cysteine.  This motif is unique to Cdc34/Ubc7 type E2s while other E2s contain K/D/no insert at these positions.  To better understand the function of this motif we mutated Cdc34 S73/S97/insert to be K/D/no insert and observed changes in transcript levels in mid-log phase yeast cells.  ABSTRACT [Cdc34 is a ubiquitin conjugating enzyme necessary for the ubiquitylation of substrates by the SCF family of ubiquitin ligases.  Previous work has shown that the Cdc34 protein is phosphorylated in vivo on serine residues.  Cdc34 contains two serines within its catalytic domain, S73 and S97, that together with a 12 amino acid acidic loop, constitute a highly conserved motif (serine, serine, insert) among all members of the Cdc34 family of E2 enzymes. Using phosphospecific antibodies, we show that the essential serine S97 is indeed phosphorylated in vivo.  Furthermore, this phosphorylation event is regulated by treatment with pheromone in yeast.  Consistently, expression of a Cdc34 mutant lacking this motif (serine, serine, insert) leads to misregulation of the SCF substrates, Sic1, Far1, Cln1 and Cln2 and suppresses the cell cycle arrest brought about by an activated mating pathway.  We further explored the function of this motif by microarray analysis and show that the transcripts of nearly the entire Sic1 cluster of co-transcribed genes is altered in a strain the expresses Cdc34 lacking this motif.  Our data reveals that this highly conserved motif in Cdc34 and its phosphorylation are important for modulating SCF substrate abundance both transcriptionally and post-transcriptionally.] Keywords: genetic modification
+
+DESIGN
+The Saccharomyces cerevisiae CDC34tm strain (RRC85, MATα, CDC34tm(NatR)) which is marked by a nourseothricin resistance gene (NatR) and an isogenic wild type strain (DBY2059, MATα, leu2-3, 112) were inoculated from stationary phase cultures into a synthetic defined medium containing 2% dextrose, 0.17% yeast nitrogen base minus amino acids and ammonium sulfate, 0.25% L-glutamine, 0.025% magnesium sulfate and 25.2 mg/L L-Leucine. Four separate cultures of each strain were grown at 30°C, allowing between three and four doublings and cells were collected at approximately 8 x 10e6cells/ml.  Cells were centrifuged and immediately frozen in liquid nitrogen.  Total RNA was extracted using a hot acid phenol-chloroform protocol as previously described (Schmitt et al. 1990).  RNA quality was verified with OD260/280 readings and a 1.5% agarose gel.  An Affymetrix Genechip Scanner 3000 and Affymetrix Yeast 2.0 arrays were used for the microarray.
+
+PLATFORM
+GPL2529 [Yeast_2] Affymetrix Yeast Genome 2.0 Array
+
+CITATIONS
+21196523
+

@@ -1,0 +1,18 @@
+TITLE
+A coherent approach for analysis of the Illumina HumanMethylation450 BeadChip improves data quality and performance in epigenome-wide association studies
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We developed a comprehensive analysis pipeline to conduct Epigenome-wide Association Studies (EWAS) using the Illumina Infinium HumanMethylation450 BeadChip, based on data from 2,664 individuals, and 36 samples measured in duplicate. We propose new approaches to quality control, data normalisation and batch correction through control-probe adjustment, and demonstrate that these improve data-quality. Using permutation testing we establish a null hypothesis for EWAS, show how it can be affected by correlation between individual methylation markers and present methods to restore statistical independence.
+
+DESIGN
+Bisulfite-converted DNA for 2,664 human samples and 36 technical replicates were hybridised to the Illumina Infinium 450k Human Methylation Beadchip v1.2.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+25853392 , 28002404
+

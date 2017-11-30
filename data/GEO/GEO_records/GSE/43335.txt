@@ -1,0 +1,18 @@
+TITLE
+Small RNA-seq of undiseased human brain
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The surprising observation that virtually the entire human genome is transcribed means we know very little about the function of many emerging classes of RNAs, except their astounding diversity. Traditional RNA function prediction methods rely on sequence or alignment information, which are limited in their ability to classify classes of non-coding RNAs (ncRNAs). To address this, we developed CoRAL, a machine learning-based approach for classification of RNA molecules. CoRAL uses biologically interpretable features including fragment length, cleavage specificity, and antisense transcription to distinguish between different ncRNA classes. We evaluated CoRAL using genome-wide small RNA sequencing (smRNA-seq) datasets from two human tissue types (brain and skin [GSE31037]), and were able to classify six different types of RNA transcripts with 79~80% accuracy in cross-validation experiments, and with 71~73% accuracy when CoRAL uses one tissue type for training and the other as validation. Analysis by CoRAL revealed that long intergenic ncRNAs, small cytoplasmic RNAs, and small nuclear RNAs show more tissue specificity, while microRNAs, small nucleolar, and transposon-derived RNAs are highly discernible and consistent across the two tissue types. The ability to consistently annotate loci across tissue types demonstrates the potential of CoRAL to characterize ncRNAs using smRNA-seq data in less characterized organisms.
+
+DESIGN
+Four samples were sequenced, each one coming from frozen brain tissue (frontal cortex) of a deceased female human patient with no remarkable pathology.
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens)
+
+CITATIONS
+24149843
+

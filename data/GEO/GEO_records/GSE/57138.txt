@@ -1,0 +1,18 @@
+TITLE
+Next Generation Deep Sequencing Facilitates Quantitative Analysis of microRNA affected by thapsigargin treatment
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: microRNA profiles were generated from NIH-3T3 cells control and thapsigargin treated, in duplicate. The goal of this study was to compare microRNA profiles of untreated and thapsigargin treated NIH-3T3 fibroblast cells. Methods: NIH-3T3 cells were grown to confluency and either untreated or treated with 500 nM thapsigargin in media for 24 hours. Cells were harvested with TriZol and RNA isolated according to manufacturers protocol Analysis Outline: Short reads in fastq format were assembled using BclToFastq.pl script from Illumina CASAVA 1.8.1 software pipeline.Read quality was examined using FastQC program ( http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc ). Adapters were trimmed at the 3'end using Btrim prgram (PMID:21651976), only sequences equal to and longer than 18nt were retained, leading N base was trimmed at the 5' end. Unique reads were collapsed using Raw_data_parse program from miRExpress suite (PMID:19821977) (the result of this process is a file that contains unique sequences in one column and number of times this sequence was found in the library in another). They can be found in *.merge files in trimmed_reads directory. Collapsed reads were reformatted and uploaded into miRanalyzer web-based pipeline ( http://bioinfo2.ugr.es/miRanalyzer/miRanalyzer.php; PMID:21515631) and matched to known mature miRNA (miRBase vesion 16), RFAM database (version 15) of known non-coding RNAs and known gene transcripts. The purpose of miRAnalyzer analysis was to only detect known miRNAs, prediction of novel miRNAs was not performed; search parameters were kept at default. MiRanalyzer output is saved in miRanalyzer folder with detailed information about mapping to known miRNA. Known miRNAs were divided into mature, maturestar (star sequences), maturestarunobs (star sequences not in miRBase) and hairpin. For each of the libraries there are files with unique and ambiguous mappings. Differentional expression analysis was based on unique alignments to known miRNAs (mature_unique.txt file in miRanalyzer folder). Mature_unique.txt has following columns: name: mature miRNA ID from miRBase; #unique reads: number of unique reads mapped; readCount: number of reads mapped; norm_expressed_all: normalized to all reads; norm_expressed_mapped: normalized to mapped reads. miRNA expression profiling was performed using edgeR bioconductor package (PMID:20478825). For differential expression analysis, used TMM normalization and analysis using common disperion (using tagwise dispersion yielded the same results). FDR was calculated according to Hochberg-Benjamini procedure (PMID:2218183). Results of differential expression analysis were saved in diff_exp folder as diff_exp.txt. diff_exp.txt contains miRNA concentrations in log scale, log2 ratio of WT to KO; p-values and FDR corrected p-values. miRNAs were sorted by p-value.
+
+DESIGN
+NIH-3T3 cells grown to confluency and treated with 500 nM thapsigargin in media for 24 hours
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+24917591 , 26484121
+

@@ -1,0 +1,18 @@
+TITLE
+Clear cell sarcoma human HEEBO microarray data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Clear cell sarcoma (CCS) of tendons and aponeuroses is a deadly soft-tissue malignancy resembling melanoma, with a predilection for young adults. EWS-ATF1, the fusion product of a balanced chromosomal translocation between chromosomes 22 and 12, is considered the definitional feature of the tumor. Conditional expression of the EWS-ATF1 human cDNA in the mouse generates CCS-like tumors with 100 percent penetrance. Tumors, developed through varied means of initiating expression of the fusion oncogene, model human CCS morphologically, immunohistochemically, and by genome-wide expression profiling. We also demonstrate that while fusion oncogene expression in later stages of differentiation can transform mesenchymal progenitor cells and generate tumors resembling CCS generally, expression in cells retaining stem cell markers permits the full melanoma-related phenotype. Nielsen et al. ( " Molecular characterisation of soft tissue tumours: a gene expression study " ; PMID 11965276) used microarray to compare a variety of soft-tissue neoplasms morphologically similar to clear cell sarcoma. In our study, we use their expression data (not previously submitted) in the profiling of our mouse mutant that models clear cell sarcoma.
+
+DESIGN
+The mRNA profiles of a variety of soft-tissue neoplasm samples are examined by HEEBO microarrays. Included here are a total of 6 different types of tumors, and 5 of them have at least one biological replicate. The authors of " Molecular characterisation of soft tissue tumours: a gene expression study " (PMID 11965276) performed these microarray experiments, including data processing and normalization. We obtained these expression data, and used them to train a support vector machine, which was later used to characterize our mouse model of clear cell sarcoma (data submitted elsewhere).
+
+PLATFORM
+GPL9258 SMD Print_1322 Homo sapiens
+
+CITATIONS
+11965276
+

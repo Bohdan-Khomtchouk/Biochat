@@ -1,0 +1,18 @@
+TITLE
+Identification of FoxO target genes during C-26 cancer cachexia
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Forkhead BoxO (FoxO) transcription factors expressed in adult skeletal muscle promote muscle atrophy during various catabolic conditions.  We have identified the genome wide target genes and biological networks regulated by FoxO in skeletal muscle during Colon-26 (C-26) cancer cachexia. In this dataset, we include the expression data obtained from the tibialis anterior muscles of control and severely cachectic Colon-26 mice in which FoxO-dependent transcription was either intact (AAV9-EV) or inhibited (AAV9-d.n.FoxO). These data were used to obtain 543 FoxO target genes during cancer. These target genes were identified as those genes whose expression was both differentially regulated in skeletal muscle in response to cancer (control AAV9-EV vs. C26 AAV9-EV), and differentially regulated in the presence of d.n.FoxO (C26 AAV9-EV vs. C26 AAV9-d.n.FoxO).
+
+DESIGN
+For microarray analysis, a total of 16 RNA samples across four groups (n = 4/group) are included. The groups are as follows: Control, AAV9-EV; C26, AAV9-EV; Control, AAV9-dnFoxO; C26, AAV9-dnFoxO. We found one outlier from the C26 AAV9-EV group by PC2 and PC3 (Sample #15), thus, this sample was removed from further analysis.  To identify genes changed in response to C26, expression data from Control, AAV9-EV were compared to expression data of C26, AAV9-EV. Differentially expressed genes were identifed using -1.5 > fold change > 1.5 and q < 0.01 cut-off. Expression values of these genes were subsequently compared between C26, AAV9-EV and C26, AAV9-d.n.FoxO to identify FoxO target genes using -1.5 > fold change > 1.5 and q < 0.01 cut-off.
+
+PLATFORM
+GPL18535 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [CDF: MoGene10stv1_Mm_ENTREZG_15.1.0]
+
+CITATIONS
+25539728
+

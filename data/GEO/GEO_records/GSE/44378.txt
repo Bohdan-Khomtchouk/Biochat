@@ -1,0 +1,18 @@
+TITLE
+Remodeling of Ago2-mRNA interactions upon cellular stress reflects miRNA complementarity and correlates with altered translation rates (part 3)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+When adapting to environmental stress, cells attenuate and reprogram their translational output.  In part, these altered translation profiles are established through changes in the interactions between RNA-binding proteins and mRNAs.  The Ago2/microRNA machinery has been shown to participate in stress-induced translational upregulation of a particular mRNA, CAT-1; however, a detailed, transcriptome-wide understanding of the involvement of Ago2 in the process has been lacking.  Here, we profiled the overall changes in Ago2-mRNA interactions upon arsenite stress by CLIP-seq.  Ago2 displayed a significant remodeling of its transcript occupancy, with the majority of 3` UTR and CDS sites exhibiting stronger interaction.  Interestingly, target sites that were destined for release from Ago2 upon stress were depleted in miRNA complementarity signatures, suggesting an alternative mode of interaction.  To compare the changes in Ago2 binding patterns across transcripts with changes in their translational states, we measured mRNA profiles on ribosome/polysome gradients by RNA-seq.  Increased Ago2 occupancy correlated with stronger repression of translation for those mRNAs, as evidenced by a shift toward lighter gradient fractions upon stress, while release of Ago2 was associated with the limited number of transcripts that remained translated.  Taken together, these data point to a role for Ago2 and the mammalian microRNAs in mediating the translational component of the stress response.
+
+DESIGN
+In this sub-series, CLIP and RNAseq data from the hippuristanol treatment experiment are presented.  Experiments on 293S cells +/- hippuristanol treatment, in 2 biological replicates.  Here, for each treatment/replicate sample, an aliquot was used for RNA-seq, and the rest was split into three aliquots to perform 3 parallel CLIP-seq protocols with different antibodies.  So, each RNA-seq dataset here corresponds to 3 CLIP-seq datasets.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+23824327
+

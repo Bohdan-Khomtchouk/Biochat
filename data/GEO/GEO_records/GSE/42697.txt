@@ -1,0 +1,18 @@
+TITLE
+Intrahepatic miRNA/mRNA expression in non-responders to pegylated interferon plus ribavirin combination therapy for chronic hepatitis C
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Despite advance in interferon-based treatment for chronic hepatitis C, difficult-to-treat patients remain in existence yet. To identify key genes involved in difficult-to-treat characteristics, gene expression patterns of miRNA and RNA were analyzed by profiling pretreatment liver tissues from five sustained virological responders (SVR), three relapsers (R) and four non-responders (NR). Expression levels of miRNA and mRNA were compared between SVR/R and NR groups by using microarray, respectively. Quantitative real-time reverse-transcriptase polymerase chain reaction and statistical analyses validated genes with significantly differential expression levels in 50 liver tissues: proliferation-, inflammation- and anti-apoptosis-related mRNA expression levels increased significantly in NR, compared to SVR/R. Of miRNA with significantly differential expression levels on microarray, several miRNA were correlated inversely with those significant mRNA. In vitro studies by using miRNA inhibitors and mimics verified the inverse correlation between the miRNA and mRNA. These findings enhance our understanding of the difficult-to-treat molecular mechanism and identification of target molecules for novel treatments.
+
+DESIGN
+Moderated t-statistics based on the empirical Bayes approach were performed to identify mRNA or miRNA differentially expressed between SVRs/relapses and NVRs using the “limma” package from BioConductor software ( http://www.bioconductor.org/ ) under R statistical software version 2.12.1 ( http://www.r-project.org/ ). Because of multiple hypothesis testing, p values were adjusted by the Benjamini-Hochberg false discovery rate (FDR) method. Related miRNA expression data are in GSE45179.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+24819603
+

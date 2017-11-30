@@ -1,0 +1,18 @@
+TITLE
+Transcriptome Analysis of Human Supragingival Dental Plaque Microbiome from 19 Twin Pairs with and without Dental Caries
+
+ORGANISM
+human oral metagenome
+
+SUMMARY
+The study aims to assess gene expression in plaque samples collected from twin pairs that are both concordant and discordant with respect to dental Caries diagnosis.   File Naming Conventions are as follows:    Patient ID : 4 digit identifier    Diagnosis : Caries Negative(CN) or Caries Positive(CP)    Type of Twin: Monozygotic(MZ)or Dizygotic(DZ)    Pair to xxxx: 4 digit twin identifier maps to the Patient ID    E.g: 2126_CP_MZ_PairTo_2125_fastqc - 2126 is a caries positive patient and pairs to monozygotic twin pair 2125. Plaque samples from twin pairs that are both concordant and discordant with respect to dental Caries diagnosis are enriched for bacterial messenger RNA to study the gene expression differences in the samples.
+
+DESIGN
+RNA was extracted from RNAprotect (Qiagen, In c.) treated dental plaque scrapings from 38 patients. Amplified cDNA was created and rRNA sequence was removed by subtractive hybridization. Individual patient samples were run on a single lane of an Illumina Genome Analyzer.
+
+PLATFORM
+GPL14158 Illumina Genome Analyzer II (human oral metagenome)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

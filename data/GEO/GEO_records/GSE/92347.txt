@@ -1,0 +1,18 @@
+TITLE
+Mapping of DHT-responsive or -independent AR-binding sites induced by activated Src in prostate cancer cell lines [ChIP-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Building on the observation that metastatic, castration-resistant prostate cancer (CRPC) correlates with activation of Src-family tyrosine kinases, we showed that the expression of activated Src renders LNCaP androgen-independent.  Here, we report on RNA-seq and/or AR ChIP-seq analyses of LNCaP, LNCaP[Src], VCaP, 22Rv1 cells grown in the presence or absence of 10 nM DHT for 16h, or LuCaP35.1 tumors grown in androgen-supplemented vs. castrated mice (androgen-dependent vs. castration-resistant). We identify an 11-gene Src-induced signature found only in CRPC in response to DHT, and moreover, the differentail expression of a subset (DPP4, BCAT1, CNTNAP4, CDH3) correlates with earlier PC metastasis onset and poorer survival.
+
+DESIGN
+AR ChIP-seq using N-20 Ab to chromatin, followed by production of paired-end NGS libraries and sequencing.  9 samples are seqeucned for V-CaP cell line, Ln-CaP cell line and Ln-CaP with Src-527F cell line.  Each cell line has 3 samples, they are  DHT treated, Control, and input.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+28055971
+

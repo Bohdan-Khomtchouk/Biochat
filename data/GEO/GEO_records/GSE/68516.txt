@@ -1,0 +1,18 @@
+TITLE
+Identification of direct target genes of the Neurospora crassa essential plant biomass deconstruction transcription factors CLR-1, CLR-2 and XLR-1 (ChIP-Seq)
+
+ORGANISM
+Neurospora crassa
+
+SUMMARY
+abstract: The plant cell wall is composed of many complex polymers, and its deconstruction requires an equally complex orchestration of a wide array of enzymes.  In Neurospora crassa, clr-1, clr-2 and xlr-1 have been identified as the key transcription factors involved in cell wall breakdown.  In order to define their regulons, we performed ChIPseq upon these three transcription factors.  CLR-1, CLR-2 and XLR-1 each bind to the most highly and differentially expressed gene populations, which include the cellulases for the CLRs and the hemicellulases for XLR-1.  CLR-1 also bound to its regulon under non-inducing conditions; however, this did not translate into gene expression.  Motif analysis of the bound genes revealed conserved DNA binding motifs, with the CLR-2 motif matching that of its closest yeast homolog, GAL4.  Co-immunoprecipitation studies were able to show that CLR-1 and CLR-2 act as homodimers.  Finally, we report on a conserved XLR-1 point mutation that is sufficient to drive hemicellulase expression under non-inducing conditions.  Understanding how these transcription factors work in concert to break down plant biomass can inform decisions on how to best engineer future fungal strains for decreased enzyme costs.
+
+DESIGN
+RNAseq and ChIPseq upon knockout mutants and sild type growing on various carbon sources to determin the role of the transcription factors: CLR-1, CLR-2, and XLR-1 in plant cell wall degradation
+
+PLATFORM
+GPL16164 Illumina HiSeq 2000 (Neurospora crassa)
+
+CITATIONS
+26463163
+

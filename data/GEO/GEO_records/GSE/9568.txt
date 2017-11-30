@@ -1,0 +1,18 @@
+TITLE
+Integrated epigenomic analyses of neuronal MeCP2 reveal a role for long-range interaction with active genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mutations in MECP2 cause the autism-spectrum disorder Rett syndrome. MeCP2 is predicted to bind to methylated promoters and silence transcription. However, the first large-scale mapping of neuronal MeCP2-binding sites on 26.3 Mb of imprinted and nonimprinted loci revealed that 59% of MeCP2-binding sites are outside of genes and that only 6% are in CpG islands. Integrated genome-wide promoter analysis of MeCP2 binding, CpG methylation, and gene expression revealed that 63% of MeCP2-bound promoters are actively expressed and that only 6% are highly methylated. These results indicate that the primary function of MeCP2 is not the silencing of methylated promoters. Keywords: ChIP-chip analysis
+
+DESIGN
+Experiments were performed using SH-SY5Y cells differentiated into a neuronal phenotype by 48 hour treatment with PMA. For custom genomic ChIP-chip analysis, chromatin from 3 biologic replicate cultures of SH-SY5Y neurons was crosslinked with formaldehyde, sonicated then immunoprecipitated with antibodies to MeCP2 and Pol2. Ligation mediated PCR amplified chromatin fragments were labeled then hybridized to a custom human genomic tiling array designed by Nimblegen along with differentially labeled total genomic DNA. To examine the relationship of MeCP2 promoter binding to gene expression, MeCP2 ChIP amplicons from two biologic replicates of SH-SY5Y cells were hybridized to Nimblegen 1.5kb human promoter arrays along with total genomic DNA. MeCP2 promoter binding levels were then compared with identically treated SH-SY5Y RNA transcript levels as assayed by expression profiling analysis using Affymetrix human U133A Plus 2.0 microarrays performed from 3 biologic replicates. To examine the relationship between MeCP2 binding and gene promoter methylation levels MeDIP analysis was performed again using SH-SY5Y cells differentiated with PMA. Genomic DNA was purified from SHSY-5Y cells, sonicated then immunoprecipitated with an anti-methylcytidine antibody. Selected fragments were then hybridized to Nimblegen 1.5kb human promoter arrays along with total genomic DNA. Methylcytidine levels of human promoters were then compared with MeCP2 binding levels determined in the analysis of MeCP2 promoter binding and gene expression levels.
+
+PLATFORM
+GPL4599 NimbleGen_1500b_Promoter_Array GPL5962 LaSalle/UCDavis-Human custom tiling 26.3mb GPL6183 NimbleGen 1500b Promoter Array
+
+CITATIONS
+18042715
+

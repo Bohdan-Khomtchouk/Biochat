@@ -1,0 +1,18 @@
+TITLE
+Non-CG DNA methylation is a biomarker for assessing endodermal differentiation capacity in pluripotent stem cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Illumina Infinium 450k Human DNA Methylation BeadChip was used to obtain DNA methylation profiles across approximately 470,000 CpG and 2,700 non-CG loci in 195 DNA extracts from iPSCs, ESCs and donor cell lines. Non-CG methylation is an unexplored epigenetic hallmark of pluripotent stem cells.  Here we report that a reduction in non-CG methylation is associated with impaired differentiation capacity into endodermal lineages. Genome-wide analysis of 2,670 non-CG sites in a discovery cohort of 25 phenotyped human induced pluripotent stem cell (hiPSC) lines revealed unidirectional loss (Δβ = 13%, p < 7.4x10-4) of non-CG methylation that correctly identifies endodermal differentiation capacity in 23 out of 25 (92%) hiPSC lines.  Translation into a simplified assay of only 9 non-CG sites maintains predictive power in the discovery cohort (Δβ = 23%, p < 9.1x10-6) and correctly identifies endodermal differentiation capacity in nince out of ten pluripotent stem cell lines in an independent replication cohort consisting of hiPSCs reprogrammed from different cell types and different delivery systems, as well as human embryonic stem cell (hESC) lines.  This finding infers non-CG methylation at these sites as a biomarker when assessing endodermal differentiation capacity as a readout.
+
+DESIGN
+25 iPSC lines, 3 ESC lines and 7 donor cell lines (samples) were represented by multiple DNA extracts (2 < N < 6); 7 iPSC line samples were represented by a single DNA extract. Each DNA extract was bisulphite converted and hybridised to the Illumina Infinium 450k Human Methylation BeadChip. Raw data was fed through the ChAMP  analysis pipeline (Morris et al. 2013, Bioinformatics) and normalised using Subset-quantile Within Array Normalization (SWAN).
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+26822956
+

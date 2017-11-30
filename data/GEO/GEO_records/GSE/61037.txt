@@ -1,0 +1,18 @@
+TITLE
+Sex related differences in murine transcriptional response to TCDD toxicity
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD) is an environmental contaminant that produces myriad toxicities in most mammals. In rodents alone, there is a huge divergence in the toxicological response across species, as well as among different strains within a species. But there are also significant differences between males and females animals of a single strain. These differences are inconsistent across model systems: the severity of toxicity is greater in female rats than males, while male mice and guinea pigs are more sensitive than females. Because the specific events that underlie this difference remain unclear, we characterized the hepatic transcriptional response of adult male and female C57BL/6 mice to 500μg/kg TCDD at multiple time-points. The transcriptional profile diverged significantly between the sexes. Female mice demonstrated a large number of altered transcripts as early as 6h following treatment, suggesting a large primary response. Conversely, male animals showed the greatest TCDD-mediated response 144h following exposure, potentially implicating significant secondary responses. Nr1i3 was statistically significantly induced at all time-points in the sensitive male animals. This mRNA encodes the constitutive androstane receptor (CAR), a transcription factor involved in the regulation of xenobiotic metabolism, lipid metabolism, cell cycle and apoptosis. Surprisingly though, changes at the protein level (aside from the positive control, CYP1A1) were modest, with only FMO3 showing clear induction, and no genes with sex-differences. Thus, while male and female mice show transcriptional differences in their response to TCDD, their association with TCDD-induced toxicities remains unclear.
+
+DESIGN
+Adult male and female C57BL/6 mice were treated by gavage with either 500 ug/kg TCDD in corn oil or corn oil vehicle alone. Animals were euthanized at either 6, 24, 72 or 144 hours after treatment and tissues were harvested. RNA was isolated from hepatic tissue and the transcriptome for each animal assayed on an individual microarray. Please note that 7 samples (out of total 65 samples) were identified as outliers and therefore the data were processed without the outliers as well. The normalized data without outliers were provided in the 'normalized_data_without_outliers.txt' file.
+
+PLATFORM
+GPL19143 [MoGene-1_1-st] Affymetrix Mouse Gene 1.1 ST Array [transcript (gene) version] [CDF: mogene11st_Mm_ENTREZG_17.0.0]
+
+CITATIONS
+25703434
+

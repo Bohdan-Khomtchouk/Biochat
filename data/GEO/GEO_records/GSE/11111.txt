@@ -1,0 +1,18 @@
+TITLE
+Integrating Large-Scale Functional Genomic Data to Dissect the Complexity of Yeast Regulatory Networks
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+A major goal of biology is the construction of networks that predict complex system behavior.  We combine multiple types of molecular data, including genotypic, expression, transcription factor binding site (TFBS), and protein-protein interaction (PPI) data previously generated from a number of yeast experiments in order to reconstruct causal gene networks.  Networks based on different types of data are compared using metrics devised to assess the predictive power of a network.  A network reconstructed by integrating genotypic, TFBS and PPI data is shown to be the most predictive. This network is used to predict causal regulators responsible for hot spots of gene expression activity in a segregating yeast population.  The network is also shown to elucidate the mechanisms by which causal regulators give rise to larger-scale changes in gene expression activity.  Predictions are prospectively validated to provide direct experimental evidence that predictive networks can be constructed by integrating multiple, appropriate data types. Keywords: allele replacement
+
+DESIGN
+Allele replacement strains were created in two backgrounds: BY (BY4724 and BY4742), and RM11-1a, and compared to the parental type (BY4716 and RM11-1a). BY7g, BY9g, BY11g are BY4716, while RM7g, RM9g, and RM11g are RM11-1a. YAD350 is a MKT1 D30G replacement strain in BY4742 background. YLK804 is a SAL1-RM allele in BY4724 and YLK806 is a SAL1-BY allele in RM11-1a. All strains were grown in YNB + 2% glucose, with leucine, lysine, and uracil. YAD350 was also grown with histidine.
+
+PLATFORM
+GPL2883 Agilent-013384 Yeast Oligo Microarray (V2) G4140B (Feature Number version)
+
+CITATIONS
+18552845
+

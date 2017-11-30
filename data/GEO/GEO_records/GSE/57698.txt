@@ -1,0 +1,18 @@
+TITLE
+RNA-seq of mouse ES cells depleted of MOF, MSL1, MSL2 or KANSL3
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We have studied the regulatory potential of MYST1-(MOF)-containing MSL and NSL complexes in mouse embryonic stem cells (ESCs) and neuronal progenitors. We find that both complexes influence transcription by binding to promoters as well as TSS-distal enhancer regions. In contrast to flies, the MSL complex is not enriched on the X chromosome yet it is crucial for mammalian X chromosome regulation as it specifically regulates Tsix ncRNA, the major repressor of Xist lncRNA. MSL depletion leads to severely decreased Tsix expression, reduced REX1 recruitment, and consequently accumulation of Xist RNA in ESCs. The NSL complex provides additional, Tsix-independent repression of Xist by maintaining pluripotency. MSL and NSL complexes therefore act synergistically by using distinct pathways to ensure a fail-safe mechanism for the repression of X inactivation in ESCs.
+
+DESIGN
+We have performed ChIP-seq of KANSL3, MCRS1, MOF, MSL1 and MSL2 in mouse ESCs, and KANSL3, MOF and MSL2 in NPCs, in duplicate and normalised against their inputs. We have also performed RNA-seq following knockdown of Kansl3, Mof, Msl1 and Msl2 mouse embryonic stem cells in triplicate. NB: Kansl3 and Mof knockdown-RNAseq are analyzed against their own scrambled controls, and Msl1 and Msl2 against another scrambled control triplicate.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+24842875
+

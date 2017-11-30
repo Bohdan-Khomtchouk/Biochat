@@ -1,0 +1,18 @@
+TITLE
+Calibration array
+
+ORGANISM
+Cottus perifretum ; Cottus rhenanus
+
+SUMMARY
+Calibration array used to assess probe specific binding behaviour across eight different amounts of DNA starting material. This calibration step was performed to select one best out of three probes per gene based on probe responsiveness on increasing DNA staring material. It was further used to calibrate a subsequent microarray experiment to account for probe specific binding behaviour as part of the normalization process (see also Dennenmoser et al. 2017 Copy number increases of transposable elements and protein coding genes in an invasive fish of hybrid origin).
+
+DESIGN
+SurePrint G3 custom CGH microarray (8x60k) with two replicates per probe and the addition of a 15 bp linker as recommended by Agilent. The calibration experiment folloed a two-color design (Cottus rhenanus vs. C.perifretum) with 8 replicates representing different starting (genomic) DNA amounts of 25, 50, 100, 200, 400, 800, 1200, and 1600 ng, respectively. For each color, linear regressions were performed to evaluate how signal intensities change with increasing amount of hybridized genomic DNA. This information was used to optimize probe selection for the design of a subsequent experimental microarray, and to include probe responsiveness as part of the normalization procedure of the experimental array (see also Dennenmoser et al. 2017 Copy number increases of transposable elements and protein coding genes in an invasive fish of hybrid origin). Reported are average signal intensities (of two technical replicates) for all probes for each red and green channels separately. Please note that the very high signal values (in the calibration array) are due to raw (not normalized) signal intensities on arrays overloaded with genomic DNA (up to 1600ng starting DNA opposed to the recommended 400ng).
+
+PLATFORM
+GPL22812 Agilent-067624 Cottus CGH G4126A
+
+CITATIONS
+28390096
+

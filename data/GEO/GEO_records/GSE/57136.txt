@@ -1,0 +1,18 @@
+TITLE
+Analysis of the Caulobacter crescentus Zur regulon reveals novel insights in zinc acquisition by TonB-dependent outer membrane proteins
+
+ORGANISM
+Caulobacter crescentus NA1000
+
+SUMMARY
+Intracellular zinc concentration needs to be maintained within strict limits due to its toxicity at high levels, and this is achieved by a finely regulated balance between uptake and efflux. Many bacteria use the Zinc Uptake Regulator Zur to orchestrate zinc homeostasis, but little is known regarding the transport of this metal across the bacterial outer membrane. In this work we determined the C. crescentus Zur regulon by global transcriptional and in silico analyses. Among the genes directly repressed by Zur are those encoding a putative high affinity ABC uptake system (znuCBA), three TonB-dependent receptors (znuD, znuE and znuF) and one new putative transporter of a family not yet characterized (zrpW). Zur is also directly involved in the activation of a RND and a P-type ATPase efflux systems, as revealed by β-galactosidase and site-directed mutagenesis assays. Several genes belonging to the Fur regulon were also downregulated in the zur mutant, suggesting a putative cross-talk between Zur and Fur regulatory networks. Interestingly, a phenotypic analysis of the znuD and znuE mutants has shown that these genes are essential for growth under zinc starvation, suggesting that C. crescentus uses these TonB-dependent outer membrane transporters as key zinc scavenging systems.
+
+DESIGN
+The DNA microarray experiments were performed as described in (da Silva Neto et al., 2013). Briefly, cDNA was generated from 12.5 µg of total RNA and labeled with either Cy3 or Cy5 fluorescent dyes (FairPlay III Microarray Labeling System, Stratagene). Labeled cDNA samples were hybridized to a Caulobacter DNA oligo microarray (Agilent), and the arrays were scanned with an Agilent High Resolution Microarray Scanner. RNA from three independent biological cultures was used for DNA microarray analysis. We considered as differentially expressed genes those showing a minimum of 2-fold change relative to the control, considering at least three out of the four last probes for each gene (that are downstream of the translational start site) in at least two of three biological replicates. The values for the relative expression of each gene were obtained as the average of the four last probes.
+
+PLATFORM
+GPL10469 MIT Agilent Caulobacter 45K Array
+
+CITATIONS
+25168179
+

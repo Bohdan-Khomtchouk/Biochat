@@ -1,0 +1,18 @@
+TITLE
+A High-Resolution Copy Number Variation Resource for Clinical Genetics
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Chromosomal microarray analysis (CMA) to assess copy number variation (CNV) content is now used as a first tier genetic diagnostic test for individuals with unexplained neurodevelopmental disorders (NDD) or multiple congenital anomalies (MCA). Over 100 cytogenetic labs worldwide are using the Affymetrix CytoScan HD 2.7M array to genotype > 15,000 clinical samples per month. The aim of this study is to develop a CNV resource from a population control cohort that can be used as a community resource for interpretation of clinical and research samples. Methods: We have genotyped a large population control set (1,000 individuals from our Ontario Population Genomics Platform (OPGP)) using the Affymetrix CytoScan HD microarray comprising 2.7 million probes. Four independent algorithms were applied to detect and assess high confidence CNVs. Reproducibility and validations were quantified using sample replicates and Quantitative-PCR (QPCR), respectively. Results: DNA from 873 individuals from the OPGP cohort passed quality control and we have identified 71,178 CNVs (81 CNVs/individual) distributed across 796 different cytogenetic regions in the genome; 9.8% of the CNVs were previously unreported. After applying three layers of filtering criteria, from our high confidence CNVs dataset, we obtained a > 95% reproducibility and > 90% validation rate. Due to the array's high probe density within genic regions, our high confidence CNV data set show 73% of the detected CNVs overlapped at least one gene. Conclusion: The genotype data and annotated CNVs presented in this study will represent a valuable public resource enabling clinical genetics research and diagnostics.
+
+DESIGN
+For array quality control, CEL files were processed using modules from the Affymetrix power tools and genotypes were extracted from the CHP file. Samples passing the median of the absolute pairwise differences (MAPD) < 0.20 and waviness-sd < 0.11 were retained for further analysis. After multiple checks, we excluded 52 samples that do not meet quality control (QC) cutoffs. To confirm the sample's self-reported gender, we have matched the sex chromosome information from the array and identified six samples with gender mismatch, which were excluded from the analysis. We also excluded 47 samples due to excessive CNV calls. A final set of 895 samples were used for further analysis. This number included 22 sample replicates (indicated by _1 following the Sample title), which were used to determine reproducibility of the array calls. The CNV data for this study is available from dbVar (NCBI), DGVa (EBI) accession number estd212, and DGV.
+
+PLATFORM
+GPL16131 [CytoScanHD_Array] Affymetrix CytoScan HD Array
+
+CITATIONS
+25503493
+

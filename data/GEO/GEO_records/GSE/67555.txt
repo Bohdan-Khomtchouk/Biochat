@@ -1,0 +1,18 @@
+TITLE
+TFAP2A ChIP-seq in human primary melanocytes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Mutations in the gene encoding transcription factor TFAP2A result in pigmentation anomalies in model organisms and premature hair graying in humans. However, the pleiotropic functions of TFAP2A and its redundantly-acting paralogs have made the precise contribution of TFAP2-type activity to melanocyte differentiation unclear. Defining this contribution may help to explain why TFAP2A expression is reduced in advanced-stage melanoma compared to benign nevi. To identify genes with TFAP2A-dependent expression in melanocytes, we profile zebrafish tissue and mouse melanocytes deficient in Tfap2a, and find that expression of a small subset of genes underlying pigmentation phenotypes is TFAP2A-dependent, including Dct, Mc1r, Mlph, and Pmel. We then conduct TFAP2A ChIP-seq in mouse and human melanocytes and find that a much larger subset of pigmentation genes is associated with active regulatory elements bound by TFAP2A. These elements are also frequently bound by MITF, which is considered the “master regulator” of melanocyte development. For example, the promoter of TRPM1 is bound by both TFAP2A and MITF, and we show that the activity of a minimal TRPM1 promoter is lost upon deletion of the TFAP2A binding sites. However, the expression of Trpm1 is not TFAP2A-dependent, implying that additional TFAP2 paralogs function redundantly to drive melanocyte differentiation, which is consistent with previous results from zebrafish. Paralogs Tfap2a and Tfap2b are both expressed in mouse melanocytes, and we show that mouse embryos with Wnt1-Cre-mediated deletion of Tfap2a and Tfap2b in the neural crest almost completely lack melanocytes but retain neural crest-derived sensory ganglia. These results suggest that TFAP2 paralogs, like MITF, are also necessary for induction of the melanocyte lineage. Finally, we observe a genetic interaction between tfap2a and mitfa in zebrafish, but find that artificially elevating expression of tfap2a does not increase levels of melanin in mitfa hypomorphic or loss-of-function mutants. Collectively, these results show that TFAP2 paralogs, operating alongside lineage-specific transcription factors such as MITF, directly regulate effectors of terminal differentiation in melanocytes. In addition, they suggest that TFAP2A activity, like MITF activity, has the potential to modulate the phenotype of melanoma cells.
+
+DESIGN
+TFAP2A ChIP-seq was conducted in a human primary melanocytes purified from discarded neonatal foreskin samples.  TFAP2A enriched chromatin was compared to an IgG " enriched " negative control.
+
+PLATFORM
+GPL9442 AB SOLiD System 3.0 (Homo sapiens)
+
+CITATIONS
+28249010
+

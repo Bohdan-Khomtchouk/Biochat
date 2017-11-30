@@ -1,0 +1,18 @@
+TITLE
+Regulation of gene expression by Set-beta in rat retinal ganglion cells
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+The goal of this experiment was to investigate the molecular mechanism of how Set-beta regulates neurite growth. Set-beta’s subcellular localization is regulated by posttranslational modifications. We found that Set-beta suppresses neurite growth of purified postnatal rat retinal ganglion cell (RGC) primary neurons when it is overexpressed in the nucleus, whereas recruiting Set-beta to cellular membrane by fusing myr-tag to its N-terminus promotes neurite growth. Here, we transfected purified by immunopanning postnatal rat RGC with wild-type Set-beta which localizes to the nucleus, myr-Set-beta which is recruited to cellular membranes, and mCherry control, and analyzed with microarrays Set-beta’s subcellular localization-dependent effects on gene expression. We found that wild-type Set-β regulated expression of significantly more genes than myr-Set-β, consistent with wild-type Set-β’s nuclear localization and previously described roles in regulating transcription. These data reveal potential downstream gene effectors regulating neurite growth, and specific candidate genes could be validated and tested in future experiments.
+
+DESIGN
+Acutely purified by immunopanning postnatal day 4 (P4) retinal ganglion cells (RGCs) transfected with mCherry, wild-type Set-β, and myr-Set-β, and co-transfected with pMAX-GFP (Lonza) constructs, were plated at high density on uncoated glass Lab-Tek II chamber slides (Thermo Fisher Scientific). The following morning, after gentle trituration, GFP-positive cells were FACS-isolated at 37°C in PBS with BD FACSAria I cell sorter at 20 psi using a 130 µm nozzle; GFP-negative threshold was set by first processing untransfected RGCs. Cells were gated on a FSC-A versus SSC-A plot to exclude dead cells and/or debris, and aggregates were removed using single cell gating with FSC-H versus FSC-W and SSC-H versus SSC-W plots. Immediately after isolation, GFP-positive cells were diluted in pre-equilibrated growth medium, centrifuged 15 minutes at 80 g, resuspended in growth medium in a 48-well tissue culture plastic plate as above, and cultured 2 more days in growth medium, as above. The Quick-RNA MicroPrep kit (R1050, Zymo Research) was used for RNA extraction 3 days after transfection, according to the manufacturer's instructions. Total RNA were used as input for the whole transcriptome amplification Ovation Pico WTA System V2 kit (3302-12, NuGEN), the cDNA product was quantified with Nanodrop 8000 Spectrophotometer (Thermo Scientific) and its quality was examined with a Bioanalyzer 2100 using the Nano 6000 kit (Agilent). 5 µg of cDNA product from each sample was used as input for fragmentation and labeling using the Encore Biotin Module kit (4200-12, NuGEN); the fragmentation product quality was tested as above. The labeled product was hybridized to whole genome GeneChip Rat Gene 2.0 ST Arrays (Affymetrix). The staining, washing and scanning of the arrays was carried out using a Fluidics 450 station, GeneChip Operating Software and GeneChip Scanner 3000 7G (Affymetrix). Image intensities were analyzed with Expression Console (Affymetrix) from CEL files for quality control using standard GeneChip Rat Gene 2.0 ST Array control probes (Affymetrix), and to determine the RMA expression values and for annotations. RMA expression values were normalized to the median for each sample.
+
+PLATFORM
+GPL17117 [RaGene-2_0-st] Affymetrix Rat Gene 2.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24849368
+

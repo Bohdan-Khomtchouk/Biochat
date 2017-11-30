@@ -1,0 +1,18 @@
+TITLE
+Colorectal cancer classification based on gene expression is not associated with FOLFIRI response
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Sadanandam et al. (2013) recently published a study based on the use of microarray data to classify colorectal cancer (CRC) samples. The classification claimed to have strong clinical implications, as reflected in the paper title: “A colorectal cancer classification system that associates cellular phenotype and responses to therapy”. They defined five subtypes: (i) inflammatory; (ii) goblet-like; (iii) enterocyte; (iv) transit-amplifying; and (v) stem-like. Based on drug sensitivity data from 21 patients, they also reported that the so-called stem-like subtype show differential sensitivity to FOLFIRI. This is the key result in their publication, since it implies a direct relation between the subtype and the choice of CRC therapy (i.e. FOLFIRI response). However, our analyses using the same drug sensitivity data and results from additional patients showed that the CRC classification reported by Sadanandam et al. is not predictive of FOLFIRI response.
+
+DESIGN
+We used the classification algorithm to obtain CRC subtypes from our samples. Then we tested the subtype-drug response association performing a retrospective study.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25375918
+

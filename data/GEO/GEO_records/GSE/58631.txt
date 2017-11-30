@@ -1,0 +1,18 @@
+TITLE
+WT vs gntR1 mutant gene expression profiles
+
+ORGANISM
+Corynebacterium glutamicum R
+
+SUMMARY
+The transcriptional regulator GntR1 downregulates the genes for gluconate catabolism and pentose phosphate pathway in Corynebacterium glutamicum. Gluconate lowers the DNA binding affinity of GntR1, which is probably the mechanism of gluconate-dependent induction of these genes. In addition, GntR1 positively regulates the ptsG, a gene encoding for a major glucose transporter, and the pck, a gene encoding phosphoenolpyruvate carboxykinase. Here, we searched for the new target of GntR1 at genome-wide scale by chromatin immunoprecipitation in conjunction with microarray (ChIP-chip) analysis. This analysis identified 56 in vivo GntR1 binding sites, of which 7 sites were previously reported. The newly identified GntR1 sites include the upstream regions of carbon metabolism genes such as pyk, maeB, gapB, and icd. Binding of GntR1 to the promoter region of these genes was confirmed by electrophoretic mobility shift assay. The activity of the icd, gapB, and maeB promoters were reduced by the mutation at GntR1 binding site in contrast to the pyk promoter activity increased, indicating that GntR1 is a transcriptional activator of icd, gapB, and maeB and is a repressor of pyk. Thus, it is likely that GntR1 stimulates glucose uptake by inducing the phosphoenolpyruvate (PEP): carbohydrate phosphotransferase system (PTS) gene while repressing pyk to increase PEP availability in the absence of gluconate. Repression of zwf and gnd may reduce NADPH supply which may be compensated by the induction of maeB, and icd. Upregulation of icd, gapB, and maeB and downregulation of pyk by GntR1 probably supports gluconeogenesis.
+
+DESIGN
+Gene expression profile of the wild type at the exponential phase was compared with that of the rshA deletion mutant. Three independent experiments were performed.
+
+PLATFORM
+GPL18839 Agilent-025748 Corynebacterium glutamicum CGRarray
+
+CITATIONS
+24982307
+

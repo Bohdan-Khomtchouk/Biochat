@@ -1,0 +1,18 @@
+TITLE
+Mus musculus 22k comparison of samples
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Comparision of Mus musculus Control and Treated samples.
+
+DESIGN
+Low RNA Input Fluorescent Linear Amplification Kit (Agilent, Santa Clara, CA) was used for labeling. Briefly, both first and second strand cDNA were synthesized by incubating 500ng of total RNA with 1.2ul of oligo dT-T7 Promoter Primer in nuclease-free water at 65 ◦C for 10 min followed by incubation with 4.0ul of 5× First strand buffer, 2ul of 0.1M DTT, 1 ul of 10mM dNTP mix, 1ul of 200 U/ul MMLV-RT, and 0.5ul of 40U/ul RNaseOUT, at 40 ◦C for 2 hour. Immediately following cDNA synthesis, the reaction mixture was incubated with 2.4 ul of 10 mM Cyanine-3-CTP or 2.4 ul of 10 mM Cyanine-5-CTP (Perkin-Elmer, Boston, MA), 20ul of 4X Transcription buffer, 8 ul of NTP mixture, 6 ul of 0.1M DTT, 0.5 ul of RNaseOUT, 0.6ul of Inorganic pyrophosphatase, 0.8 ul of T7 RNA polymerase, and 15.3ul of nuclease-free water at 40 ◦C for 2 hour. Qiagen’s RNeasy mini spin columns were used for purifying amplified aRNA samples. The quantity and specific activity of cRNA was determined by using NanoDrop ND-1000 UV-VIS Spectrophotometer version3.2.1. Samples with specific activity > 8 were used for hybridization. 825ng of each Cyanine 3 or Cyanine 5 labeled cRNA in a volume of 41.8ul were combined with 11ul of 10x Blocking agent and 2.2ul of 25x Fragmentation buffer (Agilent), and incubated at 60deg C for 30 minutes in dark. The fragmented cRNA were mixed with 55ul of 2x Hybridization Buffer (Agilent). About 110ul of the resulting mixture was applied to the Microarray and hybridized at 65degC for 17 hours in an Agilent Microarray Hybridization Chamber (SureHyb: G2534A) with Hybridization Oven. After hybridization, slides were washed with Agilent Gene expression Wash Buffer I for 1 minute at room temperature followed by a 1 min wash with Agilent Gene expression Wash Buffer II for 37C. Slides were finally rinsed with Acetonitrile for cleaning up and drying. Microarrays were scanned on an Agilent scanner (G2565AA) at 100% laser power, 30% PMT.Data extraction was carried out with Agilent Feature Extraction software (version 9.1), and normalization was done using linear per array algorithm according to the manufacturer’s protocol. The data was analysed by GeneSpring GX . The differential expression was considered if the Log 2 mean of at least -1 for the down regulated genes and +1 for the upregulated genes. We considered only the genes that were reproducible from all replicates.
+
+PLATFORM
+GPL5167 CAG Mouse 22k array v1.0 with Stratagene Spot Report Alien Oligo
+
+CITATIONS
+22642811
+

@@ -1,0 +1,18 @@
+TITLE
+Functions of BET proteins in GATA1-mediated transcription [ChIP-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcription factor GATA1 binding in erythroblasts in the presence and absence of BET inhibitor JQ1, and BET protein BRD3 and BRD4 binding in erythroblasts in the presence and absence of GATA1. Inhibitors of Bromodomain and Extra-Terminal motif proteins (BETs) are being evaluated for the treatment of cancer and other diseases yet their physiologic mechanisms remain largely unknown. We used genomic and genetic approaches to examine BET function in a hematopoietic maturation system driven by GATA1, an acetylated transcription factor previously shown to interact with BETs. We found that while BRD3 occupied the majority of GATA1 binding sites, BRD2 and BRD4 were also recruited to a subset of GATA1-occupied sites. Functionally, BET inhibition impaired GATA1-mediated transcriptional activation, but not repression, genome-wide. Co-activation by BETs was accomplished both by facilitating genomic occupancy of GATA1 and subsequently supporting transcription activation. Using a combination of CRISPR/CAS9-mediated genomic engineering and shRNA approaches we observed that depletion of either BRD2 or BRD4 alone blunted erythroid gene activation, while depletion of BRD3 only affected erythroid transcription in the setting of BRD2 deficiency. These results suggest that pharmacologic BET inhibition should be interpreted in the context of distinct steps in transcriptional activation and partially overlapping functions among BET family members.
+
+DESIGN
+GATA1 null erythroblasts (G1E) conditionally expressing GATA1 as a GATA1-ER fusion protein were induced to express GATA1 by addition of 100nM estradiol for 24 hours. For GATA1 binding experiments this occurred in the absence or presence of 250nM JQ1. For BRD3 and BRD4 occupancy experiments G1E cells were compared to G1E cells with activated GATA1-ER fusion protein.
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+25696920
+

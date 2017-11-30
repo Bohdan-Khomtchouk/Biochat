@@ -1,0 +1,18 @@
+TITLE
+Gene Expression in Adipose Tissue during Weight Loss
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We investigated the regulation of adipose tissue (AT) gene expression during different phases of a dietary weight loss program and its relationship with insulin sensitivity. Obese women followed a weight reduction program composed of an energy restriction phase (ER) with a 4-week very-low-calorie diet and a weight stabilization period (WS) composed of a 2-month low-calorie diet followed by 3 to 4 months of a weight maintenance diet. At each time point, body composition, plasma parameters and glucose disposal rate were assessed and subcutaneous AT biopsies were performed. Variations in mRNA levels were determined using DNA microarrays and reverse transcription-quantitative PCR. Distinct sets of AT genes are regulated during calorie restriction and weight stabilization revealing an unexpected temporal pattern in the link between AT and insulin sensitivity during weight loss.
+
+DESIGN
+Fifteen obese premenopausal women were recruited at the Third Faculty of Medicine of Charles University and at the Institute for Mother and Child Care in Prague, Czech Republic. During the first four weeks of the dietary intervention program, the subjects received an energy restricted diet of 800 kcal/day (liquid formula diet, Redita, Promil). During the next two months, a low-calorie diet was designed to provide 600 kcal/day less than the individually estimated energy requirement based on an initial resting metabolic rate multiplied by 1.3. Following this, subjects entered a weight maintenance phase for a period of 3 to 4 months, during which the patients were instructed to keep their weight stable. A complete clinical investigation in the fasting state was realized before and at the end of each phase. Needle microbiopsy of subcutaneous AT was performed under local anesthesia (1% Xylocaine) from the abdominal region (14–20 cm lateral to the umbilicus). Total RNA were isolated from AT samples with Qiagen RNeasy kit. RNA quantity and quality were checked with the Experion automated electrophoresis system (BioRad laboratories). We performed a whole transcriptome analysis comparing 1) before vs. after the initial 4 weeks severe energy restriction (ER), 2) after energy restriction vs. after weight stabilization (WS) and 3) before dietary intervention vs. after weight stabilization (DI). Eight subjects representative of the cohort were selected, matched for high quality of total RNA samples, insulin sensitivity and weight changes during the study. Targets for microarray experiments were generated from 500 ng of total RNA with Agilent low RNA input amplification kit (Agilent Technologies) and hybridized to whole genome 44k oligonucleotide arrays (Agilent Technologies). Each combination of samples was analyzed twice using a dye swap design (i.e., a total of 48 hybridizations). Data acquisition from microarrays was obtained with a GenePix 4000B scanner (Axon instruments) and image processing was performed with Feature Extraction 8.5 (Agilent Technologies). Raw data were normalized with a global Lowess procedure and filtered with R package LIMMA (Bioconductor). Outlier replicates and spots with a signal to noise ratio lesser than 2 on both red and green channel were eliminated from our analyses. Mean log ratios were calculated from paired duplicates before normalization. Differentially expressed genes were identified with Significance Analysis of Microarray (SAM) procedure.
+
+PLATFORM
+GPL1708 Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number version)
+
+CITATIONS
+19401422
+

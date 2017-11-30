@@ -1,0 +1,18 @@
+TITLE
+Halobacterium NRC-1 oxygen, light and boa1 perturbation
+
+ORGANISM
+Halobacterium salinarum NRC-1
+
+SUMMARY
+A 50ml culture of Halobacterium NRC-1 knockout strain delta-ura3 with additional in-frame gene deletion of boa1 was grown to mid-log phase in a 125ml flask in rich media under varying oxygen and light conditions.  Low and high light indicate growth in a painted flask versus growth in a standard clear flask under constant standard incubator illumination, respectively.  Low and high oxygen indicate shaking in a stoppered flask at 100RPM agitation or shaking in a non-stoppered flask at 220RPM, respectively.  Each of the four possible pairwise environemental combinations were assayed : High-oxygen/high-light, Low-oxygen/high-light, High-oxygen/low-light and Low-oxygen/low-light. RNA extractions were performed using the Stratagene Absolutely RNA Miniprep Kit and RNA quality checked with the Agilent Bioanalyzer and with Oligo Microarrays were fabricated at the Institute for Systems Biology Microarray Facility.  The arrays contain 4 spots per unique 70-mer oligonucleotides for each of 2400 non-redundant genes in Halobacterium NRC-1 Labeling, hybridization and washing have been previously described (Baliga et al. 2002) with 10 μg of RNA from the sample and reference.  RNA from the final time point of a replicate experiment was used as the reference.  Bias in dye incorporation was accounted for by reversing the labeling dyes (dye-flip).  Raw data was processed and converted into log10 ratios with lambda (λ) values determined by a maximum likelihood method.Baliga, N. S., Pan, M., Goo, Y. A., Yi, E. C., Goodlett, D. R., Dimitrov, K., Shannon, P., Aebersold, R., Ng, W. V. & Hood, L. (2002) Proc Natl Acad Sci U S A 99:14913-84. Keywords: environmental response, genetic perturbation
+
+DESIGN
+4 samples were analyzed in duplicate (8 total microarrays) as dye-flips.
+
+PLATFORM
+GPL3739 ISB Halobacterium Spotted Microarray
+
+CITATIONS
+18160043
+

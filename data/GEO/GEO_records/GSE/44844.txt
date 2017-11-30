@@ -1,0 +1,18 @@
+TITLE
+Monitoring Homology Search during DNA Double-Strand Break Repair in vivo
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Homologous recombination (HR) is crucial for genetic exchange, accurate repair of DNA double-strand breaks and pivotal for genome integrity. HR uses homologous sequences for repair, but how homology search, the exploration of the genome for homologous DNA sequences, is conducted in the nucleus remains poorly understood. Here, we use time-resolved chromatin immunoprecipitations of repair proteins to monitor homology search in vivo. We found that homology search proceeds by a probing mechanism, which commences around the break and samples preferentially on the broken chromosome. However, elements thought to instruct chromosome loops mediate homology search shortcuts, and centromeres, which cluster within the nucleus, may facilitate homology search on other chromosomes. Our study thus revealed crucial parameters for homology search in vivo and emphasizes the importance of linear distance, chromosome architecture and proximity for recombination efficiency.
+
+DESIGN
+2 new custom ChIP-chip platforms used; both Nimblegen; differ in oligo density: (platform 1: 2006-07-18_Scerevisiae_ChIP_Stefan Jentsch MPI Biochemistry S.cerevisiae 385K Tiling Array Version 1) ( platform 2: 100304_Scer2_MS_Chip_Stefan Jentsch MPI Biochemistry S.cerevisiae 135K Tiling Array Version 2) ChIP-chip profiling of DSB repair factors (Rad51, Rad52, RPA, gamma-H2A) upon single inducible DSBs in S.cerevisiae
+
+PLATFORM
+GPL16746 100304 Scer2 MS Chip Stefan Jentsch MPI Biochemistry S.cerevisiae 135K Tiling Array Version 2 GPL16747 2006-07-18 Scerevisiae ChIP Stefan Jentsch MPI Biochemistry S.cerevisiae 385K Tiling Array Version 1
+
+CITATIONS
+23523370
+

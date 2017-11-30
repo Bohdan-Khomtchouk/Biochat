@@ -1,0 +1,18 @@
+TITLE
+Expression data from 8-10 week old WT mice maintained in room air or exposed to hyperoxia (FiO2 > 95%) for 48 hrs
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+To detect sex-specific differences in gene expression in a model of hyperoxic lung injury in adult C56BL/6J mice. In this dataset, we include the expression data obtained from lungs from 8-10 week old male and female WT C57BL/6J mice exposed to hyperoxia for 48 hours amd room air controls.These data were used to determine differences in transcriptome between male and female mice after hyperoxia exposure
+
+DESIGN
+12 total samples were analyzed. We generated the following pairwise comparisons: 5 comparisons (M/F: male/female, A/O: air/oxygen): 1) M_O - M_A,  2) F_O - F_A, 3) M_O - F_O, 4) M_A - F_A, 5) (M_O - M_A) - (F_O - F_A). Genes with an FDR≤5% and a fold-change ≥1.4 were selected.
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+25003466
+

@@ -1,0 +1,18 @@
+TITLE
+Integrated Transcriptomic and Epigenomic Comparison of Human Induced Pluripotent Stem Cells Generated from Various Reprogramming Methods
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Within the last decade, multiple reprogramming methods have been developed to generate human induced pluripotent stem cells (hiPSCs) which closely resemble human embryonic stem cells (hESCs). This has led to studies which assess how similar hiPSCs are to hESCs, by evaluating the differences in gene expression, epigenetic marks, and differentiation potential. However, these studies were all performed using hiPSCs acquired from different laboratories, passage numbers, culturing conditions, genetic backgrounds, and reprogramming methods which may contribute to the reported differences. In this study, we reprogrammed the same primary fibroblast population with six different reprogramming methods (episomal vectors, mRNA, microRNA/mRNA transfections (microRNA), minicircle vectors, lentivirus, and Sendai virus) and performed high-throughput sequencing on the hiPSCs with standardized cell culturing conditions and passage number. RNA-sequencing on all of our lines determined that clones derived from the same reprogramming method clustered together, which may indicate the reprogramming method could influence the resulting gene expression profile of the hiPSCs. In comparison to hESCs, a significant proportion of differentially expressed and spliced genes could be attributed to polycomb repressive complex (PRC) targets and the activity of HDAC2, SOX2, NANOG, LEF1, TCF3, and c-MYC transcription factors. Differences in epigenetic signatures (H3K4me3, H3K27me3, and HDAC2 ChIP-seq profiles) also corresponded to the activity of these factors.  In addition, some hiPSC lines displayed a more similar PRC transcriptome profile to that of hESCs, and these lines also produced a higher percentage of cardiac troponin-T positive cells after cardiomyocyte differentiations were performed in parallel.  Collectively, differential PRC activity contributes to the differences between hESCs and hiPSCs and likely impacts the differentiation potential of hiPSCs.
+
+DESIGN
+We profiled hESCs and hiPSCs by RNA-seq and ChIP-seq for H3K27me3 and H3K4me3 marks. In addtion, we performed ChIP-seq for HDAC2 in hiPSCs and hESCs.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Summarizing probe levels of Affymetrix arrays taking into account day-to-day variability
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Day-to-day variability in microarray experiments is a recognized source of variation that can impede the analysis of large microarray studies where samples are processed on different days. In this study, we have applied an algorithm, called D2Dsum, which is based on a log-linear fixed effect model to cope with this kind of issues on a data set of 45 microarrays. Keywords: time course
+
+DESIGN
+A2780 human ovarian cancer cell lines have been treated (TRT) with two different chemical compounds (A and B) or left untreated (CTRL). RNA was collected form 1 to 6 hour every hour. For each time point a technical duplicate or triplicate has been performed. Samples were subjected to complete randomisation experimental design and the effect of hybridisation day has been evaluated. processed on 4 different days
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

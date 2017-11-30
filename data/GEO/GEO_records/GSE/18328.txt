@@ -1,0 +1,18 @@
+TITLE
+Identification of subtypes in HER2-positive breast cancer reveals a gene signature prognostic of outcome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose HER2 gene amplification or protein overexpression (HER2+) defines a clinically challenging subgroup of breast cancer with variable prognosis and response to therapy. We aimed to investigate the heterogeneous biological appearance and clinical behavior of HER2+ tumors using molecular profiling. Materials and Methods Hierarchical clustering of gene expression data from 58 HER2-amplified tumors of various stage, histological grade and estrogen receptor (ER) status was used to construct a HER2-derived prognostic predictor that was further evaluated in several large independent breast cancer data sets. Results Unsupervised analysis identified three subtypes of HER2+ tumors with mixed stage, histological grade and ER-status. One subtype had a significantly worse clinical outcome. A prognostic predictor was created based on differentially expressed genes between the subtype with worse outcome and the other subtypes. The predictor was able to define patient groups with better and worse outcome in HER2+ breast cancer across multiple independent breast cancer data sets and identify a sizable HER2+ group with long disease-free survival and low mortality. Significant correlation to prognosis was also observed in basal-like, ER−, lymph node positive or high-grade tumors, irrespective of HER2-status. The predictor included genes associated to immune response, tumor invasion and metastasis. Conclusion The HER2-derived prognostic predictor provides further insight into the heterogeneous biology of HER2+ tumors and may become useful for improved selection of patients that need additional treatment with new drugs targeting the HER2 pathway.
+
+DESIGN
+Array comparative genomic hybridization (aCGH) identified 58 breast tumors with amplification of HER2 from a larger cohort of approx 500 tumors breast. Global gene expression profiles were obtained using 70-mer oligonucleotide microarrays. Unsupervised hierarchical clustering of the 58 tumors, using Pearson correlation and complete linkage, identified three main clusters. One cluster showed significantly poorer clinical outcome. Significance of microarray (SAM) analysis was performed to identify 158 genes separating the poor outcome cluster compared to the other two clusters. Gene expression centroids, based on the 158 genes, were created for each cluster for validation in independent breast cancer data sets.
+
+PLATFORM
+GPL5345 SWEGENE H_v2.1.1 55K
+
+CITATIONS
+20231686
+

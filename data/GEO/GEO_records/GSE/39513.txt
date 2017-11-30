@@ -1,0 +1,18 @@
+TITLE
+Regulation of pluripotency and self-renewal of ES cells through epigenetic-threshold modulation and mRNA pruning
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The core pluripotency factors (Oct4, Sox2, and Nanog), the Myc network, and the chromatin-modifying complexes such as PRC2 ensure the pluripotency and self-renewal of ES cells (ESC). How these factors coordinate with one another remains poorly understood. We report that Utf1, a target of Oct4 and Sox2, is a new bivalent chromatin component that buffers poised states of bivalent genes. By limiting PRC2 loading and Histone 3 lysine-27 trimethylation, Utf1 sets proper activation thresholds for bivalent genes. It also promotes nuclear tagging of mRNAs transcribed from insufficiently silenced bivalent genes for cytoplasmic degradation through mRNA de-capping. Whereas these opposing functions of Utf1 allow proper execution of ESC pluripotency, the mRNA pruning function also ensures rapid cell proliferation by blocking the Myc-Arf feedback regulation. Thus, Utf1 is an important regulator that couples the core pluripotency factors with Myc and PRC2 networks to promote proliferation and pluripotency execution of ESCs.
+
+DESIGN
+First we mapped Utf1 binding sites in ESCs using the biotin-mediated and cross-linked ChIP-sequencing. To investigate how Utf1 might regulate gene expression, we did RNA-seq on WT and Utf1-KO ES cells. Then we did ChIP-seq of Suz12 and H3K27me3 on WT and Utf1-KO ES cells to study whether Utf1 affects PRC2 loading and H3K27me3 modofication, using H3 as control. Finally, we did RNAseq on WT and Dcp1a-KD ES cells to confirm Utf1 repress gene expression by recruiting Dcp1a complex.
+
+PLATFORM
+GPL9250 Illumina Genome Analyzer II (Mus musculus) GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+23101626
+

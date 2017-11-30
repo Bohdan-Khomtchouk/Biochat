@@ -1,0 +1,18 @@
+TITLE
+Single-cell DNA methylome sequencing and bioinformatic inference of epigenetic cell state dynamics
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+Here we describe a method for whole genome bisulfite sequencing in very small cell populations (µWGBS) and in single cells (scWGBS). Our method is optimized for profiling DNA methylation in many samples at low coverage, and we developed a bioinformatic method that uses collections of single-cell methylomes to infer cell state dynamics. Using these technological advances, we studied epigenetic cell state dynamics in three in vitro models of cellular differentiation and pluripotency and identified patterns of epigenetic remodeling and cell-to-cell heterogeneity.
+
+DESIGN
+1-cell or 4-cell samples were collected from a variety of human and mouse cell lines (KBM7, CCE, K562, 32D, HL60). We also included negative controls (no cells), and cross controls (cells of one species aligned to the other). K562 cells were treated with 5-azacytidine in a final concentration of 1µM to induce demethylation. HL60 cells were treated with 1α,25-dihydroxyvitamin D3 in a final concentration of 10nM to induce differentiation. Naïve pluripotency of CCE ES cells was induced by culturing the cells in ESGRO-2i medium with the addition of 1% FCS. Differentiation of CCE ES cells was induced by treating the cells with all-trans retinoic acid (ATRA) in a final concentration of 0,3µM every third day along with complete LIF-free medium exchange. Embryoid body formation from CCE ES cells was induced by hanging-drop culture for 5 days, followed by 9 days on gelatinized dishes (see treatment annotation). Each experiment, with treated and untreated cells, was performed in multiple biological replicates.  We then measured DNA methylation in the individual 1-cell or 4-cell experiments with bisulfite treatment and high-throughput sequencing. For sequencing, most experiments pooled a 4-cell experiment from one species with a 1-cell experiment from the other, but some replicates were sequenced as a single cell (indicated with SC in the replicate annotation). Two samples (marked as “deep”) were sequenced much deeper than the others. See Farlik et al. (2015) Cell Reports for complete study details.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL13112 Illumina HiSeq 2000 (Mus musculus) GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+25732828
+

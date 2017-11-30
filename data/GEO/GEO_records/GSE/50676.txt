@@ -1,0 +1,18 @@
+TITLE
+Landscape and variation of RNA secondary structure across the human transcriptome
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In parallel to the genetic code for protein synthesis, a second layer of information is embedded in all RNA transcripts in the form of RNA structure. The ability of RNA to base pair with itself and other nucleic acids endow RNA with the capacity to form extensive structures, which are known to influence practically every step in the gene expression program1. Yet the nature of most RNA structures or effects of sequence variation on structure are not known.  Here we report the initial landscape and variation of RNA secondary structures (RSS) in a human family trio, providing a comprehensive RSS map of human coding and noncoding RNAs. We identify unique RSS signatures that demarcate open reading frames, splicing junctions, and define authentic microRNA binding sites.  Comparison of native deproteinized RNA isolated from cells versus refolded purified RNA suggests that the majority of the RSS information is encoded within RNA sequence. Over one thousand transcribed single nucleotide variants (~15% of all transcribed SNVs) alter local RNA structure; these “RiboSNitches”2 occur in disease-associated variants.  We discover simple sequence and spacing rules that determine the ability of point mutations to impact RSS. Selective depletion of RiboSNitches versus structurally synonymous variants at precise locations suggests selection for specific RNA shapes at thousands of sites, including 3’UTRs, binding sites of miRNAs and RNA binding proteins genome-wide. These results highlight the potentially broad contribution of RNA structure and its variation to gene regulation.
+
+DESIGN
+RNA structure probing is performed at 37˚C on poly(A)+ selected RNAs from GM12878, GM12891 and GM12892 cell lines, as well as on native proteinized RNAs from GM12878.  The structure probed RNAs is then cloned into a sequencing library using modied Ambion RNA sequencing kit compatible with the Illumina platform.  The samples were deep sequenced using Illumina's Hi-Seq platform. AGO CLIP was performed as reported. Cells were crosslinked with UV and lysed using published protocols. AGO2 was enriched using immunopurification. The RNA-protein complex was digested with ribonuclease and purified by gel electrophoresis. Purified RNA was reverse transcribed and cDNA molecules were amplified and sequenced as described.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+24476892
+

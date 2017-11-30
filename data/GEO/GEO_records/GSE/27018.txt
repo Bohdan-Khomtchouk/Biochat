@@ -1,0 +1,18 @@
+TITLE
+Fibroblast triggered gene expression in tumor
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Personalized biological insights into heterogeneous tumors, such as breast cancer could improve clinical management. While genomic analysis has contributed significantly towards dissecting breast cancer heterogeneity, limitations in clinical application are partly rooted in the inter-tumor variability arising from a largely uncharacterized interactive exchange between diverse cell types in the tumor microenvironment. Here we first identified a common response signature to stromal coculture across breast cancer of varying clinicopathologic phenotypes. Proximity to fibroblasts resulted in gene transcript alterations of > 2-fold for 107 probe sets, collectively designated as Fibroblast Triggered Gene Expression in Tumor (FTExT). Prominent features of tumor cell response included transcript repression related to biofunctions encompassing inflammatory signaling, cell movement, cell death, and cell growth and proliferation. In an evaluation of intertumor heterogeneity, the FTExT classifier stratified moderate and high histopathologic grade breast cancer according to clinical outcome (dataset 1, n=401, p=0.031; dataset 2, n=200, p=0.013), delineating a novel phenotype of stromal crosstalk underlying the prognostic potential of tumor grade. Extending correlative data through functional analysis of stromal-epithelial cocultures of both malignant and nonmalignant derivation, significant differences in cell cycle regulation, rate of proliferation, resistance to therapy-induced apoptosis, and growth arrest were observed in FTExT-based subgroups. Instead of a stromal impact that is uniformly cancer promoting, our data demonstrate striking variability in tumor cell response that directly contributes to contrasting functional aggressiveness of malignant breast tissue. Our findings uniquely reveal dynamically interacting paracrine components underlying the molecular and functional heterogeneity of breast cancer, thus presenting novel opportunities for tumor targeting.
+
+DESIGN
+10 tumor samples cocultured with fibroblast were profiled in their gene expression with microarrays, and compared with 7 tumor samples cultured without fibroblast. Immortalized tumor cell lines of varying histologic grade were developed and maintained in a growth median as described in Dairkee, et al., Oncogene, 2007. In the coculture set up, epithelial cells were seeded in 6-well plates, and fibroblasts in 0.4 μm inserts with hanging geometry (BD Biosciences, Franklin Lakes, NJ) at a 3:1 ratio in a common pool of growth medium for 3-day harvests. Controls were comprised of each epithelial sample maintained in the absence of fibroblast-seeded inserts under the same culture conditions.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+21625507
+

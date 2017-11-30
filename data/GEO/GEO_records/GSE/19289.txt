@@ -1,0 +1,18 @@
+TITLE
+Most “dark matter” transcripts are associated with known genes
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+A series of reports over the last few years have indicated that a much larger portion of the mammalian genome is transcribed than can be accounted for by currently annotated genes, but the quantity and nature of these additional transcripts remains unclear. Here, we have used data from single- and paired-end RNA-Seq and tiling arrays to assess the quantity and composition of transcripts in PolyA+ RNA from human and mouse tissues. Relative to tiling arrays, RNA-Seq identifies many fewer transcribed regions (‘‘seqfrags’’) outside known exons and ncRNAs. Most nonexonic seqfrags are in introns, raising the possibility that they are fragments of pre-mRNAs. The chromosomal locations of the majority of intergenic seqfrags in RNA-Seq data are near known genes, consistent with alternative cleavage and polyadenylation site usage, promoter- and terminator-associated transcripts, or new alternative exons; indeed, reads that bridge splice sites identified 4,544 new exons, affecting 3,554 genes. Most of the remaining seqfrags correspond to either single reads that display characteristics of random sampling from a low-level background or several thousand small transcripts (median length = 111 bp) present at higher levels, which also tend to display sequence conservation and originate from regions with open chromatin. We conclude that, while there are bona fide new intergenic transcripts, their number and abundance is generally low in comparison to known exons, and the genome is not as pervasively transcribed as previously reported.
+
+DESIGN
+Genome-wide expression profiling of human and mouse total and polyA+ RNA from four different tissue sources (brain, heart, liver, testes) was performed using Affymetrix tiling microarrays (Human & Mouse tiling 2.0R array set; 7 arrays per genome). BAR files: HBP - Human Brain PolyA+ RNA; HBT - Human Brain Total RNA; HLP - Human Liver PolyA+ RNA; HLT - Human Liver Total RNA; HHP - Human Heart PolyA+ RNA; HHT - Human Heart Total RNA; HTP - Human Testes PolyA+ RNA; HTT - Human Testes Total RNA; MBP - Mouse Brain PolyA+ RNA; MBT - Mouse Brain Total RNA; MLP - Mouse Liver PolyA+ RNA; MLT - Mouse Liver Total RNA; MHP - Mouse Heart PolyA+ RNA; MHT - Mouse Heart Total RNA; MTP - Mouse Testes PolyA+ RNA; MTT - Mouse Testes Total RNA
+
+PLATFORM
+GPL4910 [Hs35b_P01R] Affymetrix Human Tiling 2.0R Set, Array 1 GPL4911 [Hs35b_P02R] Affymetrix Human Tiling 2.0R Set, Array 2 GPL4912 [Hs35b_P03R] Affymetrix Human Tiling 2.0R Set, Array 3 GPL4913 [Hs35b_P04R] Affymetrix Human Tiling 2.0R Set, Array 4 GPL4914 [Hs35b_P05R] Affymetrix Human Tiling 2.0R Set, Array 5 GPL4915 [Hs35b_P06R] Affymetrix Human Tiling 2.0R Set, Array 6 GPL4916 [Hs35b_P07R] Affymetrix Human Tiling 2.0R Set, Array 7 GPL6444 [Mm35b_P01R] Affymetrix Mouse Tiling 2.0R Set, Array 1 GPL6445 [Mm35b_P02R] Affymetrix Mouse Tiling 2.0R Set, Array 2 GPL6446 [Mm35b_P03R] Affymetrix Mouse Tiling 2.0R Set, Array 3 GPL6447 [Mm35b_P04R] Affymetrix Mouse Tiling 2.0R Set, Array 4 GPL6448 [Mm35b_P05R] Affymetrix Mouse Tiling 2.0R Set, Array 5 GPL6449 [Mm35b_P06R] Affymetrix Mouse Tiling 2.0R Set, Array 6 GPL6450 [Mm35b_P07R] Affymetrix Mouse Tiling 2.0R Set, Array 7
+
+CITATIONS
+20502517
+

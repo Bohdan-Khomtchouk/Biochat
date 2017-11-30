@@ -1,0 +1,18 @@
+TITLE
+Gene Expression profiling of M. bovis BCG strain under hypoxia
+
+ORGANISM
+Mycobacterium bovis BCG
+
+SUMMARY
+Objective of the study is to find out the differentially regulated genes in Mycobacterium bovis BCG subjected to hypoxic condition. Gene expression profiling was carried out using Agilent microarray platform. Keywords: Hypoxia response
+
+DESIGN
+Mycobacterium cells were lysed by bead beating in AL Buffer of Qiagen’s bacterial RNA kit. RNA was purified as per manufacturer’s instructions. RNA quality control was done using Agilent 2100 Bioanalyzer lab on a chip. Total RNA (500ng) of Mycobacterium under hypoxia and log phase were labelled with Cy3 and Cy5 (Perkin Elmer) dyes respectively using Ambion Message AmpII bacteria kit as per manufacturer recommended protocol. To eliminate dye bias, technical replicates were labelled in the reverse direction i.e log phase culture with Cy5 and hypoxia with Cy3. 825ng each of labeled control cRNA was mixed with 825ng of treated labelled cRNA, mixed with appropriate amount of blocking buffer and hybridization buffer (Agilent Technologies). The hybridization mix was applied on to the backings and hybridized to custom designed 60mer M.tuberculosis H37Rv microarray using sure hyb chambers at 65degC for 17 hours. Slides were washed with gene expression wash buffer 1 and 2 (Agilent Technologies) followed by Acetonitrile and scanned at 5 micron resolution using Agilent scanner. Automated feature extraction was done using Agilent’s Feature Extraction Software. Statistical analysis of microarray data was done using GeneSpring GX and Biological analysis of the differentially regulated genes were done using Genotypics Biointerpreter -Web based tool for biological interpretation of gene list in a click of mouse.
+
+PLATFORM
+GPL8431 CDRI Mycobacterium tuberculosis H37Rv Whole Genome Microarray 4.1k
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

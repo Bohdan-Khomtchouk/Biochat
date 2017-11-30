@@ -1,0 +1,18 @@
+TITLE
+Molecular Classification of Endometriosis and Disease Stage Using High-Dimensional Genomic Data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Endometriosis, an estrogen-dependent, progesterone-resistant, inflammatory disorder affects 10% of reproductive-age women. It is diagnosed and staged at surgery, resulting in an 11-year latency from symptom onset to diagnosis, underscoring the need for less invasive, less expensive approaches. Since the uterine lining (endometrium) in women with endometriosis has altered molecular profiles, we tested whether molecular classification of this tissue can distinguish and stage disease. We developed classifiers using genomic data from n=148 archived endometrial samples from women with endometriosis or without endometriosis (normal controls or with other common uterine/pelvic pathologies) across the menstrual cycle and evaluated their performance on independent sample sets.  Classifiers were trained separately on samples in specific hormonal milieu, using margin tree classification, and accuracies were scored on independent validation samples. Classification of samples from women with endometriosis or no endometriosis involved two binary decisions each based on expression of specific genes. These first distinguished presence or absence of uterine/pelvic pathology and then no endometriosis from endometriosis, with the latter further classified according to severity (minimal/mild or moderate/severe). Best performing classifiers identified endometriosis with 90-100% accuracy, were cycle phase-specific or independent, and utilized relatively few genes to determine disease and severity. Differential gene expression and pathway analyses revealed immune activation, altered steroid and thyroid hormone signaling/metabolism and growth factor signaling in endometrium of women with endometriosis. Similar findings were observed with other disorders versus controls. Thus, classifier analysis of genomic data from endometrium can detect and stage pelvic endometriosis with high accuracy, dependent or independent of hormonal milieu. We propose that limited classifier candidate-genes are of high value in developing diagnostics and identifying therapeutic targets. Discovery of endometrial molecular differences in the presence of endometriosis and other uterine/pelvic pathologies raises the broader biological question of their impact on the steroid hormone response and normal functions of this tissue.
+
+DESIGN
+We analyzed endometrial samples from n=148 women without or with endometriosis and/or other uterine/pelvic pathologies, using whole genome microarrays.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+25243856
+

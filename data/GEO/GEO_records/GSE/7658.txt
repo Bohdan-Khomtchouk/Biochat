@@ -1,0 +1,18 @@
+TITLE
+Gene Expression Profile of Hematopoietic Stem Cells during Zebrafish Development
+
+ORGANISM
+Danio rerio
+
+SUMMARY
+In order to detect transcriptional differences between primitive and definitive hematopoietic stem and progenitor cells during regular development in the zebrafish embryo, gata1-GFP+/+(18 somites),  lmo2-GFP+/+ (18 somites and 35 hpf)1 and cd41-GFP+/+ (35 hpf) cells from transgenic embryos were individually separated from GFP-/- cells by flow cytometry at the indicated stages. For each individual population, pools of 600 - 1500 transgenic embryos were collected.  After RNA extraction, labelled cRNA was hybridized onto Affymetrix microarrays. Individual experiments were performed with 2 or 3 biological replicates. Keywords: cell type comparison
+
+DESIGN
+gata1-GFP+/+(18 somites),  lmo2-GFP+/+ (18 somites and 35 hpf)1 and cd41-GFP+/+ (35 hpf)2 cells were separated from GFP-/- cells by flow cytometry at the indicated stages.  Sorting was based on propidium iodide exclusion, forward scatter, and GFP fluorescence, using a FACSVantage flow cytometer (Beckton Dickinson).  Sorted cell populations were run twice to optimize cell purity.  Total RNA from cell-sorted populations was extracted with TRIzol reagent (Invitrogen) and purified on RNeasy resins (Qiagen) according to the manufacturer’s recommendations.  Total RNA was subjected to two rounds of linear amplification (Ambion) and hybridized to Affymetrix zebrafish Gene Chips, according to Affymetrix guidelines. After staining with a streptavidin-phycoerythrin conjugate (Molecular Probes), the fluorescence of bound RNA was quantitated by using a Gene Chip scanner (Affymetrix). The raw expression data were calculated and, after pairing of GFP+/+ and GFP-/- samples, statistically analyzed using methods implemented in Bioconductor’s “affy” package and available custom scripts 3,4. references: 1. Zhu, H. et al. Regulation of the lmo2 promoter during hematopoietic and vascular development in zebrafish. Dev Biol 281, 256-69 (2005). 2. Lin, H. F. et al. Analysis of thrombocyte development in CD41-GFP transgenic zebrafish. Blood 106, 3803-10 (2005). 3. Choe, S. E., Boutros, M., Michelson, A. M., Church, G. M. & Halfon, M. S. Preferred analysis methods for Affymetrix GeneChips revealed by a wholly defined control dataset. Genome Biol 6, R16 (2005). 4. Weber, G. J. et al. Mutant-specific gene programs in the zebrafish. Blood 106, 521-30 (2005).
+
+PLATFORM
+GPL1319 [Zebrafish] Affymetrix Zebrafish Genome Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Expression analysis of Caulobacter crescentus NA1000 delta-CCNA_00382 (ccrM) [DccrM] vs Caulobacter crescentus NA1000 wild type [WT]
+
+ORGANISM
+Caulobacter crescentus NA1000
+
+SUMMARY
+Investigation of whole genome gene expression level changes in a  Caulobacter crescentus NA1000 delta-CCNA_00382 (ccrM) mutant, compared to the wild-type strain.  The mutations engineered into this strain render it incapable of methylating its genome on the adenine at GANTC motifs. References for strains : WT: Marks, M.E., Castro-Rojas, C.M., Teiling, C., Du, L., Kapatral, V., Walunas, T.L. and Crosson, S. (2010) The genetic basis of laboratory adaptation in Caulobacter crescentus. J Bacteriol, 192, 3678-3688; Collier, J. and Shapiro, L. (2009) Feedback control of DnaA-mediated replication initiation by replisome-associated HdaA protein in Caulobacter. J Bacteriol, 191, 5706-5716.  DccrM: Gonzalez, D. and Collier, J. (2013) DNA methylation by CcrM activates the transcription of two genes required for the division of Caulobacter crescentus. Mol Microbiol, 88, 203-218.
+
+DESIGN
+A six chip study using total RNA recovered from three separate wild-type cultures of Caulobacter crescentus NA1000 and three separate cultures of a triple mutant strain, Caulobacter crescentus NA1000 delta-CCNA_00382 (ccrM), in which the ccrM gene coding for a DNA methyltransferase methylating the adenine in GANTC motifs is truncated and its product inactive.  Each chip measures the expression level of 3933 genes from Caulobacter crescentus NA1000 with 3 probes per gene and with three-fold technical redundancy.
+
+PLATFORM
+GPL17931 110420_Ccre_JC_exp, 4plex array
+
+CITATIONS
+24398711
+

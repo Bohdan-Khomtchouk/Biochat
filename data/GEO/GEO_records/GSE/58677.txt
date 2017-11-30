@@ -1,0 +1,18 @@
+TITLE
+IL-10 from intestinal macrophages prevents excessive innate immune responses to bacteria by limiting IL-23 synthesis
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Innate immune responses must be regulated in the intestine to prevent excessive inflammation. Here, using gene reporter mice, we show that a subset of mouse colonic macrophages constitutively produced the anti-inflammatory cytokine IL-10.  In mice infected with Citrobacter rodentium, which is considered similar to enteropathogenic Escherichia coli infection in humans, macrophage IL-10 was required to prevent intestinal pathology and to promote survival.  The synthesis of the proinflammatory cytokine IL-23 was significantly increased in infected mice with a myeloid cell specific deletion of IL-10 and the addition of IL-10 reduced in vitro IL-23 production by intestinal macrophages.  Furthermore, blockade of IL-23 led to reduced morbidity and mortality in the context of macrophage IL-10 deficiency.  Transcriptome analysis indicated that the reporter positive and negative colonic macrophage subsets were highly similar, but the reporter positive cells differed for the expression of CD163, an IL-10 target gene, suggesting an autocrine IL-10 signal, and when obtained from infected mice, they had reduced IL-23p19 mRNA.  Interestingly, only transfer of the reporter positive cells could rescue IL-10 deficient infected mice.  Therefore, these data indicate a pivotal role for a subset of intestinal macrophages that constitutively produces IL-10, perhaps acting in part in autocrine fashion, in controlling excessive innate immune activation, regulation of IL-23 production, and prevention of tissue damage after an acute bacterial infection in the intestine.
+
+DESIGN
+Two replicates each of IL10+ and IL10- large intestinal macrophages. Data were normalized with the 'rma' function of the Bioconductor package, along with several GEO (GSM616132, GSM616136, GSM616140, GSM868296, GSM868297, GSM868298) and ArrayExpress (E-MEXP-3216: 04-M2WT, 05-M2WT, 06-M2WT) datasets.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array
+
+CITATIONS
+25959063
+

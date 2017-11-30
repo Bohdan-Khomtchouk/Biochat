@@ -1,0 +1,18 @@
+TITLE
+The Complete Genome of a Single Individual by Massively Parallel DNA Sequencing
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The association of genetic variation with disease and drug response, together with improvements in nucleic acids technologies, has given great optimism for the impact of 'genomic medicine'.  However, the formidable size of the diploid human genome has prevented the routine application of sequencing methods to deciphering complete individual human genomes, and has so far limited the realization of the full potential of genomics for science and human health. Working towards the goal of harnessing the power of genomics, we sequenced the diploid genome of a single individual, Dr. James D. Watson, using a massively-parallel method of sequencing in picoliter size reaction vessels. Here we report the results of genotyping the subject's DNA using an Affymetrix 500k GeneChip as well as copy number variations as reported by Agilent 244k comparative genomic hybridization arrays. Keywords: Genotyping, copy number variation (CNV), aCGH
+
+DESIGN
+Affymetrix Gene Chip 500: Duplicate genomic DNA samples from JW's lymphocytes, 250 ng each, were annealed to the Affymetrix 250K NspI and 250K StyI arrays according to the manufacturer's protocol. Genotypes were determined using the Bayesian Robust Linear Model with Mahalanobis distance classifier (BRLMM) algorithm provided by Affymetrix in the GeneChip Genotyping Analysis software v. 4.0. Agilent 244k Whole Human Genome Oligo Microarray: 2 ug of DNA from experimental (JW) and reference samples were processed according to Agilent protocols with some modification. Reference samples were procured from the standard reference Caucasian male, Kleberg Cytogenetics Laboratory, Baylor College of Medicine (Chip 1) and Coriell number NA10851 (Chip 2).
+
+PLATFORM
+GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array GPL4544 Agilent-014584 Human Genome 244K CGH Microarray (Alpha Test)
+
+CITATIONS
+18421352
+

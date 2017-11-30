@@ -1,0 +1,18 @@
+TITLE
+A validated gene regulatory network and GWAS identifies early regulators of T-cell associated diseases (Th1 Th2)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In this work we present an analytical strategy to systematically identify early regulators by combining gene regulatory networks (GRN) with GWAS.  We hypothesized that early regulators in T-cell associated diseases could be found by defining upstream transcription factors (TFs) in T-cell differentiation. Time series expression and DNA methylation profiling of T-cell differentiation identified several upstream TFs, of which TFs involved in Th1/2 differentiation were most enriched for disease associated SNPs identified by GWAS.
+
+DESIGN
+Naïve CD4+ T cells were isolated from buffy coat of four healthy donors using a naïve CD4+ T cell isolation kit (Miltenyi, Bergisch-Gladbach, Germany). Naïve CD4+ T cells were stimulated with plate-bound anti-CD3 (500 ng/mL), soluble anti-CD28 (500 ng/mL), in the presence of IL-12 (5 ng/mL), IL-2 (10 ng/mL) and anti–IL-4 (5 µg/mL) for Th1, IL-4 (10 ng/mL), IL-2 (10 ng/mL) and anti-IL-12 (5 µg/mL) and anti–IFN-g (5 µg/mL) for Th2. Cells were cultured for six days in Iscove’s modified Dulbecco medium (IMDM) supplemented with 2 mM L-glutamine (PAA Laboratories, Linz, Austria), 10% heat-inactivated FCS (PAA Laboratories, Linz, Austria), 5 µM β–mercaptoethanol (Sigma-Aldrich, St. Louis, Missouri, USA) and 50 ug/mL gentamicin (Sigma-Aldrich, St. Louis, Missouri, USA). Cells were cultured for 6 days and then re-stimulated with plate-bound anti-CD3 and soluble anti-CD28 in the presence of corresponding polarizing cytokines and antibodies for another 2 days (Zhang et al. 2013). RNA was extracted using a miRneasy Mini Kit (Qiagen). The RNA concentrations were analysed with NanoDrop ND-1000 Spectrophotometer (NanoDrop Technologies). For the gene expression microarray analysis, The cRNA was prepared using a Low Input QuickAmp Labeling Kit. For Th1 and Th2 cells the gene expression microarray analysis was performed using SurePrint G3 Human Gene Expression 8x60K microarray kit, according to the manufacture’s instruction (Agilent Technologies).
+
+PLATFORM
+GPL14550 Agilent-028004 SurePrint G3 Human GE 8x60K Microarray (Probe Name Version)
+
+CITATIONS
+26560356
+

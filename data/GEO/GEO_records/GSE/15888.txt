@@ -1,0 +1,18 @@
+TITLE
+Large-Scale Expression Analysis Reveals Distinct microRNA Profiles at Different Stages of Human Neurodevelopment
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: MicroRNAs (miRNAs) are short non-coding RNAs predicted to regulate one third of protein-coding genes via mRNA targeting. In conjunction with key transcription factors, such as the repressor REST (RE1 silencing transcription factor), miRNAs play crucial roles in neurogenesis, which requires a highly orchestrated program of gene expression to ensure the appropriate development and function of diverse neural cell types. Whilst previous studies have highlighted select groups of miRNAs during neural development, there remains a need for amenable models in which miRNA expression and function can be analyzed over the duration of neurogenesis. Principal Findings: We performed large-scale expression profiling of miRNAs in human NTera2/D1 (NT2) cells during retinoic acid (RA)-induced transition from progenitors to fully differentiated neural phenotypes. Our results revealed dynamic changes of miRNA patterns, resulting in distinct miRNA subsets that could be linked to specific neurodevelopmental stages. Moreover, the cell-type specific miRNA subsets were very similar in NT2-derived differentiated cells and human primary neurons and astrocytes.  Further analysis identified miRNAs as putative regulators of REST, as well as candidate miRNAs targeted by REST. Finally, we confirmed the existence of two predicted miRNAs; pred-MIR191 and pred-MIR222 associated with SLAIN1 and FOXP2, respectively, and provided some evidence of their potential co-regulation. Conclusions: In the present study, we demonstrate that regulation of miRNAs occurs in precise patterns indicative of their roles in cell fate commitment, progenitor expansion and differentiation into neurons and glia. Furthermore, the similarity between our NT2 system and primary human cells suggests their roles in molecular pathways critical for human in vivo neurogenesis.
+
+DESIGN
+The experiment consists of a total of 51 arrays: 29 retinoic acid time series arrays (0,2,4,6,8,12,14,21 and 28 days), 2 each of NT2-derived neurons and astrocytes, 12 primary human fetal astrocytes, 3 primary human embryonic astrocytes and 3 primary human neurons.  Each condition has a minimum of 2 biological replicates.  The samples were compared as single channel experiments. NOTE: The raw data files were submitted as generated in Quantarray with 2 channels, but due to issues with the control sample dye (Cy5 on Channel 1), only the Channel 2 (Cy3) data was analysed.
+
+PLATFORM
+GPL8415 NRC-IBS_human-mouse_miRNA_422
+
+CITATIONS
+20559549
+

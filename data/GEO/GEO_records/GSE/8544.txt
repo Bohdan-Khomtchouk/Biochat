@@ -1,0 +1,18 @@
+TITLE
+Effects of Oxygen on Virulence Traits of Streptococcus mutans
+
+ORGANISM
+Streptococcus mutans
+
+SUMMARY
+To gain further insights into the molecular basis of the effects of oxygen on biofilm formation by S. mutans (Ahn and Burne, 2007), we used DNA microarrays to analyze gene expression profiles of cells cultured under aerobic or anaerobic conditions. Keywords: Oxygen, Biofilm, Caries, Microarray
+
+DESIGN
+For aerobic growth, an overnight culture of S. mutans UA159 was diluted 1:50 into a 250-ml conical flask containing 50 ml of brain heart infusion (BHI, Difco) and cultures were grown on a rotary shaker (150 rpm) at 37°C until the absorbance at 600 nm reached 0.4 (mid-exponential phase).  For anaerobic growth, cultures were similarly diluted and incubated  without agitation in a BBL GasPak Plus anaerobic system (BD, Franklin Lakes, NJ) to the same optical density. Total RNA was isolated from 10 ml of exponential phase (O.D.600 = 0.4) cultures, as described previously.  All RNA samples were DNase I-treated and purified using the RNeasy mini kit (Qiagen).  RNA concentration was estimated spectrophotometrically in triplicate.  Reverse transcription (RT) and microarray reactions were performed with 5.0 μg of total bacterial RNA, as described elsewhere.  S. mutans UA159 microarrays were provided by The Institute for Genomic Research (TIGR), and each slide contained four copies of 1960 corresponding to ORFs in the genome.  For each microarray slide, a separate RNA preparation from a separate culture was utilized, so a total of 8 slides (4 for each condition) were used in this study.  Hybridizations were performed in a Maui hybridization chamber (BioMicro Systems, Salt Lake City, UT).  Additional details regarding array protocols are available at http://pfgrc.tigr.org/protocols/protocols.shtml. After the slides were scanned, the resulting images were analyzed by TIGR 23 Spotfinder software ( http://www.tigr.org/software/ ) and further normalized using LOWESS and iterative log mean centering with default settings, followed by in-slide replicate analysis using TIGR microarray data analysis system (MIDAS; http://www.tigr.org/software/ ).  Statistical analysis was carried out using BRB array tools ( http://linus.nci.nih.gov/BRB-ArrayTools.html/ ) with a cutoff P value of 0.001.
+
+PLATFORM
+GPL4340 JCVI PFGRC Streptococcus mutans 10K v2.1 array designed primarily based on strain UA159 [FULL_FEATURE_LAYOUT]
+
+CITATIONS
+17921307
+

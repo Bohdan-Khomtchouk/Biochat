@@ -1,0 +1,18 @@
+TITLE
+Copy number alterations in pleural mesothelioma
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Integrated profiling of somatic molecular alterations present in tumors is necessary to further our understanding of the tumorigenic process. We investigated the potential relationships between gene copy number alterations and DNA methylation profiles in a case series of pleural mesotheliomas (n=23). Gene copy number (CN) alterations profiled with 500K SNP arrays and DNA methylation measured at over 750 cancer-related genes with methylation bead-arrays were examined concomitantly. Considering each probed locus, there were no instances of significantly correlated CN alteration and methylation (no loci with Q < 0.05) and averaging loci over their associated genes revealed only two genes with significantly correlated CN and methylation alterations (Q < 0.04). In contrast to the lack of discrete correlations, the overall extent of tumor CN alteration was significantly associated with DNA methylation profile when comparing CN alteration extent among methylation profile classes (P < 0.02), and there was evidence that this association was partially attributable to prevalent allele loss observed at the maintenance DNA methyltransferase DNMT1. Taken together, this work indicates a strong association between global genetic and global epigenetic dysregulation in mesothelioma rather than a discrete, local coordination of gene inactivation, and further highlights the utility and necessity of integrative genomics approaches in cancer biology.
+
+DESIGN
+From the total study population, 23 tumors from the incident case series were chosen for copy number alteration profiling by hybridizing 5ml containing  ≥ 50ng/ml of tumor or matched peripheral blood DNA to each of the two  GeneChips® that comprise the Human Mapping 500K single-nucleotide polymorphism array set (Affymetrix, Santa Clara, CA), following manufacturer protocols and standard operating procedures at the Harvard Partners Microarray Core servicing facility. Probe intensities at each locus were determined in the GCOS software and genotypes calls were generated using the Genotyping Analysis Software (Affymetrix). Probe signals were normalized to their matched referent peripheral blood sample data using the Copy Number Analysis Tool v4.0.1 software (CNAT) (Affymetrix) with median scaling and default tuning parameters, and copy number states were inferred by Hidden Markov Model analysis. The supplementary file 'GSE21057_tumor_copy_number.txt' contains the (blood-normalized) copy number calls for each tumor sample.
+
+PLATFORM
+GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array
+
+CITATIONS
+20587528
+

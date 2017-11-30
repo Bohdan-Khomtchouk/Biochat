@@ -1,0 +1,18 @@
+TITLE
+Transcriptome analysis reveals differential splicing events in IPF lung tissue
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Objectives: Idiopathic pulmonary fibrosis (IPF) is a complex disease in which a multitude of proteins and networks are disrupted. Interrogation of genome-wide transcription through RNA sequencing (RNA-Seq) enables the determination of genes whose differential expression is most significant in IPF, as well as the detection of alternative splicing events which are not easily observed with traditional microarray experiments. Methods: Messenger RNA extracted from 8 IPF lung samples and 7 healthy controls was sequenced on an Illumina HiSeq. Analysis of differential expression and exon usage was performed using Bioconductor packages. The gene periostin was selected for validation of alternative splicing by quantitative PCR, and pathway analysis was performed to determine enrichment for differentially expressed and spliced genes. Results: There were 873 genes differentially expressed in IPF (FDR 5%), and 440 unique genes had significant differential splicing events (FDR 5%). In particular, cassette exon 21 of the gene periostin was significantly more likely to be spliced out in IPF samples (adj pval = 2.06e-09), and this result was confirmed by qPCR (Wilcoxon pval = 3.11e-4). We also found that genes close to SNPs in the discovery set of a recent IPF GWAS were enriched for genes differentially expressed in our data, including genes like mucin5B and desmoplakin which have been previously associated with IPF. Conclusions: There is significant differential splicing and expression in IPF lung samples as compared with healthy controls. We found a strong signal of differential cassette exon usage in periostin, an extracellular matrix protein whose increased gene-level expression has been associated with IPF and its clinical progression, but for which differential splicing has not been studied in the context of IPF. Our results suggest that alternative splicing of periostin and other genes may be involved in the pathogenesis of IPF.
+
+DESIGN
+mRNA sequencing of 8 IPF and 7 control lung tissue samples.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+24647608
+

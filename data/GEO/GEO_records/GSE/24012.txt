@@ -1,0 +1,18 @@
+TITLE
+Transcriptional profiling of EJC depletion by RNA-Seq using the SOLiD platform (Applied Biosystems)
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Signaling pathways are controlled by a vast array of post-translational mechanisms. By contrast, little is known regarding the mechanisms that regulate the expression of their core components. We conducted an RNAi screen in Drosophila for factors modulating RAS/MAPK signaling and identified the Exon Junction Complex (EJC) as a novel key element of this pathway. The EJC binds the exon-exon junctions of mRNAs, and thus far, has been linked exclusively to post-splicing events. Here, we report that the EJC is required for proper splicing of mapk transcripts by a mechanism that apparently controls exon definition. Moreover, whole transcriptome and RT-PCR analyses of EJC-depleted cells revealed that the splicing of long intron-containing genes, which includes mapk, is sensitive to EJC activity. These results identify a role for the EJC in the splicing of a subset of transcripts and suggest that RAS/MAPK signaling depends on the regulation of MAPK levels by the EJC.
+
+DESIGN
+Transcriptome sequencing (RNA-Seq) of Drosophila S2 cells to monitor the effect of EJC depletion on the cellular mRNA expression profile. Each treatment (dsRNA knockdown of MAGO (CG9401), dsRNA knockdown of eIF4AIII (CG7483)) was done in biological duplicate and each sample was sequenced separately on a quad slide on the SOLiD 3.0 platform. The reference samples were treated with a dsRNA targeted to GFP.
+
+PLATFORM
+GPL10942 AB SOLiD System 3.0 (Drosophila melanogaster)
+
+CITATIONS
+20946983
+

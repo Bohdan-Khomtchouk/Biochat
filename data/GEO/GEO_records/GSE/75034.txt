@@ -1,0 +1,18 @@
+TITLE
+Selection of reference genes for gene expression studies related to hypoxia in cervical cancer
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The present work aimed to identify reference genes for RT-qPCR studies of hypoxia in cervical cancer. From 422 candidate reference genes selected from the literature, we used Illumina array-based expression profiles to identify 182 genes not affected by hypoxia treatment in eight cervical cancer cell lines or correlated with the hypoxia-associated dynamic contrast-enhanced magnetic resonance imaging parameter ABrix in 42 patients. Among these genes, we selected nine candidates (CHCHD1, GNB2L1, IPO8, LASP1, RPL27A, RPS12, SOD1, SRSF9, TMBIM6) that were not associated with tumor volume, stage, lymph node involvement or disease progression in array data of 150 patients, for further testing by RT-qPCR. geNorm and NormFinder analyses of RT-qPCR data of 74 patients identified CHCHD1, SRSF9 and TMBIM6 as the most suitable set of reference genes, with stable expression both overall and across patient subgroups with different hypoxia status (ABrix) and clinical parameters. The suitability of the three candidates as reference genes were validated in studies of the hypoxia-induced genes DDIT3, ERO1A, and STC2. After normalizing with CHCHD1, SRSF9 and TMBIM6, the RT-qPCR data of these genes showed a significant correlation with Illumina expression (P < 0.001, n=74) and ABrix (P < 0.05, n=32), and the STC2 data were associated with clinical outcome, in accordance with the Illumina data. Thus, CHCHD1, SRSF9 and TMBIM6 seem to be suitable reference genes for studying hypoxia-related gene expression in cervical cancer samples by RT-qPCR. STC2 might be a useful prognostic hypoxia biomarker in cervical cancer that warrants further investigation.
+
+DESIGN
+Totally 150 tumor samples and 12 cell line samples were analysed with Illumina WG-6 and 4 cell line samples were analysed with Illumina HT-12
+
+PLATFORM
+GPL6884 Illumina HumanWG-6 v3.0 expression beadchip GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+27244197
+

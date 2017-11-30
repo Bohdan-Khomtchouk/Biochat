@@ -1,0 +1,18 @@
+TITLE
+ChEC-seq kinetics discriminates transcription factor binding sites by DNA sequence and shape in vivo
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Chromatin endogenous cleavage (ChEC) uses fusion of a protein of interest to micrococcal nuclease (MNase) to target calcium-dependent cleavage to specific genomic loci in vivo. Here we report the combination of ChEC with high-throughput sequencing (ChEC-seq) to map budding yeast transcription factor (TF) binding. Temporal analysis of ChEC-seq data reveals two classes of sites for TFs, one displaying rapid cleavage at sites with robust consensus motifs and the second showing slow cleavage at largely unique sites with low-scoring motifs. Sites with high-scoring motifs also display asymmetric cleavage, indicating that ChEC-seq provides information on the directionality of TF-DNA interactions. Strikingly, similar DNA shape patterns are observed regardless of motif strength, indicating that the kinetics of ChEC-seq discriminates DNA recognition through sequence and/or shape. We propose that time-resolved ChEC-seq detects both high-affinity interactions of TFs with consensus motifs and sites preferentially sampled by TFs during diffusion and sliding.
+
+DESIGN
+We adapted ChEC to a genome-wide sequencing readout (ChEC-seq) to map the genome-wide distributions of the budding yeast transcription factors Abf1, Rap1 and Reb1 without the limitations associated with ChIP-based methods.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae) GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+26490019
+

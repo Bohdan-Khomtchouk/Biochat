@@ -1,0 +1,18 @@
+TITLE
+Transcriptional Profiling Analysis of Host response to Clostridium perfringens Infection in Broilers
+
+ORGANISM
+Gallus gallus
+
+SUMMARY
+Necrotic enteritis is a disease caused by Clostridium perfringens, which threatens poultry production in the absence of dietary antibiotics. A total number of 144 Ross broilers were reared in 12 pens with each hosting 12 birds.  Each 6 pens of birds were fed medicated (bacitracin at 55 ppm) or non-medicated starter diets (Nutreco Canada Agresearch) immediately after the chicks were placed. At day 18, birds were challenged with C. perfringens (107 cfu per ml mixed with feed). Spleens were collected from 12 birds of each group at day 18 (before infection), 19, 20, and 22. A low-density chicken immune microarray was used to study gene expression profiling of host response to C. perfringens infection. Six biological replicates (2 birds per biological replicate) for each treatment group were labeled with either Cy5 or Cy3 with dye swap. A total of 24 arrays were used for this study. Gene signal intensity was globally normalized by LOWESS and expressed as log2 ratios. A mixed model including treatment, time, array, subgrid (random effect), dye, and all interactions among treatment and time was used to identify differentially expressed genes between post-infection vs. pre-infection, among post-infections, and between medication treatments, at the 5% significance level. The results indicated subtle medication effects on gene expression of these immune-related genes compared to bacterial infection effect. Our findings strongly suggest that both cell-mediated and antibody-mediated immune responses via MHC class I and II systems were actively involved in the host defense against C. perfringens infection in broilers. The unique cytokine signaling pathway and apoptosis cascade found in the study provide a new insight of molecular regulation of host immune response. Collectively, the findings of the present study will shed light on the molecular mechanisms underlying C. perfringens infection in broilers.
+
+DESIGN
+There were two groups: medicated and non-medicated. Spleen were collected to isolate total RNA for gene expression profiling.For the microarray study, two birds from each pen were pooled within each group. To account for any bias inherent to the fluorescent dyes, three of the six medicated replicates were labeled with Cy3 and the other three were labeled with Cy5 at each time point. The same design was applied for the non-medicated group. There were six hybridizations between medicated and non-medicated replicates at each time point. Twenty-three out of 24 arrays were used (data from one array were discarded due to poor quality).
+
+PLATFORM
+GPL4585 Chicken Immune Sytem-Specific Microarray Version 2
+
+CITATIONS
+19359691
+

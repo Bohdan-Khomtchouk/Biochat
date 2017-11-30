@@ -1,0 +1,18 @@
+TITLE
+LRPPRC-mediated folding of the mitochondrial transcriptome [RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The roles of RNA-binding proteins as chaperones in the lifecycles of mRNAs are not well understood. The mammalian mitochondrial genome has been compressed over evolution to a size of just 16 kb, nevertheless the expression of its genes requires transcription, RNA processing, translation and RNA decay, much like the more complex chromosomal systems, providing an opportunity to use it as a model system to understand the fundamental aspects of gene expression. Here we combine RNase footprinting with PAR-CLIP at unprecedented depth to reveal the importance of RNA-protein interactions guided by the LRPPRC/SLIRP complex in dictating RNA folding within the mitochondrial transcriptome. We show that LRPPRC, in complex with its protein partner SLIRP, binds throughout the mitochondrial transcriptome, with a preference for mRNAs, and its loss affects the entire secondary structure and stability of the transcriptome. We demonstrate that the LRPPRC/SLIRP complex is a global RNA chaperone that stabilizes RNA structures to expose the required sites for translation, stabilization and polyadenylation. Our findings reveal a general mechanism where extensive RNA-protein interactions ensure that RNA is accessible for its biological functions.
+
+DESIGN
+Lrpprc knockout and control mice were sequenced, in quadruplicate, and analysed for differential gene expression and mitochondrial poyladenylation with RSEM and DESeq2.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

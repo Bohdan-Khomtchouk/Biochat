@@ -1,0 +1,18 @@
+TITLE
+Microarray platform comparison study of hippocampal gene expression in DCLK1 transgenic and wild-type mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The aim of the present study was to compare, on a statistical basis, the performance of different microarray platforms to detect differences in gene expression in a realistic and challenging biological setting. Gene expression profiles in the hippocampus of five wild-type and five transgenic δC-doublecortin-like kinase mice were evaluated with five microarray platforms: Applied Biosystems, Affymetrix, Agilent, Illumina and home-spotted oligonucleotide arrays. We observed considerable overlap between the different platforms, the overlap being better detectable with significance level-based ranking than with a p-value based cut-off. Confirming the qualitative agreement between platforms, Pathway analysis consistently demonstrated aberrances in GABA-ergic signalling in the transgenic mice, even though pathways were represented by only partially overlapping genes on the different platforms. Keywords: microarray platform comparison
+
+DESIGN
+5 biological replicates for each experimental group were analyzed on each of the five platforms. For two-color arrays a dye swap was performed. ABI_raw_data.csv contains the raw data for GSM206638 to GSM206647. Illumina_raw_data.csv contains the raw data for GSM206887 to GSM206896.  In these files, the sample identifiers are included in the column headers.
+
+PLATFORM
+GPL1261 [Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array GPL2872 Agilent-012694 Whole Mouse Genome G4122A (Feature Number version) GPL2995 ABI Mouse Genome Survey Microarray GPL4234 Sentrix Mouse-6 Expression BeadChip GPL5438 LGTC Sigma-Compugen Mouse 22K V1n
+
+CITATIONS
+18331641 , 18927111
+

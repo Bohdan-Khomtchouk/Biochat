@@ -1,0 +1,18 @@
+TITLE
+Identification of Pou5f1, Sox2, and Nanog downstream target genes with statistical confidence by applying a novel algor
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We present a microarray experiment with the same tet-inducible system but with multiple time points within 24 hr to capture early responses to Oct4 suppression. These data were analyzed together with published genome-wide ChIP data. We found that most tentative target genes (TTG) of Oct4 in ES cells were activated by Oct4 and only a few genes were suppressed. The same method was then applied to find target genes of Sox2 and Nanog based mostly on previously published data. Because the interaction between Oct4, Sox2, and Nanog is supported by immunoprecipitation, functional analysis, and co-localization of binding sites, we explored the relationships between their target genes. Keywords: time series design
+
+DESIGN
+We used ZHBTc4 ES cells with a Tet-inducible Oct4 transgene. Cells were cultured  for 2 passages on gelatin-coated plates in order to remove feeder cells and then transferred to gelatin-coated 6-well plates at the density of 1-2x105 cells/well  and cultured in complete ES medium. Tetrocycline (TC) was added at 24 hr after cell plating, and then cells were harvested at 0hr (before adding TC), 3 hr, 6 hr, 12 hr, and 24 hr (2 replications each). RNA samples for later time points (24, 48, 72, 96, and 120 hr) were obtained from our earlier experiment with 3 replications. Two Nanog over-expressing clones were tested: (1) integrated transgene in MG1.19 parental cell line and (2) episomal transgene in EBRTcH3 parental line. EBRTcH3 and MG1.19 ESC lines were kind gifts of Dr. Hitoshi Niwa (RIKEN Center for Developmental Biology, Kobe, Japan). Both transgenic and parental cell lines were cultured  for 2 passages on gelatin-coated plates and then transferred to gelatin-coated 6-well plates at the density of 1-2x105 cells/well and cultured for 3 days in 3 different conditions: (1) complete ES medium (see above); (2) complete medium without LIF, and (3) complete medium with 1 uM RA. Cells were cultured at 37 0C and 5% CO2 condition and the culture medium was changed daily. Over-expression of Nanog was evaluated by PCR. Total RNAs were extracted using TrizolTM (Invitrogen, USA) and Phase lock gelTM columns (Eppendorf/Brinkman) according to the manufacturer???s protocol. Total RNAs were precipitated with isopropanol, washed with 70% ethanol, and dissolved in DEPC-treated H2O. 2.5 ug of total RNA samples were labeled with Cy3-CTP using a Low RNA Input Fluorescent Linear Amplification Kit (Agilent, USA). A reference target (Cy5-CTP-labeled) was prepared from the Universal Mouse Reference (UMR) RNA (Stratagene, USA).
+
+PLATFORM
+GPL2549 NIA Mouse 22K Microarray v2.0 (Development 60-mer Oligo) GPL2552 NIA Mouse 44K Microarray v2.1 (Whole Genome 60-mer Oligo) GPL4358 NIA Mouse 44K Microarray v2.2 (Whole Genome 60-mer Oligo)
+
+CITATIONS
+18522731
+

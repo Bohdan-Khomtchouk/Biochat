@@ -1,0 +1,18 @@
+TITLE
+BET-Bromodomain Inhibitors Engage The Host Immune System And Regulate Expression Of The Immune Checkpoint Ligand PD-L1 [3mRNA-seq]
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+BET inhibitors (BETi) target bromodomain-containing proteins and are currently being evaluated as anti-cancer agents. We discovered that the maximal therapeutic effects of BETi in a Myc-driven B cell lymphoma model required an intact host immune system. Genome-wide analysis of the BETi induced transcriptional response identified the immune checkpoint ligand Cd274 (Pd-l1) as a Myc-independent, BETi target-gene. BETi directly repressed constitutively expressed and IFN-γ induced CD274 expression across different human and mouse tumor cell lines and primary patient samples. Mechanistically, BETi decreased Brd4 occupancy at the Cd274 locus without any change in Myc occupancy, resulting in transcriptional pausing and rapid loss of Cd274 mRNA production. Finally, targeted inhibition of the PD1/PD-L1 axis by combining anti-PD1 antibodies and the BETi JQ1 caused synergistic responses in mice bearing Myc-driven lymphomas. Our data uncovers a novel interaction between BETi and the PD-1/PD-L1 immune-checkpoint and provides novel insight into the transcriptional regulation of CD274.
+
+DESIGN
+RNA Sequencing (3'-mRNA-Seq, QuantSeq) of AT3 (mouse mammary tumor cell line) and ALF1 (human plasma cell leukaemia line) treated for 2 hours with JQ1, interferon-gamma, JQ1+interferon-gamma, or DMSO vehicle.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+28249162
+

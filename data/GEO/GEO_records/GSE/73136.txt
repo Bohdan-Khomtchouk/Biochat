@@ -1,0 +1,18 @@
+TITLE
+A spectral analysis approach to detects actively translated open reading frames in high resolution ribosome profiling data
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA sequencing protocols allow for quantifying gene expression regulation at each individual step, from transcription to protein synthesis. Ribosome Profiling (Ribo-seq) maps the positions of translating ribosomes over the entire transcriptome. Despite its great potential, a rigorous statistical approach to identify translated regions from Ribo-seq data is not yet available. To fill this gap, we developed RiboTaper, which quantifies the significance of the three-nucleotide periodicity of Ribo-seq reads via spectral analysis methods.
+
+DESIGN
+Examination of RNA fragments protected by ribosome
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+26657557
+

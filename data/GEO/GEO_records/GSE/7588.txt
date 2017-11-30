@@ -1,0 +1,18 @@
+TITLE
+Exploration of the Drug Action of Capreomycin on Mycobacterium tuberculosis
+
+ORGANISM
+Mycobacterium tuberculosis
+
+SUMMARY
+Multi-drug resistance and latent infection are two major issues in current tuberculosis (TB) control and management. Capreomycin is an important drug used for TB with multi-drug resistance. A recent study also indicates that this drug possesses unique bactericidal activity against non-replicating TB bacilli among known anti-TB drugs. Thus, there is an urgent need for investigating the full-spectrum action of capreomycin. Here we conduct the first microarray-based study on capreomycin using the high-resolution Affymetrix oligonucleotide GeneChip system. The results indicate that capreomycin primarily acts on the information pathways but it also significantly affects cell wall, cell processes, intermediate metabolism and respiration in Mycobacterium tuberculosis. This study not only transcriptionally validates the specific molecular target, 16S rRNA, but also discovers potential new targets of capreomycin, including genes operating at the DNA level, such as Rv0054 (ssb) and Rv3715c (recR), as well as genes involved in cell division like Rv3260c (whiB2). In addition, the nuo gene cluster and the ATP synthase gene cluster are repressed. Keywords: Drug-induced Differential gene expression analysis
+
+DESIGN
+The RNA collected from the cells before drug treatment was the baseline sample to which the drug-treated sample was compared. The drug-induced gene response was deduced from the differential gene expression between the test and baseline samples. The difference call computed by the Affymetrix system between the two samples indicates increase (I), decrease (D), marginal increase (MI), marginal decrease (MD), and no change (NC). Only decreases (D) and increases (I) are considered in this report. The increase call signifies up-regulation of gene activity from the baseline to test condition, whereas the decrease call suggests down-regulation. The difference call is statistically based on four system parameters reflecting differences across multiple (40) probes implementing each gene between two conditions.
+
+PLATFORM
+GPL4519 [TB-All-Antisense] Affymetrix M. tuberculosis Antisense Array
+
+CITATIONS
+16822547
+

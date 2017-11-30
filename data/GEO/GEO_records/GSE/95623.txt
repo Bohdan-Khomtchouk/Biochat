@@ -1,0 +1,18 @@
+TITLE
+RNA transcriptome analysis during HSV-1 infection
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+For Samples 1-8 and 11-18: The innate immune sensor retinoic acid-inducible gene-I (RIG-I) detects double-stranded RNA derived from RNA viruses, and recent studies have demonstrated that RIG-I also plays a role in the antiviral response to DNA viruses. To identify the physiological RNA species that are recognized by RIG-I during HSV-1 infection, we purified the RNAs that co-immunoprecipitated with FLAG-tagged RIG-I in transfected human embryonic kidney (HEK) 293T cells that had been infected with a recombinant HSV-1 (hereafter referred to as HSV-1 mut) containing a mutation (K220A) in the viral serine/threonine protein kinase US3 that abolishes its catalytic activity, as the viral kinase is known to antagonize type-I IFN responses. As controls, RNA species bound to FLAG-RIG-I in uninfected cells and RNA bound to FLAG-GFP from both HSV-1 mut-infected and uninfected cells were also purified. RIG-I-bound RNA and total RNA extracted from uninfected and HSV-1 mut-infected cells were analyzed by RNAseq, and the resulting sequences were mapped to both the HSV-1F-strain and human genome (hg38). This analysis revealed that several human transcripts were highly enriched in the RIG-I-bound fraction from infected cells; in contrast, the enrichment of viral sequences was low. The cellular transcripts that were most abundant in the RIG-I fraction were predominantly non-coding RNAs from different subclasses, as well as some coding RNAs. For Samples 9 and 10: HSV-1 infection is known to induces changes in the transcriptional profile of the infected cell. To analyze global changes in RNA transcript levels in infected cells, total RNA was extracted from HEK 293T cells that were infected with wild-type (WT) HSV-1. For comparison, total RNA was extracted from HEK 293T cells that remained uninfected. Next, RNAseq analysis was performed. The resulting sequences were mapped to the human genome, and gene inductions were calculated and normalized to uninfected samples to determine changes in gene expression upon infection.
+
+DESIGN
+Cells, which were not infected or infected with either wildtype HSV-1 or mutated HSV-1 were either subjected to a pulldown isolating RLR/GFP associated RNA (8 samples) or the corresponding total RNA (8 samples) was extracted from the infected cells and sequenced. Additionally, non-transfected cells were infected and total RNA extracted and sequenced (2 samples)
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

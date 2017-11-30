@@ -1,0 +1,18 @@
+TITLE
+Global Analysis of the Immediate Transcriptional Effects of Estrogen Signaling Reveals a Rapid, Extensive, and Transient Response
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+We report the immediate effects of estrogen signaling on the transcriptome of breast cancer cells using Global Run-On and sequencing (GRO-seq). We found that estrogen signaling directly regulates a strikingly large fraction of the transcriptome in a rapid, robust, and unexpectedly transient manner. In addition to protein-coding genes, estrogen regulates the distribution and activity of all three RNA polymerases, and virtually every class of non-coding RNA that has been described to date. This data submission covers > 95% of mapped reads comprising nearly all transcript classes described.  Reads mapping to intergenic and enhancer transcripts were removed from this data submission and will be reported separately (manuscripts in preparation). Bed files are tab-separated text files in which columns represent: chrom, chromStart (5' End of the read), chromEnd (chromStart+1), name (unused always 'n'), score (the number of mismatches), and strand.  Note that because of the inclusion of reads mapping to the rRNA chromosome, bed files cannot be uploaded to the UCSC genome browser directly.  Instead, use the wiggle files (coming soon!) for this purpose.
+
+DESIGN
+Using GRO-seq over a time course (0, 10, 40, 160 min) of estrogen signaling in ER-alpha positive MCF-7 human breast cancer cells.
+
+PLATFORM
+GPL9052 Illumina Genome Analyzer (Homo sapiens)
+
+CITATIONS
+21549415
+

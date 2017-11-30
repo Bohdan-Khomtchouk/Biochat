@@ -1,0 +1,18 @@
+TITLE
+Mice cerbellum extracts: SCA7 KI mice vs. wild type mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Transcriptional profiling of mouse cerebellar extract comparing SCA7 KI mice with wild type mice. Female mice were killed by decapitation on post natal days 10 and 22 and 11 weeks. Goal was to determine gene expression profiles differing between SCA7 KI mice and wild-type mice during post-natal developement of the cerebellum.
+
+DESIGN
+Gene expression profiling was performed using RNA extracted from the cerebellum of KI and WT mice at P10 (5 WT and 5 KI), P22 (5 WT and 4 KI) and 11 wks (5WT and 6 KI). After labeling, RNAs were hybridized on dual-label G4122F Agilent® chips; a mix of all P10 samples was used as common reference (green channel). Quality control included visual control of the reconstructed image of the chip, M/A plot, corner intensities, outliers, positive and negative intensities, normalization factors. Normalization and statistical analyses were carried out by using BRB-array Tools developed by Dr. Richard Simon and the BRB-ArrayTools development team (Biometrics Research Branch, http://linus.nci.nih.gov/BRB-ArrayTools.html ). Genes with less than 50% present calls or with low variability along the arrays (less than 20% of values with at least 2-fold change in either direction from the gene’s median value) were excluded from further analysis. For the 1905 remaining probes an interaction between time and genotype was analyzed by regression analysis of the time course of expression. In brief, probes for which variation over time differed for the genotype class were fitted to the following model: log expression ~ time + time**2 + genotype + genotype*time + genotype*time**2. A univiariate p-value < 0.001 (random variance model) was set for significant probes (genotype*time + genotype*time**2)  and a False Discovery Rate (FDR) was calculated for each probe (Benjamini & Hochberg, 1995). Differences in profiles were identified with a Self Organisation Tree Algorithm (MultiplExperiment Viewer (MeV), (Saeed et al, 2006). Expression values were averaged by group and then clustered according to their profile as a function of time.
+
+PLATFORM
+GPL4134 Agilent-014868 Whole Mouse Genome Microarray 4x44K G4122F (Feature Number version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

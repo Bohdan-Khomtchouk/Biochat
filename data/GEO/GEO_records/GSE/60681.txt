@@ -1,0 +1,18 @@
+TITLE
+LASSIM -a network inference toolbox for genome-wide mechanistic modeling [Time-series polarization: CD4+ T cells toward Th2]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Recent and ongoing revolutions in measurement technologies imply completely new possibilities for genome research: today, time-resolved, quantitative, and systems-level data are available. Nevertheless, without a corresponding revolution in methods for data analysis, these new data tend to drown researchers and doctors, rather than provide clear and useful insights. Such new methods are developed within the field of systems biology. Systems biology has two main approaches: mechanistically detailed and well-determined simulation models for small subsystems, and more approximative statistical models for the entire genome. However, there are few, if any, methods that combine the strengths of these two approaches. Herein, we present LASSIM, a new simulation-based approach, which can be applied to systems of the size of the entire genome. The superior performance of LASSIM is demonstrated in three examples: i) an example with simulated data shows that unlike traditional large-scale methods, LASSIM correctly identifies the true behavior between measured data-points, ii) LASSIM outperforms the winner of a previous DREAM challenge, the most competitive benchmarking approach available, iii) based on new data from TH2 differentiation, LASSIM identifies a first mechanistic model for the entire genome. The key predictions of this model are typically enriched for DNA bindings, which suggests that most predicted interactions are direct. Moreover, in silico knockdowns were experimentally validated. In summary, LASSIM opens the door to a new type of model-based data analysis: to models that combine the strengths of reliable mechanistic models with truly systems-level data.
+
+DESIGN
+Total CD4+ T cells were isolated from buffy coat using total CD4+ T cell isolation kit (Miltenyi, Bergisch-Gladbach, Germany). Total CD4+ T cells were polarized in T helper 2 (Th2) condition by stimulation with plate-bound anti-CD3 (500 ng/mL), soluble anti-CD28 (500 ng/mL), in the presence of IL-4 (10 ng/ml), IL-2 (10 ng/mL) and anti-IL-12 (5 ug/mL). Total RNA was extracted from total CD4+ T cells and in vitro polarized Th2 cells collected at 6 hours, 48 hours and 96 hours using a miRneasy Mini Kit (Qiagen, Valencia, CA, USA).  RNA concentrations were analyzed with NanoDrop ND-1000 Spectrophotometer (NanoDrop Technologies, Thermo Fisher Scientific Inc., Waltham, MA, USA). The cRNA was prepared using a LowInput QuickAmp Labeling Kit (Agilent Technologies, Palo Alto, Calif, USA). Gene expression microarray analysis was perfromed using Whole Human Genome Microarray 4x44K  according to the manufacture’s instruction (Agilent Technologies, Palo Alto, Calif).
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+28640810
+

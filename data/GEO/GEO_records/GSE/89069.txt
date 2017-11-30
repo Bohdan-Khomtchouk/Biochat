@@ -1,0 +1,18 @@
+TITLE
+Next Generation Sequencing Facilitates Quantitative Analysis of brain Transcriptome after viral infection with ZIKV (Zika Virus)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: The goals of this study are to understand ZIKV induced immune responses in the developing brain at genome-wide level. Methods: Total RNA was isolated from E17.5 mouse brains after viral infection at E14.5. After genomic DNA and ribosomal RNA removal, fractionated RNA were subjected to strand-specific library preparation using NEBNext Ultra RNA Library Prep Kit. Sequencing was performed on Nextseq500 (Illumina). The sequencing reads that passed quality filters were analyzed with TopHat followed by Cufflinks. Results:  After performed Gene Ontology analyses with RNA-seq data, our results revealed a set of genes that are associated with the immune response and apoptosis pathways. Gene Set Enrichment Analysis (GSEA) further show significant enrichments on both the immune system response and apoptosis pathways. Some of these results were also verified with qRT-PCR. Conclusions: Our results suggest that ZIKV infection triggers an aggressive immune response, which has the potential to cause exacerbation of brain damage by enhancing neuronal death and generating vascular abnormalities. Our discovery of massive neuronal death, leaky blood-brain-barrier (BBB), and astrogliosis in ZIKV infected brains is the first study to suggest that ZIKA causes extensive brain damage.
+
+DESIGN
+RNA-seq of C56BL/6 mouse E17.5 brain with or without Zika virus infection.
+
+PLATFORM
+GPL19057 Illumina NextSeq 500 (Mus musculus)
+
+CITATIONS
+27729407
+

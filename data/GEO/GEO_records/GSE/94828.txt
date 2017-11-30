@@ -1,0 +1,18 @@
+TITLE
+Histone modification (H3K4me3 and H3K27me3) during vascular endothelial cell differentiation from mouse embryonic stem cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Although studies of the differentiation from mouse embryonic stem (ES) cells to vascular endothelial cells (ECs) provide an excellent model for investigating the molecular mechanisms underlying vascular development, temporal dynamics of gene expression and chromatin modifications have not been well studied. Herein, using transcriptomic and epigenomic analyses based on the H3K4me3 and H3K27me3 modifications at a genome-wide scale, we analyzed the EC differentiation steps from ES cells and crucial epigenetic modifications unique to ECs. We determined that Gata2, Fli1, Sox7, and Sox18 are master regulators of EC induced following expression of the hemangioblast commitment pioneer factor, Etv2. These master regulator gene loci were repressed by H3K27me3 under the mesoderm period, but rapidly transitioned to the histone modification switching from H3K27me3 to H3K4me3 after treatment with vascular endothelial growth factor (VEGF). SiRNA knockdown experiments indicated that these regulators are indispensable not only for proper EC differentiation but also for blocking the commitment to other closely aligned lineages. Collectively, our detailed epigenetic analysis might provide an advanced model for understanding temporal regulation of chromatin signature and resulting gene expression profiles during EC commitment. These studies would lead the future development of methods to amplify the vascular endothelium for regenerative medicine.
+
+DESIGN
+We prepared Flk-positive mesoderm cells, and 6 and 48 hours after with or without VEGF treatment cells. Cells were collected and cross-linked with 1% formaldehyde for 10min. After neutralization by using 0.2M glycine for 5min, cells were collected, re-suspended in SDS lysis buffer (10 mM Tris-HCl, 150 mM NaCl, 1% SDS, 1mM EDTA; pH 8.0, protease inhibitor cocktail), and fragmented by sonication (Sonifer 250, Branson; 10min, 60% duty, output level 4). The sonicated solution was diluted in ChIP dilution buffer (20 mM Tris-HCl (pH 8.0), 150 mM NaCl, 1 mM EDTA, 1% Triton X-100) to a volume of 10.3ml, and 10ml was used for IP,whereas 300 ul was used as INPUT. Specific antibodies were bound with Dynabeads Magnetic beads (Life technologies, Madison, WI, USA) and applied to the diluted sonicated solution for immunoprecipitation. Antibodies against H3K4me3 (kindly gifted by Dr. Kimura (Tokyo Institute of Technology, Japan)) and H3K27me3 (07-449, Millipore, Billerica, MA, USA) were used. The prepared DNA was quantified using Q-bit (Life Technologies) and more than 10 ng of DNA was processed for the ChIP-seq assay. ChIP-DNA was prepared for sequencing according to a modified version of the genomic DNA protocol (Illumina, San Diego, CA, USA).
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+28334937
+

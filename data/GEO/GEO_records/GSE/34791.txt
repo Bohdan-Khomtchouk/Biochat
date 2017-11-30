@@ -1,0 +1,18 @@
+TITLE
+" Calling Cards " for DNA-binding proteins in mammalian cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The ability to chronicle transcription factor binding events throughout the development of an organism would facilitate mapping of transcriptional networks that control cell fate decisions. We describe a method for permanently recording protein-DNA interactions in mammalian cells.  We endow transcription factors with the ability to deposit a transposon into the genome near to where they bind. The transposon becomes a “Calling Card” the transcription factor leaves behind to record its visit to the genome. The locations of the Calling Cards can be determined by massively-parallel DNA sequencing. We show that the transcription factor SP1 fused to the piggyBac transposase directs insertion of the piggyBac transposon near SP1 binding sites. The locations of transposon insertions are highly reproducible, and agree with sites of SP1-binding determined by ChIP-seq. Genes bound by SP1 are more likely to be expressed in the HCT116 cell line we used, and SP1-bound CpG islands show a strong preference to be unmethylated. This method has the potential to trace transcription factor binding throughout cellular and organismal development in a way that has heretofore not been possible.
+
+DESIGN
+These data contain mapped insertion sites from the piggyBac (PB) transposon into HCT116 cell line and sequenced using an Illumina GAII analyzer.  The first set contains the insertion sites of transposons mapped from the wild-type PB transposase and the second set contains the insertion sites of transposons mapped with the PB transposase fused to the transcription factor SP1.  Other sequencing data present are ChIP-seq data for SP1 in the HCT116 cell line and RNA-seq data.
+
+PLATFORM
+GPL10999 Illumina Genome Analyzer IIx (Homo sapiens)
+
+CITATIONS
+22214611
+

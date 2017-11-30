@@ -1,0 +1,18 @@
+TITLE
+Integration of genome-wide approaches identifies lncRNAs of adult neural stem cells and their progeny in vivo [RNA-seq]
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Long noncoding RNAs (lncRNAs) have been described in cell lines and various whole tissues, but lncRNA analysis of development in vivo is limited. Here, we comprehensively analyze lncRNA expression for the adult mouse subventricular zone neural stem cell lineage. We utilize complementary genome-wide techniques including RNA-seq, RNA CaptureSeq, and ChIP-seq to associate specific lncRNAs with neural cell types, developmental processes, and human disease states. By integrating data from chromatin state maps, custom microarrays, and FACS purification of the subventricular zone lineage, we stringently identify lncRNAs with potential roles in adult neurogenesis. shRNA-mediated knockdown of two such lncRNAs, Six3os and Dlx1as, indicate roles for lncRNAs in the glial-neuronal lineage specification of multipotent adult stem cells. Our data and workflow thus provide a uniquely coherent in vivo lncRNA analysis and form the foundation of a user-friendly online resource for the study of lncRNAs in development and disease.
+
+DESIGN
+RNA-seq (both paired end and single) from the adult neurogenic niches- subventricular zone (SVZ), olfactory bulb (OB), dentate gyrus (DG) and control non-neurogenic tissue, striatum (STR). Reads were used to assemble a lncRNA catalogue and determine expression values for both protein-coding and noncoding genes
+
+PLATFORM
+GPL11002 Illumina Genome Analyzer IIx (Mus musculus)
+
+CITATIONS
+23583100
+

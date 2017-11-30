@@ -1,0 +1,18 @@
+TITLE
+An Investigation of Biomarkers Derived from Legacy Microarray Data for Their Utility in the RNA-Seq Era
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression microarray has been the primary biomarker platform ubiquitously applied in biomedical research, resulting in enormous data, predictive models and biomarkers accrued. Recently, RNA-seq has looked likely to replace microarrays, but there will be a period where both technologies coexist. This raises two important questions: can microarray-based models and biomarkers be directly applied to RNA-Seq data? Can future RNA-Seq-based predictive models and biomarkers be applied to microarray data to leverage past investment? We systematically evaluated the transferability of predictive models and signature genes between microarray and RNA-seq using two large clinical data sets. The complexity of cross-platform sequence correspondence was considered in the analysis and examined using three human and two rat data sets, and three levels of mapping complexity were revealed. Three algorithms representing different modeling complexity were applied to the three levels of mappings for each of the eight binary endpoints and Cox regression was used to model survival times with expression data. In total, 240,096 predictive models were examined. Signature genes of predictive models are reciprocally transferable between microarray and RNA-seq data for model development, and microarray-based models can accurately predict RNA-seq-profiled samples; while RNA-seq-based models are less accurate in predicting microarray-profiled samples and are affected both by the choice of modeling algorithm and the gene mapping complexity. The results suggest continued usefulness of legacy microarray data and established microarray biomarkers and predictive models in the forthcoming RNA-seq era. Definitions of characteristics: EFS day: number of days for event free survival EFS bin: binary classification of event free survival OS day: number of days for overall survival OS bin: binary classification of overall survival High Risk: Indicating whether a sample belongs to high risk group or not A_EFS_All: binary class label for event free survival for all samples B_OS_All: binary class label for overall survival for all samples C_SEX_All: binary class label for sex D_FAV_All: binary class label for favorable and unfavorable samples E_EFS_HR: binary class label for event free survival of High Risk group F_OS_HR: binary class label for overall survival of High Risk group. The same set of Samples is submitted under GEO accession GSE49711. This Series is a reanalysis of the data.
+
+DESIGN
+The same set of RNA samples were profiled with microarray and RNA-Seq platforms. We explore the transferability of predictive models and signature genes between microarray and RNA-Seq data
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+25150839 , 25150838 , 25254650 , 25633159
+

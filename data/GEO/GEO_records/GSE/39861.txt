@@ -1,0 +1,18 @@
+TITLE
+Gene deletion expression profiles of SAGA, TREX2 and Sem1
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Evidence indicates that transcription and mRNA export are linked processes. The molecular mechanisms of this coordination are not clear however. Sus1 (hENY2) participates in this coordination as part of two protein complexes: SAGA, a transcriptional co-activator and TREX-2 that functions in mRNA biogenesis and export. Here we investigate the coordinated action of SAGA and TREX-2 that is required for gene expression. We demonstrate that the TREX-2/proteasomal subunit Sem1, influences Sus1 role in mRNA export and TREX-2 stability. Wide analyses of gene expression reveal that Sem1 and Sus1 have also overlapping functions in transcription. In the absence of Sem1, expression of some SAGA-dependent genes is compromised with a concomitant decrease of RNAP II recruitment to promoters. Notably, ChIP experiments revealed a distinct dependency for SAGA subunits recruitment on Sem1. While absence of Sem1 lowers Ada2 and Taf9 recruitment to GAL1 promoter upon activation, association of the deubiquitylation module remains intact. However, H2B deubiquitylation activity is dramatically decreased. These results unveil a new role for Sem1 in influencing activation of SAGA-dependent H2B deubiquitylation likely mediated by stabilization of TREX-2 complex and SAGA modular assembly. Our work gives insights in how modular architecture of SAGA is determinant for its function in gene expression.
+
+DESIGN
+Two channel microarrays were used. RNA isolated from a large amount of wt yeast from a single culture was used as a common reference. This common reference was used in one of the channels for each hybridization and used in the statistical analysis to obtain an average expression-profile for each deletion mutant relative to the wt. Two independent cultures were hybridized on two separate microarrays. For the first hybridization the Cy5 (red) labeled cRNA from the deletion mutant is hybridized together with the Cy3 (green) labeled cRNA from the common reference. For the replicate hybridization, the labels are swapped. Each gene is represented twice on the microarray, resulting in four measurements per mutant. Using the Erlenmeyer growth protocol up to five deletion strains were grown on a single day. In the tecan platereader, up to eleven deletion strains could be grown on a single day. Wt cultures were grown parallel to the deletion mutants to assess day-to-day variance.
+
+PLATFORM
+GPL11232 A-UMCU-Y16k-1.3
+
+CITATIONS
+23599000
+

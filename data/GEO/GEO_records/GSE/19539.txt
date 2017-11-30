@@ -1,0 +1,18 @@
+TITLE
+Identification of Novel Oncogene Loci in Ovarian Cancer through Integrated Copy Number and Expression Analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Use of expression data to analyse ovarian cancer often yields long lists of genes that do not agree across various studies. Copy number however is more stable and can reliable predict important regions of change. Using matched copy number and expressiion data helps accurately identify novel drivers of ovarian cancer.
+
+DESIGN
+72 tumours for copy number analysis with 57 matching blood normals. Out of these 72, 68 produced good quality RNA for expression arrays. These 68 array samples and have been run in 10 batches by the same user. Batch number is recorded under characteristics. The SNP6_Normalised-Copy-number.csv file appended below contains the copy number ratios relative to matching normal samples or a pooled baseline. In this file, probes on Chromosome Y and the Mitochondrion (MT) have been removed and the probesets are organised first by Chromosome and then by start position. Annotations for this were mapped in Partek using the Affymetrix GenomewideSNP6, CN and SNP annotation files, release number 23.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] GPL6801 [GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array
+
+CITATIONS
+20386695
+

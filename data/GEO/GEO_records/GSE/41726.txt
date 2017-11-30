@@ -1,0 +1,18 @@
+TITLE
+Effects of sample size on differential gene expression, rank order and prediction accuracy of a gene signature
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Gene expression profiles were generated from muscle biopsies from 134 individuals, and differences in expression based on sex were explored. Top differentially expressed gene lists are often inconsistent between studies and it has been suggested that small sample sizes contribute to lack of reproducibility and poor prediction accuracy in discriminative models. We considered sex differences (69♂, 65♀) in 134 human skeletal muscle biopsies using DNA microarray. The full dataset and subsamples (n= 10 (5♂, 5♀) to n=120 (60♂, 60♀)) thereof were used to assess the effect of sample size on the differential expression of single genes, gene rank order and prediction accuracy. Using our full dataset (n=134), we identified 717 differentially expressed transcripts (p-value < 0.0001; false discovery rate < 0.006) and we were able to predict sex with 92% accuracy, both within our dataset and on external datasets. Both p-values and rank order of top differentially expressed genes became more variable using smaller subsamples. For example, at n=10 (5♂, 5♀), no gene was considered differentially expressed at p < 0.0001 and prediction accuracy was ~50% (no better than chance). We found that sample size clearly affects microarray analysis results; small sample sizes result in unstable gene lists and poor prediction accuracy. We anticipate this will apply to other phenotypes, in addition to sex.
+
+DESIGN
+RNA was isolated from 134 muscle samples. Gene expression is compared between males and females.
+
+PLATFORM
+GPL6480 Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)
+
+CITATIONS
+23755224
+

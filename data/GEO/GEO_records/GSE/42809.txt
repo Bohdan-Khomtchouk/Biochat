@@ -1,0 +1,18 @@
+TITLE
+Genome-wide pairwise analysis of normal and spontaneously transformed adipose tissue derived human multipotent stromal cells (hMSC)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+hMSC are perspective source for applications in the field of regeneraitve medicine. Biosafety of cultivated in vitro multipotent cells prior transplantation is one of the important issues. According to cancer stem cell theory, hMSCs are the most probable source of soft tissue tumors (sarcomas). Adequate cell model would help to investigate potential oncomarkers and mechanism of this type of transformation in greater detail. Genome-wide pairwise expression analysis of normal and spontaneously transformed hMSCs was performed to determine aspects of immortalization and transformation mechanisms during cultivation of hMSCs. Data was processed by lumi (bioconductor package). Differential expression of transcripts was determined by SAM. GSEA and GO overrepresentation analysis on gene level has also been made. Results has provided insight into functionally connected genes and pathways involved in spontaneous transformation of hMSCs. It seems that transformation is connected with well-known oncogenic pathways (E2F, ATR/ATM, Ras, Rho). Expression profile of transformed hMSCs has also been determined along with 6 genes, aberrant expression of which hasn`t been dicussed before in terms of oncology (HSPB6, PLAC9, FEZ1, DTWD1, APH1A, ATP5L).
+
+DESIGN
+Multipotent stromal cells (MSCs) were isolated from adipose tissue samples obtained from 6 healthy donors. Total RNA was isolated from 6 normal and 6 donor-matched spontaneously transformed hMSC cultures in vitro for pair-wise global comparison.
+
+PLATFORM
+GPL10558 Illumina HumanHT-12 V4.0 expression beadchip
+
+CITATIONS
+Omelchenko DO, Rzhaninova AA, Goldshtein DV. Comparative transcriptome pairwise analysis of spontaneously transformed multipotent stromal cells from human adipose tissue. Russian Journal of Genetics 2014 January;50(1):96-104.
+

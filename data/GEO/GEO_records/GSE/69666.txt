@@ -1,0 +1,18 @@
+TITLE
+A CRISPR-based screen identifies genes essential for West Nile virus-induced cell death
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+West Nile virus (WNV) causes an acute neurological infection attended by massive neuronal cell death. However, the mechanism(s) behind the virus-induced cell death is poorly understood. Using a library containing 77,406 sgRNAs targeting 20,121 genes, we performed a genome-wide screen using CRISPR/Cas9. HEK 293FT cells were infected with lentivirus expressing sgRNAs and then transfected with a Cas9 expressing construct. WNV infection killed most cells during a 12d selection. Survivor cells were harvested, from which DNA was isolated. The sgRNAs integrated in genome of survivor cells were amplified with PCR. The PCR product was sequenced with Illumina MiSeq to profile the sgRNA population in the survivor cells. Three replicates were conducted. Similarly, a second round of screen was conducted.  Among the genes identified, seven genes, EMC2, EMC3, SEL1L, DERL2, UBE2G2, UBE2J2, and HRD1, stood out as having the strongest phenotype, whose knockout conferred strong protection against WNV-induced cell death with two different WNV strains and in three cell lines. Interestingly, knockout of these genes did not block WNV replication. Thus, these appear to be essential genes that link WNV replication to downstream cell death pathway(s). In addition, the fact that all of these genes belong to the endoplasmic reticulum-associated protein degradation (ERAD) pathway suggests that this might be the primary driver of WNV-induced cell death.
+
+DESIGN
+Examination of sgRNA populations in survival 293FT cells
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens)
+
+CITATIONS
+26190106
+

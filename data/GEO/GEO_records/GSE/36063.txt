@@ -1,0 +1,18 @@
+TITLE
+A map of nucleosome positions in yeast at base-pair resolution
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The exact positions of nucleosomes along genomic DNA can influence many aspects of chromosome function, yet existing methods for mapping nucleosomes do not provide the necessary single base pair accuracy to determine these positions. Here we develop and apply a new approach for direct mapping of nucleosome centers based on chemical modification of engineered histones. The resulting map locates nucleosome center positions genome-wide in unprecedented detail and accuracy. It reveals novel aspects of the in vivo nucleosome organization that are linked to transcription factor binding, RNA polymerase pausing, and the higher order structure of the chromatin fiber itself.
+
+DESIGN
+6 samples were analyzed with high throughout parallel sequencing.  All samples were created using the same chemical mapping protocol except with varying reaction times.  The different reaction times did not make any significant difference in the nucleosome maps so all the data, for the 6 samples, were combined into one data set for the paper and are all considered replicates.  The 6 samples are as follows: 1. 20 minute reaction time (single-end sequencing) 2. 20 minute reaction time (single-end sequencing) 3. 1 minute reaction time (single-end sequencing) 4. 1.5 minute reaction time (single-end sequencing) 5. 20 minute reaction time (paired-end sequencing) 6. 1.5 minute reaction time (paired-end sequencing)
+
+PLATFORM
+GPL15263 AB SOLiD 4 System (Saccharomyces cerevisiae)
+
+CITATIONS
+22722846
+

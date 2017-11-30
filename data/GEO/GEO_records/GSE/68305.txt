@@ -1,0 +1,18 @@
+TITLE
+Computational prediction of miRNAs and their targets in Phaseolus vulgaris using simple sequence repeat signatures
+
+ORGANISM
+Phaseolus vulgaris
+
+SUMMARY
+MicroRNAs (miRNAs) are endogenous, noncoding, short RNAs directly involved in regulating gene expression at the post-transcriptional level. In spite of immense importance, limited information of P. vulgaris miRNAs and their expression patterns prompted us to identify new miRNAs in P. vulgaris by computational methods. Besides conventional approaches, we have used the simple sequence repeat (SSR) signatures as one of the prediction parameter. Moreover, for all other parameters including normalized Shannon entropy, normalized base pairing index and normalized base-pair distance, instead of taking a fixed cut-off value, we have used 99% probability range derived from the available data. We have identified 208 mature miRNAs in P. vulgaris belonging to 118 families, of which 201 are novel. 97 of the predicted miRNAs in P. vulgaris were validated with the sequencing data obtained from the small RNA sequencing of P. vulgaris. Randomly selected predicted miRNAs were also validated using qRT-PCR. A total of 1305 target sequences were identified for 130 predicted miRNAs. Using 80% sequence identity cut-off, proteins coded by 563 targets were identified. The computational method developed in this study was also validated by predicting 229 miRNAs of A. thaliana and 462 miRNAs of G. max, of which 213 for A. thaliana and 397 for G. max are existing in miRBase 20. There is no universal SSR that is conserved among all precursors of Viridiplantae, but conserved SSR exists within a miRNA family and is used as a signature in our prediction method. Prediction of known miRNAs of A. thaliana and G. max validates the accuracy of our method. Our findings will contribute to the present knowledge of miRNAs and their targets in P. vulgaris. This computational method can be applied to any species of Viridiplantae for the successful prediction of miRNAs and their targets.
+
+DESIGN
+Small RNA sequencing was done for 10 days old seedlings of Phaseolus vulgaris  Cv. Anupam
+
+PLATFORM
+GPL18673 Illumina HiSeq 2000 (Phaseolus vulgaris)
+
+CITATIONS
+26067253
+

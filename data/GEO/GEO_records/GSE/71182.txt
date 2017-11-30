@@ -1,0 +1,18 @@
+TITLE
+Transcriptome profiling of peripheral blood mononuclear cells from Bos indicus Malnad Gidda breed
+
+ORGANISM
+Bos indicus
+
+SUMMARY
+Background:   The Malnad Gidda are unique dwarf Bos indicus cattle native to heavy rainfall Malnad and coastal areas of Karnataka in India. These cattle are highly adapted to harsh climatic conditions and are more resistant to Foot and Mouth disease as compared to other breeds of B.indicus. Since the first genome reference became available from B.taurus Hereford breed, only a few other breeds have been genotyped using high-throughput platforms. Also despite the known reports on high diversity within indicine breeds as compared to taurine breeds, only one draft genome of Nellore and horn transcriptome of Kankrej breed were sequenced at base level resolution. Because of the special characteristics Malnad Gidda possess, it becomes the choice of breed among many indicine cows to study at molecular level and genotyping. Results:  Sequencing mRNA from the PBMCs isolated from blood of one selected Malnad Gidda bull resulted in generation of 55 million paired-end reads of 100bp length. Raw sequencing data is processed to trim the adaptor and low quality bases, and are aligned against the whole genome and transcript assemblies of Bos taurus UMD 3.1 and Bos indicus (Nellore breed) respectively. About 72% of the sequenced reads from our study could be mapped against the B.taurus genome where as only 41% of reads could be mapped against the Bos indicus transcript assembly. Transcript assembly from the alignment carried out against the annotated B.taurus UMD 3.1 genome resulted in identification of ~10,000 genes with significant expression (FPKM > 1). In a similar analysis against the B.indicus Kankrej assembled transcripts we could identify only ~6,000 transcripts. From the variant analysis of the sequencing data we found ~10,000 SNPs in coding regions among which ~9,000 are novel and ~6,400 are amino acid changing. Conclusions:  For the first time we have genotyped and explored the transcriptome of B.indicus Malnad Gidda breed. A comparative analysis of mapping the RNA-Seq data against the available reference genome and transcript sequences is demonstrated. An enhanced utility of transcript sequencing could be achieved by improving or completing the sequence assembly of any B.indicus breed to better characterize the indicine breeds for productivity features and selective breeding.
+
+DESIGN
+Total RNA was isolated using RNeasy Mini kit (Qiagen, Venlo, The Netherlands).  RNA was quantitated by 260 nm absorbance with a Nanodrop ND-1000 spectrophotometer (NanoDrop Technologies Inc, DE, USA) as well as by measuring fluorescence using Qubit 2.0 (Life Technologies, NY, USA). The quality of RNA was further determined using capillary electrophoresis with an Agilent 2100 Bioanalyzer (Agilent Technologies, Palo Alto, CA, USA). RNA sample was rRNA depleted using Epicentre Ribo-Zero™ kit to enrich the sample for mRNA and non-coding RNA. Enriched RNA samples is further  processed to generate RNA library using the TruSeq RNA Sample Preparation v2 kit following the manufactures guide. Paired-end 100bp read sequencing of RNA library was carried out on Illumina HiSeq 2000 platform.
+
+PLATFORM
+GPL20723 Illumina HiSeq 2000 (Bos indicus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

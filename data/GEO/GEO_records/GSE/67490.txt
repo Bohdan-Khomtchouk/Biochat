@@ -1,0 +1,18 @@
+TITLE
+Omic Personality: Implications of Stable Transcript and Methylation Profiles for Personalized Medicine [DNA Methylation]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background:   Personalized medicine is predicated on the notion that individual biochemical and genomic profiles are relatively constant in times of good health and to some extent predictive of disease or therapeutic response.  We report a pilot study quantifying gene expression and methylation profile consistency over time, addressing the reasons for individual uniqueness, and its relation to N=1 phenotypes. Methods:  Whole blood samples from 4 African American women, 4 Caucasian women, and 4 Caucasian men drawn from the Atlanta Center for Health Discovery and Well Being study at three successive 6-month intervals were profiled by RNASeq, miRNASeq, and Illumina Methyl-450 arrays.  Standard regression approaches were used to evaluate the proportion of variance for each type of omic measure that is among individuals, and to quantify correlations among measures and with clinical attributes related to wellness. Results:  Longitudinal omic profiles are in general highly consistent over time, with an average of 67% of the variance in transcript abundance, 42% of CpG methylation level (but 88% for the most differentiated CpG per gene), and 50% of miRNA abundance among individuals, which are all comparable to 74% of the variance among individuals for 74 clinical traits.  One third of the variance can be attributed to differential blood cell type abundance, which is also fairly stable over time, and a lesser amount to eQTL effects, whereas seven conserved axes of covariance that capture diverse aspects of immune function explain over half of the variance.  These axes also explain a considerable proportion of individually extreme transcript abundance, namely approximately 100 genes that are significantly up- or down-regulated in each person and are in some cases enriched for relevant gene activities that plausibly associate with clinical attributes.  A similar fraction of genes have individually divergent methylation levels, but these do not overlap with the transcripts, and fewer than 20% of genes have significantly correlated methylation and gene expression. Conclusions:  People express an “omic personality” consisting of peripheral blood transcriptional and epigenetic profiles that are constant over the course of a year and reflect various types of immune activity.  Baseline genomic profiles can provide a window into the molecular basis of traits that might be useful for explaining medical conditions or guiding personalized health decisions.
+
+DESIGN
+Whole blood samples from 12 subjects drawn from the Atlanta Center for Health Discovery and Well Being study at three successive 6-month intervals were profiled by RNASeq, miRNASeq, and Illumina Methyl-450 arrays.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+26391122
+

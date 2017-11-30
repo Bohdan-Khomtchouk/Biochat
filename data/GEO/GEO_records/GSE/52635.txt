@@ -1,0 +1,18 @@
+TITLE
+A Composite Framework for the Statistical Analysis of Epidemiological DNA Methylation Data with the Infinium Human Methylation 450K BeadChip
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+High-throughput DNA methylation profiling exploits microarray technologies thus providing a wealth of data, which however solicits rigorous, generic and analytical pipelines for an efficient systems level analysis and interpretation. In the present study, we utilize the Illumina's Infinium Human Methylation 450K BeadChip platform in an epidemiological cohort, targeting to associate interesting methylation patterns with breast cancer predisposition. The computational framework proposed here extends the -established in transcriptomic microarrays- logarithmic ratio of the Methylated versus the Unmethylated signal intensities, quoted as M-value. Moreover, intensity-based correction of the M-signal distribution is introduced in order to correct for batch effects and probe-specific errors in intensity measurements. This is accomplished through the estimation of intensity-related error measures from quality control samples included in each chip. Moreover, robust statistical measures based on coefficient variation measurements of DNA methylation between control and case samples alleviate the impact of technical variation. The results presented here are juxtaposed to those derived by applying classical pre-processing and statistical selection methodologies. Overall, in comparison to traditional approaches, the introduced framework's superior performance in terms of technical bias correction, along with its generic character, support its suitability for various microarray technologies.
+
+DESIGN
+Bisulphite converted DNA from the samples were hybridized to the Illumina Infinium  HumanMethylation450 BeadChip
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

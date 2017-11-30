@@ -1,0 +1,18 @@
+TITLE
+Perturbation-response genes reveal signaling footprints in cancer gene expression
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Aberrant cell signaling can cause cancer and other diseases and is a focal point of drug research. A common approach is to infer signaling activity of pathways from gene expression. However, mapping gene expression to pathway components disregards the effect of post-translational modifications, and downstream signatures represent very specific experimental conditions. Here we present PROGENy, a method that overcomes both limitations by leveraging a large compendium of publicly available perturbation experiments to yield a common core of Pathway RespOnsive GENes. Unlike existing methods, PROGENy can (i) recover the effect of known driver mutations, (ii) provide or improve strong markers for drug indications, and (iii) distinguish between oncogenic and tumor suppressor pathways for patient survival. Collectively, these results show that PROGENy accurately infers pathway activity from gene expression.
+
+DESIGN
+HEK293∆RAF1:ER cells were treated with different stimuli (4OHT, Ly29002, TNFa, TGF1b, IFNg) for different periods of time (1h, 4h).
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

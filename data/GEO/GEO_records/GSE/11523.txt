@@ -1,0 +1,18 @@
+TITLE
+Defining Developmental Potency and Cell Lineage Trajectories by Expression Profiling of Differentiating Mouse ES Cells
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Biologists rely on morphology, function, and specific markers to define the differentiation status of cells. Transcript profiling has expanded the repertoire of these markers by providing the snapshot of cellular status that reflects the activity of all genes. However, such data have been used only to assess relative similarities and differences of these cells. Here we show that principal component analysis (PCA) of global gene expression profiles map cells in multidimensional transcript profile space and the positions of differentiating cells progress in a stepwise manner along trajectories starting from undifferentiated embryonic stem (ES) cells located in the apex. We present three cell lineage trajectories, which represent the differentiation of ES cells into the first three lineages in mammalian development: primitive endoderm, trophoblast, and primitive ectoderm/neural ectoderm. The positions of the cells along these trajectories seem to reflect the developmental potency of cells and can be used as a scale for the potential of cells. Indeed, we show that embryonic germ (EG) cells and induced pluripotent (iPS) cells are mapped near the origin of the trajectories, whereas mouse embryo fibroblast (MEF) and fibroblast cell lines are mapped near the far end of the trajectories. We propose that this method can be used as the non-operational semi-quantitative definition of cell differentiation status and developmental potency. Furthermore, the global expression profiles of cell lineages provide a framework for the future study of in vitro and in vivo cell differentiation. Keywords: cell type comparison design,reference design,replicate design,time series design
+
+DESIGN
+Most of the cells and RNA samples used in this study were described in detail previously (See paper's citation associated with this dataset). To maximize the uniformity of the microarray data, all the samples, including ones analyzed by DNA microarray previously, were hybridized to the same platform (the NIA Mouse 44K Microarray  manufactured by Agilent Technologies: AMADID #015087). The intensity of each gene feature per array was extracted from scanned microarray images using Feature Extraction Software V9.5.
+
+PLATFORM
+GPL6867 NIA Mouse 44K Microarray v3.0 (Whole Genome 60-mer Oligo) [Agilent 015087]
+
+CITATIONS
+19112179
+

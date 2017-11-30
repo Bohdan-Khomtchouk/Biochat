@@ -1,0 +1,18 @@
+TITLE
+Intra- and Inter-Individual Variance of Gene Expression in Human Placenta
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Variance in microarray studies has been widely discussed as a critical topic of the identification of differentially expressed gene; however, few studies have addressed the influence of estimating variance.  To break intra- and inter-individual variance in clinical studies down to three levels: technical, anatomic, and individual, we designed experiments and algorithms to investigate three forms of variances. As a case study, a group of “inter-individual variable genes” were identified to exemplify the influence of underestimated variance on the statistical and biological aspects in identification of differentially expressed genes. Our results showed that inadequate estimation of variance inevitably led to the inclusion of non-statistically significant genes into those listed as significant, thereby interfering with the correct prediction of biological functions. Applying a higher cutoff value of fold changes in the selection of significant genes reduce/eliminate the effects of underestimated variance. Our data demonstrates that an appropriate evaluation of variance is critical in selecting significant genes of differential expression. If the estimation of precise variance has not been adequately considered in the experimental design, using a higher fold change criteria is one possible solution to overcome the difficulties associated with the identification of significant genes, but it paid by losing the number of selected genes.
+
+DESIGN
+A total of 11 normal placenta tissues obtained from 9 healthy individuals with term pregnancies, whom underwent cesarean section without labor pain. The first sample group (G1) was composed of samples 1 to 9 of nine individuals. The second sample group (G2) contained 8-1, 8-2 and 8-3, which were three different placental tissues taken from the same individual. The third sample group (G3) consisted of two technical replicates, 8-3_1 and 8-3_2, using the identical RNA pool. Sample 8-3 is estimated by sample 8-3_1 and 8-3_2.  Sample 8 is estimated by sample 8-1, 8-2 and 8-3.
+
+PLATFORM
+GPL5355 MBPL human 30k P6
+
+CITATIONS
+22723873
+

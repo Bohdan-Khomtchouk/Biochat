@@ -1,0 +1,18 @@
+TITLE
+sRNA profiling during Oxytricha conjugation
+
+ORGANISM
+Oxytricha trifallax
+
+SUMMARY
+In Oxytricha, the somatic genome is responsible for vegetative growth, while the germline contributes DNA to the next sexual generation. Somatic nuclear development eliminates all transposons and other so-called " junk DNA " , which constitute ~95% of the germline. We demonstrate that Piwi-interacting small RNAs (piRNAs) from the maternal nucleus can specify genomic regions for retention in this process. Oxytricha piRNAs map primarily to the somatic genome, representing the ~5% of the germline that is retained. Furthermore, injection of synthetic piRNAs corresponding to normally-deleted regions leads to their retention in subsequent generations. Our findings highlight small RNAs (sRNAs) as powerful transgenerational carriers of epigenetic  information for genome programming. The backcross study here shows that the mating between an IES+ strain with the wild-type stain produces corresponding IES-containing sRNAs at 19 hr, and we provided the mapping to and the sequences of the specific loci of interest in the submission. As a control, wild-type cells do not produce such IES-containing sRNAs, and this analysis can be pulled out from the GSE35018 study since we provided mapping to the whole genome. The purpose of the 20 hr total sRNA sequencing study here is to show that the class of 27 nt sRNA is the major species of total sRNAs in Oxytricha at 20 hr, which we sequenced previously from Otiwi1-associated sRNAs at 12, 19, 23, and 30 hr (GSE35018).  In addition, there is a less abundant class of small RNAs of 21-22 nt. These two classes are obvious by simply plotting the length distribution of the sRNA sequences.
+
+DESIGN
+We sequenced sRNAs from Contig22226.0 IES1+ strain backcrossed to wild-type parental strain at 19hr post-mixing, and found corresponding IES-containing sRNAs. As a control, wild-type cells do not produce such IES-containing sRNAs (see GSE35018). Total RNA from the backcrossing at 19hr were isolated with mirVana small RNA extraction kit (Ambion), and directly used for making Illumina sRNA libraries. Oxytricha total small RNA (sRNA) sequencing at 20 hr post conjugation shows that a class of 27 nt, 5'-U sRNAs dominates the sRNA population at 20 hr, and this class of sRNAs associate with Otiwi1 (see GSE35018 for Otiwi1-interacting sRNAs in Oxytricha).  In addition, a much less abundant class of 21-22 nt sRNAs is present according to the length distribution.
+
+PLATFORM
+GPL15459 Illumina HiSeq 2000 (Oxytricha trifallax) GPL15927 Illumina Genome Analyzer IIx (Oxytricha trifallax)
+
+CITATIONS
+23217708
+

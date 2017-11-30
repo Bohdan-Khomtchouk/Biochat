@@ -1,0 +1,18 @@
+TITLE
+Transcriptome-based network analysis reveals renal cell type-specific dysregulation of hypoxia-associated transcripts [Tub-FE]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Accumulating evidence suggests that dysregulation of hypoxia-regulated transcriptional mechanisms is involved in development of chronic kidney diseases (CKD). However, it remains unclear how hypoxia-induced transcription factors (HIFs) and subsequent biological processes contribute to CKD development and progression. In our study, genome-wide expression profiles of more than 200 renal biopsies from patients with different CKD stages revealed significant correlation of HIF-target genes with eGFR in glomeruli and tubulointerstitium. These correlations were positive and negative and in part compartment-specific. Microarrays of proximal tubular cells and podocytes with stable HIF1α and/or HIF2α suppression displayed cell type-specific HIF1/HIF2-dependencies as well as dysregulation of several pathways. WGCNA analysis identified gene sets that were highly coregulated within modules. Characterization of the modules revealed common as well as cell group- and condition-specific pathways, GO-Terms and transcription factors. Gene expression analysis of the hypoxia-interconnected pathways in patients with different CKD stages revealed an increased dysregulation with loss of renal function. In conclusion, our data clearly point to a compartment- and cell type-specific dysregulation of hypoxia-associated gene transcripts and might help to improve the understanding of hypoxia, HIF dysregulation, and transcriptional program response in CKD.
+
+DESIGN
+Kidney biopsies were microdissected and hybridized on Affymetrix HGU133A and HGU133 Plus 2 arrays. The expression data was normalized  using RMA and CustomCDF v 18 ENTREZG in batches, as indicated. Batch correction was performed using ComBat in GenePattern. The disease groups are Cadaveric Donors (CD, n=4), Diabetic Nephropathy (DN, n=18), Focal and Segmental Glomerulosclerosis (FSGS, n=12), Focal and Segmental Glomerulosclerosis and Minimal Change Disease (FSGS & MCD, n=4), Hypertensive Nephropathy (HT, n=20), IgA Nephropathy (IgA, n=24), Minimal Change Disease (MCD, n=12), Membranous Glomerulonephritis (MGN, n=18), Rapidly Progressive Glomerulonephritis (RPGN, n=21), Systemic Lupus Erythematosus (SLE, n=30), Thin Membrane Disease (TMD, n=6), and Tumor Nephrectomies (TN, n=6). This dataset has substantial overlap with GEO datasets  GSE47184,GSE35489, GSE37463
+
+PLATFORM
+GPL19109 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array [CDF: Brainarray HGU133Plus2_Hs_ENTREZG_v18] GPL19184 [HG-U133A] Affymetrix Human Genome U133A Array [Custom Brainarray v18 ENTREZG CDF]
+
+CITATIONS
+28819298
+

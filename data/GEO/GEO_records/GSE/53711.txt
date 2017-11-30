@@ -1,0 +1,18 @@
+TITLE
+Chickpea Transcriptome Atlas II - Abiotic Stress
+
+ORGANISM
+Cicer arietinum
+
+SUMMARY
+In this study, we aim to present a global view of transcriptome dynamics during various abiotic stresses in chickpea. We generated about 252 million high-quality reads from eight libraries (control, desiccation, salinity and cold stress samples for roots and shoots) using Illumina high-throughput sequencing GAII platform. We mapped the reads to the desi chickpea genome for estimation of their transcript abundance in different tissue samples. The transcriptome dynamics was studied by differential gene expression analyses between stress treatment and control sample.
+
+DESIGN
+We collected different tissue samples (root and shoot tissues of 10-day-old seedlings subjected to control (kept in water), desiccation (transferred on folds of tissue paper), salinity (transferred to beaker containing 150 mM NaCl solution) and cold (kept in water at 4 ± 1°C) stress for 5 h. Total RNA isolated from these tissue samples was subjected to Illumina sequencing. The sequenced data was further filtered using NGS QC Toolkit to obtain high-quality reads. The filtered reads were mapped to annotated chickpea genome using TopHat and fragments per exon kilobase per million (FPKM) was calculated using Cufflinks software for each gene in all the sample to measure their gene expression. Differential expression analysis was performed using Cuffdiff software. The differentially expressed genes during various abiotic stress conditions were identified.
+
+PLATFORM
+GPL16348 Illumina Genome Analyzer IIx (Cicer arietinum)
+
+CITATIONS
+Rohini Garg, Annapurna Bhattacharjee, Mukesh Jain. Genome-Scale Transcriptomic Insights into Molecular Aspects of Abiotic Stress Responses in Chickpea. Plant Mol Biol Rep. Jul 2, 2014. http://dx.doi.org/10.1007/s11105-014-0753-x
+

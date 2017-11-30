@@ -1,0 +1,18 @@
+TITLE
+SNP array data for 36 acute myeloid and lymphoblastic leukemia cell lines
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Copy number and LOH analysis was performed for 36 acute leukemia cell lines. All cases were genotyped with Affymetrix 250k Sty and Nsp arrays. Keywords: Acute leukemia, BCR-ABL1, cell lines, copy number analysis, loss-of-heterozygosity, genomics *** Due to privacy concerns, the primary SNP array data is no longer available with unrestricted access. Individuals wishing to obtain this data for research purposes may request access using the Web links below. ***
+
+DESIGN
+All assays were performed on DNA extracted from cell lines growing in log phase under recommended conditions. All blast crisis samples were flow sorted prior to DNA extraction. SNP calls were generated using Affymetrix GTYPE. Probe intensity data was extracted and used for DNA copy number analysis using dChip, a karyotype-guided normalization algorithm (Reference normalization, Mullighan et al Nature 2007;446:758), dChip and circular binary segmentation (implemented as DNAcopy in R). To select reference chromosomes for normalization, existing cytogenetic information was curated from the literature, and karyotyping repeated for a subset of cell lines (manuscript in preparation). Prior to copy number inference, summarized, normalized SNP probe values were corrected from ploidy in triploid or tetraploid cell lines. Copy number inferences were made using a set of 50 acuteleukemia remission samples (GSE9111).
+
+PLATFORM
+GPL3718 [Mapping250K_Nsp] Affymetrix Mapping 250K Nsp SNP Array GPL3720 [Mapping250K_Sty] Affymetrix Mapping 250K Sty2 SNP Array
+
+CITATIONS
+18408710
+

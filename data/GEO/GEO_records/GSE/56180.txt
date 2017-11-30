@@ -1,0 +1,18 @@
+TITLE
+Unambiguous Identification of miRNA:target site Interactions by Different Types of Ligation Reactions
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+To exert regulatory function, miRNAs guide Argonaute (AGO) proteins to partially complementary sites on target RNAs. Crosslinking and immunoprecipitation (“re state-of-the-art to map AGO binding sites, but assigning the targeting miRNA to these sites relies on bioinformatics predictions and is therefore indirect. To directly and unambiguously identify miRNA:target site interactions, we modified our CLIP methodology in C. elegans to experimentally ligate miRNAs to their target sites. Unexpectedly, ligation reactions also occurred in absence of the exogenous ligase. Our in vivo dataset and re-analysis of published mammalian AGO-CLIP data for miRNA-chimeras yielded > 17,000 miRNA:target site interactions. Analysis of interactions and extensive experimental validation of chimera-discovered targets of viral miRNAs suggest that our strategy identifies canonical, non-canonical, and non-conserved miRNA interactions. Our data suggest that ~80% of miRNA:targets have perfect or partial seed complementarity. In summary, analysis of miRNA:target chimeras enables the systematic, context-specific, in vivo discovery of miRNA interactions.
+
+DESIGN
+In vivo PAR-CLIP basically as described previously (Jungkamp et al. 2011) using GFP-tagged ALG-1 expressing worms in L3 stage. Worm lysate was treated with RNase T1. Following immunoprecipitation and a second RNase T1 digest, it was proceeded as described in Hafner et al. 2010. For the modified iPAR-CLIP ligation samples and its control samples immuno-purified complexes were treated with PNK phospathase minus, subjected to ligation with T4 RNA ligase/no ligase added and subsequently phosphorylated with PNK. Protein purification and RNA library preparation essentially as described in Hafner et al., but with the selection of longer RNA products.
+
+PLATFORM
+GPL13657 Illumina HiSeq 2000 (Caenorhabditis elegans)
+
+CITATIONS
+24857550
+

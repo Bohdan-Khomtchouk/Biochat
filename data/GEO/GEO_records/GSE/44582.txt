@@ -1,0 +1,18 @@
+TITLE
+Processing-Independent CRISPR RNAs Limit Natural Transformation in Neisseria meningitidis
+
+ORGANISM
+Neisseria lactamica 020-06
+
+SUMMARY
+In bacteria and archaea, CRISPR loci confer adaptive, sequence-based immunity against viruses and plasmids. CRISPR interference is specified by CRISPR RNAs (crRNAs) that are transcribed and processed from CRISPR spacers and repeats. Pre-crRNA processing is essential for CRISPR interference in all systems studied thus far. Here we examine crRNA biogenesis and CRISPR interference in naturally competent Neisseria spp., including the human pathogen N. meningitidis. Our studies reveal a unique crRNA maturation pathway in which crRNA transcription is driven by promoters that are embedded within each repeat, yielding crRNA 5’ ends are not formed by processing. Although crRNA 3’ end formation occurs through RNase III cleavage of a pre-crRNA/tracrRNA duplex, as in other Type II CRISPR systems, this processing event is dispensable for interference. The meningococcal pathway is the most streamlined CRISPR/cas system characterized to date. Endogenous CRISPR spacers frequently target genomic sequences of other Neisseria strains and so limit natural transformation, which is the primary source of genetic variation that contributes to immune evasion, antibiotic resistance, and virulence in N. meningitidis.
+
+DESIGN
+dRNA-seq approach for RNA samples from cultures of N. lactamica 020-06, harvested at mid-log. Two cDNA libraries from total RNA were prepared to distinguish between transcripts with either primary orprocessed 5’ ends: one library is generated from untreated RNA, whereas the other is treated with terminator exonuclease (TEX),
+
+PLATFORM
+GPL16715 Illumina Genome Analyzer IIx (Neisseria lactamica 020-06)
+
+CITATIONS
+23706818
+

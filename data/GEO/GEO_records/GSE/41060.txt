@@ -1,0 +1,18 @@
+TITLE
+Cytosine methylation and hydroxymethylation mark DNA for elimination in Oxytricha trifallax.
+
+ORGANISM
+Oxytricha trifallax
+
+SUMMARY
+We report the existence of both methylcytosine and hydroxymethylcytosine in the genomic DNA of the ciliate Oxytricha trifallax during its genome rearrangement process. These modifications are dynamically added, de novo, to sequences targeted for elimination and are not present after the rearrangement process (in vegetative cells). We performed methyl-DNA immunoprecipitation-sequencing (meDIP-seq) with antibodies against methylcytosine and hydroxymethylcytosine.
+
+DESIGN
+We performed methyl-DNA immunoprecipitation-sequencing (meDIP-seq) with antibodies against methylcytosine and hydroxymethylcytosine, and used an IgG control for nonspecific immunoprecpitation. Immunoprecipitation was performed on both vegetative (negative control) and 46h cells (with methylation). The data were normalized to RPKM, then the number of vegetative reads was subtracted from the number of 46h reads, giving excess reads at 46h, which we denote as the methylation/hydroxymethylation " signal " . Those data are reported in the tab-deliminated data files included with this dataset.
+
+PLATFORM
+GPL15459 Illumina HiSeq 2000 (Oxytricha trifallax)
+
+CITATIONS
+23075511
+

@@ -1,0 +1,18 @@
+TITLE
+Transcription profiling by array of HC11 mammary epithelial cell strains stably expressing different variants of the transcriptional regulator megakaryoblastic leukemia-1 (Mkl1)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+We have previously shown that HC11 mammary epithelial cells react strongly to the overexpression of megakaryoblastic leukemia-1 (Mkl1) with induction of tenascin-C expression. The present study was designed to find genes co-regulated with tenascin-C by Mkl1 in a SAP domain-dependent manner and without the involvement of serum response factor (SRF). For this purpose, we compared the transcriptomes of three stable HC11 cell strains that either overexpress full length Mkl1-RFP (HC11-FL), Mkl1-RFP with a mutated SRF-interaction site (HC11-mutB1) or Mkl1-RFP with a deletion of the SAP domain (HC11-ΔSAP).
+
+DESIGN
+HC11 cell strains stably expressing either FL-, mutB1- or ∆SAP-Mkl1-RFP clones were grown in triplicates in 0.03% FCS/RPMI medium without EGF for 48 h before total RNA was extracted. RNA was converted into labeled cDNA and hybridized to Affymetrix GeneChip Mouse Gene 1.0 ST arrays. RMA normalized expression values were calculated with the affy package from the Bioconductor 2.4 release (1) and differentially expressed genes were identified using moderated t-statistics calculated with the empirical Bayes method as implemented in the Bioconductor limma package (2). To be considered as differentially expressed between HC11-mutB1 and HC11-FL as well as HC11-∆SAP and HC11-FL cell lines, genes had to pass the filters: adjusted P-value ≤ 0.01 (with Benjamin-Hochberg false discovery correction), a minimum absolute linear fold change difference of 2.0 and a minimum average expression value of 4.0 (log2).  References:  (1) Gentleman, R., Carey, V., Bates, D., Bolstad, B., Dettling, M., Dudoit, S., Ellis, B., Gautier, L., Ge, Y., Gentry, J., Hornik, K., Hothorn, T., Huber, W., Iacus, S., Irizarry, R., Leisch, F., Li, C., Maechler, M., Rossini, A., Sawitzki, G., Smith, C., Smyth, G., Tierney, L., Yang, J., Zhang, J. (2004) Bioconductor: open software development for computational biology and bioinformatics. Genome Biology 5, R80  (2) Smyth, G. K., Speed, T. (2003) Normalization of cDNA microarray data. Methods 31, 265-273
+
+PLATFORM
+GPL6246 [MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+24495796
+

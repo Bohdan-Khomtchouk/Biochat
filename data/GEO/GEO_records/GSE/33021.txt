@@ -1,0 +1,18 @@
+TITLE
+Modeling Formamide Denaturation of Probe-Target Hybrids for Improved Microarray Probe Design in Microbial Diagnostics
+
+ORGANISM
+Escherichia coli K-12 ; Rhodobacter sphaeroides 2.4.1
+
+SUMMARY
+This study aimed to model formamide-based melting for the optimization of the sensitivity and specifcity of oligonucleotide probes in dignostic high-density microarrays. Formamide melting profiles of DNA oligonucleotides were obtained with a high-density microarray targeting 16S rRNA genes of Escherichia coli and Rhodobacter sphaeroides.  One or two mismatched versions of perfect match probes were included on the array to systematically analyze the effect of formamide on mismatch stability and mismatch discrimination. A thermodynamics-based mathematical model of formamide denaturation was developed to predict the formamide melting profiles with sufficient accuracy to help with oligonucleotide design in microbial ecology applications.
+
+DESIGN
+16S rRNA sequences with GenBank accession codes U00006 ( E. coli ) and X53853 (R. sphaeroides) were used for probe design.  The following oligonucleotide probe sets were used for the systematic analysis of the effect of formamide on probe-target hybrids (parenthetic information gives set name followed by the number of probes): 22-mer perfect match probes tiling the 16S rRNA gene of E. coli (TileE, n=1521), perfect match E.coli probes of variable length between 18 and 26 mers (Length, n=1045), E. coli probes with central single mismatches (OneM, n=1563), E. coli probes with single positional mismatches (PosM, n=4092), E. coli probes with single deletion mismatches (Gap, n=248), E. coli probes with single insertion mismatches (Insertion, n=248), E. coli probes with two separate mismatches (TwoM, n=1674), E. coli probes with central tandem mismatches (Tandem, n=558), and 22-mer perfect match probes tiling the 16S rRNA gene of R. sphaeroides.  Also, a probe with no match to 16S rRNA genes was used as a background control. On the array, regular probes were replicated three times and the Nonsense probe ten times.  See the manuscript of Yilmaz et al. for details.
+
+PLATFORM
+GPL14751 NimbleGen E.coli_R.sphaeroides custom array_4X72K format [090611_Unk_SY_EXP]
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

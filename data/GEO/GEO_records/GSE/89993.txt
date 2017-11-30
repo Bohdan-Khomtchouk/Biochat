@@ -1,0 +1,18 @@
+TITLE
+Cell-type-specific gene expression profiling using ribosome affinity purification
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Post-transcriptional regulation including mRNA binding to ribosomes plays an important role in determining cell-type-specific gene expression patterns. Here, we applied an approach that profiles cell-type-specific mRNAs. The Translating Ribosome Affinity Purification method (TRAP; Heiman et al., Cell, 2008 and Doyle et al., Cell, 2008) was developed in mice and has been combined with the UAS/Gal4 system in Drosophila (Thomas et al., PLoS ONE, 2012). TRAP is a powerful method to find cell-type-specific differences at the level of the 'translatome' (Dougherty, Schmidt, Nakajima, & Heintz, Nucleic Acids Research, 2010). In parallel to published efforts, we developed and implemented the method for the fly and compared distinct head cell types and identified cell-type-specific transcript classes with neuronal (e.g. receptor-, neuropeptide- or hormone activity) or glial function (e.g. transporter activity). Neuronal TRAP genes are over-represented in the brain, larval CNS and thoracico-abdominal ganglion (Chintapalli, Wang, & Dow, Nature Genetics, 2007). Using cell-type-to-cell-type comparisons (e.g. neurons vs. glia), instead of a given cell population to the total (e.g. neurons vs. head), the differences could be identified with greater resolution. TRAP uncovered more neuronal genes compared to neuronal RNA polymerase II ChIP-seq data (Schauer et al., Cell Reports, 2013). Thus, TRAP data confirm the importance of post-transcriptional regulation in defining cell identity. TRAP is one of the best methods to reveal differential " omics " data among distinct cell types by profiling ribosome-bound mRNAs. TRAP is a promising tool to reveal cell-type-specific transcriptional and translational changes in a perturbed environment.
+
+DESIGN
+This dataset contains cell-type-specific ribosome-bound mRNA-seq profiles. Input and IP samples from Drosophila adult head neurons, glia and fat body.
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

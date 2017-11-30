@@ -1,0 +1,18 @@
+TITLE
+Solexa / Illumina deep sequencing of the hippocampal transcriptome of wild-type and DLCK transgenic mice
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+The hippocampal expression profiles of wild-type mice and mice transgenic for deltaC-doublecortin-like kinase were compared with Solexa/Illumina deep sequencing technology and five different microarray platforms. With Illumina's digital gene expression assay, we obtained approximately 2.4 million sequence tags per sample, their abundance spanning four orders of magnitude. Results were highly reproducible, even across laboratories. With a dedicated Bayesian model, we found differential expression of 3179 transcripts with an estimated false-discovery rate of 8.5%. This is a much higher figure than found for microarrays. The overlap in differentially expressed transcripts found with deep sequencing and microarrays was most significant for Affymetrix. The changes in expression observed by deep sequencing were larger than observed by microarrays or quantitative PCR. Relevant processes such as calmodulin-dependent protein kinase activity and vesicle transport along microtubules were found affected by deep sequencing but not by microarrays. While undetectable by microarrays, antisense transcription was found for 51% of all genes and alternative polyadenylation for 47%. We conclude that deep sequencing provides a major advance in robustness, comparability and richness of expression profiling data and is expected to boost collaborative, comparative and integrative genomics studies. Keywords: SAGE, 17mer, NlaIII, mRNA expression, transgenic mice
+
+DESIGN
+3' SAGE tags of four individual mice per group were sequenced.
+
+PLATFORM
+GPL9185 Illumina Genome Analyzer (Mus musculus)
+
+CITATIONS
+18927111
+

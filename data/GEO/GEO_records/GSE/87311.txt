@@ -1,0 +1,18 @@
+TITLE
+Cohesin-dependent compaction of mitotic chromosomes in budding yeast
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The extreme length of chromosomal DNA requires organizing mechanisms to both promote functional genetic interactions and ensure faithful chromosome segregation when cells divide. Microscopy and genome wide contact frequency (Hi-C) analyses indicate that intra-chromosomal looping of DNA is a primary pathway of chromosomal organization during all stages of the cell cycle (Dekker, J. & Mirny, L. . Cell 164, 1110–1121 (2016). Although the enzymatic pathways required for DNA loop formation are yet to be fully characterized, the activity of the SMC family of proteins has been consistently associated with this process in interphase and mitosis. Here we use Hi-C to study the reorganization of budding yeast chromosome conformation in early mitosis and the role of SMCs in this process. Using polymer simulations, we find that the differences between interphase and mitotic Hi-C maps can be explained by the formation of intra-chromosomal (cis-) loops in mitotic chromosomes. We demonstrate that mitotic SMC cohesin activity is required for formation of cis-loops, independently of sister-chromatid cohesion. In contrast, SMC condensin is not required for loop formation in these early mitotic cells. Rather condensin activity promotes distinct higher order structures in the chromosomes at centromeres and in the rDNA proximal regions. Thus we demonstrate that cohesin-dependent cis-loops provide the primary higher order organization of budding yeast mitotic chromosomes, independently of condensin and sister chromatid cohesion.
+
+DESIGN
+This submission contains the following Hi-C experiments: 2 biological replicates of WT S. cerevisiae cells arrested in G1 and metaphase; 2 replicates of cohesin and condensin temperature-sensitive mutants arrested in metaphase; 1 replicate of cdc45-degron cells arrested in early mitosis and 1 replicate of temperature-sensitive cohesin mutant cdc45-degron cells arrested in early mitosis.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+28825700
+

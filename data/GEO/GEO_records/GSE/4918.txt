@@ -1,0 +1,18 @@
+TITLE
+Microarray gene expression profiling of 27k cDNAs in 23 healthy porcine tissues
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Background. Gene expression microarrays have been intensively applied to screen for genes involved in specific biological processes of interest such as diseases or responses to environmental stimuli. For mammalian species, cataloging of the global gene expression profiles in large tissue collections under normal conditions have been focusing on human and mouse genomes but is lacking for the pig genome. Methodology/Principal Findings. Here we present the results from a large-scale porcine study establishing microarray cDNA expression profiles of approximately 20.000 genes across 23 healthy tissues. As expected, a large portion of the genes show tissue specific expression in agreement with mappings to gene descriptions, Gene Ontology terms and KEGG pathways. Two-way hierarchical clustering identified expected tissue clusters in accordance with tissue type and a number of cDNA clusters having similar gene expression patterns across tissues. For one of these cDNA clusters, we demonstrate that possible tissue associated gene function can be inferred for previously uncharacterized genes based on their shared expression patterns with functionally annotated genes. We show that gene expression in common porcine tissues is similar to the expression in homologous tissues of human. Conclusions/Significance. The results from this study constitute a valuable and publicly available resource of basic gene expression profiles in normal porcine tissues and will contribute to the identification and functional annotation of porcine genes. Keywords: Microarray, Gene expression survey, Large-scale, Normal Healthy tissues, cDNA, Whole genome, Transcriptome
+
+DESIGN
+The microarray experiment was carried out using a two-channel common reference design with two independent RNA extractions from each tissue sample. For each total-RNA extraction, 20 μg was labeled with Alexa 594 and 20 μg with Alexa 488 using SuperScript Indirect cDNA labeling System from Invitrogen. The RNA extracts labeled with Alexa 488 was collected from all tissue samples, mixed and used as reference sample referred to here as a the common reference. The RNA extracts labeled with Alexa 594 were used individually as labeled tissue samples. The labeled RNA extracts were used in two batches of 23 hybridizations corresponding to the two independent RNA extraction batches. One labeled tissue sample RNA (Alexa 594) and one labeled common reference sample RNA (Alexa 488) was thus hybridized to each of 46 microarrays. The same common reference sample was thus used in all the 46 (2x23) hybridizations. Two rounds of hybridizations on a Discovery XT hybridization station from Ventana were carried out corresponding to the two RNA batches. The hybridized microarrays were scanned and converted into TIFF images using Scanner and ScanArray Express software from Perkin Elmer.
+
+PLATFORM
+GPL3608 DIAS_PIG_55K3_v1
+
+CITATIONS
+18030337
+

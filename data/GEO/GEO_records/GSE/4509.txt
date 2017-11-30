@@ -1,0 +1,18 @@
+TITLE
+UV timecourse
+
+ORGANISM
+Zea mays
+
+SUMMARY
+Transcriptome analysis of ultraviolet-radiation time course with paired treatment and control measurements provided groups of coordinately regulated genes and Gene Ontology processes.  A set of genes significantly affected by UV was selected by linear modeling plus order-restricted inference profile matches; this gene list was used to find upstream sequence motifs that predict UV regulation of gene expression. Keywords: time course dose response stress response
+
+DESIGN
+A paired experimental design, with controls at each time point, was used to avoid confounding of UV-induced expression changes with circadian changes.  Plants were randomly assigned into control and experimental groups, and then subdivided into five groups of approximately 20 plants for treatments of one, two, four, eight, or twelve h of UV-B irradiation.  The experimental design incorporated four replicates of each of the five time points, with dye swap duplicates at each time point.  Thus, twenty maize cDNA Master Unigene slides were used.  Array hybridization was carried out using two samples per slide one sample was labeled with each dye. The following Samples were co-hybridized: GSM101120 & GSM101130, GSM101127 & GSM101131, GSM101132 & GSM101128, GSM101133 & GSM101129, GSM101148 & GSM101152, GSM101184 & GSM101150, GSM101185 & GSM101151, GSM101186 & GSM101192, GSM101188 & GSM101196, GSM101197 & GSM101190, GSM101198 & GSM101191, GSM101201 & GSM101210, GSM101203 & GSM101211, GSM101212 & GSM101205, GSM101213 & GSM101207, GSM101214 & GSM101226, GSM101223 & GSM101227, GSM101228 & GSM101224, GSM101229 & GSM101225. Key to sample labels:  The first word indicates the stress applied (either UV or no stress, indicated as treatment or controls) value.  The capital letter indicates the array channel and dye type for that sample (A for Cy3 and B for Cy5).  The lower-case letter is the replicate at each time point (a, b, c or d).  The final number is the time increment (1=1 hr, 2= 2 hr, 3=4 hr, 4=8hr, 5=12 hr).  The times were nested to avoid confounding.
+
+PLATFORM
+GPL3553 Galbraith Lab Maize Master Unigene Microarray
+
+CITATIONS
+17924934
+

@@ -1,0 +1,18 @@
+TITLE
+Characterization of Plexiform Leiomyomata Provide Further Evidence for Genetic Heterogeneity Underlying Uterine Fibroids
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Plexiform leiomyomata are a histologically defined subgroup of benign uterine smooth muscle tumors based on their epitheliod cytology and abundant extracellular matrix. We used microarrays to compare plexiform leiomyomata to normal myometrium (smooth muscle of the uterine wall), typical leiomyomata, cellular or atypical leiomyomata and malignant leiomyosarcoma of the uterus. Keywords: tumor analysis
+
+DESIGN
+Samples analyzed on U133 Plus 2.0 and HuFL (GPL570 and GPL80). Data from the microarrays was merged by selection data for probe sets in which  Entrez gene ID code on the GPL570 table equaled the Entrez gene ID on the GPL80 table. If more than one row on the GPL570 matched the value of the Entrez gene ID for a probe set on the GPL80 table, the values from the GPL570 were averaged.  Thus, the GPL570 data was condensed to conform to the GPL80 format. The reformated raw data from both microarrays was then normalized such that the sum of the expression values was 3 million, and that values less than 20 were subsequently set to 20 (to permit log transformation in some statistical analysis).
+
+PLATFORM
+GPL80 [Hu6800] Affymetrix Human Full Length HuGeneFL Array GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+18403592
+

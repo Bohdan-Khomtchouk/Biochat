@@ -1,0 +1,18 @@
+TITLE
+Human monocyte derived macrophage microarray analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarray data was acquired from human primary monocyte-derived macrophages in order to test the validity of a graphical software package (z-score outlier detection (ZODET)) Complex human diseases can show significant heterogeneity between patients with the same phenotypic disorder. An outlier detection strategy was developed to identify variants at the level of gene transcription that are of potential biological and phenotypic importance.   Here we describe a graphical software package (z-score outlier detection (ZODET)) that enables identification and visualisation of gross abnormalities in gene expression (outliers) in individuals, using whole genome microarray data. Mean and standard deviation of expression in a healthy control cohort is used to detect both over and under-expressed probes in individual test subjects. We compared the potential of ZODET to detect outlier genes in gene expression datasets with a previously described statistical method, gene tissue index (GTI), using a simulated expression dataset and a publicly available monocyte-derived macrophage microarray dataset. Taken together, these results support ZODET as a novel approach to identify outlier genes of potential pathogenic relevance in complex human diseases. The algorithm is implemented using R packages and java.
+
+DESIGN
+40 volunteer were bled and primary monocyte derived macrophages were cultured. These samples were then randomised into two equal sized groups (control - A1-20 and experimental - B1-20) and run on the ZODET software.
+
+PLATFORM
+GPL6884 Illumina HumanWG-6 v3.0 expression beadchip
+
+CITATIONS
+24416128
+

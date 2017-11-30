@@ -1,0 +1,18 @@
+TITLE
+Expression data from E11.5 mouse embryonic forelimbs - various mutant conditions or dissected limb domains
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Sonic hedgehog (Shh) signals via Gli transcription factors to direct digit number and identity in the vertebrate limb. We have characterized the Gli-dependent cis-regulatory network through a combination of whole genome ChIP-on-chip and transcriptional profiling of the developing mouse limb. In this dataset, we include the expression data obtained from dissected mouse forelimbs using a variety of gain- and loss-of-function hedgehog pathway mutants, as well as limbs dissected into responsive (posterior 2/3ds) and non-responsive (anterior 1/3d) Hh tissues. These data are used to obtain 753 genes that are differentially expressed in response to Shh signaling. Keywords: Comparison of genetic samples
+
+DESIGN
+28 Total samples were analyzed. We generated the following pairwise comparisons using PowerExpress: Shh < WT; SmoM2 > WT; Gli3 < WT; Gli3 > WT; Ant < Post; Ant > Post. Genes with an FDR≤10% and a fold-change ≥2 were selected. We did not generate pairwise comparisons for a certain combinations with SmoGli3 and Gli3 mutants because data from these arrays contained significant variability.  To identify additional genes that were Shh-responsive, we performed the following multiple sample comparisons using an FDR≤10% and a posterior probability cutoff of ≤25%: 1.) Ant < Post and Shh < WT < SmoM2, 2.) Ant < Post and Shh < WT < SmoM2 and Gli3 > SmoGli3, 3.) Ant < Post and Shh < WT < SmoM2 and WT > SmoGli3
+
+PLATFORM
+GPL6096 [MoEx-1_0-st] Affymetrix Mouse Exon 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+18832070
+

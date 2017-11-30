@@ -1,0 +1,18 @@
+TITLE
+An epigenetic switch ensures transposon repression upon acute loss of DNA methylation in ES cells (RNA-Seq)
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+DNA methylation profoundly impacts genome regulation, notably through the control of transposons. DNA methylation is extensively remodeled during two developmental periods in mammals, gametogenesis and early embryogenesis. Most of transposons families become then hypomethylated, raising the question of their regulation in absence of DNA methylation. To induce genome-wide demethylation, we relied on hypomethylation-inducing culture conditions of murine embryonic stem cells. Surprisingly, we observed two phases of transposon regulation. After a burst of derepression, which correlates with DNA methylation disappearance, both LTR and non-LTR retrotransposons were efficiently re-silenced. While histone H3 lysine 9 trimethylation (H3K9me3) remained stable, H3 lysine 27 trimethylation (H3K27me3) was reorganized upon loss of DNA methylation and contributed to transposon re-silencing. Interestingly, we observed that H3K9me3 and H3K27me3 co-occurred but in distinct regions of unmethylated transposon sequences. This unusual pattern may provide a mechanistic relay ensuring genome stability during developmental periods of programmed loss of DNA methylation.
+
+DESIGN
+WGBS, RNA-seq, ChIP-seq of J1 ES cell during conversion from serum to 2i+vitC medium
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus)
+
+CITATIONS
+26814573
+

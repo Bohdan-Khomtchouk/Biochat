@@ -1,0 +1,18 @@
+TITLE
+Effects of miRNA sponge/decoy-mediated reduction of miR-15 family activity on the transcriptome of B cell precursors
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+A common experimental setup to investigate the function of a microRNA is a “gain-of-function” approach, in which the microRNA of interest is overexpressed to analyze its impact on a given process. However, a major drawback of this technique is that microRNAs, when expressed significantly above endogenous levels, may target genes that are not affected under physiological conditions. To circumvent this problem, we have generated a retroviral microRNA-knockdown library encompassing the majority of the microRNA families expressed throughout lymphocyte development. MicroRNA knockdown is mediated by sponges, mRNAs that possess multiple binding sites for a certain microRNA family in their 3’-UTR region. MiRNA sponges function as competitive inhibitors that sequester all specific microRNA/RISC complexes, thereby de-repressing the endogenous target genes. Using this library in pre-B cells as a model system, we have characterized all microRNAs expressed in early B cells development according to their impact on processes such as apoptosis and differentiation. In doing so, we show that functional knockdown of the known tumor-suppressive miR-15 family has only slight effects under cellular steady-state conditions. Upon withdrawal of the growth factor IL-7, however, loss of miR-15 function almost completely inhibits pre-B to immature B cell differentiation, partially protects from apoptosis and enables prolonged proliferation. In correspondence with that, knockdown of the miR-15 family confers a competitive advantage in suboptimal IL-7 concentrations, indicating that levels of miR-15 determine the sensitivity of cells towards growth factor receptor signaling. Moreover, IL-7 withdrawal seems to increase the activity of endogenous miR-15 family members in pre-B cells. Using microarray analysis, we have identified cyclin E1 as a direct and cyclin D3 as an indirect putative target gene of the miR-15 family in B cell precursors. Exogenous expression of cyclin E1 or cyclin D3 recapitulates the miR-15 loss-of-function phenotype in B cell precursors, validating their biological importance. Together, this suggests that the miR-15 family functions as a central element in a positive feedback loop that reinforces cell-cycle arrest at low growth factor concentrations, which is considered a prerequisite for light chain gene recombination and differentiation.
+
+DESIGN
+Gene expression in cells expressing a scrambled sponge as a control vector or a sponge designed to sequester all members of the miR-15 family (miR-15a, miR-15b, miR-16, miR-497, miR-195, miR-322) was measured either in the presence or 36 hours after withdrawal of the growth factor IL-7. Two independent experiments were performed, using independently generated cell clones for each repetition.
+
+PLATFORM
+GPL10787 Agilent-028005 SurePrint G3 Mouse GE 8x60K Microarray (Probe Name version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

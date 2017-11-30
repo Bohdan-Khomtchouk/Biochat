@@ -1,0 +1,18 @@
+TITLE
+VS94 SAPI AI-2 Temporal study
+
+ORGANISM
+Escherichia coli
+
+SUMMARY
+VS94 gene expression at different time-points in SAPI medium in absence and presence of AI-2 was studied. Autoinducer-2 (AI-2) is produced by many species of bacteria, including various commensal bacteria and is involved in inter-species communication. Since, pathogens encounter AI-2 once they enter the human gastro-intestinal tract; we studied the effects of presence of AI-2 on various phenotypes associated with infection and colonization of enterohemorrhagic Escherichia coli (EHEC) namely, chemotaxis, motility and attachment to HeLa cells. AI-2 attracted EHEC when observed in agarose plug assays and also increased EHEC motility by 1.44-fold. AI-2 also increased EHEC attachment to HeLa cells by 1.6-fold; hence, suggesting that exposure to AI-2 inside the gastro-intestinal tract can play an important role in EHEC colonization. We then investigated the global effects of AI-2 on EHEC gene expression using DNA microarrays at various time-points. We found that AI-2 controls virulence gene expression and several other groups of genes (flagellar genes, iron related genes, biofilm genes etc.) associated with virulence in a time-dependent manner. Hence, through these studies we have shown that AI-2 may be a key component in EHEC infection of human gastro-intestinal tract. Keywords: Time course
+
+DESIGN
+Strain: VS94 (EHEC luxS mutant) Medium: SAPI Temperature: 37C Cell type: Suspension Chemical: 100 uM AI-2 Overnight cultures of VS94 were diluted in SAPI medium to a turbidity of 0.1. The cells were allowed to grow to a turbidity of 0.5 at 37 oC and 100 µM AI-2 was added to the culture. In the control flasks, no AI-2 was added. The cultures were then allowed to grow for further 3.5 hours, 4 hours, 4.5 hours and 5.5 hours before cell pellets were collected by centrifugation at the above mentioned time-points and stored at -80oC. Total RNA was isolated from isolated cell pellets and RNA quality was assessed using gel electrophoresis. E. coli Genome 2.0 arrays (Affymetrix, California) containing 10,208 probe sets for all 20,366 genes present in four strains of E. coli, including E. coli O157:H7, were used to profile changes in gene expression using RNA samples for each treatment. Hybridization was performed for 16 hours, and the total cell intensity was scaled automatically in the software to an average value of 500. The data were inspected for quality and analyzed according to the procedures described by the manufacturer (Affymetrix: Data Analysis Fundamentals) which include using premixed polyadenylated transcripts of the B. subtilis genes (lys, phe, thr, and dap) at different concentrations. Genes were identified as differentially expressed if the expression ratio (between AI-2 and control cells at different time-points) was greater than 1.5 (based on the standard deviation between values measuring relative changes in expression) (Ren et al. 2004) and the change in the P value was less than 0.05. The differentially expressed genes were annotated using gene ontology definitions available in the Affymetrix NetAffx Analysis Center ( http://www.affymetrix.com/analysis/index.affx ).
+
+PLATFORM
+GPL3154 [E_coli_2] Affymetrix E. coli Genome 2.0 Array
+
+CITATIONS
+18256823
+

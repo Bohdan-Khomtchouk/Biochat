@@ -1,0 +1,18 @@
+TITLE
+Microarray gene expression analysis: Batch effect removal improves the cross-platform consistency
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Microarray is a powerful technique that has been used extensively for genome-wide gene expression analysis. Several different microarray technologies are available, but lack of standardization makes it challenging to compare and integrate data from different platforms. Furthermore, batch related biases within datasets are common, but are often not tackled prior to the data analysis, potentially affecting the end results. In the current study, a set of 234 breast cancer samples were analyzed on two different microarray platforms. The aim was to compare and evaluate the reproducibility and accuracy of gene expression measurements obtained from our in-house 29K array platform with data from Agilent SurePrint G3 microarray platform. The 29K dataset contained known batch-effects associated with the fabrication procedure. We here demonstrate how the use of ComBat batch adjustments method can unmask true biological signals by successfully overcoming systematic technical variations caused by differences between fabrication batches and microarray platforms. Paired correlation analysis revealed a high level of consistency between data obtained from the 29K gene expression platform and Agilent SurePrint G3 platform, which could be further improved by ComBat batch adjustment. Particularly high-variance genes were found to be highly reproducibly expressed across platforms. Furthermore, high concordance rates were observed both for prediction of estrogen receptor status and intrinsic molecular breast cancer subtype classification, two clinical important parameters. In conclusion, the current study emphasizes the importance of utilizing proper batch adjustment methods to reduce systematically technical bias when comparing and integrating data from different fabrication batches and microarray platforms.
+
+DESIGN
+This study was performed on a series of 243 frozen primary breast tumors obtained from the bio-banks of the Dept. of Pathology, Odense University Hospital and the Danish Breast Cancer Cooperative Group (DBCG). The tumor samples comprise a subset of a larger series of 253 tumor samples previously reported. Breast tumor tissues from 120 patients with germline mutations in BRCA1 (n = 33) or BRCA2 (n = 22) or familial non-BRCA1/2 cases with no detectable germline mutation in BRCA1 or BRCA2 (n = 65) were included in the study.
+
+PLATFORM
+GPL15931 Agilent-029949 Custom SurePrint G3 Human GE 8x60K Microarray [Probe Name version] GPL15932 HMC Human 29k Array
+
+CITATIONS
+25101291
+

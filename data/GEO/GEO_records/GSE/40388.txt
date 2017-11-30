@@ -1,0 +1,18 @@
+TITLE
+Transcription profiling of Arabidopsis plants overexpressing SlHsfA3
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+In order to investigate the possible molecular mechanisms of SlHsfA3 function in plant growth and stress responses, we employed the RNA-seq approach to identify the genes with altered expression levels in the transgenic Arabidopsis overexpressing SlHsfA3. Processing of RNA samples on the Illumina HiSeq 2000 system yielded more than 24 million reads, each 100bp in length, encompassing 2.4Gb of sequence data for each sample which was then mapped to the reference genome. Quantitative analysis of RNA-seq data identified substantial variation in expression profiles among different genotypes, consistent with known functional differences. Transcript abundance obtained from RNA-seq data was indicated as RPKMs and therefore, Up- and down-regulated genes were determined by a greater than 2-fold change of normalized RPKMs in comparison analysis (35S:SlHsfA3 transgenic plants versus Col-0(WT) plants) in both over-expression lines: Q-value < 0.05. The statistical analysis identified a total of 181 differentially expressed genes between OE lines and Col-0(WT) at Q-value < 0.05, among which 114 (63%) were up-regulated and 67 (37%) were down-regulated with fold changes higher than 2.
+
+DESIGN
+RNA-sequencing was carried out using two independent transgenic lines (35S:SlHsfA3-3 and 35S:SlHsfA3-6). Total RNA was isolated with Trizol reagent (Invitrogen, USA) from the aerial part of the 4-week-old seedlings of 35Spro:SlHsfA3 and Col-0 (WT) plants grown in parallel under unstressed conditions. Materials from 20 plants of each genotype were pooled for RNA isolation.
+
+PLATFORM
+GPL13222 Illumina HiSeq 2000 (Arabidopsis thaliana)
+
+CITATIONS
+23349984
+

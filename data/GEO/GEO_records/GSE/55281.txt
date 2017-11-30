@@ -1,0 +1,18 @@
+TITLE
+Genome-wide maps of the histone H3K4 demethylase Jhd2 occupany in Saccharomyces cerevisiae
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+By using of paired-end sequencing technology, we report the high-throughput profiling of Jhd2 targeting in S. cerevisiae. We obtained more than 1.8E+7 Illumina reads and generated 1.1E+7 mapped reads from Jhd2-ChIP DNA .  Sequence reads for Jhd2-ChIP and Input DNA were mapped to yeast genome by using the BWA (Burrows Wheeler Aligner), SAMtools (Sequence Alignment Map) programs and followed by SICER (Spatial clustering for Identification of ChIP-Enriched Regions) program to obtain the Significant peaks. We found that the overall Jhd2 distribution across the gene body of targets is fairly correlated to the levels of H3K4 di- and tri-methylation, which are enriched at 5’ through 3’ of ORF regions. These observations demonstrate that the Jhd2, a histone H3K4 demethylase, is linked to gene transcription by locating mainly at the coding regions to balance the H3K4me of its target genes at steady state. Furthermore, we observed that Jhd2 are significantly enriched at several specific chromosomal loci including telomeres, centromeres, silent HM loci, LTR-tRNAs, and rDNA arrays.  Our study demonstrated that Jhd2, H3K4-demethylase, plays a dynamic role as a chromatin insulator to define boundary regions between euchromatin and heterochromatin by association with specific chromatin loci in the yeast genome.
+
+DESIGN
+Input DNA and ChIP DNA from immunopurified Jhd2-Flag were subjected to paired-end sequencing
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

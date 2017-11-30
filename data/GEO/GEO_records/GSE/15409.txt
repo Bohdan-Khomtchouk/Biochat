@@ -1,0 +1,18 @@
+TITLE
+Amino acid/Nucleotide perturbation in Escherichia coli
+
+ORGANISM
+Escherichia coli str. K-12 substr. MG1655
+
+SUMMARY
+Wild-type E. coli are prototrophic for all amino acid and nucleotides. These are synthesized by a network of interconnected metabolic pathways from a handful precursors molecules, which are regulated at the level of gene expression. It was hypothesized in this study, that since metabolic pathways are interconnected, transcriptional regulation should be shared across multiple pathways. To uncover these regulatory interactions, cells growing at steady state were perturbed by the addition of an end-metabolite (aa or nt), and were allowed to recover. The adjustments in biochemical pathways to the perturbation were sampled by profiling mRNA abundance 10 minutes after the perturbation. By limiting the scope and magnitude of the perturbation, mRNA changes are expected to be limited to specific responses to the perturbation and not genome-wide changes associated with larger perturbations such as nutritional shifts and stresses.
+
+DESIGN
+Exponentially growing E. coli cells in M9 minimal medium + 0.4 % glucose were perturbed by the addition of 1 mM amino acid or nucleotide individually, and the transcriptional responses were tracked after 10 minutes. In total, 22 metabolites were tested, including 2-4 biological replicates for each including dye-swaps. In each experiment, the reference channel for the dual channel hybridization were cells at 0 minutes before perturbation.
+
+PLATFORM
+GPL3503 Khodursky Lab E. coli B 4290 ORFs Microarray
+
+CITATIONS
+19366454
+

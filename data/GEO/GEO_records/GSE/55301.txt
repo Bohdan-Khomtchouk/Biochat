@@ -1,0 +1,18 @@
+TITLE
+BCL6 target genes in a Burkitt's lymphoma cell line with inducible BCL6 expression.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+In order to determine BCL6 target genes an EBV negative Burkitt's lymphoma cell line, DG75, was stably transfected with a tetracycline transactivator and tight doxycycline responsive expression of GFP was established. The endogenous BCL6 genes of this cell line were disrupted by homologous recombination and a BCL6 cDNA downstream of tetracycline responsive elements (TRE) was inserted to produce Bcl6-/-:tetBCL6-HA cells. Westerns demonstrated doxycycline dependent BCL6 expression.Bcl6-/-:tet. BCL6-HA cells (clone AB7) were either grown without doxycycline (control) or with 1 ug/ml doxycycline for 16, 48 or 96 hours. Total RNA was extracted using RNeasy minipreps (Qiagen) and concentration and quality were checked on the NanoDrop® ND- 1000 spectrophotometer (NanoDrop Technologies, USA) and the RNA Nano 6000 kit (Agilent Technologies) on a 2100 Bioanalyzer (Agilent Technologies). One hundred ng of total RNA was processed with the GeneChip® Eukaryotic Whole Transcript Sense Target Labelling Assay kit (Affymetrix) according to the manufacturer's details. Hybridisation and scanning of GeneChips® was carried out at the CSC/IC Microarray Centre, MRC Clinical Sciences Centre Imperial College London and data analysis by Bioinformatics Support Service, Imperial College London. Briefly, pre- processing of data was performed using GeneSpring GX 10.0.2 software (Agilent Technologies) which applied the " Exon RMA16 " ¸ algorhithm to the data set. Exon RMA16 performs background correction, quantile normalisation, median polish summarisation and variance stabilisation of 16.  In background correction, intensity values of each individual array are corrected for non-specific binding by subtracting the average signal intensity of the area between spots from each probe set. Normalisation is required so multiple chips can be compared to each other. Quantile normalisation adjusts the distribution of probe intensity of each array analysed and so that the distribution of probe intensities for each array in a set of arrays is the same. Probe summarisation refers to the conversion of probe level values (there are approximately 26 probes per gene on each GeneChip®) to a single probe set expression value. Variance stabilisation of 16 refers to the addition of the value 16 to the expression values. By increasing the expression value, the variance of the data set is reduced and the distribution (defined by its mean and its variance) is stabilised.
+
+DESIGN
+A control sample at time (t)=0 was compared to samples at t=16 hours, t=48 hours and t=96 hours following addition of doxycycline.
+
+PLATFORM
+GPL6244 [HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]
+
+CITATIONS
+27268052
+

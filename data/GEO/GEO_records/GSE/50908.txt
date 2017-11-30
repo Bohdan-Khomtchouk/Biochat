@@ -1,0 +1,18 @@
+TITLE
+Gene expression timecourse in ΔrpaA strain
+
+ORGANISM
+Synechococcus elongatus PCC 7942
+
+SUMMARY
+The goal of the experiment was to determine whether gene expression oscillates in the absence of rpaA.  It was reported previously (e.g., Takai et al, PNAS 2006) that activity of a handful of individual expression reporters was arrythmic, and we conducted this microarray timecourse to determine whether expression is arrhythmic geneome-wide.
+
+DESIGN
+Cultures were grown in a turbidostat as described previously (Vijayan et al, PNAS 2009).  Cultures were entrained with two consecutive light/dark cycles and released into continuous light at time T = 0.  Cultures were samples every 4 hours for 48 h between T = 24 h and T = 72 h, inclusive.  Gene expression at each timepoint was compared to the time-averaged gene expression (determined using a pool of equal mass quantities of RNA from all timepoints) using a two-color Agilent microarray.
+
+PLATFORM
+GPL9534 Agilent-020846 Synechococcus elongatus PCC 7942 Oligo Microarray
+
+CITATIONS
+24315105
+
