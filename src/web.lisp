@@ -169,9 +169,8 @@
                          score))
           (:blockquote
            (who:str @rec.summary)
-           (:dl (:dt "Platform") (:dl (who:str @rec.platform))
-                (:br)
-                (:dt "Citations") (:dl (who:str @rec.citations)))))))
+           (:div "Platform: " (who:str @rec.platform)
+                 "Citations: " (who:str @rec.citations))))))
 
 (defun find-closest-recs (rec count
                           &key (methods (mapcar 'first *geo-sim-methods*)))
