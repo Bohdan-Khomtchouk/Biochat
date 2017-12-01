@@ -165,9 +165,13 @@
                                                                    "\\b" it)))))
                              (switch (method :test 'string=)
                                ("TFIDF" "TF-IDF")
-                               (otehrwise (string-downcase method)))))
+                               (otherwise (string-downcase method)))))
                          score))
-          (:blockquote (who:str @rec.summary)))))
+          (:blockquote
+           (who:str @rec.summary)
+           (:dl (:dt "Platform") (:dl (who:str @rec.platform))
+                (:br)
+                (:dt "Citations") (:dl (who:str @rec.citations)))))))
 
 (defun find-closest-recs (rec count
                           &key (methods (mapcar 'first *geo-sim-methods*)))

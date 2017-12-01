@@ -5,7 +5,7 @@ var opts = {
   radius: 42,
   scale: 1,
   corners: 1,
-  color: '#fff',
+  color: '#000',
   opacity: 0.25,
   rotate: 0,
   direction: 1,
