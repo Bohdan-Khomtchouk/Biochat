@@ -12,7 +12,7 @@
     (euc-sim "Euclidian distance-based similarity of document vectors")
     (eucos-sim "Euclidian-cosine averaged similarity")
     (smoothed-cos-sim "Smoothed cosine similarity")
-    (tfidf-sim "TFIDF similarity")
+    (tfidf-sim "TF-IDF similarity")
     (bm25-sim "BM25 similarity - a variant of TFIDF")
     #+nil (wn-sim "Pubmed Wordnet-based similarity of documents")))
 
@@ -66,8 +66,7 @@
                     (loop :for (method desc) :in *geo-sim-methods* :do
                       (who:htm
                        (:input :type :radio :name "simmethods" :value method)
-                       (:label :for "simmethods"
-                               (who:str (string-downcase desc)))
+                       (:label :for "simmethods" (who:str desc))
                        (:br))))
                    (:div :class "box" :id "sim-filters"
                     "Choose additional filters:" (:br)
@@ -171,7 +170,12 @@
            (who:str @rec.summary)
            (:div (:span :class "grey" "Platform: ") (who:str @rec.platform)
                  (:br)
-                 (:span :class "grey" "Citations: ") (who:str @rec.citations))))))
+                 (:span :class "grey" "Citations: ")
+                 (if (numberp (ignore-errors (parse-integer @rec.citations)))
+                     (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
+                                    @rec.citations)
+                         (who:fmt "PIMD ~A" @rec.citations))
+                     (who:str @rec.citations)))))))
 
 (defun find-closest-recs (rec count
                           &key (methods (mapcar 'first *geo-sim-methods*)))
