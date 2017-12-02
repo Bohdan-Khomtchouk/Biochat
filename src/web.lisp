@@ -9,7 +9,7 @@
  
 (defparameter *geo-sim-methods*
   '((tfidf-sim "TF-IDF similarity")
-    (bm25-sim "BM25 similarity - a variant of TFIDF")
+    (bm25-sim "BM25 similarity - a variant of TF-IDF")
     (cos-sim "Cosine similarity of document vectors")
     (euc-sim "Euclidian distance-based similarity of document vectors")
     (eucos-sim "Euclidian-cosine averaged similarity")

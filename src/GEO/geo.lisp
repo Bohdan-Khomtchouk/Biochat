@@ -183,16 +183,17 @@
 
 ;;; auto-update
 
-(bt:make-thread
- ^(let ((dir (local-file "data/GEO/GEO_records/")))
-    (format *debug-io* "Starting auto-update:~%")
-    (flet ((max-id (rec-type)
-             (reduce 'max (mapcar (=> parse-integer pathname-name)
-                                  (directory (strcat dir rec-type "/*.txt")))
-                     :initial-value 0)))
-      (loop (scrape-geo dir
-                        :gds-id (max-id "GDS")
-                        :gse-id (max-id "GSE"))
-            (format *debug-io* "Finished auto-update run.~%")
-            (sleep #.(* 1 60 60 24))))) ; 1 day
- :name "GEO updater")
+(defvar *geo-updater-thread*
+  (bt:make-thread
+   ^(let ((dir (local-file "data/GEO/GEO_records/")))
+      (format *debug-io* "Starting auto-update:~%")
+      (flet ((max-id (rec-type)
+               (reduce 'max (mapcar (=> parse-integer pathname-name)
+                                    (directory (strcat dir rec-type "/*.txt")))
+                       :initial-value 0)))
+        (loop (scrape-geo dir
+                          :gds-id (max-id "GDS")
+                          :gse-id (max-id "GSE"))
+              (format *debug-io* "Finished auto-update run.~%")
+              (sleep #.(* 1 60 60 24))))) ; 1 day
+   :name "GEO updater"))
