@@ -9,7 +9,7 @@
 
 (defclass geo ()
   ((id :initform 1 :initarg :id :accessor geo-id)
-   (last-id :initarg :last-id :accessor geo-last-id)
+   (last-id :initform -1 :initarg :last-id :accessor geo-last-id)
    (seen :initform 0 :initarg :seen :accessor geo-seen)
    (count :initform 0 :initarg :count :accessor geo-count)
    (out-dir :initform "/tmp/" :initarg :out-dir :accessor geo-out-dir)
