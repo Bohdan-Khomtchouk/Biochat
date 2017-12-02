@@ -172,9 +172,10 @@
                  (:br)
                  (:span :class "grey" "Citations: ")
                  (if (numberp (ignore-errors (parse-integer @rec.citations)))
-                     (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
-                                    @rec.citations)
-                         (who:fmt "PIMD ~A" @rec.citations))
+                     (who:htm
+                      (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
+                                     @rec.citations)
+                          (who:fmt "PIMD ~A" @rec.citations)))
                      (who:str @rec.citations)))))))
 
 (defun find-closest-recs (rec count
