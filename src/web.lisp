@@ -41,7 +41,8 @@
                 });"))
      (:body
       (:div :class "page" :id "page"
-            (:div (:img :src "/static/logo.png"))
+            (:div :style "margin-top: 40px; margin-bottom: 10px;"
+                  (:img :src "/static/logo.png"))
             (:div :style "font-size: smaller; color: gray;"
                   "Here, you can find the most similar records from the "
                   (:a :href "https://www.ncbi.nlm.nih.gov/geo/" "GEO DB")
