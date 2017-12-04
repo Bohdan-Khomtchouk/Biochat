@@ -41,7 +41,7 @@
                 });"))
      (:body
       (:div :class "page" :id "page"
-            (:h1 "Biochats")
+            (:div (:img :src "/static/logo.png"))
             (:div :style "font-size: smaller; color: gray;"
                   "Here, you can find the most similar records from the "
                   (:a :href "https://www.ncbi.nlm.nih.gov/geo/" "GEO DB")
