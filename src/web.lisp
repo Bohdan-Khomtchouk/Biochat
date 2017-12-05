@@ -41,19 +41,22 @@
                 });"))
      (:body
       (:div :class "page" :id "page"
-            (:div :style "margin-top: 40px; margin-bottom: 10px;"
-                  (:img :src "/static/logo.png"))
-            (:div :style "font-size: smaller; color: gray;"
-                  "Here, you can find the most similar records from the "
-                  (:a :href "https://www.ncbi.nlm.nih.gov/geo/" "GEO DB")
-                  ". To do that, you have to put in a particular record's "
-                  "ID (and optionally select the number of similar records "
-                  "to show). For instance, in record: "
-                  "https://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=GDS5879 "
-                  "the input number is GDS5879. ")
-                  ;; "The GSE records are also supported: "
-                  ;; "for https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE425
-                  ;;  enter GSE425.")
+            (:div :style "margin-top: 40px;"
+             (:img :style "margin-right: 20px; width: 100px; float: left;"
+                   :src "/static/logo.png")
+             (:div :style "color: gray;"
+                   "Here, you can find the most similar records from the "
+                   (:a :href "https://www.ncbi.nlm.nih.gov/geo/" "GEO DB")
+                   ". To do that, you have to put in a particular record's ID "
+                   "(and optionally select the number of similar records to show)."
+                   (:br)
+                   "For instance, in record "
+                   "https://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=GDS5879 "
+                   "the input number is GDS5879."
+                   (:br)
+                   "The GSE records are also supported: "
+                   "enter GSE425 for https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE425."))
+            (:hr :color "white" :width "100%")
             (:form :action "/search" :method "GET" :id "search-form"
                    :onsubmit "return search()"
                    (:label :for "gid" "Enter GEO record id:") " "
