@@ -58,9 +58,9 @@ record's text descriptions divided by the product of the L2-norms of
 the TF-IDF vectors of each record.
 
 The difference between the measures is that, in BM25, instead of the
-plain TF-IDF, the following formula is used: `(k + 1) * tf * idf / (k
-+ tf)`, where `k` is the BM25 parameter, the default value of which is
-chosen as 1.2.
+plain TF-IDF, the following formula is used: `(k + 1) * tf * idf / (k + tf)`,
+where `k` is the BM25 parameter, the default value of which is
+chosen to be 1.2.
 
 Another approach to document representation implemented in Biochats is
 based on vector space models that use dense low-dimensional (vector
