@@ -1,0 +1,18 @@
+TITLE
+Global transcriptional landscape and promoter mapping of the gut commensal Bifidobacterium breve UCC2003
+
+ORGANISM
+Bifidobacterium breve UCC2003
+
+SUMMARY
+The recognition specificity and associated affinity of the RNA polymerase sigma subunit towards its cognate promoter sequence is one of the elements contributing to the modulation of gene expression in bacteria. In the present study we identified and assessed vegetative promoters of the bifidobacterial prototype Bifidobacterium breve UCC2003 employing a combination of tiling array analysis and RNA sequencing. By combining and comparing the outputs of these two distinct technologies we were able to identify a number of transcriptional units, including their initiation and termination signals, which correspond to promoters and terminators, respectively. Canonical -10 (TATAAT) and -35 (TTGACA) sequences were identified upstream of transcribed genes or operons, where deviations from this consensus correspond to transcription level variations. Using a Random Forest approach, we were able to define promoter characteristics that most substantially impact on transcription in B. breve. We observed that constitutively transcribed genes frequently encode house keeping functions that are part of the core and essential genome of this species. A comparative analysis between the tiling array-based and RNA-seq technologies allowed us to evaluate their performance and applicability for investigations on (regulation of) bifidobacterial gene expression.
+
+DESIGN
+Complete genome tiling arrays containing oligonucleotide primers of 60 bp (designed on a 22nt sliding window) across the forward and reverse strand of the genome sequence of B. breve UCC2003 (O'Connell Motherway et al., 2011). Probes were obtained from Agilent Technologies (Palo Alto, Ca., USA). Overnight culture of B. breve UCC2003 was inoculated into 2 % glucose MRS (Difco) medium until reaching mid-log phase (OD600 of 0.5). Following growth, total bifidobacterial DNA and RNA was isolated as described previously (O' Connell Motherway et al., 2011). Labelling was performed using the Kreatech ULS labelling kit according to the manufacturer’s instructions (Kreatech, Amsterdam, The Netherlands). Labelled total gDNA and mRNA was hybridized as described in the Agilent manual Two-Color Microarray-Based Gene Expression Analysis (v4.0) (publication no. G4140-90050). Following hybridization, microarrays were washed in accordance with Agilent’s standard procedures and scanned using an Agilent DNA microarray scanner (model G2565A). Generated scans were converted to data files with Agilent's Feature Extraction software (Version 9.5). DNA-microarray data sets were processed as previously described (Garcia De La Nava et al., 2003). Differential signal intensity between gDNA (baseline) and mRNA (transcriptome)  were analyzed using the Limma package implemented in the statistical environment R ( https://cran.r-project.org )
+
+PLATFORM
+GPL23645 Agilent-025241 Bifidobacterium breve UCC2003 21 nt tiling array (Probe name version)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
