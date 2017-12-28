@@ -24,11 +24,12 @@
     (values tf
             idf)))
 
-(with ((tf idf (calc-tfidf (mapcar 'lemmas
-                                   (map 'list 'geo-toks
-                                        (concatenate 'vector *gds* *gse*))))))
-  (defvar *tf* tf)
-  (defvar *idf* idf))
+(unless (boundp '*tf*)
+  (with ((tf idf (calc-tfidf (mapcar 'lemmas
+                                     (map 'list 'geo-toks
+                                          (concatenate 'vector *gds* *gse*))))))
+    (defvar *tf* tf)
+    (defvar *idf* idf)))
 
 (defun tfidf (word)
   (* (sqrt (? *tf* word))

@@ -1,0 +1,18 @@
+TITLE
+Gene expression dataset for nursery-reared Staghorn coral (Acropora cervicornis) under thermal stress
+
+ORGANISM
+Acropora cervicornis
+
+SUMMARY
+Publication Abstract: As climate changes, sea surface temperature anomalies that negatively impact coral reef organisms continue to increase in frequency and intensity. Yet, despite widespread coral mortality, genetic diversity remains high even in those coral species listed as threatened. While this is good news in many ways it presents a challenge for the development of biomarkers that can identify resilient or vulnerable genotypes. Taking advantage of three coral restoration nurseries in Florida that serve as long-term common garden experiments, we exposed over thirty genetically distinct Acropora cervicornis colonies to hot and cold temperature shocks seasonally and measured pooled gene expression responses using RNAseq. Targeting a subset of twenty genes, we designed a high-throughput qPCR array to quantify expression in all individuals separately under each treatment with the goal of identifying predictive and/or diagnostic thermal stress biomarkers. We observed extensive transcriptional variation in the population, suggesting abundant raw material is available for adaptation via natural selection. However, this high variation made it difficult to correlate gene expression changes with colony performance metrics such as growth, mortality, and bleaching susceptibility. Nevertheless, we identified several promising diagnostic biomarkers for acute thermal stress that may improve coral restoration and climate change mitigation efforts in the future.
+
+DESIGN
+This project studied the effects of thermal stress on gene expression in the Staghorn coral (Acropora cervicornis).  At four seasonal time points, tissue from at least ten colonies at three nurseries were exposed to three temperature treatments for one hour then preserved in RNALater.  RNA was extracted with TRI Reagent then cleaned with a Qiagen RNEasy kit.  A subset of samples were chosen and pooled for RNA-Seq.  The subset included genotypes from 2 of the 3 nurseries (Miami and Lower Keys), 2 of the 4 seasonal collections (Summer 1 and Winter 1), and all 3 temperature treatments (ambient, hot, and cold), resulting in 12 libraries.  For each library, RNA from 7 of the 10+ genotypes at each nursery were pooled (84 samples total). Following the manufacturer’s protocol, 150 bp single reads were generated from oligo(dT)-selected total RNA using the Illumina TruSeq Stranded mRNA HT Kit. mRNA sequencing libraries were individually barcoded, multiplexed in equal quantities, and run on three lanes of the Illumina HiSeq 2000 platform.  The data were demultiplexed into 12 individual library files.
+
+PLATFORM
+GPL24413 Illumina HiSeq 2000 (Acropora cervicornis)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

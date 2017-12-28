@@ -1,0 +1,18 @@
+TITLE
+Extreme heterogeneity of influenza virus infection in single cells
+
+ORGANISM
+Homo sapiens ; Influenza A virus (A/WSN/1933(H1N1))
+
+SUMMARY
+Viral infection can dramatically alter a cell's transcriptome. However, these changes have mostly been studied by bulk measurements on many cells. Here we use single-cell mRNA sequencing to examine the transcriptional consequences of influenza virus infection. We find extremely wide cell-to-cell variation in production of viral gene transcripts -- viral transcripts compose less than a percent of total mRNA in many infected cells, but a few cells derive over half their mRNA from virus. Some infected cells fail to express at least one viral gene, and this gene absence partially explains variation in viral transcriptional load. Despite variation in total viral load, the relative abundances of viral mRNAs are fairly consistent across infected cells. Activation of innate immune pathways is rare, but some cellular genes co-vary in abundance with the amount of viral mRNA. Overall, our results highlight the complexity of viral infection at the level of single cells.
+
+DESIGN
+Dataset consists of a total of five single-cell datasets generated using the 10x Genomics Chromium Single Cell 3' Solution platform. All samples were generated from a tissue culture infection model using A549 cells from ATCC and Influenza A/WSN/1933 virus. Uninfected control sample identically processed. Infected samples were generated from cells infected for 6, 8, and 10 hours with a single replicate at 8 hours.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL24389 Illumina HiSeq 2500 (Homo sapiens; Influenza A virus (A/WSN/1933(H1N1)))
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

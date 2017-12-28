@@ -1,0 +1,18 @@
+TITLE
+Arabinose Induced Catabolite Repression as Mechanism for Pentose Hierarchy Control in Clostridium acetobutylicum ATCC 824
+
+ORGANISM
+Clostridium acetobutylicum ATCC 824
+
+SUMMARY
+Background: Bacterial fermentation of carbohydrates from sustainable lignocellulosic biomass into biofuels by the anaerobic bacterium Clostridium acetobutylicum is a promising alternative energy source to fossil fuels. Understanding the complex metabolic pathways it employs and how they are regulated will contribute to improved biofuel production. Recently, it has been demonstrated that xylose is not appreciably fermented in the presence of arabinose, suggesting a hierarchy of pentose utilization in this organism. Our goal is to uncover if transcriptional regulation contributes to this hierarchy. Results: Growth and sugar consumption rates showed that arabinose, like glucose, actively represses xylose utilization in cultures fermenting xylose. RNA-Seq revealed there was a large overlap in differentially regulated genes after addition of arabinose or glucose, suggesting a common mechanism of regulation. A putative ORF was identified that may be important for transcriptional regulation in response to the nutritional state of the cells. Conclusions: Decreased xylose consumption, increased acetate production, and transcription of the phosphoketolase gene (CA_C1343) revealed a transition of pentose catabolism from the pentose phosphate pathway to the phosphoketolase pathway after addition of arabinose. Together, these results substantiate the claim that arabinose is utilized preferentially over xylose in C. acetobutylicum. Furthermore, they demonstrate that this phenomenon is modulated in part at the transcriptional level, and they provide valuable insight into potential mechanisms for altering pentose utilization to modulate fermentation products for biofuel production.
+
+DESIGN
+Clostridium acetobutylicum ATCC 824 was grown in CGM with 0.5% xylose. Then either arabinose (0.25%), glucose (0.25%), xylose (0.25%), or water were added and samples were taken at 0, 15, 30, and 60 min to monitor the transcriptional response via RNA-seq
+
+PLATFORM
+GPL24347 Illumina NextSeq 500 (Clostridium acetobutylicum ATCC 824)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

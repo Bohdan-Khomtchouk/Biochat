@@ -1,0 +1,18 @@
+TITLE
+Identification of Differentially Expressed Splice Variants by the Proteogenomic Pipeline Splicify
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Proteogenomics, i.e. comprehensive integration of genomics and proteomics data, is a powerful approach identifying novel protein biomarkers. This is especially the case for proteins that differ structurally between disease and control conditions. As tumor development is associated with aberrant splicing, we focus on this rich source of cancer specific biomarkers. To this end, we developed a proteogenomic pipeline, Splicify, which is able to detect differentially expressed protein isoforms. Splicify is based on integrating RNA massive parallel sequencing data and tandem mass spectrometry proteomics data to identify protein isoforms resulting from differential splicing between two conditions. Proof of concept was obtained by applying Splicify to RNA sequencing and mass spectrometry data obtained from colorectal cancer cell line SW480, before and after siRNA-mediated down-modulation of the splicing factors SF3B1 and SRSF1. These analyses revealed 2172 and 149 differentially expressed isoforms, respectively, with peptide confirmation upon knock-down of SF3B1 and SRSF1 compared to their controls. Splice variants identified included RAC1, OSBPL3, MKI67 and SYK. One additional sample was analyzed by PacBio Iso-Seq full-length transcript sequencing after SF3B1 down-modulation. This analysis verified the alternative splicing identified by Splicify and in addition identified novel splicing events that were not represented in the human reference genome annotation. Therefore, Splicify offers a validated proteogenomic data analysis pipeline for identification of disease specific protein biomarkers resulting from mRNA alternative splicing. Splicify is publicly available on GitHub ( https://github.com/NKI-TGO/SPLICIFY ) and suitable to address basic research questions using pre-clinical model systems as well as translational research questions using patient-derived samples, e.g. allowing to identify clinically relevant biomarkers. This dataset corresponds to a publication in Molecular & Cellular Proteomics 16: 10.1074/mcp.TIR117.000056, 1850–1863, 2017, PMID: 28747380. Mass spectrometry data corresponding to this entry is available at ProteomeXchange Consortium via the PRIDE partner repository with the dataset identifier PXD006486.
+
+DESIGN
+Down-modulation of splicing factors SF3B1 (48h) and SRSF1 (72h) was performed in CRC cell line SW480 three times. The knock-downs and the paired non-targeting (NT) controls were subjected to RNA-sequencing and LC-MS/MS tandem mass spectrometry. Down-modulation of SF3B1 was repeated in a separate experiment, including PacBio Iso-Seq sequencing of full length transcripts. Differential mRNA splice variants were identified for down-modulation vs the non-targeting control.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens) GPL21311 PacBio RS II (Homo sapiens)
+
+CITATIONS
+28747380
+

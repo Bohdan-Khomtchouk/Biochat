@@ -1,0 +1,18 @@
+TITLE
+ChIP-seq and ChIP-exo profiling of Pol II, H2A.Z, and H3K4me3 in human K562 cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The human K562 chronic myeloid leukemia cell line has long served as an experimental paradigm for functional genomic studies. To systematically and functionally annotate the human genome, the ENCODE consortium generated hundreds of functional genomic data sets, such as ChIP-seq. While ChIP-seq analyses have provided tremendous insights into gene regulation, spatiotemporal insights were limited by a resolution of several hundred base pairs. ChIP-exonuclease (ChIP-exo) is a refined version of ChIP-seq that overcomes this limitation by providing higher precision mapping of protein-DNA interactions. To study the interplay of transcription initiation and chromatin, we profiled the genome-wide locations for RNA-polymerase II (Pol II), the histone variant H2A.Z, and the histone modification H3K4me3 using ChIP-seq and ChIP-exo.
+
+DESIGN
+ChIP-seq was performed by isolating 50 million cells and crosslinking with 37% formaldehyde. Cells are then lysed and sonicated, to achieve fragments of 200-500 basepairs. Cells are incubated overnight at 4C with antibody to locate protein of interest genome-wide. Chromatin is eluted from antibody and beads and cross links are reversed. Several enzymatic reactions prepare the DNA fragments for sequencing, including end polishing, A-tailing, and adapter ligation. DNA is purified and amplified using PCR. DNA is run on an agarose gel and gel purified. DNA libraries are then sequenced using an Illumina NextSeq500 sequencer as single-end reads 50 or 75 nucleotides in length. ChIP-exo was performed by isolating 50 million cells and crosslinking with 37% formaldehyde. Cells are then lysed and sonicated, to achieve fragments of 200-500 basepairs. Cells are incubated overnight at 4C with antibody to locate protein of interest genome-wide. After several on-bead enzymatic reactions (the most important of which is the lambda exonuclease), chromatin is eluted from antibody and beads. Crosslinks are reversed and DNA is extracted. Adapters are ligated, which is necessary for identification post sequencing. DNA is purified and amplified using PCR. DNA is run on an agarose gel and gel purified. DNA libraries are then sequenced using an Illumina NextSeq500 sequencer as single-end reads 50 or 75 nucleotides in length. The main difference between the two assays is the enzymatic reactions and the most important of these is the lambda exonuclease digestion Please note that the bigWig files are merged biological replicates (as indicated in the corresponding sample description field). For example, the ChIP_exoMerge.bw is the processed file where ChIPexo for Pol2 from rep 1 and rep2 were merged and converted to the bigWig format.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

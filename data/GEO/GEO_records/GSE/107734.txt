@@ -1,0 +1,18 @@
+TITLE
+Bladder Cancer Associated Mutations in RXRA activate Peroxisome Proliferator-Activated Receptors to Drive Urothelial Proliferation
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RXRA regulates transcription as part of a heterodimer with 14 other nuclear receptors, including the peroxisome proliferator-activated receptors (PPARs).   Analysis from the TCGA raised the possibility that hyperactive PPAR signaling, either due to PPAR gamma gene amplification or RXRA hot-spot mutation (S427F/Y) drives 20-25% of bladder cancers.  Here we characterize mutant RXRA, demonstrating it induces enhancer/promoter activity in the context of RXRA/PPAR heterodimers.  Structure-function studies indicate the RXRA substitution allosterically regulates the PPAR AF2 domain via an aromatic interaction with the terminal tyrosine found in PPARs.  In urothelium, we find PPAR agonism is sufficient to drive growth factor independent growth, but only after deletion of the tumor suppressors Kdm6a and Trp53.  Similarly, mutant RXRA stimulates growth factor independent growth, in a manner reversible by PPAR inhibition.  These studies reveal a pro-tumorigenic interaction between loss of tumor suppressors and PPAR activation and implicate PPARs as targetable drivers of bladder cancer.
+
+DESIGN
+Two independent bladder cancer cell lines, JMSU-1 and 575A, were transfected with retrovirus to generate stable cell lines expressing either human wild-type RXRA (RXRAwt) or a mutant form of RXRA, RXRA S427F (RXRAS427F).  RNA-seq was performed in biological triplicate on RXRAwt-expressing cells treated with vehicle or the PPARG agonist pioglitazone (pio), and RXRAS427F-expressing cells treated with vehicle.  Fragments were sequenced on an Illumina HiSeq-2500 or HiSeq-3000.  Transcriptomes in the wild-type and S427F conditions were compared to establish a causal role of the RXRA hot-spot mutation S427F in the hyper-activation of PPAR singling.
+
+PLATFORM
+GPL21290 Illumina HiSeq 3000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

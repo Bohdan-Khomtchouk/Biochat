@@ -12,6 +12,7 @@
   :depends-on (#:rutilsx #:drakma #:cl-ppcre #:eager-future2
                          #:yason #:crawlik #:hunchentoot #:cl-who
                          #:mgl-mat #:cl-nlp #:cl-nlp-contrib
+                         #:lparallel
                          #+dev #:should-test)
   :components
   ((:module #:src
@@ -26,5 +27,6 @@
                    (:file "search")
                    (:file "filter")
                    (:file "bow")
-                   (:file "doc2vec")))
+                   (:file "doc2vec")
+                   (:file "user")))
      (:file "web")))))

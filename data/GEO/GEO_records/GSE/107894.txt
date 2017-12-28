@@ -1,0 +1,18 @@
+TITLE
+Metformin Regulates Metabolic and Non-Metabolic Pathways in Skeletal Muscle and Subcutaneous Adipose Tissues of Older Adults
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Administration of metformin increases healthspan and lifespan in model systems and evidence from clinical trials and observational studies suggests that metformin delays a variety of age-related morbidities. Although metformin has been shown to modulate multiple biological pathways at the cellular level, these pleiotropic effects of metformin on the biology of human aging have not been studied. We studied ~70-year-old participants (n=14), in a randomized, double-blind, placebo-controlled, crossover trial in which they were treated with 6 weeks each of metformin and placebo. Following each treatment period, skeletal muscle and subcutaneous adipose tissue biopsies were obtained, and a mixed-meal challenge test was performed. As expected, metformin therapy lowered 2-hour glucose, insulin AUC, and insulin secretion compared to placebo. Using FDR < 0.05, 647 genes were differentially expressed in muscle and 146 genes were differentially expressed in adipose tissue. Both metabolic and non-metabolic pathways were significantly influenced, including pyruvate metabolism and DNA repair in muscle and PPAR & SREBP signaling, mitochondrial fatty acid oxidation and collagen trimerization in adipose. While each tissue had, a signature reflecting its own function, we identified a cascade of predictive upstream transcriptional regulators, including mTORC1, MYC, TNF, TGFß1 and miRNA-29b, that may explain tissue-specific transcriptomic changes in response to metformin treatment. This study provides the first evidence that, in older adults, metformin has metabolic and non-metabolic effects linked to aging. These data can inform the development of biomarkers for the effects of metformin, and potentially other drugs, on key aging pathways. Key words: Aging, biguanides, gene expression, metabolism, upstream regulators
+
+DESIGN
+This study ‘MILES: Metformin in Longevity Study' (ClinicalTrials.gov identifier: NCT02432287) is a randomized, double-blind, placebo controlled, crossover study. 14 men and women aged 60 and older, with impaired glucose tolerance based on 75g Oral Glucose Tolerance Test completed the study. Following a screening visit, the study consisted of two randomly assigned 6-week treatment periods (metformin and placebo). Metformin was introduced at 500 mg twice daily, and increased incrementally to 2000 mg daily at the end of 2 weeks to minimize gastrointestinal side effects. At the end of each 6-week treatment period, skeletal muscle and subcutaneous adipose biopsies were obtained. The samples were immediately homogenized in Trizol, frozen in liquid nitrogen and stored at -80°C for subsequent mRNA extraction. Total RNA was extracted using QIAGEN’s RNeasy Mini kit. Samples showing minimal degradation, as measured by RIN > 7 were processed for library preparation and sequenced in two/three technical replicates using multiplexed 100bp paired-end sequencing on Illumina HiSeq2500. Raw sequence reads were preprocessed using WASP 3.0, and FastQC was used for quality control. The raw FASTQ files were trimmed for adapter sequences using Trim Galore! RSEM algorithm (v1.2.25) in conjunction with STAR aligner (v2.4.2a) were used to quantify the raw reads to GRCh38 build of the reference human genome with transcript annotations from GENCODE. The raw counts matrix was exported from RSEM to edgeR, normalized using TMM normalization and used for differential expression analysis.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

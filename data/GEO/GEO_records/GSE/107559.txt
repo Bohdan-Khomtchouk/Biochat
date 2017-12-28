@@ -1,0 +1,18 @@
+TITLE
+Ivy Glioblastoma Atlas Project (RNA-Seq)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Ivy Glioblastoma Atlas Project (Ivy GAP) is a detailed anatomically based transcriptomic atlas of human glioblastoma tumors.  As collaborators, the Ivy Foundation funded the Allen Institute and the Swedish Neuroscience Institute to design and create the atlas.  The Paul G. Allen Family Foundation also supported the project.  This resource consists of a viewer interface that resolves the manually- and machine-annotated histologic images (H & E and RNA in situ hybridization) at 0.5 µm/pixel, a transcriptome browser to view and mine the anatomically-based RNA-Seq samples, an application programming interface, help documentation that describes the methods and how to use the resource, as well as SNP array data and the supporting longitudinal clinical information and MRI time course data.  The resource is made available to the public without charge as part of the Ivy GAP ( http://glioblastoma.alleninstitute.org/ ) via the Allen Institute data portal ( http://www.brain-map.org ), the Ivy GAP Clinical and Genomic Database ( http://ivygap.org/ ) via the Swedish Neuroscience Institute ( http://www.swedish.org/services/neuroscience-institute ), and The Cancer Imaging Archive (https://wiki.cancerimagingarchive.net/display/Public/Ivy+GAP).  The Ivy GAP processed data at GEO includes normalized RNA-Seq FPKM files used for analysis in " An anatomic transcriptional atlas of glioblastoma,” which is under review.  Other processed data files as well as sample and donor meta-data and QC metrics are available at http://glioblastoma.alleninstitute.org/static/download.html. The raw RNA-Seq and SNP array data will be submitted to dbGaP.
+
+DESIGN
+The Ivy Glioblastoma Atlas is based on the analysis of ~400 tissue blocks from 42 tumors donated by 41 patients.  A machine learning application was developed to label over ~12,000 H & E images of 7 x 9 mm tissue sections cut adjacent to ~24,000 sections for RNA in situ hybridization (ISH) analyzed with over 500 probes.  Accuracy of the machine annotations was assessed with neuropathology concordance analyses.  Transcriptomic profiles were generated from 270 RNA-Seq samples collected by laser microdissection.  The anatomic structures data set consists of 122 RNA samples of 5 anatomic features of the tumors:  leading edge (LE), infiltrating tumor (IT), cellular tumor (CT), pseudopalisading cells around necrosis (PAN), microvascular proliferation (MVP) identified by H & E staining in 10 tumors.  The cancer stem cells data set consists of 148 RNA samples of putative cancer stem cell clusters identified by ISH with 18 probe reference set in 34 tumors.  The sequencing results were aligned and aggregated at the gene level using the RSEM algorithm, and the resulting fpkm values were normalized across all samples based on genes not enriched in particular anatomic structures.  For more details, please see the Downloads tab in the Ivy Glioblastoma Atlas web application. ------------------------------- Authors state " Raw files will be made available through dbGaP. "
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

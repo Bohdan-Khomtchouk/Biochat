@@ -1,0 +1,18 @@
+TITLE
+Impact of regulatory variation across human iPSCs and differentiated cells [ATAC-seq iPSC-CM]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Induced pluripotent stem cells (iPSCs) are an essential tool for studying cellular differentiation and cell types that are otherwise difficult to access. We investigated the use of iPSCs and iPSC-derived cells to study the impact of genetic variation on gene regulation across different cell types and as models for studies of complex disease. To do so, we established a panel of iPSCs from 58 well-studied Yoruba lymphoblastoid cell lines (LCLs); 14 of these lines were further differentiated into cardiomyocytes. We characterized regulatory variation across individuals and cell types by measuring gene expression levels, chromatin accessibility and DNA methylation. Our analysis focused on a comparison of inter-individual regulatory variation across cell types. While most cell type-specific regulatory quantitative trait loci (QTLs) lie in chromatin that is open only in the affected cell types, we found that 20% of cell type-specific regulatory QTLs are in shared open chromatin. This observation motivated us to develop a deep neural network to predict open chromatin regions from DNA sequence alone. Using this approach, we were able to use the sequences of segregating haplotypes to predict the effects of common SNPs on cell type-specific chromatin accessibility.
+
+DESIGN
+Chromatin accesibility profiled using the ATAC-seq protocol
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

@@ -1,0 +1,18 @@
+TITLE
+Molecular prediction of adjuvant cisplatin efficacy in Non-Small Cell Lung Cancer (NSCLC) - validation in two independent cohorts
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Introduction: Effective predictive biomarkers for selection of patients benefiting from adjuvant platinum-based chemotherapy in non-small cell lung cancer (NSCLC) are needed. Based on a previously validated methodology, molecular profiles of predicted sensitivity in two patient cohorts are presented. Methods: The profiles are correlations between in vitro sensitivity to cisplatin and vinorelbine and baseline mRNA expression of the 60 cell lines in the National Cancer Institute panel. An applied clinical samples filter focused the profiles to clinically relevant genes. The profiles were tested on 1) snap-frozen tumors from 133 patients with completely resected stage 1B-2 NSCLC randomized to adjuvant cisplatin and vinorelbine (ACV, n=71) or no adjuvant treatment (OBS, n=62) [GSE14814] and 2) formalin-fixed paraffin-embedded (FFPE) pre-treatment tumors from 95 patients with completely resected stage 1A-3B NSCLC receiving adjuvant cisplatin and vinorelbine. Results: The combined cisplatin and vinorelbine profiles showed: 1) univariate Hazard Ratio (HR) for sensitive versus resistant of 0.265 (95% CI:0.079-0.889, p=0.032) in the ACV cohort and a HR of 0.28 in a multivariate model (95% CI:0.08-1.04, p=0.0573); 2) significant prediction at 3 year survival from surgery in univariate (HR=0.138 (95% CI:0.035-0.537), p=0.004) and multivariate analysis (HR=0.14 (95% CI:0.030-0.6), p=0.0081). No discrimination was found in the OBS cohort (HR=1.328, p=0.60). The cisplatin predictor alone had similar figures with 1) univariate HR of 0.37 (95% CI:0.12-1.15, p=0.09) in the ACV cohort and 2) univariate HR of 0.14 (95% CI:0.03-0.59, p=0.0076) to three years. Functional analysis on the cisplatin profile revealed a group of upregulated genes related to RNA splicing as a part of DNA damage repair and apoptosis. Conclusions: Profiles derived from snap-frozen and FFPE NSCLC tissue were prognostic and predictive in the patients that received cisplatin and vinorelbine but not in the cohort that did not receive adjuvant treatment.
+
+DESIGN
+A total of 95 pre-treatment non-small cell lung cancer samples were profiled for gene expression by using Affymetrix U133+2 platform. Raw cel data were preprocessed by RMA. Data from GSE14814 were used directly, without re-analysis.
+
+PLATFORM
+GPL570 [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

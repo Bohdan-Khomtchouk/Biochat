@@ -1,0 +1,18 @@
+TITLE
+eIF1A residues implicated in cancer stabilize translation preinitiation complexes and favor suboptimal initiation sites in yeast
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+The translation pre-initiation complex (PIC) scans the mRNA for an AUG codon in favorable context, and AUG recognition stabilizes a closed PIC conformation. The unstructured N-terminal tail (NTT) of yeast eIF1A deploys five basic residues to contact tRNAi, mRNA, or 18S rRNA exclusively in the closed state. Interestingly, EIF1AX mutations altering the human eIF1A NTT are associated with uveal melanoma (UM). We found that substituting all five basic residues, and seven UM-associated substitutions, in yeast eIF1A suppresses initiation at near-cognate UUG codons and AUGs in poor context. Ribosome profiling of NTT substitution R13P reveals heightened discrimination against unfavorable AUG context genome-wide. Both R13P and K16D substitutions destabilize the closed complex at UUG codons in reconstituted PICs. Thus, electrostatic interactions involving the eIF1A NTT stabilize the closed conformation and promote utilization of suboptimal start codons. We predict UM-associated mutations alter human gene expression by increasing discrimination against poor initiation sites.
+
+DESIGN
+We examined the effect of tif11-R13P on global translational efficiencies (TEs) by ribosome footprint profiling of isogenic WT and tif11-R13P strains. The study includes 8 samples, comprised of 4 mRNA-Seq samples and 4 ribosome footprint profiling samples, derived from 2 biological replicates of tif11? mutant strains harboring plasmid-borne tif11-R13P or the WT TIF11 allele. Additional Ribosome profiling data were used for yeast uORF identification.
+
+PLATFORM
+GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+29206102
+

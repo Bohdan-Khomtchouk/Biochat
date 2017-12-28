@@ -7,39 +7,28 @@
 
 ;;; PubMed vectors
 
-(eval-always
-  (defvar *pubmed*
-      (nlp:init-vecs (make 'nlp:mem-vecs :order 200) :wvlib
-                     (local-file "data/PubMed-shuffle-win-30.bin"))
-    "This variable will be initialized on first access and, for it to work,
-     a file PubMed-shuffle-win-30.bin from here:
-     https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8")
+(defvar *pubmed*
+  (nlp:init-vecs (make 'nlp:mem-vecs :order 200) :wvlib
+                 (local-file "data/PubMed-shuffle-win-30.bin"))
+  "This variable will be initialized on first access and, for it to work,
+   a file PubMed-shuffle-win-30.bin from here:
+   https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8")
 
-  (defun 2medvec (word)
-    (mat:array-to-mat (nlp:2vec *pubmed* word)))
-  
-  (defvar *zero-vec* (2medvec ""))
+(defun 2medvec (word)
+  (mat:array-to-mat (nlp:2vec *pubmed* word)))
 
-  (defun text-vec (text)
-    (if-it (nlp:tokenize nlp:<word-tokenizer> text)
-           (mat:scal! (/ 1 (length it))
-                      (reduce 'mat:m+ (mapcar '2medvec it)))
-           *zero-vec*))
+(defvar *zero-vec* (2medvec ""))
 
-  (defun geo-vec (geo &key (w #h(:title 0.0 :summary 1.0 :organism 0.0)))
-    (reduce 'mat:m+ (list (mat:scal! (? w :title) (text-vec @geo.title))
-                          (mat:scal! (? w :summary) (text-vec @geo.summary))
-                          (mat:scal! (? w :organism) (text-vec @geo.organism)))))
+(defun text-vec (text)
+  (if-it (nlp:tokenize nlp:<word-tokenizer> text)
+         (mat:scal! (/ 1 (length it))
+                    (reduce 'mat:m+ (mapcar '2medvec it)))
+         *zero-vec*))
 
-  (format *debug-io* "Starting vecs calculation for GDS: ")
-  (defvar *gds-vecs* (map* 'geo-vec *gds*))
-  (format *debug-io* "done.~%")
-
-  (format *debug-io* "Starting vecs calculation for GSE: ")
-  (defvar *gse-vecs* (map* 'geo-vec *gse*))
-  (format *debug-io* "done.~%")
-  (defvar *geo-vecs* *gds-vecs*)
-)
+(defun geo-vec (geo &key (w #h(:title 0.0 :summary 1.0 :organism 0.0)))
+  (reduce 'mat:m+ (list (mat:scal! (? w :title) (text-vec @geo.title))
+                        (mat:scal! (? w :summary) (text-vec @geo.summary))
+                        (mat:scal! (? w :organism) (text-vec @geo.organism)))))
 
 
 ;;; simple vector similarity

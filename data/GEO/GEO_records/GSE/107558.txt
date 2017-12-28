@@ -1,0 +1,18 @@
+TITLE
+Ivy Glioblastoma Atlas Project (SNP)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The Ivy Glioblastoma Atlas Project (Ivy GAP) is a detailed anatomically based transcriptomic atlas of human glioblastoma tumors.  As collaborators, the Ivy Foundation funded the Allen Institute and the Swedish Neuroscience Institute to design and create the atlas.  The Paul G. Allen Family Foundation also supported the project.  This resource consists of a viewer interface that resolves the manually- and machine-annotated histologic images (H & E and RNA in situ hybridization) at 0.5 µm/pixel, a transcriptome browser to view and mine the anatomically-based RNA-Seq samples, an application programming interface, help documentation that describes the methods and how to use the resource, as well as SNP array data and the supporting longitudinal clinical information and MRI time course data.  The resource is made available to the public without charge as part of the Ivy GAP ( http://glioblastoma.alleninstitute.org/ ) via the Allen Institute data portal ( http://www.brain-map.org ), the Ivy GAP Clinical and Genomic Database ( http://ivygap.org/ ) via the Swedish Neuroscience Institute ( http://www.swedish.org/services/neuroscience-institute ), and The Cancer Imaging Archive (https://wiki.cancerimagingarchive.net/display/Public/Ivy+GAP).  The Ivy GAP processed data at GEO includes normalized RNA-Seq FPKM files used for analysis in " An anatomic transcriptional atlas of glioblastoma,” which is under review.  Other processed data files as well as sample and donor meta-data and QC metrics are available at http://glioblastoma.alleninstitute.org/static/download.html. The raw RNA-Seq and SNP array data will be submitted to dbGaP.
+
+DESIGN
+Copy number analysis was performed using Affymetrix GenomeWideSNP_6 platform. A total of 35 samples were used from 34 GBM patients’ and 1 glioma patient’s surgical resections. -------------------------------- Authors state " Raw files will be made available through dbGaP. "
+
+PLATFORM
+GPL6801 [GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

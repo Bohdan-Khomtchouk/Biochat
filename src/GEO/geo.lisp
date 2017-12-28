@@ -95,8 +95,8 @@
                             (loop
                               (handler-case
                                   (return (drakma:http-request
-                                           (fmt @site.url-template @site.id)))
-                                ;;  :user-agent *chrome-ua*
+                                           (fmt @site.url-template @site.id)
+                                           :user-agent *chrome-ua*))
                                 ((or cl+ssl::ssl-error-syscall
                                   cl+ssl::ssl-error-zero-return) () (sleep 5))
                                 (drakma::drakma-simple-error () nil)))))))
@@ -126,27 +126,70 @@
   (with ((counts (? (crawlik:crawl (make 'geo)) 0))
          (((gds :gds) (gse :gse)) ? counts)
          (gds-crawler (make 'geo-gds :id gds-id
+                                     :last-id gds-id
                                      :seen (length *gds*)
                                      :count (or gds-count (parse-integer gds))
                                      :out-dir out-dir))
          (gse-crawler (make 'geo-gse :id gse-id
+                                     :last-id gse-id
                                      :seen (length *gse*)
                                      :count (or gse-count (parse-integer gse))
                                      :out-dir out-dir)))
-    (format *debug-io* "Starting to crawl GDS (count=~A): " gds)
-    (crawlik:crawl gds-crawler)
-    (format *debug-io* "done (crawled ~A items).~%"
-            (- @gds-crawler.seen (length *gds*)))
-    (format *debug-io* "Starting to crawl GSE (count=~A): " gse)
-    (crawlik:crawl gse-crawler)
-    (format *debug-io* "done (crawled ~A items).~%"
-            (- @gse-crawler.seen (length *gse*)))))
+    (bt:make-thread
+     (lambda ()
+       (format *debug-io* "Starting to crawl GDS (count=~A): " gds)
+       (crawlik:crawl gds-crawler)
+       (format *debug-io* "done (crawled ~A items).~%"
+               (- @gds-crawler.seen (length *gds*))))
+     :name "GDS scraper")
+    (bt:make-thread
+     (lambda ()
+       (format *debug-io* "Starting to crawl GSE (count=~A): " gse)
+       (crawlik:crawl gse-crawler)
+       (format *debug-io* "done (crawled ~A items).~%"
+               (- @gse-crawler.seen (length *gse*))))
+     :name "GSE scraper")))
 
+(defun scrape-libstrats (geo rec)
+  (sort (nlp:uniq (map* ^(let ((raw (drakma:http-request
+                                     (fmt "https://www.ncbi.nlm.nih.gov/geo/~
+                                           query/acc.cgi?acc=~A" %))))
+                           (when-it (search "Library strategy" raw)
+                             (mkeyw (slice (first (re:all-matches-as-strings
+                                                   "<td>([^<]+)" raw :start it))
+                                           #.(length "<td>")))))
+                        (re:all-matches-as-strings
+                         "GSM\\d+"
+                         (drakma:http-request
+                          (fmt "https://www.ncbi.nlm.nih.gov/geo/~
+                                download/?format=xml&acc=GSE~A"
+                               @rec.id)))))
+        'string<))
+  
+(defun scrape-gsms ()
+  (let ((gse (make 'geo-gse :out-dir (local-file "data/GEO/GEO_records/GSE/"))))
+    (lparallel:pmap nil
+                    ^(when-it (scrape-libstrats gse %)
+                       (princ ".")
+                       (:= @%.libstrats it)
+                       (with-open-file (out (fmt "~A/~A.txt" @gse.out-dir
+                                                 @%.id)
+                                            :direction :output
+                                            :if-exists :append)
+                         (format out "LIBSTRATS~%~{~S~^ ~}~%" it)))
+                   *gse*)))
 
 ;;; in-memory storage
 
 (defstruct (geo-rec (:conc-name gr-))
-  id title organism summary design platform citations)
+  id
+  title
+  organism
+  summary
+  design
+  platform
+  citations
+  libstrats)
 
 (defun load-geo (file)
   (let ((raw (split #\Newline (read-file file))))
@@ -175,25 +218,3 @@
                 :initial-contents (reverse rez)
                 :adjustable t 
                 :fill-pointer t)))
-
-(defvar *gds* (load-geo-dir (local-file "data/GEO/GEO_records/GDS/")))
-(defvar *gse* (load-geo-dir (local-file "data/GEO/GEO_records/GSE/")))
-(defvar *geo-db* *gds*)
-
-
-;;; auto-update
-
-(defvar *geo-updater-thread*
-  (bt:make-thread
-   ^(let ((dir (local-file "data/GEO/GEO_records/")))
-      (format *debug-io* "Starting auto-update:~%")
-      (flet ((max-id (rec-type)
-               (reduce 'max (mapcar (=> parse-integer pathname-name)
-                                    (directory (strcat dir rec-type "/*.txt")))
-                       :initial-value 0)))
-        (loop (scrape-geo dir
-                          :gds-id (max-id "GDS")
-                          :gse-id (max-id "GSE"))
-              (format *debug-io* "Finished auto-update run.~%")
-              (sleep #.(* 1 60 60 24))))) ; 1 day
-   :name "GEO updater"))
