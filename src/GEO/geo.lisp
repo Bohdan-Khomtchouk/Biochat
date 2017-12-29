@@ -151,33 +151,41 @@
      :name "GSE scraper")))
 
 (defun scrape-libstrats (geo rec)
-  (sort (nlp:uniq (map* ^(let ((raw (drakma:http-request
-                                     (fmt "https://www.ncbi.nlm.nih.gov/geo/~
+  (remove
+   nil
+   (sort (nlp:uniq (map* ^(let ((raw (drakma:http-request
+                                      (fmt "https://www.ncbi.nlm.nih.gov/geo/~
                                            query/acc.cgi?acc=~A" %))))
-                           (when-it (search "Library strategy" raw)
-                             (mkeyw (slice (first (re:all-matches-as-strings
-                                                   "<td>([^<]+)" raw :start it))
-                                           #.(length "<td>")))))
-                        (re:all-matches-as-strings
-                         "GSM\\d+"
-                         (drakma:http-request
-                          (fmt "https://www.ncbi.nlm.nih.gov/geo/~
+                            (when-it (search "Library strategy" raw)
+                              (mkeyw (slice (first (re:all-matches-as-strings
+                                                    "<td>([^<]+)" raw :start it))
+                                            #.(length "<td>")))))
+                         (re:all-matches-as-strings
+                          "GSM\\d+"
+                          (drakma:http-request
+                           (fmt "https://www.ncbi.nlm.nih.gov/geo/~
                                 download/?format=xml&acc=GSE~A"
-                               @rec.id)))))
-        'string<))
+                                @rec.id)))))
+         'string<)))
   
-(defun scrape-gsms ()
+(defun scrape-gsms (&key (geo *gse*))
   (let ((gse (make 'geo-gse :out-dir (local-file "data/GEO/GEO_records/GSE/"))))
-    (lparallel:pmap nil
-                    ^(when-it (scrape-libstrats gse %)
-                       (princ ".")
-                       (:= @%.libstrats it)
-                       (with-open-file (out (fmt "~A/~A.txt" @gse.out-dir
-                                                 @%.id)
-                                            :direction :output
-                                            :if-exists :append)
-                         (format out "LIBSTRATS~%~{~S~^ ~}~%" it)))
-                   *gse*)))
+    (lparallel:pmap nil (lambda (rec)
+                          (sleep (random 0.01))
+                          (unless @rec.libstrats
+                            (when-it (scrape-libstrats gse rec)
+                              (princ ".")
+                              (:= @rec.libstrats it))))
+                    geo)))
+
+(defun all-libstrats (&key (geo *gse*))
+  (let ((rez #h()))
+    (dovec (rec geo)
+      (dolist (strat @rec.libstrats)
+        (when (null strat) (print rec))
+        (:+ (get# strat rez 0))))
+    rez))
+
 
 ;;; in-memory storage
 

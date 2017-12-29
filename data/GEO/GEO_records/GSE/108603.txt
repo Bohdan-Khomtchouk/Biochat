@@ -1,0 +1,18 @@
+TITLE
+Transcriptomic study of zinc-deficient Saccharomyces cerevisiae wild-type, atg1Δ, and atg41Δ strains
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+Purpose: ATG41 is involved both in autophagy and zinc-deficient growth. The goal of this study is to compare transcriptomic profiles of wild-type and atg41Δ strains to discover autophagy-independent molecular phenotypes for the mutant. The atg1Δ mutant is a control for autophagy activity. Methods: Wild-type and mutant yeast were grown to mid-log phase in replete medium and shifted to zinc-deficient medium for 8 hours, after which, cells were harvested for RNA sequencing to detect differential gene expression. Results: Gene expression data for virtually every gene (~6,000) was obtained with ~12,000,000 reads per sample. Differential gene expression analysis showed that several hundred genes were differentially experessed in the atg41Δ mutant (greater than 2-fold) at an FDR of 0.5. Conclusions: Most strikingly, we found that the atg41Δ mutant transcriptome shows signs that sulfur metabolism is distrupted during zinc-deficinet growth. Expression of Met4 gene targets is increased.
+
+DESIGN
+mRNA from wild-type, atg1Δ, and atg41Δ yeast strains was prepared from zinc-deficient cultures in quadruplicate and sequenced. Single-end, 100bp sequencing was performed, using v4 SBS chemistry on an Illumina HiSeq2500 sequencer.
+
+PLATFORM
+GPL17342 Illumina HiSeq 2500 (Saccharomyces cerevisiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
