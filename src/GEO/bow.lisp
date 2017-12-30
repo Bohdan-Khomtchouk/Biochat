@@ -24,13 +24,6 @@
     (values tf
             idf)))
 
-(unless (boundp '*tf*)
-  (with ((tf idf (calc-tfidf (mapcar 'lemmas
-                                     (map 'list 'geo-toks
-                                          (concatenate 'vector *gds* *gse*))))))
-    (defvar *tf* tf)
-    (defvar *idf* idf)))
-
 (defun tfidf (word)
   (* (sqrt (? *tf* word))
      (? *idf* word)))
@@ -39,11 +32,12 @@
 ;;; comparison of documents
 
 (defun tok-closest-recs (rec &key (measure 'tfidf-sim))
-  (let ((toks (geo-toks rec)))
-    (subseq (sort (map* ^(pair % (call measure toks (geo-toks %)))
-                        *geo-db*)
-                  '> :key 'rt)
-            1)))  ; leave out self
+  (with ((toks (geo-toks rec))
+         (rez (sort (map* ^(pair % (call measure toks (geo-toks %)))
+                          *geo-db*)
+                    '> :key 'rt)))
+    (when (plusp (length rez))
+      (subseq rez 1))))  ; leave out self
 
 (defun tfidf-sim (toks1 toks2 &key (tfidf 'tfidf))
   (let ((common (mapcar ^(expt (call tfidf %) 2)

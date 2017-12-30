@@ -5,7 +5,7 @@
 (named-readtables:in-readtable rutilsx-readtable)
 
 
-(:= lparallel:*kernel* (lparallel:make-kernel 1000))
+(:= lparallel:*kernel* (lparallel:make-kernel 2))
 (push '("application" . "xml") drakma:*text-content-types*)
 
 
@@ -26,6 +26,13 @@
                                               (map* 'geo-vec *gse*)))
 (format *debug-io* "done.~%")
 (defvar *geo-vecs* *gds-vecs*)
+
+(unless (boundp '*tf*)
+  (with ((tf idf (calc-tfidf (mapcar 'lemmas
+                                     (map 'list 'geo-toks
+                                          (concatenate 'vector *gds* *gse*))))))
+    (defvar *tf* tf)
+    (defvar *idf* idf)))
 
 
 ;;; auto-update

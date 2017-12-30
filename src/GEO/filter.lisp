@@ -23,7 +23,6 @@
                       (pair rec (coerce similar-recs 'vector)))))
                 *geo-db*))))
 
-
 (defvar *geo-by-histone* #h(:gds (geo-group :histones *gds*)
                             :gse (geo-group :histones *gse*)))
 

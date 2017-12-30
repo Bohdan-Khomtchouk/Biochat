@@ -18,7 +18,10 @@
 
 (defparameter *geo-sim-filters*
   '((:histone "Histone")
-    (:organism "Same organism")))
+    (:organism "Same organism")
+    (:libstrats "Same library strategy")))
+
+(defvar *search-cache* #h(equalp))
 
 
 ;;; urls
@@ -143,6 +146,11 @@
                                                   (:organism
                                                    (string= @rec.organism
                                                             @it.organism))
+                                                  (:libstrats
+                                                   (if-it @it.libstrats
+                                                          (intersection
+                                                           @rec.libstrats it)
+                                                          t))
                                                   (otherwise
                                                    (string= @rec.organism
                                                             filter))))
@@ -151,8 +159,10 @@
                                     (push (? *geo-vecs* i) vecs))))
                               (:= *geo-db* (coerce db 'vector))
                               (:= *geo-vecs* (coerce vecs 'vector))))
-                          (loop :for (r m s) :in (find-closest-recs
-                                                  it count :methods methods) :do
+                          (loop :for (r m s)
+                                :in (find-closest-recs it count
+                                                       :methods methods
+                                                       :filters filters) :do
                             (who:htm (:li (who:str (format-geo-rec type r m s))))))))
                  (not-found))))))
 
@@ -180,32 +190,42 @@
                       (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
                                      @rec.citations)
                           (who:fmt "PMID ~A" @rec.citations)))
-                     (who:str @rec.citations)))))))
+                     (who:str @rec.citations))
+                 (when-it @rec.libstrats
+                   (who:htm
+                    (:br)
+                    (:span :class "grey" "Library strategies: ")
+                    (dolist (libstrat it)
+                      (who:fmt "~(~A~) " (symbol-name libstrat))))))))))
 
-(defun find-closest-recs (rec count
-                          &key (methods (mapcar 'first *geo-sim-methods*)))
-  (mapcar ^(list (lt (lt %))
-                 (rt %)
-                 (rt (lt %)))
-          (take count
-                (sort (remove-duplicates
-                       (take (* 2 count)
-                             (append
-                              (reduce 'append
-                                      (mapcar (lambda (method)
-                                                (when (member method methods)
-                                                  (mapcar ^(pair % method)
-                                                          (vec-closest-recs
-                                                           rec :measure method))))
-                                              '(cos-sim euc-sim eucos-sim
-                                                smoothed-cos-sim)))
-                              (reduce 'append
-                                      (mapcar (lambda (method)
-                                               (when (member method methods)
-                                                 (map 'list ^(pair % method)
-                                                      (tok-closest-recs
-                                                       rec :measure method))))
-                                             '(tfidf-sim bm25-sim)))))
-                       :key 'lt)
-                      '> :key (=> rt lt)))))
+(defun find-closest-recs (rec count &key
+                                      (methods (mapcar 'first *geo-sim-methods*))
+                                      filters)
+  (getset#
+   (list @rec.id count methods filters)
+   *search-cache*
+   (mapcar ^(list (lt (lt %))
+                  (rt %)
+                  (rt (lt %)))
+           (take count
+                 (sort (remove-duplicates
+                        (take (* 2 count)
+                              (append
+                               (reduce 'append
+                                       (mapcar (lambda (method)
+                                                 (when (member method methods)
+                                                   (mapcar ^(pair % method)
+                                                           (vec-closest-recs
+                                                            rec :measure method))))
+                                               '(cos-sim euc-sim eucos-sim
+                                                 smoothed-cos-sim)))
+                               (reduce 'append
+                                       (mapcar (lambda (method)
+                                                 (when (member method methods)
+                                                   (map 'list ^(pair % method)
+                                                        (tok-closest-recs
+                                                         rec :measure method))))
+                                               '(tfidf-sim bm25-sim)))))
+                        :key 'lt)
+                       '> :key (=> rt lt))))))
                  

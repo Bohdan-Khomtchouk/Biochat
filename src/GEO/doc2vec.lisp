@@ -34,17 +34,19 @@
 ;;; simple vector similarity
 
 (defun vec-closest-recs (rec &key (measure 'cos-sim))
-  (let ((vec (geo-vec rec))
-        (toks (geo-toks rec)))
-    (subseq (map 'list ^(pair (? *geo-db* (lt %))
-                              (rt %))
-                 (sort (map* ^(pair % (apply measure vec %%
-                                             (list toks
-                                                   (geo-toks (? *geo-db* %)))))
-                             (range 0 (length *geo-vecs*))
-                             *geo-vecs*)
-                       '> :key 'rt))
-            1)))
+  (with ((vec (geo-vec rec))
+         (toks (geo-toks rec))
+         (rez (lparallel:pmap 'list ^(pair (? *geo-db* (lt %))
+                                           (rt %))
+                              (sort (map* ^(pair % (apply measure vec %%
+                                                          (list toks
+                                                                (geo-toks
+                                                                 (? *geo-db* %)))))
+                                          (range 0 (length *geo-vecs*))
+                                          *geo-vecs*)
+                                    '> :key 'rt))))
+    (when (plusp (length rez))
+      (subseq rez 1))))
 
 (defun cos-sim (v1 v2 &rest _)
   (declare (ignore _))
@@ -154,4 +156,4 @@
     (mapleaves ^(position % *geo-db* :key 'gr-id)
                (read in))))
 
-(defpar *geo-tree* (load-geo-tree (local-file "data/GEO/GEO-tree-cos.lisp")))
+;(defpar *geo-tree* (load-geo-tree (local-file "data/GEO/GEO-tree-cos.lisp")))

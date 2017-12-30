@@ -168,7 +168,7 @@
                                 @rec.id)))))
          'string<)))
   
-(defun scrape-gsms (&key (geo *gse*))
+(defun scrape-gsms (&optional (geo *gse*))
   (let ((gse (make 'geo-gse :out-dir (local-file "data/GEO/GEO_records/GSE/"))))
     (lparallel:pmap nil (lambda (rec)
                           (sleep (random 0.01))
@@ -212,7 +212,10 @@
      :platform (when-it (position "PLATFORM" raw :test 'string=)
                  (? raw (1+ it)))
      :citations (when-it (position "CITATIONS" raw :test 'string=)
-                  (? raw (1+ it))))))
+                  (? raw (1+ it)))
+     :libstrats (when-it (position "LIBSTRATS" raw :test 'string=)
+                  (mapcar 'read-from-string (split #\Space (? raw (1+ it))
+                                                   :remove-empty-subseqs t))))))
 
 (defun load-geo-dir (dir)
   (format *debug-io* "Loading GEO data from: ~A~%" dir)
