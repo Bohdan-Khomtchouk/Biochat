@@ -182,7 +182,7 @@
   (let ((rez #h()))
     (dovec (rec geo)
       (dolist (strat @rec.libstrats)
-        (when (null strat) (print rec))
+        (when (null strat) (void @rec.libstrats))
         (:+ (get# strat rez 0))))
     rez))
 
