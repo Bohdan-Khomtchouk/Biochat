@@ -34,6 +34,7 @@
     (defvar *tf* tf)
     (defvar *idf* idf)))
 
+(defvar *geo-libstrats* (keys (all-libstrats)))
 
 ;;; auto-update
 

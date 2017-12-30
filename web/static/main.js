@@ -40,6 +40,7 @@ function search() {
             + "&sim-methods=" + selected('simmethods')
             + "&sim-filters=" + checked('sim-filters')
             + "&sim-organisms=" + checked('simorganisms')
+            + "&sim-libstrats=" + checked('simlibstrats')
         })
         .done(function (data) {
             spinner.stop();
@@ -54,5 +55,10 @@ function search() {
 
 function toggle_simorganisms () {
     $('#simorganisms').toggle();
+    return false;
+}
+
+function toggle_simlibstrats () {
+    $('#simlibstrats').toggle();
     return false;
 }

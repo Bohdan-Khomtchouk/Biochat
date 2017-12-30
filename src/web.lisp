@@ -100,11 +100,27 @@
                               (:label :for "sim-organisms" :class "spacelabel"
                                       (who:str organism)))
                              " "))))
+                   (:div :class "box" :id "sim-libstrats"
+                         "Look only in these library strategies: "
+                         (:a :href "#" :onclick "return toggle_simlibstrats()"
+                             :class "black"
+                             "▼")
+                         (:br)
+                         (:div :id "simlibstrats"
+                               (loop :for strat :in *geo-libstrats* :do
+                                 (who:htm
+                                  (:div :class "organisms-box"
+                                        (:input :type :checkbox :value strat
+                                                :name "sim-libstrats")
+                                        (:label :for "sim-libstrats"
+                                                :class "spacelabel"
+                                                (who:str strat)))
+                                  " "))))
                    (:div (:input :type "submit" :value "Search")))
             (:br)
             (:div :id "search-results" ""))))))
 
-(url "/search" (gid sim-methods sim-filters sim-organisms
+(url "/search" (gid sim-methods sim-filters sim-organisms sim-libstrats
                 (count :parameter-type 'integer :init-form 10))
   (flet ((not-found ()
            (who:with-html-output-to-string (out)
@@ -124,7 +140,11 @@
                                 (split #\, sim-methods :remove-empty-subseqs t)))
                (filters (or (mapcar 'mkeyw (split #\, sim-filters
                                                   :remove-empty-subseqs t))
-                            (split #\, sim-organisms :remove-empty-subseqs t))))
+                            (append (split #\, sim-organisms
+                                           :remove-empty-subseqs t)
+                                    (mapcar 'mkeyw
+                                            (split #\, sim-libstrats
+                                                   :remove-empty-subseqs t))))))
           (if-it (find id db :key 'gr-id)
                  (who:with-html-output-to-string (out)
                    (:div "Requested record:")
@@ -152,8 +172,10 @@
                                                            @rec.libstrats it)
                                                           t))
                                                   (otherwise
-                                                   (string= @rec.organism
-                                                            filter))))
+                                                   (or (string= @rec.organism
+                                                                filter)
+                                                       (member filter
+                                                               @rec.libstrats)))))
                                               filters)
                                     (push rec db)
                                     (push (? *geo-vecs* i) vecs))))
