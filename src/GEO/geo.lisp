@@ -5,6 +5,17 @@
 (named-readtables:in-readtable rutilsx-readtable)
 
 
+(defstruct (geo-rec (:conc-name gr-))
+  id
+  title
+  organism
+  summary
+  design
+  platform
+  citations
+  libstrats)
+
+
 ;;; web scraping
 
 (defclass geo ()
@@ -173,31 +184,26 @@
     (lparallel:pmap nil (lambda (rec)
                           (sleep (random 0.01))
                           (unless @rec.libstrats
-                            (when-it (scrape-libstrats gse rec)
-                              (princ ".")
-                              (:= @rec.libstrats it))))
+                            (:= @rec.libstrats (scrape-libstrats gse rec))
+                            (when-it @rec.libstrats
+                              (with-open-file (out (fmt "~A/~A.txt" @gse.out-dir
+                                                        @rec.id)
+                                                   :direction :output
+                                                   :if-exists :append)
+                                (format out "LIBSTRATS~%~{~S~^ ~}~%" it)))
+                            (princ (if @rec.libstrats "+" "."))))
                     geo)))
 
 (defun all-libstrats (&key (geo *gse*))
   (let ((rez #h()))
     (dovec (rec geo)
-      (dolist (strat @rec.libstrats)
-        (when (null strat) (void @rec.libstrats))
-        (:+ (get# strat rez 0))))
+      (dolist (libstrat @rec.libstrats)
+        (when (null libstrat) (void @rec.libstrats))
+        (:+ (get# libstrat rez 0))))
     rez))
 
 
 ;;; in-memory storage
-
-(defstruct (geo-rec (:conc-name gr-))
-  id
-  title
-  organism
-  summary
-  design
-  platform
-  citations
-  libstrats)
 
 (defun load-geo (file)
   (let ((raw (split #\Newline (read-file file))))
