@@ -19,7 +19,8 @@
 (defparameter *geo-sim-filters*
   '((:histone "Histone")
     (:organism "Same organism")
-    (:libstrats "Same library strategy")))
+    (:libstrats "Same library strategy")
+    (:microarrayp "Only microarray experiments")))
 
 (defvar *search-cache* #h(equalp))
 
@@ -171,6 +172,8 @@
                                                           (intersection
                                                            @rec.libstrats it)
                                                           t))
+                                                  (:microarrayp
+                                                   @rec.microarrayp)
                                                   (otherwise
                                                    (or (string= @rec.organism
                                                                 filter)
