@@ -118,7 +118,7 @@
             (with-out-file (out out-file)
               (dotable (k v it)
                 (write-line (princ-to-string k) out)
-                (write-line v out)
+                (write-line (princ-to-string v) out)
                 (terpri out)))
             (with ((rec (load-geo out-file))  ; TODO: add libstrats
                    (vec (geo-vec rec)))
@@ -227,7 +227,9 @@
                   (? raw (1+ it)))
      :libstrats (when-it (position "LIBSTRATS" raw :test 'string=)
                   (mapcar 'read-from-string (split #\Space (? raw (1+ it))
-                                                   :remove-empty-subseqs t))))))
+                                                   :remove-empty-subseqs t)))
+     :microarrayp (when-it (position "MICROARRAYP" raw :test 'string=)
+                    (read-from-string (? raw (1+ it)))))))
 
 (defun load-geo-dir (dir)
   (format *debug-io* "Loading GEO data from: ~A~%" dir)
