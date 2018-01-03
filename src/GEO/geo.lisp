@@ -13,7 +13,8 @@
   design
   platform
   citations
-  libstrats)
+  libstrats
+  microarrayp)
 
 
 ;;; web scraping
@@ -113,12 +114,13 @@
                                 (drakma::drakma-simple-error () nil)))))))
           (when (plusp (tally it))
             (:+ @site.seen)
+            (:= (? it :microarrayp) (scrape-microarrayp (? it :platform)))
             (with-out-file (out out-file)
               (dotable (k v it)
                 (write-line (princ-to-string k) out)
                 (write-line v out)
                 (terpri out)))
-            (with ((rec (load-geo out-file))
+            (with ((rec (load-geo out-file))  ; TODO: add libstrats
                    (vec (geo-vec rec)))
               (switch (type :test 'string=)
                 ("GDS" (pushx rec *gds*)
@@ -202,7 +204,11 @@
         (:+ (get# libstrat rez 0))))
     rez))
 
-
+(defun scrape-microarrayp (platform)
+  (true (search "in situ oligonucleotide"
+                (drakma:http-request
+                 (fmt "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=~A"
+                      (re:scan-to-strings "(GPL\\d+)" platform))))))
 ;;; in-memory storage
 
 (defun load-geo (file)
