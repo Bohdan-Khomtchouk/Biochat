@@ -209,6 +209,8 @@
                 (drakma:http-request
                  (fmt "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=~A"
                       (re:scan-to-strings "(GPL\\d+)" platform))))))
+
+
 ;;; in-memory storage
 
 (defun load-geo (file)
