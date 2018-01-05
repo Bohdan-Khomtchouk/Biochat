@@ -226,50 +226,50 @@
            (:div (:span :class "grey" "Platform: ") (who:str @rec.platform)
                  (:br)
                  (:span :class "grey" "Citations: ")
-                 (cond-it
-                   ((numberp (ignore-errors (parse-integer @rec.citations)))
-                    (who:htm
-                     (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
-                                    @rec.citations)
-                         :onclick (fmt "return track_interest(~A,~A)"
-                                       match-id @rec.id)
-                         (who:fmt "PMID ~A" @rec.citations))))
-                   ((with ((pmid-pos (search "PMID" @rec.citations))
-                           (pmid-beg (position-if 'digit-char-p @rec.citations
-                                                  :start (+ (or pmid-pos 0) 4))))
-                      (when (and pmid-pos
-                                 pmid-beg
-                                 (not (some 'alpha-char-p (slice @rec.citations
-                                                                 (+ pmid-pos 4)
-                                                                 pmid-beg))))
-                        (pair pmid-beg
-                              (position-if-not 'digit-char-p @rec.citations
-                                               :start pmid-beg))))
-                    (let ((pmid (apply 'slice @rec.citations it)))
-                      (who:htm
-                       (who:str (slice @rec.citations 0 (lt it)))
-                       (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
-                                      pmid)
-                           :target "_blank"
-                           :onclick (fmt "return track_interest(~A~A,~A~A)"
+                 (let ((onclick (if match-id
+                                    (fmt "return track_interest('~A~A', '~A~A')"
                                          type match-id type @rec.id)
-                           (who:fmt "~A" pmid))
-                       (when (rt it)
-                         (who:str (slice @rec.citations (rt it)))))))
-                              
-                   (t
-                    (who:str @rec.citations)))
-                 (when-it @rec.libstrats
-                   (who:htm
-                    (:br)
-                    (:span :class "grey" "Library strategies: ")
-                    (dolist (libstrat it)
-                      (who:fmt "~(~A~) " (symbol-name libstrat)))))
-                 (when-it @rec.microarrayp
-                   (who:htm
-                    (:br)
-                    (:span :class "blue" "Microarray"))))))))
-
+                                    "")))
+                   (cond-it
+                     ((numberp (ignore-errors (parse-integer @rec.citations)))
+                      (who:htm
+                       (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
+                                      @rec.citations)
+                           :onclick onclick
+                           (who:fmt "PMID ~A" @rec.citations))))
+                     ((with ((pmid-pos (search "PMID" @rec.citations))
+                             (pmid-beg (position-if 'digit-char-p @rec.citations
+                                                    :start (+ (or pmid-pos 0) 4))))
+                        (when (and pmid-pos pmid-beg
+                                   (not (some 'alpha-char-p
+                                              (slice @rec.citations
+                                                     (+ pmid-pos 4) pmid-beg))))
+                          (pair pmid-beg
+                                (position-if-not 'digit-char-p @rec.citations
+                                                 :start pmid-beg))))
+                      (let ((pmid (apply 'slice @rec.citations it)))
+                        (who:htm
+                         (who:str (slice @rec.citations 0 (lt it)))
+                         (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
+                                        pmid)
+                             :target "_blank"
+                             :onclick onclick
+                             (who:fmt "~A" pmid))
+                         (when (rt it)
+                           (who:str (slice @rec.citations (rt it)))))))
+                     (t
+                      (who:str @rec.citations)))
+                   (when-it @rec.libstrats
+                     (who:htm
+                      (:br)
+                      (:span :class "grey" "Library strategies: ")
+                      (dolist (libstrat it)
+                        (who:fmt "~(~A~) " (symbol-name libstrat)))))
+                   (when-it @rec.microarrayp
+                     (who:htm
+                      (:br)
+                      (:span :class "blue" "Microarray")))))))))
+  
 (defun find-closest-recs (rec count &key
                                       (methods (mapcar 'first *geo-sim-methods*))
                                       filters)
