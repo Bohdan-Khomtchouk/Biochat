@@ -63,11 +63,11 @@ function toggle_simlibstrats () {
     return false;
 }
 
-function track_interest (base_id, other_id) {
-    if (base_id != other_id)
+function track_interest (this_id, other_id) {
+    if (this_id != other_id)
         $.ajax({
             type: 'PUT',
-            url: '/interest?id=' + base_id + '&oid=' + other_id
+            url: '/interest?tid=' + this_id + '&oid=' + other_id
         });
     return false;
 }

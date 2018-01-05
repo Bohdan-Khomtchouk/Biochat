@@ -194,12 +194,15 @@
                                                     type r m s @it.id))))))))
                  (not-found))))))
 
-(url "/interest" ((id :parameter-type 'integer)
-                  (oid :parameter-type 'integer))
+(url "/interest" (tid oid)
+  (:= tid (string-upcase tid))
+  (:= oid (string-upcase oid))
   (if (eql :PUT (htt:request-method*))
-      (if (and id oid (/= id oid))
+      (if (and tid oid (string= tid oid))
           (psql:with-connection *psql*
-            (psql:query (:insert-into 'interest :set 'id id 'oid oid))
+            (psql:query (:insert-into 'interest :set 'tid tid 'oid oid
+                                      'ip (htt:header-in* "X-Forwarded-For")
+                                      'ts (:select 'current-timestamp)))
             "OK")
           (abort-request htt:+http-bad-request+))
       (abort-request htt:+http-method-not-allowed+)))
@@ -247,8 +250,9 @@
                        (who:str (slice @rec.citations 0 (lt it)))
                        (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
                                       pmid)
-                           :onclick (fmt "return track_interest(~A,~A)"
-                                         match-id @rec.id)
+                           :target "_blank"
+                           :onclick (fmt "return track_interest(~A~A,~A~A)"
+                                         type match-id type @rec.id)
                            (who:fmt "~A" pmid))
                        (when (rt it)
                          (who:str (slice @rec.citations (rt it)))))))
