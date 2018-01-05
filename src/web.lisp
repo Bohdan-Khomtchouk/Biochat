@@ -231,9 +231,9 @@
                          :onclick (fmt "return track_interest(~A,~A)"
                                        match-id @rec.id)
                          (who:fmt "PMID ~A" @rec.citations))))
-                   ((let ((pmid-pos (search "PMID" @rec.citations))
-                          (pmid-beg (position-if 'digit-char-p @rec.citations
-                                                 :start (+ (or pmid-pos 0) 4))))
+                   ((with ((pmid-pos (search "PMID" @rec.citations))
+                           (pmid-beg (position-if 'digit-char-p @rec.citations
+                                                  :start (+ (or pmid-pos 0) 4))))
                       (when (and pmid-pos
                                  pmid-beg
                                  (not (some 'alpha-char-p (slice @rec.citations
