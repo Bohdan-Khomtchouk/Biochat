@@ -67,7 +67,7 @@ function track_interest (base_id, other_id) {
     if (base_id != other_id)
         $.ajax({
             type: 'PUT',
-            url: '/interest?id=' + base_id + 'oid=' other_id
+            url: '/interest?id=' + base_id + '&oid=' + other_id
         });
     return false;
 }
