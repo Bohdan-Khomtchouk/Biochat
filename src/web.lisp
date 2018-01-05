@@ -227,8 +227,9 @@
                  (:br)
                  (:span :class "grey" "Citations: ")
                  (let ((onclick (if match-id
-                                    (fmt "return track_interest('~A~A', '~A~A')"
-                                         type match-id type @rec.id)
+                                    (fmt
+                                     "return track_interest(\"~A~A\", \"~A~A\")"
+                                     type match-id type @rec.id)
                                     "")))
                    (cond-it
                      ((numberp (ignore-errors (parse-integer @rec.citations)))
