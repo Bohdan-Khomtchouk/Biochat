@@ -10,10 +10,11 @@
   :description
   "A system to pair, organize, and group together different biological datasets."
   :depends-on (#:rutilsx #:drakma #:cl-ppcre #:eager-future2
-                         #:yason #:crawlik #:hunchentoot #:cl-who
-                         #:mgl-mat #:cl-nlp #:cl-nlp-contrib
-                         #:lparallel
-                         #+dev #:should-test)
+               #:yason #:crawlik #:hunchentoot #:cl-who
+               #:mgl-mat #:cl-nlp #:cl-nlp-contrib
+               #:lparallel
+               #:postmodern
+               #+dev #:should-test)
   :components
   ((:module #:src
     :serial t
@@ -29,4 +30,5 @@
                    (:file "doc2vec")
                    (:file "user")
                    (:file "filter")))
+     (:file "db")
      (:file "web")))))

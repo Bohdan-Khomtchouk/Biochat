@@ -7,7 +7,8 @@
   (:use :cl :rutilsx :hunch)
   (:local-nicknames (#:re #:cl-ppcre)
                     (#:fut #:eager-future2)
-                    (#:mat #:mgl-mat))
+                    (#:mat #:mgl-mat)
+                    (#:psql #:postmodern))
   (:export ))
 
 (in-package :b42)

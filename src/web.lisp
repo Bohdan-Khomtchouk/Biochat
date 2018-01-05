@@ -173,7 +173,9 @@
                                                            @rec.libstrats it)
                                                           t))
                                                   (:microarrayp
-                                                   @rec.microarrayp)
+                                                   (if @it.microarrayp
+                                                       @rec.microarrayp
+                                                       t))
                                                   (otherwise
                                                    (or (string= @rec.organism
                                                                 filter)
@@ -188,12 +190,23 @@
                                 :in (find-closest-recs it count
                                                        :methods methods
                                                        :filters filters) :do
-                            (who:htm (:li (who:str (format-geo-rec type r m s))))))))
+                            (who:htm (:li (who:str (format-geo-rec
+                                                    type r m s @it.id))))))))
                  (not-found))))))
+
+(url "/interest" ((id :parameter-type 'integer)
+                  (oid :parameter-type 'integer))
+  (if (eql :PUT (htt:request-method*))
+      (if (and id oid (/= id oid))
+          (psql:with-connection *psql*
+            (psql:query (:insert-into 'interest :set 'id id 'oid oid))
+            "OK")
+          (abort-request htt:+http-bad-request+))
+      (abort-request htt:+http-method-not-allowed+)))
 
 ;;; utils
 
-(defun format-geo-rec (type rec &optional method score)
+(defun format-geo-rec (type rec &optional method score match-id)
   (who:with-html-output-to-string (out)
     (:div :class "geo-rec"
           (:div (who:fmt "GEO # ~A~A - ~A (~A)~@[ / ~A~]~@[: ~A~]"
@@ -210,18 +223,48 @@
            (:div (:span :class "grey" "Platform: ") (who:str @rec.platform)
                  (:br)
                  (:span :class "grey" "Citations: ")
-                 (if (numberp (ignore-errors (parse-integer @rec.citations)))
-                     (who:htm
-                      (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
-                                     @rec.citations)
-                          (who:fmt "PMID ~A" @rec.citations)))
-                     (who:str @rec.citations))
+                 (cond-it
+                   ((numberp (ignore-errors (parse-integer @rec.citations)))
+                    (who:htm
+                     (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
+                                    @rec.citations)
+                         :onclick (fmt "return track_interest(~A,~A)"
+                                       match-id @rec.id)
+                         (who:fmt "PMID ~A" @rec.citations))))
+                   ((let ((pmid-pos (search "PMID" @rec.citations))
+                          (pmid-beg (position-if 'digit-char-p @rec.citations
+                                                 :start (+ (or pmid-pos 0) 4))))
+                      (when (and pmid-pos
+                                 pmid-beg
+                                 (not (some 'alpha-char-p (slice @rec.citations
+                                                                 (+ pmid-pos 4)
+                                                                 pmid-beg))))
+                        (pair pmid-beg
+                              (position-if-not 'digit-char-p @rec.citations
+                                               :start pmid-beg))))
+                    (let ((pmid (apply 'slice @rec.citations it)))
+                      (who:htm
+                       (who:str (slice @rec.citations 0 (lt it)))
+                       (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
+                                      pmid)
+                           :onclick (fmt "return track_interest(~A,~A)"
+                                         match-id @rec.id)
+                           (who:fmt "~A" pmid))
+                       (when (rt it)
+                         (who:str (slice @rec.citations (rt it)))))))
+                              
+                   (t
+                    (who:str @rec.citations)))
                  (when-it @rec.libstrats
                    (who:htm
                     (:br)
                     (:span :class "grey" "Library strategies: ")
                     (dolist (libstrat it)
-                      (who:fmt "~(~A~) " (symbol-name libstrat))))))))))
+                      (who:fmt "~(~A~) " (symbol-name libstrat)))))
+                 (when-it @rec.microarrayp
+                   (who:htm
+                    (:br)
+                    (:span :class "blue" "Microarray"))))))))
 
 (defun find-closest-recs (rec count &key
                                       (methods (mapcar 'first *geo-sim-methods*))
@@ -253,4 +296,3 @@
                                                '(tfidf-sim bm25-sim)))))
                         :key 'lt)
                        '> :key (=> rt lt))))))
-                 
