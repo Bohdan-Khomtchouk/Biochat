@@ -17,7 +17,7 @@
 
 (defmethod print-object ((obj interest) stream)
   (format stream "#<DAO:INTEREST TID=~A OID=~A TS=~A IP=~A>"
-          @obj.tid @obj.oid @obj.ts @obj.ip))
+          @obj.tid @obj.oid (local-time:universal-to-timestamp @obj.ts) @obj.ip))
 
 #+initially
 (psql:with-connection *psql*

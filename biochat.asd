@@ -13,7 +13,7 @@
                #:yason #:crawlik #:hunchentoot #:cl-who
                #:mgl-mat #:cl-nlp #:cl-nlp-contrib
                #:lparallel
-               #:postmodern
+               #:postmodern #:local-time
                #+dev #:should-test)
   :components
   ((:module #:src
