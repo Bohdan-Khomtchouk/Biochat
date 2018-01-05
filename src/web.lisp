@@ -198,7 +198,7 @@
   (:= tid (string-upcase tid))
   (:= oid (string-upcase oid))
   (if (eql :PUT (htt:request-method*))
-      (if (and tid oid (string= tid oid))
+      (if (and tid oid (not (string= tid oid)))
           (psql:with-connection *psql*
             (psql:query (:insert-into 'interest :set 'tid tid 'oid oid
                                       'ip (htt:header-in* "X-Forwarded-For")
@@ -227,9 +227,8 @@
                  (:br)
                  (:span :class "grey" "Citations: ")
                  (let ((onclick (if match-id
-                                    (fmt
-                                     "return track_interest(\"~A~A\", \"~A~A\")"
-                                     type match-id type @rec.id)
+                                    (fmt "track_interest(\"~A~A\", \"~A~A\")"
+                                         type match-id type @rec.id)
                                     "")))
                    (cond-it
                      ((numberp (ignore-errors (parse-integer @rec.citations)))
