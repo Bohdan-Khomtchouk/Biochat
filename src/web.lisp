@@ -203,7 +203,7 @@
                  (not-found))))))
 
 (url "/interest" (tid oid params)
-  (let ((params (yason:parse)))
+  (let ((params (yason:parse params)))
     (dotable (key val params)
       (when (blankp val) (rem# key params)))
     (:= tid (string-upcase tid))
