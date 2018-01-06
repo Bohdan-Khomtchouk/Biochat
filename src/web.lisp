@@ -210,7 +210,7 @@
           (psql:with-connection *psql*
             (psql:query (:insert-into 'interest :set 'tid tid 'oid oid
                                       'ip (htt:header-in* "X-Forwarded-For")
-                                      'params (yason:parse params)))
+                                      'params params))
             "OK")
           (abort-request htt:+http-bad-request+))
       (abort-request htt:+http-method-not-allowed+)))
