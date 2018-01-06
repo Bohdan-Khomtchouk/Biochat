@@ -203,19 +203,21 @@
                  (not-found))))))
 
 (url "/interest" (tid oid params)
-  (dotable (key val params)
-    (when (blankp val) (rem# key params)))
-  (:= tid (string-upcase tid))
-  (:= oid (string-upcase oid))
-  (if (eql :PUT (htt:request-method*))
-      (if (and tid oid (not (string= tid oid)))
-          (psql:with-connection *psql*
-            (psql:query (:insert-into 'interest :set 'tid tid 'oid oid
-                                      'ip (htt:header-in* "X-Forwarded-For")
-                                      'params params))
-            "OK")
-          (abort-request htt:+http-bad-request+))
-      (abort-request htt:+http-method-not-allowed+)))
+  (let ((params (yason:parse)))
+    (dotable (key val params)
+      (when (blankp val) (rem# key params)))
+    (:= tid (string-upcase tid))
+    (:= oid (string-upcase oid))
+    (if (eql :PUT (htt:request-method*))
+        (if (and tid oid (not (string= tid oid)))
+            (psql:with-connection *psql*
+              (psql:query (:insert-into 'interest :set 'tid tid 'oid oid
+                                        'ip (htt:header-in* "X-Forwarded-For")
+                                        'params (json:encode-json-to-string
+                                                 params)))
+              "OK")
+            (abort-request htt:+http-bad-request+))
+        (abort-request htt:+http-method-not-allowed+))))
 
 ;;; utils
 
