@@ -139,15 +139,13 @@
                (same-histone (? *geo-same-histones* type))
                (methods (mapcar ^(mksym % :package :b42)
                                 (split #\, sim-methods :remove-empty-subseqs t)))
-               (libstrats (mapcar 'mkeyw (split #\, sim-libstrats
-                                                :remove-empty-subseqs t)))
                (filters (or (mapcar 'mkeyw (split #\, sim-filters
                                                   :remove-empty-subseqs t))
-                            (when (member :microarray libstrats)
-                              (list :microarrayp))
                             (append (split #\, sim-organisms
                                            :remove-empty-subseqs t)
-                                    libstrats))))
+                                    (mapcar 'mkeyw
+                                            (split #\, sim-libstrats
+                                                   :remove-empty-subseqs t))))))
           (if-it (find id db :key 'gr-id)
                  (who:with-html-output-to-string (out)
                    (:div "Requested record:")
@@ -181,7 +179,10 @@
                                                    (or (string= @rec.organism
                                                                 filter)
                                                        (member filter
-                                                               @rec.libstrats)))))
+                                                               @rec.libstrats)
+                                                       (and (eql :microarray
+                                                                 filter)
+                                                            @rec.microarrayp)))))
                                               filters)
                                     (push rec db)
                                     (push (? *geo-vecs* i) vecs))))

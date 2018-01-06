@@ -10,7 +10,7 @@
   :description
   "A system to pair, organize, and group together different biological datasets."
   :depends-on (#:rutilsx #:drakma #:cl-ppcre #:eager-future2
-               #:yason #:crawlik #:hunchentoot #:cl-who
+               #:yason #:cl-json #:crawlik #:hunchentoot #:cl-who
                #:mgl-mat #:cl-nlp #:cl-nlp-contrib
                #:lparallel
                #:postmodern #:local-time
