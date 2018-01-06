@@ -203,6 +203,8 @@
                  (not-found))))))
 
 (url "/interest" (tid oid params)
+  (dotable (key val params)
+    (when (blankp val) (rem# key params)))
   (:= tid (string-upcase tid))
   (:= oid (string-upcase oid))
   (if (eql :PUT (htt:request-method*))
