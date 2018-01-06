@@ -261,7 +261,7 @@
                    (who:htm
                     (:br)
                     (:span :class "grey" "Sequencing type: ")
-                    (who:str (if @rec.microarrayp "microarray" "other"))
+                    (who:str (if @rec.microarrayp "microarray" "other")))
                    (when-it @rec.libstrats
                      (who:htm
                       (:br)
