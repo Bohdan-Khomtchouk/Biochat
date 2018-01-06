@@ -69,7 +69,7 @@ function track_interest (this_id, other_id, params) {
             type: 'PUT',
             url: '/interest?tid=' + this_id
                 + '&oid=' + other_id
-                + '&params=' + json.stringify(params)
+                + '&params=' + JSON.stringify(params)
         });
     return false;
 }
