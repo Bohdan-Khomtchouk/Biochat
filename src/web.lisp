@@ -20,7 +20,7 @@
   '((:histone "Histone")
     (:organism "Same organism")
     (:libstrats "Same library strategy")
-    (:microarrayp "Only microarray experiments")))
+    (:microarrayp "Same sequencing type")))
 
 (defvar *search-cache* #h(equalp))
 
@@ -173,9 +173,8 @@
                                                            @rec.libstrats it)
                                                           t))
                                                   (:microarrayp
-                                                   (if @it.microarrayp
-                                                       @rec.microarrayp
-                                                       t))
+                                                   (eql @it.microarrayp
+                                                        @rec.microarrayp))
                                                   (otherwise
                                                    (or (string= @rec.organism
                                                                 filter)
@@ -259,16 +258,16 @@
                            (who:str (slice @rec.citations (rt it)))))))
                      (t
                       (who:str @rec.citations)))
+                   (who:htm
+                    (:br)
+                    (:span :class "grey" "Sequencing type: ")
+                    (who:str (if @rec.microarrayp "microarray" "other"))
                    (when-it @rec.libstrats
                      (who:htm
                       (:br)
                       (:span :class "grey" "Library strategies: ")
                       (dolist (libstrat it)
-                        (who:fmt "~(~A~) " (symbol-name libstrat)))))
-                   (when-it @rec.microarrayp
-                     (who:htm
-                      (:br)
-                      (:span :class "blue" "Microarray")))))))))
+                        (who:fmt "~(~A~) " (symbol-name libstrat)))))))))))
   
 (defun find-closest-recs (rec count &key
                                       (methods (mapcar 'first *geo-sim-methods*))
