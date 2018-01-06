@@ -34,7 +34,7 @@
     (defvar *tf* tf)
     (defvar *idf* idf)))
 
-(defvar *geo-libstrats* (keys (all-libstrats)))
+(defvar *geo-libstrats* (cons :microarray (keys (all-libstrats))))
 
 ;;; auto-update
 

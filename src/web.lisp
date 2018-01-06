@@ -139,13 +139,15 @@
                (same-histone (? *geo-same-histones* type))
                (methods (mapcar ^(mksym % :package :b42)
                                 (split #\, sim-methods :remove-empty-subseqs t)))
+               (libstrats (mapcar 'mkeyw (split #\, sim-libstrats
+                                                :remove-empty-subseqs t)))
                (filters (or (mapcar 'mkeyw (split #\, sim-filters
                                                   :remove-empty-subseqs t))
+                            (when (member :microarray libstrats)
+                              (list :microarrayp))
                             (append (split #\, sim-organisms
                                            :remove-empty-subseqs t)
-                                    (mapcar 'mkeyw
-                                            (split #\, sim-libstrats
-                                                   :remove-empty-subseqs t))))))
+                                    libstrats))))
           (if-it (find id db :key 'gr-id)
                  (who:with-html-output-to-string (out)
                    (:div "Requested record:")
@@ -190,10 +192,16 @@
                                                        :methods methods
                                                        :filters filters) :do
                             (who:htm (:li (who:str (format-geo-rec
-                                                    type r m s @it.id))))))))
+                                                    type r m s
+                                                    #h(:score s
+                                                       :methods sim-methods
+                                                       :filters sim-filters
+                                                       :organisms sim-organisms
+                                                       :libstrats sim-libstrats)
+                                                    @it.id))))))))
                  (not-found))))))
 
-(url "/interest" (tid oid)
+(url "/interest" (tid oid params)
   (:= tid (string-upcase tid))
   (:= oid (string-upcase oid))
   (if (eql :PUT (htt:request-method*))
@@ -201,14 +209,14 @@
           (psql:with-connection *psql*
             (psql:query (:insert-into 'interest :set 'tid tid 'oid oid
                                       'ip (htt:header-in* "X-Forwarded-For")
-                                      'ts (:select 'current-timestamp)))
+                                      'params (yason:parse params)))
             "OK")
           (abort-request htt:+http-bad-request+))
       (abort-request htt:+http-method-not-allowed+)))
 
 ;;; utils
 
-(defun format-geo-rec (type rec &optional method score match-id)
+(defun format-geo-rec (type rec &optional method score params match-id)
   (who:with-html-output-to-string (out)
     (:div :class "geo-rec"
           (:div (who:fmt "GEO # ~A~A - ~A (~A)~@[ / ~A~]~@[: ~A~]"
@@ -226,8 +234,9 @@
                  (:br)
                  (:span :class "grey" "Citations: ")
                  (let ((onclick (if match-id
-                                    (fmt "track_interest(\"~A~A\", \"~A~A\")"
-                                         type match-id type @rec.id)
+                                    (fmt "track_interest(\"~A~A\", \"~A~A\", ~A)"
+                                         type match-id type @rec.id
+                                         (json:encode-json-to-string params))
                                     "")))
                    (cond-it
                      ((numberp (ignore-errors (parse-integer @rec.citations)))
