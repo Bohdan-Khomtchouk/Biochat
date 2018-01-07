@@ -120,7 +120,7 @@
                 (write-line (princ-to-string v) out)
                 (terpri out)))
             (when (:= (? it :microarrayp) (scrape-microarrayp (? it :platform)))
-              (format out "MICROARRAYP~%T~%~%"))
+              (format out-file "MICROARRAYP~%T~%~%"))
             (with ((rec (load-geo out-file))  ; TODO: add libstrats
                    (vec (geo-vec rec)))
               (switch (type :test 'string=)
