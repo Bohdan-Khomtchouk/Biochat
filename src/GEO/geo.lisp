@@ -118,9 +118,9 @@
               (dotable (k v it)
                 (write-line (princ-to-string k) out)
                 (write-line (princ-to-string v) out)
-                (terpri out)))
-            (when (:= (? it :microarrayp) (scrape-microarrayp (? it :platform)))
-              (format out-file "MICROARRAYP~%T~%~%"))
+                (terpri out))
+              (when (:= (? it :microarrayp) (scrape-microarrayp (? it :platform)))
+                (format out "MICROARRAYP~%T~%~%")))
             (with ((rec (load-geo out-file))  ; TODO: add libstrats
                    (vec (geo-vec rec)))
               (switch (type :test 'string=)

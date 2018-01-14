@@ -1,0 +1,20 @@
+TITLE
+Selection of well-tolerated GalNAc-conjugated siRNAs by screening for RNAi-mediated off-target effects in rodent toxicity studies
+
+ORGANISM
+Rattus norvegicus
+
+SUMMARY
+Small interfering RNAs (siRNAs) conjugated to a trivalent N-acetylgalactosamine (GalNAc) ligand are being evaluated in investigational clinical studies for a variety of indications. The typical development candidate selection process includes evaluation of the most active compounds for toxicity in rats at pharmacologically-exaggerated doses. The subset of GalNAc-siRNAs that show rat hepatotoxicity is not advanced to clinical development.  Potential mechanisms of hepatotoxicity include toxicities associated with the intracellular accumulation of oligonucleotides and their metabolites, RNA interference (RNAi)-mediated hybridization-based off-target effects, and/or perturbation of endogenous RNAi pathways. Here we show that rodent hepatotoxicity observed at supratherapeutic exposures can be largely attributed to RNAi-mediated off-target effects, but not chemical modifications or the perturbation of RNAi pathways. Furthermore, these off-target effects can be mitigated by modulating seed-pairing using a thermally destabilizing chemical modification, which significantly improves the safety profile of a GalNAc-siRNA in rat and may minimize the occurrence of hepatotoxic siRNAs across species.
+
+DESIGN
+RNASeq analysis of hepatotoxicity Rat livers were collected 24 h post-50 mg/kg single dose of GalNAc-siRNAs and snap-frozen. Rat hepatocytes (BioreclamationIVT) were transfected with 10 nM GalNAc-siRNAs using Lipofectamine RNAiMAX (Thermo Fisher Scientific) according to manufacturer’s instructions, and harvested 24 h post-transfection. Rat hepatocytes were not tested for mycoplasma contamination. RNA extracted with the miRNeasy kit (Qiagen) was used for cDNA library preparation with the TruSeq Stranded Total RNA Library Prep Kit (Illumina) and sequenced on the HiSeq or NextSeq500 sequencers (Illumina), all according to manufacturers’ instructions. Raw RNAseq reads were filtered with minimal mean quality scores of 25 and minimal remaining length of 36, using fastq-mcf. Filtered reads were aligned to the Rattus norvegicus genome (Rnor_6.0) using STAR (ultrafast universal RNA-seq aligner) with default parameters. Uniquely aligned reads were counted by featureCounts. Differential gene expression analysis was performed by the R package DESeq2.The open source DESeq2 R package was used for the RNAseq data analysis.
+
+PLATFORM
+GPL18694 Illumina HiSeq 2500 (Rattus norvegicus) GPL20084 Illumina NextSeq 500 (Rattus norvegicus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
+LIBSTRATS
+:RNA-SEQ

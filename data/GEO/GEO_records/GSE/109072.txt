@@ -1,0 +1,18 @@
+TITLE
+Toxicogenomics of the flame retardant tris (2-butoxyethyl) phosphate in HepG2 cells using RNA-seq.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Tris (2-butoxyethyl) phosphate (TBOEP) is a compound produced at high volume that is used as both a flame retardant and a plasticizer. It is persistent and bioaccumulative, yet little is known of its toxicological modes of action. Such insight may aid risk assessment in a weight-of-evidence approach supplementing current testing strategies. We used an RNA sequencing approach as an unbiased and sensitive tool to explore potential negative health effects of sub-cytotoxic concentrations of TBOEP on the transcriptome of the human liver hepatocellular carcinoma cell line, HepG2, with the lowest concentration used potentially holding relevance to human physiological levels. Over-representation and gene set enrichment analysis corresponded well and revealed that TBOEP treatments resulted in an upregulation of genes involved in protein and energy metabolism, along with DNA replication. Such increases in cell and macromolecule metabolism could explain the increase in mitochondrial activity at lower TBOEP concentrations. In addition, TBOEP affected a wide variety of biological processes, the most notable one being the general stress response, wound healing. Finally, TBOEP showed effects on steroid hormone biosynthesis and activation, regulation, and potentiation of immune responses, in agreement with other studies. As such, this study is the first study investigating genome-wide changes in gene transcription in response to TBOEP in human cells.
+
+DESIGN
+HepG2 cells were treated with low (2.5 uM) or high (125 uM) concentrations of Tris (2-butoxyethyl) phosphate (TBOEP) in 0.1% DMSO. For control purposes cells were exposed to 0.1% DMSO alone. Treatment lasted for 72 hours. All treatments were conducted in triplicates, involving separate seeding of cells. RNA was isolated with Trizol (Invitrogen, USA) and RNeasy Kit (Qiagen, GER). Libraries were prepared with the TruSeq Stranded mRNA Sample Preparation Kit (Illumina, USA). 50bp long paired-ends reads were sequenced using the HiSeq(R) 1500 platform (Illumina, USA). Alignement to the UCSC hg19 assembly of the human genome, mapping and annotation was performed with CLC Genomics Workbench (CLC Bio, DEN). Samples were normalised by quantile normalisation. Differential expression p-values were generated using Baggerly's test statistic. These p-values were subsequently corrected with the Benjamini-Hochberg procedure to limit the false discovery rate (FDR) to 5% of the significant genes .
+
+PLATFORM
+GPL18460 Illumina HiSeq 1500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
