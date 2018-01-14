@@ -1,0 +1,20 @@
+TITLE
+Role of SUMOylation in differential ERα transcriptional repression by SERMs and pure antiestrogens in breast cancer cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+RNA-seq: Gene expression profiling in MCF-7 cells treated with vehicle (0), estradiol (E2), the Selective ER Modulator 4-hydroxytamoxifen (OHT), or the pure antiestrogen fulvestrant (ICI). ChIP-seq: Genome-wide DNA binding profile of ERα and SUMO2/3 in MCF-7 cells treated with vehicle, E2 or ICI.
+
+DESIGN
+RNA-seq: MCF-7 cells cultured in estrogen-depleted media were treated with vehicle, 5 nM E2, 100 nM OHT or 100 nM ICI for 16 h. Fold-Change of mRNA levels compared to vehicle was determined for each treatment condition (3 biological replicates for each). ChIP-seq: MCF-7 cells cultured in estrogen-depleted media were treated with vehicle, 5 nM E2 or 100 nM ICI for 30 min or 3 h. ChIP-seq with an antibody for ERα (Santa Cruz Biotechnology sc-543) was performed, and ERα peaks were called for each condition (3 biological replicates) relative to the corresponding input samples. MCF-7 cells cultured in estrogen-depleted media were treated with vehicle or 100 nM ICI for 30 min or 3 h. ChIP-seq with an antibody for SUMO2/3 (Cedarlane M114-3) was performed, and SUMO2/3 peaks were called for each condition (2 biological replicates) relative to the corresponding input samples.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
+LIBSTRATS
+:CHIP-SEQ :RNA-SEQ

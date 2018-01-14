@@ -1,0 +1,18 @@
+TITLE
+High Throughput sequencing of NLRC4-T337S/T337S and WT mouse duodenal epithelium
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Purpose: Nlrc4-T337S mice have shown phenotypic differences in their intenstinal epithelia. The goal of this experiment was to determine the differences at the level of transcription between Nlrc4-T337S mice and WT in order to identify further areas of inquiry. Methods: Pooled cDNA libraries were sequenced on Illumina HiSeq 2000 platform, mapped to mm9 using Tophat v2.1, and quantified using Partek GSv6.6 software. Reads were converted to TPM and a 0.5 TPM offset added to all transcripts. Non-coding genes and genes with no sample > 1 TPM were removed Results: Using tophat/2.1.0, we mapped about 50 million sequence reads per sample to the mouse genome (build mm9) and identified 22986 transcripts in the intestines of WT and Nlrc4-T337S mice. Compared to WT IECs, Nlrc4-T337S had a 17-fold increase in Ubd, as well as increases in multiple genes that were identified as part of the MHC-II antigen presentation pathway. Conclusions: Our study found that Nlrc4-T337S IECs have a different RNA-profile than WT mice caused by their point mutation, which led to the discovery of increased proliferation of Nlrc4-T337S IECs as well as increased MHC-II expression.
+
+DESIGN
+Duodenal intestinal epithelial cells (IECs) mRNA profiles of 6-week old wild type (WT) and Nlrc4-T337S mice were generated using Illumina Hiseq 2000.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

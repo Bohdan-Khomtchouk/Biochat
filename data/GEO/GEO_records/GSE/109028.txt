@@ -1,0 +1,18 @@
+TITLE
+RNAseq analyze global transcriptome of changes between siIRF3 and siYAP in Gastric cancer cells
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: To investigate the signal crosstalk between IRF3 and YAP, RNA-sequencing (RNA-seq) was performed to analyze the genome-wide changes by the knockdown of IRF3 or YAP in HGC-27 cells. Methods: Total RNA was extracted from HGC-27 cell after transfection with negative control siRNA (n.c.), IRF3 siRNA (siIRF3) or YAP siRNA (siYAP). Then total RNA was quality controlled and quantified using an Agilent 2100 Bioanalyzer. After converting to cDNA and building library, high-throughput sequencing was performed using the Illumina  HiSeq 2500 platform. Results: Approximately approximately one thousand transcripts showed differential expression between the siIRF3/siYAP and n.c., with a Fold-change > =2 and q-value < = 0.05. Gene ontology (GO) and gene set enrichment analysis (GSEA) showed a significant negative enrichment of YAP target genes identified by three independent studies in IRF3-knockdown condition. Conclusions: We conclude that RNA-seq based transcriptome characterization would provide a framework for understanding the signal crosstalk between IRF3 and YAP.
+
+DESIGN
+RNA was extracted from HGC-27 cells transfected with siRNAs for 48 h. The quality assessed on the Agilent 2100 and sequencing on the Illumina Hiseq2500.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
