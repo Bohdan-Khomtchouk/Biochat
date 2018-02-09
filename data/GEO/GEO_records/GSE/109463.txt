@@ -1,0 +1,18 @@
+TITLE
+A toxicogenomics approach to screen chlorinated flame retardants tris(2-chloroethyl) phosphate and tris(2-chloroisopropyl) phosphate for potential health effects
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Tris(2-chloroethyl) phosphate (TCEP) is a pervasive flame retardant that has been identified as a chemical of concern given its health effects and therefore its use has since been tightly regulated. Tris(2-chloroisopropyl) phosphate (TCIPP), an analogue of TCEP, is believed to be its replacement. However, compared to TCEP, little is known of the toxicological impacts of TCIPP. We used RNA sequencing as unbiased and sensitive tool to identify and compare effects on a transcriptome level of TCEP and TCIPP in the human hepatocellular carcinoma cell line, HepG2. We identified that compared to other flame retardants, TCEP and TCIPP had little cytotoxicity. Treatment with sub-cytotoxic concentrations of the two compounds revealed that both chemicals elicited similar effects; both compounds were found to affect genes involved in immune responses and steroid hormone biosynthesis, while also affecting xenobiotic metabolism pathways in a similar manner. Specifically for effects on immune responses, both compounds were shown to alter the expression of the receptor of the potent and pleiotropic complement component, C5a. Additionally, expression of genes encoding for effector proteins involved in the complement cascade along with other potent inflammatory regulators were found altered in response to TCEP and TCIPP, further emphasizing their potential effects on immune function. Taken together, given that TCIPP elicited similar effects compared to TCEP, and at lower concentrations, the potential health effects of TCIPP need to be further studied for a complete risk assessment of the compound.
+
+DESIGN
+HepG2 cells were treated with low (25 uM) or high (250 uM) concentrations of tris(2-chloroethyl) phosphate (TCEP), low (2.5 uM) or high (25 uM) concentrations of tris(2-chloroisopropyl) phosphate (TCIPP). For control purposes, cells were exposed to 0.1% DMSO alone. Treatment lasted for 72 hours. Treatments were done in triplicate for each condition involving separate cell seeding, cell growth, treatments and RNA extractions per triplicate. RNA was isolated with Trizol (Invitrogen, USA) and RNeasy Kit (Qiagen, GER). Libraries were prepared with the TruSeq Stranded mRNA Sample Preparation Kit (Illumina, USA). 50bp long paired-ends reads were sequenced using the HiSeq(R) 1500 platform (Illumina, USA). Alignment, mapping and annotation of sequenced reads were performed using the CLC Genomics Workbench (CLC Bio, Aarhus, Denmark). Samples were normalized by quantile normalization before being mapped and annotated using the human reference hg19 genome.
+
+PLATFORM
+GPL18460 Illumina HiSeq 1500 (Homo sapiens)
+
+CITATIONS
+29143341
+

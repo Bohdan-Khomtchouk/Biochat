@@ -1,0 +1,20 @@
+TITLE
+Antibody-Mediated Inhibition of MICA/B Shedding Promotes NK Cell-Driven Tumor Immunity
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+MICA and MICB (MICA/B) are expressed by many human cancers due to cellular stress and tag cells for elimination by cytotoxic lymphocytes through NKG2D receptor activation.  However, tumors evade this immune recognition pathway through proteolytic shedding of MICA/B proteins.  We rationally designed antibodies targeting the MICA α3 domain, the site of proteolytic shedding, and found that these antibodies prevented loss of cell surface MICA/B by human cancer cells.  These antibodies inhibited tumor growth in multiple fully immuno-competent mouse models and also reduced human melanoma metastases in a humanized mouse model.  Anti-tumor immunity was mediated mainly by NK cells through activation of NKG2D and CD16 Fc receptors.  This novel approach prevents the loss of important immunostimulatory ligands by human cancers and reactivates antitumor immunity.
+
+DESIGN
+[LFDA] Human NK cells were isolated from a healthy volunteer to ~99% purity. These cells were pre-activated with 1,000 U/ml IL-2 overnight. A375 tumor cells were pre-treated with 10 ug/ml of 7C6-hIgG1 or isotype control (BioXcell BE0096) antibodies for 48 hours. Cells were then washed and NK cells were co-cultured with tumor cells for 6 hours in a 5 : 1 ratio. Subsequently, human NK cells were re-sorted and total RNA isolated with genomic DNA digestion with QIAGEN RNeasy RNA isolation kit (74134).  RNA sequencing libraries were generated using the Kapa mRNAseq kit (KapaBiosystems). [Single Cell RNA-seq] Lung-infiltrated NK cells from mice inoculated intravenously with B16F10-MICA cells (day 0) and treated with isotype control or MICA antibody clone clone 7C6-mIgG2a on days 1 and 2. Analysis on day 7.
+
+PLATFORM
+GPL17021 Illumina HiSeq 2500 (Mus musculus) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
+LIBSTRATS
+:RNA-SEQ

@@ -1,0 +1,18 @@
+TITLE
+RNAseq comparison of HSV-1 KOS vs n199 infected cells
+
+ORGANISM
+Homo sapiens ; Human alphaherpesvirus 1
+
+SUMMARY
+The abundance of HSV mRNAs was determines over 16h of infection in wt (KOS) and n199 (ICP22 mutant) infected cells.  ICP22 is an immediate early gene of HSV that affects gene expression
+
+DESIGN
+2 X 10E6 MRC5 cells were infected at an MOI of 10 PFU/cell.  mRNA was isolated at different times post infection using Ambion RNaqueous-4PCR kit  and quantified using an Agilent Eukaryotic RNA Nano kit and a 2100 bioanalyzer.  Individual samples each with unit barcodes were quantified using an Agilent DNA 7500 chip an a 2100 bioanalyzer.  Pooled multiplexed samples were sequenced at the Tufts University Genomics facility.  The demulitplexed sequence read files were mapped to the HSV strain KOS genome and quantified using CLC Genomics Workbench.
+
+PLATFORM
+GPL23890 Illumina HiSeq 2500 (Homo sapiens; Human alphaherpesvirus 1)
+
+CITATIONS
+28611249
+

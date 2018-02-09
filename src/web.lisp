@@ -19,8 +19,7 @@
 (defparameter *geo-sim-filters*
   '((:histone "Histone")
     (:organism "Same organism")
-    (:libstrats "Same library strategy")
-    (:microarrayp "Same sequencing type")))
+    (:libstrats "Same sequencing type")))
 
 (defvar *search-cache* #h(equalp))
 
@@ -130,26 +129,20 @@
         (not-found)
         (with ((type (mkeyw (slice gid 0 3)))
                (id (parse-integer (slice gid 3) :junk-allowed t))
-               (db (case type
-                     (:gds *gds*)
-                     (:gse *gse*)))
-               (vecs (case type
-                       (:gds *gds-vecs*)
-                       (:gse *gse-vecs*)))
+               (db *geo-db*)
+               (vecs *geo-vecs*)
                (same-histone (? *geo-same-histones* type))
                (methods (mapcar ^(mksym % :package :b42)
                                 (split #\, sim-methods :remove-empty-subseqs t)))
-               (filters (or (mapcar 'mkeyw (split #\, sim-filters
-                                                  :remove-empty-subseqs t))
-                            (append (split #\, sim-organisms
-                                           :remove-empty-subseqs t)
-                                    (mapcar 'mkeyw
-                                            (split #\, sim-libstrats
-                                                   :remove-empty-subseqs t))))))
+               (sim-filters (mapcar 'mkeyw (split #\, sim-filters
+                                                  :remove-empty-subseqs t)))
+               (org-filters (split #\, sim-organisms :remove-empty-subseqs t))
+               (str-filters (mapcar 'mkeyw (split #\, sim-libstrats
+                                                  :remove-empty-subseqs t))))
           (if-it (find id db :key 'gr-id)
                  (who:with-html-output-to-string (out)
                    (:div "Requested record:")
-                   (who:str (format-geo-rec type it))
+                   (who:str (format-geo-rec it))
                    (:hr)
                    (:div "Closest records:")
                    (:ol (let ((*geo-db* db)
@@ -157,34 +150,13 @@
                           (when filters
                             (let (db vecs)
                               (dotimes (i (length *geo-db*))
-                                (let ((rec (? *geo-db* i)))
-                                  (when (some (lambda (filter)
-                                                (case filter
-                                                  (:histone
-                                                   (if-it (? same-histone it)
-                                                          (member rec it)
-                                                          t))
-                                                  (:organism
-                                                   (string= @rec.organism
-                                                            @it.organism))
-                                                  (:libstrats
-                                                   (if-it @it.libstrats
-                                                          (intersection
-                                                           @rec.libstrats it)
-                                                          t))
-                                                  (:microarrayp
-                                                   (eql @it.microarrayp
-                                                        @rec.microarrayp))
-                                                  (otherwise
-                                                   (or (string= @rec.organism
-                                                                filter)
-                                                       (member filter
-                                                               @rec.libstrats)
-                                                       (and (eql :microarray
-                                                                 filter)
-                                                            @rec.microarrayp)))))
-                                              filters)
-                                    (push rec db)
+                                (let ((cand (? *geo-db* i)))
+                                  (when (match-records it cand
+                                                       sim-filters
+                                                       org-filters
+                                                       str-filters
+                                                       same-histone-recs)
+                                    (push cand db)
                                     (push (? *geo-vecs* i) vecs))))
                               (:= *geo-db* (coerce db 'vector))
                               (:= *geo-vecs* (coerce vecs 'vector))))
@@ -193,7 +165,7 @@
                                                        :methods methods
                                                        :filters filters) :do
                             (who:htm (:li (who:str (format-geo-rec
-                                                    type r m s
+                                                    r m s
                                                     #h(:score s
                                                        :methods sim-methods
                                                        :filters sim-filters
@@ -221,11 +193,11 @@
 
 ;;; utils
 
-(defun format-geo-rec (type rec &optional method score params match-id)
+(defun format-geo-rec (rec &optional method score params match-id)
   (who:with-html-output-to-string (out)
     (:div :class "geo-rec"
-          (:div (who:fmt "GEO # ~A~A - ~A (~A)~@[ / ~A~]~@[: ~A~]"
-                         type @rec.id @rec.title @rec.organism
+          (:div (who:fmt "# ~A~A - ~A (~A)~@[ / ~A~]~@[: ~A~]"
+                         @rec.type @rec.id @rec.title @rec.organism
                          (when-it (car (assoc1 method *geo-sim-methods*))
                            (let ((method (strjoin #\Space (take 3 (re:split
                                                                    "\\b" it)))))
@@ -240,7 +212,7 @@
                  (:span :class "grey" "Citations: ")
                  (let ((onclick (if match-id
                                     (fmt "track_interest(\"~A~A\", \"~A~A\", ~A)"
-                                         type match-id type @rec.id
+                                         @rec.type match-id type @rec.id
                                          (json:encode-json-to-string params))
                                     "")))
                    (cond-it
@@ -313,3 +285,26 @@
                                                '(tfidf-sim bm25-sim)))))
                         :key 'lt)
                        '> :key (=> rt lt))))))
+
+(defun match-records (rec cand sim-filters org-filters str-filters
+                      same-histone-recs)
+  (and (every 'true
+              (mapcar ^(case %
+                         (:histone
+                          (if-it (? same-histone-recs rec)
+                                 (member cand it)
+                                 t))
+                         (:organism
+                          (string= @rec.organism @cand.organism))
+                         (:libstrats
+                          (cond (@rec.microarrayp @cand.microarrayp)
+                                (@rec.libstrats (intersection @rec.libstrats
+                                                              @cand.libstrats))
+                                (t (null (or @cand.microarrayp
+                                             @cand.libstrats))))))
+                      sim-filters))
+       (or (null org-filters)
+           (member @cand.organism org-filters :test 'string=))
+       (or (null str-filters)
+           (and (member :microarray str-filters) @cand.microarrayp)
+           (intersection @rec.libstrats str-filters :test 'string-equal))))

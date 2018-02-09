@@ -6,6 +6,7 @@
 
 
 (defstruct (geo-rec (:conc-name gr-))
+  type
   id
   title
   organism
@@ -121,13 +122,13 @@
                 (terpri out))
               (when (:= (? it :microarrayp) (scrape-microarrayp (? it :platform)))
                 (format out "MICROARRAYP~%T~%~%")))
-            (with ((rec (load-geo out-file))  ; TODO: add libstrats
+            (with ((rec (load-geo (mkeyw type) out-file))  ; TODO: add libstrats
                    (vec (geo-vec rec)))
-              (switch (type :test 'string=)
-                ("GDS" (pushx rec *gds*)
-                       (pushx vec *gds-vecs*))
-                ("GSE" (pushx rec *gse*)
-                       (pushx vec *gse-vecs*))))
+              (case (mkeyw type)
+                (:gds (pushx rec *gds*)
+                      (pushx vec *gds-vecs*))
+                (:gse (pushx rec *gse*)
+                      (pushx vec *gse-vecs*))))
             (push (pair @site.id it) rez)
             (:= @site.last-id @site.id)
             (format *debug-io* "~A~A " type @site.id))))
@@ -171,9 +172,10 @@
                                       (fmt "https://www.ncbi.nlm.nih.gov/geo/~
                                            query/acc.cgi?acc=~A" %))))
                             (when-it (search "Library strategy" raw)
-                              (mkeyw (slice (first (re:all-matches-as-strings
-                                                    "<td>([^<]+)" raw :start it))
-                                            #.(length "<td>")))))
+                              (intern (slice (first (re:all-matches-as-strings
+                                                     "<td>([^<]+)" raw :start it))
+                                             #.(length "<td>"))
+                                      :keyword)))
                          (re:all-matches-as-strings
                           "GSM\\d+"
                           (drakma:http-request
@@ -214,9 +216,10 @@
 
 ;;; in-memory storage
 
-(defun load-geo (file)
+(defun load-geo (type file)
   (let ((raw (split #\Newline (read-file file))))
     (make-geo-rec
+     :type type
      :id (parse-integer (pathname-name file))
      :title (? raw (1+ (position "TITLE" raw :test 'string=)))
      :organism (? raw (1+ (position "ORGANISM" raw :test 'string=)))
@@ -228,19 +231,21 @@
                  (? raw (1+ it)))
      :citations (when-it (position "CITATIONS" raw :test 'string=)
                   (? raw (1+ it)))
-     :libstrats (when-it (position "LIBSTRATS" raw :test 'string=)
+     :libstrats (when-it (and (eql :gse type)
+                              (position "LIBSTRATS" raw :test 'string=))
                   (mapcar 'read-from-string (split #\Space (? raw (1+ it))
                                                    :remove-empty-subseqs t)))
-     :microarrayp (when-it (position "MICROARRAYP" raw :test 'string=)
-                    (read-from-string (? raw (1+ it)))))))
+     :microarrayp (or (eql :gds type)
+                      (when-it (position "MICROARRAYP" raw :test 'string=)
+                        (read-from-string (? raw (1+ it))))))))
 
-(defun load-geo-dir (dir)
+(defun load-geo-dir (type dir)
   (format *debug-io* "Loading GEO data from: ~A~%" dir)
   (let ((cc 0)
         rez)
     (dolist (file (directory (strcat dir "*.txt")))
       (when (zerop (rem (:+ cc) 100)) (format *debug-io* "."))
-        (push (load-geo file) rez))
+        (push (load-geo type file) rez))
     (format *debug-io* " done.~%")
     (make-array (length rez) 
                 :initial-contents (reverse rez)

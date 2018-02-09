@@ -1,0 +1,18 @@
+TITLE
+Next-generation RNA-sequencing data of models of Ewing sarcoma with modulated expression of the lncRNA HOTAIR
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Our experimental results demonstrate an essential role for the lncRNA HOTAIR in Ewing sarcoma. We have repressed HOTAIR expression in three Ewing sarcoma cell lines and overexpressed HOTAIR, alone and with EWS-FLI1, in htert-immortalized human mesenchymal stem cells to evaluate its effects on gene expression in this cancer. Methods: RNA-Seq of Ewing sarcoma cell lines with HOTAIR represssed by GapmeR or treated with nonsilencing control, and hTERT-immortalized hMSCs with expression of control GFP, HOTAIR, or HOTAIR and EWS-FLI1, was used for gene expression analysis. Results: Defined gene expression signatures were defined as driven by HOTAIR in each cell line model, with a consensus set of gene identified in the Ewing sarcoma cell lines. Additionally, a set of genes regulated by HOTAIR independently of EWS-FLI1 was identified in the hTERT-hMSC models. Conclusions: HOTAIR expression regulates a set of genes critical to viability, cell adhesion, cell motility, and other markers of EMT and metastasis in Ewing sarcoma, independently of EWS-FLI1.
+
+DESIGN
+Ewing sarcoma cell lines SKES, ES2, and A673 were treated with locked nucleic acic antisense oligonucleotides (GapmeR, Exiqon) against either HOTAIR or a nonsilencing control for 48 hours, then had RNA isolated using the Nucleospin RNA isolation kit. hTERT-immortalized human mesenchymal stem cells were obtained from Applied Biological Materials and infected with lentivirus expressing GFP and PuroR with or without HOTAIR, then subsequently with lentivirus expressing either BFP and PuroR with or without EWS-FLI1, and stable clones were selected by puromycin treatment. RNA was isolated as above and used for RT-qPCR, by which expression of HOTAIR and EWS-FLI1 was confirmed. RNA from these samples was then used for quality assessment, then for RNA-Seq in quadruplicate for each sample, using the Illumina HiSeq4000.
+
+PLATFORM
+GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

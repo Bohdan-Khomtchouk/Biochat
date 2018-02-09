@@ -1,0 +1,20 @@
+TITLE
+Pro-inflammatory cytokine and high doses of ionizing radiation have similar effects on the expression of NF-kappaB-dependent genes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The NF-κB transcription factors are activated via diverse molecular mechanisms in response to various types of stimuli. A plethora of functions associated with specific sets of target genes could be regulated differentially by this factor, affecting cellular response to stress including an anticancer treatment. Here we aimed to compare subsets of NF-κB-dependent genes induced in cells stimulated with a pro-inflammatory cytokine and in cells damaged by a high dose of ionizing radiation (4 and 10 Gy). The RelA-containing NF-κB species were activated by the canonical TNFα-induced and the atypical radiation-induced pathways in human osteosarcoma cells. NF-κB-dependent genes were identified using the gene expression profiling (by RNA-Seq) in cells with downregulated RELA combined with the global profiling of RelA binding sites (by ChIP-Seq), with subsequent validation of selected candidates by quantitative PCR. There were 37 NF-κB-dependent protein-coding genes identified: in all cases RelA bound in their regulatory regions upon activation while downregulation of RELA suppressed their stimulus-induced upregulation, which apparently indicated the positive regulation mode. This set of genes included a few “novel” NF-κB-dependent species. Moreover, the evidence for possible negative regulation of ATF3 gene by NF-κB was collected. The kinetics of the NF-κB activation was slower in cells exposed to radiation than in cytokine-stimulated ones. However, subsets of NF-κB-dependent genes upregulated by both types of stimuli were essentially the same. Hence, one should expect that similar cellular processes resulting from activation of the NF-κB pathway could be induced in cells responding to pro-inflammatory cytokines and in cells where so-called “damage-induced inflammation” response was initiated by ionizing radiation
+
+DESIGN
+We sequenced DNA immunoprecipitated from wild type U2OS cells using rabbit polyclonal anti-p65 antibodies. Cells were untreated (control) or stimulated using TNFalpha cytokine for specific time or subjected to ionizing radiation with subsequent recovery. Six ChIP replicates were collected and pooled per each sequenced sample. Input samples were included as negative control (no DNA enrichment was observed in mock-IP samples).
+
+PLATFORM
+GPL9115 Illumina Genome Analyzer II (Homo sapiens) GPL18460 Illumina HiSeq 1500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
+LIBSTRATS
+:CHIP-SEQ

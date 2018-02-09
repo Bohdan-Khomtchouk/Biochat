@@ -1,0 +1,18 @@
+TITLE
+RNA-seq analysis of colon tumors collected from St2-/- and WT reciprocal bone marrow chimeric mice treated with azoxymethane.
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Interleukin 33 (IL33) is an inflammatory cytokine released during necrotic cell death. The epithelium and stroma of the intestine express large amounts of IL33 and its receptor St2. IL33 is therefore continuously released during homeostatic turnover of the intestinal mucosa. Although IL33 can prevent colon cancer associated with inflammatory colitis, the contribution of IL33 signaling to sporadic colon cancer remains unknown.  Here, we utilized a mouse model of sporadic colon cancer to investigate the contribution of IL33 signaling to tumorigenesis in the absence of pre-existing inflammation. We demonstrated that genetic ablation of St2 enhanced colon tumor development. In reciprocal bone marrow (BM) chimeras, the concurrent loss of IL33 signaling within radioresistant nonhematopoietic, and the radiosensitive hematopoietic, compartments was associated with increased tumor burden. To elucidate the molecular mechanisms underpinning the tumor-suppressing effect of IL33 signaling in sporadic colon cancer, we performed whole transcriptome analysis of tumors collected from each of the four cohorts of the 6xAOM-treated BM chimeras. We discovered that St2 deficiency within the nonhematopoietic compartment coincided with suppression of an IFN gene expression signature. The decrease of this IFN gene expression signature was associated with more aggressive disease in human colon cancer patients, suggesting that lack of IL33 signaling impaired the generation of a potent IFN-mediated antitumor immune response. Collectively, our data reveal that IL33 functions as a tumor suppressor in sporadic colon cancer.
+
+DESIGN
+Reciprocal bone marrow chimeras were established by reconstituting lethally irradiated (2x 5 Gy) WT or St2-/- recipient mice with 5-10x 10^6 bone marrow cells from either WT or St2-/- mice and allowed to reconstitute for 8 weeks. 4 groups of BM chimeras were generated: 1. WT bone marrow into WT host (WT = > WT) 2. WT bone marrow into St2-/- host (WT = > St2-/-) 3. St2-/- bone marrow into WT (St2-/- = > WT) 4. St2-/- bone marrow into St2-/- host (St2-/-= > St2-/-). Sporadic colon cancer was then induced by intraperitoneal injections of azoxymethane (AOM; 10 mg/kg) once weekly for 6 consecutive weeks. Mice were monitored for tumor development for up to 20 weeks after the last AOM injection. Total RNA was extracted from snap-frozen tumors collected from BM chimeras using Trizol®Reagent (Life Technologies). Extracted RNA was then further purified using RNeasy Plus Mini Kit (Qiagen) according to the manufacturer’s instructions. Libraries were generated using the Illumina Truseq RNA sample preparation kit according to the manufacturer’s instructions. Three biological replicates were generated and sequenced for each group of BM chimeras by subjecting 1μg of RNA to single-end (50 pb) sequencing on an Illumina HiSeq 2500 instrument at the Australian Genome Research Facility. 3 biological replicates are provided for each of the 4 group of bone marrow chimeras.
+
+PLATFORM
+GPL13112 Illumina HiSeq 2000 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

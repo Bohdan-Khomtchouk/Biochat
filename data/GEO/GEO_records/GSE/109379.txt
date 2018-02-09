@@ -1,0 +1,18 @@
+TITLE
+DNA methylation-based classification of human central nervous system tumors [validation set]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Background: Modern neuropathology is challenged by an increasing number of clinically-relevant CNS tumor subgroups that require assessment of a multitude of molecular markers for classification, as well a highly trained medical staff. Failure to meet this challenge leads to tumor misclassification, which can have severe consequences for affected patients. Methods: We compiled a cohort of genome-wide DNA methylation profiles of 2,682 tumors from 82 histologically and/or molecularly distinct CNS tumor classes across all ages and histologies that served as reference for a Random Forest-based diagnostic classifier. This classifier was used to prospectively investigate a further 1,104 CNS tumor samples in order to determine its clinical utility. Results: The classifier was able to reliably assign tumor samples to a given diagnostic category with a misclassification rate of less than 2%. The system functioned robustly across laboratories and using different DNA methylation profiling techniques. Prospective application to clinical samples resulted in a reclassification of 12% of tumors compared with standard practice alone. A further 12% could not be classified by methylation profiling – this subset was highly enriched for unusual syndrome-associated tumors and likely novel entities. Conclusion: This study represents a proof-of-concept for the application of machine learning approaches in molecular diagnostics using a single, easy-to-use assay. The reference cohort and Random Forest-based classifier are available online as a valuable community tool for improving precision in brain tumor diagnostics. We expect that approaches similar to the one presented herein will rapidly restructure diagnostic practice in neurooncology and across tumor pathology.
+
+DESIGN
+The Illumina Infinium HumanMethylation450 array (Illumina, San Diego, USA) data from n=2801 patients were used to obtain genome-wide assessment of DNA methylation, according to the manufacturer’s instructions at the Genomics and Proteomics Core Facility of the German Cancer Research Center (DKFZ) as described previously (Sturm et al. Cancer Cell. 2012 Oct 16;22(4):425-37).
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

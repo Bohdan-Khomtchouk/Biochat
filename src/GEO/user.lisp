@@ -9,9 +9,9 @@
 (push '("application" . "xml") drakma:*text-content-types*)
 
 
-(defvar *gds* (load-geo-dir (local-file "data/GEO/GEO_records/GDS/")))
-(defvar *gse* (load-geo-dir (local-file "data/GEO/GEO_records/GSE/")))
-(defvar *geo-db* *gds*)
+(defvar *gds* (load-geo-dir :gds (local-file "data/GEO/GEO_records/GDS/")))
+(defvar *gse* (load-geo-dir :gse (local-file "data/GEO/GEO_records/GSE/")))
+(defvar *geo-db* (concatenate 'vector *gds* *gse*))
 
 
 (format *debug-io* "Starting vecs calculation for GDS: ")
@@ -25,7 +25,7 @@
                                               :initial-contents
                                               (map* 'geo-vec *gse*)))
 (format *debug-io* "done.~%")
-(defvar *geo-vecs* *gds-vecs*)
+(defvar *geo-vecs* (concatenate 'vector *gds-vecs* *gse-vecs*))
 
 (unless (boundp '*tf*)
   (with ((tf idf (calc-tfidf (mapcar 'lemmas

@@ -1,0 +1,18 @@
+TITLE
+Telomerase-mediated Strategy for Overcoming Non-Small Cell Lung Cancer Targeted Therapy and Multi-drug Chemotherapy Resistance
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Standard and targeted therapies almost universally fail due to tumor heterogeneity/plasticity leading to intrinsic or acquired drug resistance. We used the telomerase substrate precursor 6-thio-2’-deoxyguanosine (6-thio-dG) to target telomerase-expressing targeted therapy and platin-doublet chemotherapy resistant cells. We observed that erlotinib, paclitaxel/carboplatin and gemcitabine/cisplatin resistant cells are sensitive to 6-thio-dG in xenograft, syngeneic immunocompetent and genetically engineered mouse models. We also show sensitivity to 6-thio-dG on a large panel of non-small cell lung cancer cell lines (73 of 77). The 4 resistant NSCLC lines clustered together, providing a molecular signature for patients that may not respond to 6-thio-dG. We find SLC43A3 as a top candidate in this molecular signature. Thus, 6-thio-dG may prolong disease control of therapy-resistant lung cancer patients.
+
+DESIGN
+Gene expression from microarray and RNAseq data was used to compare resistant and sensitive NSCLC lines. The microarray data was a subset from GSE32036. RNA-seq raw data are only available for samples GSM2970438-GSM2970449 (those produced at GeneWiz). The submitter states that the raw data for samples GSM2970450-GSM2970491 will be made available under controlled access at dbGaP.  The RNAseq data for GeneWiz samples is linked to Bioproject PRJNA431789 with SRA accession SRP131505 Microarray samples from GSE32036 were not re-analyzed. The log2 quantile-normalized values were used directly.  Gene expression of 6-thio-dG sensitive and resistant cell lines was analyzed using a subset of 40 NSCLC samples from GSE32036 (sensitive lines had IC50 < or equal to 1.55 microM, resistant lines cells had IC50 > or equal to 10 microM). Using the processed data from the subset of 40 samples, statistically significant genes were determined using unpaired t-tests with Bonferroni correction (p < 0.01). The data matrix of these re-used microarray data are included here for convenience. Also included is a text file with the 6-thio-dG status of the cell lines from the microarray study.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

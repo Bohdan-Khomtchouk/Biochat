@@ -1,0 +1,21 @@
+TITLE
+Gene expression data from tumor-bearing mice, either left untreated, treated with MUC1 peptide vaccine, indomethacin, or MUC1 peptide vaccine + indomethacin
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+RNA was isolated from the tumors of untreated mice, mice treated with MUC1 vaccine alone, indomethacin alone, or MUC1 vaccine + indomethacin. We used microarrays to identify changes in gene expression between these treatment groups.
+
+DESIGN
+RNA samples from the tumors of untreated mice, indomethacin only mice, vaccine only mice, and vaccine + indomethacin mice were reverse transcribed, amplified and labeled using 3’ IVT Express Kit (Affymetrix Inc.). The resultant labeled complementary RNA (cRNA) was purified and fragmented as per vendor’s instructions. The cRNA samples together with probe array controls were hybridized onto Affymetrix® HT MG-430 PM array strips which cover over 39,000 mouse transcripts and variants selected from GenBank®, dbEST, and RefSeq. Hybridization controls were spiked into the cRNA samples in order to monitor and troubleshoot the hybridization process. Probes for housekeeping genes were used to assess sample integrity. Hybridization, washing, staining and scanning were performed using Affymetrix GeneAtlas® personal microarray system instruments. Affymetrix GeneAtlas® instrument control software version 1.0.5.267 was used to analyze microarray image data and to compute intensity values. Affymetrix.CEL files containing raw, probe-level signal intensities were analyzed using Partek Genomics Suite version 6.6.12.0713 (Partek). Robust multichip averaging (RMA) was used for background correction, quantile normalization and probe set summarization with median polish (1). Statistical difference was calculated by two-way ANOVA analysis with false discovery rate (FDR). Pathway analysis was performed using Ingenuity Pathway Analysis software (Ingenuity Systems, Inc.). (1) Bolstad, B. M., R. A. Irizarry, M. Astrand, and T. P. Speed. 2003. A comparison of normalization methods for high density oligonucleotide array data based on variance and bias. Bioinformatics 19: 185-193.
+
+PLATFORM
+GPL11180 [HT_MG-430_PM] Affymetrix HT MG-430 PM Array Plate
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
+MICROARRAYP
+T
+

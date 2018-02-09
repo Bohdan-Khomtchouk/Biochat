@@ -1,0 +1,20 @@
+TITLE
+Global gene expression profile of primary cultured keratinocytes with or without stimulation
+
+ORGANISM
+Mus musculus
+
+SUMMARY
+Skin tissues from newborn C57BL/6 mice were obtained for primary keratinocyte culture. Cells were then stimulated with or without IL-25 (Biolegend) for 8hrs. Total RNAs were isolated with RNAprep pure Tissue Kit (DP431) and the RNA-seq library was prepared by the Beijing Genomics Institute. Sequence reads were obtained using BGIseq500 (Illumina) and successfully mapped to mouse genome. Reads counts were normalized based on RPKM, fold changes were calculated for all possible comparisons.
+
+DESIGN
+Gene expression primary cultured keratinocytes with or without stimulation
+
+PLATFORM
+GPL23479 BGISEQ-500 (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
+LIBSTRATS
+:RNA-SEQ

@@ -1,0 +1,18 @@
+TITLE
+ROP: Dumpster Diving in RNA-sequencing to find the source of 1 trillion reads across diverse adult human tissues
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+High-throughput RNA sequencing technologies provide an unprecedented opportunity to explore the individual transcriptome. Unmapped reads are a large and often overlooked output of standard RNA-seq analyses. Here, we present Read Origin Protocol (ROP), a tool for discovering the source of all reads originating from complex RNA molecules. We apply ROP to samples across 2630 individuals from 54 diverse human tissues. Our approach can account for 99.9% of 1 trillion reads of various read length. Additionally, we use ROP to investigate the functional mechanisms underlying connections between the immune system, microbiome, and disease. ROP is freely available at  http://smangul1.github.io/rop/.
+
+DESIGN
+During bronchoscopy airway epithelial brushings, samples were obtained from 3rd-4th generation bronchi. RNA was extracted from the epithelial brushing samples using the Qiagen RNeasy mini-kit (Qiagen, Valencia, CA), according to manufacturer's protocol. We used 100ng of isolated RNA from a total of 61 samples to construct ribo-depleted RNA-seq libraries using the TruSeq Stranded Total RNA with Ribo-Zero Human/Mouse/Rat library preparation kit, per manufacturer's protocol. Barcoded bronchial epithelial RNA-seq libraries were multiplexed and sequenced as 2 x 100bp paired-end reads on an Illumina HiSeq 2500. On average, 37 million reads were generated per sample. We excluded 12 samples from further analyses due to high ribosomal RNA read counts (library preparation failure), leaving a total of 49 samples suitable for further analyses.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
