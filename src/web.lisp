@@ -138,7 +138,10 @@
                                                   :remove-empty-subseqs t)))
                (org-filters (split #\, sim-organisms :remove-empty-subseqs t))
                (str-filters (mapcar 'mkeyw (split #\, sim-libstrats
-                                                  :remove-empty-subseqs t))))
+                                                  :remove-empty-subseqs t)))
+               (filters (append sim-filters
+                                org-filters
+                                str-filters)))
           (if-it (find id db :key 'gr-id)
                  (who:with-html-output-to-string (out)
                    (:div "Requested record:")
@@ -147,9 +150,7 @@
                    (:div "Closest records:")
                    (:ol (let ((*geo-db* db)
                               (*geo-vecs* vecs))
-                          (when (or sim-filters
-                                    org-filters
-                                    str-filters)
+                          (when filters
                             (let (db vecs)
                               (dotimes (i (length *geo-db*))
                                 (let ((cand (? *geo-db* i)))
