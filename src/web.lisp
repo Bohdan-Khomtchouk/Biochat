@@ -147,7 +147,9 @@
                    (:div "Closest records:")
                    (:ol (let ((*geo-db* db)
                               (*geo-vecs* vecs))
-                          (when filters
+                          (when (or sim-filters
+                                    org-filters
+                                    str-filters)
                             (let (db vecs)
                               (dotimes (i (length *geo-db*))
                                 (let ((cand (? *geo-db* i)))
