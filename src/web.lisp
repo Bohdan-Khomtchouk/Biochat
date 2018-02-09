@@ -17,7 +17,7 @@
     #+nil (wn-sim "Pubmed Wordnet-based similarity of documents")))
 
 (defparameter *geo-sim-filters*
-  '((:histone "Histone")
+  '((:histone "Same histone")
     (:organism "Same organism")
     (:libstrats "Same sequencing type")))
 
@@ -217,14 +217,17 @@
                                     (fmt "track_interest(\"~A~A\", \"~A~A\", ~A)"
                                          @rec.type match-id @rec.type @rec.id
                                          (json:encode-json-to-string params))
-                                    "")))
+                                    ""))
+                       (pmids (mapcar ^(ignore-errors (parse-integer %))
+                                      (split #\, @rec.citations))))
                    (cond-it
-                     ((numberp (ignore-errors (parse-integer @rec.citations)))
-                      (who:htm
-                       (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
-                                      @rec.citations)
-                           :onclick onclick
-                           (who:fmt "PMID ~A" @rec.citations))))
+                     ((every 'numberp pmids)
+                      (dolist (pmid pmids)
+                        (who:htm
+                         (:a :href (fmt "https://www.ncbi.nlm.nih.gov/pubmed/~A"
+                                        pmid)
+                             :onclick onclick
+                             (who:fmt "PMID ~A" pmid)) " ")))
                      ((with ((pmid-pos (search "PMID" @rec.citations))
                              (pmid-beg (position-if 'digit-char-p @rec.citations
                                                     :start (+ (or pmid-pos 0) 4))))
