@@ -215,7 +215,7 @@
                  (:span :class "grey" "Citations: ")
                  (let ((onclick (if match-id
                                     (fmt "track_interest(\"~A~A\", \"~A~A\", ~A)"
-                                         @rec.type match-id type @rec.id
+                                         @rec.type match-id @rec.type @rec.id
                                          (json:encode-json-to-string params))
                                     "")))
                    (cond-it
