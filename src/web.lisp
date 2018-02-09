@@ -158,7 +158,7 @@
                                                        sim-filters
                                                        org-filters
                                                        str-filters
-                                                       same-histone-recs)
+                                                       same-histone)
                                     (push cand db)
                                     (push (? *geo-vecs* i) vecs))))
                               (:= *geo-db* (coerce db 'vector))
