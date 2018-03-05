@@ -12,17 +12,41 @@ Currently, there exist thousands of biological databases containing terabytes of
 
 ### The Solution:
 
-Create an artificial intelligence daemon that is constantly unifying and organizing the world's biological information by intelligently integrating it into self-similar data modules grouped by biological themes and subthemes (e.g., theme: brain cancer; subthemes: glioblastoma (GBM), astrocytoma, medulloblastoma, ... ; sub-subthemes: primary GBM, pineal astrocytic tumor, brain stem glioma, ...).
+Forget databases.  If you want to efficiently integrate next-generation sequencing (NGS) and microarray datasets across diverse heterogeneous sources, then pull down their respective metadata and decentralize it via a blockchain.  Then, use natural language processing (NLP) algorithms to categorize the metadata into self-similar and closely related modules.  Then, track user behavior in interacting with these interoperable modules via clicks that record the user's IP address, timestamp, input query, output clicked on, and NLP settings directly onto the blockchain.  Basically, refine the machine-generated modules with human touch.  Then, use literature co-citation information to further refine the accuracy of this NLP+clicks system, assuming that papers that cite one another presumably contain biological data that is related by some common theme/sub-theme or subject (e.g., theme: brain cancer; subthemes: glioblastoma (GBM), astrocytoma, medulloblastoma, ... ; sub-subthemes: primary GBM, pineal astrocytic tumor, brain stem glioma, ...).  Wrap this 3-layer system (NLP/clicks/citations) into a neural network while treating the user clicks as a collective intelligence-driven Bayesian framework that naturally evolves over time as `Biochat` grows its robust and diverse userbase, where each user brings their unique set of skills and expertise in biology to the framework on a daily basis.
 
-### Significance:
+### Screenshot
 
-The biological data-verse is expanding every day, with new experimental data published daily.  Biology is done in many different model organisms (e.g., human, mouse, rat, etc.), with many different next-generation sequencing types (e.g, ChIP-seq, RNA-seq, etc.), in many different cell lines (e.g., K562, NHEK, etc.), focusing on many different transcription factors, epigenetic modifications, etc.  Multidimensionally integrating all this information is essential to data-driven discovery (e.g., [cancer cures could already exist in big data](https://www.fastcompany.com/3063530/cancer-cures-could-already-exist-in-big-data)).   Specifically, pairing ostensibly unrelated datasets (e.g., from different organisms, NGS types, age groups, cell lines, etc.) can inform and contribute deeper understanding of a variety of biological questions ranging from cancer to aging.  
+<img width="839" alt="screen shot 2018-03-04 at 10 33 54 pm" src="https://user-images.githubusercontent.com/9893806/36960584-7b34f7f2-1ffc-11e8-9b9f-e17aea59c11e.png">
 
-## Software
+If you're really interested in one of those outputs (e.g., because it looks so relevant to your input), you're likely to click the PMID (i.e., PubMed ID) to navigate to the respective publication to learn more information about the respective study that generated the data.  In doing so, your click is registered as a new block on the blockchain, as described above.  
 
-`Biochat` aims at providing an interactive workbench for biological databases (e.g., [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/), [miRBase](http://www.mirbase.org/), [TCGA](https://cancergenome.nih.gov/), [Human Epigenome Atlas](https://www.genboree.org/epigenomeatlas/index.rhtml), etc.) to learn to communicate with each other by matching and pairing similar data records across the biological data-verse.  `Biochat`'s mission is to fundamentally transform how people perform biological data science by unifying it, going from thousands of scattered database silos (that act as storage repositories) to 1 intelligent centralized framework (that acts as an AI to integrate large-scale data), thereby opening doors to more biological breakthroughs based on existing data.  `Biochat` is written in Common Lisp and operates based on efficient categorization and pairing of similar items (e.g., words that describe ostensibly unrelated data records) into groups.  It is basically the high performance computing (HPC) data science equivalent of the chemistry saying "like dissolves like."  
+### Hypothesis:
 
-## Concrete example
+Collective intelligence (as quantified by user behavior/interaction with the biological data), in combination with NLP and literature co-citations, is better and more effective in finding natural groupings and emergent structure within large volumes of biological data than arbitrarily assigned ad-hoc database designations (e.g., [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/), [miRBase](http://www.mirbase.org/), [TCGA](https://cancergenome.nih.gov/), [Human Epigenome Atlas](https://www.genboree.org/epigenomeatlas/index.rhtml), etc.).
+
+### Software name, history, and call for feedback/suggestions
+
+`Biochat` is about teaching biological datasets to learn to talk to each other, i.e., to learn to communicate with each other by matching and pairing similar data records across the biological data-verse using human-trained AI (via clicks and citations).  It was inspired by the field called the internet-of-things, where hardware devices can communicate via a wireless network (e.g., you can send a message from your phone to your coffee machine to make you an espresso).  By abstracting the concept of "things" from hardware devices to software devices, you begin to deal with an internet-of-data and, since biological data science is very domain-specific in its terminology, we began to refer to it locally as the "internet-of-omics".  However, given that we were coining a new term in the lab, we thought it more appropriate to just go with a simpler title for the URL, like "Biochat", but quickly realized that the domain name biochat.com was already taken and in-use by a completely unrelated business that then put up its domain name for sale at $50,000 and is currently squatting on it.  Thus, we just ended up purchasing biochats.io (adding an "s" to "biochat", since biochat.io is also being squatted on) as a temporary workaround.  
+
+All being said, we are very flexible on the software name and would welcome suggestions.  Some contenders we've heard so far are `blockblockbio`, `metablox`, and even the fun-sounding `biojibberjabber`.  We would also welcome community suggestions on an appropriate software logo.  Feel free to open up a Github issue to comment on either or any of these topics.    
+
+### Software significance:
+
+The biological data-verse is expanding every day, with new experimental data published daily.  Biology is done in many different model organisms (e.g., human, mouse, rat, etc.), with many different next-generation sequencing types (e.g, ChIP-seq, RNA-seq, etc.), in many different cell lines (e.g., K562, NHEK, etc.), focusing on many different transcription factors, epigenetic modifications, etc.  Multidimensionally integrating all this information is essential to data-driven discovery (e.g., [cancer cures could already exist in big data](https://www.fastcompany.com/3063530/cancer-cures-could-already-exist-in-big-data)).   Specifically, pairing ostensibly unrelated datasets (e.g., from different organisms, NGS types, age groups, cell lines, etc.) can inform and contribute deeper understanding of a variety of biological questions ranging from cancer to aging.  `Biochat`'s mission is to fundamentally transform how people perform biological data science by unifying it, going from thousands of scattered database silos (that act as storage repositories) to 1 intelligent decentralized framework (that acts as an AI to integrate large-scale data, thanks to the neural network architecture described above), thereby opening doors to more biological breakthroughs based on existing data.  
+
+## Why Lisp?
+
+`Biochat` is written in Common Lisp.  Deal with it :sunglasses:  
+
+Or just read the "Why Lisp?" section at: http://biolisp.org
+
+## Installation
+
+Additionally to having Quicklisp you'll need to clone [crawlik](https://github.com/vseloved/crawlik) into the home directory.
+
+To use PubMed word vectors, `(pushnew :use-pubmed *features*)` before loading the system `biochat`.
+
+## NLP in action (command-line example)
 
 Here is a sample run from `Biochat` using record #10 as input from the Gene Expression Omnibus (GEO) database:
 
@@ -89,7 +113,7 @@ ORGANISM
 Mus musculus
 ```
 
-The purpose of this tool is to find related/similar records using different approaches. This is implemented in the generic function `geo-group` that processes the database into a number of groups of related records. It has a number of methods:
+The purpose of this tool is to find related/similar records using different approaches. This is implemented in the generic function `geo-group` that processes the GEO database into a number of groups of related records. It has a number of methods:
 
 1. Match based on the same histone (the list of known histones is read from a <a href="https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/histones.txt">text file</a>).
 2. Match based on the same organism.
@@ -111,34 +135,6 @@ Euclidian distance-based similarity (`euc-sim`). Unlike `geo-group`, vector-spac
 - `vec-closest-recs` that sorts the aggregated document vectors directly with the similarity measure (`cos-sim`, `euc-sim`, etc.)
 - `tree-closest-recs` finds the closest records based on the pre-calculated hierarchical clustering (performed with the UPGMA algorithm using the cosine similarity measure). The results of clustering are stored in the <a href="https://github.com/Bohdan-Khomtchouk/Biochat/blob/master/data/GEO/GEO-tree-cos.lisp">text file</a>.
 
-## Like dissolves like
-
-We apply the "like dissolves like" principle to teach data files to learn to talk to each other (quite literally).  In order to talk, data must first be able to find each other in space (not a trivial task, considering that there are thousands of bioinformatics databases out there... see how we've tackled this problem with <a href="https://github.com/Bohdan-Khomtchouk/PubData">PubData</a>).  So how, for example, is an RNA-seq dataset supposed to find its potentially related ChIP-seq dataset (e.g., according to some combination of similar cell type, histone mark, sequencing details, etc.)?  Through metadata, of course!  However, for the datasets to meet each other via a similar metadata footprint requires sophisticated NLP strategies to introduce them.  Once the datasets meet, we can let the conversations (i.e., integrative bioinformatics analyses) begin!  Hence the name: `Biochat`.
-
-## Motivation
-
-Our ultimate goal is to make integrative multi-omics a lot easier (and more fun) through artificial intelligence (AI).  Right now, we are barely scratching the surface with NLP.  Thus, we are currently implementing novel neural network approaches to help us teach data to talk to each other (stay tuned!).  
-
-## Checklist
-
-So far, here is what has been completed in `Biochat`:
-
-* [x] Scrape [GEO](https://www.ncbi.nlm.nih.gov/geo/), then extract the title, summary, etc. from each entry (entry example: <https://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=GDS4303>)
-* [x] Store all this structured metadata in a database (currently, in-memory representation is sufficient)
-* [x] Teach an algorithm to match similar groups (e.g., if organism is "Mus musculus", i.e. mouse) then group them together (which is easy), but also be able to spot "leukemia" as a cancer type, so group it together with other cancer types
-
-Stages of the development of matching algorithm:
-
-* [x] Direct matching on a per-word or per-phrase basis
-* [x] Similarity matching using vector space modeling with word vectors from <https://github.com/cambridgeltl/BioNLP-2016> and the [doc2vec approach](https://cs.stanford.edu/~quocle/paragraph_vector.pdf)
-
-
-## Installation
-
-Additionally to having Quicklisp you'll need to clone [crawlik](https://github.com/vseloved/crawlik) into the home directory.
-
-To use PubMed word vectors, `(pushnew :use-pubmed *features*)` before loading the system `biochat`.
-
 ## Contact
 
 You are welcome to:
@@ -156,6 +152,10 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 This software is thanks to the amazing work done by MANY people in the open source community of biological databases (GEO, PubMed, etc.)
 
 The work on `Biochat` was done by [Bohdan B. Khomtchouk, Ph.D.](https://about.me/bohdankhomtchouk) and [Vsevolod Dyomkin](https://vseloved.github.io/).
+
+## Funding
+
+`Biochat` is supported by the National Institute on Aging of the National Institutes of Health under Award Number T32 AG0047126 awarded to Bohdan Khomtchouk. The content is solely the responsibility of the author(s) and does not necessarily represent the official views of the National Institutes of Health.
 
 ## Contributors
 * Vsevolod Dyomkin
