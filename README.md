@@ -42,13 +42,13 @@ The biological data-verse is expanding every day, with new experimental data pub
 
 Or just read the "Why Lisp?" section at: http://biolisp.org
 
-## Installation
+## Installation (for developers only)
 
 Additionally to having Quicklisp you'll need to clone [crawlik](https://github.com/vseloved/crawlik) into the home directory.
 
 To use PubMed word vectors, `(pushnew :use-pubmed *features*)` before loading the system `biochat`.
 
-## NLP in action (command-line example)
+## NLP in action (command-line example for developers)
 
 Here is a sample run from `Biochat` using record #10 as input from the Gene Expression Omnibus (GEO) database:
 
