@@ -18,7 +18,9 @@ Forget databases.  If you want to efficiently integrate next-generation sequenci
 
 <img width="839" alt="screen shot 2018-03-04 at 10 33 54 pm" src="https://user-images.githubusercontent.com/9893806/36960584-7b34f7f2-1ffc-11e8-9b9f-e17aea59c11e.png">
 
-If you're really interested in one of those outputs (e.g., because it looks so relevant to your input), you're likely to click the PMID (i.e., PubMed ID) to navigate to the respective publication to learn more information about the respective study that generated the data.  In doing so, your click is registered as a new block on the blockchain, as described above.  
+If you're really interested in one of those outputs (e.g., because it looks so relevant to your input), you're likely to click the PMID (i.e., PubMed ID) to navigate to the respective publication to learn more information about the respective study that generated the data.  In doing so, your click is registered as a new block on the blockchain, as described above.  In this framework, user interactions are treated like as if they are cryptocurrency payment transactions, whose provenance can be traced back and monitored in real-time.  
+
+Similarly to the concept behind the Proof-of-Work (PoW) algorithm, the ranking of output results will only be affected system-wide once consensus is reached amongst a sufficiently diverse set of users.  This is similar to the concept of cryptocurrency miners competing against each other to complete transactions on the network and getting rewarded.  As such, for any given input, users are motivated/incentivized to click on PMID outputs that will match the double-blind activity of other geographical users.  Instead of being offered a coin as a reward for these "mining" efforts, users are rewarded with a re-ordered set of output results that more accurately reflects community consensus via collective intelligence.        
 
 ## Hypothesis
 
