@@ -12,7 +12,7 @@ Currently, there exist thousands of biological databases (e.g., [Gene Expression
 
 ### Proposed Solution:
 
-We consider the impact of decentralizing the metadata describing the contents of these respective data files, and computing on these metadata descriptions through a combination of human-based and machine learning-based approaches within the context of a blockchain infrastructure.  Specifically, we seek to test the hypothesis that collective intelligence (as quantified by observing and learning from multiple users' behavior/interactions with metadata recorded on the blockchain), in combination with training sources such as literature citations and natural language processing techniques, is better and more effective in finding natural groupings and emergent structure within large volumes of biological data compared to arbitrarily depositing/storing data files in an ad-hoc manner in a database(s).
+We consider the impact of decentralizing the metadata describing the contents of these respective data files, and computing on these metadata descriptions through a combination of human-based and machine learning-based approaches within the context of a blockchain infrastructure.  Specifically, we seek to test the hypothesis that collective intelligence (as quantified by observing and learning from multiple users' behavior/interactions with metadata recorded on the blockchain), in combination with training sources such as literature citations and natural language processing techniques, is better and more effective in finding natural groupings and emergent structure within large volumes of biological data compared to arbitrarily depositing/storing data files in an ad-hoc manner in a centralized database(s).
 
 ### The Strategy:
 
