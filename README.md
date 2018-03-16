@@ -151,16 +151,14 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 
 ## Acknowledgements
 
-This software is thanks to the amazing work done by MANY people in the open source community of biological databases (GEO, PubMed, etc.)
-
-The work on `Biochat` was done by [Bohdan B. Khomtchouk, Ph.D.](https://about.me/bohdankhomtchouk) and [Vsevolod Dyomkin](https://vseloved.github.io/).
+This software is thanks to the amazing work done by MANY people in the open source community of biological databases (GEO, PubMed, etc.).  Some of the computing for this project was performed on the [Sherlock cluster](https://www.sherlock.stanford.edu). We would like to thank Stanford University and the Stanford Research Computing Center for providing computational resources and support that contributed to these research results.
 
 ## Funding
 
 `Biochat` is supported by the National Institute on Aging of the National Institutes of Health under Award Number T32 AG0047126 awarded to Bohdan Khomtchouk. The content is solely the responsibility of the author(s) and does not necessarily represent the official views of the National Institutes of Health.
 
 ## Contributors
-* Vsevolod Dyomkin
+* [Vsevolod Dyomkin](https://vseloved.github.io/)
 * You?
 
 ## Citation
