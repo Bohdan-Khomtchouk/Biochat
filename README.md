@@ -1,8 +1,6 @@
 <div align="center">
-<img src="https://user-images.githubusercontent.com/9893806/29490594-f18fa890-84f5-11e7-9fd4-d9e366b1dc64.gif">
+<img src="https://user-images.githubusercontent.com/9893806/37542462-829d7eec-291b-11e8-80cf-13ca8318971f.png">
 </div>
-
-# Biochat
 
 ## Introduction
 
@@ -35,6 +33,12 @@ All being said, we are very flexible on the software name and would welcome sugg
 ## Software significance
 
 The biological data-verse is expanding every day, with new experimental data published daily.  Biology is done in many different model organisms (e.g., human, mouse, rat, etc.), with many different next-generation sequencing types (e.g, ChIP-seq, RNA-seq, etc.), in many different cell lines (e.g., K562, NHEK, etc.), focusing on many different transcription factors, epigenetic modifications, etc.  Multidimensionally integrating all this information is essential to data-driven discovery (e.g., [cancer cures could already exist in big data](https://www.fastcompany.com/3063530/cancer-cures-could-already-exist-in-big-data)).   Specifically, pairing ostensibly unrelated datasets (e.g., from different organisms, NGS types, age groups, cell lines, etc.) can inform and contribute deeper understanding of a variety of biological questions ranging from cancer to aging.  `Biochat`'s mission is to fundamentally transform how people perform biological data science by unifying it, going from thousands of scattered database silos (that act as storage repositories) to 1 intelligent decentralized framework (that acts as an AI to integrate large-scale data, thanks to the neural network architecture described above), thereby opening doors to more biological breakthroughs based on existing data.  
+
+## Long-term vision (infographic)
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/9893806/29490594-f18fa890-84f5-11e7-9fd4-d9e366b1dc64.gif">
+</div>
 
 ## Why Lisp?
 
@@ -158,7 +162,8 @@ This software is thanks to the amazing work done by MANY people in the open sour
 `Biochat` is supported by the National Institute on Aging of the National Institutes of Health under Award Number T32 AG0047126 awarded to Bohdan Khomtchouk. The content is solely the responsibility of the author(s) and does not necessarily represent the official views of the National Institutes of Health.
 
 ## Contributors
-* [Vsevolod Dyomkin](https://vseloved.github.io/)
+* [Vsevolod Dyomkin](https://vseloved.github.io/) -- Common Lisp programming
+* [Kasra A. Vand](https://www.wikiart.org/en/kasramvd) -- logo art design
 * You?
 
 ## Citation
