@@ -32,7 +32,7 @@
     (:= @rec.toks toks)))
 
 (unless (boundp '*tf*)
-  (with ((tf idf (calc-tfidf (map 'list 'gr-lemmas
+  (with ((tf idf (calc-tfidf (map 'list 'lemmas
                                   (concatenate 'vector *gds* *gse*)))))
     (defvar *tf* tf)
     (defvar *idf* idf)))
