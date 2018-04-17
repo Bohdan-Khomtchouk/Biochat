@@ -16,11 +16,11 @@
                     (nlp:tokenize nlp:<sent-splitter> @rec.summary))
           (nlp:tokenize nlp:<word-tokenizer> @rec.design)))
 
-(defun lemmas (toks)
+(defun lemmas (rec)
   "Produce a list of lemmas for a list of TOKS."
   (mapcar ^(or (nlp:lemmatize nlp:<wikt-dict> (string-downcase %))
                %)
-          toks))
+          @rec.toks))
 
 (defun html-str (tree)
   "Convert a CRAWLIK HTML tree to a string."

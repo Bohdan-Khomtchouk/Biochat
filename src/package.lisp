@@ -2,7 +2,7 @@
 ;;; see LICENSE file for permissions
 
 
-(defpackage :biochats
+(defpackage :biochat
   (:nicknames :b42)
   (:use :cl :rutilsx :hunch)
   (:local-nicknames (#:re #:cl-ppcre)

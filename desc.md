@@ -1,6 +1,6 @@
-# Biochats relevance algorithms
+# Biochat relevance algorithms
 
-Biochats is a collection of procedures to group records by similarity
+Biochat is a collection of procedures to group records by similarity
 based on their free text description and other meta information. The
 records are obtained from the datasets of biological experiment data,
 such as GDS and GSE. The data is collected using web scraping.
@@ -15,14 +15,14 @@ instance, sometimes only datasets for a particular group of organisms
 are of interest. A more nuanced case is when only experiments that
 target a particular histone (which may be mentioned in the text
 summary but is not indicated in a special field) are requested. That's
-why the Biochats project aims to provide a flexible toolset suitable
+why the Biochat project aims to provide a flexible toolset suitable
 for experimenting with different similarity measures and their
 parameters, as well as supplemental filtering based on additional
 parameters.
 
-## Biochats similarity measures
+## Biochat similarity measures
 
-In the context of Biochats, a similarity measure is a function of 2
+In the context of Biochat, a similarity measure is a function of 2
 records that returns a number in the interval [0,1] signifying the
 degree of similarity (the closer to 1 - the more similar). The
 magnitude of the similarity doesn't have any particular meaning, the
@@ -30,7 +30,7 @@ only requirement is that records considered more similar should have a
 larger value of similarity. So, similarity values obtained by
 different similarity measures can't be compared.
 
-Currently, in Biochats, two principal approaches to similarity
+Currently, in Biochat, two principal approaches to similarity
 measurement are:
 
 - bag-of-words-based similarity
@@ -62,13 +62,13 @@ plain TF-IDF, the following formula is used: `(k + 1) * tf * idf / (k + tf)`,
 where `k` is the BM25 parameter, the default value of which is
 chosen to be 1.2.
 
-Another approach to document representation implemented in Biochats is
+Another approach to document representation implemented in Biochat is
 based on vector space models that use dense low-dimensional (vector
 size: 100-300) word vectors and combine them in some way into a same
 dimensional document vector. There are 2 approaches to obtaining the
 document vectors: by simple aggregation of the pre-calculated word
 vectors and by constructing the vector using an ML algorithm - see
-Paragraph vectors [3] or Skip Thought vectors [4]. In Biochats, we
+Paragraph vectors [3] or Skip Thought vectors [4]. In Biochat, we
 chose to implement the aggregation approach using the PubMed word
 vectors [5] calculated with the word2vec algorithm [6]. This is due to
 the availability of high-quality pre-trained vectors, lack of training
@@ -77,7 +77,7 @@ empirical results showing that simple word vectors aggregation
 performs not worse on short texts [7].
 
 The similarity measures based on document vectors implemented in
-Biochats perform the comparison using the following algorithms:
+Biochat perform the comparison using the following algorithms:
 
 - cosine similarity and smoothed cosine similarity [8]
   (5 is chosen as the default smoothing factor)
@@ -87,9 +87,9 @@ Biochats perform the comparison using the following algorithms:
 - combined cosine/Euclidian distance similarity that uses the square
   root of the product of both measures
 
-## Biochats filtering procedures
+## Biochat filtering procedures
 
-The main application of Biochats is sorting the records database according to the similarity to a selected record. The sorted output may be additionally filtered based on a set of criteria:
+The main application of Biochat is sorting the records database according to the similarity to a selected record. The sorted output may be additionally filtered based on a set of criteria:
 
 - retain only records for a selected organism or group of organisms
 - retain only records that mention a particular histone [9]

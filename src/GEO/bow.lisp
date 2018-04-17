@@ -28,30 +28,27 @@
   (* (sqrt (? *tf* word))
      (? *idf* word)))
 
-
 ;;; comparison of documents
 
 (defun tok-closest-recs (rec &key (measure 'tfidf-sim))
-  (with ((toks (geo-toks rec))
-         (rez (sort (map* ^(pair % (call measure toks (geo-toks %)))
+  (with ((rez (sort (map* ^(pair % (call measure rec %))
                           *geo-db*)
                     '> :key 'rt)))
     (when (plusp (length rez))
       (subseq rez 1))))  ; leave out self
 
-(defun tfidf-sim (toks1 toks2 &key (tfidf 'tfidf))
-  (let ((common (mapcar ^(expt (call tfidf %) 2)
-                        (keys (inter# (hash-set (lemmas toks1) :test 'equal)
-                                      (hash-set (lemmas toks2) :test 'equal))))))
+(defun tfidf-sim (rec1 rec2 &key (tfidf 'tfidf))
+  (with ((lemmas1 (lemmas rec1))
+         (lemmas2 (lemmas rec2))
+         (common (mapcar ^(expt (call tfidf %) 2)
+                         (keys (inter# (hash-set lemmas1 :test 'equal)
+                                       (hash-set lemmas2 :test 'equal))))))
     (/ (reduce '+ common)
-       (reduce '* (mapcar (lambda (toks)
-                            (mat:nrm2 (mat:array-to-mat
-                                       (map 'vector tfidf
-                                            (lemmas (nlp:uniq toks))))))
-                          (list toks1 toks2))))))
+       (reduce '* (mapcar ^(mat:nrm2 (mat:array-to-mat (map 'vector 'tfidf %)))
+                          (list lemmas1 lemmas2))))))
 
-(defun bm25-sim (toks1 toks2 &key (k1 1.2))
-  (tfidf-sim toks1 toks2 :tfidf ^(* (/ (1+ k1)
+(defun bm25-sim (rec1 rec2 &key (k1 1.2))
+  (tfidf-sim rec1 rec2 :tfidf ^(* (/ (1+ k1)
                                        (+ k1 (? *tf* %)))
                                     (? *tf* %)
                                     (? *idf* %))))

@@ -27,10 +27,13 @@
 (format *debug-io* "done.~%")
 (defvar *geo-vecs* (concatenate 'vector *gds-vecs* *gse-vecs*))
 
+(dovec (rec (concatenate 'vector *gds* *gse*))
+  (let ((toks (geo-toks rec)))
+    (:= @rec.toks toks)))
+
 (unless (boundp '*tf*)
-  (with ((tf idf (calc-tfidf (mapcar 'lemmas
-                                     (map 'list 'geo-toks
-                                          (concatenate 'vector *gds* *gse*))))))
+  (with ((tf idf (calc-tfidf (map 'list 'gr-lemmas
+                                  (concatenate 'vector *gds* *gse*)))))
     (defvar *tf* tf)
     (defvar *idf* idf)))
 

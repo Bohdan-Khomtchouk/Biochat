@@ -15,7 +15,8 @@
   platform
   citations
   libstrats
-  microarrayp)
+  microarrayp
+  toks)
 
 
 ;;; web scraping
