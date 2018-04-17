@@ -1,0 +1,18 @@
+TITLE
+Multi-environment fitness landscapes of a tRNA gene
+
+ORGANISM
+Saccharomyces cerevisiae
+
+SUMMARY
+A fitness landscape (FL) describes the genotype-fitness relationship in a given environment.  To explain and predict evolution, it is imperative to measure the FL in multiple environments because the natural environment changes frequently.  Using a high-throughput method that combines precise gene replacement with next-generation sequencing, we determine the in vivo FL of a yeast tRNA gene comprising over 23,000 genotypes in four environments.  Although genotype-by-environment interaction (G×E) is abundantly detected, its pattern is so simple that we can transform an existing FL to that in a new environment with fitness measures of only a few genotypes in the new environment.  Under each environment, we observe prevalent, negatively biased epistasis between mutations (G×G).  Epistasis-by-environment interaction (G×G×E) is also prevalent, but trends in epistasis difference between environments are predictable.  Our study thus reveals simple rules underlying seemingly complex FLs, opening the door to understanding and predicting FLs in general.
+
+DESIGN
+We constructed a library of more than 100,000 yeast strains, each carrying a tR(CCU)J gene variant at its native genomic location.  Three to five parallel competitions of this strain pool were conducted in each of four environments: 30°C in the rich medium YPD, 23°C in YPD, 37°C in YPD, and 30°C in YPD with 3% DMSO added.
+
+PLATFORM
+GPL13821 Illumina HiSeq 2000 (Saccharomyces cerevisiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

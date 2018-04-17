@@ -1,0 +1,18 @@
+TITLE
+Gene expression in squash (Cucurbita pepo) nectaries
+
+ORGANISM
+Cucurbita pepo
+
+SUMMARY
+Nectaries are the glands responsible for nectar secretion. To understand the genetic programming underlying nectar production, male and female squash(Cucurbita pepo)  floral nectaries at four different time points (pre-secretion #1, pre-secretion #2, secretory, and post-secretory) in biological triplicate were collected, with RNA being isolated and subjected to Illumina RNA-seq analysis.
+
+DESIGN
+Cucurbita pepo (Crookneck Yellow Squash) plants were grown on Sun Gro LC8 soil under a 16 hr day/8 hr night cycle, photosynthetic photon flux of 250 μmol m-2 s-1 at leaf level, and a temperature of 21°C. Four types of RNA samples were separately prepared from the nectaries of both male and female squash flowers, including: ‘pre-secretory #1’ (24 hours prior to anthesis/nectar secretion), ‘pre-secretory #2’ (12 hours prior to anthesis/nectar secretion), ‘secretory’ (full anthesis, 3 hours after dawn), and ‘post-secretory’ (12 hours after the ‘secretory’ stage). All nectary tissues were manually dissected by hand with the RNA being immediately extracted by mechanical disruption with a microcentrifuge pestle and using an RNAqueous® RNA isolation kit (Ambion, Austin, TX) with Plant RNA Isolation Aid (Ambion, Austin, TX). Agarose gel electrophoresis and UV spectrophotometry were used to assess RNA quality for all samples prior to submission to the University of Minnesota Genomics Center for mRNA isolation, barcoded library creation and Illumina HiSeq 2500 sequencing. Twenty-three TruSeq RNA v2 libraries were created (triplicate samples for male and female nectaries at four timepoints each, except for only duplicate samples of female ‘pre-secretory #2’ nectaries) and sequenced via 50 bp, paired-end runs on the HiSeq 2500 using Rapid chemistry. All libraries were pooled and sequenced across two full lanes. This generated over 240 M reads for each lane and the average quality scores were above Q30.
+
+PLATFORM
+GPL24724 Illumina HiSeq 2500 (Cucurbita pepo)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

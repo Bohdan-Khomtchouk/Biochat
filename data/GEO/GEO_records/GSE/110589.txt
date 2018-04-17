@@ -1,0 +1,18 @@
+TITLE
+Molecular Profiling of Spitz Nevi (SN) in Relation to Nevocellular Nevi (NCN)
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The molecular properties of benign melanocytic lesions are poorly understood. Only few studies have been performed on specific nevi subtypes, including common nevocellular nevi (NCN) or Spitz nevi (SN). Genomic alterations in melanoma-associated oncogenes are typically absent in SN. In the present study, mRNA expression of 25 SN and 15 NCN were analyzed. Molecular profiling was done using the RNA NanoString nCounter Gene Expression Platform (No. of genes = 770). Marker discovery was performed with a training set consisting of 7 SN and 7 NCN samples from the same patients, and validation was performed using a second set consisting of 18 SN and 8 NCN samples. Using the training set, 197 differentially expressed genes were identified in SN versus NCN. Of these, 74 genes validated in the validation set (FDR Q value ≤ 0.13). In addition, using Random Forest and LASSO feature selection a molecular signature of SN versus NCN was identified including 15 top-ranked genes. Gene set analysis showed upregulation of gene pathways with increased expression of transcripts related to immunomodulatory, inflammatory and extracellular matrix interactions as well as angiogenesis associated processes in SN. Although the molecular characteristics of malignant melanoma have been studied in detail, the molecular properties of benign melanocytic lesions such as common nevocellular nevi (NCN) and Spitz nevi (SN) remain poorly understood. This limited knowledge hinders a better understanding of atypical and malignant transformation of melanocytes. The present study identified a distinct molecular expression profile in SN compared to NCN, even when lesions were obtained from the same patients. These findings strongly indicate that SN represent a distinct group of melanocytic neoplasms and evolve differentially and not sequentially from NCN.
+
+DESIGN
+mRNA expression of 25 Spitz nevi (SN) and 15 Nevocellular nevi (NCN) were analyzed. Molecular profiling was done using the RNA NanoString nCounter Gene Expression Platform (No. of genes = 770). Marker discovery was performed with a training set consisting of 7 SN and 7 NCN samples from the same patients, and validation was performed using a second set consisting of 18 SN and 8 NCN samples. All analyses were performed with R-/Bioconductor.  Each assay included 6 positive and 8 negative controls. A positive control normalization factor was calculated (with the geometric mean method). The negative controls were used to estimate background (mean + 2 × standard deviation). Testing for differential expression of the nCounter data in SN versus NCN was done using the limma and voom method in R.
+
+PLATFORM
+GPL19956 NanoString nCounter human PanCancer Pathways Panel
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

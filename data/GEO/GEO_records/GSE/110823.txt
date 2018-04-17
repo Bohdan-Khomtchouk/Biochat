@@ -1,0 +1,18 @@
+TITLE
+Single cell profiling of the developing mouse brain and spinal cord with split-pool barcoding
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+To facilitate scalable profiling of single cells, we developed Split Pool Ligation-based Transcriptome sequencing (SPLiT-seq), a single-cell RNA-seq (scRNA-seq) method that labels the cellular origin of RNA through combinatorial barcoding. SPLiT-seq is compatible with fixed cells or nuclei, allows efficient sample multiplexing and requires no customized equipment. We used SPLiT-seq to analyze 156,049 single-nucleus transcriptomes from postnatal day 2 and 11 mouse brains and spinal cords. Over 100 cell types were identified, with gene expression patterns corresponding to cellular function, regional specificity, and stage of differentiation. Pseudotime analysis revealed transcriptional programs driving four developmental lineages, providing a snapshot of early postnatal development in the murine central nervous system. SPLiT-seq provides a path towards comprehensive single-cell transcriptomic analysis of other similarly complex multicellular systems.
+
+DESIGN
+Single-cell/nucleus RNA-seq was performed using SPLiT-seq This code explains how to read the data from the paper into python: https://gist.github.com/Alex-Rosenberg/5ee8b14ea580144facad9c2b87cebf10
+
+PLATFORM
+GPL21626 NextSeq 550 (Mus musculus) GPL24625 NextSeq 550 (Homo sapiens; Mus musculus)
+
+CITATIONS
+29545511
+

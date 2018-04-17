@@ -1,0 +1,18 @@
+TITLE
+Next generation sequencing establishes the differentially expression profiles of transgenic rainbow trout bearing cecropin P1 transgene
+
+ORGANISM
+Oncorhynchus mykiss
+
+SUMMARY
+Purpose: mRNA-Seq to reveal the differentially expression pattern of genes in innate/adaptive immune relevant pathways, and combining to the previous DNA microarray analysis to address the immunomodulatory effects of cecropin P1 transgene in rainbow trout. Methods: Total RNA were isolated from three tissues, spleen, liver  and kidney, from two individuals of two families of transgenic and one family of non-transgenic fish. The sequencing was conducted by Illumina HiSeqTM 2000 followed by Trinity de novo assembly into unigenes (the reference library constructed by non-trasngenic control fish), and, finally, been normalized to RPKM to represent the expression levels. Results: By sorting the RPKM ratio among transgenic and non-transgenic with threshold > two fold, DEGs can be defined. By RT-qPCR analysis with random selected DEGs (n=36), the reliability of RNA-Seq was comfirmed with high linear correlation (R square= 0.81). By the enrichment analysis via GeneCodis and pathway analyses via customized pathway editor tool, the functional perturbed immune relevant pathway can be determined in tissue specific manner. Conclusion: By combining the results of RNA-Seq and previous DNA microarray, the immunomodulatory effects of cecropin P1 transgene were estalished in the host, i.e. rainbow trout. By combining the direct eliminating pathogens ability and indirect immunomodulatory stimulating host immune responces of cecropin P1, the host elevates its disease resistance to pathogenic infections.
+
+DESIGN
+To generate expressoin profiles of transgenic rainbow trout bearing cecropin P1 transgene in spleen, liver and kidney, mRNA sequencing was done by Illumina HiSeqTM 2000. Please note that the de novo assembly via Trinity (used for aligning reference) was done by RNA sample from pool three tissues (spleen, liver and kidney) of non-transgenic fish samples.
+
+PLATFORM
+GPL19277 Illumina HiSeq 2000 (Oncorhynchus mykiss)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

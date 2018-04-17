@@ -1,0 +1,18 @@
+TITLE
+Development and Verification of an RNA-Seq Assay for the Detection of Gene Fusions in Tumors
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: Assessment of the performance characteristics of an RNA-Seq assay designed to detect gene fusions in 573 genes to aid in the management of cancer patients. Methods: Polyadenylated RNA was converted to cDNA which was then used to prepare NGS libraries that were sequenced on a HiSeq 2500 instrument and analyzed with an in-house developed bioinformatic pipeline. Results: The assay identified 38 of 41 (93%) gene fusions previously detected by a different laboratory using FISH, RT-PCR, or RNA-Seq for a sensitivity of 93%. No false positive gene fusions were identified in 15 normal tissue specimens and 10 tumor specimens that were negative for fusions by RNA-Seq in a different laboratory (100% specificity).  The assay also identified 22 fusions in 17 tumor specimens that had not been detected by other methods.  Nineteen of the 22 fusions had not previously been described. Good intra- and inter-assay reproducibility was observed with complete concordance for the presence or absence of gene fusions in replicates. The analytical sensitivity of the assay was tested by diluting RNA isolated from gene fusion positive cases with fusion negative RNA.  Gene fusions were generally detectable down to 12.5% dilutions for most fusions and as little as 3% for some fusions. The assay identified 38 of 41 (93%) gene fusions previously detected by a different laboratory using FISH, RT-PCR, or RNA-Seq for a sensitivity of 93%. No false positive gene fusions were identified in 15 normal tissue specimens and 10 tumor specimens that were negative for fusions by RNA-Seq in a different laboratory (100% specificity).  The assay also identified 22 fusions in 17 tumor specimens that had not been detected by other methods.  Nineteen of the 22 fusions had not previously been described. Good intra- and inter-assay reproducibility was observed with complete concordance for the presence or absence of gene fusions in replicates. The analytical sensitivity of the assay was tested by diluting RNA isolated from gene fusion positive cases with fusion negative RNA.  Gene fusions were generally detectable down to 12.5% dilutions for most fusions and as little as 3% for some fusions. This assay should be useful for identifying cancer patients that may benefit from both FDA-approved and investigational targeted therapies.
+
+DESIGN
+Sequencing data was generated using Hiseq 2500 with a library of 101 paired end reads in the rapid run mode
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

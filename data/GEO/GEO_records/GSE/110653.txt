@@ -1,0 +1,21 @@
+TITLE
+Sequence variation within similar cis-elements promotes context-specific functions of two Drosophila GA-binding transcription factors (protein binding microarray data set)
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+To more specifically define the sequence content that favors direct binding of GAF,  a genomic-context protein binding microarray (gcPBM) was used to detect GST-tagged GAF binding to double stranded DNA probes using a fluorescently conjugated anti-GST secondary antibody
+
+DESIGN
+GPL22023 - PBM experiments were performed using a custom-designed oligonucleotide array in 4x180K format (Agilent Technologies, Inc., AMADID #037964), described in detail previously (Kuzu G, Kaye EG, Chery J, Siggers T et al. Expansion of GA Dinucleotide Repeats Increases the Density of CLAMP Binding Sites on the X-Chromosome to Promote Drosophila Dosage Compensation. PLoS Genet 2016 Jul;12(7):e1006120. PMID: 27414415). The array was converted to a double-stranded DNA array and used in PBM experiments essentially as described previously using PBS binding buffer with 50 μM zinc acetate (Berger et al., Nat Biotech, 2006 and Berger & Bulyk, Nat Protoc, 2009), except that here GST-GAF-DBD was applied to one fresh and one stripped array at a final concentration of 150 nM, and either 525 nM or 600 nM MBP, respectively. N-terminal GST-tagged protein samples were made for the protein GAF; samples were made by in vitro transcription translation (IVT). IVT reaction mixtures for the GAF construct were applied directly to the PBM microarray and incubated for 1hour. Microarray-bound protein was fluorescently labeled using Alexa488-conjugated antibodies targeting GST, and the microarray was scanned in using a standard microarray scanner. Median fluorescence intensity over eight replicate probes was reported for each unique DNA sequence on the microarray.
+
+PLATFORM
+GPL22023 Agilent-037964 mre_4x180k_design_1_1211 Protein Binding Microarray (Condensed probe version)
+
+CITATIONS
+29562179
+
+MICROARRAYP
+T
+

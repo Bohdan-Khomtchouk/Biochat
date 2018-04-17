@@ -1,0 +1,18 @@
+TITLE
+Integrating single-cell transcriptomic data across different conditions, technologies, and species
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Computational single-cell RNA-seq (scRNA-seq) methods have been successfully applied to experiments representing a single condition, technology, or species to discover and define cellular phenotypes. However, identifying subpopulations of cells that are present across multiple datasets remains challenging. Here, we introduce an analytical strategy for integrating scRNA-seq datasets based on common sources of variation, enabling the identification of shared populations across datasets and downstream comparative analysis. Implemented in our R toolkit Seurat ( http://satijalab.org/seurat/ ), we use our approach to align scRNA-seq datasets of peripheral blood monocytes (PBMCs) under resting and stimulated conditions, hematopoietic progenitors sequenced using two profiling technologies, and pancreatic cell ‘atlases’ generated from human and mouse islets. In each case, we learn distinct or transitional cell states jointly across datasets, while boosting statistical power through integrated analysis. Our approach facilitates general comparisons of scRNA-seq datasets, potentially deepening our understanding of how distinct cell states respond to perturbation, disease, and evolution.
+
+DESIGN
+Human PBMCs were profiled using ddSeq and bulk RNA-seq.  The ddSeq experiment was performed on unperturbed PBMCs. The bulk RNA-seq experiments were performed on both unperturbed and IFN-beta stimulated PBMC-derived populations (cDCs and pDCs) with three technical replicates.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

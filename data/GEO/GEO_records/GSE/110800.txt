@@ -1,0 +1,18 @@
+TITLE
+RRAD, IL4I1, CDKN1A, and SERPINE1 genes are potentially co-regulated by NF-kappaB and p53 transcription factors in cells exposed to high doses of ionizing radiation [ChIP-Seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Cellular response to ionizing radiation involves activation of the p53-dependent pathways and activation of the atypical NF-κB pathway. Mechanisms of the crosstalk between these two transcriptional networks include (co)regulation of common gene targets. Novel genes potentially (co)regulated by p53 and NF-κB were found using high-throughput genomics screening in human osteosarcoma U2-OS cells irradiated with a high dose (4 and 10 Gy). Radiation-induced expression in cells with silenced TP53 or RELA (coding the p65 NF-κB subunit) genes was analyzed by RNA-Seq while radiation-induced binding of p53 and RelA (p65) in putative regulatory regions was analyzed by ChIP-Seq, then selected candidates were validated by qPCR. A subset of radiation-modulated genes whose expression was affected by silencing of both TP53 and RELA, and a subset of radiation-upregulated genes where radiation stimulated binding of both p53 and RelA were identified. Competition for the same transcriptional coactivators of p53 and NF-κB was the most probable mechanism of a frequent antagonistic effect of the TP53 and RELA silencing. However, this mode of regulation was noted for 3 genes where radiation-induced binding of both p53 and RelA was observed, namely IL4I1, SERPINE1, and CDKN1A. This suggested a possibility of a direct antagonistic (co)regulation by both factors: activation by NF-κB and inhibition by p53 of IL4I1, and activation by p53 and inhibition by NF-κB of CDKN1A and SERPINE1. On the other hand, radiation-induced binding of both p53 and RelA was observed in a putative regulatory region of RRAD gene whose expression was downregulated both by TP53 and RELA silencing, which suggested a possibility of direct (co)activation by both factors.
+
+DESIGN
+We sequenced DNA immunoprecipitated from wild type U2OS cells using rabbit polyclonal anti-p65 antibodies or rabbit polyclonal anti-p53 antibody. Cells were untreated (control) or subjected to ionizing radiation with subsequent recovery. Six ChIP replicates were collected and pooled per each sequenced sample. Input samples were included as negative control (no DNA enrichment was observed in mock-IP samples).
+
+PLATFORM
+GPL18460 Illumina HiSeq 1500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

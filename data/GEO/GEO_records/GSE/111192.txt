@@ -1,0 +1,18 @@
+TITLE
+Chromosomal DNA binding of mIHF
+
+ORGANISM
+Mycobacterium tuberculosis
+
+SUMMARY
+mIHF is a possible nucleoid associated protein, but its DNA binding characteristics are unknown. To address this, we performed a ChIP-seq analysis of mIHF in Mycobacterium tuberculosis.
+
+DESIGN
+Monoclonal anti-mIHF (Alere) was used for the mIHF ChIP-Seq experiment. To check that the technique works, and for comparative analysis, we reproduced the experiment from Blasco et al. 2012 (PMID: 22479184), using polyclonal rat anti-EspR antibodies. Input control was not incubated with any antibody. For mIHF, two different concentrations of antibodies were tested. Spearman correlation of the resulting binding sites was 0.96, so the two datasets were pooled for the final peak calling.
+
+PLATFORM
+GPL17879 Illumina HiSeq 2500 (Mycobacterium tuberculosis)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

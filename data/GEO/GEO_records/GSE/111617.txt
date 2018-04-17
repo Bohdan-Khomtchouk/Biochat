@@ -1,0 +1,18 @@
+TITLE
+DNA methylation profile of adipocytes treated with DNMT inhibitor, guadecitabine (100nM, 3X daily).
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Ovarian cancer (OC) cells frequently metastasize to the omentum and adipocytes play a significant role in ovarian tumor progression. Therapeutic interventions targeting aberrant DNA methylation in ovarian tumors have shown promise in the clinic but the effects of epigenetic therapy on the tumor microenvironment are understudied. Here, we examined the effect of adipocytes on OC cell behavior in culture and impact of targeting DNA methylation in adipocytes on OC metastasis. The presence of adipocytes increased OC cell migration and invasion and proximal and direct co-culture of adipocytes . Treatment of adipocytes with hypomethylating agent guadecitabine decreased migration and invasion of OC cells towards adipocytes.
+
+DESIGN
+Due to this result, we performed methyl-capture-seq of adipocytes treated with DNMT1 inhibitor to analyze differential gene expression changes that occur in the adipocyte that may explain the above observation that hypomethylating agent treatment of adipocytes decrease migration and invasion. In duplicate, subcutaneous, human, primary adipocytes (ATCC) were treated with DMSO control or guadecitabine (100nM, 3X daily) and on day 4, DNA was extracted with AllPrep kit (Qiagen #80204) from adipocytes, sonicated (180-200bp), and used as input for methylated DNA capture kit (Diagenode) according to manufacturer’s protocol. Mecap-seq libraries were prepared with NEXTflex Methyl-Seq1 kit (Bioo Scientific) according to manufacturer’s protocol. Libraries were verified using Qubit and Bioanalyzer, prior to sequencing on Illumina NextSeq.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

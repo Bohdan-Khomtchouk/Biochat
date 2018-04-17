@@ -1,0 +1,18 @@
+TITLE
+Nanopore and Illumina sequencing of limited MNase digests to map chromatin regularity and linker length
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+The nature of chromatin as regular succession of nucleosomes has gained iconic status. However, since most nucleosomes in metazoans are poorly positioned it is unknown to which extent the bulk genomic nucleosome repeat length (NRL) reflects the regularity and spacing of nucleosome arrays at individual loci. We describe a new approach to map nucleosome fiber regularity and spacing through sequencing oligonucleosome-derived DNA by classical as well as emergent nanopore-technology. This revealed modulation of chromatin regularity and NRL depending on functional chromatin states independently of nucleosome positioning and even in unmappable regions. We also found that that nucleosome arrays downstream of silent promoters are considerably more regular than those downstream of highly expressed ones, despite most extensive nucleosome phasing of the latter. Our approach is generally applicable and provides an important parameter of chromatin organisation that so far had been missing.
+
+DESIGN
+Chromatin from Drosophila BG3-c2 or Kc cells was digested with MNase to oligonucleosomal ladders. Total digested DNA was either sequenced on Oxford Nanopore Minion devices, or the tetranucleosomal band was cut out and the purified DNA sequenced paired-end on an Illumina 1500 HiSeq machine to measure nucleosome repeat length along the genome with high resolution.
+
+PLATFORM
+GPL19951 Illumina HiSeq 1500 (Drosophila melanogaster) GPL24622 MinION (Drosophila melanogaster)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

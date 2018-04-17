@@ -1,0 +1,18 @@
+TITLE
+Multisystems analysis of Mycobacterium tuberculosis reveals kinase-dependent remodeling of the pathogen-environment interface
+
+ORGANISM
+Mycobacterium tuberculosis H37Rv
+
+SUMMARY
+Tuberculosis is the leading killer among infectious diseases worldwide. Increasing multi-drug resistance has prompted new approaches for tuberculosis drug development, including targeted inhibition of virulence determinants and of signaling cascades that control many downstream pathways. We used a multisystems approach to determine the effects of a potent small molecule inhibitor of the essential Mycobacterium tuberculosis Ser/Thr protein kinases PknA and PknB. We observed differential phosphorylation of many proteins and extensive changes in gene expression, protein abundance, cell wall lipids and intracellular metabolites. The patterns of these changes indicate regulation by PknA and PknB of several pathways required for cell growth, including ATP synthesis, DNA synthesis and translation. These data also highlight effects on pathways for remodeling of the mycobacterial cell envelope via control of peptidoglycan turnover, lipid content, a SigE-mediated envelope stress response, transmembrane transport systems, and protein secretion systems. Integrated analysis of phosphoproteins, transcripts, proteins, and lipids identified an unexpected pathway whereby threonine phosphorylation of the essential response regulator MtrA decreases its DNA binding activity. Inhibition of this phosphorylation is linked to decreased expression of genes for peptidoglycan turnover, and of genes for mycolyl transferases, with concomitant changes in mycolates and glycolipids in the cell envelope. These findings reveal novel roles for PknA and PknB in regulating multiple essential cell functions and confirm these kinases as potentially valuable targets for new anti-tuberculosis drugs. In addition, these linked multisystems data provide a valuable resource for future targeted investigations into the pathways regulated by these kinases in the M. tuberculosis cell.
+
+DESIGN
+RNA-seq for comparison of transcriptomic effects of a chemical inhibitor of Mycobacterium tuberculosis Ser/Thr protein kinases PknA and PknB, to an inactive control compound. Two experiments: 1) a time course comparing active inhibitor (T4) vs. control compound (T10) in wild type M. tuberculosis H37Rv, and 2) comparison of treatment with T4 vs. T10 at 48 hours in pknD and pknL mutant strains derived from M. tuberculosis H37Rv.
+
+PLATFORM
+GPL17280 Illumina HiSeq 2000 (Mycobacterium tuberculosis H37Rv) GPL23592 Illumina NextSeq 500 (Mycobacterium tuberculosis H37Rv)
+
+CITATIONS
+29511081
+

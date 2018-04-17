@@ -1,0 +1,18 @@
+TITLE
+Genome wide characterization of a STAT1-independent antiviral and immunoregulatory transcriptional program induced by IFNβ and TNFα reveals non-canonical STAT2 and IRF9 pathways
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: IFNβ plays a critical role in the host defense against pathogens. Response to IFNβ is context-dependent and is prone to  crosstalk with other cytokines. The purpose of this study was to employ RNA-seq analysis to characterize the genome-wide transcriptional profile induced in response to IFNβ and TNFα. Methods: Total RNA was prepared using the RNAqueous-96 Isolation Kit (Ambion) following the  3 manufacturer's instructions. Total RNA (1μg) was subjected to reverse transcription using the  4 QuantiTect Reverse Transcription Kit (Qiagen). Quantitative PCR were performed using either Fast  5 start SYBR Green Kit (Roche) for Mx1, IDO, APOBEC3G, CXCL10, NOD2, PKR, IRF1, and IFIT1  6 and IL8 or TaqMan Gene Expression Assays (Applied Biosystems) for DUOX2, IFI27, SERPINB2,  7 IL33, CCL20, ISG20, OAS3, GRB14, CLEC5A, DGX58, ICAM1, IL1B, JUNB, MMP9, SERPINA1  8 and HERC6.  Total RNA prepared as described above was quantified using a NanoDrop Spectrophotometer ND-  16 1000 (NanoDrop Technologies, Inc.) and its integrity was assessed using a 2100 Bioanalyzer (Agilent Technologies). Libraries were generated from 250 ng of total RNA using the NEBNext poly(A) magnetic isolation module and the KAPA stranded RNA-Seq library preparation kit (Kapa Biosystems), as per the manufacturer’s recommendations. Results: We found that costimulation  with IFNβ and TNFα induces a broad antiviral and immunoregulatory transcriptional program  independently of STAT1. Additional sequencing performed following silencing of STAT2 or IRF9  allowed us to unveil specific independent roles of STAT2 and IRF9 in the regulation of distinct sets  of IFNβ and TNFα-induced genes. Consistent with the growing literature, IFNβ and TNFα  synergistic action is in part mediated by the concerted action of STAT2 and IRF9, most likely present  in a non-canonical complex. Finally, our study reveals previously unrecognized independent roles of  STAT2 and IRF9 in the regulation of distinct sets of IFNβ and TNFα-induced genes. Conclusions: Our results show that NGS offers a comprehensive and more accurate quantitative and qualitative evaluation of mRNA content within a cell or tissue. We conclude that RNA-seq based transcriptome characterization would expedite genetic network analyses and permit the dissection of complex biologic functions.
+
+DESIGN
+Overall, we determined the induction profile of a selected panel of immunoregulatory and antiviral genes in response to IFNβ+TNFα in comparison to TNFα or IFNβ alone. A549 cells were stimulated either with TNFα, IFNβ or IFNβ+TNFα for various times between 3-24h and the  relative mRNA expression levels were quantified by qRT-PCR. To investigate the transcriptional program triggered independently of STAT1, the U3A cells  were efficiently transfected with Control (Ctrl)-, STAT2- or IRF9-RNAi and further left untreated or  stimulated with IFNβ+TNFα for 16h total RNA was isolated and analyzed  by RNA sequencing (n=3 for each group detailed in Figure 2B) on an Illumina HiSeq2500 platform.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Mélissa Mariani, Pouria Dasmeh, Audray Fortin, Mario Kalamujic, Elise Caron, Alexander N Harrison, Sandra Cervantes-Ortiz, Espérance Mukawera, Adrian Serohijos, Nathalie Grandvaux. RNASeq analysis identifies non-canonical role of STAT2 and IRF9 in the regulation of a STAT1-independent antiviral and immunoregulatory transcriptional program induced by IFNβ and TNFα. bioRxiv 273623. doi:10.1101/273623.
+

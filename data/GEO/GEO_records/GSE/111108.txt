@@ -1,0 +1,18 @@
+TITLE
+Single cell profiling of 3 Human Lung Adenocarcinoma cell lines.
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+An equal mixture of cells from the 3 Human Lung Adenocarcinoma cell lines (H2228, NCI-H1975 and HCC827) were processed on the Chromium 3' single cell platform (10X Genomics) and sequenced on an Illumina NextSeq 500. FASTQ data were preprocessed using both scPipe and CellRanger.
+
+DESIGN
+The cell lines H2228, NCI-H1975 and HCC827 were retrieved from ATCC ( https://www.atcc.org/ ) and cultured in Roswell Park Memorial Institute (RPMI) 1640 medium with 10% fetal calf serum (FCS) and 1% Penicillin-Streptomycin. The cells were grown independently at 37˚C  with 5% carbon dioxide until near 100% confluency. Cells were PI stained and 120,000 live cells were sorted for each cell line by FACS to acquire an accurate equal mixture of live cells from the three cell lines. This mixture was then processed by the Chromium single cell platform using the manufacturer’s (10X Genomics) protocol and sequenced with the Illumina Nextseq 500. Filtered gene expression matrices were generated using CellRanger (10X Genomics) and scPipe independently. For CellRanger, we used the default parameters, with --expect-cells=4000. For scPipe, we processed the 4000 most enriched cell barcodes, with comp=2 used for quality control to remove poor quality cells. The GRCh38 human genome and associated annotation were used for both the scPipe and CellRanger analysis.
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

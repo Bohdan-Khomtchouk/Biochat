@@ -1,0 +1,18 @@
+TITLE
+Hydrogen peroxide positively regulates brassinosteroid signaling through oxidation of the BRASSINAZOLE-RESISTANT1 transcription factor
+
+ORGANISM
+Arabidopsis thaliana
+
+SUMMARY
+Hydrogen peroxide (H2O2) is an important signaling molecule in plant developmental processes and stress responses. However, whether H2O2-mediated signaling can crosstalk with plant hormone signaling is largely unclear. Here, we show that H2O2 induces oxidation of the BRASSINAZOLE-RESISTANT1 (BZR1) transcription factor, which functions as a master regulator of Brassinosteroid (BR) signaling. Oxidative modification enhances BZR1 transcriptional activity by promoting its interaction with regulators of auxin- and light-signaling, including AUXIN RESPONSE FACTOR6 (ARF6) and PHYTOCHROME INTERACTING FACTOR4 (PIF4). Genome-wide analysis shows that H2O2-dependent regulation of BZR1 activity plays a major role in modifying gene expression related to several BR-mediated biological processes. Furthermore, we show that the thioredoxin TRXh5 can interact with, and catalyze reduction of, BZR1. We conclude that reversible oxidation of BZR1 connects H2O2- and thioredoxin-mediated redox signaling to BR signaling to regulate plant development
+
+DESIGN
+Wild type Col-0 and bzr1-1D were grown in ½ MS medium containing 2 µM PPZ, and/or 1 µM DPI, 0.3 mM H2O2 for six days in the dark. Total RNA was extracted with Trizaol RNA extraction kit (Transgene), and the mRNA sequencing libraries construction and sequencing on the BGISEQ-500 platform were performed at Beijing Geonomics institute (BGI). The sequence reads were mapped to the Arabidopsis genome using HISAT and Bowtie2 software, and differential gene expression was analyzed using Noiseq software. Differentially expressed genes were defined by a 1.5-fold expression difference with a possibility > 0.8.
+
+PLATFORM
+GPL24025 BGISEQ-500 (Arabidopsis thaliana)
+
+CITATIONS
+29540799
+

@@ -1,0 +1,18 @@
+TITLE
+Characterizing protein-DNA binding event subtypes in ChIP-exo data
+
+ORGANISM
+Saccharomyces cerevisiae ; Homo sapiens
+
+SUMMARY
+Regulatory proteins associate with the genome either by directly binding cognate DNA motifs or via protein-protein interactions with other regulators. Each genomic recruitment mechanism may be associated with distinct motifs, and may also result in distinct characteristic patterns in high-resolution protein-DNA binding assays. For example, the ChIP-exo protocol precisely characterizes protein-DNA crosslinking patterns by combining chromatin immunoprecipitation (ChIP) with 5’ to 3’ exonuclease digestion. Since different regulatory complexes will result in different protein-DNA crosslinking signatures, analysis of ChIP-exo sequencing tag patterns should enable detection of multiple protein-DNA binding modes for a given regulatory protein. However, current ChIP-exo analysis methods either treat all binding events as being of a uniform type, or rely on the presence of DNA motifs to cluster binding events into subtypes. To systematically detect multiple protein-DNA interaction modes in a single ChIP-exo experiment, we introduce the ChIP-exo mixture model (ChExMix). ChExMix probabilistically models the genomic locations and subtype membership of protein-DNA binding events using both ChIP-exo tag enrichment patterns and DNA sequence information, thus offering a principled and robust approach to characterizing binding subtypes in ChIP-exo data. We demonstrate that ChExMix achieves accurate detection and classification of binding event subtypes using in silico mixed ChIP-exo data. We further demonstrate the unique analysis abilities of ChExMix using a collection of ChIP-exo experiments that profile the binding of key transcription factors in MCF-7 cells. In these data, ChExMix detects cooperative binding interactions between FoxA1, ERalpha, and CTCF, thus demonstrating that ChExMix can effectively stratify ChIP-exo binding events into biologically meaningful subtypes.
+
+DESIGN
+Genome-wide analysis of key regulatory factors in breast cancer progression using ChIP-exo
+
+PLATFORM
+GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19756 Illumina NextSeq 500 (Saccharomyces cerevisiae)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+

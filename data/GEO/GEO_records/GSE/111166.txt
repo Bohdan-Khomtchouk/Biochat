@@ -1,0 +1,18 @@
+TITLE
+Genome-Wide CRISPR/Cas9 Screen Identifies Host Factors Essential for Influenza Virus Replication
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The emergence of influenza A viruses (IAV) from zoonotic reservoirs poses a great threat to human health. As seasonal vaccines are ineffective against zoonotic strains, and newly transmitted viruses can quickly acquire drug resistance, there remains a need for host- directed therapeutics against IAV. Here, we performed a genome-scale CRISPR/Cas9 knockout screen in human lung epithelial cells with a human isolate of an avian H5N1 strain. Several genes involved in sialic acid biosynthesis and related glycosylation pathways were highly enriched post-H5N1 selection, including SLC35A1, a sialic acid transporter essential for IAV receptor expression and thus viral entry. Importantly, we have identified capicua (CIC) as a negative regulator of cell intrinsic immunity, as loss of CIC resulted in heightened antiviral responses and restricted replication of multiple viruses. Therefore, our study demonstrates that the CRISPR/Cas9 system can be utilized for the discovery of host factors critical for the replication of intracellular pathogens.
+
+DESIGN
+A pooled library of A549 cells lacking individual genes was generated using CRISPR/Cas9 gene deletion technique (A549-GeCKO library; genome-wide CRISPR knockout library). The single guide RNA (sgRNA) representation in the A549-GeCKO library was sequenced. The A549-GeCKO library was subjected to 5 consecutive rounds of infection with a human isolate of low pathogenic H5N1 influenza virus and the sgRNA enriched in the resistant population were sequenced (Prelim Rd 5). In addition, a sequential screen was performed in biological duplicates and the sgRNA eriched after each round of infection were sequenced (Rd 1-5, Rep1-2 )
+
+PLATFORM
+GPL15520 Illumina MiSeq (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
