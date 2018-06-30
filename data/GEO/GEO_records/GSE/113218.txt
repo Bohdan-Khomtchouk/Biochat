@@ -1,0 +1,17 @@
+TITLE
+Epigenetic changes induced by Bacteroides fragilis toxin (BFT) [RNA-seq]
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: The goal of this study is to determine how BFT2 alters chromatin accessibility at relatively early time points in colon epithelial cells, and to correlate the changes in chromatin accessibility with changes in gene expression, transcription factor binding sites, and the location of common single nucleotide variants (SNVs) and differentially methylated regions (DMRs) in colorectal cancer. Methods: HT29/C1 cells were plated at low density and allowed to grow for 4 days at 37C and 10% CO2. Afterwards, cells were either left untreated or treated with 100ng/mL BFT2 for 24 or 48 hours. After the specified time point, cells were counted and RNA was collected in order to prepare RNA-seq libraries. RNA was collected using the Qiagen RNeasy mini kit. mRNA was enriched using the NEBNext Poly(A) mRNA Magnetic Isolation Module. Afterwards, a non-directional RNA-seq library was constructed using the NEBnext Ultra RNA Library Prep kit from Illumina. The 2nM pooled RNA-seq library was sequenced using the Illumina HiSeq. Results: After sequencing, Kallisto was used to perform pseudoalignment of the raw RNA-seq data. Then, Sleuth was used to quantify gene expression and perform differential expression analyses. After treatment with BFT2 for 24 hours, 70 genes were differentially expressed (P-value < 0.01). Of these genes, 41 showed a decrease in gene expression, while 29 showed an increase in gene expression. After BFT2 treatment for 48 hours, we found only 16 differentially expressed genes (P-value < 0.01); 3 showed a decrease in gene expression and 13 showed an increase in gene expression. Conclusions: This study adds critical knowledge to our understanding of host-microbe interactions in the gut. While scientists have begun to analyze the effect of specific bacteria on the epigenome of colon epithelial cells, to date, no other studies have surveyed the effect of a specific bacterial toxin on chromatin accessibility in colon epithelial cells. We conclude that BFT2 alters chromatin accessibility in colon epithelial cells, and that these changes correlate with subsequent changes in gene expression. Also, sites of BFT2-induced increased chromatin accessibility are associated with a lower frequency of common single nucleotide variants (SNVs) in CRC and with a higher frequency of common differentially methylated regions (DMRs) in CRC.
+
+DESIGN
+Gene expression in HT29/C1 cells with and without BFT2 treatment for 24 or 48 hours was assessed, in triplicate, using Illumina HiSeq.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

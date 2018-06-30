@@ -35,36 +35,32 @@
 
 (defun vec-closest-recs (rec &key (measure 'cos-sim))
   (with ((vec (geo-vec rec))
-         (toks (geo-toks rec))
          (rez (lparallel:pmap 'list ^(pair (? *geo-db* (lt %))
                                            (rt %))
-                              (sort (map* ^(pair % (apply measure vec %%
-                                                          (list toks
-                                                                (geo-toks
-                                                                 (? *geo-db* %)))))
+                              (sort (map* ^(pair % (apply measure vec %%))
                                           (range 0 (length *geo-vecs*))
                                           *geo-vecs*)
                                     '> :key 'rt))))
     (when (plusp (length rez))
       (subseq rez 1))))
 
-(defun cos-sim (v1 v2 &rest _)
+(defun cos-sim (v1 v2)
   (declare (ignore _))
   (/ (mat:dot v1 v2)
      (* (mat:nrm2 v1)
         (mat:nrm2 v2))))
 
-(defun euc-sim (v1 v2 &rest _)
+(defun euc-sim (v1 v2)
   (declare (ignore _))
   (/ 1 (1+ (mat:nrm2 (mat:m- v1 v2)))))
 
-(defun eucos-sim (v1 v2 &rest _)
+(defun eucos-sim (v1 v2)
   (sqrt (* (cos-sim v1 v2)
            (euc-sim v1 v2))))
 
-(defun smoothed-cos-sim (v1 v2 toks1 toks2 &key (smoothing 5))
-  (with ((toks-s1 (hash-set toks1 :test 'equalp))
-         (toks-s2 (hash-set toks2 :test 'equalp))
+(defun smoothed-cos-sim (v1 v2 &key (smoothing 5))
+  (with ((toks-s1 (hash-set @v1.toks :test 'equalp))
+         (toks-s2 (hash-set @v2.toks :test 'equalp))
          (overlap (/ (ht-count (inter# toks-s1 toks-s2))
                      (ht-count (union# toks-s1 toks-s2)))))
     (* (cos-sim v1 v2)

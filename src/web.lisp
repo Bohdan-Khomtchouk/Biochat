@@ -33,7 +33,7 @@
   (who:with-html-output-to-string (out)
     (:html
      (:head
-      (:title "Biochats")
+      (:title "Biochat")
       (:link :href "/static/style.css" :rel "stylesheet" :type "text/css")
       (:script :type "text/javascript" :src "/static/jquery-1.11.3.js" "")
       (:script :type "text/javascript" :src "/static/spin.js" "")

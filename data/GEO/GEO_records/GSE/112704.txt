@@ -1,0 +1,17 @@
+TITLE
+Building a schizophrenia genetic network: Transcription Factor 4 regulates genes involved in neuronal development and schizophrenia risk
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+The transcription factor 4 (TCF4) locus is a robust association finding with schizophrenia (SZ), but little is known about the genes regulated by the encoded transcription factor. Therefore, we conducted chromatin immunoprecipitation sequencing (ChIP-seq) of TCF4 in neural-derived (SH-SY5Y) cells to identify genome-wide TCF4 binding sites, followed by data integration with SZ association findings. We identified 11,322 TCF4 binding sites overlapping in two ChIP-seq experiments. These sites are significantly enriched for the TCF4 Ebox binding motif ( > 85% having ≥1 Ebox) and implicate a gene set enriched for genes down-regulated in TCF4 siRNA knockdown experiments, indicating the validity of our findings. The TCF4 gene set was also enriched among 1) Gene Ontology categories such as axon/neuronal development, 2) genes preferentially expressed in brain, in particular pyramidal neurons of the somatosensory cortex, and 3) genes down-regulated in post-mortem brain tissue from SZ patients (OR=2.8, permutation p < 4x10-5). Considering genomic alignments, TCF4 binding sites significantly overlapped those for neural DNA binding proteins such as FOXP2 and the SZ-associated EP300. TCF4 binding sites were modestly enriched among SZ risk loci from the Psychiatric Genomic Consortium (OR=1.56, p=0.03). In total, 130 TCF4 binding sites occurred in 39 of the 108 regions published in 2014. Thirteen genes within the 108 loci had both a TCF4 binding site ±10kb and were differentially expressed in siRNA knockdown experiments of TCF4, suggesting direct TCF4 regulation. These findings confirm TCF4 as an important regulator of neural genes and point towards functional interactions with potential relevance for SZ.
+
+DESIGN
+ChIP-seq for TCF4 (long isoform) using two different antibodies in SH-SY5Y cells, using IgG ChIP as control
+
+PLATFORM
+GPL20148 AB 5500xl-W Genetic Analysis System (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

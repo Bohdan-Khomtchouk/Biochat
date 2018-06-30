@@ -1,0 +1,20 @@
+TITLE
+C. elegans: total mRNA vs. AWA-specifc mRNA
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+Transcriptional profiling of AWA neurons comparing total mRNA of C. elegans The aforementioned results provided us a clear indication that a GPCR expressed in AWA would likely be used for pheromone perception. To get a male AWA-specific expression profile, we adopted a poly-A-binding protein (PABP) mRNA pull-down approach to isolate cell-specific genes (Kunitomo et al., 2005) and co-transformed into the worms a sex determination gene, fem-3, to masculinize its nervous system. Ectopic expression of fem-3 in all neurons can change the entire nervous system to adopt a male identity (Ahringer & Kimble, 1991; Rosenquist & Kimble, 1988). We established the male AWA single-cell transcriptional profile by pooling mRNA from AWA with ectopic expression of PABP there driven by an AWA-specific promoter from odr-7. This PABP fused with an epitope protein tag (FLAG tag) is then extracted using the corresponding antibody, while AWA enriched transcripts with poly-A tail, including the GPCRs, were pulled down together and subjected to microarray analysis. The results confirmed the existence of dyp-13 (hypodermal gene), myo-3 (muscle gene) and odr-10 (AWA-specific over-expression gene) in total RNA samples while odr-10 was found to be over-expressed in AWA enriched sample, where dpy-13 and myo-3 were depleted. The pull-down RNA sample was labeled with cyanine 5 (which is excited by a 532nm laser) and the total RNA sample was labeled with cyanine 3 (which is excited by a 633nm laser). Comparison between transcriptome profiles revealed key differences between whole worm and male AWA neurons, which allows identification of male AWA-enriched transcripts including those encoding GPCRs.
+
+DESIGN
+Two-condition experiment, AWA-specific pull-down mRNA vs. total mRNA. Biological replicates: 4 control replicates, 4 AWA-specific pull-down replicates.
+
+PLATFORM
+GPL13922 Axon/Agilent-015061:C. elegans Oligo Microarray 4x44K
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
+
+MICROARRAYP
+T

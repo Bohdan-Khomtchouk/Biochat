@@ -1,0 +1,17 @@
+TITLE
+Role of Epstein-Barr Virus (EBV) latency protein EBNA3C in EBV-induced lymphomagenesis in a cord blood-humanized mouse model
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+This study compares cellular and viral gene expression in a cord blood-humanized (CBH) mouse model infected with wild-type Epstein-Barr virus (WT), versus a mutant EBV deleted in the latent viral EBNA3C gene (∆3C). EBV causes human B-cell lymphomas and transforms B cells in vitro. EBNA3C, an EBV protein expressed in latently infected cells, is required for EBV transformation of B cells in vitro. However, many EBV+ lymphomas in humans do not express this protein, suggesting that it may be less important in vivo or that cellular mutations and/or signaling pathways may obviate the need for EBNA3C. EBNA3C collaborates with EBNA3A to repress expression of the CDKN2A-encoded tumor suppressors, p16 and p14, and EBNA3C-deleted EBV transforms B cells containing a p16 germline mutation in vitro. We found that the ∆3C virus induced fewer lymphomas (occurring with a delayed onset) in comparison to the wild-type (WT) control virus, although a subset (10/26) of Δ3C-infected CBH mice eventually developed invasive diffuse large B cell lymphomas with type III latency. Both WT and ∆3C viruses induced monoclonal B-cell lymphomas (without somatic hyper-mutation) that were infiltrated by polyclonal T cells. In comparison to WT-infected tumors, ∆3C-infected tumors had greatly increased p16 levels, and RNA-seq analysis revealed a decrease in E2F target gene expression. However, we found that ∆3C-infected tumors expressed c-Myc and cyclin E at similar levels compared to WT-infected tumors, allowing cells to at least partially bypass p16-mediated cell cycle inhibition. Unexpectedly, ∆3C-infected tumors had increased T-cell infiltration, increased expression of T-cell chemokines (CCL5, CCL20 and CCL22) and enhanced type I interferon response in comparison to WT tumors. Together, these results reveal that EBNA3C contributes to, but is not essential for, EBV-induced lymphomagenesis in CBH mice, and suggest potentially important immunologic roles of EBNA3C in vivo.
+
+DESIGN
+Cord-blood humanized mice were infected with either wild-type B95.8 EBV or an EBNA3C mutant virus. Following euthanasia, RNA was isolated from the B-cell lymphoma tissue, and RNA-seq libraries were prepared and sequenced using an Illumina HiSeq2000 platform at the University of Wisconsin Biotechnology Center DNA Sequencing Facility. Mouse sequences were removed from analysis. Results from lymphomas infected with wild-type EBV (two different tumors) or EBNA3C mutant virus (two different tumors) are compared. After the initial mapping/QC, the datasets 'wildtype_2' and 'dEBNA3C_3' were considered to be outliers. Therefore, these two sets of data were excluded from expression DEG analysis, and are not included here.
+
+PLATFORM
+GPL16791 Illumina HiSeq 2500 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

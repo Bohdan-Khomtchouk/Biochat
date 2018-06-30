@@ -1,0 +1,17 @@
+TITLE
+Next Generation Sequencing Facilitates Quantitative of Transcriptomes in Various Cells Treated with or without LD100 and siRNA of SOD1
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: mRNA-sequencing has revolutionized systems-based analysis of cellular pathways. The goals of this study are to systemically research the biological functions of SOD1 in ROS signaling pathway using specific SOD1 inhibitor-LD100 and its validated siRNA. Methods: We reported the mRNA-sequencing data of HeLa cells (designated as C), LD100-treated HeLa cells (L), SOD1 knockdown HeLa cells (S), DU145 cells (DC), LD100-treated DU145 cells (DL), RWPE-1 cells (RC) and LD100-treated RWPE-1 cells (RL). All the samples were sequenced in triplicate, using Illumina HiSeq PE150. Remaining paired-end clean reads were aligned to the reference genome (GRCh38) using HISAT aligner. After calculating the reads numbers mapped to each gene by HTSeq, we estimated gene expression levels via FPKM. Differential expression analysis of two different groups was performed using the DESeq R package, which was based on a model of negative binomial distribution. Results: A total of 133,070,980 reads in the control group, 128,097,025 reads in the SOD1 knockdown group, and 129,315,055 in the LD100-treated group were mapped to the reference genome. The total of 4513 differentially expressed genes (DEGs) was identified in the knockdown group, and the total of 2650 DEGs was identified in the SOD1 inhibition group compared to the control group. A total of 170,657,327 and 175,502,302 reads in the control group of DU145 and RWPE-1, 181,591,462 and 179,503,168 reads in the LD100-treated group of DU145 and RWPE-1 were respectively mapped to the reference genome. Among them, 8806 DEGs were identified in the LD100-treated DU145 cells compared to the control, but only 1503 DEGs were identified in the LD100-treated RWPE-1 cells compared to the control. Conclusions: The global transcriptomic data on HeLa, DU145 and RWPE-1 after SOD1 inhibition using its specific inhibitor-LD100 indicated that the most changed expression upon this interruption of ROS homeostasis is the key genes in plenty of signaling pathways inside cancer cells, not inside normal cells, although mRNA levels of numerous genes are altered in three lines of cells. The modulation of gene expression leads to repression of multiple signaling pathways including ERK, PI3K and NF-KB and their crosstalk to promote cell growth and activation of the signaling pathways to cause both cell cycle arrest and apoptosis. These modulated signaling pathways constitute a ROS signaling network, and SOD1 is a master hub in modulation of the network to selectively kill cancer cells.
+
+DESIGN
+Examination of transcriptomes in HeLa cells (designated as C), LD100-treated HeLa cells (L), SOD1 knockdown HeLa cells (S), DU145 cells (DC), LD100-treated DU145 cells (DL), RWPE-1 cells (RC) and LD100-treated RWPE-1 cells (RL).
+
+PLATFORM
+GPL20301 Illumina HiSeq 4000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

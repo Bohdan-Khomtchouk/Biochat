@@ -1,0 +1,17 @@
+TITLE
+TAF-ChIP: An ultra low input approach for genome wide chromatin immunoprecipitation assay
+
+ORGANISM
+Drosophila melanogaster ; Homo sapiens
+
+SUMMARY
+The transcriptional regulation is often controlled by the epigenetic modifications or by chromatin associated proteins. To understand this regulation, chromatin immunoprecipitation (ChIP) followed by next generation sequencing is an invaluable and powerful technique. However, the major limitation of this approach is often the requirement of large amount of starting material for generating high-quality datasets, and often the workflow is laborious. This limitation also results in application of this approach to study of rare cell populations even more challenging, if not impossible. Here, we present a tagmentation-assisted fragmentation ChIP (TAF-ChIP) and sequencing method to generate high quality dataset from as few as 100 human and 1000 Drosophila cells. The method itself is straightforward and is by far less labor-intensive than conventional library preparation, and other contemporary low amount ChIP-Seq methods. Furthermore, this approach can be applied directly on 100 cells rather than relying on de-multiplexing strategies to generate the profile from limited number of cells. This can be extremely useful when the access to the starting material is very restricted, for example clinically isolated cells from patients. Using this approach we generated the H3K4Me3 and H3K9Me3 profiles from 100 K562 cells and 1000 sorted neural stem cells (NSC) from Drosophila. We benchmarked our TAF-ChIP datasets from K562 cells against the Encode datasets. For validating the TAF-ChIP datasets obtained from Drosophila NSCs we took advantage of Notch induced over proliferation specifically in type II NSCs. The epigenetic profile obtained from conventional ChIP-Seq approach and TAF-ChIP approach shows high degree of agreement, thereby underlining the utility of this approach for generating ChIP-Seq profiles from very low cell numbers.
+
+DESIGN
+ChIP Seq datasets from sorted Neural stem cells (NSCs) from Drosophila larval brain
+
+PLATFORM
+GPL13304 Illumina HiSeq 2000 (Drosophila melanogaster) GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19132 Illumina NextSeq 500 (Drosophila melanogaster)
+
+CITATIONS
+Junaid Akhtar, Piyush More, Apurva Kulkarni, Federico Marini, Waldemaar Kaiser, and Christian Berger. TAF-ChIP: An ultra-low input approach for genome wide chromatin immunoprecipitation assay. bioRxiv 299727. doi:10.1101/299727

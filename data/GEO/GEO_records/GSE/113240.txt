@@ -1,0 +1,17 @@
+TITLE
+Gene regulatory network architecture in different developmental contexts influences the genetic basis of morphological evolution
+
+ORGANISM
+Drosophila melanogaster
+
+SUMMARY
+Convergent phenotypic evolution is often caused by recurrent changes at particular nodes in the underlying gene regulatory networks (GRNs). The genes at such evolutionary 'hotspots' are thought to maximally affect the phenotype with minimal pleiotropic consequences. This has led to the suggestion that if a GRN is understood in sufficient detail, the path of evolution may be predictable. The repeated evolutionary loss of larval trichomes among Drosophila species is caused by the loss of shavenbaby (svb) expression. svb is also required for development of leg trichomes, but the evolutionary gain of trichomes in the 'naked valley' on T2 femurs in Drosophila melanogaster is caused by the loss of microRNA-92a (miR-92a) expression rather than changes in svb. We used RNAseq of second (T2) pupal legs (20-28 h after puparium formation) to compare the expression of trichome GRN genes between strains with a large and a small naked valley. We also compared the function of components between the larval and leg trichome GRNs to investigate why the genetic basis of trichome pattern evolution differs in these developmental contexts. Moreover, we used ATAC-seq of second (T2) pupal legs (20-28 h after puparium formation) to identify the pupal leg enhancers of svb. We found key differences between the two networks in both the genes employed, and in the regulation and function of common genes. These differences in the GRNs reveal why mutations in svb are unlikely to contribute to leg trichome evolution and how instead miR-92a represents the key evolutionary switch in this context. Our work shows that variability in GRNs across different developmental contexts, as well as whether a morphological feature is lost versus gained, influence the nodes at which a GRN evolves to cause morphological change. Therefore, our findings have important implications for understanding the pathways and predictability of evolution.
+
+DESIGN
+We used RNAseq to compare gene expression in second legs between two Drosophila melanogaster strains and ATAC-Seq to identify enhancers of certain genes. We used three replicates each of ca. 80 second (T2) pupal legs (20-28 h after puparium formation) of two different Drosophila melanogaster strains (ebony[4],white ocelli[1], rough[1] and Oregon R) and extracted RNA or chromatin from them. Library preparation for RNAseq and paired end (75 bp) seqencing with an Illumina HiSeq 4000 were done by Edinburgh Genomics. For ATAC-Seq Chromatin was tagmented using Tn5 transposase and library preparation was performed using a protocol modified after Buenrostro et al. (2013) DOI:10.1038/NMETH.2688. Paired end (50 bp) seqencing with an Illumina HiSeq 2500 was done by the Transcriptome and Genome Analysis Laboratory Goettingen.
+
+PLATFORM
+GPL17275 Illumina HiSeq 2500 (Drosophila melanogaster) GPL21306 Illumina HiSeq 4000 (Drosophila melanogaster)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

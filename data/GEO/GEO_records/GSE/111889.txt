@@ -1,0 +1,17 @@
+TITLE
+Longitudinal Multi’omics of the Human Microbiome in Inflammatory Bowel Disease
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: The main Inflammatory Bowel Disease (IBD) Multi'omics Database (IBDMDB) study includes multi’omics measurements from over 100 subjects, sampled biweekly over up to a year in both adult and pediatric patients with IBD (Crohn’s disease and ulcerative colitis), along with non-IBD controls. Data types include fecal metagenomes, metatranscriptomes, metabolomes, and proteomes, as well as host genetics, intestinal biopsy transcriptomes, epigenetics, and 16S amplicon profiles. Subjects’ medical histories and demographics are collected at baseline and medication, diet, and disease activity profiled longitudinally.  Methods: Methods: Total RNA was quantified using theQuant-iT™​ RiboGreen® RNA Assay Kit and normalized to 5ng/ul. Following plating, 2 uL of ERCC controls (using a 1:1000 dilution) were spiked into each sample. An aliquot of 200ng for each sample was transferred into library preparation which was an automated variant of​ ​the Illumina TruSeq™​ Stranded mRNA Sample Preparation Kit. This method preserves strand orientation of the RNA transcript. It uses oligo dT beads to select mRNA from the total RNA sample.  It is followed by heat fragmentation and cDNA synthesis from the RNA template. The resultant 500bp cDNA then goes through library preparation (end repair, base ‘A’ addition, adapter ligation, and enrichment) using Broad designed indexed adapters substituted in for multiplexing. After enrichment the libraries were quantified using Quant-iT PicoGreen (1:200 dilution). After normalizing samples to 5 ng/uL, the set was pooled and quantified using the KAPA Library Quantification Kit for Illumina Sequencing Platforms.  The entire process is in 96-well format and all pipetting is done by either Agilent Bravo or Hamilton Starlet. Pooled libraries were normalized to 2nM and denatured using 0.1 N NaOH prior to sequencing. Flowcell cluster amplification and sequencing were performed according to the manufacturer’s protocols using either the HiSeq 2000.
+
+DESIGN
+RNA-seq analysis of biopsy samples retrieved from CD, UC and non-IBD patients enrolled in the HMP2 project. NOTE: Submitter declares that the raw data will be submitted to dbGaP ( https://www.ncbi.nlm.nih.gov/gap ) because of patient privacy concerns.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

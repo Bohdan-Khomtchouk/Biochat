@@ -1,0 +1,17 @@
+TITLE
+Comprehensive, high-resolution binding energy landscapes reveal context dependencies of transcription factor binding
+
+ORGANISM
+synthetic construct
+
+SUMMARY
+Transcription factors (TFs) are primary regulators of gene expression in cells, where they bind specific genomic target sites to control transcription. Quantitative measurements of TF-DNA binding energies can improve the accuracy of predictions of TF occupancy and downstream gene expression in vivo and shed light on how transcriptional networks are rewired throughout evolution. Here, we present a novel sequencing-based TF binding assay and analysis pipeline (BET-seq, for Binding Energy Topography by sequencing) capable of providing quantitative estimates of binding energies for more than one million DNA sequences in parallel at high energetic resolution. Using this platform, we measured the binding energies associated with all possible combinations of 10 nucleotides flanking the known consensus DNA target for two model yeast TFs, Pho4 and Cbf1. A large fraction of these flanking mutations change overall binding energies by an amount equal to or greater than consensus site mutations, suggesting that current definitions of TF binding sites may be too restrictive. By systematically comparing estimates of binding energies output by deep neural networks (NN) and biophysical models trained on these data, we establish that dinucleotide specificities are sufficient to explain essentially all variance in observed binding behavior, with Cbf1 binding exhibiting significantly more non-additivity than Pho4. NN-derived binding energies agree with orthogonal biochemical measurements and reveal that dynamically occupied sites in vivo are both energetically and mutationally distant from the highest-affinity sites.
+
+DESIGN
+Examination of S. cerevisiae transcription factors, Pho4p (4 replicates) and Cbf1p (3 replicates), interacting with synthetic duplex DNA by BET-seq.
+
+PLATFORM
+GPL17769 Illumina MiSeq (synthetic construct) GPL19424 Illumina NextSeq 500 (synthetic construct)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

@@ -1,0 +1,17 @@
+TITLE
+The bacteriophage T4 MotB protein, a DNA-binding protein, improves phage fitness
+
+ORGANISM
+Escherichia virus T4
+
+SUMMARY
+Purpose: To investigated the role of MotB in T4 infections Method:  NapIV NS were grown to a cell density of ~4 x 10^8 cells/mL (OD600 ~0.4) then infected with either wild-type T4D+ or T4motBam at a MOI of 10.  RNA was isolated at 5  post-infection using method II of (Hinton 1989).  rRNA subtraction was performed with the bacterial RiboMinus Kit (Ambion) according to manufacturer instructions.  cDNA was prepared using the NEBNext strand specific kit (New England BioLabs) according to manufacturer instruction for libraries with 300-450 bp insert size with the following modifications.  Illumina adaptors sequences based on TruSeq HT Sample Prep Kits were purchase from Integrated DNA Technologies and used in the ligation step.  TruSeq-1 and TruSeq-2 primer were used for PCR enrichment of adaptor ligated DNA.  Library size was verified with a Bioanalyzer using an Agilent High Sensitivity DNA kit.  The concentration of each library was determined using the KAPA Library Quantification Kit for Illumina platforms.  Sequencing was performed by the NIDDK Genomics Core facility using a MiSeq system with the MiSeq 2 x 250 bp Sequencing Kit (Illumina). Result:  RNA-seq data revealed that the expression of only six late genes, which decreased from 2 to 4.8-fold, were significantly affected in the T4motBam infection relative to T4 wt at 5 min after infection.  The expression of early and middle genes did not change. Conclusion:   MotB is a bactericidal DNA-binding protein that improves the fitness of T4 infections.
+
+DESIGN
+To determine the effect of MotB on T4 gene expression, RNAseq was performed for NapIV nonsuppressing cells infected with either T4wt or T4motBam at 5 minutes post-infection.
+
+PLATFORM
+GPL24733 Illumina MiSeq (Escherichia virus T4)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

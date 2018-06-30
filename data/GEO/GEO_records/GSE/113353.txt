@@ -1,0 +1,17 @@
+TITLE
+DAOY-NERT2 Notch/Hypoxia Transcriptome Analysis
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Hyperactivation of Notch signaling and the cellular hypoxic response are frequently observed in cancers, with increasing reports of connections to tumor initiation and progression. The two signaling mechanisms are known to intersect, but while it is well established that hypoxia regulates Notch signaling, less is known about whether Notch can regulate the cellular hypoxic response. We now report that Notch signaling specifically controls expression of HIF2a, a key mediator of the cellular hypoxic response. Transcriptional upregulation of HIF2a by Notch under normoxic conditions leads to elevated HIF2a protein levels in primary breast cancer cells as well as in human breast cancer, medulloblastoma and renal cell carcinoma cell lines. The elevated level of HIF2a protein was in certain tumor cell types accompanied by down-regulation of HIF1a protein levels, indicating that high Notch signaling may drive a HIF1a-to-HIF2a switch. At the transcriptome level, the presence of HIF2a was required for approximately 21% of all Notch-induced genes: among the 1062 genes that were upregulated by Notch in medulloblastoma cells during normoxia, upregulation was abrogated in 227 genes when HIF2a expression was knocked down by HIF2a siRNA. In conclusion, our data show that Notch signaling affects the hypoxic response via regulation of HIF2a, which may be important for future cancer therapies.
+
+DESIGN
+DAOY-NERT2 cells, +/- Notch induction by Tamoxifen (TMX) for 48 hours, +/- hypoxia (1% O2) treatment for 48 hours, where HIF1a or HIF2a had been knocked down by siRNA, were subjected to RNA sequencing. The quality of the cDNA libraries was tested on an Agilent 2100 bioanalyzer. The libraries were sequenced on an Illumina HiSeq 2000 system, and the reads were aligned to the human genome (assembly hg19) and a transcriptome database (RefSeq and Ensembl) using bowtie. RPKM values were generated using rpkmforgenes.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

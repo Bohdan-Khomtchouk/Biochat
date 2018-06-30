@@ -1,0 +1,17 @@
+TITLE
+RppH can faithfully replace TAP to allow cloning of 5’-triphosphate carrying small RNAs
+
+ORGANISM
+Caenorhabditis elegans
+
+SUMMARY
+RNA interference was first described in the nematode Caenorhabditis elegans. Ever since, several new endogenous small RNA pathways have been described and characterized to different degrees. Much like plants, but unlike Drosophila and mammals, worms have RNA-dependent RNA Polymerases (RdRPs) that directly synthesize small RNAs using other transcripts as a template. The very prominent secondary small interfering RNAs, also called 22G-RNAs, produced by the RdRPs RRF-1 and EGO-1 in C. elegans, maintain the 5’ triphosphate group, stemming from RdRP activity, also after loading into an Argonaute protein. This creates a technical issue, since 5’PPP groups decrease cloning efficiency for small RNA sequencing. To increase cloning efficiency of these small RNA species, a common practice in the field is the treatment of RNA samples, prior to library preparation, with Tobacco Acid pyrophosphatase (TAP). Recently, TAP production and supply was discontinued, so an alternative must be devised. We turned to RNA 5’ pyrophosphohydrolase (RppH), a commercially available pyrophosphatase isolated from E. coli. Here we directly compare TAP and RppH in their use for small RNA library preparation.
+
+DESIGN
+A single RNA sample was divided into 6 technical replicates. Three of these technical replicates were treated with Tobacco Acid Phosphatase (TAP, Epicentre) and the other three, with RNA 5’Pyrophosphohydrolase (RppH, New England Biolabs, #M0356S).
+
+PLATFORM
+GPL18245 Illumina HiSeq 2500 (Caenorhabditis elegans)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

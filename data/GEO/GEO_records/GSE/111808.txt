@@ -1,0 +1,17 @@
+TITLE
+The E. coli global regulator DksA attenuates transcription during T4 infection
+
+ORGANISM
+Escherichia virus T4
+
+SUMMARY
+Purpose: We investigated how deletion of DksA or ppGpp, two E. coli global transcription regulators, affects T4 infection. Method: B606, B606 DdksA, and B606 ppGpp0 were grown at 37C to early/mid log phase (OD600 ~ 0.4) then infected with moi of 10 of either wt T4 or T4motAam and total RNA was isolated. 2.5 µg total RNA from each sample was treated with a Ribo-Zero rRNA Removal Kit (Gram-Negative Bacteria; Illumina San Diego, CA) to deplete rRNA. The enriched mRNA was fragmented, reverse-transcribed, ligated with dual indexes, and amplified using a TruSeq Stranded mRNA Library Prep Kit (Illumina, San Diego, CA). The resulting RNA-Seq libraries were pooled at equal concentrations and sequenced using on an Illumina MiSeq to generate 2 x 100 bp paired-end reads.   Read data in fastq format was demultiplexed and aligned to E. coli B str. DE3 (NC_012971.2) reference genome using STAR v2.5.2, retaining unmapped reads (Dobin, Davis et al. 2013).  Unmapped reads were then mapped in a second step to T4 reference (NC_000866.4).  In both cases, default alignment behavior was altered with the following arguments: --outFilterScoreMinOverLread 0 --outFilterMatchNmin 30 --outFilterMatchNminOverLread 0 --clip3pAdapterSeq AGATCGGAAGAGCGTCGTGTA --alignIntronMax 1. RNA gene counts in both reference genomes were then quantified using the same NCBI gene definitions utilized in mapping index construction using the subread featureCounts v1.4.6-p3 package (Liao, Smyth et al. 2014).  Differential expression between samples fchanges in gene expression was predetermined to entail a fold change of more than or equal to 2 and P value less than or equal to 0.05. at 5 minutes post-infection. Result: Both ppGpp0 and delta(dksA) increase wt T4 plaque size.  However, ppGpp0 does not significantly alter burst size/latent period and only modestly affects T4 transcript abundance, while delta(dskA) increases burst size (2-fold), does not affect latent period, and increases the abundance of several Pe RNAs at 5 min post-transcription. delta(dskA) also increases T4motAam plaque size with a much shorter latent period compared to T4motAam/wt infection, and the levels of specific middle RNAs increase due to more transcription from Pe's that extend into these middle genes. Conclusion:  We conclude that DksA attenuates T4 early gene expression. Consequently, delta(dksA) results in a more productive wt infection and ameliorates the poor expression of middle genes in a T4motAam infection.
+
+DESIGN
+Three strains of E. coli were used to determine the role of dksA and ppGpp in bacteriophage T4 infections: wt, delta(dksA), and ppGpp0. To determine the effect of MotA on global transcription, 2 strains of bacteriophage T4 were used: wt and motAam
+
+PLATFORM
+GPL24733 Illumina MiSeq (Escherichia virus T4)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

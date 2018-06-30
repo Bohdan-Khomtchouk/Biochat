@@ -1,0 +1,17 @@
+TITLE
+Targeted RNA-Seq of Human LPS-stimulated Monocytes
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Purpose: The purpose of this RNA-seq experiment was to perform a correlation analysis of mRNA expression levels in naïve CD4+ T cells and LPS-stimulated monocytes from patients with an IKZF1 mutant haploinsufficient phenotype (H167R-a and H167R-b are two siblings carrying IKZF1 p.H167R mutation) versus patients with an IKZF1 mutant dominant negative phenotype (C1, G1) along with five healthy normal controls (HC).
+
+DESIGN
+Method: Targeted RNA-seq library preparation was carried out using Ion AmpliSeq Transcriptome Human Gene Expression Kit (Life Technologies) which is designed to profile over 20,000 distinct human RefSeq genes using a highly multiplexed amplification method. Each amplicon represents a unique targeted gene (one transcript per gene). The average size of each amplicon is ~150 bp. For library preparation, each sample was run in duplicate and a cDNA library was first generated from a minimum of 10 ng of total RNA. The cDNA was barcoded and amplified using Ion AmpliSeq technology, and the amplified cDNA Libraries were evaluated for quality and quantified using Agilent Bioanalyzer high sensitivity chip. Libraries were then diluted to 100 pM and pooled equally, with four individual samples per pool. Pooled libraries were amplified and enriched using the Ion Chef System (Life Technologies). Templated libraries were then sequenced on an Ion Torrent Proton sequencing system (Life Technologies), using Ion PI HiQ kit and chip version 3.
+
+PLATFORM
+GPL17303 Ion Torrent Proton (Homo sapiens)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

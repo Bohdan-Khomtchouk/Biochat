@@ -1,0 +1,17 @@
+TITLE
+Genome-Wide DNA methylation analysis of tumor and adjacent normal prostate tissues
+
+ORGANISM
+Homo sapiens
+
+SUMMARY
+Archival formalin-fixed paraffin-embedded tissues were collected. The slides were reviewed by a pathologist to identify representative tumor tissue blocks. Enrichment of tumor cells was performed by tissue macro-dissection of predetermined areas, as outlined by Haemotoxylin and Eosin staining. Seven-micron thick sections in isolated areas of interest with at least 50% tumor cellularity were dissected to be used as tumor samples. Normal prostate samples were obtained from the adjacent tissues demonstrating no tumor involvement. Genomic DNA extraction was conducted using the Illumina FFPE DNA recovery kit. Following bisulfite conversion, DNA methylation analysis of the samples was performed using the Illumina Infinium methylation 450k bead chip array (San Diego, CA), according to the manufacturer’s protocol. Both tumor and normal samples were assayed in one experiment to avoid batch effect. The resulting methylated and unmethylated signal intensity data were imported into R 3.4.2 for analysis. Normalization was performed using Illumina normalization method with background correction using the minfi package in R 3.4.2.
+
+DESIGN
+Bisulfate converted DNA, extracted from 47 FFPE prostate tissues (31 tumors and 16 adjacent normal), were hybridized to illumina infinium methylation 450k array.
+
+PLATFORM
+GPL13534 Illumina HumanMethylation450 BeadChip (HumanMethylation450_15017482)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

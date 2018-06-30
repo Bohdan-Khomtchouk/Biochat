@@ -1,0 +1,17 @@
+TITLE
+Highly scalable generation of DNA methylation profiles in single cells
+
+ORGANISM
+Homo sapiens ; Mus musculus
+
+SUMMARY
+We present a novel method: single-cell combinatorial indexing for methylation analysis (sci-MET), which is the first highly scalable assay for whole genome methylation profiling of single cells. We use sci-MET to produce 3,282 total single-cell bisulfite sequencing libraries and achieve read alignment rates of 68± 8%, comparable to those of bulk cell methods. As a proof of concept, we applied sci-MET to deconvolve the cellular identity of a mixture of three human cell lines. Next, we applied sci-MET to mouse cortical tissue, which successfully identified excitatory and inhibitory neuronal populations as well as non-neuronal cell types.
+
+DESIGN
+Tissue culture cell lines (GM12878, Coriell; HEK293, ATCC CRL-1554; Primary Fibro., inguinal fibroblast, GM05756, Coriell, passage 7) were cultured and nuclei were isolated. The three cell lines were both pooled to serve as randomized controls, and processed independently, as described in the available Methods section.  Sixty-day-old C57BL/6J mice had their entire cortex isolated. Three biological replicates were independently processed as described in the available Methods section.  Additional files are available under BioProject ID: PRJNA397747 and Study Accession: SRP127273.
+
+PLATFORM
+GPL11154 Illumina HiSeq 2000 (Homo sapiens) GPL18573 Illumina NextSeq 500 (Homo sapiens) GPL19057 Illumina NextSeq 500 (Mus musculus) GPL21273 HiSeq X Ten (Mus musculus)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .

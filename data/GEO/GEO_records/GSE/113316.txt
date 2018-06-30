@@ -1,0 +1,17 @@
+TITLE
+Differential expression and co-expression gene networks reveal candidate biomarkers of boar taint in non-castrated pigs (RNA-seq data set)
+
+ORGANISM
+Sus scrofa
+
+SUMMARY
+Boar taint (BT) is an offensive odour or taste observed in pork from a proportion of non-castrated male pigs. Surgical castration is effective in avoiding BT, but animal welfare issues have created an incentive for alternatives such as genomic selection. In order to find candidate biomarkers, gene expression profiles were analysed from tissues of non-castrated pigs grouped by their genetic merit of BT. Differential expression analysis revealed substantial changes with log-transformed fold changes of liver and testis from −3.39 to 2.96 and −7.51 to 3.53, respectively. Co-expression network analysis revealed one module with a correlation of −0.27 in liver and three modules with correlations of 0.31, −0.44 and −0.49 in testis. Differential expression and co-expression analysis revealed candidate biomarkers with varying biological functions: phase I (COQ3, COX6C, CYP2J2, CYP2B6, ACOX2) and phase II metabolism (GSTO1, GSR, FMO3) of skatole and androstenone in liver to steroidgenesis (HSD17B7, HSD17B8, CYP27A1), regulation of steroidgenesis (STARD10, CYB5R3) and GnRH signalling (MAPK3, MAP2K2, MAP3K2) in testis. Overrepresented pathways included “Ribosome”, “Protein export” and “Oxidative phosphorylation” in liver and “Steroid hormone biosynthesis” and “Gap junction” in testis. Future work should evaluate the biomarkers in large populations to ensure their usefulness in genomic selection programs.
+
+DESIGN
+Total RNA was extracted from liver and testis of 48 Danish Landrace pigs with low- medium and high genetic merit of boar taint and sequenced by Illumina HiSeq 2500.
+
+PLATFORM
+GPL19176 Illumina HiSeq 2500 (Sus scrofa)
+
+CITATIONS
+28939879 , 29438444

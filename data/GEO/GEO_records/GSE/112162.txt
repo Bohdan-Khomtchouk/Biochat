@@ -1,0 +1,17 @@
+TITLE
+Rhizophora mucronata Lam. de novo transcriptome - Gene expression estimation
+
+ORGANISM
+Rhizophora mucronata
+
+SUMMARY
+Rhizophora mucronata Lam., a prevalent mangrove variety of Indo-Pacific region is reported to defy saline stress up to 40 ppt, but the genome or transcriptome behind this tolerance is yet to be investigated. As an initiative to create a reference sequence database, we have forged a set of 46,366,348 paired end RNA-Seq raw reads of Rhizophora mucronata Lam. leaf tissues from Illumina HiSeq 2500 platform (SRA study accession SRP093200 ; Bioproject accession PRJNA345155). All possible gene transcripts were then reconstructed from the RNA raw seq data and 93960 Trinity assembled, annotated transcripts that are being actively expressed at a given time is proposed (TSA accession GGEC00000000). To estimate gene transcript expression, we used Bowtie 2 programme and successfully aligned back up to 95.14% of the filtered reads to the assembled transcriptome. We allowed up to 1-mismatches in the seed region (length =31bp) and all multiple mapped position were reported. Of all filtered reads about 95.14% of reads from each sample were properly aligned back to the assembled transcriptome. Overall we found 52,153 unique transcripts which have expression > =1 FPKM.
+
+DESIGN
+Leaves randomly collected from three individual plants were pooled into two replicates and used for total RNA isolation using LiCl cold extraction method. RNA pool with RIN value 7.2 was processed for mRNA purification using poly-T oligo-attached magnetic beads. Isolated mRNA was then fragmented into small pieces using divalent cations under elevated temperature. The cleaved RNA fragments were used as the template for reverse transcriptase to synthesize first strand cDNA followed by second strand cDNA synthesis and sequencing on Illumina HiSeq 2500 platform. After the sequencing run, Illumina RNA-Seq data were processed to generate FASTQ files and de novo assembled using Trinity (SRA study accession SRP093200 ; Bioproject accession PRJNA345155; TSA accession GGEC00000000). To estimate gene transcript expression, we used Bowtie 2 programme and successfully aligned back up to 95.14% of the filtered reads to the assembled transcriptome. We allowed up to 1-mismatches in the seed region (length =31bp) and all multiple mapped position were reported. Of all filtered reads about 95.14% of reads from each sample were properly aligned back to the assembled transcriptome. Overall we found 52,153 unique transcripts which have expression > =1 FPKM.
+
+PLATFORM
+GPL24756 illumina HiSeq 2500 (Rhizophora mucronata)
+
+CITATIONS
+Has this study been published? Please login to update or notify GEO .
