@@ -5,6 +5,6 @@
 (push (merge-pathnames "../../cl-nlp/" *dir*) asdf:*central-registry*)
 (push (merge-pathnames "../../crawlik/" *dir*) asdf:*central-registry*)
 
-(defparameter cl-user::*lla-configuration* '(:libraries "libopenblas.so"))
+(defparameter cl-user::*lla-configuration* '(:libraries ("libopenblas.so")))
 
 (ql:quickload :biochat)
