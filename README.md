@@ -2,52 +2,10 @@
 <img src="https://user-images.githubusercontent.com/9893806/38167027-35f89d3c-34e3-11e8-9c84-18a2c3ea20f0.png">
 </div>
 
-
-## Introduction
-
-### The Problem:
-
-Currently, there exist thousands of biological databases (e.g., [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/), [miRBase](http://www.mirbase.org/), [TCGA](https://cancergenome.nih.gov/), [Human Epigenome Atlas](https://www.genboree.org/epigenomeatlas/index.rhtml), etc.) containing terabytes of publicly available data.  With so much data scattered in so many centralized locations, it is virtually impossible to facilitate database interoperability at scale, making the computational process of unified and comprehensive data-driven biological discovery difficult.  
-
-### Proposed Solution:
-
-We consider the impact of decentralizing the metadata describing the contents of these respective data files, and computing on these metadata descriptions through a combination of human-based and machine learning-based approaches within the context of a blockchain infrastructure.  Specifically, we seek to test the hypothesis that collective intelligence (as quantified by observing and learning from multiple users' behavior/interactions with metadata recorded on the blockchain), in combination with training sources such as literature citations and natural language processing techniques, is better and more effective in finding natural groupings and emergent structure within large volumes of biological data compared to arbitrarily depositing/storing data files in an ad-hoc manner in a centralized database(s).
-
-### The Strategy:
-
-If you want to efficiently integrate next-generation sequencing (NGS) and microarray datasets across diverse heterogeneous sources, then first pull down their respective metadata and decentralize it via a blockchain.  Then, use natural language processing (NLP) algorithms to categorize the metadata into self-similar and closely related modules.  Then, track user behavior in interacting with these modules via mouse clicks that record the user's IP address, timestamp, input query, output clicked on, and NLP settings directly onto the blockchain.  In other words, refine the machine-generated modules with human touch.  Then, use literature co-citation information to further refine the accuracy of this NLP+clicks system, assuming that papers that cite one another presumably contain biological data that is related by some common theme or subject.  Wrap this 3-layer system (NLP/clicks/citations) into a neural network while treating the user clicks as a collective intelligence-driven Bayesian framework that naturally evolves over time as `Biochat` grows its robust and diverse userbase, where each user brings their unique set of skills and expertise in biology to the framework on a daily basis.
-
 ## Screenshot
 
 <img width="839" alt="screen shot 2018-03-04 at 10 33 54 pm" src="https://user-images.githubusercontent.com/9893806/36960584-7b34f7f2-1ffc-11e8-9b9f-e17aea59c11e.png">
 
-If you're really interested in one of those outputs (e.g., because it looks so relevant to your input), you're likely to click the PMID (i.e., PubMed ID) to navigate to the respective publication to learn more information about the respective study that generated the data.  In doing so, your click is registered as a new block on the blockchain -- where each block contains the user's IP address, timestamp, input query, output clicked on, and NLP settings -- as described in the section above.  In this framework, user interactions are treated like as if they are cryptocurrency payment transactions, whose provenance can be traced back and monitored in real-time.  
-
-#### Blockchains and consensus
-
-Similarly to the concept behind the Proof-of-Work (PoW) algorithm, the ranking of output results will only be affected system-wide once consensus is reached amongst a sufficiently diverse set of users.  This is similar to the concept of cryptocurrency miners competing against each other to complete transactions on the network and getting rewarded for it with Bitcoin.  As such, for any given input, users are motivated/incentivized to click on PMID outputs that will match the double-blind activity of other geographical users.  Instead of being offered a coin as a reward for these "mining" efforts, users are rewarded with a re-ordered set of output results that more accurately reflect current community consensus for top-ranked hits via the collective intelligence that was captured during this onboarding process.  Therefore, `Biochat` is driven by altruism not greed, since it would technically be possible to call up your (X number) of buddies throughout the world and have everybody click on the same output for some identical input search string.  Although such a comical scenario cannot be ruled out when the extrinsic motivator is purely financial (e.g., mining a new altcoin), it is highly implausible when the intrinsic motivator is altruistic in nature -- benefiting biological data science through your unique set of skills, knowledge, and expertise in a given area(s) of inquiry.  Since the biological research community is extremely diverse (e.g., a fly geneticist is likely to have a very different set of expertise/knowledge than an infectious disease immunologist or a bacteriologist), this leads to the testable hypothesis described above (Proposed Solution section).               
-
-## Software name, history, and call for feedback/suggestions
-
-`Biochat` is about teaching biological datasets to learn to talk to each other, i.e., to learn to communicate with each other by matching and pairing similar data records across the biological data-verse using human-trained AI (via clicks and citations).  It was inspired by the field called the [Internet of Things (IoT)](https://www.upwork.com/hiring/for-clients/mobile-apps-impact-internet-things/), where hardware devices can communicate via a wireless network (e.g., you can send a message from your phone to your coffee machine to make you an espresso).  By abstracting the concept of "things" from hardware devices to software devices, you begin to deal with a kind of "Internet of Data" and, since biological data science is very domain-specific in its terminology, we began to refer to it locally as the "Internet of Omics".  However, given that we were coining a new term in the lab, we thought it would be more appropriate to just go with a simpler title for the URL, like "Biochat", but quickly realized that the domain name biochat.com was already taken and in-use by a completely unrelated business that then put up its domain name for sale at $50,000 and is currently squatting on it.  So we went with a cooler domain name like www.biochat.ai :sunglasses:
-
-All being said, we are very flexible on the software name and would welcome suggestions.  Some contenders we have heard so far include `blockblockbio`, `metablox`, `peopleomics`, `tron.bio`, and even the fun-sounding `biojibberjabber`.  Feel free to open up a Github issue to comment on any of these topics.    
-
-## Software significance
-
-The biological data-verse is expanding every day, with new experimental data published daily.  Biology is done in many different model organisms (e.g., human, mouse, rat, etc.), with many different next-generation sequencing types (e.g, ChIP-seq, RNA-seq, etc.), in many different cell lines (e.g., K562, NHEK, etc.), focusing on many different transcription factors, epigenetic modifications, etc.  Multidimensionally integrating all this information is essential to data-driven discovery (e.g., [cancer cures could already exist in big data](https://www.fastcompany.com/3063530/cancer-cures-could-already-exist-in-big-data)).   Specifically, pairing ostensibly unrelated datasets (e.g., from different organisms, NGS types, age groups, cell lines, etc.) can inform and contribute deeper understanding of a variety of biological questions ranging from cancer to aging.  `Biochat`'s mission is to fundamentally transform how people perform biological data science by unifying it, going from thousands of scattered database silos (that act as storage repositories) to 1 intelligent decentralized framework (that acts as an AI to integrate large-scale data, thanks to the neural network architecture described above), thereby opening doors to more biological breakthroughs based on existing data.  
-
-## Long-term vision (infographic)
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/9893806/29490594-f18fa890-84f5-11e7-9fd4-d9e366b1dc64.gif">
-</div>
-
-## Why Lisp?
-
-`Biochat` is written in Common Lisp.  Deal with it :sunglasses:  
-
-Or just read the "Why Lisp?" section at: www.biolisp.com
 
 ## Installation (for developers only)
 
@@ -159,18 +117,6 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 ## Acknowledgements
 
 This software is thanks to the amazing work done by MANY people in the open source community of biological databases (GEO, PubMed, etc.).  Some of the computing for this project was performed on the [Sherlock cluster](https://www.sherlock.stanford.edu). We would like to thank Stanford University and the Stanford Research Computing Center for providing computational resources and support that contributed to these research results.
-
-## Funding
-
-`Biochat` is supported by the National Institute on Aging of the National Institutes of Health under Award Number T32 AG0047126 awarded to Bohdan Khomtchouk. The content is solely the responsibility of the author(s) and does not necessarily represent the official views of the National Institutes of Health.
-
-## Contributors
-* [Vsevolod Dyomkin](https://vseloved.github.io/) -- Common Lisp programming
-* [Kasra A. Vand](https://www.wikiart.org/en/kasramvd) -- logo art design
-* You?
-
-## YouTube
-https://www.youtube.com/watch?v=TFwstroBoy4&t
 
 ## Citation
 Coming soon!
