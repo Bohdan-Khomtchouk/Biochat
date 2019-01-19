@@ -119,4 +119,4 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 This software is thanks to the amazing work done by MANY people in the open source community of biological databases (GEO, PubMed, etc.).  Some of the computing for this project was performed on the [Sherlock cluster](https://www.sherlock.stanford.edu). We would like to thank Stanford University and the Stanford Research Computing Center for providing computational resources and support that contributed to these research results.
 
 ## Citation
-Coming soon!
+https://doi.org/10.1101/480020
