@@ -223,7 +223,8 @@
      :type type
      :id (parse-integer (pathname-name file))
      :title (? raw (1+ (position "TITLE" raw :test 'string=)))
-     :organism (? raw (1+ (position "ORGANISM" raw :test 'string=)))
+     :organism (when-it (position "ORGANISM" raw :test 'string=)
+                 (? raw (1+ it)))
      :summary (when-it (position "SUMMARY" raw :test 'string=)
                 (? raw (1+ it)))
      :design (when-it (position "DESIGN" raw :test 'string=)
