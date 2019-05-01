@@ -30,12 +30,10 @@
 
 ;;; comparison of documents
 
-(defun tok-closest-recs (rec &key (measure 'tfidf-sim))
-  (with ((rez (sort (map* ^(pair % (call measure rec %))
-                          *geo-db*)
-                    '> :key 'rt)))
-    (when (plusp (length rez))
-      (subseq rez 1))))  ; leave out self
+(defun tok-closest-recs (rec measure &key (n 10))
+  (apply 'mapcar ^(pair (? *geo-db* %) %%)
+         (multiple-value-list (closest-vecs rec *geo-db* measure
+                                            :n n))))
 
 (defun tfidf-sim (rec1 rec2 &key (tfidf 'tfidf))
   (with ((lemmas1 (lemmas rec1))
@@ -49,6 +47,6 @@
 
 (defun bm25-sim (rec1 rec2 &key (k1 1.2))
   (tfidf-sim rec1 rec2 :tfidf ^(* (/ (1+ k1)
-                                       (+ k1 (? *tf* %)))
-                                    (? *tf* %)
-                                    (? *idf* %))))
+                                     (+ k1 (? *tf* %)))
+                                  (? *tf* %)
+                                  (? *idf* %))))

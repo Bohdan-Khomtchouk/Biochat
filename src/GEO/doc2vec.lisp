@@ -39,37 +39,8 @@
 
 ;;; simple vector similarity
 
-(defun closest-vecs (vec vecs measure &key (n 10))
-  (let ((maxs '(0))
-        (args '(maxs)))
-    (dotimes (i (length vecs))
-      (with ((v (svref vecs i))
-             (sim (call measure vec v))
-             (ind (doindex (j max maxs
-                              j)
-                    (when (< sim max)
-                      (return j)))))
-        (when (plusp ind)
-          (:= maxs (append (subseq maxs 0 ind)
-                           (list sim)
-                           (subseq maxs ind))
-              args (append (subseq args 0 ind)
-                           (list i)
-                           (subseq args ind)))
-          (when (> (length maxs) (1+ n))
-            (pop maxs)
-            (pop args)))))
-    (reversef args)
-    (reversef maxs)
-    (when (>= (first maxs) 1)
-      (pop args)
-      (pop maxs))
-    (values (take n args)
-            (take n maxs))))
-
 (defun vec-closest-recs (rec &key (measure 'cos-sim) (n 10))
-  (apply 'mapcar ^(pair (? *geo-db* %)
-                        %%)
+  (apply 'mapcar ^(pair (? *geo-db* %) %%)
          (multiple-value-list (closest-vecs (geo-vec rec) *geo-vecs* measure
                                             :n n))))
 
