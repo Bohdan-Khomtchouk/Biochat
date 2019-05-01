@@ -8,11 +8,11 @@
 (defvar *hunch* (hunch:start-web 3344))
  
 (defparameter *geo-sim-methods*
-  '((tfidf-sim "TFIDF similarity")
-    (bm25-sim "BM25 similarity - a variant of TFIDF")
-    (cos-sim "Cosine similarity of document vectors")
+  '((cos-sim "Cosine similarity of document vectors")
     (euc-sim "Euclidian distance-based similarity of document vectors")
     (eucos-sim "Euclidian-cosine averaged similarity")
+    (tfidf-sim "TFIDF similarity")
+    (bm25-sim "BM25 similarity - a variant of TFIDF")
     (smoothed-cos-sim "Smoothed cosine similarity")
     #+nil (wn-sim "Pubmed Wordnet-based similarity of documents")))
 
