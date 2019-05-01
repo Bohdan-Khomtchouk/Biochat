@@ -30,7 +30,7 @@
 
 ;;; comparison of documents
 
-(defun tok-closest-recs (rec measure &key (n 10))
+(defun tok-closest-recs (rec &key (measure 'tfidf-sim) (n 10))
   (apply 'mapcar ^(pair (? *geo-db* %) %%)
          (multiple-value-list (closest-vecs rec *geo-db* measure
                                             :n n))))
